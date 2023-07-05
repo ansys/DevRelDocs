@@ -1,0 +1,4300 @@
+{
+  "openapi": "3.0.2",
+  "info": {
+    "title": "optiSLang Web Service REST API",
+    "description": "
+	The REST API allows you to manage instances of optiSlang Web Service. 
+    Most of the provided API endpoints focus on the following:
+    
+    **Users** 
+    - Register new or remove existing users.  
+    - Change user level or password of existing users.
+    
+    **Projects**  
+    - Retrieve registered project data 
+    - get details about an existing project  
+    - register an externally started project
+    
+    **Wizards**
+    - Retrieve existing wizards or upload a new wizard.
+    
+    Additionally, there is functionality to execute Python scripts and manage custom services.
+	",
+    "version": "2023R2"
+  },
+  "components": {
+    "securitySchemes": {
+      "BasicAuth": {
+        "type": "http",
+        "scheme": "basic"
+      },
+      "BearerAuth": {
+        "type": "http",
+        "scheme": "bearer"
+      }
+    },
+    "schemas": {
+      "optislang_web_service_response_status": {
+        "type": "string",
+        "enum": [
+          "failure",
+          "success"
+        ],
+        "description": "Success state"
+      },
+      "python_response_message": {
+        "oneOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "object",
+            "required": [
+              "result",
+              "stdout"
+            ],
+            "properties": {
+              "result": {
+                "type": "object"
+              },
+              "stderr": {
+                "type": "string",
+                "description": "Standard error output"
+              },
+              "stdout": {
+                "type": "string",
+                "description": "Standard output"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "responses": {
+      "Unauthorized": {
+        "description": "Unauthorized"
+      },
+      "Unauthorized_JSON": {
+        "description": "Unauthorized",
+        "content": {
+          "application/json": {
+            "schema": {
+              "type": "object",
+              "required": [
+                "status",
+                "message"
+              ],
+              "properties": {
+                "status": {
+                  "$ref": "#/components/schemas/optislang_web_service_response_status"
+                },
+                "message": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "security": [
+    {
+      "BasicAuth": []
+    },
+    {
+      "BearerAuth": []
+    }
+  ],
+  "paths": {
+    "/add_user": {
+      "post": {
+        "summary": "Add user.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "name",
+                  "password"
+                ],
+                "properties": {
+                  "name": {
+                    "type": "string",
+                    "description": "User name"
+                  },
+                  "password": {
+                    "type": "string",
+                    "description": "User password"
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/change_user_password": {
+      "post": {
+        "summary": "Set a new password for user.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "name",
+                  "password"
+                ],
+                "properties": {
+                  "name": {
+                    "type": "string",
+                    "description": "User who will have their password changed"
+                  },
+                  "password": {
+                    "type": "string",
+                    "description": "New user password"
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/create_working_dir": {
+      "post": {
+        "summary": "Create a new project working directory.",
+        "description": "Working directory is created relative to configured projects directory. The provided base_name is used to create a unique directory name.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "base_name"
+                ],
+                "properties": {
+                  "base_name": {
+                    "type": "string",
+                    "description": "Base name for unique working directory path"
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "oneOf": [
+                        {
+                          "type": "string",
+                          "description": "Error message"
+                        },
+                        {
+                          "type": "object",
+                          "required": [
+                            "relative_location"
+                          ],
+                          "properties": {
+                            "relative_location": {
+                              "type": "string",
+                              "description": "Actual path of the created working directory, relative to defined project base directory"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/discover_projects": {
+      "post": {
+        "summary": "Discover currently running optiSLang projects within local network.",
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "oneOf": [
+                        {
+                          "type": "string",
+                          "description": "Error message"
+                        },
+                        {
+                          "type": "array",
+                          "items": {
+                            "type": "object"
+                          },
+                          "description": "Discovered projects"
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/download_wizard": {
+      "get": {
+        "summary": "Download an optiSLang Web App Wizard .",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "wizard_id",
+            "schema": {
+              "type": "string"
+            },
+            "description": "ID of the wizard to download."
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Binary wizard file data",
+            "content": {
+              "application/octet-stream": {
+                "schema": {
+                  "type": "string",
+                  "format": "binary"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          },
+          "500": {
+            "description": "Server error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/fetch_result_files": {
+      "get": {
+        "summary": "Download registered result files for a project. Zipped if more than one.",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "file_paths",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "description": "List of result file paths to download. Format: file_paths[0]=/path/to/file_1&...&file_paths[n]=/path/to/file_n."
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Binary result file data",
+            "content": {
+              "application/octet-stream": {
+                "schema": {
+                  "type": "string",
+                  "format": "binary"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          },
+          "500": {
+            "description": "Server error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/get_actions": {
+      "get": {
+        "summary": "Get defined actions.",
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "array",
+                      "items": {
+                        "type": "object"
+                      },
+                      "description": "Defined actions"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/get_actor_properties": {
+      "post": {
+        "summary": "Get properties of certain actor.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "project_id",
+                  "uid"
+                ],
+                "properties": {
+                  "project_id": {
+                    "type": "string",
+                    "description": "Project ID"
+                  },
+                  "uid": {
+                    "type": "string",
+                    "description": "Actor ID"
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/get_actor_states": {
+      "post": {
+        "summary": "Get states of certain actor.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "project_id",
+                  "uid"
+                ],
+                "properties": {
+                  "project_id": {
+                    "type": "string",
+                    "description": "Project ID"
+                  },
+                  "uid": {
+                    "type": "string",
+                    "description": "Actor ID"
+                  },
+                  "include_state_info": {
+                    "type": "boolean",
+                    "description": "Determines if detailed state info is to be included"
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "array",
+                      "items": {
+                        "type": "object"
+                      },
+                      "description": "List of recorded states"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/get_actor_status_info": {
+      "post": {
+        "summary": "Get certain state of certain actor.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "project_id",
+                  "uid",
+                  "hid"
+                ],
+                "properties": {
+                  "project_id": {
+                    "type": "string",
+                    "description": "Project ID"
+                  },
+                  "uid": {
+                    "type": "string",
+                    "description": "Actor ID"
+                  },
+                  "hid": {
+                    "type": "string",
+                    "description": "Actor State ID"
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/get_actor_tree": {
+      "post": {
+        "summary": "Get project actor schematic tree.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "project_id"
+                ],
+                "properties": {
+                  "project_id": {
+                    "type": "string",
+                    "description": "Project ID"
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/get_automail": {
+      "post": {
+        "summary": "Get auto mail configuration.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "project_id"
+                ],
+                "properties": {
+                  "project_id": {
+                    "type": "string",
+                    "description": "Project ID"
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "oneOf": [
+                        {
+                          "type": "string",
+                          "description": "Error message"
+                        },
+                        {
+                          "type": "object"
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/get_basic_project_info": {
+      "post": {
+        "summary": "Get basic project info.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "project_id"
+                ],
+                "properties": {
+                  "project_id": {
+                    "type": "string",
+                    "description": "Project ID"
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "object",
+                      "required": [
+                        "location",
+                        "machine",
+                        "name",
+                        "state",
+                        "timestamp",
+                        "user",
+                        "base_working_dir"
+                      ],
+                      "properties": {
+                        "location": {
+                          "type": "string",
+                          "description": "Actual location of project file on disc"
+                        },
+                        "machine": {
+                          "type": "string",
+                          "description": "Name of machine the project has been registered/started on originally"
+                        },
+                        "name": {
+                          "type": "string",
+                          "description": "Project name"
+                        },
+                        "state": {
+                          "type": "string",
+                          "description": "Project status"
+                        },
+                        "timestamp": {
+                          "type": "integer",
+                          "description": "Registration/Start timestamp"
+                        },
+                        "user": {
+                          "type": "string",
+                          "description": "Project owner"
+                        },
+                        "server_address": {
+                          "type": "string",
+                          "description": "Host ip the project is currently running on"
+                        },
+                        "server_port": {
+                          "type": "integer",
+                          "description": "Host port the project is currently running on"
+                        },
+                        "lock_info_msg": {
+                          "type": "string",
+                          "description": "Lock info message if project is currently locked"
+                        },
+                        "annotation": {
+                          "type": "string",
+                          "description": "Project annotation"
+                        },
+                        "base_working_dir": {
+                          "type": "string",
+                          "description": "Project base working directory"
+                        },
+                        "connections": {
+                          "type": "array",
+                          "description": "Node connections",
+                          "items": {
+                            "type": "object"
+                          }
+                        },
+                        "placeholders": {
+                          "type": "object",
+                          "description": "Project placeholder definition"
+                        },
+                        "project_id": {
+                          "type": "string",
+                          "description": "Project ID"
+                        },
+                        "project_manager_id": {
+                          "type": "string",
+                          "description": "Project manager ID"
+                        },
+                        "registered_files": {
+                          "type": "array",
+                          "description": "Project registered files",
+                          "items": {
+                            "type": "object"
+                          }
+                        },
+                        "settings": {
+                          "type": "object",
+                          "description": "Project settings"
+                        },
+                        "working_dir": {
+                          "type": "string",
+                          "description": "Project working dir"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/get_version": {
+      "get": {
+        "summary": "Get version.",
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "Version string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/get_current_username": {
+      "get": {
+        "summary": "Get name of currently logged in user.",
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "Name of currently logged in user"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/get_visualization_user_settings": {
+      "post": {
+        "summary": "Get user settings for the visualization interface.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "project_id"
+                ],
+                "properties": {
+                  "project_id": {
+                    "type": "string",
+                    "description": "Project ID"
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/get_interface_settings": {
+      "get": {
+        "summary": "Get ui settings.",
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "object",
+                      "required": [
+                        "auto_mail_options",
+                        "additional_user_permissions",
+                        "project_controls",
+                        "project_discovery",
+                        "visible_properties",
+                        "properties_modifiable",
+                        "parent_origin",
+                        "text_file_extensions",
+                        "force_forward_to_monitoring"
+                      ],
+                      "properties": {
+                        "auto_mail_options": {
+                          "type": "boolean",
+                          "description": "Show auto mail configuration"
+                        },
+                        "additional_user_permissions": {
+                          "type": "boolean",
+                          "description": "Show additional user permission configuration"
+                        },
+                        "project_controls": {
+                          "type": "boolean",
+                          "description": "Show project controls"
+                        },
+                        "project_discovery": {
+                          "type": "boolean",
+                          "description": "Support manual project discovery"
+                        },
+                        "visible_properties": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          },
+                          "description": "List of visible actor properties"
+                        },
+                        "properties_modifiable": {
+                          "type": "boolean",
+                          "description": "Allow property modification"
+                        },
+                        "parent_origin": {
+                          "type": "string",
+                          "description": "Parent window URI if used in embedded mode. Omit this setting to disable embedded mode"
+                        },
+                        "text_file_extensions": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          },
+                          "description": "List of file extensions that are to be handled as text files for result files preview"
+                        },
+                        "force_forward_to_monitoring": {
+                          "type": "boolean",
+                          "description": "Force forwarding to project monitoring after project start from App Wizards"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/get_permissions": {
+      "post": {
+        "summary": "Get project permissions for current user.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "project_id"
+                ],
+                "properties": {
+                  "project_id": {
+                    "type": "string",
+                    "description": "Project ID"
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "oneOf": [
+                        {
+                          "type": "string",
+                          "description": "Error message"
+                        },
+                        {
+                          "type": "object",
+                          "required": [
+                            "status",
+                            "interaction"
+                          ],
+                          "properties": {
+                            "status": {
+                              "type": "boolean",
+                              "description": "Determines if user has status view permission for this project"
+                            },
+                            "interaction": {
+                              "type": "boolean",
+                              "description": "Determines if user has interaction permission for this project"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/get_projects": {
+      "get": {
+        "summary": "Get owned and accessible non-owned projects based on session user name.",
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "required": [
+                          "allow_delete",
+                          "custom_data",
+                          "directory_size",
+                          "id",
+                          "location",
+                          "machine",
+                          "name",
+                          "state",
+                          "timestamp",
+                          "user",
+                          "wizard"
+                        ],
+                        "properties": {
+                          "allow_delete": {
+                            "type": "boolean",
+                            "description": "Allow deletion of project. Will be false as long as optiSLang project is up and running"
+                          },
+                          "custom_data": {
+                            "type": "object",
+                            "description": "Custom data"
+                          },
+                          "directory_size": {
+                            "type": "integer",
+                            "description": "Working directory size"
+                          },
+                          "id": {
+                            "type": "integer",
+                            "description": "Project ID"
+                          },
+                          "location": {
+                            "type": "string",
+                            "description": "Actual location of project file on disc"
+                          },
+                          "machine": {
+                            "type": "string",
+                            "description": "Name of machine the project has been registered/started on originally"
+                          },
+                          "name": {
+                            "type": "string",
+                            "description": "Project name"
+                          },
+                          "timestamp": {
+                            "type": "integer",
+                            "description": "Registration/Start timestamp"
+                          },
+                          "user": {
+                            "type": "string",
+                            "description": "Project owner"
+                          },
+                          "wizard": {
+                            "type": "string",
+                            "description": "Name of wizard that has been used to start the project"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/get_project": {
+      "post": {
+        "summary": "Get project information for a specific project.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "project_id"
+                ],
+                "properties": {
+                  "project_id": {
+                    "type": "string",
+                    "description": "Project ID"
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "object",
+                      "required": [
+                        "allow_delete",
+                        "custom_data",
+                        "directory_size",
+                        "id",
+                        "location",
+                        "machine",
+                        "name",
+                        "state",
+                        "timestamp",
+                        "user",
+                        "wizard"
+                      ],
+                      "properties": {
+                        "allow_delete": {
+                          "type": "boolean",
+                          "description": "Allow deletion of project. Will be false as long as optiSLang project is up and running"
+                        },
+                        "custom_data": {
+                          "type": "object",
+                          "description": "Custom data"
+                        },
+                        "directory_size": {
+                          "type": "integer",
+                          "description": "Working directory size"
+                        },
+                        "id": {
+                          "type": "integer",
+                          "description": "Project ID"
+                        },
+                        "location": {
+                          "type": "string",
+                          "description": "Actual location of project file on disc"
+                        },
+                        "machine": {
+                          "type": "string",
+                          "description": "Name of machine the project has been registered/started on originally"
+                        },
+                        "name": {
+                          "type": "string",
+                          "description": "Project name"
+                        },
+                        "timestamp": {
+                          "type": "integer",
+                          "description": "Registration/Start timestamp"
+                        },
+                        "user": {
+                          "type": "string",
+                          "description": "Project owner"
+                        },
+                        "wizard": {
+                          "type": "string",
+                          "description": "Name of wizard that has been used to start the project"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/get_remote_dispatch_list": {
+      "post": {
+        "summary": "Get submission target list defined in wizard.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "name"
+                ],
+                "properties": {
+                  "name": {
+                    "type": "string",
+                    "description": "Wizard ID"
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "oneOf": [
+                        {
+                          "type": "string",
+                          "description": "Error message"
+                        },
+                        {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          },
+                          "description": "Defined submission targets"
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/get_actor_result_files": {
+      "post": {
+        "summary": "Get registered result files for a specific actor.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "project_id",
+                  "uid",
+                  "hid"
+                ],
+                "properties": {
+                  "project_id": {
+                    "type": "string",
+                    "description": "Project ID"
+                  },
+                  "uid": {
+                    "type": "string",
+                    "description": "Actor ID"
+                  },
+                  "hid": {
+                    "type": "string",
+                    "description": "Design ID"
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "required": [
+                          "is_available",
+                          "path",
+                          "filename"
+                        ],
+                        "properties": {
+                          "is_available": {
+                            "type": "boolean",
+                            "description": "Determines if currently available for download"
+                          },
+                          "path": {
+                            "type": "string",
+                            "description": "File path"
+                          },
+                          "filename": {
+                            "type": "string",
+                            "description": "File name"
+                          },
+                          "last_modified": {
+                            "type": "string",
+                            "description": "Time of last modification"
+                          },
+                          "size": {
+                            "type": "integer",
+                            "description": "File size in bytes"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/get_project_result_files": {
+      "post": {
+        "summary": "Get registered result files for a project.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "project_id"
+                ],
+                "properties": {
+                  "project_id": {
+                    "type": "string",
+                    "description": "Project ID"
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "required": [
+                          "is_available",
+                          "path",
+                          "filename"
+                        ],
+                        "properties": {
+                          "is_available": {
+                            "type": "boolean",
+                            "description": "Determines if currently available for download"
+                          },
+                          "path": {
+                            "type": "string",
+                            "description": "File path"
+                          },
+                          "filename": {
+                            "type": "string",
+                            "description": "File name"
+                          },
+                          "last_modified": {
+                            "type": "string",
+                            "description": "Time of last modification"
+                          },
+                          "size": {
+                            "type": "integer",
+                            "description": "File size in bytes"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/get_result_files": {
+      "post": {
+        "deprecated": true,
+        "summary": "Get registered result files for a project. This endpoint is deprecated, it will be removed in a future version. Use /get_project_result_files for project result files or /get_actor_result_files for actor result files.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "project_id"
+                ],
+                "properties": {
+                  "project_id": {
+                    "type": "string",
+                    "description": "Project ID"
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "required": [
+                          "is_available",
+                          "path",
+                          "filename"
+                        ],
+                        "properties": {
+                          "is_available": {
+                            "type": "boolean",
+                            "description": "Determines if currently available for download"
+                          },
+                          "path": {
+                            "type": "string",
+                            "description": "File path"
+                          },
+                          "filename": {
+                            "type": "string",
+                            "description": "File name"
+                          },
+                          "last_modified": {
+                            "type": "string",
+                            "description": "Time of last modification"
+                          },
+                          "size": {
+                            "type": "integer",
+                            "description": "File size in bytes"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/get_user_permissions": {
+      "post": {
+        "summary": "Get defined additional user permissions for a project.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "project_id"
+                ],
+                "properties": {
+                  "project_id": {
+                    "type": "string",
+                    "description": "Project ID"
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "oneOf": [
+                        {
+                          "type": "string",
+                          "description": "Error message"
+                        },
+                        {
+                          "type": "object"
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/get_users": {
+      "get": {
+        "summary": "Get registered users.",
+        "description": "Get registered users. The returned object contains user names as item IDs and additional information as item values. Schema is an example.",
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "some_user_name": {
+                            "type": "object",
+                            "required": [
+                              "level",
+                              "groups"
+                            ],
+                            "properties": {
+                              "level": {
+                                "type": "string",
+                                "enum": [
+                                  "USER",
+                                  "ADMIN"
+                                ],
+                                "description": "User level"
+                              },
+                              "groups": {
+                                "type": "array",
+                                "items": {
+                                  "type": "string"
+                                },
+                                "description": "User groups"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/get_wizard_by_project": {
+      "post": {
+        "summary": "Get the wizard ID used to start the project. Return an empty string if the project was not started via wizard.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "project_id"
+                ],
+                "properties": {
+                  "project_id": {
+                    "type": "string",
+                    "description": "Project ID"
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/get_wizard_doc": {
+      "post": {
+        "summary": "Get wizard documentation.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "name"
+                ],
+                "properties": {
+                  "name": {
+                    "type": "string",
+                    "description": "Wizard ID"
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/get_wizard_hash": {
+      "post": {
+        "summary": "Get wizard integrity hash.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "name"
+                ],
+                "properties": {
+                  "name": {
+                    "type": "string",
+                    "description": "Wizard ID"
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "object",
+                      "required": [
+                        "hash"
+                      ],
+                      "properties": {
+                        "hash": {
+                          "type": "integer"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/get_wizard_groups": {
+      "get": {
+        "summary": "Get wizard groups.",
+        "description": "Wizard groups are used to group wizards to organize them better. There are predefined (admin-defined) wizard groups and user-defined wizard groups.",
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "object",
+                      "required": [
+                        "admin_groups",
+                        "user_groups"
+                      ],
+                      "properties": {
+                        "admin_groups": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "some_admin_wizard_group_name": {
+                                "type": "array",
+                                "items": {
+                                  "type": "string"
+                                },
+                                "description": "Wizards belonging to this wizard group"
+                              }
+                            }
+                          },
+                          "description": "Admin-defined wizard groups"
+                        },
+                        "user_groups": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "some_user_wizard_group_name": {
+                                "type": "array",
+                                "items": {
+                                  "type": "string"
+                                },
+                                "description": "Wizards belonging to this wizard group"
+                              }
+                            }
+                          },
+                          "description": "User-defined wizard groups"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/get_wizard_user_groups": {
+      "get": {
+        "summary": "Get wizard user groups.",
+        "description": "Wizard user groups can used to restrict wizards to certain user group(s).",
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "object",
+                      "properties": {
+                        "some_wizard_name": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          },
+                          "description": "User groups defined for this wizard"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/get_wizards": {
+      "get": {
+        "summary": "Get accessible AppWizards based on session user name.",
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "required": [
+                          "metadata",
+                          "name"
+                        ],
+                        "properties": {
+                          "metadata": {
+                            "type": "object",
+                            "required": [
+                              "title"
+                            ],
+                            "properties": {
+                              "title": {
+                                "type": "string",
+                                "description": "Human readable title"
+                              }
+                            }
+                          },
+                          "name": {
+                            "type": "string",
+                            "description": "Wizard ID"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/is_admin": {
+      "post": {
+        "summary": "Query if provided user is admin user.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "username"
+                ],
+                "properties": {
+                  "username": {
+                    "type": "string",
+                    "description": "User name"
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "boolean",
+                      "description": "Determines if user is admin user"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/is_omdb_available": {
+      "get": {
+        "summary": "Query if optiSLang system monitoring omdb file is available.",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "name",
+            "schema": {
+              "type": "string"
+            },
+            "description": "optiSLang system name",
+            "required": true
+          },
+          {
+            "in": "query",
+            "name": "working_dir",
+            "schema": {
+              "type": "string"
+            },
+            "description": "optiSLang system working directory",
+            "required": true
+          },
+          {
+            "in": "query",
+            "name": "project_id",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Project ID",
+            "required": true
+          },
+          {
+            "in": "query",
+            "name": "uid",
+            "schema": {
+              "type": "string"
+            },
+            "description": "optiSLang system ID",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "oneOf": [
+                        {
+                          "type": "string",
+                          "description": "Error message"
+                        },
+                        {
+                          "type": "boolean"
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/lock_project": {
+      "post": {
+        "summary": "Lock project or refresh an allready acquired lock.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "project_id"
+                ],
+                "properties": {
+                  "project_id": {
+                    "type": "string",
+                    "description": "Project ID"
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/login": {
+      "get": {
+        "summary": "Combined login / get login form request.",
+        "description": "Redirecting to \"/\" if already logged in. Otherwise, try to login if username and password parameters are defined, else get login form.",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "username",
+            "schema": {
+              "type": "string"
+            },
+            "description": "The username used to login"
+          },
+          {
+            "in": "query",
+            "name": "password",
+            "schema": {
+              "type": "string"
+            },
+            "description": "The password used to login"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        }
+      }
+    },
+    "/login_custom": {
+      "get": {
+        "summary": "Start custom login attempt if configured as such.",
+        "description": "Redirecting to \"/\" if already logged in. Otherwise, get custom login form if enabled server side, else redirect to \"/login\"\".",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "username",
+            "schema": {
+              "type": "string"
+            },
+            "description": "The username used to login"
+          },
+          {
+            "in": "query",
+            "name": "password",
+            "schema": {
+              "type": "string"
+            },
+            "description": "The password used to login"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        }
+      }
+    },
+    "/login_externally_authorized": {
+      "post": {
+        "summary": "Login using external (via frontend) authorization if allowed server side.",
+        "description": "Redirect to \"/login\" if not allowed server side or no username specified. Redirecting to \"/\" if already logged in. Otherwise, login unconstrained using specified user name. Attention: This is unsafe as no server side credential check is performed! Functionality is disabled by default.",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "username",
+            "schema": {
+              "type": "string"
+            },
+            "description": "The username used to login"
+          },
+          {
+            "in": "query",
+            "name": "is_admin",
+            "schema": {
+              "type": "boolean"
+            },
+            "description": "Determines if user is admin user"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        }
+      }
+    },
+    "/logout": {
+      "get": {
+        "summary": "Logout currently logged in user.",
+        "description": "Redirecting to \"/login\".",
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        }
+      }
+    },
+    "/monitoring/{project_id}": {
+      "get": {
+        "summary": "Display optiSLang project monitoring by project ID.",
+        "description": "Display optiSLang project monitoring by project ID.",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "project_id",
+            "schema": {
+              "type": "string"
+            },
+            "required": true,
+            "description": "ID of the project monitoring to display"
+          },
+          {
+            "in": "query",
+            "name": "username",
+            "schema": {
+              "type": "string"
+            },
+            "description": "The username used to login"
+          },
+          {
+            "in": "query",
+            "name": "password",
+            "schema": {
+              "type": "string"
+            },
+            "description": "The password used to register"
+          },
+          {
+            "in": "query",
+            "name": "no_toolbar",
+            "schema": {
+              "type": "boolean"
+            },
+            "description": "Set to true to hide navigation toolbar"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        }
+      }
+    },
+    "/omdb": {
+      "get": {
+        "summary": "Download optiSLang system monitoring omdb file.",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "name",
+            "schema": {
+              "type": "string"
+            },
+            "description": "optiSLang system name",
+            "required": true
+          },
+          {
+            "in": "query",
+            "name": "working_dir",
+            "schema": {
+              "type": "string"
+            },
+            "description": "optiSLang system working directory",
+            "required": true
+          },
+          {
+            "in": "query",
+            "name": "project_id",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Project ID",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Binary omdb file data",
+            "content": {
+              "application/octet-stream": {
+                "schema": {
+                  "type": "string",
+                  "format": "binary"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          },
+          "500": {
+            "description": "Server error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/perform_actions": {
+      "post": {
+        "summary": "Perform action(s).",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "actions"
+                ],
+                "properties": {
+                  "actions": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "required": [
+                        "project_id",
+                        "action_name"
+                      ],
+                      "properties": {
+                        "project_id": {
+                          "type": "string",
+                          "description": "Project ID to perform the action on"
+                        },
+                        "action_name": {
+                          "type": "string",
+                          "description": "Action ID"
+                        }
+                      }
+                    },
+                    "description": "Action(s) to perform"
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/project_transfer": {
+      "post": {
+        "deprecated": true,
+        "summary": "Upload file. Can be an optiSLang project, an optiSLang Web App Wizard or an arbitrary project reference file. This endpoint is deprecated, it will be removed in a future version. Use /upload.",
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "osl_project_file": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "wizard": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "file": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "working_dir": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "oneOf": [
+                        {
+                          "type": "string",
+                          "description": "Error message"
+                        },
+                        {
+                          "type": "object",
+                          "required": [
+                            "location"
+                          ],
+                          "properties": {
+                            "location": {
+                              "type": "string"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/python_command": {
+      "post": {
+        "summary": "Execute a Wizard Python script on the backend side.",
+        "description": "Only pre-installed wizard python scripts can be executed. Actual script path is computed server side using configured wizards base directory and provided wizard name and script file name.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "wizard_name",
+                  "script_file",
+                  "script_arg"
+                ],
+                "properties": {
+                  "wizard_name": {
+                    "type": "string",
+                    "description": "Name of the wizard which provides the script"
+                  },
+                  "script_file": {
+                    "type": "string",
+                    "description": "Script file name"
+                  },
+                  "script_arg": {
+                    "type": "object"
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "$ref": "#/components/schemas/python_response_message"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/register": {
+      "get": {
+        "summary": "Register user.",
+        "description": "Create user account. Redirecting to \"/login\" if successfull.",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "username",
+            "schema": {
+              "type": "string"
+            },
+            "description": "The username used to register",
+            "required": true
+          },
+          {
+            "in": "query",
+            "name": "password",
+            "schema": {
+              "type": "string"
+            },
+            "description": "The password used to register",
+            "required": true
+          },
+          {
+            "in": "query",
+            "name": "password_confirm",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Confirmation of the password used to register",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        }
+      }
+    },
+    "/register_project": {
+      "post": {
+        "summary": "Register externally started optiSLang project.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "machine",
+                  "location",
+                  "port"
+                ],
+                "properties": {
+                  "machine": {
+                    "type": "string",
+                    "description": "Host name of machine the optiSLang project has been started on"
+                  },
+                  "location": {
+                    "type": "string",
+                    "description": "Location of the optiSLang project file"
+                  },
+                  "port": {
+                    "type": "integer",
+                    "description": "Port of the optiSLang project (server)"
+                  },
+                  "address": {
+                    "type": "string",
+                    "description": "Host address of machine the optiSLang project has been started on. IP address lookup is used using the machine name in case address is not provided."
+                  },
+                  "wizard": {
+                    "type": "string",
+                    "description": "Name of wizard that has been used to start the project"
+                  },
+                  "name": {
+                    "type": "string",
+                    "description": "Project name"
+                  },
+                  "custom_data": {
+                    "type": "object",
+                    "description": "Custom data"
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "oneOf": [
+                        {
+                          "type": "string",
+                          "description": "Error message"
+                        },
+                        {
+                          "type": "object",
+                          "required": [
+                            "project_id"
+                          ],
+                          "properties": {
+                            "project_id": {
+                              "type": "string",
+                              "description": "ID for the registered project."
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/remove_projects": {
+      "post": {
+        "summary": "Remove project(s).",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "project_id_list"
+                ],
+                "properties": {
+                  "project_id_list": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "description": "Project ID(s) to remove"
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/remove_user": {
+      "post": {
+        "summary": "Remove user.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "username"
+                ],
+                "properties": {
+                  "username": {
+                    "type": "string",
+                    "description": "User name"
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/remove_wizards": {
+      "post": {
+        "summary": "Remove wizard(s).",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "wizard_id_list"
+                ],
+                "properties": {
+                  "wizard_id_list": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "description": "Wizard ID(s) to remove"
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/restart_server": {
+      "post": {
+        "summary": "Restart web service application.",
+        "description": "Can only be performed by admin users.",
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/server_command": {
+      "post": {
+        "summary": "Perform command(s) at optiSLang project server.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "project_id",
+                  "commands"
+                ],
+                "properties": {
+                  "project_id": {
+                    "type": "string",
+                    "description": "Project ID"
+                  },
+                  "commands": {
+                    "type": "array",
+                    "items": {
+                      "type": "object"
+                    },
+                    "description": "Commands"
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/set_admin_wizard_groups": {
+      "post": {
+        "summary": "Set admin wizard groups.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "admin_groups"
+                ],
+                "properties": {
+                  "admin_groups": {
+                    "type": "object",
+                    "properties": {
+                      "some_admin_wizard_group_name": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "description": "Wizards belonging to this wizard group"
+                      }
+                    },
+                    "description": "Admin wizard groups"
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/set_automail": {
+      "post": {
+        "summary": "Set auto mail configuration.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "project_id",
+                  "automail_options"
+                ],
+                "properties": {
+                  "project_id": {
+                    "type": "string",
+                    "description": "Project ID"
+                  },
+                  "automail_options": {
+                    "type": "object"
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/send_project_keepalive": {
+      "post": {
+        "summary": "Send project keepalive heartbeat message.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "project_id"
+                ],
+                "properties": {
+                  "project_id": {
+                    "type": "string",
+                    "description": "Project ID"
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/set_result_files": {
+      "post": {
+        "summary": "Register result files with a project.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "project_id",
+                  "result_files"
+                ],
+                "properties": {
+                  "project_id": {
+                    "type": "string",
+                    "description": "Project ID"
+                  },
+                  "result_files": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/set_user_groups": {
+      "post": {
+        "summary": "Set user groups.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "user_name",
+                  "user_groups"
+                ],
+                "properties": {
+                  "user_name": {
+                    "type": "string"
+                  },
+                  "user_groups": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "description": "Groups defined for this user"
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/set_user_wizard_groups": {
+      "post": {
+        "summary": "Set user wizard groups.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "user_groups"
+                ],
+                "properties": {
+                  "user_groups": {
+                    "type": "object",
+                    "properties": {
+                      "some_user_wizard_group_name": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "description": "Wizards belonging to this wizard group"
+                      }
+                    },
+                    "description": "User wizard groups"
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/set_user_level": {
+      "post": {
+        "summary": "Set  user level.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "username",
+                  "user_level"
+                ],
+                "properties": {
+                  "username": {
+                    "type": "string",
+                    "description": "User name"
+                  },
+                  "user_level": {
+                    "type": "string",
+                    "enum": [
+                      "USER",
+                      "ADMIN"
+                    ],
+                    "description": "User level"
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/set_user_permissions": {
+      "post": {
+        "summary": "Set additional user permissions for a project.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "project_id",
+                  "automail_options"
+                ],
+                "properties": {
+                  "project_id": {
+                    "type": "string",
+                    "description": "Project ID"
+                  },
+                  "automail_options": {
+                    "type": "object"
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/set_wizard_user_groups": {
+      "post": {
+        "summary": "Set wizard user groups.",
+        "description": "Wizard user groups can used to restrict wizards to certain user group(s). Can only set by admin users.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "wizard_id",
+                  "user_groups"
+                ],
+                "properties": {
+                  "wizard_id": {
+                    "type": "string"
+                  },
+                  "user_groups": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "description": "User groups defined for this wizard"
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/setup": {
+      "get": {
+        "summary": "First time admin setup.",
+        "description": "Create admin account. Perform needed setup steps. Redirecting to \"/login\" if successfull.",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "username",
+            "schema": {
+              "type": "string"
+            },
+            "description": "The admin username used to register"
+          },
+          {
+            "in": "query",
+            "name": "password",
+            "schema": {
+              "type": "string"
+            },
+            "description": "The admin password used to register"
+          },
+          {
+            "in": "query",
+            "name": "password_confirm",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Confirmation of the admin password used to register"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        }
+      }
+    },
+    "/shutdown_server": {
+      "post": {
+        "summary": "Shutdown web service application.",
+        "description": "Can only be performed by admin users.",
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/start_local_project": {
+      "post": {
+        "summary": "Start an optiSLang project to run locally on the backend.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "location"
+                ],
+                "properties": {
+                  "location": {
+                    "type": "string",
+                    "description": "Location of the optiSLang project file relative to configured projects directory."
+                  },
+                  "project_name": {
+                    "type": "string",
+                    "description": "Optional project name. File base name is used by default."
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "oneOf": [
+                        {
+                          "type": "string",
+                          "description": "Error message"
+                        },
+                        {
+                          "type": "object",
+                          "required": [
+                            "project_id"
+                          ],
+                          "properties": {
+                            "project_id": {
+                              "type": "string",
+                              "description": "Project ID"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/start_project": {
+      "post": {
+        "summary": "Use a Wizard Python script for a customized optiSLang start.",
+        "description": "Only pre-installed wizard python scripts can be used. Actual script path is computed server side using configured wizards base directory and provided wizard name and script file name.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "wizard_name",
+                  "custom_script",
+                  "custom_args"
+                ],
+                "properties": {
+                  "wizard_name": {
+                    "type": "string",
+                    "description": "Name of the wizard which provides the script"
+                  },
+                  "custom_script": {
+                    "type": "string",
+                    "description": "Script file name"
+                  },
+                  "custom_args": {
+                    "type": "object"
+                  },
+                  "project_name": {
+                    "type": "string",
+                    "description": "Optional project name. Project file base name is used by default."
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "$ref": "#/components/schemas/python_response_message"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/start_service": {
+      "post": {
+        "summary": "Start a custom service",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "service_id"
+                ],
+                "properties": {
+                  "service_id": {
+                    "type": "string",
+                    "description": "Service ID"
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "The started service's port",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "object",
+                      "properties": {
+                        "port": {
+                          "type": "integer"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/stop_service": {
+      "post": {
+        "summary": "Stop a custom service",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "service_id"
+                ],
+                "properties": {
+                  "service_id": {
+                    "type": "string",
+                    "description": "Service ID"
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/unlock_project": {
+      "post": {
+        "summary": "Unlock project.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "project_id"
+                ],
+                "properties": {
+                  "project_id": {
+                    "type": "string",
+                    "description": "Project ID"
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/update_user_groups": {
+      "post": {
+        "deprecated": true,
+        "summary": "Update user groups.",
+        "description": "This endpoint is deprected and has no functionality anymore.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "username"
+                ],
+                "properties": {
+                  "username": {
+                    "type": "string",
+                    "description": "User name"
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/update_wizards": {
+      "post": {
+        "summary": "Update wizard(s).",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "wizard_id_list"
+                ],
+                "properties": {
+                  "wizard_id_list": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "description": "Wizard ID(s) to remove"
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/upload": {
+      "post": {
+        "summary": "Upload file. Can be either an optiSLang project, an optiSLang Web App Wizard or an arbitrary project reference file.",
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "oneOf": [
+                  {
+                    "type": "object",
+                    "required": [
+                      "osl_project_file"
+                    ],
+                    "properties": {
+                      "osl_project_file": {
+                        "type": "string",
+                        "format": "binary",
+                        "description": "When uploading an optiSLang project file, a new working directory is created within the projects directory. The project file is then uploaded into this working directory. The actual path to the uploaded project file is contained in the reponse."
+                      }
+                    }
+                  },
+                  {
+                    "type": "object",
+                    "required": [
+                      "wizard"
+                    ],
+                    "properties": {
+                      "wizard": {
+                        "type": "string",
+                        "format": "binary",
+                        "description": "When uploading an optiSLang Web App Wizard, the App Wizard files are uploaded into wizards directory. The directory name corresponds to the uploaded App Wizard file name. The ID and the url path to the uploaded App Wizard is contained in the reponse."
+                      }
+                    }
+                  },
+                  {
+                    "type": "object",
+                    "required": [
+                      "file"
+                    ],
+                    "properties": {
+                      "file": {
+                        "type": "string",
+                        "format": "binary",
+                        "description": "This variant is intended for uploading project reference/input files. Files can only be uploaded into a specific project working directory. Either a project id or a specific project working directory can be specified. When specifying a project id, the working directory entry is optional and needs to be specified relative to the project working directory. Files will never be overwritten."
+                      },
+                      "working_dir": {
+                        "type": "string",
+                        "description": "The directory to upload the file to. Can be specified absolutely or relative to the projects directory. When specified along with project_id it is treated relative to the project working directory."
+                      },
+                      "project_id": {
+                        "type": "string",
+                        "description": "The id of the project to upload an reference/input file to."
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status",
+                    "message"
+                  ],
+                  "properties": {
+                    "status": {
+                      "$ref": "#/components/schemas/optislang_web_service_response_status"
+                    },
+                    "message": {
+                      "oneOf": [
+                        {
+                          "type": "string",
+                          "description": "Error message"
+                        },
+                        {
+                          "type": "object",
+                          "required": [
+                            "location"
+                          ],
+                          "description": "This response is returned when using the osl_project_file or file variants",
+                          "properties": {
+                            "location": {
+                              "type": "string",
+                              "description": "The filesystem location of the uploaded project or project reference/input file"
+                            }
+                          }
+                        },
+                        {
+                          "type": "object",
+                          "required": [
+                            "id",
+                            "url_path"
+                          ],
+                          "description": "This response is returned when using the wizard variant",
+                          "properties": {
+                            "id": {
+                              "type": "string",
+                              "description": "The filesystem location of the uploaded project or project reference/input file"
+                            },
+                            "url_path": {
+                              "type": "string"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized_JSON"
+          }
+        }
+      }
+    },
+    "/wizards/{wizard_id}": {
+      "get": {
+        "summary": "Display a wizard by ID.",
+        "description": "Display a wizard by ID.",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "wizard_id",
+            "schema": {
+              "type": "string"
+            },
+            "required": true,
+            "description": "ID of the wizard to display"
+          },
+          {
+            "in": "query",
+            "name": "username",
+            "schema": {
+              "type": "string"
+            },
+            "description": "The username used to login"
+          },
+          {
+            "in": "query",
+            "name": "password",
+            "schema": {
+              "type": "string"
+            },
+            "description": "The password used to register"
+          },
+          {
+            "in": "query",
+            "name": "no_toolbar",
+            "schema": {
+              "type": "boolean"
+            },
+            "description": "Set to true to hide navigation toolbar"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        }
+      }
+    }
+  }
+}
