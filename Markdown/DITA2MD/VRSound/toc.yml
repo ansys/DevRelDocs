@@ -1,0 +1,14 @@
+- name: Communication
+  href: Sound/UG_VRS/VRS_communication.md
+  items:
+  - name: OSC Protocol
+    href: Sound/UG_VRS/VRS_communication_osc.md
+  - name: Messages List
+    href: Sound/UG_VRS/VRS_communication_messages_list.md
+  - name: Sound Playback Process
+    href: Sound/UG_VRS/VRS_communication_sound.md
+  - name: Messages Format
+    href: Sound/UG_VRS/VRS_communication_messages.md
+  - name: State of the Sound Generator
+    href: Sound/UG_VRS/VRS_communication_state.md
+
