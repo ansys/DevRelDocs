@@ -77,3 +77,18 @@ One or more of the product collection category terms that apply to the content. 
 One or more of the product category terms that apply to the content. A full list will be dynamically generated. Generally this categorization will be set at the documentation package level.
 #### physics
 One or more of the physics terms that apply to the content. A full list will be dynamically generated.
+
+## Technical GitHub Limitations
+
+All MarkDown repositories must have fewer than 1000 files per directory.
+All text files must be less than 1 MB in size.
+Images and other assets must be less than 100 MB in size per file.
+
+
+Per [GitHub documentation](https://docs.github.com/en/rest/repos/contents?apiVersion=2022-11-28#get-repository-content):
+To get a repository's contents recursively, you can recursively get the tree.
+This API has an upper limit of 1,000 files for a directory. If you need to retrieve more files, use the Git Trees API.
+Download URLs expire and are meant to be used just once. To ensure the download URL does not expire, please use the contents API to obtain a fresh download URL for each download. Size limits: If the requested file's size is:
+- 1 MB or smaller: All features of this endpoint are supported.
+- Between 1-100 MB: Only the raw or object custom media types are supported. Both will work as normal, except that when using the object media type, the content field will be an empty string and the encoding field will be "none". To get the contents of these larger files, use the raw media type.
+- Greater than 100 MB: This endpoint is not supported.
