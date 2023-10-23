@@ -40,6 +40,7 @@ author email: me@example.com
 summary: a text summary goes here
 description: a description text here
 date: 2023-07-19
+version: Version_string
 status: published/unpublished
 access control: internal
 api categories: term(s)
@@ -63,6 +64,8 @@ Text used when providing a summary of the article in landing pages. Can also be 
 The description for the content. Can be the same as summary. If provided separately, the description will be fed to search engines in the ```<meta name="description">``` HTML metatag. If not provided, the HTML description metatag will default to the first 128 characters of the content.
 #### date
 The creation date assigned to this page in ISO-8601 format, ```yyyy-mm-dd```. If not supplied, the date will be set to the date of import into the developer portal.
+### version
+The package version is a simple string and follows a pattern defined outside the scope of this document. If provided, the version string will be mapped to a version designation in the developer portal. A subpage _cannot_ have a different version from the parent package, i.e. the version provided with the main (index) page is binding and authoritative. In practice, although providing a version string in a subpage is technically possible, it will not be honored and the package version will be used instead.
 #### status
 The desired publication status of the content. One of: unpublished, published. If not provided, the content will be published immediately upon import.
 #### access control 
