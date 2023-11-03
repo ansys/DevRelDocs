@@ -30,14 +30,15 @@ To nest a TOC within another TOC, set the href property to point to the ```toc.y
 
 ## Metadata
 ### Mandatory metadata
-The mandatory [```docfx.json```](https://dotnet.github.io/docfx/docs/config.html#metadata) file is the config file for the entire documentation package. For global metadata, i.e. metadata attributes that are consistent across the set of content, use the ```globalMetadata``` property in ```docfx.json``` to apply the same metadata to all MarkDown pages. See below for allowed and supportd key/value pairs. In particular, ```title``` and ```summary``` must be present.
+The mandatory [```docfx.json```](https://dotnet.github.io/docfx/docs/config.html#metadata) file is the config file for the entire documentation package. For global metadata, i.e. metadata attributes that are consistent across the set of content, use the ```globalMetadata``` property in ```docfx.json``` to apply the same metadata to all MarkDown pages. See below for allowed and supported key/value pairs. In particular, ```title```, ```summary```, and ```version``` must be present.
 A minimal ```docfx.json``` file:
 ```
 {
   "build": {
     "globalMetadata": {
       "title": "My Title",
-      "summary": "a text summary goes here"
+      "summary": "a text summary goes here",
+      "version": "Version_string"
     }
   }
 }
