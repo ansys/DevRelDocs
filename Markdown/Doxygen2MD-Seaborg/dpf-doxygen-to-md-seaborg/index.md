@@ -1,4 +1,4 @@
-# Contents pages
+# Content pages
 
 * [Global contents](global_contents.md)
 * [Classes](class_contents.md)

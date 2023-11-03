@@ -2,7 +2,6 @@
 # Introduction
 
 
-
 <a id="index_1md_cpp_doc_01_Introduction"></a>
  The Data Processing Framework (**DPF**) provides numerical simulation users/engineers with a toolbox for accessing and transforming simulation data. It is used to handle complex pre- or post-processing of simulation data within a simulation workflow.
 
