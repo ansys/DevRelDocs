@@ -29,9 +29,24 @@ The YAML document is a tree of TOC nodes, each of which has these properties:
 To nest a TOC within another TOC, set the href property to point to the ```toc.yml``` file that you want to nest. You can also use this structure as a way to reuse a TOC structure in one or more TOC files. See https://dotnet.github.io/docfx/docs/table-of-contents.html for details.
 
 ## Metadata
-Metadata follows the well established YAML frontmatter in MarkDown, specifically as laid out for [docfx](https://dotnet.github.io/docfx/index.html) by Microsoft. Note that all metadata keys are in lowercase.
+### Mandatory metadata
+The mandatory [```docfx.json```](https://dotnet.github.io/docfx/docs/config.html#metadata) file is the config file for the entire documentation package. For global metadata, i.e. metadata attributes that are consistent across the set of content, use the ```globalMetadata``` property in ```docfx.json``` to apply the same metadata to all MarkDown pages. See below for allowed and supportd key/value pairs. In particular, ```title``` and ```summary``` must be present.
+A minimal ```docfx.json``` file:
+```
+{
+  "build": {
+    "globalMetadata": {
+      "title": "My Title",
+      "summary": "a text summary goes here"
+    }
+  }
+}
+```
 
-Each MarkDown file may contain the following YAML-formatted metadata frontmatter, separated from main content by three dashes. For the main package page, that is the _first entry in ```toc.yml```, frontmatter must be present_ to define metadata for the entire documentation package. In particular, ```title``` and ```summary```, are mandatory in the main page. For all other pages,  any frontmatter keys and values are optional.
+### Optional and per file metadata
+Metadata for individual MarkDown files follows the well established YAML frontmatter in MarkDown, specifically as laid out for [docfx](https://dotnet.github.io/docfx/index.html) by Microsoft. Note that all metadata keys are in lowercase.
+
+Each MarkDown file may contain the following YAML-formatted metadata frontmatter, separated from main content by three dashes. For all MarkDown pages,  any frontmatter keys and values are optional, since global metadata is already specified in the mandatory ```docfx.json``` file.
 ```
 –––   
 title: My Title
@@ -50,7 +65,7 @@ programming language: term(s)
 physics: term(s)
 –––
 ```
-### Front matter keys 
+### Metadata keys 
 #### title
 The title for the content. If not provided will be derived from the first found H1 MarkDown heading.
 #### author
