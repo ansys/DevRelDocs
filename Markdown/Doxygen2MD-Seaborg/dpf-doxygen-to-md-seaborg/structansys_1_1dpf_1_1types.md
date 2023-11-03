@@ -7,7 +7,6 @@
 **Definition**: `dpf\_api\_base.h` (line 727)
 
 
-
 Predefined TypeDescriptors.
 
 ## Members
