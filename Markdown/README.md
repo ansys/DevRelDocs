@@ -69,7 +69,6 @@ physics: term(s)
 #### title
 The title for the content. If not provided will be derived from the first found H1 MarkDown heading.
 #### author
-
 The author of the content in First Last format. If not provided, the author name will be determined from the developer portal user that matches ```author email``` (see below).
 #### author email
 The email address of the author of the content. If not provided, the author will be set to _Ansys Developer’s_ email address. If no matching email is found in the developer portal, or if a user with that email has no content editor rights, then the author and email is also set to the _Ansys Developer_ user.
@@ -79,8 +78,9 @@ Text used when providing a summary of the article in landing pages. Can also be 
 The description for the content. Can be the same as summary. If provided separately, the description will be fed to search engines in the ```<meta name="description">``` HTML metatag. If not provided, the HTML description metatag will default to the first 128 characters of the content.
 #### date
 The creation date assigned to this page in ISO-8601 format, ```yyyy-mm-dd```. If not supplied, the date will be set to the date of import into the developer portal.
-### version
-The package version is a simple string and follows a pattern defined outside the scope of this document. If provided, the version string will be mapped to a version designation in the developer portal. A subpage _cannot_ have a different version from the parent package, i.e. the version provided with the main (index) page is binding and authoritative. In practice, although providing a version string in a subpage is technically possible, it will not be honored and the package version will be used instead.
+Note that a ```last updated``` date will be derived automatically from GitHub APIs during import.
+#### version
+The package version is a simple string and follows a pattern defined outside the scope of this document. If provided, the version string will be mapped to a version designation in the developer portal. A subpage _cannot_ have a different version from the parent package, i.e. the version provided in ```docfx.json``` is binding and authoritative. In practice, although providing a version string in a subpage is technically possible, it will not be honored and the package version will be used instead.
 #### status
 The desired publication status of the content. One of: unpublished, published. If not provided, the content will be published immediately upon import.
 #### access control 
