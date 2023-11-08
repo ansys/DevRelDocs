@@ -30,7 +30,7 @@ To nest a TOC within another TOC, set the href property to point to the ```toc.y
 
 ## Metadata
 ### Mandatory metadata
-The mandatory [```docfx.json```](https://dotnet.github.io/docfx/docs/config.html#metadata) file is the config file for the entire documentation package. For global metadata, i.e. metadata attributes that are consistent across the set of content, use the ```globalMetadata``` property in ```docfx.json``` to apply the same metadata to all MarkDown pages. See below for allowed and supported key/value pairs. In particular, ```title```, ```summary```, and ```version``` must be present.
+The mandatory [```docfx.json```](https://dotnet.github.io/docfx/docs/config.html#metadata) file is the configuration file for the entire documentation package. For global metadata, i.e. metadata attributes that are consistent across the set of content, use the ```globalMetadata``` property in ```docfx.json``` to apply the same metadata to all MarkDown pages. See below for allowed and supported key/value pairs. In particular, ```title```, ```summary```, and ```version``` must be present.
 A minimal ```docfx.json``` file:
 ```
 {
@@ -45,9 +45,9 @@ A minimal ```docfx.json``` file:
 ```
 
 ### Optional metadata
-Metadata for global or individual MarkDown files follows the well established YAML frontmatter in MarkDown, specifically as laid out for [docfx](https://dotnet.github.io/docfx/index.html) by Microsoft. Note that all metadata keys are in lowercase.
+Metadata for individual MarkDown files follows the well established YAML frontmatter in MarkDown, specifically as laid out for [docfx](https://dotnet.github.io/docfx/index.html) by Microsoft. Note that all metadata keys are in lowercase.
 Metadata are categorized in three families: required, recommended and optional (see details on each metadata below).
-If a metadata is set at a file level, the value is added to the value set at a global level.
+If a metadata is set at a file level, the value is added to the value(s) already set at a global level.
 
 Each MarkDown file may contain the following YAML-formatted metadata frontmatter, separated from main content by three dashes. For all MarkDown pages,  any frontmatter keys and values are optional, since global metadata is already specified in the mandatory ```docfx.json``` file.
 ```
@@ -68,21 +68,21 @@ programming language: term(s)
 physics: term(s)
 –––
 ```
-### Metadata keys 
-#### title (required)
+### Supported metadata keys in the global docjs.json and individual MarkDown frontmatter
+#### title (required in docfx.json)
 The title for the content. If not provided will be derived from the first found H1 MarkDown heading.
-#### author (optional - Not  exposed)
+#### author (optional - not  exposed)
 The author of the content in First Last format. If not provided, the author name will be determined from the developer portal user that matches ```author email``` (see below).
-#### author email (optional - Not  exposed)
+#### author email (optional - not  exposed)
 The email address of the author of the content. If not provided, the author will be set to _Ansys Developer’s_ email address. If no matching email is found in the developer portal, or if a user with that email has no content editor rights, then the author and email is also set to the _Ansys Developer_ user.
-#### summary (required)
-Text used when providing a summary of the article in landing pages. Can also be used for description. If not provided, the summary will default to the first 128 characters of the content.
+#### summary (required in docfx.json)
+Text used when providing a summary of the article in landing pages. Can also be used for description. If not provided, the summary will default to the first 600 characters of the content.
 #### description (optional)
-The description for the content. Can be the same as summary. If provided separately, the description will be fed to search engines in the ```<meta name="description">``` HTML metatag. If not provided, the HTML description metatag will default to the first 128 characters of the content.
+The description for the content. Can be the same as summary. If provided separately, the description will be fed to search engines in the ```<meta name="description">``` HTML metatag. If not provided, the HTML description metatag will default to the first 600 characters of the content.
 #### date (optional)
 The creation date assigned to this page in ISO-8601 format, ```yyyy-mm-dd```. If not supplied, the date will be set to the date of import into the developer portal.
 Note that a ```last updated``` date will be derived automatically from GitHub APIs during import.
-#### version (required)
+#### version (required in docfx.json)
 The package version is a simple string and follows a pattern defined outside the scope of this document. If provided, the version string will be mapped to a version designation in the developer portal. A subpage _cannot_ have a different version from the parent package, i.e. the version provided in ```docfx.json``` is binding and authoritative. In practice, although providing a version string in a subpage is technically possible, it will not be honored and the package version will be used instead.
 #### status (optional)
 The desired publication status of the content. One of: unpublished, published. If not provided, the content will be published immediately upon import.
@@ -91,11 +91,11 @@ An access control term. If not supplied, the content will be accessible to every
 #### api categories (optional)
 One or more of the api categories terms that apply to the content. A full list will be dynamically generated.
 #### product (recommended)
-One or more of the product category terms that apply to the content. A full list will be dynamically generated. Generally this categorization will be set at the documentation package level.
+One or more of the product category terms that apply to the content. A full list will be dynamically generated. Generally this categorization will be set at the documentation package level in docfx.json.
 #### product collection (optional)
-One or more of the product collection category terms that apply to the content. A full list will be dynamically generated. Generally this categorization will be set at the documentation package level.
+One or more of the product collection category terms that apply to the content. A full list will be dynamically generated. Generally this categorization will be set at the documentation package level in docfx.json.
 #### programming language (recommended)
-One or more of the product category terms that apply to the content. A full list will be dynamically generated. Generally this categorization will be set at the documentation package level. 
+One or more of the product category terms that apply to the content. A full list will be dynamically generated. Generally this categorization will be set at the documentation package level in docfx.json. 
 #### physics (recommended)
 One or more of the physics terms that apply to the content. A full list will be dynamically generated.
 
