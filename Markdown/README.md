@@ -38,7 +38,7 @@ A minimal ```docfx.json``` file:
     "globalMetadata": {
       "title": "My Title",
       "summary": "a text summary goes here",
-      "version": "Version_string"
+      "version": "Version_string",
     }
   }
 }
@@ -47,6 +47,7 @@ A minimal ```docfx.json``` file:
 ### Optional metadata
 Metadata for global or individual MarkDown files follows the well established YAML frontmatter in MarkDown, specifically as laid out for [docfx](https://dotnet.github.io/docfx/index.html) by Microsoft. Note that all metadata keys are in lowercase.
 Metadata are categorized in three families: required, recommended and optional (see details on each metadata below).
+If a metadata is set at a file level, the value is added to the value set at a global level.
 
 Each MarkDown file may contain the following YAML-formatted metadata frontmatter, separated from main content by three dashes. For all MarkDown pages,  any frontmatter keys and values are optional, since global metadata is already specified in the mandatory ```docfx.json``` file.
 ```
@@ -70,9 +71,9 @@ physics: term(s)
 ### Metadata keys 
 #### title (required)
 The title for the content. If not provided will be derived from the first found H1 MarkDown heading.
-#### author (optional)
+#### author (optional - Not  exposed)
 The author of the content in First Last format. If not provided, the author name will be determined from the developer portal user that matches ```author email``` (see below).
-#### author email (optional)
+#### author email (optional - Not  exposed)
 The email address of the author of the content. If not provided, the author will be set to _Ansys Developer’s_ email address. If no matching email is found in the developer portal, or if a user with that email has no content editor rights, then the author and email is also set to the _Ansys Developer_ user.
 #### summary (required)
 Text used when providing a summary of the article in landing pages. Can also be used for description. If not provided, the summary will default to the first 128 characters of the content.
@@ -94,7 +95,7 @@ One or more of the product category terms that apply to the content. A full list
 #### product collection (optional)
 One or more of the product collection category terms that apply to the content. A full list will be dynamically generated. Generally this categorization will be set at the documentation package level.
 #### programming language (recommended)
-One or more of the product category terms that apply to the content. A full list will be dynamically generated. Generally this categorization will be set at the documentation package level.
+One or more of the product category terms that apply to the content. A full list will be dynamically generated. Generally this categorization will be set at the documentation package level. 
 #### physics (recommended)
 One or more of the physics terms that apply to the content. A full list will be dynamically generated.
 
