@@ -1,6 +1,6 @@
 {
   "build": {
-    "globalMetadataFiles": {
+    "globalMetadata": {
       "title": "Seaborg",
       "summary": "The Data Processing Framework (DPF) provides numerical simulation users/engineers with a toolbox for accessing and transforming simulation data. It is used to handle complex pre- or post-processing of simulation data within a simulation workflow.",
       "version": "1.0.0",
