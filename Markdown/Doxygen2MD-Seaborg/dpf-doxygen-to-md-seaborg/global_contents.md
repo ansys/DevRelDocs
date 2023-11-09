@@ -6,7 +6,7 @@ date: '2023-07-19'
 status: published
 access control: 'Internal'
 api categories: [ 'OptiSLang Web Components', 'Exterior Lighting' ]
-product: [ 'Seaborg' ]
+product: [ 'DPF' ]
 product collection: [ '3D Design', 'Digital Twin', 'Fluids', 'Semiconductors' ]
 programming language: [ 'C', 'C++', 'RUST' ]
 physics: [ 'Model Prep', 'Concept Modeling', 'Electro-thermal Interaction' ]
