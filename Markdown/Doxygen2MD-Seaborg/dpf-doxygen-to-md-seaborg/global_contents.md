@@ -1,3 +1,17 @@
+---
+title: 'Contents'
+summary: 'A text summary goes here'
+description: 'A meta description text here'
+date: '2023-07-19'
+status: published
+access control: 'Internal'
+api categories: [ 'OptiSLang Web Components', 'Exterior Lighting' ]
+product: [ 'Seaborg' ]
+product collection: [ '3D Design', 'Digital Twin', 'Fluids', 'Semiconductors' ]
+programming language: [ 'C', 'C++', 'RUST' ]
+physics: [ 'Model Prep', 'Concept Modeling', 'Electro-thermal Interaction' ]
+---
+
 # Contents
 
 * [ansys::dpf::Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) Class
