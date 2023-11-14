@@ -1,1 +1,0 @@
-toc must be lowercase
