@@ -1,0 +1,46 @@
+# LinkDictionaryCollection(*T*, *TValue*) Constructor (IOwned)
+ 
+
+Initializes a new instance of the <a href="9c123818-d103-95aa-b5ff-ad4953b1f4be">LinkDictionaryCollection(T, TValue)</a> class
+
+**Namespace:**&nbsp;<a href="73323b4e-37e3-2ba2-8f90-2d0dd58949a8">VM.Managed.Collections</a><br />**Assembly:**&nbsp;VMAppCore (in VMAppCore.dll) Version: 24.1.23299.31577
+
+## Syntax
+
+**C#**<br />
+``` C#
+public LinkDictionaryCollection(
+	IOwned owner
+)
+```
+
+**VB**<br />
+``` VB
+Public Sub New ( 
+	owner As IOwned
+)
+```
+
+**C++**<br />
+``` C++
+public:
+LinkDictionaryCollection(
+	IOwned^ owner
+)
+```
+
+**F#**<br />
+``` F#
+new : 
+        owner : IOwned -> LinkDictionaryCollection
+```
+
+
+#### Parameters
+&nbsp;<dl><dt>owner</dt><dd>Type: IOwned<br /></dd></dl>
+
+## See Also
+
+
+#### Reference
+<a href="9c123818-d103-95aa-b5ff-ad4953b1f4be">LinkDictionaryCollection(T, TValue) Class</a><br /><a href="4e67cedf-7069-180e-cd69-2d1131c9a297">LinkDictionaryCollection(T, TValue) Overload</a><br /><a href="73323b4e-37e3-2ba2-8f90-2d0dd58949a8">VM.Managed.Collections Namespace</a><br />

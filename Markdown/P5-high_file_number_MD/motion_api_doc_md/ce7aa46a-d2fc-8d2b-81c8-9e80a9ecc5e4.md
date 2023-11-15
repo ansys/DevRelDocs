@@ -1,0 +1,51 @@
+# CLoadStandard.FunctionFX Property 
+ 
+
+**Note: This API is now obsolete.**
+
+Obsolete.
+
+**Namespace:**&nbsp;<a href="e72f78b0-389a-9ec0-aa21-fcfd21a06f2c">VM.Managed.DAFUL.FE.Force</a><br />**Assembly:**&nbsp;VMFE (in VMFE.dll) Version: 24.1.23299.31577
+
+## Syntax
+
+**C#**<br />
+``` C#
+[ObsoleteAttribute]
+public CLoadStandard.CLoadFunction FunctionFX { get; set; }
+```
+
+**VB**<br />
+``` VB
+<ObsoleteAttribute>
+Public Property FunctionFX As CLoadStandard.CLoadFunction
+	Get
+	Set
+```
+
+**C++**<br />
+``` C++
+public:
+[ObsoleteAttribute]
+property CLoadStandard.CLoadFunction^ FunctionFX {
+	CLoadStandard.CLoadFunction^ get ();
+	void set (CLoadStandard.CLoadFunction^ value);
+}
+```
+
+**F#**<br />
+``` F#
+[<ObsoleteAttribute>]
+member FunctionFX : CLoadStandard.CLoadFunction with get, set
+
+```
+
+
+#### Property Value
+Type: <a href="51d60eff-e4d7-b5ee-11ce-fef7adfcd0c3">CLoadStandard.CLoadFunction</a>
+
+## See Also
+
+
+#### Reference
+<a href="13267ad2-26f8-4e4a-80d1-f3baaf5600ff">CLoadStandard Class</a><br /><a href="e72f78b0-389a-9ec0-aa21-fcfd21a06f2c">VM.Managed.DAFUL.FE.Force Namespace</a><br />

@@ -1,0 +1,47 @@
+# RackBuilder.SetOffset Method 
+ 
+
+Set offset.
+
+**Namespace:**&nbsp;<a href="d9db19a5-2df6-b933-3d4e-2c38d80febf4">VM.Managed.DAFUL.GearTrain.CAD</a><br />**Assembly:**&nbsp;VMDGearTrain (in VMDGearTrain.dll) Version: 24.1.0.0
+
+## Syntax
+
+**C#**<br />
+``` C#
+public void SetOffset(
+	double dOffset
+)
+```
+
+**VB**<br />
+``` VB
+Public Sub SetOffset ( 
+	dOffset As Double
+)
+```
+
+**C++**<br />
+``` C++
+public:
+void SetOffset(
+	double dOffset
+)
+```
+
+**F#**<br />
+``` F#
+member SetOffset : 
+        dOffset : float -> unit 
+
+```
+
+
+#### Parameters
+&nbsp;<dl><dt>dOffset</dt><dd>Type: System.Double<br />The offset.</dd></dl>
+
+## See Also
+
+
+#### Reference
+<a href="a69d8528-6c78-b9ab-7e90-4da2760c8ac0">RackBuilder Class</a><br /><a href="d9db19a5-2df6-b933-3d4e-2c38d80febf4">VM.Managed.DAFUL.GearTrain.CAD Namespace</a><br />

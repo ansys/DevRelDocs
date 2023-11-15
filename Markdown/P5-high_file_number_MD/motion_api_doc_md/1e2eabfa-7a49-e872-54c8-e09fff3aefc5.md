@@ -1,0 +1,36 @@
+# SetCurveBase Constructor 
+ 
+
+Initializes a new instance of the <a href="f1a2e49f-a35b-35d6-ddc9-469bc4db3de7">SetCurveBase</a> class.
+
+**Namespace:**&nbsp;<a href="8790c1b2-b85d-f406-6b72-1668fe47b24f">VM.Managed.DAFUL</a><br />**Assembly:**&nbsp;VMDFBase (in VMDFBase.dll) Version: 24.1.0.0
+
+## Syntax
+
+**C#**<br />
+``` C#
+public SetCurveBase()
+```
+
+**VB**<br />
+``` VB
+Public Sub New
+```
+
+**C++**<br />
+``` C++
+public:
+SetCurveBase()
+```
+
+**F#**<br />
+``` F#
+new : unit -> SetCurveBase
+```
+
+
+## See Also
+
+
+#### Reference
+<a href="f1a2e49f-a35b-35d6-ddc9-469bc4db3de7">SetCurveBase Class</a><br /><a href="9ac8d0d4-9856-8836-7cfc-f13b53e0b8fb">SetCurveBase Overload</a><br /><a href="8790c1b2-b85d-f406-6b72-1668fe47b24f">VM.Managed.DAFUL Namespace</a><br />

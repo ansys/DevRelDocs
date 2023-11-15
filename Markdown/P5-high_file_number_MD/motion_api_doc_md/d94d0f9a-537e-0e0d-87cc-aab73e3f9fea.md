@@ -1,0 +1,46 @@
+# GetPiecewiseCurveOp.Name Property 
+ 
+
+Gets the name.
+
+**Namespace:**&nbsp;<a href="bdeeb71e-08d7-cd91-e11a-795ab9385ff7">VM.Managed.CAD</a><br />**Assembly:**&nbsp;VMAppCore (in VMAppCore.dll) Version: 24.1.23299.31577
+
+## Syntax
+
+**C#**<br />
+``` C#
+public override string Name { get; }
+```
+
+**VB**<br />
+``` VB
+Public Overrides ReadOnly Property Name As String
+	Get
+```
+
+**C++**<br />
+``` C++
+public:
+virtual property String^ Name {
+	String^ get () override;
+}
+```
+
+**F#**<br />
+``` F#
+abstract Name : string with get
+override Name : string with get
+```
+
+
+#### Property Value
+Type: String<br />The name.
+
+#### Implements
+IOperation.Name<br />
+
+## See Also
+
+
+#### Reference
+<a href="d82231d0-10c1-c543-a079-13078c9b3053">GetPiecewiseCurveOp Class</a><br /><a href="bdeeb71e-08d7-cd91-e11a-795ab9385ff7">VM.Managed.CAD Namespace</a><br />

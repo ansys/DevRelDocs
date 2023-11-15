@@ -1,0 +1,44 @@
+# CreatePatchset.Name Property 
+ 
+
+**Namespace:**&nbsp;<a href="17993246-7dca-3e47-b06f-1d440f100d3a">VM.Managed.DAFUL.FE.Operation</a><br />**Assembly:**&nbsp;VMOpMesh (in VMOpMesh.dll) Version: 24.1.0.0
+
+## Syntax
+
+**C#**<br />
+``` C#
+public override string Name { get; }
+```
+
+**VB**<br />
+``` VB
+Public Overrides ReadOnly Property Name As String
+	Get
+```
+
+**C++**<br />
+``` C++
+public:
+virtual property String^ Name {
+	String^ get () override;
+}
+```
+
+**F#**<br />
+``` F#
+abstract Name : string with get
+override Name : string with get
+```
+
+
+#### Property Value
+Type: String
+
+#### Implements
+IOperation.Name<br />
+
+## See Also
+
+
+#### Reference
+<a href="1fb3ccc8-3235-5d02-512a-dc5dadd191fc">CreatePatchset Class</a><br /><a href="17993246-7dca-3e47-b06f-1d440f100d3a">VM.Managed.DAFUL.FE.Operation Namespace</a><br />

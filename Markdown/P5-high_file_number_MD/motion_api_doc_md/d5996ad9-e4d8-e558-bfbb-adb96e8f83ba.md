@@ -1,0 +1,51 @@
+# AddBearingToShaft.UpdateUI Method 
+ 
+
+Updates the UI.
+
+**Namespace:**&nbsp;<a href="f69f4f48-6c25-4b7a-c6dc-c253dd218fde">VM.Managed.DAFUL.GearTrain.Operation</a><br />**Assembly:**&nbsp;VMOpGearTrain (in VMOpGearTrain.dll) Version: 24.1.0.0
+
+## Syntax
+
+**C#**<br />
+``` C#
+public static void UpdateUI(
+	IUIUpdate updater,
+	Document doc
+)
+```
+
+**VB**<br />
+``` VB
+Public Shared Sub UpdateUI ( 
+	updater As IUIUpdate,
+	doc As Document
+)
+```
+
+**C++**<br />
+``` C++
+public:
+static void UpdateUI(
+	IUIUpdate^ updater, 
+	Document^ doc
+)
+```
+
+**F#**<br />
+``` F#
+static member UpdateUI : 
+        updater : IUIUpdate * 
+        doc : Document -> unit 
+
+```
+
+
+#### Parameters
+&nbsp;<dl><dt>updater</dt><dd>Type: IUIUpdate<br />The updater.</dd><dt>doc</dt><dd>Type: <a href="3dea251e-faa0-432d-002f-eefcd34d482f">VM.Managed.Document</a><br />The document.</dd></dl>
+
+## See Also
+
+
+#### Reference
+<a href="2bae7a82-43df-5af2-531d-69e258a8b743">AddBearingToShaft Class</a><br /><a href="f69f4f48-6c25-4b7a-c6dc-c253dd218fde">VM.Managed.DAFUL.GearTrain.Operation Namespace</a><br />

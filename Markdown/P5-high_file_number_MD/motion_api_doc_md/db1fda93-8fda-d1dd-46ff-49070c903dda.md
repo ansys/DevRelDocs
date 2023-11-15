@@ -1,0 +1,44 @@
+# CVCV.TargetType Property 
+ 
+
+**Namespace:**&nbsp;<a href="a2f7f1a4-cf5f-0512-8b01-c33e6784deb7">VM.Managed.DAFUL.Contact</a><br />**Assembly:**&nbsp;VMDCt (in VMDCt.dll) Version: 24.1.0.0
+
+## Syntax
+
+**C#**<br />
+``` C#
+public override string TargetType { get; }
+```
+
+**VB**<br />
+``` VB
+Public Overrides ReadOnly Property TargetType As String
+	Get
+```
+
+**C++**<br />
+``` C++
+public:
+virtual property String^ TargetType {
+	String^ get () override;
+}
+```
+
+**F#**<br />
+``` F#
+abstract TargetType : string with get
+override TargetType : string with get
+```
+
+
+#### Property Value
+Type: String
+
+#### Implements
+<a href="e75ce3f8-f265-2688-b385-db066f69dfe2">IEnableForSimulationScenario.TargetType</a><br />
+
+## See Also
+
+
+#### Reference
+<a href="34afbf8e-6e63-376e-09df-889d14215e71">CVCV Class</a><br /><a href="a2f7f1a4-cf5f-0512-8b01-c33e6784deb7">VM.Managed.DAFUL.Contact Namespace</a><br />

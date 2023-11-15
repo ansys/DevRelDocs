@@ -1,0 +1,46 @@
+# ThermalContact Constructor (String)
+ 
+
+Initializes a new instance of the <a href="7e9beeca-d066-71e4-fe52-d3277c4c9c70">ThermalContact</a> class.
+
+**Namespace:**&nbsp;<a href="b54825a8-84ad-1a83-835b-546afd934ede">VM.Managed.DAFUL.Thermal</a><br />**Assembly:**&nbsp;VMDThermal (in VMDThermal.dll) Version: 24.1.0.0
+
+## Syntax
+
+**C#**<br />
+``` C#
+public ThermalContact(
+	string strName
+)
+```
+
+**VB**<br />
+``` VB
+Public Sub New ( 
+	strName As String
+)
+```
+
+**C++**<br />
+``` C++
+public:
+ThermalContact(
+	String^ strName
+)
+```
+
+**F#**<br />
+``` F#
+new : 
+        strName : string -> ThermalContact
+```
+
+
+#### Parameters
+&nbsp;<dl><dt>strName</dt><dd>Type: System.String<br />Name of the STR.</dd></dl>
+
+## See Also
+
+
+#### Reference
+<a href="7e9beeca-d066-71e4-fe52-d3277c4c9c70">ThermalContact Class</a><br /><a href="077a9e17-ed27-7d8e-aa12-940fa2b7882c">ThermalContact Overload</a><br /><a href="b54825a8-84ad-1a83-835b-546afd934ede">VM.Managed.DAFUL.Thermal Namespace</a><br />
