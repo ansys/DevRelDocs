@@ -1,0 +1,48 @@
+# SlidingBearingBuilder.StartPoint Property 
+ 
+
+Gets the start point.
+
+**Namespace:**&nbsp;<a href="d9db19a5-2df6-b933-3d4e-2c38d80febf4">VM.Managed.DAFUL.GearTrain.CAD</a><br />**Assembly:**&nbsp;VMDGearTrain (in VMDGearTrain.dll) Version: 24.1.0.0
+
+## Syntax
+
+**C#**<br />
+``` C#
+public PointBase StartPoint { get; set; }
+```
+
+**VB**<br />
+``` VB
+Public Property StartPoint As PointBase
+	Get
+	Set
+```
+
+**C++**<br />
+``` C++
+public:
+virtual property PointBase^ StartPoint {
+	PointBase^ get () sealed;
+	void set (PointBase^ value) sealed;
+}
+```
+
+**F#**<br />
+``` F#
+abstract StartPoint : PointBase with get, set
+override StartPoint : PointBase with get, set
+```
+
+
+#### Property Value
+Type: <a href="3805f939-06a5-1628-55f0-df0b6182a01f">PointBase</a><br />The start point.
+
+#### Implements
+<a href="081aa3a4-0092-a4ea-b011-b663a497d3ef">IGTBuilder.StartPoint</a><br />
+
+## See Also
+
+
+#### Reference
+<a href="82c0807a-f8f5-f55d-314b-55d86556c8ac">SlidingBearingBuilder Class</a><br /><a href="d9db19a5-2df6-b933-3d4e-2c38d80febf4">VM.Managed.DAFUL.GearTrain.CAD Namespace</a><br />

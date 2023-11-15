@@ -1,0 +1,54 @@
+# Bearing.GetUnnamedObjectName Method 
+ 
+
+Gets the name of the unnamed object.
+
+**Namespace:**&nbsp;<a href="faae22d6-2802-465b-a817-230732284684">VM.Managed.DAFUL.GearTrain</a><br />**Assembly:**&nbsp;VMDGearTrain (in VMDGearTrain.dll) Version: 24.1.0.0
+
+## Syntax
+
+**C#**<br />
+``` C#
+public override string GetUnnamedObjectName(
+	Object obUnnamed
+)
+```
+
+**VB**<br />
+``` VB
+Public Overrides Function GetUnnamedObjectName ( 
+	obUnnamed As Object
+) As String
+```
+
+**C++**<br />
+``` C++
+public:
+virtual String^ GetUnnamedObjectName(
+	Object^ obUnnamed
+) override
+```
+
+**F#**<br />
+``` F#
+abstract GetUnnamedObjectName : 
+        obUnnamed : Object -> string 
+override GetUnnamedObjectName : 
+        obUnnamed : Object -> string 
+```
+
+
+#### Parameters
+&nbsp;<dl><dt>obUnnamed</dt><dd>Type: System.Object<br />The ob unnamed.</dd></dl>
+
+#### Return Value
+Type: String<br />The unnamed object name.
+
+#### Implements
+IContainer.GetUnnamedObjectName(Object)<br />
+
+## See Also
+
+
+#### Reference
+<a href="fed7da74-57bf-1196-2476-54541cdd27df">Bearing Class</a><br /><a href="faae22d6-2802-465b-a817-230732284684">VM.Managed.DAFUL.GearTrain Namespace</a><br />

@@ -1,0 +1,45 @@
+# ContactStandard.SticVel Property 
+ 
+
+Gets or sets the stiction velocity.
+
+**Namespace:**&nbsp;<a href="a2f7f1a4-cf5f-0512-8b01-c33e6784deb7">VM.Managed.DAFUL.Contact</a><br />**Assembly:**&nbsp;VMDCt (in VMDCt.dll) Version: 24.1.0.0
+
+## Syntax
+
+**C#**<br />
+``` C#
+public ExpressionValueVariable SticVel { get; set; }
+```
+
+**VB**<br />
+``` VB
+Public Property SticVel As ExpressionValueVariable
+	Get
+	Set
+```
+
+**C++**<br />
+``` C++
+public:
+property ExpressionValueVariable SticVel {
+	ExpressionValueVariable get ();
+	void set (ExpressionValueVariable value);
+}
+```
+
+**F#**<br />
+``` F#
+member SticVel : ExpressionValueVariable with get, set
+
+```
+
+
+#### Property Value
+Type: ExpressionValueVariable<br />The stiction velocity.
+
+## See Also
+
+
+#### Reference
+<a href="ff686ac2-fe6e-150a-1480-182028c5c7a5">ContactStandard Class</a><br /><a href="a2f7f1a4-cf5f-0512-8b01-c33e6784deb7">VM.Managed.DAFUL.Contact Namespace</a><br />

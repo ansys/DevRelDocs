@@ -1,0 +1,48 @@
+# ReplaceDesignPosition.GetInformation Method 
+ 
+
+Gets the information.
+
+**Namespace:**&nbsp;<a href="f8df6af6-992f-9452-ac28-f454c6b0f004">VM.Managed.DAFUL.Chained.Operation</a><br />**Assembly:**&nbsp;VMOpChained (in VMOpChained.dll) Version: 24.1.0.0
+
+## Syntax
+
+**C#**<br />
+``` C#
+public override void GetInformation(
+	XmlWriter writer
+)
+```
+
+**VB**<br />
+``` VB
+Public Overrides Sub GetInformation ( 
+	writer As XmlWriter
+)
+```
+
+**C++**<br />
+``` C++
+public:
+virtual void GetInformation(
+	XmlWriter^ writer
+) override
+```
+
+**F#**<br />
+``` F#
+abstract GetInformation : 
+        writer : XmlWriter -> unit 
+override GetInformation : 
+        writer : XmlWriter -> unit 
+```
+
+
+#### Parameters
+&nbsp;<dl><dt>writer</dt><dd>Type: System.Xml.XmlWriter<br />The writer.</dd></dl>
+
+## See Also
+
+
+#### Reference
+<a href="99e08039-a087-b054-a245-5856dd89ea3b">ReplaceDesignPosition Class</a><br /><a href="f8df6af6-992f-9452-ac28-f454c6b0f004">VM.Managed.DAFUL.Chained.Operation Namespace</a><br />

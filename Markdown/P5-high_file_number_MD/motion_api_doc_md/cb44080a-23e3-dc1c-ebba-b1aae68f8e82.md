@@ -1,0 +1,51 @@
+# Web.InitChild Method 
+ 
+
+Initializes the child.
+
+**Namespace:**&nbsp;<a href="faae22d6-2802-465b-a817-230732284684">VM.Managed.DAFUL.GearTrain</a><br />**Assembly:**&nbsp;VMDGearTrain (in VMDGearTrain.dll) Version: 24.1.0.0
+
+## Syntax
+
+**C#**<br />
+``` C#
+public void InitChild(
+	int nNum,
+	ConvertFactor factor
+)
+```
+
+**VB**<br />
+``` VB
+Public Sub InitChild ( 
+	nNum As Integer,
+	factor As ConvertFactor
+)
+```
+
+**C++**<br />
+``` C++
+public:
+void InitChild(
+	int nNum, 
+	ConvertFactor^ factor
+)
+```
+
+**F#**<br />
+``` F#
+member InitChild : 
+        nNum : int * 
+        factor : ConvertFactor -> unit 
+
+```
+
+
+#### Parameters
+&nbsp;<dl><dt>nNum</dt><dd>Type: System.Int32<br />The n number.</dd><dt>factor</dt><dd>Type: ConvertFactor<br />The factor.</dd></dl>
+
+## See Also
+
+
+#### Reference
+<a href="58463570-7921-4fd6-7495-e67eb2f1a667">Web Class</a><br /><a href="faae22d6-2802-465b-a817-230732284684">VM.Managed.DAFUL.GearTrain Namespace</a><br />

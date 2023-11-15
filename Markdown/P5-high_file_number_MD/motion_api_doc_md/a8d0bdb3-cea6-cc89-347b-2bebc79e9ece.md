@@ -1,0 +1,43 @@
+# RideGeneralConfiguration.AnalysisType Property 
+ 
+
+Gets or sets the type of the analysis.
+
+**Namespace:**&nbsp;<a href="08e6b2d8-bba2-0a01-1fdc-133a5d5f82b4">VM.Managed.DAFUL.Car</a><br />**Assembly:**&nbsp;VMDCar (in VMDCar.dll) Version: 24.1.0.0
+
+## Syntax
+
+**C#**<br />
+``` C#
+public override TireAnalysisType AnalysisType { get; }
+```
+
+**VB**<br />
+``` VB
+Public Overrides ReadOnly Property AnalysisType As TireAnalysisType
+	Get
+```
+
+**C++**<br />
+``` C++
+public:
+virtual property TireAnalysisType AnalysisType {
+	TireAnalysisType get () override;
+}
+```
+
+**F#**<br />
+``` F#
+abstract AnalysisType : TireAnalysisType with get
+override AnalysisType : TireAnalysisType with get
+```
+
+
+#### Property Value
+Type: <a href="c4f6114b-6301-f5d4-065f-b04b1480bf33">TireAnalysisType</a><br />The type of the analysis.
+
+## See Also
+
+
+#### Reference
+<a href="0aff1043-0799-e76d-3cbe-5a939fdf9c4b">RideGeneralConfiguration Class</a><br /><a href="08e6b2d8-bba2-0a01-1fdc-133a5d5f82b4">VM.Managed.DAFUL.Car Namespace</a><br />

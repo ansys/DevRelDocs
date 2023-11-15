@@ -1,0 +1,90 @@
+# EHDBearingUtil.CreateEHDBearing Method (GearTrainDocument, String, ObjectBase, ObjectBase, PointBase, DirectionBase, DirectionBase, Double, Double, Double)
+ 
+
+**Namespace:**&nbsp;<a href="f69f4f48-6c25-4b7a-c6dc-c253dd218fde">VM.Managed.DAFUL.GearTrain.Operation</a><br />**Assembly:**&nbsp;VMOpGearTrain (in VMOpGearTrain.dll) Version: 24.1.0.0
+
+## Syntax
+
+**C#**<br />
+``` C#
+public static EHDBearing CreateEHDBearing(
+	this GearTrainDocument gearTrainDocument,
+	string strName,
+	ObjectBase baseGeometry,
+	ObjectBase actionGeometry,
+	PointBase position,
+	DirectionBase zAxis,
+	DirectionBase xAxis,
+	double dBearingRadius,
+	double dJournalRadius,
+	double dWidth
+)
+```
+
+**VB**<br />
+``` VB
+<ExtensionAttribute>
+Public Shared Function CreateEHDBearing ( 
+	gearTrainDocument As GearTrainDocument,
+	strName As String,
+	baseGeometry As ObjectBase,
+	actionGeometry As ObjectBase,
+	position As PointBase,
+	zAxis As DirectionBase,
+	xAxis As DirectionBase,
+	dBearingRadius As Double,
+	dJournalRadius As Double,
+	dWidth As Double
+) As EHDBearing
+```
+
+**C++**<br />
+``` C++
+public:
+[ExtensionAttribute]
+static EHDBearing^ CreateEHDBearing(
+	GearTrainDocument^ gearTrainDocument, 
+	String^ strName, 
+	ObjectBase^ baseGeometry, 
+	ObjectBase^ actionGeometry, 
+	PointBase^ position, 
+	DirectionBase^ zAxis, 
+	DirectionBase^ xAxis, 
+	double dBearingRadius, 
+	double dJournalRadius, 
+	double dWidth
+)
+```
+
+**F#**<br />
+``` F#
+[<ExtensionAttribute>]
+static member CreateEHDBearing : 
+        gearTrainDocument : GearTrainDocument * 
+        strName : string * 
+        baseGeometry : ObjectBase * 
+        actionGeometry : ObjectBase * 
+        position : PointBase * 
+        zAxis : DirectionBase * 
+        xAxis : DirectionBase * 
+        dBearingRadius : float * 
+        dJournalRadius : float * 
+        dWidth : float -> EHDBearing 
+
+```
+
+
+#### Parameters
+&nbsp;<dl><dt>gearTrainDocument</dt><dd>Type: <a href="fd52a4c8-264a-80a2-d424-add4a3d2465e">VM.Managed.DAFUL.GearTrain.GearTrainDocument</a><br /></dd><dt>strName</dt><dd>Type: System.String<br /></dd><dt>baseGeometry</dt><dd>Type: <a href="e4ef36d2-6ffe-3d20-3215-f6ddb4918c59">VM.Managed.ObjectBase</a><br /></dd><dt>actionGeometry</dt><dd>Type: <a href="e4ef36d2-6ffe-3d20-3215-f6ddb4918c59">VM.Managed.ObjectBase</a><br /></dd><dt>position</dt><dd>Type: <a href="3805f939-06a5-1628-55f0-df0b6182a01f">VM.Managed.PointBase</a><br /></dd><dt>zAxis</dt><dd>Type: <a href="e766a5cd-064f-37a0-f7d1-fc7cadc8fad5">VM.Managed.DirectionBase</a><br /></dd><dt>xAxis</dt><dd>Type: <a href="e766a5cd-064f-37a0-f7d1-fc7cadc8fad5">VM.Managed.DirectionBase</a><br /></dd><dt>dBearingRadius</dt><dd>Type: System.Double<br /></dd><dt>dJournalRadius</dt><dd>Type: System.Double<br /></dd><dt>dWidth</dt><dd>Type: System.Double<br /></dd></dl>
+
+#### Return Value
+Type: EHDBearing
+
+#### Usage Note
+In Visual Basic and C#, you can call this method as an instance method on any object of type <a href="fd52a4c8-264a-80a2-d424-add4a3d2465e">GearTrainDocument</a>. When you use instance method syntax to call this method, omit the first parameter. For more information, see <a href="https://docs.microsoft.com/dotnet/visual-basic/programming-guide/language-features/procedures/extension-methods" target="_blank" rel="noopener noreferrer">Extension Methods (Visual Basic)</a> or <a href="https://docs.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/extension-methods" target="_blank" rel="noopener noreferrer">Extension Methods (C# Programming Guide)</a>.
+
+## See Also
+
+
+#### Reference
+<a href="7726de72-cf69-3759-cd9f-c86fea3f47e3">EHDBearingUtil Class</a><br /><a href="35ab9118-82c0-b040-f035-e0000a7c6c7d">CreateEHDBearing Overload</a><br /><a href="f69f4f48-6c25-4b7a-c6dc-c253dd218fde">VM.Managed.DAFUL.GearTrain.Operation Namespace</a><br />

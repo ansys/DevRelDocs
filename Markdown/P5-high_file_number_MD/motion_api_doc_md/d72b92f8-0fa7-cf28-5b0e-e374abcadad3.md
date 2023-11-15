@@ -1,0 +1,43 @@
+# BallPlacing.InitColorArgb Property 
+ 
+
+**Namespace:**&nbsp;<a href="8790c1b2-b85d-f406-6b72-1668fe47b24f">VM.Managed.DAFUL</a><br />**Assembly:**&nbsp;VMDBallPlacing (in VMDBallPlacing.dll) Version: 24.1.0.0
+
+## Syntax
+
+**C#**<br />
+``` C#
+public int InitColorArgb { get; set; }
+```
+
+**VB**<br />
+``` VB
+Public Property InitColorArgb As Integer
+	Get
+	Set
+```
+
+**C++**<br />
+``` C++
+public:
+property int InitColorArgb {
+	int get ();
+	void set (int value);
+}
+```
+
+**F#**<br />
+``` F#
+member InitColorArgb : int with get, set
+
+```
+
+
+#### Property Value
+Type: Int32
+
+## See Also
+
+
+#### Reference
+<a href="1e4f10d0-7e28-a781-6545-ed76eb9761f8">BallPlacing Class</a><br /><a href="8790c1b2-b85d-f406-6b72-1668fe47b24f">VM.Managed.DAFUL Namespace</a><br />

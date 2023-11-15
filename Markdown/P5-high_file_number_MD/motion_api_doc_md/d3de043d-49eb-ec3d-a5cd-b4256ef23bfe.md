@@ -1,0 +1,45 @@
+# SimulationConfiguration.OutOfCore Property 
+ 
+
+Gets or sets a value indicating whether [out of core].
+
+**Namespace:**&nbsp;<a href="05a7f2f9-3551-60b1-3652-371a61dfb10b">VM.Managed</a><br />**Assembly:**&nbsp;VMObjBase (in VMObjBase.dll) Version: 24.1.0.0
+
+## Syntax
+
+**C#**<br />
+``` C#
+public bool OutOfCore { get; set; }
+```
+
+**VB**<br />
+``` VB
+Public Property OutOfCore As Boolean
+	Get
+	Set
+```
+
+**C++**<br />
+``` C++
+public:
+property bool OutOfCore {
+	bool get ();
+	void set (bool value);
+}
+```
+
+**F#**<br />
+``` F#
+member OutOfCore : bool with get, set
+
+```
+
+
+#### Property Value
+Type: Boolean<br />`true` if [out of core]; otherwise, `false`.
+
+## See Also
+
+
+#### Reference
+<a href="ec1f78e8-d356-f0ed-bca1-b7afcb3f8e25">SimulationConfiguration Class</a><br /><a href="05a7f2f9-3551-60b1-3652-371a61dfb10b">VM.Managed Namespace</a><br />

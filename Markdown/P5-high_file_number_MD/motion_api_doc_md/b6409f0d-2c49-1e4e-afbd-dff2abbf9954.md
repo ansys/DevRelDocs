@@ -1,0 +1,21 @@
+# OperationBase Properties
+ 
+
+The <a href="f4470757-1ab5-4821-d0a4-ecd15264c010">OperationBase</a> type exposes the following members.
+
+
+## Properties
+&nbsp;<table><tr><th></th><th>Name</th><th>Description</th></tr><tr><td>![Public property](media/pubproperty.gif "Public property")![Static member](media/static.gif "Static member")</td><td><a href="f892921b-bc78-1edd-96bb-5a1ca56977b3">autoEvents</a></td><td>
+Gets or sets the event notifier from the waiting thread.</td></tr><tr><td>![Protected property](media/protproperty.gif "Protected property")</td><td><a href="ffcf5ca5-96ad-3890-89f2-431d72e858f6">Document</a></td><td /></tr><tr><td>![Protected property](media/protproperty.gif "Protected property")</td><td><a href="12eca286-cd72-ada0-ccae-de9aa9a59292">ExecutableOnHold</a></td><td /></tr><tr><td>![Public property](media/pubproperty.gif "Public property")![Static member](media/static.gif "Static member")</td><td><a href="7947fcfd-9894-4038-e5a1-2a078722897a">ExecuteMacro</a></td><td /></tr><tr><td>![Public property](media/pubproperty.gif "Public property")![Static member](media/static.gif "Static member")</td><td><a href="0b1e3675-1c20-c89b-defe-7b5de3c0dd7e">GlobalOverride</a></td><td>
+Gets or sets the global session attributes.</td></tr><tr><td>![Public property](media/pubproperty.gif "Public property")![Static member](media/static.gif "Static member")</td><td><a href="f5ca4297-fdfb-9016-9913-4bbf8b57838d">IsDoingThread</a></td><td /></tr><tr><td>![Public property](media/pubproperty.gif "Public property")</td><td><a href="feeac303-ef3a-fa2d-a5df-0478fd0e356d">IsHistoryMerge</a></td><td /></tr><tr><td>![Public property](media/pubproperty.gif "Public property")</td><td><a href="25b2458c-c400-841f-c0f3-337d08d9d504">MarkStatus</a></td><td>
+Gets the mark status.</td></tr><tr><td>![Public property](media/pubproperty.gif "Public property")</td><td><a href="5750078f-2c9f-d372-4b84-e8318d41567b">Name</a></td><td>
+Gets the operation name.</td></tr><tr><td>![Protected property](media/protproperty.gif "Protected property")</td><td><a href="47bfd946-47e9-a57b-cdfc-2fc30aa68afb">Override</a></td><td /></tr><tr><td>![Protected property](media/protproperty.gif "Protected property")</td><td><a href="c3e0a120-aa42-6b5e-324f-6a11e483a1f4">Parameter</a></td><td /></tr><tr><td>![Public property](media/pubproperty.gif "Public property")</td><td><a href="37843c51-0dee-2120-556c-4b3c7b3584ee">PostExecuteClearTemporaryLinkContainer</a></td><td /></tr><tr><td>![Public property](media/pubproperty.gif "Public property")![Static member](media/static.gif "Static member")</td><td><a href="4c133756-fadc-36bc-a8a5-9ff439130277">SimStatus</a></td><td /></tr><tr><td>![Public property](media/pubproperty.gif "Public property")</td><td><a href="1d507a49-df78-d91f-b3ef-6acd386effc7">SkipClearTemporaryLinkContainer</a></td><td /></tr><tr><td>![Public property](media/pubproperty.gif "Public property")</td><td><a href="6ecde7d2-160d-ff26-df83-0164aa2db352">SkipEndOperation</a></td><td /></tr><tr><td>![Public property](media/pubproperty.gif "Public property")![Static member](media/static.gif "Static member")</td><td><a href="b532e9e7-9c12-6b15-755e-6e3d9d33d400">Status</a></td><td>
+Gets or sets the operation status.</td></tr><tr><td>![Public property](media/pubproperty.gif "Public property")</td><td><a href="d312a4e1-d1f3-e7ad-3d4a-55961f5f4a38">UseMacro</a></td><td /></tr><tr><td>![Public property](media/pubproperty.gif "Public property")</td><td><a href="8ad72245-47d6-a805-1f69-5b3ae74cf789">UseThread</a></td><td>
+Gets a value indicating whether operation use the thread.</td></tr><tr><td>![Protected property](media/protproperty.gif "Protected property")</td><td><a href="86880547-15d4-b292-606d-3021827d6275">View</a></td><td /></tr></table>&nbsp;
+<a href="#operationbase-properties">Back to Top</a>
+
+## See Also
+
+
+#### Reference
+<a href="f4470757-1ab5-4821-d0a4-ecd15264c010">OperationBase Class</a><br /><a href="12c63615-d8eb-6b83-8570-a65473d39be8">VM.Managed.Operation Namespace</a><br />

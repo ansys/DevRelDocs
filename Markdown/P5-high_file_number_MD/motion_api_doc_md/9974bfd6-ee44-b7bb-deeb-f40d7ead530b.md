@@ -1,0 +1,48 @@
+# AssembledBody.Initialize Method 
+ 
+
+Initializes member through unit convert factor.
+
+**Namespace:**&nbsp;<a href="8790c1b2-b85d-f406-6b72-1668fe47b24f">VM.Managed.DAFUL</a><br />**Assembly:**&nbsp;VMDFBase (in VMDFBase.dll) Version: 24.1.0.0
+
+## Syntax
+
+**C#**<br />
+``` C#
+public virtual void Initialize(
+	ConvertFactor factor
+)
+```
+
+**VB**<br />
+``` VB
+Public Overridable Sub Initialize ( 
+	factor As ConvertFactor
+)
+```
+
+**C++**<br />
+``` C++
+public:
+virtual void Initialize(
+	ConvertFactor^ factor
+)
+```
+
+**F#**<br />
+``` F#
+abstract Initialize : 
+        factor : ConvertFactor -> unit 
+override Initialize : 
+        factor : ConvertFactor -> unit 
+```
+
+
+#### Parameters
+&nbsp;<dl><dt>factor</dt><dd>Type: ConvertFactor<br />The unit convert factor.</dd></dl>
+
+## See Also
+
+
+#### Reference
+<a href="4e6240ed-37a5-2bd2-da19-4cfb0d80952e">AssembledBody Class</a><br /><a href="8790c1b2-b85d-f406-6b72-1668fe47b24f">VM.Managed.DAFUL Namespace</a><br />
