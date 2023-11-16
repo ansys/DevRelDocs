@@ -1,0 +1,7 @@
+name: 'API categories'
+id: api_categories
+description: 'Tags to categorize APIs.'
+terms:
+  - 'OptiSLang Web Components'
+  - 'Autonomous Vehicle Simulation'
+  - 'Exterior Lighting'
