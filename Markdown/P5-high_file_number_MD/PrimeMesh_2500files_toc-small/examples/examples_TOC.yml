@@ -1,0 +1,23 @@
+items:
+- name: Gallery
+  items:
+  - name: Meshing a mid-surfaced bracket for a structural analysis
+    href: gallery_examples/gallery/01_bracket_scaffold.md
+  - name: Meshing a mixing elbow for a flow analysis
+    href: gallery_examples/gallery/02_lucid_mixing_elbow.md
+  - name: Meshing a pipe T-section for structural thermal and fluid flow analysis
+    href: gallery_examples/gallery/03_lucid_pipe_tee.md
+  - name: Wrapping a toy car for a flow analysis
+    href: gallery_examples/gallery/04_lucid_toy_car.md
+  - name: Meshing a PCB for structural thermal analysis
+    href: gallery_examples/gallery/05_pcb_stacker.md
+  - name: Morphing a hexahedral mesh of a turbine blade to a new shape
+    href: gallery_examples/gallery/06_blade_morph.md
+  - name: eshing a saddle bracket for a structural analysis
+    href: gallery_examples/gallery/07_saddle_bracket.md
+  - name: Meshing a generic F1 car rear wing for external aero simulation
+    href: gallery_examples/gallery/08_lucid_generic_f1_rear_wing.md
+- name: Miscellaneous examples
+  items:
+  - name: Adding a new example
+    href: gallery_examples/misc/example_template.md
