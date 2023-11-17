@@ -1,0 +1,13 @@
+{
+    "build": {
+      "globalMetadata": {
+        "title": "PrimeMesh Documentation",
+        "summary": "PrimeMesh Documentation summary",
+        "version": "2024 R1",
+        "product": "PrimeMesh",
+        "programming language": "Python",
+        "product collection": "Structures",
+        "physics": "Mechanical"
+      }
+    }
+ }
