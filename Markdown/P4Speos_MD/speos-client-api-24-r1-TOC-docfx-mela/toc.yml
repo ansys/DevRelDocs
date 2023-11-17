@@ -1,9 +1,9 @@
 - name: Introduction
   href: client-speos-api-home.md
-- name: Speos Sim
+- name: Speos Sim API
   href: client-speos-sim.md 
-- name: Speos Des
+- name: Speos Des API
   href: client-speos-des.md 
-- name: Speos Asm
+- name: Speos Asm API
   href: client-speos-asm.md 
 

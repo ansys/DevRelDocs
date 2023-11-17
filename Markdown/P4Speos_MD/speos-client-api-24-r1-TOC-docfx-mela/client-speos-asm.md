@@ -1,17 +1,4 @@
----
-title: Speos Asm API
-author: Melanie Guyot
-author email: melanie.guyot@ansys.com
-summary: Speos client APIs documentation
-description: Speos client APIs documentation
-version: 2024 R1
-status: unpublished
-access control: internal
-product: Speos
-product collection: Optics
-programming language: IronPython
-physics: Optics
----
+# Speos Asm API
 
 ## CADUpdate
 
