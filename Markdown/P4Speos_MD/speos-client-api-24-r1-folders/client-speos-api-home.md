@@ -1,7 +1,7 @@
 ---
 title: Introduction
-author: Melanie Guyot
-author email: melanie.guyot@ansys.com
+author: Ansys
+author email: ansysdevelopers@ansys.com
 summary: Speos client APIs documentation
 description: Speos client APIs documentation
 date: 2023-11-15

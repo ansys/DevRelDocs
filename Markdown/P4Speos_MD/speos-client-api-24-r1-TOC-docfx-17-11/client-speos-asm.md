@@ -1,7 +1,7 @@
 ---
 title: Speos Asm API
-author: Melanie Guyot
-author email: melanie.guyot@ansys.com
+author: Ansys
+author email: ansysdevelopers@ansys.com
 summary: Speos client APIs documentation
 description: Speos client APIs documentation
 version: 2024 R1
