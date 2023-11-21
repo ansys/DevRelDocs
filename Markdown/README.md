@@ -87,17 +87,17 @@ The package version is a simple string and follows a pattern defined outside the
 #### status (optional)
 The desired publication status of the content. One of: unpublished, published. If not provided, the content will be published immediately upon import.
 #### access control (optional)
-An access control term. If not supplied, the content will be accessible to everyone. May be overridden by access controls set on the entire documentation package. Currently the only access control value is: ```Internal```
+An access control term. If not supplied, the content will be accessible to everyone. May be overridden by access controls set on the entire documentation package. Refer to [access.yml](https://github.com/ansys/DevRelDocs/blob/MDmeta/Markdown/taxonomies/access.yml) for currently available terms.
 #### api categories (optional)
-One or more of the api categories terms that apply to the content. A full list will be dynamically generated.
+One or more of the api categories terms that apply to the content. A full list will be dynamically generated.  Refer to [api_categories.yml](https://github.com/ansys/DevRelDocs/blob/MDmeta/Markdown/taxonomies/api_categories.yml) for currently available terms.
 #### product (recommended)
-One or more of the product category terms that apply to the content. A full list will be dynamically generated. Generally this categorization will be set at the documentation package level in docfx.json.
+One or more of the product category terms that apply to the content. A full list will be dynamically generated. Generally this categorization will be set at the documentation package level in docfx.json.  Refer to [product.yml](https://github.com/ansys/DevRelDocs/blob/MDmeta/Markdown/taxonomies/product.yml) for currently available terms.
 #### product collection (optional)
-One or more of the product collection category terms that apply to the content. A full list will be dynamically generated. Generally this categorization will be set at the documentation package level in docfx.json.
+One or more of the product collection category terms that apply to the content. A full list will be dynamically generated. Generally this categorization will be set at the documentation package level in docfx.json.  Refer to [product_collection.yml](https://github.com/ansys/DevRelDocs/blob/MDmeta/Markdown/taxonomies/product_collection.yml) for currently available terms.
 #### programming language (recommended)
-One or more of the product category terms that apply to the content. A full list will be dynamically generated. Generally this categorization will be set at the documentation package level in docfx.json. 
+One or more of the product category terms that apply to the content. A full list will be dynamically generated. Generally this categorization will be set at the documentation package level in docfx.json.  Refer to [programming_language.yml](https://github.com/ansys/DevRelDocs/blob/MDmeta/Markdown/taxonomies/programming_language.yml) for currently available terms.
 #### physics (recommended)
-One or more of the physics terms that apply to the content. A full list will be dynamically generated.
+One or more of the physics terms that apply to the content. A full list will be dynamically generated. Refer to [physics.yml](https://github.com/ansys/DevRelDocs/blob/MDmeta/Markdown/taxonomies/physics.yml) for currently available terms.
 
 ## Technical GitHub Limitations
 
