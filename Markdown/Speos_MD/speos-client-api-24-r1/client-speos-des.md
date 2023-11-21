@@ -23,7 +23,7 @@ Compute | Perform the computation of an array of DocObjects | void Compute(Space
 Compute | Perform the computation of an array of script objects | void Compute(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)
 ComputeOnActiveSelection | Perform the computation of the active selection | void ComputeOnActiveSelection()
 
-## Aspherics
+## Aspherics 2
 
 ### Static method
 
