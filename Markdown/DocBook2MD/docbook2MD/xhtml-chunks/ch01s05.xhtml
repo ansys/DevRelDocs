@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>Sherlock Layer Service-SherlockLayerService.proto</title><meta name="generator" content="DocBook XSL Stylesheets V1.76.1"/><link rel="home" href="index.xhtml" title="Chapter 1. API Services"/><link rel="up" href="index.xhtml" title="Chapter 1. API Services"/><link rel="prev" href="ch01s04.xhtml" title="Sherlock Common Service- SherlockCommonService.proto"/><link rel="next" href="ch01s06.xhtml" title="Sherlock Life Cycle Service- SherlockLifeCycleService.proto"/></head><body><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">Sherlock Layer Service-SherlockLayerService.proto</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="ch01s04.xhtml">Prev</a> </td><th width="60%" align="center"> </th><td width="20%" align="right"> <a accesskey="n" href="ch01s06.xhtml">Next</a></td></tr></table><hr/></div><div class="sect1" title="Sherlock Layer Service-SherlockLayerService.proto"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a id="sherlock_ug_SherlockLayerService.proto"/>Sherlock Layer Service-SherlockLayerService.proto</h2></div></div></div><p><a class="link" href="ch01s02.xhtml" title="Index to the Sherlock APIs">Click here to return to the main index to
+        Sherlock's APIs.</a></p><p>The APIs in this section allow you to perform different layer view operations to a board.
+      Clicking on the active links in the table below will take you to the selected API. </p><div class="table"><a id="d0e2841"/><p class="title"><strong>Table 1.34. Index to Sherlock Layer Service APIs</strong></p><div class="table-contents"><table summary="Index to Sherlock Layer Service APIs" border="1"><colgroup><col width="1.42in" class="col1"/><col width="1.72in" class="col2"/><col width="1.48in" class="col3"/><col width="1.85in" class="col4"/></colgroup><tbody><tr><td align="center"><span class="bold"><strong>Method Name</strong></span></td><td align="center"><span class="bold"><strong>Request Type</strong></span></td><td align="center"><span class="bold"><strong>Response Type</strong></span></td><td align="center"><span class="bold"><strong>Description</strong></span></td></tr><tr><td colspan="4"><span class="emphasis"><em>For display purposes, strings in the first
+                three columns are broken into multiple lines and should be read as continuous. For
+                example, the first string in column two should be interpreted as: <span class="bold"><strong>.DeleteAllMountPointsRequest</strong></span></em></span></td></tr><tr><td>deleteAllICTFixtures</td><td><a class="link" href="ch01s05.xhtml#sherlock_ug_DeleteAllICTFixturesRequest" title="DeleteAllICTFixturesRequest">.DeleteAllICTFixtures
+                Request</a></td><td><a class="link" href="ch01s04.xhtml#sherlock_ug_ReturnCode" title="Return Code">.ReturnCode</a></td><td>Delete all ICT fixtures in specific cca of specific project.</td></tr><tr><td>deleteAllMount Points</td><td><a class="link" href="ch01s05.xhtml#sherlock_ug_DeleteAllMountPointsRequest" title="DeleteAllMountPointsRequest">.DeleteAllMount
+                PointsRequest</a></td><td><a class="link" href="ch01s04.xhtml#sherlock_ug_ReturnCode" title="Return Code">.ReturnCode</a></td><td>Request to delete all mount points in a specific CCA of a specific
+              project.</td></tr><tr><td>deleteAllTestPoints</td><td><a class="link" href="ch01s05.xhtml#sherlock_ug_DeleteAllTestPointsRequest" title="DeleteAllTestPointsRequest">.DeleteAllTestPoints
+                Request</a></td><td><a class="link" href="ch01s04.xhtml#sherlock_ug_ReturnCode" title="Return Code">.ReturnCode</a></td><td>Delete all test points in specific cca of specific project.</td></tr><tr><td>exportAllMount Points</td><td><a class="link" href="ch01s05.xhtml#sherlock_ug_ExportAllMountPointsRequest" title="ExportAllMountPointsRequest">.ExportAllMount
+                PointsRequest</a></td><td><a class="link" href="ch01s04.xhtml#sherlock_ug_ReturnCode" title="Return Code">.ReturnCode</a></td><td>Request to export all mount points and their properties into a .csv formatted
+              file.</td></tr><tr><td>exportAllICT Fixtures</td><td><a class="link" href="ch01s05.xhtml#sherlock_ug_ExportAllICTFixturesRequest" title="ExportAllICTFixturesRequest">.ExportAllICTFixtures
+                Request</a></td><td><a class="link" href="ch01s04.xhtml#sherlock_ug_ReturnCode" title="Return Code">.ReturnCode</a></td><td>Export all ICT fixtures andtheir properties into a CSVformatted file.</td></tr><tr><td>exportAllTestPoints</td><td><a class="link" href="ch01s05.xhtml#sherlock_ug_ExportAllTestPointsRequest" title="ExportAllTestPointsRequest">.ExportAllTest
+                PointsRequest</a></td><td><a class="link" href="ch01s04.xhtml#sherlock_ug_ReturnCode" title="Return Code">.ReturnCode</a></td><td>Export all test points and their properties into a CSV formatted file.</td></tr><tr><td>getMountPoint Boundaries</td><td><a class="link" href="ch01s05.xhtml#sherlock_ug_GetMountPointBoundariesRequest" title="GetMountPointBoundariesRequest">.GetMountPoint
+                BoundariesRequest</a></td><td><a class="link" href="ch01s05.xhtml#sherlock_ug_GetMountPointBoundariesResponse" title="GetMountPointBoundariesResponse">.GetMountPoint
+                Boundaries Response</a></td><td>Get a list of valid Mount Point Boundaries.</td></tr><tr><td>getMountPoint ChassisMaterials</td><td><a class="link" href="ch01s05.xhtml#sherlock_ug_GetMountPointBoundariesRequest" title="GetMountPointBoundariesRequest">.GetMountPoint
+                ChassisMaterials Request</a></td><td><a class="link" href="ch01s05.xhtml#sherlock_ug_GetMountPointChassisMaterialsResponse" title="GetMountPointChassisMaterialsResponse">.GetMountPoint
+                ChassisMaterials Response</a></td><td>Get a list of valid Mount Point chassis materials.</td></tr><tr><td>getMountPoints Properties</td><td><a class="link" href="ch01s05.xhtml#sherlock_ug_GetMountPointsPropertiesRequest" title="GetMountPointsPropertiesRequest">.GetMountPoints
+                PropertiesRequest</a></td><td><a class="link" href="ch01s05.xhtml#sherlock_ug_GetMountPointsPropertiesResponse" title="GetMountPointsPropertiesResponse">.GetMountPoints
+                PropertiesResponse</a></td><td>Get a list of valid Mount Point Properties.</td></tr><tr><td>getMountPoint ShapeTypes</td><td><a class="link" href="ch01s05.xhtml#sherlock_ug_GetMountPointShapeTypesRequest" title="GetMountPointShapeTypesRequest">.GetMountPoint
+                ShapeTypesRequest</a></td><td><a class="link" href="ch01s05.xhtml#sherlock_ug_GetMountPointShapeTypesResponse" title="GetMountPointShapeTypesResponse">.GetMountPoint
+                ShapeTypes Response</a></td><td>Get a list of valid Mount Point Shape Type values.</td></tr><tr><td>getMountPoint Sides</td><td><a class="link" href="ch01s05.xhtml#sherlock_ug_GetMountPointSidesRequest" title="GetMountPointSidesRequest">.GetMountPoint
+                SidesRequest</a></td><td><a class="link" href="ch01s05.xhtml#sherlock_ug_GetMountPointSidesResponse" title="GetMountPointSidesResponse">.GetMountPoint
+                SidesResponse</a></td><td>Get a list of valid Mount Point Sides.</td></tr><tr><td>getMountPoint Types</td><td><a class="link" href="ch01s05.xhtml#sherlock_ug_GetMountPointShapeTypesRequest" title="GetMountPointShapeTypesRequest">.GetMountPoint
+                TypesRequest</a></td><td><a class="link" href="ch01s05.xhtml#sherlock_ug_GetMountPointTypesResponse" title="GetMountPointTypesResponse">.GetMountPoint
+                TypesResponse</a></td><td>Get a list of valid Mount Point Type values.</td></tr><tr><td>getMount PointUnits</td><td><a class="link" href="ch01s05.xhtml#sherlock_ug_GetMountPointUnitsRequest" title="GetMountPointUnitsRequest">.GetMountPoint
+                UnitsRequest</a></td><td><a class="link" href="ch01s05.xhtml#sherlock_ug_GetMountPointUnitsResponse" title="GetMountPointUnitsResponse">.GetMountPoint
+                UnitsResponse</a></td><td>Get a list of valid Mount Point Units.</td></tr><tr><td>updateICTFixtures ByFile</td><td><a class="link" href="ch01s05.xhtml#sherlock_ug_UpdateICTFixturesByFileRequest" title="UpdateICTFixturesByFileRequest">.UpdateICTFixtures
+                ByFileRequest</a></td><td><a class="link" href="ch01s05.xhtml#sherlock_ug_UpdateICTFixturesResponse" title="UpdateICTFixturesResponse">.UpdateICT
+                FixturesResponse</a></td><td>See note below.</td></tr><tr><td colspan="4"><span class="bold"><strong>updateICTFixturesByFile</strong></span>: Update the ICT fixtures properties of a CCA
+              from a CSV formatted file. This API could be used to add new ICT fixtures or update
+              existing ones depending on the file contents. If the ID specified already exists, then
+              the properties for that ICT fixture will be updated. If the ID specified does not
+              already exist, or if the field is empty, then a new ICT fixture will be added with the
+              specified properties. The file format should be the same as the one produced from CCA
+              &gt; Export ICT Fixtures.</td></tr><tr><td>updateMountPoints</td><td><a class="link" href="ch01s05.xhtml#sherlock_ug_UpdateMountPointsRequest" title="UpdateMountPointsRequest">.UpdateMount
+                PointsRequest</a></td><td><a class="link" href="ch01s05.xhtml#sherlock_ug_UpdateMountPointsResponse" title="UpdateMountPointsResponse">.UpdateMount
+                PointsResponse</a></td><td>Update mount points with specified properties</td></tr><tr><td>updateMount PointsByFile</td><td><a class="link" href="ch01s05.xhtml#sherlock_ug_UpdateMountPointsByFileRequest" title="UpdateMountPointsByFileRequest">.UpdateMountPoints
+                ByFileRequest</a></td><td><a class="link" href="ch01s05.xhtml#sherlock_ug_UpdateMountPointsResponse" title="UpdateMountPointsResponse">.UpdateMount
+                PointsResponse</a></td><td>See note below.</td></tr><tr><td colspan="4">
+              <p><span class="bold"><strong>updateMountPointsByFile</strong></span>: Update the mount
+                points properties of a CCA from a CSV formatted file. This API could be used to add
+                new mount points or update existing ones depending on the file contents. If the ID
+                specified already exists, then the properties for that mount point will be updated.
+                If the ID specified does not already exist, or if the field is empty, then a new
+                mount point will be added with the specified properties. The file format should be
+                the same as the one produced from CCA &gt; ExportMountPoints.</p>
+            </td></tr><tr><td>updateTest PointsByFile</td><td><a class="link" href="ch01s05.xhtml#sherlock_ug_UpdateTestPointsByFileRequest" title="UpdateTestPointsByFileRequest">.UpdateTest
+                PointsByFileRequest</a></td><td><a class="link" href="ch01s05.xhtml#sherlock_ug_UpdateTestPointsResponse" title="UpdateTestPointsResponse">.UpdateTest
+                PointsResponse</a></td><td>See note below.</td></tr><tr><td colspan="4">
+              <p><span class="bold"><strong>updateTestPointsByFile</strong></span>: Update the test points
+                properties of a CCA from a CSV formatted file. This API could be used to add new
+                test points or update existing ones depending on the file contents. If the ID
+                specified already exists, then the properties for that test point will be updated.
+                If the ID specified does not already exist, or if the field is empty, then a new
+                test point will be added with the specified properties. The file format should be
+                the same as the one produced from CCA &gt; ExportTestPoints.</p>
+            </td></tr></tbody></table></div></div><br class="table-break"/><div class="sect2" title="Delete All ICT Fixtures"><div class="titlepage"><div><div><h3 class="title"><a id="sherlock_ug_DeleteAllICTFixtures"/>Delete All ICT Fixtures</h3></div></div></div><div class="sect3" title="DeleteAllICTFixturesRequest"><div class="titlepage"><div><div><h4 class="title"><a id="sherlock_ug_DeleteAllICTFixturesRequest"/>DeleteAllICTFixturesRequest</h4></div></div></div><p>Request to delete all ICT Fixtures in a specific CCA of a specific project.</p><div class="table"><a id="d0e3085"/><p class="title"><strong>Table 1.35. DeleteAllICTFixturesRequest</strong></p><div class="table-contents"><table summary="DeleteAllICTFixturesRequest" border="1"><colgroup><col width="1in" class="col1"/><col width="1in" class="col2"/><col width="1in" class="col3"/><col width="3.39in" class="col4"/></colgroup><tbody><tr><td align="center"><span class="bold"><strong>Field</strong></span></td><td align="center"><span class="bold"><strong>Type</strong></span></td><td align="center"><span class="bold"><strong>Label</strong></span></td><td align="center"><span class="bold"><strong>Description</strong></span></td></tr><tr><td>project</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>Sherlock project name</td></tr><tr><td>ccaName</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>The CCA Name</td></tr></tbody></table></div></div><br class="table-break"/></div><div class="sect3" title="Examples: SherlockLayerService.deleteAllITestPoints()"><div class="titlepage"><div><div><h4 class="title"><a id="d0e3127"/>Examples: SherlockLayerService.deleteAllITestPoints()</h4></div></div></div><h5><a id="d0e3130"/>Proto Request Example</h5><pre class="programlisting">{
+  "project": "Tutorial Project",
+  "ccaName": "Main Board"
+}</pre><h5><a id="d0e3134"/>Python Example</h5><pre class="programlisting">import SherlockLayerService_pb2
+import SherlockLayerService_pb2_grpc
+import grpc
+
+channel = grpc.insecure_channel('localhost:9090')
+
+stub = SherlockLayerService_pb2_grpc.SherlockLayerServiceStub(channel)
+
+message = SherlockLayerService_pb2.DeleteAllICTFixturesRequest()
+
+message.project = "Tutorial Project"
+message.ccaName = "Main Board"
+
+response = stub.deleteAllICTFixtures(message)
+
+print(str(response))</pre></div></div><div class="sect2" title="Delete All Mount Points"><div class="titlepage"><div><div><h3 class="title"><a id="d0e3138"/>Delete All Mount Points</h3></div></div></div><div class="sect3" title="DeleteAllMountPointsRequest"><div class="titlepage"><div><div><h4 class="title"><a id="sherlock_ug_DeleteAllMountPointsRequest"/>DeleteAllMountPointsRequest</h4></div></div></div><p>Request to delete all mount points in a specific CCA of a specific project.</p><div class="table"><a id="d0e3146"/><p class="title"><strong>Table 1.36. DeleteAllMountPointsRequest</strong></p><div class="table-contents"><table summary="DeleteAllMountPointsRequest" border="1"><colgroup><col width="1in" class="col1"/><col width="1in" class="col2"/><col width="1in" class="col3"/><col width="3.39in" class="col4"/></colgroup><tbody><tr><td align="center"><span class="bold"><strong>Field</strong></span></td><td align="center"><span class="bold"><strong>Type</strong></span></td><td align="center"><span class="bold"><strong>Label</strong></span></td><td align="center"><span class="bold"><strong>Description</strong></span></td></tr><tr><td>project</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>Sherlock project name</td></tr><tr><td>ccaName</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>The CCA Name</td></tr></tbody></table></div></div><br class="table-break"/></div><div class="sect3" title="Examples: SherlockLayerService.deleteAllMountPoints()"><div class="titlepage"><div><div><h4 class="title"><a id="d0e3188"/>Examples: SherlockLayerService.deleteAllMountPoints()</h4></div></div></div><h5><a id="d0e3191"/>Proto Request Example</h5><pre class="programlisting">{
+  "project": "Tutorial Project",
+  "ccaName": "Main Board
+}
+</pre><h5><a id="d0e3195"/>Python Example</h5><pre class="programlisting">import SherlockLayerService_pb2
+import SherlockLayerService_pb2_grpc
+import grpc
+
+channel = grpc.insecure_channel('localhost:9090')
+stub = SherlockLayerService_pb2_grpc.SherlockLayerServiceStub(channel)
+
+message = SherlockLayerService_pb2.DeleteAllMountPointsRequest()
+message.project = "Tutorial Project"
+message.ccaName = "Main Board"
+
+response = stub.deleteAllMountPoints(message)
+
+print(str(response))</pre></div></div><div class="sect2" title="Delete All Test Points"><div class="titlepage"><div><div><h3 class="title"><a id="sherlock_ug_DeleteAllTestPoints"/>Delete All Test Points</h3></div></div></div><div class="sect3" title="DeleteAllTestPointsRequest"><div class="titlepage"><div><div><h4 class="title"><a id="sherlock_ug_DeleteAllTestPointsRequest"/>DeleteAllTestPointsRequest</h4></div></div></div><p>Request to delete all test points in specific CCA of specific project.</p><div class="table"><a id="d0e3207"/><p class="title"><strong>Table 1.37. DeleteAllTestPointsRequest</strong></p><div class="table-contents"><table summary="DeleteAllTestPointsRequest" border="1"><colgroup><col width="1in" class="col1"/><col width="1in" class="col2"/><col width="1in" class="col3"/><col width="3.39in" class="col4"/></colgroup><tbody><tr><td align="center"><span class="bold"><strong>Field</strong></span></td><td align="center"><span class="bold"><strong>Type</strong></span></td><td align="center"><span class="bold"><strong>Label</strong></span></td><td align="center"><span class="bold"><strong>Description</strong></span></td></tr><tr><td>project</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>Sherlock project name</td></tr><tr><td>ccaName</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>The CCA Name</td></tr></tbody></table></div></div><br class="table-break"/></div><div class="sect3" title="Examples: SherlockLayerService.deleteAllITestPoints()"><div class="titlepage"><div><div><h4 class="title"><a id="d0e3249"/>Examples: SherlockLayerService.deleteAllITestPoints()</h4></div></div></div><h5><a id="d0e3252"/>Proto Request Example</h5><pre class="programlisting">{
+  "project": "Tutorial Project",
+  "ccaName": "Main Board"
+}</pre><h5><a id="d0e3256"/>Python Example</h5><pre class="programlisting">import SherlockLayerService_pb2
+import SherlockLayerService_pb2_grpc
+import grpc
+
+channel = grpc.insecure_channel('localhost:9090')
+
+stub = SherlockLayerService_pb2_grpc.SherlockLayerServiceStub(channel)
+
+message = SherlockLayerService_pb2.DeleteAllTestPointsRequest()
+
+message.project = "Tutorial Project"
+message.ccaName = "Main Board"
+
+response = stub.deleteAllTestPoints(message)
+
+print(str(response))</pre></div></div><div class="sect2" title="Export All ICT Fixtures"><div class="titlepage"><div><div><h3 class="title"><a id="sherlock_ug_ExportAllICTFixtures"/>Export All ICT Fixtures</h3></div></div></div><div class="sect3" title="ExportAllICTFixturesRequest"><div class="titlepage"><div><div><h4 class="title"><a id="sherlock_ug_ExportAllICTFixturesRequest"/>ExportAllICTFixturesRequest</h4></div></div></div><p>Request to export all ICT fixtures and their properties into a CSV formatted
+          file</p><div class="table"><a id="d0e3268"/><p class="title"><strong>Table 1.38. ExportAllICTFixturesRequest</strong></p><div class="table-contents"><table summary="ExportAllICTFixturesRequest" border="1"><colgroup><col width="1in" class="col1"/><col width="0.91in" class="col2"/><col width="0.85in" class="col3"/><col width="3.66in" class="col4"/></colgroup><tbody><tr><td align="center"><span class="bold"><strong>Field</strong></span></td><td align="center"><span class="bold"><strong>Type</strong></span></td><td align="center"><span class="bold"><strong>Label</strong></span></td><td align="center"><span class="bold"><strong>Description</strong></span></td></tr><tr><td>project</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>Sherlock project name</td></tr><tr><td>ccaName</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>The CCA Name</td></tr><tr><td>units</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>Units used in exporting</td></tr><tr><td>filePath</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>The filepath of the .csv file to be exported</td></tr></tbody></table></div></div><br class="table-break"/></div><div class="sect3" title="Examples: SherlockLayerService.exportAllICTFixtures()"><div class="titlepage"><div><div><h4 class="title"><a id="d0e3330"/>Examples: SherlockLayerService.exportAllICTFixtures()</h4></div></div></div><h5><a id="d0e3333"/>Proto Request Example</h5><pre class="programlisting">{
+  "project": "Tutorial Project",
+  "ccaName": "Main Board",
+  "units": "mm",
+  "filePath": "C:\\Temp\\ICTFixtures.csv"
+}</pre><h5><a id="d0e3337"/>Python Example</h5><pre class="programlisting">import SherlockLayerService_pb2
+import SherlockLayerService_pb2_grpc
+import grpc
+import os
+
+ANSYS_ROOT = os.getenv('ANSYS_ROOT')
+
+channel = grpc.insecure_channel('localhost:9090')
+stub = SherlockLayerService_pb2_grpc.SherlockLayerServiceStub(channel)
+
+message = SherlockLayerService_pb2.ExportAllICTFixturesRequest()
+message.project = "Tutorial Project"
+message.ccaName = "Main Board"
+message.units = "mm"
+message.filePath = os.getcwd() + "ICTFixtures.csv"
+
+response = stub.exportAllICTFixtures(message)
+
+print(str(response))</pre></div></div><div class="sect2" title="Export All Mount Points"><div class="titlepage"><div><div><h3 class="title"><a id="d0e3341"/>Export All Mount Points</h3></div></div></div><div class="highlights"><p>In this section:</p></div><div class="sect3" title="ExportAllMountPointsRequest"><div class="titlepage"><div><div><h4 class="title"><a id="sherlock_ug_ExportAllMountPointsRequest"/>ExportAllMountPointsRequest</h4></div></div></div><p>Request to export all mount points and their properties into a .csv formatted
+          file.</p><div class="table"><a id="d0e3352"/><p class="title"><strong>Table 1.39. ExportAllMountPointsRequest</strong></p><div class="table-contents"><table summary="ExportAllMountPointsRequest" border="1"><colgroup><col width="1in" class="col1"/><col width="0.91in" class="col2"/><col width="0.85in" class="col3"/><col width="3.66in" class="col4"/></colgroup><tbody><tr><td align="center"><span class="bold"><strong>Field</strong></span></td><td align="center"><span class="bold"><strong>Type</strong></span></td><td align="center"><span class="bold"><strong>Label</strong></span></td><td align="center"><span class="bold"><strong>Description</strong></span></td></tr><tr><td>project</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>Sherlock project name</td></tr><tr><td>ccaName</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>The CCA Name</td></tr><tr><td>units</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>Units used in exporting</td></tr><tr><td>filePath</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>The filepath of the .csv file to be exported</td></tr></tbody></table></div></div><br class="table-break"/></div><div class="sect3" title="Examples: SherlockLayerService.exportAllMountPoints()"><div class="titlepage"><div><div><h4 class="title"><a id="d0e3414"/>Examples: SherlockLayerService.exportAllMountPoints()</h4></div></div></div><h5><a id="d0e3417"/>Proto Request Example</h5><pre class="programlisting">{
+  "project": "Tutorial Project",
+  "ccaName": "Main Board,
+  "units": "mm",
+  "filePath": "C:\\Temp\\export.csv"
+}</pre><h5><a id="d0e3421"/>Python Example</h5><pre class="programlisting">import SherlockLayerService_pb2
+import SherlockLayerService_pb2_grpc
+import grpc
+import os
+
+channel = grpc.insecure_channel('localhost:9090')
+stub = SherlockLayerService_pb2_grpc.SherlockLayerServiceStub(channel)
+
+message = SherlockLayerService_pb2.ExportAllMountPointsRequest()
+message.project = "Tutorial Project"
+message.ccaName = "Main Board"
+message.units = "mm"
+message.filePath = os.getcwd() + "\\export.csv"
+
+response = stub.exportAllMountPoints(message)
+print(str(response))</pre></div></div><div class="sect2" title="Export All Test Points"><div class="titlepage"><div><div><h3 class="title"><a id="sherlock_ug_ExportAllTestPoints"/>Export All Test Points</h3></div></div></div><div class="sect3" title="ExportAllTestPointsRequest"><div class="titlepage"><div><div><h4 class="title"><a id="sherlock_ug_ExportAllTestPointsRequest"/>ExportAllTestPointsRequest</h4></div></div></div><p>Request to export all test points and their properties into a CSV formatted
+          file</p><div class="table"><a id="d0e3433"/><p class="title"><strong>Table 1.40. ExportAllTestPointsRequest</strong></p><div class="table-contents"><table summary="ExportAllTestPointsRequest" border="1"><colgroup><col width="1.7in" class="col1"/><col width="1.07in" class="col2"/><col width="0.94in" class="col3"/><col width="2.76in" class="col4"/></colgroup><tbody><tr><td align="center"><span class="bold"><strong>Field</strong></span></td><td align="center"><span class="bold"><strong>Type</strong></span></td><td align="center"><span class="bold"><strong>Label</strong></span></td><td align="center"><span class="bold"><strong>Description</strong></span></td></tr><tr><td>project</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>Sherlock project name</td></tr><tr><td>ccaName</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>The cca Name</td></tr><tr><td>lengthUnits</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>Length Units used in exporting</td></tr><tr><td>displacementUnits</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>Displacement Units used in exporting</td></tr><tr><td>forceUnits</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>Force Units used in exporting</td></tr><tr><td>filePath</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>The filepath of the CSV file to be exported</td></tr></tbody></table></div></div><br class="table-break"/></div><div class="sect3" title="Examples: SherlockLayerService.exportAllTestPoints()"><div class="titlepage"><div><div><h4 class="title"><a id="d0e3515"/>Examples: SherlockLayerService.exportAllTestPoints()</h4></div></div></div><h5><a id="d0e3518"/>Proto Request Example</h5><pre class="programlisting">{
+  "project": "Tutorial Project",
+  "ccaName": "Main Board",
+  "lengthUnits": "mm",
+  "displacementUnits": "mm",
+  "forceUnits": "n",
+  "filePath": "C:\\Temp\\TestPointsExport.csv"
+}</pre><h5><a id="d0e3522"/>Python Example</h5><pre class="programlisting">import SherlockLayerService_pb2
+import SherlockLayerService_pb2_grpc
+import grpc
+import os
+
+channel = grpc.insecure_channel('localhost:9090')
+stub = SherlockLayerService_pb2_grpc.SherlockLayerServiceStub(channel)
+
+message = SherlockLayerService_pb2.ExportAllTestPointsRequest()
+message.project = "Tutorial Project"
+message.ccaName = "Main Board"
+message.lengthUnits = "mm"
+message.displacementUnits = "mm"
+message.forceUnits = "n"
+message.filePath = os.getcwd() + "\\TestPointsExport.csv"
+
+response = stub.exportAllTestPoints(message)
+
+print(str(response))</pre></div></div><div class="sect2" title="Get Mount Point Boundaries"><div class="titlepage"><div><div><h3 class="title"><a id="d0e3526"/>Get Mount Point Boundaries</h3></div></div></div><div class="highlights"><p>In this section:</p></div><div class="sect3" title="GetMountPointBoundariesRequest"><div class="titlepage"><div><div><h4 class="title"><a id="sherlock_ug_GetMountPointBoundariesRequest"/>GetMountPointBoundariesRequest</h4></div></div></div><p>Empty request to list the valid mount point boundaries.</p></div><div class="sect3" title="GetMountPointBoundariesResponse"><div class="titlepage"><div><div><h4 class="title"><a id="sherlock_ug_GetMountPointBoundariesResponse"/>GetMountPointBoundariesResponse</h4></div></div></div><p>Represents a list of valid mount point boundaries.</p><div class="table"><a id="d0e3542"/><p class="title"><strong>Table 1.41. RunAnalysisRequest</strong></p><div class="table-contents"><table summary="RunAnalysisRequest" border="1"><colgroup><col width="1in" class="col1"/><col width="1.72in" class="col2"/><col width="0.84in" class="col3"/><col width="2.85in" class="col4"/></colgroup><tbody><tr><td align="center"><span class="bold"><strong>Field</strong></span></td><td align="center"><span class="bold"><strong>Type</strong></span></td><td align="center"><span class="bold"><strong>Label</strong></span></td><td align="center"><span class="bold"><strong>Description</strong></span></td></tr><tr><td>returnCode</td><td><a class="link" href="ch01s04.xhtml#sherlock_ug_ReturnCode" title="Return Code">ReturnCode</a></td><td> </td><td>Status code of response. </td></tr><tr><td>boundary</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td>repeated</td><td>Mount Point boundary. </td></tr></tbody></table></div></div><br class="table-break"/></div><div class="sect3" title="Examples: Get Mount Point Boundaries"><div class="titlepage"><div><div><h4 class="title"><a id="d0e3583"/>Examples: Get Mount Point Boundaries</h4></div></div></div><h5><a id="d0e3586"/>Proto Request Example</h5><pre class="programlisting">{
+}</pre><h5><a id="d0e3590"/>Python Example</h5><pre class="programlisting">import SherlockLayerService_pb2
+import SherlockLayerService_pb2_grpc
+import grpc
+
+channel = grpc.insecure_channel('localhost:9090')
+
+stub = SherlockLayerService_pb2_grpc.SherlockLayerServiceStub(channel)
+
+message = SherlockLayerService_pb2.GetMountPointBoundariesRequest()
+
+response = stub.getMountPointBoundaries(message)
+
+print(str(response))</pre></div></div><div class="sect2" title="Get Mount Point Chassis Materials"><div class="titlepage"><div><div><h3 class="title"><a id="d0e3594"/>Get Mount Point Chassis Materials</h3></div></div></div><div class="highlights"><p>In this section:</p></div><div class="sect3" title="GetMountPointChassisMaterialsRequest"><div class="titlepage"><div><div><h4 class="title"><a id="sherlock_ug_GetMountPointChassisMaterialsRequest"/>GetMountPointChassisMaterialsRequest</h4></div></div></div><p>Empty request to list the valid mount point chassis materials.</p></div><div class="sect3" title="GetMountPointChassisMaterialsResponse"><div class="titlepage"><div><div><h4 class="title"><a id="sherlock_ug_GetMountPointChassisMaterialsResponse"/>GetMountPointChassisMaterialsResponse</h4></div></div></div><p>Represents a list of valid mount point chassis materials.</p><div class="table"><a id="d0e3610"/><p class="title"><strong>Table 1.42. GetMountPointChassisMaterialsResponse</strong></p><div class="table-contents"><table summary="GetMountPointChassisMaterialsResponse" border="1"><colgroup><col width="1in" class="col1"/><col width="1.72in" class="col2"/><col width="0.84in" class="col3"/><col width="2.85in" class="col4"/></colgroup><tbody><tr><td align="center"><span class="bold"><strong>Field</strong></span></td><td align="center"><span class="bold"><strong>Type</strong></span></td><td align="center"><span class="bold"><strong>Label</strong></span></td><td align="center"><span class="bold"><strong>Description</strong></span></td></tr><tr><td>returnCode</td><td><a class="link" href="ch01s04.xhtml#sherlock_ug_ReturnCode" title="Return Code">ReturnCode</a></td><td> </td><td>Status code of response. </td></tr><tr><td>chassisMaterial</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td>repeated</td><td>Mount Point chassis material. </td></tr></tbody></table></div></div><br class="table-break"/></div><div class="sect3" title="Examples: Get Mount Point Chassis Materials"><div class="titlepage"><div><div><h4 class="title"><a id="d0e3651"/>Examples: Get Mount Point Chassis Materials</h4></div></div></div><h5><a id="d0e3654"/>Proto Request Example</h5><pre class="programlisting">{
+}</pre><h5><a id="d0e3658"/>Python Example</h5><pre class="programlisting">import SherlockLayerService_pb2
+import SherlockLayerService_pb2_grpc
+import grpc
+
+channel = grpc.insecure_channel('localhost:9090')
+
+stub = SherlockLayerService_pb2_grpc.SherlockLayerServiceStub(channel)
+
+message = SherlockLayerService_pb2.GetMountPointChassisMaterialsRequest()
+
+response = stub.getMountPointChassisMaterials(message)
+
+print(str(response))</pre></div></div><div class="sect2" title="Get Mount Point Shape Types"><div class="titlepage"><div><div><h3 class="title"><a id="d0e3662"/>Get Mount Point Shape Types</h3></div></div></div><div class="highlights"><p>In this section:</p></div><div class="sect3" title="GetMountPointShapeTypesRequest"><div class="titlepage"><div><div><h4 class="title"><a id="sherlock_ug_GetMountPointShapeTypesRequest"/>GetMountPointShapeTypesRequest</h4></div></div></div><p>Empty request to list the valid mount point shape types.</p><div class="table"><a id="d0e3673"/><p class="title"><strong>Table 1.43. GetMountPointShapeTypesRequest</strong></p><div class="table-contents"><table summary="GetMountPointShapeTypesRequest" border="1"><colgroup><col width="1in" class="col1"/><col width="1.72in" class="col2"/><col width="0.84in" class="col3"/><col width="2.85in" class="col4"/></colgroup><tbody><tr><td align="center"><span class="bold"><strong>Field</strong></span></td><td align="center"><span class="bold"><strong>Type</strong></span></td><td align="center"><span class="bold"><strong>Label</strong></span></td><td align="center"><span class="bold"><strong>Description</strong></span></td></tr><tr><td>mountPointType</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>Mount Point Type. Supported values are: Mount Hole, Mount Pad, Standoff, and
+                  Support Pin. </td></tr></tbody></table></div></div><br class="table-break"/></div><div class="sect3" title="GetMountPointShapeTypesResponse"><div class="titlepage"><div><div><h4 class="title"><a id="sherlock_ug_GetMountPointShapeTypesResponse"/>GetMountPointShapeTypesResponse</h4></div></div></div><p>Represents a list of valid mount point shape types.</p><div class="table"><a id="d0e3709"/><p class="title"><strong>Table 1.44. GetMountPointShapeTypesResponse</strong></p><div class="table-contents"><table summary="GetMountPointShapeTypesResponse" border="1"><colgroup><col width="1in" class="col1"/><col width="1.72in" class="col2"/><col width="0.84in" class="col3"/><col width="2.85in" class="col4"/></colgroup><tbody><tr><td align="center"><span class="bold"><strong>Field</strong></span></td><td align="center"><span class="bold"><strong>Type</strong></span></td><td align="center"><span class="bold"><strong>Label</strong></span></td><td align="center"><span class="bold"><strong>Description</strong></span></td></tr><tr><td>returnCode</td><td><a class="link" href="ch01s04.xhtml#sherlock_ug_ReturnCode" title="Return Code">ReturnCode</a></td><td> </td><td>Status code of response. </td></tr><tr><td>type</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td>repeated</td><td>Mount Point Shape Type. </td></tr></tbody></table></div></div><br class="table-break"/></div><div class="sect3" title="Examples: Get Mount Point Shape Types"><div class="titlepage"><div><div><h4 class="title"><a id="d0e3750"/>Examples: Get Mount Point Shape Types</h4></div></div></div><h5><a id="d0e3753"/>Proto Request Example</h5><pre class="programlisting">{
+  "mountPointType": "Mount Hole"
+}</pre><h5><a id="d0e3757"/>Python Example</h5><pre class="programlisting">import SherlockLayerService_pb2
+import SherlockLayerService_pb2_grpc
+import grpc
+
+channel = grpc.insecure_channel('localhost:9090')
+
+stub = SherlockLayerService_pb2_grpc.SherlockLayerServiceStub(channel)
+
+message = SherlockLayerService_pb2.GetMountPointShapeTypesRequest()
+
+message.mountPointType = input("Specify the mount point type (Mount Hole, Mount Pad, Standoff, Support Pin): \n")
+
+response = stub.getMountPointShapeTypes(message)
+
+print(str(response))</pre></div></div><div class="sect2" title="Get Mount Point Sides"><div class="titlepage"><div><div><h3 class="title"><a id="d0e3761"/>Get Mount Point Sides</h3></div></div></div><div class="highlights"><p>In this section:</p></div><div class="sect3" title="GetMountPointSidesRequest"><div class="titlepage"><div><div><h4 class="title"><a id="sherlock_ug_GetMountPointSidesRequest"/>GetMountPointSidesRequest</h4></div></div></div><p>Empty request to list the valid mount point sides.</p></div><div class="sect3" title="GetMountPointSidesResponse"><div class="titlepage"><div><div><h4 class="title"><a id="sherlock_ug_GetMountPointSidesResponse"/>GetMountPointSidesResponse</h4></div></div></div><p>Represents a list of valid mount point sides.</p><div class="table"><a id="d0e3777"/><p class="title"><strong>Table 1.45. GetMountPointSidesResponse</strong></p><div class="table-contents"><table summary="GetMountPointSidesResponse" border="1"><colgroup><col width="1in" class="col1"/><col width="1.72in" class="col2"/><col width="0.84in" class="col3"/><col width="2.85in" class="col4"/></colgroup><tbody><tr><td align="center"><span class="bold"><strong>Field</strong></span></td><td align="center"><span class="bold"><strong>Type</strong></span></td><td align="center"><span class="bold"><strong>Label</strong></span></td><td align="center"><span class="bold"><strong>Description</strong></span></td></tr><tr><td>returnCode</td><td><a class="link" href="ch01s04.xhtml#sherlock_ug_ReturnCode" title="Return Code">ReturnCode</a></td><td> </td><td>Status code of response. </td></tr><tr><td>side</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td>repeated</td><td>Mount Point side. </td></tr></tbody></table></div></div><br class="table-break"/></div><div class="sect3" title="Examples: Get Mount Point Sides"><div class="titlepage"><div><div><h4 class="title"><a id="d0e3818"/>Examples: Get Mount Point Sides</h4></div></div></div><h5><a id="d0e3821"/>Proto Request Example</h5><pre class="programlisting">{
+}</pre><h5><a id="d0e3825"/>Python Example</h5><pre class="programlisting">import SherlockLayerService_pb2
+import SherlockLayerService_pb2_grpc
+import grpc
+
+channel = grpc.insecure_channel('localhost:9090')
+
+stub = SherlockLayerService_pb2_grpc.SherlockLayerServiceStub(channel)
+
+message = SherlockLayerService_pb2.GetMountPointSidesRequest()
+
+response = stub.getMountPointSides(message)
+
+print(str(response))</pre></div></div><div class="sect2" title="Get Mount Point Types"><div class="titlepage"><div><div><h3 class="title"><a id="d0e3829"/>Get Mount Point Types</h3></div></div></div><div class="highlights"><p>In this section:</p></div><div class="sect3" title="GetMountPointTypesRequest"><div class="titlepage"><div><div><h4 class="title"><a id="sherlock_ug_GetMountPointTypesRequest"/>GetMountPointTypesRequest</h4></div></div></div><p>Empty request to list the valid mount point types.</p></div><div class="sect3" title="GetMountPointTypesResponse"><div class="titlepage"><div><div><h4 class="title"><a id="sherlock_ug_GetMountPointTypesResponse"/>GetMountPointTypesResponse</h4></div></div></div><p>Represents a list of valid mount point types.</p><div class="table"><a id="d0e3845"/><p class="title"><strong>Table 1.46. GetMountPointTypesResponse</strong></p><div class="table-contents"><table summary="GetMountPointTypesResponse" border="1"><colgroup><col width="1in" class="col1"/><col width="1.72in" class="col2"/><col width="0.84in" class="col3"/><col width="2.85in" class="col4"/></colgroup><tbody><tr><td align="center"><span class="bold"><strong>Field</strong></span></td><td align="center"><span class="bold"><strong>Type</strong></span></td><td align="center"><span class="bold"><strong>Label</strong></span></td><td align="center"><span class="bold"><strong>Description</strong></span></td></tr><tr><td>returnCode</td><td><a class="link" href="ch01s04.xhtml#sherlock_ug_ReturnCode" title="Return Code">ReturnCode</a></td><td> </td><td>Status code of response. </td></tr><tr><td>type</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td>repeated</td><td>Mount Point Type. </td></tr></tbody></table></div></div><br class="table-break"/></div><div class="sect3" title="Examples: Get Mount Point Types"><div class="titlepage"><div><div><h4 class="title"><a id="d0e3886"/>Examples: Get Mount Point Types</h4></div></div></div><h5><a id="d0e3889"/>Proto Request Example</h5><pre class="programlisting">{
+}</pre><h5><a id="d0e3893"/>Python Example</h5><pre class="programlisting">import SherlockLayerService_pb2
+import SherlockLayerService_pb2_grpc
+import grpc
+
+channel = grpc.insecure_channel('localhost:9090')
+
+stub = SherlockLayerService_pb2_grpc.SherlockLayerServiceStub(channel)
+
+message = SherlockLayerService_pb2.GetMountPointTypesRequest()
+
+response = stub.getMountPointTypes(message)
+
+print(str(response))</pre></div></div><div class="sect2" title="Get Mount Point Units"><div class="titlepage"><div><div><h3 class="title"><a id="d0e3897"/>Get Mount Point Units</h3></div></div></div><div class="highlights"><p>In this section:</p></div><div class="sect3" title="GetMountPointUnitsRequest"><div class="titlepage"><div><div><h4 class="title"><a id="sherlock_ug_GetMountPointUnitsRequest"/>GetMountPointUnitsRequest</h4></div></div></div><p>Empty request to list the valid mount point units.</p></div><div class="sect3" title="GetMountPointUnitsResponse"><div class="titlepage"><div><div><h4 class="title"><a id="sherlock_ug_GetMountPointUnitsResponse"/>GetMountPointUnitsResponse</h4></div></div></div><p>Represents a list of valid mount point units.</p><div class="table"><a id="d0e3913"/><p class="title"><strong>Table 1.47. GetMountPointUnitsResponse</strong></p><div class="table-contents"><table summary="GetMountPointUnitsResponse" border="1"><colgroup><col width="1in" class="col1"/><col width="1.72in" class="col2"/><col width="0.84in" class="col3"/><col width="2.85in" class="col4"/></colgroup><tbody><tr><td align="center"><span class="bold"><strong>Field</strong></span></td><td align="center"><span class="bold"><strong>Type</strong></span></td><td align="center"><span class="bold"><strong>Label</strong></span></td><td align="center"><span class="bold"><strong>Description</strong></span></td></tr><tr><td>returnCode</td><td><a class="link" href="ch01s04.xhtml#sherlock_ug_ReturnCode" title="Return Code">ReturnCode</a></td><td> </td><td>Status code of response. </td></tr><tr><td>units</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td>repeated</td><td>Mount Point units. </td></tr></tbody></table></div></div><br class="table-break"/></div><div class="sect3" title="Examples: Get Mount Point Units"><div class="titlepage"><div><div><h4 class="title"><a id="d0e3954"/>Examples: Get Mount Point Units</h4></div></div></div><h5><a id="d0e3957"/>Proto Request Example</h5><pre class="programlisting">{
+}</pre><h5><a id="d0e3961"/>Python Example</h5><pre class="programlisting">import SherlockLayerService_pb2
+import SherlockLayerService_pb2_grpc
+import grpc
+
+channel = grpc.insecure_channel('localhost:9090')
+
+stub = SherlockLayerService_pb2_grpc.SherlockLayerServiceStub(channel)
+
+message = SherlockLayerService_pb2.GetMountPointUnitsRequest()
+
+response = stub.getMountPointUnits(message)
+
+print(str(response))</pre></div></div><div class="sect2" title="Get Mount Points Properties"><div class="titlepage"><div><div><h3 class="title"><a id="sherlock_ug_GetMountPointsProperties"/>Get Mount Points Properties</h3></div></div></div><div class="highlights"><p>In this section:</p></div><div class="sect3" title="GetMountPointsPropertiesRequest"><div class="titlepage"><div><div><h4 class="title"><a id="sherlock_ug_GetMountPointsPropertiesRequest"/>GetMountPointsPropertiesRequest</h4></div></div></div><p>Empty request to list the valid mount point chassis materials.</p><div class="table"><a id="d0e3976"/><p class="title"><strong>Table 1.48. GetMountPointsPropertiesRequest</strong></p><div class="table-contents"><table summary="GetMountPointsPropertiesRequest" border="1"><colgroup><col width="1.18in" class="col1"/><col width="0.82in" class="col2"/><col width="0.76in" class="col3"/><col width="3.67in" class="col4"/></colgroup><tbody><tr><td align="center"><span class="bold"><strong>Field</strong></span></td><td align="center"><span class="bold"><strong>Type</strong></span></td><td align="center"><span class="bold"><strong>Label</strong></span></td><td align="center"><span class="bold"><strong>Description</strong></span></td></tr><tr><td>project</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>Sherlock project name.</td></tr><tr><td>ccaName</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>The CCA name.</td></tr><tr><td>mountPointIDs</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>A comma separated list of mount point ID's for a list of mount points or a
+                  mount ID for one part.</td></tr></tbody></table></div></div><br class="table-break"/></div><div class="sect3" title="GetMountPointsPropertiesResponse"><div class="titlepage"><div><div><h4 class="title"><a id="sherlock_ug_GetMountPointsPropertiesResponse"/>GetMountPointsPropertiesResponse</h4></div></div></div><p>Represents a list of valid mount point properties.</p><div class="table"><a id="d0e4033"/><p class="title"><strong>Table 1.49. GetMountPointsPropertiesResponse</strong></p><div class="table-contents"><table summary="GetMountPointsPropertiesResponse" border="1"><colgroup><col width="132pt" class="col1"/><col width="152.25pt" class="col2"/><col width="62.25pt" class="col3"/><col width="115.5pt" class="col4"/></colgroup><tbody><tr><td align="center"><span class="bold"><strong>Field</strong></span></td><td align="center"><span class="bold"><strong>Type</strong></span></td><td align="center"><span class="bold"><strong>Label</strong></span></td><td align="center"><span class="bold"><strong>Description</strong></span></td></tr><tr><td>returnCode</td><td><a class="link" href="ch01s04.xhtml#sherlock_ug_ReturnCode" title="Return Code">ReturnCode</a></td><td> </td><td>Status code of response.</td></tr><tr><td>mountPointsProperties</td><td><a class="link" href="ch01s05.xhtml#sherlock_ug_MountPointProperties" title="Mount Point Properties">MountPointProperties</a></td><td>repeated</td><td>Mount Point properties.</td></tr></tbody></table></div></div><br class="table-break"/></div><div class="sect3" title="Mount Point Properties"><div class="titlepage"><div><div><h4 class="title"><a id="sherlock_ug_MountPointProperties"/>Mount Point Properties</h4></div></div></div><p>Properties of mount point. The properties may vary with the mount point type and mount
+          point shape.</p><div class="table"><a id="d0e4080"/><p class="title"><strong>Table 1.50. MountPointProperties</strong></p><div class="table-contents"><table summary="MountPointProperties" border="1"><colgroup><col width="1.47in" class="col1"/><col width="1.14in" class="col2"/><col width="1in" class="col3"/><col width="2.84in" class="col4"/></colgroup><tbody><tr><td align="center"><span class="bold"><strong>Field</strong></span></td><td align="center"><span class="bold"><strong>Type</strong></span></td><td align="center"><span class="bold"><strong>Label</strong></span></td><td align="center"><span class="bold"><strong>Description</strong></span></td></tr><tr><td>ID</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>Mount Point ID</td></tr><tr><td>type</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>Mount Point Type</td></tr><tr><td>shape</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>Shape Type</td></tr><tr><td>units</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>Mount Point Units</td></tr><tr><td>x</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>Center X</td></tr><tr><td>y</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>Center Y</td></tr><tr><td>length</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>Length</td></tr><tr><td>width</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>Width</td></tr><tr><td>diameter</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>Diameter</td></tr><tr><td>nodes</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td># of Nodes</td></tr><tr><td>rotation</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>Rotation (degrees)</td></tr><tr><td>side</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>Mount Point Side</td></tr><tr><td>height</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>Mount Point Height</td></tr><tr><td>material</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>Mount Point Material</td></tr><tr><td>boundary</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>Boundary Pt(s)</td></tr><tr><td>constraints</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>FEA Constraints</td></tr><tr><td>polygon</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>Coordinates of Points</td></tr><tr><td>state</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>Mount Point State</td></tr><tr><td>chassisMaterial</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>Chassis Material</td></tr></tbody></table></div></div><br class="table-break"/></div><div class="sect3" title="Examples: SherlockLayerService.getMountPointsProperties()"><div class="titlepage"><div><div><h4 class="title"><a id="d0e4292"/>Examples: SherlockLayerService.getMountPointsProperties()</h4></div></div></div><h5><a id="d0e4295"/>Proto Request</h5><pre class="programlisting">{
+  "project": "Tutorial Project",
+  "ccaName": "Main Board,
+  "mountPointIDs": "MP1, MP2, MP3, MP4"
+}</pre><h5><a id="d0e4299"/>Python Example</h5><pre class="programlisting">import SherlockLayerService_pb2
+import SherlockLayerService_pb2_grpc
+import grpc
+
+channel = grpc.insecure_channel('localhost:9090')
+stub = SherlockLayerService_pb2_grpc.SherlockLayerServiceStub(channel)
+
+message = SherlockLayerService_pb2.GetMountPointsPropertiesRequest()
+
+message.project = "Tutorial Project"
+message.ccaName = "Main Board"
+message.mountPointIDs = "MP1, MP2, MP3, MP4"
+
+response = stub.getMountPointsProperties(message)
+
+print(str(response))</pre></div></div><div class="sect2" title="Update ICT Fixtures By File"><div class="titlepage"><div><div><h3 class="title"><a id="sherlock_ug_UpdateICTFixturesByFile"/>Update ICT Fixtures By File</h3></div></div></div><div class="highlights"><p>In this section:</p></div><div class="sect3" title="UpdateICTFixturesByFileRequest"><div class="titlepage"><div><div><h4 class="title"><a id="sherlock_ug_UpdateICTFixturesByFileRequest"/>UpdateICTFixturesByFileRequest</h4></div></div></div><p>Request to update ICT fixtures properties of a CCA from a CSV formatted file</p><div class="table"><a id="d0e4314"/><p class="title"><strong>Table 1.51. UpdateICTFixturesByFileRequest</strong></p><div class="table-contents"><table summary="UpdateICTFixturesByFileRequest" border="1"><colgroup><col width="1.29in" class="col1"/><col width="1.11in" class="col2"/><col width="1.14in" class="col3"/><col width="2.91in" class="col4"/></colgroup><tbody><tr><td align="center"><span class="bold"><strong>Field</strong></span></td><td align="center"><span class="bold"><strong>Type</strong></span></td><td align="center"><span class="bold"><strong>Label</strong></span></td><td align="center"><span class="bold"><strong>Description</strong></span></td></tr><tr><td>project</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>Sherlock project name</td></tr><tr><td>ccaName</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>The CCA Name</td></tr><tr><td>filePath</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>The filepath of the CSV file containing the ICT fixtures properties</td></tr></tbody></table></div></div><br class="table-break"/></div><div class="sect3" title="UpdateICTFixturesResponse"><div class="titlepage"><div><div><h4 class="title"><a id="sherlock_ug_UpdateICTFixturesResponse"/>UpdateICTFixturesResponse</h4></div></div></div><p>Contains the status of the update as well as all the update error messages.</p><div class="table"><a id="d0e4371"/><p class="title"><strong>Table 1.52. UpdateICTFixturesResponse</strong></p><div class="table-contents"><table summary="UpdateICTFixturesResponse" border="1"><colgroup><col width="1.21in" class="col1"/><col width="1.14in" class="col2"/><col width="1.05in" class="col3"/><col width="3.03in" class="col4"/></colgroup><tbody><tr><td align="center"><span class="bold"><strong>Field</strong></span></td><td align="center"><span class="bold"><strong>Type</strong></span></td><td align="center"><span class="bold"><strong>Label</strong></span></td><td align="center"><span class="bold"><strong>Description</strong></span></td></tr><tr><td>returnCode</td><td><a class="link" href="ch01s04.xhtml#sherlock_ug_ReturnCode" title="Return Code">ReturnCode</a></td><td> </td><td>Status code of response.</td></tr><tr><td>updateError</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td>repeated</td><td>ICT fixtures update error messages.</td></tr></tbody></table></div></div><br class="table-break"/></div><div class="sect3" title="Examples: SherlockLayerService.updateICTFixturesByFile()"><div class="titlepage"><div><div><h4 class="title"><a id="d0e4413"/>Examples: SherlockLayerService.updateICTFixturesByFile()</h4></div></div></div><h5><a id="d0e4416"/>Proto Request Example</h5><pre class="programlisting">{
+  "project": "Tutorial Project",
+  "ccaName": "Main Board",
+  "filePath": "C:\\PartsDir\\AM\\Sherlock\\ICTFixtures.csv"
+}</pre><h5><a id="d0e4420"/>Python Example</h5><pre class="programlisting">import SherlockLayerService_pb2
+import SherlockLayerService_pb2_grpc
+import grpc
+import os
+
+channel = grpc.insecure_channel('localhost:9090')
+stub = SherlockLayerService_pb2_grpc.SherlockLayerServiceStub(channel)
+
+message = SherlockLayerService_pb2.UpdateICTFixturesByFileRequest()
+message.project = "Tutorial Project"
+message.ccaName = "Main Board"
+message.filePath = os.getenv("PARTSDIR") + "\\AM\\Sherlock\\ICTFixtures.csv"
+response = stub.updateICTFixturesByFile(message)
+
+print(str(response))</pre></div></div><div class="sect2" title="Update Mount Points"><div class="titlepage"><div><div><h3 class="title"><a id="d0e4424"/>Update Mount Points</h3></div></div></div><div class="sect3" title="UpdateMountPointsRequest"><div class="titlepage"><div><div><h4 class="title"><a id="sherlock_ug_UpdateMountPointsRequest"/>UpdateMountPointsRequest</h4></div></div></div><p>Request to update mount points properties of a CCA from a CSV formatted file</p><div class="table"><a id="d0e4432"/><p class="title"><strong>Table 1.53. UpdateMountPointsRequest</strong></p><div class="table-contents"><table summary="UpdateMountPointsRequest" border="1"><colgroup><col width="1.29in" class="col1"/><col width="1.11in" class="col2"/><col width="1.14in" class="col3"/><col width="2.91in" class="col4"/></colgroup><tbody><tr><td align="center"><span class="bold"><strong>Field</strong></span></td><td align="center"><span class="bold"><strong>Type</strong></span></td><td align="center"><span class="bold"><strong>Label</strong></span></td><td align="center"><span class="bold"><strong>Description</strong></span></td></tr><tr><td>project</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>Sherlock project name</td></tr><tr><td>ccaName</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>The CCA Name</td></tr><tr><td>mountPointsProperties</td><td><a class="link" href="ch01s05.xhtml#sherlock_ug_MountPointProperties" title="Mount Point Properties">MountPointProperties</a></td><td> repeated</td><td>Mount Point properties</td></tr></tbody></table></div></div><br class="table-break"/></div><div class="sect3" title="UpdateMountPointsResponse"><div class="titlepage"><div><div><h4 class="title"><a id="sherlock_ug_UpdateMountPointsResponse"/>UpdateMountPointsResponse</h4></div></div></div><p>Contains the status of the update as well as all the update error messages.</p><div class="table"><a id="d0e4489"/><p class="title"><strong>Table 1.54. UpdateMountPointsResponse</strong></p><div class="table-contents"><table summary="UpdateMountPointsResponse" border="1"><colgroup><col width="1.21in" class="col1"/><col width="1.14in" class="col2"/><col width="1.05in" class="col3"/><col width="3.03in" class="col4"/></colgroup><tbody><tr><td align="center"><span class="bold"><strong>Field</strong></span></td><td align="center"><span class="bold"><strong>Type</strong></span></td><td align="center"><span class="bold"><strong>Label</strong></span></td><td align="center"><span class="bold"><strong>Description</strong></span></td></tr><tr><td>returnCode</td><td><a class="link" href="ch01s04.xhtml#sherlock_ug_ReturnCode" title="Return Code">ReturnCode</a></td><td> </td><td>Status code of response.</td></tr><tr><td>updateError</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td>repeated</td><td>Mount Points update error messages.</td></tr></tbody></table></div></div><br class="table-break"/></div><div class="sect3" title="Examples: SherlockLayerService.updateMountPoints()"><div class="titlepage"><div><div><h4 class="title"><a id="d0e4531"/>Examples: SherlockLayerService.updateMountPoints()</h4></div></div></div><h5><a id="d0e4534"/>Proto Request Example</h5><pre class="programlisting">{
+  "project": "Tutorial Project",
+  "ccaName": "Main Board",
+  "mountPointsProperties": [
+    {
+      "ID": "MP1",
+      "type": "Mount Hole",
+      "shape": "Circular",
+      "units": "mm",
+      "x": "0",
+      "y": "0",
+      "length": "3.56",
+      "width": "3.56",
+      "diameter": "3.56",
+      "nodes": "8",
+      "rotation": "0",
+      "side": "TOP",
+      "height": "0",
+      "material": "DEFAULT",
+      "boundary": "Outline",
+      "constraints": "X-axis translation|Y-axis translation|Z-axis translation",
+      "polygon": "",
+      "state": "Enabled",
+      "chassisMaterial": "ALUMINUM"
+    }
+  ]
+}</pre><h5><a id="d0e4538"/>Python Example</h5><pre class="programlisting">import SherlockLayerService_pb2
+import SherlockLayerService_pb2_grpc
+import grpc
+import os
+
+channel = grpc.insecure_channel('localhost:9090')
+stub = SherlockLayerService_pb2_grpc.SherlockLayerServiceStub(channel)
+
+message = SherlockLayerService_pb2.UpdateMountPointsRequest()
+message.project = "Tutorial Project"
+message.ccaName = "Main Board"
+mp1  = SherlockLayerService_pb2.MountPointProperties()
+mp2  = SherlockLayerService_pb2.MountPointProperties()
+mp3  = SherlockLayerService_pb2.MountPointProperties()
+mp4  = SherlockLayerService_pb2.MountPointProperties()
+mp1.ID = "MP1"
+mp1.type = "Mount Hole"
+mp1.shape = "Circular"
+mp1.units = "mm"
+mp1.x = "0"
+mp1.y = "0"
+mp1.length = "3.56"
+mp1.width = "3.56"
+mp1.diameter = "3.56"
+mp1.nodes = "8"
+mp1.rotation = "0"
+mp1.side = "TOP"
+mp1.height = "0"
+mp1.material = "DEFAULT"
+mp1.boundary = "Outline"
+mp1.constraints = "X-axis translation|Y-axis translation|Z-axis translation"
+mp1.polygon = ""
+mp1.state = "Enabled"
+mp1.chassisMaterial = "ALUMINUM"
+
+message.mountPointsProperties.extend([mp1])
+
+response = stub.updateMountPoints(message)
+
+print(str(response))</pre></div></div><div class="sect2" title="Update Mount Points By File"><div class="titlepage"><div><div><h3 class="title"><a id="d0e4542"/>Update Mount Points By File</h3></div></div></div><div class="highlights"><p>In this section:</p></div><div class="sect3" title="UpdateMountPointsByFileRequest"><div class="titlepage"><div><div><h4 class="title"><a id="sherlock_ug_UpdateMountPointsByFileRequest"/>UpdateMountPointsByFileRequest</h4></div></div></div><p>Request to update mount points properties of a CCA from a .csv formatted file.</p><div class="table"><a id="d0e4553"/><p class="title"><strong>Table 1.55. UpdateMountPointsByFileRequest</strong></p><div class="table-contents"><table summary="UpdateMountPointsByFileRequest" border="1"><colgroup><col width="1.29in" class="col1"/><col width="1.11in" class="col2"/><col width="1.14in" class="col3"/><col width="2.91in" class="col4"/></colgroup><tbody><tr><td align="center"><span class="bold"><strong>Field</strong></span></td><td align="center"><span class="bold"><strong>Type</strong></span></td><td align="center"><span class="bold"><strong>Label</strong></span></td><td align="center"><span class="bold"><strong>Description</strong></span></td></tr><tr><td>project</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>Sherlock project name</td></tr><tr><td>ccaName</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>The CCA Name</td></tr><tr><td>filePath</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>The filepath of the .csv file containing the mount points properties</td></tr></tbody></table></div></div><br class="table-break"/></div><div class="sect3" title="Examples: SherlockLayerService.updateMountPointsByFile()"><div class="titlepage"><div><div><h4 class="title"><a id="d0e4605"/>Examples: SherlockLayerService.updateMountPointsByFile()</h4></div></div></div><h5><a id="d0e4608"/>Proto Request Example</h5><pre class="programlisting">{
+  "project": "Tutorial Project",
+  "ccaName": "Main Board",
+  "filePath": "C:\\PartsDir\\AM\\Sherlock\\updateMountPoints.csv"
+}</pre><h5><a id="d0e4612"/>Python Example</h5><pre class="programlisting">import SherlockLayerService_pb2
+import SherlockLayerService_pb2_grpc
+import grpc
+import os
+
+channel = grpc.insecure_channel('localhost:9090')
+stub = SherlockLayerService_pb2_grpc.SherlockLayerServiceStub(channel)
+
+message = SherlockLayerService_pb2.UpdateMountPointsByFileRequest()
+message.project = "Tutorial Project"
+message.ccaName = "Main Board"
+message.filePath = os.getenv("PARTSDIR") + "\\AM\\Sherlock\\updateMountPoints.csv"
+
+response = stub.updateMountPointsByFile(message)
+
+print(str(response))</pre></div></div><div class="sect2" title="Update Test Points By File"><div class="titlepage"><div><div><h3 class="title"><a id="sherlock_ug_UpdateTestPoints"/>Update Test Points By File</h3></div></div></div><div class="highlights"><p>In this section:</p></div><div class="sect3" title="UpdateTestPointsByFileRequest"><div class="titlepage"><div><div><h4 class="title"><a id="sherlock_ug_UpdateTestPointsByFileRequest"/>UpdateTestPointsByFileRequest</h4></div></div></div><p>Request to update test points properties of a CCA from a CSV formatted file</p><div class="table"><a id="d0e4627"/><p class="title"><strong>Table 1.56. UpdateMountPointsRequest</strong></p><div class="table-contents"><table summary="UpdateMountPointsRequest" border="1"><colgroup><col width="1.29in" class="col1"/><col width="1.11in" class="col2"/><col width="1.14in" class="col3"/><col width="2.91in" class="col4"/></colgroup><tbody><tr><td align="center"><span class="bold"><strong>Field</strong></span></td><td align="center"><span class="bold"><strong>Type</strong></span></td><td align="center"><span class="bold"><strong>Label</strong></span></td><td align="center"><span class="bold"><strong>Description</strong></span></td></tr><tr><td>project</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>Sherlock project name</td></tr><tr><td>ccaName</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>The CCA Name</td></tr><tr><td>filePath</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td> </td><td>The filepath of the CSV file containing the test points properties</td></tr></tbody></table></div></div><br class="table-break"/></div><div class="sect3" title="UpdateTestPointsResponse"><div class="titlepage"><div><div><h4 class="title"><a id="sherlock_ug_UpdateTestPointsResponse"/>UpdateTestPointsResponse</h4></div></div></div><p>Contains the status of the update as well as all the update error messages.</p><div class="table"><a id="d0e4683"/><p class="title"><strong>Table 1.57. UpdateTestPointsResponse</strong></p><div class="table-contents"><table summary="UpdateTestPointsResponse" border="1"><colgroup><col width="1.21in" class="col1"/><col width="1.14in" class="col2"/><col width="1.05in" class="col3"/><col width="3.03in" class="col4"/></colgroup><tbody><tr><td align="center"><span class="bold"><strong>Field</strong></span></td><td align="center"><span class="bold"><strong>Type</strong></span></td><td align="center"><span class="bold"><strong>Label</strong></span></td><td align="center"><span class="bold"><strong>Description</strong></span></td></tr><tr><td>returnCode</td><td><a class="link" href="ch01s04.xhtml#sherlock_ug_ReturnCode" title="Return Code">ReturnCode</a></td><td> </td><td>Status code of response.</td></tr><tr><td>updateError</td><td><a class="link" href="ch01s11.xhtml" title="gRPC Scalar Value Types">string</a></td><td>repeated</td><td>Test Points update error messages.</td></tr></tbody></table></div></div><br class="table-break"/></div><div class="sect3" title="Examples: SherlockLayerService.updateTestPointsByFile()"><div class="titlepage"><div><div><h4 class="title"><a id="d0e4725"/>Examples: SherlockLayerService.updateTestPointsByFile()</h4></div></div></div><h5><a id="d0e4728"/>Python Example</h5><pre class="programlisting">{
+  "project": "Tutorial Project",
+  "ccaName": "Main Board",
+  "filePath": "C:\\Temp\\TestPoints.csv"
+}</pre><h5><a id="d0e4732"/>Proto Request Example</h5><pre class="programlisting">
+import SherlockLayerService_pb2
+import SherlockLayerService_pb2_grpc
+import grpc
+import os
+
+channel = grpc.insecure_channel('localhost:9090')
+stub = SherlockLayerService_pb2_grpc.SherlockLayerServiceStub(channel)
+
+message = SherlockLayerService_pb2.UpdateTestPointsByFileRequest()
+message.project = "Tutorial Project"
+message.ccaName = "Main Board"
+message.filePath = os.getcwd() + "\\TestPoints.csv"
+
+response = stub.updateTestPointsByFile(message)
+
+print(str(response))</pre></div></div></div><div class="navfooter"><hr/><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="ch01s04.xhtml">Prev</a> </td><td width="20%" align="center"> </td><td width="40%" align="right"> <a accesskey="n" href="ch01s06.xhtml">Next</a></td></tr><tr><td width="40%" align="left" valign="top">Sherlock Common Service- SherlockCommonService.proto </td><td width="20%" align="center"><a accesskey="h" href="index.xhtml">Home</a></td><td width="40%" align="right" valign="top"> Sherlock Life Cycle Service- SherlockLifeCycleService.proto</td></tr></table></div></body></html>
