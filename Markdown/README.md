@@ -24,7 +24,7 @@ The YAML document is a tree of TOC nodes, each of which has these properties:
 * ```items```: If a node has children, they're listed in the items array.
 * ```uid```: The uid of the article. Can be used instead of href.
 
-### Nested TOCs
+### Nested TOCs (not yet supported)
 
 To nest a TOC within another TOC, set the href property to point to the ```toc.yml``` file that you want to nest. You can also use this structure as a way to reuse a TOC structure in one or more TOC files. See https://dotnet.github.io/docfx/docs/table-of-contents.html for details.
 
