@@ -1,0 +1,28 @@
+name: Product
+id: product
+description: 'Product categories.'
+terms:
+  - 'AVxcelerate Asset Preparation API 2023 R2'
+  - 'AVxcelerate Sensors Simulator API 2023 R2'
+  - 'AVxcelerate-Simulation-Framework-2023-R2-14-11'
+  - 'Common Fluids Format 2023 R2'
+  - 'DPF C++ client library 2023 R2'
+  - 'optiSLang MOPSolver API 2023 R2'
+  - 'SoS C API of FMOPSolver library 2023 R2'
+  - 'SoS Script API 2023 R2'
+  - 'System Coupling C library 2023 R2'
+  - 'System Coupling C++ library 2023 R2'
+  - 'System Coupling Fortran library 2023 R2'
+  - 'System Coupling Python library 2023 R2'
+  - 'System Coupling C library 2023 R2'
+  - 'Post-processing tools 2023 R2'
+  - 'PyAEDT'
+  - 'PyAEDT 0.6.42'
+  - 'PyAEDT 0.6.45'
+  - 'PyAEDT Latest'
+  - 'System Coupling C Library 2023R1'
+  - 'System Coupling C++ Library'
+  - 'System Coupling Fortran Library'
+  - 'System Coupling Python Library'
+
+
