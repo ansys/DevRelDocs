@@ -6,6 +6,14 @@
   href: client-speos-des.md 
 - name: Speos Asm API
   href: client-speos-asm.md 
-- name: Speos Asm examples
-  href: example/toc.yml 
+  item:
+  - name: Speos Asm examples
+    item:
+    - name: Examples
+      href: example/DevPor_SPEOS_asm_script_examples.md
+    - name: Method_cadupdate_importing_geometry
+      href: example/DevPor_SPEOS_asm_script_examples_method_cadupdate_importing_geometry.md
+    - name: Method_cadupdate_updating_geometry
+      href: example/DevPor_SPEOS_asm_script_examples_method_cadupdate_updating_geometry.md
+    
 
