@@ -1,4 +1,4 @@
-- name: Introduction
+- name: "Introduction"
   href: client-speos-api-home.md
   items:
   - name: Speos Sim API
@@ -10,9 +10,8 @@
     items:
     - name: Speos Asm examples
       href: example/DevPor_SPEOS_asm_script_examples.md
-    - name: Method_cadupdate_importing_geometry
-      href: example/DevPor_SPEOS_asm_script_examples_method_cadupdate_importing_geometry.md
-    - name: Method_cadupdate_updating_geometry
-      href: example/DevPor_SPEOS_asm_script_examples_method_cadupdate_updating_geometry.md
-    
-
+      items:
+      - name: Method_cadupdate_importing_geometry
+        href: example/DevPor_SPEOS_asm_script_examples_method_cadupdate_importing_geometry.md
+      - name: Method_cadupdate_updating_geometry
+        href: example/DevPor_SPEOS_asm_script_examples_method_cadupdate_updating_geometry.md
