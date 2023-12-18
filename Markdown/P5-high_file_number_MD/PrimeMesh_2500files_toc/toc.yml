@@ -2,7 +2,7 @@
   href: index.md
   items: 
   - name: Getting started
-    href: getting_starte/index.md
+    href: getting_started/index.md
   - name: User guide
     href: user_guide/index.md
     items:
