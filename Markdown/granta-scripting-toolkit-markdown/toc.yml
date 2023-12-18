@@ -3,16 +3,16 @@
   items:
   - name: "What's new in Version 3.3"
     href: release_notes.md
-  - name: Upgrading from earlier versions
+  - name: "Upgrading from earlier versions"
     href: upgrading.md   
-- name: Scripting Toolkit and PyAnsys
+- name: "Scripting Toolkit and PyAnsys"
   href: pyansys.md
   items:
-  - name: Streamlined API Reference
+  - name: "Streamlined API Reference"
     href: stream_api.md
-  - name: Foundation API Reference
+  - name: "Foundation API Reference"
    href: GRANTA_MIScriptingToolkit.md
-  - name: Logging
+  - name: "Logging"
     href: log_files.md
-  - name: Copyright and Trademark Information
+  - name: "Copyright and Trademark Information"
     href: copyright.md
