@@ -7,6 +7,7 @@
     href: DevPor_SPEOS_forbidden_values_management.md
   - name: Cross-Functional Methods
     href: DevPor_SPEOS_crossfunctional_methods\DevPor_SPEOS_crossfunctional_methods.md
+    items:
     - name: Common Methods
       href: DevPor_SPEOS_crossfunctional_methods\DevPor_SPEOS_crossfunctional_methods_common_methods.md
     - name: Geometry Selection Methods
@@ -17,10 +18,12 @@
       href: DevPor_SPEOS_crossfunctional_methods\DevPor_SPEOS_crossfunctional_methods_converttoscriptversion_method.md
   - name: Speos Sim
     href: client-speos-sim.md
+    items:
     - name: ResultLXP - GetMeasureValues Method - List of Possible Values
       href: DevPor_SPEOS_sim_resultlxp_getmeasurevalue_list_enum.md
     - name: SpeosSim Script Examples
       href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples.md
+      items:
       - name: Material  Creating and Applying UV Mapping
         href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_uvmap_applying_uv_mapping.md
       - name: Material Creating and Applying Materials
@@ -117,8 +120,10 @@
         href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_options_reseting_values.md
   - name: Speos Des
     href: client-speos-des.md
+    items:
     - name: SpeosDes Script Examples
       href: DevPor_SPEOS_des\DevPor_SPEOS_des_script_examples.md
+      items:
       - name: LightGuide Exporting Prism Parameters as CSV File
         href: DevPor_SPEOS_des\DevPor_SPEOS_des_script_examples_method_lightguide_exporting_prism_parameters_csv.md
       - name: LightGuide Defining Control Points to Create Parameters Variation along the Guide
@@ -133,14 +138,17 @@
         href: DevPor_SPEOS_des\DevPor_SPEOS_des_script_examples_method_hudod_getting_setting_advanced_parameters.md
   - name: Speos Asm
     href: client-speos-asm.md
+    items:
     - name: SpeosAsm Script Examples
       href: DevPor_SPEOS_asm\DevPor_SPEOS_asm_script_examples.md
+      items:
       - name: CADUpdate Importing a Geometry
         href: DevPor_SPEOS_asm\DevPor_SPEOS_asm_script_examples_method_cadupdate_importing_geometry.md
       - name: CADUpdate Updating a Geometry
         href: DevPor_SPEOS_asm\DevPor_SPEOS_asm_script_examples_method_cadupdate_updating_geometry.md
   - name: Speos Core Methods
     href: DevPor_SPEOS_speoscore_methods\DevPor_SPEOS_speoscore_methods.md
+    items:
     - name: OpenFile
       href: DevPor_SPEOS_speoscore_methods\DevPor_SPEOS_speoscore_methods_openfile.md
     - name: RunSimulation
