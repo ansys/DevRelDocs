@@ -123,13 +123,13 @@
         href: DevPor_SPEOS_des\DevPor_SPEOS_des_script_examples_method_lightguide_exporting_prism_parameters_csv.md
       - name: LightGuide Defining Control Points to Create Parameters Variation along the Guide
         href: DevPor_SPEOS_des\DevPor_SPEOS_des_script_examples_method_lightguide_defining_control_points_variation.md
-      - name: ProjectionLens Getting/Setting Aspheric Parameters
+      - name: ProjectionLens Getting Setting Aspheric Parameters
         href: DevPor_SPEOS_des\DevPor_SPEOS_des_script_examples_method_projectionlens_getting_setting_aspheric_parameters.md
       - name: PERAngularSection Managing the Beam Spread of a Poly Ellipsoidal Reflector
         href: DevPor_SPEOS_des\DevPor_SPEOS_des_script_examples_method_perangularsection_managing_beam_spread_per.md
       - name: PERAngularSection Using the FittingControlPlane Method
         href: DevPor_SPEOS_des\DevPor_SPEOS_des_script_examples_method_perangularsection_fittingcontrolplane.md
-      - name: HUDOD Getting/Setting Advanced Parameters to Improve HUD System
+      - name: HUDOD Getting Setting Advanced Parameters to Improve HUD System
         href: DevPor_SPEOS_des\DevPor_SPEOS_des_script_examples_method_hudod_getting_setting_advanced_parameters.md
   - name: Speos Asm
     href: client-speos-asm.md
