@@ -1,0 +1,160 @@
+- name: Speos client APIs Documentation
+  href: client-speos-api-home.md
+  items:
+  - name: Getting started
+    items:
+    - name: Creating a Script
+      href: DevPor_SPEOS_creating_script.md
+    - name: Forbidden Values Management
+      href: DevPor_SPEOS_forbidden_values_management.md
+    - name: Cross-Functional Methods
+    href: DevPor_SPEOS_crossfunctional_methods\DevPor_SPEOS_crossfunctional_methods.md
+    items:
+    - name: Common Methods
+      href: DevPor_SPEOS_crossfunctional_methods\DevPor_SPEOS_crossfunctional_methods_common_methods.md
+    - name: Geometry Selection Methods
+      href: DevPor_SPEOS_crossfunctional_methods\DevPor_SPEOS_crossfunctional_methods_geometry_selection_methods.md
+    - name: List (Enum) Parameters
+      href: DevPor_SPEOS_crossfunctional_methods\DevPor_SPEOS_crossfunctional_methods_list_enum_parameters.md
+    - name: ConvertToScriptVersion Method
+      href: DevPor_SPEOS_crossfunctional_methods\DevPor_SPEOS_crossfunctional_methods_converttoscriptversion_method.md
+  - name: Speos Sim
+    href: client-speos-sim.md
+    items:
+    - name: ResultLXP - GetMeasureValues Method - List of Possible Values
+      href: DevPor_SPEOS_sim_resultlxp_getmeasurevalue_list_enum.md
+    - name: SpeosSim Script Examples
+      href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples.md
+      items:
+      - name: Material - Creating and Applying UV Mapping
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_uvmap_applying_uv_mapping.md
+      - name: Material - Creating and Applying Materials
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_material_creating_applying_materials.md
+      - name: Component3Dtexture - Creating a 3D Texture on a Geometry
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_component3dtexture_creating_3d_texture_on_geometry.md
+      - name: ComponentExport - Creating a LightBox Export
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_componentexport_creating_lightbox_export.md
+      - name: ComponentImport - Creating a LightBox Import
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_componentimport_creating_lightbox_import.md
+      - name: LocalMeshing - Creating a Local Meshing
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_localmeshing_creating_local_meshing.md
+      - name: SourceAmbientCIEGeneral - Creating an Ambient Source CIE Standard General Sky
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_sourceambientciegeneral_creating_ambient_source_cie_general_sky.md
+      - name: SourceAmbientCIEOvercast - Creating an Ambient Source CIE Standard Overcast Sky
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_sourceambientcieovercast_creating_ambient_source_cie_overcast_sky.md
+      - name: SourceAmbientEnvironment - Creating an Environment Ambient Source
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_sourceambientenvironment_creating_ambient_source_environment.md
+      - name: SourceAmbientNaturalLight - Creating a Natural Light Ambient Source
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_sourceambientnaturallight_creating_ambient_source_natural_light.md
+      - name: SourceAmbientUniform - Creating an Ambient Source Uniform
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_sourceambientuniform_creating_ambient_source_uniform.md
+      - name: SourceAmbienUS1976 - Creating an Ambient Source US Standard Atmosphere 1976
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_sourceambientus1976_creating_ambient_source_us_1976.md
+      - name: SourceDisplay - Creating a Display Source
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_sourcedisplay_creating_display_source.md
+      - name: SourceInteractive - Creating an Interactive Source
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_sourceinteractive_creating_interactive_source.md
+      - name: SourceLuminaire - Creating a Luminaire Source
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_sourceluminaire_creating_luminaire_source.md
+      - name: SourceRayFile - Creating a Ray File Source
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_sourcerayfile_creating_ray_file_source.md
+      - name: SourceRayFile - Optimizing a Ray File Source
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_sourcerayfile_optimizing_ray_file_source.md
+      - name: SourceSurface - Creating a Surface Source
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_sourcesurface_creating_surface_source.md
+      - name: SourceThermic - Creating a Thermic Source
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_sourcethermic_creating_thermic_source.md
+      - name: Sensor3DED - Creating a 3D Energy Density Sensor
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_sensor3ded_creating_3d_energy_density_sensor.md
+      - name: Sensor3Dirradiance - Creating a 3D Irradiance Sensor
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_sensor3dirradiance_creating_3d_irradiance_sensor.md
+      - name: SensorCamera - Creating a Camera Sensor
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_sensorcamera_creating_camera_sensor.md
+      - name: SensorEye - Creating an Eye Sensor
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_sensoreye_creating_eye_sensor.md
+      - name: SensorImmersive - Creating an Immersive Sensor
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_sensorimmersive_creating_immersive_sensor.md
+      - name: SensorIntensity - Creating an Intensity Sensor
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_sensorintensity_creating_intensity_sensor.md
+      - name: SensorIrradiance - Creating an Irradiance Sensor
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_sensorirradiance_creating_irradiance_sensor.md
+      - name: SensorLidar - Creating a LiDAR Sensor
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_sensorlidar_creating_lidar_sensor.md
+      - name: SensorObserver - Creating an Observer Sensor
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_sensorobserver_creating_observer_sensor.md
+      - name: SensorRadiance - Creating a Radiance Sensor
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_sensorradiance_creating_radiance_sensor.md
+      - name: SensorRotatingLidar - Creating a Rotating LiDAR Sensor
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_sensorrotatinglidar_creating_rotating_lidar_sensor.md
+      - name: SimulationInteractive - Setting an Interactive Simulation
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_simulationinteractive_setting_interactive_simulation.md
+      - name: SimulationInteractive - Creating and Using an Interactive Simulation
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_simulationinteractive_creating_using_interactive_simulation.md
+      - name: SimulationDirect - Creating a Direct Simulation
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_simulationdirect_creating_direct_simulation.md
+      - name: DirectSImulationSettings - Setting a Direct Simulation
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_directsimulationsettings_setting_direct_simulation.md
+      - name: SimulationInverse - Creating an Inverse Simulation
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_simulationinverse_creating_inverse_simulation.md
+      - name: InverseSimulationSettings - Setting an Inverse Simulation
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_inversesimulationsettings_setting_inverse_simulation.md
+      - name: SimulationRotatingLidar - Creating a Rotating LiDAR Simulation
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_simulationrotatinglidar_creating_rotating_lidar_simulation.md
+      - name: SimulationHoa - Creating a HUD Optical Analysis Simulation
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_simulationhoa_creating_hud_optical_analysis_simulation.md
+      - name: LXPEnabledSensor - Activating the Light Expert on a Sensor
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_lxpenabledsensor_activating_lxp_on_sensor.md
+      - name: FTGEnabledGeometry - Activating the Fast Transmission Gathering on a Geometry
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_ftgenabledgeometry_activating_ftg_on_geometry.md
+      - name: EyeboxConfiguration - Defining a HUD Optical Analysis with Multi-Eyebox Configuration
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_eyeboxconfiguration_defining_hoa_multieyebox.md
+      - name: ResultLXP - Analyzing the Interactive Simulation Light Expert Result
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_resultlxp_analyzing_interactive_simulation_lxp_result.md
+      - name: ResultLXP - Exporting Rays as Geometry out of a Light Expert Result
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_resultlxp_exporting_rays_as_geometry_lxp_result.md
+      - name: ResultProjectedGrid - Exporting a Projected Grid as Geometry
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_resultprojectedgrid_exporting_projected_grid_as_geometry.md
+      - name: Options - Retrieving Values
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_options_retrieving_values.md
+      - name: Options - Updating Values
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_options_updating_values.md
+      - name: Options - Reseting Values
+        href: DevPor_SPEOS_sim\DevPor_SPEOS_sim_script_examples_method_options_reseting_values.md
+  - name: Speos Des
+    href: client-speos-des.md
+    items:
+    - name: SpeosDes Script Examples
+      href: DevPor_SPEOS_des\DevPor_SPEOS_des_script_examples.md
+      items:
+      - name: LightGuide - Exporting Prism Parameters as CSV File
+        href: DevPor_SPEOS_des\DevPor_SPEOS_des_script_examples_method_lightguide_exporting_prism_parameters_csv.md
+      - name: LightGuide - Defining Control Points to Create Parameters Variation along the Guide
+        href: DevPor_SPEOS_des\DevPor_SPEOS_des_script_examples_method_lightguide_defining_control_points_variation.md
+      - name: ProjectionLens - Getting/Setting Aspheric Parameters
+        href: DevPor_SPEOS_des\DevPor_SPEOS_des_script_examples_method_projectionlens_getting_setting_aspheric_parameters.md
+      - name: PERAngularSection - Managing the Beam Spread of a Poly Ellipsoidal Reflector
+        href: DevPor_SPEOS_des\DevPor_SPEOS_des_script_examples_method_perangularsection_managing_beam_spread_per.md
+      - name: PERAngularSection - Using the FittingControlPlane Method
+        href: DevPor_SPEOS_des\DevPor_SPEOS_des_script_examples_method_perangularsection_fittingcontrolplane.md
+      - name: HUDOD - Getting/Setting Advanced Parameters to Improve HUD System
+        href: DevPor_SPEOS_des\DevPor_SPEOS_des_script_examples_method_hudod_getting_setting_advanced_parameters.md
+  - name: Speos Asm
+    href: client-speos-asm.md
+    items:
+    - name: SpeosAsm Script Examples
+      href: DevPor_SPEOS_asm\DevPor_SPEOS_asm_script_examples.md
+      - name: CADUpdate - Importing a Geometry
+        href: DevPor_SPEOS_asm\DevPor_SPEOS_asm_script_examples_method_cadupdate_importing_geometry.md
+      - name: CADUpdate - Updating a Geometry
+        href: DevPor_SPEOS_asm\DevPor_SPEOS_asm_script_examples_method_cadupdate_updating_geometry.md
+  - name: Speos Core Methods
+    href: DevPor_SPEOS_speoscore_methods\DevPor_SPEOS_speoscore_methods.md
+    items:
+    - name: OpenFile
+      href: DevPor_SPEOS_speoscore_methods\DevPor_SPEOS_speoscore_methods_openfile.md
+    - name: RunSimulation
+      href: DevPor_SPEOS_speoscore_methods\DevPor_SPEOS_speoscore_methods_runsimulation.md
+    - name: ShowWindow
+      href: DevPor_SPEOS_speoscore_methods\DevPor_SPEOS_speoscore_methods_showwindow.md
+    - name: Speos Core Command Lines
+      href: DevPor_SPEOS_speoscore_methods\DevPor_SPEOS_speoscore_methods_command_lines.md
