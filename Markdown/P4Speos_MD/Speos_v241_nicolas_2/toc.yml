@@ -8,7 +8,8 @@
     - name: Forbidden Values Management
       href: DevPor_SPEOS_forbidden_values_management.md
     - name: Cross-Functional Methods
-    href: DevPor_SPEOS_crossfunctional_methods\DevPor_SPEOS_crossfunctional_methods.md
+      href: DevPor_SPEOS_crossfunctional_methods\DevPor_SPEOS_crossfunctional_methods.md
+  - name: Getting started
     items:
     - name: Common Methods
       href: DevPor_SPEOS_crossfunctional_methods\DevPor_SPEOS_crossfunctional_methods_common_methods.md
