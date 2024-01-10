@@ -12,11 +12,11 @@ Returns 1 if the call has succeeded, 0 otherwise.
 
 *object*.OptisVRMerge\(VARIANT\* *pInputListOptisVR*, BSTR *strOutputFileName*\) As Int
 
--   *object*: Virtual Reality Lab object
+- *object*: Virtual Reality Lab object
 
--   *pInputListOptisVR*: tab including the absolute filename strings of all the Speos360 files to merge
+- *pInputListOptisVR*: tab including the absolute filename strings of all the Speos360 files to merge
 
--   *strOutputFileName*: absolute filename string for the result of the merge operation
+- *strOutputFileName*: absolute filename string for the result of the merge operation
 
 
 ## Example 

@@ -6,13 +6,13 @@ Exports a template into a .xml format. Returns TRUE is the call has succeeded, F
 
 ## Syntax 
 
--   `object.ExportTemplate(BSTR bstrFileName)` as Boolean
--   *object*: Virtual Photometric Lab
--   *bstrFileName*: path and filename of the template \(should end by .XML\)
+- `object.ExportTemplate(BSTR bstrFileName)` as Boolean
+- *object*: Virtual Photometric Lab
+- *bstrFileName*: path and filename of the template \(should end by .XML\)
 
 ## VB script example 
 
-```
+```VB
 ' Creates XMPViewer COM server
 set XmpViewer = CreateObject("XmpViewer.application")
 ' Opens XMP file
@@ -21,9 +21,9 @@ XMPViewer.OpenFile("C:\Example.xmp")
 XMPViewer.ExportTemplate("C:\Example.xml")
 ```
 
-## IronPython example 
+## IronPython example
 
-```
+```ironpython
 from System import Type, Activator
 #Creates XMPViewer COM server
 type = Type.GetTypeFromProgID("XmpViewer.Application")

@@ -12,9 +12,9 @@ Returns 1 if no error has occurred, -1 if the input data are not valid and 0 if 
 
 *object*: Virtual Photometric Lab object
 
--   vXYZ: an array of 3 VARIANT of the XYZ colorimetric values
+- vXYZ: an array of 3 VARIANT of the XYZ colorimetric values
 
--   vTemparature: the output data, the blackbody temperature, as a double ; If vTemperature is -1.0 so the calculation failed
+- vTemparature: the output data, the blackbody temperature, as a double ; If vTemperature is -1.0 so the calculation failed
 
 
 ## Example 

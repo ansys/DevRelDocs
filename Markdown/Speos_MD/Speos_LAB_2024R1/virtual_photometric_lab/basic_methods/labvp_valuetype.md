@@ -8,9 +8,9 @@ Gets the value type of the map data.
 
 *object*.ValueType\(\) As Short
 
--   *object*: Virtual Photometric Lab object
+- *object*: Virtual Photometric Lab object
 
--   Returned value:
+- Returned value:
 
     0: OptisValueTypeIrradiance
 

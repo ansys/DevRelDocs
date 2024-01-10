@@ -10,9 +10,9 @@ Returns 1 if the call has succeeded, 0 otherwise.
 
 *object*.FullScreen\(bool *bState*\) As Int
 
--   *object*: Virtual Reality Lab object
+- *object*: Virtual Reality Lab object
 
--   *bState:* Boolean activating/deactivating the full screen mode.
+- *bState:* Boolean activating/deactivating the full screen mode.
 
 
 ## Example 

@@ -8,9 +8,9 @@ Adds a .ray file to another specified .ray file.
 
 *object*.AddRayFiles\(LPCTSTR strAddFileName, LPCTSTR strOutFileName\) As Short
 
--   *strAddFileName*: .ray
+- *strAddFileName*: .ray
 
--   *strOutFileName*: .ray
+- *strOutFileName*: .ray
 
 
 

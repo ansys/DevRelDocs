@@ -8,39 +8,39 @@ Allows you to create an Speos360 Immersive View from a set of .xmp files. Return
 
 *object*.CreateImmersiveView\(VARIANT\* *pInputListXMPmap*, VARIANT\* *pInputListRotation*, BSTR *strOutputFileName*, \[optional\] double *dLuminanceMax*\) As Int
 
--   *object*: Virtual Reality Lab object
+- *object*: Virtual Reality Lab object
 
--   *pInputListXMPmap*: tab including the absolute filename strings of the .xmp files to create the Immersive View.
+- *pInputListXMPmap*: tab including the absolute filename strings of the .xmp files to create the Immersive View.
 
-    -   Index 0: Right
+  - Index 0: Right
 
-    -   Index 1: Left
+  - Index 1: Left
 
-    -   Index 2: Bottom
+  - Index 2: Bottom
 
-    -   Index 3: Top
+  - Index 3: Top
 
-    -   Index 4: Front
+  - Index 4: Front
 
-    -   Index 5: Back
+  - Index 5: Back
 
--   *pInputListRotation*: tab including the rotation angle values \(Int\) of the .xmp files to create the Immersive View, 0, 90, 180 or 270.
+- *pInputListRotation*: tab including the rotation angle values \(Int\) of the .xmp files to create the Immersive View, 0, 90, 180 or 270.
 
-    -   Index 0: Right
+  - Index 0: Right
 
-    -   Index 1: Left
+  - Index 1: Left
 
-    -   Index 2: Bottom
+  - Index 2: Bottom
 
-    -   Index 3: Top
+  - Index 3: Top
 
-    -   Index 4: Front
+  - Index 4: Front
 
-    -   Index 5: Back
+  - Index 5: Back
 
--   *strOutputFileName*: absolute filename string for the result of the Immersive View Speos360 file.
+- *strOutputFileName*: absolute filename string for the result of the Immersive View Speos360 file.
 
--   \[optional\] *dLuminanceMax*: maximum luminance value in Cd/m². If the parameter is not filled, the default value is used to create the Immersive View.
+- \[optional\] *dLuminanceMax*: maximum luminance value in Cd/m². If the parameter is not filled, the default value is used to create the Immersive View.
 
 
 ## Example 

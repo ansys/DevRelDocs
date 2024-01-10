@@ -10,7 +10,7 @@ Returns 1 if the call succeeded, 0 otherwise.
 
 *object*.SetLocalAdaptationDefaultLuminance\(\)
 
--   *object* : Virtual Reality Lab object.
+- *object* : Virtual Reality Lab object.
 
 
 ## Example 

@@ -8,7 +8,7 @@ Update all the display and the data according to new options. The maximum lumina
 
 *object*.UpdateDisplayAndDataForVR\(\) As Double
 
--   *object*: Virtual Human Vision Lab object
+- *object*: Virtual Human Vision Lab object
 
 
 

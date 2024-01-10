@@ -10,9 +10,9 @@ Returns 1 if the call succeeded, 0 otherwise.
 
 *object*.ActivateHumanVision\(bool *bActivated*\)
 
--   *object* : Virtual Reality Lab object
+- *object* : Virtual Reality Lab object
 
--   *bActivated*: Boolean activating/deactivating the Human Vision mode.
+- *bActivated*: Boolean activating/deactivating the Human Vision mode.
 
 
 ## Example 

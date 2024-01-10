@@ -8,9 +8,9 @@ Activates or deactivates color filter spectrum or sun glasses spectrum. Returns 
 
 *object*.SpectralFiltering\(BSTR strSpectralFilterFileName\) As Short
 
--   *object*: Virtual Photometric Lab or Virtual Human Vision Lab object
+- *object*: Virtual Photometric Lab or Virtual Human Vision Lab object
 
--   *strSpectralFilterFileName*: path to the spectrum name. To deactivate the filter, enter a void string.
+- *strSpectralFilterFileName*: path to the spectrum name. To deactivate the filter, enter a void string.
 
 
 

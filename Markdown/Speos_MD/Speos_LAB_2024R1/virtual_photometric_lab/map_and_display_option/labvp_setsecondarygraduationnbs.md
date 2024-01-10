@@ -10,11 +10,11 @@ Returns -1 if no error has occurred, 0 otherwise.
 
 *object*.SetSecondaryGraduationNbs\(*iGradNbX*As Long, *iGradNbY*As Long\) As Integer
 
--   *object*: Virtual Photometric Lab or Virtual Human Vision Lab object
+- *object*: Virtual Photometric Lab or Virtual Human Vision Lab object
 
--   *iGradNbX:*horizontal number of graduations for the secondary grid
+- *iGradNbX:*horizontal number of graduations for the secondary grid
 
--   *iGradNbY:*vertical number of graduations for the secondary grid
+- *iGradNbY:*vertical number of graduations for the secondary grid
 
 
 ## Example 

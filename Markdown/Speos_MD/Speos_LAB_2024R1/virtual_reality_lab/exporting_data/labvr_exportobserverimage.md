@@ -6,13 +6,13 @@ Exports the current view as a picture, in native resolution \(not the displayed 
 
 ## Syntax 
 
--   `object.ExportObserverImage(BSTR bstrFileName)` as Boolean
--   *object*: Virtual Reality Lab
--   *bstrFileName*: path and filename of the .JPG, .PNG, .EXR or .HDR files
+- `object.ExportObserverImage(BSTR bstrFileName)` as Boolean
+- *object*: Virtual Reality Lab
+- *bstrFileName*: path and filename of the .JPG, .PNG, .EXR or .HDR files
 
 ## VB script example 
 
-```
+```VB
 ' Creates HDRIViewer COM server
 set HDRIViewer = CreateObject("HDRIViewer.application")
 ' Displays the HMI
@@ -29,9 +29,9 @@ HDRIViewer.ExportObserverImage("C:\ObserverView_Stereo.EXR")
 HDRIViewer.ExportObserverImage("C:\ObserverView_Stereo.HDR")
 ```
 
-## IronPython example 
+## IronPython example
 
-```
+```ironpython
 from System import Type, Activator
 #Creates HDRIViewer COM server
 type = Type.GetTypeFromProgID("HDRIViewer.application")

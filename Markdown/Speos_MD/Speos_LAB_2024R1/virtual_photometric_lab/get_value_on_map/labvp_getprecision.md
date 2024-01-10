@@ -8,9 +8,9 @@ Returns the map's Precision information \(in percentage\). Returns -1 if the map
 
 *object*.GetPrecision\(\) As Double
 
--   *Object*: Virtual Photometric Lab object
+- *Object*: Virtual Photometric Lab object
 
--   Returned value: Precision value in percentage.
+- Returned value: Precision value in percentage.
 
 
 

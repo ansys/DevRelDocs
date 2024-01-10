@@ -10,9 +10,9 @@ Returns 1 if it succeeds, 0 otherwise.
 
 *object.Export\(BSTR bstrFileName\) As Short*
 
--   *object*: XM3Viewer object
+- *object*: XM3Viewer object
 
--   *bstrFileName*: filename string including path \(input\)
+- *bstrFileName*: filename string including path \(input\)
 
 
 ## Example 

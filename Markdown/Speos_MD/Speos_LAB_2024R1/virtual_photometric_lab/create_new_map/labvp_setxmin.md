@@ -8,9 +8,9 @@ Sets the horizontal coordinate of the left edge of the map and returns 0.
 
 *object*.SetXMin\(double dXMin\) As Short
 
--   *object*: Virtual Photometric Lab object
+- *object*: Virtual Photometric Lab object
 
--   *dXMin*: value to set
+- *dXMin*: value to set
 
 
 

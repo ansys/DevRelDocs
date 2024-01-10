@@ -8,9 +8,9 @@ Sets and applies a maximum threshold value for surface calculations. Returns 1 i
 
 *object*.SetSurfaceThresholdMax\(double dValue\) As Short
 
--   *object*: Virtual Photometric Lab object
+- *object*: Virtual Photometric Lab object
 
--   *dValue*: threshold value
+- *dValue*: threshold value
 
 
 

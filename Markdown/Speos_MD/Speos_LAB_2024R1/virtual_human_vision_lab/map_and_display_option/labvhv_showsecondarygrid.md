@@ -10,9 +10,9 @@ Returns 1 if no error has occurred, 0 otherwise.
 
 *object*.ShowSecondaryGrid\(short bShowSecondaryGrid\) As Short
 
--   *object*: Virtual Human Vision Lab object
+- *object*: Virtual Human Vision Lab object
 
--   *bShowSecondaryGrid*: boolean being **True**to show or False else
+- *bShowSecondaryGrid*: boolean being **True**to show or False else
 
 
 ## Example 

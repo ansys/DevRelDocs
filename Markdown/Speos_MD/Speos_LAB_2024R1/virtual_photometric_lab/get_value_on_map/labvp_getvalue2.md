@@ -8,13 +8,13 @@ Gets the value at the given pixel and for the given wavelength index. Returns 0 
 
 *object*.GetValue2\(double dX, double dY, double dWavelength\) As Double
 
--   *object*: Virtual Photometric Lab object
+- *object*: Virtual Photometric Lab object
 
--   *dX*: horizontal pixel index
+- *dX*: horizontal pixel index
 
--   *dY*: vertical pixel index
+- *dY*: vertical pixel index
 
--   *dWaveLength*: wavelength index
+- *dWaveLength*: wavelength index
 
 
 

@@ -6,21 +6,21 @@ Returns the intensity type of the map \(Optis, SAE type A, SAE type B, Conoscopi
 
 ## Syntax 
 
--   `object.GetIntensityType()` as Short
--   *object*: Virtual Photometric Lab object
--   *returned value*:
-    -   -1: Unknown
-    -   0: OptisIntensityOptis
+- `object.GetIntensityType()` as Short
+- *object*: Virtual Photometric Lab object
+- *returned value*:
+  - -1: Unknown
+  - 0: OptisIntensityOptis
 
         **Note:** The OPTIS Intensity XMP map type is in end of life as of version 2023 R2, and no longer available in the user interface
 
-    -   1: OptisIntensitySAETypeA
-    -   2: OptisIntensitySAETypeB
-    -   3: OptisIntensityConoscopic
+  - 1: OptisIntensitySAETypeA
+  - 2: OptisIntensitySAETypeB
+  - 3: OptisIntensityConoscopic
 
 ## VB script example 
 
-```
+```VB
 ' Creates XMPViewer COM server
 set XmpViewer = CreateObject("XmpViewer.application")
 ' Opens XMP file
@@ -29,9 +29,9 @@ XMPViewer.OpenFile("C:\Example.xmp")
 result = XMPViewer.GetIntensityType()
 ```
 
-## IronPython example 
+## IronPython example
 
-```
+```ironpython
 from System import Type, Activator
 #Creates XMPViewer COM server
 type = Type.GetTypeFromProgID("XmpViewer.Application")

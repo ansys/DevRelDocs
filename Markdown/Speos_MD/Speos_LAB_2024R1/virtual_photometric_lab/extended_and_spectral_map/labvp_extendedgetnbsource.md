@@ -8,7 +8,7 @@ Returns the number of sources of an extended or a spectral map \(0 if the map is
 
 *object*.ExtendedGetNbSource\(\) As Short
 
--   *object*: Virtual Photometric Lab or Virtual Human Vision Lab object
+- *object*: Virtual Photometric Lab or Virtual Human Vision Lab object
 
 
 

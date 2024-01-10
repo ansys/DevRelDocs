@@ -10,7 +10,7 @@ Returns 1 if the call has succeeded, 0 otherwise.
 
 *object*.SetStereoEyes\(\) As Int
 
--   *object*: Virtual Reality Lab object
+- *object*: Virtual Reality Lab object
 
 
 ## Example 

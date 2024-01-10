@@ -8,14 +8,14 @@ Returns TRUE if the call has succeeded, FALSE otherwise.
 
 ## Syntax 
 
--   `object.ExtendedGetSourceName(int iSource, VARIANT* ovSourceName)` as Boolean
--   *object*: Virtual Human Vision Lab
--   *iSource*: index of the source in Virtual Lighting Controller \(starting from 0\)
--   *ovSourceName*: name of the source
+- `object.ExtendedGetSourceName(int iSource, VARIANT* ovSourceName)` as Boolean
+- *object*: Virtual Human Vision Lab
+- *iSource*: index of the source in Virtual Lighting Controller \(starting from 0\)
+- *ovSourceName*: name of the source
 
 ## VB script example 
 
-```
+```VB
 ' Creates VisionLabViewer COM server
 set VisionLabViewer = CreateObject("VisionLabViewer.application")  
 ' Opens XMP file  
@@ -28,9 +28,9 @@ Dim SourceName As String
 SourceName = sSourceName(1)
 ```
 
-## IronPython example 
+## IronPython example
 
-```
+```ironpython
 from System import Type, Activator
 #Creates VisionLabViewer COM server
 type = Type.GetTypeFromProgID("VisionLabViewer.Application")

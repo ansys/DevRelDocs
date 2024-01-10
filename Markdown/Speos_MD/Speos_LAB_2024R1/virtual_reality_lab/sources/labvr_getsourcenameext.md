@@ -8,14 +8,14 @@ Returns TRUE if the call has succeeded, FALSE otherwise.
 
 ## Syntax 
 
--   `object.GetSourceNameExt(int iSource, VARIANT* ovSourceName)` as Boolean
--   *object*: Virtual Reality Lab
--   *iSource*: index of the source on the Virtual Lighting Controller starting from 0
--   *ovSourceName*: name of the source
+- `object.GetSourceNameExt(int iSource, VARIANT* ovSourceName)` as Boolean
+- *object*: Virtual Reality Lab
+- *iSource*: index of the source on the Virtual Lighting Controller starting from 0
+- *ovSourceName*: name of the source
 
 ## VB script example 
 
-```
+```VB
 ' Creates HDRIViewer COM server
 set HDRIViewer = CreateObject("HDRIViewer.application")
 ' Opens observer Speos360 file
@@ -27,9 +27,9 @@ Dim SourceName As String
 SourceName = sSourceName(1)
 ```
 
-## IronPython example 
+## IronPython example
 
-```
+```ironpython
 from System import Type, Activator
 #Creates HDRIViewer COM server
 type = Type.GetTypeFromProgID("HDRIViewer.application")

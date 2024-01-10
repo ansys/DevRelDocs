@@ -8,9 +8,9 @@ Defines the name of the result file. Returns 0 if the call has succeeded, 1 othe
 
 *object*.FileResult\(BSTR bstrFileResult\) As Short
 
--   *object*: Photometric Calc object
+- *object*: Photometric Calc object
 
--   *bstrFileResult*: result filename string
+- *bstrFileResult*: result filename string
 
 
 

@@ -6,16 +6,16 @@ Exports values of 2D polyline to a text file format. Returns TRUE if the call ha
 
 ## Syntax 
 
--   `object.SurfacePolylineExportTXT(VARIANT* vPtX, VARIANT* vPtY, int iSampling, BSTR bstrFileName)` as Boolean
--   *object*: Virtual Human Vision Lab
--   *vPtX*: array of VARIANT for the horizontal coordinate of each vertex of the polyline
--   *vPtY*: array of VARIANT for the vertical coordinate of each vertex of the polyline
--   *iSampling*: number of measurements along the polyline
--   *bstrFileName*: path and filename of the text \(.txt\) file.
+- `object.SurfacePolylineExportTXT(VARIANT* vPtX, VARIANT* vPtY, int iSampling, BSTR bstrFileName)` as Boolean
+- *object*: Virtual Human Vision Lab
+- *vPtX*: array of VARIANT for the horizontal coordinate of each vertex of the polyline
+- *vPtY*: array of VARIANT for the vertical coordinate of each vertex of the polyline
+- *iSampling*: number of measurements along the polyline
+- *bstrFileName*: path and filename of the text \(.txt\) file.
 
 ## VB script example 
 
-```
+```VB
 ' Creates VisionLabViewer COM server
 set VisionLabViewer = CreateObject("VisionLabViewer.application")
 ' Opens XMP file

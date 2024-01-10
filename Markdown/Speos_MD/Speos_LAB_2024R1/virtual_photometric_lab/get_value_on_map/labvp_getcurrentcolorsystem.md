@@ -8,9 +8,9 @@ Returns the corresponding color system.
 
 *object*.GetCurrentColorSystem\(\) As Short
 
--   *object*: Virtual Photometric Lab object
+- *object*: Virtual Photometric Lab object
 
--   Returned value: colorimetric system
+- Returned value: colorimetric system
 
     0: COLOR\_SYSTEM\_XYZ
 

@@ -13,11 +13,11 @@ before using the *ExtendedSetSourceRatio* method. See the [ExtendedSetActiveSour
 
 *object*.ExtendedSetSourceRatio\(int iSource, double dRatio\) As Short
 
--   *object*: Virtual Photometric Lab or Virtual Human Vision Lab object
+- *object*: Virtual Photometric Lab or Virtual Human Vision Lab object
 
--   *iSource*: index of the source
+- *iSource*: index of the source
 
--   *dRatio*: value to set
+- *dRatio*: value to set
 
 
 

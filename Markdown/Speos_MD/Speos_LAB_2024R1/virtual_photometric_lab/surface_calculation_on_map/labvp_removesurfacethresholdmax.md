@@ -8,7 +8,7 @@ Removes the applied maximum threshold value for surface calculations. Returns 1 
 
 *object*.RemoveSurfaceThresholdMax\(\) As Short
 
--   *object*: Virtual Photometric Lab object
+- *object*: Virtual Photometric Lab object
 
 
 

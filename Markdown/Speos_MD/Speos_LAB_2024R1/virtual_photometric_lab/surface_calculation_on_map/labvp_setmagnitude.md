@@ -8,13 +8,13 @@ Caution: the current measure magnitude is reset to the default magnitude of the 
 
 ## Syntax 
 
--   `object.SetMagnitude(short iMagnitude)` as Boolean
--   *object*: Virtual Photometric Lab
--   *iMagnitude*: index of the magnitude
+- `object.SetMagnitude(short iMagnitude)` as Boolean
+- *object*: Virtual Photometric Lab
+- *iMagnitude*: index of the magnitude
 
 ## VB script example 
 
-```
+```VB
 ' Creates XMPViewer COM server
 set XmpViewer = CreateObject("XmpViewer.application")
 ' Opens XMP file
@@ -23,9 +23,9 @@ XMPViewer.OpenFile("C:\Example.xmp")
 XMPViewer.SetMagnitude(13)
 ```
 
-## IronPython example 
+## IronPython example
 
-```
+```ironpython
 from System import Type, Activator
 #Creates XMPViewer COM server
 type = Type.GetTypeFromProgID("XmpViewer.Application")

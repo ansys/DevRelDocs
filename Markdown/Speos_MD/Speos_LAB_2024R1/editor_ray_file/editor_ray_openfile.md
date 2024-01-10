@@ -8,9 +8,9 @@ Opens a file. Returns 1 if the call has succeeded, 0 otherwise.
 
 *object*.OpenFile\(LPCTSTR strFileName\) As Short
 
--   *object*: Ray File Editor object
+- *object*: Ray File Editor object
 
--   *strFileName*: filename string including path \(input\)
+- *strFileName*: filename string including path \(input\)
 
 
 

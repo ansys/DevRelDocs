@@ -8,7 +8,7 @@ Completes the specified .ray file with random data.
 
 *object*.RandomizeRayFile\(LPCTSTR strOutFileName\) As Short
 
--   *strOutFileName*: .ray
+- *strOutFileName*: .ray
 
 
 

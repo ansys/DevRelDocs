@@ -10,7 +10,7 @@ To export extended and spectral maps as a text file, refer to [ExtendedExportTXT
 
 *object*.ExportTXT\(BSTR bstrFileName\) As Short
 
--   *object*: Virtual Photometric Lab object
--   *bstrFileName*: filename to save the image
+- *object*: Virtual Photometric Lab object
+- *bstrFileName*: filename to save the image
 
 

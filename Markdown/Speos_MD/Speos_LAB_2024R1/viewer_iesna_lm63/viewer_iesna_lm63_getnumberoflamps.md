@@ -8,7 +8,7 @@ Gets the number of lamps.
 
 *object*.GetNumberOfLamps\(\) As Long
 
--   *object*: IES Viewer object
+- *object*: IES Viewer object
 
 
 

@@ -8,9 +8,9 @@ Allows you to select the glare algorithm.
 
 *object*.SetGlareAlgorithm\(short nType\) As Short
 
--   *object*: Virtual Human Vision Lab object
+- *object*: Virtual Human Vision Lab object
 
--   *nType*: glare algorithm
+- *nType*: glare algorithm
 
     0 : Vos
 

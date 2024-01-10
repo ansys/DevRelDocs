@@ -8,9 +8,9 @@ Sets the window of the Virtual Photometric Lab on top \(or use the normal behavi
 
 *object*.SetAlwaysOnTop\(short bAlwaysOnTop\) As Short
 
--   *object*: Virtual Photometric Lab object
+- *object*: Virtual Photometric Lab object
 
--   *bAlwaysOnTop*: A value different than 0 to set the window always on top
+- *bAlwaysOnTop*: A value different than 0 to set the window always on top
 
 
 

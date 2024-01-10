@@ -8,11 +8,11 @@ Applies the XMP filtering and removes highest peaks on the map data. Returns a v
 
 *object*.FilteringRemoveHighestPeaks\(int nNbPasses, double dThreshold\) As Short
 
--   *object*: Virtual Photometric Lab or Virtual Human Vision Lab object
+- *object*: Virtual Photometric Lab or Virtual Human Vision Lab object
 
--   *iNbPasses*: filtering level
+- *iNbPasses*: filtering level
 
--   *dThreshold*: threshold value for removing highest peaks
+- *dThreshold*: threshold value for removing highest peaks
 
 
 

@@ -8,9 +8,9 @@ Modifies the automatic update flag and returns 1.
 
 *object*.AutomaticUpdate\(short bAutomaticUpdate\) As Short
 
--   *object*: Virtual Photometric Lab object
+- *object*: Virtual Photometric Lab object
 
--   *bAutomaticUpdate*: automatic update flag
+- *bAutomaticUpdate*: automatic update flag
 
 
 

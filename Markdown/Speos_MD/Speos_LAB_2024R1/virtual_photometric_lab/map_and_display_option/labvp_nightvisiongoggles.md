@@ -8,9 +8,9 @@ Activates or deactivates night vision goggle data contained in **.nvg** files. N
 
 *object*.NightVisionGoggles\(BSTR strNVGFileName\) As Short
 
--   *object*: Virtual Photometric Lab or Virtual Human Vision Lab object
+- *object*: Virtual Photometric Lab or Virtual Human Vision Lab object
 
--   *strNVGFileName*: Name of the **.nvg** file containing night vision goggle data. To deactivate the filter, enter a void string.
+- *strNVGFileName*: Name of the **.nvg** file containing night vision goggle data. To deactivate the filter, enter a void string.
 
 
 

@@ -8,20 +8,20 @@ Imports a template and applies it to the current map. Returns TRUE if the call h
 
 object.ImportTemplate\(BSTR bstrFileName, short bDisplayOptions, short bMeasures, short bAreasToMap\) as Boolean
 
--   *object*: Virtual Photometric Lab / Virtual Human Vision Lab object
+- *object*: Virtual Photometric Lab / Virtual Human Vision Lab object
 
--   *bstrFileName*: template filename \(.xml\)
+- *bstrFileName*: template filename \(.xml\)
 
--   *bDisplayOptions*: 1 to apply display options, 0 otherwise
+- *bDisplayOptions*: 1 to apply display options, 0 otherwise
 
--   *bMeasures*: 1 to apply measures, 0 otherwise
+- *bMeasures*: 1 to apply measures, 0 otherwise
 
--   *bAreasToMap*: 1 to adjust areas to map, 0 otherwise
+- *bAreasToMap*: 1 to adjust areas to map, 0 otherwise
 
 
 ## VB script example 
 
-```
+```VB
 Sub TestLab()
 ' Starts the application
 Dim Viewer
@@ -36,9 +36,9 @@ End Sub
 
 ```
 
-## IronPython example 
+## IronPython example
 
-```
+```ironpython
 from System import Type, Activator
 type = Type.GetTypeFromProgID("XMPViewer.Application")
 XMPViewer = Activator.CreateInstance(type)

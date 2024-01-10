@@ -8,14 +8,14 @@ This function allows you to export all the sight views as pictures, in native re
 
 *object*.ExportAllObserverImages\(BSTR bstrDirectoryPath, int iFormat\) as Boolean
 
--   *object*: Virtual Reality Lab object
+- *object*: Virtual Reality Lab object
 
--   *BSTR DirectoryPath*: path of the directory where the result is stored
+- *BSTR DirectoryPath*: path of the directory where the result is stored
 
--   *iFormat*: image format \(0: JPG, 1: PNG, 2: EXR, 3: HDR\)
--   Bool return
-    -   True: success
-    -   False: fail
+- *iFormat*: image format \(0: JPG, 1: PNG, 2: EXR, 3: HDR\)
+- Bool return
+  - True: success
+  - False: fail
 
 ## Example 
 

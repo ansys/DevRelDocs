@@ -8,7 +8,7 @@ Returns the number of sources of the xm3 map.
 
 *object*.GetNbSource\(\) As Short
 
--   *object*: Virtual 3D Photometric Lab object
+- *object*: Virtual 3D Photometric Lab object
 
 
 ## Example 

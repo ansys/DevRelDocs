@@ -8,12 +8,12 @@ Gets the file name.
 
 *object.FileName\(\) As String*
 
--   *object*: XM3Viewer object
+- *object*: XM3Viewer object
 
 
 ## VB script example
 
-```
+```VB
 Sub TestLab()
   ' Starts the application
   Dim Viewer
@@ -28,9 +28,9 @@ End Sub
 
 ```
 
-## IronPython example 
+## IronPython example
 
-```
+```ironpython
 from System import Type, Activator
 type = Type.GetTypeFromProgID("Xm3Viewer.Application")
 MyXm3Viewer = Activator.CreateInstance(type)

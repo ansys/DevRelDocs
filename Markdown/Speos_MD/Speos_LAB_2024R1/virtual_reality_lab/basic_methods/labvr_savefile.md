@@ -10,9 +10,9 @@ Returns 1 if the call has succeeded, 0 otherwise.
 
 *object*.SaveFile\(BSTR *strFileName*\) As Int
 
--   *object*: Virtual Reality Lab object
+- *object*: Virtual Reality Lab object
 
--   *strFileName*: absolute filename string
+- *strFileName*: absolute filename string
 
 
 ## Example 

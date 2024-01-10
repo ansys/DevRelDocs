@@ -8,9 +8,9 @@ Returns the unit type of the map.
 
 *object*.ReturnUnitType\(\) As Short
 
--   *object*: Virtual Photometric Lab object
+- *object*: Virtual Photometric Lab object
 
--   Return value:
+- Return value:
 
     0: radiometric
 

@@ -8,11 +8,11 @@ Sets the minimum and maximum values of the level. Returns 1 if the call has succ
 
 *object*.SetMinMax\(double dMin, double dMax\) As Short
 
--   *object*: Virtual Photometric Lab object
+- *object*: Virtual Photometric Lab object
 
--   *dMin*: minimum
+- *dMin*: minimum
 
--   *dMax*: maximum
+- *dMax*: maximum
 
 
 

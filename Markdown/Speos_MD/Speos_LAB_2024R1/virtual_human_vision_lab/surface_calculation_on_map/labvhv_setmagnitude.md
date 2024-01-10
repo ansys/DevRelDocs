@@ -8,13 +8,13 @@ Caution: the current measure magnitude is reset to the default magnitude of the 
 
 ## Syntax 
 
--   `object.SetMagnitude(short iMagnitude)` as Boolean
--   *object*: Virtual Human Vision Lab
--   *iMagnitude*: index of the magnitude
+- `object.SetMagnitude(short iMagnitude)` as Boolean
+- *object*: Virtual Human Vision Lab
+- *iMagnitude*: index of the magnitude
 
 ## VB script example 
 
-```
+```VB
 ' Creates VisionLabViewer COM server
 set VisionLabViewer = CreateObject("VisionLabViewer.application")
 ' Opens XMP file
@@ -23,9 +23,9 @@ VisionLabViewer.OpenFile("C:\Example.xmp")
 VisionLabViewer.SetMagnitude(13)
 ```
 
-## IronPython example 
+## IronPython example
 
-```
+```ironpython
 from System import Type, Activator
 #Creates VisionLabViewer COM server
 type = Type.GetTypeFromProgID("VisionLabViewer.Application")

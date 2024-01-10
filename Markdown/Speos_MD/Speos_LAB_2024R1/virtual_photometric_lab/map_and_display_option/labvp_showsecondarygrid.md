@@ -10,14 +10,14 @@ Returns 1 if no error has occurred, 0 otherwise.
 
 *object*.ShowSecondaryGrid\(short *bShowSecondaryGrid*\) As Short
 
--   *object*: Virtual Photometric Lab
+- *object*: Virtual Photometric Lab
 
--   *bShowSecondaryGrid*: boolean being **True**to show or **False**else
+- *bShowSecondaryGrid*: boolean being **True**to show or **False**else
 
 
 ## VB script example 
 
-```
+```VB
 Sub main()
 Dim Error As Integer
 Set VirtualPhotometricLab = CreateObject("XmpViewer.Application")
@@ -29,9 +29,9 @@ End Sub
 
 ```
 
-## IronPython example 
+## IronPython example
 
-```
+```ironpython
 from System import Type, Activator
 type = Type.GetTypeFromProgID("XMPViewer.Application")
 XMPViewer = Activator.CreateInstance(type)

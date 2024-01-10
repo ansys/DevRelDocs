@@ -10,13 +10,13 @@ Returns 1 if the call has succeeded, 0 otherwise.
 
 *object*.ActivateTemporalAdaptation \(bool *bActivated*\)
 
--   *object* : Virtual Reality Lab object.
+- *object* : Virtual Reality Lab object.
 
--   *bActivated*: boolean activating/deactivating the temporal adaption mode
+- *bActivated*: boolean activating/deactivating the temporal adaption mode
 
-    -   **True**: activate
+  - **True**: activate
 
-    -   **False**: deactivate.
+  - **False**: deactivate.
 
 
 ## Example 

@@ -10,9 +10,9 @@ Returns 1 if the call succeeded, 0 otherwise.
 
 *object*.SetAdaptationType\(int *nAdaptationType*\)
 
--   *object* : Virtual Reality Lab object.
+- *object* : Virtual Reality Lab object.
 
--   *nAdaptationType*: 0 for Local Adaptation, 1 for Dynamic Adaptation.
+- *nAdaptationType*: 0 for Local Adaptation, 1 for Dynamic Adaptation.
 
 
 ## Example 

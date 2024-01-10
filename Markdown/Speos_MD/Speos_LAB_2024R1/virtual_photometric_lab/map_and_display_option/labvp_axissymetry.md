@@ -8,9 +8,9 @@ Makes a symmetry axis of the map.
 
 *object*.AxisSymetry\(short nMode\) As Short
 
--   *object*: Virtual Photometric Lab object
+- *object*: Virtual Photometric Lab object
 
--   *nMode*: axis, 0 for vertical axis, 1 for horizontal axis.
+- *nMode*: axis, 0 for vertical axis, 1 for horizontal axis.
 
 
 

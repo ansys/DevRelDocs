@@ -8,9 +8,9 @@ Return value: sets the vertical coordinate of the top edge of the map and return
 
 *object*.SetYMax\(double dYMax\) As Short
 
--   *object*: Virtual Photometric Lab object
+- *object*: Virtual Photometric Lab object
 
--   *dYMax*: value to set
+- *dYMax*: value to set
 
 
 

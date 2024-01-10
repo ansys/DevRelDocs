@@ -10,18 +10,18 @@ Always returns -1.
 
 *object.Show\(short nShow\) As Short*
 
--   *object*: XM3Viewer object
+- *object*: XM3Viewer object
 
--   *nShow*: must have one of these values:
+- *nShow*: must have one of these values:
 
-    -   0 for hidding
+  - 0 for hidding
 
-    -   1 for showing
+  - 1 for showing
 
 
 ## VB script example
 
-```
+```VB
 Sub TestLab()
   ' Starts the application
   Dim Viewer
@@ -32,9 +32,9 @@ End Sub
 
 ```
 
-## IronPython example 
+## IronPython example
 
-```
+```ironpython
 from System import Type, Activator
 type = Type.GetTypeFromProgID("Xm3Viewer.Application")
 MyXm3Viewer = Activator.CreateInstance(type)

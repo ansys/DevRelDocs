@@ -6,13 +6,13 @@ Exports an intensity XMP map to IES or Eulumdat file. Returns TRUE if the call h
 
 ## Syntax 
 
--   `object.ExportXMPtoIntensity(BSTR bstrFileName)` as Boolean
--   *object*: Virtual Photometric Lab object
--   *bstrFileName*: path and filename of the IES or Eulumdat \(filenames should end by .IES or .LDT\).
+- `object.ExportXMPtoIntensity(BSTR bstrFileName)` as Boolean
+- *object*: Virtual Photometric Lab object
+- *bstrFileName*: path and filename of the IES or Eulumdat \(filenames should end by .IES or .LDT\).
 
 ## VB script example 
 
-```
+```VB
 ' Creates XMPViewer COM server
 set XmpViewer = CreateObject("XmpViewer.application")
 ' Opens XMP file

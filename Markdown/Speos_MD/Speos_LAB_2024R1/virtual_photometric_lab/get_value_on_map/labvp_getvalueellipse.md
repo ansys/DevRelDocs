@@ -12,15 +12,15 @@ The spelling of this function varies between versions. On versions prior to 2019
 
 *object*.GetValueEllipse\(double dXPos, double dYPos, double dWidth, double dHeight\) As Double
 
--   *object*: Virtual Photometric Lab object
+- *object*: Virtual Photometric Lab object
 
--   *dXPos*: horizontal coordinate of the center of the ellipse
+- *dXPos*: horizontal coordinate of the center of the ellipse
 
--   *dYPos*: vertical coordinate of the center of the ellipse
+- *dYPos*: vertical coordinate of the center of the ellipse
 
--   *dWidth*: horizontal size of the ellipse
+- *dWidth*: horizontal size of the ellipse
 
--   *dHeight*: vertical size of the ellipse
+- *dHeight*: vertical size of the ellipse
 
 
 ## Remark 

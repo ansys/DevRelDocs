@@ -10,14 +10,14 @@ Returns 1 if it succeeds, 0 otherwise.
 
 *object.OpenFile\(BSTR bstrFileName\) As Short*
 
--   *object*: XM3Viewer object
+- *object*: XM3Viewer object
 
--   *bstrFileName*: filename string including path \(input\)
+- *bstrFileName*: filename string including path \(input\)
 
 
 ## VB script example
 
-```
+```VB
 Sub TestLab()
   ' Starts the application
   Dim Viewer
@@ -29,9 +29,9 @@ End Sub
 
 ```
 
-## IronPython example 
+## IronPython example
 
-```
+```ironpython
 from System import Type, Activator
 type = Type.GetTypeFromProgID("Xm3Viewer.Application")
 MyXm3Viewer = Activator.CreateInstance(type)

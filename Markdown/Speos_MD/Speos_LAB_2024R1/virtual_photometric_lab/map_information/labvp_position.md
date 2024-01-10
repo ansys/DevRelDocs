@@ -8,9 +8,9 @@ Sets the position in a Virtual Photometric Lab/Virtual Human Vision Lab window. 
 
 *object*.Position\(short nXPos, short nYPos\) As Short
 
--   *object*: Virtual Photometric Lab or Virtual Human Vision Lab object
+- *object*: Virtual Photometric Lab or Virtual Human Vision Lab object
 
--   *nXPos, nYPos*: new position of the window.
+- *nXPos, nYPos*: new position of the window.
 
 
 

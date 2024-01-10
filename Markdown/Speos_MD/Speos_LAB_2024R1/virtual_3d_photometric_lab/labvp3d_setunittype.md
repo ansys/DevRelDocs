@@ -10,18 +10,18 @@ Returns true if it succeeds, false otherwise.
 
 *object.SetUnitType \(short nUnitType\) As Boolean*
 
--   *object*: XM3Viewer object
+- *object*: XM3Viewer object
 
--   *nUnitType*: must have one of these values:
+- *nUnitType*: must have one of these values:
 
-    -   0 for Radiometric
+  - 0 for Radiometric
 
-    -   1 for Photometric
+  - 1 for Photometric
 
 
 ## VB script example
 
-```
+```VB
 Sub TestLab()
   ' Starts the application
   Dim Viewer
@@ -36,9 +36,9 @@ End Sub
 
 ```
 
-## IronPython example 
+## IronPython example
 
-```
+```ironpython
 from System import Type, Activator
 type = Type.GetTypeFromProgID("Xm3Viewer.Application")
 MyXm3Viewer = Activator.CreateInstance(type)

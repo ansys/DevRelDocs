@@ -8,14 +8,14 @@ Returns TRUE if the call has succeeded, FALSE otherwise.
 
 ## Syntax 
 
--   `object.GetConfigName(int iConfig, VARIANT* ovConfigName)` as Boolean
--   *object*: Virtual Reality Lab
--   *iConfig*: index of the configuration in Virtual Lighting Controller \(starting from 0\)
--   *ovConfigName*: configuration name
+- `object.GetConfigName(int iConfig, VARIANT* ovConfigName)` as Boolean
+- *object*: Virtual Reality Lab
+- *iConfig*: index of the configuration in Virtual Lighting Controller \(starting from 0\)
+- *ovConfigName*: configuration name
 
 ## VB script example 
 
-```
+```VB
 ' Creates HDRIViewer COM server
 set HDRIViewer = CreateObject("HDRIViewer.application")
 ' Opens Speos360 file
@@ -28,9 +28,9 @@ Dim ConfigName as String
 ConfigName = sConfigName(1)
 ```
 
-## IronPython example 
+## IronPython example
 
-```
+```ironpython
 from System import Type, Activator
 #Creates HDRIViewer COM server
 type = Type.GetTypeFromProgID("HDRIViewer.application")

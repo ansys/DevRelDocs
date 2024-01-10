@@ -8,9 +8,9 @@ Imports a .txt or .dis file to save it as a .ray file.
 
 *object*.ImportRayFile\(LPCTSTR strInFileName, LPCTSTR strOutFileName\) As Short
 
--   *strInFileName*: .txt, .dis
+- *strInFileName*: .txt, .dis
 
--   *strOutFileName*: .ray
+- *strOutFileName*: .ray
 
 
 

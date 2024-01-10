@@ -8,15 +8,15 @@ Return value: Save Scale Image and return true if the call succeeds, false other
 
 *object*.SaveScaleImage\(LPCSTR strFileName, int iImageFileFormat, int iWidth, int iHeight \) As Boolean
 
--   *object*: Virtual Photometric Lab object
+- *object*: Virtual Photometric Lab object
 
--   *strFileName*: file name to save the image
+- *strFileName*: file name to save the image
 
--   *iImageFileFormat*: image format \(0: bmp, 3: jpg\)
+- *iImageFileFormat*: image format \(0: bmp, 3: jpg\)
 
--   *iWidth*: horizontal number of pixel
+- *iWidth*: horizontal number of pixel
 
--   *iHeight*: vertical number of pixel
+- *iHeight*: vertical number of pixel
 
 
 

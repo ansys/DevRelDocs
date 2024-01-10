@@ -8,7 +8,7 @@ Adjusts the relative energy of each ray of the specified .ray file. The ray with
 
 *object*.ProcessEnergyMax\(LPCTSTR strOutFileName\) As Short
 
--   *strOutFileName*: .ray
+- *strOutFileName*: .ray
 
 
 

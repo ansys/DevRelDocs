@@ -4,23 +4,23 @@
 
 Sets the type of color to use between the eight color modes of the viewer:
 
--   iTypeOfColor 0 = true color
+- iTypeOfColor 0 = true color
 
--   iTypeOfColor 1 = Black to white\(color\)
+- iTypeOfColor 1 = Black to white\(color\)
 
--   iTypeOfColor 2 = White to black\(color\)
+- iTypeOfColor 2 = White to black\(color\)
 
--   iTypeOfColor 3 = White to black\(gray scale\)
+- iTypeOfColor 3 = White to black\(gray scale\)
 
--   iTypeOfColor 4 = Blue to red\(color\)
+- iTypeOfColor 4 = Blue to red\(color\)
 
--   iTypeOfColor 5 = Red to blue\(color\)
+- iTypeOfColor 5 = Red to blue\(color\)
 
--   iTypeOfColor 6 = White to black \(gray scale\)
+- iTypeOfColor 6 = White to black \(gray scale\)
 
--   iTypeOfColor 7 = Black to Color\(Custom\)
+- iTypeOfColor 7 = Black to Color\(Custom\)
 
--   iTypeOfColor 8 = Black to white\(Custom Color\)
+- iTypeOfColor 8 = Black to white\(Custom Color\)
 
 
 Returns 1 if the call has succeeded, 0 otherwise.
@@ -29,9 +29,9 @@ Returns 1 if the call has succeeded, 0 otherwise.
 
 *object*.SetFalseColor\(int *iTypeOfColor*\) As Int
 
--   *object*: Virtual Reality Lab object
+- *object*: Virtual Reality Lab object
 
--   *iTypeOfColor:* Defines the definition of the color to use between the 8 modes available from the viewer
+- *iTypeOfColor:* Defines the definition of the color to use between the 8 modes available from the viewer
 
 
 **Note:**

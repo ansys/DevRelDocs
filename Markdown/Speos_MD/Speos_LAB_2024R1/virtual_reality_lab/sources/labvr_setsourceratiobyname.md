@@ -10,11 +10,11 @@ Returns 1 if the call has succeeded, 0 otherwise.
 
 *object*.SetSourceRatioByName\(BSTR *strLayerName*, double *dRatio*\) As Int
 
--   *object*: Virtual Reality Lab object
+- *object*: Virtual Reality Lab object
 
--   *strLayerName*: string for the name of the source from the Virtual Lighting Controller
+- *strLayerName*: string for the name of the source from the Virtual Lighting Controller
 
--   *dRatio*: ratio defining the power of the source \(%\)
+- *dRatio*: ratio defining the power of the source \(%\)
 
 
 ## Example 

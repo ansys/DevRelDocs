@@ -10,14 +10,14 @@ Returns TRUE if the call has succeeded, FALSE otherwise.
 
 ## Syntax 
 
--   `object.ExportXMPtoResizedImage(BSTR bstrFileName, double ratio)` as Boolean
--   *object*: Virtual Photometric Lab
--   *bstrFileName*: path and filename of the BMP, PNG, TIFF or JPG. Should end by **.BMP**, **.PNG**, **.TIFF** or **.JPG**.
--   *ratio*: ratio \(multiplication factor\) applied to the exported image. Should be greater than 0 and comprised between 0.001 and 100.
+- `object.ExportXMPtoResizedImage(BSTR bstrFileName, double ratio)` as Boolean
+- *object*: Virtual Photometric Lab
+- *bstrFileName*: path and filename of the BMP, PNG, TIFF or JPG. Should end by **.BMP**, **.PNG**, **.TIFF** or **.JPG**.
+- *ratio*: ratio \(multiplication factor\) applied to the exported image. Should be greater than 0 and comprised between 0.001 and 100.
 
 ## VB script example 
 
-```
+```VB
 ' Creates XMPViewer COM server
 set XmpViewer = CreateObject("XmpViewer.application")  
 ' Opens XMP file  
@@ -26,9 +26,9 @@ XMPViewer.OpenFile("C:\Example.xmp")
 XMPViewer.ExportXMPtoResizedImage("C:\Example.png", 10)
 ```
 
-## IronPython example 
+## IronPython example
 
-```
+```ironpython
 from System import Type, Activator
 #Creates XMPViewer COM server
 type = Type.GetTypeFromProgID("XmpViewer.Application")

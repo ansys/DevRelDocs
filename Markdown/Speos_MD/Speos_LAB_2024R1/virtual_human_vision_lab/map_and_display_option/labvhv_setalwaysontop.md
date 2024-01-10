@@ -10,9 +10,9 @@ Returns a value different than 0 if no error occurred.
 
 *object*.SetAlwaysOnTop\(short *bAlwaysOnTop*\) As Short
 
--   *object*: Virtual Human Vision Lab object
+- *object*: Virtual Human Vision Lab object
 
--   *bAlwaysOnTop*: boolean being **True**to set the window always on the top or **False**else
+- *bAlwaysOnTop*: boolean being **True**to set the window always on the top or **False**else
 
 
 ## Example 

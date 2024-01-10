@@ -10,9 +10,9 @@ Returns 1 if the call succeeded, 0 otherwise.
 
 *object*.SetLocalAdaptationLuminanceMax\(double *dLuminanceMax*\)
 
--   *object* : Virtual Reality Lab object.
+- *object* : Virtual Reality Lab object.
 
--   *dLuminanceMax*: maximum adaptation value in Cd/m².
+- *dLuminanceMax*: maximum adaptation value in Cd/m².
 
 
 ## Example 

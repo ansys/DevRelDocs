@@ -8,17 +8,17 @@ Returns an array of 3 VARIANT representing the three components of the average c
 
 *object*.SurfaceRectangleColor\(double dXPos, double dYPos, double dWidth, double dHeight, short iColorSystem\) As Variant
 
--   *object*: Virtual Photometric Lab object
+- *object*: Virtual Photometric Lab object
 
--   *dXPos*: horizontal coordinate of the center of the rectangle
+- *dXPos*: horizontal coordinate of the center of the rectangle
 
--   *dYPos*: vertical coordinate of the center of the rectangle
+- *dYPos*: vertical coordinate of the center of the rectangle
 
--   *dWidth*: horizontal size of the rectangle
+- *dWidth*: horizontal size of the rectangle
 
--   *dHeight*: vertical size of the rectangle
+- *dHeight*: vertical size of the rectangle
 
--   *iColorSystem*: colorimetric system
+- *iColorSystem*: colorimetric system
 
     0: COLOR\_SYSTEM\_XYZ
 

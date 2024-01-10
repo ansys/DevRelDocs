@@ -8,9 +8,9 @@ Return value: sets the vertical coordinate of the bottom edge of the map and ret
 
 *object*.SetYMin\(double dYMin\) As Short
 
--   *object*: Virtual Photometric Lab object
+- *object*: Virtual Photometric Lab object
 
--   *dYMin*: value to set
+- *dYMin*: value to set
 
 
 

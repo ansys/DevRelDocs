@@ -8,9 +8,9 @@ Applies the XMP filtering on the map data. Returns a value different from 0 if n
 
 *object*.Filtering\(int iNbPasses\) As Short
 
--   *object*: Virtual Photometric Lab or Virtual Human Vision Lab object
+- *object*: Virtual Photometric Lab or Virtual Human Vision Lab object
 
--   *iNbPasses*: filtering level
+- *iNbPasses*: filtering level
 
 
 

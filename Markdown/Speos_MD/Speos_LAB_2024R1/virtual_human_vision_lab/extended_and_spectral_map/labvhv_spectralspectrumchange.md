@@ -6,22 +6,22 @@ Allows you to apply a spectrum to a source on spectral map.
 
 Returns 0 if:
 
--   the map is not a spectral map.
+- the map is not a spectral map.
 
--   the index of the source does not exist.
+- the index of the source does not exist.
 
--   the path does not exist or no path defined or wrong path.
+- the path does not exist or no path defined or wrong path.
 
 
 ## Syntax 
 
 *object*.SpectralSpectrumChange\(int *iSource*, BSTR *bstrFileName*\)
 
--   *object*: Virtual Photometric Lab or Virtual Human Vision Lab object
+- *object*: Virtual Photometric Lab or Virtual Human Vision Lab object
 
--   *iSource*: index of the source to activate
+- *iSource*: index of the source to activate
 
--   *bstrFileName*: filename string including path
+- *bstrFileName*: filename string including path
 
     When bstrFileName does not exist, the spectrum is deactivated on the layer.
 

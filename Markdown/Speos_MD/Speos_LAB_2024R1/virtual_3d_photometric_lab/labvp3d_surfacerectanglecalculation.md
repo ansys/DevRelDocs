@@ -6,63 +6,63 @@ Computes the measures for a rectangle area projected on the 3D surface.
 
 Returns an array of 13 VARIANT in the following order:
 
--   Minimum value
+- Minimum value
 
--   Minimum x coordinate
+- Minimum x coordinate
 
--   Minimum y coordinate
+- Minimum y coordinate
 
--   Minimum z coordinate
+- Minimum z coordinate
 
--   Maximum value
+- Maximum value
 
--   Maximum x coordinate
+- Maximum x coordinate
 
--   Maximum y coordinate
+- Maximum y coordinate
 
--   Maximum z coordinate
+- Maximum z coordinate
 
--   Flux
+- Flux
 
--   Average
+- Average
 
--   Contrast
+- Contrast
 
--   Sigma
+- Sigma
 
--   RMS contrast.
+- RMS contrast.
 
 
 ## Syntax 
 
 *object.SurfaceRectangleCalculation\(double dXPos, double dYPos, double dZPos, double dXDir, double dYDir, double dZDir, double dPhi, double dWidth, double dHeight, long lSampling\) As Variant*
 
--   *object*: XM3Viewer object
+- *object*: XM3Viewer object
 
--   *dXPos*: X coordinate of the center of the measurement tool.
+- *dXPos*: X coordinate of the center of the measurement tool.
 
--   *dYPos*: Y coordinate of the center of the measurement tool.
+- *dYPos*: Y coordinate of the center of the measurement tool.
 
--   *dZPos*: Z coordinate of the center of the measurement tool.
+- *dZPos*: Z coordinate of the center of the measurement tool.
 
--   *dXDir*: X coordinate of the projection vector.
+- *dXDir*: X coordinate of the projection vector.
 
--   *dYDir*: Y coordinate of the projection vector.
+- *dYDir*: Y coordinate of the projection vector.
 
--   *dZDir*: Z coordinate of the projection vector.
+- *dZDir*: Z coordinate of the projection vector.
 
--   *dPhi*: rotation angle around the projection vector.
+- *dPhi*: rotation angle around the projection vector.
 
--   *dWidth*: width of the rectangle.
+- *dWidth*: width of the rectangle.
 
--   *dHeight*: height of the rectangle.
+- *dHeight*: height of the rectangle.
 
--   *lSampling*: number of points for the measurement.
+- *lSampling*: number of points for the measurement.
 
 
 ## VB script example
 
-```
+```VB
 Sub TestLab()
   ' Starts the application
   Dim Viewer
@@ -77,9 +77,9 @@ End Sub
 
 ```
 
-## IronPython example 
+## IronPython example
 
-```
+```ironpython
 from System import Type, Activator
 type = Type.GetTypeFromProgID("Xm3Viewer.Application")
 MyXm3Viewer = Activator.CreateInstance(type)

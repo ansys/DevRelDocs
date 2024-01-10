@@ -8,13 +8,13 @@ This function allows you to export the Current view of the opened \*.OptisVR or 
 
 *object*.ExportCurrentViewToXMP\(BSTR strOutputNameFile\) As Bool
 
--   *object*: Virtual Reality Lab object
+- *object*: Virtual Reality Lab object
 
--   *BSTR strOutputFileName*: This variable is composed of the path, the filename and the extension
+- *BSTR strOutputFileName*: This variable is composed of the path, the filename and the extension
 
--   Bool return
-    -   True: success
-    -   False: fail
+- Bool return
+  - True: success
+  - False: fail
 
 ## Example 
 

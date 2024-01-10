@@ -10,11 +10,11 @@ Returns 1 if the call has succeeded, 0 otherwise.
 
 *object*.SetSourcePowerByName\(BSTR *strLayerName*, double *dPowerLumen*\) As Int
 
--   *object*: Virtual Reality Lab object
+- *object*: Virtual Reality Lab object
 
--   *strLayerName*: string for the name of the source from the Virtual Lighting Controller
+- *strLayerName*: string for the name of the source from the Virtual Lighting Controller
 
--   *dPowerLumen*: power of the source value \(lm\)
+- *dPowerLumen*: power of the source value \(lm\)
 
 
 ## Example 

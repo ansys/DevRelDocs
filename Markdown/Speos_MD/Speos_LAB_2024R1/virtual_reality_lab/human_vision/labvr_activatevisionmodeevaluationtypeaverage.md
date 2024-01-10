@@ -12,13 +12,13 @@ Returns 1 if the call has succeeded, 0 otherwise.
 
 *object*.ActivateVisionModeEvaluationTypeAverage\(bool bActivated\)
 
--   *object* : Virtual Reality Lab object.
+- *object* : Virtual Reality Lab object.
 
--   *bActivated*: boolean activating/deactivating the average evaluation
+- *bActivated*: boolean activating/deactivating the average evaluation
 
-    -   **True**: activate
+  - **True**: activate
 
-    -   **False**: deactivate.
+  - **False**: deactivate.
 
 
 ## Example 

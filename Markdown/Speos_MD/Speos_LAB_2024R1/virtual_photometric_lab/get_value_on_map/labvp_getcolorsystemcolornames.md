@@ -8,9 +8,9 @@ Returns an array of 4 VARIANT representing in order: the name of the color syste
 
 *object*.GetColorSystemColorNames\(short iColorSystem\) As Variant
 
--   *object*: Virtual Photometric Lab object
+- *object*: Virtual Photometric Lab object
 
--   *iColorSystem*: colorimetric system
+- *iColorSystem*: colorimetric system
 
     0: COLOR\_SYSTEM\_XYZ
 

@@ -4,8 +4,8 @@ Automation in Virtual Photometric Lab allows you to access to the data inside XM
 
 The installation directory includes:
 
--   The TLB file that describes the Automation interface of the Virtual Photometric Lab,
--   Some HTML example files which have VB script Automation instructions.
+- The TLB file that describes the Automation interface of the Virtual Photometric Lab,
+- Some HTML example files which have VB script Automation instructions.
 
 Any language compatible with Automation can be used \(VB, C\#, etc.\).
 

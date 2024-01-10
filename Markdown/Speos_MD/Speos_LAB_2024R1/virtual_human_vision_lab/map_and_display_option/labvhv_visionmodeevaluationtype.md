@@ -8,9 +8,9 @@ Allows you to select the way to evaluate the vision mode \(photopic, mesopic, sc
 
 *object*.VisionModeEvaluationType\(short nType\) As Short
 
--   *object*: Virtual Human Vision Lab object
+- *object*: Virtual Human Vision Lab object
 
--   *nType*: vision mode type
+- *nType*: vision mode type
 
     0: mean value of luminance map
 

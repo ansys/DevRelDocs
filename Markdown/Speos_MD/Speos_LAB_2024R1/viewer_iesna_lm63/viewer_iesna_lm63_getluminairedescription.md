@@ -8,7 +8,7 @@ Gets the luminaire description.
 
 *object*.GetLuminaireDescription\(\) As String
 
--   *object*: IES Viewer object
+- *object*: IES Viewer object
 
 
 
