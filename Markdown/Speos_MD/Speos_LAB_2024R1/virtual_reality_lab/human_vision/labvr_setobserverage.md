@@ -10,9 +10,9 @@ Returns 1 if the call has succeeded, 0 otherwise.
 
 *object*.SetObserverAge \(int *iAge*\)
 
--   *object*: Virtual Reality Lab object.
+- *object*: Virtual Reality Lab object.
 
--   *iAge*: age in years.
+- *iAge*: age in years.
 
 
 ## Example 

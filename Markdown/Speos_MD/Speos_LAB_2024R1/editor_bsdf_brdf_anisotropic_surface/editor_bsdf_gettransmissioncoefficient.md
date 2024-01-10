@@ -4,9 +4,9 @@
 
 Gives the coefficient of transmission in reference, and returns:
 
--   *false*if there is an error in the function \(value is not in the correct interval Theta, Phi or Wavelength\)
+- *false*if there is an error in the function \(value is not in the correct interval Theta, Phi or Wavelength\)
 
--   *True*if there is Transmission
+- *True*if there is Transmission
 
 
 ## Syntax 
@@ -15,7 +15,7 @@ Gives the coefficient of transmission in reference, and returns:
 
 ## VB script example 
 
-```
+```VB
 Sub Test_BSDF_Viewer()
 Path = "way of file" ‘example C:\User\nameUser\Documents\
 Set BSDFViewer = CreateObject("SimpleBSDFSurfaceViewer.Application")
@@ -39,9 +39,9 @@ End Sub
 
 ```
 
-## IronPython example 
+## IronPython example
 
-```
+```ironpython
 from System import Type, Activator
 import System
 import json

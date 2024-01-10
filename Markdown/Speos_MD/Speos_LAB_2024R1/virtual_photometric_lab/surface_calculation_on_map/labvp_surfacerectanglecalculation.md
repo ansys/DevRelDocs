@@ -41,28 +41,28 @@ Returns an array of 16 VARIANT of the values for the given rectangle area in the
 
 *object*.SurfaceRectangleCalculation\(double dXPos, double dYPos, double dWidth, double dHeight\) As Variant
 
--   *object*: Virtual Photometric Lab object
+- *object*: Virtual Photometric Lab object
 
--   *dXPos*: horizontal coordinate of the center of the rectangle
+- *dXPos*: horizontal coordinate of the center of the rectangle
 
--   *dYPos*: vertical coordinate of the center of the rectangle
+- *dYPos*: vertical coordinate of the center of the rectangle
 
--   *dWidth*: horizontal size of the rectangle
+- *dWidth*: horizontal size of the rectangle
 
--   *dHeight*: vertical size of the rectangle
+- *dHeight*: vertical size of the rectangle
 
 
 ## Remark 
 
 For Conoscopic map, the given area is a corona defined by:
 
--   *dXPos*: Minimum value of the theta angle
+- *dXPos*: Minimum value of the theta angle
 
--   *dYPos*: Maximum value of the theta angle
+- *dYPos*: Maximum value of the theta angle
 
--   *dWidth*: Minimum value of the phi angle
+- *dWidth*: Minimum value of the phi angle
 
--   *dHeight*: Maximum value of the phi angle
+- *dHeight*: Maximum value of the phi angle
 
     **Warning:** All angle values are defined in radian.
 

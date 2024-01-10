@@ -8,13 +8,13 @@ Returns the general color rendering index for the given polygon area
 
 *object*.SurfacePolygonGeneralCRI\(VARIANT\* vPtX, VARIANT\* vPtY, VARIANT\* vdCRI\) As Short
 
--   *object*: Virtual Photometric Lab object
+- *object*: Virtual Photometric Lab object
 
--   *vPtX*: array of VARIANT for the horizontal coordinate of each vertex of the polygon
+- *vPtX*: array of VARIANT for the horizontal coordinate of each vertex of the polygon
 
--   *vPtY*: vertical coordinate of the center of the ellipse
+- *vPtY*: vertical coordinate of the center of the ellipse
 
--   *vdCRI*: array of VARIANT for the vertical coordinate of each vertex of the polygon
+- *vdCRI*: array of VARIANT for the vertical coordinate of each vertex of the polygon
 
 
 ***Example***

@@ -10,19 +10,19 @@ Returns 1 if the call has succeeded, 0 otherwise.
 
 *object.SurfaceRectangleSampleCRI\(double dX, double dY, double dWidth, double dHeight, short nSampleNumber, VARIANT\* vdCRI\)*
 
--   *object*: XMPViewer object
+- *object*: XMPViewer object
 
--   *dX*: x coordinate of the rectangle center.
+- *dX*: x coordinate of the rectangle center.
 
--   *dY*: y coordinate of the rectangle center.
+- *dY*: y coordinate of the rectangle center.
 
--   *dWidth*: width of the rectangle.
+- *dWidth*: width of the rectangle.
 
--   *dHeight*: height of the rectangle.
+- *dHeight*: height of the rectangle.
 
--   *nSampleNumber*: sample number \(from 1 to 15\).
+- *nSampleNumber*: sample number \(from 1 to 15\).
 
--   *vdCRI*\(pointer on result\): VARIANT of type VT\_R8 \(double\).
+- *vdCRI*\(pointer on result\): VARIANT of type VT\_R8 \(double\).
 
 
 ## Example 

@@ -8,9 +8,9 @@ Defines the name of the second source file. Returns 0 if the call has succeeded,
 
 *object*.FileSource2\(BSTR bstrFileSource2\) As Short
 
--   *object*: Photometric Calc object
+- *object*: Photometric Calc object
 
--   *bFileSource1*: second source name string
+- *bFileSource1*: second source name string
 
 
 

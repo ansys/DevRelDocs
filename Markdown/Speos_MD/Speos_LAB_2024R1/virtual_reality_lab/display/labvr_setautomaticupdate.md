@@ -14,9 +14,9 @@ Returns a value different from 0 if no error occurred.
 
 *object*.SetAutomaticUpdate\(bool *bAutomaticUpdate*\) As Int
 
--   *object*: Virtual Reality Lab object
+- *object*: Virtual Reality Lab object
 
--   *bAutomaticUpdate*: boolean being **True**to activate or **False**to deactivate
+- *bAutomaticUpdate*: boolean being **True**to activate or **False**to deactivate
 
 
 ## Example 

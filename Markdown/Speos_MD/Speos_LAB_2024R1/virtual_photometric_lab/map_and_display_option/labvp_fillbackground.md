@@ -8,9 +8,9 @@ Fills the background of the Virtual Photometric Lab viewer with white to analyze
 
 *object*.FillBackground\(short bState\) As Short
 
--   *object*: Virtual Photometric Lab object
+- *object*: Virtual Photometric Lab object
 
--   *bState*: 0 to keep the background unchanged, 1 to fill the background with white.
+- *bState*: 0 to keep the background unchanged, 1 to fill the background with white.
 
 
 

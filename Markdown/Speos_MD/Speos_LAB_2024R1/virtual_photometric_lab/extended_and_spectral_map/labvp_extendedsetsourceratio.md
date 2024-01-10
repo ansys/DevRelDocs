@@ -12,11 +12,11 @@ The *User defined* mode must be active \(*ExtendedSetActiveSource\(-2\)*\) for t
 
 *object*.ExtendedSetSourceRatio\(int iSource, double dRatio\) As Short
 
--   *object*: Virtual Photometric Lab or Virtual Human Vision Lab object
+- *object*: Virtual Photometric Lab or Virtual Human Vision Lab object
 
--   *iSource*: index of the source
+- *iSource*: index of the source
 
--   *dRatio*: value to set
+- *dRatio*: value to set
 
 
 

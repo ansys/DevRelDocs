@@ -10,11 +10,11 @@ Returns 1 if the call has succeeded, 0 otherwise.
 
 *object*.SetSourceRatioById\(int *uiIDSource*, double *dRatio*\) As Int
 
--   *object*: Virtual Reality Lab object
+- *object*: Virtual Reality Lab object
 
--   *uiIDSource*: index of the source on the Virtual Lighting Controller starting from 0
+- *uiIDSource*: index of the source on the Virtual Lighting Controller starting from 0
 
--   *dRatio*: ratio defining the power of the source \(%\)
+- *dRatio*: ratio defining the power of the source \(%\)
 
 
 ## Example 

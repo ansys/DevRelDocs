@@ -12,15 +12,15 @@ Returns 1 if the call has succeeded, 0 otherwise.
 
 *object.SurfacePolygonSampleCRI\(VARIANT\* vPtX, VARIANT\* vPtY, short nSampleNumber, VARIANT\* vdCRI\)*
 
--   *object*: XMPViewer object
+- *object*: XMPViewer object
 
--   *vPtX*: array of x coordinates of the polygon.
+- *vPtX*: array of x coordinates of the polygon.
 
--   *vPtY*: array of y coordinates of the polygon.
+- *vPtY*: array of y coordinates of the polygon.
 
--   *nSampleNumber*: sample number \(from 1 to 15\).
+- *nSampleNumber*: sample number \(from 1 to 15\).
 
--   *vdCRI*\(pointer on result\): VARIANT of type VT\_R8 \(double\).
+- *vdCRI*\(pointer on result\): VARIANT of type VT\_R8 \(double\).
 
 
 ## Example 

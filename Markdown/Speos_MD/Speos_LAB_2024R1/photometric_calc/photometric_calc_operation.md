@@ -8,9 +8,9 @@ Defines the name of the operation. Returns 0 if the call succeeded, 1 otherwise.
 
 *object*.Operation\(BSTR bstrOperationName\) As Short
 
--   *object*: Photometric Calc object
+- *object*: Photometric Calc object
 
--   *bstrOperationName*: operation name
+- *bstrOperationName*: operation name
 
     "Addition"
 

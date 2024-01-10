@@ -10,9 +10,9 @@ Returns 1 if the call has succeeded, 0 otherwise.
 
 *object*.SetConfigurationByName\(BSTR *strConfigurationName*\) As Int
 
--   *object*: Virtual Reality Lab object
+- *object*: Virtual Reality Lab object
 
--   *strConfigurationName*: string for the name of the configuration from the Virtual Lighting Controller
+- *strConfigurationName*: string for the name of the configuration from the Virtual Lighting Controller
 
 
 ## Example 

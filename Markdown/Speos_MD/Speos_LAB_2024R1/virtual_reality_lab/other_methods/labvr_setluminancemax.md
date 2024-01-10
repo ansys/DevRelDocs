@@ -10,9 +10,9 @@ Returns 1 if the call has succeeded, 0 otherwise.
 
 *object.*SetLuminanceMax\(double *dValue*\) As Int
 
--   *object*: Virtual Reality Lab object
+- *object*: Virtual Reality Lab object
 
--   *dValue*: Luminance Max value \(cd/m²\) or Adaptive Luminance value \(cd/m²\) when Human Vision mode is activated
+- *dValue*: Luminance Max value \(cd/m²\) or Adaptive Luminance value \(cd/m²\) when Human Vision mode is activated
 
 
 ## Example 

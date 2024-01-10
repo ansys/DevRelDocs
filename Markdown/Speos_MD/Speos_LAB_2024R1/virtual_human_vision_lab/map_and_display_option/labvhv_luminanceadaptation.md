@@ -8,9 +8,9 @@ Sets the adaptation luminance value and returns a value different from 0 if no e
 
 *object*.LuminanceAdaptation\(double dLuminanceAdaptation\) As Short
 
--   *object*: Virtual Human Vision Lab object
+- *object*: Virtual Human Vision Lab object
 
--   *dLuminanceAdaptation*: adaptation luminance value
+- *dLuminanceAdaptation*: adaptation luminance value
 
 
 

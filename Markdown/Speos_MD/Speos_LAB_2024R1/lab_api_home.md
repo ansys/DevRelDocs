@@ -6,10 +6,10 @@ With Automation, you can communicate with any Windows application. Automation ca
 
 With automation you can:
 
- - Write script using any language compatible with Automation \(VB Script, C++\),
- - Directly access results data without knowing specific format \(like XMP file\),
- - Write your own HTML reports that automatically analyze the results,
- - Write your own optimization code.
+- Write script using any language compatible with Automation \(VB Script, C++\),
+- Directly access results data without knowing specific format \(like XMP file\),
+- Write your own HTML reports that automatically analyze the results,
+- Write your own optimization code.
 
 ## Technical description 
 

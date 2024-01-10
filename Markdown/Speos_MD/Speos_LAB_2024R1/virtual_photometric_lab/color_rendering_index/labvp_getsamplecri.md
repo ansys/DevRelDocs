@@ -10,20 +10,20 @@ Returns 1 if the call has succeeded, 0 otherwise.
 
 *object.GetSampleCRI\(double dX, double dY, short nSampleNumber, VARIANT\* vdCRI\)*
 
--   *object*: XMPViewer object
+- *object*: XMPViewer object
 
--   *dX*: x coordinate of the point.
+- *dX*: x coordinate of the point.
 
--   *dY*: y coordinate of the point.
+- *dY*: y coordinate of the point.
 
--   *nSampleNumber*: sample number \(from 1 to 15\).
+- *nSampleNumber*: sample number \(from 1 to 15\).
 
--   *vdCRI*\(pointer on result\): VARIANT of type VT\_R8 \(double\).
+- *vdCRI*\(pointer on result\): VARIANT of type VT\_R8 \(double\).
 
 
 ## VB script example 
 
-```
+```VB
 Sub CRISample ()
 'Error Management
 Dim Error As Integer
@@ -41,9 +41,9 @@ End Sub
 
 ```
 
-## IronPython example 
+## IronPython example
 
-```
+```ironpython
 from System import Type, Activator
 type = Type.GetTypeFromProgID("XMPViewer.Application")
 XMPViewer = Activator.CreateInstance(type)

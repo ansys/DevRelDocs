@@ -8,12 +8,12 @@ Returns the number of configurations defined for the Layers Operations.
 
 *object*.GetNbConfig\(\) As Short
 
--   *object*: Virtual 3D Photometric Lab object
+- *object*: Virtual 3D Photometric Lab object
 
 
 ## VB script example
 
-```
+```VB
 Sub main()
  Dim test As Integer
 Dim NbC As Integer
@@ -46,9 +46,9 @@ Next i
 
 ```
 
-## IronPython example 
+## IronPython example
 
-```
+```ironpython
 from System import Type, Activator
 type = Type.GetTypeFromProgID("Xm3Viewer.Application")
 MyXm3Viewer = Activator.CreateInstance(type)

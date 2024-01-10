@@ -10,22 +10,22 @@ Returns true if it succeeds, false otherwise.
 
 *object.SetValueType \(short nValueType\) As Boolean*
 
--   *object*: XM3Viewer object
+- *object*: XM3Viewer object
 
--   *nValueType*: must have one of these values:
+- *nValueType*: must have one of these values:
 
-    -   0 for Illuminance/Irradiance
+  - 0 for Illuminance/Irradiance
 
-    -   1 for Reflection
+  - 1 for Reflection
 
-    -   2 for Transmission
+  - 2 for Transmission
 
-    -   3 for Absorption.
+  - 3 for Absorption.
 
 
 ## VB script example
 
-```
+```VB
 Sub TestLab()
   ' Starts the application
   Dim Viewer
@@ -40,9 +40,9 @@ End Sub
 
 ```
 
-## IronPython example 
+## IronPython example
 
-```
+```ironpython
 from System import Type, Activator
 type = Type.GetTypeFromProgID("Xm3Viewer.Application")
 MyXm3Viewer = Activator.CreateInstance(type)

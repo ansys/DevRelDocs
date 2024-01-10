@@ -6,15 +6,15 @@ Exports the spectrum data of a measurement polyline to a spectrum file. Returns 
 
 ## Syntax 
 
--   `object.SurfacePolylineExportSpectrum(VARIANT* vPtX, VARIANT* vPtY, BSTR bstrFileName)` as Boolean
--   *object*: Virtual Photometric Lab
--   *vPtX*: array of VARIANT for the horizontal coordinate of each vertex of the polyline
--   *vPtY*: array of VARIANT for the vertical coordinate of each vertex of the polyline
--   *bstrFileName*: path and filename of the spectrum \(.spectrum, .spe\) file
+- `object.SurfacePolylineExportSpectrum(VARIANT* vPtX, VARIANT* vPtY, BSTR bstrFileName)` as Boolean
+- *object*: Virtual Photometric Lab
+- *vPtX*: array of VARIANT for the horizontal coordinate of each vertex of the polyline
+- *vPtY*: array of VARIANT for the vertical coordinate of each vertex of the polyline
+- *bstrFileName*: path and filename of the spectrum \(.spectrum, .spe\) file
 
 ## VB script example 
 
-```
+```VB
 ' Creates XMPViewer COM server
 set XmpViewer = CreateObject("XmpViewer.application")
 ' Opens XMP file

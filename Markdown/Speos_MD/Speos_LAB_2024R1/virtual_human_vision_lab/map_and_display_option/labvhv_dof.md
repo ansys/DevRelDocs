@@ -8,9 +8,9 @@ Modifies the depth of field state. Returns 0 if no error has occurred, 1 otherwi
 
 *object*.DOF\(short nDOF\) As Short
 
--   *object*: Virtual Human Vision Lab object
+- *object*: Virtual Human Vision Lab object
 
--   *nDOF*: Depth of field state.
+- *nDOF*: Depth of field state.
 
 
 

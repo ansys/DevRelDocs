@@ -8,9 +8,9 @@ Sets the accomodation distance. Returns 0 if no error has occurred, 1 otherwise.
 
 *object*.AccomodationDistance\(double dAccomodationDistance\) As Short
 
--   *object*: Virtual Human Vision Lab object
+- *object*: Virtual Human Vision Lab object
 
--   *dAccomodationDistance*: accomodation distance value.
+- *dAccomodationDistance*: accomodation distance value.
 
 
 

@@ -14,11 +14,11 @@ If the theta and phi angles specified match to an impossible position, the close
 
 *object*.SetSightDirection\(*theta*As Double, *phi*As Double\) As Long
 
--   *object*: Virtual Reality Lab object
+- *object*: Virtual Reality Lab object
 
--   *theta :*angle driving the horizontal orientation \(rad\)
+- *theta :*angle driving the horizontal orientation \(rad\)
 
--   *phi:*angle driving the vertical orientation \(rad\)
+- *phi:*angle driving the vertical orientation \(rad\)
 
 
 **Note:**

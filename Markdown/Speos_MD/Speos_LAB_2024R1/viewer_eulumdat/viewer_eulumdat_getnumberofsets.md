@@ -8,7 +8,7 @@ Gets the number of standard sets of lamps.
 
 *object*.GetNumberOfSets\(\) As Long
 
--   *object*: Eulumdat Viewer object
+- *object*: Eulumdat Viewer object
 
 
 

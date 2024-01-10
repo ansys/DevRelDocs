@@ -10,21 +10,21 @@ Returns 1 if the call has succeeded, 0 otherwise.
 
 *object.*HumanVisionMode\(bool *bActive*, bool *bGlare*, int *iAge*\) As Int
 
--   *object*: Virtual Reality Lab object
+- *object*: Virtual Reality Lab object
 
--   *bActive*: boolean activating/deactivating the Human Vision Mode
+- *bActive*: boolean activating/deactivating the Human Vision Mode
 
-    -   **True**: activate
+  - **True**: activate
 
-    -   **False**: deactivate
+  - **False**: deactivate
 
--   *bGlare*: boolean activating/deactivating the Glare Effect
+- *bGlare*: boolean activating/deactivating the Glare Effect
 
-    -   **True**: activate
+  - **True**: activate
 
-    -   **False**: deactivate
+  - **False**: deactivate
 
--   *iAge*: integer for the age of the observer
+- *iAge*: integer for the age of the observer
 
 
 ## Example 

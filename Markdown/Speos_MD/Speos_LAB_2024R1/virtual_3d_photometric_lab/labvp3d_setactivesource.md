@@ -8,16 +8,16 @@ Sets the active source of the xm3 map.
 
 *object*.SetActiveSource\(int *iSource*\) As Short
 
--   *object*: Virtual 3D Photometric Lab object
+- *object*: Virtual 3D Photometric Lab object
 
--   *iSource*: index of the source to activate
+- *iSource*: index of the source to activate
 
 
 You can also set the iSource behavior as follows:
 
--   **-1** to set all sources activated at 100% power ratio \(equivalent to the All layers mode in Virtual Photometric Lab\).
+- **-1** to set all sources activated at 100% power ratio \(equivalent to the All layers mode in Virtual Photometric Lab\).
 
--   **-2** to activate all sources depending on their current power ratio \(equivalent to the User defined mode in Virtual Photometric Lab\).
+- **-2** to activate all sources depending on their current power ratio \(equivalent to the User defined mode in Virtual Photometric Lab\).
 
 
 ## VB script example
@@ -55,9 +55,9 @@ Next i
 
 ```
 
-## IronPython example 
+## IronPython example
 
-```
+```ironpython
 from System import Type, Activator
 type = Type.GetTypeFromProgID("Xm3Viewer.Application")
 MyXm3Viewer = Activator.CreateInstance(type)

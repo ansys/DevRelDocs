@@ -10,13 +10,13 @@ Returns 1 if the call has succeeded, 0 otherwise.
 
 *object*. ActivateLocalAdaptationAutomatic\(bool *bActivated*\)
 
--   *object* : Virtual Reality Lab object.
+- *object* : Virtual Reality Lab object.
 
--   *bActivated*: boolean activating/deactivating the automatic mode for Local Adaptation.
+- *bActivated*: boolean activating/deactivating the automatic mode for Local Adaptation.
 
-    -   **True**: activate
+  - **True**: activate
 
-    -   **False**: deactivate
+  - **False**: deactivate
 
 
 ## Example 

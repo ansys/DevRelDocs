@@ -6,16 +6,16 @@ Creates an observer Speos360 file from a set of XMP files. Returns TRUE if the c
 
 ## Syntax 
 
--   `object.CreateObserverView(VARIANT* pInputListXMP, VARIANT* pInputListHorizontalAngle, VARIANT* pInputListVerticalAngle, BSTR bstrOutputFileName)` as Boolean
--   *object*: Virtual Reality Lab
--   *pInputListXMP*: array of the XMP absolute filename strings
--   *pInputListHorizontalAngle*: array of VARIANT for the horizontal angle of each XMP file
--   *pInputListVerticalAngle*: array of VARIANT for the vertical angle of each XMP file
--   *bstrOutputFileName*: path and filename of the template \(should end by .speos360\)
+- `object.CreateObserverView(VARIANT* pInputListXMP, VARIANT* pInputListHorizontalAngle, VARIANT* pInputListVerticalAngle, BSTR bstrOutputFileName)` as Boolean
+- *object*: Virtual Reality Lab
+- *pInputListXMP*: array of the XMP absolute filename strings
+- *pInputListHorizontalAngle*: array of VARIANT for the horizontal angle of each XMP file
+- *pInputListVerticalAngle*: array of VARIANT for the vertical angle of each XMP file
+- *bstrOutputFileName*: path and filename of the template \(should end by .speos360\)
 
 ## VB script example 
 
-```
+```VB
 ' Creates HDRIViewer COM server
 set HDRIViewer = CreateObject("HDRIViewer.application
 Dim XmpFiles

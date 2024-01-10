@@ -6,14 +6,14 @@ Renames one of the sources. Returns TRUE if the call has succeeded, FALSE otherw
 
 ## Syntax 
 
--   `object.ExtendedSetSourceName(int iSource, BSTR bstrSourceName)` as Boolean
--   *object*: Virtual Human Vision Lab
--   *iSource*: index of the source in Virtual Lighting Controller \(starting from 0\)
--   *bstrFileName*: the new name of the source
+- `object.ExtendedSetSourceName(int iSource, BSTR bstrSourceName)` as Boolean
+- *object*: Virtual Human Vision Lab
+- *iSource*: index of the source in Virtual Lighting Controller \(starting from 0\)
+- *bstrFileName*: the new name of the source
 
 ## VB script example 
 
-```
+```VB
 ' Creates VisionLabViewer COM server
 set VisionLabViewer = CreateObject("VisionLabViewer.application")
 ' Opens XMP file
@@ -22,9 +22,9 @@ VisionLabViewer.OpenFile("C:\Example.xmp")
 VisionLabViewer.ExtendedSetSourceName(1, "Source number one")
 ```
 
-## IronPython example 
+## IronPython example
 
-```
+```ironpython
 from System import Type, Activator
 #Creates VisionLabViewer COM server
 type = Type.GetTypeFromProgID("VisionLabViewer.Application")

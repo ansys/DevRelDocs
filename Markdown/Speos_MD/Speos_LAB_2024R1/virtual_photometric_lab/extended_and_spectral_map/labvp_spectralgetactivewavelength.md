@@ -8,9 +8,9 @@ Gets the active wavelengths of a spectral map. Returns 1 if no error has occurre
 
 *object*.SpectralGetActiveWavelength\(VARIANT\* ovWavelengthIndex\) As Short
 
--   *object*: Virtual Photometric Lab or Virtual Human Vision Lab object
+- *object*: Virtual Photometric Lab or Virtual Human Vision Lab object
 
--   *ovWavelengthIndex*: VARIANT of the index of the active wavelength \(-1 for all\)
+- *ovWavelengthIndex*: VARIANT of the index of the active wavelength \(-1 for all\)
 
 
 

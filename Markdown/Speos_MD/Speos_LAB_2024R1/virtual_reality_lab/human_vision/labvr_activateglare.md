@@ -10,9 +10,9 @@ Returns 1 if the call has succeeded, 0 otherwise.
 
 *object*. ActivateGlare \(bool *bActivated*\)
 
--   *object* : Virtual Reality Lab object.
+- *object* : Virtual Reality Lab object.
 
--   *bActivated*: true to active glare else false.
+- *bActivated*: true to active glare else false.
 
 
 ## Example 

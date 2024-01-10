@@ -8,9 +8,9 @@ Load scale Levels. Returns 1 if the call has succeeded, 0 otherwise.
 
 *object*.LoadScaleLevels\(LPCSTR strFileName\) As Short
 
--   *object*: Virtual Photometric Lab object
+- *object*: Virtual Photometric Lab object
 
--   *strFileName*: scale file name
+- *strFileName*: scale file name
 
 
 

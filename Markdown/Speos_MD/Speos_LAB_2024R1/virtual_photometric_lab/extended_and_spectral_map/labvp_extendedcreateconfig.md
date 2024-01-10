@@ -8,13 +8,13 @@ Returns TRUE if the call has succeeded, FALSE otherwise.
 
 ## Syntax 
 
--   `object.ExtendedCreateConfig(BSTR bstrConfigName)` as Boolean
--   *object*: Virtual Photometric Lab
--   *bstrConfigName*: name of the configuration
+- `object.ExtendedCreateConfig(BSTR bstrConfigName)` as Boolean
+- *object*: Virtual Photometric Lab
+- *bstrConfigName*: name of the configuration
 
 ## VB script example 
 
-```
+```VB
 ' Creates XMPViewer COM server
 set XmpViewer = CreateObject("XmpViewer.application")  
 ' Opens XMP file  
@@ -23,9 +23,9 @@ XMPViewer.OpenFile("C:\Example.xmp")
 XMPViewer.ExtendedCreateConfig("My Configuration")
 ```
 
-## IronPython example 
+## IronPython example
 
-```
+```ironpython
 from System import Type, Activator
 #Creates XmpViewer COM server
 type = Type.GetTypeFromProgID("XmpViewer.Application")

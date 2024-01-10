@@ -8,13 +8,13 @@ Returns an array of 3 VARIANT of the colorimetric coordinates at the given posit
 
 *object*.GetColor\(double dXPos, double dYPos, short nColorSystem\) As Variant
 
--   *object*: Virtual Photometric Lab or Virtual Human Vision Lab object
+- *object*: Virtual Photometric Lab or Virtual Human Vision Lab object
 
--   *dX*: horizontal coordinate
+- *dX*: horizontal coordinate
 
--   *dY*: vertical coordinate
+- *dY*: vertical coordinate
 
--   *nColorSystem*: colorimetric system
+- *nColorSystem*: colorimetric system
 
     0: COLOR\_SYSTEM\_XYZ
 

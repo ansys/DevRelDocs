@@ -4,9 +4,9 @@ Automation in Ray File Editor allows the user to access to the data inside ray f
 
 The installation directory includes:
 
--   The TLB file that describes the Automation interface of the Ray File Editor,
+- The TLB file that describes the Automation interface of the Ray File Editor,
 
--   Some HTML example files which have VB script Automation instructions.
+- Some HTML example files which have VB script Automation instructions.
 
 
 Any language compatible with Automation can be used \(VB, C\#, etc.\).

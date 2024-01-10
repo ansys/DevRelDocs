@@ -8,19 +8,19 @@ Saves the 2D ISO image display of the map in a file. Returns a value different f
 
 *object*.ExportXMPIso\(BSTR bstrFileName, int iMaxSize, int iFormat, int bLegend, int bContour, int iNbLevel\) As Short
 
--   *object*: Virtual Photometric Lab object
+- *object*: Virtual Photometric Lab object
 
--   *bstrFileName*: file name to save the image
+- *bstrFileName*: file name to save the image
 
--   *iMaxSize*: maximal horizontal or vertical number of pixels
+- *iMaxSize*: maximal horizontal or vertical number of pixels
 
--   *iFormat*: image format \(0: BMP, 3: JPG, 4: PNG\)
+- *iFormat*: image format \(0: BMP, 3: JPG, 4: PNG\)
 
--   *bLegend*: A value different than 0 for including the legend
+- *bLegend*: A value different than 0 for including the legend
 
--   *bContour*: A value different than 0 for including the contour
+- *bContour*: A value different than 0 for including the contour
 
--   *iNbLevel*: number of ISO levels
+- *iNbLevel*: number of ISO levels
 
 
 

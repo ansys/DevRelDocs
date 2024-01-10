@@ -8,9 +8,9 @@ Adds a .spectrum file and saves it in the defined .ray file.
 
 *object*.ChangeSpectrum\(LPCTSTR strInFileName, LPCTSTR strOutFileName\) As Short
 
--   *strInFileName*: .spectrum
+- *strInFileName*: .spectrum
 
--   *strOutFileName*: .ray
+- *strOutFileName*: .ray
 
 
 

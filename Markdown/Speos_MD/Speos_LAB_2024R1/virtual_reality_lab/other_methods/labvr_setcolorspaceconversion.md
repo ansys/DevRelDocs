@@ -4,11 +4,11 @@
 
 Sets the conversion mode to use between three modes:
 
--   0 = Gamut Clipping
+- 0 = Gamut Clipping
 
--   1 = Maintain lightness and hue
+- 1 = Maintain lightness and hue
 
--   2 = Maintain hue
+- 2 = Maintain hue
 
 
 Returns 1 if the call has succeeded, 0 otherwise.
@@ -17,9 +17,9 @@ Returns 1 if the call has succeeded, 0 otherwise.
 
 *object*.SetColorSpaceConversion\(int *iPosition*\) As Int
 
--   *object*: Virtual Reality Lab object
+- *object*: Virtual Reality Lab object
 
--   *iPosition:*defines which mode to use between the three conversion modes.
+- *iPosition:*defines which mode to use between the three conversion modes.
 
 
 ## Example 

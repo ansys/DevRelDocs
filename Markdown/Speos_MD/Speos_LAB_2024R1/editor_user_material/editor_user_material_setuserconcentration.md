@@ -8,14 +8,14 @@ Sets the user concentration of the material defined in the User Material Editor.
 
 *object*.SetUserConcentration\(double dUserConcentration\) as Integer
 
--   *object*: User Material Editor object
+- *object*: User Material Editor object
 
--   *dUserConcentration*: User concentration \(double\)
+- *dUserConcentration*: User concentration \(double\)
 
 
 ## VB script example
 
-```
+```VB
 strMaterialFile = "MyPath\SPEOS input files\Rohm_PLEXIGLAS_8N_65621_green.material"
 MyConcentration = 112
 Set OPTISMaterialViewer = CreateObject("UserMaterialViewer.Application")

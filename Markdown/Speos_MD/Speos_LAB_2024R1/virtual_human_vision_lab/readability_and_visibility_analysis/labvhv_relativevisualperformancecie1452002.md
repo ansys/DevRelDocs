@@ -8,15 +8,15 @@ Calculates the relative visual performance according to the CIE 145:2002 norm as
 
 *object*.RelativeVisualPerformanceCIE1452002\(short nAge, double dLuminanceBackground, double dLuminanceTarget, double dTargetSize\) As Double
 
--   *object*: Virtual Human Vision Lab object
+- *object*: Virtual Human Vision Lab object
 
--   *nAge*: observer age \(input\)
+- *nAge*: observer age \(input\)
 
--   *dLuminanceBackground*: background luminance in cd/m² as double \(input\)
+- *dLuminanceBackground*: background luminance in cd/m² as double \(input\)
 
--   *dLuminanceTarget*: target luminance in cd/m² \(input\)
+- *dLuminanceTarget*: target luminance in cd/m² \(input\)
 
--   *dTargetSize*: target size in inches \(input\)
+- *dTargetSize*: target size in inches \(input\)
 
 
 

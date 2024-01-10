@@ -10,12 +10,12 @@ Returns TRUE if the map is horizontally flipped, FALSE otherwise.
 
 *object.GetHorizontalFlip*
 
--   *object*: XMPViewer object
+- *object*: XMPViewer object
 
 
 ## VB script example 
 
-```
+```VB
 Sub HorizontalFlip ()
 'Error Management
 Dim Error As Integer
@@ -33,9 +33,9 @@ End Sub
 
 ```
 
-## IronPython example 
+## IronPython example
 
-```
+```ironpython
 from System import Type, Activator
 type = Type.GetTypeFromProgID("XMPViewer.Application")
 XMPViewer = Activator.CreateInstance(type)

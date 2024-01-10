@@ -6,13 +6,13 @@ Exports the areas, measures and rules defined in the measures tool to a text fil
 
 ## Syntax 
 
--   `object.MeasuresExportTXT(BSTR bstrFileName)` as Boolean
--   *object*: Virtual Photometric Lab
--   *bstrFileName*: path and filename of the text \(.txt\) file
+- `object.MeasuresExportTXT(BSTR bstrFileName)` as Boolean
+- *object*: Virtual Photometric Lab
+- *bstrFileName*: path and filename of the text \(.txt\) file
 
 ## VB script example 
 
-```
+```VB
 ' Creates XMPViewer COM server
 set XmpViewer = CreateObject("XmpViewer.application")
 ' Opens XMP file
@@ -21,9 +21,9 @@ XMPViewer.OpenFile("C:\Example.xmp")
 XMPViewer.MeasuresExportTXT("C:\Example.TXT")
 ```
 
-## IronPython example 
+## IronPython example
 
-```
+```ironpython
 from System import Type, Activator
 #Creates XMPViewer COM server
 type = Type.GetTypeFromProgID("XmpViewer.Application")

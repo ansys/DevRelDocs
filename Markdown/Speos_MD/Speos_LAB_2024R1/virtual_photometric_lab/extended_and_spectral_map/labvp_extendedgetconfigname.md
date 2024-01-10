@@ -8,14 +8,14 @@ Returns TRUE if the call has succeeded, FALSE otherwise.
 
 ## Syntax 
 
--   `object.ExtendedGetConfigName(int iConfig, VARIANT* ovConfigName)` as Boolean
--   *object*: Virtual Photometric Lab
--   *iConfig*: index of the configuration in Virtual Lighting Controller \(starting from 0\)
--   *ovConfigName*: name of the configuration
+- `object.ExtendedGetConfigName(int iConfig, VARIANT* ovConfigName)` as Boolean
+- *object*: Virtual Photometric Lab
+- *iConfig*: index of the configuration in Virtual Lighting Controller \(starting from 0\)
+- *ovConfigName*: name of the configuration
 
 ## VB script example 
 
-```
+```VB
 ' Creates XMPViewer COM server
 set XmpViewer = CreateObject("XmpViewer.application")  
 ' Opens XMP file  
@@ -28,9 +28,9 @@ Dim ConfigName As String
 ConfigName = sConfigName(1)
 ```
 
-## IronPython example 
+## IronPython example
 
-```
+```ironpython
 from System import Type, Activator
 #Creates XMPViewer COM server
 type = Type.GetTypeFromProgID("XmpViewer.Application")

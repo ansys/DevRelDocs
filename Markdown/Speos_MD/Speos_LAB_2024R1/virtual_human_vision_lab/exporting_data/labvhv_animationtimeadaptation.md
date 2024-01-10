@@ -10,13 +10,13 @@ Returns 1 if the call succeeded, 0 otherwise.
 
 *object*.AnimationTimeAdaptation\(BSTR strFolderPath, double dTime, int iFormat\) As Short
 
--   *object*: Virtual Human Vision Lab object
+- *object*: Virtual Human Vision Lab object
 
--   *strFolderPath*: Path to the folder containing XMP maps.
+- *strFolderPath*: Path to the folder containing XMP maps.
 
--   *dTime*: Time between each XMP map.
+- *dTime*: Time between each XMP map.
 
--   *iFormat*: Image format \(0: BMP, 3: JPG, 4: PNG\)
+- *iFormat*: Image format \(0: BMP, 3: JPG, 4: PNG\)
 
 
 

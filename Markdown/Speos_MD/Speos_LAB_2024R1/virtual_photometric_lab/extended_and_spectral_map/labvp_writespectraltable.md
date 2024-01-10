@@ -8,9 +8,9 @@ This function allows you to create a binary file that includes all the data of a
 
 *object*.WriteSpectralTable As Boolean
 
--   *object*: Virtual Photometric Lab
+- *object*: Virtual Photometric Lab
 
--   Boolean return: returns True if the binary file is generated, False otherwise.
+- Boolean return: returns True if the binary file is generated, False otherwise.
 
 ## Python example 
 

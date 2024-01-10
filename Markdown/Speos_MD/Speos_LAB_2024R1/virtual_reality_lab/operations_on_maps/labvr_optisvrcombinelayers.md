@@ -20,11 +20,11 @@ Returns a value different than 0 if no error occurred.
 
 *object*.OptisVRCombineLayers\(VARIANT\* *pInputListOptisVR*, BSTR *strOutputFileName*\) As Int
 
--   *object*: Virtual Reality Lab object
+- *object*: Virtual Reality Lab object
 
--   *pInputListOptisVR*: tab including the absolute filename strings of all the Speos360 files to combine
+- *pInputListOptisVR*: tab including the absolute filename strings of all the Speos360 files to combine
 
--   *strOutputFileName*: absolute filename string for the result of the combine operation
+- *strOutputFileName*: absolute filename string for the result of the combine operation
 
 
 ## Example 

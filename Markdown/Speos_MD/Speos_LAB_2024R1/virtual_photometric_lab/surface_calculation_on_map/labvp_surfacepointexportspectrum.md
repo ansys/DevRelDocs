@@ -6,15 +6,15 @@ Exports the spectrum data of a measurement point to a spectrum file. Returns TRU
 
 ## Syntax 
 
--   `object.SurfacePointExportSpectrum(double dXPos, double dYPos, BSTR bstrFileName)` as Boolean
--   *object*: Virtual Photometric Lab
--   *dXPos*: horizontal coordinate of the point
--   *dYPos*: vertical coordinate of the point
--   *bstrFileName*: path and filename of the spectrum \(.spectrum, .spe\) file
+- `object.SurfacePointExportSpectrum(double dXPos, double dYPos, BSTR bstrFileName)` as Boolean
+- *object*: Virtual Photometric Lab
+- *dXPos*: horizontal coordinate of the point
+- *dYPos*: vertical coordinate of the point
+- *bstrFileName*: path and filename of the spectrum \(.spectrum, .spe\) file
 
 ## VB script example 
 
-```
+```VB
 ' Creates XMPViewer COM server
 set XmpViewer = CreateObject("XmpViewer.application")
 ' Opens XMP file
@@ -23,9 +23,9 @@ XMPViewer.OpenFile("C:\Example.xmp")
 XMPViewer.SurfacePointExportSpectrum(0, 0, "C:\Example.spe")
 ```
 
-## IronPython example 
+## IronPython example
 
-```
+```ironpython
 from System import Type, Activator
 #Creates XMPViewer COM server
 type = Type.GetTypeFromProgID("XmpViewer.Application")

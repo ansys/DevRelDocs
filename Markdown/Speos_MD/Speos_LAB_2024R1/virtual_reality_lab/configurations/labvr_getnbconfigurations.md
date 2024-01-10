@@ -8,7 +8,7 @@ Returns the number of configurations defined in the Virtual Lighting Controller.
 
 *object*.GetNbConfigurations\(\) As Int
 
--   *object*: Virtual Reality Lab object
+- *object*: Virtual Reality Lab object
 
 
 ## Example 

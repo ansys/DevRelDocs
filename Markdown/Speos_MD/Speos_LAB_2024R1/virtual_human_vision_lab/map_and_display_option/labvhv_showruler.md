@@ -10,9 +10,9 @@ Returns 1 if no error has occurred, 0 otherwise.
 
 *object*.ShowRuler\(short *bShowRuler*\) As Short
 
--   *object*: Virtual Human Vision Lab object
+- *object*: Virtual Human Vision Lab object
 
--   *bShowRuler*: boolean being **True**to show or False else
+- *bShowRuler*: boolean being **True**to show or False else
 
 
 ## Example 

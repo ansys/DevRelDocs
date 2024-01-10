@@ -8,13 +8,13 @@ Returns an array of 3 VARIANT representing the three components of the average c
 
 *object*.SurfacePolygonColor\(VARIANT\* vPtX, VARIANT\* vPtY, short iColorSystem\) As Variant
 
--   *object*: Virtual Photometric Lab object
+- *object*: Virtual Photometric Lab object
 
--   *vPtX*: array of VARIANT for the horizontal coordinate of each vertex of the polygon
+- *vPtX*: array of VARIANT for the horizontal coordinate of each vertex of the polygon
 
--   *vPtY*: array of VARIANT for the vertical coordinate of each vertex of the polygon
+- *vPtY*: array of VARIANT for the vertical coordinate of each vertex of the polygon
 
--   *iColorSystem*: colorimetric system
+- *iColorSystem*: colorimetric system
 
     0: COLOR\_SYSTEM\_XYZ
 

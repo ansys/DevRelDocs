@@ -8,7 +8,7 @@ Gets the lumen value per lamp.
 
 *object*.GetLumenPerLamp\(\) As Double
 
--   *object*: IES Viewer object
+- *object*: IES Viewer object
 
 
 

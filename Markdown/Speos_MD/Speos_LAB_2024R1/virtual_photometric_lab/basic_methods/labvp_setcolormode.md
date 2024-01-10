@@ -8,9 +8,9 @@ Sets the color mode of the map.
 
 *object*.SetColorMode\(short nColorMode\) As Short
 
--   *object*: Virtual Photometric Lab object
+- *object*: Virtual Photometric Lab object
 
--   *nColorMode*: color mode to set
+- *nColorMode*: color mode to set
 
     0: OptisFalseColorModeBlackToWhiteWithColor
 

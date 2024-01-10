@@ -8,11 +8,11 @@ Returns an array of 10 VARIANT of the values for the given polygonal area in the
 
 *object*.SurfacePolygonCalculation\(VARIANT\* vPtX, VARIANT\* vPtY\) As Variant
 
--   *object*: Virtual Photometric Lab object
+- *object*: Virtual Photometric Lab object
 
--   *vPtX*: array of VARIANT for the horizontal coordinate of each vertex of the polygon
+- *vPtX*: array of VARIANT for the horizontal coordinate of each vertex of the polygon
 
--   *vPtY*: array of VARIANT for the vertical coordinate of each vertex of the polygon
+- *vPtY*: array of VARIANT for the vertical coordinate of each vertex of the polygon
 
 
 ## Remark 

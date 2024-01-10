@@ -8,9 +8,9 @@ Sets the maximum luminance value used for local adaptation. If this method is no
 
 *object*.SetLocalAdaptationLuminanceMax\(double dLuminanceMax\) As Short
 
--   *object*: Virtual Human Vision Lab object
+- *object*: Virtual Human Vision Lab object
 
--   *dLuminanceMax*: maximum luminance value
+- *dLuminanceMax*: maximum luminance value
 
 
 

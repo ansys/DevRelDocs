@@ -8,9 +8,9 @@ Saves the picture of the polar curve in a JPG file.
 
 *object*.SavePolarCurve\(BSTR bstrPolarFileName\)
 
--   *object*: Eulumdat Viewer or IES Viewer object
+- *object*: Eulumdat Viewer or IES Viewer object
 
--   *bstrPolarFileName*: JPG file name string
+- *bstrPolarFileName*: JPG file name string
 
 
 

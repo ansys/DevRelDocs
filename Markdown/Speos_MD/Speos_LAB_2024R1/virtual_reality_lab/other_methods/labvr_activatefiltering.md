@@ -10,9 +10,9 @@ Returns 1 if the call has succeeded, 0 otherwise.
 
 *object*.ActivateFiltering\(bool *bActivated*\)
 
--   *object* : Virtual Reality Lab object
+- *object* : Virtual Reality Lab object
 
--   *bActivated*: Boolean activating/deactivating the filtering mode.
+- *bActivated*: Boolean activating/deactivating the filtering mode.
 
 
 ## Example 

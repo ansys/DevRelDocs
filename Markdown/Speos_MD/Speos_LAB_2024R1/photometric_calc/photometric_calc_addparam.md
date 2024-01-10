@@ -8,9 +8,9 @@ Sets the floating point value for operations that require a parameter. Returns 0
 
 *object*.AddParam\(double dValue\) As Short
 
--   *object*: Photometric Calc object
+- *object*: Photometric Calc object
 
--   *dValue*: floating point value for the operation parameter
+- *dValue*: floating point value for the operation parameter
 
 
 

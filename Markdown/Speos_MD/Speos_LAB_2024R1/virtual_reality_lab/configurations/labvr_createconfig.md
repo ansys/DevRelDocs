@@ -6,13 +6,13 @@ Creates a new configuration. The name of the new configuration must be unique an
 
 ## Syntax 
 
--   `object.CreateConfig(BSTR bstrConfigName)` as Boolean
--   *object*: Virtual Reality Lab
--   *bstrConfigName*: name of the new configuration
+- `object.CreateConfig(BSTR bstrConfigName)` as Boolean
+- *object*: Virtual Reality Lab
+- *bstrConfigName*: name of the new configuration
 
 ## VB script example 
 
-```
+```VB
 ' Creates HDRIViewer COM server
 set HDRIViewer = CreateObject("HDRIViewer.application")  
 ' Opens Speos360 file  
@@ -21,9 +21,9 @@ HDRIViewer.OpenFile("C:\Example.speos360")
 HDRIViewer.CreateConfig("My Configuration")
 ```
 
-## IronPython example 
+## IronPython example
 
-```
+```ironpython
 from System import Type, Activator
 #Creates HDRIViewer COM server
 type = Type.GetTypeFromProgID("HDRIViewer.application")

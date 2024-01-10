@@ -8,7 +8,7 @@ Gets the downward flux fraction \(DFF\).
 
 *object*.GetDownwardFluxFraction\(\) As Double
 
--   *object*: Eulumdat Viewer or IES Viewer object
+- *object*: Eulumdat Viewer or IES Viewer object
 
 
 

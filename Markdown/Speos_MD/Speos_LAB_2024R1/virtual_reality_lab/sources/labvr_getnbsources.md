@@ -8,7 +8,7 @@ Returns the number of sources.
 
 *object*.GetNbSources\(\) As Int
 
--   *object*: Virtual Reality Lab object
+- *object*: Virtual Reality Lab object
 
 
 ## Example 

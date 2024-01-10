@@ -8,14 +8,14 @@ Gets the user concentration of the material defined in the User Material Editor.
 
 *object*.GetUserConcentration\(\) As Double
 
--   *object*: User Material Editor object
+- *object*: User Material Editor object
 
--   *Returned value*: User concentration \(double\)
+- *Returned value*: User concentration \(double\)
 
 
 ## VB script example
 
-```
+```VB
 strMaterialFile = "MyPath\SPEOS input files\Rohm_PLEXIGLAS_8N_65621_green.material"
 Set OPTISMaterialViewer = CreateObject("UserMaterialViewer.Application")
 OPTISMaterialViewer.OpenFile(strMaterialFile)

@@ -10,14 +10,14 @@ Returns -1 if no error has occurred, 0 otherwise.
 
 *object*.SetAutomaticGrid\(bAutomaticGrid As Integer\) As Integer
 
--   *object*: Virtual Photometric Lab or Virtual Human Vision Lab object
+- *object*: Virtual Photometric Lab or Virtual Human Vision Lab object
 
--   *bAutomaticGrid*: boolean being **True**\(automatic mode\) or **False**\(user-defined mode\)
+- *bAutomaticGrid*: boolean being **True**\(automatic mode\) or **False**\(user-defined mode\)
 
 
 ## VB script example 
 
-```
+```VB
 Sub main()
 Dim Error As Integer
 Set VirtualPhotometricLab = CreateObject("XmpViewer.Application")
@@ -31,9 +31,9 @@ End Sub
 
 ```
 
-## IronPython example 
+## IronPython example
 
-```
+```ironpython
 from System import Type, Activator
 type = Type.GetTypeFromProgID("XMPViewer.Application")
 XMPViewer = Activator.CreateInstance(type)

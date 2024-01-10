@@ -8,9 +8,9 @@ Applies glare on the map and returns 0 if no error has occurred.
 
 *object*.ActivateGlare\(short bGlareOn\) As Short
 
--   *object*: Virtual Human Vision Lab object
+- *object*: Virtual Human Vision Lab object
 
--   *bGlareOn*: any value different from 0 to activate, 0 to inactivate.
+- *bGlareOn*: any value different from 0 to activate, 0 to inactivate.
 
 
 In order for the display to take these changes into account, you need to call the

@@ -10,12 +10,12 @@ Returns 1 if no error has occurred, 0 otherwise.
 
 *object*.HorizontalFlip\(\) As Short
 
--   *object*: Virtual Photometric Lab
+- *object*: Virtual Photometric Lab
 
 
 ## VB script example 
 
-```
+```VB
 Sub main()
 Dim Error As Integer
 Set VirtualPhotometricLab1 = CreateObject("XmpViewer.Application")
@@ -30,9 +30,9 @@ End Sub
 
 ```
 
-## IronPython example 
+## IronPython example
 
-```
+```ironpython
 from System import Type, Activator
 type = Type.GetTypeFromProgID("XMPViewer.Application")
 XMPViewer = Activator.CreateInstance(type)

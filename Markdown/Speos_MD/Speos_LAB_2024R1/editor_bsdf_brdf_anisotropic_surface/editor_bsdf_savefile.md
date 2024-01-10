@@ -8,9 +8,9 @@ Saves a file. Returns 1 if the call has succeeded, 0 otherwise.
 
 *object*.SaveFile\(BSTR bstrFileName\) As Short
 
--   *object*: BSDF - BRDF Anisotropic Viewer, Eulumdat Viewer, IES Viewer, User Material Editor, Virtual Photometric Lab or Virtual Human Vision Lab object
+- *object*: BSDF - BRDF Anisotropic Viewer, Eulumdat Viewer, IES Viewer, User Material Editor, Virtual Photometric Lab or Virtual Human Vision Lab object
 
--   *bstrFileName*: filename string including path
+- *bstrFileName*: filename string including path
 
 
 

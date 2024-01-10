@@ -8,11 +8,11 @@ Returns the depth of a point located at given coordinates.
 
 *object*.GetDepth\(short iX, short iY\) As Double
 
--   *object*: Virtual Human Vision Lab object
+- *object*: Virtual Human Vision Lab object
 
--   *iX*: horizontal coordinate
+- *iX*: horizontal coordinate
 
--   *iY*: vertical coordinate
+- *iY*: vertical coordinate
 
 
 

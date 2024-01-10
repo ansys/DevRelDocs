@@ -10,11 +10,11 @@ Returns -1 if no error has occurred, 0 otherwise.
 
 *object*.SetGridOrigin\(*dOriginX*As Double, *dOriginY*As Double\) As Integer
 
--   *object*: Virtual Photometric Lab or Virtual Human Vision Lab object
+- *object*: Virtual Photometric Lab or Virtual Human Vision Lab object
 
--   *dOriginX:*horizontal position of the grid origin
+- *dOriginX:*horizontal position of the grid origin
 
--   *dOriginY:*vertical position of the grid origin
+- *dOriginY:*vertical position of the grid origin
 
 
 ## Example 

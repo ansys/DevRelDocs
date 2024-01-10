@@ -8,22 +8,22 @@ Sets the active surface unit of the xm3 map. Returns 0 if the surface unit is no
 
 *object*.SetActiveSurfaceUnit\(int *nSurfaceUnit*\) As Short
 
--   *object*: Virtual 3D Photometric Lab object
+- *object*: Virtual 3D Photometric Lab object
 
--   *nSurfaceUnit*: surface unit index
+- *nSurfaceUnit*: surface unit index
 
-    -   **0**: Illuminance / Irradiance
+  - **0**: Illuminance / Irradiance
 
-    -   **1**: Reflection \(Photometric / Radiometric\)
+  - **1**: Reflection \(Photometric / Radiometric\)
 
-    -   **2**: Transmission \(Photometric / Radiometric\)
+  - **2**: Transmission \(Photometric / Radiometric\)
 
-    -   **3**: Absorption \(Photometric / Radiometric\)
+  - **3**: Absorption \(Photometric / Radiometric\)
 
 
 ## VB script example
 
-```
+```VBVB
 Sub main()
  Dim test As Integer
 Dim NbC As Integer
@@ -53,12 +53,11 @@ test = MyXM3Viewer.GetActiveSurfaceUnit()
 ftextfile.writeline "Unit: " & test
 Next i
  End Sub
-
 ```
 
-## IronPython example 
+## IronPython example
 
-```
+```ironpython
 from System import Type, Activator
 type = Type.GetTypeFromProgID("Xm3Viewer.Application")
 MyXm3Viewer = Activator.CreateInstance(type)
@@ -84,7 +83,6 @@ while i < 3:
 	MyXM3Viewer.SetActiveSurfaceUnit(i)
 	MyXM3Viewer.GetActiveSurfaceUnit()
 	i += 1
-
 ```
 
 

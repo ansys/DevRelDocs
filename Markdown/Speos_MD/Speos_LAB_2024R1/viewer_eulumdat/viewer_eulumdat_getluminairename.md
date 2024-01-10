@@ -8,7 +8,7 @@ Gets the luminaire name.
 
 *object*.GetLuminaireName\(\) As String
 
--   *object*: Eulumdat Viewer object
+- *object*: Eulumdat Viewer object
 
 
 

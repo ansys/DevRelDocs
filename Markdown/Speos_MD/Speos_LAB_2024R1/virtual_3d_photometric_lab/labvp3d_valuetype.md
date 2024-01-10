@@ -6,27 +6,27 @@ Gives the value type of the map data.
 
 Returns:
 
--   -1 if Unknown
+- -1 if Unknown
 
--   0 if Illuminance/Irradiance
+- 0 if Illuminance/Irradiance
 
--   1 if Reflection
+- 1 if Reflection
 
--   2 if Transmission
+- 2 if Transmission
 
--   3 if Absorption
+- 3 if Absorption
 
 
 ## Syntax 
 
 *object.ValueType As Short*
 
--   object: XM3Viewer object
+- object: XM3Viewer object
 
 
 ## VB script example
 
-```
+```VB
 Sub TestLab()
   ' Starts the application
   Dim Viewer
@@ -41,9 +41,9 @@ End Sub
 
 ```
 
-## IronPython example 
+## IronPython example
 
-```
+```ironpython
 from System import Type, Activator
 type = Type.GetTypeFromProgID("Xm3Viewer.Application")
 MyXm3Viewer = Activator.CreateInstance(type)
