@@ -1,21 +1,4 @@
----
-title: LABs Automation
-author: Melanie Guyot
-author email: melanie.guyot@ansys.com
-summary: LABs Automation documentation
-description: LABs Automation documentation
-date: 2023-10-26
-version: 2024 R1
-status: unpublished
-access control: internal
-product: Speos
-product collection: Optics
-programming language: IronPython
-physics: Optics
----
-
-
-# LABs Automation 
+# LABs Automation
 
 ## General description 
 
