@@ -1,8 +1,8 @@
 {
     "build": {
       "globalMetadata": {
-        "title": "Speos LABs Automation Documentation",
-        "summary": "Speos LABs Automation Documentation",
+        "title": "Speos LABs Automation 2024 R1",
+        "summary": "Documentation",
         "version": "2024 R1",
         "product": "Speos",
         "programming language": "IronPython",
