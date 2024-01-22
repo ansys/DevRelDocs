@@ -1,0 +1,7 @@
+# ansys.meshing.prime.FlowDirection.numerator
+
+#### FlowDirection.numerator
+
+the numerator of a rational number in lowest terms
+
+<!-- !! processed by numpydoc !! -->
