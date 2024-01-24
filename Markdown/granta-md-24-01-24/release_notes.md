@@ -1,7 +1,3 @@
-<a id="release-notes"></a>
-
-<a id="what-s-new-in-version-3-3"></a>
-
 # What’s new in Version 3.3
 
 Key features introduced or improved in MI Scripting Toolkit for Python 3.3.
