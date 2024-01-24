@@ -1,5 +1,3 @@
-<a id="logging"></a>
-
 # Logging
 
 In MI Scripting Toolkit v2.1 and later, Python messages are no longer logged to a file by default. Configuration of
