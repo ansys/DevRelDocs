@@ -5,19 +5,19 @@
     href: getting_started_acp.md
   - name: The Python Object Tree
     href: python_object_tree.md
-  - name: `DB` Database
+  - name: DB Database
     href: db_database.md
-  - name: `Material` Classes
+  - name: Material Classes
     href: classes_materialdata.md
-  - name: `Model` Classes
+  - name: Model Classes
     href: classes_model.md
-  - name: `Solid-model` Classes
+  - name: Solid-model Classes
     href: classes_solid_model.md
-  - name: `Solution` Classes
+  - name: Solution Classes
     href: classes_solution.md
-  - name: `Scene` Classes
+  - name: Scene Classes
     href: classes_scene.md
-  - name: `Postprocessing Definition` Classes
+  - name: Postprocessing Definition Classes
     href: classes_postprocessing_definitions.md
-  - name: `Plot` Classes
+  - name: Plot Classes
     href: classes_plot.md
