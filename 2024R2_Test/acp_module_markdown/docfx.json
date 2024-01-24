@@ -1,0 +1,13 @@
+{
+    "build": {
+      "globalMetadata": {
+        "title": "ACP Scripting Documentation 2024 R1",
+        "summary": "",
+        "version": "2024 R1",
+        "product": "ACP",
+        "programming language": "Python",
+        "product collection": "Mechanical",
+        "physics": "Mechanics"
+      }
+    }
+ }
