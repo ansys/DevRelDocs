@@ -1,4 +1,4 @@
-# The `ACP` Python Scripting User Interface
+# The ACP Python Scripting User Interface
 
 The ACP Python Module provides the scripting user interface of ACP.
 
