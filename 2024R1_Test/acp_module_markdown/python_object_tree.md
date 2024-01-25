@@ -5,3 +5,5 @@ This tree contains all loaded models, solutions, definitions, views and scenes.
 Access to the actually loaded object tree is always provided through the root object [`compolyx.DB`](db_database.md#compolyx.DB) in the embedded Python shell.
 
 ![schema](acp-graph.svg)
+test
+![schema](acp-graph.png)
