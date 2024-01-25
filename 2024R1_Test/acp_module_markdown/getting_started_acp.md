@@ -1,5 +1,3 @@
-<a id="python-scripting-interface"></a>
-
 # Introduction to ACP Scripting
 
 ## Basic Scripting
