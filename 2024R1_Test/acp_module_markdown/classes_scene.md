@@ -1,4 +1,4 @@
-# [`Scene`](#compolyx.Scene) Classes
+# Scene Classes
 
 ## [`Scene`](#compolyx.Scene)
 

@@ -1,4 +1,4 @@
-# [`Solution`](#compolyx.Solution) Classes
+# Solution Classes
 
 ## [`Solution`](#compolyx.Solution)
 

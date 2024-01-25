@@ -1,4 +1,6 @@
-# [`Material`](#compolyx.Material) Classes
+<a id="module-compolyx"></a>
+
+# Material Classes
 
 ## [`MaterialData`](#compolyx.MaterialData)
 

@@ -1,4 +1,4 @@
-# [`DB`](#compolyx.DB) Database
+# Database
 
 ### *class* compolyx.DB(\*args, \*\*kwargs)
 

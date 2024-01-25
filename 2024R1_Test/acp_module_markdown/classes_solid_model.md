@@ -1,4 +1,4 @@
-# `Solid-model` Classes
+# Solid-model Classes
 
 ## [`SolidModel`](#compolyx.SolidModel)
 
