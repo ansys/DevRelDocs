@@ -1,5 +1,3 @@
-<a id="module-compolyx.plot_data"></a>
-
 # Plot Classes
 
 ## `PlotContainer` Classes
