@@ -1,4 +1,4 @@
-# `Postprocessing Definition` Classes
+# Postprocessing Definition Classes
 
 ## [`CombinedFailureCriteria`](#compolyx.CombinedFailureCriteria)
 

@@ -1,4 +1,4 @@
-# [`Model`](#compolyx.Model) Classes
+# Model Classes
 
 ## [`Model`](#compolyx.Model)
 
