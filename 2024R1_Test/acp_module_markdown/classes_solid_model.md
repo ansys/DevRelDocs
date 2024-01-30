@@ -65,18 +65,18 @@ Copy a Snap-To Geometry
 Create a new extrusion guide
 
 * **Parameters:**
-  * name : the name of the extrusion guide
-  * edge_set : an edge set where this guide applies
-  * id : the id of the extrusion guide
-  * cad_geometry : a cad geometry object
-  * direction: Extrusion direction
-  * radius : distance up to which node translations due to the guide will be propagated through the mesh
-    * 0.0 : only the nodes extruded from edge_set will be shifted onto the guide
-  * depth :  intensity for the propagation of mesh corrections
-    * 1.0  : linear decay from guide to radius
-    * >1.0 : higher reach
-    * <1.0 : more local
-  * use_curvature_correction : whether to use curvature correction algorithm to smooth mesh adapted to extrusion guide. Default is False
+  - name : the name of the extrusion guide
+  - edge_set : an edge set where this guide applies
+  - id : the id of the extrusion guide
+  - cad_geometry : a cad geometry object
+  - direction: Extrusion direction
+  - radius : distance up to which node translations due to the guide will be propagated through the mesh
+    - 0.0 : only the nodes extruded from edge_set will be shifted onto the guide
+  - depth :  intensity for the propagation of mesh corrections
+    - 1.0  : linear decay from guide to radius
+    - \>1.0 : higher reach
+    - <1.0 : more local
+  - use_curvature_correction : whether to use curvature correction algorithm to smooth mesh adapted to extrusion guide. Default is False
 
 #### create_snap_to_geometry_obj(name, cad_geometry=None, oriented_selection_set=None, orientation='top', active=True, id='')
 
