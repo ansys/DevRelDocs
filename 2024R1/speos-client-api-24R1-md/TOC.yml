@@ -1,4 +1,4 @@
-- name: Speos client APIs Documentation
+- name: Speos client APIs documentation
   href: client-speos-api-home.md
   items:
   - name: Speos Sim
