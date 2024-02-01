@@ -4,9 +4,9 @@ The **Speos client APIs** are intricately linked to the GUI, ensuring that every
 
 The **Speos client APIs** consists of three distinct interfaces:
 
-- **SpeosSim**: Offering a comprehensive suite of Light Simulation features.
-- **SpeosDes**: Encompassing all Optical Part Design features.
-- **SpeosAsm**: Providing the Geometry Update feature.
+- **[SpeosSim](sim/client-speos-sim.md)**: Offering a comprehensive suite of Light Simulation features.
+- **[SpeosDes](des/client-speos-des.md)**: Encompassing all Optical Part Design features.
+- **[SpeosAsm](asm/client-speos-asm.md)**: Providing the Geometry Update feature.
 
 This documentation provides a modular presentation of the **Speos client APIs** functions:
 
@@ -21,5 +21,5 @@ In Speos, arguments often correspond to axis system definitions.
 
 In addition to the **Speos client APIs** documentation, the Speos Core methods and some common cross-functional methods are provided in the following sections:
 
-- **Cross-Functional Methods**
-- **Speos Core**
+- **[Cross-functional methods](crossfunctional_methods/common_methods.md)**
+- **[Speos Core methods](speoscore_methods/speoscore_methods.md)**
