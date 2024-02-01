@@ -24,7 +24,7 @@
     - name: ResultLXP - GetMeasureValues method - List of possible values
       href: sim\resultlxp_getmeasurevalue_list_enum.md
     - name: Speos Sim script examples
-      href: sim\sim-example\DevPor_SPEOS_sim_script_examples.md
+      href: sim\sim-example\sim_script_examples.md
       items:
       - name: Material - Creating and applying UV mapping
         href: sim\sim-example\method_uvmap_applying_uv_mapping.md
