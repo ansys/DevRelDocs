@@ -1,4 +1,4 @@
-- name: "Welcome"
+- name: "Granta scripting toolkit documentation"
   href: welcome.md
   items:
   - name: "What's new in Version 3.3"
