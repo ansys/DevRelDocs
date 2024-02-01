@@ -2,7 +2,7 @@
     "build": {
       "globalMetadata": {
         "title": "Speos client APIs 2024 R1",
-        "summary": "Documentation",
+        "summary": "",
         "version": "2024 R1",
         "product": "Speos",
         "programming language": "IronPython",
