@@ -1,4 +1,4 @@
-# Speos Des
+# SpeosDes
 
 ## Command
 
