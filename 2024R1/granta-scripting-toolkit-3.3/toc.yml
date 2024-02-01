@@ -1,4 +1,4 @@
-- name: "Granta MI scripting toolkit documentation"
+- name: "Granta MI Scripting Toolkit documentation"
   href: introduction.md
   items:
   - name: "What's new in Version 3.3"
