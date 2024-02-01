@@ -1,18 +1,4 @@
----
-title: Speos Sim
-author: Melanie Guyot
-author email: melanie.guyot@ansys.com
-summary: Speos client APIs documentation
-description: Speos client APIs documentation
-date: 2023-10-26
-version: 2024 R1
-status: unpublished
-access control: internal
-product: Speos
-product collection: Optics
-programming language: IronPython
-physics: Optics
----
+# SpeosSim
 
 ## Command
 
@@ -2062,7 +2048,7 @@ CloseLpf | Unload the file | void CloseLpf()
 CreateAreaRectangle | Creates a rectangular measure area | void CreateAreaRectangle(int viewerId, double xCenter, double yCenter, double width, double height)
 CreateAreaEllipse | Creates an elliptical measure area | void CreateAreaEllipse(int viewerId, double xCenter, double yCenter, double xRadius, double yRadius)
 CreateAreaPolygon | Creates a polygon measure area | void CreateAreaPolygon(int viewerId, System.Double[] xPoints, System.Double[] yPoints)
-GetMeasureValue | Gets the measure value from a defined type | double GetMeasureValue(int viewerId, int measureId)
+GetMeasureValue | Gets the measure value from a defined type. Refer to [GetMeasureValue Enum List](resultlxp_getmeasurevalue_list_enum.md) for the possible values to be used.| double GetMeasureValue(int viewerId, int measureId)
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | object FindOccurrenceInActivePart()
 FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | SpaceClaim.Api.V241.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V241.IDocObject contextObject)
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | string ToString()

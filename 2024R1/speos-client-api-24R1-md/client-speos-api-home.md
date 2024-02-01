@@ -1,5 +1,5 @@
 ---
-title: Speos Sim
+title: Speos Introduction
 author: Melanie Guyot
 author email: melanie.guyot@ansys.com
 summary: Speos client APIs documentation
@@ -35,4 +35,8 @@ This documentation provides a modular presentation of the **Speos client APIs** 
 
 In Speos, arguments often correspond to axis system definitions.
 
-In addition to the **Speos client APIs** documentation, some common cross functional and more specific APIs are provided in the [Methods](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v232/en/Optis_UG_ASP/Optis/UG_ASP/methods.html) section of the Speos User Guide (customer login request). 
+
+In addition to the **Speos client APIs** documentation, the Speos Core methods and some common cross-functional methods are provided in the following sections:
+
+- **Cross-Functional Methods**
+- **Speos Core**
