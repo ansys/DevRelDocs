@@ -8,6 +8,11 @@ The **Speos client APIs** consists of three distinct interfaces:
 - **[SpeosDes](des/client-speos-des.md)**: Encompassing all Optical Part Design features.
 - **[SpeosAsm](asm/client-speos-asm.md)**: Providing the Geometry Update feature.
 
+In addition to the **Speos client APIs** documentation, the Speos Core methods and some common cross-functional methods are provided in the following sections:
+
+- **[Cross-functional methods](crossfunctional_methods/common_methods.md)**
+- **[Speos Core methods](speoscore_methods/speoscore_methods.md)**
+
 This documentation provides a modular presentation of the **Speos client APIs** functions:
 
 - The first column provides you with the **method** and **property** name. The method/property hierarchy is simply expressed in the file structure. The name of a section refers to a "parent" method (i.e. a feature level). All dependent methods are listed below it.
@@ -17,9 +22,3 @@ This documentation provides a modular presentation of the **Speos client APIs** 
     - Arguments are always declared with parenthesis () and correspond to variables that must be provided to obtain the method's result.
 
 In Speos, arguments often correspond to axis system definitions.
-
-
-In addition to the **Speos client APIs** documentation, the Speos Core methods and some common cross-functional methods are provided in the following sections:
-
-- **[Cross-functional methods](crossfunctional_methods/common_methods.md)**
-- **[Speos Core methods](speoscore_methods/speoscore_methods.md)**
