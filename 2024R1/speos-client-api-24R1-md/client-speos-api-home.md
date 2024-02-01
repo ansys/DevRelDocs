@@ -1,4 +1,4 @@
-# Speos introduction
+# Introduction
 
 The **Speos client APIs** are intricately linked to the GUI, ensuring that every functionality accessible in the GUI has a corresponding automation function. As the automation functions are directly derived from the GUI, they perfectly align with the actions you would have to perform in the software such as creating new Speos objects, editing existing ones, and modifying parameters. 
 
