@@ -1,4 +1,4 @@
-# LABs Automation
+# Introduction
 
 ## General description 
 
