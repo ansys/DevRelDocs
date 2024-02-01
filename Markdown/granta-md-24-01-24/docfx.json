@@ -1,8 +1,8 @@
 {
     "build": {
       "globalMetadata": {
-        "title": "Granta scripting toolkit 24-01-24",
-        "summary": "Documentation",
+        "title": "Granta scripting toolkit 2024 R1",
+        "summary": "",
         "version": "3.3",
         "product": "Granta",
         "programming language": "Python",
