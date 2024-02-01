@@ -1,20 +1,3 @@
----
-title: Speos Introduction
-author: Melanie Guyot
-author email: melanie.guyot@ansys.com
-summary: Speos client APIs documentation
-description: Speos client APIs documentation
-date: 2023-10-26
-version: 2024 R1
-status: unpublished
-access control: internal
-product: Speos
-product collection: Optics
-programming language: IronPython
-physics: Optics
----
-
-
 # Speos Introduction
 
 The **Speos client APIs** are intricately linked to the GUI, ensuring that every functionality accessible in the GUI has a corresponding automation function. As the automation functions are directly derived from the GUI, they perfectly align with the actions you would have to perform in the software such as creating new Speos objects, editing existing ones, and modifying parameters. 
