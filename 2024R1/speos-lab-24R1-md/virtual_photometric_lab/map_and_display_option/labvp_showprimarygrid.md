@@ -12,7 +12,7 @@ Returns -1 if no error has occurred, 0 otherwise.
 
 - *object*: Virtual Photometric Lab
 
-- *bShowPrimaryGrid*: boolean being **True**to show or **False**else
+- *bShowPrimaryGrid*: boolean being **True** to show or **False** else
 
 
 ## VB script example 
