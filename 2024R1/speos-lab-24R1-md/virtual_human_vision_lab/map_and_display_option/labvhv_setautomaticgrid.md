@@ -12,7 +12,7 @@ Returns -1 if no error has occurred, 0 otherwise.
 
 - *object*: Virtual Photometric Lab or Virtual Human Vision Lab object
 
-- *bAutomaticGrid*: boolean being **True**\(automatic mode\) or **False**\(user-defined mode\)
+- *bAutomaticGrid*: boolean being **True** \(automatic mode\) or **False** \(user-defined mode\)
 
 
 ## VB script example 

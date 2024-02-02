@@ -1,6 +1,6 @@
 # SetColorMode 
 
-## **D**escription 
+## Description 
 
 Sets the color mode of the map.
 

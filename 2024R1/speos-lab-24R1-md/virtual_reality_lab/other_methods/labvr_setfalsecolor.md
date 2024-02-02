@@ -36,7 +36,7 @@ Returns 1 if the call has succeeded, 0 otherwise.
 
 **Note:**
 
-With the last two modes, **Black to Color\(Custom\)**and **Black to White\(Custom Color**\), the custom color used is the color defined in the map.
+With the last two modes, **Black to Color\(Custom\)** and **Black to White\(Custom Color\)**, the custom color used is the color defined in the map.
 
 ## Example 
 
