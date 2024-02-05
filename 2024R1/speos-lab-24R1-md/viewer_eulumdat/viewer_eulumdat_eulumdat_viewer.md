@@ -24,7 +24,7 @@ You could notice that there is no reference to the path where the Eulumdat Viewe
 
 ## How to call a method 
 
-To call a method, write *Viewer* followed by a **.** then by the name of the method and parameters between **"**and **"**, each separated by **,**. For example for opening an Eulumdat file, write the following instructions:
+To call a method, write *Viewer* followed by a **.** then by the name of the method and parameters between **"** and **"**, each separated by **,**. For example for opening an Eulumdat file, write the following instructions:
 
 ```
 Dim MyVar MyVar = Viewer.OpenFile("MyEulumdat.Eulumdat")

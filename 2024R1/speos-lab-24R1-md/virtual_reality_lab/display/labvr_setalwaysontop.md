@@ -2,7 +2,7 @@
 
 ## Description 
 
-Set the window always on the top of the screen. **True**by default.
+Set the window always on the top of the screen. **True** by default.
 
 Returns 1 if the call has succeeded, 0 otherwise.
 
@@ -12,7 +12,7 @@ Returns 1 if the call has succeeded, 0 otherwise.
 
 - *object*: Virtual Reality Lab object
 
-- *bAlwaysOnTop:*boolean being **True**to set the window always on the top or **False**else
+- *bAlwaysOnTop:*boolean being **True** to set the window always on the top or **False** else
 
 
 ## Example 

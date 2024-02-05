@@ -2,7 +2,7 @@
 
 ## Description 
 
-Returns an array of 4 VARIANT representing in order: the name of the color system, the name of each three components of the color system \(for example, U, V, Y if the value returned by [GetCurrentColorSystem](DevPor_LAB_api_labvp_getcurrentcolorsystem.md) is 2\).
+Returns an array of 4 VARIANT representing in order: the name of the color system, the name of each three components of the color system \(for example, U, V, Y if the value returned by [GetCurrentColorSystem](labvp_getcurrentcolorsystem.md) is 2\).
 
 ## Syntax 
 

@@ -12,7 +12,7 @@ Returns 1 if no error has occurred, 0 otherwise.
 
 - *object*: Virtual Human Vision Lab object
 
-- *bShowSecondaryGrid*: boolean being **True**to show or False else
+- *bShowSecondaryGrid*: boolean being **True** to show or False else
 
 
 ## Example 
