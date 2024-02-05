@@ -25,7 +25,7 @@ You could notice that there is no reference to the path where the Virtual Photom
 
 VB Script Language
 
-To call a method, write *VirtualPhotometricLab* followed by a **.** then by the name of the method and parameters \(strings between **"** and **"\)**, each separated by **,**. For example for opening an XMP map, write the following instructions:
+To call a method, write *VirtualPhotometricLab* followed by a **.** then by the name of the method and parameters \(strings between **"** and **"**\), each separated by **,**. For example for opening an XMP map, write the following instructions:
 
 ```
 Dim MyVar MyVar = VirtualPhotometricLab.OpenFile("MyMap.xmp")

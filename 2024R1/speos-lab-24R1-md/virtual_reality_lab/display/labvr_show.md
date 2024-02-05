@@ -12,7 +12,7 @@ Returns 1 if the call has succeeded, 0 otherwise.
 
 - *object*: Virtual Reality Lab object
 
-- *bDraw*: boolean being **True**to display or **False**to hide
+- *bDraw*: boolean being **True** to display or **False** to hide
 
 
 ## Example 

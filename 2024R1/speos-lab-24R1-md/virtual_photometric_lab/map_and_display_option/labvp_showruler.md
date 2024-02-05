@@ -2,7 +2,7 @@
 
 **Note:**
 
-The **Showruler**API is deactivated for theta/phi maps.
+The **Showruler** API is deactivated for theta/phi maps.
 
 ## Description 
 
@@ -16,7 +16,7 @@ Returns a value different from 0 if no error occurred.
 
 - *object*: Virtual Photometric Lab
 
-- *bShowRuler*: boolean being **True**to show or **False**else
+- *bShowRuler*: boolean being **True** to show or **False** else
 
 
 ## VB script example 
