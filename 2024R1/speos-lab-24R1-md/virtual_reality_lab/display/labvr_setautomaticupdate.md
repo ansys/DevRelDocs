@@ -2,9 +2,9 @@
 
 ## Description 
 
-Activates \(**True**\) or deactivates \(**False**\) the automatic update of the visualization. **True**by default.
+Activates \(**True**\) or deactivates \(**False**\) the automatic update of the visualization. **True** by default.
 
-When activated, the update is carried out after any method and the **Update**method has no use. When deactivated, the update is carried out each time that the **Update**method is used.
+When activated, the update is carried out after any method and the **Update** method has no use. When deactivated, the update is carried out each time that the **Update** method is used.
 
 This method allows you to execute a group of instructions at one time. Irrelevant changes in the visualization can be avoided this way.
 
@@ -16,7 +16,7 @@ Returns a value different from 0 if no error occurred.
 
 - *object*: Virtual Reality Lab object
 
-- *bAutomaticUpdate*: boolean being **True**to activate or **False**to deactivate
+- *bAutomaticUpdate*: boolean being **True** to activate or **False** to deactivate
 
 
 ## Example 

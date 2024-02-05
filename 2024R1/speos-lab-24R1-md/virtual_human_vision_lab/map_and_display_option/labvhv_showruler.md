@@ -12,7 +12,7 @@ Returns 1 if no error has occurred, 0 otherwise.
 
 - *object*: Virtual Human Vision Lab object
 
-- *bShowRuler*: boolean being **True**to show or False else
+- *bShowRuler*: boolean being **True** to show or False else
 
 
 ## Example 
