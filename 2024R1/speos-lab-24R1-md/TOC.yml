@@ -1,4 +1,4 @@
-- name: Speos Labs APIs documentation
+- name: Speos Labs automation APIs documentation
   href: lab_api_home.md
   items:
   - name: Virtual Photometric Lab 
