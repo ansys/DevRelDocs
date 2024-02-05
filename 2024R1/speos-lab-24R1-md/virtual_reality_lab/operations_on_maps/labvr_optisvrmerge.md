@@ -4,7 +4,9 @@
 
 Merges several maps into a new map.
 
-**Note:** ![](DevPor_LAB_api_optisvrmerge.png)
+**Note:** 
+
+![OptisVRMerge equation](../../_assets/labvr_optisvrmerge.png)
 
 Returns 1 if the call has succeeded, 0 otherwise.
 
