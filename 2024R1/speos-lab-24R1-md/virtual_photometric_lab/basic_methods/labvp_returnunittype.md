@@ -16,7 +16,7 @@ Returns the unit type of the map.
 
     1: photometric
 
-    2: gain
+    2: temperature
 
     3: unknown
 
