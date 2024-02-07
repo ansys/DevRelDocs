@@ -1,0 +1,14 @@
+# ansys.meshing.prime.SetFeatureRecoveriesResults.set_default
+
+#### *static* SetFeatureRecoveriesResults.set_default(ids=None, error_code=None)
+
+Set the default values of SetFeatureRecoveriesResults.
+
+* **Parameters:**
+  **ids: Iterable[int], optional**
+  : Ids of added feature recovery controls.
+
+  **error_code: ErrorCode, optional**
+  : Error code associated with the set feature recoveries.
+
+<!-- !! processed by numpydoc !! -->
