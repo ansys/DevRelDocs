@@ -16,7 +16,7 @@ Gets the unit type of the map data.
 
     1: OptisUnitTypePhotometric
 
-    2: OptisUnitTypeGain
+    2: OptisUnitTypeTemperature
 
     3: OptisUnitTypeUnknown
 
