@@ -1,4 +1,4 @@
-# API for Direct Driving of Ansys Sound: Car Sound Simulator through UDP {#topicID13}
+# API for Direct Driving of Ansys Sound: Car Sound Simulator through UDP
 
 Ansys Sound: Car Sound Simulator is driven:
 

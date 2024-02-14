@@ -1,8 +1,8 @@
-# Ansys Sound: Car Sound Simulator - OSC Messages {#topicID13simdrive}
+# Ansys Sound: Car Sound Simulator - OSC Messages
 
 Ansys Sound: Car Sound Simulator is driven by OSC MESSAGES sent over UDP: there is one action at a time associated to one message. The action name is a KEYWORD, followed by some OSC ARGUMENTS.
 
-## Basic management messages { .section}
+## Basic management messages
 
 Basic management for the sound generator
 
@@ -41,7 +41,7 @@ Basic management for the sound generator
 |- \[your system\]|
 |SCANMAX\_VERSION|String|unused|
 
-## Traffic noise management { .section}
+## Traffic noise management
 
 The exploiting application handles up to 8 traffic vehicles, corresponding to 8 possible synthesis slots. These 8 vehicles must be chosen by the simulator depending on their contribution to the sound scene, for example by selecting the closest ones.
 
@@ -82,7 +82,7 @@ Angles are in radians, 0 is a front source, -pi/2 is left, +pi/2 is right. Angle
 
 |Update of the traffic vehicle characteristics \(distance, azimuth, speed\) at slot index \(1<=slot index<=8\).|
 
-## Harmonic sources management { .section}
+## Harmonic sources management
 
 The application handles up to 10 harmonic sources. Each of them can be controlled with the following messages:
 
@@ -107,7 +107,7 @@ The application handles up to 10 harmonic sources. Each of them can be controlle
 |HS\_VOL|ID \(int\) Value \(int\)|ID is the number of the specific harmonic source. Value is a gain value in dB applied to that source \(between -15 and +15 dB\)|
 |HS\_WIDTH|ID \(int\) Value \(int\)|ID is the number of the specific harmonic source. Value is the coefficient of diffuseness of the source, between 0 and 100% \(0% means the source has no diffuseness, it can be perceived from a specific direction, 100% means the source is totally diffuse, it is perceived as surrounding and coming from all speakers with the same energy\).|
 
-## Tires noises of the main vehicle { .section}
+## Tires noises of the main vehicle
 
 Tires Noise has to be updated for each wheel by providing information about the current slippyness
 
@@ -141,7 +141,7 @@ Tires Noise has to be updated for each wheel by providing information about the 
 
 |
 
-## Weather management { .section}
+## Weather management
 
 Weather noise management
 
@@ -154,7 +154,7 @@ Weather noise management
 |WEATHER\_RAIN|% rain, Integer from 0 to 100%|
 |WEATHER\_WIND|% wind, Integer from 0 to 100%|
 
-## Additional noises { .section}
+## Additional noises
 
 Loading orders of additional simulation noises:
 
@@ -174,7 +174,7 @@ Loading orders of additional simulation noises:
 
 |
 
-## Sound files playing { .section}
+## Sound files playing
 
 Supported functions:
 
@@ -226,7 +226,7 @@ Notes : ²
 |Azimut \(float, in rad\)|
 |Distance \(float, in m\)|
 
-## Error and warning messages { .section}
+## Error and warning messages
 
 Messages sent toward the main simulation application when required:
 
@@ -239,7 +239,7 @@ Messages sent toward the main simulation application when required:
 |WARNING|String|sends a warning message|
 |ERROR|String|sends an error message|
 
-## Start, stop, state management { .section}
+## Start, stop, state management 
 
 The main simulation application has to start and stop Car Sound Simulator.
 
@@ -251,7 +251,7 @@ The main simulation application has to start and stop Car Sound Simulator.
 |Message sent periodically to the main application|
 |ALIVE|-|Indicates that Car Sound Simulator is still alive|
 
-## Head-tracking { .section}
+## Head-tracking 
 
 Message sent to locate the position of the listener's head for head-tracked binaural rendering
 

@@ -1,6 +1,6 @@
-# C++ Program {#topicID13cprog}
+# C++ Program
 
-## Main program { .section}
+## Main program
 
 ```
 // Car Sound Simulator_UDP_Console.cpp : MAIN program for "cmd" Windows application. #include "stdafx.h"
