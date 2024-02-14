@@ -1,0 +1,13 @@
+{
+    "build": {
+      "globalMetadata": {
+        "title": "seaborg test melanie",
+        "summary": "",
+        "version": "2024 R1",
+        "product": "Ansys Sound",
+        "programming language": "OSC",
+        "product collection": "Sound",
+        "physics": "Acoustics"
+      }
+    }
+ }
