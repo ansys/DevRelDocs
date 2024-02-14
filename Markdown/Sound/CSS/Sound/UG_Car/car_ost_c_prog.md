@@ -80,6 +80,3 @@ l_sizePacket = OSC_packetSize(b);
 return true;
 }
 ```
-
-**Parent topic:**[API for Direct Driving of Ansys Sound: Car Sound Simulator through UDP](../../Sound/UG_Car/car_ost.md)
-

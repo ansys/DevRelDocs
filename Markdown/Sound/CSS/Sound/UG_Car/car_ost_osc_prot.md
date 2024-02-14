@@ -62,21 +62,18 @@ An "OSC MESSAGE" contains:
 
     These types used by Car Sound Simulator are: \{‘i','f','s'\}
 
-    i
+    ***i***
     :   integer 32 bits
 
-    f
+    ***f***
     :   for single precision floating point values \(32 bits\)
 
-    s
+   ***s***
     :   OSC String
 
 
-![](images/sound-css-osc-messaging-format.png "OSC messaging format")
+![](images\sound-css-osc-messaging-format.png "OSC messaging format")
 
 ## References
 
 OpenSound Control Specification \(cnmat.org\) : [http://cnmat.org/OpenSoundControl/OSC-spec.html](http://cnmat.org/OpenSoundControl/OSC-spec.html)
-
-**Parent topic:**[API for Direct Driving of Ansys Sound: Car Sound Simulator through UDP](../../Sound/UG_Car/car_ost.md)
-
