@@ -1,6 +1,6 @@
-# OSC Protocol {#topicID13oscprot}
+# OSC Protocol
 
-## OSC standard { .section}
+## OSC standard
 
 Open Sound Control \(OSC\) is a protocol for communication among computers, sound synthesizers, and other multimedia devices that is optimized for modern networking technology and has been used in [many application areas](https://cnmat.org/OpenSoundControl/).
 
@@ -10,7 +10,7 @@ From the CNMAT OSC documentation:
 
 > The unit of transmission of OSC is an OSC Packet. Any application that sends OSC Packets is an OSC Client; any application that receives OSC Packets is an OSC Server.
 
-## OSC for Car Sound Simulator { .section}
+## OSC for Car Sound Simulator
 
 The application connected to the simulation manager \(simulation data provider\) is an OSC client. Car Sound Simulator, receiver of the simulation data is an OSC server.
 
@@ -74,7 +74,7 @@ An "OSC MESSAGE" contains:
 
 ![](images/sound-css-osc-messaging-format.png "OSC messaging format")
 
-## References { .section}
+## References
 
 OpenSound Control Specification \(cnmat.org\) : [http://cnmat.org/OpenSoundControl/OSC-spec.html](http://cnmat.org/OpenSoundControl/OSC-spec.html)
 

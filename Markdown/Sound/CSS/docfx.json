@@ -1,10 +1,10 @@
 {
     "build": {
       "globalMetadata": {
-        "title": "Ansys Sound Car Sound Simulator API",
+        "title": "Car Sound Simulator API",
         "summary": "",
         "version": "2024 R1",
-        "product": "Sound",
+        "product": "Ansys Sound",
         "programming language": "OSC",
         "product collection": "Sound",
         "physics": "Acoustics"
