@@ -1,0 +1,9 @@
+- name: Mechanical API documentation
+  href: index.md
+  items:
+  - name: Getting started
+    items:
+    - name: API Reference
+      href: api\index.md
+
+  
