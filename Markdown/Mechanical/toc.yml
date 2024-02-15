@@ -6,7 +6,10 @@
     - name: API Reference
       href: api\index.md
     - name: Stubs
-      href: api\index.md
-    - name: API Reference
-      href: api\index.md
-  
+      href: api\ansys\mechanical\stubs\index.md
+    - name: Ansys
+      href: api\ansys\mechanical\stubs\Ansys\index.md
+    - name: Mechanical
+      href: api\ansys\mechanical\stubs\Ansys\Mechanical\index.md
+    - name: ACT
+      href: api\ansys\mechanical\stubs\Ansys\ACT\index.md
