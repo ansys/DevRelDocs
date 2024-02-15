@@ -5,5 +5,8 @@
     items:
     - name: API Reference
       href: api\index.md
-
+    - name: Stubs
+      href: api\index.md
+    - name: API Reference
+      href: api\index.md
   
