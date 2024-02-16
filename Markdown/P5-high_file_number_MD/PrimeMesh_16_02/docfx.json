@@ -1,0 +1,13 @@
+{
+    "build": {
+      "globalMetadata": {
+        "title": "Prime Mesh Python client library 2024 R1 Service Pack 1",
+        "summary": "",
+        "version": "2024 R1 SP1",
+        "product": "Prime Mesh",
+        "programming language": "Python",
+        "product collection": "Structures,Fluids",
+        "physics": "Mechanical,Fluent"
+      }
+    }
+ }
