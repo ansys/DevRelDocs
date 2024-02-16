@@ -1,5 +1,3 @@
-<a id="ref-index-reading-writing"></a>
-
 # Reading and writing files
 
 The [`FileIO`](../api/_autosummary/ansys.meshing.prime.FileIO.md#ansys.meshing.prime.FileIO) class is used for all file-based data exchanges.
