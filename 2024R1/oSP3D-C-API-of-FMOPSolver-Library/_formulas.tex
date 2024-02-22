@@ -1,0 +1,21 @@
+\documentclass{article}
+\usepackage{ifthen}
+\usepackage{epsfig}
+\usepackage[utf8]{inputenc}
+\usepackage{newunicodechar}
+  \newunicodechar{⁻}{${}^{-}$}% Superscript minus
+  \newunicodechar{²}{${}^{2}$}% Superscript two
+  \newunicodechar{³}{${}^{3}$}% Superscript three
+
+\pagestyle{empty}
+\begin{document}
+$ ( 1 + \lfloor \frac{\mathit{axis}}{3} \rfloor ) * \mathit{num\_mesh\_items} $
+\pagebreak
+
+$ \mathit{coors} \lbrack k+ \mathit{axis} \bmod 3 \rbrack $
+\pagebreak
+
+$ field[k] $
+\pagebreak
+
+\end{document}
