@@ -1,4 +1,3 @@
-
 # Concepts and model structure
 
 ## Model

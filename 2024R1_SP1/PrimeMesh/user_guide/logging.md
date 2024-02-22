@@ -1,4 +1,3 @@
-
 # Logging
 
 A logger can be attached to a session to handle streamed output from PyPrimeMesh.

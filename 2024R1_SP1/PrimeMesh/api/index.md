@@ -1,4 +1,3 @@
-
 # API reference
 
 This section gives an overview of all API classes, methods, and parameters present in PyPrimeMesh.

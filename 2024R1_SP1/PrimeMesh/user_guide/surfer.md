@@ -1,4 +1,3 @@
-
 # Surface meshing
 
 The [`Surfer`](../api/_autosummary/ansys.meshing.prime.Surfer.md#ansys.meshing.prime.Surfer) class enables you to perform surface meshing using

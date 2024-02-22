@@ -1,4 +1,3 @@
-
 # Interactive graphics using PyVista
 
 PyPrimeMesh provides support for interactive graphical visualisation using [PyVista](https://docs.pyvista.org/) if this package is installed as a dependency.

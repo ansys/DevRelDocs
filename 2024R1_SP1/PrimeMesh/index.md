@@ -1,8 +1,6 @@
-# PyPrimeMesh documentation 0.5.0.dev11
+# Introduction
 
-## Introduction
-
-Ansys Prime Mesh Python client library 2024 R1 SP1 is a modified version of the open source project PyPrimeMesh 0.5.0. Ansys Prime Mesh Python client library 2024 R1 SP1 is distributed with Ansys 2024 R1 SP1. 
+Ansys Prime Mesh Python client library 2024 R1 SP1 is a modified version of the open source project PyPrimeMesh 0.5.0. Prime Mesh Python client library 2024 R1 SP1 is distributed with Ansys 2024 R1 SP1. 
 
 PyPrimeMesh is part of the [PyAnsys](https://docs.pyansys.com) effort to facilitate the use of Ansys technologies directlyfrom Python. PyPrimeMesh consists of various Python modules that help you to acquire geometry and prepare surface and volume meshes for multiple solvers. Its primary package is `ansys-meshing-prime`.
 
@@ -39,8 +37,7 @@ and execute, has some distinct features:
 * Supports simple and complex models
 * Supports CAD import
 * Exports meshes in solver format
-* Supports parallel processing, like distributed parallel and threaded parallel, and multiple servers
-  driven from Python
+* Supports parallel processing, like distributed parallel and threaded parallel, and multiple servers driven from Python
 
 ## Quick code
 
@@ -66,22 +63,3 @@ with prime.launch_prime() as prime_client:
     io = prime.FileIO(model)
     res = io.read_pmdat(r"E:\Temp\box.pmdat", prime.FileReadParams(model=model))
 ```
-
-## Documentation and issues
-
-Documentation for the latest stable release of PyPrimeMesh is hosted at [PyPrimeMesh documentation](https://prime.docs.pyansys.com/version/stable/).
-
-In the upper right corner of the documentation’s title bar, there is an option for switching from
-viewing the documentation for the latest stable release to viewing the documentation for the
-development version or previously released versions.
-
-You can also [view](https://cheatsheets.docs.pyansys.com/pyprimemesh_cheat_sheet.png) or
-[download](https://cheatsheets.docs.pyansys.com/pyprimemesh_cheat_sheet.pdf) the
-PyPrimeMesh cheat sheet. This one-page reference provides syntax rules and commands
-for using PyPrimeMesh.
-
-On the [PyPrimeMesh Issues](https://github.com/ansys/pyprimemesh/issues) page,
-you can create issues to report bugs and request new features. On the [PyPrimeMesh Discussions](https://github.com/ansys/pyprimemesh/discussions) page or the [Discussions](https://discuss.ansys.com/)
-page on the Ansys Developer portal, you can post questions, share ideas, and get community feedback.
-
-To reach the project support team, email [pyansys.core@ansys.com](mailto:pyansys.core@ansys.com).

@@ -1,4 +1,3 @@
-
 # Isogeometric analysis
 
 > *This is a Beta feature. API Behavior and Implementation may change in future.*

@@ -1,4 +1,3 @@
-
 # Volume sweeping
 
 The [`VolumeSweeper`](../api/_autosummary/ansys.meshing.prime.VolumeSweeper.md#ansys.meshing.prime.VolumeSweeper) class creates a volume mesh on 2.5D models, stacking faces

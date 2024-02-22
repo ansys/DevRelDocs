@@ -1,4 +1,3 @@
-
 # Sizing
 
 PyPrimeMesh provides various sizing controls to help you define how the mesh size is distributed on a surface or within the volume.

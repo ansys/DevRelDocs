@@ -1,4 +1,3 @@
-
 # Mesh diagnostics
 
 ## Mesh statistics and quality

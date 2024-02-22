@@ -1,4 +1,3 @@
-
 # Volumetric meshing
 
 The [`AutoMesh`](../api/_autosummary/ansys.meshing.prime.AutoMesh.md#ansys.meshing.prime.AutoMesh) class enables you to
