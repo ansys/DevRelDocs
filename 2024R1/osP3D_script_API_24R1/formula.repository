@@ -1,0 +1,18 @@
+\form#0:$1^{-7}*\rm{largest structure dimension}$
+\form#1:$1^{-5}$
+\form#2:$\hat{n}x = -p$
+\form#3:$n_x$
+\form#4:$n_y$
+\form#5:$n_z$
+\form#6:$p$
+\form#7:$\hat{n}x = -p $
+\form#8:$ F^{-1}(p) $
+\form#9:$ \epsilon = \frac{x_{\mbox{other}}}{x_{\mbox{ref}}} $
+\form#10:$ \epsilon = \frac{x_{\mbox{other}}-x_{\mbox{ref}}}{max_i |x_{\mbox{ref}}|_i } $
+\form#11:\[ //! \text{minimize} ||L||_* + \lambda ||S||_1 //! \text{subject to} L + S = M //! \]
+\form#12:$ ||L||_* $
+\form#13:$ L $
+\form#14:$ ||L||_1 = \sum_{ij}|S_{ij}| $
+\form#15:$ l_1 $
+\form#16:$ S $
+\form#17:$ \lambda = 1/\sqrt{max(dim(M))}$

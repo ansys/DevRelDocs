@@ -1,0 +1,25 @@
+var modules =
+[
+    [ "Miscellaneous", "group__misc.xhtml", "group__misc" ],
+    [ "File system", "group__file.xhtml", "group__file" ],
+    [ "Data", "group__data.xhtml", "group__data" ],
+    [ "Script", "group__script.xhtml", "group__script" ],
+    [ "Import", "group__import.xhtml", "group__import" ],
+    [ "Mesh mapper", "group__meshmapper.xhtml", "group__meshmapper" ],
+    [ "Export", "group__export.xhtml", "group__export" ],
+    [ "Toolbox", "group__toolbox.xhtml", "group__toolbox" ],
+    [ "Graphics", "group__graphics.xhtml", "group__graphics" ],
+    [ "Field models", "group__fieldmodels.xhtml", "group__fieldmodels" ],
+    [ "Statistics", "group__statistics.xhtml", "group__statistics" ],
+    [ "tmath", "group__tmath.xhtml", "group__tmath" ],
+    [ "MOP common", "group__common.xhtml", "group__common" ],
+    [ "MOP Handler", "group__handler.xhtml", "group__handler" ],
+    [ "Mop", "group__mop.xhtml", "group__mop" ],
+    [ "MOP json", "group__json.xhtml", "group__json" ],
+    [ "MOP legacy", "group__legacy.xhtml", "group__legacy" ],
+    [ "MOP models", "group__models.xhtml", "group__models" ],
+    [ "MOP properties", "group__properties.xhtml", "group__properties" ],
+    [ "MOP quality measure", "group__quality__measure.xhtml", "group__quality__measure" ],
+    [ "MOP interface", "group__interface.xhtml", "group__interface" ],
+    [ "MOP training plan", "group__training__plan.xhtml", "group__training__plan" ]
+];
