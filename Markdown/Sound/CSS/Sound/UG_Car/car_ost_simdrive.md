@@ -1,6 +1,6 @@
-# Ansys Sound: Car Sound Simulator - OSC Messages
+# Car Sound Simulator - OSC Messages
 
-Ansys Sound: Car Sound Simulator is driven by OSC MESSAGES sent over UDP: there is one action at a time associated to one message. The action name is a KEYWORD, followed by some OSC ARGUMENTS.
+Car Sound Simulator is driven by OSC MESSAGES sent over UDP: there is one action at a time associated to one message. The action name is a KEYWORD, followed by some OSC ARGUMENTS.
 
 ## Basic management messages
 
