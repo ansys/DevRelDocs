@@ -1,13 +1,13 @@
 {
     "build": {
       "globalMetadata": {
-        "title": "seaborg test melanie",
-        "summary": "",
+        "title": "Speos NX API",
+        "summary": "seaborg test melanie",
         "version": "2024 R1",
-        "product": "Ansys Sound",
-        "programming language": "OSC",
-        "product collection": "Sound",
-        "physics": "Acoustics"
+        "product": "Ansys Speos",
+        "programming language": "Python",
+        "product collection": "Optics",
+        "physics": "Optics"
       }
     }
  }
