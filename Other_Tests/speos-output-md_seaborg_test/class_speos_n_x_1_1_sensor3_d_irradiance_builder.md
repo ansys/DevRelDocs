@@ -1,4 +1,3 @@
-<a id="class_speos_n_x_1_1_sensor3_d_irradiance_builder"></a>
 # Class SpeosNX::Sensor3DIrradianceBuilder
 
 ![][Python]

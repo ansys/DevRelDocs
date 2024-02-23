@@ -1,4 +1,3 @@
-<a id="class_speos_n_x_1_1_sensor_v_r_immersive_builder"></a>
 # Class SpeosNX::SensorVRImmersiveBuilder
 
 ![][Python]

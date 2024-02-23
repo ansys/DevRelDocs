@@ -1,4 +1,3 @@
-<a id="class_speos_n_x_1_1_zenith_north_system"></a>
 # Class SpeosNX::ZenithNorthSystem
 
 ![][Python]

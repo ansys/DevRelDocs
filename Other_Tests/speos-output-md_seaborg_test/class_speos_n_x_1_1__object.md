@@ -1,4 +1,3 @@
-<a id="class_speos_n_x_1_1__object"></a>
 # Class SpeosNX::\_object
 
 ![][Python]

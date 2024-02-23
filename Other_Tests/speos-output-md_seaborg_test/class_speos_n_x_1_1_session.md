@@ -1,4 +1,3 @@
-<a id="class_speos_n_x_1_1_session"></a>
 # Class SpeosNX::Session
 
 ![][Python]
