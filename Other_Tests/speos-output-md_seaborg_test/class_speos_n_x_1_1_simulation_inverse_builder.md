@@ -1,4 +1,3 @@
-<a id="class_speos_n_x_1_1_simulation_inverse_builder"></a>
 # Class SpeosNX::SimulationInverseBuilder
 
 ![][Python]

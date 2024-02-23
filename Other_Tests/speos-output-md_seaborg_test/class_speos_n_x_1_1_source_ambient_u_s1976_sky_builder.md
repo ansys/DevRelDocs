@@ -1,4 +1,3 @@
-<a id="class_speos_n_x_1_1_source_ambient_u_s1976_sky_builder"></a>
 # Class SpeosNX::SourceAmbientUS1976SkyBuilder
 
 ![][Python]

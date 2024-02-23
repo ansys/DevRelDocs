@@ -1,4 +1,3 @@
-<a id="class_speos_n_x_1_1_source_surface_builder"></a>
 # Class SpeosNX::SourceSurfaceBuilder
 
 ![][Python]

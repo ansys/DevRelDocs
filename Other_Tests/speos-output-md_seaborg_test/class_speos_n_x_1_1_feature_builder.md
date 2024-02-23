@@ -1,4 +1,3 @@
-<a id="class_speos_n_x_1_1_feature_builder"></a>
 # Class SpeosNX::FeatureBuilder
 
 ![][Python]

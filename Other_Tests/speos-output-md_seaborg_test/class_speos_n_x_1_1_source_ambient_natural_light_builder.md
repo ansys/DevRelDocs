@@ -1,4 +1,3 @@
-<a id="class_speos_n_x_1_1_source_ambient_natural_light_builder"></a>
 # Class SpeosNX::SourceAmbientNaturalLightBuilder
 
 ![][Python]

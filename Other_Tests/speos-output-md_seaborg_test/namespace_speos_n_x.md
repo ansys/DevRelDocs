@@ -1,4 +1,3 @@
-<a id="namespace_speos_n_x"></a>
 # Namespace SpeosNX
 
 ![][Python]
