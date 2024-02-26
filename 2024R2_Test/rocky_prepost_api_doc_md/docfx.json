@@ -1,0 +1,13 @@
+{
+    "build": {
+      "globalMetadata": {
+        "title": "Rocky PrePost scripting interface",
+        "summary": "",
+        "version": "2024 R2",
+        "product": "Rocky",
+        "programming language": "Python",
+        "product collection": "Fluid",
+        "physics": "Particules"
+      }
+    }
+ }
