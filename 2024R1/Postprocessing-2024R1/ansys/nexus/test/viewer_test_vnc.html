@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script src='/ansys/nexus/viewer-loader.js'></script>
+</head>
+
+<body>
+
+<h1>ANSYS Nexus Viewer Test</h1>
+<p>Some important text</p>
+<hr>
+<p>Viewer 1: proxy ratio, initial source</p>
+<div style="border:2px solid red;">
+    <ansys-nexus-viewer renderer="envnc" ui="none" src="http://localhost:28000/ansys/nexus/test/dambreak.evsn" aspect_ratio="proxy" proxy_img="/ansys/nexus/images/proxy_dambreak.png" renderer_options='{"http": "http://localhost:28000", "ws": "http://localhost:28001"}' id="ONE"></ansys-nexus-viewer>
+</div>
+<hr>
+<p>Viewer 2: proxy ratio, initial source</p>
+<div style="border:2px solid blue;">
+    <ansys-nexus-viewer renderer="envnc" ui="simple" src="http://localhost:28000/ansys/nexus/test/ami_flipbook.evsn" aspect_ratio="proxy" renderer_options='{"http": "http://localhost:28000", "ws": "http://localhost:28001"}' id="TWO"></ansys-nexus-viewer>
+</div>
+<hr>
+<p>More important text</p>
+<button onclick="deactivateOne()">Deactivate viewer 1</button>
+<button onclick="activateOne()">Activate viewer 1</button>
+<button onclick="captureOne()">Capture image 1</button>
+<hr>
+<div>
+    <div>
+        <h2 id="ONE_status"></h2>
+        <ul id="ONE_list"></ul>
+    </div>
+    <div>
+        <h2 id="TWO_status"></h2>
+        <ul id="TWO_list"></ul>
+    </div>
+</div>
+<img id="snapshot"/>
+
+<script>
+function myValueChanged(e) {
+  console.log(e.detail);
+}
+function deactivateOne() {
+  let obj = document.getElementById("ONE");
+  obj.active = false;
+}
+function activateOne() {
+  let obj = document.getElementById("ONE");
+  obj.active = true;
+}
+function captureOne() {
+    let obj = document.getElementById("ONE");
+    let image = obj.renderImage();
+    if (image) document.getElementById("snapshot").src = image;
+}
+
+function statushandler(e) {
+    let obj = e.currentTarget;
+    let header = document.getElementById(obj.id + "_status");
+    let html = "Viewer:" + obj.id;
+    if (obj.active) {
+        html += ",active";
+    } else {
+        html += ",inactive";
+    }
+    html += ",source:" + String(obj.src)
+    header.innerHTML = html;
+}
+
+function partshandler(e) {
+    let obj = e.currentTarget;
+    let ul = document.getElementById(obj.id + "_list");
+    let html = ""
+    for( const part of obj.parts) {
+        html += "<li>" + part + "</li>"
+    }
+    ul.innerHTML = html;
+}
+
+document.getElementById("ONE").addEventListener("active-changed", statushandler);
+document.getElementById("TWO").addEventListener("active-changed", statushandler);
+document.getElementById("ONE").addEventListener("parts-changed", partshandler);
+document.getElementById("TWO").addEventListener("parts-changed", partshandler);
+
+</script>
+
+</body>
+
+</html>
+
+
+

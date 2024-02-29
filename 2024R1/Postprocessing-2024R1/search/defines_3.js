@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['imagestream_5fapi_5fversion_0',['IMAGESTREAM_API_VERSION',['../shared__memory__image__client_8h.xhtml#a64df229b0ac6942d9bdee4b94b2c096a',1,'shared_memory_image_client.h']]],
+  ['imagestream_5fbad_5fargs_1',['IMAGESTREAM_BAD_ARGS',['../shared__memory__image__client_8h.xhtml#ac2b3e8a36182f38dab1c5fd7a700a0c6',1,'shared_memory_image_client.h']]],
+  ['imagestream_5fbad_5ffile_5fsize_2',['IMAGESTREAM_BAD_FILE_SIZE',['../shared__memory__image__client_8h.xhtml#a54a45d2f039e6275c28249eedfa2515d',1,'shared_memory_image_client.h']]],
+  ['imagestream_5fframe_5ftoo_5flarge_3',['IMAGESTREAM_FRAME_TOO_LARGE',['../shared__memory__image__client_8h.xhtml#ae5bdc8c10b2aa9db85d0955c99cba2c6',1,'shared_memory_image_client.h']]],
+  ['imagestream_5fis_5fnotserver_4',['IMAGESTREAM_IS_NOTSERVER',['../shared__memory__image__client_8h.xhtml#aff57dd9d671a32995d562d68fcfa5fff',1,'shared_memory_image_client.h']]],
+  ['imagestream_5fis_5fserver_5',['IMAGESTREAM_IS_SERVER',['../shared__memory__image__client_8h.xhtml#ac914cc76952081d1ccc7c520e12770b1',1,'shared_memory_image_client.h']]],
+  ['imagestream_5flocked_6',['IMAGESTREAM_LOCKED',['../shared__memory__image__client_8h.xhtml#a8389f19c29b726a2bed3c5831d1fb267',1,'shared_memory_image_client.h']]],
+  ['imagestream_5fmemory_5falloc_5ferror_7',['IMAGESTREAM_MEMORY_ALLOC_ERROR',['../shared__memory__image__client_8h.xhtml#ae37af5c9dcf1d89b30b82ca4be840cfe',1,'shared_memory_image_client.h']]],
+  ['imagestream_5fno_5fbufferavailable_8',['IMAGESTREAM_NO_BUFFERAVAILABLE',['../shared__memory__image__client_8h.xhtml#a78414d594aa9bb3f9bcea84c768d2826',1,'shared_memory_image_client.h']]],
+  ['imagestream_5fno_5fframeavailable_9',['IMAGESTREAM_NO_FRAMEAVAILABLE',['../shared__memory__image__client_8h.xhtml#a7a7491d1019b67d55ac6488c0e3cb637',1,'shared_memory_image_client.h']]],
+  ['imagestream_5fnoerror_10',['IMAGESTREAM_NOERROR',['../shared__memory__image__client_8h.xhtml#af995dd87ffd7dd178eef1d343f7b72bf',1,'shared_memory_image_client.h']]],
+  ['imagestream_5fnot_5flocked_11',['IMAGESTREAM_NOT_LOCKED',['../shared__memory__image__client_8h.xhtml#ab7873d9185a495020022f80c238142bc',1,'shared_memory_image_client.h']]],
+  ['imagestream_5foptions_5fflipvertical_12',['IMAGESTREAM_OPTIONS_FLIPVERTICAL',['../shared__memory__image__client_8h.xhtml#a536935e36e51aade42c2a49f8ecd7ae1',1,'shared_memory_image_client.h']]],
+  ['imagestream_5foptions_5finitbufferheaders_13',['IMAGESTREAM_OPTIONS_INITBUFFERHEADERS',['../shared__memory__image__client__priv_8h.xhtml#a24ac2d665ce98370e25639bba2d992b6',1,'shared_memory_image_client_priv.h']]],
+  ['imagestream_5foptions_5fnone_14',['IMAGESTREAM_OPTIONS_NONE',['../shared__memory__image__client_8h.xhtml#a7fbe522f7a46875a755f07c8ff69e2df',1,'shared_memory_image_client.h']]],
+  ['imagestream_5foptions_5fnothreads_15',['IMAGESTREAM_OPTIONS_NOTHREADS',['../shared__memory__image__client__priv_8h.xhtml#a673fd1d2f27007af83467699cb53614f',1,'shared_memory_image_client_priv.h']]],
+  ['imagestream_5foptions_5fserver_16',['IMAGESTREAM_OPTIONS_SERVER',['../shared__memory__image__client__priv_8h.xhtml#aa87740042e4f5882fa4c990a6528c2e3',1,'shared_memory_image_client_priv.h']]],
+  ['imagestream_5freconnecting_17',['IMAGESTREAM_RECONNECTING',['../shared__memory__image__client_8h.xhtml#aa17e85c9001e414b9ac1db640884b944',1,'shared_memory_image_client.h']]],
+  ['imagestream_5fthread_5fcreate_5ferror_18',['IMAGESTREAM_THREAD_CREATE_ERROR',['../shared__memory__image__client_8h.xhtml#ac0d310d75b0c3ff53d524a0a5fe25b6f',1,'shared_memory_image_client.h']]],
+  ['imagestream_5funable_5fto_5fmap_5ffile_19',['IMAGESTREAM_UNABLE_TO_MAP_FILE',['../shared__memory__image__client_8h.xhtml#ac7eb344cf60975382720f71182dab490',1,'shared_memory_image_client.h']]],
+  ['imagestream_5funable_5fto_5fopen_5ffile_20',['IMAGESTREAM_UNABLE_TO_OPEN_FILE',['../shared__memory__image__client_8h.xhtml#a5b68da171a139f688d317320d0a4eb3e',1,'shared_memory_image_client.h']]],
+  ['imagestream_5funconnected_21',['IMAGESTREAM_UNCONNECTED',['../shared__memory__image__client_8h.xhtml#a2cc13f7eda736fddce876cf5cae2c502',1,'shared_memory_image_client.h']]]
+];
