@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script src='/ansys/nexus/viewer-loader.js'></script>
+</head>
+
+<body>
+
+<h1>ANSYS Nexus Viewer Test</h1>
+<p>Some important text</p>
+<hr>
+<p>Viewer 1: proxy ratio, initial source</p>
+<ansys-nexus-viewer aspect_ratio="proxy" src="/ansys/nexus/test/viewer_test.avz" proxy_img="/ansys/nexus/images/ANSYS_icon.png" id="ONE"></ansys-nexus-viewer>
+<hr>
+<p>Viewer 2: css fixed size, no data, active by default</p>
+<div style="width: 400px; height: 400px; margin:auto">
+<ansys-nexus-viewer active=true id="TWO"></ansys-nexus-viewer>
+</div>
+<hr>
+<p>Viewer 3: fixed aspect ratio:1.77, initial source, active by default</p>
+<ansys-nexus-viewer active=true aspect_ratio=1.777 src="/ansys/nexus/test/viewer_test.scdoc" id="THREE"
+                    renderer_options='{"showLogo": false, "showFileOpen": false, "allowEdit": false, "showHighlight": true, "showAbout": false, "showMarkup": false, "showOptions": false, "showViewport": false, "showExplode": false}'></ansys-nexus-viewer>
+<hr>
+<p>Viewer 4: proxy ratio, no data</p>
+<ansys-nexus-viewer aspect_ratio="proxy" id="FOUR"></ansys-nexus-viewer>
+<hr>
+<p>Viewer 5: Three.js proxy ratio, glb file</p>
+<ansys-nexus-viewer id="FIVE"  active=false renderer="three" aspect_ratio="proxy" proxy_img="/ansys/nexus/images/ANSYS_icon.png"  src="/ansys/nexus/test/viewer_test.glb"></ansys-nexus-viewer>
+<hr>
+<p>Viewer 6: no sizing, DSG dataset</p>
+<ansys-nexus-viewer aspect_ratio="proxy" src="/ansys/nexus/test/update_000.dsgz" proxy_img="/ansys/nexus/images/ANSYS_icon.png" id="SIX"></ansys-nexus-viewer>
+<hr>
+<p>More important text</p>
+<button onclick="deactivateOne()">Deactivate viewer 1</button>
+<button onclick="activateOne()">Activate viewer 1</button>
+<button onclick="setsrcFour()">Set data viewer 4</button>
+<button onclick="captureThree()">Capture image 3</button>
+<hr>
+<div>
+    <div>
+        <h2 id="ONE_status"></h2>
+        <ul id="ONE_list"></ul>
+    </div>
+    <div>
+        <h2 id="TWO_status"></h2>
+        <ul id="TWO_list"></ul>
+    </div>
+    <div>
+        <h2 id="THREE_status"></h2>
+        <ul id="THREE_list"></ul>
+    </div>
+    <div>
+        <h2 id="FOUR_status"></h2>
+        <ul id="FOUR_list"></ul>
+    </div>
+    <div>
+        <h2 id="FIVE_status"></h2>
+        <ul id="FIVE_list"></ul>
+    </div>
+</div>
+<hr>
+<img id="snapshot"/>
+
+<script>
+function myValueChanged(e) {
+    console.log(e.detail);
+}
+document.getElementById("ONE").addEventListener("src-changed", myValueChanged);
+function deactivateOne() {
+    let obj = document.getElementById("ONE");
+    obj.active = false;
+}
+function activateOne() {
+    let obj = document.getElementById("ONE");
+    obj.active = true;
+}
+
+function setsrcFour() {
+    let obj = document.getElementById("FOUR");
+    obj.src = "/ansys/nexus/test/viewer_test.avz";
+}
+
+
+function detailhandler(e) {
+    console.log(e.detail);
+}
+document.getElementById("THREE").addEventListener("gltfviewer-spaceclaim-pick", detailhandler);
+document.getElementById("THREE").addEventListener("gltfviewer-spaceclaim-showfacepoint", detailhandler);
+//document.getElementById("THREE").addEventListener("gltfviewer-spaceclaim-showhover", detailhandler);
+function captureThree() {
+    let obj = document.getElementById("THREE");
+    let image = obj.renderImage();
+    if (image) document.getElementById("snapshot").src = image;
+}
+
+function simplehandler(e) {
+    console.log(e);
+}
+document.getElementById("ONE").addEventListener("aspect-ratio-changed", simplehandler);
+
+
+function statushandler(e) {
+    let obj = e.currentTarget;
+    let header = document.getElementById(obj.id + "_status");
+    let html = "Viewer:" + obj.id;
+    if (obj.active) {
+        html += ",active";
+    } else {
+        html += ",inactive";
+    }
+    html += ",source:" + String(obj.src)
+    header.innerHTML = html;
+}
+
+function partshandler(e) {
+    let obj = e.currentTarget;
+    let ul = document.getElementById(obj.id + "_list");
+    let html = ""
+    for( const part of obj.parts) {
+        html += "<li>" + part + "</li>"
+    }
+    ul.innerHTML = html;
+}
+
+let ids = ["ONE", "TWO", "THREE", "FOUR", "FIVE"]
+for( const id of ids) {
+    document.getElementById(id).addEventListener("parts-changed", partshandler);
+    document.getElementById(id).addEventListener("src-changed", statushandler);
+    document.getElementById(id).addEventListener("active-changed", statushandler);
+}
+</script>
+
+</body>
+
+</html>
+

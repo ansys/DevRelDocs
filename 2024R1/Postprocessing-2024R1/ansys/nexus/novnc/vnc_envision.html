@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html>
+<html class="noVNC_loading">
+<head>
+
+    <!--
+    noVNC example: simple example using default UI
+    Copyright (C) 2012 Joel Martin
+    Copyright (C) 2016 Samuel Mannehed for Cendio AB
+    Copyright (C) 2016 Pierre Ossman for Cendio AB
+    noVNC is licensed under the MPL 2.0 (see LICENSE.txt)
+    This file is licensed under the 2-Clause BSD license (see LICENSE.txt).
+
+    Connect parameters are provided in query string:
+        http://example.com/?host=HOST&port=PORT&encrypt=1
+    or the fragment:
+        http://example.com/#host=HOST&port=PORT&encrypt=1
+    -->
+    <title>noVNC</title>
+
+    <meta charset="UTF-8" />
+
+    <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+                Remove this if you use the .htaccess -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="app/styles/base.css" />
+    <link rel="stylesheet" href="app/styles/en.css" />
+
+    <!-- this is included as a normal file in order to catch script-loading errors as well -->
+    <script type="text/javascript" src="app/error-handler.js"></script>
+
+    <!-- begin scripts -->
+    <!-- jQuery contextmenu -->
+    <script src="vendor/jQuery/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="vendor/jQuery-contextMenu/jquery.contextMenu.min.css"/>
+    <script src="vendor/jQuery-contextMenu/jquery.contextMenu.min.js"></script>
+    <script src="vendor/jQuery-contextMenu/jquery.ui.position.min.js"></script>
+    <!-- actual script modules -->
+    <!--  <script type="module" src="app/ui_envision.js"></script>   -->
+    <!-- end scripts -->
+
+</head>
+
+<body>
+
+    <div id="noVNC_fallback_error" class="noVNC_vcenter">
+        <div>
+            <div>noVNC encountered an error:</div>
+            <br>
+            <div id="noVNC_fallback_errormsg"></div>
+        </div>
+    </div>
+
+    <!-- EnSight UI toggle -->
+    <div id="ens_ui_toggle" class="en_ui_toggle">
+        <img id='ens_ui_toggle_img' src='app/images/icons/menu_20_gray.png' />
+    </div>
+    <!-- EnSight part list -->
+    <div id="ens_partlist" class="en_partlist">
+        <fieldset id="partlist" name="partlist">
+            <legend>Part List</legend>
+        </fieldset>
+    </div>
+    <!-- EnSight var list -->
+    <div id="ens_varlist" class="en_partlist">
+        <fieldset id="varlist" name="varlist">
+            <legend>Variable List</legend>
+        </fieldset>
+    </div>
+
+    <!-- EnSight play/pause controls -->
+    <div id="video_controls">
+        <input type="image" id="play-pause"
+               alt="Play/Pause"
+               src='app/images/icons/playf_off.svg'
+               playing='false' />
+        <input type="range" id="seek-bar" class="slider" value="0" min="0" max="1000" />
+        <label for="seek-bar" id="current-frame" class="frame_label">[1 / 1]</label>
+    </div>
+
+    <!-- EnSight toggle controls -->
+    <div id="toggle_controls">
+        <!-- Toggle jump to end of timestep slider -->
+        <div id="ens_timestep_monitor" class="toggle_control_icon">
+            <input type="image" alt="Jump to end of slider"
+                   id="noVNC_timestep_monitor"
+                   src="app/images/icons/play_once_mode.svg"
+                   data-toggle="true"
+                   title="Jump to end of slider" />
+        </div>
+        <!-- Toggle Overlay hidden lines -->
+        <div id="ens_hid_ln_toggle" class="toggle_control_icon">
+            <input type="image" alt="Overlay hidden lines"
+                   id="noVNC_hid_ln_button"
+                   src="app/images/icons/ang10_Part_hiddenline_off.svg"
+                   data-toggle="false"
+                   title="Overlay hidden lines" />
+        </div>
+        <!-- Toggle Part Highlighting -->
+        <div id="ens_part_hl_toggle" class="toggle_control_icon">
+            <input type="image" alt="Part Highlight"
+                   src="app/images/icons/highlight3.svg"
+                   data-toggle="false"
+                   id="noVNC_hl_button"
+                   title="Part Highlight" />
+        </div>
+        <!-- Fit geometry to viewport -->
+        <div id="ens_fit_viewport_btn" class="toggle_control_icon">
+            <input type="image" alt="Fit the geometry to the current viewport"
+                   src="app/images/icons/fit.svg"
+                   id="noVNC_fit_viewport_btn"
+                   title="Fit geometry to viewport" />
+        </div>
+        <!-- Reset view of current viewport -->
+        <div id="ens_reset_view_btn" class="toggle_control_icon">
+            <input type="image" alt="Reset view"
+                   src="app/images/icons/reset3.svg"
+                   id="noVNC_reset_view_btn"
+                   title="Reset view of current viewport" />
+        </div>
+        <!-- Toggle fullscreen -->
+        <div id="ens_fullscreen_toggle" class="toggle_control_icon">
+            <input type="image" alt="Fullscreen"
+                   src="app/images/fullscreen.svg"
+                   id="noVNC_fullscreen_button"
+                   title="Full screen" />
+        </div>
+    </div>
+
+
+
+    <!-- Status Dialog -->
+    <div id="noVNC_status" style="display:none;"></div>
+
+    <!-- Transition Screens -->
+    <div id="noVNC_transition">
+        <div id="noVNC_transition_text"></div>
+        <div>
+            <input type="button" id="noVNC_cancel_reconnect_button" value="Cancel" class="noVNC_submit" />
+        </div>
+        <div class="noVNC_spinner"></div>
+    </div>
+
+    <div id="noVNC_container">
+        <!-- HTML5 Canvas -->
+        <div id="noVNC_screen">
+            <!-- Note that Google Chrome on Android doesn't respect any of these,
+            html attributes which attempt to disable text suggestions on the
+            on-screen keyboard. Let's hope Chrome implements the ime-mode
+            style for example -->
+            <textarea id="noVNC_keyboardinput" autocapitalize="off"
+                      autocorrect="off" autocomplete="off" spellcheck="false"
+                      mozactionhint="Enter"></textarea>
+
+            <canvas id="noVNC_canvas" width="0" height="0">
+                Canvas not supported.
+            </canvas>
+        </div>
+    </div>
+
+    <script type="module">
+        import EnVNCViewer from "./app/ui_envision.js";
+        let v = new EnVNCViewer(document.documentElement);
+    </script>
+
+</body>
+</html>

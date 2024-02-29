@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script src='/ansys/nexus/viewer-loader.js'></script>
+</head>
+
+<body>
+
+<h1>ANSYS sgeo Viewer Test</h1>
+<p>Some important text</p>
+<hr>
+<p>Viewer 1: Primary test case</p>
+<ansys-nexus-viewer active=false aspect_ratio="proxy" aspect_ratio=1.6 renderer="sgeo" src="" id="ONE"></ansys-nexus-viewer>
+<hr>
+<p>Some controls</p>
+<button onclick="deactivate()">Deactivate viewer</button>
+<button onclick="activate()">Activate viewer</button>
+<button onclick="setsrc_glb()">Set glb data</button>
+<button onclick="setsrc_0()">Set step 0 data</button>
+<button onclick="setsrc_1()">Set step 1 data</button>
+<button onclick="setsrc_2()">Set step 2 data</button>
+<button onclick="capture()">Capture image</button>
+<hr>
+<div>
+    <div>
+        <h2 id="ONE_status"></h2>
+        <ul id="ONE_list"></ul>
+    </div>
+</div>
+<hr>
+<img id="snapshot"/>
+
+<script>
+function myValueChanged(e) {
+    console.log(e.detail);
+}
+document.getElementById("ONE").addEventListener("src-changed", myValueChanged);
+function deactivate() {
+    let obj = document.getElementById("ONE");
+    obj.active = false;
+}
+function activate() {
+    let obj = document.getElementById("ONE");
+    obj.active = true;
+}
+
+function setsrc_glb() {
+    let obj = document.getElementById("ONE");
+    obj.src = "/ansys/nexus/test/viewer_test.glb";
+}
+function setsrc_0() {
+    let obj = document.getElementById("ONE");
+    obj.src = "/ansys/nexus/test/viewer_test_0.sgeo";
+}
+function setsrc_1() {
+    let obj = document.getElementById("ONE");
+    obj.src = "/ansys/nexus/test/viewer_test_1.sgeo";
+}
+function setsrc_2() {
+    let obj = document.getElementById("ONE");
+    obj.src = "/ansys/nexus/test/viewer_test_2.sgeo";
+}
+
+
+function detailhandler(e) {
+    console.log(e.detail);
+}
+//document.getElementById("ONE").addEventListener("gltfviewer-spaceclaim-pick", detailhandler);
+function capture() {
+    let obj = document.getElementById("ONE");
+    let image = obj.renderImage();
+    if (image) document.getElementById("snapshot").src = image;
+}
+
+function simplehandler(e) {
+    console.log(e);
+}
+document.getElementById("ONE").addEventListener("aspect-ratio-changed", simplehandler);
+
+
+function statushandler(e) {
+    let obj = e.currentTarget;
+    let header = document.getElementById(obj.id + "_status");
+    let html = "Viewer:" + obj.id;
+    if (obj.active) {
+        html += ",active";
+    } else {
+        html += ",inactive";
+    }
+    html += ",source:" + String(obj.src)
+    header.innerHTML = html;
+}
+
+function partshandler(e) {
+    let obj = e.currentTarget;
+    let ul = document.getElementById(obj.id + "_list");
+    let html = ""
+    for( const part of obj.parts) {
+        html += "<li>" + part + "</li>"
+    }
+    ul.innerHTML = html;
+}
+
+let ids = ["ONE"]
+for( const id of ids) {
+    document.getElementById(id).addEventListener("parts-changed", partshandler);
+    document.getElementById(id).addEventListener("src-changed", statushandler);
+    document.getElementById(id).addEventListener("active-changed", statushandler);
+}
+</script>
+
+</body>
+
+</html>
+

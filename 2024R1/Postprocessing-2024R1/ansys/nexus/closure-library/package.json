@@ -1,0 +1,59 @@
+{
+  "name": "closure-library",
+  "version": "1.43629075.2",
+  "description": "A powerful, low level JavaScript library designed for building complex and scalable web applications",
+  "contributors": [
+    {
+      "name": "Mohamed Mansour",
+      "email": "hello@mohamedmansour.com"
+    },
+    {
+      "name": "Bjorn Tipling",
+      "email": "bjorn.tipling@gmail.com"
+    },
+    {
+      "name": "SameGoal LLC",
+      "email": "help@samegoal.com"
+    },
+    {
+      "name": "Guido Tapia",
+      "email": "guido.tapia@gmail.com"
+    },
+    {
+      "name": "Andrew Mattie",
+      "email": "amattie@gmail.com"
+    },
+    {
+      "name": "Ilia Mirkin",
+      "email": "ibmirkin@gmail.com"
+    },
+    {
+      "name": "Ivan Kozik",
+      "email": "ivan.kozik@gmail.com"
+    },
+    {
+      "name": "Rich Dougherty",
+      "email": "rich@rd.gen.nz"
+    },
+    {
+      "name": "Chad Killingsworth",
+      "email": "chadkillingsworth@missouristate.edu"
+    },
+    {
+      "name": "Dan Pupius",
+      "email": "dan.pupius@gmail.com"
+    }
+  ],
+  "main": "paths.js",
+  "keywords": ["closure", "library", "goog", "browser", "client", "dom"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gregrperkins/closure-library"
+  },
+  "devDependencies": {
+    "closure-library-phantomjs": "0.1.1",
+    "ecstatic": "0.4.0",
+    "express": "3.1.0",
+    "optimist": "0.3.5"
+  }
+}

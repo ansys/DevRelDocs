@@ -1,0 +1,62 @@
+#!/usr/bin/env node
+
+var ecstatic = require('ecstatic');
+var express = require('express');
+var argv = require('optimist').argv;
+var http = require('http');
+var pathModule = require('path');
+var spawn = require('child_process').spawn;
+
+var packageRoot = pathModule.resolve(__dirname, '..');
+var port = argv.port || Math.floor(Math.random() * 30000) + 2000;
+
+// Indicate that we are rolling and then start the browser...
+var onListening = function () {
+    var url = 'http://localhost:' + port + '/all_tests.html';
+
+    if (argv.auto) {
+        // Build page query args
+        var query = '?report&autorun&autoclose';
+        if (argv.filter) {
+            query += '&filter=' + argv.filter;
+        }
+
+        // Build 'open' args
+        var args = [];
+        if (argv.app) {
+            args.push('-a', argv.app);
+        }
+        args.push(url + query);
+
+        // Print out what we're doing
+        console.log('>>> open ' + args.join(' '));
+        console.log(Array(75).join('-'));
+
+        // Open in a web browser.
+        spawn('open', args);
+    } else {
+        // Let us know what's what
+        console.log('Raring to test! Serving at ' + url);
+    }
+};
+
+var doneHandler = function (req, res) {
+    // TODO(gregp): parse, better reporting...
+    req.pipe(process.stdout);
+    req.on('end', function () {
+        console.log(Array(75).join('-'));
+        res.send();
+    });
+};
+
+var staticHandler = ecstatic(packageRoot);
+
+var app = express();
+app.use(express.bodyParser());
+app.post('/done', doneHandler);
+
+app.use(staticHandler);
+
+var server = http.createServer(app);
+server.listen(port);
+server.on('listening', onListening);

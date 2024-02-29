@@ -1,0 +1,131 @@
+.en_partlist {
+    display: none;
+    position: fixed;
+    top: 25px;
+    left: 4px;
+    height: flex;
+    max-height: 50%;
+    overflow-y: auto;
+    color: black;
+    background-color: rgba(255, 255, 255, .9);
+    font-weight: bold;
+    z-index: 10;
+    padding: 3px 5px 4px 5px;
+    border: thin solid black;
+}
+
+.en_partlist > * {
+    pointer-events: auto;
+}
+
+.en_ui_toggle {
+    position: fixed;
+    top: 2px;
+    left: 2px;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+}
+
+.en_ui_toggle > * {
+    pointer-events: auto;
+}
+
+/*BOTTOM BAR STYLING*/
+
+#video_controls {
+    background-color: #F0F0F0;
+    bottom: 0;
+    left: 0;
+    /*hidden by default*/
+    display: none;
+    position: fixed;
+    pointer-events: none;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#video_controls > * {
+    pointer-events: auto;
+    /*flex options are used by the slider and frame label content*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/*todo: set width dynamically based on number of time steps. initial should be higher.(?)*/
+.slider {
+    -webkit-appearance: none;
+    min-width: 150px;
+    max-width: 300px;
+    height: 2px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 18px;
+    background: #007A98;
+    cursor: pointer;
+}
+
+/*for firefox*/
+.slider::-moz-range-thumb {
+    width: 10px;
+    height: 18px;
+    border-radius: 0;
+    background: #007A98;
+    cursor: pointer;
+}
+
+.frame_label {
+    min-width: 50px;
+    max-width: 200px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #000;
+}
+
+/*TOGGLES*/
+
+#toggle_controls {
+    bottom: 0;
+    right: 0;
+    /*hidden by default*/
+    display: none;
+    position: fixed;
+    pointer-events: none;
+    background-color: #F0F0F0;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#toggle_controls > * {
+    pointer-events: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.toggle_control_icon {
+    margin-left: 5px;
+}
+
+#ens_timestep_monitor {
+    display: none;
+}
+/*BOTTOM BAR STYLING*/

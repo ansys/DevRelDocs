@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src='/ansys/nexus/viewer-loader.js'></script>
+</head>
+
+<body onload="test_dsg_updates()">
+<h1>ANSYS Nexus DSG Parse Test</h1>
+<div id="trees"></div>
+
+<script>
+    async function test_dsg_updates() {
+        const urls = ["/ansys/nexus/test/update_000.dsgz",
+                      "/ansys/nexus/test/update_001.dsgz",
+                      "/ansys/nexus/test/update_002.dsgz"];
+        let text = "";
+        let dsg_session = new DSGSession();
+        dsg_session.debug = 2;
+        for (const url of urls) {
+            const response = await fetch(url);
+            const data = await response.arrayBuffer();
+            console.log("Parsing update:" + url);
+            dsg_session.parse_zip(data);
+            let scene_dump = dsg_session.dump_scene();
+            console.log(scene_dump);
+            text += "<h2>Update: " + url + "</h2><pre>" + scene_dump + "</pre>";
+            document.getElementById("trees").innerHTML  = text;
+        }
+    }
+</script>
+
+</body>
+
+</html>
