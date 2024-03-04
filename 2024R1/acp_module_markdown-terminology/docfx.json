@@ -1,0 +1,13 @@
+{
+  "build": {
+    "globalMetadata": {
+      "title": "ACP scripting interface 2024 R1 - test",
+      "summary": "The ACP scripting interface provides the scripting user interface of ACP",
+      "version": "2024 R1",
+      "product": "ACP",
+      "programming language": "Python",
+      "product collection": "Structures",
+      "physics": "Composites"
+    }
+  }
+}
