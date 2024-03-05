@@ -7,9 +7,3 @@ Access to the actually loaded object tree is always provided through the root ob
 For better legibility of the image below, right-click and open it in a new tab.
 
 ![img](./acp-tree.png)
-
-svg image
-![img](./acp-graph.svg)
-
-svg image
-![](./acp-graph.svg)

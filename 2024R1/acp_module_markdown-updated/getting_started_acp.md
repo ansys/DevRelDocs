@@ -1,6 +1,6 @@
 # Getting started
 
-## Basic Scripting
+## Basic scripting
 
 The scripting language of ACP is Python which is an object oriented programming language. The user should have some
 basics experience in object oriented programming for the optimal use, but a basic script can easily be written by modifying an existing one or
