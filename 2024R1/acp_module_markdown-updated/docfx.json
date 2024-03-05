@@ -2,7 +2,7 @@
   "build": {
     "globalMetadata": {
       "title": "ACP scripting interface 2024 R1 upd TOC",
-      "summary": "The ACP scripting interface provides the scripting user interface of ACP",
+      "summary": "The ACP scripting interface provides programmable control of the ACP application.",
       "version": "2024 R1",
       "product": "ACP",
       "programming language": "Python",
