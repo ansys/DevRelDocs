@@ -1,0 +1,22 @@
+- name: Global Contents
+  href: [Global contents](global_contents.md)
+items:
+  - name: Structures
+    href: [Structures](struct_contents.md)
+  - name: Files
+    href: [Files](file_contents.md)
+  - name: Modules
+    href: [Modules](group_contents.md)
+  - name: Pages
+    href: [Pages](page_contents.md)
+- name: Global Index
+  href: [Global index](global_index.md)
+items:
+  - name: Structures
+    href: [Structures](struct_index.md)
+  - name: Files
+    href: [Files](file_index.md)
+  - name: Modules
+    href: [Modules](group_index.md)
+  - name: Pages
+    href: [Pages](page_index.md)
