@@ -1,6 +1,6 @@
 - name: Global Contents
   href: [Global contents](global_contents.md)
-items:
+  items:
   - name: Structures
     href: [Structures](struct_contents.md)
   - name: Files
@@ -11,7 +11,7 @@ items:
     href: [Pages](page_contents.md)
 - name: Global Index
   href: [Global index](global_index.md)
-items:
+  items:
   - name: Structures
     href: [Structures](struct_index.md)
   - name: Files
