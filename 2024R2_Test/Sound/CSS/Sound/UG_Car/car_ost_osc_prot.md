@@ -2,7 +2,7 @@
 
 ## OSC standard
 
-Open Sound Control \(OSC\) is a protocol for communication among computers, sound synthesizers, and other multimedia devices that is optimized for modern networking technology and has been used in [many application areas](https://cnmat.org/OpenSoundControl/).
+Open Sound Control \(OSC\) is a protocol for communication between computers, sound synthesizers, and other multimedia devices that is optimized for modern networking technology and has been used in [many application areas](https://cnmat.org/OpenSoundControl/).
 
 OSC was defined and is supported by CNMAT of Berkeley University \([http://cnmat.berkeley.edu/](http://cnmat.berkeley.edu/)\)
 
