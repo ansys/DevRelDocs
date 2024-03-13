@@ -429,7 +429,7 @@ Linux:
 
   3. If successful, Sherlock will launch and the Sherlock Client Console appears (Windows), confirming the gRPC server is running on port 9090 or whichever port you selected. For Linux users, the gRPC status appears in the terminal window.
 
-![](../../graphics/gRPC/sherlock_ug_gRPC_3.png)
+![image](/graphics/gRPC/sherlock_ug_gRPC_3.png)
 
 Closing Sherlock or the Sherlock Client Console terminates the connection to
 the gRPC server. You will need to repeat the above procedure to reconnect.
@@ -478,22 +478,22 @@ take you to the GitHub website](https://github.com/uw-labs/bloomrpc/releases)
 where you can download the latest setup file. Once you have installed
 BloomRPC, follow the configuration instructions below.
 
-![](../../graphics/gRPC/sherlock_ug_gRPC_10.png)  
+![image](/graphics/gRPC/sherlock_ug_gRPC_10.png)  
 ---  
   
 Configuring BloomRPC:
 
   1. Open the BloomRPC application.
 
-  2. Load the `.proto` files into BloomRPC by clicking on the ![](../../graphics/gRPC/sherlock_ug_gRPC_1.png) icon in the Protos panel. This will open a file explorer interface. Navigate to your Sherlock installation and select all the Sherlock `.proto` files. (See [the section called "Where to Find the Sherlock .proto Files"](index.md#sherlock_ug_where_to_find_proto_files "Where to Find the Sherlock .proto Files").)
+  2. Load the `.proto` files into BloomRPC by clicking on the ![image](/graphics/gRPC/sherlock_ug_gRPC_1.png) icon in the Protos panel. This will open a file explorer interface. Navigate to your Sherlock installation and select all the Sherlock `.proto` files. (See [the section called "Where to Find the Sherlock .proto Files"](index.md#sherlock_ug_where_to_find_proto_files "Where to Find the Sherlock .proto Files").)
 
   3. When successfully loaded into BloomRPC, the files will appear in the Protos panel.
 
-![](../../graphics/gRPC/sherlock_ug_gRPC_2.png)
+![image](/graphics/gRPC/sherlock_ug_gRPC_2.png)
 
   4. Connect to the server by entering the server address. In this example, 0.0.0.0:9090 is shown, but use whatever port number you chose in the section above, [the section called "Connecting to the Sherlock gRPC Server"](index.md#sherlock_ug_connecting_to_grpc_server "Connecting to the Sherlock gRPC Server") (step 2).
 
-![](../../graphics/gRPC/sherlock_ug_gRPC_4.png)
+![image](/graphics/gRPC/sherlock_ug_gRPC_4.png)
 
 * * *
 
