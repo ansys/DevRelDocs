@@ -1,4 +1,3 @@
-
 # Chapter 1. API Services
 
 Table of Contents
@@ -497,6 +496,5 @@ Configuring BloomRPC:
 
 * * *
 
- |   /   / [Home](../../index.htm)|  [Next](ch01s02.md)  
----|---|---
+ [Home](../../index.htm) / [Next](ch01s02.md)  
 
