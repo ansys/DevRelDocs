@@ -1,3 +1,5 @@
+- name: Introduction
+  href: index.md
 - name: Index to the Sherlock APIs
   href: ch01s02.md
 - name: Sherlock Analysis Service- SherlockAnalysisService.proto
