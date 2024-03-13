@@ -1,5 +1,6 @@
-- name: Global Contents
-  href: global_contents.md
+- name: Introduction
+  href: 01__Introduction_8md.md
+- name: User guide
   items:
   - name: Structures
     href: struct_contents.md
