@@ -1,10 +1,10 @@
-# OSC Protocol {#jpkgaeOSC}
+# OSC Protocol
 
 Open Sound Control \(OSC\) is a protocol for communication among computers, sound synthesizers, and other multimedia devices that is optimized for modern networking technology and has been used
 
-in [many application areas](http://archive.cnmat.berkeley.edu/OpenSoundControl/application-areas.html).
+in <a target="_blank" href="https://cnmat.berkeley.edu/search/node/OSC">many application areas</a>.
 
-OSC was defined and is supported by **CNMAT** of **Berkeley University**[\(http://cnmat.berkeley.edu/](http://cnmat.berkeley.edu/)\)
+OSC was defined and is supported by **CNMAT** of <a target="_blank" href="http://cnmat.berkeley.edu/">Berkeley University</a>.
 
 \(from CNMAT OSC documentation\)
 
@@ -54,13 +54,10 @@ it is an OSC STRING beginning with a comma and followed by as many « type tags 
 
 A TYPE TAG is a set of letter coding the binary data type following. These types used by VR Sound are: \{‘i','f','s'\}
 
--   -   « **i** » integer 32 bits
--   « **f** » for single precision floating point values \(32 bits\)
--   « **s** » OSC String
+- « **i** » integer 32 bits
+- « **f** » for single precision floating point values \(32 bits\)
+- « **s** » OSC String
 
-![](images/img(29).jpg)
+![OSC Communication](images/img29.jpg)
 
-For more information, see the Original CNMAT: [http://archive.cnmat.berkeley.edu/OpenSoundControl/OSC-spec.html](http://archive.cnmat.berkeley.edu/OpenSoundControl/OSC-spec.html)
-
-**Parent topic:**[Communication](../../Sound/UG_VRS/VRS_communication.md)
-
+For more information, see the original <a target="_blank" href="http://cnmat.org/OpenSoundControl/OSC-spec.html">CNMAT</a>.

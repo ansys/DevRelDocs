@@ -72,7 +72,7 @@ An "OSC MESSAGE" contains:
     :   OSC String
 
 
-![](images\sound-css-osc-messaging-format.png "OSC messaging format")
+![](images/sound-css-osc-messaging-format.png "OSC messaging format")
 
 ## References
 
