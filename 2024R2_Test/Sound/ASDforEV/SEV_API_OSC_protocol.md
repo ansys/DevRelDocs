@@ -1,14 +1,14 @@
-# OSC Protocol {#SEV_API_OSC .concept}
+# OSC Protocol
 
-## OSC Standard { .section}
+## OSC Standard
 
-Open Sound Control \("OSC" - [http://opensoundcontrol.org](http://opensoundcontrol.org)\) is a protocol for communication among computers, sound synthesizers, and other multimedia devices that is optimized for modern networking technology and has been used in many application areas. OSC was defined and is supported by CNMAT of Berkeley University \([http://cnmat.berkeley.edu/](http://cnmat.berkeley.edu/)\)
+Open Sound Control \(OSC - [opensoundcontrol.org](http://opensoundcontrol.org)\) is a protocol for communication among computers, sound synthesizers, and other multimedia devices that is optimized for modern networking technology and has been used in many application areas. OSC was defined and is supported by CNMAT of Berkeley University \([cnmat.berkeley.edu/](http://cnmat.berkeley.edu/)\)
 
 The unit of transmission of OSC is an OSC Packet. Any application that sends OSC Packets is an OSC Client. Any application that receives OSC Packets is an OSC Server.
 
-## OSC for Ansys Sound: ASDforEV { .section}
+## OSC for Ansys Sound: ASDforEV
 
-Ansys Sound: ASDforEV communication uses "OSC Messages" only, refer to [open source control documentation](http://opensoundcontrol.org) for more details\).
+Ansys Sound: ASDforEV communication uses **OSC Messages** only. Refer to [open source control documentation](http://opensoundcontrol.org) for more details.
 
 **Ansys Sound: ASDforEV** is the OSC server.
 
@@ -20,7 +20,7 @@ OSC packets are sent from one application to the other using UDP protocol. An OS
 
 Under Windows operating system, OSC data endianness must be in BIG ENDIAN.
 
-*"OSC STRING" is a sequence of non-null ASCII characters followed by a null, followed by 0-3 additional null characters to make the total number of bits a multiple of 32.*
+*OSC STRING is a sequence of non-null ASCII characters followed by a null, followed by 0-3 additional null characters to make the total number of bits a multiple of 32.*
 
 Example 1: the string 'OSC' is coded as follows:
 
@@ -69,11 +69,8 @@ An "OSC MESSAGE" contains:
 
 ![](images/i_SEV_CAN_API_OSC_messaging_format.png "OSC Messaging Format")
 
-## References { .section}
+## References
 
-Original OSC documentation link: [http://opensoundcontrol.org](http://opensoundcontrol.org)
+Original OSC documentation: [opensoundcontrol.org](http://opensoundcontrol.org)
 
-OSCpack is a suitable library for C++ implementation of OSC messages: [http://www.rossbencina.com/code/oscpack](http://www.rossbencina.com/code/oscpack)
-
-**Parent topic:**[Ansys Sound: ASDforEV API Documentation](../../../Sound/UG_ASDforEV/Appendices/SEV_UG_API_doc_header.md)
-
+OSCpack is a suitable library for C++ implementation of OSC messages: [www.rossbencina.com/code/oscpack](http://www.rossbencina.com/code/oscpack)

@@ -239,6 +239,3 @@ Message sent to locate the position of the listener's head for head-tracked bina
  Elevation angle is then rotY with a positive angle when the listener raises the head.
 
 |
-
-**Parent topic:**[API for Direct Driving of Ansys Sound: Car Sound Simulator through UDP](../../Sound/UG_Car/car_ost.md)
-

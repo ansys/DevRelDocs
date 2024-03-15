@@ -1,4 +1,4 @@
-# Ansys Sound: ASDforEV API Messages {#SEV_API_SEV_Driving .concept}
+# Ansys Sound: ASDforEV API Messages
 
 **Ansys Sound: ASDforEV** communicates using OSC MESSAGES sent over UDP: there is one action at a time associated to one message. Each message is composed of a KEYWORD, followed by a single DATA item \(float or string\); the only exception is the message "ACTIVE", for which only the KEYWORD is sent \(no data, cf. below\).
 
@@ -18,12 +18,9 @@ A Max/MSP code example, to send data to ASDforEV, is given in the figure below.
 
 ![](images/i_SEV_CAN_API_data_via_UDP.png "Max/MSP code example to send data to ASDforEV via UDP")
 
--   **[UDP Connection](../../../Sound/UG_ASDforEV/Appendices/SEV_API_UDP_connection.md)**  
+-   **[UDP Connection](SEV_API_UDP_connection.md)**  
 
--   **[Sending Messages to ASDforEV](../../../Sound/UG_ASDforEV/Appendices/SEV_API_sending.md)**  
+-   **[Sending Messages to ASDforEV](SEV_API_sending.md)**  
 Here is the list of messages that can be sent to Ansys Sound: ASDforEV using this API.
--   **[Receiving Messages from ASDforEV](../../../Sound/UG_ASDforEV/Appendices/SEV_API_receiving.md)**  
+-   **[Receiving Messages from ASDforEV](SEV_API_receiving.md)**  
 Here is the list of messages that can be received from ASDforEV using this API.
-
-**Parent topic:**[Ansys Sound: ASDforEV API Documentation](../../../Sound/UG_ASDforEV/Appendices/SEV_UG_API_doc_header.md)
-
