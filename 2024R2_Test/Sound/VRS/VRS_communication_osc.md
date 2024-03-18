@@ -1,14 +1,12 @@
 # OSC Protocol
 
-Open Sound Control \(OSC\) is a protocol for communication among computers, sound synthesizers, and other multimedia devices that is optimized for modern networking technology and has been used
-
-in <a target="_blank" href="https://cnmat.berkeley.edu/search/node/OSC">many application areas</a>.
+Open Sound Control \(OSC\) is a protocol for communication among computers, sound synthesizers, and other multimedia devices that is optimized for modern networking technology and has been used in <a target="_blank" href="https://cnmat.berkeley.edu/search/node/OSC">many application areas</a>.
 
 OSC was defined and is supported by **CNMAT** of <a target="_blank" href="http://cnmat.berkeley.edu/">Berkeley University</a>.
 
-\(from CNMAT OSC documentation\)
+\(from the CNMAT OSC documentation\):
 
-The unit of transmission of OSC is an OSC Packet. Any application that sends OSC Packets is an OSC Client. Any application that receives OSC Packets is an OSC Server.
+>The unit of transmission of OSC is an OSC Packet. Any application that sends OSC Packets is an OSC Client. Any application that receives OSC Packets is an OSC Server.
 
 An OSC packet consists of its contents, a contiguous block of binary data, and its size, the number of 8-bit bytes that comprise the contents. The size of an OSC packet is always a multiple of 4.
 
@@ -36,23 +34,19 @@ Example\_3: the string ‘SPEED' is coded 
 [S]+[P]+[E]+[E]+[D]+[\0]+[\0]+[\0]
 ```
 
-An « OSC MESSAGE » contains :
+An « OSC MESSAGE » contains the following:
 
 ```
 {ADDRESS_PATTERN}{TYPE_TAG_STRING}[binary data]
 ```
 
-1.  A block « ADDRESS PATTERN »: \{\[‘/'\]KEYWORD\}
-
-it is an OSC STRING that starts with the character slash « / ».. Following the slash character one use a KEYWORD explaining the type of audio processing applied on the data passed in argument...
+1. A block such as « ADDRESS PATTERN »: \{\[‘/'\]KEYWORD\} is an OSC STRING that starts with the slash character « / ». Following the slash character one use a KEYWORD explaining the type of audio processing applied on the data passed in argument.
 
 Warning : for VR Sound, the slash \(« / »\) character must NOT appear !
 
-1.  A block « TYPE\_TAG\_STRING » : \{‘,'\[TYPE\_TAG\]\}
+2. A block such as « TYPE\_TAG\_STRING » : \{‘,'\[TYPE\_TAG\]\} is an OSC STRING beginning with a comma and followed by as many « type tags » as the count of following data.
 
-it is an OSC STRING beginning with a comma and followed by as many « type tags » as the count of following data.
-
-A TYPE TAG is a set of letter coding the binary data type following. These types used by VR Sound are: \{‘i','f','s'\}
+A TYPE TAG is a set of letters coding the binary data type following. These types used by VR Sound are: \{‘i','f','s'\}
 
 - « **i** » integer 32 bits
 - « **f** » for single precision floating point values \(32 bits\)

@@ -44,30 +44,27 @@ An "OSC MESSAGE" contains:
 
 \{ADDRESS\_PATTERN\}\{TYPE\_TAG\_STRING\}\{OSC arguments\}
 
-\{ADDRESS\_PATTERN\}
-:   It is an OSC STRING that starts with the character slash "/". Following the slash character, one uses a KEYWORD explaining the type of audio processing applied on the data passed in argument.
+**\{ADDRESS\_PATTERN\}** is an OSC STRING that starts with the character slash "/". Following the slash character, you use a KEYWORD explaining the type of audio processing applied on the data passed in argument.
 
-    Example: \{\[‘/’\]KEYWORD\}
+Example: \{\[‘/’\]KEYWORD\}
 
-    **Important:** For Ansys Sound: ASDforEV , **the slash \("/"\) character must NOT appear**.
+**Important:** For Ansys Sound: ASDforEV , the slash \("/"\) character must **NOT** appear.
 
-\{TYPE\_TAG\_STRING\}
-:   It is an OSC STRING beginning with a comma "," and followed by as many "type tags" as the count of following data.
+**\{TYPE\_TAG\_STRING\}** is an OSC STRING beginning with a comma "," and followed by as many "type tags" as the following data count.
 
-    A TYPE TAG is a set of letters coding the binary data type following.
+A TYPE TAG is a set of letters coding the binary data type following.
 
-    These types used by Car Sound Simulator are \{'i','f','s'\} for:
+These types used by Car Sound Simulator are \{'i','f','s'\} as follows:
 
-    -   "**i**": integer 32 bits
-    -   "**f**": for single precision floating point values \(32 bits\)
-    -   "**s**": OSC String
+- **i** : integer 32 bits
+- **f** : for single precision floating point values \(32 bits\)
+- **s** : OSC String
 
-    Example: \{","\[TYPE\_TAG\]\}
+Example: \{","\[TYPE\_TAG\]\}
 
-\{OSC arguments\}
-:   A sequence of OSC Arguments is represented by a contiguous sequence of the binary representations of each argument.
+**\{OSC arguments\}** is a sequence of OSC Arguments is represented by a contiguous sequence of the binary representations of each argument.
 
-![](images/i_SEV_CAN_API_OSC_messaging_format.png "OSC Messaging Format")
+![OSC Messaging Format](images/i_SEV_CAN_API_OSC_messaging_format.png "OSC Messaging Format")
 
 ## References
 
