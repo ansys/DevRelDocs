@@ -1,14 +1,14 @@
-# Sending Messages to ASDforEV {#SEV_API_sending .reference}
+# Sending Messages to ASDforEV
 
 Here is the list of messages that can be sent to Ansys Sound: ASDforEV using this API.
 
-## General Message { .section}
+## General Message
 
 |Keyword|Data|Comments|
 |-------|----|--------|
 |**ALIVE**|empty|**ALIVE** \(with no DATA\) should be sent every 5 seconds so that ASDforEV can indicate that the CAN bus is still being read by the dedicated application|
 
-## Vehicle Messages { .section}
+## Vehicle Messages
 
 |Keyword|Data|Comments|
 |-------|----|--------|
@@ -19,7 +19,7 @@ Here is the list of messages that can be sent to Ansys Sound: ASDforEV using thi
 |**Torque**|Value \(float\)|Engine torque in N.m|
 |**Brake**|Value \(float\)|Brake pedal position in %|
 
-## Ambiance Messages { .section}
+## Ambiance Messages
 
 |Keyword|Data|Comments|
 |-------|----|--------|
@@ -28,7 +28,7 @@ Here is the list of messages that can be sent to Ansys Sound: ASDforEV using thi
 
 Similar messages are used for sound functions **Ambiance2** and **Ambiance 3**.
 
-## SAF Messages { .section}
+## SAF Messages
 
 |Keyword|Data|Comments|
 |-------|----|--------|
@@ -36,7 +36,7 @@ Similar messages are used for sound functions **Ambiance2** and **Ambiance 3**.
 |**SAF\_Angle**|Value\(float\)|This message sends the values that will control the azimuth angle of the SAF sound function|
 |**SAF\_Diffuseness**|Value\(float\)|This message sends the values that will control the spatialization diffuseness of the SAF sound function|
 
-## ICE-ASD Messages { .section}
+## ICE-ASD Messages
 
 |Keyword|Data|Comments|
 |-------|----|--------|
@@ -46,7 +46,7 @@ Similar messages are used for sound functions **Ambiance2** and **Ambiance 3**.
 |**ICEASD\_Load**|Value\(float\)|This message sends the values that will control the load used to pilot ICE-ASD gain|
 |**ICEASD\_Acceleration**|Value\(float\)|This message sends the values that will control the acceleration used to switch between 2 ICE-ASD datasets, respectively dedicated to acceleration and deceleration phases|
 
-## ADAS Messages { .section}
+## ADAS Messages
 
 |Keyword|Data|Comments|
 |-------|----|--------|
@@ -56,7 +56,7 @@ Similar messages are used for sound functions **Ambiance2** and **Ambiance 3**.
 
 Similar messages are used for sound function **ADAS2** to sound function **ADAS5**.
 
-## HMI Messages { .section}
+## HMI Messages
 
 |Keyword|Data|Comments|
 |-------|----|--------|
@@ -66,7 +66,7 @@ Similar messages are used for sound function **ADAS2** to sound function **ADAS5
 
 Similar messages are used for sound function **HMI2** to sound function **HMI15**.
 
-## Other Messages { .section}
+## Other Messages
 
 |Keyword|Data|Comments|
 |-------|----|--------|
@@ -80,13 +80,10 @@ Similar messages are used for sound function **HMI2** to sound function **HMI15*
 |**Wind**|Value \(float\)|This message sends wind speed values to be used in ASDforEV’s Vehicle data preprocessing|
 |**Time**|Value \(float\)|This message sends time of day values to be used in ASDforEV’s Vehicle data preprocessing|
 
-## Custom Messages {#section_z4y_bys_nrb .section}
+## Custom Messages
 
 |Keyword|Data|Comments|
 |-------|----|--------|
 |**Custom1**|Value \(float\)|This message sends an additional custom parameter's values to be used in ASDforEV’s External data preprocessing|
 
 Similar messages are used for 9 other custom signals, from **Custom2** to **Custom10**.
-
-**Parent topic:**[Ansys Sound: ASDforEV API Messages](../../../Sound/UG_ASDforEV/Appendices/SEV_API_SEV_Driving.md)
-

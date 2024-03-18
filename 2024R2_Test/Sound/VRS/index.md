@@ -1,9 +1,11 @@
-# Ansys Sound: VR Sound User's Guide
+# Ansys Sound: VR Sound API Documentation
 
--   [Communication](Sound/UG_VRS/VRS_communication.md)
-    -   [OSC Protocol](Sound/UG_VRS/VRS_communication_osc.md)
-    -   [Sound Playback Process](Sound/UG_VRS/VRS_communication_sound.md)
-    -   [Messages Format](Sound/UG_VRS/VRS_communication_messages.md)
-    -   [Messages List](Sound/UG_VRS/VRS_communication_messages_list.md)
-    -   [State of the Sound Generator](Sound/UG_VRS/VRS_communication_state.md)
+Ansys Sound: VR Sound can be directly driven using the Open Sound Control Protocol \(OSC\).
 
+This API document describes the communication process and the messages that can be sent to the Ansys Sound: VR Sound application.
+
+- [OSC Protocol](VRS_communication_osc.md)
+- [Sound Playback Process](VRS_communication_sound.md)
+- [Messages Format](VRS_communication_messages.md)
+- [Messages List](VRS_communication_messages_list.md)
+- [State of the Sound Generator](VRS_communication_state.md)

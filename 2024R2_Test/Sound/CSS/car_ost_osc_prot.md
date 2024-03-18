@@ -20,7 +20,7 @@ An OSC packet consists of its contents, a contiguous block of binary data, and i
 
 The contents of an OSC packet must be either an OSC Message or an OSC Bundle. The first byte of the packet's contents unambiguously distinguishes between these two alternatives.
 
-**Note:** **Car Sound Simulator** communication uses only the "OSC MESSAGE".
+**Note:** Car Sound Simulator communication uses only the "OSC MESSAGE".
 
 *"OSC STRING" is a sequence of non-null ASCII characters followed by a null, followed by 0-3 additional null characters to make the total number of bits a multiple of 32.*
 
@@ -68,11 +68,11 @@ An "OSC MESSAGE" contains:
     ***f***
     :   for single precision floating point values \(32 bits\)
 
-   ***s***
+    ***s***
     :   OSC String
 
 
-![](images\sound-css-osc-messaging-format.png "OSC messaging format")
+![](images/sound-css-osc-messaging-format.png "OSC messaging format")
 
 ## References
 
