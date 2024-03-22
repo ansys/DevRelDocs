@@ -10,7 +10,7 @@ Note that **messages are case-sensitive**, both for KEYWORDS and string DATA.
 
 A Max/MSP code example, to send data to ASDforEV, is given in the figure below.
 
-![](images/i_SEV_CAN_API_data_via_UDP.png "Max/MSP code example to send data to ASDforEV via UDP")
+![Max/MSP code example to send data to ASDforEV via UDP](images/i_SEV_CAN_API_data_via_UDP.png)
 
 - **[UDP Connection](SEV_API_UDP_connection.md)**  
 

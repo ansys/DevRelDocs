@@ -64,7 +64,7 @@ Example: \{","\[TYPE\_TAG\]\}
 
 **\{OSC arguments\}** is a sequence of OSC Arguments is represented by a contiguous sequence of the binary representations of each argument.
 
-![OSC Messaging Format](images/i_SEV_CAN_API_OSC_messaging_format.png "OSC Messaging Format")
+![OSC Messaging Format](images/i_SEV_CAN_API_OSC_messaging_format.png)
 
 ## References
 
