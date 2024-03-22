@@ -1,4 +1,4 @@
-# Ansys Sound: VR Sound API Documentation
+# Introduction
 
 Ansys Sound: VR Sound can be directly driven using the Open Sound Control Protocol \(OSC\).
 
