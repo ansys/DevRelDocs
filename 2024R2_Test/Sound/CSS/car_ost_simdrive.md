@@ -6,7 +6,7 @@ Car Sound Simulator is driven by OSC MESSAGES sent over UDP,  with each action a
 
 Basic management for the sound generator
 
-### Messages sent once by state change
+#### Messages sent once by state change
 
 |KEY WORD (Address Pattern)|TYPE   |Comments|
 |--------------------------|-------|--------|
@@ -16,7 +16,7 @@ Basic management for the sound generator
 |DSP\_STOP| |Stops the MAX/Msp Audio Engine \(sound off\)|
 |START\_KEY|Integer|Position of the start key : <ul><li>0 : off</li><li>1 : contact</li><li>2 : on</li><li>3 : start</li></ul>|
 
-### Messages sent regularly
+#### Messages sent regularly
 
 |KEY WORD (Address Pattern)|TYPE   |Comments|
 |--------------------------|-------|--------|
@@ -32,14 +32,14 @@ The exploiting application handles up to 8 traffic vehicles, corresponding to 8 
 
 Angles are in radians, 0 is a front source, -pi/2 is left, +pi/2 is right. Angles superior to pi or inferior to -pi are accepted
 
-### Messages sent once by state change
+#### Messages sent once by state change
 
 |KEY WORD (Address Pattern)|TYPE   |Comments|
 |--------------------------|-------|--------|
 |TRAFIC_INIT|Slot index \(Int\)<br> Vehicle type (int)<br> Distance (float en m)<br> Azimuth (en rad) <br> Absolute speed (float in m/s)|Traffic synthesis initialization at slot index.<br>\(1<=slot index<=8\)<br> Type: <ul><li>0 = unknown</li><li>1 = car</li><li>2 = truck/bus</li><li>3 = motorbike</li></ul>|
 |TRAFIC\_STOP|slot index \(Int\)|Traffic sound synthesis stopped at slot index \(1<=slot index<=8\)|
 
-### Messages sent regularly
+#### Messages sent regularly
 
 |KEY WORD (Address Pattern)|TYPE   |Comments|
 |--------------------------|-------|--------|
@@ -50,7 +50,7 @@ Angles are in radians, 0 is a front source, -pi/2 is left, +pi/2 is right. Angle
 
 The application handles up to 10 harmonic sources. Each of them can be controlled with the following messages:
 
-### Messages sent once by state change
+#### Messages sent once by state change
 
 KEY WORD (Address Pattern)|TYPE   |Comments|
 |-------------------------|-------|--------|
@@ -72,7 +72,7 @@ KEY WORD (Address Pattern)|TYPE   |Comments|
 
 Tires Noise has to be updated for each wheel by providing information about the current slippyness
 
-### Messages sent once by state change
+#### Messages sent once by state change
 
 <table>
                     <thead>
@@ -126,7 +126,7 @@ Tires Noise has to be updated for each wheel by providing information about the 
 
 Weather noise management
 
-### Messages sent once by state change
+#### Messages sent once by state change
 
 |KEY WORD \(Address Pattern\)|TYPE & COMMENTS|
 |----------------------------|---------------|
@@ -136,7 +136,7 @@ Weather noise management
 ## Additional noises
 
 Loading orders of additional simulation noises.
-### Messages sent once by state change.
+#### Messages sent once by state change.
 
 |KEY WORD \(Address Pattern\)|TYPE|COMMENTS|
 |----------------------------|----|--------|
@@ -163,7 +163,7 @@ Notes:
 -   the slots indexes are \>=1 and <=10
 -   .wav extension is appended to the file name
 
-### Messages sent once by state change
+#### Messages sent once by state change
 
 <table>
     <thead>
@@ -252,7 +252,7 @@ Notes:
 
 Messages sent to the main simulation application when required.
 
-### Messages sent once by state change
+#### Messages sent once by state change
 
 |KEY WORD \(Address Pattern\)|TYPE|COMMENTS|
 |----------------------------|----|--------|
@@ -263,7 +263,7 @@ Messages sent to the main simulation application when required.
 
 The main simulation application has to start and stop Car Sound Simulator.
 
-### Message sent periodically to the main application.
+#### Message sent periodically to the main application.
 
 |KEY WORD \(Address Pattern\)|TYPE|COMMENTS|
 |----------------------------|----|--------|
@@ -273,7 +273,7 @@ The main simulation application has to start and stop Car Sound Simulator.
 
 Message sent to locate the position of the listener's head for head-tracked binaural rendering
 
-### Message sent periodically to the main application
+#### Message sent periodically to the main application
 
 <table>
                     <thead>
