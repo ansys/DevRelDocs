@@ -2660,198 +2660,142 @@
             - name: VectorHeatFlux
               href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\ThermalResults\VectorHeatFlux.md
               items:
-      - name: BrowserQt
-        href: api\ansys\mechanical\stubs\Ansys\ACT\Common\BrowserQt.md
-        items:
-      - name: CoordinateSystem
-        href: api\ansys\mechanical\stubs\Ansys\ACT\Common\CoordinateSystem.md
-        items:
       - name: The `Common` package
         href: api\ansys\mechanical\stubs\Ansys\ACT\Common\index.md
-        items:
-      - name: SimpleTransform
-        href: api\ansys\mechanical\stubs\Ansys\ACT\Common\SimpleTransform.md
-        items:
-        - name: DMCameraWrapper
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Common\Graphics\DMCameraWrapper.md
-          items:
-        - name: DMGraphicsWrapper
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Common\Graphics\DMGraphicsWrapper.md
-          items:
+        items:      
         - name: The `Graphics` package
           href: api\ansys\mechanical\stubs\Ansys\ACT\Common\Graphics\index.md
           items:
-        - name: MechanicalCameraWrapper
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Common\Graphics\MechanicalCameraWrapper.md
-          items:
-        - name: MechanicalGraphicsWrapper
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Common\Graphics\MechanicalGraphicsWrapper.md
-          items:
-        - name: ModelViewManager
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Common\Graphics\ModelViewManager.md
-          items:
+          - name: DMCameraWrapper
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Common\Graphics\DMCameraWrapper.md
+          - name: MechanicalCameraWrapper
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Common\Graphics\MechanicalCameraWrapper.md
+          - name: MechanicalGraphicsWrapper
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Common\Graphics\MechanicalGraphicsWrapper.md
+          - name: DMGraphicsWrapper
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Common\Graphics\DMGraphicsWrapper.md
+          - name: ModelViewManager
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Common\Graphics\ModelViewManager.md
+        - name: BrowserQt
+          href: api\ansys\mechanical\stubs\Ansys\ACT\Common\BrowserQt.md
+        - name: CoordinateSystem
+          href: api\ansys\mechanical\stubs\Ansys\ACT\Common\CoordinateSystem.md
+        - name: SimpleTransform
+          href: api\ansys\mechanical\stubs\Ansys\ACT\Common\SimpleTransform.md      
       - name: The `DesignModeler` package
         href: api\ansys\mechanical\stubs\Ansys\ACT\DesignModeler\index.md
         items:
         - name: The `Primitives` package
           href: api\ansys\mechanical\stubs\Ansys\ACT\DesignModeler\Primitives\index.md
           items:
-          - name: Cylinder
-            href: api\ansys\mechanical\stubs\Ansys\ACT\DesignModeler\Primitives\Sheet\Cylinder.md
-            items:
           - name: The `Sheet` package
             href: api\ansys\mechanical\stubs\Ansys\ACT\DesignModeler\Primitives\Sheet\index.md
-            items:
+            items:         
+            - name: Cylinder
+              href: api\ansys\mechanical\stubs\Ansys\ACT\DesignModeler\Primitives\Sheet\Cylinder.md
       - name: The `Interfaces` package
         href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\index.md
         items:
-        - name: IDesignModelerDataModel
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IDesignModelerDataModel.md
-          items:
-        - name: IDesignModelerExtAPI
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IDesignModelerExtAPI.md
-          items:
-        - name: IDesignModelerGeoData
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IDesignModelerGeoData.md
-          items:
-        - name: IDesignModelerGeoFeature
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IDesignModelerGeoFeature.md
-          items:
-        - name: IDesignModelerSelectionInfo
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IDesignModelerSelectionInfo.md
-          items:
-        - name: IExtrude
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IExtrude.md
-          items:
-        - name: IGeometryBuilder
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IGeometryBuilder.md
-          items:
-        - name: IIntersect
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IIntersect.md
-          items:
         - name: The `DesignModeler` package
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\index.md
-          items:
-        - name: IOperations
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IOperations.md
-          items:
-        - name: IOperationTools
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IOperationTools.md
-          items:
-        - name: IPrimitives
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IPrimitives.md
-          items:
-        - name: IPSGeoBody
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IPSGeoBody.md
-          items:
-        - name: IPSGeoEdge
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IPSGeoEdge.md
-          items:
-        - name: IPSGeoEntity
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IPSGeoEntity.md
-          items:
-        - name: IPSGeoFace
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IPSGeoFace.md
-          items:
-        - name: IPSGeoPart
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IPSGeoPart.md
-          items:
-        - name: IQueries
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IQueries.md
-          items:
-        - name: IRevolve
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IRevolve.md
-          items:
-        - name: ISheetCone
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\ISheetCone.md
-          items:
-        - name: ISheetCylinder
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\ISheetCylinder.md
-          items:
-        - name: ISheetPolygon
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\ISheetPolygon.md
-          items:
-        - name: ISheets
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\ISheets.md
-          items:
-        - name: ISheetSphere
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\ISheetSphere.md
-          items:
-        - name: ISolidBox
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\ISolidBox.md
-          items:
-        - name: ISolidCone
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\ISolidCone.md
-          items:
-        - name: ISolidCylinder
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\ISolidCylinder.md
-          items:
-        - name: ISolids
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\ISolids.md
-          items:
-        - name: ISolidSphere
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\ISolidSphere.md
-          items:
-        - name: ISubtract
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\ISubtract.md
-          items:
-        - name: IUnion
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IUnion.md
-          items:
-        - name: IWireArc
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IWireArc.md
-          items:
-        - name: IWireBCurve
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IWireBCurve.md
-          items:
-        - name: IWireEllipse
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IWireEllipse.md
-          items:
-        - name: IWirePolyline
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IWirePolyline.md
-          items:
-        - name: IWires
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IWires.md
-          items:
-        - name: IModelViewManager
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\Graphics\IModelViewManager.md
-          items:
+          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\index.md       
+          - name: IDesignModelerDataModel
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IDesignModelerDataModel.md
+          - name: IDesignModelerExtAPI
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IDesignModelerExtAPI.md
+          - name: IDesignModelerGeoData
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IDesignModelerGeoData.md
+          - name: IDesignModelerGeoFeature
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IDesignModelerGeoFeature.md
+          - name: IDesignModelerSelectionInfo
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IDesignModelerSelectionInfo.md
+          - name: IExtrude
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IExtrude.md
+          - name: IGeometryBuilder
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IGeometryBuilder.md
+          - name: IIntersect
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IIntersect.md
+          - name: IOperations
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IOperations.md
+          - name: IOperationTools
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IOperationTools.md
+          - name: IPrimitives
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IPrimitives.md
+          - name: IPSGeoBody
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IPSGeoBody.md
+          - name: IPSGeoEdge
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IPSGeoEdge.md
+          - name: IPSGeoEntity
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IPSGeoEntity.md
+          - name: IPSGeoFace
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IPSGeoFace.md
+          - name: IPSGeoPart
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IPSGeoPart.md
+          - name: IQueries
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IQueries.md
+          - name: IRevolve
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IRevolve.md
+          - name: ISheetCone
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\ISheetCone.md
+          - name: ISheetCylinder
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\ISheetCylinder.md
+          - name: ISheetPolygon
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\ISheetPolygon.md
+          - name: ISheets
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\ISheets.md
+          - name: ISheetSphere
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\ISheetSphere.md
+          - name: ISolidBox
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\ISolidBox.md
+          - name: ISolidCone
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\ISolidCone.md
+          - name: ISolidCylinder
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\ISolidCylinder.md
+          - name: ISolids
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\ISolids.md
+          - name: ISolidSphere
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\ISolidSphere.md
+          - name: ISubtract
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\ISubtract.md
+          - name: IUnion
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IUnion.md
+          - name: IWireArc
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IWireArc.md
+          - name: IWireBCurve
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IWireBCurve.md
+          - name: IWireEllipse
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IWireEllipse.md
+          - name: IWirePolyline
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IWirePolyline.md
+          - name: IWires
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IWires.md
         - name: The `Graphics` package
           href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\Graphics\index.md
           items:
-        - name: IMechanicalDataModel
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\Mechanical\IMechanicalDataModel.md
+          - name: IModelViewManager
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\Graphics\IModelViewManager.md
+        - name: The `Mechanical` package
+          href: api\ansys\mechanical\stubs\Ansys\ACT\Mechanical\index.md
           items:
-        - name: IMechanicalExtAPI
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\Mechanical\IMechanicalExtAPI.md
-          items:
-        - name: IMechanicalGraphics
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\Mechanical\IMechanicalGraphics.md
-          items:
-        - name: IMechanicalSelectionInfo
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\Mechanical\IMechanicalSelectionInfo.md
-          items:
-        - name: IMechanicalUserLoad
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\Mechanical\IMechanicalUserLoad.md
-          items:
-        - name: IMechanicalUserObject
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\Mechanical\IMechanicalUserObject.md
-          items:
-        - name: IMechanicalUserResult
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\Mechanical\IMechanicalUserResult.md
-          items:
-        - name: IMechanicalUserSolver
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\Mechanical\IMechanicalUserSolver.md
-          items:
+          - name: IMechanicalDataModel
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\Mechanical\IMechanicalDataModel.md
+          - name: IMechanicalExtAPI
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\Mechanical\IMechanicalExtAPI.md
+          - name: IMechanicalGraphics
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\Mechanical\IMechanicalGraphics.md
+          - name: IMechanicalSelectionInfo
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\Mechanical\IMechanicalSelectionInfo.md
+          - name: IMechanicalUserLoad
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\Mechanical\IMechanicalUserLoad.md
+          - name: IMechanicalUserObject
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\Mechanical\IMechanicalUserObject.md
+          - name: IMechanicalUserResult
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\Mechanical\IMechanicalUserResult.md
+          - name: IMechanicalUserSolver
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\Mechanical\IMechanicalUserSolver.md
+          - name: MechanicalPanelEnum
+            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\Mechanical\MechanicalPanelEnum.md
         - name: The `Mechanical` package
           href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\Mechanical\index.md
-          items:
-        - name: MechanicalPanelEnum
-          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\Mechanical\MechanicalPanelEnum.md
-          items:
-      - name: The `Mechanical` package
-        href: api\ansys\mechanical\stubs\Ansys\ACT\Mechanical\index.md
-        items:
       - name: Transaction
         href: api\ansys\mechanical\stubs\Ansys\ACT\Mechanical\Transaction.md
         items:
