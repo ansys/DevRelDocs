@@ -2698,76 +2698,76 @@
         items:
         - name: The `DesignModeler` package
           href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\index.md       
-          - name: IDesignModelerDataModel
-            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IDesignModelerDataModel.md
-          - name: IDesignModelerExtAPI
-            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IDesignModelerExtAPI.md
-          - name: IDesignModelerGeoData
-            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IDesignModelerGeoData.md
-          - name: IDesignModelerGeoFeature
-            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IDesignModelerGeoFeature.md
-          - name: IDesignModelerSelectionInfo
-            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IDesignModelerSelectionInfo.md
-          - name: IExtrude
-            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IExtrude.md
-          - name: IGeometryBuilder
-            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IGeometryBuilder.md
-          - name: IIntersect
-            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IIntersect.md
-          - name: IOperations
-            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IOperations.md
-          - name: IOperationTools
-            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IOperationTools.md
-          - name: IPrimitives
-            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IPrimitives.md
-          - name: IPSGeoBody
-            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IPSGeoBody.md
-          - name: IPSGeoEdge
-            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IPSGeoEdge.md
-          - name: IPSGeoEntity
-            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IPSGeoEntity.md
-          - name: IPSGeoFace
-            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IPSGeoFace.md
-          - name: IPSGeoPart
-            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IPSGeoPart.md
-          - name: IQueries
-            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IQueries.md
-          - name: IRevolve
-            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IRevolve.md
-          - name: ISheetCone
-            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\ISheetCone.md
-          - name: ISheetCylinder
-            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\ISheetCylinder.md
-          - name: ISheetPolygon
-            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\ISheetPolygon.md
-          - name: ISheets
-            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\ISheets.md
-          - name: ISheetSphere
-            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\ISheetSphere.md
-          - name: ISolidBox
-            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\ISolidBox.md
-          - name: ISolidCone
-            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\ISolidCone.md
-          - name: ISolidCylinder
-            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\ISolidCylinder.md
-          - name: ISolids
-            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\ISolids.md
-          - name: ISolidSphere
-            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\ISolidSphere.md
-          - name: ISubtract
-            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\ISubtract.md
-          - name: IUnion
-            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IUnion.md
-          - name: IWireArc
-            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IWireArc.md
-          - name: IWireBCurve
-            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IWireBCurve.md
-          - name: IWireEllipse
-            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IWireEllipse.md
-          - name: IWirePolyline
-            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IWirePolyline.md
-          - name: IWires
-            href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IWires.md
+        - name: IDesignModelerDataModel
+          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IDesignModelerDataModel.md
+        - name: IDesignModelerExtAPI
+          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IDesignModelerExtAPI.md
+        - name: IDesignModelerGeoData
+          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IDesignModelerGeoData.md
+        - name: IDesignModelerGeoFeature
+          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IDesignModelerGeoFeature.md
+        - name: IDesignModelerSelectionInfo
+          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IDesignModelerSelectionInfo.md
+        - name: IExtrude
+          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IExtrude.md
+        - name: IGeometryBuilder
+          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IGeometryBuilder.md
+        - name: IIntersect
+          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IIntersect.md
+        - name: IOperations
+          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IOperations.md
+        - name: IOperationTools
+          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IOperationTools.md
+        - name: IPrimitives
+          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IPrimitives.md
+        - name: IPSGeoBody
+          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IPSGeoBody.md
+        - name: IPSGeoEdge
+          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IPSGeoEdge.md
+        - name: IPSGeoEntity
+          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IPSGeoEntity.md
+        - name: IPSGeoFace
+          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IPSGeoFace.md
+        - name: IPSGeoPart
+          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IPSGeoPart.md
+        - name: IQueries
+          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IQueries.md
+        - name: IRevolve
+          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IRevolve.md
+        - name: ISheetCone
+          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\ISheetCone.md
+        - name: ISheetCylinder
+          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\ISheetCylinder.md
+        - name: ISheetPolygon
+          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\ISheetPolygon.md
+        - name: ISheets
+          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\ISheets.md
+        - name: ISheetSphere
+          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\ISheetSphere.md
+        - name: ISolidBox
+          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\ISolidBox.md
+        - name: ISolidCone
+          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\ISolidCone.md
+        - name: ISolidCylinder
+          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\ISolidCylinder.md
+        - name: ISolids
+          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\ISolids.md
+        - name: ISolidSphere
+          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\ISolidSphere.md
+        - name: ISubtract
+          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\ISubtract.md
+        - name: IUnion
+          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IUnion.md
+        - name: IWireArc
+          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IWireArc.md
+        - name: IWireBCurve
+          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IWireBCurve.md
+        - name: IWireEllipse
+          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IWireEllipse.md
+        - name: IWirePolyline
+          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IWirePolyline.md
+        - name: IWires
+          href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\DesignModeler\IWires.md
         - name: The `Graphics` package
           href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\Graphics\index.md
           items:
