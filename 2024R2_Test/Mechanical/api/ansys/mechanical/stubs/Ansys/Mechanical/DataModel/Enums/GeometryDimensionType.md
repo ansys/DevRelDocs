@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Volume`](../../../ACT/Automation/Mechanical/Results/Volume.md#Volume)   |    |
+| Name | Summary |
 |---------------------------------------------------------------------------|----|
+| [`Volume`](../../../ACT/Automation/Mechanical/Results/Volume.md#Volume)   |    |
 | [`Surface`](../../../ACT/Automation/Mechanical/Surface.md#Surface)        |    |
 
 <a id="import-detail"></a>

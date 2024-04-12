@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Adjustment`](#BoltResultType.Adjustment)   |    |
+| Name | Summary |
 |----------------------------------------------|----|
+| [`Adjustment`](#BoltResultType.Adjustment)   |    |
 | [`WorkingLoad`](#BoltResultType.WorkingLoad) |    |
 
 <a id="import-detail"></a>

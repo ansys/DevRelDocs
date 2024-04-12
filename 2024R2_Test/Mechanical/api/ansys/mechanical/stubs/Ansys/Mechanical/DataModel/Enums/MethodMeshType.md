@@ -20,8 +20,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Quad`](#MethodMeshType.Quad)         |    |
+| Name | Summary |
 |----------------------------------------|----|
+| [`Quad`](#MethodMeshType.Quad)         |    |
 | [`Triangle`](#MethodMeshType.Triangle) |    |
 
 <a id="import-detail"></a>

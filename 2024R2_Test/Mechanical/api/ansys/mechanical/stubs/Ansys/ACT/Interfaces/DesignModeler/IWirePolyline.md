@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Points`](#IWirePolyline.Points)   | Gets or sets the list of points (x1, y1, z1, x2, y2, z2, …).   |
+| Name | Summary |
 |-------------------------------------|----------------------------------------------------------------|
+| [`Points`](#IWirePolyline.Points)   | Gets or sets the list of points (x1, y1, z1, x2, y2, z2, …).   |
 
 <a id="import-detail"></a>
 

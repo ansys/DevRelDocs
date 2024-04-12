@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Unknown`](#TopoEnvironmentType.Unknown)                         |    |
+| Name | Summary |
 |-------------------------------------------------------------------|----|
+| [`Unknown`](#TopoEnvironmentType.Unknown)                         |    |
 | [`AllStaticStructural`](#TopoEnvironmentType.AllStaticStructural) |    |
 | [`AllModal`](#TopoEnvironmentType.AllModal)                       |    |
 

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`DefinedByGeometry`](#PhaseType.DefinedByGeometry)          |    |
+| Name | Summary |
 |--------------------------------------------------------------|----|
+| [`DefinedByGeometry`](#PhaseType.DefinedByGeometry)          |    |
 | [`LiquidGas`](#PhaseType.LiquidGas)                          |    |
 | [`Solid`](../../../ACT/Automation/Mechanical/Solid.md#Solid) |    |
 

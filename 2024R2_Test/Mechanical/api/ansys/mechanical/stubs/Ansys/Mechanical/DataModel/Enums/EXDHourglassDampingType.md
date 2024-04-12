@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ADStandard`](#EXDHourglassDampingType.ADStandard)                 |    |
+| Name | Summary |
 |---------------------------------------------------------------------|----|
+| [`ADStandard`](#EXDHourglassDampingType.ADStandard)                 |    |
 | [`FlanaganBelytschko`](#EXDHourglassDampingType.FlanaganBelytschko) |    |
 
 <a id="import-detail"></a>

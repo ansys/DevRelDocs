@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GenerateMesh`](#RepairTopology.GenerateMesh)                       | Generate the Mesh.                                                                |
+| Name | Summary |
 |----------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GenerateMesh`](#RepairTopology.GenerateMesh)                       | Generate the Mesh.                                                                |
 | [`RenameBasedOnDefinition`](#RepairTopology.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#RepairTopology.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                | Gets the list of children, filtered by type.                                      |
@@ -40,8 +41,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`PinchTolerance`](#RepairTopology.PinchTolerance)                                                                     | Gets or sets the PinchTolerance.                              |
 | [`SharpAngle`](#RepairTopology.SharpAngle)                                                                             | Gets or sets the SharpAngle.                                  |
 | [`ShortEdgeLength`](#RepairTopology.ShortEdgeLength)                                                                   | Gets or sets the ShortEdgeLength.                             |

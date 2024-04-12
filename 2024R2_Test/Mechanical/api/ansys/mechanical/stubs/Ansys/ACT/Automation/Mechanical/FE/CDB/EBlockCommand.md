@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Elements`](#EBlockCommand.Elements)   | Gets the elements.      |
+| Name | Summary |
 |-----------------------------------------|-------------------------|
+| [`Elements`](#EBlockCommand.Elements)   | Gets the elements.      |
 | [`Name`](#EBlockCommand.Name)           | Gets the command name.  |
 | [`Index`](#EBlockCommand.Index)         | Gets the command index. |
 

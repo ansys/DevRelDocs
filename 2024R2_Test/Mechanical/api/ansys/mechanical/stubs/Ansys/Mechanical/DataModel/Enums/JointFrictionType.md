@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ProgramControlled`](#JointFrictionType.ProgramControlled)             |    |
+| Name | Summary |
 |-------------------------------------------------------------------------|----|
+| [`ProgramControlled`](#JointFrictionType.ProgramControlled)             |    |
 | [`ForcedFrictionalSliding`](#JointFrictionType.ForcedFrictionalSliding) |    |
 | [`FrictionWithTransitions`](#JointFrictionType.FrictionWithTransitions) |    |
 

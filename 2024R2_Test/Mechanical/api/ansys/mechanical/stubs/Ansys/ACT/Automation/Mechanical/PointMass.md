@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`PromoteToRemotePoint`](#PointMass.PromoteToRemotePoint)       | Run the PromoteToRemotePoint action.                                              |
+| Name | Summary |
 |-----------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`PromoteToRemotePoint`](#PointMass.PromoteToRemotePoint)       | Run the PromoteToRemotePoint action.                                              |
 | [`AddCommandSnippet`](#PointMass.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
 | [`Delete`](#PointMass.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                           | Gets the list of children, filtered by type.                                      |
@@ -40,8 +41,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`ElementAPDLName`](#PointMass.ElementAPDLName)                                                                     | Gets or sets the ElementAPDLName.                             |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`ElementAPDLName`](#PointMass.ElementAPDLName)                                                                     | Gets or sets the ElementAPDLName.                             |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`Material`](Material.md#Material)                                                                                  | Gets or sets the Material.                                    |
 | [`BeamRadius`](#PointMass.BeamRadius)                                                                               | Gets or sets the BeamRadius.                                  |

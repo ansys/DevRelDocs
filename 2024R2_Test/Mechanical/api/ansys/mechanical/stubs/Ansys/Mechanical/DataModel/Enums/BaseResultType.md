@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`CenterOfGravity`](#BaseResultType.CenterOfGravity)                                                 |    |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------|----|
+| [`CenterOfGravity`](#BaseResultType.CenterOfGravity)                                                 |    |
 | [`Mass`](#BaseResultType.Mass)                                                                       |    |
 | [`MomentOfInertia`](#BaseResultType.MomentOfInertia)                                                 |    |
 | [`Rotation`](#BaseResultType.Rotation)                                                               |    |

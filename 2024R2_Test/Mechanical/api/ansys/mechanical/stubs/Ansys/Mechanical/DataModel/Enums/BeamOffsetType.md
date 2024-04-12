@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Centroid`](#BeamOffsetType.Centroid)                             |    |
+| Name | Summary |
 |--------------------------------------------------------------------|----|
+| [`Centroid`](#BeamOffsetType.Centroid)                             |    |
 | [`CoordinateSystemOrigin`](#BeamOffsetType.CoordinateSystemOrigin) |    |
 | [`ShearCenter`](#BeamOffsetType.ShearCenter)                       |    |
 | [`UserDefined`](#BeamOffsetType.UserDefined)                       |    |

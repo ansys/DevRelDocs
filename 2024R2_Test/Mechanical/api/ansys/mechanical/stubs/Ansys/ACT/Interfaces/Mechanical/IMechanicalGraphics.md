@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`ModelViewManager`](../../Common/Graphics/ModelViewManager.md#ModelViewManager)   | An instance of the ModelViewManager.   |
+| Name | Summary |
 |------------------------------------------------------------------------------------|----------------------------------------|
+| [`ModelViewManager`](../../Common/Graphics/ModelViewManager.md#ModelViewManager)   | An instance of the ModelViewManager.   |
 | [`SectionPlanes`](../../../Mechanical/Graphics/SectionPlanes.md#SectionPlanes)     | An instance of the SectionPlanes.      |
 
 <a id="import-detail"></a>

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ExportAnimation`](#BearingProbe.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| Name | Summary |
 |--------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ExportAnimation`](#BearingProbe.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
 | [`ClearGeneratedData`](#BearingProbe.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`DuplicateWithoutResults`](#BearingProbe.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
 | [`EvaluateAllResults`](#BearingProbe.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
@@ -44,8 +45,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.                                                                                                                         |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.                                                                                                                         |
 | [`ScaleFactorValue`](#BearingProbe.ScaleFactorValue)                                                                      | Gets or sets the ScaleFactorValue.                                                                                                                                         |
 | [`ReportedFrequency`](#BearingProbe.ReportedFrequency)                                                                    | Gets the ReportedFrequency.                                                                                                                                                |
 | [`DampingForce1`](#BearingProbe.DampingForce1)                                                                            | Gets the DampingForce1.                                                                                                                                                    |

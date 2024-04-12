@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`ObjectSelection`](#ChartXAxis.ObjectSelection)   | Gets or sets the object being used to control the X Axis. Setting to None returns to common independent variable.   |
+| Name | Summary |
 |----------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| [`ObjectSelection`](#ChartXAxis.ObjectSelection)   | Gets or sets the object being used to control the X Axis. Setting to None returns to common independent variable.   |
 | [`ComponentIndex`](#ChartXAxis.ComponentIndex)     | Gets or sets the component index for the chart.                                                                     |
 
 <a id="import-detail"></a>

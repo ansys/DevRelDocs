@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`AutoDetectionValue`](#ContactPinballType.AutoDetectionValue)   |    |
+| Name | Summary |
 |------------------------------------------------------------------|----|
+| [`AutoDetectionValue`](#ContactPinballType.AutoDetectionValue)   |    |
 | [`Factor`](#ContactPinballType.Factor)                           |    |
 | [`Radius`](#ContactPinballType.Radius)                           |    |
 | [`ProgramControlled`](#ContactPinballType.ProgramControlled)     |    |

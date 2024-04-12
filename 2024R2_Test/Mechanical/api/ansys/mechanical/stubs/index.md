@@ -1,7 +1,3 @@
-<a id="module-ansys.mechanical.stubs"></a>
-
-<a id="the-ansys-mechanical-stubs-library"></a>
-
 # The `ansys.mechanical.stubs` library
 
 <a id="summary"></a>
@@ -10,13 +6,15 @@
 
 ### Subpackages
 
-| [`Ansys`](Ansys/index.md#module-ansys.mechanical.stubs.Ansys)   |    |
+| Name | Summary |
 |-----------------------------------------------------------------|----|
+| [`Ansys`](Ansys/index.md#module-ansys.mechanical.stubs.Ansys)   |    |
 
 ### Attributes
 
-| [`patch`](#stubs.patch)               | Patch version for the ansys-mechanical-stubs package.            |
+| Name | Summary |
 |---------------------------------------|------------------------------------------------------------------|
+| [`patch`](#stubs.patch)               | Patch version for the ansys-mechanical-stubs package.            |
 | [`version_info`](#stubs.version_info) | Mechanical version with patch version of ansys-mechanical-stubs. |
 | [`__version__`](#stubs.__version__)   | Mechanical Scripting version.                                    |
 

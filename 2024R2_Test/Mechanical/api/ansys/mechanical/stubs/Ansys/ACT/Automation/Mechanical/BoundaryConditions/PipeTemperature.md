@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetActivateAtLoadStep`](#PipeTemperature.GetActivateAtLoadStep)     | GetActivateAtLoadStep method.                                                     |
+| Name | Summary |
 |-----------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetActivateAtLoadStep`](#PipeTemperature.GetActivateAtLoadStep)     | GetActivateAtLoadStep method.                                                     |
 | [`SetActivateAtLoadStep`](#PipeTemperature.SetActivateAtLoadStep)     | SetActivateAtLoadStep method.                                                     |
 | [`PromoteToNamedSelection`](#PipeTemperature.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
 | [`Delete`](#PipeTemperature.Delete)                                   | Run the Delete action.                                                            |
@@ -41,8 +42,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`NumberOfSegments`](#PipeTemperature.NumberOfSegments)                                                                | Gets or sets the NumberOfSegments.                            |
 | [`Magnitude`](#PipeTemperature.Magnitude)                                                                              | Gets the Magnitude.                                           |
 | [`RangeMaximum`](#PipeTemperature.RangeMaximum)                                                                        | Gets or sets the RangeMaximum.                                |

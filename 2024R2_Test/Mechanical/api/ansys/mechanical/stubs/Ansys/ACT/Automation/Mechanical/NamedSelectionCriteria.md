@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Add`](#NamedSelectionCriteria.Add)           | Adds the given criterion to the collection.                                                                          |
+| Name | Summary |
 |------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+| [`Add`](#NamedSelectionCriteria.Add)           | Adds the given criterion to the collection.                                                                          |
 | [`Clear`](#NamedSelectionCriteria.Clear)       | Clears the collection.                                                                                               |
 | [`Contains`](#NamedSelectionCriteria.Contains) | Returns whether the collection contains the given criterion.                                                         |
 | [`IndexOf`](#NamedSelectionCriteria.IndexOf)   | Returns the index of the given criterion if it exists in the collection.  Returns -1 if it does not                  |
@@ -29,8 +30,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Count`](#NamedSelectionCriteria.Count)   | The number of criteria in the collection.   |
+| Name | Summary |
 |--------------------------------------------|---------------------------------------------|
+| [`Count`](#NamedSelectionCriteria.Count)   | The number of criteria in the collection.   |
 | [`Item`](#NamedSelectionCriteria.Item)     | Item property.                              |
 
 <a id="import-detail"></a>

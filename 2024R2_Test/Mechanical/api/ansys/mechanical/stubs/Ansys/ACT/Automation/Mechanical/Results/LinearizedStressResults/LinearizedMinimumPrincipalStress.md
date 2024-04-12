@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#LinearizedMinimumPrincipalStress.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#LinearizedMinimumPrincipalStress.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#LinearizedMinimumPrincipalStress.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#LinearizedMinimumPrincipalStress.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#LinearizedMinimumPrincipalStress.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
@@ -49,8 +50,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                                                    | Gets the internal object. For advanced usage only.                     |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                                                    | Gets the internal object. For advanced usage only.                     |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory)                   | Gets the current DataModelObject’s category.                           |
 | [`ZeroThroughThicknessBendingStress`](#LinearizedMinimumPrincipalStress.ZeroThroughThicknessBendingStress)                                  | Gets or sets the ZeroThroughThicknessBendingStress.                    |
 | [`LoadMultiplier`](#LinearizedMinimumPrincipalStress.LoadMultiplier)                                                                        | Gets the LoadMultiplier.                                               |

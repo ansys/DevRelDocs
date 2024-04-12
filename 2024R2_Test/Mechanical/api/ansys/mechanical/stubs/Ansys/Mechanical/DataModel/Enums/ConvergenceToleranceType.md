@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Remove`](#ConvergenceToleranceType.Remove)                       |    |
+| Name | Summary |
 |--------------------------------------------------------------------|----|
+| [`Remove`](#ConvergenceToleranceType.Remove)                       |    |
 | [`On`](#ConvergenceToleranceType.On)                               |    |
 | [`ProgramControlled`](#ConvergenceToleranceType.ProgramControlled) |    |
 

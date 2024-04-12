@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddCommandSnippet`](#GenericPointMass.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
+| Name | Summary |
 |------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddCommandSnippet`](#GenericPointMass.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
 | [`Delete`](#GenericPointMass.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                  | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                  | Gets the list of children, filtered by type.                                      |
@@ -39,8 +40,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`RemotePoint`](RemotePoint.md#RemotePoint)                                                                         | Gets the remote point associated to the point mass.           |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`RemotePoint`](RemotePoint.md#RemotePoint)                                                                         | Gets the remote point associated to the point mass.           |
 | [`IsDistributedMass`](#GenericPointMass.IsDistributedMass)                                                          | Gets the IsDistributedMass.                                   |
 | [`Location`](#GenericPointMass.Location)                                                                            | Gets or sets the Geometry.                                    |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |

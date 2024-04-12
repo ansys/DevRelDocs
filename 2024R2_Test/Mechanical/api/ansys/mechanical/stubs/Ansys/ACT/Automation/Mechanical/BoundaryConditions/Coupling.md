@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#Coupling.Delete)                                   | Run the Delete action.                                                            |
+| Name | Summary |
 |----------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#Coupling.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                          | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                          | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#Coupling.AddComment)                           | Creates a new child Comment.                                                      |
@@ -37,8 +38,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`LocalCoordinates`](#Coupling.LocalCoordinates)                                                                       | Gets or sets the LocalCoordinates.                            |
 | [`DOFSelection`](#Coupling.DOFSelection)                                                                               | Gets or sets the DOFSelection.                                |
 | [`Suppressed`](#Coupling.Suppressed)                                                                                   | Gets or sets the Suppressed.                                  |

@@ -16,16 +16,18 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Clear`](#FixedWidthImportSettings.Clear)                 |                                                       |
+| Name | Summary |
 |------------------------------------------------------------|-------------------------------------------------------|
+| [`Clear`](#FixedWidthImportSettings.Clear)                 |                                                       |
 | [`GetEnumerator`](#FixedWidthImportSettings.GetEnumerator) |                                                       |
 | [`RemoveAt`](#FixedWidthImportSettings.RemoveAt)           | Removes the import definition at the specified index. |
 | [`UseColumn`](#FixedWidthImportSettings.UseColumn)         |                                                       |
 
 ### Properties
 
-| [`ColumnWidths`](#FixedWidthImportSettings.ColumnWidths)                 | Gets or sets the specified column widths.                                            |
+| Name | Summary |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| [`ColumnWidths`](#FixedWidthImportSettings.ColumnWidths)                 | Gets or sets the specified column widths.                                            |
 | [`Count`](#FixedWidthImportSettings.Count)                               | Gets the number of column definitions.                                               |
 | [`Item`](#FixedWidthImportSettings.Item)                                 | Item property.                                                                       |
 | [`SkipFooter`](#FixedWidthImportSettings.SkipFooter)                     | Gets or sets the number of rows to ignore at the end of the file during import.      |

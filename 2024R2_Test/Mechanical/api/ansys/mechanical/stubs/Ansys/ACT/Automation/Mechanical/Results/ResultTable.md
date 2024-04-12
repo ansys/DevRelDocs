@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#ResultTable.Delete)                                   | Run the Delete action.                                                            |
+| Name | Summary |
 |-------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#ResultTable.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#ResultTable.AddComment)                           | Creates a new child Comment.                                                      |
@@ -37,8 +38,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`Multiplier`](#ResultTable.Multiplier)                                                                                | Gets or sets the Multiplier.                                  |
 | [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#ResultTable.Children)                                                                                    | Gets the list of children.                                    |

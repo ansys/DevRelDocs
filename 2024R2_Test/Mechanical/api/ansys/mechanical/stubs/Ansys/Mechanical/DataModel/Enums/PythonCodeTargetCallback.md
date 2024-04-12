@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`GetBodyCommands`](#PythonCodeTargetCallback.GetBodyCommands)               |    |
+| Name | Summary |
 |------------------------------------------------------------------------------|----|
+| [`GetBodyCommands`](#PythonCodeTargetCallback.GetBodyCommands)               |    |
 | [`GetContactCommands`](#PythonCodeTargetCallback.GetContactCommands)         |    |
 | [`GetPostCommands`](#PythonCodeTargetCallback.GetPostCommands)               |    |
 | [`GetSolveCommands`](#PythonCodeTargetCallback.GetSolveCommands)             |    |

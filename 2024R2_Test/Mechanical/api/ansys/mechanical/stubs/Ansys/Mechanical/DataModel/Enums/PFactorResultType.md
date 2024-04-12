@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`CumulativeEffectiveMassRatio`](#PFactorResultType.CumulativeEffectiveMassRatio)   |    |
+| Name | Summary |
 |-------------------------------------------------------------------------------------|----|
+| [`CumulativeEffectiveMassRatio`](#PFactorResultType.CumulativeEffectiveMassRatio)   |    |
 | [`EffectiveMass`](#PFactorResultType.EffectiveMass)                                 |    |
 | [`ParticipationFactor`](#PFactorResultType.ParticipationFactor)                     |    |
 | [`PFactorAll`](#PFactorResultType.PFactorAll)                                       |    |

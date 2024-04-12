@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`MoveNode`](#NodeMove.MoveNode)                               | Moves a node to a new specified location.  The given locX, locY, and locZ values will be converted to the unit system the mesh is stored in, and the given node will be moved to that absolute location.   |
+| Name | Summary |
 |----------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`MoveNode`](#NodeMove.MoveNode)                               | Moves a node to a new specified location.  The given locX, locY, and locZ values will be converted to the unit system the mesh is stored in, and the given node will be moved to that absolute location.   |
 | [`UndoAllNodeMoves`](#NodeMove.UndoAllNodeMoves)               | Undos all moves done to a node.                                                                                                                                                                            |
 | [`UndoLastNodeMove`](#NodeMove.UndoLastNodeMove)               | Undos the last move done to a node.                                                                                                                                                                        |
 | [`MorphNodes`](#NodeMove.MorphNodes)                           | Morph all the nodes.                                                                                                                                                                                       |
@@ -42,8 +43,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`NumberOfMoves`](#NodeMove.NumberOfMoves)                                                                          | Gets the NumberOfMoves.                                       |
 | [`NumberOfNodes`](#NodeMove.NumberOfNodes)                                                                          | Gets the NumberOfNodes.                                       |
 | [`Information`](#NodeMove.Information)                                                                              | Gets the Information.                                         |

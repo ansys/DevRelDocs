@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#BendingStressIntensity.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#BendingStressIntensity.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#BendingStressIntensity.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#BendingStressIntensity.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#BendingStressIntensity.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
@@ -49,8 +50,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                                                    | Gets the internal object. For advanced usage only.                     |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                                                    | Gets the internal object. For advanced usage only.                     |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory)                   | Gets the current DataModelObject’s category.                           |
 | [`Mode`](#BendingStressIntensity.Mode)                                                                                                      | Gets or sets the Mode.                                                 |
 | [`Ply`](#BendingStressIntensity.Ply)                                                                                                        | Gets or sets the Ply selection.                                        |

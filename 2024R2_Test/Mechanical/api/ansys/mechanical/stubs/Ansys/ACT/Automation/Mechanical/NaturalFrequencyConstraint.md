@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`RenameBasedOnDefinition`](#NaturalFrequencyConstraint.RenameBasedOnDefinition)   | Run the RenameBasedOnDefinition action.                                           |
+| Name | Summary |
 |------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`RenameBasedOnDefinition`](#NaturalFrequencyConstraint.RenameBasedOnDefinition)   | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#NaturalFrequencyConstraint.Delete)                                     | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                              | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                              | Gets the list of children, filtered by type.                                      |
@@ -36,8 +37,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.                                       |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.                                       |
 | [`ModeNumber`](#NaturalFrequencyConstraint.ModeNumber)                                                              | Gets or sets the ModeNumber.                                                             |
 | [`MaximumFrequency`](#NaturalFrequencyConstraint.MaximumFrequency)                                                  | Gets or sets the MaximumFrequency.                                                       |
 | [`MinimumFrequency`](#NaturalFrequencyConstraint.MinimumFrequency)                                                  | Gets or sets the MinimumFrequency.                                                       |

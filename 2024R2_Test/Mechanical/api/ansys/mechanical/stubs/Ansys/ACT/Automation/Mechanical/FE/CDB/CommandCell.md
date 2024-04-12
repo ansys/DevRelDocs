@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`MatId`](#CommandCell.MatId)   | Gets the material number.   |
+| Name | Summary |
 |---------------------------------|-----------------------------|
+| [`MatId`](#CommandCell.MatId)   | Gets the material number.   |
 | [`Nodes`](#CommandCell.Nodes)   | Gets the nodes.             |
 
 <a id="import-detail"></a>

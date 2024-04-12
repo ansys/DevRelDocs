@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`MechanicalAPDL`](#CondensedPartExpansionType.MechanicalAPDL)       |    |
+| Name | Summary |
 |----------------------------------------------------------------------|----|
+| [`MechanicalAPDL`](#CondensedPartExpansionType.MechanicalAPDL)       |    |
 | [`OnDemand`](#CondensedPartExpansionType.OnDemand)                   |    |
 | [`ProgramControlled`](#CondensedPartExpansionType.ProgramControlled) |    |
 

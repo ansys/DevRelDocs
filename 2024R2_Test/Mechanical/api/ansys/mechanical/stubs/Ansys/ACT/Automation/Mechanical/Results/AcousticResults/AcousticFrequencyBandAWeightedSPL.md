@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#AcousticFrequencyBandAWeightedSPL.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#AcousticFrequencyBandAWeightedSPL.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#AcousticFrequencyBandAWeightedSPL.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#AcousticFrequencyBandAWeightedSPL.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#AcousticFrequencyBandAWeightedSPL.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
@@ -49,8 +50,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.                     |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.                     |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
 | [`Mode`](#AcousticFrequencyBandAWeightedSPL.Mode)                                                                         | Gets or sets the Mode.                                                 |
 | [`ReportedFrequency`](#AcousticFrequencyBandAWeightedSPL.ReportedFrequency)                                               | Gets the ReportedFrequency.                                            |

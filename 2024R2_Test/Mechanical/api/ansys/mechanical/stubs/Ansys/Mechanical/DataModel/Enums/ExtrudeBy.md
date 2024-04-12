@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`UseCoordinateSystem`](#ExtrudeBy.UseCoordinateSystem)   |    |
+| Name | Summary |
 |-----------------------------------------------------------|----|
+| [`UseCoordinateSystem`](#ExtrudeBy.UseCoordinateSystem)   |    |
 | [`FaceNormal`](#ExtrudeBy.FaceNormal)                     |    |
 | [`FaceNormalReversed`](#ExtrudeBy.FaceNormalReversed)     |    |
 

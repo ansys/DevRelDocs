@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#VariableGraph.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |---------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#VariableGraph.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#VariableGraph.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#VariableGraph.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#VariableGraph.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
@@ -49,8 +50,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.                     |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.                     |
 | [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
 | [`PlotData`](#VariableGraph.PlotData)                                                                                  | Gets the result table.                                                 |
 | [`Location`](#VariableGraph.Location)                                                                                  | Gets or sets the Location.                                             |

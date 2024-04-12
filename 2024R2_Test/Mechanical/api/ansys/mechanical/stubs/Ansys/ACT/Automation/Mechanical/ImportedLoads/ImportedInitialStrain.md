@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ExportToTextFile`](#ImportedInitialStrain.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
+| Name | Summary |
 |-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ExportToTextFile`](#ImportedInitialStrain.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
 | [`Import`](#ImportedInitialStrain.Import)                                   | Import.                                                                           |
 | [`ImportLoad`](#ImportedInitialStrain.ImportLoad)                           | Run the ImportLoad action.                                                        |
 | [`GetActivateAtLoadStep`](#ImportedInitialStrain.GetActivateAtLoadStep)     | GetActivateAtLoadStep method.                                                     |
@@ -45,8 +46,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                                           | Gets the internal object. For advanced usage only.                                                      |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                                           | Gets the internal object. For advanced usage only.                                                      |
 | [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory)             | Gets the current DataModelObject’s category.                                                            |
 | [`Weighting`](#ImportedInitialStrain.Weighting)                                                                                    | Weighting property.                                                                                     |
 | [`MappingControl`](#ImportedInitialStrain.MappingControl)                                                                          | MappingControl property.                                                                                |

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Manual`](#CriterionFrequencyRangeType.Manual)       |    |
+| Name | Summary |
 |-------------------------------------------------------|----|
+| [`Manual`](#CriterionFrequencyRangeType.Manual)       |    |
 | [`UseParent`](#CriterionFrequencyRangeType.UseParent) |    |
 
 <a id="import-detail"></a>

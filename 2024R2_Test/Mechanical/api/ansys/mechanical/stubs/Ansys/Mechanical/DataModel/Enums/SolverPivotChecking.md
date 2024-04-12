@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Error`](#SolverPivotChecking.Error)                         |    |
+| Name | Summary |
 |---------------------------------------------------------------|----|
+| [`Error`](#SolverPivotChecking.Error)                         |    |
 | [`Off`](#SolverPivotChecking.Off)                             |    |
 | [`ProgramControlled`](#SolverPivotChecking.ProgramControlled) |    |
 | [`Warning`](#SolverPivotChecking.Warning)                     |    |

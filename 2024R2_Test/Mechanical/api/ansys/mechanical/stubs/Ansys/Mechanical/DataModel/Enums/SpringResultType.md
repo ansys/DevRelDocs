@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`DampingForce`](#SpringResultType.DampingForce)                                         |    |
+| Name | Summary |
 |------------------------------------------------------------------------------------------|----|
+| [`DampingForce`](#SpringResultType.DampingForce)                                         |    |
 | [`ElasticForce`](#SpringResultType.ElasticForce)                                         |    |
 | [`Elongation`](#SpringResultType.Elongation)                                             |    |
 | [`Velocity`](../../../ACT/Automation/Mechanical/BoundaryConditions/Velocity.md#Velocity) |    |

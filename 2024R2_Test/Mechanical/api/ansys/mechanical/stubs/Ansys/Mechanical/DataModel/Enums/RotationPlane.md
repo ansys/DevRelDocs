@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`None_`](#RotationPlane.None_)   |    |
+| Name | Summary |
 |-----------------------------------|----|
+| [`None_`](#RotationPlane.None_)   |    |
 | [`XY`](#RotationPlane.XY)         |    |
 | [`XZ`](#RotationPlane.XZ)         |    |
 | [`YZ`](#RotationPlane.YZ)         |    |

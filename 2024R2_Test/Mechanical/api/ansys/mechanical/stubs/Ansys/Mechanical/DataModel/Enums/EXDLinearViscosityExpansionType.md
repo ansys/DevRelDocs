@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`No`](#EXDLinearViscosityExpansionType.No)   |    |
+| Name | Summary |
 |-----------------------------------------------|----|
+| [`No`](#EXDLinearViscosityExpansionType.No)   |    |
 | [`Yes`](#EXDLinearViscosityExpansionType.Yes) |    |
 
 <a id="import-detail"></a>

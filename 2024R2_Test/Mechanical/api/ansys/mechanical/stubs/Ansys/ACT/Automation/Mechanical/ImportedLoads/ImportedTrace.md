@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetActivateAtLoadStep`](#ImportedTrace.GetActivateAtLoadStep)     | GetActivateAtLoadStep method.                                                     |
+| Name | Summary |
 |---------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetActivateAtLoadStep`](#ImportedTrace.GetActivateAtLoadStep)     | GetActivateAtLoadStep method.                                                     |
 | [`SetActivateAtLoadStep`](#ImportedTrace.SetActivateAtLoadStep)     | SetActivateAtLoadStep method.                                                     |
 | [`ExportToTextFile`](#ImportedTrace.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
 | [`Import`](#ImportedTrace.Import)                                   | Import.                                                                           |
@@ -45,8 +46,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Vias`](#ImportedTrace.Vias)                                                                                                      | Vias property.                                                                                          |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
+| [`Vias`](#ImportedTrace.Vias)                                                                                                      | Vias property.                                                                                          |
 | [`Layers`](#ImportedTrace.Layers)                                                                                                  | Layers property.                                                                                        |
 | [`InternalObject`](#id0)                                                                                                           | Gets the internal object. For advanced usage only.                                                      |
 | [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory)             | Gets the current DataModelObject’s category.                                                            |

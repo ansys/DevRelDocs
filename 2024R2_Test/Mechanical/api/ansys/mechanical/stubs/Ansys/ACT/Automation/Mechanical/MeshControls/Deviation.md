@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GenerateMesh`](#Deviation.GenerateMesh)                       | Generate the Mesh.                                                                |
+| Name | Summary |
 |-----------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GenerateMesh`](#Deviation.GenerateMesh)                       | Generate the Mesh.                                                                |
 | [`RenameBasedOnDefinition`](#Deviation.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#Deviation.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                           | Gets the list of children, filtered by type.                                      |
@@ -40,8 +41,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Tolerance`](#Deviation.Tolerance)                                                                                    | Tolerance property.                                           |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Tolerance`](#Deviation.Tolerance)                                                                                    | Tolerance property.                                           |
 | [`MeshSize`](#Deviation.MeshSize)                                                                                      | MeshSize property.                                            |
 | [`NumberOfDivisions`](#Deviation.NumberOfDivisions)                                                                    | NumberOfDivisions property.                                   |
 | [`ControlType`](../../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ControlType.md#ControlType)              | Gets or sets the SagControlType.                              |

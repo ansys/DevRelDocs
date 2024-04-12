@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`XAxis`](#PeriodicityDirectionType.XAxis)   |    |
+| Name | Summary |
 |----------------------------------------------|----|
+| [`XAxis`](#PeriodicityDirectionType.XAxis)   |    |
 | [`YAxis`](#PeriodicityDirectionType.YAxis)   |    |
 | [`ZAxis`](#PeriodicityDirectionType.ZAxis)   |    |
 

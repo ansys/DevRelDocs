@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Item`](#IReadOnlyDataSeries.Item)                 | Item property.                                                                         |
+| Name | Summary |
 |-----------------------------------------------------|----------------------------------------------------------------------------------------|
+| [`Item`](#IReadOnlyDataSeries.Item)                 | Item property.                                                                         |
 | [`Count`](#IReadOnlyDataSeries.Count)               | Gets the number of data points.                                                        |
 | [`DataType`](#IReadOnlyDataSeries.DataType)         | Gets the type stored by the data series.                                               |
 | [`Name`](#IReadOnlyDataSeries.Name)                 | Gets the name of the data series.                                                      |

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ExportAnimation`](#ForceReaction.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| Name | Summary |
 |---------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ExportAnimation`](#ForceReaction.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
 | [`ClearGeneratedData`](#ForceReaction.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`DuplicateWithoutResults`](#ForceReaction.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
 | [`EvaluateAllResults`](#ForceReaction.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
@@ -44,8 +45,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.                                                                                                                         |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.                                                                                                                         |
 | [`Probability`](#ForceReaction.Probability)                                                                               | Gets the Probability.                                                                                                                                                      |
 | [`ScaleFactorValue`](#ForceReaction.ScaleFactorValue)                                                                     | Gets or sets the ScaleFactorValue.                                                                                                                                         |
 | [`Mode`](#ForceReaction.Mode)                                                                                             | Gets or sets the Mode.                                                                                                                                                     |

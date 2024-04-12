@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Linear`](#ChartScale.Linear)     |    |
+| Name | Summary |
 |------------------------------------|----|
+| [`Linear`](#ChartScale.Linear)     |    |
 | [`LogLog`](#ChartScale.LogLog)     |    |
 | [`SemiLogX`](#ChartScale.SemiLogX) |    |
 | [`SemiLogY`](#ChartScale.SemiLogY) |    |

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ExportToTextFile`](#ImportedWarpWeftRatio.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
+| Name | Summary |
 |-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ExportToTextFile`](#ImportedWarpWeftRatio.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
 | [`Import`](#ImportedWarpWeftRatio.Import)                                   | Import.                                                                           |
 | [`ImportLoad`](#ImportedWarpWeftRatio.ImportLoad)                           | Run the ImportLoad action.                                                        |
 | [`GetActivateAtLoadStep`](#ImportedWarpWeftRatio.GetActivateAtLoadStep)     | GetActivateAtLoadStep method.                                                     |
@@ -45,8 +46,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                                           | Gets the internal object. For advanced usage only.                                                      |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                                           | Gets the internal object. For advanced usage only.                                                      |
 | [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory)             | Gets the current DataModelObject’s category.                                                            |
 | [`Weighting`](#ImportedWarpWeftRatio.Weighting)                                                                                    | Weighting property.                                                                                     |
 | [`MappingControl`](#ImportedWarpWeftRatio.MappingControl)                                                                          | MappingControl property.                                                                                |

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Automatic`](#VirtualCellGroupMethodType.Automatic)     |    |
+| Name | Summary |
 |----------------------------------------------------------|----|
+| [`Automatic`](#VirtualCellGroupMethodType.Automatic)     |    |
 | [`Repair`](#VirtualCellGroupMethodType.Repair)           |    |
 | [`UserDefined`](#VirtualCellGroupMethodType.UserDefined) |    |
 

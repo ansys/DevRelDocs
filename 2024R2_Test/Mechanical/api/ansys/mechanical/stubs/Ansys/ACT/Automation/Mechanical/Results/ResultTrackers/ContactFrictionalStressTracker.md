@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ExportAnimation`](#ContactFrictionalStressTracker.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| Name | Summary |
 |--------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ExportAnimation`](#ContactFrictionalStressTracker.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
 | [`ClearGeneratedData`](#ContactFrictionalStressTracker.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#ContactFrictionalStressTracker.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
 | [`RenameBasedOnDefinition`](#ContactFrictionalStressTracker.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
@@ -41,8 +42,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.            |
 | [`ContactSide`](#ContactFrictionalStressTracker.ContactSide)                                                              | Gets or sets the ContactSide.                                 |
 | [`ContactRegion`](../../Connections/ContactRegion.md#ContactRegion)                                                       | Gets or sets the ContactRegion.                               |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |

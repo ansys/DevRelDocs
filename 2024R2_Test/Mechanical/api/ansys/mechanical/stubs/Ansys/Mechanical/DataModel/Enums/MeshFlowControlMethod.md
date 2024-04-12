@@ -20,8 +20,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`GlobalCartesian`](#MeshFlowControlMethod.GlobalCartesian)     |    |
+| Name | Summary |
 |-----------------------------------------------------------------|----|
+| [`GlobalCartesian`](#MeshFlowControlMethod.GlobalCartesian)     |    |
 | [`None_`](#MeshFlowControlMethod.None_)                         |    |
 | [`ProgramControlled`](#MeshFlowControlMethod.ProgramControlled) |    |
 

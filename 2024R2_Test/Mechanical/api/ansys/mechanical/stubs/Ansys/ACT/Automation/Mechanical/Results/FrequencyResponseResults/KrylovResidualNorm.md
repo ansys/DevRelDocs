@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ExportAnimation`](#KrylovResidualNorm.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| Name | Summary |
 |--------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ExportAnimation`](#KrylovResidualNorm.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
 | [`ClearGeneratedData`](#KrylovResidualNorm.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#KrylovResidualNorm.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
 | [`RenameBasedOnDefinition`](#KrylovResidualNorm.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
@@ -41,8 +42,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`CoordinateSystem`](../../../../Common/CoordinateSystem.md#CoordinateSystem)                        | Gets or sets the CoordinateSystem. Accepts/Returns None if it is the Solution Coordinate System.   |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
+| [`CoordinateSystem`](../../../../Common/CoordinateSystem.md#CoordinateSystem)                        | Gets or sets the CoordinateSystem. Accepts/Returns None if it is the Solution Coordinate System.   |
 | [`InternalObject`](#id0)                                                                             | Gets the internal object. For advanced usage only.                                                 |
 | [`RemotePointSelection`](#KrylovResidualNorm.RemotePointSelection)                                   | Gets or sets the RemotePointSelection.                                                             |
 | [`IsSolved`](#KrylovResidualNorm.IsSolved)                                                           | Gets the IsSolved.                                                                                 |

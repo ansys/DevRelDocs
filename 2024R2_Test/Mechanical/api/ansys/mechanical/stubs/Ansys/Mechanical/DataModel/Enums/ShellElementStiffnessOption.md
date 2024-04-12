@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`MembraneAndBending`](#ShellElementStiffnessOption.MembraneAndBending)     |    |
+| Name | Summary |
 |-----------------------------------------------------------------------------|----|
+| [`MembraneAndBending`](#ShellElementStiffnessOption.MembraneAndBending)     |    |
 | [`MembraneOnly`](#ShellElementStiffnessOption.MembraneOnly)                 |    |
 | [`StressEvaluationOnly`](#ShellElementStiffnessOption.StressEvaluationOnly) |    |
 

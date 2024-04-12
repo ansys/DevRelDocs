@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Arguments`](#OptionsControlCommand.Arguments)     | Gets the arguments.     |
+| Name | Summary |
 |-----------------------------------------------------|-------------------------|
+| [`Arguments`](#OptionsControlCommand.Arguments)     | Gets the arguments.     |
 | [`OptionLines`](#OptionsControlCommand.OptionLines) | Gets the option lines.  |
 | [`Name`](#OptionsControlCommand.Name)               | Gets the command name.  |
 | [`Index`](#OptionsControlCommand.Index)             | Gets the command index. |

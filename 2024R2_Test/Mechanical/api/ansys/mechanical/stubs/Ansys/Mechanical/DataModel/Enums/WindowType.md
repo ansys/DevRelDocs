@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Bartlett`](#WindowType.Bartlett)       |    |
+| Name | Summary |
 |------------------------------------------|----|
+| [`Bartlett`](#WindowType.Bartlett)       |    |
 | [`Blackman`](#WindowType.Blackman)       |    |
 | [`Hamming`](#WindowType.Hamming)         |    |
 | [`Hanning`](#WindowType.Hanning)         |    |

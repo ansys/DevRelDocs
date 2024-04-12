@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Lab`](#TBPTCommand.Lab)                     | Gets the label.                              |
+| Name | Summary |
 |-----------------------------------------------|----------------------------------------------|
+| [`Lab`](#TBPTCommand.Lab)                     | Gets the label.                              |
 | [`Mat`](#TBPTCommand.Mat)                     | Gets the material number.                    |
 | [`Ntemp`](#TBPTCommand.Ntemp)                 | Gets the number of temperature, if provided. |
 | [`Npts`](#TBPTCommand.Npts)                   | Gets the number of points, if provided.      |

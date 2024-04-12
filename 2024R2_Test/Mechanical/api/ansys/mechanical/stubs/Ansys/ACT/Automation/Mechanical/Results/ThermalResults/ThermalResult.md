@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#ThermalResult.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |---------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#ThermalResult.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#ThermalResult.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#ThermalResult.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#ThermalResult.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
@@ -49,8 +50,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.                     |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.                     |
 | [`Layer`](#ThermalResult.Layer)                                                                                           | Gets or sets the Layer.                                                |
 | [`ThermalResultType`](#ThermalResult.ThermalResultType)                                                                   | Gets or sets the ThermalResultType.                                    |
 | [`NormalOrientation`](#ThermalResult.NormalOrientation)                                                                   | Gets or sets the NormalOrientation.                                    |

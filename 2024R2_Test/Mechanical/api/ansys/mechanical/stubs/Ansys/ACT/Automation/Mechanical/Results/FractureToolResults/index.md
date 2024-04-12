@@ -10,8 +10,9 @@
 
 ### Classes
 
-| [`FractureTool`](FractureTool.md#FractureTool)                                                             | Defines a FractureTool.                     |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------|---------------------------------------------|
+| [`FractureTool`](FractureTool.md#FractureTool)                                                             | Defines a FractureTool.                     |
 | [`FractureToolResult`](FractureToolResult.md#FractureToolResult)                                           | Defines a FractureToolResult.               |
 | [`FractureCrackExtensionProbe`](FractureCrackExtensionProbe.md#FractureCrackExtensionProbe)                | Defines a FractureCrackExtensionProbe.      |
 | [`FractureEquivalentSIFSRangeProbe`](FractureEquivalentSIFSRangeProbe.md#FractureEquivalentSIFSRangeProbe) | Defines a FractureEquivalentSIFSRangeProbe. |
@@ -44,8 +45,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddSIFSK1`](#FractureToolResults.AddSIFSK1)                                     | Creates a new FractureSIFSK1                                                      |
+| Name | Summary |
 |-----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddSIFSK1`](#FractureToolResults.AddSIFSK1)                                     | Creates a new FractureSIFSK1                                                      |
 | [`AddSIFSK2`](#FractureToolResults.AddSIFSK2)                                     | Creates a new FractureSIFSK2                                                      |
 | [`AddSIFSK3`](#FractureToolResults.AddSIFSK3)                                     | Creates a new FractureSIFSK3                                                      |
 | [`AddJINT`](#FractureToolResults.AddJINT)                                         | Creates a new FractureJINT                                                        |
@@ -86,8 +88,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`MultipleCracksSelection`](#FractureToolResults.MultipleCracksSelection)                                                 | Get/Set multiple cracks to Fracture tool                      |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`MultipleCracksSelection`](#FractureToolResults.MultipleCracksSelection)                                                 | Get/Set multiple cracks to Fracture tool                      |
 | [`InternalObject`](#id429)                                                                                                | Gets the internal object. For advanced usage only.            |
 | [`CrackFrontNumber`](#id7)                                                                                                | Gets or sets the CrackFrontNumber.                            |
 | [`CrackSelectionMode`](#FractureToolResults.CrackSelectionMode)                                                           | Gets or sets the CrackSelectionMode.                          |
@@ -558,8 +561,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#id434)                                            | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |---------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#id434)                                            | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#id436)                                            | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#FractureToolResults.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#FractureToolResults.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
@@ -589,8 +593,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Mode`](#FractureToolResults.Mode)                                                                                       | Gets or sets the Mode.                                                 |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`Mode`](#FractureToolResults.Mode)                                                                                       | Gets or sets the Mode.                                                 |
 | [`FractureResultType`](#FractureToolResults.FractureResultType)                                                           | Gets or sets the FractureResultType.                                   |
 | [`FractureResultSubType`](#FractureToolResults.FractureResultSubType)                                                     | Gets or sets the FractureResultSubType.                                |
 | [`InternalObject`](#id429)                                                                                                | Gets the internal object. For advanced usage only.                     |
@@ -1371,8 +1376,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ExportAnimation`](#id433)         | Run the ExportAnimation action.                                                   |
+| Name | Summary |
 |-------------------------------------|-----------------------------------------------------------------------------------|
+| [`ExportAnimation`](#id433)         | Run the ExportAnimation action.                                                   |
 | [`ClearGeneratedData`](#id434)      | Run the ClearGeneratedData action.                                                |
 | [`DuplicateWithoutResults`](#id435) | Run the DuplicateWithoutResults action.                                           |
 | [`EvaluateAllResults`](#id436)      | Run the EvaluateAllResults action.                                                |
@@ -1397,8 +1403,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id429)                                                                                                | Gets the internal object. For advanced usage only.                                                                                                                         |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`InternalObject`](#id429)                                                                                                | Gets the internal object. For advanced usage only.                                                                                                                         |
 | [`ResultProbeValue`](#id382)                                                                                              | Gets the ResultProbeValue.                                                                                                                                                 |
 | [`MaximumValueOverTime`](#id383)                                                                                          | Gets the MaximumValueOverTime.                                                                                                                                             |
 | [`MinimumValueOverTime`](#id384)                                                                                          | Gets the MinimumValueOverTime.                                                                                                                                             |
@@ -2065,8 +2072,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ExportAnimation`](#id433)         | Run the ExportAnimation action.                                                   |
+| Name | Summary |
 |-------------------------------------|-----------------------------------------------------------------------------------|
+| [`ExportAnimation`](#id433)         | Run the ExportAnimation action.                                                   |
 | [`ClearGeneratedData`](#id434)      | Run the ClearGeneratedData action.                                                |
 | [`DuplicateWithoutResults`](#id435) | Run the DuplicateWithoutResults action.                                           |
 | [`EvaluateAllResults`](#id436)      | Run the EvaluateAllResults action.                                                |
@@ -2091,8 +2099,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id429)                                                                                                | Gets the internal object. For advanced usage only.                                                                                                                         |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`InternalObject`](#id429)                                                                                                | Gets the internal object. For advanced usage only.                                                                                                                         |
 | [`ResultProbeValue`](#id382)                                                                                              | Gets the ResultProbeValue.                                                                                                                                                 |
 | [`MaximumValueOverTime`](#id383)                                                                                          | Gets the MaximumValueOverTime.                                                                                                                                             |
 | [`MinimumValueOverTime`](#id384)                                                                                          | Gets the MinimumValueOverTime.                                                                                                                                             |
@@ -2759,8 +2768,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ExportAnimation`](#id433)         | Run the ExportAnimation action.                                                   |
+| Name | Summary |
 |-------------------------------------|-----------------------------------------------------------------------------------|
+| [`ExportAnimation`](#id433)         | Run the ExportAnimation action.                                                   |
 | [`ClearGeneratedData`](#id434)      | Run the ClearGeneratedData action.                                                |
 | [`DuplicateWithoutResults`](#id435) | Run the DuplicateWithoutResults action.                                           |
 | [`EvaluateAllResults`](#id436)      | Run the EvaluateAllResults action.                                                |
@@ -2785,8 +2795,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id429)                                                                                                | Gets the internal object. For advanced usage only.                                                                                                                         |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`InternalObject`](#id429)                                                                                                | Gets the internal object. For advanced usage only.                                                                                                                         |
 | [`ResultProbeValue`](#id382)                                                                                              | Gets the ResultProbeValue.                                                                                                                                                 |
 | [`MaximumValueOverTime`](#id383)                                                                                          | Gets the MaximumValueOverTime.                                                                                                                                             |
 | [`MinimumValueOverTime`](#id384)                                                                                          | Gets the MinimumValueOverTime.                                                                                                                                             |
@@ -3453,8 +3464,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ExportAnimation`](#id433)         | Run the ExportAnimation action.                                                   |
+| Name | Summary |
 |-------------------------------------|-----------------------------------------------------------------------------------|
+| [`ExportAnimation`](#id433)         | Run the ExportAnimation action.                                                   |
 | [`ClearGeneratedData`](#id434)      | Run the ClearGeneratedData action.                                                |
 | [`DuplicateWithoutResults`](#id435) | Run the DuplicateWithoutResults action.                                           |
 | [`EvaluateAllResults`](#id436)      | Run the EvaluateAllResults action.                                                |
@@ -3479,8 +3491,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id429)                                                                                                | Gets the internal object. For advanced usage only.                                                                                                                         |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`InternalObject`](#id429)                                                                                                | Gets the internal object. For advanced usage only.                                                                                                                         |
 | [`ResultProbeValue`](#id382)                                                                                              | Gets the ResultProbeValue.                                                                                                                                                 |
 | [`MaximumValueOverTime`](#id383)                                                                                          | Gets the MaximumValueOverTime.                                                                                                                                             |
 | [`MinimumValueOverTime`](#id384)                                                                                          | Gets the MinimumValueOverTime.                                                                                                                                             |
@@ -4156,8 +4169,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ExportAnimation`](#id433)         | Run the ExportAnimation action.                                                   |
+| Name | Summary |
 |-------------------------------------|-----------------------------------------------------------------------------------|
+| [`ExportAnimation`](#id433)         | Run the ExportAnimation action.                                                   |
 | [`ClearGeneratedData`](#id434)      | Run the ClearGeneratedData action.                                                |
 | [`DuplicateWithoutResults`](#id435) | Run the DuplicateWithoutResults action.                                           |
 | [`EvaluateAllResults`](#id436)      | Run the EvaluateAllResults action.                                                |
@@ -4182,8 +4196,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id429)                                                                                                | Gets the internal object. For advanced usage only.                                                                                                                         |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`InternalObject`](#id429)                                                                                                | Gets the internal object. For advanced usage only.                                                                                                                         |
 | [`ActiveContour`](#id386)                                                                                                 | Gets or sets the ActiveContour.                                                                                                                                            |
 | [`CrackLengthPercentage`](#id387)                                                                                         | Gets or sets the CrackLengthPercentage.                                                                                                                                    |
 | [`SolverID`](#id388)                                                                                                      | Gets or sets the SolverID.                                                                                                                                                 |
@@ -4823,8 +4838,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ExportAnimation`](#id433)         | Run the ExportAnimation action.                                                   |
+| Name | Summary |
 |-------------------------------------|-----------------------------------------------------------------------------------|
+| [`ExportAnimation`](#id433)         | Run the ExportAnimation action.                                                   |
 | [`ClearGeneratedData`](#id434)      | Run the ClearGeneratedData action.                                                |
 | [`DuplicateWithoutResults`](#id435) | Run the DuplicateWithoutResults action.                                           |
 | [`EvaluateAllResults`](#id436)      | Run the EvaluateAllResults action.                                                |
@@ -4849,8 +4865,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id429)                                                                                                | Gets the internal object. For advanced usage only.                                                                                                                         |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`InternalObject`](#id429)                                                                                                | Gets the internal object. For advanced usage only.                                                                                                                         |
 | [`ResultProbeValue`](#id382)                                                                                              | Gets the ResultProbeValue.                                                                                                                                                 |
 | [`MaximumValueOverTime`](#id383)                                                                                          | Gets the MaximumValueOverTime.                                                                                                                                             |
 | [`MinimumValueOverTime`](#id384)                                                                                          | Gets the MinimumValueOverTime.                                                                                                                                             |

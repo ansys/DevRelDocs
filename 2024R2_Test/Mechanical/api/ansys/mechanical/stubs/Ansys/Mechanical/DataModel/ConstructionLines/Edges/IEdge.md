@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Length`](#IEdge.Length)   | Get the length of this edge.   |
+| Name | Summary |
 |-----------------------------|--------------------------------|
+| [`Length`](#IEdge.Length)   | Get the length of this edge.   |
 
 <a id="import-detail"></a>
 

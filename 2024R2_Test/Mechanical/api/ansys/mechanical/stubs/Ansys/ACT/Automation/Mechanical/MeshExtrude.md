@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Generate`](#MeshExtrude.Generate)                               | Generate selected mesh pull.                                                      |
+| Name | Summary |
 |-------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Generate`](#MeshExtrude.Generate)                               | Generate selected mesh pull.                                                      |
 | [`ClearGeneratedData`](#MeshExtrude.ClearGeneratedData)           | Clear generated data.                                                             |
 | [`Delete`](#MeshExtrude.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                             | Gets the list of children, filtered by type.                                      |
@@ -40,8 +41,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`ScopingMethod`](#MeshExtrude.ScopingMethod)                                                                       | Defines what type of selection this object is scoped to.                                                                                                                    |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`ScopingMethod`](#MeshExtrude.ScopingMethod)                                                                       | Defines what type of selection this object is scoped to.                                                                                                                    |
 | [`Location`](#MeshExtrude.Location)                                                                                 | Allows you to scope elements, element faces, topofaces and sheet bodies for Extrude or Revolve. Also, scopes element faces, topofaces and solid bodies for Surface Coating. |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.                                                                                                                          |
 | [`Material`](Material.md#Material)                                                                                  | To select the material of your choice. You can also select a different material from the parent body material.                                                              |

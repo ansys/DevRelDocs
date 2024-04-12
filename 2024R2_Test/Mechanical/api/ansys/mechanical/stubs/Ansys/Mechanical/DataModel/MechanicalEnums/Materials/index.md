@@ -10,8 +10,9 @@
 
 ### Enums
 
-| [`IdentifierType`](IdentifierType.md#IdentifierType)                                  | The primary identifier to use when searching for existing materials. The name and the uuid must   |
+| Name | Summary |
 |---------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+| [`IdentifierType`](IdentifierType.md#IdentifierType)                                  | The primary identifier to use when searching for existing materials. The name and the uuid must   |
 | [`ExistingMaterialOperation`](ExistingMaterialOperation.md#ExistingMaterialOperation) | Specifies what should occur when a material being imported has the same identifiers as            |
 | [`ImportFormat`](../Table/ImportFormat.md#ImportFormat)                               | Specifies how to interpret the material URI when importing.                                       |
 
@@ -56,8 +57,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Name`](#Materials.Name)   |    |
+| Name | Summary |
 |-----------------------------|----|
+| [`Name`](#Materials.Name)   |    |
 | [`UUID`](#Materials.UUID)   |    |
 
 <a id="import-detail"></a>
@@ -93,8 +95,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`New`](#Materials.New)         |    |
+| Name | Summary |
 |---------------------------------|----|
+| [`New`](#Materials.New)         |    |
 | [`Replace`](#Materials.Replace) |    |
 
 <a id="id1"></a>
@@ -129,8 +132,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Automatic`](#Materials.Automatic)   |    |
+| Name | Summary |
 |---------------------------------------|----|
+| [`Automatic`](#Materials.Automatic)   |    |
 
 <a id="id3"></a>
 

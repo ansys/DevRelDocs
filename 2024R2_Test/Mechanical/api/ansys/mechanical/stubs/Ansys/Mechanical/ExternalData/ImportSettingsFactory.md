@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Constructors
 
-| [`GetSettingsForFormat`](../Table/ImportSettingsFactory.md#ImportSettingsFactory.GetSettingsForFormat)   |    |
+| Name | Summary |
 |----------------------------------------------------------------------------------------------------------|----|
+| [`GetSettingsForFormat`](../Table/ImportSettingsFactory.md#ImportSettingsFactory.GetSettingsForFormat)   |    |
 
 <a id="import-detail"></a>
 

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Plane`](../ConstructionLines/Plane.md#Plane)                                 |    |
+| Name | Summary |
 |--------------------------------------------------------------------------------|----|
+| [`Plane`](../ConstructionLines/Plane.md#Plane)                                 |    |
 | [`Cylinder`](../../../ACT/DesignModeler/Primitives/Sheet/Cylinder.md#Cylinder) |    |
 | [`Cone`](#FaceType.Cone)                                                       |    |
 | [`Torus`](#FaceType.Torus)                                                     |    |

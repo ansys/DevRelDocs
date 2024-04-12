@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`AllToAll`](#ConnectionOptions.AllToAll)     |    |
+| Name | Summary |
 |-----------------------------------------------|----|
+| [`AllToAll`](#ConnectionOptions.AllToAll)     |    |
 | [`FreeToAll`](#ConnectionOptions.FreeToAll)   |    |
 | [`FreeToFree`](#ConnectionOptions.FreeToFree) |    |
 

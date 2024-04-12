@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AppendText`](#CommandSnippet.AppendText)                           | Append Text.                                                                      |
+| Name | Summary |
 |----------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AppendText`](#CommandSnippet.AppendText)                           | Append Text.                                                                      |
 | [`ImportTextFile`](#CommandSnippet.ImportTextFile)                   | Import from Textfile.                                                             |
 | [`ExportTextFile`](#CommandSnippet.ExportTextFile)                   | Export to Textfile.                                                               |
 | [`RenameBasedOnDefinition`](#CommandSnippet.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
@@ -42,8 +43,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Input`](#CommandSnippet.Input)                                                                                    | Gets or sets the Text.                                        |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Input`](#CommandSnippet.Input)                                                                                    | Gets or sets the Text.                                        |
 | [`OutputParameters`](#CommandSnippet.OutputParameters)                                                              | Gets a list of the command snippet’s output parameters.       |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`InputArgument1`](#CommandSnippet.InputArgument1)                                                                  | Gets or sets the InputArgument1.                              |

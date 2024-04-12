@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddSmoothing`](#TopologyDensity.AddSmoothing)                       | Creates a new Smoothing                                                           |
+| Name | Summary |
 |-----------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddSmoothing`](#TopologyDensity.AddSmoothing)                       | Creates a new Smoothing                                                           |
 | [`InsertSmoothing`](#TopologyDensity.InsertSmoothing)                 | Run the InsertSmoothing action.                                                   |
 | [`ClearGeneratedData`](#TopologyDensity.ClearGeneratedData)           | Clears the result.                                                                |
 | [`EvaluateAllResults`](#TopologyDensity.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
@@ -44,8 +45,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`RetainedThreshold`](#TopologyDensity.RetainedThreshold)                                                              | Gets or sets the RetainedThreshold.                           |
 | [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Location`](#TopologyDensity.Location)                                                                                | Gets or sets the Location.                                    |

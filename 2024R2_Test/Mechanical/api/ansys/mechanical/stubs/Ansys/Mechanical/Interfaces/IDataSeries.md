@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`DataType`](#IDataSeries.DataType)         |                                                                                                |
+| Name | Summary |
 |---------------------------------------------|------------------------------------------------------------------------------------------------|
+| [`DataType`](#IDataSeries.DataType)         |                                                                                                |
 | [`Name`](#IDataSeries.Name)                 | Gets or sets the name of the data series.                                                      |
 | [`QuantityName`](#IDataSeries.QuantityName) | Gets or sets the quantity name of the data series, e.g., “Length”, “Pressure”, or “Heat Flux”. |
 | [`Unit`](#IDataSeries.Unit)                 | Gets or sets a string representation of the data series units, e.g., “m”,                      |

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`EvaluateAllResults`](#PrimaryCriterion.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
+| Name | Summary |
 |------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`EvaluateAllResults`](#PrimaryCriterion.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
 | [`RenameBasedOnDefinition`](#PrimaryCriterion.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 | [`ClearGeneratedData`](#PrimaryCriterion.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`Delete`](#PrimaryCriterion.Delete)                                   | Run the Delete action.                                                            |
@@ -41,8 +42,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`CoordinateSystem`](../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the Coordinate System.                           |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`CoordinateSystem`](../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the Coordinate System.                           |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`DirectionX`](#PrimaryCriterion.DirectionX)                                                                        | Gets or sets the DirectionX.                                  |
 | [`DirectionY`](#PrimaryCriterion.DirectionY)                                                                        | Gets or sets the DirectionY.                                  |

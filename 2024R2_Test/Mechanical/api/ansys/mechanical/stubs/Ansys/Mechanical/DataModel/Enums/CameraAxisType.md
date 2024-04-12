@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ScreenX`](#CameraAxisType.ScreenX)   |    |
+| Name | Summary |
 |----------------------------------------|----|
+| [`ScreenX`](#CameraAxisType.ScreenX)   |    |
 | [`ScreenY`](#CameraAxisType.ScreenY)   |    |
 | [`ScreenZ`](#CameraAxisType.ScreenZ)   |    |
 | [`GlobalX`](#CameraAxisType.GlobalX)   |    |

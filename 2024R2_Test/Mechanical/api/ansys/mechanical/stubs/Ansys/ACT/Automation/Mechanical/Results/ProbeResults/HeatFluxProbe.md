@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ExportAnimation`](#HeatFluxProbe.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| Name | Summary |
 |---------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ExportAnimation`](#HeatFluxProbe.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
 | [`ClearGeneratedData`](#HeatFluxProbe.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`DuplicateWithoutResults`](#HeatFluxProbe.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
 | [`EvaluateAllResults`](#HeatFluxProbe.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
@@ -44,8 +45,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.                                                                                                                         |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.                                                                                                                         |
 | [`TotalHeatFlux`](../ThermalResults/TotalHeatFlux.md#TotalHeatFlux)                                                       | Gets the TotalHeatFlux.                                                                                                                                                    |
 | [`XAxisHeatFlux`](#HeatFluxProbe.XAxisHeatFlux)                                                                           | Gets the XAxisHeatFlux.                                                                                                                                                    |
 | [`YAxisHeatFlux`](#HeatFluxProbe.YAxisHeatFlux)                                                                           | Gets the YAxisHeatFlux.                                                                                                                                                    |

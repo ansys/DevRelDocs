@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`All`](#VisibilityType.All)             |    |
+| Name | Summary |
 |------------------------------------------|----|
+| [`All`](#VisibilityType.All)             |    |
 | [`Visible`](#VisibilityType.Visible)     |    |
 | [`Invisible`](#VisibilityType.Invisible) |    |
 

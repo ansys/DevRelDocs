@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Type`](#ENCommand.Type)     | Gets the type (attribute or node).   |
+| Name | Summary |
 |-------------------------------|--------------------------------------|
+| [`Type`](#ENCommand.Type)     | Gets the type (attribute or node).   |
 | [`Values`](#ENCommand.Values) | Gets the values.                     |
 | [`Name`](#ENCommand.Name)     | Gets the command name.               |
 | [`Index`](#ENCommand.Index)   | Gets the command index.              |

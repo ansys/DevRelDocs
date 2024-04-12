@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`MeltingTemperature`](#AMHeatingMethod.MeltingTemperature)   |    |
+| Name | Summary |
 |---------------------------------------------------------------|----|
+| [`MeltingTemperature`](#AMHeatingMethod.MeltingTemperature)   |    |
 | [`Power`](#AMHeatingMethod.Power)                             |    |
 
 <a id="import-detail"></a>

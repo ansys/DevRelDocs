@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ShadedExterior`](#ModelDisplay.ShadedExterior)                 |    |
+| Name | Summary |
 |------------------------------------------------------------------|----|
+| [`ShadedExterior`](#ModelDisplay.ShadedExterior)                 |    |
 | [`Wireframe`](#ModelDisplay.Wireframe)                           |    |
 | [`ShadedExteriorAndEdges`](#ModelDisplay.ShadedExteriorAndEdges) |    |
 

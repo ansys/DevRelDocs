@@ -20,8 +20,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Tight`](#ComparePartsTolerance.Tight)   |    |
+| Name | Summary |
 |-------------------------------------------|----|
+| [`Tight`](#ComparePartsTolerance.Tight)   |    |
 | [`Normal`](#ComparePartsTolerance.Normal) |    |
 | [`Loose`](#ComparePartsTolerance.Loose)   |    |
 

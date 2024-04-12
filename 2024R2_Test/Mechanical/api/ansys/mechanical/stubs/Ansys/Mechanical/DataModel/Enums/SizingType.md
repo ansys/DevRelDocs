@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ElementSize`](#SizingType.ElementSize)             |    |
+| Name | Summary |
 |------------------------------------------------------|----|
+| [`ElementSize`](#SizingType.ElementSize)             |    |
 | [`NumberOfDivisions`](#SizingType.NumberOfDivisions) |    |
 | [`SphereOfInfluence`](#SizingType.SphereOfInfluence) |    |
 | [`BodyOfInfluence`](#SizingType.BodyOfInfluence)     |    |

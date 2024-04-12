@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetActivateAtLoadStep`](#EMTransducer.GetActivateAtLoadStep)                   | GetActivateAtLoadStep method.                                                     |
+| Name | Summary |
 |----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetActivateAtLoadStep`](#EMTransducer.GetActivateAtLoadStep)                   | GetActivateAtLoadStep method.                                                     |
 | [`SetActivateAtLoadStep`](#EMTransducer.SetActivateAtLoadStep)                   | SetActivateAtLoadStep method.                                                     |
 | [`GetComponentActivateAtLoadStep`](#EMTransducer.GetComponentActivateAtLoadStep) | GetComponentActivateAtLoadStep method.                                            |
 | [`SetComponentActivateAtLoadStep`](#EMTransducer.SetComponentActivateAtLoadStep) | SetComponentActivateAtLoadStep method.                                            |
@@ -43,8 +44,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`NumberOfSegments`](#EMTransducer.NumberOfSegments)                                                                   | Gets or sets the NumberOfSegments.                            |
 | [`VoltageDifference`](#EMTransducer.VoltageDifference)                                                                 | Gets the VoltageDifference.                                   |
 | [`InitialGap`](#EMTransducer.InitialGap)                                                                               | Gets or sets the InitialGap.                                  |

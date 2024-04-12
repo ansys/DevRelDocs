@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`RotationX`](#KinematicDOF.RotationX)         |    |
+| Name | Summary |
 |------------------------------------------------|----|
+| [`RotationX`](#KinematicDOF.RotationX)         |    |
 | [`RotationY`](#KinematicDOF.RotationY)         |    |
 | [`RotationZ`](#KinematicDOF.RotationZ)         |    |
 | [`XDisplacement`](#KinematicDOF.XDisplacement) |    |

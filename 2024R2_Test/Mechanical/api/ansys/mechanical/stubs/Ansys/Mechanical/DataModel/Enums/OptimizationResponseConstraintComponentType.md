@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`XComponentMax`](#OptimizationResponseConstraintComponentType.XComponentMax)   |    |
+| Name | Summary |
 |---------------------------------------------------------------------------------|----|
+| [`XComponentMax`](#OptimizationResponseConstraintComponentType.XComponentMax)   |    |
 | [`YComponentMax`](#OptimizationResponseConstraintComponentType.YComponentMax)   |    |
 | [`ZComponentMax`](#OptimizationResponseConstraintComponentType.ZComponentMax)   |    |
 

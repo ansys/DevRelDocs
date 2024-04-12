@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`X`](#GAPDirectionType.X)   |    |
+| Name | Summary |
 |------------------------------|----|
+| [`X`](#GAPDirectionType.X)   |    |
 | [`Y`](#GAPDirectionType.Y)   |    |
 | [`Z`](#GAPDirectionType.Z)   |    |
 

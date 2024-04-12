@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`SurfaceEffectElementTypeId`](#MAPDLSurfaceLoadData.SurfaceEffectElementTypeId)   | Gets the Surface Effect Element Type Id used by the load.   |
+| Name | Summary |
 |------------------------------------------------------------------------------------|-------------------------------------------------------------|
+| [`SurfaceEffectElementTypeId`](#MAPDLSurfaceLoadData.SurfaceEffectElementTypeId)   | Gets the Surface Effect Element Type Id used by the load.   |
 
 <a id="import-detail"></a>
 

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`HitVector`](#GeometryRayCastHit.HitVector)   | BoundVector with location and normal direction on geometry entity to ray cast   |
+| Name | Summary |
 |------------------------------------------------|---------------------------------------------------------------------------------|
+| [`HitVector`](#GeometryRayCastHit.HitVector)   | BoundVector with location and normal direction on geometry entity to ray cast   |
 | [`Entity`](#GeometryRayCastHit.Entity)         | Geometry entity hit by ray cast                                                 |
 
 <a id="import-detail"></a>

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Fixed`](#CondensedPartInterfaceMethod.Fixed)                               |    |
+| Name | Summary |
 |------------------------------------------------------------------------------|----|
+| [`Fixed`](#CondensedPartInterfaceMethod.Fixed)                               |    |
 | [`Free`](#CondensedPartInterfaceMethod.Free)                                 |    |
 | [`ResidualFlexibleFree`](#CondensedPartInterfaceMethod.ResidualFlexibleFree) |    |
 

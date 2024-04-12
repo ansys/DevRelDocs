@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Automatic`](#ImportFormat.Automatic)   |    |
+| Name | Summary |
 |------------------------------------------|----|
+| [`Automatic`](#ImportFormat.Automatic)   |    |
 
 <a id="import-detail"></a>
 

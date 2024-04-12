@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`ValidRange`](#DoubleProperty.ValidRange)   | Tuple that can be used to control the upper and lower bounds of a double property.                   |
+| Name | Summary |
 |----------------------------------------------|------------------------------------------------------------------------------------------------------|
+| [`ValidRange`](#DoubleProperty.ValidRange)   | Tuple that can be used to control the upper and lower bounds of a double property.                   |
 | [`Name`](#DoubleProperty.Name)               | The name of the property.                                                                            |
 | [`DisplayName`](#DoubleProperty.DisplayName) | The name of the property shown in the UI. If not set, the Name property is used.                     |
 | [`GroupName`](#DoubleProperty.GroupName)     | The group name of the property shown in the UI, and used to separate properties based on group name. |

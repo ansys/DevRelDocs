@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Manual`](#CoordinateSystemBehavior.Manual)                       |    |
+| Name | Summary |
 |--------------------------------------------------------------------|----|
+| [`Manual`](#CoordinateSystemBehavior.Manual)                       |    |
 | [`ProgramControlled`](#CoordinateSystemBehavior.ProgramControlled) |    |
 
 <a id="import-detail"></a>

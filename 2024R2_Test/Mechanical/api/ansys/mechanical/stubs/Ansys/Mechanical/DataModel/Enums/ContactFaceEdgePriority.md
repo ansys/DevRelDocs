@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`EdgeOverFace`](#ContactFaceEdgePriority.EdgeOverFace)   |    |
+| Name | Summary |
 |-----------------------------------------------------------|----|
+| [`EdgeOverFace`](#ContactFaceEdgePriority.EdgeOverFace)   |    |
 | [`FaceOverEdge`](#ContactFaceEdgePriority.FaceOverEdge)   |    |
 | [`IncludeAll`](#ContactFaceEdgePriority.IncludeAll)       |    |
 

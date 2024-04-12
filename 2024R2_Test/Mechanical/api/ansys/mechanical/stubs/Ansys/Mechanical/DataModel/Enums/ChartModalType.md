@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Histogram`](#ChartModalType.Histogram)   |    |
+| Name | Summary |
 |--------------------------------------------|----|
+| [`Histogram`](#ChartModalType.Histogram)   |    |
 | [`RootLocus`](#ChartModalType.RootLocus)   |    |
 
 <a id="import-detail"></a>

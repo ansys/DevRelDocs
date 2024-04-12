@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Length`](#SpringPreloadType.Length)     |    |
+| Name | Summary |
 |-------------------------------------------|----|
+| [`Length`](#SpringPreloadType.Length)     |    |
 | [`Load`](#SpringPreloadType.Load)         |    |
 | [`None_`](#SpringPreloadType.None_)       |    |
 | [`Rotation`](#SpringPreloadType.Rotation) |    |

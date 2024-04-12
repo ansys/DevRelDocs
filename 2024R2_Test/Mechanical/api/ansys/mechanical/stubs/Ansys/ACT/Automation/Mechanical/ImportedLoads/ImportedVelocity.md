@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetActivateAtLoadStep`](#ImportedVelocity.GetActivateAtLoadStep)     | GetActivateAtLoadStep method.                                                     |
+| Name | Summary |
 |------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetActivateAtLoadStep`](#ImportedVelocity.GetActivateAtLoadStep)     | GetActivateAtLoadStep method.                                                     |
 | [`SetActivateAtLoadStep`](#ImportedVelocity.SetActivateAtLoadStep)     | SetActivateAtLoadStep method.                                                     |
 | [`ExportToTextFile`](#ImportedVelocity.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
 | [`Import`](#ImportedVelocity.Import)                                   | Import.                                                                           |
@@ -45,8 +46,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`MappedData`](#ImportedVelocity.MappedData)                                                                                       | Gets or sets the MappedData.                                                                            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
+| [`MappedData`](#ImportedVelocity.MappedData)                                                                                       | Gets or sets the MappedData.                                                                            |
 | [`InternalObject`](#id0)                                                                                                           | Gets the internal object. For advanced usage only.                                                      |
 | [`CutoffFrequency`](#ImportedVelocity.CutoffFrequency)                                                                             | Gets or sets the CutoffFrequency.                                                                       |
 | [`MaximumTimeRange`](#ImportedVelocity.MaximumTimeRange)                                                                           | Gets or sets the MaximumTimeRange.                                                                      |

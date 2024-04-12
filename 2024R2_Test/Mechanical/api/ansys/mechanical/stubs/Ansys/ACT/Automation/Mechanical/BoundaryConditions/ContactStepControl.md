@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#ContactStepControl.Delete)                                   | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#ContactStepControl.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                    | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                    | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#ContactStepControl.AddComment)                           | Creates a new child Comment.                                                      |
@@ -38,8 +39,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`NormalStiffnessValue`](#ContactStepControl.NormalStiffnessValue)                                                     | Gets or sets the NormalStiffnessValue.                        |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`NormalStiffnessValue`](#ContactStepControl.NormalStiffnessValue)                                                     | Gets or sets the NormalStiffnessValue.                        |
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`CurrentStep`](#ContactStepControl.CurrentStep)                                                                       | Gets or sets the CurrentStep.                                 |
 | [`NormalStiffnessFactor`](#ContactStepControl.NormalStiffnessFactor)                                                   | Gets or sets the NormalStiffnessFactor.                       |

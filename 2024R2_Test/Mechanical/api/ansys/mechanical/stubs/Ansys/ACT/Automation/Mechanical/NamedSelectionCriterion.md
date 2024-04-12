@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Active`](#NamedSelectionCriterion.Active)                             | Active property.           |
+| Name | Summary |
 |-------------------------------------------------------------------------|----------------------------|
+| [`Active`](#NamedSelectionCriterion.Active)                             | Active property.           |
 | [`Action`](#NamedSelectionCriterion.Action)                             | Action property.           |
 | [`EntityType`](#NamedSelectionCriterion.EntityType)                     | EntityType property.       |
 | [`Criterion`](Criterion.md#Criterion)                                   | Criterion property.        |

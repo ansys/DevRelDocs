@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Off`](#MultiOptimTypeStrategyType.Off)                             |    |
+| Name | Summary |
 |----------------------------------------------------------------------|----|
+| [`Off`](#MultiOptimTypeStrategyType.Off)                             |    |
 | [`On`](#MultiOptimTypeStrategyType.On)                               |    |
 | [`ProgramControlled`](#MultiOptimTypeStrategyType.ProgramControlled) |    |
 

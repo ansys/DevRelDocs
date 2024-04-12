@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`meter`](#LengthUnit.meter)           |    |
+| Name | Summary |
 |----------------------------------------|----|
+| [`meter`](#LengthUnit.meter)           |    |
 | [`centimeter`](#LengthUnit.centimeter) |    |
 | [`foot`](#LengthUnit.foot)             |    |
 | [`inch`](#LengthUnit.inch)             |    |

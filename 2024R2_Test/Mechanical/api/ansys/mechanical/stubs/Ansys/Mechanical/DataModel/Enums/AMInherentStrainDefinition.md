@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Anisotropic`](#AMInherentStrainDefinition.Anisotropic)     |    |
+| Name | Summary |
 |--------------------------------------------------------------|----|
+| [`Anisotropic`](#AMInherentStrainDefinition.Anisotropic)     |    |
 | [`Isotropic`](#AMInherentStrainDefinition.Isotropic)         |    |
 | [`ScanPattern`](#AMInherentStrainDefinition.ScanPattern)     |    |
 | [`ThermalStrain`](#AMInherentStrainDefinition.ThermalStrain) |    |

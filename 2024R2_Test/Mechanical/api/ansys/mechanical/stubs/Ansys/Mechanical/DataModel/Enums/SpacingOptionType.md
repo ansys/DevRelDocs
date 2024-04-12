@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Default`](#SpacingOptionType.Default)               |    |
+| Name | Summary |
 |-------------------------------------------------------|----|
+| [`Default`](#SpacingOptionType.Default)               |    |
 | [`UserControlled`](#SpacingOptionType.UserControlled) |    |
 
 <a id="import-detail"></a>

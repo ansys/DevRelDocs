@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Compression`](#PrototypeLinkBehavior.Compression)               |    |
+| Name | Summary |
 |-------------------------------------------------------------------|----|
+| [`Compression`](#PrototypeLinkBehavior.Compression)               |    |
 | [`Tension`](#PrototypeLinkBehavior.Tension)                       |    |
 | [`TensionCompression`](#PrototypeLinkBehavior.TensionCompression) |    |
 

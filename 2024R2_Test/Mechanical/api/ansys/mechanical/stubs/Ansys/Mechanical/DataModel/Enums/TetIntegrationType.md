@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`AverageNodalPressure`](#TetIntegrationType.AverageNodalPressure)   |    |
+| Name | Summary |
 |----------------------------------------------------------------------|----|
+| [`AverageNodalPressure`](#TetIntegrationType.AverageNodalPressure)   |    |
 | [`NodalStrain`](#TetIntegrationType.NodalStrain)                     |    |
 | [`ConstantPressure`](#TetIntegrationType.ConstantPressure)           |    |
 

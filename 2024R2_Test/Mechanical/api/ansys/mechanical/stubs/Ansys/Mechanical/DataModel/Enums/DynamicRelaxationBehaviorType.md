@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Both`](#DynamicRelaxationBehaviorType.Both)                                             |    |
+| Name | Summary |
 |-------------------------------------------------------------------------------------------|----|
+| [`Both`](#DynamicRelaxationBehaviorType.Both)                                             |    |
 | [`DynamicRelaxationPhaseOnly`](#DynamicRelaxationBehaviorType.DynamicRelaxationPhaseOnly) |    |
 | [`NormalPhaseOnly`](#DynamicRelaxationBehaviorType.NormalPhaseOnly)                       |    |
 

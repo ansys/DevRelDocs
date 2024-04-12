@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Mechanical`](#ApplicationType.Mechanical)   |    |
+| Name | Summary |
 |-----------------------------------------------|----|
+| [`Mechanical`](#ApplicationType.Mechanical)   |    |
 | [`MAPDL`](#ApplicationType.MAPDL)             |    |
 
 <a id="import-detail"></a>

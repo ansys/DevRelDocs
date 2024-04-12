@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`KeepAll`](#PreStressLoadControl.KeepAll)                                                             |    |
+| Name | Summary |
 |--------------------------------------------------------------------------------------------------------|----|
+| [`KeepAll`](#PreStressLoadControl.KeepAll)                                                             |    |
 | [`KeepAllDisplacementsAsZero`](#PreStressLoadControl.KeepAllDisplacementsAsZero)                       |    |
 | [`KeepInertiaAndDisplacementConstraints`](#PreStressLoadControl.KeepInertiaAndDisplacementConstraints) |    |
 | [`DeleteAll`](#PreStressLoadControl.DeleteAll)                                                         |    |

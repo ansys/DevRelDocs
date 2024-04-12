@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`RenameBasedOnDefinition`](#ReactionForceConstraint.RenameBasedOnDefinition)   | Run the RenameBasedOnDefinition action.                                           |
+| Name | Summary |
 |---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`RenameBasedOnDefinition`](#ReactionForceConstraint.RenameBasedOnDefinition)   | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#ReactionForceConstraint.Delete)                                     | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                           | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                           | Gets the list of children, filtered by type.                                      |
@@ -36,8 +37,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.                                       |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.                                       |
 | [`XComponentMax`](#ReactionForceConstraint.XComponentMax)                                                           | Gets or sets the XComponentMax.                                                          |
 | [`YComponentMax`](#ReactionForceConstraint.YComponentMax)                                                           | Gets or sets the YComponentMax.                                                          |
 | [`ZComponentMax`](#ReactionForceConstraint.ZComponentMax)                                                           | Gets or sets the ZComponentMax.                                                          |

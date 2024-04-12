@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`DistributedAllDirections`](#ContactConstraintType.DistributedAllDirections)                 |    |
+| Name | Summary |
 |-----------------------------------------------------------------------------------------------|----|
+| [`DistributedAllDirections`](#ContactConstraintType.DistributedAllDirections)                 |    |
 | [`DistributedAnywhereInsidePinball`](#ContactConstraintType.DistributedAnywhereInsidePinball) |    |
 | [`DistributedNormalOnly`](#ContactConstraintType.DistributedNormalOnly)                       |    |
 | [`ProgramControlled`](#ContactConstraintType.ProgramControlled)                               |    |

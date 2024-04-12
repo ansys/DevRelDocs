@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetActivateAtLoadStep`](#NodalPressure.GetActivateAtLoadStep)                   | GetActivateAtLoadStep method.                                                     |
+| Name | Summary |
 |-----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetActivateAtLoadStep`](#NodalPressure.GetActivateAtLoadStep)                   | GetActivateAtLoadStep method.                                                     |
 | [`SetActivateAtLoadStep`](#NodalPressure.SetActivateAtLoadStep)                   | SetActivateAtLoadStep method.                                                     |
 | [`GetComponentActivateAtLoadStep`](#NodalPressure.GetComponentActivateAtLoadStep) | GetComponentActivateAtLoadStep method.                                            |
 | [`SetComponentActivateAtLoadStep`](#NodalPressure.SetComponentActivateAtLoadStep) | SetComponentActivateAtLoadStep method.                                            |
@@ -43,8 +44,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`NumberOfSegments`](#NodalPressure.NumberOfSegments)                                                                  | Gets or sets the NumberOfSegments.                            |
 | [`LoadVectorNumber`](#NodalPressure.LoadVectorNumber)                                                                  | Gets or sets the LoadVectorNumber.                            |
 | [`Magnitude`](#NodalPressure.Magnitude)                                                                                | Gets the Magnitude.                                           |

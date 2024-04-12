@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`CreateMaterialAssignment`](#Material.CreateMaterialAssignment)   | Run the CreateMaterialAssignment action.                                          |
+| Name | Summary |
 |--------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`CreateMaterialAssignment`](#Material.CreateMaterialAssignment)   | Run the CreateMaterialAssignment action.                                          |
 | [`AddMaterialAssignment`](#Material.AddMaterialAssignment)         | Run the AddMaterialAssignment action.                                             |
 | [`GetAsDictionary`](#Material.GetAsDictionary)                     | Returns material as a python dictionary                                           |
 | [`GetChildren`](#id1)                                              | Gets the list of children, filtered by type.                                      |
@@ -40,8 +41,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`AssignedBodies`](#Material.AssignedBodies)                                                                        | Gets the AssignedBodies.                                      |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#Material.Children)                                                                                    | Gets the list of children.                                    |

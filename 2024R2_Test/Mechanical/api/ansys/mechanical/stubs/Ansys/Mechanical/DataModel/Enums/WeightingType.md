@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`WeightUndefined`](#WeightingType.WeightUndefined)           |    |
+| Name | Summary |
 |---------------------------------------------------------------|----|
+| [`WeightUndefined`](#WeightingType.WeightUndefined)           |    |
 | [`RadialBasisFunctions`](#WeightingType.RadialBasisFunctions) |    |
 | [`ClosestPoint`](#WeightingType.ClosestPoint)                 |    |
 | [`ShapeFunctions`](#WeightingType.ShapeFunctions)             |    |

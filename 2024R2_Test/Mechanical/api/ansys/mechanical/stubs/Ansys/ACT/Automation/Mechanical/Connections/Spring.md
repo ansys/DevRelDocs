@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`PromoteToNamedSelection`](#Spring.PromoteToNamedSelection)   | Run the PromoteToNamedSelection action.                                           |
+| Name | Summary |
 |----------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`PromoteToNamedSelection`](#Spring.PromoteToNamedSelection)   | Run the PromoteToNamedSelection action.                                           |
 | [`PromoteToRemotePoint`](#Spring.PromoteToRemotePoint)         | Run the PromoteToRemotePoint action.                                              |
 | [`AddCommandSnippet`](#Spring.AddCommandSnippet)               | Creates a new CommandSnippet                                                      |
 | [`RenameBasedOnDefinition`](#Spring.RenameBasedOnDefinition)   | Run the RenameBasedOnDefinition action.                                           |
@@ -42,8 +43,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`NonLinearLongitudinalStiffness`](#Spring.NonLinearLongitudinalStiffness)                                             | Gets the non linear longitudinal stiffness defined in the tabular data.   |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
+| [`NonLinearLongitudinalStiffness`](#Spring.NonLinearLongitudinalStiffness)                                             | Gets the non linear longitudinal stiffness defined in the tabular data.   |
 | [`LongitudinalStiffness`](#Spring.LongitudinalStiffness)                                                               | Gets or sets the constant longitudinal stiffness (expressed in N/m).      |
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.                        |
 | [`Material`](../Material.md#Material)                                                                                  | Gets or sets the Material.                                                |

@@ -19,8 +19,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetStepEndTime`](#EXDAnalysisSettings.GetStepEndTime)                           | Gets the Step End Time at a given solution step.                                  |
+| Name | Summary |
 |-----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetStepEndTime`](#EXDAnalysisSettings.GetStepEndTime)                           | Gets the Step End Time at a given solution step.                                  |
 | [`SetStepEndTime`](#EXDAnalysisSettings.SetStepEndTime)                           | Sets the Step End Time for a given solution step.                                 |
 | [`GetLoadStepType`](#EXDAnalysisSettings.GetLoadStepType)                         | Gets the  LoadStepType for a step.                                                |
 | [`SetLoadStepType`](#EXDAnalysisSettings.SetLoadStepType)                         | Sets the LoadStepType for a step.                                                 |
@@ -77,8 +78,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                               | Gets the Internal Object. For advanced usage only.                   |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                               | Gets the Internal Object. For advanced usage only.                   |
 | [`PreferenceType`](#EXDAnalysisSettings.PreferenceType)                                                                | Gets or sets the PreferenceType                                      |
 | [`NumberOfSteps`](#EXDAnalysisSettings.NumberOfSteps)                                                                  | Gets or sets the NumberOfSteps.                                      |
 | [`CurrentStepNumber`](#EXDAnalysisSettings.CurrentStepNumber)                                                          | Gets or sets the CurrentStepNumber.                                  |

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Regenerate`](#RemotePointUpdateOptions.Regenerate)   |    |
+| Name | Summary |
 |--------------------------------------------------------|----|
+| [`Regenerate`](#RemotePointUpdateOptions.Regenerate)   |    |
 | [`Reuse`](#RemotePointUpdateOptions.Reuse)             |    |
 
 <a id="import-detail"></a>

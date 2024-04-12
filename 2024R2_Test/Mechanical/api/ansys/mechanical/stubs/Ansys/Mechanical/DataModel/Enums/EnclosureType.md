@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Open`](#EnclosureType.Open)       |    |
+| Name | Summary |
 |-------------------------------------|----|
+| [`Open`](#EnclosureType.Open)       |    |
 | [`Perfect`](#EnclosureType.Perfect) |    |
 
 <a id="import-detail"></a>

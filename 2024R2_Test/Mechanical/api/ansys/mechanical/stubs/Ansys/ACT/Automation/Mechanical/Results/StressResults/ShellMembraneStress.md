@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#ShellMembraneStress.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |---------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#ShellMembraneStress.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#ShellMembraneStress.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#ShellMembraneStress.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#ShellMembraneStress.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
@@ -49,8 +50,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`NormalOrientation`](#id0)                                                                                                                 | Gets or sets the NormalOrientation.                                    |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`NormalOrientation`](#id0)                                                                                                                 | Gets or sets the NormalOrientation.                                    |
 | [`InternalObject`](#id1)                                                                                                                    | Gets the internal object. For advanced usage only.                     |
 | [`ScaleFactorValue`](#ShellMembraneStress.ScaleFactorValue)                                                                                 | Gets or sets the ScaleFactorValue.                                     |
 | [`ShellMBPType`](../../../../../Mechanical/DataModel/Enums/ShellMBPType.md#ShellMBPType)                                                    | Gets the ShellMBPType.                                                 |

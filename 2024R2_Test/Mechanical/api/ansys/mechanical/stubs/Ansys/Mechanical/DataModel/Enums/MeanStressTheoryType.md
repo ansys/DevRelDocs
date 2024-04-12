@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Goodman`](#MeanStressTheoryType.Goodman)                   |    |
+| Name | Summary |
 |--------------------------------------------------------------|----|
+| [`Goodman`](#MeanStressTheoryType.Goodman)                   |    |
 | [`Soderberg`](#MeanStressTheoryType.Soderberg)               |    |
 | [`Gerber`](#MeanStressTheoryType.Gerber)                     |    |
 | [`MeanStressCurves`](#MeanStressTheoryType.MeanStressCurves) |    |

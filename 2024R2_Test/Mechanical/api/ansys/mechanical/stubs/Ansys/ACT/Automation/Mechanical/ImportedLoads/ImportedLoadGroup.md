@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`CreateExternalLoadVelocitiesAndSyncAnalysisSettings`](#ImportedLoadGroup.CreateExternalLoadVelocitiesAndSyncAnalysisSettings)   | Run the CreateExternalLoadVelocitiesAndSyncAnalysisSettings action.                         |
+| Name | Summary |
 |-----------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
+| [`CreateExternalLoadVelocitiesAndSyncAnalysisSettings`](#ImportedLoadGroup.CreateExternalLoadVelocitiesAndSyncAnalysisSettings)   | Run the CreateExternalLoadVelocitiesAndSyncAnalysisSettings action.                         |
 | [`SetResultFile`](#ImportedLoadGroup.SetResultFile)                                                                               | Sets the ResultFile with unitSystem supplied. For MAPDL Results File without a unit system. |
 | [`ImportExternalDataFiles`](#ImportedLoadGroup.ImportExternalDataFiles)                                                           |                                                                                             |
 | [`GetExternalDataFiles`](#ImportedLoadGroup.GetExternalDataFiles)                                                                 |                                                                                             |
@@ -72,8 +73,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`ResultFile`](#ImportedLoadGroup.ResultFile)                                                                          | Gets or sets the ResultFile.                                           |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`ResultFile`](#ImportedLoadGroup.ResultFile)                                                                          | Gets or sets the ResultFile.                                           |
 | [`ResultFileUnitSystem`](#ImportedLoadGroup.ResultFileUnitSystem)                                                      | Gets or sets the ResultFileUnitSystem.                                 |
 | [`FilesDirectory`](#ImportedLoadGroup.FilesDirectory)                                                                  | Gets the FilesDirectory.                                               |
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.                     |

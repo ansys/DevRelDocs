@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`BlockLanczos`](#EigenSolverType.BlockLanczos)   |    |
+| Name | Summary |
 |---------------------------------------------------|----|
+| [`BlockLanczos`](#EigenSolverType.BlockLanczos)   |    |
 | [`Damped`](#EigenSolverType.Damped)               |    |
 | [`Lanczos`](#EigenSolverType.Lanczos)             |    |
 | [`PCGLanczos`](#EigenSolverType.PCGLanczos)       |    |

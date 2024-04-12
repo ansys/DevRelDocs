@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ExportCondensedPart`](#CondensedPart.ExportCondensedPart)                   | Run the Export Condensed Part action.                                             |
+| Name | Summary |
 |-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ExportCondensedPart`](#CondensedPart.ExportCondensedPart)                   | Run the Export Condensed Part action.                                             |
 | [`DetectCondensedPartInterface`](#CondensedPart.DetectCondensedPartInterface) | Run the DetectCondensedPartInterface action.                                      |
 | [`GenerateCondensedParts`](#CondensedPart.GenerateCondensedParts)             | Run the GenerateCondensedParts action.                                            |
 | [`AddCommandSnippet`](#CondensedPart.AddCommandSnippet)                       | Creates a new CommandSnippet                                                      |
@@ -43,8 +44,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Interfaces`](#CondensedPart.Interfaces)                                                                           | Returns the Interfaces of the condensed part                  |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Interfaces`](#CondensedPart.Interfaces)                                                                           | Returns the Interfaces of the condensed part                  |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`NumberOfModes`](#CondensedPart.NumberOfModes)                                                                     | Gets or sets the NumberOfModes.                               |
 | [`MaximumFrequency`](#CondensedPart.MaximumFrequency)                                                               | Gets or sets the MaximumFrequency.                            |

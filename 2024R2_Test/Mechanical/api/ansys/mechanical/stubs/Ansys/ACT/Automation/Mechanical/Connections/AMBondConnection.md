@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`SearchConnectionsForDuplicatePairs`](#AMBondConnection.SearchConnectionsForDuplicatePairs)   | Run the SearchConnectionsForDuplicatePairs action.                                |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`SearchConnectionsForDuplicatePairs`](#AMBondConnection.SearchConnectionsForDuplicatePairs)   | Run the SearchConnectionsForDuplicatePairs action.                                |
 | [`FlipContactTarget`](#AMBondConnection.FlipContactTarget)                                     | Run the FlipContactTarget action.                                                 |
 | [`AddCommandSnippet`](#AMBondConnection.AddCommandSnippet)                                     | Creates a new CommandSnippet                                                      |
 | [`RenameBasedOnDefinition`](#AMBondConnection.RenameBasedOnDefinition)                         | Run the RenameBasedOnDefinition action.                                           |
@@ -42,8 +43,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`SourceLocation`](#AMBondConnection.SourceLocation)                                                                   | Gets or sets the SourceLocation.                              |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`SourceLocation`](#AMBondConnection.SourceLocation)                                                                   | Gets or sets the SourceLocation.                              |
 | [`TargetLocation`](#AMBondConnection.TargetLocation)                                                                   | Gets or sets the TargetLocation.                              |
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`ContactBodies`](#AMBondConnection.ContactBodies)                                                                     | Gets the ContactBodies.                                       |

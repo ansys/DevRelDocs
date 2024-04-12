@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Add`](#ObjectTags.Add)           | Adds a new tag to the collection. Throws an error if the tag already exists in the collection.     |
+| Name | Summary |
 |------------------------------------|----------------------------------------------------------------------------------------------------|
+| [`Add`](#ObjectTags.Add)           | Adds a new tag to the collection. Throws an error if the tag already exists in the collection.     |
 | [`Remove`](#ObjectTags.Remove)     | Removes a tag if it exists in the collection.                                                      |
 | [`GetTag`](#ObjectTags.GetTag)     | Returns the tag in the collection with the given name.                                             |
 | [`IndexOf`](#ObjectTags.IndexOf)   | Returns the index of the given tag. If the given tag does not exist in the collection, returns -1. |
@@ -29,8 +30,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Count`](#ObjectTags.Count)       | The number of tags in the collection.    |
+| Name | Summary |
 |------------------------------------|------------------------------------------|
+| [`Count`](#ObjectTags.Count)       | The number of tags in the collection.    |
 | [`Item`](#id0)                     | Item property.                           |
 | [`Item`](#id0)                     | Item property.                           |
 | [`TagNames`](#ObjectTags.TagNames) | The names of the tags in the collection. |

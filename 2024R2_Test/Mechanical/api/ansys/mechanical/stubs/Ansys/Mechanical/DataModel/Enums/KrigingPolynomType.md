@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`PolyNone`](#KrigingPolynomType.PolyNone)           |    |
+| Name | Summary |
 |------------------------------------------------------|----|
+| [`PolyNone`](#KrigingPolynomType.PolyNone)           |    |
 | [`PolyConst`](#KrigingPolynomType.PolyConst)         |    |
 | [`PolyLinear`](#KrigingPolynomType.PolyLinear)       |    |
 | [`PolyPureQuad`](#KrigingPolynomType.PolyPureQuad)   |    |

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`RPM`](#WaterfallDisplaySelectionMode.RPM)                     |    |
+| Name | Summary |
 |-----------------------------------------------------------------|----|
+| [`RPM`](#WaterfallDisplaySelectionMode.RPM)                     |    |
 | [`Order`](#WaterfallDisplaySelectionMode.Order)                 |    |
 | [`NotApplicable`](#WaterfallDisplaySelectionMode.NotApplicable) |    |
 

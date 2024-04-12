@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddCommandSnippet`](#SMARTCrackGrowth.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
+| Name | Summary |
 |------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddCommandSnippet`](#SMARTCrackGrowth.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
 | [`Delete`](#SMARTCrackGrowth.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                  | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                  | Gets the list of children, filtered by type.                                      |
@@ -39,8 +40,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`AutomaticTimeStepping`](../../../Mechanical/DataModel/Enums/AutomaticTimeStepping.md#AutomaticTimeStepping)       | Gets or sets the AutomaticTimeStepping.                       |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`AutomaticTimeStepping`](../../../Mechanical/DataModel/Enums/AutomaticTimeStepping.md#AutomaticTimeStepping)       | Gets or sets the AutomaticTimeStepping.                       |
 | [`FailureCriteriaOption`](#SMARTCrackGrowth.FailureCriteriaOption)                                                  | Gets or sets the FailureCriteriaOption.                       |
 | [`CriticalRate`](#SMARTCrackGrowth.CriticalRate)                                                                    | Gets or sets the CriticalRate.                                |
 | [`StopValue`](#SMARTCrackGrowth.StopValue)                                                                          | Gets or sets the StopValue.                                   |

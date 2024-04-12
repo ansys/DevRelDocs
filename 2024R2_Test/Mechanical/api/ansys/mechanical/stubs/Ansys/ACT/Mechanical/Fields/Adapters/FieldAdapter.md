@@ -18,13 +18,15 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ChangeFieldDefinitionType`](#FieldAdapter.ChangeFieldDefinitionType)   | Changes the definition type for a field of the wrapped object from Mechanical.   |
+| Name | Summary |
 |--------------------------------------------------------------------------|----------------------------------------------------------------------------------|
+| [`ChangeFieldDefinitionType`](#FieldAdapter.ChangeFieldDefinitionType)   | Changes the definition type for a field of the wrapped object from Mechanical.   |
 
 ### Properties
 
-| [`FieldProvider`](#FieldAdapter.FieldProvider)   | Gets the wrapped object from Mechanical.   |
+| Name | Summary |
 |--------------------------------------------------|--------------------------------------------|
+| [`FieldProvider`](#FieldAdapter.FieldProvider)   | Gets the wrapped object from Mechanical.   |
 
 <a id="import-detail"></a>
 

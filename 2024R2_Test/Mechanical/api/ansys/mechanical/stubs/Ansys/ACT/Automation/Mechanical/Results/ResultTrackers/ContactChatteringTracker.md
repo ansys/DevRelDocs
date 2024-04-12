@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ExportAnimation`](#ContactChatteringTracker.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| Name | Summary |
 |--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ExportAnimation`](#ContactChatteringTracker.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
 | [`ClearGeneratedData`](#ContactChatteringTracker.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#ContactChatteringTracker.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
 | [`RenameBasedOnDefinition`](#ContactChatteringTracker.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
@@ -41,8 +42,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.            |
 | [`ContactSide`](#ContactChatteringTracker.ContactSide)                                                                    | Gets or sets the ContactSide.                                 |
 | [`ContactRegion`](../../Connections/ContactRegion.md#ContactRegion)                                                       | Gets or sets the ContactRegion.                               |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |

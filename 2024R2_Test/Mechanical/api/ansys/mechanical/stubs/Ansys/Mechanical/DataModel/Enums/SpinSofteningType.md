@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`No`](#SpinSofteningType.No)                               |    |
+| Name | Summary |
 |-------------------------------------------------------------|----|
+| [`No`](#SpinSofteningType.No)                               |    |
 | [`Yes`](#SpinSofteningType.Yes)                             |    |
 | [`ProgramControlled`](#SpinSofteningType.ProgramControlled) |    |
 

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Manual`](#ConstantDampingType.Manual)                       |    |
+| Name | Summary |
 |---------------------------------------------------------------|----|
+| [`Manual`](#ConstantDampingType.Manual)                       |    |
 | [`ProgramControlled`](#ConstantDampingType.ProgramControlled) |    |
 
 <a id="import-detail"></a>

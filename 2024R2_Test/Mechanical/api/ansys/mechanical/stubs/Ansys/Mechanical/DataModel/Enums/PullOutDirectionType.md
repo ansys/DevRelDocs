@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`BothDirections`](#PullOutDirectionType.BothDirections)   |    |
+| Name | Summary |
 |------------------------------------------------------------|----|
+| [`BothDirections`](#PullOutDirectionType.BothDirections)   |    |
 | [`OppositeToAxis`](#PullOutDirectionType.OppositeToAxis)   |    |
 | [`AlongAxis`](#PullOutDirectionType.AlongAxis)             |    |
 

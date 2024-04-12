@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`No`](#EXDErosionOnMinElemTimestepType.No)   |    |
+| Name | Summary |
 |-----------------------------------------------|----|
+| [`No`](#EXDErosionOnMinElemTimestepType.No)   |    |
 | [`Yes`](#EXDErosionOnMinElemTimestepType.Yes) |    |
 
 <a id="import-detail"></a>

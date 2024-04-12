@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`HarmonicSolution`](#ExpandResultFrom.HarmonicSolution)   |    |
+| Name | Summary |
 |------------------------------------------------------------|----|
+| [`HarmonicSolution`](#ExpandResultFrom.HarmonicSolution)   |    |
 | [`ModalSolution`](#ExpandResultFrom.ModalSolution)         |    |
 | [`ProgramControlled`](#ExpandResultFrom.ProgramControlled) |    |
 | [`TransientSolution`](#ExpandResultFrom.TransientSolution) |    |

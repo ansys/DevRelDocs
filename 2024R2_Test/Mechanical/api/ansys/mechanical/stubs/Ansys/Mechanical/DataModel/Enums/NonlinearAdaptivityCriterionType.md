@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`AMOctree`](#NonlinearAdaptivityCriterionType.AMOctree)               |    |
+| Name | Summary |
 |------------------------------------------------------------------------|----|
+| [`AMOctree`](#NonlinearAdaptivityCriterionType.AMOctree)               |    |
 | [`Box`](#NonlinearAdaptivityCriterionType.Box)                         |    |
 | [`Energy`](#NonlinearAdaptivityCriterionType.Energy)                   |    |
 | [`Mesh`](../../../ACT/Automation/Mechanical/MeshControls/Mesh.md#Mesh) |    |

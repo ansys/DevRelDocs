@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Node`](#NCommand.Node)     | Gets the node number.                    |
+| Name | Summary |
 |------------------------------|------------------------------------------|
+| [`Node`](#NCommand.Node)     | Gets the node number.                    |
 | [`Type`](#NCommand.Type)     | Gets the type of the data to be defined. |
 | [`Values`](#NCommand.Values) | Gets the values.                         |
 | [`Name`](#NCommand.Name)     | Gets the command name.                   |

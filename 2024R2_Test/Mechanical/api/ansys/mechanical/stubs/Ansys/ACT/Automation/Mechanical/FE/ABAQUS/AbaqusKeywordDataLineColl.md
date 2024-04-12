@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Items`](#AbaqusKeywordDataLineColl.Items)   | Gets the list of data lines.   |
+| Name | Summary |
 |-----------------------------------------------|--------------------------------|
+| [`Items`](#AbaqusKeywordDataLineColl.Items)   | Gets the list of data lines.   |
 
 <a id="import-detail"></a>
 

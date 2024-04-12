@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Bodies`](#ContactGroupingType.Bodies)   |    |
+| Name | Summary |
 |-------------------------------------------|----|
+| [`Bodies`](#ContactGroupingType.Bodies)   |    |
 | [`Faces`](#ContactGroupingType.Faces)     |    |
 | [`Parts`](#ContactGroupingType.Parts)     |    |
 | [`None_`](#ContactGroupingType.None_)     |    |

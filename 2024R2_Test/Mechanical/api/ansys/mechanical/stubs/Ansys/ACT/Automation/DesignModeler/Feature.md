@@ -1,5 +1,3 @@
-<a id="feature"></a>
-
 # Feature
 
 <a id="Feature"></a>
@@ -18,8 +16,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Name`](#Feature.Name)   | Gets the name of the feature.   |
+| Name | Summary |
 |---------------------------|---------------------------------|
+| [`Name`](#Feature.Name)   | Gets the name of the feature.   |
 | [`Id`](#Feature.Id)       | Gets the id of the feature.     |
 
 <a id="import-detail"></a>

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`PromoteToRemotePoint`](#RemoteForce.PromoteToRemotePoint)                     | Run the PromoteToRemotePoint action.                                              |
+| Name | Summary |
 |---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`PromoteToRemotePoint`](#RemoteForce.PromoteToRemotePoint)                     | Run the PromoteToRemotePoint action.                                              |
 | [`GetActivateAtLoadStep`](#RemoteForce.GetActivateAtLoadStep)                   | GetActivateAtLoadStep method.                                                     |
 | [`SetActivateAtLoadStep`](#RemoteForce.SetActivateAtLoadStep)                   | SetActivateAtLoadStep method.                                                     |
 | [`GetComponentActivateAtLoadStep`](#RemoteForce.GetComponentActivateAtLoadStep) | GetComponentActivateAtLoadStep method.                                            |
@@ -44,8 +45,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Direction`](#RemoteForce.Direction)                                                                                  | Gets or sets the Direction.                                   |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Direction`](#RemoteForce.Direction)                                                                                  | Gets or sets the Direction.                                   |
 | [`StepSelection`](#RemoteForce.StepSelection)                                                                          | Gets or sets the StepSelection.                               |
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`BeamMaterial`](#RemoteForce.BeamMaterial)                                                                            | Gets or sets the BeamMaterial.                                |

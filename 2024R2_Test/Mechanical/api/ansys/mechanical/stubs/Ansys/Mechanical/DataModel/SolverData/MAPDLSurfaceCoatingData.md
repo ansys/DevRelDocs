@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`MaterialId`](#MAPDLSurfaceCoatingData.MaterialId)   | Gets the Material Id number for the surface coating.   |
+| Name | Summary |
 |-------------------------------------------------------|--------------------------------------------------------|
+| [`MaterialId`](#MAPDLSurfaceCoatingData.MaterialId)   | Gets the Material Id number for the surface coating.   |
 
 <a id="import-detail"></a>
 

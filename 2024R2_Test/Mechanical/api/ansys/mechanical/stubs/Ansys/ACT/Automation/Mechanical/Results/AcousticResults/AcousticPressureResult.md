@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ExportToWAVFile`](#AcousticPressureResult.ExportToWAVFile)                 | Run the Export To WAVFile action.                                                 |
+| Name | Summary |
 |------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ExportToWAVFile`](#AcousticPressureResult.ExportToWAVFile)                 | Run the Export To WAVFile action.                                                 |
 | [`ClearGeneratedData`](#AcousticPressureResult.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#AcousticPressureResult.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#AcousticPressureResult.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
@@ -50,8 +51,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.                     |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.                     |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
 | [`Mode`](#AcousticPressureResult.Mode)                                                                                    | Gets or sets the Mode.                                                 |
 | [`ReportedFrequency`](#AcousticPressureResult.ReportedFrequency)                                                          | Gets the ReportedFrequency.                                            |

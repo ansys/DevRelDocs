@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Standard`](#FluentExportMeshType.Standard)                   |    |
+| Name | Summary |
 |----------------------------------------------------------------|----|
+| [`Standard`](#FluentExportMeshType.Standard)                   |    |
 | [`LargeModelSupport`](#FluentExportMeshType.LargeModelSupport) |    |
 
 <a id="import-detail"></a>

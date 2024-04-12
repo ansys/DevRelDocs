@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`All`](#BeamBeamModel.All)                                   |    |
+| Name | Summary |
 |---------------------------------------------------------------|----|
+| [`All`](#BeamBeamModel.All)                                   |    |
 | [`ExcludeCrossingBeams`](#BeamBeamModel.ExcludeCrossingBeams) |    |
 | [`OnlyCrossingBeams`](#BeamBeamModel.OnlyCrossingBeams)       |    |
 

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`SimplifyTopology`](#IOperationTools.SimplifyTopology)         | Simplifies the topology of the given entity.   |
+| Name | Summary |
 |-----------------------------------------------------------------|------------------------------------------------|
+| [`SimplifyTopology`](#IOperationTools.SimplifyTopology)         | Simplifies the topology of the given entity.   |
 | [`EdgesToWireBody`](#IOperationTools.EdgesToWireBody)           | EdgesToWireBody method.                        |
 | [`FacesToSheetBody`](#IOperationTools.FacesToSheetBody)         | FacesToSheetBody method.                       |
 | [`WireToSheetBody`](#IOperationTools.WireToSheetBody)           | Transforms a wire body to a sheet body.        |

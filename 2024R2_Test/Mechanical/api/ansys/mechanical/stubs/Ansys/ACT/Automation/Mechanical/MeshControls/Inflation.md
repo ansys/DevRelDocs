@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GenerateMesh`](#Inflation.GenerateMesh)                       | Generate the Mesh.                                                                |
+| Name | Summary |
 |-----------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GenerateMesh`](#Inflation.GenerateMesh)                       | Generate the Mesh.                                                                |
 | [`RenameBasedOnDefinition`](#Inflation.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#Inflation.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                           | Gets the list of children, filtered by type.                                      |
@@ -40,8 +41,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`BoundaryLocation`](#Inflation.BoundaryLocation)                                                                      | Gets or sets the BoundaryLocation.                            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`BoundaryLocation`](#Inflation.BoundaryLocation)                                                                      | Gets or sets the BoundaryLocation.                            |
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`GrowthRate`](#Inflation.GrowthRate)                                                                                  | Gets or sets the GrowthRate.                                  |
 | [`InflationAlgorithm`](#Inflation.InflationAlgorithm)                                                                  | Gets or sets the InflationAlgorithm.                          |

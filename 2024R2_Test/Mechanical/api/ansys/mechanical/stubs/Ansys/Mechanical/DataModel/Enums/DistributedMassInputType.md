@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`MassPerUnitArea`](#DistributedMassInputType.MassPerUnitArea)   |    |
+| Name | Summary |
 |------------------------------------------------------------------|----|
+| [`MassPerUnitArea`](#DistributedMassInputType.MassPerUnitArea)   |    |
 | [`TotalMass`](#DistributedMassInputType.TotalMass)               |    |
 
 <a id="import-detail"></a>

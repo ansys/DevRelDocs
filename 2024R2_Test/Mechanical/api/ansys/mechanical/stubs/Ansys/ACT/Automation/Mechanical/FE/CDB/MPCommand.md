@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Mat`](#MPCommand.Mat)     | Gets the material number.                                                                 |
+| Name | Summary |
 |-----------------------------|-------------------------------------------------------------------------------------------|
+| [`Mat`](#MPCommand.Mat)     | Gets the material number.                                                                 |
 | [`Lab`](#MPCommand.Lab)     | Gets the label.                                                                           |
 | [`C0`](#MPCommand.C0)       | Gets the temperature-independent term of the property.                                    |
 | [`C1`](#MPCommand.C1)       | Gets the coefficient of the linear term in the property-versus-temperature polynomial.    |

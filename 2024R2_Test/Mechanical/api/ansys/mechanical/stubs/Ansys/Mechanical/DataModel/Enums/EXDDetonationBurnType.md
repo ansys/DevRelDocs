@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ProgramControlled`](#EXDDetonationBurnType.ProgramControlled)   |    |
+| Name | Summary |
 |-------------------------------------------------------------------|----|
+| [`ProgramControlled`](#EXDDetonationBurnType.ProgramControlled)   |    |
 | [`Indirect`](#EXDDetonationBurnType.Indirect)                     |    |
 | [`Direct`](#EXDDetonationBurnType.Direct)                         |    |
 

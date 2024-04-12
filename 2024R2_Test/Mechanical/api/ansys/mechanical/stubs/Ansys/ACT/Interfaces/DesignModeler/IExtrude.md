@@ -18,13 +18,15 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ApplyTo`](#IExtrude.ApplyTo)   | Applies the operation to the profile given in argument.   |
+| Name | Summary |
 |----------------------------------|-----------------------------------------------------------|
+| [`ApplyTo`](#IExtrude.ApplyTo)   | Applies the operation to the profile given in argument.   |
 
 ### Properties
 
-| [`Direction`](#IExtrude.Direction)   | Gets or Sets the direction of the extrusion.   |
+| Name | Summary |
 |--------------------------------------|------------------------------------------------|
+| [`Direction`](#IExtrude.Direction)   | Gets or Sets the direction of the extrusion.   |
 | [`Walled`](#IExtrude.Walled)         | Gets or Sets the walled flag.                  |
 | [`Depth`](#IExtrude.Depth)           | Gets or Sets the depth of the extrusion.       |
 

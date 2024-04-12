@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetActivateAtLoadStep`](#Force.GetActivateAtLoadStep)                   | GetActivateAtLoadStep method.                                                     |
+| Name | Summary |
 |---------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetActivateAtLoadStep`](#Force.GetActivateAtLoadStep)                   | GetActivateAtLoadStep method.                                                     |
 | [`SetActivateAtLoadStep`](#Force.SetActivateAtLoadStep)                   | SetActivateAtLoadStep method.                                                     |
 | [`GetComponentActivateAtLoadStep`](#Force.GetComponentActivateAtLoadStep) | GetComponentActivateAtLoadStep method.                                            |
 | [`SetComponentActivateAtLoadStep`](#Force.SetComponentActivateAtLoadStep) | SetComponentActivateAtLoadStep method.                                            |
@@ -43,8 +44,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Direction`](#Force.Direction)                                                                                        | Gets or sets the Direction.                                   |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Direction`](#Force.Direction)                                                                                        | Gets or sets the Direction.                                   |
 | [`StepSelection`](#Force.StepSelection)                                                                                | Gets or sets the StepSelection.                               |
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`NumberOfSegments`](#Force.NumberOfSegments)                                                                          | Gets or sets the NumberOfSegments.                            |

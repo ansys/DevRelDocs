@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ExportAnimation`](#InternalEnergyTracker.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| Name | Summary |
 |-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ExportAnimation`](#InternalEnergyTracker.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
 | [`ClearGeneratedData`](#InternalEnergyTracker.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#InternalEnergyTracker.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
 | [`RenameBasedOnDefinition`](#InternalEnergyTracker.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
@@ -41,8 +42,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.            |
 | [`LocationXCoordinate`](#InternalEnergyTracker.LocationXCoordinate)                                                       | Gets or sets the LocationXCoordinate.                         |
 | [`LocationYCoordinate`](#InternalEnergyTracker.LocationYCoordinate)                                                       | Gets or sets the LocationYCoordinate.                         |
 | [`LocationZCoordinate`](#InternalEnergyTracker.LocationZCoordinate)                                                       | Gets or sets the LocationZCoordinate.                         |

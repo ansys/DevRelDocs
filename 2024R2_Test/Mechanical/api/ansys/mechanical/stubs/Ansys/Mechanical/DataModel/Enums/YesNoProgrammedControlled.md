@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`No`](#YesNoProgrammedControlled.No)                               |    |
+| Name | Summary |
 |---------------------------------------------------------------------|----|
+| [`No`](#YesNoProgrammedControlled.No)                               |    |
 | [`ProgramControlled`](#YesNoProgrammedControlled.ProgramControlled) |    |
 | [`Yes`](#YesNoProgrammedControlled.Yes)                             |    |
 

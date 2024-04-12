@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ProgramControlled`](#AMReferenceTemperatureType.ProgramControlled)   |    |
+| Name | Summary |
 |------------------------------------------------------------------------|----|
+| [`ProgramControlled`](#AMReferenceTemperatureType.ProgramControlled)   |    |
 | [`UserSpecified`](#AMReferenceTemperatureType.UserSpecified)           |    |
 
 <a id="import-detail"></a>

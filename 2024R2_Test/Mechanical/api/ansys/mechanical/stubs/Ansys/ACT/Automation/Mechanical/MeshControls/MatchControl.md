@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GenerateMesh`](#MatchControl.GenerateMesh)                       | Generate the Mesh.                                                                |
+| Name | Summary |
 |--------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GenerateMesh`](#MatchControl.GenerateMesh)                       | Generate the Mesh.                                                                |
 | [`RenameBasedOnDefinition`](#MatchControl.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#MatchControl.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                              | Gets the list of children, filtered by type.                                      |
@@ -40,8 +41,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`Transformation`](#MatchControl.Transformation)                                                                       | Gets or sets the Transformation.                              |
 | [`ControlMessages`](#MatchControl.ControlMessages)                                                                     | Gets the ControlMessages.                                     |
 | [`HighNamedSelection`](#MatchControl.HighNamedSelection)                                                               | Gets or sets the HighNamedSelection.                          |

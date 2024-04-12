@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetActivateAtLoadStep`](#Current.GetActivateAtLoadStep)     | GetActivateAtLoadStep method.                                                     |
+| Name | Summary |
 |---------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetActivateAtLoadStep`](#Current.GetActivateAtLoadStep)     | GetActivateAtLoadStep method.                                                     |
 | [`SetActivateAtLoadStep`](#Current.SetActivateAtLoadStep)     | SetActivateAtLoadStep method.                                                     |
 | [`PromoteToNamedSelection`](#Current.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
 | [`Delete`](#Current.Delete)                                   | Run the Delete action.                                                            |
@@ -41,8 +42,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`NumberOfSegments`](#Current.NumberOfSegments)                                                                        | Gets or sets the NumberOfSegments.                            |
 | [`Magnitude`](#Current.Magnitude)                                                                                      | Gets the Magnitude.                                           |
 | [`PhaseAngle`](#Current.PhaseAngle)                                                                                    | Gets or sets the PhaseAngle.                                  |

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetActivateAtLoadStep`](#ImportedBodyTemperature.GetActivateAtLoadStep)     | GetActivateAtLoadStep method.                                                     |
+| Name | Summary |
 |-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetActivateAtLoadStep`](#ImportedBodyTemperature.GetActivateAtLoadStep)     | GetActivateAtLoadStep method.                                                     |
 | [`SetActivateAtLoadStep`](#ImportedBodyTemperature.SetActivateAtLoadStep)     | SetActivateAtLoadStep method.                                                     |
 | [`ExportToTextFile`](#ImportedBodyTemperature.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
 | [`Import`](#ImportedBodyTemperature.Import)                                   | Import.                                                                           |
@@ -45,8 +46,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`ApplyToInitialMesh`](#ImportedBodyTemperature.ApplyToInitialMesh)                                                                | Gets or sets the ApplyToInitialMesh.                                                                    |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
+| [`ApplyToInitialMesh`](#ImportedBodyTemperature.ApplyToInitialMesh)                                                                | Gets or sets the ApplyToInitialMesh.                                                                    |
 | [`InternalObject`](#id0)                                                                                                           | Gets the internal object. For advanced usage only.                                                      |
 | [`LoadVectorNumber`](#ImportedBodyTemperature.LoadVectorNumber)                                                                    | Gets or sets the LoadVectorNumber.                                                                      |
 | [`LoadVectorAssignment`](../../../../Mechanical/DataModel/Enums/LoadVectorAssignment.md#LoadVectorAssignment)                      | Gets or sets the LoadVectorAssignment.                                                                  |

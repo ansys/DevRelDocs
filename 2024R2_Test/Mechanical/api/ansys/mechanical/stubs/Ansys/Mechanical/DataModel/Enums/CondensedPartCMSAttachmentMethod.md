@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`FixedMaster`](#CondensedPartCMSAttachmentMethod.FixedMaster)             |    |
+| Name | Summary |
 |----------------------------------------------------------------------------|----|
+| [`FixedMaster`](#CondensedPartCMSAttachmentMethod.FixedMaster)             |    |
 | [`Orthogonalization`](#CondensedPartCMSAttachmentMethod.Orthogonalization) |    |
 | [`ProgramControlled`](#CondensedPartCMSAttachmentMethod.ProgramControlled) |    |
 

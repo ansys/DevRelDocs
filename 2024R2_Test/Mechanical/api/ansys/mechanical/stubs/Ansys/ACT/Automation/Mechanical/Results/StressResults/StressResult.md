@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#StressResult.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |--------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#StressResult.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#StressResult.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#StressResult.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#StressResult.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
@@ -49,8 +50,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Mode`](#StressResult.Mode)                                                                                                                | Gets or sets the Mode.                                                 |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`Mode`](#StressResult.Mode)                                                                                                                | Gets or sets the Mode.                                                 |
 | [`Ply`](#StressResult.Ply)                                                                                                                  | Gets or sets the Ply selection.                                        |
 | [`Plies`](#StressResult.Plies)                                                                                                              | Plies property.                                                        |
 | [`EnvironmentSelection`](#StressResult.EnvironmentSelection)                                                                                | Gets or sets the EnvironmentSelection.                                 |

@@ -18,16 +18,18 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Add`](#SectionPlanes.Add)           | Adds the given SectionPlane object to the collection to modify the view. Currently only 6 SectionPlane objects in the collection can be activated at once.   |
+| Name | Summary |
 |---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`Add`](#SectionPlanes.Add)           | Adds the given SectionPlane object to the collection to modify the view. Currently only 6 SectionPlane objects in the collection can be activated at once.   |
 | [`Clear`](#SectionPlanes.Clear)       | Clears the collection of all SectionPlane objects.                                                                                                           |
 | [`Remove`](#SectionPlanes.Remove)     | Removes the requested SectionPlane from the collection.                                                                                                      |
 | [`RemoveAt`](#SectionPlanes.RemoveAt) | Removes the SectionPlane at the given index.                                                                                                                 |
 
 ### Properties
 
-| [`ShowWholeElement`](#SectionPlanes.ShowWholeElement)   | Gets or Sets the Element Visibility of the Section Plane   |
+| Name | Summary |
 |---------------------------------------------------------|------------------------------------------------------------|
+| [`ShowWholeElement`](#SectionPlanes.ShowWholeElement)   | Gets or Sets the Element Visibility of the Section Plane   |
 | [`Capping`](#SectionPlanes.Capping)                     | Gets or Sets the Capping style of the Section Plane        |
 | [`Count`](#SectionPlanes.Count)                         | The number of section planes in the collection.            |
 

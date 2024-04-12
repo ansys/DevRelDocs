@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Delimited`](../Table/ImportFormat.md#ImportFormat.Delimited)   |    |
+| Name | Summary |
 |------------------------------------------------------------------|----|
+| [`Delimited`](../Table/ImportFormat.md#ImportFormat.Delimited)   |    |
 | [`FixedWidth`](../Table/ImportFormat.md#ImportFormat.FixedWidth) |    |
 | [`MAPDL`](#ImportFormat.MAPDL)                                   |    |
 | [`AXDT`](#ImportFormat.AXDT)                                     |    |

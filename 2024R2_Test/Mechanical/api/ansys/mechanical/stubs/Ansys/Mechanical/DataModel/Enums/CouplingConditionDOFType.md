@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`XRotation`](#CouplingConditionDOFType.XRotation)                                                |    |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------|----|
+| [`XRotation`](#CouplingConditionDOFType.XRotation)                                                |    |
 | [`YRotation`](#CouplingConditionDOFType.YRotation)                                                |    |
 | [`ZRotation`](#CouplingConditionDOFType.ZRotation)                                                |    |
 | [`Temperature`](../../../ACT/Automation/Mechanical/BoundaryConditions/Temperature.md#Temperature) |    |

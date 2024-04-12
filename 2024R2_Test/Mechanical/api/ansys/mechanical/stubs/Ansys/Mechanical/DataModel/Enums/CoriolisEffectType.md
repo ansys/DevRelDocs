@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Off`](#CoriolisEffectType.Off)                                               |    |
+| Name | Summary |
 |--------------------------------------------------------------------------------|----|
+| [`Off`](#CoriolisEffectType.Off)                                               |    |
 | [`OnRotatingReferenceFrame`](#CoriolisEffectType.OnRotatingReferenceFrame)     |    |
 | [`OnStationaryReferenceFrame`](#CoriolisEffectType.OnStationaryReferenceFrame) |    |
 

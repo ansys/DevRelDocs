@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Linear`](#FrequencySpacingType.Linear)             |    |
+| Name | Summary |
 |------------------------------------------------------|----|
+| [`Linear`](#FrequencySpacingType.Linear)             |    |
 | [`Logarithmic`](#FrequencySpacingType.Logarithmic)   |    |
 | [`OctaveBand1`](#FrequencySpacingType.OctaveBand1)   |    |
 | [`OctaveBand12`](#FrequencySpacingType.OctaveBand12) |    |

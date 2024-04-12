@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Lattice`](#OptimizationType.Lattice)                                                             |    |
+| Name | Summary |
 |----------------------------------------------------------------------------------------------------|----|
+| [`Lattice`](#OptimizationType.Lattice)                                                             |    |
 | [`TopologyLevelSet`](#OptimizationType.TopologyLevelSet)                                           |    |
 | [`MixableDensity`](#OptimizationType.MixableDensity)                                               |    |
 | [`Shape`](#OptimizationType.Shape)                                                                 |    |

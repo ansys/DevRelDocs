@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Elem`](#SFECommand.Elem)     | Gets the element number.   |
+| Name | Summary |
 |--------------------------------|----------------------------|
+| [`Elem`](#SFECommand.Elem)     | Gets the element number.   |
 | [`LKey`](#SFECommand.LKey)     | Get the load key.          |
 | [`Key`](#SFECommand.Key)       | Gets the value key.        |
 | [`Lab`](#SFECommand.Lab)       | Gets the load label.       |

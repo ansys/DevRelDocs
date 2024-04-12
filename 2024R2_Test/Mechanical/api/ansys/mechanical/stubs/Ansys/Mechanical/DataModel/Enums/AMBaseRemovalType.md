@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Directional`](#AMBaseRemovalType.Directional)     |    |
+| Name | Summary |
 |-----------------------------------------------------|----|
+| [`Directional`](#AMBaseRemovalType.Directional)     |    |
 | [`Instantaneous`](#AMBaseRemovalType.Instantaneous) |    |
 
 <a id="import-detail"></a>

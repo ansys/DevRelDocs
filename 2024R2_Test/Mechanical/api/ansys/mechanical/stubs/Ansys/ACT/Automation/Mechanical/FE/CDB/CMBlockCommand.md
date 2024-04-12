@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Cmname`](#CMBlockCommand.Cmname)     | Gets the component name.                  |
+| Name | Summary |
 |----------------------------------------|-------------------------------------------|
+| [`Cmname`](#CMBlockCommand.Cmname)     | Gets the component name.                  |
 | [`Type`](#CMBlockCommand.Type)         | Gets the type of entities (node or elem). |
 | [`Elements`](#CMBlockCommand.Elements) | Gets the type of entities.                |
 | [`Name`](#CMBlockCommand.Name)         | Gets the command name.                    |

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetActivateAtLoadStep`](#Temperature.GetActivateAtLoadStep)     | GetActivateAtLoadStep method.                                                     |
+| Name | Summary |
 |-------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetActivateAtLoadStep`](#Temperature.GetActivateAtLoadStep)     | GetActivateAtLoadStep method.                                                     |
 | [`SetActivateAtLoadStep`](#Temperature.SetActivateAtLoadStep)     | SetActivateAtLoadStep method.                                                     |
 | [`PromoteToNamedSelection`](#Temperature.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
 | [`Delete`](#Temperature.Delete)                                   | Run the Delete action.                                                            |
@@ -41,8 +42,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`NumberOfSegments`](#Temperature.NumberOfSegments)                                                                    | Gets or sets the NumberOfSegments.                            |
 | [`Magnitude`](#Temperature.Magnitude)                                                                                  | Gets the Magnitude.                                           |
 | [`RangeMaximum`](#Temperature.RangeMaximum)                                                                            | Gets or sets the RangeMaximum.                                |

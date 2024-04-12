@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Add`](#Column.Add)                               |                                                             |
+| Name | Summary |
 |----------------------------------------------------|-------------------------------------------------------------|
+| [`Add`](#Column.Add)                               |                                                             |
 | [`Contains`](#Column.Contains)                     |                                                             |
 | [`Clear`](#Column.Clear)                           |                                                             |
 | [`IndexOf`](#Column.IndexOf)                       |                                                             |
@@ -32,8 +33,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Item`](#Column.Item)                                                                                                           | Item property.                   |
+| Name | Summary |
 |----------------------------------------------------------------------------------------------------------------------------------|----------------------------------|
+| [`Item`](#Column.Item)                                                                                                           | Item property.                   |
 | [`IsReadOnly`](#Column.IsReadOnly)                                                                                               | IsReadOnly property.             |
 | [`IsFixedSize`](#Column.IsFixedSize)                                                                                             | IsFixedSize property.            |
 | [`SyncRoot`](#Column.SyncRoot)                                                                                                   | SyncRoot property.               |

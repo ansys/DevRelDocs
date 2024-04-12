@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`ElementTypeCount`](#ETBlockCommand.ElementTypeCount)   | Gets the element type count.   |
+| Name | Summary |
 |----------------------------------------------------------|--------------------------------|
+| [`ElementTypeCount`](#ETBlockCommand.ElementTypeCount)   | Gets the element type count.   |
 | [`ElementTypes`](#ETBlockCommand.ElementTypes)           | Gets the element types.        |
 | [`Name`](#ETBlockCommand.Name)                           | Gets the command name.         |
 | [`Index`](#ETBlockCommand.Index)                         | Gets the command index.        |

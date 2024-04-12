@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ExportToXMLFile`](#AcousticFarFieldResult.ExportToXMLFile)                 | Run the ExportToXMLFile action.                                                   |
+| Name | Summary |
 |------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ExportToXMLFile`](#AcousticFarFieldResult.ExportToXMLFile)                 | Run the ExportToXMLFile action.                                                   |
 | [`ExportToWAVFile`](#AcousticFarFieldResult.ExportToWAVFile)                 | Run the ExportToWAVFile action.                                                   |
 | [`ClearGeneratedData`](#AcousticFarFieldResult.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#AcousticFarFieldResult.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
@@ -51,8 +52,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`FarFieldMicrophoneDefinitionMethod`](#AcousticFarFieldResult.FarFieldMicrophoneDefinitionMethod)                        | Gets or sets the FarFieldMicrophoneDefinitionMethod.                   |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`FarFieldMicrophoneDefinitionMethod`](#AcousticFarFieldResult.FarFieldMicrophoneDefinitionMethod)                        | Gets or sets the FarFieldMicrophoneDefinitionMethod.                   |
 | [`Worksheet`](../../Worksheet.md#Worksheet)                                                                               | Get the ObjectiveWorksheet action.                                     |
 | [`ReportedFrequency`](#AcousticFarFieldResult.ReportedFrequency)                                                          | Gets the ReportedFrequency.                                            |
 | [`DampedFrequency`](#AcousticFarFieldResult.DampedFrequency)                                                              | Gets the DampedFrequency.                                              |

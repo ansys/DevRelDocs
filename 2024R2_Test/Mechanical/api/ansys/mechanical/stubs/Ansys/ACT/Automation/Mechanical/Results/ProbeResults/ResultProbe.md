@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ExportAnimation`](#ResultProbe.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| Name | Summary |
 |-------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ExportAnimation`](#ResultProbe.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
 | [`ClearGeneratedData`](#ResultProbe.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`DuplicateWithoutResults`](#ResultProbe.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
 | [`EvaluateAllResults`](#ResultProbe.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
@@ -44,8 +45,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Summation`](#ResultProbe.Summation)                                                                                     | Gets or sets the Summation.                                                                                                                                                |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`Summation`](#ResultProbe.Summation)                                                                                     | Gets or sets the Summation.                                                                                                                                                |
 | [`LocationMethod`](#ResultProbe.LocationMethod)                                                                           | Gets or sets the LocationMethod.                                                                                                                                           |
 | [`GeometryLocation`](#ResultProbe.GeometryLocation)                                                                       | Gets or sets the GeometryLocation.                                                                                                                                         |
 | [`CoordinateSystemSelection`](#ResultProbe.CoordinateSystemSelection)                                                     | Gets or sets the CoordinateSystemSelection.                                                                                                                                |

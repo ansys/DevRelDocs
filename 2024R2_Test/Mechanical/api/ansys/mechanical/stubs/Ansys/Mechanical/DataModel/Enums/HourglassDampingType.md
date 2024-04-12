@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`AutodynStandard`](#HourglassDampingType.AutodynStandard)       |    |
+| Name | Summary |
 |------------------------------------------------------------------|----|
+| [`AutodynStandard`](#HourglassDampingType.AutodynStandard)       |    |
 | [`FlanaganBelytschko`](#HourglassDampingType.FlanaganBelytschko) |    |
 
 <a id="import-detail"></a>

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`FlipHighLow`](#SymmetryRegion.FlipHighLow)                         | Flips the High and Low Boundaries.                                                |
+| Name | Summary |
 |----------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`FlipHighLow`](#SymmetryRegion.FlipHighLow)                         | Flips the High and Low Boundaries.                                                |
 | [`Delete`](#SymmetryRegion.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                | Gets the list of children, filtered by type.                                      |
@@ -39,8 +40,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`PeriodicityDirection`](#SymmetryRegion.PeriodicityDirection)                                                      | Gets or sets the PeriodicityDirection.                        |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`PeriodicityDirection`](#SymmetryRegion.PeriodicityDirection)                                                      | Gets or sets the PeriodicityDirection.                        |
 | [`Location`](#SymmetryRegion.Location)                                                                              | Gets or sets the Location.                                    |
 | [`LinearShift`](#SymmetryRegion.LinearShift)                                                                        | Gets or sets the LinearShift.                                 |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |

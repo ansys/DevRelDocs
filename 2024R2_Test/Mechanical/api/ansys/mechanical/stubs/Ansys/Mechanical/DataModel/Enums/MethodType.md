@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Automatic`](#MethodType.Automatic)       |    |
+| Name | Summary |
 |--------------------------------------------|----|
+| [`Automatic`](#MethodType.Automatic)       |    |
 | [`AllTriAllTet`](#MethodType.AllTriAllTet) |    |
 | [`HexDominant`](#MethodType.HexDominant)   |    |
 | [`QuadTri`](#MethodType.QuadTri)           |    |

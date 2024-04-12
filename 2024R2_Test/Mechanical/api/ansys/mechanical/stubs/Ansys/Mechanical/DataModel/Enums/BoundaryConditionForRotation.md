@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Free`](#BoundaryConditionForRotation.Free)                                       |    |
+| Name | Summary |
 |------------------------------------------------------------------------------------|----|
+| [`Free`](#BoundaryConditionForRotation.Free)                                       |    |
 | [`Moment`](../../../ACT/Automation/Mechanical/BoundaryConditions/Moment.md#Moment) |    |
 | [`Rotation`](#BoundaryConditionForRotation.Rotation)                               |    |
 

@@ -18,13 +18,15 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ChangeFieldDefinitionType`](#AAPCustomLoadAdapter.ChangeFieldDefinitionType)   | ChangeFieldDefinitionType method.   |
+| Name | Summary |
 |----------------------------------------------------------------------------------|-------------------------------------|
+| [`ChangeFieldDefinitionType`](#AAPCustomLoadAdapter.ChangeFieldDefinitionType)   | ChangeFieldDefinitionType method.   |
 
 ### Properties
 
-| [`FieldProvider`](#AAPCustomLoadAdapter.FieldProvider)   | Gets the wrapped object from Mechanical.   |
+| Name | Summary |
 |----------------------------------------------------------|--------------------------------------------|
+| [`FieldProvider`](#AAPCustomLoadAdapter.FieldProvider)   | Gets the wrapped object from Mechanical.   |
 
 <a id="import-detail"></a>
 

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`UnlockPrePostLicense`](#IMechanicalExtAPI.UnlockPrePostLicense)   | R                                                   |
+| Name | Summary |
 |---------------------------------------------------------------------|-----------------------------------------------------|
+| [`UnlockPrePostLicense`](#IMechanicalExtAPI.UnlockPrePostLicense)   | R                                                   |
 | [`LockPrePostLicense`](#IMechanicalExtAPI.LockPrePostLicense)       | Locks the license used by the PRE/POST application. |
 
 <a id="import-detail"></a>

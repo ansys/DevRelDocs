@@ -18,13 +18,15 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Equivalent`](#Plane.Equivalent)   | Checks to see if another plane is equivalent to this one.   |
+| Name | Summary |
 |-------------------------------------|-------------------------------------------------------------|
+| [`Equivalent`](#Plane.Equivalent)   | Checks to see if another plane is equivalent to this one.   |
 
 ### Properties
 
-| [`Type`](#Plane.Type)                                     | Type property.                                                         |
+| Name | Summary |
 |-----------------------------------------------------------|------------------------------------------------------------------------|
+| [`Type`](#Plane.Type)                                     | Type property.                                                         |
 | [`Definition`](#Plane.Definition)                         | Definition property.                                                   |
 | [`Origin`](#Plane.Origin)                                 | The global location of this plane’s origin.                            |
 | [`PrimaryAxisDirection`](#Plane.PrimaryAxisDirection)     | The orientation of the plane’s primary (X) axis orientation.           |

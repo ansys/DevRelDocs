@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`PML1D`](#PMLOptions.PML1D)   |    |
+| Name | Summary |
 |--------------------------------|----|
+| [`PML1D`](#PMLOptions.PML1D)   |    |
 | [`PML3D`](#PMLOptions.PML3D)   |    |
 
 <a id="import-detail"></a>

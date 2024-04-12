@@ -19,8 +19,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Independents`](#ITable.Independents)   | The portion of the table corresponding to independent variables.   |
+| Name | Summary |
 |------------------------------------------|--------------------------------------------------------------------|
+| [`Independents`](#ITable.Independents)   | The portion of the table corresponding to independent variables.   |
 | [`Dependents`](#ITable.Dependents)       | The portion of the table corresponding to dependent variables.     |
 
 <a id="import-detail"></a>

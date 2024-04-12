@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ExportAnimation`](#TemperatureTracker.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| Name | Summary |
 |--------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ExportAnimation`](#TemperatureTracker.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
 | [`ClearGeneratedData`](#TemperatureTracker.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#TemperatureTracker.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
 | [`RenameBasedOnDefinition`](#TemperatureTracker.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
@@ -41,8 +42,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.            |
 | [`LocationXCoordinate`](#TemperatureTracker.LocationXCoordinate)                                                          | Gets or sets the LocationXCoordinate.                         |
 | [`LocationYCoordinate`](#TemperatureTracker.LocationYCoordinate)                                                          | Gets or sets the LocationYCoordinate.                         |
 | [`LocationZCoordinate`](#TemperatureTracker.LocationZCoordinate)                                                          | Gets or sets the LocationZCoordinate.                         |

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Label`](#ScopeType.Label)                                  |    |
+| Name | Summary |
 |--------------------------------------------------------------|----|
+| [`Label`](#ScopeType.Label)                                  |    |
 | [`Part`](../../../../ACT/Automation/Mechanical/Part.md#Part) |    |
 | [`Zone`](#ScopeType.Zone)                                    |    |
 

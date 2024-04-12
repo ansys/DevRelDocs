@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ExportAnimation`](#FractureJINTProbe.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| Name | Summary |
 |-------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ExportAnimation`](#FractureJINTProbe.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
 | [`ClearGeneratedData`](#FractureJINTProbe.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`DuplicateWithoutResults`](#FractureJINTProbe.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
 | [`EvaluateAllResults`](#FractureJINTProbe.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
@@ -44,8 +45,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.                                                                                                                         |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.                                                                                                                         |
 | [`ResultProbeValue`](#FractureJINTProbe.ResultProbeValue)                                                                 | Gets the ResultProbeValue.                                                                                                                                                 |
 | [`MaximumValueOverTime`](#FractureJINTProbe.MaximumValueOverTime)                                                         | Gets the MaximumValueOverTime.                                                                                                                                             |
 | [`MinimumValueOverTime`](#FractureJINTProbe.MinimumValueOverTime)                                                         | Gets the MinimumValueOverTime.                                                                                                                                             |

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`None_`](#Parameters.None_)             |    |
+| Name | Summary |
 |------------------------------------------|----|
+| [`None_`](#Parameters.None_)             |    |
 | [`Independent`](#Parameters.Independent) |    |
 | [`All`](#Parameters.All)                 |    |
 

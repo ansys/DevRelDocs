@@ -20,8 +20,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`QuadTri`](#StackerMethodMeshType.QuadTri)   |    |
+| Name | Summary |
 |-----------------------------------------------|----|
+| [`QuadTri`](#StackerMethodMeshType.QuadTri)   |    |
 | [`AllTri`](#StackerMethodMeshType.AllTri)     |    |
 
 <a id="import-detail"></a>

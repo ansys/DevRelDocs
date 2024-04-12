@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Damping`](#StabilizationMethod.Damping)   |    |
+| Name | Summary |
 |---------------------------------------------|----|
+| [`Damping`](#StabilizationMethod.Damping)   |    |
 | [`Energy`](#StabilizationMethod.Energy)     |    |
 
 <a id="import-detail"></a>

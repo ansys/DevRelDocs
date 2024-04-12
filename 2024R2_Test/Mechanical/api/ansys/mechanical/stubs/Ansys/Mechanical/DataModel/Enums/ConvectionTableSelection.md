@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`AmbientTemperature`](#ConvectionTableSelection.AmbientTemperature)   |    |
+| Name | Summary |
 |------------------------------------------------------------------------|----|
+| [`AmbientTemperature`](#ConvectionTableSelection.AmbientTemperature)   |    |
 | [`FilmCoefficient`](#ConvectionTableSelection.FilmCoefficient)         |    |
 
 <a id="import-detail"></a>

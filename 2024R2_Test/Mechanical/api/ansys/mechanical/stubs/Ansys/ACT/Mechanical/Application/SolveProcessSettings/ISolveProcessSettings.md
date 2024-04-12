@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`DistributeSolution`](#ISolveProcessSettings.DistributeSolution)                         | Gets or sets the boolean “Distribute Solution (if possible)” field.   |
+| Name | Summary |
 |-------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
+| [`DistributeSolution`](#ISolveProcessSettings.DistributeSolution)                         | Gets or sets the boolean “Distribute Solution (if possible)” field.   |
 | [`MaxNumberOfCores`](#ISolveProcessSettings.MaxNumberOfCores)                             | Gets or sets the “Maximum number of utilized cores” field.            |
 | [`NumberOfGPUDevices`](#ISolveProcessSettings.NumberOfGPUDevices)                         | Gets or sets the “Number of utilized GPU devices” field.              |
 | [`AdditionalCommandLineArguments`](#ISolveProcessSettings.AdditionalCommandLineArguments) | Gets or sets the “Additional Command Line Arguments” field.           |

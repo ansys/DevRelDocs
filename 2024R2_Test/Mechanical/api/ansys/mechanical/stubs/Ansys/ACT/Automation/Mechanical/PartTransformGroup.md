@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`TransformGeometry`](#PartTransformGroup.TransformGeometry)             | TransformGeometry method.                                                         |
+| Name | Summary |
 |--------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`TransformGeometry`](#PartTransformGroup.TransformGeometry)             | TransformGeometry method.                                                         |
 | [`AddPartTransform`](#PartTransformGroup.AddPartTransform)               | Creates a new PartTransform                                                       |
 | [`Delete`](#PartTransformGroup.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                    | Gets the list of children, filtered by type.                                      |
@@ -40,8 +41,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`RegenerateContacts`](#PartTransformGroup.RegenerateContacts)                                                      | Gets or sets the RegenerateContacts.                          |
 | [`Suppressed`](#PartTransformGroup.Suppressed)                                                                      | Gets or sets the Suppressed.                                  |
 | [`TransformMesh`](#PartTransformGroup.TransformMesh)                                                                | Gets or sets the TransformMesh.                               |

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddCommandSnippet`](#SubstructureGenerationCondensedPart.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
+| Name | Summary |
 |-------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddCommandSnippet`](#SubstructureGenerationCondensedPart.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
 | [`ClearGeneratedData`](#SubstructureGenerationCondensedPart.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`Delete`](#SubstructureGenerationCondensedPart.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                                     | Gets the list of children, filtered by type.                                      |
@@ -40,8 +41,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Interfaces`](#SubstructureGenerationCondensedPart.Interfaces)                                                     | Returns the Interfaces of the condensed part                  |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Interfaces`](#SubstructureGenerationCondensedPart.Interfaces)                                                     | Returns the Interfaces of the condensed part                  |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`AttachmentMethod`](#SubstructureGenerationCondensedPart.AttachmentMethod)                                         | Gets or sets the AttachmentMethod.                            |
 | [`GenerateDampingMatrix`](#SubstructureGenerationCondensedPart.GenerateDampingMatrix)                               | Gets or sets the GenerateDampingMatrix.                       |

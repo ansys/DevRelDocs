@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`All`](#ExternalLoadDisplayComponentType.All)                 |    |
+| Name | Summary |
 |----------------------------------------------------------------|----|
+| [`All`](#ExternalLoadDisplayComponentType.All)                 |    |
 | [`Total`](#ExternalLoadDisplayComponentType.Total)             |    |
 | [`Undefined`](#ExternalLoadDisplayComponentType.Undefined)     |    |
 | [`XComponent`](#ExternalLoadDisplayComponentType.XComponent)   |    |

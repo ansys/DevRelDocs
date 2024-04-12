@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetActivateAtLoadStep`](#AcousticTemperature.GetActivateAtLoadStep)                   | GetActivateAtLoadStep method.                                                     |
+| Name | Summary |
 |-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetActivateAtLoadStep`](#AcousticTemperature.GetActivateAtLoadStep)                   | GetActivateAtLoadStep method.                                                     |
 | [`SetActivateAtLoadStep`](#AcousticTemperature.SetActivateAtLoadStep)                   | SetActivateAtLoadStep method.                                                     |
 | [`GetComponentActivateAtLoadStep`](#AcousticTemperature.GetComponentActivateAtLoadStep) | GetComponentActivateAtLoadStep method.                                            |
 | [`SetComponentActivateAtLoadStep`](#AcousticTemperature.SetComponentActivateAtLoadStep) | SetComponentActivateAtLoadStep method.                                            |
@@ -43,8 +44,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`NumberOfSegments`](#AcousticTemperature.NumberOfSegments)                                                            | Gets or sets the NumberOfSegments.                            |
 | [`LoadVectorNumber`](#AcousticTemperature.LoadVectorNumber)                                                            | Gets or sets the LoadVectorNumber.                            |

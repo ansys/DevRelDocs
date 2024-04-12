@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddLinearPeriodicRegion`](#Symmetry.AddLinearPeriodicRegion)   | Creates a new SymmetryRegion                                                      |
+| Name | Summary |
 |------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddLinearPeriodicRegion`](#Symmetry.AddLinearPeriodicRegion)   | Creates a new SymmetryRegion                                                      |
 | [`AddCyclicRegion`](#Symmetry.AddCyclicRegion)                   | Creates a new CyclicRegion                                                        |
 | [`AddGeneralAxisymmetric`](#Symmetry.AddGeneralAxisymmetric)     | Creates a new GeneralAxisymmetric                                                 |
 | [`AddPeriodicRegion`](#Symmetry.AddPeriodicRegion)               | Creates a new PeriodicRegion                                                      |
@@ -45,8 +46,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#Symmetry.Children)                                                                                    | Gets the list of children.                                    |
 | [`Comments`](#Symmetry.Comments)                                                                                    | Gets the list of associated comments.                         |

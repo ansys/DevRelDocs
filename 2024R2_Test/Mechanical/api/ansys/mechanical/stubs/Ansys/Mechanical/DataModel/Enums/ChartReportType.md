@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ChartAndTabularData`](#ChartReportType.ChartAndTabularData)   |    |
+| Name | Summary |
 |-----------------------------------------------------------------|----|
+| [`ChartAndTabularData`](#ChartReportType.ChartAndTabularData)   |    |
 | [`ChartOnly`](#ChartReportType.ChartOnly)                       |    |
 | [`None_`](#ChartReportType.None_)                               |    |
 | [`TabularDataOnly`](#ChartReportType.TabularDataOnly)           |    |

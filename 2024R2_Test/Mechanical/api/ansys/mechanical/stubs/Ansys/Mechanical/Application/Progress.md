@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`SetProgress`](#Progress.SetProgress)   | Set the current progress state   |
+| Name | Summary |
 |------------------------------------------|----------------------------------|
+| [`SetProgress`](#Progress.SetProgress)   | Set the current progress state   |
 
 <a id="import-detail"></a>
 

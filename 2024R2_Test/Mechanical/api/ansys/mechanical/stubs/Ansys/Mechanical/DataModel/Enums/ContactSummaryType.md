@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`CNMFile`](#ContactSummaryType.CNMFile)                     |    |
+| Name | Summary |
 |--------------------------------------------------------------|----|
+| [`CNMFile`](#ContactSummaryType.CNMFile)                     |    |
 | [`ProgramControlled`](#ContactSummaryType.ProgramControlled) |    |
 | [`SolverOutput`](#ContactSummaryType.SolverOutput)           |    |
 

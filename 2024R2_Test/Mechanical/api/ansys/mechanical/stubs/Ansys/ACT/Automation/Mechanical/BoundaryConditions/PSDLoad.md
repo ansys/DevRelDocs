@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#PSDLoad.Delete)                                   | Run the Delete action.                                                            |
+| Name | Summary |
 |---------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#PSDLoad.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                         | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                         | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#PSDLoad.AddComment)                           | Creates a new child Comment.                                                      |
@@ -38,8 +39,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`BoundaryCondition`](#PSDLoad.BoundaryCondition)                                                                      | Gets or sets the BoundaryCondition.                           |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`BoundaryCondition`](#PSDLoad.BoundaryCondition)                                                                      | Gets or sets the BoundaryCondition.                           |
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`Direction`](#PSDLoad.Direction)                                                                                      | Gets or sets the Direction.                                   |
 | [`Suppressed`](#PSDLoad.Suppressed)                                                                                    | Gets or sets the Suppressed.                                  |

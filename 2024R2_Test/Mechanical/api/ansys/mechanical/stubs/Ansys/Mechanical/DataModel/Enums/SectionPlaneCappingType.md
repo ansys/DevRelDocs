@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Hide`](#SectionPlaneCappingType.Hide)                       |    |
+| Name | Summary |
 |---------------------------------------------------------------|----|
+| [`Hide`](#SectionPlaneCappingType.Hide)                       |    |
 | [`Show`](#SectionPlaneCappingType.Show)                       |    |
 | [`ShowByBodyColor`](#SectionPlaneCappingType.ShowByBodyColor) |    |
 

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`NormalGasket`](#GasketResultType.NormalGasket)   |    |
+| Name | Summary |
 |----------------------------------------------------|----|
+| [`NormalGasket`](#GasketResultType.NormalGasket)   |    |
 | [`ShearGasket`](#GasketResultType.ShearGasket)     |    |
 
 <a id="import-detail"></a>

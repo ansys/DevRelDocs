@@ -10,8 +10,9 @@
 
 ### Subpackages
 
-| [`Application`](Application/index.md#module-ansys.mechanical.stubs.Ansys.Mechanical.Application)    | Application subpackage.   |
+| Name | Summary |
 |-----------------------------------------------------------------------------------------------------|---------------------------|
+| [`Application`](Application/index.md#module-ansys.mechanical.stubs.Ansys.Mechanical.Application)    | Application subpackage.   |
 | [`DataModel`](DataModel/index.md#module-ansys.mechanical.stubs.Ansys.Mechanical.DataModel)          | DataModel submodule.      |
 | [`ExternalData`](ExternalData/index.md#module-ansys.mechanical.stubs.Ansys.Mechanical.ExternalData) | ExternalData subpackage.  |
 | [`Graphics`](Graphics/index.md#module-ansys.mechanical.stubs.Ansys.Mechanical.Graphics)             | Graphics subpackage.      |

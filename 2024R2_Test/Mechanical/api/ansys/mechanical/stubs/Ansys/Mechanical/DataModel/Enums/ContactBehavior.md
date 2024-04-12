@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Asymmetric`](#ContactBehavior.Asymmetric)               |    |
+| Name | Summary |
 |-----------------------------------------------------------|----|
+| [`Asymmetric`](#ContactBehavior.Asymmetric)               |    |
 | [`AutoAsymmetric`](#ContactBehavior.AutoAsymmetric)       |    |
 | [`ProgramControlled`](#ContactBehavior.ProgramControlled) |    |
 | [`Symmetric`](#ContactBehavior.Symmetric)                 |    |

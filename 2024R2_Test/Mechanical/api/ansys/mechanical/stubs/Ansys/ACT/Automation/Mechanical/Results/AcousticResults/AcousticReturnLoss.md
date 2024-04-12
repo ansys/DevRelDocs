@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#AcousticReturnLoss.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |--------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#AcousticReturnLoss.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#AcousticReturnLoss.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#AcousticReturnLoss.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#AcousticReturnLoss.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
@@ -49,8 +50,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InputPort`](#AcousticReturnLoss.InputPort)                                                                              | Gets or sets the InputPort.                                            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InputPort`](#AcousticReturnLoss.InputPort)                                                                              | Gets or sets the InputPort.                                            |
 | [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.                     |
 | [`MaximumFrequency`](#AcousticReturnLoss.MaximumFrequency)                                                                | Gets or sets the MaximumFrequency.                                     |
 | [`MinimumFrequency`](#AcousticReturnLoss.MinimumFrequency)                                                                | Gets or sets the MinimumFrequency.                                     |

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#MeshWorkflowStep.Delete)                                   | Run the Delete action.                                                                                                                                                                                            |
+| Name | Summary |
 |------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`Delete`](#MeshWorkflowStep.Delete)                                   | Run the Delete action.                                                                                                                                                                                            |
 | [`AddControl`](#MeshWorkflowStep.AddControl)                           | Adds a MeshWorkflowControl node as child node of the “Step” tree node. This control node can be created under any step node. This node is created to set properties that are required for executing an operation. |
 | [`AddOutcome`](#MeshWorkflowStep.AddOutcome)                           | Adds a MeshWorkflowOutcome node as child node of the “Step” tree node. This outcome node can be created under any step node. This node is created to see the results after executing an operation.                |
 | [`GetChildren`](#id1)                                                  | Gets the list of children, filtered by type.                                                                                                                                                                      |
@@ -39,8 +40,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`OperationType`](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/OperationType.md#OperationType)        | Returns the type of the operation. .                          |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`OperationType`](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/OperationType.md#OperationType)        | Returns the type of the operation. .                          |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#MeshWorkflowStep.Children)                                                                            | Gets the list of children.                                    |

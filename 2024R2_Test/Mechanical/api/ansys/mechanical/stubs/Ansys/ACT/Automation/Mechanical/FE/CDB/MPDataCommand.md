@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Mat`](#MPDataCommand.Mat)       | Gets the material number.   |
+| Name | Summary |
 |-----------------------------------|-----------------------------|
+| [`Mat`](#MPDataCommand.Mat)       | Gets the material number.   |
 | [`Lab`](#MPDataCommand.Lab)       | Gets the label.             |
 | [`Temps`](#MPDataCommand.Temps)   | Gets the temperatures.      |
 | [`Values`](#MPDataCommand.Values) | Gets the values.            |

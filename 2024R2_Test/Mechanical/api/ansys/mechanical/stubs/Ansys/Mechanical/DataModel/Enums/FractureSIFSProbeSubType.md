@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`K1`](#FractureSIFSProbeSubType.K1)   |    |
+| Name | Summary |
 |----------------------------------------|----|
+| [`K1`](#FractureSIFSProbeSubType.K1)   |    |
 | [`K2`](#FractureSIFSProbeSubType.K2)   |    |
 | [`K3`](#FractureSIFSProbeSubType.K3)   |    |
 

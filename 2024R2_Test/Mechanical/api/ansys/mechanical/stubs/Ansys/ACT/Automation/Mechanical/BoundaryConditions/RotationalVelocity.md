@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#RotationalVelocity.Delete)                                   | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#RotationalVelocity.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                    | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                    | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#RotationalVelocity.AddComment)                           | Creates a new child Comment.                                                      |
@@ -38,8 +39,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Location`](#RotationalVelocity.Location)                                                                             | Gets or sets the Location.                                    |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Location`](#RotationalVelocity.Location)                                                                             | Gets or sets the Location.                                    |
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`XComponent`](#RotationalVelocity.XComponent)                                                                         | Gets the XComponent.                                          |
 | [`YComponent`](#RotationalVelocity.YComponent)                                                                         | Gets the YComponent.                                          |

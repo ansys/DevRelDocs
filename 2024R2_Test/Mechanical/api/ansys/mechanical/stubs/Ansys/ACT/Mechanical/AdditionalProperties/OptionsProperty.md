@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Options`](#OptionsProperty.Options)         | Options shown in the drop-down, represented by a dictionary of int -> string.                        |
+| Name | Summary |
 |-----------------------------------------------|------------------------------------------------------------------------------------------------------|
+| [`Options`](#OptionsProperty.Options)         | Options shown in the drop-down, represented by a dictionary of int -> string.                        |
 | [`Name`](#OptionsProperty.Name)               | The name of the property.                                                                            |
 | [`DisplayName`](#OptionsProperty.DisplayName) | The name of the property shown in the UI. If not set, the Name property is used.                     |
 | [`GroupName`](#OptionsProperty.GroupName)     | The group name of the property shown in the UI, and used to separate properties based on group name. |

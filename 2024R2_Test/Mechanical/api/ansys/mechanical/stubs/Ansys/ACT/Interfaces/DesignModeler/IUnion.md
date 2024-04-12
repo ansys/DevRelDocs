@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ApplyTo`](#IUnion.ApplyTo)   | ApplyTo method.   |
+| Name | Summary |
 |--------------------------------|-------------------|
+| [`ApplyTo`](#IUnion.ApplyTo)   | ApplyTo method.   |
 
 <a id="import-detail"></a>
 

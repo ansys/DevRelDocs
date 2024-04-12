@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Maximum`](#MinimumOrMaximum.Maximum)   |    |
+| Name | Summary |
 |------------------------------------------|----|
+| [`Maximum`](#MinimumOrMaximum.Maximum)   |    |
 | [`Minimum`](#MinimumOrMaximum.Minimum)   |    |
 
 <a id="import-detail"></a>

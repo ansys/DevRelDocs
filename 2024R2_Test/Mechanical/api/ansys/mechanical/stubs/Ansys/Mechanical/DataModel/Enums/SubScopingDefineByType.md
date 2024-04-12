@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Layer`](#SubScopingDefineByType.Layer)   |    |
+| Name | Summary |
 |--------------------------------------------|----|
+| [`Layer`](#SubScopingDefineByType.Layer)   |    |
 | [`Plies`](#SubScopingDefineByType.Plies)   |    |
 | [`Ply`](#SubScopingDefineByType.Ply)       |    |
 

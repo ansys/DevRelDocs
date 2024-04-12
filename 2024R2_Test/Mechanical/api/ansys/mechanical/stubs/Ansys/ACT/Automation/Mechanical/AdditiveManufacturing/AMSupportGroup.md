@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`DetectSupportFaces`](#AMSupportGroup.DetectSupportFaces)           | Runs the Detect Support Faces action.                                             |
+| Name | Summary |
 |----------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`DetectSupportFaces`](#AMSupportGroup.DetectSupportFaces)           | Runs the Detect Support Faces action.                                             |
 | [`AddGeneratedAMSupport`](#AMSupportGroup.AddGeneratedAMSupport)     | Creates a new GeneratedAMSupport                                                  |
 | [`AddPredefinedAMSupport`](#AMSupportGroup.AddPredefinedAMSupport)   | Creates a new PredefinedAMSupport                                                 |
 | [`AddSTLAMSupport`](#AMSupportGroup.AddSTLAMSupport)                 | Creates a new GeneratedAMSupport                                                  |
@@ -43,8 +44,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`HangAngle`](#AMSupportGroup.HangAngle)                                                                               | Gets or sets the HangAngle.                                   |
 | [`DetectAboveZLocation`](#AMSupportGroup.DetectAboveZLocation)                                                         | Gets or sets the DetectAboveZLocation.                        |
 | [`OutputType`](#AMSupportGroup.OutputType)                                                                             | Gets or sets the OutputType.                                  |

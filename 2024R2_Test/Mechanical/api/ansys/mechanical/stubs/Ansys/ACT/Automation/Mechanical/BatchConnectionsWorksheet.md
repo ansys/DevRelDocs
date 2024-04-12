@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddRow`](#BatchConnectionsWorksheet.AddRow)                                   | Add a row to the MeshControlWorksheet                    |
+| Name | Summary |
 |---------------------------------------------------------------------------------|----------------------------------------------------------|
+| [`AddRow`](#BatchConnectionsWorksheet.AddRow)                                   | Add a row to the MeshControlWorksheet                    |
 | [`DeleteRow`](#BatchConnectionsWorksheet.DeleteRow)                             | Delete a row from the MeshControlWorksheet               |
 | [`GetActiveState`](#BatchConnectionsWorksheet.GetActiveState)                   | Gets the Active State property at row index              |
 | [`SetActiveState`](#BatchConnectionsWorksheet.SetActiveState)                   | Sets the Active State property at row index              |
@@ -38,8 +39,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`RowCount`](#BatchConnectionsWorksheet.RowCount)   | Gets the number of entries   |
+| Name | Summary |
 |-----------------------------------------------------|------------------------------|
+| [`RowCount`](#BatchConnectionsWorksheet.RowCount)   | Gets the number of entries   |
 
 <a id="import-detail"></a>
 

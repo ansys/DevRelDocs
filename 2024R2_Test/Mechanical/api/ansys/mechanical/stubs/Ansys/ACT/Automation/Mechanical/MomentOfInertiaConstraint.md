@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`RenameBasedOnDefinition`](#MomentOfInertiaConstraint.RenameBasedOnDefinition)   | Run the RenameBasedOnDefinition action.                                           |
+| Name | Summary |
 |-----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`RenameBasedOnDefinition`](#MomentOfInertiaConstraint.RenameBasedOnDefinition)   | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#MomentOfInertiaConstraint.Delete)                                     | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                             | Gets the list of children, filtered by type.                                      |
@@ -36,8 +37,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.                                       |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.                                       |
 | [`PercentageToRetain`](#MomentOfInertiaConstraint.PercentageToRetain)                                               | Gets or sets the PercentageToRetain.                                                     |
 | [`PercentageToRetainMax`](#MomentOfInertiaConstraint.PercentageToRetainMax)                                         | Gets or sets the PercentageToRetainMax.                                                  |
 | [`PercentageToRetainMin`](#MomentOfInertiaConstraint.PercentageToRetainMin)                                         | Gets or sets the PercentageToRetainMin.                                                  |

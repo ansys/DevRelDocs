@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Off`](#DpfEvaluationType.Off)                             |    |
+| Name | Summary |
 |-------------------------------------------------------------|----|
+| [`Off`](#DpfEvaluationType.Off)                             |    |
 | [`ProgramControlled`](#DpfEvaluationType.ProgramControlled) |    |
 | [`CmsFiles`](#DpfEvaluationType.CmsFiles)                   |    |
 | [`MsupFiles`](#DpfEvaluationType.MsupFiles)                 |    |

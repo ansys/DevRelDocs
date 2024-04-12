@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`GlobalSetting`](#ElementMidsideNodesType.GlobalSetting)   |    |
+| Name | Summary |
 |-------------------------------------------------------------|----|
+| [`GlobalSetting`](#ElementMidsideNodesType.GlobalSetting)   |    |
 | [`Dropped`](#ElementMidsideNodesType.Dropped)               |    |
 | [`Kept`](#ElementMidsideNodesType.Kept)                     |    |
 

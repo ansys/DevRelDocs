@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetActivateAtLoadStep`](#Moment.GetActivateAtLoadStep)                   | GetActivateAtLoadStep method.                                                     |
+| Name | Summary |
 |----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetActivateAtLoadStep`](#Moment.GetActivateAtLoadStep)                   | GetActivateAtLoadStep method.                                                     |
 | [`SetActivateAtLoadStep`](#Moment.SetActivateAtLoadStep)                   | SetActivateAtLoadStep method.                                                     |
 | [`GetComponentActivateAtLoadStep`](#Moment.GetComponentActivateAtLoadStep) | GetComponentActivateAtLoadStep method.                                            |
 | [`SetComponentActivateAtLoadStep`](#Moment.SetComponentActivateAtLoadStep) | SetComponentActivateAtLoadStep method.                                            |
@@ -44,8 +45,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Direction`](#Moment.Direction)                                                                                       | Gets or sets the Direction.                                   |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Direction`](#Moment.Direction)                                                                                       | Gets or sets the Direction.                                   |
 | [`RemotePoint`](../RemotePoint.md#RemotePoint)                                                                         | Gets the remote point associated to the point mass.           |
 | [`Location`](#Moment.Location)                                                                                         | Gets or sets the Geometry.                                    |
 | [`StepSelection`](#Moment.StepSelection)                                                                               | Gets or sets the StepSelection.                               |

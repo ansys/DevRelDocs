@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`DuringSolution`](#CacheResultsInMemory.DuringSolution)   |    |
+| Name | Summary |
 |------------------------------------------------------------|----|
+| [`DuringSolution`](#CacheResultsInMemory.DuringSolution)   |    |
 | [`AsRequested`](#CacheResultsInMemory.AsRequested)         |    |
 | [`Never`](#CacheResultsInMemory.Never)                     |    |
 

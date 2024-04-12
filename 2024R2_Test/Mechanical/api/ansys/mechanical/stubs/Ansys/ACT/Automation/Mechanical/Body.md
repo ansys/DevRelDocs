@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetGeoBody`](#Body.GetGeoBody)                           | Gets the Geo Body                                                                 |
+| Name | Summary |
 |------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetGeoBody`](#Body.GetGeoBody)                           | Gets the Geo Body                                                                 |
 | [`ClearGeneratedData`](#Body.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`AddCommandSnippet`](#Body.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
 | [`AddPythonCodeEventBased`](#Body.AddPythonCodeEventBased) | Creates a new PythonCodeEventBased                                                |
@@ -46,8 +47,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Hidden`](#Body.Hidden)                                                                                                              | Hide or show the body.                                                                         |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
+| [`Hidden`](#Body.Hidden)                                                                                                              | Hide or show the body.                                                                         |
 | [`ConfigurationId`](#Body.ConfigurationId)                                                                                            | Gets the related Result Mesh’s ConfigurationId.                                                |
 | [`ResultMeshId`](#Body.ResultMeshId)                                                                                                  | Gets the related Result Mesh’s ObjectId.                                                       |
 | [`ReferenceTemperature`](#Body.ReferenceTemperature)                                                                                  | Gets or sets the ReferenceTemperature.                                                         |

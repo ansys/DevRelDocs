@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetActivateAtLoadStep`](#BearingLoad.GetActivateAtLoadStep)                   | GetActivateAtLoadStep method.                                                     |
+| Name | Summary |
 |---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetActivateAtLoadStep`](#BearingLoad.GetActivateAtLoadStep)                   | GetActivateAtLoadStep method.                                                     |
 | [`SetActivateAtLoadStep`](#BearingLoad.SetActivateAtLoadStep)                   | SetActivateAtLoadStep method.                                                     |
 | [`GetComponentActivateAtLoadStep`](#BearingLoad.GetComponentActivateAtLoadStep) | GetComponentActivateAtLoadStep method.                                            |
 | [`SetComponentActivateAtLoadStep`](#BearingLoad.SetComponentActivateAtLoadStep) | SetComponentActivateAtLoadStep method.                                            |
@@ -43,8 +44,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Direction`](#BearingLoad.Direction)                                                                                  | Gets or sets the Direction.                                   |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Direction`](#BearingLoad.Direction)                                                                                  | Gets or sets the Direction.                                   |
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`XComponent`](#BearingLoad.XComponent)                                                                                | Gets the XComponent.                                          |
 | [`YComponent`](#BearingLoad.YComponent)                                                                                | Gets the YComponent.                                          |

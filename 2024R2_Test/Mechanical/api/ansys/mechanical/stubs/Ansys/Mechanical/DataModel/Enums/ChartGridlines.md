@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`BothAxis`](#ChartGridlines.BothAxis)   |    |
+| Name | Summary |
 |------------------------------------------|----|
+| [`BothAxis`](#ChartGridlines.BothAxis)   |    |
 | [`NoAxis`](#ChartGridlines.NoAxis)       |    |
 | [`XAxis`](#ChartGridlines.XAxis)         |    |
 | [`YAxis`](#ChartGridlines.YAxis)         |    |

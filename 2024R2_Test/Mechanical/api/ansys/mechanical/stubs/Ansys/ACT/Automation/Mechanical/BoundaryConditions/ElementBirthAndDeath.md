@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#ElementBirthAndDeath.Delete)                                   | Run the Delete action.                                                            |
+| Name | Summary |
 |----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#ElementBirthAndDeath.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                      | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                      | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#ElementBirthAndDeath.AddComment)                           | Creates a new child Comment.                                                      |
@@ -38,8 +39,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`CurrentStep`](#ElementBirthAndDeath.CurrentStep)                                                                     | Gets or sets the CurrentStep.                                 |
 | [`Status`](#ElementBirthAndDeath.Status)                                                                               | Gets or sets the Status.                                      |
 | [`Location`](#ElementBirthAndDeath.Location)                                                                           | Gets or sets the Location.                                    |

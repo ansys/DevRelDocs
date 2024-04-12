@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`LagrangeMultiplier`](#RemotePointFormulation.LagrangeMultiplier)   |    |
+| Name | Summary |
 |----------------------------------------------------------------------|----|
+| [`LagrangeMultiplier`](#RemotePointFormulation.LagrangeMultiplier)   |    |
 | [`MPC`](#RemotePointFormulation.MPC)                                 |    |
 
 <a id="import-detail"></a>

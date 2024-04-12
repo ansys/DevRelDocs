@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Range`](#GapDefinedBy.Range)                 |    |
+| Name | Summary |
 |------------------------------------------------|----|
+| [`Range`](#GapDefinedBy.Range)                 |    |
 | [`CADParameters`](#GapDefinedBy.CADParameters) |    |
 
 <a id="import-detail"></a>

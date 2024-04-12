@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Truss`](#EXDBeamSolutionType.Truss)     |    |
+| Name | Summary |
 |-------------------------------------------|----|
+| [`Truss`](#EXDBeamSolutionType.Truss)     |    |
 | [`Bending`](#EXDBeamSolutionType.Bending) |    |
 
 <a id="import-detail"></a>

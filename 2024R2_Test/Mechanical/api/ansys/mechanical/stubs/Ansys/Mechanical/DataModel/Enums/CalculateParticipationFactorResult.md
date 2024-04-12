@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`No`](#CalculateParticipationFactorResult.No)                               |    |
+| Name | Summary |
 |------------------------------------------------------------------------------|----|
+| [`No`](#CalculateParticipationFactorResult.No)                               |    |
 | [`ProgramControlled`](#CalculateParticipationFactorResult.ProgramControlled) |    |
 | [`Yes`](#CalculateParticipationFactorResult.Yes)                             |    |
 

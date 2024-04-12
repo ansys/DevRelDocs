@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Id`](#CommandReal.Id)         | Gets the real constant set number.   |
+| Name | Summary |
 |---------------------------------|--------------------------------------|
+| [`Id`](#CommandReal.Id)         | Gets the real constant set number.   |
 | [`Values`](#CommandReal.Values) | Gets the values.                     |
 
 <a id="import-detail"></a>

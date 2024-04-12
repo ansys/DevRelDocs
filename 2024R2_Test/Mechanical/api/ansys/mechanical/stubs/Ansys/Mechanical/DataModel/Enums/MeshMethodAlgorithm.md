@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Axisymmetric`](#MeshMethodAlgorithm.Axisymmetric)         |    |
+| Name | Summary |
 |-------------------------------------------------------------|----|
+| [`Axisymmetric`](#MeshMethodAlgorithm.Axisymmetric)         |    |
 | [`PatchConforming`](#MeshMethodAlgorithm.PatchConforming)   |    |
 | [`PatchIndependent`](#MeshMethodAlgorithm.PatchIndependent) |    |
 | [`AutomaticSweep`](#MeshMethodAlgorithm.AutomaticSweep)     |    |

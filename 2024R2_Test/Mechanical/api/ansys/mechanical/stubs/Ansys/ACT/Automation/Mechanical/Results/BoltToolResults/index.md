@@ -10,8 +10,9 @@
 
 ### Classes
 
-| [`BoltTool`](BoltTool.md#BoltTool)                      | Defines a BoltTool.        |
+| Name | Summary |
 |---------------------------------------------------------|----------------------------|
+| [`BoltTool`](BoltTool.md#BoltTool)                      | Defines a BoltTool.        |
 | [`BoltToolResult`](BoltToolResult.md#BoltToolResult)    | Defines a BoltToolResult.  |
 | [`BoltAdjustment`](BoltAdjustment.md#BoltAdjustment)    | Defines a BoltAdjustment.  |
 | [`BoltWorkingLoad`](BoltWorkingLoad.md#BoltWorkingLoad) | Defines a BoltWorkingLoad. |
@@ -40,8 +41,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`EvaluateAllResults`](#id170)                      | Run the EvaluateAllResults action.                                                |
+| Name | Summary |
 |-----------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`EvaluateAllResults`](#id170)                      | Run the EvaluateAllResults action.                                                |
 | [`AddAdjustment`](#BoltToolResults.AddAdjustment)   | Creates a new BoltAdjustment                                                      |
 | [`AddWorkingLoad`](#BoltToolResults.AddWorkingLoad) | Creates a new BoltWorkingLoad                                                     |
 | [`Delete`](#id181)                                  | Run the Delete action.                                                            |
@@ -63,8 +65,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id165)                                                                                                | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id165)                                                                                                | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#id161)                                                                                                      | Gets the list of children.                                    |
 | [`Comments`](#id162)                                                                                                      | Gets the list of associated comments.                         |
@@ -329,8 +332,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#id169)      | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |-------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#id169)      | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#id170)      | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#id171)      | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#id172)        | Run the ExportToTextFile action.                                                  |
@@ -360,8 +364,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id165)                                                                                                | Gets the internal object. For advanced usage only.                     |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InternalObject`](#id165)                                                                                                | Gets the internal object. For advanced usage only.                     |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
 | [`PlotData`](#id118)                                                                                                      | Gets the result table.                                                 |
 | [`Location`](#id119)                                                                                                      | Gets or sets the Location.                                             |
@@ -1079,8 +1084,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#id169)      | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |-------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#id169)      | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#id170)      | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#id171)      | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#id172)        | Run the ExportToTextFile action.                                                  |
@@ -1110,8 +1116,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id165)                                                                                                | Gets the internal object. For advanced usage only.                     |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InternalObject`](#id165)                                                                                                | Gets the internal object. For advanced usage only.                     |
 | [`BoltResultType`](../../../../../Mechanical/DataModel/Enums/BoltResultType.md#BoltResultType)                            | Gets or sets the BoltResultType.                                       |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
 | [`PlotData`](#id118)                                                                                                      | Gets the result table.                                                 |
@@ -1838,8 +1845,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#id169)      | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |-------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#id169)      | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#id170)      | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#id171)      | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#id172)        | Run the ExportToTextFile action.                                                  |
@@ -1869,8 +1877,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id165)                                                                                                | Gets the internal object. For advanced usage only.                     |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InternalObject`](#id165)                                                                                                | Gets the internal object. For advanced usage only.                     |
 | [`BoltResultType`](../../../../../Mechanical/DataModel/Enums/BoltResultType.md#BoltResultType)                            | Gets or sets the BoltResultType.                                       |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
 | [`PlotData`](#id118)                                                                                                      | Gets the result table.                                                 |

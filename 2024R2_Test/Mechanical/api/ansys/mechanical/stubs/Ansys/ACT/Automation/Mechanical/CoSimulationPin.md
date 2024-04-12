@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#CoSimulationPin.Delete)                                   | Run the Delete action.                                                            |
+| Name | Summary |
 |-----------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#CoSimulationPin.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                 | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                 | Gets the list of children, filtered by type.                                      |
 | [`Activate`](#CoSimulationPin.Activate)                               | Activate the current object.                                                      |
@@ -35,8 +36,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Scope`](#CoSimulationPin.Scope)                                                                                   | Gets or sets the Joint through Scope.                         |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Scope`](#CoSimulationPin.Scope)                                                                                   | Gets or sets the Joint through Scope.                         |
 | [`DOF`](#CoSimulationPin.DOF)                                                                                       | Gets or sets the DOF.                                         |
 | [`JointType`](../../../Mechanical/DataModel/Enums/JointType.md#JointType)                                           | Gets or sets the Joint Type.                                  |
 | [`PinBehavior`](../../../Mechanical/DataModel/Enums/PinBehavior.md#PinBehavior)                                     | Gets or sets the Pin Behavior.                                |

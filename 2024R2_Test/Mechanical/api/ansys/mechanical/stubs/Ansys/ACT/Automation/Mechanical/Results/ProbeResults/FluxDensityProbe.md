@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ExportAnimation`](#FluxDensityProbe.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| Name | Summary |
 |------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ExportAnimation`](#FluxDensityProbe.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
 | [`ClearGeneratedData`](#FluxDensityProbe.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`DuplicateWithoutResults`](#FluxDensityProbe.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
 | [`EvaluateAllResults`](#FluxDensityProbe.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
@@ -44,8 +45,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.                                                                                                                         |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.                                                                                                                         |
 | [`Probability`](#FluxDensityProbe.Probability)                                                                            | Gets the Probability.                                                                                                                                                      |
 | [`TotalFluxDensity`](#FluxDensityProbe.TotalFluxDensity)                                                                  | Gets the TotalFluxDensity.                                                                                                                                                 |
 | [`XAxisFluxDensity`](#FluxDensityProbe.XAxisFluxDensity)                                                                  | Gets the XAxisFluxDensity.                                                                                                                                                 |

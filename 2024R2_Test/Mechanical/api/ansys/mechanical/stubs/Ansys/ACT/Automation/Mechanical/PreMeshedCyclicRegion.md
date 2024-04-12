@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`FlipHighLow`](#PreMeshedCyclicRegion.FlipHighLow)                         | Flips the High and Low Boundaries.                                                |
+| Name | Summary |
 |-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`FlipHighLow`](#PreMeshedCyclicRegion.FlipHighLow)                         | Flips the High and Low Boundaries.                                                |
 | [`Delete`](#PreMeshedCyclicRegion.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                       | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                       | Gets the list of children, filtered by type.                                      |
@@ -39,8 +40,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`RelativeDistanceTolerance`](#PreMeshedCyclicRegion.RelativeDistanceTolerance)                                     | Gets or sets the RelativeDistanceTolerance.                   |
 | [`NumberOfSectors`](#PreMeshedCyclicRegion.NumberOfSectors)                                                         | Gets or sets the NumberOfSectors.                             |
 | [`BoundaryDOFOrientation`](#PreMeshedCyclicRegion.BoundaryDOFOrientation)                                           | Gets or sets the BoundaryDOFOrientation.                      |

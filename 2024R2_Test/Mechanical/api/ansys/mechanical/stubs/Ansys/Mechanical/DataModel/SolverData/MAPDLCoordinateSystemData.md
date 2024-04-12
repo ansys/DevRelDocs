@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`SystemId`](#MAPDLCoordinateSystemData.SystemId)   | Gets the System Id for the coordinate system.   |
+| Name | Summary |
 |-----------------------------------------------------|-------------------------------------------------|
+| [`SystemId`](#MAPDLCoordinateSystemData.SystemId)   | Gets the System Id for the coordinate system.   |
 
 <a id="import-detail"></a>
 

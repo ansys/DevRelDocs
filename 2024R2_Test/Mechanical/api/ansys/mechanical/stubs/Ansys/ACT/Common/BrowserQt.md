@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Dispose`](#BrowserQt.Dispose)                                       | Dispose method.                    |
+| Name | Summary |
 |-----------------------------------------------------------------------|------------------------------------|
+| [`Dispose`](#BrowserQt.Dispose)                                       | Dispose method.                    |
 | [`FindParentWindow`](#BrowserQt.FindParentWindow)                     | FindParentWindow method.           |
 | [`FindParentDialog`](#BrowserQt.FindParentDialog)                     | FindParentDialog method.           |
 | [`FindTopMostParentControl`](#BrowserQt.FindTopMostParentControl)     | FindTopMostParentControl method.   |
@@ -41,8 +42,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Tag`](#BrowserQt.Tag)                         | Tag property.             |
+| Name | Summary |
 |-------------------------------------------------|---------------------------|
+| [`Tag`](#BrowserQt.Tag)                         | Tag property.             |
 | [`InvokeRequired`](#BrowserQt.InvokeRequired)   | InvokeRequired property.  |
 | [`Parent`](#BrowserQt.Parent)                   | Parent property.          |
 | [`Enabled`](#BrowserQt.Enabled)                 | Enabled property.         |

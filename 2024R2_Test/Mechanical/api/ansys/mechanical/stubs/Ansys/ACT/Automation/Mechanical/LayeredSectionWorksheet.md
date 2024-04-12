@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddThicknessLayer`](#LayeredSectionWorksheet.AddThicknessLayer)                 | Add a row to the LayeredSectionWorksheet                               |
+| Name | Summary |
 |-----------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`AddThicknessLayer`](#LayeredSectionWorksheet.AddThicknessLayer)                 | Add a row to the LayeredSectionWorksheet                               |
 | [`InsertThicknessLayerAbove`](#LayeredSectionWorksheet.InsertThicknessLayerAbove) | Insert a new layer to the LayeredSectionWorksheet                      |
 | [`InsertThicknessLayerBelow`](#LayeredSectionWorksheet.InsertThicknessLayerBelow) | Insert a new layer to the LayeredSectionWorksheet                      |
 | [`DeleteRow`](#LayeredSectionWorksheet.DeleteRow)                                 | Delete a row from the LayeredSectionWorksheet                          |
@@ -32,8 +33,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`RowCount`](#LayeredSectionWorksheet.RowCount)   | Gets the number of entries (rows) in the worksheet.   |
+| Name | Summary |
 |---------------------------------------------------|-------------------------------------------------------|
+| [`RowCount`](#LayeredSectionWorksheet.RowCount)   | Gets the number of entries (rows) in the worksheet.   |
 
 <a id="import-detail"></a>
 

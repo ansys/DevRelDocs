@@ -1,5 +1,3 @@
-<a id="featuremanager"></a>
-
 # FeatureManager
 
 <a id="FeatureManager"></a>
@@ -18,14 +16,16 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Generate`](#FeatureManager.Generate)                         | Generates non-generated features if any.   |
+| Name | Summary |
 |----------------------------------------------------------------|--------------------------------------------|
+| [`Generate`](#FeatureManager.Generate)                         | Generates non-generated features if any.   |
 | [`CreateNamedSelection`](#FeatureManager.CreateNamedSelection) | Creates a new NamedSelection feature.      |
 
 ### Properties
 
-| [`Count`](#FeatureManager.Count)   | Gets the number of features.   |
+| Name | Summary |
 |------------------------------------|--------------------------------|
+| [`Count`](#FeatureManager.Count)   | Gets the number of features.   |
 | [`Item`](#FeatureManager.Item)     | Item property.                 |
 
 <a id="import-detail"></a>

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`SelectInvalidBodiesOnPhysicsRegion`](#PhysicsRegion.SelectInvalidBodiesOnPhysicsRegion)   | Run the SelectInvalidBodiesOnPhysicsRegion action to select bodies that are not valid.   |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| [`SelectInvalidBodiesOnPhysicsRegion`](#PhysicsRegion.SelectInvalidBodiesOnPhysicsRegion)   | Run the SelectInvalidBodiesOnPhysicsRegion action to select bodies that are not valid.   |
 | [`RenameBasedOnDefinition`](#PhysicsRegion.RenameBasedOnDefinition)                         | Run the RenameBasedOnDefinition action.                                                  |
 | [`Delete`](#PhysicsRegion.Delete)                                                           | Run the Delete action.                                                                   |
 | [`GetChildren`](#id1)                                                                       | Gets the list of children, filtered by type.                                             |
@@ -40,8 +41,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                                     | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                                     | Gets the internal object. For advanced usage only.            |
 | [`ReflectionCoefficientInNegativeXDirection`](#PhysicsRegion.ReflectionCoefficientInNegativeXDirection)                      | Gets or sets the ReflectionCoefficientInNegativeXDirection.   |
 | [`ReflectionCoefficientInNegativeYDirection`](#PhysicsRegion.ReflectionCoefficientInNegativeYDirection)                      | Gets or sets the ReflectionCoefficientInNegativeYDirection.   |
 | [`ReflectionCoefficientInNegativeZDirection`](#PhysicsRegion.ReflectionCoefficientInNegativeZDirection)                      | Gets or sets the ReflectionCoefficientInNegativeZDirection.   |

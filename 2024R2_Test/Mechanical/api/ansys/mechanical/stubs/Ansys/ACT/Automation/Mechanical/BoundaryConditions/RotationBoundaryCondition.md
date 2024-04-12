@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#RotationBoundaryCondition.Delete)                                   | Run the Delete action.                                                            |
+| Name | Summary |
 |---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#RotationBoundaryCondition.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                           | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                           | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#RotationBoundaryCondition.AddComment)                           | Creates a new child Comment.                                                      |
@@ -38,8 +39,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Axis`](#RotationBoundaryCondition.Axis)                                                                              | Gets or sets the Axis.                                        |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Axis`](#RotationBoundaryCondition.Axis)                                                                              | Gets or sets the Axis.                                        |
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`NumberOfSegments`](#RotationBoundaryCondition.NumberOfSegments)                                                      | Gets or sets the NumberOfSegments.                            |
 | [`Suppressed`](#RotationBoundaryCondition.Suppressed)                                                                  | Gets or sets the Suppressed.                                  |

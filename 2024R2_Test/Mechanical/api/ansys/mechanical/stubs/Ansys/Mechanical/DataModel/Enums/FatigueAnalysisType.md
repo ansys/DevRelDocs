@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`FatigueToolNone`](#FatigueAnalysisType.FatigueToolNone)                             |    |
+| Name | Summary |
 |---------------------------------------------------------------------------------------|----|
+| [`FatigueToolNone`](#FatigueAnalysisType.FatigueToolNone)                             |    |
 | [`FatigueToolGoodman`](#FatigueAnalysisType.FatigueToolGoodman)                       |    |
 | [`FatigueToolSoderberg`](#FatigueAnalysisType.FatigueToolSoderberg)                   |    |
 | [`FatigueToolGerber`](#FatigueAnalysisType.FatigueToolGerber)                         |    |

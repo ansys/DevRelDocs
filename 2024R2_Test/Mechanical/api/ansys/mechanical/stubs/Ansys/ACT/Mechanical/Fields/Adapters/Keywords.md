@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Constructors
 
-| [`Get`](#Keywords.Get)   | Get method.   |
+| Name | Summary |
 |--------------------------|---------------|
+| [`Get`](#Keywords.Get)   | Get method.   |
 
 <a id="import-detail"></a>
 

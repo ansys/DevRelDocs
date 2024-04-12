@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`CreateArc`](#IWires.CreateArc)           | CreateArc method.      |
+| Name | Summary |
 |--------------------------------------------|------------------------|
+| [`CreateArc`](#IWires.CreateArc)           | CreateArc method.      |
 | [`CreateEllipse`](#IWires.CreateEllipse)   | CreateEllipse method.  |
 | [`CreateBCurve`](#IWires.CreateBCurve)     | CreateBCurve method.   |
 | [`CreatePolyline`](#IWires.CreatePolyline) | CreatePolyline method. |

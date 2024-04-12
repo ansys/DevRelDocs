@@ -24,8 +24,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Aname`](#PreadCommand.Aname)   | Gets the table name.    |
+| Name | Summary |
 |----------------------------------|-------------------------|
+| [`Aname`](#PreadCommand.Aname)   | Gets the table name.    |
 | [`Values`](#PreadCommand.Values) | Gets the values.        |
 | [`Name`](#PreadCommand.Name)     | Gets the command name.  |
 | [`Index`](#PreadCommand.Index)   | Gets the command index. |

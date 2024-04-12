@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetObjectData`](index.md#id41)   | Gets the object data.   |
+| Name | Summary |
 |------------------------------------|-------------------------|
+| [`GetObjectData`](index.md#id41)   | Gets the object data.   |
 
 <a id="import-detail"></a>
 

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Front`](#ViewOrientationType.Front)   |    |
+| Name | Summary |
 |-----------------------------------------|----|
+| [`Front`](#ViewOrientationType.Front)   |    |
 | [`Back`](#ViewOrientationType.Back)     |    |
 | [`Top`](#ViewOrientationType.Top)       |    |
 | [`Bottom`](#ViewOrientationType.Bottom) |    |

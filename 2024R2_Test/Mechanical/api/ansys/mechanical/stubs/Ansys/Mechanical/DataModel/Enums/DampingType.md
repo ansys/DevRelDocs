@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`DampingVsFrequency`](#DampingType.DampingVsFrequency)   |    |
+| Name | Summary |
 |-----------------------------------------------------------|----|
+| [`DampingVsFrequency`](#DampingType.DampingVsFrequency)   |    |
 | [`DirectInput`](#DampingType.DirectInput)                 |    |
 
 <a id="import-detail"></a>

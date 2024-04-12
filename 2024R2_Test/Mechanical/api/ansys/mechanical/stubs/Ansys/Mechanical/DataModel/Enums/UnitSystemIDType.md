@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`UnitsMKS`](#UnitSystemIDType.UnitsMKS)   |    |
+| Name | Summary |
 |--------------------------------------------|----|
+| [`UnitsMKS`](#UnitSystemIDType.UnitsMKS)   |    |
 | [`UnitsCGS`](#UnitSystemIDType.UnitsCGS)   |    |
 | [`UnitsNMM`](#UnitSystemIDType.UnitsNMM)   |    |
 | [`UnitsBFT`](#UnitSystemIDType.UnitsBFT)   |    |

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`ValueCount`](#CommandElementSurfaceLoadValues.ValueCount)   | Gets the number of values.   |
+| Name | Summary |
 |---------------------------------------------------------------|------------------------------|
+| [`ValueCount`](#CommandElementSurfaceLoadValues.ValueCount)   | Gets the number of values.   |
 | [`Values`](#CommandElementSurfaceLoadValues.Values)           | Gets the values.             |
 
 <a id="import-detail"></a>

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Recompute`](#ShellInertiaUpdate.Recompute)   |    |
+| Name | Summary |
 |------------------------------------------------|----|
+| [`Recompute`](#ShellInertiaUpdate.Recompute)   |    |
 | [`Rotate`](#ShellInertiaUpdate.Rotate)         |    |
 
 <a id="import-detail"></a>

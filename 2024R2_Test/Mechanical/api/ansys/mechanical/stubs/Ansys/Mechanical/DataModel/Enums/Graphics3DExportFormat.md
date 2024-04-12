@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`AVZ`](#Graphics3DExportFormat.AVZ)             |    |
+| Name | Summary |
 |--------------------------------------------------|----|
+| [`AVZ`](#Graphics3DExportFormat.AVZ)             |    |
 | [`BinarySTL`](#Graphics3DExportFormat.BinarySTL) |    |
 | [`ASCIISTL`](#Graphics3DExportFormat.ASCIISTL)   |    |
 

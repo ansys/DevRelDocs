@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Equivalent`](#StressStrainType.Equivalent)             |    |
+| Name | Summary |
 |----------------------------------------------------------|----|
+| [`Equivalent`](#StressStrainType.Equivalent)             |    |
 | [`Intensity`](#StressStrainType.Intensity)               |    |
 | [`MaximumPrincipal`](#StressStrainType.MaximumPrincipal) |    |
 | [`MaximumShear`](#StressStrainType.MaximumShear)         |    |

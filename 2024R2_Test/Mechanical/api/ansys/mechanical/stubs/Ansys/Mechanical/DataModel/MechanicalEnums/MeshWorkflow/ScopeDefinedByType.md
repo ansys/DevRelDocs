@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Outcome`](#ScopeDefinedByType.Outcome)   |    |
+| Name | Summary |
 |--------------------------------------------|----|
+| [`Outcome`](#ScopeDefinedByType.Outcome)   |    |
 | [`Value`](#ScopeDefinedByType.Value)       |    |
 
 <a id="import-detail"></a>

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ConsistentBFT`](#WBUnitSystemType.ConsistentBFT)   |    |
+| Name | Summary |
 |------------------------------------------------------|----|
+| [`ConsistentBFT`](#WBUnitSystemType.ConsistentBFT)   |    |
 | [`ConsistentBIN`](#WBUnitSystemType.ConsistentBIN)   |    |
 | [`ConsistentCGS`](#WBUnitSystemType.ConsistentCGS)   |    |
 | [`ConsistentMKS`](#WBUnitSystemType.ConsistentMKS)   |    |

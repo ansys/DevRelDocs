@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`No`](#EXDAutomaticMassScalingType.No)   |    |
+| Name | Summary |
 |-------------------------------------------|----|
+| [`No`](#EXDAutomaticMassScalingType.No)   |    |
 | [`Yes`](#EXDAutomaticMassScalingType.Yes) |    |
 
 <a id="import-detail"></a>

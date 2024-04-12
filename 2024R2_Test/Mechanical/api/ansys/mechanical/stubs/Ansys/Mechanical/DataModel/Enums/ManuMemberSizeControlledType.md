@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Free`](#ManuMemberSizeControlledType.Free)                           |    |
+| Name | Summary |
 |------------------------------------------------------------------------|----|
+| [`Free`](#ManuMemberSizeControlledType.Free)                           |    |
 | [`Manual`](#ManuMemberSizeControlledType.Manual)                       |    |
 | [`ProgramControlled`](#ManuMemberSizeControlledType.ProgramControlled) |    |
 

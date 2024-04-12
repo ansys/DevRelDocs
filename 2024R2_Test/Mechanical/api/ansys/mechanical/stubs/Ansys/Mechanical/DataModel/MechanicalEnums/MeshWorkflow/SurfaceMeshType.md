@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Quadrilaterals`](#SurfaceMeshType.Quadrilaterals)   |    |
+| Name | Summary |
 |-------------------------------------------------------|----|
+| [`Quadrilaterals`](#SurfaceMeshType.Quadrilaterals)   |    |
 | [`Triangles`](#SurfaceMeshType.Triangles)             |    |
 
 <a id="import-detail"></a>

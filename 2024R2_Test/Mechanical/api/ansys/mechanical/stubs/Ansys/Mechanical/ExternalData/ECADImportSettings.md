@@ -16,8 +16,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`UseDummyNetData`](#ECADImportSettings.UseDummyNetData)                 | The UseDummyNetData falg of the ECAD file. For External Data files that include trace mapping,   |
+| Name | Summary |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
+| [`UseDummyNetData`](#ECADImportSettings.UseDummyNetData)                 | The UseDummyNetData falg of the ECAD file. For External Data files that include trace mapping,   |
 | [`Format`](../DataModel/Enums/GeometryImportPreference/Format.md#Format) | Gets the existing corresponding format.                                                          |
 
 <a id="import-detail"></a>

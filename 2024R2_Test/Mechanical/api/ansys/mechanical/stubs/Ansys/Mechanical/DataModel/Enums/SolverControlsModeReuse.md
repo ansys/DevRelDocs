@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`No`](#SolverControlsModeReuse.No)                               |    |
+| Name | Summary |
 |-------------------------------------------------------------------|----|
+| [`No`](#SolverControlsModeReuse.No)                               |    |
 | [`ProgramControlled`](#SolverControlsModeReuse.ProgramControlled) |    |
 | [`Yes`](#SolverControlsModeReuse.Yes)                             |    |
 

@@ -16,8 +16,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`CreatePoints`](#ConstructionLine.CreatePoints)                       | CreatePoints method.                                                                    |
+| Name | Summary |
 |------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
+| [`CreatePoints`](#ConstructionLine.CreatePoints)                       | CreatePoints method.                                                                    |
 | [`CreatePlanarPoints`](#ConstructionLine.CreatePlanarPoints)           | CreatePlanarPoints method.                                                              |
 | [`CreatePlane`](#ConstructionLine.CreatePlane)                         | Create a plane.                                                                         |
 | [`CreateStraightLines`](#id1)                                          | CreateStraightLines method.                                                             |
@@ -47,8 +48,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Edges`](#ConstructionLine.Edges)                                                                                     | Creates for the user an IEdge representation of each edge in this Construction Line.   |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| [`Edges`](#ConstructionLine.Edges)                                                                                     | Creates for the user an IEdge representation of each edge in this Construction Line.   |
 | [`Points`](#ConstructionLine.Points)                                                                                   | Returns all points in this Construction Line, both those that have been created        |
 | [`Planes`](#ConstructionLine.Planes)                                                                                   | Creates for the user an Plane representation of each plane in this Construction Line.  |
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.                                     |

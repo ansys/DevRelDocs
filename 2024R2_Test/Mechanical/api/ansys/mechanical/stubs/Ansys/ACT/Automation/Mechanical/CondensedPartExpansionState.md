@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Stress`](#CondensedPartExpansionState.Stress)                   | Gets or sets the Stress Property       |
+| Name | Summary |
 |-------------------------------------------------------------------|----------------------------------------|
+| [`Stress`](#CondensedPartExpansionState.Stress)                   | Gets or sets the Stress Property       |
 | [`Displacement`](BoundaryConditions/Displacement.md#Displacement) | Gets or sets the Displacement Property |
 
 <a id="import-detail"></a>

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GenerateMesh`](#Sizing.GenerateMesh)                       | Generate the Mesh.                                                                |
+| Name | Summary |
 |--------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GenerateMesh`](#Sizing.GenerateMesh)                       | Generate the Mesh.                                                                |
 | [`RenameBasedOnDefinition`](#Sizing.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#Sizing.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                        | Gets the list of children, filtered by type.                                      |
@@ -40,8 +41,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`BodyOfInfluence`](#Sizing.BodyOfInfluence)                                                                           | Gets the BodyOfInfluence.                                     |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`BodyOfInfluence`](#Sizing.BodyOfInfluence)                                                                           | Gets the BodyOfInfluence.                                     |
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`BiasGrowthRate`](#Sizing.BiasGrowthRate)                                                                             | Gets or sets the BiasGrowthRate.                              |
 | [`NumberOfDivisions`](#Sizing.NumberOfDivisions)                                                                       | Gets or sets the NumberOfDivisions.                           |

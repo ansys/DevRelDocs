@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ConstructionGeometry`](../../../ACT/Automation/Mechanical/ConstructionGeometry.md#ConstructionGeometry)   |    |
+| Name | Summary |
 |-------------------------------------------------------------------------------------------------------------|----|
+| [`ConstructionGeometry`](../../../ACT/Automation/Mechanical/ConstructionGeometry.md#ConstructionGeometry)   |    |
 | [`File`](#AMStlSource.File)                                                                                 |    |
 
 <a id="import-detail"></a>

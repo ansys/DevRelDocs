@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Reals`](#RLBlockCommand.Reals)   | Gets the real constant sets.   |
+| Name | Summary |
 |------------------------------------|--------------------------------|
+| [`Reals`](#RLBlockCommand.Reals)   | Gets the real constant sets.   |
 | [`Name`](#RLBlockCommand.Name)     | Gets the command name.         |
 | [`Index`](#RLBlockCommand.Index)   | Gets the command index.        |
 

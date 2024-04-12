@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetMeshRegion`](#RemotePoint.GetMeshRegion)                     | Returns the mesh region associated to the remote point.                           |
+| Name | Summary |
 |-------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetMeshRegion`](#RemotePoint.GetMeshRegion)                     | Returns the mesh region associated to the remote point.                           |
 | [`PromoteToNamedSelection`](#RemotePoint.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
 | [`AddCommandSnippet`](#RemotePoint.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
 | [`Delete`](#RemotePoint.Delete)                                   | Run the Delete action.                                                            |
@@ -39,8 +40,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`PilotNodeAPDLName`](#RemotePoint.PilotNodeAPDLName)                                                               | Gets or sets the PilotNodeAPDLName.                           |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`PilotNodeAPDLName`](#RemotePoint.PilotNodeAPDLName)                                                               | Gets or sets the PilotNodeAPDLName.                           |
 | [`OutlineSelection`](#RemotePoint.OutlineSelection)                                                                 | Gets or sets the OutlineSelection.                            |
 | [`GloballyAvailable`](#RemotePoint.GloballyAvailable)                                                               | Remote point is globally available                            |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |

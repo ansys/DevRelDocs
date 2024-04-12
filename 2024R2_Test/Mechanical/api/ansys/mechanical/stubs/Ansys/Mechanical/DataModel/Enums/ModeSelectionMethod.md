@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ModalEffectiveMass`](#ModeSelectionMethod.ModalEffectiveMass)   |    |
+| Name | Summary |
 |-------------------------------------------------------------------|----|
+| [`ModalEffectiveMass`](#ModeSelectionMethod.ModalEffectiveMass)   |    |
 | [`None_`](#ModeSelectionMethod.None_)                             |    |
 
 <a id="import-detail"></a>

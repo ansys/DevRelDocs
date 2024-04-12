@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetActivateAtLoadStep`](#Voltage.GetActivateAtLoadStep)     | GetActivateAtLoadStep method.                                                     |
+| Name | Summary |
 |---------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetActivateAtLoadStep`](#Voltage.GetActivateAtLoadStep)     | GetActivateAtLoadStep method.                                                     |
 | [`SetActivateAtLoadStep`](#Voltage.SetActivateAtLoadStep)     | SetActivateAtLoadStep method.                                                     |
 | [`PromoteToNamedSelection`](#Voltage.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
 | [`Delete`](#Voltage.Delete)                                   | Run the Delete action.                                                            |
@@ -41,8 +42,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Location`](#Voltage.Location)                                                                                        | Gets or sets the Location.                                    |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Location`](#Voltage.Location)                                                                                        | Gets or sets the Location.                                    |
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`NumberOfSegments`](#Voltage.NumberOfSegments)                                                                        | Gets or sets the NumberOfSegments.                            |
 | [`Magnitude`](#Voltage.Magnitude)                                                                                      | Gets the Magnitude.                                           |

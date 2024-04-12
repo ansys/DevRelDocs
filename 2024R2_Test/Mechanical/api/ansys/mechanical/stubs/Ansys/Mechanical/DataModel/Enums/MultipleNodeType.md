@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Average`](#MultipleNodeType.Average)   |    |
+| Name | Summary |
 |------------------------------------------|----|
+| [`Average`](#MultipleNodeType.Average)   |    |
 | [`Maximum`](#MultipleNodeType.Maximum)   |    |
 | [`Minimum`](#MultipleNodeType.Minimum)   |    |
 

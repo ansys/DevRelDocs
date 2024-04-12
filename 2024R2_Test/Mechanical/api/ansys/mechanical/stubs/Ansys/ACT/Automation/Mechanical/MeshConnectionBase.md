@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Generate`](#MeshConnectionBase.Generate)                               | Run the Generate action.                                                          |
+| Name | Summary |
 |--------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Generate`](#MeshConnectionBase.Generate)                               | Run the Generate action.                                                          |
 | [`RenameBasedOnDefinition`](#MeshConnectionBase.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#MeshConnectionBase.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                    | Gets the list of children, filtered by type.                                      |
@@ -40,8 +41,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`ScopingMethod`](#MeshConnectionBase.ScopingMethod)                                                                | ScopingMethod property.                                       |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`ScopingMethod`](#MeshConnectionBase.ScopingMethod)                                                                | ScopingMethod property.                                       |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`ToleranceSlider`](#MeshConnectionBase.ToleranceSlider)                                                            | Gets or sets the ToleranceSlider.                             |
 | [`MasterBodies`](#MeshConnectionBase.MasterBodies)                                                                  | Gets the MasterBodies.                                        |

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Al357`](#AMMachineLearningModel.Al357)           |    |
+| Name | Summary |
 |----------------------------------------------------|----|
+| [`Al357`](#AMMachineLearningModel.Al357)           |    |
 | [`AlSi10Mg`](#AMMachineLearningModel.AlSi10Mg)     |    |
 | [`CoCr`](#AMMachineLearningModel.CoCr)             |    |
 | [`Inconel625`](#AMMachineLearningModel.Inconel625) |    |

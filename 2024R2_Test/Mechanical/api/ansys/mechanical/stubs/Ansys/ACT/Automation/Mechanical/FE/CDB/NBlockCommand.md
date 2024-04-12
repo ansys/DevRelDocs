@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Nodes`](#NBlockCommand.Nodes)   | Gets the nodes.         |
+| Name | Summary |
 |-----------------------------------|-------------------------|
+| [`Nodes`](#NBlockCommand.Nodes)   | Gets the nodes.         |
 | [`Name`](#NBlockCommand.Name)     | Gets the command name.  |
 | [`Index`](#NBlockCommand.Index)   | Gets the command index. |
 

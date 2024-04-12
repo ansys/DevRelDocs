@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Elem`](#BFECommand.Elem)         | Gets the element number.    |
+| Name | Summary |
 |------------------------------------|-----------------------------|
+| [`Elem`](#BFECommand.Elem)         | Gets the element number.    |
 | [`Lab`](#BFECommand.Lab)           | Gets the label.             |
 | [`Stloc`](#BFECommand.Stloc)       | Gets the starting location. |
 | [`ValCount`](#BFECommand.ValCount) | Gets the number of values.  |

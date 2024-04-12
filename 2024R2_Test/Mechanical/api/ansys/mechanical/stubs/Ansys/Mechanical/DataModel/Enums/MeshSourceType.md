@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Mechanical`](#MeshSourceType.Mechanical)               |    |
+| Name | Summary |
 |----------------------------------------------------------|----|
+| [`Mechanical`](#MeshSourceType.Mechanical)               |    |
 | [`ProgramControlled`](#MeshSourceType.ProgramControlled) |    |
 | [`ResultFile`](#MeshSourceType.ResultFile)               |    |
 

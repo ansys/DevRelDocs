@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Centered`](#SphereCenterDefinitionType.Centered)       |    |
+| Name | Summary |
 |----------------------------------------------------------|----|
+| [`Centered`](#SphereCenterDefinitionType.Centered)       |    |
 | [`Minimal`](#SphereCenterDefinitionType.Minimal)         |    |
 | [`UserDefined`](#SphereCenterDefinitionType.UserDefined) |    |
 

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`All`](#NodalPlanesVisible.All)     |    |
+| Name | Summary |
 |--------------------------------------|----|
+| [`All`](#NodalPlanesVisible.All)     |    |
 | [`Range`](#NodalPlanesVisible.Range) |    |
 
 <a id="import-detail"></a>

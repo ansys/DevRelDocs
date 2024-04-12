@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Location`](#SecoffsetCommand.Location)   | Gets the location of nodes in the section.   |
+| Name | Summary |
 |--------------------------------------------|----------------------------------------------|
+| [`Location`](#SecoffsetCommand.Location)   | Gets the location of nodes in the section.   |
 | [`Values`](#SecoffsetCommand.Values)       | Gets the values.                             |
 | [`Name`](#SecoffsetCommand.Name)           | Gets the command name.                       |
 | [`Index`](#SecoffsetCommand.Index)         | Gets the command index.                      |

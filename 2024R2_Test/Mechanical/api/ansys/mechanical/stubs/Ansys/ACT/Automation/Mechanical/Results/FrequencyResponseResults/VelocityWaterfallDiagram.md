@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#VelocityWaterfallDiagram.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#VelocityWaterfallDiagram.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#VelocityWaterfallDiagram.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#VelocityWaterfallDiagram.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#VelocityWaterfallDiagram.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
@@ -49,8 +50,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.                     |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.                     |
 | [`SpatialResolution`](#VelocityWaterfallDiagram.SpatialResolution)                                                        | Gets or sets the SpatialResolution.                                    |
 | [`NormalOrientation`](#VelocityWaterfallDiagram.NormalOrientation)                                                        | Gets or sets the NormalOrientation.                                    |
 | [`PanelsToDisplay`](#VelocityWaterfallDiagram.PanelsToDisplay)                                                            | Gets or sets the PanelsToDisplay.                                      |

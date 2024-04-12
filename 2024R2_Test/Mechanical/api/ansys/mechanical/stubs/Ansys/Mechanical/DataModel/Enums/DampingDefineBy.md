@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ConstantStructuralDampingCoefficient`](#DampingDefineBy.ConstantStructuralDampingCoefficient)   |    |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------|----|
+| [`ConstantStructuralDampingCoefficient`](#DampingDefineBy.ConstantStructuralDampingCoefficient)   |    |
 | [`DampingRatio`](#DampingDefineBy.DampingRatio)                                                   |    |
 
 <a id="import-detail"></a>

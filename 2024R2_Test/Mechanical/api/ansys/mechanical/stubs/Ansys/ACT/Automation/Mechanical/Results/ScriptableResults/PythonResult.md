@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Evaluate`](#PythonResult.Evaluate)                               | Evaluate method.                                                                  |
+| Name | Summary |
 |--------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Evaluate`](#PythonResult.Evaluate)                               | Evaluate method.                                                                  |
 | [`EvaluateAllResults`](#PythonResult.EvaluateAllResults)           | Evaluate all results.                                                             |
 | [`ClearGeneratedData`](#PythonResult.ClearGeneratedData)           | ClearGeneratedData method.                                                        |
 | [`ExportAnimation`](#PythonResult.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
@@ -44,8 +45,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id1)                                                                                                  | Gets the internal object. For advanced usage only.                                    |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+| [`InternalObject`](#id1)                                                                                                  | Gets the internal object. For advanced usage only.                                    |
 | [`Mode`](#PythonResult.Mode)                                                                                              | Gets or sets the Mode.                                                                |
 | [`DisplayTime`](#PythonResult.DisplayTime)                                                                                | Gets or sets the DisplayTime.                                                         |
 | [`By`](#PythonResult.By)                                                                                                  | Gets or sets the By.                                                                  |

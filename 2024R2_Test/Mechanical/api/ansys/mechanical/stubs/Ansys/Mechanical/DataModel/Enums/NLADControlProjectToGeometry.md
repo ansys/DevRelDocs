@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`No`](#NLADControlProjectToGeometry.No)   |    |
+| Name | Summary |
 |--------------------------------------------|----|
+| [`No`](#NLADControlProjectToGeometry.No)   |    |
 | [`Yes`](#NLADControlProjectToGeometry.Yes) |    |
 
 <a id="import-detail"></a>

@@ -18,13 +18,15 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`SetAsDefault`](#SolveConfiguration.SetAsDefault)   | Sets this solve configuration as the default.   |
+| Name | Summary |
 |------------------------------------------------------|-------------------------------------------------|
+| [`SetAsDefault`](#SolveConfiguration.SetAsDefault)   | Sets this solve configuration as the default.   |
 
 ### Properties
 
-| [`Name`](#SolveConfiguration.Name)                                     | The name of the solve configuration.                            |
+| Name | Summary |
 |------------------------------------------------------------------------|-----------------------------------------------------------------|
+| [`Name`](#SolveConfiguration.Name)                                     | The name of the solve configuration.                            |
 | [`Default`](#SolveConfiguration.Default)                               | Whether this solve configuration is the default.                |
 | [`Settings`](#SolveConfiguration.Settings)                             | Returns the queue settings of this solve configuration.         |
 | [`SolveProcessSettings`](SolveProcessSettings.md#SolveProcessSettings) | Returns the solve process settings of this solve configuration. |

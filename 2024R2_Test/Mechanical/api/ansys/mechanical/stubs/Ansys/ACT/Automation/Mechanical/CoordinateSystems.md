@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddCoordinateSystemAtCenterOfMass`](#CoordinateSystems.AddCoordinateSystemAtCenterOfMass)   | AddCoordinateSystemAtCenterOfMass method.                                         |
+| Name | Summary |
 |-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddCoordinateSystemAtCenterOfMass`](#CoordinateSystems.AddCoordinateSystemAtCenterOfMass)   | AddCoordinateSystemAtCenterOfMass method.                                         |
 | [`AddCoordinateSystem`](#CoordinateSystems.AddCoordinateSystem)                               | Creates a new CoordinateSystem                                                    |
 | [`GetChildren`](#id1)                                                                         | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                                         | Gets the list of children, filtered by type.                                      |
@@ -39,8 +40,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#CoordinateSystems.Children)                                                                           | Gets the list of children.                                    |
 | [`Comments`](#CoordinateSystems.Comments)                                                                           | Gets the list of associated comments.                         |

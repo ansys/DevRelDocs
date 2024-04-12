@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Active`](#ActiveOrInactive.Active)     |    |
+| Name | Summary |
 |------------------------------------------|----|
+| [`Active`](#ActiveOrInactive.Active)     |    |
 | [`Inactive`](#ActiveOrInactive.Inactive) |    |
 
 <a id="import-detail"></a>

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`All`](#ProbeDisplayFilter.All)                               |    |
+| Name | Summary |
 |----------------------------------------------------------------|----|
+| [`All`](#ProbeDisplayFilter.All)                               |    |
 | [`AxialForce`](#ProbeDisplayFilter.AxialForce)                 |    |
 | [`DampingForce1`](#ProbeDisplayFilter.DampingForce1)           |    |
 | [`DampingForce2`](#ProbeDisplayFilter.DampingForce2)           |    |

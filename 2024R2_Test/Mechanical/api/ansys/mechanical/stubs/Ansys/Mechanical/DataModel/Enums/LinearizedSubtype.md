@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`All`](#LinearizedSubtype.All)                         |    |
+| Name | Summary |
 |---------------------------------------------------------|----|
+| [`All`](#LinearizedSubtype.All)                         |    |
 | [`Bending`](#LinearizedSubtype.Bending)                 |    |
 | [`Membrane`](#LinearizedSubtype.Membrane)               |    |
 | [`MembraneBending`](#LinearizedSubtype.MembraneBending) |    |

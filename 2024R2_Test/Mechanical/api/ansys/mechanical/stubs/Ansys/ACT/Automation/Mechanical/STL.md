@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ExportStl`](#STL.ExportStl)                             | Export STL data.                                                                  |
+| Name | Summary |
 |-----------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ExportStl`](#STL.ExportStl)                             | Export STL data.                                                                  |
 | [`ImportSTL`](#STL.ImportSTL)                             | Run the ImportSTL action.                                                         |
 | [`Delete`](#STL.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                     | Gets the list of children, filtered by type.                                      |
@@ -40,8 +41,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`TranslateX`](#STL.TranslateX)                                                                                     | Gets or sets the TranslateX.                                  |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`TranslateX`](#STL.TranslateX)                                                                                     | Gets or sets the TranslateX.                                  |
 | [`Color`](#STL.Color)                                                                                               | Gets or sets the Color.                                       |
 | [`TranslateY`](#STL.TranslateY)                                                                                     | Gets or sets the TranslateY.                                  |
 | [`TranslateZ`](#STL.TranslateZ)                                                                                     | Gets or sets the TranslateZ.                                  |

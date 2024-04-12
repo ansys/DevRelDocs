@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Nondirectional`](#InterpolationType.Nondirectional)   |    |
+| Name | Summary |
 |---------------------------------------------------------|----|
+| [`Nondirectional`](#InterpolationType.Nondirectional)   |    |
 | [`Directional`](#InterpolationType.Directional)         |    |
 
 <a id="import-detail"></a>

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`FluidUpwindLinear`](#FluidDiscretizationType.FluidUpwindLinear)           |    |
+| Name | Summary |
 |-----------------------------------------------------------------------------|----|
+| [`FluidUpwindLinear`](#FluidDiscretizationType.FluidUpwindLinear)           |    |
 | [`FluidCentralLinear`](#FluidDiscretizationType.FluidCentralLinear)         |    |
 | [`FluidUpwindExponential`](#FluidDiscretizationType.FluidUpwindExponential) |    |
 

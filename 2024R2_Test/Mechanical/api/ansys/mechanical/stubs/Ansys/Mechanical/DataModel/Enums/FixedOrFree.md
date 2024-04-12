@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Fixed`](#FixedOrFree.Fixed)                       |    |
+| Name | Summary |
 |-----------------------------------------------------|----|
+| [`Fixed`](#FixedOrFree.Fixed)                       |    |
 | [`Free`](#FixedOrFree.Free)                         |    |
 | [`MixedConstraints`](#FixedOrFree.MixedConstraints) |    |
 

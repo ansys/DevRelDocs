@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Text`](#CaseControlCommand.Text)   | Gets the text.          |
+| Name | Summary |
 |--------------------------------------|-------------------------|
+| [`Text`](#CaseControlCommand.Text)   | Gets the text.          |
 | [`Name`](#CaseControlCommand.Name)   | Gets the command name.  |
 | [`Index`](#CaseControlCommand.Index) | Gets the command index. |
 

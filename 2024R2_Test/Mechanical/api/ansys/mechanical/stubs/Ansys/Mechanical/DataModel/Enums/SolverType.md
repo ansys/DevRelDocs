@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`FullDamped`](#SolverType.FullDamped)               |    |
+| Name | Summary |
 |------------------------------------------------------|----|
+| [`FullDamped`](#SolverType.FullDamped)               |    |
 | [`Direct`](#SolverType.Direct)                       |    |
 | [`Iterative`](#SolverType.Iterative)                 |    |
 | [`ProgramControlled`](#SolverType.ProgramControlled) |    |

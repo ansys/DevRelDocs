@@ -10,13 +10,15 @@
 
 ### Interfaces
 
-| [`IAMProcessStep`](IAMProcessStep.md#IAMProcessStep)   | IAMProcessStep interface.   |
+| Name | Summary |
 |--------------------------------------------------------|-----------------------------|
+| [`IAMProcessStep`](IAMProcessStep.md#IAMProcessStep)   | IAMProcessStep interface.   |
 
 ### Classes
 
-| [`AMBuildSettings`](AMBuildSettings.md#AMBuildSettings)                            | Defines a AMBuildSettings.      |
+| Name | Summary |
 |------------------------------------------------------------------------------------|---------------------------------|
+| [`AMBuildSettings`](AMBuildSettings.md#AMBuildSettings)                            | Defines a AMBuildSettings.      |
 | [`SupportRemoval`](SupportRemoval.md#SupportRemoval)                               | SupportRemoval class.           |
 | [`BaseRemoval`](BaseRemoval.md#BaseRemoval)                                        | BaseRemoval class.              |
 | [`BaseUnboltStep`](BaseUnboltStep.md#BaseUnboltStep)                               | BaseUnboltStep class.           |
@@ -56,8 +58,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`SaveBuildSettings`](#AdditiveManufacturing.SaveBuildSettings)   | Run the SaveBuildSettings action.                                                 |
+| Name | Summary |
 |-------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`SaveBuildSettings`](#AdditiveManufacturing.SaveBuildSettings)   | Run the SaveBuildSettings action.                                                 |
 | [`LoadBuildSettings`](#AdditiveManufacturing.LoadBuildSettings)   | Run the LoadBuildSettings action.                                                 |
 | [`ResetToDefault`](#AdditiveManufacturing.ResetToDefault)         | ResetToDefault - Restores default values of all properties.                       |
 | [`Delete`](#id229)                                                | Run the Delete action.                                                            |
@@ -79,8 +82,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`LayerHeightType`](#AdditiveManufacturing.LayerHeightType)                                                            | LayerHeightType - Get/Sets the layer height type.                                              |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
+| [`LayerHeightType`](#AdditiveManufacturing.LayerHeightType)                                                            | LayerHeightType - Get/Sets the layer height type.                                              |
 | [`ThermalStrainMaterialModel`](#AdditiveManufacturing.ThermalStrainMaterialModel)                                      | Gets or sets the MachineLearningModel using the deprecated ThermalStrainMaterialModel methods. |
 | [`InternalObject`](#id224)                                                                                             | Gets the internal object. For advanced usage only.                                             |
 | [`ASCParallel`](#AdditiveManufacturing.ASCParallel)                                                                    | Gets or sets the ASCParallel.                                                                  |
@@ -858,8 +862,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Add`](#AdditiveManufacturing.Add)           | Adds a support or base removal step.                                    |
+| Name | Summary |
 |-----------------------------------------------|-------------------------------------------------------------------------|
+| [`Add`](#AdditiveManufacturing.Add)           | Adds a support or base removal step.                                    |
 | [`RemoveAt`](#AdditiveManufacturing.RemoveAt) | Remove AM step at index.                                                |
 | [`Swap`](#id12)                               | Swaps two steps in the Removal sequence.                                |
 | [`Swap`](#id12)                               | Swaps two steps in the Removal sequence by name.                        |
@@ -869,8 +874,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Count`](#AdditiveManufacturing.Count)   | Count property.   |
+| Name | Summary |
 |-------------------------------------------|-------------------|
+| [`Count`](#AdditiveManufacturing.Count)   | Count property.   |
 
 <a id="id9"></a>
 
@@ -1003,8 +1009,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetSequence`](#AdditiveManufacturing.GetSequence)                           | Gets the support removal sequence for a given environment.                        |
+| Name | Summary |
 |-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetSequence`](#AdditiveManufacturing.GetSequence)                           | Gets the support removal sequence for a given environment.                        |
 | [`ResetAllSequences`](#AdditiveManufacturing.ResetAllSequences)               | Resets the sequence for all analyses                                              |
 | [`AddCartesianMesh`](#AdditiveManufacturing.AddCartesianMesh)                 | AddCartesianMesh method.                                                          |
 | [`CreateBuildToBaseContact`](#AdditiveManufacturing.CreateBuildToBaseContact) | Run the CreateBuildToBaseContact action.                                          |
@@ -1035,8 +1042,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`BuildGeometry`](#AdditiveManufacturing.BuildGeometry)                                                                | Gets or sets the PartGeometry using the deprecated BuildGeometry method.   |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| [`BuildGeometry`](#AdditiveManufacturing.BuildGeometry)                                                                | Gets or sets the PartGeometry using the deprecated BuildGeometry method.   |
 | [`InternalObject`](#id224)                                                                                             | Gets the internal object. For advanced usage only.                         |
 | [`SubsampleRate`](#id105)                                                                                              | Gets or sets the SubsampleRate.                                            |
 | [`ZLocationAtTopOfBase`](#AdditiveManufacturing.ZLocationAtTopOfBase)                                                  | Gets the ZLocationAtTopOfBase.                                             |
@@ -1463,8 +1471,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`DetectSupportFaces`](#AdditiveManufacturing.DetectSupportFaces)           | Runs the Detect Support Faces action.                                             |
+| Name | Summary |
 |-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`DetectSupportFaces`](#AdditiveManufacturing.DetectSupportFaces)           | Runs the Detect Support Faces action.                                             |
 | [`AddGeneratedAMSupport`](#id53)                                            | Creates a new GeneratedAMSupport                                                  |
 | [`AddPredefinedAMSupport`](#id54)                                           | Creates a new PredefinedAMSupport                                                 |
 | [`AddSTLAMSupport`](#id55)                                                  | Creates a new GeneratedAMSupport                                                  |
@@ -1488,8 +1497,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id224)                                                                                             | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id224)                                                                                             | Gets the internal object. For advanced usage only.            |
 | [`HangAngle`](#AdditiveManufacturing.HangAngle)                                                                        | Gets or sets the HangAngle.                                   |
 | [`DetectAboveZLocation`](#AdditiveManufacturing.DetectAboveZLocation)                                                  | Gets or sets the DetectAboveZLocation.                        |
 | [`OutputType`](#AdditiveManufacturing.OutputType)                                                                      | Gets or sets the OutputType.                                  |
@@ -1815,8 +1825,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#id133)                      | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |-----------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#id133)                      | Run the ClearGeneratedData action.                                                |
 | [`GenerateSupportBodies`](#id134)                   | Generate Support Bodies.                                                          |
 | [`CreateNamedSelectionOfGeneratedElements`](#id135) | Run the PromoteToNamedSelection action.                                           |
 | [`GetGeneratedBody`](#id136)                        | Returns the generated body object                                                 |
@@ -1840,8 +1851,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id224)                                                                                             | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id224)                                                                                             | Gets the internal object. For advanced usage only.            |
 | [`Mode`](#AdditiveManufacturing.Mode)                                                                                  | Gets or sets the Mode.                                        |
 | [`Location`](#id202)                                                                                                   | Gets or sets the Location.                                    |
 | [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -2284,8 +2296,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#id133)                                                                                    | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |-------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#id133)                                                                                    | Run the ClearGeneratedData action.                                                |
 | [`GenerateSupportBodies`](#id134)                                                                                 | Generate Support Bodies.                                                          |
 | [`CreateNamedSelectionOfGeneratedElements`](#id135)                                                               | Create a named selection of the generated elements.                               |
 | [`CreateNamedSelectionOfExternalElementFaces`](#AdditiveManufacturing.CreateNamedSelectionOfExternalElementFaces) | Create a named selection of the generated exterior element faces.                 |
@@ -2312,8 +2325,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`VoxelSize`](#AdditiveManufacturing.VoxelSize)                                                                        | Gets the VoxelSize.                                           |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`VoxelSize`](#AdditiveManufacturing.VoxelSize)                                                                        | Gets the VoxelSize.                                           |
 | [`InternalObject`](#id224)                                                                                             | Gets the internal object. For advanced usage only.            |
 | [`Filename`](#AdditiveManufacturing.Filename)                                                                          | Gets or sets the Filename.                                    |
 | [`SubsampleRate`](#id105)                                                                                              | Gets or sets the SubsampleRate.                               |
@@ -2861,8 +2875,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddCommandSnippet`](#id228)       | Creates a new CommandSnippet                                                      |
+| Name | Summary |
 |-------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddCommandSnippet`](#id228)       | Creates a new CommandSnippet                                                      |
 | [`Delete`](#id229)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id231)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id231)             | Gets the list of children, filtered by type.                                      |
@@ -2882,8 +2897,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id224)                                                                                             | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id224)                                                                                             | Gets the internal object. For advanced usage only.            |
 | [`ThermalConductivityMultipleInX`](#id204)                                                                             | Gets or sets the ThermalConductivityMultipleInX.              |
 | [`ThermalConductivityMultipleInY`](#id205)                                                                             | Gets or sets the ThermalConductivityMultipleInY.              |
 | [`ThermalConductivityMultipleInZ`](#id206)                                                                             | Gets or sets the ThermalConductivityMultipleInZ.              |
@@ -3276,8 +3292,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddCommandSnippet`](#id228)       | Creates a new CommandSnippet                                                      |
+| Name | Summary |
 |-------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddCommandSnippet`](#id228)       | Creates a new CommandSnippet                                                      |
 | [`Delete`](#id229)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id231)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id231)             | Gets the list of children, filtered by type.                                      |
@@ -3297,8 +3314,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id224)                                                                                             | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id224)                                                                                             | Gets the internal object. For advanced usage only.            |
 | [`Suppressed`](#AdditiveManufacturing.Suppressed)                                                                      | Gets or sets the Suppressed.                                  |
 | [`Location`](#id202)                                                                                                   | Gets or sets the Location.                                    |
 | [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -3709,8 +3727,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`ProcessStepType`](#AdditiveManufacturing.ProcessStepType)   | ProcessStepType property.   |
+| Name | Summary |
 |---------------------------------------------------------------|-----------------------------|
+| [`ProcessStepType`](#AdditiveManufacturing.ProcessStepType)   | ProcessStepType property.   |
 
 <a id="id245"></a>
 

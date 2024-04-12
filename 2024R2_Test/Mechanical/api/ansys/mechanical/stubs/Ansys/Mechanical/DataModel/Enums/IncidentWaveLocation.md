@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`InsideTheModel`](#IncidentWaveLocation.InsideTheModel)   |    |
+| Name | Summary |
 |------------------------------------------------------------|----|
+| [`InsideTheModel`](#IncidentWaveLocation.InsideTheModel)   |    |
 | [`OutsideTheModel`](#IncidentWaveLocation.OutsideTheModel) |    |
 
 <a id="import-detail"></a>

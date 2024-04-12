@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddRow`](#MeshControlWorksheet.AddRow)                           | Add a row to the MeshControlWorksheet          |
+| Name | Summary |
 |--------------------------------------------------------------------|------------------------------------------------|
+| [`AddRow`](#MeshControlWorksheet.AddRow)                           | Add a row to the MeshControlWorksheet          |
 | [`DeleteRow`](#MeshControlWorksheet.DeleteRow)                     | Delete a row from the MeshControlWorksheet     |
 | [`GetActiveState`](#MeshControlWorksheet.GetActiveState)           | Gets the Active State property at row index    |
 | [`SetActiveState`](#MeshControlWorksheet.SetActiveState)           | Sets the Active State property at row index    |
@@ -34,8 +35,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`RowCount`](#MeshControlWorksheet.RowCount)   | Gets the number of entries   |
+| Name | Summary |
 |------------------------------------------------|------------------------------|
+| [`RowCount`](#MeshControlWorksheet.RowCount)   | Gets the number of entries   |
 
 <a id="import-detail"></a>
 

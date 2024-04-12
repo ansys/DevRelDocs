@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Conduction`](#ElectricType.Conduction)   |    |
+| Name | Summary |
 |--------------------------------------------|----|
+| [`Conduction`](#ElectricType.Conduction)   |    |
 | [`ChargeBased`](#ElectricType.ChargeBased) |    |
 | [`No`](#ElectricType.No)                   |    |
 

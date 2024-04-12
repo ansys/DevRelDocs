@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Manual`](#CyclicHarmonicIndex.Manual)                       |    |
+| Name | Summary |
 |---------------------------------------------------------------|----|
+| [`Manual`](#CyclicHarmonicIndex.Manual)                       |    |
 | [`ProgramControlled`](#CyclicHarmonicIndex.ProgramControlled) |    |
 
 <a id="import-detail"></a>

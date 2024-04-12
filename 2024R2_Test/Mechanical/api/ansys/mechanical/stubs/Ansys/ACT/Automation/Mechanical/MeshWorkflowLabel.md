@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#MeshWorkflowLabel.Delete)                                   | Run the Delete action.                                                            |
+| Name | Summary |
 |-------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#MeshWorkflowLabel.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                   | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                   | Gets the list of children, filtered by type.                                      |
 | [`AddFigure`](#MeshWorkflowLabel.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -37,8 +38,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#MeshWorkflowLabel.Children)                                                                           | Gets the list of children.                                    |
 | [`Figures`](#MeshWorkflowLabel.Figures)                                                                             | Gets the list of associated figures.                          |

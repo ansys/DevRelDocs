@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ContactSourceUnderlying`](#ContactScopingType.ContactSourceUnderlying)   |    |
+| Name | Summary |
 |----------------------------------------------------------------------------|----|
+| [`ContactSourceUnderlying`](#ContactScopingType.ContactSourceUnderlying)   |    |
 | [`ContactTargetUnderlying`](#ContactScopingType.ContactTargetUnderlying)   |    |
 
 <a id="import-detail"></a>

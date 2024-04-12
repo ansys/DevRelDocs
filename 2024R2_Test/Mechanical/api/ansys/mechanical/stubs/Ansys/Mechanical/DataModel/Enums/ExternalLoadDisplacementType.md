@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`BoundaryPrescribedFinalGeometry`](#ExternalLoadDisplacementType.BoundaryPrescribedFinalGeometry)   |    |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------|----|
+| [`BoundaryPrescribedFinalGeometry`](#ExternalLoadDisplacementType.BoundaryPrescribedFinalGeometry)   |    |
 | [`InitialFoamReferenceGeometry`](#ExternalLoadDisplacementType.InitialFoamReferenceGeometry)         |    |
 
 <a id="import-detail"></a>

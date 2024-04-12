@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Fatigue`](#CrackGrowthOption.Fatigue)   |    |
+| Name | Summary |
 |-------------------------------------------|----|
+| [`Fatigue`](#CrackGrowthOption.Fatigue)   |    |
 | [`Static`](#CrackGrowthOption.Static)     |    |
 
 <a id="import-detail"></a>

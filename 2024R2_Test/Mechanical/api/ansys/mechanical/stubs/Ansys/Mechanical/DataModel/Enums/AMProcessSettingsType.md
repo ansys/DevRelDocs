@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`PreheatTemperature`](#AMProcessSettingsType.PreheatTemperature)     |    |
+| Name | Summary |
 |-----------------------------------------------------------------------|----|
+| [`PreheatTemperature`](#AMProcessSettingsType.PreheatTemperature)     |    |
 | [`RoomTemperature`](#AMProcessSettingsType.RoomTemperature)           |    |
 | [`SpecifiedTemperature`](#AMProcessSettingsType.SpecifiedTemperature) |    |
 

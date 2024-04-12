@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Frequency`](#ConvergenceType.Frequency)           |    |
+| Name | Summary |
 |-----------------------------------------------------|----|
+| [`Frequency`](#ConvergenceType.Frequency)           |    |
 | [`Maximum`](#ConvergenceType.Maximum)               |    |
 | [`Minimum`](#ConvergenceType.Minimum)               |    |
 | [`ForceSummation`](#ConvergenceType.ForceSummation) |    |

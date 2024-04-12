@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`CenterOfGravityConstraint`](../../../ACT/Automation/Mechanical/CenterOfGravityConstraint.md#CenterOfGravityConstraint)                |    |
+| Name | Summary |
 |-----------------------------------------------------------------------------------------------------------------------------------------|----|
+| [`CenterOfGravityConstraint`](../../../ACT/Automation/Mechanical/CenterOfGravityConstraint.md#CenterOfGravityConstraint)                |    |
 | [`ComplianceConstraint`](../../../ACT/Automation/Mechanical/ComplianceConstraint.md#ComplianceConstraint)                               |    |
 | [`CriterionConstraint`](../../../ACT/Automation/Mechanical/CriterionConstraint.md#CriterionConstraint)                                  |    |
 | [`DisplacementConstraint`](../../../ACT/Automation/Mechanical/DisplacementConstraint.md#DisplacementConstraint)                         |    |

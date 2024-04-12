@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ExportAnimation`](#ElectricFieldProbe.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| Name | Summary |
 |--------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ExportAnimation`](#ElectricFieldProbe.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
 | [`ClearGeneratedData`](#ElectricFieldProbe.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`DuplicateWithoutResults`](#ElectricFieldProbe.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
 | [`EvaluateAllResults`](#ElectricFieldProbe.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
@@ -44,8 +45,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Total`](#ElectricFieldProbe.Total)                                                                                      | Gets the Total.                                                                                                                                                            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`Total`](#ElectricFieldProbe.Total)                                                                                      | Gets the Total.                                                                                                                                                            |
 | [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.                                                                                                                         |
 | [`YAxisFieldIntensity`](#ElectricFieldProbe.YAxisFieldIntensity)                                                          | Gets the YAxisFieldIntensity.                                                                                                                                              |
 | [`ZAxisFieldIntensity`](#ElectricFieldProbe.ZAxisFieldIntensity)                                                          | Gets the ZAxisFieldIntensity.                                                                                                                                              |

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`ElementId`](#MAPDLSpringData.ElementId)           | Gets the Element number for the object.          |
+| Name | Summary |
 |-----------------------------------------------------|--------------------------------------------------|
+| [`ElementId`](#MAPDLSpringData.ElementId)           | Gets the Element number for the object.          |
 | [`RealConstantId`](#MAPDLSpringData.RealConstantId) | Gets the Real Constant Id number for the object. |
 
 <a id="import-detail"></a>

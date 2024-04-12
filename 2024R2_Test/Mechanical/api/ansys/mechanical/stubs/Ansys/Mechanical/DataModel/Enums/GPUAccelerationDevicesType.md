@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`None_`](#GPUAccelerationDevicesType.None_)   |    |
+| Name | Summary |
 |------------------------------------------------|----|
+| [`None_`](#GPUAccelerationDevicesType.None_)   |    |
 | [`NVidia`](#GPUAccelerationDevicesType.NVidia) |    |
 | [`AMD`](#GPUAccelerationDevicesType.AMD)       |    |
 

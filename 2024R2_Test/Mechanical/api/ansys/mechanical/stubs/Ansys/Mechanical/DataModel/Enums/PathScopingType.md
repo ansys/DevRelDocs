@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Edge`](#PathScopingType.Edge)     |    |
+| Name | Summary |
 |-------------------------------------|----|
+| [`Edge`](#PathScopingType.Edge)     |    |
 | [`Offset`](#PathScopingType.Offset) |    |
 | [`Points`](#PathScopingType.Points) |    |
 | [`Ray`](#PathScopingType.Ray)       |    |

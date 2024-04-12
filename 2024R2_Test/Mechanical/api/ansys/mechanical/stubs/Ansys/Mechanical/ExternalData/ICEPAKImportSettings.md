@@ -16,8 +16,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`SupportingFilePath`](#ICEPAKImportSettings.SupportingFilePath)               | The supporting file path of the ICEPAK INFO file.                                                |
+| Name | Summary |
 |--------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
+| [`SupportingFilePath`](#ICEPAKImportSettings.SupportingFilePath)               | The supporting file path of the ICEPAK INFO file.                                                |
 | [`SupportingFileIdentifier`](#ICEPAKImportSettings.SupportingFileIdentifier)   | The supporting file identifier. The identifier should be unique, otherwise, an exception will be |
 | [`SupportingFileDescription`](#ICEPAKImportSettings.SupportingFileDescription) | The supporting file description. This is optional.                                               |
 | [`Format`](../DataModel/Enums/GeometryImportPreference/Format.md#Format)       | Gets the existing corresponding format.                                                          |

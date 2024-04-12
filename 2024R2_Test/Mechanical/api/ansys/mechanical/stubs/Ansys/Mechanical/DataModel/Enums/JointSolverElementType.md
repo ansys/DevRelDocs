@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ContactDirect`](#JointSolverElementType.ContactDirect)         |    |
+| Name | Summary |
 |------------------------------------------------------------------|----|
+| [`ContactDirect`](#JointSolverElementType.ContactDirect)         |    |
 | [`Element`](#JointSolverElementType.Element)                     |    |
 | [`ProgramControlled`](#JointSolverElementType.ProgramControlled) |    |
 

@@ -10,8 +10,9 @@
 
 ### Classes
 
-| [`DMCameraWrapper`](DMCameraWrapper.md#DMCameraWrapper)                               | Wrapper for Camera in Design Modeler.   |
+| Name | Summary |
 |---------------------------------------------------------------------------------------|-----------------------------------------|
+| [`DMCameraWrapper`](DMCameraWrapper.md#DMCameraWrapper)                               | Wrapper for Camera in Design Modeler.   |
 | [`MechanicalCameraWrapper`](MechanicalCameraWrapper.md#MechanicalCameraWrapper)       | Wrapper for Camera in Mechanical.       |
 | [`MechanicalGraphicsWrapper`](MechanicalGraphicsWrapper.md#MechanicalGraphicsWrapper) | Wrapper for Graphics in Mechanical.     |
 | [`DMGraphicsWrapper`](DMGraphicsWrapper.md#DMGraphicsWrapper)                         | Wrapper for Graphics in Design Modeler. |
@@ -59,8 +60,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Rotate`](#Graphics.Rotate)                                         | Rotates the camera about an axis.                                                                 |
+| Name | Summary |
 |----------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+| [`Rotate`](#Graphics.Rotate)                                         | Rotates the camera about an axis.                                                                 |
 | [`SetSpecificViewOrientation`](#Graphics.SetSpecificViewOrientation) | Sets a specific view orientation.                                                                 |
 | [`SetFit`](#Graphics.SetFit)                                         | Fits the view to the specified selection. If null is supplied, fits the view to the entire model. |
 | [`GetAsString`](#Graphics.GetAsString)                               | Retrieves the view commands as related to the application type as a string.                       |
@@ -69,8 +71,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`FocalPoint`](#Graphics.FocalPoint)   | The focal point of the camera (coordinates are in the global coordinate system).             |
+| Name | Summary |
 |----------------------------------------|----------------------------------------------------------------------------------------------|
+| [`FocalPoint`](#Graphics.FocalPoint)   | The focal point of the camera (coordinates are in the global coordinate system).             |
 | [`UpVector`](#Graphics.UpVector)       | The vector pointing up from the focal point.                                                 |
 | [`ViewVector`](#Graphics.ViewVector)   | The vector pointing from the focal point to the camera.                                      |
 | [`SceneHeight`](#Graphics.SceneHeight) | Specifies the scene height (in length units) that will be projected and fit to the viewport. |
@@ -192,8 +195,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ExportScreenToImage`](#id14)                 | ExportScreenToImage method.                                                              |
+| Name | Summary |
 |------------------------------------------------|------------------------------------------------------------------------------------------|
+| [`ExportScreenToImage`](#id14)                 | ExportScreenToImage method.                                                              |
 | [`ExportImage`](#Graphics.ExportImage)         | Exports the current graphics display to a 2D image file.                                 |
 | [`ExportViewports`](#Graphics.ExportViewports) | Creates a composite of images exported from each open viewport.                          |
 | [`Export3D`](#Graphics.Export3D)               | Exports the current Graphics display in a 3d format to a file.                           |
@@ -206,8 +210,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Unit`](../../../Mechanical/Graphics/index.md#Graphics.Unit)                                             | Gets the current graphics unit.                           |
+| Name | Summary |
 |-----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
+| [`Unit`](../../../Mechanical/Graphics/index.md#Graphics.Unit)                                             | Gets the current graphics unit.                           |
 | [`ModelViewManager`](ModelViewManager.md#ModelViewManager)                                                | An instance of the ModelViewManager.                      |
 | [`KeyframeAnimationUtility`](#Graphics.KeyframeAnimationUtility)                                          | A utility for creating animations based on keyframes.     |
 | [`ResultAnimationOptions`](../../../Mechanical/Graphics/ResultAnimationOptions.md#ResultAnimationOptions) | Gets the Global Result Animation options.                 |
@@ -398,8 +403,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Redraw`](#id8)               | Forces the scene to redraw its content.                                                  |
+| Name | Summary |
 |--------------------------------|------------------------------------------------------------------------------------------|
+| [`Redraw`](#id8)               | Forces the scene to redraw its content.                                                  |
 | [`Suspend`](#id9)              | Prevents the scene to redraw until the Resume controller method was called.              |
 | [`ForceResume`](#id10)         | Forces the scene to resume. Useful in interactive context (console) if a reference on an |
 | [`CreatePixelPoint`](#id11)    | Creates a point from pixel coordinates (ie. window coordinates).                         |
@@ -409,8 +415,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Scene`](#id0)   | Gets the scene.   |
+| Name | Summary |
 |-------------------|-------------------|
+| [`Scene`](#id0)   | Gets the scene.   |
 
 <a id="id5"></a>
 
@@ -505,8 +512,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`CreateView`](../../Interfaces/Graphics/index.md#id2)                             | Create a view from current graphics with default naming.     |
+| Name | Summary |
 |------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| [`CreateView`](../../Interfaces/Graphics/index.md#id2)                             | Create a view from current graphics with default naming.     |
 | [`CreateView`](../../Interfaces/Graphics/index.md#id2)                             | Create a view from current graphics with the specified name. |
 | [`RenameView`](../../Interfaces/Graphics/index.md#id4)                             | Rename the model view specified by viewIndex to newLabel.    |
 | [`RenameView`](../../Interfaces/Graphics/index.md#id4)                             | Rename the model view specified  to newLabel.                |
@@ -522,8 +530,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`NumberOfViews`](../../Interfaces/Graphics/index.md#Graphics.NumberOfViews)   | The number of views currently defined.   |
+| Name | Summary |
 |--------------------------------------------------------------------------------|------------------------------------------|
+| [`NumberOfViews`](../../Interfaces/Graphics/index.md#Graphics.NumberOfViews)   | The number of views currently defined.   |
 | [`ActiveViewPort`](#Graphics.ActiveViewPort)                                   | ActiveViewPort property.                 |
 
 <a id="id16"></a>

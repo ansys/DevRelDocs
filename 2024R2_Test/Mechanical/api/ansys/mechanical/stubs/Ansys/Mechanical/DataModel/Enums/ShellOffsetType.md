@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Bottom`](#ShellOffsetType.Bottom)           |    |
+| Name | Summary |
 |-----------------------------------------------|----|
+| [`Bottom`](#ShellOffsetType.Bottom)           |    |
 | [`Middle`](#ShellOffsetType.Middle)           |    |
 | [`Top`](#ShellOffsetType.Top)                 |    |
 | [`UserDefined`](#ShellOffsetType.UserDefined) |    |

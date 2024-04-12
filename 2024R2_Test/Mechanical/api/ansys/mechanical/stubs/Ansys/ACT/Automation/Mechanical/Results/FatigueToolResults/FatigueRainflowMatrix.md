@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ExportAnimation`](#FatigueRainflowMatrix.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| Name | Summary |
 |-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ExportAnimation`](#FatigueRainflowMatrix.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
 | [`ClearGeneratedData`](#FatigueRainflowMatrix.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#FatigueRainflowMatrix.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
 | [`RenameBasedOnDefinition`](#FatigueRainflowMatrix.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
@@ -41,8 +42,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.            |
 | [`MaximumRange`](#FatigueRainflowMatrix.MaximumRange)                                                                     | Gets the MaximumRange.                                        |
 | [`MaximumMean`](#FatigueRainflowMatrix.MaximumMean)                                                                       | Gets the MaximumMean.                                         |
 | [`MinimumRange`](#FatigueRainflowMatrix.MinimumRange)                                                                     | Gets the MinimumRange.                                        |

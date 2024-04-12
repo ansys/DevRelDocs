@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#Figure.Delete)                                   | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#Figure.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                        | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                        | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#Figure.AddComment)                           | Creates a new child Comment.                                                      |
@@ -36,8 +37,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Text`](#Figure.Text)                                                                                              | Gets or sets the Text.                                        |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Text`](#Figure.Text)                                                                                              | Gets or sets the Text.                                        |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#Figure.Children)                                                                                      | Gets the list of children.                                    |

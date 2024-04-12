@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Full`](#NewtonRaphsonType.Full)                           |    |
+| Name | Summary |
 |-------------------------------------------------------------|----|
+| [`Full`](#NewtonRaphsonType.Full)                           |    |
 | [`Modified`](#NewtonRaphsonType.Modified)                   |    |
 | [`ProgramControlled`](#NewtonRaphsonType.ProgramControlled) |    |
 | [`Unsymmetric`](#NewtonRaphsonType.Unsymmetric)             |    |

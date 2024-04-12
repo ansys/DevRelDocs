@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Tet10`](#MeshElementShape.Tet10)         |    |
+| Name | Summary |
 |--------------------------------------------|----|
+| [`Tet10`](#MeshElementShape.Tet10)         |    |
 | [`Hex20`](#MeshElementShape.Hex20)         |    |
 | [`Wedge15`](#MeshElementShape.Wedge15)     |    |
 | [`Pyramid13`](#MeshElementShape.Pyramid13) |    |

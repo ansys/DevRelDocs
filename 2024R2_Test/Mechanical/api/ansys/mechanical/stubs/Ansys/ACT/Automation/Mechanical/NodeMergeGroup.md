@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddNodeMerge`](#NodeMergeGroup.AddNodeMerge)                                             | Creates a new NodeMerge                                                           |
+| Name | Summary |
 |--------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddNodeMerge`](#NodeMergeGroup.AddNodeMerge)                                             | Creates a new NodeMerge                                                           |
 | [`GenerateNodeMerge`](#NodeMergeGroup.GenerateNodeMerge)                                   | Run the GenerateNodeMerge action.                                                 |
 | [`AddContactRegion`](#NodeMergeGroup.AddContactRegion)                                     | Creates a new child ContactRegion.                                                |
 | [`AddJoint`](#NodeMergeGroup.AddJoint)                                                     | Creates a new child Joint.                                                        |
@@ -51,8 +52,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`ConnectionType`](#NodeMergeGroup.ConnectionType)                                                                  | Gets or sets the ConnectionType.                              |
 | [`ActiveConnections`](#NodeMergeGroup.ActiveConnections)                                                            | Gets the ActiveConnections.                                   |

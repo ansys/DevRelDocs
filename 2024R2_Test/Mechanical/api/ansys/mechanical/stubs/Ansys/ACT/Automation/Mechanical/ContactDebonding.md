@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddCommandSnippet`](#ContactDebonding.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
+| Name | Summary |
 |------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddCommandSnippet`](#ContactDebonding.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
 | [`Delete`](#ContactDebonding.Delete)                                   | Run the Delete action.                                                            |
 | [`Activate`](#ContactDebonding.Activate)                               | Activate the current object.                                                      |
 | [`CopyTo`](#ContactDebonding.CopyTo)                                   | Copies all visible properties from this object to another.                        |
@@ -34,8 +35,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`Material`](Material.md#Material)                                                                                  | Gets or sets the Material.                                    |
 | [`CriticalRate`](#ContactDebonding.CriticalRate)                                                                    | Gets or sets the CriticalRate.                                |
 | [`InitialTimeStep`](#ContactDebonding.InitialTimeStep)                                                              | Gets or sets the InitialTimeStep.                             |

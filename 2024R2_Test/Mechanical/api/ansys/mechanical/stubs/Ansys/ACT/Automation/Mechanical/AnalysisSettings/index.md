@@ -10,8 +10,9 @@
 
 ### Classes
 
-| [`TopoOptAnalysisSettings`](TopoOptAnalysisSettings.md#TopoOptAnalysisSettings)   | Defines a TopoOptAnalysisSettings.                      |
+| Name | Summary |
 |-----------------------------------------------------------------------------------|---------------------------------------------------------|
+| [`TopoOptAnalysisSettings`](TopoOptAnalysisSettings.md#TopoOptAnalysisSettings)   | Defines a TopoOptAnalysisSettings.                      |
 | [`AnalysisSettings`](AnalysisSettings.md#AnalysisSettings)                        | Defines a AnalysisSettings.                             |
 | [`ANSYSAnalysisSettings`](ANSYSAnalysisSettings.md#ANSYSAnalysisSettings)         | Defines a ANSYSAnalysisSettings.                        |
 | [`EXDAnalysisSettings`](EXDAnalysisSettings.md#EXDAnalysisSettings)               | Defines Analysis Settings for Explicit Dynamics System. |
@@ -41,8 +42,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`DeleteAllRestartPoints`](#id142)   | DeleteAllRestartPoints method.                                                    |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`DeleteAllRestartPoints`](#id142)   | DeleteAllRestartPoints method.                                                    |
 | [`GetChildren`](#id144)              | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id144)              | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id145)               | Creates a new child Comment.                                                      |
@@ -61,8 +63,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`ExportDesignProperties`](#AnalysisSettings.ExportDesignProperties)                                                   | Gets or sets the ExportDesignProperties.                      |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`ExportDesignProperties`](#AnalysisSettings.ExportDesignProperties)                                                   | Gets or sets the ExportDesignProperties.                      |
 | [`ExportDesignPropertiesFileFormat`](#AnalysisSettings.ExportDesignPropertiesFileFormat)                               | Gets or sets the ExportDesignPropertiesFileFormat.            |
 | [`InternalObject`](#id117)                                                                                             | Gets the internal object. For advanced usage only.            |
 | [`ConvergenceAccuracy`](#AnalysisSettings.ConvergenceAccuracy)                                                         | Gets or sets the ConvergenceAccuracy.                         |
@@ -546,8 +549,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`DeleteAllRestartPoints`](#id142)   | DeleteAllRestartPoints method.                                                    |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`DeleteAllRestartPoints`](#id142)   | DeleteAllRestartPoints method.                                                    |
 | [`GetChildren`](#id144)              | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id144)              | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id145)               | Creates a new child Comment.                                                      |
@@ -566,8 +570,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Graph`](#id116)                                                                                                      | Graph property.                                               |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Graph`](#id116)                                                                                                      | Graph property.                                               |
 | [`InternalObject`](#id117)                                                                                             | Gets the internal object. For advanced usage only.            |
 | [`ScratchSolverFilesDirectory`](#id118)                                                                                | Gets the ScratchSolverFilesDirectory.                         |
 | [`SolverFilesDirectory`](#id119)                                                                                       | Gets the SolverFilesDirectory.                                |
@@ -835,8 +840,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetStepEndTime`](#id128)                                                                                   | Gets the Step End Time at a given solution step.                                       |
+| Name | Summary |
 |--------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| [`GetStepEndTime`](#id128)                                                                                   | Gets the Step End Time at a given solution step.                                       |
 | [`SetStepEndTime`](#id129)                                                                                   | Sets the Step End Time for a given solution step.                                      |
 | [`GetAutomaticTimeStepping`](#id130)                                                                         | Gets the Automatic Time Stepping at a given solution step.                             |
 | [`SetAutomaticTimeStepping`](#id131)                                                                         | Sets the Automatic Time Stepping for a given solution step.                            |
@@ -1004,8 +1010,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`StepName`](#AnalysisSettings.StepName)                                                                                     | Gets or sets the Step Name.                                                                         |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| [`StepName`](#AnalysisSettings.StepName)                                                                                     | Gets or sets the Step Name.                                                                         |
 | [`AMStepType`](#AnalysisSettings.AMStepType)                                                                                 | Gets or sets the AM Process Step Type.                                                              |
 | [`AMSubstepsToApplyHeats`](#AnalysisSettings.AMSubstepsToApplyHeats)                                                         | Gets or sets the AM Substeps to Apply Heat.                                                         |
 | [`AMSubstepsBetweenHeating`](#AnalysisSettings.AMSubstepsBetweenHeating)                                                     | Gets or sets the AM Substeps Between Heating.                                                       |
@@ -4899,8 +4906,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetStepEndTime`](#id128)                                                     | Gets the Step End Time at a given solution step.                                  |
+| Name | Summary |
 |--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetStepEndTime`](#id128)                                                     | Gets the Step End Time at a given solution step.                                  |
 | [`SetStepEndTime`](#id129)                                                     | Sets the Step End Time for a given solution step.                                 |
 | [`GetLoadStepType`](#AnalysisSettings.GetLoadStepType)                         | Gets the  LoadStepType for a step.                                                |
 | [`SetLoadStepType`](#AnalysisSettings.SetLoadStepType)                         | Sets the LoadStepType for a step.                                                 |
@@ -4957,8 +4965,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id117)                                                                                             | Gets the Internal Object. For advanced usage only.                   |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
+| [`InternalObject`](#id117)                                                                                             | Gets the Internal Object. For advanced usage only.                   |
 | [`PreferenceType`](#AnalysisSettings.PreferenceType)                                                                   | Gets or sets the PreferenceType                                      |
 | [`NumberOfSteps`](#id113)                                                                                              | Gets or sets the NumberOfSteps.                                      |
 | [`CurrentStepNumber`](#id114)                                                                                          | Gets or sets the CurrentStepNumber.                                  |
@@ -6493,8 +6502,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetStepEndTime`](#id128)                                         | Gets the Step End Time at a given solution step.                                  |
+| Name | Summary |
 |--------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetStepEndTime`](#id128)                                         | Gets the Step End Time at a given solution step.                                  |
 | [`SetStepEndTime`](#id129)                                         | Sets the Step End Time for a given solution step.                                 |
 | [`GetAutomaticTimeStepping`](#id130)                               | Gets the Automatic Time Stepping at a given solution step.                        |
 | [`SetAutomaticTimeStepping`](#id131)                               | Sets the Automatic Time Stepping for a given solution step.                       |
@@ -6531,8 +6541,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id117)                                                                                               | InternalObject property.                                               |
+| Name | Summary |
 |--------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InternalObject`](#id117)                                                                                               | InternalObject property.                                               |
 | [`NumberOfSteps`](#id113)                                                                                                | Gets or sets the NumberOfSteps.                                        |
 | [`CurrentStepNumber`](#id114)                                                                                            | Gets or sets the CurrentStepNumber.                                    |
 | [`TimeIntegrationType`](#AnalysisSettings.TimeIntegrationType)                                                           | Gets or sets the Integration Method.                                   |

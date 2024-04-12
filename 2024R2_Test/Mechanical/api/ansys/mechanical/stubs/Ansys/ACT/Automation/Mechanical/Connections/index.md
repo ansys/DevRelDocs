@@ -10,8 +10,9 @@
 
 ### Classes
 
-| [`AMBondConnection`](AMBondConnection.md#AMBondConnection)       | Defines a AMBondConnection.   |
+| Name | Summary |
 |------------------------------------------------------------------|-------------------------------|
+| [`AMBondConnection`](AMBondConnection.md#AMBondConnection)       | Defines a AMBondConnection.   |
 | [`SpotWeldConnection`](SpotWeldConnection.md#SpotWeldConnection) | Defines a SpotWeldConnection. |
 | [`SpotWeldGroup`](SpotWeldGroup.md#SpotWeldGroup)                | Defines a SpotWeldGroup.      |
 | [`Beam`](Beam.md#Beam)                                           | Defines a Beam.               |
@@ -49,8 +50,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`SearchConnectionsForDuplicatePairs`](#id429)   | Run the SearchConnectionsForDuplicatePairs action.                                |
+| Name | Summary |
 |--------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`SearchConnectionsForDuplicatePairs`](#id429)   | Run the SearchConnectionsForDuplicatePairs action.                                |
 | [`FlipContactTarget`](#id214)                    | Run the FlipContactTarget action.                                                 |
 | [`AddCommandSnippet`](#id363)                    | Creates a new CommandSnippet                                                      |
 | [`RenameBasedOnDefinition`](#id364)              | Run the RenameBasedOnDefinition action.                                           |
@@ -73,8 +75,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`SourceLocation`](#id181)                                                                                             | Gets or sets the SourceLocation.                              |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`SourceLocation`](#id181)                                                                                             | Gets or sets the SourceLocation.                              |
 | [`TargetLocation`](#id182)                                                                                             | Gets or sets the TargetLocation.                              |
 | [`InternalObject`](#id462)                                                                                             | Gets the internal object. For advanced usage only.            |
 | [`ContactBodies`](#id192)                                                                                              | Gets the ContactBodies.                                       |
@@ -410,8 +413,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`SetXCoordinate`](#Connections.SetXCoordinate)                         | Set the X coordinate given the Spot Weld ID.                                      |
+| Name | Summary |
 |-------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`SetXCoordinate`](#Connections.SetXCoordinate)                         | Set the X coordinate given the Spot Weld ID.                                      |
 | [`SetYCoordinate`](#Connections.SetYCoordinate)                         | Set the Y coordinate given the Spot Weld ID.                                      |
 | [`SetZCoordinate`](#Connections.SetZCoordinate)                         | Set the Z coordinate given the Spot Weld ID.                                      |
 | [`AddNewSpotWeld`](#Connections.AddNewSpotWeld)                         | Add a new spot weld with/without a customID.                                      |
@@ -435,8 +439,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id462)                                                                                             | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id462)                                                                                             | Gets the internal object. For advanced usage only.            |
 | [`Material`](../Material.md#Material)                                                                                  | Gets or sets the Material.                                    |
 | [`NumberOfLayers`](#id32)                                                                                              | Gets or sets the NumberOfLayers.                              |
 | [`NumWeldPoints`](#id33)                                                                                               | Gets the NumWeldPoints.                                       |
@@ -843,8 +848,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddSpotWeldConnection`](#Connections.AddSpotWeldConnection)             | Creates a new child SpotWeldConnection.                                           |
+| Name | Summary |
 |---------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddSpotWeldConnection`](#Connections.AddSpotWeldConnection)             | Creates a new child SpotWeldConnection.                                           |
 | [`ExportToFile`](#Connections.ExportToFile)                               | Exports all spot welds to user selected path.                                     |
 | [`GenerateSpotWeldConnections`](#Connections.GenerateSpotWeldConnections) | Generate spot welds provided in the Weld input file.                              |
 | [`GetChildren`](#id469)                                                   | Gets the list of children, filtered by type.                                      |
@@ -864,8 +870,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id462)                                                                                             | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id462)                                                                                             | Gets the internal object. For advanced usage only.            |
 | [`Material`](../Material.md#Material)                                                                                  | Gets or sets the Material.                                    |
 | [`NumConnections`](#Connections.NumConnections)                                                                        | Gets the NumConnections.                                      |
 | [`NumberOfLayers`](#id32)                                                                                              | Gets or sets the NumberOfLayers.                              |
@@ -1258,8 +1265,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`PromoteToNamedSelection`](#id361)   | Run the PromoteToNamedSelection action.                                           |
+| Name | Summary |
 |---------------------------------------|-----------------------------------------------------------------------------------|
+| [`PromoteToNamedSelection`](#id361)   | Run the PromoteToNamedSelection action.                                           |
 | [`PromoteToRemotePoint`](#id362)      | Run the PromoteToRemotePoint action.                                              |
 | [`AddCommandSnippet`](#id363)         | Creates a new CommandSnippet                                                      |
 | [`RenameBasedOnDefinition`](#id364)   | Run the RenameBasedOnDefinition action.                                           |
@@ -1282,8 +1290,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id462)                                                                                             | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id462)                                                                                             | Gets the internal object. For advanced usage only.            |
 | [`BeamElementAPDLName`](#Connections.BeamElementAPDLName)                                                              | Gets or sets the BeamElementAPDLName.                         |
 | [`Material`](../Material.md#Material)                                                                                  | Gets or sets the Material.                                    |
 | [`MobileBeamMaterial`](#id329)                                                                                         | Gets or sets the MobileBeamMaterial.                          |
@@ -1835,8 +1844,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`PromoteToNamedSelection`](#id361)   | Run the PromoteToNamedSelection action.                                           |
+| Name | Summary |
 |---------------------------------------|-----------------------------------------------------------------------------------|
+| [`PromoteToNamedSelection`](#id361)   | Run the PromoteToNamedSelection action.                                           |
 | [`PromoteToRemotePoint`](#id362)      | Run the PromoteToRemotePoint action.                                              |
 | [`AddCommandSnippet`](#id363)         | Creates a new CommandSnippet                                                      |
 | [`RenameBasedOnDefinition`](#id364)   | Run the RenameBasedOnDefinition action.                                           |
@@ -1859,8 +1869,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`ReferenceSet`](#Connections.ReferenceSet)                                                                            | Gets the ReferenceSet.                                        |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`ReferenceSet`](#Connections.ReferenceSet)                                                                            | Gets the ReferenceSet.                                        |
 | [`InternalObject`](#id462)                                                                                             | Gets the internal object. For advanced usage only.            |
 | [`AnsBCType`](#Connections.AnsBCType)                                                                                  | Gets the AnsBCType.                                           |
 | [`MobileBeamMaterial`](#id329)                                                                                         | Gets or sets the MobileBeamMaterial.                          |
@@ -2439,8 +2450,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id467)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |-------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id467)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id469)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id469)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id470)              | Creates a new child Comment.                                                      |
@@ -2459,8 +2471,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id462)                                                                                             | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id462)                                                                                             | Gets the internal object. For advanced usage only.            |
 | [`DecayConstant`](#id185)                                                                                              | Gets or sets the DecayConstant.                               |
 | [`DynamicCoefficient`](#id186)                                                                                         | Gets or sets the DynamicCoefficient.                          |
 | [`NormalForceExponent`](#id188)                                                                                        | Gets or sets the NormalForceExponent.                         |
@@ -2845,8 +2858,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`SearchConnectionsForDuplicatePairs`](#id429)                        | Run the SearchConnectionsForDuplicatePairs action.                                |
+| Name | Summary |
 |-----------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`SearchConnectionsForDuplicatePairs`](#id429)                        | Run the SearchConnectionsForDuplicatePairs action.                                |
 | [`FlipContactTarget`](#id214)                                         | Run the FlipContactTarget action.                                                 |
 | [`SetDefaultAPDLNames`](#id434)                                       | Run the SetDefaultAPDLNames action.                                               |
 | [`SaveContactRegionSettings`](#Connections.SaveContactRegionSettings) | Run the SaveContactRegionSettings action.                                         |
@@ -2877,8 +2891,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`ContactAPDLName`](#Connections.ContactAPDLName)                                                                      | Gets or sets the ContactAPDLName.                             |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`ContactAPDLName`](#Connections.ContactAPDLName)                                                                      | Gets or sets the ContactAPDLName.                             |
 | [`TargetAPDLName`](#Connections.TargetAPDLName)                                                                        | Gets or sets the TargetAPDLName.                              |
 | [`SourceLocation`](#id181)                                                                                             | Gets or sets the SourceLocation.                              |
 | [`TargetLocation`](#id182)                                                                                             | Gets or sets the TargetLocation.                              |
@@ -4088,8 +4103,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#Connections.ClearGeneratedData)   | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |-----------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#Connections.ClearGeneratedData)   | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#Connections.EvaluateAllResults)   | Run the EvaluateAllResults action.                                                |
 | [`GenerateInitialContactResults`](#id394)                 | Run the GenerateInitialContactResults action.                                     |
 | [`Delete`](#id467)                                        | Run the Delete action.                                                            |
@@ -4111,8 +4127,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`ScopingMethod`](#Connections.ScopingMethod)                                                                          | Gets or sets the ScopingMethod.                               |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`ScopingMethod`](#Connections.ScopingMethod)                                                                          | Gets or sets the ScopingMethod.                               |
 | [`Location`](#id416)                                                                                                   | Gets or sets the Location.                                    |
 | [`InternalObject`](#id462)                                                                                             | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -4395,8 +4412,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`PromoteToNamedSelection`](#id361)   | Run the PromoteToNamedSelection action.                                           |
+| Name | Summary |
 |---------------------------------------|-----------------------------------------------------------------------------------|
+| [`PromoteToNamedSelection`](#id361)   | Run the PromoteToNamedSelection action.                                           |
 | [`PromoteToRemotePoint`](#id362)      | Run the PromoteToRemotePoint action.                                              |
 | [`AddCommandSnippet`](#id363)         | Creates a new CommandSnippet                                                      |
 | [`RenameBasedOnDefinition`](#id364)   | Run the RenameBasedOnDefinition action.                                           |
@@ -4419,8 +4437,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`NonLinearLongitudinalStiffness`](#Connections.NonLinearLongitudinalStiffness)                                        | Gets the non linear longitudinal stiffness defined in the tabular data.   |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
+| [`NonLinearLongitudinalStiffness`](#Connections.NonLinearLongitudinalStiffness)                                        | Gets the non linear longitudinal stiffness defined in the tabular data.   |
 | [`LongitudinalStiffness`](#Connections.LongitudinalStiffness)                                                          | Gets or sets the constant longitudinal stiffness (expressed in N/m).      |
 | [`InternalObject`](#id462)                                                                                             | Gets the internal object. For advanced usage only.                        |
 | [`Material`](../Material.md#Material)                                                                                  | Gets or sets the Material.                                                |
@@ -5080,8 +5099,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`PromoteToNamedSelection`](#id361)                       | Run the PromoteToNamedSelection action.                                           |
+| Name | Summary |
 |-----------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`PromoteToNamedSelection`](#id361)                       | Run the PromoteToNamedSelection action.                                           |
 | [`PromoteToRemotePoint`](#id362)                          | Run the PromoteToRemotePoint action.                                              |
 | [`AddCommandSnippet`](#id363)                             | Creates a new CommandSnippet                                                      |
 | [`FlipReferenceMobile`](#Connections.FlipReferenceMobile) | Run the FlipReferenceMobile action.                                               |
@@ -5105,8 +5125,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`BushingWorksheet`](#Connections.BushingWorksheet)                                                                    | Returns the Bushing Coeffients worksheet associated with Bushing Joint.   |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
+| [`BushingWorksheet`](#Connections.BushingWorksheet)                                                                    | Returns the Bushing Coeffients worksheet associated with Bushing Joint.   |
 | [`InternalObject`](#id462)                                                                                             | Gets the internal object. For advanced usage only.                        |
 | [`FrictionCoefficient`](#id327)                                                                                        | Gets or sets the FrictionCoefficient.                                     |
 | [`JointElementAPDLName`](#Connections.JointElementAPDLName)                                                            | Gets or sets the JointElementAPDLName.                                    |
@@ -6062,8 +6083,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddContactRegion`](#id427)                                                  | Creates a new child ContactRegion.                                                |
+| Name | Summary |
 |-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddContactRegion`](#id427)                                                  | Creates a new child ContactRegion.                                                |
 | [`AddContactTool`](#Connections.AddContactTool)                               | Creates a new ContactTool                                                         |
 | [`AddSpotWeldGroup`](#Connections.AddSpotWeldGroup)                           | Creates a new child SpotWeldGroup.                                                |
 | [`AddSpotWeld`](#id430)                                                       | Creates a new child SpotWeld.                                                     |
@@ -6100,8 +6122,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id462)                                                                                             | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id462)                                                                                             | Gets the internal object. For advanced usage only.            |
 | [`SolverFilesDirectory`](#Connections.SolverFilesDirectory)                                                            | Gets or sets the SolverFilesDirectory.                        |
 | [`GenerateAutomaticConnectionOnRefresh`](#Connections.GenerateAutomaticConnectionOnRefresh)                            | Gets or sets the GenerateAutomaticConnectionOnRefresh.        |
 | [`FixedJoints`](#Connections.FixedJoints)                                                                              | Gets or sets the FixedJoints.                                 |
@@ -6522,8 +6545,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddContactRegion`](#id427)                                  | Creates a new child ContactRegion.                                                |
+| Name | Summary |
 |---------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddContactRegion`](#id427)                                  | Creates a new child ContactRegion.                                                |
 | [`AddJoint`](#id428)                                          | Creates a new child Joint.                                                        |
 | [`SearchConnectionsForDuplicatePairs`](#id429)                | Run the SearchConnectionsForDuplicatePairs action.                                |
 | [`AddSpotWeld`](#id430)                                       | Creates a new child SpotWeld.                                                     |
@@ -6553,8 +6577,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`ConnectionType`](#id412)                                                                                             | Gets or sets the ConnectionType.                              |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`ConnectionType`](#id412)                                                                                             | Gets or sets the ConnectionType.                              |
 | [`InternalObject`](#id462)                                                                                             | Gets the internal object. For advanced usage only.            |
 | [`ActiveConnections`](#Connections.ActiveConnections)                                                                  | Gets the ActiveConnections.                                   |
 | [`Connections`](Connections.md#Connections)                                                                            | Gets the Connections.                                         |
@@ -7117,8 +7142,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddBodyInteraction`](#id466)      | Creates a new child BodyInteraction.                                              |
+| Name | Summary |
 |-------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddBodyInteraction`](#id466)      | Creates a new child BodyInteraction.                                              |
 | [`Delete`](#id467)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id469)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id469)             | Gets the list of children, filtered by type.                                      |
@@ -7138,8 +7164,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id462)                                                                                             | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id462)                                                                                             | Gets the internal object. For advanced usage only.            |
 | [`PinballFactor`](#id455)                                                                                              | Gets or sets the PinballFactor.                               |
 | [`Tolerance`](#Connections.Tolerance)                                                                                  | Gets or sets the Tolerance.                                   |
 | [`ShellThicknessFactor`](#Connections.ShellThicknessFactor)                                                            | Gets or sets the ShellThicknessFactor.                        |

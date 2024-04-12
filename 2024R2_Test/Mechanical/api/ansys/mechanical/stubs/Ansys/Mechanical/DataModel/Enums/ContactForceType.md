@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Normal`](#ContactForceType.Normal)   |    |
+| Name | Summary |
 |----------------------------------------|----|
+| [`Normal`](#ContactForceType.Normal)   |    |
 | [`Tangent`](#ContactForceType.Tangent) |    |
 | [`Total`](#ContactForceType.Total)     |    |
 

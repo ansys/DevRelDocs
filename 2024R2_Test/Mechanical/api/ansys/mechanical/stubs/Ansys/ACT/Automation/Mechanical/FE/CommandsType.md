@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Processed`](#CommandsType.Processed)     |    |
+| Name | Summary |
 |--------------------------------------------|----|
+| [`Processed`](#CommandsType.Processed)     |    |
 | [`UnProcessed`](#CommandsType.UnProcessed) |    |
 | [`All`](#CommandsType.All)                 |    |
 

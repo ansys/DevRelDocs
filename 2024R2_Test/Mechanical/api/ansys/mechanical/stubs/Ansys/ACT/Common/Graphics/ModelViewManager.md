@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`CreateView`](#id0)                                     | Create a view from current graphics with default naming.     |
+| Name | Summary |
 |----------------------------------------------------------|--------------------------------------------------------------|
+| [`CreateView`](#id0)                                     | Create a view from current graphics with default naming.     |
 | [`CreateView`](#id0)                                     | Create a view from current graphics with the specified name. |
 | [`RenameView`](#id1)                                     | Rename the model view specified by viewIndex to newLabel.    |
 | [`RenameView`](#id1)                                     | Rename the model view specified  to newLabel.                |
@@ -35,8 +36,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`NumberOfViews`](#ModelViewManager.NumberOfViews)   | The number of views currently defined.   |
+| Name | Summary |
 |------------------------------------------------------|------------------------------------------|
+| [`NumberOfViews`](#ModelViewManager.NumberOfViews)   | The number of views currently defined.   |
 | [`ActiveViewPort`](#ModelViewManager.ActiveViewPort) | ActiveViewPort property.                 |
 
 <a id="import-detail"></a>

@@ -16,16 +16,18 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Clear`](#DelimitedImportSettings.Clear)                 |                                                       |
+| Name | Summary |
 |-----------------------------------------------------------|-------------------------------------------------------|
+| [`Clear`](#DelimitedImportSettings.Clear)                 |                                                       |
 | [`GetEnumerator`](#DelimitedImportSettings.GetEnumerator) |                                                       |
 | [`RemoveAt`](#DelimitedImportSettings.RemoveAt)           | Removes the import definition at the specified index. |
 | [`UseColumn`](#DelimitedImportSettings.UseColumn)         |                                                       |
 
 ### Properties
 
-| [`Delimiter`](#DelimitedImportSettings.Delimiter)                        | The delimiter used to separate columns.                                              |
+| Name | Summary |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| [`Delimiter`](#DelimitedImportSettings.Delimiter)                        | The delimiter used to separate columns.                                              |
 | [`Count`](#DelimitedImportSettings.Count)                                | Gets the number of column definitions.                                               |
 | [`Item`](#DelimitedImportSettings.Item)                                  | Item property.                                                                       |
 | [`SkipFooter`](#DelimitedImportSettings.SkipFooter)                      | Gets or sets the number of rows to ignore at the end of the file during import.      |

@@ -10,23 +10,26 @@
 
 ### Subpackages
 
-| [`ABAQUS`](ABAQUS/index.md#module-ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.FE.ABAQUS)    | ABAQUS subpackage.   |
+| Name | Summary |
 |--------------------------------------------------------------------------------------------------------|----------------------|
+| [`ABAQUS`](ABAQUS/index.md#module-ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.FE.ABAQUS)    | ABAQUS subpackage.   |
 | [`CDB`](CDB/index.md#module-ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.FE.CDB)             | CDB subpackage.      |
 | [`NASTRAN`](NASTRAN/index.md#module-ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.FE.NASTRAN) | NASTRAN subpackage.  |
 
 ### Classes
 
-| [`CommandColl`](CommandColl.md#CommandColl)                   | Collection of commands.      |
+| Name | Summary |
 |---------------------------------------------------------------|------------------------------|
+| [`CommandColl`](CommandColl.md#CommandColl)                   | Collection of commands.      |
 | [`CommandRepository`](CommandRepository.md#CommandRepository) | Command repository.          |
 | [`Command`](Command.md#Command)                               | Base class for all Commands. |
 | [`FEParser`](FEParser.md#FEParser)                            | FE parser object.            |
 
 ### Enums
 
-| [`CommandsType`](CommandsType.md#CommandsType)   | Commands type.   |
+| Name | Summary |
 |--------------------------------------------------|------------------|
+| [`CommandsType`](CommandsType.md#CommandsType)   | Commands type.   |
 
 <a id="description"></a>
 
@@ -52,8 +55,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Count`](#FE.Count)   | Gets the count of commands.   |
+| Name | Summary |
 |------------------------|-------------------------------|
+| [`Count`](#FE.Count)   | Gets the count of commands.   |
 | [`Item`](#FE.Item)     | Item property.                |
 
 <a id="import-detail"></a>
@@ -96,8 +100,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetCommandsByName`](#FE.GetCommandsByName)       | Gets the commands by name.                                                                         |
+| Name | Summary |
 |----------------------------------------------------|----------------------------------------------------------------------------------------------------|
+| [`GetCommandsByName`](#FE.GetCommandsByName)       | Gets the commands by name.                                                                         |
 | [`GetCommandByIndex`](#FE.GetCommandByIndex)       | Gets the commands by index.                                                                        |
 | [`GetCommandNamesCount`](#FE.GetCommandNamesCount) | Gets the number of commands of a type specified by param=eCommandsType in the repository.          |
 | [`GetCommandName`](#FE.GetCommandName)             | Gets the name of commands of a type specified by params eCommandsType and index in the repository. |
@@ -167,8 +172,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Name`](#FE.Name)   | Gets the command name.   |
+| Name | Summary |
 |----------------------|--------------------------|
+| [`Name`](#FE.Name)   | Gets the command name.   |
 | [`Index`](#FE.Index) | Gets the command index.  |
 
 <a id="id2"></a>
@@ -229,8 +235,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Processed`](#FE.Processed)     |    |
+| Name | Summary |
 |----------------------------------|----|
+| [`Processed`](#FE.Processed)     |    |
 | [`UnProcessed`](#FE.UnProcessed) |    |
 | [`All`](#FE.All)                 |    |
 

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Ncp`](#CPCommand.Ncp)     | Gets the number of coupled nodes.   |
+| Name | Summary |
 |-----------------------------|-------------------------------------|
+| [`Ncp`](#CPCommand.Ncp)     | Gets the number of coupled nodes.   |
 | [`Dof`](#CPCommand.Dof)     | Gets the degree of freedom label.   |
 | [`Nodes`](#CPCommand.Nodes) | Gets the nodes.                     |
 | [`Name`](#CPCommand.Name)   | Gets the command name.              |

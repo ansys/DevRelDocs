@@ -18,15 +18,17 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddObject`](#ObjectTag.AddObject)       | Add an object to this tag.       |
+| Name | Summary |
 |-------------------------------------------|----------------------------------|
+| [`AddObject`](#ObjectTag.AddObject)       | Add an object to this tag.       |
 | [`RemoveObject`](#ObjectTag.RemoveObject) | Remove an object from this tag.  |
 | [`ClearObjects`](#ObjectTag.ClearObjects) | Clear all objects from this tag. |
 
 ### Properties
 
-| [`Name`](#ObjectTag.Name)       | The name of the tag. If the tag exists in ObjectTags, attempting to set the name to a value of another tag in that collection will lead to an exception.   |
+| Name | Summary |
 |---------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`Name`](#ObjectTag.Name)       | The name of the tag. If the tag exists in ObjectTags, attempting to set the name to a value of another tag in that collection will lead to an exception.   |
 | [`Objects`](#ObjectTag.Objects) | The list of objects which use this tag.                                                                                                                    |
 
 <a id="import-detail"></a>

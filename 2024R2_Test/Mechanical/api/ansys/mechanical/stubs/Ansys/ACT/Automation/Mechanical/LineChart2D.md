@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetChildren`](#id1)                                             | Gets the list of children, filtered by type.                                      |
+| Name | Summary |
 |-------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetChildren`](#id1)                                             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                             | Gets the list of children, filtered by type.                                      |
 | [`Activate`](#LineChart2D.Activate)                               | Activate the current object.                                                      |
 | [`CopyTo`](#LineChart2D.CopyTo)                                   | Copies all visible properties from this object to another.                        |
@@ -34,8 +35,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`MultiScopedCurveId`](#LineChart2D.MultiScopedCurveId)                                                             | Gets or sets the OutlineSelection.                            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`MultiScopedCurveId`](#LineChart2D.MultiScopedCurveId)                                                             | Gets or sets the OutlineSelection.                            |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`Suppressed`](#LineChart2D.Suppressed)                                                                             | Gets or sets the Suppressed.                                  |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |

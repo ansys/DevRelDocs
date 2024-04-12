@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`SnapPathToMeshNodes`](#Path.SnapPathToMeshNodes)         | Snap path to mesh nodes                                                           |
+| Name | Summary |
 |------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`SnapPathToMeshNodes`](#Path.SnapPathToMeshNodes)         | Snap path to mesh nodes                                                           |
 | [`FlipPathOrientatation`](#Path.FlipPathOrientatation)     | Flip Path Orientatation                                                           |
 | [`Delete`](#Path.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                      | Gets the list of children, filtered by type.                                      |
@@ -40,8 +41,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`DiscretizationPoints`](#Path.DiscretizationPoints)                                                                | Gets or sets the DiscretizationPoints.                        |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`DiscretizationPoints`](#Path.DiscretizationPoints)                                                                | Gets or sets the DiscretizationPoints.                        |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`NumberOfSubpaths`](#Path.NumberOfSubpaths)                                                                        | Gets or sets the NumberOfSubpaths.                            |
 | [`NumberOfSamplingPoints`](#Path.NumberOfSamplingPoints)                                                            | Gets or sets the NumberOfSamplingPoints.                      |

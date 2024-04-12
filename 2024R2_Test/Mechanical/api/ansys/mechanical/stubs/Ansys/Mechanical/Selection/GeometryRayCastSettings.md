@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`HitFaces`](#GeometryRayCastSettings.HitFaces)       | Specifies whether ray casting should hit faces.                     |
+| Name | Summary |
 |-------------------------------------------------------|---------------------------------------------------------------------|
+| [`HitFaces`](#GeometryRayCastSettings.HitFaces)       | Specifies whether ray casting should hit faces.                     |
 | [`HitEdges`](#GeometryRayCastSettings.HitEdges)       | Specifies whether ray casting should hit edges.                     |
 | [`HitVertices`](#GeometryRayCastSettings.HitVertices) | Specifies whether ray casting should hit vertices.                  |
 | [`HitBodies`](#GeometryRayCastSettings.HitBodies)     | Specifies whether ray casting should hit bodies.                    |

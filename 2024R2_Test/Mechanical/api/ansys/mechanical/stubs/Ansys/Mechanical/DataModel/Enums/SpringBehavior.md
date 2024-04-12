@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Linear`](#SpringBehavior.Linear)                                     |    |
+| Name | Summary |
 |------------------------------------------------------------------------|----|
+| [`Linear`](#SpringBehavior.Linear)                                     |    |
 | [`NonLinear`](#SpringBehavior.NonLinear)                               |    |
 | [`NonLinearCompressionOnly`](#SpringBehavior.NonLinearCompressionOnly) |    |
 | [`NonLinearTensionOnly`](#SpringBehavior.NonLinearTensionOnly)         |    |

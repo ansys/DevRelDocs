@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Type`](#LocalCommand.Type)     | Gets the type of the data to be defined.   |
+| Name | Summary |
 |----------------------------------|--------------------------------------------|
+| [`Type`](#LocalCommand.Type)     | Gets the type of the data to be defined.   |
 | [`Ncsy`](#LocalCommand.Ncsy)     | Gets the system number.                    |
 | [`Cstyp`](#LocalCommand.Cstyp)   | Gets the system type.                      |
 | [`Values`](#LocalCommand.Values) | Gets the values.                           |

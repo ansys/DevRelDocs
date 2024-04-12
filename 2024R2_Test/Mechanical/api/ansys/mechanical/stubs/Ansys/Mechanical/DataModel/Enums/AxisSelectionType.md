@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`All`](#AxisSelectionType.All)     |    |
+| Name | Summary |
 |-------------------------------------|----|
+| [`All`](#AxisSelectionType.All)     |    |
 | [`XAxis`](#AxisSelectionType.XAxis) |    |
 | [`YAxis`](#AxisSelectionType.YAxis) |    |
 | [`ZAxis`](#AxisSelectionType.ZAxis) |    |

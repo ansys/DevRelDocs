@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Undefined`](#MappingControlType.Undefined)                 |    |
+| Name | Summary |
 |--------------------------------------------------------------|----|
+| [`Undefined`](#MappingControlType.Undefined)                 |    |
 | [`ProgramControlled`](#MappingControlType.ProgramControlled) |    |
 | [`Manual`](#MappingControlType.Manual)                       |    |
 

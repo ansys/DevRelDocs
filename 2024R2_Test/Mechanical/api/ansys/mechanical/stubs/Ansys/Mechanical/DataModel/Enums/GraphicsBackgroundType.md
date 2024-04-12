@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`GraphicsAppearanceSetting`](#GraphicsBackgroundType.GraphicsAppearanceSetting)   |    |
+| Name | Summary |
 |------------------------------------------------------------------------------------|----|
+| [`GraphicsAppearanceSetting`](#GraphicsBackgroundType.GraphicsAppearanceSetting)   |    |
 | [`White`](#GraphicsBackgroundType.White)                                           |    |
 
 <a id="import-detail"></a>

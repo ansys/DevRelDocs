@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`CrackSelection`](#FractureToolScopeType.CrackSelection)   |    |
+| Name | Summary |
 |-------------------------------------------------------------|----|
+| [`CrackSelection`](#FractureToolScopeType.CrackSelection)   |    |
 | [`ResultFileItem`](#FractureToolScopeType.ResultFileItem)   |    |
 
 <a id="import-detail"></a>

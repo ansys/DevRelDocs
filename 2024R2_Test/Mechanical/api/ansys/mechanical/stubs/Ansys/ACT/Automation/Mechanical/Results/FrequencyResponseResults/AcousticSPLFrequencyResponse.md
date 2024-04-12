@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ExportToXMLFile`](#AcousticSPLFrequencyResponse.ExportToXMLFile)                 | Run the ExportToXMLFile action.                                                   |
+| Name | Summary |
 |------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ExportToXMLFile`](#AcousticSPLFrequencyResponse.ExportToXMLFile)                 | Run the ExportToXMLFile action.                                                   |
 | [`ExportToWAVFile`](#AcousticSPLFrequencyResponse.ExportToWAVFile)                 | Run the ExportToWAVFile action.                                                   |
 | [`ExportAnimation`](#AcousticSPLFrequencyResponse.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
 | [`ClearGeneratedData`](#AcousticSPLFrequencyResponse.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
@@ -43,8 +44,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`IsSolved`](#AcousticSPLFrequencyResponse.IsSolved)                                                                      | Gets the IsSolved.                                            |
 | [`ChartDimensions`](../../../../../Mechanical/DataModel/Enums/ChartDimensions.md#ChartDimensions)                         | Gets or sets the Chart Dimensions                             |

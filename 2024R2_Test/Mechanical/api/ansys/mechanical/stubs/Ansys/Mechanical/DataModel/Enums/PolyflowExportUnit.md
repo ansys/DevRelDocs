@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`UseProjectUnit`](#PolyflowExportUnit.UseProjectUnit)   |    |
+| Name | Summary |
 |----------------------------------------------------------|----|
+| [`UseProjectUnit`](#PolyflowExportUnit.UseProjectUnit)   |    |
 | [`Meters`](#PolyflowExportUnit.Meters)                   |    |
 | [`Centimeters`](#PolyflowExportUnit.Centimeters)         |    |
 | [`Millimeters`](#PolyflowExportUnit.Millimeters)         |    |

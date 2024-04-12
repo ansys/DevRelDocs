@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`CreateCylinder`](#ISheets.CreateCylinder)   | CreateCylinder method.   |
+| Name | Summary |
 |-----------------------------------------------|--------------------------|
+| [`CreateCylinder`](#ISheets.CreateCylinder)   | CreateCylinder method.   |
 | [`CreatePolygon`](#ISheets.CreatePolygon)     | CreatePolygon method.    |
 
 <a id="import-detail"></a>

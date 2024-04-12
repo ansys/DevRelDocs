@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`True_`](#DeformationScaling.True_)   |    |
+| Name | Summary |
 |----------------------------------------|----|
+| [`True_`](#DeformationScaling.True_)   |    |
 | [`Auto`](#DeformationScaling.Auto)     |    |
 
 <a id="import-detail"></a>

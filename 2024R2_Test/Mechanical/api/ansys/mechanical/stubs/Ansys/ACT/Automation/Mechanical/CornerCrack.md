@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddCommandSnippet`](#CornerCrack.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
+| Name | Summary |
 |-------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddCommandSnippet`](#CornerCrack.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
 | [`Delete`](#CornerCrack.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                             | Gets the list of children, filtered by type.                                      |
@@ -39,8 +40,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`XScaleFactor`](#CornerCrack.XScaleFactor)                                                                         | Gets or sets the XScaleFactor.                                |
 | [`YScaleFactor`](#CornerCrack.YScaleFactor)                                                                         | Gets or sets the YScaleFactor.                                |
 | [`ZScaleFactor`](#CornerCrack.ZScaleFactor)                                                                         | Gets or sets the ZScaleFactor.                                |

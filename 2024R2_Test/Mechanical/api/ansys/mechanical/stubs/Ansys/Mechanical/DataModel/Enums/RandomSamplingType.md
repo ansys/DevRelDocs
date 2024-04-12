@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`All`](#RandomSamplingType.All)           |    |
+| Name | Summary |
 |--------------------------------------------|----|
+| [`All`](#RandomSamplingType.All)           |    |
 | [`Multiple`](#RandomSamplingType.Multiple) |    |
 | [`Single`](#RandomSamplingType.Single)     |    |
 

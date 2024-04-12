@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Manual`](#ToleranceType.Manual)                       |    |
+| Name | Summary |
 |---------------------------------------------------------|----|
+| [`Manual`](#ToleranceType.Manual)                       |    |
 | [`ProgramControlled`](#ToleranceType.ProgramControlled) |    |
 
 <a id="import-detail"></a>

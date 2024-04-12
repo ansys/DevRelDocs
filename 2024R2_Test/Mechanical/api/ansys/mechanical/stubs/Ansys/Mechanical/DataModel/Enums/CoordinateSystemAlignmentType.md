@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Associative`](#CoordinateSystemAlignmentType.Associative)   |    |
+| Name | Summary |
 |---------------------------------------------------------------|----|
+| [`Associative`](#CoordinateSystemAlignmentType.Associative)   |    |
 | [`Component`](#CoordinateSystemAlignmentType.Component)       |    |
 | [`Fixed`](#CoordinateSystemAlignmentType.Fixed)               |    |
 | [`Free`](#CoordinateSystemAlignmentType.Free)                 |    |

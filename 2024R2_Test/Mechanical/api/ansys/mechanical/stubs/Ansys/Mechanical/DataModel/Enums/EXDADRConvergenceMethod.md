@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ProgramControlled`](#EXDADRConvergenceMethod.ProgramControlled)             |    |
+| Name | Summary |
 |-------------------------------------------------------------------------------|----|
+| [`ProgramControlled`](#EXDADRConvergenceMethod.ProgramControlled)             |    |
 | [`CentralDifferenceMethod`](#EXDADRConvergenceMethod.CentralDifferenceMethod) |    |
 | [`RunningAverageMethod`](#EXDADRConvergenceMethod.RunningAverageMethod)       |    |
 

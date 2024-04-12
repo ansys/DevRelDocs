@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddRow`](#ObjectiveWorksheet.AddRow)                     | Adds a Row to the worksheet.                            |
+| Name | Summary |
 |------------------------------------------------------------|---------------------------------------------------------|
+| [`AddRow`](#ObjectiveWorksheet.AddRow)                     | Adds a Row to the worksheet.                            |
 | [`DeleteRow`](#ObjectiveWorksheet.DeleteRow)               | Deletes a row from the worksheet at index.              |
 | [`GetEnabled`](#ObjectiveWorksheet.GetEnabled)             | Gets the worksheet Enabled property at row index        |
 | [`SetEnabled`](#ObjectiveWorksheet.SetEnabled)             | Sets the worksheet Enabled property at row index.       |
@@ -50,8 +51,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`RowCount`](#ObjectiveWorksheet.RowCount)   | Deletes a row from the worksheet at index.   |
+| Name | Summary |
 |----------------------------------------------|----------------------------------------------|
+| [`RowCount`](#ObjectiveWorksheet.RowCount)   | Deletes a row from the worksheet at index.   |
 
 <a id="import-detail"></a>
 

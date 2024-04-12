@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetActivateAtLoadStep`](#JointLoad.GetActivateAtLoadStep)     | GetActivateAtLoadStep method.                                                     |
+| Name | Summary |
 |-----------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetActivateAtLoadStep`](#JointLoad.GetActivateAtLoadStep)     | GetActivateAtLoadStep method.                                                     |
 | [`SetActivateAtLoadStep`](#JointLoad.SetActivateAtLoadStep)     | SetActivateAtLoadStep method.                                                     |
 | [`AddCommandSnippet`](#JointLoad.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
 | [`RenameBasedOnDefinition`](#JointLoad.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
@@ -42,8 +43,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`NumberOfSegments`](#JointLoad.NumberOfSegments)                                                                      | Gets or sets the NumberOfSegments.                            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`NumberOfSegments`](#JointLoad.NumberOfSegments)                                                                      | Gets or sets the NumberOfSegments.                            |
 | [`FittingMethod`](#JointLoad.FittingMethod)                                                                            | Gets or sets the FittingMethod.                               |
 | [`CutoffFrequency`](#JointLoad.CutoffFrequency)                                                                        | Gets or sets the CutoffFrequency.                             |
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`No`](#OnDemandExpansionType.No)                               |    |
+| Name | Summary |
 |-----------------------------------------------------------------|----|
+| [`No`](#OnDemandExpansionType.No)                               |    |
 | [`ProgramControlled`](#OnDemandExpansionType.ProgramControlled) |    |
 | [`Yes`](#OnDemandExpansionType.Yes)                             |    |
 

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetLowerBound`](#LegendSettings.GetLowerBound)                 | Gets lower bound value of the specified band.                           |
+| Name | Summary |
 |------------------------------------------------------------------|-------------------------------------------------------------------------|
+| [`GetLowerBound`](#LegendSettings.GetLowerBound)                 | Gets lower bound value of the specified band.                           |
 | [`SetLowerBound`](#LegendSettings.SetLowerBound)                 | Sets lower bound value of the specified band.                           |
 | [`GetUpperBound`](#LegendSettings.GetUpperBound)                 | Gets upper bound value of the specified band.                           |
 | [`SetUpperBound`](#LegendSettings.SetUpperBound)                 | Sets upper bound value of the specified band.                           |
@@ -34,8 +35,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`NumberOfBands`](#LegendSettings.NumberOfBands)                 | Number of bands on the legend (min:3, max:30). Bands are added/removed from the top of the legend.   |
+| Name | Summary |
 |------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
+| [`NumberOfBands`](#LegendSettings.NumberOfBands)                 | Number of bands on the legend (min:3, max:30). Bands are added/removed from the top of the legend.   |
 | [`AllScientificNotation`](#LegendSettings.AllScientificNotation) | Whether the result values are displayed in scientific notation.                                      |
 | [`Digits`](#LegendSettings.Digits)                               | Number of significant digits (min:2 , max:8).                                                        |
 | [`ColorScheme`](#LegendSettings.ColorScheme)                     | Color Scheme for the legend.                                                                         |

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`NoUnitSystem`](#UserUnitSystemType.NoUnitSystem)     |    |
+| Name | Summary |
 |--------------------------------------------------------|----|
+| [`NoUnitSystem`](#UserUnitSystemType.NoUnitSystem)     |    |
 | [`StandardBFT`](#UserUnitSystemType.StandardBFT)       |    |
 | [`StandardBIN`](#UserUnitSystemType.StandardBIN)       |    |
 | [`StandardCGS`](#UserUnitSystemType.StandardCGS)       |    |

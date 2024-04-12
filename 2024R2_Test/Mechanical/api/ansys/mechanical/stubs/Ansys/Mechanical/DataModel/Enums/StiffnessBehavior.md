@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Beam`](../../../ACT/Automation/Mechanical/Connections/Beam.md#Beam)   |    |
+| Name | Summary |
 |-------------------------------------------------------------------------|----|
+| [`Beam`](../../../ACT/Automation/Mechanical/Connections/Beam.md#Beam)   |    |
 | [`Flexible`](#StiffnessBehavior.Flexible)                               |    |
 | [`Explicit`](#StiffnessBehavior.Explicit)                               |    |
 | [`Gasket`](#StiffnessBehavior.Gasket)                                   |    |

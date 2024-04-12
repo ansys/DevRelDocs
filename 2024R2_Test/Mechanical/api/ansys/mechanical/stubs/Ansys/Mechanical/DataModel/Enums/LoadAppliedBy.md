@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Direct`](#LoadAppliedBy.Direct)               |    |
+| Name | Summary |
 |-------------------------------------------------|----|
+| [`Direct`](#LoadAppliedBy.Direct)               |    |
 | [`SurfaceEffect`](#LoadAppliedBy.SurfaceEffect) |    |
 
 <a id="import-detail"></a>

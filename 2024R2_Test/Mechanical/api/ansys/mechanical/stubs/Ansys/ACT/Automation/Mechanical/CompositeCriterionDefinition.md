@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Add`](#CompositeCriterionDefinition.Add)           | Adds a CompositeCriterionTerm at the end in the definition.                          |
+| Name | Summary |
 |------------------------------------------------------|--------------------------------------------------------------------------------------|
+| [`Add`](#CompositeCriterionDefinition.Add)           | Adds a CompositeCriterionTerm at the end in the definition.                          |
 | [`Clear`](#CompositeCriterionDefinition.Clear)       | Clears all the CompositeCriterionTerms in the definition.                            |
 | [`IndexOf`](#CompositeCriterionDefinition.IndexOf)   | Gives the index where the specified CompositeCriterionTerm exists in the definition. |
 | [`Insert`](#CompositeCriterionDefinition.Insert)     | Inserts a CompositeCriterionTerm at a specified index in the definition.             |
@@ -27,8 +28,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Item`](#CompositeCriterionDefinition.Item)   | Item property.                                                 |
+| Name | Summary |
 |------------------------------------------------|----------------------------------------------------------------|
+| [`Item`](#CompositeCriterionDefinition.Item)   | Item property.                                                 |
 | [`Count`](#CompositeCriterionDefinition.Count) | Gives the number of CompositeCriterionTerms in the definition. |
 
 <a id="import-detail"></a>

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#MeshWorkflowInput.Delete)                                   | Run the Delete action.                                                            |
+| Name | Summary |
 |-------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#MeshWorkflowInput.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                   | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                   | Gets the list of children, filtered by type.                                      |
 | [`AddFigure`](#MeshWorkflowInput.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -37,8 +38,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Location`](#MeshWorkflowInput.Location)                                                                           | Gets or sets the Location.                                    |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Location`](#MeshWorkflowInput.Location)                                                                           | Gets or sets the Location.                                    |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#MeshWorkflowInput.Children)                                                                           | Gets the list of children.                                    |

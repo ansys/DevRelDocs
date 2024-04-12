@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`LegendOrientation`](#GlobalLegendSettings.LegendOrientation)       | Whether the orientation of the legend.             |
+| Name | Summary |
 |----------------------------------------------------------------------|----------------------------------------------------|
+| [`LegendOrientation`](#GlobalLegendSettings.LegendOrientation)       | Whether the orientation of the legend.             |
 | [`ShowDateAndTime`](#GlobalLegendSettings.ShowDateAndTime)           | Whether the  date and time of the legend is shown. |
 | [`ShowMinMax`](#GlobalLegendSettings.ShowMinMax)                     | Whether the Min and Max value are shown.           |
 | [`ShowDeformingScaling`](#GlobalLegendSettings.ShowDeformingScaling) | Whether the Deformation Scaling is shown.          |

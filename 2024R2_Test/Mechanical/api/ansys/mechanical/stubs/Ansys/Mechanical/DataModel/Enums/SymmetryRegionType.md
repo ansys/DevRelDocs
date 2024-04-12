@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Symmetric`](#SymmetryRegionType.Symmetric)           |    |
+| Name | Summary |
 |--------------------------------------------------------|----|
+| [`Symmetric`](#SymmetryRegionType.Symmetric)           |    |
 | [`AntiSymmetric`](#SymmetryRegionType.AntiSymmetric)   |    |
 | [`LinearPeriodic`](#SymmetryRegionType.LinearPeriodic) |    |
 

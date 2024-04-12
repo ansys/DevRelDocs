@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Name`](#NASTRANCommand.Name)   | Gets the command name.   |
+| Name | Summary |
 |----------------------------------|--------------------------|
+| [`Name`](#NASTRANCommand.Name)   | Gets the command name.   |
 | [`Index`](#NASTRANCommand.Index) | Gets the command index.  |
 
 <a id="import-detail"></a>

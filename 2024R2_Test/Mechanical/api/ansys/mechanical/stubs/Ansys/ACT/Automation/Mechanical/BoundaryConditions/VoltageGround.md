@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`PromoteToNamedSelection`](#VoltageGround.PromoteToNamedSelection)   | Run the PromoteToNamedSelection action.                                           |
+| Name | Summary |
 |-----------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`PromoteToNamedSelection`](#VoltageGround.PromoteToNamedSelection)   | Run the PromoteToNamedSelection action.                                           |
 | [`Delete`](#VoltageGround.Delete)                                     | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                 | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                 | Gets the list of children, filtered by type.                                      |
@@ -39,8 +40,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Location`](#VoltageGround.Location)                                                                                  | Gets or sets the Location.                                    |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Location`](#VoltageGround.Location)                                                                                  | Gets or sets the Location.                                    |
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`VoltageCoupling`](#VoltageGround.VoltageCoupling)                                                                    | Gets or sets the VoltageCoupling.                             |
 | [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |

@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Single`](#MappingIsolineThicknessType.Single)   |    |
+| Name | Summary |
 |---------------------------------------------------|----|
+| [`Single`](#MappingIsolineThicknessType.Single)   |    |
 | [`Double`](#MappingIsolineThicknessType.Double)   |    |
 | [`Triple`](#MappingIsolineThicknessType.Triple)   |    |
 

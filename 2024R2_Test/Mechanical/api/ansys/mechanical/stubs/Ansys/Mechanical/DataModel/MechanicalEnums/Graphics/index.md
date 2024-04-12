@@ -10,8 +10,9 @@
 
 ### Enums
 
-| [`CappingType`](CappingType.md#CappingType)                      | Specifies the CappingType.        |
+| Name | Summary |
 |------------------------------------------------------------------|-----------------------------------|
+| [`CappingType`](CappingType.md#CappingType)                      | Specifies the CappingType.        |
 | [`ContourView`](ContourView.md#ContourView)                      | Specifies the ContourView.        |
 | [`DeformationScaling`](DeformationScaling.md#DeformationScaling) | Specifies the DeformationScaling. |
 | [`ExtraModelDisplay`](ExtraModelDisplay.md#ExtraModelDisplay)    | Specifies the ExtraModelDisplay.  |
@@ -42,8 +43,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Iso`](#Graphics.Iso)       |    |
+| Name | Summary |
 |------------------------------|----|
+| [`Iso`](#Graphics.Iso)       |    |
 | [`Top`](#Graphics.Top)       |    |
 | [`Bottom`](#Graphics.Bottom) |    |
 
@@ -83,8 +85,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`SmoothContours`](#Graphics.SmoothContours)   |    |
+| Name | Summary |
 |------------------------------------------------|----|
+| [`SmoothContours`](#Graphics.SmoothContours)   |    |
 | [`ContourBands`](#Graphics.ContourBands)       |    |
 | [`Isolines`](#Graphics.Isolines)               |    |
 | [`SolidFill`](#Graphics.SolidFill)             |    |
@@ -129,8 +132,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`True_`](#Graphics.True_)   |    |
+| Name | Summary |
 |------------------------------|----|
+| [`True_`](#Graphics.True_)   |    |
 | [`Auto`](#Graphics.Auto)     |    |
 
 <a id="id3"></a>
@@ -165,8 +169,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`NoWireframe`](#Graphics.NoWireframe)                 |    |
+| Name | Summary |
 |--------------------------------------------------------|----|
+| [`NoWireframe`](#Graphics.NoWireframe)                 |    |
 | [`UndeformedWireframe`](#Graphics.UndeformedWireframe) |    |
 | [`UndeformedModel`](#Graphics.UndeformedModel)         |    |
 | [`ShowElements`](#Graphics.ShowElements)               |    |
@@ -211,8 +216,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Exterior`](#Graphics.Exterior)                 |    |
+| Name | Summary |
 |--------------------------------------------------|----|
+| [`Exterior`](#Graphics.Exterior)                 |    |
 | [`Isosurface`](#Graphics.Isosurface)             |    |
 | [`CappedIsosurface`](#Graphics.CappedIsosurface) |    |
 | [`SlicePlane`](#Graphics.SlicePlane)             |    |
@@ -257,8 +263,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ScopedBodies`](#Graphics.ScopedBodies)   |    |
+| Name | Summary |
 |--------------------------------------------|----|
+| [`ScopedBodies`](#Graphics.ScopedBodies)   |    |
 | [`AllBodies`](#Graphics.AllBodies)         |    |
 | [`ResultOnly`](#Graphics.ResultOnly)       |    |
 

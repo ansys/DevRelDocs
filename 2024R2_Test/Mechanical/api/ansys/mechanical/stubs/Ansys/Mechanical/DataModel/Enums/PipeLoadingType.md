@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`External`](#PipeLoadingType.External)   |    |
+| Name | Summary |
 |-------------------------------------------|----|
+| [`External`](#PipeLoadingType.External)   |    |
 | [`Internal`](#PipeLoadingType.Internal)   |    |
 
 <a id="import-detail"></a>

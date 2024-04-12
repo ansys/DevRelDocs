@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Explicit`](#EXDLoadStepType.Explicit)       |    |
+| Name | Summary |
 |-----------------------------------------------|----|
+| [`Explicit`](#EXDLoadStepType.Explicit)       |    |
 | [`DampedADR`](#EXDLoadStepType.DampedADR)     |    |
 | [`UndampedADR`](#EXDLoadStepType.UndampedADR) |    |
 

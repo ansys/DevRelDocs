@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`eNotGraded`](#EXDEulerGradedDefinition.eNotGraded)   |    |
+| Name | Summary |
 |--------------------------------------------------------|----|
+| [`eNotGraded`](#EXDEulerGradedDefinition.eNotGraded)   |    |
 | [`eGraded`](#EXDEulerGradedDefinition.eGraded)         |    |
 
 <a id="import-detail"></a>

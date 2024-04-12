@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`F4KeytoMoveAnywhere`](#NodeMoveInformationType.F4KeytoMoveAnywhere)   |    |
+| Name | Summary |
 |-------------------------------------------------------------------------|----|
+| [`F4KeytoMoveAnywhere`](#NodeMoveInformationType.F4KeytoMoveAnywhere)   |    |
 
 <a id="import-detail"></a>
 

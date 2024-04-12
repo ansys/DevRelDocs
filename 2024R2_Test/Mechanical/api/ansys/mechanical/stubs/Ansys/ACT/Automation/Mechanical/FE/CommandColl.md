@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Count`](#CommandColl.Count)   | Gets the count of commands.   |
+| Name | Summary |
 |---------------------------------|-------------------------------|
+| [`Count`](#CommandColl.Count)   | Gets the count of commands.   |
 | [`Item`](#CommandColl.Item)     | Item property.                |
 
 <a id="import-detail"></a>

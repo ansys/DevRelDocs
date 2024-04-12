@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Bolt`](#ContactCorrection.Bolt)                                                |    |
+| Name | Summary |
 |----------------------------------------------------------------------------------|----|
+| [`Bolt`](#ContactCorrection.Bolt)                                                |    |
 | [`No`](#ContactCorrection.No)                                                    |    |
 | [`Smoothing`](../../../ACT/Automation/Mechanical/Results/Smoothing.md#Smoothing) |    |
 

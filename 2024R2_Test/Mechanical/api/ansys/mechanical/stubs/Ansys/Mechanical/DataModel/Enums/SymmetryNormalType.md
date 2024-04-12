@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`XAxis`](#SymmetryNormalType.XAxis)   |    |
+| Name | Summary |
 |----------------------------------------|----|
+| [`XAxis`](#SymmetryNormalType.XAxis)   |    |
 | [`YAxis`](#SymmetryNormalType.YAxis)   |    |
 | [`ZAxis`](#SymmetryNormalType.ZAxis)   |    |
 

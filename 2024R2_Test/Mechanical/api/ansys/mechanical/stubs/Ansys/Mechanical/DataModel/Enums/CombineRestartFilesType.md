@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`No`](#CombineRestartFilesType.No)                               |    |
+| Name | Summary |
 |-------------------------------------------------------------------|----|
+| [`No`](#CombineRestartFilesType.No)                               |    |
 | [`ProgramControlled`](#CombineRestartFilesType.ProgramControlled) |    |
 | [`Yes`](#CombineRestartFilesType.Yes)                             |    |
 

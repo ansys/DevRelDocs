@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`AllFrequencies`](#HarmonicMSUPStorage.AllFrequencies)           |    |
+| Name | Summary |
 |-------------------------------------------------------------------|----|
+| [`AllFrequencies`](#HarmonicMSUPStorage.AllFrequencies)           |    |
 | [`SelectedFrequencies`](#HarmonicMSUPStorage.SelectedFrequencies) |    |
 
 <a id="import-detail"></a>

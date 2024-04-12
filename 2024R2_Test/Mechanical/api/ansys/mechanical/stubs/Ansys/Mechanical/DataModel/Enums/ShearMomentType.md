@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`DirectionalSM1`](#ShearMomentType.DirectionalSM1)   |    |
+| Name | Summary |
 |-------------------------------------------------------|----|
+| [`DirectionalSM1`](#ShearMomentType.DirectionalSM1)   |    |
 | [`DirectionalSM2`](#ShearMomentType.DirectionalSM2)   |    |
 | [`TotalSM`](#ShearMomentType.TotalSM)                 |    |
 

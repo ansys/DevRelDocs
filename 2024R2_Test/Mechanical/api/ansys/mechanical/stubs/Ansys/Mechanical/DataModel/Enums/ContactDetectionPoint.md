@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`NodalNormalFromContact`](#ContactDetectionPoint.NodalNormalFromContact)                     |    |
+| Name | Summary |
 |-----------------------------------------------------------------------------------------------|----|
+| [`NodalNormalFromContact`](#ContactDetectionPoint.NodalNormalFromContact)                     |    |
 | [`NodalNormalToTarget`](#ContactDetectionPoint.NodalNormalToTarget)                           |    |
 | [`NodalProjectedNormalFromContact`](#ContactDetectionPoint.NodalProjectedNormalFromContact)   |    |
 | [`OnGaussPoint`](#ContactDetectionPoint.OnGaussPoint)                                         |    |

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddContactRegion`](#ContactMatchGroup.AddContactRegion)                                     | Creates a new child ContactRegion.                                                |
+| Name | Summary |
 |-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddContactRegion`](#ContactMatchGroup.AddContactRegion)                                     | Creates a new child ContactRegion.                                                |
 | [`AddJoint`](#ContactMatchGroup.AddJoint)                                                     | Creates a new child Joint.                                                        |
 | [`SearchConnectionsForDuplicatePairs`](#ContactMatchGroup.SearchConnectionsForDuplicatePairs) | Run the SearchConnectionsForDuplicatePairs action.                                |
 | [`AddSpotWeld`](#ContactMatchGroup.AddSpotWeld)                                               | Creates a new child SpotWeld.                                                     |
@@ -49,8 +50,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`ConnectionType`](#ContactMatchGroup.ConnectionType)                                                               | Gets or sets the ConnectionType.                              |
 | [`ActiveConnections`](#ContactMatchGroup.ActiveConnections)                                                         | Gets the ActiveConnections.                                   |

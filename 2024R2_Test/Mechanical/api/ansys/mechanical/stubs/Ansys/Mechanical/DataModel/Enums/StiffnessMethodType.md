@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Augmented`](#StiffnessMethodType.Augmented)                 |    |
+| Name | Summary |
 |---------------------------------------------------------------|----|
+| [`Augmented`](#StiffnessMethodType.Augmented)                 |    |
 | [`Full`](#StiffnessMethodType.Full)                           |    |
 | [`ProgramControlled`](#StiffnessMethodType.ProgramControlled) |    |
 

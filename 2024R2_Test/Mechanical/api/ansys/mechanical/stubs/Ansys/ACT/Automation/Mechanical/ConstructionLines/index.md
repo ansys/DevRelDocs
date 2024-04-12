@@ -10,8 +10,9 @@
 
 ### Classes
 
-| [`ConstructionLine`](ConstructionLine.md#ConstructionLine)   |    |
+| Name | Summary |
 |--------------------------------------------------------------|----|
+| [`ConstructionLine`](ConstructionLine.md#ConstructionLine)   |    |
 
 <a id="description"></a>
 
@@ -35,8 +36,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`CreatePoints`](#ConstructionLines.CreatePoints)                       | CreatePoints method.                                                                    |
+| Name | Summary |
 |-------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
+| [`CreatePoints`](#ConstructionLines.CreatePoints)                       | CreatePoints method.                                                                    |
 | [`CreatePlanarPoints`](#ConstructionLines.CreatePlanarPoints)           | CreatePlanarPoints method.                                                              |
 | [`CreatePlane`](#ConstructionLines.CreatePlane)                         | Create a plane.                                                                         |
 | [`CreateStraightLines`](#id1)                                           | CreateStraightLines method.                                                             |
@@ -66,8 +68,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Edges`](#ConstructionLines.Edges)                                                                                    | Creates for the user an IEdge representation of each edge in this Construction Line.   |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| [`Edges`](#ConstructionLines.Edges)                                                                                    | Creates for the user an IEdge representation of each edge in this Construction Line.   |
 | [`Points`](#ConstructionLines.Points)                                                                                  | Returns all points in this Construction Line, both those that have been created        |
 | [`Planes`](#ConstructionLines.Planes)                                                                                  | Creates for the user an Plane representation of each plane in this Construction Line.  |
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.                                     |

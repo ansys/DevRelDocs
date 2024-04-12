@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`No`](#YesNoType.No)   |    |
+| Name | Summary |
 |-------------------------|----|
+| [`No`](#YesNoType.No)   |    |
 | [`Yes`](#YesNoType.Yes) |    |
 
 <a id="import-detail"></a>

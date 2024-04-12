@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`CyclicPhaseOfMaximum`](#SetDriverStyle.CyclicPhaseOfMaximum)   |    |
+| Name | Summary |
 |------------------------------------------------------------------|----|
+| [`CyclicPhaseOfMaximum`](#SetDriverStyle.CyclicPhaseOfMaximum)   |    |
 | [`MaximumOfCyclicPhase`](#SetDriverStyle.MaximumOfCyclicPhase)   |    |
 | [`MaximumOverModes`](#SetDriverStyle.MaximumOverModes)           |    |
 | [`MaximumOverPhase`](#SetDriverStyle.MaximumOverPhase)           |    |

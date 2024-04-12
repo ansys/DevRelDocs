@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`AssemblyColor`](#PrototypeDisplayStyleType.AssemblyColor)                       |    |
+| Name | Summary |
 |-----------------------------------------------------------------------------------|----|
+| [`AssemblyColor`](#PrototypeDisplayStyleType.AssemblyColor)                       |    |
 | [`BodyColor`](#PrototypeDisplayStyleType.BodyColor)                               |    |
 | [`Material`](../../../ACT/Automation/Mechanical/Material.md#Material)             |    |
 | [`NonLinearMaterialEffects`](#PrototypeDisplayStyleType.NonLinearMaterialEffects) |    |

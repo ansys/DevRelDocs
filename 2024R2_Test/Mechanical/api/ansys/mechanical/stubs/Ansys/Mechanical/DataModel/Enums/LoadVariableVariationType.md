@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Acceleration`](../../../ACT/Automation/Mechanical/BoundaryConditions/Acceleration.md#Acceleration)                               |    |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------------------|----|
+| [`Acceleration`](../../../ACT/Automation/Mechanical/BoundaryConditions/Acceleration.md#Acceleration)                               |    |
 | [`Reactance`](#LoadVariableVariationType.Reactance)                                                                                |    |
 | [`Resistance`](#LoadVariableVariationType.Resistance)                                                                              |    |
 | [`AxisComponentX`](#LoadVariableVariationType.AxisComponentX)                                                                      |    |

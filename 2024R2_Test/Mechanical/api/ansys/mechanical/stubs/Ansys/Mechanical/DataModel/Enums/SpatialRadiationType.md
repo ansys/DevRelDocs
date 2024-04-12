@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Full`](#SpatialRadiationType.Full)       |    |
+| Name | Summary |
 |--------------------------------------------|----|
+| [`Full`](#SpatialRadiationType.Full)       |    |
 | [`Partial`](#SpatialRadiationType.Partial) |    |
 
 <a id="import-detail"></a>

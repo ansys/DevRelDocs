@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`LimitDensity`](#EXDSPHNodeDensityCutoffOption.LimitDensity)   |    |
+| Name | Summary |
 |-----------------------------------------------------------------|----|
+| [`LimitDensity`](#EXDSPHNodeDensityCutoffOption.LimitDensity)   |    |
 | [`DeleteNode`](#EXDSPHNodeDensityCutoffOption.DeleteNode)       |    |
 
 <a id="import-detail"></a>

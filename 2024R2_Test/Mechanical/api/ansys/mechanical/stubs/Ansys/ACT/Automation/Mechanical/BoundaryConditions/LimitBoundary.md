@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`PromoteToNamedSelection`](#LimitBoundary.PromoteToNamedSelection)   | Run the PromoteToNamedSelection action.                                           |
+| Name | Summary |
 |-----------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`PromoteToNamedSelection`](#LimitBoundary.PromoteToNamedSelection)   | Run the PromoteToNamedSelection action.                                           |
 | [`Delete`](#LimitBoundary.Delete)                                     | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                 | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                 | Gets the list of children, filtered by type.                                      |
@@ -39,8 +40,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`LimitBCMax`](#LimitBoundary.LimitBCMax)                                                                              | Gets or sets the LimitBCMax.                                  |
 | [`LimitBCMaxX`](#LimitBoundary.LimitBCMaxX)                                                                            | Gets or sets the LimitBCMaxX.                                 |
 | [`LimitBCMaxY`](#LimitBoundary.LimitBCMaxY)                                                                            | Gets or sets the LimitBCMaxY.                                 |

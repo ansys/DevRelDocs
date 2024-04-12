@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Sigma1`](#ScaleFactorType.Sigma1)           |    |
+| Name | Summary |
 |-----------------------------------------------|----|
+| [`Sigma1`](#ScaleFactorType.Sigma1)           |    |
 | [`Sigma2`](#ScaleFactorType.Sigma2)           |    |
 | [`Sigma3`](#ScaleFactorType.Sigma3)           |    |
 | [`UserDefined`](#ScaleFactorType.UserDefined) |    |

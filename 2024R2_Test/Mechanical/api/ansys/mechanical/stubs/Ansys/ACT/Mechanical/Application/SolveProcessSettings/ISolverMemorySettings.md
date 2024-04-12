@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Active`](#ISolverMemorySettings.Active)       | Gets or sets whether or not manual memory settings are active in the current configuration.   |
+| Name | Summary |
 |-------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| [`Active`](#ISolverMemorySettings.Active)       | Gets or sets whether or not manual memory settings are active in the current configuration.   |
 | [`Workspace`](#ISolverMemorySettings.Workspace) | Gets or sets the workspace memory amount (megabytes).                                         |
 | [`Database`](#ISolverMemorySettings.Database)   | Gets or sets the database memory amount (MB).                                                 |
 

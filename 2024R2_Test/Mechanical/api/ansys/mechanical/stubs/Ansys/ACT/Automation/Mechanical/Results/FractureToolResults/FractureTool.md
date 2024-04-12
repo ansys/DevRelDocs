@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddSIFSK1`](#FractureTool.AddSIFSK1)                                     | Creates a new FractureSIFSK1                                                      |
+| Name | Summary |
 |----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddSIFSK1`](#FractureTool.AddSIFSK1)                                     | Creates a new FractureSIFSK1                                                      |
 | [`AddSIFSK2`](#FractureTool.AddSIFSK2)                                     | Creates a new FractureSIFSK2                                                      |
 | [`AddSIFSK3`](#FractureTool.AddSIFSK3)                                     | Creates a new FractureSIFSK3                                                      |
 | [`AddJINT`](#FractureTool.AddJINT)                                         | Creates a new FractureJINT                                                        |
@@ -60,8 +61,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`MultipleCracksSelection`](#FractureTool.MultipleCracksSelection)                                                        | Get/Set multiple cracks to Fracture tool                      |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`MultipleCracksSelection`](#FractureTool.MultipleCracksSelection)                                                        | Get/Set multiple cracks to Fracture tool                      |
 | [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.            |
 | [`CrackFrontNumber`](#FractureTool.CrackFrontNumber)                                                                      | Gets or sets the CrackFrontNumber.                            |
 | [`CrackSelectionMode`](#FractureTool.CrackSelectionMode)                                                                  | Gets or sets the CrackSelectionMode.                          |

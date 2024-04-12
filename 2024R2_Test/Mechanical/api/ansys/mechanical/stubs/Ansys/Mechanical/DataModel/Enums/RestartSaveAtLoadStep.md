@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`All`](#RestartSaveAtLoadStep.All)         |    |
+| Name | Summary |
 |---------------------------------------------|----|
+| [`All`](#RestartSaveAtLoadStep.All)         |    |
 | [`Last`](#RestartSaveAtLoadStep.Last)       |    |
 | [`None_`](#RestartSaveAtLoadStep.None_)     |    |
 | [`Specify`](#RestartSaveAtLoadStep.Specify) |    |

@@ -10,20 +10,23 @@
 
 ### Subpackages
 
-| [`Edges`](Edges/index.md#module-ansys.mechanical.stubs.Ansys.Mechanical.DataModel.ConstructionLines.Edges)   | Edges subpackage.   |
+| Name | Summary |
 |--------------------------------------------------------------------------------------------------------------|---------------------|
+| [`Edges`](Edges/index.md#module-ansys.mechanical.stubs.Ansys.Mechanical.DataModel.ConstructionLines.Edges)   | Edges subpackage.   |
 
 ### Classes
 
-| [`ConstructionLineHelper`](ConstructionLineHelper.md#ConstructionLineHelper)   | Helper to perform queries and modifications against a ConstructionLine instance.   |
+| Name | Summary |
 |--------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
+| [`ConstructionLineHelper`](ConstructionLineHelper.md#ConstructionLineHelper)   | Helper to perform queries and modifications against a ConstructionLine instance.   |
 | [`Plane`](Plane.md#Plane)                                                      | A 2D sketching planes in a ConstructionLine instance.                              |
 | [`Point`](../../Graphics/Point.md#Point)                                       | A point in a ConstructionLine instance, may have an associated edge vertex.        |
 
 ### Enums
 
-| [`PlaneType`](PlaneType.md#PlaneType)   | Enumeration for the possible edge vertex types that can be represented.   |
+| Name | Summary |
 |-----------------------------------------|---------------------------------------------------------------------------|
+| [`PlaneType`](PlaneType.md#PlaneType)   | Enumeration for the possible edge vertex types that can be represented.   |
 | [`PointType`](PointType.md#PointType)   | Enumeration for the possible edge vertex types that can be represented.   |
 
 <a id="description"></a>
@@ -50,8 +53,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Constructors
 
-| [`GetEdgeVerticesById`](#ConstructionLines.GetEdgeVerticesById)                             | GetEdgeVerticesById method.                                                                |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| [`GetEdgeVerticesById`](#ConstructionLines.GetEdgeVerticesById)                             | GetEdgeVerticesById method.                                                                |
 | [`GetEdgesById`](#ConstructionLines.GetEdgesById)                                           | GetEdgesById method.                                                                       |
 | [`GetPlanesById`](#ConstructionLines.GetPlanesById)                                         | GetPlanesById method.                                                                      |
 | [`GetEdgesUsingPoint`](#ConstructionLines.GetEdgesUsingPoint)                               | Get a list of IEdge that use the given Point.                                              |
@@ -148,13 +152,15 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Equivalent`](#id9)   | Checks to see if another plane is equivalent to this one.   |
+| Name | Summary |
 |------------------------|-------------------------------------------------------------|
+| [`Equivalent`](#id9)   | Checks to see if another plane is equivalent to this one.   |
 
 ### Properties
 
-| [`Type`](#id0)                                                        | Type property.                                                         |
+| Name | Summary |
 |-----------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`Type`](#id0)                                                        | Type property.                                                         |
 | [`Definition`](#id5)                                                  | Definition property.                                                   |
 | [`Origin`](#ConstructionLines.Origin)                                 | The global location of this plane’s origin.                            |
 | [`PrimaryAxisDirection`](#ConstructionLines.PrimaryAxisDirection)     | The orientation of the plane’s primary (X) axis orientation.           |
@@ -263,13 +269,15 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Equivalent`](#id9)   | Checks to see if another point is equivalent to this one.   |
+| Name | Summary |
 |------------------------|-------------------------------------------------------------|
+| [`Equivalent`](#id9)   | Checks to see if another point is equivalent to this one.   |
 
 ### Properties
 
-| [`Type`](#id0)                            | Type property.                                                         |
+| Name | Summary |
 |-------------------------------------------|------------------------------------------------------------------------|
+| [`Type`](#id0)                            | Type property.                                                         |
 | [`Definition`](#id5)                      | Definition property.                                                   |
 | [`Location`](#ConstructionLines.Location) | Get the global location of this point.                                 |
 | [`ObjectId`](#id6)                        | Get the ID of the represented entity.                                  |

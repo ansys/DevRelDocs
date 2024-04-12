@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`No`](#UseExistingModesymFile.No)                               |    |
+| Name | Summary |
 |------------------------------------------------------------------|----|
+| [`No`](#UseExistingModesymFile.No)                               |    |
 | [`ProgramControlled`](#UseExistingModesymFile.ProgramControlled) |    |
 | [`Yes`](#UseExistingModesymFile.Yes)                             |    |
 

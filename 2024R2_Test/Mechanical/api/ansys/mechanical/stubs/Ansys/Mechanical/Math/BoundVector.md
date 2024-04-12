@@ -19,8 +19,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Origin`](#BoundVector.Origin)   | The location at the start of the BoundVector.   |
+| Name | Summary |
 |-----------------------------------|-------------------------------------------------|
+| [`Origin`](#BoundVector.Origin)   | The location at the start of the BoundVector.   |
 | [`Vector`](#BoundVector.Vector)   | The direction of the BoundVector.               |
 
 <a id="import-detail"></a>

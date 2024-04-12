@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`MappingTransferUnknown`](#MappingVariableType.MappingTransferUnknown)                                 |    |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------|----|
+| [`MappingTransferUnknown`](#MappingVariableType.MappingTransferUnknown)                                 |    |
 | [`MappingTransferTemperature`](#MappingVariableType.MappingTransferTemperature)                         |    |
 | [`MappingTransferConvectionCoefficient`](#MappingVariableType.MappingTransferConvectionCoefficient)     |    |
 | [`MappingTransferHeatGeneration`](#MappingVariableType.MappingTransferHeatGeneration)                   |    |

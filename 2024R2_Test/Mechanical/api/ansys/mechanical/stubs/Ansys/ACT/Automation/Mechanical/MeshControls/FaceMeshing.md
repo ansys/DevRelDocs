@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GenerateMesh`](#FaceMeshing.GenerateMesh)                       | Generate the Mesh.                                                                |
+| Name | Summary |
 |-------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GenerateMesh`](#FaceMeshing.GenerateMesh)                       | Generate the Mesh.                                                                |
 | [`RenameBasedOnDefinition`](#FaceMeshing.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#FaceMeshing.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                             | Gets the list of children, filtered by type.                                      |
@@ -40,8 +41,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`ConstrainBoundary`](#FaceMeshing.ConstrainBoundary)                                                                  | Gets or sets the ConstrainBoundary.                           |
 | [`InternalNumberOfDivisions`](#FaceMeshing.InternalNumberOfDivisions)                                                  | Gets or sets the InternalNumberOfDivisions.                   |
 | [`Method`](#FaceMeshing.Method)                                                                                        | Gets or sets the Method.                                      |

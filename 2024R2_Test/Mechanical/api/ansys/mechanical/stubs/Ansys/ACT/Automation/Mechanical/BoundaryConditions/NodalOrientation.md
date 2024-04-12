@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#NodalOrientation.Delete)                                   | Run the Delete action.                                                            |
+| Name | Summary |
 |------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#NodalOrientation.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                  | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                  | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#NodalOrientation.AddComment)                           | Creates a new child Comment.                                                      |
@@ -37,8 +38,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Location`](#NodalOrientation.Location)                                                                               | Gets the Location.                                            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Location`](#NodalOrientation.Location)                                                                               | Gets the Location.                                            |
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`Suppressed`](#NodalOrientation.Suppressed)                                                                           | Gets or sets the Suppressed.                                  |
 | [`CoordinateSystem`](../../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |

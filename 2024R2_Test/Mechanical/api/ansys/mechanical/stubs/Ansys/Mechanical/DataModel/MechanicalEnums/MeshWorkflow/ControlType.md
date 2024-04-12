@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ZoneMaterialAssignment`](#ControlType.ZoneMaterialAssignment)                                   |    |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------|----|
+| [`ZoneMaterialAssignment`](#ControlType.ZoneMaterialAssignment)                                   |    |
 | [`Checkpoint`](#ControlType.Checkpoint)                                                           |    |
 | [`PartEnclosure`](#ControlType.PartEnclosure)                                                     |    |
 | [`IrregularShapeConvexEnclosure`](#ControlType.IrregularShapeConvexEnclosure)                     |    |

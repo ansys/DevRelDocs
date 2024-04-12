@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`CorrFuncNone`](#KrigingCorrFuncType.CorrFuncNone)                     |    |
+| Name | Summary |
 |-------------------------------------------------------------------------|----|
+| [`CorrFuncNone`](#KrigingCorrFuncType.CorrFuncNone)                     |    |
 | [`CorrFuncExp`](#KrigingCorrFuncType.CorrFuncExp)                       |    |
 | [`CorrFuncGauss`](#KrigingCorrFuncType.CorrFuncGauss)                   |    |
 | [`CorrFuncLin`](#KrigingCorrFuncType.CorrFuncLin)                       |    |

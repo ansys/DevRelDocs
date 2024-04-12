@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`InputFile`](#ConnectionCreationMethod.InputFile)   |    |
+| Name | Summary |
 |------------------------------------------------------|----|
+| [`InputFile`](#ConnectionCreationMethod.InputFile)   |    |
 | [`Manual`](#ConnectionCreationMethod.Manual)         |    |
 
 <a id="import-detail"></a>

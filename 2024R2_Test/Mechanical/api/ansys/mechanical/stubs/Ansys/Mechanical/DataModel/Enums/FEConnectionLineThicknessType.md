@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Single`](#FEConnectionLineThicknessType.Single)   |    |
+| Name | Summary |
 |-----------------------------------------------------|----|
+| [`Single`](#FEConnectionLineThicknessType.Single)   |    |
 | [`Double`](#FEConnectionLineThicknessType.Double)   |    |
 | [`Triple`](#FEConnectionLineThicknessType.Triple)   |    |
 

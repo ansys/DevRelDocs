@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`NoUnits`](#UnitCategoryType.NoUnits)                                                                                 |    |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|----|
+| [`NoUnits`](#UnitCategoryType.NoUnits)                                                                                 |    |
 | [`Undefined`](#UnitCategoryType.Undefined)                                                                             |    |
 | [`Acceleration`](../../../ACT/Automation/Mechanical/BoundaryConditions/Acceleration.md#Acceleration)                   |    |
 | [`Angle`](#UnitCategoryType.Angle)                                                                                     |    |

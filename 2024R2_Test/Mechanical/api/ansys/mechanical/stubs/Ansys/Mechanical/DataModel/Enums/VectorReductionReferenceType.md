@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Constant`](#VectorReductionReferenceType.Constant)   |    |
+| Name | Summary |
 |--------------------------------------------------------|----|
+| [`Constant`](#VectorReductionReferenceType.Constant)   |    |
 | [`None_`](#VectorReductionReferenceType.None_)         |    |
 
 <a id="import-detail"></a>

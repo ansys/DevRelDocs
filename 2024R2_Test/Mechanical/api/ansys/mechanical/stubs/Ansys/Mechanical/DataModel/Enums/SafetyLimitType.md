@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`CustomValue`](#SafetyLimitType.CustomValue)                 |    |
+| Name | Summary |
 |---------------------------------------------------------------|----|
+| [`CustomValue`](#SafetyLimitType.CustomValue)                 |    |
 | [`UltimatePerMaterial`](#SafetyLimitType.UltimatePerMaterial) |    |
 | [`YieldPerMaterial`](#SafetyLimitType.YieldPerMaterial)       |    |
 

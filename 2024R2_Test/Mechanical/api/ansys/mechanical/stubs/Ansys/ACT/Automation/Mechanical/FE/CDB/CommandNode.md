@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Id`](#CommandNode.Id)             | Gets the node number.     |
+| Name | Summary |
 |-------------------------------------|---------------------------|
+| [`Id`](#CommandNode.Id)             | Gets the node number.     |
 | [`Location`](#CommandNode.Location) | Gets the coordinates.     |
 | [`Rotation`](#CommandNode.Rotation) | Gets the rotation angles. |
 

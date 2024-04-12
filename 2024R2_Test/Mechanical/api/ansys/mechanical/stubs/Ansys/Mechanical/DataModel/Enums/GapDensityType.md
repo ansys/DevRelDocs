@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Coarse`](#GapDensityType.Coarse)   |    |
+| Name | Summary |
 |--------------------------------------|----|
+| [`Coarse`](#GapDensityType.Coarse)   |    |
 | [`Fine`](#GapDensityType.Fine)       |    |
 
 <a id="import-detail"></a>

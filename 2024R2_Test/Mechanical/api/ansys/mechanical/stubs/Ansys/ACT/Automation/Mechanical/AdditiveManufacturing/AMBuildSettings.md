@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`SaveBuildSettings`](#AMBuildSettings.SaveBuildSettings)             | Run the SaveBuildSettings action.                                                 |
+| Name | Summary |
 |-----------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`SaveBuildSettings`](#AMBuildSettings.SaveBuildSettings)             | Run the SaveBuildSettings action.                                                 |
 | [`LoadBuildSettings`](#AMBuildSettings.LoadBuildSettings)             | Run the LoadBuildSettings action.                                                 |
 | [`ResetToDefault`](#AMBuildSettings.ResetToDefault)                   | ResetToDefault - Restores default values of all properties.                       |
 | [`Delete`](#AMBuildSettings.Delete)                                   | Run the Delete action.                                                            |
@@ -41,8 +42,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`LayerHeightType`](#AMBuildSettings.LayerHeightType)                                                                  | LayerHeightType - Get/Sets the layer height type.                                              |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
+| [`LayerHeightType`](#AMBuildSettings.LayerHeightType)                                                                  | LayerHeightType - Get/Sets the layer height type.                                              |
 | [`ThermalStrainMaterialModel`](#AMBuildSettings.ThermalStrainMaterialModel)                                            | Gets or sets the MachineLearningModel using the deprecated ThermalStrainMaterialModel methods. |
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.                                             |
 | [`Absorptivity`](#AMBuildSettings.Absorptivity)                                                                        | Gets or sets the Absorptivity.                                                                 |

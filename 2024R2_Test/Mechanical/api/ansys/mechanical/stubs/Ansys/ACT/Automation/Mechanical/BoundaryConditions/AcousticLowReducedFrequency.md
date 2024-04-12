@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`PromoteToNamedSelection`](#AcousticLowReducedFrequency.PromoteToNamedSelection)   | Run the PromoteToNamedSelection action.                                           |
+| Name | Summary |
 |-------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`PromoteToNamedSelection`](#AcousticLowReducedFrequency.PromoteToNamedSelection)   | Run the PromoteToNamedSelection action.                                           |
 | [`Delete`](#AcousticLowReducedFrequency.Delete)                                     | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                               | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                               | Gets the list of children, filtered by type.                                      |
@@ -39,8 +40,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`HeightOfRectangle`](#AcousticLowReducedFrequency.HeightOfRectangle)                                                  | Gets or sets the HeightOfRectangle.                           |
 | [`RadiusOfCircle`](#AcousticLowReducedFrequency.RadiusOfCircle)                                                        | Gets or sets the RadiusOfCircle.                              |
 | [`ThicknessOfLayer`](#AcousticLowReducedFrequency.ThicknessOfLayer)                                                    | Gets or sets the ThicknessOfLayer.                            |

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`UpdateAllSolids`](#ConstructionGeometry.UpdateAllSolids)                 | Update all solid parts under the Construction Geometry folder.                    |
+| Name | Summary |
 |----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`UpdateAllSolids`](#ConstructionGeometry.UpdateAllSolids)                 | Update all solid parts under the Construction Geometry folder.                    |
 | [`UpdateSolids`](#ConstructionGeometry.UpdateSolids)                       | Update only the solids that are activated                                         |
 | [`AddConstructionLine`](#ConstructionGeometry.AddConstructionLine)         | Creates a new ConstructionLine                                                    |
 | [`AddConstructionPoint`](#ConstructionGeometry.AddConstructionPoint)       | Creates a new ConstructionPoint                                                   |
@@ -46,8 +47,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`ShowMesh`](#ConstructionGeometry.ShowMesh)                                                                        | Gets or sets the ShowMesh.                                    |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#ConstructionGeometry.Children)                                                                        | Gets the list of children.                                    |

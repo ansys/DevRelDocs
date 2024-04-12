@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Source`](#Message.Source)                 | The source object of the message.           |
+| Name | Summary |
 |---------------------------------------------|---------------------------------------------|
+| [`Source`](#Message.Source)                 | The source object of the message.           |
 | [`StringID`](#Message.StringID)             | The string ID of the message.               |
 | [`DisplayString`](#Message.DisplayString)   | The display string of the message.          |
 | [`Location`](#Message.Location)             | The location of the message.                |

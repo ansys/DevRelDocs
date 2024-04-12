@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`kCDGeometryBased`](#DSRBDContactDetection.kCDGeometryBased)         |    |
+| Name | Summary |
 |-----------------------------------------------------------------------|----|
+| [`kCDGeometryBased`](#DSRBDContactDetection.kCDGeometryBased)         |    |
 | [`kCDMeshBased`](#DSRBDContactDetection.kCDMeshBased)                 |    |
 | [`kCDProgramControlled`](#DSRBDContactDetection.kCDProgramControlled) |    |
 

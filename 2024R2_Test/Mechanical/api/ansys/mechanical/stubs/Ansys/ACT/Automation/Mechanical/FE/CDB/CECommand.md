@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Nce`](#CECommand.Nce)           | Gets the constraint equation number.    |
+| Name | Summary |
 |-----------------------------------|-----------------------------------------|
+| [`Nce`](#CECommand.Nce)           | Gets the constraint equation number.    |
 | [`Constant`](#CECommand.Constant) | Gets the constant term of the equation. |
 | [`Terms`](#CECommand.Terms)       | Gets the equation terms.                |
 | [`Name`](#CECommand.Name)         | Gets the command name.                  |

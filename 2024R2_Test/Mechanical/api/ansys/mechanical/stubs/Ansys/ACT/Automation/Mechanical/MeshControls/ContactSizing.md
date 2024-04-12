@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GenerateMesh`](#ContactSizing.GenerateMesh)                       | Generate the Mesh.                                                                |
+| Name | Summary |
 |---------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GenerateMesh`](#ContactSizing.GenerateMesh)                       | Generate the Mesh.                                                                |
 | [`RenameBasedOnDefinition`](#ContactSizing.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#ContactSizing.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                               | Gets the list of children, filtered by type.                                      |
@@ -40,8 +41,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`Relevance`](Relevance.md#Relevance)                                                                                  | Gets or sets the Relevance.                                   |
 | [`Type`](#ContactSizing.Type)                                                                                          | Gets or sets the Type.                                        |
 | [`ElementSize`](#ContactSizing.ElementSize)                                                                            | Gets or sets the ElementSize.                                 |

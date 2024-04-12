@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ExportedCondensedPart_CPA`](#CondensedPartFileFormat.ExportedCondensedPart_CPA)   |    |
+| Name | Summary |
 |-------------------------------------------------------------------------------------|----|
+| [`ExportedCondensedPart_CPA`](#CondensedPartFileFormat.ExportedCondensedPart_CPA)   |    |
 | [`SuperElement_MATRIX`](#CondensedPartFileFormat.SuperElement_MATRIX)               |    |
 | [`GenerationPassOutput_SUB`](#CondensedPartFileFormat.GenerationPassOutput_SUB)     |    |
 

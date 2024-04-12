@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#MappingValidation.Delete)                                   | Run the Delete action.                                                            |
+| Name | Summary |
 |-------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#MappingValidation.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                   | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                   | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#MappingValidation.AddComment)                           | Creates a new child Comment.                                                      |
@@ -38,8 +39,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Type`](#MappingValidation.Type)                                                                                   | Type property.                                                                             |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| [`Type`](#MappingValidation.Type)                                                                                   | Type property.                                                                             |
 | [`Display`](#MappingValidation.Display)                                                                             | Display property.                                                                          |
 | [`LegendDivisions`](#MappingValidation.LegendDivisions)                                                             | LegendDivisions property.                                                                  |
 | [`IsolineThickness`](#MappingValidation.IsolineThickness)                                                           | IsolineThickness property.                                                                 |

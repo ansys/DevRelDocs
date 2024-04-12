@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ByBody`](#EXDEulerTrackType.ByBody)         |    |
+| Name | Summary |
 |-----------------------------------------------|----|
+| [`ByBody`](#EXDEulerTrackType.ByBody)         |    |
 | [`ByMaterial`](#EXDEulerTrackType.ByMaterial) |    |
 
 <a id="import-detail"></a>

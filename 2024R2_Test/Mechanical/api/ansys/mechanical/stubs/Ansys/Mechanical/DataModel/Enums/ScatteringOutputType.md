@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Scattered`](#ScatteringOutputType.Scattered)   |    |
+| Name | Summary |
 |--------------------------------------------------|----|
+| [`Scattered`](#ScatteringOutputType.Scattered)   |    |
 | [`Total`](#ScatteringOutputType.Total)           |    |
 
 <a id="import-detail"></a>

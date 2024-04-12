@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`NewWorksheet`](#SolutionCombinationWorksheetType.NewWorksheet)   |    |
+| Name | Summary |
 |--------------------------------------------------------------------|----|
+| [`NewWorksheet`](#SolutionCombinationWorksheetType.NewWorksheet)   |    |
 | [`OldWorksheet`](#SolutionCombinationWorksheetType.OldWorksheet)   |    |
 
 <a id="import-detail"></a>

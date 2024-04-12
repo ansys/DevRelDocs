@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ExportAnimation`](#EffectiveStressTracker.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| Name | Summary |
 |------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ExportAnimation`](#EffectiveStressTracker.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
 | [`ClearGeneratedData`](#EffectiveStressTracker.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#EffectiveStressTracker.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
 | [`RenameBasedOnDefinition`](#EffectiveStressTracker.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
@@ -41,8 +42,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.            |
 | [`LocationXCoordinate`](#EffectiveStressTracker.LocationXCoordinate)                                                      | Gets or sets the LocationXCoordinate.                         |
 | [`LocationYCoordinate`](#EffectiveStressTracker.LocationYCoordinate)                                                      | Gets or sets the LocationYCoordinate.                         |
 | [`LocationZCoordinate`](#EffectiveStressTracker.LocationZCoordinate)                                                      | Gets or sets the LocationZCoordinate.                         |

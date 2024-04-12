@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#TopologyElementalDensity.ClearGeneratedData)           | Clears the result.                                                                |
+| Name | Summary |
 |--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#TopologyElementalDensity.ClearGeneratedData)           | Clears the result.                                                                |
 | [`EvaluateAllResults`](#TopologyElementalDensity.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
 | [`ExportAnimation`](#TopologyElementalDensity.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
 | [`RenameBasedOnDefinition`](#TopologyElementalDensity.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
@@ -42,8 +43,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`RetainedThreshold`](#TopologyElementalDensity.RetainedThreshold)                                                     | Gets or sets the RetainedThreshold.                           |
 | [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Location`](#TopologyElementalDensity.Location)                                                                       | Gets or sets the Location.                                    |

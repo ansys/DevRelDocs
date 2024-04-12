@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Crossed`](#LatticeType.Crossed)         |    |
+| Name | Summary |
 |-------------------------------------------|----|
+| [`Crossed`](#LatticeType.Crossed)         |    |
 | [`Cubic`](#LatticeType.Cubic)             |    |
 | [`Diagonal`](#LatticeType.Diagonal)       |    |
 | [`Midpoint`](#LatticeType.Midpoint)       |    |

@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Unknown`](#CondensedPartInterfaceType.Unknown)   |    |
+| Name | Summary |
 |----------------------------------------------------|----|
+| [`Unknown`](#CondensedPartInterfaceType.Unknown)   |    |
 | [`General`](#CondensedPartInterfaceType.General)   |    |
 | [`Remote`](#CondensedPartInterfaceType.Remote)     |    |
 | [`All`](#CondensedPartInterfaceType.All)           |    |

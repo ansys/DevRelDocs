@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Constant`](#StabilizationType.Constant)                   |    |
+| Name | Summary |
 |-------------------------------------------------------------|----|
+| [`Constant`](#StabilizationType.Constant)                   |    |
 | [`Off`](#StabilizationType.Off)                             |    |
 | [`ProgramControlled`](#StabilizationType.ProgramControlled) |    |
 | [`Reduce`](#StabilizationType.Reduce)                       |    |

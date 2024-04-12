@@ -18,13 +18,15 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetRow`](#IReadOnlyDataTable.GetRow)   | Returns an enumerable to iterate over the values in a row.   |
+| Name | Summary |
 |------------------------------------------|--------------------------------------------------------------|
+| [`GetRow`](#IReadOnlyDataTable.GetRow)   | Returns an enumerable to iterate over the values in a row.   |
 
 ### Properties
 
-| [`ColumnNames`](#IReadOnlyDataTable.ColumnNames)   | Gets a list of the column names.                                                      |
+| Name | Summary |
 |----------------------------------------------------|---------------------------------------------------------------------------------------|
+| [`ColumnNames`](#IReadOnlyDataTable.ColumnNames)   | Gets a list of the column names.                                                      |
 | [`Columns`](#IReadOnlyDataTable.Columns)           | Explicitly get the columns of the table.                                              |
 | [`Item`](#IReadOnlyDataTable.Item)                 | Item property.                                                                        |
 | [`Metadata`](#IReadOnlyDataTable.Metadata)         | Gets a dictionary with additional information that may be useful to understanding the |

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetActivateAtLoadStep`](#ImportedTemperature.GetActivateAtLoadStep)     | GetActivateAtLoadStep method.                                                     |
+| Name | Summary |
 |---------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetActivateAtLoadStep`](#ImportedTemperature.GetActivateAtLoadStep)     | GetActivateAtLoadStep method.                                                     |
 | [`SetActivateAtLoadStep`](#ImportedTemperature.SetActivateAtLoadStep)     | SetActivateAtLoadStep method.                                                     |
 | [`ExportToTextFile`](#ImportedTemperature.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
 | [`Import`](#ImportedTemperature.Import)                                   | Import.                                                                           |
@@ -45,8 +46,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                                           | Gets the internal object. For advanced usage only.                                                      |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                                           | Gets the internal object. For advanced usage only.                                                      |
 | [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory)             | Gets the current DataModelObject’s category.                                                            |
 | [`Weighting`](#ImportedTemperature.Weighting)                                                                                      | Weighting property.                                                                                     |
 | [`MappingControl`](#ImportedTemperature.MappingControl)                                                                            | MappingControl property.                                                                                |

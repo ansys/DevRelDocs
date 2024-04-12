@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Manual`](#TopoPropertyControlType.Manual)                       |    |
+| Name | Summary |
 |-------------------------------------------------------------------|----|
+| [`Manual`](#TopoPropertyControlType.Manual)                       |    |
 | [`ProgramControlled`](#TopoPropertyControlType.ProgramControlled) |    |
 
 <a id="import-detail"></a>

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ImportCondensedPart`](#ImportedCondensedPart.ImportCondensedPart)                                   | Run the Import Condensed Part action.                                             |
+| Name | Summary |
 |-------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ImportCondensedPart`](#ImportedCondensedPart.ImportCondensedPart)                                   | Run the Import Condensed Part action.                                             |
 | [`CreateNodalNamedSelections`](#ImportedCondensedPart.CreateNodalNamedSelections)                     | CreateNodalNamedSelections method.                                                |
 | [`CreateNodalNamedSelectionFromNodeIds`](#ImportedCondensedPart.CreateNodalNamedSelectionFromNodeIds) | CreateNodalNamedSelectionFromNodeIds method.                                      |
 | [`CreateRemotePoints`](#ImportedCondensedPart.CreateRemotePoints)                                     | CreateRemotePoints method.                                                        |
@@ -51,8 +52,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`ActualNodeOffset`](#ImportedCondensedPart.ActualNodeOffset)                                                       | Gets the ActualNodeOffset.                                    |
 | [`CondensedPartFileName`](#ImportedCondensedPart.CondensedPartFileName)                                             | Gets or sets the CondensedPartFileName.                       |
 | [`NodeOffset`](#ImportedCondensedPart.NodeOffset)                                                                   | Gets or sets the NodeOffset.                                  |

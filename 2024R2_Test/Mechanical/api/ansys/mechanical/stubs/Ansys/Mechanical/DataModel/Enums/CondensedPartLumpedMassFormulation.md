@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Off`](#CondensedPartLumpedMassFormulation.Off)                             |    |
+| Name | Summary |
 |------------------------------------------------------------------------------|----|
+| [`Off`](#CondensedPartLumpedMassFormulation.Off)                             |    |
 | [`On`](#CondensedPartLumpedMassFormulation.On)                               |    |
 | [`ProgramControlled`](#CondensedPartLumpedMassFormulation.ProgramControlled) |    |
 

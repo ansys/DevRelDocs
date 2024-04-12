@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Override`](#JointInitialPosition.Override)   |    |
+| Name | Summary |
 |------------------------------------------------|----|
+| [`Override`](#JointInitialPosition.Override)   |    |
 | [`Unchanged`](#JointInitialPosition.Unchanged) |    |
 
 <a id="import-detail"></a>

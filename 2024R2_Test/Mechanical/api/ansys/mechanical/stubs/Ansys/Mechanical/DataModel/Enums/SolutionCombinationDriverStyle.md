@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`CombinationOfMaximum`](#SolutionCombinationDriverStyle.CombinationOfMaximum)       |    |
+| Name | Summary |
 |--------------------------------------------------------------------------------------|----|
+| [`CombinationOfMaximum`](#SolutionCombinationDriverStyle.CombinationOfMaximum)       |    |
 | [`CombinationOfMinimum`](#SolutionCombinationDriverStyle.CombinationOfMinimum)       |    |
 | [`Default`](#SolutionCombinationDriverStyle.Default)                                 |    |
 | [`MaximumOverCombinations`](#SolutionCombinationDriverStyle.MaximumOverCombinations) |    |

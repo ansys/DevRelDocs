@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Structural`](#CondensedPartPhysics.Structural)   |    |
+| Name | Summary |
 |----------------------------------------------------|----|
+| [`Structural`](#CondensedPartPhysics.Structural)   |    |
 | [`Thermal`](#CondensedPartPhysics.Thermal)         |    |
 
 <a id="import-detail"></a>

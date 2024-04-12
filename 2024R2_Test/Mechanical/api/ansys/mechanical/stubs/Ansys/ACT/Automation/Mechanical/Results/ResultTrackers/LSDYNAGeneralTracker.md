@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetBranches`](#LSDYNAGeneralTracker.GetBranches)                         | GetBranches method.                                                               |
+| Name | Summary |
 |----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetBranches`](#LSDYNAGeneralTracker.GetBranches)                         | GetBranches method.                                                               |
 | [`GetComponents`](#LSDYNAGeneralTracker.GetComponents)                     | GetComponents method.                                                             |
 | [`ExportAnimation`](#LSDYNAGeneralTracker.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
 | [`ClearGeneratedData`](#LSDYNAGeneralTracker.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
@@ -43,8 +44,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`LSDYNABranchName`](#LSDYNAGeneralTracker.LSDYNABranchName)                                                              | Gets or sets the LSDYNA BranchName.                           |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`LSDYNABranchName`](#LSDYNAGeneralTracker.LSDYNABranchName)                                                              | Gets or sets the LSDYNA BranchName.                           |
 | [`LSDYNASubBranchName`](#LSDYNAGeneralTracker.LSDYNASubBranchName)                                                        | Gets or sets the LSDYNA SubBranchName.                        |
 | [`LSDYNAComponentName`](#LSDYNAGeneralTracker.LSDYNAComponentName)                                                        | Gets or sets the LSDYNA ComponentName.                        |
 | [`ContactRegion`](../../Connections/ContactRegion.md#ContactRegion)                                                       | Gets or sets the ContactRegion.                               |

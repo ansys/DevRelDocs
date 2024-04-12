@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetActivateAtLoadStep`](#ImportedBodyForceDensity.GetActivateAtLoadStep)     | GetActivateAtLoadStep method.                                                     |
+| Name | Summary |
 |--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetActivateAtLoadStep`](#ImportedBodyForceDensity.GetActivateAtLoadStep)     | GetActivateAtLoadStep method.                                                     |
 | [`SetActivateAtLoadStep`](#ImportedBodyForceDensity.SetActivateAtLoadStep)     | SetActivateAtLoadStep method.                                                     |
 | [`ExportToTextFile`](#ImportedBodyForceDensity.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
 | [`Import`](#ImportedBodyForceDensity.Import)                                   | Import.                                                                           |
@@ -45,8 +46,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                                           | Gets the internal object. For advanced usage only.                                                      |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                                           | Gets the internal object. For advanced usage only.                                                      |
 | [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory)             | Gets the current DataModelObject’s category.                                                            |
 | [`Weighting`](#ImportedBodyForceDensity.Weighting)                                                                                 | Weighting property.                                                                                     |
 | [`MappingControl`](#ImportedBodyForceDensity.MappingControl)                                                                       | MappingControl property.                                                                                |

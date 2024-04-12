@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`CQC`](#ModesCombinationType.CQC)   |    |
+| Name | Summary |
 |--------------------------------------|----|
+| [`CQC`](#ModesCombinationType.CQC)   |    |
 | [`NONE`](#ModesCombinationType.NONE) |    |
 | [`ROSE`](#ModesCombinationType.ROSE) |    |
 | [`SRSS`](#ModesCombinationType.SRSS) |    |

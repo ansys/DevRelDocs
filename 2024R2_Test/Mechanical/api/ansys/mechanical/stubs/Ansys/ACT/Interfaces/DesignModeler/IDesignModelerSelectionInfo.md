@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Entities`](#IDesignModelerSelectionInfo.Entities)   | Gets the list of selected geometry entities.        |
+| Name | Summary |
 |-------------------------------------------------------|-----------------------------------------------------|
+| [`Entities`](#IDesignModelerSelectionInfo.Entities)   | Gets the list of selected geometry entities.        |
 | [`Locations`](#IDesignModelerSelectionInfo.Locations) | Gets the location point for each selected entities. |
 
 <a id="import-detail"></a>

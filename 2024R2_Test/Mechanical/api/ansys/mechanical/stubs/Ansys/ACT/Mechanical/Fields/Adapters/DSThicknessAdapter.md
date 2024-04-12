@@ -18,13 +18,15 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ChangeFieldDefinitionType`](#DSThicknessAdapter.ChangeFieldDefinitionType)   | ChangeFieldDefinitionType method.   |
+| Name | Summary |
 |--------------------------------------------------------------------------------|-------------------------------------|
+| [`ChangeFieldDefinitionType`](#DSThicknessAdapter.ChangeFieldDefinitionType)   | ChangeFieldDefinitionType method.   |
 
 ### Properties
 
-| [`FieldProvider`](#DSThicknessAdapter.FieldProvider)   | Gets the wrapped object from Mechanical.   |
+| Name | Summary |
 |--------------------------------------------------------|--------------------------------------------|
+| [`FieldProvider`](#DSThicknessAdapter.FieldProvider)   | Gets the wrapped object from Mechanical.   |
 
 <a id="import-detail"></a>
 

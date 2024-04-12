@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`ValueCount`](#TBPTValues.ValueCount)   | Gets the number of values.   |
+| Name | Summary |
 |------------------------------------------|------------------------------|
+| [`ValueCount`](#TBPTValues.ValueCount)   | Gets the number of values.   |
 | [`Values`](#TBPTValues.Values)           | Gets the values.             |
 
 <a id="import-detail"></a>

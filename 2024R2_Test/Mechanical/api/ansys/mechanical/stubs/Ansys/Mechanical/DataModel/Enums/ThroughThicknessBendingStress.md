@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Ignore`](#ThroughThicknessBendingStress.Ignore)                                   |    |
+| Name | Summary |
 |-------------------------------------------------------------------------------------|----|
+| [`Ignore`](#ThroughThicknessBendingStress.Ignore)                                   |    |
 | [`Include`](#ThroughThicknessBendingStress.Include)                                 |    |
 | [`IncludeUsingYDirFormula`](#ThroughThicknessBendingStress.IncludeUsingYDirFormula) |    |
 

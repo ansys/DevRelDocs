@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`AccelerationWaterfallDiagram`](../../../ACT/Automation/Mechanical/Results/FrequencyResponseResults/AccelerationWaterfallDiagram.md#AccelerationWaterfallDiagram)                                                 |    |
+| Name | Summary |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----|
+| [`AccelerationWaterfallDiagram`](../../../ACT/Automation/Mechanical/Results/FrequencyResponseResults/AccelerationWaterfallDiagram.md#AccelerationWaterfallDiagram)                                                 |    |
 | [`AccumulatedEquivalentPlasticStrain`](../../../ACT/Automation/Mechanical/Results/StrainResults/AccumulatedEquivalentPlasticStrain.md#AccumulatedEquivalentPlasticStrain)                                          |    |
 | [`AbsorptionCoefficient`](#ResultType.AbsorptionCoefficient)                                                                                                                                                       |    |
 | [`DiffuseSoundTransmissionLoss`](#ResultType.DiffuseSoundTransmissionLoss)                                                                                                                                         |    |

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Name`](#IQueueSettings.Name)                                       | Gets or sets the name of the current queue for the configuration.   |
+| Name | Summary |
 |----------------------------------------------------------------------|---------------------------------------------------------------------|
+| [`Name`](#IQueueSettings.Name)                                       | Gets or sets the name of the current queue for the configuration.   |
 | [`JobName`](#IQueueSettings.JobName)                                 | Gets or sets the Job Name field for the queue settings.             |
 | [`License`](#IQueueSettings.License)                                 | Gets or sets the License field for the queue settings.              |
 | [`DCSUrl`](#IQueueSettings.DCSUrl)                                   | DCSUrl property.                                                    |

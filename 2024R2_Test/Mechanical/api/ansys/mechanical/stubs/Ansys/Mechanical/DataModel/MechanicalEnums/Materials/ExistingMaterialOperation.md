@@ -19,8 +19,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`New`](#ExistingMaterialOperation.New)         |    |
+| Name | Summary |
 |-------------------------------------------------|----|
+| [`New`](#ExistingMaterialOperation.New)         |    |
 | [`Replace`](#ExistingMaterialOperation.Replace) |    |
 
 <a id="import-detail"></a>

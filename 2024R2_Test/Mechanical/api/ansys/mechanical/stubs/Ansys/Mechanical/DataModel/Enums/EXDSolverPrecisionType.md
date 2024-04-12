@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Single`](#EXDSolverPrecisionType.Single)   |    |
+| Name | Summary |
 |----------------------------------------------|----|
+| [`Single`](#EXDSolverPrecisionType.Single)   |    |
 | [`Double`](#EXDSolverPrecisionType.Double)   |    |
 
 <a id="import-detail"></a>

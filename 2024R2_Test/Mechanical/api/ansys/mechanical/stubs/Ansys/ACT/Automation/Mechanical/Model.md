@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`CreateCylindricalBolt`](#Model.CreateCylindricalBolt)                                       | Create bolt with a cylinder head based on the specified dimensions. The bolt will be                                         |
+| Name | Summary |
 |-----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| [`CreateCylindricalBolt`](#Model.CreateCylindricalBolt)                                       | Create bolt with a cylinder head based on the specified dimensions. The bolt will be                                         |
 | [`CreateCylindricalNut`](#Model.CreateCylindricalNut)                                         | Create a cylindrical nut with the specified dimensions. The nut will be created so that                                      |
 | [`CreateHexBolt`](#Model.CreateHexBolt)                                                       | Create a bolt with a hex head based on the specified dimensions. The bolt will be                                            |
 | [`CreateHexNut`](#Model.CreateHexNut)                                                         | Create a hex nut with the specified dimensions. The nut will be created so that the                                          |
@@ -114,8 +115,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Environments`](#Model.Environments)                                                                               | Gets the Analyses.                                                                                                                                                                                                                                                                                            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`Environments`](#Model.Environments)                                                                               | Gets the Analyses.                                                                                                                                                                                                                                                                                            |
 | [`CellId`](#Model.CellId)                                                                                           | Gets the CellId.                                                                                                                                                                                                                                                                                              |
 | [`SystemCaption`](#Model.SystemCaption)                                                                             | Gets the SystemCaption.                                                                                                                                                                                                                                                                                       |
 | [`AEDTImportManager`](#Model.AEDTImportManager)                                                                     | Get the manager for manipulating import settings for AEDT files.                                                                                                                                                                                                                                              |

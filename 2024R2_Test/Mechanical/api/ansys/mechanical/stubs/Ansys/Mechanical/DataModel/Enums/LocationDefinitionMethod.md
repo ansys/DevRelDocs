@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Beam`](../../../ACT/Automation/Mechanical/Connections/Beam.md#Beam)                            |    |
+| Name | Summary |
 |--------------------------------------------------------------------------------------------------|----|
+| [`Beam`](../../../ACT/Automation/Mechanical/Connections/Beam.md#Beam)                            |    |
 | [`Bearing`](../../../ACT/Automation/Mechanical/Connections/Bearing.md#Bearing)                   |    |
 | [`BoundaryCondition`](#LocationDefinitionMethod.BoundaryCondition)                               |    |
 | [`ContactRegion`](../../../ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion) |    |

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Absolute`](#PathType.Absolute)                   |    |
+| Name | Summary |
 |----------------------------------------------------|----|
+| [`Absolute`](#PathType.Absolute)                   |    |
 | [`RelativeToProject`](#PathType.RelativeToProject) |    |
 
 <a id="import-detail"></a>

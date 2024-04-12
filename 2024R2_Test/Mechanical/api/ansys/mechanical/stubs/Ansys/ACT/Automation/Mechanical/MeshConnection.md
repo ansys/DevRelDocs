@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`FlipMasterSlave`](#MeshConnection.FlipMasterSlave)                 | FlipMasterSlave method.                                                           |
+| Name | Summary |
 |----------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`FlipMasterSlave`](#MeshConnection.FlipMasterSlave)                 | FlipMasterSlave method.                                                           |
 | [`CreateNamedSelection`](#MeshConnection.CreateNamedSelection)       | CreateNamedSelection method.                                                      |
 | [`Generate`](#MeshConnection.Generate)                               | Run the Generate action.                                                          |
 | [`RenameBasedOnDefinition`](#MeshConnection.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
@@ -42,8 +43,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`MasterElementSizeFactor`](#MeshConnection.MasterElementSizeFactor)                                                | Gets or sets the MasterElementSizeFactor.                     |
 | [`ThicknessScaleFactor`](#MeshConnection.ThicknessScaleFactor)                                                      | Gets or sets the ThicknessScaleFactor.                        |
 | [`ToleranceValue`](#MeshConnection.ToleranceValue)                                                                  | Gets or sets the ToleranceValue.                              |

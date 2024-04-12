@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`PinAcceleration`](#PinBehavior.PinAcceleration)   |    |
+| Name | Summary |
 |-----------------------------------------------------|----|
+| [`PinAcceleration`](#PinBehavior.PinAcceleration)   |    |
 | [`PinForce`](#PinBehavior.PinForce)                 |    |
 | [`PinPosition`](#PinBehavior.PinPosition)           |    |
 | [`PinVelocity`](#PinBehavior.PinVelocity)           |    |

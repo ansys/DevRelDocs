@@ -10,8 +10,9 @@
 
 ### Classes
 
-| [`Deviation`](Deviation.md#Deviation)                      | Defines a Deviation.        |
+| Name | Summary |
 |------------------------------------------------------------|-----------------------------|
+| [`Deviation`](Deviation.md#Deviation)                      | Defines a Deviation.        |
 | [`RepairTopology`](RepairTopology.md#RepairTopology)       | Defines a RepairTopology.   |
 | [`Washer`](Washer.md#Washer)                               | Defines a Washer.           |
 | [`Weld`](Weld.md#Weld)                                     | Defines a Weld.             |
@@ -55,8 +56,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GenerateMesh`](#id628)            | Generate the Mesh.                                                                |
+| Name | Summary |
 |-------------------------------------|-----------------------------------------------------------------------------------|
+| [`GenerateMesh`](#id628)            | Generate the Mesh.                                                                |
 | [`RenameBasedOnDefinition`](#id629) | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id630)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id632)             | Gets the list of children, filtered by type.                                      |
@@ -77,8 +79,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Tolerance`](#id546)                                                                                                  | Tolerance property.                                           |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Tolerance`](#id546)                                                                                                  | Tolerance property.                                           |
 | [`MeshSize`](#MeshControls.MeshSize)                                                                                   | MeshSize property.                                            |
 | [`NumberOfDivisions`](#id105)                                                                                          | NumberOfDivisions property.                                   |
 | [`ControlType`](../../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ControlType.md#ControlType)              | Gets or sets the SagControlType.                              |
@@ -407,8 +410,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GenerateMesh`](#id628)            | Generate the Mesh.                                                                |
+| Name | Summary |
 |-------------------------------------|-----------------------------------------------------------------------------------|
+| [`GenerateMesh`](#id628)            | Generate the Mesh.                                                                |
 | [`RenameBasedOnDefinition`](#id629) | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id630)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id632)             | Gets the list of children, filtered by type.                                      |
@@ -429,8 +433,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id624)                                                                                             | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id624)                                                                                             | Gets the internal object. For advanced usage only.            |
 | [`PinchTolerance`](#id228)                                                                                             | Gets or sets the PinchTolerance.                              |
 | [`SharpAngle`](#id71)                                                                                                  | Gets or sets the SharpAngle.                                  |
 | [`ShortEdgeLength`](#MeshControls.ShortEdgeLength)                                                                     | Gets or sets the ShortEdgeLength.                             |
@@ -1029,8 +1034,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GenerateMesh`](#id628)            | Generate the Mesh.                                                                |
+| Name | Summary |
 |-------------------------------------|-----------------------------------------------------------------------------------|
+| [`GenerateMesh`](#id628)            | Generate the Mesh.                                                                |
 | [`RenameBasedOnDefinition`](#id629) | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id630)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id632)             | Gets the list of children, filtered by type.                                      |
@@ -1051,8 +1057,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`NumberOfWasherLayers`](#MeshControls.NumberOfWasherLayers)                                                           | NumberOfWasherLayers property.                                |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`NumberOfWasherLayers`](#MeshControls.NumberOfWasherLayers)                                                           | NumberOfWasherLayers property.                                |
 | [`WasherMethod`](#MeshControls.WasherMethod)                                                                           | WasherMethod property.                                        |
 | [`WasherType`](#MeshControls.WasherType)                                                                               | WasherType property.                                          |
 | [`NumberOfWasherDivisions`](#MeshControls.NumberOfWasherDivisions)                                                     | NumberOfWasherDivisions property.                             |
@@ -1417,8 +1424,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearWeldControlIntersectionTag`](#MeshControls.ClearWeldControlIntersectionTag)                   | clear the WeldControlIntersectionTag                                              |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearWeldControlIntersectionTag`](#MeshControls.ClearWeldControlIntersectionTag)                   | clear the WeldControlIntersectionTag                                              |
 | [`AppendWeldControlIntersectionTag`](#MeshControls.AppendWeldControlIntersectionTag)                 | append the WeldControlIntersectionTag                                             |
 | [`GenerateWeldIntersectionTag`](#MeshControls.GenerateWeldIntersectionTag)                           | Auto detect Intersection Tags within specified tolerance                          |
 | [`ClearAutoWeldIntersectionTag`](#MeshControls.ClearAutoWeldIntersectionTag)                         | Clear Auto Intersection Tags                                                      |
@@ -1524,8 +1532,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`BottomEntities`](#MeshControls.BottomEntities)                                                                       | Gets or sets the Bottom Entities (Bodies / Faces ) or Extension.   |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
+| [`BottomEntities`](#MeshControls.BottomEntities)                                                                       | Gets or sets the Bottom Entities (Bodies / Faces ) or Extension.   |
 | [`TopEntities`](#MeshControls.TopEntities)                                                                             | Gets or sets the Top Entities (Bodies / Faces ) or Extension.      |
 | [`WeldCurves`](#MeshControls.WeldCurves)                                                                               | Gets or sets the Weld Curves.                                      |
 | [`WeldCurvesBody`](#MeshControls.WeldCurvesBody)                                                                       | WeldCurvesBody property.                                           |
@@ -3029,8 +3038,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GenerateMesh`](#id628)            | Generate the Mesh.                                                                |
+| Name | Summary |
 |-------------------------------------|-----------------------------------------------------------------------------------|
+| [`GenerateMesh`](#id628)            | Generate the Mesh.                                                                |
 | [`RenameBasedOnDefinition`](#id629) | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id630)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id632)             | Gets the list of children, filtered by type.                                      |
@@ -3051,8 +3061,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`BodyOfInfluence`](#MeshControls.BodyOfInfluence)                                                                     | Gets the BodyOfInfluence.                                     |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`BodyOfInfluence`](#MeshControls.BodyOfInfluence)                                                                     | Gets the BodyOfInfluence.                                     |
 | [`InternalObject`](#id624)                                                                                             | Gets the internal object. For advanced usage only.            |
 | [`BiasGrowthRate`](#MeshControls.BiasGrowthRate)                                                                       | Gets or sets the BiasGrowthRate.                              |
 | [`NumberOfDivisions`](#id105)                                                                                          | Gets or sets the NumberOfDivisions.                           |
@@ -3570,8 +3581,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GenerateMesh`](#id628)            | Generate the Mesh.                                                                |
+| Name | Summary |
 |-------------------------------------|-----------------------------------------------------------------------------------|
+| [`GenerateMesh`](#id628)            | Generate the Mesh.                                                                |
 | [`RenameBasedOnDefinition`](#id629) | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id630)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id632)             | Gets the list of children, filtered by type.                                      |
@@ -3592,8 +3604,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`AggressiveInflateOption`](#MeshControls.AggressiveInflateOption)                                                     | Gets or sets the AggressiveInflateOption.                                                        |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
+| [`AggressiveInflateOption`](#MeshControls.AggressiveInflateOption)                                                     | Gets or sets the AggressiveInflateOption.                                                        |
 | [`AggressiveTetImprovement`](#MeshControls.AggressiveTetImprovement)                                                   | Gets or sets the AggressiveTetImprovement.                                                       |
 | [`ControlMessages`](#id481)                                                                                            | Gets the ControlMessages.                                                                        |
 | [`CornerAngle`](#MeshControls.CornerAngle)                                                                             | Gets or sets the CornerAngle.                                                                    |
@@ -4696,8 +4709,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GenerateMesh`](#id628)            | Generate the Mesh.                                                                |
+| Name | Summary |
 |-------------------------------------|-----------------------------------------------------------------------------------|
+| [`GenerateMesh`](#id628)            | Generate the Mesh.                                                                |
 | [`RenameBasedOnDefinition`](#id629) | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id630)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id632)             | Gets the list of children, filtered by type.                                      |
@@ -4718,8 +4732,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`BoundaryLocation`](#MeshControls.BoundaryLocation)                                                                   | Gets or sets the BoundaryLocation.                            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`BoundaryLocation`](#MeshControls.BoundaryLocation)                                                                   | Gets or sets the BoundaryLocation.                            |
 | [`InternalObject`](#id624)                                                                                             | Gets the internal object. For advanced usage only.            |
 | [`GrowthRate`](#id217)                                                                                                 | Gets or sets the GrowthRate.                                  |
 | [`InflationAlgorithm`](#id218)                                                                                         | Gets or sets the InflationAlgorithm.                          |
@@ -5120,8 +5135,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddContactSizing`](#MeshControls.AddContactSizing)                                                                         | Creates a new ContactSizing                                                       |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddContactSizing`](#MeshControls.AddContactSizing)                                                                         | Creates a new ContactSizing                                                       |
 | [`AddFaceMeshing`](#MeshControls.AddFaceMeshing)                                                                             | Creates a new FaceMeshing                                                         |
 | [`AddInflation`](#MeshControls.AddInflation)                                                                                 | Creates a new Inflation                                                           |
 | [`AddMatchControl`](#MeshControls.AddMatchControl)                                                                           | Creates a new MatchControl                                                        |
@@ -5250,8 +5266,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Worksheet`](../Worksheet.md#Worksheet)                                                                               | Get the MeshControlWorksheet action.                             |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
+| [`Worksheet`](../Worksheet.md#Worksheet)                                                                               | Get the MeshControlWorksheet action.                             |
 | [`ElementSize`](#id342)                                                                                                | Gets or sets the ElementSize.                                    |
 | [`RigidBodyFaceMeshType`](#MeshControls.RigidBodyFaceMeshType)                                                         | Gets or sets the RigidBodyFaceMeshType.                          |
 | [`RigidBodyBehavior`](#MeshControls.RigidBodyBehavior)                                                                 | Gets or sets the BoundaryCondition.                              |
@@ -7389,8 +7406,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GenerateMesh`](#id628)            | Generate the Mesh.                                                                |
+| Name | Summary |
 |-------------------------------------|-----------------------------------------------------------------------------------|
+| [`GenerateMesh`](#id628)            | Generate the Mesh.                                                                |
 | [`RenameBasedOnDefinition`](#id629) | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id630)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id632)             | Gets the list of children, filtered by type.                                      |
@@ -7411,8 +7429,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`ScopingMethod`](#id618)                                                                                              | Gets or sets the ScopingMethod.                               |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`ScopingMethod`](#id618)                                                                                              | Gets or sets the ScopingMethod.                               |
 | [`InternalObject`](#id624)                                                                                             | Gets the internal object. For advanced usage only.            |
 | [`Suppressed`](#id619)                                                                                                 | Gets or sets the Suppressed.                                  |
 | [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -7687,8 +7706,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GenerateMesh`](#id628)            | Generate the Mesh.                                                                |
+| Name | Summary |
 |-------------------------------------|-----------------------------------------------------------------------------------|
+| [`GenerateMesh`](#id628)            | Generate the Mesh.                                                                |
 | [`RenameBasedOnDefinition`](#id629) | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id630)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id632)             | Gets the list of children, filtered by type.                                      |
@@ -7709,8 +7729,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id624)                                                                                             | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id624)                                                                                             | Gets the internal object. For advanced usage only.            |
 | [`ConnectionToleranceList`](#id303)                                                                                    | Gets or sets the ConnectionToleranceList.                     |
 | [`ConnectionTolerance`](#id304)                                                                                        | Gets or sets the ConnectionTolerance.                         |
 | [`ConnectionSize`](#id305)                                                                                             | Gets or sets the ConnectionSize.                              |
@@ -8066,8 +8087,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GenerateMesh`](#id628)            | Generate the Mesh.                                                                |
+| Name | Summary |
 |-------------------------------------|-----------------------------------------------------------------------------------|
+| [`GenerateMesh`](#id628)            | Generate the Mesh.                                                                |
 | [`RenameBasedOnDefinition`](#id629) | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id630)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id632)             | Gets the list of children, filtered by type.                                      |
@@ -8088,8 +8110,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id624)                                                                                             | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id624)                                                                                             | Gets the internal object. For advanced usage only.            |
 | [`Relevance`](Relevance.md#Relevance)                                                                                  | Gets or sets the Relevance.                                   |
 | [`Type`](#id341)                                                                                                       | Gets or sets the Type.                                        |
 | [`ElementSize`](#id342)                                                                                                | Gets or sets the ElementSize.                                 |
@@ -8400,8 +8423,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GenerateMesh`](#id628)            | Generate the Mesh.                                                                |
+| Name | Summary |
 |-------------------------------------|-----------------------------------------------------------------------------------|
+| [`GenerateMesh`](#id628)            | Generate the Mesh.                                                                |
 | [`RenameBasedOnDefinition`](#id629) | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id630)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id632)             | Gets the list of children, filtered by type.                                      |
@@ -8422,8 +8446,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id624)                                                                                             | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id624)                                                                                             | Gets the internal object. For advanced usage only.            |
 | [`ConstrainBoundary`](#id375)                                                                                          | Gets or sets the ConstrainBoundary.                           |
 | [`InternalNumberOfDivisions`](#MeshControls.InternalNumberOfDivisions)                                                 | Gets or sets the InternalNumberOfDivisions.                   |
 | [`Method`](#id376)                                                                                                     | Gets or sets the Method.                                      |
@@ -8788,8 +8813,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GenerateMesh`](#id628)            | Generate the Mesh.                                                                |
+| Name | Summary |
 |-------------------------------------|-----------------------------------------------------------------------------------|
+| [`GenerateMesh`](#id628)            | Generate the Mesh.                                                                |
 | [`RenameBasedOnDefinition`](#id629) | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id630)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id632)             | Gets the list of children, filtered by type.                                      |
@@ -8810,8 +8836,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id624)                                                                                             | Gets the internal object. For advanced usage only.                              |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
+| [`InternalObject`](#id624)                                                                                             | Gets the internal object. For advanced usage only.                              |
 | [`FeatureHeight`](#MeshControls.FeatureHeight)                                                                         | To specify the Feature Height.                                                  |
 | [`SourceSelection`](#MeshControls.SourceSelection)                                                                     | To select the FeatureSuppress method.                                           |
 | [`NamedSelection`](../NamedSelection.md#NamedSelection)                                                                | Gets or sets the NamedSelection.                                                |
@@ -9140,8 +9167,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GenerateMesh`](#id628)            | Generate the Mesh.                                                                |
+| Name | Summary |
 |-------------------------------------|-----------------------------------------------------------------------------------|
+| [`GenerateMesh`](#id628)            | Generate the Mesh.                                                                |
 | [`RenameBasedOnDefinition`](#id629) | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id630)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id632)             | Gets the list of children, filtered by type.                                      |
@@ -9162,8 +9190,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id624)                                                                                             | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id624)                                                                                             | Gets the internal object. For advanced usage only.            |
 | [`NamedSelection`](../NamedSelection.md#NamedSelection)                                                                | Gets or sets the NamedSelection.                              |
 | [`Location`](#id616)                                                                                                   | Gets or sets the Location.                                    |
 | [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -9456,8 +9485,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GenerateMesh`](#id628)            | Generate the Mesh.                                                                |
+| Name | Summary |
 |-------------------------------------|-----------------------------------------------------------------------------------|
+| [`GenerateMesh`](#id628)            | Generate the Mesh.                                                                |
 | [`RenameBasedOnDefinition`](#id629) | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id630)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id632)             | Gets the list of children, filtered by type.                                      |
@@ -9478,8 +9508,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id624)                                                                                             | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id624)                                                                                             | Gets the internal object. For advanced usage only.            |
 | [`Transformation`](#MeshControls.Transformation)                                                                       | Gets or sets the Transformation.                              |
 | [`ControlMessages`](#id481)                                                                                            | Gets the ControlMessages.                                     |
 | [`HighNamedSelection`](#MeshControls.HighNamedSelection)                                                               | Gets or sets the HighNamedSelection.                          |
@@ -9835,8 +9866,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GenerateMesh`](#id628)            | Generate the Mesh.                                                                |
+| Name | Summary |
 |-------------------------------------|-----------------------------------------------------------------------------------|
+| [`GenerateMesh`](#id628)            | Generate the Mesh.                                                                |
 | [`RenameBasedOnDefinition`](#id629) | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id630)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id632)             | Gets the list of children, filtered by type.                                      |
@@ -9857,8 +9889,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id624)                                                                                             | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id624)                                                                                             | Gets the internal object. For advanced usage only.            |
 | [`TargetScoping`](#MeshControls.TargetScoping)                                                                         | Gets or sets the TargetScoping.                               |
 | [`SourceAnchorsNamedSelection`](#MeshControls.SourceAnchorsNamedSelection)                                             | Gets or sets the SourceAnchorsNamedSelection.                 |
 | [`TargetAnchorsNamedSelection`](#MeshControls.TargetAnchorsNamedSelection)                                             | Gets or sets the TargetAnchorsNamedSelection.                 |
@@ -10178,8 +10211,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GenerateMesh`](#id628)            | Generate the Mesh.                                                                |
+| Name | Summary |
 |-------------------------------------|-----------------------------------------------------------------------------------|
+| [`GenerateMesh`](#id628)            | Generate the Mesh.                                                                |
 | [`RenameBasedOnDefinition`](#id629) | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id630)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id632)             | Gets the list of children, filtered by type.                                      |
@@ -10200,8 +10234,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id624)                                                                                             | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id624)                                                                                             | Gets the internal object. For advanced usage only.            |
 | [`AutoManualMode`](#MeshControls.AutoManualMode)                                                                       | Gets the AutoManualMode.                                      |
 | [`Tolerance`](#id546)                                                                                                  | Gets or sets the Tolerance.                                   |
 | [`MasterGeometry`](#MeshControls.MasterGeometry)                                                                       | Gets or sets the MasterGeometry.                              |
@@ -10512,8 +10547,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GenerateMesh`](#id628)            | Generate the Mesh.                                                                |
+| Name | Summary |
 |-------------------------------------|-----------------------------------------------------------------------------------|
+| [`GenerateMesh`](#id628)            | Generate the Mesh.                                                                |
 | [`RenameBasedOnDefinition`](#id629) | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id630)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id632)             | Gets the list of children, filtered by type.                                      |
@@ -10534,8 +10570,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id624)                                                                                             | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id624)                                                                                             | Gets the internal object. For advanced usage only.            |
 | [`NumberOfRefinements`](#MeshControls.NumberOfRefinements)                                                             | Gets or sets the NumberOfRefinements.                         |
 | [`NamedSelection`](../NamedSelection.md#NamedSelection)                                                                | Gets or sets the NamedSelection.                              |
 | [`Location`](#id616)                                                                                                   | Gets or sets the Location.                                    |
@@ -10837,8 +10874,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GenerateMesh`](#id628)            | Generate the Mesh.                                                                |
+| Name | Summary |
 |-------------------------------------|-----------------------------------------------------------------------------------|
+| [`GenerateMesh`](#id628)            | Generate the Mesh.                                                                |
 | [`RenameBasedOnDefinition`](#id629) | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id630)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id632)             | Gets the list of children, filtered by type.                                      |
@@ -10859,8 +10897,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id624)                                                                                             | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id624)                                                                                             | Gets the internal object. For advanced usage only.            |
 | [`PartRelavance`](#MeshControls.PartRelavance)                                                                         | Gets the PartRelavance.                                       |
 | [`NamedSelection`](../NamedSelection.md#NamedSelection)                                                                | Gets or sets the NamedSelection.                              |
 | [`Location`](#id616)                                                                                                   | Gets or sets the Location.                                    |

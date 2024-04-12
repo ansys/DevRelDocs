@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Entities`](#IMechanicalSelectionInfo.Entities)                     | Gets the list of selected geometry entities.                   |
+| Name | Summary |
 |----------------------------------------------------------------------|----------------------------------------------------------------|
+| [`Entities`](#IMechanicalSelectionInfo.Entities)                     | Gets the list of selected geometry entities.                   |
 | [`ElementFaceIndices`](#IMechanicalSelectionInfo.ElementFaceIndices) | Gets the list indices needed to define the face of an element. |
 
 <a id="import-detail"></a>

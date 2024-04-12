@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Width`](#AnimationExportSettings.Width)   | Specifies the video width.   |
+| Name | Summary |
 |---------------------------------------------|------------------------------|
+| [`Width`](#AnimationExportSettings.Width)   | Specifies the video width.   |
 | [`Height`](#AnimationExportSettings.Height) | Specifies the video height.  |
 
 <a id="import-detail"></a>

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Lumped`](#ManualContactTreatmentType.Lumped)     |    |
+| Name | Summary |
 |----------------------------------------------------|----|
+| [`Lumped`](#ManualContactTreatmentType.Lumped)     |    |
 | [`Pairwise`](#ManualContactTreatmentType.Pairwise) |    |
 
 <a id="import-detail"></a>

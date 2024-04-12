@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`BulkTemperature`](#LoadVariationSubOption.BulkTemperature)                                             |    |
+| Name | Summary |
 |----------------------------------------------------------------------------------------------------------|----|
+| [`BulkTemperature`](#LoadVariationSubOption.BulkTemperature)                                             |    |
 | [`DifferenceOfSurfaceAndBulkTemperature`](#LoadVariationSubOption.DifferenceOfSurfaceAndBulkTemperature) |    |
 | [`ConvectionEnd`](#LoadVariationSubOption.ConvectionEnd)                                                 |    |
 | [`AverageFilmTemperature`](#LoadVariationSubOption.AverageFilmTemperature)                               |    |

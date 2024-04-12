@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`First`](#SequenceSelectionType.First)                 |    |
+| Name | Summary |
 |---------------------------------------------------------|----|
+| [`First`](#SequenceSelectionType.First)                 |    |
 | [`Last`](#SequenceSelectionType.Last)                   |    |
 | [`All`](#SequenceSelectionType.All)                     |    |
 | [`ByNumber`](#SequenceSelectionType.ByNumber)           |    |

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Frequency`](#GraphControlsXAxis.Frequency)   |    |
+| Name | Summary |
 |------------------------------------------------|----|
+| [`Frequency`](#GraphControlsXAxis.Frequency)   |    |
 | [`Mode`](#GraphControlsXAxis.Mode)             |    |
 | [`Phase`](#GraphControlsXAxis.Phase)           |    |
 | [`S`](#GraphControlsXAxis.S)                   |    |

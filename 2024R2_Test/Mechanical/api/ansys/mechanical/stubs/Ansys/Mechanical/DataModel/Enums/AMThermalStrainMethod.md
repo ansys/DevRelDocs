@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`FullThermal`](#AMThermalStrainMethod.FullThermal)         |    |
+| Name | Summary |
 |-------------------------------------------------------------|----|
+| [`FullThermal`](#AMThermalStrainMethod.FullThermal)         |    |
 | [`MachineLearning`](#AMThermalStrainMethod.MachineLearning) |    |
 
 <a id="import-detail"></a>

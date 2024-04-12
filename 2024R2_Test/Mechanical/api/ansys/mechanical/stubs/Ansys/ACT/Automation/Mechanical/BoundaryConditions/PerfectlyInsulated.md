@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`PromoteToNamedSelection`](#PerfectlyInsulated.PromoteToNamedSelection)   | Run the PromoteToNamedSelection action.                                           |
+| Name | Summary |
 |----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`PromoteToNamedSelection`](#PerfectlyInsulated.PromoteToNamedSelection)   | Run the PromoteToNamedSelection action.                                           |
 | [`Delete`](#PerfectlyInsulated.Delete)                                     | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                      | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                      | Gets the list of children, filtered by type.                                      |
@@ -39,8 +40,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`Magnitude`](#PerfectlyInsulated.Magnitude)                                                                           | Gets the Magnitude.                                           |
 | [`DefineAs`](#PerfectlyInsulated.DefineAs)                                                                             | Gets or sets the DefineAs.                                    |
 | [`Location`](#PerfectlyInsulated.Location)                                                                             | Gets or sets the Location.                                    |

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`EvaluateAllResults`](#FatigueTool.EvaluateAllResults)                         | Run the EvaluateAllResults action.                                                |
+| Name | Summary |
 |---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`EvaluateAllResults`](#FatigueTool.EvaluateAllResults)                         | Run the EvaluateAllResults action.                                                |
 | [`AddBiaxialityIndication`](#FatigueTool.AddBiaxialityIndication)               | Creates a new FatigueBiaxialityIndication                                         |
 | [`AddDamage`](#FatigueTool.AddDamage)                                           | Creates a new FatigueDamage                                                       |
 | [`AddDamageMatrix`](#FatigueTool.AddDamageMatrix)                               | Creates a new FatigueDamageMatrix                                                 |
@@ -47,8 +48,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`OneCycleIsEqualTo`](#FatigueTool.OneCycleIsEqualTo)                                                               | Gets or sets the OneCycleIsEqualTo.                           |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`OneCycleIsEqualTo`](#FatigueTool.OneCycleIsEqualTo)                                                               | Gets or sets the OneCycleIsEqualTo.                           |
 | [`CustomUnitsName`](#FatigueTool.CustomUnitsName)                                                                   | Gets or sets the Custom Units Name.                           |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`FatigueStrengthFactor`](#FatigueTool.FatigueStrengthFactor)                                                       | Gets or sets the FatigueStrengthFactor.                       |

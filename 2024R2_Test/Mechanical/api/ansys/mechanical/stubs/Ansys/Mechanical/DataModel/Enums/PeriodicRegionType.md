@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`EvenPeriodic`](#PeriodicRegionType.EvenPeriodic)   |    |
+| Name | Summary |
 |------------------------------------------------------|----|
+| [`EvenPeriodic`](#PeriodicRegionType.EvenPeriodic)   |    |
 | [`OddPeriodic`](#PeriodicRegionType.OddPeriodic)     |    |
 
 <a id="import-detail"></a>

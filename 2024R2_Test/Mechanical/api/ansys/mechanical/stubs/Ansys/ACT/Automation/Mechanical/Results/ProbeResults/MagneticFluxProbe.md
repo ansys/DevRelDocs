@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ExportAnimation`](#MagneticFluxProbe.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| Name | Summary |
 |-------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ExportAnimation`](#MagneticFluxProbe.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
 | [`ClearGeneratedData`](#MagneticFluxProbe.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`DuplicateWithoutResults`](#MagneticFluxProbe.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
 | [`EvaluateAllResults`](#MagneticFluxProbe.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
@@ -44,8 +45,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.                                                                                                                         |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.                                                                                                                         |
 | [`SymmetryMultiplier`](#MagneticFluxProbe.SymmetryMultiplier)                                                             | Gets or sets the SymmetryMultiplier.                                                                                                                                       |
 | [`MagneticFlux`](#MagneticFluxProbe.MagneticFlux)                                                                         | Gets the MagneticFlux.                                                                                                                                                     |
 | [`MaximumMagneticFlux`](#MagneticFluxProbe.MaximumMagneticFlux)                                                           | Gets the MaximumMagneticFlux.                                                                                                                                              |

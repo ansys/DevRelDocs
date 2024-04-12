@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Filter`](#ImportSettings.Filter)   | All materials will be imported if this list of the names of   |
+| Name | Summary |
 |--------------------------------------|---------------------------------------------------------------|
+| [`Filter`](#ImportSettings.Filter)   | All materials will be imported if this list of the names of   |
 
 <a id="import-detail"></a>
 

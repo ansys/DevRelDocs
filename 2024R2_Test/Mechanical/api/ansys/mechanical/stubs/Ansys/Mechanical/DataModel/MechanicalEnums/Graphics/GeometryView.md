@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Exterior`](#GeometryView.Exterior)                 |    |
+| Name | Summary |
 |------------------------------------------------------|----|
+| [`Exterior`](#GeometryView.Exterior)                 |    |
 | [`Isosurface`](#GeometryView.Isosurface)             |    |
 | [`CappedIsosurface`](#GeometryView.CappedIsosurface) |    |
 | [`SlicePlane`](#GeometryView.SlicePlane)             |    |

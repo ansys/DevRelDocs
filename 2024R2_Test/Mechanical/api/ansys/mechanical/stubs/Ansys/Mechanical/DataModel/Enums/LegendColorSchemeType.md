@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Rainbow`](#LegendColorSchemeType.Rainbow)                   |    |
+| Name | Summary |
 |---------------------------------------------------------------|----|
+| [`Rainbow`](#LegendColorSchemeType.Rainbow)                   |    |
 | [`ReverseRainbow`](#LegendColorSchemeType.ReverseRainbow)     |    |
 | [`GrayScale`](#LegendColorSchemeType.GrayScale)               |    |
 | [`ReverseGrayScale`](#LegendColorSchemeType.ReverseGrayScale) |    |

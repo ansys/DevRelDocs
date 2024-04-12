@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`MaterialIDs`](#ResultFileItemType.MaterialIDs)       |    |
+| Name | Summary |
 |--------------------------------------------------------|----|
+| [`MaterialIDs`](#ResultFileItemType.MaterialIDs)       |    |
 | [`ElementNameIDs`](#ResultFileItemType.ElementNameIDs) |    |
 | [`ElementTypeIDs`](#ResultFileItemType.ElementTypeIDs) |    |
 | [`ComponentName`](#ResultFileItemType.ComponentName)   |    |

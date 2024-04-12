@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddContactRegion`](#ConnectionGroup.AddContactRegion)                                     | Creates a new child ContactRegion.                                                |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddContactRegion`](#ConnectionGroup.AddContactRegion)                                     | Creates a new child ContactRegion.                                                |
 | [`AddJoint`](#ConnectionGroup.AddJoint)                                                     | Creates a new child Joint.                                                        |
 | [`SearchConnectionsForDuplicatePairs`](#ConnectionGroup.SearchConnectionsForDuplicatePairs) | Run the SearchConnectionsForDuplicatePairs action.                                |
 | [`AddSpotWeld`](#ConnectionGroup.AddSpotWeld)                                               | Creates a new child SpotWeld.                                                     |
@@ -49,8 +50,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`ConnectionType`](#ConnectionGroup.ConnectionType)                                                                    | Gets or sets the ConnectionType.                              |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`ConnectionType`](#ConnectionGroup.ConnectionType)                                                                    | Gets or sets the ConnectionType.                              |
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`ActiveConnections`](#ConnectionGroup.ActiveConnections)                                                              | Gets the ActiveConnections.                                   |
 | [`Connections`](Connections.md#Connections)                                                                            | Gets the Connections.                                         |

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Theme`](#IMechanicalUserInterface.Theme)   | Information about the current theme being in Mechanical.   |
+| Name | Summary |
 |----------------------------------------------|------------------------------------------------------------|
+| [`Theme`](#IMechanicalUserInterface.Theme)   | Information about the current theme being in Mechanical.   |
 
 <a id="import-detail"></a>
 

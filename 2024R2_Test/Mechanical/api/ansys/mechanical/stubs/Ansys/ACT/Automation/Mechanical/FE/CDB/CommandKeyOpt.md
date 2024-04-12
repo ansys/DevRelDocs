@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Knum`](#CommandKeyOpt.Knum)   | Gets the key option number.   |
+| Name | Summary |
 |---------------------------------|-------------------------------|
+| [`Knum`](#CommandKeyOpt.Knum)   | Gets the key option number.   |
 | [`Value`](#CommandKeyOpt.Value) | Gets the value.               |
 
 <a id="import-detail"></a>

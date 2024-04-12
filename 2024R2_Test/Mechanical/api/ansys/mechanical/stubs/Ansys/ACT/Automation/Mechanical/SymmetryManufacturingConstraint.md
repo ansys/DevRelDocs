@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`RenameBasedOnDefinition`](#SymmetryManufacturingConstraint.RenameBasedOnDefinition)   | Run the RenameBasedOnDefinition action.                                           |
+| Name | Summary |
 |-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`RenameBasedOnDefinition`](#SymmetryManufacturingConstraint.RenameBasedOnDefinition)   | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#SymmetryManufacturingConstraint.Delete)                                     | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                                   | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                                   | Gets the list of children, filtered by type.                                      |
@@ -36,8 +37,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`Axis`](#SymmetryManufacturingConstraint.Axis)                                                                     | Gets or sets the Axis.                                        |
 | [`ScopingMethod`](#SymmetryManufacturingConstraint.ScopingMethod)                                                   | Gets or sets the ScopingMethod.                               |
 | [`CoordinateSystem`](../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |

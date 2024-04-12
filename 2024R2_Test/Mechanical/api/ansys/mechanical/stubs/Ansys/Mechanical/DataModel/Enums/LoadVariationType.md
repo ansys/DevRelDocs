@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ConstantOrHeatFlow`](#LoadVariationType.ConstantOrHeatFlow)       |    |
+| Name | Summary |
 |---------------------------------------------------------------------|----|
+| [`ConstantOrHeatFlow`](#LoadVariationType.ConstantOrHeatFlow)       |    |
 | [`TemperatureDependent`](#LoadVariationType.TemperatureDependent)   |    |
 | [`LoadHistoryOrHeatFlow`](#LoadVariationType.LoadHistoryOrHeatFlow) |    |
 | [`PerfectInsulation`](#LoadVariationType.PerfectInsulation)         |    |

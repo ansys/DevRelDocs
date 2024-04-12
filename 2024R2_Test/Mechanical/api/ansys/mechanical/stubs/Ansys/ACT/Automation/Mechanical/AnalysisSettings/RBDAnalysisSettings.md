@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetStepEndTime`](#RBDAnalysisSettings.GetStepEndTime)                     | Gets the Step End Time at a given solution step.                                  |
+| Name | Summary |
 |-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetStepEndTime`](#RBDAnalysisSettings.GetStepEndTime)                     | Gets the Step End Time at a given solution step.                                  |
 | [`SetStepEndTime`](#RBDAnalysisSettings.SetStepEndTime)                     | Sets the Step End Time for a given solution step.                                 |
 | [`GetAutomaticTimeStepping`](#RBDAnalysisSettings.GetAutomaticTimeStepping) | Gets the Automatic Time Stepping at a given solution step.                        |
 | [`SetAutomaticTimeStepping`](#RBDAnalysisSettings.SetAutomaticTimeStepping) | Sets the Automatic Time Stepping for a given solution step.                       |
@@ -56,8 +57,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                                    | InternalObject property.                                               |
+| Name | Summary |
 |-----------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                                    | InternalObject property.                                               |
 | [`NumberOfSteps`](#RBDAnalysisSettings.NumberOfSteps)                                                                       | Gets or sets the NumberOfSteps.                                        |
 | [`CurrentStepNumber`](#RBDAnalysisSettings.CurrentStepNumber)                                                               | Gets or sets the CurrentStepNumber.                                    |
 | [`TimeIntegrationType`](#RBDAnalysisSettings.TimeIntegrationType)                                                           | Gets or sets the Integration Method.                                   |

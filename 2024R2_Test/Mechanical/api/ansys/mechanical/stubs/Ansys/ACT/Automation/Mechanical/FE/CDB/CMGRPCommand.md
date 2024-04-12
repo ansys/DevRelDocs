@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Aname`](#CMGRPCommand.Aname)   | Gets the assembly name.                   |
+| Name | Summary |
 |----------------------------------|-------------------------------------------|
+| [`Aname`](#CMGRPCommand.Aname)   | Gets the assembly name.                   |
 | [`Cnames`](#CMGRPCommand.Cnames) | Gets the component and/or assembly names. |
 | [`Name`](#CMGRPCommand.Name)     | Gets the command name.                    |
 | [`Index`](#CMGRPCommand.Index)   | Gets the command index.                   |

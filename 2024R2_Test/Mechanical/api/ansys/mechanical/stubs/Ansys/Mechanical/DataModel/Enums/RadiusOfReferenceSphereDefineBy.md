@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ProgramControlled`](#RadiusOfReferenceSphereDefineBy.ProgramControlled)   |    |
+| Name | Summary |
 |-----------------------------------------------------------------------------|----|
+| [`ProgramControlled`](#RadiusOfReferenceSphereDefineBy.ProgramControlled)   |    |
 | [`UserDefined`](#RadiusOfReferenceSphereDefineBy.UserDefined)               |    |
 
 <a id="import-detail"></a>

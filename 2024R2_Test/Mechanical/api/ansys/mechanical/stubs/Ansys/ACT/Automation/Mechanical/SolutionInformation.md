@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ImportResultTrackersFromFile`](#SolutionInformation.ImportResultTrackersFromFile)                 | Import Result Trackers from File.                                                 |
+| Name | Summary |
 |-----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ImportResultTrackersFromFile`](#SolutionInformation.ImportResultTrackersFromFile)                 | Import Result Trackers from File.                                                 |
 | [`AddDeformationPlotTracker`](#SolutionInformation.AddDeformationPlotTracker)                       | Creates a new TotalDeformation Plot Tracker.                                      |
 | [`AddStressPlotTracker`](#SolutionInformation.AddStressPlotTracker)                                 | Creates a new EquivalentStress Plot Tracker.                                      |
 | [`AddStrainPlotTracker`](#SolutionInformation.AddStrainPlotTracker)                                 | Creates a new EquivalentElasticStrainRST Plot Tracker.                            |
@@ -121,8 +122,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`EnvironmentSelection`](#SolutionInformation.EnvironmentSelection)                                                 | Gets or Sets the EnvironmentSelection to an Analysis object.   |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
+| [`EnvironmentSelection`](#SolutionInformation.EnvironmentSelection)                                                 | Gets or Sets the EnvironmentSelection to an Analysis object.   |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.             |
 | [`DisplayPoints`](#SolutionInformation.DisplayPoints)                                                               | Gets or sets the DisplayPoints.                                |
 | [`IdentifyElementViolations`](#SolutionInformation.IdentifyElementViolations)                                       | Gets or sets the IdentifyElementViolations.                    |

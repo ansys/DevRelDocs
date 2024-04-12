@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Combined`](#SolveBehaviourType.Combined)     |    |
+| Name | Summary |
 |------------------------------------------------|----|
+| [`Combined`](#SolveBehaviourType.Combined)     |    |
 | [`Individual`](#SolveBehaviourType.Individual) |    |
 
 <a id="import-detail"></a>

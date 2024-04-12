@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`MaterialId`](#MAPDLBeamData.MaterialId)         | Gets the Material Id number for the beam connection.   |
+| Name | Summary |
 |---------------------------------------------------|--------------------------------------------------------|
+| [`MaterialId`](#MAPDLBeamData.MaterialId)         | Gets the Material Id number for the beam connection.   |
 | [`ElementId`](#MAPDLBeamData.ElementId)           | Gets the Element number for the object.                |
 | [`RealConstantId`](#MAPDLBeamData.RealConstantId) | Gets the Real Constant Id number for the object.       |
 

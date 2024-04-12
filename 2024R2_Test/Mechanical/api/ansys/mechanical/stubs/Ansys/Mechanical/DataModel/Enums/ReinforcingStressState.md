@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`PlaneStressOnly`](#ReinforcingStressState.PlaneStressOnly)                                                   |    |
+| Name | Summary |
 |----------------------------------------------------------------------------------------------------------------|----|
+| [`PlaneStressOnly`](#ReinforcingStressState.PlaneStressOnly)                                                   |    |
 | [`PlaneStressWithTransverseShearAndBending`](#ReinforcingStressState.PlaneStressWithTransverseShearAndBending) |    |
 | [`PlaneStressWithTransverseShear`](#ReinforcingStressState.PlaneStressWithTransverseShear)                     |    |
 

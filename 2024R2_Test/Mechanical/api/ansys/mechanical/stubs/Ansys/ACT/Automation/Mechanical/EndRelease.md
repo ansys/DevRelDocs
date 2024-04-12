@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#EndRelease.Delete)                                   | Run the Delete action.                                                            |
+| Name | Summary |
 |------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#EndRelease.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                            | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                            | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#EndRelease.AddComment)                           | Creates a new child Comment.                                                      |
@@ -38,8 +39,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`CoordinateSystem`](../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the Coordinate System.                           |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`CoordinateSystem`](../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the Coordinate System.                           |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`Behavior`](#EndRelease.Behavior)                                                                                  | Gets or sets the Behavior.                                    |
 | [`RotationX`](#EndRelease.RotationX)                                                                                | Gets or sets the RotationX.                                   |

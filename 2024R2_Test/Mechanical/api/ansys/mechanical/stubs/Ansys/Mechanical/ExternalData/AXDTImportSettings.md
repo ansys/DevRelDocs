@@ -16,8 +16,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Dimension`](#AXDTImportSettings.Dimension)                             | The dimension of the AXDT file.         |
+| Name | Summary |
 |--------------------------------------------------------------------------|-----------------------------------------|
+| [`Dimension`](#AXDTImportSettings.Dimension)                             | The dimension of the AXDT file.         |
 | [`Format`](../DataModel/Enums/GeometryImportPreference/Format.md#Format) | Gets the existing corresponding format. |
 
 <a id="import-detail"></a>

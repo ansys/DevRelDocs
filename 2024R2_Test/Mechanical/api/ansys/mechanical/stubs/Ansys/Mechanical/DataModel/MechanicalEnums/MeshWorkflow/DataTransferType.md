@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ByTopology`](#DataTransferType.ByTopology)               |    |
+| Name | Summary |
 |------------------------------------------------------------|----|
+| [`ByTopology`](#DataTransferType.ByTopology)               |    |
 | [`ByZones`](#DataTransferType.ByZones)                     |    |
 | [`ProgramControlled`](#DataTransferType.ProgramControlled) |    |
 

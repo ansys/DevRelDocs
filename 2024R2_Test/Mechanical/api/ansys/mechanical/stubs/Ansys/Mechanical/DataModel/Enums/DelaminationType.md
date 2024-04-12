@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ContactDebonding`](../../../ACT/Automation/Mechanical/ContactDebonding.md#ContactDebonding)                |    |
+| Name | Summary |
 |--------------------------------------------------------------------------------------------------------------|----|
+| [`ContactDebonding`](../../../ACT/Automation/Mechanical/ContactDebonding.md#ContactDebonding)                |    |
 | [`CrackGrowth`](#DelaminationType.CrackGrowth)                                                               |    |
 | [`InterfaceDelamination`](../../../ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination) |    |
 

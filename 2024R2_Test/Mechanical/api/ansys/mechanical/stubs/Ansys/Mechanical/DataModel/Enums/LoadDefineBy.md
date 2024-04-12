@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ComplexComponents`](#LoadDefineBy.ComplexComponents)       |    |
+| Name | Summary |
 |--------------------------------------------------------------|----|
+| [`ComplexComponents`](#LoadDefineBy.ComplexComponents)       |    |
 | [`ComplexVector`](#LoadDefineBy.ComplexVector)               |    |
 | [`ComplexNormalTo`](#LoadDefineBy.ComplexNormalTo)           |    |
 | [`Components`](#LoadDefineBy.Components)                     |    |

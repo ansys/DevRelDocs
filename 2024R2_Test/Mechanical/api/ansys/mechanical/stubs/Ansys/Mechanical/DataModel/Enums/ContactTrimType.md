@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`On`](#ContactTrimType.On)                               |    |
+| Name | Summary |
 |-----------------------------------------------------------|----|
+| [`On`](#ContactTrimType.On)                               |    |
 | [`Off`](#ContactTrimType.Off)                             |    |
 | [`FaceBased`](#ContactTrimType.FaceBased)                 |    |
 | [`ProgramControlled`](#ContactTrimType.ProgramControlled) |    |

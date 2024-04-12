@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Elemental`](#ShellThicknessUpdate.Elemental)   |    |
+| Name | Summary |
 |--------------------------------------------------|----|
+| [`Elemental`](#ShellThicknessUpdate.Elemental)   |    |
 | [`Nodal`](#ShellThicknessUpdate.Nodal)           |    |
 
 <a id="import-detail"></a>

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`BodyToBody`](#JointScopingType.BodyToBody)     |    |
+| Name | Summary |
 |--------------------------------------------------|----|
+| [`BodyToBody`](#JointScopingType.BodyToBody)     |    |
 | [`BodyToGround`](#JointScopingType.BodyToGround) |    |
 
 <a id="import-detail"></a>

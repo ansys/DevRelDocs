@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddLoadCombination`](#SolutionCombinationDefinition.AddLoadCombination)         | Add a LoadCombination to the SolutionCombination Definition                      |
+| Name | Summary |
 |-----------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
+| [`AddLoadCombination`](#SolutionCombinationDefinition.AddLoadCombination)         | Add a LoadCombination to the SolutionCombination Definition                      |
 | [`DeleteLoadCombination`](#SolutionCombinationDefinition.DeleteLoadCombination)   | Delete a LoadCombination from the SolutionCombination Definition                 |
 | [`AddBaseCase`](#SolutionCombinationDefinition.AddBaseCase)                       | Add a BaseCase to the SolutionCombinationDefinition                              |
 | [`DeleteBaseCase`](#SolutionCombinationDefinition.DeleteBaseCase)                 | Delete a BaseCase from the SolutionCombinationDefinition                         |
@@ -44,8 +45,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`LoadCombinationCount`](#SolutionCombinationDefinition.LoadCombinationCount)   | Gets the number of load combinations   |
+| Name | Summary |
 |---------------------------------------------------------------------------------|----------------------------------------|
+| [`LoadCombinationCount`](#SolutionCombinationDefinition.LoadCombinationCount)   | Gets the number of load combinations   |
 | [`BaseCaseCount`](#SolutionCombinationDefinition.BaseCaseCount)                 | Gets the number of bases cases         |
 
 <a id="import-detail"></a>

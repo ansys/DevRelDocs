@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`BoundaryConditionVisibility`](#AnalysisSettingsGraph.BoundaryConditionVisibility)   | BoundaryConditionVisibility property.   |
+| Name | Summary |
 |---------------------------------------------------------------------------------------|-----------------------------------------|
+| [`BoundaryConditionVisibility`](#AnalysisSettingsGraph.BoundaryConditionVisibility)   | BoundaryConditionVisibility property.   |
 
 <a id="import-detail"></a>
 

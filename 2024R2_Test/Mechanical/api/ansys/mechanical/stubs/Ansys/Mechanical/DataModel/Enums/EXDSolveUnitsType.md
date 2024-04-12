@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`umpgms`](#EXDSolveUnitsType.umpgms)   |    |
+| Name | Summary |
 |-----------------------------------------|----|
+| [`umpgms`](#EXDSolveUnitsType.umpgms)   |    |
 | [`mkgs`](#EXDSolveUnitsType.mkgs)       |    |
 | [`cmgus`](#EXDSolveUnitsType.cmgus)     |    |
 | [`mmmgms`](#EXDSolveUnitsType.mmmgms)   |    |

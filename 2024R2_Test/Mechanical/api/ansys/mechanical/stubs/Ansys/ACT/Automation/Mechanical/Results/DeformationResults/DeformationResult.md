@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#DeformationResult.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |-------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#DeformationResult.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#DeformationResult.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#DeformationResult.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#DeformationResult.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
@@ -49,8 +50,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Mode`](#DeformationResult.Mode)                                                                                         | Gets or sets the Mode.                                                 |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`Mode`](#DeformationResult.Mode)                                                                                         | Gets or sets the Mode.                                                 |
 | [`ReportedFrequency`](#DeformationResult.ReportedFrequency)                                                               | Gets the ReportedFrequency.                                            |
 | [`DampedFrequency`](#DeformationResult.DampedFrequency)                                                                   | Gets the DampedFrequency.                                              |
 | [`EnvironmentSelection`](#DeformationResult.EnvironmentSelection)                                                         | Gets or sets the EnvironmentSelection.                                 |

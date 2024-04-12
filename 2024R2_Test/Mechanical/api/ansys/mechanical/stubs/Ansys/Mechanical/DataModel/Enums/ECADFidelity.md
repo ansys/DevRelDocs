@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`PCBBlock`](#ECADFidelity.PCBBlock)                 |    |
+| Name | Summary |
 |------------------------------------------------------|----|
+| [`PCBBlock`](#ECADFidelity.PCBBlock)                 |    |
 | [`PCBLayers`](#ECADFidelity.PCBLayers)               |    |
 | [`BGAFullFidelity`](#ECADFidelity.BGAFullFidelity)   |    |
 | [`BGABlock`](#ECADFidelity.BGABlock)                 |    |

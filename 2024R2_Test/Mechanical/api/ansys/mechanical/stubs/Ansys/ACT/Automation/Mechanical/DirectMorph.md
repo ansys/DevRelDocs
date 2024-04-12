@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Generate`](#DirectMorph.Generate)                               | Generate morph control                                                            |
+| Name | Summary |
 |-------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Generate`](#DirectMorph.Generate)                               | Generate morph control                                                            |
 | [`Clear`](#DirectMorph.Clear)                                     | clear morph control                                                               |
 | [`Delete`](#DirectMorph.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                             | Gets the list of children, filtered by type.                                      |
@@ -37,8 +38,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`DisplacementFile`](#DirectMorph.DisplacementFile)                                                                 | Gets or sets the DisplacementFile.                            |
 | [`ScaleFactor`](#DirectMorph.ScaleFactor)                                                                           | Gets or sets the ScaleFactor.                                 |
 | [`Suppressed`](#DirectMorph.Suppressed)                                                                             | Gets or sets the Suppressed.                                  |

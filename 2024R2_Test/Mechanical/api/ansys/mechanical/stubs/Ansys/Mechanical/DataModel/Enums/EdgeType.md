@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Line`](#EdgeType.Line)       |    |
+| Name | Summary |
 |--------------------------------|----|
+| [`Line`](#EdgeType.Line)       |    |
 | [`Circle`](#EdgeType.Circle)   |    |
 | [`Spline`](#EdgeType.Spline)   |    |
 | [`Faceted`](#EdgeType.Faceted) |    |

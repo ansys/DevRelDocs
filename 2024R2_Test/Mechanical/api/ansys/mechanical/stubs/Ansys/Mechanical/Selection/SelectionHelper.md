@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Constructors
 
-| [`CreateVector3D`](#SelectionHelper.CreateVector3D)       | Creates a Vector3D object based on the given selection and reverse flag.                               |
+| Name | Summary |
 |-----------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
+| [`CreateVector3D`](#SelectionHelper.CreateVector3D)       | Creates a Vector3D object based on the given selection and reverse flag.                               |
 | [`CastRayOnGeometry`](#SelectionHelper.CastRayOnGeometry) | Finds geometry entities intersecting input BoundVector and returns them in list of GeometryRayCastHit. |
 
 <a id="import-detail"></a>

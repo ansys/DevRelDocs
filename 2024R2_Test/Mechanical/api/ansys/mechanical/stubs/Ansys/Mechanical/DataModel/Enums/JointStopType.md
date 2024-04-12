@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Lock`](#JointStopType.Lock)   |    |
+| Name | Summary |
 |---------------------------------|----|
+| [`Lock`](#JointStopType.Lock)   |    |
 | [`None_`](#JointStopType.None_) |    |
 | [`Stop`](#JointStopType.Stop)   |    |
 

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Done`](#SolutionStatusType.Done)                                                                 |    |
+| Name | Summary |
 |----------------------------------------------------------------------------------------------------|----|
+| [`Done`](#SolutionStatusType.Done)                                                                 |    |
 | [`AdaptiveRefinementRequired`](#SolutionStatusType.AdaptiveRefinementRequired)                     |    |
 | [`SolveRequired`](#SolutionStatusType.SolveRequired)                                               |    |
 | [`InputFileGenerationRequired`](#SolutionStatusType.InputFileGenerationRequired)                   |    |

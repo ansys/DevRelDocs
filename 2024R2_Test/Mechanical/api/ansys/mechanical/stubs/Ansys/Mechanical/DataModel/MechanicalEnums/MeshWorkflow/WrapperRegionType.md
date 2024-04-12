@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`External`](#WrapperRegionType.External)           |    |
+| Name | Summary |
 |-----------------------------------------------------|----|
+| [`External`](#WrapperRegionType.External)           |    |
 | [`MaterialPoint`](#WrapperRegionType.MaterialPoint) |    |
 
 <a id="import-detail"></a>

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`NumberOfFrames`](#ResultAnimationOptions.NumberOfFrames)                                     | Gets or Sets the Number Of Frames for Distributed Result Animation.                         |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
+| [`NumberOfFrames`](#ResultAnimationOptions.NumberOfFrames)                                     | Gets or Sets the Number Of Frames for Distributed Result Animation.                         |
 | [`Duration`](#ResultAnimationOptions.Duration)                                                 | Gets or Sets the Duration for Result Animation.                                             |
 | [`RangeType`](#ResultAnimationOptions.RangeType)                                               | Gets or Sets the Range Type for Result Animation.                                           |
 | [`UpdateContourRangeAtEachFrame`](#ResultAnimationOptions.UpdateContourRangeAtEachFrame)       | Gets or Sets if the Legend Contours will Update at Each Frame.                              |

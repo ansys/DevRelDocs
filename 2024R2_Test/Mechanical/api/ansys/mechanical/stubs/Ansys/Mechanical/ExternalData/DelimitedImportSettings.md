@@ -16,16 +16,18 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Clear`](../Table/DelimitedImportSettings.md#DelimitedImportSettings.Clear)                 |                                                       |
+| Name | Summary |
 |----------------------------------------------------------------------------------------------|-------------------------------------------------------|
+| [`Clear`](../Table/DelimitedImportSettings.md#DelimitedImportSettings.Clear)                 |                                                       |
 | [`GetEnumerator`](../Table/DelimitedImportSettings.md#DelimitedImportSettings.GetEnumerator) |                                                       |
 | [`RemoveAt`](../Table/DelimitedImportSettings.md#DelimitedImportSettings.RemoveAt)           | Removes the import definition at the specified index. |
 | [`UseColumn`](../Table/DelimitedImportSettings.md#DelimitedImportSettings.UseColumn)         |                                                       |
 
 ### Properties
 
-| [`Delimiter`](../Table/DelimitedImportSettings.md#DelimitedImportSettings.Delimiter)            | The delimiter used to separate columns.                                              |
+| Name | Summary |
 |-------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| [`Delimiter`](../Table/DelimitedImportSettings.md#DelimitedImportSettings.Delimiter)            | The delimiter used to separate columns.                                              |
 | [`AverageCornerNodesToMidsideNodes`](#DelimitedImportSettings.AverageCornerNodesToMidsideNodes) |                                                                                      |
 | [`Count`](../Table/DelimitedImportSettings.md#DelimitedImportSettings.Count)                    | Gets the number of column definitions.                                               |
 | [`Item`](../Table/DelimitedImportSettings.md#DelimitedImportSettings.Item)                      | Item property.                                                                       |

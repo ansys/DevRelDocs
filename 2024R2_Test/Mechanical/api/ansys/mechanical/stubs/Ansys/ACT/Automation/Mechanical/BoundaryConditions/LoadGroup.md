@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GenerateRemoteLoads`](#LoadGroup.GenerateRemoteLoads)         | Run the action to generate the remote loads from the source data.                 |
+| Name | Summary |
 |-----------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GenerateRemoteLoads`](#LoadGroup.GenerateRemoteLoads)         | Run the action to generate the remote loads from the source data.                 |
 | [`AddCurrent`](#LoadGroup.AddCurrent)                           | Creates a new Current                                                             |
 | [`AddVoltage`](#LoadGroup.AddVoltage)                           | Creates a new Voltage                                                             |
 | [`Delete`](#LoadGroup.Delete)                                   | Run the Delete action.                                                            |
@@ -41,8 +42,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`SolutionId`](#LoadGroup.SolutionId)                                                                                  | Gets or sets the SolutionId.                                  |
 | [`NumberOfFrequenciesToConsider`](#LoadGroup.NumberOfFrequenciesToConsider)                                            | Gets or sets the NumberOfFrequenciesToConsider.               |
 | [`NumberOfTurns`](#LoadGroup.NumberOfTurns)                                                                            | Gets or sets the NumberOfTurns.                               |

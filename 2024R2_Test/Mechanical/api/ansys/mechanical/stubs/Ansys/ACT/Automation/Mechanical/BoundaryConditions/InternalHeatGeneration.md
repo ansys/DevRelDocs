@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetActivateAtLoadStep`](#InternalHeatGeneration.GetActivateAtLoadStep)     | GetActivateAtLoadStep method.                                                     |
+| Name | Summary |
 |------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetActivateAtLoadStep`](#InternalHeatGeneration.GetActivateAtLoadStep)     | GetActivateAtLoadStep method.                                                     |
 | [`SetActivateAtLoadStep`](#InternalHeatGeneration.SetActivateAtLoadStep)     | SetActivateAtLoadStep method.                                                     |
 | [`PromoteToNamedSelection`](#InternalHeatGeneration.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
 | [`Delete`](#InternalHeatGeneration.Delete)                                   | Run the Delete action.                                                            |
@@ -41,8 +42,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`NumberOfSegments`](#InternalHeatGeneration.NumberOfSegments)                                                         | Gets or sets the NumberOfSegments.                            |
 | [`Magnitude`](#InternalHeatGeneration.Magnitude)                                                                       | Gets the Magnitude.                                           |
 | [`Location`](#InternalHeatGeneration.Location)                                                                         | Gets or sets the Location.                                    |

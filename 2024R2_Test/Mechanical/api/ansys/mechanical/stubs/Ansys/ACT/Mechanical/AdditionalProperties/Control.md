@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Expression`](#Control.Expression)   |    |
+| Name | Summary |
 |---------------------------------------|----|
+| [`Expression`](#Control.Expression)   |    |
 | [`Double`](#Control.Double)           |    |
 | [`ApplyCancel`](#Control.ApplyCancel) |    |
 | [`Options`](#Control.Options)         |    |

@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`No`](#EXDErosionOnGeomStrainType.No)   |    |
+| Name | Summary |
 |------------------------------------------|----|
+| [`No`](#EXDErosionOnGeomStrainType.No)   |    |
 | [`Yes`](#EXDErosionOnGeomStrainType.Yes) |    |
 
 <a id="import-detail"></a>

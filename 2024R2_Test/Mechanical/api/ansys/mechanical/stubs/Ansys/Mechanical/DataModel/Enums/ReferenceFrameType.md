@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`EulerianVirtual`](#ReferenceFrameType.EulerianVirtual)   |    |
+| Name | Summary |
 |------------------------------------------------------------|----|
+| [`EulerianVirtual`](#ReferenceFrameType.EulerianVirtual)   |    |
 | [`Lagrangian`](#ReferenceFrameType.Lagrangian)             |    |
 | [`Particle`](#ReferenceFrameType.Particle)                 |    |
 | [`SALEDomain`](#ReferenceFrameType.SALEDomain)             |    |

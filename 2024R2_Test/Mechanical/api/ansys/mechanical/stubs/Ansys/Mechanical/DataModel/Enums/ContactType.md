@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Bonded`](#ContactType.Bonded)                                   |    |
+| Name | Summary |
 |-------------------------------------------------------------------|----|
+| [`Bonded`](#ContactType.Bonded)                                   |    |
 | [`BondedInitial`](#ContactType.BondedInitial)                     |    |
 | [`ForcedFrictionalSliding`](#ContactType.ForcedFrictionalSliding) |    |
 | [`Frictional`](#ContactType.Frictional)                           |    |

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`HexCore`](#VolumeMeshType.HexCore)         |    |
+| Name | Summary |
 |----------------------------------------------|----|
+| [`HexCore`](#VolumeMeshType.HexCore)         |    |
 | [`Tetrahedral`](#VolumeMeshType.Tetrahedral) |    |
 
 <a id="import-detail"></a>

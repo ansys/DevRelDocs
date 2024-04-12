@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddTransformation`](#CoordinateSystem.AddTransformation)                                             | Adds a new transformation.                                                        |
+| Name | Summary |
 |--------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddTransformation`](#CoordinateSystem.AddTransformation)                                             | Adds a new transformation.                                                        |
 | [`RemoveTransformation`](#CoordinateSystem.RemoveTransformation)                                       | Removes a tranformation.                                                          |
 | [`SetOriginLocation`](#CoordinateSystem.SetOriginLocation)                                             | Changes the origin location.                                                      |
 | [`SetTransformationValue`](#CoordinateSystem.SetTransformationValue)                                   | Sets the value of a transformation.                                               |
@@ -64,8 +65,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`TransformationCount`](#CoordinateSystem.TransformationCount)                                                      | Gets the number of transformations.                                   |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
+| [`TransformationCount`](#CoordinateSystem.TransformationCount)                                                      | Gets the number of transformations.                                   |
 | [`IsGlobal`](#CoordinateSystem.IsGlobal)                                                                            | Gets the IsGlobal.                                                    |
 | [`OriginLocation`](#CoordinateSystem.OriginLocation)                                                                | Gets or sets the origin location.                                     |
 | [`OriginX`](#CoordinateSystem.OriginX)                                                                              | Gets or sets the origin X coordinate.                                 |

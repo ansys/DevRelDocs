@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`AbsoluteValue`](#ElementControlsNormalStiffnessType.AbsoluteValue)         |    |
+| Name | Summary |
 |------------------------------------------------------------------------------|----|
+| [`AbsoluteValue`](#ElementControlsNormalStiffnessType.AbsoluteValue)         |    |
 | [`Factor`](#ElementControlsNormalStiffnessType.Factor)                       |    |
 | [`FromContactRegion`](#ElementControlsNormalStiffnessType.FromContactRegion) |    |
 

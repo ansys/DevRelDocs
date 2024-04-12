@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Aname`](#CMEDITCommand.Aname)   | Gets the assembly name.                 |
+| Name | Summary |
 |-----------------------------------|-----------------------------------------|
+| [`Aname`](#CMEDITCommand.Aname)   | Gets the assembly name.                 |
 | [`Oper`](#CMEDITCommand.Oper)     | Gets the operation label (add or dele). |
 | [`Cnames`](#CMEDITCommand.Cnames) | Gets the component names.               |
 | [`Name`](#CMEDITCommand.Name)     | Gets the command name.                  |

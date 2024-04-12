@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Manual`](#FarFieldRadiationSurfaceType.Manual)                       |    |
+| Name | Summary |
 |------------------------------------------------------------------------|----|
+| [`Manual`](#FarFieldRadiationSurfaceType.Manual)                       |    |
 | [`No`](#FarFieldRadiationSurfaceType.No)                               |    |
 | [`ProgramControlled`](#FarFieldRadiationSurfaceType.ProgramControlled) |    |
 

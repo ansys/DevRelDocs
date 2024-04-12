@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Adapt`](#IDefinition.Adapt)   | Creates an adapter for a given load object from Mechanical.   |
+| Name | Summary |
 |---------------------------------|---------------------------------------------------------------|
+| [`Adapt`](#IDefinition.Adapt)   | Creates an adapter for a given load object from Mechanical.   |
 
 <a id="import-detail"></a>
 

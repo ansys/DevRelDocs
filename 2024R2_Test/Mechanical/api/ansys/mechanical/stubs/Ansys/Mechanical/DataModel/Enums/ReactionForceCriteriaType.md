@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`AbsoluteMaximum`](#ReactionForceCriteriaType.AbsoluteMaximum)   |    |
+| Name | Summary |
 |-------------------------------------------------------------------|----|
+| [`AbsoluteMaximum`](#ReactionForceCriteriaType.AbsoluteMaximum)   |    |
 | [`Sum`](#ReactionForceCriteriaType.Sum)                           |    |
 
 <a id="import-detail"></a>

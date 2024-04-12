@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddRow`](#AcousticsFarFieldResultWorksheet.AddRow)                                             | Adds a Row to the worksheet.                                    |
+| Name | Summary |
 |--------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
+| [`AddRow`](#AcousticsFarFieldResultWorksheet.AddRow)                                             | Adds a Row to the worksheet.                                    |
 | [`DeleteRow`](#AcousticsFarFieldResultWorksheet.DeleteRow)                                       | Deletes a row from the worksheet at index.                      |
 | [`InsertRow`](#AcousticsFarFieldResultWorksheet.InsertRow)                                       | Insert a row from the worksheet at index.                       |
 | [`DuplicateRow`](#AcousticsFarFieldResultWorksheet.DuplicateRow)                                 | Insert a row from the worksheet at index.                       |
@@ -34,8 +35,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`RowCount`](#AcousticsFarFieldResultWorksheet.RowCount)   | Return the number of entries.   |
+| Name | Summary |
 |------------------------------------------------------------|---------------------------------|
+| [`RowCount`](#AcousticsFarFieldResultWorksheet.RowCount)   | Return the number of entries.   |
 
 <a id="import-detail"></a>
 

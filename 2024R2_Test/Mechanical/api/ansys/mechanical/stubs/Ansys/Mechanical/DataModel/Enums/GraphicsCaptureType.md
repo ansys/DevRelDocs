@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ImageAndLegend`](#GraphicsCaptureType.ImageAndLegend)   |    |
+| Name | Summary |
 |-----------------------------------------------------------|----|
+| [`ImageAndLegend`](#GraphicsCaptureType.ImageAndLegend)   |    |
 | [`ImageOnly`](#GraphicsCaptureType.ImageOnly)             |    |
 
 <a id="import-detail"></a>

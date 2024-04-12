@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Generate`](#NodeMerge.Generate)                               | Run the Generate action.                                                          |
+| Name | Summary |
 |-----------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Generate`](#NodeMerge.Generate)                               | Run the Generate action.                                                          |
 | [`RenameBasedOnDefinition`](#NodeMerge.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#NodeMerge.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                           | Gets the list of children, filtered by type.                                      |
@@ -40,8 +41,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`ToleranceValue`](#NodeMerge.ToleranceValue)                                                                       | Gets/ Sets the ToleranceValue.                                |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`ToleranceValue`](#NodeMerge.ToleranceValue)                                                                       | Gets/ Sets the ToleranceValue.                                |
 | [`ScopingMethod`](#NodeMerge.ScopingMethod)                                                                         | ScopingMethod property.                                       |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`MasterBodies`](#NodeMerge.MasterBodies)                                                                           | Gets the MasterBodies.                                        |

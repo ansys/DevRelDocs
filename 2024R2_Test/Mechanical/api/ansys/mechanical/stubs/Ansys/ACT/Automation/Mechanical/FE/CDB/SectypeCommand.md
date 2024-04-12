@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Secid`](#SectypeCommand.Secid)         | Gets the section type number.                                                                          |
+| Name | Summary |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------|
+| [`Secid`](#SectypeCommand.Secid)         | Gets the section type number.                                                                          |
 | [`Type`](#SectypeCommand.Type)           | Get the type.                                                                                          |
 | [`Subtype`](#SectypeCommand.Subtype)     | Gets the subtype.                                                                                      |
 | [`Secname`](#SectypeCommand.Secname)     | Gets the section name.                                                                                 |

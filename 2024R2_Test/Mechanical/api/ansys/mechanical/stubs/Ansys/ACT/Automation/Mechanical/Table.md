@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`CreateAndAddColumn`](#Table.CreateAndAddColumn)           | Creates and adds a new column (data series) to the table.                         |
+| Name | Summary |
 |-------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`CreateAndAddColumn`](#Table.CreateAndAddColumn)           | Creates and adds a new column (data series) to the table.                         |
 | [`GetDataURI`](#Table.GetDataURI)                           | Gets the data URI from which the tabular data was imported.                       |
 | [`GetImportSettings`](#Table.GetImportSettings)             | Get the settings used for an import operation.                                    |
 | [`Import`](#Table.Import)                                   |                                                                                   |
@@ -41,8 +42,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`IsStrictSizing`](#Table.IsStrictSizing)                                                                           | Whether column add/create/import/refresh operations cannot grow the number of rows.    |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| [`IsStrictSizing`](#Table.IsStrictSizing)                                                                           | Whether column add/create/import/refresh operations cannot grow the number of rows.    |
 | [`RefreshImportOn`](#Table.RefreshImportOn)                                                                         | Controls when the imported file should be refreshed.                                   |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.                                     |
 | [`APDLName`](#Table.APDLName)                                                                                       | Gets or sets the name of the Table when explicitly written to the APDL input file.     |

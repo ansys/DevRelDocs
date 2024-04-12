@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`INTELMPI`](#MPIType.INTELMPI)   |    |
+| Name | Summary |
 |-----------------------------------|----|
+| [`INTELMPI`](#MPIType.INTELMPI)   |    |
 | [`MSMPI`](#MPIType.MSMPI)         |    |
 | [`PCMPI`](#MPIType.PCMPI)         |    |
 

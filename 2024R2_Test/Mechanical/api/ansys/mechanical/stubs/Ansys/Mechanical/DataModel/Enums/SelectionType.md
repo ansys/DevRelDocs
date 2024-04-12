@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`GeoVertex`](#SelectionType.GeoVertex)             |    |
+| Name | Summary |
 |-----------------------------------------------------|----|
+| [`GeoVertex`](#SelectionType.GeoVertex)             |    |
 | [`GeoEdge`](#SelectionType.GeoEdge)                 |    |
 | [`GeoFace`](#SelectionType.GeoFace)                 |    |
 | [`GeoBody`](#SelectionType.GeoBody)                 |    |

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`LengthType`](#VectorDisplay.LengthType)                       | Sets the result vector length type.             |
+| Name | Summary |
 |-----------------------------------------------------------------|-------------------------------------------------|
+| [`LengthType`](#VectorDisplay.LengthType)                       | Sets the result vector length type.             |
 | [`DisplayType`](#VectorDisplay.DisplayType)                     | Sets the vector display type.                   |
 | [`ControlDisplayDensity`](#VectorDisplay.ControlDisplayDensity) | Allows control of the vector display density.   |
 | [`DisplayDensity`](#VectorDisplay.DisplayDensity)               | Sets the vector display density in percentage.  |

@@ -16,8 +16,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Add`](#ExternalDataFileCollection.Add)                     |                |
+| Name | Summary |
 |--------------------------------------------------------------|----------------|
+| [`Add`](#ExternalDataFileCollection.Add)                     |                |
 | [`Clear`](#ExternalDataFileCollection.Clear)                 |                |
 | [`Contains`](#ExternalDataFileCollection.Contains)           |                |
 | [`CopyTo`](#ExternalDataFileCollection.CopyTo)               | CopyTo method. |
@@ -29,8 +30,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`SaveFilesWithProject`](#ExternalDataFileCollection.SaveFilesWithProject)   | Gets or sets the flag controlling if the external data files will be copied to the project directory.   |
+| Name | Summary |
 |------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
+| [`SaveFilesWithProject`](#ExternalDataFileCollection.SaveFilesWithProject)   | Gets or sets the flag controlling if the external data files will be copied to the project directory.   |
 | [`Item`](#ExternalDataFileCollection.Item)                                   | Item property.                                                                                          |
 | [`Count`](#ExternalDataFileCollection.Count)                                 | Gets the number of external data files.                                                                 |
 

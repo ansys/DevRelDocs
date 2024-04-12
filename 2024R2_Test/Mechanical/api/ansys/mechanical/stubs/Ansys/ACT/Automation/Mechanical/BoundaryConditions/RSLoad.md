@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#RSLoad.Delete)                                   | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#RSLoad.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                        | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                        | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#RSLoad.AddComment)                           | Creates a new child Comment.                                                      |
@@ -38,8 +39,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`BoundaryCondition`](#RSLoad.BoundaryCondition)                                                                       | Gets or sets the BoundaryCondition.                           |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`BoundaryCondition`](#RSLoad.BoundaryCondition)                                                                       | Gets or sets the BoundaryCondition.                           |
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`ScaleFactor`](#RSLoad.ScaleFactor)                                                                                   | Gets or sets the ScaleFactor.                                 |
 | [`MissingMassEffectZPA`](#RSLoad.MissingMassEffectZPA)                                                                 | Gets or sets the MissingMassEffectZPA.                        |

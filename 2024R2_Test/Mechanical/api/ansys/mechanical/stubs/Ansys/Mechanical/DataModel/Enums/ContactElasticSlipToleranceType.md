@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Factor`](#ContactElasticSlipToleranceType.Factor)                       |    |
+| Name | Summary |
 |---------------------------------------------------------------------------|----|
+| [`Factor`](#ContactElasticSlipToleranceType.Factor)                       |    |
 | [`ProgramControlled`](#ContactElasticSlipToleranceType.ProgramControlled) |    |
 | [`Value`](#ContactElasticSlipToleranceType.Value)                         |    |
 

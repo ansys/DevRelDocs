@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`CoordinateSystem`](../../../ACT/Common/CoordinateSystem.md#CoordinateSystem)       |    |
+| Name | Summary |
 |--------------------------------------------------------------------------------------|----|
+| [`CoordinateSystem`](../../../ACT/Common/CoordinateSystem.md#CoordinateSystem)       |    |
 | [`RotationAndTranslation`](#PartTransformationDefinitionType.RotationAndTranslation) |    |
 
 <a id="import-detail"></a>

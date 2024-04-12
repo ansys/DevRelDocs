@@ -18,13 +18,15 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Equivalent`](#Point.Equivalent)   | Checks to see if another point is equivalent to this one.   |
+| Name | Summary |
 |-------------------------------------|-------------------------------------------------------------|
+| [`Equivalent`](#Point.Equivalent)   | Checks to see if another point is equivalent to this one.   |
 
 ### Properties
 
-| [`Type`](#Point.Type)                                | Type property.                                                         |
+| Name | Summary |
 |------------------------------------------------------|------------------------------------------------------------------------|
+| [`Type`](#Point.Type)                                | Type property.                                                         |
 | [`Definition`](#Point.Definition)                    | Definition property.                                                   |
 | [`Location`](../../Graphics/Point.md#Point.Location) | Get the global location of this point.                                 |
 | [`ObjectId`](#Point.ObjectId)                        | Get the ID of the represented entity.                                  |

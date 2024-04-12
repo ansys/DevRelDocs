@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`EvaluateAllResults`](#StressTool.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
+| Name | Summary |
 |------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`EvaluateAllResults`](#StressTool.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
 | [`AddStressRatio`](#StressTool.AddStressRatio)                   | Creates a new StressRatio                                                         |
 | [`AddSafetyFactor`](#StressTool.AddSafetyFactor)                 | Creates a new StressSafetyFactor                                                  |
 | [`AddSafetyMargin`](#StressTool.AddSafetyMargin)                 | Creates a new StressSafetyMargin                                                  |
@@ -42,8 +43,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.            |
 | [`LimitFactor`](#StressTool.LimitFactor)                                                                                  | Gets or sets the LimitFactor.                                 |
 | [`CompressiveLimit`](#StressTool.CompressiveLimit)                                                                        | Gets or sets the CompressiveLimit.                            |
 | [`StressLimit`](#StressTool.StressLimit)                                                                                  | Gets or sets the StressLimit.                                 |

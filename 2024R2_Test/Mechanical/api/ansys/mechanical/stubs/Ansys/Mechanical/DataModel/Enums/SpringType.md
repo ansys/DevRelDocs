@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Longitudinal`](#SpringType.Longitudinal)   |    |
+| Name | Summary |
 |----------------------------------------------|----|
+| [`Longitudinal`](#SpringType.Longitudinal)   |    |
 | [`Torsional`](#SpringType.Torsional)         |    |
 
 <a id="import-detail"></a>

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`AMG`](#EquationSolverType.AMG)           |    |
+| Name | Summary |
 |--------------------------------------------|----|
+| [`AMG`](#EquationSolverType.AMG)           |    |
 | [`Frontal`](#EquationSolverType.Frontal)   |    |
 | [`ICCG`](#EquationSolverType.ICCG)         |    |
 | [`JCG`](#EquationSolverType.JCG)           |    |

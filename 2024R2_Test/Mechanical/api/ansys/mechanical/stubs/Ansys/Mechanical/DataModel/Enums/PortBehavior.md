@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Transparent`](#PortBehavior.Transparent)   |    |
+| Name | Summary |
 |----------------------------------------------|----|
+| [`Transparent`](#PortBehavior.Transparent)   |    |
 | [`Vibro`](#PortBehavior.Vibro)               |    |
 
 <a id="import-detail"></a>

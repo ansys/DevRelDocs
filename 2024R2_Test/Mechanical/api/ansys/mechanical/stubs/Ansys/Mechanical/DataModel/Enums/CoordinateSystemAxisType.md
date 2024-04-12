@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`NegativeXAxis`](#CoordinateSystemAxisType.NegativeXAxis)   |    |
+| Name | Summary |
 |--------------------------------------------------------------|----|
+| [`NegativeXAxis`](#CoordinateSystemAxisType.NegativeXAxis)   |    |
 | [`NegativeYAxis`](#CoordinateSystemAxisType.NegativeYAxis)   |    |
 | [`NegativeZAxis`](#CoordinateSystemAxisType.NegativeZAxis)   |    |
 | [`Origin`](#CoordinateSystemAxisType.Origin)                 |    |

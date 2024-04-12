@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`NumericalDampingManual`](#TransientDampingType.NumericalDampingManual)                       |    |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------|----|
+| [`NumericalDampingManual`](#TransientDampingType.NumericalDampingManual)                       |    |
 | [`NumericalDampingProgramControlled`](#TransientDampingType.NumericalDampingProgramControlled) |    |
 
 <a id="import-detail"></a>

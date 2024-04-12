@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`PromoteToRemotePoint`](#ThermalPointMass.PromoteToRemotePoint)       | Run the PromoteToRemotePoint action.                                              |
+| Name | Summary |
 |------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`PromoteToRemotePoint`](#ThermalPointMass.PromoteToRemotePoint)       | Run the PromoteToRemotePoint action.                                              |
 | [`AddCommandSnippet`](#ThermalPointMass.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
 | [`Delete`](#ThermalPointMass.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                  | Gets the list of children, filtered by type.                                      |
@@ -40,8 +41,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Behavior`](#ThermalPointMass.Behavior)                                                                            | Gets or sets the Behavior.                                    |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Behavior`](#ThermalPointMass.Behavior)                                                                            | Gets or sets the Behavior.                                    |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`PinballRegion`](#ThermalPointMass.PinballRegion)                                                                  | Gets or sets the PinballRegion.                               |
 | [`ThermalCapacitance`](#ThermalPointMass.ThermalCapacitance)                                                        | Gets or sets the ThermalCapacitance.                          |

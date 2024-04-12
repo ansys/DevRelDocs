@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Equal`](#SelectionOperatorType.Equal)                           |    |
+| Name | Summary |
 |-------------------------------------------------------------------|----|
+| [`Equal`](#SelectionOperatorType.Equal)                           |    |
 | [`NotEqual`](#SelectionOperatorType.NotEqual)                     |    |
 | [`LessThan`](#SelectionOperatorType.LessThan)                     |    |
 | [`LessThanOrEqual`](#SelectionOperatorType.LessThanOrEqual)       |    |

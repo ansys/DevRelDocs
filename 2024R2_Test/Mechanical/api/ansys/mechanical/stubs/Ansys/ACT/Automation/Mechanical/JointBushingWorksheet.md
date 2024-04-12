@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetBushingDampingPerUnitX`](#JointBushingWorksheet.GetBushingDampingPerUnitX)               | Gets the Coefficient for the damping per UnitX at the indicated row index.        |
+| Name | Summary |
 |-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetBushingDampingPerUnitX`](#JointBushingWorksheet.GetBushingDampingPerUnitX)               | Gets the Coefficient for the damping per UnitX at the indicated row index.        |
 | [`GetBushingDampingPerUnitY`](#JointBushingWorksheet.GetBushingDampingPerUnitY)               | Gets the Coefficient for the damping per UnitY at the indicated row index.        |
 | [`GetBushingDampingPerUnitZ`](#JointBushingWorksheet.GetBushingDampingPerUnitZ)               | Gets the Coefficient for the damping per UnitZ at the indicated row index.        |
 | [`GetBushingDampingPerThetaUnitX`](#JointBushingWorksheet.GetBushingDampingPerThetaUnitX)     | Gets the Coefficient for the damping per ThetaUnitX at the indicated row index.   |

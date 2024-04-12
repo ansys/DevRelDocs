@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Cartesian`](#CoordinateSystemType.Cartesian)     |    |
+| Name | Summary |
 |----------------------------------------------------|----|
+| [`Cartesian`](#CoordinateSystemType.Cartesian)     |    |
 | [`Cylindrical`](#CoordinateSystemType.Cylindrical) |    |
 | [`Spherical`](#CoordinateSystemType.Spherical)     |    |
 

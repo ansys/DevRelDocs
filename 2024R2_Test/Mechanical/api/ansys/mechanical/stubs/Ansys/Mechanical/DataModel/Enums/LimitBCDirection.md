@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`All`](#LimitBCDirection.All)   |    |
+| Name | Summary |
 |----------------------------------|----|
+| [`All`](#LimitBCDirection.All)   |    |
 | [`X`](#LimitBCDirection.X)       |    |
 | [`Y`](#LimitBCDirection.Y)       |    |
 | [`Z`](#LimitBCDirection.Z)       |    |

@@ -10,8 +10,9 @@
 
 ### Interfaces
 
-| [`IMechanicalTheme`](IMechanicalTheme.md#IMechanicalTheme)                         | IMechanicalTheme interface.         |
+| Name | Summary |
 |------------------------------------------------------------------------------------|-------------------------------------|
+| [`IMechanicalTheme`](IMechanicalTheme.md#IMechanicalTheme)                         | IMechanicalTheme interface.         |
 | [`IMechanicalUserInterface`](IMechanicalUserInterface.md#IMechanicalUserInterface) | IMechanicalUserInterface interface. |
 
 <a id="description"></a>

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`EvaluateAllResults`](#Measures.EvaluateAllResults)           | Evaluate all measures.                                                            |
+| Name | Summary |
 |----------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`EvaluateAllResults`](#Measures.EvaluateAllResults)           | Evaluate all measures.                                                            |
 | [`AddCompositeCriterion`](#Measures.AddCompositeCriterion)     | Creates a new CompositeCriterion                                                  |
 | [`AddPrimaryCriterion`](#Measures.AddPrimaryCriterion)         | Creates a new PrimaryCriterion                                                    |
 | [`Delete`](#Measures.Delete)                                   | Run the Delete action.                                                            |
@@ -41,8 +42,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#Measures.Children)                                                                                    | Gets the list of children.                                    |
 | [`Comments`](#Measures.Comments)                                                                                    | Gets the list of associated comments.                         |

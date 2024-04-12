@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`MP4`](#GraphicsAnimationExportFormat.MP4)   |    |
+| Name | Summary |
 |-----------------------------------------------|----|
+| [`MP4`](#GraphicsAnimationExportFormat.MP4)   |    |
 | [`WMV`](#GraphicsAnimationExportFormat.WMV)   |    |
 | [`AVI`](#GraphicsAnimationExportFormat.AVI)   |    |
 | [`GIF`](#GraphicsAnimationExportFormat.GIF)   |    |

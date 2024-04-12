@@ -10,8 +10,9 @@
 
 ### Subpackages
 
-| [`Sheet`](Sheet/index.md#module-ansys.mechanical.stubs.Ansys.ACT.DesignModeler.Primitives.Sheet)   | Sheet subpackage.   |
+| Name | Summary |
 |----------------------------------------------------------------------------------------------------|---------------------|
+| [`Sheet`](Sheet/index.md#module-ansys.mechanical.stubs.Ansys.ACT.DesignModeler.Primitives.Sheet)   | Sheet subpackage.   |
 
 <a id="description"></a>
 

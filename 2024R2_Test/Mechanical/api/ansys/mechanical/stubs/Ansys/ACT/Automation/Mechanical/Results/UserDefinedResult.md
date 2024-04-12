@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#UserDefinedResult.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |-------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#UserDefinedResult.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`FetchRemoteResults`](#UserDefinedResult.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#UserDefinedResult.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
 | [`ExportAnimation`](#UserDefinedResult.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
@@ -47,8 +48,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`PlotData`](#UserDefinedResult.PlotData)                                                                              | Gets the result table.                                                 |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`PlotData`](#UserDefinedResult.PlotData)                                                                              | Gets the result table.                                                 |
 | [`Mode`](#UserDefinedResult.Mode)                                                                                      | Gets or sets the Mode (Result Set Number).                             |
 | [`CoordinateSystem`](../../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the Coordinate System.                                    |
 | [`Ply`](#UserDefinedResult.Ply)                                                                                        | Gets or sets the Ply selection.                                        |

@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Diagonals`](#EXDCharZoneDimensionType.Diagonals)   |    |
+| Name | Summary |
 |------------------------------------------------------|----|
+| [`Diagonals`](#EXDCharZoneDimensionType.Diagonals)   |    |
 | [`OppFace`](#EXDCharZoneDimensionType.OppFace)       |    |
 | [`NearFace`](#EXDCharZoneDimensionType.NearFace)     |    |
 

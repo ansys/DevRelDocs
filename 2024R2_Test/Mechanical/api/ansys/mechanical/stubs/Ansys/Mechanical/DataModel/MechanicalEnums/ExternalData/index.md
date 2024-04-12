@@ -10,8 +10,9 @@
 
 ### Enums
 
-| [`LengthUnit`](LengthUnit.md#LengthUnit)                | Specifies how to interpret the variable data source.                         |
+| Name | Summary |
 |---------------------------------------------------------|------------------------------------------------------------------------------|
+| [`LengthUnit`](LengthUnit.md#LengthUnit)                | Specifies how to interpret the variable data source.                         |
 | [`ImportFormat`](../Table/ImportFormat.md#ImportFormat) | Specifies how to interpret the variable data source.                         |
 | [`VariableType`](../Table/VariableType.md#VariableType) | An enumeration of the different variable types supported by the tabular data |
 
@@ -39,8 +40,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`meter`](#ExternalData.meter)           |    |
+| Name | Summary |
 |------------------------------------------|----|
+| [`meter`](#ExternalData.meter)           |    |
 | [`centimeter`](#ExternalData.centimeter) |    |
 | [`foot`](#ExternalData.foot)             |    |
 | [`inch`](#ExternalData.inch)             |    |
@@ -95,8 +97,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Delimited`](#ExternalData.Delimited)   |    |
+| Name | Summary |
 |------------------------------------------|----|
+| [`Delimited`](#ExternalData.Delimited)   |    |
 | [`FixedWidth`](#ExternalData.FixedWidth) |    |
 | [`MAPDL`](#ExternalData.MAPDL)           |    |
 | [`AXDT`](#ExternalData.AXDT)             |    |
@@ -151,8 +154,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`XCoordinate`](#ExternalData.XCoordinate)                                                              |    |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------|----|
+| [`XCoordinate`](#ExternalData.XCoordinate)                                                              |    |
 | [`YCoordinate`](#ExternalData.YCoordinate)                                                              |    |
 | [`ZCoordinate`](#ExternalData.ZCoordinate)                                                              |    |
 | [`NodeId`](#ExternalData.NodeId)                                                                        |    |

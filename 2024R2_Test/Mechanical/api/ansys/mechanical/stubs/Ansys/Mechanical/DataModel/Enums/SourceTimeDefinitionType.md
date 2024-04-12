@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`SourceTimeDefinition_All`](#SourceTimeDefinitionType.SourceTimeDefinition_All)     |    |
+| Name | Summary |
 |--------------------------------------------------------------------------------------|----|
+| [`SourceTimeDefinition_All`](#SourceTimeDefinitionType.SourceTimeDefinition_All)     |    |
 | [`SourceTimeDefinition_Range`](#SourceTimeDefinitionType.SourceTimeDefinition_Range) |    |
 
 <a id="import-detail"></a>

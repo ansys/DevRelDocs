@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#Comment.Delete)                                   | Run the Delete action.                                                            |
+| Name | Summary |
 |---------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#Comment.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                         | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                         | Gets the list of children, filtered by type.                                      |
 | [`Activate`](#Comment.Activate)                               | Activate the current object.                                                      |
@@ -35,8 +36,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Text`](#Comment.Text)                                                                                             | Gets the Text.                                                |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Text`](#Comment.Text)                                                                                             | Gets the Text.                                                |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`Author`](#Comment.Author)                                                                                         | Gets or sets the Author.                                      |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |

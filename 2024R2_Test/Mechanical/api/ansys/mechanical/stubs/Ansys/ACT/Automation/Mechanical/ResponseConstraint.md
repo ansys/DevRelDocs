@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`RenameBasedOnDefinition`](#ResponseConstraint.RenameBasedOnDefinition)   | Run the RenameBasedOnDefinition action.                                           |
+| Name | Summary |
 |----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`RenameBasedOnDefinition`](#ResponseConstraint.RenameBasedOnDefinition)   | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#ResponseConstraint.Delete)                                     | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                      | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                      | Gets the list of children, filtered by type.                                      |
@@ -36,8 +37,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`EnvironmentSelection`](#ResponseConstraint.EnvironmentSelection)                                                  | Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum.   |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| [`EnvironmentSelection`](#ResponseConstraint.EnvironmentSelection)                                                  | Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum.   |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.                                         |
 | [`Suppressed`](#ResponseConstraint.Suppressed)                                                                      | Gets or sets the Suppressed.                                                               |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                               |

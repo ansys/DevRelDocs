@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Generate`](#SelectionWorksheet.Generate)                                         | Generate the selection from the worksheet.                      |
+| Name | Summary |
 |------------------------------------------------------------------------------------|-----------------------------------------------------------------|
+| [`Generate`](#SelectionWorksheet.Generate)                                         | Generate the selection from the worksheet.                      |
 | [`AddRow`](#SelectionWorksheet.AddRow)                                             | Adds a Row to the worksheet.                                    |
 | [`DeleteRow`](#SelectionWorksheet.DeleteRow)                                       | Deletes a row from the worksheet at index.                      |
 | [`SetCriterion`](#SelectionWorksheet.SetCriterion)                                 | Sets the worksheet Criterion property at index.                 |
@@ -55,8 +56,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`RowCount`](#SelectionWorksheet.RowCount)   |    |
+| Name | Summary |
 |----------------------------------------------|----|
+| [`RowCount`](#SelectionWorksheet.RowCount)   |    |
 
 <a id="import-detail"></a>
 

@@ -10,8 +10,9 @@
 
 ### Interfaces
 
-| [`ILinuxSettings`](ILinuxSettings.md#ILinuxSettings)                      | ILinuxSettings interface.        |
+| Name | Summary |
 |---------------------------------------------------------------------------|----------------------------------|
+| [`ILinuxSettings`](ILinuxSettings.md#ILinuxSettings)                      | ILinuxSettings interface.        |
 | [`IQueueSettings`](IQueueSettings.md#IQueueSettings)                      | IQueueSettings interface.        |
 | [`ISolveConfiguration`](ISolveConfiguration.md#ISolveConfiguration)       | ISolveConfiguration interface.   |
 | [`ISolveProcessSettings`](ISolveProcessSettings.md#ISolveProcessSettings) | ISolveProcessSettings interface. |
@@ -19,8 +20,9 @@
 
 ### Classes
 
-| [`SolveConfigurations`](SolveConfigurations.md#SolveConfigurations)    | The application’s collection of solve configurations.                                    |
+| Name | Summary |
 |------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| [`SolveConfigurations`](SolveConfigurations.md#SolveConfigurations)    | The application’s collection of solve configurations.                                    |
 | [`LinuxSettings`](LinuxSettings.md#LinuxSettings)                      | The class representing the linux settings portion of the solve process settings.         |
 | [`QueueSettings`](QueueSettings.md#QueueSettings)                      | The class representing queue settings.                                                   |
 | [`RSMQueue`](RSMQueue.md#RSMQueue)                                     | The class representing an RSM Queue.                                                     |
@@ -52,14 +54,16 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Add`](#SolveProcessSettings.Add)       | Adds the given SolveConfiguration object to the collection.   |
+| Name | Summary |
 |------------------------------------------|---------------------------------------------------------------|
+| [`Add`](#SolveProcessSettings.Add)       | Adds the given SolveConfiguration object to the collection.   |
 | [`Remove`](#SolveProcessSettings.Remove) | Removes the given SolveConfiguration from the collection.     |
 
 ### Properties
 
-| [`Count`](#SolveProcessSettings.Count)   | The number of solve configurations in the collection.   |
+| Name | Summary |
 |------------------------------------------|---------------------------------------------------------|
+| [`Count`](#SolveProcessSettings.Count)   | The number of solve configurations in the collection.   |
 
 <a id="import-detail"></a>
 
@@ -113,8 +117,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Active`](#id54)        | Whether the linux settings are active.   |
+| Name | Summary |
 |--------------------------|------------------------------------------|
+| [`Active`](#id54)        | Whether the linux settings are active.   |
 | [`UserName`](#id20)      | The user name.                           |
 | [`WorkingFolder`](#id21) | The working folder.                      |
 
@@ -166,8 +171,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Name`](#id29)    | The name of the queue settings.                                                                           |
+| Name | Summary |
 |--------------------|-----------------------------------------------------------------------------------------------------------|
+| [`Name`](#id29)    | The name of the queue settings.                                                                           |
 | [`JobName`](#id25) | The job name of the queue settings.                                                                       |
 | [`License`](#id26) | The license of the queue settings.  The setter will throw an exception if the given license is not valid. |
 
@@ -219,8 +225,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Name`](#id29)                                              | The name of the RSM Queue.              |
+| Name | Summary |
 |--------------------------------------------------------------|-----------------------------------------|
+| [`Name`](#id29)                                              | The name of the RSM Queue.              |
 | [`HPCConfiguration`](#SolveProcessSettings.HPCConfiguration) | The HPC configuration of the RSM Queue. |
 | [`HPCQueue`](#SolveProcessSettings.HPCQueue)                 | The HPC Queue of the RSM Queue.         |
 | [`HPCType`](#SolveProcessSettings.HPCType)                   | The HPC type of the RSM Queue           |
@@ -281,13 +288,15 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`SetAsDefault`](#id34)   | Sets this solve configuration as the default.   |
+| Name | Summary |
 |---------------------------|-------------------------------------------------|
+| [`SetAsDefault`](#id34)   | Sets this solve configuration as the default.   |
 
 ### Properties
 
-| [`Name`](#id29)                                                        | The name of the solve configuration.                            |
+| Name | Summary |
 |------------------------------------------------------------------------|-----------------------------------------------------------------|
+| [`Name`](#id29)                                                        | The name of the solve configuration.                            |
 | [`Default`](#id30)                                                     | Whether this solve configuration is the default.                |
 | [`Settings`](#id31)                                                    | Returns the queue settings of this solve configuration.         |
 | [`SolveProcessSettings`](SolveProcessSettings.md#SolveProcessSettings) | Returns the solve process settings of this solve configuration. |
@@ -360,8 +369,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Active`](#id54)    | Whether the solver memory settings are active.   |
+| Name | Summary |
 |----------------------|--------------------------------------------------|
+| [`Active`](#id54)    | Whether the solver memory settings are active.   |
 | [`Workspace`](#id55) | Workspace size.                                  |
 | [`Database`](#id56)  | Database size.                                   |
 
@@ -413,8 +423,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`DistributeSolution`](#id37)             | Whether to run the solution in distributed mode.                                  |
+| Name | Summary |
 |-------------------------------------------|-----------------------------------------------------------------------------------|
+| [`DistributeSolution`](#id37)             | Whether to run the solution in distributed mode.                                  |
 | [`MaxNumberOfCores`](#id38)               | The maximum number of cores the solver will use.                                  |
 | [`NumberOfGPUDevices`](#id39)             | The number of GPU devices.                                                        |
 | [`AdditionalCommandLineArguments`](#id40) | Any additional command line arguments to give to the solver.                      |
@@ -574,8 +585,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Active`](#id54)        | Gets or sets whether or not manual linux settings are enable for the configuration.   |
+| Name | Summary |
 |--------------------------|---------------------------------------------------------------------------------------|
+| [`Active`](#id54)        | Gets or sets whether or not manual linux settings are enable for the configuration.   |
 | [`UserName`](#id20)      | Gets or sets the user name field for the manual linux settings.                       |
 | [`WorkingFolder`](#id21) | Gets or sets the working folder field for the manual linxus settings.                 |
 
@@ -627,8 +639,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Name`](#id29)                                                            | Gets or sets the name of the current queue for the configuration.   |
+| Name | Summary |
 |----------------------------------------------------------------------------|---------------------------------------------------------------------|
+| [`Name`](#id29)                                                            | Gets or sets the name of the current queue for the configuration.   |
 | [`JobName`](#id25)                                                         | Gets or sets the Job Name field for the queue settings.             |
 | [`License`](#id26)                                                         | Gets or sets the License field for the queue settings.              |
 | [`DCSUrl`](#SolveProcessSettings.DCSUrl)                                   | DCSUrl property.                                                    |
@@ -716,13 +729,15 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`SetAsDefault`](#id34)   | Sets ‘this’ to be the default configuration to solve with.   |
+| Name | Summary |
 |---------------------------|--------------------------------------------------------------|
+| [`SetAsDefault`](#id34)   | Sets ‘this’ to be the default configuration to solve with.   |
 
 ### Properties
 
-| [`Name`](#id29)                                                        | Gets or sets the name of the SolveConfiguraiton Object                    |
+| Name | Summary |
 |------------------------------------------------------------------------|---------------------------------------------------------------------------|
+| [`Name`](#id29)                                                        | Gets or sets the name of the SolveConfiguraiton Object                    |
 | [`Default`](#id30)                                                     | Gets whether or not this SolveConfiguration is the default configuration. |
 | [`Settings`](#id31)                                                    | Gets the QueueSettings object for the configuration.                      |
 | [`SolveProcessSettings`](SolveProcessSettings.md#SolveProcessSettings) | Gets the SolveProcessSettings for the current object.                     |
@@ -795,8 +810,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`DistributeSolution`](#id37)                    | Gets or sets the boolean “Distribute Solution (if possible)” field.   |
+| Name | Summary |
 |--------------------------------------------------|-----------------------------------------------------------------------|
+| [`DistributeSolution`](#id37)                    | Gets or sets the boolean “Distribute Solution (if possible)” field.   |
 | [`MaxNumberOfCores`](#id38)                      | Gets or sets the “Maximum number of utilized cores” field.            |
 | [`NumberOfGPUDevices`](#id39)                    | Gets or sets the “Number of utilized GPU devices” field.              |
 | [`AdditionalCommandLineArguments`](#id40)        | Gets or sets the “Additional Command Line Arguments” field.           |
@@ -965,8 +981,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Active`](#id54)    | Gets or sets whether or not manual memory settings are active in the current configuration.   |
+| Name | Summary |
 |----------------------|-----------------------------------------------------------------------------------------------|
+| [`Active`](#id54)    | Gets or sets whether or not manual memory settings are active in the current configuration.   |
 | [`Workspace`](#id55) | Gets or sets the workspace memory amount (megabytes).                                         |
 | [`Database`](#id56)  | Gets or sets the database memory amount (MB).                                                 |
 

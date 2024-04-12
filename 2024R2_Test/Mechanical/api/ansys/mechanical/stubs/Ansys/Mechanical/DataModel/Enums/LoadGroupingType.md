@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ByLocation`](#LoadGroupingType.ByLocation)   |    |
+| Name | Summary |
 |------------------------------------------------|----|
+| [`ByLocation`](#LoadGroupingType.ByLocation)   |    |
 | [`No`](#LoadGroupingType.No)                   |    |
 
 <a id="import-detail"></a>

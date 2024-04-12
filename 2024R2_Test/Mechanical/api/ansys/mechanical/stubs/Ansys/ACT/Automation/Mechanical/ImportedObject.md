@@ -18,15 +18,17 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetPropertyValueAsString`](#ImportedObject.GetPropertyValueAsString)   | Data in string format that is present on the columns                      |
+| Name | Summary |
 |--------------------------------------------------------------------------|---------------------------------------------------------------------------|
+| [`GetPropertyValueAsString`](#ImportedObject.GetPropertyValueAsString)   | Data in string format that is present on the columns                      |
 | [`SetPropertyValue`](#ImportedObject.SetPropertyValue)                   | Set the data for a give property name                                     |
 | [`GetPropertyNames`](#ImportedObject.GetPropertyNames)                   | This method gives the complete list of property names that are supported. |
 
 ### Properties
 
-| [`InternalObject`](#ImportedObject.InternalObject)   | Gets the internal object. For advanced usage only.         |
+| Name | Summary |
 |------------------------------------------------------|------------------------------------------------------------|
+| [`InternalObject`](#ImportedObject.InternalObject)   | Gets the internal object. For advanced usage only.         |
 | [`Active`](#ImportedObject.Active)                   | This property sets the object to active or inactive status |
 
 <a id="import-detail"></a>

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Full`](#HarmonicMethod.Full)                                   |    |
+| Name | Summary |
 |------------------------------------------------------------------|----|
+| [`Full`](#HarmonicMethod.Full)                                   |    |
 | [`Krylov`](#HarmonicMethod.Krylov)                               |    |
 | [`ModeSuperposition`](#HarmonicMethod.ModeSuperposition)         |    |
 | [`ProgramControlled`](#HarmonicMethod.ProgramControlled)         |    |

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddGeometryImport`](#GeometryImportGroup.AddGeometryImport)             | Create the object for working with an imported part.                              |
+| Name | Summary |
 |---------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddGeometryImport`](#GeometryImportGroup.AddGeometryImport)             | Create the object for working with an imported part.                              |
 | [`GetChildren`](#id1)                                                     | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                     | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#GeometryImportGroup.AddComment)                           | Creates a new child Comment.                                                      |
@@ -38,8 +39,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Count`](#GeometryImportGroup.Count)                                                                               | Get the number of child                                       |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Count`](#GeometryImportGroup.Count)                                                                               | Get the number of child                                       |
 | [`Item`](#GeometryImportGroup.Item)                                                                                 | Item property.                                                |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |

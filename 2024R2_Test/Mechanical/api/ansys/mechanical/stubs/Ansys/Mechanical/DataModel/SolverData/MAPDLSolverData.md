@@ -18,15 +18,17 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetObjectData`](#MAPDLSolverData.GetObjectData)                   | GetObjectData method.                                            |
+| Name | Summary |
 |---------------------------------------------------------------------|------------------------------------------------------------------|
+| [`GetObjectData`](#MAPDLSolverData.GetObjectData)                   | GetObjectData method.                                            |
 | [`ElementIdsByMaterialId`](#MAPDLSolverData.ElementIdsByMaterialId) | Returns a list of Element IDs that belong to a given Material ID |
 | [`NodeIdsByMaterialId`](#MAPDLSolverData.NodeIdsByMaterialId)       | Returns a list of Node IDs that belong to a given Material ID    |
 
 ### Properties
 
-| [`MaxElementId`](#MAPDLSolverData.MaxElementId)         | Gets the Maximum Element Id number.      |
+| Name | Summary |
 |---------------------------------------------------------|------------------------------------------|
+| [`MaxElementId`](#MAPDLSolverData.MaxElementId)         | Gets the Maximum Element Id number.      |
 | [`MaxNodeId`](#MAPDLSolverData.MaxNodeId)               | Gets the Maximum Node Id number.         |
 | [`MaxElementTypeId`](#MAPDLSolverData.MaxElementTypeId) | Gets the Maximum Element Type Id number. |
 

@@ -18,13 +18,15 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ApplyTo`](#IRevolve.ApplyTo)   | Applies the operation to a profile given in argument.   |
+| Name | Summary |
 |----------------------------------|---------------------------------------------------------|
+| [`ApplyTo`](#IRevolve.ApplyTo)   | Applies the operation to a profile given in argument.   |
 
 ### Properties
 
-| [`Origin`](#IRevolve.Origin)   | Gets or sets the origin of the revolution (x, y, z).   |
+| Name | Summary |
 |--------------------------------|--------------------------------------------------------|
+| [`Origin`](#IRevolve.Origin)   | Gets or sets the origin of the revolution (x, y, z).   |
 | [`Axis`](#IRevolve.Axis)       | Gets or sets the axis of the revolution (x, y, z).     |
 | [`Walled`](#IRevolve.Walled)   | Gets or sets the walled flag.                          |
 | [`Angle`](#IRevolve.Angle)     | Gets or sets the angle of the revolution.              |

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Background`](#Graphics3DExportSettings.Background)   | Specifies the background color.   |
+| Name | Summary |
 |--------------------------------------------------------|-----------------------------------|
+| [`Background`](#Graphics3DExportSettings.Background)   | Specifies the background color.   |
 
 <a id="import-detail"></a>
 

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`DistributeSolution`](index.md#id37)             | Whether to run the solution in distributed mode.                                  |
+| Name | Summary |
 |---------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`DistributeSolution`](index.md#id37)             | Whether to run the solution in distributed mode.                                  |
 | [`MaxNumberOfCores`](index.md#id38)               | The maximum number of cores the solver will use.                                  |
 | [`NumberOfGPUDevices`](index.md#id39)             | The number of GPU devices.                                                        |
 | [`AdditionalCommandLineArguments`](index.md#id40) | Any additional command line arguments to give to the solver.                      |

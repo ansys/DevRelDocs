@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Add`](#Messages.Add)               | Add a new message.                                     |
+| Name | Summary |
 |--------------------------------------|--------------------------------------------------------|
+| [`Add`](#Messages.Add)               | Add a new message.                                     |
 | [`Remove`](#Messages.Remove)         | Remove a specific message in the list.                 |
 | [`Clear`](#Messages.Clear)           | Clear the list of the messages.                        |
 | [`Contains`](#Messages.Contains)     | Check if a message is in the current list of messages. |
@@ -27,8 +28,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Count`](#Messages.Count)   | Get the number of messages.   |
+| Name | Summary |
 |------------------------------|-------------------------------|
+| [`Count`](#Messages.Count)   | Get the number of messages.   |
 
 <a id="import-detail"></a>
 

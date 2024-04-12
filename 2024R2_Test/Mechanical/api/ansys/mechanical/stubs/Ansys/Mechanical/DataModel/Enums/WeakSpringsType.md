@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Off`](#WeakSpringsType.Off)                             |    |
+| Name | Summary |
 |-----------------------------------------------------------|----|
+| [`Off`](#WeakSpringsType.Off)                             |    |
 | [`On`](#WeakSpringsType.On)                               |    |
 | [`ProgramControlled`](#WeakSpringsType.ProgramControlled) |    |
 

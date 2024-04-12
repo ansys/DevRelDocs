@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`MultiplePoints`](#SpectrumType.MultiplePoints)   |    |
+| Name | Summary |
 |----------------------------------------------------|----|
+| [`MultiplePoints`](#SpectrumType.MultiplePoints)   |    |
 | [`None_`](#SpectrumType.None_)                     |    |
 | [`SinglePoint`](#SpectrumType.SinglePoint)         |    |
 

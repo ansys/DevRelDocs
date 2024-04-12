@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddNumberingControl`](#MeshNumbering.AddNumberingControl)         | Creates a new NumberingControl                                                    |
+| Name | Summary |
 |---------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddNumberingControl`](#MeshNumbering.AddNumberingControl)         | Creates a new NumberingControl                                                    |
 | [`RenumberMesh`](#MeshNumbering.RenumberMesh)                       | Run the RenumberMesh action.                                                      |
 | [`Delete`](#MeshNumbering.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                               | Gets the list of children, filtered by type.                                      |
@@ -40,8 +41,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`ElementOffset`](#MeshNumbering.ElementOffset)                                                                     | Gets or sets the ElementOffset.                               |
 | [`NodeOffset`](#MeshNumbering.NodeOffset)                                                                           | Gets or sets the NodeOffset.                                  |
 | [`CompressNodeNumbers`](#MeshNumbering.CompressNodeNumbers)                                                         | Gets or sets the CompressNodeNumbers.                         |

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`OptimalityCriteria`](#OptimizationSolverType.OptimalityCriteria)                   |    |
+| Name | Summary |
 |--------------------------------------------------------------------------------------|----|
+| [`OptimalityCriteria`](#OptimizationSolverType.OptimalityCriteria)                   |    |
 | [`ProgramControlled`](#OptimizationSolverType.ProgramControlled)                     |    |
 | [`SequentialConvexProgramming`](#OptimizationSolverType.SequentialConvexProgramming) |    |
 

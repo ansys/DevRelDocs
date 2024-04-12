@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Unknown`](#MappingAlgorithm.Unknown)             |    |
+| Name | Summary |
 |----------------------------------------------------|----|
+| [`Unknown`](#MappingAlgorithm.Unknown)             |    |
 | [`PointCloud`](#MappingAlgorithm.PointCloud)       |    |
 | [`BucketSurface`](#MappingAlgorithm.BucketSurface) |    |
 | [`GGI`](#MappingAlgorithm.GGI)                     |    |

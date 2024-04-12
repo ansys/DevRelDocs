@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Filter`](#SelectionActionType.Filter)           |    |
+| Name | Summary |
 |---------------------------------------------------|----|
+| [`Filter`](#SelectionActionType.Filter)           |    |
 | [`Remove`](#SelectionActionType.Remove)           |    |
 | [`Invert`](#SelectionActionType.Invert)           |    |
 | [`Add`](#SelectionActionType.Add)                 |    |

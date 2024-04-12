@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Automatic`](#FeatureSuppressMethod.Automatic)           |    |
+| Name | Summary |
 |-----------------------------------------------------------|----|
+| [`Automatic`](#FeatureSuppressMethod.Automatic)           |    |
 | [`DefeatureFaces`](#FeatureSuppressMethod.DefeatureFaces) |    |
 | [`ParentFaces`](#FeatureSuppressMethod.ParentFaces)       |    |
 

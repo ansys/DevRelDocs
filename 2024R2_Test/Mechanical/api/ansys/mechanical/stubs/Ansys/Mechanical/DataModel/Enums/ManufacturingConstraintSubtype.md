@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ComplexityIndexConstraint`](../../../ACT/Automation/Mechanical/ComplexityIndexConstraint.md#ComplexityIndexConstraint)                                           |    |
+| Name | Summary |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------|----|
+| [`ComplexityIndexConstraint`](../../../ACT/Automation/Mechanical/ComplexityIndexConstraint.md#ComplexityIndexConstraint)                                           |    |
 | [`CyclicManufacturingConstraint`](../../../ACT/Automation/Mechanical/CyclicManufacturingConstraint.md#CyclicManufacturingConstraint)                               |    |
 | [`ExtrusionManufacturingConstraint`](../../../ACT/Automation/Mechanical/ExtrusionManufacturingConstraint.md#ExtrusionManufacturingConstraint)                      |    |
 | [`HousingConstraint`](../../../ACT/Automation/Mechanical/HousingConstraint.md#HousingConstraint)                                                                   |    |

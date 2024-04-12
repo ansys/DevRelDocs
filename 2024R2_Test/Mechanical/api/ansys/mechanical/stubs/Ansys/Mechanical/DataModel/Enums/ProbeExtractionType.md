@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Master`](#ProbeExtractionType.Master)                   |    |
+| Name | Summary |
 |-----------------------------------------------------------|----|
+| [`Master`](#ProbeExtractionType.Master)                   |    |
 | [`Slave`](#ProbeExtractionType.Slave)                     |    |
 | [`MeshPositive`](#ProbeExtractionType.MeshPositive)       |    |
 | [`MeshNegative`](#ProbeExtractionType.MeshNegative)       |    |

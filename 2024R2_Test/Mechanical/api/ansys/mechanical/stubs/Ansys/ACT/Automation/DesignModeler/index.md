@@ -1,7 +1,3 @@
-<a id="module-ansys.mechanical.stubs.Ansys.ACT.Automation.DesignModeler"></a>
-
-<a id="the-designmodeler-package"></a>
-
 # The `DesignModeler` package
 
 <a id="summary"></a>
@@ -10,8 +6,9 @@
 
 ### Classes
 
-| [`FeatureManager`](FeatureManager.md#FeatureManager)               | Defines a FeatureManager.   |
+| Name | Summary |
 |--------------------------------------------------------------------|-----------------------------|
+| [`FeatureManager`](FeatureManager.md#FeatureManager)               | Defines a FeatureManager.   |
 | [`NamedSelection`](../Mechanical/NamedSelection.md#NamedSelection) | Defines a NamedSelection.   |
 | [`Feature`](Feature.md#Feature)                                    | Defines a Feature.          |
 | [`Extrusion`](Extrusion.md#Extrusion)                              | Defines a Extrusion.        |
@@ -40,14 +37,16 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Generate`](#DesignModeler.Generate)                         | Generates non-generated features if any.   |
+| Name | Summary |
 |---------------------------------------------------------------|--------------------------------------------|
+| [`Generate`](#DesignModeler.Generate)                         | Generates non-generated features if any.   |
 | [`CreateNamedSelection`](#DesignModeler.CreateNamedSelection) | Creates a new NamedSelection feature.      |
 
 ### Properties
 
-| [`Count`](#DesignModeler.Count)   | Gets the number of features.   |
+| Name | Summary |
 |-----------------------------------|--------------------------------|
+| [`Count`](#DesignModeler.Count)   | Gets the number of features.   |
 | [`Item`](#DesignModeler.Item)     | Item property.                 |
 
 <a id="import-detail"></a>
@@ -110,8 +109,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`NumGeometry`](#DesignModeler.NumGeometry)                         | Gets the NumGeometry.                     |
+| Name | Summary |
 |---------------------------------------------------------------------|-------------------------------------------|
+| [`NumGeometry`](#DesignModeler.NumGeometry)                         | Gets the NumGeometry.                     |
 | [`ExportNamedSelection`](#DesignModeler.ExportNamedSelection)       | Gets or sets the ExportNamedSelection.    |
 | [`IncludeInLegend`](#DesignModeler.IncludeInLegend)                 | Gets or sets the IncludeInLegend.         |
 | [`PropagateNamedSelection`](#DesignModeler.PropagateNamedSelection) | Gets or sets the PropagateNamedSelection. |
@@ -190,8 +190,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Name`](#id8)   | Gets the name of the feature.   |
+| Name | Summary |
 |------------------|---------------------------------|
+| [`Name`](#id8)   | Gets the name of the feature.   |
 | [`Id`](#id9)     | Gets the id of the feature.     |
 
 <a id="id3"></a>
@@ -234,8 +235,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Depth`](../../Interfaces/DesignModeler/index.md#DesignModeler.Depth)   | Gets or sets the Depth.       |
+| Name | Summary |
 |--------------------------------------------------------------------------|-------------------------------|
+| [`Depth`](../../Interfaces/DesignModeler/index.md#DesignModeler.Depth)   | Gets or sets the Depth.       |
 | [`Depth2`](#DesignModeler.Depth2)                                        | Gets or sets the Depth2.      |
 | [`Thin1`](#DesignModeler.Thin1)                                          | Gets or sets the Thin1.       |
 | [`Thin2`](#DesignModeler.Thin2)                                          | Gets or sets the Thin2.       |

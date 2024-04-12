@@ -10,8 +10,9 @@
 
 ### Classes
 
-| [`BoundVector`](BoundVector.md#BoundVector)   | A vector with fixed intial point and terminal point.   |
+| Name | Summary |
 |-----------------------------------------------|--------------------------------------------------------|
+| [`BoundVector`](BoundVector.md#BoundVector)   | A vector with fixed intial point and terminal point.   |
 
 <a id="description"></a>
 
@@ -38,8 +39,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Origin`](#Math.Origin)   | The location at the start of the BoundVector.   |
+| Name | Summary |
 |----------------------------|-------------------------------------------------|
+| [`Origin`](#Math.Origin)   | The location at the start of the BoundVector.   |
 | [`Vector`](#Math.Vector)   | The direction of the BoundVector.               |
 
 <a id="import-detail"></a>

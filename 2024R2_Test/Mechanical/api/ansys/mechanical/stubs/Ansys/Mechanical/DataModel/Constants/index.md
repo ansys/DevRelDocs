@@ -10,8 +10,9 @@
 
 ### Classes
 
-| [`Colors`](Colors.md#Colors)   | Color constants, in BGR bitfield layout.   |
+| Name | Summary |
 |--------------------------------|--------------------------------------------|
+| [`Colors`](Colors.md#Colors)   | Color constants, in BGR bitfield layout.   |
 
 <a id="description"></a>
 
@@ -37,8 +38,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Blue`](#Constants.Blue)     | Blue property.   |
+| Name | Summary |
 |-------------------------------|------------------|
+| [`Blue`](#Constants.Blue)     | Blue property.   |
 | [`Cyan`](#Constants.Cyan)     | Cyan property.   |
 | [`Green`](#Constants.Green)   | Green property.  |
 | [`Yellow`](#Constants.Yellow) | Yellow property. |

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`AccelerationProbe`](../../../ACT/Automation/Mechanical/Results/ProbeResults/AccelerationProbe.md#AccelerationProbe)                                                          |    |
+| Name | Summary |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----|
+| [`AccelerationProbe`](../../../ACT/Automation/Mechanical/Results/ProbeResults/AccelerationProbe.md#AccelerationProbe)                                                          |    |
 | [`AngularAccelerationProbe`](../../../ACT/Automation/Mechanical/Results/ProbeResults/AngularAccelerationProbe.md#AngularAccelerationProbe)                                     |    |
 | [`AngularVelocityProbe`](../../../ACT/Automation/Mechanical/Results/ProbeResults/AngularVelocityProbe.md#AngularVelocityProbe)                                                 |    |
 | [`BeamProbe`](../../../ACT/Automation/Mechanical/Results/ProbeResults/BeamProbe.md#BeamProbe)                                                                                  |    |

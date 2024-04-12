@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Factor`](#InitialClearanceType.Factor)                       |    |
+| Name | Summary |
 |----------------------------------------------------------------|----|
+| [`Factor`](#InitialClearanceType.Factor)                       |    |
 | [`ProgramControlled`](#InitialClearanceType.ProgramControlled) |    |
 | [`Value`](#InitialClearanceType.Value)                         |    |
 

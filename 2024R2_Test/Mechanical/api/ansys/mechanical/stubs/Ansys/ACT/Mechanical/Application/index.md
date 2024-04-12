@@ -10,8 +10,9 @@
 
 ### Subpackages
 
-| [`SolveProcessSettings`](SolveProcessSettings/index.md#module-ansys.mechanical.stubs.Ansys.ACT.Mechanical.Application.SolveProcessSettings)   | SolveProcessSettings subpackage.   |
+| Name | Summary |
 |-----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------|
+| [`SolveProcessSettings`](SolveProcessSettings/index.md#module-ansys.mechanical.stubs.Ansys.ACT.Mechanical.Application.SolveProcessSettings)   | SolveProcessSettings subpackage.   |
 
 <a id="description"></a>
 

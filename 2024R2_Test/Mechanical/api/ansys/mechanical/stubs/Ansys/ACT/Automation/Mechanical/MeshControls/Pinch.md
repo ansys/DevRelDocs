@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GenerateMesh`](#Pinch.GenerateMesh)                       | Generate the Mesh.                                                                |
+| Name | Summary |
 |-------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GenerateMesh`](#Pinch.GenerateMesh)                       | Generate the Mesh.                                                                |
 | [`RenameBasedOnDefinition`](#Pinch.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#Pinch.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                       | Gets the list of children, filtered by type.                                      |
@@ -40,8 +41,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`AutoManualMode`](#Pinch.AutoManualMode)                                                                              | Gets the AutoManualMode.                                      |
 | [`Tolerance`](#Pinch.Tolerance)                                                                                        | Gets or sets the Tolerance.                                   |
 | [`MasterGeometry`](#Pinch.MasterGeometry)                                                                              | Gets or sets the MasterGeometry.                              |

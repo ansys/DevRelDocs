@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Frequency`](#DSCampbellYAxisDataType.Frequency)                       |    |
+| Name | Summary |
 |-------------------------------------------------------------------------|----|
+| [`Frequency`](#DSCampbellYAxisDataType.Frequency)                       |    |
 | [`LogarithmicDecrement`](#DSCampbellYAxisDataType.LogarithmicDecrement) |    |
 | [`ModalDampingRatio`](#DSCampbellYAxisDataType.ModalDampingRatio)       |    |
 | [`Stability`](#DSCampbellYAxisDataType.Stability)                       |    |

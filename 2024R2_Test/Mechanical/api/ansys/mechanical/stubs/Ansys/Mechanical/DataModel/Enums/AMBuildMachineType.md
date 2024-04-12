@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Ai`](#AMBuildMachineType.Ai)               |    |
+| Name | Summary |
 |----------------------------------------------|----|
+| [`Ai`](#AMBuildMachineType.Ai)               |    |
 | [`Eos`](#AMBuildMachineType.Eos)             |    |
 | [`Hb3d`](#AMBuildMachineType.Hb3d)           |    |
 | [`Renishaw`](#AMBuildMachineType.Renishaw)   |    |

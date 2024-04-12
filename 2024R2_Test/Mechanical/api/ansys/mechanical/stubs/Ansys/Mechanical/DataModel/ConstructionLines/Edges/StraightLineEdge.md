@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Length`](#StraightLineEdge.Length)                     | Length property.                                                       |
+| Name | Summary |
 |----------------------------------------------------------|------------------------------------------------------------------------|
+| [`Length`](#StraightLineEdge.Length)                     | Length property.                                                       |
 | [`EndPoint`](#StraightLineEdge.EndPoint)                 | A Point representing the end vertex of the edge.                       |
 | [`StartPoint`](#StraightLineEdge.StartPoint)             | A Point representing the start vertex of an edge.                      |
 | [`ObjectId`](#StraightLineEdge.ObjectId)                 | Get the ID of the represented entity.                                  |

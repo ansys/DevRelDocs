@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Arguments`](#AbaqusKeyword.Arguments)   | Gets the arguments.     |
+| Name | Summary |
 |-------------------------------------------|-------------------------|
+| [`Arguments`](#AbaqusKeyword.Arguments)   | Gets the arguments.     |
 | [`DataLines`](#AbaqusKeyword.DataLines)   | Gets the data lines.    |
 | [`Name`](#AbaqusKeyword.Name)             | Gets the command name.  |
 | [`Index`](#AbaqusKeyword.Index)           | Gets the command index. |

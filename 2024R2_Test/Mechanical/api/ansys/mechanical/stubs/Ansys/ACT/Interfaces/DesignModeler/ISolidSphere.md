@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Center`](#ISolidSphere.Center)   | Gets or sets the center of the sphere (x, y, z).   |
+| Name | Summary |
 |------------------------------------|----------------------------------------------------|
+| [`Center`](#ISolidSphere.Center)   | Gets or sets the center of the sphere (x, y, z).   |
 | [`Radius`](#ISolidSphere.Radius)   | Gets or sets the radius of the sphere.             |
 
 <a id="import-detail"></a>

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#GeneratedAMSupport.ClearGeneratedData)                                           | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#GeneratedAMSupport.ClearGeneratedData)                                           | Run the ClearGeneratedData action.                                                |
 | [`GenerateSupportBodies`](#GeneratedAMSupport.GenerateSupportBodies)                                     | Generate Support Bodies.                                                          |
 | [`CreateNamedSelectionOfGeneratedElements`](#GeneratedAMSupport.CreateNamedSelectionOfGeneratedElements) | Run the PromoteToNamedSelection action.                                           |
 | [`GetGeneratedBody`](#GeneratedAMSupport.GetGeneratedBody)                                               | Returns the generated body object                                                 |
@@ -43,8 +44,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`Mode`](#GeneratedAMSupport.Mode)                                                                                     | Gets or sets the Mode.                                        |
 | [`Location`](#GeneratedAMSupport.Location)                                                                             | Gets or sets the Location.                                    |
 | [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Solid`](../../../ACT/Automation/Mechanical/Solid.md#Solid)   |    |
+| Name | Summary |
 |----------------------------------------------------------------|----|
+| [`Solid`](../../../ACT/Automation/Mechanical/Solid.md#Solid)   |    |
 | [`Stranded`](#SourceConductorType.Stranded)                    |    |
 
 <a id="import-detail"></a>

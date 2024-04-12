@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`BeforeSolve`](#TableRefreshImportOn.BeforeSolve)   |    |
+| Name | Summary |
 |------------------------------------------------------|----|
+| [`BeforeSolve`](#TableRefreshImportOn.BeforeSolve)   |    |
 | [`None_`](#TableRefreshImportOn.None_)               |    |
 
 <a id="import-detail"></a>
