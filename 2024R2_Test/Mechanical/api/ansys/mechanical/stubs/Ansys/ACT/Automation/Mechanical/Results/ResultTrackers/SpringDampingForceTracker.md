@@ -1,4 +1,8 @@
+<a id="springdampingforcetracker"></a>
+
 # SpringDampingForceTracker
+
+<a id="SpringDampingForceTracker"></a>
 
 ### *class* SpringDampingForceTracker
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a SpringDampingForceTracker.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -86,13 +92,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#SpringDampingForceTracker.Properties)                                                                     | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#SpringDampingForceTracker.VisibleProperties)                                                       | Gets the list of properties that are visible for this object. |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.Results.ResultTrackers import SpringDampingForceTracker
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="SpringDampingForceTracker.InternalObject"></a>
 
 ### *property* SpringDampingForceTracker.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultChartAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -100,11 +112,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SpringDampingForceTracker.DataModelObjectCategory"></a>
+
 ### *property* SpringDampingForceTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="SpringDampingForceTracker.IsSolved"></a>
 
 ### *property* SpringDampingForceTracker.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -112,11 +128,15 @@ Gets the IsSolved.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SpringDampingForceTracker.ChartDimensions"></a>
+
 ### *property* SpringDampingForceTracker.ChartDimensions *: [Ansys.Mechanical.DataModel.Enums.ChartDimensions](../../../../../Mechanical/DataModel/Enums/ChartDimensions.md#ChartDimensions) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Chart Dimensions
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="SpringDampingForceTracker.BoundaryCondition"></a>
 
 ### *property* SpringDampingForceTracker.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](../../BoundaryConditions/GenericBoundaryCondition.md#GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -124,11 +144,15 @@ Gets or sets the BoundaryCondition.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SpringDampingForceTracker.CutFrequency"></a>
+
 ### *property* SpringDampingForceTracker.CutFrequency *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CutFrequency.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="SpringDampingForceTracker.SectorNumber"></a>
 
 ### *property* SpringDampingForceTracker.SectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -136,11 +160,15 @@ Gets or sets the SectorNumber.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SpringDampingForceTracker.GeometrySelectionString"></a>
+
 ### *property* SpringDampingForceTracker.GeometrySelectionString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GeometrySelectionString.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="SpringDampingForceTracker.LoadStepNumber"></a>
 
 ### *property* SpringDampingForceTracker.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -148,11 +176,15 @@ Gets or sets the LoadStepNumber.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SpringDampingForceTracker.ReportedFrequency"></a>
+
 ### *property* SpringDampingForceTracker.ReportedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ReportedFrequency.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="SpringDampingForceTracker.Duration"></a>
 
 ### *property* SpringDampingForceTracker.Duration *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -160,11 +192,15 @@ Gets or sets the Duration.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SpringDampingForceTracker.FilterMaximum"></a>
+
 ### *property* SpringDampingForceTracker.FilterMaximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the FilterMaximum.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="SpringDampingForceTracker.FilterMinimum"></a>
 
 ### *property* SpringDampingForceTracker.FilterMinimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -172,11 +208,15 @@ Gets the FilterMinimum.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SpringDampingForceTracker.FrequencyAtMaximumAmplitude"></a>
+
 ### *property* SpringDampingForceTracker.FrequencyAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the FrequencyAtMaximumAmplitude.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="SpringDampingForceTracker.ImaginaryAtMaximumAmplitude"></a>
 
 ### *property* SpringDampingForceTracker.ImaginaryAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -184,11 +224,15 @@ Gets the ImaginaryAtMaximumAmplitude.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SpringDampingForceTracker.MaximumAmplitude"></a>
+
 ### *property* SpringDampingForceTracker.MaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumAmplitude.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="SpringDampingForceTracker.MaximumFrequency"></a>
 
 ### *property* SpringDampingForceTracker.MaximumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -196,11 +240,15 @@ Gets or sets the MaximumFrequency.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SpringDampingForceTracker.Maximum"></a>
+
 ### *property* SpringDampingForceTracker.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Maximum.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="SpringDampingForceTracker.MinimumFrequency"></a>
 
 ### *property* SpringDampingForceTracker.MinimumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -208,11 +256,15 @@ Gets or sets the MinimumFrequency.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SpringDampingForceTracker.Minimum"></a>
+
 ### *property* SpringDampingForceTracker.Minimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Minimum.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="SpringDampingForceTracker.PhaseAngle"></a>
 
 ### *property* SpringDampingForceTracker.PhaseAngle *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -220,11 +272,15 @@ Gets the PhaseAngle.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SpringDampingForceTracker.RealAtMaximumAmplitude"></a>
+
 ### *property* SpringDampingForceTracker.RealAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the RealAtMaximumAmplitude.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="SpringDampingForceTracker.RequestedFrequency"></a>
 
 ### *property* SpringDampingForceTracker.RequestedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -232,11 +288,15 @@ Gets or sets the RequestedFrequency.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SpringDampingForceTracker.AccelerationType"></a>
+
 ### *property* SpringDampingForceTracker.AccelerationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AccelerationType.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="SpringDampingForceTracker.ChartViewingStyle"></a>
 
 ### *property* SpringDampingForceTracker.ChartViewingStyle *: [Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType](../../../../../Mechanical/DataModel/Enums/ChartAxisScaleType.md#ChartAxisScaleType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -244,11 +304,15 @@ Gets or sets the ChartViewingStyle.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SpringDampingForceTracker.DeformationType"></a>
+
 ### *property* SpringDampingForceTracker.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DeformationType.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="SpringDampingForceTracker.FilterType"></a>
 
 ### *property* SpringDampingForceTracker.FilterType *: [Ansys.Mechanical.DataModel.Enums.FilterType](../../../../../Mechanical/DataModel/Enums/FilterType.md#FilterType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -256,11 +320,15 @@ Gets or sets the FilterType.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SpringDampingForceTracker.SpatialResolution"></a>
+
 ### *property* SpringDampingForceTracker.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MultipleNodeType](../../../../../Mechanical/DataModel/Enums/MultipleNodeType.md#MultipleNodeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SpatialResolution.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="SpringDampingForceTracker.NormalOrientation"></a>
 
 ### *property* SpringDampingForceTracker.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -268,11 +336,15 @@ Gets or sets the NormalOrientation.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SpringDampingForceTracker.CurvesAppearanceDisplay"></a>
+
 ### *property* SpringDampingForceTracker.CurvesAppearanceDisplay *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](../../../../../Mechanical/DataModel/Enums/ChartPlotStyle.md#ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CurvesAppearanceDisplay.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="SpringDampingForceTracker.ResultChartType"></a>
 
 ### *property* SpringDampingForceTracker.ResultChartType *: [Ansys.Mechanical.DataModel.Enums.ChartResultType](../../../../../Mechanical/DataModel/Enums/ChartResultType.md#ChartResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -280,11 +352,15 @@ Gets the ResultChartType.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SpringDampingForceTracker.DpfEvaluation"></a>
+
 ### *property* SpringDampingForceTracker.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DpfEvaluation.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="SpringDampingForceTracker.XAxisValues"></a>
 
 ### *property* SpringDampingForceTracker.XAxisValues *: [Ansys.Mechanical.DataModel.Enums.XAxisValues](../../../../../Mechanical/DataModel/Enums/XAxisValues.md#XAxisValues) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -292,11 +368,15 @@ Gets or sets the XAxisValues.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SpringDampingForceTracker.ShearOrientation"></a>
+
 ### *property* SpringDampingForceTracker.ShearOrientation *: [Ansys.Mechanical.DataModel.Enums.ShearOrientationType](../../../../../Mechanical/DataModel/Enums/ShearOrientationType.md#ShearOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShearOrientation.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="SpringDampingForceTracker.StressStrainType"></a>
 
 ### *property* SpringDampingForceTracker.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](../../../../../Mechanical/DataModel/Enums/StressStrainType.md#StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -304,11 +384,15 @@ Gets or sets the StressStrainType.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SpringDampingForceTracker.TimeHistoryDisplay"></a>
+
 ### *property* SpringDampingForceTracker.TimeHistoryDisplay *: [Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType](../../../../../Mechanical/DataModel/Enums/TimeHistoryDisplayType.md#TimeHistoryDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TimeHistoryDisplay.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="SpringDampingForceTracker.VelocityType"></a>
 
 ### *property* SpringDampingForceTracker.VelocityType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -316,11 +400,15 @@ Gets or sets the VelocityType.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SpringDampingForceTracker.Suppressed"></a>
+
 ### *property* SpringDampingForceTracker.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="SpringDampingForceTracker.EnhancedTracking"></a>
 
 ### *property* SpringDampingForceTracker.EnhancedTracking *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -328,11 +416,15 @@ Gets the EnhancedTracking.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SpringDampingForceTracker.UseParentFrequencyRange"></a>
+
 ### *property* SpringDampingForceTracker.UseParentFrequencyRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UseParentFrequencyRange.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="SpringDampingForceTracker.CoordinateSystem"></a>
 
 ### *property* SpringDampingForceTracker.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -340,11 +432,15 @@ Gets or sets the CoordinateSystem.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SpringDampingForceTracker.Spring"></a>
+
 ### *property* SpringDampingForceTracker.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../Connections/Spring.md#Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Spring.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="SpringDampingForceTracker.Location"></a>
 
 ### *property* SpringDampingForceTracker.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -352,11 +448,15 @@ Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SpringDampingForceTracker.Children"></a>
+
 ### *property* SpringDampingForceTracker.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="SpringDampingForceTracker.Comments"></a>
 
 ### *property* SpringDampingForceTracker.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -364,11 +464,15 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SpringDampingForceTracker.Images"></a>
+
 ### *property* SpringDampingForceTracker.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id0"></a>
 
 ### *property* SpringDampingForceTracker.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -376,11 +480,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SpringDampingForceTracker.Properties"></a>
+
 ### *property* SpringDampingForceTracker.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="SpringDampingForceTracker.VisibleProperties"></a>
 
 ### *property* SpringDampingForceTracker.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -388,7 +496,11 @@ Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="SpringDampingForceTracker.ExportAnimation"></a>
 
 ### SpringDampingForceTracker.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#AnimationExportSettings))
 
@@ -396,11 +508,15 @@ Run the ExportAnimation action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SpringDampingForceTracker.ClearGeneratedData"></a>
+
 ### SpringDampingForceTracker.ClearGeneratedData()
 
 Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="SpringDampingForceTracker.EvaluateAllResults"></a>
 
 ### SpringDampingForceTracker.EvaluateAllResults()
 
@@ -408,11 +524,15 @@ Run the EvaluateAllResults action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SpringDampingForceTracker.RenameBasedOnDefinition"></a>
+
 ### SpringDampingForceTracker.RenameBasedOnDefinition()
 
 Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="SpringDampingForceTracker.Delete"></a>
 
 ### SpringDampingForceTracker.Delete()
 
@@ -420,11 +540,15 @@ Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SpringDampingForceTracker.GetChildren"></a>
+
 ### SpringDampingForceTracker.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id1"></a>
 
 ### SpringDampingForceTracker.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
@@ -432,11 +556,15 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SpringDampingForceTracker.AddComment"></a>
+
 ### SpringDampingForceTracker.AddComment()
 
 Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="SpringDampingForceTracker.AddImage"></a>
 
 ### SpringDampingForceTracker.AddImage(filePath: System.String)
 
@@ -446,11 +574,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SpringDampingForceTracker.Activate"></a>
+
 ### SpringDampingForceTracker.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="SpringDampingForceTracker.CopyTo"></a>
 
 ### SpringDampingForceTracker.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -458,11 +590,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SpringDampingForceTracker.Duplicate"></a>
+
 ### SpringDampingForceTracker.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="SpringDampingForceTracker.GroupAllSimilarChildren"></a>
 
 ### SpringDampingForceTracker.GroupAllSimilarChildren()
 
@@ -470,17 +606,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SpringDampingForceTracker.GroupSimilarObjects"></a>
+
 ### SpringDampingForceTracker.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SpringDampingForceTracker.PropertyByName"></a>
+
 ### SpringDampingForceTracker.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="SpringDampingForceTracker.PropertyByAPIName"></a>
 
 ### SpringDampingForceTracker.PropertyByAPIName(name: System.String)
 
@@ -489,17 +631,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SpringDampingForceTracker.CreateParameter"></a>
+
 ### SpringDampingForceTracker.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SpringDampingForceTracker.GetParameter"></a>
+
 ### SpringDampingForceTracker.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="SpringDampingForceTracker.RemoveParameter"></a>
 
 ### SpringDampingForceTracker.RemoveParameter(propName: System.String)
 

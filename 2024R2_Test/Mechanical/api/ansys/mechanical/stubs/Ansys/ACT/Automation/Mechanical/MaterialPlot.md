@@ -1,4 +1,8 @@
+<a id="materialplot"></a>
+
 # MaterialPlot
+
+<a id="MaterialPlot"></a>
 
 ### *class* MaterialPlot
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a MaterialPlot.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -43,13 +49,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#MaterialPlot.Properties)                                                                            | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#MaterialPlot.VisibleProperties)                                                              | Gets the list of properties that are visible for this object. |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical import MaterialPlot
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="MaterialPlot.InternalObject"></a>
 
 ### *property* MaterialPlot.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSMaterialPlotAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -57,11 +69,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MaterialPlot.MaterialPropertyComponent"></a>
+
 ### *property* MaterialPlot.MaterialPropertyComponent *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MaterialPropertyComponent.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MaterialPlot.MaterialProperty"></a>
 
 ### *property* MaterialPlot.MaterialProperty *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -69,11 +85,15 @@ Gets or sets the MaterialProperty.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MaterialPlot.Suppressed"></a>
+
 ### *property* MaterialPlot.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MaterialPlot.Location"></a>
 
 ### *property* MaterialPlot.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -81,11 +101,15 @@ Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MaterialPlot.DataModelObjectCategory"></a>
+
 ### *property* MaterialPlot.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MaterialPlot.Children"></a>
 
 ### *property* MaterialPlot.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -93,11 +117,15 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id0"></a>
+
 ### *property* MaterialPlot.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MaterialPlot.Properties"></a>
 
 ### *property* MaterialPlot.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -105,13 +133,19 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MaterialPlot.VisibleProperties"></a>
+
 ### *property* MaterialPlot.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="MaterialPlot.Clear"></a>
 
 ### MaterialPlot.Clear()
 
@@ -119,11 +153,15 @@ Run the Clear action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MaterialPlot.Generate"></a>
+
 ### MaterialPlot.Generate()
 
 Run the Generate action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MaterialPlot.Delete"></a>
 
 ### MaterialPlot.Delete()
 
@@ -131,11 +169,15 @@ Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MaterialPlot.GetChildren"></a>
+
 ### MaterialPlot.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id1"></a>
 
 ### MaterialPlot.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
@@ -143,11 +185,15 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MaterialPlot.Activate"></a>
+
 ### MaterialPlot.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MaterialPlot.CopyTo"></a>
 
 ### MaterialPlot.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -155,11 +201,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MaterialPlot.Duplicate"></a>
+
 ### MaterialPlot.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MaterialPlot.GroupAllSimilarChildren"></a>
 
 ### MaterialPlot.GroupAllSimilarChildren()
 
@@ -167,17 +217,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MaterialPlot.GroupSimilarObjects"></a>
+
 ### MaterialPlot.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MaterialPlot.PropertyByName"></a>
+
 ### MaterialPlot.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MaterialPlot.PropertyByAPIName"></a>
 
 ### MaterialPlot.PropertyByAPIName(name: System.String)
 
@@ -186,17 +242,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MaterialPlot.CreateParameter"></a>
+
 ### MaterialPlot.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MaterialPlot.GetParameter"></a>
+
 ### MaterialPlot.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MaterialPlot.RemoveParameter"></a>
 
 ### MaterialPlot.RemoveParameter(propName: System.String)
 

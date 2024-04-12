@@ -1,4 +1,8 @@
+<a id="condensedpartinfotool"></a>
+
 # CondensedPartInfoTool
+
+<a id="CondensedPartInfoTool"></a>
 
 ### *class* CondensedPartInfoTool
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a CondensedPartInfoTool.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -43,13 +49,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#CondensedPartInfoTool.Properties)                                                                   | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#CondensedPartInfoTool.VisibleProperties)                                                     | Gets the list of properties that are visible for this object. |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical import CondensedPartInfoTool
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="CondensedPartInfoTool.InternalObject"></a>
 
 ### *property* CondensedPartInfoTool.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSCondensedPartInfoToolAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -57,11 +69,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CondensedPartInfoTool.Text"></a>
+
 ### *property* CondensedPartInfoTool.Text *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Text.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CondensedPartInfoTool.UpdateInterval"></a>
 
 ### *property* CondensedPartInfoTool.UpdateInterval *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -69,11 +85,15 @@ Gets or sets the UpdateInterval.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CondensedPartInfoTool.DataModelObjectCategory"></a>
+
 ### *property* CondensedPartInfoTool.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CondensedPartInfoTool.Children"></a>
 
 ### *property* CondensedPartInfoTool.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -81,11 +101,15 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CondensedPartInfoTool.Comments"></a>
+
 ### *property* CondensedPartInfoTool.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CondensedPartInfoTool.Images"></a>
 
 ### *property* CondensedPartInfoTool.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -93,11 +117,15 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id0"></a>
+
 ### *property* CondensedPartInfoTool.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CondensedPartInfoTool.Properties"></a>
 
 ### *property* CondensedPartInfoTool.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -105,13 +133,19 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CondensedPartInfoTool.VisibleProperties"></a>
+
 ### *property* CondensedPartInfoTool.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="CondensedPartInfoTool.Delete"></a>
 
 ### CondensedPartInfoTool.Delete()
 
@@ -119,11 +153,15 @@ Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CondensedPartInfoTool.GetChildren"></a>
+
 ### CondensedPartInfoTool.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id1"></a>
 
 ### CondensedPartInfoTool.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
@@ -131,11 +169,15 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CondensedPartInfoTool.AddComment"></a>
+
 ### CondensedPartInfoTool.AddComment()
 
 Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CondensedPartInfoTool.AddImage"></a>
 
 ### CondensedPartInfoTool.AddImage(filePath: System.String)
 
@@ -145,11 +187,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CondensedPartInfoTool.Activate"></a>
+
 ### CondensedPartInfoTool.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CondensedPartInfoTool.CopyTo"></a>
 
 ### CondensedPartInfoTool.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -157,11 +203,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CondensedPartInfoTool.Duplicate"></a>
+
 ### CondensedPartInfoTool.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CondensedPartInfoTool.GroupAllSimilarChildren"></a>
 
 ### CondensedPartInfoTool.GroupAllSimilarChildren()
 
@@ -169,17 +219,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CondensedPartInfoTool.GroupSimilarObjects"></a>
+
 ### CondensedPartInfoTool.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CondensedPartInfoTool.PropertyByName"></a>
+
 ### CondensedPartInfoTool.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CondensedPartInfoTool.PropertyByAPIName"></a>
 
 ### CondensedPartInfoTool.PropertyByAPIName(name: System.String)
 
@@ -188,17 +244,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CondensedPartInfoTool.CreateParameter"></a>
+
 ### CondensedPartInfoTool.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CondensedPartInfoTool.GetParameter"></a>
+
 ### CondensedPartInfoTool.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CondensedPartInfoTool.RemoveParameter"></a>
 
 ### CondensedPartInfoTool.RemoveParameter(propName: System.String)
 

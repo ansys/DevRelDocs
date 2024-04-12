@@ -1,4 +1,8 @@
+<a id="compositesamplingpoint"></a>
+
 # CompositeSamplingPoint
+
+<a id="CompositeSamplingPoint"></a>
 
 ### *class* CompositeSamplingPoint
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a CompositeSamplingPoint.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -44,13 +50,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#CompositeSamplingPoint.Properties)                                                                        | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#CompositeSamplingPoint.VisibleProperties)                                                          | Gets the list of properties that are visible for this object. |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.Results.CompositeFailureResults import CompositeSamplingPoint
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="CompositeSamplingPoint.InternalObject"></a>
 
 ### *property* CompositeSamplingPoint.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSCompositeSamplingPointResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -58,11 +70,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CompositeSamplingPoint.Location"></a>
+
 ### *property* CompositeSamplingPoint.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CompositeSamplingPoint.DataModelObjectCategory"></a>
 
 ### *property* CompositeSamplingPoint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -70,11 +86,15 @@ Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CompositeSamplingPoint.Children"></a>
+
 ### *property* CompositeSamplingPoint.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CompositeSamplingPoint.Comments"></a>
 
 ### *property* CompositeSamplingPoint.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -82,11 +102,15 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CompositeSamplingPoint.Figures"></a>
+
 ### *property* CompositeSamplingPoint.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CompositeSamplingPoint.Images"></a>
 
 ### *property* CompositeSamplingPoint.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -94,11 +118,15 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id0"></a>
+
 ### *property* CompositeSamplingPoint.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CompositeSamplingPoint.Properties"></a>
 
 ### *property* CompositeSamplingPoint.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -106,13 +134,19 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CompositeSamplingPoint.VisibleProperties"></a>
+
 ### *property* CompositeSamplingPoint.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="CompositeSamplingPoint.Delete"></a>
 
 ### CompositeSamplingPoint.Delete()
 
@@ -120,11 +154,15 @@ Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CompositeSamplingPoint.GetChildren"></a>
+
 ### CompositeSamplingPoint.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id1"></a>
 
 ### CompositeSamplingPoint.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
@@ -132,17 +170,23 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CompositeSamplingPoint.AddComment"></a>
+
 ### CompositeSamplingPoint.AddComment()
 
 Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CompositeSamplingPoint.AddFigure"></a>
+
 ### CompositeSamplingPoint.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CompositeSamplingPoint.AddImage"></a>
 
 ### CompositeSamplingPoint.AddImage(filePath: System.String)
 
@@ -152,11 +196,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CompositeSamplingPoint.Activate"></a>
+
 ### CompositeSamplingPoint.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CompositeSamplingPoint.CopyTo"></a>
 
 ### CompositeSamplingPoint.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -164,11 +212,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CompositeSamplingPoint.Duplicate"></a>
+
 ### CompositeSamplingPoint.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CompositeSamplingPoint.GroupAllSimilarChildren"></a>
 
 ### CompositeSamplingPoint.GroupAllSimilarChildren()
 
@@ -176,17 +228,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CompositeSamplingPoint.GroupSimilarObjects"></a>
+
 ### CompositeSamplingPoint.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CompositeSamplingPoint.PropertyByName"></a>
+
 ### CompositeSamplingPoint.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CompositeSamplingPoint.PropertyByAPIName"></a>
 
 ### CompositeSamplingPoint.PropertyByAPIName(name: System.String)
 
@@ -195,17 +253,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CompositeSamplingPoint.CreateParameter"></a>
+
 ### CompositeSamplingPoint.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CompositeSamplingPoint.GetParameter"></a>
+
 ### CompositeSamplingPoint.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CompositeSamplingPoint.RemoveParameter"></a>
 
 ### CompositeSamplingPoint.RemoveParameter(propName: System.String)
 

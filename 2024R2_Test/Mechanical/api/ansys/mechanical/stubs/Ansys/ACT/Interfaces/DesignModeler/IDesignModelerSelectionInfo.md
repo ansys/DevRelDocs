@@ -1,4 +1,8 @@
+<a id="idesignmodelerselectioninfo"></a>
+
 # IDesignModelerSelectionInfo
+
+<a id="IDesignModelerSelectionInfo"></a>
 
 ### *class* IDesignModelerSelectionInfo
 
@@ -8,6 +12,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 > <!-- !! processed by numpydoc !! -->
 
+<a id="overview"></a>
+
 ## Overview
 
 ### Properties
@@ -16,19 +22,27 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 |-------------------------------------------------------|-----------------------------------------------------|
 | [`Locations`](#IDesignModelerSelectionInfo.Locations) | Gets the location point for each selected entities. |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Interfaces.DesignModeler import IDesignModelerSelectionInfo
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="IDesignModelerSelectionInfo.Entities"></a>
 
 ### *property* IDesignModelerSelectionInfo.Entities *: System.Collections.Generic.IList[Ansys.ACT.Interfaces.Geometry.IBaseGeoEntity] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of selected geometry entities.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="IDesignModelerSelectionInfo.Locations"></a>
 
 ### *property* IDesignModelerSelectionInfo.Locations *: System.Collections.Generic.IList[System.Double] | [None](https://docs.python.org/3/library/constants.html#None)*
 

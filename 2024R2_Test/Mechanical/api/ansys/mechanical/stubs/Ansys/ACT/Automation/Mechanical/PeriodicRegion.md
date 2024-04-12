@@ -1,4 +1,8 @@
+<a id="periodicregion"></a>
+
 # PeriodicRegion
+
+<a id="PeriodicRegion"></a>
 
 ### *class* PeriodicRegion
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a PeriodicRegion.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -52,13 +58,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#PeriodicRegion.Properties)                                                                          | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#PeriodicRegion.VisibleProperties)                                                            | Gets the list of properties that are visible for this object. |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical import PeriodicRegion
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="PeriodicRegion.InternalObject"></a>
 
 ### *property* PeriodicRegion.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSSymmetryGeneralAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -66,11 +78,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PeriodicRegion.Type"></a>
+
 ### *property* PeriodicRegion.Type *: [Ansys.Mechanical.DataModel.Enums.PeriodicRegionType](../../../Mechanical/DataModel/Enums/PeriodicRegionType.md#PeriodicRegionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PeriodicRegion.DataModelObjectCategory"></a>
 
 ### *property* PeriodicRegion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -78,11 +94,15 @@ Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PeriodicRegion.ScopeMode"></a>
+
 ### *property* PeriodicRegion.ScopeMode *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](../../../Mechanical/DataModel/Enums/AutomaticOrManual.md#AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ScopeMode.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PeriodicRegion.Suppressed"></a>
 
 ### *property* PeriodicRegion.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -90,11 +110,15 @@ Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PeriodicRegion.CoordinateSystem"></a>
+
 ### *property* PeriodicRegion.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PeriodicRegion.Location"></a>
 
 ### *property* PeriodicRegion.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -102,11 +126,15 @@ Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PeriodicRegion.HighBoundaryLocation"></a>
+
 ### *property* PeriodicRegion.HighBoundaryLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HighBoundaryLocation.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PeriodicRegion.LowBoundaryLocation"></a>
 
 ### *property* PeriodicRegion.LowBoundaryLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -114,11 +142,15 @@ Gets or sets the LowBoundaryLocation.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PeriodicRegion.Children"></a>
+
 ### *property* PeriodicRegion.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PeriodicRegion.Comments"></a>
 
 ### *property* PeriodicRegion.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -126,11 +158,15 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PeriodicRegion.Figures"></a>
+
 ### *property* PeriodicRegion.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PeriodicRegion.Images"></a>
 
 ### *property* PeriodicRegion.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -138,11 +174,15 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PeriodicRegion.ReadOnly"></a>
+
 ### *property* PeriodicRegion.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id0"></a>
 
 ### *property* PeriodicRegion.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -150,11 +190,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PeriodicRegion.Properties"></a>
+
 ### *property* PeriodicRegion.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PeriodicRegion.VisibleProperties"></a>
 
 ### *property* PeriodicRegion.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -162,7 +206,11 @@ Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="PeriodicRegion.FlipHighLow"></a>
 
 ### PeriodicRegion.FlipHighLow()
 
@@ -170,11 +218,15 @@ Flips the High and Low Boundaries.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PeriodicRegion.Delete"></a>
+
 ### PeriodicRegion.Delete()
 
 Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PeriodicRegion.GetChildren"></a>
 
 ### PeriodicRegion.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
@@ -182,11 +234,15 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id1"></a>
+
 ### PeriodicRegion.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PeriodicRegion.AddComment"></a>
 
 ### PeriodicRegion.AddComment()
 
@@ -194,11 +250,15 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PeriodicRegion.AddFigure"></a>
+
 ### PeriodicRegion.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PeriodicRegion.AddImage"></a>
 
 ### PeriodicRegion.AddImage(filePath: System.String)
 
@@ -208,11 +268,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PeriodicRegion.Activate"></a>
+
 ### PeriodicRegion.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PeriodicRegion.CopyTo"></a>
 
 ### PeriodicRegion.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -220,11 +284,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PeriodicRegion.Duplicate"></a>
+
 ### PeriodicRegion.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PeriodicRegion.GroupAllSimilarChildren"></a>
 
 ### PeriodicRegion.GroupAllSimilarChildren()
 
@@ -232,17 +300,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PeriodicRegion.GroupSimilarObjects"></a>
+
 ### PeriodicRegion.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PeriodicRegion.PropertyByName"></a>
+
 ### PeriodicRegion.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PeriodicRegion.PropertyByAPIName"></a>
 
 ### PeriodicRegion.PropertyByAPIName(name: System.String)
 
@@ -251,17 +325,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PeriodicRegion.CreateParameter"></a>
+
 ### PeriodicRegion.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PeriodicRegion.GetParameter"></a>
+
 ### PeriodicRegion.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PeriodicRegion.RemoveParameter"></a>
 
 ### PeriodicRegion.RemoveParameter(propName: System.String)
 

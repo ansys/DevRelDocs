@@ -1,4 +1,8 @@
+<a id="importedmaterialfield"></a>
+
 # ImportedMaterialField
+
+<a id="ImportedMaterialField"></a>
 
 ### *class* ImportedMaterialField
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a ImportedMaterialField.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -92,13 +98,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#ImportedMaterialField.Properties)                                                                                  | Gets the list of properties for this object.                                                            |
 | [`VisibleProperties`](#ImportedMaterialField.VisibleProperties)                                                                    | Gets the list of properties that are visible for this object.                                           |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.ImportedLoads import ImportedMaterialField
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="ImportedMaterialField.InternalObject"></a>
 
 ### *property* ImportedMaterialField.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSExternalLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -106,11 +118,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedMaterialField.DataModelObjectCategory"></a>
+
 ### *property* ImportedMaterialField.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedMaterialField.Weighting"></a>
 
 ### *property* ImportedMaterialField.Weighting *: [Ansys.Mechanical.DataModel.Enums.WeightingType](../../../../Mechanical/DataModel/Enums/WeightingType.md#WeightingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -118,11 +134,15 @@ Weighting property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedMaterialField.MappingControl"></a>
+
 ### *property* ImportedMaterialField.MappingControl *: [Ansys.Mechanical.DataModel.Enums.MappingControlType](../../../../Mechanical/DataModel/Enums/MappingControlType.md#MappingControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 MappingControl property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedMaterialField.DisplaySourcePoints"></a>
 
 ### *property* ImportedMaterialField.DisplaySourcePoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -130,11 +150,15 @@ DisplaySourcePoints property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedMaterialField.DisplaySourcePointIds"></a>
+
 ### *property* ImportedMaterialField.DisplaySourcePointIds *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DisplaySourcePointIds property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedMaterialField.DisplayInteriorPoints"></a>
 
 ### *property* ImportedMaterialField.DisplayInteriorPoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -142,11 +166,15 @@ DisplayInteriorPoints property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedMaterialField.DisplayProjectionPlane"></a>
+
 ### *property* ImportedMaterialField.DisplayProjectionPlane *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DisplayProjectionPlane property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedMaterialField.Algorithm"></a>
 
 ### *property* ImportedMaterialField.Algorithm *: [Ansys.Mechanical.DataModel.Enums.MappingAlgorithm](../../../../Mechanical/DataModel/Enums/MappingAlgorithm.md#MappingAlgorithm) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -154,11 +182,15 @@ Algorithm property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedMaterialField.BoundingBoxTolerance"></a>
+
 ### *property* ImportedMaterialField.BoundingBoxTolerance *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 BoundingBoxTolerance property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedMaterialField.CreateNameSelectionForMappedNodes"></a>
 
 ### *property* ImportedMaterialField.CreateNameSelectionForMappedNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -166,11 +198,15 @@ CreateNameSelectionForMappedNodes property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedMaterialField.CreateNameSelectionForOutsideNodes"></a>
+
 ### *property* ImportedMaterialField.CreateNameSelectionForOutsideNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 CreateNameSelectionForOutsideNodes property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedMaterialField.CreateNameSelectionForUnmappedNodes"></a>
 
 ### *property* ImportedMaterialField.CreateNameSelectionForUnmappedNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -178,11 +214,15 @@ CreateNameSelectionForUnmappedNodes property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedMaterialField.Mapping"></a>
+
 ### *property* ImportedMaterialField.Mapping *: [Ansys.Mechanical.DataModel.Enums.MappingInterpolationType](../../../../Mechanical/DataModel/Enums/MappingInterpolationType.md#MappingInterpolationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Mapping property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedMaterialField.LegendMaximum"></a>
 
 ### *property* ImportedMaterialField.LegendMaximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -190,11 +230,15 @@ LegendMaximum property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedMaterialField.LegendMinimum"></a>
+
 ### *property* ImportedMaterialField.LegendMinimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 LegendMinimum property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedMaterialField.LegendRange"></a>
 
 ### *property* ImportedMaterialField.LegendRange *: [Ansys.Mechanical.DataModel.Enums.LegendRangeType](../../../../Mechanical/DataModel/Enums/LegendRangeType.md#LegendRangeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -202,11 +246,15 @@ LegendRange property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedMaterialField.MaxOutsideDistance"></a>
+
 ### *property* ImportedMaterialField.MaxOutsideDistance *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 MaxOutsideDistance property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedMaterialField.Method"></a>
 
 ### *property* ImportedMaterialField.Method *: [Ansys.Mechanical.DataModel.Enums.MappingMethod](../../../../Mechanical/DataModel/Enums/MappingMethod.md#MappingMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -214,11 +262,15 @@ Method property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedMaterialField.OutsideDistanceCheck"></a>
+
 ### *property* ImportedMaterialField.OutsideDistanceCheck *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 OutsideDistanceCheck property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedMaterialField.OutsideOption"></a>
 
 ### *property* ImportedMaterialField.OutsideOption *: [Ansys.Mechanical.DataModel.Enums.MappingOutsideOption](../../../../Mechanical/DataModel/Enums/MappingOutsideOption.md#MappingOutsideOption) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -226,11 +278,15 @@ OutsideOption property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedMaterialField.Projection"></a>
+
 ### *property* ImportedMaterialField.Projection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Projection property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedMaterialField.RigidBodyTransformationType"></a>
 
 ### *property* ImportedMaterialField.RigidBodyTransformationType *: [Ansys.Mechanical.DataModel.Enums.RigidBodyTransformationType](../../../../Mechanical/DataModel/Enums/RigidBodyTransformationType.md#RigidBodyTransformationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -238,11 +294,15 @@ RigidBodyTransformationType property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedMaterialField.RigidTransformSourceCoordinateSystem"></a>
+
 ### *property* ImportedMaterialField.RigidTransformSourceCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 RigidTransformSourceCoordinateSystem property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedMaterialField.RigidTransformTargetCoordinateSystem"></a>
 
 ### *property* ImportedMaterialField.RigidTransformTargetCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -250,11 +310,15 @@ RigidTransformTargetCoordinateSystem property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedMaterialField.ShellThicknessFactor"></a>
+
 ### *property* ImportedMaterialField.ShellThicknessFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
 ShellThicknessFactor property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedMaterialField.SourceMaximum"></a>
 
 ### *property* ImportedMaterialField.SourceMaximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -262,11 +326,15 @@ SourceMaximum property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedMaterialField.SourceMinimum"></a>
+
 ### *property* ImportedMaterialField.SourceMinimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 SourceMinimum property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedMaterialField.VariableType"></a>
 
 ### *property* ImportedMaterialField.VariableType *: [Ansys.Mechanical.DataModel.Enums.MappingVariableType](../../../../Mechanical/DataModel/Enums/MappingVariableType.md#MappingVariableType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -274,11 +342,15 @@ VariableType property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedMaterialField.Interpolation"></a>
+
 ### *property* ImportedMaterialField.Interpolation *: [Ansys.Mechanical.DataModel.Enums.InterpolationType](../../../../Mechanical/DataModel/Enums/InterpolationType.md#InterpolationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Interpolation property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedMaterialField.UnmappedNodesName"></a>
 
 ### *property* ImportedMaterialField.UnmappedNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -286,11 +358,15 @@ UnmappedNodesName property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedMaterialField.MappedNodesName"></a>
+
 ### *property* ImportedMaterialField.MappedNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 MappedNodesName property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedMaterialField.OutsideNodesName"></a>
 
 ### *property* ImportedMaterialField.OutsideNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -298,11 +374,15 @@ OutsideNodesName property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedMaterialField.Pinball"></a>
+
 ### *property* ImportedMaterialField.Pinball *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Pinball property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedMaterialField.NumberOfPoints"></a>
 
 ### *property* ImportedMaterialField.NumberOfPoints *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -310,11 +390,15 @@ NumberOfPoints property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedMaterialField.OrientationRealignment"></a>
+
 ### *property* ImportedMaterialField.OrientationRealignment *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 OrientationRealignment property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedMaterialField.Limit"></a>
 
 ### *property* ImportedMaterialField.Limit *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -322,11 +406,15 @@ Limit property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedMaterialField.KrigingCorrelationFunction"></a>
+
 ### *property* ImportedMaterialField.KrigingCorrelationFunction *: [Ansys.Mechanical.DataModel.Enums.KrigingCorrFuncType](../../../../Mechanical/DataModel/Enums/KrigingCorrFuncType.md#KrigingCorrFuncType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 KrigingCorrelationFunction property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedMaterialField.KrigingPolynom"></a>
 
 ### *property* ImportedMaterialField.KrigingPolynom *: [Ansys.Mechanical.DataModel.Enums.KrigingPolynomType](../../../../Mechanical/DataModel/Enums/KrigingPolynomType.md#KrigingPolynomType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -334,11 +422,15 @@ KrigingPolynom property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedMaterialField.ExtrapolationTolerancePercent"></a>
+
 ### *property* ImportedMaterialField.ExtrapolationTolerancePercent *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
 ExtrapolationTolerancePercent property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedMaterialField.ApplyAs"></a>
 
 ### *property* ImportedMaterialField.ApplyAs *: [Ansys.Mechanical.DataModel.Enums.ExternalLoadApplicationType](../../../../Mechanical/DataModel/Enums/ExternalLoadApplicationType.md#ExternalLoadApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -346,11 +438,15 @@ This controls how the imported load is applied, either as a boundary condition o
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedMaterialField.Suppressed"></a>
+
 ### *property* ImportedMaterialField.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedMaterialField.SharedRefBody"></a>
 
 ### *property* ImportedMaterialField.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -358,11 +454,15 @@ Gets or sets the SharedRefBody.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedMaterialField.Location"></a>
+
 ### *property* ImportedMaterialField.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedMaterialField.Children"></a>
 
 ### *property* ImportedMaterialField.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -370,11 +470,15 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedMaterialField.Comments"></a>
+
 ### *property* ImportedMaterialField.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedMaterialField.Figures"></a>
 
 ### *property* ImportedMaterialField.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -382,11 +486,15 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedMaterialField.Images"></a>
+
 ### *property* ImportedMaterialField.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id0"></a>
 
 ### *property* ImportedMaterialField.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -394,11 +502,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedMaterialField.Properties"></a>
+
 ### *property* ImportedMaterialField.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedMaterialField.VisibleProperties"></a>
 
 ### *property* ImportedMaterialField.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -406,7 +518,11 @@ Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="ImportedMaterialField.ExportToTextFile"></a>
 
 ### ImportedMaterialField.ExportToTextFile(filePath: System.String)
 
@@ -414,11 +530,15 @@ Run the ExportToTextFile action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedMaterialField.Import"></a>
+
 ### ImportedMaterialField.Import()
 
 Import.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedMaterialField.ImportLoad"></a>
 
 ### ImportedMaterialField.ImportLoad()
 
@@ -426,11 +546,15 @@ Run the ImportLoad action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedMaterialField.GetActivateAtLoadStep"></a>
+
 ### ImportedMaterialField.GetActivateAtLoadStep(stepNumber: System.UInt32)
 
 GetActivateAtLoadStep method.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedMaterialField.SetActivateAtLoadStep"></a>
 
 ### ImportedMaterialField.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
 
@@ -438,11 +562,15 @@ SetActivateAtLoadStep method.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedMaterialField.AddMappingValidation"></a>
+
 ### ImportedMaterialField.AddMappingValidation()
 
 Creates a new MappingValidation
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedMaterialField.ClearGeneratedData"></a>
 
 ### ImportedMaterialField.ClearGeneratedData()
 
@@ -450,11 +578,15 @@ Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedMaterialField.Delete"></a>
+
 ### ImportedMaterialField.Delete()
 
 Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedMaterialField.GetChildren"></a>
 
 ### ImportedMaterialField.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
@@ -462,11 +594,15 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id1"></a>
+
 ### ImportedMaterialField.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedMaterialField.AddComment"></a>
 
 ### ImportedMaterialField.AddComment()
 
@@ -474,11 +610,15 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedMaterialField.AddFigure"></a>
+
 ### ImportedMaterialField.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedMaterialField.AddImage"></a>
 
 ### ImportedMaterialField.AddImage(filePath: System.String)
 
@@ -488,11 +628,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedMaterialField.Activate"></a>
+
 ### ImportedMaterialField.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedMaterialField.CopyTo"></a>
 
 ### ImportedMaterialField.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -500,11 +644,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedMaterialField.Duplicate"></a>
+
 ### ImportedMaterialField.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedMaterialField.GroupAllSimilarChildren"></a>
 
 ### ImportedMaterialField.GroupAllSimilarChildren()
 
@@ -512,17 +660,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedMaterialField.GroupSimilarObjects"></a>
+
 ### ImportedMaterialField.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedMaterialField.PropertyByName"></a>
+
 ### ImportedMaterialField.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedMaterialField.PropertyByAPIName"></a>
 
 ### ImportedMaterialField.PropertyByAPIName(name: System.String)
 
@@ -531,17 +685,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedMaterialField.CreateParameter"></a>
+
 ### ImportedMaterialField.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedMaterialField.GetParameter"></a>
+
 ### ImportedMaterialField.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedMaterialField.RemoveParameter"></a>
 
 ### ImportedMaterialField.RemoveParameter(propName: System.String)
 

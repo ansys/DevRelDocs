@@ -1,4 +1,8 @@
+<a id="condensedgeometry"></a>
+
 # CondensedGeometry
+
+<a id="CondensedGeometry"></a>
 
 ### *class* CondensedGeometry
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a CondensedGeometry.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -51,13 +57,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#CondensedGeometry.Properties)                                                                       | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#CondensedGeometry.VisibleProperties)                                                         | Gets the list of properties that are visible for this object. |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical import CondensedGeometry
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="CondensedGeometry.InternalObject"></a>
 
 ### *property* CondensedGeometry.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSCondensedGeometryAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -65,11 +77,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CondensedGeometry.SolverFilesDirectory"></a>
+
 ### *property* CondensedGeometry.SolverFilesDirectory *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the SolverFilesDirectory.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CondensedGeometry.TransparencyEnabled"></a>
 
 ### *property* CondensedGeometry.TransparencyEnabled *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -77,11 +93,15 @@ Gets or sets the TransparencyEnabled.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CondensedGeometry.DataModelObjectCategory"></a>
+
 ### *property* CondensedGeometry.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CondensedGeometry.Children"></a>
 
 ### *property* CondensedGeometry.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -89,11 +109,15 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CondensedGeometry.Comments"></a>
+
 ### *property* CondensedGeometry.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CondensedGeometry.Figures"></a>
 
 ### *property* CondensedGeometry.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -101,11 +125,15 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CondensedGeometry.Images"></a>
+
 ### *property* CondensedGeometry.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id0"></a>
 
 ### *property* CondensedGeometry.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -113,11 +141,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CondensedGeometry.Properties"></a>
+
 ### *property* CondensedGeometry.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CondensedGeometry.VisibleProperties"></a>
 
 ### *property* CondensedGeometry.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -125,7 +157,11 @@ Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="CondensedGeometry.CreateAutomaticCondensedParts"></a>
 
 ### CondensedGeometry.CreateAutomaticCondensedParts()
 
@@ -133,11 +169,15 @@ Run the CreateAutomaticCondensedParts action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CondensedGeometry.AddCondensedPart"></a>
+
 ### CondensedGeometry.AddCondensedPart()
 
 Creates a new CondensedPart
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CondensedGeometry.AddCondensedPartInfoTool"></a>
 
 ### CondensedGeometry.AddCondensedPartInfoTool()
 
@@ -145,11 +185,15 @@ Creates a new CondensedPartInfoTool
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CondensedGeometry.AddImportedCondensedPart"></a>
+
 ### CondensedGeometry.AddImportedCondensedPart()
 
 Creates a new ImportedCondensedPart
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CondensedGeometry.ClearGeneratedData"></a>
 
 ### CondensedGeometry.ClearGeneratedData()
 
@@ -157,11 +201,15 @@ Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CondensedGeometry.GenerateCondensedParts"></a>
+
 ### CondensedGeometry.GenerateCondensedParts()
 
 Run the GenerateCondensedParts action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CondensedGeometry.Delete"></a>
 
 ### CondensedGeometry.Delete()
 
@@ -169,11 +217,15 @@ Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CondensedGeometry.GetChildren"></a>
+
 ### CondensedGeometry.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id1"></a>
 
 ### CondensedGeometry.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
@@ -181,17 +233,23 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CondensedGeometry.AddComment"></a>
+
 ### CondensedGeometry.AddComment()
 
 Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CondensedGeometry.AddFigure"></a>
+
 ### CondensedGeometry.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CondensedGeometry.AddImage"></a>
 
 ### CondensedGeometry.AddImage(filePath: System.String)
 
@@ -201,11 +259,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CondensedGeometry.Activate"></a>
+
 ### CondensedGeometry.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CondensedGeometry.CopyTo"></a>
 
 ### CondensedGeometry.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -213,11 +275,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CondensedGeometry.Duplicate"></a>
+
 ### CondensedGeometry.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CondensedGeometry.GroupAllSimilarChildren"></a>
 
 ### CondensedGeometry.GroupAllSimilarChildren()
 
@@ -225,17 +291,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CondensedGeometry.GroupSimilarObjects"></a>
+
 ### CondensedGeometry.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CondensedGeometry.PropertyByName"></a>
+
 ### CondensedGeometry.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CondensedGeometry.PropertyByAPIName"></a>
 
 ### CondensedGeometry.PropertyByAPIName(name: System.String)
 
@@ -244,17 +316,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CondensedGeometry.CreateParameter"></a>
+
 ### CondensedGeometry.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CondensedGeometry.GetParameter"></a>
+
 ### CondensedGeometry.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CondensedGeometry.RemoveParameter"></a>
 
 ### CondensedGeometry.RemoveParameter(propName: System.String)
 

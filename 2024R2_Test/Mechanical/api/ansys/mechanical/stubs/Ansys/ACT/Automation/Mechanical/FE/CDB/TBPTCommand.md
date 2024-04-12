@@ -1,4 +1,8 @@
+<a id="tbptcommand"></a>
+
 # TBPTCommand
+
+<a id="TBPTCommand"></a>
 
 ### *class* TBPTCommand
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Represents a TBPT command.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -23,13 +29,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Name`](#TBPTCommand.Name)                   | Gets the command name.                       |
 | [`Index`](#TBPTCommand.Index)                 | Gets the command index.                      |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.FE.CDB import TBPTCommand
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="TBPTCommand.Lab"></a>
 
 ### *property* TBPTCommand.Lab *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -37,11 +49,15 @@ Gets the label.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="TBPTCommand.Mat"></a>
+
 ### *property* TBPTCommand.Mat *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the material number.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="TBPTCommand.Ntemp"></a>
 
 ### *property* TBPTCommand.Ntemp *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -49,11 +65,15 @@ Gets the number of temperature, if provided.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="TBPTCommand.Npts"></a>
+
 ### *property* TBPTCommand.Npts *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the number of points, if provided.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="TBPTCommand.Tbopt"></a>
 
 ### *property* TBPTCommand.Tbopt *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -61,11 +81,15 @@ Gets the option.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="TBPTCommand.TBPTDataCount"></a>
+
 ### *property* TBPTCommand.TBPTDataCount *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the number of TBPT data.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="TBPTCommand.TBPTData"></a>
 
 ### *property* TBPTCommand.TBPTData *: System.Collections.Generic.IReadOnlyList[[Ansys.ACT.Automation.Mechanical.FE.CDB.TBPTData](TBPTData.md#TBPTData)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -73,11 +97,15 @@ Gets TBPT data items.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="TBPTCommand.Name"></a>
+
 ### *property* TBPTCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="TBPTCommand.Index"></a>
 
 ### *property* TBPTCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 

@@ -1,4 +1,8 @@
+<a id="contactnumberstickingtracker"></a>
+
 # ContactNumberStickingTracker
+
+<a id="ContactNumberStickingTracker"></a>
 
 ### *class* ContactNumberStickingTracker
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a ContactNumberStickingTracker.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -88,13 +94,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#ContactNumberStickingTracker.Properties)                                                                  | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#ContactNumberStickingTracker.VisibleProperties)                                                    | Gets the list of properties that are visible for this object. |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.Results.ResultTrackers import ContactNumberStickingTracker
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="ContactNumberStickingTracker.InternalObject"></a>
 
 ### *property* ContactNumberStickingTracker.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultChartAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -102,11 +114,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactNumberStickingTracker.ContactSide"></a>
+
 ### *property* ContactNumberStickingTracker.ContactSide *: [Ansys.Mechanical.DataModel.Enums.ContactScopingType](../../../../../Mechanical/DataModel/Enums/ContactScopingType.md#ContactScopingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactSide.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactNumberStickingTracker.ContactRegion"></a>
 
 ### *property* ContactNumberStickingTracker.ContactRegion *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../Connections/ContactRegion.md#ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -114,11 +130,15 @@ Gets or sets the ContactRegion.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactNumberStickingTracker.DataModelObjectCategory"></a>
+
 ### *property* ContactNumberStickingTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactNumberStickingTracker.IsSolved"></a>
 
 ### *property* ContactNumberStickingTracker.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -126,11 +146,15 @@ Gets the IsSolved.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactNumberStickingTracker.ChartDimensions"></a>
+
 ### *property* ContactNumberStickingTracker.ChartDimensions *: [Ansys.Mechanical.DataModel.Enums.ChartDimensions](../../../../../Mechanical/DataModel/Enums/ChartDimensions.md#ChartDimensions) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Chart Dimensions
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactNumberStickingTracker.BoundaryCondition"></a>
 
 ### *property* ContactNumberStickingTracker.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](../../BoundaryConditions/GenericBoundaryCondition.md#GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -138,11 +162,15 @@ Gets or sets the BoundaryCondition.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactNumberStickingTracker.CutFrequency"></a>
+
 ### *property* ContactNumberStickingTracker.CutFrequency *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CutFrequency.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactNumberStickingTracker.SectorNumber"></a>
 
 ### *property* ContactNumberStickingTracker.SectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -150,11 +178,15 @@ Gets or sets the SectorNumber.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactNumberStickingTracker.GeometrySelectionString"></a>
+
 ### *property* ContactNumberStickingTracker.GeometrySelectionString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GeometrySelectionString.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactNumberStickingTracker.LoadStepNumber"></a>
 
 ### *property* ContactNumberStickingTracker.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -162,11 +194,15 @@ Gets or sets the LoadStepNumber.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactNumberStickingTracker.ReportedFrequency"></a>
+
 ### *property* ContactNumberStickingTracker.ReportedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ReportedFrequency.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactNumberStickingTracker.Duration"></a>
 
 ### *property* ContactNumberStickingTracker.Duration *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -174,11 +210,15 @@ Gets or sets the Duration.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactNumberStickingTracker.FilterMaximum"></a>
+
 ### *property* ContactNumberStickingTracker.FilterMaximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the FilterMaximum.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactNumberStickingTracker.FilterMinimum"></a>
 
 ### *property* ContactNumberStickingTracker.FilterMinimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -186,11 +226,15 @@ Gets the FilterMinimum.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactNumberStickingTracker.FrequencyAtMaximumAmplitude"></a>
+
 ### *property* ContactNumberStickingTracker.FrequencyAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the FrequencyAtMaximumAmplitude.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactNumberStickingTracker.ImaginaryAtMaximumAmplitude"></a>
 
 ### *property* ContactNumberStickingTracker.ImaginaryAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -198,11 +242,15 @@ Gets the ImaginaryAtMaximumAmplitude.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactNumberStickingTracker.MaximumAmplitude"></a>
+
 ### *property* ContactNumberStickingTracker.MaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumAmplitude.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactNumberStickingTracker.MaximumFrequency"></a>
 
 ### *property* ContactNumberStickingTracker.MaximumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -210,11 +258,15 @@ Gets or sets the MaximumFrequency.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactNumberStickingTracker.Maximum"></a>
+
 ### *property* ContactNumberStickingTracker.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Maximum.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactNumberStickingTracker.MinimumFrequency"></a>
 
 ### *property* ContactNumberStickingTracker.MinimumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -222,11 +274,15 @@ Gets or sets the MinimumFrequency.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactNumberStickingTracker.Minimum"></a>
+
 ### *property* ContactNumberStickingTracker.Minimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Minimum.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactNumberStickingTracker.PhaseAngle"></a>
 
 ### *property* ContactNumberStickingTracker.PhaseAngle *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -234,11 +290,15 @@ Gets the PhaseAngle.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactNumberStickingTracker.RealAtMaximumAmplitude"></a>
+
 ### *property* ContactNumberStickingTracker.RealAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the RealAtMaximumAmplitude.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactNumberStickingTracker.RequestedFrequency"></a>
 
 ### *property* ContactNumberStickingTracker.RequestedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -246,11 +306,15 @@ Gets or sets the RequestedFrequency.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactNumberStickingTracker.AccelerationType"></a>
+
 ### *property* ContactNumberStickingTracker.AccelerationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AccelerationType.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactNumberStickingTracker.ChartViewingStyle"></a>
 
 ### *property* ContactNumberStickingTracker.ChartViewingStyle *: [Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType](../../../../../Mechanical/DataModel/Enums/ChartAxisScaleType.md#ChartAxisScaleType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -258,11 +322,15 @@ Gets or sets the ChartViewingStyle.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactNumberStickingTracker.DeformationType"></a>
+
 ### *property* ContactNumberStickingTracker.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DeformationType.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactNumberStickingTracker.FilterType"></a>
 
 ### *property* ContactNumberStickingTracker.FilterType *: [Ansys.Mechanical.DataModel.Enums.FilterType](../../../../../Mechanical/DataModel/Enums/FilterType.md#FilterType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -270,11 +338,15 @@ Gets or sets the FilterType.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactNumberStickingTracker.SpatialResolution"></a>
+
 ### *property* ContactNumberStickingTracker.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MultipleNodeType](../../../../../Mechanical/DataModel/Enums/MultipleNodeType.md#MultipleNodeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SpatialResolution.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactNumberStickingTracker.NormalOrientation"></a>
 
 ### *property* ContactNumberStickingTracker.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -282,11 +354,15 @@ Gets or sets the NormalOrientation.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactNumberStickingTracker.CurvesAppearanceDisplay"></a>
+
 ### *property* ContactNumberStickingTracker.CurvesAppearanceDisplay *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](../../../../../Mechanical/DataModel/Enums/ChartPlotStyle.md#ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CurvesAppearanceDisplay.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactNumberStickingTracker.ResultChartType"></a>
 
 ### *property* ContactNumberStickingTracker.ResultChartType *: [Ansys.Mechanical.DataModel.Enums.ChartResultType](../../../../../Mechanical/DataModel/Enums/ChartResultType.md#ChartResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -294,11 +370,15 @@ Gets the ResultChartType.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactNumberStickingTracker.DpfEvaluation"></a>
+
 ### *property* ContactNumberStickingTracker.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DpfEvaluation.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactNumberStickingTracker.XAxisValues"></a>
 
 ### *property* ContactNumberStickingTracker.XAxisValues *: [Ansys.Mechanical.DataModel.Enums.XAxisValues](../../../../../Mechanical/DataModel/Enums/XAxisValues.md#XAxisValues) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -306,11 +386,15 @@ Gets or sets the XAxisValues.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactNumberStickingTracker.ShearOrientation"></a>
+
 ### *property* ContactNumberStickingTracker.ShearOrientation *: [Ansys.Mechanical.DataModel.Enums.ShearOrientationType](../../../../../Mechanical/DataModel/Enums/ShearOrientationType.md#ShearOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShearOrientation.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactNumberStickingTracker.StressStrainType"></a>
 
 ### *property* ContactNumberStickingTracker.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](../../../../../Mechanical/DataModel/Enums/StressStrainType.md#StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -318,11 +402,15 @@ Gets or sets the StressStrainType.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactNumberStickingTracker.TimeHistoryDisplay"></a>
+
 ### *property* ContactNumberStickingTracker.TimeHistoryDisplay *: [Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType](../../../../../Mechanical/DataModel/Enums/TimeHistoryDisplayType.md#TimeHistoryDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TimeHistoryDisplay.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactNumberStickingTracker.VelocityType"></a>
 
 ### *property* ContactNumberStickingTracker.VelocityType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -330,11 +418,15 @@ Gets or sets the VelocityType.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactNumberStickingTracker.Suppressed"></a>
+
 ### *property* ContactNumberStickingTracker.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactNumberStickingTracker.EnhancedTracking"></a>
 
 ### *property* ContactNumberStickingTracker.EnhancedTracking *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -342,11 +434,15 @@ Gets the EnhancedTracking.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactNumberStickingTracker.UseParentFrequencyRange"></a>
+
 ### *property* ContactNumberStickingTracker.UseParentFrequencyRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UseParentFrequencyRange.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactNumberStickingTracker.CoordinateSystem"></a>
 
 ### *property* ContactNumberStickingTracker.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -354,11 +450,15 @@ Gets or sets the CoordinateSystem.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactNumberStickingTracker.Spring"></a>
+
 ### *property* ContactNumberStickingTracker.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../Connections/Spring.md#Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Spring.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactNumberStickingTracker.Location"></a>
 
 ### *property* ContactNumberStickingTracker.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -366,11 +466,15 @@ Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactNumberStickingTracker.Children"></a>
+
 ### *property* ContactNumberStickingTracker.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactNumberStickingTracker.Comments"></a>
 
 ### *property* ContactNumberStickingTracker.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -378,11 +482,15 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactNumberStickingTracker.Images"></a>
+
 ### *property* ContactNumberStickingTracker.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id0"></a>
 
 ### *property* ContactNumberStickingTracker.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -390,11 +498,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactNumberStickingTracker.Properties"></a>
+
 ### *property* ContactNumberStickingTracker.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactNumberStickingTracker.VisibleProperties"></a>
 
 ### *property* ContactNumberStickingTracker.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -402,7 +514,11 @@ Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="ContactNumberStickingTracker.ExportAnimation"></a>
 
 ### ContactNumberStickingTracker.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#AnimationExportSettings))
 
@@ -410,11 +526,15 @@ Run the ExportAnimation action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactNumberStickingTracker.ClearGeneratedData"></a>
+
 ### ContactNumberStickingTracker.ClearGeneratedData()
 
 Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactNumberStickingTracker.EvaluateAllResults"></a>
 
 ### ContactNumberStickingTracker.EvaluateAllResults()
 
@@ -422,11 +542,15 @@ Run the EvaluateAllResults action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactNumberStickingTracker.RenameBasedOnDefinition"></a>
+
 ### ContactNumberStickingTracker.RenameBasedOnDefinition()
 
 Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactNumberStickingTracker.Delete"></a>
 
 ### ContactNumberStickingTracker.Delete()
 
@@ -434,11 +558,15 @@ Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactNumberStickingTracker.GetChildren"></a>
+
 ### ContactNumberStickingTracker.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id1"></a>
 
 ### ContactNumberStickingTracker.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
@@ -446,11 +574,15 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactNumberStickingTracker.AddComment"></a>
+
 ### ContactNumberStickingTracker.AddComment()
 
 Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactNumberStickingTracker.AddImage"></a>
 
 ### ContactNumberStickingTracker.AddImage(filePath: System.String)
 
@@ -460,11 +592,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactNumberStickingTracker.Activate"></a>
+
 ### ContactNumberStickingTracker.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactNumberStickingTracker.CopyTo"></a>
 
 ### ContactNumberStickingTracker.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -472,11 +608,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactNumberStickingTracker.Duplicate"></a>
+
 ### ContactNumberStickingTracker.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactNumberStickingTracker.GroupAllSimilarChildren"></a>
 
 ### ContactNumberStickingTracker.GroupAllSimilarChildren()
 
@@ -484,17 +624,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactNumberStickingTracker.GroupSimilarObjects"></a>
+
 ### ContactNumberStickingTracker.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactNumberStickingTracker.PropertyByName"></a>
+
 ### ContactNumberStickingTracker.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactNumberStickingTracker.PropertyByAPIName"></a>
 
 ### ContactNumberStickingTracker.PropertyByAPIName(name: System.String)
 
@@ -503,17 +649,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactNumberStickingTracker.CreateParameter"></a>
+
 ### ContactNumberStickingTracker.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactNumberStickingTracker.GetParameter"></a>
+
 ### ContactNumberStickingTracker.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactNumberStickingTracker.RemoveParameter"></a>
 
 ### ContactNumberStickingTracker.RemoveParameter(propName: System.String)
 

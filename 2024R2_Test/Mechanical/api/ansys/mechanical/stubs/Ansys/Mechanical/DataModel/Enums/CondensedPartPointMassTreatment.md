@@ -1,4 +1,8 @@
+<a id="condensedpartpointmasstreatment"></a>
+
 # CondensedPartPointMassTreatment
+
+<a id="CondensedPartPointMassTreatment"></a>
 
 ### *class* CondensedPartPointMassTreatment
 
@@ -8,6 +12,8 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 > <!-- !! processed by numpydoc !! -->
 
+<a id="overview"></a>
+
 ## Overview
 
 ### Attributes
@@ -16,14 +22,22 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 |---------------------------------------------------------------|----|
 | [`OnInterface`](#CondensedPartPointMassTreatment.OnInterface) |    |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.Mechanical.DataModel.Enums import CondensedPartPointMassTreatment
 ```
 
+<a id="attribute-detail"></a>
+
 ## Attribute detail
 
+<a id="CondensedPartPointMassTreatment.Internal"></a>
+
 ### CondensedPartPointMassTreatment.Internal *= 0*
+
+<a id="CondensedPartPointMassTreatment.OnInterface"></a>
 
 ### CondensedPartPointMassTreatment.OnInterface *= 1*

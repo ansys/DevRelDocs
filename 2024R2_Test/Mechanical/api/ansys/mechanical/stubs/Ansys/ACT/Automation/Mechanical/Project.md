@@ -1,4 +1,8 @@
+<a id="project"></a>
+
 # Project
+
+<a id="Project"></a>
 
 ### *class* Project
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a Project.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -60,13 +66,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#Project.Properties)                                                                                 | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#Project.VisibleProperties)                                                                   | Gets the list of properties that are visible for this object. |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical import Project
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="Project.Models"></a>
 
 ### *property* Project.Models *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Model](Model.md#Model)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -74,11 +86,15 @@ Gets the Model.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Project.Model"></a>
+
 ### *property* Project.Model *: [Ansys.ACT.Automation.Mechanical.Model](Model.md#Model) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Model.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Project.CreationDate"></a>
 
 ### *property* Project.CreationDate *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -86,11 +102,15 @@ Gets the CreationDate.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Project.CreationTime"></a>
+
 ### *property* Project.CreationTime *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the CreationTime.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Project.UnitSystem"></a>
 
 ### *property* Project.UnitSystem *: [Ansys.Mechanical.DataModel.Enums.UserUnitSystemType](../../../Mechanical/DataModel/Enums/UserUnitSystemType.md#UserUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -98,11 +118,15 @@ Change the Unit System.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Project.ProjectDirectory"></a>
+
 ### *property* Project.ProjectDirectory *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Project Directory
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Project.InternalObject"></a>
 
 ### *property* Project.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSProjectAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -110,11 +134,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Project.Author"></a>
+
 ### *property* Project.Author *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Author.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Project.FirstSaved"></a>
 
 ### *property* Project.FirstSaved *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -122,11 +150,15 @@ Gets the FirstSaved.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Project.ImportedSource"></a>
+
 ### *property* Project.ImportedSource *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ImportedSource.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Project.ImportedVersion"></a>
 
 ### *property* Project.ImportedVersion *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -134,11 +166,15 @@ Gets the ImportedVersion.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Project.LastSaved"></a>
+
 ### *property* Project.LastSaved *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LastSaved.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Project.PreparedFor"></a>
 
 ### *property* Project.PreparedFor *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -146,11 +182,15 @@ Gets or sets the PreparedFor.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Project.ProductVersion"></a>
+
 ### *property* Project.ProductVersion *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ProductVersion.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Project.Subject"></a>
 
 ### *property* Project.Subject *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -158,11 +198,15 @@ Gets or sets the Subject.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Project.SaveProjectAfterSolution"></a>
+
 ### *property* Project.SaveProjectAfterSolution *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SaveProjectAfterSolution.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Project.SaveProjectBeforeSolution"></a>
 
 ### *property* Project.SaveProjectBeforeSolution *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -170,11 +214,15 @@ Gets or sets the SaveProjectBeforeSolution.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Project.DataModelObjectCategory"></a>
+
 ### *property* Project.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Project.Children"></a>
 
 ### *property* Project.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -182,11 +230,15 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Project.Comments"></a>
+
 ### *property* Project.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Project.Images"></a>
 
 ### *property* Project.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -194,11 +246,15 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id0"></a>
+
 ### *property* Project.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Project.Properties"></a>
 
 ### *property* Project.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -206,13 +262,19 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Project.VisibleProperties"></a>
+
 ### *property* Project.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="Project.SpecifyMetricTemperatureInKelvin"></a>
 
 ### Project.SpecifyMetricTemperatureInKelvin()
 
@@ -220,11 +282,15 @@ Specify the use of Kelvin thermal units for metric unit systems.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Project.SpecifyMetricTemperatureInCelsius"></a>
+
 ### Project.SpecifyMetricTemperatureInCelsius()
 
 Specify the use of Celsius thermal units for metric unit systems.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Project.ClearGeneratedData"></a>
 
 ### Project.ClearGeneratedData()
 
@@ -232,11 +298,15 @@ Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Project.CombineTextFiles"></a>
+
 ### Project.CombineTextFiles(PrimaryFileName: System.String, SecondaryFileName: System.String)
 
 Combines two text(.txt / .dmig / .inp / .dat) files. The secondary file will be appened to the primary file
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Project.GetChildren"></a>
 
 ### Project.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
@@ -244,17 +314,23 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id1"></a>
+
 ### Project.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Project.AddComment"></a>
+
 ### Project.AddComment()
 
 Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Project.AddImage"></a>
 
 ### Project.AddImage(filePath: System.String)
 
@@ -264,11 +340,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Project.Activate"></a>
+
 ### Project.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Project.CopyTo"></a>
 
 ### Project.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -276,11 +356,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Project.Duplicate"></a>
+
 ### Project.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Project.GroupAllSimilarChildren"></a>
 
 ### Project.GroupAllSimilarChildren()
 
@@ -288,17 +372,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Project.GroupSimilarObjects"></a>
+
 ### Project.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Project.PropertyByName"></a>
+
 ### Project.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Project.PropertyByAPIName"></a>
 
 ### Project.PropertyByAPIName(name: System.String)
 
@@ -307,17 +397,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Project.CreateParameter"></a>
+
 ### Project.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Project.GetParameter"></a>
+
 ### Project.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Project.RemoveParameter"></a>
 
 ### Project.RemoveParameter(propName: System.String)
 

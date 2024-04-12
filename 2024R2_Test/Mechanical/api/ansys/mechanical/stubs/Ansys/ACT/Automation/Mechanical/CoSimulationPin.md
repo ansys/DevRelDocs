@@ -1,4 +1,8 @@
+<a id="cosimulationpin"></a>
+
 # CoSimulationPin
+
+<a id="CoSimulationPin"></a>
 
 ### *class* CoSimulationPin
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a CoSimulationPin.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -43,13 +49,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#CoSimulationPin.Properties)                                                                         | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#CoSimulationPin.VisibleProperties)                                                           | Gets the list of properties that are visible for this object. |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical import CoSimulationPin
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="CoSimulationPin.Scope"></a>
 
 ### *property* CoSimulationPin.Scope *: [Ansys.ACT.Automation.Mechanical.Connections.Joint](Connections/Joint.md#Joint) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -57,11 +69,15 @@ Gets or sets the Joint through Scope.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CoSimulationPin.DOF"></a>
+
 ### *property* CoSimulationPin.DOF *: [Ansys.Mechanical.DataModel.Enums.KinematicDOF](../../../Mechanical/DataModel/Enums/KinematicDOF.md#KinematicDOF) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DOF.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CoSimulationPin.JointType"></a>
 
 ### *property* CoSimulationPin.JointType *: [Ansys.Mechanical.DataModel.Enums.JointType](../../../Mechanical/DataModel/Enums/JointType.md#JointType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -69,11 +85,15 @@ Gets or sets the Joint Type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CoSimulationPin.PinBehavior"></a>
+
 ### *property* CoSimulationPin.PinBehavior *: [Ansys.Mechanical.DataModel.Enums.PinBehavior](../../../Mechanical/DataModel/Enums/PinBehavior.md#PinBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Pin Behavior.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CoSimulationPin.PinNature"></a>
 
 ### *property* CoSimulationPin.PinNature *: [Ansys.Mechanical.DataModel.Enums.PinNature](../../../Mechanical/DataModel/Enums/PinNature.md#PinNature) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -81,11 +101,15 @@ Gets or sets the Pin Nature.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CoSimulationPin.InternalObject"></a>
+
 ### *property* CoSimulationPin.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSSimplorerPinAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CoSimulationPin.Suppressed"></a>
 
 ### *property* CoSimulationPin.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -93,11 +117,15 @@ Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CoSimulationPin.DataModelObjectCategory"></a>
+
 ### *property* CoSimulationPin.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CoSimulationPin.Children"></a>
 
 ### *property* CoSimulationPin.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -105,11 +133,15 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id0"></a>
+
 ### *property* CoSimulationPin.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CoSimulationPin.Properties"></a>
 
 ### *property* CoSimulationPin.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -117,13 +149,19 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CoSimulationPin.VisibleProperties"></a>
+
 ### *property* CoSimulationPin.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="CoSimulationPin.Delete"></a>
 
 ### CoSimulationPin.Delete()
 
@@ -131,11 +169,15 @@ Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CoSimulationPin.GetChildren"></a>
+
 ### CoSimulationPin.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id1"></a>
 
 ### CoSimulationPin.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
@@ -143,11 +185,15 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CoSimulationPin.Activate"></a>
+
 ### CoSimulationPin.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CoSimulationPin.CopyTo"></a>
 
 ### CoSimulationPin.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -155,11 +201,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CoSimulationPin.Duplicate"></a>
+
 ### CoSimulationPin.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CoSimulationPin.GroupAllSimilarChildren"></a>
 
 ### CoSimulationPin.GroupAllSimilarChildren()
 
@@ -167,17 +217,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CoSimulationPin.GroupSimilarObjects"></a>
+
 ### CoSimulationPin.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CoSimulationPin.PropertyByName"></a>
+
 ### CoSimulationPin.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CoSimulationPin.PropertyByAPIName"></a>
 
 ### CoSimulationPin.PropertyByAPIName(name: System.String)
 
@@ -186,17 +242,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CoSimulationPin.CreateParameter"></a>
+
 ### CoSimulationPin.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CoSimulationPin.GetParameter"></a>
+
 ### CoSimulationPin.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CoSimulationPin.RemoveParameter"></a>
 
 ### CoSimulationPin.RemoveParameter(propName: System.String)
 

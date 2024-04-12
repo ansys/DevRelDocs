@@ -1,4 +1,8 @@
+<a id="nastranoption"></a>
+
 # NastranOption
+
+<a id="NastranOption"></a>
 
 ### *class* NastranOption
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Option.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="import-detail"></a>
 
 ## Import detail
 

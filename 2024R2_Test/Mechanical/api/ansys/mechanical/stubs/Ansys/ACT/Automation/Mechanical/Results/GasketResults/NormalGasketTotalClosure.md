@@ -1,4 +1,8 @@
+<a id="normalgaskettotalclosure"></a>
+
 # NormalGasketTotalClosure
+
+<a id="NormalGasketTotalClosure"></a>
 
 ### *class* NormalGasketTotalClosure
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a NormalGasketTotalClosure.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -101,13 +107,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#NormalGasketTotalClosure.Properties)                                                                      | Gets the list of properties for this object.                           |
 | [`VisibleProperties`](#NormalGasketTotalClosure.VisibleProperties)                                                        | Gets the list of properties that are visible for this object.          |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.Results.GasketResults import NormalGasketTotalClosure
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="NormalGasketTotalClosure.InternalObject"></a>
 
 ### *property* NormalGasketTotalClosure.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -115,11 +127,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketTotalClosure.DataModelObjectCategory"></a>
+
 ### *property* NormalGasketTotalClosure.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketTotalClosure.GasketResultType"></a>
 
 ### *property* NormalGasketTotalClosure.GasketResultType *: [Ansys.Mechanical.DataModel.Enums.GasketResultType](../../../../../Mechanical/DataModel/Enums/GasketResultType.md#GasketResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -127,11 +143,15 @@ Gets or sets the GasketResultType.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketTotalClosure.PlotData"></a>
+
 ### *property* NormalGasketTotalClosure.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../Mechanical/DataModel/Results/ResultDataTable.md#ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the result table.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketTotalClosure.Location"></a>
 
 ### *property* NormalGasketTotalClosure.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -139,11 +159,15 @@ Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketTotalClosure.TimeForMinimumOfMinimumValues"></a>
+
 ### *property* NormalGasketTotalClosure.TimeForMinimumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Time for the minimum of minimum values.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketTotalClosure.TimeForMinimumOfMaximumValues"></a>
 
 ### *property* NormalGasketTotalClosure.TimeForMinimumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -151,11 +175,15 @@ Get the Time for the minimum of maximum values.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketTotalClosure.LoadStepForMinimumOfMinimumValues"></a>
+
 ### *property* NormalGasketTotalClosure.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketTotalClosure.LoadStepForMinimumOfMaximumValues"></a>
 
 ### *property* NormalGasketTotalClosure.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -163,11 +191,15 @@ Get the Load Step for the minimum of maximum values.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketTotalClosure.TimeForMaximumOfMinimumValues"></a>
+
 ### *property* NormalGasketTotalClosure.TimeForMaximumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Time for the maximum of minimum values.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketTotalClosure.TimeForMaximumOfMaximumValues"></a>
 
 ### *property* NormalGasketTotalClosure.TimeForMaximumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -175,11 +207,15 @@ Get the Time for the maximum of maximum values.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketTotalClosure.LoadStepForMaximumOfMinimumValues"></a>
+
 ### *property* NormalGasketTotalClosure.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketTotalClosure.LoadStepForMaximumOfMaximumValues"></a>
 
 ### *property* NormalGasketTotalClosure.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -187,11 +223,15 @@ Get the Load Step for the maximum of maximum values.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketTotalClosure.IsSolved"></a>
+
 ### *property* NormalGasketTotalClosure.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketTotalClosure.CoordinateSystem"></a>
 
 ### *property* NormalGasketTotalClosure.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -201,11 +241,15 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketTotalClosure.ScopingMethod"></a>
+
 ### *property* NormalGasketTotalClosure.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketTotalClosure.SetNumber"></a>
 
 ### *property* NormalGasketTotalClosure.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -213,11 +257,15 @@ Gets or sets the Set Number.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketTotalClosure.CombinationNumber"></a>
+
 ### *property* NormalGasketTotalClosure.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketTotalClosure.SolutionCombinationDriver"></a>
 
 ### *property* NormalGasketTotalClosure.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -225,11 +273,15 @@ Gets or sets the SolutionCombinationDriver.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketTotalClosure.Path"></a>
+
 ### *property* NormalGasketTotalClosure.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../Path.md#Path) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Path property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketTotalClosure.Surface"></a>
 
 ### *property* NormalGasketTotalClosure.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -237,11 +289,15 @@ Surface property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketTotalClosure.NamedSelections"></a>
+
 ### *property* NormalGasketTotalClosure.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketTotalClosure.WaterfallPanelShowTextOnMosaic"></a>
 
 ### *property* NormalGasketTotalClosure.WaterfallPanelShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -249,11 +305,15 @@ Gets or sets the Waterfall Panel Mosaic Text Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketTotalClosure.CrackFrontNumber"></a>
+
 ### *property* NormalGasketTotalClosure.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketTotalClosure.GlobalIDs"></a>
 
 ### *property* NormalGasketTotalClosure.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -261,11 +321,15 @@ Gets or sets the GlobalIDs.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketTotalClosure.Identifier"></a>
+
 ### *property* NormalGasketTotalClosure.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketTotalClosure.IterationNumber"></a>
 
 ### *property* NormalGasketTotalClosure.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -273,11 +337,15 @@ Gets the IterationNumber.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketTotalClosure.LoadStep"></a>
+
 ### *property* NormalGasketTotalClosure.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketTotalClosure.MaximumOccursOn"></a>
 
 ### *property* NormalGasketTotalClosure.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -285,11 +353,15 @@ Gets the MaximumOccursOn.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketTotalClosure.MinimumOccursOn"></a>
+
 ### *property* NormalGasketTotalClosure.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketTotalClosure.LoadStepNumber"></a>
 
 ### *property* NormalGasketTotalClosure.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -297,11 +369,15 @@ Gets or sets the LoadStepNumber.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketTotalClosure.SolverComponentIDs"></a>
+
 ### *property* NormalGasketTotalClosure.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketTotalClosure.Substep"></a>
 
 ### *property* NormalGasketTotalClosure.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -309,11 +385,15 @@ Gets the Substep.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketTotalClosure.Average"></a>
+
 ### *property* NormalGasketTotalClosure.Average *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Average.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketTotalClosure.Maximum"></a>
 
 ### *property* NormalGasketTotalClosure.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -321,11 +401,15 @@ Gets the Maximum.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketTotalClosure.MaximumOfMaximumOverTime"></a>
+
 ### *property* NormalGasketTotalClosure.MaximumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOfMaximumOverTime.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketTotalClosure.MaximumOfMinimumOverTime"></a>
 
 ### *property* NormalGasketTotalClosure.MaximumOfMinimumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -333,11 +417,15 @@ Gets the MaximumOfMinimumOverTime.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketTotalClosure.Minimum"></a>
+
 ### *property* NormalGasketTotalClosure.Minimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Minimum.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketTotalClosure.MinimumOfMaximumOverTime"></a>
 
 ### *property* NormalGasketTotalClosure.MinimumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -345,11 +433,15 @@ Gets the MinimumOfMaximumOverTime.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketTotalClosure.MinimumOfMinimumOverTime"></a>
+
 ### *property* NormalGasketTotalClosure.MinimumOfMinimumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOfMinimumOverTime.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketTotalClosure.Time"></a>
 
 ### *property* NormalGasketTotalClosure.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -357,11 +449,15 @@ Gets the Time.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketTotalClosure.DisplayTime"></a>
+
 ### *property* NormalGasketTotalClosure.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DisplayTime.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketTotalClosure.GraphControlsXAxis"></a>
 
 ### *property* NormalGasketTotalClosure.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -369,11 +465,15 @@ Gets or sets the GraphControlsXAxis.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketTotalClosure.DisplayOption"></a>
+
 ### *property* NormalGasketTotalClosure.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../Mechanical/DataModel/Enums/ResultAveragingType.md#ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DisplayOption.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketTotalClosure.DpfEvaluation"></a>
 
 ### *property* NormalGasketTotalClosure.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -381,11 +481,15 @@ Gets or sets the DpfEvaluation.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketTotalClosure.By"></a>
+
 ### *property* NormalGasketTotalClosure.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../Mechanical/DataModel/Enums/SetDriverStyle.md#SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the By.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketTotalClosure.ItemType"></a>
 
 ### *property* NormalGasketTotalClosure.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../Mechanical/DataModel/Enums/ResultFileItemType.md#ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -393,11 +497,15 @@ Gets or sets the ItemType.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketTotalClosure.CalculateTimeHistory"></a>
+
 ### *property* NormalGasketTotalClosure.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketTotalClosure.Suppressed"></a>
 
 ### *property* NormalGasketTotalClosure.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -405,11 +513,15 @@ Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketTotalClosure.Children"></a>
+
 ### *property* NormalGasketTotalClosure.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketTotalClosure.Comments"></a>
 
 ### *property* NormalGasketTotalClosure.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -417,11 +529,15 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketTotalClosure.Figures"></a>
+
 ### *property* NormalGasketTotalClosure.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketTotalClosure.Images"></a>
 
 ### *property* NormalGasketTotalClosure.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -429,11 +545,15 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id0"></a>
+
 ### *property* NormalGasketTotalClosure.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketTotalClosure.Properties"></a>
 
 ### *property* NormalGasketTotalClosure.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -441,13 +561,19 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketTotalClosure.VisibleProperties"></a>
+
 ### *property* NormalGasketTotalClosure.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="NormalGasketTotalClosure.ClearGeneratedData"></a>
 
 ### NormalGasketTotalClosure.ClearGeneratedData()
 
@@ -455,11 +581,15 @@ Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketTotalClosure.EvaluateAllResults"></a>
+
 ### NormalGasketTotalClosure.EvaluateAllResults()
 
 Run the EvaluateAllResults action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketTotalClosure.FetchRemoteResults"></a>
 
 ### NormalGasketTotalClosure.FetchRemoteResults()
 
@@ -467,11 +597,15 @@ Run the FetchRemoteResult action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketTotalClosure.ExportToTextFile"></a>
+
 ### NormalGasketTotalClosure.ExportToTextFile(filePath: System.String)
 
 Run the ExportToTextFile action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketTotalClosure.ExportAnimation"></a>
 
 ### NormalGasketTotalClosure.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#AnimationExportSettings))
 
@@ -479,11 +613,15 @@ Run the ExportAnimation action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketTotalClosure.DuplicateWithoutResults"></a>
+
 ### NormalGasketTotalClosure.DuplicateWithoutResults()
 
 Run the DuplicateWithoutResults action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketTotalClosure.CreateResultsAtAllSets"></a>
 
 ### NormalGasketTotalClosure.CreateResultsAtAllSets()
 
@@ -491,11 +629,15 @@ Creates results at all sets for results under a solution.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketTotalClosure.PromoteToNamedSelection"></a>
+
 ### NormalGasketTotalClosure.PromoteToNamedSelection()
 
 Run the PromoteToNamedSelection action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketTotalClosure.CreateParameter"></a>
 
 ### NormalGasketTotalClosure.CreateParameter(propName: System.String)
 
@@ -503,11 +645,15 @@ CreateParameter method.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketTotalClosure.AddAlert"></a>
+
 ### NormalGasketTotalClosure.AddAlert()
 
 Creates a new Alert
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketTotalClosure.AddConvergence"></a>
 
 ### NormalGasketTotalClosure.AddConvergence()
 
@@ -515,11 +661,15 @@ Creates a new Convergence
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketTotalClosure.RenameBasedOnDefinition"></a>
+
 ### NormalGasketTotalClosure.RenameBasedOnDefinition()
 
 Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketTotalClosure.Delete"></a>
 
 ### NormalGasketTotalClosure.Delete()
 
@@ -527,11 +677,15 @@ Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketTotalClosure.GetChildren"></a>
+
 ### NormalGasketTotalClosure.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id1"></a>
 
 ### NormalGasketTotalClosure.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
@@ -539,17 +693,23 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketTotalClosure.AddComment"></a>
+
 ### NormalGasketTotalClosure.AddComment()
 
 Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketTotalClosure.AddFigure"></a>
+
 ### NormalGasketTotalClosure.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketTotalClosure.AddImage"></a>
 
 ### NormalGasketTotalClosure.AddImage(filePath: System.String)
 
@@ -559,11 +719,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketTotalClosure.Activate"></a>
+
 ### NormalGasketTotalClosure.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketTotalClosure.CopyTo"></a>
 
 ### NormalGasketTotalClosure.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -571,11 +735,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketTotalClosure.Duplicate"></a>
+
 ### NormalGasketTotalClosure.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketTotalClosure.GroupAllSimilarChildren"></a>
 
 ### NormalGasketTotalClosure.GroupAllSimilarChildren()
 
@@ -583,17 +751,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketTotalClosure.GroupSimilarObjects"></a>
+
 ### NormalGasketTotalClosure.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketTotalClosure.PropertyByName"></a>
+
 ### NormalGasketTotalClosure.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketTotalClosure.PropertyByAPIName"></a>
 
 ### NormalGasketTotalClosure.PropertyByAPIName(name: System.String)
 
@@ -602,11 +776,15 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketTotalClosure.GetParameter"></a>
+
 ### NormalGasketTotalClosure.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketTotalClosure.RemoveParameter"></a>
 
 ### NormalGasketTotalClosure.RemoveParameter(propName: System.String)
 

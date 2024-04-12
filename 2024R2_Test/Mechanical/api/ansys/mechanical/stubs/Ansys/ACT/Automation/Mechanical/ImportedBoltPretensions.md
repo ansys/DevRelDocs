@@ -1,4 +1,8 @@
+<a id="importedboltpretensions"></a>
+
 # ImportedBoltPretensions
+
+<a id="ImportedBoltPretensions"></a>
 
 ### *class* ImportedBoltPretensions
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a ImportedBoltPretensions.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -46,13 +52,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#ImportedBoltPretensions.Properties)                                                                 | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#ImportedBoltPretensions.VisibleProperties)                                                   | Gets the list of properties that are visible for this object. |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical import ImportedBoltPretensions
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="ImportedBoltPretensions.InternalObject"></a>
 
 ### *property* ImportedBoltPretensions.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSExternalModelDataCollAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -60,11 +72,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedBoltPretensions.DataModelObjectCategory"></a>
+
 ### *property* ImportedBoltPretensions.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedBoltPretensions.Count"></a>
 
 ### *property* ImportedBoltPretensions.Count *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -72,11 +88,15 @@ Gets the NumberOfRows.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedBoltPretensions.Suppressed"></a>
+
 ### *property* ImportedBoltPretensions.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedBoltPretensions.Children"></a>
 
 ### *property* ImportedBoltPretensions.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -84,11 +104,15 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedBoltPretensions.Comments"></a>
+
 ### *property* ImportedBoltPretensions.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedBoltPretensions.Figures"></a>
 
 ### *property* ImportedBoltPretensions.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -96,11 +120,15 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedBoltPretensions.Images"></a>
+
 ### *property* ImportedBoltPretensions.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedBoltPretensions.ReadOnly"></a>
 
 ### *property* ImportedBoltPretensions.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -108,11 +136,15 @@ Gets or sets the ReadOnly.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id0"></a>
+
 ### *property* ImportedBoltPretensions.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedBoltPretensions.Properties"></a>
 
 ### *property* ImportedBoltPretensions.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -120,13 +152,19 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedBoltPretensions.VisibleProperties"></a>
+
 ### *property* ImportedBoltPretensions.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="ImportedBoltPretensions.Delete"></a>
 
 ### ImportedBoltPretensions.Delete()
 
@@ -134,11 +172,15 @@ Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedBoltPretensions.GetChildren"></a>
+
 ### ImportedBoltPretensions.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id1"></a>
 
 ### ImportedBoltPretensions.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
@@ -146,17 +188,23 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedBoltPretensions.AddComment"></a>
+
 ### ImportedBoltPretensions.AddComment()
 
 Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedBoltPretensions.AddFigure"></a>
+
 ### ImportedBoltPretensions.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedBoltPretensions.AddImage"></a>
 
 ### ImportedBoltPretensions.AddImage(filePath: System.String)
 
@@ -166,11 +214,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedBoltPretensions.Activate"></a>
+
 ### ImportedBoltPretensions.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedBoltPretensions.CopyTo"></a>
 
 ### ImportedBoltPretensions.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -178,11 +230,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedBoltPretensions.Duplicate"></a>
+
 ### ImportedBoltPretensions.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedBoltPretensions.GroupAllSimilarChildren"></a>
 
 ### ImportedBoltPretensions.GroupAllSimilarChildren()
 
@@ -190,17 +246,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedBoltPretensions.GroupSimilarObjects"></a>
+
 ### ImportedBoltPretensions.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedBoltPretensions.PropertyByName"></a>
+
 ### ImportedBoltPretensions.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedBoltPretensions.PropertyByAPIName"></a>
 
 ### ImportedBoltPretensions.PropertyByAPIName(name: System.String)
 
@@ -209,17 +271,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedBoltPretensions.CreateParameter"></a>
+
 ### ImportedBoltPretensions.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedBoltPretensions.GetParameter"></a>
+
 ### ImportedBoltPretensions.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedBoltPretensions.RemoveParameter"></a>
 
 ### ImportedBoltPretensions.RemoveParameter(propName: System.String)
 

@@ -1,4 +1,8 @@
+<a id="importsettingsbase"></a>
+
 # ImportSettingsBase
+
+<a id="ImportSettingsBase"></a>
 
 ### *class* ImportSettingsBase
 
@@ -8,6 +12,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 > <!-- !! processed by numpydoc !! -->
 
+<a id="overview"></a>
+
 ## Overview
 
 ### Properties
@@ -15,13 +21,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Format`](../DataModel/Enums/GeometryImportPreference/Format.md#Format)   | Gets the existing corresponding format.   |
 |----------------------------------------------------------------------------|-------------------------------------------|
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.Mechanical.ExternalData import ImportSettingsBase
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="ImportSettingsBase.Format"></a>
 
 ### *property* ImportSettingsBase.Format *: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat](../DataModel/MechanicalEnums/ExternalData/ImportFormat.md#ImportFormat) | [None](https://docs.python.org/3/library/constants.html#None)*
 

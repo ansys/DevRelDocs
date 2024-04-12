@@ -1,4 +1,8 @@
+<a id="ambondconnection"></a>
+
 # AMBondConnection
+
+<a id="AMBondConnection"></a>
 
 ### *class* AMBondConnection
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a AMBondConnection.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -54,13 +60,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#AMBondConnection.Properties)                                                                           | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#AMBondConnection.VisibleProperties)                                                             | Gets the list of properties that are visible for this object. |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.Connections import AMBondConnection
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="AMBondConnection.SourceLocation"></a>
 
 ### *property* AMBondConnection.SourceLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -68,11 +80,15 @@ Gets or sets the SourceLocation.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AMBondConnection.TargetLocation"></a>
+
 ### *property* AMBondConnection.TargetLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TargetLocation.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AMBondConnection.InternalObject"></a>
 
 ### *property* AMBondConnection.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSAMBondConnectionAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -80,11 +96,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AMBondConnection.ContactBodies"></a>
+
 ### *property* AMBondConnection.ContactBodies *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ContactBodies.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AMBondConnection.TargetBodies"></a>
 
 ### *property* AMBondConnection.TargetBodies *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -92,11 +112,15 @@ Gets the TargetBodies.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AMBondConnection.ContactType"></a>
+
 ### *property* AMBondConnection.ContactType *: [Ansys.Mechanical.DataModel.Enums.ContactType](../../../../Mechanical/DataModel/Enums/ContactType.md#ContactType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactType.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AMBondConnection.Suppressed"></a>
 
 ### *property* AMBondConnection.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -104,11 +128,15 @@ Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AMBondConnection.DataModelObjectCategory"></a>
+
 ### *property* AMBondConnection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AMBondConnection.Children"></a>
 
 ### *property* AMBondConnection.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -116,11 +144,15 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AMBondConnection.Comments"></a>
+
 ### *property* AMBondConnection.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AMBondConnection.Figures"></a>
 
 ### *property* AMBondConnection.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -128,11 +160,15 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AMBondConnection.Images"></a>
+
 ### *property* AMBondConnection.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AMBondConnection.ReadOnly"></a>
 
 ### *property* AMBondConnection.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -140,11 +176,15 @@ Gets or sets the ReadOnly.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id0"></a>
+
 ### *property* AMBondConnection.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AMBondConnection.Properties"></a>
 
 ### *property* AMBondConnection.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -152,13 +192,19 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AMBondConnection.VisibleProperties"></a>
+
 ### *property* AMBondConnection.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="AMBondConnection.SearchConnectionsForDuplicatePairs"></a>
 
 ### AMBondConnection.SearchConnectionsForDuplicatePairs()
 
@@ -166,11 +212,15 @@ Run the SearchConnectionsForDuplicatePairs action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AMBondConnection.FlipContactTarget"></a>
+
 ### AMBondConnection.FlipContactTarget()
 
 Run the FlipContactTarget action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AMBondConnection.AddCommandSnippet"></a>
 
 ### AMBondConnection.AddCommandSnippet()
 
@@ -178,11 +228,15 @@ Creates a new CommandSnippet
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AMBondConnection.RenameBasedOnDefinition"></a>
+
 ### AMBondConnection.RenameBasedOnDefinition()
 
 Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AMBondConnection.Delete"></a>
 
 ### AMBondConnection.Delete()
 
@@ -190,11 +244,15 @@ Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AMBondConnection.GetChildren"></a>
+
 ### AMBondConnection.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id1"></a>
 
 ### AMBondConnection.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
@@ -202,17 +260,23 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AMBondConnection.AddComment"></a>
+
 ### AMBondConnection.AddComment()
 
 Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AMBondConnection.AddFigure"></a>
+
 ### AMBondConnection.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AMBondConnection.AddImage"></a>
 
 ### AMBondConnection.AddImage(filePath: System.String)
 
@@ -222,11 +286,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AMBondConnection.Activate"></a>
+
 ### AMBondConnection.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AMBondConnection.CopyTo"></a>
 
 ### AMBondConnection.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -234,11 +302,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AMBondConnection.Duplicate"></a>
+
 ### AMBondConnection.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AMBondConnection.GroupAllSimilarChildren"></a>
 
 ### AMBondConnection.GroupAllSimilarChildren()
 
@@ -246,17 +318,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AMBondConnection.GroupSimilarObjects"></a>
+
 ### AMBondConnection.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AMBondConnection.PropertyByName"></a>
+
 ### AMBondConnection.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AMBondConnection.PropertyByAPIName"></a>
 
 ### AMBondConnection.PropertyByAPIName(name: System.String)
 
@@ -265,17 +343,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AMBondConnection.CreateParameter"></a>
+
 ### AMBondConnection.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AMBondConnection.GetParameter"></a>
+
 ### AMBondConnection.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AMBondConnection.RemoveParameter"></a>
 
 ### AMBondConnection.RemoveParameter(propName: System.String)
 

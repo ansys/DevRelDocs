@@ -1,4 +1,8 @@
+<a id="calculateparticipationfactorresult"></a>
+
 # CalculateParticipationFactorResult
+
+<a id="CalculateParticipationFactorResult"></a>
 
 ### *class* CalculateParticipationFactorResult
 
@@ -7,6 +11,8 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 > Specifies the CalculateParticipationFactorResult.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -17,16 +23,26 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 | [`ProgramControlled`](#CalculateParticipationFactorResult.ProgramControlled) |    |
 | [`Yes`](#CalculateParticipationFactorResult.Yes)                             |    |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.Mechanical.DataModel.Enums import CalculateParticipationFactorResult
 ```
 
+<a id="attribute-detail"></a>
+
 ## Attribute detail
+
+<a id="CalculateParticipationFactorResult.No"></a>
 
 ### CalculateParticipationFactorResult.No *= 2*
 
+<a id="CalculateParticipationFactorResult.ProgramControlled"></a>
+
 ### CalculateParticipationFactorResult.ProgramControlled *= 0*
+
+<a id="CalculateParticipationFactorResult.Yes"></a>
 
 ### CalculateParticipationFactorResult.Yes *= 1*

@@ -1,4 +1,8 @@
+<a id="premeshedcyclicregion"></a>
+
 # PreMeshedCyclicRegion
+
+<a id="PreMeshedCyclicRegion"></a>
 
 ### *class* PreMeshedCyclicRegion
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a PreMeshedCyclicRegion.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -54,13 +60,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#PreMeshedCyclicRegion.Properties)                                                                   | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#PreMeshedCyclicRegion.VisibleProperties)                                                     | Gets the list of properties that are visible for this object. |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical import PreMeshedCyclicRegion
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="PreMeshedCyclicRegion.InternalObject"></a>
 
 ### *property* PreMeshedCyclicRegion.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSSymmetryGeneralAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -68,11 +80,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PreMeshedCyclicRegion.RelativeDistanceTolerance"></a>
+
 ### *property* PreMeshedCyclicRegion.RelativeDistanceTolerance *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RelativeDistanceTolerance.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PreMeshedCyclicRegion.NumberOfSectors"></a>
 
 ### *property* PreMeshedCyclicRegion.NumberOfSectors *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -80,11 +96,15 @@ Gets or sets the NumberOfSectors.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PreMeshedCyclicRegion.BoundaryDOFOrientation"></a>
+
 ### *property* PreMeshedCyclicRegion.BoundaryDOFOrientation *: [Ansys.Mechanical.DataModel.Enums.SymmetryBoundaryDOFOrientation](../../../Mechanical/DataModel/Enums/SymmetryBoundaryDOFOrientation.md#SymmetryBoundaryDOFOrientation) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BoundaryDOFOrientation.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PreMeshedCyclicRegion.DataModelObjectCategory"></a>
 
 ### *property* PreMeshedCyclicRegion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -92,11 +112,15 @@ Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PreMeshedCyclicRegion.ScopeMode"></a>
+
 ### *property* PreMeshedCyclicRegion.ScopeMode *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](../../../Mechanical/DataModel/Enums/AutomaticOrManual.md#AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ScopeMode.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PreMeshedCyclicRegion.Suppressed"></a>
 
 ### *property* PreMeshedCyclicRegion.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -104,11 +128,15 @@ Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PreMeshedCyclicRegion.CoordinateSystem"></a>
+
 ### *property* PreMeshedCyclicRegion.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PreMeshedCyclicRegion.Location"></a>
 
 ### *property* PreMeshedCyclicRegion.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -116,11 +144,15 @@ Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PreMeshedCyclicRegion.HighBoundaryLocation"></a>
+
 ### *property* PreMeshedCyclicRegion.HighBoundaryLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HighBoundaryLocation.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PreMeshedCyclicRegion.LowBoundaryLocation"></a>
 
 ### *property* PreMeshedCyclicRegion.LowBoundaryLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -128,11 +160,15 @@ Gets or sets the LowBoundaryLocation.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PreMeshedCyclicRegion.Children"></a>
+
 ### *property* PreMeshedCyclicRegion.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PreMeshedCyclicRegion.Comments"></a>
 
 ### *property* PreMeshedCyclicRegion.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -140,11 +176,15 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PreMeshedCyclicRegion.Figures"></a>
+
 ### *property* PreMeshedCyclicRegion.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PreMeshedCyclicRegion.Images"></a>
 
 ### *property* PreMeshedCyclicRegion.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -152,11 +192,15 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PreMeshedCyclicRegion.ReadOnly"></a>
+
 ### *property* PreMeshedCyclicRegion.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id0"></a>
 
 ### *property* PreMeshedCyclicRegion.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -164,11 +208,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PreMeshedCyclicRegion.Properties"></a>
+
 ### *property* PreMeshedCyclicRegion.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PreMeshedCyclicRegion.VisibleProperties"></a>
 
 ### *property* PreMeshedCyclicRegion.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -176,7 +224,11 @@ Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="PreMeshedCyclicRegion.FlipHighLow"></a>
 
 ### PreMeshedCyclicRegion.FlipHighLow()
 
@@ -184,11 +236,15 @@ Flips the High and Low Boundaries.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PreMeshedCyclicRegion.Delete"></a>
+
 ### PreMeshedCyclicRegion.Delete()
 
 Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PreMeshedCyclicRegion.GetChildren"></a>
 
 ### PreMeshedCyclicRegion.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
@@ -196,11 +252,15 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id1"></a>
+
 ### PreMeshedCyclicRegion.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PreMeshedCyclicRegion.AddComment"></a>
 
 ### PreMeshedCyclicRegion.AddComment()
 
@@ -208,11 +268,15 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PreMeshedCyclicRegion.AddFigure"></a>
+
 ### PreMeshedCyclicRegion.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PreMeshedCyclicRegion.AddImage"></a>
 
 ### PreMeshedCyclicRegion.AddImage(filePath: System.String)
 
@@ -222,11 +286,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PreMeshedCyclicRegion.Activate"></a>
+
 ### PreMeshedCyclicRegion.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PreMeshedCyclicRegion.CopyTo"></a>
 
 ### PreMeshedCyclicRegion.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -234,11 +302,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PreMeshedCyclicRegion.Duplicate"></a>
+
 ### PreMeshedCyclicRegion.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PreMeshedCyclicRegion.GroupAllSimilarChildren"></a>
 
 ### PreMeshedCyclicRegion.GroupAllSimilarChildren()
 
@@ -246,17 +318,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PreMeshedCyclicRegion.GroupSimilarObjects"></a>
+
 ### PreMeshedCyclicRegion.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PreMeshedCyclicRegion.PropertyByName"></a>
+
 ### PreMeshedCyclicRegion.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PreMeshedCyclicRegion.PropertyByAPIName"></a>
 
 ### PreMeshedCyclicRegion.PropertyByAPIName(name: System.String)
 
@@ -265,17 +343,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PreMeshedCyclicRegion.CreateParameter"></a>
+
 ### PreMeshedCyclicRegion.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PreMeshedCyclicRegion.GetParameter"></a>
+
 ### PreMeshedCyclicRegion.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PreMeshedCyclicRegion.RemoveParameter"></a>
 
 ### PreMeshedCyclicRegion.RemoveParameter(propName: System.String)
 

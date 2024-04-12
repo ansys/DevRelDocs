@@ -1,4 +1,8 @@
+<a id="meshinflationelementtype"></a>
+
 # MeshInflationElementType
+
+<a id="MeshInflationElementType"></a>
 
 ### *class* MeshInflationElementType
 
@@ -10,6 +14,8 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 > <!-- !! processed by numpydoc !! -->
 
+<a id="overview"></a>
+
 ## Overview
 
 ### Attributes
@@ -18,14 +24,22 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 |----------------------------------------------|----|
 | [`Wedges`](#MeshInflationElementType.Wedges) |    |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.Mechanical.DataModel.Enums import MeshInflationElementType
 ```
 
+<a id="attribute-detail"></a>
+
 ## Attribute detail
 
+<a id="MeshInflationElementType.Tets"></a>
+
 ### MeshInflationElementType.Tets *= 1*
+
+<a id="MeshInflationElementType.Wedges"></a>
 
 ### MeshInflationElementType.Wedges *= 0*

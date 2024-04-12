@@ -1,4 +1,8 @@
+<a id="acousticsplfrequencyresponse"></a>
+
 # AcousticSPLFrequencyResponse
+
+<a id="AcousticSPLFrequencyResponse"></a>
 
 ### *class* AcousticSPLFrequencyResponse
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a AcousticSPLFrequencyResponse.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -88,13 +94,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#AcousticSPLFrequencyResponse.Properties)                                                                  | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#AcousticSPLFrequencyResponse.VisibleProperties)                                                    | Gets the list of properties that are visible for this object. |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.Results.FrequencyResponseResults import AcousticSPLFrequencyResponse
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="AcousticSPLFrequencyResponse.InternalObject"></a>
 
 ### *property* AcousticSPLFrequencyResponse.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultChartAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -102,11 +114,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticSPLFrequencyResponse.DataModelObjectCategory"></a>
+
 ### *property* AcousticSPLFrequencyResponse.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AcousticSPLFrequencyResponse.IsSolved"></a>
 
 ### *property* AcousticSPLFrequencyResponse.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -114,11 +130,15 @@ Gets the IsSolved.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticSPLFrequencyResponse.ChartDimensions"></a>
+
 ### *property* AcousticSPLFrequencyResponse.ChartDimensions *: [Ansys.Mechanical.DataModel.Enums.ChartDimensions](../../../../../Mechanical/DataModel/Enums/ChartDimensions.md#ChartDimensions) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Chart Dimensions
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AcousticSPLFrequencyResponse.BoundaryCondition"></a>
 
 ### *property* AcousticSPLFrequencyResponse.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](../../BoundaryConditions/GenericBoundaryCondition.md#GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -126,11 +146,15 @@ Gets or sets the BoundaryCondition.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticSPLFrequencyResponse.CutFrequency"></a>
+
 ### *property* AcousticSPLFrequencyResponse.CutFrequency *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CutFrequency.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AcousticSPLFrequencyResponse.SectorNumber"></a>
 
 ### *property* AcousticSPLFrequencyResponse.SectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -138,11 +162,15 @@ Gets or sets the SectorNumber.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticSPLFrequencyResponse.GeometrySelectionString"></a>
+
 ### *property* AcousticSPLFrequencyResponse.GeometrySelectionString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GeometrySelectionString.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AcousticSPLFrequencyResponse.LoadStepNumber"></a>
 
 ### *property* AcousticSPLFrequencyResponse.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -150,11 +178,15 @@ Gets or sets the LoadStepNumber.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticSPLFrequencyResponse.ReportedFrequency"></a>
+
 ### *property* AcousticSPLFrequencyResponse.ReportedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ReportedFrequency.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AcousticSPLFrequencyResponse.Duration"></a>
 
 ### *property* AcousticSPLFrequencyResponse.Duration *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -162,11 +194,15 @@ Gets or sets the Duration.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticSPLFrequencyResponse.FilterMaximum"></a>
+
 ### *property* AcousticSPLFrequencyResponse.FilterMaximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the FilterMaximum.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AcousticSPLFrequencyResponse.FilterMinimum"></a>
 
 ### *property* AcousticSPLFrequencyResponse.FilterMinimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -174,11 +210,15 @@ Gets the FilterMinimum.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticSPLFrequencyResponse.FrequencyAtMaximumAmplitude"></a>
+
 ### *property* AcousticSPLFrequencyResponse.FrequencyAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the FrequencyAtMaximumAmplitude.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AcousticSPLFrequencyResponse.ImaginaryAtMaximumAmplitude"></a>
 
 ### *property* AcousticSPLFrequencyResponse.ImaginaryAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -186,11 +226,15 @@ Gets the ImaginaryAtMaximumAmplitude.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticSPLFrequencyResponse.MaximumAmplitude"></a>
+
 ### *property* AcousticSPLFrequencyResponse.MaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumAmplitude.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AcousticSPLFrequencyResponse.MaximumFrequency"></a>
 
 ### *property* AcousticSPLFrequencyResponse.MaximumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -198,11 +242,15 @@ Gets or sets the MaximumFrequency.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticSPLFrequencyResponse.Maximum"></a>
+
 ### *property* AcousticSPLFrequencyResponse.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Maximum.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AcousticSPLFrequencyResponse.MinimumFrequency"></a>
 
 ### *property* AcousticSPLFrequencyResponse.MinimumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -210,11 +258,15 @@ Gets or sets the MinimumFrequency.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticSPLFrequencyResponse.Minimum"></a>
+
 ### *property* AcousticSPLFrequencyResponse.Minimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Minimum.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AcousticSPLFrequencyResponse.PhaseAngle"></a>
 
 ### *property* AcousticSPLFrequencyResponse.PhaseAngle *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -222,11 +274,15 @@ Gets the PhaseAngle.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticSPLFrequencyResponse.RealAtMaximumAmplitude"></a>
+
 ### *property* AcousticSPLFrequencyResponse.RealAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the RealAtMaximumAmplitude.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AcousticSPLFrequencyResponse.RequestedFrequency"></a>
 
 ### *property* AcousticSPLFrequencyResponse.RequestedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -234,11 +290,15 @@ Gets or sets the RequestedFrequency.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticSPLFrequencyResponse.AccelerationType"></a>
+
 ### *property* AcousticSPLFrequencyResponse.AccelerationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AccelerationType.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AcousticSPLFrequencyResponse.ChartViewingStyle"></a>
 
 ### *property* AcousticSPLFrequencyResponse.ChartViewingStyle *: [Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType](../../../../../Mechanical/DataModel/Enums/ChartAxisScaleType.md#ChartAxisScaleType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -246,11 +306,15 @@ Gets or sets the ChartViewingStyle.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticSPLFrequencyResponse.DeformationType"></a>
+
 ### *property* AcousticSPLFrequencyResponse.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DeformationType.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AcousticSPLFrequencyResponse.FilterType"></a>
 
 ### *property* AcousticSPLFrequencyResponse.FilterType *: [Ansys.Mechanical.DataModel.Enums.FilterType](../../../../../Mechanical/DataModel/Enums/FilterType.md#FilterType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -258,11 +322,15 @@ Gets or sets the FilterType.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticSPLFrequencyResponse.SpatialResolution"></a>
+
 ### *property* AcousticSPLFrequencyResponse.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MultipleNodeType](../../../../../Mechanical/DataModel/Enums/MultipleNodeType.md#MultipleNodeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SpatialResolution.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AcousticSPLFrequencyResponse.NormalOrientation"></a>
 
 ### *property* AcousticSPLFrequencyResponse.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -270,11 +338,15 @@ Gets or sets the NormalOrientation.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticSPLFrequencyResponse.CurvesAppearanceDisplay"></a>
+
 ### *property* AcousticSPLFrequencyResponse.CurvesAppearanceDisplay *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](../../../../../Mechanical/DataModel/Enums/ChartPlotStyle.md#ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CurvesAppearanceDisplay.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AcousticSPLFrequencyResponse.ResultChartType"></a>
 
 ### *property* AcousticSPLFrequencyResponse.ResultChartType *: [Ansys.Mechanical.DataModel.Enums.ChartResultType](../../../../../Mechanical/DataModel/Enums/ChartResultType.md#ChartResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -282,11 +354,15 @@ Gets the ResultChartType.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticSPLFrequencyResponse.DpfEvaluation"></a>
+
 ### *property* AcousticSPLFrequencyResponse.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DpfEvaluation.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AcousticSPLFrequencyResponse.XAxisValues"></a>
 
 ### *property* AcousticSPLFrequencyResponse.XAxisValues *: [Ansys.Mechanical.DataModel.Enums.XAxisValues](../../../../../Mechanical/DataModel/Enums/XAxisValues.md#XAxisValues) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -294,11 +370,15 @@ Gets or sets the XAxisValues.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticSPLFrequencyResponse.ShearOrientation"></a>
+
 ### *property* AcousticSPLFrequencyResponse.ShearOrientation *: [Ansys.Mechanical.DataModel.Enums.ShearOrientationType](../../../../../Mechanical/DataModel/Enums/ShearOrientationType.md#ShearOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShearOrientation.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AcousticSPLFrequencyResponse.StressStrainType"></a>
 
 ### *property* AcousticSPLFrequencyResponse.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](../../../../../Mechanical/DataModel/Enums/StressStrainType.md#StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -306,11 +386,15 @@ Gets or sets the StressStrainType.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticSPLFrequencyResponse.TimeHistoryDisplay"></a>
+
 ### *property* AcousticSPLFrequencyResponse.TimeHistoryDisplay *: [Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType](../../../../../Mechanical/DataModel/Enums/TimeHistoryDisplayType.md#TimeHistoryDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TimeHistoryDisplay.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AcousticSPLFrequencyResponse.VelocityType"></a>
 
 ### *property* AcousticSPLFrequencyResponse.VelocityType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -318,11 +402,15 @@ Gets or sets the VelocityType.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticSPLFrequencyResponse.Suppressed"></a>
+
 ### *property* AcousticSPLFrequencyResponse.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AcousticSPLFrequencyResponse.EnhancedTracking"></a>
 
 ### *property* AcousticSPLFrequencyResponse.EnhancedTracking *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -330,11 +418,15 @@ Gets the EnhancedTracking.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticSPLFrequencyResponse.UseParentFrequencyRange"></a>
+
 ### *property* AcousticSPLFrequencyResponse.UseParentFrequencyRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UseParentFrequencyRange.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AcousticSPLFrequencyResponse.CoordinateSystem"></a>
 
 ### *property* AcousticSPLFrequencyResponse.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -342,11 +434,15 @@ Gets or sets the CoordinateSystem.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticSPLFrequencyResponse.Spring"></a>
+
 ### *property* AcousticSPLFrequencyResponse.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../Connections/Spring.md#Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Spring.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AcousticSPLFrequencyResponse.Location"></a>
 
 ### *property* AcousticSPLFrequencyResponse.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -354,11 +450,15 @@ Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticSPLFrequencyResponse.Children"></a>
+
 ### *property* AcousticSPLFrequencyResponse.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AcousticSPLFrequencyResponse.Comments"></a>
 
 ### *property* AcousticSPLFrequencyResponse.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -366,11 +466,15 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticSPLFrequencyResponse.Images"></a>
+
 ### *property* AcousticSPLFrequencyResponse.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id0"></a>
 
 ### *property* AcousticSPLFrequencyResponse.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -378,11 +482,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticSPLFrequencyResponse.Properties"></a>
+
 ### *property* AcousticSPLFrequencyResponse.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AcousticSPLFrequencyResponse.VisibleProperties"></a>
 
 ### *property* AcousticSPLFrequencyResponse.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -390,7 +498,11 @@ Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="AcousticSPLFrequencyResponse.ExportToXMLFile"></a>
 
 ### AcousticSPLFrequencyResponse.ExportToXMLFile(filePath: System.String)
 
@@ -398,11 +510,15 @@ Run the ExportToXMLFile action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticSPLFrequencyResponse.ExportToWAVFile"></a>
+
 ### AcousticSPLFrequencyResponse.ExportToWAVFile(filePath: System.String)
 
 Run the ExportToWAVFile action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AcousticSPLFrequencyResponse.ExportAnimation"></a>
 
 ### AcousticSPLFrequencyResponse.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#AnimationExportSettings))
 
@@ -410,11 +526,15 @@ Run the ExportAnimation action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticSPLFrequencyResponse.ClearGeneratedData"></a>
+
 ### AcousticSPLFrequencyResponse.ClearGeneratedData()
 
 Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AcousticSPLFrequencyResponse.EvaluateAllResults"></a>
 
 ### AcousticSPLFrequencyResponse.EvaluateAllResults()
 
@@ -422,11 +542,15 @@ Run the EvaluateAllResults action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticSPLFrequencyResponse.RenameBasedOnDefinition"></a>
+
 ### AcousticSPLFrequencyResponse.RenameBasedOnDefinition()
 
 Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AcousticSPLFrequencyResponse.Delete"></a>
 
 ### AcousticSPLFrequencyResponse.Delete()
 
@@ -434,11 +558,15 @@ Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticSPLFrequencyResponse.GetChildren"></a>
+
 ### AcousticSPLFrequencyResponse.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id1"></a>
 
 ### AcousticSPLFrequencyResponse.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
@@ -446,11 +574,15 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticSPLFrequencyResponse.AddComment"></a>
+
 ### AcousticSPLFrequencyResponse.AddComment()
 
 Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AcousticSPLFrequencyResponse.AddImage"></a>
 
 ### AcousticSPLFrequencyResponse.AddImage(filePath: System.String)
 
@@ -460,11 +592,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticSPLFrequencyResponse.Activate"></a>
+
 ### AcousticSPLFrequencyResponse.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AcousticSPLFrequencyResponse.CopyTo"></a>
 
 ### AcousticSPLFrequencyResponse.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -472,11 +608,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticSPLFrequencyResponse.Duplicate"></a>
+
 ### AcousticSPLFrequencyResponse.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AcousticSPLFrequencyResponse.GroupAllSimilarChildren"></a>
 
 ### AcousticSPLFrequencyResponse.GroupAllSimilarChildren()
 
@@ -484,17 +624,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticSPLFrequencyResponse.GroupSimilarObjects"></a>
+
 ### AcousticSPLFrequencyResponse.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticSPLFrequencyResponse.PropertyByName"></a>
+
 ### AcousticSPLFrequencyResponse.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AcousticSPLFrequencyResponse.PropertyByAPIName"></a>
 
 ### AcousticSPLFrequencyResponse.PropertyByAPIName(name: System.String)
 
@@ -503,17 +649,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticSPLFrequencyResponse.CreateParameter"></a>
+
 ### AcousticSPLFrequencyResponse.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticSPLFrequencyResponse.GetParameter"></a>
+
 ### AcousticSPLFrequencyResponse.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AcousticSPLFrequencyResponse.RemoveParameter"></a>
 
 ### AcousticSPLFrequencyResponse.RemoveParameter(propName: System.String)
 

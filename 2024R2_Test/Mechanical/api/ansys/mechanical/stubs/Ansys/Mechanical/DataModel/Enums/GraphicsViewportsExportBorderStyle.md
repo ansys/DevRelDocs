@@ -1,4 +1,8 @@
+<a id="graphicsviewportsexportborderstyle"></a>
+
 # GraphicsViewportsExportBorderStyle
+
+<a id="GraphicsViewportsExportBorderStyle"></a>
 
 ### *class* GraphicsViewportsExportBorderStyle
 
@@ -9,6 +13,8 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 > <!-- !! processed by numpydoc !! -->
 
+<a id="overview"></a>
+
 ## Overview
 
 ### Attributes
@@ -18,16 +24,26 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 | [`Interior`](#GraphicsViewportsExportBorderStyle.Interior) |    |
 | [`Exterior`](#GraphicsViewportsExportBorderStyle.Exterior) |    |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.Mechanical.DataModel.Enums import GraphicsViewportsExportBorderStyle
 ```
 
+<a id="attribute-detail"></a>
+
 ## Attribute detail
+
+<a id="GraphicsViewportsExportBorderStyle.None_"></a>
 
 ### GraphicsViewportsExportBorderStyle.None_ *= 0*
 
+<a id="GraphicsViewportsExportBorderStyle.Interior"></a>
+
 ### GraphicsViewportsExportBorderStyle.Interior *= 1*
+
+<a id="GraphicsViewportsExportBorderStyle.Exterior"></a>
 
 ### GraphicsViewportsExportBorderStyle.Exterior *= 2*

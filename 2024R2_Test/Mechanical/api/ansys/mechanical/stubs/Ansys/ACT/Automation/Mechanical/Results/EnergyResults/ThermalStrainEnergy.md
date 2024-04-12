@@ -1,4 +1,8 @@
+<a id="thermalstrainenergy"></a>
+
 # ThermalStrainEnergy
+
+<a id="ThermalStrainEnergy"></a>
 
 ### *class* ThermalStrainEnergy
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a ThermalStrainEnergy.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -100,13 +106,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#ThermalStrainEnergy.Properties)                                                                           | Gets the list of properties for this object.                           |
 | [`VisibleProperties`](#ThermalStrainEnergy.VisibleProperties)                                                             | Gets the list of properties that are visible for this object.          |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.Results.EnergyResults import ThermalStrainEnergy
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="ThermalStrainEnergy.InternalObject"></a>
 
 ### *property* ThermalStrainEnergy.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -114,11 +126,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ThermalStrainEnergy.DataModelObjectCategory"></a>
+
 ### *property* ThermalStrainEnergy.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ThermalStrainEnergy.PlotData"></a>
 
 ### *property* ThermalStrainEnergy.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../Mechanical/DataModel/Results/ResultDataTable.md#ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -126,11 +142,15 @@ Gets the result table.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ThermalStrainEnergy.Location"></a>
+
 ### *property* ThermalStrainEnergy.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ThermalStrainEnergy.TimeForMinimumOfMinimumValues"></a>
 
 ### *property* ThermalStrainEnergy.TimeForMinimumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -138,11 +158,15 @@ Get the Time for the minimum of minimum values.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ThermalStrainEnergy.TimeForMinimumOfMaximumValues"></a>
+
 ### *property* ThermalStrainEnergy.TimeForMinimumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Time for the minimum of maximum values.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ThermalStrainEnergy.LoadStepForMinimumOfMinimumValues"></a>
 
 ### *property* ThermalStrainEnergy.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -150,11 +174,15 @@ Get the Load Step for the minimum of minimum values.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ThermalStrainEnergy.LoadStepForMinimumOfMaximumValues"></a>
+
 ### *property* ThermalStrainEnergy.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ThermalStrainEnergy.TimeForMaximumOfMinimumValues"></a>
 
 ### *property* ThermalStrainEnergy.TimeForMaximumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -162,11 +190,15 @@ Get the Time for the maximum of minimum values.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ThermalStrainEnergy.TimeForMaximumOfMaximumValues"></a>
+
 ### *property* ThermalStrainEnergy.TimeForMaximumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Time for the maximum of maximum values.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ThermalStrainEnergy.LoadStepForMaximumOfMinimumValues"></a>
 
 ### *property* ThermalStrainEnergy.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -174,17 +206,23 @@ Get the Load Step for the maximum of minimum values.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ThermalStrainEnergy.LoadStepForMaximumOfMaximumValues"></a>
+
 ### *property* ThermalStrainEnergy.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ThermalStrainEnergy.IsSolved"></a>
+
 ### *property* ThermalStrainEnergy.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ThermalStrainEnergy.CoordinateSystem"></a>
 
 ### *property* ThermalStrainEnergy.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -194,11 +232,15 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ThermalStrainEnergy.ScopingMethod"></a>
+
 ### *property* ThermalStrainEnergy.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ThermalStrainEnergy.SetNumber"></a>
 
 ### *property* ThermalStrainEnergy.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -206,11 +248,15 @@ Gets or sets the Set Number.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ThermalStrainEnergy.CombinationNumber"></a>
+
 ### *property* ThermalStrainEnergy.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ThermalStrainEnergy.SolutionCombinationDriver"></a>
 
 ### *property* ThermalStrainEnergy.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -218,11 +264,15 @@ Gets or sets the SolutionCombinationDriver.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ThermalStrainEnergy.Path"></a>
+
 ### *property* ThermalStrainEnergy.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../Path.md#Path) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Path property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ThermalStrainEnergy.Surface"></a>
 
 ### *property* ThermalStrainEnergy.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -230,11 +280,15 @@ Surface property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ThermalStrainEnergy.NamedSelections"></a>
+
 ### *property* ThermalStrainEnergy.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ThermalStrainEnergy.WaterfallPanelShowTextOnMosaic"></a>
 
 ### *property* ThermalStrainEnergy.WaterfallPanelShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -242,11 +296,15 @@ Gets or sets the Waterfall Panel Mosaic Text Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ThermalStrainEnergy.CrackFrontNumber"></a>
+
 ### *property* ThermalStrainEnergy.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ThermalStrainEnergy.GlobalIDs"></a>
 
 ### *property* ThermalStrainEnergy.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -254,11 +312,15 @@ Gets or sets the GlobalIDs.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ThermalStrainEnergy.Identifier"></a>
+
 ### *property* ThermalStrainEnergy.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ThermalStrainEnergy.IterationNumber"></a>
 
 ### *property* ThermalStrainEnergy.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -266,11 +328,15 @@ Gets the IterationNumber.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ThermalStrainEnergy.LoadStep"></a>
+
 ### *property* ThermalStrainEnergy.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ThermalStrainEnergy.MaximumOccursOn"></a>
 
 ### *property* ThermalStrainEnergy.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -278,11 +344,15 @@ Gets the MaximumOccursOn.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ThermalStrainEnergy.MinimumOccursOn"></a>
+
 ### *property* ThermalStrainEnergy.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ThermalStrainEnergy.LoadStepNumber"></a>
 
 ### *property* ThermalStrainEnergy.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -290,11 +360,15 @@ Gets or sets the LoadStepNumber.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ThermalStrainEnergy.SolverComponentIDs"></a>
+
 ### *property* ThermalStrainEnergy.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ThermalStrainEnergy.Substep"></a>
 
 ### *property* ThermalStrainEnergy.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -302,11 +376,15 @@ Gets the Substep.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ThermalStrainEnergy.Average"></a>
+
 ### *property* ThermalStrainEnergy.Average *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Average.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ThermalStrainEnergy.Maximum"></a>
 
 ### *property* ThermalStrainEnergy.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -314,11 +392,15 @@ Gets the Maximum.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ThermalStrainEnergy.MaximumOfMaximumOverTime"></a>
+
 ### *property* ThermalStrainEnergy.MaximumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOfMaximumOverTime.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ThermalStrainEnergy.MaximumOfMinimumOverTime"></a>
 
 ### *property* ThermalStrainEnergy.MaximumOfMinimumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -326,11 +408,15 @@ Gets the MaximumOfMinimumOverTime.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ThermalStrainEnergy.Minimum"></a>
+
 ### *property* ThermalStrainEnergy.Minimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Minimum.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ThermalStrainEnergy.MinimumOfMaximumOverTime"></a>
 
 ### *property* ThermalStrainEnergy.MinimumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -338,11 +424,15 @@ Gets the MinimumOfMaximumOverTime.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ThermalStrainEnergy.MinimumOfMinimumOverTime"></a>
+
 ### *property* ThermalStrainEnergy.MinimumOfMinimumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOfMinimumOverTime.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ThermalStrainEnergy.Time"></a>
 
 ### *property* ThermalStrainEnergy.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -350,11 +440,15 @@ Gets the Time.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ThermalStrainEnergy.DisplayTime"></a>
+
 ### *property* ThermalStrainEnergy.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DisplayTime.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ThermalStrainEnergy.GraphControlsXAxis"></a>
 
 ### *property* ThermalStrainEnergy.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -362,11 +456,15 @@ Gets or sets the GraphControlsXAxis.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ThermalStrainEnergy.DisplayOption"></a>
+
 ### *property* ThermalStrainEnergy.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../Mechanical/DataModel/Enums/ResultAveragingType.md#ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DisplayOption.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ThermalStrainEnergy.DpfEvaluation"></a>
 
 ### *property* ThermalStrainEnergy.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -374,11 +472,15 @@ Gets or sets the DpfEvaluation.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ThermalStrainEnergy.By"></a>
+
 ### *property* ThermalStrainEnergy.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../Mechanical/DataModel/Enums/SetDriverStyle.md#SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the By.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ThermalStrainEnergy.ItemType"></a>
 
 ### *property* ThermalStrainEnergy.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../Mechanical/DataModel/Enums/ResultFileItemType.md#ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -386,11 +488,15 @@ Gets or sets the ItemType.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ThermalStrainEnergy.CalculateTimeHistory"></a>
+
 ### *property* ThermalStrainEnergy.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ThermalStrainEnergy.Suppressed"></a>
 
 ### *property* ThermalStrainEnergy.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -398,11 +504,15 @@ Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ThermalStrainEnergy.Children"></a>
+
 ### *property* ThermalStrainEnergy.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ThermalStrainEnergy.Comments"></a>
 
 ### *property* ThermalStrainEnergy.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -410,11 +520,15 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ThermalStrainEnergy.Figures"></a>
+
 ### *property* ThermalStrainEnergy.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ThermalStrainEnergy.Images"></a>
 
 ### *property* ThermalStrainEnergy.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -422,11 +536,15 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id0"></a>
+
 ### *property* ThermalStrainEnergy.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ThermalStrainEnergy.Properties"></a>
 
 ### *property* ThermalStrainEnergy.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -434,13 +552,19 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ThermalStrainEnergy.VisibleProperties"></a>
+
 ### *property* ThermalStrainEnergy.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="ThermalStrainEnergy.ClearGeneratedData"></a>
 
 ### ThermalStrainEnergy.ClearGeneratedData()
 
@@ -448,11 +572,15 @@ Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ThermalStrainEnergy.EvaluateAllResults"></a>
+
 ### ThermalStrainEnergy.EvaluateAllResults()
 
 Run the EvaluateAllResults action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ThermalStrainEnergy.FetchRemoteResults"></a>
 
 ### ThermalStrainEnergy.FetchRemoteResults()
 
@@ -460,11 +588,15 @@ Run the FetchRemoteResult action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ThermalStrainEnergy.ExportToTextFile"></a>
+
 ### ThermalStrainEnergy.ExportToTextFile(filePath: System.String)
 
 Run the ExportToTextFile action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ThermalStrainEnergy.ExportAnimation"></a>
 
 ### ThermalStrainEnergy.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#AnimationExportSettings))
 
@@ -472,11 +604,15 @@ Run the ExportAnimation action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ThermalStrainEnergy.DuplicateWithoutResults"></a>
+
 ### ThermalStrainEnergy.DuplicateWithoutResults()
 
 Run the DuplicateWithoutResults action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ThermalStrainEnergy.CreateResultsAtAllSets"></a>
 
 ### ThermalStrainEnergy.CreateResultsAtAllSets()
 
@@ -484,11 +620,15 @@ Creates results at all sets for results under a solution.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ThermalStrainEnergy.PromoteToNamedSelection"></a>
+
 ### ThermalStrainEnergy.PromoteToNamedSelection()
 
 Run the PromoteToNamedSelection action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ThermalStrainEnergy.CreateParameter"></a>
 
 ### ThermalStrainEnergy.CreateParameter(propName: System.String)
 
@@ -496,11 +636,15 @@ CreateParameter method.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ThermalStrainEnergy.AddAlert"></a>
+
 ### ThermalStrainEnergy.AddAlert()
 
 Creates a new Alert
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ThermalStrainEnergy.AddConvergence"></a>
 
 ### ThermalStrainEnergy.AddConvergence()
 
@@ -508,11 +652,15 @@ Creates a new Convergence
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ThermalStrainEnergy.RenameBasedOnDefinition"></a>
+
 ### ThermalStrainEnergy.RenameBasedOnDefinition()
 
 Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ThermalStrainEnergy.Delete"></a>
 
 ### ThermalStrainEnergy.Delete()
 
@@ -520,11 +668,15 @@ Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ThermalStrainEnergy.GetChildren"></a>
+
 ### ThermalStrainEnergy.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id1"></a>
 
 ### ThermalStrainEnergy.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
@@ -532,17 +684,23 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ThermalStrainEnergy.AddComment"></a>
+
 ### ThermalStrainEnergy.AddComment()
 
 Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ThermalStrainEnergy.AddFigure"></a>
+
 ### ThermalStrainEnergy.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ThermalStrainEnergy.AddImage"></a>
 
 ### ThermalStrainEnergy.AddImage(filePath: System.String)
 
@@ -552,11 +710,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ThermalStrainEnergy.Activate"></a>
+
 ### ThermalStrainEnergy.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ThermalStrainEnergy.CopyTo"></a>
 
 ### ThermalStrainEnergy.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -564,11 +726,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ThermalStrainEnergy.Duplicate"></a>
+
 ### ThermalStrainEnergy.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ThermalStrainEnergy.GroupAllSimilarChildren"></a>
 
 ### ThermalStrainEnergy.GroupAllSimilarChildren()
 
@@ -576,17 +742,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ThermalStrainEnergy.GroupSimilarObjects"></a>
+
 ### ThermalStrainEnergy.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ThermalStrainEnergy.PropertyByName"></a>
+
 ### ThermalStrainEnergy.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ThermalStrainEnergy.PropertyByAPIName"></a>
 
 ### ThermalStrainEnergy.PropertyByAPIName(name: System.String)
 
@@ -595,11 +767,15 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ThermalStrainEnergy.GetParameter"></a>
+
 ### ThermalStrainEnergy.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ThermalStrainEnergy.RemoveParameter"></a>
 
 ### ThermalStrainEnergy.RemoveParameter(propName: System.String)
 

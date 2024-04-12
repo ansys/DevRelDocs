@@ -1,4 +1,10 @@
+<a id="module-ansys.mechanical.stubs.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow"></a>
+
+<a id="the-meshworkflow-package"></a>
+
 # The `MeshWorkflow` package
+
+<a id="summary"></a>
 
 ## Summary
 
@@ -17,6 +23,8 @@
 | [`VolumeMeshType`](VolumeMeshType.md#VolumeMeshType)                                     | This enum is referenced in the “Control” tree node and reflects the type of volume mesh being configured.                                                                                                                                                                                        |
 | [`WorkflowType`](WorkflowType.md#WorkflowType)                                           | This enum is referenced in the “Steps” tree node and reflects the type of workflow being configured. Based on the type of workflow different rules are applied which define the applicable order and type of operations which can be added.                                                      |
 | [`WrapperRegionType`](WrapperRegionType.md#WrapperRegionType)                            | This enum is referenced in the “Control” tree node and reflects the type of wrapper region being configured.                                                                                                                                                                                     |
+
+<a id="description"></a>
 
 ## Description
 

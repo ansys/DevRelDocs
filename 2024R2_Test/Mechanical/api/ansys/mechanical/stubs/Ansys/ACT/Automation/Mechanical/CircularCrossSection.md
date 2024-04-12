@@ -1,4 +1,8 @@
+<a id="circularcrosssection"></a>
+
 # CircularCrossSection
+
+<a id="CircularCrossSection"></a>
 
 ### *class* CircularCrossSection
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a CircularCrossSection.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -48,13 +54,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#CircularCrossSection.Properties)                                                                    | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#CircularCrossSection.VisibleProperties)                                                      | Gets the list of properties that are visible for this object. |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical import CircularCrossSection
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="CircularCrossSection.InternalObject"></a>
 
 ### *property* CircularCrossSection.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSCrossSectionAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -62,11 +74,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CircularCrossSection.Area"></a>
+
 ### *property* CircularCrossSection.Area *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Area.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CircularCrossSection.IYY"></a>
 
 ### *property* CircularCrossSection.IYY *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -74,11 +90,15 @@ Gets the IYY.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CircularCrossSection.IZZ"></a>
+
 ### *property* CircularCrossSection.IZZ *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IZZ.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CircularCrossSection.Radius"></a>
 
 ### *property* CircularCrossSection.Radius *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -86,11 +106,15 @@ Gets or sets the Radius.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CircularCrossSection.DataModelObjectCategory"></a>
+
 ### *property* CircularCrossSection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CircularCrossSection.Children"></a>
 
 ### *property* CircularCrossSection.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -98,11 +122,15 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CircularCrossSection.Comments"></a>
+
 ### *property* CircularCrossSection.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CircularCrossSection.Figures"></a>
 
 ### *property* CircularCrossSection.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -110,11 +138,15 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CircularCrossSection.Images"></a>
+
 ### *property* CircularCrossSection.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CircularCrossSection.ReadOnly"></a>
 
 ### *property* CircularCrossSection.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -122,11 +154,15 @@ Gets or sets the ReadOnly.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id0"></a>
+
 ### *property* CircularCrossSection.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CircularCrossSection.Properties"></a>
 
 ### *property* CircularCrossSection.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -134,13 +170,19 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CircularCrossSection.VisibleProperties"></a>
+
 ### *property* CircularCrossSection.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="CircularCrossSection.Delete"></a>
 
 ### CircularCrossSection.Delete()
 
@@ -148,11 +190,15 @@ Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CircularCrossSection.GetChildren"></a>
+
 ### CircularCrossSection.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id1"></a>
 
 ### CircularCrossSection.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
@@ -160,17 +206,23 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CircularCrossSection.AddComment"></a>
+
 ### CircularCrossSection.AddComment()
 
 Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CircularCrossSection.AddFigure"></a>
+
 ### CircularCrossSection.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CircularCrossSection.AddImage"></a>
 
 ### CircularCrossSection.AddImage(filePath: System.String)
 
@@ -180,11 +232,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CircularCrossSection.Activate"></a>
+
 ### CircularCrossSection.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CircularCrossSection.CopyTo"></a>
 
 ### CircularCrossSection.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -192,11 +248,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CircularCrossSection.Duplicate"></a>
+
 ### CircularCrossSection.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CircularCrossSection.GroupAllSimilarChildren"></a>
 
 ### CircularCrossSection.GroupAllSimilarChildren()
 
@@ -204,17 +264,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CircularCrossSection.GroupSimilarObjects"></a>
+
 ### CircularCrossSection.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CircularCrossSection.PropertyByName"></a>
+
 ### CircularCrossSection.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CircularCrossSection.PropertyByAPIName"></a>
 
 ### CircularCrossSection.PropertyByAPIName(name: System.String)
 
@@ -223,17 +289,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CircularCrossSection.CreateParameter"></a>
+
 ### CircularCrossSection.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CircularCrossSection.GetParameter"></a>
+
 ### CircularCrossSection.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CircularCrossSection.RemoveParameter"></a>
 
 ### CircularCrossSection.RemoveParameter(propName: System.String)
 

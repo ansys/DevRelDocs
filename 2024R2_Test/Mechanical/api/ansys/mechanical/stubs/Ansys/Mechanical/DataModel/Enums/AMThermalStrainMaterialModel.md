@@ -1,4 +1,8 @@
+<a id="amthermalstrainmaterialmodel"></a>
+
 # AMThermalStrainMaterialModel
+
+<a id="AMThermalStrainMaterialModel"></a>
 
 ### *class* AMThermalStrainMaterialModel
 
@@ -7,6 +11,8 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 > Specifies the AMThermalStrainMaterialModel.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -23,28 +29,50 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 | [`Ti6Al4V`](#AMThermalStrainMaterialModel.Ti6Al4V)       |    |
 | [`Undefined`](#AMThermalStrainMaterialModel.Undefined)   |    |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.Mechanical.DataModel.Enums import AMThermalStrainMaterialModel
 ```
 
+<a id="attribute-detail"></a>
+
 ## Attribute detail
+
+<a id="AMThermalStrainMaterialModel.Al357"></a>
 
 ### AMThermalStrainMaterialModel.Al357 *= 3*
 
+<a id="AMThermalStrainMaterialModel.AlSi10Mg"></a>
+
 ### AMThermalStrainMaterialModel.AlSi10Mg *= 4*
+
+<a id="AMThermalStrainMaterialModel.CoCr"></a>
 
 ### AMThermalStrainMaterialModel.CoCr *= 5*
 
+<a id="AMThermalStrainMaterialModel.Inconel625"></a>
+
 ### AMThermalStrainMaterialModel.Inconel625 *= 6*
+
+<a id="AMThermalStrainMaterialModel.Inconel718"></a>
 
 ### AMThermalStrainMaterialModel.Inconel718 *= 7*
 
+<a id="AMThermalStrainMaterialModel.SS17_4"></a>
+
 ### AMThermalStrainMaterialModel.SS17_4 *= 1*
+
+<a id="AMThermalStrainMaterialModel.SS316L"></a>
 
 ### AMThermalStrainMaterialModel.SS316L *= 2*
 
+<a id="AMThermalStrainMaterialModel.Ti6Al4V"></a>
+
 ### AMThermalStrainMaterialModel.Ti6Al4V *= 8*
+
+<a id="AMThermalStrainMaterialModel.Undefined"></a>
 
 ### AMThermalStrainMaterialModel.Undefined *= 0*

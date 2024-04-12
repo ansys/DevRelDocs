@@ -1,4 +1,8 @@
+<a id="meshcontrol"></a>
+
 # MeshControl
+
+<a id="MeshControl"></a>
 
 ### *class* MeshControl
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a MeshControl.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -47,13 +53,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#MeshControl.Properties)                                                                                | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#MeshControl.VisibleProperties)                                                                  | Gets the list of properties that are visible for this object. |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.MeshControls import MeshControl
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="MeshControl.ScopingMethod"></a>
 
 ### *property* MeshControl.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -61,11 +73,15 @@ Gets or sets the ScopingMethod.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshControl.InternalObject"></a>
+
 ### *property* MeshControl.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSMeshControlAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshControl.Suppressed"></a>
 
 ### *property* MeshControl.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -73,11 +89,15 @@ Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshControl.DataModelObjectCategory"></a>
+
 ### *property* MeshControl.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshControl.Children"></a>
 
 ### *property* MeshControl.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -85,11 +105,15 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshControl.Comments"></a>
+
 ### *property* MeshControl.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshControl.Figures"></a>
 
 ### *property* MeshControl.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -97,11 +121,15 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshControl.Images"></a>
+
 ### *property* MeshControl.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id0"></a>
 
 ### *property* MeshControl.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -109,11 +137,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshControl.Properties"></a>
+
 ### *property* MeshControl.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshControl.VisibleProperties"></a>
 
 ### *property* MeshControl.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -121,7 +153,11 @@ Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="MeshControl.GenerateMesh"></a>
 
 ### MeshControl.GenerateMesh()
 
@@ -129,11 +165,15 @@ Generate the Mesh.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshControl.RenameBasedOnDefinition"></a>
+
 ### MeshControl.RenameBasedOnDefinition()
 
 Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshControl.Delete"></a>
 
 ### MeshControl.Delete()
 
@@ -141,11 +181,15 @@ Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshControl.GetChildren"></a>
+
 ### MeshControl.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id1"></a>
 
 ### MeshControl.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
@@ -153,17 +197,23 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshControl.AddComment"></a>
+
 ### MeshControl.AddComment()
 
 Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshControl.AddFigure"></a>
+
 ### MeshControl.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshControl.AddImage"></a>
 
 ### MeshControl.AddImage(filePath: System.String)
 
@@ -173,11 +223,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshControl.Activate"></a>
+
 ### MeshControl.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshControl.CopyTo"></a>
 
 ### MeshControl.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -185,11 +239,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshControl.Duplicate"></a>
+
 ### MeshControl.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshControl.GroupAllSimilarChildren"></a>
 
 ### MeshControl.GroupAllSimilarChildren()
 
@@ -197,17 +255,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshControl.GroupSimilarObjects"></a>
+
 ### MeshControl.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshControl.PropertyByName"></a>
+
 ### MeshControl.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshControl.PropertyByAPIName"></a>
 
 ### MeshControl.PropertyByAPIName(name: System.String)
 
@@ -216,17 +280,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshControl.CreateParameter"></a>
+
 ### MeshControl.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshControl.GetParameter"></a>
+
 ### MeshControl.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshControl.RemoveParameter"></a>
 
 ### MeshControl.RemoveParameter(propName: System.String)
 

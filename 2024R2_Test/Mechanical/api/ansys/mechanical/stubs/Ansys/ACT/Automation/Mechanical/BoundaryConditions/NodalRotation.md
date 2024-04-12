@@ -1,4 +1,8 @@
+<a id="nodalrotation"></a>
+
 # NodalRotation
+
+<a id="NodalRotation"></a>
 
 ### *class* NodalRotation
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a NodalRotation.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -52,13 +58,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#NodalRotation.Properties)                                                                              | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#NodalRotation.VisibleProperties)                                                                | Gets the list of properties that are visible for this object. |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.BoundaryConditions import NodalRotation
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="NodalRotation.InternalObject"></a>
 
 ### *property* NodalRotation.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -66,11 +78,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NodalRotation.RotationX"></a>
+
 ### *property* NodalRotation.RotationX *: [Ansys.Mechanical.DataModel.Enums.FixedOrFree](../../../../Mechanical/DataModel/Enums/FixedOrFree.md#FixedOrFree) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RotationX.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NodalRotation.RotationY"></a>
 
 ### *property* NodalRotation.RotationY *: [Ansys.Mechanical.DataModel.Enums.FixedOrFree](../../../../Mechanical/DataModel/Enums/FixedOrFree.md#FixedOrFree) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -78,11 +94,15 @@ Gets or sets the RotationY.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NodalRotation.RotationZ"></a>
+
 ### *property* NodalRotation.RotationZ *: [Ansys.Mechanical.DataModel.Enums.FixedOrFree](../../../../Mechanical/DataModel/Enums/FixedOrFree.md#FixedOrFree) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RotationZ.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NodalRotation.CoordinateSystem"></a>
 
 ### *property* NodalRotation.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -90,11 +110,15 @@ Gets the CoordinateSystem.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NodalRotation.Location"></a>
+
 ### *property* NodalRotation.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NodalRotation.DataModelObjectCategory"></a>
 
 ### *property* NodalRotation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -102,11 +126,15 @@ Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NodalRotation.Suppressed"></a>
+
 ### *property* NodalRotation.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NodalRotation.SharedRefBody"></a>
 
 ### *property* NodalRotation.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -114,11 +142,15 @@ Gets or sets the SharedRefBody.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NodalRotation.Children"></a>
+
 ### *property* NodalRotation.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NodalRotation.Comments"></a>
 
 ### *property* NodalRotation.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -126,11 +158,15 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NodalRotation.Figures"></a>
+
 ### *property* NodalRotation.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NodalRotation.Images"></a>
 
 ### *property* NodalRotation.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -138,11 +174,15 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NodalRotation.ReadOnly"></a>
+
 ### *property* NodalRotation.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id0"></a>
 
 ### *property* NodalRotation.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -150,11 +190,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NodalRotation.Properties"></a>
+
 ### *property* NodalRotation.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NodalRotation.VisibleProperties"></a>
 
 ### *property* NodalRotation.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -162,7 +206,11 @@ Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="NodalRotation.PromoteToNamedSelection"></a>
 
 ### NodalRotation.PromoteToNamedSelection()
 
@@ -170,11 +218,15 @@ Run the PromoteToNamedSelection action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NodalRotation.Delete"></a>
+
 ### NodalRotation.Delete()
 
 Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NodalRotation.GetChildren"></a>
 
 ### NodalRotation.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
@@ -182,11 +234,15 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id1"></a>
+
 ### NodalRotation.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NodalRotation.AddComment"></a>
 
 ### NodalRotation.AddComment()
 
@@ -194,11 +250,15 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NodalRotation.AddFigure"></a>
+
 ### NodalRotation.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NodalRotation.AddImage"></a>
 
 ### NodalRotation.AddImage(filePath: System.String)
 
@@ -208,11 +268,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NodalRotation.Activate"></a>
+
 ### NodalRotation.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NodalRotation.CopyTo"></a>
 
 ### NodalRotation.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -220,11 +284,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NodalRotation.Duplicate"></a>
+
 ### NodalRotation.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NodalRotation.GroupAllSimilarChildren"></a>
 
 ### NodalRotation.GroupAllSimilarChildren()
 
@@ -232,17 +300,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NodalRotation.GroupSimilarObjects"></a>
+
 ### NodalRotation.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NodalRotation.PropertyByName"></a>
+
 ### NodalRotation.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NodalRotation.PropertyByAPIName"></a>
 
 ### NodalRotation.PropertyByAPIName(name: System.String)
 
@@ -251,17 +325,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NodalRotation.CreateParameter"></a>
+
 ### NodalRotation.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NodalRotation.GetParameter"></a>
+
 ### NodalRotation.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NodalRotation.RemoveParameter"></a>
 
 ### NodalRotation.RemoveParameter(propName: System.String)
 

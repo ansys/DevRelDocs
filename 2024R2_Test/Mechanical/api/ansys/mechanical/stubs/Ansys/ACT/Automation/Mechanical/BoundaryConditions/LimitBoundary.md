@@ -1,4 +1,8 @@
+<a id="limitboundary"></a>
+
 # LimitBoundary
+
+<a id="LimitBoundary"></a>
 
 ### *class* LimitBoundary
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a LimitBoundary.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -57,13 +63,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#LimitBoundary.Properties)                                                                              | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#LimitBoundary.VisibleProperties)                                                                | Gets the list of properties that are visible for this object. |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.BoundaryConditions import LimitBoundary
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="LimitBoundary.InternalObject"></a>
 
 ### *property* LimitBoundary.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -71,11 +83,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LimitBoundary.LimitBCMax"></a>
+
 ### *property* LimitBoundary.LimitBCMax *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LimitBCMax.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LimitBoundary.LimitBCMaxX"></a>
 
 ### *property* LimitBoundary.LimitBCMaxX *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -83,11 +99,15 @@ Gets or sets the LimitBCMaxX.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LimitBoundary.LimitBCMaxY"></a>
+
 ### *property* LimitBoundary.LimitBCMaxY *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LimitBCMaxY.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LimitBoundary.LimitBCMaxZ"></a>
 
 ### *property* LimitBoundary.LimitBCMaxZ *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -95,11 +115,15 @@ Gets or sets the LimitBCMaxZ.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LimitBoundary.LimitBCMin"></a>
+
 ### *property* LimitBoundary.LimitBCMin *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LimitBCMin.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LimitBoundary.LimitBCMinX"></a>
 
 ### *property* LimitBoundary.LimitBCMinX *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -107,11 +131,15 @@ Gets or sets the LimitBCMinX.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LimitBoundary.LimitBCMinY"></a>
+
 ### *property* LimitBoundary.LimitBCMinY *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LimitBCMinY.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LimitBoundary.LimitBCMinZ"></a>
 
 ### *property* LimitBoundary.LimitBCMinZ *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -119,11 +147,15 @@ Gets or sets the LimitBCMinZ.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LimitBoundary.LimitBCDirection"></a>
+
 ### *property* LimitBoundary.LimitBCDirection *: [Ansys.Mechanical.DataModel.Enums.LimitBCDirection](../../../../Mechanical/DataModel/Enums/LimitBCDirection.md#LimitBCDirection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LimitBCDirection.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LimitBoundary.Location"></a>
 
 ### *property* LimitBoundary.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -131,11 +163,15 @@ Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LimitBoundary.DataModelObjectCategory"></a>
+
 ### *property* LimitBoundary.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LimitBoundary.Suppressed"></a>
 
 ### *property* LimitBoundary.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -143,11 +179,15 @@ Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LimitBoundary.SharedRefBody"></a>
+
 ### *property* LimitBoundary.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LimitBoundary.Children"></a>
 
 ### *property* LimitBoundary.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -155,11 +195,15 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LimitBoundary.Comments"></a>
+
 ### *property* LimitBoundary.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LimitBoundary.Figures"></a>
 
 ### *property* LimitBoundary.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -167,11 +211,15 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LimitBoundary.Images"></a>
+
 ### *property* LimitBoundary.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LimitBoundary.ReadOnly"></a>
 
 ### *property* LimitBoundary.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -179,11 +227,15 @@ Gets or sets the ReadOnly.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id0"></a>
+
 ### *property* LimitBoundary.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LimitBoundary.Properties"></a>
 
 ### *property* LimitBoundary.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -191,13 +243,19 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LimitBoundary.VisibleProperties"></a>
+
 ### *property* LimitBoundary.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="LimitBoundary.PromoteToNamedSelection"></a>
 
 ### LimitBoundary.PromoteToNamedSelection()
 
@@ -205,11 +263,15 @@ Run the PromoteToNamedSelection action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LimitBoundary.Delete"></a>
+
 ### LimitBoundary.Delete()
 
 Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LimitBoundary.GetChildren"></a>
 
 ### LimitBoundary.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
@@ -217,11 +279,15 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id1"></a>
+
 ### LimitBoundary.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LimitBoundary.AddComment"></a>
 
 ### LimitBoundary.AddComment()
 
@@ -229,11 +295,15 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LimitBoundary.AddFigure"></a>
+
 ### LimitBoundary.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LimitBoundary.AddImage"></a>
 
 ### LimitBoundary.AddImage(filePath: System.String)
 
@@ -243,11 +313,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LimitBoundary.Activate"></a>
+
 ### LimitBoundary.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LimitBoundary.CopyTo"></a>
 
 ### LimitBoundary.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -255,11 +329,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LimitBoundary.Duplicate"></a>
+
 ### LimitBoundary.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LimitBoundary.GroupAllSimilarChildren"></a>
 
 ### LimitBoundary.GroupAllSimilarChildren()
 
@@ -267,17 +345,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LimitBoundary.GroupSimilarObjects"></a>
+
 ### LimitBoundary.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LimitBoundary.PropertyByName"></a>
+
 ### LimitBoundary.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LimitBoundary.PropertyByAPIName"></a>
 
 ### LimitBoundary.PropertyByAPIName(name: System.String)
 
@@ -286,17 +370,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LimitBoundary.CreateParameter"></a>
+
 ### LimitBoundary.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LimitBoundary.GetParameter"></a>
+
 ### LimitBoundary.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LimitBoundary.RemoveParameter"></a>
 
 ### LimitBoundary.RemoveParameter(propName: System.String)
 

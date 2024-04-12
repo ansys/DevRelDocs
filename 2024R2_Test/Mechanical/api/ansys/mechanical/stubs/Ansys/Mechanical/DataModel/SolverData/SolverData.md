@@ -1,4 +1,8 @@
+<a id="solverdata"></a>
+
 # SolverData
+
+<a id="SolverData"></a>
 
 ### *class* SolverData
 
@@ -8,12 +12,16 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 > <!-- !! processed by numpydoc !! -->
 
+<a id="overview"></a>
+
 ## Overview
 
 ### Methods
 
-| [`GetObjectData`](#SolverData.GetObjectData)   | Gets the object data.   |
-|------------------------------------------------|-------------------------|
+| [`GetObjectData`](index.md#id41)   | Gets the object data.   |
+|------------------------------------|-------------------------|
+
+<a id="import-detail"></a>
 
 ## Import detail
 
@@ -21,7 +29,11 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 from ansys.mechanical.stubs.Ansys.Mechanical.DataModel.SolverData import SolverData
 ```
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="SolverData.GetObjectData"></a>
 
 ### SolverData.GetObjectData(obj: Ansys.Mechanical.DataModel.Interfaces.IDataModelObject)
 

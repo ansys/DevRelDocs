@@ -1,4 +1,8 @@
+<a id="cyclicregion"></a>
+
 # CyclicRegion
+
+<a id="CyclicRegion"></a>
 
 ### *class* CyclicRegion
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a CyclicRegion.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -51,13 +57,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#CyclicRegion.Properties)                                                                            | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#CyclicRegion.VisibleProperties)                                                              | Gets the list of properties that are visible for this object. |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical import CyclicRegion
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="CyclicRegion.InternalObject"></a>
 
 ### *property* CyclicRegion.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSSymmetryGeneralAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -65,11 +77,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CyclicRegion.DataModelObjectCategory"></a>
+
 ### *property* CyclicRegion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CyclicRegion.ScopeMode"></a>
 
 ### *property* CyclicRegion.ScopeMode *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](../../../Mechanical/DataModel/Enums/AutomaticOrManual.md#AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -77,11 +93,15 @@ Gets the ScopeMode.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CyclicRegion.Suppressed"></a>
+
 ### *property* CyclicRegion.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CyclicRegion.CoordinateSystem"></a>
 
 ### *property* CyclicRegion.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -89,11 +109,15 @@ Gets or sets the CoordinateSystem.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CyclicRegion.Location"></a>
+
 ### *property* CyclicRegion.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CyclicRegion.HighBoundaryLocation"></a>
 
 ### *property* CyclicRegion.HighBoundaryLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -101,11 +125,15 @@ Gets or sets the HighBoundaryLocation.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CyclicRegion.LowBoundaryLocation"></a>
+
 ### *property* CyclicRegion.LowBoundaryLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LowBoundaryLocation.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CyclicRegion.Children"></a>
 
 ### *property* CyclicRegion.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -113,11 +141,15 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CyclicRegion.Comments"></a>
+
 ### *property* CyclicRegion.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CyclicRegion.Figures"></a>
 
 ### *property* CyclicRegion.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -125,11 +157,15 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CyclicRegion.Images"></a>
+
 ### *property* CyclicRegion.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CyclicRegion.ReadOnly"></a>
 
 ### *property* CyclicRegion.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -137,11 +173,15 @@ Gets or sets the ReadOnly.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id0"></a>
+
 ### *property* CyclicRegion.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CyclicRegion.Properties"></a>
 
 ### *property* CyclicRegion.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -149,13 +189,19 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CyclicRegion.VisibleProperties"></a>
+
 ### *property* CyclicRegion.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="CyclicRegion.FlipHighLow"></a>
 
 ### CyclicRegion.FlipHighLow()
 
@@ -163,11 +209,15 @@ Flips the High and Low Boundaries.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CyclicRegion.Delete"></a>
+
 ### CyclicRegion.Delete()
 
 Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CyclicRegion.GetChildren"></a>
 
 ### CyclicRegion.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
@@ -175,11 +225,15 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id1"></a>
+
 ### CyclicRegion.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CyclicRegion.AddComment"></a>
 
 ### CyclicRegion.AddComment()
 
@@ -187,11 +241,15 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CyclicRegion.AddFigure"></a>
+
 ### CyclicRegion.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CyclicRegion.AddImage"></a>
 
 ### CyclicRegion.AddImage(filePath: System.String)
 
@@ -201,11 +259,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CyclicRegion.Activate"></a>
+
 ### CyclicRegion.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CyclicRegion.CopyTo"></a>
 
 ### CyclicRegion.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -213,11 +275,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CyclicRegion.Duplicate"></a>
+
 ### CyclicRegion.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CyclicRegion.GroupAllSimilarChildren"></a>
 
 ### CyclicRegion.GroupAllSimilarChildren()
 
@@ -225,17 +291,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CyclicRegion.GroupSimilarObjects"></a>
+
 ### CyclicRegion.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CyclicRegion.PropertyByName"></a>
+
 ### CyclicRegion.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CyclicRegion.PropertyByAPIName"></a>
 
 ### CyclicRegion.PropertyByAPIName(name: System.String)
 
@@ -244,17 +316,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CyclicRegion.CreateParameter"></a>
+
 ### CyclicRegion.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CyclicRegion.GetParameter"></a>
+
 ### CyclicRegion.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CyclicRegion.RemoveParameter"></a>
 
 ### CyclicRegion.RemoveParameter(propName: System.String)
 

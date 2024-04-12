@@ -1,4 +1,8 @@
+<a id="loadgroup"></a>
+
 # LoadGroup
+
+<a id="LoadGroup"></a>
 
 ### *class* LoadGroup
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a LoadGroup.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -61,13 +67,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#LoadGroup.Properties)                                                                                  | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#LoadGroup.VisibleProperties)                                                                    | Gets the list of properties that are visible for this object. |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.BoundaryConditions import LoadGroup
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="LoadGroup.InternalObject"></a>
 
 ### *property* LoadGroup.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSLoadGroupAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -75,11 +87,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LoadGroup.SolutionId"></a>
+
 ### *property* LoadGroup.SolutionId *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolutionId.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LoadGroup.NumberOfFrequenciesToConsider"></a>
 
 ### *property* LoadGroup.NumberOfFrequenciesToConsider *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -87,11 +103,15 @@ Gets or sets the NumberOfFrequenciesToConsider.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LoadGroup.NumberOfTurns"></a>
+
 ### *property* LoadGroup.NumberOfTurns *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfTurns.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LoadGroup.TransferFileName"></a>
 
 ### *property* LoadGroup.TransferFileName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -99,11 +119,15 @@ Gets or sets the TransferFileName.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LoadGroup.ConductorCurrent"></a>
+
 ### *property* LoadGroup.ConductorCurrent *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ConductorCurrent.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LoadGroup.ConductingArea"></a>
 
 ### *property* LoadGroup.ConductingArea *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -111,11 +135,15 @@ Gets or sets the ConductingArea.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LoadGroup.PhaseAngle"></a>
+
 ### *property* LoadGroup.PhaseAngle *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PhaseAngle.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LoadGroup.GroupingType"></a>
 
 ### *property* LoadGroup.GroupingType *: [Ansys.Mechanical.DataModel.Enums.LoadGroupingType](../../../../Mechanical/DataModel/Enums/LoadGroupingType.md#LoadGroupingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -123,11 +151,15 @@ Gets or sets the GroupingType.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LoadGroup.ImportedDataType"></a>
+
 ### *property* LoadGroup.ImportedDataType *: [Ansys.Mechanical.DataModel.Enums.DataTypeOptions](../../../../Mechanical/DataModel/Enums/DataTypeOptions.md#DataTypeOptions) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ImportedDataType.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LoadGroup.OnDataRefreshOption"></a>
 
 ### *property* LoadGroup.OnDataRefreshOption *: [Ansys.Mechanical.DataModel.Enums.RemotePointUpdateOptions](../../../../Mechanical/DataModel/Enums/RemotePointUpdateOptions.md#RemotePointUpdateOptions) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -135,11 +167,15 @@ Gets or sets the OnDataRefreshOption.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LoadGroup.ConductorType"></a>
+
 ### *property* LoadGroup.ConductorType *: [Ansys.Mechanical.DataModel.Enums.SourceConductorType](../../../../Mechanical/DataModel/Enums/SourceConductorType.md#SourceConductorType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ConductorType.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LoadGroup.DataImportStatus"></a>
 
 ### *property* LoadGroup.DataImportStatus *: [Ansys.Mechanical.DataModel.Enums.DataImportStatus](../../../../Mechanical/DataModel/Enums/DataImportStatus.md#DataImportStatus) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -147,11 +183,15 @@ Gets the DataImportStatus.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LoadGroup.UseInternalRemotePoints"></a>
+
 ### *property* LoadGroup.UseInternalRemotePoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UseInternalRemotePoints.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LoadGroup.Suppressed"></a>
 
 ### *property* LoadGroup.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -159,11 +199,15 @@ Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LoadGroup.Location"></a>
+
 ### *property* LoadGroup.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LoadGroup.DataModelObjectCategory"></a>
 
 ### *property* LoadGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -171,11 +215,15 @@ Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LoadGroup.Children"></a>
+
 ### *property* LoadGroup.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LoadGroup.Comments"></a>
 
 ### *property* LoadGroup.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -183,11 +231,15 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LoadGroup.Figures"></a>
+
 ### *property* LoadGroup.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LoadGroup.Images"></a>
 
 ### *property* LoadGroup.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -195,11 +247,15 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id0"></a>
+
 ### *property* LoadGroup.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LoadGroup.Properties"></a>
 
 ### *property* LoadGroup.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -207,13 +263,19 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LoadGroup.VisibleProperties"></a>
+
 ### *property* LoadGroup.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="LoadGroup.GenerateRemoteLoads"></a>
 
 ### LoadGroup.GenerateRemoteLoads()
 
@@ -221,11 +283,15 @@ Run the action to generate the remote loads from the source data.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LoadGroup.AddCurrent"></a>
+
 ### LoadGroup.AddCurrent()
 
 Creates a new Current
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LoadGroup.AddVoltage"></a>
 
 ### LoadGroup.AddVoltage()
 
@@ -233,11 +299,15 @@ Creates a new Voltage
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LoadGroup.Delete"></a>
+
 ### LoadGroup.Delete()
 
 Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LoadGroup.GetChildren"></a>
 
 ### LoadGroup.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
@@ -245,11 +315,15 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id1"></a>
+
 ### LoadGroup.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LoadGroup.AddComment"></a>
 
 ### LoadGroup.AddComment()
 
@@ -257,11 +331,15 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LoadGroup.AddFigure"></a>
+
 ### LoadGroup.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LoadGroup.AddImage"></a>
 
 ### LoadGroup.AddImage(filePath: System.String)
 
@@ -271,11 +349,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LoadGroup.Activate"></a>
+
 ### LoadGroup.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LoadGroup.CopyTo"></a>
 
 ### LoadGroup.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -283,11 +365,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LoadGroup.Duplicate"></a>
+
 ### LoadGroup.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LoadGroup.GroupAllSimilarChildren"></a>
 
 ### LoadGroup.GroupAllSimilarChildren()
 
@@ -295,17 +381,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LoadGroup.GroupSimilarObjects"></a>
+
 ### LoadGroup.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LoadGroup.PropertyByName"></a>
+
 ### LoadGroup.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LoadGroup.PropertyByAPIName"></a>
 
 ### LoadGroup.PropertyByAPIName(name: System.String)
 
@@ -314,17 +406,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LoadGroup.CreateParameter"></a>
+
 ### LoadGroup.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LoadGroup.GetParameter"></a>
+
 ### LoadGroup.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LoadGroup.RemoveParameter"></a>
 
 ### LoadGroup.RemoveParameter(propName: System.String)
 

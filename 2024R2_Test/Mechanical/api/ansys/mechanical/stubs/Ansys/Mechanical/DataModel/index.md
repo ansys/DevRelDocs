@@ -1,4 +1,10 @@
+<a id="module-ansys.mechanical.stubs.Ansys.Mechanical.DataModel"></a>
+
+<a id="the-datamodel-package"></a>
+
 # The `DataModel` package
+
+<a id="summary"></a>
 
 ## Summary
 
@@ -12,6 +18,8 @@
 | [`Results`](Results/index.md#module-ansys.mechanical.stubs.Ansys.Mechanical.DataModel.Results)                               | Results subpackage.           |
 | [`SolverData`](SolverData/index.md#module-ansys.mechanical.stubs.Ansys.Mechanical.DataModel.SolverData)                      | SolverData subpackage.        |
 | [`Utilities`](Utilities/index.md#module-ansys.mechanical.stubs.Ansys.Mechanical.DataModel.Utilities)                         | Utilities subpackage.         |
+
+<a id="description"></a>
 
 ## Description
 

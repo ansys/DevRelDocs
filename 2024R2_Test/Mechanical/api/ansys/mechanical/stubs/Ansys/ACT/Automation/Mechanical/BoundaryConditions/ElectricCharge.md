@@ -1,4 +1,8 @@
+<a id="electriccharge"></a>
+
 # ElectricCharge
+
+<a id="ElectricCharge"></a>
 
 ### *class* ElectricCharge
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a ElectricCharge.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -50,13 +56,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#ElectricCharge.Properties)                                                                             | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#ElectricCharge.VisibleProperties)                                                               | Gets the list of properties that are visible for this object. |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.BoundaryConditions import ElectricCharge
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="ElectricCharge.Location"></a>
 
 ### *property* ElectricCharge.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -64,11 +76,15 @@ Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElectricCharge.InternalObject"></a>
+
 ### *property* ElectricCharge.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElectricCharge.Magnitude"></a>
 
 ### *property* ElectricCharge.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -76,11 +92,15 @@ Gets or sets the Magnitude.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElectricCharge.VoltageCoupling"></a>
+
 ### *property* ElectricCharge.VoltageCoupling *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.Coupling](Coupling.md#Coupling) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the VoltageCoupling.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElectricCharge.DataModelObjectCategory"></a>
 
 ### *property* ElectricCharge.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -88,11 +108,15 @@ Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElectricCharge.Suppressed"></a>
+
 ### *property* ElectricCharge.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElectricCharge.SharedRefBody"></a>
 
 ### *property* ElectricCharge.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -100,11 +124,15 @@ Gets or sets the SharedRefBody.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElectricCharge.Children"></a>
+
 ### *property* ElectricCharge.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElectricCharge.Comments"></a>
 
 ### *property* ElectricCharge.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -112,11 +140,15 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElectricCharge.Figures"></a>
+
 ### *property* ElectricCharge.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElectricCharge.Images"></a>
 
 ### *property* ElectricCharge.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -124,11 +156,15 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElectricCharge.ReadOnly"></a>
+
 ### *property* ElectricCharge.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id0"></a>
 
 ### *property* ElectricCharge.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -136,11 +172,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElectricCharge.Properties"></a>
+
 ### *property* ElectricCharge.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElectricCharge.VisibleProperties"></a>
 
 ### *property* ElectricCharge.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -148,7 +188,11 @@ Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="ElectricCharge.PromoteToNamedSelection"></a>
 
 ### ElectricCharge.PromoteToNamedSelection()
 
@@ -156,11 +200,15 @@ Run the PromoteToNamedSelection action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElectricCharge.Delete"></a>
+
 ### ElectricCharge.Delete()
 
 Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElectricCharge.GetChildren"></a>
 
 ### ElectricCharge.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
@@ -168,11 +216,15 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id1"></a>
+
 ### ElectricCharge.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElectricCharge.AddComment"></a>
 
 ### ElectricCharge.AddComment()
 
@@ -180,11 +232,15 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElectricCharge.AddFigure"></a>
+
 ### ElectricCharge.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElectricCharge.AddImage"></a>
 
 ### ElectricCharge.AddImage(filePath: System.String)
 
@@ -194,11 +250,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElectricCharge.Activate"></a>
+
 ### ElectricCharge.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElectricCharge.CopyTo"></a>
 
 ### ElectricCharge.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -206,11 +266,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElectricCharge.Duplicate"></a>
+
 ### ElectricCharge.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElectricCharge.GroupAllSimilarChildren"></a>
 
 ### ElectricCharge.GroupAllSimilarChildren()
 
@@ -218,17 +282,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElectricCharge.GroupSimilarObjects"></a>
+
 ### ElectricCharge.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElectricCharge.PropertyByName"></a>
+
 ### ElectricCharge.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElectricCharge.PropertyByAPIName"></a>
 
 ### ElectricCharge.PropertyByAPIName(name: System.String)
 
@@ -237,17 +307,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElectricCharge.CreateParameter"></a>
+
 ### ElectricCharge.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElectricCharge.GetParameter"></a>
+
 ### ElectricCharge.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElectricCharge.RemoveParameter"></a>
 
 ### ElectricCharge.RemoveParameter(propName: System.String)
 

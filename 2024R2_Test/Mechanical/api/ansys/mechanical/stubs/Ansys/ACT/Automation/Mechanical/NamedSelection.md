@@ -1,4 +1,8 @@
+<a id="namedselection"></a>
+
 # NamedSelection
+
+<a id="NamedSelection"></a>
 
 ### *class* NamedSelection
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a NamedSelection.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -66,13 +72,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#NamedSelection.Properties)                                                                          | Gets the list of properties for this object.                            |
 | [`VisibleProperties`](#NamedSelection.VisibleProperties)                                                            | Gets the list of properties that are visible for this object.           |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical import NamedSelection
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="NamedSelection.Location"></a>
 
 ### *property* NamedSelection.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -80,11 +92,15 @@ Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NamedSelection.GenerationCriteria"></a>
+
 ### *property* NamedSelection.GenerationCriteria *: [Ansys.ACT.Automation.Mechanical.NamedSelectionCriteria](NamedSelectionCriteria.md#NamedSelectionCriteria) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Returns the generation criteria that is used to generate the selection.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NamedSelection.InternalObject"></a>
 
 ### *property* NamedSelection.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSComponentAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -92,11 +108,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NamedSelection.CrackFrontNumber"></a>
+
 ### *property* NamedSelection.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the CrackFrontNumber.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NamedSelection.LSDynaUserId"></a>
 
 ### *property* NamedSelection.LSDynaUserId *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -104,11 +124,15 @@ Gets or sets the LSDynaUserId.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NamedSelection.TotalSelection"></a>
+
 ### *property* NamedSelection.TotalSelection *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the TotalSelection.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NamedSelection.Suppressed"></a>
 
 ### *property* NamedSelection.Suppressed *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -116,11 +140,15 @@ Gets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NamedSelection.RelativeTolerance"></a>
+
 ### *property* NamedSelection.RelativeTolerance *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RelativeTolerance.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NamedSelection.ZeroTolerance"></a>
 
 ### *property* NamedSelection.ZeroTolerance *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -128,11 +156,15 @@ Gets or sets the ZeroTolerance.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NamedSelection.ScopingMethod"></a>
+
 ### *property* NamedSelection.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NamedSelection.SendAs"></a>
 
 ### *property* NamedSelection.SendAs *: [Ansys.Mechanical.DataModel.Enums.SendAs](../../../Mechanical/DataModel/Enums/SendAs.md#SendAs) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -140,11 +172,15 @@ Gets or sets the SendAs.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NamedSelection.ToleranceType"></a>
+
 ### *property* NamedSelection.ToleranceType *: [Ansys.Mechanical.DataModel.Enums.ToleranceType](../../../Mechanical/DataModel/Enums/ToleranceType.md#ToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ToleranceType.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NamedSelection.Type"></a>
 
 ### *property* NamedSelection.Type *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -152,11 +188,15 @@ Gets the Type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NamedSelection.IncludeProgramControlledInflation"></a>
+
 ### *property* NamedSelection.IncludeProgramControlledInflation *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IncludeProgramControlledInflation.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NamedSelection.PreserveDuringSolve"></a>
 
 ### *property* NamedSelection.PreserveDuringSolve *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -164,11 +204,15 @@ Gets or sets the PreserveDuringSolve.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NamedSelection.SendToSolver"></a>
+
 ### *property* NamedSelection.SendToSolver *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SendToSolver.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NamedSelection.Visible"></a>
 
 ### *property* NamedSelection.Visible *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -176,11 +220,15 @@ Gets or sets the Visible.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NamedSelection.UsedByMeshWorksheet"></a>
+
 ### *property* NamedSelection.UsedByMeshWorksheet *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the UsedByMeshWorksheet.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NamedSelection.CreatedForCrack"></a>
 
 ### *property* NamedSelection.CreatedForCrack *: [Ansys.ACT.Automation.Mechanical.GenericCrack](GenericCrack.md#GenericCrack) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -188,11 +236,15 @@ Gets the CreatedForCrack.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NamedSelection.DataModelObjectCategory"></a>
+
 ### *property* NamedSelection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NamedSelection.Children"></a>
 
 ### *property* NamedSelection.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -200,11 +252,15 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NamedSelection.Comments"></a>
+
 ### *property* NamedSelection.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NamedSelection.Figures"></a>
 
 ### *property* NamedSelection.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -212,11 +268,15 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NamedSelection.Images"></a>
+
 ### *property* NamedSelection.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NamedSelection.ReadOnly"></a>
 
 ### *property* NamedSelection.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -224,11 +284,15 @@ Gets or sets the ReadOnly.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id0"></a>
+
 ### *property* NamedSelection.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NamedSelection.Properties"></a>
 
 ### *property* NamedSelection.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -236,13 +300,19 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NamedSelection.VisibleProperties"></a>
+
 ### *property* NamedSelection.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="NamedSelection.ExportToTextFile"></a>
 
 ### NamedSelection.ExportToTextFile(filePath: System.String)
 
@@ -250,11 +320,15 @@ Run the ExportToTextFile action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NamedSelection.ExportNamedSelectionToCDBFile"></a>
+
 ### NamedSelection.ExportNamedSelectionToCDBFile(filepath: System.String)
 
 Export Named Selection to CDB file
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NamedSelection.Generate"></a>
 
 ### NamedSelection.Generate()
 
@@ -262,11 +336,15 @@ Generates the selection based on the generation criteria.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NamedSelection.CreateNodalNamedSelection"></a>
+
 ### NamedSelection.CreateNodalNamedSelection()
 
 Creates a new Named Selection object containing all the nodes from the entities in the current named selection .
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NamedSelection.Delete"></a>
 
 ### NamedSelection.Delete()
 
@@ -274,11 +352,15 @@ Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NamedSelection.GetChildren"></a>
+
 ### NamedSelection.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id1"></a>
 
 ### NamedSelection.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
@@ -286,17 +368,23 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NamedSelection.AddComment"></a>
+
 ### NamedSelection.AddComment()
 
 Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NamedSelection.AddFigure"></a>
+
 ### NamedSelection.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NamedSelection.AddImage"></a>
 
 ### NamedSelection.AddImage(filePath: System.String)
 
@@ -306,11 +394,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NamedSelection.Activate"></a>
+
 ### NamedSelection.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NamedSelection.CopyTo"></a>
 
 ### NamedSelection.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -318,11 +410,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NamedSelection.Duplicate"></a>
+
 ### NamedSelection.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NamedSelection.GroupAllSimilarChildren"></a>
 
 ### NamedSelection.GroupAllSimilarChildren()
 
@@ -330,17 +426,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NamedSelection.GroupSimilarObjects"></a>
+
 ### NamedSelection.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NamedSelection.PropertyByName"></a>
+
 ### NamedSelection.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NamedSelection.PropertyByAPIName"></a>
 
 ### NamedSelection.PropertyByAPIName(name: System.String)
 
@@ -349,17 +451,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NamedSelection.CreateParameter"></a>
+
 ### NamedSelection.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NamedSelection.GetParameter"></a>
+
 ### NamedSelection.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NamedSelection.RemoveParameter"></a>
 
 ### NamedSelection.RemoveParameter(propName: System.String)
 

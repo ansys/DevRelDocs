@@ -1,4 +1,8 @@
+<a id="coordinatesystem"></a>
+
 # CoordinateSystem
+
+<a id="CoordinateSystem"></a>
 
 ### *class* CoordinateSystem
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > CoordinateSystem class
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -22,13 +28,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`YAxis`](#CoordinateSystem.YAxis)                                                                        | Gets or sets the Y axis of the coordinate system.            |
 | [`ZAxis`](#CoordinateSystem.ZAxis)                                                                        | Gets or sets the Z axis of the coordinate system.            |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Common import CoordinateSystem
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="CoordinateSystem.CoordinateSystemType"></a>
 
 ### *property* CoordinateSystem.CoordinateSystemType *: Ansys.ACT.Interfaces.Analysis.CoordinateSystemTypeEnum | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -36,11 +48,15 @@ Gets or sets the coordinate system type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CoordinateSystem.Name"></a>
+
 ### *property* CoordinateSystem.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the name of the coordinate system.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystem.Id"></a>
 
 ### *property* CoordinateSystem.Id *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -48,11 +64,15 @@ Gets or sets the ID of the coordinate system.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CoordinateSystem.Origin"></a>
+
 ### *property* CoordinateSystem.Origin *: System.Collections.Generic.IEnumerable[System.Double] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the origin of the coordinate system.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystem.Matrix"></a>
 
 ### *property* CoordinateSystem.Matrix *: System.Collections.Generic.IEnumerable[System.Double] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -60,17 +80,23 @@ Gets or sets the matrix definition of the coordinate system.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CoordinateSystem.XAxis"></a>
+
 ### *property* CoordinateSystem.XAxis *: System.Collections.Generic.IEnumerable[System.Double] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the X axis of the coordinate system.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CoordinateSystem.YAxis"></a>
+
 ### *property* CoordinateSystem.YAxis *: System.Collections.Generic.IEnumerable[System.Double] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Y axis of the coordinate system.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystem.ZAxis"></a>
 
 ### *property* CoordinateSystem.ZAxis *: System.Collections.Generic.IEnumerable[System.Double] | [None](https://docs.python.org/3/library/constants.html#None)*
 

@@ -1,4 +1,8 @@
+<a id="plasticheating"></a>
+
 # PlasticHeating
+
+<a id="PlasticHeating"></a>
 
 ### *class* PlasticHeating
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a PlasticHeating.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -44,13 +50,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#PlasticHeating.Properties)                                                                             | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#PlasticHeating.VisibleProperties)                                                               | Gets the list of properties that are visible for this object. |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.BoundaryConditions import PlasticHeating
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="PlasticHeating.InternalObject"></a>
 
 ### *property* PlasticHeating.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSPlasticHeatingAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -58,11 +70,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PlasticHeating.PlasticWorkFraction"></a>
+
 ### *property* PlasticHeating.PlasticWorkFraction *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PlasticWorkFraction.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PlasticHeating.DataModelObjectCategory"></a>
 
 ### *property* PlasticHeating.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -70,11 +86,15 @@ Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PlasticHeating.Suppressed"></a>
+
 ### *property* PlasticHeating.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PlasticHeating.Location"></a>
 
 ### *property* PlasticHeating.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -82,11 +102,15 @@ Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PlasticHeating.Children"></a>
+
 ### *property* PlasticHeating.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PlasticHeating.Comments"></a>
 
 ### *property* PlasticHeating.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -94,11 +118,15 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PlasticHeating.Images"></a>
+
 ### *property* PlasticHeating.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id0"></a>
 
 ### *property* PlasticHeating.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -106,11 +134,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PlasticHeating.Properties"></a>
+
 ### *property* PlasticHeating.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PlasticHeating.VisibleProperties"></a>
 
 ### *property* PlasticHeating.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -118,7 +150,11 @@ Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="PlasticHeating.Delete"></a>
 
 ### PlasticHeating.Delete()
 
@@ -126,11 +162,15 @@ Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PlasticHeating.GetChildren"></a>
+
 ### PlasticHeating.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id1"></a>
 
 ### PlasticHeating.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
@@ -138,11 +178,15 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PlasticHeating.AddComment"></a>
+
 ### PlasticHeating.AddComment()
 
 Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PlasticHeating.AddImage"></a>
 
 ### PlasticHeating.AddImage(filePath: System.String)
 
@@ -152,11 +196,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PlasticHeating.Activate"></a>
+
 ### PlasticHeating.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PlasticHeating.CopyTo"></a>
 
 ### PlasticHeating.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -164,11 +212,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PlasticHeating.Duplicate"></a>
+
 ### PlasticHeating.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PlasticHeating.GroupAllSimilarChildren"></a>
 
 ### PlasticHeating.GroupAllSimilarChildren()
 
@@ -176,17 +228,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PlasticHeating.GroupSimilarObjects"></a>
+
 ### PlasticHeating.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PlasticHeating.PropertyByName"></a>
+
 ### PlasticHeating.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PlasticHeating.PropertyByAPIName"></a>
 
 ### PlasticHeating.PropertyByAPIName(name: System.String)
 
@@ -195,17 +253,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PlasticHeating.CreateParameter"></a>
+
 ### PlasticHeating.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PlasticHeating.GetParameter"></a>
+
 ### PlasticHeating.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PlasticHeating.RemoveParameter"></a>
 
 ### PlasticHeating.RemoveParameter(propName: System.String)
 

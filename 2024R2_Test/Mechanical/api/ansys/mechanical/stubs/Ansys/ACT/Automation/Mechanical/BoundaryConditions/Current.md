@@ -1,4 +1,8 @@
+<a id="current"></a>
+
 # Current
+
+<a id="Current"></a>
 
 ### *class* Current
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a Current.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -53,13 +59,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#Current.Properties)                                                                                    | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#Current.VisibleProperties)                                                                      | Gets the list of properties that are visible for this object. |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.BoundaryConditions import Current
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="Current.InternalObject"></a>
 
 ### *property* Current.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -67,11 +79,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Current.NumberOfSegments"></a>
+
 ### *property* Current.NumberOfSegments *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfSegments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Current.Magnitude"></a>
 
 ### *property* Current.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -79,11 +95,15 @@ Gets the Magnitude.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Current.PhaseAngle"></a>
+
 ### *property* Current.PhaseAngle *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PhaseAngle.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Current.Location"></a>
 
 ### *property* Current.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -91,11 +111,15 @@ Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Current.DataModelObjectCategory"></a>
+
 ### *property* Current.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Current.Suppressed"></a>
 
 ### *property* Current.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -103,11 +127,15 @@ Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Current.SharedRefBody"></a>
+
 ### *property* Current.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Current.Children"></a>
 
 ### *property* Current.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -115,11 +143,15 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Current.Comments"></a>
+
 ### *property* Current.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Current.Figures"></a>
 
 ### *property* Current.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -127,11 +159,15 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Current.Images"></a>
+
 ### *property* Current.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Current.ReadOnly"></a>
 
 ### *property* Current.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -139,11 +175,15 @@ Gets or sets the ReadOnly.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id0"></a>
+
 ### *property* Current.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Current.Properties"></a>
 
 ### *property* Current.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -151,13 +191,19 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Current.VisibleProperties"></a>
+
 ### *property* Current.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="Current.GetActivateAtLoadStep"></a>
 
 ### Current.GetActivateAtLoadStep(stepNumber: System.UInt32)
 
@@ -165,11 +211,15 @@ GetActivateAtLoadStep method.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Current.SetActivateAtLoadStep"></a>
+
 ### Current.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
 
 SetActivateAtLoadStep method.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Current.PromoteToNamedSelection"></a>
 
 ### Current.PromoteToNamedSelection()
 
@@ -177,11 +227,15 @@ Run the PromoteToNamedSelection action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Current.Delete"></a>
+
 ### Current.Delete()
 
 Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Current.GetChildren"></a>
 
 ### Current.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
@@ -189,11 +243,15 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id1"></a>
+
 ### Current.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Current.AddComment"></a>
 
 ### Current.AddComment()
 
@@ -201,11 +259,15 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Current.AddFigure"></a>
+
 ### Current.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Current.AddImage"></a>
 
 ### Current.AddImage(filePath: System.String)
 
@@ -215,11 +277,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Current.Activate"></a>
+
 ### Current.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Current.CopyTo"></a>
 
 ### Current.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -227,11 +293,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Current.Duplicate"></a>
+
 ### Current.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Current.GroupAllSimilarChildren"></a>
 
 ### Current.GroupAllSimilarChildren()
 
@@ -239,17 +309,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Current.GroupSimilarObjects"></a>
+
 ### Current.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Current.PropertyByName"></a>
+
 ### Current.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Current.PropertyByAPIName"></a>
 
 ### Current.PropertyByAPIName(name: System.String)
 
@@ -258,17 +334,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Current.CreateParameter"></a>
+
 ### Current.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Current.GetParameter"></a>
+
 ### Current.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Current.RemoveParameter"></a>
 
 ### Current.RemoveParameter(propName: System.String)
 

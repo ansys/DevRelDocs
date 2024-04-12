@@ -1,4 +1,8 @@
+<a id="meshworkflowgroup"></a>
+
 # MeshWorkflowGroup
+
+<a id="MeshWorkflowGroup"></a>
 
 ### *class* MeshWorkflowGroup
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a MeshWorkflowGroup.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -47,13 +53,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#MeshWorkflowGroup.Properties)                                                                       | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#MeshWorkflowGroup.VisibleProperties)                                                         | Gets the list of properties that are visible for this object. |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical import MeshWorkflowGroup
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="MeshWorkflowGroup.InternalObject"></a>
 
 ### *property* MeshWorkflowGroup.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSEngineeringModelAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -61,11 +73,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshWorkflowGroup.ActiveWorkflow"></a>
+
 ### *property* MeshWorkflowGroup.ActiveWorkflow *: [Ansys.ACT.Automation.Mechanical.MeshWorkflow](MeshWorkflow.md#MeshWorkflow) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ActiveWorkflow.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowGroup.DataModelObjectCategory"></a>
 
 ### *property* MeshWorkflowGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -73,11 +89,15 @@ Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshWorkflowGroup.Children"></a>
+
 ### *property* MeshWorkflowGroup.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowGroup.Comments"></a>
 
 ### *property* MeshWorkflowGroup.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -85,11 +105,15 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshWorkflowGroup.Figures"></a>
+
 ### *property* MeshWorkflowGroup.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowGroup.Images"></a>
 
 ### *property* MeshWorkflowGroup.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -97,11 +121,15 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id0"></a>
+
 ### *property* MeshWorkflowGroup.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowGroup.Properties"></a>
 
 ### *property* MeshWorkflowGroup.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -109,13 +137,19 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshWorkflowGroup.VisibleProperties"></a>
+
 ### *property* MeshWorkflowGroup.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="MeshWorkflowGroup.GenerateWorkflows"></a>
 
 ### MeshWorkflowGroup.GenerateWorkflows()
 
@@ -123,11 +157,15 @@ Generates all mesh workflows, i.e. executes the “Input”, the “Steps”, an
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshWorkflowGroup.ClearGeneratedData"></a>
+
 ### MeshWorkflowGroup.ClearGeneratedData()
 
 Resets all mesh workflows completely, i.e. also the geometry scoping transferred into each mesh workflow will be reset and all inactive geometry parts/bodies will become active again. Steps, controls, and outcomes will be reset to their initial state while any user-defined property settings will remain as-is.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowGroup.AddMeshWorkflow"></a>
 
 ### MeshWorkflowGroup.AddMeshWorkflow(type: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.WorkflowType](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/WorkflowType.md#WorkflowType))
 
@@ -135,11 +173,15 @@ Adds a new workflow to the “MeshWorkflowGroup” object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshWorkflowGroup.Delete"></a>
+
 ### MeshWorkflowGroup.Delete()
 
 Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowGroup.GetChildren"></a>
 
 ### MeshWorkflowGroup.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
@@ -147,11 +189,15 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id1"></a>
+
 ### MeshWorkflowGroup.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowGroup.AddComment"></a>
 
 ### MeshWorkflowGroup.AddComment()
 
@@ -159,11 +205,15 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshWorkflowGroup.AddFigure"></a>
+
 ### MeshWorkflowGroup.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowGroup.AddImage"></a>
 
 ### MeshWorkflowGroup.AddImage(filePath: System.String)
 
@@ -173,11 +223,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshWorkflowGroup.Activate"></a>
+
 ### MeshWorkflowGroup.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowGroup.CopyTo"></a>
 
 ### MeshWorkflowGroup.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -185,11 +239,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshWorkflowGroup.Duplicate"></a>
+
 ### MeshWorkflowGroup.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowGroup.GroupAllSimilarChildren"></a>
 
 ### MeshWorkflowGroup.GroupAllSimilarChildren()
 
@@ -197,17 +255,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshWorkflowGroup.GroupSimilarObjects"></a>
+
 ### MeshWorkflowGroup.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshWorkflowGroup.PropertyByName"></a>
+
 ### MeshWorkflowGroup.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowGroup.PropertyByAPIName"></a>
 
 ### MeshWorkflowGroup.PropertyByAPIName(name: System.String)
 
@@ -216,17 +280,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshWorkflowGroup.CreateParameter"></a>
+
 ### MeshWorkflowGroup.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshWorkflowGroup.GetParameter"></a>
+
 ### MeshWorkflowGroup.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowGroup.RemoveParameter"></a>
 
 ### MeshWorkflowGroup.RemoveParameter(propName: System.String)
 
