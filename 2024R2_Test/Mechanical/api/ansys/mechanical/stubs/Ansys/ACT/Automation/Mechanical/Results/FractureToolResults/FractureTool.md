@@ -1,4 +1,8 @@
+<a id="fracturetool"></a>
+
 # FractureTool
+
+<a id="FractureTool"></a>
 
 ### *class* FractureTool
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a FractureTool.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -71,13 +77,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#FractureTool.Properties)                                                                                  | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#FractureTool.VisibleProperties)                                                                    | Gets the list of properties that are visible for this object. |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.Results.FractureToolResults import FractureTool
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="FractureTool.MultipleCracksSelection"></a>
 
 ### *property* FractureTool.MultipleCracksSelection *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.GenericCrack](../../GenericCrack.md#GenericCrack)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -85,11 +97,15 @@ Get/Set multiple cracks to Fracture tool
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FractureTool.InternalObject"></a>
+
 ### *property* FractureTool.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSFractureToolAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="FractureTool.CrackFrontNumber"></a>
 
 ### *property* FractureTool.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -97,11 +113,15 @@ Gets or sets the CrackFrontNumber.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FractureTool.CrackSelectionMode"></a>
+
 ### *property* FractureTool.CrackSelectionMode *: [Ansys.Mechanical.DataModel.Enums.CrackSelectionModeType](../../../../../Mechanical/DataModel/Enums/CrackSelectionModeType.md#CrackSelectionModeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackSelectionMode.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="FractureTool.ScopingMethod"></a>
 
 ### *property* FractureTool.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.FractureToolScopeType](../../../../../Mechanical/DataModel/Enums/FractureToolScopeType.md#FractureToolScopeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -109,11 +129,15 @@ Gets or sets the ScopingMethod.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FractureTool.Suppressed"></a>
+
 ### *property* FractureTool.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="FractureTool.CrackSelection"></a>
 
 ### *property* FractureTool.CrackSelection *: [Ansys.ACT.Automation.Mechanical.GenericCrack](../../GenericCrack.md#GenericCrack) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -121,11 +145,15 @@ Gets or sets the CrackSelection.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FractureTool.DataModelObjectCategory"></a>
+
 ### *property* FractureTool.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="FractureTool.Children"></a>
 
 ### *property* FractureTool.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -133,11 +161,15 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FractureTool.Comments"></a>
+
 ### *property* FractureTool.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="FractureTool.Figures"></a>
 
 ### *property* FractureTool.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -145,11 +177,15 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FractureTool.Images"></a>
+
 ### *property* FractureTool.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id0"></a>
 
 ### *property* FractureTool.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -157,11 +193,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FractureTool.Properties"></a>
+
 ### *property* FractureTool.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="FractureTool.VisibleProperties"></a>
 
 ### *property* FractureTool.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -169,7 +209,11 @@ Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="FractureTool.AddSIFSK1"></a>
 
 ### FractureTool.AddSIFSK1()
 
@@ -177,11 +221,15 @@ Creates a new FractureSIFSK1
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FractureTool.AddSIFSK2"></a>
+
 ### FractureTool.AddSIFSK2()
 
 Creates a new FractureSIFSK2
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="FractureTool.AddSIFSK3"></a>
 
 ### FractureTool.AddSIFSK3()
 
@@ -189,11 +237,15 @@ Creates a new FractureSIFSK3
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FractureTool.AddJINT"></a>
+
 ### FractureTool.AddJINT()
 
 Creates a new FractureJINT
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="FractureTool.AddMaterialForceX"></a>
 
 ### FractureTool.AddMaterialForceX()
 
@@ -201,11 +253,15 @@ Creates a new FractureMaterialForceX
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FractureTool.AddMaterialForceY"></a>
+
 ### FractureTool.AddMaterialForceY()
 
 Creates a new FractureMaterialForceY
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="FractureTool.AddMaterialForceZ"></a>
 
 ### FractureTool.AddMaterialForceZ()
 
@@ -213,11 +269,15 @@ Creates a new FractureMaterialForceZ
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FractureTool.AddTSTRESS"></a>
+
 ### FractureTool.AddTSTRESS()
 
 Creates a new FractureTSTRESS
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="FractureTool.AddVCCTG1"></a>
 
 ### FractureTool.AddVCCTG1()
 
@@ -225,11 +285,15 @@ Creates a new FractureVCCTG1
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FractureTool.AddVCCTG2"></a>
+
 ### FractureTool.AddVCCTG2()
 
 Creates a new FractureVCCTG2
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="FractureTool.AddVCCTG3"></a>
 
 ### FractureTool.AddVCCTG3()
 
@@ -237,11 +301,15 @@ Creates a new FractureVCCTG3
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FractureTool.AddVCCTGT"></a>
+
 ### FractureTool.AddVCCTGT()
 
 Creates a new FractureVCCTGT
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="FractureTool.AddCStarIntegral"></a>
 
 ### FractureTool.AddCStarIntegral()
 
@@ -249,11 +317,15 @@ Creates a new FractureCSTAR
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FractureTool.AddEquivalentSIFSRange"></a>
+
 ### FractureTool.AddEquivalentSIFSRange()
 
 Creates a new FractureEquivalentSIFSRange
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="FractureTool.EvaluateAllResults"></a>
 
 ### FractureTool.EvaluateAllResults()
 
@@ -261,11 +333,15 @@ Run the EvaluateAllResults action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FractureTool.AddCrackExtensionProbe"></a>
+
 ### FractureTool.AddCrackExtensionProbe()
 
 Creates a new FractureCrackExtensionProbe
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="FractureTool.AddEquivalentSIFSRangeProbe"></a>
 
 ### FractureTool.AddEquivalentSIFSRangeProbe()
 
@@ -273,11 +349,15 @@ Creates a new FractureEquivalentSIFSRangeProbe
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FractureTool.AddJINTProbe"></a>
+
 ### FractureTool.AddJINTProbe()
 
 Creates a new FractureJINTProbe
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="FractureTool.AddSIFSK1Probe"></a>
 
 ### FractureTool.AddSIFSK1Probe()
 
@@ -285,11 +365,15 @@ Creates a new FractureSIFSProbe
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FractureTool.AddSIFSK2Probe"></a>
+
 ### FractureTool.AddSIFSK2Probe()
 
 Creates a new FractureSIFSProbe
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="FractureTool.AddSIFSK3Probe"></a>
 
 ### FractureTool.AddSIFSK3Probe()
 
@@ -297,11 +381,15 @@ Creates a new FractureSIFSProbe
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FractureTool.AddNumberOfCyclesProbe"></a>
+
 ### FractureTool.AddNumberOfCyclesProbe()
 
 Creates a new FractureTotalNumberOfCyclesProbe
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="FractureTool.Delete"></a>
 
 ### FractureTool.Delete()
 
@@ -309,11 +397,15 @@ Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FractureTool.GetChildren"></a>
+
 ### FractureTool.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id1"></a>
 
 ### FractureTool.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
@@ -321,17 +413,23 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FractureTool.AddComment"></a>
+
 ### FractureTool.AddComment()
 
 Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FractureTool.AddFigure"></a>
+
 ### FractureTool.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="FractureTool.AddImage"></a>
 
 ### FractureTool.AddImage(filePath: System.String)
 
@@ -341,11 +439,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FractureTool.Activate"></a>
+
 ### FractureTool.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="FractureTool.CopyTo"></a>
 
 ### FractureTool.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -353,11 +455,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FractureTool.Duplicate"></a>
+
 ### FractureTool.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="FractureTool.GroupAllSimilarChildren"></a>
 
 ### FractureTool.GroupAllSimilarChildren()
 
@@ -365,17 +471,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FractureTool.GroupSimilarObjects"></a>
+
 ### FractureTool.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FractureTool.PropertyByName"></a>
+
 ### FractureTool.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="FractureTool.PropertyByAPIName"></a>
 
 ### FractureTool.PropertyByAPIName(name: System.String)
 
@@ -384,17 +496,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FractureTool.CreateParameter"></a>
+
 ### FractureTool.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FractureTool.GetParameter"></a>
+
 ### FractureTool.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="FractureTool.RemoveParameter"></a>
 
 ### FractureTool.RemoveParameter(propName: System.String)
 

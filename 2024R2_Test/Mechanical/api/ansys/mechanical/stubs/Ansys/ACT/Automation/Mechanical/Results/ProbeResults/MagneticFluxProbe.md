@@ -1,4 +1,8 @@
+<a id="magneticfluxprobe"></a>
+
 # MagneticFluxProbe
+
+<a id="MagneticFluxProbe"></a>
 
 ### *class* MagneticFluxProbe
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a MagneticFluxProbe.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -89,13 +95,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#MagneticFluxProbe.Properties)                                                                             | Gets the list of properties for this object.                                                                                                                               |
 | [`VisibleProperties`](#MagneticFluxProbe.VisibleProperties)                                                               | Gets the list of properties that are visible for this object.                                                                                                              |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.Results.ProbeResults import MagneticFluxProbe
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="MagneticFluxProbe.InternalObject"></a>
 
 ### *property* MagneticFluxProbe.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSProbeResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -103,11 +115,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MagneticFluxProbe.SymmetryMultiplier"></a>
+
 ### *property* MagneticFluxProbe.SymmetryMultiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SymmetryMultiplier.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MagneticFluxProbe.MagneticFlux"></a>
 
 ### *property* MagneticFluxProbe.MagneticFlux *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -115,11 +131,15 @@ Gets the MagneticFlux.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MagneticFluxProbe.MaximumMagneticFlux"></a>
+
 ### *property* MagneticFluxProbe.MaximumMagneticFlux *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumMagneticFlux.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MagneticFluxProbe.MinimumMagneticFlux"></a>
 
 ### *property* MagneticFluxProbe.MinimumMagneticFlux *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -127,11 +147,15 @@ Gets the MinimumMagneticFlux.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MagneticFluxProbe.DataModelObjectCategory"></a>
+
 ### *property* MagneticFluxProbe.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MagneticFluxProbe.Summation"></a>
 
 ### *property* MagneticFluxProbe.Summation *: [Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType](../../../../../Mechanical/DataModel/Enums/MomentsAtSummationPointType.md#MomentsAtSummationPointType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -139,11 +163,15 @@ Gets or sets the Summation.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MagneticFluxProbe.LocationMethod"></a>
+
 ### *property* MagneticFluxProbe.LocationMethod *: [Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod](../../../../../Mechanical/DataModel/Enums/LocationDefinitionMethod.md#LocationDefinitionMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LocationMethod.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MagneticFluxProbe.GeometryLocation"></a>
 
 ### *property* MagneticFluxProbe.GeometryLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -151,11 +179,15 @@ Gets or sets the GeometryLocation.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MagneticFluxProbe.CoordinateSystemSelection"></a>
+
 ### *property* MagneticFluxProbe.CoordinateSystemSelection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystemSelection.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MagneticFluxProbe.BoundaryConditionSelection"></a>
 
 ### *property* MagneticFluxProbe.BoundaryConditionSelection *: Ansys.ACT.Automation.Mechanical.DataModelObject | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -163,11 +195,15 @@ Gets or sets the BoundaryConditionSelection. In order to select the option ‘We
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MagneticFluxProbe.ContactRegionSelection"></a>
+
 ### *property* MagneticFluxProbe.ContactRegionSelection *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../Connections/ContactRegion.md#ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactRegionSelection.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MagneticFluxProbe.RemotePointSelection"></a>
 
 ### *property* MagneticFluxProbe.RemotePointSelection *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../../RemotePoint.md#RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -175,11 +211,15 @@ Gets or sets the RemotePointSelection.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MagneticFluxProbe.BeamSelection"></a>
+
 ### *property* MagneticFluxProbe.BeamSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Beam](../../Connections/Beam.md#Beam) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BeamSelection.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MagneticFluxProbe.MeshConnectionSelection"></a>
 
 ### *property* MagneticFluxProbe.MeshConnectionSelection *: [Ansys.ACT.Automation.Mechanical.MeshConnection](../../MeshConnection.md#MeshConnection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -187,11 +227,15 @@ Gets or sets the MeshConnectionSelection.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MagneticFluxProbe.SurfaceSelection"></a>
+
 ### *property* MagneticFluxProbe.SurfaceSelection *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MeshConnectionSelection.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MagneticFluxProbe.SpringSelection"></a>
 
 ### *property* MagneticFluxProbe.SpringSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../Connections/Spring.md#Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -199,11 +243,15 @@ Gets or sets the SpringSelection.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MagneticFluxProbe.IsSolved"></a>
+
 ### *property* MagneticFluxProbe.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MagneticFluxProbe.Orientation"></a>
 
 ### *property* MagneticFluxProbe.Orientation *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -211,11 +259,15 @@ Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordin
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MagneticFluxProbe.IterationNumber"></a>
+
 ### *property* MagneticFluxProbe.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MagneticFluxProbe.LoadStep"></a>
 
 ### *property* MagneticFluxProbe.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -223,11 +275,15 @@ Gets the LoadStep.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MagneticFluxProbe.LoadStepNumber"></a>
+
 ### *property* MagneticFluxProbe.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MagneticFluxProbe.Substep"></a>
 
 ### *property* MagneticFluxProbe.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -235,11 +291,15 @@ Gets the Substep.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MagneticFluxProbe.DisplayTime"></a>
+
 ### *property* MagneticFluxProbe.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DisplayTime.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MagneticFluxProbe.MaximumTotal"></a>
 
 ### *property* MagneticFluxProbe.MaximumTotal *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -247,11 +307,15 @@ Gets the MaximumTotal.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MagneticFluxProbe.MaximumXAxis"></a>
+
 ### *property* MagneticFluxProbe.MaximumXAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumXAxis.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MagneticFluxProbe.MaximumYAxis"></a>
 
 ### *property* MagneticFluxProbe.MaximumYAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -259,11 +323,15 @@ Gets the MaximumYAxis.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MagneticFluxProbe.MaximumZAxis"></a>
+
 ### *property* MagneticFluxProbe.MaximumZAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumZAxis.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MagneticFluxProbe.MinimumTotal"></a>
 
 ### *property* MagneticFluxProbe.MinimumTotal *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -271,11 +339,15 @@ Gets the MinimumTotal.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MagneticFluxProbe.MinimumXAxis"></a>
+
 ### *property* MagneticFluxProbe.MinimumXAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumXAxis.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MagneticFluxProbe.MinimumYAxis"></a>
 
 ### *property* MagneticFluxProbe.MinimumYAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -283,11 +355,15 @@ Gets the MinimumYAxis.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MagneticFluxProbe.MinimumZAxis"></a>
+
 ### *property* MagneticFluxProbe.MinimumZAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumZAxis.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MagneticFluxProbe.Time"></a>
 
 ### *property* MagneticFluxProbe.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -295,11 +371,15 @@ Gets the Time.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MagneticFluxProbe.Total"></a>
+
 ### *property* MagneticFluxProbe.Total *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Total.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MagneticFluxProbe.XAxis"></a>
 
 ### *property* MagneticFluxProbe.XAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -307,11 +387,15 @@ Gets the XAxis.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MagneticFluxProbe.YAxis"></a>
+
 ### *property* MagneticFluxProbe.YAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the YAxis.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MagneticFluxProbe.ZAxis"></a>
 
 ### *property* MagneticFluxProbe.ZAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -319,11 +403,15 @@ Gets the ZAxis.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MagneticFluxProbe.ResultSelection"></a>
+
 ### *property* MagneticFluxProbe.ResultSelection *: [Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter](../../../../../Mechanical/DataModel/Enums/ProbeDisplayFilter.md#ProbeDisplayFilter) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ResultSelection.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MagneticFluxProbe.SpatialResolution"></a>
 
 ### *property* MagneticFluxProbe.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum](../../../../../Mechanical/DataModel/Enums/MinimumOrMaximum.md#MinimumOrMaximum) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -331,11 +419,15 @@ Gets or sets the SpatialResolution.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MagneticFluxProbe.Type"></a>
+
 ### *property* MagneticFluxProbe.Type *: [Ansys.Mechanical.DataModel.Enums.ProbeResultType](../../../../../Mechanical/DataModel/Enums/ProbeResultType.md#ProbeResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MagneticFluxProbe.DpfEvaluation"></a>
 
 ### *property* MagneticFluxProbe.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -343,11 +435,15 @@ Gets or sets the DpfEvaluation.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MagneticFluxProbe.Suppressed"></a>
+
 ### *property* MagneticFluxProbe.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MagneticFluxProbe.Children"></a>
 
 ### *property* MagneticFluxProbe.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -355,11 +451,15 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MagneticFluxProbe.Comments"></a>
+
 ### *property* MagneticFluxProbe.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MagneticFluxProbe.Figures"></a>
 
 ### *property* MagneticFluxProbe.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -367,11 +467,15 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MagneticFluxProbe.Images"></a>
+
 ### *property* MagneticFluxProbe.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id0"></a>
 
 ### *property* MagneticFluxProbe.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -379,11 +483,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MagneticFluxProbe.Properties"></a>
+
 ### *property* MagneticFluxProbe.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MagneticFluxProbe.VisibleProperties"></a>
 
 ### *property* MagneticFluxProbe.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -391,7 +499,11 @@ Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="MagneticFluxProbe.ExportAnimation"></a>
 
 ### MagneticFluxProbe.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#AnimationExportSettings))
 
@@ -399,11 +511,15 @@ Run the ExportAnimation action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MagneticFluxProbe.ClearGeneratedData"></a>
+
 ### MagneticFluxProbe.ClearGeneratedData()
 
 Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MagneticFluxProbe.DuplicateWithoutResults"></a>
 
 ### MagneticFluxProbe.DuplicateWithoutResults()
 
@@ -411,11 +527,15 @@ Run the DuplicateWithoutResults action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MagneticFluxProbe.EvaluateAllResults"></a>
+
 ### MagneticFluxProbe.EvaluateAllResults()
 
 Run the EvaluateAllResults action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MagneticFluxProbe.SnapToMeshNodes"></a>
 
 ### MagneticFluxProbe.SnapToMeshNodes()
 
@@ -423,11 +543,15 @@ Snap the coordinates of probe result to the mesh nodes.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MagneticFluxProbe.RenameBasedOnDefinition"></a>
+
 ### MagneticFluxProbe.RenameBasedOnDefinition()
 
 Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MagneticFluxProbe.Delete"></a>
 
 ### MagneticFluxProbe.Delete()
 
@@ -435,11 +559,15 @@ Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MagneticFluxProbe.GetChildren"></a>
+
 ### MagneticFluxProbe.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id1"></a>
 
 ### MagneticFluxProbe.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
@@ -447,17 +575,23 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MagneticFluxProbe.AddComment"></a>
+
 ### MagneticFluxProbe.AddComment()
 
 Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MagneticFluxProbe.AddFigure"></a>
+
 ### MagneticFluxProbe.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MagneticFluxProbe.AddImage"></a>
 
 ### MagneticFluxProbe.AddImage(filePath: System.String)
 
@@ -467,11 +601,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MagneticFluxProbe.Activate"></a>
+
 ### MagneticFluxProbe.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MagneticFluxProbe.CopyTo"></a>
 
 ### MagneticFluxProbe.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -479,11 +617,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MagneticFluxProbe.Duplicate"></a>
+
 ### MagneticFluxProbe.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MagneticFluxProbe.GroupAllSimilarChildren"></a>
 
 ### MagneticFluxProbe.GroupAllSimilarChildren()
 
@@ -491,17 +633,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MagneticFluxProbe.GroupSimilarObjects"></a>
+
 ### MagneticFluxProbe.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MagneticFluxProbe.PropertyByName"></a>
+
 ### MagneticFluxProbe.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MagneticFluxProbe.PropertyByAPIName"></a>
 
 ### MagneticFluxProbe.PropertyByAPIName(name: System.String)
 
@@ -510,17 +658,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MagneticFluxProbe.CreateParameter"></a>
+
 ### MagneticFluxProbe.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MagneticFluxProbe.GetParameter"></a>
+
 ### MagneticFluxProbe.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MagneticFluxProbe.RemoveParameter"></a>
 
 ### MagneticFluxProbe.RemoveParameter(propName: System.String)
 

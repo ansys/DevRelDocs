@@ -1,4 +1,8 @@
+<a id="contactresultingpinballtracker"></a>
+
 # ContactResultingPinballTracker
+
+<a id="ContactResultingPinballTracker"></a>
 
 ### *class* ContactResultingPinballTracker
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a ContactResultingPinballTracker.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -88,13 +94,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#ContactResultingPinballTracker.Properties)                                                                | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#ContactResultingPinballTracker.VisibleProperties)                                                  | Gets the list of properties that are visible for this object. |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.Results.ResultTrackers import ContactResultingPinballTracker
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="ContactResultingPinballTracker.InternalObject"></a>
 
 ### *property* ContactResultingPinballTracker.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultChartAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -102,11 +114,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactResultingPinballTracker.ContactSide"></a>
+
 ### *property* ContactResultingPinballTracker.ContactSide *: [Ansys.Mechanical.DataModel.Enums.ContactScopingType](../../../../../Mechanical/DataModel/Enums/ContactScopingType.md#ContactScopingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactSide.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactResultingPinballTracker.ContactRegion"></a>
 
 ### *property* ContactResultingPinballTracker.ContactRegion *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../Connections/ContactRegion.md#ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -114,11 +130,15 @@ Gets or sets the ContactRegion.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactResultingPinballTracker.DataModelObjectCategory"></a>
+
 ### *property* ContactResultingPinballTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactResultingPinballTracker.IsSolved"></a>
 
 ### *property* ContactResultingPinballTracker.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -126,11 +146,15 @@ Gets the IsSolved.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactResultingPinballTracker.ChartDimensions"></a>
+
 ### *property* ContactResultingPinballTracker.ChartDimensions *: [Ansys.Mechanical.DataModel.Enums.ChartDimensions](../../../../../Mechanical/DataModel/Enums/ChartDimensions.md#ChartDimensions) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Chart Dimensions
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactResultingPinballTracker.BoundaryCondition"></a>
 
 ### *property* ContactResultingPinballTracker.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](../../BoundaryConditions/GenericBoundaryCondition.md#GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -138,11 +162,15 @@ Gets or sets the BoundaryCondition.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactResultingPinballTracker.CutFrequency"></a>
+
 ### *property* ContactResultingPinballTracker.CutFrequency *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CutFrequency.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactResultingPinballTracker.SectorNumber"></a>
 
 ### *property* ContactResultingPinballTracker.SectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -150,11 +178,15 @@ Gets or sets the SectorNumber.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactResultingPinballTracker.GeometrySelectionString"></a>
+
 ### *property* ContactResultingPinballTracker.GeometrySelectionString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GeometrySelectionString.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactResultingPinballTracker.LoadStepNumber"></a>
 
 ### *property* ContactResultingPinballTracker.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -162,11 +194,15 @@ Gets or sets the LoadStepNumber.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactResultingPinballTracker.ReportedFrequency"></a>
+
 ### *property* ContactResultingPinballTracker.ReportedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ReportedFrequency.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactResultingPinballTracker.Duration"></a>
 
 ### *property* ContactResultingPinballTracker.Duration *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -174,11 +210,15 @@ Gets or sets the Duration.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactResultingPinballTracker.FilterMaximum"></a>
+
 ### *property* ContactResultingPinballTracker.FilterMaximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the FilterMaximum.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactResultingPinballTracker.FilterMinimum"></a>
 
 ### *property* ContactResultingPinballTracker.FilterMinimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -186,11 +226,15 @@ Gets the FilterMinimum.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactResultingPinballTracker.FrequencyAtMaximumAmplitude"></a>
+
 ### *property* ContactResultingPinballTracker.FrequencyAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the FrequencyAtMaximumAmplitude.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactResultingPinballTracker.ImaginaryAtMaximumAmplitude"></a>
 
 ### *property* ContactResultingPinballTracker.ImaginaryAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -198,11 +242,15 @@ Gets the ImaginaryAtMaximumAmplitude.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactResultingPinballTracker.MaximumAmplitude"></a>
+
 ### *property* ContactResultingPinballTracker.MaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumAmplitude.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactResultingPinballTracker.MaximumFrequency"></a>
 
 ### *property* ContactResultingPinballTracker.MaximumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -210,11 +258,15 @@ Gets or sets the MaximumFrequency.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactResultingPinballTracker.Maximum"></a>
+
 ### *property* ContactResultingPinballTracker.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Maximum.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactResultingPinballTracker.MinimumFrequency"></a>
 
 ### *property* ContactResultingPinballTracker.MinimumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -222,11 +274,15 @@ Gets or sets the MinimumFrequency.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactResultingPinballTracker.Minimum"></a>
+
 ### *property* ContactResultingPinballTracker.Minimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Minimum.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactResultingPinballTracker.PhaseAngle"></a>
 
 ### *property* ContactResultingPinballTracker.PhaseAngle *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -234,11 +290,15 @@ Gets the PhaseAngle.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactResultingPinballTracker.RealAtMaximumAmplitude"></a>
+
 ### *property* ContactResultingPinballTracker.RealAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the RealAtMaximumAmplitude.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactResultingPinballTracker.RequestedFrequency"></a>
 
 ### *property* ContactResultingPinballTracker.RequestedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -246,11 +306,15 @@ Gets or sets the RequestedFrequency.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactResultingPinballTracker.AccelerationType"></a>
+
 ### *property* ContactResultingPinballTracker.AccelerationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AccelerationType.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactResultingPinballTracker.ChartViewingStyle"></a>
 
 ### *property* ContactResultingPinballTracker.ChartViewingStyle *: [Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType](../../../../../Mechanical/DataModel/Enums/ChartAxisScaleType.md#ChartAxisScaleType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -258,11 +322,15 @@ Gets or sets the ChartViewingStyle.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactResultingPinballTracker.DeformationType"></a>
+
 ### *property* ContactResultingPinballTracker.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DeformationType.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactResultingPinballTracker.FilterType"></a>
 
 ### *property* ContactResultingPinballTracker.FilterType *: [Ansys.Mechanical.DataModel.Enums.FilterType](../../../../../Mechanical/DataModel/Enums/FilterType.md#FilterType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -270,11 +338,15 @@ Gets or sets the FilterType.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactResultingPinballTracker.SpatialResolution"></a>
+
 ### *property* ContactResultingPinballTracker.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MultipleNodeType](../../../../../Mechanical/DataModel/Enums/MultipleNodeType.md#MultipleNodeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SpatialResolution.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactResultingPinballTracker.NormalOrientation"></a>
 
 ### *property* ContactResultingPinballTracker.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -282,11 +354,15 @@ Gets or sets the NormalOrientation.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactResultingPinballTracker.CurvesAppearanceDisplay"></a>
+
 ### *property* ContactResultingPinballTracker.CurvesAppearanceDisplay *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](../../../../../Mechanical/DataModel/Enums/ChartPlotStyle.md#ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CurvesAppearanceDisplay.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactResultingPinballTracker.ResultChartType"></a>
 
 ### *property* ContactResultingPinballTracker.ResultChartType *: [Ansys.Mechanical.DataModel.Enums.ChartResultType](../../../../../Mechanical/DataModel/Enums/ChartResultType.md#ChartResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -294,11 +370,15 @@ Gets the ResultChartType.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactResultingPinballTracker.DpfEvaluation"></a>
+
 ### *property* ContactResultingPinballTracker.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DpfEvaluation.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactResultingPinballTracker.XAxisValues"></a>
 
 ### *property* ContactResultingPinballTracker.XAxisValues *: [Ansys.Mechanical.DataModel.Enums.XAxisValues](../../../../../Mechanical/DataModel/Enums/XAxisValues.md#XAxisValues) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -306,11 +386,15 @@ Gets or sets the XAxisValues.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactResultingPinballTracker.ShearOrientation"></a>
+
 ### *property* ContactResultingPinballTracker.ShearOrientation *: [Ansys.Mechanical.DataModel.Enums.ShearOrientationType](../../../../../Mechanical/DataModel/Enums/ShearOrientationType.md#ShearOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShearOrientation.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactResultingPinballTracker.StressStrainType"></a>
 
 ### *property* ContactResultingPinballTracker.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](../../../../../Mechanical/DataModel/Enums/StressStrainType.md#StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -318,11 +402,15 @@ Gets or sets the StressStrainType.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactResultingPinballTracker.TimeHistoryDisplay"></a>
+
 ### *property* ContactResultingPinballTracker.TimeHistoryDisplay *: [Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType](../../../../../Mechanical/DataModel/Enums/TimeHistoryDisplayType.md#TimeHistoryDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TimeHistoryDisplay.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactResultingPinballTracker.VelocityType"></a>
 
 ### *property* ContactResultingPinballTracker.VelocityType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -330,11 +418,15 @@ Gets or sets the VelocityType.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactResultingPinballTracker.Suppressed"></a>
+
 ### *property* ContactResultingPinballTracker.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactResultingPinballTracker.EnhancedTracking"></a>
 
 ### *property* ContactResultingPinballTracker.EnhancedTracking *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -342,11 +434,15 @@ Gets the EnhancedTracking.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactResultingPinballTracker.UseParentFrequencyRange"></a>
+
 ### *property* ContactResultingPinballTracker.UseParentFrequencyRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UseParentFrequencyRange.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactResultingPinballTracker.CoordinateSystem"></a>
 
 ### *property* ContactResultingPinballTracker.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -354,11 +450,15 @@ Gets or sets the CoordinateSystem.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactResultingPinballTracker.Spring"></a>
+
 ### *property* ContactResultingPinballTracker.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../Connections/Spring.md#Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Spring.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactResultingPinballTracker.Location"></a>
 
 ### *property* ContactResultingPinballTracker.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -366,11 +466,15 @@ Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactResultingPinballTracker.Children"></a>
+
 ### *property* ContactResultingPinballTracker.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactResultingPinballTracker.Comments"></a>
 
 ### *property* ContactResultingPinballTracker.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -378,11 +482,15 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactResultingPinballTracker.Images"></a>
+
 ### *property* ContactResultingPinballTracker.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id0"></a>
 
 ### *property* ContactResultingPinballTracker.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -390,11 +498,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactResultingPinballTracker.Properties"></a>
+
 ### *property* ContactResultingPinballTracker.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactResultingPinballTracker.VisibleProperties"></a>
 
 ### *property* ContactResultingPinballTracker.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -402,7 +514,11 @@ Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="ContactResultingPinballTracker.ExportAnimation"></a>
 
 ### ContactResultingPinballTracker.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#AnimationExportSettings))
 
@@ -410,11 +526,15 @@ Run the ExportAnimation action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactResultingPinballTracker.ClearGeneratedData"></a>
+
 ### ContactResultingPinballTracker.ClearGeneratedData()
 
 Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactResultingPinballTracker.EvaluateAllResults"></a>
 
 ### ContactResultingPinballTracker.EvaluateAllResults()
 
@@ -422,11 +542,15 @@ Run the EvaluateAllResults action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactResultingPinballTracker.RenameBasedOnDefinition"></a>
+
 ### ContactResultingPinballTracker.RenameBasedOnDefinition()
 
 Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactResultingPinballTracker.Delete"></a>
 
 ### ContactResultingPinballTracker.Delete()
 
@@ -434,11 +558,15 @@ Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactResultingPinballTracker.GetChildren"></a>
+
 ### ContactResultingPinballTracker.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id1"></a>
 
 ### ContactResultingPinballTracker.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
@@ -446,11 +574,15 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactResultingPinballTracker.AddComment"></a>
+
 ### ContactResultingPinballTracker.AddComment()
 
 Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactResultingPinballTracker.AddImage"></a>
 
 ### ContactResultingPinballTracker.AddImage(filePath: System.String)
 
@@ -460,11 +592,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactResultingPinballTracker.Activate"></a>
+
 ### ContactResultingPinballTracker.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactResultingPinballTracker.CopyTo"></a>
 
 ### ContactResultingPinballTracker.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -472,11 +608,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactResultingPinballTracker.Duplicate"></a>
+
 ### ContactResultingPinballTracker.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactResultingPinballTracker.GroupAllSimilarChildren"></a>
 
 ### ContactResultingPinballTracker.GroupAllSimilarChildren()
 
@@ -484,17 +624,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactResultingPinballTracker.GroupSimilarObjects"></a>
+
 ### ContactResultingPinballTracker.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactResultingPinballTracker.PropertyByName"></a>
+
 ### ContactResultingPinballTracker.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactResultingPinballTracker.PropertyByAPIName"></a>
 
 ### ContactResultingPinballTracker.PropertyByAPIName(name: System.String)
 
@@ -503,17 +649,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactResultingPinballTracker.CreateParameter"></a>
+
 ### ContactResultingPinballTracker.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactResultingPinballTracker.GetParameter"></a>
+
 ### ContactResultingPinballTracker.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactResultingPinballTracker.RemoveParameter"></a>
 
 ### ContactResultingPinballTracker.RemoveParameter(propName: System.String)
 

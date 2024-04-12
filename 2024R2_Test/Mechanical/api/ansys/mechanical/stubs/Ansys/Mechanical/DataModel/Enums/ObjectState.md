@@ -1,4 +1,8 @@
+<a id="objectstate"></a>
+
 # ObjectState
+
+<a id="ObjectState"></a>
 
 ### *class* ObjectState
 
@@ -7,6 +11,8 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 > Specifies the Object State type.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -33,48 +39,90 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 | [`WaitForValidation`](#ObjectState.WaitForValidation)       |    |
 | [`ObsoleteNotLoaded`](#ObjectState.ObsoleteNotLoaded)       |    |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.Mechanical.DataModel.Enums import ObjectState
 ```
 
+<a id="attribute-detail"></a>
+
 ## Attribute detail
+
+<a id="ObjectState.NoState"></a>
 
 ### ObjectState.NoState *= 0*
 
+<a id="ObjectState.FullyDefined"></a>
+
 ### ObjectState.FullyDefined *= 1*
+
+<a id="ObjectState.UnderDefined"></a>
 
 ### ObjectState.UnderDefined *= 2*
 
+<a id="ObjectState.Suppressed"></a>
+
 ### ObjectState.Suppressed *= 3*
+
+<a id="ObjectState.NotSolved"></a>
 
 ### ObjectState.NotSolved *= 4*
 
+<a id="ObjectState.Solved"></a>
+
 ### ObjectState.Solved *= 5*
+
+<a id="ObjectState.Obsolete"></a>
 
 ### ObjectState.Obsolete *= 6*
 
+<a id="ObjectState.Error"></a>
+
 ### ObjectState.Error *= 7*
+
+<a id="ObjectState.LicenseConflict"></a>
 
 ### ObjectState.LicenseConflict *= 8*
 
+<a id="ObjectState.Ignored"></a>
+
 ### ObjectState.Ignored *= 9*
+
+<a id="ObjectState.Hidden"></a>
 
 ### ObjectState.Hidden *= 10*
 
+<a id="ObjectState.Solving"></a>
+
 ### ObjectState.Solving *= 11*
+
+<a id="ObjectState.SolvedNotLoaded"></a>
 
 ### ObjectState.SolvedNotLoaded *= 12*
 
+<a id="ObjectState.SolveFailed"></a>
+
 ### ObjectState.SolveFailed *= 13*
+
+<a id="ObjectState.SolveFailedNotLoaded"></a>
 
 ### ObjectState.SolveFailedNotLoaded *= 14*
 
+<a id="ObjectState.PartialSolved"></a>
+
 ### ObjectState.PartialSolved *= 15*
+
+<a id="ObjectState.Meshed"></a>
 
 ### ObjectState.Meshed *= 16*
 
+<a id="ObjectState.WaitForValidation"></a>
+
 ### ObjectState.WaitForValidation *= 17*
+
+<a id="ObjectState.ObsoleteNotLoaded"></a>
 
 ### ObjectState.ObsoleteNotLoaded *= 19*

@@ -1,4 +1,8 @@
+<a id="idatatable"></a>
+
 # IDataTable
+
+<a id="IDataTable"></a>
 
 ### *class* IDataTable
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > IDataTable interface.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -36,15 +42,23 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Name`](#IDataTable.Name)                             | Get or set the name of the table.                                                        |
 | [`RowCount`](#IDataTable.RowCount)                     |                                                                                          |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.Mechanical.Interfaces import IDataTable
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
 
+<a id="IDataTable.ColumnNames"></a>
+
 ### *property* IDataTable.ColumnNames *: System.Collections.Generic.IReadOnlyList[System.String] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+<a id="IDataTable.Columns"></a>
 
 ### *property* IDataTable.Columns *: System.Collections.Generic.IList[[Ansys.Mechanical.Interfaces.IDataSeries](IDataSeries.md#IDataSeries)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -52,11 +66,15 @@ Explicitly get the columns of the data table.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="IDataTable.Count"></a>
+
 ### *property* IDataTable.Count *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the number of columns in the table.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="IDataTable.IsFixedColumnCount"></a>
 
 ### *property* IDataTable.IsFixedColumnCount *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -64,11 +82,15 @@ Get whether additional columns can be added or removed from the contained
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="IDataTable.IsFixedRowCount"></a>
+
 ### *property* IDataTable.IsFixedRowCount *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get whether additional rows can be added or removed from the contained
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="IDataTable.IsReadOnly"></a>
 
 ### *property* IDataTable.IsReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -76,11 +98,15 @@ Gets whether the data table is read-only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="IDataTable.Item"></a>
+
 ### *property* IDataTable.Item *: [Ansys.Mechanical.Interfaces.IDataSeries](IDataSeries.md#IDataSeries) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Item property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="IDataTable.Metadata"></a>
 
 ### *property* IDataTable.Metadata *: System.Collections.Generic.IDictionary[System.String, System.Object] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -89,15 +115,23 @@ the context of data in the table.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="IDataTable.Name"></a>
+
 ### *property* IDataTable.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get or set the name of the table.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="IDataTable.RowCount"></a>
+
 ### *property* IDataTable.RowCount *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="IDataTable.Add"></a>
 
 ### IDataTable.Add(dataSeries: [Ansys.Mechanical.Interfaces.IDataSeries](IDataSeries.md#IDataSeries))
 
@@ -105,11 +139,15 @@ Add a new column to the data table.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="IDataTable.Clear"></a>
+
 ### IDataTable.Clear()
 
 Drops all columns from the data table.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="IDataTable.Contains"></a>
 
 ### IDataTable.Contains(name: System.String)
 
@@ -117,7 +155,11 @@ Returns whether the data table contains a column with the specified name.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="IDataTable.GetRow"></a>
+
 ### IDataTable.GetRow(rowIndex: System.Int32)
+
+<a id="IDataTable.Insert"></a>
 
 ### IDataTable.Insert(columnIndex: System.Int32, dataSeries: [Ansys.Mechanical.Interfaces.IDataSeries](IDataSeries.md#IDataSeries))
 
@@ -125,17 +167,23 @@ Insert a column at the specified index.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="IDataTable.Remove"></a>
+
 ### IDataTable.Remove(key: System.Object)
 
 Removes the specified column. If
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="IDataTable.TryInsertRow"></a>
+
 ### IDataTable.TryInsertRow(rowIndex: System.Int32, values: System.Collections.IEnumerable)
 
 Try to insert the values at the specified row index.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="IDataTable.TryRemoveRow"></a>
 
 ### IDataTable.TryRemoveRow(rowIndex: System.Int32)
 

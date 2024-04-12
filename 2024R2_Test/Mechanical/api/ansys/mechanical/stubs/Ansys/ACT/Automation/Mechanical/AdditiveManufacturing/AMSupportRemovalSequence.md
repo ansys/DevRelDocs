@@ -1,4 +1,8 @@
+<a id="amsupportremovalsequence"></a>
+
 # AMSupportRemovalSequence
+
+<a id="AMSupportRemovalSequence"></a>
 
 ### *class* AMSupportRemovalSequence
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > AMSupportRemovalSequence class.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -26,13 +32,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Count`](#AMSupportRemovalSequence.Count)   | Count property.   |
 |----------------------------------------------|-------------------|
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.AdditiveManufacturing import AMSupportRemovalSequence
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="AMSupportRemovalSequence.Count"></a>
 
 ### *property* AMSupportRemovalSequence.Count *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -40,7 +52,11 @@ Count property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="AMSupportRemovalSequence.Add"></a>
 
 ### AMSupportRemovalSequence.Add(item: [Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.IAMProcessStep](IAMProcessStep.md#IAMProcessStep))
 
@@ -52,6 +68,8 @@ Usage:
 > removalSequence.Add(Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.SupportRemoval(supportObj))
 <!-- !! processed by numpydoc !! -->
 
+<a id="AMSupportRemovalSequence.RemoveAt"></a>
+
 ### AMSupportRemovalSequence.RemoveAt(index: System.Int32)
 
 Remove AM step at index.
@@ -60,6 +78,8 @@ Usage:
 
 > removalSequence.RemoveAt(0)
 <!-- !! processed by numpydoc !! -->
+
+<a id="AMSupportRemovalSequence.Swap"></a>
 
 ### AMSupportRemovalSequence.Swap(item1: [Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.IAMProcessStep](IAMProcessStep.md#IAMProcessStep), item2: [Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.IAMProcessStep](IAMProcessStep.md#IAMProcessStep))
 
@@ -79,6 +99,8 @@ Python
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id0"></a>
+
 ### AMSupportRemovalSequence.Swap(index1: System.Int32, index2: System.Int32)
 
 Swaps two steps in the Removal sequence by name.
@@ -87,6 +109,8 @@ Usage:
 
 > removalSequence.Swap(“Base”, “Generated Support 1”)
 <!-- !! processed by numpydoc !! -->
+
+<a id="AMSupportRemovalSequence.IndexOf"></a>
 
 ### AMSupportRemovalSequence.IndexOf(item: [Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.IAMProcessStep](IAMProcessStep.md#IAMProcessStep))
 
@@ -104,6 +128,8 @@ Python
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AMSupportRemovalSequence.Insert"></a>
+
 ### AMSupportRemovalSequence.Insert(index: System.Int32, item: [Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.IAMProcessStep](IAMProcessStep.md#IAMProcessStep))
 
 Inserts a given step at particular index(zero based)
@@ -113,6 +139,8 @@ Usage:
 
 > Sequence.Insert(0,Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.UserStep())
 <!-- !! processed by numpydoc !! -->
+
+<a id="AMSupportRemovalSequence.Contains"></a>
 
 ### AMSupportRemovalSequence.Contains(item: [Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.IAMProcessStep](IAMProcessStep.md#IAMProcessStep))
 

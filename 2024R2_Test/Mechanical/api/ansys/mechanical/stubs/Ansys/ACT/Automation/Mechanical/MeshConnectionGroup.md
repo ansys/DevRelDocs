@@ -1,4 +1,8 @@
+<a id="meshconnectiongroup"></a>
+
 # MeshConnectionGroup
+
+<a id="MeshConnectionGroup"></a>
 
 ### *class* MeshConnectionGroup
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a MeshConnectionGroup.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -83,13 +89,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#MeshConnectionGroup.Properties)                                                                     | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#MeshConnectionGroup.VisibleProperties)                                                       | Gets the list of properties that are visible for this object. |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical import MeshConnectionGroup
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="MeshConnectionGroup.InternalObject"></a>
 
 ### *property* MeshConnectionGroup.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSConnectionGroupAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -97,11 +109,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshConnectionGroup.DataModelObjectCategory"></a>
+
 ### *property* MeshConnectionGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshConnectionGroup.ConnectionType"></a>
 
 ### *property* MeshConnectionGroup.ConnectionType *: [Ansys.Mechanical.DataModel.Enums.AutoDetectionType](../../../Mechanical/DataModel/Enums/AutoDetectionType.md#AutoDetectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -109,11 +125,15 @@ Gets or sets the ConnectionType.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshConnectionGroup.ActiveConnections"></a>
+
 ### *property* MeshConnectionGroup.ActiveConnections *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ActiveConnections.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshConnectionGroup.Connections"></a>
 
 ### *property* MeshConnectionGroup.Connections *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -121,11 +141,15 @@ Gets the Connections.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshConnectionGroup.EdgeOverlapTolerance"></a>
+
 ### *property* MeshConnectionGroup.EdgeOverlapTolerance *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EdgeOverlapTolerance.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshConnectionGroup.FaceOverlapTolerance"></a>
 
 ### *property* MeshConnectionGroup.FaceOverlapTolerance *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -133,11 +157,15 @@ Gets or sets the FaceOverlapTolerance.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshConnectionGroup.MinimumDistancePercentage"></a>
+
 ### *property* MeshConnectionGroup.MinimumDistancePercentage *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MinimumDistancePercentage.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshConnectionGroup.ThicknessScaleFactor"></a>
 
 ### *property* MeshConnectionGroup.ThicknessScaleFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -145,11 +173,15 @@ Gets or sets the ThicknessScaleFactor.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshConnectionGroup.ToleranceSlider"></a>
+
 ### *property* MeshConnectionGroup.ToleranceSlider *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ToleranceSlider.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshConnectionGroup.FaceFaceDetectionAngleTolerence"></a>
 
 ### *property* MeshConnectionGroup.FaceFaceDetectionAngleTolerence *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -157,11 +189,15 @@ Gets or sets the FaceFaceDetectionAngleTolerence.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshConnectionGroup.FaceAngleTolerance"></a>
+
 ### *property* MeshConnectionGroup.FaceAngleTolerance *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FaceAngleTolerance.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshConnectionGroup.MinimumDistanceValue"></a>
 
 ### *property* MeshConnectionGroup.MinimumDistanceValue *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -169,11 +205,15 @@ Gets the MinimumDistanceValue.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshConnectionGroup.ToleranceValue"></a>
+
 ### *property* MeshConnectionGroup.ToleranceValue *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ToleranceValue.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshConnectionGroup.CylindricalFaces"></a>
 
 ### *property* MeshConnectionGroup.CylindricalFaces *: [Ansys.Mechanical.DataModel.Enums.CylindricalFacesOption](../../../Mechanical/DataModel/Enums/CylindricalFacesOption.md#CylindricalFacesOption) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -181,11 +221,15 @@ Gets or sets the CylindricalFaces.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshConnectionGroup.Priority"></a>
+
 ### *property* MeshConnectionGroup.Priority *: [Ansys.Mechanical.DataModel.Enums.ContactFaceEdgePriority](../../../Mechanical/DataModel/Enums/ContactFaceEdgePriority.md#ContactFaceEdgePriority) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Priority.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshConnectionGroup.GroupBy"></a>
 
 ### *property* MeshConnectionGroup.GroupBy *: [Ansys.Mechanical.DataModel.Enums.ContactGroupingType](../../../Mechanical/DataModel/Enums/ContactGroupingType.md#ContactGroupingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -193,11 +237,15 @@ Gets or sets the GroupBy.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshConnectionGroup.SearchAcross"></a>
+
 ### *property* MeshConnectionGroup.SearchAcross *: [Ansys.Mechanical.DataModel.Enums.ContactSearchingType](../../../Mechanical/DataModel/Enums/ContactSearchingType.md#ContactSearchingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SearchAcross.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshConnectionGroup.ToleranceType"></a>
 
 ### *property* MeshConnectionGroup.ToleranceType *: [Ansys.Mechanical.DataModel.Enums.ContactToleranceType](../../../Mechanical/DataModel/Enums/ContactToleranceType.md#ContactToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -205,11 +253,15 @@ Gets or sets the ToleranceType.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshConnectionGroup.EdgeEdge"></a>
+
 ### *property* MeshConnectionGroup.EdgeEdge *: [Ansys.Mechanical.DataModel.Enums.ContactEdgeEdgeOption](../../../Mechanical/DataModel/Enums/ContactEdgeEdgeOption.md#ContactEdgeEdgeOption) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EdgeEdge.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshConnectionGroup.FaceEdge"></a>
 
 ### *property* MeshConnectionGroup.FaceEdge *: [Ansys.Mechanical.DataModel.Enums.ContactFaceEdgeOption](../../../Mechanical/DataModel/Enums/ContactFaceEdgeOption.md#ContactFaceEdgeOption) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -217,11 +269,15 @@ Gets or sets the FaceEdge.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshConnectionGroup.AutomaticFixedJoints"></a>
+
 ### *property* MeshConnectionGroup.AutomaticFixedJoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AutomaticFixedJoints.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshConnectionGroup.RevoluteJoints"></a>
 
 ### *property* MeshConnectionGroup.RevoluteJoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -229,11 +285,15 @@ Gets or sets the RevoluteJoints.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshConnectionGroup.Suppressed"></a>
+
 ### *property* MeshConnectionGroup.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshConnectionGroup.FaceFace"></a>
 
 ### *property* MeshConnectionGroup.FaceFace *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -241,11 +301,15 @@ Gets or sets the FaceFace.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshConnectionGroup.UseRange"></a>
+
 ### *property* MeshConnectionGroup.UseRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UseRange.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshConnectionGroup.Location"></a>
 
 ### *property* MeshConnectionGroup.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -253,11 +317,15 @@ Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshConnectionGroup.Children"></a>
+
 ### *property* MeshConnectionGroup.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshConnectionGroup.Comments"></a>
 
 ### *property* MeshConnectionGroup.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -265,11 +333,15 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshConnectionGroup.Figures"></a>
+
 ### *property* MeshConnectionGroup.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshConnectionGroup.Images"></a>
 
 ### *property* MeshConnectionGroup.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -277,11 +349,15 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshConnectionGroup.ReadOnly"></a>
+
 ### *property* MeshConnectionGroup.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id0"></a>
 
 ### *property* MeshConnectionGroup.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -289,11 +365,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshConnectionGroup.Properties"></a>
+
 ### *property* MeshConnectionGroup.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshConnectionGroup.VisibleProperties"></a>
 
 ### *property* MeshConnectionGroup.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -301,7 +381,11 @@ Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="MeshConnectionGroup.DetectConnections"></a>
 
 ### MeshConnectionGroup.DetectConnections()
 
@@ -309,11 +393,15 @@ Detect mesh connections.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshConnectionGroup.Generate"></a>
+
 ### MeshConnectionGroup.Generate()
 
 Generate mesh connections.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshConnectionGroup.SearchConnectionsForDuplicatePairs"></a>
 
 ### MeshConnectionGroup.SearchConnectionsForDuplicatePairs()
 
@@ -321,11 +409,15 @@ SearchConnectionsForDuplicatePairs method.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshConnectionGroup.AddManualMeshConnection"></a>
+
 ### MeshConnectionGroup.AddManualMeshConnection()
 
 Creates a new MeshConnection
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshConnectionGroup.AddContactRegion"></a>
 
 ### MeshConnectionGroup.AddContactRegion()
 
@@ -333,11 +425,15 @@ Creates a new child ContactRegion.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshConnectionGroup.AddJoint"></a>
+
 ### MeshConnectionGroup.AddJoint()
 
 Creates a new child Joint.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshConnectionGroup.AddSpotWeld"></a>
 
 ### MeshConnectionGroup.AddSpotWeld()
 
@@ -345,11 +441,15 @@ Creates a new child SpotWeld.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshConnectionGroup.AddInterStage"></a>
+
 ### MeshConnectionGroup.AddInterStage()
 
 Creates a new child InterStage.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshConnectionGroup.CreateAutomaticConnections"></a>
 
 ### MeshConnectionGroup.CreateAutomaticConnections()
 
@@ -357,11 +457,15 @@ Run the CreateAutomaticConnections action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshConnectionGroup.DeleteChildren"></a>
+
 ### MeshConnectionGroup.DeleteChildren()
 
 Run the DeleteChildren action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id1"></a>
 
 ### MeshConnectionGroup.DeleteChildren(b_Verify: System.Boolean)
 
@@ -369,11 +473,15 @@ Run the DeleteChildren action with optional verification dialog.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshConnectionGroup.RenameBasedOnChildren"></a>
+
 ### MeshConnectionGroup.RenameBasedOnChildren()
 
 Rename the Connection group based on the children.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshConnectionGroup.SetDefaultAPDLNames"></a>
 
 ### MeshConnectionGroup.SetDefaultAPDLNames()
 
@@ -381,11 +489,15 @@ Loop over all the valid contact regions and set the default APDL names.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshConnectionGroup.RepairOverlappingContactRegions"></a>
+
 ### MeshConnectionGroup.RepairOverlappingContactRegions()
 
 Run the RepairOverlappingContactRegions action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshConnectionGroup.Delete"></a>
 
 ### MeshConnectionGroup.Delete()
 
@@ -393,11 +505,15 @@ Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshConnectionGroup.GetChildren"></a>
+
 ### MeshConnectionGroup.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id2"></a>
 
 ### MeshConnectionGroup.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
@@ -405,17 +521,23 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshConnectionGroup.AddComment"></a>
+
 ### MeshConnectionGroup.AddComment()
 
 Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshConnectionGroup.AddFigure"></a>
+
 ### MeshConnectionGroup.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshConnectionGroup.AddImage"></a>
 
 ### MeshConnectionGroup.AddImage(filePath: System.String)
 
@@ -425,11 +547,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshConnectionGroup.Activate"></a>
+
 ### MeshConnectionGroup.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshConnectionGroup.CopyTo"></a>
 
 ### MeshConnectionGroup.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -437,11 +563,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshConnectionGroup.Duplicate"></a>
+
 ### MeshConnectionGroup.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshConnectionGroup.GroupAllSimilarChildren"></a>
 
 ### MeshConnectionGroup.GroupAllSimilarChildren()
 
@@ -449,17 +579,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshConnectionGroup.GroupSimilarObjects"></a>
+
 ### MeshConnectionGroup.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshConnectionGroup.PropertyByName"></a>
+
 ### MeshConnectionGroup.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshConnectionGroup.PropertyByAPIName"></a>
 
 ### MeshConnectionGroup.PropertyByAPIName(name: System.String)
 
@@ -468,17 +604,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshConnectionGroup.CreateParameter"></a>
+
 ### MeshConnectionGroup.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshConnectionGroup.GetParameter"></a>
+
 ### MeshConnectionGroup.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshConnectionGroup.RemoveParameter"></a>
 
 ### MeshConnectionGroup.RemoveParameter(propName: System.String)
 

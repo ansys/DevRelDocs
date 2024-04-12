@@ -1,4 +1,8 @@
+<a id="strainresult"></a>
+
 # StrainResult
+
+<a id="StrainResult"></a>
 
 ### *class* StrainResult
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a StrainResult.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -117,13 +123,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#StrainResult.Properties)                                                                                  | Gets the list of properties for this object.                           |
 | [`VisibleProperties`](#StrainResult.VisibleProperties)                                                                    | Gets the list of properties that are visible for this object.          |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.Results.StrainResults import StrainResult
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="StrainResult.Mode"></a>
 
 ### *property* StrainResult.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -131,11 +143,15 @@ Gets or sets the Mode.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.Ply"></a>
+
 ### *property* StrainResult.Ply *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../AnalysisPly.md#AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Ply selection.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.Plies"></a>
 
 ### *property* StrainResult.Plies *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](../../ImportedPliesCollection.md#ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -143,11 +159,15 @@ Plies property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.EnvironmentSelection"></a>
+
 ### *property* StrainResult.EnvironmentSelection *: [Ansys.ACT.Automation.Mechanical.Analysis](../../Analysis.md#Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EnvironmentSelection.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.InternalObject"></a>
 
 ### *property* StrainResult.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -155,11 +175,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.HarmonicIndex"></a>
+
 ### *property* StrainResult.HarmonicIndex *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HarmonicIndex.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.CyclicMode"></a>
 
 ### *property* StrainResult.CyclicMode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -167,11 +191,15 @@ Gets or sets the CyclicMode.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.IterationStep"></a>
+
 ### *property* StrainResult.IterationStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IterationStep.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.LoadMultiplier"></a>
 
 ### *property* StrainResult.LoadMultiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -179,11 +207,15 @@ Gets the LoadMultiplier.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.ReportedFrequency"></a>
+
 ### *property* StrainResult.ReportedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ReportedFrequency.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.SweepingPhase"></a>
 
 ### *property* StrainResult.SweepingPhase *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -191,11 +223,15 @@ Gets or sets the SweepingPhase.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.PhaseIncrement"></a>
+
 ### *property* StrainResult.PhaseIncrement *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PhaseIncrement.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.Frequency"></a>
 
 ### *property* StrainResult.Frequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -203,11 +239,15 @@ Gets or sets the Frequency.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.Position"></a>
+
 ### *property* StrainResult.Position *: [Ansys.Mechanical.DataModel.Enums.ShellFaceType](../../../../../Mechanical/DataModel/Enums/ShellFaceType.md#ShellFaceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Position.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.StressStrainType"></a>
 
 ### *property* StrainResult.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](../../../../../Mechanical/DataModel/Enums/StressStrainType.md#StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -215,11 +255,15 @@ Gets or sets the StressStrainType.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.SubScopeBy"></a>
+
 ### *property* StrainResult.SubScopeBy *: [Ansys.Mechanical.DataModel.Enums.SubScopingDefineByType](../../../../../Mechanical/DataModel/Enums/SubScopingDefineByType.md#SubScopingDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SubScopeBy.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.Amplitude"></a>
 
 ### *property* StrainResult.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -227,11 +271,15 @@ Gets or sets the Amplitude.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.AverageAcrossBodies"></a>
+
 ### *property* StrainResult.AverageAcrossBodies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AverageAcrossBodies.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.DataModelObjectCategory"></a>
 
 ### *property* StrainResult.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -239,11 +287,15 @@ Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.PlotData"></a>
+
 ### *property* StrainResult.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../Mechanical/DataModel/Results/ResultDataTable.md#ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the result table.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.Location"></a>
 
 ### *property* StrainResult.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -251,11 +303,15 @@ Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.TimeForMinimumOfMinimumValues"></a>
+
 ### *property* StrainResult.TimeForMinimumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Time for the minimum of minimum values.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.TimeForMinimumOfMaximumValues"></a>
 
 ### *property* StrainResult.TimeForMinimumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -263,11 +319,15 @@ Get the Time for the minimum of maximum values.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.LoadStepForMinimumOfMinimumValues"></a>
+
 ### *property* StrainResult.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.LoadStepForMinimumOfMaximumValues"></a>
 
 ### *property* StrainResult.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -275,11 +335,15 @@ Get the Load Step for the minimum of maximum values.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.TimeForMaximumOfMinimumValues"></a>
+
 ### *property* StrainResult.TimeForMaximumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Time for the maximum of minimum values.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.TimeForMaximumOfMaximumValues"></a>
 
 ### *property* StrainResult.TimeForMaximumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -287,11 +351,15 @@ Get the Time for the maximum of maximum values.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.LoadStepForMaximumOfMinimumValues"></a>
+
 ### *property* StrainResult.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.LoadStepForMaximumOfMaximumValues"></a>
 
 ### *property* StrainResult.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -299,11 +367,15 @@ Get the Load Step for the maximum of maximum values.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.IsSolved"></a>
+
 ### *property* StrainResult.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.CoordinateSystem"></a>
 
 ### *property* StrainResult.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -313,11 +385,15 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.ScopingMethod"></a>
+
 ### *property* StrainResult.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.SetNumber"></a>
 
 ### *property* StrainResult.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -325,11 +401,15 @@ Gets or sets the Set Number.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.CombinationNumber"></a>
+
 ### *property* StrainResult.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.SolutionCombinationDriver"></a>
 
 ### *property* StrainResult.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -337,11 +417,15 @@ Gets or sets the SolutionCombinationDriver.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.Path"></a>
+
 ### *property* StrainResult.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../Path.md#Path) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Path property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.Surface"></a>
 
 ### *property* StrainResult.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -349,11 +433,15 @@ Surface property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.NamedSelections"></a>
+
 ### *property* StrainResult.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.WaterfallPanelShowTextOnMosaic"></a>
 
 ### *property* StrainResult.WaterfallPanelShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -361,11 +449,15 @@ Gets or sets the Waterfall Panel Mosaic Text Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.CrackFrontNumber"></a>
+
 ### *property* StrainResult.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.GlobalIDs"></a>
 
 ### *property* StrainResult.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -373,11 +465,15 @@ Gets or sets the GlobalIDs.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.Identifier"></a>
+
 ### *property* StrainResult.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.IterationNumber"></a>
 
 ### *property* StrainResult.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -385,11 +481,15 @@ Gets the IterationNumber.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.LoadStep"></a>
+
 ### *property* StrainResult.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.MaximumOccursOn"></a>
 
 ### *property* StrainResult.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -397,11 +497,15 @@ Gets the MaximumOccursOn.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.MinimumOccursOn"></a>
+
 ### *property* StrainResult.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.LoadStepNumber"></a>
 
 ### *property* StrainResult.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -409,11 +513,15 @@ Gets or sets the LoadStepNumber.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.SolverComponentIDs"></a>
+
 ### *property* StrainResult.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.Substep"></a>
 
 ### *property* StrainResult.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -421,11 +529,15 @@ Gets the Substep.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.Average"></a>
+
 ### *property* StrainResult.Average *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Average.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.Maximum"></a>
 
 ### *property* StrainResult.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -433,11 +545,15 @@ Gets the Maximum.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.MaximumOfMaximumOverTime"></a>
+
 ### *property* StrainResult.MaximumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOfMaximumOverTime.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.MaximumOfMinimumOverTime"></a>
 
 ### *property* StrainResult.MaximumOfMinimumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -445,11 +561,15 @@ Gets the MaximumOfMinimumOverTime.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.Minimum"></a>
+
 ### *property* StrainResult.Minimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Minimum.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.MinimumOfMaximumOverTime"></a>
 
 ### *property* StrainResult.MinimumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -457,11 +577,15 @@ Gets the MinimumOfMaximumOverTime.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.MinimumOfMinimumOverTime"></a>
+
 ### *property* StrainResult.MinimumOfMinimumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOfMinimumOverTime.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.Time"></a>
 
 ### *property* StrainResult.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -469,11 +593,15 @@ Gets the Time.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.DisplayTime"></a>
+
 ### *property* StrainResult.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DisplayTime.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.GraphControlsXAxis"></a>
 
 ### *property* StrainResult.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -481,11 +609,15 @@ Gets or sets the GraphControlsXAxis.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.DisplayOption"></a>
+
 ### *property* StrainResult.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../Mechanical/DataModel/Enums/ResultAveragingType.md#ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DisplayOption.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.DpfEvaluation"></a>
 
 ### *property* StrainResult.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -493,11 +625,15 @@ Gets or sets the DpfEvaluation.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.By"></a>
+
 ### *property* StrainResult.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../Mechanical/DataModel/Enums/SetDriverStyle.md#SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the By.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.ItemType"></a>
 
 ### *property* StrainResult.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../Mechanical/DataModel/Enums/ResultFileItemType.md#ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -505,11 +641,15 @@ Gets or sets the ItemType.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.CalculateTimeHistory"></a>
+
 ### *property* StrainResult.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.Suppressed"></a>
 
 ### *property* StrainResult.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -517,11 +657,15 @@ Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.Children"></a>
+
 ### *property* StrainResult.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.Comments"></a>
 
 ### *property* StrainResult.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -529,11 +673,15 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.Figures"></a>
+
 ### *property* StrainResult.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.Images"></a>
 
 ### *property* StrainResult.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -541,11 +689,15 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id0"></a>
+
 ### *property* StrainResult.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.Properties"></a>
 
 ### *property* StrainResult.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -553,13 +705,19 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.VisibleProperties"></a>
+
 ### *property* StrainResult.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="StrainResult.ClearGeneratedData"></a>
 
 ### StrainResult.ClearGeneratedData()
 
@@ -567,11 +725,15 @@ Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.EvaluateAllResults"></a>
+
 ### StrainResult.EvaluateAllResults()
 
 Run the EvaluateAllResults action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.FetchRemoteResults"></a>
 
 ### StrainResult.FetchRemoteResults()
 
@@ -579,11 +741,15 @@ Run the FetchRemoteResult action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.ExportToTextFile"></a>
+
 ### StrainResult.ExportToTextFile(filePath: System.String)
 
 Run the ExportToTextFile action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.ExportAnimation"></a>
 
 ### StrainResult.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#AnimationExportSettings))
 
@@ -591,11 +757,15 @@ Run the ExportAnimation action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.DuplicateWithoutResults"></a>
+
 ### StrainResult.DuplicateWithoutResults()
 
 Run the DuplicateWithoutResults action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.CreateResultsAtAllSets"></a>
 
 ### StrainResult.CreateResultsAtAllSets()
 
@@ -603,11 +773,15 @@ Creates results at all sets for results under a solution.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.PromoteToNamedSelection"></a>
+
 ### StrainResult.PromoteToNamedSelection()
 
 Run the PromoteToNamedSelection action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.CreateParameter"></a>
 
 ### StrainResult.CreateParameter(propName: System.String)
 
@@ -615,11 +789,15 @@ CreateParameter method.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.AddAlert"></a>
+
 ### StrainResult.AddAlert()
 
 Creates a new Alert
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.AddConvergence"></a>
 
 ### StrainResult.AddConvergence()
 
@@ -627,11 +805,15 @@ Creates a new Convergence
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.RenameBasedOnDefinition"></a>
+
 ### StrainResult.RenameBasedOnDefinition()
 
 Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.Delete"></a>
 
 ### StrainResult.Delete()
 
@@ -639,11 +821,15 @@ Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.GetChildren"></a>
+
 ### StrainResult.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id1"></a>
 
 ### StrainResult.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
@@ -651,17 +837,23 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.AddComment"></a>
+
 ### StrainResult.AddComment()
 
 Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.AddFigure"></a>
+
 ### StrainResult.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.AddImage"></a>
 
 ### StrainResult.AddImage(filePath: System.String)
 
@@ -671,11 +863,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.Activate"></a>
+
 ### StrainResult.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.CopyTo"></a>
 
 ### StrainResult.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -683,11 +879,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.Duplicate"></a>
+
 ### StrainResult.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.GroupAllSimilarChildren"></a>
 
 ### StrainResult.GroupAllSimilarChildren()
 
@@ -695,17 +895,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.GroupSimilarObjects"></a>
+
 ### StrainResult.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.PropertyByName"></a>
+
 ### StrainResult.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.PropertyByAPIName"></a>
 
 ### StrainResult.PropertyByAPIName(name: System.String)
 
@@ -714,11 +920,15 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainResult.GetParameter"></a>
+
 ### StrainResult.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="StrainResult.RemoveParameter"></a>
 
 ### StrainResult.RemoveParameter(propName: System.String)
 

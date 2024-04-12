@@ -1,4 +1,8 @@
+<a id="parametervariable"></a>
+
 # ParameterVariable
+
+<a id="ParameterVariable"></a>
 
 ### *class* ParameterVariable
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a ParameterVariable.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -42,13 +48,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#ParameterVariable.Properties)                                                                       | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#ParameterVariable.VisibleProperties)                                                         | Gets the list of properties that are visible for this object. |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical import ParameterVariable
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="ParameterVariable.InternalObject"></a>
 
 ### *property* ParameterVariable.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSParameterVariableAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -56,11 +68,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ParameterVariable.DataModelObjectCategory"></a>
+
 ### *property* ParameterVariable.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ParameterVariable.Children"></a>
 
 ### *property* ParameterVariable.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -68,11 +84,15 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ParameterVariable.Comments"></a>
+
 ### *property* ParameterVariable.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ParameterVariable.Figures"></a>
 
 ### *property* ParameterVariable.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -80,11 +100,15 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ParameterVariable.Images"></a>
+
 ### *property* ParameterVariable.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id0"></a>
 
 ### *property* ParameterVariable.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -92,11 +116,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ParameterVariable.Properties"></a>
+
 ### *property* ParameterVariable.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ParameterVariable.VisibleProperties"></a>
 
 ### *property* ParameterVariable.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -104,7 +132,11 @@ Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="ParameterVariable.GetChildren"></a>
 
 ### ParameterVariable.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
@@ -112,11 +144,15 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id1"></a>
+
 ### ParameterVariable.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ParameterVariable.AddComment"></a>
 
 ### ParameterVariable.AddComment()
 
@@ -124,11 +160,15 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ParameterVariable.AddFigure"></a>
+
 ### ParameterVariable.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ParameterVariable.AddImage"></a>
 
 ### ParameterVariable.AddImage(filePath: System.String)
 
@@ -138,11 +178,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ParameterVariable.Activate"></a>
+
 ### ParameterVariable.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ParameterVariable.CopyTo"></a>
 
 ### ParameterVariable.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -150,11 +194,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ParameterVariable.Duplicate"></a>
+
 ### ParameterVariable.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ParameterVariable.GroupAllSimilarChildren"></a>
 
 ### ParameterVariable.GroupAllSimilarChildren()
 
@@ -162,17 +210,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ParameterVariable.GroupSimilarObjects"></a>
+
 ### ParameterVariable.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ParameterVariable.PropertyByName"></a>
+
 ### ParameterVariable.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ParameterVariable.PropertyByAPIName"></a>
 
 ### ParameterVariable.PropertyByAPIName(name: System.String)
 
@@ -181,17 +235,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ParameterVariable.CreateParameter"></a>
+
 ### ParameterVariable.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ParameterVariable.GetParameter"></a>
+
 ### ParameterVariable.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ParameterVariable.RemoveParameter"></a>
 
 ### ParameterVariable.RemoveParameter(propName: System.String)
 

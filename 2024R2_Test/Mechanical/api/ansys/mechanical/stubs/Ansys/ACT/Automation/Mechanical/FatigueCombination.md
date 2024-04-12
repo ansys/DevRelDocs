@@ -1,4 +1,8 @@
+<a id="fatiguecombination"></a>
+
 # FatigueCombination
+
+<a id="FatigueCombination"></a>
 
 ### *class* FatigueCombination
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a FatigueCombination.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -43,13 +49,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#FatigueCombination.Properties)                                                                      | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#FatigueCombination.VisibleProperties)                                                        | Gets the list of properties that are visible for this object. |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical import FatigueCombination
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="FatigueCombination.InternalObject"></a>
 
 ### *property* FatigueCombination.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSFatigueCombinationAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -57,11 +69,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FatigueCombination.DataModelObjectCategory"></a>
+
 ### *property* FatigueCombination.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="FatigueCombination.Children"></a>
 
 ### *property* FatigueCombination.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -69,11 +85,15 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FatigueCombination.Comments"></a>
+
 ### *property* FatigueCombination.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="FatigueCombination.Images"></a>
 
 ### *property* FatigueCombination.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -81,11 +101,15 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id0"></a>
+
 ### *property* FatigueCombination.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="FatigueCombination.Properties"></a>
 
 ### *property* FatigueCombination.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -93,13 +117,19 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FatigueCombination.VisibleProperties"></a>
+
 ### *property* FatigueCombination.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="FatigueCombination.AddDamage"></a>
 
 ### FatigueCombination.AddDamage()
 
@@ -107,11 +137,15 @@ Creates a new FatigueDamage
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FatigueCombination.EvaluateAllResults"></a>
+
 ### FatigueCombination.EvaluateAllResults()
 
 Run the EvaluateAllResults action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="FatigueCombination.Delete"></a>
 
 ### FatigueCombination.Delete()
 
@@ -119,11 +153,15 @@ Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FatigueCombination.GetChildren"></a>
+
 ### FatigueCombination.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id1"></a>
 
 ### FatigueCombination.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
@@ -131,11 +169,15 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FatigueCombination.AddComment"></a>
+
 ### FatigueCombination.AddComment()
 
 Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="FatigueCombination.AddImage"></a>
 
 ### FatigueCombination.AddImage(filePath: System.String)
 
@@ -145,11 +187,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FatigueCombination.Activate"></a>
+
 ### FatigueCombination.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="FatigueCombination.CopyTo"></a>
 
 ### FatigueCombination.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -157,11 +203,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FatigueCombination.Duplicate"></a>
+
 ### FatigueCombination.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="FatigueCombination.GroupAllSimilarChildren"></a>
 
 ### FatigueCombination.GroupAllSimilarChildren()
 
@@ -169,17 +219,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FatigueCombination.GroupSimilarObjects"></a>
+
 ### FatigueCombination.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FatigueCombination.PropertyByName"></a>
+
 ### FatigueCombination.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="FatigueCombination.PropertyByAPIName"></a>
 
 ### FatigueCombination.PropertyByAPIName(name: System.String)
 
@@ -188,17 +244,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FatigueCombination.CreateParameter"></a>
+
 ### FatigueCombination.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FatigueCombination.GetParameter"></a>
+
 ### FatigueCombination.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="FatigueCombination.RemoveParameter"></a>
 
 ### FatigueCombination.RemoveParameter(propName: System.String)
 

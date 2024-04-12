@@ -1,4 +1,8 @@
+<a id="coupledphysicsheatingobjects"></a>
+
 # CoupledPhysicsHeatingObjects
+
+<a id="CoupledPhysicsHeatingObjects"></a>
 
 ### *class* CoupledPhysicsHeatingObjects
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a CoupledPhysicsHeatingObjects.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -43,13 +49,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#CoupledPhysicsHeatingObjects.Properties)                                                               | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#CoupledPhysicsHeatingObjects.VisibleProperties)                                                 | Gets the list of properties that are visible for this object. |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.BoundaryConditions import CoupledPhysicsHeatingObjects
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="CoupledPhysicsHeatingObjects.InternalObject"></a>
 
 ### *property* CoupledPhysicsHeatingObjects.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSPlasticHeatingAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -57,11 +69,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CoupledPhysicsHeatingObjects.Suppressed"></a>
+
 ### *property* CoupledPhysicsHeatingObjects.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CoupledPhysicsHeatingObjects.Location"></a>
 
 ### *property* CoupledPhysicsHeatingObjects.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -69,11 +85,15 @@ Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CoupledPhysicsHeatingObjects.DataModelObjectCategory"></a>
+
 ### *property* CoupledPhysicsHeatingObjects.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CoupledPhysicsHeatingObjects.Children"></a>
 
 ### *property* CoupledPhysicsHeatingObjects.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -81,11 +101,15 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CoupledPhysicsHeatingObjects.Comments"></a>
+
 ### *property* CoupledPhysicsHeatingObjects.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CoupledPhysicsHeatingObjects.Images"></a>
 
 ### *property* CoupledPhysicsHeatingObjects.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -93,11 +117,15 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id0"></a>
+
 ### *property* CoupledPhysicsHeatingObjects.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CoupledPhysicsHeatingObjects.Properties"></a>
 
 ### *property* CoupledPhysicsHeatingObjects.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -105,13 +133,19 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CoupledPhysicsHeatingObjects.VisibleProperties"></a>
+
 ### *property* CoupledPhysicsHeatingObjects.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="CoupledPhysicsHeatingObjects.Delete"></a>
 
 ### CoupledPhysicsHeatingObjects.Delete()
 
@@ -119,11 +153,15 @@ Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CoupledPhysicsHeatingObjects.GetChildren"></a>
+
 ### CoupledPhysicsHeatingObjects.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id1"></a>
 
 ### CoupledPhysicsHeatingObjects.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
@@ -131,11 +169,15 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CoupledPhysicsHeatingObjects.AddComment"></a>
+
 ### CoupledPhysicsHeatingObjects.AddComment()
 
 Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CoupledPhysicsHeatingObjects.AddImage"></a>
 
 ### CoupledPhysicsHeatingObjects.AddImage(filePath: System.String)
 
@@ -145,11 +187,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CoupledPhysicsHeatingObjects.Activate"></a>
+
 ### CoupledPhysicsHeatingObjects.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CoupledPhysicsHeatingObjects.CopyTo"></a>
 
 ### CoupledPhysicsHeatingObjects.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -157,11 +203,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CoupledPhysicsHeatingObjects.Duplicate"></a>
+
 ### CoupledPhysicsHeatingObjects.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CoupledPhysicsHeatingObjects.GroupAllSimilarChildren"></a>
 
 ### CoupledPhysicsHeatingObjects.GroupAllSimilarChildren()
 
@@ -169,17 +219,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CoupledPhysicsHeatingObjects.GroupSimilarObjects"></a>
+
 ### CoupledPhysicsHeatingObjects.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CoupledPhysicsHeatingObjects.PropertyByName"></a>
+
 ### CoupledPhysicsHeatingObjects.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CoupledPhysicsHeatingObjects.PropertyByAPIName"></a>
 
 ### CoupledPhysicsHeatingObjects.PropertyByAPIName(name: System.String)
 
@@ -188,17 +244,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CoupledPhysicsHeatingObjects.CreateParameter"></a>
+
 ### CoupledPhysicsHeatingObjects.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CoupledPhysicsHeatingObjects.GetParameter"></a>
+
 ### CoupledPhysicsHeatingObjects.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CoupledPhysicsHeatingObjects.RemoveParameter"></a>
 
 ### CoupledPhysicsHeatingObjects.RemoveParameter(propName: System.String)
 

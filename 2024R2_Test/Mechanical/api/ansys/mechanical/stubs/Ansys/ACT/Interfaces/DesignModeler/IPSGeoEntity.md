@@ -1,4 +1,8 @@
+<a id="ipsgeoentity"></a>
+
 # IPSGeoEntity
+
+<a id="IPSGeoEntity"></a>
 
 ### *class* IPSGeoEntity
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a generic geometry entity.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="import-detail"></a>
 
 ## Import detail
 

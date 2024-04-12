@@ -1,4 +1,8 @@
+<a id="layeredsectionworksheet"></a>
+
 # LayeredSectionWorksheet
+
+<a id="LayeredSectionWorksheet"></a>
 
 ### *class* LayeredSectionWorksheet
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > LayeredSectionWorksheet class.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -29,13 +35,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`RowCount`](#LayeredSectionWorksheet.RowCount)   | Gets the number of entries (rows) in the worksheet.   |
 |---------------------------------------------------|-------------------------------------------------------|
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical import LayeredSectionWorksheet
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="LayeredSectionWorksheet.RowCount"></a>
 
 ### *property* LayeredSectionWorksheet.RowCount *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -43,7 +55,11 @@ Gets the number of entries (rows) in the worksheet.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="LayeredSectionWorksheet.AddThicknessLayer"></a>
 
 ### LayeredSectionWorksheet.AddThicknessLayer(materialname: System.String, thickness: System.Double, angle: System.Double)
 
@@ -53,6 +69,8 @@ LayeredSectionWorksheet indices are zero based and ordered in the Z direction.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LayeredSectionWorksheet.InsertThicknessLayerAbove"></a>
+
 ### LayeredSectionWorksheet.InsertThicknessLayerAbove(materialname: System.String, thickness: System.Double, angle: System.Double, index: System.Int32)
 
 Insert a new layer to the LayeredSectionWorksheet
@@ -60,6 +78,8 @@ The new layer will be inserted above the layer indicated by the given index.
 LayeredSectionWorksheet indices are zero based and ordered in the Z direction.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LayeredSectionWorksheet.InsertThicknessLayerBelow"></a>
 
 ### LayeredSectionWorksheet.InsertThicknessLayerBelow(materialname: System.String, thickness: System.Double, angle: System.Double, index: System.Int32)
 
@@ -69,12 +89,16 @@ LayeredSectionWorksheet indices are zero based and ordered in the Z direction.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LayeredSectionWorksheet.DeleteRow"></a>
+
 ### LayeredSectionWorksheet.DeleteRow(index: System.Int32)
 
 Delete a row from the LayeredSectionWorksheet
 LayeredSectionWorksheet indices are zero based and ordered in the Z direction.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LayeredSectionWorksheet.SetThickness"></a>
 
 ### LayeredSectionWorksheet.SetThickness(index: System.Int32, thickness: System.Double)
 
@@ -83,12 +107,16 @@ LayeredSectionWorksheet indices are zero based and ordered in the Z direction.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LayeredSectionWorksheet.SetAngle"></a>
+
 ### LayeredSectionWorksheet.SetAngle(index: System.Int32, angle: System.Double)
 
 Set the angle for the LayeredSection at the row index specifiied.
 LayeredSectionWorksheet indices are zero based and ordered in the Z direction.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LayeredSectionWorksheet.SetMaterial"></a>
 
 ### LayeredSectionWorksheet.SetMaterial(index: System.Int32, materialname: System.String)
 
@@ -97,6 +125,8 @@ LayeredSectionWorksheet indices are zero based and ordered in the Z direction.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LayeredSectionWorksheet.GetThickness"></a>
+
 ### LayeredSectionWorksheet.GetThickness(index: System.Int32)
 
 Gets the thickness for the LayeredSection at the row index specifiied.
@@ -104,12 +134,16 @@ LayeredSectionWorksheet indices are zero based and ordered in the Z direction.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LayeredSectionWorksheet.GetAngle"></a>
+
 ### LayeredSectionWorksheet.GetAngle(index: System.Int32)
 
 Gets the angle for the LayeredSection at the row index specifiied.
 LayeredSectionWorksheet indices are zero based and ordered in the Z direction.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LayeredSectionWorksheet.GetMaterial"></a>
 
 ### LayeredSectionWorksheet.GetMaterial(index: System.Int32)
 

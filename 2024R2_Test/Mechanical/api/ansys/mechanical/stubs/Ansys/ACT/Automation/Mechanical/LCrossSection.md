@@ -1,4 +1,8 @@
+<a id="lcrosssection"></a>
+
 # LCrossSection
+
+<a id="LCrossSection"></a>
 
 ### *class* LCrossSection
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a LCrossSection.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -51,13 +57,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#LCrossSection.Properties)                                                                           | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#LCrossSection.VisibleProperties)                                                             | Gets the list of properties that are visible for this object. |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical import LCrossSection
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="LCrossSection.InternalObject"></a>
 
 ### *property* LCrossSection.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSCrossSectionAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -65,11 +77,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LCrossSection.Area"></a>
+
 ### *property* LCrossSection.Area *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Area.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LCrossSection.IYY"></a>
 
 ### *property* LCrossSection.IYY *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -77,11 +93,15 @@ Gets the IYY.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LCrossSection.IZZ"></a>
+
 ### *property* LCrossSection.IZZ *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IZZ.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LCrossSection.Thick1"></a>
 
 ### *property* LCrossSection.Thick1 *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -89,11 +109,15 @@ Gets or sets the Thick1.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LCrossSection.Thick2"></a>
+
 ### *property* LCrossSection.Thick2 *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Thick2.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LCrossSection.Width1"></a>
 
 ### *property* LCrossSection.Width1 *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -101,11 +125,15 @@ Gets or sets the Width1.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LCrossSection.Width2"></a>
+
 ### *property* LCrossSection.Width2 *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Width2.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LCrossSection.DataModelObjectCategory"></a>
 
 ### *property* LCrossSection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -113,11 +141,15 @@ Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LCrossSection.Children"></a>
+
 ### *property* LCrossSection.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LCrossSection.Comments"></a>
 
 ### *property* LCrossSection.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -125,11 +157,15 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LCrossSection.Figures"></a>
+
 ### *property* LCrossSection.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LCrossSection.Images"></a>
 
 ### *property* LCrossSection.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -137,11 +173,15 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LCrossSection.ReadOnly"></a>
+
 ### *property* LCrossSection.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id0"></a>
 
 ### *property* LCrossSection.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -149,11 +189,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LCrossSection.Properties"></a>
+
 ### *property* LCrossSection.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LCrossSection.VisibleProperties"></a>
 
 ### *property* LCrossSection.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -161,7 +205,11 @@ Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="LCrossSection.Delete"></a>
 
 ### LCrossSection.Delete()
 
@@ -169,11 +217,15 @@ Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LCrossSection.GetChildren"></a>
+
 ### LCrossSection.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id1"></a>
 
 ### LCrossSection.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
@@ -181,17 +233,23 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LCrossSection.AddComment"></a>
+
 ### LCrossSection.AddComment()
 
 Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LCrossSection.AddFigure"></a>
+
 ### LCrossSection.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LCrossSection.AddImage"></a>
 
 ### LCrossSection.AddImage(filePath: System.String)
 
@@ -201,11 +259,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LCrossSection.Activate"></a>
+
 ### LCrossSection.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LCrossSection.CopyTo"></a>
 
 ### LCrossSection.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -213,11 +275,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LCrossSection.Duplicate"></a>
+
 ### LCrossSection.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LCrossSection.GroupAllSimilarChildren"></a>
 
 ### LCrossSection.GroupAllSimilarChildren()
 
@@ -225,17 +291,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LCrossSection.GroupSimilarObjects"></a>
+
 ### LCrossSection.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LCrossSection.PropertyByName"></a>
+
 ### LCrossSection.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LCrossSection.PropertyByAPIName"></a>
 
 ### LCrossSection.PropertyByAPIName(name: System.String)
 
@@ -244,17 +316,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LCrossSection.CreateParameter"></a>
+
 ### LCrossSection.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LCrossSection.GetParameter"></a>
+
 ### LCrossSection.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LCrossSection.RemoveParameter"></a>
 
 ### LCrossSection.RemoveParameter(propName: System.String)
 

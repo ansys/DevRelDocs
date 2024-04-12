@@ -1,10 +1,16 @@
+<a id="geometryimportpreferences"></a>
+
 # GeometryImportPreferences
+
+<a id="GeometryImportPreferences"></a>
 
 ### *class* GeometryImportPreferences
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -37,13 +43,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`StitchTolerance`](#GeometryImportPreferences.StitchTolerance)                                                                        | If StitchType is User, specifies the tolerance to use for stitching detection.           |
 | [`FacetQuality`](../../../Mechanical/DataModel/Enums/GeometryImportPreference/FacetQuality.md#FacetQuality)                            | Specifies what facet quality should be used for the import.                              |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Mechanical.Utilities import GeometryImportPreferences
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="GeometryImportPreferences.ProcessSolids"></a>
 
 ### *property* GeometryImportPreferences.ProcessSolids *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -51,11 +63,15 @@ Import solid bodies.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeometryImportPreferences.ProcessSurfaces"></a>
+
 ### *property* GeometryImportPreferences.ProcessSurfaces *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Import surface bodies.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GeometryImportPreferences.ProcessLines"></a>
 
 ### *property* GeometryImportPreferences.ProcessLines *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -63,11 +79,15 @@ Import lines bodies.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeometryImportPreferences.ProcessAttributes"></a>
+
 ### *property* GeometryImportPreferences.ProcessAttributes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Import CAD system attributes.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GeometryImportPreferences.AttributeKey"></a>
 
 ### *property* GeometryImportPreferences.AttributeKey *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -77,11 +97,15 @@ everything.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeometryImportPreferences.ProcessNamedSelections"></a>
+
 ### *property* GeometryImportPreferences.ProcessNamedSelections *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Import/create named selections.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GeometryImportPreferences.NamedSelectionKey"></a>
 
 ### *property* GeometryImportPreferences.NamedSelectionKey *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -90,11 +114,15 @@ prefix. Multiple semicolon-delimited filters may be specified.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeometryImportPreferences.ProcessMaterialProperties"></a>
+
 ### *property* GeometryImportPreferences.ProcessMaterialProperties *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Import primary material data defined in the CAD source.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GeometryImportPreferences.AnalysisType"></a>
 
 ### *property* GeometryImportPreferences.AnalysisType *: [Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.AnalysisType](../../../Mechanical/DataModel/Enums/GeometryImportPreference/AnalysisType.md#AnalysisType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -102,17 +130,23 @@ Specify the analysis type to target during import.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeometryImportPreferences.CADAssociativity"></a>
+
 ### *property* GeometryImportPreferences.CADAssociativity *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Allow associativity.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeometryImportPreferences.ProcessCoordinateSystems"></a>
+
 ### *property* GeometryImportPreferences.ProcessCoordinateSystems *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Import coordinate systems defined in the CAD source.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GeometryImportPreferences.CoordinateSystemKey"></a>
 
 ### *property* GeometryImportPreferences.CoordinateSystemKey *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -122,11 +156,15 @@ everything.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeometryImportPreferences.ProcessWorkPoints"></a>
+
 ### *property* GeometryImportPreferences.ProcessWorkPoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Import work points.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GeometryImportPreferences.ReaderSaveFile"></a>
 
 ### *property* GeometryImportPreferences.ReaderSaveFile *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -134,11 +172,15 @@ Save the part file of a model after the import.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeometryImportPreferences.ProcessInstances"></a>
+
 ### *property* GeometryImportPreferences.ProcessInstances *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Honor part instance specifications.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GeometryImportPreferences.DoSmartUpdate"></a>
 
 ### *property* GeometryImportPreferences.DoSmartUpdate *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -147,11 +189,15 @@ preferences to be ignored during refresh.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeometryImportPreferences.ComparePartsOnUpdate"></a>
+
 ### *property* GeometryImportPreferences.ComparePartsOnUpdate *: [Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.ComparePartsOnUpdate](../../../Mechanical/DataModel/Enums/GeometryImportPreference/ComparePartsOnUpdate.md#ComparePartsOnUpdate) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Enable mesh preservation on refresh for unmodified entities.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GeometryImportPreferences.ComparePartsTolerance"></a>
 
 ### *property* GeometryImportPreferences.ComparePartsTolerance *: [Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.ComparePartsTolerance](../../../Mechanical/DataModel/Enums/GeometryImportPreference/ComparePartsTolerance.md#ComparePartsTolerance) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -159,11 +205,15 @@ Specifies the tolerance to use when comparing parts.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeometryImportPreferences.EnclosureSymmetryProcessing"></a>
+
 ### *property* GeometryImportPreferences.EnclosureSymmetryProcessing *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Enable the processing of enclosure and symmetry named selections.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GeometryImportPreferences.DecomposeDisjointGeometry"></a>
 
 ### *property* GeometryImportPreferences.DecomposeDisjointGeometry *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -172,6 +222,8 @@ interfaces:
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeometryImportPreferences.MixedImportResolution"></a>
+
 ### *property* GeometryImportPreferences.MixedImportResolution *: [Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.MixedImportResolution](../../../Mechanical/DataModel/Enums/GeometryImportPreference/MixedImportResolution.md#MixedImportResolution) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Allows mixed-dimension parts to be imported as assembly components with parts of
@@ -179,11 +231,15 @@ different dimensions.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeometryImportPreferences.Clean"></a>
+
 ### *property* GeometryImportPreferences.Clean *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Clean unwanted features when importing geometry.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GeometryImportPreferences.StitchType"></a>
 
 ### *property* GeometryImportPreferences.StitchType *: [Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.StitchSurfacesOnImport](../../../Mechanical/DataModel/Enums/GeometryImportPreference/StitchSurfacesOnImport.md#StitchSurfacesOnImport) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -191,11 +247,15 @@ Specifies how surfaces should be stitched together.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeometryImportPreferences.StitchTolerance"></a>
+
 ### *property* GeometryImportPreferences.StitchTolerance *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
 If StitchType is User, specifies the tolerance to use for stitching detection.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GeometryImportPreferences.FacetQuality"></a>
 
 ### *property* GeometryImportPreferences.FacetQuality *: [Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.FacetQuality](../../../Mechanical/DataModel/Enums/GeometryImportPreference/FacetQuality.md#FacetQuality) | [None](https://docs.python.org/3/library/constants.html#None)*
 

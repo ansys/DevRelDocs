@@ -1,4 +1,8 @@
+<a id="rotationalacceleration"></a>
+
 # RotationalAcceleration
+
+<a id="RotationalAcceleration"></a>
 
 ### *class* RotationalAcceleration
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a RotationalAcceleration.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -58,13 +64,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#RotationalAcceleration.Properties)                                                                     | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#RotationalAcceleration.VisibleProperties)                                                       | Gets the list of properties that are visible for this object. |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.BoundaryConditions import RotationalAcceleration
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="RotationalAcceleration.Location"></a>
 
 ### *property* RotationalAcceleration.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -72,11 +84,15 @@ Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="RotationalAcceleration.InternalObject"></a>
+
 ### *property* RotationalAcceleration.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSRotationAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="RotationalAcceleration.XComponent"></a>
 
 ### *property* RotationalAcceleration.XComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -84,11 +100,15 @@ Gets the XComponent.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="RotationalAcceleration.YComponent"></a>
+
 ### *property* RotationalAcceleration.YComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the YComponent.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="RotationalAcceleration.ZComponent"></a>
 
 ### *property* RotationalAcceleration.ZComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -96,11 +116,15 @@ Gets the ZComponent.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="RotationalAcceleration.Magnitude"></a>
+
 ### *property* RotationalAcceleration.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Magnitude.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="RotationalAcceleration.XCoordinate"></a>
 
 ### *property* RotationalAcceleration.XCoordinate *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -108,11 +132,15 @@ Gets or sets the XCoordinate.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="RotationalAcceleration.YCoordinate"></a>
+
 ### *property* RotationalAcceleration.YCoordinate *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the YCoordinate.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="RotationalAcceleration.ZCoordinate"></a>
 
 ### *property* RotationalAcceleration.ZCoordinate *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -120,11 +148,15 @@ Gets or sets the ZCoordinate.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="RotationalAcceleration.DefineBy"></a>
+
 ### *property* RotationalAcceleration.DefineBy *: [Ansys.Mechanical.DataModel.Enums.LoadDefineBy](../../../../Mechanical/DataModel/Enums/LoadDefineBy.md#LoadDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DefineBy.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="RotationalAcceleration.IndependentVariable"></a>
 
 ### *property* RotationalAcceleration.IndependentVariable *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -132,11 +164,15 @@ Gets or sets the IndependentVariable.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="RotationalAcceleration.CoordinateSystem"></a>
+
 ### *property* RotationalAcceleration.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="RotationalAcceleration.DataModelObjectCategory"></a>
 
 ### *property* RotationalAcceleration.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -144,11 +180,15 @@ Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="RotationalAcceleration.Axis"></a>
+
 ### *property* RotationalAcceleration.Axis *: [Ansys.Mechanical.Math.BoundVector](../../../../Mechanical/Math/BoundVector.md#BoundVector) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Axis.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="RotationalAcceleration.NumberOfSegments"></a>
 
 ### *property* RotationalAcceleration.NumberOfSegments *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -156,11 +196,15 @@ Gets or sets the NumberOfSegments.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="RotationalAcceleration.Suppressed"></a>
+
 ### *property* RotationalAcceleration.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="RotationalAcceleration.Children"></a>
 
 ### *property* RotationalAcceleration.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -168,11 +212,15 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="RotationalAcceleration.Comments"></a>
+
 ### *property* RotationalAcceleration.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="RotationalAcceleration.Figures"></a>
 
 ### *property* RotationalAcceleration.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -180,11 +228,15 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="RotationalAcceleration.Images"></a>
+
 ### *property* RotationalAcceleration.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="RotationalAcceleration.ReadOnly"></a>
 
 ### *property* RotationalAcceleration.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -192,11 +244,15 @@ Gets or sets the ReadOnly.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id0"></a>
+
 ### *property* RotationalAcceleration.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="RotationalAcceleration.Properties"></a>
 
 ### *property* RotationalAcceleration.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -204,13 +260,19 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="RotationalAcceleration.VisibleProperties"></a>
+
 ### *property* RotationalAcceleration.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="RotationalAcceleration.Delete"></a>
 
 ### RotationalAcceleration.Delete()
 
@@ -218,11 +280,15 @@ Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="RotationalAcceleration.GetChildren"></a>
+
 ### RotationalAcceleration.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id1"></a>
 
 ### RotationalAcceleration.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
@@ -230,17 +296,23 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="RotationalAcceleration.AddComment"></a>
+
 ### RotationalAcceleration.AddComment()
 
 Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="RotationalAcceleration.AddFigure"></a>
+
 ### RotationalAcceleration.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="RotationalAcceleration.AddImage"></a>
 
 ### RotationalAcceleration.AddImage(filePath: System.String)
 
@@ -250,11 +322,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="RotationalAcceleration.Activate"></a>
+
 ### RotationalAcceleration.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="RotationalAcceleration.CopyTo"></a>
 
 ### RotationalAcceleration.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -262,11 +338,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="RotationalAcceleration.Duplicate"></a>
+
 ### RotationalAcceleration.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="RotationalAcceleration.GroupAllSimilarChildren"></a>
 
 ### RotationalAcceleration.GroupAllSimilarChildren()
 
@@ -274,17 +354,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="RotationalAcceleration.GroupSimilarObjects"></a>
+
 ### RotationalAcceleration.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="RotationalAcceleration.PropertyByName"></a>
+
 ### RotationalAcceleration.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="RotationalAcceleration.PropertyByAPIName"></a>
 
 ### RotationalAcceleration.PropertyByAPIName(name: System.String)
 
@@ -293,17 +379,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="RotationalAcceleration.CreateParameter"></a>
+
 ### RotationalAcceleration.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="RotationalAcceleration.GetParameter"></a>
+
 ### RotationalAcceleration.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="RotationalAcceleration.RemoveParameter"></a>
 
 ### RotationalAcceleration.RemoveParameter(propName: System.String)
 

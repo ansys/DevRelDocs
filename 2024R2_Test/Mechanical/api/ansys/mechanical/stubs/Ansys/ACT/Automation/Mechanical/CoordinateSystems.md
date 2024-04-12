@@ -1,4 +1,8 @@
+<a id="coordinatesystems"></a>
+
 # CoordinateSystems
+
+<a id="CoordinateSystems"></a>
 
 ### *class* CoordinateSystems
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a CoordinateSystems.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -44,13 +50,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#CoordinateSystems.Properties)                                                                       | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#CoordinateSystems.VisibleProperties)                                                         | Gets the list of properties that are visible for this object. |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical import CoordinateSystems
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="CoordinateSystems.InternalObject"></a>
 
 ### *property* CoordinateSystems.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSCoordinateSystemGroupAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -58,11 +70,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CoordinateSystems.DataModelObjectCategory"></a>
+
 ### *property* CoordinateSystems.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystems.Children"></a>
 
 ### *property* CoordinateSystems.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -70,11 +86,15 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CoordinateSystems.Comments"></a>
+
 ### *property* CoordinateSystems.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystems.Figures"></a>
 
 ### *property* CoordinateSystems.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -82,11 +102,15 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CoordinateSystems.Images"></a>
+
 ### *property* CoordinateSystems.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id0"></a>
 
 ### *property* CoordinateSystems.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -94,11 +118,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CoordinateSystems.Properties"></a>
+
 ### *property* CoordinateSystems.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystems.VisibleProperties"></a>
 
 ### *property* CoordinateSystems.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -106,7 +134,11 @@ Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="CoordinateSystems.AddCoordinateSystemAtCenterOfMass"></a>
 
 ### CoordinateSystems.AddCoordinateSystemAtCenterOfMass(geoBodies: System.Collections.Generic.IList[Ansys.ACT.Interfaces.Geometry.IBaseGeoBody], pointMasses: System.Collections.Generic.IList[[Ansys.ACT.Automation.Mechanical.PointMass](PointMass.md#PointMass)], distributedMasses: System.Collections.Generic.IList[[Ansys.ACT.Automation.Mechanical.DistributedMass](DistributedMass.md#DistributedMass)])
 
@@ -114,11 +146,15 @@ AddCoordinateSystemAtCenterOfMass method.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CoordinateSystems.AddCoordinateSystem"></a>
+
 ### CoordinateSystems.AddCoordinateSystem()
 
 Creates a new CoordinateSystem
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystems.GetChildren"></a>
 
 ### CoordinateSystems.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
@@ -126,11 +162,15 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id1"></a>
+
 ### CoordinateSystems.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystems.AddComment"></a>
 
 ### CoordinateSystems.AddComment()
 
@@ -138,11 +178,15 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CoordinateSystems.AddFigure"></a>
+
 ### CoordinateSystems.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystems.AddImage"></a>
 
 ### CoordinateSystems.AddImage(filePath: System.String)
 
@@ -152,11 +196,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CoordinateSystems.Activate"></a>
+
 ### CoordinateSystems.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystems.CopyTo"></a>
 
 ### CoordinateSystems.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -164,11 +212,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CoordinateSystems.Duplicate"></a>
+
 ### CoordinateSystems.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystems.GroupAllSimilarChildren"></a>
 
 ### CoordinateSystems.GroupAllSimilarChildren()
 
@@ -176,17 +228,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CoordinateSystems.GroupSimilarObjects"></a>
+
 ### CoordinateSystems.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CoordinateSystems.PropertyByName"></a>
+
 ### CoordinateSystems.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystems.PropertyByAPIName"></a>
 
 ### CoordinateSystems.PropertyByAPIName(name: System.String)
 
@@ -195,17 +253,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CoordinateSystems.CreateParameter"></a>
+
 ### CoordinateSystems.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CoordinateSystems.GetParameter"></a>
+
 ### CoordinateSystems.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystems.RemoveParameter"></a>
 
 ### CoordinateSystems.RemoveParameter(propName: System.String)
 

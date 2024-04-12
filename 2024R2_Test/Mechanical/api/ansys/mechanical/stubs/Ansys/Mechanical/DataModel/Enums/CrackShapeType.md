@@ -1,4 +1,8 @@
+<a id="crackshapetype"></a>
+
 # CrackShapeType
+
+<a id="CrackShapeType"></a>
 
 ### *class* CrackShapeType
 
@@ -7,6 +11,8 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 > Specifies the CrackShapeType.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -22,26 +28,46 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 | [`SemiElliptical`](#CrackShapeType.SemiElliptical) |    |
 | [`Through`](#CrackShapeType.Through)               |    |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.Mechanical.DataModel.Enums import CrackShapeType
 ```
 
+<a id="attribute-detail"></a>
+
 ## Attribute detail
+
+<a id="CrackShapeType.Arbitrary"></a>
 
 ### CrackShapeType.Arbitrary *= 2*
 
+<a id="CrackShapeType.Corner"></a>
+
 ### CrackShapeType.Corner *= 5*
+
+<a id="CrackShapeType.Cylindrical"></a>
 
 ### CrackShapeType.Cylindrical *= 8*
 
+<a id="CrackShapeType.Edge"></a>
+
 ### CrackShapeType.Edge *= 6*
+
+<a id="CrackShapeType.Elliptical"></a>
 
 ### CrackShapeType.Elliptical *= 4*
 
+<a id="CrackShapeType.Ring"></a>
+
 ### CrackShapeType.Ring *= 3*
 
+<a id="CrackShapeType.SemiElliptical"></a>
+
 ### CrackShapeType.SemiElliptical *= 1*
+
+<a id="CrackShapeType.Through"></a>
 
 ### CrackShapeType.Through *= 7*

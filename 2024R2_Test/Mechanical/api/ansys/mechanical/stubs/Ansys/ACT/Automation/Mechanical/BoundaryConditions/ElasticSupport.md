@@ -1,4 +1,8 @@
+<a id="elasticsupport"></a>
+
 # ElasticSupport
+
+<a id="ElasticSupport"></a>
 
 ### *class* ElasticSupport
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a ElasticSupport.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -49,13 +55,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#ElasticSupport.Properties)                                                                             | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#ElasticSupport.VisibleProperties)                                                               | Gets the list of properties that are visible for this object. |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.BoundaryConditions import ElasticSupport
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="ElasticSupport.InternalObject"></a>
 
 ### *property* ElasticSupport.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -63,11 +75,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticSupport.FoundationStiffness"></a>
+
 ### *property* ElasticSupport.FoundationStiffness *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FoundationStiffness.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElasticSupport.Location"></a>
 
 ### *property* ElasticSupport.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -75,11 +91,15 @@ Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticSupport.DataModelObjectCategory"></a>
+
 ### *property* ElasticSupport.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElasticSupport.Suppressed"></a>
 
 ### *property* ElasticSupport.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -87,11 +107,15 @@ Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticSupport.SharedRefBody"></a>
+
 ### *property* ElasticSupport.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElasticSupport.Children"></a>
 
 ### *property* ElasticSupport.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -99,11 +123,15 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticSupport.Comments"></a>
+
 ### *property* ElasticSupport.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElasticSupport.Figures"></a>
 
 ### *property* ElasticSupport.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -111,11 +139,15 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticSupport.Images"></a>
+
 ### *property* ElasticSupport.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElasticSupport.ReadOnly"></a>
 
 ### *property* ElasticSupport.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -123,11 +155,15 @@ Gets or sets the ReadOnly.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id0"></a>
+
 ### *property* ElasticSupport.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElasticSupport.Properties"></a>
 
 ### *property* ElasticSupport.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -135,13 +171,19 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticSupport.VisibleProperties"></a>
+
 ### *property* ElasticSupport.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="ElasticSupport.PromoteToNamedSelection"></a>
 
 ### ElasticSupport.PromoteToNamedSelection()
 
@@ -149,11 +191,15 @@ Run the PromoteToNamedSelection action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticSupport.Delete"></a>
+
 ### ElasticSupport.Delete()
 
 Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElasticSupport.GetChildren"></a>
 
 ### ElasticSupport.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
@@ -161,11 +207,15 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id1"></a>
+
 ### ElasticSupport.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElasticSupport.AddComment"></a>
 
 ### ElasticSupport.AddComment()
 
@@ -173,11 +223,15 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticSupport.AddFigure"></a>
+
 ### ElasticSupport.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElasticSupport.AddImage"></a>
 
 ### ElasticSupport.AddImage(filePath: System.String)
 
@@ -187,11 +241,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticSupport.Activate"></a>
+
 ### ElasticSupport.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElasticSupport.CopyTo"></a>
 
 ### ElasticSupport.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -199,11 +257,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticSupport.Duplicate"></a>
+
 ### ElasticSupport.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElasticSupport.GroupAllSimilarChildren"></a>
 
 ### ElasticSupport.GroupAllSimilarChildren()
 
@@ -211,17 +273,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticSupport.GroupSimilarObjects"></a>
+
 ### ElasticSupport.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticSupport.PropertyByName"></a>
+
 ### ElasticSupport.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElasticSupport.PropertyByAPIName"></a>
 
 ### ElasticSupport.PropertyByAPIName(name: System.String)
 
@@ -230,17 +298,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticSupport.CreateParameter"></a>
+
 ### ElasticSupport.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticSupport.GetParameter"></a>
+
 ### ElasticSupport.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElasticSupport.RemoveParameter"></a>
 
 ### ElasticSupport.RemoveParameter(propName: System.String)
 

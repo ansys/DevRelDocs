@@ -1,4 +1,8 @@
+<a id="elasticstrainfrequencyresponse"></a>
+
 # ElasticStrainFrequencyResponse
+
+<a id="ElasticStrainFrequencyResponse"></a>
 
 ### *class* ElasticStrainFrequencyResponse
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a ElasticStrainFrequencyResponse.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -87,13 +93,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#ElasticStrainFrequencyResponse.Properties)                                                                | Gets the list of properties for this object.                                                     |
 | [`VisibleProperties`](#ElasticStrainFrequencyResponse.VisibleProperties)                                                  | Gets the list of properties that are visible for this object.                                    |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.Results.FrequencyResponseResults import ElasticStrainFrequencyResponse
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="ElasticStrainFrequencyResponse.InternalObject"></a>
 
 ### *property* ElasticStrainFrequencyResponse.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultChartAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -101,11 +113,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticStrainFrequencyResponse.DataModelObjectCategory"></a>
+
 ### *property* ElasticStrainFrequencyResponse.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElasticStrainFrequencyResponse.CoordinateSystem"></a>
 
 ### *property* ElasticStrainFrequencyResponse.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -113,11 +129,15 @@ Gets or sets the CoordinateSystem. Accepts/Returns None if it is the Solution Co
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticStrainFrequencyResponse.RemotePointSelection"></a>
+
 ### *property* ElasticStrainFrequencyResponse.RemotePointSelection *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../../RemotePoint.md#RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RemotePointSelection.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElasticStrainFrequencyResponse.IsSolved"></a>
 
 ### *property* ElasticStrainFrequencyResponse.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -125,11 +145,15 @@ Gets the IsSolved.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticStrainFrequencyResponse.ChartDimensions"></a>
+
 ### *property* ElasticStrainFrequencyResponse.ChartDimensions *: [Ansys.Mechanical.DataModel.Enums.ChartDimensions](../../../../../Mechanical/DataModel/Enums/ChartDimensions.md#ChartDimensions) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Chart Dimensions
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElasticStrainFrequencyResponse.BoundaryCondition"></a>
 
 ### *property* ElasticStrainFrequencyResponse.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](../../BoundaryConditions/GenericBoundaryCondition.md#GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -137,11 +161,15 @@ Gets or sets the BoundaryCondition.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticStrainFrequencyResponse.CutFrequency"></a>
+
 ### *property* ElasticStrainFrequencyResponse.CutFrequency *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CutFrequency.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElasticStrainFrequencyResponse.SectorNumber"></a>
 
 ### *property* ElasticStrainFrequencyResponse.SectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -149,11 +177,15 @@ Gets or sets the SectorNumber.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticStrainFrequencyResponse.GeometrySelectionString"></a>
+
 ### *property* ElasticStrainFrequencyResponse.GeometrySelectionString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GeometrySelectionString.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElasticStrainFrequencyResponse.LoadStepNumber"></a>
 
 ### *property* ElasticStrainFrequencyResponse.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -161,11 +193,15 @@ Gets or sets the LoadStepNumber.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticStrainFrequencyResponse.ReportedFrequency"></a>
+
 ### *property* ElasticStrainFrequencyResponse.ReportedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ReportedFrequency.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElasticStrainFrequencyResponse.Duration"></a>
 
 ### *property* ElasticStrainFrequencyResponse.Duration *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -173,11 +209,15 @@ Gets or sets the Duration.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticStrainFrequencyResponse.FilterMaximum"></a>
+
 ### *property* ElasticStrainFrequencyResponse.FilterMaximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the FilterMaximum.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElasticStrainFrequencyResponse.FilterMinimum"></a>
 
 ### *property* ElasticStrainFrequencyResponse.FilterMinimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -185,11 +225,15 @@ Gets the FilterMinimum.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticStrainFrequencyResponse.FrequencyAtMaximumAmplitude"></a>
+
 ### *property* ElasticStrainFrequencyResponse.FrequencyAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the FrequencyAtMaximumAmplitude.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElasticStrainFrequencyResponse.ImaginaryAtMaximumAmplitude"></a>
 
 ### *property* ElasticStrainFrequencyResponse.ImaginaryAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -197,11 +241,15 @@ Gets the ImaginaryAtMaximumAmplitude.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticStrainFrequencyResponse.MaximumAmplitude"></a>
+
 ### *property* ElasticStrainFrequencyResponse.MaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumAmplitude.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElasticStrainFrequencyResponse.MaximumFrequency"></a>
 
 ### *property* ElasticStrainFrequencyResponse.MaximumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -209,11 +257,15 @@ Gets or sets the MaximumFrequency.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticStrainFrequencyResponse.Maximum"></a>
+
 ### *property* ElasticStrainFrequencyResponse.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Maximum.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElasticStrainFrequencyResponse.MinimumFrequency"></a>
 
 ### *property* ElasticStrainFrequencyResponse.MinimumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -221,11 +273,15 @@ Gets or sets the MinimumFrequency.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticStrainFrequencyResponse.Minimum"></a>
+
 ### *property* ElasticStrainFrequencyResponse.Minimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Minimum.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElasticStrainFrequencyResponse.PhaseAngle"></a>
 
 ### *property* ElasticStrainFrequencyResponse.PhaseAngle *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -233,11 +289,15 @@ Gets the PhaseAngle.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticStrainFrequencyResponse.RealAtMaximumAmplitude"></a>
+
 ### *property* ElasticStrainFrequencyResponse.RealAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the RealAtMaximumAmplitude.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElasticStrainFrequencyResponse.RequestedFrequency"></a>
 
 ### *property* ElasticStrainFrequencyResponse.RequestedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -245,11 +305,15 @@ Gets or sets the RequestedFrequency.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticStrainFrequencyResponse.AccelerationType"></a>
+
 ### *property* ElasticStrainFrequencyResponse.AccelerationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AccelerationType.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElasticStrainFrequencyResponse.ChartViewingStyle"></a>
 
 ### *property* ElasticStrainFrequencyResponse.ChartViewingStyle *: [Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType](../../../../../Mechanical/DataModel/Enums/ChartAxisScaleType.md#ChartAxisScaleType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -257,11 +321,15 @@ Gets or sets the ChartViewingStyle.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticStrainFrequencyResponse.DeformationType"></a>
+
 ### *property* ElasticStrainFrequencyResponse.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DeformationType.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElasticStrainFrequencyResponse.FilterType"></a>
 
 ### *property* ElasticStrainFrequencyResponse.FilterType *: [Ansys.Mechanical.DataModel.Enums.FilterType](../../../../../Mechanical/DataModel/Enums/FilterType.md#FilterType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -269,11 +337,15 @@ Gets or sets the FilterType.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticStrainFrequencyResponse.SpatialResolution"></a>
+
 ### *property* ElasticStrainFrequencyResponse.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MultipleNodeType](../../../../../Mechanical/DataModel/Enums/MultipleNodeType.md#MultipleNodeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SpatialResolution.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElasticStrainFrequencyResponse.NormalOrientation"></a>
 
 ### *property* ElasticStrainFrequencyResponse.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -281,11 +353,15 @@ Gets or sets the NormalOrientation.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticStrainFrequencyResponse.CurvesAppearanceDisplay"></a>
+
 ### *property* ElasticStrainFrequencyResponse.CurvesAppearanceDisplay *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](../../../../../Mechanical/DataModel/Enums/ChartPlotStyle.md#ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CurvesAppearanceDisplay.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElasticStrainFrequencyResponse.ResultChartType"></a>
 
 ### *property* ElasticStrainFrequencyResponse.ResultChartType *: [Ansys.Mechanical.DataModel.Enums.ChartResultType](../../../../../Mechanical/DataModel/Enums/ChartResultType.md#ChartResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -293,11 +369,15 @@ Gets the ResultChartType.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticStrainFrequencyResponse.DpfEvaluation"></a>
+
 ### *property* ElasticStrainFrequencyResponse.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DpfEvaluation.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElasticStrainFrequencyResponse.XAxisValues"></a>
 
 ### *property* ElasticStrainFrequencyResponse.XAxisValues *: [Ansys.Mechanical.DataModel.Enums.XAxisValues](../../../../../Mechanical/DataModel/Enums/XAxisValues.md#XAxisValues) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -305,11 +385,15 @@ Gets or sets the XAxisValues.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticStrainFrequencyResponse.ShearOrientation"></a>
+
 ### *property* ElasticStrainFrequencyResponse.ShearOrientation *: [Ansys.Mechanical.DataModel.Enums.ShearOrientationType](../../../../../Mechanical/DataModel/Enums/ShearOrientationType.md#ShearOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShearOrientation.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElasticStrainFrequencyResponse.StressStrainType"></a>
 
 ### *property* ElasticStrainFrequencyResponse.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](../../../../../Mechanical/DataModel/Enums/StressStrainType.md#StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -317,11 +401,15 @@ Gets or sets the StressStrainType.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticStrainFrequencyResponse.TimeHistoryDisplay"></a>
+
 ### *property* ElasticStrainFrequencyResponse.TimeHistoryDisplay *: [Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType](../../../../../Mechanical/DataModel/Enums/TimeHistoryDisplayType.md#TimeHistoryDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TimeHistoryDisplay.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElasticStrainFrequencyResponse.VelocityType"></a>
 
 ### *property* ElasticStrainFrequencyResponse.VelocityType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -329,11 +417,15 @@ Gets or sets the VelocityType.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticStrainFrequencyResponse.Suppressed"></a>
+
 ### *property* ElasticStrainFrequencyResponse.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElasticStrainFrequencyResponse.EnhancedTracking"></a>
 
 ### *property* ElasticStrainFrequencyResponse.EnhancedTracking *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -341,11 +433,15 @@ Gets the EnhancedTracking.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticStrainFrequencyResponse.UseParentFrequencyRange"></a>
+
 ### *property* ElasticStrainFrequencyResponse.UseParentFrequencyRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UseParentFrequencyRange.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElasticStrainFrequencyResponse.Spring"></a>
 
 ### *property* ElasticStrainFrequencyResponse.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../Connections/Spring.md#Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -353,11 +449,15 @@ Gets or sets the Spring.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticStrainFrequencyResponse.Location"></a>
+
 ### *property* ElasticStrainFrequencyResponse.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElasticStrainFrequencyResponse.Children"></a>
 
 ### *property* ElasticStrainFrequencyResponse.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -365,11 +465,15 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticStrainFrequencyResponse.Comments"></a>
+
 ### *property* ElasticStrainFrequencyResponse.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElasticStrainFrequencyResponse.Images"></a>
 
 ### *property* ElasticStrainFrequencyResponse.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -377,11 +481,15 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id0"></a>
+
 ### *property* ElasticStrainFrequencyResponse.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElasticStrainFrequencyResponse.Properties"></a>
 
 ### *property* ElasticStrainFrequencyResponse.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -389,13 +497,19 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticStrainFrequencyResponse.VisibleProperties"></a>
+
 ### *property* ElasticStrainFrequencyResponse.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="ElasticStrainFrequencyResponse.ExportAnimation"></a>
 
 ### ElasticStrainFrequencyResponse.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#AnimationExportSettings))
 
@@ -403,11 +517,15 @@ Run the ExportAnimation action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticStrainFrequencyResponse.ClearGeneratedData"></a>
+
 ### ElasticStrainFrequencyResponse.ClearGeneratedData()
 
 Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElasticStrainFrequencyResponse.EvaluateAllResults"></a>
 
 ### ElasticStrainFrequencyResponse.EvaluateAllResults()
 
@@ -415,11 +533,15 @@ Run the EvaluateAllResults action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticStrainFrequencyResponse.RenameBasedOnDefinition"></a>
+
 ### ElasticStrainFrequencyResponse.RenameBasedOnDefinition()
 
 Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElasticStrainFrequencyResponse.Delete"></a>
 
 ### ElasticStrainFrequencyResponse.Delete()
 
@@ -427,11 +549,15 @@ Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticStrainFrequencyResponse.GetChildren"></a>
+
 ### ElasticStrainFrequencyResponse.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id1"></a>
 
 ### ElasticStrainFrequencyResponse.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
@@ -439,11 +565,15 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticStrainFrequencyResponse.AddComment"></a>
+
 ### ElasticStrainFrequencyResponse.AddComment()
 
 Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElasticStrainFrequencyResponse.AddImage"></a>
 
 ### ElasticStrainFrequencyResponse.AddImage(filePath: System.String)
 
@@ -453,11 +583,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticStrainFrequencyResponse.Activate"></a>
+
 ### ElasticStrainFrequencyResponse.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElasticStrainFrequencyResponse.CopyTo"></a>
 
 ### ElasticStrainFrequencyResponse.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -465,11 +599,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticStrainFrequencyResponse.Duplicate"></a>
+
 ### ElasticStrainFrequencyResponse.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElasticStrainFrequencyResponse.GroupAllSimilarChildren"></a>
 
 ### ElasticStrainFrequencyResponse.GroupAllSimilarChildren()
 
@@ -477,17 +615,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticStrainFrequencyResponse.GroupSimilarObjects"></a>
+
 ### ElasticStrainFrequencyResponse.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticStrainFrequencyResponse.PropertyByName"></a>
+
 ### ElasticStrainFrequencyResponse.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElasticStrainFrequencyResponse.PropertyByAPIName"></a>
 
 ### ElasticStrainFrequencyResponse.PropertyByAPIName(name: System.String)
 
@@ -496,17 +640,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticStrainFrequencyResponse.CreateParameter"></a>
+
 ### ElasticStrainFrequencyResponse.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElasticStrainFrequencyResponse.GetParameter"></a>
+
 ### ElasticStrainFrequencyResponse.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElasticStrainFrequencyResponse.RemoveParameter"></a>
 
 ### ElasticStrainFrequencyResponse.RemoveParameter(propName: System.String)
 

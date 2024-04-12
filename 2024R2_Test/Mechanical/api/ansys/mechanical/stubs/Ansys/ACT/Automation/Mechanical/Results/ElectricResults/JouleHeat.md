@@ -1,4 +1,8 @@
+<a id="jouleheat"></a>
+
 # JouleHeat
+
+<a id="JouleHeat"></a>
 
 ### *class* JouleHeat
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a JouleHeat.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -107,13 +113,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#JouleHeat.Properties)                                                                                     | Gets the list of properties for this object.                           |
 | [`VisibleProperties`](#JouleHeat.VisibleProperties)                                                                       | Gets the list of properties that are visible for this object.          |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.Results.ElectricResults import JouleHeat
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="JouleHeat.InternalObject"></a>
 
 ### *property* JouleHeat.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -121,11 +133,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="JouleHeat.DataModelObjectCategory"></a>
+
 ### *property* JouleHeat.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="JouleHeat.ReportedFrequency"></a>
 
 ### *property* JouleHeat.ReportedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -133,11 +149,15 @@ Gets the ReportedFrequency.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="JouleHeat.SweepingPhase"></a>
+
 ### *property* JouleHeat.SweepingPhase *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SweepingPhase.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="JouleHeat.PhaseIncrement"></a>
 
 ### *property* JouleHeat.PhaseIncrement *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -145,11 +165,15 @@ Gets or sets the PhaseIncrement.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="JouleHeat.Frequency"></a>
+
 ### *property* JouleHeat.Frequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Frequency.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="JouleHeat.ElectricResultType"></a>
 
 ### *property* JouleHeat.ElectricResultType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -157,11 +181,15 @@ Gets or sets the ElectricResultType.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="JouleHeat.Amplitude"></a>
+
 ### *property* JouleHeat.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Amplitude.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="JouleHeat.AverageAcrossBodies"></a>
 
 ### *property* JouleHeat.AverageAcrossBodies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -169,11 +197,15 @@ Gets or sets the AverageAcrossBodies.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="JouleHeat.PlotData"></a>
+
 ### *property* JouleHeat.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../Mechanical/DataModel/Results/ResultDataTable.md#ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the result table.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="JouleHeat.Location"></a>
 
 ### *property* JouleHeat.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -181,11 +213,15 @@ Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="JouleHeat.TimeForMinimumOfMinimumValues"></a>
+
 ### *property* JouleHeat.TimeForMinimumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Time for the minimum of minimum values.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="JouleHeat.TimeForMinimumOfMaximumValues"></a>
 
 ### *property* JouleHeat.TimeForMinimumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -193,11 +229,15 @@ Get the Time for the minimum of maximum values.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="JouleHeat.LoadStepForMinimumOfMinimumValues"></a>
+
 ### *property* JouleHeat.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="JouleHeat.LoadStepForMinimumOfMaximumValues"></a>
 
 ### *property* JouleHeat.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -205,11 +245,15 @@ Get the Load Step for the minimum of maximum values.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="JouleHeat.TimeForMaximumOfMinimumValues"></a>
+
 ### *property* JouleHeat.TimeForMaximumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Time for the maximum of minimum values.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="JouleHeat.TimeForMaximumOfMaximumValues"></a>
 
 ### *property* JouleHeat.TimeForMaximumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -217,11 +261,15 @@ Get the Time for the maximum of maximum values.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="JouleHeat.LoadStepForMaximumOfMinimumValues"></a>
+
 ### *property* JouleHeat.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="JouleHeat.LoadStepForMaximumOfMaximumValues"></a>
 
 ### *property* JouleHeat.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -229,11 +277,15 @@ Get the Load Step for the maximum of maximum values.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="JouleHeat.IsSolved"></a>
+
 ### *property* JouleHeat.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="JouleHeat.CoordinateSystem"></a>
 
 ### *property* JouleHeat.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -243,11 +295,15 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="JouleHeat.ScopingMethod"></a>
+
 ### *property* JouleHeat.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="JouleHeat.SetNumber"></a>
 
 ### *property* JouleHeat.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -255,11 +311,15 @@ Gets or sets the Set Number.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="JouleHeat.CombinationNumber"></a>
+
 ### *property* JouleHeat.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="JouleHeat.SolutionCombinationDriver"></a>
 
 ### *property* JouleHeat.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -267,11 +327,15 @@ Gets or sets the SolutionCombinationDriver.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="JouleHeat.Path"></a>
+
 ### *property* JouleHeat.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../Path.md#Path) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Path property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="JouleHeat.Surface"></a>
 
 ### *property* JouleHeat.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -279,11 +343,15 @@ Surface property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="JouleHeat.NamedSelections"></a>
+
 ### *property* JouleHeat.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="JouleHeat.WaterfallPanelShowTextOnMosaic"></a>
 
 ### *property* JouleHeat.WaterfallPanelShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -291,11 +359,15 @@ Gets or sets the Waterfall Panel Mosaic Text Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="JouleHeat.CrackFrontNumber"></a>
+
 ### *property* JouleHeat.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="JouleHeat.GlobalIDs"></a>
 
 ### *property* JouleHeat.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -303,11 +375,15 @@ Gets or sets the GlobalIDs.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="JouleHeat.Identifier"></a>
+
 ### *property* JouleHeat.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="JouleHeat.IterationNumber"></a>
 
 ### *property* JouleHeat.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -315,11 +391,15 @@ Gets the IterationNumber.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="JouleHeat.LoadStep"></a>
+
 ### *property* JouleHeat.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="JouleHeat.MaximumOccursOn"></a>
 
 ### *property* JouleHeat.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -327,11 +407,15 @@ Gets the MaximumOccursOn.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="JouleHeat.MinimumOccursOn"></a>
+
 ### *property* JouleHeat.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="JouleHeat.LoadStepNumber"></a>
 
 ### *property* JouleHeat.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -339,11 +423,15 @@ Gets or sets the LoadStepNumber.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="JouleHeat.SolverComponentIDs"></a>
+
 ### *property* JouleHeat.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="JouleHeat.Substep"></a>
 
 ### *property* JouleHeat.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -351,11 +439,15 @@ Gets the Substep.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="JouleHeat.Average"></a>
+
 ### *property* JouleHeat.Average *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Average.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="JouleHeat.Maximum"></a>
 
 ### *property* JouleHeat.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -363,11 +455,15 @@ Gets the Maximum.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="JouleHeat.MaximumOfMaximumOverTime"></a>
+
 ### *property* JouleHeat.MaximumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOfMaximumOverTime.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="JouleHeat.MaximumOfMinimumOverTime"></a>
 
 ### *property* JouleHeat.MaximumOfMinimumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -375,11 +471,15 @@ Gets the MaximumOfMinimumOverTime.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="JouleHeat.Minimum"></a>
+
 ### *property* JouleHeat.Minimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Minimum.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="JouleHeat.MinimumOfMaximumOverTime"></a>
 
 ### *property* JouleHeat.MinimumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -387,11 +487,15 @@ Gets the MinimumOfMaximumOverTime.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="JouleHeat.MinimumOfMinimumOverTime"></a>
+
 ### *property* JouleHeat.MinimumOfMinimumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOfMinimumOverTime.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="JouleHeat.Time"></a>
 
 ### *property* JouleHeat.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -399,11 +503,15 @@ Gets the Time.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="JouleHeat.DisplayTime"></a>
+
 ### *property* JouleHeat.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DisplayTime.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="JouleHeat.GraphControlsXAxis"></a>
 
 ### *property* JouleHeat.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -411,11 +519,15 @@ Gets or sets the GraphControlsXAxis.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="JouleHeat.DisplayOption"></a>
+
 ### *property* JouleHeat.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../Mechanical/DataModel/Enums/ResultAveragingType.md#ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DisplayOption.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="JouleHeat.DpfEvaluation"></a>
 
 ### *property* JouleHeat.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -423,11 +535,15 @@ Gets or sets the DpfEvaluation.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="JouleHeat.By"></a>
+
 ### *property* JouleHeat.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../Mechanical/DataModel/Enums/SetDriverStyle.md#SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the By.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="JouleHeat.ItemType"></a>
 
 ### *property* JouleHeat.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../Mechanical/DataModel/Enums/ResultFileItemType.md#ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -435,11 +551,15 @@ Gets or sets the ItemType.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="JouleHeat.CalculateTimeHistory"></a>
+
 ### *property* JouleHeat.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="JouleHeat.Suppressed"></a>
 
 ### *property* JouleHeat.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -447,11 +567,15 @@ Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="JouleHeat.Children"></a>
+
 ### *property* JouleHeat.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="JouleHeat.Comments"></a>
 
 ### *property* JouleHeat.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -459,11 +583,15 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="JouleHeat.Figures"></a>
+
 ### *property* JouleHeat.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="JouleHeat.Images"></a>
 
 ### *property* JouleHeat.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -471,11 +599,15 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id0"></a>
+
 ### *property* JouleHeat.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="JouleHeat.Properties"></a>
 
 ### *property* JouleHeat.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -483,13 +615,19 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="JouleHeat.VisibleProperties"></a>
+
 ### *property* JouleHeat.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="JouleHeat.ClearGeneratedData"></a>
 
 ### JouleHeat.ClearGeneratedData()
 
@@ -497,11 +635,15 @@ Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="JouleHeat.EvaluateAllResults"></a>
+
 ### JouleHeat.EvaluateAllResults()
 
 Run the EvaluateAllResults action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="JouleHeat.FetchRemoteResults"></a>
 
 ### JouleHeat.FetchRemoteResults()
 
@@ -509,11 +651,15 @@ Run the FetchRemoteResult action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="JouleHeat.ExportToTextFile"></a>
+
 ### JouleHeat.ExportToTextFile(filePath: System.String)
 
 Run the ExportToTextFile action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="JouleHeat.ExportAnimation"></a>
 
 ### JouleHeat.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#AnimationExportSettings))
 
@@ -521,11 +667,15 @@ Run the ExportAnimation action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="JouleHeat.DuplicateWithoutResults"></a>
+
 ### JouleHeat.DuplicateWithoutResults()
 
 Run the DuplicateWithoutResults action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="JouleHeat.CreateResultsAtAllSets"></a>
 
 ### JouleHeat.CreateResultsAtAllSets()
 
@@ -533,11 +683,15 @@ Creates results at all sets for results under a solution.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="JouleHeat.PromoteToNamedSelection"></a>
+
 ### JouleHeat.PromoteToNamedSelection()
 
 Run the PromoteToNamedSelection action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="JouleHeat.CreateParameter"></a>
 
 ### JouleHeat.CreateParameter(propName: System.String)
 
@@ -545,11 +699,15 @@ CreateParameter method.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="JouleHeat.AddAlert"></a>
+
 ### JouleHeat.AddAlert()
 
 Creates a new Alert
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="JouleHeat.AddConvergence"></a>
 
 ### JouleHeat.AddConvergence()
 
@@ -557,11 +715,15 @@ Creates a new Convergence
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="JouleHeat.RenameBasedOnDefinition"></a>
+
 ### JouleHeat.RenameBasedOnDefinition()
 
 Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="JouleHeat.Delete"></a>
 
 ### JouleHeat.Delete()
 
@@ -569,11 +731,15 @@ Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="JouleHeat.GetChildren"></a>
+
 ### JouleHeat.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id1"></a>
 
 ### JouleHeat.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
@@ -581,17 +747,23 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="JouleHeat.AddComment"></a>
+
 ### JouleHeat.AddComment()
 
 Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="JouleHeat.AddFigure"></a>
+
 ### JouleHeat.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="JouleHeat.AddImage"></a>
 
 ### JouleHeat.AddImage(filePath: System.String)
 
@@ -601,11 +773,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="JouleHeat.Activate"></a>
+
 ### JouleHeat.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="JouleHeat.CopyTo"></a>
 
 ### JouleHeat.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -613,11 +789,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="JouleHeat.Duplicate"></a>
+
 ### JouleHeat.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="JouleHeat.GroupAllSimilarChildren"></a>
 
 ### JouleHeat.GroupAllSimilarChildren()
 
@@ -625,17 +805,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="JouleHeat.GroupSimilarObjects"></a>
+
 ### JouleHeat.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="JouleHeat.PropertyByName"></a>
+
 ### JouleHeat.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="JouleHeat.PropertyByAPIName"></a>
 
 ### JouleHeat.PropertyByAPIName(name: System.String)
 
@@ -644,11 +830,15 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="JouleHeat.GetParameter"></a>
+
 ### JouleHeat.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="JouleHeat.RemoveParameter"></a>
 
 ### JouleHeat.RemoveParameter(propName: System.String)
 

@@ -1,4 +1,8 @@
+<a id="iedge"></a>
+
 # IEdge
+
+<a id="IEdge"></a>
 
 ### *class* IEdge
 
@@ -8,6 +12,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 > <!-- !! processed by numpydoc !! -->
 
+<a id="overview"></a>
+
 ## Overview
 
 ### Properties
@@ -15,13 +21,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Length`](#IEdge.Length)   | Get the length of this edge.   |
 |-----------------------------|--------------------------------|
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.Mechanical.DataModel.ConstructionLines.Edges import IEdge
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="IEdge.Length"></a>
 
 ### *property* IEdge.Length *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 

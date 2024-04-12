@@ -1,4 +1,8 @@
+<a id="identifiertype"></a>
+
 # IdentifierType
+
+<a id="IdentifierType"></a>
 
 ### *class* IdentifierType
 
@@ -23,6 +27,8 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 > <!-- !! processed by numpydoc !! -->
 
+<a id="overview"></a>
+
 ## Overview
 
 ### Attributes
@@ -31,14 +37,22 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 |----------------------------------|----|
 | [`UUID`](#IdentifierType.UUID)   |    |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.Mechanical.DataModel.MechanicalEnums.Materials import IdentifierType
 ```
 
+<a id="attribute-detail"></a>
+
 ## Attribute detail
 
+<a id="IdentifierType.Name"></a>
+
 ### IdentifierType.Name *= 1*
+
+<a id="IdentifierType.UUID"></a>
 
 ### IdentifierType.UUID *= 2*

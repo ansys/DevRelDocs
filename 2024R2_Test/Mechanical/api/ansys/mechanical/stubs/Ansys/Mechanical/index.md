@@ -1,4 +1,10 @@
+<a id="module-ansys.mechanical.stubs.Ansys.Mechanical"></a>
+
+<a id="the-mechanical-package"></a>
+
 # The `Mechanical` package
+
+<a id="summary"></a>
 
 ## Summary
 
@@ -14,7 +20,8 @@
 | [`Math`](Math/index.md#module-ansys.mechanical.stubs.Ansys.Mechanical.Math)                         | Math subpackage.          |
 | [`Selection`](Selection/index.md#module-ansys.mechanical.stubs.Ansys.Mechanical.Selection)          | Selection subpackage.     |
 | [`Table`](Table/index.md#module-ansys.mechanical.stubs.Ansys.Mechanical.Table)                      | Table subpackage.         |
-| [`UI`](UI/index.md#module-ansys.mechanical.stubs.Ansys.Mechanical.UI)                               | UI submodule.             |
+
+<a id="description"></a>
 
 ## Description
 

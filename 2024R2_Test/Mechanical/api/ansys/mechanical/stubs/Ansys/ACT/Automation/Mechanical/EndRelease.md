@@ -1,4 +1,8 @@
+<a id="endrelease"></a>
+
 # EndRelease
+
+<a id="EndRelease"></a>
 
 ### *class* EndRelease
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a EndRelease.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -55,13 +61,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#EndRelease.Properties)                                                                              | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#EndRelease.VisibleProperties)                                                                | Gets the list of properties that are visible for this object. |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical import EndRelease
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="EndRelease.CoordinateSystem"></a>
 
 ### *property* EndRelease.CoordinateSystem *: Ansys.Mechanical.DataModel.Interfaces.ICoordinateSystemSelection | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -69,11 +81,15 @@ Gets or sets the Coordinate System.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="EndRelease.InternalObject"></a>
+
 ### *property* EndRelease.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSBeamEndReleaseAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="EndRelease.Behavior"></a>
 
 ### *property* EndRelease.Behavior *: [Ansys.Mechanical.DataModel.Enums.BeamEndReleaseBehavior](../../../Mechanical/DataModel/Enums/BeamEndReleaseBehavior.md#BeamEndReleaseBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -81,11 +97,15 @@ Gets or sets the Behavior.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="EndRelease.RotationX"></a>
+
 ### *property* EndRelease.RotationX *: [Ansys.Mechanical.DataModel.Enums.FixedOrFree](../../../Mechanical/DataModel/Enums/FixedOrFree.md#FixedOrFree) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RotationX.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="EndRelease.RotationY"></a>
 
 ### *property* EndRelease.RotationY *: [Ansys.Mechanical.DataModel.Enums.FixedOrFree](../../../Mechanical/DataModel/Enums/FixedOrFree.md#FixedOrFree) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -93,11 +113,15 @@ Gets or sets the RotationY.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="EndRelease.RotationZ"></a>
+
 ### *property* EndRelease.RotationZ *: [Ansys.Mechanical.DataModel.Enums.FixedOrFree](../../../Mechanical/DataModel/Enums/FixedOrFree.md#FixedOrFree) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RotationZ.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="EndRelease.TranslationX"></a>
 
 ### *property* EndRelease.TranslationX *: [Ansys.Mechanical.DataModel.Enums.FixedOrFree](../../../Mechanical/DataModel/Enums/FixedOrFree.md#FixedOrFree) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -105,11 +129,15 @@ Gets or sets the TranslationX.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="EndRelease.TranslationY"></a>
+
 ### *property* EndRelease.TranslationY *: [Ansys.Mechanical.DataModel.Enums.FixedOrFree](../../../Mechanical/DataModel/Enums/FixedOrFree.md#FixedOrFree) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TranslationY.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="EndRelease.TranslationZ"></a>
 
 ### *property* EndRelease.TranslationZ *: [Ansys.Mechanical.DataModel.Enums.FixedOrFree](../../../Mechanical/DataModel/Enums/FixedOrFree.md#FixedOrFree) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -117,11 +145,15 @@ Gets or sets the TranslationZ.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="EndRelease.IndependentEdges"></a>
+
 ### *property* EndRelease.IndependentEdges *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IndependentEdges.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="EndRelease.Suppressed"></a>
 
 ### *property* EndRelease.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -129,11 +161,15 @@ Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="EndRelease.EdgeLocation"></a>
+
 ### *property* EndRelease.EdgeLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EdgeLocation.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="EndRelease.VertexLocation"></a>
 
 ### *property* EndRelease.VertexLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -141,11 +177,15 @@ Gets or sets the VertexLocation.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="EndRelease.DataModelObjectCategory"></a>
+
 ### *property* EndRelease.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="EndRelease.Children"></a>
 
 ### *property* EndRelease.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -153,11 +193,15 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="EndRelease.Comments"></a>
+
 ### *property* EndRelease.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="EndRelease.Figures"></a>
 
 ### *property* EndRelease.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -165,11 +209,15 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="EndRelease.Images"></a>
+
 ### *property* EndRelease.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id0"></a>
 
 ### *property* EndRelease.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -177,11 +225,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="EndRelease.Properties"></a>
+
 ### *property* EndRelease.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="EndRelease.VisibleProperties"></a>
 
 ### *property* EndRelease.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -189,7 +241,11 @@ Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="EndRelease.Delete"></a>
 
 ### EndRelease.Delete()
 
@@ -197,11 +253,15 @@ Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="EndRelease.GetChildren"></a>
+
 ### EndRelease.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id1"></a>
 
 ### EndRelease.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
@@ -209,17 +269,23 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="EndRelease.AddComment"></a>
+
 ### EndRelease.AddComment()
 
 Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="EndRelease.AddFigure"></a>
+
 ### EndRelease.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="EndRelease.AddImage"></a>
 
 ### EndRelease.AddImage(filePath: System.String)
 
@@ -229,11 +295,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="EndRelease.Activate"></a>
+
 ### EndRelease.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="EndRelease.CopyTo"></a>
 
 ### EndRelease.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -241,11 +311,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="EndRelease.Duplicate"></a>
+
 ### EndRelease.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="EndRelease.GroupAllSimilarChildren"></a>
 
 ### EndRelease.GroupAllSimilarChildren()
 
@@ -253,17 +327,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="EndRelease.GroupSimilarObjects"></a>
+
 ### EndRelease.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="EndRelease.PropertyByName"></a>
+
 ### EndRelease.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="EndRelease.PropertyByAPIName"></a>
 
 ### EndRelease.PropertyByAPIName(name: System.String)
 
@@ -272,17 +352,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="EndRelease.CreateParameter"></a>
+
 ### EndRelease.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="EndRelease.GetParameter"></a>
+
 ### EndRelease.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="EndRelease.RemoveParameter"></a>
 
 ### EndRelease.RemoveParameter(propName: System.String)
 

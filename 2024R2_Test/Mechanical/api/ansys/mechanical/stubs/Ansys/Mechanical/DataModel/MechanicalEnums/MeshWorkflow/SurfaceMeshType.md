@@ -1,4 +1,8 @@
+<a id="surfacemeshtype"></a>
+
 # SurfaceMeshType
+
+<a id="SurfaceMeshType"></a>
 
 ### *class* SurfaceMeshType
 
@@ -8,6 +12,8 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 > <!-- !! processed by numpydoc !! -->
 
+<a id="overview"></a>
+
 ## Overview
 
 ### Attributes
@@ -16,14 +22,22 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 |-------------------------------------------------------|----|
 | [`Triangles`](#SurfaceMeshType.Triangles)             |    |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow import SurfaceMeshType
 ```
 
+<a id="attribute-detail"></a>
+
 ## Attribute detail
 
+<a id="SurfaceMeshType.Quadrilaterals"></a>
+
 ### SurfaceMeshType.Quadrilaterals *= 2*
+
+<a id="SurfaceMeshType.Triangles"></a>
 
 ### SurfaceMeshType.Triangles *= 1*

@@ -1,4 +1,8 @@
+<a id="unitshelper"></a>
+
 # UnitsHelper
+
+<a id="UnitsHelper"></a>
 
 ### *class* UnitsHelper
 
@@ -8,6 +12,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 > <!-- !! processed by numpydoc !! -->
 
+<a id="overview"></a>
+
 ## Overview
 
 ### Constructors
@@ -16,13 +22,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 |-------------------------------------------------------------------------------------|----------------------------------------------------------|
 | [`GetValidQuantityNamesAndUnits`](#UnitsHelper.GetValidQuantityNamesAndUnits)       | Retrieve a dictionary of quantity names to unit strings. |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Mechanical import UnitsHelper
 ```
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="UnitsHelper.ConvertMechanicalUnitToCoreUnit"></a>
 
 ### *classmethod* UnitsHelper.ConvertMechanicalUnitToCoreUnit(mechanicalUnit: System.String, unitCategory: System.String)
 
@@ -30,6 +42,8 @@ Takes input mechanical unit string and category string
 And returns framework unit string which can be used for conversion
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="UnitsHelper.GetValidQuantityNamesAndUnits"></a>
 
 ### *classmethod* UnitsHelper.GetValidQuantityNamesAndUnits()
 

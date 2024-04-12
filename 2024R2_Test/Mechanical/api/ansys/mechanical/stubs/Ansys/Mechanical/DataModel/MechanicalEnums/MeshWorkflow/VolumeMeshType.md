@@ -1,4 +1,8 @@
+<a id="volumemeshtype"></a>
+
 # VolumeMeshType
+
+<a id="VolumeMeshType"></a>
 
 ### *class* VolumeMeshType
 
@@ -8,6 +12,8 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 > <!-- !! processed by numpydoc !! -->
 
+<a id="overview"></a>
+
 ## Overview
 
 ### Attributes
@@ -16,14 +22,22 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 |----------------------------------------------|----|
 | [`Tetrahedral`](#VolumeMeshType.Tetrahedral) |    |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow import VolumeMeshType
 ```
 
+<a id="attribute-detail"></a>
+
 ## Attribute detail
 
+<a id="VolumeMeshType.HexCore"></a>
+
 ### VolumeMeshType.HexCore *= 3*
+
+<a id="VolumeMeshType.Tetrahedral"></a>
 
 ### VolumeMeshType.Tetrahedral *= 1*

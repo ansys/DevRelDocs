@@ -1,4 +1,8 @@
+<a id="isubtract"></a>
+
 # ISubtract
+
+<a id="ISubtract"></a>
 
 ### *class* ISubtract
 
@@ -8,6 +12,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 > <!-- !! processed by numpydoc !! -->
 
+<a id="overview"></a>
+
 ## Overview
 
 ### Methods
@@ -15,13 +21,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`ApplyTo`](#ISubtract.ApplyTo)   | ApplyTo method.   |
 |-----------------------------------|-------------------|
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Interfaces.DesignModeler import ISubtract
 ```
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="ISubtract.ApplyTo"></a>
 
 ### ISubtract.ApplyTo(bodiesIn: System.Collections.Generic.IEnumerable[[Ansys.ACT.Interfaces.DesignModeler.IPSGeoBody](IPSGeoBody.md#IPSGeoBody)])
 

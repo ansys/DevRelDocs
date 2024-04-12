@@ -1,4 +1,8 @@
+<a id="hourglassenergytracker"></a>
+
 # HourglassEnergyTracker
+
+<a id="HourglassEnergyTracker"></a>
 
 ### *class* HourglassEnergyTracker
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a HourglassEnergyTracker.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -87,13 +93,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#HourglassEnergyTracker.Properties)                                                                        | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#HourglassEnergyTracker.VisibleProperties)                                                          | Gets the list of properties that are visible for this object. |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.Results.ResultTrackers import HourglassEnergyTracker
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="HourglassEnergyTracker.InternalObject"></a>
 
 ### *property* HourglassEnergyTracker.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultChartAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -101,11 +113,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="HourglassEnergyTracker.ContactRegion"></a>
+
 ### *property* HourglassEnergyTracker.ContactRegion *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../Connections/ContactRegion.md#ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactRegion.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="HourglassEnergyTracker.DataModelObjectCategory"></a>
 
 ### *property* HourglassEnergyTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -113,11 +129,15 @@ Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="HourglassEnergyTracker.IsSolved"></a>
+
 ### *property* HourglassEnergyTracker.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="HourglassEnergyTracker.ChartDimensions"></a>
 
 ### *property* HourglassEnergyTracker.ChartDimensions *: [Ansys.Mechanical.DataModel.Enums.ChartDimensions](../../../../../Mechanical/DataModel/Enums/ChartDimensions.md#ChartDimensions) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -125,11 +145,15 @@ Gets or sets the Chart Dimensions
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="HourglassEnergyTracker.BoundaryCondition"></a>
+
 ### *property* HourglassEnergyTracker.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](../../BoundaryConditions/GenericBoundaryCondition.md#GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BoundaryCondition.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="HourglassEnergyTracker.CutFrequency"></a>
 
 ### *property* HourglassEnergyTracker.CutFrequency *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -137,11 +161,15 @@ Gets or sets the CutFrequency.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="HourglassEnergyTracker.SectorNumber"></a>
+
 ### *property* HourglassEnergyTracker.SectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SectorNumber.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="HourglassEnergyTracker.GeometrySelectionString"></a>
 
 ### *property* HourglassEnergyTracker.GeometrySelectionString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -149,11 +177,15 @@ Gets or sets the GeometrySelectionString.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="HourglassEnergyTracker.LoadStepNumber"></a>
+
 ### *property* HourglassEnergyTracker.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="HourglassEnergyTracker.ReportedFrequency"></a>
 
 ### *property* HourglassEnergyTracker.ReportedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -161,11 +193,15 @@ Gets the ReportedFrequency.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="HourglassEnergyTracker.Duration"></a>
+
 ### *property* HourglassEnergyTracker.Duration *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Duration.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="HourglassEnergyTracker.FilterMaximum"></a>
 
 ### *property* HourglassEnergyTracker.FilterMaximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -173,11 +209,15 @@ Gets the FilterMaximum.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="HourglassEnergyTracker.FilterMinimum"></a>
+
 ### *property* HourglassEnergyTracker.FilterMinimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the FilterMinimum.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="HourglassEnergyTracker.FrequencyAtMaximumAmplitude"></a>
 
 ### *property* HourglassEnergyTracker.FrequencyAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -185,11 +225,15 @@ Gets the FrequencyAtMaximumAmplitude.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="HourglassEnergyTracker.ImaginaryAtMaximumAmplitude"></a>
+
 ### *property* HourglassEnergyTracker.ImaginaryAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ImaginaryAtMaximumAmplitude.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="HourglassEnergyTracker.MaximumAmplitude"></a>
 
 ### *property* HourglassEnergyTracker.MaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -197,11 +241,15 @@ Gets the MaximumAmplitude.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="HourglassEnergyTracker.MaximumFrequency"></a>
+
 ### *property* HourglassEnergyTracker.MaximumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MaximumFrequency.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="HourglassEnergyTracker.Maximum"></a>
 
 ### *property* HourglassEnergyTracker.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -209,11 +257,15 @@ Gets the Maximum.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="HourglassEnergyTracker.MinimumFrequency"></a>
+
 ### *property* HourglassEnergyTracker.MinimumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MinimumFrequency.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="HourglassEnergyTracker.Minimum"></a>
 
 ### *property* HourglassEnergyTracker.Minimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -221,11 +273,15 @@ Gets the Minimum.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="HourglassEnergyTracker.PhaseAngle"></a>
+
 ### *property* HourglassEnergyTracker.PhaseAngle *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the PhaseAngle.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="HourglassEnergyTracker.RealAtMaximumAmplitude"></a>
 
 ### *property* HourglassEnergyTracker.RealAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -233,11 +289,15 @@ Gets the RealAtMaximumAmplitude.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="HourglassEnergyTracker.RequestedFrequency"></a>
+
 ### *property* HourglassEnergyTracker.RequestedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RequestedFrequency.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="HourglassEnergyTracker.AccelerationType"></a>
 
 ### *property* HourglassEnergyTracker.AccelerationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -245,11 +305,15 @@ Gets or sets the AccelerationType.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="HourglassEnergyTracker.ChartViewingStyle"></a>
+
 ### *property* HourglassEnergyTracker.ChartViewingStyle *: [Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType](../../../../../Mechanical/DataModel/Enums/ChartAxisScaleType.md#ChartAxisScaleType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ChartViewingStyle.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="HourglassEnergyTracker.DeformationType"></a>
 
 ### *property* HourglassEnergyTracker.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -257,11 +321,15 @@ Gets or sets the DeformationType.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="HourglassEnergyTracker.FilterType"></a>
+
 ### *property* HourglassEnergyTracker.FilterType *: [Ansys.Mechanical.DataModel.Enums.FilterType](../../../../../Mechanical/DataModel/Enums/FilterType.md#FilterType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FilterType.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="HourglassEnergyTracker.SpatialResolution"></a>
 
 ### *property* HourglassEnergyTracker.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MultipleNodeType](../../../../../Mechanical/DataModel/Enums/MultipleNodeType.md#MultipleNodeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -269,11 +337,15 @@ Gets or sets the SpatialResolution.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="HourglassEnergyTracker.NormalOrientation"></a>
+
 ### *property* HourglassEnergyTracker.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NormalOrientation.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="HourglassEnergyTracker.CurvesAppearanceDisplay"></a>
 
 ### *property* HourglassEnergyTracker.CurvesAppearanceDisplay *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](../../../../../Mechanical/DataModel/Enums/ChartPlotStyle.md#ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -281,11 +353,15 @@ Gets or sets the CurvesAppearanceDisplay.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="HourglassEnergyTracker.ResultChartType"></a>
+
 ### *property* HourglassEnergyTracker.ResultChartType *: [Ansys.Mechanical.DataModel.Enums.ChartResultType](../../../../../Mechanical/DataModel/Enums/ChartResultType.md#ChartResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ResultChartType.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="HourglassEnergyTracker.DpfEvaluation"></a>
 
 ### *property* HourglassEnergyTracker.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -293,11 +369,15 @@ Gets or sets the DpfEvaluation.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="HourglassEnergyTracker.XAxisValues"></a>
+
 ### *property* HourglassEnergyTracker.XAxisValues *: [Ansys.Mechanical.DataModel.Enums.XAxisValues](../../../../../Mechanical/DataModel/Enums/XAxisValues.md#XAxisValues) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XAxisValues.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="HourglassEnergyTracker.ShearOrientation"></a>
 
 ### *property* HourglassEnergyTracker.ShearOrientation *: [Ansys.Mechanical.DataModel.Enums.ShearOrientationType](../../../../../Mechanical/DataModel/Enums/ShearOrientationType.md#ShearOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -305,11 +385,15 @@ Gets or sets the ShearOrientation.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="HourglassEnergyTracker.StressStrainType"></a>
+
 ### *property* HourglassEnergyTracker.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](../../../../../Mechanical/DataModel/Enums/StressStrainType.md#StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StressStrainType.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="HourglassEnergyTracker.TimeHistoryDisplay"></a>
 
 ### *property* HourglassEnergyTracker.TimeHistoryDisplay *: [Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType](../../../../../Mechanical/DataModel/Enums/TimeHistoryDisplayType.md#TimeHistoryDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -317,11 +401,15 @@ Gets or sets the TimeHistoryDisplay.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="HourglassEnergyTracker.VelocityType"></a>
+
 ### *property* HourglassEnergyTracker.VelocityType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the VelocityType.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="HourglassEnergyTracker.Suppressed"></a>
 
 ### *property* HourglassEnergyTracker.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -329,11 +417,15 @@ Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="HourglassEnergyTracker.EnhancedTracking"></a>
+
 ### *property* HourglassEnergyTracker.EnhancedTracking *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the EnhancedTracking.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="HourglassEnergyTracker.UseParentFrequencyRange"></a>
 
 ### *property* HourglassEnergyTracker.UseParentFrequencyRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -341,11 +433,15 @@ Gets or sets the UseParentFrequencyRange.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="HourglassEnergyTracker.CoordinateSystem"></a>
+
 ### *property* HourglassEnergyTracker.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="HourglassEnergyTracker.Spring"></a>
 
 ### *property* HourglassEnergyTracker.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../Connections/Spring.md#Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -353,11 +449,15 @@ Gets or sets the Spring.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="HourglassEnergyTracker.Location"></a>
+
 ### *property* HourglassEnergyTracker.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="HourglassEnergyTracker.Children"></a>
 
 ### *property* HourglassEnergyTracker.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -365,11 +465,15 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="HourglassEnergyTracker.Comments"></a>
+
 ### *property* HourglassEnergyTracker.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="HourglassEnergyTracker.Images"></a>
 
 ### *property* HourglassEnergyTracker.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -377,11 +481,15 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id0"></a>
+
 ### *property* HourglassEnergyTracker.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="HourglassEnergyTracker.Properties"></a>
 
 ### *property* HourglassEnergyTracker.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -389,13 +497,19 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="HourglassEnergyTracker.VisibleProperties"></a>
+
 ### *property* HourglassEnergyTracker.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="HourglassEnergyTracker.ExportAnimation"></a>
 
 ### HourglassEnergyTracker.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#AnimationExportSettings))
 
@@ -403,11 +517,15 @@ Run the ExportAnimation action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="HourglassEnergyTracker.ClearGeneratedData"></a>
+
 ### HourglassEnergyTracker.ClearGeneratedData()
 
 Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="HourglassEnergyTracker.EvaluateAllResults"></a>
 
 ### HourglassEnergyTracker.EvaluateAllResults()
 
@@ -415,11 +533,15 @@ Run the EvaluateAllResults action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="HourglassEnergyTracker.RenameBasedOnDefinition"></a>
+
 ### HourglassEnergyTracker.RenameBasedOnDefinition()
 
 Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="HourglassEnergyTracker.Delete"></a>
 
 ### HourglassEnergyTracker.Delete()
 
@@ -427,11 +549,15 @@ Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="HourglassEnergyTracker.GetChildren"></a>
+
 ### HourglassEnergyTracker.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id1"></a>
 
 ### HourglassEnergyTracker.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
@@ -439,11 +565,15 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="HourglassEnergyTracker.AddComment"></a>
+
 ### HourglassEnergyTracker.AddComment()
 
 Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="HourglassEnergyTracker.AddImage"></a>
 
 ### HourglassEnergyTracker.AddImage(filePath: System.String)
 
@@ -453,11 +583,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="HourglassEnergyTracker.Activate"></a>
+
 ### HourglassEnergyTracker.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="HourglassEnergyTracker.CopyTo"></a>
 
 ### HourglassEnergyTracker.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -465,11 +599,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="HourglassEnergyTracker.Duplicate"></a>
+
 ### HourglassEnergyTracker.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="HourglassEnergyTracker.GroupAllSimilarChildren"></a>
 
 ### HourglassEnergyTracker.GroupAllSimilarChildren()
 
@@ -477,17 +615,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="HourglassEnergyTracker.GroupSimilarObjects"></a>
+
 ### HourglassEnergyTracker.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="HourglassEnergyTracker.PropertyByName"></a>
+
 ### HourglassEnergyTracker.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="HourglassEnergyTracker.PropertyByAPIName"></a>
 
 ### HourglassEnergyTracker.PropertyByAPIName(name: System.String)
 
@@ -496,17 +640,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="HourglassEnergyTracker.CreateParameter"></a>
+
 ### HourglassEnergyTracker.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="HourglassEnergyTracker.GetParameter"></a>
+
 ### HourglassEnergyTracker.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="HourglassEnergyTracker.RemoveParameter"></a>
 
 ### HourglassEnergyTracker.RemoveParameter(propName: System.String)
 

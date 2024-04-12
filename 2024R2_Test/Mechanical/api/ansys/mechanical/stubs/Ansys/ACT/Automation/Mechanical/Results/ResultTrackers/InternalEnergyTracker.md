@@ -1,4 +1,8 @@
+<a id="internalenergytracker"></a>
+
 # InternalEnergyTracker
+
+<a id="InternalEnergyTracker"></a>
 
 ### *class* InternalEnergyTracker
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a InternalEnergyTracker.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -91,13 +97,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#InternalEnergyTracker.Properties)                                                                         | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#InternalEnergyTracker.VisibleProperties)                                                           | Gets the list of properties that are visible for this object. |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.Results.ResultTrackers import InternalEnergyTracker
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="InternalEnergyTracker.InternalObject"></a>
 
 ### *property* InternalEnergyTracker.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultChartAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -105,11 +117,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalEnergyTracker.LocationXCoordinate"></a>
+
 ### *property* InternalEnergyTracker.LocationXCoordinate *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LocationXCoordinate.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalEnergyTracker.LocationYCoordinate"></a>
 
 ### *property* InternalEnergyTracker.LocationYCoordinate *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -117,11 +133,15 @@ Gets or sets the LocationYCoordinate.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalEnergyTracker.LocationZCoordinate"></a>
+
 ### *property* InternalEnergyTracker.LocationZCoordinate *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LocationZCoordinate.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalEnergyTracker.LocationMethod"></a>
 
 ### *property* InternalEnergyTracker.LocationMethod *: [Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod](../../../../../Mechanical/DataModel/Enums/LocationDefinitionMethod.md#LocationDefinitionMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -129,11 +149,15 @@ Gets or sets the LocationMethod.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalEnergyTracker.LocationCoordinateSystem"></a>
+
 ### *property* InternalEnergyTracker.LocationCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LocationCoordinateSystem.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalEnergyTracker.DataModelObjectCategory"></a>
 
 ### *property* InternalEnergyTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -141,11 +165,15 @@ Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalEnergyTracker.IsSolved"></a>
+
 ### *property* InternalEnergyTracker.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalEnergyTracker.ChartDimensions"></a>
 
 ### *property* InternalEnergyTracker.ChartDimensions *: [Ansys.Mechanical.DataModel.Enums.ChartDimensions](../../../../../Mechanical/DataModel/Enums/ChartDimensions.md#ChartDimensions) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -153,11 +181,15 @@ Gets or sets the Chart Dimensions
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalEnergyTracker.BoundaryCondition"></a>
+
 ### *property* InternalEnergyTracker.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](../../BoundaryConditions/GenericBoundaryCondition.md#GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BoundaryCondition.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalEnergyTracker.CutFrequency"></a>
 
 ### *property* InternalEnergyTracker.CutFrequency *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -165,11 +197,15 @@ Gets or sets the CutFrequency.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalEnergyTracker.SectorNumber"></a>
+
 ### *property* InternalEnergyTracker.SectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SectorNumber.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalEnergyTracker.GeometrySelectionString"></a>
 
 ### *property* InternalEnergyTracker.GeometrySelectionString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -177,11 +213,15 @@ Gets or sets the GeometrySelectionString.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalEnergyTracker.LoadStepNumber"></a>
+
 ### *property* InternalEnergyTracker.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalEnergyTracker.ReportedFrequency"></a>
 
 ### *property* InternalEnergyTracker.ReportedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -189,11 +229,15 @@ Gets the ReportedFrequency.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalEnergyTracker.Duration"></a>
+
 ### *property* InternalEnergyTracker.Duration *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Duration.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalEnergyTracker.FilterMaximum"></a>
 
 ### *property* InternalEnergyTracker.FilterMaximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -201,11 +245,15 @@ Gets the FilterMaximum.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalEnergyTracker.FilterMinimum"></a>
+
 ### *property* InternalEnergyTracker.FilterMinimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the FilterMinimum.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalEnergyTracker.FrequencyAtMaximumAmplitude"></a>
 
 ### *property* InternalEnergyTracker.FrequencyAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -213,11 +261,15 @@ Gets the FrequencyAtMaximumAmplitude.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalEnergyTracker.ImaginaryAtMaximumAmplitude"></a>
+
 ### *property* InternalEnergyTracker.ImaginaryAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ImaginaryAtMaximumAmplitude.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalEnergyTracker.MaximumAmplitude"></a>
 
 ### *property* InternalEnergyTracker.MaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -225,11 +277,15 @@ Gets the MaximumAmplitude.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalEnergyTracker.MaximumFrequency"></a>
+
 ### *property* InternalEnergyTracker.MaximumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MaximumFrequency.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalEnergyTracker.Maximum"></a>
 
 ### *property* InternalEnergyTracker.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -237,11 +293,15 @@ Gets the Maximum.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalEnergyTracker.MinimumFrequency"></a>
+
 ### *property* InternalEnergyTracker.MinimumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MinimumFrequency.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalEnergyTracker.Minimum"></a>
 
 ### *property* InternalEnergyTracker.Minimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -249,11 +309,15 @@ Gets the Minimum.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalEnergyTracker.PhaseAngle"></a>
+
 ### *property* InternalEnergyTracker.PhaseAngle *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the PhaseAngle.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalEnergyTracker.RealAtMaximumAmplitude"></a>
 
 ### *property* InternalEnergyTracker.RealAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -261,11 +325,15 @@ Gets the RealAtMaximumAmplitude.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalEnergyTracker.RequestedFrequency"></a>
+
 ### *property* InternalEnergyTracker.RequestedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RequestedFrequency.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalEnergyTracker.AccelerationType"></a>
 
 ### *property* InternalEnergyTracker.AccelerationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -273,11 +341,15 @@ Gets or sets the AccelerationType.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalEnergyTracker.ChartViewingStyle"></a>
+
 ### *property* InternalEnergyTracker.ChartViewingStyle *: [Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType](../../../../../Mechanical/DataModel/Enums/ChartAxisScaleType.md#ChartAxisScaleType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ChartViewingStyle.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalEnergyTracker.DeformationType"></a>
 
 ### *property* InternalEnergyTracker.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -285,11 +357,15 @@ Gets or sets the DeformationType.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalEnergyTracker.FilterType"></a>
+
 ### *property* InternalEnergyTracker.FilterType *: [Ansys.Mechanical.DataModel.Enums.FilterType](../../../../../Mechanical/DataModel/Enums/FilterType.md#FilterType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FilterType.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalEnergyTracker.SpatialResolution"></a>
 
 ### *property* InternalEnergyTracker.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MultipleNodeType](../../../../../Mechanical/DataModel/Enums/MultipleNodeType.md#MultipleNodeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -297,11 +373,15 @@ Gets or sets the SpatialResolution.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalEnergyTracker.NormalOrientation"></a>
+
 ### *property* InternalEnergyTracker.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NormalOrientation.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalEnergyTracker.CurvesAppearanceDisplay"></a>
 
 ### *property* InternalEnergyTracker.CurvesAppearanceDisplay *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](../../../../../Mechanical/DataModel/Enums/ChartPlotStyle.md#ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -309,11 +389,15 @@ Gets or sets the CurvesAppearanceDisplay.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalEnergyTracker.ResultChartType"></a>
+
 ### *property* InternalEnergyTracker.ResultChartType *: [Ansys.Mechanical.DataModel.Enums.ChartResultType](../../../../../Mechanical/DataModel/Enums/ChartResultType.md#ChartResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ResultChartType.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalEnergyTracker.DpfEvaluation"></a>
 
 ### *property* InternalEnergyTracker.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -321,11 +405,15 @@ Gets or sets the DpfEvaluation.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalEnergyTracker.XAxisValues"></a>
+
 ### *property* InternalEnergyTracker.XAxisValues *: [Ansys.Mechanical.DataModel.Enums.XAxisValues](../../../../../Mechanical/DataModel/Enums/XAxisValues.md#XAxisValues) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XAxisValues.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalEnergyTracker.ShearOrientation"></a>
 
 ### *property* InternalEnergyTracker.ShearOrientation *: [Ansys.Mechanical.DataModel.Enums.ShearOrientationType](../../../../../Mechanical/DataModel/Enums/ShearOrientationType.md#ShearOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -333,11 +421,15 @@ Gets or sets the ShearOrientation.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalEnergyTracker.StressStrainType"></a>
+
 ### *property* InternalEnergyTracker.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](../../../../../Mechanical/DataModel/Enums/StressStrainType.md#StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StressStrainType.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalEnergyTracker.TimeHistoryDisplay"></a>
 
 ### *property* InternalEnergyTracker.TimeHistoryDisplay *: [Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType](../../../../../Mechanical/DataModel/Enums/TimeHistoryDisplayType.md#TimeHistoryDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -345,11 +437,15 @@ Gets or sets the TimeHistoryDisplay.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalEnergyTracker.VelocityType"></a>
+
 ### *property* InternalEnergyTracker.VelocityType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the VelocityType.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalEnergyTracker.Suppressed"></a>
 
 ### *property* InternalEnergyTracker.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -357,11 +453,15 @@ Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalEnergyTracker.EnhancedTracking"></a>
+
 ### *property* InternalEnergyTracker.EnhancedTracking *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the EnhancedTracking.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalEnergyTracker.UseParentFrequencyRange"></a>
 
 ### *property* InternalEnergyTracker.UseParentFrequencyRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -369,11 +469,15 @@ Gets or sets the UseParentFrequencyRange.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalEnergyTracker.CoordinateSystem"></a>
+
 ### *property* InternalEnergyTracker.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalEnergyTracker.Spring"></a>
 
 ### *property* InternalEnergyTracker.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../Connections/Spring.md#Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -381,11 +485,15 @@ Gets or sets the Spring.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalEnergyTracker.Location"></a>
+
 ### *property* InternalEnergyTracker.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalEnergyTracker.Children"></a>
 
 ### *property* InternalEnergyTracker.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -393,11 +501,15 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalEnergyTracker.Comments"></a>
+
 ### *property* InternalEnergyTracker.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalEnergyTracker.Images"></a>
 
 ### *property* InternalEnergyTracker.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -405,11 +517,15 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id0"></a>
+
 ### *property* InternalEnergyTracker.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalEnergyTracker.Properties"></a>
 
 ### *property* InternalEnergyTracker.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -417,13 +533,19 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalEnergyTracker.VisibleProperties"></a>
+
 ### *property* InternalEnergyTracker.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="InternalEnergyTracker.ExportAnimation"></a>
 
 ### InternalEnergyTracker.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#AnimationExportSettings))
 
@@ -431,11 +553,15 @@ Run the ExportAnimation action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalEnergyTracker.ClearGeneratedData"></a>
+
 ### InternalEnergyTracker.ClearGeneratedData()
 
 Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalEnergyTracker.EvaluateAllResults"></a>
 
 ### InternalEnergyTracker.EvaluateAllResults()
 
@@ -443,11 +569,15 @@ Run the EvaluateAllResults action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalEnergyTracker.RenameBasedOnDefinition"></a>
+
 ### InternalEnergyTracker.RenameBasedOnDefinition()
 
 Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalEnergyTracker.Delete"></a>
 
 ### InternalEnergyTracker.Delete()
 
@@ -455,11 +585,15 @@ Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalEnergyTracker.GetChildren"></a>
+
 ### InternalEnergyTracker.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id1"></a>
 
 ### InternalEnergyTracker.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
@@ -467,11 +601,15 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalEnergyTracker.AddComment"></a>
+
 ### InternalEnergyTracker.AddComment()
 
 Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalEnergyTracker.AddImage"></a>
 
 ### InternalEnergyTracker.AddImage(filePath: System.String)
 
@@ -481,11 +619,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalEnergyTracker.Activate"></a>
+
 ### InternalEnergyTracker.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalEnergyTracker.CopyTo"></a>
 
 ### InternalEnergyTracker.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -493,11 +635,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalEnergyTracker.Duplicate"></a>
+
 ### InternalEnergyTracker.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalEnergyTracker.GroupAllSimilarChildren"></a>
 
 ### InternalEnergyTracker.GroupAllSimilarChildren()
 
@@ -505,17 +651,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalEnergyTracker.GroupSimilarObjects"></a>
+
 ### InternalEnergyTracker.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalEnergyTracker.PropertyByName"></a>
+
 ### InternalEnergyTracker.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalEnergyTracker.PropertyByAPIName"></a>
 
 ### InternalEnergyTracker.PropertyByAPIName(name: System.String)
 
@@ -524,17 +676,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalEnergyTracker.CreateParameter"></a>
+
 ### InternalEnergyTracker.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalEnergyTracker.GetParameter"></a>
+
 ### InternalEnergyTracker.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalEnergyTracker.RemoveParameter"></a>
 
 ### InternalEnergyTracker.RemoveParameter(propName: System.String)
 

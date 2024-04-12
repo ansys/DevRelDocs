@@ -1,4 +1,8 @@
+<a id="amsupportgroup"></a>
+
 # AMSupportGroup
+
+<a id="AMSupportGroup"></a>
 
 ### *class* AMSupportGroup
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a AMSupportGroup.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -53,13 +59,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#AMSupportGroup.Properties)                                                                             | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#AMSupportGroup.VisibleProperties)                                                               | Gets the list of properties that are visible for this object. |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.AdditiveManufacturing import AMSupportGroup
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="AMSupportGroup.InternalObject"></a>
 
 ### *property* AMSupportGroup.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSAMSupportGroupAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -67,11 +79,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AMSupportGroup.HangAngle"></a>
+
 ### *property* AMSupportGroup.HangAngle *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HangAngle.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AMSupportGroup.DetectAboveZLocation"></a>
 
 ### *property* AMSupportGroup.DetectAboveZLocation *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -79,11 +95,15 @@ Gets or sets the DetectAboveZLocation.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AMSupportGroup.OutputType"></a>
+
 ### *property* AMSupportGroup.OutputType *: [Ansys.Mechanical.DataModel.Enums.AMSupportGroupOutputType](../../../../Mechanical/DataModel/Enums/AMSupportGroupOutputType.md#AMSupportGroupOutputType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the OutputType.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AMSupportGroup.GenerateOnRemesh"></a>
 
 ### *property* AMSupportGroup.GenerateOnRemesh *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -91,11 +111,15 @@ Gets or sets the GenerateOnRemesh.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AMSupportGroup.Location"></a>
+
 ### *property* AMSupportGroup.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AMSupportGroup.DataModelObjectCategory"></a>
 
 ### *property* AMSupportGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -103,11 +127,15 @@ Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AMSupportGroup.Children"></a>
+
 ### *property* AMSupportGroup.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AMSupportGroup.Comments"></a>
 
 ### *property* AMSupportGroup.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -115,11 +143,15 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AMSupportGroup.Figures"></a>
+
 ### *property* AMSupportGroup.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AMSupportGroup.Images"></a>
 
 ### *property* AMSupportGroup.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -127,11 +159,15 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id0"></a>
+
 ### *property* AMSupportGroup.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AMSupportGroup.Properties"></a>
 
 ### *property* AMSupportGroup.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -139,13 +175,19 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AMSupportGroup.VisibleProperties"></a>
+
 ### *property* AMSupportGroup.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="AMSupportGroup.DetectSupportFaces"></a>
 
 ### AMSupportGroup.DetectSupportFaces()
 
@@ -153,11 +195,15 @@ Runs the Detect Support Faces action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AMSupportGroup.AddGeneratedAMSupport"></a>
+
 ### AMSupportGroup.AddGeneratedAMSupport()
 
 Creates a new GeneratedAMSupport
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AMSupportGroup.AddPredefinedAMSupport"></a>
 
 ### AMSupportGroup.AddPredefinedAMSupport()
 
@@ -165,11 +211,15 @@ Creates a new PredefinedAMSupport
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AMSupportGroup.AddSTLAMSupport"></a>
+
 ### AMSupportGroup.AddSTLAMSupport()
 
 Creates a new GeneratedAMSupport
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AMSupportGroup.PromoteToNamedSelection"></a>
 
 ### AMSupportGroup.PromoteToNamedSelection()
 
@@ -177,11 +227,15 @@ Run the PromoteToNamedSelection action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AMSupportGroup.Delete"></a>
+
 ### AMSupportGroup.Delete()
 
 Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AMSupportGroup.GetChildren"></a>
 
 ### AMSupportGroup.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
@@ -189,11 +243,15 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id1"></a>
+
 ### AMSupportGroup.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AMSupportGroup.AddComment"></a>
 
 ### AMSupportGroup.AddComment()
 
@@ -201,11 +259,15 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AMSupportGroup.AddFigure"></a>
+
 ### AMSupportGroup.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AMSupportGroup.AddImage"></a>
 
 ### AMSupportGroup.AddImage(filePath: System.String)
 
@@ -215,11 +277,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AMSupportGroup.Activate"></a>
+
 ### AMSupportGroup.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AMSupportGroup.CopyTo"></a>
 
 ### AMSupportGroup.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -227,11 +293,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AMSupportGroup.Duplicate"></a>
+
 ### AMSupportGroup.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AMSupportGroup.GroupAllSimilarChildren"></a>
 
 ### AMSupportGroup.GroupAllSimilarChildren()
 
@@ -239,17 +309,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AMSupportGroup.GroupSimilarObjects"></a>
+
 ### AMSupportGroup.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AMSupportGroup.PropertyByName"></a>
+
 ### AMSupportGroup.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AMSupportGroup.PropertyByAPIName"></a>
 
 ### AMSupportGroup.PropertyByAPIName(name: System.String)
 
@@ -258,17 +334,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AMSupportGroup.CreateParameter"></a>
+
 ### AMSupportGroup.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AMSupportGroup.GetParameter"></a>
+
 ### AMSupportGroup.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AMSupportGroup.RemoveParameter"></a>
 
 ### AMSupportGroup.RemoveParameter(propName: System.String)
 

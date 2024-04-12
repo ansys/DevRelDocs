@@ -1,4 +1,8 @@
+<a id="methodmeshtype"></a>
+
 # MethodMeshType
+
+<a id="MethodMeshType"></a>
 
 ### *class* MethodMeshType
 
@@ -10,6 +14,8 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 > <!-- !! processed by numpydoc !! -->
 
+<a id="overview"></a>
+
 ## Overview
 
 ### Attributes
@@ -18,14 +24,22 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 |----------------------------------------|----|
 | [`Triangle`](#MethodMeshType.Triangle) |    |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.Mechanical.DataModel.Enums import MethodMeshType
 ```
 
+<a id="attribute-detail"></a>
+
 ## Attribute detail
 
+<a id="MethodMeshType.Quad"></a>
+
 ### MethodMeshType.Quad *= 1*
+
+<a id="MethodMeshType.Triangle"></a>
 
 ### MethodMeshType.Triangle *= 0*

@@ -1,4 +1,8 @@
+<a id="importedspringconnectors"></a>
+
 # ImportedSpringConnectors
+
+<a id="ImportedSpringConnectors"></a>
 
 ### *class* ImportedSpringConnectors
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a ImportedSpringConnectors.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -46,13 +52,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#ImportedSpringConnectors.Properties)                                                                | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#ImportedSpringConnectors.VisibleProperties)                                                  | Gets the list of properties that are visible for this object. |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical import ImportedSpringConnectors
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="ImportedSpringConnectors.InternalObject"></a>
 
 ### *property* ImportedSpringConnectors.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSExternalModelDataCollAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -60,11 +72,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedSpringConnectors.DataModelObjectCategory"></a>
+
 ### *property* ImportedSpringConnectors.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedSpringConnectors.Count"></a>
 
 ### *property* ImportedSpringConnectors.Count *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -72,11 +88,15 @@ Gets the NumberOfRows.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedSpringConnectors.Suppressed"></a>
+
 ### *property* ImportedSpringConnectors.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedSpringConnectors.Children"></a>
 
 ### *property* ImportedSpringConnectors.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -84,11 +104,15 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedSpringConnectors.Comments"></a>
+
 ### *property* ImportedSpringConnectors.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedSpringConnectors.Figures"></a>
 
 ### *property* ImportedSpringConnectors.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -96,11 +120,15 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedSpringConnectors.Images"></a>
+
 ### *property* ImportedSpringConnectors.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedSpringConnectors.ReadOnly"></a>
 
 ### *property* ImportedSpringConnectors.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -108,11 +136,15 @@ Gets or sets the ReadOnly.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id0"></a>
+
 ### *property* ImportedSpringConnectors.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedSpringConnectors.Properties"></a>
 
 ### *property* ImportedSpringConnectors.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -120,13 +152,19 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedSpringConnectors.VisibleProperties"></a>
+
 ### *property* ImportedSpringConnectors.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="ImportedSpringConnectors.Delete"></a>
 
 ### ImportedSpringConnectors.Delete()
 
@@ -134,11 +172,15 @@ Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedSpringConnectors.GetChildren"></a>
+
 ### ImportedSpringConnectors.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id1"></a>
 
 ### ImportedSpringConnectors.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
@@ -146,17 +188,23 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedSpringConnectors.AddComment"></a>
+
 ### ImportedSpringConnectors.AddComment()
 
 Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedSpringConnectors.AddFigure"></a>
+
 ### ImportedSpringConnectors.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedSpringConnectors.AddImage"></a>
 
 ### ImportedSpringConnectors.AddImage(filePath: System.String)
 
@@ -166,11 +214,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedSpringConnectors.Activate"></a>
+
 ### ImportedSpringConnectors.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedSpringConnectors.CopyTo"></a>
 
 ### ImportedSpringConnectors.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -178,11 +230,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedSpringConnectors.Duplicate"></a>
+
 ### ImportedSpringConnectors.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedSpringConnectors.GroupAllSimilarChildren"></a>
 
 ### ImportedSpringConnectors.GroupAllSimilarChildren()
 
@@ -190,17 +246,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedSpringConnectors.GroupSimilarObjects"></a>
+
 ### ImportedSpringConnectors.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedSpringConnectors.PropertyByName"></a>
+
 ### ImportedSpringConnectors.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedSpringConnectors.PropertyByAPIName"></a>
 
 ### ImportedSpringConnectors.PropertyByAPIName(name: System.String)
 
@@ -209,17 +271,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedSpringConnectors.CreateParameter"></a>
+
 ### ImportedSpringConnectors.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedSpringConnectors.GetParameter"></a>
+
 ### ImportedSpringConnectors.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedSpringConnectors.RemoveParameter"></a>
 
 ### ImportedSpringConnectors.RemoveParameter(propName: System.String)
 

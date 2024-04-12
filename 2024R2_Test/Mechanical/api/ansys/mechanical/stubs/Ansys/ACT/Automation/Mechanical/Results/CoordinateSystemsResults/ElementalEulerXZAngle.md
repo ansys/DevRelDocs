@@ -1,4 +1,8 @@
+<a id="elementaleulerxzangle"></a>
+
 # ElementalEulerXZAngle
+
+<a id="ElementalEulerXZAngle"></a>
 
 ### *class* ElementalEulerXZAngle
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a ElementalEulerXZAngle.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -111,13 +117,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#ElementalEulerXZAngle.Properties)                                                                         | Gets the list of properties for this object.                           |
 | [`VisibleProperties`](#ElementalEulerXZAngle.VisibleProperties)                                                           | Gets the list of properties that are visible for this object.          |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.Results.CoordinateSystemsResults import ElementalEulerXZAngle
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="ElementalEulerXZAngle.InternalObject"></a>
 
 ### *property* ElementalEulerXZAngle.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -125,11 +137,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.DataModelObjectCategory"></a>
+
 ### *property* ElementalEulerXZAngle.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXZAngle.Mode"></a>
 
 ### *property* ElementalEulerXZAngle.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -137,11 +153,15 @@ Gets or sets the Mode.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.Ply"></a>
+
 ### *property* ElementalEulerXZAngle.Ply *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../AnalysisPly.md#AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Ply selection.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXZAngle.LoadMultiplier"></a>
 
 ### *property* ElementalEulerXZAngle.LoadMultiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -149,11 +169,15 @@ Gets the LoadMultiplier.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.ScaleFactorValue"></a>
+
 ### *property* ElementalEulerXZAngle.ScaleFactorValue *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScaleFactorValue.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXZAngle.SweepingPhase"></a>
 
 ### *property* ElementalEulerXZAngle.SweepingPhase *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -161,11 +185,15 @@ Gets or sets the SweepingPhase.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.PhaseIncrement"></a>
+
 ### *property* ElementalEulerXZAngle.PhaseIncrement *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PhaseIncrement.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXZAngle.Frequency"></a>
 
 ### *property* ElementalEulerXZAngle.Frequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -173,11 +201,15 @@ Gets or sets the Frequency.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.ScaleFactor"></a>
+
 ### *property* ElementalEulerXZAngle.ScaleFactor *: [Ansys.Mechanical.DataModel.Enums.ScaleFactorType](../../../../../Mechanical/DataModel/Enums/ScaleFactorType.md#ScaleFactorType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScaleFactor.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXZAngle.Position"></a>
 
 ### *property* ElementalEulerXZAngle.Position *: [Ansys.Mechanical.DataModel.Enums.ShellFaceType](../../../../../Mechanical/DataModel/Enums/ShellFaceType.md#ShellFaceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -185,11 +217,15 @@ Gets or sets the Position.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.SubScopeBy"></a>
+
 ### *property* ElementalEulerXZAngle.SubScopeBy *: [Ansys.Mechanical.DataModel.Enums.SubScopingDefineByType](../../../../../Mechanical/DataModel/Enums/SubScopingDefineByType.md#SubScopingDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SubScopeBy.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXZAngle.Amplitude"></a>
 
 ### *property* ElementalEulerXZAngle.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -197,11 +233,15 @@ Gets or sets the Amplitude.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.PlotData"></a>
+
 ### *property* ElementalEulerXZAngle.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../Mechanical/DataModel/Results/ResultDataTable.md#ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the result table.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXZAngle.Location"></a>
 
 ### *property* ElementalEulerXZAngle.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -209,11 +249,15 @@ Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.TimeForMinimumOfMinimumValues"></a>
+
 ### *property* ElementalEulerXZAngle.TimeForMinimumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Time for the minimum of minimum values.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXZAngle.TimeForMinimumOfMaximumValues"></a>
 
 ### *property* ElementalEulerXZAngle.TimeForMinimumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -221,11 +265,15 @@ Get the Time for the minimum of maximum values.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.LoadStepForMinimumOfMinimumValues"></a>
+
 ### *property* ElementalEulerXZAngle.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXZAngle.LoadStepForMinimumOfMaximumValues"></a>
 
 ### *property* ElementalEulerXZAngle.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -233,11 +281,15 @@ Get the Load Step for the minimum of maximum values.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.TimeForMaximumOfMinimumValues"></a>
+
 ### *property* ElementalEulerXZAngle.TimeForMaximumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Time for the maximum of minimum values.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXZAngle.TimeForMaximumOfMaximumValues"></a>
 
 ### *property* ElementalEulerXZAngle.TimeForMaximumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -245,11 +297,15 @@ Get the Time for the maximum of maximum values.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.LoadStepForMaximumOfMinimumValues"></a>
+
 ### *property* ElementalEulerXZAngle.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXZAngle.LoadStepForMaximumOfMaximumValues"></a>
 
 ### *property* ElementalEulerXZAngle.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -257,11 +313,15 @@ Get the Load Step for the maximum of maximum values.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.IsSolved"></a>
+
 ### *property* ElementalEulerXZAngle.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXZAngle.CoordinateSystem"></a>
 
 ### *property* ElementalEulerXZAngle.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -271,11 +331,15 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.ScopingMethod"></a>
+
 ### *property* ElementalEulerXZAngle.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXZAngle.SetNumber"></a>
 
 ### *property* ElementalEulerXZAngle.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -283,11 +347,15 @@ Gets or sets the Set Number.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.CombinationNumber"></a>
+
 ### *property* ElementalEulerXZAngle.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXZAngle.SolutionCombinationDriver"></a>
 
 ### *property* ElementalEulerXZAngle.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -295,11 +363,15 @@ Gets or sets the SolutionCombinationDriver.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.Path"></a>
+
 ### *property* ElementalEulerXZAngle.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../Path.md#Path) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Path property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXZAngle.Surface"></a>
 
 ### *property* ElementalEulerXZAngle.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -307,11 +379,15 @@ Surface property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.NamedSelections"></a>
+
 ### *property* ElementalEulerXZAngle.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXZAngle.WaterfallPanelShowTextOnMosaic"></a>
 
 ### *property* ElementalEulerXZAngle.WaterfallPanelShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -319,11 +395,15 @@ Gets or sets the Waterfall Panel Mosaic Text Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.CrackFrontNumber"></a>
+
 ### *property* ElementalEulerXZAngle.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXZAngle.GlobalIDs"></a>
 
 ### *property* ElementalEulerXZAngle.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -331,11 +411,15 @@ Gets or sets the GlobalIDs.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.Identifier"></a>
+
 ### *property* ElementalEulerXZAngle.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXZAngle.IterationNumber"></a>
 
 ### *property* ElementalEulerXZAngle.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -343,11 +427,15 @@ Gets the IterationNumber.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.LoadStep"></a>
+
 ### *property* ElementalEulerXZAngle.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXZAngle.MaximumOccursOn"></a>
 
 ### *property* ElementalEulerXZAngle.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -355,11 +443,15 @@ Gets the MaximumOccursOn.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.MinimumOccursOn"></a>
+
 ### *property* ElementalEulerXZAngle.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXZAngle.LoadStepNumber"></a>
 
 ### *property* ElementalEulerXZAngle.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -367,11 +459,15 @@ Gets or sets the LoadStepNumber.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.SolverComponentIDs"></a>
+
 ### *property* ElementalEulerXZAngle.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXZAngle.Substep"></a>
 
 ### *property* ElementalEulerXZAngle.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -379,11 +475,15 @@ Gets the Substep.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.Average"></a>
+
 ### *property* ElementalEulerXZAngle.Average *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Average.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXZAngle.Maximum"></a>
 
 ### *property* ElementalEulerXZAngle.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -391,11 +491,15 @@ Gets the Maximum.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.MaximumOfMaximumOverTime"></a>
+
 ### *property* ElementalEulerXZAngle.MaximumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOfMaximumOverTime.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXZAngle.MaximumOfMinimumOverTime"></a>
 
 ### *property* ElementalEulerXZAngle.MaximumOfMinimumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -403,11 +507,15 @@ Gets the MaximumOfMinimumOverTime.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.Minimum"></a>
+
 ### *property* ElementalEulerXZAngle.Minimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Minimum.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXZAngle.MinimumOfMaximumOverTime"></a>
 
 ### *property* ElementalEulerXZAngle.MinimumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -415,11 +523,15 @@ Gets the MinimumOfMaximumOverTime.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.MinimumOfMinimumOverTime"></a>
+
 ### *property* ElementalEulerXZAngle.MinimumOfMinimumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOfMinimumOverTime.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXZAngle.Time"></a>
 
 ### *property* ElementalEulerXZAngle.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -427,11 +539,15 @@ Gets the Time.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.DisplayTime"></a>
+
 ### *property* ElementalEulerXZAngle.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DisplayTime.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXZAngle.GraphControlsXAxis"></a>
 
 ### *property* ElementalEulerXZAngle.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -439,11 +555,15 @@ Gets or sets the GraphControlsXAxis.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.DisplayOption"></a>
+
 ### *property* ElementalEulerXZAngle.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../Mechanical/DataModel/Enums/ResultAveragingType.md#ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DisplayOption.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXZAngle.DpfEvaluation"></a>
 
 ### *property* ElementalEulerXZAngle.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -451,11 +571,15 @@ Gets or sets the DpfEvaluation.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.By"></a>
+
 ### *property* ElementalEulerXZAngle.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../Mechanical/DataModel/Enums/SetDriverStyle.md#SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the By.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXZAngle.ItemType"></a>
 
 ### *property* ElementalEulerXZAngle.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../Mechanical/DataModel/Enums/ResultFileItemType.md#ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -463,11 +587,15 @@ Gets or sets the ItemType.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.CalculateTimeHistory"></a>
+
 ### *property* ElementalEulerXZAngle.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXZAngle.Suppressed"></a>
 
 ### *property* ElementalEulerXZAngle.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -475,11 +603,15 @@ Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.Children"></a>
+
 ### *property* ElementalEulerXZAngle.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXZAngle.Comments"></a>
 
 ### *property* ElementalEulerXZAngle.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -487,11 +619,15 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.Figures"></a>
+
 ### *property* ElementalEulerXZAngle.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXZAngle.Images"></a>
 
 ### *property* ElementalEulerXZAngle.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -499,11 +635,15 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id0"></a>
+
 ### *property* ElementalEulerXZAngle.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXZAngle.Properties"></a>
 
 ### *property* ElementalEulerXZAngle.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -511,13 +651,19 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.VisibleProperties"></a>
+
 ### *property* ElementalEulerXZAngle.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="ElementalEulerXZAngle.ClearGeneratedData"></a>
 
 ### ElementalEulerXZAngle.ClearGeneratedData()
 
@@ -525,11 +671,15 @@ Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.EvaluateAllResults"></a>
+
 ### ElementalEulerXZAngle.EvaluateAllResults()
 
 Run the EvaluateAllResults action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXZAngle.FetchRemoteResults"></a>
 
 ### ElementalEulerXZAngle.FetchRemoteResults()
 
@@ -537,11 +687,15 @@ Run the FetchRemoteResult action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.ExportToTextFile"></a>
+
 ### ElementalEulerXZAngle.ExportToTextFile(filePath: System.String)
 
 Run the ExportToTextFile action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXZAngle.ExportAnimation"></a>
 
 ### ElementalEulerXZAngle.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#AnimationExportSettings))
 
@@ -549,11 +703,15 @@ Run the ExportAnimation action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.DuplicateWithoutResults"></a>
+
 ### ElementalEulerXZAngle.DuplicateWithoutResults()
 
 Run the DuplicateWithoutResults action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXZAngle.CreateResultsAtAllSets"></a>
 
 ### ElementalEulerXZAngle.CreateResultsAtAllSets()
 
@@ -561,11 +719,15 @@ Creates results at all sets for results under a solution.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.PromoteToNamedSelection"></a>
+
 ### ElementalEulerXZAngle.PromoteToNamedSelection()
 
 Run the PromoteToNamedSelection action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXZAngle.CreateParameter"></a>
 
 ### ElementalEulerXZAngle.CreateParameter(propName: System.String)
 
@@ -573,11 +735,15 @@ CreateParameter method.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.AddAlert"></a>
+
 ### ElementalEulerXZAngle.AddAlert()
 
 Creates a new Alert
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXZAngle.AddConvergence"></a>
 
 ### ElementalEulerXZAngle.AddConvergence()
 
@@ -585,11 +751,15 @@ Creates a new Convergence
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.RenameBasedOnDefinition"></a>
+
 ### ElementalEulerXZAngle.RenameBasedOnDefinition()
 
 Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXZAngle.Delete"></a>
 
 ### ElementalEulerXZAngle.Delete()
 
@@ -597,11 +767,15 @@ Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.GetChildren"></a>
+
 ### ElementalEulerXZAngle.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id1"></a>
 
 ### ElementalEulerXZAngle.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
@@ -609,17 +783,23 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.AddComment"></a>
+
 ### ElementalEulerXZAngle.AddComment()
 
 Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.AddFigure"></a>
+
 ### ElementalEulerXZAngle.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXZAngle.AddImage"></a>
 
 ### ElementalEulerXZAngle.AddImage(filePath: System.String)
 
@@ -629,11 +809,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.Activate"></a>
+
 ### ElementalEulerXZAngle.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXZAngle.CopyTo"></a>
 
 ### ElementalEulerXZAngle.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -641,11 +825,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.Duplicate"></a>
+
 ### ElementalEulerXZAngle.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXZAngle.GroupAllSimilarChildren"></a>
 
 ### ElementalEulerXZAngle.GroupAllSimilarChildren()
 
@@ -653,17 +841,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.GroupSimilarObjects"></a>
+
 ### ElementalEulerXZAngle.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.PropertyByName"></a>
+
 ### ElementalEulerXZAngle.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXZAngle.PropertyByAPIName"></a>
 
 ### ElementalEulerXZAngle.PropertyByAPIName(name: System.String)
 
@@ -672,11 +866,15 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXZAngle.GetParameter"></a>
+
 ### ElementalEulerXZAngle.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXZAngle.RemoveParameter"></a>
 
 ### ElementalEulerXZAngle.RemoveParameter(propName: System.String)
 

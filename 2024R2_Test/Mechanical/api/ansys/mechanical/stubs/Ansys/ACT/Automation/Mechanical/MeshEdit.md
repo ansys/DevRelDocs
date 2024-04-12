@@ -1,4 +1,8 @@
+<a id="meshedit"></a>
+
 # MeshEdit
+
+<a id="MeshEdit"></a>
 
 ### *class* MeshEdit
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a MeshEdit.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -60,13 +66,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#MeshEdit.Properties)                                                                                | Gets the list of properties for this object.                          |
 | [`VisibleProperties`](#MeshEdit.VisibleProperties)                                                                  | Gets the list of properties that are visible for this object.         |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical import MeshEdit
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="MeshEdit.InternalObject"></a>
 
 ### *property* MeshEdit.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSMeshConnectionsParentAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -74,11 +86,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshEdit.GenerateAutomaticMeshConnectionsOnRefresh"></a>
+
 ### *property* MeshEdit.GenerateAutomaticMeshConnectionsOnRefresh *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](../../../Mechanical/DataModel/Enums/AutomaticOrManual.md#AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GenerateAutomaticMeshConnectionsOnRefresh.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshEdit.AssociateToPullGeometry"></a>
 
 ### *property* MeshEdit.AssociateToPullGeometry *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -86,11 +102,15 @@ To Migrate Boundary Conditions from profile to resulting Pull bodies.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshEdit.TransparencyEnabled"></a>
+
 ### *property* MeshEdit.TransparencyEnabled *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TransparencyEnabled.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshEdit.DataModelObjectCategory"></a>
 
 ### *property* MeshEdit.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -98,11 +118,15 @@ Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshEdit.Children"></a>
+
 ### *property* MeshEdit.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshEdit.Comments"></a>
 
 ### *property* MeshEdit.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -110,11 +134,15 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshEdit.Figures"></a>
+
 ### *property* MeshEdit.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshEdit.Images"></a>
 
 ### *property* MeshEdit.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -122,11 +150,15 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id0"></a>
+
 ### *property* MeshEdit.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshEdit.Properties"></a>
 
 ### *property* MeshEdit.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -134,13 +166,19 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshEdit.VisibleProperties"></a>
+
 ### *property* MeshEdit.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="MeshEdit.ClearGeneratedData"></a>
 
 ### MeshEdit.ClearGeneratedData()
 
@@ -148,11 +186,15 @@ Clear the generated data.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshEdit.AddNodeMerge"></a>
+
 ### MeshEdit.AddNodeMerge()
 
 Add a new NodeMerge.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshEdit.AddManualMeshConnection"></a>
 
 ### MeshEdit.AddManualMeshConnection()
 
@@ -160,11 +202,15 @@ Add a new ManualMeshConnection
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshEdit.Generate"></a>
+
 ### MeshEdit.Generate()
 
 Generate all mesh edits.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshEdit.SearchConnectionsForDuplicatePairs"></a>
 
 ### MeshEdit.SearchConnectionsForDuplicatePairs()
 
@@ -172,11 +218,15 @@ Run the SearchConnectionsForDuplicatePairs action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshEdit.AddPullExtrude"></a>
+
 ### MeshEdit.AddPullExtrude()
 
 Creates a new MeshExtrude
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshEdit.AddPullRevolve"></a>
 
 ### MeshEdit.AddPullRevolve()
 
@@ -184,11 +234,15 @@ Creates a new MeshExtrude
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshEdit.AddPullSurfaceCoating"></a>
+
 ### MeshEdit.AddPullSurfaceCoating()
 
 Creates a new MeshExtrude
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshEdit.AddContactMatchGroup"></a>
 
 ### MeshEdit.AddContactMatchGroup()
 
@@ -196,11 +250,15 @@ Creates a new ContactMatchGroup
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshEdit.AddDirectMorph"></a>
+
 ### MeshEdit.AddDirectMorph()
 
 Creates a new DirectMorph
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshEdit.AddMeshConnectionGroup"></a>
 
 ### MeshEdit.AddMeshConnectionGroup()
 
@@ -208,11 +266,15 @@ Creates a new MeshConnectionGroup
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshEdit.AddNodeMergeGroup"></a>
+
 ### MeshEdit.AddNodeMergeGroup()
 
 Creates a new NodeMergeGroup
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshEdit.AddNodeMove"></a>
 
 ### MeshEdit.AddNodeMove()
 
@@ -220,11 +282,15 @@ Creates a new NodeMove
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshEdit.CreateNamedSelectionForSharedNodes"></a>
+
 ### MeshEdit.CreateNamedSelectionForSharedNodes()
 
 Run the CreateNamedSelectionForSharedNodes action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshEdit.RenameBasedOnDefinition"></a>
 
 ### MeshEdit.RenameBasedOnDefinition()
 
@@ -232,11 +298,15 @@ Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshEdit.GetChildren"></a>
+
 ### MeshEdit.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id1"></a>
 
 ### MeshEdit.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
@@ -244,17 +314,23 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshEdit.AddComment"></a>
+
 ### MeshEdit.AddComment()
 
 Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshEdit.AddFigure"></a>
+
 ### MeshEdit.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshEdit.AddImage"></a>
 
 ### MeshEdit.AddImage(filePath: System.String)
 
@@ -264,11 +340,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshEdit.Activate"></a>
+
 ### MeshEdit.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshEdit.CopyTo"></a>
 
 ### MeshEdit.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -276,11 +356,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshEdit.Duplicate"></a>
+
 ### MeshEdit.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshEdit.GroupAllSimilarChildren"></a>
 
 ### MeshEdit.GroupAllSimilarChildren()
 
@@ -288,17 +372,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshEdit.GroupSimilarObjects"></a>
+
 ### MeshEdit.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshEdit.PropertyByName"></a>
+
 ### MeshEdit.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshEdit.PropertyByAPIName"></a>
 
 ### MeshEdit.PropertyByAPIName(name: System.String)
 
@@ -307,17 +397,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshEdit.CreateParameter"></a>
+
 ### MeshEdit.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshEdit.GetParameter"></a>
+
 ### MeshEdit.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshEdit.RemoveParameter"></a>
 
 ### MeshEdit.RemoveParameter(propName: System.String)
 

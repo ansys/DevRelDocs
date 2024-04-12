@@ -1,3 +1,5 @@
+<a id="api-reference"></a>
+
 # API reference
 
 This section describes  endpoints, their capabilities, and how

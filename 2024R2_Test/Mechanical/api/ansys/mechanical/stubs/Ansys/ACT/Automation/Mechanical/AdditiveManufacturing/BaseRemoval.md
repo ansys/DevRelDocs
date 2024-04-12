@@ -1,4 +1,8 @@
+<a id="baseremoval"></a>
+
 # BaseRemoval
+
+<a id="BaseRemoval"></a>
 
 ### *class* BaseRemoval
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > BaseRemoval class.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="import-detail"></a>
 
 ## Import detail
 

@@ -1,4 +1,8 @@
+<a id="pythonresult"></a>
+
 # PythonResult
+
+<a id="PythonResult"></a>
 
 ### *class* PythonResult
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a PythonResult.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -58,13 +64,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#PythonResult.Properties)                                                                                  | Gets the list of properties for this object.                                          |
 | [`VisibleProperties`](#PythonResult.VisibleProperties)                                                                    | Gets the list of properties that are visible for this object.                         |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.Results.ScriptableResults import PythonResult
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="PythonResult.InternalObject"></a>
 
 ### *property* PythonResult.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSScriptDefinedResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -72,11 +84,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PythonResult.Mode"></a>
+
 ### *property* PythonResult.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Mode.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PythonResult.DisplayTime"></a>
 
 ### *property* PythonResult.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -84,11 +100,15 @@ Gets or sets the DisplayTime.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PythonResult.By"></a>
+
 ### *property* PythonResult.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../Mechanical/DataModel/Enums/SetDriverStyle.md#SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the By.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PythonResult.Location"></a>
 
 ### *property* PythonResult.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -96,11 +116,15 @@ Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PythonResult.DataModelObjectCategory"></a>
+
 ### *property* PythonResult.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PythonResult.Children"></a>
 
 ### *property* PythonResult.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -108,11 +132,15 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PythonResult.Comments"></a>
+
 ### *property* PythonResult.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PythonResult.Figures"></a>
 
 ### *property* PythonResult.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -120,11 +148,15 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PythonResult.Images"></a>
+
 ### *property* PythonResult.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PythonResult.Text"></a>
 
 ### *property* PythonResult.Text *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -132,11 +164,15 @@ Gets or sets the text in the script tab for the Python Code object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PythonResult.PropertyProvider"></a>
+
 ### *property* PythonResult.PropertyProvider *: Ansys.ACT.Interfaces.Mechanical.IPropertyProvider | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the propperty provider instance associated with this python code object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id0"></a>
 
 ### *property* PythonResult.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSPythonCodeAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -144,11 +180,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PythonResult.ScriptExecutionScope"></a>
+
 ### *property* PythonResult.ScriptExecutionScope *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The scope identifier in which the code execution will take place.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PythonResult.Connected"></a>
 
 ### *property* PythonResult.Connected *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -156,11 +196,15 @@ Gets whether the callbacks are currently connected.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id1"></a>
+
 ### *property* PythonResult.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PythonResult.Properties"></a>
 
 ### *property* PythonResult.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -168,13 +212,19 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PythonResult.VisibleProperties"></a>
+
 ### *property* PythonResult.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="PythonResult.Evaluate"></a>
 
 ### PythonResult.Evaluate()
 
@@ -182,11 +232,15 @@ Evaluate method.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PythonResult.EvaluateAllResults"></a>
+
 ### PythonResult.EvaluateAllResults()
 
 Evaluate all results.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PythonResult.ClearGeneratedData"></a>
 
 ### PythonResult.ClearGeneratedData()
 
@@ -194,11 +248,15 @@ ClearGeneratedData method.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PythonResult.ExportAnimation"></a>
+
 ### PythonResult.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#AnimationExportSettings))
 
 Run the ExportAnimation action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PythonResult.GetChildren"></a>
 
 ### PythonResult.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
@@ -206,11 +264,15 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id2"></a>
+
 ### PythonResult.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PythonResult.AddComment"></a>
 
 ### PythonResult.AddComment()
 
@@ -218,11 +280,15 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PythonResult.AddFigure"></a>
+
 ### PythonResult.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PythonResult.AddImage"></a>
 
 ### PythonResult.AddImage(filePath: System.String)
 
@@ -232,11 +298,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PythonResult.ReloadProperties"></a>
+
 ### PythonResult.ReloadProperties()
 
 Reload properties to update properties provided by the provider.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PythonResult.Connect"></a>
 
 ### PythonResult.Connect()
 
@@ -244,11 +314,15 @@ Register the python code.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PythonResult.Delete"></a>
+
 ### PythonResult.Delete()
 
 Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PythonResult.Activate"></a>
 
 ### PythonResult.Activate()
 
@@ -256,11 +330,15 @@ Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PythonResult.CopyTo"></a>
+
 ### PythonResult.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
 Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PythonResult.Duplicate"></a>
 
 ### PythonResult.Duplicate()
 
@@ -268,11 +346,15 @@ Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PythonResult.GroupAllSimilarChildren"></a>
+
 ### PythonResult.GroupAllSimilarChildren()
 
 Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PythonResult.GroupSimilarObjects"></a>
 
 ### PythonResult.GroupSimilarObjects()
 
@@ -280,11 +362,15 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PythonResult.PropertyByName"></a>
+
 ### PythonResult.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PythonResult.PropertyByAPIName"></a>
 
 ### PythonResult.PropertyByAPIName(name: System.String)
 
@@ -293,17 +379,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PythonResult.CreateParameter"></a>
+
 ### PythonResult.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PythonResult.GetParameter"></a>
+
 ### PythonResult.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PythonResult.RemoveParameter"></a>
 
 ### PythonResult.RemoveParameter(propName: System.String)
 

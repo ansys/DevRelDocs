@@ -1,4 +1,8 @@
+<a id="internalheatgeneration"></a>
+
 # InternalHeatGeneration
+
+<a id="InternalHeatGeneration"></a>
 
 ### *class* InternalHeatGeneration
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a InternalHeatGeneration.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -52,13 +58,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#InternalHeatGeneration.Properties)                                                                     | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#InternalHeatGeneration.VisibleProperties)                                                       | Gets the list of properties that are visible for this object. |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.BoundaryConditions import InternalHeatGeneration
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="InternalHeatGeneration.InternalObject"></a>
 
 ### *property* InternalHeatGeneration.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -66,11 +78,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalHeatGeneration.NumberOfSegments"></a>
+
 ### *property* InternalHeatGeneration.NumberOfSegments *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfSegments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalHeatGeneration.Magnitude"></a>
 
 ### *property* InternalHeatGeneration.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -78,11 +94,15 @@ Gets the Magnitude.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalHeatGeneration.Location"></a>
+
 ### *property* InternalHeatGeneration.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalHeatGeneration.DataModelObjectCategory"></a>
 
 ### *property* InternalHeatGeneration.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -90,11 +110,15 @@ Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalHeatGeneration.Suppressed"></a>
+
 ### *property* InternalHeatGeneration.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalHeatGeneration.SharedRefBody"></a>
 
 ### *property* InternalHeatGeneration.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -102,11 +126,15 @@ Gets or sets the SharedRefBody.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalHeatGeneration.Children"></a>
+
 ### *property* InternalHeatGeneration.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalHeatGeneration.Comments"></a>
 
 ### *property* InternalHeatGeneration.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -114,11 +142,15 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalHeatGeneration.Figures"></a>
+
 ### *property* InternalHeatGeneration.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalHeatGeneration.Images"></a>
 
 ### *property* InternalHeatGeneration.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -126,11 +158,15 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalHeatGeneration.ReadOnly"></a>
+
 ### *property* InternalHeatGeneration.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id0"></a>
 
 ### *property* InternalHeatGeneration.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -138,11 +174,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalHeatGeneration.Properties"></a>
+
 ### *property* InternalHeatGeneration.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalHeatGeneration.VisibleProperties"></a>
 
 ### *property* InternalHeatGeneration.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -150,7 +190,11 @@ Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="InternalHeatGeneration.GetActivateAtLoadStep"></a>
 
 ### InternalHeatGeneration.GetActivateAtLoadStep(stepNumber: System.UInt32)
 
@@ -158,11 +202,15 @@ GetActivateAtLoadStep method.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalHeatGeneration.SetActivateAtLoadStep"></a>
+
 ### InternalHeatGeneration.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
 
 SetActivateAtLoadStep method.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalHeatGeneration.PromoteToNamedSelection"></a>
 
 ### InternalHeatGeneration.PromoteToNamedSelection()
 
@@ -170,11 +218,15 @@ Run the PromoteToNamedSelection action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalHeatGeneration.Delete"></a>
+
 ### InternalHeatGeneration.Delete()
 
 Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalHeatGeneration.GetChildren"></a>
 
 ### InternalHeatGeneration.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
@@ -182,11 +234,15 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id1"></a>
+
 ### InternalHeatGeneration.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalHeatGeneration.AddComment"></a>
 
 ### InternalHeatGeneration.AddComment()
 
@@ -194,11 +250,15 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalHeatGeneration.AddFigure"></a>
+
 ### InternalHeatGeneration.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalHeatGeneration.AddImage"></a>
 
 ### InternalHeatGeneration.AddImage(filePath: System.String)
 
@@ -208,11 +268,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalHeatGeneration.Activate"></a>
+
 ### InternalHeatGeneration.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalHeatGeneration.CopyTo"></a>
 
 ### InternalHeatGeneration.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -220,11 +284,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalHeatGeneration.Duplicate"></a>
+
 ### InternalHeatGeneration.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalHeatGeneration.GroupAllSimilarChildren"></a>
 
 ### InternalHeatGeneration.GroupAllSimilarChildren()
 
@@ -232,17 +300,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalHeatGeneration.GroupSimilarObjects"></a>
+
 ### InternalHeatGeneration.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalHeatGeneration.PropertyByName"></a>
+
 ### InternalHeatGeneration.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalHeatGeneration.PropertyByAPIName"></a>
 
 ### InternalHeatGeneration.PropertyByAPIName(name: System.String)
 
@@ -251,17 +325,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalHeatGeneration.CreateParameter"></a>
+
 ### InternalHeatGeneration.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InternalHeatGeneration.GetParameter"></a>
+
 ### InternalHeatGeneration.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="InternalHeatGeneration.RemoveParameter"></a>
 
 ### InternalHeatGeneration.RemoveParameter(propName: System.String)
 

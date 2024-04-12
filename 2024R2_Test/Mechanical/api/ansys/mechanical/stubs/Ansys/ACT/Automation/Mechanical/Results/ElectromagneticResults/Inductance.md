@@ -1,4 +1,8 @@
+<a id="inductance"></a>
+
 # Inductance
+
+<a id="Inductance"></a>
 
 ### *class* Inductance
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a Inductance.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -42,13 +48,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#Inductance.Properties)                                                                                    | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#Inductance.VisibleProperties)                                                                      | Gets the list of properties that are visible for this object. |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.Results.ElectromagneticResults import Inductance
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="Inductance.InternalObject"></a>
 
 ### *property* Inductance.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultTableAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -56,11 +68,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Inductance.DataModelObjectCategory"></a>
+
 ### *property* Inductance.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Inductance.Multiplier"></a>
 
 ### *property* Inductance.Multiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -68,11 +84,15 @@ Gets or sets the Multiplier.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Inductance.Children"></a>
+
 ### *property* Inductance.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Inductance.Comments"></a>
 
 ### *property* Inductance.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -80,11 +100,15 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Inductance.Images"></a>
+
 ### *property* Inductance.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id0"></a>
 
 ### *property* Inductance.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -92,11 +116,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Inductance.Properties"></a>
+
 ### *property* Inductance.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Inductance.VisibleProperties"></a>
 
 ### *property* Inductance.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -104,7 +132,11 @@ Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="Inductance.Delete"></a>
 
 ### Inductance.Delete()
 
@@ -112,11 +144,15 @@ Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Inductance.GetChildren"></a>
+
 ### Inductance.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id1"></a>
 
 ### Inductance.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
@@ -124,11 +160,15 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Inductance.AddComment"></a>
+
 ### Inductance.AddComment()
 
 Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Inductance.AddImage"></a>
 
 ### Inductance.AddImage(filePath: System.String)
 
@@ -138,11 +178,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Inductance.Activate"></a>
+
 ### Inductance.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Inductance.CopyTo"></a>
 
 ### Inductance.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -150,11 +194,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Inductance.Duplicate"></a>
+
 ### Inductance.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Inductance.GroupAllSimilarChildren"></a>
 
 ### Inductance.GroupAllSimilarChildren()
 
@@ -162,17 +210,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Inductance.GroupSimilarObjects"></a>
+
 ### Inductance.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Inductance.PropertyByName"></a>
+
 ### Inductance.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Inductance.PropertyByAPIName"></a>
 
 ### Inductance.PropertyByAPIName(name: System.String)
 
@@ -181,17 +235,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Inductance.CreateParameter"></a>
+
 ### Inductance.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Inductance.GetParameter"></a>
+
 ### Inductance.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Inductance.RemoveParameter"></a>
 
 ### Inductance.RemoveParameter(propName: System.String)
 

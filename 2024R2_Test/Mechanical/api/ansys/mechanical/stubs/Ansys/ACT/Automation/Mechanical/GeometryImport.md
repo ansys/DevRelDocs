@@ -1,4 +1,8 @@
+<a id="geometryimport"></a>
+
 # GeometryImport
+
+<a id="GeometryImport"></a>
 
 ### *class* GeometryImport
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a GeometryImport.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -47,13 +53,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#GeometryImport.Properties)                                                                          | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#GeometryImport.VisibleProperties)                                                            | Gets the list of properties that are visible for this object. |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical import GeometryImport
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="GeometryImport.Parts"></a>
 
 ### *property* GeometryImport.Parts *: System.Collections.Generic.IList[System.Object] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -61,11 +73,15 @@ List of parts created by the most recent import operation.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeometryImport.InternalObject"></a>
+
 ### *property* GeometryImport.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSGeometryImportAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GeometryImport.DataModelObjectCategory"></a>
 
 ### *property* GeometryImport.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -73,11 +89,15 @@ Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeometryImport.Children"></a>
+
 ### *property* GeometryImport.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GeometryImport.Comments"></a>
 
 ### *property* GeometryImport.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -85,11 +105,15 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeometryImport.Figures"></a>
+
 ### *property* GeometryImport.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GeometryImport.Images"></a>
 
 ### *property* GeometryImport.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -97,11 +121,15 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id0"></a>
+
 ### *property* GeometryImport.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GeometryImport.Properties"></a>
 
 ### *property* GeometryImport.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -109,13 +137,19 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeometryImport.VisibleProperties"></a>
+
 ### *property* GeometryImport.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="GeometryImport.GetGeometryURI"></a>
 
 ### GeometryImport.GetGeometryURI()
 
@@ -124,17 +158,23 @@ which on disk would be “[file://](file://)…”
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeometryImport.GetFormat"></a>
+
 ### GeometryImport.GetFormat()
 
 Gets the format of the geometry file/data for the most recent import.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeometryImport.GetPreferences"></a>
+
 ### GeometryImport.GetPreferences()
 
 Gets the preferences for most recent import operations with the geometry file/data.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GeometryImport.Import"></a>
 
 ### GeometryImport.Import(geometryURI: System.String, format: [Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.Format](../../../Mechanical/DataModel/Enums/GeometryImportPreference/Format.md#Format), preferences: [Ansys.ACT.Mechanical.Utilities.GeometryImportPreferences](../../Mechanical/Utilities/GeometryImportPreferences.md#GeometryImportPreferences))
 
@@ -146,11 +186,15 @@ during an import operation. \*** The parts will be read into the Geometry.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeometryImport.GetChildren"></a>
+
 ### GeometryImport.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id3"></a>
 
 ### GeometryImport.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
@@ -158,17 +202,23 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeometryImport.AddComment"></a>
+
 ### GeometryImport.AddComment()
 
 Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeometryImport.AddFigure"></a>
+
 ### GeometryImport.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GeometryImport.AddImage"></a>
 
 ### GeometryImport.AddImage(filePath: System.String)
 
@@ -178,11 +228,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeometryImport.Activate"></a>
+
 ### GeometryImport.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GeometryImport.CopyTo"></a>
 
 ### GeometryImport.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -190,11 +244,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeometryImport.Duplicate"></a>
+
 ### GeometryImport.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GeometryImport.GroupAllSimilarChildren"></a>
 
 ### GeometryImport.GroupAllSimilarChildren()
 
@@ -202,17 +260,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeometryImport.GroupSimilarObjects"></a>
+
 ### GeometryImport.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeometryImport.PropertyByName"></a>
+
 ### GeometryImport.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GeometryImport.PropertyByAPIName"></a>
 
 ### GeometryImport.PropertyByAPIName(name: System.String)
 
@@ -221,17 +285,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeometryImport.CreateParameter"></a>
+
 ### GeometryImport.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeometryImport.GetParameter"></a>
+
 ### GeometryImport.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GeometryImport.RemoveParameter"></a>
 
 ### GeometryImport.RemoveParameter(propName: System.String)
 

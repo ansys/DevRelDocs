@@ -1,4 +1,8 @@
+<a id="positiontracker"></a>
+
 # PositionTracker
+
+<a id="PositionTracker"></a>
 
 ### *class* PositionTracker
 
@@ -7,6 +11,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 > Defines a PositionTracker.
 
 > <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -91,13 +97,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Properties`](#PositionTracker.Properties)                                                                               | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#PositionTracker.VisibleProperties)                                                                 | Gets the list of properties that are visible for this object. |
 
+<a id="import-detail"></a>
+
 ## Import detail
 
 ```python
 from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.Results.ResultTrackers import PositionTracker
 ```
 
+<a id="property-detail"></a>
+
 ## Property detail
+
+<a id="PositionTracker.InternalObject"></a>
 
 ### *property* PositionTracker.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultChartAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -105,11 +117,15 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PositionTracker.LocationXCoordinate"></a>
+
 ### *property* PositionTracker.LocationXCoordinate *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LocationXCoordinate.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PositionTracker.LocationYCoordinate"></a>
 
 ### *property* PositionTracker.LocationYCoordinate *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -117,11 +133,15 @@ Gets or sets the LocationYCoordinate.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PositionTracker.LocationZCoordinate"></a>
+
 ### *property* PositionTracker.LocationZCoordinate *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LocationZCoordinate.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PositionTracker.LocationMethod"></a>
 
 ### *property* PositionTracker.LocationMethod *: [Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod](../../../../../Mechanical/DataModel/Enums/LocationDefinitionMethod.md#LocationDefinitionMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -129,11 +149,15 @@ Gets or sets the LocationMethod.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PositionTracker.LocationCoordinateSystem"></a>
+
 ### *property* PositionTracker.LocationCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LocationCoordinateSystem.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PositionTracker.DataModelObjectCategory"></a>
 
 ### *property* PositionTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -141,11 +165,15 @@ Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PositionTracker.IsSolved"></a>
+
 ### *property* PositionTracker.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PositionTracker.ChartDimensions"></a>
 
 ### *property* PositionTracker.ChartDimensions *: [Ansys.Mechanical.DataModel.Enums.ChartDimensions](../../../../../Mechanical/DataModel/Enums/ChartDimensions.md#ChartDimensions) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -153,11 +181,15 @@ Gets or sets the Chart Dimensions
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PositionTracker.BoundaryCondition"></a>
+
 ### *property* PositionTracker.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](../../BoundaryConditions/GenericBoundaryCondition.md#GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BoundaryCondition.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PositionTracker.CutFrequency"></a>
 
 ### *property* PositionTracker.CutFrequency *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -165,11 +197,15 @@ Gets or sets the CutFrequency.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PositionTracker.SectorNumber"></a>
+
 ### *property* PositionTracker.SectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SectorNumber.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PositionTracker.GeometrySelectionString"></a>
 
 ### *property* PositionTracker.GeometrySelectionString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -177,11 +213,15 @@ Gets or sets the GeometrySelectionString.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PositionTracker.LoadStepNumber"></a>
+
 ### *property* PositionTracker.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PositionTracker.ReportedFrequency"></a>
 
 ### *property* PositionTracker.ReportedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -189,11 +229,15 @@ Gets the ReportedFrequency.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PositionTracker.Duration"></a>
+
 ### *property* PositionTracker.Duration *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Duration.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PositionTracker.FilterMaximum"></a>
 
 ### *property* PositionTracker.FilterMaximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -201,11 +245,15 @@ Gets the FilterMaximum.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PositionTracker.FilterMinimum"></a>
+
 ### *property* PositionTracker.FilterMinimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the FilterMinimum.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PositionTracker.FrequencyAtMaximumAmplitude"></a>
 
 ### *property* PositionTracker.FrequencyAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -213,11 +261,15 @@ Gets the FrequencyAtMaximumAmplitude.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PositionTracker.ImaginaryAtMaximumAmplitude"></a>
+
 ### *property* PositionTracker.ImaginaryAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ImaginaryAtMaximumAmplitude.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PositionTracker.MaximumAmplitude"></a>
 
 ### *property* PositionTracker.MaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -225,11 +277,15 @@ Gets the MaximumAmplitude.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PositionTracker.MaximumFrequency"></a>
+
 ### *property* PositionTracker.MaximumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MaximumFrequency.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PositionTracker.Maximum"></a>
 
 ### *property* PositionTracker.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -237,11 +293,15 @@ Gets the Maximum.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PositionTracker.MinimumFrequency"></a>
+
 ### *property* PositionTracker.MinimumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MinimumFrequency.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PositionTracker.Minimum"></a>
 
 ### *property* PositionTracker.Minimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -249,11 +309,15 @@ Gets the Minimum.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PositionTracker.PhaseAngle"></a>
+
 ### *property* PositionTracker.PhaseAngle *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the PhaseAngle.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PositionTracker.RealAtMaximumAmplitude"></a>
 
 ### *property* PositionTracker.RealAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -261,11 +325,15 @@ Gets the RealAtMaximumAmplitude.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PositionTracker.RequestedFrequency"></a>
+
 ### *property* PositionTracker.RequestedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RequestedFrequency.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PositionTracker.AccelerationType"></a>
 
 ### *property* PositionTracker.AccelerationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -273,11 +341,15 @@ Gets or sets the AccelerationType.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PositionTracker.ChartViewingStyle"></a>
+
 ### *property* PositionTracker.ChartViewingStyle *: [Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType](../../../../../Mechanical/DataModel/Enums/ChartAxisScaleType.md#ChartAxisScaleType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ChartViewingStyle.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PositionTracker.DeformationType"></a>
 
 ### *property* PositionTracker.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -285,11 +357,15 @@ Gets or sets the DeformationType.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PositionTracker.FilterType"></a>
+
 ### *property* PositionTracker.FilterType *: [Ansys.Mechanical.DataModel.Enums.FilterType](../../../../../Mechanical/DataModel/Enums/FilterType.md#FilterType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FilterType.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PositionTracker.SpatialResolution"></a>
 
 ### *property* PositionTracker.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MultipleNodeType](../../../../../Mechanical/DataModel/Enums/MultipleNodeType.md#MultipleNodeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -297,11 +373,15 @@ Gets or sets the SpatialResolution.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PositionTracker.NormalOrientation"></a>
+
 ### *property* PositionTracker.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NormalOrientation.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PositionTracker.CurvesAppearanceDisplay"></a>
 
 ### *property* PositionTracker.CurvesAppearanceDisplay *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](../../../../../Mechanical/DataModel/Enums/ChartPlotStyle.md#ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -309,11 +389,15 @@ Gets or sets the CurvesAppearanceDisplay.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PositionTracker.ResultChartType"></a>
+
 ### *property* PositionTracker.ResultChartType *: [Ansys.Mechanical.DataModel.Enums.ChartResultType](../../../../../Mechanical/DataModel/Enums/ChartResultType.md#ChartResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ResultChartType.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PositionTracker.DpfEvaluation"></a>
 
 ### *property* PositionTracker.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -321,11 +405,15 @@ Gets or sets the DpfEvaluation.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PositionTracker.XAxisValues"></a>
+
 ### *property* PositionTracker.XAxisValues *: [Ansys.Mechanical.DataModel.Enums.XAxisValues](../../../../../Mechanical/DataModel/Enums/XAxisValues.md#XAxisValues) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XAxisValues.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PositionTracker.ShearOrientation"></a>
 
 ### *property* PositionTracker.ShearOrientation *: [Ansys.Mechanical.DataModel.Enums.ShearOrientationType](../../../../../Mechanical/DataModel/Enums/ShearOrientationType.md#ShearOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -333,11 +421,15 @@ Gets or sets the ShearOrientation.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PositionTracker.StressStrainType"></a>
+
 ### *property* PositionTracker.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](../../../../../Mechanical/DataModel/Enums/StressStrainType.md#StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StressStrainType.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PositionTracker.TimeHistoryDisplay"></a>
 
 ### *property* PositionTracker.TimeHistoryDisplay *: [Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType](../../../../../Mechanical/DataModel/Enums/TimeHistoryDisplayType.md#TimeHistoryDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -345,11 +437,15 @@ Gets or sets the TimeHistoryDisplay.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PositionTracker.VelocityType"></a>
+
 ### *property* PositionTracker.VelocityType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the VelocityType.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PositionTracker.Suppressed"></a>
 
 ### *property* PositionTracker.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -357,11 +453,15 @@ Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PositionTracker.EnhancedTracking"></a>
+
 ### *property* PositionTracker.EnhancedTracking *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the EnhancedTracking.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PositionTracker.UseParentFrequencyRange"></a>
 
 ### *property* PositionTracker.UseParentFrequencyRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -369,11 +469,15 @@ Gets or sets the UseParentFrequencyRange.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PositionTracker.CoordinateSystem"></a>
+
 ### *property* PositionTracker.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PositionTracker.Spring"></a>
 
 ### *property* PositionTracker.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../Connections/Spring.md#Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -381,11 +485,15 @@ Gets or sets the Spring.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PositionTracker.Location"></a>
+
 ### *property* PositionTracker.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PositionTracker.Children"></a>
 
 ### *property* PositionTracker.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -393,11 +501,15 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PositionTracker.Comments"></a>
+
 ### *property* PositionTracker.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PositionTracker.Images"></a>
 
 ### *property* PositionTracker.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -405,11 +517,15 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="id0"></a>
+
 ### *property* PositionTracker.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PositionTracker.Properties"></a>
 
 ### *property* PositionTracker.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -417,13 +533,19 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PositionTracker.VisibleProperties"></a>
+
 ### *property* PositionTracker.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="method-detail"></a>
+
 ## Method detail
+
+<a id="PositionTracker.ExportAnimation"></a>
 
 ### PositionTracker.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#AnimationExportSettings))
 
@@ -431,11 +553,15 @@ Run the ExportAnimation action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PositionTracker.ClearGeneratedData"></a>
+
 ### PositionTracker.ClearGeneratedData()
 
 Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PositionTracker.EvaluateAllResults"></a>
 
 ### PositionTracker.EvaluateAllResults()
 
@@ -443,11 +569,15 @@ Run the EvaluateAllResults action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PositionTracker.RenameBasedOnDefinition"></a>
+
 ### PositionTracker.RenameBasedOnDefinition()
 
 Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PositionTracker.Delete"></a>
 
 ### PositionTracker.Delete()
 
@@ -455,11 +585,15 @@ Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PositionTracker.GetChildren"></a>
+
 ### PositionTracker.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="id1"></a>
 
 ### PositionTracker.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
@@ -467,11 +601,15 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PositionTracker.AddComment"></a>
+
 ### PositionTracker.AddComment()
 
 Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PositionTracker.AddImage"></a>
 
 ### PositionTracker.AddImage(filePath: System.String)
 
@@ -481,11 +619,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PositionTracker.Activate"></a>
+
 ### PositionTracker.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PositionTracker.CopyTo"></a>
 
 ### PositionTracker.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -493,11 +635,15 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PositionTracker.Duplicate"></a>
+
 ### PositionTracker.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PositionTracker.GroupAllSimilarChildren"></a>
 
 ### PositionTracker.GroupAllSimilarChildren()
 
@@ -505,17 +651,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PositionTracker.GroupSimilarObjects"></a>
+
 ### PositionTracker.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PositionTracker.PropertyByName"></a>
+
 ### PositionTracker.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PositionTracker.PropertyByAPIName"></a>
 
 ### PositionTracker.PropertyByAPIName(name: System.String)
 
@@ -524,17 +676,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PositionTracker.CreateParameter"></a>
+
 ### PositionTracker.CreateParameter(propName: System.String)
 
 Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PositionTracker.GetParameter"></a>
+
 ### PositionTracker.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PositionTracker.RemoveParameter"></a>
 
 ### PositionTracker.RemoveParameter(propName: System.String)
 
