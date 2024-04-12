@@ -35,7 +35,7 @@ from ansys.mechanical.stubs.Ansys.ACT.Automation.DesignModeler import Feature
 
 <a id="Feature.Name"></a>
 
-### *property* Feature.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+##### *property* Feature.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the name of the feature.
 
@@ -43,7 +43,7 @@ Gets the name of the feature.
 
 <a id="Feature.Id"></a>
 
-### *property* Feature.Id *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+##### *property* Feature.Id *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the id of the feature.
 
