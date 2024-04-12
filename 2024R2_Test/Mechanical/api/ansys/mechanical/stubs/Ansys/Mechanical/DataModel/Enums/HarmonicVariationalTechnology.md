@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`No`](#HarmonicVariationalTechnology.No)                               |    |
+| Name | Summary |
 |-------------------------------------------------------------------------|----|
+| [`No`](#HarmonicVariationalTechnology.No)                               |    |
 | [`ProgramControlled`](#HarmonicVariationalTechnology.ProgramControlled) |    |
 | [`Yes`](#HarmonicVariationalTechnology.Yes)                             |    |
 

@@ -19,8 +19,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`None_`](#MixedImportResolution.None_)                               |    |
+| Name | Summary |
 |-----------------------------------------------------------------------|----|
+| [`None_`](#MixedImportResolution.None_)                               |    |
 | [`Solid`](../../../../ACT/Automation/Mechanical/Solid.md#Solid)       |    |
 | [`Surface`](../../../../ACT/Automation/Mechanical/Surface.md#Surface) |    |
 | [`Line`](#MixedImportResolution.Line)                                 |    |

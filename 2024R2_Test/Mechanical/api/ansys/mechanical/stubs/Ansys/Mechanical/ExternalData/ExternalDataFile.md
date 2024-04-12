@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`FilePath`](#ExternalDataFile.FilePath)                          | Gets or sets the file path of the external data file.            |
+| Name | Summary |
 |-------------------------------------------------------------------|------------------------------------------------------------------|
+| [`FilePath`](#ExternalDataFile.FilePath)                          | Gets or sets the file path of the external data file.            |
 | [`Identifier`](#ExternalDataFile.Identifier)                      | Gets or sets the identifier of the external data file.           |
 | [`Description`](#ExternalDataFile.Description)                    | Gets or sets the optional description of the external data file. |
 | [`IsMainFile`](#ExternalDataFile.IsMainFile)                      |                                                                  |

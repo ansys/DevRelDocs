@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`GenerateMesh`](#ICEMCFDBehavior.GenerateMesh)   |    |
+| Name | Summary |
 |---------------------------------------------------|----|
+| [`GenerateMesh`](#ICEMCFDBehavior.GenerateMesh)   |    |
 | [`SkipMeshing`](#ICEMCFDBehavior.SkipMeshing)     |    |
 
 <a id="import-detail"></a>

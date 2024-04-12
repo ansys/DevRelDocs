@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`PromoteToNamedSelection`](#BoltPretension.PromoteToNamedSelection)     | Run the PromoteToNamedSelection action.                                           |
+| Name | Summary |
 |--------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`PromoteToNamedSelection`](#BoltPretension.PromoteToNamedSelection)     | Run the PromoteToNamedSelection action.                                           |
 | [`PromoteToCoordinateSystem`](#BoltPretension.PromoteToCoordinateSystem) | Run the PromoteToCoordinateSystem action.                                         |
 | [`GetDefineBy`](#BoltPretension.GetDefineBy)                             | Gets the Bolt Define By value at a given solution step.                           |
 | [`SetDefineBy`](#BoltPretension.SetDefineBy)                             | Sets the Bolt Define By value for a given solution step.                          |
@@ -42,8 +43,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`DefineBy`](#BoltPretension.DefineBy)                                                                                    | Gets a value indicating how the bolt pretension is defined at the analysis’ current step.   |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
+| [`DefineBy`](#BoltPretension.DefineBy)                                                                                    | Gets a value indicating how the bolt pretension is defined at the analysis’ current step.   |
 | [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.                                          |
 | [`Increment`](#BoltPretension.Increment)                                                                                  | Gets the Increment.                                                                         |
 | [`Preadjustment`](#BoltPretension.Preadjustment)                                                                          | Gets the Preadjustment.                                                                     |

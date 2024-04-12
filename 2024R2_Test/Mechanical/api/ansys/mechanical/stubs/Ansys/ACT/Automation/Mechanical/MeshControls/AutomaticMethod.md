@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GenerateMesh`](#AutomaticMethod.GenerateMesh)                       | Generate the Mesh.                                                                |
+| Name | Summary |
 |-----------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GenerateMesh`](#AutomaticMethod.GenerateMesh)                       | Generate the Mesh.                                                                |
 | [`RenameBasedOnDefinition`](#AutomaticMethod.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#AutomaticMethod.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                 | Gets the list of children, filtered by type.                                      |
@@ -40,8 +41,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`AggressiveInflateOption`](#AutomaticMethod.AggressiveInflateOption)                                                  | Gets or sets the AggressiveInflateOption.                                                        |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
+| [`AggressiveInflateOption`](#AutomaticMethod.AggressiveInflateOption)                                                  | Gets or sets the AggressiveInflateOption.                                                        |
 | [`AggressiveTetImprovement`](#AutomaticMethod.AggressiveTetImprovement)                                                | Gets or sets the AggressiveTetImprovement.                                                       |
 | [`ControlMessages`](#AutomaticMethod.ControlMessages)                                                                  | Gets the ControlMessages.                                                                        |
 | [`CornerAngle`](#AutomaticMethod.CornerAngle)                                                                          | Gets or sets the CornerAngle.                                                                    |

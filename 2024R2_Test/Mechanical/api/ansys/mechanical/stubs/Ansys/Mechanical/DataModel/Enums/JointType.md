@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`RadialGap3D`](#JointType.RadialGap3D)           |    |
+| Name | Summary |
 |---------------------------------------------------|----|
+| [`RadialGap3D`](#JointType.RadialGap3D)           |    |
 | [`Bushing`](#JointType.Bushing)                   |    |
 | [`ConstantVelocity`](#JointType.ConstantVelocity) |    |
 | [`Cylindrical`](#JointType.Cylindrical)           |    |

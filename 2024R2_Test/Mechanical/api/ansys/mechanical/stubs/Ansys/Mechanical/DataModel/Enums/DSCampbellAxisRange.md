@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Manual`](#DSCampbellAxisRange.Manual)                       |    |
+| Name | Summary |
 |---------------------------------------------------------------|----|
+| [`Manual`](#DSCampbellAxisRange.Manual)                       |    |
 | [`ProgramControlled`](#DSCampbellAxisRange.ProgramControlled) |    |
 
 <a id="import-detail"></a>

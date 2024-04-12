@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddContactRegion`](index.md#id427)                                                  | Creates a new child ContactRegion.                                                |
+| Name | Summary |
 |---------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddContactRegion`](index.md#id427)                                                  | Creates a new child ContactRegion.                                                |
 | [`AddContactTool`](index.md#Connections.AddContactTool)                               | Creates a new ContactTool                                                         |
 | [`AddSpotWeldGroup`](index.md#Connections.AddSpotWeldGroup)                           | Creates a new child SpotWeldGroup.                                                |
 | [`AddSpotWeld`](index.md#id430)                                                       | Creates a new child SpotWeld.                                                     |
@@ -56,8 +57,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](index.md#id462)                                                                                     | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](index.md#id462)                                                                                     | Gets the internal object. For advanced usage only.            |
 | [`SolverFilesDirectory`](index.md#Connections.SolverFilesDirectory)                                                    | Gets or sets the SolverFilesDirectory.                        |
 | [`GenerateAutomaticConnectionOnRefresh`](index.md#Connections.GenerateAutomaticConnectionOnRefresh)                    | Gets or sets the GenerateAutomaticConnectionOnRefresh.        |
 | [`FixedJoints`](index.md#Connections.FixedJoints)                                                                      | Gets or sets the FixedJoints.                                 |

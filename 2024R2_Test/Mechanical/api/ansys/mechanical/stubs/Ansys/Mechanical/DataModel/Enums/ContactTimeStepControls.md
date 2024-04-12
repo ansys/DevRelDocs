@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`AutomaticBisection`](#ContactTimeStepControls.AutomaticBisection)     |    |
+| Name | Summary |
 |-------------------------------------------------------------------------|----|
+| [`AutomaticBisection`](#ContactTimeStepControls.AutomaticBisection)     |    |
 | [`None_`](#ContactTimeStepControls.None_)                               |    |
 | [`PredictForImpact`](#ContactTimeStepControls.PredictForImpact)         |    |
 | [`UseImpactConstraints`](#ContactTimeStepControls.UseImpactConstraints) |    |

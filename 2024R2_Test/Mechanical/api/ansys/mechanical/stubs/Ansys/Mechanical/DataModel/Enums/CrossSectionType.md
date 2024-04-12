@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`UserDefined`](#CrossSectionType.UserDefined)             |    |
+| Name | Summary |
 |------------------------------------------------------------|----|
+| [`UserDefined`](#CrossSectionType.UserDefined)             |    |
 | [`Channel`](#CrossSectionType.Channel)                     |    |
 | [`Circular`](#CrossSectionType.Circular)                   |    |
 | [`CircularTube`](#CrossSectionType.CircularTube)           |    |

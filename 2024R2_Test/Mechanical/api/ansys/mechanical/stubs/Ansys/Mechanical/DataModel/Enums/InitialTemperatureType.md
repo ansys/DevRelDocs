@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`NonUniform`](#InitialTemperatureType.NonUniform)   |    |
+| Name | Summary |
 |------------------------------------------------------|----|
+| [`NonUniform`](#InitialTemperatureType.NonUniform)   |    |
 | [`Uniform`](#InitialTemperatureType.Uniform)         |    |
 
 <a id="import-detail"></a>

@@ -16,16 +16,18 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Clear`](#ColumnarDataSourceBase.Clear)                 |                                                       |
+| Name | Summary |
 |----------------------------------------------------------|-------------------------------------------------------|
+| [`Clear`](#ColumnarDataSourceBase.Clear)                 |                                                       |
 | [`GetEnumerator`](#ColumnarDataSourceBase.GetEnumerator) |                                                       |
 | [`RemoveAt`](#ColumnarDataSourceBase.RemoveAt)           | Removes the import definition at the specified index. |
 | [`UseColumn`](#ColumnarDataSourceBase.UseColumn)         |                                                       |
 
 ### Properties
 
-| [`Count`](#ColumnarDataSourceBase.Count)                                 | Gets the number of column definitions.                                               |
+| Name | Summary |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| [`Count`](#ColumnarDataSourceBase.Count)                                 | Gets the number of column definitions.                                               |
 | [`Item`](#ColumnarDataSourceBase.Item)                                   | Item property.                                                                       |
 | [`SkipFooter`](#ColumnarDataSourceBase.SkipFooter)                       | Gets or sets the number of rows to ignore at the end of the file during import.      |
 | [`SkipRows`](#ColumnarDataSourceBase.SkipRows)                           | Gets or sets the number of rows to skip over at the start of the file during import. |

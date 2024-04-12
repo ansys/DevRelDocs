@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GenerateOrientations`](#ElementOrientation.GenerateOrientations)       | Runs the GenerateOrientations acton.                                              |
+| Name | Summary |
 |--------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GenerateOrientations`](#ElementOrientation.GenerateOrientations)       | Runs the GenerateOrientations acton.                                              |
 | [`Delete`](#ElementOrientation.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                    | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                    | Gets the list of children, filtered by type.                                      |
@@ -39,8 +40,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`AxisEdgeOrientation`](#ElementOrientation.AxisEdgeOrientation)                                                    | Gets or sets the AxisEdgeOrientation.                         |
 | [`AxisSurfaceOrientation`](#ElementOrientation.AxisSurfaceOrientation)                                              | Gets or sets the AxisSurfaceOrientation.                      |
 | [`OrientationGuideDefinedBy`](#ElementOrientation.OrientationGuideDefinedBy)                                        | Gets or sets the OrientationGuideDefinedBy.                   |

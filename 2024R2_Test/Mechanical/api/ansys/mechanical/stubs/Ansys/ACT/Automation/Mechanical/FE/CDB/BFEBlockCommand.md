@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Lab`](#BFEBlockCommand.Lab)                                     | Gets the label.                              |
+| Name | Summary |
 |-------------------------------------------------------------------|----------------------------------------------|
+| [`Lab`](#BFEBlockCommand.Lab)                                     | Gets the label.                              |
 | [`ElementBodyForceCount`](#BFEBlockCommand.ElementBodyForceCount) | Gets the number of element body-force loads. |
 | [`ElementBodyForces`](#BFEBlockCommand.ElementBodyForces)         | Gets the element body-force loads.           |
 | [`Name`](#BFEBlockCommand.Name)                                   | Gets the command name.                       |

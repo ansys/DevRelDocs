@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ScaledSphere`](#MappingValidationDisplayOption.ScaledSphere)       |    |
+| Name | Summary |
 |----------------------------------------------------------------------|----|
+| [`ScaledSphere`](#MappingValidationDisplayOption.ScaledSphere)       |    |
 | [`ColoredSphere`](#MappingValidationDisplayOption.ColoredSphere)     |    |
 | [`Boxes`](#MappingValidationDisplayOption.Boxes)                     |    |
 | [`ColoredPoints`](#MappingValidationDisplayOption.ColoredPoints)     |    |

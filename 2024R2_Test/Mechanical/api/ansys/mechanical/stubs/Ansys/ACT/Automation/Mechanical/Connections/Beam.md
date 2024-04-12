@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`PromoteToNamedSelection`](#Beam.PromoteToNamedSelection)   | Run the PromoteToNamedSelection action.                                           |
+| Name | Summary |
 |--------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`PromoteToNamedSelection`](#Beam.PromoteToNamedSelection)   | Run the PromoteToNamedSelection action.                                           |
 | [`PromoteToRemotePoint`](#Beam.PromoteToRemotePoint)         | Run the PromoteToRemotePoint action.                                              |
 | [`AddCommandSnippet`](#Beam.AddCommandSnippet)               | Creates a new CommandSnippet                                                      |
 | [`RenameBasedOnDefinition`](#Beam.RenameBasedOnDefinition)   | Run the RenameBasedOnDefinition action.                                           |
@@ -42,8 +43,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`BeamElementAPDLName`](#Beam.BeamElementAPDLName)                                                                     | Gets or sets the BeamElementAPDLName.                         |
 | [`Material`](../Material.md#Material)                                                                                  | Gets or sets the Material.                                    |
 | [`MobileBeamMaterial`](#Beam.MobileBeamMaterial)                                                                       | Gets or sets the MobileBeamMaterial.                          |

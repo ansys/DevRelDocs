@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ForceAndMoment`](#DataTypeOptions.ForceAndMoment)   |    |
+| Name | Summary |
 |-------------------------------------------------------|----|
+| [`ForceAndMoment`](#DataTypeOptions.ForceAndMoment)   |    |
 | [`ForceOnly`](#DataTypeOptions.ForceOnly)             |    |
 | [`MomentOnly`](#DataTypeOptions.MomentOnly)           |    |
 

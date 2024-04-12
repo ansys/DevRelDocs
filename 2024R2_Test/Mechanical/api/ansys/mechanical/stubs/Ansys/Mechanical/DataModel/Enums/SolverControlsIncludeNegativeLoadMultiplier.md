@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`No`](#SolverControlsIncludeNegativeLoadMultiplier.No)                               |    |
+| Name | Summary |
 |---------------------------------------------------------------------------------------|----|
+| [`No`](#SolverControlsIncludeNegativeLoadMultiplier.No)                               |    |
 | [`ProgramControlled`](#SolverControlsIncludeNegativeLoadMultiplier.ProgramControlled) |    |
 | [`Yes`](#SolverControlsIncludeNegativeLoadMultiplier.Yes)                             |    |
 

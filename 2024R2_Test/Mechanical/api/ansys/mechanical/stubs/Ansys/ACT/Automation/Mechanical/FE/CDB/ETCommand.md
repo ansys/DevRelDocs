@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Id`](#ETCommand.Id)           | Gets the element number.   |
+| Name | Summary |
 |---------------------------------|----------------------------|
+| [`Id`](#ETCommand.Id)           | Gets the element number.   |
 | [`Ename`](#ETCommand.Ename)     | Gets the element name.     |
 | [`Keyopts`](#ETCommand.Keyopts) | Gets the key options.      |
 | [`Name`](#ETCommand.Name)       | Gets the command name.     |

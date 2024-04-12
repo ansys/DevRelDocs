@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetSequence`](#AMProcess.GetSequence)                           | Gets the support removal sequence for a given environment.                        |
+| Name | Summary |
 |-------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetSequence`](#AMProcess.GetSequence)                           | Gets the support removal sequence for a given environment.                        |
 | [`ResetAllSequences`](#AMProcess.ResetAllSequences)               | Resets the sequence for all analyses                                              |
 | [`AddCartesianMesh`](#AMProcess.AddCartesianMesh)                 | AddCartesianMesh method.                                                          |
 | [`CreateBuildToBaseContact`](#AMProcess.CreateBuildToBaseContact) | Run the CreateBuildToBaseContact action.                                          |
@@ -50,8 +51,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`BuildGeometry`](#AMProcess.BuildGeometry)                                                                            | Gets or sets the PartGeometry using the deprecated BuildGeometry method.   |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| [`BuildGeometry`](#AMProcess.BuildGeometry)                                                                            | Gets or sets the PartGeometry using the deprecated BuildGeometry method.   |
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.                         |
 | [`SubsampleRate`](#AMProcess.SubsampleRate)                                                                            | Gets or sets the SubsampleRate.                                            |
 | [`ZLocationAtTopOfBase`](#AMProcess.ZLocationAtTopOfBase)                                                              | Gets the ZLocationAtTopOfBase.                                             |

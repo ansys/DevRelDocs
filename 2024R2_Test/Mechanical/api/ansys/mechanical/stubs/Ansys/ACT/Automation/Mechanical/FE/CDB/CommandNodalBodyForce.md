@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Node`](#CommandNodalBodyForce.Node)         | Gets the node number.      |
+| Name | Summary |
 |-----------------------------------------------|----------------------------|
+| [`Node`](#CommandNodalBodyForce.Node)         | Gets the node number.      |
 | [`ValCount`](#CommandNodalBodyForce.ValCount) | Gets the number of values. |
 | [`Values`](#CommandNodalBodyForce.Values)     | Gets the values.           |
 

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Type`](#BeamSecBlockCommand.Type)   | Gets the section type.         |
+| Name | Summary |
 |---------------------------------------|--------------------------------|
+| [`Type`](#BeamSecBlockCommand.Type)   | Gets the section type.         |
 | [`Nodes`](#BeamSecBlockCommand.Nodes) | Gets the nodes of the section. |
 | [`Cells`](#BeamSecBlockCommand.Cells) | Gets the cells of the section. |
 | [`Name`](#BeamSecBlockCommand.Name)   | Gets the command name.         |

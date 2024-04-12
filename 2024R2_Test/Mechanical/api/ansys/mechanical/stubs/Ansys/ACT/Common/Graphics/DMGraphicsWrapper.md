@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Redraw`](#DMGraphicsWrapper.Redraw)                           | Forces the scene to redraw its content.                                                  |
+| Name | Summary |
 |-----------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| [`Redraw`](#DMGraphicsWrapper.Redraw)                           | Forces the scene to redraw its content.                                                  |
 | [`Suspend`](#DMGraphicsWrapper.Suspend)                         | Prevents the scene to redraw until the Resume controller method was called.              |
 | [`ForceResume`](#DMGraphicsWrapper.ForceResume)                 | Forces the scene to resume. Useful in interactive context (console) if a reference on an |
 | [`CreatePixelPoint`](#DMGraphicsWrapper.CreatePixelPoint)       | Creates a point from pixel coordinates (ie. window coordinates).                         |
@@ -29,8 +30,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Scene`](#DMGraphicsWrapper.Scene)   | Gets the scene.   |
+| Name | Summary |
 |---------------------------------------|-------------------|
+| [`Scene`](#DMGraphicsWrapper.Scene)   | Gets the scene.   |
 
 <a id="import-detail"></a>
 

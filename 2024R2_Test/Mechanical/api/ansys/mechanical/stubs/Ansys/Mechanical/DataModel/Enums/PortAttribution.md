@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Inlet`](#PortAttribution.Inlet)   |    |
+| Name | Summary |
 |-------------------------------------|----|
+| [`Inlet`](#PortAttribution.Inlet)   |    |
 | [`Outlet`](#PortAttribution.Outlet) |    |
 
 <a id="import-detail"></a>

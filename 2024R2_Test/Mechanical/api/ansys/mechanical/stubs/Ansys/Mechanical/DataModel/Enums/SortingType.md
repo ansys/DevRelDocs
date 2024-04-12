@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Alphabetical`](#SortingType.Alphabetical)   |    |
+| Name | Summary |
 |-----------------------------------------------|----|
+| [`Alphabetical`](#SortingType.Alphabetical)   |    |
 
 <a id="import-detail"></a>
 

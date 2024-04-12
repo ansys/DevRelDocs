@@ -1,5 +1,3 @@
-<a id="extrusion"></a>
-
 # Extrusion
 
 <a id="Extrusion"></a>
@@ -18,8 +16,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Depth`](#Extrusion.Depth)   | Gets or sets the Depth.       |
+| Name | Summary |
 |-------------------------------|-------------------------------|
+| [`Depth`](#Extrusion.Depth)   | Gets or sets the Depth.       |
 | [`Depth2`](#Extrusion.Depth2) | Gets or sets the Depth2.      |
 | [`Thin1`](#Extrusion.Thin1)   | Gets or sets the Thin1.       |
 | [`Thin2`](#Extrusion.Thin2)   | Gets or sets the Thin2.       |

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#AccelerationWaterfallDiagram.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#AccelerationWaterfallDiagram.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#AccelerationWaterfallDiagram.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#AccelerationWaterfallDiagram.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#AccelerationWaterfallDiagram.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
@@ -49,8 +50,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.                     |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.                     |
 | [`SpatialResolution`](#AccelerationWaterfallDiagram.SpatialResolution)                                                    | Gets or sets the SpatialResolution.                                    |
 | [`NormalOrientation`](#AccelerationWaterfallDiagram.NormalOrientation)                                                    | Gets or sets the NormalOrientation.                                    |
 | [`PanelsToDisplay`](#AccelerationWaterfallDiagram.PanelsToDisplay)                                                        | Gets or sets the PanelsToDisplay.                                      |

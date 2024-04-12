@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`All`](#RestartSaveAtSubstep.All)                                       |    |
+| Name | Summary |
 |--------------------------------------------------------------------------|----|
+| [`All`](#RestartSaveAtSubstep.All)                                       |    |
 | [`EquallySpaced`](#RestartSaveAtSubstep.EquallySpaced)                   |    |
 | [`Last`](#RestartSaveAtSubstep.Last)                                     |    |
 | [`SaveAtSubstepSpecified`](#RestartSaveAtSubstep.SaveAtSubstepSpecified) |    |

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Sheet`](#IPrimitives.Sheet)                         | Gets the list of all creatable sheet geometry primitives.   |
+| Name | Summary |
 |-------------------------------------------------------|-------------------------------------------------------------|
+| [`Sheet`](#IPrimitives.Sheet)                         | Gets the list of all creatable sheet geometry primitives.   |
 | [`Solid`](../../Automation/Mechanical/Solid.md#Solid) | Gets the list of all creatable solid geometry primitives.   |
 | [`Wire`](#IPrimitives.Wire)                           | Gets the list of all creatable wire geometry primitives.    |
 

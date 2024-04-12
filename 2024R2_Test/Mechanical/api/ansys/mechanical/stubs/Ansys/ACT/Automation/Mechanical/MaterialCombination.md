@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#MaterialCombination.Delete)                                     | Delete the MaterialCombination.                                                   |
+| Name | Summary |
 |-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#MaterialCombination.Delete)                                     | Delete the MaterialCombination.                                                   |
 | [`AddMaterial`](#MaterialCombination.AddMaterial)                           | Add a material to the combination.                                                |
 | [`AddMaterialByName`](#MaterialCombination.AddMaterialByName)               | Add a material to the combination by name.                                        |
 | [`RemoveMaterial`](#MaterialCombination.RemoveMaterial)                     | Remove material from the combination.                                             |
@@ -45,8 +46,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id1)                                                                                            | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id1)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`Suppressed`](#MaterialCombination.Suppressed)                                                                     | Suppress or unsuppress the MaterialCombination.               |
 | [`Materials`](Materials.md#Materials)                                                                               | Dictionary of Material to Fraction in Combination.            |
 | [`InternalObject`](#id1)                                                                                            | Gets the internal object. For advanced usage only.            |

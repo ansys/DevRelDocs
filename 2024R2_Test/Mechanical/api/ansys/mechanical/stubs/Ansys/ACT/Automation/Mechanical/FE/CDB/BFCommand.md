@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Node`](#BFCommand.Node)         | Gets the node number.      |
+| Name | Summary |
 |-----------------------------------|----------------------------|
+| [`Node`](#BFCommand.Node)         | Gets the node number.      |
 | [`Lab`](#BFCommand.Lab)           | Gets the label.            |
 | [`ValCount`](#BFCommand.ValCount) | Gets the number of values. |
 | [`Values`](#BFCommand.Values)     | Gets the values.           |

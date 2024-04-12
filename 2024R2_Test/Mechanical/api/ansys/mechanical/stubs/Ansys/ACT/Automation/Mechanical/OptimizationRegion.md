@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddExclusionRegion`](#OptimizationRegion.AddExclusionRegion)           | Creates a new ExclusionRegion                                                     |
+| Name | Summary |
 |--------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddExclusionRegion`](#OptimizationRegion.AddExclusionRegion)           | Creates a new ExclusionRegion                                                     |
 | [`RenameBasedOnDefinition`](#OptimizationRegion.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#OptimizationRegion.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                    | Gets the list of children, filtered by type.                                      |
@@ -37,8 +38,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                                     | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                                     | Gets the internal object. For advanced usage only.            |
 | [`InitialVolumeFraction`](#OptimizationRegion.InitialVolumeFraction)                                                         | Gets or sets the InitialVolumeFraction.                       |
 | [`MorphingTotalMoveLimit`](#OptimizationRegion.MorphingTotalMoveLimit)                                                       | Gets or sets the MorphingTotalMoveLimit.                      |
 | [`LatticeMaxDensity`](#OptimizationRegion.LatticeMaxDensity)                                                                 | Gets or sets the LatticeMaxDensity.                           |

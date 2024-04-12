@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Free`](#VariableDefinitionType.Free)         |    |
+| Name | Summary |
 |------------------------------------------------|----|
+| [`Free`](#VariableDefinitionType.Free)         |    |
 | [`Discrete`](#VariableDefinitionType.Discrete) |    |
 | [`Formula`](#VariableDefinitionType.Formula)   |    |
 

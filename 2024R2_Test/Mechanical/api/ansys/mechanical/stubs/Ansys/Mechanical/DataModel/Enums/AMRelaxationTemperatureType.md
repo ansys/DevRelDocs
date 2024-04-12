@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`None_`](#AMRelaxationTemperatureType.None_)                 |    |
+| Name | Summary |
 |---------------------------------------------------------------|----|
+| [`None_`](#AMRelaxationTemperatureType.None_)                 |    |
 | [`UserSpecified`](#AMRelaxationTemperatureType.UserSpecified) |    |
 
 <a id="import-detail"></a>

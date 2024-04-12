@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`SetLocation`](#id1)                                                   | Sets the point location.                                                          |
+| Name | Summary |
 |-------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`SetLocation`](#id1)                                                   | Sets the point location.                                                          |
 | [`Delete`](#ConstructionPoint.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id2)                                                   | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id2)                                                   | Gets the list of children, filtered by type.                                      |
@@ -39,8 +40,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`LocationX`](#ConstructionPoint.LocationX)                                                                         | Gets or sets the LocationX.                                   |
 | [`LocationY`](#ConstructionPoint.LocationY)                                                                         | Gets or sets the LocationY.                                   |
 | [`LocationZ`](#ConstructionPoint.LocationZ)                                                                         | Gets or sets the LocationZ.                                   |
@@ -55,8 +57,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Attributes
 
-| [`SetLocation`](#id1)   |    |
+| Name | Summary |
 |-------------------------|----|
+| [`SetLocation`](#id1)   |    |
 
 <a id="import-detail"></a>
 

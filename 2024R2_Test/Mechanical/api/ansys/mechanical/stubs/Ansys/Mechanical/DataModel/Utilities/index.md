@@ -10,13 +10,15 @@
 
 ### Subpackages
 
-| [`TabularData`](TabularData/index.md#module-ansys.mechanical.stubs.Ansys.Mechanical.DataModel.Utilities.TabularData)   | TabularData subpackage.   |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------|
+| [`TabularData`](TabularData/index.md#module-ansys.mechanical.stubs.Ansys.Mechanical.DataModel.Utilities.TabularData)   | TabularData subpackage.   |
 
 ### Classes
 
-| [`RigidBodyTransformationMatrix`](RigidBodyTransformationMatrix.md#RigidBodyTransformationMatrix)       | A 4x4 transformation matrix, to be used explicitly for rigid body transformations. The   |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| [`RigidBodyTransformationMatrix`](RigidBodyTransformationMatrix.md#RigidBodyTransformationMatrix)       | A 4x4 transformation matrix, to be used explicitly for rigid body transformations. The   |
 | [`BeamCoordinateSystem`](BeamCoordinateSystem.md#BeamCoordinateSystem)                                  | BeamCoordinateSystem class.                                                              |
 | [`CenterOfGravityCoordinateSystem`](CenterOfGravityCoordinateSystem.md#CenterOfGravityCoordinateSystem) | CenterOfGravityCoordinateSystem class.                                                   |
 
@@ -55,8 +57,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Data`](#Utilities.Data)   | A 16-value list representing a linearized 4x4 transformation matrix.         |
+| Name | Summary |
 |-----------------------------|------------------------------------------------------------------------------|
+| [`Data`](#Utilities.Data)   | A 16-value list representing a linearized 4x4 transformation matrix.         |
 | [`X_x`](#Utilities.X_x)     | Element 0: the x component of the X axis rotation.                           |
 | [`X_y`](#Utilities.X_y)     | Element 4: the y component of the X axis rotation.                           |
 | [`X_z`](#Utilities.X_z)     | Element 8: the z component of the X axis rotation.                           |

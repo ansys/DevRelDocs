@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Arguments`](../NASTRAN/GenericCommand.md#GenericCommand.Arguments)   | Gets the arguments.     |
+| Name | Summary |
 |------------------------------------------------------------------------|-------------------------|
+| [`Arguments`](../NASTRAN/GenericCommand.md#GenericCommand.Arguments)   | Gets the arguments.     |
 | [`Name`](../NASTRAN/GenericCommand.md#GenericCommand.Name)             | Gets the command name.  |
 | [`Index`](../NASTRAN/GenericCommand.md#GenericCommand.Index)           | Gets the command index. |
 

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Format`](../DataModel/Enums/GeometryImportPreference/Format.md#Format)   | Gets the existing corresponding format.   |
+| Name | Summary |
 |----------------------------------------------------------------------------|-------------------------------------------|
+| [`Format`](../DataModel/Enums/GeometryImportPreference/Format.md#Format)   | Gets the existing corresponding format.   |
 
 <a id="import-detail"></a>
 

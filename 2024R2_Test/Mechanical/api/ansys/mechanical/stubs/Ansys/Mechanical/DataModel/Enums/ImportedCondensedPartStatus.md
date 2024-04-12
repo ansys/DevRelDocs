@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`FileSelectionRequired`](#ImportedCondensedPartStatus.FileSelectionRequired)   |    |
+| Name | Summary |
 |---------------------------------------------------------------------------------|----|
+| [`FileSelectionRequired`](#ImportedCondensedPartStatus.FileSelectionRequired)   |    |
 | [`ImportFailed`](#ImportedCondensedPartStatus.ImportFailed)                     |    |
 | [`ImportRequired`](#ImportedCondensedPartStatus.ImportRequired)                 |    |
 | [`ImportSuccessful`](#ImportedCondensedPartStatus.ImportSuccessful)             |    |

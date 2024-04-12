@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`HexagonalGridStructure`](#TransferAdmittanceModelType.HexagonalGridStructure)   |    |
+| Name | Summary |
 |-----------------------------------------------------------------------------------|----|
+| [`HexagonalGridStructure`](#TransferAdmittanceModelType.HexagonalGridStructure)   |    |
 | [`PerforatedPlate`](#TransferAdmittanceModelType.PerforatedPlate)                 |    |
 | [`SquareGridStructure`](#TransferAdmittanceModelType.SquareGridStructure)         |    |
 

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`DECOMPOSITION_RESPONSE`](#BodyInteractionFormulation.DECOMPOSITION_RESPONSE)   |    |
+| Name | Summary |
 |----------------------------------------------------------------------------------|----|
+| [`DECOMPOSITION_RESPONSE`](#BodyInteractionFormulation.DECOMPOSITION_RESPONSE)   |    |
 | [`PENALTY`](#BodyInteractionFormulation.PENALTY)                                 |    |
 
 <a id="import-detail"></a>

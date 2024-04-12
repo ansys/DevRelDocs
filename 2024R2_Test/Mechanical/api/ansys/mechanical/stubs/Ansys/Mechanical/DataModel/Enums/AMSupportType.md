@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`UserDefined`](#AMSupportType.UserDefined)   |    |
+| Name | Summary |
 |-----------------------------------------------|----|
+| [`UserDefined`](#AMSupportType.UserDefined)   |    |
 | [`Block`](#AMSupportType.Block)               |    |
 
 <a id="import-detail"></a>

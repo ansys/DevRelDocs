@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Lab`](#SFEBlockCommand.Lab)                                         | Gets the surface load label.              |
+| Name | Summary |
 |-----------------------------------------------------------------------|-------------------------------------------|
+| [`Lab`](#SFEBlockCommand.Lab)                                         | Gets the surface load label.              |
 | [`ElementSurfaceLoadCount`](#SFEBlockCommand.ElementSurfaceLoadCount) | Gets the number of element surface loads. |
 | [`ElementSurfaceLoads`](#SFEBlockCommand.ElementSurfaceLoads)         | Get the element surface loads.            |
 | [`Name`](#SFEBlockCommand.Name)                                       | Gets the command name.                    |

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`AxisymmetricShell`](#PrototypeModelType.AxisymmetricShell)          |    |
+| Name | Summary |
 |-----------------------------------------------------------------------|----|
+| [`AxisymmetricShell`](#PrototypeModelType.AxisymmetricShell)          |    |
 | [`Beam`](../../../ACT/Automation/Mechanical/Connections/Beam.md#Beam) |    |
 | [`Cable`](#PrototypeModelType.Cable)                                  |    |
 | [`ModelPhysicsTypeFluid`](#PrototypeModelType.ModelPhysicsTypeFluid)  |    |

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Values`](#SecdataCommand.Values)   | Gets the values.        |
+| Name | Summary |
 |--------------------------------------|-------------------------|
+| [`Values`](#SecdataCommand.Values)   | Gets the values.        |
 | [`Name`](#SecdataCommand.Name)       | Gets the command name.  |
 | [`Index`](#SecdataCommand.Index)     | Gets the command index. |
 

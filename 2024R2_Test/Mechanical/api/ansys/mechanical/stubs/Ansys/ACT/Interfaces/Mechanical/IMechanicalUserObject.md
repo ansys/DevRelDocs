@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Analysis`](../../Automation/Mechanical/Analysis.md#Analysis)   | Gets the associated analysis.   |
+| Name | Summary |
 |------------------------------------------------------------------|---------------------------------|
+| [`Analysis`](../../Automation/Mechanical/Analysis.md#Analysis)   | Gets the associated analysis.   |
 
 <a id="import-detail"></a>
 

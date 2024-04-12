@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ExportToTextFile`](#ImportedPressure.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
+| Name | Summary |
 |------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ExportToTextFile`](#ImportedPressure.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
 | [`Import`](#ImportedPressure.Import)                                   | Import.                                                                           |
 | [`ImportLoad`](#ImportedPressure.ImportLoad)                           | Run the ImportLoad action.                                                        |
 | [`GetActivateAtLoadStep`](#ImportedPressure.GetActivateAtLoadStep)     | GetActivateAtLoadStep method.                                                     |
@@ -45,8 +46,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                                           | Gets the internal object. For advanced usage only.                                                      |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                                           | Gets the internal object. For advanced usage only.                                                      |
 | [`LoadVectorNumber`](#ImportedPressure.LoadVectorNumber)                                                                           | Gets or sets the LoadVectorNumber.                                                                      |
 | [`LoadVectorNumberImaginary`](#ImportedPressure.LoadVectorNumberImaginary)                                                         | Gets or sets the LoadVectorNumberImaginary.                                                             |
 | [`AppliedBy`](#ImportedPressure.AppliedBy)                                                                                         | Gets or sets the AppliedBy.                                                                             |

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`SingleFrequency`](#FatigueFrequencySelection.SingleFrequency)     |    |
+| Name | Summary |
 |---------------------------------------------------------------------|----|
+| [`SingleFrequency`](#FatigueFrequencySelection.SingleFrequency)     |    |
 | [`MultipleFrequency`](#FatigueFrequencySelection.MultipleFrequency) |    |
 | [`SineSweep`](#FatigueFrequencySelection.SineSweep)                 |    |
 

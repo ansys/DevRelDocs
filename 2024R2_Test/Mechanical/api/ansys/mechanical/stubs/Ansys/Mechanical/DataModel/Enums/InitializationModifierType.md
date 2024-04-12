@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Holes`](#InitializationModifierType.Holes)   |    |
+| Name | Summary |
 |------------------------------------------------|----|
+| [`Holes`](#InitializationModifierType.Holes)   |    |
 | [`None_`](#InitializationModifierType.None_)   |    |
 
 <a id="import-detail"></a>

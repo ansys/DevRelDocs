@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Exact`](#EXDHexIntegrationType.Exact)           |    |
+| Name | Summary |
 |---------------------------------------------------|----|
+| [`Exact`](#EXDHexIntegrationType.Exact)           |    |
 | [`OnePtGauss`](#EXDHexIntegrationType.OnePtGauss) |    |
 
 <a id="import-detail"></a>

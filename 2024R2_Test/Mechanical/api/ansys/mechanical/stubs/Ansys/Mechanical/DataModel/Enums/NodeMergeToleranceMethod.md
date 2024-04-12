@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`AbsoluteValue`](#NodeMergeToleranceMethod.AbsoluteValue)                     |    |
+| Name | Summary |
 |--------------------------------------------------------------------------------|----|
+| [`AbsoluteValue`](#NodeMergeToleranceMethod.AbsoluteValue)                     |    |
 | [`PercentageOfElementSize`](#NodeMergeToleranceMethod.PercentageOfElementSize) |    |
 | [`ProgramControlled`](#NodeMergeToleranceMethod.ProgramControlled)             |    |
 

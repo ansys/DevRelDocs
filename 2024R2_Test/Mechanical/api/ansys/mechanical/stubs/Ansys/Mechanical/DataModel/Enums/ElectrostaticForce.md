@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`AppliedToAirStructureInterfaceSymmetric`](#ElectrostaticForce.AppliedToAirStructureInterfaceSymmetric)     |    |
+| Name | Summary |
 |--------------------------------------------------------------------------------------------------------------|----|
+| [`AppliedToAirStructureInterfaceSymmetric`](#ElectrostaticForce.AppliedToAirStructureInterfaceSymmetric)     |    |
 | [`AppliedToAirStructureInterfaceUnsymmetric`](#ElectrostaticForce.AppliedToAirStructureInterfaceUnsymmetric) |    |
 | [`AppliedToAllNodes`](#ElectrostaticForce.AppliedToAllNodes)                                                 |    |
 | [`Off`](#ElectrostaticForce.Off)                                                                             |    |

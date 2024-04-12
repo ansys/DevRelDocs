@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`DeleteTreeGroupAndChildren`](#TreeGroupingFolder.DeleteTreeGroupAndChildren)   | Run the DeleteTreeGroupAndChildren action.                                        |
+| Name | Summary |
 |----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`DeleteTreeGroupAndChildren`](#TreeGroupingFolder.DeleteTreeGroupAndChildren)   | Run the DeleteTreeGroupAndChildren action.                                        |
 | [`Ungroup`](#TreeGroupingFolder.Ungroup)                                         | Run the Ungroup action.                                                           |
 | [`GetChildren`](#id1)                                                            | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                            | Gets the list of children, filtered by type.                                      |
@@ -36,8 +37,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Suppressed`](#TreeGroupingFolder.Suppressed)                                                                      | Gets or sets the Suppressed.                                  |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Suppressed`](#TreeGroupingFolder.Suppressed)                                                                      | Gets or sets the Suppressed.                                  |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`ChildrenInGroup`](#TreeGroupingFolder.ChildrenInGroup)                                                            | Gets the ChildrenInGroup.                                     |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`SourceId`](#MAPDLContactData.SourceId)   | Gets the Source Id of the Contact region.   |
+| Name | Summary |
 |--------------------------------------------|---------------------------------------------|
+| [`SourceId`](#MAPDLContactData.SourceId)   | Gets the Source Id of the Contact region.   |
 | [`TargetId`](#MAPDLContactData.TargetId)   | Gets the Target Id of the Contact region.   |
 
 <a id="import-detail"></a>

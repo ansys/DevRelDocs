@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Manual`](#MeshRestartControlsType.Manual)                       |    |
+| Name | Summary |
 |-------------------------------------------------------------------|----|
+| [`Manual`](#MeshRestartControlsType.Manual)                       |    |
 | [`ProgramControlled`](#MeshRestartControlsType.ProgramControlled) |    |
 
 <a id="import-detail"></a>

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Temp`](#TBDataValues.Temp)             | Gets the temperature.      |
+| Name | Summary |
 |------------------------------------------|----------------------------|
+| [`Temp`](#TBDataValues.Temp)             | Gets the temperature.      |
 | [`ValueCount`](#TBDataValues.ValueCount) | Gets the number of values. |
 | [`Values`](#TBDataValues.Values)         | Gets the values.           |
 

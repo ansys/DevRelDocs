@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#LayeredSection.Delete)                                   | Run the Delete action.                                                            |
+| Name | Summary |
 |----------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#LayeredSection.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#LayeredSection.AddComment)                           | Creates a new child Comment.                                                      |
@@ -38,8 +39,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Layers`](#LayeredSection.Layers)                                                                                  | Returns the Layers worksheet associated with LayeredSection   |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Layers`](#LayeredSection.Layers)                                                                                  | Returns the Layers worksheet associated with LayeredSection   |
 | [`CoordinateSystem`](../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`LayerToDisplay`](#LayeredSection.LayerToDisplay)                                                                  | Gets or sets the LayerToDisplay.                              |

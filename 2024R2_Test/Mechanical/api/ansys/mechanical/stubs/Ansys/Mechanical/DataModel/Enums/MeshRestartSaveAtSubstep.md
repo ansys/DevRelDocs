@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`All`](#MeshRestartSaveAtSubstep.All)                                       |    |
+| Name | Summary |
 |------------------------------------------------------------------------------|----|
+| [`All`](#MeshRestartSaveAtSubstep.All)                                       |    |
 | [`Last`](#MeshRestartSaveAtSubstep.Last)                                     |    |
 | [`SaveAtSubstepSpecified`](#MeshRestartSaveAtSubstep.SaveAtSubstepSpecified) |    |
 

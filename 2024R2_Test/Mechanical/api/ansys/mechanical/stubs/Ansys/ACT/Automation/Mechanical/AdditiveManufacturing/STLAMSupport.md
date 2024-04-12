@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#STLAMSupport.ClearGeneratedData)                                                 | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#STLAMSupport.ClearGeneratedData)                                                 | Run the ClearGeneratedData action.                                                |
 | [`GenerateSupportBodies`](#STLAMSupport.GenerateSupportBodies)                                           | Generate Support Bodies.                                                          |
 | [`CreateNamedSelectionOfGeneratedElements`](#STLAMSupport.CreateNamedSelectionOfGeneratedElements)       | Create a named selection of the generated elements.                               |
 | [`CreateNamedSelectionOfExternalElementFaces`](#STLAMSupport.CreateNamedSelectionOfExternalElementFaces) | Create a named selection of the generated exterior element faces.                 |
@@ -46,8 +47,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`VoxelSize`](#STLAMSupport.VoxelSize)                                                                                 | Gets the VoxelSize.                                           |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`VoxelSize`](#STLAMSupport.VoxelSize)                                                                                 | Gets the VoxelSize.                                           |
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`Filename`](#STLAMSupport.Filename)                                                                                   | Gets or sets the Filename.                                    |
 | [`SubsampleRate`](#STLAMSupport.SubsampleRate)                                                                         | Gets or sets the SubsampleRate.                               |

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Active`](#ILinuxSettings.Active)               | Gets or sets whether or not manual linux settings are enable for the configuration.   |
+| Name | Summary |
 |--------------------------------------------------|---------------------------------------------------------------------------------------|
+| [`Active`](#ILinuxSettings.Active)               | Gets or sets whether or not manual linux settings are enable for the configuration.   |
 | [`UserName`](#ILinuxSettings.UserName)           | Gets or sets the user name field for the manual linux settings.                       |
 | [`WorkingFolder`](#ILinuxSettings.WorkingFolder) | Gets or sets the working folder field for the manual linxus settings.                 |
 

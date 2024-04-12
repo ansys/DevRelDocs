@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetChildren`](#id1)                                                     | Gets the list of children, filtered by type.                                      |
+| Name | Summary |
 |---------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetChildren`](#id1)                                                     | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                     | Gets the list of children, filtered by type.                                      |
 | [`AddFigure`](#MeshWorkflowControl.AddFigure)                             | Creates a new child Figure.                                                       |
 | [`AddImage`](#MeshWorkflowControl.AddImage)                               | Creates a new child Image.                                                        |
@@ -37,8 +38,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`ControlType`](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ControlType.md#ControlType)                   | Returns the type of the control.                                                                                                                                                                                                          |
+| Name | Summary |
 |--------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`ControlType`](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ControlType.md#ControlType)                   | Returns the type of the control.                                                                                                                                                                                                          |
 | [`EnableCheckpoint`](#MeshWorkflowControl.EnableCheckpoint)                                                              | Flag whether to enable a checkpoint or not. The default value is false.                                                                                                                                                                   |
 | [`InnerScopeOutcome`](#MeshWorkflowControl.InnerScopeOutcome)                                                            | If the InnerScopeDefinition is set to Outcome, then this property is visible. It defines the previous step outcome. This way we input the results of a previous step to the current step. The input applies to inner region of enclosure. |
 | [`ExternalScopeOutcome`](#MeshWorkflowControl.ExternalScopeOutcome)                                                      | If the InnerScopeDefinition is set to Outcome, then this property is visible. It defines the previous step outcome. This way we input the results of a previous step to the current step. The input applies to inner region of enclosure. |

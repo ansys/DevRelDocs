@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ImportSTL`](#GeometryFileContainer.ImportSTL)                             | Run the ImportSTL action.                                                         |
+| Name | Summary |
 |-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ImportSTL`](#GeometryFileContainer.ImportSTL)                             | Run the ImportSTL action.                                                         |
 | [`Delete`](#GeometryFileContainer.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                       | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                       | Gets the list of children, filtered by type.                                      |
@@ -39,8 +40,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`Statistics`](#GeometryFileContainer.Statistics)                                                                   | Gets the Statistics.                                          |
 | [`LengthUnits`](#GeometryFileContainer.LengthUnits)                                                                 | Gets or sets the LengthUnits.                                 |
 | [`ShowAlways`](#GeometryFileContainer.ShowAlways)                                                                   | Gets or sets the ShowAlways.                                  |

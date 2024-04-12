@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddCommandSnippet`](#CondensedPartBase.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
+| Name | Summary |
 |-------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddCommandSnippet`](#CondensedPartBase.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
 | [`ClearGeneratedData`](#CondensedPartBase.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`Delete`](#CondensedPartBase.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                   | Gets the list of children, filtered by type.                                      |
@@ -40,8 +41,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`NumberInterfaceEntries`](#CondensedPartBase.NumberInterfaceEntries)                                               | Gets the NumberInterfaceEntries.                              |
 | [`NumberMasterNodes`](#CondensedPartBase.NumberMasterNodes)                                                         | Gets the NumberMasterNodes.                                   |
 | [`SolutionName`](#CondensedPartBase.SolutionName)                                                                   | Gets or sets the SolutionName.                                |

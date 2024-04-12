@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#MeshWorkflowOutput.Delete)                                   | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#MeshWorkflowOutput.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                    | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                    | Gets the list of children, filtered by type.                                      |
 | [`AddFigure`](#MeshWorkflowOutput.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -37,8 +38,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`DataTransferType`](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/DataTransferType.md#DataTransferType)   | Defines how the PrimeMesh model data should be transferred back into Geometry part(s) and associated mesh(es).   |
+| Name | Summary |
 |-------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
+| [`DataTransferType`](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/DataTransferType.md#DataTransferType)   | Defines how the PrimeMesh model data should be transferred back into Geometry part(s) and associated mesh(es).   |
 | [`InternalObject`](#id0)                                                                                                | Gets the internal object. For advanced usage only.                                                               |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory)     | Gets the current DataModelObject’s category.                                                                     |
 | [`Children`](#MeshWorkflowOutput.Children)                                                                              | Gets the list of children.                                                                                       |

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearWeldControlIntersectionTag`](#Weld.ClearWeldControlIntersectionTag)                                   | clear the WeldControlIntersectionTag                                              |
+| Name | Summary |
 |--------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearWeldControlIntersectionTag`](#Weld.ClearWeldControlIntersectionTag)                                   | clear the WeldControlIntersectionTag                                              |
 | [`AppendWeldControlIntersectionTag`](#Weld.AppendWeldControlIntersectionTag)                                 | append the WeldControlIntersectionTag                                             |
 | [`GenerateWeldIntersectionTag`](#Weld.GenerateWeldIntersectionTag)                                           | Auto detect Intersection Tags within specified tolerance                          |
 | [`ClearAutoWeldIntersectionTag`](#Weld.ClearAutoWeldIntersectionTag)                                         | Clear Auto Intersection Tags                                                      |
@@ -128,8 +129,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`BottomEntities`](#Weld.BottomEntities)                                                                               | Gets or sets the Bottom Entities (Bodies / Faces ) or Extension.   |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
+| [`BottomEntities`](#Weld.BottomEntities)                                                                               | Gets or sets the Bottom Entities (Bodies / Faces ) or Extension.   |
 | [`TopEntities`](#Weld.TopEntities)                                                                                     | Gets or sets the Top Entities (Bodies / Faces ) or Extension.      |
 | [`WeldCurves`](#Weld.WeldCurves)                                                                                       | Gets or sets the Weld Curves.                                      |
 | [`WeldCurvesBody`](#Weld.WeldCurvesBody)                                                                               | WeldCurvesBody property.                                           |

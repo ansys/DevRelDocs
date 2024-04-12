@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Directional`](#VectorReductionType.Directional)   |    |
+| Name | Summary |
 |-----------------------------------------------------|----|
+| [`Directional`](#VectorReductionType.Directional)   |    |
 | [`FaceNormal`](#VectorReductionType.FaceNormal)     |    |
 | [`Magnitude`](#VectorReductionType.Magnitude)       |    |
 | [`X`](#VectorReductionType.X)                       |    |

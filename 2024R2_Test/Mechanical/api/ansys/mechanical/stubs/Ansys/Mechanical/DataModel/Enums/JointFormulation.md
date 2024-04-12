@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Bushing`](#JointFormulation.Bushing)   |    |
+| Name | Summary |
 |------------------------------------------|----|
+| [`Bushing`](#JointFormulation.Bushing)   |    |
 | [`MPC`](#JointFormulation.MPC)           |    |
 
 <a id="import-detail"></a>

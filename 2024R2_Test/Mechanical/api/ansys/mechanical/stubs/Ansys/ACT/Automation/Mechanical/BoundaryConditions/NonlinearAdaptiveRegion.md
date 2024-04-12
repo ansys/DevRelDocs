@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#NonlinearAdaptiveRegion.Delete)                                   | Run the Delete action.                                                            |
+| Name | Summary |
 |-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#NonlinearAdaptiveRegion.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                         | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                         | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#NonlinearAdaptiveRegion.AddComment)                           | Creates a new child Comment.                                                      |
@@ -38,8 +39,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`TimeRange`](#NonlinearAdaptiveRegion.TimeRange)                                                                      | Gets or sets the TimeRange.                                   |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`TimeRange`](#NonlinearAdaptiveRegion.TimeRange)                                                                      | Gets or sets the TimeRange.                                   |
 | [`CheckAtValue`](#NonlinearAdaptiveRegion.CheckAtValue)                                                                | Gets or sets the CheckAtValue.                                |
 | [`HexDomTimeRange`](#NonlinearAdaptiveRegion.HexDomTimeRange)                                                          | Gets or sets the HexDomTimeRange.                             |
 | [`HexDomCheckAtValue`](#NonlinearAdaptiveRegion.HexDomCheckAtValue)                                                    | Gets or sets the HexDomCheckAtValue.                          |

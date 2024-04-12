@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ExportAnimation`](#ElectromechanicalCouplingCoefficient.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| Name | Summary |
 |--------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ExportAnimation`](#ElectromechanicalCouplingCoefficient.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
 | [`ClearGeneratedData`](#ElectromechanicalCouplingCoefficient.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`DuplicateWithoutResults`](#ElectromechanicalCouplingCoefficient.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
 | [`EvaluateAllResults`](#ElectromechanicalCouplingCoefficient.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
@@ -44,8 +45,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                                           | Gets the internal object. For advanced usage only.                                                                                                                         |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                                           | Gets the internal object. For advanced usage only.                                                                                                                         |
 | [`ElectromechanicalCouplingCoefficientValue`](#ElectromechanicalCouplingCoefficient.ElectromechanicalCouplingCoefficientValue)     | Gets the ElectromechanicalCouplingCoefficientValue.                                                                                                                        |
 | [`MaximumElectromechanicalCouplingCoefficient`](#ElectromechanicalCouplingCoefficient.MaximumElectromechanicalCouplingCoefficient) | Gets the MaximumElectromechanicalCouplingCoefficient.                                                                                                                      |
 | [`MinimumElectromechanicalCouplingCoefficient`](#ElectromechanicalCouplingCoefficient.MinimumElectromechanicalCouplingCoefficient) | Gets the MinimumElectromechanicalCouplingCoefficient.                                                                                                                      |

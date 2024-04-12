@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Manual`](#AMMultiplierEntryType.Manual)   |    |
+| Name | Summary |
 |---------------------------------------------|----|
+| [`Manual`](#AMMultiplierEntryType.Manual)   |    |
 | [`All`](#AMMultiplierEntryType.All)         |    |
 
 <a id="import-detail"></a>

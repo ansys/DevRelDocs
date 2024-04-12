@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`EnergyReleaseRate`](#DelaminationFailureCriteriaOption.EnergyReleaseRate)         |    |
+| Name | Summary |
 |-------------------------------------------------------------------------------------|----|
+| [`EnergyReleaseRate`](#DelaminationFailureCriteriaOption.EnergyReleaseRate)         |    |
 | [`JIntegral`](#DelaminationFailureCriteriaOption.JIntegral)                         |    |
 | [`MaterialDataTable`](#DelaminationFailureCriteriaOption.MaterialDataTable)         |    |
 | [`StressIntensityFactor`](#DelaminationFailureCriteriaOption.StressIntensityFactor) |    |

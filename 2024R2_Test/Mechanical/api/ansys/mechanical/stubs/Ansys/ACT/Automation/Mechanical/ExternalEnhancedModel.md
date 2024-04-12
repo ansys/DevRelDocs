@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`RegroupToDefault`](#ExternalEnhancedModel.RegroupToDefault)               | Run the RegroupToDefault action.                                                  |
+| Name | Summary |
 |-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`RegroupToDefault`](#ExternalEnhancedModel.RegroupToDefault)               | Run the RegroupToDefault action.                                                  |
 | [`GetChildren`](#id1)                                                       | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                       | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#ExternalEnhancedModel.AddComment)                           | Creates a new child Comment.                                                      |
@@ -38,8 +39,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`LayerToDisplay`](#ExternalEnhancedModel.LayerToDisplay)                                                           | Gets or sets the LayerToDisplay.                              |
 | [`MaximumNumberOfLayers`](#ExternalEnhancedModel.MaximumNumberOfLayers)                                             | Gets the MaximumNumberOfLayers.                               |
 | [`Type`](#ExternalEnhancedModel.Type)                                                                               | Gets the Type.                                                |

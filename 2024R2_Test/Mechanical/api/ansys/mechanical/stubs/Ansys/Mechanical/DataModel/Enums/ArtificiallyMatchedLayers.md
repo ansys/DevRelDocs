@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`IPML`](#ArtificiallyMatchedLayers.IPML)   |    |
+| Name | Summary |
 |---------------------------------------------|----|
+| [`IPML`](#ArtificiallyMatchedLayers.IPML)   |    |
 | [`Off`](#ArtificiallyMatchedLayers.Off)     |    |
 | [`PML`](#ArtificiallyMatchedLayers.PML)     |    |
 

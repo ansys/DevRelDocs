@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`AlongDirection`](#SectionPlaneType.AlongDirection)     |    |
+| Name | Summary |
 |----------------------------------------------------------|----|
+| [`AlongDirection`](#SectionPlaneType.AlongDirection)     |    |
 | [`AgainstDirection`](#SectionPlaneType.AgainstDirection) |    |
 | [`PlaneOnly`](#SectionPlaneType.PlaneOnly)               |    |
 

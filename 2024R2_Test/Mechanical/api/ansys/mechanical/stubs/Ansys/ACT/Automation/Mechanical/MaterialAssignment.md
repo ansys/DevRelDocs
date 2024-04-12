@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`CreateMaterialPlot`](#MaterialAssignment.CreateMaterialPlot)           | Run the CreateMaterialPlot action.                                                |
+| Name | Summary |
 |--------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`CreateMaterialPlot`](#MaterialAssignment.CreateMaterialPlot)           | Run the CreateMaterialPlot action.                                                |
 | [`AddCommandSnippet`](#MaterialAssignment.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
 | [`Delete`](#MaterialAssignment.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                    | Gets the list of children, filtered by type.                                      |
@@ -40,8 +41,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`MaterialName`](#MaterialAssignment.MaterialName)                                                                                    | Gets or sets the MaterialName.                                |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`MaterialName`](#MaterialAssignment.MaterialName)                                                                                    | Gets or sets the MaterialName.                                |
 | [`InternalObject`](#id0)                                                                                                              | Gets the internal object. For advanced usage only.            |
 | [`Material`](Material.md#Material)                                                                                                    | Gets or sets the Material.                                    |
 | [`ReferenceTemperatureValue`](#MaterialAssignment.ReferenceTemperatureValue)                                                          | Gets or sets the ReferenceTemperatureValue.                   |

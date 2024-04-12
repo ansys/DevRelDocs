@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`AspectRatio`](#MeshMetricType.AspectRatio)                           |    |
+| Name | Summary |
 |------------------------------------------------------------------------|----|
+| [`AspectRatio`](#MeshMetricType.AspectRatio)                           |    |
 | [`ElementQuality`](#MeshMetricType.ElementQuality)                     |    |
 | [`AspectRatioEXD`](#MeshMetricType.AspectRatioEXD)                     |    |
 | [`CharacteristicLengthLSD`](#MeshMetricType.CharacteristicLengthLSD)   |    |

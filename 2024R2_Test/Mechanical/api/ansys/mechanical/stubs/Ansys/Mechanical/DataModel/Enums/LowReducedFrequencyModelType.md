@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`CircularTube`](#LowReducedFrequencyModelType.CircularTube)       |    |
+| Name | Summary |
 |--------------------------------------------------------------------|----|
+| [`CircularTube`](#LowReducedFrequencyModelType.CircularTube)       |    |
 | [`RectangularTube`](#LowReducedFrequencyModelType.RectangularTube) |    |
 | [`ThinLayer`](#LowReducedFrequencyModelType.ThinLayer)             |    |
 

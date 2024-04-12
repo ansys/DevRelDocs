@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`hdf5`](#TopoOptimizationExportDesignPropertiesFileFormat.hdf5)   |    |
+| Name | Summary |
 |--------------------------------------------------------------------|----|
+| [`hdf5`](#TopoOptimizationExportDesignPropertiesFileFormat.hdf5)   |    |
 | [`vtk`](#TopoOptimizationExportDesignPropertiesFileFormat.vtk)     |    |
 
 <a id="import-detail"></a>

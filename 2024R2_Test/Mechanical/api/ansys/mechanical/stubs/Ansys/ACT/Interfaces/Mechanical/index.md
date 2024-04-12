@@ -10,8 +10,9 @@
 
 ### Interfaces
 
-| [`IMechanicalGraphics`](IMechanicalGraphics.md#IMechanicalGraphics)                | Interface for MechanicalGraphics.                     |
+| Name | Summary |
 |------------------------------------------------------------------------------------|-------------------------------------------------------|
+| [`IMechanicalGraphics`](IMechanicalGraphics.md#IMechanicalGraphics)                | Interface for MechanicalGraphics.                     |
 | [`IMechanicalSelectionInfo`](IMechanicalSelectionInfo.md#IMechanicalSelectionInfo) | Defines the mechanical selection information.         |
 | [`IMechanicalDataModel`](IMechanicalDataModel.md#IMechanicalDataModel)             | Defines the data model of the Mechanical application. |
 | [`IMechanicalExtAPI`](IMechanicalExtAPI.md#IMechanicalExtAPI)                      | Exposes the main entry point of all ATC APIs.         |
@@ -22,8 +23,9 @@
 
 ### Enums
 
-| [`MechanicalPanelEnum`](MechanicalPanelEnum.md#MechanicalPanelEnum)   | Specifies the panel type.   |
+| Name | Summary |
 |-----------------------------------------------------------------------|-----------------------------|
+| [`MechanicalPanelEnum`](MechanicalPanelEnum.md#MechanicalPanelEnum)   | Specifies the panel type.   |
 
 <a id="description"></a>
 
@@ -49,8 +51,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`ModelViewManager`](../../Common/Graphics/ModelViewManager.md#ModelViewManager)   | An instance of the ModelViewManager.   |
+| Name | Summary |
 |------------------------------------------------------------------------------------|----------------------------------------|
+| [`ModelViewManager`](../../Common/Graphics/ModelViewManager.md#ModelViewManager)   | An instance of the ModelViewManager.   |
 | [`SectionPlanes`](../../../Mechanical/Graphics/SectionPlanes.md#SectionPlanes)     | An instance of the SectionPlanes.      |
 
 <a id="import-detail"></a>
@@ -93,8 +96,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Entities`](#Mechanical.Entities)                     | Gets the list of selected geometry entities.                   |
+| Name | Summary |
 |--------------------------------------------------------|----------------------------------------------------------------|
+| [`Entities`](#Mechanical.Entities)                     | Gets the list of selected geometry entities.                   |
 | [`ElementFaceIndices`](#Mechanical.ElementFaceIndices) | Gets the list indices needed to define the face of an element. |
 
 <a id="id1"></a>
@@ -137,14 +141,16 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`CurrentUnitFromQuantityName`](#Mechanical.CurrentUnitFromQuantityName)   | Returns the current unit from a quantity name.    |
+| Name | Summary |
 |----------------------------------------------------------------------------|---------------------------------------------------|
+| [`CurrentUnitFromQuantityName`](#Mechanical.CurrentUnitFromQuantityName)   | Returns the current unit from a quantity name.    |
 | [`GetUserObjectById`](#Mechanical.GetUserObjectById)                       | Gets the user object based on the application id. |
 
 ### Properties
 
-| [`Project`](../../Automation/Mechanical/Project.md#Project)              | Gets the project object. Main object of the tree of Mechanical.                                                         |
+| Name | Summary |
 |--------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
+| [`Project`](../../Automation/Mechanical/Project.md#Project)              | Gets the project object. Main object of the tree of Mechanical.                                                         |
 | [`Tree`](../../Automation/Mechanical/Tree.md#Tree)                       | Gets the tree of Mechanical.                                                                                            |
 | [`ObjectTags`](../../../Mechanical/Application/ObjectTags.md#ObjectTags) | Gets the ObjectTags object for the Data Model, which represents the current list of tags visable in the User Interface. |
 
@@ -216,8 +222,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`UnlockPrePostLicense`](#Mechanical.UnlockPrePostLicense)   | R                                                   |
+| Name | Summary |
 |--------------------------------------------------------------|-----------------------------------------------------|
+| [`UnlockPrePostLicense`](#Mechanical.UnlockPrePostLicense)   | R                                                   |
 | [`LockPrePostLicense`](#Mechanical.LockPrePostLicense)       | Locks the license used by the PRE/POST application. |
 
 <a id="id5"></a>
@@ -280,8 +287,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Analysis`](../../Automation/Mechanical/Analysis.md#Analysis)   | Gets the associated analysis.   |
+| Name | Summary |
 |------------------------------------------------------------------|---------------------------------|
+| [`Analysis`](../../Automation/Mechanical/Analysis.md#Analysis)   | Gets the associated analysis.   |
 
 <a id="id8"></a>
 
@@ -351,8 +359,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`DataView`](#Mechanical.DataView)                                |    |
+| Name | Summary |
 |-------------------------------------------------------------------|----|
+| [`DataView`](#Mechanical.DataView)                                |    |
 | [`Worksheet`](../../Automation/Mechanical/Worksheet.md#Worksheet) |    |
 | [`TabularData`](#Mechanical.TabularData)                          |    |
 | [`Graph`](#Mechanical.Graph)                                      |    |

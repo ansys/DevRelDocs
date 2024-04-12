@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`AcousticBodies`](#GeneralMiscellaneousOptionType.AcousticBodies)       |    |
+| Name | Summary |
 |--------------------------------------------------------------------------|----|
+| [`AcousticBodies`](#GeneralMiscellaneousOptionType.AcousticBodies)       |    |
 | [`AllBodies`](#GeneralMiscellaneousOptionType.AllBodies)                 |    |
 | [`ProgramControlled`](#GeneralMiscellaneousOptionType.ProgramControlled) |    |
 | [`StructuralBodies`](#GeneralMiscellaneousOptionType.StructuralBodies)   |    |

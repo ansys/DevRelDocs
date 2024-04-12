@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`PromoteToNamedSelection`](#AcousticAbsorptionElement.PromoteToNamedSelection)   | Run the PromoteToNamedSelection action.                                           |
+| Name | Summary |
 |-----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`PromoteToNamedSelection`](#AcousticAbsorptionElement.PromoteToNamedSelection)   | Run the PromoteToNamedSelection action.                                           |
 | [`Delete`](#AcousticAbsorptionElement.Delete)                                     | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                             | Gets the list of children, filtered by type.                                      |
@@ -39,8 +40,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`Location`](#AcousticAbsorptionElement.Location)                                                                      | Gets or sets the Location.                                    |
 | [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Suppressed`](#AcousticAbsorptionElement.Suppressed)                                                                  | Gets or sets the Suppressed.                                  |

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`UsePassOnly`](#CondensedPartKeepFilesFor.UsePassOnly)             |    |
+| Name | Summary |
 |---------------------------------------------------------------------|----|
+| [`UsePassOnly`](#CondensedPartKeepFilesFor.UsePassOnly)             |    |
 | [`MAPDLExpansion`](#CondensedPartKeepFilesFor.MAPDLExpansion)       |    |
 | [`OnDemandExpansion`](#CondensedPartKeepFilesFor.OnDemandExpansion) |    |
 

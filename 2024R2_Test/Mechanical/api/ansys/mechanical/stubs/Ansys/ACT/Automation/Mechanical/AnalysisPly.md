@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetChildren`](#id1)                                             | Gets the list of children, filtered by type.                                      |
+| Name | Summary |
 |-------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetChildren`](#id1)                                             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#AnalysisPly.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#AnalysisPly.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -37,8 +38,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`IDInSource`](#AnalysisPly.IDInSource)                                                                             | Gets the IDInSource.                                          |
 | [`Material`](Material.md#Material)                                                                                  | Gets the Material.                                            |
 | [`NameInSource`](#AnalysisPly.NameInSource)                                                                         | Gets the NameInSource.                                        |

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Increment`](#BoltLoadDefineBy.Increment)   |    |
+| Name | Summary |
 |----------------------------------------------|----|
+| [`Increment`](#BoltLoadDefineBy.Increment)   |    |
 | [`Lock`](#BoltLoadDefineBy.Lock)             |    |
 | [`Open`](#BoltLoadDefineBy.Open)             |    |
 | [`Adjustment`](#BoltLoadDefineBy.Adjustment) |    |

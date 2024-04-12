@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`All`](#TreeFilterObjectClass.All)                                                        |    |
+| Name | Summary |
 |--------------------------------------------------------------------------------------------|----|
+| [`All`](#TreeFilterObjectClass.All)                                                        |    |
 | [`Results`](#TreeFilterObjectClass.Results)                                                |    |
 | [`BoundaryConditions`](#TreeFilterObjectClass.BoundaryConditions)                          |    |
 | [`Connections`](../../../ACT/Automation/Mechanical/Connections/Connections.md#Connections) |    |

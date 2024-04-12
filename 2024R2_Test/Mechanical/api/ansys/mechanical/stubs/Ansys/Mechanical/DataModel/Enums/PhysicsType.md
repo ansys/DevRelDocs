@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Customizable`](#PhysicsType.Customizable)                                                                |    |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------|----|
+| [`Customizable`](#PhysicsType.Customizable)                                                                |    |
 | [`ElectricConduction`](#PhysicsType.ElectricConduction)                                                    |    |
 | [`Electromagnetic`](#PhysicsType.Electromagnetic)                                                          |    |
 | [`ExplicitCDI`](#PhysicsType.ExplicitCDI)                                                                  |    |

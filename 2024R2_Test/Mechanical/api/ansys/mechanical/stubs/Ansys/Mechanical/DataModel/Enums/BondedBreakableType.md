@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ForceCriteria`](#BondedBreakableType.ForceCriteria)   |    |
+| Name | Summary |
 |---------------------------------------------------------|----|
+| [`ForceCriteria`](#BondedBreakableType.ForceCriteria)   |    |
 | [`No`](#BondedBreakableType.No)                         |    |
 | [`StressCriteria`](#BondedBreakableType.StressCriteria) |    |
 

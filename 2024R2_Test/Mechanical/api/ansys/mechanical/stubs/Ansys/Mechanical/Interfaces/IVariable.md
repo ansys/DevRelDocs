@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Unit`](#IVariable.Unit)                 | The unit of the variable.  For example, this could be “mm”.              |
+| Name | Summary |
 |-------------------------------------------|--------------------------------------------------------------------------|
+| [`Unit`](#IVariable.Unit)                 | The unit of the variable.  For example, this could be “mm”.              |
 | [`QuantityName`](#IVariable.QuantityName) | The quantity name of the variable.  For example, this could be “Length”. |
 
 <a id="import-detail"></a>

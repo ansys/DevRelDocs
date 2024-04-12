@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ExportNamedSelectionToCDBFile`](#NamedSelections.ExportNamedSelectionToCDBFile)                   | Export Named Selections to CDB file                                               |
+| Name | Summary |
 |-----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ExportNamedSelectionToCDBFile`](#NamedSelections.ExportNamedSelectionToCDBFile)                   | Export Named Selections to CDB file                                               |
 | [`GenerateAllNamedSelections`](#NamedSelections.GenerateAllNamedSelections)                         | Generate all named selections specified with the Worksheet                        |
 | [`GoToNamedSelectionsCommonToSelection`](#NamedSelections.GoToNamedSelectionsCommonToSelection)     | GoToNamedSelectionsCommonToSelection method.                                      |
 | [`GoToNamedSelectionsContainingSelection`](#NamedSelections.GoToNamedSelectionsContainingSelection) | GoToNamedSelectionsContainingSelection method.                                    |
@@ -43,8 +44,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`GenerateOnRefresh`](#NamedSelections.GenerateOnRefresh)                                                           | Gets or sets the GenerateOnRefresh.                           |
 | [`GenerateOnRemesh`](#NamedSelections.GenerateOnRemesh)                                                             | Gets or sets the GenerateOnRemesh.                            |
 | [`RandomColors`](#NamedSelections.RandomColors)                                                                     | Gets the RandomColors.                                        |

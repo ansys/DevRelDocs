@@ -16,8 +16,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Dimension`](#MAPDLImportSettings.Dimension)                                      | The dimension of the MAPDL CDB file.    |
+| Name | Summary |
 |------------------------------------------------------------------------------------|-----------------------------------------|
+| [`Dimension`](#MAPDLImportSettings.Dimension)                                      | The dimension of the MAPDL CDB file.    |
 | [`LengthUnit`](../DataModel/MechanicalEnums/ExternalData/LengthUnit.md#LengthUnit) | The length unit of the MAPDL CDB file.  |
 | [`Format`](../DataModel/Enums/GeometryImportPreference/Format.md#Format)           | Gets the existing corresponding format. |
 

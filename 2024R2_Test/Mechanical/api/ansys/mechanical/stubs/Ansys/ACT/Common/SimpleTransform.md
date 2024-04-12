@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`TransformationMatrix`](#SimpleTransform.TransformationMatrix)   | TransformationMatrix property.                                                    |
+| Name | Summary |
 |-------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`TransformationMatrix`](#SimpleTransform.TransformationMatrix)   | TransformationMatrix property.                                                    |
 | [`IsOrthonormal`](#SimpleTransform.IsOrthonormal)                 | Returns true if the provided axis vectors are all normalized and orthogonal.      |
 | [`Translation`](#SimpleTransform.Translation)                     | The translation of the transformation with respect to the global/world coordinate |
 | [`XAxis`](#SimpleTransform.XAxis)                                 | The X-axis orientation of the transformation with respect to the global/world     |

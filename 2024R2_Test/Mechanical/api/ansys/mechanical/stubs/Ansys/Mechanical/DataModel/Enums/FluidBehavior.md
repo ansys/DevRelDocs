@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Compressible`](#FluidBehavior.Compressible)     |    |
+| Name | Summary |
 |---------------------------------------------------|----|
+| [`Compressible`](#FluidBehavior.Compressible)     |    |
 | [`Incompressible`](#FluidBehavior.Incompressible) |    |
 
 <a id="import-detail"></a>

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#DamageResult.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |--------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#DamageResult.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#DamageResult.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#DamageResult.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#DamageResult.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
@@ -49,8 +50,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Mode`](#DamageResult.Mode)                                                                                              | Gets or sets the Mode.                                                 |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`Mode`](#DamageResult.Mode)                                                                                              | Gets or sets the Mode.                                                 |
 | [`Ply`](#DamageResult.Ply)                                                                                                | Gets or sets the Ply selection.                                        |
 | [`Plies`](#DamageResult.Plies)                                                                                            | Plies property.                                                        |
 | [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.                     |

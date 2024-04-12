@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetChildren`](#id1)                                             | Gets the list of children, filtered by type.                                      |
+| Name | Summary |
 |-------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetChildren`](#id1)                                             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#ModelImport.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#ModelImport.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -37,8 +38,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`ElementComponentKey`](#ModelImport.ElementComponentKey)                                                           | Gets or sets the ElementComponentKey.                         |
 | [`ElementOffset`](#ModelImport.ElementOffset)                                                                       | Gets or sets the ElementOffset.                               |
 | [`FaceComponentKey`](#ModelImport.FaceComponentKey)                                                                 | Gets or sets the FaceComponentKey.                            |

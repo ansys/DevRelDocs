@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GenerateMesh`](#Connect.GenerateMesh)                       | Generate the Mesh.                                                                |
+| Name | Summary |
 |---------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GenerateMesh`](#Connect.GenerateMesh)                       | Generate the Mesh.                                                                |
 | [`RenameBasedOnDefinition`](#Connect.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#Connect.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                         | Gets the list of children, filtered by type.                                      |
@@ -40,8 +41,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`ConnectionToleranceList`](#Connect.ConnectionToleranceList)                                                          | Gets or sets the ConnectionToleranceList.                     |
 | [`ConnectionTolerance`](#Connect.ConnectionTolerance)                                                                  | Gets or sets the ConnectionTolerance.                         |
 | [`ConnectionSize`](#Connect.ConnectionSize)                                                                            | Gets or sets the ConnectionSize.                              |

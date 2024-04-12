@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`PromoteToNamedSelection`](#AcousticMassSource.PromoteToNamedSelection)   | Run the PromoteToNamedSelection action.                                           |
+| Name | Summary |
 |----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`PromoteToNamedSelection`](#AcousticMassSource.PromoteToNamedSelection)   | Run the PromoteToNamedSelection action.                                           |
 | [`Delete`](#AcousticMassSource.Delete)                                     | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                      | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                      | Gets the list of children, filtered by type.                                      |
@@ -39,8 +40,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`Magnitude`](#AcousticMassSource.Magnitude)                                                                           | Gets or sets the Magnitude.                                   |
 | [`PhaseAngle`](#AcousticMassSource.PhaseAngle)                                                                         | Gets or sets the PhaseAngle.                                  |
 | [`Location`](#AcousticMassSource.Location)                                                                             | Gets or sets the Location.                                    |

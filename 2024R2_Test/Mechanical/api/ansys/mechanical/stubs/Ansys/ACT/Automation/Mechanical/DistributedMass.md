@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddCommandSnippet`](#DistributedMass.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
+| Name | Summary |
 |-----------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddCommandSnippet`](#DistributedMass.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
 | [`Delete`](#DistributedMass.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                 | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                 | Gets the list of children, filtered by type.                                      |
@@ -39,8 +40,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`ElementAPDLName`](#DistributedMass.ElementAPDLName)                                                               | Gets or sets the ElementAPDLName.                             |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`ElementAPDLName`](#DistributedMass.ElementAPDLName)                                                               | Gets or sets the ElementAPDLName.                             |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`MassPerUnitArea`](#DistributedMass.MassPerUnitArea)                                                               | Gets or sets the MassPerUnitArea.                             |
 | [`TotalMass`](#DistributedMass.TotalMass)                                                                           | Gets or sets the TotalMass.                                   |

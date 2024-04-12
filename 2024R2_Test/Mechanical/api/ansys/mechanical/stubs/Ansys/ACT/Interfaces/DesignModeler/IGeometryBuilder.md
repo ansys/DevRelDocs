@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Primitives`](#IGeometryBuilder.Primitives)   | Gets the list of creatable primitives.   |
+| Name | Summary |
 |------------------------------------------------|------------------------------------------|
+| [`Primitives`](#IGeometryBuilder.Primitives)   | Gets the list of creatable primitives.   |
 | [`Operations`](#IGeometryBuilder.Operations)   | Gets the list of creatable operations.   |
 
 <a id="import-detail"></a>

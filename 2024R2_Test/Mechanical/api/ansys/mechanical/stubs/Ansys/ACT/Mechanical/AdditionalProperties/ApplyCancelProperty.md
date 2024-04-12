@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Name`](#ApplyCancelProperty.Name)               | The name of the property.                                                                            |
+| Name | Summary |
 |---------------------------------------------------|------------------------------------------------------------------------------------------------------|
+| [`Name`](#ApplyCancelProperty.Name)               | The name of the property.                                                                            |
 | [`DisplayName`](#ApplyCancelProperty.DisplayName) | The name of the property shown in the UI. If not set, the Name property is used.                     |
 | [`GroupName`](#ApplyCancelProperty.GroupName)     | The group name of the property shown in the UI, and used to separate properties based on group name. |
 | [`Tooltip`](#ApplyCancelProperty.Tooltip)         | The tooltip of the property in the UI.                                                               |

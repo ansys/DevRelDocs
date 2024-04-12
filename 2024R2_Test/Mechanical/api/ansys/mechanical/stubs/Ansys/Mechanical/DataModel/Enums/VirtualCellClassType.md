@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`VirtualFace`](#VirtualCellClassType.VirtualFace)   |    |
+| Name | Summary |
 |------------------------------------------------------|----|
+| [`VirtualFace`](#VirtualCellClassType.VirtualFace)   |    |
 | [`VirtualEdge`](#VirtualCellClassType.VirtualEdge)   |    |
 
 <a id="import-detail"></a>

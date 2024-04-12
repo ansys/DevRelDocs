@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#EquivalentRadiatedPower.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#EquivalentRadiatedPower.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#EquivalentRadiatedPower.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#EquivalentRadiatedPower.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#EquivalentRadiatedPower.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
@@ -49,8 +50,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.                     |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.                     |
 | [`MaximumFrequency`](#EquivalentRadiatedPower.MaximumFrequency)                                                           | Gets or sets the MaximumFrequency.                                     |
 | [`MinimumFrequency`](#EquivalentRadiatedPower.MinimumFrequency)                                                           | Gets or sets the MinimumFrequency.                                     |
 | [`FrequencyRange`](#EquivalentRadiatedPower.FrequencyRange)                                                               | Gets or sets the FrequencyRange.                                       |

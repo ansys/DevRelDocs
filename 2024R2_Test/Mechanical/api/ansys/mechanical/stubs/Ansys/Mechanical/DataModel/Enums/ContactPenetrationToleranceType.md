@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Factor`](#ContactPenetrationToleranceType.Factor)                       |    |
+| Name | Summary |
 |---------------------------------------------------------------------------|----|
+| [`Factor`](#ContactPenetrationToleranceType.Factor)                       |    |
 | [`ProgramControlled`](#ContactPenetrationToleranceType.ProgramControlled) |    |
 | [`Value`](#ContactPenetrationToleranceType.Value)                         |    |
 

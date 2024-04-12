@@ -18,13 +18,15 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ChangeFieldDefinitionType`](#DSAccelerationAdapter.ChangeFieldDefinitionType)   | ChangeFieldDefinitionType method.   |
+| Name | Summary |
 |-----------------------------------------------------------------------------------|-------------------------------------|
+| [`ChangeFieldDefinitionType`](#DSAccelerationAdapter.ChangeFieldDefinitionType)   | ChangeFieldDefinitionType method.   |
 
 ### Properties
 
-| [`FieldProvider`](#DSAccelerationAdapter.FieldProvider)   | Gets the wrapped object from Mechanical.   |
+| Name | Summary |
 |-----------------------------------------------------------|--------------------------------------------|
+| [`FieldProvider`](#DSAccelerationAdapter.FieldProvider)   | Gets the wrapped object from Mechanical.   |
 
 <a id="import-detail"></a>
 

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Manual`](#ModalFrequencyRangeType.Manual)                       |    |
+| Name | Summary |
 |-------------------------------------------------------------------|----|
+| [`Manual`](#ModalFrequencyRangeType.Manual)                       |    |
 | [`ProgramControlled`](#ModalFrequencyRangeType.ProgramControlled) |    |
 
 <a id="import-detail"></a>

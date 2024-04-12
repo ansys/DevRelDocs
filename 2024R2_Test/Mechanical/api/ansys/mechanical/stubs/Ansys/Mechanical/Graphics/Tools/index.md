@@ -10,8 +10,9 @@
 
 ### Classes
 
-| [`CurrentLegendSettings`](CurrentLegendSettings.md#CurrentLegendSettings)   | Represents a CurrentLegendSettings object. This object holds properties of the CurrentLegendSettings.   |
+| Name | Summary |
 |-----------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
+| [`CurrentLegendSettings`](CurrentLegendSettings.md#CurrentLegendSettings)   | Represents a CurrentLegendSettings object. This object holds properties of the CurrentLegendSettings.   |
 | [`LegendSettings`](LegendSettings.md#LegendSettings)                        | Represents a LegendSettings object. This object holds properties of the Standalone LegendSettings.      |
 
 <a id="description"></a>
@@ -38,8 +39,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetBandColor`](#id14)          | Gets the color of the specified band.                                   |
+| Name | Summary |
 |----------------------------------|-------------------------------------------------------------------------|
+| [`GetBandColor`](#id14)          | Gets the color of the specified band.                                   |
 | [`SetBandColor`](#id15)          | Sets the color of the specified band.                                   |
 | [`GetLowerBound`](#id10)         | Gets lower bound value of the specified band.                           |
 | [`SetLowerBound`](#id11)         | Sets lower bound value of the specified band.                           |
@@ -55,8 +57,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`NumberOfBands`](#id0)         | Number of bands on the legend (min:3, max:30). Bands are added/removed from the top of the legend.   |
+| Name | Summary |
 |---------------------------------|------------------------------------------------------------------------------------------------------|
+| [`NumberOfBands`](#id0)         | Number of bands on the legend (min:3, max:30). Bands are added/removed from the top of the legend.   |
 | [`AllScientificNotation`](#id3) | Whether the result values are displayed in scientific notation.                                      |
 | [`Digits`](#id4)                | Number of significant digits(min:2, max:8).                                                          |
 | [`ColorScheme`](#id5)           | Color Scheme for the legend.                                                                         |
@@ -252,8 +255,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetLowerBound`](#id10)         | Gets lower bound value of the specified band.                           |
+| Name | Summary |
 |----------------------------------|-------------------------------------------------------------------------|
+| [`GetLowerBound`](#id10)         | Gets lower bound value of the specified band.                           |
 | [`SetLowerBound`](#id11)         | Sets lower bound value of the specified band.                           |
 | [`GetUpperBound`](#id12)         | Gets upper bound value of the specified band.                           |
 | [`SetUpperBound`](#id13)         | Sets upper bound value of the specified band.                           |
@@ -268,8 +272,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`NumberOfBands`](#id0)         | Number of bands on the legend (min:3, max:30). Bands are added/removed from the top of the legend.   |
+| Name | Summary |
 |---------------------------------|------------------------------------------------------------------------------------------------------|
+| [`NumberOfBands`](#id0)         | Number of bands on the legend (min:3, max:30). Bands are added/removed from the top of the legend.   |
 | [`AllScientificNotation`](#id3) | Whether the result values are displayed in scientific notation.                                      |
 | [`Digits`](#id4)                | Number of significant digits (min:2 , max:8).                                                        |
 | [`ColorScheme`](#id5)           | Color Scheme for the legend.                                                                         |

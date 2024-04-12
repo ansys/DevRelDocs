@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`MaxElementSize`](#PatchIndependentDefineType.MaxElementSize)       |    |
+| Name | Summary |
 |----------------------------------------------------------------------|----|
+| [`MaxElementSize`](#PatchIndependentDefineType.MaxElementSize)       |    |
 | [`ApproxNumElements`](#PatchIndependentDefineType.ApproxNumElements) |    |
 
 <a id="import-detail"></a>

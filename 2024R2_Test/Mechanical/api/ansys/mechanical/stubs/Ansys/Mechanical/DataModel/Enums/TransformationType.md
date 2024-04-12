@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Custom`](#TransformationType.Custom)     |    |
+| Name | Summary |
 |--------------------------------------------|----|
+| [`Custom`](#TransformationType.Custom)     |    |
 | [`Flip`](#TransformationType.Flip)         |    |
 | [`Offset`](#TransformationType.Offset)     |    |
 | [`Rotation`](#TransformationType.Rotation) |    |

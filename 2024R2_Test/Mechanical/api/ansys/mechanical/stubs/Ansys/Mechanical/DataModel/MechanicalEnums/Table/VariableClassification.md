@@ -19,8 +19,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Independent`](#VariableClassification.Independent)   |    |
+| Name | Summary |
 |--------------------------------------------------------|----|
+| [`Independent`](#VariableClassification.Independent)   |    |
 | [`Real`](#VariableClassification.Real)                 |    |
 | [`Real_i`](#VariableClassification.Real_i)             |    |
 | [`Real_j`](#VariableClassification.Real_j)             |    |

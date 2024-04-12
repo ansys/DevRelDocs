@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`DeleteAllRestartPoints`](#TopoOptAnalysisSettings.DeleteAllRestartPoints)   | DeleteAllRestartPoints method.                                                    |
+| Name | Summary |
 |-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`DeleteAllRestartPoints`](#TopoOptAnalysisSettings.DeleteAllRestartPoints)   | DeleteAllRestartPoints method.                                                    |
 | [`GetChildren`](#id1)                                                         | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                         | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#TopoOptAnalysisSettings.AddComment)                           | Creates a new child Comment.                                                      |
@@ -38,8 +39,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`ExportDesignProperties`](#TopoOptAnalysisSettings.ExportDesignProperties)                                            | Gets or sets the ExportDesignProperties.                      |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`ExportDesignProperties`](#TopoOptAnalysisSettings.ExportDesignProperties)                                            | Gets or sets the ExportDesignProperties.                      |
 | [`ExportDesignPropertiesFileFormat`](#TopoOptAnalysisSettings.ExportDesignPropertiesFileFormat)                        | Gets or sets the ExportDesignPropertiesFileFormat.            |
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`ConvergenceAccuracy`](#TopoOptAnalysisSettings.ConvergenceAccuracy)                                                  | Gets or sets the ConvergenceAccuracy.                         |

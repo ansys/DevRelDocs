@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Type`](#ShellSecBlockCommand.Type)     | Get the section type.   |
+| Name | Summary |
 |------------------------------------------|-------------------------|
+| [`Type`](#ShellSecBlockCommand.Type)     | Get the section type.   |
 | [`Layers`](#ShellSecBlockCommand.Layers) | Gets the layers.        |
 | [`Name`](#ShellSecBlockCommand.Name)     | Gets the command name.  |
 | [`Index`](#ShellSecBlockCommand.Index)   | Gets the command index. |

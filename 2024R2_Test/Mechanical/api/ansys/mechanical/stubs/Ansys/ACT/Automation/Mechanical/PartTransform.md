@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`TransformGeometry`](#PartTransform.TransformGeometry)             | TransformGeometry method.                                                         |
+| Name | Summary |
 |---------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`TransformGeometry`](#PartTransform.TransformGeometry)             | TransformGeometry method.                                                         |
 | [`Delete`](#PartTransform.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                               | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                               | Gets the list of children, filtered by type.                                      |
@@ -39,8 +40,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`RotationX`](#PartTransform.RotationX)                                                                             | Gets or sets the RotationX.                                   |
 | [`RotationY`](#PartTransform.RotationY)                                                                             | Gets or sets the RotationY.                                   |
 | [`RotationZ`](#PartTransform.RotationZ)                                                                             | Gets or sets the RotationZ.                                   |

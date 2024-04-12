@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Item`](#ResultVariable.Item)   | Item property.   |
+| Name | Summary |
 |----------------------------------|------------------|
+| [`Item`](#ResultVariable.Item)   | Item property.   |
 | [`Count`](#ResultVariable.Count) | Count property.  |
 
 <a id="import-detail"></a>

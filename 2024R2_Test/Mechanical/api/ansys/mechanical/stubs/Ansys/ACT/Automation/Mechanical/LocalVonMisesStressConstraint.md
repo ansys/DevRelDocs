@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`RenameBasedOnDefinition`](#LocalVonMisesStressConstraint.RenameBasedOnDefinition)   | Run the RenameBasedOnDefinition action.                                           |
+| Name | Summary |
 |---------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`RenameBasedOnDefinition`](#LocalVonMisesStressConstraint.RenameBasedOnDefinition)   | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#LocalVonMisesStressConstraint.Delete)                                     | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                                 | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                                 | Gets the list of children, filtered by type.                                      |
@@ -36,8 +37,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.                                       |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.                                       |
 | [`Maximum`](#LocalVonMisesStressConstraint.Maximum)                                                                 | Gets or sets the Maximum.                                                                |
 | [`ScopingMethod`](#LocalVonMisesStressConstraint.ScopingMethod)                                                     | Gets or sets the ScopingMethod.                                                          |
 | [`Location`](#LocalVonMisesStressConstraint.Location)                                                               | Gets or sets the Location.                                                               |

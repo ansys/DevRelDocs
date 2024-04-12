@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Include`](#CylindricalFacesOption.Include)   |    |
+| Name | Summary |
 |------------------------------------------------|----|
+| [`Include`](#CylindricalFacesOption.Include)   |    |
 | [`Exclude`](#CylindricalFacesOption.Exclude)   |    |
 | [`Only`](#CylindricalFacesOption.Only)         |    |
 

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`CurrentConvergence`](#SolutionOutputType.CurrentConvergence)                                                           |    |
+| Name | Summary |
 |--------------------------------------------------------------------------------------------------------------------------|----|
+| [`CurrentConvergence`](#SolutionOutputType.CurrentConvergence)                                                           |    |
 | [`ChargeConvergence`](#SolutionOutputType.ChargeConvergence)                                                             |    |
 | [`ContactOutput`](#SolutionOutputType.ContactOutput)                                                                     |    |
 | [`CSGConvergence`](#SolutionOutputType.CSGConvergence)                                                                   |    |

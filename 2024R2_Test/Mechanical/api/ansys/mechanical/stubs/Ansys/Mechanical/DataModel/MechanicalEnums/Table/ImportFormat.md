@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Delimited`](#ImportFormat.Delimited)   |    |
+| Name | Summary |
 |------------------------------------------|----|
+| [`Delimited`](#ImportFormat.Delimited)   |    |
 | [`FixedWidth`](#ImportFormat.FixedWidth) |    |
 
 <a id="import-detail"></a>

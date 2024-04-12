@@ -18,14 +18,16 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Constructors
 
-| [`RegisterNewAdapter`](#FieldAdapterManager.RegisterNewAdapter)   | Register the instance object that defines a type of field adapter.                  |
+| Name | Summary |
 |-------------------------------------------------------------------|-------------------------------------------------------------------------------------|
+| [`RegisterNewAdapter`](#FieldAdapterManager.RegisterNewAdapter)   | Register the instance object that defines a type of field adapter.                  |
 | [`UnregisterAdapter`](#FieldAdapterManager.UnregisterAdapter)     | Removes the instance object that defines a type of field adapter from this manager. |
 
 ### Properties
 
-| [`AdapterDefinitions`](#FieldAdapterManager.AdapterDefinitions)   | Gets the collection of adapters in this manager.   |
+| Name | Summary |
 |-------------------------------------------------------------------|----------------------------------------------------|
+| [`AdapterDefinitions`](#FieldAdapterManager.AdapterDefinitions)   | Gets the collection of adapters in this manager.   |
 
 <a id="import-detail"></a>
 

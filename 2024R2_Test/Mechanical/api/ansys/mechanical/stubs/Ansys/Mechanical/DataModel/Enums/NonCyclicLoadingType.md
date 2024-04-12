@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`HarmonicIndex`](#NonCyclicLoadingType.HarmonicIndex)   |    |
+| Name | Summary |
 |----------------------------------------------------------|----|
+| [`HarmonicIndex`](#NonCyclicLoadingType.HarmonicIndex)   |    |
 | [`SectorNumber`](#NonCyclicLoadingType.SectorNumber)     |    |
 | [`No`](#NonCyclicLoadingType.No)                         |    |
 

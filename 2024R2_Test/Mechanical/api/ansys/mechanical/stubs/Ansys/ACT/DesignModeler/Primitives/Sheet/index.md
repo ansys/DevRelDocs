@@ -10,8 +10,9 @@
 
 ### Classes
 
-| [`Cylinder`](Cylinder.md#Cylinder)   | Cylinder Class   |
+| Name | Summary |
 |--------------------------------------|------------------|
+| [`Cylinder`](Cylinder.md#Cylinder)   | Cylinder Class   |
 
 <a id="description"></a>
 
@@ -37,13 +38,15 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Generate`](#Sheet.Generate)   | Generate the Cylinder and return the associated body.   |
+| Name | Summary |
 |---------------------------------|---------------------------------------------------------|
+| [`Generate`](#Sheet.Generate)   | Generate the Cylinder and return the associated body.   |
 
 ### Properties
 
-| [`Center`](#Sheet.Center)       | Gets or sets the center of the cylinder.   |
+| Name | Summary |
 |---------------------------------|--------------------------------------------|
+| [`Center`](#Sheet.Center)       | Gets or sets the center of the cylinder.   |
 | [`Direction`](#Sheet.Direction) | Gets or sets the axis of the cylinder.     |
 | [`Radius`](#Sheet.Radius)       | Gets or sets the radius of the cylinder.   |
 

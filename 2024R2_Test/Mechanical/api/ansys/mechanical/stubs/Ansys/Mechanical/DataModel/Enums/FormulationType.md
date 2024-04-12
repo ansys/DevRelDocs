@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`SmallRotation`](#FormulationType.SmallRotation)                        |    |
+| Name | Summary |
 |--------------------------------------------------------------------------|----|
+| [`SmallRotation`](#FormulationType.SmallRotation)                        |    |
 | [`Joint`](../../../ACT/Automation/Mechanical/Connections/Joint.md#Joint) |    |
 | [`ProgramControlled`](#FormulationType.ProgramControlled)                |    |
 

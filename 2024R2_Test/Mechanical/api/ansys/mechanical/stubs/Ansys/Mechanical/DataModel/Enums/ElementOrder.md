@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Quadratic`](#ElementOrder.Quadratic)                 |    |
+| Name | Summary |
 |--------------------------------------------------------|----|
+| [`Quadratic`](#ElementOrder.Quadratic)                 |    |
 | [`Linear`](#ElementOrder.Linear)                       |    |
 | [`ProgramControlled`](#ElementOrder.ProgramControlled) |    |
 

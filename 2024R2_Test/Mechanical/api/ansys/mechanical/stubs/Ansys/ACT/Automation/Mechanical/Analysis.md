@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddSymmetryManufacturingConstraint`](#Analysis.AddSymmetryManufacturingConstraint)                         | Creates a new SymmetryManufacturingConstraint                                                                          |
+| Name | Summary |
 |--------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
+| [`AddSymmetryManufacturingConstraint`](#Analysis.AddSymmetryManufacturingConstraint)                         | Creates a new SymmetryManufacturingConstraint                                                                          |
 | [`AddTemperature`](#Analysis.AddTemperature)                                                                 | Creates a new Temperature                                                                                              |
 | [`AddTemperatureConstraint`](#Analysis.AddTemperatureConstraint)                                             | Creates a new TemperatureConstraint                                                                                    |
 | [`AddThermalComplianceConstraint`](#Analysis.AddThermalComplianceConstraint)                                 | Creates a new ThermalComplianceConstraint                                                                              |
@@ -186,8 +187,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`CellId`](#Analysis.CellId)                                                                                        | Gets the CellId.                                              |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`CellId`](#Analysis.CellId)                                                                                        | Gets the CellId.                                              |
 | [`SystemCaption`](#Analysis.SystemCaption)                                                                          | Gets the SystemCaption.                                       |
 | [`InitialConditions`](InitialConditions.md#InitialConditions)                                                       | Get InitialConditions.                                        |
 | [`ResultFileName`](#Analysis.ResultFileName)                                                                        | Get the full path and name of the result file.                |

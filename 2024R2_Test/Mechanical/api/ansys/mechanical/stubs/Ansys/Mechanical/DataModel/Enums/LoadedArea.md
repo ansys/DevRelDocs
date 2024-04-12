@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Deformed`](#LoadedArea.Deformed)   |    |
+| Name | Summary |
 |--------------------------------------|----|
+| [`Deformed`](#LoadedArea.Deformed)   |    |
 | [`Initial`](#LoadedArea.Initial)     |    |
 
 <a id="import-detail"></a>

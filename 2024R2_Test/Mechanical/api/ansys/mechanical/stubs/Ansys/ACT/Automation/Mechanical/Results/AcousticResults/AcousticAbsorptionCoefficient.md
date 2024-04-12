@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#AcousticAbsorptionCoefficient.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |-------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#AcousticAbsorptionCoefficient.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#AcousticAbsorptionCoefficient.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#AcousticAbsorptionCoefficient.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#AcousticAbsorptionCoefficient.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
@@ -49,8 +50,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InputPort`](#AcousticAbsorptionCoefficient.InputPort)                                                                   | Gets or sets the InputPort.                                            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InputPort`](#AcousticAbsorptionCoefficient.InputPort)                                                                   | Gets or sets the InputPort.                                            |
 | [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.                     |
 | [`MaximumFrequency`](#AcousticAbsorptionCoefficient.MaximumFrequency)                                                     | Gets or sets the MaximumFrequency.                                     |
 | [`MinimumFrequency`](#AcousticAbsorptionCoefficient.MinimumFrequency)                                                     | Gets or sets the MinimumFrequency.                                     |

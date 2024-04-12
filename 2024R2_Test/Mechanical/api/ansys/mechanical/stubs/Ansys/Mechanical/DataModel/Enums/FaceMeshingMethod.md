@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Quadrilaterals`](#FaceMeshingMethod.Quadrilaterals)         |    |
+| Name | Summary |
 |---------------------------------------------------------------|----|
+| [`Quadrilaterals`](#FaceMeshingMethod.Quadrilaterals)         |    |
 | [`TrianglesBestSplit`](#FaceMeshingMethod.TrianglesBestSplit) |    |
 
 <a id="import-detail"></a>

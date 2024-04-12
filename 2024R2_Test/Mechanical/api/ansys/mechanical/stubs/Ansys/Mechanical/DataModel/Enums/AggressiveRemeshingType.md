@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Off`](#AggressiveRemeshingType.Off)   |    |
+| Name | Summary |
 |-----------------------------------------|----|
+| [`Off`](#AggressiveRemeshingType.Off)   |    |
 | [`On`](#AggressiveRemeshingType.On)     |    |
 
 <a id="import-detail"></a>

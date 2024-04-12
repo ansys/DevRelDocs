@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Active`](#SolverMemorySettings.Active)       | Whether the solver memory settings are active.   |
+| Name | Summary |
 |------------------------------------------------|--------------------------------------------------|
+| [`Active`](#SolverMemorySettings.Active)       | Whether the solver memory settings are active.   |
 | [`Workspace`](#SolverMemorySettings.Workspace) | Workspace size.                                  |
 | [`Database`](#SolverMemorySettings.Database)   | Database size.                                   |
 

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GenerateMesh`](#MeshCopy.GenerateMesh)                       | Generate the Mesh.                                                                |
+| Name | Summary |
 |----------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GenerateMesh`](#MeshCopy.GenerateMesh)                       | Generate the Mesh.                                                                |
 | [`RenameBasedOnDefinition`](#MeshCopy.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#MeshCopy.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                          | Gets the list of children, filtered by type.                                      |
@@ -40,8 +41,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`NodeMergeTolerance`](#MeshCopy.NodeMergeTolerance)                                                                   | Gets or sets the NodeMergeTolerance.                          |
 | [`PercentageOfElementSize`](#MeshCopy.PercentageOfElementSize)                                                         | Gets or sets the PercentageOfElementSize.                     |
 | [`NodeMergeToleranceOption`](#MeshCopy.NodeMergeToleranceOption)                                                       | Gets or sets the NodeMergeToleranceOption.                    |

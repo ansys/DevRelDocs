@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`ProcessStepType`](#IAMProcessStep.ProcessStepType)   | ProcessStepType property.   |
+| Name | Summary |
 |--------------------------------------------------------|-----------------------------|
+| [`ProcessStepType`](#IAMProcessStep.ProcessStepType)   | ProcessStepType property.   |
 
 <a id="import-detail"></a>
 

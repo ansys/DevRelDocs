@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`NormalResolution`](#GraphicsResolutionType.NormalResolution)     |    |
+| Name | Summary |
 |--------------------------------------------------------------------|----|
+| [`NormalResolution`](#GraphicsResolutionType.NormalResolution)     |    |
 | [`EnhancedResolution`](#GraphicsResolutionType.EnhancedResolution) |    |
 | [`HighResolution`](#GraphicsResolutionType.HighResolution)         |    |
 

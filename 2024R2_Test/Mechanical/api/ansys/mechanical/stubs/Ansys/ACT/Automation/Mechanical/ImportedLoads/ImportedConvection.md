@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetActivateAtLoadStep`](#ImportedConvection.GetActivateAtLoadStep)     | GetActivateAtLoadStep method.                                                     |
+| Name | Summary |
 |--------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetActivateAtLoadStep`](#ImportedConvection.GetActivateAtLoadStep)     | GetActivateAtLoadStep method.                                                     |
 | [`SetActivateAtLoadStep`](#ImportedConvection.SetActivateAtLoadStep)     | SetActivateAtLoadStep method.                                                     |
 | [`ExportToTextFile`](#ImportedConvection.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
 | [`Import`](#ImportedConvection.Import)                                   | Import.                                                                           |
@@ -45,8 +46,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                                           | Gets the internal object. For advanced usage only.                                                      |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                                           | Gets the internal object. For advanced usage only.                                                      |
 | [`DisplayConnectionLines`](#ImportedConvection.DisplayConnectionLines)                                                             | Gets or sets the DisplayConnectionLines.                                                                |
 | [`FluidFlow`](#ImportedConvection.FluidFlow)                                                                                       | Gets or sets the FluidFlow.                                                                             |
 | [`FluidFlowLocation`](#ImportedConvection.FluidFlowLocation)                                                                       | Gets or sets the FluidFlowLocation.                                                                     |

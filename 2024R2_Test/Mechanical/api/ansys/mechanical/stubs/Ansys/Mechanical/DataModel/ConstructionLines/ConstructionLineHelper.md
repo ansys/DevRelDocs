@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Constructors
 
-| [`GetEdgeVerticesById`](#ConstructionLineHelper.GetEdgeVerticesById)                             | GetEdgeVerticesById method.                                                                |
+| Name | Summary |
 |--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| [`GetEdgeVerticesById`](#ConstructionLineHelper.GetEdgeVerticesById)                             | GetEdgeVerticesById method.                                                                |
 | [`GetEdgesById`](#ConstructionLineHelper.GetEdgesById)                                           | GetEdgesById method.                                                                       |
 | [`GetPlanesById`](#ConstructionLineHelper.GetPlanesById)                                         | GetPlanesById method.                                                                      |
 | [`GetEdgesUsingPoint`](#ConstructionLineHelper.GetEdgesUsingPoint)                               | Get a list of IEdge that use the given Point.                                              |

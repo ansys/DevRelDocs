@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ResultSets`](#ResultAnimationRangeType.ResultSets)   |    |
+| Name | Summary |
 |--------------------------------------------------------|----|
+| [`ResultSets`](#ResultAnimationRangeType.ResultSets)   |    |
 | [`Distributed`](#ResultAnimationRangeType.Distributed) |    |
 
 <a id="import-detail"></a>

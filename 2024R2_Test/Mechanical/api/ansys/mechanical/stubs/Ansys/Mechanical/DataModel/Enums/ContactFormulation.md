@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`AugmentedLagrange`](#ContactFormulation.AugmentedLagrange)          |    |
+| Name | Summary |
 |-----------------------------------------------------------------------|----|
+| [`AugmentedLagrange`](#ContactFormulation.AugmentedLagrange)          |    |
 | [`Beam`](../../../ACT/Automation/Mechanical/Connections/Beam.md#Beam) |    |
 | [`NormalLagrange`](#ContactFormulation.NormalLagrange)                |    |
 | [`MPC`](#ContactFormulation.MPC)                                      |    |

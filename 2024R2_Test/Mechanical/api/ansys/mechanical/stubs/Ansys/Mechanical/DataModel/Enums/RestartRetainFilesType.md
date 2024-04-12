@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`No`](#RestartRetainFilesType.No)   |    |
+| Name | Summary |
 |--------------------------------------|----|
+| [`No`](#RestartRetainFilesType.No)   |    |
 | [`Yes`](#RestartRetainFilesType.Yes) |    |
 
 <a id="import-detail"></a>

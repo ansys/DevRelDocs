@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`FatigueToolComponent_X`](#FatigueStressComponentType.FatigueToolComponent_X)         |    |
+| Name | Summary |
 |----------------------------------------------------------------------------------------|----|
+| [`FatigueToolComponent_X`](#FatigueStressComponentType.FatigueToolComponent_X)         |    |
 | [`FatigueToolComponent_Y`](#FatigueStressComponentType.FatigueToolComponent_Y)         |    |
 | [`FatigueToolComponent_Z`](#FatigueStressComponentType.FatigueToolComponent_Z)         |    |
 | [`FatigueToolComponent_XY`](#FatigueStressComponentType.FatigueToolComponent_XY)       |    |

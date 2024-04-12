@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ConstructionBody`](#BodyTreatment.ConstructionBody)   |    |
+| Name | Summary |
 |---------------------------------------------------------|----|
+| [`ConstructionBody`](#BodyTreatment.ConstructionBody)   |    |
 | [`None_`](#BodyTreatment.None_)                         |    |
 
 <a id="import-detail"></a>

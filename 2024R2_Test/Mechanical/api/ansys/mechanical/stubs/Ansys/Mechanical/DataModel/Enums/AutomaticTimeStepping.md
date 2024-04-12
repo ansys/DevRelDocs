@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Off`](#AutomaticTimeStepping.Off)                             |    |
+| Name | Summary |
 |-----------------------------------------------------------------|----|
+| [`Off`](#AutomaticTimeStepping.Off)                             |    |
 | [`On`](#AutomaticTimeStepping.On)                               |    |
 | [`ProgramControlled`](#AutomaticTimeStepping.ProgramControlled) |    |
 

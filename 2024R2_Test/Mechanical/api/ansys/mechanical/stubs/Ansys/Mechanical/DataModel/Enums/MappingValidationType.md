@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Undefined`](#MappingValidationType.Undefined)                       |    |
+| Name | Summary |
 |-----------------------------------------------------------------------|----|
+| [`Undefined`](#MappingValidationType.Undefined)                       |    |
 | [`ReverseMapping`](#MappingValidationType.ReverseMapping)             |    |
 | [`DistanceBasedAverage`](#MappingValidationType.DistanceBasedAverage) |    |
 | [`SourceValue`](#MappingValidationType.SourceValue)                   |    |

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ApplyTo`](#IIntersect.ApplyTo)   | ApplyTo method.   |
+| Name | Summary |
 |------------------------------------|-------------------|
+| [`ApplyTo`](#IIntersect.ApplyTo)   | ApplyTo method.   |
 
 <a id="import-detail"></a>
 

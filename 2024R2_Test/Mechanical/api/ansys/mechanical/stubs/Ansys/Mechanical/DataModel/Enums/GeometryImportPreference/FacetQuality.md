@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`VeryCoarse`](#FacetQuality.VeryCoarse)   |    |
+| Name | Summary |
 |--------------------------------------------|----|
+| [`VeryCoarse`](#FacetQuality.VeryCoarse)   |    |
 | [`Coarse`](#FacetQuality.Coarse)           |    |
 | [`Normal`](#FacetQuality.Normal)           |    |
 | [`Fine`](#FacetQuality.Fine)               |    |

@@ -10,8 +10,9 @@
 
 ### Enums
 
-| [`AnalysisType`](AnalysisType.md#AnalysisType)                               | Specifies the type of analysis to target during import.                                      |
+| Name | Summary |
 |------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+| [`AnalysisType`](AnalysisType.md#AnalysisType)                               | Specifies the type of analysis to target during import.                                      |
 | [`ComparePartsOnUpdate`](ComparePartsOnUpdate.md#ComparePartsOnUpdate)       | Specifies how to enable mesh preservation on parts during update.                            |
 | [`ComparePartsTolerance`](ComparePartsTolerance.md#ComparePartsTolerance)    | Specifies the tolerance to use when comparing parts. This provides comparison robustness due |
 | [`FacetQuality`](FacetQuality.md#FacetQuality)                               | Used to specify the quality of the facet for the import.                                     |
@@ -44,8 +45,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Type3D`](#GeometryImportPreference.Type3D)   |    |
+| Name | Summary |
 |------------------------------------------------|----|
+| [`Type3D`](#GeometryImportPreference.Type3D)   |    |
 | [`Type2D`](#GeometryImportPreference.Type2D)   |    |
 
 <a id="import-detail"></a>
@@ -80,8 +82,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`None_`](#id17)                                                 |    |
+| Name | Summary |
 |------------------------------------------------------------------|----|
+| [`None_`](#id17)                                                 |    |
 | [`Associatively`](#GeometryImportPreference.Associatively)       |    |
 | [`NonAssociatively`](#GeometryImportPreference.NonAssociatively) |    |
 
@@ -123,8 +126,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Tight`](#GeometryImportPreference.Tight)   |    |
+| Name | Summary |
 |----------------------------------------------|----|
+| [`Tight`](#GeometryImportPreference.Tight)   |    |
 | [`Normal`](#id0)                             |    |
 | [`Loose`](#GeometryImportPreference.Loose)   |    |
 
@@ -164,8 +168,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`VeryCoarse`](#GeometryImportPreference.VeryCoarse)   |    |
+| Name | Summary |
 |--------------------------------------------------------|----|
+| [`VeryCoarse`](#GeometryImportPreference.VeryCoarse)   |    |
 | [`Coarse`](#GeometryImportPreference.Coarse)           |    |
 | [`Normal`](#id0)                                       |    |
 | [`Fine`](#GeometryImportPreference.Fine)               |    |
@@ -220,8 +225,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Automatic`](#GeometryImportPreference.Automatic)   |    |
+| Name | Summary |
 |------------------------------------------------------|----|
+| [`Automatic`](#GeometryImportPreference.Automatic)   |    |
 
 <a id="id7"></a>
 
@@ -252,8 +258,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`None_`](#id17)                                                      |    |
+| Name | Summary |
 |-----------------------------------------------------------------------|----|
+| [`None_`](#id17)                                                      |    |
 | [`Solid`](../../../../ACT/Automation/Mechanical/Solid.md#Solid)       |    |
 | [`Surface`](../../../../ACT/Automation/Mechanical/Surface.md#Surface) |    |
 | [`Line`](#GeometryImportPreference.Line)                              |    |
@@ -308,8 +315,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`None_`](#id17)                                       |    |
+| Name | Summary |
 |--------------------------------------------------------|----|
+| [`None_`](#id17)                                       |    |
 | [`Independent`](#GeometryImportPreference.Independent) |    |
 | [`All`](#GeometryImportPreference.All)                 |    |
 
@@ -349,8 +357,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`None_`](#id17)                               |    |
+| Name | Summary |
 |------------------------------------------------|----|
+| [`None_`](#id17)                               |    |
 | [`Program`](#GeometryImportPreference.Program) |    |
 | [`User`](#GeometryImportPreference.User)       |    |
 

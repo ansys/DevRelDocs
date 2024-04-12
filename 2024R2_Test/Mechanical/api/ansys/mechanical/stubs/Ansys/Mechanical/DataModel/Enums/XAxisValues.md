@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`CumulativeIteration`](#XAxisValues.CumulativeIteration)   |    |
+| Name | Summary |
 |-------------------------------------------------------------|----|
+| [`CumulativeIteration`](#XAxisValues.CumulativeIteration)   |    |
 | [`Time`](#XAxisValues.Time)                                 |    |
 
 <a id="import-detail"></a>

@@ -18,14 +18,16 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetDiscreteValue`](#Variable.GetDiscreteValue)   | Changes a value at a given position in the tabular definition of the variable.   |
+| Name | Summary |
 |----------------------------------------------------|----------------------------------------------------------------------------------|
+| [`GetDiscreteValue`](#Variable.GetDiscreteValue)   | Changes a value at a given position in the tabular definition of the variable.   |
 | [`SetDiscreteValue`](#Variable.SetDiscreteValue)   | Changes a value at a given position in the tabular definition of the variable.   |
 
 ### Properties
 
-| [`Field`](Field.md#Field)                                | Gets the owner field.                                                                                                   |
+| Name | Summary |
 |----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
+| [`Field`](Field.md#Field)                                | Gets the owner field.                                                                                                   |
 | [`IsInput`](#Variable.IsInput)                           | Gets a value indicating whether this variable is an input for its container field. Otherwise, it is an output variable. |
 | [`IsOutput`](#Variable.IsOutput)                         | Gets a value indicating whether this variable is an output for its container field. Otherwise, it is an input variable. |
 | [`Index`](#Variable.Index)                               | Gets the index of this variable in its container field.                                                                 |

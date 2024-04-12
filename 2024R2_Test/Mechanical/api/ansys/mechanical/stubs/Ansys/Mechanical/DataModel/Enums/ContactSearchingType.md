@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`AcrossAssemblies`](#ContactSearchingType.AcrossAssemblies)   |    |
+| Name | Summary |
 |----------------------------------------------------------------|----|
+| [`AcrossAssemblies`](#ContactSearchingType.AcrossAssemblies)   |    |
 | [`AcrossBodies`](#ContactSearchingType.AcrossBodies)           |    |
 | [`AcrossFiles`](#ContactSearchingType.AcrossFiles)             |    |
 | [`AcrossParts`](#ContactSearchingType.AcrossParts)             |    |

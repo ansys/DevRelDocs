@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Aggressive`](#AutomaticNodeMovementMethod.Aggressive)               |    |
+| Name | Summary |
 |-----------------------------------------------------------------------|----|
+| [`Aggressive`](#AutomaticNodeMovementMethod.Aggressive)               |    |
 | [`Conservative`](#AutomaticNodeMovementMethod.Conservative)           |    |
 | [`Custom`](#AutomaticNodeMovementMethod.Custom)                       |    |
 | [`Off`](#AutomaticNodeMovementMethod.Off)                             |    |

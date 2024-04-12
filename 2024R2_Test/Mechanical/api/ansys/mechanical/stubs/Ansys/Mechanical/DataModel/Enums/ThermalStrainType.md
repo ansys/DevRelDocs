@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ProgramControlled`](#ThermalStrainType.ProgramControlled)   |    |
+| Name | Summary |
 |---------------------------------------------------------------|----|
+| [`ProgramControlled`](#ThermalStrainType.ProgramControlled)   |    |
 | [`Strong`](#ThermalStrainType.Strong)                         |    |
 | [`Weak`](#ThermalStrainType.Weak)                             |    |
 

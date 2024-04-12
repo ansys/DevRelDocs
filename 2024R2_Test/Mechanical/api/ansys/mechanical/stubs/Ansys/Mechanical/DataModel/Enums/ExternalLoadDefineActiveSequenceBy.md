@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Row`](#ExternalLoadDefineActiveSequenceBy.Row)             |    |
+| Name | Summary |
 |--------------------------------------------------------------|----|
+| [`Row`](#ExternalLoadDefineActiveSequenceBy.Row)             |    |
 | [`Undefined`](#ExternalLoadDefineActiveSequenceBy.Undefined) |    |
 | [`Value`](#ExternalLoadDefineActiveSequenceBy.Value)         |    |
 

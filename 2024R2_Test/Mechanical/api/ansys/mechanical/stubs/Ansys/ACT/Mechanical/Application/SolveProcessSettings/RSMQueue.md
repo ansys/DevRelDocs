@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Name`](#RSMQueue.Name)                         | The name of the RSM Queue.              |
+| Name | Summary |
 |--------------------------------------------------|-----------------------------------------|
+| [`Name`](#RSMQueue.Name)                         | The name of the RSM Queue.              |
 | [`HPCConfiguration`](#RSMQueue.HPCConfiguration) | The HPC configuration of the RSM Queue. |
 | [`HPCQueue`](#RSMQueue.HPCQueue)                 | The HPC Queue of the RSM Queue.         |
 | [`HPCType`](#RSMQueue.HPCType)                   | The HPC type of the RSM Queue           |

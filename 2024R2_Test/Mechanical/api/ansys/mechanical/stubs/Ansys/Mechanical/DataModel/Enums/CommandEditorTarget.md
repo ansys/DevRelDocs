@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ABAQUS`](#CommandEditorTarget.ABAQUS)   |    |
+| Name | Summary |
 |-------------------------------------------|----|
+| [`ABAQUS`](#CommandEditorTarget.ABAQUS)   |    |
 | [`ANSYS`](#CommandEditorTarget.ANSYS)     |    |
 | [`LSDYNA`](#CommandEditorTarget.LSDYNA)   |    |
 | [`MBD`](#CommandEditorTarget.MBD)         |    |

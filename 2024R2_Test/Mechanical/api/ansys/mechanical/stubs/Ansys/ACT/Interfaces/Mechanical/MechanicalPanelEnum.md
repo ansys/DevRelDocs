@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`DataView`](#MechanicalPanelEnum.DataView)                       |    |
+| Name | Summary |
 |-------------------------------------------------------------------|----|
+| [`DataView`](#MechanicalPanelEnum.DataView)                       |    |
 | [`Worksheet`](../../Automation/Mechanical/Worksheet.md#Worksheet) |    |
 | [`TabularData`](#MechanicalPanelEnum.TabularData)                 |    |
 | [`Graph`](#MechanicalPanelEnum.Graph)                             |    |

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ExportToXMLFile`](#AcousticFarFieldSPLMicWaterfallDiagram.ExportToXMLFile)                 | Run the ExportToXMLFile action.                                                   |
+| Name | Summary |
 |----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ExportToXMLFile`](#AcousticFarFieldSPLMicWaterfallDiagram.ExportToXMLFile)                 | Run the ExportToXMLFile action.                                                   |
 | [`ExportToWAVFile`](#AcousticFarFieldSPLMicWaterfallDiagram.ExportToWAVFile)                 | Run the ExportToWAVFile action.                                                   |
 | [`ClearGeneratedData`](#AcousticFarFieldSPLMicWaterfallDiagram.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#AcousticFarFieldSPLMicWaterfallDiagram.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
@@ -51,8 +52,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.                     |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.                     |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
 | [`FarFieldMicrophoneDefinitionMethod`](#AcousticFarFieldSPLMicWaterfallDiagram.FarFieldMicrophoneDefinitionMethod)        | Gets or sets the FarFieldMicrophoneDefinitionMethod.                   |
 | [`Worksheet`](../../Worksheet.md#Worksheet)                                                                               | Get the ObjectiveWorksheet action.                                     |

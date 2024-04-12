@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Off`](#ElementMorphingType.Off)                             |    |
+| Name | Summary |
 |---------------------------------------------------------------|----|
+| [`Off`](#ElementMorphingType.Off)                             |    |
 | [`On`](#ElementMorphingType.On)                               |    |
 | [`ProgramControlled`](#ElementMorphingType.ProgramControlled) |    |
 

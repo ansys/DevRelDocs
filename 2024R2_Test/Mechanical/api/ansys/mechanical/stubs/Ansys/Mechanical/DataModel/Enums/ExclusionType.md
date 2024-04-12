@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Isotropic`](#ExclusionType.Isotropic)     |    |
+| Name | Summary |
 |---------------------------------------------|----|
+| [`Isotropic`](#ExclusionType.Isotropic)     |    |
 | [`Orthotropic`](#ExclusionType.Orthotropic) |    |
 
 <a id="import-detail"></a>

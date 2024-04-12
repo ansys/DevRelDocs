@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`DirectAttachment`](#RemoteApplicationType.DirectAttachment)   |    |
+| Name | Summary |
 |-----------------------------------------------------------------|----|
+| [`DirectAttachment`](#RemoteApplicationType.DirectAttachment)   |    |
 | [`RemoteAttachment`](#RemoteApplicationType.RemoteAttachment)   |    |
 
 <a id="import-detail"></a>

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ForFutureAnalysis`](#StoreModalResult.ForFutureAnalysis)   |    |
+| Name | Summary |
 |--------------------------------------------------------------|----|
+| [`ForFutureAnalysis`](#StoreModalResult.ForFutureAnalysis)   |    |
 | [`No`](#StoreModalResult.No)                                 |    |
 | [`ProgramControlled`](#StoreModalResult.ProgramControlled)   |    |
 

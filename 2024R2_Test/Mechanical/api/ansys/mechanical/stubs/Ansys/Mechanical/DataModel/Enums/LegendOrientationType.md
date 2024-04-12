@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Vertical`](#LegendOrientationType.Vertical)     |    |
+| Name | Summary |
 |---------------------------------------------------|----|
+| [`Vertical`](#LegendOrientationType.Vertical)     |    |
 | [`Horizontal`](#LegendOrientationType.Horizontal) |    |
 
 <a id="import-detail"></a>

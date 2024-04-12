@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`NegativeXAxis`](#GravityOrientationType.NegativeXAxis)   |    |
+| Name | Summary |
 |------------------------------------------------------------|----|
+| [`NegativeXAxis`](#GravityOrientationType.NegativeXAxis)   |    |
 | [`NegativeYAxis`](#GravityOrientationType.NegativeYAxis)   |    |
 | [`NegativeZAxis`](#GravityOrientationType.NegativeZAxis)   |    |
 | [`PositiveXAxis`](#GravityOrientationType.PositiveXAxis)   |    |

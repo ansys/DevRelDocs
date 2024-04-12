@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`PromoteToNamedSelection`](#Joint.PromoteToNamedSelection)   | Run the PromoteToNamedSelection action.                                           |
+| Name | Summary |
 |---------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`PromoteToNamedSelection`](#Joint.PromoteToNamedSelection)   | Run the PromoteToNamedSelection action.                                           |
 | [`PromoteToRemotePoint`](#Joint.PromoteToRemotePoint)         | Run the PromoteToRemotePoint action.                                              |
 | [`AddCommandSnippet`](#Joint.AddCommandSnippet)               | Creates a new CommandSnippet                                                      |
 | [`FlipReferenceMobile`](#Joint.FlipReferenceMobile)           | Run the FlipReferenceMobile action.                                               |
@@ -43,8 +44,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`BushingWorksheet`](#Joint.BushingWorksheet)                                                                          | Returns the Bushing Coeffients worksheet associated with Bushing Joint.   |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
+| [`BushingWorksheet`](#Joint.BushingWorksheet)                                                                          | Returns the Bushing Coeffients worksheet associated with Bushing Joint.   |
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.                        |
 | [`FrictionCoefficient`](#Joint.FrictionCoefficient)                                                                    | Gets or sets the FrictionCoefficient.                                     |
 | [`JointElementAPDLName`](#Joint.JointElementAPDLName)                                                                  | Gets or sets the JointElementAPDLName.                                    |

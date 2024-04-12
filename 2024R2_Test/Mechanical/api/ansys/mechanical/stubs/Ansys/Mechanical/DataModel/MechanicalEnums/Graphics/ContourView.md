@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`SmoothContours`](#ContourView.SmoothContours)   |    |
+| Name | Summary |
 |---------------------------------------------------|----|
+| [`SmoothContours`](#ContourView.SmoothContours)   |    |
 | [`ContourBands`](#ContourView.ContourBands)       |    |
 | [`Isolines`](#ContourView.Isolines)               |    |
 | [`SolidFill`](#ContourView.SolidFill)             |    |

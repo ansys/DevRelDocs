@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`None_`](#ShellMBPOrientationType.None_)                                     |    |
+| Name | Summary |
 |-------------------------------------------------------------------------------|----|
+| [`None_`](#ShellMBPOrientationType.None_)                                     |    |
 | [`LocalElementDirection11`](#ShellMBPOrientationType.LocalElementDirection11) |    |
 | [`LocalElementDirection22`](#ShellMBPOrientationType.LocalElementDirection22) |    |
 | [`LocalElementDirection12`](#ShellMBPOrientationType.LocalElementDirection12) |    |

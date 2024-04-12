@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`StartAngle`](#IWireArc.StartAngle)   | Gets or sets the start angle of the arc.                   |
+| Name | Summary |
 |----------------------------------------|------------------------------------------------------------|
+| [`StartAngle`](#IWireArc.StartAngle)   | Gets or sets the start angle of the arc.                   |
 | [`EndAngle`](#IWireArc.EndAngle)       | Gets or sets the end angle of the arc.                     |
 | [`Center`](#IWireArc.Center)           | Gets or sets the center of the arc (x, y, z).              |
 | [`XDir`](#IWireArc.XDir)               | Gets or sets the principal dircetion of the arc (x, y, z). |

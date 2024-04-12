@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`OnNonConvergence`](#StabilizationFirstSubstepOption.OnNonConvergence)   |    |
+| Name | Summary |
 |---------------------------------------------------------------------------|----|
+| [`OnNonConvergence`](#StabilizationFirstSubstepOption.OnNonConvergence)   |    |
 | [`No`](#StabilizationFirstSubstepOption.No)                               |    |
 | [`Yes`](#StabilizationFirstSubstepOption.Yes)                             |    |
 

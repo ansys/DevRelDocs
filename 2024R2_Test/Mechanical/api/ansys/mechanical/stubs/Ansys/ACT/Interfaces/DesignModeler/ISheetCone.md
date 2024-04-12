@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Center`](#ISheetCone.Center)       | Gets or sets the center of the cone (x, y, z).    |
+| Name | Summary |
 |--------------------------------------|---------------------------------------------------|
+| [`Center`](#ISheetCone.Center)       | Gets or sets the center of the cone (x, y, z).    |
 | [`Direction`](#ISheetCone.Direction) | Gets or sets the direction of the cone (x, y, z). |
 | [`Radius1`](#ISheetCone.Radius1)     | Gets or sets the top radius of the cone.          |
 | [`Radius2`](#ISheetCone.Radius2)     | Gets or sets the bottom radius of the cone.       |

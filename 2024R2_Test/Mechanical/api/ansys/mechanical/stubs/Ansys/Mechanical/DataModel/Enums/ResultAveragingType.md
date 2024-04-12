@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Unaveraged`](#ResultAveragingType.Unaveraged)                   |    |
+| Name | Summary |
 |-------------------------------------------------------------------|----|
+| [`Unaveraged`](#ResultAveragingType.Unaveraged)                   |    |
 | [`Averaged`](#ResultAveragingType.Averaged)                       |    |
 | [`NodalDifference`](#ResultAveragingType.NodalDifference)         |    |
 | [`NodalFraction`](#ResultAveragingType.NodalFraction)             |    |

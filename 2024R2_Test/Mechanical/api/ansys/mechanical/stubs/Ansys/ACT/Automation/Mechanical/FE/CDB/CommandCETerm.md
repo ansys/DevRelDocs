@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Node`](#CommandCETerm.Node)               | Gets the node number.       |
+| Name | Summary |
 |---------------------------------------------|-----------------------------|
+| [`Node`](#CommandCETerm.Node)               | Gets the node number.       |
 | [`Dof`](#CommandCETerm.Dof)                 | Gets the degree of freedom. |
 | [`Coefficient`](#CommandCETerm.Coefficient) | Gets the coefficient.       |
 

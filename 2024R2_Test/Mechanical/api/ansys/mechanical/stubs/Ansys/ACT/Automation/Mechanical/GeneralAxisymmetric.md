@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#GeneralAxisymmetric.Delete)                                   | Run the Delete action.                                                            |
+| Name | Summary |
 |---------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#GeneralAxisymmetric.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                     | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                     | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#GeneralAxisymmetric.AddComment)                           | Creates a new child Comment.                                                      |
@@ -38,8 +39,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`EndPlane`](#GeneralAxisymmetric.EndPlane)                                                                         | Gets or sets the EndPlane.                                    |
 | [`NodalPlanes`](#GeneralAxisymmetric.NodalPlanes)                                                                   | Gets or sets the NodalPlanes.                                 |
 | [`StartPlane`](#GeneralAxisymmetric.StartPlane)                                                                     | Gets or sets the StartPlane.                                  |

@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`eAuto`](#EXDEulerSizeDefType.eAuto)     |    |
+| Name | Summary |
 |-------------------------------------------|----|
+| [`eAuto`](#EXDEulerSizeDefType.eAuto)     |    |
 | [`eManual`](#EXDEulerSizeDefType.eManual) |    |
 
 <a id="import-detail"></a>

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ByBodyColor`](#ModelColoring.ByBodyColor)               |    |
+| Name | Summary |
 |-----------------------------------------------------------|----|
+| [`ByBodyColor`](#ModelColoring.ByBodyColor)               |    |
 | [`ByThickness`](#ModelColoring.ByThickness)               |    |
 | [`ByMaterial`](#ModelColoring.ByMaterial)                 |    |
 | [`ByNonLinear`](#ModelColoring.ByNonLinear)               |    |

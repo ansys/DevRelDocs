@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Active`](#LinuxSettings.Active)               | Whether the linux settings are active.   |
+| Name | Summary |
 |-------------------------------------------------|------------------------------------------|
+| [`Active`](#LinuxSettings.Active)               | Whether the linux settings are active.   |
 | [`UserName`](#LinuxSettings.UserName)           | The user name.                           |
 | [`WorkingFolder`](#LinuxSettings.WorkingFolder) | The working folder.                      |
 

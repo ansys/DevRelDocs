@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Object`](#FEConnectionLineColor.Object)   |    |
+| Name | Summary |
 |---------------------------------------------|----|
+| [`Object`](#FEConnectionLineColor.Object)   |    |
 | [`Type`](#FEConnectionLineColor.Type)       |    |
 | [`Manual`](#FEConnectionLineColor.Manual)   |    |
 

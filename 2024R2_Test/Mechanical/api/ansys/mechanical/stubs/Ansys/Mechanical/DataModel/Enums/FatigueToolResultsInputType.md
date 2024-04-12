@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Stress`](#FatigueToolResultsInputType.Stress)   |    |
+| Name | Summary |
 |---------------------------------------------------|----|
+| [`Stress`](#FatigueToolResultsInputType.Stress)   |    |
 | [`Strain`](#FatigueToolResultsInputType.Strain)   |    |
 
 <a id="import-detail"></a>

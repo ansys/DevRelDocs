@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`SpecifiedRecurrenceRate`](#NonlinearAdaptivityUpdateType.SpecifiedRecurrenceRate)   |    |
+| Name | Summary |
 |---------------------------------------------------------------------------------------|----|
+| [`SpecifiedRecurrenceRate`](#NonlinearAdaptivityUpdateType.SpecifiedRecurrenceRate)   |    |
 | [`EquallySpacedPoints`](#NonlinearAdaptivityUpdateType.EquallySpacedPoints)           |    |
 
 <a id="import-detail"></a>

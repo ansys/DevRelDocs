@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Inputs`](#Field.Inputs)   | Gets the input variables of this component.   |
+| Name | Summary |
 |-----------------------------|-----------------------------------------------|
+| [`Inputs`](#Field.Inputs)   | Gets the input variables of this component.   |
 | [`Output`](#Field.Output)   | Gets the output variable of this component.   |
 | [`Name`](#Field.Name)       | Gets the name of this component.              |
 

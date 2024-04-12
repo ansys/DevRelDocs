@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ImportedPlies`](../../../ACT/Automation/Mechanical/ImportedPlies.md#ImportedPlies)   |    |
+| Name | Summary |
 |----------------------------------------------------------------------------------------|----|
+| [`ImportedPlies`](../../../ACT/Automation/Mechanical/ImportedPlies.md#ImportedPlies)   |    |
 
 <a id="import-detail"></a>
 

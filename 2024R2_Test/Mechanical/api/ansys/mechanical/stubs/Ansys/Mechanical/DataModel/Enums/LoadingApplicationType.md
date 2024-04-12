@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`LoadVector`](#LoadingApplicationType.LoadVector)           |    |
+| Name | Summary |
 |--------------------------------------------------------------|----|
+| [`LoadVector`](#LoadingApplicationType.LoadVector)           |    |
 | [`Table`](../../../ACT/Automation/Mechanical/Table.md#Table) |    |
 
 <a id="import-detail"></a>

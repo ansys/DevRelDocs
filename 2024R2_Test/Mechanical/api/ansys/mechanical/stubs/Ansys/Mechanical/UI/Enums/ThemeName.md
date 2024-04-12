@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Light`](#ThemeName.Light)     |    |
+| Name | Summary |
 |---------------------------------|----|
+| [`Light`](#ThemeName.Light)     |    |
 | [`Dark`](#ThemeName.Dark)       |    |
 | [`Classic`](#ThemeName.Classic) |    |
 

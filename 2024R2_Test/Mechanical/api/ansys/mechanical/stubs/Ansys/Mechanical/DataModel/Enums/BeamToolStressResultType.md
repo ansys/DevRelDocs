@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`DirectStress`](../../../ACT/Automation/Mechanical/Results/BeamToolResults/DirectStress.md#DirectStress)                            |    |
+| Name | Summary |
 |--------------------------------------------------------------------------------------------------------------------------------------|----|
+| [`DirectStress`](../../../ACT/Automation/Mechanical/Results/BeamToolResults/DirectStress.md#DirectStress)                            |    |
 | [`MinimumBendingStress`](../../../ACT/Automation/Mechanical/Results/BeamToolResults/MinimumBendingStress.md#MinimumBendingStress)    |    |
 | [`MaximumBendingStress`](../../../ACT/Automation/Mechanical/Results/BeamToolResults/MaximumBendingStress.md#MaximumBendingStress)    |    |
 | [`MinimumCombinedStress`](../../../ACT/Automation/Mechanical/Results/BeamToolResults/MinimumCombinedStress.md#MinimumCombinedStress) |    |

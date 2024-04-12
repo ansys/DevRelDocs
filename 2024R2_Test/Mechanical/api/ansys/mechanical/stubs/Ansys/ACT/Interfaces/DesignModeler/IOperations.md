@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`CreateExtrudeOperation`](#IOperations.CreateExtrudeOperation)     | CreateExtrudeOperation method.   |
+| Name | Summary |
 |---------------------------------------------------------------------|----------------------------------|
+| [`CreateExtrudeOperation`](#IOperations.CreateExtrudeOperation)     | CreateExtrudeOperation method.   |
 | [`CreateIntersectOperation`](#IOperations.CreateIntersectOperation) | CreateIntersectOperation method. |
 | [`CreateRevolveOperation`](#IOperations.CreateRevolveOperation)     | CreateRevolveOperation method.   |
 | [`CreateSubtractOperation`](#IOperations.CreateSubtractOperation)   | CreateSubtractOperation method.  |
@@ -27,8 +28,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Tools`](#IOperations.Tools)     | Gets the list of additional tools to manipulate the geometry.   |
+| Name | Summary |
 |-----------------------------------|-----------------------------------------------------------------|
+| [`Tools`](#IOperations.Tools)     | Gets the list of additional tools to manipulate the geometry.   |
 | [`Queries`](#IOperations.Queries) | Gets the list of methods to query information on the geometry.  |
 
 <a id="import-detail"></a>

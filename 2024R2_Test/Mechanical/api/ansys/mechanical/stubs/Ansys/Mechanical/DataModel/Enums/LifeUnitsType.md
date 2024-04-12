@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Cycles_LC`](#LifeUnitsType.Cycles_LC)     |    |
+| Name | Summary |
 |---------------------------------------------|----|
+| [`Cycles_LC`](#LifeUnitsType.Cycles_LC)     |    |
 | [`Blocks_LC`](#LifeUnitsType.Blocks_LC)     |    |
 | [`Seconds`](#LifeUnitsType.Seconds)         |    |
 | [`Minutes_LC`](#LifeUnitsType.Minutes_LC)   |    |

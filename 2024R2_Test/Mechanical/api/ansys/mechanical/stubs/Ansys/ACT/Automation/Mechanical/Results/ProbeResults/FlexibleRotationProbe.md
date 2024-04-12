@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ExportAnimation`](#FlexibleRotationProbe.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| Name | Summary |
 |-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ExportAnimation`](#FlexibleRotationProbe.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
 | [`ClearGeneratedData`](#FlexibleRotationProbe.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`DuplicateWithoutResults`](#FlexibleRotationProbe.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
 | [`EvaluateAllResults`](#FlexibleRotationProbe.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
@@ -44,8 +45,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.                                                                                                                         |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.                                                                                                                         |
 | [`MaximumXAxisRotation`](#FlexibleRotationProbe.MaximumXAxisRotation)                                                     | Gets the MaximumXAxisRotation.                                                                                                                                             |
 | [`MaximumYAxisRotation`](#FlexibleRotationProbe.MaximumYAxisRotation)                                                     | Gets the MaximumYAxisRotation.                                                                                                                                             |
 | [`MaximumZAxisRotation`](#FlexibleRotationProbe.MaximumZAxisRotation)                                                     | Gets the MaximumZAxisRotation.                                                                                                                                             |

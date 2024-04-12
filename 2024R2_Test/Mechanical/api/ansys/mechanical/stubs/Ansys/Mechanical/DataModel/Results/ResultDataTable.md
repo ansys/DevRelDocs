@@ -18,13 +18,15 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ContainsKey`](#ResultDataTable.ContainsKey)   | ContainsKey method.   |
+| Name | Summary |
 |-------------------------------------------------|-----------------------|
+| [`ContainsKey`](#ResultDataTable.ContainsKey)   | ContainsKey method.   |
 
 ### Properties
 
-| [`Item`](#ResultDataTable.Item)     | Item property.   |
+| Name | Summary |
 |-------------------------------------|------------------|
+| [`Item`](#ResultDataTable.Item)     | Item property.   |
 | [`Keys`](#ResultDataTable.Keys)     | Keys property.   |
 | [`Values`](#ResultDataTable.Values) | Values property. |
 | [`Count`](#ResultDataTable.Count)   | Count property.  |

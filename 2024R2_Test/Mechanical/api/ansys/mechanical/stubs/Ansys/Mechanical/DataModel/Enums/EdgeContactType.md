@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`LineSegments`](#EdgeContactType.LineSegments)           |    |
+| Name | Summary |
 |-----------------------------------------------------------|----|
+| [`LineSegments`](#EdgeContactType.LineSegments)           |    |
 | [`NodesOnEdge`](#EdgeContactType.NodesOnEdge)             |    |
 | [`ProgramControlled`](#EdgeContactType.ProgramControlled) |    |
 

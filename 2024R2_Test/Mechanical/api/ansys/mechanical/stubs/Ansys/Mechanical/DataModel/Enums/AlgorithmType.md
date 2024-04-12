@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`MFD`](#AlgorithmType.MFD)                             |    |
+| Name | Summary |
 |---------------------------------------------------------|----|
+| [`MFD`](#AlgorithmType.MFD)                             |    |
 | [`ProgramControlled`](#AlgorithmType.ProgramControlled) |    |
 | [`SCPIP`](#AlgorithmType.SCPIP)                         |    |
 

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Point1`](#ISolidBox.Point1)   | Gets or sets the first point of the box (x, y, z).   |
+| Name | Summary |
 |---------------------------------|------------------------------------------------------|
+| [`Point1`](#ISolidBox.Point1)   | Gets or sets the first point of the box (x, y, z).   |
 | [`Point2`](#ISolidBox.Point2)   | Gets or sets the second point of the box (x, y, z).  |
 
 <a id="import-detail"></a>

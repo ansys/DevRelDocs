@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddBodyInteraction`](#BodyInteractions.AddBodyInteraction)           | Creates a new child BodyInteraction.                                              |
+| Name | Summary |
 |------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddBodyInteraction`](#BodyInteractions.AddBodyInteraction)           | Creates a new child BodyInteraction.                                              |
 | [`Delete`](#BodyInteractions.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                  | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                  | Gets the list of children, filtered by type.                                      |
@@ -39,8 +40,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`PinballFactor`](#BodyInteractions.PinballFactor)                                                                     | Gets or sets the PinballFactor.                               |
 | [`Tolerance`](#BodyInteractions.Tolerance)                                                                             | Gets or sets the Tolerance.                                   |
 | [`ShellThicknessFactor`](#BodyInteractions.ShellThicknessFactor)                                                       | Gets or sets the ShellThicknessFactor.                        |

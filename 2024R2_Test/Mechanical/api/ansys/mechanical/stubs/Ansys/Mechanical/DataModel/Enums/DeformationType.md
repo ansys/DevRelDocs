@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Directional`](#DeformationType.Directional)   |    |
+| Name | Summary |
 |-------------------------------------------------|----|
+| [`Directional`](#DeformationType.Directional)   |    |
 | [`Total`](#DeformationType.Total)               |    |
 
 <a id="import-detail"></a>

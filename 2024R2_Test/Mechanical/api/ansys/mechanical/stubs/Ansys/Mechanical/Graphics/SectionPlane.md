@@ -18,13 +18,15 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Equals`](#SectionPlane.Equals)   | Indicates whether the current SectionPlane properties are equal to the properties of another SectionPlane object.   |
+| Name | Summary |
 |------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| [`Equals`](#SectionPlane.Equals)   | Indicates whether the current SectionPlane properties are equal to the properties of another SectionPlane object.   |
 
 ### Properties
 
-| [`Active`](#SectionPlane.Active)       | Gets or Sets the Active State of the Section Plane      |
+| Name | Summary |
 |----------------------------------------|---------------------------------------------------------|
+| [`Active`](#SectionPlane.Active)       | Gets or Sets the Active State of the Section Plane      |
 | [`Center`](#SectionPlane.Center)       | Gets or Sets the Center point of the Section Plane      |
 | [`Direction`](#SectionPlane.Direction) | Gets or Sets the Direction(Normal) of the Section Plane |
 | [`Name`](#SectionPlane.Name)           | Gets or Sets the Name of the Section Plane              |

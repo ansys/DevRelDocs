@@ -10,8 +10,9 @@
 
 ### Classes
 
-| [`ResultDataTable`](ResultDataTable.md#ResultDataTable)   | Specifies the Result Table.                 |
+| Name | Summary |
 |-----------------------------------------------------------|---------------------------------------------|
+| [`ResultDataTable`](ResultDataTable.md#ResultDataTable)   | Specifies the Result Table.                 |
 | [`ResultVariable`](ResultVariable.md#ResultVariable)      | Specifies column data for the Result Table. |
 
 <a id="description"></a>
@@ -38,13 +39,15 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ContainsKey`](#Results.ContainsKey)   | ContainsKey method.   |
+| Name | Summary |
 |-----------------------------------------|-----------------------|
+| [`ContainsKey`](#Results.ContainsKey)   | ContainsKey method.   |
 
 ### Properties
 
-| [`Item`](#id0)              | Item property.   |
+| Name | Summary |
 |-----------------------------|------------------|
+| [`Item`](#id0)              | Item property.   |
 | [`Keys`](#Results.Keys)     | Keys property.   |
 | [`Values`](#Results.Values) | Values property. |
 | [`Count`](#id3)             | Count property.  |
@@ -117,8 +120,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Item`](#id0)   | Item property.   |
+| Name | Summary |
 |------------------|------------------|
+| [`Item`](#id0)   | Item property.   |
 | [`Count`](#id3)  | Count property.  |
 
 <a id="id1"></a>

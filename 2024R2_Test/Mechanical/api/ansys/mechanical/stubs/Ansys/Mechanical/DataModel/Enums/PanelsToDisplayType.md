@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`All`](#PanelsToDisplayType.All)     |    |
+| Name | Summary |
 |---------------------------------------|----|
+| [`All`](#PanelsToDisplayType.All)     |    |
 | [`Top10`](#PanelsToDisplayType.Top10) |    |
 | [`Top20`](#PanelsToDisplayType.Top20) |    |
 | [`Top5`](#PanelsToDisplayType.Top5)   |    |

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetVirtualCellFromSelection`](#VirtualTopology.GetVirtualCellFromSelection)   | Gets the Virtual Cell from the selection.                                         |
+| Name | Summary |
 |---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetVirtualCellFromSelection`](#VirtualTopology.GetVirtualCellFromSelection)   | Gets the Virtual Cell from the selection.                                         |
 | [`GenerateVirtualCells`](#VirtualTopology.GenerateVirtualCells)                 | Generate the Virtual Cells on the selected/all entities.                          |
 | [`VirtualSplitFaceAtVertices`](#VirtualTopology.VirtualSplitFaceAtVertices)     | Generate the Virtual Cells on the selected/all entities.                          |
 | [`VirtualSplitEdge`](#VirtualTopology.VirtualSplitEdge)                         | Generate the Virtual Cells on the selected/all entities.                          |
@@ -49,8 +50,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`AutomaticBehavior`](#VirtualTopology.AutomaticBehavior)                                                           | Gets or sets the Behavior when Method is set to “Automatic”.   |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
+| [`AutomaticBehavior`](#VirtualTopology.AutomaticBehavior)                                                           | Gets or sets the Behavior when Method is set to “Automatic”.   |
 | [`RepairBehavior`](#VirtualTopology.RepairBehavior)                                                                 | Gets or sets the Behavior when Method is set to “Repair”.      |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.             |
 | [`AspectRatio`](#VirtualTopology.AspectRatio)                                                                       | Gets or sets the AspectRatio.                                  |

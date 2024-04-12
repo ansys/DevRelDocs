@@ -16,8 +16,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`ProcessSolids`](#GeometryImportPreferences.ProcessSolids)                                                                            | Import solid bodies.                                                                     |
+| Name | Summary |
 |----------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| [`ProcessSolids`](#GeometryImportPreferences.ProcessSolids)                                                                            | Import solid bodies.                                                                     |
 | [`ProcessSurfaces`](#GeometryImportPreferences.ProcessSurfaces)                                                                        | Import surface bodies.                                                                   |
 | [`ProcessLines`](#GeometryImportPreferences.ProcessLines)                                                                              | Import lines bodies.                                                                     |
 | [`ProcessAttributes`](#GeometryImportPreferences.ProcessAttributes)                                                                    | Import CAD system attributes.                                                            |

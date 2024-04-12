@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#ExternalModelDataColl.Delete)                                   | Run the Delete action.                                                            |
+| Name | Summary |
 |-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#ExternalModelDataColl.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                       | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                       | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#ExternalModelDataColl.AddComment)                           | Creates a new child Comment.                                                      |
@@ -38,8 +39,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Count`](#ExternalModelDataColl.Count)                                                                             | Gets the NumberOfRows.                                        |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Count`](#ExternalModelDataColl.Count)                                                                             | Gets the NumberOfRows.                                        |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`Suppressed`](#ExternalModelDataColl.Suppressed)                                                                   | Gets or sets the Suppressed.                                  |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |

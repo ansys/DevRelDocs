@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Id`](#CommandElementType.Id)           | Gets the element number.   |
+| Name | Summary |
 |------------------------------------------|----------------------------|
+| [`Id`](#CommandElementType.Id)           | Gets the element number.   |
 | [`Ename`](#CommandElementType.Ename)     | Gets the element name.     |
 | [`Keyopts`](#CommandElementType.Keyopts) | Gets the key options.      |
 

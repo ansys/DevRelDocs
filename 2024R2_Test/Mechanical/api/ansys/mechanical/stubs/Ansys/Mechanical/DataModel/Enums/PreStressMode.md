@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Displacements`](#PreStressMode.Displacements)   |    |
+| Name | Summary |
 |---------------------------------------------------|----|
+| [`Displacements`](#PreStressMode.Displacements)   |    |
 | [`MaterialState`](#PreStressMode.MaterialState)   |    |
 
 <a id="import-detail"></a>

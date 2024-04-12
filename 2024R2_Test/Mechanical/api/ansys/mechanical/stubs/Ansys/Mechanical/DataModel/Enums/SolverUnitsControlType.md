@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ActiveSystem`](#SolverUnitsControlType.ActiveSystem)   |    |
+| Name | Summary |
 |----------------------------------------------------------|----|
+| [`ActiveSystem`](#SolverUnitsControlType.ActiveSystem)   |    |
 | [`Manual`](#SolverUnitsControlType.Manual)               |    |
 
 <a id="import-detail"></a>

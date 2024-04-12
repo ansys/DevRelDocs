@@ -10,8 +10,9 @@
 
 ### Classes
 
-| [`ColumnarDataImportDefinition`](ColumnarDataImportDefinition.md#ColumnarDataImportDefinition)   | A simple class to hold the import definitions for how a column from a data source in   |
+| Name | Summary |
 |--------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| [`ColumnarDataImportDefinition`](ColumnarDataImportDefinition.md#ColumnarDataImportDefinition)   | A simple class to hold the import definitions for how a column from a data source in   |
 | [`ColumnarDataSourceBase`](ColumnarDataSourceBase.md#ColumnarDataSourceBase)                     |                                                                                        |
 | [`FixedWidthImportSettings`](FixedWidthImportSettings.md#FixedWidthImportSettings)               |                                                                                        |
 | [`DelimitedImportSettings`](DelimitedImportSettings.md#DelimitedImportSettings)                  |                                                                                        |
@@ -44,8 +45,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Index`](#Table.Index)                                                                                         | Gets or sets the specified data source column index from which this variable will be   |
+| Name | Summary |
 |-----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| [`Index`](#Table.Index)                                                                                         | Gets or sets the specified data source column index from which this variable will be   |
 | [`Name`](#Table.Name)                                                                                           | Gets or sets an identifier for the data source column.                                 |
 | [`Unit`](#Table.Unit)                                                                                           | Gets or sets the unit of the column.                                                   |
 | [`VariableType`](../DataModel/MechanicalEnums/Table/VariableType.md#VariableType)                               | Gets or sets the variable type of the column.                                          |
@@ -114,16 +116,18 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Clear`](#id22)         |                                                       |
+| Name | Summary |
 |--------------------------|-------------------------------------------------------|
+| [`Clear`](#id22)         |                                                       |
 | [`GetEnumerator`](#id23) |                                                       |
 | [`RemoveAt`](#id24)      | Removes the import definition at the specified index. |
 | [`UseColumn`](#id25)     |                                                       |
 
 ### Properties
 
-| [`Count`](#id16)                                                         | Gets the number of column definitions.                                               |
+| Name | Summary |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| [`Count`](#id16)                                                         | Gets the number of column definitions.                                               |
 | [`Item`](#id17)                                                          | Item property.                                                                       |
 | [`SkipFooter`](#id18)                                                    | Gets or sets the number of rows to ignore at the end of the file during import.      |
 | [`SkipRows`](#id19)                                                      | Gets or sets the number of rows to skip over at the start of the file during import. |
@@ -217,16 +221,18 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Clear`](#id22)         |                                                       |
+| Name | Summary |
 |--------------------------|-------------------------------------------------------|
+| [`Clear`](#id22)         |                                                       |
 | [`GetEnumerator`](#id23) |                                                       |
 | [`RemoveAt`](#id24)      | Removes the import definition at the specified index. |
 | [`UseColumn`](#id25)     |                                                       |
 
 ### Properties
 
-| [`ColumnWidths`](#Table.ColumnWidths)                                    | Gets or sets the specified column widths.                                            |
+| Name | Summary |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| [`ColumnWidths`](#Table.ColumnWidths)                                    | Gets or sets the specified column widths.                                            |
 | [`Count`](#id16)                                                         | Gets the number of column definitions.                                               |
 | [`Item`](#id17)                                                          | Item property.                                                                       |
 | [`SkipFooter`](#id18)                                                    | Gets or sets the number of rows to ignore at the end of the file during import.      |
@@ -330,16 +336,18 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Clear`](#id22)         |                                                       |
+| Name | Summary |
 |--------------------------|-------------------------------------------------------|
+| [`Clear`](#id22)         |                                                       |
 | [`GetEnumerator`](#id23) |                                                       |
 | [`RemoveAt`](#id24)      | Removes the import definition at the specified index. |
 | [`UseColumn`](#id25)     |                                                       |
 
 ### Properties
 
-| [`Delimiter`](#Table.Delimiter)                                          | The delimiter used to separate columns.                                              |
+| Name | Summary |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| [`Delimiter`](#Table.Delimiter)                                          | The delimiter used to separate columns.                                              |
 | [`Count`](#id16)                                                         | Gets the number of column definitions.                                               |
 | [`Item`](#id17)                                                          | Item property.                                                                       |
 | [`SkipFooter`](#id18)                                                    | Gets or sets the number of rows to ignore at the end of the file during import.      |
@@ -462,8 +470,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Format`](../DataModel/Enums/GeometryImportPreference/Format.md#Format)   | Gets the existing corresponding format.   |
+| Name | Summary |
 |----------------------------------------------------------------------------|-------------------------------------------|
+| [`Format`](../DataModel/Enums/GeometryImportPreference/Format.md#Format)   | Gets the existing corresponding format.   |
 
 <a id="id27"></a>
 
@@ -497,8 +506,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Constructors
 
-| [`GetSettingsForFormat`](#Table.GetSettingsForFormat)   |    |
+| Name | Summary |
 |---------------------------------------------------------|----|
+| [`GetSettingsForFormat`](#Table.GetSettingsForFormat)   |    |
 
 <a id="id30"></a>
 

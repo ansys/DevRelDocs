@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#MorphingRegion.Delete)                                   | Run the Delete action.                                                            |
+| Name | Summary |
 |----------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#MorphingRegion.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#MorphingRegion.AddComment)                           | Creates a new child Comment.                                                      |
@@ -38,8 +39,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`MorphingIntervals`](#MorphingRegion.MorphingIntervals)                                                            | Gets or sets the MorphingIntervals.                           |
 | [`BaseFrequency`](#MorphingRegion.BaseFrequency)                                                                    | Gets or sets the BaseFrequency.                               |
 | [`MaximumFrequency`](#MorphingRegion.MaximumFrequency)                                                              | Gets or sets the MaximumFrequency.                            |

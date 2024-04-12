@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`PromoteToNamedSelection`](#RotatingForce.PromoteToNamedSelection)   | Run the PromoteToNamedSelection action.                                           |
+| Name | Summary |
 |-----------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`PromoteToNamedSelection`](#RotatingForce.PromoteToNamedSelection)   | Run the PromoteToNamedSelection action.                                           |
 | [`Delete`](#RotatingForce.Delete)                                     | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                 | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                 | Gets the list of children, filtered by type.                                      |
@@ -39,8 +40,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Axis`](#RotatingForce.Axis)                                                                                          | Gets or sets the Axis.                                        |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Axis`](#RotatingForce.Axis)                                                                                          | Gets or sets the Axis.                                        |
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`SynchronousRatio`](#RotatingForce.SynchronousRatio)                                                                  | Gets or sets the SynchronousRatio.                            |
 | [`AxisComponentX`](#RotatingForce.AxisComponentX)                                                                      | Gets the AxisComponentX.                                      |

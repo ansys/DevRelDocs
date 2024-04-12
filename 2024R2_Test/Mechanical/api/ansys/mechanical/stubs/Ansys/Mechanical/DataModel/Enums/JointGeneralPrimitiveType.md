@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`InLine`](#JointGeneralPrimitiveType.InLine)           |    |
+| Name | Summary |
 |---------------------------------------------------------|----|
+| [`InLine`](#JointGeneralPrimitiveType.InLine)           |    |
 | [`InPlane`](#JointGeneralPrimitiveType.InPlane)         |    |
 | [`None_`](#JointGeneralPrimitiveType.None_)             |    |
 | [`Orientation`](#JointGeneralPrimitiveType.Orientation) |    |

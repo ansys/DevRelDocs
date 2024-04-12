@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Generate`](#ContactMatch.Generate)                               | Run the Generate action.                                                          |
+| Name | Summary |
 |--------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Generate`](#ContactMatch.Generate)                               | Run the Generate action.                                                          |
 | [`RenameBasedOnDefinition`](#ContactMatch.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#ContactMatch.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                              | Gets the list of children, filtered by type.                                      |
@@ -40,8 +41,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`ScopingMethod`](#ContactMatch.ScopingMethod)                                                                      | ScopingMethod property.                                       |
 | [`ToleranceSlider`](#ContactMatch.ToleranceSlider)                                                                  | Gets or sets the ToleranceSlider.                             |

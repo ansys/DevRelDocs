@@ -18,14 +18,16 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`CurrentUnitFromQuantityName`](#IDesignModelerDataModel.CurrentUnitFromQuantityName)   | Returns the current unit assocaited to a quantity name.                         |
+| Name | Summary |
 |-----------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
+| [`CurrentUnitFromQuantityName`](#IDesignModelerDataModel.CurrentUnitFromQuantityName)   | Returns the current unit assocaited to a quantity name.                         |
 | [`ComponentById`](#IDesignModelerDataModel.ComponentById)                               | Returns the component (named selection) associated to the specified identifier. |
 
 ### Properties
 
-| [`GeoData`](#IDesignModelerDataModel.GeoData)                 | Gets the geometry data model object.    |
+| Name | Summary |
 |---------------------------------------------------------------|-----------------------------------------|
+| [`GeoData`](#IDesignModelerDataModel.GeoData)                 | Gets the geometry data model object.    |
 | [`GeometryBuilder`](#IDesignModelerDataModel.GeometryBuilder) | Gets the geometry builder object.       |
 | [`Queries`](#IDesignModelerDataModel.Queries)                 | Gets the queries object.                |
 | [`Components`](#IDesignModelerDataModel.Components)           | Gets all components (named selections). |

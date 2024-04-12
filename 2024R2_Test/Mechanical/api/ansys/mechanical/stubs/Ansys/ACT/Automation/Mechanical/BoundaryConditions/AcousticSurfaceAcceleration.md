@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`PromoteToNamedSelection`](#AcousticSurfaceAcceleration.PromoteToNamedSelection)   | Run the PromoteToNamedSelection action.                                           |
+| Name | Summary |
 |-------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`PromoteToNamedSelection`](#AcousticSurfaceAcceleration.PromoteToNamedSelection)   | Run the PromoteToNamedSelection action.                                           |
 | [`Delete`](#AcousticSurfaceAcceleration.Delete)                                     | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                               | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                               | Gets the list of children, filtered by type.                                      |
@@ -39,8 +40,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`XComponent`](#AcousticSurfaceAcceleration.XComponent)                                                                | Gets or sets the XComponent.                                  |
 | [`YComponent`](#AcousticSurfaceAcceleration.YComponent)                                                                | Gets or sets the YComponent.                                  |
 | [`ZComponent`](#AcousticSurfaceAcceleration.ZComponent)                                                                | Gets or sets the ZComponent.                                  |

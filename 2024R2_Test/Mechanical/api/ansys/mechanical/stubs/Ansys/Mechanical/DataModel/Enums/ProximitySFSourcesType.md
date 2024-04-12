@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`FacesAndEdges`](#ProximitySFSourcesType.FacesAndEdges)   |    |
+| Name | Summary |
 |------------------------------------------------------------|----|
+| [`FacesAndEdges`](#ProximitySFSourcesType.FacesAndEdges)   |    |
 | [`Faces`](#ProximitySFSourcesType.Faces)                   |    |
 | [`Edges`](#ProximitySFSourcesType.Edges)                   |    |
 

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`BendingStress`](#ShellMBPType.BendingStress)       |    |
+| Name | Summary |
 |------------------------------------------------------|----|
+| [`BendingStress`](#ShellMBPType.BendingStress)       |    |
 | [`BottomPeakStress`](#ShellMBPType.BottomPeakStress) |    |
 | [`MembraneStress`](#ShellMBPType.MembraneStress)     |    |
 | [`TopPeakStress`](#ShellMBPType.TopPeakStress)       |    |

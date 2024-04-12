@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Manual`](#ConvergenceControlType.Manual)                       |    |
+| Name | Summary |
 |------------------------------------------------------------------|----|
+| [`Manual`](#ConvergenceControlType.Manual)                       |    |
 | [`ProgramControlled`](#ConvergenceControlType.ProgramControlled) |    |
 
 <a id="import-detail"></a>

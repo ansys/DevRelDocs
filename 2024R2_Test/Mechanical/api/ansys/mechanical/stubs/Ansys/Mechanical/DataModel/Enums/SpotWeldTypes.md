@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Dependent`](#SpotWeldTypes.Dependent)     |    |
+| Name | Summary |
 |---------------------------------------------|----|
+| [`Dependent`](#SpotWeldTypes.Dependent)     |    |
 | [`Independent`](#SpotWeldTypes.Independent) |    |
 
 <a id="import-detail"></a>

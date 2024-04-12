@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`CoordinateSystemGuide`](#ElementOrientationGuide.CoordinateSystemGuide)   |    |
+| Name | Summary |
 |-----------------------------------------------------------------------------|----|
+| [`CoordinateSystemGuide`](#ElementOrientationGuide.CoordinateSystemGuide)   |    |
 | [`SurfaceEdgeGuide`](#ElementOrientationGuide.SurfaceEdgeGuide)             |    |
 
 <a id="import-detail"></a>

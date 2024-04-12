@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Add`](#AMSupportRemovalSequence.Add)           | Adds a support or base removal step.                                    |
+| Name | Summary |
 |--------------------------------------------------|-------------------------------------------------------------------------|
+| [`Add`](#AMSupportRemovalSequence.Add)           | Adds a support or base removal step.                                    |
 | [`RemoveAt`](#AMSupportRemovalSequence.RemoveAt) | Remove AM step at index.                                                |
 | [`Swap`](#id0)                                   | Swaps two steps in the Removal sequence.                                |
 | [`Swap`](#id0)                                   | Swaps two steps in the Removal sequence by name.                        |
@@ -29,8 +30,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Count`](#AMSupportRemovalSequence.Count)   | Count property.   |
+| Name | Summary |
 |----------------------------------------------|-------------------|
+| [`Count`](#AMSupportRemovalSequence.Count)   | Count property.   |
 
 <a id="import-detail"></a>
 

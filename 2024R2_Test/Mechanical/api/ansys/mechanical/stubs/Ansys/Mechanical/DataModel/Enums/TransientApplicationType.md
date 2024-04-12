@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`HighSpeedDynamics`](#TransientApplicationType.HighSpeedDynamics)         |    |
+| Name | Summary |
 |----------------------------------------------------------------------------|----|
+| [`HighSpeedDynamics`](#TransientApplicationType.HighSpeedDynamics)         |    |
 | [`Impact`](#TransientApplicationType.Impact)                               |    |
 | [`LowSpeedDynamics`](#TransientApplicationType.LowSpeedDynamics)           |    |
 | [`ModerateSpeedDynamics`](#TransientApplicationType.ModerateSpeedDynamics) |    |

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Both`](#ChartPlotStyle.Both)     |    |
+| Name | Summary |
 |------------------------------------|----|
+| [`Both`](#ChartPlotStyle.Both)     |    |
 | [`Lines`](#ChartPlotStyle.Lines)   |    |
 | [`Points`](#ChartPlotStyle.Points) |    |
 

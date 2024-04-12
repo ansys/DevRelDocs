@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Type_2_5YAxisRotationExtrusion`](#ModelType.Type_2_5YAxisRotationExtrusion)   |    |
+| Name | Summary |
 |---------------------------------------------------------------------------------|----|
+| [`Type_2_5YAxisRotationExtrusion`](#ModelType.Type_2_5YAxisRotationExtrusion)   |    |
 | [`Type_2_5DZDirectionExtrusion`](#ModelType.Type_2_5DZDirectionExtrusion)       |    |
 | [`Type_3D`](#ModelType.Type_3D)                                                 |    |
 | [`Type_VibratingStructuralPanel`](#ModelType.Type_VibratingStructuralPanel)     |    |

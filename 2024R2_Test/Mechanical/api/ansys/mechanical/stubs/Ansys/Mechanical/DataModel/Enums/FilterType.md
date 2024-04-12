@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Butterworth`](#FilterType.Butterworth)   |    |
+| Name | Summary |
 |--------------------------------------------|----|
+| [`Butterworth`](#FilterType.Butterworth)   |    |
 | [`None_`](#FilterType.None_)               |    |
 | [`SAE`](#FilterType.SAE)                   |    |
 

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Generate`](#ResultMesh.Generate)                                             | Generate the mesh data                                                            |
+| Name | Summary |
 |--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Generate`](#ResultMesh.Generate)                                             | Generate the mesh data                                                            |
 | [`ClearGeneratedData`](#ResultMesh.ClearGeneratedData)                         | Clear the generated mesh data                                                     |
 | [`AddNamedSelection`](#ResultMesh.AddNamedSelection)                           | Creates a new NamedSelection                                                      |
 | [`ImportComponentsFromResultFile`](#ResultMesh.ImportComponentsFromResultFile) | Import solver components from result file                                         |
@@ -41,8 +42,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`FEBodies`](#ResultMesh.FEBodies)                                                                                  | Gets FE Bodies                                                |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`FEBodies`](#ResultMesh.FEBodies)                                                                                  | Gets FE Bodies                                                |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`ConfigurationId`](#ResultMesh.ConfigurationId)                                                                    | Gets the ConfigurationId.                                     |
 | [`Elements`](#ResultMesh.Elements)                                                                                  | Gets the Elements.                                            |

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Full`](#FrequencyRangeType.Full)     |    |
+| Name | Summary |
 |----------------------------------------|----|
+| [`Full`](#FrequencyRangeType.Full)     |    |
 | [`Manual`](#FrequencyRangeType.Manual) |    |
 
 <a id="import-detail"></a>

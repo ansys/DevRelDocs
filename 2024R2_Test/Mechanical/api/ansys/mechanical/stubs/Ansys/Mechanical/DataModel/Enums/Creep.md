@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Off`](#Creep.Off)   |    |
+| Name | Summary |
 |-----------------------|----|
+| [`Off`](#Creep.Off)   |    |
 | [`On`](#Creep.On)     |    |
 
 <a id="import-detail"></a>

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddThickness`](#Geometry.AddThickness)                                                           | Creates a new child Thickness.                                                        |
+| Name | Summary |
 |----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+| [`AddThickness`](#Geometry.AddThickness)                                                           | Creates a new child Thickness.                                                        |
 | [`AddImportedThicknessExternalData`](#Geometry.AddImportedThicknessExternalData)                   | For Standalone Mode only. Creates a new Imported Thickness (External Data).           |
 | [`AddImportedElementOrientationExternalData`](#Geometry.AddImportedElementOrientationExternalData) | For Standalone Mode only. Creates a new Imported Element Orientation (External Data). |
 | [`AddLayeredSection`](#Geometry.AddLayeredSection)                                                 | Creates a new child LayeredSection.                                                   |
@@ -55,8 +56,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                                               | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`TemporaryDirectory`](#Geometry.TemporaryDirectory)                                                                                   | Gets or sets the TemporaryDirectory.                          |
 | [`AttributeKey`](#Geometry.AttributeKey)                                                                                               | Gets the AttributeKey.                                        |
 | [`Source`](#Geometry.Source)                                                                                                           | Gets the Source.                                              |

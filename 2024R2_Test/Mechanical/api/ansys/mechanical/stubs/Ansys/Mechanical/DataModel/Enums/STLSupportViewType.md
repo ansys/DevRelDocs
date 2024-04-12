@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`KnockdownFactors`](#STLSupportViewType.KnockdownFactors)             |    |
+| Name | Summary |
 |------------------------------------------------------------------------|----|
+| [`KnockdownFactors`](#STLSupportViewType.KnockdownFactors)             |    |
 | [`Mesh`](../../../ACT/Automation/Mechanical/MeshControls/Mesh.md#Mesh) |    |
 | [`STL`](../../../ACT/Automation/Mechanical/STL.md#STL)                 |    |
 

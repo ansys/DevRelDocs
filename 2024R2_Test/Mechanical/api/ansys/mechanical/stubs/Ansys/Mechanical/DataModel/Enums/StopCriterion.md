@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`FreeBoundary`](#StopCriterion.FreeBoundary)                         |    |
+| Name | Summary |
 |-----------------------------------------------------------------------|----|
+| [`FreeBoundary`](#StopCriterion.FreeBoundary)                         |    |
 | [`MaxCrackExtension`](#StopCriterion.MaxCrackExtension)               |    |
 | [`MaxStressIntensityFactor`](#StopCriterion.MaxStressIntensityFactor) |    |
 | [`MaxTotalNumberOfCycles`](#StopCriterion.MaxTotalNumberOfCycles)     |    |

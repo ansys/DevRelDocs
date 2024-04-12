@@ -10,8 +10,9 @@
 
 ### Classes
 
-| [`GeometryImportPreferences`](GeometryImportPreferences.md#GeometryImportPreferences)   |    |
+| Name | Summary |
 |-----------------------------------------------------------------------------------------|----|
+| [`GeometryImportPreferences`](GeometryImportPreferences.md#GeometryImportPreferences)   |    |
 
 <a id="description"></a>
 
@@ -35,8 +36,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`ProcessSolids`](#Utilities.ProcessSolids)                                                                                            | Import solid bodies.                                                                     |
+| Name | Summary |
 |----------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| [`ProcessSolids`](#Utilities.ProcessSolids)                                                                                            | Import solid bodies.                                                                     |
 | [`ProcessSurfaces`](#Utilities.ProcessSurfaces)                                                                                        | Import surface bodies.                                                                   |
 | [`ProcessLines`](#Utilities.ProcessLines)                                                                                              | Import lines bodies.                                                                     |
 | [`ProcessAttributes`](#Utilities.ProcessAttributes)                                                                                    | Import CAD system attributes.                                                            |

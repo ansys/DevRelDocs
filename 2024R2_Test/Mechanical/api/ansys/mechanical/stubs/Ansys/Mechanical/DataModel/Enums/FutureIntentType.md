@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`HarmonicAnalysis`](#FutureIntentType.HarmonicAnalysis)                                     |    |
+| Name | Summary |
 |----------------------------------------------------------------------------------------------|----|
+| [`HarmonicAnalysis`](#FutureIntentType.HarmonicAnalysis)                                     |    |
 | [`ModeSuperpositionAnalysis`](#FutureIntentType.ModeSuperpositionAnalysis)                   |    |
 | [`MotionAnalysis`](#FutureIntentType.MotionAnalysis)                                         |    |
 | [`PrestressedFullHarmonicAnalysis`](#FutureIntentType.PrestressedFullHarmonicAnalysis)       |    |

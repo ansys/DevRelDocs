@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ExportToTextFile`](#NamedSelection.ExportToTextFile)                           | Run the ExportToTextFile action.                                                                                 |
+| Name | Summary |
 |----------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
+| [`ExportToTextFile`](#NamedSelection.ExportToTextFile)                           | Run the ExportToTextFile action.                                                                                 |
 | [`ExportNamedSelectionToCDBFile`](#NamedSelection.ExportNamedSelectionToCDBFile) | Export Named Selection to CDB file                                                                               |
 | [`Generate`](#NamedSelection.Generate)                                           | Generates the selection based on the generation criteria.                                                        |
 | [`CreateNodalNamedSelection`](#NamedSelection.CreateNodalNamedSelection)         | Creates a new Named Selection object containing all the nodes from the entities in the current named selection . |
@@ -42,8 +43,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Location`](#NamedSelection.Location)                                                                              | Gets or sets the Location.                                              |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| [`Location`](#NamedSelection.Location)                                                                              | Gets or sets the Location.                                              |
 | [`GenerationCriteria`](#NamedSelection.GenerationCriteria)                                                          | Returns the generation criteria that is used to generate the selection. |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.                      |
 | [`CrackFrontNumber`](#NamedSelection.CrackFrontNumber)                                                              | Gets the CrackFrontNumber.                                              |

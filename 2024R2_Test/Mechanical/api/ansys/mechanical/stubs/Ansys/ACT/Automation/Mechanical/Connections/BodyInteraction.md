@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#BodyInteraction.Delete)                                   | Run the Delete action.                                                            |
+| Name | Summary |
 |-----------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#BodyInteraction.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                 | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                 | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#BodyInteraction.AddComment)                           | Creates a new child Comment.                                                      |
@@ -38,8 +39,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`DecayConstant`](#BodyInteraction.DecayConstant)                                                                      | Gets or sets the DecayConstant.                               |
 | [`DynamicCoefficient`](#BodyInteraction.DynamicCoefficient)                                                            | Gets or sets the DynamicCoefficient.                          |
 | [`NormalForceExponent`](#BodyInteraction.NormalForceExponent)                                                          | Gets or sets the NormalForceExponent.                         |

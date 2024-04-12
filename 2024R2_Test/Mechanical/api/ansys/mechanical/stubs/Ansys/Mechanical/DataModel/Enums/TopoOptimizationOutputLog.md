@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`High`](#TopoOptimizationOutputLog.High)                           |    |
+| Name | Summary |
 |---------------------------------------------------------------------|----|
+| [`High`](#TopoOptimizationOutputLog.High)                           |    |
 | [`Low`](#TopoOptimizationOutputLog.Low)                             |    |
 | [`Medium`](#TopoOptimizationOutputLog.Medium)                       |    |
 | [`ProgramControlled`](#TopoOptimizationOutputLog.ProgramControlled) |    |

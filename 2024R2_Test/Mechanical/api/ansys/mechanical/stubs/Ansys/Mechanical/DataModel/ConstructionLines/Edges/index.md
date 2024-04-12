@@ -10,13 +10,15 @@
 
 ### Interfaces
 
-| [`IEdge`](IEdge.md#IEdge)   | Interface for edges created by ConstructionLine.   |
+| Name | Summary |
 |-----------------------------|----------------------------------------------------|
+| [`IEdge`](IEdge.md#IEdge)   | Interface for edges created by ConstructionLine.   |
 
 ### Classes
 
-| [`StraightLineEdge`](StraightLineEdge.md#StraightLineEdge)   | Representation of a straight line edge between to edge vertices.   |
+| Name | Summary |
 |--------------------------------------------------------------|--------------------------------------------------------------------|
+| [`StraightLineEdge`](StraightLineEdge.md#StraightLineEdge)   | Representation of a straight line edge between to edge vertices.   |
 
 <a id="description"></a>
 
@@ -42,8 +44,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Length`](#id0)                              | Length property.                                                       |
+| Name | Summary |
 |-----------------------------------------------|------------------------------------------------------------------------|
+| [`Length`](#id0)                              | Length property.                                                       |
 | [`EndPoint`](#Edges.EndPoint)                 | A Point representing the end vertex of the edge.                       |
 | [`StartPoint`](#Edges.StartPoint)             | A Point representing the start vertex of an edge.                      |
 | [`ObjectId`](#Edges.ObjectId)                 | Get the ID of the represented entity.                                  |
@@ -113,8 +116,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Length`](#id0)   | Get the length of this edge.   |
+| Name | Summary |
 |--------------------|--------------------------------|
+| [`Length`](#id0)   | Get the length of this edge.   |
 
 <a id="id1"></a>
 

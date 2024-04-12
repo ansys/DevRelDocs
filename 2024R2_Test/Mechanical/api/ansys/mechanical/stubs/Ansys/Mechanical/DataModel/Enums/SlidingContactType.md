@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ConnectedSurface`](#SlidingContactType.ConnectedSurface)   |    |
+| Name | Summary |
 |--------------------------------------------------------------|----|
+| [`ConnectedSurface`](#SlidingContactType.ConnectedSurface)   |    |
 | [`DiscreteSurface`](#SlidingContactType.DiscreteSurface)     |    |
 
 <a id="import-detail"></a>

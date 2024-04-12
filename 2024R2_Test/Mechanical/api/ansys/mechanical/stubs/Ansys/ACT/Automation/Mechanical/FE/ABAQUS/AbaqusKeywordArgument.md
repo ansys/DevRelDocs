@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Key`](#AbaqusKeywordArgument.Key)     | Gets the Key.   |
+| Name | Summary |
 |-----------------------------------------|-----------------|
+| [`Key`](#AbaqusKeywordArgument.Key)     | Gets the Key.   |
 | [`Value`](#AbaqusKeywordArgument.Value) | Gets the Value. |
 
 <a id="import-detail"></a>

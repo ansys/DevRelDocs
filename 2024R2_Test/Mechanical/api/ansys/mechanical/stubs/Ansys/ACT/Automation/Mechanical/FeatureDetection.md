@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#FeatureDetection.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#FeatureDetection.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`DetectFeatures`](#FeatureDetection.DetectFeatures)                   | DetectFeatures method.                                                            |
 | [`EvaluateAllResults`](#FeatureDetection.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
 | [`Delete`](#FeatureDetection.Delete)                                   | Run the Delete action.                                                            |
@@ -40,8 +41,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Definition`](#FeatureDetection.Definition)                                                                        | Get the FeatureDetectionDefinition object.                    |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Definition`](#FeatureDetection.Definition)                                                                        | Get the FeatureDetectionDefinition object.                    |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`ScopingMethod`](#FeatureDetection.ScopingMethod)                                                                  | Gets or sets the ScopingMethod.                               |
 | [`NamedSelection`](NamedSelection.md#NamedSelection)                                                                | Gets or sets the NamedSelection.                              |

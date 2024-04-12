@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Format`](../DataModel/Enums/GeometryImportPreference/Format.md#Format)   | Gets the existing corresponding format.                 |
+| Name | Summary |
 |----------------------------------------------------------------------------|---------------------------------------------------------|
+| [`Format`](../DataModel/Enums/GeometryImportPreference/Format.md#Format)   | Gets the existing corresponding format.                 |
 | [`PathType`](../DataModel/MechanicalEnums/Common/PathType.md#PathType)     | Gets or sets the type of URI provided for Table import. |
 
 <a id="import-detail"></a>

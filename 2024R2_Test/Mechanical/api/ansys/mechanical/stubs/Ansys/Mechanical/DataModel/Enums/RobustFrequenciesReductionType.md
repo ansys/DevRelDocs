@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Average`](#RobustFrequenciesReductionType.Average)           |    |
+| Name | Summary |
 |----------------------------------------------------------------|----|
+| [`Average`](#RobustFrequenciesReductionType.Average)           |    |
 | [`ModeTracking`](#RobustFrequenciesReductionType.ModeTracking) |    |
 | [`SmoothMin`](#RobustFrequenciesReductionType.SmoothMin)       |    |
 

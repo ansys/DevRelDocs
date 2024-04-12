@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Load_Step`](#HarmonicMultiStepType.Load_Step)   |    |
+| Name | Summary |
 |---------------------------------------------------|----|
+| [`Load_Step`](#HarmonicMultiStepType.Load_Step)   |    |
 | [`RPM`](#HarmonicMultiStepType.RPM)               |    |
 
 <a id="import-detail"></a>

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ReloadProperties`](#PythonCodeEventBased.ReloadProperties)               | Reload properties to update properties provided by the provider.                  |
+| Name | Summary |
 |----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ReloadProperties`](#PythonCodeEventBased.ReloadProperties)               | Reload properties to update properties provided by the provider.                  |
 | [`Connect`](MeshControls/Connect.md#Connect)                               | Register the python code.                                                         |
 | [`Delete`](#PythonCodeEventBased.Delete)                                   | Run the Delete action.                                                            |
 | [`Activate`](#PythonCodeEventBased.Activate)                               | Activate the current object.                                                      |
@@ -35,8 +36,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id1)                                                                                            | Gets the internal object. For advanced usage only.                                    |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+| [`InternalObject`](#id1)                                                                                            | Gets the internal object. For advanced usage only.                                    |
 | [`SolverTarget`](#PythonCodeEventBased.SolverTarget)                                                                | Gets the SolverTarget.                                                                |
 | [`TargetCallback`](#PythonCodeEventBased.TargetCallback)                                                            | Gets or sets the TargetCallback.                                                      |
 | [`Suppressed`](#PythonCodeEventBased.Suppressed)                                                                    | Gets or sets the Suppressed.                                                          |

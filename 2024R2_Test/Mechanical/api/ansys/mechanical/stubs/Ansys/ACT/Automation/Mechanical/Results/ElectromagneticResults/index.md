@@ -10,8 +10,9 @@
 
 ### Classes
 
-| [`ElectromagneticResult`](ElectromagneticResult.md#ElectromagneticResult)                                     | Defines a ElectromagneticResult.             |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------|----------------------------------------------|
+| [`ElectromagneticResult`](ElectromagneticResult.md#ElectromagneticResult)                                     | Defines a ElectromagneticResult.             |
 | [`CurrentDensity`](CurrentDensity.md#CurrentDensity)                                                          | Defines a CurrentDensity.                    |
 | [`DirectionalMagneticFieldIntensity`](DirectionalMagneticFieldIntensity.md#DirectionalMagneticFieldIntensity) | Defines a DirectionalMagneticFieldIntensity. |
 | [`DirectionalMagneticFluxDensity`](DirectionalMagneticFluxDensity.md#DirectionalMagneticFluxDensity)          | Defines a DirectionalMagneticFluxDensity.    |
@@ -48,8 +49,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#id786)      | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |-------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#id786)      | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#id787)      | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#id788)      | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#id789)        | Run the ExportToTextFile action.                                                  |
@@ -79,8 +81,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id782)                                                                                                | Gets the internal object. For advanced usage only.                     |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InternalObject`](#id782)                                                                                                | Gets the internal object. For advanced usage only.                     |
 | [`ElectromagneticResultType`](#id733)                                                                                     | Gets or sets the ElectromagneticResultType.                            |
 | [`AverageAcrossBodies`](#id734)                                                                                           | Gets or sets the AverageAcrossBodies.                                  |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
@@ -816,8 +819,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#id786)      | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |-------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#id786)      | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#id787)      | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#id788)      | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#id789)        | Run the ExportToTextFile action.                                                  |
@@ -847,8 +851,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id782)                                                                                                | Gets the internal object. For advanced usage only.                     |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InternalObject`](#id782)                                                                                                | Gets the internal object. For advanced usage only.                     |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
 | [`ElectromagneticResultType`](#id733)                                                                                     | Gets or sets the ElectromagneticResultType.                            |
 | [`AverageAcrossBodies`](#id734)                                                                                           | Gets or sets the AverageAcrossBodies.                                  |
@@ -1584,8 +1589,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#id786)      | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |-------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#id786)      | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#id787)      | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#id788)      | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#id789)        | Run the ExportToTextFile action.                                                  |
@@ -1615,8 +1621,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id782)                                                                                                | Gets the internal object. For advanced usage only.                     |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InternalObject`](#id782)                                                                                                | Gets the internal object. For advanced usage only.                     |
 | [`NormalOrientation`](#id395)                                                                                             | Gets or sets the NormalOrientation.                                    |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
 | [`ElectromagneticResultType`](#id733)                                                                                     | Gets or sets the ElectromagneticResultType.                            |
@@ -2361,8 +2368,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#id786)      | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |-------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#id786)      | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#id787)      | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#id788)      | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#id789)        | Run the ExportToTextFile action.                                                  |
@@ -2392,8 +2400,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id782)                                                                                                | Gets the internal object. For advanced usage only.                     |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InternalObject`](#id782)                                                                                                | Gets the internal object. For advanced usage only.                     |
 | [`NormalOrientation`](#id395)                                                                                             | Gets or sets the NormalOrientation.                                    |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
 | [`ElectromagneticResultType`](#id733)                                                                                     | Gets or sets the ElectromagneticResultType.                            |
@@ -3138,8 +3147,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#id786)      | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |-------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#id786)      | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#id787)      | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#id788)      | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#id789)        | Run the ExportToTextFile action.                                                  |
@@ -3169,8 +3179,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id782)                                                                                                | Gets the internal object. For advanced usage only.                     |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InternalObject`](#id782)                                                                                                | Gets the internal object. For advanced usage only.                     |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
 | [`ElectromagneticResultType`](#id733)                                                                                     | Gets or sets the ElectromagneticResultType.                            |
 | [`AverageAcrossBodies`](#id734)                                                                                           | Gets or sets the AverageAcrossBodies.                                  |
@@ -3906,8 +3917,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id798)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |-------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id798)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id800)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id800)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id801)              | Creates a new child Comment.                                                      |
@@ -3925,8 +3937,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id782)                                                                                                | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id782)                                                                                                | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Multiplier`](#id369)                                                                                                    | Gets or sets the Multiplier.                                  |
 | [`Children`](#id778)                                                                                                      | Gets the list of children.                                    |
@@ -4159,8 +4172,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id798)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |-------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id798)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id800)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id800)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id801)              | Creates a new child Comment.                                                      |
@@ -4178,8 +4192,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id782)                                                                                                | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id782)                                                                                                | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Multiplier`](#id369)                                                                                                    | Gets or sets the Multiplier.                                  |
 | [`Children`](#id778)                                                                                                      | Gets the list of children.                                    |
@@ -4412,8 +4427,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#id786)      | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |-------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#id786)      | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#id787)      | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#id788)      | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#id789)        | Run the ExportToTextFile action.                                                  |
@@ -4443,8 +4459,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id782)                                                                                                | Gets the internal object. For advanced usage only.                     |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InternalObject`](#id782)                                                                                                | Gets the internal object. For advanced usage only.                     |
 | [`NormalOrientation`](#id395)                                                                                             | Gets or sets the NormalOrientation.                                    |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
 | [`ElectromagneticResultType`](#id733)                                                                                     | Gets or sets the ElectromagneticResultType.                            |
@@ -5189,8 +5206,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#id786)      | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |-------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#id786)      | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#id787)      | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#id788)      | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#id789)        | Run the ExportToTextFile action.                                                  |
@@ -5220,8 +5238,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id782)                                                                                                | Gets the internal object. For advanced usage only.                     |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InternalObject`](#id782)                                                                                                | Gets the internal object. For advanced usage only.                     |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
 | [`ElectromagneticResultType`](#id733)                                                                                     | Gets or sets the ElectromagneticResultType.                            |
 | [`AverageAcrossBodies`](#id734)                                                                                           | Gets or sets the AverageAcrossBodies.                                  |
@@ -5957,8 +5976,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#id786)      | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |-------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#id786)      | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#id787)      | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#id788)      | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#id789)        | Run the ExportToTextFile action.                                                  |
@@ -5988,8 +6008,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id782)                                                                                                | Gets the internal object. For advanced usage only.                     |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InternalObject`](#id782)                                                                                                | Gets the internal object. For advanced usage only.                     |
 | [`Total`](#ElectromagneticResults.Total)                                                                                  | Gets the Total.                                                        |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
 | [`ElectromagneticResultType`](#id733)                                                                                     | Gets or sets the ElectromagneticResultType.                            |
@@ -6734,8 +6755,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#id786)      | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |-------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#id786)      | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#id787)      | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#id788)      | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#id789)        | Run the ExportToTextFile action.                                                  |
@@ -6765,8 +6787,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id782)                                                                                                | Gets the internal object. For advanced usage only.                     |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InternalObject`](#id782)                                                                                                | Gets the internal object. For advanced usage only.                     |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
 | [`ElectromagneticResultType`](#id733)                                                                                     | Gets or sets the ElectromagneticResultType.                            |
 | [`AverageAcrossBodies`](#id734)                                                                                           | Gets or sets the AverageAcrossBodies.                                  |
@@ -7502,8 +7525,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#id786)      | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |-------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#id786)      | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#id787)      | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#id788)      | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#id789)        | Run the ExportToTextFile action.                                                  |
@@ -7533,8 +7557,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id782)                                                                                                | Gets the internal object. For advanced usage only.                     |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InternalObject`](#id782)                                                                                                | Gets the internal object. For advanced usage only.                     |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
 | [`ElectromagneticResultType`](#id733)                                                                                     | Gets or sets the ElectromagneticResultType.                            |
 | [`AverageAcrossBodies`](#id734)                                                                                           | Gets or sets the AverageAcrossBodies.                                  |

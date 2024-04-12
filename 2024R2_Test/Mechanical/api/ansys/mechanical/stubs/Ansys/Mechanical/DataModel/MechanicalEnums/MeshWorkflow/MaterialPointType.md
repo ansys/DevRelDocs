@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Exclude`](#MaterialPointType.Exclude)   |    |
+| Name | Summary |
 |-------------------------------------------|----|
+| [`Exclude`](#MaterialPointType.Exclude)   |    |
 | [`Include`](#MaterialPointType.Include)   |    |
 
 <a id="import-detail"></a>

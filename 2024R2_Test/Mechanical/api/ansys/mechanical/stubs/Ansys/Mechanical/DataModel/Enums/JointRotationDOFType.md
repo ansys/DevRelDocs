@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`FixAll`](#JointRotationDOFType.FixAll)   |    |
+| Name | Summary |
 |--------------------------------------------|----|
+| [`FixAll`](#JointRotationDOFType.FixAll)   |    |
 | [`FreeX`](#JointRotationDOFType.FreeX)     |    |
 | [`FreeAll`](#JointRotationDOFType.FreeAll) |    |
 | [`FreeY`](#JointRotationDOFType.FreeY)     |    |

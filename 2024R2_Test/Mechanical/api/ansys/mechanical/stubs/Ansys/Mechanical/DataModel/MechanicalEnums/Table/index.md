@@ -10,8 +10,9 @@
 
 ### Enums
 
-| [`ImportFormat`](ImportFormat.md#ImportFormat)                               | Specifies how to interpret the variable data source.                                  |
+| Name | Summary |
 |------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+| [`ImportFormat`](ImportFormat.md#ImportFormat)                               | Specifies how to interpret the variable data source.                                  |
 | [`VariableClassification`](VariableClassification.md#VariableClassification) | This enum represents the classification of variables that can be represented by Table |
 | [`VariableType`](VariableType.md#VariableType)                               | An enumeration of the different variable types supported by the tabular data          |
 
@@ -39,8 +40,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Delimited`](#Table.Delimited)   |    |
+| Name | Summary |
 |-----------------------------------|----|
+| [`Delimited`](#Table.Delimited)   |    |
 | [`FixedWidth`](#Table.FixedWidth) |    |
 
 <a id="import-detail"></a>
@@ -76,8 +78,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Independent`](#Table.Independent)   |    |
+| Name | Summary |
 |---------------------------------------|----|
+| [`Independent`](#Table.Independent)   |    |
 | [`Real`](#Table.Real)                 |    |
 | [`Real_i`](#Table.Real_i)             |    |
 | [`Real_j`](#Table.Real_j)             |    |
@@ -127,8 +130,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ID`](#Table.ID)                                                                                    |    |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------|----|
+| [`ID`](#Table.ID)                                                                                    |    |
 | [`Pressure`](../../../../ACT/Automation/Mechanical/BoundaryConditions/Pressure.md#Pressure)          |    |
 | [`Temperature`](../../../../ACT/Automation/Mechanical/BoundaryConditions/Temperature.md#Temperature) |    |
 | [`ThetaCoordinate`](#Table.ThetaCoordinate)                                                          |    |

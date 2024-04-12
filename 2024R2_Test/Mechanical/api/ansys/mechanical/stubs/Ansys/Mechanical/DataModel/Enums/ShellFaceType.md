@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`All`](#ShellFaceType.All)                             |    |
+| Name | Summary |
 |---------------------------------------------------------|----|
+| [`All`](#ShellFaceType.All)                             |    |
 | [`Bending`](#ShellFaceType.Bending)                     |    |
 | [`Bottom`](#ShellFaceType.Bottom)                       |    |
 | [`Middle`](#ShellFaceType.Middle)                       |    |

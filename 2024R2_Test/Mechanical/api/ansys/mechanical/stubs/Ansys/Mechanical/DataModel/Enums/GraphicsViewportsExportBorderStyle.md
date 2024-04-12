@@ -19,8 +19,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`None_`](#GraphicsViewportsExportBorderStyle.None_)       |    |
+| Name | Summary |
 |------------------------------------------------------------|----|
+| [`None_`](#GraphicsViewportsExportBorderStyle.None_)       |    |
 | [`Interior`](#GraphicsViewportsExportBorderStyle.Interior) |    |
 | [`Exterior`](#GraphicsViewportsExportBorderStyle.Exterior) |    |
 

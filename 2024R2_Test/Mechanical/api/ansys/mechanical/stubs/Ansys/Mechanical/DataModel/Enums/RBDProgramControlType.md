@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ProgramControlled`](#RBDProgramControlType.ProgramControlled)   |    |
+| Name | Summary |
 |-------------------------------------------------------------------|----|
+| [`ProgramControlled`](#RBDProgramControlType.ProgramControlled)   |    |
 | [`On`](#RBDProgramControlType.On)                                 |    |
 | [`Off`](#RBDProgramControlType.Off)                               |    |
 

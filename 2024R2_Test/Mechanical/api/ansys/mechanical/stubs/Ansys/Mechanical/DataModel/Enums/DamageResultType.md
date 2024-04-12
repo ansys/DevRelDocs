@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`MullinsDamageVariable`](../../../ACT/Automation/Mechanical/Results/DamageResults/MullinsDamageVariable.md#MullinsDamageVariable)                                        |    |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----|
+| [`MullinsDamageVariable`](../../../ACT/Automation/Mechanical/Results/DamageResults/MullinsDamageVariable.md#MullinsDamageVariable)                                        |    |
 | [`MullinsMaximumPreviousStrainEnergy`](../../../ACT/Automation/Mechanical/Results/DamageResults/MullinsMaximumPreviousStrainEnergy.md#MullinsMaximumPreviousStrainEnergy) |    |
 | [`MaximumFailureCriteria`](../../../ACT/Automation/Mechanical/Results/DamageResults/MaximumFailureCriteria.md#MaximumFailureCriteria)                                     |    |
 | [`FiberTensileFailureCriterion`](../../../ACT/Automation/Mechanical/Results/DamageResults/FiberTensileFailureCriterion.md#FiberTensileFailureCriterion)                   |    |

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#NumberingControl.Delete)                                   | Run the Delete action.                                                            |
+| Name | Summary |
 |------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#NumberingControl.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                  | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                  | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#NumberingControl.AddComment)                           | Creates a new child Comment.                                                      |
@@ -38,8 +39,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`BeginElementNumber`](#NumberingControl.BeginElementNumber)                                                        | Gets or sets the BeginElementNumber.                          |
 | [`BeginNodeNumber`](#NumberingControl.BeginNodeNumber)                                                              | Gets or sets the BeginNodeNumber.                             |
 | [`EndElementNumber`](#NumberingControl.EndElementNumber)                                                            | Gets or sets the EndElementNumber.                            |

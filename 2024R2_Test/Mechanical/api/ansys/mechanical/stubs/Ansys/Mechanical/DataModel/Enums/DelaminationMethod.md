@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`CZM`](#DelaminationMethod.CZM)     |    |
+| Name | Summary |
 |--------------------------------------|----|
+| [`CZM`](#DelaminationMethod.CZM)     |    |
 | [`SMART`](#DelaminationMethod.SMART) |    |
 | [`VCCT`](#DelaminationMethod.VCCT)   |    |
 

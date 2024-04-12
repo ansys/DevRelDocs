@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`PromoteToNamedSelection`](#Bearing.PromoteToNamedSelection)   | Run the PromoteToNamedSelection action.                                           |
+| Name | Summary |
 |-----------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`PromoteToNamedSelection`](#Bearing.PromoteToNamedSelection)   | Run the PromoteToNamedSelection action.                                           |
 | [`PromoteToRemotePoint`](#Bearing.PromoteToRemotePoint)         | Run the PromoteToRemotePoint action.                                              |
 | [`AddCommandSnippet`](#Bearing.AddCommandSnippet)               | Creates a new CommandSnippet                                                      |
 | [`RenameBasedOnDefinition`](#Bearing.RenameBasedOnDefinition)   | Run the RenameBasedOnDefinition action.                                           |
@@ -42,8 +43,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`ReferenceSet`](#Bearing.ReferenceSet)                                                                                | Gets the ReferenceSet.                                        |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`ReferenceSet`](#Bearing.ReferenceSet)                                                                                | Gets the ReferenceSet.                                        |
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`AnsBCType`](#Bearing.AnsBCType)                                                                                      | Gets the AnsBCType.                                           |
 | [`MobileBeamMaterial`](#Bearing.MobileBeamMaterial)                                                                    | Gets or sets the MobileBeamMaterial.                          |

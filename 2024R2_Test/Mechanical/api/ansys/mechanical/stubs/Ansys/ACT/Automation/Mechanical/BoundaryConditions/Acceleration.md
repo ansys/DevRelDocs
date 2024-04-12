@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#Acceleration.Delete)                                   | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#Acceleration.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                              | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                              | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#Acceleration.AddComment)                           | Creates a new child Comment.                                                      |
@@ -38,8 +39,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Direction`](#Acceleration.Direction)                                                                                 | Gets or sets the Direction.                                   |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Direction`](#Acceleration.Direction)                                                                                 | Gets or sets the Direction.                                   |
 | [`BoundaryCondition`](#Acceleration.BoundaryCondition)                                                                 | Gets or sets the BoundaryCondition.                           |
 | [`StepSelection`](#Acceleration.StepSelection)                                                                         | Gets or sets the StepSelection.                               |
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |

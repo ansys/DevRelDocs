@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Gupta`](#RigidResponseEffectType.Gupta)     |    |
+| Name | Summary |
 |-----------------------------------------------|----|
+| [`Gupta`](#RigidResponseEffectType.Gupta)     |    |
 | [`Lindely`](#RigidResponseEffectType.Lindely) |    |
 
 <a id="import-detail"></a>

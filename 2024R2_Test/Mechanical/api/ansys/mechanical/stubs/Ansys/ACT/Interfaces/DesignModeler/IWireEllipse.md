@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Center`](#IWireEllipse.Center)           | Gets or sets the center of the ellipse (x, y, z).              |
+| Name | Summary |
 |--------------------------------------------|----------------------------------------------------------------|
+| [`Center`](#IWireEllipse.Center)           | Gets or sets the center of the ellipse (x, y, z).              |
 | [`XDir`](#IWireEllipse.XDir)               | Gets or sets the principal direction of the ellipse (x, y, z). |
 | [`Normal`](#IWireEllipse.Normal)           | Gets or sets the normal direction of the ellipse (x, y, z).    |
 | [`LargeRadius`](#IWireEllipse.LargeRadius) | Gets or sets the large radius of the ellipse.                  |

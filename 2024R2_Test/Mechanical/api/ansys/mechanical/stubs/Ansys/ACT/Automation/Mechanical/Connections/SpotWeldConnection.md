@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`SetXCoordinate`](#SpotWeldConnection.SetXCoordinate)                         | Set the X coordinate given the Spot Weld ID.                                      |
+| Name | Summary |
 |--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`SetXCoordinate`](#SpotWeldConnection.SetXCoordinate)                         | Set the X coordinate given the Spot Weld ID.                                      |
 | [`SetYCoordinate`](#SpotWeldConnection.SetYCoordinate)                         | Set the Y coordinate given the Spot Weld ID.                                      |
 | [`SetZCoordinate`](#SpotWeldConnection.SetZCoordinate)                         | Set the Z coordinate given the Spot Weld ID.                                      |
 | [`AddNewSpotWeld`](#SpotWeldConnection.AddNewSpotWeld)                         | Add a new spot weld with/without a customID.                                      |
@@ -43,8 +44,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`Material`](../Material.md#Material)                                                                                  | Gets or sets the Material.                                    |
 | [`NumberOfLayers`](#SpotWeldConnection.NumberOfLayers)                                                                 | Gets or sets the NumberOfLayers.                              |
 | [`NumWeldPoints`](#SpotWeldConnection.NumWeldPoints)                                                                   | Gets the NumWeldPoints.                                       |

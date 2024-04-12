@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`PointPoint`](#MappingMethod.PointPoint)         |    |
+| Name | Summary |
 |---------------------------------------------------|----|
+| [`PointPoint`](#MappingMethod.PointPoint)         |    |
 | [`PointElement`](#MappingMethod.PointElement)     |    |
 | [`ElementElement`](#MappingMethod.ElementElement) |    |
 

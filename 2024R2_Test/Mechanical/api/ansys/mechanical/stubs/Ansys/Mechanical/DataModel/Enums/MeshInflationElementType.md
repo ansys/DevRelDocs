@@ -20,8 +20,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Tets`](#MeshInflationElementType.Tets)     |    |
+| Name | Summary |
 |----------------------------------------------|----|
+| [`Tets`](#MeshInflationElementType.Tets)     |    |
 | [`Wedges`](#MeshInflationElementType.Wedges) |    |
 
 <a id="import-detail"></a>

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Thick`](#CommandLayer.Thick)   | Gets the thickness.                                 |
+| Name | Summary |
 |----------------------------------|-----------------------------------------------------|
+| [`Thick`](#CommandLayer.Thick)   | Gets the thickness.                                 |
 | [`Mat`](#CommandLayer.Mat)       | Gets the material number.                           |
 | [`Theta`](#CommandLayer.Theta)   | Gets the layer orientation angle.                   |
 | [`Numpt`](#CommandLayer.Numpt)   | Gets the number of integration points in the layer. |

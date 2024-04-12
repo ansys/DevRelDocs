@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`CreateAutomaticCondensedParts`](#CondensedGeometry.CreateAutomaticCondensedParts)   | Run the CreateAutomaticCondensedParts action.                                     |
+| Name | Summary |
 |---------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`CreateAutomaticCondensedParts`](#CondensedGeometry.CreateAutomaticCondensedParts)   | Run the CreateAutomaticCondensedParts action.                                     |
 | [`AddCondensedPart`](#CondensedGeometry.AddCondensedPart)                             | Creates a new CondensedPart                                                       |
 | [`AddCondensedPartInfoTool`](#CondensedGeometry.AddCondensedPartInfoTool)             | Creates a new CondensedPartInfoTool                                               |
 | [`AddImportedCondensedPart`](#CondensedGeometry.AddImportedCondensedPart)             | Creates a new ImportedCondensedPart                                               |
@@ -44,8 +45,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`SolverFilesDirectory`](#CondensedGeometry.SolverFilesDirectory)                                                   | Gets the SolverFilesDirectory.                                |
 | [`TransparencyEnabled`](#CondensedGeometry.TransparencyEnabled)                                                     | Gets or sets the TransparencyEnabled.                         |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |

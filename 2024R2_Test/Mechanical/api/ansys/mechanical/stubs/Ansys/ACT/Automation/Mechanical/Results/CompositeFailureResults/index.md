@@ -10,8 +10,9 @@
 
 ### Classes
 
-| [`CompositeFailureTool`](CompositeFailureTool.md#CompositeFailureTool)                   | Defines a CompositeFailureTool.       |
+| Name | Summary |
 |------------------------------------------------------------------------------------------|---------------------------------------|
+| [`CompositeFailureTool`](CompositeFailureTool.md#CompositeFailureTool)                   | Defines a CompositeFailureTool.       |
 | [`CompositeFailureResult`](CompositeFailureResult.md#CompositeFailureResult)             | CompositeFailureResult class.         |
 | [`CompositeSamplingPoint`](CompositeSamplingPoint.md#CompositeSamplingPoint)             | Defines a CompositeSamplingPoint.     |
 | [`CompositeSamplingPointTool`](CompositeSamplingPointTool.md#CompositeSamplingPointTool) | Defines a CompositeSamplingPointTool. |
@@ -40,8 +41,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddInverseReserveFactor`](#CompositeFailureResults.AddInverseReserveFactor)       | Creates a new InverseReserveFactor                                                |
+| Name | Summary |
 |-------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddInverseReserveFactor`](#CompositeFailureResults.AddInverseReserveFactor)       | Creates a new InverseReserveFactor                                                |
 | [`AddSafetyFactor`](#CompositeFailureResults.AddSafetyFactor)                       | Creates a new SafetyFactor                                                        |
 | [`AddSafetyMargin`](#CompositeFailureResults.AddSafetyMargin)                       | Creates a new SafetyMargin                                                        |
 | [`EvaluateAllResults`](#id14)                                                       | Run the EvaluateAllResults action.                                                |
@@ -65,8 +67,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id68)                                                                                                 | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id68)                                                                                                 | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#id64)                                                                                                       | Gets the list of children.                                    |
 | [`Comments`](#id65)                                                                                                       | Gets the list of associated comments.                         |
@@ -347,8 +350,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#CompositeFailureResults.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#CompositeFailureResults.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#id14)                                                 | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#CompositeFailureResults.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#CompositeFailureResults.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
@@ -378,8 +382,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Ply`](#CompositeFailureResults.Ply)                                                                                     | Gets or sets the Ply selection.                                        |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`Ply`](#CompositeFailureResults.Ply)                                                                                     | Gets or sets the Ply selection.                                        |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
 | [`PlotData`](#CompositeFailureResults.PlotData)                                                                           | Gets the result table.                                                 |
 | [`Location`](#id34)                                                                                                       | Gets or sets the Location.                                             |
@@ -1106,8 +1111,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id72)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id72)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id74)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id74)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id75)              | Creates a new child Comment.                                                      |
@@ -1126,8 +1132,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id68)                                                                                                 | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id68)                                                                                                 | Gets the internal object. For advanced usage only.            |
 | [`Location`](#id34)                                                                                                       | Gets or sets the Location.                                    |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#id64)                                                                                                       | Gets the list of children.                                    |
@@ -1377,8 +1384,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddCompositeSamplingPoint`](#CompositeFailureResults.AddCompositeSamplingPoint)   | Creates a new CompositeSamplingPoint                                              |
+| Name | Summary |
 |-------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddCompositeSamplingPoint`](#CompositeFailureResults.AddCompositeSamplingPoint)   | Creates a new CompositeSamplingPoint                                              |
 | [`Delete`](#id72)                                                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id74)                                                              | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id74)                                                              | Gets the list of children, filtered by type.                                      |
@@ -1398,8 +1406,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id68)                                                                                                 | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id68)                                                                                                 | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#id64)                                                                                                       | Gets the list of children.                                    |
 | [`Comments`](#id65)                                                                                                       | Gets the list of associated comments.                         |

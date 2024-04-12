@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#Result.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |--------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#Result.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#Result.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#Result.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#Result.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
@@ -49,8 +50,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`PlotData`](#Result.PlotData)                                                                                         | Gets the result table.                                                 |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`PlotData`](#Result.PlotData)                                                                                         | Gets the result table.                                                 |
 | [`Location`](#Result.Location)                                                                                         | Gets or sets the Location.                                             |
 | [`TimeForMinimumOfMinimumValues`](#Result.TimeForMinimumOfMinimumValues)                                               | Get the Time for the minimum of minimum values.                        |
 | [`TimeForMinimumOfMaximumValues`](#Result.TimeForMinimumOfMaximumValues)                                               | Get the Time for the minimum of maximum values.                        |

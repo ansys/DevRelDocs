@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Point`](../../Graphics/Point.md#Point)                                       |    |
+| Name | Summary |
 |--------------------------------------------------------------------------------|----|
+| [`Point`](../../Graphics/Point.md#Point)                                       |    |
 | [`CoordinateSystem`](../../../ACT/Common/CoordinateSystem.md#CoordinateSystem) |    |
 
 <a id="import-detail"></a>

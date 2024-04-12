@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`DeleteAllRestartPoints`](index.md#id142)   | DeleteAllRestartPoints method.                                                    |
+| Name | Summary |
 |----------------------------------------------|-----------------------------------------------------------------------------------|
+| [`DeleteAllRestartPoints`](index.md#id142)   | DeleteAllRestartPoints method.                                                    |
 | [`GetChildren`](index.md#id144)              | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](index.md#id144)              | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](index.md#id145)               | Creates a new child Comment.                                                      |
@@ -38,8 +39,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Graph`](index.md#id116)                                                                                              | Graph property.                                               |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Graph`](index.md#id116)                                                                                              | Graph property.                                               |
 | [`InternalObject`](index.md#id117)                                                                                     | Gets the internal object. For advanced usage only.            |
 | [`ScratchSolverFilesDirectory`](index.md#id118)                                                                        | Gets the ScratchSolverFilesDirectory.                         |
 | [`SolverFilesDirectory`](index.md#id119)                                                                               | Gets the SolverFilesDirectory.                                |

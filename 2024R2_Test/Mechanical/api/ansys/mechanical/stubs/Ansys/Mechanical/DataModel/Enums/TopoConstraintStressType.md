@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`LocalStrainEnergy`](#TopoConstraintStressType.LocalStrainEnergy)                                                                    |    |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------------------|----|
+| [`LocalStrainEnergy`](#TopoConstraintStressType.LocalStrainEnergy)                                                                    |    |
 | [`MaximumPrincipalStress`](../../../ACT/Automation/Mechanical/Results/StressResults/MaximumPrincipalStress.md#MaximumPrincipalStress) |    |
 | [`VonMisesStress`](#TopoConstraintStressType.VonMisesStress)                                                                          |    |
 

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ContactResultPressure`](#ChartResultType.ContactResultPressure)                                   |    |
+| Name | Summary |
 |-----------------------------------------------------------------------------------------------------|----|
+| [`ContactResultPressure`](#ChartResultType.ContactResultPressure)                                   |    |
 | [`ContactResultPenetration`](#ChartResultType.ContactResultPenetration)                             |    |
 | [`ContactResultGap`](#ChartResultType.ContactResultGap)                                             |    |
 | [`ContactResultFrictionalStress`](#ChartResultType.ContactResultFrictionalStress)                   |    |

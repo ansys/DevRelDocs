@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ExportAnimation`](#CampbellDiagram.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| Name | Summary |
 |-----------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ExportAnimation`](#CampbellDiagram.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
 | [`ClearGeneratedData`](#CampbellDiagram.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#CampbellDiagram.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
 | [`RenameBasedOnDefinition`](#CampbellDiagram.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
@@ -41,8 +42,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`RotationalVelocitySelection`](#CampbellDiagram.RotationalVelocitySelection)                                             | Gets or sets the Rotational Velocity Selection Type.          |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`RotationalVelocitySelection`](#CampbellDiagram.RotationalVelocitySelection)                                             | Gets or sets the Rotational Velocity Selection Type.          |
 | [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.            |
 | [`Ratio`](#CampbellDiagram.Ratio)                                                                                         | Gets or sets the Ratio.                                       |
 | [`XAxisLabel`](#CampbellDiagram.XAxisLabel)                                                                               | Gets or sets the XAxisLabel.                                  |

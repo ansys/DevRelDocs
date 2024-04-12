@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Low`](#VirtualCellGroupAutomaticBehaviorType.Low)             |    |
+| Name | Summary |
 |-----------------------------------------------------------------|----|
+| [`Low`](#VirtualCellGroupAutomaticBehaviorType.Low)             |    |
 | [`Medium`](#VirtualCellGroupAutomaticBehaviorType.Medium)       |    |
 | [`High`](#VirtualCellGroupAutomaticBehaviorType.High)           |    |
 | [`EdgesOnly`](#VirtualCellGroupAutomaticBehaviorType.EdgesOnly) |    |

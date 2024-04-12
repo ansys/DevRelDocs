@@ -10,8 +10,9 @@
 
 ### Enums
 
-| [`PathType`](PathType.md#PathType)   | This enum specifies how a path should be interpreted.   |
+| Name | Summary |
 |--------------------------------------|---------------------------------------------------------|
+| [`PathType`](PathType.md#PathType)   | This enum specifies how a path should be interpreted.   |
 
 <a id="description"></a>
 

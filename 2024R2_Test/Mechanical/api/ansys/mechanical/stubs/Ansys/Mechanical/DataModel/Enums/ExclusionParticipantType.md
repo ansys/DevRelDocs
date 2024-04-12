@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ExcludeExclusion`](#ExclusionParticipantType.ExcludeExclusion)   |    |
+| Name | Summary |
 |--------------------------------------------------------------------|----|
+| [`ExcludeExclusion`](#ExclusionParticipantType.ExcludeExclusion)   |    |
 | [`IncludeExclusion`](#ExclusionParticipantType.IncludeExclusion)   |    |
 
 <a id="import-detail"></a>

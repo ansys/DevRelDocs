@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Proportional`](#VectorLengthType.Proportional)   |    |
+| Name | Summary |
 |----------------------------------------------------|----|
+| [`Proportional`](#VectorLengthType.Proportional)   |    |
 | [`Uniform`](#VectorLengthType.Uniform)             |    |
 
 <a id="import-detail"></a>

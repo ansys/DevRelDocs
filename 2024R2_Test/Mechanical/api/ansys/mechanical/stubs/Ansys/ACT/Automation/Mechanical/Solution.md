@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddEquivalentStress`](#Solution.AddEquivalentStress)                                                               | Creates a new EquivalentStress                                                                                               |
+| Name | Summary |
 |----------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| [`AddEquivalentStress`](#Solution.AddEquivalentStress)                                                               | Creates a new EquivalentStress                                                                                               |
 | [`AddEquivalentStressPSD`](#Solution.AddEquivalentStressPSD)                                                         | Creates a new EquivalentStressPSD                                                                                            |
 | [`AddEquivalentStressRS`](#Solution.AddEquivalentStressRS)                                                           | Creates a new EquivalentStressRS                                                                                             |
 | [`AddEquivalentTotalStrain`](#Solution.AddEquivalentTotalStrain)                                                     | Creates a new EquivalentTotalStrain                                                                                          |
@@ -337,8 +338,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`SolutionInformation`](SolutionInformation.md#SolutionInformation)                                                 | Gets the SolutionInformation.                                                            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| [`SolutionInformation`](SolutionInformation.md#SolutionInformation)                                                 | Gets the SolutionInformation.                                                            |
 | [`CellId`](#Solution.CellId)                                                                                        | Gets the CellId.                                                                         |
 | [`WorkingDir`](#Solution.WorkingDir)                                                                                | Gets the WorkingDir.                                                                     |
 | [`Status`](#Solution.Status)                                                                                        | Gets the Status.                                                                         |

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Al357`](#AMThermalStrainMaterialModel.Al357)           |    |
+| Name | Summary |
 |----------------------------------------------------------|----|
+| [`Al357`](#AMThermalStrainMaterialModel.Al357)           |    |
 | [`AlSi10Mg`](#AMThermalStrainMaterialModel.AlSi10Mg)     |    |
 | [`CoCr`](#AMThermalStrainMaterialModel.CoCr)             |    |
 | [`Inconel625`](#AMThermalStrainMaterialModel.Inconel625) |    |

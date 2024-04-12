@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`RenameBasedOnDefinition`](#HousingConstraint.RenameBasedOnDefinition)   | Run the RenameBasedOnDefinition action.                                           |
+| Name | Summary |
 |---------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`RenameBasedOnDefinition`](#HousingConstraint.RenameBasedOnDefinition)   | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#HousingConstraint.Delete)                                     | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                     | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                     | Gets the list of children, filtered by type.                                      |
@@ -36,8 +37,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`HousingScopingMethod`](#HousingConstraint.HousingScopingMethod)                                                   | Gets or sets the HousingScopingMethod.                        |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`HousingScopingMethod`](#HousingConstraint.HousingScopingMethod)                                                   | Gets or sets the HousingScopingMethod.                        |
 | [`HousingLocation`](#HousingConstraint.HousingLocation)                                                             | Gets or sets the HousingLocation.                             |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`ScopingMethod`](#HousingConstraint.ScopingMethod)                                                                 | Gets or sets the ScopingMethod.                               |

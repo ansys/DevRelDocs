@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ExportToXMLFile`](#EquivalentRadiatedPowerLevelWaterfallDiagram.ExportToXMLFile)                 | Run the ExportToXMLFile action.                                                   |
+| Name | Summary |
 |----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ExportToXMLFile`](#EquivalentRadiatedPowerLevelWaterfallDiagram.ExportToXMLFile)                 | Run the ExportToXMLFile action.                                                   |
 | [`ExportToWAVFile`](#EquivalentRadiatedPowerLevelWaterfallDiagram.ExportToWAVFile)                 | Run the ExportToWAVFile action.                                                   |
 | [`ClearGeneratedData`](#EquivalentRadiatedPowerLevelWaterfallDiagram.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#EquivalentRadiatedPowerLevelWaterfallDiagram.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
@@ -51,8 +52,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`DBWeighting`](#EquivalentRadiatedPowerLevelWaterfallDiagram.DBWeighting)                                                | Gets or sets the DBWeighting.                                          |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`DBWeighting`](#EquivalentRadiatedPowerLevelWaterfallDiagram.DBWeighting)                                                | Gets or sets the DBWeighting.                                          |
 | [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.                     |
 | [`PanelsToDisplay`](#EquivalentRadiatedPowerLevelWaterfallDiagram.PanelsToDisplay)                                        | Gets or sets the PanelsToDisplay.                                      |
 | [`DisplayPanel`](#EquivalentRadiatedPowerLevelWaterfallDiagram.DisplayPanel)                                              | Gets or sets the DisplayPanel.                                         |

@@ -18,14 +18,16 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Add`](#SolveConfigurations.Add)       | Adds the given SolveConfiguration object to the collection.   |
+| Name | Summary |
 |-----------------------------------------|---------------------------------------------------------------|
+| [`Add`](#SolveConfigurations.Add)       | Adds the given SolveConfiguration object to the collection.   |
 | [`Remove`](#SolveConfigurations.Remove) | Removes the given SolveConfiguration from the collection.     |
 
 ### Properties
 
-| [`Count`](#SolveConfigurations.Count)   | The number of solve configurations in the collection.   |
+| Name | Summary |
 |-----------------------------------------|---------------------------------------------------------|
+| [`Count`](#SolveConfigurations.Count)   | The number of solve configurations in the collection.   |
 
 <a id="import-detail"></a>
 

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Items`](#AbaqusKeywordArgumentColl.Items)   | Gets the list of arguments.   |
+| Name | Summary |
 |-----------------------------------------------|-------------------------------|
+| [`Items`](#AbaqusKeywordArgumentColl.Items)   | Gets the list of arguments.   |
 
 <a id="import-detail"></a>
 

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`LowerBound`](#TopoBoundType.LowerBound)   |    |
+| Name | Summary |
 |---------------------------------------------|----|
+| [`LowerBound`](#TopoBoundType.LowerBound)   |    |
 | [`UpperBound`](#TopoBoundType.UpperBound)   |    |
 
 <a id="import-detail"></a>

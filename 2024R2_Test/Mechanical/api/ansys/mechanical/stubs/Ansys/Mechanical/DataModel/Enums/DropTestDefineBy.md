@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`DropHeight`](#DropTestDefineBy.DropHeight)         |    |
+| Name | Summary |
 |------------------------------------------------------|----|
+| [`DropHeight`](#DropTestDefineBy.DropHeight)         |    |
 | [`ImpactVelocity`](#DropTestDefineBy.ImpactVelocity) |    |
 
 <a id="import-detail"></a>

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetBandColor`](#CurrentLegendSettings.GetBandColor)                   | Gets the color of the specified band.                                   |
+| Name | Summary |
 |-------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| [`GetBandColor`](#CurrentLegendSettings.GetBandColor)                   | Gets the color of the specified band.                                   |
 | [`SetBandColor`](#CurrentLegendSettings.SetBandColor)                   | Sets the color of the specified band.                                   |
 | [`GetLowerBound`](#CurrentLegendSettings.GetLowerBound)                 | Gets lower bound value of the specified band.                           |
 | [`SetLowerBound`](#CurrentLegendSettings.SetLowerBound)                 | Sets lower bound value of the specified band.                           |
@@ -35,8 +36,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`NumberOfBands`](#CurrentLegendSettings.NumberOfBands)                 | Number of bands on the legend (min:3, max:30). Bands are added/removed from the top of the legend.   |
+| Name | Summary |
 |-------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
+| [`NumberOfBands`](#CurrentLegendSettings.NumberOfBands)                 | Number of bands on the legend (min:3, max:30). Bands are added/removed from the top of the legend.   |
 | [`AllScientificNotation`](#CurrentLegendSettings.AllScientificNotation) | Whether the result values are displayed in scientific notation.                                      |
 | [`Digits`](#CurrentLegendSettings.Digits)                               | Number of significant digits(min:2, max:8).                                                          |
 | [`ColorScheme`](#CurrentLegendSettings.ColorScheme)                     | Color Scheme for the legend.                                                                         |

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`None_`](#StitchSurfacesOnImport.None_)     |    |
+| Name | Summary |
 |----------------------------------------------|----|
+| [`None_`](#StitchSurfacesOnImport.None_)     |    |
 | [`Program`](#StitchSurfacesOnImport.Program) |    |
 | [`User`](#StitchSurfacesOnImport.User)       |    |
 

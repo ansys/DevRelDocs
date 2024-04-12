@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`MembraneAndBending`](#SurfaceCoatingStiffnessBehavior.MembraneAndBending)     |    |
+| Name | Summary |
 |---------------------------------------------------------------------------------|----|
+| [`MembraneAndBending`](#SurfaceCoatingStiffnessBehavior.MembraneAndBending)     |    |
 | [`MembraneOnly`](#SurfaceCoatingStiffnessBehavior.MembraneOnly)                 |    |
 | [`StressEvaluationOnly`](#SurfaceCoatingStiffnessBehavior.StressEvaluationOnly) |    |
 

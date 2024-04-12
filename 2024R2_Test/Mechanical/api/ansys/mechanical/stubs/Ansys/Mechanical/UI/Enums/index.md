@@ -10,8 +10,9 @@
 
 ### Enums
 
-| [`ThemeName`](ThemeName.md#ThemeName)   | Represents the different themes that can be set in Mechanical.   |
+| Name | Summary |
 |-----------------------------------------|------------------------------------------------------------------|
+| [`ThemeName`](ThemeName.md#ThemeName)   | Represents the different themes that can be set in Mechanical.   |
 
 <a id="description"></a>
 

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Corner`](#MeshNodeType.Corner)   |    |
+| Name | Summary |
 |------------------------------------|----|
+| [`Corner`](#MeshNodeType.Corner)   |    |
 | [`Midside`](#MeshNodeType.Midside) |    |
 
 <a id="import-detail"></a>

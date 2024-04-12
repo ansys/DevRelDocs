@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Internal`](#CondensedPartPointMassTreatment.Internal)       |    |
+| Name | Summary |
 |---------------------------------------------------------------|----|
+| [`Internal`](#CondensedPartPointMassTreatment.Internal)       |    |
 | [`OnInterface`](#CondensedPartPointMassTreatment.OnInterface) |    |
 
 <a id="import-detail"></a>

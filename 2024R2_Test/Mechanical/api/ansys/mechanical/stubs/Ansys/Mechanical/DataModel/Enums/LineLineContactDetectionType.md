@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`External8Segments`](#LineLineContactDetectionType.External8Segments)   |    |
+| Name | Summary |
 |--------------------------------------------------------------------------|----|
+| [`External8Segments`](#LineLineContactDetectionType.External8Segments)   |    |
 | [`External4Segments`](#LineLineContactDetectionType.External4Segments)   |    |
 | [`External1Segment`](#LineLineContactDetectionType.External1Segment)     |    |
 | [`InternalPipe`](#LineLineContactDetectionType.InternalPipe)             |    |

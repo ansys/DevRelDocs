@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`FromDeformedState`](#PressureInitializationType.FromDeformedState)   |    |
+| Name | Summary |
 |------------------------------------------------------------------------|----|
+| [`FromDeformedState`](#PressureInitializationType.FromDeformedState)   |    |
 | [`FromStressTrace`](#PressureInitializationType.FromStressTrace)       |    |
 
 <a id="import-detail"></a>

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Circle`](#ContactOrientation.Circle)                                         |    |
+| Name | Summary |
 |--------------------------------------------------------------------------------|----|
+| [`Circle`](#ContactOrientation.Circle)                                         |    |
 | [`Cylinder`](../../../ACT/DesignModeler/Primitives/Sheet/Cylinder.md#Cylinder) |    |
 | [`Sphere`](#ContactOrientation.Sphere)                                         |    |
 | [`ProgramControlled`](#ContactOrientation.ProgramControlled)                   |    |

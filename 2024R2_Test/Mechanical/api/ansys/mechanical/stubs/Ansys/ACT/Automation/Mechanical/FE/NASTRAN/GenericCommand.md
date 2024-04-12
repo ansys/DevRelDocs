@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Arguments`](#GenericCommand.Arguments)   | Gets the arguments.     |
+| Name | Summary |
 |--------------------------------------------|-------------------------|
+| [`Arguments`](#GenericCommand.Arguments)   | Gets the arguments.     |
 | [`Name`](#GenericCommand.Name)             | Gets the command name.  |
 | [`Index`](#GenericCommand.Index)           | Gets the command index. |
 

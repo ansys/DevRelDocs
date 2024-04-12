@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`OrientationSystem`](#MomentsAtSummationPointType.OrientationSystem)   |    |
+| Name | Summary |
 |-------------------------------------------------------------------------|----|
+| [`OrientationSystem`](#MomentsAtSummationPointType.OrientationSystem)   |    |
 | [`Centroid`](#MomentsAtSummationPointType.Centroid)                     |    |
 
 <a id="import-detail"></a>

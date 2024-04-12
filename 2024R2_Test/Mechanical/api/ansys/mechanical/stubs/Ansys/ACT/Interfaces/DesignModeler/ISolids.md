@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`CreateBox`](#ISolids.CreateBox)           | CreateBox method.      |
+| Name | Summary |
 |---------------------------------------------|------------------------|
+| [`CreateBox`](#ISolids.CreateBox)           | CreateBox method.      |
 | [`CreateCone`](#ISolids.CreateCone)         | CreateCone method.     |
 | [`CreateCylinder`](#ISolids.CreateCylinder) | CreateCylinder method. |
 | [`CreateSphere`](#ISolids.CreateSphere)     | CreateSphere method.   |

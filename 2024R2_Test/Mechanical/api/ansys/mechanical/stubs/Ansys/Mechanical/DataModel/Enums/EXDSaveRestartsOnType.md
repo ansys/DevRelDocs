@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`TimeSteps`](#EXDSaveRestartsOnType.TimeSteps)         |    |
+| Name | Summary |
 |---------------------------------------------------------|----|
+| [`TimeSteps`](#EXDSaveRestartsOnType.TimeSteps)         |    |
 | [`Time`](#EXDSaveRestartsOnType.Time)                   |    |
 | [`EquallySpaced`](#EXDSaveRestartsOnType.EquallySpaced) |    |
 

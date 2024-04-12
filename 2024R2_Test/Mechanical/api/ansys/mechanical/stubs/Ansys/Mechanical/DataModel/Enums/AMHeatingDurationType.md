@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Flash`](#AMHeatingDurationType.Flash)       |    |
+| Name | Summary |
 |-----------------------------------------------|----|
+| [`Flash`](#AMHeatingDurationType.Flash)       |    |
 | [`ScanTime`](#AMHeatingDurationType.ScanTime) |    |
 
 <a id="import-detail"></a>

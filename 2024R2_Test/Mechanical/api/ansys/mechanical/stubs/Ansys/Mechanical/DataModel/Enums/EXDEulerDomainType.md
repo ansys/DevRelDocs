@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`eWedge`](#EXDEulerDomainType.eWedge)   |    |
+| Name | Summary |
 |------------------------------------------|----|
+| [`eWedge`](#EXDEulerDomainType.eWedge)   |    |
 | [`eGrid`](#EXDEulerDomainType.eGrid)     |    |
 
 <a id="import-detail"></a>

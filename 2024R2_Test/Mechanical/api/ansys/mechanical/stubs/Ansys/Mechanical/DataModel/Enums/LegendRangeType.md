@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ProgramControlled`](#LegendRangeType.ProgramControlled)   |    |
+| Name | Summary |
 |-------------------------------------------------------------|----|
+| [`ProgramControlled`](#LegendRangeType.ProgramControlled)   |    |
 | [`Manual`](#LegendRangeType.Manual)                         |    |
 
 <a id="import-detail"></a>

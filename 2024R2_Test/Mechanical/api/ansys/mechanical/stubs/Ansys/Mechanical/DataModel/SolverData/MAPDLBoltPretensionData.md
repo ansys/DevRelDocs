@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`PretensionNodeIds`](#MAPDLBoltPretensionData.PretensionNodeIds)   | Gets the Pretension Node Ids for the bolt pretension.   |
+| Name | Summary |
 |---------------------------------------------------------------------|---------------------------------------------------------|
+| [`PretensionNodeIds`](#MAPDLBoltPretensionData.PretensionNodeIds)   | Gets the Pretension Node Ids for the bolt pretension.   |
 | [`RealConstantIds`](#MAPDLBoltPretensionData.RealConstantIds)       | Gets the Real Constant Ids for the bolt pretension.     |
 
 <a id="import-detail"></a>

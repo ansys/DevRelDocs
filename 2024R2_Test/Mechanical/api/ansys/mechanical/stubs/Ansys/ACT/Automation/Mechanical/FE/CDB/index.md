@@ -10,8 +10,9 @@
 
 ### Classes
 
-| [`CDBCommand`](CDBCommand.md#CDBCommand)                                                                | CDBCommand class.                                                     |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
+| [`CDBCommand`](CDBCommand.md#CDBCommand)                                                                | CDBCommand class.                                                     |
 | [`BeamSecBlockCommand`](BeamSecBlockCommand.md#BeamSecBlockCommand)                                     | Represents a beam SECBLOCK command.                                   |
 | [`BFBlockCommand`](BFBlockCommand.md#BFBlockCommand)                                                    | Represents a BFBLOCK command.                                         |
 | [`BFCommand`](BFCommand.md#BFCommand)                                                                   | Represents a BF command.                                              |
@@ -85,8 +86,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Name`](#id238)   | Gets the command name.   |
+| Name | Summary |
 |--------------------|--------------------------|
+| [`Name`](#id238)   | Gets the command name.   |
 | [`Index`](#id239)  | Gets the command index.  |
 
 <a id="import-detail"></a>
@@ -129,8 +131,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Type`](#id172)      | Gets the section type.         |
+| Name | Summary |
 |-----------------------|--------------------------------|
+| [`Type`](#id172)      | Gets the section type.         |
 | [`Nodes`](#id173)     | Gets the nodes of the section. |
 | [`Cells`](#CDB.Cells) | Gets the cells of the section. |
 | [`Name`](#id238)      | Gets the command name.         |
@@ -200,8 +203,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Lab`](#id228)                                   | Gets the label.                            |
+| Name | Summary |
 |---------------------------------------------------|--------------------------------------------|
+| [`Lab`](#id228)                                   | Gets the label.                            |
 | [`NodalBodyForceCount`](#CDB.NodalBodyForceCount) | Gets the number of nodal body-force loads. |
 | [`NodalBodyForces`](#CDB.NodalBodyForces)         | Gets the nodal body-force loads.           |
 | [`Name`](#id238)                                  | Gets the command name.                     |
@@ -271,8 +275,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Node`](#id197)     | Gets the node number.      |
+| Name | Summary |
 |----------------------|----------------------------|
+| [`Node`](#id197)     | Gets the node number.      |
 | [`Lab`](#id228)      | Gets the label.            |
 | [`ValCount`](#id198) | Gets the number of values. |
 | [`Values`](#id221)   | Gets the values.           |
@@ -351,8 +356,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Elem`](#id185)     | Gets the element number.    |
+| Name | Summary |
 |----------------------|-----------------------------|
+| [`Elem`](#id185)     | Gets the element number.    |
 | [`Lab`](#id228)      | Gets the label.             |
 | [`Stloc`](#id116)    | Gets the starting location. |
 | [`ValCount`](#id198) | Gets the number of values.  |
@@ -440,8 +446,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Lab`](#id228)                                       | Gets the label.                              |
+| Name | Summary |
 |-------------------------------------------------------|----------------------------------------------|
+| [`Lab`](#id228)                                       | Gets the label.                              |
 | [`ElementBodyForceCount`](#CDB.ElementBodyForceCount) | Gets the number of element body-force loads. |
 | [`ElementBodyForces`](#CDB.ElementBodyForces)         | Gets the element body-force loads.           |
 | [`Name`](#id238)                                      | Gets the command name.                       |
@@ -511,8 +518,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Nce`](#id33)        | Gets the constraint equation number.    |
+| Name | Summary |
 |-----------------------|-----------------------------------------|
+| [`Nce`](#id33)        | Gets the constraint equation number.    |
 | [`Constant`](#id34)   | Gets the constant term of the equation. |
 | [`Terms`](#CDB.Terms) | Gets the equation terms.                |
 | [`Name`](#id238)      | Gets the command name.                  |
@@ -582,8 +590,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Nce`](#id33)      | Gets the constraint equation number.    |
+| Name | Summary |
 |---------------------|-----------------------------------------|
+| [`Nce`](#id33)      | Gets the constraint equation number.    |
 | [`Constant`](#id34) | Gets the constant term of the equation. |
 | [`Name`](#id238)    | Gets the command name.                  |
 | [`Index`](#id239)   | Gets the command index.                 |
@@ -644,8 +653,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Cmname`](#CDB.Cmname)   | Gets the component name.                  |
+| Name | Summary |
 |---------------------------|-------------------------------------------|
+| [`Cmname`](#CDB.Cmname)   | Gets the component name.                  |
 | [`Type`](#id172)          | Gets the type of entities (node or elem). |
 | [`Elements`](#id59)       | Gets the type of entities.                |
 | [`Name`](#id238)          | Gets the command name.                    |
@@ -715,8 +725,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Aname`](#id110)   | Gets the assembly name.                 |
+| Name | Summary |
 |---------------------|-----------------------------------------|
+| [`Aname`](#id110)   | Gets the assembly name.                 |
 | [`Oper`](#CDB.Oper) | Gets the operation label (add or dele). |
 | [`Cnames`](#id49)   | Gets the component names.               |
 | [`Name`](#id238)    | Gets the command name.                  |
@@ -786,8 +797,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Aname`](#id110)   | Gets the assembly name.                   |
+| Name | Summary |
 |---------------------|-------------------------------------------|
+| [`Aname`](#id110)   | Gets the assembly name.                   |
 | [`Cnames`](#id49)   | Gets the component and/or assembly names. |
 | [`Name`](#id238)    | Gets the command name.                    |
 | [`Index`](#id239)   | Gets the command index.                   |
@@ -848,8 +860,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Ncp`](#CDB.Ncp)   | Gets the number of coupled nodes.   |
+| Name | Summary |
 |---------------------|-------------------------------------|
+| [`Ncp`](#CDB.Ncp)   | Gets the number of coupled nodes.   |
 | [`Dof`](#id167)     | Gets the degree of freedom label.   |
 | [`Nodes`](#id173)   | Gets the nodes.                     |
 | [`Name`](#id238)    | Gets the command name.              |
@@ -919,8 +932,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Elements`](#id59)   | Gets the elements.      |
+| Name | Summary |
 |-----------------------|-------------------------|
+| [`Elements`](#id59)   | Gets the elements.      |
 | [`Name`](#id238)      | Gets the command name.  |
 | [`Index`](#id239)     | Gets the command index. |
 
@@ -972,8 +986,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Type`](#id172)   | Gets the type (attribute or node).   |
+| Name | Summary |
 |--------------------|--------------------------------------|
+| [`Type`](#id172)   | Gets the type (attribute or node).   |
 | [`Values`](#id221) | Gets the values.                     |
 | [`Name`](#id238)   | Gets the command name.               |
 | [`Index`](#id239)  | Gets the command index.              |
@@ -1034,8 +1049,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Id`](#id206)      | Gets the element number.   |
+| Name | Summary |
 |---------------------|----------------------------|
+| [`Id`](#id206)      | Gets the element number.   |
 | [`Ename`](#id177)   | Gets the element name.     |
 | [`Keyopts`](#id178) | Gets the key options.      |
 | [`Name`](#id238)    | Gets the command name.     |
@@ -1105,8 +1121,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Arguments`](#CDB.Arguments)   | Gets the arguments.     |
+| Name | Summary |
 |---------------------------------|-------------------------|
+| [`Arguments`](#CDB.Arguments)   | Gets the arguments.     |
 | [`Name`](#id238)                | Gets the command name.  |
 | [`Index`](#id239)               | Gets the command index. |
 
@@ -1158,8 +1175,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Type`](#id172)      | Gets the type of the data to be defined.   |
+| Name | Summary |
 |-----------------------|--------------------------------------------|
+| [`Type`](#id172)      | Gets the type of the data to be defined.   |
 | [`Ncsy`](#CDB.Ncsy)   | Gets the system number.                    |
 | [`Cstyp`](#CDB.Cstyp) | Gets the system type.                      |
 | [`Values`](#id221)    | Gets the values.                           |
@@ -1238,8 +1256,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Mat`](#id229)   | Gets the material number.                                                                 |
+| Name | Summary |
 |-------------------|-------------------------------------------------------------------------------------------|
+| [`Mat`](#id229)   | Gets the material number.                                                                 |
 | [`Lab`](#id228)   | Gets the label.                                                                           |
 | [`C0`](#CDB.C0)   | Gets the temperature-independent term of the property.                                    |
 | [`C1`](#CDB.C1)   | Gets the coefficient of the linear term in the property-versus-temperature polynomial.    |
@@ -1345,8 +1364,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Mat`](#id229)       | Gets the material number.   |
+| Name | Summary |
 |-----------------------|-----------------------------|
+| [`Mat`](#id229)       | Gets the material number.   |
 | [`Lab`](#id228)       | Gets the label.             |
 | [`Temps`](#CDB.Temps) | Gets the temperatures.      |
 | [`Values`](#id221)    | Gets the values.            |
@@ -1425,8 +1445,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Nodes`](#id173)   | Gets the nodes.         |
+| Name | Summary |
 |---------------------|-------------------------|
+| [`Nodes`](#id173)   | Gets the nodes.         |
 | [`Name`](#id238)    | Gets the command name.  |
 | [`Index`](#id239)   | Gets the command index. |
 
@@ -1478,8 +1499,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Node`](#id197)   | Gets the node number.                    |
+| Name | Summary |
 |--------------------|------------------------------------------|
+| [`Node`](#id197)   | Gets the node number.                    |
 | [`Type`](#id172)   | Gets the type of the data to be defined. |
 | [`Values`](#id221) | Gets the values.                         |
 | [`Name`](#id238)   | Gets the command name.                   |
@@ -1555,8 +1577,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Aname`](#id110)   | Gets the table name.    |
+| Name | Summary |
 |---------------------|-------------------------|
+| [`Aname`](#id110)   | Gets the table name.    |
 | [`Values`](#id221)  | Gets the values.        |
 | [`Name`](#id238)    | Gets the command name.  |
 | [`Index`](#id239)   | Gets the command index. |
@@ -1617,8 +1640,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Nset`](#CDB.Nset)   | Gets the set number.        |
+| Name | Summary |
 |-----------------------|-----------------------------|
+| [`Nset`](#CDB.Nset)   | Gets the set number.        |
 | [`Stloc`](#id116)     | Gets the starting location. |
 | [`Values`](#id221)    | Gets the values.            |
 | [`Name`](#id238)      | Gets the command name.      |
@@ -1688,8 +1712,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Reals`](#CDB.Reals)   | Gets the real constant sets.   |
+| Name | Summary |
 |-------------------------|--------------------------------|
+| [`Reals`](#CDB.Reals)   | Gets the real constant sets.   |
 | [`Name`](#id238)        | Gets the command name.         |
 | [`Index`](#id239)       | Gets the command index.        |
 
@@ -1741,8 +1766,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Values`](#id221)   | Gets the values.        |
+| Name | Summary |
 |----------------------|-------------------------|
+| [`Values`](#id221)   | Gets the values.        |
 | [`Name`](#id238)     | Gets the command name.  |
 | [`Index`](#id239)    | Gets the command index. |
 
@@ -1794,8 +1820,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Location`](#id203)   | Gets the location of nodes in the section.   |
+| Name | Summary |
 |------------------------|----------------------------------------------|
+| [`Location`](#id203)   | Gets the location of nodes in the section.   |
 | [`Values`](#id221)     | Gets the values.                             |
 | [`Name`](#id238)       | Gets the command name.                       |
 | [`Index`](#id239)      | Gets the command index.                      |
@@ -1856,8 +1883,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Secid`](#CDB.Secid)         | Gets the section type number.                                                                          |
+| Name | Summary |
 |-------------------------------|--------------------------------------------------------------------------------------------------------|
+| [`Secid`](#CDB.Secid)         | Gets the section type number.                                                                          |
 | [`Type`](#id172)              | Get the type.                                                                                          |
 | [`Subtype`](#CDB.Subtype)     | Gets the subtype.                                                                                      |
 | [`Secname`](#CDB.Secname)     | Gets the section name.                                                                                 |
@@ -1945,8 +1973,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Values`](#id221)   | Gets the values.        |
+| Name | Summary |
 |----------------------|-------------------------|
+| [`Values`](#id221)   | Gets the values.        |
 | [`Name`](#id238)     | Gets the command name.  |
 | [`Index`](#id239)    | Gets the command index. |
 
@@ -1998,8 +2027,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Lab`](#id228)                                           | Gets the surface load label.              |
+| Name | Summary |
 |-----------------------------------------------------------|-------------------------------------------|
+| [`Lab`](#id228)                                           | Gets the surface load label.              |
 | [`ElementSurfaceLoadCount`](#CDB.ElementSurfaceLoadCount) | Gets the number of element surface loads. |
 | [`ElementSurfaceLoads`](#CDB.ElementSurfaceLoads)         | Get the element surface loads.            |
 | [`Name`](#id238)                                          | Gets the command name.                    |
@@ -2069,8 +2099,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Elem`](#id185)    | Gets the element number.   |
+| Name | Summary |
 |---------------------|----------------------------|
+| [`Elem`](#id185)    | Gets the element number.   |
 | [`LKey`](#CDB.LKey) | Get the load key.          |
 | [`Key`](#CDB.Key)   | Gets the value key.        |
 | [`Lab`](#id228)     | Gets the load label.       |
@@ -2158,8 +2189,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Type`](#id172)        | Get the section type.   |
+| Name | Summary |
 |-------------------------|-------------------------|
+| [`Type`](#id172)        | Get the section type.   |
 | [`Layers`](#CDB.Layers) | Gets the layers.        |
 | [`Name`](#id238)        | Gets the command name.  |
 | [`Index`](#id239)       | Gets the command index. |
@@ -2220,8 +2252,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`MatId`](#CDB.MatId)   | Gets the material number.   |
+| Name | Summary |
 |-------------------------|-----------------------------|
+| [`MatId`](#CDB.MatId)   | Gets the material number.   |
 | [`Nodes`](#id173)       | Gets the nodes.             |
 
 <a id="id161"></a>
@@ -2264,8 +2297,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Node`](#id197)                  | Gets the node number.       |
+| Name | Summary |
 |-----------------------------------|-----------------------------|
+| [`Node`](#id197)                  | Gets the node number.       |
 | [`Dof`](#id167)                   | Gets the degree of freedom. |
 | [`Coefficient`](#CDB.Coefficient) | Gets the coefficient.       |
 
@@ -2317,8 +2351,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Csys`](#CDB.Csys)                         | Gets the coordinate system number.                          |
+| Name | Summary |
 |---------------------------------------------|-------------------------------------------------------------|
+| [`Csys`](#CDB.Csys)                         | Gets the coordinate system number.                          |
 | [`Id`](#id206)                              | Gets the element number.                                    |
 | [`Mat`](#id229)                             | Gets the material number.                                   |
 | [`Real`](#CDB.Real)                         | Gets the real constant set number.                          |
@@ -2424,8 +2459,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Id`](#id206)      | Gets the element number.   |
+| Name | Summary |
 |---------------------|----------------------------|
+| [`Id`](#id206)      | Gets the element number.   |
 | [`Ename`](#id177)   | Gets the element name.     |
 | [`Keyopts`](#id178) | Gets the key options.      |
 
@@ -2477,8 +2513,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Elem`](#id185)        | Gets the element number.                     |
+| Name | Summary |
 |-------------------------|----------------------------------------------|
+| [`Elem`](#id185)        | Gets the element number.                     |
 | [`Count`](#id186)       | Gets the number of element body-force loads. |
 | [`Stlocs`](#CDB.Stlocs) | Gets the starting locations.                 |
 | [`Values`](#id221)      | Gets the values.                             |
@@ -2539,8 +2576,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Elem`](#id185)                                            | Gets the element number.                  |
+| Name | Summary |
 |-------------------------------------------------------------|-------------------------------------------|
+| [`Elem`](#id185)                                            | Gets the element number.                  |
 | [`Count`](#id186)                                           | Gets the number of element surface loads. |
 | [`LKeys`](#CDB.LKeys)                                       | Gets the load keys.                       |
 | [`Keys`](#CDB.Keys)                                         | Gets the keys.                            |
@@ -2610,8 +2648,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`ValueCount`](#id220)   | Gets the number of values.   |
+| Name | Summary |
 |--------------------------|------------------------------|
+| [`ValueCount`](#id220)   | Gets the number of values.   |
 | [`Values`](#id221)       | Gets the values.             |
 
 <a id="id187"></a>
@@ -2654,8 +2693,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Knum`](#CDB.Knum)   | Gets the key option number.   |
+| Name | Summary |
 |-----------------------|-------------------------------|
+| [`Knum`](#CDB.Knum)   | Gets the key option number.   |
 | [`Value`](#CDB.Value) | Gets the value.               |
 
 <a id="id190"></a>
@@ -2698,8 +2738,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Thick`](#CDB.Thick)   | Gets the thickness.                                 |
+| Name | Summary |
 |-------------------------|-----------------------------------------------------|
+| [`Thick`](#CDB.Thick)   | Gets the thickness.                                 |
 | [`Mat`](#id229)         | Gets the material number.                           |
 | [`Theta`](#CDB.Theta)   | Gets the layer orientation angle.                   |
 | [`Numpt`](#CDB.Numpt)   | Gets the number of integration points in the layer. |
@@ -2760,8 +2801,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Node`](#id197)     | Gets the node number.      |
+| Name | Summary |
 |----------------------|----------------------------|
+| [`Node`](#id197)     | Gets the node number.      |
 | [`ValCount`](#id198) | Gets the number of values. |
 | [`Values`](#id221)   | Gets the values.           |
 
@@ -2813,8 +2855,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Id`](#id206)              | Gets the node number.     |
+| Name | Summary |
 |-----------------------------|---------------------------|
+| [`Id`](#id206)              | Gets the node number.     |
 | [`Location`](#id203)        | Gets the coordinates.     |
 | [`Rotation`](#CDB.Rotation) | Gets the rotation angles. |
 
@@ -2866,8 +2909,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Id`](#id206)     | Gets the real constant set number.   |
+| Name | Summary |
 |--------------------|--------------------------------------|
+| [`Id`](#id206)     | Gets the real constant set number.   |
 | [`Values`](#id221) | Gets the values.                     |
 
 <a id="id204"></a>
@@ -2910,8 +2954,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Temp`](#id224)       | Gets the temperature.      |
+| Name | Summary |
 |------------------------|----------------------------|
+| [`Temp`](#id224)       | Gets the temperature.      |
 | [`ValueCount`](#id220) | Gets the number of values. |
 | [`Values`](#id221)     | Gets the values.           |
 
@@ -2963,8 +3008,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Lab`](#id228)                         | Gets the label.                              |
+| Name | Summary |
 |-----------------------------------------|----------------------------------------------|
+| [`Lab`](#id228)                         | Gets the label.                              |
 | [`Mat`](#id229)                         | Gets the material number.                    |
 | [`Ntemp`](#id230)                       | Gets the number of temperature, if provided. |
 | [`Npts`](#id231)                        | Gets the number of points, if provided.      |
@@ -3070,8 +3116,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`ValueCount`](#id220)   | Gets the number of values.   |
+| Name | Summary |
 |--------------------------|------------------------------|
+| [`ValueCount`](#id220)   | Gets the number of values.   |
 | [`Values`](#id221)       | Gets the values.             |
 
 <a id="id218"></a>
@@ -3114,8 +3161,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Temp`](#id224)                         | Gets the temperature.      |
+| Name | Summary |
 |------------------------------------------|----------------------------|
+| [`Temp`](#id224)                         | Gets the temperature.      |
 | [`TBPTCount`](#CDB.TBPTCount)            | Gets the number of values. |
 | [`TBPTValues`](TBPTValues.md#TBPTValues) | Gets the TBPT values.      |
 
@@ -3167,8 +3215,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Lab`](#id228)                       | Gets the label.                              |
+| Name | Summary |
 |---------------------------------------|----------------------------------------------|
+| [`Lab`](#id228)                       | Gets the label.                              |
 | [`Mat`](#id229)                       | Gets the material number.                    |
 | [`Ntemp`](#id230)                     | Gets the number of temperature, if provided. |
 | [`Npts`](#id231)                      | Gets the number of points, if provided.      |
@@ -3274,8 +3323,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`ElementTypeCount`](#CDB.ElementTypeCount)   | Gets the element type count.   |
+| Name | Summary |
 |-----------------------------------------------|--------------------------------|
+| [`ElementTypeCount`](#CDB.ElementTypeCount)   | Gets the element type count.   |
 | [`ElementTypes`](#CDB.ElementTypes)           | Gets the element types.        |
 | [`Name`](#id238)                              | Gets the command name.         |
 | [`Index`](#id239)                             | Gets the command index.        |

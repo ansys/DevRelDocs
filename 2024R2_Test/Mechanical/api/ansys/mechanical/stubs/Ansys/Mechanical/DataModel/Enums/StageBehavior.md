@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Cyclic`](#StageBehavior.Cyclic)   |    |
+| Name | Summary |
 |-------------------------------------|----|
+| [`Cyclic`](#StageBehavior.Cyclic)   |    |
 | [`Normal`](#StageBehavior.Normal)   |    |
 
 <a id="import-detail"></a>

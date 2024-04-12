@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddFeatureDetection`](#FeatureDetectionDefinition.AddFeatureDetection)                   | Add a FeatureDetection to the FeatureDetection Definition                       |
+| Name | Summary |
 |--------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
+| [`AddFeatureDetection`](#FeatureDetectionDefinition.AddFeatureDetection)                   | Add a FeatureDetection to the FeatureDetection Definition                       |
 | [`DeleteFeatureDetection`](#FeatureDetectionDefinition.DeleteFeatureDetection)             | Delete a FeatureDetection from the Feature Detection Definition                 |
 | [`SetFeatureDetectionOptions`](#FeatureDetectionDefinition.SetFeatureDetectionOptions)     | Set Feature Detection Solid / Sheet / Beta settings                             |
 | [`GetFeatureDetectionType`](#FeatureDetectionDefinition.GetFeatureDetectionType)           | Gets the Feature Detection Type property at given index                         |
@@ -46,8 +47,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`FeatureDetectionCount`](#FeatureDetectionDefinition.FeatureDetectionCount)   | Gets the number of Feature Detections   |
+| Name | Summary |
 |--------------------------------------------------------------------------------|-----------------------------------------|
+| [`FeatureDetectionCount`](#FeatureDetectionDefinition.FeatureDetectionCount)   | Gets the number of Feature Detections   |
 
 <a id="import-detail"></a>
 

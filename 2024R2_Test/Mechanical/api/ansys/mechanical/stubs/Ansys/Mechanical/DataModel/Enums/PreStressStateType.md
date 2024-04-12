@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`LoadStep`](#PreStressStateType.LoadStep)                   |    |
+| Name | Summary |
 |--------------------------------------------------------------|----|
+| [`LoadStep`](#PreStressStateType.LoadStep)                   |    |
 | [`ProgramControlled`](#PreStressStateType.ProgramControlled) |    |
 | [`Time`](#PreStressStateType.Time)                           |    |
 

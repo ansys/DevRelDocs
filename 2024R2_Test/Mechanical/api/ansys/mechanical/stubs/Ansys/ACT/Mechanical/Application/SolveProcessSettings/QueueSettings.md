@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Name`](#QueueSettings.Name)       | The name of the queue settings.                                                                           |
+| Name | Summary |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
+| [`Name`](#QueueSettings.Name)       | The name of the queue settings.                                                                           |
 | [`JobName`](#QueueSettings.JobName) | The job name of the queue settings.                                                                       |
 | [`License`](#QueueSettings.License) | The license of the queue settings.  The setter will throw an exception if the given license is not valid. |
 

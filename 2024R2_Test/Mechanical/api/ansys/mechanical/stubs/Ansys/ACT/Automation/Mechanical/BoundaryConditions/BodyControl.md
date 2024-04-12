@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`PromoteToNamedSelection`](#BodyControl.PromoteToNamedSelection)   | Run the PromoteToNamedSelection action.                                           |
+| Name | Summary |
 |---------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`PromoteToNamedSelection`](#BodyControl.PromoteToNamedSelection)   | Run the PromoteToNamedSelection action.                                           |
 | [`Delete`](#BodyControl.Delete)                                     | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                               | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                               | Gets the list of children, filtered by type.                                      |
@@ -39,8 +40,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`ViscousCoefficient`](#BodyControl.ViscousCoefficient)                                                                | Gets or sets the ViscousCoefficient.                          |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`ViscousCoefficient`](#BodyControl.ViscousCoefficient)                                                                | Gets or sets the ViscousCoefficient.                          |
 | [`ArtificialViscosityForShells`](#BodyControl.ArtificialViscosityForShells)                                            | Gets or sets the ArtificialViscosityForShells.                |
 | [`ShellBWCWarpCorrection`](#BodyControl.ShellBWCWarpCorrection)                                                        | Gets or sets the ShellBWCWarpCorrection.                      |
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`AllOptimizationRegions`](#GeometryDefineByType.AllOptimizationRegions)                                     |    |
+| Name | Summary |
 |--------------------------------------------------------------------------------------------------------------|----|
+| [`AllOptimizationRegions`](#GeometryDefineByType.AllOptimizationRegions)                                     |    |
 | [`AnalysisPly`](../../../ACT/Automation/Mechanical/AnalysisPly.md#AnalysisPly)                               |    |
 | [`BeamConnection`](#GeometryDefineByType.BeamConnection)                                                     |    |
 | [`BoundaryCondition`](#GeometryDefineByType.BoundaryCondition)                                               |    |

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`BEMAcoustics`](#WorkflowType.BEMAcoustics)                 |    |
+| Name | Summary |
 |--------------------------------------------------------------|----|
+| [`BEMAcoustics`](#WorkflowType.BEMAcoustics)                 |    |
 | [`FEMAcousticsExternal`](#WorkflowType.FEMAcousticsExternal) |    |
 | [`FEMAcousticsInternal`](#WorkflowType.FEMAcousticsInternal) |    |
 

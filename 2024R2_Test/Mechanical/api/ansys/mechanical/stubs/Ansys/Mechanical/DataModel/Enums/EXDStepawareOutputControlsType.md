@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`No`](#EXDStepawareOutputControlsType.No)   |    |
+| Name | Summary |
 |----------------------------------------------|----|
+| [`No`](#EXDStepawareOutputControlsType.No)   |    |
 | [`Yes`](#EXDStepawareOutputControlsType.Yes) |    |
 
 <a id="import-detail"></a>

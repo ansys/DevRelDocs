@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Line`](#VectorDisplayType.Line)                            |    |
+| Name | Summary |
 |--------------------------------------------------------------|----|
+| [`Line`](#VectorDisplayType.Line)                            |    |
 | [`Solid`](../../../ACT/Automation/Mechanical/Solid.md#Solid) |    |
 | [`Sphere`](#VectorDisplayType.Sphere)                        |    |
 

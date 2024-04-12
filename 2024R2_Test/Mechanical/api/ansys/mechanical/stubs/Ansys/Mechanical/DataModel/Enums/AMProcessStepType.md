@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`BuildStep`](../../../ACT/Automation/Mechanical/AdditiveManufacturing/BuildStep.md#BuildStep)                         |    |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|----|
+| [`BuildStep`](../../../ACT/Automation/Mechanical/AdditiveManufacturing/BuildStep.md#BuildStep)                         |    |
 | [`CooldownStep`](../../../ACT/Automation/Mechanical/AdditiveManufacturing/CooldownStep.md#CooldownStep)                |    |
 | [`BaseRemovalStep`](#AMProcessStepType.BaseRemovalStep)                                                                |    |
 | [`SupportRemovalStep`](#AMProcessStepType.SupportRemovalStep)                                                          |    |

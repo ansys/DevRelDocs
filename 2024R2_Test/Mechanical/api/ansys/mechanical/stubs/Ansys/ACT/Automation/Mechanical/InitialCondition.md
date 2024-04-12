@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddCommandSnippet`](#InitialCondition.AddCommandSnippet)             | Creates a new child CommandSnippet.                                               |
+| Name | Summary |
 |------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddCommandSnippet`](#InitialCondition.AddCommandSnippet)             | Creates a new child CommandSnippet.                                               |
 | [`Delete`](#InitialCondition.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                  | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                  | Gets the list of children, filtered by type.                                      |
@@ -39,8 +40,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Direction`](#InitialCondition.Direction)                                                                          | Gets or sets the Direction.                                   |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Direction`](#InitialCondition.Direction)                                                                          | Gets or sets the Direction.                                   |
 | [`TotalMagnitude`](#InitialCondition.TotalMagnitude)                                                                | Gets or sets the Magnitude.                                   |
 | [`InitialEnvironment`](#InitialCondition.InitialEnvironment)                                                        | Gets or sets the InitialEnvironment.                          |
 | [`PreStressEnvironmentModalIC`](#InitialCondition.PreStressEnvironmentModalIC)                                      | Gets or sets the PreStressEnvironmentModalIC.                 |

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`SheetThickness`](#ContactToleranceType.SheetThickness)   |    |
+| Name | Summary |
 |------------------------------------------------------------|----|
+| [`SheetThickness`](#ContactToleranceType.SheetThickness)   |    |
 | [`Slider`](#ContactToleranceType.Slider)                   |    |
 | [`Value`](#ContactToleranceType.Value)                     |    |
 

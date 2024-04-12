@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Bending`](#BeamSolutionType.Bending)   |    |
+| Name | Summary |
 |------------------------------------------|----|
+| [`Bending`](#BeamSolutionType.Bending)   |    |
 | [`Truss`](#BeamSolutionType.Truss)       |    |
 
 <a id="import-detail"></a>

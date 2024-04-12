@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Alive`](#ElementControlsStatus.Alive)   |    |
+| Name | Summary |
 |-------------------------------------------|----|
+| [`Alive`](#ElementControlsStatus.Alive)   |    |
 | [`Dead`](#ElementControlsStatus.Dead)     |    |
 
 <a id="import-detail"></a>

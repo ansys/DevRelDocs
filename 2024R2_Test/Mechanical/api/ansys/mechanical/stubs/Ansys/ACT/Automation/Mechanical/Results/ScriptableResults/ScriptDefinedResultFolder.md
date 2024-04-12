@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`EvaluateAllResults`](#ScriptDefinedResultFolder.EvaluateAllResults)           | EvaluatesAllResults.                                                              |
+| Name | Summary |
 |---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`EvaluateAllResults`](#ScriptDefinedResultFolder.EvaluateAllResults)           | EvaluatesAllResults.                                                              |
 | [`AddPythonResult`](#ScriptDefinedResultFolder.AddPythonResult)                 | Creates a new PythonResult                                                        |
 | [`GetChildren`](#id1)                                                           | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                           | Gets the list of children, filtered by type.                                      |
@@ -39,8 +40,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#ScriptDefinedResultFolder.Children)                                                                         | Gets the list of children.                                    |
 | [`Comments`](#ScriptDefinedResultFolder.Comments)                                                                         | Gets the list of associated comments.                         |

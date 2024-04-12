@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ConstrainNode`](#OutputControlsNodalForcesType.ConstrainNode)   |    |
+| Name | Summary |
 |-------------------------------------------------------------------|----|
+| [`ConstrainNode`](#OutputControlsNodalForcesType.ConstrainNode)   |    |
 | [`No`](#OutputControlsNodalForcesType.No)                         |    |
 | [`Yes`](#OutputControlsNodalForcesType.Yes)                       |    |
 

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Center`](#ISheetSphere.Center)   | Gets or sets the center of the sphere.   |
+| Name | Summary |
 |------------------------------------|------------------------------------------|
+| [`Center`](#ISheetSphere.Center)   | Gets or sets the center of the sphere.   |
 | [`Radius`](#ISheetSphere.Radius)   | Gets or sets the radius of the sphere.   |
 
 <a id="import-detail"></a>

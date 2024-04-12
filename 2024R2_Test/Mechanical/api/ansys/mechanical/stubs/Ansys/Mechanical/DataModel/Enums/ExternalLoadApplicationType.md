@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`BoundaryCondition`](#ExternalLoadApplicationType.BoundaryCondition)                         |    |
+| Name | Summary |
 |-----------------------------------------------------------------------------------------------|----|
+| [`BoundaryCondition`](#ExternalLoadApplicationType.BoundaryCondition)                         |    |
 | [`InitialCondition`](../../../ACT/Automation/Mechanical/InitialCondition.md#InitialCondition) |    |
 
 <a id="import-detail"></a>

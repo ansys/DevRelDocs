@@ -18,13 +18,15 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetSurfaceEffectElementTypeId`](#MAPDLImportedSurfaceLoadData.GetSurfaceEffectElementTypeId)   | Gets the SurfaceEffectElementTypeId for the requested load type present in the row   |
+| Name | Summary |
 |--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| [`GetSurfaceEffectElementTypeId`](#MAPDLImportedSurfaceLoadData.GetSurfaceEffectElementTypeId)   | Gets the SurfaceEffectElementTypeId for the requested load type present in the row   |
 
 ### Properties
 
-| [`LoadTypes`](#MAPDLImportedSurfaceLoadData.LoadTypes)   | Gets the load types present in the row.   |
+| Name | Summary |
 |----------------------------------------------------------|-------------------------------------------|
+| [`LoadTypes`](#MAPDLImportedSurfaceLoadData.LoadTypes)   | Gets the load types present in the row.   |
 
 <a id="import-detail"></a>
 

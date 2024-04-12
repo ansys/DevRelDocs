@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`EvaluateAllResults`](#BoltTool.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
+| Name | Summary |
 |----------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`EvaluateAllResults`](#BoltTool.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
 | [`AddAdjustment`](#BoltTool.AddAdjustment)                     | Creates a new BoltAdjustment                                                      |
 | [`AddWorkingLoad`](#BoltTool.AddWorkingLoad)                   | Creates a new BoltWorkingLoad                                                     |
 | [`Delete`](#BoltTool.Delete)                                   | Run the Delete action.                                                            |
@@ -41,8 +42,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#BoltTool.Children)                                                                                          | Gets the list of children.                                    |
 | [`Comments`](#BoltTool.Comments)                                                                                          | Gets the list of associated comments.                         |

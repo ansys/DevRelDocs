@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetStepEndTime`](#ANSYSAnalysisSettings.GetStepEndTime)                                                         | Gets the Step End Time at a given solution step.                                       |
+| Name | Summary |
 |-------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| [`GetStepEndTime`](#ANSYSAnalysisSettings.GetStepEndTime)                                                         | Gets the Step End Time at a given solution step.                                       |
 | [`SetStepEndTime`](#ANSYSAnalysisSettings.SetStepEndTime)                                                         | Sets the Step End Time for a given solution step.                                      |
 | [`GetAutomaticTimeStepping`](#ANSYSAnalysisSettings.GetAutomaticTimeStepping)                                     | Gets the Automatic Time Stepping at a given solution step.                             |
 | [`SetAutomaticTimeStepping`](#ANSYSAnalysisSettings.SetAutomaticTimeStepping)                                     | Sets the Automatic Time Stepping for a given solution step.                            |
@@ -187,8 +188,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`StepName`](#ANSYSAnalysisSettings.StepName)                                                                                | Gets or sets the Step Name.                                                                         |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| [`StepName`](#ANSYSAnalysisSettings.StepName)                                                                                | Gets or sets the Step Name.                                                                         |
 | [`AMStepType`](#ANSYSAnalysisSettings.AMStepType)                                                                            | Gets or sets the AM Process Step Type.                                                              |
 | [`AMSubstepsToApplyHeats`](#ANSYSAnalysisSettings.AMSubstepsToApplyHeats)                                                    | Gets or sets the AM Substeps to Apply Heat.                                                         |
 | [`AMSubstepsBetweenHeating`](#ANSYSAnalysisSettings.AMSubstepsBetweenHeating)                                                | Gets or sets the AM Substeps Between Heating.                                                       |

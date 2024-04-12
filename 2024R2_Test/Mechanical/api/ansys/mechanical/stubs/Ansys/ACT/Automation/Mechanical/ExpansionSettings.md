@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetExpansionState`](#ExpansionSettings.GetExpansionState)                   | Gets the requested expansion state of a given Condensed Part                      |
+| Name | Summary |
 |-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetExpansionState`](#ExpansionSettings.GetExpansionState)                   | Gets the requested expansion state of a given Condensed Part                      |
 | [`SetExpansionState`](#ExpansionSettings.SetExpansionState)                   | Sets the requested expansion state of a given Condensed Part                      |
 | [`GetCompletedExpansionState`](#ExpansionSettings.GetCompletedExpansionState) | Gets the completed expansion state of a given Condensed Part                      |
 | [`EvaluateAllResults`](#ExpansionSettings.EvaluateAllResults)                 | Run the EvaluateAllResults action.                                                |
@@ -44,8 +45,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                                     | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                                     | Gets the internal object. For advanced usage only.            |
 | [`CondensedPartExpansionType`](../../../Mechanical/DataModel/Enums/CondensedPartExpansionType.md#CondensedPartExpansionType) | Gets or sets the CondensedPartExpansionType.                  |
 | [`NodalForces`](#ExpansionSettings.NodalForces)                                                                              | Gets or sets the NodalForces.                                 |
 | [`Strain`](#ExpansionSettings.Strain)                                                                                        | Gets or sets the Strain.                                      |

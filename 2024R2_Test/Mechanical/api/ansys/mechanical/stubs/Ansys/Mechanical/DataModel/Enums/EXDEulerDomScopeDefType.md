@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`eAllBodies`](#EXDEulerDomScopeDefType.eAllBodies)       |    |
+| Name | Summary |
 |-----------------------------------------------------------|----|
+| [`eAllBodies`](#EXDEulerDomScopeDefType.eAllBodies)       |    |
 | [`eEulerianOnly`](#EXDEulerDomScopeDefType.eEulerianOnly) |    |
 
 <a id="import-detail"></a>

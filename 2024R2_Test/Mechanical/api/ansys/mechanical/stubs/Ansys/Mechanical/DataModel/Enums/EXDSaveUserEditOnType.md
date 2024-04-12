@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`TimeSteps`](#EXDSaveUserEditOnType.TimeSteps)   |    |
+| Name | Summary |
 |---------------------------------------------------|----|
+| [`TimeSteps`](#EXDSaveUserEditOnType.TimeSteps)   |    |
 | [`Time`](#EXDSaveUserEditOnType.Time)             |    |
 
 <a id="import-detail"></a>

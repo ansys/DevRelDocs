@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`FullyReversed`](#FatigueLoadType.FullyReversed)     |    |
+| Name | Summary |
 |-------------------------------------------------------|----|
+| [`FullyReversed`](#FatigueLoadType.FullyReversed)     |    |
 | [`HistoryData`](#FatigueLoadType.HistoryData)         |    |
 | [`NonProportional`](#FatigueLoadType.NonProportional) |    |
 | [`Ratio`](#FatigueLoadType.Ratio)                     |    |

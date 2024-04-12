@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Refresh`](#Tree.Refresh)                                       | Refreshes the tree.                                                              |
+| Name | Summary |
 |------------------------------------------------------------------|----------------------------------------------------------------------------------|
+| [`Refresh`](#Tree.Refresh)                                       | Refreshes the tree.                                                              |
 | [`Suspend`](#Tree.Suspend)                                       | Prevents the tree from being updated.                                            |
 | [`GetPathToFirstActiveObject`](#Tree.GetPathToFirstActiveObject) | Gets the full path that needs to be typed in order to go to the selected object. |
 | [`Find`](#Tree.Find)                                             | Find method.                                                                     |
@@ -35,8 +36,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`FirstActiveObject`](#Tree.FirstActiveObject)           | Gets the first object selected in the tree.                           |
+| Name | Summary |
 |----------------------------------------------------------|-----------------------------------------------------------------------|
+| [`FirstActiveObject`](#Tree.FirstActiveObject)           | Gets the first object selected in the tree.                           |
 | [`ActiveObjects`](#Tree.ActiveObjects)                   | Gets a list of all selected objects.                                  |
 | [`AllObjects`](#Tree.AllObjects)                         | Gets a list of all objects available in the tree.                     |
 | [`GroupingFoldersVisible`](#Tree.GroupingFoldersVisible) | Controls whether or not group folders are visible.                    |

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`AllCracks`](#CrackSelectionModeType.AllCracks)     |    |
+| Name | Summary |
 |------------------------------------------------------|----|
+| [`AllCracks`](#CrackSelectionModeType.AllCracks)     |    |
 | [`SingleCrack`](#CrackSelectionModeType.SingleCrack) |    |
 
 <a id="import-detail"></a>

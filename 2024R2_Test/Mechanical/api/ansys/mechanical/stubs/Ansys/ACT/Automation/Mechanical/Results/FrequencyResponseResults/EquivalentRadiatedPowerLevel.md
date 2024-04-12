@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ExportToXMLFile`](#EquivalentRadiatedPowerLevel.ExportToXMLFile)                 | Run the ExportToXMLFile action.                                                   |
+| Name | Summary |
 |------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ExportToXMLFile`](#EquivalentRadiatedPowerLevel.ExportToXMLFile)                 | Run the ExportToXMLFile action.                                                   |
 | [`ExportToWAVFile`](#EquivalentRadiatedPowerLevel.ExportToWAVFile)                 | Run the ExportToWAVFile action.                                                   |
 | [`ClearGeneratedData`](#EquivalentRadiatedPowerLevel.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#EquivalentRadiatedPowerLevel.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
@@ -51,8 +52,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`DBWeighting`](#EquivalentRadiatedPowerLevel.DBWeighting)                                                                | Gets or sets the DBWeighting.                                          |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`DBWeighting`](#EquivalentRadiatedPowerLevel.DBWeighting)                                                                | Gets or sets the DBWeighting.                                          |
 | [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.                     |
 | [`MaximumFrequency`](#EquivalentRadiatedPowerLevel.MaximumFrequency)                                                      | Gets or sets the MaximumFrequency.                                     |
 | [`MinimumFrequency`](#EquivalentRadiatedPowerLevel.MinimumFrequency)                                                      | Gets or sets the MinimumFrequency.                                     |

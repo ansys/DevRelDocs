@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`CMS`](#CondensedPartReductionMethod.CMS)     |    |
+| Name | Summary |
 |------------------------------------------------|----|
+| [`CMS`](#CondensedPartReductionMethod.CMS)     |    |
 | [`Guyan`](#CondensedPartReductionMethod.Guyan) |    |
 
 <a id="import-detail"></a>

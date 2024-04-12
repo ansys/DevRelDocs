@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`On`](#RBDDoStaticAnalysisType.On)   |    |
+| Name | Summary |
 |---------------------------------------|----|
+| [`On`](#RBDDoStaticAnalysisType.On)   |    |
 | [`Off`](#RBDDoStaticAnalysisType.Off) |    |
 
 <a id="import-detail"></a>

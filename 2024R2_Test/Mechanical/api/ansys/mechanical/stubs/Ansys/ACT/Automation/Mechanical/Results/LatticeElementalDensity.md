@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#LatticeElementalDensity.ClearGeneratedData)           | Clears the result.                                                                |
+| Name | Summary |
 |-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#LatticeElementalDensity.ClearGeneratedData)           | Clears the result.                                                                |
 | [`EvaluateAllResults`](#LatticeElementalDensity.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
 | [`ExportAnimation`](#LatticeElementalDensity.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
 | [`RenameBasedOnDefinition`](#LatticeElementalDensity.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
@@ -42,8 +43,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Location`](#LatticeElementalDensity.Location)                                                                        | Gets or sets the Location.                                    |
 | [`IterationNumber`](#LatticeElementalDensity.IterationNumber)                                                          | Gets the IterationNumber.                                     |

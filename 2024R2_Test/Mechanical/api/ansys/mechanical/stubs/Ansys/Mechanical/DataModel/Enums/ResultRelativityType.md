@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Absolute`](#ResultRelativityType.Absolute)   |    |
+| Name | Summary |
 |------------------------------------------------|----|
+| [`Absolute`](#ResultRelativityType.Absolute)   |    |
 | [`Relative`](#ResultRelativityType.Relative)   |    |
 
 <a id="import-detail"></a>

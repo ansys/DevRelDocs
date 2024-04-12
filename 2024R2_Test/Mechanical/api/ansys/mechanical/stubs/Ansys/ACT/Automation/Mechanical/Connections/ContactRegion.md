@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`SearchConnectionsForDuplicatePairs`](#ContactRegion.SearchConnectionsForDuplicatePairs)   | Run the SearchConnectionsForDuplicatePairs action.                                |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`SearchConnectionsForDuplicatePairs`](#ContactRegion.SearchConnectionsForDuplicatePairs)   | Run the SearchConnectionsForDuplicatePairs action.                                |
 | [`FlipContactTarget`](#ContactRegion.FlipContactTarget)                                     | Run the FlipContactTarget action.                                                 |
 | [`SetDefaultAPDLNames`](#ContactRegion.SetDefaultAPDLNames)                                 | Run the SetDefaultAPDLNames action.                                               |
 | [`SaveContactRegionSettings`](#ContactRegion.SaveContactRegionSettings)                     | Run the SaveContactRegionSettings action.                                         |
@@ -50,8 +51,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`ContactAPDLName`](#ContactRegion.ContactAPDLName)                                                                    | Gets or sets the ContactAPDLName.                             |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`ContactAPDLName`](#ContactRegion.ContactAPDLName)                                                                    | Gets or sets the ContactAPDLName.                             |
 | [`TargetAPDLName`](#ContactRegion.TargetAPDLName)                                                                      | Gets or sets the TargetAPDLName.                              |
 | [`SourceLocation`](#ContactRegion.SourceLocation)                                                                      | Gets or sets the SourceLocation.                              |
 | [`TargetLocation`](#ContactRegion.TargetLocation)                                                                      | Gets or sets the TargetLocation.                              |

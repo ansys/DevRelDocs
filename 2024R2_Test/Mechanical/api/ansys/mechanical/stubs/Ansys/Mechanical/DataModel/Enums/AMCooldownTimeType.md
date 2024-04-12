@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ProgramControlled`](#AMCooldownTimeType.ProgramControlled)   |    |
+| Name | Summary |
 |----------------------------------------------------------------|----|
+| [`ProgramControlled`](#AMCooldownTimeType.ProgramControlled)   |    |
 | [`UserSpecified`](#AMCooldownTimeType.UserSpecified)           |    |
 
 <a id="import-detail"></a>

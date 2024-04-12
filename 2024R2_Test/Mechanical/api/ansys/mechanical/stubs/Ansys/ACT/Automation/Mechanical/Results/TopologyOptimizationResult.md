@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#TopologyOptimizationResult.ClearGeneratedData)           | Clears the result.                                                                |
+| Name | Summary |
 |----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#TopologyOptimizationResult.ClearGeneratedData)           | Clears the result.                                                                |
 | [`EvaluateAllResults`](#TopologyOptimizationResult.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
 | [`ExportAnimation`](#TopologyOptimizationResult.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
 | [`RenameBasedOnDefinition`](#TopologyOptimizationResult.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
@@ -42,8 +43,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Location`](#TopologyOptimizationResult.Location)                                                                     | Gets or sets the Location.                                    |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Location`](#TopologyOptimizationResult.Location)                                                                     | Gets or sets the Location.                                    |
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`IterationNumber`](#TopologyOptimizationResult.IterationNumber)                                                       | Gets the IterationNumber.                                     |
 | [`IterationStep`](#TopologyOptimizationResult.IterationStep)                                                           | Gets or sets the IterationStep.                               |

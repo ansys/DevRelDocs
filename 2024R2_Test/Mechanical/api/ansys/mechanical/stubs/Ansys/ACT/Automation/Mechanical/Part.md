@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#Part.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#Part.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`CreateParameter`](#Part.CreateParameter)                 | Creates a new parameter for a Property.                                           |
 | [`RemoveParameter`](#Part.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 | [`GenerateMesh`](#Part.GenerateMesh)                       | Run the GenerateMesh action.                                                      |
@@ -42,8 +43,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`MaterialName`](#Part.MaterialName)                                                                                | Gets or sets the MaterialName.                                |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`MaterialName`](#Part.MaterialName)                                                                                | Gets or sets the MaterialName.                                |
 | [`Hidden`](#Part.Hidden)                                                                                            | Hide or show the body.                                        |
 | [`ConfigurationId`](#Part.ConfigurationId)                                                                          | Gets the related Result Mesh’s ConfigurationId.               |
 | [`ResultMeshId`](#Part.ResultMeshId)                                                                                | Gets the related Result Mesh’s ObjectId.                      |

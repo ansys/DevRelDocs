@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddGeometry`](#Solid.AddGeometry)                         | Add solid to the geometry.                                                        |
+| Name | Summary |
 |-------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddGeometry`](#Solid.AddGeometry)                         | Add solid to the geometry.                                                        |
 | [`UpdateGeometry`](#Solid.UpdateGeometry)                   | Update the solid on the geometry.                                                 |
 | [`RemoveGeometry`](#Solid.RemoveGeometry)                   | Remove the solid from the geometry.                                               |
 | [`Delete`](#Solid.Delete)                                   | Run the Delete action.                                                            |
@@ -39,8 +40,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`PartName`](#Solid.PartName)                                                                                       | Gets the PartName.                                            |
 | [`X1`](#Solid.X1)                                                                                                   | Gets or sets the X1.                                          |
 | [`X2`](#Solid.X2)                                                                                                   | Gets or sets the X2.                                          |

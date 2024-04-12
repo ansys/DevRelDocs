@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`RadiosityFF2DHidden`](#RadiosityViewFactorType.RadiosityFF2DHidden)       |    |
+| Name | Summary |
 |-----------------------------------------------------------------------------|----|
+| [`RadiosityFF2DHidden`](#RadiosityViewFactorType.RadiosityFF2DHidden)       |    |
 | [`RadiosityFF2DNonHidden`](#RadiosityViewFactorType.RadiosityFF2DNonHidden) |    |
 
 <a id="import-detail"></a>

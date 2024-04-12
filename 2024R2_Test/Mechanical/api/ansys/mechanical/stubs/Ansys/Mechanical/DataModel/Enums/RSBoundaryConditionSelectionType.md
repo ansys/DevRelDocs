@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`None_`](#RSBoundaryConditionSelectionType.None_)             |    |
+| Name | Summary |
 |----------------------------------------------------------------|----|
+| [`None_`](#RSBoundaryConditionSelectionType.None_)             |    |
 | [`AllSupports`](#RSBoundaryConditionSelectionType.AllSupports) |    |
 
 <a id="import-detail"></a>

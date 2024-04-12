@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Manual`](#SymmetryBoundaryDOFOrientation.Manual)                 |    |
+| Name | Summary |
 |--------------------------------------------------------------------|----|
+| [`Manual`](#SymmetryBoundaryDOFOrientation.Manual)                 |    |
 | [`ChosenBySolver`](#SymmetryBoundaryDOFOrientation.ChosenBySolver) |    |
 
 <a id="import-detail"></a>

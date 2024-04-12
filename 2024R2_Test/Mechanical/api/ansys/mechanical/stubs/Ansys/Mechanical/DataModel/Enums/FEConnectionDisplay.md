@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`All`](#FEConnectionDisplay.All)                                     |    |
+| Name | Summary |
 |-----------------------------------------------------------------------|----|
+| [`All`](#FEConnectionDisplay.All)                                     |    |
 | [`Beam`](../../../ACT/Automation/Mechanical/Connections/Beam.md#Beam) |    |
 | [`CE`](#FEConnectionDisplay.CE)                                       |    |
 | [`Cyclic`](#FEConnectionDisplay.Cyclic)                               |    |

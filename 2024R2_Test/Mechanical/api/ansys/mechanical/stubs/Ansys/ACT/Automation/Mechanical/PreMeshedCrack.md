@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddCommandSnippet`](#PreMeshedCrack.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
+| Name | Summary |
 |----------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddCommandSnippet`](#PreMeshedCrack.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
 | [`Delete`](#PreMeshedCrack.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                | Gets the list of children, filtered by type.                                      |
@@ -39,8 +40,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`SolutionContours`](#PreMeshedCrack.SolutionContours)                                                              | Gets or sets the SolutionContours.                            |
 | [`CrackSourceType`](../../../Mechanical/DataModel/Enums/CrackSourceType.md#CrackSourceType)                         | Gets the CrackSourceType.                                     |
 | [`ScopingMethod`](#PreMeshedCrack.ScopingMethod)                                                                    | Gets the ScopingMethod.                                       |

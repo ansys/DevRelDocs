@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Blue`](#Colors.Blue)     | Blue property.   |
+| Name | Summary |
 |----------------------------|------------------|
+| [`Blue`](#Colors.Blue)     | Blue property.   |
 | [`Cyan`](#Colors.Cyan)     | Cyan property.   |
 | [`Green`](#Colors.Green)   | Green property.  |
 | [`Yellow`](#Colors.Yellow) | Yellow property. |

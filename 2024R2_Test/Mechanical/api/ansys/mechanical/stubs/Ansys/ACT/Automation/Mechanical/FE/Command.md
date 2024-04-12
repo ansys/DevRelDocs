@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Name`](#Command.Name)   | Gets the command name.   |
+| Name | Summary |
 |---------------------------|--------------------------|
+| [`Name`](#Command.Name)   | Gets the command name.   |
 | [`Index`](#Command.Index) | Gets the command index.  |
 
 <a id="import-detail"></a>

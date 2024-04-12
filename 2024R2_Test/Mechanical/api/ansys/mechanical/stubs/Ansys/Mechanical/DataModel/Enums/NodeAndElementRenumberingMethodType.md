@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Automatic`](#NodeAndElementRenumberingMethodType.Automatic)   |    |
+| Name | Summary |
 |-----------------------------------------------------------------|----|
+| [`Automatic`](#NodeAndElementRenumberingMethodType.Automatic)   |    |
 | [`Offset`](#NodeAndElementRenumberingMethodType.Offset)         |    |
 
 <a id="import-detail"></a>

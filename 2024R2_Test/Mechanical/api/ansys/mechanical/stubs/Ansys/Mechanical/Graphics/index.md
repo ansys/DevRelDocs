@@ -10,13 +10,15 @@
 
 ### Subpackages
 
-| [`Tools`](Tools/index.md#module-ansys.mechanical.stubs.Ansys.Mechanical.Graphics.Tools)   | Tools subpackage.   |
+| Name | Summary |
 |-------------------------------------------------------------------------------------------|---------------------|
+| [`Tools`](Tools/index.md#module-ansys.mechanical.stubs.Ansys.Mechanical.Graphics.Tools)   | Tools subpackage.   |
 
 ### Classes
 
-| [`GraphicsViewportsExportSettings`](GraphicsViewportsExportSettings.md#GraphicsViewportsExportSettings)   | Settings object to control Graphics.ExportViewports behavior.                |
+| Name | Summary |
 |-----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
+| [`GraphicsViewportsExportSettings`](GraphicsViewportsExportSettings.md#GraphicsViewportsExportSettings)   | Settings object to control Graphics.ExportViewports behavior.                |
 | [`AnnotationPreferences`](AnnotationPreferences.md#AnnotationPreferences)                                 | AnnotationPreferences class.                                                 |
 | [`ResultPreference`](ResultPreference.md#ResultPreference)                                                | ResultPreference class.                                                      |
 | [`VectorDisplay`](VectorDisplay.md#VectorDisplay)                                                         | VectorDisplay class.                                                         |
@@ -55,8 +57,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`BorderStyle`](#Graphics.BorderStyle)   | Specifies which borders to add, if any, to the exported viewports image.                                                                                                                                                                                                                |
+| Name | Summary |
 |------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`BorderStyle`](#Graphics.BorderStyle)   | Specifies which borders to add, if any, to the exported viewports image.                                                                                                                                                                                                                |
 | [`CurrentGraphicsDisplay`](#id27)        | Specifies whether to use the current graphics display settings. Defaults to true.                                                                                                                                                                                                       |
 | [`AppendGraph`](#id28)                   | Specifies whether to append the viewport graph(s) to the exported image. Defaults to false.                                                                                                                                                                                             |
 | [`Resolution`](#id29)                    | Specifies the resolution type. Defaults to NormalResolution.                                                                                                                                                                                                                            |
@@ -164,14 +167,16 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`SetNodeNumbering`](#Graphics.SetNodeNumbering)       | Sets the begin, end and increment values to display node numbering.    |
+| Name | Summary |
 |--------------------------------------------------------|------------------------------------------------------------------------|
+| [`SetNodeNumbering`](#Graphics.SetNodeNumbering)       | Sets the begin, end and increment values to display node numbering.    |
 | [`SetElementNumbering`](#Graphics.SetElementNumbering) | Sets the begin, end and increment values to display element numbering. |
 
 ### Properties
 
-| [`ShowAllAnnotations`](#Graphics.ShowAllAnnotations)                 | Sets the visibility of all annotations.                                                    |
+| Name | Summary |
 |----------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| [`ShowAllAnnotations`](#Graphics.ShowAllAnnotations)                 | Sets the visibility of all annotations.                                                    |
 | [`ShowCustomAnnotations`](#Graphics.ShowCustomAnnotations)           | Sets the visibility of user defined annotations.                                           |
 | [`ShowLabels`](#Graphics.ShowLabels)                                 | Sets the visibility of annotation labels.                                                  |
 | [`ShowPointMasses`](#Graphics.ShowPointMasses)                       | Sets the visibility of point mass annotations.                                             |
@@ -360,8 +365,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`GeometryView`](../DataModel/MechanicalEnums/Graphics/GeometryView.md#GeometryView)                   | Sets the result geometry view.                                          |
+| Name | Summary |
 |--------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| [`GeometryView`](../DataModel/MechanicalEnums/Graphics/GeometryView.md#GeometryView)                   | Sets the result geometry view.                                          |
 | [`ContourView`](../DataModel/MechanicalEnums/Graphics/ContourView.md#ContourView)                      | Sets the result contour view.                                           |
 | [`ExtraModelDisplay`](../DataModel/MechanicalEnums/Graphics/ExtraModelDisplay.md#ExtraModelDisplay)    | Sets the result edge display option.                                    |
 | [`DeformationScaling`](../DataModel/MechanicalEnums/Graphics/DeformationScaling.md#DeformationScaling) | Sets the deformation scale multiplier to either AutoScale or TrueScale. |
@@ -476,8 +482,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`LengthType`](#Graphics.LengthType)                       | Sets the result vector length type.             |
+| Name | Summary |
 |------------------------------------------------------------|-------------------------------------------------|
+| [`LengthType`](#Graphics.LengthType)                       | Sets the result vector length type.             |
 | [`DisplayType`](#Graphics.DisplayType)                     | Sets the vector display type.                   |
 | [`ControlDisplayDensity`](#Graphics.ControlDisplayDensity) | Allows control of the vector display density.   |
 | [`DisplayDensity`](#Graphics.DisplayDensity)               | Sets the vector display density in percentage.  |
@@ -574,8 +581,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`BoundaryConditionVisibility`](#Graphics.BoundaryConditionVisibility)   | BoundaryConditionVisibility property.   |
+| Name | Summary |
 |--------------------------------------------------------------------------|-----------------------------------------|
+| [`BoundaryConditionVisibility`](#Graphics.BoundaryConditionVisibility)   | BoundaryConditionVisibility property.   |
 
 <a id="id7"></a>
 
@@ -609,8 +617,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`LegendOrientation`](#Graphics.LegendOrientation)       | Whether the orientation of the legend.             |
+| Name | Summary |
 |----------------------------------------------------------|----------------------------------------------------|
+| [`LegendOrientation`](#Graphics.LegendOrientation)       | Whether the orientation of the legend.             |
 | [`ShowDateAndTime`](#Graphics.ShowDateAndTime)           | Whether the  date and time of the legend is shown. |
 | [`ShowMinMax`](#Graphics.ShowMinMax)                     | Whether the Min and Max value are shown.           |
 | [`ShowDeformingScaling`](#Graphics.ShowDeformingScaling) | Whether the Deformation Scaling is shown.          |
@@ -671,8 +680,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Width`](#id33)   | Specifies the video width.   |
+| Name | Summary |
 |--------------------|------------------------------|
+| [`Width`](#id33)   | Specifies the video width.   |
 | [`Height`](#id34)  | Specifies the video height.  |
 
 <a id="id11"></a>
@@ -715,8 +725,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`NumberOfFrames`](#Graphics.NumberOfFrames)                                     | Gets or Sets the Number Of Frames for Distributed Result Animation.                         |
+| Name | Summary |
 |----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
+| [`NumberOfFrames`](#Graphics.NumberOfFrames)                                     | Gets or Sets the Number Of Frames for Distributed Result Animation.                         |
 | [`Duration`](#Graphics.Duration)                                                 | Gets or Sets the Duration for Result Animation.                                             |
 | [`RangeType`](#Graphics.RangeType)                                               | Gets or Sets the Range Type for Result Animation.                                           |
 | [`UpdateContourRangeAtEachFrame`](#Graphics.UpdateContourRangeAtEachFrame)       | Gets or Sets if the Legend Contours will Update at Each Frame.                              |
@@ -804,13 +815,15 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Equals`](#id38)   | Indicates whether the current SectionPlane properties are equal to the properties of another SectionPlane object.   |
+| Name | Summary |
 |---------------------|---------------------------------------------------------------------------------------------------------------------|
+| [`Equals`](#id38)   | Indicates whether the current SectionPlane properties are equal to the properties of another SectionPlane object.   |
 
 ### Properties
 
-| [`Active`](#Graphics.Active)       | Gets or Sets the Active State of the Section Plane      |
+| Name | Summary |
 |------------------------------------|---------------------------------------------------------|
+| [`Active`](#Graphics.Active)       | Gets or Sets the Active State of the Section Plane      |
 | [`Center`](#Graphics.Center)       | Gets or Sets the Center point of the Section Plane      |
 | [`Direction`](#Graphics.Direction) | Gets or Sets the Direction(Normal) of the Section Plane |
 | [`Name`](#Graphics.Name)           | Gets or Sets the Name of the Section Plane              |
@@ -892,16 +905,18 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Add`](#Graphics.Add)           | Adds the given SectionPlane object to the collection to modify the view. Currently only 6 SectionPlane objects in the collection can be activated at once.   |
+| Name | Summary |
 |----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`Add`](#Graphics.Add)           | Adds the given SectionPlane object to the collection to modify the view. Currently only 6 SectionPlane objects in the collection can be activated at once.   |
 | [`Clear`](#Graphics.Clear)       | Clears the collection of all SectionPlane objects.                                                                                                           |
 | [`Remove`](#Graphics.Remove)     | Removes the requested SectionPlane from the collection.                                                                                                      |
 | [`RemoveAt`](#Graphics.RemoveAt) | Removes the SectionPlane at the given index.                                                                                                                 |
 
 ### Properties
 
-| [`ShowWholeElement`](#Graphics.ShowWholeElement)   | Gets or Sets the Element Visibility of the Section Plane   |
+| Name | Summary |
 |----------------------------------------------------|------------------------------------------------------------|
+| [`ShowWholeElement`](#Graphics.ShowWholeElement)   | Gets or Sets the Element Visibility of the Section Plane   |
 | [`Capping`](#Graphics.Capping)                     | Gets or Sets the Capping style of the Section Plane        |
 | [`Count`](#Graphics.Count)                         | The number of section planes in the collection.            |
 
@@ -989,8 +1004,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Background`](#id31)   | Specifies the background color.   |
+| Name | Summary |
 |-------------------------|-----------------------------------|
+| [`Background`](#id31)   | Specifies the background color.   |
 
 <a id="id22"></a>
 
@@ -1024,8 +1040,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`CurrentGraphicsDisplay`](#id27)   | Specifies whether to use the current graphics display settings. Defaults to true.                                                                                                                                                                                                       |
+| Name | Summary |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`CurrentGraphicsDisplay`](#id27)   | Specifies whether to use the current graphics display settings. Defaults to true.                                                                                                                                                                                                       |
 | [`AppendGraph`](#id28)              | Specifies whether to append the viewport graph(s) to the exported image. Defaults to false.                                                                                                                                                                                             |
 | [`Resolution`](#id29)               | Specifies the resolution type. Defaults to NormalResolution.                                                                                                                                                                                                                            |
 | [`Capture`](#id30)                  | Specifies what to include in the capture. Defaults to ImageAndLegend.                                                                                                                                                                                                                   |
@@ -1122,21 +1139,24 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Constructors
 
-| [`ConvertUnit`](#Graphics.ConvertUnit)     | Returns a new Point given new unit.   |
+| Name | Summary |
 |--------------------------------------------|---------------------------------------|
+| [`ConvertUnit`](#Graphics.ConvertUnit)     | Returns a new Point given new unit.   |
 | [`op_Equality`](#Graphics.op_Equality)     | Equal operator                        |
 | [`op_Inequality`](#Graphics.op_Inequality) | Not-Equal operator                    |
 
 ### Methods
 
-| [`Equals`](#id38)                      | Object.Equals(object o) override   |
+| Name | Summary |
 |----------------------------------------|------------------------------------|
+| [`Equals`](#id38)                      | Object.Equals(object o) override   |
 | [`GetHashCode`](#Graphics.GetHashCode) | Object.GetHashCode() override      |
 
 ### Properties
 
-| [`Location`](#Graphics.Location)   | The location of the Point.    |
+| Name | Summary |
 |------------------------------------|-------------------------------|
+| [`Location`](#Graphics.Location)   | The location of the Point.    |
 | [`Unit`](#Graphics.Unit)           | The length unit of the Point. |
 
 <a id="id35"></a>
@@ -1223,13 +1243,15 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`RescaleAnnotations`](#Graphics.RescaleAnnotations)   | Rescale size of annotation following a zoom in or zoom out of the model.   |
+| Name | Summary |
 |--------------------------------------------------------|----------------------------------------------------------------------------|
+| [`RescaleAnnotations`](#Graphics.RescaleAnnotations)   | Rescale size of annotation following a zoom in or zoom out of the model.   |
 
 ### Properties
 
-| [`VectorDisplay`](VectorDisplay.md#VectorDisplay)                         | VectorDisplay property.                                                                 |
+| Name | Summary |
 |---------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
+| [`VectorDisplay`](VectorDisplay.md#VectorDisplay)                         | VectorDisplay property.                                                                 |
 | [`ResultPreference`](ResultPreference.md#ResultPreference)                | ResultPreference property.                                                              |
 | [`AnnotationPreferences`](AnnotationPreferences.md#AnnotationPreferences) | AnnotationPreferences property.                                                         |
 | [`ShowShellThickness`](#Graphics.ShowShellThickness)                      | Displays the thickness of shells.                                                       |

@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`eFlowOut`](#EXDEulerBoundaryDefType.eFlowOut)     |    |
+| Name | Summary |
 |-----------------------------------------------------|----|
+| [`eFlowOut`](#EXDEulerBoundaryDefType.eFlowOut)     |    |
 | [`eImpedance`](#EXDEulerBoundaryDefType.eImpedance) |    |
 | [`eRigid`](#EXDEulerBoundaryDefType.eRigid)         |    |
 

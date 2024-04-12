@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Lab`](#BFBlockCommand.Lab)                                 | Gets the label.                            |
+| Name | Summary |
 |--------------------------------------------------------------|--------------------------------------------|
+| [`Lab`](#BFBlockCommand.Lab)                                 | Gets the label.                            |
 | [`NodalBodyForceCount`](#BFBlockCommand.NodalBodyForceCount) | Gets the number of nodal body-force loads. |
 | [`NodalBodyForces`](#BFBlockCommand.NodalBodyForces)         | Gets the nodal body-force loads.           |
 | [`Name`](#BFBlockCommand.Name)                               | Gets the command name.                     |

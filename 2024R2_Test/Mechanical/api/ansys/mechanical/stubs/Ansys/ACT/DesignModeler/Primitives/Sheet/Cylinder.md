@@ -18,13 +18,15 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Generate`](#Cylinder.Generate)   | Generate the Cylinder and return the associated body.   |
+| Name | Summary |
 |------------------------------------|---------------------------------------------------------|
+| [`Generate`](#Cylinder.Generate)   | Generate the Cylinder and return the associated body.   |
 
 ### Properties
 
-| [`Center`](#Cylinder.Center)       | Gets or sets the center of the cylinder.   |
+| Name | Summary |
 |------------------------------------|--------------------------------------------|
+| [`Center`](#Cylinder.Center)       | Gets or sets the center of the cylinder.   |
 | [`Direction`](#Cylinder.Direction) | Gets or sets the axis of the cylinder.     |
 | [`Radius`](#Cylinder.Radius)       | Gets or sets the radius of the cylinder.   |
 

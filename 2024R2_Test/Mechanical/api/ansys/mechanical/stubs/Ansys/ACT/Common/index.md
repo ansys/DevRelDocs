@@ -10,13 +10,15 @@
 
 ### Subpackages
 
-| [`Graphics`](Graphics/index.md#module-ansys.mechanical.stubs.Ansys.ACT.Common.Graphics)   | Graphics subpackage.   |
+| Name | Summary |
 |-------------------------------------------------------------------------------------------|------------------------|
+| [`Graphics`](Graphics/index.md#module-ansys.mechanical.stubs.Ansys.ACT.Common.Graphics)   | Graphics subpackage.   |
 
 ### Classes
 
-| [`BrowserQt`](BrowserQt.md#BrowserQt)                      | BrowserQt class.                                                   |
+| Name | Summary |
 |------------------------------------------------------------|--------------------------------------------------------------------|
+| [`BrowserQt`](BrowserQt.md#BrowserQt)                      | BrowserQt class.                                                   |
 | [`CoordinateSystem`](CoordinateSystem.md#CoordinateSystem) | CoordinateSystem class                                             |
 | [`SimpleTransform`](SimpleTransform.md#SimpleTransform)    | Exposes simple getters and setters for rigid body transformations. |
 
@@ -44,8 +46,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Dispose`](#Common.Dispose)                                       | Dispose method.                    |
+| Name | Summary |
 |--------------------------------------------------------------------|------------------------------------|
+| [`Dispose`](#Common.Dispose)                                       | Dispose method.                    |
 | [`FindParentWindow`](#Common.FindParentWindow)                     | FindParentWindow method.           |
 | [`FindParentDialog`](#Common.FindParentDialog)                     | FindParentDialog method.           |
 | [`FindTopMostParentControl`](#Common.FindTopMostParentControl)     | FindTopMostParentControl method.   |
@@ -67,8 +70,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Tag`](#Common.Tag)                         | Tag property.             |
+| Name | Summary |
 |----------------------------------------------|---------------------------|
+| [`Tag`](#Common.Tag)                         | Tag property.             |
 | [`InvokeRequired`](#Common.InvokeRequired)   | InvokeRequired property.  |
 | [`Parent`](#Common.Parent)                   | Parent property.          |
 | [`Enabled`](#Common.Enabled)                 | Enabled property.         |
@@ -483,8 +487,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`CoordinateSystemType`](../../Mechanical/DataModel/Enums/CoordinateSystemType.md#CoordinateSystemType)   | Gets or sets the coordinate system type.                     |
+| Name | Summary |
 |-----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| [`CoordinateSystemType`](../../Mechanical/DataModel/Enums/CoordinateSystemType.md#CoordinateSystemType)   | Gets or sets the coordinate system type.                     |
 | [`Name`](#id4)                                                                                            | Gets or sets the name of the coordinate system.              |
 | [`Id`](#Common.Id)                                                                                        | Gets or sets the ID of the coordinate system.                |
 | [`Origin`](#Common.Origin)                                                                                | Gets or sets the origin of the coordinate system.            |
@@ -581,8 +586,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`TransformationMatrix`](#Common.TransformationMatrix)   | TransformationMatrix property.                                                    |
+| Name | Summary |
 |----------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`TransformationMatrix`](#Common.TransformationMatrix)   | TransformationMatrix property.                                                    |
 | [`IsOrthonormal`](#Common.IsOrthonormal)                 | Returns true if the provided axis vectors are all normalized and orthogonal.      |
 | [`Translation`](#Common.Translation)                     | The translation of the transformation with respect to the global/world coordinate |
 | [`XAxis`](#id7)                                          | The X-axis orientation of the transformation with respect to the global/world     |

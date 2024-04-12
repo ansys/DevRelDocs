@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`AllNodes`](#NodeSelection.AllNodes)         |    |
+| Name | Summary |
 |-----------------------------------------------|----|
+| [`AllNodes`](#NodeSelection.AllNodes)         |    |
 | [`VisibleNodes`](#NodeSelection.VisibleNodes) |    |
 
 <a id="import-detail"></a>

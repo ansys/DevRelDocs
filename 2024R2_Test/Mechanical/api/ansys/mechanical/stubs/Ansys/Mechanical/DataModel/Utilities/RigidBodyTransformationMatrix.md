@@ -29,8 +29,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Data`](#RigidBodyTransformationMatrix.Data)   | A 16-value list representing a linearized 4x4 transformation matrix.         |
+| Name | Summary |
 |-------------------------------------------------|------------------------------------------------------------------------------|
+| [`Data`](#RigidBodyTransformationMatrix.Data)   | A 16-value list representing a linearized 4x4 transformation matrix.         |
 | [`X_x`](#RigidBodyTransformationMatrix.X_x)     | Element 0: the x component of the X axis rotation.                           |
 | [`X_y`](#RigidBodyTransformationMatrix.X_y)     | Element 4: the y component of the X axis rotation.                           |
 | [`X_z`](#RigidBodyTransformationMatrix.X_z)     | Element 8: the z component of the X axis rotation.                           |

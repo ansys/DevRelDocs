@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`PureKinematic`](#RBDCorrectionType.PureKinematic)         |    |
+| Name | Summary |
 |-------------------------------------------------------------|----|
+| [`PureKinematic`](#RBDCorrectionType.PureKinematic)         |    |
 | [`WithInertiaMatrix`](#RBDCorrectionType.WithInertiaMatrix) |    |
 | [`ProgramControlled`](#RBDCorrectionType.ProgramControlled) |    |
 

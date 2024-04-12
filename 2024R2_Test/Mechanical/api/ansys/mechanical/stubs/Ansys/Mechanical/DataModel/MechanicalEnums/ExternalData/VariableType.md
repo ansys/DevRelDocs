@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`XCoordinate`](../Table/VariableType.md#VariableType.XCoordinate)                                      |    |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------|----|
+| [`XCoordinate`](../Table/VariableType.md#VariableType.XCoordinate)                                      |    |
 | [`YCoordinate`](../Table/VariableType.md#VariableType.YCoordinate)                                      |    |
 | [`ZCoordinate`](../Table/VariableType.md#VariableType.ZCoordinate)                                      |    |
 | [`NodeId`](#VariableType.NodeId)                                                                        |    |

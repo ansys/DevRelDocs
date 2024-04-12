@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`PrimaryCriterion`](PrimaryCriterion.md#PrimaryCriterion)   | Returns PrimaryCriterion Object associated with the CompositeCriterionTerm.   |
+| Name | Summary |
 |--------------------------------------------------------------|-------------------------------------------------------------------------------|
+| [`PrimaryCriterion`](PrimaryCriterion.md#PrimaryCriterion)   | Returns PrimaryCriterion Object associated with the CompositeCriterionTerm.   |
 | [`Coefficient`](#CompositeCriterionTerm.Coefficient)         | Returns coefficient of PrimaryCriterion in the CompositeCriterionTerm.        |
 
 <a id="import-detail"></a>

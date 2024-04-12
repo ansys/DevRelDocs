@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Active`](#ContactSideScopingType.Active)                                           |    |
+| Name | Summary |
 |--------------------------------------------------------------------------------------|----|
+| [`Active`](#ContactSideScopingType.Active)                                           |    |
 | [`ContactSideBoth`](#ContactSideScopingType.ContactSideBoth)                         |    |
 | [`ContactSourceUnderlying`](#ContactSideScopingType.ContactSourceUnderlying)         |    |
 | [`SourceContactForcesProperty`](#ContactSideScopingType.SourceContactForcesProperty) |    |

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`EachIteration`](#UpdateContactStiffness.EachIteration)                       |    |
+| Name | Summary |
 |--------------------------------------------------------------------------------|----|
+| [`EachIteration`](#UpdateContactStiffness.EachIteration)                       |    |
 | [`EachIterationAggressive`](#UpdateContactStiffness.EachIterationAggressive)   |    |
 | [`EachIterationExponential`](#UpdateContactStiffness.EachIterationExponential) |    |
 | [`EachSubStep`](#UpdateContactStiffness.EachSubStep)                           |    |

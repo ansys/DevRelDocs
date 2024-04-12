@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#MeshWorkflowOutcome.Delete)                                   | Run the Delete action.                                                            |
+| Name | Summary |
 |---------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#MeshWorkflowOutcome.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                     | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                     | Gets the list of children, filtered by type.                                      |
 | [`AddFigure`](#MeshWorkflowOutcome.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -37,8 +38,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`OutcomeType`](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/OutcomeType.md#OutcomeType)              | Returns the type of the control.                              |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`OutcomeType`](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/OutcomeType.md#OutcomeType)              | Returns the type of the control.                              |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#MeshWorkflowOutcome.Children)                                                                         | Gets the list of children.                                    |

@@ -10,8 +10,9 @@
 
 ### Classes
 
-| [`PythonResult`](PythonResult.md#PythonResult)                                        | Defines a PythonResult.              |
+| Name | Summary |
 |---------------------------------------------------------------------------------------|--------------------------------------|
+| [`PythonResult`](PythonResult.md#PythonResult)                                        | Defines a PythonResult.              |
 | [`ScriptDefinedResultFolder`](ScriptDefinedResultFolder.md#ScriptDefinedResultFolder) | Defines a ScriptDefinedResultFolder. |
 
 <a id="description"></a>
@@ -38,8 +39,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Evaluate`](#ScriptableResults.Evaluate)                     | Evaluate method.                                                                  |
+| Name | Summary |
 |---------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Evaluate`](#ScriptableResults.Evaluate)                     | Evaluate method.                                                                  |
 | [`EvaluateAllResults`](#id15)                                 | Evaluate all results.                                                             |
 | [`ClearGeneratedData`](#ScriptableResults.ClearGeneratedData) | ClearGeneratedData method.                                                        |
 | [`ExportAnimation`](#ScriptableResults.ExportAnimation)       | Run the ExportAnimation action.                                                   |
@@ -64,8 +66,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id11)                                                                                                 | Gets the internal object. For advanced usage only.                                    |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+| [`InternalObject`](#id11)                                                                                                 | Gets the internal object. For advanced usage only.                                    |
 | [`Mode`](#ScriptableResults.Mode)                                                                                         | Gets or sets the Mode.                                                                |
 | [`DisplayTime`](#ScriptableResults.DisplayTime)                                                                           | Gets or sets the DisplayTime.                                                         |
 | [`By`](#ScriptableResults.By)                                                                                             | Gets or sets the By.                                                                  |
@@ -435,8 +438,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`EvaluateAllResults`](#id15)                           | EvaluatesAllResults.                                                              |
+| Name | Summary |
 |---------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`EvaluateAllResults`](#id15)                           | EvaluatesAllResults.                                                              |
 | [`AddPythonResult`](#ScriptableResults.AddPythonResult) | Creates a new PythonResult                                                        |
 | [`GetChildren`](#id17)                                  | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id17)                                  | Gets the list of children, filtered by type.                                      |
@@ -456,8 +460,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id11)                                                                                                 | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id11)                                                                                                 | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#id7)                                                                                                        | Gets the list of children.                                    |
 | [`Comments`](#id8)                                                                                                        | Gets the list of associated comments.                         |

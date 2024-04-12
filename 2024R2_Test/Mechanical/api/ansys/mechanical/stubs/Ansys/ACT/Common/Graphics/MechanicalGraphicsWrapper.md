@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ExportScreenToImage`](#MechanicalGraphicsWrapper.ExportScreenToImage)   | ExportScreenToImage method.                                                              |
+| Name | Summary |
 |---------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| [`ExportScreenToImage`](#MechanicalGraphicsWrapper.ExportScreenToImage)   | ExportScreenToImage method.                                                              |
 | [`ExportImage`](#MechanicalGraphicsWrapper.ExportImage)                   | Exports the current graphics display to a 2D image file.                                 |
 | [`ExportViewports`](#MechanicalGraphicsWrapper.ExportViewports)           | Creates a composite of images exported from each open viewport.                          |
 | [`Export3D`](#MechanicalGraphicsWrapper.Export3D)                         | Exports the current Graphics display in a 3d format to a file.                           |
@@ -32,8 +33,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Unit`](#MechanicalGraphicsWrapper.Unit)                                                                 | Gets the current graphics unit.                           |
+| Name | Summary |
 |-----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
+| [`Unit`](#MechanicalGraphicsWrapper.Unit)                                                                 | Gets the current graphics unit.                           |
 | [`ModelViewManager`](ModelViewManager.md#ModelViewManager)                                                | An instance of the ModelViewManager.                      |
 | [`KeyframeAnimationUtility`](#MechanicalGraphicsWrapper.KeyframeAnimationUtility)                         | A utility for creating animations based on keyframes.     |
 | [`ResultAnimationOptions`](../../../Mechanical/Graphics/ResultAnimationOptions.md#ResultAnimationOptions) | Gets the Global Result Animation options.                 |

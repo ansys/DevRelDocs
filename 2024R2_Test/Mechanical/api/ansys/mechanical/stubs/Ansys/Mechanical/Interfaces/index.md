@@ -10,8 +10,9 @@
 
 ### Interfaces
 
-| [`IDataSeries`](IDataSeries.md#IDataSeries)                         | IDataSeries interface.                                                                   |
+| Name | Summary |
 |---------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| [`IDataSeries`](IDataSeries.md#IDataSeries)                         | IDataSeries interface.                                                                   |
 | [`IDataTable`](IDataTable.md#IDataTable)                            | IDataTable interface.                                                                    |
 | [`IReadOnlyDataSeries`](IReadOnlyDataSeries.md#IReadOnlyDataSeries) | IReadOnlyDataSeries interface.                                                           |
 | [`IReadOnlyDataTable`](IReadOnlyDataTable.md#IReadOnlyDataTable)    | IReadOnlyDataTable interface.                                                            |
@@ -42,8 +43,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`DataType`](#id7)      |                                                                                                |
+| Name | Summary |
 |-------------------------|------------------------------------------------------------------------------------------------|
+| [`DataType`](#id7)      |                                                                                                |
 | [`Name`](#id18)         | Gets or sets the name of the data series.                                                      |
 | [`QuantityName`](#id27) | Gets or sets the quantity name of the data series, e.g., “Length”, “Pressure”, or “Heat Flux”. |
 | [`Unit`](#id26)         | Gets or sets a string representation of the data series units, e.g., “m”,                      |
@@ -110,8 +112,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Add`](#Interfaces.Add)                   | Add a new column to the data table.                                       |
+| Name | Summary |
 |--------------------------------------------|---------------------------------------------------------------------------|
+| [`Add`](#Interfaces.Add)                   | Add a new column to the data table.                                       |
 | [`Clear`](#Interfaces.Clear)               | Drops all columns from the data table.                                    |
 | [`Contains`](#Interfaces.Contains)         | Returns whether the data table contains a column with the specified name. |
 | [`GetRow`](#id21)                          |                                                                           |
@@ -122,8 +125,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`ColumnNames`](#id14)                                 |                                                                                          |
+| Name | Summary |
 |--------------------------------------------------------|------------------------------------------------------------------------------------------|
+| [`ColumnNames`](#id14)                                 |                                                                                          |
 | [`Columns`](#id15)                                     | Explicitly get or set the columns of the data table.                                     |
 | [`Count`](#id6)                                        | Gets the number of columns in the table.                                                 |
 | [`IsFixedColumnCount`](#Interfaces.IsFixedColumnCount) | Get whether additional columns can be added or removed from the contained                |
@@ -295,8 +299,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Item`](#id16)         | Item property.                                                                         |
+| Name | Summary |
 |-------------------------|----------------------------------------------------------------------------------------|
+| [`Item`](#id16)         | Item property.                                                                         |
 | [`Count`](#id6)         | Gets the number of data points.                                                        |
 | [`DataType`](#id7)      | Gets the type stored by the data series.                                               |
 | [`Name`](#id18)         | Gets the name of the data series.                                                      |
@@ -385,13 +390,15 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetRow`](#id21)   | Returns an enumerable to iterate over the values in a row.   |
+| Name | Summary |
 |---------------------|--------------------------------------------------------------|
+| [`GetRow`](#id21)   | Returns an enumerable to iterate over the values in a row.   |
 
 ### Properties
 
-| [`ColumnNames`](#id14)   | Gets a list of the column names.                                                      |
+| Name | Summary |
 |--------------------------|---------------------------------------------------------------------------------------|
+| [`ColumnNames`](#id14)   | Gets a list of the column names.                                                      |
 | [`Columns`](#id15)       | Explicitly get the columns of the table.                                              |
 | [`Item`](#id16)          | Item property.                                                                        |
 | [`Metadata`](#id17)      | Gets a dictionary with additional information that may be useful to understanding the |
@@ -484,8 +491,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Independents`](#Interfaces.Independents)   | The portion of the table corresponding to independent variables.   |
+| Name | Summary |
 |----------------------------------------------|--------------------------------------------------------------------|
+| [`Independents`](#Interfaces.Independents)   | The portion of the table corresponding to independent variables.   |
 | [`Dependents`](#Interfaces.Dependents)       | The portion of the table corresponding to dependent variables.     |
 
 <a id="id22"></a>
@@ -528,8 +536,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Unit`](#id26)         | The unit of the variable.  For example, this could be “mm”.              |
+| Name | Summary |
 |-------------------------|--------------------------------------------------------------------------|
+| [`Unit`](#id26)         | The unit of the variable.  For example, this could be “mm”.              |
 | [`QuantityName`](#id27) | The quantity name of the variable.  For example, this could be “Length”. |
 
 <a id="id24"></a>

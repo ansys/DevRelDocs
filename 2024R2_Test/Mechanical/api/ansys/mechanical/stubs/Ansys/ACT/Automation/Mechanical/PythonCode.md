@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ReloadProperties`](#PythonCode.ReloadProperties)               | Reload properties to update properties provided by the provider.                  |
+| Name | Summary |
 |------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ReloadProperties`](#PythonCode.ReloadProperties)               | Reload properties to update properties provided by the provider.                  |
 | [`Connect`](MeshControls/Connect.md#Connect)                     | Register the python code.                                                         |
 | [`Delete`](#PythonCode.Delete)                                   | Run the Delete action.                                                            |
 | [`Activate`](#PythonCode.Activate)                               | Activate the current object.                                                      |
@@ -35,8 +36,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Text`](#PythonCode.Text)                                                                                          | Gets or sets the text in the script tab for the Python Code object.                   |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+| [`Text`](#PythonCode.Text)                                                                                          | Gets or sets the text in the script tab for the Python Code object.                   |
 | [`PropertyProvider`](#PythonCode.PropertyProvider)                                                                  | Gets or sets the propperty provider instance associated with this python code object. |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.                                    |
 | [`ScriptExecutionScope`](#PythonCode.ScriptExecutionScope)                                                          | The scope identifier in which the code execution will take place.                     |

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`All`](#TreeFilterScopingType.All)         |    |
+| Name | Summary |
 |---------------------------------------------|----|
+| [`All`](#TreeFilterScopingType.All)         |    |
 | [`Partial`](#TreeFilterScopingType.Partial) |    |
 
 <a id="import-detail"></a>

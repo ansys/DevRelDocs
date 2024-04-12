@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#MeshEdit.ClearGeneratedData)                                 | Clear the generated data.                                                         |
+| Name | Summary |
 |--------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#MeshEdit.ClearGeneratedData)                                 | Clear the generated data.                                                         |
 | [`AddNodeMerge`](#MeshEdit.AddNodeMerge)                                             | Add a new NodeMerge.                                                              |
 | [`AddManualMeshConnection`](#MeshEdit.AddManualMeshConnection)                       | Add a new ManualMeshConnection                                                    |
 | [`Generate`](#MeshEdit.Generate)                                                     | Generate all mesh edits.                                                          |
@@ -52,8 +53,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.                    |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.                    |
 | [`GenerateAutomaticMeshConnectionsOnRefresh`](#MeshEdit.GenerateAutomaticMeshConnectionsOnRefresh)                  | Gets or sets the GenerateAutomaticMeshConnectionsOnRefresh.           |
 | [`AssociateToPullGeometry`](#MeshEdit.AssociateToPullGeometry)                                                      | To Migrate Boundary Conditions from profile to resulting Pull bodies. |
 | [`TransparencyEnabled`](#MeshEdit.TransparencyEnabled)                                                              | Gets or sets the TransparencyEnabled.                                 |

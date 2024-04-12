@@ -10,16 +10,18 @@
 
 ### Subpackages
 
-| [`AdditionalProperties`](AdditionalProperties/index.md#module-ansys.mechanical.stubs.Ansys.ACT.Mechanical.AdditionalProperties)   | AdditionalProperties subpackage.   |
+| Name | Summary |
 |-----------------------------------------------------------------------------------------------------------------------------------|------------------------------------|
+| [`AdditionalProperties`](AdditionalProperties/index.md#module-ansys.mechanical.stubs.Ansys.ACT.Mechanical.AdditionalProperties)   | AdditionalProperties subpackage.   |
 | [`Application`](Application/index.md#module-ansys.mechanical.stubs.Ansys.ACT.Mechanical.Application)                              | Application submodule.             |
 | [`Fields`](Fields/index.md#module-ansys.mechanical.stubs.Ansys.ACT.Mechanical.Fields)                                             | Fields subpackage.                 |
 | [`Utilities`](Utilities/index.md#module-ansys.mechanical.stubs.Ansys.ACT.Mechanical.Utilities)                                    | Utilities subpackage.              |
 
 ### Classes
 
-| [`Transaction`](Transaction.md#Transaction)   | Speeds up bulk user interactions.                                           |
+| Name | Summary |
 |-----------------------------------------------|-----------------------------------------------------------------------------|
+| [`Transaction`](Transaction.md#Transaction)   | Speeds up bulk user interactions.                                           |
 | [`UnitsHelper`](UnitsHelper.md#UnitsHelper)   | Defines set of methods that can be used to find mechanical unit information |
 
 <a id="description"></a>
@@ -64,8 +66,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Constructors
 
-| [`ConvertMechanicalUnitToCoreUnit`](#Mechanical.ConvertMechanicalUnitToCoreUnit)   | Takes input mechanical unit string and category string   |
+| Name | Summary |
 |------------------------------------------------------------------------------------|----------------------------------------------------------|
+| [`ConvertMechanicalUnitToCoreUnit`](#Mechanical.ConvertMechanicalUnitToCoreUnit)   | Takes input mechanical unit string and category string   |
 | [`GetValidQuantityNamesAndUnits`](#Mechanical.GetValidQuantityNamesAndUnits)       | Retrieve a dictionary of quantity names to unit strings. |
 
 <a id="id1"></a>

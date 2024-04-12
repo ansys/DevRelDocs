@@ -33,8 +33,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Name`](#IdentifierType.Name)   |    |
+| Name | Summary |
 |----------------------------------|----|
+| [`Name`](#IdentifierType.Name)   |    |
 | [`UUID`](#IdentifierType.UUID)   |    |
 
 <a id="import-detail"></a>

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`IncludeResultAndSolutionFiles`](#ArchiveSettings.IncludeResultAndSolutionFiles)   | A boolean which configures the option to include result/solution files in the archive file             |
+| Name | Summary |
 |-------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
+| [`IncludeResultAndSolutionFiles`](#ArchiveSettings.IncludeResultAndSolutionFiles)   | A boolean which configures the option to include result/solution files in the archive file             |
 | [`IncludeUserFiles`](#ArchiveSettings.IncludeUserFiles)                             | A boolean which configures the option to include files inside the UserFiles folder in the archive file |
 
 <a id="import-detail"></a>

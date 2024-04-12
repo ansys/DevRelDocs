@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ScopedBodies`](#ScopingDisplay.ScopedBodies)   |    |
+| Name | Summary |
 |--------------------------------------------------|----|
+| [`ScopedBodies`](#ScopingDisplay.ScopedBodies)   |    |
 | [`AllBodies`](#ScopingDisplay.AllBodies)         |    |
 | [`ResultOnly`](#ScopingDisplay.ResultOnly)       |    |
 

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Full`](#BrickIntegrationScheme.Full)       |    |
+| Name | Summary |
 |----------------------------------------------|----|
+| [`Full`](#BrickIntegrationScheme.Full)       |    |
 | [`Reduced`](#BrickIntegrationScheme.Reduced) |    |
 
 <a id="import-detail"></a>

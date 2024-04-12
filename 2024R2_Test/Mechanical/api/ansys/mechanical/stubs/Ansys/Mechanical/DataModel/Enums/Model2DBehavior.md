@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`AxiSymmetric`](#Model2DBehavior.AxiSymmetric)                                                                                    |    |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------------------|----|
+| [`AxiSymmetric`](#Model2DBehavior.AxiSymmetric)                                                                                    |    |
 | [`ByBody`](#Model2DBehavior.ByBody)                                                                                                |    |
 | [`GeneralAxisymmetric`](../../../ACT/Automation/Mechanical/GeneralAxisymmetric.md#GeneralAxisymmetric)                             |    |
 | [`GeneralizedPlaneStrain`](../../../ACT/Automation/Mechanical/BoundaryConditions/GeneralizedPlaneStrain.md#GeneralizedPlaneStrain) |    |

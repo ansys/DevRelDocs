@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Factor`](#GrowElbowElementsBy.Factor)                     |    |
+| Name | Summary |
 |-------------------------------------------------------------|----|
+| [`Factor`](#GrowElbowElementsBy.Factor)                     |    |
 | [`Length`](#GrowElbowElementsBy.Length)                     |    |
 | [`NumberOfElements`](#GrowElbowElementsBy.NumberOfElements) |    |
 | [`No`](#GrowElbowElementsBy.No)                             |    |

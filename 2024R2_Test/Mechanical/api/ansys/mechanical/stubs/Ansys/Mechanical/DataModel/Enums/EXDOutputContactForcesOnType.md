@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`TimeSteps`](#EXDOutputContactForcesOnType.TimeSteps)         |    |
+| Name | Summary |
 |----------------------------------------------------------------|----|
+| [`TimeSteps`](#EXDOutputContactForcesOnType.TimeSteps)         |    |
 | [`Time`](#EXDOutputContactForcesOnType.Time)                   |    |
 | [`EquallySpaced`](#EXDOutputContactForcesOnType.EquallySpaced) |    |
 | [`Off`](#EXDOutputContactForcesOnType.Off)                     |    |

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Coupled`](#SymmetryBehavior.Coupled)   |    |
+| Name | Summary |
 |------------------------------------------|----|
+| [`Coupled`](#SymmetryBehavior.Coupled)   |    |
 | [`Free`](#SymmetryBehavior.Free)         |    |
 
 <a id="import-detail"></a>

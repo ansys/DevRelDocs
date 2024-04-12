@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Adaptive`](#ContactSmallSlidingType.Adaptive)                   |    |
+| Name | Summary |
 |-------------------------------------------------------------------|----|
+| [`Adaptive`](#ContactSmallSlidingType.Adaptive)                   |    |
 | [`Off`](#ContactSmallSlidingType.Off)                             |    |
 | [`On`](#ContactSmallSlidingType.On)                               |    |
 | [`ProgramControlled`](#ContactSmallSlidingType.ProgramControlled) |    |

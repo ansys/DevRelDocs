@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Factor`](#SpringsStiffnessType.Factor)                       |    |
+| Name | Summary |
 |----------------------------------------------------------------|----|
+| [`Factor`](#SpringsStiffnessType.Factor)                       |    |
 | [`Manual`](#SpringsStiffnessType.Manual)                       |    |
 | [`ProgramControlled`](#SpringsStiffnessType.ProgramControlled) |    |
 

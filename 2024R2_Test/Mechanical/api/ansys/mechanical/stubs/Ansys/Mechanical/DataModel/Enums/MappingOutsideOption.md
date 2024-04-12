@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Ignore`](#MappingOutsideOption.Ignore)           |    |
+| Name | Summary |
 |----------------------------------------------------|----|
+| [`Ignore`](#MappingOutsideOption.Ignore)           |    |
 | [`WeightedAvg`](#MappingOutsideOption.WeightedAvg) |    |
 | [`Projection`](#MappingOutsideOption.Projection)   |    |
 | [`NearestNode`](#MappingOutsideOption.NearestNode) |    |

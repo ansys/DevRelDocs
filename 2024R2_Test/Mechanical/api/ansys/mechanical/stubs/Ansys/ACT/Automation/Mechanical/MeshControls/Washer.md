@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GenerateMesh`](#Washer.GenerateMesh)                       | Generate the Mesh.                                                                |
+| Name | Summary |
 |--------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GenerateMesh`](#Washer.GenerateMesh)                       | Generate the Mesh.                                                                |
 | [`RenameBasedOnDefinition`](#Washer.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#Washer.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                        | Gets the list of children, filtered by type.                                      |
@@ -40,8 +41,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`NumberOfWasherLayers`](#Washer.NumberOfWasherLayers)                                                                 | NumberOfWasherLayers property.                                |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`NumberOfWasherLayers`](#Washer.NumberOfWasherLayers)                                                                 | NumberOfWasherLayers property.                                |
 | [`WasherMethod`](#Washer.WasherMethod)                                                                                 | WasherMethod property.                                        |
 | [`WasherType`](#Washer.WasherType)                                                                                     | WasherType property.                                          |
 | [`NumberOfWasherDivisions`](#Washer.NumberOfWasherDivisions)                                                           | NumberOfWasherDivisions property.                             |

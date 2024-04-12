@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Soft`](#SizingBehavior.Soft)   |    |
+| Name | Summary |
 |----------------------------------|----|
+| [`Soft`](#SizingBehavior.Soft)   |    |
 | [`Hard`](#SizingBehavior.Hard)   |    |
 
 <a id="import-detail"></a>

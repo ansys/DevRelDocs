@@ -10,8 +10,9 @@
 
 ### Classes
 
-| [`NASTRANCommand`](NASTRANCommand.md#NASTRANCommand)                      | NASTRANCommand class.    |
+| Name | Summary |
 |---------------------------------------------------------------------------|--------------------------|
+| [`NASTRANCommand`](NASTRANCommand.md#NASTRANCommand)                      | NASTRANCommand class.    |
 | [`GenericCommand`](GenericCommand.md#GenericCommand)                      | Generic command.         |
 | [`CaseControlCommand`](CaseControlCommand.md#CaseControlCommand)          | Case control command.    |
 | [`NastranOption`](NastranOption.md#NastranOption)                         | Option.                  |
@@ -42,8 +43,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Name`](#id13)   | Gets the command name.   |
+| Name | Summary |
 |-------------------|--------------------------|
+| [`Name`](#id13)   | Gets the command name.   |
 | [`Index`](#id14)  | Gets the command index.  |
 
 <a id="import-detail"></a>
@@ -86,8 +88,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Arguments`](#id12)   | Gets the arguments.     |
+| Name | Summary |
 |------------------------|-------------------------|
+| [`Arguments`](#id12)   | Gets the arguments.     |
 | [`Name`](#id13)        | Gets the command name.  |
 | [`Index`](#id14)       | Gets the command index. |
 
@@ -139,8 +142,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Text`](#NASTRAN.Text)   | Gets the text.          |
+| Name | Summary |
 |---------------------------|-------------------------|
+| [`Text`](#NASTRAN.Text)   | Gets the text.          |
 | [`Name`](#id13)           | Gets the command name.  |
 | [`Index`](#id14)          | Gets the command index. |
 
@@ -228,8 +232,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Arguments`](#id12)                  | Gets the arguments.     |
+| Name | Summary |
 |---------------------------------------|-------------------------|
+| [`Arguments`](#id12)                  | Gets the arguments.     |
 | [`OptionLines`](#NASTRAN.OptionLines) | Gets the option lines.  |
 | [`Name`](#id13)                       | Gets the command name.  |
 | [`Index`](#id14)                      | Gets the command index. |

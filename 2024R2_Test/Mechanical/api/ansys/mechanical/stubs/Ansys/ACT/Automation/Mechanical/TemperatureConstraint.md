@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`RenameBasedOnDefinition`](#TemperatureConstraint.RenameBasedOnDefinition)   | Run the RenameBasedOnDefinition action.                                           |
+| Name | Summary |
 |-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`RenameBasedOnDefinition`](#TemperatureConstraint.RenameBasedOnDefinition)   | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#TemperatureConstraint.Delete)                                     | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                         | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                         | Gets the list of children, filtered by type.                                      |
@@ -36,8 +37,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.                                       |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.                                       |
 | [`TemperatureAbsMax`](#TemperatureConstraint.TemperatureAbsMax)                                                     | Gets or sets the TemperatureAbsMax.                                                      |
 | [`ScopingMethod`](#TemperatureConstraint.ScopingMethod)                                                             | Gets or sets the ScopingMethod.                                                          |
 | [`Location`](#TemperatureConstraint.Location)                                                                       | Gets or sets the Location.                                                               |

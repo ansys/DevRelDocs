@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`SectionId`](#MAPDLLayeredSectionData.SectionId)   | Gets the section Id for the layered section.   |
+| Name | Summary |
 |-----------------------------------------------------|------------------------------------------------|
+| [`SectionId`](#MAPDLLayeredSectionData.SectionId)   | Gets the section Id for the layered section.   |
 
 <a id="import-detail"></a>
 

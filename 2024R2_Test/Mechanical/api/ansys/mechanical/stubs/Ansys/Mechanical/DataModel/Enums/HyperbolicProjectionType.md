@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`No`](#HyperbolicProjectionType.No)                               |    |
+| Name | Summary |
 |--------------------------------------------------------------------|----|
+| [`No`](#HyperbolicProjectionType.No)                               |    |
 | [`ProgramControlled`](#HyperbolicProjectionType.ProgramControlled) |    |
 | [`Yes`](#HyperbolicProjectionType.Yes)                             |    |
 

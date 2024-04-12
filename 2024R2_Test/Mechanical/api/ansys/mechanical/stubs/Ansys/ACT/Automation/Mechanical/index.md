@@ -10,8 +10,9 @@
 
 ### Subpackages
 
-| [`AdditiveManufacturing`](AdditiveManufacturing/index.md#module-ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.AdditiveManufacturing)   | AdditiveManufacturing subpackage.   |
+| Name | Summary |
 |-------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
+| [`AdditiveManufacturing`](AdditiveManufacturing/index.md#module-ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.AdditiveManufacturing)   | AdditiveManufacturing subpackage.   |
 | [`AnalysisSettings`](AnalysisSettings/index.md#module-ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.AnalysisSettings)                  | AnalysisSettings subpackage.        |
 | [`BoundaryConditions`](BoundaryConditions/index.md#module-ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.BoundaryConditions)            | BoundaryConditions subpackage.      |
 | [`Connections`](Connections/index.md#module-ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.Connections)                                 | Connections subpackage.             |
@@ -23,13 +24,15 @@
 
 ### Interfaces
 
-| [`ICrossSection`](ICrossSection.md#ICrossSection)   | Defines a ICrossSection.   |
+| Name | Summary |
 |-----------------------------------------------------|----------------------------|
+| [`ICrossSection`](ICrossSection.md#ICrossSection)   | Defines a ICrossSection.   |
 
 ### Classes
 
-| [`ComplexityIndexConstraint`](ComplexityIndexConstraint.md#ComplexityIndexConstraint)                                           | Defines a ComplexityIndexConstraint.                                                                                                                                                                                             |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`ComplexityIndexConstraint`](ComplexityIndexConstraint.md#ComplexityIndexConstraint)                                           | Defines a ComplexityIndexConstraint.                                                                                                                                                                                             |
 | [`LineChart2D`](LineChart2D.md#LineChart2D)                                                                                     | Defines a LineChart2D.                                                                                                                                                                                                           |
 | [`CoordinateSystems`](CoordinateSystems.md#CoordinateSystems)                                                                   | Defines a CoordinateSystems.                                                                                                                                                                                                     |
 | [`CoSimulationPin`](CoSimulationPin.md#CoSimulationPin)                                                                         | Defines a CoSimulationPin.                                                                                                                                                                                                       |
@@ -255,8 +258,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
+| Name | Summary |
 |----------------------------------------|-----------------------------------------------------------------------------------|
+| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id6084)                    | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
@@ -273,8 +277,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Suppressed`](#id5991)                                                                                             | Gets or sets the Suppressed.                                  |
 | [`Selection`](#id5987)                                                                                              | Gets or sets the Selection.                                   |
@@ -488,8 +493,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`Activate`](#id6090)                | Activate the current object.                                                      |
 | [`CopyTo`](#id6091)                  | Copies all visible properties from this object to another.                        |
@@ -504,8 +510,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`Suppressed`](#id5991)                                                                                             | Gets or sets the Suppressed.                                  |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#id6075)                                                                                               | Gets the list of children.                                    |
@@ -694,8 +701,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddCoordinateSystemAtCenterOfMass`](#Mechanical.AddCoordinateSystemAtCenterOfMass)   | AddCoordinateSystemAtCenterOfMass method.                                         |
+| Name | Summary |
 |----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddCoordinateSystemAtCenterOfMass`](#Mechanical.AddCoordinateSystemAtCenterOfMass)   | AddCoordinateSystemAtCenterOfMass method.                                         |
 | [`AddCoordinateSystem`](#Mechanical.AddCoordinateSystem)                               | Creates a new CoordinateSystem                                                    |
 | [`GetChildren`](#id6086)                                                               | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)                                                               | Gets the list of children, filtered by type.                                      |
@@ -715,8 +723,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#id6075)                                                                                               | Gets the list of children.                                    |
 | [`Comments`](#id6076)                                                                                               | Gets the list of associated comments.                         |
@@ -965,8 +974,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`Activate`](#id6090)                | Activate the current object.                                                      |
@@ -982,8 +992,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Scope`](#Mechanical.Scope)                                                                                        | Gets or sets the Joint through Scope.                         |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Scope`](#Mechanical.Scope)                                                                                        | Gets or sets the Joint through Scope.                         |
 | [`DOF`](#Mechanical.DOF)                                                                                            | Gets or sets the DOF.                                         |
 | [`JointType`](../../../Mechanical/DataModel/Enums/JointType.md#JointType)                                           | Gets or sets the Joint Type.                                  |
 | [`PinBehavior`](../../../Mechanical/DataModel/Enums/PinBehavior.md#PinBehavior)                                     | Gets or sets the Pin Behavior.                                |
@@ -1225,8 +1236,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Type`](#id5256)                                          | Gets or Sets Condensed part interface type   |
+| Name | Summary |
 |------------------------------------------------------------|----------------------------------------------|
+| [`Type`](#id5256)                                          | Gets or Sets Condensed part interface type   |
 | [`RemotePointSelection`](#Mechanical.RemotePointSelection) | Gets or Sets RemotePointSelection            |
 | [`NamedSelection`](NamedSelection.md#NamedSelection)       | Gets or Sets NamedSelection                  |
 | [`AllSelection`](#Mechanical.AllSelection)                 | AllSelection property.                       |
@@ -1287,15 +1299,17 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Clear`](#id6056)    | Clears all the condensed part interfaces           |
+| Name | Summary |
 |-----------------------|----------------------------------------------------|
+| [`Clear`](#id6056)    | Clears all the condensed part interfaces           |
 | [`Add`](#id6054)      | Add new condensed part interface                   |
 | [`RemoveAt`](#id6060) | Remove condensed part interface at the given index |
 
 ### Properties
 
-| [`Item`](#id6051)   | Item property.   |
+| Name | Summary |
 |---------------------|------------------|
+| [`Item`](#id6051)   | Item property.   |
 
 <a id="id70"></a>
 
@@ -1357,8 +1371,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`UpdateAllSolids`](#Mechanical.UpdateAllSolids)           | Update all solid parts under the Construction Geometry folder.                    |
+| Name | Summary |
 |------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`UpdateAllSolids`](#Mechanical.UpdateAllSolids)           | Update all solid parts under the Construction Geometry folder.                    |
 | [`UpdateSolids`](#Mechanical.UpdateSolids)                 | Update only the solids that are activated                                         |
 | [`AddConstructionLine`](#Mechanical.AddConstructionLine)   | Creates a new ConstructionLine                                                    |
 | [`AddConstructionPoint`](#Mechanical.AddConstructionPoint) | Creates a new ConstructionPoint                                                   |
@@ -1385,8 +1400,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`ShowMesh`](#id2873)                                                                                               | Gets or sets the ShowMesh.                                    |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#id6075)                                                                                               | Gets the list of children.                                    |
@@ -1700,8 +1716,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`NameCrossSectionsUniquely`](#Mechanical.NameCrossSectionsUniquely)               | programmatically give each of the Cross Section objects a unique name .           |
+| Name | Summary |
 |------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`NameCrossSectionsUniquely`](#Mechanical.NameCrossSectionsUniquely)               | programmatically give each of the Cross Section objects a unique name .           |
 | [`AddChannelCrossSection`](#Mechanical.AddChannelCrossSection)                     | Creates a new ChannelCrossSection                                                 |
 | [`AddCircularCrossSection`](#Mechanical.AddCircularCrossSection)                   | Creates a new CircularCrossSection                                                |
 | [`AddCircularTubeCrossSection`](#Mechanical.AddCircularTubeCrossSection)           | Creates a new CircularTubeCrossSection                                            |
@@ -1732,8 +1749,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#id6075)                                                                                               | Gets the list of children.                                    |
 | [`Comments`](#id6076)                                                                                               | Gets the list of associated comments.                         |
@@ -2070,8 +2088,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Generate`](#id3787)                | Generate morph control                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Generate`](#id3787)                | Generate morph control                                                            |
 | [`Clear`](#id6056)                   | clear morph control                                                               |
 | [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
@@ -2089,8 +2108,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`DisplacementFile`](#Mechanical.DisplacementFile)                                                                  | Gets or sets the DisplacementFile.                            |
 | [`ScaleFactor`](#id2988)                                                                                            | Gets or sets the ScaleFactor.                                 |
 | [`Suppressed`](#id5991)                                                                                             | Gets or sets the Suppressed.                                  |
@@ -2330,8 +2350,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddCommandSnippet`](#id5872)       | Creates a new CommandSnippet                                                      |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddCommandSnippet`](#id5872)       | Creates a new CommandSnippet                                                      |
 | [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
@@ -2351,8 +2372,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`ElementAPDLName`](#id1943)                                                                                        | Gets or sets the ElementAPDLName.                             |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`ElementAPDLName`](#id1943)                                                                                        | Gets or sets the ElementAPDLName.                             |
 | [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`MassPerUnitArea`](#Mechanical.MassPerUnitArea)                                                                    | Gets or sets the MassPerUnitArea.                             |
 | [`TotalMass`](#id2010)                                                                                              | Gets or sets the TotalMass.                                   |
@@ -2682,8 +2704,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`CopyTo`](#id6091)                  | Copies all visible properties from this object to another.                        |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`CopyTo`](#id6091)                  | Copies all visible properties from this object to another.                        |
 | [`RenameBasedOnDefinition`](#id5997) | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
@@ -2701,8 +2724,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`Suppressed`](#id5991)                                                                                             | Gets or sets the Suppressed.                                  |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`ExclusionRegionLocation`](#id1801)                                                                                | Gets or sets the ExclusionRegionLocation.                     |
@@ -2934,8 +2958,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddDamage`](#id2999)               | Creates a new FatigueDamage                                                       |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddDamage`](#id2999)               | Creates a new FatigueDamage                                                       |
 | [`EvaluateAllResults`](#id5348)      | Run the EvaluateAllResults action.                                                |
 | [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
@@ -2955,8 +2980,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#id6075)                                                                                               | Gets the list of children.                                    |
 | [`Comments`](#id6076)                                                                                               | Gets the list of associated comments.                         |
@@ -3196,8 +3222,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#id5347)                | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#id5347)                | Run the ClearGeneratedData action.                                                |
 | [`DetectFeatures`](#Mechanical.DetectFeatures) | DetectFeatures method.                                                            |
 | [`EvaluateAllResults`](#id5348)                | Run the EvaluateAllResults action.                                                |
 | [`Delete`](#id6084)                            | Run the Delete action.                                                            |
@@ -3218,8 +3245,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Definition`](#id2627)                                                                                             | Get the FeatureDetectionDefinition object.                    |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Definition`](#id2627)                                                                                             | Get the FeatureDetectionDefinition object.                    |
 | [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`ScopingMethod`](#id5986)                                                                                          | Gets or sets the ScopingMethod.                               |
 | [`NamedSelection`](NamedSelection.md#NamedSelection)                                                                | Gets or sets the NamedSelection.                              |
@@ -3504,8 +3532,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddFeatureDetection`](#id548)                                            | Add a FeatureDetection to the FeatureDetection Definition                       |
+| Name | Summary |
 |----------------------------------------------------------------------------|---------------------------------------------------------------------------------|
+| [`AddFeatureDetection`](#id548)                                            | Add a FeatureDetection to the FeatureDetection Definition                       |
 | [`DeleteFeatureDetection`](#Mechanical.DeleteFeatureDetection)             | Delete a FeatureDetection from the Feature Detection Definition                 |
 | [`SetFeatureDetectionOptions`](#Mechanical.SetFeatureDetectionOptions)     | Set Feature Detection Solid / Sheet / Beta settings                             |
 | [`GetFeatureDetectionType`](#Mechanical.GetFeatureDetectionType)           | Gets the Feature Detection Type property at given index                         |
@@ -3532,8 +3561,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`FeatureDetectionCount`](#Mechanical.FeatureDetectionCount)   | Gets the number of Feature Detections   |
+| Name | Summary |
 |----------------------------------------------------------------|-----------------------------------------|
+| [`FeatureDetectionCount`](#Mechanical.FeatureDetectionCount)   | Gets the number of Feature Detections   |
 
 <a id="id263"></a>
 
@@ -3763,8 +3793,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetGeometryURI`](#Mechanical.GetGeometryURI)   | Gets the Geometry URI for the most recent import. The Universal Resource Identifier,                                    |
+| Name | Summary |
 |--------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
+| [`GetGeometryURI`](#Mechanical.GetGeometryURI)   | Gets the Geometry URI for the most recent import. The Universal Resource Identifier,                                    |
 | [`GetFormat`](#Mechanical.GetFormat)             | Gets the format of the geometry file/data for the most recent import.                                                   |
 | [`GetPreferences`](#Mechanical.GetPreferences)   | Gets the preferences for most recent import operations with the geometry file/data.                                     |
 | [`Import`](#id2481)                              | Import/reload geometry from the CAD file using the provided preferences. <br/><br/>```<br/>**<br/>```<br/><br/>\* If no |
@@ -3786,8 +3817,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Parts`](#Mechanical.Parts)                                                                                        | List of parts created by the most recent import operation.    |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Parts`](#Mechanical.Parts)                                                                                        | List of parts created by the most recent import operation.    |
 | [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#id6075)                                                                                               | Gets the list of children.                                    |
@@ -4066,8 +4098,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddGeometryImport`](#Mechanical.AddGeometryImport)   | Create the object for working with an imported part.                              |
+| Name | Summary |
 |--------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddGeometryImport`](#Mechanical.AddGeometryImport)   | Create the object for working with an imported part.                              |
 | [`GetChildren`](#id6086)                               | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)                               | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)                                | Creates a new child Comment.                                                      |
@@ -4086,8 +4119,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Count`](#id6052)                                                                                                  | Get the number of child                                       |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Count`](#id6052)                                                                                                  | Get the number of child                                       |
 | [`Item`](#id6051)                                                                                                   | Item property.                                                |
 | [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -4346,8 +4380,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
+| Name | Summary |
 |----------------------------------------|-----------------------------------------------------------------------------------|
+| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id6084)                    | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
@@ -4364,8 +4399,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Maximum`](#id5038)                                                                                                | Gets or sets the Maximum.                                                                |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| [`Maximum`](#id5038)                                                                                                | Gets or sets the Maximum.                                                                |
 | [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.                                       |
 | [`ScopingMethod`](#id5986)                                                                                          | Gets or sets the ScopingMethod.                                                          |
 | [`StressType`](#Mechanical.StressType)                                                                              | Gets or sets the StressType.                                                             |
@@ -4606,8 +4642,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
+| Name | Summary |
 |----------------------------------------|-----------------------------------------------------------------------------------|
+| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id6084)                    | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
@@ -4624,8 +4661,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`HousingScopingMethod`](#Mechanical.HousingScopingMethod)                                                          | Gets or sets the HousingScopingMethod.                        |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`HousingScopingMethod`](#Mechanical.HousingScopingMethod)                                                          | Gets or sets the HousingScopingMethod.                        |
 | [`HousingLocation`](#Mechanical.HousingLocation)                                                                    | Gets or sets the HousingLocation.                             |
 | [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`ScopingMethod`](#id5986)                                                                                          | Gets or sets the ScopingMethod.                               |
@@ -4875,8 +4913,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Name | Summary |
 |--------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
@@ -4894,8 +4933,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.                                                                                                              |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.                                                                                                              |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                                                                                                    |
 | [`Children`](#id6075)                                                                                               | Gets the list of children.                                                                                                                                      |
 | [`Comments`](#id6076)                                                                                               | Gets the list of associated comments.                                                                                                                           |
@@ -5216,8 +5256,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -5236,8 +5277,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Type`](#id5256)                                                                                                   | Type property.                                                                             |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| [`Type`](#id5256)                                                                                                   | Type property.                                                                             |
 | [`Display`](#id2595)                                                                                                | Display property.                                                                          |
 | [`LegendDivisions`](#Mechanical.LegendDivisions)                                                                    | LegendDivisions property.                                                                  |
 | [`IsolineThickness`](#Mechanical.IsolineThickness)                                                                  | IsolineThickness property.                                                                 |
@@ -5622,8 +5664,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`EvaluateAllResults`](#id5348)      | Evaluate all measures.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`EvaluateAllResults`](#id5348)      | Evaluate all measures.                                                            |
 | [`AddCompositeCriterion`](#id3200)   | Creates a new CompositeCriterion                                                  |
 | [`AddPrimaryCriterion`](#id3153)     | Creates a new PrimaryCriterion                                                    |
 | [`Delete`](#id6084)                  | Run the Delete action.                                                            |
@@ -5645,8 +5688,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#id6075)                                                                                               | Gets the list of children.                                    |
 | [`Comments`](#id6076)                                                                                               | Gets the list of associated comments.                         |
@@ -5911,8 +5955,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`FlipMasterSlave`](#Mechanical.FlipMasterSlave)           | FlipMasterSlave method.                                                           |
+| Name | Summary |
 |------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`FlipMasterSlave`](#Mechanical.FlipMasterSlave)           | FlipMasterSlave method.                                                           |
 | [`CreateNamedSelection`](#Mechanical.CreateNamedSelection) | CreateNamedSelection method.                                                      |
 | [`Generate`](#id3787)                                      | Run the Generate action.                                                          |
 | [`RenameBasedOnDefinition`](#id5997)                       | Run the RenameBasedOnDefinition action.                                           |
@@ -5935,8 +5980,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`MasterElementSizeFactor`](#Mechanical.MasterElementSizeFactor)                                                    | Gets or sets the MasterElementSizeFactor.                     |
 | [`ThicknessScaleFactor`](#id5167)                                                                                   | Gets or sets the ThicknessScaleFactor.                        |
 | [`ToleranceValue`](#id5172)                                                                                         | Gets or sets the ToleranceValue.                              |
@@ -6353,8 +6399,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Generate`](#id3787)                | Generate selected mesh pull.                                                      |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Generate`](#id3787)                | Generate selected mesh pull.                                                      |
 | [`ClearGeneratedData`](#id5347)      | Clear generated data.                                                             |
 | [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
@@ -6375,8 +6422,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`ScopingMethod`](#id5986)                                                                                          | Defines what type of selection this object is scoped to.                                                                                                                    |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`ScopingMethod`](#id5986)                                                                                          | Defines what type of selection this object is scoped to.                                                                                                                    |
 | [`Location`](#id5988)                                                                                               | Allows you to scope elements, element faces, topofaces and sheet bodies for Extrude or Revolve. Also, scopes element faces, topofaces and solid bodies for Surface Coating. |
 | [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.                                                                                                                          |
 | [`Material`](Material.md#Material)                                                                                  | To select the material of your choice. You can also select a different material from the parent body material.                                                              |
@@ -6831,8 +6879,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`CreateCylindricalBolt`](#Mechanical.CreateCylindricalBolt)                                       | Create bolt with a cylinder head based on the specified dimensions. The bolt will be                                         |
+| Name | Summary |
 |----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| [`CreateCylindricalBolt`](#Mechanical.CreateCylindricalBolt)                                       | Create bolt with a cylinder head based on the specified dimensions. The bolt will be                                         |
 | [`CreateCylindricalNut`](#Mechanical.CreateCylindricalNut)                                         | Create a cylindrical nut with the specified dimensions. The nut will be created so that                                      |
 | [`CreateHexBolt`](#Mechanical.CreateHexBolt)                                                       | Create a bolt with a hex head based on the specified dimensions. The bolt will be                                            |
 | [`CreateHexNut`](#Mechanical.CreateHexNut)                                                         | Create a hex nut with the specified dimensions. The nut will be created so that the                                          |
@@ -6925,8 +6974,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Environments`](#Mechanical.Environments)                                                                          | Gets the Analyses.                                                                                                                                                                                                                                                                                            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`Environments`](#Mechanical.Environments)                                                                          | Gets the Analyses.                                                                                                                                                                                                                                                                                            |
 | [`CellId`](#id3114)                                                                                                 | Gets the CellId.                                                                                                                                                                                                                                                                                              |
 | [`SystemCaption`](#id2520)                                                                                          | Gets the SystemCaption.                                                                                                                                                                                                                                                                                       |
 | [`AEDTImportManager`](#Mechanical.AEDTImportManager)                                                                | Get the manager for manipulating import settings for AEDT files.                                                                                                                                                                                                                                              |
@@ -8056,8 +8106,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ExportNamedSelectionToCDBFile`](#id2921)                                                     | Export Named Selections to CDB file                                               |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ExportNamedSelectionToCDBFile`](#id2921)                                                     | Export Named Selections to CDB file                                               |
 | [`GenerateAllNamedSelections`](#Mechanical.GenerateAllNamedSelections)                         | Generate all named selections specified with the Worksheet                        |
 | [`GoToNamedSelectionsCommonToSelection`](#Mechanical.GoToNamedSelectionsCommonToSelection)     | GoToNamedSelectionsCommonToSelection method.                                      |
 | [`GoToNamedSelectionsContainingSelection`](#Mechanical.GoToNamedSelectionsContainingSelection) | GoToNamedSelectionsContainingSelection method.                                    |
@@ -8081,8 +8132,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`GenerateOnRefresh`](#Mechanical.GenerateOnRefresh)                                                                | Gets or sets the GenerateOnRefresh.                           |
 | [`GenerateOnRemesh`](#Mechanical.GenerateOnRemesh)                                                                  | Gets or sets the GenerateOnRemesh.                            |
 | [`RandomColors`](#Mechanical.RandomColors)                                                                          | Gets the RandomColors.                                        |
@@ -8399,8 +8451,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
 | [`AddFigure`](#id6088)               | Creates a new child Figure.                                                       |
@@ -8418,8 +8471,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#id6075)                                                                                               | Gets the list of children.                                    |
 | [`Comments`](#id6076)                                                                                               | Gets the list of associated comments.                         |
@@ -8652,8 +8706,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddParameterVariable`](#Mechanical.AddParameterVariable)   | Create the object for working with an imported part.                              |
+| Name | Summary |
 |--------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddParameterVariable`](#Mechanical.AddParameterVariable)   | Create the object for working with an imported part.                              |
 | [`GetChildren`](#id6086)                                     | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)                                     | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)                                      | Creates a new child Comment.                                                      |
@@ -8672,8 +8727,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#id6075)                                                                                               | Gets the list of children.                                    |
 | [`Comments`](#id6076)                                                                                               | Gets the list of associated comments.                         |
@@ -8914,8 +8970,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ReloadProperties`](#id5486)                | Reload properties to update properties provided by the provider.                  |
+| Name | Summary |
 |----------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ReloadProperties`](#id5486)                | Reload properties to update properties provided by the provider.                  |
 | [`Connect`](MeshControls/Connect.md#Connect) | Register the python code.                                                         |
 | [`Delete`](#id6084)                          | Run the Delete action.                                                            |
 | [`Activate`](#id6090)                        | Activate the current object.                                                      |
@@ -8931,8 +8988,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Text`](#id5477)                                                                                                   | Gets or sets the text in the script tab for the Python Code object.                   |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+| [`Text`](#id5477)                                                                                                   | Gets or sets the text in the script tab for the Python Code object.                   |
 | [`PropertyProvider`](#id5478)                                                                                       | Gets or sets the propperty provider instance associated with this python code object. |
 | [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.                                    |
 | [`ScriptExecutionScope`](#id5480)                                                                                   | The scope identifier in which the code execution will take place.                     |
@@ -9147,8 +9205,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddRemotePoint`](#id680)           | Creates a new RemotePoint                                                         |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddRemotePoint`](#id680)           | Creates a new RemotePoint                                                         |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -9167,8 +9226,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#id6075)                                                                                               | Gets the list of children.                                    |
 | [`Comments`](#id6076)                                                                                               | Gets the list of associated comments.                         |
@@ -9409,8 +9469,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`EvaluateAllResults`](#id5348)      | Run the EvaluateAllResults action.                                                |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`EvaluateAllResults`](#id5348)      | Run the EvaluateAllResults action.                                                |
 | [`AddResponsePSD`](#id3156)          | Creates a new ResponsePSD                                                         |
 | [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
@@ -9431,8 +9492,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`ClusteringFrequencyPoints`](#Mechanical.ClusteringFrequencyPoints)                                                | Gets or sets the ClusteringFrequencyPoints.                   |
 | [`IncludeAllExcitationFrequencies`](#Mechanical.IncludeAllExcitationFrequencies)                                    | Gets or sets the IncludeAllExcitationFrequencies.             |
 | [`IncludeUserDefinedFrequencies`](#Mechanical.IncludeUserDefinedFrequencies)                                        | Gets or sets the IncludeUserDefinedFrequencies.               |
@@ -9716,8 +9778,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Generate`](#id3787)                                                          | Generate the mesh data                                                            |
+| Name | Summary |
 |--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Generate`](#id3787)                                                          | Generate the mesh data                                                            |
 | [`ClearGeneratedData`](#id5347)                                                | Clear the generated mesh data                                                     |
 | [`AddNamedSelection`](#id740)                                                  | Creates a new NamedSelection                                                      |
 | [`ImportComponentsFromResultFile`](#Mechanical.ImportComponentsFromResultFile) | Import solver components from result file                                         |
@@ -9739,8 +9802,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`FEBodies`](#Mechanical.FEBodies)                                                                                  | Gets FE Bodies                                                |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`FEBodies`](#Mechanical.FEBodies)                                                                                  | Gets FE Bodies                                                |
 | [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`ConfigurationId`](#id3054)                                                                                        | Gets the ConfigurationId.                                     |
 | [`Elements`](#id3117)                                                                                               | Gets the Elements.                                            |
@@ -10059,8 +10123,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetHarmonicIndexNumberForEnvironment`](#Mechanical.GetHarmonicIndexNumberForEnvironment)   | Gets the worksheet number of harmonic indexes for a given environment.            |
+| Name | Summary |
 |----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetHarmonicIndexNumberForEnvironment`](#Mechanical.GetHarmonicIndexNumberForEnvironment)   | Gets the worksheet number of harmonic indexes for a given environment.            |
 | [`SetHarmonicIndexNumberForEnvironment`](#Mechanical.SetHarmonicIndexNumberForEnvironment)   | Sets the worksheet number of harmonic indexes for a given environment.            |
 | [`GetHarmonicIndexForEnvironmentByIndex`](#Mechanical.GetHarmonicIndexForEnvironmentByIndex) | Gets the worksheet harmonic index for a given environment at index.               |
 | [`SetHarmonicIndexForEnvironmentByIndex`](#Mechanical.SetHarmonicIndexForEnvironmentByIndex) | Sets the worksheet harmonic index for a given environment at index.               |
@@ -10083,8 +10148,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`StageName`](#Mechanical.StageName)                                                                                | Gets the StageName.                                           |
 | [`Behavior`](#id3268)                                                                                               | Gets the Behavior.                                            |
 | [`Suppressed`](#id5991)                                                                                             | Gets or sets the Suppressed.                                  |
@@ -10411,8 +10477,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`CreateAndAddColumn`](#Mechanical.CreateAndAddColumn)   | Creates and adds a new column (data series) to the table.                         |
+| Name | Summary |
 |----------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`CreateAndAddColumn`](#Mechanical.CreateAndAddColumn)   | Creates and adds a new column (data series) to the table.                         |
 | [`GetDataURI`](#Mechanical.GetDataURI)                   | Gets the data URI from which the tabular data was imported.                       |
 | [`GetImportSettings`](#Mechanical.GetImportSettings)     | Get the settings used for an import operation.                                    |
 | [`Import`](#id2481)                                      |                                                                                   |
@@ -10434,8 +10501,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`IsStrictSizing`](#Mechanical.IsStrictSizing)                                                                      | Whether column add/create/import/refresh operations cannot grow the number of rows.   |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+| [`IsStrictSizing`](#Mechanical.IsStrictSizing)                                                                      | Whether column add/create/import/refresh operations cannot grow the number of rows.   |
 | [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.                                    |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                          |
 | [`Children`](#id6075)                                                                                               | Gets the list of children.                                                            |
@@ -10707,8 +10775,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
 | [`AddFigure`](#id6088)               | Creates a new child Figure.                                                       |
@@ -10726,8 +10795,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#id6075)                                                                                               | Gets the list of children.                                    |
 | [`Comments`](#id6076)                                                                                               | Gets the list of associated comments.                         |
@@ -10960,8 +11030,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`DeleteTreeGroupAndChildren`](#Mechanical.DeleteTreeGroupAndChildren)   | Run the DeleteTreeGroupAndChildren action.                                        |
+| Name | Summary |
 |--------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`DeleteTreeGroupAndChildren`](#Mechanical.DeleteTreeGroupAndChildren)   | Run the DeleteTreeGroupAndChildren action.                                        |
 | [`Ungroup`](#Mechanical.Ungroup)                                         | Run the Ungroup action.                                                           |
 | [`GetChildren`](#id6086)                                                 | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)                                                 | Gets the list of children, filtered by type.                                      |
@@ -10978,8 +11049,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Suppressed`](#id5991)                                                                                             | Gets or sets the Suppressed.                                  |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Suppressed`](#id5991)                                                                                             | Gets or sets the Suppressed.                                  |
 | [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`ChildrenInGroup`](#Mechanical.ChildrenInGroup)                                                                    | Gets the ChildrenInGroup.                                     |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -11202,8 +11274,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
 | [`AddFigure`](#id6088)               | Creates a new child Figure.                                                       |
@@ -11221,8 +11294,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`IDInSource`](#Mechanical.IDInSource)                                                                              | Gets the IDInSource.                                          |
 | [`Material`](Material.md#Material)                                                                                  | Gets the Material.                                            |
 | [`NameInSource`](#Mechanical.NameInSource)                                                                          | Gets the NameInSource.                                        |
@@ -11518,8 +11592,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddRow`](#id2268)                            | Adds a Row to the worksheet.                                    |
+| Name | Summary |
 |------------------------------------------------|-----------------------------------------------------------------|
+| [`AddRow`](#id2268)                            | Adds a Row to the worksheet.                                    |
 | [`DeleteRow`](#id3194)                         | Deletes a row from the worksheet at index.                      |
 | [`InsertRow`](#Mechanical.InsertRow)           | Insert a row from the worksheet at index.                       |
 | [`DuplicateRow`](#Mechanical.DuplicateRow)     | Insert a row from the worksheet at index.                       |
@@ -11534,8 +11609,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`RowCount`](#id2265)   | Return the number of entries.   |
+| Name | Summary |
 |-------------------------|---------------------------------|
+| [`RowCount`](#id2265)   | Return the number of entries.   |
 
 <a id="id895"></a>
 
@@ -11669,8 +11745,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`ObjectSelection`](#Mechanical.ObjectSelection)   | Gets or sets the object being used to control the X Axis. Setting to None returns to common independent variable.   |
+| Name | Summary |
 |----------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| [`ObjectSelection`](#Mechanical.ObjectSelection)   | Gets or sets the object being used to control the X Axis. Setting to None returns to common independent variable.   |
 | [`ComponentIndex`](#Mechanical.ComponentIndex)     | Gets or sets the component index for the chart.                                                                     |
 
 <a id="id898"></a>
@@ -11713,8 +11790,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -11732,8 +11810,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`OutlineSelection`](#id3260)                                                                                       | Gets or sets the OutlineSelection.                            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`OutlineSelection`](#id3260)                                                                                       | Gets or sets the OutlineSelection.                            |
 | [`XAxis`](#Mechanical.XAxis)                                                                                        | Use to control the X Axis property of the chart.              |
 | [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`Caption`](#Mechanical.Caption)                                                                                    | Gets or sets the Caption.                                     |
@@ -12047,8 +12126,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Add`](#id6054)      | Adds a CompositeCriterionTerm at the end in the definition.                          |
+| Name | Summary |
 |-----------------------|--------------------------------------------------------------------------------------|
+| [`Add`](#id6054)      | Adds a CompositeCriterionTerm at the end in the definition.                          |
 | [`Clear`](#id6056)    | Clears all the CompositeCriterionTerms in the definition.                            |
 | [`IndexOf`](#id6057)  | Gives the index where the specified CompositeCriterionTerm exists in the definition. |
 | [`Insert`](#id6058)   | Inserts a CompositeCriterionTerm at a specified index in the definition.             |
@@ -12056,8 +12136,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Item`](#id6051)   | Item property.                                                 |
+| Name | Summary |
 |---------------------|----------------------------------------------------------------|
+| [`Item`](#id6051)   | Item property.                                                 |
 | [`Count`](#id6052)  | Gives the number of CompositeCriterionTerms in the definition. |
 
 <a id="id927"></a>
@@ -12151,8 +12232,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`PrimaryCriterion`](PrimaryCriterion.md#PrimaryCriterion)   | Returns PrimaryCriterion Object associated with the CompositeCriterionTerm.   |
+| Name | Summary |
 |--------------------------------------------------------------|-------------------------------------------------------------------------------|
+| [`PrimaryCriterion`](PrimaryCriterion.md#PrimaryCriterion)   | Returns PrimaryCriterion Object associated with the CompositeCriterionTerm.   |
 | [`Coefficient`](#Mechanical.Coefficient)                     | Returns coefficient of PrimaryCriterion in the CompositeCriterionTerm.        |
 
 <a id="id935"></a>
@@ -12196,8 +12278,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`CreateAutomaticCondensedParts`](#Mechanical.CreateAutomaticCondensedParts)   | Run the CreateAutomaticCondensedParts action.                                     |
+| Name | Summary |
 |--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`CreateAutomaticCondensedParts`](#Mechanical.CreateAutomaticCondensedParts)   | Run the CreateAutomaticCondensedParts action.                                     |
 | [`AddCondensedPart`](#Mechanical.AddCondensedPart)                             | Creates a new CondensedPart                                                       |
 | [`AddCondensedPartInfoTool`](#Mechanical.AddCondensedPartInfoTool)             | Creates a new CondensedPartInfoTool                                               |
 | [`AddImportedCondensedPart`](#Mechanical.AddImportedCondensedPart)             | Creates a new ImportedCondensedPart                                               |
@@ -12222,8 +12305,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`SolverFilesDirectory`](#id3668)                                                                                   | Gets the SolverFilesDirectory.                                |
 | [`TransparencyEnabled`](#id2751)                                                                                    | Gets or sets the TransparencyEnabled.                         |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -12530,8 +12614,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ExportCondensedPart`](#Mechanical.ExportCondensedPart)                   | Run the Export Condensed Part action.                                             |
+| Name | Summary |
 |----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ExportCondensedPart`](#Mechanical.ExportCondensedPart)                   | Run the Export Condensed Part action.                                             |
 | [`DetectCondensedPartInterface`](#Mechanical.DetectCondensedPartInterface) | Run the DetectCondensedPartInterface action.                                      |
 | [`GenerateCondensedParts`](#id981)                                         | Run the GenerateCondensedParts action.                                            |
 | [`AddCommandSnippet`](#id5872)                                             | Creates a new CommandSnippet                                                      |
@@ -12555,8 +12640,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Interfaces`](#id1045)                                                                                             | Returns the Interfaces of the condensed part                  |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Interfaces`](#id1045)                                                                                             | Returns the Interfaces of the condensed part                  |
 | [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`NumberOfModes`](#Mechanical.NumberOfModes)                                                                        | Gets or sets the NumberOfModes.                               |
 | [`MaximumFrequency`](#id5133)                                                                                       | Gets or sets the MaximumFrequency.                            |
@@ -13089,8 +13175,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ImportCondensedPart`](#Mechanical.ImportCondensedPart)                                   | Run the Import Condensed Part action.                                             |
+| Name | Summary |
 |--------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ImportCondensedPart`](#Mechanical.ImportCondensedPart)                                   | Run the Import Condensed Part action.                                             |
 | [`CreateNodalNamedSelections`](#Mechanical.CreateNodalNamedSelections)                     | CreateNodalNamedSelections method.                                                |
 | [`CreateNodalNamedSelectionFromNodeIds`](#Mechanical.CreateNodalNamedSelectionFromNodeIds) | CreateNodalNamedSelectionFromNodeIds method.                                      |
 | [`CreateRemotePoints`](#Mechanical.CreateRemotePoints)                                     | CreateRemotePoints method.                                                        |
@@ -13122,8 +13209,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`ActualNodeOffset`](#Mechanical.ActualNodeOffset)                                                                  | Gets the ActualNodeOffset.                                    |
 | [`CondensedPartFileName`](#Mechanical.CondensedPartFileName)                                                        | Gets or sets the CondensedPartFileName.                       |
 | [`NodeOffset`](#id2690)                                                                                             | Gets or sets the NodeOffset.                                  |
@@ -13639,8 +13727,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddCommandSnippet`](#id5872)       | Creates a new CommandSnippet                                                      |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddCommandSnippet`](#id5872)       | Creates a new CommandSnippet                                                      |
 | [`ClearGeneratedData`](#id5347)      | Run the ClearGeneratedData action.                                                |
 | [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
@@ -13661,8 +13750,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Interfaces`](#id1045)                                                                                             | Returns the Interfaces of the condensed part                  |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Interfaces`](#id1045)                                                                                             | Returns the Interfaces of the condensed part                  |
 | [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`AttachmentMethod`](#id1047)                                                                                       | Gets or sets the AttachmentMethod.                            |
 | [`GenerateDampingMatrix`](#id1048)                                                                                  | Gets or sets the GenerateDampingMatrix.                       |
@@ -14090,8 +14180,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`SetLocation`](#id1104)             | Sets the point location.                                                          |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`SetLocation`](#id1104)             | Sets the point location.                                                          |
 | [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
@@ -14111,8 +14202,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`LocationX`](#Mechanical.LocationX)                                                                                | Gets or sets the LocationX.                                   |
 | [`LocationY`](#Mechanical.LocationY)                                                                                | Gets or sets the LocationY.                                   |
 | [`LocationZ`](#Mechanical.LocationZ)                                                                                | Gets or sets the LocationZ.                                   |
@@ -14127,8 +14219,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Attributes
 
-| [`SetLocation`](#id1104)   |    |
+| Name | Summary |
 |----------------------------|----|
+| [`SetLocation`](#id1104)   |    |
 
 <a id="id1092"></a>
 
@@ -14401,8 +14494,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetDefinition`](#Mechanical.GetDefinition)   | Gets the Worksheet Definition.                                                    |
+| Name | Summary |
 |------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetDefinition`](#Mechanical.GetDefinition)   | Gets the Worksheet Definition.                                                    |
 | [`EvaluateAllResults`](#id5348)                | Run the EvaluateAllResults action.                                                |
 | [`ClearGeneratedData`](#id5347)                | Run the ClearGeneratedData action.                                                |
 | [`Delete`](#id6084)                            | Run the Delete action.                                                            |
@@ -14424,8 +14518,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`Value`](#id3408)                                                                                                  | Gets the Value.                                               |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Suppressed`](#id5991)                                                                                             | Gets or sets the Suppressed.                                  |
@@ -14718,8 +14813,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GenerateOrientations`](#Mechanical.GenerateOrientations)   | Runs the GenerateOrientations acton.                                              |
+| Name | Summary |
 |--------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GenerateOrientations`](#Mechanical.GenerateOrientations)   | Runs the GenerateOrientations acton.                                              |
 | [`Delete`](#id6084)                                          | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)                                     | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)                                     | Gets the list of children, filtered by type.                                      |
@@ -14739,8 +14835,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`AxisEdgeOrientation`](#Mechanical.AxisEdgeOrientation)                                                            | Gets or sets the AxisEdgeOrientation.                         |
 | [`AxisSurfaceOrientation`](#Mechanical.AxisSurfaceOrientation)                                                      | Gets or sets the AxisSurfaceOrientation.                      |
 | [`OrientationGuideDefinedBy`](#Mechanical.OrientationGuideDefinedBy)                                                | Gets or sets the OrientationGuideDefinedBy.                   |
@@ -15070,8 +15167,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -15090,8 +15188,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`CoordinateSystem`](../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the Coordinate System.                           |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`CoordinateSystem`](../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the Coordinate System.                           |
 | [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`Behavior`](#id3268)                                                                                               | Gets or sets the Behavior.                                    |
 | [`RotationX`](#id3273)                                                                                              | Gets or sets the RotationX.                                   |
@@ -15440,8 +15539,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -15458,8 +15558,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Text`](#id5477)                                                                                                   | Gets or sets the Text.                                        |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Text`](#id5477)                                                                                                   | Gets or sets the Text.                                        |
 | [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#id6075)                                                                                               | Gets the list of children.                                    |
@@ -15673,8 +15774,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -15693,8 +15795,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Count`](#id6052)                                                                                                  | Gets the NumberOfRows.                                        |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Count`](#id6052)                                                                                                  | Gets the NumberOfRows.                                        |
 | [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`Suppressed`](#id5991)                                                                                             | Gets or sets the Suppressed.                                  |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -15962,15 +16065,17 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetPropertyValueAsString`](#Mechanical.GetPropertyValueAsString)   | Data in string format that is present on the columns                      |
+| Name | Summary |
 |----------------------------------------------------------------------|---------------------------------------------------------------------------|
+| [`GetPropertyValueAsString`](#Mechanical.GetPropertyValueAsString)   | Data in string format that is present on the columns                      |
 | [`SetPropertyValue`](#Mechanical.SetPropertyValue)                   | Set the data for a give property name                                     |
 | [`GetPropertyNames`](#Mechanical.GetPropertyNames)                   | This method gives the complete list of property names that are supported. |
 
 ### Properties
 
-| [`InternalObject`](#id6080)   | Gets the internal object. For advanced usage only.         |
+| Name | Summary |
 |-------------------------------|------------------------------------------------------------|
+| [`InternalObject`](#id6080)   | Gets the internal object. For advanced usage only.         |
 | [`Active`](#id1590)           | This property sets the object to active or inactive status |
 
 <a id="id1272"></a>
@@ -16041,8 +16146,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`InsertVelocity`](#Mechanical.InsertVelocity)               | Creates a new Velocity                                                            |
+| Name | Summary |
 |--------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`InsertVelocity`](#Mechanical.InsertVelocity)               | Creates a new Velocity                                                            |
 | [`InsertAngularVelocity`](#Mechanical.InsertAngularVelocity) | Creates a new Angular Velocity                                                    |
 | [`InsertDropHeight`](#Mechanical.InsertDropHeight)           | Creates a new Drop Height                                                         |
 | [`GetChildren`](#id6086)                                     | Gets the list of children, filtered by type.                                      |
@@ -16063,8 +16169,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#id6075)                                                                                               | Gets the list of children.                                    |
 | [`Comments`](#id6076)                                                                                               | Gets the list of associated comments.                         |
@@ -16321,8 +16428,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddCommandSnippet`](#id5872)       | Creates a new CommandSnippet                                                      |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddCommandSnippet`](#id5872)       | Creates a new CommandSnippet                                                      |
 | [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
@@ -16342,8 +16450,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`AutomaticTimeStepping`](../../../Mechanical/DataModel/Enums/AutomaticTimeStepping.md#AutomaticTimeStepping)       | Gets or sets the AutomaticTimeStepping.                       |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`AutomaticTimeStepping`](../../../Mechanical/DataModel/Enums/AutomaticTimeStepping.md#AutomaticTimeStepping)       | Gets or sets the AutomaticTimeStepping.                       |
 | [`FailureCriteriaOption`](#id2048)                                                                                  | Gets or sets the FailureCriteriaOption.                       |
 | [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`Material`](Material.md#Material)                                                                                  | Gets or sets the Material.                                    |
@@ -16754,8 +16863,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`CreateMaterialAssignment`](#id1416)   | Run the CreateMaterialAssignment action.                                          |
+| Name | Summary |
 |-----------------------------------------|-----------------------------------------------------------------------------------|
+| [`CreateMaterialAssignment`](#id1416)   | Run the CreateMaterialAssignment action.                                          |
 | [`AddMaterialAssignment`](#id1475)      | Run the AddMaterialAssignment action.                                             |
 | [`GetAsDictionary`](#id1418)            | Returns material as a python dictionary                                           |
 | [`GetChildren`](#id6086)                | Gets the list of children, filtered by type.                                      |
@@ -16776,8 +16886,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`AssignedBodies`](#id1405)                                                                                         | Gets the AssignedBodies.                                      |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#id6075)                                                                                               | Gets the list of children.                                    |
@@ -17043,8 +17154,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`CreateMaterialPlot`](#Mechanical.CreateMaterialPlot)   | Run the CreateMaterialPlot action.                                                |
+| Name | Summary |
 |----------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`CreateMaterialPlot`](#Mechanical.CreateMaterialPlot)   | Run the CreateMaterialPlot action.                                                |
 | [`AddCommandSnippet`](#id5872)                           | Creates a new CommandSnippet                                                      |
 | [`Delete`](#id6084)                                      | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)                                 | Gets the list of children, filtered by type.                                      |
@@ -17065,8 +17177,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`MaterialName`](#id3052)                                                                                           | Gets or sets the MaterialName.                                |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`MaterialName`](#id3052)                                                                                           | Gets or sets the MaterialName.                                |
 | [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`Material`](Material.md#Material)                                                                                  | Gets or sets the Material.                                    |
 | [`ReferenceTemperatureValue`](#id2831)                                                                              | Gets or sets the ReferenceTemperatureValue.                   |
@@ -17413,8 +17526,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                                        | Delete the MaterialCombination.                                                   |
+| Name | Summary |
 |------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                                        | Delete the MaterialCombination.                                                   |
 | [`AddMaterial`](#Mechanical.AddMaterial)                   | Add a material to the combination.                                                |
 | [`AddMaterialByName`](#Mechanical.AddMaterialByName)       | Add a material to the combination by name.                                        |
 | [`RemoveMaterial`](#Mechanical.RemoveMaterial)             | Remove material from the combination.                                             |
@@ -17440,8 +17554,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`Suppressed`](#id5991)                                                                                             | Suppress or unsuppress the MaterialCombination.               |
 | [`Materials`](Materials.md#Materials)                                                                               | Dictionary of Material to Fraction in Combination.            |
 | [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
@@ -17774,8 +17889,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Clear`](#id6056)                   | Run the Clear action.                                                             |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Clear`](#id6056)                   | Run the Clear action.                                                             |
 | [`Generate`](#id3787)                | Run the Generate action.                                                          |
 | [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
@@ -17793,8 +17909,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`MaterialPropertyComponent`](#Mechanical.MaterialPropertyComponent)                                                | Gets or sets the MaterialPropertyComponent.                   |
 | [`MaterialProperty`](#Mechanical.MaterialProperty)                                                                  | Gets or sets the MaterialProperty.                            |
 | [`Suppressed`](#id5991)                                                                                             | Gets or sets the Suppressed.                                  |
@@ -18034,8 +18151,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddMaterialCombination`](#Mechanical.AddMaterialCombination)             | Creates a new MaterialCombination                                                 |
+| Name | Summary |
 |----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddMaterialCombination`](#Mechanical.AddMaterialCombination)             | Creates a new MaterialCombination                                                 |
 | [`AddImportedTraceExternalData`](#Mechanical.AddImportedTraceExternalData) | For Standalone Mode only. Creates a new Imported Trace (External Data).           |
 | [`Import`](#id2481)                                                        |                                                                                   |
 | [`AddMaterialAssignment`](#id1475)                                         | Creates a new MaterialAssignment                                                  |
@@ -18059,8 +18177,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`MaterialAssignments`](#Mechanical.MaterialAssignments)                                                            | Gets the MaterialAssignments.                                 |
 | [`MaterialCount`](#Mechanical.MaterialCount)                                                                        | Gets the MaterialCount.                                       |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -18366,8 +18485,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Generate`](#id3787)                | Run the Generate action.                                                          |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Generate`](#id3787)                | Run the Generate action.                                                          |
 | [`RenameBasedOnDefinition`](#id5997) | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
@@ -18388,8 +18508,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`ScopingMethod`](#id5986)                                                                                          | ScopingMethod property.                                       |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`ScopingMethod`](#id5986)                                                                                          | ScopingMethod property.                                       |
 | [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`ToleranceSlider`](#id5168)                                                                                        | Gets or sets the ToleranceSlider.                             |
 | [`MasterBodies`](#id3769)                                                                                           | Gets the MasterBodies.                                        |
@@ -18754,8 +18875,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`DetectConnections`](#Mechanical.DetectConnections)   | Detect mesh connections.                                                          |
+| Name | Summary |
 |--------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`DetectConnections`](#Mechanical.DetectConnections)   | Detect mesh connections.                                                          |
 | [`Generate`](#id3787)                                  | Generate mesh connections.                                                        |
 | [`SearchConnectionsForDuplicatePairs`](#id5198)        | SearchConnectionsForDuplicatePairs method.                                        |
 | [`AddManualMeshConnection`](#id2762)                   | Creates a new MeshConnection                                                      |
@@ -18788,8 +18910,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`ConnectionType`](#id5161)                                                                                         | Gets or sets the ConnectionType.                              |
 | [`ActiveConnections`](#id5162)                                                                                      | Gets the ActiveConnections.                                   |
@@ -19376,8 +19499,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddRow`](#id2268)                                              | Add a row to the MeshControlWorksheet                    |
+| Name | Summary |
 |------------------------------------------------------------------|----------------------------------------------------------|
+| [`AddRow`](#id2268)                                              | Add a row to the MeshControlWorksheet                    |
 | [`DeleteRow`](#id3194)                                           | Delete a row from the MeshControlWorksheet               |
 | [`GetActiveState`](#id2253)                                      | Gets the Active State property at row index              |
 | [`SetActiveState`](#id2254)                                      | Sets the Active State property at row index              |
@@ -19396,8 +19520,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`RowCount`](#id2265)   | Gets the number of entries   |
+| Name | Summary |
 |-------------------------|------------------------------|
+| [`RowCount`](#id2265)   | Gets the number of entries   |
 
 <a id="id1572"></a>
 
@@ -19563,8 +19688,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Add`](#id6054)      | Adds the given criterion to the collection.                                                                          |
+| Name | Summary |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------|
+| [`Add`](#id6054)      | Adds the given criterion to the collection.                                                                          |
 | [`Clear`](#id6056)    | Clears the collection.                                                                                               |
 | [`Contains`](#id6055) | Returns whether the collection contains the given criterion.                                                         |
 | [`IndexOf`](#id6057)  | Returns the index of the given criterion if it exists in the collection.  Returns -1 if it does not                  |
@@ -19574,8 +19700,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Count`](#id6052)   | The number of criteria in the collection.   |
+| Name | Summary |
 |----------------------|---------------------------------------------|
+| [`Count`](#id6052)   | The number of criteria in the collection.   |
 | [`Item`](#id6051)    | Item property.                              |
 
 <a id="id1578"></a>
@@ -19678,8 +19805,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Active`](#id1590)                                                     | Active property.           |
+| Name | Summary |
 |-------------------------------------------------------------------------|----------------------------|
+| [`Active`](#id1590)                                                     | Active property.           |
 | [`Action`](#Mechanical.Action)                                          | Action property.           |
 | [`EntityType`](#Mechanical.EntityType)                                  | EntityType property.       |
 | [`Criterion`](Criterion.md#Criterion)                                   | Criterion property.        |
@@ -19785,8 +19913,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`NastranFilename`](#Mechanical.NastranFilename)                                                            | Full path of Nastran export file.   |
+| Name | Summary |
 |-------------------------------------------------------------------------------------------------------------|-------------------------------------|
+| [`NastranFilename`](#Mechanical.NastranFilename)                                                            | Full path of Nastran export file.   |
 | [`AnalysisType`](../../../Mechanical/DataModel/Enums/GeometryImportPreference/AnalysisType.md#AnalysisType) | Analysis type.                      |
 | [`GridCS`](#Mechanical.GridCS)                                                                              | Grid coordinate system number.      |
 | [`Offset`](#id5226)                                                                                         | Offset.                             |
@@ -19901,8 +20030,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`MoveNode`](#Mechanical.MoveNode)                 | Moves a node to a new specified location.  The given locX, locY, and locZ values will be converted to the unit system the mesh is stored in, and the given node will be moved to that absolute location.   |
+| Name | Summary |
 |----------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`MoveNode`](#Mechanical.MoveNode)                 | Moves a node to a new specified location.  The given locX, locY, and locZ values will be converted to the unit system the mesh is stored in, and the given node will be moved to that absolute location.   |
 | [`UndoAllNodeMoves`](#Mechanical.UndoAllNodeMoves) | Undos all moves done to a node.                                                                                                                                                                            |
 | [`UndoLastNodeMove`](#Mechanical.UndoLastNodeMove) | Undos the last move done to a node.                                                                                                                                                                        |
 | [`MorphNodes`](#Mechanical.MorphNodes)             | Morph all the nodes.                                                                                                                                                                                       |
@@ -19925,8 +20055,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`NumberOfMoves`](#Mechanical.NumberOfMoves)                                                                        | Gets the NumberOfMoves.                                       |
 | [`NumberOfNodes`](#Mechanical.NumberOfNodes)                                                                        | Gets the NumberOfNodes.                                       |
 | [`Information`](#Mechanical.Information)                                                                            | Gets the Information.                                         |
@@ -20235,8 +20366,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`Activate`](#id6090)                | Activate the current object.                                                      |
@@ -20252,8 +20384,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)          | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |--------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)          | Gets the internal object. For advanced usage only.            |
 | [`ExclusionRegionLocation`](#id1801) | Gets or sets the ExclusionRegionLocation.                     |
 | [`ExclusionScopingMethod`](#id1802)  | Gets or sets the ExclusionScopingMethod.                      |
 | [`Children`](#id6075)                | Gets the list of children.                                    |
@@ -20450,8 +20583,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
+| Name | Summary |
 |----------------------------------------|-----------------------------------------------------------------------------------|
+| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id6084)                    | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
@@ -20468,8 +20602,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`Suppressed`](#id5991)                                                                                             | Gets or sets the Suppressed.                                  |
 | [`Selection`](#id5987)                                                                                              | Gets or sets the Selection.                                   |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -20683,8 +20818,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AppendText`](#Mechanical.AppendText)         | Append Text.                                                                      |
+| Name | Summary |
 |------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AppendText`](#Mechanical.AppendText)         | Append Text.                                                                      |
 | [`ImportTextFile`](#Mechanical.ImportTextFile) | Import from Textfile.                                                             |
 | [`ExportTextFile`](#Mechanical.ExportTextFile) | Export to Textfile.                                                               |
 | [`RenameBasedOnDefinition`](#id5997)           | Run the RenameBasedOnDefinition action.                                           |
@@ -20707,8 +20843,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Input`](#Mechanical.Input)                                                                                        | Gets or sets the Text.                                        |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Input`](#Mechanical.Input)                                                                                        | Gets or sets the Text.                                        |
 | [`OutputParameters`](#Mechanical.OutputParameters)                                                                  | Gets a list of the command snippet’s output parameters.       |
 | [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`InputArgument1`](#Mechanical.InputArgument1)                                                                      | Gets or sets the InputArgument1.                              |
@@ -21170,8 +21307,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`Activate`](#id6090)                | Activate the current object.                                                      |
@@ -21187,8 +21325,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Text`](#id5477)                                                                                                   | Gets the Text.                                                |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Text`](#id5477)                                                                                                   | Gets the Text.                                                |
 | [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`Author`](#id3233)                                                                                                 | Gets or sets the Author.                                      |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -21394,8 +21533,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Generate`](#id3787)                | Run the Generate action.                                                          |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Generate`](#id3787)                | Run the Generate action.                                                          |
 | [`RenameBasedOnDefinition`](#id5997) | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
@@ -21416,8 +21556,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`ToleranceValue`](#id5172)                                                                                         | Gets/ Sets the ToleranceValue.                                |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`ToleranceValue`](#id5172)                                                                                         | Gets/ Sets the ToleranceValue.                                |
 | [`ScopingMethod`](#id5986)                                                                                          | ScopingMethod property.                                       |
 | [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`MasterBodies`](#id3769)                                                                                           | Gets the MasterBodies.                                        |
@@ -21746,8 +21887,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -21765,8 +21907,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Worksheet`](Worksheet.md#Worksheet)                                                                               | Get the ObjectiveWorksheet action.                            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Worksheet`](Worksheet.md#Worksheet)                                                                               | Get the ObjectiveWorksheet action.                            |
 | [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`NormalizedSum`](#Mechanical.NormalizedSum)                                                                        | Gets or sets the NormalizedSum.                               |
 | [`Suppressed`](#id5991)                                                                                             | Gets or sets the Suppressed.                                  |
@@ -22017,8 +22160,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddRow`](#id2268)                                | Adds a Row to the worksheet.                            |
+| Name | Summary |
 |----------------------------------------------------|---------------------------------------------------------|
+| [`AddRow`](#id2268)                                | Adds a Row to the worksheet.                            |
 | [`DeleteRow`](#id3194)                             | Deletes a row from the worksheet at index.              |
 | [`GetEnabled`](#Mechanical.GetEnabled)             | Gets the worksheet Enabled property at row index        |
 | [`SetEnabled`](#Mechanical.SetEnabled)             | Sets the worksheet Enabled property at row index.       |
@@ -22049,8 +22193,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`RowCount`](#id2265)   | Deletes a row from the worksheet at index.   |
+| Name | Summary |
 |-------------------------|----------------------------------------------|
+| [`RowCount`](#id2265)   | Deletes a row from the worksheet at index.   |
 
 <a id="id1791"></a>
 
@@ -22312,8 +22457,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddExclusionRegion`](#Mechanical.AddExclusionRegion)   | Creates a new ExclusionRegion                                                     |
+| Name | Summary |
 |----------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddExclusionRegion`](#Mechanical.AddExclusionRegion)   | Creates a new ExclusionRegion                                                     |
 | [`RenameBasedOnDefinition`](#id5997)                     | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id6084)                                      | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)                                 | Gets the list of children, filtered by type.                                      |
@@ -22331,8 +22477,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                                  | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                                  | Gets the internal object. For advanced usage only.            |
 | [`InitialVolumeFraction`](#Mechanical.InitialVolumeFraction)                                                                 | Gets or sets the InitialVolumeFraction.                       |
 | [`MorphingTotalMoveLimit`](#Mechanical.MorphingTotalMoveLimit)                                                               | Gets or sets the MorphingTotalMoveLimit.                      |
 | [`LatticeMaxDensity`](#Mechanical.LatticeMaxDensity)                                                                         | Gets or sets the LatticeMaxDensity.                           |
@@ -22734,8 +22881,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`TransformGeometry`](#id1874)       | TransformGeometry method.                                                         |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`TransformGeometry`](#id1874)       | TransformGeometry method.                                                         |
 | [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
@@ -22755,8 +22903,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`RotationX`](#id3273)                                                                                              | Gets or sets the RotationX.                                   |
 | [`RotationY`](#id3274)                                                                                              | Gets or sets the RotationY.                                   |
 | [`RotationZ`](#id3275)                                                                                              | Gets or sets the RotationZ.                                   |
@@ -23122,8 +23271,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`TransformGeometry`](#id1874)       | TransformGeometry method.                                                         |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`TransformGeometry`](#id1874)       | TransformGeometry method.                                                         |
 | [`AddPartTransform`](#id1875)        | Creates a new PartTransform                                                       |
 | [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
@@ -23144,8 +23294,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`RegenerateContacts`](#Mechanical.RegenerateContacts)                                                              | Gets or sets the RegenerateContacts.                          |
 | [`Suppressed`](#id5991)                                                                                             | Gets or sets the Suppressed.                                  |
 | [`TransformMesh`](#Mechanical.TransformMesh)                                                                        | Gets or sets the TransformMesh.                               |
@@ -23429,8 +23580,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`SelectInvalidBodiesOnPhysicsRegion`](#Mechanical.SelectInvalidBodiesOnPhysicsRegion)   | Run the SelectInvalidBodiesOnPhysicsRegion action to select bodies that are not valid.   |
+| Name | Summary |
 |------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| [`SelectInvalidBodiesOnPhysicsRegion`](#Mechanical.SelectInvalidBodiesOnPhysicsRegion)   | Run the SelectInvalidBodiesOnPhysicsRegion action to select bodies that are not valid.   |
 | [`RenameBasedOnDefinition`](#id5997)                                                     | Run the RenameBasedOnDefinition action.                                                  |
 | [`Delete`](#id6084)                                                                      | Run the Delete action.                                                                   |
 | [`GetChildren`](#id6086)                                                                 | Gets the list of children, filtered by type.                                             |
@@ -23448,8 +23600,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                                  | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                                  | Gets the internal object. For advanced usage only.            |
 | [`ReflectionCoefficientInNegativeXDirection`](#Mechanical.ReflectionCoefficientInNegativeXDirection)                         | Gets or sets the ReflectionCoefficientInNegativeXDirection.   |
 | [`ReflectionCoefficientInNegativeYDirection`](#Mechanical.ReflectionCoefficientInNegativeYDirection)                         | Gets or sets the ReflectionCoefficientInNegativeYDirection.   |
 | [`ReflectionCoefficientInNegativeZDirection`](#Mechanical.ReflectionCoefficientInNegativeZDirection)                         | Gets or sets the ReflectionCoefficientInNegativeZDirection.   |
@@ -23887,8 +24040,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`Activate`](#id6090)                | Activate the current object.                                                      |
@@ -23904,8 +24058,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`Factor`](#Mechanical.Factor)                                                                                      | Gets or sets the Factor.                                      |
 | [`Extend`](#Mechanical.Extend)                                                                                      | Gets or sets the Extend.                                      |
 | [`Suppressed`](#id5991)                                                                                             | Gets or sets the Suppressed.                                  |
@@ -24129,8 +24284,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`PromoteToRemotePoint`](#id2195)    | Run the PromoteToRemotePoint action.                                              |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`PromoteToRemotePoint`](#id2195)    | Run the PromoteToRemotePoint action.                                              |
 | [`AddCommandSnippet`](#id5872)       | Creates a new CommandSnippet                                                      |
 | [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
@@ -24151,8 +24307,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`ElementAPDLName`](#id1943)                                                                                        | Gets or sets the ElementAPDLName.                             |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`ElementAPDLName`](#id1943)                                                                                        | Gets or sets the ElementAPDLName.                             |
 | [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`Material`](Material.md#Material)                                                                                  | Gets or sets the Material.                                    |
 | [`BeamRadius`](#Mechanical.BeamRadius)                                                                              | Gets or sets the BeamRadius.                                  |
@@ -24589,8 +24746,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
+| Name | Summary |
 |----------------------------------------|-----------------------------------------------------------------------------------|
+| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id6084)                    | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
@@ -24607,8 +24765,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`EnvironmentSelection`](#id5990)                                                                                   | Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum.   |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| [`EnvironmentSelection`](#id5990)                                                                                   | Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum.   |
 | [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.                                         |
 | [`Suppressed`](#id5991)                                                                                             | Gets or sets the Suppressed.                                                               |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                               |
@@ -24822,8 +24981,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetBushingDampingPerUnitX`](#Mechanical.GetBushingDampingPerUnitX)               | Gets the Coefficient for the damping per UnitX at the indicated row index.        |
+| Name | Summary |
 |------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetBushingDampingPerUnitX`](#Mechanical.GetBushingDampingPerUnitX)               | Gets the Coefficient for the damping per UnitX at the indicated row index.        |
 | [`GetBushingDampingPerUnitY`](#Mechanical.GetBushingDampingPerUnitY)               | Gets the Coefficient for the damping per UnitY at the indicated row index.        |
 | [`GetBushingDampingPerUnitZ`](#Mechanical.GetBushingDampingPerUnitZ)               | Gets the Coefficient for the damping per UnitZ at the indicated row index.        |
 | [`GetBushingDampingPerThetaUnitX`](#Mechanical.GetBushingDampingPerThetaUnitX)     | Gets the Coefficient for the damping per ThetaUnitX at the indicated row index.   |
@@ -25064,8 +25224,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -25084,8 +25245,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Layers`](#Mechanical.Layers)                                                                                      | Returns the Layers worksheet associated with LayeredSection   |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Layers`](#Mechanical.Layers)                                                                                      | Returns the Layers worksheet associated with LayeredSection   |
 | [`CoordinateSystem`](../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
 | [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`LayerToDisplay`](#id4697)                                                                                         | Gets or sets the LayerToDisplay.                              |
@@ -25426,8 +25588,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddThicknessLayer`](#Mechanical.AddThicknessLayer)                 | Add a row to the LayeredSectionWorksheet                               |
+| Name | Summary |
 |----------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`AddThicknessLayer`](#Mechanical.AddThicknessLayer)                 | Add a row to the LayeredSectionWorksheet                               |
 | [`InsertThicknessLayerAbove`](#Mechanical.InsertThicknessLayerAbove) | Insert a new layer to the LayeredSectionWorksheet                      |
 | [`InsertThicknessLayerBelow`](#Mechanical.InsertThicknessLayerBelow) | Insert a new layer to the LayeredSectionWorksheet                      |
 | [`DeleteRow`](#id3194)                                               | Delete a row from the LayeredSectionWorksheet                          |
@@ -25440,8 +25603,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`RowCount`](#id2265)   | Gets the number of entries (rows) in the worksheet.   |
+| Name | Summary |
 |-------------------------|-------------------------------------------------------|
+| [`RowCount`](#id2265)   | Gets the number of entries (rows) in the worksheet.   |
 
 <a id="id2040"></a>
 
@@ -25572,8 +25736,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddCommandSnippet`](#id5872)       | Creates a new CommandSnippet                                                      |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddCommandSnippet`](#id5872)       | Creates a new CommandSnippet                                                      |
 | [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
@@ -25593,8 +25758,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`AutomaticTimeStepping`](../../../Mechanical/DataModel/Enums/AutomaticTimeStepping.md#AutomaticTimeStepping)       | Gets or sets the AutomaticTimeStepping.                       |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`AutomaticTimeStepping`](../../../Mechanical/DataModel/Enums/AutomaticTimeStepping.md#AutomaticTimeStepping)       | Gets or sets the AutomaticTimeStepping.                       |
 | [`FailureCriteriaOption`](#id2048)                                                                                  | Gets or sets the FailureCriteriaOption.                       |
 | [`CriticalRate`](#id3736)                                                                                           | Gets or sets the CriticalRate.                                |
 | [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
@@ -26059,8 +26225,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddGeometry`](#Mechanical.AddGeometry)       | Add solid to the geometry.                                                        |
+| Name | Summary |
 |------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddGeometry`](#Mechanical.AddGeometry)       | Add solid to the geometry.                                                        |
 | [`UpdateGeometry`](#Mechanical.UpdateGeometry) | Update the solid on the geometry.                                                 |
 | [`RemoveGeometry`](#Mechanical.RemoveGeometry) | Remove the solid from the geometry.                                               |
 | [`Delete`](#id6084)                            | Run the Delete action.                                                            |
@@ -26080,8 +26247,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`PartName`](#Mechanical.PartName)                                                                                  | Gets the PartName.                                            |
 | [`X1`](#Mechanical.X1)                                                                                              | Gets or sets the X1.                                          |
 | [`X2`](#Mechanical.X2)                                                                                              | Gets or sets the X2.                                          |
@@ -26391,8 +26559,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddLinearPeriodicRegion`](#Mechanical.AddLinearPeriodicRegion)   | Creates a new SymmetryRegion                                                      |
+| Name | Summary |
 |--------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddLinearPeriodicRegion`](#Mechanical.AddLinearPeriodicRegion)   | Creates a new SymmetryRegion                                                      |
 | [`AddCyclicRegion`](#Mechanical.AddCyclicRegion)                   | Creates a new CyclicRegion                                                        |
 | [`AddGeneralAxisymmetric`](#Mechanical.AddGeneralAxisymmetric)     | Creates a new GeneralAxisymmetric                                                 |
 | [`AddPeriodicRegion`](#Mechanical.AddPeriodicRegion)               | Creates a new PeriodicRegion                                                      |
@@ -26418,8 +26587,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#id6075)                                                                                               | Gets the list of children.                                    |
 | [`Comments`](#id6076)                                                                                               | Gets the list of associated comments.                         |
@@ -26725,8 +26895,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`FlipHighLow`](#id5424)             | Flips the High and Low Boundaries.                                                |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`FlipHighLow`](#id5424)             | Flips the High and Low Boundaries.                                                |
 | [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
@@ -26746,8 +26917,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`ScopeMode`](#id5409)                                                                                              | Gets the ScopeMode.                                           |
 | [`Suppressed`](#id5991)                                                                                             | Gets or sets the Suppressed.                                  |
 | [`CoordinateSystem`](../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
@@ -27059,8 +27231,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`PromoteToRemotePoint`](#id2195)    | Run the PromoteToRemotePoint action.                                              |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`PromoteToRemotePoint`](#id2195)    | Run the PromoteToRemotePoint action.                                              |
 | [`AddCommandSnippet`](#id5872)       | Creates a new CommandSnippet                                                      |
 | [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
@@ -27081,8 +27254,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Behavior`](#id3268)                                                                                               | Gets or sets the Behavior.                                    |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Behavior`](#id3268)                                                                                               | Gets or sets the Behavior.                                    |
 | [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`PinballRegion`](#id3267)                                                                                          | Gets or sets the PinballRegion.                               |
 | [`ThermalCapacitance`](#Mechanical.ThermalCapacitance)                                                              | Gets or sets the ThermalCapacitance.                          |
@@ -27429,8 +27603,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -27449,8 +27624,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`NumberOfSegments`](#Mechanical.NumberOfSegments)                                                                  | Gets or sets the NumberOfSegments.                            |
 | [`ThicknessField`](#Mechanical.ThicknessField)                                                                      | Gets or sets the ThicknessField.                              |
 | [`RangeMaximum`](#Mechanical.RangeMaximum)                                                                          | Gets or sets the RangeMaximum.                                |
@@ -27799,8 +27975,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddRow`](#id2268)              | Add a row to the MeshControlWorksheet          |
+| Name | Summary |
 |----------------------------------|------------------------------------------------|
+| [`AddRow`](#id2268)              | Add a row to the MeshControlWorksheet          |
 | [`DeleteRow`](#id3194)           | Delete a row from the MeshControlWorksheet     |
 | [`GetActiveState`](#id2253)      | Gets the Active State property at row index    |
 | [`SetActiveState`](#id2254)      | Sets the Active State property at row index    |
@@ -27815,8 +27992,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`RowCount`](#id2265)   | Gets the number of entries   |
+| Name | Summary |
 |-------------------------|------------------------------|
+| [`RowCount`](#id2265)   | Gets the number of entries   |
 
 <a id="id2247"></a>
 
@@ -27950,8 +28128,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Generate`](#id3787)                                            | Generate the selection from the worksheet.                      |
+| Name | Summary |
 |------------------------------------------------------------------|-----------------------------------------------------------------|
+| [`Generate`](#id3787)                                            | Generate the selection from the worksheet.                      |
 | [`AddRow`](#id2268)                                              | Adds a Row to the worksheet.                                    |
 | [`DeleteRow`](#id3194)                                           | Deletes a row from the worksheet at index.                      |
 | [`SetCriterion`](#id2270)                                        | Sets the worksheet Criterion property at index.                 |
@@ -27987,8 +28166,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`RowCount`](#id2265)   |    |
+| Name | Summary |
 |-------------------------|----|
+| [`RowCount`](#id2265)   |    |
 
 <a id="id2263"></a>
 
@@ -28288,8 +28468,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`FlipHighLow`](#id5424)             | Flips the High and Low Boundaries.                                                |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`FlipHighLow`](#id5424)             | Flips the High and Low Boundaries.                                                |
 | [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
@@ -28309,8 +28490,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`PeriodicityDirection`](#Mechanical.PeriodicityDirection)                                                          | Gets or sets the PeriodicityDirection.                        |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`PeriodicityDirection`](#Mechanical.PeriodicityDirection)                                                          | Gets or sets the PeriodicityDirection.                        |
 | [`Location`](#id5988)                                                                                               | Gets or sets the Location.                                    |
 | [`LinearShift`](#Mechanical.LinearShift)                                                                            | Gets or sets the LinearShift.                                 |
 | [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
@@ -28676,8 +28858,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Stress`](#id2317)                                               | Gets or sets the Stress Property       |
+| Name | Summary |
 |-------------------------------------------------------------------|----------------------------------------|
+| [`Stress`](#id2317)                                               | Gets or sets the Stress Property       |
 | [`Displacement`](BoundaryConditions/Displacement.md#Displacement) | Gets or sets the Displacement Property |
 
 <a id="id2312"></a>
@@ -28720,8 +28903,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetExpansionState`](#Mechanical.GetExpansionState)                   | Gets the requested expansion state of a given Condensed Part                      |
+| Name | Summary |
 |------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetExpansionState`](#Mechanical.GetExpansionState)                   | Gets the requested expansion state of a given Condensed Part                      |
 | [`SetExpansionState`](#Mechanical.SetExpansionState)                   | Sets the requested expansion state of a given Condensed Part                      |
 | [`GetCompletedExpansionState`](#Mechanical.GetCompletedExpansionState) | Gets the completed expansion state of a given Condensed Part                      |
 | [`EvaluateAllResults`](#id5348)                                        | Run the EvaluateAllResults action.                                                |
@@ -28746,8 +28930,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                                  | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                                  | Gets the internal object. For advanced usage only.            |
 | [`CondensedPartExpansionType`](../../../Mechanical/DataModel/Enums/CondensedPartExpansionType.md#CondensedPartExpansionType) | Gets or sets the CondensedPartExpansionType.                  |
 | [`NodalForces`](#Mechanical.NodalForces)                                                                                     | Gets or sets the NodalForces.                                 |
 | [`Strain`](#Mechanical.Strain)                                                                                               | Gets or sets the Strain.                                      |
@@ -29108,8 +29293,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddCommandSnippet`](#id5872)       | Creates a new CommandSnippet                                                      |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddCommandSnippet`](#id5872)       | Creates a new CommandSnippet                                                      |
 | [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
@@ -29129,8 +29315,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#id6075)                                                                                               | Gets the list of children.                                    |
 | [`Comments`](#id6076)                                                                                               | Gets the list of associated comments.                         |
@@ -29388,8 +29575,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddCommandSnippet`](#id5872)       | Creates a new CommandSnippet                                                      |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddCommandSnippet`](#id5872)       | Creates a new CommandSnippet                                                      |
 | [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
@@ -29409,8 +29597,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`CrackID`](#id5862)                                                                                                | Gets the CrackID.                                             |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#id6075)                                                                                               | Gets the list of children.                                    |
@@ -29677,8 +29866,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Refresh`](#Mechanical.Refresh)                                       | Refreshes the tree.                                                              |
+| Name | Summary |
 |------------------------------------------------------------------------|----------------------------------------------------------------------------------|
+| [`Refresh`](#Mechanical.Refresh)                                       | Refreshes the tree.                                                              |
 | [`Suspend`](#Mechanical.Suspend)                                       | Prevents the tree from being updated.                                            |
 | [`GetPathToFirstActiveObject`](#Mechanical.GetPathToFirstActiveObject) | Gets the full path that needs to be typed in order to go to the selected object. |
 | [`Find`](#Mechanical.Find)                                             | Find method.                                                                     |
@@ -29694,8 +29884,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`FirstActiveObject`](#Mechanical.FirstActiveObject)           | Gets the first object selected in the tree.                           |
+| Name | Summary |
 |----------------------------------------------------------------|-----------------------------------------------------------------------|
+| [`FirstActiveObject`](#Mechanical.FirstActiveObject)           | Gets the first object selected in the tree.                           |
 | [`ActiveObjects`](#Mechanical.ActiveObjects)                   | Gets a list of all selected objects.                                  |
 | [`AllObjects`](#Mechanical.AllObjects)                         | Gets a list of all objects available in the tree.                     |
 | [`GroupingFoldersVisible`](#Mechanical.GroupingFoldersVisible) | Controls whether or not group folders are visible.                    |
@@ -29918,8 +30109,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddCommandSnippet`](#id5872)       | Creates a new CommandSnippet                                                      |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddCommandSnippet`](#id5872)       | Creates a new CommandSnippet                                                      |
 | [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
@@ -29939,8 +30131,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`XScaleFactor`](#id5832)                                                                                           | Gets or sets the XScaleFactor.                                |
 | [`YScaleFactor`](#id5833)                                                                                           | Gets or sets the YScaleFactor.                                |
 | [`ZScaleFactor`](#id5834)                                                                                           | Gets or sets the ZScaleFactor.                                |
@@ -30441,8 +30634,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -30461,8 +30655,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`Suppressed`](#id5991)                                                                                             | Gets or sets the Suppressed.                                  |
 | [`CoordinateSystem`](../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -30721,8 +30916,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddLoadCombination`](#Mechanical.AddLoadCombination)         | Add a LoadCombination to the SolutionCombination Definition                      |
+| Name | Summary |
 |----------------------------------------------------------------|----------------------------------------------------------------------------------|
+| [`AddLoadCombination`](#Mechanical.AddLoadCombination)         | Add a LoadCombination to the SolutionCombination Definition                      |
 | [`DeleteLoadCombination`](#Mechanical.DeleteLoadCombination)   | Delete a LoadCombination from the SolutionCombination Definition                 |
 | [`AddBaseCase`](#Mechanical.AddBaseCase)                       | Add a BaseCase to the SolutionCombinationDefinition                              |
 | [`DeleteBaseCase`](#Mechanical.DeleteBaseCase)                 | Delete a BaseCase from the SolutionCombinationDefinition                         |
@@ -30747,8 +30943,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`LoadCombinationCount`](#Mechanical.LoadCombinationCount)   | Gets the number of load combinations   |
+| Name | Summary |
 |--------------------------------------------------------------|----------------------------------------|
+| [`LoadCombinationCount`](#Mechanical.LoadCombinationCount)   | Gets the number of load combinations   |
 | [`BaseCaseCount`](#Mechanical.BaseCaseCount)                 | Gets the number of bases cases         |
 
 <a id="id2478"></a>
@@ -30971,8 +31168,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ExportStl`](#Mechanical.ExportStl)   | Export STL data.                                                                  |
+| Name | Summary |
 |----------------------------------------|-----------------------------------------------------------------------------------|
+| [`ExportStl`](#Mechanical.ExportStl)   | Export STL data.                                                                  |
 | [`ImportSTL`](#id4323)                 | Run the ImportSTL action.                                                         |
 | [`Delete`](#id6084)                    | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
@@ -30993,8 +31191,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`TranslateX`](#Mechanical.TranslateX)                                                                              | Gets or sets the TranslateX.                                  |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`TranslateX`](#Mechanical.TranslateX)                                                                              | Gets or sets the TranslateX.                                  |
 | [`Color`](#id2822)                                                                                                  | Gets or sets the Color.                                       |
 | [`TranslateY`](#Mechanical.TranslateY)                                                                              | Gets or sets the TranslateY.                                  |
 | [`TranslateZ`](#Mechanical.TranslateZ)                                                                              | Gets or sets the TranslateZ.                                  |
@@ -31341,8 +31540,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddUniformConstraint`](#Mechanical.AddUniformConstraint)                                                     | Creates a new UniformConstraint                                                                                        |
+| Name | Summary |
 |----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
+| [`AddUniformConstraint`](#Mechanical.AddUniformConstraint)                                                     | Creates a new UniformConstraint                                                                                        |
 | [`AddVelocity`](#Mechanical.AddVelocity)                                                                       | Creates a new Velocity                                                                                                 |
 | [`AddViscoelasticHeating`](#Mechanical.AddViscoelasticHeating)                                                 | Creates a new ViscoelasticHeating                                                                                      |
 | [`AddVoltage`](#Mechanical.AddVoltage)                                                                         | Creates a new Voltage                                                                                                  |
@@ -31509,8 +31709,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`CellId`](#id3114)                                                                                                 | Gets the CellId.                                              |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`CellId`](#id3114)                                                                                                 | Gets the CellId.                                              |
 | [`SystemCaption`](#id2520)                                                                                          | Gets the SystemCaption.                                       |
 | [`InitialConditions`](InitialConditions.md#InitialConditions)                                                       | Get InitialConditions.                                        |
 | [`ResultFileName`](#id3119)                                                                                         | Get the full path and name of the result file.                |
@@ -33080,8 +33281,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetVirtualCellFromSelection`](#Mechanical.GetVirtualCellFromSelection)   | Gets the Virtual Cell from the selection.                                         |
+| Name | Summary |
 |----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetVirtualCellFromSelection`](#Mechanical.GetVirtualCellFromSelection)   | Gets the Virtual Cell from the selection.                                         |
 | [`GenerateVirtualCells`](#Mechanical.GenerateVirtualCells)                 | Generate the Virtual Cells on the selected/all entities.                          |
 | [`VirtualSplitFaceAtVertices`](#Mechanical.VirtualSplitFaceAtVertices)     | Generate the Virtual Cells on the selected/all entities.                          |
 | [`VirtualSplitEdge`](#Mechanical.VirtualSplitEdge)                         | Generate the Virtual Cells on the selected/all entities.                          |
@@ -33111,8 +33313,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`AutomaticBehavior`](#Mechanical.AutomaticBehavior)                                                                | Gets or sets the Behavior when Method is set to “Automatic”.   |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
+| [`AutomaticBehavior`](#Mechanical.AutomaticBehavior)                                                                | Gets or sets the Behavior when Method is set to “Automatic”.   |
 | [`RepairBehavior`](#Mechanical.RepairBehavior)                                                                      | Gets or sets the Behavior when Method is set to “Repair”.      |
 | [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.             |
 | [`AspectRatio`](#Mechanical.AspectRatio)                                                                            | Gets or sets the AspectRatio.                                  |
@@ -33666,8 +33869,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ImportResultTrackersFromFile`](#Mechanical.ImportResultTrackersFromFile)                 | Import Result Trackers from File.                                                 |
+| Name | Summary |
 |--------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ImportResultTrackersFromFile`](#Mechanical.ImportResultTrackersFromFile)                 | Import Result Trackers from File.                                                 |
 | [`AddDeformationPlotTracker`](#Mechanical.AddDeformationPlotTracker)                       | Creates a new TotalDeformation Plot Tracker.                                      |
 | [`AddStressPlotTracker`](#Mechanical.AddStressPlotTracker)                                 | Creates a new EquivalentStress Plot Tracker.                                      |
 | [`AddStrainPlotTracker`](#Mechanical.AddStrainPlotTracker)                                 | Creates a new EquivalentElasticStrainRST Plot Tracker.                            |
@@ -33768,8 +33972,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`EnvironmentSelection`](#id5990)                                                                                   | Gets or Sets the EnvironmentSelection to an Analysis object.   |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
+| [`EnvironmentSelection`](#id5990)                                                                                   | Gets or Sets the EnvironmentSelection to an Analysis object.   |
 | [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.             |
 | [`DisplayPoints`](#Mechanical.DisplayPoints)                                                                        | Gets or sets the DisplayPoints.                                |
 | [`IdentifyElementViolations`](#Mechanical.IdentifyElementViolations)                                                | Gets or sets the IdentifyElementViolations.                    |
@@ -34873,8 +35078,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#id5347)                  | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |--------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#id5347)                  | Run the ClearGeneratedData action.                                                |
 | [`AddContactTool`](#id3193)                      | Creates a new ContactTool                                                         |
 | [`EvaluateAllResults`](#id5348)                  | Run the EvaluateAllResults action.                                                |
 | [`AddFatigueTool`](#id3195)                      | Creates a new FatigueTool                                                         |
@@ -34955,8 +35161,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Definition`](#id2627)                                                                                             | Get the SolutionCombinationDefinition object.                 |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Definition`](#id2627)                                                                                             | Get the SolutionCombinationDefinition object.                 |
 | [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#id6075)                                                                                               | Gets the list of children.                                    |
@@ -35694,8 +35901,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddCrack`](#Mechanical.AddCrack)                                                 | Creates a new child Crack.                                                        |
+| Name | Summary |
 |------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddCrack`](#Mechanical.AddCrack)                                                 | Creates a new child Crack.                                                        |
 | [`GenerateAllCrackMesh`](#Mechanical.GenerateAllCrackMesh)                         | Run the GenerateAllCrackMesh action.                                              |
 | [`GenerateAllInterfaceDelamination`](#Mechanical.GenerateAllInterfaceDelamination) | Generate all interfaces delamination from an external model.                      |
 | [`AddArbitraryCrack`](#Mechanical.AddArbitraryCrack)                               | Creates a new ArbitraryCrack                                                      |
@@ -35728,8 +35936,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`RemeshHexDominantToTetrahedral`](#Mechanical.RemeshHexDominantToTetrahedral)                                      | Gets or sets the RemeshHexDominantToTetrahedral.              |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#id6075)                                                                                               | Gets the list of children.                                    |
@@ -36091,8 +36300,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddNumberingControl`](#Mechanical.AddNumberingControl)   | Creates a new NumberingControl                                                    |
+| Name | Summary |
 |------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddNumberingControl`](#Mechanical.AddNumberingControl)   | Creates a new NumberingControl                                                    |
 | [`RenumberMesh`](#Mechanical.RenumberMesh)                 | Run the RenumberMesh action.                                                      |
 | [`Delete`](#id6084)                                        | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)                                   | Gets the list of children, filtered by type.                                      |
@@ -36113,8 +36323,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`ElementOffset`](#Mechanical.ElementOffset)                                                                        | Gets or sets the ElementOffset.                               |
 | [`NodeOffset`](#id2690)                                                                                             | Gets or sets the NodeOffset.                                  |
 | [`CompressNodeNumbers`](#Mechanical.CompressNodeNumbers)                                                            | Gets or sets the CompressNodeNumbers.                         |
@@ -36407,8 +36618,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -36427,8 +36639,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`BeginElementNumber`](#Mechanical.BeginElementNumber)                                                              | Gets or sets the BeginElementNumber.                          |
 | [`BeginNodeNumber`](#Mechanical.BeginNodeNumber)                                                                    | Gets or sets the BeginNodeNumber.                             |
 | [`EndElementNumber`](#Mechanical.EndElementNumber)                                                                  | Gets or sets the EndElementNumber.                            |
@@ -36732,8 +36945,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#id5347)                                                        | Clear the generated data.                                                         |
+| Name | Summary |
 |----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#id5347)                                                        | Clear the generated data.                                                         |
 | [`AddNodeMerge`](#id5195)                                                              | Add a new NodeMerge.                                                              |
 | [`AddManualMeshConnection`](#id2762)                                                   | Add a new ManualMeshConnection                                                    |
 | [`Generate`](#id3787)                                                                  | Generate all mesh edits.                                                          |
@@ -36766,8 +36980,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.                    |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.                    |
 | [`GenerateAutomaticMeshConnectionsOnRefresh`](#Mechanical.GenerateAutomaticMeshConnectionsOnRefresh)                | Gets or sets the GenerateAutomaticMeshConnectionsOnRefresh.           |
 | [`AssociateToPullGeometry`](#Mechanical.AssociateToPullGeometry)                                                    | To Migrate Boundary Conditions from profile to resulting Pull bodies. |
 | [`TransparencyEnabled`](#id2751)                                                                                    | Gets or sets the TransparencyEnabled.                                 |
@@ -37147,8 +37362,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddTransformation`](#Mechanical.AddTransformation)                             | Adds a new transformation.                                                        |
+| Name | Summary |
 |----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddTransformation`](#Mechanical.AddTransformation)                             | Adds a new transformation.                                                        |
 | [`RemoveTransformation`](#Mechanical.RemoveTransformation)                       | Removes a tranformation.                                                          |
 | [`SetOriginLocation`](#Mechanical.SetOriginLocation)                             | Changes the origin location.                                                      |
 | [`SetTransformationValue`](#Mechanical.SetTransformationValue)                   | Sets the value of a transformation.                                               |
@@ -37192,8 +37408,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`TransformationCount`](#Mechanical.TransformationCount)                                                            | Gets the number of transformations.                                   |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
+| [`TransformationCount`](#Mechanical.TransformationCount)                                                            | Gets the number of transformations.                                   |
 | [`IsGlobal`](#Mechanical.IsGlobal)                                                                                  | Gets the IsGlobal.                                                    |
 | [`OriginLocation`](#Mechanical.OriginLocation)                                                                      | Gets or sets the origin location.                                     |
 | [`OriginX`](#Mechanical.OriginX)                                                                                    | Gets or sets the origin X coordinate.                                 |
@@ -37868,8 +38085,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetGeoBody`](#Mechanical.GetGeoBody)   | Gets the Geo Body                                                                 |
+| Name | Summary |
 |------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetGeoBody`](#Mechanical.GetGeoBody)   | Gets the Geo Body                                                                 |
 | [`ClearGeneratedData`](#id5347)          | Run the ClearGeneratedData action.                                                |
 | [`AddCommandSnippet`](#id5872)           | Creates a new CommandSnippet                                                      |
 | [`AddPythonCodeEventBased`](#id3154)     | Creates a new PythonCodeEventBased                                                |
@@ -37896,8 +38114,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Hidden`](#id3053)                                                                                                 | Hide or show the body.                                                                         |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
+| [`Hidden`](#id3053)                                                                                                 | Hide or show the body.                                                                         |
 | [`ConfigurationId`](#id3054)                                                                                        | Gets the related Result Mesh’s ConfigurationId.                                                |
 | [`ResultMeshId`](#id3055)                                                                                           | Gets the related Result Mesh’s ObjectId.                                                       |
 | [`ReferenceTemperature`](#id3670)                                                                                   | Gets or sets the ReferenceTemperature.                                                         |
@@ -38887,8 +39106,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`SnapPathToMeshNodes`](#Mechanical.SnapPathToMeshNodes)     | Snap path to mesh nodes                                                           |
+| Name | Summary |
 |--------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`SnapPathToMeshNodes`](#Mechanical.SnapPathToMeshNodes)     | Snap path to mesh nodes                                                           |
 | [`FlipPathOrientatation`](#Mechanical.FlipPathOrientatation) | Flip Path Orientatation                                                           |
 | [`Delete`](#id6084)                                          | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)                                     | Gets the list of children, filtered by type.                                      |
@@ -38909,8 +39129,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`DiscretizationPoints`](#Mechanical.DiscretizationPoints)                                                          | Gets or sets the DiscretizationPoints.                        |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`DiscretizationPoints`](#Mechanical.DiscretizationPoints)                                                          | Gets or sets the DiscretizationPoints.                        |
 | [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`NumberOfSubpaths`](#Mechanical.NumberOfSubpaths)                                                                  | Gets or sets the NumberOfSubpaths.                            |
 | [`NumberOfSamplingPoints`](#Mechanical.NumberOfSamplingPoints)                                                      | Gets or sets the NumberOfSamplingPoints.                      |
@@ -39338,8 +39559,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ExportToTextFile`](#Mechanical.ExportToTextFile)                   | Run the ExportToTextFile action.                                                                                 |
+| Name | Summary |
 |----------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
+| [`ExportToTextFile`](#Mechanical.ExportToTextFile)                   | Run the ExportToTextFile action.                                                                                 |
 | [`ExportNamedSelectionToCDBFile`](#id2921)                           | Export Named Selection to CDB file                                                                               |
 | [`Generate`](#id3787)                                                | Generates the selection based on the generation criteria.                                                        |
 | [`CreateNodalNamedSelection`](#Mechanical.CreateNodalNamedSelection) | Creates a new Named Selection object containing all the nodes from the entities in the current named selection . |
@@ -39362,8 +39584,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Location`](#id5988)                                                                                               | Gets or sets the Location.                                              |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| [`Location`](#id5988)                                                                                               | Gets or sets the Location.                                              |
 | [`GenerationCriteria`](#Mechanical.GenerationCriteria)                                                              | Returns the generation criteria that is used to generate the selection. |
 | [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.                      |
 | [`CrackFrontNumber`](#Mechanical.CrackFrontNumber)                                                                  | Gets the CrackFrontNumber.                                              |
@@ -39807,8 +40030,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddThickness`](#Mechanical.AddThickness)                                                           | Creates a new child Thickness.                                                        |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+| [`AddThickness`](#Mechanical.AddThickness)                                                           | Creates a new child Thickness.                                                        |
 | [`AddImportedThicknessExternalData`](#Mechanical.AddImportedThicknessExternalData)                   | For Standalone Mode only. Creates a new Imported Thickness (External Data).           |
 | [`AddImportedElementOrientationExternalData`](#Mechanical.AddImportedElementOrientationExternalData) | For Standalone Mode only. Creates a new Imported Element Orientation (External Data). |
 | [`AddLayeredSection`](#Mechanical.AddLayeredSection)                                                 | Creates a new child LayeredSection.                                                   |
@@ -39844,8 +40068,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                                            | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`TemporaryDirectory`](#Mechanical.TemporaryDirectory)                                                                                 | Gets or sets the TemporaryDirectory.                          |
 | [`AttributeKey`](#Mechanical.AttributeKey)                                                                                             | Gets the AttributeKey.                                        |
 | [`Source`](#Mechanical.Source)                                                                                                         | Gets the Source.                                              |
@@ -40735,8 +40960,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`EvaluateAllResults`](#id5348)                                                | Run the EvaluateAllResults action.                                                |
+| Name | Summary |
 |--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`EvaluateAllResults`](#id5348)                                                | Run the EvaluateAllResults action.                                                |
 | [`AddBiaxialityIndication`](#Mechanical.AddBiaxialityIndication)               | Creates a new FatigueBiaxialityIndication                                         |
 | [`AddDamage`](#id2999)                                                         | Creates a new FatigueDamage                                                       |
 | [`AddDamageMatrix`](#Mechanical.AddDamageMatrix)                               | Creates a new FatigueDamageMatrix                                                 |
@@ -40764,8 +40990,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`OneCycleIsEqualTo`](#Mechanical.OneCycleIsEqualTo)                                                                | Gets or sets the OneCycleIsEqualTo.                           |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`OneCycleIsEqualTo`](#Mechanical.OneCycleIsEqualTo)                                                                | Gets or sets the OneCycleIsEqualTo.                           |
 | [`CustomUnitsName`](#Mechanical.CustomUnitsName)                                                                    | Gets or sets the Custom Units Name.                           |
 | [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`FatigueStrengthFactor`](#Mechanical.FatigueStrengthFactor)                                                        | Gets or sets the FatigueStrengthFactor.                       |
@@ -41258,8 +41485,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddCommandSnippet`](#id5872)       | Creates a new child CommandSnippet.                                               |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddCommandSnippet`](#id5872)       | Creates a new child CommandSnippet.                                               |
 | [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
@@ -41279,8 +41507,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Direction`](#id5446)                                                                                              | Gets or sets the Direction.                                   |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Direction`](#id5446)                                                                                              | Gets or sets the Direction.                                   |
 | [`TotalMagnitude`](#Mechanical.TotalMagnitude)                                                                      | Gets or sets the Magnitude.                                   |
 | [`InitialEnvironment`](#Mechanical.InitialEnvironment)                                                              | Gets or sets the InitialEnvironment.                          |
 | [`PreStressEnvironmentModalIC`](#Mechanical.PreStressEnvironmentModalIC)                                            | Gets or sets the PreStressEnvironmentModalIC.                 |
@@ -41916,8 +42145,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#id5347)      | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#id5347)      | Run the ClearGeneratedData action.                                                |
 | [`CreateParameter`](#id6097)         | Creates a new parameter for a Property.                                           |
 | [`RemoveParameter`](#id6099)         | Removes the parameter from the parameter set corresponding to the given property. |
 | [`GenerateMesh`](#id3093)            | Run the GenerateMesh action.                                                      |
@@ -41940,8 +42170,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`MaterialName`](#id3052)                                                                                           | Gets or sets the MaterialName.                                |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`MaterialName`](#id3052)                                                                                           | Gets or sets the MaterialName.                                |
 | [`Hidden`](#id3053)                                                                                                 | Hide or show the body.                                        |
 | [`ConfigurationId`](#id3054)                                                                                        | Gets the related Result Mesh’s ConfigurationId.               |
 | [`ResultMeshId`](#id3055)                                                                                           | Gets the related Result Mesh’s ObjectId.                      |
@@ -42475,8 +42706,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddEquivalentTotalStrain`](#id3129)                                                                                  | Creates a new EquivalentTotalStrain                                                                                          |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| [`AddEquivalentTotalStrain`](#id3129)                                                                                  | Creates a new EquivalentTotalStrain                                                                                          |
 | [`AddExpansionSettings`](#Mechanical.AddExpansionSettings)                                                             | Creates a new ExpansionSettings                                                                                              |
 | [`AddFiberCompressiveDamageVariable`](#Mechanical.AddFiberCompressiveDamageVariable)                                   | Creates a new FiberCompressiveDamageVariable                                                                                 |
 | [`AddFiberCompressiveFailureCriterion`](#Mechanical.AddFiberCompressiveFailureCriterion)                               | Creates a new FiberCompressiveFailureCriterion                                                                               |
@@ -42794,8 +43026,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`SolutionInformation`](SolutionInformation.md#SolutionInformation)                                                 | Gets the SolutionInformation.                                                            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| [`SolutionInformation`](SolutionInformation.md#SolutionInformation)                                                 | Gets the SolutionInformation.                                                            |
 | [`CellId`](#id3114)                                                                                                 | Gets the CellId.                                                                         |
 | [`WorkingDir`](#Mechanical.WorkingDir)                                                                              | Gets the WorkingDir.                                                                     |
 | [`Status`](#Mechanical.Status)                                                                                      | Gets the Status.                                                                         |
@@ -46031,8 +46264,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`SpecifyMetricTemperatureInKelvin`](#Mechanical.SpecifyMetricTemperatureInKelvin)   | Specify the use of Kelvin thermal units for metric unit systems.                                            |
+| Name | Summary |
 |--------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| [`SpecifyMetricTemperatureInKelvin`](#Mechanical.SpecifyMetricTemperatureInKelvin)   | Specify the use of Kelvin thermal units for metric unit systems.                                            |
 | [`SpecifyMetricTemperatureInCelsius`](#Mechanical.SpecifyMetricTemperatureInCelsius) | Specify the use of Celsius thermal units for metric unit systems.                                           |
 | [`ClearGeneratedData`](#id5347)                                                      | Run the ClearGeneratedData action.                                                                          |
 | [`CombineTextFiles`](#Mechanical.CombineTextFiles)                                   | Combines two text(.txt / .dmig / .inp / .dat) files. The secondary file will be appened to the primary file |
@@ -46053,8 +46287,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Models`](#Mechanical.Models)                                                                                      | Gets the Model.                                               |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Models`](#Mechanical.Models)                                                                                      | Gets the Model.                                               |
 | [`Model`](Model.md#Model)                                                                                           | Gets the Model.                                               |
 | [`CreationDate`](#Mechanical.CreationDate)                                                                          | Gets the CreationDate.                                        |
 | [`CreationTime`](#Mechanical.CreationTime)                                                                          | Gets the CreationTime.                                        |
@@ -46446,8 +46681,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetMeshRegion`](#Mechanical.GetMeshRegion)                     | Returns the mesh region associated to the remote point.                           |
+| Name | Summary |
 |------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetMeshRegion`](#Mechanical.GetMeshRegion)                     | Returns the mesh region associated to the remote point.                           |
 | [`PromoteToNamedSelection`](#Mechanical.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
 | [`AddCommandSnippet`](#id5872)                                   | Creates a new CommandSnippet                                                      |
 | [`Delete`](#id6084)                                              | Run the Delete action.                                                            |
@@ -46467,8 +46703,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`PilotNodeAPDLName`](#Mechanical.PilotNodeAPDLName)                                                                | Gets or sets the PilotNodeAPDLName.                           |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`PilotNodeAPDLName`](#Mechanical.PilotNodeAPDLName)                                                                | Gets or sets the PilotNodeAPDLName.                           |
 | [`OutlineSelection`](#id3260)                                                                                       | Gets or sets the OutlineSelection.                            |
 | [`GloballyAvailable`](#id3261)                                                                                      | Remote point is globally available                            |
 | [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
@@ -46931,8 +47168,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddContactRegion`](#id5196)                   | Creates a new child ContactRegion.                                                |
+| Name | Summary |
 |-------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddContactRegion`](#id5196)                   | Creates a new child ContactRegion.                                                |
 | [`AddJoint`](#id5197)                           | Creates a new child Joint.                                                        |
 | [`SearchConnectionsForDuplicatePairs`](#id5198) | Run the SearchConnectionsForDuplicatePairs action.                                |
 | [`AddSpotWeld`](#id5199)                        | Creates a new child SpotWeld.                                                     |
@@ -46962,8 +47200,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`ConnectionType`](#id5161)                                                                                         | Gets or sets the ConnectionType.                              |
 | [`ActiveConnections`](#id5162)                                                                                      | Gets the ActiveConnections.                                   |
@@ -47526,8 +47765,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddCommandSnippet`](#id5872)       | Creates a new CommandSnippet                                                      |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddCommandSnippet`](#id5872)       | Creates a new CommandSnippet                                                      |
 | [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
@@ -47547,8 +47787,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`RemotePoint`](RemotePoint.md#RemotePoint)                                                                         | Gets the remote point associated to the point mass.           |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`RemotePoint`](RemotePoint.md#RemotePoint)                                                                         | Gets the remote point associated to the point mass.           |
 | [`IsDistributedMass`](#id3370)                                                                                      | Gets the IsDistributedMass.                                   |
 | [`Location`](#id5988)                                                                                               | Gets or sets the Geometry.                                    |
 | [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
@@ -47833,8 +48074,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`EvaluateAllResults`](#id5348)      | Run the EvaluateAllResults action.                                                |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`EvaluateAllResults`](#id5348)      | Run the EvaluateAllResults action.                                                |
 | [`RenameBasedOnDefinition`](#id5997) | Run the RenameBasedOnDefinition action.                                           |
 | [`ClearGeneratedData`](#id5347)      | Run the ClearGeneratedData action.                                                |
 | [`Delete`](#id6084)                  | Run the Delete action.                                                            |
@@ -47856,8 +48098,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`CoordinateSystem`](../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the Coordinate System.                           |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`CoordinateSystem`](../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the Coordinate System.                           |
 | [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`DirectionX`](#Mechanical.DirectionX)                                                                              | Gets or sets the DirectionX.                                  |
 | [`DirectionY`](#Mechanical.DirectionY)                                                                              | Gets or sets the DirectionY.                                  |
@@ -48329,8 +48572,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
+| Name | Summary |
 |----------------------------------------|-----------------------------------------------------------------------------------|
+| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id6084)                    | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
@@ -48347,8 +48591,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`OverhangAngle`](#Mechanical.OverhangAngle)                                                                        | Gets or sets the OverhangAngle.                               |
 | [`ScopingMethod`](#id5986)                                                                                          | Gets or sets the ScopingMethod.                               |
 | [`BuildDirection`](#Mechanical.BuildDirection)                                                                      | Gets or sets the BuildDirection.                              |
@@ -48598,8 +48843,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddCommandSnippet`](#id5872)       | Creates a new CommandSnippet                                                      |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddCommandSnippet`](#id5872)       | Creates a new CommandSnippet                                                      |
 | [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
@@ -48619,8 +48865,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`XScaleFactor`](#id5832)                                                                                           | Gets or sets the XScaleFactor.                                |
 | [`YScaleFactor`](#id5833)                                                                                           | Gets or sets the YScaleFactor.                                |
 | [`ZScaleFactor`](#id5834)                                                                                           | Gets or sets the ZScaleFactor.                                |
@@ -49067,8 +49314,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
+| Name | Summary |
 |----------------------------------------|-----------------------------------------------------------------------------------|
+| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id6084)                    | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
@@ -49085,8 +49333,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.                                       |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.                                       |
 | [`MaximumPosition`](#Mechanical.MaximumPosition)                                                                    | Gets or sets the MaximumPosition.                                                        |
 | [`MinimumPosition`](#Mechanical.MinimumPosition)                                                                    | Gets or sets the MinimumPosition.                                                        |
 | [`Axis`](#id5892)                                                                                                   | Gets or sets the Axis.                                                                   |
@@ -49354,8 +49603,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -49374,8 +49624,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`Area`](#id6065)                                                                                                   | Gets the Area.                                                |
 | [`IYY`](#id6066)                                                                                                    | Gets the IYY.                                                 |
 | [`IZZ`](#id6067)                                                                                                    | Gets the IZZ.                                                 |
@@ -49706,8 +49957,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -49726,8 +49978,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`Area`](#id6065)                                                                                                   | Gets the Area.                                                |
 | [`IYY`](#id6066)                                                                                                    | Gets the IYY.                                                 |
 | [`IZZ`](#id6067)                                                                                                    | Gets the IZZ.                                                 |
@@ -50013,8 +50266,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -50033,8 +50287,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`Area`](#id6065)                                                                                                   | Gets the Area.                                                |
 | [`IYY`](#id6066)                                                                                                    | Gets the IYY.                                                 |
 | [`IZZ`](#id6067)                                                                                                    | Gets the IZZ.                                                 |
@@ -50329,8 +50584,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
+| Name | Summary |
 |----------------------------------------|-----------------------------------------------------------------------------------|
+| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id6084)                    | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
@@ -50347,8 +50603,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.                                       |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.                                       |
 | [`ComplianceLimit`](#id5806)                                                                                        | Gets or sets the ComplianceLimit.                                                        |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                             |
 | [`EnvironmentSelection`](#id5990)                                                                                   | Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum. |
@@ -50571,8 +50828,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddCommandSnippet`](#id5872)       | Creates a new CommandSnippet                                                      |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddCommandSnippet`](#id5872)       | Creates a new CommandSnippet                                                      |
 | [`ClearGeneratedData`](#id5347)      | Run the ClearGeneratedData action.                                                |
 | [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
@@ -50593,8 +50851,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`NumberInterfaceEntries`](#id3665)                                                                                 | Gets the NumberInterfaceEntries.                              |
 | [`NumberMasterNodes`](#id3666)                                                                                      | Gets the NumberMasterNodes.                                   |
 | [`SolutionName`](#id3667)                                                                                           | Gets or sets the SolutionName.                                |
@@ -50959,8 +51218,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -50978,8 +51238,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`Text`](#id5477)                                                                                                   | Gets the Text.                                                |
 | [`UpdateInterval`](#id3808)                                                                                         | Gets or sets the UpdateInterval.                              |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -51221,8 +51482,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddCommandSnippet`](#id5872)       | Creates a new CommandSnippet                                                      |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddCommandSnippet`](#id5872)       | Creates a new CommandSnippet                                                      |
 | [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`Activate`](#id6090)                | Activate the current object.                                                      |
 | [`CopyTo`](#id6091)                  | Copies all visible properties from this object to another.                        |
@@ -51237,8 +51499,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`Material`](Material.md#Material)                                                                                  | Gets or sets the Material.                                    |
 | [`CriticalRate`](#id3736)                                                                                           | Gets or sets the CriticalRate.                                |
 | [`InitialTimeStep`](#id3737)                                                                                        | Gets or sets the InitialTimeStep.                             |
@@ -51508,8 +51771,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Generate`](#id3787)                | Run the Generate action.                                                          |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Generate`](#id3787)                | Run the Generate action.                                                          |
 | [`RenameBasedOnDefinition`](#id5997) | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
@@ -51530,8 +51794,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`ScopingMethod`](#id5986)                                                                                          | ScopingMethod property.                                       |
 | [`ToleranceSlider`](#id5168)                                                                                        | Gets or sets the ToleranceSlider.                             |
@@ -51896,8 +52161,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -51915,8 +52181,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`UpdateInterval`](#id3808)                                                                                         | Gets or sets the UpdateInterval.                              |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#id6075)                                                                                               | Gets the list of children.                                    |
@@ -52149,8 +52416,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddCommandSnippet`](#id5872)       | Creates a new CommandSnippet                                                      |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddCommandSnippet`](#id5872)       | Creates a new CommandSnippet                                                      |
 | [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
@@ -52170,8 +52438,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`XScaleFactor`](#id5832)                                                                                           | Gets or sets the XScaleFactor.                                |
 | [`YScaleFactor`](#id5833)                                                                                           | Gets or sets the YScaleFactor.                                |
 | [`ZScaleFactor`](#id5834)                                                                                           | Gets or sets the ZScaleFactor.                                |
@@ -52681,8 +52950,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -52701,8 +52971,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`Suppressed`](#id5991)                                                                                             | Gets or sets the Suppressed.                                  |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#id6075)                                                                                               | Gets the list of children.                                    |
@@ -52961,8 +53232,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
+| Name | Summary |
 |----------------------------------------|-----------------------------------------------------------------------------------|
+| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id6084)                    | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
@@ -52979,8 +53251,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.                                       |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.                                       |
 | [`InitialValue`](#Mechanical.InitialValue)                                                                          | Gets the InitialValue.                                                                   |
 | [`LowerBound`](#id3924)                                                                                             | Gets or sets the LowerBound.                                                             |
 | [`UpperBound`](#id3925)                                                                                             | Gets or sets the UpperBound.                                                             |
@@ -53230,8 +53503,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -53250,8 +53524,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#id6075)                                                                                               | Gets the list of children.                                    |
 | [`Comments`](#id6076)                                                                                               | Gets the list of associated comments.                         |
@@ -53501,8 +53776,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
+| Name | Summary |
 |----------------------------------------|-----------------------------------------------------------------------------------|
+| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id6084)                    | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
@@ -53519,8 +53795,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`NumberofSectors`](#id3981)                                                                                        | Gets or sets the NumberofSectors.                             |
 | [`Axis`](#id5892)                                                                                                   | Gets or sets the Axis.                                        |
 | [`ScopingMethod`](#id5986)                                                                                          | Gets or sets the ScopingMethod.                               |
@@ -53779,8 +54056,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`FlipHighLow`](#id5424)             | Flips the High and Low Boundaries.                                                |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`FlipHighLow`](#id5424)             | Flips the High and Low Boundaries.                                                |
 | [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
@@ -53800,8 +54078,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`ScopeMode`](#id5409)                                                                                              | Gets the ScopeMode.                                           |
 | [`Suppressed`](#id5991)                                                                                             | Gets or sets the Suppressed.                                  |
@@ -54113,8 +54392,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
+| Name | Summary |
 |----------------------------------------|-----------------------------------------------------------------------------------|
+| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id6084)                    | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
@@ -54131,8 +54411,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.                                       |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.                                       |
 | [`XComponentMax`](#id5502)                                                                                          | Gets or sets the XComponentMax.                                                          |
 | [`YComponentMax`](#id5503)                                                                                          | Gets or sets the YComponentMax.                                                          |
 | [`ZComponentMax`](#id5504)                                                                                          | Gets or sets the ZComponentMax.                                                          |
@@ -54391,8 +54672,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
+| Name | Summary |
 |----------------------------------------|-----------------------------------------------------------------------------------|
+| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id6084)                    | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
@@ -54409,8 +54691,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.                                       |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.                                       |
 | [`ComplianceLimit`](#id5806)                                                                                        | Gets or sets the ComplianceLimit.                                                        |
 | [`MaximumValue`](#id5069)                                                                                           | Gets or sets the MaximumValue.                                                           |
 | [`MinimumValue`](#id5070)                                                                                           | Gets or sets the MinimumValue.                                                           |
@@ -54651,8 +54934,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddCommandSnippet`](#id5872)       | Creates a new CommandSnippet                                                      |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddCommandSnippet`](#id5872)       | Creates a new CommandSnippet                                                      |
 | [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
@@ -54672,8 +54956,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`XScaleFactor`](#id5832)                                                                                           | Gets or sets the XScaleFactor.                                |
 | [`YScaleFactor`](#id5833)                                                                                           | Gets or sets the YScaleFactor.                                |
 | [`ZScaleFactor`](#id5834)                                                                                           | Gets or sets the ZScaleFactor.                                |
@@ -55201,8 +55486,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddCommandSnippet`](#id5872)       | Creates a new CommandSnippet                                                      |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddCommandSnippet`](#id5872)       | Creates a new CommandSnippet                                                      |
 | [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
@@ -55222,8 +55508,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`XScaleFactor`](#id5832)                                                                                           | Gets or sets the XScaleFactor.                                |
 | [`YScaleFactor`](#id5833)                                                                                           | Gets or sets the YScaleFactor.                                |
 | [`ZScaleFactor`](#id5834)                                                                                           | Gets or sets the ZScaleFactor.                                |
@@ -55733,8 +56020,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`RegroupToDefault`](#id4711)        | Run the RegroupToDefault action.                                                  |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`RegroupToDefault`](#id4711)        | Run the RegroupToDefault action.                                                  |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -55753,8 +56041,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`LayerToDisplay`](#id4697)                                                                                         | Gets or sets the LayerToDisplay.                              |
 | [`MaximumNumberOfLayers`](#id4698)                                                                                  | Gets the MaximumNumberOfLayers.                               |
 | [`Type`](#id5256)                                                                                                   | Gets the Type.                                                |
@@ -56049,8 +56338,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
+| Name | Summary |
 |----------------------------------------|-----------------------------------------------------------------------------------|
+| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id6084)                    | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
@@ -56067,8 +56357,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`Axis`](#id5892)                                                                                                   | Gets or sets the Axis.                                        |
 | [`ScopingMethod`](#id5986)                                                                                          | Gets or sets the ScopingMethod.                               |
 | [`CoordinateSystem`](../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
@@ -56318,8 +56609,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -56338,8 +56630,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`EndPlane`](#Mechanical.EndPlane)                                                                                  | Gets or sets the EndPlane.                                    |
 | [`NodalPlanes`](#Mechanical.NodalPlanes)                                                                            | Gets or sets the NodalPlanes.                                 |
 | [`StartPlane`](#Mechanical.StartPlane)                                                                              | Gets or sets the StartPlane.                                  |
@@ -56661,8 +56954,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ImportSTL`](#id4323)               | Run the ImportSTL action.                                                         |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`ImportSTL`](#id4323)               | Run the ImportSTL action.                                                         |
 | [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
@@ -56682,8 +56976,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`Statistics`](#id4309)                                                                                             | Gets the Statistics.                                          |
 | [`LengthUnits`](#id4310)                                                                                            | Gets or sets the LengthUnits.                                 |
 | [`ShowAlways`](#id4311)                                                                                             | Gets or sets the ShowAlways.                                  |
@@ -56977,8 +57272,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -56997,8 +57293,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`Area`](#id6065)                                                                                                   | Gets the Area.                                                |
 | [`IYY`](#id6066)                                                                                                    | Gets the IYY.                                                 |
 | [`IZZ`](#id6067)                                                                                                    | Gets the IZZ.                                                 |
@@ -57356,8 +57653,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -57376,8 +57674,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`Area`](#id6065)                                                                                                   | Gets the Area.                                                |
 | [`IYY`](#id6066)                                                                                                    | Gets the IYY.                                                 |
 | [`IZZ`](#id6067)                                                                                                    | Gets the IZZ.                                                 |
@@ -57708,8 +58007,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -57727,8 +58027,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#id6075)                                                                                               | Gets the list of children.                                    |
 | [`Comments`](#id6076)                                                                                               | Gets the list of associated comments.                         |
@@ -57952,8 +58253,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -57972,8 +58274,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Count`](#id6052)                                                                                                  | Gets the NumberOfRows.                                        |
 | [`Suppressed`](#id5991)                                                                                             | Gets or sets the Suppressed.                                  |
@@ -58241,8 +58544,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -58261,8 +58565,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Count`](#id6052)                                                                                                  | Gets the NumberOfRows.                                        |
 | [`Suppressed`](#id5991)                                                                                             | Gets or sets the Suppressed.                                  |
@@ -58530,8 +58835,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -58550,8 +58856,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Count`](#id6052)                                                                                                  | Gets the NumberOfRows.                                        |
 | [`Suppressed`](#id5991)                                                                                             | Gets or sets the Suppressed.                                  |
@@ -58819,8 +59126,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -58839,8 +59147,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Count`](#id6052)                                                                                                  | Gets the NumberOfRows.                                        |
 | [`Suppressed`](#id5991)                                                                                             | Gets or sets the Suppressed.                                  |
@@ -59108,8 +59417,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -59128,8 +59438,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Count`](#id6052)                                                                                                  | Gets the NumberOfRows.                                        |
 | [`Suppressed`](#id5991)                                                                                             | Gets or sets the Suppressed.                                  |
@@ -59397,8 +59708,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -59417,8 +59729,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Count`](#id6052)                                                                                                  | Gets the NumberOfRows.                                        |
 | [`Suppressed`](#id5991)                                                                                             | Gets or sets the Suppressed.                                  |
@@ -59686,8 +59999,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`RegroupToDefault`](#id4711)        | Run the RegroupToDefault action.                                                  |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`RegroupToDefault`](#id4711)        | Run the RegroupToDefault action.                                                  |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -59706,8 +60020,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`LayerToDisplay`](#id4697)                                                                                         | Gets or sets the LayerToDisplay.                              |
 | [`MaximumNumberOfLayers`](#id4698)                                                                                  | Gets the MaximumNumberOfLayers.                               |
@@ -60002,8 +60317,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -60022,8 +60338,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Count`](#id6052)                                                                                                  | Gets the NumberOfRows.                                        |
 | [`Suppressed`](#id5991)                                                                                             | Gets or sets the Suppressed.                                  |
@@ -60291,8 +60608,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`RegroupToDefault`](#id4711)        | Run the RegroupToDefault action.                                                  |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`RegroupToDefault`](#id4711)        | Run the RegroupToDefault action.                                                  |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -60311,8 +60629,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`LayerToDisplay`](#id4697)                                                                                         | Gets or sets the LayerToDisplay.                              |
 | [`MaximumNumberOfLayers`](#id4698)                                                                                  | Gets the MaximumNumberOfLayers.                               |
@@ -60607,8 +60926,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
 | [`AddFigure`](#id6088)               | Creates a new child Figure.                                                       |
@@ -60626,8 +60946,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#id6075)                                                                                               | Gets the list of children.                                    |
 | [`Comments`](#id6076)                                                                                               | Gets the list of associated comments.                         |
@@ -60869,8 +61190,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -60889,8 +61211,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Count`](#id6052)                                                                                                  | Gets the NumberOfRows.                                        |
 | [`Suppressed`](#id5991)                                                                                             | Gets or sets the Suppressed.                                  |
@@ -61158,8 +61481,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -61178,8 +61502,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Count`](#id6052)                                                                                                  | Gets the NumberOfRows.                                        |
 | [`Suppressed`](#id5991)                                                                                             | Gets or sets the Suppressed.                                  |
@@ -61447,8 +61772,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -61467,8 +61793,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Count`](#id6052)                                                                                                  | Gets the NumberOfRows.                                        |
 | [`Suppressed`](#id5991)                                                                                             | Gets or sets the Suppressed.                                  |
@@ -61736,8 +62063,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -61756,8 +62084,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Count`](#id6052)                                                                                                  | Gets the NumberOfRows.                                        |
 | [`Suppressed`](#id5991)                                                                                             | Gets or sets the Suppressed.                                  |
@@ -62025,8 +62354,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -62045,8 +62375,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Count`](#id6052)                                                                                                  | Gets the NumberOfRows.                                        |
 | [`Suppressed`](#id5991)                                                                                             | Gets or sets the Suppressed.                                  |
@@ -62314,8 +62645,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -62334,8 +62666,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Count`](#id6052)                                                                                                  | Gets the NumberOfRows.                                        |
 | [`Suppressed`](#id5991)                                                                                             | Gets or sets the Suppressed.                                  |
@@ -62603,8 +62936,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -62623,8 +62957,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`Area`](#id6065)                                                                                                   | Gets the Area.                                                |
 | [`IYY`](#id6066)                                                                                                    | Gets the IYY.                                                 |
 | [`IZZ`](#id6067)                                                                                                    | Gets the IZZ.                                                 |
@@ -62937,8 +63272,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
+| Name | Summary |
 |----------------------------------------|-----------------------------------------------------------------------------------|
+| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id6084)                    | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
@@ -62955,8 +63291,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.                                       |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.                                       |
 | [`Maximum`](#id5038)                                                                                                | Gets or sets the Maximum.                                                                |
 | [`ScopingMethod`](#id5986)                                                                                          | Gets or sets the ScopingMethod.                                                          |
 | [`Location`](#id5988)                                                                                               | Gets or sets the Location.                                                               |
@@ -63197,8 +63534,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
+| Name | Summary |
 |----------------------------------------|-----------------------------------------------------------------------------------|
+| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id6084)                    | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
@@ -63215,8 +63553,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.                                       |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.                                       |
 | [`PercentageToRetain`](#id5980)                                                                                     | Gets or sets the PercentageToRetain.                                                     |
 | [`PercentageToRetainMax`](#id5981)                                                                                  | Gets or sets the PercentageToRetainMax.                                                  |
 | [`PercentageToRetainMin`](#id5982)                                                                                  | Gets or sets the PercentageToRetainMin.                                                  |
@@ -63511,8 +63850,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
+| Name | Summary |
 |----------------------------------------|-----------------------------------------------------------------------------------|
+| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id6084)                    | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
@@ -63529,8 +63869,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`GapSize`](#Mechanical.GapSize)                                                                                    | Gets or sets the GapSize.                                     |
 | [`MaxSize`](#Mechanical.MaxSize)                                                                                    | Gets or sets the MaxSize.                                     |
 | [`MinSize`](#Mechanical.MinSize)                                                                                    | Gets or sets the MinSize.                                     |
@@ -63816,8 +64157,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
+| Name | Summary |
 |----------------------------------------|-----------------------------------------------------------------------------------|
+| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id6084)                    | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
@@ -63834,8 +64176,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.                                       |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.                                       |
 | [`PercentageToRetain`](#id5980)                                                                                     | Gets or sets the PercentageToRetain.                                                     |
 | [`PercentageToRetainMax`](#id5981)                                                                                  | Gets or sets the PercentageToRetainMax.                                                  |
 | [`PercentageToRetainMin`](#id5982)                                                                                  | Gets or sets the PercentageToRetainMin.                                                  |
@@ -64148,8 +64491,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -64168,8 +64512,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`BaseFrequency`](#Mechanical.BaseFrequency)                                                                        | Gets or sets the BaseFrequency.                               |
 | [`MorphingFrequency`](#Mechanical.MorphingFrequency)                                                                | Gets or sets the MorphingFrequency.                           |
 | [`Offset`](#id5226)                                                                                                 | Gets or sets the Offset .                                     |
@@ -64473,8 +64818,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
+| Name | Summary |
 |----------------------------------------|-----------------------------------------------------------------------------------|
+| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id6084)                    | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
@@ -64491,8 +64837,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.                                       |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.                                       |
 | [`ModeNumber`](#id5132)                                                                                             | Gets or sets the ModeNumber.                                                             |
 | [`MaximumFrequency`](#id5133)                                                                                       | Gets or sets the MaximumFrequency.                                                       |
 | [`MinimumFrequency`](#id5134)                                                                                       | Gets or sets the MinimumFrequency.                                                       |
@@ -64733,8 +65080,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddNodeMerge`](#id5195)                            | Creates a new NodeMerge                                                           |
+| Name | Summary |
 |------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddNodeMerge`](#id5195)                            | Creates a new NodeMerge                                                           |
 | [`GenerateNodeMerge`](#Mechanical.GenerateNodeMerge) | Run the GenerateNodeMerge action.                                                 |
 | [`AddContactRegion`](#id5196)                        | Creates a new child ContactRegion.                                                |
 | [`AddJoint`](#id5197)                                | Creates a new child Joint.                                                        |
@@ -64766,8 +65114,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`ConnectionType`](#id5161)                                                                                         | Gets or sets the ConnectionType.                              |
 | [`ActiveConnections`](#id5162)                                                                                      | Gets the ActiveConnections.                                   |
@@ -65346,8 +65695,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
+| Name | Summary |
 |----------------------------------------|-----------------------------------------------------------------------------------|
+| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id6084)                    | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
@@ -65364,8 +65714,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`Offset`](#id5226)                                                                                                 | Gets or sets the Offset.                                      |
 | [`Axis`](#id5892)                                                                                                   | Gets or sets the Axis.                                        |
 | [`ScopingMethod`](#id5986)                                                                                          | Gets or sets the ScopingMethod.                               |
@@ -65624,8 +65975,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`FlipHighLow`](#id5424)             | Flips the High and Low Boundaries.                                                |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`FlipHighLow`](#id5424)             | Flips the High and Low Boundaries.                                                |
 | [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
@@ -65645,8 +65997,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`Type`](#id5256)                                                                                                   | Gets or sets the Type.                                        |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`ScopeMode`](#id5409)                                                                                              | Gets the ScopeMode.                                           |
@@ -65967,8 +66320,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddFluidPressure`](#id5304)              | Creates a new ContactFluidPressure                                                |
+| Name | Summary |
 |--------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddFluidPressure`](#id5304)              | Creates a new ContactFluidPressure                                                |
 | [`AddFrictionalStress`](#id5305)           | Creates a new ContactFrictionalStress                                             |
 | [`AddHeatFlux`](#id5306)                   | Creates a new ContactHeatFlux                                                     |
 | [`AddPressure`](#id5307)                   | Creates a new ContactPressure                                                     |
@@ -65999,8 +66353,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`ScopingMethod`](#id5986)                                                                                          | Gets or sets the ScopingMethod.                               |
 | [`Location`](#id5988)                                                                                               | Gets or sets the Location.                                    |
@@ -66355,8 +66710,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddInitialInformation`](#id5343)         | Creates a new ContactDataTable                                                    |
+| Name | Summary |
 |--------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddInitialInformation`](#id5343)         | Creates a new ContactDataTable                                                    |
 | [`AddGap`](#id5344)                        | Creates a new ContactGap                                                          |
 | [`AddPenetration`](#id5345)                | Creates a new ContactPenetration                                                  |
 | [`AddStatus`](#id5346)                     | Creates a new ContactStatus                                                       |
@@ -66382,8 +66738,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`ScopingMethod`](#id5986)                                                                                          | Gets or sets the ScopingMethod.                               |
 | [`Location`](#id5988)                                                                                               | Gets or sets the Location.                                    |
@@ -66698,8 +67055,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddCommandSnippet`](#id5872)       | Creates a new CommandSnippet                                                      |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddCommandSnippet`](#id5872)       | Creates a new CommandSnippet                                                      |
 | [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
@@ -66719,8 +67077,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`SolutionContours`](#id5839)                                                                                       | Gets or sets the SolutionContours.                            |
 | [`CrackSourceType`](../../../Mechanical/DataModel/Enums/CrackSourceType.md#CrackSourceType)                         | Gets the CrackSourceType.                                     |
 | [`ScopingMethod`](#id5986)                                                                                          | Gets the ScopingMethod.                                       |
@@ -67077,8 +67436,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`FlipHighLow`](#id5424)             | Flips the High and Low Boundaries.                                                |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`FlipHighLow`](#id5424)             | Flips the High and Low Boundaries.                                                |
 | [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
@@ -67098,8 +67458,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`RelativeDistanceTolerance`](#Mechanical.RelativeDistanceTolerance)                                                | Gets or sets the RelativeDistanceTolerance.                   |
 | [`NumberOfSectors`](#Mechanical.NumberOfSectors)                                                                    | Gets or sets the NumberOfSectors.                             |
 | [`BoundaryDOFOrientation`](#Mechanical.BoundaryDOFOrientation)                                                      | Gets or sets the BoundaryDOFOrientation.                      |
@@ -67438,8 +67799,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
+| Name | Summary |
 |----------------------------------------|-----------------------------------------------------------------------------------|
+| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id6084)                    | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
@@ -67456,8 +67818,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`Axis`](#id5892)                                                                                                   | Gets or sets the Axis.                                        |
 | [`ScopingMethod`](#id5986)                                                                                          | Gets or sets the ScopingMethod.                               |
 | [`Subtype`](#Mechanical.Subtype)                                                                                    | Gets or sets the Subtype.                                     |
@@ -67725,8 +68088,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ReloadProperties`](#id5486)                | Reload properties to update properties provided by the provider.                  |
+| Name | Summary |
 |----------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ReloadProperties`](#id5486)                | Reload properties to update properties provided by the provider.                  |
 | [`Connect`](MeshControls/Connect.md#Connect) | Register the python code.                                                         |
 | [`Delete`](#id6084)                          | Run the Delete action.                                                            |
 | [`Activate`](#id6090)                        | Activate the current object.                                                      |
@@ -67742,8 +68106,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.                                    |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.                                    |
 | [`SolverTarget`](#id5474)                                                                                           | Gets the SolverTarget.                                                                |
 | [`TargetCallback`](#Mechanical.TargetCallback)                                                                      | Gets or sets the TargetCallback.                                                      |
 | [`Suppressed`](#id5991)                                                                                             | Gets or sets the Suppressed.                                                          |
@@ -67994,8 +68359,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
+| Name | Summary |
 |----------------------------------------|-----------------------------------------------------------------------------------|
+| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id6084)                    | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
@@ -68012,8 +68378,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.                                       |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.                                       |
 | [`XComponentMax`](#id5502)                                                                                          | Gets or sets the XComponentMax.                                                          |
 | [`YComponentMax`](#id5503)                                                                                          | Gets or sets the YComponentMax.                                                          |
 | [`ZComponentMax`](#id5504)                                                                                          | Gets or sets the ZComponentMax.                                                          |
@@ -68299,8 +68666,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -68319,8 +68687,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`Area`](#id6065)                                                                                                   | Gets the Area.                                                |
 | [`IYY`](#id6066)                                                                                                    | Gets the IYY.                                                 |
 | [`IZZ`](#id6067)                                                                                                    | Gets the IZZ.                                                 |
@@ -68615,8 +68984,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddCommandSnippet`](#id5872)       | Creates a new CommandSnippet                                                      |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddCommandSnippet`](#id5872)       | Creates a new CommandSnippet                                                      |
 | [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
@@ -68636,8 +69006,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`XScaleFactor`](#id5832)                                                                                           | Gets or sets the XScaleFactor.                                |
 | [`YScaleFactor`](#id5833)                                                                                           | Gets or sets the YScaleFactor.                                |
 | [`ZScaleFactor`](#id5834)                                                                                           | Gets or sets the ZScaleFactor.                                |
@@ -69183,8 +69554,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddCommandSnippet`](#id5872)       | Creates a new CommandSnippet                                                      |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddCommandSnippet`](#id5872)       | Creates a new CommandSnippet                                                      |
 | [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
@@ -69204,8 +69576,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`XScaleFactor`](#id5832)                                                                                           | Gets or sets the XScaleFactor.                                |
 | [`YScaleFactor`](#id5833)                                                                                           | Gets or sets the YScaleFactor.                                |
 | [`ZScaleFactor`](#id5834)                                                                                           | Gets or sets the ZScaleFactor.                                |
@@ -69733,8 +70106,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -69753,8 +70127,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                                                 | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                                                 | Gets the internal object. For advanced usage only.            |
 | [`Material`](Material.md#Material)                                                                                                          | Gets or sets the Material.                                    |
 | [`Thickness`](Thickness.md#Thickness)                                                                                                       | Gets or sets the Thickness.                                   |
 | [`SurfaceCoatingStiffnessBehavior`](../../../Mechanical/DataModel/Enums/SurfaceCoatingStiffnessBehavior.md#SurfaceCoatingStiffnessBehavior) | Gets or sets the SurfaceCoatingStiffnessBehavior.             |
@@ -70058,8 +70433,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
+| Name | Summary |
 |----------------------------------------|-----------------------------------------------------------------------------------|
+| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id6084)                    | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
@@ -70076,8 +70452,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`Axis`](#id5892)                                                                                                   | Gets or sets the Axis.                                        |
 | [`ScopingMethod`](#id5986)                                                                                          | Gets or sets the ScopingMethod.                               |
 | [`CoordinateSystem`](../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
@@ -70327,8 +70704,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -70347,8 +70725,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`Area`](#id6065)                                                                                                   | Gets the Area.                                                |
 | [`IYY`](#id6066)                                                                                                    | Gets the IYY.                                                 |
 | [`IZZ`](#id6067)                                                                                                    | Gets the IZZ.                                                 |
@@ -70661,8 +71040,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
+| Name | Summary |
 |----------------------------------------|-----------------------------------------------------------------------------------|
+| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id6084)                    | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
@@ -70679,8 +71059,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.                                       |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.                                       |
 | [`TemperatureAbsMax`](#Mechanical.TemperatureAbsMax)                                                                | Gets or sets the TemperatureAbsMax.                                                      |
 | [`ScopingMethod`](#id5986)                                                                                          | Gets or sets the ScopingMethod.                                                          |
 | [`Location`](#id5988)                                                                                               | Gets or sets the Location.                                                               |
@@ -70921,8 +71302,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
+| Name | Summary |
 |----------------------------------------|-----------------------------------------------------------------------------------|
+| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id6084)                    | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
@@ -70939,8 +71321,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.                                       |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.                                       |
 | [`ComplianceLimit`](#id5806)                                                                                        | Gets or sets the ComplianceLimit.                                                        |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                             |
 | [`EnvironmentSelection`](#id5990)                                                                                   | Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum. |
@@ -71163,8 +71546,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddCommandSnippet`](#id5872)       | Creates a new CommandSnippet                                                      |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddCommandSnippet`](#id5872)       | Creates a new CommandSnippet                                                      |
 | [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
@@ -71184,8 +71568,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`XScaleFactor`](#id5832)                                                                                           | Gets or sets the XScaleFactor.                                |
 | [`YScaleFactor`](#id5833)                                                                                           | Gets or sets the YScaleFactor.                                |
 | [`ZScaleFactor`](#id5834)                                                                                           | Gets or sets the ZScaleFactor.                                |
@@ -71713,8 +72098,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
+| Name | Summary |
 |----------------------------------------|-----------------------------------------------------------------------------------|
+| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id6084)                    | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
@@ -71731,8 +72117,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`Axis`](#id5892)                                                                                                   | Gets or sets the Axis.                                        |
 | [`ScopingMethod`](#id5986)                                                                                          | Gets or sets the ScopingMethod.                               |
 | [`CoordinateSystem`](../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
@@ -71982,8 +72369,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -72002,8 +72390,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`CGy`](#Mechanical.CGy)                                                                                            | Gets or sets the CGy.                                         |
 | [`CGZ`](#Mechanical.CGZ)                                                                                            | Gets or sets the CGZ.                                         |
 | [`Area`](#id6065)                                                                                                   | Gets or sets the Area.                                        |
@@ -72334,8 +72723,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -72354,8 +72744,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`ProjectToUnderlyingGeometry`](#Mechanical.ProjectToUnderlyingGeometry)                                            | Gets or sets the ProjectToUnderlyingGeometry.                 |
 | [`VTClass`](#Mechanical.VTClass)                                                                                    | Gets the VTClass.                                             |
 | [`Geometry`](Geometry.md#Geometry)                                                                                  | Gets the Geometry.                                            |
@@ -72623,8 +73014,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
+| Name | Summary |
 |----------------------------------------|-----------------------------------------------------------------------------------|
+| [`RenameBasedOnDefinition`](#id5997)   | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#id6084)                    | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)               | Gets the list of children, filtered by type.                                      |
@@ -72641,8 +73033,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.                                       |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.                                       |
 | [`PercentageToRetain`](#id5980)                                                                                     | Gets or sets the PercentageToRetain.                                                     |
 | [`PercentageToRetainMax`](#id5981)                                                                                  | Gets or sets the PercentageToRetainMax.                                                  |
 | [`PercentageToRetainMin`](#id5982)                                                                                  | Gets or sets the PercentageToRetainMin.                                                  |
@@ -72937,8 +73330,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -72957,8 +73351,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`Area`](#id6065)                                                                                                   | Gets the Area.                                                |
 | [`IYY`](#id6066)                                                                                                    | Gets the IYY.                                                 |
 | [`IZZ`](#id6067)                                                                                                    | Gets the IZZ.                                                 |
@@ -73289,8 +73684,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Add`](#id6054)                                       |                                                             |
+| Name | Summary |
 |--------------------------------------------------------|-------------------------------------------------------------|
+| [`Add`](#id6054)                                       |                                                             |
 | [`Contains`](#id6055)                                  |                                                             |
 | [`Clear`](#id6056)                                     |                                                             |
 | [`IndexOf`](#id6057)                                   |                                                             |
@@ -73303,8 +73699,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Item`](#id6051)                                                                                                                | Item property.                   |
+| Name | Summary |
 |----------------------------------------------------------------------------------------------------------------------------------|----------------------------------|
+| [`Item`](#id6051)                                                                                                                | Item property.                   |
 | [`IsReadOnly`](#Mechanical.IsReadOnly)                                                                                           | IsReadOnly property.             |
 | [`IsFixedSize`](#Mechanical.IsFixedSize)                                                                                         | IsFixedSize property.            |
 | [`SyncRoot`](#Mechanical.SyncRoot)                                                                                               | SyncRoot property.               |
@@ -73503,8 +73900,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#id6084)                  | Run the Delete action.                                                            |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id6086)             | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#id6087)              | Creates a new child Comment.                                                      |
@@ -73523,8 +73921,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id6080)                                                                                         | Gets the internal object. For advanced usage only.            |
 | [`Area`](#id6065)                                                                                                   | Gets the Area.                                                |
 | [`IYY`](#id6066)                                                                                                    | Gets the IYY.                                                 |
 | [`IZZ`](#id6067)                                                                                                    | Gets the IZZ.                                                 |

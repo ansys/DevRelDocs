@@ -16,16 +16,18 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Clear`](../Table/FixedWidthImportSettings.md#FixedWidthImportSettings.Clear)                 |                                                       |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------|-------------------------------------------------------|
+| [`Clear`](../Table/FixedWidthImportSettings.md#FixedWidthImportSettings.Clear)                 |                                                       |
 | [`GetEnumerator`](../Table/FixedWidthImportSettings.md#FixedWidthImportSettings.GetEnumerator) |                                                       |
 | [`RemoveAt`](../Table/FixedWidthImportSettings.md#FixedWidthImportSettings.RemoveAt)           | Removes the import definition at the specified index. |
 | [`UseColumn`](../Table/FixedWidthImportSettings.md#FixedWidthImportSettings.UseColumn)         |                                                       |
 
 ### Properties
 
-| [`ColumnWidths`](../Table/FixedWidthImportSettings.md#FixedWidthImportSettings.ColumnWidths)     |                                                                                      |
+| Name | Summary |
 |--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| [`ColumnWidths`](../Table/FixedWidthImportSettings.md#FixedWidthImportSettings.ColumnWidths)     |                                                                                      |
 | [`AverageCornerNodesToMidsideNodes`](#FixedWidthImportSettings.AverageCornerNodesToMidsideNodes) |                                                                                      |
 | [`Count`](../Table/FixedWidthImportSettings.md#FixedWidthImportSettings.Count)                   | Gets the number of column definitions.                                               |
 | [`Item`](../Table/FixedWidthImportSettings.md#FixedWidthImportSettings.Item)                     | Item property.                                                                       |

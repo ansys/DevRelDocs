@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`AllTri`](#MeshControlGroupRigidBodyFaceMeshType.AllTri)         |    |
+| Name | Summary |
 |-------------------------------------------------------------------|----|
+| [`AllTri`](#MeshControlGroupRigidBodyFaceMeshType.AllTri)         |    |
 | [`QuadAndTri`](#MeshControlGroupRigidBodyFaceMeshType.QuadAndTri) |    |
 
 <a id="import-detail"></a>

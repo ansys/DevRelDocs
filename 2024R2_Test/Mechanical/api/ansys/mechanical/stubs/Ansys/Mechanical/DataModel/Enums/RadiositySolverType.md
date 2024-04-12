@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ProgramControlled`](#RadiositySolverType.ProgramControlled)       |    |
+| Name | Summary |
 |---------------------------------------------------------------------|----|
+| [`ProgramControlled`](#RadiositySolverType.ProgramControlled)       |    |
 | [`Direct`](#RadiositySolverType.Direct)                             |    |
 | [`IterativeJacobi`](#RadiositySolverType.IterativeJacobi)           |    |
 | [`IterativeGaussSeidel`](#RadiositySolverType.IterativeGaussSeidel) |    |

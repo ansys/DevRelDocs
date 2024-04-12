@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ProgramControlled`](#FittingMethodType.ProgramControlled)       |    |
+| Name | Summary |
 |-------------------------------------------------------------------|----|
+| [`ProgramControlled`](#FittingMethodType.ProgramControlled)       |    |
 | [`FastFourierTransform`](#FittingMethodType.FastFourierTransform) |    |
 
 <a id="import-detail"></a>

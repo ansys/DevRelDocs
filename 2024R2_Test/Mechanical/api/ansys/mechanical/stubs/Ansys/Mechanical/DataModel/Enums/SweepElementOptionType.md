@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`SolidShell`](#SweepElementOptionType.SolidShell)           |    |
+| Name | Summary |
 |--------------------------------------------------------------|----|
+| [`SolidShell`](#SweepElementOptionType.SolidShell)           |    |
 | [`Solid`](../../../ACT/Automation/Mechanical/Solid.md#Solid) |    |
 
 <a id="import-detail"></a>

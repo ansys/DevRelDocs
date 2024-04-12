@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Rotate`](#MechanicalCameraWrapper.Rotate)                                         | Rotates the camera about an axis.                                                                 |
+| Name | Summary |
 |-------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+| [`Rotate`](#MechanicalCameraWrapper.Rotate)                                         | Rotates the camera about an axis.                                                                 |
 | [`SetSpecificViewOrientation`](#MechanicalCameraWrapper.SetSpecificViewOrientation) | Sets a specific view orientation.                                                                 |
 | [`SetFit`](#MechanicalCameraWrapper.SetFit)                                         | Fits the view to the specified selection. If null is supplied, fits the view to the entire model. |
 | [`GetAsString`](#MechanicalCameraWrapper.GetAsString)                               | Retrieves the view commands as related to the application type as a string.                       |
@@ -28,8 +29,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`FocalPoint`](#MechanicalCameraWrapper.FocalPoint)   | The focal point of the camera (coordinates are in the global coordinate system).             |
+| Name | Summary |
 |-------------------------------------------------------|----------------------------------------------------------------------------------------------|
+| [`FocalPoint`](#MechanicalCameraWrapper.FocalPoint)   | The focal point of the camera (coordinates are in the global coordinate system).             |
 | [`UpVector`](#MechanicalCameraWrapper.UpVector)       | The vector pointing up from the focal point.                                                 |
 | [`ViewVector`](#MechanicalCameraWrapper.ViewVector)   | The vector pointing from the focal point to the camera.                                      |
 | [`SceneHeight`](#MechanicalCameraWrapper.SceneHeight) | Specifies the scene height (in length units) that will be projected and fit to the viewport. |

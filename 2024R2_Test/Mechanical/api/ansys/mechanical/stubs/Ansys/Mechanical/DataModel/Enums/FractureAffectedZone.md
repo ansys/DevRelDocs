@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ProgramControlled`](#FractureAffectedZone.ProgramControlled)   |    |
+| Name | Summary |
 |------------------------------------------------------------------|----|
+| [`ProgramControlled`](#FractureAffectedZone.ProgramControlled)   |    |
 | [`Manual`](#FractureAffectedZone.Manual)                         |    |
 
 <a id="import-detail"></a>

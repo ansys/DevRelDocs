@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#SurfaceCoating.Delete)                                   | Run the Delete action.                                                            |
+| Name | Summary |
 |----------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#SurfaceCoating.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#SurfaceCoating.AddComment)                           | Creates a new child Comment.                                                      |
@@ -38,8 +39,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                                                    | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                                                    | Gets the internal object. For advanced usage only.            |
 | [`Material`](Material.md#Material)                                                                                                          | Gets or sets the Material.                                    |
 | [`Thickness`](Thickness.md#Thickness)                                                                                                       | Gets or sets the Thickness.                                   |
 | [`SurfaceCoatingStiffnessBehavior`](../../../Mechanical/DataModel/Enums/SurfaceCoatingStiffnessBehavior.md#SurfaceCoatingStiffnessBehavior) | Gets or sets the SurfaceCoatingStiffnessBehavior.             |

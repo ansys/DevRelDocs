@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`NoState`](#ObjectState.NoState)                           |    |
+| Name | Summary |
 |-------------------------------------------------------------|----|
+| [`NoState`](#ObjectState.NoState)                           |    |
 | [`FullyDefined`](#ObjectState.FullyDefined)                 |    |
 | [`UnderDefined`](#ObjectState.UnderDefined)                 |    |
 | [`Suppressed`](#ObjectState.Suppressed)                     |    |

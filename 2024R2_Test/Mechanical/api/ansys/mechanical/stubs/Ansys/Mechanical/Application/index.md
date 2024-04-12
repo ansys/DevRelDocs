@@ -10,8 +10,9 @@
 
 ### Classes
 
-| [`Progress`](Progress.md#Progress)       | Defines a Progress.                              |
+| Name | Summary |
 |------------------------------------------|--------------------------------------------------|
+| [`Progress`](Progress.md#Progress)       | Defines a Progress.                              |
 | [`ObjectTag`](ObjectTag.md#ObjectTag)    | An instance of an ObjectTag.                     |
 | [`ObjectTags`](ObjectTags.md#ObjectTags) | Defines the collection of Mechanical’s tags.     |
 | [`Message`](Message.md#Message)          | A message.                                       |
@@ -41,8 +42,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`SetProgress`](#Application.SetProgress)   | Set the current progress state   |
+| Name | Summary |
 |---------------------------------------------|----------------------------------|
+| [`SetProgress`](#Application.SetProgress)   | Set the current progress state   |
 
 <a id="import-detail"></a>
 
@@ -76,15 +78,17 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddObject`](#Application.AddObject)       | Add an object to this tag.       |
+| Name | Summary |
 |---------------------------------------------|----------------------------------|
+| [`AddObject`](#Application.AddObject)       | Add an object to this tag.       |
 | [`RemoveObject`](#Application.RemoveObject) | Remove an object from this tag.  |
 | [`ClearObjects`](#Application.ClearObjects) | Clear all objects from this tag. |
 
 ### Properties
 
-| [`Name`](#Application.Name)       | The name of the tag. If the tag exists in ObjectTags, attempting to set the name to a value of another tag in that collection will lead to an exception.   |
+| Name | Summary |
 |-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`Name`](#Application.Name)       | The name of the tag. If the tag exists in ObjectTags, attempting to set the name to a value of another tag in that collection will lead to an exception.   |
 | [`Objects`](#Application.Objects) | The list of objects which use this tag.                                                                                                                    |
 
 <a id="id1"></a>
@@ -155,8 +159,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Add`](#id12)                      | Adds a new tag to the collection. Throws an error if the tag already exists in the collection.     |
+| Name | Summary |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
+| [`Add`](#id12)                      | Adds a new tag to the collection. Throws an error if the tag already exists in the collection.     |
 | [`Remove`](#id13)                   | Removes a tag if it exists in the collection.                                                      |
 | [`GetTag`](#Application.GetTag)     | Returns the tag in the collection with the given name.                                             |
 | [`IndexOf`](#Application.IndexOf)   | Returns the index of the given tag. If the given tag does not exist in the collection, returns -1. |
@@ -166,8 +171,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Count`](#id10)                    | The number of tags in the collection.    |
+| Name | Summary |
 |-------------------------------------|------------------------------------------|
+| [`Count`](#id10)                    | The number of tags in the collection.    |
 | [`Item`](#id0)                      | Item property.                           |
 | [`Item`](#id0)                      | Item property.                           |
 | [`TagNames`](#Application.TagNames) | The names of the tags in the collection. |
@@ -288,8 +294,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Source`](#Application.Source)                 | The source object of the message.           |
+| Name | Summary |
 |-------------------------------------------------|---------------------------------------------|
+| [`Source`](#Application.Source)                 | The source object of the message.           |
 | [`StringID`](#Application.StringID)             | The string ID of the message.               |
 | [`DisplayString`](#Application.DisplayString)   | The display string of the message.          |
 | [`Location`](#Application.Location)             | The location of the message.                |
@@ -377,8 +384,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Add`](#id12)                          | Add a new message.                                     |
+| Name | Summary |
 |-----------------------------------------|--------------------------------------------------------|
+| [`Add`](#id12)                          | Add a new message.                                     |
 | [`Remove`](#id13)                       | Remove a specific message in the list.                 |
 | [`Clear`](#id14)                        | Clear the list of the messages.                        |
 | [`Contains`](#id15)                     | Check if a message is in the current list of messages. |
@@ -386,8 +394,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Count`](#id10)   | Get the number of messages.   |
+| Name | Summary |
 |--------------------|-------------------------------|
+| [`Count`](#id10)   | Get the number of messages.   |
 
 <a id="id8"></a>
 

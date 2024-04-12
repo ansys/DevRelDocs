@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`External8Segments`](#BeamBeamContactDetectionType.External8Segments)   |    |
+| Name | Summary |
 |--------------------------------------------------------------------------|----|
+| [`External8Segments`](#BeamBeamContactDetectionType.External8Segments)   |    |
 | [`External4Segments`](#BeamBeamContactDetectionType.External4Segments)   |    |
 | [`External1Segment`](#BeamBeamContactDetectionType.External1Segment)     |    |
 | [`InternalPipe`](#BeamBeamContactDetectionType.InternalPipe)             |    |

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`LeftHand`](#ContactBoltThreadHand.LeftHand)   |    |
+| Name | Summary |
 |-------------------------------------------------|----|
+| [`LeftHand`](#ContactBoltThreadHand.LeftHand)   |    |
 | [`RightHand`](#ContactBoltThreadHand.RightHand) |    |
 
 <a id="import-detail"></a>

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`ElementTypeIds`](#MAPDLBodyData.ElementTypeIds)   | Gets the Element Type Ids for the body.   |
+| Name | Summary |
 |-----------------------------------------------------|-------------------------------------------|
+| [`ElementTypeIds`](#MAPDLBodyData.ElementTypeIds)   | Gets the Element Type Ids for the body.   |
 | [`MaterialIds`](#MAPDLBodyData.MaterialIds)         | Gets the Material Ids for the body.       |
 | [`RealConstantId`](#MAPDLBodyData.RealConstantId)   | Gets the Real Constant Id for the body.   |
 

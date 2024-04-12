@@ -18,15 +18,17 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Clear`](#CondensedPartInterfaces.Clear)       | Clears all the condensed part interfaces           |
+| Name | Summary |
 |-------------------------------------------------|----------------------------------------------------|
+| [`Clear`](#CondensedPartInterfaces.Clear)       | Clears all the condensed part interfaces           |
 | [`Add`](#CondensedPartInterfaces.Add)           | Add new condensed part interface                   |
 | [`RemoveAt`](#CondensedPartInterfaces.RemoveAt) | Remove condensed part interface at the given index |
 
 ### Properties
 
-| [`Item`](#CondensedPartInterfaces.Item)   | Item property.   |
+| Name | Summary |
 |-------------------------------------------|------------------|
+| [`Item`](#CondensedPartInterfaces.Item)   | Item property.   |
 
 <a id="import-detail"></a>
 

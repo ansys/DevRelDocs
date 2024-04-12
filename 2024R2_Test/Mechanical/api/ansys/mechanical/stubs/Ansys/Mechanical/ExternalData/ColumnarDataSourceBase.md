@@ -16,16 +16,18 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Clear`](../Table/ColumnarDataSourceBase.md#ColumnarDataSourceBase.Clear)                 |                                                       |
+| Name | Summary |
 |--------------------------------------------------------------------------------------------|-------------------------------------------------------|
+| [`Clear`](../Table/ColumnarDataSourceBase.md#ColumnarDataSourceBase.Clear)                 |                                                       |
 | [`GetEnumerator`](../Table/ColumnarDataSourceBase.md#ColumnarDataSourceBase.GetEnumerator) |                                                       |
 | [`RemoveAt`](../Table/ColumnarDataSourceBase.md#ColumnarDataSourceBase.RemoveAt)           | Removes the import definition at the specified index. |
 | [`UseColumn`](../Table/ColumnarDataSourceBase.md#ColumnarDataSourceBase.UseColumn)         |                                                       |
 
 ### Properties
 
-| [`Count`](../Table/ColumnarDataSourceBase.md#ColumnarDataSourceBase.Count)           | Gets the number of column definitions.                                               |
+| Name | Summary |
 |--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| [`Count`](../Table/ColumnarDataSourceBase.md#ColumnarDataSourceBase.Count)           | Gets the number of column definitions.                                               |
 | [`Item`](../Table/ColumnarDataSourceBase.md#ColumnarDataSourceBase.Item)             | Item property.                                                                       |
 | [`SkipFooter`](../Table/ColumnarDataSourceBase.md#ColumnarDataSourceBase.SkipFooter) | Gets or sets the number of rows to ignore at the end of the file during import.      |
 | [`SkipRows`](../Table/ColumnarDataSourceBase.md#ColumnarDataSourceBase.SkipRows)     | Gets or sets the number of rows to skip over at the start of the file during import. |

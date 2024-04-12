@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`IfNoEdgeFace`](#ContactEdgeEdgeOption.IfNoEdgeFace)   |    |
+| Name | Summary |
 |---------------------------------------------------------|----|
+| [`IfNoEdgeFace`](#ContactEdgeEdgeOption.IfNoEdgeFace)   |    |
 | [`No`](#ContactEdgeEdgeOption.No)                       |    |
 | [`Yes`](#ContactEdgeEdgeOption.Yes)                     |    |
 

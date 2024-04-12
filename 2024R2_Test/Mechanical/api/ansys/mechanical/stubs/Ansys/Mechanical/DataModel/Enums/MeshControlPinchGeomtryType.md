@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`AddPinchMaster`](#MeshControlPinchGeomtryType.AddPinchMaster)   |    |
+| Name | Summary |
 |-------------------------------------------------------------------|----|
+| [`AddPinchMaster`](#MeshControlPinchGeomtryType.AddPinchMaster)   |    |
 | [`AddPinchSlave`](#MeshControlPinchGeomtryType.AddPinchSlave)     |    |
 | [`SetPinchMaster`](#MeshControlPinchGeomtryType.SetPinchMaster)   |    |
 | [`SetPinchSlave`](#MeshControlPinchGeomtryType.SetPinchSlave)     |    |

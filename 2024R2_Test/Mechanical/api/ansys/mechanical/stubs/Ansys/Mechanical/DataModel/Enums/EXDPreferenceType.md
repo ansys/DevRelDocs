@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ProgramControlled`](#EXDPreferenceType.ProgramControlled)   |    |
+| Name | Summary |
 |---------------------------------------------------------------|----|
+| [`ProgramControlled`](#EXDPreferenceType.ProgramControlled)   |    |
 | [`LowVelocity`](#EXDPreferenceType.LowVelocity)               |    |
 | [`HighVelocity`](#EXDPreferenceType.HighVelocity)             |    |
 | [`Efficiency`](#EXDPreferenceType.Efficiency)                 |    |

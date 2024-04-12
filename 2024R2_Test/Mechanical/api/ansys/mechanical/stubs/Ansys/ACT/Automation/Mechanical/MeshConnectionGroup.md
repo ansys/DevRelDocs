@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`DetectConnections`](#MeshConnectionGroup.DetectConnections)                                   | Detect mesh connections.                                                          |
+| Name | Summary |
 |-------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`DetectConnections`](#MeshConnectionGroup.DetectConnections)                                   | Detect mesh connections.                                                          |
 | [`Generate`](#MeshConnectionGroup.Generate)                                                     | Generate mesh connections.                                                        |
 | [`SearchConnectionsForDuplicatePairs`](#MeshConnectionGroup.SearchConnectionsForDuplicatePairs) | SearchConnectionsForDuplicatePairs method.                                        |
 | [`AddManualMeshConnection`](#MeshConnectionGroup.AddManualMeshConnection)                       | Creates a new MeshConnection                                                      |
@@ -52,8 +53,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`ConnectionType`](#MeshConnectionGroup.ConnectionType)                                                             | Gets or sets the ConnectionType.                              |
 | [`ActiveConnections`](#MeshConnectionGroup.ActiveConnections)                                                       | Gets the ActiveConnections.                                   |

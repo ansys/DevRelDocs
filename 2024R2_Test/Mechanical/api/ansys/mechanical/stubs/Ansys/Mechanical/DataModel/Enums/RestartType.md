@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Manual`](#RestartType.Manual)                       |    |
+| Name | Summary |
 |-------------------------------------------------------|----|
+| [`Manual`](#RestartType.Manual)                       |    |
 | [`Off`](#RestartType.Off)                             |    |
 | [`ProgramControlled`](#RestartType.ProgramControlled) |    |
 

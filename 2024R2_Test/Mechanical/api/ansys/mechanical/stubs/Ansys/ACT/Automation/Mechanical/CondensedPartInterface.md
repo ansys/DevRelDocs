@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Type`](#CondensedPartInterface.Type)                                 | Gets or Sets Condensed part interface type   |
+| Name | Summary |
 |------------------------------------------------------------------------|----------------------------------------------|
+| [`Type`](#CondensedPartInterface.Type)                                 | Gets or Sets Condensed part interface type   |
 | [`RemotePointSelection`](#CondensedPartInterface.RemotePointSelection) | Gets or Sets RemotePointSelection            |
 | [`NamedSelection`](NamedSelection.md#NamedSelection)                   | Gets or Sets NamedSelection                  |
 | [`AllSelection`](#CondensedPartInterface.AllSelection)                 | AllSelection property.                       |

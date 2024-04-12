@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`AbsoluteConstant`](#ResponseConstraintDefineBy.AbsoluteConstant)   |    |
+| Name | Summary |
 |----------------------------------------------------------------------|----|
+| [`AbsoluteConstant`](#ResponseConstraintDefineBy.AbsoluteConstant)   |    |
 | [`AbsoluteRange`](#ResponseConstraintDefineBy.AbsoluteRange)         |    |
 | [`Constant`](#ResponseConstraintDefineBy.Constant)                   |    |
 | [`Range`](#ResponseConstraintDefineBy.Range)                         |    |

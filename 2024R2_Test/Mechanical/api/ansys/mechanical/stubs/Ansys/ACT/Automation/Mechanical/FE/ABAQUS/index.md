@@ -10,8 +10,9 @@
 
 ### Classes
 
-| [`ABAQUSCommand`](ABAQUSCommand.md#ABAQUSCommand)                                     | ABAQUSCommand class.                                          |
+| Name | Summary |
 |---------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`ABAQUSCommand`](ABAQUSCommand.md#ABAQUSCommand)                                     | ABAQUSCommand class.                                          |
 | [`AbaqusKeyword`](AbaqusKeyword.md#AbaqusKeyword)                                     | Represents an Abaqus keyword (with arguments and data lines). |
 | [`AbaqusKeywordArgumentColl`](AbaqusKeywordArgumentColl.md#AbaqusKeywordArgumentColl) | Collection of keyword arguments.                              |
 | [`AbaqusKeywordArgument`](AbaqusKeywordArgument.md#AbaqusKeywordArgument)             | Represents a keyword argument (with Key and Value).           |
@@ -42,8 +43,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Name`](#id0)   | Gets the command name.   |
+| Name | Summary |
 |------------------|--------------------------|
+| [`Name`](#id0)   | Gets the command name.   |
 | [`Index`](#id3)  | Gets the command index.  |
 
 <a id="import-detail"></a>
@@ -86,8 +88,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Arguments`](#ABAQUS.Arguments)   | Gets the arguments.     |
+| Name | Summary |
 |------------------------------------|-------------------------|
+| [`Arguments`](#ABAQUS.Arguments)   | Gets the arguments.     |
 | [`DataLines`](#ABAQUS.DataLines)   | Gets the data lines.    |
 | [`Name`](#id0)                     | Gets the command name.  |
 | [`Index`](#id3)                    | Gets the command index. |
@@ -148,8 +151,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Items`](#id13)   | Gets the list of arguments.   |
+| Name | Summary |
 |--------------------|-------------------------------|
+| [`Items`](#id13)   | Gets the list of arguments.   |
 
 <a id="id4"></a>
 
@@ -183,8 +187,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Key`](#ABAQUS.Key)     | Gets the Key.   |
+| Name | Summary |
 |--------------------------|-----------------|
+| [`Key`](#ABAQUS.Key)     | Gets the Key.   |
 | [`Value`](#ABAQUS.Value) | Gets the Value. |
 
 <a id="id6"></a>
@@ -227,8 +232,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Items`](#id13)   | Gets the list of data lines.   |
+| Name | Summary |
 |--------------------|--------------------------------|
+| [`Items`](#id13)   | Gets the list of data lines.   |
 
 <a id="id8"></a>
 
@@ -262,8 +268,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Items`](#id13)   | Gets the data line values.   |
+| Name | Summary |
 |--------------------|------------------------------|
+| [`Items`](#id13)   | Gets the data line values.   |
 
 <a id="id11"></a>
 

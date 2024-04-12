@@ -18,14 +18,16 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`SetNodeNumbering`](#AnnotationPreferences.SetNodeNumbering)       | Sets the begin, end and increment values to display node numbering.    |
+| Name | Summary |
 |---------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`SetNodeNumbering`](#AnnotationPreferences.SetNodeNumbering)       | Sets the begin, end and increment values to display node numbering.    |
 | [`SetElementNumbering`](#AnnotationPreferences.SetElementNumbering) | Sets the begin, end and increment values to display element numbering. |
 
 ### Properties
 
-| [`ShowAllAnnotations`](#AnnotationPreferences.ShowAllAnnotations)                 | Sets the visibility of all annotations.                                                    |
+| Name | Summary |
 |-----------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| [`ShowAllAnnotations`](#AnnotationPreferences.ShowAllAnnotations)                 | Sets the visibility of all annotations.                                                    |
 | [`ShowCustomAnnotations`](#AnnotationPreferences.ShowCustomAnnotations)           | Sets the visibility of user defined annotations.                                           |
 | [`ShowLabels`](#AnnotationPreferences.ShowLabels)                                 | Sets the visibility of annotation labels.                                                  |
 | [`ShowPointMasses`](#AnnotationPreferences.ShowPointMasses)                       | Sets the visibility of point mass annotations.                                             |

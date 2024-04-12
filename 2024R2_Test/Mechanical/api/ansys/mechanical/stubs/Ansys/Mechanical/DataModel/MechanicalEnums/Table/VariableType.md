@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ID`](#VariableType.ID)                                                                             |    |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------|----|
+| [`ID`](#VariableType.ID)                                                                             |    |
 | [`Pressure`](../../../../ACT/Automation/Mechanical/BoundaryConditions/Pressure.md#Pressure)          |    |
 | [`HeatTransferCoefficient`](#VariableType.HeatTransferCoefficient)                                   |    |
 | [`Temperature`](../../../../ACT/Automation/Mechanical/BoundaryConditions/Temperature.md#Temperature) |    |

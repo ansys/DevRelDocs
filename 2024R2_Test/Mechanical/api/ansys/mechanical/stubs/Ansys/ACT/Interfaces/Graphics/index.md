@@ -10,8 +10,9 @@
 
 ### Interfaces
 
-| [`IModelViewManager`](IModelViewManager.md#IModelViewManager)   |    |
+| Name | Summary |
 |-----------------------------------------------------------------|----|
+| [`IModelViewManager`](IModelViewManager.md#IModelViewManager)   |    |
 
 <a id="description"></a>
 
@@ -35,8 +36,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ApplyModelView`](#id0)                         | Apply the view specified by index.                                        |
+| Name | Summary |
 |--------------------------------------------------|---------------------------------------------------------------------------|
+| [`ApplyModelView`](#id0)                         | Apply the view specified by index.                                        |
 | [`ApplyModelView`](#id0)                         | Apply the view specified by name.                                         |
 | [`CaptureModelView`](#id1)                       | Save the view specified by index as a PNG image to the project userfiles. |
 | [`CaptureModelView`](#id1)                       | Save the view specified as an image to the project userfiles.             |
@@ -51,8 +53,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`NumberOfViews`](#Graphics.NumberOfViews)   | The number of views currently defined.   |
+| Name | Summary |
 |----------------------------------------------|------------------------------------------|
+| [`NumberOfViews`](#Graphics.NumberOfViews)   | The number of views currently defined.   |
 
 <a id="import-detail"></a>
 

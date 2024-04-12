@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Name`](#IMechanicalTheme.Name)                             | The name of the theme as an enum value.                                                                                       |
+| Name | Summary |
 |--------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
+| [`Name`](#IMechanicalTheme.Name)                             | The name of the theme as an enum value.                                                                                       |
 | [`HexadecimalPalette`](#IMechanicalTheme.HexadecimalPalette) | Palette object, which provides an entry point to get Mechnical UI’s theme colors represented in Hexadecimal. ei. #FFFFFF      |
 | [`ColorPalette`](#IMechanicalTheme.ColorPalette)             | Palette object, which provides an entry point to get Mechnical UI’s theme colors represented as Ansys.Utilities.Color objects |
 | [`IntPalette`](#IMechanicalTheme.IntPalette)                 | Palette object, which provides an entry point to get Mechnical UI’s theme colors represented as integers formatted as BGR     |

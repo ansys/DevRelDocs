@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`EvaluateAllResults`](#BeamTool.EvaluateAllResults)               | Run the EvaluateAllResults action.                                                |
+| Name | Summary |
 |--------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`EvaluateAllResults`](#BeamTool.EvaluateAllResults)               | Run the EvaluateAllResults action.                                                |
 | [`AddDirectionalDeformation`](#BeamTool.AddDirectionalDeformation) | Creates a new DirectionalDeformation                                              |
 | [`AddDirectStress`](#BeamTool.AddDirectStress)                     | Creates a new DirectStress                                                        |
 | [`AddMaximumBendingStress`](#BeamTool.AddMaximumBendingStress)     | Creates a new MaximumBendingStress                                                |
@@ -46,8 +47,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.            |
 | [`Location`](#BeamTool.Location)                                                                                          | Gets or sets the Location.                                    |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#BeamTool.Children)                                                                                          | Gets the list of children.                                    |

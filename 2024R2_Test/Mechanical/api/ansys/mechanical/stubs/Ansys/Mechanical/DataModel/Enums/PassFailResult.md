@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`FailedAbove`](#PassFailResult.FailedAbove)   |    |
+| Name | Summary |
 |------------------------------------------------|----|
+| [`FailedAbove`](#PassFailResult.FailedAbove)   |    |
 | [`FailedBelow`](#PassFailResult.FailedBelow)   |    |
 | [`PassedAbove`](#PassFailResult.PassedAbove)   |    |
 | [`PassedBelow`](#PassFailResult.PassedBelow)   |    |

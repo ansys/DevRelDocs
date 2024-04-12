@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ForceBonded`](#PreStressContactStatus.ForceBonded)     |    |
+| Name | Summary |
 |----------------------------------------------------------|----|
+| [`ForceBonded`](#PreStressContactStatus.ForceBonded)     |    |
 | [`ForceSticking`](#PreStressContactStatus.ForceSticking) |    |
 | [`UseTrueStatus`](#PreStressContactStatus.UseTrueStatus) |    |
 

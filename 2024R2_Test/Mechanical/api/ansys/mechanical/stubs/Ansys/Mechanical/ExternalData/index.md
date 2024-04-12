@@ -10,13 +10,15 @@
 
 ### Interfaces
 
-| [`ICEPAKImportSettings`](ICEPAKImportSettings.md#ICEPAKImportSettings)   |    |
+| Name | Summary |
 |--------------------------------------------------------------------------|----|
+| [`ICEPAKImportSettings`](ICEPAKImportSettings.md#ICEPAKImportSettings)   |    |
 
 ### Classes
 
-| [`AXDTImportSettings`](AXDTImportSettings.md#AXDTImportSettings)                                        |                                                                                      |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| [`AXDTImportSettings`](AXDTImportSettings.md#AXDTImportSettings)                                        |                                                                                      |
 | [`ColumnarDataImportDefinition`](../Table/ColumnarDataImportDefinition.md#ColumnarDataImportDefinition) | A simple class to hold the import definitions for how a column from a data source in |
 | [`ColumnarDataSourceBase`](../Table/ColumnarDataSourceBase.md#ColumnarDataSourceBase)                   |                                                                                      |
 | [`DelimitedImportSettings`](../Table/DelimitedImportSettings.md#DelimitedImportSettings)                |                                                                                      |
@@ -50,8 +52,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Dimension`](#id50)                                                     | The dimension of the AXDT file.         |
+| Name | Summary |
 |--------------------------------------------------------------------------|-----------------------------------------|
+| [`Dimension`](#id50)                                                     | The dimension of the AXDT file.         |
 | [`Format`](../DataModel/Enums/GeometryImportPreference/Format.md#Format) | Gets the existing corresponding format. |
 
 <a id="import-detail"></a>
@@ -95,8 +98,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Index`](#ExternalData.Index)                                                    | Gets or sets the specified data source column index from which this variable will be   |
+| Name | Summary |
 |-----------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| [`Index`](#ExternalData.Index)                                                    | Gets or sets the specified data source column index from which this variable will be   |
 | [`Name`](#ExternalData.Name)                                                      | Gets or sets an identifier for the data source column.                                 |
 | [`Unit`](#ExternalData.Unit)                                                      | Gets or sets the unit of the column.                                                   |
 | [`VariableType`](../DataModel/MechanicalEnums/Table/VariableType.md#VariableType) | Gets or sets the variable type of the column.                                          |
@@ -163,16 +167,18 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Clear`](#id39)         |                                                       |
+| Name | Summary |
 |--------------------------|-------------------------------------------------------|
+| [`Clear`](#id39)         |                                                       |
 | [`GetEnumerator`](#id40) |                                                       |
 | [`RemoveAt`](#id41)      | Removes the import definition at the specified index. |
 | [`UseColumn`](#id42)     |                                                       |
 
 ### Properties
 
-| [`Count`](#id33)                                                         | Gets the number of column definitions.                                               |
+| Name | Summary |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| [`Count`](#id33)                                                         | Gets the number of column definitions.                                               |
 | [`Item`](#id34)                                                          | Item property.                                                                       |
 | [`SkipFooter`](#id35)                                                    | Gets or sets the number of rows to ignore at the end of the file during import.      |
 | [`SkipRows`](#id36)                                                      | Gets or sets the number of rows to skip over at the start of the file during import. |
@@ -266,16 +272,18 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Clear`](#id39)         |                                                       |
+| Name | Summary |
 |--------------------------|-------------------------------------------------------|
+| [`Clear`](#id39)         |                                                       |
 | [`GetEnumerator`](#id40) |                                                       |
 | [`RemoveAt`](#id41)      | Removes the import definition at the specified index. |
 | [`UseColumn`](#id42)     |                                                       |
 
 ### Properties
 
-| [`Delimiter`](#ExternalData.Delimiter)                                   | The delimiter used to separate columns.                                              |
+| Name | Summary |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| [`Delimiter`](#ExternalData.Delimiter)                                   | The delimiter used to separate columns.                                              |
 | [`AverageCornerNodesToMidsideNodes`](#id32)                              |                                                                                      |
 | [`Count`](#id33)                                                         | Gets the number of column definitions.                                               |
 | [`Item`](#id34)                                                          | Item property.                                                                       |
@@ -385,8 +393,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`UseDummyNetData`](#ExternalData.UseDummyNetData)                       | The UseDummyNetData falg of the ECAD file. For External Data files that include trace mapping,   |
+| Name | Summary |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
+| [`UseDummyNetData`](#ExternalData.UseDummyNetData)                       | The UseDummyNetData falg of the ECAD file. For External Data files that include trace mapping,   |
 | [`Format`](../DataModel/Enums/GeometryImportPreference/Format.md#Format) | Gets the existing corresponding format.                                                          |
 
 <a id="id17"></a>
@@ -430,8 +439,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`FilePath`](#ExternalData.FilePath)                              | Gets or sets the file path of the external data file.            |
+| Name | Summary |
 |-------------------------------------------------------------------|------------------------------------------------------------------|
+| [`FilePath`](#ExternalData.FilePath)                              | Gets or sets the file path of the external data file.            |
 | [`Identifier`](#ExternalData.Identifier)                          | Gets or sets the identifier of the external data file.           |
 | [`Description`](#ExternalData.Description)                        | Gets or sets the optional description of the external data file. |
 | [`IsMainFile`](#ExternalData.IsMainFile)                          |                                                                  |
@@ -495,8 +505,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Add`](#ExternalData.Add)           |                |
+| Name | Summary |
 |--------------------------------------|----------------|
+| [`Add`](#ExternalData.Add)           |                |
 | [`Clear`](#id39)                     |                |
 | [`Contains`](#ExternalData.Contains) |                |
 | [`CopyTo`](#ExternalData.CopyTo)     | CopyTo method. |
@@ -508,8 +519,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`SaveFilesWithProject`](#ExternalData.SaveFilesWithProject)   | Gets or sets the flag controlling if the external data files will be copied to the project directory.   |
+| Name | Summary |
 |----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
+| [`SaveFilesWithProject`](#ExternalData.SaveFilesWithProject)   | Gets or sets the flag controlling if the external data files will be copied to the project directory.   |
 | [`Item`](#id34)                                                | Item property.                                                                                          |
 | [`Count`](#id33)                                               | Gets the number of external data files.                                                                 |
 
@@ -605,16 +617,18 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Clear`](#id39)         |                                                       |
+| Name | Summary |
 |--------------------------|-------------------------------------------------------|
+| [`Clear`](#id39)         |                                                       |
 | [`GetEnumerator`](#id40) |                                                       |
 | [`RemoveAt`](#id41)      | Removes the import definition at the specified index. |
 | [`UseColumn`](#id42)     |                                                       |
 
 ### Properties
 
-| [`ColumnWidths`](#ExternalData.ColumnWidths)                             |                                                                                      |
+| Name | Summary |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| [`ColumnWidths`](#ExternalData.ColumnWidths)                             |                                                                                      |
 | [`AverageCornerNodesToMidsideNodes`](#id32)                              |                                                                                      |
 | [`Count`](#id33)                                                         | Gets the number of column definitions.                                               |
 | [`Item`](#id34)                                                          | Item property.                                                                       |
@@ -724,8 +738,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Format`](../DataModel/Enums/GeometryImportPreference/Format.md#Format)   | Gets the existing corresponding format.   |
+| Name | Summary |
 |----------------------------------------------------------------------------|-------------------------------------------|
+| [`Format`](../DataModel/Enums/GeometryImportPreference/Format.md#Format)   | Gets the existing corresponding format.   |
 
 <a id="id43"></a>
 
@@ -759,8 +774,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Constructors
 
-| [`GetSettingsForFormat`](#ExternalData.GetSettingsForFormat)   |    |
+| Name | Summary |
 |----------------------------------------------------------------|----|
+| [`GetSettingsForFormat`](#ExternalData.GetSettingsForFormat)   |    |
 
 <a id="id46"></a>
 
@@ -790,8 +806,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Dimension`](#id50)                                                               | The dimension of the MAPDL CDB file.    |
+| Name | Summary |
 |------------------------------------------------------------------------------------|-----------------------------------------|
+| [`Dimension`](#id50)                                                               | The dimension of the MAPDL CDB file.    |
 | [`LengthUnit`](../DataModel/MechanicalEnums/ExternalData/LengthUnit.md#LengthUnit) | The length unit of the MAPDL CDB file.  |
 | [`Format`](../DataModel/Enums/GeometryImportPreference/Format.md#Format)           | Gets the existing corresponding format. |
 
@@ -841,8 +858,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`SupportingFilePath`](#ExternalData.SupportingFilePath)                 | The supporting file path of the ICEPAK INFO file.                                                |
+| Name | Summary |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
+| [`SupportingFilePath`](#ExternalData.SupportingFilePath)                 | The supporting file path of the ICEPAK INFO file.                                                |
 | [`SupportingFileIdentifier`](#ExternalData.SupportingFileIdentifier)     | The supporting file identifier. The identifier should be unique, otherwise, an exception will be |
 | [`SupportingFileDescription`](#ExternalData.SupportingFileDescription)   | The supporting file description. This is optional.                                               |
 | [`Format`](../DataModel/Enums/GeometryImportPreference/Format.md#Format) | Gets the existing corresponding format.                                                          |

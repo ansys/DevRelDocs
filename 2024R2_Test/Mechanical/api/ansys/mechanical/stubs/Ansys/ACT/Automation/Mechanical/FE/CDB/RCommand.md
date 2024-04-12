@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Nset`](#RCommand.Nset)     | Gets the set number.        |
+| Name | Summary |
 |------------------------------|-----------------------------|
+| [`Nset`](#RCommand.Nset)     | Gets the set number.        |
 | [`Stloc`](#RCommand.Stloc)   | Gets the starting location. |
 | [`Values`](#RCommand.Values) | Gets the values.            |
 | [`Name`](#RCommand.Name)     | Gets the command name.      |

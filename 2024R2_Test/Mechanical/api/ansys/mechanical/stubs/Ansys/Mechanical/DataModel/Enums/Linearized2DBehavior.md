@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`AxisymmetricCurve`](#Linearized2DBehavior.AxisymmetricCurve)       |    |
+| Name | Summary |
 |----------------------------------------------------------------------|----|
+| [`AxisymmetricCurve`](#Linearized2DBehavior.AxisymmetricCurve)       |    |
 | [`AxisymmetricStraight`](#Linearized2DBehavior.AxisymmetricStraight) |    |
 | [`Planar`](#Linearized2DBehavior.Planar)                             |    |
 

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Add`](#IDataTable.Add)                   | Add a new column to the data table.                                       |
+| Name | Summary |
 |--------------------------------------------|---------------------------------------------------------------------------|
+| [`Add`](#IDataTable.Add)                   | Add a new column to the data table.                                       |
 | [`Clear`](#IDataTable.Clear)               | Drops all columns from the data table.                                    |
 | [`Contains`](#IDataTable.Contains)         | Returns whether the data table contains a column with the specified name. |
 | [`GetRow`](#IDataTable.GetRow)             |                                                                           |
@@ -30,8 +31,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`ColumnNames`](#IDataTable.ColumnNames)               |                                                                                          |
+| Name | Summary |
 |--------------------------------------------------------|------------------------------------------------------------------------------------------|
+| [`ColumnNames`](#IDataTable.ColumnNames)               |                                                                                          |
 | [`Columns`](#IDataTable.Columns)                       | Explicitly get the columns of the data table.                                            |
 | [`Count`](#IDataTable.Count)                           | Gets the number of columns in the table.                                                 |
 | [`IsFixedColumnCount`](#IDataTable.IsFixedColumnCount) | Get whether additional columns can be added or removed from the contained                |

@@ -10,8 +10,9 @@
 
 ### Subpackages
 
-| [`Primitives`](Primitives/index.md#module-ansys.mechanical.stubs.Ansys.ACT.DesignModeler.Primitives)   | Primitives submodule.   |
+| Name | Summary |
 |--------------------------------------------------------------------------------------------------------|-------------------------|
+| [`Primitives`](Primitives/index.md#module-ansys.mechanical.stubs.Ansys.ACT.DesignModeler.Primitives)   | Primitives submodule.   |
 
 <a id="description"></a>
 

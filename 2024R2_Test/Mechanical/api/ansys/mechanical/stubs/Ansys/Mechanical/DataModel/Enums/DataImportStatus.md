@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Failed`](#DataImportStatus.Failed)     |    |
+| Name | Summary |
 |------------------------------------------|----|
+| [`Failed`](#DataImportStatus.Failed)     |    |
 | [`NoData`](#DataImportStatus.NoData)     |    |
 | [`Obsolete`](#DataImportStatus.Obsolete) |    |
 | [`Unknown`](#DataImportStatus.Unknown)   |    |

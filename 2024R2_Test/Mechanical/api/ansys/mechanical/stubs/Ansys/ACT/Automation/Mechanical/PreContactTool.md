@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddInitialInformation`](#PreContactTool.AddInitialInformation)                 | Creates a new ContactDataTable                                                    |
+| Name | Summary |
 |----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddInitialInformation`](#PreContactTool.AddInitialInformation)                 | Creates a new ContactDataTable                                                    |
 | [`AddGap`](#PreContactTool.AddGap)                                               | Creates a new ContactGap                                                          |
 | [`AddPenetration`](#PreContactTool.AddPenetration)                               | Creates a new ContactPenetration                                                  |
 | [`AddStatus`](#PreContactTool.AddStatus)                                         | Creates a new ContactStatus                                                       |
@@ -45,8 +46,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`ScopingMethod`](#PreContactTool.ScopingMethod)                                                                    | Gets or sets the ScopingMethod.                               |
 | [`Location`](#PreContactTool.Location)                                                                              | Gets or sets the Location.                                    |

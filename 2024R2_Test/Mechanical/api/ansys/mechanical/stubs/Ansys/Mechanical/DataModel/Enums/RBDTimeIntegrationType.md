@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`RungeKutta4`](#RBDTimeIntegrationType.RungeKutta4)                               |    |
+| Name | Summary |
 |------------------------------------------------------------------------------------|----|
+| [`RungeKutta4`](#RBDTimeIntegrationType.RungeKutta4)                               |    |
 | [`RungeKutta5`](#RBDTimeIntegrationType.RungeKutta5)                               |    |
 | [`HalfExplicitMethod5`](#RBDTimeIntegrationType.HalfExplicitMethod5)               |    |
 | [`RungeKuttaDormandPrince5`](#RBDTimeIntegrationType.RungeKuttaDormandPrince5)     |    |

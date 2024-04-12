@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`GeometryView`](../DataModel/MechanicalEnums/Graphics/GeometryView.md#GeometryView)                   | Sets the result geometry view.                                          |
+| Name | Summary |
 |--------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| [`GeometryView`](../DataModel/MechanicalEnums/Graphics/GeometryView.md#GeometryView)                   | Sets the result geometry view.                                          |
 | [`ContourView`](../DataModel/MechanicalEnums/Graphics/ContourView.md#ContourView)                      | Sets the result contour view.                                           |
 | [`ExtraModelDisplay`](../DataModel/MechanicalEnums/Graphics/ExtraModelDisplay.md#ExtraModelDisplay)    | Sets the result edge display option.                                    |
 | [`DeformationScaling`](../DataModel/MechanicalEnums/Graphics/DeformationScaling.md#DeformationScaling) | Sets the deformation scale multiplier to either AutoScale or TrueScale. |

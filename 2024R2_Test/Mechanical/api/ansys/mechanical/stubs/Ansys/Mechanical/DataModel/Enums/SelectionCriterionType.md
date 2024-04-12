@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Size`](#SelectionCriterionType.Size)                                                             |    |
+| Name | Summary |
 |----------------------------------------------------------------------------------------------------|----|
+| [`Size`](#SelectionCriterionType.Size)                                                             |    |
 | [`Type`](#SelectionCriterionType.Type)                                                             |    |
 | [`LocationX`](#SelectionCriterionType.LocationX)                                                   |    |
 | [`LocationY`](#SelectionCriterionType.LocationY)                                                   |    |

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`None_`](#NormalOrientationType.None_)     |    |
+| Name | Summary |
 |---------------------------------------------|----|
+| [`None_`](#NormalOrientationType.None_)     |    |
 | [`Total`](#NormalOrientationType.Total)     |    |
 | [`XAxis`](#NormalOrientationType.XAxis)     |    |
 | [`XYAxis`](#NormalOrientationType.XYAxis)   |    |

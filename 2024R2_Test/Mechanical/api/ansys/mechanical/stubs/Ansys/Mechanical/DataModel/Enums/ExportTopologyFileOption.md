@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`No`](#ExportTopologyFileOption.No)                               |    |
+| Name | Summary |
 |--------------------------------------------------------------------|----|
+| [`No`](#ExportTopologyFileOption.No)                               |    |
 | [`GeometryOnly`](#ExportTopologyFileOption.GeometryOnly)           |    |
 | [`ProgramControlled`](#ExportTopologyFileOption.ProgramControlled) |    |
 | [`Model`](../../../ACT/Automation/Mechanical/Model.md#Model)       |    |

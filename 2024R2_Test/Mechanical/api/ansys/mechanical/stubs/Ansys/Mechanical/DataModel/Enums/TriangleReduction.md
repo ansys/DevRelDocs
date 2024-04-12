@@ -20,8 +20,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Aggressive`](#TriangleReduction.Aggressive)     |    |
+| Name | Summary |
 |---------------------------------------------------|----|
+| [`Aggressive`](#TriangleReduction.Aggressive)     |    |
 | [`Conservative`](#TriangleReduction.Conservative) |    |
 | [`None_`](#TriangleReduction.None_)               |    |
 

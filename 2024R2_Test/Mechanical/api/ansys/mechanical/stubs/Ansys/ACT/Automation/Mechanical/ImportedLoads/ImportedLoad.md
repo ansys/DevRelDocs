@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ExportToTextFile`](#ImportedLoad.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
+| Name | Summary |
 |--------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ExportToTextFile`](#ImportedLoad.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
 | [`Import`](#ImportedLoad.Import)                                   | Import.                                                                           |
 | [`ImportLoad`](#ImportedLoad.ImportLoad)                           | Run the ImportLoad action.                                                        |
 | [`GetActivateAtLoadStep`](#ImportedLoad.GetActivateAtLoadStep)     | GetActivateAtLoadStep method.                                                     |
@@ -45,8 +46,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Weighting`](#ImportedLoad.Weighting)                                                                                             | Weighting property.                                                                                     |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
+| [`Weighting`](#ImportedLoad.Weighting)                                                                                             | Weighting property.                                                                                     |
 | [`MappingControl`](#ImportedLoad.MappingControl)                                                                                   | MappingControl property.                                                                                |
 | [`DisplaySourcePoints`](#ImportedLoad.DisplaySourcePoints)                                                                         | DisplaySourcePoints property.                                                                           |
 | [`DisplaySourcePointIds`](#ImportedLoad.DisplaySourcePointIds)                                                                     | DisplaySourcePointIds property.                                                                         |

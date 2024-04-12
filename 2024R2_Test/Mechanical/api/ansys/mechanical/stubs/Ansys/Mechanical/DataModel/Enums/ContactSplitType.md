@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Off`](#ContactSplitType.Off)                             |    |
+| Name | Summary |
 |------------------------------------------------------------|----|
+| [`Off`](#ContactSplitType.Off)                             |    |
 | [`On`](#ContactSplitType.On)                               |    |
 | [`ProgramControlled`](#ContactSplitType.ProgramControlled) |    |
 

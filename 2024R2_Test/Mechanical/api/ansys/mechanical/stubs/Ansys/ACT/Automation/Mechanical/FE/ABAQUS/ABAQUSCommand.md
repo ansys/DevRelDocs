@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Name`](#ABAQUSCommand.Name)   | Gets the command name.   |
+| Name | Summary |
 |---------------------------------|--------------------------|
+| [`Name`](#ABAQUSCommand.Name)   | Gets the command name.   |
 | [`Index`](#ABAQUSCommand.Index) | Gets the command index.  |
 
 <a id="import-detail"></a>

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Buckling`](#AnalysisType.Buckling)                         |    |
+| Name | Summary |
 |--------------------------------------------------------------|----|
+| [`Buckling`](#AnalysisType.Buckling)                         |    |
 | [`DesignAssessment`](#AnalysisType.DesignAssessment)         |    |
 | [`ExplicitDynamics`](#AnalysisType.ExplicitDynamics)         |    |
 | [`Harmonic`](#AnalysisType.Harmonic)                         |    |

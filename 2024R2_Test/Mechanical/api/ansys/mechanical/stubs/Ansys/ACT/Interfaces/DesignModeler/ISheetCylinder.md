@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Center`](#ISheetCylinder.Center)       | Gets or sets the center of the cylinder.   |
+| Name | Summary |
 |------------------------------------------|--------------------------------------------|
+| [`Center`](#ISheetCylinder.Center)       | Gets or sets the center of the cylinder.   |
 | [`Direction`](#ISheetCylinder.Direction) | Gets or sets the axis of the cylinder.     |
 | [`Radius`](#ISheetCylinder.Radius)       | Gets or sets the radius of the cylinder.   |
 

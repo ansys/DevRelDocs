@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Csys`](#CommandElement.Csys)                         | Gets the coordinate system number.                          |
+| Name | Summary |
 |--------------------------------------------------------|-------------------------------------------------------------|
+| [`Csys`](#CommandElement.Csys)                         | Gets the coordinate system number.                          |
 | [`Id`](#CommandElement.Id)                             | Gets the element number.                                    |
 | [`Mat`](#CommandElement.Mat)                           | Gets the material number.                                   |
 | [`Real`](#CommandElement.Real)                         | Gets the real constant set number.                          |

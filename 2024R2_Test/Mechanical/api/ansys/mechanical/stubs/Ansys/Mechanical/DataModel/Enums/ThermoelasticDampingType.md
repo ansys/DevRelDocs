@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Off`](#ThermoelasticDampingType.Off)   |    |
+| Name | Summary |
 |------------------------------------------|----|
+| [`Off`](#ThermoelasticDampingType.Off)   |    |
 | [`On`](#ThermoelasticDampingType.On)     |    |
 
 <a id="import-detail"></a>

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`SourceDimension2D`](#SourceDimension.SourceDimension2D)   |    |
+| Name | Summary |
 |-------------------------------------------------------------|----|
+| [`SourceDimension2D`](#SourceDimension.SourceDimension2D)   |    |
 | [`SourceDimension3D`](#SourceDimension.SourceDimension3D)   |    |
 
 <a id="import-detail"></a>

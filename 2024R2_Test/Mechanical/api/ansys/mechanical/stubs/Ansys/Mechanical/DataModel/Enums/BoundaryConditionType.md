@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`AllLoads`](#BoundaryConditionType.AllLoads)                       |    |
+| Name | Summary |
 |---------------------------------------------------------------------|----|
+| [`AllLoads`](#BoundaryConditionType.AllLoads)                       |    |
 | [`AllLoadsAndSupports`](#BoundaryConditionType.AllLoadsAndSupports) |    |
 | [`AllSupports`](#BoundaryConditionType.AllSupports)                 |    |
 | [`None_`](#BoundaryConditionType.None_)                             |    |

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Linear`](#TopoOptimizationDensityFilter.Linear)                       |    |
+| Name | Summary |
 |-------------------------------------------------------------------------|----|
+| [`Linear`](#TopoOptimizationDensityFilter.Linear)                       |    |
 | [`NonLinear`](#TopoOptimizationDensityFilter.NonLinear)                 |    |
 | [`ProgramControlled`](#TopoOptimizationDensityFilter.ProgramControlled) |    |
 

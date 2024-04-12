@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Real`](#TimeHistoryDisplayType.Real)                         |    |
+| Name | Summary |
 |----------------------------------------------------------------|----|
+| [`Real`](#TimeHistoryDisplayType.Real)                         |    |
 | [`Imaginary`](#TimeHistoryDisplayType.Imaginary)               |    |
 | [`RealAndImaginary`](#TimeHistoryDisplayType.RealAndImaginary) |    |
 | [`Amplitude`](#TimeHistoryDisplayType.Amplitude)               |    |

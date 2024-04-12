@@ -10,8 +10,9 @@
 
 ### Classes
 
-| [`ImportSettings`](ImportSettings.md#ImportSettings)   | ImportSettings interface.   |
+| Name | Summary |
 |--------------------------------------------------------|-----------------------------|
+| [`ImportSettings`](ImportSettings.md#ImportSettings)   | ImportSettings interface.   |
 
 <a id="description"></a>
 
@@ -37,8 +38,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Filter`](#Materials.Filter)   | All materials will be imported if this list of the names of   |
+| Name | Summary |
 |---------------------------------|---------------------------------------------------------------|
+| [`Filter`](#Materials.Filter)   | All materials will be imported if this list of the names of   |
 
 <a id="import-detail"></a>
 

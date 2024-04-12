@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Generate`](#MeshWorkflow.Generate)                               | Generates the desired data by executing the whole workflow, i.e., transferring the input data, executing all steps, and completing the workflow by transferring the output data back into Geometry and Mesh data.                                                                                          |
+| Name | Summary |
 |--------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`Generate`](#MeshWorkflow.Generate)                               | Generates the desired data by executing the whole workflow, i.e., transferring the input data, executing all steps, and completing the workflow by transferring the output data back into Geometry and Mesh data.                                                                                          |
 | [`AddInput`](#MeshWorkflow.AddInput)                               | Adds an “Input” node as child object under the “Mesh Workflow” and returns the new MeshWorkflowInput object if not existent, otherwise it returns the already available MeshWorkflowInput object.                                                                                                          |
 | [`AddOutput`](#MeshWorkflow.AddOutput)                             | Adds an “Output” node as child object under the “Mesh Workflow” and returns the new MeshWorkflowOutput object if not existent, otherwise it returns the already available MeshWorkflowOutput object.                                                                                                       |
 | [`ClearGeneratedData`](#MeshWorkflow.ClearGeneratedData)           | Clears all the generated data, i.e.,  It resets all inactive geometry parts/bodies to active again, clears the output data, and resets the state of the child objects (“Input”, “Steps”, “Output”) to the initial state. However, any user-defined settings such as the “Input” node scoping are retained. |
@@ -46,8 +47,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`WorkflowType`](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/WorkflowType.md#WorkflowType)           | Returns the workflow type which is applicable to the Input, Steps, and Output.                                                        |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| [`WorkflowType`](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/WorkflowType.md#WorkflowType)           | Returns the workflow type which is applicable to the Input, Steps, and Output.                                                        |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.                                                                                    |
 | [`ImportedWorkflowFilename`](#MeshWorkflow.ImportedWorkflowFilename)                                                | The filename of the template.emx file that populated the workflow initially.                                                          |
 | [`UnitSystem`](#MeshWorkflow.UnitSystem)                                                                            | Defines the “unit system” of a Prime Model, if not defined, the unit system is deduced from the geometry at input data transfer time. |

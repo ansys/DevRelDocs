@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ImportedConvection`](../../../ACT/Automation/Mechanical/ImportedLoads/ImportedConvection.md#ImportedConvection)                                                    |    |
+| Name | Summary |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------|----|
+| [`ImportedConvection`](../../../ACT/Automation/Mechanical/ImportedLoads/ImportedConvection.md#ImportedConvection)                                                    |    |
 | [`ImportedDisplacement`](../../../ACT/Automation/Mechanical/ImportedLoads/ImportedDisplacement.md#ImportedDisplacement)                                              |    |
 | [`ImportedDisplacementAndRotation`](#ImportedLoadType.ImportedDisplacementAndRotation)                                                                               |    |
 | [`ElementOrientation`](../../../ACT/Automation/Mechanical/ElementOrientation.md#ElementOrientation)                                                                  |    |

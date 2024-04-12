@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`CreateEnclosure`](#OperationType.CreateEnclosure)           |    |
+| Name | Summary |
 |---------------------------------------------------------------|----|
+| [`CreateEnclosure`](#OperationType.CreateEnclosure)           |    |
 | [`CreateTopology`](#OperationType.CreateTopology)             |    |
 | [`Extrude`](#OperationType.Extrude)                           |    |
 | [`FillHoles`](#OperationType.FillHoles)                       |    |

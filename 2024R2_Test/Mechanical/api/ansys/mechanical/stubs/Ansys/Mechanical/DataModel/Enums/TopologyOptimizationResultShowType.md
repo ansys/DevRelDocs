@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`AllRegions`](#TopologyOptimizationResultShowType.AllRegions)         |    |
+| Name | Summary |
 |------------------------------------------------------------------------|----|
+| [`AllRegions`](#TopologyOptimizationResultShowType.AllRegions)         |    |
 | [`RetainedRegion`](#TopologyOptimizationResultShowType.RetainedRegion) |    |
 | [`RemovedRegion`](#TopologyOptimizationResultShowType.RemovedRegion)   |    |
 

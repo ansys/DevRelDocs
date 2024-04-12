@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`RenameBasedOnDefinition`](#GlobalVonMisesStressConstraint.RenameBasedOnDefinition)   | Run the RenameBasedOnDefinition action.                                           |
+| Name | Summary |
 |----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`RenameBasedOnDefinition`](#GlobalVonMisesStressConstraint.RenameBasedOnDefinition)   | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#GlobalVonMisesStressConstraint.Delete)                                     | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                                  | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                                  | Gets the list of children, filtered by type.                                      |
@@ -36,8 +37,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Maximum`](#GlobalVonMisesStressConstraint.Maximum)                                                                | Gets or sets the Maximum.                                                                |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| [`Maximum`](#GlobalVonMisesStressConstraint.Maximum)                                                                | Gets or sets the Maximum.                                                                |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.                                       |
 | [`ScopingMethod`](#GlobalVonMisesStressConstraint.ScopingMethod)                                                    | Gets or sets the ScopingMethod.                                                          |
 | [`StressType`](#GlobalVonMisesStressConstraint.StressType)                                                          | Gets or sets the StressType.                                                             |

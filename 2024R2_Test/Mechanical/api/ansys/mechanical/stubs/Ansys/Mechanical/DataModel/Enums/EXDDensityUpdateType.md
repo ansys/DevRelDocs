@@ -16,8 +16,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ProgramControlled`](#EXDDensityUpdateType.ProgramControlled)   |    |
+| Name | Summary |
 |------------------------------------------------------------------|----|
+| [`ProgramControlled`](#EXDDensityUpdateType.ProgramControlled)   |    |
 | [`Incremental`](#EXDDensityUpdateType.Incremental)               |    |
 | [`Total`](#EXDDensityUpdateType.Total)                           |    |
 

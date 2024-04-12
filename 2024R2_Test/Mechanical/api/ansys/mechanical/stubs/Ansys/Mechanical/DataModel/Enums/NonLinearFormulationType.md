@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Full`](#NonLinearFormulationType.Full)                           |    |
+| Name | Summary |
 |--------------------------------------------------------------------|----|
+| [`Full`](#NonLinearFormulationType.Full)                           |    |
 | [`ProgramControlled`](#NonLinearFormulationType.ProgramControlled) |    |
 | [`Quasi`](#NonLinearFormulationType.Quasi)                         |    |
 

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ApplyTo`](#ISubtract.ApplyTo)   | ApplyTo method.   |
+| Name | Summary |
 |-----------------------------------|-------------------|
+| [`ApplyTo`](#ISubtract.ApplyTo)   | ApplyTo method.   |
 
 <a id="import-detail"></a>
 

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`EnclosureExternalScope`](#OutcomeType.EnclosureExternalScope)   |    |
+| Name | Summary |
 |-------------------------------------------------------------------|----|
+| [`EnclosureExternalScope`](#OutcomeType.EnclosureExternalScope)   |    |
 | [`EnclosureInternalScope`](#OutcomeType.EnclosureInternalScope)   |    |
 | [`ExtrusionEndScope`](#OutcomeType.ExtrusionEndScope)             |    |
 | [`ExtrusionStartScope`](#OutcomeType.ExtrusionStartScope)         |    |

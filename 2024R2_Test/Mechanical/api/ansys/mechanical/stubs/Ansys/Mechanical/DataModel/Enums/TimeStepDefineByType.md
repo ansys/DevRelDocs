@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Substeps`](#TimeStepDefineByType.Substeps)   |    |
+| Name | Summary |
 |------------------------------------------------|----|
+| [`Substeps`](#TimeStepDefineByType.Substeps)   |    |
 | [`Time`](#TimeStepDefineByType.Time)           |    |
 
 <a id="import-detail"></a>

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetCommandsByName`](#CommandRepository.GetCommandsByName)       | Gets the commands by name.                                                                         |
+| Name | Summary |
 |-------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
+| [`GetCommandsByName`](#CommandRepository.GetCommandsByName)       | Gets the commands by name.                                                                         |
 | [`GetCommandByIndex`](#CommandRepository.GetCommandByIndex)       | Gets the commands by index.                                                                        |
 | [`GetCommandNamesCount`](#CommandRepository.GetCommandNamesCount) | Gets the number of commands of a type specified by param=eCommandsType in the repository.          |
 | [`GetCommandName`](#CommandRepository.GetCommandName)             | Gets the name of commands of a type specified by params eCommandsType and index in the repository. |

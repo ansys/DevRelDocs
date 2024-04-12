@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`AllIterations`](#IterationOptions.AllIterations)                     |    |
+| Name | Summary |
 |------------------------------------------------------------------------|----|
+| [`AllIterations`](#IterationOptions.AllIterations)                     |    |
 | [`LastIteration`](#IterationOptions.LastIteration)                     |    |
 | [`EquallySpacedPoints`](#IterationOptions.EquallySpacedPoints)         |    |
 | [`SpecifiedRecurrenceRate`](#IterationOptions.SpecifiedRecurrenceRate) |    |

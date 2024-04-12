@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Elem`](#CommandElementBodyForce.Elem)     | Gets the element number.                     |
+| Name | Summary |
 |---------------------------------------------|----------------------------------------------|
+| [`Elem`](#CommandElementBodyForce.Elem)     | Gets the element number.                     |
 | [`Count`](#CommandElementBodyForce.Count)   | Gets the number of element body-force loads. |
 | [`Stlocs`](#CommandElementBodyForce.Stlocs) | Gets the starting locations.                 |
 | [`Values`](#CommandElementBodyForce.Values) | Gets the values.                             |

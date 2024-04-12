@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`NegativeX`](#DropDirection.NegativeX)   |    |
+| Name | Summary |
 |-------------------------------------------|----|
+| [`NegativeX`](#DropDirection.NegativeX)   |    |
 | [`NegativeY`](#DropDirection.NegativeY)   |    |
 | [`NegativeZ`](#DropDirection.NegativeZ)   |    |
 | [`PositiveX`](#DropDirection.PositiveX)   |    |

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Off`](#ResultFileCompressionType.Off)                             |    |
+| Name | Summary |
 |---------------------------------------------------------------------|----|
+| [`Off`](#ResultFileCompressionType.Off)                             |    |
 | [`ProgramControlled`](#ResultFileCompressionType.ProgramControlled) |    |
 | [`Sparse`](#ResultFileCompressionType.Sparse)                       |    |
 

@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ManualTolerance`](#SnapType.ManualTolerance)     |    |
+| Name | Summary |
 |----------------------------------------------------|----|
+| [`ManualTolerance`](#SnapType.ManualTolerance)     |    |
 | [`ElementSizeFactor`](#SnapType.ElementSizeFactor) |    |
 
 <a id="import-detail"></a>

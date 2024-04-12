@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`AllAcceptedIterations`](#TopoOptimizationExportDesignProperties.AllAcceptedIterations)   |    |
+| Name | Summary |
 |--------------------------------------------------------------------------------------------|----|
+| [`AllAcceptedIterations`](#TopoOptimizationExportDesignProperties.AllAcceptedIterations)   |    |
 | [`LastAcceptedIteration`](#TopoOptimizationExportDesignProperties.LastAcceptedIteration)   |    |
 | [`No`](#TopoOptimizationExportDesignProperties.No)                                         |    |
 | [`OnFinalDesign`](#TopoOptimizationExportDesignProperties.OnFinalDesign)                   |    |

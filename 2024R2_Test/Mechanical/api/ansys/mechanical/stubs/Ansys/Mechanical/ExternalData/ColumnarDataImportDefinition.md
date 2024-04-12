@@ -19,8 +19,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Index`](../Table/ColumnarDataImportDefinition.md#ColumnarDataImportDefinition.Index)   | Gets or sets the specified data source column index from which this variable will be   |
+| Name | Summary |
 |------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| [`Index`](../Table/ColumnarDataImportDefinition.md#ColumnarDataImportDefinition.Index)   | Gets or sets the specified data source column index from which this variable will be   |
 | [`Name`](../Table/ColumnarDataImportDefinition.md#ColumnarDataImportDefinition.Name)     | Gets or sets an identifier for the data source column.                                 |
 | [`Unit`](../Table/ColumnarDataImportDefinition.md#ColumnarDataImportDefinition.Unit)     | Gets or sets the unit of the column.                                                   |
 | [`VariableType`](../DataModel/MechanicalEnums/Table/VariableType.md#VariableType)        | Gets or sets the variable type of the column.                                          |

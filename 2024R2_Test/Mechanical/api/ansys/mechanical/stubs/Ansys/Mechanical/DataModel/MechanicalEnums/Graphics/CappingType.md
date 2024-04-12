@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Iso`](#CappingType.Iso)       |    |
+| Name | Summary |
 |---------------------------------|----|
+| [`Iso`](#CappingType.Iso)       |    |
 | [`Top`](#CappingType.Top)       |    |
 | [`Bottom`](#CappingType.Bottom) |    |
 

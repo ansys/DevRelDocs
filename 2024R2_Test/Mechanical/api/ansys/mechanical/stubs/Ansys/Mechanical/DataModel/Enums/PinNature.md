@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`InputQuantities`](#PinNature.InputQuantities)   |    |
+| Name | Summary |
 |---------------------------------------------------|----|
+| [`InputQuantities`](#PinNature.InputQuantities)   |    |
 | [`OutputQuantities`](#PinNature.OutputQuantities) |    |
 
 <a id="import-detail"></a>

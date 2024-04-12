@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`CoordinateSystemType`](../../Mechanical/DataModel/Enums/CoordinateSystemType.md#CoordinateSystemType)   | Gets or sets the coordinate system type.                     |
+| Name | Summary |
 |-----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| [`CoordinateSystemType`](../../Mechanical/DataModel/Enums/CoordinateSystemType.md#CoordinateSystemType)   | Gets or sets the coordinate system type.                     |
 | [`Name`](#CoordinateSystem.Name)                                                                          | Gets or sets the name of the coordinate system.              |
 | [`Id`](#CoordinateSystem.Id)                                                                              | Gets or sets the ID of the coordinate system.                |
 | [`Origin`](#CoordinateSystem.Origin)                                                                      | Gets or sets the origin of the coordinate system.            |

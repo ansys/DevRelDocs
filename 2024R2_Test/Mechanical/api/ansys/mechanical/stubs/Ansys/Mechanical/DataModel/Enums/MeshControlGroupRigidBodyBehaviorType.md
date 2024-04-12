@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`FullMesh`](#MeshControlGroupRigidBodyBehaviorType.FullMesh)                         |    |
+| Name | Summary |
 |---------------------------------------------------------------------------------------|----|
+| [`FullMesh`](#MeshControlGroupRigidBodyBehaviorType.FullMesh)                         |    |
 | [`DimensionallyReduced`](#MeshControlGroupRigidBodyBehaviorType.DimensionallyReduced) |    |
 
 <a id="import-detail"></a>

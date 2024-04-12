@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`XYPlane`](#ShearOrientationType.XYPlane)   |    |
+| Name | Summary |
 |----------------------------------------------|----|
+| [`XYPlane`](#ShearOrientationType.XYPlane)   |    |
 | [`XZPlane`](#ShearOrientationType.XZPlane)   |    |
 | [`YZPlane`](#ShearOrientationType.YZPlane)   |    |
 

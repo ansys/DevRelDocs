@@ -10,8 +10,9 @@
 
 ### Classes
 
-| [`StrainResult`](StrainResult.md#StrainResult)                                                                   | Defines a StrainResult.                       |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
+| [`StrainResult`](StrainResult.md#StrainResult)                                                                   | Defines a StrainResult.                       |
 | [`AccumulatedEquivalentPlasticStrain`](AccumulatedEquivalentPlasticStrain.md#AccumulatedEquivalentPlasticStrain) | Defines a AccumulatedEquivalentPlasticStrain. |
 | [`DirectionalThermalStrain`](DirectionalThermalStrain.md#DirectionalThermalStrain)                               | Defines a DirectionalThermalStrain.           |
 | [`ElasticStrainIntensity`](ElasticStrainIntensity.md#ElasticStrainIntensity)                                     | Defines a ElasticStrainIntensity.             |
@@ -56,8 +57,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#id1861)      | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#id1861)      | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#id1862)      | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#id1863)      | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#id1864)        | Run the ExportToTextFile action.                                                  |
@@ -87,8 +89,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Mode`](#id1793)                                                                                                         | Gets or sets the Mode.                                                 |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`Mode`](#id1793)                                                                                                         | Gets or sets the Mode.                                                 |
 | [`Ply`](#id1794)                                                                                                          | Gets or sets the Ply selection.                                        |
 | [`Plies`](#id1795)                                                                                                        | Plies property.                                                        |
 | [`EnvironmentSelection`](#id1796)                                                                                         | Gets or sets the EnvironmentSelection.                                 |
@@ -959,8 +962,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#id1861)      | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#id1861)      | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#id1862)      | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#id1863)      | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#id1864)        | Run the ExportToTextFile action.                                                  |
@@ -990,8 +994,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id1857)                                                                                               | Gets the internal object. For advanced usage only.                     |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InternalObject`](#id1857)                                                                                               | Gets the internal object. For advanced usage only.                     |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
 | [`Mode`](#id1793)                                                                                                         | Gets or sets the Mode.                                                 |
 | [`Ply`](#id1794)                                                                                                          | Gets or sets the Ply selection.                                        |
@@ -1862,8 +1867,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#id1861)      | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#id1861)      | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#id1862)      | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#id1863)      | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#id1864)        | Run the ExportToTextFile action.                                                  |
@@ -1893,8 +1899,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id1857)                                                                                               | Gets the internal object. For advanced usage only.                     |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InternalObject`](#id1857)                                                                                               | Gets the internal object. For advanced usage only.                     |
 | [`NormalOrientation`](#id1590)                                                                                            | Gets or sets the NormalOrientation.                                    |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
 | [`Mode`](#id1793)                                                                                                         | Gets or sets the Mode.                                                 |
@@ -2774,8 +2781,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#id1861)      | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#id1861)      | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#id1862)      | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#id1863)      | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#id1864)        | Run the ExportToTextFile action.                                                  |
@@ -2805,8 +2813,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id1857)                                                                                               | Gets the internal object. For advanced usage only.                     |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InternalObject`](#id1857)                                                                                               | Gets the internal object. For advanced usage only.                     |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
 | [`Mode`](#id1793)                                                                                                         | Gets or sets the Mode.                                                 |
 | [`Ply`](#id1794)                                                                                                          | Gets or sets the Ply selection.                                        |
@@ -3677,8 +3686,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#id1861)      | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#id1861)      | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#id1862)      | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#id1863)      | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#id1864)        | Run the ExportToTextFile action.                                                  |
@@ -3708,8 +3718,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id1857)                                                                                               | Gets the internal object. For advanced usage only.                     |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InternalObject`](#id1857)                                                                                               | Gets the internal object. For advanced usage only.                     |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
 | [`Mode`](#id1793)                                                                                                         | Gets or sets the Mode.                                                 |
 | [`Ply`](#id1794)                                                                                                          | Gets or sets the Ply selection.                                        |
@@ -4580,8 +4591,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#id1861)      | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#id1861)      | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#id1862)      | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#id1863)      | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#id1864)        | Run the ExportToTextFile action.                                                  |
@@ -4611,8 +4623,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id1857)                                                                                               | Gets the internal object. For advanced usage only.                     |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InternalObject`](#id1857)                                                                                               | Gets the internal object. For advanced usage only.                     |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
 | [`Mode`](#id1793)                                                                                                         | Gets or sets the Mode.                                                 |
 | [`Ply`](#id1794)                                                                                                          | Gets or sets the Ply selection.                                        |
@@ -5483,8 +5496,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#id1861)      | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#id1861)      | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#id1862)      | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#id1863)      | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#id1864)        | Run the ExportToTextFile action.                                                  |
@@ -5514,8 +5528,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id1857)                                                                                               | Gets the internal object. For advanced usage only.                     |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InternalObject`](#id1857)                                                                                               | Gets the internal object. For advanced usage only.                     |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
 | [`Mode`](#id1793)                                                                                                         | Gets or sets the Mode.                                                 |
 | [`Ply`](#id1794)                                                                                                          | Gets or sets the Ply selection.                                        |
@@ -6386,8 +6401,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#id1861)      | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#id1861)      | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#id1862)      | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#id1863)      | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#id1864)        | Run the ExportToTextFile action.                                                  |
@@ -6417,8 +6433,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id1857)                                                                                               | Gets the internal object. For advanced usage only.                     |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InternalObject`](#id1857)                                                                                               | Gets the internal object. For advanced usage only.                     |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
 | [`Mode`](#id1793)                                                                                                         | Gets or sets the Mode.                                                 |
 | [`Ply`](#id1794)                                                                                                          | Gets or sets the Ply selection.                                        |
@@ -7289,8 +7306,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#id1861)      | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#id1861)      | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#id1862)      | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#id1863)      | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#id1864)        | Run the ExportToTextFile action.                                                  |
@@ -7320,8 +7338,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id1857)                                                                                               | Gets the internal object. For advanced usage only.                     |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InternalObject`](#id1857)                                                                                               | Gets the internal object. For advanced usage only.                     |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
 | [`Mode`](#id1793)                                                                                                         | Gets or sets the Mode.                                                 |
 | [`Ply`](#id1794)                                                                                                          | Gets or sets the Ply selection.                                        |
@@ -8192,8 +8211,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#id1861)      | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#id1861)      | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#id1862)      | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#id1863)      | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#id1864)        | Run the ExportToTextFile action.                                                  |
@@ -8223,8 +8243,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id1857)                                                                                               | Gets the internal object. For advanced usage only.                     |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InternalObject`](#id1857)                                                                                               | Gets the internal object. For advanced usage only.                     |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
 | [`Mode`](#id1793)                                                                                                         | Gets or sets the Mode.                                                 |
 | [`Ply`](#id1794)                                                                                                          | Gets or sets the Ply selection.                                        |
@@ -9095,8 +9116,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#id1861)      | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#id1861)      | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#id1862)      | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#id1863)      | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#id1864)        | Run the ExportToTextFile action.                                                  |
@@ -9126,8 +9148,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id1857)                                                                                               | Gets the internal object. For advanced usage only.                     |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InternalObject`](#id1857)                                                                                               | Gets the internal object. For advanced usage only.                     |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
 | [`Mode`](#id1793)                                                                                                         | Gets or sets the Mode.                                                 |
 | [`Ply`](#id1794)                                                                                                          | Gets or sets the Ply selection.                                        |
@@ -9998,8 +10021,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#id1861)      | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#id1861)      | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#id1862)      | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#id1863)      | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#id1864)        | Run the ExportToTextFile action.                                                  |
@@ -10029,8 +10053,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id1857)                                                                                               | Gets the internal object. For advanced usage only.                     |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InternalObject`](#id1857)                                                                                               | Gets the internal object. For advanced usage only.                     |
 | [`Layer`](#StrainResults.Layer)                                                                                           | Gets or sets the Layer.                                                |
 | [`NormalOrientation`](#id1590)                                                                                            | Gets or sets the NormalOrientation.                                    |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
@@ -10919,8 +10944,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#id1861)      | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#id1861)      | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#id1862)      | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#id1863)      | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#id1864)        | Run the ExportToTextFile action.                                                  |
@@ -10950,8 +10976,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id1857)                                                                                               | Gets the internal object. For advanced usage only.                     |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InternalObject`](#id1857)                                                                                               | Gets the internal object. For advanced usage only.                     |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
 | [`Mode`](#id1793)                                                                                                         | Gets or sets the Mode.                                                 |
 | [`Ply`](#id1794)                                                                                                          | Gets or sets the Ply selection.                                        |
@@ -11822,8 +11849,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#id1861)      | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#id1861)      | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#id1862)      | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#id1863)      | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#id1864)        | Run the ExportToTextFile action.                                                  |
@@ -11853,8 +11881,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id1857)                                                                                               | Gets the internal object. For advanced usage only.                     |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InternalObject`](#id1857)                                                                                               | Gets the internal object. For advanced usage only.                     |
 | [`ShearOrientation`](#id1692)                                                                                             | Gets or sets the ShearOrientation.                                     |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
 | [`Mode`](#id1793)                                                                                                         | Gets or sets the Mode.                                                 |
@@ -12734,8 +12763,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#id1861)      | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#id1861)      | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#id1862)      | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#id1863)      | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#id1864)        | Run the ExportToTextFile action.                                                  |
@@ -12765,8 +12795,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id1857)                                                                                               | Gets the internal object. For advanced usage only.                     |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InternalObject`](#id1857)                                                                                               | Gets the internal object. For advanced usage only.                     |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
 | [`Mode`](#id1793)                                                                                                         | Gets or sets the Mode.                                                 |
 | [`Ply`](#id1794)                                                                                                          | Gets or sets the Ply selection.                                        |
@@ -13637,8 +13668,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#id1861)      | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#id1861)      | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#id1862)      | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#id1863)      | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#id1864)        | Run the ExportToTextFile action.                                                  |
@@ -13668,8 +13700,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id1857)                                                                                               | Gets the internal object. For advanced usage only.                     |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InternalObject`](#id1857)                                                                                               | Gets the internal object. For advanced usage only.                     |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
 | [`Mode`](#id1793)                                                                                                         | Gets or sets the Mode.                                                 |
 | [`Ply`](#id1794)                                                                                                          | Gets or sets the Ply selection.                                        |
@@ -14540,8 +14573,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#id1861)      | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#id1861)      | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#id1862)      | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#id1863)      | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#id1864)        | Run the ExportToTextFile action.                                                  |
@@ -14571,8 +14605,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id1857)                                                                                               | Gets the internal object. For advanced usage only.                     |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InternalObject`](#id1857)                                                                                               | Gets the internal object. For advanced usage only.                     |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
 | [`Mode`](#id1793)                                                                                                         | Gets or sets the Mode.                                                 |
 | [`Ply`](#id1794)                                                                                                          | Gets or sets the Ply selection.                                        |
@@ -15443,8 +15478,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#id1861)      | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#id1861)      | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#id1862)      | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#id1863)      | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#id1864)        | Run the ExportToTextFile action.                                                  |
@@ -15474,8 +15510,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id1857)                                                                                               | Gets the internal object. For advanced usage only.                     |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InternalObject`](#id1857)                                                                                               | Gets the internal object. For advanced usage only.                     |
 | [`ScaleFactorValue`](#id1690)                                                                                             | Gets or sets the ScaleFactorValue.                                     |
 | [`NormalOrientation`](#id1590)                                                                                            | Gets or sets the NormalOrientation.                                    |
 | [`ScaleFactor`](#id1691)                                                                                                  | Gets or sets the ScaleFactor.                                          |
@@ -16373,8 +16410,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#id1861)      | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#id1861)      | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#id1862)      | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#id1863)      | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#id1864)        | Run the ExportToTextFile action.                                                  |
@@ -16404,8 +16442,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id1857)                                                                                               | Gets the internal object. For advanced usage only.                     |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InternalObject`](#id1857)                                                                                               | Gets the internal object. For advanced usage only.                     |
 | [`ScaleFactorValue`](#id1690)                                                                                             | Gets or sets the ScaleFactorValue.                                     |
 | [`ScaleFactor`](#id1691)                                                                                                  | Gets or sets the ScaleFactor.                                          |
 | [`ShearOrientation`](#id1692)                                                                                             | Gets or sets the ShearOrientation.                                     |
@@ -17303,8 +17342,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#id1861)      | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |--------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#id1861)      | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#id1862)      | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#id1863)      | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#id1864)        | Run the ExportToTextFile action.                                                  |
@@ -17334,8 +17374,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id1857)                                                                                               | Gets the internal object. For advanced usage only.                     |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InternalObject`](#id1857)                                                                                               | Gets the internal object. For advanced usage only.                     |
 | [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
 | [`Mode`](#id1793)                                                                                                         | Gets or sets the Mode.                                                 |
 | [`Ply`](#id1794)                                                                                                          | Gets or sets the Ply selection.                                        |

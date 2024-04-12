@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`NodeId`](#MAPDLRemotePointData.NodeId)   | Gets the Pilot Node Id number for the remote point.   |
+| Name | Summary |
 |--------------------------------------------|-------------------------------------------------------|
+| [`NodeId`](#MAPDLRemotePointData.NodeId)   | Gets the Pilot Node Id number for the remote point.   |
 
 <a id="import-detail"></a>
 

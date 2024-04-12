@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`RenameBasedOnDefinition`](#MemberSizeManufacturingConstraint.RenameBasedOnDefinition)   | Run the RenameBasedOnDefinition action.                                           |
+| Name | Summary |
 |-------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`RenameBasedOnDefinition`](#MemberSizeManufacturingConstraint.RenameBasedOnDefinition)   | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#MemberSizeManufacturingConstraint.Delete)                                     | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                                     | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                                     | Gets the list of children, filtered by type.                                      |
@@ -36,8 +37,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`GapSize`](#MemberSizeManufacturingConstraint.GapSize)                                                             | Gets or sets the GapSize.                                     |
 | [`MaxSize`](#MemberSizeManufacturingConstraint.MaxSize)                                                             | Gets or sets the MaxSize.                                     |
 | [`MinSize`](#MemberSizeManufacturingConstraint.MinSize)                                                             | Gets or sets the MinSize.                                     |

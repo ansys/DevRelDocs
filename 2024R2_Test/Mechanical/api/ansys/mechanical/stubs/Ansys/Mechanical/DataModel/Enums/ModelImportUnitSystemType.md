@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`UnitSystemConsistentBFT`](#ModelImportUnitSystemType.UnitSystemConsistentBFT)             |    |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------|----|
+| [`UnitSystemConsistentBFT`](#ModelImportUnitSystemType.UnitSystemConsistentBFT)             |    |
 | [`UnitSystemConsistentBIN`](#ModelImportUnitSystemType.UnitSystemConsistentBIN)             |    |
 | [`UnitSystemConsistentCGS`](#ModelImportUnitSystemType.UnitSystemConsistentCGS)             |    |
 | [`UnitSystemConsistentNMM`](#ModelImportUnitSystemType.UnitSystemConsistentNMM)             |    |

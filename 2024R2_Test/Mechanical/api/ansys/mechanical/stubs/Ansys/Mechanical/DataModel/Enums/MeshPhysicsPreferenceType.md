@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Mechanical`](#MeshPhysicsPreferenceType.Mechanical)                   |    |
+| Name | Summary |
 |-------------------------------------------------------------------------|----|
+| [`Mechanical`](#MeshPhysicsPreferenceType.Mechanical)                   |    |
 | [`Electromagnetics`](#MeshPhysicsPreferenceType.Electromagnetics)       |    |
 | [`CFD`](#MeshPhysicsPreferenceType.CFD)                                 |    |
 | [`Explicit`](#MeshPhysicsPreferenceType.Explicit)                       |    |

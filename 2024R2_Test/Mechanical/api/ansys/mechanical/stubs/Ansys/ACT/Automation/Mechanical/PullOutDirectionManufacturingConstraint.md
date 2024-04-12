@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`RenameBasedOnDefinition`](#PullOutDirectionManufacturingConstraint.RenameBasedOnDefinition)   | Run the RenameBasedOnDefinition action.                                           |
+| Name | Summary |
 |-------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`RenameBasedOnDefinition`](#PullOutDirectionManufacturingConstraint.RenameBasedOnDefinition)   | Run the RenameBasedOnDefinition action.                                           |
 | [`Delete`](#PullOutDirectionManufacturingConstraint.Delete)                                     | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                                                           | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                                                           | Gets the list of children, filtered by type.                                      |
@@ -36,8 +37,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`Axis`](#PullOutDirectionManufacturingConstraint.Axis)                                                             | Gets or sets the Axis.                                        |
 | [`ScopingMethod`](#PullOutDirectionManufacturingConstraint.ScopingMethod)                                           | Gets or sets the ScopingMethod.                               |
 | [`Subtype`](#PullOutDirectionManufacturingConstraint.Subtype)                                                       | Gets or sets the Subtype.                                     |

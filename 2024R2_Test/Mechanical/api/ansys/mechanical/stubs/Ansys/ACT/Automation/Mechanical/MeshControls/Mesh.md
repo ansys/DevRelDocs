@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`AddContactSizing`](#Mesh.AddContactSizing)                                                                         | Creates a new ContactSizing                                                       |
+| Name | Summary |
 |----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`AddContactSizing`](#Mesh.AddContactSizing)                                                                         | Creates a new ContactSizing                                                       |
 | [`AddFaceMeshing`](#Mesh.AddFaceMeshing)                                                                             | Creates a new FaceMeshing                                                         |
 | [`AddInflation`](#Mesh.AddInflation)                                                                                 | Creates a new Inflation                                                           |
 | [`AddMatchControl`](#Mesh.AddMatchControl)                                                                           | Creates a new MatchControl                                                        |
@@ -147,8 +148,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Worksheet`](../Worksheet.md#Worksheet)                                                                               | Get the MeshControlWorksheet action.                             |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
+| [`Worksheet`](../Worksheet.md#Worksheet)                                                                               | Get the MeshControlWorksheet action.                             |
 | [`ElementSize`](#Mesh.ElementSize)                                                                                     | Gets or sets the ElementSize.                                    |
 | [`RigidBodyFaceMeshType`](#Mesh.RigidBodyFaceMeshType)                                                                 | Gets or sets the RigidBodyFaceMeshType.                          |
 | [`RigidBodyBehavior`](#Mesh.RigidBodyBehavior)                                                                         | Gets or sets the BoundaryCondition.                              |

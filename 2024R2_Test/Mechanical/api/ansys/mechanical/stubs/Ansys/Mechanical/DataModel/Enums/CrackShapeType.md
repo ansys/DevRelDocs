@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Arbitrary`](#CrackShapeType.Arbitrary)           |    |
+| Name | Summary |
 |----------------------------------------------------|----|
+| [`Arbitrary`](#CrackShapeType.Arbitrary)           |    |
 | [`Corner`](#CrackShapeType.Corner)                 |    |
 | [`Cylindrical`](#CrackShapeType.Cylindrical)       |    |
 | [`Edge`](#CrackShapeType.Edge)                     |    |

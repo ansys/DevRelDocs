@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`EarthGravity`](../../../ACT/Automation/Mechanical/BoundaryConditions/EarthGravity.md#EarthGravity)                                                                                                               |    |
+| Name | Summary |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----|
+| [`EarthGravity`](../../../ACT/Automation/Mechanical/BoundaryConditions/EarthGravity.md#EarthGravity)                                                                                                               |    |
 | [`Acceleration`](../../../ACT/Automation/Mechanical/BoundaryConditions/Acceleration.md#Acceleration)                                                                                                               |    |
 | [`Image`](../../../ACT/Automation/Mechanical/Image.md#Image)                                                                                                                                                       |    |
 | [`Alert`](../../../ACT/Automation/Mechanical/Results/Alert.md#Alert)                                                                                                                                               |    |

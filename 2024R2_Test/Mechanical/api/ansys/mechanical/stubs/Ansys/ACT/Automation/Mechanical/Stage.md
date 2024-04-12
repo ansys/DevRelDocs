@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`GetHarmonicIndexNumberForEnvironment`](#Stage.GetHarmonicIndexNumberForEnvironment)   | Gets the worksheet number of harmonic indexes for a given environment.            |
+| Name | Summary |
 |-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`GetHarmonicIndexNumberForEnvironment`](#Stage.GetHarmonicIndexNumberForEnvironment)   | Gets the worksheet number of harmonic indexes for a given environment.            |
 | [`SetHarmonicIndexNumberForEnvironment`](#Stage.SetHarmonicIndexNumberForEnvironment)   | Sets the worksheet number of harmonic indexes for a given environment.            |
 | [`GetHarmonicIndexForEnvironmentByIndex`](#Stage.GetHarmonicIndexForEnvironmentByIndex) | Gets the worksheet harmonic index for a given environment at index.               |
 | [`SetHarmonicIndexForEnvironmentByIndex`](#Stage.SetHarmonicIndexForEnvironmentByIndex) | Sets the worksheet harmonic index for a given environment at index.               |
@@ -42,8 +43,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`StageName`](#Stage.StageName)                                                                                     | Gets the StageName.                                           |
 | [`Behavior`](#Stage.Behavior)                                                                                       | Gets the Behavior.                                            |
 | [`Suppressed`](#Stage.Suppressed)                                                                                   | Gets or sets the Suppressed.                                  |

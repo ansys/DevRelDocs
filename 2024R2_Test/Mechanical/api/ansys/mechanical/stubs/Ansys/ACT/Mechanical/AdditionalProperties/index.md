@@ -10,16 +10,18 @@
 
 ### Classes
 
-| [`ApplyCancelProperty`](ApplyCancelProperty.md#ApplyCancelProperty)   | Provides a way to create properties with Apply/Cancel buttons.             |
+| Name | Summary |
 |-----------------------------------------------------------------------|----------------------------------------------------------------------------|
+| [`ApplyCancelProperty`](ApplyCancelProperty.md#ApplyCancelProperty)   | Provides a way to create properties with Apply/Cancel buttons.             |
 | [`DoubleProperty`](DoubleProperty.md#DoubleProperty)                  | Provides a way to create properties that can hold double type values.      |
 | [`ExpressionProperty`](ExpressionProperty.md#ExpressionProperty)      | Provides a way to create properties that can hold expressions.             |
 | [`OptionsProperty`](OptionsProperty.md#OptionsProperty)               | Provides a way to create properties that show up as a drop down in the UI. |
 
 ### Enums
 
-| [`Control`](Control.md#Control)   | The control type for an additional property.   |
+| Name | Summary |
 |-----------------------------------|------------------------------------------------|
+| [`Control`](Control.md#Control)   | The control type for an additional property.   |
 
 <a id="description"></a>
 
@@ -45,8 +47,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Name`](#id20)        | The name of the property.                                                                            |
+| Name | Summary |
 |------------------------|------------------------------------------------------------------------------------------------------|
+| [`Name`](#id20)        | The name of the property.                                                                            |
 | [`DisplayName`](#id21) | The name of the property shown in the UI. If not set, the Name property is used.                     |
 | [`GroupName`](#id22)   | The group name of the property shown in the UI, and used to separate properties based on group name. |
 | [`Tooltip`](#id23)     | The tooltip of the property in the UI.                                                               |
@@ -134,8 +137,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`ValidRange`](#AdditionalProperties.ValidRange)   | Tuple that can be used to control the upper and lower bounds of a double property.                   |
+| Name | Summary |
 |----------------------------------------------------|------------------------------------------------------------------------------------------------------|
+| [`ValidRange`](#AdditionalProperties.ValidRange)   | Tuple that can be used to control the upper and lower bounds of a double property.                   |
 | [`Name`](#id20)                                    | The name of the property.                                                                            |
 | [`DisplayName`](#id21)                             | The name of the property shown in the UI. If not set, the Name property is used.                     |
 | [`GroupName`](#id22)                               | The group name of the property shown in the UI, and used to separate properties based on group name. |
@@ -232,8 +236,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Name`](#id20)        | The name of the property.                                                                            |
+| Name | Summary |
 |------------------------|------------------------------------------------------------------------------------------------------|
+| [`Name`](#id20)        | The name of the property.                                                                            |
 | [`DisplayName`](#id21) | The name of the property shown in the UI. If not set, the Name property is used.                     |
 | [`GroupName`](#id22)   | The group name of the property shown in the UI, and used to separate properties based on group name. |
 | [`Tooltip`](#id23)     | The tooltip of the property in the UI.                                                               |
@@ -321,8 +326,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Options`](#id28)     | Options shown in the drop-down, represented by a dictionary of int -> string.                        |
+| Name | Summary |
 |------------------------|------------------------------------------------------------------------------------------------------|
+| [`Options`](#id28)     | Options shown in the drop-down, represented by a dictionary of int -> string.                        |
 | [`Name`](#id20)        | The name of the property.                                                                            |
 | [`DisplayName`](#id21) | The name of the property shown in the UI. If not set, the Name property is used.                     |
 | [`GroupName`](#id22)   | The group name of the property shown in the UI, and used to separate properties based on group name. |
@@ -421,8 +427,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Expression`](#AdditionalProperties.Expression)   |    |
+| Name | Summary |
 |----------------------------------------------------|----|
+| [`Expression`](#AdditionalProperties.Expression)   |    |
 | [`Double`](#AdditionalProperties.Double)           |    |
 | [`ApplyCancel`](#AdditionalProperties.ApplyCancel) |    |
 | [`Options`](#id28)                                 |    |

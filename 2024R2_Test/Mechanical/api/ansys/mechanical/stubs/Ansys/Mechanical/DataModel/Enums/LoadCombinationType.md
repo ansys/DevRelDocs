@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Linear`](#LoadCombinationType.Linear)   |    |
+| Name | Summary |
 |-------------------------------------------|----|
+| [`Linear`](#LoadCombinationType.Linear)   |    |
 | [`SRSS`](#LoadCombinationType.SRSS)       |    |
 
 <a id="import-detail"></a>

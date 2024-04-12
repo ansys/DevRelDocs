@@ -18,21 +18,24 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Constructors
 
-| [`ConvertUnit`](#Point.ConvertUnit)     | Returns a new Point given new unit.   |
+| Name | Summary |
 |-----------------------------------------|---------------------------------------|
+| [`ConvertUnit`](#Point.ConvertUnit)     | Returns a new Point given new unit.   |
 | [`op_Equality`](#Point.op_Equality)     | Equal operator                        |
 | [`op_Inequality`](#Point.op_Inequality) | Not-Equal operator                    |
 
 ### Methods
 
-| [`Equals`](#Point.Equals)           | Object.Equals(object o) override   |
+| Name | Summary |
 |-------------------------------------|------------------------------------|
+| [`Equals`](#Point.Equals)           | Object.Equals(object o) override   |
 | [`GetHashCode`](#Point.GetHashCode) | Object.GetHashCode() override      |
 
 ### Properties
 
-| [`Location`](#Point.Location)   | The location of the Point.    |
+| Name | Summary |
 |---------------------------------|-------------------------------|
+| [`Location`](#Point.Location)   | The location of the Point.    |
 | [`Unit`](#Point.Unit)           | The length unit of the Point. |
 
 <a id="import-detail"></a>

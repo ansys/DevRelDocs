@@ -10,8 +10,9 @@
 
 ### Classes
 
-| [`GeometryRayCastHit`](GeometryRayCastHit.md#GeometryRayCastHit)                | GeometryRayCastHit, contains geoEntity and vector normal   |
+| Name | Summary |
 |---------------------------------------------------------------------------------|------------------------------------------------------------|
+| [`GeometryRayCastHit`](GeometryRayCastHit.md#GeometryRayCastHit)                | GeometryRayCastHit, contains geoEntity and vector normal   |
 | [`GeometryRayCastSettings`](GeometryRayCastSettings.md#GeometryRayCastSettings) | GeometryRayCastSettings class.                             |
 | [`SelectionHelper`](SelectionHelper.md#SelectionHelper)                         | SelectionHelper class.                                     |
 
@@ -39,8 +40,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`HitVector`](#Selection.HitVector)   | BoundVector with location and normal direction on geometry entity to ray cast   |
+| Name | Summary |
 |---------------------------------------|---------------------------------------------------------------------------------|
+| [`HitVector`](#Selection.HitVector)   | BoundVector with location and normal direction on geometry entity to ray cast   |
 | [`Entity`](#Selection.Entity)         | Geometry entity hit by ray cast                                                 |
 
 <a id="import-detail"></a>
@@ -83,8 +85,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`HitFaces`](#Selection.HitFaces)       | Specifies whether ray casting should hit faces.                     |
+| Name | Summary |
 |-----------------------------------------|---------------------------------------------------------------------|
+| [`HitFaces`](#Selection.HitFaces)       | Specifies whether ray casting should hit faces.                     |
 | [`HitEdges`](#Selection.HitEdges)       | Specifies whether ray casting should hit edges.                     |
 | [`HitVertices`](#Selection.HitVertices) | Specifies whether ray casting should hit vertices.                  |
 | [`HitBodies`](#Selection.HitBodies)     | Specifies whether ray casting should hit bodies.                    |
@@ -178,8 +181,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Constructors
 
-| [`CreateVector3D`](#Selection.CreateVector3D)       | Creates a Vector3D object based on the given selection and reverse flag.                               |
+| Name | Summary |
 |-----------------------------------------------------|--------------------------------------------------------------------------------------------------------|
+| [`CreateVector3D`](#Selection.CreateVector3D)       | Creates a Vector3D object based on the given selection and reverse flag.                               |
 | [`CastRayOnGeometry`](#Selection.CastRayOnGeometry) | Finds geometry entities intersecting input BoundVector and returns them in list of GeometryRayCastHit. |
 
 <a id="id3"></a>

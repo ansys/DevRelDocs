@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`AllTimePoints`](#TimePointsOptions.AllTimePoints)                     |    |
+| Name | Summary |
 |-------------------------------------------------------------------------|----|
+| [`AllTimePoints`](#TimePointsOptions.AllTimePoints)                     |    |
 | [`EquallySpacedPoints`](#TimePointsOptions.EquallySpacedPoints)         |    |
 | [`LastTimePoints`](#TimePointsOptions.LastTimePoints)                   |    |
 | [`SpecifiedRecurrenceRate`](#TimePointsOptions.SpecifiedRecurrenceRate) |    |

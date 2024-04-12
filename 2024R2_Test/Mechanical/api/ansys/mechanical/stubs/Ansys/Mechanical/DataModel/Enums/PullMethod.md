@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Extrude`](#PullMethod.Extrude)                                                        |    |
+| Name | Summary |
 |-----------------------------------------------------------------------------------------|----|
+| [`Extrude`](#PullMethod.Extrude)                                                        |    |
 | [`LineCoating`](#PullMethod.LineCoating)                                                |    |
 | [`Revolve`](#PullMethod.Revolve)                                                        |    |
 | [`SurfaceCoating`](../../../ACT/Automation/Mechanical/SurfaceCoating.md#SurfaceCoating) |    |

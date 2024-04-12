@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#Chart.Delete)                                   | Run the Delete action.                                                            |
+| Name | Summary |
 |-------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#Chart.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                       | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                       | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#Chart.AddComment)                           | Creates a new child Comment.                                                      |
@@ -37,8 +38,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`OutlineSelection`](#Chart.OutlineSelection)                                                                       | Gets or sets the OutlineSelection.                            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`OutlineSelection`](#Chart.OutlineSelection)                                                                       | Gets or sets the OutlineSelection.                            |
 | [`XAxis`](#Chart.XAxis)                                                                                             | Use to control the X Axis property of the chart.              |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`Caption`](#Chart.Caption)                                                                                         | Gets or sets the Caption.                                     |

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`ClearGeneratedData`](#AcousticTransmissionLoss.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
+| Name | Summary |
 |--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ClearGeneratedData`](#AcousticTransmissionLoss.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`EvaluateAllResults`](#AcousticTransmissionLoss.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
 | [`FetchRemoteResults`](#AcousticTransmissionLoss.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
 | [`ExportToTextFile`](#AcousticTransmissionLoss.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
@@ -49,8 +50,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InputPort`](#AcousticTransmissionLoss.InputPort)                                                                        | Gets or sets the InputPort.                                            |
+| Name | Summary |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`InputPort`](#AcousticTransmissionLoss.InputPort)                                                                        | Gets or sets the InputPort.                                            |
 | [`OutputPort`](#AcousticTransmissionLoss.OutputPort)                                                                      | Gets or sets the OutputPort.                                           |
 | [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.                     |
 | [`MaximumFrequency`](#AcousticTransmissionLoss.MaximumFrequency)                                                          | Gets or sets the MaximumFrequency.                                     |

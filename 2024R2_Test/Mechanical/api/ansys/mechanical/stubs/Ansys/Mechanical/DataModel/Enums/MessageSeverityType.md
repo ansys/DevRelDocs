@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Warning`](#MessageSeverityType.Warning)   |    |
+| Name | Summary |
 |---------------------------------------------|----|
+| [`Warning`](#MessageSeverityType.Warning)   |    |
 | [`Error`](#MessageSeverityType.Error)       |    |
 | [`Info`](#MessageSeverityType.Info)         |    |
 

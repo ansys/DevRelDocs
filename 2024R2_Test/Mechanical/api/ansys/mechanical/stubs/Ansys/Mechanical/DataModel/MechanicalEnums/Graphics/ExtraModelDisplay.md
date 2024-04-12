@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`NoWireframe`](#ExtraModelDisplay.NoWireframe)                 |    |
+| Name | Summary |
 |-----------------------------------------------------------------|----|
+| [`NoWireframe`](#ExtraModelDisplay.NoWireframe)                 |    |
 | [`UndeformedWireframe`](#ExtraModelDisplay.UndeformedWireframe) |    |
 | [`UndeformedModel`](#ExtraModelDisplay.UndeformedModel)         |    |
 | [`ShowElements`](#ExtraModelDisplay.ShowElements)               |    |

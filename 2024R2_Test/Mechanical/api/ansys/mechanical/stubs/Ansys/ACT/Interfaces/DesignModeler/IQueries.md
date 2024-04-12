@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Clash`](#IQueries.Clash)             | Clash method.                                     |
+| Name | Summary |
 |----------------------------------------|---------------------------------------------------|
+| [`Clash`](#IQueries.Clash)             | Clash method.                                     |
 | [`Distance`](#IQueries.Distance)       | Distance method.                                  |
 | [`Coincidence`](#IQueries.Coincidence) | Checks if 2 geometry entities are coincident.     |
 | [`Containment`](#IQueries.Containment) | Checks if one geometry entity contains one other. |

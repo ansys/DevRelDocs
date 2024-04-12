@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`No`](#ComparePartsOnUpdateType.No)                             |    |
+| Name | Summary |
 |------------------------------------------------------------------|----|
+| [`No`](#ComparePartsOnUpdateType.No)                             |    |
 | [`Associatively`](#ComparePartsOnUpdateType.Associatively)       |    |
 | [`NonAssociatively`](#ComparePartsOnUpdateType.NonAssociatively) |    |
 

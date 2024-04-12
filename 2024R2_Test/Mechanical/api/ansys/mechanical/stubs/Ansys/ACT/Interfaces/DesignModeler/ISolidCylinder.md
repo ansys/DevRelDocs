@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Center`](#ISolidCylinder.Center)       | Gets or sets the center of the cylinder (x, y, z).    |
+| Name | Summary |
 |------------------------------------------|-------------------------------------------------------|
+| [`Center`](#ISolidCylinder.Center)       | Gets or sets the center of the cylinder (x, y, z).    |
 | [`Direction`](#ISolidCylinder.Direction) | Gets or sets the direction of the cylinder (x, y, z). |
 | [`Radius`](#ISolidCylinder.Radius)       | Gets or sets the radius of the cylinder.              |
 

@@ -18,13 +18,15 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`RescaleAnnotations`](#ViewOptions.RescaleAnnotations)   | Rescale size of annotation following a zoom in or zoom out of the model.   |
+| Name | Summary |
 |-----------------------------------------------------------|----------------------------------------------------------------------------|
+| [`RescaleAnnotations`](#ViewOptions.RescaleAnnotations)   | Rescale size of annotation following a zoom in or zoom out of the model.   |
 
 ### Properties
 
-| [`VectorDisplay`](VectorDisplay.md#VectorDisplay)                         | VectorDisplay property.                                                                 |
+| Name | Summary |
 |---------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
+| [`VectorDisplay`](VectorDisplay.md#VectorDisplay)                         | VectorDisplay property.                                                                 |
 | [`ResultPreference`](ResultPreference.md#ResultPreference)                | ResultPreference property.                                                              |
 | [`AnnotationPreferences`](AnnotationPreferences.md#AnnotationPreferences) | AnnotationPreferences property.                                                         |
 | [`ShowShellThickness`](#ViewOptions.ShowShellThickness)                   | Displays the thickness of shells.                                                       |

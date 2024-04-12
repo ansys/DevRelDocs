@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`Bodies`](#IDesignModelerGeoData.Bodies)   | Gets all bodies.   |
+| Name | Summary |
 |---------------------------------------------|--------------------|
+| [`Bodies`](#IDesignModelerGeoData.Bodies)   | Gets all bodies.   |
 | [`Parts`](#IDesignModelerGeoData.Parts)     | Gets all parts.    |
 
 <a id="import-detail"></a>

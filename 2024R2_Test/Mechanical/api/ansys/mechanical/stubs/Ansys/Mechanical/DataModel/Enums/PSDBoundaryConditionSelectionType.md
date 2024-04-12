@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`None_`](#PSDBoundaryConditionSelectionType.None_)                                                                   |    |
+| Name | Summary |
 |-----------------------------------------------------------------------------------------------------------------------|----|
+| [`None_`](#PSDBoundaryConditionSelectionType.None_)                                                                   |    |
 | [`AllFixedSupports`](#PSDBoundaryConditionSelectionType.AllFixedSupports)                                             |    |
 | [`AllRemoteDisplacements`](#PSDBoundaryConditionSelectionType.AllRemoteDisplacements)                                 |    |
 | [`AllFixedSupportsAndRemoteDisplacements`](#PSDBoundaryConditionSelectionType.AllFixedSupportsAndRemoteDisplacements) |    |

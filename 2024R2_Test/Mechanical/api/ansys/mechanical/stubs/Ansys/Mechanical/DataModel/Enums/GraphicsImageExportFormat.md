@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`PNG`](#GraphicsImageExportFormat.PNG)   |    |
+| Name | Summary |
 |-------------------------------------------|----|
+| [`PNG`](#GraphicsImageExportFormat.PNG)   |    |
 | [`JPG`](#GraphicsImageExportFormat.JPG)   |    |
 | [`TIF`](#GraphicsImageExportFormat.TIF)   |    |
 | [`BMP`](#GraphicsImageExportFormat.BMP)   |    |

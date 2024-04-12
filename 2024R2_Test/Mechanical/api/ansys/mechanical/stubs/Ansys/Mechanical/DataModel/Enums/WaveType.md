@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`BackEnclosedLoudspeaker`](#WaveType.BackEnclosedLoudspeaker)   |    |
+| Name | Summary |
 |------------------------------------------------------------------|----|
+| [`BackEnclosedLoudspeaker`](#WaveType.BackEnclosedLoudspeaker)   |    |
 | [`BareLoudspeaker`](#WaveType.BareLoudspeaker)                   |    |
 | [`CircularDuct`](#WaveType.CircularDuct)                         |    |
 | [`CylindricalCoaxialDuct`](#WaveType.CylindricalCoaxialDuct)     |    |

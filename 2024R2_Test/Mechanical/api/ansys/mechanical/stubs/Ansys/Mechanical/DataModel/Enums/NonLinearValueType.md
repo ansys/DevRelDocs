@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`CalculatedBySolver`](#NonLinearValueType.CalculatedBySolver)   |    |
+| Name | Summary |
 |------------------------------------------------------------------|----|
+| [`CalculatedBySolver`](#NonLinearValueType.CalculatedBySolver)   |    |
 | [`UserInput`](#NonLinearValueType.UserInput)                     |    |
 
 <a id="import-detail"></a>

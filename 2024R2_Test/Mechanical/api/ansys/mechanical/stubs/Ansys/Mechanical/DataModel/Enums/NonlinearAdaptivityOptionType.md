@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`JacobianRatio`](#NonlinearAdaptivityOptionType.JacobianRatio)                       |    |
+| Name | Summary |
 |---------------------------------------------------------------------------------------|----|
+| [`JacobianRatio`](#NonlinearAdaptivityOptionType.JacobianRatio)                       |    |
 | [`Shape`](#NonlinearAdaptivityOptionType.Shape)                                       |    |
 | [`Skewness`](#NonlinearAdaptivityOptionType.Skewness)                                 |    |
 | [`SkewnessAndJacobianRatio`](#NonlinearAdaptivityOptionType.SkewnessAndJacobianRatio) |    |

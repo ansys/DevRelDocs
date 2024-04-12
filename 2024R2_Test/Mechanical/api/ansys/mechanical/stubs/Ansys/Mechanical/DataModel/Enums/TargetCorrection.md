@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`No`](#TargetCorrection.No)                                                     |    |
+| Name | Summary |
 |----------------------------------------------------------------------------------|----|
+| [`No`](#TargetCorrection.No)                                                     |    |
 | [`Smoothing`](../../../ACT/Automation/Mechanical/Results/Smoothing.md#Smoothing) |    |
 
 <a id="import-detail"></a>

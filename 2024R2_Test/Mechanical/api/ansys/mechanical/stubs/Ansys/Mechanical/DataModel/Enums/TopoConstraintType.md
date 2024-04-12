@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`ManufacturingConstraint`](../../../ACT/Automation/Mechanical/ManufacturingConstraint.md#ManufacturingConstraint)   |    |
+| Name | Summary |
 |----------------------------------------------------------------------------------------------------------------------|----|
+| [`ManufacturingConstraint`](../../../ACT/Automation/Mechanical/ManufacturingConstraint.md#ManufacturingConstraint)   |    |
 | [`ResponseConstrain`](#TopoConstraintType.ResponseConstrain)                                                         |    |
 
 <a id="import-detail"></a>

@@ -18,8 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Methods
 
-| [`Delete`](#EarthGravity.Delete)                                   | Run the Delete action.                                                            |
+| Name | Summary |
 |--------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Delete`](#EarthGravity.Delete)                                   | Run the Delete action.                                                            |
 | [`GetChildren`](#id1)                                              | Gets the list of children, filtered by type.                                      |
 | [`GetChildren`](#id1)                                              | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#EarthGravity.AddComment)                           | Creates a new child Comment.                                                      |
@@ -38,8 +39,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 ### Properties
 
-| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
+| Name | Summary |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`GeometrySelection`](#EarthGravity.GeometrySelection)                                                                 | Gets the GeometrySelection.                                   |
 | [`XComponent`](#EarthGravity.XComponent)                                                                               | Gets the XComponent.                                          |
 | [`YComponent`](#EarthGravity.YComponent)                                                                               | Gets the YComponent.                                          |

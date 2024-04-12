@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`All`](#MeshRestartSaveAtLoadStep.All)     |    |
+| Name | Summary |
 |---------------------------------------------|----|
+| [`All`](#MeshRestartSaveAtLoadStep.All)     |    |
 | [`Last`](#MeshRestartSaveAtLoadStep.Last)   |    |
 | [`None_`](#MeshRestartSaveAtLoadStep.None_) |    |
 

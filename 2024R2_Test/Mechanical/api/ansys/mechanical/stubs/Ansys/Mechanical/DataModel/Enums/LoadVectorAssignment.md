@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`LoadVectorAssignment_Manual`](#LoadVectorAssignment.LoadVectorAssignment_Manual)                       |    |
+| Name | Summary |
 |----------------------------------------------------------------------------------------------------------|----|
+| [`LoadVectorAssignment_Manual`](#LoadVectorAssignment.LoadVectorAssignment_Manual)                       |    |
 | [`LoadVectorAssignment_ProgramControlled`](#LoadVectorAssignment.LoadVectorAssignment_ProgramControlled) |    |
 
 <a id="import-detail"></a>

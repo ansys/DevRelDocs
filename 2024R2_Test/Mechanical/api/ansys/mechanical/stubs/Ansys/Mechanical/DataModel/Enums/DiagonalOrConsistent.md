@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Consistent`](#DiagonalOrConsistent.Consistent)               |    |
+| Name | Summary |
 |----------------------------------------------------------------|----|
+| [`Consistent`](#DiagonalOrConsistent.Consistent)               |    |
 | [`Diagonal`](#DiagonalOrConsistent.Diagonal)                   |    |
 | [`ProgramControlled`](#DiagonalOrConsistent.ProgramControlled) |    |
 

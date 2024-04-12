@@ -18,8 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### Attributes
 
-| [`Off`](#LineSearchType.Off)                             |    |
+| Name | Summary |
 |----------------------------------------------------------|----|
+| [`Off`](#LineSearchType.Off)                             |    |
 | [`On`](#LineSearchType.On)                               |    |
 | [`ProgramControlled`](#LineSearchType.ProgramControlled) |    |
 
