@@ -1,5 +1,0 @@
-Ansys
-OpenTD
-Panczak
-API
-APIs
