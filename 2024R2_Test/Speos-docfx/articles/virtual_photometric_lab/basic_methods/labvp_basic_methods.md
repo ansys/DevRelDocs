@@ -1,0 +1,16 @@
+# Basic methods
+
+- [ImportTemplate](labvp_importtemplate.md)
+- [ExportTemplate](labvp_exporttemplate.md)
+- [MapType](labvp_maptype.md)
+- [OpenFile](labvp_openfile.md)
+- [ReturnUnitType](labvp_returnunittype.md)
+- [ReturnValueType](labvp_returnvaluetype.md)
+- [SaveFile](labvp_savefile.md)
+- [SetColorMode](labvp_setcolormode.md)
+- [SetReturnUnitType](labvp_setreturnunittype.md)
+- [UnitType](labvp_unittype.md)
+- [ValueType](labvp_valuetype.md)
+- [GetIntensityType](labvp_getintensitytype.md)
+- [GetAxisUnitName](labvp_getaxisunitname.md)
+- [GetPID](labvp_getpid.md)
