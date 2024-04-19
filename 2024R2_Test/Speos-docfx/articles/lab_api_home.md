@@ -1,6 +1,6 @@
 # Introduction
 
-## General description
+## General description 
 
 With Automation, you can communicate with any Windows application. Automation can replace the old specific macro way method for writing script.
 
@@ -11,7 +11,31 @@ With automation you can:
 - Write your own HTML reports that automatically analyze the results,
 - Write your own optimization code.
 
-## Technical description
+1. item1
+2. item2
+3. item3
+
+| header1 | header2 |
+| ------- | ------- |
+| value1  | value2  |
+| value3  | value4  |
+
+![image](_assets/labvr_optisvrmerge.png)
+
+[link to page](virtual_reality_lab/labvr_virtual_reality_lab.md)
+
+`inline code`
+
+```C
+#include <stdio.h>
+int main() {
+   // printf() displays the string inside quotation
+   printf("Hello, World!");
+   return 0;
+}
+```
+
+## Technical description 
 
 Automation is based on COM \(Component Object Model\). This is a standard way to describe the interface exposed by a Windows application to other Windows applications.
 
@@ -29,7 +53,7 @@ For basic needs, the VB Script or VBA language is the easiest to understand and 
 
 For more complex needs, you may use C++, which is a more difficult language to learn for non-developers.
 
-## Prerequisites
+## Before starting
 
 As automation is an application that is handled by the Windows registry, be aware that the software version that is used is based on the version that is currently registered (the last version you launched).
 If you have multiple versions of Speos Labs installed, make sure to register the version of the viewer/editor you want to use for automation.
