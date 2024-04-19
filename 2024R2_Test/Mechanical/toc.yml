@@ -10,15 +10,15 @@
   items:
   - name: The `ACT` package
     href: api\ansys\mechanical\stubs\Ansys\ACT\index.md
-      items:
-      - name: The `Automation` package
-      href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\index.md
-      items:
-      - name: Extrusion
-        href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\DesignModeler\Extrusion.md
+       items:
+       - name: The `Automation` package
+        href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\index.md
         items:
-      - name: Feature
-        href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\DesignModeler\Feature.md
+        - name: Extrusion
+          href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\DesignModeler\Extrusion.md
+          items:
+        - name: Feature
+         href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\DesignModeler\Feature.md
         items:
       - name: FeatureManager
           href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\DesignModeler\FeatureManager.md
