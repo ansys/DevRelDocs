@@ -1,0 +1,13 @@
+{
+  "build": {
+    "globalMetadata": {
+      "title": "System Coupling 2024 R1-test",
+      "summary": "",
+      "version": "2024 R1",
+      "product": "System Coupling",
+      "programming language": "C",
+      "product collection": "Cloud",
+      "physics": ""
+    }
+  }
+}
