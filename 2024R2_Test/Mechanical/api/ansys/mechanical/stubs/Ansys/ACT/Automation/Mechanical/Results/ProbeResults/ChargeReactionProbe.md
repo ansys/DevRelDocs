@@ -1,0 +1,748 @@
+<a id="chargereactionprobe"></a>
+
+# ChargeReactionProbe
+
+<a id="ChargeReactionProbe"></a>
+
+### *class* ChargeReactionProbe
+
+Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
+
+> Defines a ChargeReactionProbe.
+
+> <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
+
+## Overview
+
+### Methods
+
+| Name | Summary |
+|---------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ExportAnimation`](#ChargeReactionProbe.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| [`ClearGeneratedData`](#ChargeReactionProbe.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
+| [`DuplicateWithoutResults`](#ChargeReactionProbe.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
+| [`EvaluateAllResults`](#ChargeReactionProbe.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
+| [`SnapToMeshNodes`](#ChargeReactionProbe.SnapToMeshNodes)                 | Snap the coordinates of probe result to the mesh nodes.                           |
+| [`RenameBasedOnDefinition`](#ChargeReactionProbe.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
+| [`Delete`](#ChargeReactionProbe.Delete)                                   | Run the Delete action.                                                            |
+| [`GetChildren`](#id1)                                                     | Gets the list of children, filtered by type.                                      |
+| [`GetChildren`](#id1)                                                     | Gets the list of children, filtered by type.                                      |
+| [`AddComment`](#ChargeReactionProbe.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#ChargeReactionProbe.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#ChargeReactionProbe.AddImage)                               | Creates a new child Image.                                                        |
+| [`Activate`](#ChargeReactionProbe.Activate)                               | Activate the current object.                                                      |
+| [`CopyTo`](#ChargeReactionProbe.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`Duplicate`](#ChargeReactionProbe.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GroupAllSimilarChildren`](#ChargeReactionProbe.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#ChargeReactionProbe.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByName`](#ChargeReactionProbe.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`PropertyByAPIName`](#ChargeReactionProbe.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`CreateParameter`](#ChargeReactionProbe.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`GetParameter`](#ChargeReactionProbe.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`RemoveParameter`](#ChargeReactionProbe.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+
+### Properties
+
+| Name | Summary |
+|---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.                                                                                                                         |
+| [`SetNumber`](#ChargeReactionProbe.SetNumber)                                                                             | Gets or sets the SetNumber.                                                                                                                                                |
+| [`ReportedFrequency`](#ChargeReactionProbe.ReportedFrequency)                                                             | Gets the ReportedFrequency.                                                                                                                                                |
+| [`Frequency`](#ChargeReactionProbe.Frequency)                                                                             | Gets or sets the Frequency.                                                                                                                                                |
+| [`ChargeReactionImag`](#ChargeReactionProbe.ChargeReactionImag)                                                           | Gets the ChargeReactionImag.                                                                                                                                               |
+| [`MaximumImagChargeReaction`](#ChargeReactionProbe.MaximumImagChargeReaction)                                             | Gets the MaximumImagChargeReaction.                                                                                                                                        |
+| [`MaximumRealChargeReaction`](#ChargeReactionProbe.MaximumRealChargeReaction)                                             | Gets the MaximumRealChargeReaction.                                                                                                                                        |
+| [`MinimumImagChargeReaction`](#ChargeReactionProbe.MinimumImagChargeReaction)                                             | Gets the MinimumImagChargeReaction.                                                                                                                                        |
+| [`MinimumRealChargeReaction`](#ChargeReactionProbe.MinimumRealChargeReaction)                                             | Gets the MinimumRealChargeReaction.                                                                                                                                        |
+| [`SweepingPhase`](#ChargeReactionProbe.SweepingPhase)                                                                     | Gets or sets the SweepingPhase.                                                                                                                                            |
+| [`ChargeReactionReal`](#ChargeReactionProbe.ChargeReactionReal)                                                           | Gets the ChargeReactionReal.                                                                                                                                               |
+| [`By`](#ChargeReactionProbe.By)                                                                                           | Gets or sets the By.                                                                                                                                                       |
+| [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                                                                                                               |
+| [`Summation`](#ChargeReactionProbe.Summation)                                                                             | Gets or sets the Summation.                                                                                                                                                |
+| [`LocationMethod`](#ChargeReactionProbe.LocationMethod)                                                                   | Gets or sets the LocationMethod.                                                                                                                                           |
+| [`GeometryLocation`](#ChargeReactionProbe.GeometryLocation)                                                               | Gets or sets the GeometryLocation.                                                                                                                                         |
+| [`CoordinateSystemSelection`](#ChargeReactionProbe.CoordinateSystemSelection)                                             | Gets or sets the CoordinateSystemSelection.                                                                                                                                |
+| [`BoundaryConditionSelection`](#ChargeReactionProbe.BoundaryConditionSelection)                                           | Gets or sets the BoundaryConditionSelection. In order to select the option ‘WeakSprings’, please use the property ‘LocationMethod = LocationDefinitionMethod.WeakSprings’. |
+| [`ContactRegionSelection`](#ChargeReactionProbe.ContactRegionSelection)                                                   | Gets or sets the ContactRegionSelection.                                                                                                                                   |
+| [`RemotePointSelection`](#ChargeReactionProbe.RemotePointSelection)                                                       | Gets or sets the RemotePointSelection.                                                                                                                                     |
+| [`BeamSelection`](#ChargeReactionProbe.BeamSelection)                                                                     | Gets or sets the BeamSelection.                                                                                                                                            |
+| [`MeshConnectionSelection`](#ChargeReactionProbe.MeshConnectionSelection)                                                 | Gets or sets the MeshConnectionSelection.                                                                                                                                  |
+| [`SurfaceSelection`](#ChargeReactionProbe.SurfaceSelection)                                                               | Gets or sets the MeshConnectionSelection.                                                                                                                                  |
+| [`SpringSelection`](#ChargeReactionProbe.SpringSelection)                                                                 | Gets or sets the SpringSelection.                                                                                                                                          |
+| [`IsSolved`](#ChargeReactionProbe.IsSolved)                                                                               | Gets the IsSolved.                                                                                                                                                         |
+| [`Orientation`](#ChargeReactionProbe.Orientation)                                                                         | Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordinate System.                                                                                |
+| [`IterationNumber`](#ChargeReactionProbe.IterationNumber)                                                                 | Gets the IterationNumber.                                                                                                                                                  |
+| [`LoadStep`](#ChargeReactionProbe.LoadStep)                                                                               | Gets the LoadStep.                                                                                                                                                         |
+| [`LoadStepNumber`](#ChargeReactionProbe.LoadStepNumber)                                                                   | Gets or sets the LoadStepNumber.                                                                                                                                           |
+| [`Substep`](#ChargeReactionProbe.Substep)                                                                                 | Gets the Substep.                                                                                                                                                          |
+| [`DisplayTime`](#ChargeReactionProbe.DisplayTime)                                                                         | Gets or sets the DisplayTime.                                                                                                                                              |
+| [`MaximumTotal`](#ChargeReactionProbe.MaximumTotal)                                                                       | Gets the MaximumTotal.                                                                                                                                                     |
+| [`MaximumXAxis`](#ChargeReactionProbe.MaximumXAxis)                                                                       | Gets the MaximumXAxis.                                                                                                                                                     |
+| [`MaximumYAxis`](#ChargeReactionProbe.MaximumYAxis)                                                                       | Gets the MaximumYAxis.                                                                                                                                                     |
+| [`MaximumZAxis`](#ChargeReactionProbe.MaximumZAxis)                                                                       | Gets the MaximumZAxis.                                                                                                                                                     |
+| [`MinimumTotal`](#ChargeReactionProbe.MinimumTotal)                                                                       | Gets the MinimumTotal.                                                                                                                                                     |
+| [`MinimumXAxis`](#ChargeReactionProbe.MinimumXAxis)                                                                       | Gets the MinimumXAxis.                                                                                                                                                     |
+| [`MinimumYAxis`](#ChargeReactionProbe.MinimumYAxis)                                                                       | Gets the MinimumYAxis.                                                                                                                                                     |
+| [`MinimumZAxis`](#ChargeReactionProbe.MinimumZAxis)                                                                       | Gets the MinimumZAxis.                                                                                                                                                     |
+| [`Time`](#ChargeReactionProbe.Time)                                                                                       | Gets the Time.                                                                                                                                                             |
+| [`Total`](#ChargeReactionProbe.Total)                                                                                     | Gets the Total.                                                                                                                                                            |
+| [`XAxis`](#ChargeReactionProbe.XAxis)                                                                                     | Gets the XAxis.                                                                                                                                                            |
+| [`YAxis`](#ChargeReactionProbe.YAxis)                                                                                     | Gets the YAxis.                                                                                                                                                            |
+| [`ZAxis`](#ChargeReactionProbe.ZAxis)                                                                                     | Gets the ZAxis.                                                                                                                                                            |
+| [`ResultSelection`](#ChargeReactionProbe.ResultSelection)                                                                 | Gets or sets the ResultSelection.                                                                                                                                          |
+| [`SpatialResolution`](#ChargeReactionProbe.SpatialResolution)                                                             | Gets or sets the SpatialResolution.                                                                                                                                        |
+| [`Type`](#ChargeReactionProbe.Type)                                                                                       | Gets the Type.                                                                                                                                                             |
+| [`DpfEvaluation`](#ChargeReactionProbe.DpfEvaluation)                                                                     | Gets or sets the DpfEvaluation.                                                                                                                                            |
+| [`Suppressed`](#ChargeReactionProbe.Suppressed)                                                                           | Gets or sets the Suppressed.                                                                                                                                               |
+| [`Children`](#ChargeReactionProbe.Children)                                                                               | Gets the list of children.                                                                                                                                                 |
+| [`Comments`](#ChargeReactionProbe.Comments)                                                                               | Gets the list of associated comments.                                                                                                                                      |
+| [`Figures`](#ChargeReactionProbe.Figures)                                                                                 | Gets the list of associated figures.                                                                                                                                       |
+| [`Images`](#ChargeReactionProbe.Images)                                                                                   | Gets the list of associated images.                                                                                                                                        |
+| [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.                                                                                                                         |
+| [`Properties`](#ChargeReactionProbe.Properties)                                                                           | Gets the list of properties for this object.                                                                                                                               |
+| [`VisibleProperties`](#ChargeReactionProbe.VisibleProperties)                                                             | Gets the list of properties that are visible for this object.                                                                                                              |
+
+<a id="import-detail"></a>
+
+## Import detail
+
+```python
+from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.Results.ProbeResults import ChargeReactionProbe
+```
+
+<a id="property-detail"></a>
+
+## Property detail
+
+<a id="ChargeReactionProbe.InternalObject"></a>
+
+### *property* ChargeReactionProbe.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSProbeResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.SetNumber"></a>
+
+### *property* ChargeReactionProbe.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SetNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.ReportedFrequency"></a>
+
+### *property* ChargeReactionProbe.ReportedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ReportedFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.Frequency"></a>
+
+### *property* ChargeReactionProbe.Frequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Frequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.ChargeReactionImag"></a>
+
+### *property* ChargeReactionProbe.ChargeReactionImag *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ChargeReactionImag.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.MaximumImagChargeReaction"></a>
+
+### *property* ChargeReactionProbe.MaximumImagChargeReaction *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumImagChargeReaction.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.MaximumRealChargeReaction"></a>
+
+### *property* ChargeReactionProbe.MaximumRealChargeReaction *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumRealChargeReaction.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.MinimumImagChargeReaction"></a>
+
+### *property* ChargeReactionProbe.MinimumImagChargeReaction *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MinimumImagChargeReaction.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.MinimumRealChargeReaction"></a>
+
+### *property* ChargeReactionProbe.MinimumRealChargeReaction *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MinimumRealChargeReaction.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.SweepingPhase"></a>
+
+### *property* ChargeReactionProbe.SweepingPhase *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SweepingPhase.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.ChargeReactionReal"></a>
+
+### *property* ChargeReactionProbe.ChargeReactionReal *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ChargeReactionReal.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.By"></a>
+
+### *property* ChargeReactionProbe.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../Mechanical/DataModel/Enums/SetDriverStyle.md#SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the By.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.DataModelObjectCategory"></a>
+
+### *property* ChargeReactionProbe.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.Summation"></a>
+
+### *property* ChargeReactionProbe.Summation *: [Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType](../../../../../Mechanical/DataModel/Enums/MomentsAtSummationPointType.md#MomentsAtSummationPointType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Summation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.LocationMethod"></a>
+
+### *property* ChargeReactionProbe.LocationMethod *: [Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod](../../../../../Mechanical/DataModel/Enums/LocationDefinitionMethod.md#LocationDefinitionMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the LocationMethod.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.GeometryLocation"></a>
+
+### *property* ChargeReactionProbe.GeometryLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the GeometryLocation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.CoordinateSystemSelection"></a>
+
+### *property* ChargeReactionProbe.CoordinateSystemSelection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CoordinateSystemSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.BoundaryConditionSelection"></a>
+
+### *property* ChargeReactionProbe.BoundaryConditionSelection *: Ansys.ACT.Automation.Mechanical.DataModelObject | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the BoundaryConditionSelection. In order to select the option ‘WeakSprings’, please use the property ‘LocationMethod = LocationDefinitionMethod.WeakSprings’.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.ContactRegionSelection"></a>
+
+### *property* ChargeReactionProbe.ContactRegionSelection *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../Connections/ContactRegion.md#ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ContactRegionSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.RemotePointSelection"></a>
+
+### *property* ChargeReactionProbe.RemotePointSelection *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../../RemotePoint.md#RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the RemotePointSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.BeamSelection"></a>
+
+### *property* ChargeReactionProbe.BeamSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Beam](../../Connections/Beam.md#Beam) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the BeamSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.MeshConnectionSelection"></a>
+
+### *property* ChargeReactionProbe.MeshConnectionSelection *: [Ansys.ACT.Automation.Mechanical.MeshConnection](../../MeshConnection.md#MeshConnection) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MeshConnectionSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.SurfaceSelection"></a>
+
+### *property* ChargeReactionProbe.SurfaceSelection *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MeshConnectionSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.SpringSelection"></a>
+
+### *property* ChargeReactionProbe.SpringSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../Connections/Spring.md#Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SpringSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.IsSolved"></a>
+
+### *property* ChargeReactionProbe.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the IsSolved.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.Orientation"></a>
+
+### *property* ChargeReactionProbe.Orientation *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordinate System.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.IterationNumber"></a>
+
+### *property* ChargeReactionProbe.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the IterationNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.LoadStep"></a>
+
+### *property* ChargeReactionProbe.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the LoadStep.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.LoadStepNumber"></a>
+
+### *property* ChargeReactionProbe.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the LoadStepNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.Substep"></a>
+
+### *property* ChargeReactionProbe.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Substep.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.DisplayTime"></a>
+
+### *property* ChargeReactionProbe.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DisplayTime.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.MaximumTotal"></a>
+
+### *property* ChargeReactionProbe.MaximumTotal *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumTotal.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.MaximumXAxis"></a>
+
+### *property* ChargeReactionProbe.MaximumXAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumXAxis.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.MaximumYAxis"></a>
+
+### *property* ChargeReactionProbe.MaximumYAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumYAxis.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.MaximumZAxis"></a>
+
+### *property* ChargeReactionProbe.MaximumZAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumZAxis.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.MinimumTotal"></a>
+
+### *property* ChargeReactionProbe.MinimumTotal *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MinimumTotal.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.MinimumXAxis"></a>
+
+### *property* ChargeReactionProbe.MinimumXAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MinimumXAxis.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.MinimumYAxis"></a>
+
+### *property* ChargeReactionProbe.MinimumYAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MinimumYAxis.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.MinimumZAxis"></a>
+
+### *property* ChargeReactionProbe.MinimumZAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MinimumZAxis.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.Time"></a>
+
+### *property* ChargeReactionProbe.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Time.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.Total"></a>
+
+### *property* ChargeReactionProbe.Total *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Total.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.XAxis"></a>
+
+### *property* ChargeReactionProbe.XAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the XAxis.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.YAxis"></a>
+
+### *property* ChargeReactionProbe.YAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the YAxis.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.ZAxis"></a>
+
+### *property* ChargeReactionProbe.ZAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ZAxis.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.ResultSelection"></a>
+
+### *property* ChargeReactionProbe.ResultSelection *: [Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter](../../../../../Mechanical/DataModel/Enums/ProbeDisplayFilter.md#ProbeDisplayFilter) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ResultSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.SpatialResolution"></a>
+
+### *property* ChargeReactionProbe.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum](../../../../../Mechanical/DataModel/Enums/MinimumOrMaximum.md#MinimumOrMaximum) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SpatialResolution.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.Type"></a>
+
+### *property* ChargeReactionProbe.Type *: [Ansys.Mechanical.DataModel.Enums.ProbeResultType](../../../../../Mechanical/DataModel/Enums/ProbeResultType.md#ProbeResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.DpfEvaluation"></a>
+
+### *property* ChargeReactionProbe.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DpfEvaluation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.Suppressed"></a>
+
+### *property* ChargeReactionProbe.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.Children"></a>
+
+### *property* ChargeReactionProbe.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of children.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.Comments"></a>
+
+### *property* ChargeReactionProbe.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated comments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.Figures"></a>
+
+### *property* ChargeReactionProbe.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated figures.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.Images"></a>
+
+### *property* ChargeReactionProbe.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated images.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="id0"></a>
+
+### *property* ChargeReactionProbe.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.Properties"></a>
+
+### *property* ChargeReactionProbe.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.VisibleProperties"></a>
+
+### *property* ChargeReactionProbe.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of properties that are visible for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="method-detail"></a>
+
+## Method detail
+
+<a id="ChargeReactionProbe.ExportAnimation"></a>
+
+### ChargeReactionProbe.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#AnimationExportSettings))
+
+Run the ExportAnimation action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.ClearGeneratedData"></a>
+
+### ChargeReactionProbe.ClearGeneratedData()
+
+Run the ClearGeneratedData action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.DuplicateWithoutResults"></a>
+
+### ChargeReactionProbe.DuplicateWithoutResults()
+
+Run the DuplicateWithoutResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.EvaluateAllResults"></a>
+
+### ChargeReactionProbe.EvaluateAllResults()
+
+Run the EvaluateAllResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.SnapToMeshNodes"></a>
+
+### ChargeReactionProbe.SnapToMeshNodes()
+
+Snap the coordinates of probe result to the mesh nodes.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.RenameBasedOnDefinition"></a>
+
+### ChargeReactionProbe.RenameBasedOnDefinition()
+
+Run the RenameBasedOnDefinition action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.Delete"></a>
+
+### ChargeReactionProbe.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.GetChildren"></a>
+
+### ChargeReactionProbe.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="id1"></a>
+
+### ChargeReactionProbe.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.AddComment"></a>
+
+### ChargeReactionProbe.AddComment()
+
+Creates a new child Comment.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.AddFigure"></a>
+
+### ChargeReactionProbe.AddFigure()
+
+Creates a new child Figure.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.AddImage"></a>
+
+### ChargeReactionProbe.AddImage(filePath: System.String)
+
+Creates a new child Image.
+If a filePath is provided, the image will be loaded from that file,
+if not, the image will be a screen capture of the Geometry window.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.Activate"></a>
+
+### ChargeReactionProbe.Activate()
+
+Activate the current object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.CopyTo"></a>
+
+### ChargeReactionProbe.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
+
+Copies all visible properties from this object to another.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.Duplicate"></a>
+
+### ChargeReactionProbe.Duplicate()
+
+Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.GroupAllSimilarChildren"></a>
+
+### ChargeReactionProbe.GroupAllSimilarChildren()
+
+Run the GroupAllSimilarChildren action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.GroupSimilarObjects"></a>
+
+### ChargeReactionProbe.GroupSimilarObjects()
+
+Run the GroupSimilarObjects action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.PropertyByName"></a>
+
+### ChargeReactionProbe.PropertyByName(name: System.String)
+
+Get a property by its unique name.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.PropertyByAPIName"></a>
+
+### ChargeReactionProbe.PropertyByAPIName(name: System.String)
+
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.CreateParameter"></a>
+
+### ChargeReactionProbe.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.GetParameter"></a>
+
+### ChargeReactionProbe.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChargeReactionProbe.RemoveParameter"></a>
+
+### ChargeReactionProbe.RemoveParameter(propName: System.String)
+
+Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->

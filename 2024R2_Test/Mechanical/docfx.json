@@ -1,0 +1,13 @@
+{
+    "build": {
+      "globalMetadata": {
+        "title": "Mechanical API Documentation t-12-04-24",
+        "summary": "",
+        "version": "2024 R1",
+        "product": "Mechanical",
+        "programming language": "Python",
+        "product collection": "Mechanical",
+        "physics": "Structures"
+      }
+    }
+ }

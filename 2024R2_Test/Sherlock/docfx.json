@@ -1,0 +1,13 @@
+{
+    "build": {
+      "globalMetadata": {
+        "title": "Sherlock 2024 R2",
+        "summary": "",
+        "version": "2024 R2",
+        "product": "Sherlock",
+        "programming language": "Python",
+        "product collection": "Structures",
+        "physics": "Structures"
+      }
+    }
+ }
