@@ -1,9 +1,9 @@
 {
   "build": {
     "globalMetadata": {
-      "title": "ACP Scripting 2024 R1",
+      "title": "ACP Scripting 2024 R1 Test Code in Heading",
       "summary": "The ACP Python Module provides the scripting user interface of ACP",
-      "version": "2024 R1",
+      "version": "2024 R2",
       "product": "ACP",
       "programming language": "Python",
       "product collection": "Structures",
