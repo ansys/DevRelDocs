@@ -45,3 +45,6 @@ support will be upgraded to RHEL 8.5 or higher.
 * Python 3.8 64-bit or later
 
 Installation instructions and more detailed requirements (such as package dependencies, or shared library names for Linux operating systems) can be found in the Installation Guide (provided with your installer from the Ansys Download Center, or downloaded from the [Granta MI Documentation Library](https://grantadesign.com/industry/support/granta-mi/documentation) ).
+
+
+[Test link to anchor](/stream_api.md#update_linksrecords)
