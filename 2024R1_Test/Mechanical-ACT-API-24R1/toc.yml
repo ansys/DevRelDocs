@@ -4,19 +4,19 @@
   - name: API reference
     href: api\index.md
     items:
-    - name: The `ansys.mechanical.stubs` library
+    - name: ansys.mechanical.stubs
       href: api\ansys\mechanical\stubs\index.md
       items:
-      - name: The `Ansys` package
+      - name: Ansys
         href: api\ansys\mechanical\stubs\Ansys\index.md
         items:
-        - name: The `ACT` package
+        - name: ACT
           href: api\ansys\mechanical\stubs\Ansys\ACT\index.md
           items:
-          - name: The `Automation` package
+          - name: Automation
             href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\index.md
             items:
-            - name: The `Mechanical` package
+            - name: Mechanical
               href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\index.md
               items:
               - name: AcousticsFarFieldResultWorksheet
@@ -449,7 +449,7 @@
                 href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Worksheet.md
               - name: ZCrossSection
                 href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\ZCrossSection.md
-              - name: The `AdditiveManufacturing` package
+              - name: AdditiveManufacturing
                 href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\AdditiveManufacturing\index.md
                 items:
                 - name: AMBuildSettings
@@ -484,7 +484,7 @@
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\AdditiveManufacturing\SupportRemoval.md
                 - name: UserStep
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\AdditiveManufacturing\UserStep.md
-              - name: The `AnalysisSettings` package
+              - name: AnalysisSettings
                 href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\AnalysisSettings\index.md
                 items:
                 - name: AnalysisSettings
@@ -497,7 +497,7 @@
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\AnalysisSettings\RBDAnalysisSettings.md
                 - name: TopoOptAnalysisSettings
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\AnalysisSettings\TopoOptAnalysisSettings.md
-              - name: The `BoundaryConditions` package
+              - name: BoundaryConditions
                 href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\BoundaryConditions\index.md
                 items:
                 - name: Acceleration
@@ -702,7 +702,7 @@
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\BoundaryConditions\VoltageGround.md
                 - name: VolumeChargeDensity
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\BoundaryConditions\VolumeChargeDensity.md
-              - name: The `Connections` package
+              - name: Connections
                 href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Connections\index.md
                 items:
                 - name: AMBondConnection
@@ -731,12 +731,12 @@
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Connections\SpotWeldGroup.md
                 - name: Spring
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Connections\Spring.md
-              - name: The `ConstructionLines` package
+              - name: ConstructionLines
                 href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\ConstructionLines\index.md
                 items:
                 - name: ConstructionLine
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\ConstructionLines\ConstructionLine.md
-              - name: The `FE` package
+              - name: FE
                 href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\FE\index.md
                 items:
                 - name: Command
@@ -749,7 +749,7 @@
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\FE\CommandsType.md
                 - name: FEParser
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\FE\FEParser.md
-                - name: The `ABAQUS` package
+                - name: ABAQUS
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\FE\ABAQUS\index.md
                   items:
                   - name: ABAQUSCommand
@@ -764,7 +764,7 @@
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\FE\ABAQUS\AbaqusKeywordDataLine.md
                   - name: AbaqusKeywordDataLineColl
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\FE\ABAQUS\AbaqusKeywordDataLineColl.md
-                - name: The `CDB` package
+                - name: CDB
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\FE\CDB\index.md
                   items:
                   - name: BeamSecBlockCommand
@@ -865,7 +865,7 @@
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\FE\CDB\TBPTData.md
                   - name: TBPTValues
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\FE\CDB\TBPTValues.md
-                - name: The `NASTRAN` package
+                - name: NASTRAN
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\FE\NASTRAN\index.md
                   items:
                   - name: CaseControlCommand
@@ -880,7 +880,7 @@
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\FE\NASTRAN\NastranOptionLine.md
                   - name: OptionsControlCommand
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\FE\NASTRAN\OptionsControlCommand.md
-              - name: The `ImportedLoads` package
+              - name: ImportedLoads
                 href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\ImportedLoads\index.md
                 items:
                 - name: ImportedBodyForceDensity
@@ -931,7 +931,7 @@
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\ImportedLoads\ImportedWarpWeftRatio.md
                 - name: ImportedYarnAngle
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\ImportedLoads\ImportedYarnAngle.md
-              - name: The `MeshControls` package
+              - name: MeshControls
                 href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\MeshControls\index.md
                 items:
                 - name: AutomaticMethod
@@ -972,7 +972,7 @@
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\MeshControls\Washer.md
                 - name: Weld
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\MeshControls\Weld.md
-              - name: The `Results` package
+              - name: Results
                 href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\index.md
                 items:
                 - name: Alert
@@ -1023,7 +1023,7 @@
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\VariableGraph.md
                 - name: Volume
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\Volume.md
-                - name: The `AcousticResults` package
+                - name: AcousticResults
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\AcousticResults\index.md
                   items:
                   - name: AcousticAbsorptionCoefficient
@@ -1060,7 +1060,7 @@
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\AcousticResults\AcousticTotalVelocityResult.md
                   - name: AcousticTransmissionLoss
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\AcousticResults\AcousticTransmissionLoss.md
-                - name: The `BeamResults` package
+                - name: BeamResults
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\BeamResults\index.md
                   items:
                   - name: BeamResult
@@ -1093,7 +1093,7 @@
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\BeamResults\VectorShearForce.md
                   - name: VectorTorsionalMoment
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\BeamResults\VectorTorsionalMoment.md
-                - name: The `BeamToolResults` package
+                - name: BeamToolResults
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\BeamToolResults\index.md
                   items:
                   - name: BeamTool
@@ -1110,7 +1110,7 @@
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\BeamToolResults\MinimumBendingStress.md
                   - name: MinimumCombinedStress
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\BeamToolResults\MinimumCombinedStress.md
-                - name: The `BoltToolResults` package
+                - name: BoltToolResults
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\BoltToolResults\index.md
                   items:
                   - name: BoltAdjustment
@@ -1121,7 +1121,7 @@
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\BoltToolResults\BoltToolResult.md
                   - name: BoltWorkingLoad
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\BoltToolResults\BoltWorkingLoad.md
-                - name: The `CompositeFailureResults` package
+                - name: CompositeFailureResults
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\CompositeFailureResults\index.md
                   items:
                   - name: CompositeFailureResult
@@ -1132,7 +1132,7 @@
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\CompositeFailureResults\CompositeSamplingPoint.md
                   - name: CompositeSamplingPointTool
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\CompositeFailureResults\CompositeSamplingPointTool.md
-                - name: The `ContactToolResults` package
+                - name: ContactToolResults
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\ContactToolResults\index.md
                   items:
                   - name: ContactFluidPressure
@@ -1153,7 +1153,7 @@
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\ContactToolResults\ContactStatus.md
                   - name: ContactToolResult
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\ContactToolResults\ContactToolResult.md
-                - name: The `CoordinateSystemsResults` package
+                - name: CoordinateSystemsResults
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\CoordinateSystemsResults\index.md
                   items:
                   - name: CoordinateSystemsResult
@@ -1174,7 +1174,7 @@
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\CoordinateSystemsResults\NodalEulerYZAngle.md
                   - name: NodalTriads
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\CoordinateSystemsResults\NodalTriads.md
-                - name: The `DamageResults` package
+                - name: DamageResults
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\DamageResults\index.md
                   items:
                   - name: DamageResult
@@ -1207,7 +1207,7 @@
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\DamageResults\MullinsMaximumPreviousStrainEnergy.md
                   - name: ShearDamageVariable
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\DamageResults\ShearDamageVariable.md
-                - name: The `DeformationResults` package
+                - name: DeformationResults
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\DeformationResults\index.md
                   items:
                   - name: DeformationResult
@@ -1234,7 +1234,7 @@
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\DeformationResults\TotalVelocity.md
                   - name: VectorDeformation
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\DeformationResults\VectorDeformation.md
-                - name: The `ElectricResults` package
+                - name: ElectricResults
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\ElectricResults\index.md
                   items:
                   - name: DirectionalCurrentDensity
@@ -1259,7 +1259,7 @@
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\ElectricResults\TotalElectricFluxDensity.md
                   - name: TotalElectrostaticForce
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\ElectricResults\TotalElectrostaticForce.md
-                - name: The `ElectromagneticResults` package
+                - name: ElectromagneticResults
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\ElectromagneticResults\index.md
                   items:
                   - name: CurrentDensity
@@ -1286,7 +1286,7 @@
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\ElectromagneticResults\TotalMagneticFieldIntensity.md
                   - name: TotalMagneticFluxDensity
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\ElectromagneticResults\TotalMagneticFluxDensity.md
-                - name: The `EnergyResults` package
+                - name: EnergyResults
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\EnergyResults\index.md
                   items:
                   - name: ElementalStrainEnergy
@@ -1299,7 +1299,7 @@
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\EnergyResults\StructuralStrainEnergy.md
                   - name: ThermalStrainEnergy
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\EnergyResults\ThermalStrainEnergy.md
-                - name: The `FatigueToolResults` package
+                - name: FatigueToolResults
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\FatigueToolResults\index.md
                   items:
                   - name: FatigueBiaxialityIndication
@@ -1322,7 +1322,7 @@
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\FatigueToolResults\FatigueSensitivity.md
                   - name: FatigueToolResult
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\FatigueToolResults\FatigueToolResult.md
-                - name: The `FractureToolResults` package
+                - name: FractureToolResults
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\FractureToolResults\index.md
                   items:
                   - name: FractureCrackExtensionProbe
@@ -1341,7 +1341,7 @@
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\FractureToolResults\FractureToolResult.md
                   - name: FractureTotalNumberOfCyclesProbe
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\FractureToolResults\FractureTotalNumberOfCyclesProbe.md
-                - name: The `FrequencyResponseResults` package
+                - name: FrequencyResponseResults
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\FrequencyResponseResults\index.md
                   items:
                   - name: AccelerationFrequencyResponse
@@ -1392,7 +1392,7 @@
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\FrequencyResponseResults\VelocityWaterfallDiagram.md
                   - name: VoltageFrequencyResponse
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\FrequencyResponseResults\VoltageFrequencyResponse.md
-                - name: The `GasketResults` package
+                - name: GasketResults
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\GasketResults\index.md
                   items:
                   - name: GasketResult
@@ -1405,7 +1405,7 @@
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\GasketResults\ShearGasketPressure.md
                   - name: ShearGasketTotalClosure
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\GasketResults\ShearGasketTotalClosure.md
-                - name: The `LinearizedStressResults` package
+                - name: LinearizedStressResults
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\LinearizedStressResults\index.md
                   items:
                   - name: LinearizedEquivalentStress
@@ -1426,7 +1426,7 @@
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\LinearizedStressResults\LinearizedStressIntensity.md
                   - name: LinearizedStressResult
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\LinearizedStressResults\LinearizedStressResult.md
-                - name: The `PhaseResponseResults` package
+                - name: PhaseResponseResults
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\PhaseResponseResults\index.md
                   items:
                   - name: AccelerationPhaseResponse
@@ -1439,7 +1439,7 @@
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\PhaseResponseResults\StressPhaseResponse.md
                   - name: VelocityPhaseResponse
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\PhaseResponseResults\VelocityPhaseResponse.md
-                - name: The `ProbeResults` package
+                - name: ProbeResults
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\ProbeResults\index.md
                   items:
                   - name: AccelerationProbe
@@ -1524,7 +1524,7 @@
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\ProbeResults\VelocityProbe.md
                   - name: VolumeProbe
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\ProbeResults\VolumeProbe.md
-                - name: The `ResultTrackers` package
+                - name: ResultTrackers
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\ResultTrackers\index.md
                   items:
                   - name: AddedMassTracker
@@ -1675,14 +1675,14 @@
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\ResultTrackers\TotalEnergyTracker.md
                   - name: TotalMassAverageVelocityTracker
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\ResultTrackers\TotalMassAverageVelocityTracker.md
-                - name: The `ScriptableResults` package
+                - name: ScriptableResults
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\ScriptableResults\index.md
                   items:
                   - name: PythonResult
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\ScriptableResults\PythonResult.md
                   - name: ScriptDefinedResultFolder
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\ScriptableResults\ScriptDefinedResultFolder.md
-                - name: The `StrainResults` package
+                - name: StrainResults
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\StrainResults\index.md
                   items:
                   - name: AccumulatedEquivalentPlasticStrain
@@ -1725,7 +1725,7 @@
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\StrainResults\StrainResult.md
                   - name: VectorPrincipalElasticStrain
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\StrainResults\VectorPrincipalElasticStrain.md
-                - name: The `StressResults` package
+                - name: StressResults
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\StressResults\index.md
                   items:
                   - name: BendingStressEquivalent
@@ -1772,7 +1772,7 @@
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\StressResults\StructuralError.md
                   - name: VectorPrincipalStress
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\StressResults\VectorPrincipalStress.md
-                - name: The `StressToolResults` package
+                - name: StressToolResults
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\StressToolResults\index.md
                   items:
                   - name: StressRatio
@@ -1785,7 +1785,7 @@
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\StressToolResults\StressTool.md
                   - name: StressToolResult
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\StressToolResults\StressToolResult.md
-                - name: The `ThermalResults` package
+                - name: ThermalResults
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\ThermalResults\index.md
                   items:
                   - name: DirectionalHeatFlux
@@ -1808,7 +1808,7 @@
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\ThermalResults\TotalHeatFlux.md
                   - name: VectorHeatFlux
                     href: api\ansys\mechanical\stubs\Ansys\ACT\Automation\Mechanical\Results\ThermalResults\VectorHeatFlux.md
-          - name: The `Common` package
+          - name: Common
             href: api\ansys\mechanical\stubs\Ansys\ACT\Common\index.md
             items:
             - name: BrowserQt
@@ -1817,7 +1817,7 @@
               href: api\ansys\mechanical\stubs\Ansys\ACT\Common\CoordinateSystem.md
             - name: SimpleTransform
               href: api\ansys\mechanical\stubs\Ansys\ACT\Common\SimpleTransform.md
-            - name: The `Graphics` package
+            - name: Graphics
               href: api\ansys\mechanical\stubs\Ansys\ACT\Common\Graphics\index.md
               items:
               - name: DMCameraWrapper
@@ -1831,17 +1831,17 @@
               - name: ModelViewManager
                 href: api\ansys\mechanical\stubs\Ansys\ACT\Common\Graphics\ModelViewManager.md
               items:
-          - name: The `Interfaces` package
+          - name: Interfaces
             href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\index.md
             items:
-            - name: The `Graphics` package
+            - name: Graphics
               href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\Graphics\index.md
               items:
               - name: IModelViewManager
                 href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\Graphics\IModelViewManager.md
-              - name: The `Graphics` package
+              - name: Graphics
                 href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\Graphics\index.md
-            - name: The `Mechanical` package
+            - name: Mechanical
               href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\Mechanical\index.md
               items:
               - name: IMechanicalDataModel
@@ -1863,14 +1863,14 @@
               - name: MechanicalPanelEnum
                 href: api\ansys\mechanical\stubs\Ansys\ACT\Interfaces\Mechanical\MechanicalPanelEnum.md
               items:
-          - name: The `Mechanical` package
+          - name: Mechanical
             href: api\ansys\mechanical\stubs\Ansys\ACT\Mechanical\index.md
             items:
             - name: Transaction
               href: api\ansys\mechanical\stubs\Ansys\ACT\Mechanical\Transaction.md
             - name: UnitsHelper
               href: api\ansys\mechanical\stubs\Ansys\ACT\Mechanical\UnitsHelper.md
-            - name: The `AdditionalProperties` package
+            - name: AdditionalProperties
               href: api\ansys\mechanical\stubs\Ansys\ACT\Mechanical\AdditionalProperties\index.md
               items:
               - name: ApplyCancelProperty
@@ -1883,10 +1883,10 @@
                 href: api\ansys\mechanical\stubs\Ansys\ACT\Mechanical\AdditionalProperties\ExpressionProperty.md
               - name: OptionsProperty
                 href: api\ansys\mechanical\stubs\Ansys\ACT\Mechanical\AdditionalProperties\OptionsProperty.md
-            - name: The `Application` package
+            - name: Application
               href: api\ansys\mechanical\stubs\Ansys\ACT\Mechanical\Application\index.md
               items:
-              - name: The `SolveProcessSettings` package
+              - name: SolveProcessSettings
                 href: api\ansys\mechanical\stubs\Ansys\ACT\Mechanical\Application\SolveProcessSettings\index.md
                 items:
                 - name: ILinuxSettings
@@ -1913,7 +1913,7 @@
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Mechanical\Application\SolveProcessSettings\SolveProcessSettings.md
                 - name: SolverMemorySettings
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Mechanical\Application\SolveProcessSettings\SolverMemorySettings.md
-            - name: The `Fields` package
+            - name: Fields
               href: api\ansys\mechanical\stubs\Ansys\ACT\Mechanical\Fields\index.md
               items:
               - name: Field
@@ -1922,7 +1922,7 @@
                 href: api\ansys\mechanical\stubs\Ansys\ACT\Mechanical\Fields\Variable.md
               - name: VariableDefinitionType
                 href: api\ansys\mechanical\stubs\Ansys\ACT\Mechanical\Fields\VariableDefinitionType.md
-              - name: The `Adapters` package
+              - name: Adapters
                 href: api\ansys\mechanical\stubs\Ansys\ACT\Mechanical\Fields\Adapters\index.md
                 items:
                 - name: AAPCustomLoadAdapter
@@ -1957,15 +1957,15 @@
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Mechanical\Fields\Adapters\IDefinition.md
                 - name: Keywords
                   href: api\ansys\mechanical\stubs\Ansys\ACT\Mechanical\Fields\Adapters\Keywords.md
-            - name: The `Utilities` package
+            - name: Utilities
               href: api\ansys\mechanical\stubs\Ansys\ACT\Mechanical\Utilities\index.md
               items:
               - name: GeometryImportPreferences
                 href: api\ansys\mechanical\stubs\Ansys\ACT\Mechanical\Utilities\GeometryImportPreferences.md
-        - name: The `Mechanical` package
+        - name: Mechanical
           href: api\ansys\mechanical\stubs\Ansys\Mechanical\index.md
           items:
-          - name: The `Application` package
+          - name: Application
             href: api\ansys\mechanical\stubs\Ansys\Mechanical\Application\index.md
             items:
             - name: Message
@@ -1978,15 +1978,15 @@
               href: api\ansys\mechanical\stubs\Ansys\Mechanical\Application\ObjectTags.md
             - name: Progress
               href: api\ansys\mechanical\stubs\Ansys\Mechanical\Application\Progress.md
-          - name: The `DataModel` package
+          - name: DataModel
             href: api\ansys\mechanical\stubs\Ansys\Mechanical\DataModel\index.md
             items:
-            - name: The `Constants` package
+            - name: Constants
               href: api\ansys\mechanical\stubs\Ansys\Mechanical\DataModel\Constants\index.md
               items:
               - name: Colors
                 href: api\ansys\mechanical\stubs\Ansys\Mechanical\DataModel\Constants\Colors.md
-            - name: The `ConstructionLines` package
+            - name: ConstructionLines
               href: api\ansys\mechanical\stubs\Ansys\Mechanical\DataModel\ConstructionLines\index.md
               items:
               - name: ConstructionLineHelper
@@ -1999,16 +1999,16 @@
                 href: api\ansys\mechanical\stubs\Ansys\Mechanical\DataModel\ConstructionLines\Point.md
               - name: PointType
                 href: api\ansys\mechanical\stubs\Ansys\Mechanical\DataModel\ConstructionLines\PointType.md
-            - name: The `Edges` package
+            - name: Edges
               href: api\ansys\mechanical\stubs\Ansys\Mechanical\DataModel\ConstructionLines\Edges\index.md
               items:
               - name: IEdge
                 href: api\ansys\mechanical\stubs\Ansys\Mechanical\DataModel\ConstructionLines\Edges\IEdge.md
-              - name: The `Edges` package
+              - name: Edges
                 href: api\ansys\mechanical\stubs\Ansys\Mechanical\DataModel\ConstructionLines\Edges\index.md
               - name: StraightLineEdge
                 href: api\ansys\mechanical\stubs\Ansys\Mechanical\DataModel\ConstructionLines\Edges\StraightLineEdge.md
-            - name: The `Enums` package
+            - name: Enums
               href: api\ansys\mechanical\stubs\Ansys\Mechanical\DataModel\Enums\index.md               
               items:
               - name: ActiveOrInactive
@@ -3226,9 +3226,9 @@
                 items:
                 - name: ImportedSurfaceLoadType
                   href: api\ansys\mechanical\stubs\Ansys\Mechanical\DataModel\Enums\ExternalModel\ImportedSurfaceLoadType.md
-                - name: The `ExternalModel` package
+                - name: ExternalModel
                   href: api\ansys\mechanical\stubs\Ansys\Mechanical\DataModel\Enums\ExternalModel\index.md
-              - name: The `GeometryImportPreference` package
+              - name: GeometryImportPreference
                 href: api\ansys\mechanical\stubs\Ansys\Mechanical\DataModel\Enums\GeometryImportPreference\index.md
                 items:
                 - name: AnalysisType
@@ -3247,15 +3247,15 @@
                   href: api\ansys\mechanical\stubs\Ansys\Mechanical\DataModel\Enums\GeometryImportPreference\Parameters.md
                 - name: StitchSurfacesOnImport
                   href: api\ansys\mechanical\stubs\Ansys\Mechanical\DataModel\Enums\GeometryImportPreference\StitchSurfacesOnImport.md
-            - name: The `MechanicalEnums` package
+            - name: MechanicalEnums
               href: api\ansys\mechanical\stubs\Ansys\Mechanical\DataModel\MechanicalEnums\index.md
               items:
-              - name: The `Common` package
+              - name: Common
                 href: api\ansys\mechanical\stubs\Ansys\Mechanical\DataModel\MechanicalEnums\Common\index.md
                 items:
                 - name: PathType
                   href: api\ansys\mechanical\stubs\Ansys\Mechanical\DataModel\MechanicalEnums\Common\PathType.md
-              - name: The `ExternalData` package
+              - name: ExternalData
                 href: api\ansys\mechanical\stubs\Ansys\Mechanical\DataModel\MechanicalEnums\ExternalData\index.md
                 items:
                 - name: ImportFormat
@@ -3264,7 +3264,7 @@
                   href: api\ansys\mechanical\stubs\Ansys\Mechanical\DataModel\MechanicalEnums\ExternalData\LengthUnit.md
                 - name: VariableType
                   href: api\ansys\mechanical\stubs\Ansys\Mechanical\DataModel\MechanicalEnums\ExternalData\VariableType.md
-              - name: The `Graphics` package
+              - name: Graphics
                 href: api\ansys\mechanical\stubs\Ansys\Mechanical\DataModel\MechanicalEnums\Graphics\index.md
                 items:
                 - name: CappingType
@@ -3279,7 +3279,7 @@
                   href: api\ansys\mechanical\stubs\Ansys\Mechanical\DataModel\MechanicalEnums\Graphics\GeometryView.md
                 - name: ScopingDisplay
                   href: api\ansys\mechanical\stubs\Ansys\Mechanical\DataModel\MechanicalEnums\Graphics\ScopingDisplay.md
-              - name: The `Materials` package
+              - name: Materials
                 href: api\ansys\mechanical\stubs\Ansys\Mechanical\DataModel\MechanicalEnums\Materials\index.md
                 items:
                 - name: ExistingMaterialOperation
@@ -3288,7 +3288,7 @@
                   href: api\ansys\mechanical\stubs\Ansys\Mechanical\DataModel\MechanicalEnums\Materials\IdentifierType.md
                 - name: ImportFormat
                   href: api\ansys\mechanical\stubs\Ansys\Mechanical\DataModel\MechanicalEnums\Materials\ImportFormat.md
-              - name: The `MeshWorkflow` package
+              - name: MeshWorkflow
                 href: api\ansys\mechanical\stubs\Ansys\Mechanical\DataModel\MechanicalEnums\MeshWorkflow\index.md
                 items:
                 - name: CheckpointDefinitionType
@@ -3317,7 +3317,7 @@
                   href: api\ansys\mechanical\stubs\Ansys\Mechanical\DataModel\MechanicalEnums\MeshWorkflow\WorkflowType.md
                 - name: WrapperRegionType
                   href: api\ansys\mechanical\stubs\Ansys\Mechanical\DataModel\MechanicalEnums\MeshWorkflow\WrapperRegionType.md
-              - name: The `Table` package
+              - name: Table
                 href: api\ansys\mechanical\stubs\Ansys\Mechanical\DataModel\MechanicalEnums\Table\index.md
                 items:
                 - name: ImportFormat
@@ -3328,14 +3328,14 @@
                   href: api\ansys\mechanical\stubs\Ansys\Mechanical\DataModel\MechanicalEnums\Table\VariableClassification.md
                 - name: VariableType
                   href: api\ansys\mechanical\stubs\Ansys\Mechanical\DataModel\MechanicalEnums\Table\VariableType.md
-            - name: The `Results` package
+            - name: Results
               href: api\ansys\mechanical\stubs\Ansys\Mechanical\DataModel\Results\index.md
               items:
               - name: ResultDataTable
                 href: api\ansys\mechanical\stubs\Ansys\Mechanical\DataModel\Results\ResultDataTable.md
               - name: ResultVariable
                 href: api\ansys\mechanical\stubs\Ansys\Mechanical\DataModel\Results\ResultVariable.md
-            - name: The `SolverData` package
+            - name: SolverData
               href: api\ansys\mechanical\stubs\Ansys\Mechanical\DataModel\SolverData\index.md
               items:
               - name: MAPDLAMSupportData
@@ -3370,7 +3370,7 @@
                 href: api\ansys\mechanical\stubs\Ansys\Mechanical\DataModel\SolverData\MAPDLSurfaceLoadData.md
               - name: SolverData
                 href: api\ansys\mechanical\stubs\Ansys\Mechanical\DataModel\SolverData\SolverData.md
-            - name: The `Utilities` package
+            - name: Utilities
               href: api\ansys\mechanical\stubs\Ansys\Mechanical\DataModel\Utilities\index.md
               items:
               - name: BeamCoordinateSystem
@@ -3379,9 +3379,9 @@
                 href: api\ansys\mechanical\stubs\Ansys\Mechanical\DataModel\Utilities\CenterOfGravityCoordinateSystem.md
               - name: RigidBodyTransformationMatrix
                 href: api\ansys\mechanical\stubs\Ansys\Mechanical\DataModel\Utilities\RigidBodyTransformationMatrix.md
-              - name: The `TabularData` package
+              - name: TabularData
                 href: api\ansys\mechanical\stubs\Ansys\Mechanical\DataModel\Utilities\TabularData\index.md
-            - name: The `ExternalData` package
+            - name: ExternalData
             href: api\ansys\mechanical\stubs\Ansys\Mechanical\ExternalData\index.md
             items:
             - name: AXDTImportSettings
@@ -3408,7 +3408,7 @@
               href: api\ansys\mechanical\stubs\Ansys\Mechanical\ExternalData\ImportSettingsFactory.md
             - name: MAPDLImportSettings
               href: api\ansys\mechanical\stubs\Ansys\Mechanical\ExternalData\MAPDLImportSettings.md
-          - name: The `Graphics` package
+          - name: Graphics
             href: api\ansys\mechanical\stubs\Ansys\Mechanical\Graphics\index.md
             items:
             - name: AnalysisSettingsGraph
@@ -3439,14 +3439,14 @@
               href: api\ansys\mechanical\stubs\Ansys\Mechanical\Graphics\VectorDisplay.md
             - name: ViewOptions
               href: api\ansys\mechanical\stubs\Ansys\Mechanical\Graphics\ViewOptions.md
-            - name: The `Tools` package
+            - name: Tools
               href: api\ansys\mechanical\stubs\Ansys\Mechanical\Graphics\Tools\index.md
               items:
               - name: CurrentLegendSettings
                 href: api\ansys\mechanical\stubs\Ansys\Mechanical\Graphics\Tools\CurrentLegendSettings.md
               - name: LegendSettings
                 href: api\ansys\mechanical\stubs\Ansys\Mechanical\Graphics\Tools\LegendSettings.md
-          - name: The `Interfaces` package
+          - name: Interfaces
             href: api\ansys\mechanical\stubs\Ansys\Mechanical\Interfaces\index.md
             items:
             - name: IDataSeries
@@ -3461,17 +3461,17 @@
               href: api\ansys\mechanical\stubs\Ansys\Mechanical\Interfaces\ITable.md
             - name: IVariable
               href: api\ansys\mechanical\stubs\Ansys\Mechanical\Interfaces\IVariable.md
-          - name: The `Materials` package
+          - name: Materials
             href: api\ansys\mechanical\stubs\Ansys\Mechanical\Materials\index.md
             items:
             - name: ImportSettings
               href: api\ansys\mechanical\stubs\Ansys\Mechanical\Materials\ImportSettings.md
-          - name: The `Math` package
+          - name: Math
             href: api\ansys\mechanical\stubs\Ansys\Mechanical\Math\index.md
             items:
             - name: BoundVector
               href: api\ansys\mechanical\stubs\Ansys\Mechanical\Math\BoundVector.md
-          - name: The `Selection` package
+          - name: Selection
             href: api\ansys\mechanical\stubs\Ansys\Mechanical\Selection\index.md
             items:
             - name: GeometryRayCastHit
@@ -3480,7 +3480,7 @@
               href: api\ansys\mechanical\stubs\Ansys\Mechanical\Selection\GeometryRayCastSettings.md
             - name: SelectionHelper
               href: api\ansys\mechanical\stubs\Ansys\Mechanical\Selection\SelectionHelper.md
-          - name: The `Table` package
+          - name: Table
             href: api\ansys\mechanical\stubs\Ansys\Mechanical\Table\index.md
             items:
             - name: ColumnarDataImportDefinition
@@ -3498,15 +3498,15 @@
             - name: ImportSettingsFactory
               href: api\ansys\mechanical\stubs\Ansys\Mechanical\Table\ImportSettingsFactory.md
               items:
-          - name: The `UI` package
+          - name: UI
             href: api\ansys\mechanical\stubs\Ansys\Mechanical\UI\index.md
             items:
-            - name: The `Enums` package
+            - name: Enums
               href: api\ansys\mechanical\stubs\Ansys\Mechanical\UI\Enums\index.md
               items:
               - name: ThemeName
                 href: api\ansys\mechanical\stubs\Ansys\Mechanical\UI\Enums\ThemeName.md
-            - name: The `Interfaces` package
+            - name: Interfaces
               href: api\ansys\mechanical\stubs\Ansys\Mechanical\UI\Interfaces\index.md
               items:
               - name: IMechanicalTheme
