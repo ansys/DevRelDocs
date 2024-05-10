@@ -1,10 +1,3 @@
-<!-- Mechanical documentation master file, created by
-sphinx-quickstart on Fri Aug 18 17:09:15 2023.
-You can adapt this file completely to your liking, but it should at least
-contain the root `toctree` directive. -->
-
-
-
 # Mechanical API Documentation
 
 The following documentation examines the APIs used in Ansys Mechanical. It provides descriptions
