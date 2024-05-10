@@ -1,0 +1,58 @@
+<a id="convergencetype"></a>
+
+# ConvergenceType
+
+<a id="ConvergenceType"></a>
+
+### *class* ConvergenceType
+
+Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
+
+> Specifies the ConvergenceType.
+
+> <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
+
+## Overview
+
+### Attributes
+
+| [`Frequency`](#ConvergenceType.Frequency)           |    |
+|-----------------------------------------------------|----|
+| [`Maximum`](#ConvergenceType.Maximum)               |    |
+| [`Minimum`](#ConvergenceType.Minimum)               |    |
+| [`ForceSummation`](#ConvergenceType.ForceSummation) |    |
+| [`Torque`](#ConvergenceType.Torque)                 |    |
+
+<a id="import-detail"></a>
+
+## Import detail
+
+```python
+from ansys.mechanical.stubs.Ansys.Mechanical.DataModel.Enums import ConvergenceType
+```
+
+<a id="attribute-detail"></a>
+
+## Attribute detail
+
+<a id="ConvergenceType.Frequency"></a>
+
+### ConvergenceType.Frequency *= 4*
+
+<a id="ConvergenceType.Maximum"></a>
+
+### ConvergenceType.Maximum *= 1*
+
+<a id="ConvergenceType.Minimum"></a>
+
+### ConvergenceType.Minimum *= 0*
+
+<a id="ConvergenceType.ForceSummation"></a>
+
+### ConvergenceType.ForceSummation *= 2*
+
+<a id="ConvergenceType.Torque"></a>
+
+### ConvergenceType.Torque *= 3*

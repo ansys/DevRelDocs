@@ -1487,7 +1487,7 @@ a tuple containing a list of column labels and a 2d array with floats for all ce
 
 ### *class* compolyx.LookUpTable1D(obj, parent=None)
 
-Bases: [`LookUpTableBase`](#compolyx.LookUpTableBase)
+Bases: [`LookUpTableBase`](#class-compolyxanalysisplygraph-obj-parentnone)
 
 A LookUpTable to associate arbitrary data to a one-dimensional field of Locations
 
@@ -1649,7 +1649,7 @@ Use global coordinate system for origin and direction
 
 ### *class* compolyx.CylindricalSelectionRule(graph, obj, parent=None)
 
-Bases: [`ElementSelectionRule`](#compolyx.ElementSelectionRule)
+Bases: [`ElementSelectionRule`](#class-compolyxparallelselectionrulegraph-obj-parentnone)
 
 Cylindrical Selection Rule
 
