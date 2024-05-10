@@ -1,0 +1,9 @@
+{
+  "build": {
+    "globalMetadata": {
+      "title": "Motion Standalone Postprocessor C# library ",
+      "summary": "Motion Standalone Postprocessor C# library ",
+      "version": ""
+    }
+  }
+}
