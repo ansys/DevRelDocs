@@ -47,7 +47,7 @@ The Ansys Motion Standalone Postprocessor C# Library is installed with the Ansys
 	* [Result File Reader](changelog_result_file_reader_api.md)
 	* [Operation API](changelog_operation_api.md)
 
-# System Requirements
+## System Requirements
 
 The Ansys Motion Standalone Postprocesor C# Library requires a development environment with the .NET framework version 4.8.
 
