@@ -1,19 +1,24 @@
 # Getting Started with the Python language
+
 The Ansys Motion Standalone Preprocessor C# library can be used in the python code by using [Python.NET](https://pythonnet.github.io/) or [IronPython](https://ironpython.net/).
 
 ## System requirements
+
 If you are using CPython, you will need to install Python.NET first.
+
 ```
 pip install pythonnet
 ```
 
 It's a good idea to add the Motion\bin directory to your PATH environment variable. You can do this in the Python code as follows:
+
 ```
 import sys
 sys.path.append('Ansys installed path/Motion/bin')
 ```
 
 ## The [Api](lib/VM.Managed.DAFUL.Pre.Api.md) class
+
 The Ansys Motion Standalone Preprocessor C# library supports the headless application interface. The [Api](lib/VM.Managed.DAFUL.Pre.Api.md) class allows you to use it.
 
 ```
@@ -27,7 +32,9 @@ app.Dispose()
 ```
 
 ## The [Session](lib/VM.CAD.Kernel.ISession.md) Class
+
 All operations of the Ansys Motion Standalone Preprocessor must be called within the [Session](lib/VM.CAD.Kernel.ISession.md) in the following way:
+
 ```
 import clr
 clr.AddReference("dfpreAPI")
@@ -41,7 +48,9 @@ app.Dispose()
 ```
 
 ## Disable History
+
 It is highly recommended to disable the History Manager when using the headless application interface.
+
 ```
 import clr
 clr.AddReference("VMHist")
@@ -51,7 +60,9 @@ HistoryManager.UseHistoryManager = False
 ```
 
 ## Example
+
 The following sample code illustrates how to create and analyze a simple free-fall model:
+
 ```
 # Using Pythoh.NET
 import clr
@@ -97,7 +108,9 @@ session.Dispose()
 # Shutdown headless application interface
 app.Dispose()
 ```
+
 ## See also
+
 * [Python.NET](https://pythonnet.github.io/)
 * [IronPython](https://ironpython.net/)
 * [Reference](lib/VM.md)

@@ -1,13 +1,17 @@
 ﻿# Getting Started with the Python language
+
 The Ansys Motion Standalone Postprocessor C# library can be used in the python code by using [Python.NET](https://pythonnet.github.io/) or [IronPython](https://ironpython.net/).
 
 ## System requirements
 
 If you are using CPython, you will need to install Python.NET first.
+
 ```
 pip install pythonnet
 ```
+
 It's a good idea to add the Motion\bin directory to your PATH environment variable. You can do this in the Python code as follows:
+
 ```
 import sys
 sys.path.append('Ansys installed path/Motion/bin')
@@ -36,6 +40,7 @@ The Postprocessor API is a functionality that allows you to access Ansys Motion 
 ## Example
 
 The following sample code demonstrates how to create curves :
+
 ```
 # Using Python.NET
 import clr
@@ -66,6 +71,7 @@ outputReader.Close()
 ```
 
 ## See also
+
 * [Python.NET](https://pythonnet.github.io/)
 * [IronPython](https://ironpython.net/)
 * [Reference](lib/VM.md)

@@ -5,6 +5,7 @@ The Ansys Motion Standalone Postprocessor C# library can be used in the python c
 ## System requirements
 
 If you are using CPython, you will need to install Python.NET first.
+
 ```
 pip install pythonnet
 ```
@@ -19,12 +20,14 @@ The combination of these paths(Characteristics, Components) can be used as input
 ## How to execute Operation API
 
 For executing operations, Import file includes Python script as follows :
+
 - Make the file includes operation script.
 - Import the file on Postprocessor.(Dropdown menu -> Import -> Python Script)
 
 ![Import Python Script](images/getting_started_operationscript.png)
 
 ## The [API](lib/VM.Operations.Post.Interfaces.md) class
+
 The Ansys Motion Standalone Postprocessor C# library supports the headless application interface. The [API](lib/VM.Operations.Post.Interfaces.md) class allows you to use it.
 
 ```
@@ -32,11 +35,12 @@ from VM.Operations.Post.Models import *
 
 applicationHandler = ApplicationHandler()
 # Enter your code here.
-
 ```
 
 ## Example
+
 The following sample code illustrates how to create and analyze a simple example:
+
 ```
 # Using Python.NET
 
@@ -75,10 +79,10 @@ applicationHandler.RemoveView("view name"")
 
 # Close a Document
 applicationHandler.RemoveDocument("result file path")
-
 ```
 
 ## See also
+
 * [Python.NET](https://pythonnet.github.io/)
 * [IronPython](https://ironpython.net/)
 * [Reference](lib/VM.md)
