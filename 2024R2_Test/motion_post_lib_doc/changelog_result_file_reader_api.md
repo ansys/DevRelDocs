@@ -1,4 +1,4 @@
-﻿# Change log
+# Change log
 
 | Version | Before | After | Type |
 |---|---|---|---|

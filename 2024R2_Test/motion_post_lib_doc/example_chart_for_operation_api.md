@@ -1,4 +1,4 @@
-﻿# Chart
+# Chart
 
 The following sample code illustrates how to create a simple example.
 
