@@ -1,4 +1,4 @@
-﻿# Getting Started with the Python language
+# Getting Started with the Python language
 
 The Ansys Motion Standalone Postprocessor C# library can be used in the python code by using [Python.NET](https://pythonnet.github.io/) or [IronPython](https://ironpython.net/).
 
@@ -15,7 +15,7 @@ pip install pythonnet
 * As shown in the figures below, to create curves using the Operation API, you need to know the following information. When you see the "AddCurves" function within the UI, you can observe Characteristics and Components.
 The combination of these paths(Characteristics, Components) can be used as input values within the function "AddCurves"
 
-	![Notes](images/Example_Notes_For_OperationAPI.png)
+![Notes](images/Example_Notes_For_OperationAPI.png)
 
 ## How to execute Operation API
 
@@ -45,6 +45,7 @@ The following sample code illustrates how to create and analyze a simple example
 # Using Python.NET
 
 # Import the appropriate classes from .Net C# library.
+
 from System.Collections.Generic import List
 
 # Import the appropriate classes from the Ansys Motion Standalone Postprocessor C# library.
