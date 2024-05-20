@@ -4,13 +4,13 @@ The Ansys Motion Standalone Preprocessor C# Library provides a class library for
 
 The library is divided into two main categories.
 
-### Model Data Class Library
+## Model Data Class Library
 
 The Model Data Class Library is a collection of model data classes used in the actual Ansys Motion Standalone Preprocessor.
 
 This class library allows you to access and edit the properties of all models in Ansys Motion Standalone Preprocessor.
 
-### API Class Library
+## API Class Library
 
 The API class library, located in the VM.API.Pre.* namespace, provides a set of functions corresponding to the actions provided by the Ansys Motion Standalone Preprocessor.
 

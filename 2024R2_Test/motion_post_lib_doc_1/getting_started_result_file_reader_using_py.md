@@ -22,16 +22,11 @@ sys.path.append('Ansys installed path/Motion/bin')
 * PythonNet only support Python 2.7.x, 3.5.x, 3.6.x, 3.7.x and 3.8.x. If you are using Ironpython or run the Python script from the Scripting menu of Ansys Workbench, PythonNet may not be required.
 
 * As illustrated in the figures below, to create a Contour or Vector using the Result File Reader, you need to be aware of the following information:
-	* Within the UI, by accessing the "Contour" function, you can observe Characteristics and Components. The combination of these paths (Characteristics, Components) can be utilized as input values.
-	* Within the UI, by accessing the "Vector" function, you can observe Characteristics. These paths (Characteristics) can be used as input values.
-	
-	<center><img src="images/Example_Contour_For_ResultFileReader.png" /></center>
-	<center>Contour</center>
-    
-	<center>
-		<img src="images/Example_Vector_For_ResultFileReader.png">
-	</center>
-	<center>Vector</center>	
+  * Within the UI, by accessing the "Contour" function, you can observe Characteristics and Components. The combination of these paths (Characteristics, Components) can be utilized as input values.
+![Contour](images/Example_Contour_For_ResultFileReader.png)
+
+  * Within the UI, by accessing the "Vector" function, you can observe Characteristics. These paths (Characteristics) can be used as input values.
+![Vector](images/Example_Vector_For_ResultFileReader.png)
 
 ## How to execute Result File Reader
 
