@@ -48,7 +48,7 @@ The Postprocessor API is a functionality that allows you to access Ansys Motion 
  * Accessible functionalities by Python Script or C# Library.
 	* [Result File Reader](example_result_file_reader.md)
 
-# System Requirements
+## System Requirements
 
 The Ansys Motion Standalone Postprocesor C# Library requires a development environment with the .NET framework version 4.8.
 

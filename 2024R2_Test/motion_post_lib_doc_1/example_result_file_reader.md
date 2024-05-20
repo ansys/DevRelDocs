@@ -1,6 +1,7 @@
 # Example
 
 The following sample code illustrates how to create a simple example.
+
 * The example was created using "Ansys installed path/Motion/Document/Drive Train Models.zip".
 
 ## Common Settings

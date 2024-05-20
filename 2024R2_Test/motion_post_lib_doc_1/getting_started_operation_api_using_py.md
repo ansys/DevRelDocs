@@ -15,7 +15,7 @@ pip install pythonnet
 * As shown in the figures below, to create curves using the Operation API, you need to know the following information. When you see the "AddCurves" function within the UI, you can observe Characteristics and Components.
 The combination of these paths(Characteristics, Components) can be used as input values within the function "AddCurves"
 
-	![Notes](images/Example_Notes_For_OperationAPI.png)
+![Notes](images/Example_Notes_For_OperationAPI.png)
 
 ## How to execute Operation API
 
