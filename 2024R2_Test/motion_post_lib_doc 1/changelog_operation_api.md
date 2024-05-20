@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2023R1
+
 | Before | After | Type |
 |---|---|------|
 ||	from VM.Models.Post import *														| Added	|
@@ -19,6 +20,7 @@
 |ExportImage(IChartViewModel lineViewModel, string filepath, ExportType exportType, double width, double height) | ExportImage(IChartViewModel lineViewModel, string filepath, **ImageFormat formatType**, double width, double height) | Modified	|
 
 ## 2023R2
+
 | Before | After | Type |
 |---|---|------|
 ||	from VM.Models.Post import *														| Added	|
@@ -37,6 +39,7 @@
 |ExportImage(IChartViewModel lineViewModel, string filepath, ExportType exportType, double width, double height) | ExportImage(IChartViewModel lineViewModel, string filepath, **ImageFormat formatType**, double width, double height) | Modified	|
 
 ## 2024R1
+
 | Before | After | Type |
 |---|---|---|
 ||from VM.Models.Post import *																				   | Added	|

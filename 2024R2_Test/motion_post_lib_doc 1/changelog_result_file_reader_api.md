@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2023R1
+
 | Before | After | Type |
 |---|---|---|
 || from VM.Models.OutputReader import *																																								  | Added  |
@@ -10,6 +11,7 @@
 | IDictionary<string, IVectorDisplayAnimatinoData> GetVector() | **IDictionary<string, IVectorDisplayAnimationData>**	GetVector() 	| Modified |
 
 ## 2023R2
+
 | Before | After | Type |
 |---|---|---|
 ||from VM.Models.OutputReader import *																			 | Added  |
@@ -19,6 +21,7 @@
 |IDictionary<string, IVectorDisplayAnimatinoData> GetVector() | **IDictionary<string, IVectorDisplayAnimationData>** GetVector()| Modified |
 
 ## 2024R1
+
 | Before | After | Type |
 |---|---|---|
 ||from VM.Models.OutputReader import *									   									| Added  |

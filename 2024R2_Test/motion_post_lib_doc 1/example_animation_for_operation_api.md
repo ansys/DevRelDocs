@@ -1,7 +1,11 @@
 # Animation
+
 The following sample code illustrates how to create a simple example.
+
 * The example was created using "Ansys installed path/Motion/Document/Modal Flex.zip"
+
 ## Common Settings
+
 ```
 # Import the appropriate classes from .Net C# library.
 from System.Collections.Generic import List
@@ -26,7 +30,9 @@ applicationHandler.AddDocument(paths)
 ```
 
 ## Create Coordinate System
+
 The Coordinate system can be created from various entities in the result as below, and this example describes how to create the Coordinate System.
+
 * Rigid Body
 * FE Node
 * Marker

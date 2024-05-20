@@ -1,4 +1,5 @@
 # Example
+
 The following sample code illustrates how to create a simple example.
 * The example was created using "Ansys installed path/Motion/Document/Drive Train Models.zip".
 
@@ -22,10 +23,13 @@ from VM.Models.OutputReader import *
 ```
 
 ## Create Coordinate System
+
 The Coordinate system can be created from various entities in the result as below, and this example describes how to create the Coordinate System.
+
 * Rigid Body
 * FE Node
 * Marker
+
 ```
 # newName - Specifies the name of the marker.
 # parentFullName - Specifies the name of parent.
@@ -38,7 +42,9 @@ outputReader.CreateCoordinateSystem("MarkerCSYS", "ShaftSet1st_Section_01_1/CM")
 ```
 
 ## Plot
+
 It is the simplest example of a Python script to print plot data.
+
 * For combinations of paths(Characteristic, Component), refer to Notes in [Getting Started with the Python language](getting_started_operation_api_using_py.md).
 
 ![Plot](images/Example_Plot_For_ResultFileReader.png)
@@ -62,7 +68,9 @@ outputReader.Close()
 ```
 
 ## Contour Export
+
 Export contour results to a file.??
+
 * For combinations of paths(Characteristic, Component), refer to Note in [Result File Reader using Python language](getting_started_result_file_reader_using_py.md).
 
 ```
@@ -84,6 +92,7 @@ outputReader.ExportContourResultToFile(r'export file path', System.IO.FileMode.C
 ```
 
 ## Vector Export
+
 Export vector results to a file.
 
 ```
@@ -103,7 +112,9 @@ outputReader.ExportVectorDisplayToFile(r'export file path', stateids, targets, t
 ```
 
 ## Get Vector
+
 Get results from the Vector.
+
 * Refer to the Notes at location [Result File Reader using Python language](getting_started_result_file_reader_using_py.md) for the path(Characteristics) of the vector.
 
 ```
