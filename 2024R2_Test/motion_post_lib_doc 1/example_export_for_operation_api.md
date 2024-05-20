@@ -1,7 +1,11 @@
 # Example
+
 The following sample code illustrates how to create a simple example.
+
 * The example was created using "Ansys installed path/Motion/Document/Modal Flex.zip"
+
 ## Common Settings
+
 ```
 # Using Python.NET
 # Import the appropriate classes from .Net C# library.
@@ -32,13 +36,16 @@ applicationHandler.AddDocument(paths)
 Export all curves on active plot view.
 
 ![ExportAllCurves](images/Example_ExportAllCurves_For_OperationAPI.png)
+
 ```
 # Set the save file path
 chartView.ExportAllCurves(r'file path')
 ```
 
 ## Export Image
+
 Export image for plot view.
+
 ```
 # Using Python.NET
 
