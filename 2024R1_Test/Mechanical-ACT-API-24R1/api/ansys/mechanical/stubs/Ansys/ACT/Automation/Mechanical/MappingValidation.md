@@ -56,7 +56,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`DisplayDataType`](#MappingValidation.DisplayDataType)                                                             | Gets or sets the DisplayDataType.                                                          |
 | [`ShellFace`](#MappingValidation.ShellFace)                                                                         | Controls whether the displayed shell face lies on the bottom, middle, or top of the shell. |
 | [`ComplexComponent`](#MappingValidation.ComplexComponent)                                                           | Gets or sets the ComplexComponent.                                                         |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                               |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                               |
 | [`Children`](#MappingValidation.Children)                                                                           | Gets the list of children.                                                                 |
 | [`Comments`](#MappingValidation.Comments)                                                                           | Gets the list of associated comments.                                                      |
 | [`Figures`](#MappingValidation.Figures)                                                                             | Gets the list of associated figures.                                                       |
@@ -79,7 +79,7 @@ from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical import MappingValida
 
 <a id="MappingValidation.Type"></a>
 
-### *property* MappingValidation.Type *: [Ansys.Mechanical.DataModel.Enums.MappingValidationType](./../../../Mechanical/DataModel/Enums/MappingValidationType.md#MappingValidationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MappingValidation.Type *: [Ansys.Mechanical.DataModel.Enums.MappingValidationType](../../../Mechanical/DataModel/Enums/MappingValidationType.md#MappingValidationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Type property.
 
@@ -87,7 +87,7 @@ Type property.
 
 <a id="MappingValidation.Display"></a>
 
-### *property* MappingValidation.Display *: [Ansys.Mechanical.DataModel.Enums.MappingValidationDisplayOption](./../../../Mechanical/DataModel/Enums/MappingValidationDisplayOption.md#MappingValidationDisplayOption) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MappingValidation.Display *: [Ansys.Mechanical.DataModel.Enums.MappingValidationDisplayOption](../../../Mechanical/DataModel/Enums/MappingValidationDisplayOption.md#MappingValidationDisplayOption) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Display property.
 
@@ -103,7 +103,7 @@ LegendDivisions property.
 
 <a id="MappingValidation.IsolineThickness"></a>
 
-### *property* MappingValidation.IsolineThickness *: [Ansys.Mechanical.DataModel.Enums.MappingIsolineThicknessType](./../../../Mechanical/DataModel/Enums/MappingIsolineThicknessType.md#MappingIsolineThicknessType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MappingValidation.IsolineThickness *: [Ansys.Mechanical.DataModel.Enums.MappingIsolineThicknessType](../../../Mechanical/DataModel/Enums/MappingIsolineThicknessType.md#MappingIsolineThicknessType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 IsolineThickness property.
 
@@ -111,7 +111,7 @@ IsolineThickness property.
 
 <a id="MappingValidation.IsolineType"></a>
 
-### *property* MappingValidation.IsolineType *: [Ansys.Mechanical.DataModel.Enums.MappingIsolineLineType](./../../../Mechanical/DataModel/Enums/MappingIsolineLineType.md#MappingIsolineLineType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MappingValidation.IsolineType *: [Ansys.Mechanical.DataModel.Enums.MappingIsolineLineType](../../../Mechanical/DataModel/Enums/MappingIsolineLineType.md#MappingIsolineLineType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 IsolineType property.
 
@@ -175,7 +175,7 @@ Gets or sets the Layer.
 
 <a id="MappingValidation.DefineActiveSequenceBy"></a>
 
-### *property* MappingValidation.DefineActiveSequenceBy *: [Ansys.Mechanical.DataModel.Enums.ExternalLoadDefineActiveSequenceBy](./../../../Mechanical/DataModel/Enums/ExternalLoadDefineActiveSequenceBy.md#ExternalLoadDefineActiveSequenceBy) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MappingValidation.DefineActiveSequenceBy *: [Ansys.Mechanical.DataModel.Enums.ExternalLoadDefineActiveSequenceBy](../../../Mechanical/DataModel/Enums/ExternalLoadDefineActiveSequenceBy.md#ExternalLoadDefineActiveSequenceBy) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Control whether the active sequenced is defined by row or by value.
 
@@ -183,7 +183,7 @@ Control whether the active sequenced is defined by row or by value.
 
 <a id="MappingValidation.Component"></a>
 
-### *property* MappingValidation.Component *: [Ansys.Mechanical.DataModel.Enums.ExternalLoadDisplayComponentType](./../../../Mechanical/DataModel/Enums/ExternalLoadDisplayComponentType.md#ExternalLoadDisplayComponentType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MappingValidation.Component *: [Ansys.Mechanical.DataModel.Enums.ExternalLoadDisplayComponentType](../../../Mechanical/DataModel/Enums/ExternalLoadDisplayComponentType.md#ExternalLoadDisplayComponentType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Component.
 
@@ -191,7 +191,7 @@ Gets or sets the Component.
 
 <a id="MappingValidation.DisplayDataType"></a>
 
-### *property* MappingValidation.DisplayDataType *: [Ansys.Mechanical.DataModel.Enums.ExternalLoadDisplayDataType](./../../../Mechanical/DataModel/Enums/ExternalLoadDisplayDataType.md#ExternalLoadDisplayDataType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MappingValidation.DisplayDataType *: [Ansys.Mechanical.DataModel.Enums.ExternalLoadDisplayDataType](../../../Mechanical/DataModel/Enums/ExternalLoadDisplayDataType.md#ExternalLoadDisplayDataType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DisplayDataType.
 
@@ -199,7 +199,7 @@ Gets or sets the DisplayDataType.
 
 <a id="MappingValidation.ShellFace"></a>
 
-### *property* MappingValidation.ShellFace *: [Ansys.Mechanical.DataModel.Enums.ShellFaceType](./../../../Mechanical/DataModel/Enums/ShellFaceType.md#ShellFaceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MappingValidation.ShellFace *: [Ansys.Mechanical.DataModel.Enums.ShellFaceType](../../../Mechanical/DataModel/Enums/ShellFaceType.md#ShellFaceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Controls whether the displayed shell face lies on the bottom, middle, or top of the shell.
 
@@ -215,7 +215,7 @@ Gets or sets the ComplexComponent.
 
 <a id="MappingValidation.DataModelObjectCategory"></a>
 
-### *property* MappingValidation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MappingValidation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -299,7 +299,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### MappingValidation.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### MappingValidation.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

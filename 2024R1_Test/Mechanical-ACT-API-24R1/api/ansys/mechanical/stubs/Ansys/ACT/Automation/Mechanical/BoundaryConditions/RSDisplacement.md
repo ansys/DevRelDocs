@@ -41,7 +41,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`LoadData`](#RSDisplacement.LoadData)                                                                                 | Gets or sets the LoadData.                                    |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`BoundaryCondition`](#RSDisplacement.BoundaryCondition)                                                               | Gets or sets the BoundaryCondition.                           |
 | [`ScaleFactor`](#RSDisplacement.ScaleFactor)                                                                           | Gets or sets the ScaleFactor.                                 |
 | [`MissingMassEffectZPA`](#RSDisplacement.MissingMassEffectZPA)                                                         | Gets or sets the MissingMassEffectZPA.                        |
@@ -49,7 +49,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`RigidResponseEffectFreqEnd`](#RSDisplacement.RigidResponseEffectFreqEnd)                                             | Gets or sets the RigidResponseEffectFreqEnd.                  |
 | [`RigidResponseEffectZPA`](#RSDisplacement.RigidResponseEffectZPA)                                                     | Gets or sets the RigidResponseEffectZPA.                      |
 | [`Direction`](#RSDisplacement.Direction)                                                                               | Gets or sets the Direction.                                   |
-| [`RigidResponseEffectType`](./../../../../Mechanical/DataModel/Enums/RigidResponseEffectType.md#RigidResponseEffectType) | Gets or sets the RigidResponseEffectType.                     |
+| [`RigidResponseEffectType`](../../../../Mechanical/DataModel/Enums/RigidResponseEffectType.md#RigidResponseEffectType) | Gets or sets the RigidResponseEffectType.                     |
 | [`MissingMassEffect`](#RSDisplacement.MissingMassEffect)                                                               | Gets or sets the MissingMassEffect.                           |
 | [`RigidResponseEffect`](#RSDisplacement.RigidResponseEffect)                                                           | Gets or sets the RigidResponseEffect.                         |
 | [`Suppressed`](#RSDisplacement.Suppressed)                                                                             | Gets or sets the Suppressed.                                  |
@@ -83,7 +83,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="RSDisplacement.LoadData"></a>
 
-### *property* RSDisplacement.LoadData *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSDisplacement.LoadData *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadData.
 
@@ -91,7 +91,7 @@ Gets or sets the LoadData.
 
 <a id="RSDisplacement.DataModelObjectCategory"></a>
 
-### *property* RSDisplacement.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSDisplacement.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -147,7 +147,7 @@ Gets or sets the RigidResponseEffectZPA.
 
 <a id="RSDisplacement.Direction"></a>
 
-### *property* RSDisplacement.Direction *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](./../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSDisplacement.Direction *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Direction.
 
@@ -155,7 +155,7 @@ Gets or sets the Direction.
 
 <a id="RSDisplacement.RigidResponseEffectType"></a>
 
-### *property* RSDisplacement.RigidResponseEffectType *: [Ansys.Mechanical.DataModel.Enums.RigidResponseEffectType](./../../../../Mechanical/DataModel/Enums/RigidResponseEffectType.md#RigidResponseEffectType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSDisplacement.RigidResponseEffectType *: [Ansys.Mechanical.DataModel.Enums.RigidResponseEffectType](../../../../Mechanical/DataModel/Enums/RigidResponseEffectType.md#RigidResponseEffectType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RigidResponseEffectType.
 
@@ -195,7 +195,7 @@ Gets the list of children.
 
 <a id="RSDisplacement.Comments"></a>
 
-### *property* RSDisplacement.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSDisplacement.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -203,7 +203,7 @@ Gets the list of associated comments.
 
 <a id="RSDisplacement.Figures"></a>
 
-### *property* RSDisplacement.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSDisplacement.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -211,7 +211,7 @@ Gets the list of associated figures.
 
 <a id="RSDisplacement.Images"></a>
 
-### *property* RSDisplacement.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSDisplacement.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -263,7 +263,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### RSDisplacement.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### RSDisplacement.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

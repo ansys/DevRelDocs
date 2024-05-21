@@ -19,7 +19,7 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 | Name |
 | ----------------------------------------------------------------------- |
 | [`AugmentedLagrange`](#ContactFormulation.AugmentedLagrange) |
-| [`Beam`](./../../../ACT/Automation/Mechanical/Connections/Beam.md#Beam) |
+| [`Beam`](../../../ACT/Automation/Mechanical/Connections/Beam.md#Beam) |
 | [`NormalLagrange`](#ContactFormulation.NormalLagrange) |
 | [`MPC`](#ContactFormulation.MPC) |
 | [`ProgramControlled`](#ContactFormulation.ProgramControlled) |

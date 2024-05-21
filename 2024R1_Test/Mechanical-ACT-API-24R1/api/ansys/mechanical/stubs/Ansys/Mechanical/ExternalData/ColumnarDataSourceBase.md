@@ -16,20 +16,20 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 | Name | Description |
 |--------------------------------------------------------------------------------------------|-------------------------------------------------------|
-| [`Clear`](./../Table/ColumnarDataSourceBase.md#ColumnarDataSourceBase.Clear)                 |                                                       |
-| [`GetEnumerator`](./../Table/ColumnarDataSourceBase.md#ColumnarDataSourceBase.GetEnumerator) |                                                       |
-| [`RemoveAt`](./../Table/ColumnarDataSourceBase.md#ColumnarDataSourceBase.RemoveAt)           | Removes the import definition at the specified index. |
-| [`UseColumn`](./../Table/ColumnarDataSourceBase.md#ColumnarDataSourceBase.UseColumn)         |                                                       |
+| [`Clear`](../Table/ColumnarDataSourceBase.md#ColumnarDataSourceBase.Clear)                 |                                                       |
+| [`GetEnumerator`](../Table/ColumnarDataSourceBase.md#ColumnarDataSourceBase.GetEnumerator) |                                                       |
+| [`RemoveAt`](../Table/ColumnarDataSourceBase.md#ColumnarDataSourceBase.RemoveAt)           | Removes the import definition at the specified index. |
+| [`UseColumn`](../Table/ColumnarDataSourceBase.md#ColumnarDataSourceBase.UseColumn)         |                                                       |
 
 ### Properties
 
 | Name | Description |
 |--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| [`Count`](./../Table/ColumnarDataSourceBase.md#ColumnarDataSourceBase.Count)           | Gets the number of column definitions.                                               |
-| [`Item`](./../Table/ColumnarDataSourceBase.md#ColumnarDataSourceBase.Item)             | Item property.                                                                       |
-| [`SkipFooter`](./../Table/ColumnarDataSourceBase.md#ColumnarDataSourceBase.SkipFooter) | Gets or sets the number of rows to ignore at the end of the file during import.      |
-| [`SkipRows`](./../Table/ColumnarDataSourceBase.md#ColumnarDataSourceBase.SkipRows)     | Gets or sets the number of rows to skip over at the start of the file during import. |
-| [`Format`](./../DataModel/Enums/GeometryImportPreference/Format.md#Format)             | Gets the existing corresponding format.                                              |
+| [`Count`](../Table/ColumnarDataSourceBase.md#ColumnarDataSourceBase.Count)           | Gets the number of column definitions.                                               |
+| [`Item`](../Table/ColumnarDataSourceBase.md#ColumnarDataSourceBase.Item)             | Item property.                                                                       |
+| [`SkipFooter`](../Table/ColumnarDataSourceBase.md#ColumnarDataSourceBase.SkipFooter) | Gets or sets the number of rows to ignore at the end of the file during import.      |
+| [`SkipRows`](../Table/ColumnarDataSourceBase.md#ColumnarDataSourceBase.SkipRows)     | Gets or sets the number of rows to skip over at the start of the file during import. |
+| [`Format`](../DataModel/Enums/GeometryImportPreference/Format.md#Format)             | Gets the existing corresponding format.                                              |
 
 <a id="import-detail"></a>
 
@@ -77,7 +77,7 @@ Gets or sets the number of rows to skip over at the start of the file during imp
 
 <a id="ColumnarDataSourceBase.Format"></a>
 
-### *property* ColumnarDataSourceBase.Format *: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat](./../DataModel/MechanicalEnums/ExternalData/ImportFormat.md#ImportFormat) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ColumnarDataSourceBase.Format *: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat](../DataModel/MechanicalEnums/ExternalData/ImportFormat.md#ImportFormat) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the existing corresponding format.
 
@@ -105,6 +105,6 @@ Removes the import definition at the specified index.
 
 <a id="ColumnarDataSourceBase.UseColumn"></a>
 
-### ColumnarDataSourceBase.UseColumn(index: System.Int32, variableType: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.VariableType](./../DataModel/MechanicalEnums/ExternalData/VariableType.md#VariableType), unit: System.String, name: System.String)
+### ColumnarDataSourceBase.UseColumn(index: System.Int32, variableType: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.VariableType](../DataModel/MechanicalEnums/ExternalData/VariableType.md#VariableType), unit: System.String, name: System.String)
 
 <!-- !! processed by numpydoc !! -->

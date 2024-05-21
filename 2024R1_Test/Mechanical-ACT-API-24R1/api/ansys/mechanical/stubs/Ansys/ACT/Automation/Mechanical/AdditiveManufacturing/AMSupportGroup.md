@@ -50,7 +50,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`OutputType`](#AMSupportGroup.OutputType)                                                                             | Gets or sets the OutputType.                                  |
 | [`GenerateOnRemesh`](#AMSupportGroup.GenerateOnRemesh)                                                                 | Gets or sets the GenerateOnRemesh.                            |
 | [`Location`](#AMSupportGroup.Location)                                                                                 | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#AMSupportGroup.Children)                                                                                 | Gets the list of children.                                    |
 | [`Comments`](#AMSupportGroup.Comments)                                                                                 | Gets the list of associated comments.                         |
 | [`Figures`](#AMSupportGroup.Figures)                                                                                   | Gets the list of associated figures.                          |
@@ -97,7 +97,7 @@ Gets or sets the DetectAboveZLocation.
 
 <a id="AMSupportGroup.OutputType"></a>
 
-### *property* AMSupportGroup.OutputType *: [Ansys.Mechanical.DataModel.Enums.AMSupportGroupOutputType](./../../../../Mechanical/DataModel/Enums/AMSupportGroupOutputType.md#AMSupportGroupOutputType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMSupportGroup.OutputType *: [Ansys.Mechanical.DataModel.Enums.AMSupportGroupOutputType](../../../../Mechanical/DataModel/Enums/AMSupportGroupOutputType.md#AMSupportGroupOutputType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the OutputType.
 
@@ -121,7 +121,7 @@ Gets or sets the Location.
 
 <a id="AMSupportGroup.DataModelObjectCategory"></a>
 
-### *property* AMSupportGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMSupportGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -137,7 +137,7 @@ Gets the list of children.
 
 <a id="AMSupportGroup.Comments"></a>
 
-### *property* AMSupportGroup.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMSupportGroup.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -145,7 +145,7 @@ Gets the list of associated comments.
 
 <a id="AMSupportGroup.Figures"></a>
 
-### *property* AMSupportGroup.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMSupportGroup.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -153,7 +153,7 @@ Gets the list of associated figures.
 
 <a id="AMSupportGroup.Images"></a>
 
-### *property* AMSupportGroup.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMSupportGroup.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -245,7 +245,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### AMSupportGroup.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### AMSupportGroup.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

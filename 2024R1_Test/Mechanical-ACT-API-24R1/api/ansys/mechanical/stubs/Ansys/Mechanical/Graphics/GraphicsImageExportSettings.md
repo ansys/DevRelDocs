@@ -57,7 +57,7 @@ Specifies whether to append the viewport graph(s) to the exported image. Default
 
 <a id="GraphicsImageExportSettings.Resolution"></a>
 
-### *property* GraphicsImageExportSettings.Resolution *: [Ansys.Mechanical.DataModel.Enums.GraphicsResolutionType](./../DataModel/Enums/GraphicsResolutionType.md#GraphicsResolutionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GraphicsImageExportSettings.Resolution *: [Ansys.Mechanical.DataModel.Enums.GraphicsResolutionType](../DataModel/Enums/GraphicsResolutionType.md#GraphicsResolutionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Specifies the resolution type. Defaults to NormalResolution.
 
@@ -65,7 +65,7 @@ Specifies the resolution type. Defaults to NormalResolution.
 
 <a id="GraphicsImageExportSettings.Capture"></a>
 
-### *property* GraphicsImageExportSettings.Capture *: [Ansys.Mechanical.DataModel.Enums.GraphicsCaptureType](./../DataModel/Enums/GraphicsCaptureType.md#GraphicsCaptureType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GraphicsImageExportSettings.Capture *: [Ansys.Mechanical.DataModel.Enums.GraphicsCaptureType](../DataModel/Enums/GraphicsCaptureType.md#GraphicsCaptureType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Specifies what to include in the capture. Defaults to ImageAndLegend.
 
@@ -73,7 +73,7 @@ Specifies what to include in the capture. Defaults to ImageAndLegend.
 
 <a id="GraphicsImageExportSettings.Background"></a>
 
-### *property* GraphicsImageExportSettings.Background *: [Ansys.Mechanical.DataModel.Enums.GraphicsBackgroundType](./../DataModel/Enums/GraphicsBackgroundType.md#GraphicsBackgroundType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GraphicsImageExportSettings.Background *: [Ansys.Mechanical.DataModel.Enums.GraphicsBackgroundType](../DataModel/Enums/GraphicsBackgroundType.md#GraphicsBackgroundType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Specifies the background color. Defaults to GraphicsAppearanceSetting.
 

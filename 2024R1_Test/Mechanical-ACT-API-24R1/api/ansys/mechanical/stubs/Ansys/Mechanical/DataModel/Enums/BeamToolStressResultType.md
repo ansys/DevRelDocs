@@ -18,11 +18,11 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 | Name |
 | -------------------------------------------------------------------------------------------------------------------------------------- |
-| [`DirectStress`](./../../../ACT/Automation/Mechanical/Results/BeamToolResults/DirectStress.md#DirectStress) |
-| [`MinimumBendingStress`](./../../../ACT/Automation/Mechanical/Results/BeamToolResults/MinimumBendingStress.md#MinimumBendingStress) |
-| [`MaximumBendingStress`](./../../../ACT/Automation/Mechanical/Results/BeamToolResults/MaximumBendingStress.md#MaximumBendingStress) |
-| [`MinimumCombinedStress`](./../../../ACT/Automation/Mechanical/Results/BeamToolResults/MinimumCombinedStress.md#MinimumCombinedStress) |
-| [`MaximumCombinedStress`](./../../../ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress) |
+| [`DirectStress`](../../../ACT/Automation/Mechanical/Results/BeamToolResults/DirectStress.md#DirectStress) |
+| [`MinimumBendingStress`](../../../ACT/Automation/Mechanical/Results/BeamToolResults/MinimumBendingStress.md#MinimumBendingStress) |
+| [`MaximumBendingStress`](../../../ACT/Automation/Mechanical/Results/BeamToolResults/MaximumBendingStress.md#MaximumBendingStress) |
+| [`MinimumCombinedStress`](../../../ACT/Automation/Mechanical/Results/BeamToolResults/MinimumCombinedStress.md#MinimumCombinedStress) |
+| [`MaximumCombinedStress`](../../../ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress) |
 
 <a id="import-detail"></a>
 

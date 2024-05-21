@@ -20,9 +20,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 | ------------------------------------------------------------------------------------------------------------------------------------ |
 | [`AxiSymmetric`](#Model2DBehavior.AxiSymmetric) |
 | [`ByBody`](#Model2DBehavior.ByBody) |
-| [`GeneralAxisymmetric`](./../../../ACT/Automation/Mechanical/GeneralAxisymmetric.md#GeneralAxisymmetric) |
-| [`GeneralizedPlaneStrain`](./../../../ACT/Automation/Mechanical/BoundaryConditions/GeneralizedPlaneStrain.md#GeneralizedPlaneStrain) |
-| [`MeshExtrude`](./../../../ACT/Automation/Mechanical/MeshExtrude.md#MeshExtrude) |
+| [`GeneralAxisymmetric`](../../../ACT/Automation/Mechanical/GeneralAxisymmetric.md#GeneralAxisymmetric) |
+| [`GeneralizedPlaneStrain`](../../../ACT/Automation/Mechanical/BoundaryConditions/GeneralizedPlaneStrain.md#GeneralizedPlaneStrain) |
+| [`MeshExtrude`](../../../ACT/Automation/Mechanical/MeshExtrude.md#MeshExtrude) |
 | [`PlaneStrain`](#Model2DBehavior.PlaneStrain) |
 | [`PlaneStress`](#Model2DBehavior.PlaneStress) |
 

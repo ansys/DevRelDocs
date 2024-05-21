@@ -42,16 +42,16 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`SolutionContours`](#PreMeshedCrack.SolutionContours)                                                              | Gets or sets the SolutionContours.                            |
-| [`CrackSourceType`](./../../../Mechanical/DataModel/Enums/CrackSourceType.md#CrackSourceType)                         | Gets the CrackSourceType.                                     |
+| [`CrackSourceType`](../../../Mechanical/DataModel/Enums/CrackSourceType.md#CrackSourceType)                         | Gets the CrackSourceType.                                     |
 | [`ScopingMethod`](#PreMeshedCrack.ScopingMethod)                                                                    | Gets the ScopingMethod.                                       |
 | [`CrackSymmetry`](#PreMeshedCrack.CrackSymmetry)                                                                    | Gets or sets the CrackSymmetry.                               |
 | [`CrackFacesNodes`](#PreMeshedCrack.CrackFacesNodes)                                                                | Gets or sets the CrackFacesNodes.                             |
 | [`Suppressed`](#PreMeshedCrack.Suppressed)                                                                          | Gets or sets the Suppressed.                                  |
 | [`CrackFront`](#PreMeshedCrack.CrackFront)                                                                          | Gets or sets the CrackFront.                                  |
-| [`CoordinateSystem`](./../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
+| [`CoordinateSystem`](../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
 | [`BottomFaceNodes`](#PreMeshedCrack.BottomFaceNodes)                                                                | Gets or sets the BottomFaceNodes.                             |
 | [`TopFaceNodes`](#PreMeshedCrack.TopFaceNodes)                                                                      | Gets or sets the TopFaceNodes.                                |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`CrackID`](#PreMeshedCrack.CrackID)                                                                                | Gets the CrackID.                                             |
 | [`Children`](#PreMeshedCrack.Children)                                                                              | Gets the list of children.                                    |
 | [`Comments`](#PreMeshedCrack.Comments)                                                                              | Gets the list of associated comments.                         |
@@ -92,7 +92,7 @@ Gets or sets the SolutionContours.
 
 <a id="PreMeshedCrack.CrackSourceType"></a>
 
-### *property* PreMeshedCrack.CrackSourceType *: [Ansys.Mechanical.DataModel.Enums.CrackSourceType](./../../../Mechanical/DataModel/Enums/CrackSourceType.md#CrackSourceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PreMeshedCrack.CrackSourceType *: [Ansys.Mechanical.DataModel.Enums.CrackSourceType](../../../Mechanical/DataModel/Enums/CrackSourceType.md#CrackSourceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the CrackSourceType.
 
@@ -100,7 +100,7 @@ Gets the CrackSourceType.
 
 <a id="PreMeshedCrack.ScopingMethod"></a>
 
-### *property* PreMeshedCrack.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](./../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PreMeshedCrack.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ScopingMethod.
 
@@ -164,7 +164,7 @@ Gets or sets the TopFaceNodes.
 
 <a id="PreMeshedCrack.DataModelObjectCategory"></a>
 
-### *property* PreMeshedCrack.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PreMeshedCrack.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -272,7 +272,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### PreMeshedCrack.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### PreMeshedCrack.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

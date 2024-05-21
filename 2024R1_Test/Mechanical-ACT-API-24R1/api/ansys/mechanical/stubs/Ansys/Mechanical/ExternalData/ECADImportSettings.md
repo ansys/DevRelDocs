@@ -17,7 +17,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | Name | Description |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
 | [`UseDummyNetData`](#ECADImportSettings.UseDummyNetData)                 | The UseDummyNetData falg of the ECAD file. For External Data files that include trace mapping,   |
-| [`Format`](./../DataModel/Enums/GeometryImportPreference/Format.md#Format) | Gets the existing corresponding format.                                                          |
+| [`Format`](../DataModel/Enums/GeometryImportPreference/Format.md#Format) | Gets the existing corresponding format.                                                          |
 
 <a id="import-detail"></a>
 
@@ -42,7 +42,7 @@ selecting this option enables you to import trace data belonging to the dummy ne
 
 <a id="ECADImportSettings.Format"></a>
 
-### *property* ECADImportSettings.Format *: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat](./../DataModel/MechanicalEnums/ExternalData/ImportFormat.md#ImportFormat) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ECADImportSettings.Format *: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat](../DataModel/MechanicalEnums/ExternalData/ImportFormat.md#ImportFormat) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the existing corresponding format.
 

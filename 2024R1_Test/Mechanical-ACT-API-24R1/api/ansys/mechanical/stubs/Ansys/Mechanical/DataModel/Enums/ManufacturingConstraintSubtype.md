@@ -18,16 +18,16 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 | Name |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`ComplexityIndexConstraint`](./../../../ACT/Automation/Mechanical/ComplexityIndexConstraint.md#ComplexityIndexConstraint) |
-| [`CyclicManufacturingConstraint`](./../../../ACT/Automation/Mechanical/CyclicManufacturingConstraint.md#CyclicManufacturingConstraint) |
-| [`ExtrusionManufacturingConstraint`](./../../../ACT/Automation/Mechanical/ExtrusionManufacturingConstraint.md#ExtrusionManufacturingConstraint) |
-| [`HousingConstraint`](./../../../ACT/Automation/Mechanical/HousingConstraint.md#HousingConstraint) |
-| [`MemberSizeManufacturingConstraint`](./../../../ACT/Automation/Mechanical/MemberSizeManufacturingConstraint.md#MemberSizeManufacturingConstraint) |
+| [`ComplexityIndexConstraint`](../../../ACT/Automation/Mechanical/ComplexityIndexConstraint.md#ComplexityIndexConstraint) |
+| [`CyclicManufacturingConstraint`](../../../ACT/Automation/Mechanical/CyclicManufacturingConstraint.md#CyclicManufacturingConstraint) |
+| [`ExtrusionManufacturingConstraint`](../../../ACT/Automation/Mechanical/ExtrusionManufacturingConstraint.md#ExtrusionManufacturingConstraint) |
+| [`HousingConstraint`](../../../ACT/Automation/Mechanical/HousingConstraint.md#HousingConstraint) |
+| [`MemberSizeManufacturingConstraint`](../../../ACT/Automation/Mechanical/MemberSizeManufacturingConstraint.md#MemberSizeManufacturingConstraint) |
 | [`OverhangAngleManufacturingConstraint`](#ManufacturingConstraintSubtype.OverhangAngleManufacturingConstraint) |
-| [`PatternRepetitionConstraint`](./../../../ACT/Automation/Mechanical/PatternRepetitionConstraint.md#PatternRepetitionConstraint) |
-| [`PullOutDirectionManufacturingConstraint`](./../../../ACT/Automation/Mechanical/PullOutDirectionManufacturingConstraint.md#PullOutDirectionManufacturingConstraint) |
-| [`SymmetryManufacturingConstraint`](./../../../ACT/Automation/Mechanical/SymmetryManufacturingConstraint.md#SymmetryManufacturingConstraint) |
-| [`UniformConstraint`](./../../../ACT/Automation/Mechanical/UniformConstraint.md#UniformConstraint) |
+| [`PatternRepetitionConstraint`](../../../ACT/Automation/Mechanical/PatternRepetitionConstraint.md#PatternRepetitionConstraint) |
+| [`PullOutDirectionManufacturingConstraint`](../../../ACT/Automation/Mechanical/PullOutDirectionManufacturingConstraint.md#PullOutDirectionManufacturingConstraint) |
+| [`SymmetryManufacturingConstraint`](../../../ACT/Automation/Mechanical/SymmetryManufacturingConstraint.md#SymmetryManufacturingConstraint) |
+| [`UniformConstraint`](../../../ACT/Automation/Mechanical/UniformConstraint.md#UniformConstraint) |
 
 <a id="import-detail"></a>
 

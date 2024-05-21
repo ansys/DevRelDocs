@@ -26,7 +26,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Value`](#NamedSelectionCriterion.Value)                               | Value property.            |
 | [`LowerBound`](#NamedSelectionCriterion.LowerBound)                     | LowerBound property.       |
 | [`UpperBound`](#NamedSelectionCriterion.UpperBound)                     | UpperBound property.       |
-| [`CoordinateSystem`](./../../Common/CoordinateSystem.md#CoordinateSystem) | CoordinateSystem property. |
+| [`CoordinateSystem`](../../Common/CoordinateSystem.md#CoordinateSystem) | CoordinateSystem property. |
 
 <a id="import-detail"></a>
 
@@ -50,7 +50,7 @@ Active property.
 
 <a id="NamedSelectionCriterion.Action"></a>
 
-### *property* NamedSelectionCriterion.Action *: [Ansys.Mechanical.DataModel.Enums.SelectionActionType](./../../../Mechanical/DataModel/Enums/SelectionActionType.md#SelectionActionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelectionCriterion.Action *: [Ansys.Mechanical.DataModel.Enums.SelectionActionType](../../../Mechanical/DataModel/Enums/SelectionActionType.md#SelectionActionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Action property.
 
@@ -58,7 +58,7 @@ Action property.
 
 <a id="NamedSelectionCriterion.EntityType"></a>
 
-### *property* NamedSelectionCriterion.EntityType *: [Ansys.Mechanical.DataModel.Enums.SelectionType](./../../../Mechanical/DataModel/Enums/SelectionType.md#SelectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelectionCriterion.EntityType *: [Ansys.Mechanical.DataModel.Enums.SelectionType](../../../Mechanical/DataModel/Enums/SelectionType.md#SelectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 EntityType property.
 
@@ -66,7 +66,7 @@ EntityType property.
 
 <a id="NamedSelectionCriterion.Criterion"></a>
 
-### *property* NamedSelectionCriterion.Criterion *: [Ansys.Mechanical.DataModel.Enums.SelectionCriterionType](./../../../Mechanical/DataModel/Enums/SelectionCriterionType.md#SelectionCriterionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelectionCriterion.Criterion *: [Ansys.Mechanical.DataModel.Enums.SelectionCriterionType](../../../Mechanical/DataModel/Enums/SelectionCriterionType.md#SelectionCriterionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Criterion property.
 
@@ -74,7 +74,7 @@ Criterion property.
 
 <a id="NamedSelectionCriterion.Operator"></a>
 
-### *property* NamedSelectionCriterion.Operator *: [Ansys.Mechanical.DataModel.Enums.SelectionOperatorType](./../../../Mechanical/DataModel/Enums/SelectionOperatorType.md#SelectionOperatorType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelectionCriterion.Operator *: [Ansys.Mechanical.DataModel.Enums.SelectionOperatorType](../../../Mechanical/DataModel/Enums/SelectionOperatorType.md#SelectionOperatorType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Operator property.
 

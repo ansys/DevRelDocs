@@ -21,12 +21,12 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 | [`XRotation`](#CouplingConditionDOFType.XRotation) |
 | [`YRotation`](#CouplingConditionDOFType.YRotation) |
 | [`ZRotation`](#CouplingConditionDOFType.ZRotation) |
-| [`Temperature`](./../../../ACT/Automation/Mechanical/BoundaryConditions/Temperature.md#Temperature) |
+| [`Temperature`](../../../ACT/Automation/Mechanical/BoundaryConditions/Temperature.md#Temperature) |
 | [`Unknown`](#CouplingConditionDOFType.Unknown) |
 | [`XDisplacement`](#CouplingConditionDOFType.XDisplacement) |
 | [`YDisplacement`](#CouplingConditionDOFType.YDisplacement) |
 | [`ZDisplacement`](#CouplingConditionDOFType.ZDisplacement) |
-| [`Voltage`](./../../../ACT/Automation/Mechanical/BoundaryConditions/Voltage.md#Voltage) |
+| [`Voltage`](../../../ACT/Automation/Mechanical/BoundaryConditions/Voltage.md#Voltage) |
 
 <a id="import-detail"></a>
 

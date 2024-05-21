@@ -36,10 +36,10 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Unit`](#MechanicalGraphicsWrapper.Unit)                                                                 | Gets the current graphics unit.                           |
 | [`ModelViewManager`](ModelViewManager.md#ModelViewManager)                                                | An instance of the ModelViewManager.                      |
 | [`KeyframeAnimationUtility`](#MechanicalGraphicsWrapper.KeyframeAnimationUtility)                         | A utility for creating animations based on keyframes.     |
-| [`ResultAnimationOptions`](./../../../Mechanical/Graphics/ResultAnimationOptions.md#ResultAnimationOptions) | Gets the Global Result Animation options.                 |
-| [`SectionPlanes`](./../../../Mechanical/Graphics/SectionPlanes.md#SectionPlanes)                            | Returns the collection of section planes used by graphics |
-| [`ViewOptions`](./../../../Mechanical/Graphics/ViewOptions.md#ViewOptions)                                  | Gets the Graphics View Options.                           |
-| [`GlobalLegendSettings`](./../../../Mechanical/Graphics/GlobalLegendSettings.md#GlobalLegendSettings)       | Gets the Global Graphics Legend Settings.                 |
+| [`ResultAnimationOptions`](../../../Mechanical/Graphics/ResultAnimationOptions.md#ResultAnimationOptions) | Gets the Global Result Animation options.                 |
+| [`SectionPlanes`](../../../Mechanical/Graphics/SectionPlanes.md#SectionPlanes)                            | Returns the collection of section planes used by graphics |
+| [`ViewOptions`](../../../Mechanical/Graphics/ViewOptions.md#ViewOptions)                                  | Gets the Graphics View Options.                           |
+| [`GlobalLegendSettings`](../../../Mechanical/Graphics/GlobalLegendSettings.md#GlobalLegendSettings)       | Gets the Global Graphics Legend Settings.                 |
 | [`Camera`](#MechanicalGraphicsWrapper.Camera)                                                             | Gets the camera.                                          |
 | [`Scene`](#MechanicalGraphicsWrapper.Scene)                                                               | Gets the scene.                                           |
 
@@ -65,7 +65,7 @@ Gets the current graphics unit.
 
 <a id="MechanicalGraphicsWrapper.ModelViewManager"></a>
 
-### *property* MechanicalGraphicsWrapper.ModelViewManager *: [Ansys.ACT.Interfaces.Graphics.IModelViewManager](./../../Interfaces/Graphics/IModelViewManager.md#IModelViewManager) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MechanicalGraphicsWrapper.ModelViewManager *: [Ansys.ACT.Interfaces.Graphics.IModelViewManager](../../Interfaces/Graphics/IModelViewManager.md#IModelViewManager) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 An instance of the ModelViewManager.
 
@@ -81,7 +81,7 @@ A utility for creating animations based on keyframes.
 
 <a id="MechanicalGraphicsWrapper.ResultAnimationOptions"></a>
 
-### *property* MechanicalGraphicsWrapper.ResultAnimationOptions *: [Ansys.Mechanical.Graphics.ResultAnimationOptions](./../../../Mechanical/Graphics/ResultAnimationOptions.md#ResultAnimationOptions) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MechanicalGraphicsWrapper.ResultAnimationOptions *: [Ansys.Mechanical.Graphics.ResultAnimationOptions](../../../Mechanical/Graphics/ResultAnimationOptions.md#ResultAnimationOptions) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Global Result Animation options.
 
@@ -89,7 +89,7 @@ Gets the Global Result Animation options.
 
 <a id="MechanicalGraphicsWrapper.SectionPlanes"></a>
 
-### *property* MechanicalGraphicsWrapper.SectionPlanes *: [Ansys.Mechanical.Graphics.SectionPlanes](./../../../Mechanical/Graphics/SectionPlanes.md#SectionPlanes) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MechanicalGraphicsWrapper.SectionPlanes *: [Ansys.Mechanical.Graphics.SectionPlanes](../../../Mechanical/Graphics/SectionPlanes.md#SectionPlanes) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Returns the collection of section planes used by graphics
 
@@ -97,7 +97,7 @@ Returns the collection of section planes used by graphics
 
 <a id="MechanicalGraphicsWrapper.ViewOptions"></a>
 
-### *property* MechanicalGraphicsWrapper.ViewOptions *: [Ansys.Mechanical.Graphics.ViewOptions](./../../../Mechanical/Graphics/ViewOptions.md#ViewOptions) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MechanicalGraphicsWrapper.ViewOptions *: [Ansys.Mechanical.Graphics.ViewOptions](../../../Mechanical/Graphics/ViewOptions.md#ViewOptions) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Graphics View Options.
 
@@ -105,7 +105,7 @@ Gets the Graphics View Options.
 
 <a id="MechanicalGraphicsWrapper.GlobalLegendSettings"></a>
 
-### *property* MechanicalGraphicsWrapper.GlobalLegendSettings *: [Ansys.Mechanical.Graphics.GlobalLegendSettings](./../../../Mechanical/Graphics/GlobalLegendSettings.md#GlobalLegendSettings) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MechanicalGraphicsWrapper.GlobalLegendSettings *: [Ansys.Mechanical.Graphics.GlobalLegendSettings](../../../Mechanical/Graphics/GlobalLegendSettings.md#GlobalLegendSettings) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Global Graphics Legend Settings.
 
@@ -141,7 +141,7 @@ ExportScreenToImage method.
 
 <a id="MechanicalGraphicsWrapper.ExportImage"></a>
 
-### MechanicalGraphicsWrapper.ExportImage(filePath: System.String, formatImage: [Ansys.Mechanical.DataModel.Enums.GraphicsImageExportFormat](./../../../Mechanical/DataModel/Enums/GraphicsImageExportFormat.md#GraphicsImageExportFormat), settings: [Ansys.Mechanical.Graphics.GraphicsImageExportSettings](./../../../Mechanical/Graphics/GraphicsImageExportSettings.md#GraphicsImageExportSettings))
+### MechanicalGraphicsWrapper.ExportImage(filePath: System.String, formatImage: [Ansys.Mechanical.DataModel.Enums.GraphicsImageExportFormat](../../../Mechanical/DataModel/Enums/GraphicsImageExportFormat.md#GraphicsImageExportFormat), settings: [Ansys.Mechanical.Graphics.GraphicsImageExportSettings](../../../Mechanical/Graphics/GraphicsImageExportSettings.md#GraphicsImageExportSettings))
 
 Exports the current graphics display to a 2D image file.
 
@@ -149,7 +149,7 @@ Exports the current graphics display to a 2D image file.
 
 <a id="MechanicalGraphicsWrapper.ExportViewports"></a>
 
-### MechanicalGraphicsWrapper.ExportViewports(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsImageExportFormat](./../../../Mechanical/DataModel/Enums/GraphicsImageExportFormat.md#GraphicsImageExportFormat), settings: [Ansys.Mechanical.Graphics.GraphicsViewportsExportSettings](./../../../Mechanical/Graphics/GraphicsViewportsExportSettings.md#GraphicsViewportsExportSettings))
+### MechanicalGraphicsWrapper.ExportViewports(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsImageExportFormat](../../../Mechanical/DataModel/Enums/GraphicsImageExportFormat.md#GraphicsImageExportFormat), settings: [Ansys.Mechanical.Graphics.GraphicsViewportsExportSettings](../../../Mechanical/Graphics/GraphicsViewportsExportSettings.md#GraphicsViewportsExportSettings))
 
 Creates a composite of images exported from each open viewport.
 
@@ -157,7 +157,7 @@ Creates a composite of images exported from each open viewport.
 
 <a id="MechanicalGraphicsWrapper.Export3D"></a>
 
-### MechanicalGraphicsWrapper.Export3D(filePath: System.String, format3d: [Ansys.Mechanical.DataModel.Enums.Graphics3DExportFormat](./../../../Mechanical/DataModel/Enums/Graphics3DExportFormat.md#Graphics3DExportFormat), settings: [Ansys.Mechanical.Graphics.Graphics3DExportSettings](./../../../Mechanical/Graphics/Graphics3DExportSettings.md#Graphics3DExportSettings))
+### MechanicalGraphicsWrapper.Export3D(filePath: System.String, format3d: [Ansys.Mechanical.DataModel.Enums.Graphics3DExportFormat](../../../Mechanical/DataModel/Enums/Graphics3DExportFormat.md#Graphics3DExportFormat), settings: [Ansys.Mechanical.Graphics.Graphics3DExportSettings](../../../Mechanical/Graphics/Graphics3DExportSettings.md#Graphics3DExportSettings))
 
 Exports the current Graphics display in a 3d format to a file.
 

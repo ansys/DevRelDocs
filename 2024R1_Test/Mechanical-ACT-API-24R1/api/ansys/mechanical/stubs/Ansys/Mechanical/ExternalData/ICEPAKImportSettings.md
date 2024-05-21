@@ -19,7 +19,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`SupportingFilePath`](#ICEPAKImportSettings.SupportingFilePath)               | The supporting file path of the ICEPAK INFO file.                                                |
 | [`SupportingFileIdentifier`](#ICEPAKImportSettings.SupportingFileIdentifier)   | The supporting file identifier. The identifier should be unique, otherwise, an exception will be |
 | [`SupportingFileDescription`](#ICEPAKImportSettings.SupportingFileDescription) | The supporting file description. This is optional.                                               |
-| [`Format`](./../DataModel/Enums/GeometryImportPreference/Format.md#Format)       | Gets the existing corresponding format.                                                          |
+| [`Format`](../DataModel/Enums/GeometryImportPreference/Format.md#Format)       | Gets the existing corresponding format.                                                          |
 
 <a id="import-detail"></a>
 
@@ -60,7 +60,7 @@ The supporting file description. This is optional.
 
 <a id="ICEPAKImportSettings.Format"></a>
 
-### *property* ICEPAKImportSettings.Format *: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat](./../DataModel/MechanicalEnums/ExternalData/ImportFormat.md#ImportFormat) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ICEPAKImportSettings.Format *: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat](../DataModel/MechanicalEnums/ExternalData/ImportFormat.md#ImportFormat) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the existing corresponding format.
 

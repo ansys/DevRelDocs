@@ -19,9 +19,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 | Name |
 | ------------------------------------------------------------------------------------------------------ |
 | [`ID`](#VariableType.ID) |
-| [`Pressure`](./../../../../ACT/Automation/Mechanical/BoundaryConditions/Pressure.md#Pressure) |
+| [`Pressure`](../../../../ACT/Automation/Mechanical/BoundaryConditions/Pressure.md#Pressure) |
 | [`HeatTransferCoefficient`](#VariableType.HeatTransferCoefficient) |
-| [`Temperature`](./../../../../ACT/Automation/Mechanical/BoundaryConditions/Temperature.md#Temperature) |
+| [`Temperature`](../../../../ACT/Automation/Mechanical/BoundaryConditions/Temperature.md#Temperature) |
 | [`ThetaCoordinate`](#VariableType.ThetaCoordinate) |
 | [`Time`](#VariableType.Time) |
 | [`XCoordinate`](#VariableType.XCoordinate) |

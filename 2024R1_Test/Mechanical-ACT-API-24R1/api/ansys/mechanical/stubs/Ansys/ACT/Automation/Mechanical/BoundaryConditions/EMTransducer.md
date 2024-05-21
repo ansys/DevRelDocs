@@ -53,9 +53,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`StiffnessMethod`](#EMTransducer.StiffnessMethod)                                                                     | Gets or sets the StiffnessMethod.                             |
 | [`GAPDirection`](#EMTransducer.GAPDirection)                                                                           | Gets or sets the GAPDirection.                                |
 | [`IndependentVariable`](#EMTransducer.IndependentVariable)                                                             | Gets or sets the IndependentVariable.                         |
-| [`CoordinateSystem`](./../../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets the CoordinateSystem.                                    |
+| [`CoordinateSystem`](../../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets the CoordinateSystem.                                    |
 | [`Location`](#EMTransducer.Location)                                                                                   | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Suppressed`](#EMTransducer.Suppressed)                                                                               | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#EMTransducer.SharedRefBody)                                                                         | Gets or sets the SharedRefBody.                               |
 | [`Children`](#EMTransducer.Children)                                                                                   | Gets the list of children.                                    |
@@ -97,7 +97,7 @@ Gets or sets the NumberOfSegments.
 
 <a id="EMTransducer.VoltageDifference"></a>
 
-### *property* EMTransducer.VoltageDifference *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EMTransducer.VoltageDifference *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the VoltageDifference.
 
@@ -129,7 +129,7 @@ Gets or sets the ZCoordinate.
 
 <a id="EMTransducer.StiffnessMethod"></a>
 
-### *property* EMTransducer.StiffnessMethod *: [Ansys.Mechanical.DataModel.Enums.StiffnessMethodType](./../../../../Mechanical/DataModel/Enums/StiffnessMethodType.md#StiffnessMethodType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EMTransducer.StiffnessMethod *: [Ansys.Mechanical.DataModel.Enums.StiffnessMethodType](../../../../Mechanical/DataModel/Enums/StiffnessMethodType.md#StiffnessMethodType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StiffnessMethod.
 
@@ -137,7 +137,7 @@ Gets or sets the StiffnessMethod.
 
 <a id="EMTransducer.GAPDirection"></a>
 
-### *property* EMTransducer.GAPDirection *: [Ansys.Mechanical.DataModel.Enums.GAPDirectionType](./../../../../Mechanical/DataModel/Enums/GAPDirectionType.md#GAPDirectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EMTransducer.GAPDirection *: [Ansys.Mechanical.DataModel.Enums.GAPDirectionType](../../../../Mechanical/DataModel/Enums/GAPDirectionType.md#GAPDirectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GAPDirection.
 
@@ -145,7 +145,7 @@ Gets or sets the GAPDirection.
 
 <a id="EMTransducer.IndependentVariable"></a>
 
-### *property* EMTransducer.IndependentVariable *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](./../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EMTransducer.IndependentVariable *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IndependentVariable.
 
@@ -153,7 +153,7 @@ Gets or sets the IndependentVariable.
 
 <a id="EMTransducer.CoordinateSystem"></a>
 
-### *property* EMTransducer.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EMTransducer.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the CoordinateSystem.
 
@@ -169,7 +169,7 @@ Gets or sets the Location.
 
 <a id="EMTransducer.DataModelObjectCategory"></a>
 
-### *property* EMTransducer.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EMTransducer.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -185,7 +185,7 @@ Gets or sets the Suppressed.
 
 <a id="EMTransducer.SharedRefBody"></a>
 
-### *property* EMTransducer.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](./../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EMTransducer.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -201,7 +201,7 @@ Gets the list of children.
 
 <a id="EMTransducer.Comments"></a>
 
-### *property* EMTransducer.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EMTransducer.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -209,7 +209,7 @@ Gets the list of associated comments.
 
 <a id="EMTransducer.Figures"></a>
 
-### *property* EMTransducer.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EMTransducer.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -217,7 +217,7 @@ Gets the list of associated figures.
 
 <a id="EMTransducer.Images"></a>
 
-### *property* EMTransducer.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EMTransducer.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -317,7 +317,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### EMTransducer.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### EMTransducer.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

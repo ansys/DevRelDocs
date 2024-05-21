@@ -18,8 +18,8 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 | Name |
 | -------------------------------------------------------------------------------------------------------- |
-| [`Displacement`](./../../../ACT/Automation/Mechanical/BoundaryConditions/Displacement.md#Displacement) |
-| [`Force`](./../../../ACT/Automation/Mechanical/BoundaryConditions/Force.md#Force) |
+| [`Displacement`](../../../ACT/Automation/Mechanical/BoundaryConditions/Displacement.md#Displacement) |
+| [`Force`](../../../ACT/Automation/Mechanical/BoundaryConditions/Force.md#Force) |
 | [`Free`](#BoundaryConditionAlongFiber.Free) |
 
 <a id="import-detail"></a>

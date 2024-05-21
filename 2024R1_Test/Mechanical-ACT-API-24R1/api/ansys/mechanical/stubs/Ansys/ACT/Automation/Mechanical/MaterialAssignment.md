@@ -45,14 +45,14 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`InternalObject`](#id0)                                                                                                              | Gets the internal object. For advanced usage only.            |
 | [`Material`](Material.md#Material)                                                                                                    | Gets or sets the Material.                                    |
 | [`ReferenceTemperatureValue`](#MaterialAssignment.ReferenceTemperatureValue)                                                          | Gets or sets the ReferenceTemperatureValue.                   |
-| [`MaterialPolarizationDirection`](./../../../Mechanical/DataModel/Enums/MaterialPolarizationDirection.md#MaterialPolarizationDirection) | Gets or sets the MaterialPolarizationDirection.               |
+| [`MaterialPolarizationDirection`](../../../Mechanical/DataModel/Enums/MaterialPolarizationDirection.md#MaterialPolarizationDirection) | Gets or sets the MaterialPolarizationDirection.               |
 | [`NonlinearEffects`](#MaterialAssignment.NonlinearEffects)                                                                            | Gets or sets the NonlinearEffects.                            |
 | [`Suppressed`](#MaterialAssignment.Suppressed)                                                                                        | Gets or sets the Suppressed.                                  |
 | [`ThermalStrainEffects`](#MaterialAssignment.ThermalStrainEffects)                                                                    | Gets or sets the ThermalStrainEffects.                        |
 | [`UseReferenceTemperatureByBody`](#MaterialAssignment.UseReferenceTemperatureByBody)                                                  | Gets or sets the UseReferenceTemperatureByBody.               |
 | [`FieldCoordinateSystem`](#MaterialAssignment.FieldCoordinateSystem)                                                                  | Gets or sets the FieldCoordinateSystem.                       |
 | [`Location`](#MaterialAssignment.Location)                                                                                            | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory)                   | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory)                   | Gets the current DataModelObject’s category.                  |
 | [`Children`](#MaterialAssignment.Children)                                                                                            | Gets the list of children.                                    |
 | [`Comments`](#MaterialAssignment.Comments)                                                                                            | Gets the list of associated comments.                         |
 | [`Figures`](#MaterialAssignment.Figures)                                                                                              | Gets the list of associated figures.                          |
@@ -108,7 +108,7 @@ Gets or sets the ReferenceTemperatureValue.
 
 <a id="MaterialAssignment.MaterialPolarizationDirection"></a>
 
-### *property* MaterialAssignment.MaterialPolarizationDirection *: [Ansys.Mechanical.DataModel.Enums.MaterialPolarizationDirection](./../../../Mechanical/DataModel/Enums/MaterialPolarizationDirection.md#MaterialPolarizationDirection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaterialAssignment.MaterialPolarizationDirection *: [Ansys.Mechanical.DataModel.Enums.MaterialPolarizationDirection](../../../Mechanical/DataModel/Enums/MaterialPolarizationDirection.md#MaterialPolarizationDirection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MaterialPolarizationDirection.
 
@@ -164,7 +164,7 @@ Gets or sets the Location.
 
 <a id="MaterialAssignment.DataModelObjectCategory"></a>
 
-### *property* MaterialAssignment.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaterialAssignment.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -272,7 +272,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### MaterialAssignment.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### MaterialAssignment.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

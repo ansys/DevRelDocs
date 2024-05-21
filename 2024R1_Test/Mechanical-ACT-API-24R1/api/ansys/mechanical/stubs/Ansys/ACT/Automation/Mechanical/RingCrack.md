@@ -63,16 +63,16 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`OuterMajorRadius`](#RingCrack.OuterMajorRadius)                                                                   | Gets or sets the OuterMajorRadius.                            |
 | [`OuterMinorRadius`](#RingCrack.OuterMinorRadius)                                                                   | Gets or sets the OuterMinorRadius.                            |
 | [`InnerFrontElementSize`](#RingCrack.InnerFrontElementSize)                                                         | Gets or sets the InnerFrontElementSize.                       |
-| [`FractureAffectedZone`](./../../../Mechanical/DataModel/Enums/FractureAffectedZone.md#FractureAffectedZone)          | Gets or sets the FractureAffectedZone.                        |
-| [`CrackMeshMethod`](./../../../Mechanical/DataModel/Enums/CrackMeshMethod.md#CrackMeshMethod)                         | Gets or sets the CrackMeshMethod.                             |
+| [`FractureAffectedZone`](../../../Mechanical/DataModel/Enums/FractureAffectedZone.md#FractureAffectedZone)          | Gets or sets the FractureAffectedZone.                        |
+| [`CrackMeshMethod`](../../../Mechanical/DataModel/Enums/CrackMeshMethod.md#CrackMeshMethod)                         | Gets or sets the CrackMeshMethod.                             |
 | [`CrackShape`](#RingCrack.CrackShape)                                                                               | Gets the CrackShape.                                          |
-| [`CrackSourceType`](./../../../Mechanical/DataModel/Enums/CrackSourceType.md#CrackSourceType)                         | Gets the CrackSourceType.                                     |
+| [`CrackSourceType`](../../../Mechanical/DataModel/Enums/CrackSourceType.md#CrackSourceType)                         | Gets the CrackSourceType.                                     |
 | [`ContactPairsNodes`](#RingCrack.ContactPairsNodes)                                                                 | Gets or sets the ContactPairsNodes.                           |
 | [`CrackFacesNodes`](#RingCrack.CrackFacesNodes)                                                                     | Gets or sets the CrackFacesNodes.                             |
 | [`Suppressed`](#RingCrack.Suppressed)                                                                               | Gets or sets the Suppressed.                                  |
-| [`CoordinateSystem`](./../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
+| [`CoordinateSystem`](../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
 | [`Location`](#RingCrack.Location)                                                                                   | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`CrackID`](#RingCrack.CrackID)                                                                                     | Gets the CrackID.                                             |
 | [`Children`](#RingCrack.Children)                                                                                   | Gets the list of children.                                    |
 | [`Comments`](#RingCrack.Comments)                                                                                   | Gets the list of associated comments.                         |
@@ -281,7 +281,7 @@ Gets or sets the InnerFrontElementSize.
 
 <a id="RingCrack.FractureAffectedZone"></a>
 
-### *property* RingCrack.FractureAffectedZone *: [Ansys.Mechanical.DataModel.Enums.FractureAffectedZone](./../../../Mechanical/DataModel/Enums/FractureAffectedZone.md#FractureAffectedZone) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RingCrack.FractureAffectedZone *: [Ansys.Mechanical.DataModel.Enums.FractureAffectedZone](../../../Mechanical/DataModel/Enums/FractureAffectedZone.md#FractureAffectedZone) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FractureAffectedZone.
 
@@ -289,7 +289,7 @@ Gets or sets the FractureAffectedZone.
 
 <a id="RingCrack.CrackMeshMethod"></a>
 
-### *property* RingCrack.CrackMeshMethod *: [Ansys.Mechanical.DataModel.Enums.CrackMeshMethod](./../../../Mechanical/DataModel/Enums/CrackMeshMethod.md#CrackMeshMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RingCrack.CrackMeshMethod *: [Ansys.Mechanical.DataModel.Enums.CrackMeshMethod](../../../Mechanical/DataModel/Enums/CrackMeshMethod.md#CrackMeshMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackMeshMethod.
 
@@ -297,7 +297,7 @@ Gets or sets the CrackMeshMethod.
 
 <a id="RingCrack.CrackShape"></a>
 
-### *property* RingCrack.CrackShape *: [Ansys.Mechanical.DataModel.Enums.CrackShapeType](./../../../Mechanical/DataModel/Enums/CrackShapeType.md#CrackShapeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RingCrack.CrackShape *: [Ansys.Mechanical.DataModel.Enums.CrackShapeType](../../../Mechanical/DataModel/Enums/CrackShapeType.md#CrackShapeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the CrackShape.
 
@@ -305,7 +305,7 @@ Gets the CrackShape.
 
 <a id="RingCrack.CrackSourceType"></a>
 
-### *property* RingCrack.CrackSourceType *: [Ansys.Mechanical.DataModel.Enums.CrackSourceType](./../../../Mechanical/DataModel/Enums/CrackSourceType.md#CrackSourceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RingCrack.CrackSourceType *: [Ansys.Mechanical.DataModel.Enums.CrackSourceType](../../../Mechanical/DataModel/Enums/CrackSourceType.md#CrackSourceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the CrackSourceType.
 
@@ -353,7 +353,7 @@ Gets or sets the Location.
 
 <a id="RingCrack.DataModelObjectCategory"></a>
 
-### *property* RingCrack.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RingCrack.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -461,7 +461,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### RingCrack.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### RingCrack.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

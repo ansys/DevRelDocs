@@ -41,7 +41,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.                                       |
 | [`ScopingMethod`](#GlobalVonMisesStressConstraint.ScopingMethod)                                                    | Gets or sets the ScopingMethod.                                                          |
 | [`StressType`](#GlobalVonMisesStressConstraint.StressType)                                                          | Gets or sets the StressType.                                                             |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                             |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                             |
 | [`EnvironmentSelection`](#GlobalVonMisesStressConstraint.EnvironmentSelection)                                      | Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum. |
 | [`Suppressed`](#GlobalVonMisesStressConstraint.Suppressed)                                                          | Gets or sets the Suppressed.                                                             |
 | [`Children`](#GlobalVonMisesStressConstraint.Children)                                                              | Gets the list of children.                                                               |
@@ -63,7 +63,7 @@ from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical import GlobalVonMise
 
 <a id="GlobalVonMisesStressConstraint.Maximum"></a>
 
-### *property* GlobalVonMisesStressConstraint.Maximum *: [Ansys.ACT.Mechanical.Fields.Field](./../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GlobalVonMisesStressConstraint.Maximum *: [Ansys.ACT.Mechanical.Fields.Field](../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Maximum.
 
@@ -79,7 +79,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="GlobalVonMisesStressConstraint.ScopingMethod"></a>
 
-### *property* GlobalVonMisesStressConstraint.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](./../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GlobalVonMisesStressConstraint.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -87,7 +87,7 @@ Gets or sets the ScopingMethod.
 
 <a id="GlobalVonMisesStressConstraint.StressType"></a>
 
-### *property* GlobalVonMisesStressConstraint.StressType *: [Ansys.Mechanical.DataModel.Enums.TopoConstraintStressType](./../../../Mechanical/DataModel/Enums/TopoConstraintStressType.md#TopoConstraintStressType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GlobalVonMisesStressConstraint.StressType *: [Ansys.Mechanical.DataModel.Enums.TopoConstraintStressType](../../../Mechanical/DataModel/Enums/TopoConstraintStressType.md#TopoConstraintStressType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StressType.
 
@@ -95,7 +95,7 @@ Gets or sets the StressType.
 
 <a id="GlobalVonMisesStressConstraint.DataModelObjectCategory"></a>
 
-### *property* GlobalVonMisesStressConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GlobalVonMisesStressConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -179,7 +179,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### GlobalVonMisesStressConstraint.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### GlobalVonMisesStressConstraint.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

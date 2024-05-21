@@ -48,10 +48,10 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Behavior`](#SymmetryRegion.Behavior)                                                                              | Gets or sets the Behavior.                                    |
 | [`SymmetryNormal`](#SymmetryRegion.SymmetryNormal)                                                                  | Gets or sets the SymmetryNormal.                              |
 | [`Type`](#SymmetryRegion.Type)                                                                                      | Gets or sets the Type.                                        |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`ScopeMode`](#SymmetryRegion.ScopeMode)                                                                            | Gets the ScopeMode.                                           |
 | [`Suppressed`](#SymmetryRegion.Suppressed)                                                                          | Gets or sets the Suppressed.                                  |
-| [`CoordinateSystem`](./../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
+| [`CoordinateSystem`](../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
 | [`HighBoundaryLocation`](#SymmetryRegion.HighBoundaryLocation)                                                      | Gets or sets the HighBoundaryLocation.                        |
 | [`LowBoundaryLocation`](#SymmetryRegion.LowBoundaryLocation)                                                        | Gets or sets the LowBoundaryLocation.                         |
 | [`Children`](#SymmetryRegion.Children)                                                                              | Gets the list of children.                                    |
@@ -77,7 +77,7 @@ from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical import SymmetryRegio
 
 <a id="SymmetryRegion.PeriodicityDirection"></a>
 
-### *property* SymmetryRegion.PeriodicityDirection *: [Ansys.Mechanical.DataModel.Enums.PeriodicityDirectionType](./../../../Mechanical/DataModel/Enums/PeriodicityDirectionType.md#PeriodicityDirectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SymmetryRegion.PeriodicityDirection *: [Ansys.Mechanical.DataModel.Enums.PeriodicityDirectionType](../../../Mechanical/DataModel/Enums/PeriodicityDirectionType.md#PeriodicityDirectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PeriodicityDirection.
 
@@ -109,7 +109,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="SymmetryRegion.ApplyTo"></a>
 
-### *property* SymmetryRegion.ApplyTo *: [Ansys.Mechanical.DataModel.Enums.PeriodicApplyTo](./../../../Mechanical/DataModel/Enums/PeriodicApplyTo.md#PeriodicApplyTo) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SymmetryRegion.ApplyTo *: [Ansys.Mechanical.DataModel.Enums.PeriodicApplyTo](../../../Mechanical/DataModel/Enums/PeriodicApplyTo.md#PeriodicApplyTo) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ApplyTo.
 
@@ -117,7 +117,7 @@ Gets or sets the ApplyTo.
 
 <a id="SymmetryRegion.Behavior"></a>
 
-### *property* SymmetryRegion.Behavior *: [Ansys.Mechanical.DataModel.Enums.SymmetryBehavior](./../../../Mechanical/DataModel/Enums/SymmetryBehavior.md#SymmetryBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SymmetryRegion.Behavior *: [Ansys.Mechanical.DataModel.Enums.SymmetryBehavior](../../../Mechanical/DataModel/Enums/SymmetryBehavior.md#SymmetryBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Behavior.
 
@@ -125,7 +125,7 @@ Gets or sets the Behavior.
 
 <a id="SymmetryRegion.SymmetryNormal"></a>
 
-### *property* SymmetryRegion.SymmetryNormal *: [Ansys.Mechanical.DataModel.Enums.SymmetryNormalType](./../../../Mechanical/DataModel/Enums/SymmetryNormalType.md#SymmetryNormalType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SymmetryRegion.SymmetryNormal *: [Ansys.Mechanical.DataModel.Enums.SymmetryNormalType](../../../Mechanical/DataModel/Enums/SymmetryNormalType.md#SymmetryNormalType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SymmetryNormal.
 
@@ -133,7 +133,7 @@ Gets or sets the SymmetryNormal.
 
 <a id="SymmetryRegion.Type"></a>
 
-### *property* SymmetryRegion.Type *: [Ansys.Mechanical.DataModel.Enums.SymmetryRegionType](./../../../Mechanical/DataModel/Enums/SymmetryRegionType.md#SymmetryRegionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SymmetryRegion.Type *: [Ansys.Mechanical.DataModel.Enums.SymmetryRegionType](../../../Mechanical/DataModel/Enums/SymmetryRegionType.md#SymmetryRegionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Type.
 
@@ -141,7 +141,7 @@ Gets or sets the Type.
 
 <a id="SymmetryRegion.DataModelObjectCategory"></a>
 
-### *property* SymmetryRegion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SymmetryRegion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -149,7 +149,7 @@ Gets the current DataModelObject’s category.
 
 <a id="SymmetryRegion.ScopeMode"></a>
 
-### *property* SymmetryRegion.ScopeMode *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](./../../../Mechanical/DataModel/Enums/AutomaticOrManual.md#AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SymmetryRegion.ScopeMode *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](../../../Mechanical/DataModel/Enums/AutomaticOrManual.md#AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ScopeMode.
 
@@ -281,7 +281,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### SymmetryRegion.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### SymmetryRegion.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

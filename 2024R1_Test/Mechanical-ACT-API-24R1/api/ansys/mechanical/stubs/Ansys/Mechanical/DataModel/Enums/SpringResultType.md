@@ -21,7 +21,7 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 | [`DampingForce`](#SpringResultType.DampingForce) |
 | [`ElasticForce`](#SpringResultType.ElasticForce) |
 | [`Elongation`](#SpringResultType.Elongation) |
-| [`Velocity`](./../../../ACT/Automation/Mechanical/BoundaryConditions/Velocity.md#Velocity) |
+| [`Velocity`](../../../ACT/Automation/Mechanical/BoundaryConditions/Velocity.md#Velocity) |
 
 <a id="import-detail"></a>
 

@@ -18,7 +18,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 | Name |
 | ---------------------------------------------------------------------------------------------------------- |
-| [`GetSettingsForFormat`](./../Table/ImportSettingsFactory.md#ImportSettingsFactory.GetSettingsForFormat) |
+| [`GetSettingsForFormat`](../Table/ImportSettingsFactory.md#ImportSettingsFactory.GetSettingsForFormat) |
 
 <a id="import-detail"></a>
 
@@ -34,6 +34,6 @@ from ansys.mechanical.stubs.Ansys.Mechanical.ExternalData import ImportSettingsF
 
 <a id="ImportSettingsFactory.GetSettingsForFormat"></a>
 
-### *classmethod* ImportSettingsFactory.GetSettingsForFormat(format: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat](./../DataModel/MechanicalEnums/ExternalData/ImportFormat.md#ImportFormat))
+### *classmethod* ImportSettingsFactory.GetSettingsForFormat(format: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat](../DataModel/MechanicalEnums/ExternalData/ImportFormat.md#ImportFormat))
 
 <!-- !! processed by numpydoc !! -->

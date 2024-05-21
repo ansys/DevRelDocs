@@ -44,10 +44,10 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`RelativeDistanceTolerance`](#PreMeshedCyclicRegion.RelativeDistanceTolerance)                                     | Gets or sets the RelativeDistanceTolerance.                   |
 | [`NumberOfSectors`](#PreMeshedCyclicRegion.NumberOfSectors)                                                         | Gets or sets the NumberOfSectors.                             |
 | [`BoundaryDOFOrientation`](#PreMeshedCyclicRegion.BoundaryDOFOrientation)                                           | Gets or sets the BoundaryDOFOrientation.                      |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`ScopeMode`](#PreMeshedCyclicRegion.ScopeMode)                                                                     | Gets the ScopeMode.                                           |
 | [`Suppressed`](#PreMeshedCyclicRegion.Suppressed)                                                                   | Gets or sets the Suppressed.                                  |
-| [`CoordinateSystem`](./../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
+| [`CoordinateSystem`](../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
 | [`Location`](#PreMeshedCyclicRegion.Location)                                                                       | Gets or sets the Location.                                    |
 | [`HighBoundaryLocation`](#PreMeshedCyclicRegion.HighBoundaryLocation)                                               | Gets or sets the HighBoundaryLocation.                        |
 | [`LowBoundaryLocation`](#PreMeshedCyclicRegion.LowBoundaryLocation)                                                 | Gets or sets the LowBoundaryLocation.                         |
@@ -98,7 +98,7 @@ Gets or sets the NumberOfSectors.
 
 <a id="PreMeshedCyclicRegion.BoundaryDOFOrientation"></a>
 
-### *property* PreMeshedCyclicRegion.BoundaryDOFOrientation *: [Ansys.Mechanical.DataModel.Enums.SymmetryBoundaryDOFOrientation](./../../../Mechanical/DataModel/Enums/SymmetryBoundaryDOFOrientation.md#SymmetryBoundaryDOFOrientation) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PreMeshedCyclicRegion.BoundaryDOFOrientation *: [Ansys.Mechanical.DataModel.Enums.SymmetryBoundaryDOFOrientation](../../../Mechanical/DataModel/Enums/SymmetryBoundaryDOFOrientation.md#SymmetryBoundaryDOFOrientation) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BoundaryDOFOrientation.
 
@@ -106,7 +106,7 @@ Gets or sets the BoundaryDOFOrientation.
 
 <a id="PreMeshedCyclicRegion.DataModelObjectCategory"></a>
 
-### *property* PreMeshedCyclicRegion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PreMeshedCyclicRegion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -114,7 +114,7 @@ Gets the current DataModelObject’s category.
 
 <a id="PreMeshedCyclicRegion.ScopeMode"></a>
 
-### *property* PreMeshedCyclicRegion.ScopeMode *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](./../../../Mechanical/DataModel/Enums/AutomaticOrManual.md#AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PreMeshedCyclicRegion.ScopeMode *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](../../../Mechanical/DataModel/Enums/AutomaticOrManual.md#AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ScopeMode.
 
@@ -254,7 +254,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### PreMeshedCyclicRegion.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### PreMeshedCyclicRegion.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

@@ -19,7 +19,7 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 | Name |
 | -------------------------------------------------------------- |
 | [`Line`](#VectorDisplayType.Line) |
-| [`Solid`](./../../../ACT/Automation/Mechanical/Solid.md#Solid) |
+| [`Solid`](../../../ACT/Automation/Mechanical/Solid.md#Solid) |
 | [`Sphere`](#VectorDisplayType.Sphere) |
 
 <a id="import-detail"></a>

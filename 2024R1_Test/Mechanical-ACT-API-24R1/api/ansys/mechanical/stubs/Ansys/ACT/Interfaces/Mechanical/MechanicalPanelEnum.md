@@ -19,7 +19,7 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 | Name |
 | ------------------------------------------------------------------- |
 | [`DataView`](#MechanicalPanelEnum.DataView) |
-| [`Worksheet`](./../../Automation/Mechanical/Worksheet.md#Worksheet) |
+| [`Worksheet`](../../Automation/Mechanical/Worksheet.md#Worksheet) |
 | [`TabularData`](#MechanicalPanelEnum.TabularData) |
 | [`Graph`](#MechanicalPanelEnum.Graph) |
 | [`Outline`](#MechanicalPanelEnum.Outline) |

@@ -55,8 +55,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Dimension`](#Body.Dimension)                                                                                                        | Gets or sets the Dimension.                                                                    |
 | [`Assignment`](#Body.Assignment)                                                                                                      | Gets or sets the Assignment.                                                                   |
 | [`CrossSectionName`](#Body.CrossSectionName)                                                                                          | Gets CrossSectionName.                                                                         |
-| [`ModelType`](./../../../Mechanical/DataModel/Enums/ModelType.md#ModelType)                                                             | Gets or sets the ModelType.                                                                    |
-| [`GeometryType`](./../../../Mechanical/DataModel/Enums/GeometryType.md#GeometryType)                                                    | Gets the GeometryType.                                                                         |
+| [`ModelType`](../../../Mechanical/DataModel/Enums/ModelType.md#ModelType)                                                             | Gets or sets the ModelType.                                                                    |
+| [`GeometryType`](../../../Mechanical/DataModel/Enums/GeometryType.md#GeometryType)                                                    | Gets the GeometryType.                                                                         |
 | [`SuppressedParameterized`](#Body.SuppressedParameterized)                                                                            | Gets if the part suppressed property is parameterized.                                         |
 | [`Transparency`](#Body.Transparency)                                                                                                  | Gets or sets the Transparency. Values range from 0.0 (fully invisible) to 1.0 (fully visible). |
 | [`Color`](#Body.Color)                                                                                                                | Gets or sets the Color, encoded as a BGR bitfield.                                             |
@@ -98,19 +98,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Volume`](Results/Volume.md#Volume)                                                                                                  | Gets the Volume.                                                                               |
 | [`Length`](#Body.Length)                                                                                                              | Gets the Length.                                                                               |
 | [`OffsetMode`](#Body.OffsetMode)                                                                                                      | Gets or sets the OffsetMode.                                                                   |
-| [`BrickIntegrationScheme`](./../../../Mechanical/DataModel/Enums/BrickIntegrationScheme.md#BrickIntegrationScheme)                      | Gets or sets the BrickIntegrationScheme.                                                       |
+| [`BrickIntegrationScheme`](../../../Mechanical/DataModel/Enums/BrickIntegrationScheme.md#BrickIntegrationScheme)                      | Gets or sets the BrickIntegrationScheme.                                                       |
 | [`FluidDiscretization`](#Body.FluidDiscretization)                                                                                    | Gets or sets the FluidDiscretization.                                                          |
 | [`LinkTrussBehavior`](#Body.LinkTrussBehavior)                                                                                        | Gets or sets the LinkTrussBehavior.                                                            |
-| [`MaterialPolarizationDirection`](./../../../Mechanical/DataModel/Enums/MaterialPolarizationDirection.md#MaterialPolarizationDirection) | Gets or sets the MaterialPolarizationDirection.                                                |
+| [`MaterialPolarizationDirection`](../../../Mechanical/DataModel/Enums/MaterialPolarizationDirection.md#MaterialPolarizationDirection) | Gets or sets the MaterialPolarizationDirection.                                                |
 | [`MeshMetric`](#Body.MeshMetric)                                                                                                      | Gets the MeshMetric.                                                                           |
 | [`Behavior`](#Body.Behavior)                                                                                                          | Gets or sets the Behavior.                                                                     |
 | [`OffsetType`](#Body.OffsetType)                                                                                                      | Gets or sets the OffsetType.                                                                   |
 | [`FluidSolidPhase`](#Body.FluidSolidPhase)                                                                                            | Gets or sets the FluidSolidPhase.                                                              |
 | [`ReferenceFrame`](#Body.ReferenceFrame)                                                                                              | Gets or sets the ReferenceFrame.                                                               |
-| [`ReinforcingStressState`](./../../../Mechanical/DataModel/Enums/ReinforcingStressState.md#ReinforcingStressState)                      | Gets or sets the ReinforcingStressState.                                                       |
+| [`ReinforcingStressState`](../../../Mechanical/DataModel/Enums/ReinforcingStressState.md#ReinforcingStressState)                      | Gets or sets the ReinforcingStressState.                                                       |
 | [`StiffnessOption`](#Body.StiffnessOption)                                                                                            | Gets or sets the StiffnessOption.                                                              |
-| [`ShellOffsetType`](./../../../Mechanical/DataModel/Enums/ShellOffsetType.md#ShellOffsetType)                                           | Gets or sets the ShellOffsetType.                                                              |
-| [`StiffnessBehavior`](./../../../Mechanical/DataModel/Enums/StiffnessBehavior.md#StiffnessBehavior)                                     | Gets or sets the StiffnessBehavior.                                                            |
+| [`ShellOffsetType`](../../../Mechanical/DataModel/Enums/ShellOffsetType.md#ShellOffsetType)                                           | Gets or sets the ShellOffsetType.                                                              |
+| [`StiffnessBehavior`](../../../Mechanical/DataModel/Enums/StiffnessBehavior.md#StiffnessBehavior)                                     | Gets or sets the StiffnessBehavior.                                                            |
 | [`Treatment`](#Body.Treatment)                                                                                                        | Gets or sets the Treatment.                                                                    |
 | [`Visible`](#Body.Visible)                                                                                                            | Gets or sets the Visible.                                                                      |
 | [`HomogeneousMembrane`](#Body.HomogeneousMembrane)                                                                                    | Gets or sets the HomogeneousMembrane.                                                          |
@@ -122,9 +122,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`UseReferenceTemperatureByBody`](#Body.UseReferenceTemperatureByBody)                                                                | Gets or sets the UseReferenceTemperatureByBody.                                                |
 | [`UserNameChange`](#Body.UserNameChange)                                                                                              | Gets the UserNameChange.                                                                       |
 | [`BeamSection`](#Body.BeamSection)                                                                                                    | Gets the BeamSection.                                                                          |
-| [`CoordinateSystem`](./../../Common/CoordinateSystem.md#CoordinateSystem)                                                               | Gets or sets the CoordinateSystem.                                                             |
+| [`CoordinateSystem`](../../Common/CoordinateSystem.md#CoordinateSystem)                                                               | Gets or sets the CoordinateSystem.                                                             |
 | [`CrossSectionSelection`](#Body.CrossSectionSelection)                                                                                | Gets or sets the CrossSectionSelection.                                                        |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory)                   | Gets the current DataModelObject’s category.                                                   |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory)                   | Gets the current DataModelObject’s category.                                                   |
 | [`Children`](#Body.Children)                                                                                                          | Gets the list of children.                                                                     |
 | [`Comments`](#Body.Comments)                                                                                                          | Gets the list of associated comments.                                                          |
 | [`Figures`](#Body.Figures)                                                                                                            | Gets the list of associated figures.                                                           |
@@ -188,7 +188,7 @@ Gets the ThicknessMode.
 
 <a id="Body.Dimension"></a>
 
-### *property* Body.Dimension *: [Ansys.Mechanical.DataModel.Enums.ShellBodyDimension](./../../../Mechanical/DataModel/Enums/ShellBodyDimension.md#ShellBodyDimension) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.Dimension *: [Ansys.Mechanical.DataModel.Enums.ShellBodyDimension](../../../Mechanical/DataModel/Enums/ShellBodyDimension.md#ShellBodyDimension) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Dimension.
 
@@ -212,7 +212,7 @@ Gets CrossSectionName.
 
 <a id="Body.ModelType"></a>
 
-### *property* Body.ModelType *: [Ansys.Mechanical.DataModel.Enums.PrototypeModelType](./../../../Mechanical/DataModel/Enums/PrototypeModelType.md#PrototypeModelType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.ModelType *: [Ansys.Mechanical.DataModel.Enums.PrototypeModelType](../../../Mechanical/DataModel/Enums/PrototypeModelType.md#PrototypeModelType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ModelType.
 Note: ModelType is applicable to line bodies and surface bodies only.
@@ -221,7 +221,7 @@ Note: ModelType is applicable to line bodies and surface bodies only.
 
 <a id="Body.GeometryType"></a>
 
-### *property* Body.GeometryType *: [Ansys.Mechanical.DataModel.Enums.GeometryType](./../../../Mechanical/DataModel/Enums/GeometryType.md#GeometryType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.GeometryType *: [Ansys.Mechanical.DataModel.Enums.GeometryType](../../../Mechanical/DataModel/Enums/GeometryType.md#GeometryType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the GeometryType.
 
@@ -549,7 +549,7 @@ Gets the Length.
 
 <a id="Body.OffsetMode"></a>
 
-### *property* Body.OffsetMode *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](./../../../Mechanical/DataModel/Enums/AutomaticOrManual.md#AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.OffsetMode *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](../../../Mechanical/DataModel/Enums/AutomaticOrManual.md#AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the OffsetMode.
 
@@ -557,7 +557,7 @@ Gets or sets the OffsetMode.
 
 <a id="Body.BrickIntegrationScheme"></a>
 
-### *property* Body.BrickIntegrationScheme *: [Ansys.Mechanical.DataModel.Enums.BrickIntegrationScheme](./../../../Mechanical/DataModel/Enums/BrickIntegrationScheme.md#BrickIntegrationScheme) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.BrickIntegrationScheme *: [Ansys.Mechanical.DataModel.Enums.BrickIntegrationScheme](../../../Mechanical/DataModel/Enums/BrickIntegrationScheme.md#BrickIntegrationScheme) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BrickIntegrationScheme.
 
@@ -565,7 +565,7 @@ Gets or sets the BrickIntegrationScheme.
 
 <a id="Body.FluidDiscretization"></a>
 
-### *property* Body.FluidDiscretization *: [Ansys.Mechanical.DataModel.Enums.FluidDiscretizationType](./../../../Mechanical/DataModel/Enums/FluidDiscretizationType.md#FluidDiscretizationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.FluidDiscretization *: [Ansys.Mechanical.DataModel.Enums.FluidDiscretizationType](../../../Mechanical/DataModel/Enums/FluidDiscretizationType.md#FluidDiscretizationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FluidDiscretization.
 
@@ -573,7 +573,7 @@ Gets or sets the FluidDiscretization.
 
 <a id="Body.LinkTrussBehavior"></a>
 
-### *property* Body.LinkTrussBehavior *: [Ansys.Mechanical.DataModel.Enums.PrototypeLinkBehavior](./../../../Mechanical/DataModel/Enums/PrototypeLinkBehavior.md#PrototypeLinkBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.LinkTrussBehavior *: [Ansys.Mechanical.DataModel.Enums.PrototypeLinkBehavior](../../../Mechanical/DataModel/Enums/PrototypeLinkBehavior.md#PrototypeLinkBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LinkTrussBehavior.
 
@@ -581,7 +581,7 @@ Gets or sets the LinkTrussBehavior.
 
 <a id="Body.MaterialPolarizationDirection"></a>
 
-### *property* Body.MaterialPolarizationDirection *: [Ansys.Mechanical.DataModel.Enums.MaterialPolarizationDirection](./../../../Mechanical/DataModel/Enums/MaterialPolarizationDirection.md#MaterialPolarizationDirection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.MaterialPolarizationDirection *: [Ansys.Mechanical.DataModel.Enums.MaterialPolarizationDirection](../../../Mechanical/DataModel/Enums/MaterialPolarizationDirection.md#MaterialPolarizationDirection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MaterialPolarizationDirection.
 
@@ -589,7 +589,7 @@ Gets or sets the MaterialPolarizationDirection.
 
 <a id="Body.MeshMetric"></a>
 
-### *property* Body.MeshMetric *: [Ansys.Mechanical.DataModel.Enums.MeshMetricType](./../../../Mechanical/DataModel/Enums/MeshMetricType.md#MeshMetricType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.MeshMetric *: [Ansys.Mechanical.DataModel.Enums.MeshMetricType](../../../Mechanical/DataModel/Enums/MeshMetricType.md#MeshMetricType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MeshMetric.
 
@@ -597,7 +597,7 @@ Gets the MeshMetric.
 
 <a id="Body.Behavior"></a>
 
-### *property* Body.Behavior *: [Ansys.Mechanical.DataModel.Enums.Model2DBehavior](./../../../Mechanical/DataModel/Enums/Model2DBehavior.md#Model2DBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.Behavior *: [Ansys.Mechanical.DataModel.Enums.Model2DBehavior](../../../Mechanical/DataModel/Enums/Model2DBehavior.md#Model2DBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Behavior.
 
@@ -605,7 +605,7 @@ Gets or sets the Behavior.
 
 <a id="Body.OffsetType"></a>
 
-### *property* Body.OffsetType *: [Ansys.Mechanical.DataModel.Enums.BeamOffsetType](./../../../Mechanical/DataModel/Enums/BeamOffsetType.md#BeamOffsetType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.OffsetType *: [Ansys.Mechanical.DataModel.Enums.BeamOffsetType](../../../Mechanical/DataModel/Enums/BeamOffsetType.md#BeamOffsetType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the OffsetType.
 
@@ -613,7 +613,7 @@ Gets or sets the OffsetType.
 
 <a id="Body.FluidSolidPhase"></a>
 
-### *property* Body.FluidSolidPhase *: [Ansys.Mechanical.DataModel.Enums.PhaseType](./../../../Mechanical/DataModel/Enums/PhaseType.md#PhaseType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.FluidSolidPhase *: [Ansys.Mechanical.DataModel.Enums.PhaseType](../../../Mechanical/DataModel/Enums/PhaseType.md#PhaseType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FluidSolidPhase.
 
@@ -621,7 +621,7 @@ Gets or sets the FluidSolidPhase.
 
 <a id="Body.ReferenceFrame"></a>
 
-### *property* Body.ReferenceFrame *: [Ansys.Mechanical.DataModel.Enums.ReferenceFrameType](./../../../Mechanical/DataModel/Enums/ReferenceFrameType.md#ReferenceFrameType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.ReferenceFrame *: [Ansys.Mechanical.DataModel.Enums.ReferenceFrameType](../../../Mechanical/DataModel/Enums/ReferenceFrameType.md#ReferenceFrameType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReferenceFrame.
 
@@ -629,7 +629,7 @@ Gets or sets the ReferenceFrame.
 
 <a id="Body.ReinforcingStressState"></a>
 
-### *property* Body.ReinforcingStressState *: [Ansys.Mechanical.DataModel.Enums.ReinforcingStressState](./../../../Mechanical/DataModel/Enums/ReinforcingStressState.md#ReinforcingStressState) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.ReinforcingStressState *: [Ansys.Mechanical.DataModel.Enums.ReinforcingStressState](../../../Mechanical/DataModel/Enums/ReinforcingStressState.md#ReinforcingStressState) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReinforcingStressState.
 
@@ -637,7 +637,7 @@ Gets or sets the ReinforcingStressState.
 
 <a id="Body.StiffnessOption"></a>
 
-### *property* Body.StiffnessOption *: [Ansys.Mechanical.DataModel.Enums.ShellElementStiffnessOption](./../../../Mechanical/DataModel/Enums/ShellElementStiffnessOption.md#ShellElementStiffnessOption) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.StiffnessOption *: [Ansys.Mechanical.DataModel.Enums.ShellElementStiffnessOption](../../../Mechanical/DataModel/Enums/ShellElementStiffnessOption.md#ShellElementStiffnessOption) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StiffnessOption.
 
@@ -645,7 +645,7 @@ Gets or sets the StiffnessOption.
 
 <a id="Body.ShellOffsetType"></a>
 
-### *property* Body.ShellOffsetType *: [Ansys.Mechanical.DataModel.Enums.ShellOffsetType](./../../../Mechanical/DataModel/Enums/ShellOffsetType.md#ShellOffsetType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.ShellOffsetType *: [Ansys.Mechanical.DataModel.Enums.ShellOffsetType](../../../Mechanical/DataModel/Enums/ShellOffsetType.md#ShellOffsetType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShellOffsetType.
 
@@ -653,7 +653,7 @@ Gets or sets the ShellOffsetType.
 
 <a id="Body.StiffnessBehavior"></a>
 
-### *property* Body.StiffnessBehavior *: [Ansys.Mechanical.DataModel.Enums.StiffnessBehavior](./../../../Mechanical/DataModel/Enums/StiffnessBehavior.md#StiffnessBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.StiffnessBehavior *: [Ansys.Mechanical.DataModel.Enums.StiffnessBehavior](../../../Mechanical/DataModel/Enums/StiffnessBehavior.md#StiffnessBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StiffnessBehavior.
 
@@ -661,7 +661,7 @@ Gets or sets the StiffnessBehavior.
 
 <a id="Body.Treatment"></a>
 
-### *property* Body.Treatment *: [Ansys.Mechanical.DataModel.Enums.BodyTreatment](./../../../Mechanical/DataModel/Enums/BodyTreatment.md#BodyTreatment) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.Treatment *: [Ansys.Mechanical.DataModel.Enums.BodyTreatment](../../../Mechanical/DataModel/Enums/BodyTreatment.md#BodyTreatment) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Treatment.
 
@@ -765,7 +765,7 @@ Gets or sets the CrossSectionSelection.
 
 <a id="Body.DataModelObjectCategory"></a>
 
-### *property* Body.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -921,7 +921,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### Body.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### Body.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

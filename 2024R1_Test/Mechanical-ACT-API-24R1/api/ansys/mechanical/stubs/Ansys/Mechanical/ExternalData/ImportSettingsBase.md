@@ -18,7 +18,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 | Name | Description |
 |----------------------------------------------------------------------------|-------------------------------------------|
-| [`Format`](./../DataModel/Enums/GeometryImportPreference/Format.md#Format)   | Gets the existing corresponding format.   |
+| [`Format`](../DataModel/Enums/GeometryImportPreference/Format.md#Format)   | Gets the existing corresponding format.   |
 
 <a id="import-detail"></a>
 
@@ -34,7 +34,7 @@ from ansys.mechanical.stubs.Ansys.Mechanical.ExternalData import ImportSettingsB
 
 <a id="ImportSettingsBase.Format"></a>
 
-### *property* ImportSettingsBase.Format *: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat](./../DataModel/MechanicalEnums/ExternalData/ImportFormat.md#ImportFormat) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportSettingsBase.Format *: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat](../DataModel/MechanicalEnums/ExternalData/ImportFormat.md#ImportFormat) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the existing corresponding format.
 

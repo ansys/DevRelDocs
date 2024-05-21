@@ -40,7 +40,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`SolverTarget`](#PythonCodeEventBased.SolverTarget)                                                                | Gets the SolverTarget.                                                                |
 | [`TargetCallback`](#PythonCodeEventBased.TargetCallback)                                                            | Gets or sets the TargetCallback.                                                      |
 | [`Suppressed`](#PythonCodeEventBased.Suppressed)                                                                    | Gets or sets the Suppressed.                                                          |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                          |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                          |
 | [`Text`](#PythonCodeEventBased.Text)                                                                                | Gets or sets the text in the script tab for the Python Code object.                   |
 | [`PropertyProvider`](#PythonCodeEventBased.PropertyProvider)                                                        | Gets or sets the propperty provider instance associated with this python code object. |
 | [`InternalObject`](#id1)                                                                                            | Gets the internal object. For advanced usage only.                                    |
@@ -72,7 +72,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="PythonCodeEventBased.SolverTarget"></a>
 
-### *property* PythonCodeEventBased.SolverTarget *: [Ansys.Mechanical.DataModel.Enums.CommandEditorTarget](./../../../Mechanical/DataModel/Enums/CommandEditorTarget.md#CommandEditorTarget) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PythonCodeEventBased.SolverTarget *: [Ansys.Mechanical.DataModel.Enums.CommandEditorTarget](../../../Mechanical/DataModel/Enums/CommandEditorTarget.md#CommandEditorTarget) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the SolverTarget.
 
@@ -80,7 +80,7 @@ Gets the SolverTarget.
 
 <a id="PythonCodeEventBased.TargetCallback"></a>
 
-### *property* PythonCodeEventBased.TargetCallback *: [Ansys.Mechanical.DataModel.Enums.PythonCodeTargetCallback](./../../../Mechanical/DataModel/Enums/PythonCodeTargetCallback.md#PythonCodeTargetCallback) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PythonCodeEventBased.TargetCallback *: [Ansys.Mechanical.DataModel.Enums.PythonCodeTargetCallback](../../../Mechanical/DataModel/Enums/PythonCodeTargetCallback.md#PythonCodeTargetCallback) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TargetCallback.
 
@@ -96,7 +96,7 @@ Gets or sets the Suppressed.
 
 <a id="PythonCodeEventBased.DataModelObjectCategory"></a>
 
-### *property* PythonCodeEventBased.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PythonCodeEventBased.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 

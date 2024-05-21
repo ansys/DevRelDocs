@@ -20,7 +20,7 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 | ----------------------------------------------------------------------------------- |
 | [`AssemblyColor`](#PrototypeDisplayStyleType.AssemblyColor) |
 | [`BodyColor`](#PrototypeDisplayStyleType.BodyColor) |
-| [`Material`](./../../../ACT/Automation/Mechanical/Material.md#Material) |
+| [`Material`](../../../ACT/Automation/Mechanical/Material.md#Material) |
 | [`NonLinearMaterialEffects`](#PrototypeDisplayStyleType.NonLinearMaterialEffects) |
 | [`PartColor`](#PrototypeDisplayStyleType.PartColor) |
 | [`StiffnessBehavior`](StiffnessBehavior.md#StiffnessBehavior) |

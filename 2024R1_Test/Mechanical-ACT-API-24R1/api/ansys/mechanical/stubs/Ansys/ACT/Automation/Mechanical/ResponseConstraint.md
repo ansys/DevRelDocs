@@ -40,7 +40,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`EnvironmentSelection`](#ResponseConstraint.EnvironmentSelection)                                                  | Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum.   |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.                                         |
 | [`Suppressed`](#ResponseConstraint.Suppressed)                                                                      | Gets or sets the Suppressed.                                                               |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                               |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                               |
 | [`Children`](#ResponseConstraint.Children)                                                                          | Gets the list of children.                                                                 |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.                                         |
 | [`Properties`](#ResponseConstraint.Properties)                                                                      | Gets the list of properties for this object.                                               |
@@ -84,7 +84,7 @@ Gets or sets the Suppressed.
 
 <a id="ResponseConstraint.DataModelObjectCategory"></a>
 
-### *property* ResponseConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponseConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -152,7 +152,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### ResponseConstraint.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### ResponseConstraint.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

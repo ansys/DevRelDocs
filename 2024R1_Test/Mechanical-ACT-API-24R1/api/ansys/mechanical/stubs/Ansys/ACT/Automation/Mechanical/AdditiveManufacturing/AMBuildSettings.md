@@ -89,7 +89,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`ScanPatternDefinition`](#AMBuildSettings.ScanPatternDefinition)                                                      | Gets or sets the ScanPatternDefinition.                                                        |
 | [`ThermalStrainMethod`](#AMBuildSettings.ThermalStrainMethod)                                                          | Gets or sets the ThermalStrainMethod.                                                          |
 | [`InherentStrain`](#AMBuildSettings.InherentStrain)                                                                    | Gets or sets the InherentStrain.                                                               |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                                   |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                                   |
 | [`Children`](#AMBuildSettings.Children)                                                                                | Gets the list of children.                                                                     |
 | [`Comments`](#AMBuildSettings.Comments)                                                                                | Gets the list of associated comments.                                                          |
 | [`Figures`](#AMBuildSettings.Figures)                                                                                  | Gets the list of associated figures.                                                           |
@@ -112,7 +112,7 @@ from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.AdditiveManufacturin
 
 <a id="AMBuildSettings.LayerHeightType"></a>
 
-### *property* AMBuildSettings.LayerHeightType *: [Ansys.Mechanical.DataModel.Enums.AMLayerHeightType](./../../../../Mechanical/DataModel/Enums/AMLayerHeightType.md#AMLayerHeightType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBuildSettings.LayerHeightType *: [Ansys.Mechanical.DataModel.Enums.AMLayerHeightType](../../../../Mechanical/DataModel/Enums/AMLayerHeightType.md#AMLayerHeightType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 LayerHeightType - Get/Sets the layer height type.
 
@@ -120,7 +120,7 @@ LayerHeightType - Get/Sets the layer height type.
 
 <a id="AMBuildSettings.ThermalStrainMaterialModel"></a>
 
-### *property* AMBuildSettings.ThermalStrainMaterialModel *: [Ansys.Mechanical.DataModel.Enums.AMThermalStrainMaterialModel](./../../../../Mechanical/DataModel/Enums/AMThermalStrainMaterialModel.md#AMThermalStrainMaterialModel) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBuildSettings.ThermalStrainMaterialModel *: [Ansys.Mechanical.DataModel.Enums.AMThermalStrainMaterialModel](../../../../Mechanical/DataModel/Enums/AMThermalStrainMaterialModel.md#AMThermalStrainMaterialModel) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MachineLearningModel using the deprecated ThermalStrainMaterialModel methods.
 
@@ -400,7 +400,7 @@ Gets or sets the ScanSpeed.
 
 <a id="AMBuildSettings.BuildGasOrPowderTemperatureType"></a>
 
-### *property* AMBuildSettings.BuildGasOrPowderTemperatureType *: [Ansys.Mechanical.DataModel.Enums.AMProcessSettingsType](./../../../../Mechanical/DataModel/Enums/AMProcessSettingsType.md#AMProcessSettingsType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBuildSettings.BuildGasOrPowderTemperatureType *: [Ansys.Mechanical.DataModel.Enums.AMProcessSettingsType](../../../../Mechanical/DataModel/Enums/AMProcessSettingsType.md#AMProcessSettingsType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BuildGasOrPowderTemperatureType.
 
@@ -408,7 +408,7 @@ Gets or sets the BuildGasOrPowderTemperatureType.
 
 <a id="AMBuildSettings.BuildMachineType"></a>
 
-### *property* AMBuildSettings.BuildMachineType *: [Ansys.Mechanical.DataModel.Enums.AMBuildMachineType](./../../../../Mechanical/DataModel/Enums/AMBuildMachineType.md#AMBuildMachineType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBuildSettings.BuildMachineType *: [Ansys.Mechanical.DataModel.Enums.AMBuildMachineType](../../../../Mechanical/DataModel/Enums/AMBuildMachineType.md#AMBuildMachineType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BuildMachineType.
 
@@ -416,7 +416,7 @@ Gets or sets the BuildMachineType.
 
 <a id="AMBuildSettings.CooldownGasOrPowderTemperatureType"></a>
 
-### *property* AMBuildSettings.CooldownGasOrPowderTemperatureType *: [Ansys.Mechanical.DataModel.Enums.AMProcessSettingsType](./../../../../Mechanical/DataModel/Enums/AMProcessSettingsType.md#AMProcessSettingsType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBuildSettings.CooldownGasOrPowderTemperatureType *: [Ansys.Mechanical.DataModel.Enums.AMProcessSettingsType](../../../../Mechanical/DataModel/Enums/AMProcessSettingsType.md#AMProcessSettingsType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CooldownGasOrPowderTemperatureType.
 
@@ -424,7 +424,7 @@ Gets or sets the CooldownGasOrPowderTemperatureType.
 
 <a id="AMBuildSettings.HeatingDuration"></a>
 
-### *property* AMBuildSettings.HeatingDuration *: [Ansys.Mechanical.DataModel.Enums.AMHeatingDurationType](./../../../../Mechanical/DataModel/Enums/AMHeatingDurationType.md#AMHeatingDurationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBuildSettings.HeatingDuration *: [Ansys.Mechanical.DataModel.Enums.AMHeatingDurationType](../../../../Mechanical/DataModel/Enums/AMHeatingDurationType.md#AMHeatingDurationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HeatingDuration.
 
@@ -432,7 +432,7 @@ Gets or sets the HeatingDuration.
 
 <a id="AMBuildSettings.HeatingMethod"></a>
 
-### *property* AMBuildSettings.HeatingMethod *: [Ansys.Mechanical.DataModel.Enums.AMHeatingMethod](./../../../../Mechanical/DataModel/Enums/AMHeatingMethod.md#AMHeatingMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBuildSettings.HeatingMethod *: [Ansys.Mechanical.DataModel.Enums.AMHeatingMethod](../../../../Mechanical/DataModel/Enums/AMHeatingMethod.md#AMHeatingMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HeatingMethod.
 
@@ -440,7 +440,7 @@ Gets or sets the HeatingMethod.
 
 <a id="AMBuildSettings.InherentStrainDefinition"></a>
 
-### *property* AMBuildSettings.InherentStrainDefinition *: [Ansys.Mechanical.DataModel.Enums.AMInherentStrainDefinition](./../../../../Mechanical/DataModel/Enums/AMInherentStrainDefinition.md#AMInherentStrainDefinition) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBuildSettings.InherentStrainDefinition *: [Ansys.Mechanical.DataModel.Enums.AMInherentStrainDefinition](../../../../Mechanical/DataModel/Enums/AMInherentStrainDefinition.md#AMInherentStrainDefinition) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the InherentStrainDefinition.
 
@@ -448,7 +448,7 @@ Gets or sets the InherentStrainDefinition.
 
 <a id="AMBuildSettings.MachineLearningModel"></a>
 
-### *property* AMBuildSettings.MachineLearningModel *: [Ansys.Mechanical.DataModel.Enums.AMMachineLearningModel](./../../../../Mechanical/DataModel/Enums/AMMachineLearningModel.md#AMMachineLearningModel) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBuildSettings.MachineLearningModel *: [Ansys.Mechanical.DataModel.Enums.AMMachineLearningModel](../../../../Mechanical/DataModel/Enums/AMMachineLearningModel.md#AMMachineLearningModel) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MachineLearningModel.
 
@@ -456,7 +456,7 @@ Gets or sets the MachineLearningModel.
 
 <a id="AMBuildSettings.AdditiveProcess"></a>
 
-### *property* AMBuildSettings.AdditiveProcess *: [Ansys.Mechanical.DataModel.Enums.AMProcessType](./../../../../Mechanical/DataModel/Enums/AMProcessType.md#AMProcessType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBuildSettings.AdditiveProcess *: [Ansys.Mechanical.DataModel.Enums.AMProcessType](../../../../Mechanical/DataModel/Enums/AMProcessType.md#AMProcessType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AdditiveProcess.
 
@@ -464,7 +464,7 @@ Gets or sets the AdditiveProcess.
 
 <a id="AMBuildSettings.ScanPatternDefinition"></a>
 
-### *property* AMBuildSettings.ScanPatternDefinition *: [Ansys.Mechanical.DataModel.Enums.AMScanPatternDefinition](./../../../../Mechanical/DataModel/Enums/AMScanPatternDefinition.md#AMScanPatternDefinition) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBuildSettings.ScanPatternDefinition *: [Ansys.Mechanical.DataModel.Enums.AMScanPatternDefinition](../../../../Mechanical/DataModel/Enums/AMScanPatternDefinition.md#AMScanPatternDefinition) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScanPatternDefinition.
 
@@ -472,7 +472,7 @@ Gets or sets the ScanPatternDefinition.
 
 <a id="AMBuildSettings.ThermalStrainMethod"></a>
 
-### *property* AMBuildSettings.ThermalStrainMethod *: [Ansys.Mechanical.DataModel.Enums.AMThermalStrainMethod](./../../../../Mechanical/DataModel/Enums/AMThermalStrainMethod.md#AMThermalStrainMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBuildSettings.ThermalStrainMethod *: [Ansys.Mechanical.DataModel.Enums.AMThermalStrainMethod](../../../../Mechanical/DataModel/Enums/AMThermalStrainMethod.md#AMThermalStrainMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ThermalStrainMethod.
 
@@ -488,7 +488,7 @@ Gets or sets the InherentStrain.
 
 <a id="AMBuildSettings.DataModelObjectCategory"></a>
 
-### *property* AMBuildSettings.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBuildSettings.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -504,7 +504,7 @@ Gets the list of children.
 
 <a id="AMBuildSettings.Comments"></a>
 
-### *property* AMBuildSettings.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBuildSettings.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -512,7 +512,7 @@ Gets the list of associated comments.
 
 <a id="AMBuildSettings.Figures"></a>
 
-### *property* AMBuildSettings.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBuildSettings.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -520,7 +520,7 @@ Gets the list of associated figures.
 
 <a id="AMBuildSettings.Images"></a>
 
-### *property* AMBuildSettings.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBuildSettings.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -596,7 +596,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### AMBuildSettings.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### AMBuildSettings.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

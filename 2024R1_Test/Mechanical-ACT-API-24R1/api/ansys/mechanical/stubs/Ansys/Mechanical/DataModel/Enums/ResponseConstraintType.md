@@ -18,18 +18,18 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 | Name |
 | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| [`CenterOfGravityConstraint`](./../../../ACT/Automation/Mechanical/CenterOfGravityConstraint.md#CenterOfGravityConstraint) |
-| [`ComplianceConstraint`](./../../../ACT/Automation/Mechanical/ComplianceConstraint.md#ComplianceConstraint) |
-| [`CriterionConstraint`](./../../../ACT/Automation/Mechanical/CriterionConstraint.md#CriterionConstraint) |
-| [`DisplacementConstraint`](./../../../ACT/Automation/Mechanical/DisplacementConstraint.md#DisplacementConstraint) |
-| [`NaturalFrequencyConstraint`](./../../../ACT/Automation/Mechanical/NaturalFrequencyConstraint.md#NaturalFrequencyConstraint) |
-| [`LocalVonMisesStressConstraint`](./../../../ACT/Automation/Mechanical/LocalVonMisesStressConstraint.md#LocalVonMisesStressConstraint) |
-| [`MassConstraint`](./../../../ACT/Automation/Mechanical/MassConstraint.md#MassConstraint) |
-| [`MomentOfInertiaConstraint`](./../../../ACT/Automation/Mechanical/MomentOfInertiaConstraint.md#MomentOfInertiaConstraint) |
-| [`ReactionForceConstraint`](./../../../ACT/Automation/Mechanical/ReactionForceConstraint.md#ReactionForceConstraint) |
-| [`TemperatureConstraint`](./../../../ACT/Automation/Mechanical/TemperatureConstraint.md#TemperatureConstraint) |
-| [`VolumeConstraint`](./../../../ACT/Automation/Mechanical/VolumeConstraint.md#VolumeConstraint) |
-| [`GlobalVonMisesStressConstraint`](./../../../ACT/Automation/Mechanical/GlobalVonMisesStressConstraint.md#GlobalVonMisesStressConstraint) |
+| [`CenterOfGravityConstraint`](../../../ACT/Automation/Mechanical/CenterOfGravityConstraint.md#CenterOfGravityConstraint) |
+| [`ComplianceConstraint`](../../../ACT/Automation/Mechanical/ComplianceConstraint.md#ComplianceConstraint) |
+| [`CriterionConstraint`](../../../ACT/Automation/Mechanical/CriterionConstraint.md#CriterionConstraint) |
+| [`DisplacementConstraint`](../../../ACT/Automation/Mechanical/DisplacementConstraint.md#DisplacementConstraint) |
+| [`NaturalFrequencyConstraint`](../../../ACT/Automation/Mechanical/NaturalFrequencyConstraint.md#NaturalFrequencyConstraint) |
+| [`LocalVonMisesStressConstraint`](../../../ACT/Automation/Mechanical/LocalVonMisesStressConstraint.md#LocalVonMisesStressConstraint) |
+| [`MassConstraint`](../../../ACT/Automation/Mechanical/MassConstraint.md#MassConstraint) |
+| [`MomentOfInertiaConstraint`](../../../ACT/Automation/Mechanical/MomentOfInertiaConstraint.md#MomentOfInertiaConstraint) |
+| [`ReactionForceConstraint`](../../../ACT/Automation/Mechanical/ReactionForceConstraint.md#ReactionForceConstraint) |
+| [`TemperatureConstraint`](../../../ACT/Automation/Mechanical/TemperatureConstraint.md#TemperatureConstraint) |
+| [`VolumeConstraint`](../../../ACT/Automation/Mechanical/VolumeConstraint.md#VolumeConstraint) |
+| [`GlobalVonMisesStressConstraint`](../../../ACT/Automation/Mechanical/GlobalVonMisesStressConstraint.md#GlobalVonMisesStressConstraint) |
 
 <a id="import-detail"></a>
 

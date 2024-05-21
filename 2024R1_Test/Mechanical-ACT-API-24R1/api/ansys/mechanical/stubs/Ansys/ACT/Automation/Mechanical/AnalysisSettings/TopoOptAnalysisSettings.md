@@ -58,13 +58,13 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`RegionOfManufacturingConstraint`](#TopoOptAnalysisSettings.RegionOfManufacturingConstraint)                          | Gets or sets the RegionOfManufacturingConstraint.             |
 | [`RegionOfMinMemberSize`](#TopoOptAnalysisSettings.RegionOfMinMemberSize)                                              | Gets or sets the RegionOfMinMemberSize.                       |
 | [`SolverUnitSystem`](#TopoOptAnalysisSettings.SolverUnitSystem)                                                        | Gets or sets the SolverUnitSystem.                            |
-| [`SolverType`](./../../../../Mechanical/DataModel/Enums/SolverType.md#SolverType)                                        | Gets or sets the SolverType.                                  |
+| [`SolverType`](../../../../Mechanical/DataModel/Enums/SolverType.md#SolverType)                                        | Gets or sets the SolverType.                                  |
 | [`SolverUnits`](#TopoOptAnalysisSettings.SolverUnits)                                                                  | Gets or sets the SolverUnits.                                 |
 | [`Filter`](#TopoOptAnalysisSettings.Filter)                                                                            | Gets or sets the Filter.                                      |
 | [`DeleteUnneededFiles`](#TopoOptAnalysisSettings.DeleteUnneededFiles)                                                  | Gets or sets the DeleteUnneededFiles.                         |
 | [`ExportKnockdownFilePath`](#TopoOptAnalysisSettings.ExportKnockdownFilePath)                                          | Gets or sets the ExportKnockdownFilePath.                     |
 | [`SaveMAPDLDB`](#TopoOptAnalysisSettings.SaveMAPDLDB)                                                                  | Gets or sets the SaveMAPDLDB.                                 |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Graph`](#TopoOptAnalysisSettings.Graph)                                                                              | Graph property.                                               |
 | [`ScratchSolverFilesDirectory`](#TopoOptAnalysisSettings.ScratchSolverFilesDirectory)                                  | Gets the ScratchSolverFilesDirectory.                         |
 | [`SolverFilesDirectory`](#TopoOptAnalysisSettings.SolverFilesDirectory)                                                | Gets the SolverFilesDirectory.                                |
@@ -90,7 +90,7 @@ from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.AnalysisSettings imp
 
 <a id="TopoOptAnalysisSettings.ExportDesignProperties"></a>
 
-### *property* TopoOptAnalysisSettings.ExportDesignProperties *: [Ansys.Mechanical.DataModel.Enums.TopoOptimizationExportDesignProperties](./../../../../Mechanical/DataModel/Enums/TopoOptimizationExportDesignProperties.md#TopoOptimizationExportDesignProperties) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.ExportDesignProperties *: [Ansys.Mechanical.DataModel.Enums.TopoOptimizationExportDesignProperties](../../../../Mechanical/DataModel/Enums/TopoOptimizationExportDesignProperties.md#TopoOptimizationExportDesignProperties) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ExportDesignProperties.
 
@@ -98,7 +98,7 @@ Gets or sets the ExportDesignProperties.
 
 <a id="TopoOptAnalysisSettings.ExportDesignPropertiesFileFormat"></a>
 
-### *property* TopoOptAnalysisSettings.ExportDesignPropertiesFileFormat *: [Ansys.Mechanical.DataModel.Enums.TopoOptimizationExportDesignPropertiesFileFormat](./../../../../Mechanical/DataModel/Enums/TopoOptimizationExportDesignPropertiesFileFormat.md#TopoOptimizationExportDesignPropertiesFileFormat) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.ExportDesignPropertiesFileFormat *: [Ansys.Mechanical.DataModel.Enums.TopoOptimizationExportDesignPropertiesFileFormat](../../../../Mechanical/DataModel/Enums/TopoOptimizationExportDesignPropertiesFileFormat.md#TopoOptimizationExportDesignPropertiesFileFormat) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ExportDesignPropertiesFileFormat.
 
@@ -170,7 +170,7 @@ Gets or sets the PenaltyFactor.
 
 <a id="TopoOptAnalysisSettings.Algorithm"></a>
 
-### *property* TopoOptAnalysisSettings.Algorithm *: [Ansys.Mechanical.DataModel.Enums.AlgorithmType](./../../../../Mechanical/DataModel/Enums/AlgorithmType.md#AlgorithmType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.Algorithm *: [Ansys.Mechanical.DataModel.Enums.AlgorithmType](../../../../Mechanical/DataModel/Enums/AlgorithmType.md#AlgorithmType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Algorithm.
 
@@ -178,7 +178,7 @@ Gets or sets the Algorithm.
 
 <a id="TopoOptAnalysisSettings.StoreResultsAt"></a>
 
-### *property* TopoOptAnalysisSettings.StoreResultsAt *: [Ansys.Mechanical.DataModel.Enums.IterationOptions](./../../../../Mechanical/DataModel/Enums/IterationOptions.md#IterationOptions) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.StoreResultsAt *: [Ansys.Mechanical.DataModel.Enums.IterationOptions](../../../../Mechanical/DataModel/Enums/IterationOptions.md#IterationOptions) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StoreResultsAt.
 
@@ -186,7 +186,7 @@ Gets or sets the StoreResultsAt.
 
 <a id="TopoOptAnalysisSettings.FutureAnalysis"></a>
 
-### *property* TopoOptAnalysisSettings.FutureAnalysis *: [Ansys.Mechanical.DataModel.Enums.FutureIntentType](./../../../../Mechanical/DataModel/Enums/FutureIntentType.md#FutureIntentType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.FutureAnalysis *: [Ansys.Mechanical.DataModel.Enums.FutureIntentType](../../../../Mechanical/DataModel/Enums/FutureIntentType.md#FutureIntentType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FutureAnalysis.
 
@@ -194,7 +194,7 @@ Gets or sets the FutureAnalysis.
 
 <a id="TopoOptAnalysisSettings.MultiOptimTypeStrategy"></a>
 
-### *property* TopoOptAnalysisSettings.MultiOptimTypeStrategy *: [Ansys.Mechanical.DataModel.Enums.MultiOptimTypeStrategyType](./../../../../Mechanical/DataModel/Enums/MultiOptimTypeStrategyType.md#MultiOptimTypeStrategyType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.MultiOptimTypeStrategy *: [Ansys.Mechanical.DataModel.Enums.MultiOptimTypeStrategyType](../../../../Mechanical/DataModel/Enums/MultiOptimTypeStrategyType.md#MultiOptimTypeStrategyType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MultiOptimTypeStrategy.
 
@@ -202,7 +202,7 @@ Gets or sets the MultiOptimTypeStrategy.
 
 <a id="TopoOptAnalysisSettings.OptimizationOutputLog"></a>
 
-### *property* TopoOptAnalysisSettings.OptimizationOutputLog *: [Ansys.Mechanical.DataModel.Enums.TopoOptimizationOutputLog](./../../../../Mechanical/DataModel/Enums/TopoOptimizationOutputLog.md#TopoOptimizationOutputLog) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.OptimizationOutputLog *: [Ansys.Mechanical.DataModel.Enums.TopoOptimizationOutputLog](../../../../Mechanical/DataModel/Enums/TopoOptimizationOutputLog.md#TopoOptimizationOutputLog) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the OptimizationOutputLog.
 
@@ -210,7 +210,7 @@ Gets or sets the OptimizationOutputLog.
 
 <a id="TopoOptAnalysisSettings.RegionOfAMOverhangConstraint"></a>
 
-### *property* TopoOptAnalysisSettings.RegionOfAMOverhangConstraint *: [Ansys.Mechanical.DataModel.Enums.ExclusionParticipantType](./../../../../Mechanical/DataModel/Enums/ExclusionParticipantType.md#ExclusionParticipantType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.RegionOfAMOverhangConstraint *: [Ansys.Mechanical.DataModel.Enums.ExclusionParticipantType](../../../../Mechanical/DataModel/Enums/ExclusionParticipantType.md#ExclusionParticipantType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RegionOfAMOverhangConstraint.
 
@@ -218,7 +218,7 @@ Gets or sets the RegionOfAMOverhangConstraint.
 
 <a id="TopoOptAnalysisSettings.RegionOfManufacturingConstraint"></a>
 
-### *property* TopoOptAnalysisSettings.RegionOfManufacturingConstraint *: [Ansys.Mechanical.DataModel.Enums.ExclusionParticipantType](./../../../../Mechanical/DataModel/Enums/ExclusionParticipantType.md#ExclusionParticipantType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.RegionOfManufacturingConstraint *: [Ansys.Mechanical.DataModel.Enums.ExclusionParticipantType](../../../../Mechanical/DataModel/Enums/ExclusionParticipantType.md#ExclusionParticipantType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RegionOfManufacturingConstraint.
 
@@ -226,7 +226,7 @@ Gets or sets the RegionOfManufacturingConstraint.
 
 <a id="TopoOptAnalysisSettings.RegionOfMinMemberSize"></a>
 
-### *property* TopoOptAnalysisSettings.RegionOfMinMemberSize *: [Ansys.Mechanical.DataModel.Enums.ExclusionParticipantType](./../../../../Mechanical/DataModel/Enums/ExclusionParticipantType.md#ExclusionParticipantType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.RegionOfMinMemberSize *: [Ansys.Mechanical.DataModel.Enums.ExclusionParticipantType](../../../../Mechanical/DataModel/Enums/ExclusionParticipantType.md#ExclusionParticipantType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RegionOfMinMemberSize.
 
@@ -234,7 +234,7 @@ Gets or sets the RegionOfMinMemberSize.
 
 <a id="TopoOptAnalysisSettings.SolverUnitSystem"></a>
 
-### *property* TopoOptAnalysisSettings.SolverUnitSystem *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](./../../../../Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.SolverUnitSystem *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](../../../../Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverUnitSystem.
 
@@ -242,7 +242,7 @@ Gets or sets the SolverUnitSystem.
 
 <a id="TopoOptAnalysisSettings.SolverType"></a>
 
-### *property* TopoOptAnalysisSettings.SolverType *: [Ansys.Mechanical.DataModel.Enums.OptimizationSolverType](./../../../../Mechanical/DataModel/Enums/OptimizationSolverType.md#OptimizationSolverType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.SolverType *: [Ansys.Mechanical.DataModel.Enums.OptimizationSolverType](../../../../Mechanical/DataModel/Enums/OptimizationSolverType.md#OptimizationSolverType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverType.
 
@@ -250,7 +250,7 @@ Gets or sets the SolverType.
 
 <a id="TopoOptAnalysisSettings.SolverUnits"></a>
 
-### *property* TopoOptAnalysisSettings.SolverUnits *: [Ansys.Mechanical.DataModel.Enums.SolverUnitsControlType](./../../../../Mechanical/DataModel/Enums/SolverUnitsControlType.md#SolverUnitsControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.SolverUnits *: [Ansys.Mechanical.DataModel.Enums.SolverUnitsControlType](../../../../Mechanical/DataModel/Enums/SolverUnitsControlType.md#SolverUnitsControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverUnits.
 
@@ -258,7 +258,7 @@ Gets or sets the SolverUnits.
 
 <a id="TopoOptAnalysisSettings.Filter"></a>
 
-### *property* TopoOptAnalysisSettings.Filter *: [Ansys.Mechanical.DataModel.Enums.TopoOptimizationDensityFilter](./../../../../Mechanical/DataModel/Enums/TopoOptimizationDensityFilter.md#TopoOptimizationDensityFilter) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.Filter *: [Ansys.Mechanical.DataModel.Enums.TopoOptimizationDensityFilter](../../../../Mechanical/DataModel/Enums/TopoOptimizationDensityFilter.md#TopoOptimizationDensityFilter) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Filter.
 
@@ -290,7 +290,7 @@ Gets or sets the SaveMAPDLDB.
 
 <a id="TopoOptAnalysisSettings.DataModelObjectCategory"></a>
 
-### *property* TopoOptAnalysisSettings.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -298,7 +298,7 @@ Gets the current DataModelObject’s category.
 
 <a id="TopoOptAnalysisSettings.Graph"></a>
 
-### *property* TopoOptAnalysisSettings.Graph *: [Ansys.Mechanical.Graphics.AnalysisSettingsGraph](./../../../../Mechanical/Graphics/AnalysisSettingsGraph.md#AnalysisSettingsGraph) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.Graph *: [Ansys.Mechanical.Graphics.AnalysisSettingsGraph](../../../../Mechanical/Graphics/AnalysisSettingsGraph.md#AnalysisSettingsGraph) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Graph property.
 
@@ -330,7 +330,7 @@ Gets the list of children.
 
 <a id="TopoOptAnalysisSettings.Comments"></a>
 
-### *property* TopoOptAnalysisSettings.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -338,7 +338,7 @@ Gets the list of associated comments.
 
 <a id="TopoOptAnalysisSettings.Figures"></a>
 
-### *property* TopoOptAnalysisSettings.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -346,7 +346,7 @@ Gets the list of associated figures.
 
 <a id="TopoOptAnalysisSettings.Images"></a>
 
-### *property* TopoOptAnalysisSettings.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -398,7 +398,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### TopoOptAnalysisSettings.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### TopoOptAnalysisSettings.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

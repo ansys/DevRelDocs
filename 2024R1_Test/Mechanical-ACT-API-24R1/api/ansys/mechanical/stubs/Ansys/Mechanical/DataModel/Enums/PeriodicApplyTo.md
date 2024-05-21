@@ -19,8 +19,8 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 | Name |
 | ------------------------------------------------------------------------------------------------------ |
 | [`ApplicableDOF`](#PeriodicApplyTo.ApplicableDOF) |
-| [`Displacement`](./../../../ACT/Automation/Mechanical/BoundaryConditions/Displacement.md#Displacement) |
-| [`Voltage`](./../../../ACT/Automation/Mechanical/BoundaryConditions/Voltage.md#Voltage) |
+| [`Displacement`](../../../ACT/Automation/Mechanical/BoundaryConditions/Displacement.md#Displacement) |
+| [`Voltage`](../../../ACT/Automation/Mechanical/BoundaryConditions/Voltage.md#Voltage) |
 
 <a id="import-detail"></a>
 

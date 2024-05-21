@@ -66,7 +66,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Subject`](#Project.Subject)                                                                                       | Gets or sets the Subject.                                            |
 | [`SaveProjectAfterSolution`](#Project.SaveProjectAfterSolution)                                                     | Gets or sets the SaveProjectAfterSolution.                           |
 | [`SaveProjectBeforeSolution`](#Project.SaveProjectBeforeSolution)                                                   | Gets or sets the SaveProjectBeforeSolution.                          |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                         |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                         |
 | [`Children`](#Project.Children)                                                                                     | Gets the list of children.                                           |
 | [`Comments`](#Project.Comments)                                                                                     | Gets the list of associated comments.                                |
 | [`Images`](#Project.Images)                                                                                         | Gets the list of associated images.                                  |
@@ -120,7 +120,7 @@ Gets the CreationTime.
 
 <a id="Project.UnitSystem"></a>
 
-### *property* Project.UnitSystem *: [Ansys.Mechanical.DataModel.Enums.UserUnitSystemType](./../../../Mechanical/DataModel/Enums/UserUnitSystemType.md#UserUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Project.UnitSystem *: [Ansys.Mechanical.DataModel.Enums.UserUnitSystemType](../../../Mechanical/DataModel/Enums/UserUnitSystemType.md#UserUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Change the Unit System.
 
@@ -240,7 +240,7 @@ Gets or sets the SaveProjectBeforeSolution.
 
 <a id="Project.DataModelObjectCategory"></a>
 
-### *property* Project.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Project.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -391,7 +391,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### Project.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### Project.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

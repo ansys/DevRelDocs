@@ -57,7 +57,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`GenerateAutomaticMeshConnectionsOnRefresh`](#MeshEdit.GenerateAutomaticMeshConnectionsOnRefresh)                  | Gets or sets the GenerateAutomaticMeshConnectionsOnRefresh.           |
 | [`AssociateToPullGeometry`](#MeshEdit.AssociateToPullGeometry)                                                      | To Migrate Boundary Conditions from profile to resulting Pull bodies. |
 | [`TransparencyEnabled`](#MeshEdit.TransparencyEnabled)                                                              | Gets or sets the TransparencyEnabled.                                 |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                          |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                          |
 | [`Children`](#MeshEdit.Children)                                                                                    | Gets the list of children.                                            |
 | [`Comments`](#MeshEdit.Comments)                                                                                    | Gets the list of associated comments.                                 |
 | [`Figures`](#MeshEdit.Figures)                                                                                      | Gets the list of associated figures.                                  |
@@ -88,7 +88,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="MeshEdit.GenerateAutomaticMeshConnectionsOnRefresh"></a>
 
-### *property* MeshEdit.GenerateAutomaticMeshConnectionsOnRefresh *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](./../../../Mechanical/DataModel/Enums/AutomaticOrManual.md#AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshEdit.GenerateAutomaticMeshConnectionsOnRefresh *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](../../../Mechanical/DataModel/Enums/AutomaticOrManual.md#AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GenerateAutomaticMeshConnectionsOnRefresh.
 
@@ -112,7 +112,7 @@ Gets or sets the TransparencyEnabled.
 
 <a id="MeshEdit.DataModelObjectCategory"></a>
 
-### *property* MeshEdit.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshEdit.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -308,7 +308,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### MeshEdit.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### MeshEdit.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

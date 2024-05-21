@@ -18,8 +18,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 | Name | Description |
 |------------------------------------------------------------------------------------|----------------------------------------|
-| [`ModelViewManager`](./../../Common/Graphics/ModelViewManager.md#ModelViewManager)   | An instance of the ModelViewManager.   |
-| [`SectionPlanes`](./../../../Mechanical/Graphics/SectionPlanes.md#SectionPlanes)     | An instance of the SectionPlanes.      |
+| [`ModelViewManager`](../../Common/Graphics/ModelViewManager.md#ModelViewManager)   | An instance of the ModelViewManager.   |
+| [`SectionPlanes`](../../../Mechanical/Graphics/SectionPlanes.md#SectionPlanes)     | An instance of the SectionPlanes.      |
 
 <a id="import-detail"></a>
 
@@ -35,7 +35,7 @@ from ansys.mechanical.stubs.Ansys.ACT.Interfaces.Mechanical import IMechanicalGr
 
 <a id="IMechanicalGraphics.ModelViewManager"></a>
 
-### *property* IMechanicalGraphics.ModelViewManager *: [Ansys.ACT.Interfaces.Graphics.IModelViewManager](./../Graphics/IModelViewManager.md#IModelViewManager) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IMechanicalGraphics.ModelViewManager *: [Ansys.ACT.Interfaces.Graphics.IModelViewManager](../Graphics/IModelViewManager.md#IModelViewManager) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 An instance of the ModelViewManager.
 
@@ -43,7 +43,7 @@ An instance of the ModelViewManager.
 
 <a id="IMechanicalGraphics.SectionPlanes"></a>
 
-### *property* IMechanicalGraphics.SectionPlanes *: [Ansys.Mechanical.Graphics.SectionPlanes](./../../../Mechanical/Graphics/SectionPlanes.md#SectionPlanes) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IMechanicalGraphics.SectionPlanes *: [Ansys.Mechanical.Graphics.SectionPlanes](../../../Mechanical/Graphics/SectionPlanes.md#SectionPlanes) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 An instance of the SectionPlanes.
 

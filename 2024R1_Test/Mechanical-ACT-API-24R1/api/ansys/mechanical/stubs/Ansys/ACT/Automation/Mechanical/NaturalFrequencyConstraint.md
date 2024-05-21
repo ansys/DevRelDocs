@@ -41,7 +41,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`ModeNumber`](#NaturalFrequencyConstraint.ModeNumber)                                                              | Gets or sets the ModeNumber.                                                             |
 | [`MaximumFrequency`](#NaturalFrequencyConstraint.MaximumFrequency)                                                  | Gets or sets the MaximumFrequency.                                                       |
 | [`MinimumFrequency`](#NaturalFrequencyConstraint.MinimumFrequency)                                                  | Gets or sets the MinimumFrequency.                                                       |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                             |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                             |
 | [`EnvironmentSelection`](#NaturalFrequencyConstraint.EnvironmentSelection)                                          | Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum. |
 | [`Suppressed`](#NaturalFrequencyConstraint.Suppressed)                                                              | Gets or sets the Suppressed.                                                             |
 | [`Children`](#NaturalFrequencyConstraint.Children)                                                                  | Gets the list of children.                                                               |
@@ -95,7 +95,7 @@ Gets or sets the MinimumFrequency.
 
 <a id="NaturalFrequencyConstraint.DataModelObjectCategory"></a>
 
-### *property* NaturalFrequencyConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NaturalFrequencyConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -179,7 +179,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### NaturalFrequencyConstraint.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### NaturalFrequencyConstraint.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

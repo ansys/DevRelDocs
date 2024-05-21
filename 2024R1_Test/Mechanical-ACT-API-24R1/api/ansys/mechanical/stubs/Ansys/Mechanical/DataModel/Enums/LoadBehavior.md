@@ -18,7 +18,7 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 | Name |
 | ------------------------------------------------------------------------- |
-| [`Beam`](./../../../ACT/Automation/Mechanical/Connections/Beam.md#Beam) |
+| [`Beam`](../../../ACT/Automation/Mechanical/Connections/Beam.md#Beam) |
 | [`Coupled`](#LoadBehavior.Coupled) |
 | [`Deformable`](#LoadBehavior.Deformable) |
 | [`Rigid`](#LoadBehavior.Rigid) |

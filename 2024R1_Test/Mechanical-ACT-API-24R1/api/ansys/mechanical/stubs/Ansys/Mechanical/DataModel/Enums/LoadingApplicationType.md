@@ -19,7 +19,7 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 | Name |
 | -------------------------------------------------------------- |
 | [`LoadVector`](#LoadingApplicationType.LoadVector) |
-| [`Table`](./../../../ACT/Automation/Mechanical/Table.md#Table) |
+| [`Table`](../../../ACT/Automation/Mechanical/Table.md#Table) |
 
 <a id="import-detail"></a>
 

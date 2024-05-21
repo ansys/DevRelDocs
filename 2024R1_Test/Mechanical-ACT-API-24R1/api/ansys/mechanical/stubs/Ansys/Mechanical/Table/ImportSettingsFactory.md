@@ -34,6 +34,6 @@ from ansys.mechanical.stubs.Ansys.Mechanical.Table import ImportSettingsFactory
 
 <a id="ImportSettingsFactory.GetSettingsForFormat"></a>
 
-### *classmethod* ImportSettingsFactory.GetSettingsForFormat(format: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.ImportFormat](./../DataModel/MechanicalEnums/Table/ImportFormat.md#ImportFormat))
+### *classmethod* ImportSettingsFactory.GetSettingsForFormat(format: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.ImportFormat](../DataModel/MechanicalEnums/Table/ImportFormat.md#ImportFormat))
 
 <!-- !! processed by numpydoc !! -->

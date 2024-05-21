@@ -49,9 +49,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`ConnectionOption`](#Connect.ConnectionOption)                                                                        | Gets or sets the ConnectionOption.                            |
 | [`MultipleConnectionStep`](#Connect.MultipleConnectionStep)                                                            | Gets or sets the MultipleConnectionStep.                      |
 | [`PerformIntersections`](#Connect.PerformIntersections)                                                                | Gets or sets the PerformIntersections.                        |
-| [`NamedSelection`](./../NamedSelection.md#NamedSelection)                                                                | Gets or sets the NamedSelection.                              |
+| [`NamedSelection`](../NamedSelection.md#NamedSelection)                                                                | Gets or sets the NamedSelection.                              |
 | [`Location`](#Connect.Location)                                                                                        | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`ScopingMethod`](#Connect.ScopingMethod)                                                                              | Gets or sets the ScopingMethod.                               |
 | [`Suppressed`](#Connect.Suppressed)                                                                                    | Gets or sets the Suppressed.                                  |
 | [`Children`](#Connect.Children)                                                                                        | Gets the list of children.                                    |
@@ -116,7 +116,7 @@ Gets or sets the CoplanarAngleTolerance.
 
 <a id="Connect.ConnectionOption"></a>
 
-### *property* Connect.ConnectionOption *: [Ansys.Mechanical.DataModel.Enums.ConnectionOptions](./../../../../Mechanical/DataModel/Enums/ConnectionOptions.md#ConnectionOptions) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Connect.ConnectionOption *: [Ansys.Mechanical.DataModel.Enums.ConnectionOptions](../../../../Mechanical/DataModel/Enums/ConnectionOptions.md#ConnectionOptions) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ConnectionOption.
 
@@ -140,7 +140,7 @@ Gets or sets the PerformIntersections.
 
 <a id="Connect.NamedSelection"></a>
 
-### *property* Connect.NamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](./../NamedSelection.md#NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Connect.NamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../NamedSelection.md#NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelection.
 
@@ -156,7 +156,7 @@ Gets or sets the Location.
 
 <a id="Connect.DataModelObjectCategory"></a>
 
-### *property* Connect.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Connect.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -164,7 +164,7 @@ Gets the current DataModelObject’s category.
 
 <a id="Connect.ScopingMethod"></a>
 
-### *property* Connect.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](./../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Connect.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -188,7 +188,7 @@ Gets the list of children.
 
 <a id="Connect.Comments"></a>
 
-### *property* Connect.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Connect.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -196,7 +196,7 @@ Gets the list of associated comments.
 
 <a id="Connect.Figures"></a>
 
-### *property* Connect.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Connect.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -204,7 +204,7 @@ Gets the list of associated figures.
 
 <a id="Connect.Images"></a>
 
-### *property* Connect.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Connect.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -272,7 +272,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### Connect.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### Connect.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

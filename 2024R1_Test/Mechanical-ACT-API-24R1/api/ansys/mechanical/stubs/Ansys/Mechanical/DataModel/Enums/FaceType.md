@@ -18,7 +18,7 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 | Name |
 | -------------------------------------------------- |
-| [`Plane`](./../ConstructionLines/Plane.md#Plane) |
+| [`Plane`](../ConstructionLines/Plane.md#Plane) |
 | [`Cylinder`](#FaceType.Cylinder) |
 | [`Cone`](#FaceType.Cone) |
 | [`Torus`](#FaceType.Torus) |

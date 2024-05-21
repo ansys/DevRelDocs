@@ -18,8 +18,8 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 | Name |
 | ------------------------------------------------------------------ |
-| [`Delimited`](./../Table/ImportFormat.md#ImportFormat.Delimited) |
-| [`FixedWidth`](./../Table/ImportFormat.md#ImportFormat.FixedWidth) |
+| [`Delimited`](../Table/ImportFormat.md#ImportFormat.Delimited) |
+| [`FixedWidth`](../Table/ImportFormat.md#ImportFormat.FixedWidth) |
 | [`MAPDL`](#ImportFormat.MAPDL) |
 | [`AXDT`](#ImportFormat.AXDT) |
 | [`ECAD`](#ImportFormat.ECAD) |

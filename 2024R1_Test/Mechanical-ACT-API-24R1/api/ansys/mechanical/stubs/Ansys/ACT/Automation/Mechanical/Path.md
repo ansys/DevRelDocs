@@ -51,7 +51,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`StartXCoordinate`](#Path.StartXCoordinate)                                                                        | Gets or sets the StartXCoordinate.                            |
 | [`StartYCoordinate`](#Path.StartYCoordinate)                                                                        | Gets or sets the StartYCoordinate.                            |
 | [`StartZCoordinate`](#Path.StartZCoordinate)                                                                        | Gets or sets the StartZCoordinate.                            |
-| [`PathType`](./../../../Mechanical/DataModel/MechanicalEnums/Common/PathType.md#PathType)                             | Gets or sets the PathType.                                    |
+| [`PathType`](../../../Mechanical/DataModel/MechanicalEnums/Common/PathType.md#PathType)                             | Gets or sets the PathType.                                    |
 | [`HasValidGeometrySelection`](#Path.HasValidGeometrySelection)                                                      | Gets the HasValidGeometrySelection.                           |
 | [`ShowMesh`](#Path.ShowMesh)                                                                                        | Gets or sets the ShowMesh.                                    |
 | [`SnapToMeshNodes`](#Path.SnapToMeshNodes)                                                                          | Gets or sets the SnapToMeshNodes.                             |
@@ -61,7 +61,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`StartCoordinateSystem`](#Path.StartCoordinateSystem)                                                              | Gets or sets the StartCoordinateSystem.                       |
 | [`Location`](#Path.Location)                                                                                        | Gets or sets the Location.                                    |
 | [`OffsetEdgeLocation`](#Path.OffsetEdgeLocation)                                                                    | Gets or sets the OffsetEdgeLocation.                          |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#Path.Children)                                                                                        | Gets the list of children.                                    |
 | [`Comments`](#Path.Comments)                                                                                        | Gets the list of associated comments.                         |
 | [`Figures`](#Path.Figures)                                                                                          | Gets the list of associated figures.                          |
@@ -164,7 +164,7 @@ Gets or sets the StartZCoordinate.
 
 <a id="Path.PathType"></a>
 
-### *property* Path.PathType *: [Ansys.Mechanical.DataModel.Enums.PathScopingType](./../../../Mechanical/DataModel/Enums/PathScopingType.md#PathScopingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Path.PathType *: [Ansys.Mechanical.DataModel.Enums.PathScopingType](../../../Mechanical/DataModel/Enums/PathScopingType.md#PathScopingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PathType.
 
@@ -244,7 +244,7 @@ Gets or sets the OffsetEdgeLocation.
 
 <a id="Path.DataModelObjectCategory"></a>
 
-### *property* Path.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Path.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -344,7 +344,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### Path.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### Path.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

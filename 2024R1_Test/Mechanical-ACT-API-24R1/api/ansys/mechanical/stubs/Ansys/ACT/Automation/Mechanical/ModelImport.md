@@ -66,7 +66,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`ProcessModelData`](#ModelImport.ProcessModelData)                                                                 | Gets or sets the ProcessModelData.                            |
 | [`ProcessNodalComponents`](#ModelImport.ProcessNodalComponents)                                                     | Gets or sets the ProcessNodalComponents.                      |
 | [`ProcessValidBlockedCDBFile`](#ModelImport.ProcessValidBlockedCDBFile)                                             | Gets or sets the ProcessValidBlockedCDBFile.                  |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#ModelImport.Children)                                                                                 | Gets the list of children.                                    |
 | [`Comments`](#ModelImport.Comments)                                                                                 | Gets the list of associated comments.                         |
 | [`Figures`](#ModelImport.Figures)                                                                                   | Gets the list of associated figures.                          |
@@ -169,7 +169,7 @@ Gets or sets the VertexInsertionAngle.
 
 <a id="ModelImport.AnalysisTypeDimensionSetting"></a>
 
-### *property* ModelImport.AnalysisTypeDimensionSetting *: [Ansys.Mechanical.DataModel.Enums.AnalysisTypeDimensionEnum](./../../../Mechanical/DataModel/Enums/AnalysisTypeDimensionEnum.md#AnalysisTypeDimensionEnum) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ModelImport.AnalysisTypeDimensionSetting *: [Ansys.Mechanical.DataModel.Enums.AnalysisTypeDimensionEnum](../../../Mechanical/DataModel/Enums/AnalysisTypeDimensionEnum.md#AnalysisTypeDimensionEnum) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AnalysisTypeDimensionSetting.
 
@@ -177,7 +177,7 @@ Gets or sets the AnalysisTypeDimensionSetting.
 
 <a id="ModelImport.NodeAndElementRenumberingMethod"></a>
 
-### *property* ModelImport.NodeAndElementRenumberingMethod *: [Ansys.Mechanical.DataModel.Enums.NodeAndElementRenumberingMethodType](./../../../Mechanical/DataModel/Enums/NodeAndElementRenumberingMethodType.md#NodeAndElementRenumberingMethodType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ModelImport.NodeAndElementRenumberingMethod *: [Ansys.Mechanical.DataModel.Enums.NodeAndElementRenumberingMethodType](../../../Mechanical/DataModel/Enums/NodeAndElementRenumberingMethodType.md#NodeAndElementRenumberingMethodType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NodeAndElementRenumberingMethod.
 
@@ -185,7 +185,7 @@ Gets or sets the NodeAndElementRenumberingMethod.
 
 <a id="ModelImport.UnitSystemTypeForImport"></a>
 
-### *property* ModelImport.UnitSystemTypeForImport *: [Ansys.Mechanical.DataModel.Enums.ModelImportUnitSystemType](./../../../Mechanical/DataModel/Enums/ModelImportUnitSystemType.md#ModelImportUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ModelImport.UnitSystemTypeForImport *: [Ansys.Mechanical.DataModel.Enums.ModelImportUnitSystemType](../../../Mechanical/DataModel/Enums/ModelImportUnitSystemType.md#ModelImportUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UnitSystemTypeForImport.
 
@@ -313,7 +313,7 @@ Gets or sets the ProcessValidBlockedCDBFile.
 
 <a id="ModelImport.DataModelObjectCategory"></a>
 
-### *property* ModelImport.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ModelImport.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -389,7 +389,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### ModelImport.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### ModelImport.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

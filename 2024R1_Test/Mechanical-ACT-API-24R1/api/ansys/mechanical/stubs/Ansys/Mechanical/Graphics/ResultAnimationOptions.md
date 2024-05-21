@@ -56,7 +56,7 @@ Gets or Sets the Duration for Result Animation.
 
 <a id="ResultAnimationOptions.RangeType"></a>
 
-### *property* ResultAnimationOptions.RangeType *: [Ansys.Mechanical.DataModel.Enums.ResultAnimationRangeType](./../DataModel/Enums/ResultAnimationRangeType.md#ResultAnimationRangeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResultAnimationOptions.RangeType *: [Ansys.Mechanical.DataModel.Enums.ResultAnimationRangeType](../DataModel/Enums/ResultAnimationRangeType.md#ResultAnimationRangeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or Sets the Range Type for Result Animation.
 

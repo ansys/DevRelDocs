@@ -52,12 +52,12 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`PhaseAngle`](#AcousticPortInDuct.PhaseAngle)                                                                         | Gets or sets the PhaseAngle.                                   |
 | [`Radius`](#AcousticPortInDuct.Radius)                                                                                 | Gets or sets the Radius.                                       |
 | [`Width`](#AcousticPortInDuct.Width)                                                                                   | Gets or sets the Width.                                        |
-| [`PortAttribution`](./../../../../Mechanical/DataModel/Enums/PortAttribution.md#PortAttribution)                         | Gets or sets the PortAttribution.                              |
-| [`WaveType`](./../../../../Mechanical/DataModel/Enums/WaveType.md#WaveType)                                              | Gets or sets the WaveType.                                     |
+| [`PortAttribution`](../../../../Mechanical/DataModel/Enums/PortAttribution.md#PortAttribution)                         | Gets or sets the PortAttribution.                              |
+| [`WaveType`](../../../../Mechanical/DataModel/Enums/WaveType.md#WaveType)                                              | Gets or sets the WaveType.                                     |
 | [`PortSelection`](#AcousticPortInDuct.PortSelection)                                                                   | Gets or sets the PortSelection.                                |
-| [`CoordinateSystem`](./../../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                             |
+| [`CoordinateSystem`](../../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                             |
 | [`Location`](#AcousticPortInDuct.Location)                                                                             | Gets or sets the Location.                                     |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                   |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                   |
 | [`Suppressed`](#AcousticPortInDuct.Suppressed)                                                                         | Gets or sets the Suppressed.                                   |
 | [`SharedRefBody`](#AcousticPortInDuct.SharedRefBody)                                                                   | Gets or sets the SharedRefBody.                                |
 | [`Children`](#AcousticPortInDuct.Children)                                                                             | Gets the list of children.                                     |
@@ -179,7 +179,7 @@ Gets or sets the Width.
 
 <a id="AcousticPortInDuct.PortAttribution"></a>
 
-### *property* AcousticPortInDuct.PortAttribution *: [Ansys.Mechanical.DataModel.Enums.PortAttribution](./../../../../Mechanical/DataModel/Enums/PortAttribution.md#PortAttribution) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPortInDuct.PortAttribution *: [Ansys.Mechanical.DataModel.Enums.PortAttribution](../../../../Mechanical/DataModel/Enums/PortAttribution.md#PortAttribution) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PortAttribution.
 
@@ -187,7 +187,7 @@ Gets or sets the PortAttribution.
 
 <a id="AcousticPortInDuct.WaveType"></a>
 
-### *property* AcousticPortInDuct.WaveType *: [Ansys.Mechanical.DataModel.Enums.WaveType](./../../../../Mechanical/DataModel/Enums/WaveType.md#WaveType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPortInDuct.WaveType *: [Ansys.Mechanical.DataModel.Enums.WaveType](../../../../Mechanical/DataModel/Enums/WaveType.md#WaveType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the WaveType.
 
@@ -203,7 +203,7 @@ Gets or sets the PortSelection.
 
 <a id="AcousticPortInDuct.CoordinateSystem"></a>
 
-### *property* AcousticPortInDuct.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPortInDuct.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -219,7 +219,7 @@ Gets or sets the Location.
 
 <a id="AcousticPortInDuct.DataModelObjectCategory"></a>
 
-### *property* AcousticPortInDuct.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPortInDuct.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -235,7 +235,7 @@ Gets or sets the Suppressed.
 
 <a id="AcousticPortInDuct.SharedRefBody"></a>
 
-### *property* AcousticPortInDuct.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](./../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPortInDuct.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -251,7 +251,7 @@ Gets the list of children.
 
 <a id="AcousticPortInDuct.Comments"></a>
 
-### *property* AcousticPortInDuct.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPortInDuct.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -259,7 +259,7 @@ Gets the list of associated comments.
 
 <a id="AcousticPortInDuct.Figures"></a>
 
-### *property* AcousticPortInDuct.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPortInDuct.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -267,7 +267,7 @@ Gets the list of associated figures.
 
 <a id="AcousticPortInDuct.Images"></a>
 
-### *property* AcousticPortInDuct.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPortInDuct.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -335,7 +335,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### AcousticPortInDuct.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### AcousticPortInDuct.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

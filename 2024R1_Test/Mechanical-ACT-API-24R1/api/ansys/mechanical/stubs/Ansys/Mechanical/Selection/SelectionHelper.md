@@ -46,7 +46,7 @@ Creates a Vector3D object based on the given selection and reverse flag.
 
 <a id="SelectionHelper.CastRayOnGeometry"></a>
 
-### *classmethod* SelectionHelper.CastRayOnGeometry(castVector: [Ansys.Mechanical.Math.BoundVector](./../Math/BoundVector.md#BoundVector), settings: [Ansys.Mechanical.Selection.GeometryRayCastSettings](GeometryRayCastSettings.md#GeometryRayCastSettings))
+### *classmethod* SelectionHelper.CastRayOnGeometry(castVector: [Ansys.Mechanical.Math.BoundVector](../Math/BoundVector.md#BoundVector), settings: [Ansys.Mechanical.Selection.GeometryRayCastSettings](GeometryRayCastSettings.md#GeometryRayCastSettings))
 
 Finds geometry entities intersecting input BoundVector and returns them in list of GeometryRayCastHit.
 These are returned in the order they are hit, each item containing the entity and BoundVector normal to point hit.

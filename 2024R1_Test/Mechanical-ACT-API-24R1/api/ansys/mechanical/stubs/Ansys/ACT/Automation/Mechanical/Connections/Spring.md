@@ -46,7 +46,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`NonLinearLongitudinalStiffness`](#Spring.NonLinearLongitudinalStiffness)                                             | Gets the non linear longitudinal stiffness defined in the tabular data.   |
 | [`LongitudinalStiffness`](#Spring.LongitudinalStiffness)                                                               | Gets or sets the constant longitudinal stiffness (expressed in N/m).      |
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.                        |
-| [`Material`](./../Material.md#Material)                                                                                  | Gets or sets the Material.                                                |
+| [`Material`](../Material.md#Material)                                                                                  | Gets or sets the Material.                                                |
 | [`MobileBeamMaterial`](#Spring.MobileBeamMaterial)                                                                     | Gets or sets the MobileBeamMaterial.                                      |
 | [`MobileBody`](#Spring.MobileBody)                                                                                     | Gets the MobileBody.                                                      |
 | [`ReferenceBeamMaterial`](#Spring.ReferenceBeamMaterial)                                                               | Gets or sets the ReferenceBeamMaterial.                                   |
@@ -72,12 +72,12 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`TorsionalStiffness`](#Spring.TorsionalStiffness)                                                                     | Gets or sets the TorsionalStiffness.                                      |
 | [`MobileAppliedBy`](#Spring.MobileAppliedBy)                                                                           | Gets or sets the MobileAppliedBy.                                         |
 | [`ReferenceAppliedBy`](#Spring.ReferenceAppliedBy)                                                                     | Gets or sets the ReferenceAppliedBy.                                      |
-| [`SpringBehavior`](./../../../../Mechanical/DataModel/Enums/SpringBehavior.md#SpringBehavior)                            | Gets or sets the SpringBehavior.                                          |
+| [`SpringBehavior`](../../../../Mechanical/DataModel/Enums/SpringBehavior.md#SpringBehavior)                            | Gets or sets the SpringBehavior.                                          |
 | [`MobileBehavior`](#Spring.MobileBehavior)                                                                             | Gets or sets the MobileBehavior.                                          |
 | [`PreloadType`](#Spring.PreloadType)                                                                                   | Gets or sets the PreloadType.                                             |
 | [`ReferenceBehavior`](#Spring.ReferenceBehavior)                                                                       | Gets or sets the ReferenceBehavior.                                       |
 | [`Scope`](#Spring.Scope)                                                                                               | Gets or sets the Scope.                                                   |
-| [`SpringType`](./../../../../Mechanical/DataModel/Enums/SpringType.md#SpringType)                                        | Gets or sets the SpringType.                                              |
+| [`SpringType`](../../../../Mechanical/DataModel/Enums/SpringType.md#SpringType)                                        | Gets or sets the SpringType.                                              |
 | [`Visible`](#Spring.Visible)                                                                                           | Gets or sets the Visible.                                                 |
 | [`Suppressed`](#Spring.Suppressed)                                                                                     | Gets or sets the Suppressed.                                              |
 | [`MobileCoordinateSystem`](#Spring.MobileCoordinateSystem)                                                             | Gets or sets the MobileCoordinateSystem.                                  |
@@ -86,7 +86,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`MobileScopeLocation`](#Spring.MobileScopeLocation)                                                                   | Gets or sets the MobileScopeLocation.                                     |
 | [`ReferenceLocation`](#Spring.ReferenceLocation)                                                                       | Gets or sets the ReferenceLocation.                                       |
 | [`ReferenceScopeLocation`](#Spring.ReferenceScopeLocation)                                                             | Gets or sets the ReferenceScopeLocation.                                  |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                              |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                              |
 | [`Children`](#Spring.Children)                                                                                         | Gets the list of children.                                                |
 | [`Comments`](#Spring.Comments)                                                                                         | Gets the list of associated comments.                                     |
 | [`Figures`](#Spring.Figures)                                                                                           | Gets the list of associated figures.                                      |
@@ -110,7 +110,7 @@ from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.Connections import S
 
 <a id="Spring.NonLinearLongitudinalStiffness"></a>
 
-### *property* Spring.NonLinearLongitudinalStiffness *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Spring.NonLinearLongitudinalStiffness *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the non linear longitudinal stiffness defined in the tabular data.
 
@@ -326,7 +326,7 @@ Gets or sets the TorsionalStiffness.
 
 <a id="Spring.MobileAppliedBy"></a>
 
-### *property* Spring.MobileAppliedBy *: [Ansys.Mechanical.DataModel.Enums.RemoteApplicationType](./../../../../Mechanical/DataModel/Enums/RemoteApplicationType.md#RemoteApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Spring.MobileAppliedBy *: [Ansys.Mechanical.DataModel.Enums.RemoteApplicationType](../../../../Mechanical/DataModel/Enums/RemoteApplicationType.md#RemoteApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MobileAppliedBy.
 
@@ -334,7 +334,7 @@ Gets or sets the MobileAppliedBy.
 
 <a id="Spring.ReferenceAppliedBy"></a>
 
-### *property* Spring.ReferenceAppliedBy *: [Ansys.Mechanical.DataModel.Enums.RemoteApplicationType](./../../../../Mechanical/DataModel/Enums/RemoteApplicationType.md#RemoteApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Spring.ReferenceAppliedBy *: [Ansys.Mechanical.DataModel.Enums.RemoteApplicationType](../../../../Mechanical/DataModel/Enums/RemoteApplicationType.md#RemoteApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReferenceAppliedBy.
 
@@ -342,7 +342,7 @@ Gets or sets the ReferenceAppliedBy.
 
 <a id="Spring.SpringBehavior"></a>
 
-### *property* Spring.SpringBehavior *: [Ansys.Mechanical.DataModel.Enums.SpringBehavior](./../../../../Mechanical/DataModel/Enums/SpringBehavior.md#SpringBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Spring.SpringBehavior *: [Ansys.Mechanical.DataModel.Enums.SpringBehavior](../../../../Mechanical/DataModel/Enums/SpringBehavior.md#SpringBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SpringBehavior.
 
@@ -350,7 +350,7 @@ Gets or sets the SpringBehavior.
 
 <a id="Spring.MobileBehavior"></a>
 
-### *property* Spring.MobileBehavior *: [Ansys.Mechanical.DataModel.Enums.LoadBehavior](./../../../../Mechanical/DataModel/Enums/LoadBehavior.md#LoadBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Spring.MobileBehavior *: [Ansys.Mechanical.DataModel.Enums.LoadBehavior](../../../../Mechanical/DataModel/Enums/LoadBehavior.md#LoadBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MobileBehavior.
 
@@ -358,7 +358,7 @@ Gets or sets the MobileBehavior.
 
 <a id="Spring.PreloadType"></a>
 
-### *property* Spring.PreloadType *: [Ansys.Mechanical.DataModel.Enums.SpringPreloadType](./../../../../Mechanical/DataModel/Enums/SpringPreloadType.md#SpringPreloadType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Spring.PreloadType *: [Ansys.Mechanical.DataModel.Enums.SpringPreloadType](../../../../Mechanical/DataModel/Enums/SpringPreloadType.md#SpringPreloadType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PreloadType.
 
@@ -366,7 +366,7 @@ Gets or sets the PreloadType.
 
 <a id="Spring.ReferenceBehavior"></a>
 
-### *property* Spring.ReferenceBehavior *: [Ansys.Mechanical.DataModel.Enums.LoadBehavior](./../../../../Mechanical/DataModel/Enums/LoadBehavior.md#LoadBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Spring.ReferenceBehavior *: [Ansys.Mechanical.DataModel.Enums.LoadBehavior](../../../../Mechanical/DataModel/Enums/LoadBehavior.md#LoadBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReferenceBehavior.
 
@@ -374,7 +374,7 @@ Gets or sets the ReferenceBehavior.
 
 <a id="Spring.Scope"></a>
 
-### *property* Spring.Scope *: [Ansys.Mechanical.DataModel.Enums.SpringScopingType](./../../../../Mechanical/DataModel/Enums/SpringScopingType.md#SpringScopingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Spring.Scope *: [Ansys.Mechanical.DataModel.Enums.SpringScopingType](../../../../Mechanical/DataModel/Enums/SpringScopingType.md#SpringScopingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Scope.
 
@@ -382,7 +382,7 @@ Gets or sets the Scope.
 
 <a id="Spring.SpringType"></a>
 
-### *property* Spring.SpringType *: [Ansys.Mechanical.DataModel.Enums.SpringType](./../../../../Mechanical/DataModel/Enums/SpringType.md#SpringType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Spring.SpringType *: [Ansys.Mechanical.DataModel.Enums.SpringType](../../../../Mechanical/DataModel/Enums/SpringType.md#SpringType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SpringType.
 
@@ -406,7 +406,7 @@ Gets or sets the Suppressed.
 
 <a id="Spring.MobileCoordinateSystem"></a>
 
-### *property* Spring.MobileCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Spring.MobileCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MobileCoordinateSystem.
 
@@ -414,7 +414,7 @@ Gets or sets the MobileCoordinateSystem.
 
 <a id="Spring.ReferenceCoordinateSystem"></a>
 
-### *property* Spring.ReferenceCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Spring.ReferenceCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReferenceCoordinateSystem.
 
@@ -454,7 +454,7 @@ Gets or sets the ReferenceScopeLocation.
 
 <a id="Spring.DataModelObjectCategory"></a>
 
-### *property* Spring.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Spring.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -470,7 +470,7 @@ Gets the list of children.
 
 <a id="Spring.Comments"></a>
 
-### *property* Spring.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Spring.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -478,7 +478,7 @@ Gets the list of associated comments.
 
 <a id="Spring.Figures"></a>
 
-### *property* Spring.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Spring.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -486,7 +486,7 @@ Gets the list of associated figures.
 
 <a id="Spring.Images"></a>
 
-### *property* Spring.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Spring.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -578,7 +578,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### Spring.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### Spring.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

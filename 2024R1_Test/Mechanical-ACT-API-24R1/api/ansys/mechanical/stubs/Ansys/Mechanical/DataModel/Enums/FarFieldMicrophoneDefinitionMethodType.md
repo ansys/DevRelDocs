@@ -19,7 +19,7 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 | Name |
 | -------------------------------------------------------------------------- |
 | [`Coordinates`](#FarFieldMicrophoneDefinitionMethodType.Coordinates) |
-| [`Worksheet`](./../../../ACT/Automation/Mechanical/Worksheet.md#Worksheet) |
+| [`Worksheet`](../../../ACT/Automation/Mechanical/Worksheet.md#Worksheet) |
 
 <a id="import-detail"></a>
 

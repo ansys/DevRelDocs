@@ -54,11 +54,11 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`ImportedDataType`](#LoadGroup.ImportedDataType)                                                                      | Gets or sets the ImportedDataType.                            |
 | [`OnDataRefreshOption`](#LoadGroup.OnDataRefreshOption)                                                                | Gets or sets the OnDataRefreshOption.                         |
 | [`ConductorType`](#LoadGroup.ConductorType)                                                                            | Gets or sets the ConductorType.                               |
-| [`DataImportStatus`](./../../../../Mechanical/DataModel/Enums/DataImportStatus.md#DataImportStatus)                      | Gets the DataImportStatus.                                    |
+| [`DataImportStatus`](../../../../Mechanical/DataModel/Enums/DataImportStatus.md#DataImportStatus)                      | Gets the DataImportStatus.                                    |
 | [`UseInternalRemotePoints`](#LoadGroup.UseInternalRemotePoints)                                                        | Gets or sets the UseInternalRemotePoints.                     |
 | [`Suppressed`](#LoadGroup.Suppressed)                                                                                  | Gets or sets the Suppressed.                                  |
 | [`Location`](#LoadGroup.Location)                                                                                      | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#LoadGroup.Children)                                                                                      | Gets the list of children.                                    |
 | [`Comments`](#LoadGroup.Comments)                                                                                      | Gets the list of associated comments.                         |
 | [`Figures`](#LoadGroup.Figures)                                                                                        | Gets the list of associated figures.                          |
@@ -145,7 +145,7 @@ Gets or sets the PhaseAngle.
 
 <a id="LoadGroup.GroupingType"></a>
 
-### *property* LoadGroup.GroupingType *: [Ansys.Mechanical.DataModel.Enums.LoadGroupingType](./../../../../Mechanical/DataModel/Enums/LoadGroupingType.md#LoadGroupingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LoadGroup.GroupingType *: [Ansys.Mechanical.DataModel.Enums.LoadGroupingType](../../../../Mechanical/DataModel/Enums/LoadGroupingType.md#LoadGroupingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GroupingType.
 
@@ -153,7 +153,7 @@ Gets or sets the GroupingType.
 
 <a id="LoadGroup.ImportedDataType"></a>
 
-### *property* LoadGroup.ImportedDataType *: [Ansys.Mechanical.DataModel.Enums.DataTypeOptions](./../../../../Mechanical/DataModel/Enums/DataTypeOptions.md#DataTypeOptions) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LoadGroup.ImportedDataType *: [Ansys.Mechanical.DataModel.Enums.DataTypeOptions](../../../../Mechanical/DataModel/Enums/DataTypeOptions.md#DataTypeOptions) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ImportedDataType.
 
@@ -161,7 +161,7 @@ Gets or sets the ImportedDataType.
 
 <a id="LoadGroup.OnDataRefreshOption"></a>
 
-### *property* LoadGroup.OnDataRefreshOption *: [Ansys.Mechanical.DataModel.Enums.RemotePointUpdateOptions](./../../../../Mechanical/DataModel/Enums/RemotePointUpdateOptions.md#RemotePointUpdateOptions) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LoadGroup.OnDataRefreshOption *: [Ansys.Mechanical.DataModel.Enums.RemotePointUpdateOptions](../../../../Mechanical/DataModel/Enums/RemotePointUpdateOptions.md#RemotePointUpdateOptions) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the OnDataRefreshOption.
 
@@ -169,7 +169,7 @@ Gets or sets the OnDataRefreshOption.
 
 <a id="LoadGroup.ConductorType"></a>
 
-### *property* LoadGroup.ConductorType *: [Ansys.Mechanical.DataModel.Enums.SourceConductorType](./../../../../Mechanical/DataModel/Enums/SourceConductorType.md#SourceConductorType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LoadGroup.ConductorType *: [Ansys.Mechanical.DataModel.Enums.SourceConductorType](../../../../Mechanical/DataModel/Enums/SourceConductorType.md#SourceConductorType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ConductorType.
 
@@ -177,7 +177,7 @@ Gets or sets the ConductorType.
 
 <a id="LoadGroup.DataImportStatus"></a>
 
-### *property* LoadGroup.DataImportStatus *: [Ansys.Mechanical.DataModel.Enums.DataImportStatus](./../../../../Mechanical/DataModel/Enums/DataImportStatus.md#DataImportStatus) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LoadGroup.DataImportStatus *: [Ansys.Mechanical.DataModel.Enums.DataImportStatus](../../../../Mechanical/DataModel/Enums/DataImportStatus.md#DataImportStatus) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the DataImportStatus.
 
@@ -209,7 +209,7 @@ Gets or sets the Location.
 
 <a id="LoadGroup.DataModelObjectCategory"></a>
 
-### *property* LoadGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LoadGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -225,7 +225,7 @@ Gets the list of children.
 
 <a id="LoadGroup.Comments"></a>
 
-### *property* LoadGroup.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LoadGroup.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -233,7 +233,7 @@ Gets the list of associated comments.
 
 <a id="LoadGroup.Figures"></a>
 
-### *property* LoadGroup.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LoadGroup.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -241,7 +241,7 @@ Gets the list of associated figures.
 
 <a id="LoadGroup.Images"></a>
 
-### *property* LoadGroup.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LoadGroup.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -317,7 +317,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### LoadGroup.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### LoadGroup.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

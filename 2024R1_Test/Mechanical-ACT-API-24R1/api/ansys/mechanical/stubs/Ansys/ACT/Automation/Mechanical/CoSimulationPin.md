@@ -38,12 +38,12 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Scope`](#CoSimulationPin.Scope)                                                                                   | Gets or sets the Joint through Scope.                         |
 | [`DOF`](#CoSimulationPin.DOF)                                                                                       | Gets or sets the DOF.                                         |
-| [`JointType`](./../../../Mechanical/DataModel/Enums/JointType.md#JointType)                                           | Gets or sets the Joint Type.                                  |
-| [`PinBehavior`](./../../../Mechanical/DataModel/Enums/PinBehavior.md#PinBehavior)                                     | Gets or sets the Pin Behavior.                                |
-| [`PinNature`](./../../../Mechanical/DataModel/Enums/PinNature.md#PinNature)                                           | Gets or sets the Pin Nature.                                  |
+| [`JointType`](../../../Mechanical/DataModel/Enums/JointType.md#JointType)                                           | Gets or sets the Joint Type.                                  |
+| [`PinBehavior`](../../../Mechanical/DataModel/Enums/PinBehavior.md#PinBehavior)                                     | Gets or sets the Pin Behavior.                                |
+| [`PinNature`](../../../Mechanical/DataModel/Enums/PinNature.md#PinNature)                                           | Gets or sets the Pin Nature.                                  |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`Suppressed`](#CoSimulationPin.Suppressed)                                                                         | Gets or sets the Suppressed.                                  |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#CoSimulationPin.Children)                                                                             | Gets the list of children.                                    |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`Properties`](#CoSimulationPin.Properties)                                                                         | Gets the list of properties for this object.                  |
@@ -71,7 +71,7 @@ Gets or sets the Joint through Scope.
 
 <a id="CoSimulationPin.DOF"></a>
 
-### *property* CoSimulationPin.DOF *: [Ansys.Mechanical.DataModel.Enums.KinematicDOF](./../../../Mechanical/DataModel/Enums/KinematicDOF.md#KinematicDOF) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoSimulationPin.DOF *: [Ansys.Mechanical.DataModel.Enums.KinematicDOF](../../../Mechanical/DataModel/Enums/KinematicDOF.md#KinematicDOF) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DOF.
 
@@ -79,7 +79,7 @@ Gets or sets the DOF.
 
 <a id="CoSimulationPin.JointType"></a>
 
-### *property* CoSimulationPin.JointType *: [Ansys.Mechanical.DataModel.Enums.JointType](./../../../Mechanical/DataModel/Enums/JointType.md#JointType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoSimulationPin.JointType *: [Ansys.Mechanical.DataModel.Enums.JointType](../../../Mechanical/DataModel/Enums/JointType.md#JointType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Joint Type.
 
@@ -87,7 +87,7 @@ Gets or sets the Joint Type.
 
 <a id="CoSimulationPin.PinBehavior"></a>
 
-### *property* CoSimulationPin.PinBehavior *: [Ansys.Mechanical.DataModel.Enums.PinBehavior](./../../../Mechanical/DataModel/Enums/PinBehavior.md#PinBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoSimulationPin.PinBehavior *: [Ansys.Mechanical.DataModel.Enums.PinBehavior](../../../Mechanical/DataModel/Enums/PinBehavior.md#PinBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Pin Behavior.
 
@@ -95,7 +95,7 @@ Gets or sets the Pin Behavior.
 
 <a id="CoSimulationPin.PinNature"></a>
 
-### *property* CoSimulationPin.PinNature *: [Ansys.Mechanical.DataModel.Enums.PinNature](./../../../Mechanical/DataModel/Enums/PinNature.md#PinNature) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoSimulationPin.PinNature *: [Ansys.Mechanical.DataModel.Enums.PinNature](../../../Mechanical/DataModel/Enums/PinNature.md#PinNature) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Pin Nature.
 
@@ -119,7 +119,7 @@ Gets or sets the Suppressed.
 
 <a id="CoSimulationPin.DataModelObjectCategory"></a>
 
-### *property* CoSimulationPin.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoSimulationPin.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -179,7 +179,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### CoSimulationPin.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### CoSimulationPin.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

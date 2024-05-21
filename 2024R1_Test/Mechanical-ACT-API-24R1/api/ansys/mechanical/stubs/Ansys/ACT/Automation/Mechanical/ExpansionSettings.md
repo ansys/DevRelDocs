@@ -46,7 +46,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                                                     | Gets the internal object. For advanced usage only.            |
-| [`CondensedPartExpansionType`](./../../../Mechanical/DataModel/Enums/CondensedPartExpansionType.md#CondensedPartExpansionType) | Gets or sets the CondensedPartExpansionType.                  |
+| [`CondensedPartExpansionType`](../../../Mechanical/DataModel/Enums/CondensedPartExpansionType.md#CondensedPartExpansionType) | Gets or sets the CondensedPartExpansionType.                  |
 | [`NodalForces`](#ExpansionSettings.NodalForces)                                                                              | Gets or sets the NodalForces.                                 |
 | [`Strain`](#ExpansionSettings.Strain)                                                                                        | Gets or sets the Strain.                                      |
 | [`Stress`](#ExpansionSettings.Stress)                                                                                        | Gets or sets the Stress.                                      |
@@ -54,7 +54,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`ExpandAfterUsePassFailure`](#ExpansionSettings.ExpandAfterUsePassFailure)                                                  | Gets or sets the ExpandAfterUsePassFailure.                   |
 | [`GeneralMiscellaneous`](#ExpansionSettings.GeneralMiscellaneous)                                                            | Gets or sets the GeneralMiscellaneous.                        |
 | [`Suppressed`](#ExpansionSettings.Suppressed)                                                                                | Gets or sets the Suppressed.                                  |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory)          | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory)          | Gets the current DataModelObject’s category.                  |
 | [`Children`](#ExpansionSettings.Children)                                                                                    | Gets the list of children.                                    |
 | [`Comments`](#ExpansionSettings.Comments)                                                                                    | Gets the list of associated comments.                         |
 | [`Figures`](#ExpansionSettings.Figures)                                                                                      | Gets the list of associated figures.                          |
@@ -85,7 +85,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ExpansionSettings.CondensedPartExpansionType"></a>
 
-### *property* ExpansionSettings.CondensedPartExpansionType *: [Ansys.Mechanical.DataModel.Enums.CondensedPartExpansionType](./../../../Mechanical/DataModel/Enums/CondensedPartExpansionType.md#CondensedPartExpansionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExpansionSettings.CondensedPartExpansionType *: [Ansys.Mechanical.DataModel.Enums.CondensedPartExpansionType](../../../Mechanical/DataModel/Enums/CondensedPartExpansionType.md#CondensedPartExpansionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CondensedPartExpansionType.
 
@@ -93,7 +93,7 @@ Gets or sets the CondensedPartExpansionType.
 
 <a id="ExpansionSettings.NodalForces"></a>
 
-### *property* ExpansionSettings.NodalForces *: [Ansys.Mechanical.DataModel.Enums.OutputControlsNodalForcesType](./../../../Mechanical/DataModel/Enums/OutputControlsNodalForcesType.md#OutputControlsNodalForcesType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExpansionSettings.NodalForces *: [Ansys.Mechanical.DataModel.Enums.OutputControlsNodalForcesType](../../../Mechanical/DataModel/Enums/OutputControlsNodalForcesType.md#OutputControlsNodalForcesType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NodalForces.
 
@@ -149,7 +149,7 @@ Gets or sets the Suppressed.
 
 <a id="ExpansionSettings.DataModelObjectCategory"></a>
 
-### *property* ExpansionSettings.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExpansionSettings.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -281,7 +281,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### ExpansionSettings.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### ExpansionSettings.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

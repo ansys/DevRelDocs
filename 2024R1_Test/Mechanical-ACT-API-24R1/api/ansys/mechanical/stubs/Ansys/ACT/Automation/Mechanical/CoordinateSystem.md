@@ -76,7 +76,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`SecondaryAxisDirection`](#CoordinateSystem.SecondaryAxisDirection)                                                | Gets the Secondary Axis Direction.                                    |
 | [`PrimaryAxisLocation`](#CoordinateSystem.PrimaryAxisLocation)                                                      | Gets or sets the principal axis geometry selection.                   |
 | [`SecondaryAxisLocation`](#CoordinateSystem.SecondaryAxisLocation)                                                  | Gets or sets the orientation about principal axis geometry selection. |
-| [`CoordinateSystemType`](./../../../Mechanical/DataModel/Enums/CoordinateSystemType.md#CoordinateSystemType)          | Gets or sets the CoordinateSystemType.                                |
+| [`CoordinateSystemType`](../../../Mechanical/DataModel/Enums/CoordinateSystemType.md#CoordinateSystemType)          | Gets or sets the CoordinateSystemType.                                |
 | [`APDLName`](#CoordinateSystem.APDLName)                                                                            | Gets or sets the APDLName.                                            |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.                    |
 | [`CoordinateSystemID`](#CoordinateSystem.CoordinateSystemID)                                                        | Gets or sets the CoordinateSystemID.                                  |
@@ -91,7 +91,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`SecondaryAxisDefineBy`](#CoordinateSystem.SecondaryAxisDefineBy)                                                  | Gets or sets the SecondaryAxisDefineBy.                               |
 | [`GloballyAvailable`](#CoordinateSystem.GloballyAvailable)                                                          | Gets or sets the GloballyAvailable.                                   |
 | [`Suppressed`](#CoordinateSystem.Suppressed)                                                                        | Gets or sets the Suppressed.                                          |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                          |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                          |
 | [`Children`](#CoordinateSystem.Children)                                                                            | Gets the list of children.                                            |
 | [`Comments`](#CoordinateSystem.Comments)                                                                            | Gets the list of associated comments.                                 |
 | [`Figures`](#CoordinateSystem.Figures)                                                                              | Gets the list of associated figures.                                  |
@@ -163,7 +163,7 @@ Gets or sets the origin Z coordinate.
 
 <a id="CoordinateSystem.OriginDefineBy"></a>
 
-### *property* CoordinateSystem.OriginDefineBy *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAlignmentType](./../../../Mechanical/DataModel/Enums/CoordinateSystemAlignmentType.md#CoordinateSystemAlignmentType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystem.OriginDefineBy *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAlignmentType](../../../Mechanical/DataModel/Enums/CoordinateSystemAlignmentType.md#CoordinateSystemAlignmentType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the origin define by.
 
@@ -267,7 +267,7 @@ Gets the ZAxisData.
 
 <a id="CoordinateSystem.CoordinateSystemIDGeneration"></a>
 
-### *property* CoordinateSystem.CoordinateSystemIDGeneration *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](./../../../Mechanical/DataModel/Enums/AutomaticOrManual.md#AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystem.CoordinateSystemIDGeneration *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](../../../Mechanical/DataModel/Enums/AutomaticOrManual.md#AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystemIDGeneration.
 
@@ -275,7 +275,7 @@ Gets or sets the CoordinateSystemIDGeneration.
 
 <a id="CoordinateSystem.PrimaryAxis"></a>
 
-### *property* CoordinateSystem.PrimaryAxis *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType](./../../../Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#CoordinateSystemAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystem.PrimaryAxis *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType](../../../Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#CoordinateSystemAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PrimaryAxis.
 
@@ -283,7 +283,7 @@ Gets or sets the PrimaryAxis.
 
 <a id="CoordinateSystem.PrimaryAxisDefineBy"></a>
 
-### *property* CoordinateSystem.PrimaryAxisDefineBy *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAlignmentType](./../../../Mechanical/DataModel/Enums/CoordinateSystemAlignmentType.md#CoordinateSystemAlignmentType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystem.PrimaryAxisDefineBy *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAlignmentType](../../../Mechanical/DataModel/Enums/CoordinateSystemAlignmentType.md#CoordinateSystemAlignmentType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PrimaryAxisDefineBy.
 
@@ -291,7 +291,7 @@ Gets or sets the PrimaryAxisDefineBy.
 
 <a id="CoordinateSystem.SecondaryAxis"></a>
 
-### *property* CoordinateSystem.SecondaryAxis *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType](./../../../Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#CoordinateSystemAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystem.SecondaryAxis *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType](../../../Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#CoordinateSystemAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SecondaryAxis.
 
@@ -299,7 +299,7 @@ Gets or sets the SecondaryAxis.
 
 <a id="CoordinateSystem.SecondaryAxisDefineBy"></a>
 
-### *property* CoordinateSystem.SecondaryAxisDefineBy *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAlignmentType](./../../../Mechanical/DataModel/Enums/CoordinateSystemAlignmentType.md#CoordinateSystemAlignmentType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystem.SecondaryAxisDefineBy *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAlignmentType](../../../Mechanical/DataModel/Enums/CoordinateSystemAlignmentType.md#CoordinateSystemAlignmentType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SecondaryAxisDefineBy.
 
@@ -323,7 +323,7 @@ Gets or sets the Suppressed.
 
 <a id="CoordinateSystem.DataModelObjectCategory"></a>
 
-### *property* CoordinateSystem.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystem.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -399,7 +399,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="CoordinateSystem.AddTransformation"></a>
 
-### CoordinateSystem.AddTransformation(trans: [Ansys.Mechanical.DataModel.Enums.TransformationType](./../../../Mechanical/DataModel/Enums/TransformationType.md#TransformationType), axis: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType](./../../../Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#CoordinateSystemAxisType))
+### CoordinateSystem.AddTransformation(trans: [Ansys.Mechanical.DataModel.Enums.TransformationType](../../../Mechanical/DataModel/Enums/TransformationType.md#TransformationType), axis: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType](../../../Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#CoordinateSystemAxisType))
 
 Adds a new transformation.
 
@@ -623,7 +623,7 @@ Gets the list of children, filtered by type.
 
 <a id="id7"></a>
 
-### CoordinateSystem.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### CoordinateSystem.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

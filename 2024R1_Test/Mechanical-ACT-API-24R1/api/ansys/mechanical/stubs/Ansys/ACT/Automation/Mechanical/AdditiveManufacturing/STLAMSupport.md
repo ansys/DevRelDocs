@@ -57,9 +57,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`STLSupportView`](#STLAMSupport.STLSupportView)                                                                       | Gets or sets the STLSupportView.                              |
 | [`Source`](#STLAMSupport.Source)                                                                                       | Gets or sets the Source.                                      |
 | [`STLSupportType`](#STLAMSupport.STLSupportType)                                                                       | Gets or sets the STLSupportType.                              |
-| [`STL`](./../STL.md#STL)                                                                                                 | Gets or sets the STL.                                         |
+| [`STL`](../STL.md#STL)                                                                                                 | Gets or sets the STL.                                         |
 | [`GeometrySelection`](#STLAMSupport.GeometrySelection)                                                                 | Gets or sets the GeometrySelection.                           |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`ThermalConductivityMultipleInX`](#STLAMSupport.ThermalConductivityMultipleInX)                                       | Gets or sets the ThermalConductivityMultipleInX.              |
 | [`ThermalConductivityMultipleInY`](#STLAMSupport.ThermalConductivityMultipleInY)                                       | Gets or sets the ThermalConductivityMultipleInY.              |
 | [`ThermalConductivityMultipleInZ`](#STLAMSupport.ThermalConductivityMultipleInZ)                                       | Gets or sets the ThermalConductivityMultipleInZ.              |
@@ -73,7 +73,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`ShearModulusMultipleInYZ`](#STLAMSupport.ShearModulusMultipleInYZ)                                                   | Gets or sets the ShearModulusMultipleInYZ.                    |
 | [`WallSpacing`](#STLAMSupport.WallSpacing)                                                                             | Gets or sets the WallSpacing.                                 |
 | [`WallThickness`](#STLAMSupport.WallThickness)                                                                         | Gets or sets the WallThickness.                               |
-| [`Volume`](./../Results/Volume.md#Volume)                                                                                | Gets or sets the Volume.                                      |
+| [`Volume`](../Results/Volume.md#Volume)                                                                                | Gets or sets the Volume.                                      |
 | [`MultiplierEntry`](#STLAMSupport.MultiplierEntry)                                                                     | Gets or sets the MultiplierEntry.                             |
 | [`SupportType`](#STLAMSupport.SupportType)                                                                             | Gets or sets the SupportType.                                 |
 | [`Children`](#STLAMSupport.Children)                                                                                   | Gets the list of children.                                    |
@@ -146,7 +146,7 @@ Gets or sets the StlWallThickness.
 
 <a id="STLAMSupport.LengthUnits"></a>
 
-### *property* STLAMSupport.LengthUnits *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](./../../../../Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* STLAMSupport.LengthUnits *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](../../../../Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LengthUnits.
 
@@ -154,7 +154,7 @@ Gets or sets the LengthUnits.
 
 <a id="STLAMSupport.STLSupportView"></a>
 
-### *property* STLAMSupport.STLSupportView *: [Ansys.Mechanical.DataModel.Enums.STLSupportViewType](./../../../../Mechanical/DataModel/Enums/STLSupportViewType.md#STLSupportViewType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* STLAMSupport.STLSupportView *: [Ansys.Mechanical.DataModel.Enums.STLSupportViewType](../../../../Mechanical/DataModel/Enums/STLSupportViewType.md#STLSupportViewType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the STLSupportView.
 
@@ -162,7 +162,7 @@ Gets or sets the STLSupportView.
 
 <a id="STLAMSupport.Source"></a>
 
-### *property* STLAMSupport.Source *: [Ansys.Mechanical.DataModel.Enums.AMStlSource](./../../../../Mechanical/DataModel/Enums/AMStlSource.md#AMStlSource) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* STLAMSupport.Source *: [Ansys.Mechanical.DataModel.Enums.AMStlSource](../../../../Mechanical/DataModel/Enums/AMStlSource.md#AMStlSource) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Source.
 
@@ -170,7 +170,7 @@ Gets or sets the Source.
 
 <a id="STLAMSupport.STLSupportType"></a>
 
-### *property* STLAMSupport.STLSupportType *: [Ansys.Mechanical.DataModel.Enums.AMSupportSTLType](./../../../../Mechanical/DataModel/Enums/AMSupportSTLType.md#AMSupportSTLType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* STLAMSupport.STLSupportType *: [Ansys.Mechanical.DataModel.Enums.AMSupportSTLType](../../../../Mechanical/DataModel/Enums/AMSupportSTLType.md#AMSupportSTLType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the STLSupportType.
 
@@ -178,7 +178,7 @@ Gets or sets the STLSupportType.
 
 <a id="STLAMSupport.STL"></a>
 
-### *property* STLAMSupport.STL *: [Ansys.ACT.Automation.Mechanical.STL](./../STL.md#STL) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* STLAMSupport.STL *: [Ansys.ACT.Automation.Mechanical.STL](../STL.md#STL) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the STL.
 
@@ -194,7 +194,7 @@ Gets or sets the GeometrySelection.
 
 <a id="STLAMSupport.DataModelObjectCategory"></a>
 
-### *property* STLAMSupport.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* STLAMSupport.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -314,7 +314,7 @@ Gets or sets the Volume.
 
 <a id="STLAMSupport.MultiplierEntry"></a>
 
-### *property* STLAMSupport.MultiplierEntry *: [Ansys.Mechanical.DataModel.Enums.AMMultiplierEntryType](./../../../../Mechanical/DataModel/Enums/AMMultiplierEntryType.md#AMMultiplierEntryType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* STLAMSupport.MultiplierEntry *: [Ansys.Mechanical.DataModel.Enums.AMMultiplierEntryType](../../../../Mechanical/DataModel/Enums/AMMultiplierEntryType.md#AMMultiplierEntryType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MultiplierEntry.
 
@@ -322,7 +322,7 @@ Gets or sets the MultiplierEntry.
 
 <a id="STLAMSupport.SupportType"></a>
 
-### *property* STLAMSupport.SupportType *: [Ansys.Mechanical.DataModel.Enums.AMSupportType](./../../../../Mechanical/DataModel/Enums/AMSupportType.md#AMSupportType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* STLAMSupport.SupportType *: [Ansys.Mechanical.DataModel.Enums.AMSupportType](../../../../Mechanical/DataModel/Enums/AMSupportType.md#AMSupportType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SupportType.
 
@@ -338,7 +338,7 @@ Gets the list of children.
 
 <a id="STLAMSupport.Comments"></a>
 
-### *property* STLAMSupport.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* STLAMSupport.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -346,7 +346,7 @@ Gets the list of associated comments.
 
 <a id="STLAMSupport.Figures"></a>
 
-### *property* STLAMSupport.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* STLAMSupport.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -354,7 +354,7 @@ Gets the list of associated figures.
 
 <a id="STLAMSupport.Images"></a>
 
-### *property* STLAMSupport.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* STLAMSupport.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -398,7 +398,7 @@ Run the ClearGeneratedData action.
 
 <a id="STLAMSupport.GenerateSupportBodies"></a>
 
-### STLAMSupport.GenerateSupportBodies(progress: [Ansys.Mechanical.Application.Progress](./../../../../Mechanical/Application/Progress.md#Progress))
+### STLAMSupport.GenerateSupportBodies(progress: [Ansys.Mechanical.Application.Progress](../../../../Mechanical/Application/Progress.md#Progress))
 
 Generate Support Bodies.
 
@@ -422,7 +422,7 @@ Create a named selection of the generated exterior element faces.
 
 <a id="STLAMSupport.ExportStl"></a>
 
-### STLAMSupport.ExportStl(filename: System.String, progress: [Ansys.Mechanical.Application.Progress](./../../../../Mechanical/Application/Progress.md#Progress))
+### STLAMSupport.ExportStl(filename: System.String, progress: [Ansys.Mechanical.Application.Progress](../../../../Mechanical/Application/Progress.md#Progress))
 
 Export STL data.
 
@@ -470,7 +470,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### STLAMSupport.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### STLAMSupport.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

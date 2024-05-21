@@ -41,7 +41,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
-| [`Material`](./../Material.md#Material)                                                                                  | Gets or sets the Material.                                    |
+| [`Material`](../Material.md#Material)                                                                                  | Gets or sets the Material.                                    |
 | [`NumConnections`](#SpotWeldGroup.NumConnections)                                                                      | Gets the NumConnections.                                      |
 | [`NumberOfLayers`](#SpotWeldGroup.NumberOfLayers)                                                                      | Gets or sets the NumberOfLayers.                              |
 | [`NumWeldPoints`](#SpotWeldGroup.NumWeldPoints)                                                                        | Gets the NumWeldPoints.                                       |
@@ -55,9 +55,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`ConnectionBehavior`](#SpotWeldGroup.ConnectionBehavior)                                                              | Gets or sets the ConnectionBehavior.                          |
 | [`Units`](#SpotWeldGroup.Units)                                                                                        | Gets or sets the Units.                                       |
 | [`WeldType`](#SpotWeldGroup.WeldType)                                                                                  | Gets or sets the WeldType.                                    |
-| [`StiffnessBehavior`](./../../../../Mechanical/DataModel/Enums/StiffnessBehavior.md#StiffnessBehavior)                   | Gets or sets the StiffnessBehavior.                           |
+| [`StiffnessBehavior`](../../../../Mechanical/DataModel/Enums/StiffnessBehavior.md#StiffnessBehavior)                   | Gets or sets the StiffnessBehavior.                           |
 | [`ShellThicknessEffect`](#SpotWeldGroup.ShellThicknessEffect)                                                          | Gets or sets the ShellThicknessEffect.                        |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#SpotWeldGroup.Children)                                                                                  | Gets the list of children.                                    |
 | [`Comments`](#SpotWeldGroup.Comments)                                                                                  | Gets the list of associated comments.                         |
 | [`Images`](#SpotWeldGroup.Images)                                                                                      | Gets the list of associated images.                           |
@@ -168,7 +168,7 @@ Gets or sets the WeldSearchDistance.
 
 <a id="SpotWeldGroup.ChildrenCreationMethod"></a>
 
-### *property* SpotWeldGroup.ChildrenCreationMethod *: [Ansys.Mechanical.DataModel.Enums.ConnectionCreationMethod](./../../../../Mechanical/DataModel/Enums/ConnectionCreationMethod.md#ConnectionCreationMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldGroup.ChildrenCreationMethod *: [Ansys.Mechanical.DataModel.Enums.ConnectionCreationMethod](../../../../Mechanical/DataModel/Enums/ConnectionCreationMethod.md#ConnectionCreationMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ChildrenCreationMethod.
 
@@ -176,7 +176,7 @@ Gets or sets the ChildrenCreationMethod.
 
 <a id="SpotWeldGroup.ConnectionBehavior"></a>
 
-### *property* SpotWeldGroup.ConnectionBehavior *: [Ansys.Mechanical.DataModel.Enums.StiffnessBehavior](./../../../../Mechanical/DataModel/Enums/StiffnessBehavior.md#StiffnessBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldGroup.ConnectionBehavior *: [Ansys.Mechanical.DataModel.Enums.StiffnessBehavior](../../../../Mechanical/DataModel/Enums/StiffnessBehavior.md#StiffnessBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ConnectionBehavior.
 
@@ -184,7 +184,7 @@ Gets or sets the ConnectionBehavior.
 
 <a id="SpotWeldGroup.Units"></a>
 
-### *property* SpotWeldGroup.Units *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](./../../../../Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldGroup.Units *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](../../../../Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Units.
 
@@ -192,7 +192,7 @@ Gets or sets the Units.
 
 <a id="SpotWeldGroup.WeldType"></a>
 
-### *property* SpotWeldGroup.WeldType *: [Ansys.Mechanical.DataModel.Enums.SpotWeldTypes](./../../../../Mechanical/DataModel/Enums/SpotWeldTypes.md#SpotWeldTypes) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldGroup.WeldType *: [Ansys.Mechanical.DataModel.Enums.SpotWeldTypes](../../../../Mechanical/DataModel/Enums/SpotWeldTypes.md#SpotWeldTypes) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the WeldType.
 
@@ -200,7 +200,7 @@ Gets or sets the WeldType.
 
 <a id="SpotWeldGroup.StiffnessBehavior"></a>
 
-### *property* SpotWeldGroup.StiffnessBehavior *: [Ansys.Mechanical.DataModel.Enums.StiffnessBehavior](./../../../../Mechanical/DataModel/Enums/StiffnessBehavior.md#StiffnessBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldGroup.StiffnessBehavior *: [Ansys.Mechanical.DataModel.Enums.StiffnessBehavior](../../../../Mechanical/DataModel/Enums/StiffnessBehavior.md#StiffnessBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StiffnessBehavior.
 
@@ -216,7 +216,7 @@ Gets or sets the ShellThicknessEffect.
 
 <a id="SpotWeldGroup.DataModelObjectCategory"></a>
 
-### *property* SpotWeldGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -232,7 +232,7 @@ Gets the list of children.
 
 <a id="SpotWeldGroup.Comments"></a>
 
-### *property* SpotWeldGroup.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldGroup.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -240,7 +240,7 @@ Gets the list of associated comments.
 
 <a id="SpotWeldGroup.Images"></a>
 
-### *property* SpotWeldGroup.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldGroup.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -316,7 +316,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### SpotWeldGroup.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### SpotWeldGroup.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

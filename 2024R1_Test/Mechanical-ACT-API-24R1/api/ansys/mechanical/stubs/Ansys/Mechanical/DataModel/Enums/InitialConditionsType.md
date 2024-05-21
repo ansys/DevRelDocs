@@ -18,13 +18,13 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 | Name |
 | -------------------------------------------------------------------------------------------------------- |
-| [`Acceleration`](./../../../ACT/Automation/Mechanical/BoundaryConditions/Acceleration.md#Acceleration) |
+| [`Acceleration`](../../../ACT/Automation/Mechanical/BoundaryConditions/Acceleration.md#Acceleration) |
 | [`AtRest`](#InitialConditionsType.AtRest) |
 | [`DropHeight`](#InitialConditionsType.DropHeight) |
 | [`Environment`](#InitialConditionsType.Environment) |
 | [`AngularVelocity`](#InitialConditionsType.AngularVelocity) |
 | [`Unknown`](#InitialConditionsType.Unknown) |
-| [`Velocity`](./../../../ACT/Automation/Mechanical/BoundaryConditions/Velocity.md#Velocity) |
+| [`Velocity`](../../../ACT/Automation/Mechanical/BoundaryConditions/Velocity.md#Velocity) |
 
 <a id="import-detail"></a>
 

@@ -18,26 +18,26 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 | Name |
 | --------------------------------------------------------------------------------------------------------- |
-| [`XCoordinate`](./../Table/VariableType.md#VariableType.XCoordinate) |
-| [`YCoordinate`](./../Table/VariableType.md#VariableType.YCoordinate) |
-| [`ZCoordinate`](./../Table/VariableType.md#VariableType.ZCoordinate) |
+| [`XCoordinate`](../Table/VariableType.md#VariableType.XCoordinate) |
+| [`YCoordinate`](../Table/VariableType.md#VariableType.YCoordinate) |
+| [`ZCoordinate`](../Table/VariableType.md#VariableType.ZCoordinate) |
 | [`NodeId`](#VariableType.NodeId) |
 | [`ElementId`](#VariableType.ElementId) |
-| [`Temperature`](./../../../../ACT/Automation/Mechanical/BoundaryConditions/Temperature.md#Temperature) |
-| [`Pressure`](./../../../../ACT/Automation/Mechanical/BoundaryConditions/Pressure.md#Pressure) |
-| [`HeatTransferCoefficient`](./../Table/VariableType.md#VariableType.HeatTransferCoefficient) |
-| [`HeatFlux`](./../../../../ACT/Automation/Mechanical/BoundaryConditions/HeatFlux.md#HeatFlux) |
+| [`Temperature`](../../../../ACT/Automation/Mechanical/BoundaryConditions/Temperature.md#Temperature) |
+| [`Pressure`](../../../../ACT/Automation/Mechanical/BoundaryConditions/Pressure.md#Pressure) |
+| [`HeatTransferCoefficient`](../Table/VariableType.md#VariableType.HeatTransferCoefficient) |
+| [`HeatFlux`](../../../../ACT/Automation/Mechanical/BoundaryConditions/HeatFlux.md#HeatFlux) |
 | [`HeatGeneration`](#VariableType.HeatGeneration) |
 | [`HeatRate`](#VariableType.HeatRate) |
-| [`Thickness`](./../../../../ACT/Automation/Mechanical/Thickness.md#Thickness) |
-| [`Displacement`](./../../../../ACT/Automation/Mechanical/BoundaryConditions/Displacement.md#Displacement) |
-| [`Force`](./../../../../ACT/Automation/Mechanical/BoundaryConditions/Force.md#Force) |
-| [`Velocity`](./../../../../ACT/Automation/Mechanical/BoundaryConditions/Velocity.md#Velocity) |
+| [`Thickness`](../../../../ACT/Automation/Mechanical/Thickness.md#Thickness) |
+| [`Displacement`](../../../../ACT/Automation/Mechanical/BoundaryConditions/Displacement.md#Displacement) |
+| [`Force`](../../../../ACT/Automation/Mechanical/BoundaryConditions/Force.md#Force) |
+| [`Velocity`](../../../../ACT/Automation/Mechanical/BoundaryConditions/Velocity.md#Velocity) |
 | [`Stress`](#VariableType.Stress) |
 | [`Strain`](#VariableType.Strain) |
 | [`BodyForceDensity`](#VariableType.BodyForceDensity) |
 | [`OrientationAngle`](#VariableType.OrientationAngle) |
-| [`Volume`](./../../../../ACT/Automation/Mechanical/Results/Volume.md#Volume) |
+| [`Volume`](../../../../ACT/Automation/Mechanical/Results/Volume.md#Volume) |
 | [`UserField`](#VariableType.UserField) |
 
 <a id="import-detail"></a>

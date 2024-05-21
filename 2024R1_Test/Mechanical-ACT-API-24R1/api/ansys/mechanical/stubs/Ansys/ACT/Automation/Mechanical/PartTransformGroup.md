@@ -45,7 +45,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`RegenerateContacts`](#PartTransformGroup.RegenerateContacts)                                                      | Gets or sets the RegenerateContacts.                          |
 | [`Suppressed`](#PartTransformGroup.Suppressed)                                                                      | Gets or sets the Suppressed.                                  |
 | [`TransformMesh`](#PartTransformGroup.TransformMesh)                                                                | Gets or sets the TransformMesh.                               |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#PartTransformGroup.Children)                                                                          | Gets the list of children.                                    |
 | [`Comments`](#PartTransformGroup.Comments)                                                                          | Gets the list of associated comments.                         |
 | [`Figures`](#PartTransformGroup.Figures)                                                                            | Gets the list of associated figures.                          |
@@ -100,7 +100,7 @@ Gets or sets the TransformMesh.
 
 <a id="PartTransformGroup.DataModelObjectCategory"></a>
 
-### *property* PartTransformGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PartTransformGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -200,7 +200,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### PartTransformGroup.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### PartTransformGroup.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

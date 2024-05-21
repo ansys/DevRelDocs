@@ -16,7 +16,7 @@
 |--------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
 | [`ConstructionLineHelper`](ConstructionLineHelper.md#ConstructionLineHelper)   | Helper to perform queries and modifications against a ConstructionLine instance.   |
 | [`Plane`](Plane.md#Plane)                                                      | A 2D sketching planes in a ConstructionLine instance.                              |
-| [`Point`](./../../Graphics/Point.md#Point)                                       | A point in a ConstructionLine instance, may have an associated edge vertex.        |
+| [`Point`](../../Graphics/Point.md#Point)                                       | A point in a ConstructionLine instance, may have an associated edge vertex.        |
 
 ### Enums
 

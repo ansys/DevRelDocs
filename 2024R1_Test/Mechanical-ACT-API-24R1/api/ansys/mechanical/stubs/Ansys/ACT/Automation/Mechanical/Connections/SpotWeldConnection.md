@@ -45,7 +45,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
-| [`Material`](./../Material.md#Material)                                                                                  | Gets or sets the Material.                                    |
+| [`Material`](../Material.md#Material)                                                                                  | Gets or sets the Material.                                    |
 | [`NumberOfLayers`](#SpotWeldConnection.NumberOfLayers)                                                                 | Gets or sets the NumberOfLayers.                              |
 | [`NumWeldPoints`](#SpotWeldConnection.NumWeldPoints)                                                                   | Gets the NumWeldPoints.                                       |
 | [`AngleTolerance`](#SpotWeldConnection.AngleTolerance)                                                                 | Gets or sets the AngleTolerance.                              |
@@ -55,11 +55,11 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`SearchDistance`](#SpotWeldConnection.SearchDistance)                                                                 | Gets or sets the SearchDistance.                              |
 | [`ConnectionBehavior`](#SpotWeldConnection.ConnectionBehavior)                                                         | Gets or sets the ConnectionBehavior.                          |
 | [`Type`](#SpotWeldConnection.Type)                                                                                     | Gets or sets the Type.                                        |
-| [`StiffnessBehavior`](./../../../../Mechanical/DataModel/Enums/StiffnessBehavior.md#StiffnessBehavior)                   | Gets or sets the StiffnessBehavior.                           |
+| [`StiffnessBehavior`](../../../../Mechanical/DataModel/Enums/StiffnessBehavior.md#StiffnessBehavior)                   | Gets or sets the StiffnessBehavior.                           |
 | [`ShellThicknessEffect`](#SpotWeldConnection.ShellThicknessEffect)                                                     | Gets or sets the ShellThicknessEffect.                        |
 | [`SourceGeometry`](#SpotWeldConnection.SourceGeometry)                                                                 | Gets or sets the SourceGeometry.                              |
 | [`TargetGeometry`](#SpotWeldConnection.TargetGeometry)                                                                 | Gets or sets the TargetGeometry.                              |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#SpotWeldConnection.Children)                                                                             | Gets the list of children.                                    |
 | [`Comments`](#SpotWeldConnection.Comments)                                                                             | Gets the list of associated comments.                         |
 | [`Images`](#SpotWeldConnection.Images)                                                                                 | Gets the list of associated images.                           |
@@ -154,7 +154,7 @@ Gets or sets the SearchDistance.
 
 <a id="SpotWeldConnection.ConnectionBehavior"></a>
 
-### *property* SpotWeldConnection.ConnectionBehavior *: [Ansys.Mechanical.DataModel.Enums.StiffnessBehavior](./../../../../Mechanical/DataModel/Enums/StiffnessBehavior.md#StiffnessBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldConnection.ConnectionBehavior *: [Ansys.Mechanical.DataModel.Enums.StiffnessBehavior](../../../../Mechanical/DataModel/Enums/StiffnessBehavior.md#StiffnessBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ConnectionBehavior.
 
@@ -162,7 +162,7 @@ Gets or sets the ConnectionBehavior.
 
 <a id="SpotWeldConnection.Type"></a>
 
-### *property* SpotWeldConnection.Type *: [Ansys.Mechanical.DataModel.Enums.SpotWeldTypes](./../../../../Mechanical/DataModel/Enums/SpotWeldTypes.md#SpotWeldTypes) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldConnection.Type *: [Ansys.Mechanical.DataModel.Enums.SpotWeldTypes](../../../../Mechanical/DataModel/Enums/SpotWeldTypes.md#SpotWeldTypes) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Type.
 
@@ -170,7 +170,7 @@ Gets or sets the Type.
 
 <a id="SpotWeldConnection.StiffnessBehavior"></a>
 
-### *property* SpotWeldConnection.StiffnessBehavior *: [Ansys.Mechanical.DataModel.Enums.StiffnessBehavior](./../../../../Mechanical/DataModel/Enums/StiffnessBehavior.md#StiffnessBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldConnection.StiffnessBehavior *: [Ansys.Mechanical.DataModel.Enums.StiffnessBehavior](../../../../Mechanical/DataModel/Enums/StiffnessBehavior.md#StiffnessBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StiffnessBehavior.
 
@@ -202,7 +202,7 @@ Gets or sets the TargetGeometry.
 
 <a id="SpotWeldConnection.DataModelObjectCategory"></a>
 
-### *property* SpotWeldConnection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldConnection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -218,7 +218,7 @@ Gets the list of children.
 
 <a id="SpotWeldConnection.Comments"></a>
 
-### *property* SpotWeldConnection.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldConnection.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -226,7 +226,7 @@ Gets the list of associated comments.
 
 <a id="SpotWeldConnection.Images"></a>
 
-### *property* SpotWeldConnection.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldConnection.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -334,7 +334,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### SpotWeldConnection.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### SpotWeldConnection.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

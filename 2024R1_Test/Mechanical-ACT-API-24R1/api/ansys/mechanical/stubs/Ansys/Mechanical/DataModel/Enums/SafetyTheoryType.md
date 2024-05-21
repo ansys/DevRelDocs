@@ -19,7 +19,7 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 | Name |
 | --------------------------------------------------------------------------------------------------------------------------- |
 | [`MaximumEquivalentStress`](#SafetyTheoryType.MaximumEquivalentStress) |
-| [`MaximumShearStress`](./../../../ACT/Automation/Mechanical/Results/StressResults/MaximumShearStress.md#MaximumShearStress) |
+| [`MaximumShearStress`](../../../ACT/Automation/Mechanical/Results/StressResults/MaximumShearStress.md#MaximumShearStress) |
 | [`MaximumTensileStress`](#SafetyTheoryType.MaximumTensileStress) |
 | [`MohrCoulombStress`](#SafetyTheoryType.MohrCoulombStress) |
 

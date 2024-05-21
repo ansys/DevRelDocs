@@ -88,7 +88,7 @@ The list of objects related to the message.
 
 <a id="Message.Severity"></a>
 
-### *property* Message.Severity *: [Ansys.Mechanical.DataModel.Enums.MessageSeverityType](./../DataModel/Enums/MessageSeverityType.md#MessageSeverityType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Message.Severity *: [Ansys.Mechanical.DataModel.Enums.MessageSeverityType](../DataModel/Enums/MessageSeverityType.md#MessageSeverityType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The severity of the message.
 

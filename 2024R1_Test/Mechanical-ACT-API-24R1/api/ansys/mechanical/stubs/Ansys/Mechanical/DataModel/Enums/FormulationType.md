@@ -19,7 +19,7 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 | Name |
 | -------------------------------------------------------------------------- |
 | [`SmallRotation`](#FormulationType.SmallRotation) |
-| [`Joint`](./../../../ACT/Automation/Mechanical/Connections/Joint.md#Joint) |
+| [`Joint`](../../../ACT/Automation/Mechanical/Connections/Joint.md#Joint) |
 | [`ProgramControlled`](#FormulationType.ProgramControlled) |
 
 <a id="import-detail"></a>

@@ -40,7 +40,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`TimeRange`](#GeometryBasedAdaptivity.TimeRange)                                                                      | Gets or sets the TimeRange.                                   |
 | [`CheckAtValue`](#GeometryBasedAdaptivity.CheckAtValue)                                                                | Gets or sets the CheckAtValue.                                |
 | [`HexDomTimeRange`](#GeometryBasedAdaptivity.HexDomTimeRange)                                                          | Gets or sets the HexDomTimeRange.                             |
@@ -61,12 +61,12 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`MaximumCornerAngle`](#GeometryBasedAdaptivity.MaximumCornerAngle)                                                    | Gets or sets the MaximumCornerAngle.                          |
 | [`EndTime`](#GeometryBasedAdaptivity.EndTime)                                                                          | Gets or sets the EndTime.                                     |
 | [`StartTime`](#GeometryBasedAdaptivity.StartTime)                                                                      | Gets or sets the StartTime.                                   |
-| [`Criterion`](./../Criterion.md#Criterion)                                                                               | Gets or sets the Criterion.                                   |
+| [`Criterion`](../Criterion.md#Criterion)                                                                               | Gets or sets the Criterion.                                   |
 | [`HexDomCheckAt`](#GeometryBasedAdaptivity.HexDomCheckAt)                                                              | Gets or sets the HexDomCheckAt.                               |
 | [`Option`](#GeometryBasedAdaptivity.Option)                                                                            | Gets or sets the Option.                                      |
 | [`CheckAt`](#GeometryBasedAdaptivity.CheckAt)                                                                          | Gets or sets the CheckAt.                                     |
 | [`Suppressed`](#GeometryBasedAdaptivity.Suppressed)                                                                    | Gets or sets the Suppressed.                                  |
-| [`CoordinateSystem`](./../../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
+| [`CoordinateSystem`](../../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
 | [`Location`](#GeometryBasedAdaptivity.Location)                                                                        | Gets or sets the Location.                                    |
 | [`Children`](#GeometryBasedAdaptivity.Children)                                                                        | Gets the list of children.                                    |
 | [`Comments`](#GeometryBasedAdaptivity.Comments)                                                                        | Gets the list of associated comments.                         |
@@ -98,7 +98,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="GeometryBasedAdaptivity.DataModelObjectCategory"></a>
 
-### *property* GeometryBasedAdaptivity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryBasedAdaptivity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -106,7 +106,7 @@ Gets the current DataModelObject’s category.
 
 <a id="GeometryBasedAdaptivity.TimeRange"></a>
 
-### *property* GeometryBasedAdaptivity.TimeRange *: [Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityTimeRange](./../../../../Mechanical/DataModel/Enums/NonlinearAdaptivityTimeRange.md#NonlinearAdaptivityTimeRange) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryBasedAdaptivity.TimeRange *: [Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityTimeRange](../../../../Mechanical/DataModel/Enums/NonlinearAdaptivityTimeRange.md#NonlinearAdaptivityTimeRange) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TimeRange.
 
@@ -122,7 +122,7 @@ Gets or sets the CheckAtValue.
 
 <a id="GeometryBasedAdaptivity.HexDomTimeRange"></a>
 
-### *property* GeometryBasedAdaptivity.HexDomTimeRange *: [Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityTimeRange](./../../../../Mechanical/DataModel/Enums/NonlinearAdaptivityTimeRange.md#NonlinearAdaptivityTimeRange) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryBasedAdaptivity.HexDomTimeRange *: [Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityTimeRange](../../../../Mechanical/DataModel/Enums/NonlinearAdaptivityTimeRange.md#NonlinearAdaptivityTimeRange) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HexDomTimeRange.
 
@@ -266,7 +266,7 @@ Gets or sets the StartTime.
 
 <a id="GeometryBasedAdaptivity.Criterion"></a>
 
-### *property* GeometryBasedAdaptivity.Criterion *: [Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityCriterionType](./../../../../Mechanical/DataModel/Enums/NonlinearAdaptivityCriterionType.md#NonlinearAdaptivityCriterionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryBasedAdaptivity.Criterion *: [Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityCriterionType](../../../../Mechanical/DataModel/Enums/NonlinearAdaptivityCriterionType.md#NonlinearAdaptivityCriterionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Criterion.
 
@@ -274,7 +274,7 @@ Gets or sets the Criterion.
 
 <a id="GeometryBasedAdaptivity.HexDomCheckAt"></a>
 
-### *property* GeometryBasedAdaptivity.HexDomCheckAt *: [Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityUpdateType](./../../../../Mechanical/DataModel/Enums/NonlinearAdaptivityUpdateType.md#NonlinearAdaptivityUpdateType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryBasedAdaptivity.HexDomCheckAt *: [Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityUpdateType](../../../../Mechanical/DataModel/Enums/NonlinearAdaptivityUpdateType.md#NonlinearAdaptivityUpdateType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HexDomCheckAt.
 
@@ -282,7 +282,7 @@ Gets or sets the HexDomCheckAt.
 
 <a id="GeometryBasedAdaptivity.Option"></a>
 
-### *property* GeometryBasedAdaptivity.Option *: [Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityOptionType](./../../../../Mechanical/DataModel/Enums/NonlinearAdaptivityOptionType.md#NonlinearAdaptivityOptionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryBasedAdaptivity.Option *: [Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityOptionType](../../../../Mechanical/DataModel/Enums/NonlinearAdaptivityOptionType.md#NonlinearAdaptivityOptionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Option.
 
@@ -290,7 +290,7 @@ Gets or sets the Option.
 
 <a id="GeometryBasedAdaptivity.CheckAt"></a>
 
-### *property* GeometryBasedAdaptivity.CheckAt *: [Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityUpdateType](./../../../../Mechanical/DataModel/Enums/NonlinearAdaptivityUpdateType.md#NonlinearAdaptivityUpdateType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryBasedAdaptivity.CheckAt *: [Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityUpdateType](../../../../Mechanical/DataModel/Enums/NonlinearAdaptivityUpdateType.md#NonlinearAdaptivityUpdateType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CheckAt.
 
@@ -306,7 +306,7 @@ Gets or sets the Suppressed.
 
 <a id="GeometryBasedAdaptivity.CoordinateSystem"></a>
 
-### *property* GeometryBasedAdaptivity.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryBasedAdaptivity.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -330,7 +330,7 @@ Gets the list of children.
 
 <a id="GeometryBasedAdaptivity.Comments"></a>
 
-### *property* GeometryBasedAdaptivity.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryBasedAdaptivity.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -338,7 +338,7 @@ Gets the list of associated comments.
 
 <a id="GeometryBasedAdaptivity.Figures"></a>
 
-### *property* GeometryBasedAdaptivity.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryBasedAdaptivity.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -346,7 +346,7 @@ Gets the list of associated figures.
 
 <a id="GeometryBasedAdaptivity.Images"></a>
 
-### *property* GeometryBasedAdaptivity.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryBasedAdaptivity.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -398,7 +398,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### GeometryBasedAdaptivity.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### GeometryBasedAdaptivity.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

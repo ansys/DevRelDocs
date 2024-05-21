@@ -47,7 +47,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`WidthOfRectangle`](#AcousticLowReducedFrequency.WidthOfRectangle)                                                    | Gets or sets the WidthOfRectangle.                            |
 | [`LowReducedFrequencyModel`](#AcousticLowReducedFrequency.LowReducedFrequencyModel)                                    | Gets or sets the LowReducedFrequencyModel.                    |
 | [`Location`](#AcousticLowReducedFrequency.Location)                                                                    | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Suppressed`](#AcousticLowReducedFrequency.Suppressed)                                                                | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#AcousticLowReducedFrequency.SharedRefBody)                                                          | Gets or sets the SharedRefBody.                               |
 | [`Children`](#AcousticLowReducedFrequency.Children)                                                                    | Gets the list of children.                                    |
@@ -81,7 +81,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="AcousticLowReducedFrequency.HeightOfRectangle"></a>
 
-### *property* AcousticLowReducedFrequency.HeightOfRectangle *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticLowReducedFrequency.HeightOfRectangle *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HeightOfRectangle.
 
@@ -89,7 +89,7 @@ Gets or sets the HeightOfRectangle.
 
 <a id="AcousticLowReducedFrequency.RadiusOfCircle"></a>
 
-### *property* AcousticLowReducedFrequency.RadiusOfCircle *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticLowReducedFrequency.RadiusOfCircle *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RadiusOfCircle.
 
@@ -97,7 +97,7 @@ Gets or sets the RadiusOfCircle.
 
 <a id="AcousticLowReducedFrequency.ThicknessOfLayer"></a>
 
-### *property* AcousticLowReducedFrequency.ThicknessOfLayer *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticLowReducedFrequency.ThicknessOfLayer *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ThicknessOfLayer.
 
@@ -105,7 +105,7 @@ Gets or sets the ThicknessOfLayer.
 
 <a id="AcousticLowReducedFrequency.WidthOfRectangle"></a>
 
-### *property* AcousticLowReducedFrequency.WidthOfRectangle *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticLowReducedFrequency.WidthOfRectangle *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the WidthOfRectangle.
 
@@ -113,7 +113,7 @@ Gets or sets the WidthOfRectangle.
 
 <a id="AcousticLowReducedFrequency.LowReducedFrequencyModel"></a>
 
-### *property* AcousticLowReducedFrequency.LowReducedFrequencyModel *: [Ansys.Mechanical.DataModel.Enums.LowReducedFrequencyModelType](./../../../../Mechanical/DataModel/Enums/LowReducedFrequencyModelType.md#LowReducedFrequencyModelType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticLowReducedFrequency.LowReducedFrequencyModel *: [Ansys.Mechanical.DataModel.Enums.LowReducedFrequencyModelType](../../../../Mechanical/DataModel/Enums/LowReducedFrequencyModelType.md#LowReducedFrequencyModelType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LowReducedFrequencyModel.
 
@@ -129,7 +129,7 @@ Gets or sets the Location.
 
 <a id="AcousticLowReducedFrequency.DataModelObjectCategory"></a>
 
-### *property* AcousticLowReducedFrequency.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticLowReducedFrequency.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -145,7 +145,7 @@ Gets or sets the Suppressed.
 
 <a id="AcousticLowReducedFrequency.SharedRefBody"></a>
 
-### *property* AcousticLowReducedFrequency.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](./../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticLowReducedFrequency.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -161,7 +161,7 @@ Gets the list of children.
 
 <a id="AcousticLowReducedFrequency.Comments"></a>
 
-### *property* AcousticLowReducedFrequency.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticLowReducedFrequency.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -169,7 +169,7 @@ Gets the list of associated comments.
 
 <a id="AcousticLowReducedFrequency.Figures"></a>
 
-### *property* AcousticLowReducedFrequency.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticLowReducedFrequency.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -177,7 +177,7 @@ Gets the list of associated figures.
 
 <a id="AcousticLowReducedFrequency.Images"></a>
 
-### *property* AcousticLowReducedFrequency.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticLowReducedFrequency.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -245,7 +245,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### AcousticLowReducedFrequency.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### AcousticLowReducedFrequency.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

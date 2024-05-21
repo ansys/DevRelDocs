@@ -45,7 +45,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`BeamElementAPDLName`](#Beam.BeamElementAPDLName)                                                                     | Gets or sets the BeamElementAPDLName.                         |
-| [`Material`](./../Material.md#Material)                                                                                  | Gets or sets the Material.                                    |
+| [`Material`](../Material.md#Material)                                                                                  | Gets or sets the Material.                                    |
 | [`MobileBeamMaterial`](#Beam.MobileBeamMaterial)                                                                       | Gets or sets the MobileBeamMaterial.                          |
 | [`MobileBody`](#Beam.MobileBody)                                                                                       | Gets the MobileBody.                                          |
 | [`ReferenceBeamMaterial`](#Beam.ReferenceBeamMaterial)                                                                 | Gets or sets the ReferenceBeamMaterial.                       |
@@ -61,7 +61,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`ReferenceYCoordinate`](#Beam.ReferenceYCoordinate)                                                                   | Gets or sets the ReferenceYCoordinate.                        |
 | [`ReferenceZCoordinate`](#Beam.ReferenceZCoordinate)                                                                   | Gets or sets the ReferenceZCoordinate.                        |
 | [`ReferencePinballRegion`](#Beam.ReferencePinballRegion)                                                               | Gets or sets the ReferencePinballRegion.                      |
-| [`CrossSection`](./../CrossSection.md#CrossSection)                                                                      | Gets the CrossSection.                                        |
+| [`CrossSection`](../CrossSection.md#CrossSection)                                                                      | Gets the CrossSection.                                        |
 | [`MobileAppliedBy`](#Beam.MobileAppliedBy)                                                                             | Gets or sets the MobileAppliedBy.                             |
 | [`MobileBehavior`](#Beam.MobileBehavior)                                                                               | Gets or sets the MobileBehavior.                              |
 | [`ReferenceAppliedBy`](#Beam.ReferenceAppliedBy)                                                                       | Gets or sets the ReferenceAppliedBy.                          |
@@ -74,7 +74,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`MobileLocation`](#Beam.MobileLocation)                                                                               | Gets or sets the MobileLocation.                              |
 | [`ReferenceLocationPoint`](#Beam.ReferenceLocationPoint)                                                               | Gets or sets the ReferenceLocationPoint.                      |
 | [`ReferenceLocation`](#Beam.ReferenceLocation)                                                                         | Gets or sets the ReferenceLocation.                           |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#Beam.Children)                                                                                           | Gets the list of children.                                    |
 | [`Comments`](#Beam.Comments)                                                                                           | Gets the list of associated comments.                         |
 | [`Figures`](#Beam.Figures)                                                                                             | Gets the list of associated figures.                          |
@@ -242,7 +242,7 @@ Gets or sets the ReferencePinballRegion.
 
 <a id="Beam.CrossSection"></a>
 
-### *property* Beam.CrossSection *: [Ansys.Mechanical.DataModel.Enums.CrossSectionType](./../../../../Mechanical/DataModel/Enums/CrossSectionType.md#CrossSectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Beam.CrossSection *: [Ansys.Mechanical.DataModel.Enums.CrossSectionType](../../../../Mechanical/DataModel/Enums/CrossSectionType.md#CrossSectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the CrossSection.
 
@@ -250,7 +250,7 @@ Gets the CrossSection.
 
 <a id="Beam.MobileAppliedBy"></a>
 
-### *property* Beam.MobileAppliedBy *: [Ansys.Mechanical.DataModel.Enums.RemoteApplicationType](./../../../../Mechanical/DataModel/Enums/RemoteApplicationType.md#RemoteApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Beam.MobileAppliedBy *: [Ansys.Mechanical.DataModel.Enums.RemoteApplicationType](../../../../Mechanical/DataModel/Enums/RemoteApplicationType.md#RemoteApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MobileAppliedBy.
 
@@ -258,7 +258,7 @@ Gets or sets the MobileAppliedBy.
 
 <a id="Beam.MobileBehavior"></a>
 
-### *property* Beam.MobileBehavior *: [Ansys.Mechanical.DataModel.Enums.LoadBehavior](./../../../../Mechanical/DataModel/Enums/LoadBehavior.md#LoadBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Beam.MobileBehavior *: [Ansys.Mechanical.DataModel.Enums.LoadBehavior](../../../../Mechanical/DataModel/Enums/LoadBehavior.md#LoadBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MobileBehavior.
 
@@ -266,7 +266,7 @@ Gets or sets the MobileBehavior.
 
 <a id="Beam.ReferenceAppliedBy"></a>
 
-### *property* Beam.ReferenceAppliedBy *: [Ansys.Mechanical.DataModel.Enums.RemoteApplicationType](./../../../../Mechanical/DataModel/Enums/RemoteApplicationType.md#RemoteApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Beam.ReferenceAppliedBy *: [Ansys.Mechanical.DataModel.Enums.RemoteApplicationType](../../../../Mechanical/DataModel/Enums/RemoteApplicationType.md#RemoteApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReferenceAppliedBy.
 
@@ -274,7 +274,7 @@ Gets or sets the ReferenceAppliedBy.
 
 <a id="Beam.ReferenceBehavior"></a>
 
-### *property* Beam.ReferenceBehavior *: [Ansys.Mechanical.DataModel.Enums.LoadBehavior](./../../../../Mechanical/DataModel/Enums/LoadBehavior.md#LoadBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Beam.ReferenceBehavior *: [Ansys.Mechanical.DataModel.Enums.LoadBehavior](../../../../Mechanical/DataModel/Enums/LoadBehavior.md#LoadBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReferenceBehavior.
 
@@ -282,7 +282,7 @@ Gets or sets the ReferenceBehavior.
 
 <a id="Beam.Scope"></a>
 
-### *property* Beam.Scope *: [Ansys.Mechanical.DataModel.Enums.SpringScopingType](./../../../../Mechanical/DataModel/Enums/SpringScopingType.md#SpringScopingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Beam.Scope *: [Ansys.Mechanical.DataModel.Enums.SpringScopingType](../../../../Mechanical/DataModel/Enums/SpringScopingType.md#SpringScopingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Scope.
 
@@ -306,7 +306,7 @@ Gets or sets the Suppressed.
 
 <a id="Beam.MobileCoordinateSystem"></a>
 
-### *property* Beam.MobileCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Beam.MobileCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MobileCoordinateSystem.
 
@@ -314,7 +314,7 @@ Gets or sets the MobileCoordinateSystem.
 
 <a id="Beam.ReferenceCoordinateSystem"></a>
 
-### *property* Beam.ReferenceCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Beam.ReferenceCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReferenceCoordinateSystem.
 
@@ -346,7 +346,7 @@ Gets or sets the ReferenceLocation.
 
 <a id="Beam.DataModelObjectCategory"></a>
 
-### *property* Beam.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Beam.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -362,7 +362,7 @@ Gets the list of children.
 
 <a id="Beam.Comments"></a>
 
-### *property* Beam.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Beam.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -370,7 +370,7 @@ Gets the list of associated comments.
 
 <a id="Beam.Figures"></a>
 
-### *property* Beam.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Beam.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -378,7 +378,7 @@ Gets the list of associated figures.
 
 <a id="Beam.Images"></a>
 
-### *property* Beam.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Beam.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -470,7 +470,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### Beam.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### Beam.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

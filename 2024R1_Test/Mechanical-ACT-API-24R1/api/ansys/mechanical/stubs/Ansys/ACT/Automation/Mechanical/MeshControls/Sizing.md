@@ -65,11 +65,11 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Active`](#Sizing.Active)                                                                                             | Gets the Active.                                              |
 | [`CaptureCurvature`](#Sizing.CaptureCurvature)                                                                         | Gets or sets the CaptureCurvature.                            |
 | [`CaptureProximity`](#Sizing.CaptureProximity)                                                                         | Gets or sets the CaptureProximity.                            |
-| [`NamedSelection`](./../NamedSelection.md#NamedSelection)                                                                | Gets or sets the NamedSelection.                              |
+| [`NamedSelection`](../NamedSelection.md#NamedSelection)                                                                | Gets or sets the NamedSelection.                              |
 | [`SphereCenter`](#Sizing.SphereCenter)                                                                                 | Gets or sets the SphereCenter.                                |
 | [`Location`](#Sizing.Location)                                                                                         | Gets or sets the Location.                                    |
 | [`ReverseBias`](#Sizing.ReverseBias)                                                                                   | Gets or sets the ReverseBias.                                 |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`ScopingMethod`](#Sizing.ScopingMethod)                                                                               | Gets or sets the ScopingMethod.                               |
 | [`Suppressed`](#Sizing.Suppressed)                                                                                     | Gets or sets the Suppressed.                                  |
 | [`Children`](#Sizing.Children)                                                                                         | Gets the list of children.                                    |
@@ -230,7 +230,7 @@ Gets or sets the BiasOption.
 
 <a id="Sizing.ProximitySizeSources"></a>
 
-### *property* Sizing.ProximitySizeSources *: [Ansys.Mechanical.DataModel.Enums.ProximitySFSourcesType](./../../../../Mechanical/DataModel/Enums/ProximitySFSourcesType.md#ProximitySFSourcesType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Sizing.ProximitySizeSources *: [Ansys.Mechanical.DataModel.Enums.ProximitySFSourcesType](../../../../Mechanical/DataModel/Enums/ProximitySFSourcesType.md#ProximitySFSourcesType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ProximitySizeSources.
 
@@ -238,7 +238,7 @@ Gets or sets the ProximitySizeSources.
 
 <a id="Sizing.Behavior"></a>
 
-### *property* Sizing.Behavior *: [Ansys.Mechanical.DataModel.Enums.SizingBehavior](./../../../../Mechanical/DataModel/Enums/SizingBehavior.md#SizingBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Sizing.Behavior *: [Ansys.Mechanical.DataModel.Enums.SizingBehavior](../../../../Mechanical/DataModel/Enums/SizingBehavior.md#SizingBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Behavior.
 
@@ -246,7 +246,7 @@ Gets or sets the Behavior.
 
 <a id="Sizing.Type"></a>
 
-### *property* Sizing.Type *: [Ansys.Mechanical.DataModel.Enums.SizingType](./../../../../Mechanical/DataModel/Enums/SizingType.md#SizingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Sizing.Type *: [Ansys.Mechanical.DataModel.Enums.SizingType](../../../../Mechanical/DataModel/Enums/SizingType.md#SizingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Type.
 
@@ -286,7 +286,7 @@ Gets or sets the CaptureProximity.
 
 <a id="Sizing.NamedSelection"></a>
 
-### *property* Sizing.NamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](./../NamedSelection.md#NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Sizing.NamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../NamedSelection.md#NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelection.
 
@@ -294,7 +294,7 @@ Gets or sets the NamedSelection.
 
 <a id="Sizing.SphereCenter"></a>
 
-### *property* Sizing.SphereCenter *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Sizing.SphereCenter *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SphereCenter.
 
@@ -318,7 +318,7 @@ Gets or sets the ReverseBias.
 
 <a id="Sizing.DataModelObjectCategory"></a>
 
-### *property* Sizing.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Sizing.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -326,7 +326,7 @@ Gets the current DataModelObject’s category.
 
 <a id="Sizing.ScopingMethod"></a>
 
-### *property* Sizing.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](./../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Sizing.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -350,7 +350,7 @@ Gets the list of children.
 
 <a id="Sizing.Comments"></a>
 
-### *property* Sizing.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Sizing.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -358,7 +358,7 @@ Gets the list of associated comments.
 
 <a id="Sizing.Figures"></a>
 
-### *property* Sizing.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Sizing.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -366,7 +366,7 @@ Gets the list of associated figures.
 
 <a id="Sizing.Images"></a>
 
-### *property* Sizing.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Sizing.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -434,7 +434,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### Sizing.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### Sizing.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

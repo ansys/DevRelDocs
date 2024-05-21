@@ -43,7 +43,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`DOFSelection`](#Coupling.DOFSelection)                                                                               | Gets or sets the DOFSelection.                                |
 | [`Suppressed`](#Coupling.Suppressed)                                                                                   | Gets or sets the Suppressed.                                  |
 | [`Location`](#Coupling.Location)                                                                                       | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#Coupling.Children)                                                                                       | Gets the list of children.                                    |
 | [`Comments`](#Coupling.Comments)                                                                                       | Gets the list of associated comments.                         |
 | [`Images`](#Coupling.Images)                                                                                           | Gets the list of associated images.                           |
@@ -81,7 +81,7 @@ Gets or sets the LocalCoordinates.
 
 <a id="Coupling.DOFSelection"></a>
 
-### *property* Coupling.DOFSelection *: [Ansys.Mechanical.DataModel.Enums.CouplingConditionDOFType](./../../../../Mechanical/DataModel/Enums/CouplingConditionDOFType.md#CouplingConditionDOFType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Coupling.DOFSelection *: [Ansys.Mechanical.DataModel.Enums.CouplingConditionDOFType](../../../../Mechanical/DataModel/Enums/CouplingConditionDOFType.md#CouplingConditionDOFType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DOFSelection.
 
@@ -105,7 +105,7 @@ Gets or sets the Location.
 
 <a id="Coupling.DataModelObjectCategory"></a>
 
-### *property* Coupling.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Coupling.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -121,7 +121,7 @@ Gets the list of children.
 
 <a id="Coupling.Comments"></a>
 
-### *property* Coupling.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Coupling.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -129,7 +129,7 @@ Gets the list of associated comments.
 
 <a id="Coupling.Images"></a>
 
-### *property* Coupling.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Coupling.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -181,7 +181,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### Coupling.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### Coupling.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

@@ -47,7 +47,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`MaterialAssignments`](#Materials.MaterialAssignments)                                                             | Gets the MaterialAssignments.                                 |
 | [`MaterialCount`](#Materials.MaterialCount)                                                                         | Gets the MaterialCount.                                       |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#Materials.Children)                                                                                   | Gets the list of children.                                    |
 | [`Comments`](#Materials.Comments)                                                                                   | Gets the list of associated comments.                         |
 | [`Figures`](#Materials.Figures)                                                                                     | Gets the list of associated figures.                          |
@@ -95,7 +95,7 @@ Gets the MaterialCount.
 
 <a id="Materials.DataModelObjectCategory"></a>
 
-### *property* Materials.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Materials.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -187,7 +187,7 @@ Creates a new Imported Trace (External Data).
 
 <a id="Materials.Import"></a>
 
-### Materials.Import(materialURI: System.String, format: [Ansys.Mechanical.DataModel.MechanicalEnums.Materials.ImportFormat](./../../../Mechanical/DataModel/MechanicalEnums/Materials/ImportFormat.md#ImportFormat), settings: [Ansys.Mechanical.Materials.ImportSettings](./../../../Mechanical/Materials/ImportSettings.md#ImportSettings))
+### Materials.Import(materialURI: System.String, format: [Ansys.Mechanical.DataModel.MechanicalEnums.Materials.ImportFormat](../../../Mechanical/DataModel/MechanicalEnums/Materials/ImportFormat.md#ImportFormat), settings: [Ansys.Mechanical.Materials.ImportSettings](../../../Mechanical/Materials/ImportSettings.md#ImportSettings))
 
 <!-- !! processed by numpydoc !! -->
 
@@ -225,7 +225,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### Materials.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### Materials.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

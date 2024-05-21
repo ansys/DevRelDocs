@@ -64,7 +64,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`IssueSolveCommand`](#CommandSnippet.IssueSolveCommand)                                                            | Gets or sets the IssueSolveCommand.                           |
 | [`InvalidateSolution`](#CommandSnippet.InvalidateSolution)                                                          | Gets or sets the InvalidateSolution.                          |
 | [`Suppressed`](#CommandSnippet.Suppressed)                                                                          | Gets or sets the Suppressed.                                  |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#CommandSnippet.Children)                                                                              | Gets the list of children.                                    |
 | [`Comments`](#CommandSnippet.Comments)                                                                              | Gets the list of associated comments.                         |
 | [`Figures`](#CommandSnippet.Figures)                                                                                | Gets the list of associated figures.                          |
@@ -216,7 +216,7 @@ Gets the SnippetFileStatus.
 
 <a id="CommandSnippet.StepSelectionMode"></a>
 
-### *property* CommandSnippet.StepSelectionMode *: [Ansys.Mechanical.DataModel.Enums.SequenceSelectionType](./../../../Mechanical/DataModel/Enums/SequenceSelectionType.md#SequenceSelectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandSnippet.StepSelectionMode *: [Ansys.Mechanical.DataModel.Enums.SequenceSelectionType](../../../Mechanical/DataModel/Enums/SequenceSelectionType.md#SequenceSelectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StepSelectionMode.
 
@@ -224,7 +224,7 @@ Gets or sets the StepSelectionMode.
 
 <a id="CommandSnippet.SolverTarget"></a>
 
-### *property* CommandSnippet.SolverTarget *: [Ansys.Mechanical.DataModel.Enums.CommandEditorTarget](./../../../Mechanical/DataModel/Enums/CommandEditorTarget.md#CommandEditorTarget) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandSnippet.SolverTarget *: [Ansys.Mechanical.DataModel.Enums.CommandEditorTarget](../../../Mechanical/DataModel/Enums/CommandEditorTarget.md#CommandEditorTarget) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the SolverTarget.
 
@@ -256,7 +256,7 @@ Gets or sets the Suppressed.
 
 <a id="CommandSnippet.DataModelObjectCategory"></a>
 
-### *property* CommandSnippet.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandSnippet.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -380,7 +380,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### CommandSnippet.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### CommandSnippet.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

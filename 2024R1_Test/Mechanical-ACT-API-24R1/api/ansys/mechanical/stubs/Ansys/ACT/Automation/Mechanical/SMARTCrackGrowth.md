@@ -40,7 +40,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`AutomaticTimeStepping`](./../../../Mechanical/DataModel/Enums/AutomaticTimeStepping.md#AutomaticTimeStepping)       | Gets or sets the AutomaticTimeStepping.                       |
+| [`AutomaticTimeStepping`](../../../Mechanical/DataModel/Enums/AutomaticTimeStepping.md#AutomaticTimeStepping)       | Gets or sets the AutomaticTimeStepping.                       |
 | [`FailureCriteriaOption`](#SMARTCrackGrowth.FailureCriteriaOption)                                                  | Gets or sets the FailureCriteriaOption.                       |
 | [`CriticalRate`](#SMARTCrackGrowth.CriticalRate)                                                                    | Gets or sets the CriticalRate.                                |
 | [`StopValue`](#SMARTCrackGrowth.StopValue)                                                                          | Gets or sets the StopValue.                                   |
@@ -54,17 +54,17 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`MaxIncrementValue`](#SMARTCrackGrowth.MaxIncrementValue)                                                          | Gets or sets the MaxIncrementValue.                           |
 | [`MinimumTimeStep`](#SMARTCrackGrowth.MinimumTimeStep)                                                              | Gets or sets the MinimumTimeStep.                             |
 | [`MinIncrementValue`](#SMARTCrackGrowth.MinIncrementValue)                                                          | Gets or sets the MinIncrementValue.                           |
-| [`CrackGrowthMethodology`](./../../../Mechanical/DataModel/Enums/CrackGrowthMethodology.md#CrackGrowthMethodology)    | Gets or sets the CrackGrowthMethodology.                      |
-| [`CrackGrowthOption`](./../../../Mechanical/DataModel/Enums/CrackGrowthOption.md#CrackGrowthOption)                   | Gets or sets the CrackGrowthOption.                           |
+| [`CrackGrowthMethodology`](../../../Mechanical/DataModel/Enums/CrackGrowthMethodology.md#CrackGrowthMethodology)    | Gets or sets the CrackGrowthMethodology.                      |
+| [`CrackGrowthOption`](../../../Mechanical/DataModel/Enums/CrackGrowthOption.md#CrackGrowthOption)                   | Gets or sets the CrackGrowthOption.                           |
 | [`Method`](#SMARTCrackGrowth.Method)                                                                                | Gets the Method.                                              |
 | [`Analysis`](Analysis.md#Analysis)                                                                                  | Gets the Analysis.                                            |
 | [`MaxIncrementOfCrackExtension`](#SMARTCrackGrowth.MaxIncrementOfCrackExtension)                                    | Gets or sets the MaxIncrementOfCrackExtension.                |
 | [`MeshCoarsening`](#SMARTCrackGrowth.MeshCoarsening)                                                                | Gets or sets the MeshCoarsening.                              |
 | [`MinIncrementOfCrackExtension`](#SMARTCrackGrowth.MinIncrementOfCrackExtension)                                    | Gets or sets the MinIncrementOfCrackExtension.                |
-| [`StopCriterion`](./../../../Mechanical/DataModel/Enums/StopCriterion.md#StopCriterion)                               | Gets or sets the StopCriterion.                               |
+| [`StopCriterion`](../../../Mechanical/DataModel/Enums/StopCriterion.md#StopCriterion)                               | Gets or sets the StopCriterion.                               |
 | [`Suppressed`](#SMARTCrackGrowth.Suppressed)                                                                        | Gets or sets the Suppressed.                                  |
 | [`InitialCrack`](#SMARTCrackGrowth.InitialCrack)                                                                    | Gets or sets the InitialCrack.                                |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#SMARTCrackGrowth.Children)                                                                            | Gets the list of children.                                    |
 | [`Comments`](#SMARTCrackGrowth.Comments)                                                                            | Gets the list of associated comments.                         |
 | [`Figures`](#SMARTCrackGrowth.Figures)                                                                              | Gets the list of associated figures.                          |
@@ -88,7 +88,7 @@ from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical import SMARTCrackGro
 
 <a id="SMARTCrackGrowth.AutomaticTimeStepping"></a>
 
-### *property* SMARTCrackGrowth.AutomaticTimeStepping *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](./../../../Mechanical/DataModel/Enums/AutomaticOrManual.md#AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SMARTCrackGrowth.AutomaticTimeStepping *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](../../../Mechanical/DataModel/Enums/AutomaticOrManual.md#AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AutomaticTimeStepping.
 
@@ -96,7 +96,7 @@ Gets or sets the AutomaticTimeStepping.
 
 <a id="SMARTCrackGrowth.FailureCriteriaOption"></a>
 
-### *property* SMARTCrackGrowth.FailureCriteriaOption *: [Ansys.Mechanical.DataModel.Enums.DelaminationFailureCriteriaOption](./../../../Mechanical/DataModel/Enums/DelaminationFailureCriteriaOption.md#DelaminationFailureCriteriaOption) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SMARTCrackGrowth.FailureCriteriaOption *: [Ansys.Mechanical.DataModel.Enums.DelaminationFailureCriteriaOption](../../../Mechanical/DataModel/Enums/DelaminationFailureCriteriaOption.md#DelaminationFailureCriteriaOption) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FailureCriteriaOption.
 
@@ -200,7 +200,7 @@ Gets or sets the MinIncrementValue.
 
 <a id="SMARTCrackGrowth.CrackGrowthMethodology"></a>
 
-### *property* SMARTCrackGrowth.CrackGrowthMethodology *: [Ansys.Mechanical.DataModel.Enums.CrackGrowthMethodology](./../../../Mechanical/DataModel/Enums/CrackGrowthMethodology.md#CrackGrowthMethodology) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SMARTCrackGrowth.CrackGrowthMethodology *: [Ansys.Mechanical.DataModel.Enums.CrackGrowthMethodology](../../../Mechanical/DataModel/Enums/CrackGrowthMethodology.md#CrackGrowthMethodology) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackGrowthMethodology.
 
@@ -208,7 +208,7 @@ Gets or sets the CrackGrowthMethodology.
 
 <a id="SMARTCrackGrowth.CrackGrowthOption"></a>
 
-### *property* SMARTCrackGrowth.CrackGrowthOption *: [Ansys.Mechanical.DataModel.Enums.CrackGrowthOption](./../../../Mechanical/DataModel/Enums/CrackGrowthOption.md#CrackGrowthOption) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SMARTCrackGrowth.CrackGrowthOption *: [Ansys.Mechanical.DataModel.Enums.CrackGrowthOption](../../../Mechanical/DataModel/Enums/CrackGrowthOption.md#CrackGrowthOption) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackGrowthOption.
 
@@ -216,7 +216,7 @@ Gets or sets the CrackGrowthOption.
 
 <a id="SMARTCrackGrowth.Method"></a>
 
-### *property* SMARTCrackGrowth.Method *: [Ansys.Mechanical.DataModel.Enums.DelaminationMethod](./../../../Mechanical/DataModel/Enums/DelaminationMethod.md#DelaminationMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SMARTCrackGrowth.Method *: [Ansys.Mechanical.DataModel.Enums.DelaminationMethod](../../../Mechanical/DataModel/Enums/DelaminationMethod.md#DelaminationMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Method.
 
@@ -224,7 +224,7 @@ Gets the Method.
 
 <a id="SMARTCrackGrowth.Analysis"></a>
 
-### *property* SMARTCrackGrowth.Analysis *: [Ansys.Mechanical.DataModel.Enums.DelaminationType](./../../../Mechanical/DataModel/Enums/DelaminationType.md#DelaminationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SMARTCrackGrowth.Analysis *: [Ansys.Mechanical.DataModel.Enums.DelaminationType](../../../Mechanical/DataModel/Enums/DelaminationType.md#DelaminationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Analysis.
 
@@ -232,7 +232,7 @@ Gets the Analysis.
 
 <a id="SMARTCrackGrowth.MaxIncrementOfCrackExtension"></a>
 
-### *property* SMARTCrackGrowth.MaxIncrementOfCrackExtension *: [Ansys.Mechanical.DataModel.Enums.CrackGrowthIncrementType](./../../../Mechanical/DataModel/Enums/CrackGrowthIncrementType.md#CrackGrowthIncrementType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SMARTCrackGrowth.MaxIncrementOfCrackExtension *: [Ansys.Mechanical.DataModel.Enums.CrackGrowthIncrementType](../../../Mechanical/DataModel/Enums/CrackGrowthIncrementType.md#CrackGrowthIncrementType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MaxIncrementOfCrackExtension.
 
@@ -240,7 +240,7 @@ Gets or sets the MaxIncrementOfCrackExtension.
 
 <a id="SMARTCrackGrowth.MeshCoarsening"></a>
 
-### *property* SMARTCrackGrowth.MeshCoarsening *: [Ansys.Mechanical.DataModel.Enums.CrackGrowthMeshCoarsening](./../../../Mechanical/DataModel/Enums/CrackGrowthMeshCoarsening.md#CrackGrowthMeshCoarsening) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SMARTCrackGrowth.MeshCoarsening *: [Ansys.Mechanical.DataModel.Enums.CrackGrowthMeshCoarsening](../../../Mechanical/DataModel/Enums/CrackGrowthMeshCoarsening.md#CrackGrowthMeshCoarsening) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MeshCoarsening.
 
@@ -248,7 +248,7 @@ Gets or sets the MeshCoarsening.
 
 <a id="SMARTCrackGrowth.MinIncrementOfCrackExtension"></a>
 
-### *property* SMARTCrackGrowth.MinIncrementOfCrackExtension *: [Ansys.Mechanical.DataModel.Enums.CrackGrowthIncrementType](./../../../Mechanical/DataModel/Enums/CrackGrowthIncrementType.md#CrackGrowthIncrementType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SMARTCrackGrowth.MinIncrementOfCrackExtension *: [Ansys.Mechanical.DataModel.Enums.CrackGrowthIncrementType](../../../Mechanical/DataModel/Enums/CrackGrowthIncrementType.md#CrackGrowthIncrementType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MinIncrementOfCrackExtension.
 
@@ -256,7 +256,7 @@ Gets or sets the MinIncrementOfCrackExtension.
 
 <a id="SMARTCrackGrowth.StopCriterion"></a>
 
-### *property* SMARTCrackGrowth.StopCriterion *: [Ansys.Mechanical.DataModel.Enums.StopCriterion](./../../../Mechanical/DataModel/Enums/StopCriterion.md#StopCriterion) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SMARTCrackGrowth.StopCriterion *: [Ansys.Mechanical.DataModel.Enums.StopCriterion](../../../Mechanical/DataModel/Enums/StopCriterion.md#StopCriterion) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StopCriterion.
 
@@ -280,7 +280,7 @@ Gets or sets the InitialCrack.
 
 <a id="SMARTCrackGrowth.DataModelObjectCategory"></a>
 
-### *property* SMARTCrackGrowth.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SMARTCrackGrowth.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -380,7 +380,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### SMARTCrackGrowth.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### SMARTCrackGrowth.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

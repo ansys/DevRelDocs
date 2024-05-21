@@ -46,7 +46,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`ShellThicknessFactor`](#BodyInteractions.ShellThicknessFactor)                                                       | Gets or sets the ShellThicknessFactor.                        |
 | [`TimestepSafetyFactor`](#BodyInteractions.TimestepSafetyFactor)                                                       | Gets or sets the TimestepSafetyFactor.                        |
 | [`LimitingTimestepVelocity`](#BodyInteractions.LimitingTimestepVelocity)                                               | Gets or sets the LimitingTimestepVelocity.                    |
-| [`ContactDetection`](./../../../../Mechanical/DataModel/Enums/ContactDetection.md#ContactDetection)                      | Gets or sets the ContactDetection.                            |
+| [`ContactDetection`](../../../../Mechanical/DataModel/Enums/ContactDetection.md#ContactDetection)                      | Gets or sets the ContactDetection.                            |
 | [`Formulation`](#BodyInteractions.Formulation)                                                                         | Gets or sets the Formulation.                                 |
 | [`ManualContactTreatment`](#BodyInteractions.ManualContactTreatment)                                                   | Gets or sets the ManualContactTreatment.                      |
 | [`NodalShellThickness`](#BodyInteractions.NodalShellThickness)                                                         | Gets or sets the NodalShellThickness.                         |
@@ -54,7 +54,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`BodySelfContact`](#BodyInteractions.BodySelfContact)                                                                 | Gets or sets the BodySelfContact.                             |
 | [`ElementSelfContact`](#BodyInteractions.ElementSelfContact)                                                           | Gets or sets the ElementSelfContact.                          |
 | [`EdgeOnEdgeContact`](#BodyInteractions.EdgeOnEdgeContact)                                                             | Gets or sets the EdgeOnEdgeContact.                           |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#BodyInteractions.Children)                                                                               | Gets the list of children.                                    |
 | [`Comments`](#BodyInteractions.Comments)                                                                               | Gets the list of associated comments.                         |
 | [`Figures`](#BodyInteractions.Figures)                                                                                 | Gets the list of associated figures.                          |
@@ -125,7 +125,7 @@ Gets or sets the LimitingTimestepVelocity.
 
 <a id="BodyInteractions.ContactDetection"></a>
 
-### *property* BodyInteractions.ContactDetection *: [Ansys.Mechanical.DataModel.Enums.ContactDetection](./../../../../Mechanical/DataModel/Enums/ContactDetection.md#ContactDetection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyInteractions.ContactDetection *: [Ansys.Mechanical.DataModel.Enums.ContactDetection](../../../../Mechanical/DataModel/Enums/ContactDetection.md#ContactDetection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactDetection.
 
@@ -133,7 +133,7 @@ Gets or sets the ContactDetection.
 
 <a id="BodyInteractions.Formulation"></a>
 
-### *property* BodyInteractions.Formulation *: [Ansys.Mechanical.DataModel.Enums.BodyInteractionFormulation](./../../../../Mechanical/DataModel/Enums/BodyInteractionFormulation.md#BodyInteractionFormulation) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyInteractions.Formulation *: [Ansys.Mechanical.DataModel.Enums.BodyInteractionFormulation](../../../../Mechanical/DataModel/Enums/BodyInteractionFormulation.md#BodyInteractionFormulation) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Formulation.
 
@@ -141,7 +141,7 @@ Gets or sets the Formulation.
 
 <a id="BodyInteractions.ManualContactTreatment"></a>
 
-### *property* BodyInteractions.ManualContactTreatment *: [Ansys.Mechanical.DataModel.Enums.ManualContactTreatmentType](./../../../../Mechanical/DataModel/Enums/ManualContactTreatmentType.md#ManualContactTreatmentType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyInteractions.ManualContactTreatment *: [Ansys.Mechanical.DataModel.Enums.ManualContactTreatmentType](../../../../Mechanical/DataModel/Enums/ManualContactTreatmentType.md#ManualContactTreatmentType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ManualContactTreatment.
 
@@ -149,7 +149,7 @@ Gets or sets the ManualContactTreatment.
 
 <a id="BodyInteractions.NodalShellThickness"></a>
 
-### *property* BodyInteractions.NodalShellThickness *: [Ansys.Mechanical.DataModel.Enums.YesNoProgrammedControlled](./../../../../Mechanical/DataModel/Enums/YesNoProgrammedControlled.md#YesNoProgrammedControlled) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyInteractions.NodalShellThickness *: [Ansys.Mechanical.DataModel.Enums.YesNoProgrammedControlled](../../../../Mechanical/DataModel/Enums/YesNoProgrammedControlled.md#YesNoProgrammedControlled) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NodalShellThickness.
 
@@ -157,7 +157,7 @@ Gets or sets the NodalShellThickness.
 
 <a id="BodyInteractions.SlidingContact"></a>
 
-### *property* BodyInteractions.SlidingContact *: [Ansys.Mechanical.DataModel.Enums.SlidingContactType](./../../../../Mechanical/DataModel/Enums/SlidingContactType.md#SlidingContactType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyInteractions.SlidingContact *: [Ansys.Mechanical.DataModel.Enums.SlidingContactType](../../../../Mechanical/DataModel/Enums/SlidingContactType.md#SlidingContactType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SlidingContact.
 
@@ -165,7 +165,7 @@ Gets or sets the SlidingContact.
 
 <a id="BodyInteractions.BodySelfContact"></a>
 
-### *property* BodyInteractions.BodySelfContact *: [Ansys.Mechanical.DataModel.Enums.YesNoProgrammedControlled](./../../../../Mechanical/DataModel/Enums/YesNoProgrammedControlled.md#YesNoProgrammedControlled) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyInteractions.BodySelfContact *: [Ansys.Mechanical.DataModel.Enums.YesNoProgrammedControlled](../../../../Mechanical/DataModel/Enums/YesNoProgrammedControlled.md#YesNoProgrammedControlled) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BodySelfContact.
 
@@ -173,7 +173,7 @@ Gets or sets the BodySelfContact.
 
 <a id="BodyInteractions.ElementSelfContact"></a>
 
-### *property* BodyInteractions.ElementSelfContact *: [Ansys.Mechanical.DataModel.Enums.YesNoProgrammedControlled](./../../../../Mechanical/DataModel/Enums/YesNoProgrammedControlled.md#YesNoProgrammedControlled) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyInteractions.ElementSelfContact *: [Ansys.Mechanical.DataModel.Enums.YesNoProgrammedControlled](../../../../Mechanical/DataModel/Enums/YesNoProgrammedControlled.md#YesNoProgrammedControlled) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ElementSelfContact.
 
@@ -189,7 +189,7 @@ Gets or sets the EdgeOnEdgeContact.
 
 <a id="BodyInteractions.DataModelObjectCategory"></a>
 
-### *property* BodyInteractions.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyInteractions.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -205,7 +205,7 @@ Gets the list of children.
 
 <a id="BodyInteractions.Comments"></a>
 
-### *property* BodyInteractions.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyInteractions.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -213,7 +213,7 @@ Gets the list of associated comments.
 
 <a id="BodyInteractions.Figures"></a>
 
-### *property* BodyInteractions.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyInteractions.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -221,7 +221,7 @@ Gets the list of associated figures.
 
 <a id="BodyInteractions.Images"></a>
 
-### *property* BodyInteractions.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyInteractions.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -281,7 +281,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### BodyInteractions.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### BodyInteractions.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

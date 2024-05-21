@@ -50,10 +50,10 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`LockAtLoadStep`](#JointLoad.LockAtLoadStep)                                                                          | Gets or sets the LockAtLoadStep.                              |
 | [`Magnitude`](#JointLoad.Magnitude)                                                                                    | Gets the Magnitude.                                           |
 | [`DOF`](#JointLoad.DOF)                                                                                                | Gets or sets the DOF.                                         |
-| [`JointConditionType`](./../../../../Mechanical/DataModel/Enums/JointConditionType.md#JointConditionType)                | Gets or sets the JointConditionType.                          |
+| [`JointConditionType`](../../../../Mechanical/DataModel/Enums/JointConditionType.md#JointConditionType)                | Gets or sets the JointConditionType.                          |
 | [`Suppressed`](#JointLoad.Suppressed)                                                                                  | Gets or sets the Suppressed.                                  |
-| [`Joint`](./../Connections/Joint.md#Joint)                                                                               | Gets or sets the Joint.                                       |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Joint`](../Connections/Joint.md#Joint)                                                                               | Gets or sets the Joint.                                       |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#JointLoad.Children)                                                                                      | Gets the list of children.                                    |
 | [`Comments`](#JointLoad.Comments)                                                                                      | Gets the list of associated comments.                         |
 | [`Figures`](#JointLoad.Figures)                                                                                        | Gets the list of associated figures.                          |
@@ -84,7 +84,7 @@ Gets or sets the NumberOfSegments.
 
 <a id="JointLoad.FittingMethod"></a>
 
-### *property* JointLoad.FittingMethod *: [Ansys.Mechanical.DataModel.Enums.FittingMethodType](./../../../../Mechanical/DataModel/Enums/FittingMethodType.md#FittingMethodType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* JointLoad.FittingMethod *: [Ansys.Mechanical.DataModel.Enums.FittingMethodType](../../../../Mechanical/DataModel/Enums/FittingMethodType.md#FittingMethodType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FittingMethod.
 
@@ -116,7 +116,7 @@ Gets or sets the LockAtLoadStep.
 
 <a id="JointLoad.Magnitude"></a>
 
-### *property* JointLoad.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* JointLoad.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Magnitude.
 
@@ -124,7 +124,7 @@ Gets the Magnitude.
 
 <a id="JointLoad.DOF"></a>
 
-### *property* JointLoad.DOF *: [Ansys.Mechanical.DataModel.Enums.KinematicDOF](./../../../../Mechanical/DataModel/Enums/KinematicDOF.md#KinematicDOF) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* JointLoad.DOF *: [Ansys.Mechanical.DataModel.Enums.KinematicDOF](../../../../Mechanical/DataModel/Enums/KinematicDOF.md#KinematicDOF) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DOF.
 
@@ -132,7 +132,7 @@ Gets or sets the DOF.
 
 <a id="JointLoad.JointConditionType"></a>
 
-### *property* JointLoad.JointConditionType *: [Ansys.Mechanical.DataModel.Enums.JointConditionType](./../../../../Mechanical/DataModel/Enums/JointConditionType.md#JointConditionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* JointLoad.JointConditionType *: [Ansys.Mechanical.DataModel.Enums.JointConditionType](../../../../Mechanical/DataModel/Enums/JointConditionType.md#JointConditionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the JointConditionType.
 
@@ -156,7 +156,7 @@ Gets or sets the Joint.
 
 <a id="JointLoad.DataModelObjectCategory"></a>
 
-### *property* JointLoad.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* JointLoad.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -172,7 +172,7 @@ Gets the list of children.
 
 <a id="JointLoad.Comments"></a>
 
-### *property* JointLoad.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* JointLoad.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -180,7 +180,7 @@ Gets the list of associated comments.
 
 <a id="JointLoad.Figures"></a>
 
-### *property* JointLoad.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* JointLoad.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -188,7 +188,7 @@ Gets the list of associated figures.
 
 <a id="JointLoad.Images"></a>
 
-### *property* JointLoad.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* JointLoad.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -272,7 +272,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### JointLoad.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### JointLoad.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

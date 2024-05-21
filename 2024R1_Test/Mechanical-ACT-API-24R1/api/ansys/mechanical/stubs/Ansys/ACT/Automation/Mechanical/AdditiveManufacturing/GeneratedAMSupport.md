@@ -47,7 +47,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`Mode`](#GeneratedAMSupport.Mode)                                                                                     | Gets or sets the Mode.                                        |
 | [`Location`](#GeneratedAMSupport.Location)                                                                             | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`ThermalConductivityMultipleInX`](#GeneratedAMSupport.ThermalConductivityMultipleInX)                                 | Gets or sets the ThermalConductivityMultipleInX.              |
 | [`ThermalConductivityMultipleInY`](#GeneratedAMSupport.ThermalConductivityMultipleInY)                                 | Gets or sets the ThermalConductivityMultipleInY.              |
 | [`ThermalConductivityMultipleInZ`](#GeneratedAMSupport.ThermalConductivityMultipleInZ)                                 | Gets or sets the ThermalConductivityMultipleInZ.              |
@@ -61,7 +61,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`ShearModulusMultipleInYZ`](#GeneratedAMSupport.ShearModulusMultipleInYZ)                                             | Gets or sets the ShearModulusMultipleInYZ.                    |
 | [`WallSpacing`](#GeneratedAMSupport.WallSpacing)                                                                       | Gets or sets the WallSpacing.                                 |
 | [`WallThickness`](#GeneratedAMSupport.WallThickness)                                                                   | Gets or sets the WallThickness.                               |
-| [`Volume`](./../Results/Volume.md#Volume)                                                                                | Gets or sets the Volume.                                      |
+| [`Volume`](../Results/Volume.md#Volume)                                                                                | Gets or sets the Volume.                                      |
 | [`MultiplierEntry`](#GeneratedAMSupport.MultiplierEntry)                                                               | Gets or sets the MultiplierEntry.                             |
 | [`SupportType`](#GeneratedAMSupport.SupportType)                                                                       | Gets or sets the SupportType.                                 |
 | [`Children`](#GeneratedAMSupport.Children)                                                                             | Gets the list of children.                                    |
@@ -94,7 +94,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="GeneratedAMSupport.Mode"></a>
 
-### *property* GeneratedAMSupport.Mode *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](./../../../../Mechanical/DataModel/Enums/AutomaticOrManual.md#AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeneratedAMSupport.Mode *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](../../../../Mechanical/DataModel/Enums/AutomaticOrManual.md#AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Mode.
 
@@ -110,7 +110,7 @@ Gets or sets the Location.
 
 <a id="GeneratedAMSupport.DataModelObjectCategory"></a>
 
-### *property* GeneratedAMSupport.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeneratedAMSupport.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -230,7 +230,7 @@ Gets or sets the Volume.
 
 <a id="GeneratedAMSupport.MultiplierEntry"></a>
 
-### *property* GeneratedAMSupport.MultiplierEntry *: [Ansys.Mechanical.DataModel.Enums.AMMultiplierEntryType](./../../../../Mechanical/DataModel/Enums/AMMultiplierEntryType.md#AMMultiplierEntryType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeneratedAMSupport.MultiplierEntry *: [Ansys.Mechanical.DataModel.Enums.AMMultiplierEntryType](../../../../Mechanical/DataModel/Enums/AMMultiplierEntryType.md#AMMultiplierEntryType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MultiplierEntry.
 
@@ -238,7 +238,7 @@ Gets or sets the MultiplierEntry.
 
 <a id="GeneratedAMSupport.SupportType"></a>
 
-### *property* GeneratedAMSupport.SupportType *: [Ansys.Mechanical.DataModel.Enums.AMSupportType](./../../../../Mechanical/DataModel/Enums/AMSupportType.md#AMSupportType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeneratedAMSupport.SupportType *: [Ansys.Mechanical.DataModel.Enums.AMSupportType](../../../../Mechanical/DataModel/Enums/AMSupportType.md#AMSupportType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SupportType.
 
@@ -254,7 +254,7 @@ Gets the list of children.
 
 <a id="GeneratedAMSupport.Comments"></a>
 
-### *property* GeneratedAMSupport.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeneratedAMSupport.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -262,7 +262,7 @@ Gets the list of associated comments.
 
 <a id="GeneratedAMSupport.Figures"></a>
 
-### *property* GeneratedAMSupport.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeneratedAMSupport.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -270,7 +270,7 @@ Gets the list of associated figures.
 
 <a id="GeneratedAMSupport.Images"></a>
 
-### *property* GeneratedAMSupport.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeneratedAMSupport.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -314,7 +314,7 @@ Run the ClearGeneratedData action.
 
 <a id="GeneratedAMSupport.GenerateSupportBodies"></a>
 
-### GeneratedAMSupport.GenerateSupportBodies(progress: [Ansys.Mechanical.Application.Progress](./../../../../Mechanical/Application/Progress.md#Progress))
+### GeneratedAMSupport.GenerateSupportBodies(progress: [Ansys.Mechanical.Application.Progress](../../../../Mechanical/Application/Progress.md#Progress))
 
 Generate Support Bodies.
 
@@ -362,7 +362,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### GeneratedAMSupport.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### GeneratedAMSupport.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

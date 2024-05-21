@@ -44,11 +44,11 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`NodalPlanes`](#GeneralAxisymmetric.NodalPlanes)                                                                   | Gets or sets the NodalPlanes.                                 |
 | [`StartPlane`](#GeneralAxisymmetric.StartPlane)                                                                     | Gets or sets the StartPlane.                                  |
 | [`Axis`](#GeneralAxisymmetric.Axis)                                                                                 | Gets or sets the Axis.                                        |
-| [`NodalPlanesVisible`](./../../../Mechanical/DataModel/Enums/NodalPlanesVisible.md#NodalPlanesVisible)                | Gets or sets the NodalPlanesVisible.                          |
+| [`NodalPlanesVisible`](../../../Mechanical/DataModel/Enums/NodalPlanesVisible.md#NodalPlanesVisible)                | Gets or sets the NodalPlanesVisible.                          |
 | [`Suppressed`](#GeneralAxisymmetric.Suppressed)                                                                     | Gets or sets the Suppressed.                                  |
-| [`CoordinateSystem`](./../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
+| [`CoordinateSystem`](../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
 | [`Location`](#GeneralAxisymmetric.Location)                                                                         | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#GeneralAxisymmetric.Children)                                                                         | Gets the list of children.                                    |
 | [`Comments`](#GeneralAxisymmetric.Comments)                                                                         | Gets the list of associated comments.                         |
 | [`Figures`](#GeneralAxisymmetric.Figures)                                                                           | Gets the list of associated figures.                          |
@@ -104,7 +104,7 @@ Gets or sets the StartPlane.
 
 <a id="GeneralAxisymmetric.Axis"></a>
 
-### *property* GeneralAxisymmetric.Axis *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType](./../../../Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#CoordinateSystemAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeneralAxisymmetric.Axis *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType](../../../Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#CoordinateSystemAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Axis.
 
@@ -112,7 +112,7 @@ Gets or sets the Axis.
 
 <a id="GeneralAxisymmetric.NodalPlanesVisible"></a>
 
-### *property* GeneralAxisymmetric.NodalPlanesVisible *: [Ansys.Mechanical.DataModel.Enums.NodalPlanesVisible](./../../../Mechanical/DataModel/Enums/NodalPlanesVisible.md#NodalPlanesVisible) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeneralAxisymmetric.NodalPlanesVisible *: [Ansys.Mechanical.DataModel.Enums.NodalPlanesVisible](../../../Mechanical/DataModel/Enums/NodalPlanesVisible.md#NodalPlanesVisible) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NodalPlanesVisible.
 
@@ -144,7 +144,7 @@ Gets or sets the Location.
 
 <a id="GeneralAxisymmetric.DataModelObjectCategory"></a>
 
-### *property* GeneralAxisymmetric.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeneralAxisymmetric.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -236,7 +236,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### GeneralAxisymmetric.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### GeneralAxisymmetric.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

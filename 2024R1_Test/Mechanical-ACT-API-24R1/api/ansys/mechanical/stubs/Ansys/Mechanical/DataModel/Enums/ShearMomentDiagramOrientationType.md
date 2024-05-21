@@ -19,7 +19,7 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 | Name |
 | ------------------------------------------------------------------------------------------------------ |
 | [`BendingMoment`](#ShearMomentDiagramOrientationType.BendingMoment) |
-| [`Displacement`](./../../../ACT/Automation/Mechanical/BoundaryConditions/Displacement.md#Displacement) |
+| [`Displacement`](../../../ACT/Automation/Mechanical/BoundaryConditions/Displacement.md#Displacement) |
 | [`ShearForce`](#ShearMomentDiagramOrientationType.ShearForce) |
 
 <a id="import-detail"></a>

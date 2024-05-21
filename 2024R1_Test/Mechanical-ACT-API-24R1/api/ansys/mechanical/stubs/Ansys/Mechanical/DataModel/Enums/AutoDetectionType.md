@@ -19,7 +19,7 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 | Name |
 | -------------------------------------------------------------------------- |
 | [`Contact`](#AutoDetectionType.Contact) |
-| [`Joint`](./../../../ACT/Automation/Mechanical/Connections/Joint.md#Joint) |
+| [`Joint`](../../../ACT/Automation/Mechanical/Connections/Joint.md#Joint) |
 
 <a id="import-detail"></a>
 

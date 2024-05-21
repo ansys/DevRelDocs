@@ -37,7 +37,7 @@ from ansys.mechanical.stubs.Ansys.Mechanical.UI.Interfaces import IMechanicalThe
 
 <a id="IMechanicalTheme.Name"></a>
 
-### *property* IMechanicalTheme.Name *: [Ansys.Mechanical.UI.Enums.ThemeName](./../Enums/ThemeName.md#ThemeName) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IMechanicalTheme.Name *: [Ansys.Mechanical.UI.Enums.ThemeName](../Enums/ThemeName.md#ThemeName) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The name of the theme as an enum value.
 

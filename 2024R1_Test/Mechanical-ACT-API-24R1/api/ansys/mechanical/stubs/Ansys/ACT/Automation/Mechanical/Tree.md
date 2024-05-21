@@ -107,7 +107,7 @@ Gets the current search string (name/tag/propertyName/propertyValue).
 
 <a id="Tree.CurrentSearchState"></a>
 
-### *property* Tree.CurrentSearchState *: [Ansys.Mechanical.DataModel.Enums.ObjectState](./../../../Mechanical/DataModel/Enums/ObjectState.md#ObjectState) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Tree.CurrentSearchState *: [Ansys.Mechanical.DataModel.Enums.ObjectState](../../../Mechanical/DataModel/Enums/ObjectState.md#ObjectState) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current search state.
 
@@ -115,7 +115,7 @@ Gets the current search state.
 
 <a id="Tree.CurrentSearchGraphics"></a>
 
-### *property* Tree.CurrentSearchGraphics *: [Ansys.Mechanical.DataModel.Enums.VisibilityType](./../../../Mechanical/DataModel/Enums/VisibilityType.md#VisibilityType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Tree.CurrentSearchGraphics *: [Ansys.Mechanical.DataModel.Enums.VisibilityType](../../../Mechanical/DataModel/Enums/VisibilityType.md#VisibilityType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current visibility.
 
@@ -151,7 +151,7 @@ Gets the full path that needs to be typed in order to go to the selected object.
 
 <a id="Tree.Find"></a>
 
-### Tree.Find(name: System.String, func: System.Func[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject, System.Boolean], tag: System.String, state: [Ansys.Mechanical.DataModel.Enums.ObjectState](./../../../Mechanical/DataModel/Enums/ObjectState.md#ObjectState))
+### Tree.Find(name: System.String, func: System.Func[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject, System.Boolean], tag: System.String, state: [Ansys.Mechanical.DataModel.Enums.ObjectState](../../../Mechanical/DataModel/Enums/ObjectState.md#ObjectState))
 
 Find method.
 
@@ -159,7 +159,7 @@ Find method.
 
 <a id="Tree.Sort"></a>
 
-### Tree.Sort(type: [Ansys.Mechanical.DataModel.Enums.SortingType](./../../../Mechanical/DataModel/Enums/SortingType.md#SortingType), reverse: System.Boolean)
+### Tree.Sort(type: [Ansys.Mechanical.DataModel.Enums.SortingType](../../../Mechanical/DataModel/Enums/SortingType.md#SortingType), reverse: System.Boolean)
 
 Sorts the tree objects based on given parameters.
 
@@ -175,7 +175,7 @@ Clears the current sort.
 
 <a id="Tree.Filter"></a>
 
-### Tree.Filter(name: System.String, tag: System.String, state: [Ansys.Mechanical.DataModel.Enums.ObjectState](./../../../Mechanical/DataModel/Enums/ObjectState.md#ObjectState), visibility: [Ansys.Mechanical.DataModel.Enums.VisibilityType](./../../../Mechanical/DataModel/Enums/VisibilityType.md#VisibilityType), type: [Ansys.Mechanical.DataModel.Enums.TreeFilterObjectClass](./../../../Mechanical/DataModel/Enums/TreeFilterObjectClass.md#TreeFilterObjectClass), coordinateSystem: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](CoordinateSystem.md#CoordinateSystem), model: System.String, environment: [Ansys.ACT.Automation.Mechanical.Analysis](Analysis.md#Analysis), scoping: [Ansys.Mechanical.DataModel.Enums.TreeFilterScopingType](./../../../Mechanical/DataModel/Enums/TreeFilterScopingType.md#TreeFilterScopingType), filterState: [Ansys.Mechanical.DataModel.Enums.TreeFilterObjectState](./../../../Mechanical/DataModel/Enums/TreeFilterObjectState.md#TreeFilterObjectState), propertyName: System.String, propertyValue: System.String)
+### Tree.Filter(name: System.String, tag: System.String, state: [Ansys.Mechanical.DataModel.Enums.ObjectState](../../../Mechanical/DataModel/Enums/ObjectState.md#ObjectState), visibility: [Ansys.Mechanical.DataModel.Enums.VisibilityType](../../../Mechanical/DataModel/Enums/VisibilityType.md#VisibilityType), type: [Ansys.Mechanical.DataModel.Enums.TreeFilterObjectClass](../../../Mechanical/DataModel/Enums/TreeFilterObjectClass.md#TreeFilterObjectClass), coordinateSystem: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](CoordinateSystem.md#CoordinateSystem), model: System.String, environment: [Ansys.ACT.Automation.Mechanical.Analysis](Analysis.md#Analysis), scoping: [Ansys.Mechanical.DataModel.Enums.TreeFilterScopingType](../../../Mechanical/DataModel/Enums/TreeFilterScopingType.md#TreeFilterScopingType), filterState: [Ansys.Mechanical.DataModel.Enums.TreeFilterObjectState](../../../Mechanical/DataModel/Enums/TreeFilterObjectState.md#TreeFilterObjectState), propertyName: System.String, propertyValue: System.String)
 
 Filters the tree objects based on given parameters.
 

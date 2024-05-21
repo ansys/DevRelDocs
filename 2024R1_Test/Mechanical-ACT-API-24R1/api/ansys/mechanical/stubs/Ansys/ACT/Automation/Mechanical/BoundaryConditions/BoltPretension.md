@@ -49,13 +49,13 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Preadjustment`](#BoltPretension.Preadjustment)                                                                          | Gets the Preadjustment.                                                                     |
 | [`Preload`](#BoltPretension.Preload)                                                                                      | Gets the Preload.                                                                           |
 | [`Tolerance`](#BoltPretension.Tolerance)                                                                                  | Gets or sets the Tolerance.                                                                 |
-| [`CoordinateSystemBehavior`](./../../../../Mechanical/DataModel/Enums/CoordinateSystemBehavior.md#CoordinateSystemBehavior) | Gets or sets the CoordinateSystemBehavior.                                                  |
+| [`CoordinateSystemBehavior`](../../../../Mechanical/DataModel/Enums/CoordinateSystemBehavior.md#CoordinateSystemBehavior) | Gets or sets the CoordinateSystemBehavior.                                                  |
 | [`Formulation`](#BoltPretension.Formulation)                                                                              | Gets or sets the Formulation.                                                               |
-| [`SolveBehaviourType`](./../../../../Mechanical/DataModel/Enums/SolveBehaviourType.md#SolveBehaviourType)                   | Gets or sets the SolveBehaviourType.                                                        |
+| [`SolveBehaviourType`](../../../../Mechanical/DataModel/Enums/SolveBehaviourType.md#SolveBehaviourType)                   | Gets or sets the SolveBehaviourType.                                                        |
 | [`Suppressed`](#BoltPretension.Suppressed)                                                                                | Gets or sets the Suppressed.                                                                |
-| [`CoordinateSystem`](./../../../Common/CoordinateSystem.md#CoordinateSystem)                                                | Gets or sets the CoordinateSystem.                                                          |
+| [`CoordinateSystem`](../../../Common/CoordinateSystem.md#CoordinateSystem)                                                | Gets or sets the CoordinateSystem.                                                          |
 | [`Location`](#BoltPretension.Location)                                                                                    | Gets or sets the Location.                                                                  |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory)    | Gets the current DataModelObject’s category.                                                |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory)    | Gets the current DataModelObject’s category.                                                |
 | [`Children`](#BoltPretension.Children)                                                                                    | Gets the list of children.                                                                  |
 | [`Comments`](#BoltPretension.Comments)                                                                                    | Gets the list of associated comments.                                                       |
 | [`Figures`](#BoltPretension.Figures)                                                                                      | Gets the list of associated figures.                                                        |
@@ -79,7 +79,7 @@ from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.BoundaryConditions i
 
 <a id="BoltPretension.DefineBy"></a>
 
-### *property* BoltPretension.DefineBy *: [Ansys.Mechanical.DataModel.Enums.BoltLoadDefineBy](./../../../../Mechanical/DataModel/Enums/BoltLoadDefineBy.md#BoltLoadDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretension.DefineBy *: [Ansys.Mechanical.DataModel.Enums.BoltLoadDefineBy](../../../../Mechanical/DataModel/Enums/BoltLoadDefineBy.md#BoltLoadDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets a value indicating how the bolt pretension is defined at the analysis’ current step.
 
@@ -95,7 +95,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="BoltPretension.Increment"></a>
 
-### *property* BoltPretension.Increment *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretension.Increment *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Increment.
 
@@ -103,7 +103,7 @@ Gets the Increment.
 
 <a id="BoltPretension.Preadjustment"></a>
 
-### *property* BoltPretension.Preadjustment *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretension.Preadjustment *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Preadjustment.
 
@@ -111,7 +111,7 @@ Gets the Preadjustment.
 
 <a id="BoltPretension.Preload"></a>
 
-### *property* BoltPretension.Preload *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretension.Preload *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Preload.
 
@@ -127,7 +127,7 @@ Gets or sets the Tolerance.
 
 <a id="BoltPretension.CoordinateSystemBehavior"></a>
 
-### *property* BoltPretension.CoordinateSystemBehavior *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemBehavior](./../../../../Mechanical/DataModel/Enums/CoordinateSystemBehavior.md#CoordinateSystemBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretension.CoordinateSystemBehavior *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemBehavior](../../../../Mechanical/DataModel/Enums/CoordinateSystemBehavior.md#CoordinateSystemBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystemBehavior.
 
@@ -135,7 +135,7 @@ Gets or sets the CoordinateSystemBehavior.
 
 <a id="BoltPretension.Formulation"></a>
 
-### *property* BoltPretension.Formulation *: [Ansys.Mechanical.DataModel.Enums.FormulationType](./../../../../Mechanical/DataModel/Enums/FormulationType.md#FormulationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretension.Formulation *: [Ansys.Mechanical.DataModel.Enums.FormulationType](../../../../Mechanical/DataModel/Enums/FormulationType.md#FormulationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Formulation.
 
@@ -143,7 +143,7 @@ Gets or sets the Formulation.
 
 <a id="BoltPretension.SolveBehaviourType"></a>
 
-### *property* BoltPretension.SolveBehaviourType *: [Ansys.Mechanical.DataModel.Enums.SolveBehaviourType](./../../../../Mechanical/DataModel/Enums/SolveBehaviourType.md#SolveBehaviourType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretension.SolveBehaviourType *: [Ansys.Mechanical.DataModel.Enums.SolveBehaviourType](../../../../Mechanical/DataModel/Enums/SolveBehaviourType.md#SolveBehaviourType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolveBehaviourType.
 
@@ -159,7 +159,7 @@ Gets or sets the Suppressed.
 
 <a id="BoltPretension.CoordinateSystem"></a>
 
-### *property* BoltPretension.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretension.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -175,7 +175,7 @@ Gets or sets the Location.
 
 <a id="BoltPretension.DataModelObjectCategory"></a>
 
-### *property* BoltPretension.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretension.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -191,7 +191,7 @@ Gets the list of children.
 
 <a id="BoltPretension.Comments"></a>
 
-### *property* BoltPretension.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretension.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -199,7 +199,7 @@ Gets the list of associated comments.
 
 <a id="BoltPretension.Figures"></a>
 
-### *property* BoltPretension.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretension.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -207,7 +207,7 @@ Gets the list of associated figures.
 
 <a id="BoltPretension.Images"></a>
 
-### *property* BoltPretension.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretension.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -275,7 +275,7 @@ Gets the Bolt Define By value at a given solution step.
 
 <a id="BoltPretension.SetDefineBy"></a>
 
-### BoltPretension.SetDefineBy(stepNumber: System.Int32, type: [Ansys.Mechanical.DataModel.Enums.BoltLoadDefineBy](./../../../../Mechanical/DataModel/Enums/BoltLoadDefineBy.md#BoltLoadDefineBy))
+### BoltPretension.SetDefineBy(stepNumber: System.Int32, type: [Ansys.Mechanical.DataModel.Enums.BoltLoadDefineBy](../../../../Mechanical/DataModel/Enums/BoltLoadDefineBy.md#BoltLoadDefineBy))
 
 Sets the Bolt Define By value for a given solution step.
 
@@ -299,7 +299,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### BoltPretension.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### BoltPretension.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

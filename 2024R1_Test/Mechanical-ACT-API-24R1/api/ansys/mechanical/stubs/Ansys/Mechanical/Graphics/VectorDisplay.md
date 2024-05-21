@@ -41,7 +41,7 @@ from ansys.mechanical.stubs.Ansys.Mechanical.Graphics import VectorDisplay
 
 <a id="VectorDisplay.LengthType"></a>
 
-### *property* VectorDisplay.LengthType *: [Ansys.Mechanical.DataModel.Enums.VectorLengthType](./../DataModel/Enums/VectorLengthType.md#VectorLengthType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorDisplay.LengthType *: [Ansys.Mechanical.DataModel.Enums.VectorLengthType](../DataModel/Enums/VectorLengthType.md#VectorLengthType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Sets the result vector length type.
 
@@ -49,7 +49,7 @@ Sets the result vector length type.
 
 <a id="VectorDisplay.DisplayType"></a>
 
-### *property* VectorDisplay.DisplayType *: [Ansys.Mechanical.DataModel.Enums.VectorDisplayType](./../DataModel/Enums/VectorDisplayType.md#VectorDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorDisplay.DisplayType *: [Ansys.Mechanical.DataModel.Enums.VectorDisplayType](../DataModel/Enums/VectorDisplayType.md#VectorDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Sets the vector display type.
 

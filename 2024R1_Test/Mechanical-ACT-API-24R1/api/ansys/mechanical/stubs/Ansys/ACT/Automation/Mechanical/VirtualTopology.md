@@ -76,7 +76,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Method`](#VirtualTopology.Method)                                                                                 | Gets or sets the Method.                                       |
 | [`GenerateOnUpdate`](#VirtualTopology.GenerateOnUpdate)                                                             | Gets or sets the GenerateOnUpdate.                             |
 | [`SimplifyFaces`](#VirtualTopology.SimplifyFaces)                                                                   | Gets or sets the SimplifyFaces.                                |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                   |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                   |
 | [`Children`](#VirtualTopology.Children)                                                                             | Gets the list of children.                                     |
 | [`Comments`](#VirtualTopology.Comments)                                                                             | Gets the list of associated comments.                          |
 | [`Figures`](#VirtualTopology.Figures)                                                                               | Gets the list of associated figures.                           |
@@ -99,7 +99,7 @@ from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical import VirtualTopolo
 
 <a id="VirtualTopology.AutomaticBehavior"></a>
 
-### *property* VirtualTopology.AutomaticBehavior *: [Ansys.Mechanical.DataModel.Enums.VirtualCellGroupAutomaticBehaviorType](./../../../Mechanical/DataModel/Enums/VirtualCellGroupAutomaticBehaviorType.md#VirtualCellGroupAutomaticBehaviorType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VirtualTopology.AutomaticBehavior *: [Ansys.Mechanical.DataModel.Enums.VirtualCellGroupAutomaticBehaviorType](../../../Mechanical/DataModel/Enums/VirtualCellGroupAutomaticBehaviorType.md#VirtualCellGroupAutomaticBehaviorType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Behavior when Method is set to “Automatic”.
 
@@ -107,7 +107,7 @@ Gets or sets the Behavior when Method is set to “Automatic”.
 
 <a id="VirtualTopology.RepairBehavior"></a>
 
-### *property* VirtualTopology.RepairBehavior *: [Ansys.Mechanical.DataModel.Enums.VirtualCellGroupRepairBehaviorType](./../../../Mechanical/DataModel/Enums/VirtualCellGroupRepairBehaviorType.md#VirtualCellGroupRepairBehaviorType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VirtualTopology.RepairBehavior *: [Ansys.Mechanical.DataModel.Enums.VirtualCellGroupRepairBehaviorType](../../../Mechanical/DataModel/Enums/VirtualCellGroupRepairBehaviorType.md#VirtualCellGroupRepairBehaviorType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Behavior when Method is set to “Repair”.
 
@@ -267,7 +267,7 @@ Gets or sets the MinSliverWidth.
 
 <a id="VirtualTopology.LockPositionOfDependentEdgeSplits"></a>
 
-### *property* VirtualTopology.LockPositionOfDependentEdgeSplits *: [Ansys.Mechanical.DataModel.Enums.YesNoType](./../../../Mechanical/DataModel/Enums/YesNoType.md#YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VirtualTopology.LockPositionOfDependentEdgeSplits *: [Ansys.Mechanical.DataModel.Enums.YesNoType](../../../Mechanical/DataModel/Enums/YesNoType.md#YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LockPositionOfDependentEdgeSplits.
 
@@ -275,7 +275,7 @@ Gets or sets the LockPositionOfDependentEdgeSplits.
 
 <a id="VirtualTopology.MergeFaceEdges"></a>
 
-### *property* VirtualTopology.MergeFaceEdges *: [Ansys.Mechanical.DataModel.Enums.YesNoType](./../../../Mechanical/DataModel/Enums/YesNoType.md#YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VirtualTopology.MergeFaceEdges *: [Ansys.Mechanical.DataModel.Enums.YesNoType](../../../Mechanical/DataModel/Enums/YesNoType.md#YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MergeFaceEdges.
 
@@ -283,7 +283,7 @@ Gets or sets the MergeFaceEdges.
 
 <a id="VirtualTopology.Method"></a>
 
-### *property* VirtualTopology.Method *: [Ansys.Mechanical.DataModel.Enums.VirtualCellGroupMethodType](./../../../Mechanical/DataModel/Enums/VirtualCellGroupMethodType.md#VirtualCellGroupMethodType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VirtualTopology.Method *: [Ansys.Mechanical.DataModel.Enums.VirtualCellGroupMethodType](../../../Mechanical/DataModel/Enums/VirtualCellGroupMethodType.md#VirtualCellGroupMethodType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Method.
 
@@ -291,7 +291,7 @@ Gets or sets the Method.
 
 <a id="VirtualTopology.GenerateOnUpdate"></a>
 
-### *property* VirtualTopology.GenerateOnUpdate *: [Ansys.Mechanical.DataModel.Enums.YesNoType](./../../../Mechanical/DataModel/Enums/YesNoType.md#YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VirtualTopology.GenerateOnUpdate *: [Ansys.Mechanical.DataModel.Enums.YesNoType](../../../Mechanical/DataModel/Enums/YesNoType.md#YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GenerateOnUpdate.
 
@@ -299,7 +299,7 @@ Gets or sets the GenerateOnUpdate.
 
 <a id="VirtualTopology.SimplifyFaces"></a>
 
-### *property* VirtualTopology.SimplifyFaces *: [Ansys.Mechanical.DataModel.Enums.YesNoType](./../../../Mechanical/DataModel/Enums/YesNoType.md#YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VirtualTopology.SimplifyFaces *: [Ansys.Mechanical.DataModel.Enums.YesNoType](../../../Mechanical/DataModel/Enums/YesNoType.md#YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SimplifyFaces.
 
@@ -307,7 +307,7 @@ Gets or sets the SimplifyFaces.
 
 <a id="VirtualTopology.DataModelObjectCategory"></a>
 
-### *property* VirtualTopology.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VirtualTopology.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -455,7 +455,7 @@ Add Virtual Cell.
 
 <a id="VirtualTopology.AddVirtualHardVertex"></a>
 
-### VirtualTopology.AddVirtualHardVertex(iSelInfo: Ansys.ACT.Interfaces.Common.ISelectionInfo, point: [Ansys.Mechanical.Graphics.Point](./../../../Mechanical/Graphics/Point.md#Point))
+### VirtualTopology.AddVirtualHardVertex(iSelInfo: Ansys.ACT.Interfaces.Common.ISelectionInfo, point: [Ansys.Mechanical.Graphics.Point](../../../Mechanical/Graphics/Point.md#Point))
 
 Add Virtual Hard Vertex.
 
@@ -479,7 +479,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### VirtualTopology.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### VirtualTopology.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

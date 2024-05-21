@@ -49,7 +49,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`GenerateOnRemesh`](#NamedSelections.GenerateOnRemesh)                                                             | Gets or sets the GenerateOnRemesh.                            |
 | [`RandomColors`](#NamedSelections.RandomColors)                                                                     | Gets the RandomColors.                                        |
 | [`ShowAnnotations`](#NamedSelections.ShowAnnotations)                                                               | Gets or sets the ShowAnnotations.                             |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#NamedSelections.Children)                                                                             | Gets the list of children.                                    |
 | [`Comments`](#NamedSelections.Comments)                                                                             | Gets the list of associated comments.                         |
 | [`Figures`](#NamedSelections.Figures)                                                                               | Gets the list of associated figures.                          |
@@ -112,7 +112,7 @@ Gets or sets the ShowAnnotations.
 
 <a id="NamedSelections.DataModelObjectCategory"></a>
 
-### *property* NamedSelections.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelections.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -236,7 +236,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### NamedSelections.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### NamedSelections.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

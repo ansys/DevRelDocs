@@ -47,11 +47,11 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`RigidResponseEffectFreqEnd`](#RSLoad.RigidResponseEffectFreqEnd)                                                     | Gets or sets the RigidResponseEffectFreqEnd.                  |
 | [`RigidResponseEffectZPA`](#RSLoad.RigidResponseEffectZPA)                                                             | Gets or sets the RigidResponseEffectZPA.                      |
 | [`Direction`](#RSLoad.Direction)                                                                                       | Gets or sets the Direction.                                   |
-| [`RigidResponseEffectType`](./../../../../Mechanical/DataModel/Enums/RigidResponseEffectType.md#RigidResponseEffectType) | Gets or sets the RigidResponseEffectType.                     |
+| [`RigidResponseEffectType`](../../../../Mechanical/DataModel/Enums/RigidResponseEffectType.md#RigidResponseEffectType) | Gets or sets the RigidResponseEffectType.                     |
 | [`MissingMassEffect`](#RSLoad.MissingMassEffect)                                                                       | Gets or sets the MissingMassEffect.                           |
 | [`RigidResponseEffect`](#RSLoad.RigidResponseEffect)                                                                   | Gets or sets the RigidResponseEffect.                         |
 | [`Suppressed`](#RSLoad.Suppressed)                                                                                     | Gets or sets the Suppressed.                                  |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#RSLoad.Children)                                                                                         | Gets the list of children.                                    |
 | [`Comments`](#RSLoad.Comments)                                                                                         | Gets the list of associated comments.                         |
 | [`Figures`](#RSLoad.Figures)                                                                                           | Gets the list of associated figures.                          |
@@ -130,7 +130,7 @@ Gets or sets the RigidResponseEffectZPA.
 
 <a id="RSLoad.Direction"></a>
 
-### *property* RSLoad.Direction *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](./../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSLoad.Direction *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Direction.
 
@@ -138,7 +138,7 @@ Gets or sets the Direction.
 
 <a id="RSLoad.RigidResponseEffectType"></a>
 
-### *property* RSLoad.RigidResponseEffectType *: [Ansys.Mechanical.DataModel.Enums.RigidResponseEffectType](./../../../../Mechanical/DataModel/Enums/RigidResponseEffectType.md#RigidResponseEffectType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSLoad.RigidResponseEffectType *: [Ansys.Mechanical.DataModel.Enums.RigidResponseEffectType](../../../../Mechanical/DataModel/Enums/RigidResponseEffectType.md#RigidResponseEffectType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RigidResponseEffectType.
 
@@ -170,7 +170,7 @@ Gets or sets the Suppressed.
 
 <a id="RSLoad.DataModelObjectCategory"></a>
 
-### *property* RSLoad.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSLoad.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -186,7 +186,7 @@ Gets the list of children.
 
 <a id="RSLoad.Comments"></a>
 
-### *property* RSLoad.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSLoad.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -194,7 +194,7 @@ Gets the list of associated comments.
 
 <a id="RSLoad.Figures"></a>
 
-### *property* RSLoad.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSLoad.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -202,7 +202,7 @@ Gets the list of associated figures.
 
 <a id="RSLoad.Images"></a>
 
-### *property* RSLoad.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSLoad.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -254,7 +254,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### RSLoad.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### RSLoad.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

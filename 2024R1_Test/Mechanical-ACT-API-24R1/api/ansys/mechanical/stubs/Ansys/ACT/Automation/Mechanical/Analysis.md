@@ -194,8 +194,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`EnvironmentTemperature`](#Analysis.EnvironmentTemperature)                                                        | Gets or sets the EnvironmentTemperature.                      |
 | [`AMProcessSimulation`](#Analysis.AMProcessSimulation)                                                              | Gets or sets the AMProcessSimulation.                         |
-| [`AnalysisType`](./../../../Mechanical/DataModel/Enums/GeometryImportPreference/AnalysisType.md#AnalysisType)         | Gets the AnalysisType.                                        |
-| [`PhysicsType`](./../../../Mechanical/DataModel/Enums/PhysicsType.md#PhysicsType)                                     | Gets the PhysicsType.                                         |
+| [`AnalysisType`](../../../Mechanical/DataModel/Enums/GeometryImportPreference/AnalysisType.md#AnalysisType)         | Gets the AnalysisType.                                        |
+| [`PhysicsType`](../../../Mechanical/DataModel/Enums/PhysicsType.md#PhysicsType)                                     | Gets the PhysicsType.                                         |
 | [`Acoustics`](#Analysis.Acoustics)                                                                                  | Gets or sets the Acoustics.                                   |
 | [`Electric`](#Analysis.Electric)                                                                                    | Gets the Electric.                                            |
 | [`GenerateInputOnly`](#Analysis.GenerateInputOnly)                                                                  | Gets the GenerateInputOnly.                                   |
@@ -203,7 +203,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Thermal`](#Analysis.Thermal)                                                                                      | Gets the Thermal.                                             |
 | [`AnalysisSettings`](AnalysisSettings/AnalysisSettings.md#AnalysisSettings)                                         | Gets the AnalysisSettings.                                    |
 | [`Solution`](Solution.md#Solution)                                                                                  | Gets the Solution.                                            |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#Analysis.Children)                                                                                    | Gets the list of children.                                    |
 | [`Comments`](#Analysis.Comments)                                                                                    | Gets the list of associated comments.                         |
 | [`Figures`](#Analysis.Figures)                                                                                      | Gets the list of associated figures.                          |
@@ -275,7 +275,7 @@ Gets or sets the EnvironmentTemperature.
 
 <a id="Analysis.AMProcessSimulation"></a>
 
-### *property* Analysis.AMProcessSimulation *: [Ansys.Mechanical.DataModel.Enums.AMProcessSimulationType](./../../../Mechanical/DataModel/Enums/AMProcessSimulationType.md#AMProcessSimulationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Analysis.AMProcessSimulation *: [Ansys.Mechanical.DataModel.Enums.AMProcessSimulationType](../../../Mechanical/DataModel/Enums/AMProcessSimulationType.md#AMProcessSimulationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AMProcessSimulation.
 
@@ -283,7 +283,7 @@ Gets or sets the AMProcessSimulation.
 
 <a id="Analysis.AnalysisType"></a>
 
-### *property* Analysis.AnalysisType *: [Ansys.Mechanical.DataModel.Enums.AnalysisType](./../../../Mechanical/DataModel/Enums/AnalysisType.md#AnalysisType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Analysis.AnalysisType *: [Ansys.Mechanical.DataModel.Enums.AnalysisType](../../../Mechanical/DataModel/Enums/AnalysisType.md#AnalysisType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the AnalysisType.
 
@@ -291,7 +291,7 @@ Gets the AnalysisType.
 
 <a id="Analysis.PhysicsType"></a>
 
-### *property* Analysis.PhysicsType *: [Ansys.Mechanical.DataModel.Enums.PhysicsType](./../../../Mechanical/DataModel/Enums/PhysicsType.md#PhysicsType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Analysis.PhysicsType *: [Ansys.Mechanical.DataModel.Enums.PhysicsType](../../../Mechanical/DataModel/Enums/PhysicsType.md#PhysicsType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the PhysicsType.
 
@@ -355,7 +355,7 @@ Gets the Solution.
 
 <a id="Analysis.DataModelObjectCategory"></a>
 
-### *property* Analysis.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Analysis.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -535,7 +535,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### Analysis.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### Analysis.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

@@ -17,7 +17,7 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 | Name |
 | -------------------------------------------------------------------------------- |
 | [`OriginAndEulerAngles`](#RigidBodyTransformationType.OriginAndEulerAngles) |
-| [`CoordinateSystem`](./../../../ACT/Common/CoordinateSystem.md#CoordinateSystem) |
+| [`CoordinateSystem`](../../../ACT/Common/CoordinateSystem.md#CoordinateSystem) |
 
 <a id="import-detail"></a>
 

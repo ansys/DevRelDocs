@@ -18,8 +18,8 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 | Name |
 | --------------------------------------------------------------------------- |
-| [`Volume`](./../../../ACT/Automation/Mechanical/Results/Volume.md#Volume) |
-| [`Surface`](./../../../ACT/Automation/Mechanical/Surface.md#Surface) |
+| [`Volume`](../../../ACT/Automation/Mechanical/Results/Volume.md#Volume) |
+| [`Surface`](../../../ACT/Automation/Mechanical/Surface.md#Surface) |
 
 <a id="import-detail"></a>
 

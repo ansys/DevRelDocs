@@ -344,7 +344,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Status`](#Solution.Status)                                                                                        | Gets the Status.                                                                         |
 | [`NumGPURequested`](#Solution.NumGPURequested)                                                                      | NumGPURequested property.                                                                |
 | [`MemoryAvailable`](#Solution.MemoryAvailable)                                                                      | MemoryAvailable property.                                                                |
-| [`EigenSolverType`](./../../../Mechanical/DataModel/Enums/EigenSolverType.md#EigenSolverType)                         | EigenSolverType property.                                                                |
+| [`EigenSolverType`](../../../Mechanical/DataModel/Enums/EigenSolverType.md#EigenSolverType)                         | EigenSolverType property.                                                                |
 | [`NumCoresAvailable`](#Solution.NumCoresAvailable)                                                                  | NumCoresAvailable property.                                                              |
 | [`NumProcRequested`](#Solution.NumProcRequested)                                                                    | NumProcRequested property.                                                               |
 | [`IsDistributedSolution`](#Solution.IsDistributedSolution)                                                          | IsDistributedSolution property.                                                          |
@@ -357,8 +357,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`IsEigenSolver`](#Solution.IsEigenSolver)                                                                          | IsEigenSolver property.                                                                  |
 | [`IsUnsymmetricMatrixSolve`](#Solution.IsUnsymmetricMatrixSolve)                                                    | IsUnsymmetricMatrixSolve property.                                                       |
 | [`GPUType`](#Solution.GPUType)                                                                                      | GPUType property.                                                                        |
-| [`MPIType`](./../../../Mechanical/DataModel/Enums/MPIType.md#MPIType)                                                 | MPIType property.                                                                        |
-| [`EquationSolverType`](./../../../Mechanical/DataModel/Enums/EquationSolverType.md#EquationSolverType)                | EquationSolverType property.                                                             |
+| [`MPIType`](../../../Mechanical/DataModel/Enums/MPIType.md#MPIType)                                                 | MPIType property.                                                                        |
+| [`EquationSolverType`](../../../Mechanical/DataModel/Enums/EquationSolverType.md#EquationSolverType)                | EquationSolverType property.                                                             |
 | [`NumMachinesRequested`](#Solution.NumMachinesRequested)                                                            | NumMachinesRequested property.                                                           |
 | [`MainThreadCPUTime`](#Solution.MainThreadCPUTime)                                                                  | MainThreadCPUTime property.                                                              |
 | [`AllThreadsCPUTime`](#Solution.AllThreadsCPUTime)                                                                  | AllThreadsCPUTime property.                                                              |
@@ -368,7 +368,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`ElementLoadBalRatio`](#Solution.ElementLoadBalRatio)                                                              | ElementLoadBalRatio property.                                                            |
 | [`ProcessorModel`](#Solution.ProcessorModel)                                                                        | ProcessorModel property.                                                                 |
 | [`OperatingSystem`](#Solution.OperatingSystem)                                                                      | OperatingSystem property.                                                                |
-| [`SolverType`](./../../../Mechanical/DataModel/Enums/SolverType.md#SolverType)                                        | SolverType property.                                                                     |
+| [`SolverType`](../../../Mechanical/DataModel/Enums/SolverType.md#SolverType)                                        | SolverType property.                                                                     |
 | [`License`](#Solution.License)                                                                                      | License property.                                                                        |
 | [`Nodes`](#Solution.Nodes)                                                                                          | Nodes property.                                                                          |
 | [`Elements`](#Solution.Elements)                                                                                    | Elements property.                                                                       |
@@ -380,7 +380,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`IORead`](#Solution.IORead)                                                                                        | IORead property.                                                                         |
 | [`MSUPHarmonicAnalysis`](#Solution.MSUPHarmonicAnalysis)                                                            | MSUPHarmonicAnalysis property.                                                           |
 | [`TimeToCombineDistributedFiles`](#Solution.TimeToCombineDistributedFiles)                                          | TimeToCombineDistributedFiles property.                                                  |
-| [`SolverData`](./../../../Mechanical/DataModel/SolverData/SolverData.md#SolverData)                                   | SolverData property.                                                                     |
+| [`SolverData`](../../../Mechanical/DataModel/SolverData/SolverData.md#SolverData)                                   | SolverData property.                                                                     |
 | [`DateOfRun`](#Solution.DateOfRun)                                                                                  | DateOfRun property.                                                                      |
 | [`TimeOfRun`](#Solution.TimeOfRun)                                                                                  | TimeOfRun property.                                                                      |
 | [`SolutionTrackingVectorLength`](#Solution.SolutionTrackingVectorLength)                                            | SolutionTrackingVectorLength property.                                                   |
@@ -406,7 +406,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`ResultFileUnitSystem`](#Solution.ResultFileUnitSystem)                                                            | Gets the ResultFileUnitSystem.                                                           |
 | [`CalculateBeamSectionResults`](#Solution.CalculateBeamSectionResults)                                              | Gets or sets the CalculateBeamSectionResults.                                            |
 | [`TopologyResult`](#Solution.TopologyResult)                                                                        | Gets or sets the TopologyResult.                                                         |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                             |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                             |
 | [`Children`](#Solution.Children)                                                                                    | Gets the list of children.                                                               |
 | [`Comments`](#Solution.Comments)                                                                                    | Gets the list of associated comments.                                                    |
 | [`Figures`](#Solution.Figures)                                                                                      | Gets the list of associated figures.                                                     |
@@ -453,7 +453,7 @@ Gets the WorkingDir.
 
 <a id="Solution.Status"></a>
 
-### *property* Solution.Status *: [Ansys.Mechanical.DataModel.Enums.SolutionStatusType](./../../../Mechanical/DataModel/Enums/SolutionStatusType.md#SolutionStatusType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.Status *: [Ansys.Mechanical.DataModel.Enums.SolutionStatusType](../../../Mechanical/DataModel/Enums/SolutionStatusType.md#SolutionStatusType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Status.
 
@@ -477,7 +477,7 @@ MemoryAvailable property.
 
 <a id="Solution.EigenSolverType"></a>
 
-### *property* Solution.EigenSolverType *: [Ansys.Mechanical.DataModel.Enums.EigenSolverType](./../../../Mechanical/DataModel/Enums/EigenSolverType.md#EigenSolverType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.EigenSolverType *: [Ansys.Mechanical.DataModel.Enums.EigenSolverType](../../../Mechanical/DataModel/Enums/EigenSolverType.md#EigenSolverType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 EigenSolverType property.
 
@@ -581,7 +581,7 @@ GPUType property.
 
 <a id="Solution.MPIType"></a>
 
-### *property* Solution.MPIType *: [Ansys.Mechanical.DataModel.Enums.MPIType](./../../../Mechanical/DataModel/Enums/MPIType.md#MPIType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.MPIType *: [Ansys.Mechanical.DataModel.Enums.MPIType](../../../Mechanical/DataModel/Enums/MPIType.md#MPIType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 MPIType property.
 
@@ -589,7 +589,7 @@ MPIType property.
 
 <a id="Solution.EquationSolverType"></a>
 
-### *property* Solution.EquationSolverType *: [Ansys.Mechanical.DataModel.Enums.EquationSolverType](./../../../Mechanical/DataModel/Enums/EquationSolverType.md#EquationSolverType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.EquationSolverType *: [Ansys.Mechanical.DataModel.Enums.EquationSolverType](../../../Mechanical/DataModel/Enums/EquationSolverType.md#EquationSolverType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 EquationSolverType property.
 
@@ -669,7 +669,7 @@ OperatingSystem property.
 
 <a id="Solution.SolverType"></a>
 
-### *property* Solution.SolverType *: [Ansys.Mechanical.DataModel.Enums.SolverType](./../../../Mechanical/DataModel/Enums/SolverType.md#SolverType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.SolverType *: [Ansys.Mechanical.DataModel.Enums.SolverType](../../../Mechanical/DataModel/Enums/SolverType.md#SolverType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 SolverType property.
 
@@ -925,7 +925,7 @@ Gets the ResultFileTimestamp.
 
 <a id="Solution.ExportTopologyFile"></a>
 
-### *property* Solution.ExportTopologyFile *: [Ansys.Mechanical.DataModel.Enums.ExportTopologyFileOption](./../../../Mechanical/DataModel/Enums/ExportTopologyFileOption.md#ExportTopologyFileOption) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.ExportTopologyFile *: [Ansys.Mechanical.DataModel.Enums.ExportTopologyFileOption](../../../Mechanical/DataModel/Enums/ExportTopologyFileOption.md#ExportTopologyFileOption) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ExportTopologyFile.
 
@@ -933,7 +933,7 @@ Gets or sets the ExportTopologyFile.
 
 <a id="Solution.MeshSource"></a>
 
-### *property* Solution.MeshSource *: [Ansys.Mechanical.DataModel.Enums.MeshSourceType](./../../../Mechanical/DataModel/Enums/MeshSourceType.md#MeshSourceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.MeshSource *: [Ansys.Mechanical.DataModel.Enums.MeshSourceType](../../../Mechanical/DataModel/Enums/MeshSourceType.md#MeshSourceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MeshSource.
 
@@ -941,7 +941,7 @@ Gets or sets the MeshSource.
 
 <a id="Solution.ElementSelection"></a>
 
-### *property* Solution.ElementSelection *: [Ansys.Mechanical.DataModel.Enums.ConvergenceControlType](./../../../Mechanical/DataModel/Enums/ConvergenceControlType.md#ConvergenceControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.ElementSelection *: [Ansys.Mechanical.DataModel.Enums.ConvergenceControlType](../../../Mechanical/DataModel/Enums/ConvergenceControlType.md#ConvergenceControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ElementSelection.
 
@@ -949,7 +949,7 @@ Gets or sets the ElementSelection.
 
 <a id="Solution.ResultFileUnitSystem"></a>
 
-### *property* Solution.ResultFileUnitSystem *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](./../../../Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.ResultFileUnitSystem *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](../../../Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ResultFileUnitSystem.
 
@@ -973,7 +973,7 @@ Gets or sets the TopologyResult.
 
 <a id="Solution.DataModelObjectCategory"></a>
 
-### *property* Solution.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -2233,7 +2233,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### Solution.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### Solution.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 
@@ -2275,7 +2275,7 @@ Run the Solve action.
 
 <a id="id2"></a>
 
-### Solution.Solve(wait: System.Boolean, config: [Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolveConfiguration](./../../Mechanical/Application/SolveProcessSettings/SolveConfiguration.md#SolveConfiguration))
+### Solution.Solve(wait: System.Boolean, config: [Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolveConfiguration](../../Mechanical/Application/SolveProcessSettings/SolveConfiguration.md#SolveConfiguration))
 
 Run the Solve action.
 
@@ -2347,7 +2347,7 @@ Run the OpenSolverFilesDirectory action.
 
 <a id="Solution.ReadGivenAnsysResultFile"></a>
 
-### Solution.ReadGivenAnsysResultFile(resultFilePath: System.String, unitSystemID: [Ansys.Mechanical.DataModel.Enums.UnitSystemIDType](./../../../Mechanical/DataModel/Enums/UnitSystemIDType.md#UnitSystemIDType))
+### Solution.ReadGivenAnsysResultFile(resultFilePath: System.String, unitSystemID: [Ansys.Mechanical.DataModel.Enums.UnitSystemIDType](../../../Mechanical/DataModel/Enums/UnitSystemIDType.md#UnitSystemIDType))
 
 Run the given Ansys ReadResults action.///
 
@@ -2355,7 +2355,7 @@ Run the given Ansys ReadResults action.///
 
 <a id="Solution.ReadGivenAnsysResultFileByReference"></a>
 
-### Solution.ReadGivenAnsysResultFileByReference(resultFilePath: System.String, unitSystemID: [Ansys.Mechanical.DataModel.Enums.UnitSystemIDType](./../../../Mechanical/DataModel/Enums/UnitSystemIDType.md#UnitSystemIDType))
+### Solution.ReadGivenAnsysResultFileByReference(resultFilePath: System.String, unitSystemID: [Ansys.Mechanical.DataModel.Enums.UnitSystemIDType](../../../Mechanical/DataModel/Enums/UnitSystemIDType.md#UnitSystemIDType))
 
 Run the given Ansys ReadResults by reference action.///
 
@@ -2483,7 +2483,7 @@ AddGroupedScopedCustomResult method.
 
 <a id="Solution.AddGroupedScopedACPResults"></a>
 
-### Solution.AddGroupedScopedACPResults(resultType: [Ansys.Mechanical.DataModel.Enums.ResultType](./../../../Mechanical/DataModel/Enums/ResultType.md#ResultType), selectedPlies: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### Solution.AddGroupedScopedACPResults(resultType: [Ansys.Mechanical.DataModel.Enums.ResultType](../../../Mechanical/DataModel/Enums/ResultType.md#ResultType), selectedPlies: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 AddGroupedScopedACPResults method.
 

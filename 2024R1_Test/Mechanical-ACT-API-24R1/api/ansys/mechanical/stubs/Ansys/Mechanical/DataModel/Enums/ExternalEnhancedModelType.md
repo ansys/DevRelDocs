@@ -18,7 +18,7 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 | Name |
 | ---------------------------------------------------------------------------------------- |
-| [`ImportedPlies`](./../../../ACT/Automation/Mechanical/ImportedPlies.md#ImportedPlies) |
+| [`ImportedPlies`](../../../ACT/Automation/Mechanical/ImportedPlies.md#ImportedPlies) |
 
 <a id="import-detail"></a>
 

@@ -19,7 +19,7 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 | Name |
 | -------------------------------------------------------------- |
 | [`PreMeshed`](#CrackSourceType.PreMeshed) |
-| [`Crack`](./../../../ACT/Automation/Mechanical/Crack.md#Crack) |
+| [`Crack`](../../../ACT/Automation/Mechanical/Crack.md#Crack) |
 
 <a id="import-detail"></a>
 

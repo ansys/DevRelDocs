@@ -35,7 +35,7 @@ from ansys.mechanical.stubs.Ansys.Mechanical.Selection import GeometryRayCastHit
 
 <a id="GeometryRayCastHit.HitVector"></a>
 
-### *property* GeometryRayCastHit.HitVector *: [Ansys.Mechanical.Math.BoundVector](./../Math/BoundVector.md#BoundVector) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryRayCastHit.HitVector *: [Ansys.Mechanical.Math.BoundVector](../Math/BoundVector.md#BoundVector) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 BoundVector with location and normal direction on geometry entity to ray cast
 

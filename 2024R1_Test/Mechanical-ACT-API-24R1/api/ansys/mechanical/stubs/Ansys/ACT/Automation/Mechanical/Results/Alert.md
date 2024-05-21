@@ -42,7 +42,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Value`](#Alert.Value)                                                                                                | Gets or sets the Value.                                       |
 | [`FailsIf`](#Alert.FailsIf)                                                                                            | Gets or sets the FailsIf.                                     |
 | [`Status`](#Alert.Status)                                                                                              | Gets the Status.                                              |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#Alert.Children)                                                                                          | Gets the list of children.                                    |
 | [`Comments`](#Alert.Comments)                                                                                          | Gets the list of associated comments.                         |
 | [`Images`](#Alert.Images)                                                                                              | Gets the list of associated images.                           |
@@ -80,7 +80,7 @@ Gets or sets the Value.
 
 <a id="Alert.FailsIf"></a>
 
-### *property* Alert.FailsIf *: [Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum](./../../../../Mechanical/DataModel/Enums/MinimumOrMaximum.md#MinimumOrMaximum) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Alert.FailsIf *: [Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum](../../../../Mechanical/DataModel/Enums/MinimumOrMaximum.md#MinimumOrMaximum) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FailsIf.
 
@@ -88,7 +88,7 @@ Gets or sets the FailsIf.
 
 <a id="Alert.Status"></a>
 
-### *property* Alert.Status *: [Ansys.Mechanical.DataModel.Enums.PassFailResult](./../../../../Mechanical/DataModel/Enums/PassFailResult.md#PassFailResult) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Alert.Status *: [Ansys.Mechanical.DataModel.Enums.PassFailResult](../../../../Mechanical/DataModel/Enums/PassFailResult.md#PassFailResult) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Status.
 
@@ -96,7 +96,7 @@ Gets the Status.
 
 <a id="Alert.DataModelObjectCategory"></a>
 
-### *property* Alert.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Alert.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -112,7 +112,7 @@ Gets the list of children.
 
 <a id="Alert.Comments"></a>
 
-### *property* Alert.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Alert.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -120,7 +120,7 @@ Gets the list of associated comments.
 
 <a id="Alert.Images"></a>
 
-### *property* Alert.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Alert.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -172,7 +172,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### Alert.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### Alert.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

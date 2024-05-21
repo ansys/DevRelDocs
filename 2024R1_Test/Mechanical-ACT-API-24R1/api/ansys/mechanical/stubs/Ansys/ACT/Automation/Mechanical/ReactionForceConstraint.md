@@ -46,7 +46,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`AxisSelection`](#ReactionForceConstraint.AxisSelection)                                                           | Gets or sets the AxisSelection.                                                          |
 | [`ReactionForceCriteria`](#ReactionForceConstraint.ReactionForceCriteria)                                           | Gets or sets the ReactionForceCriteria.                                                  |
 | [`Location`](#ReactionForceConstraint.Location)                                                                     | Gets or sets the Location.                                                               |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                             |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                             |
 | [`EnvironmentSelection`](#ReactionForceConstraint.EnvironmentSelection)                                             | Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum. |
 | [`Suppressed`](#ReactionForceConstraint.Suppressed)                                                                 | Gets or sets the Suppressed.                                                             |
 | [`Children`](#ReactionForceConstraint.Children)                                                                     | Gets the list of children.                                                               |
@@ -76,7 +76,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ReactionForceConstraint.XComponentMax"></a>
 
-### *property* ReactionForceConstraint.XComponentMax *: [Ansys.ACT.Mechanical.Fields.Field](./../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ReactionForceConstraint.XComponentMax *: [Ansys.ACT.Mechanical.Fields.Field](../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XComponentMax.
 
@@ -84,7 +84,7 @@ Gets or sets the XComponentMax.
 
 <a id="ReactionForceConstraint.YComponentMax"></a>
 
-### *property* ReactionForceConstraint.YComponentMax *: [Ansys.ACT.Mechanical.Fields.Field](./../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ReactionForceConstraint.YComponentMax *: [Ansys.ACT.Mechanical.Fields.Field](../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the YComponentMax.
 
@@ -92,7 +92,7 @@ Gets or sets the YComponentMax.
 
 <a id="ReactionForceConstraint.ZComponentMax"></a>
 
-### *property* ReactionForceConstraint.ZComponentMax *: [Ansys.ACT.Mechanical.Fields.Field](./../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ReactionForceConstraint.ZComponentMax *: [Ansys.ACT.Mechanical.Fields.Field](../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ZComponentMax.
 
@@ -100,7 +100,7 @@ Gets or sets the ZComponentMax.
 
 <a id="ReactionForceConstraint.BoundType"></a>
 
-### *property* ReactionForceConstraint.BoundType *: [Ansys.Mechanical.DataModel.Enums.TopoBoundType](./../../../Mechanical/DataModel/Enums/TopoBoundType.md#TopoBoundType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ReactionForceConstraint.BoundType *: [Ansys.Mechanical.DataModel.Enums.TopoBoundType](../../../Mechanical/DataModel/Enums/TopoBoundType.md#TopoBoundType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BoundType.
 
@@ -108,7 +108,7 @@ Gets or sets the BoundType.
 
 <a id="ReactionForceConstraint.ScopingMethod"></a>
 
-### *property* ReactionForceConstraint.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](./../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ReactionForceConstraint.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -116,7 +116,7 @@ Gets or sets the ScopingMethod.
 
 <a id="ReactionForceConstraint.AxisSelection"></a>
 
-### *property* ReactionForceConstraint.AxisSelection *: [Ansys.Mechanical.DataModel.Enums.AxisSelectionType](./../../../Mechanical/DataModel/Enums/AxisSelectionType.md#AxisSelectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ReactionForceConstraint.AxisSelection *: [Ansys.Mechanical.DataModel.Enums.AxisSelectionType](../../../Mechanical/DataModel/Enums/AxisSelectionType.md#AxisSelectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AxisSelection.
 
@@ -124,7 +124,7 @@ Gets or sets the AxisSelection.
 
 <a id="ReactionForceConstraint.ReactionForceCriteria"></a>
 
-### *property* ReactionForceConstraint.ReactionForceCriteria *: [Ansys.Mechanical.DataModel.Enums.ReactionForceCriteriaType](./../../../Mechanical/DataModel/Enums/ReactionForceCriteriaType.md#ReactionForceCriteriaType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ReactionForceConstraint.ReactionForceCriteria *: [Ansys.Mechanical.DataModel.Enums.ReactionForceCriteriaType](../../../Mechanical/DataModel/Enums/ReactionForceCriteriaType.md#ReactionForceCriteriaType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReactionForceCriteria.
 
@@ -140,7 +140,7 @@ Gets or sets the Location.
 
 <a id="ReactionForceConstraint.DataModelObjectCategory"></a>
 
-### *property* ReactionForceConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ReactionForceConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -224,7 +224,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### ReactionForceConstraint.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### ReactionForceConstraint.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

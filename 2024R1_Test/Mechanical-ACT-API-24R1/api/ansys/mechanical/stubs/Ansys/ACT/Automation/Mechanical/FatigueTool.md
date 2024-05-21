@@ -67,10 +67,10 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`MethodSelection`](#FatigueTool.MethodSelection)                                                                   | Gets or sets the MethodSelection.                             |
 | [`ResultsInput`](#FatigueTool.ResultsInput)                                                                         | Gets or sets the ResultsInput.                                |
 | [`StressComponent`](#FatigueTool.StressComponent)                                                                   | Gets or sets the StressComponent.                             |
-| [`AnalysisType`](./../../../Mechanical/DataModel/Enums/GeometryImportPreference/AnalysisType.md#AnalysisType)         | Gets or sets the AnalysisType.                                |
+| [`AnalysisType`](../../../Mechanical/DataModel/Enums/GeometryImportPreference/AnalysisType.md#AnalysisType)         | Gets or sets the AnalysisType.                                |
 | [`UnitsName`](#FatigueTool.UnitsName)                                                                               | Gets or sets the UnitsName.                                   |
 | [`UseQuickRainflowCounting`](#FatigueTool.UseQuickRainflowCounting)                                                 | Gets or sets the UseQuickRainflowCounting.                    |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#FatigueTool.Children)                                                                                 | Gets the list of children.                                    |
 | [`Comments`](#FatigueTool.Comments)                                                                                 | Gets the list of associated comments.                         |
 | [`Images`](#FatigueTool.Images)                                                                                     | Gets the list of associated images.                           |
@@ -196,7 +196,7 @@ Gets or sets the DisplayTime.
 
 <a id="FatigueTool.MeanStressTheory"></a>
 
-### *property* FatigueTool.MeanStressTheory *: [Ansys.Mechanical.DataModel.Enums.MeanStressTheoryType](./../../../Mechanical/DataModel/Enums/MeanStressTheoryType.md#MeanStressTheoryType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueTool.MeanStressTheory *: [Ansys.Mechanical.DataModel.Enums.MeanStressTheoryType](../../../Mechanical/DataModel/Enums/MeanStressTheoryType.md#MeanStressTheoryType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MeanStressTheory.
 
@@ -204,7 +204,7 @@ Gets or sets the MeanStressTheory.
 
 <a id="FatigueTool.FrequencySelection"></a>
 
-### *property* FatigueTool.FrequencySelection *: [Ansys.Mechanical.DataModel.Enums.FatigueFrequencySelection](./../../../Mechanical/DataModel/Enums/FatigueFrequencySelection.md#FatigueFrequencySelection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueTool.FrequencySelection *: [Ansys.Mechanical.DataModel.Enums.FatigueFrequencySelection](../../../Mechanical/DataModel/Enums/FatigueFrequencySelection.md#FatigueFrequencySelection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FrequencySelection.
 
@@ -212,7 +212,7 @@ Gets or sets the FrequencySelection.
 
 <a id="FatigueTool.LoadingType"></a>
 
-### *property* FatigueTool.LoadingType *: [Ansys.Mechanical.DataModel.Enums.FatigueLoadType](./../../../Mechanical/DataModel/Enums/FatigueLoadType.md#FatigueLoadType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueTool.LoadingType *: [Ansys.Mechanical.DataModel.Enums.FatigueLoadType](../../../Mechanical/DataModel/Enums/FatigueLoadType.md#FatigueLoadType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadingType.
 
@@ -220,7 +220,7 @@ Gets or sets the LoadingType.
 
 <a id="FatigueTool.MethodSelection"></a>
 
-### *property* FatigueTool.MethodSelection *: [Ansys.Mechanical.DataModel.Enums.FatigueToolMethod](./../../../Mechanical/DataModel/Enums/FatigueToolMethod.md#FatigueToolMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueTool.MethodSelection *: [Ansys.Mechanical.DataModel.Enums.FatigueToolMethod](../../../Mechanical/DataModel/Enums/FatigueToolMethod.md#FatigueToolMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MethodSelection.
 
@@ -228,7 +228,7 @@ Gets or sets the MethodSelection.
 
 <a id="FatigueTool.ResultsInput"></a>
 
-### *property* FatigueTool.ResultsInput *: [Ansys.Mechanical.DataModel.Enums.FatigueToolResultsInputType](./../../../Mechanical/DataModel/Enums/FatigueToolResultsInputType.md#FatigueToolResultsInputType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueTool.ResultsInput *: [Ansys.Mechanical.DataModel.Enums.FatigueToolResultsInputType](../../../Mechanical/DataModel/Enums/FatigueToolResultsInputType.md#FatigueToolResultsInputType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ResultsInput.
 
@@ -236,7 +236,7 @@ Gets or sets the ResultsInput.
 
 <a id="FatigueTool.StressComponent"></a>
 
-### *property* FatigueTool.StressComponent *: [Ansys.Mechanical.DataModel.Enums.FatigueStressComponentType](./../../../Mechanical/DataModel/Enums/FatigueStressComponentType.md#FatigueStressComponentType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueTool.StressComponent *: [Ansys.Mechanical.DataModel.Enums.FatigueStressComponentType](../../../Mechanical/DataModel/Enums/FatigueStressComponentType.md#FatigueStressComponentType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StressComponent.
 
@@ -244,7 +244,7 @@ Gets or sets the StressComponent.
 
 <a id="FatigueTool.AnalysisType"></a>
 
-### *property* FatigueTool.AnalysisType *: [Ansys.Mechanical.DataModel.Enums.FatigueToolAnalysisType](./../../../Mechanical/DataModel/Enums/FatigueToolAnalysisType.md#FatigueToolAnalysisType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueTool.AnalysisType *: [Ansys.Mechanical.DataModel.Enums.FatigueToolAnalysisType](../../../Mechanical/DataModel/Enums/FatigueToolAnalysisType.md#FatigueToolAnalysisType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AnalysisType.
 
@@ -252,7 +252,7 @@ Gets or sets the AnalysisType.
 
 <a id="FatigueTool.UnitsName"></a>
 
-### *property* FatigueTool.UnitsName *: [Ansys.Mechanical.DataModel.Enums.LifeUnitsType](./../../../Mechanical/DataModel/Enums/LifeUnitsType.md#LifeUnitsType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueTool.UnitsName *: [Ansys.Mechanical.DataModel.Enums.LifeUnitsType](../../../Mechanical/DataModel/Enums/LifeUnitsType.md#LifeUnitsType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UnitsName.
 
@@ -268,7 +268,7 @@ Gets or sets the UseQuickRainflowCounting.
 
 <a id="FatigueTool.DataModelObjectCategory"></a>
 
-### *property* FatigueTool.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueTool.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -424,7 +424,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### FatigueTool.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### FatigueTool.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

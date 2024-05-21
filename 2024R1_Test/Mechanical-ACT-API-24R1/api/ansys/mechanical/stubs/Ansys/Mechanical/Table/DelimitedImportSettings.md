@@ -30,8 +30,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Item`](#DelimitedImportSettings.Item)                                  | Item property.                                                                       |
 | [`SkipFooter`](#DelimitedImportSettings.SkipFooter)                      | Gets or sets the number of rows to ignore at the end of the file during import.      |
 | [`SkipRows`](#DelimitedImportSettings.SkipRows)                          | Gets or sets the number of rows to skip over at the start of the file during import. |
-| [`Format`](./../DataModel/Enums/GeometryImportPreference/Format.md#Format) | Gets the existing corresponding format.                                              |
-| [`PathType`](./../DataModel/MechanicalEnums/Common/PathType.md#PathType)   | Gets or sets the type of URI provided for Table import.                              |
+| [`Format`](../DataModel/Enums/GeometryImportPreference/Format.md#Format) | Gets the existing corresponding format.                                              |
+| [`PathType`](../DataModel/MechanicalEnums/Common/PathType.md#PathType)   | Gets or sets the type of URI provided for Table import.                              |
 
 <a id="import-detail"></a>
 
@@ -87,7 +87,7 @@ Gets or sets the number of rows to skip over at the start of the file during imp
 
 <a id="DelimitedImportSettings.Format"></a>
 
-### *property* DelimitedImportSettings.Format *: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.ImportFormat](./../DataModel/MechanicalEnums/Table/ImportFormat.md#ImportFormat) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DelimitedImportSettings.Format *: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.ImportFormat](../DataModel/MechanicalEnums/Table/ImportFormat.md#ImportFormat) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the existing corresponding format.
 
@@ -95,7 +95,7 @@ Gets the existing corresponding format.
 
 <a id="DelimitedImportSettings.PathType"></a>
 
-### *property* DelimitedImportSettings.PathType *: [Ansys.Mechanical.DataModel.MechanicalEnums.Common.PathType](./../DataModel/MechanicalEnums/Common/PathType.md#PathType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DelimitedImportSettings.PathType *: [Ansys.Mechanical.DataModel.MechanicalEnums.Common.PathType](../DataModel/MechanicalEnums/Common/PathType.md#PathType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the type of URI provided for Table import.
 Default:
@@ -124,6 +124,6 @@ Removes the import definition at the specified index.
 
 <a id="DelimitedImportSettings.UseColumn"></a>
 
-### DelimitedImportSettings.UseColumn(index: System.Int32, variableType: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableType](./../DataModel/MechanicalEnums/Table/VariableType.md#VariableType), variableClassification: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableClassification](./../DataModel/MechanicalEnums/Table/VariableClassification.md#VariableClassification), unit: System.String, name: System.String)
+### DelimitedImportSettings.UseColumn(index: System.Int32, variableType: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableType](../DataModel/MechanicalEnums/Table/VariableType.md#VariableType), variableClassification: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableClassification](../DataModel/MechanicalEnums/Table/VariableClassification.md#VariableClassification), unit: System.String, name: System.String)
 
 <!-- !! processed by numpydoc !! -->

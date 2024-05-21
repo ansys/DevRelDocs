@@ -87,16 +87,16 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`XCentroid`](#Geometry.XCentroid)                                                                                                     | Gets the XCentroid.                                           |
 | [`YCentroid`](#Geometry.YCentroid)                                                                                                     | Gets the YCentroid.                                           |
 | [`ZCentroid`](#Geometry.ZCentroid)                                                                                                     | Gets the ZCentroid.                                           |
-| [`AnalysisType`](./../../../Mechanical/DataModel/Enums/GeometryImportPreference/AnalysisType.md#AnalysisType)                            | Gets the AnalysisType.                                        |
-| [`LengthUnit`](./../../../Mechanical/DataModel/MechanicalEnums/ExternalData/LengthUnit.md#LengthUnit)                                    | Gets or sets the LengthUnit.                                  |
-| [`ComparePartsOnUpdate`](./../../../Mechanical/DataModel/Enums/GeometryImportPreference/ComparePartsOnUpdate.md#ComparePartsOnUpdate)    | Gets the ComparePartsOnUpdate.                                |
-| [`ComparePartsTolerance`](./../../../Mechanical/DataModel/Enums/GeometryImportPreference/ComparePartsTolerance.md#ComparePartsTolerance) | Gets the ComparePartsTolerance.                               |
+| [`AnalysisType`](../../../Mechanical/DataModel/Enums/GeometryImportPreference/AnalysisType.md#AnalysisType)                            | Gets the AnalysisType.                                        |
+| [`LengthUnit`](../../../Mechanical/DataModel/MechanicalEnums/ExternalData/LengthUnit.md#LengthUnit)                                    | Gets or sets the LengthUnit.                                  |
+| [`ComparePartsOnUpdate`](../../../Mechanical/DataModel/Enums/GeometryImportPreference/ComparePartsOnUpdate.md#ComparePartsOnUpdate)    | Gets the ComparePartsOnUpdate.                                |
+| [`ComparePartsTolerance`](../../../Mechanical/DataModel/Enums/GeometryImportPreference/ComparePartsTolerance.md#ComparePartsTolerance) | Gets the ComparePartsTolerance.                               |
 | [`DisplayStyle`](#Geometry.DisplayStyle)                                                                                               | Gets or sets the DisplayStyle.                                |
-| [`ElementControl`](./../../../Mechanical/DataModel/Enums/ElementControl.md#ElementControl)                                               | Gets or sets the ElementControl.                              |
+| [`ElementControl`](../../../Mechanical/DataModel/Enums/ElementControl.md#ElementControl)                                               | Gets or sets the ElementControl.                              |
 | [`MeshMetric`](#Geometry.MeshMetric)                                                                                                   | Gets the MeshMetric.                                          |
-| [`Model2DBehavior`](./../../../Mechanical/DataModel/Enums/Model2DBehavior.md#Model2DBehavior)                                            | Gets or sets the Model2DBehavior.                             |
-| [`MixedImportResolution`](./../../../Mechanical/DataModel/Enums/GeometryImportPreference/MixedImportResolution.md#MixedImportResolution) | Gets the MixedImportResolution.                               |
-| [`Parameters`](./../../../Mechanical/DataModel/Enums/GeometryImportPreference/Parameters.md#Parameters)                                  | Gets the Parameters.                                          |
+| [`Model2DBehavior`](../../../Mechanical/DataModel/Enums/Model2DBehavior.md#Model2DBehavior)                                            | Gets or sets the Model2DBehavior.                             |
+| [`MixedImportResolution`](../../../Mechanical/DataModel/Enums/GeometryImportPreference/MixedImportResolution.md#MixedImportResolution) | Gets the MixedImportResolution.                               |
+| [`Parameters`](../../../Mechanical/DataModel/Enums/GeometryImportPreference/Parameters.md#Parameters)                                  | Gets the Parameters.                                          |
 | [`AssignMaterialOnUpdate`](#Geometry.AssignMaterialOnUpdate)                                                                           | Gets or sets the AssignMaterialOnUpdate.                      |
 | [`AttachFileViaTempFile`](#Geometry.AttachFileViaTempFile)                                                                             | Gets or sets the AttachFileViaTempFile.                       |
 | [`CanChangeCADUnits`](#Geometry.CanChangeCADUnits)                                                                                     | Gets the CanChangeCADUnits.                                   |
@@ -114,7 +114,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Attributes`](#Geometry.Attributes)                                                                                                   | Gets the Attributes.                                          |
 | [`NamedSelections`](NamedSelections.md#NamedSelections)                                                                                | Gets the NamedSelections.                                     |
 | [`UseInstances`](#Geometry.UseInstances)                                                                                               | Gets the UseInstances.                                        |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory)                    | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory)                    | Gets the current DataModelObject’s category.                  |
 | [`Children`](#Geometry.Children)                                                                                                       | Gets the list of children.                                    |
 | [`Comments`](#Geometry.Comments)                                                                                                       | Gets the list of associated comments.                         |
 | [`Figures`](#Geometry.Figures)                                                                                                         | Gets the list of associated figures.                          |
@@ -385,7 +385,7 @@ Gets the ZCentroid.
 
 <a id="Geometry.AnalysisType"></a>
 
-### *property* Geometry.AnalysisType *: [Ansys.Mechanical.DataModel.Enums.GeometryDimensionType](./../../../Mechanical/DataModel/Enums/GeometryDimensionType.md#GeometryDimensionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.AnalysisType *: [Ansys.Mechanical.DataModel.Enums.GeometryDimensionType](../../../Mechanical/DataModel/Enums/GeometryDimensionType.md#GeometryDimensionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the AnalysisType.
 
@@ -393,7 +393,7 @@ Gets the AnalysisType.
 
 <a id="Geometry.LengthUnit"></a>
 
-### *property* Geometry.LengthUnit *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](./../../../Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.LengthUnit *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](../../../Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LengthUnit.
 
@@ -401,7 +401,7 @@ Gets or sets the LengthUnit.
 
 <a id="Geometry.ComparePartsOnUpdate"></a>
 
-### *property* Geometry.ComparePartsOnUpdate *: [Ansys.Mechanical.DataModel.Enums.ComparePartsOnUpdateType](./../../../Mechanical/DataModel/Enums/ComparePartsOnUpdateType.md#ComparePartsOnUpdateType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.ComparePartsOnUpdate *: [Ansys.Mechanical.DataModel.Enums.ComparePartsOnUpdateType](../../../Mechanical/DataModel/Enums/ComparePartsOnUpdateType.md#ComparePartsOnUpdateType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ComparePartsOnUpdate.
 
@@ -409,7 +409,7 @@ Gets the ComparePartsOnUpdate.
 
 <a id="Geometry.ComparePartsTolerance"></a>
 
-### *property* Geometry.ComparePartsTolerance *: [Ansys.Mechanical.DataModel.Enums.ComparePartsToleranceType](./../../../Mechanical/DataModel/Enums/ComparePartsToleranceType.md#ComparePartsToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.ComparePartsTolerance *: [Ansys.Mechanical.DataModel.Enums.ComparePartsToleranceType](../../../Mechanical/DataModel/Enums/ComparePartsToleranceType.md#ComparePartsToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ComparePartsTolerance.
 
@@ -417,7 +417,7 @@ Gets the ComparePartsTolerance.
 
 <a id="Geometry.DisplayStyle"></a>
 
-### *property* Geometry.DisplayStyle *: [Ansys.Mechanical.DataModel.Enums.PrototypeDisplayStyleType](./../../../Mechanical/DataModel/Enums/PrototypeDisplayStyleType.md#PrototypeDisplayStyleType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.DisplayStyle *: [Ansys.Mechanical.DataModel.Enums.PrototypeDisplayStyleType](../../../Mechanical/DataModel/Enums/PrototypeDisplayStyleType.md#PrototypeDisplayStyleType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DisplayStyle.
 
@@ -425,7 +425,7 @@ Gets or sets the DisplayStyle.
 
 <a id="Geometry.ElementControl"></a>
 
-### *property* Geometry.ElementControl *: [Ansys.Mechanical.DataModel.Enums.ElementControl](./../../../Mechanical/DataModel/Enums/ElementControl.md#ElementControl) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.ElementControl *: [Ansys.Mechanical.DataModel.Enums.ElementControl](../../../Mechanical/DataModel/Enums/ElementControl.md#ElementControl) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ElementControl.
 
@@ -433,7 +433,7 @@ Gets or sets the ElementControl.
 
 <a id="Geometry.MeshMetric"></a>
 
-### *property* Geometry.MeshMetric *: [Ansys.Mechanical.DataModel.Enums.MeshMetricType](./../../../Mechanical/DataModel/Enums/MeshMetricType.md#MeshMetricType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.MeshMetric *: [Ansys.Mechanical.DataModel.Enums.MeshMetricType](../../../Mechanical/DataModel/Enums/MeshMetricType.md#MeshMetricType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MeshMetric.
 
@@ -441,7 +441,7 @@ Gets the MeshMetric.
 
 <a id="Geometry.Model2DBehavior"></a>
 
-### *property* Geometry.Model2DBehavior *: [Ansys.Mechanical.DataModel.Enums.Model2DBehavior](./../../../Mechanical/DataModel/Enums/Model2DBehavior.md#Model2DBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.Model2DBehavior *: [Ansys.Mechanical.DataModel.Enums.Model2DBehavior](../../../Mechanical/DataModel/Enums/Model2DBehavior.md#Model2DBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Model2DBehavior.
 
@@ -449,7 +449,7 @@ Gets or sets the Model2DBehavior.
 
 <a id="Geometry.MixedImportResolution"></a>
 
-### *property* Geometry.MixedImportResolution *: [Ansys.Mechanical.DataModel.Enums.SecondaryImportPrefType](./../../../Mechanical/DataModel/Enums/SecondaryImportPrefType.md#SecondaryImportPrefType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.MixedImportResolution *: [Ansys.Mechanical.DataModel.Enums.SecondaryImportPrefType](../../../Mechanical/DataModel/Enums/SecondaryImportPrefType.md#SecondaryImportPrefType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MixedImportResolution.
 
@@ -457,7 +457,7 @@ Gets the MixedImportResolution.
 
 <a id="Geometry.Parameters"></a>
 
-### *property* Geometry.Parameters *: [Ansys.Mechanical.DataModel.Enums.ImportParameterType](./../../../Mechanical/DataModel/Enums/ImportParameterType.md#ImportParameterType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.Parameters *: [Ansys.Mechanical.DataModel.Enums.ImportParameterType](../../../Mechanical/DataModel/Enums/ImportParameterType.md#ImportParameterType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Parameters.
 
@@ -601,7 +601,7 @@ Gets the UseInstances.
 
 <a id="Geometry.DataModelObjectCategory"></a>
 
-### *property* Geometry.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -837,7 +837,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### Geometry.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### Geometry.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

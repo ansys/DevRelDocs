@@ -21,7 +21,7 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 | [`All`](#TreeFilterObjectClass.All) |
 | [`Results`](#TreeFilterObjectClass.Results) |
 | [`BoundaryConditions`](#TreeFilterObjectClass.BoundaryConditions) |
-| [`Connections`](./../../../ACT/Automation/Mechanical/Connections/Connections.md#Connections) |
+| [`Connections`](../../../ACT/Automation/Mechanical/Connections/Connections.md#Connections) |
 | [`Commands`](#TreeFilterObjectClass.Commands) |
 
 <a id="import-detail"></a>
