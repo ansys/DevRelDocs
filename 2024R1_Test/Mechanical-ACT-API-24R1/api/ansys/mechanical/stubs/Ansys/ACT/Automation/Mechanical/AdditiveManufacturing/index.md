@@ -1,4 +1,4 @@
-# The `AdditiveManufacturing` package
+The AdditiveManufacturing package
 
 <a id="summary"></a>
 

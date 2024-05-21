@@ -1,4 +1,4 @@
-# The `AcousticResults` package
+The AcousticResults package
 
 <a id="summary"></a>
 

@@ -1,4 +1,4 @@
-# The `NASTRAN` package
+The NASTRAN package
 
 <a id="summary"></a>
 

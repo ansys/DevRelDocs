@@ -1,4 +1,4 @@
-# The `ProbeResults` package
+# The ProbeResults package
 
 <a id="summary"></a>
 

@@ -1,4 +1,4 @@
-# The `CoordinateSystemsResults` package
+# The CoordinateSystemsResults package
 
 <a id="summary"></a>
 

@@ -1,4 +1,4 @@
-# The `AdditionalProperties` package
+# The AdditionalProperties package
 
 <a id="summary"></a>
 

@@ -1,4 +1,4 @@
-# The `Enums` package
+# The Enums package
 
 <a id="summary"></a>
 

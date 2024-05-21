@@ -1,4 +1,4 @@
-# The `ScriptableResults` package
+# The ScriptableResults package
 
 <a id="summary"></a>
 

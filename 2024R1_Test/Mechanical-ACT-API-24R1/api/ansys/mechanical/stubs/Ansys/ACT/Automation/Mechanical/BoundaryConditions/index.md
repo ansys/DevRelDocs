@@ -1,4 +1,4 @@
-# The `BoundaryConditions` package
+The BoundaryConditions package
 
 <a id="summary"></a>
 

@@ -1,4 +1,4 @@
-# The `Interfaces` package
+# The Interfaces package
 
 <a id="summary"></a>
 

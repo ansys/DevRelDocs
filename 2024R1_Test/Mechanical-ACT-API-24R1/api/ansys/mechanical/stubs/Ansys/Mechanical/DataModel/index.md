@@ -1,4 +1,4 @@
-# The `DataModel` package
+# The DataModel package
 
 <a id="summary"></a>
 

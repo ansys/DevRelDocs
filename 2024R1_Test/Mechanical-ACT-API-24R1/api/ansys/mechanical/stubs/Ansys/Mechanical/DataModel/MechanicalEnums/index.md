@@ -1,4 +1,4 @@
-# The `MechanicalEnums` package
+# The MechanicalEnums package
 
 <a id="summary"></a>
 

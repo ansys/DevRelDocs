@@ -1,4 +1,4 @@
-# The `Ansys` package
+# The Ansys package
 
 <a id="summary"></a>
 

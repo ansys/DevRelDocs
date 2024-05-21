@@ -1,4 +1,4 @@
-# The `ansys.mechanical.stubs` library
+# The ansys.mechanical.stubs library
 
 <a id="summary"></a>
 

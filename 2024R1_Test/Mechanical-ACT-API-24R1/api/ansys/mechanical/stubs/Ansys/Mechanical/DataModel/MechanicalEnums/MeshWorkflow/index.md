@@ -1,4 +1,4 @@
-# The `MeshWorkflow` package
+# The MeshWorkflow package
 
 <a id="summary"></a>
 

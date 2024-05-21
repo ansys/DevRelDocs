@@ -1,4 +1,4 @@
-# The `GasketResults` package
+# The GasketResults package
 
 <a id="summary"></a>
 

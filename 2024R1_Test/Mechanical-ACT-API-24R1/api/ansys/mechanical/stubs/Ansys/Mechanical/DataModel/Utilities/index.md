@@ -1,4 +1,4 @@
-# The `Utilities` package
+# The Utilities package
 
 <a id="summary"></a>
 

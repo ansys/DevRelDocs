@@ -1,4 +1,4 @@
-# The `ElectricResults` package
+# The ElectricResults package
 
 <a id="summary"></a>
 

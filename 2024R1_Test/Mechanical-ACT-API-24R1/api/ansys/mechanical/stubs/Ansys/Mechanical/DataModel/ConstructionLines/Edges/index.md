@@ -1,4 +1,4 @@
-# The `Edges` package
+# The Edges package
 
 <a id="summary"></a>
 

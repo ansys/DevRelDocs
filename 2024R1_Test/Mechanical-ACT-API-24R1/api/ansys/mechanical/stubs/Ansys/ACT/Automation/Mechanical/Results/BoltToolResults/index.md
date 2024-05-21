@@ -1,4 +1,4 @@
-# The `BoltToolResults` package
+The BoltToolResults package
 
 <a id="summary"></a>
 

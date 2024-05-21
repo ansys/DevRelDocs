@@ -1,4 +1,4 @@
-# The `StressResults` package
+# The StressResults package
 
 <a id="summary"></a>
 

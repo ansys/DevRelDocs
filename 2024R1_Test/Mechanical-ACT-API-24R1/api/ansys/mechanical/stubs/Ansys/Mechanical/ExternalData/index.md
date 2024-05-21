@@ -1,4 +1,4 @@
-# The `ExternalData` package
+# The ExternalData package
 
 <a id="summary"></a>
 

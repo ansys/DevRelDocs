@@ -1,4 +1,4 @@
-# The `AnalysisSettings` package
+The AnalysisSettings package
 
 <a id="summary"></a>
 

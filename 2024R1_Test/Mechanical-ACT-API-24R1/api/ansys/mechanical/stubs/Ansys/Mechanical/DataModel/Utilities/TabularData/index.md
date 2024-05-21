@@ -1,4 +1,4 @@
-# The `TabularData` package
+# The TabularData package
 
 <a id="summary"></a>
 

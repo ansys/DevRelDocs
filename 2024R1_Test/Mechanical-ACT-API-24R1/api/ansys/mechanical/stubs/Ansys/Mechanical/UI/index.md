@@ -1,4 +1,4 @@
-# The `UI` package
+# The UI package
 
 <a id="summary"></a>
 

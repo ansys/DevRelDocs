@@ -1,4 +1,4 @@
-# The `Results` package
+The Results package
 
 <a id="summary"></a>
 

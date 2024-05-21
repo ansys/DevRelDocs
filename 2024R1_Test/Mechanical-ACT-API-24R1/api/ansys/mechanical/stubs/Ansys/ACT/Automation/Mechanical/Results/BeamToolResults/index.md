@@ -1,4 +1,4 @@
-# The `BeamToolResults` package
+The BeamToolResults package
 
 <a id="summary"></a>
 

@@ -1,4 +1,4 @@
-# The `FrequencyResponseResults` package
+# The FrequencyResponseResults package
 
 <a id="summary"></a>
 

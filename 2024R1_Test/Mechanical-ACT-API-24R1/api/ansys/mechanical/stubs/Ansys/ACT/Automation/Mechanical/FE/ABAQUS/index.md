@@ -1,4 +1,4 @@
-# The `ABAQUS` package
+The ABAQUS package
 
 <a id="summary"></a>
 

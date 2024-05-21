@@ -1,4 +1,4 @@
-# The `StrainResults` package
+# The StrainResults package
 
 <a id="summary"></a>
 

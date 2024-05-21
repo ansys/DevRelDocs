@@ -1,4 +1,4 @@
-# The `BeamResults` package
+The BeamResults package
 
 <a id="summary"></a>
 

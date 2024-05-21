@@ -1,4 +1,4 @@
-# The `ExternalModel` package
+# The ExternalModel package
 
 <a id="summary"></a>
 

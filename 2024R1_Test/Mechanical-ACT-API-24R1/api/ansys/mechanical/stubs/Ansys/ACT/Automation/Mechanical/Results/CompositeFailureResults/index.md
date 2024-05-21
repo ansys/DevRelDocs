@@ -1,4 +1,4 @@
-# The `CompositeFailureResults` package
+# The `CompositeFailureResults package
 
 <a id="summary"></a>
 
