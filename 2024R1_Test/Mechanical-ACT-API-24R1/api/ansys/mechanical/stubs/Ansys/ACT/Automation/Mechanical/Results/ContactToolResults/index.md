@@ -1,4 +1,4 @@
-# The `ContactToolResults` package
+# The `ContactToolResults package
 
 <a id="summary"></a>
 

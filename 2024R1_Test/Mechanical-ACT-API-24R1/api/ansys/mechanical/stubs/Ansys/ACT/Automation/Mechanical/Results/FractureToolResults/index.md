@@ -1,4 +1,4 @@
-# The `FractureToolResults` package
+# The FractureToolResults package
 
 <a id="summary"></a>
 

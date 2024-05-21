@@ -1,4 +1,4 @@
-# The `CDB` package
+The CDB package
 
 <a id="summary"></a>
 

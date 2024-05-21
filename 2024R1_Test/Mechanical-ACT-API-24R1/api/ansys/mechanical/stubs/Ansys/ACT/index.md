@@ -1,4 +1,4 @@
-# The `ACT` package
+# The ACT package
 
 <a id="summary"></a>
 

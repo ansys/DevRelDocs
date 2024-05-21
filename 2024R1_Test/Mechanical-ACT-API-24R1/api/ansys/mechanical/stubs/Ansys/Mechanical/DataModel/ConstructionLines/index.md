@@ -1,4 +1,4 @@
-# The `ConstructionLines` package
+# The ConstructionLines package
 
 <a id="summary"></a>
 

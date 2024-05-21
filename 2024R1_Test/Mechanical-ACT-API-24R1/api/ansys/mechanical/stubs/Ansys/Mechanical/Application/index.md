@@ -1,4 +1,4 @@
-# The `Application` package
+# The Application package
 
 <a id="summary"></a>
 

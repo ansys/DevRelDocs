@@ -1,4 +1,4 @@
-# The `Table` package
+# The Table package
 
 <a id="summary"></a>
 

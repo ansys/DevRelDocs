@@ -1,4 +1,4 @@
-# The `Math` package
+# The Math package
 
 <a id="summary"></a>
 

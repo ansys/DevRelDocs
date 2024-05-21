@@ -1,4 +1,4 @@
-# The `Materials` package
+# The Materials package
 
 <a id="summary"></a>
 

@@ -1,4 +1,4 @@
-# The `FatigueToolResults` package
+# The FatigueToolResults package
 
 <a id="summary"></a>
 

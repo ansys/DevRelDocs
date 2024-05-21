@@ -1,4 +1,4 @@
-# The `LinearizedStressResults` package
+# The LinearizedStressResults package
 
 <a id="summary"></a>
 

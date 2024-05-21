@@ -1,4 +1,4 @@
-# The `Mechanical` package
+# The Mechanical package
 
 <a id="summary"></a>
 

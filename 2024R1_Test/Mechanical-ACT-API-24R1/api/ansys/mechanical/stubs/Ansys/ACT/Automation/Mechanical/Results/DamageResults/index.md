@@ -1,4 +1,4 @@
-# The `DamageResults` package
+# The DamageResults package
 
 <a id="summary"></a>
 

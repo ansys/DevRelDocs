@@ -1,4 +1,4 @@
-# The `SolveProcessSettings` package
+# The SolveProcessSettings package
 
 <a id="summary"></a>
 

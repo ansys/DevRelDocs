@@ -1,4 +1,4 @@
-# The `EnergyResults` package
+# The EnergyResults package
 
 <a id="summary"></a>
 

@@ -1,4 +1,4 @@
-# The `Tools` package
+# The Tools package
 
 <a id="summary"></a>
 

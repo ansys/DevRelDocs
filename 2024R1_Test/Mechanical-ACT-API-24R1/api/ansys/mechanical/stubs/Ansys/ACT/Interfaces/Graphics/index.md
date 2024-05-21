@@ -1,4 +1,4 @@
-# The `Graphics` package
+# The Graphics package
 
 <a id="summary"></a>
 

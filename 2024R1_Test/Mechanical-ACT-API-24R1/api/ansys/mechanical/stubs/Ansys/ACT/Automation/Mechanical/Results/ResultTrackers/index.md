@@ -1,4 +1,4 @@
-# The `ResultTrackers` package
+# The ResultTrackers package
 
 <a id="summary"></a>
 

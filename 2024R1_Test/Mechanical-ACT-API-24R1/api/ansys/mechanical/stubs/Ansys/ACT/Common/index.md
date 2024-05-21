@@ -1,4 +1,4 @@
-# The `Common` package
+# The Common package
 
 <a id="summary"></a>
 

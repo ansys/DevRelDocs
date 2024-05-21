@@ -1,4 +1,4 @@
-# The `PhaseResponseResults` package
+# The PhaseResponseResults package
 
 <a id="summary"></a>
 

@@ -1,4 +1,4 @@
-# The `Automation` package
+# The Automation package
 
 <a id="summary"></a>
 

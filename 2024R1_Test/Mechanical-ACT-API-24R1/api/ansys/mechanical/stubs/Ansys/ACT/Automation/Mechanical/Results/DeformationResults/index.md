@@ -1,4 +1,4 @@
-# The `DeformationResults` package
+# The DeformationResults package
 
 <a id="summary"></a>
 

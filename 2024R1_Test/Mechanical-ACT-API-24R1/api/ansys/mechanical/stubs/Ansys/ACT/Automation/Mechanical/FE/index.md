@@ -1,4 +1,4 @@
-# The `FE` package
+The FE package
 
 <a id="summary"></a>
 

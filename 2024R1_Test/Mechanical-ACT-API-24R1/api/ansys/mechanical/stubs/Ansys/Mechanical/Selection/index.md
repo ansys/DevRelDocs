@@ -1,4 +1,4 @@
-# The `Selection` package
+# The Selection package
 
 <a id="summary"></a>
 

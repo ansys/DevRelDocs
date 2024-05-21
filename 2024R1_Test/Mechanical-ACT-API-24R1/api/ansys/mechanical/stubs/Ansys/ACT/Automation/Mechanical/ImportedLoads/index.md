@@ -1,4 +1,4 @@
-# The `ImportedLoads` package
+The ImportedLoads package
 
 <a id="summary"></a>
 

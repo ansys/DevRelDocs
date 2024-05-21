@@ -1,4 +1,4 @@
-# The `Connections` package
+The Connections package
 
 <a id="summary"></a>
 

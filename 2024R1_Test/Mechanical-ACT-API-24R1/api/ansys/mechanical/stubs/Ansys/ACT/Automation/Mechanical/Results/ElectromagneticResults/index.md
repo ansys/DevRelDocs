@@ -1,4 +1,4 @@
-# The `ElectromagneticResults` package
+# The ElectromagneticResults package
 
 <a id="summary"></a>
 

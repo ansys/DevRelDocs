@@ -1,4 +1,4 @@
-# The `MeshControls` package
+The MeshControls package
 
 <a id="summary"></a>
 

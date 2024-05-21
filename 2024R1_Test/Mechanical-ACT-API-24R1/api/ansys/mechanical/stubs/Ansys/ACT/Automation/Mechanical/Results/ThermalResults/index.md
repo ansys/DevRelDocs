@@ -1,4 +1,4 @@
-# The `ThermalResults` package
+# The ThermalResults package
 
 <a id="summary"></a>
 

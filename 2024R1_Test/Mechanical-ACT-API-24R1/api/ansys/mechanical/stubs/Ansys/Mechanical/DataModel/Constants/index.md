@@ -1,4 +1,4 @@
-# The `Constants` package
+# The Constants package
 
 <a id="summary"></a>
 

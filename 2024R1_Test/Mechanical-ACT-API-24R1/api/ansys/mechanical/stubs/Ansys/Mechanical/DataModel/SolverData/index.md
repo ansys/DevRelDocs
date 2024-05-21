@@ -1,4 +1,4 @@
-# The `SolverData` package
+# The SolverData package
 
 <a id="summary"></a>
 

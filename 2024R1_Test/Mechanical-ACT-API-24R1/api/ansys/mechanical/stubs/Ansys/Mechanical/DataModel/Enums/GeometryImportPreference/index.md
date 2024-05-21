@@ -1,4 +1,4 @@
-# The `GeometryImportPreference` package
+# The GeometryImportPreference package
 
 <a id="summary"></a>
 

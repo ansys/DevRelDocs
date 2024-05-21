@@ -1,4 +1,4 @@
-# The `Adapters` package
+# The Adapters package
 
 <a id="summary"></a>
 
