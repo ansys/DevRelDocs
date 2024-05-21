@@ -18,10 +18,10 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 | Name |
 | -------------------------------------------------------------------------------------------------------- |
-| [`Acceleration`](./../../../ACT/Automation/Mechanical/BoundaryConditions/Acceleration.md#Acceleration) |
-| [`Displacement`](./../../../ACT/Automation/Mechanical/BoundaryConditions/Displacement.md#Displacement) |
+| [`Acceleration`](../../../ACT/Automation/Mechanical/BoundaryConditions/Acceleration.md#Acceleration) |
+| [`Displacement`](../../../ACT/Automation/Mechanical/BoundaryConditions/Displacement.md#Displacement) |
 | [`OtherResult`](#CoreResultType.OtherResult) |
-| [`Velocity`](./../../../ACT/Automation/Mechanical/BoundaryConditions/Velocity.md#Velocity) |
+| [`Velocity`](../../../ACT/Automation/Mechanical/BoundaryConditions/Velocity.md#Velocity) |
 
 <a id="import-detail"></a>
 

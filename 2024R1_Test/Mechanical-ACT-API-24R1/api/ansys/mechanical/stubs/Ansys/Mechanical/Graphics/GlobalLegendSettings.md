@@ -37,7 +37,7 @@ from ansys.mechanical.stubs.Ansys.Mechanical.Graphics import GlobalLegendSetting
 
 <a id="GlobalLegendSettings.LegendOrientation"></a>
 
-### *property* GlobalLegendSettings.LegendOrientation *: [Ansys.Mechanical.DataModel.Enums.LegendOrientationType](./../DataModel/Enums/LegendOrientationType.md#LegendOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GlobalLegendSettings.LegendOrientation *: [Ansys.Mechanical.DataModel.Enums.LegendOrientationType](../DataModel/Enums/LegendOrientationType.md#LegendOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Whether the orientation of the legend.
 

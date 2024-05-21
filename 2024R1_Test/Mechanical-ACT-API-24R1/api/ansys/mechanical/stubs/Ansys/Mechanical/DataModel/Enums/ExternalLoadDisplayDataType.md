@@ -19,21 +19,21 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 | Name |
 | ------------------------------------------------------------------------------------------------------ |
 | [`ConvectionCoefficient`](#ExternalLoadDisplayDataType.ConvectionCoefficient) |
-| [`Displacement`](./../../../ACT/Automation/Mechanical/BoundaryConditions/Displacement.md#Displacement) |
-| [`Force`](./../../../ACT/Automation/Mechanical/BoundaryConditions/Force.md#Force) |
+| [`Displacement`](../../../ACT/Automation/Mechanical/BoundaryConditions/Displacement.md#Displacement) |
+| [`Force`](../../../ACT/Automation/Mechanical/BoundaryConditions/Force.md#Force) |
 | [`ForceDensity`](#ExternalLoadDisplayDataType.ForceDensity) |
-| [`HeatFlux`](./../../../ACT/Automation/Mechanical/BoundaryConditions/HeatFlux.md#HeatFlux) |
+| [`HeatFlux`](../../../ACT/Automation/Mechanical/BoundaryConditions/HeatFlux.md#HeatFlux) |
 | [`HeatGeneration`](#ExternalLoadDisplayDataType.HeatGeneration) |
 | [`MetalFraction`](#ExternalLoadDisplayDataType.MetalFraction) |
-| [`Pressure`](./../../../ACT/Automation/Mechanical/BoundaryConditions/Pressure.md#Pressure) |
+| [`Pressure`](../../../ACT/Automation/Mechanical/BoundaryConditions/Pressure.md#Pressure) |
 | [`Rotation`](#ExternalLoadDisplayDataType.Rotation) |
 | [`RotationPrincipals`](#ExternalLoadDisplayDataType.RotationPrincipals) |
 | [`Strain`](#ExternalLoadDisplayDataType.Strain) |
 | [`Stress`](#ExternalLoadDisplayDataType.Stress) |
-| [`Temperature`](./../../../ACT/Automation/Mechanical/BoundaryConditions/Temperature.md#Temperature) |
-| [`Thickness`](./../../../ACT/Automation/Mechanical/Thickness.md#Thickness) |
+| [`Temperature`](../../../ACT/Automation/Mechanical/BoundaryConditions/Temperature.md#Temperature) |
+| [`Thickness`](../../../ACT/Automation/Mechanical/Thickness.md#Thickness) |
 | [`Undefined`](#ExternalLoadDisplayDataType.Undefined) |
-| [`Velocity`](./../../../ACT/Automation/Mechanical/BoundaryConditions/Velocity.md#Velocity) |
+| [`Velocity`](../../../ACT/Automation/Mechanical/BoundaryConditions/Velocity.md#Velocity) |
 
 <a id="import-detail"></a>
 

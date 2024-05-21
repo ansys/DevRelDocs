@@ -18,8 +18,8 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 | Name |
 | --------------------------------------------------------------------------------------------------------------------------------- |
-| [`NodalForce`](./../../../ACT/Automation/Mechanical/BoundaryConditions/NodalForce.md#NodalForce) |
-| [`NormalGasketPressure`](./../../../ACT/Automation/Mechanical/Results/GasketResults/NormalGasketPressure.md#NormalGasketPressure) |
+| [`NodalForce`](../../../ACT/Automation/Mechanical/BoundaryConditions/NodalForce.md#NodalForce) |
+| [`NormalGasketPressure`](../../../ACT/Automation/Mechanical/Results/GasketResults/NormalGasketPressure.md#NormalGasketPressure) |
 
 <a id="import-detail"></a>
 

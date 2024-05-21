@@ -19,7 +19,7 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 | Name |
 | -------------------------------------------------------------- |
 | [`Label`](#ScopeType.Label) |
-| [`Part`](./../../../../ACT/Automation/Mechanical/Part.md#Part) |
+| [`Part`](../../../../ACT/Automation/Mechanical/Part.md#Part) |
 | [`Zone`](#ScopeType.Zone) |
 
 <a id="import-detail"></a>

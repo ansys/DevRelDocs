@@ -49,7 +49,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Results`](#ContactDistanceProbe.Results)                                                                                | Gets the Results.                                                                                                                                                          |
 | [`MaximumValueOverTime`](#ContactDistanceProbe.MaximumValueOverTime)                                                      | Gets the MaximumValueOverTime.                                                                                                                                             |
 | [`MinimumValueOverTime`](#ContactDistanceProbe.MinimumValueOverTime)                                                      | Gets the MinimumValueOverTime.                                                                                                                                             |
-| [`DataModelObjectCategory`](./../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                                                                                                               |
+| [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                                                                                                               |
 | [`Summation`](#ContactDistanceProbe.Summation)                                                                            | Gets or sets the Summation.                                                                                                                                                |
 | [`LocationMethod`](#ContactDistanceProbe.LocationMethod)                                                                  | Gets or sets the LocationMethod.                                                                                                                                           |
 | [`GeometryLocation`](#ContactDistanceProbe.GeometryLocation)                                                              | Gets or sets the GeometryLocation.                                                                                                                                         |
@@ -140,7 +140,7 @@ Gets the MinimumValueOverTime.
 
 <a id="ContactDistanceProbe.DataModelObjectCategory"></a>
 
-### *property* ContactDistanceProbe.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactDistanceProbe.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -148,7 +148,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ContactDistanceProbe.Summation"></a>
 
-### *property* ContactDistanceProbe.Summation *: [Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType](./../../../../../Mechanical/DataModel/Enums/MomentsAtSummationPointType.md#MomentsAtSummationPointType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactDistanceProbe.Summation *: [Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType](../../../../../Mechanical/DataModel/Enums/MomentsAtSummationPointType.md#MomentsAtSummationPointType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Summation.
 
@@ -156,7 +156,7 @@ Gets or sets the Summation.
 
 <a id="ContactDistanceProbe.LocationMethod"></a>
 
-### *property* ContactDistanceProbe.LocationMethod *: [Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod](./../../../../../Mechanical/DataModel/Enums/LocationDefinitionMethod.md#LocationDefinitionMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactDistanceProbe.LocationMethod *: [Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod](../../../../../Mechanical/DataModel/Enums/LocationDefinitionMethod.md#LocationDefinitionMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LocationMethod.
 
@@ -172,7 +172,7 @@ Gets or sets the GeometryLocation.
 
 <a id="ContactDistanceProbe.CoordinateSystemSelection"></a>
 
-### *property* ContactDistanceProbe.CoordinateSystemSelection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactDistanceProbe.CoordinateSystemSelection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystemSelection.
 
@@ -188,7 +188,7 @@ Gets or sets the BoundaryConditionSelection. In order to select the option ‘We
 
 <a id="ContactDistanceProbe.ContactRegionSelection"></a>
 
-### *property* ContactDistanceProbe.ContactRegionSelection *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](./../../Connections/ContactRegion.md#ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactDistanceProbe.ContactRegionSelection *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../Connections/ContactRegion.md#ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactRegionSelection.
 
@@ -196,7 +196,7 @@ Gets or sets the ContactRegionSelection.
 
 <a id="ContactDistanceProbe.RemotePointSelection"></a>
 
-### *property* ContactDistanceProbe.RemotePointSelection *: [Ansys.ACT.Automation.Mechanical.RemotePoint](./../../RemotePoint.md#RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactDistanceProbe.RemotePointSelection *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../../RemotePoint.md#RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RemotePointSelection.
 
@@ -204,7 +204,7 @@ Gets or sets the RemotePointSelection.
 
 <a id="ContactDistanceProbe.BeamSelection"></a>
 
-### *property* ContactDistanceProbe.BeamSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Beam](./../../Connections/Beam.md#Beam) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactDistanceProbe.BeamSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Beam](../../Connections/Beam.md#Beam) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BeamSelection.
 
@@ -212,7 +212,7 @@ Gets or sets the BeamSelection.
 
 <a id="ContactDistanceProbe.MeshConnectionSelection"></a>
 
-### *property* ContactDistanceProbe.MeshConnectionSelection *: [Ansys.ACT.Automation.Mechanical.MeshConnection](./../../MeshConnection.md#MeshConnection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactDistanceProbe.MeshConnectionSelection *: [Ansys.ACT.Automation.Mechanical.MeshConnection](../../MeshConnection.md#MeshConnection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MeshConnectionSelection.
 
@@ -220,7 +220,7 @@ Gets or sets the MeshConnectionSelection.
 
 <a id="ContactDistanceProbe.SurfaceSelection"></a>
 
-### *property* ContactDistanceProbe.SurfaceSelection *: [Ansys.ACT.Automation.Mechanical.Surface](./../../Surface.md#Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactDistanceProbe.SurfaceSelection *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MeshConnectionSelection.
 
@@ -228,7 +228,7 @@ Gets or sets the MeshConnectionSelection.
 
 <a id="ContactDistanceProbe.SpringSelection"></a>
 
-### *property* ContactDistanceProbe.SpringSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](./../../Connections/Spring.md#Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactDistanceProbe.SpringSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../Connections/Spring.md#Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SpringSelection.
 
@@ -244,7 +244,7 @@ Gets the IsSolved.
 
 <a id="ContactDistanceProbe.Orientation"></a>
 
-### *property* ContactDistanceProbe.Orientation *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactDistanceProbe.Orientation *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordinate System.
 
@@ -396,7 +396,7 @@ Gets the ZAxis.
 
 <a id="ContactDistanceProbe.ResultSelection"></a>
 
-### *property* ContactDistanceProbe.ResultSelection *: [Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter](./../../../../../Mechanical/DataModel/Enums/ProbeDisplayFilter.md#ProbeDisplayFilter) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactDistanceProbe.ResultSelection *: [Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter](../../../../../Mechanical/DataModel/Enums/ProbeDisplayFilter.md#ProbeDisplayFilter) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ResultSelection.
 
@@ -404,7 +404,7 @@ Gets or sets the ResultSelection.
 
 <a id="ContactDistanceProbe.SpatialResolution"></a>
 
-### *property* ContactDistanceProbe.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum](./../../../../../Mechanical/DataModel/Enums/MinimumOrMaximum.md#MinimumOrMaximum) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactDistanceProbe.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum](../../../../../Mechanical/DataModel/Enums/MinimumOrMaximum.md#MinimumOrMaximum) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SpatialResolution.
 
@@ -412,7 +412,7 @@ Gets or sets the SpatialResolution.
 
 <a id="ContactDistanceProbe.Type"></a>
 
-### *property* ContactDistanceProbe.Type *: [Ansys.Mechanical.DataModel.Enums.ProbeResultType](./../../../../../Mechanical/DataModel/Enums/ProbeResultType.md#ProbeResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactDistanceProbe.Type *: [Ansys.Mechanical.DataModel.Enums.ProbeResultType](../../../../../Mechanical/DataModel/Enums/ProbeResultType.md#ProbeResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Type.
 
@@ -420,7 +420,7 @@ Gets the Type.
 
 <a id="ContactDistanceProbe.DpfEvaluation"></a>
 
-### *property* ContactDistanceProbe.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](./../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactDistanceProbe.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DpfEvaluation.
 
@@ -444,7 +444,7 @@ Gets the list of children.
 
 <a id="ContactDistanceProbe.Comments"></a>
 
-### *property* ContactDistanceProbe.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactDistanceProbe.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -452,7 +452,7 @@ Gets the list of associated comments.
 
 <a id="ContactDistanceProbe.Figures"></a>
 
-### *property* ContactDistanceProbe.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactDistanceProbe.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -460,7 +460,7 @@ Gets the list of associated figures.
 
 <a id="ContactDistanceProbe.Images"></a>
 
-### *property* ContactDistanceProbe.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactDistanceProbe.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -496,7 +496,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="ContactDistanceProbe.ExportAnimation"></a>
 
-### ContactDistanceProbe.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](./../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](./../../../../../Mechanical/Graphics/AnimationExportSettings.md#AnimationExportSettings))
+### ContactDistanceProbe.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -560,7 +560,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### ContactDistanceProbe.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### ContactDistanceProbe.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

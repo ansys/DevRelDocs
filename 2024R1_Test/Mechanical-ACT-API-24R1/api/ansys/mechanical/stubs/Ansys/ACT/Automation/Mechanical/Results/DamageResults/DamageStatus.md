@@ -51,11 +51,11 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](./../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
 | [`Mode`](#DamageStatus.Mode)                                                                                              | Gets or sets the Mode.                                                 |
 | [`Ply`](#DamageStatus.Ply)                                                                                                | Gets or sets the Ply selection.                                        |
 | [`Plies`](#DamageStatus.Plies)                                                                                            | Plies property.                                                        |
-| [`DamageResultType`](./../../../../../Mechanical/DataModel/Enums/DamageResultType.md#DamageResultType)                      | Gets the DamageResultType.                                             |
+| [`DamageResultType`](../../../../../Mechanical/DataModel/Enums/DamageResultType.md#DamageResultType)                      | Gets the DamageResultType.                                             |
 | [`PlotData`](#DamageStatus.PlotData)                                                                                      | Gets the result table.                                                 |
 | [`Location`](#DamageStatus.Location)                                                                                      | Gets or sets the Location.                                             |
 | [`TimeForMinimumOfMinimumValues`](#DamageStatus.TimeForMinimumOfMinimumValues)                                            | Get the Time for the minimum of minimum values.                        |
@@ -67,14 +67,14 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`LoadStepForMaximumOfMinimumValues`](#DamageStatus.LoadStepForMaximumOfMinimumValues)                                    | Get the Load Step for the maximum of minimum values.                   |
 | [`LoadStepForMaximumOfMaximumValues`](#DamageStatus.LoadStepForMaximumOfMaximumValues)                                    | Get the Load Step for the maximum of maximum values.                   |
 | [`IsSolved`](#DamageStatus.IsSolved)                                                                                      | Gets the IsSolved.                                                     |
-| [`CoordinateSystem`](./../../../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the Coordinate System.                                    |
+| [`CoordinateSystem`](../../../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the Coordinate System.                                    |
 | [`ScopingMethod`](#DamageStatus.ScopingMethod)                                                                            | Gets or sets the ScopingMethod.                                        |
 | [`SetNumber`](#DamageStatus.SetNumber)                                                                                    | Gets or sets the Set Number.                                           |
 | [`CombinationNumber`](#DamageStatus.CombinationNumber)                                                                    | Gets or sets the Combination Number for a Solution Combination result. |
 | [`SolutionCombinationDriver`](#DamageStatus.SolutionCombinationDriver)                                                    | Gets or sets the SolutionCombinationDriver.                            |
-| [`Path`](./../../Path.md#Path)                                                                                              | Path property.                                                         |
-| [`Surface`](./../../Surface.md#Surface)                                                                                     | Surface property.                                                      |
-| [`NamedSelections`](./../../NamedSelections.md#NamedSelections)                                                             | Gets or sets the NamedSelections.                                      |
+| [`Path`](../../Path.md#Path)                                                                                              | Path property.                                                         |
+| [`Surface`](../../Surface.md#Surface)                                                                                     | Surface property.                                                      |
+| [`NamedSelections`](../../NamedSelections.md#NamedSelections)                                                             | Gets or sets the NamedSelections.                                      |
 | [`WaterfallPanelShowTextOnMosaic`](#DamageStatus.WaterfallPanelShowTextOnMosaic)                                          | Gets or sets the Waterfall Panel Mosaic Text Property.                 |
 | [`CrackFrontNumber`](#DamageStatus.CrackFrontNumber)                                                                      | Gets or sets the CrackFrontNumber.                                     |
 | [`GlobalIDs`](#DamageStatus.GlobalIDs)                                                                                    | Gets or sets the GlobalIDs.                                            |
@@ -95,7 +95,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`MinimumOfMinimumOverTime`](#DamageStatus.MinimumOfMinimumOverTime)                                                      | Gets the MinimumOfMinimumOverTime.                                     |
 | [`Time`](#DamageStatus.Time)                                                                                              | Gets the Time.                                                         |
 | [`DisplayTime`](#DamageStatus.DisplayTime)                                                                                | Gets or sets the DisplayTime.                                          |
-| [`GraphControlsXAxis`](./../../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#GraphControlsXAxis)                | Gets or sets the GraphControlsXAxis.                                   |
+| [`GraphControlsXAxis`](../../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#GraphControlsXAxis)                | Gets or sets the GraphControlsXAxis.                                   |
 | [`DisplayOption`](#DamageStatus.DisplayOption)                                                                            | Gets or sets the DisplayOption.                                        |
 | [`DpfEvaluation`](#DamageStatus.DpfEvaluation)                                                                            | Gets or sets the DpfEvaluation.                                        |
 | [`By`](#DamageStatus.By)                                                                                                  | Gets or sets the By.                                                   |
@@ -132,7 +132,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="DamageStatus.DataModelObjectCategory"></a>
 
-### *property* DamageStatus.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DamageStatus.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -148,7 +148,7 @@ Gets or sets the Mode.
 
 <a id="DamageStatus.Ply"></a>
 
-### *property* DamageStatus.Ply *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](./../../AnalysisPly.md#AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DamageStatus.Ply *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../AnalysisPly.md#AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Ply selection.
 
@@ -156,7 +156,7 @@ Gets or sets the Ply selection.
 
 <a id="DamageStatus.Plies"></a>
 
-### *property* DamageStatus.Plies *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](./../../ImportedPliesCollection.md#ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DamageStatus.Plies *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](../../ImportedPliesCollection.md#ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Plies property.
 
@@ -164,7 +164,7 @@ Plies property.
 
 <a id="DamageStatus.DamageResultType"></a>
 
-### *property* DamageStatus.DamageResultType *: [Ansys.Mechanical.DataModel.Enums.DamageResultType](./../../../../../Mechanical/DataModel/Enums/DamageResultType.md#DamageResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DamageStatus.DamageResultType *: [Ansys.Mechanical.DataModel.Enums.DamageResultType](../../../../../Mechanical/DataModel/Enums/DamageResultType.md#DamageResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the DamageResultType.
 
@@ -172,7 +172,7 @@ Gets the DamageResultType.
 
 <a id="DamageStatus.PlotData"></a>
 
-### *property* DamageStatus.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](./../../../../../Mechanical/DataModel/Results/ResultDataTable.md#ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DamageStatus.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../Mechanical/DataModel/Results/ResultDataTable.md#ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the result table.
 
@@ -260,7 +260,7 @@ Gets the IsSolved.
 
 <a id="DamageStatus.CoordinateSystem"></a>
 
-### *property* DamageStatus.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DamageStatus.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -270,7 +270,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="DamageStatus.ScopingMethod"></a>
 
-### *property* DamageStatus.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](./../../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DamageStatus.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -294,7 +294,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="DamageStatus.SolutionCombinationDriver"></a>
 
-### *property* DamageStatus.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](./../../../../../Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DamageStatus.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolutionCombinationDriver.
 
@@ -302,7 +302,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="DamageStatus.Path"></a>
 
-### *property* DamageStatus.Path *: [Ansys.ACT.Automation.Mechanical.Path](./../../Path.md#Path) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DamageStatus.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../Path.md#Path) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Path property.
 
@@ -310,7 +310,7 @@ Path property.
 
 <a id="DamageStatus.Surface"></a>
 
-### *property* DamageStatus.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](./../../Surface.md#Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DamageStatus.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Surface property.
 
@@ -486,7 +486,7 @@ Gets or sets the DisplayTime.
 
 <a id="DamageStatus.GraphControlsXAxis"></a>
 
-### *property* DamageStatus.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](./../../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DamageStatus.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GraphControlsXAxis.
 
@@ -494,7 +494,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="DamageStatus.DisplayOption"></a>
 
-### *property* DamageStatus.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](./../../../../../Mechanical/DataModel/Enums/ResultAveragingType.md#ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DamageStatus.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../Mechanical/DataModel/Enums/ResultAveragingType.md#ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DisplayOption.
 
@@ -502,7 +502,7 @@ Gets or sets the DisplayOption.
 
 <a id="DamageStatus.DpfEvaluation"></a>
 
-### *property* DamageStatus.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](./../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DamageStatus.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DpfEvaluation.
 
@@ -510,7 +510,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="DamageStatus.By"></a>
 
-### *property* DamageStatus.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](./../../../../../Mechanical/DataModel/Enums/SetDriverStyle.md#SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DamageStatus.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../Mechanical/DataModel/Enums/SetDriverStyle.md#SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the By.
 
@@ -518,7 +518,7 @@ Gets or sets the By.
 
 <a id="DamageStatus.ItemType"></a>
 
-### *property* DamageStatus.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](./../../../../../Mechanical/DataModel/Enums/ResultFileItemType.md#ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DamageStatus.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../Mechanical/DataModel/Enums/ResultFileItemType.md#ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ItemType.
 
@@ -550,7 +550,7 @@ Gets the list of children.
 
 <a id="DamageStatus.Comments"></a>
 
-### *property* DamageStatus.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DamageStatus.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -558,7 +558,7 @@ Gets the list of associated comments.
 
 <a id="DamageStatus.Figures"></a>
 
-### *property* DamageStatus.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DamageStatus.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -566,7 +566,7 @@ Gets the list of associated figures.
 
 <a id="DamageStatus.Images"></a>
 
-### *property* DamageStatus.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DamageStatus.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -634,7 +634,7 @@ Run the ExportToTextFile action.
 
 <a id="DamageStatus.ExportAnimation"></a>
 
-### DamageStatus.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](./../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](./../../../../../Mechanical/Graphics/AnimationExportSettings.md#AnimationExportSettings))
+### DamageStatus.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -714,7 +714,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### DamageStatus.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### DamageStatus.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

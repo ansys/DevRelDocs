@@ -40,9 +40,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`OperationType`](./../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/OperationType.md#OperationType)        | Returns the type of the operation. .                          |
+| [`OperationType`](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/OperationType.md#OperationType)        | Returns the type of the operation. .                          |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#MeshWorkflowStep.Children)                                                                            | Gets the list of children.                                    |
 | [`Figures`](#MeshWorkflowStep.Figures)                                                                              | Gets the list of associated figures.                          |
 | [`Images`](#MeshWorkflowStep.Images)                                                                                | Gets the list of associated images.                           |
@@ -64,7 +64,7 @@ from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical import MeshWorkflowS
 
 <a id="MeshWorkflowStep.OperationType"></a>
 
-### *property* MeshWorkflowStep.OperationType *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.OperationType](./../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/OperationType.md#OperationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowStep.OperationType *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.OperationType](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/OperationType.md#OperationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Returns the type of the operation. .
 
@@ -80,7 +80,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="MeshWorkflowStep.DataModelObjectCategory"></a>
 
-### *property* MeshWorkflowStep.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowStep.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -148,7 +148,7 @@ Run the Delete action.
 
 <a id="MeshWorkflowStep.AddControl"></a>
 
-### MeshWorkflowStep.AddControl(type: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ControlType](./../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ControlType.md#ControlType))
+### MeshWorkflowStep.AddControl(type: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ControlType](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ControlType.md#ControlType))
 
 Adds a MeshWorkflowControl node as child node of the “Step” tree node. This control node can be created under any step node. This node is created to set properties that are required for executing an operation.
 
@@ -156,7 +156,7 @@ Adds a MeshWorkflowControl node as child node of the “Step” tree node. This 
 
 <a id="MeshWorkflowStep.AddOutcome"></a>
 
-### MeshWorkflowStep.AddOutcome(type: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.OutcomeType](./../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/OutcomeType.md#OutcomeType))
+### MeshWorkflowStep.AddOutcome(type: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.OutcomeType](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/OutcomeType.md#OutcomeType))
 
 Adds a MeshWorkflowOutcome node as child node of the “Step” tree node. This outcome node can be created under any step node. This node is created to see the results after executing an operation.
 
@@ -172,7 +172,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### MeshWorkflowStep.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### MeshWorkflowStep.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

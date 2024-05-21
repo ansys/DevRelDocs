@@ -54,21 +54,21 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`FaceTopNodes`](#Crack.FaceTopNodes)                                                                               | Gets or sets the FaceTopNodes.                                |
 | [`Target1Nodes`](#Crack.Target1Nodes)                                                                               | Gets or sets the Target1Nodes.                                |
 | [`FractureAffectedZoneHeight`](#Crack.FractureAffectedZoneHeight)                                                   | Gets or sets the FractureAffectedZoneHeight.                  |
-| [`FractureAffectedZone`](./../../../Mechanical/DataModel/Enums/FractureAffectedZone.md#FractureAffectedZone)          | Gets or sets the FractureAffectedZone.                        |
+| [`FractureAffectedZone`](../../../Mechanical/DataModel/Enums/FractureAffectedZone.md#FractureAffectedZone)          | Gets or sets the FractureAffectedZone.                        |
 | [`LargestContourRadius`](#Crack.LargestContourRadius)                                                               | Gets or sets the LargestContourRadius.                        |
 | [`MajorRadius`](#Crack.MajorRadius)                                                                                 | Gets or sets the MajorRadius.                                 |
 | [`MinorRadius`](#Crack.MinorRadius)                                                                                 | Gets or sets the MinorRadius.                                 |
 | [`CrackShape`](#Crack.CrackShape)                                                                                   | Gets the CrackShape.                                          |
-| [`CrackSourceType`](./../../../Mechanical/DataModel/Enums/CrackSourceType.md#CrackSourceType)                         | Gets the CrackSourceType.                                     |
+| [`CrackSourceType`](../../../Mechanical/DataModel/Enums/CrackSourceType.md#CrackSourceType)                         | Gets the CrackSourceType.                                     |
 | [`AlignWithFaceNormal`](#Crack.AlignWithFaceNormal)                                                                 | Gets or sets the AlignWithFaceNormal.                         |
 | [`ProjectToNearestSurface`](#Crack.ProjectToNearestSurface)                                                         | Gets or sets the ProjectToNearestSurface.                     |
 | [`ContactPairsNodes`](#Crack.ContactPairsNodes)                                                                     | Gets or sets the ContactPairsNodes.                           |
 | [`CrackFacesNodes`](#Crack.CrackFacesNodes)                                                                         | Gets or sets the CrackFacesNodes.                             |
 | [`Suppressed`](#Crack.Suppressed)                                                                                   | Gets or sets the Suppressed.                                  |
-| [`CoordinateSystem`](./../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
+| [`CoordinateSystem`](../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
 | [`Location`](#Crack.Location)                                                                                       | Gets the Location.                                            |
 | [`CrackID`](#Crack.CrackID)                                                                                         | Gets the CrackID.                                             |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#Crack.Children)                                                                                       | Gets the list of children.                                    |
 | [`Comments`](#Crack.Comments)                                                                                       | Gets the list of associated comments.                         |
 | [`Figures`](#Crack.Figures)                                                                                         | Gets the list of associated figures.                          |
@@ -236,7 +236,7 @@ Gets or sets the MinorRadius.
 
 <a id="Crack.CrackShape"></a>
 
-### *property* Crack.CrackShape *: [Ansys.Mechanical.DataModel.Enums.CrackShapeType](./../../../Mechanical/DataModel/Enums/CrackShapeType.md#CrackShapeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Crack.CrackShape *: [Ansys.Mechanical.DataModel.Enums.CrackShapeType](../../../Mechanical/DataModel/Enums/CrackShapeType.md#CrackShapeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the CrackShape.
 
@@ -244,7 +244,7 @@ Gets the CrackShape.
 
 <a id="Crack.CrackSourceType"></a>
 
-### *property* Crack.CrackSourceType *: [Ansys.Mechanical.DataModel.Enums.CrackSourceType](./../../../Mechanical/DataModel/Enums/CrackSourceType.md#CrackSourceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Crack.CrackSourceType *: [Ansys.Mechanical.DataModel.Enums.CrackSourceType](../../../Mechanical/DataModel/Enums/CrackSourceType.md#CrackSourceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the CrackSourceType.
 
@@ -316,7 +316,7 @@ Gets the CrackID.
 
 <a id="Crack.DataModelObjectCategory"></a>
 
-### *property* Crack.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Crack.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -416,7 +416,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### Crack.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### Crack.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

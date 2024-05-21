@@ -19,7 +19,7 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 | Name |
 | ----------------------------------------------------------------------- |
 | [`All`](#FEConnectionDisplay.All) |
-| [`Beam`](./../../../ACT/Automation/Mechanical/Connections/Beam.md#Beam) |
+| [`Beam`](../../../ACT/Automation/Mechanical/Connections/Beam.md#Beam) |
 | [`CE`](#FEConnectionDisplay.CE) |
 | [`Cyclic`](#FEConnectionDisplay.Cyclic) |
 | [`None_`](#FEConnectionDisplay.None_) |

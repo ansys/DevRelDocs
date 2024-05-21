@@ -50,7 +50,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`TargetAnchorsNamedSelection`](#MeshCopy.TargetAnchorsNamedSelection)                                                 | Gets or sets the TargetAnchorsNamedSelection.                 |
 | [`SourceAnchors`](#MeshCopy.SourceAnchors)                                                                             | Gets or sets the SourceAnchors.                               |
 | [`TargetAnchors`](#MeshCopy.TargetAnchors)                                                                             | Gets or sets the TargetAnchors.                               |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`ScopingMethod`](#MeshCopy.ScopingMethod)                                                                             | Gets or sets the ScopingMethod.                               |
 | [`Suppressed`](#MeshCopy.Suppressed)                                                                                   | Gets or sets the Suppressed.                                  |
 | [`Children`](#MeshCopy.Children)                                                                                       | Gets the list of children.                                    |
@@ -99,7 +99,7 @@ Gets or sets the PercentageOfElementSize.
 
 <a id="MeshCopy.NodeMergeToleranceOption"></a>
 
-### *property* MeshCopy.NodeMergeToleranceOption *: [Ansys.Mechanical.DataModel.Enums.NodeMergeToleranceMethod](./../../../../Mechanical/DataModel/Enums/NodeMergeToleranceMethod.md#NodeMergeToleranceMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshCopy.NodeMergeToleranceOption *: [Ansys.Mechanical.DataModel.Enums.NodeMergeToleranceMethod](../../../../Mechanical/DataModel/Enums/NodeMergeToleranceMethod.md#NodeMergeToleranceMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NodeMergeToleranceOption.
 
@@ -107,7 +107,7 @@ Gets or sets the NodeMergeToleranceOption.
 
 <a id="MeshCopy.TargetScoping"></a>
 
-### *property* MeshCopy.TargetScoping *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](./../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshCopy.TargetScoping *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TargetScoping.
 
@@ -115,7 +115,7 @@ Gets or sets the TargetScoping.
 
 <a id="MeshCopy.SourceAnchorsNamedSelection"></a>
 
-### *property* MeshCopy.SourceAnchorsNamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](./../NamedSelection.md#NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshCopy.SourceAnchorsNamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../NamedSelection.md#NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SourceAnchorsNamedSelection.
 
@@ -123,7 +123,7 @@ Gets or sets the SourceAnchorsNamedSelection.
 
 <a id="MeshCopy.TargetAnchorsNamedSelection"></a>
 
-### *property* MeshCopy.TargetAnchorsNamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](./../NamedSelection.md#NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshCopy.TargetAnchorsNamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../NamedSelection.md#NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TargetAnchorsNamedSelection.
 
@@ -147,7 +147,7 @@ Gets or sets the TargetAnchors.
 
 <a id="MeshCopy.DataModelObjectCategory"></a>
 
-### *property* MeshCopy.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshCopy.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -155,7 +155,7 @@ Gets the current DataModelObject’s category.
 
 <a id="MeshCopy.ScopingMethod"></a>
 
-### *property* MeshCopy.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](./../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshCopy.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -179,7 +179,7 @@ Gets the list of children.
 
 <a id="MeshCopy.Comments"></a>
 
-### *property* MeshCopy.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshCopy.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -187,7 +187,7 @@ Gets the list of associated comments.
 
 <a id="MeshCopy.Figures"></a>
 
-### *property* MeshCopy.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshCopy.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -195,7 +195,7 @@ Gets the list of associated figures.
 
 <a id="MeshCopy.Images"></a>
 
-### *property* MeshCopy.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshCopy.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -263,7 +263,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### MeshCopy.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### MeshCopy.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

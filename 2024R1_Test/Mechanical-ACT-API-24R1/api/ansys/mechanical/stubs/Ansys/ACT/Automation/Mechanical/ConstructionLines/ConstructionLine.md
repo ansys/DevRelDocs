@@ -52,7 +52,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Points`](#ConstructionLine.Points)                                                                                   | Returns all points in this Construction Line, both those that have been created        |
 | [`Planes`](#ConstructionLine.Planes)                                                                                   | Creates for the user an Plane representation of each plane in this Construction Line.  |
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.                                     |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                           |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                           |
 | [`Comments`](#ConstructionLine.Comments)                                                                               | Gets the list of associated comments.                                                  |
 | [`Figures`](#ConstructionLine.Figures)                                                                                 | Gets the list of associated figures.                                                   |
 | [`Images`](#ConstructionLine.Images)                                                                                   | Gets the list of associated images.                                                    |
@@ -108,7 +108,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ConstructionLine.DataModelObjectCategory"></a>
 
-### *property* ConstructionLine.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConstructionLine.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -116,7 +116,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ConstructionLine.Comments"></a>
 
-### *property* ConstructionLine.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConstructionLine.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -124,7 +124,7 @@ Gets the list of associated comments.
 
 <a id="ConstructionLine.Figures"></a>
 
-### *property* ConstructionLine.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConstructionLine.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -132,7 +132,7 @@ Gets the list of associated figures.
 
 <a id="ConstructionLine.Images"></a>
 
-### *property* ConstructionLine.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConstructionLine.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -184,7 +184,7 @@ CreatePoints method.
 
 <a id="ConstructionLine.CreatePlanarPoints"></a>
 
-### ConstructionLine.CreatePlanarPoints(plane: [Ansys.Mechanical.DataModel.ConstructionLines.Plane](./../../../../Mechanical/DataModel/ConstructionLines/Plane.md#Plane), pointDefinitionCollection: System.Collections.Generic.IEnumerable[System.Object])
+### ConstructionLine.CreatePlanarPoints(plane: [Ansys.Mechanical.DataModel.ConstructionLines.Plane](../../../../Mechanical/DataModel/ConstructionLines/Plane.md#Plane), pointDefinitionCollection: System.Collections.Generic.IEnumerable[System.Object])
 
 CreatePlanarPoints method.
 
@@ -200,7 +200,7 @@ Create a plane.
 
 <a id="ConstructionLine.CreateStraightLines"></a>
 
-### ConstructionLine.CreateStraightLines(pointCollection: System.Collections.Generic.IEnumerable[[Ansys.Mechanical.DataModel.ConstructionLines.Point](./../../../../Mechanical/DataModel/ConstructionLines/Point.md#Point)])
+### ConstructionLine.CreateStraightLines(pointCollection: System.Collections.Generic.IEnumerable[[Ansys.Mechanical.DataModel.ConstructionLines.Point](../../../../Mechanical/DataModel/ConstructionLines/Point.md#Point)])
 
 CreateStraightLines method.
 
@@ -208,7 +208,7 @@ CreateStraightLines method.
 
 <a id="id1"></a>
 
-### ConstructionLine.CreateStraightLines(pointCollection: System.Collections.Generic.IEnumerable[[Ansys.Mechanical.DataModel.ConstructionLines.Point](./../../../../Mechanical/DataModel/ConstructionLines/Point.md#Point)], connectionCollection: System.Collections.Generic.IEnumerable[System.Collections.Generic.IEnumerable[System.Object]])
+### ConstructionLine.CreateStraightLines(pointCollection: System.Collections.Generic.IEnumerable[[Ansys.Mechanical.DataModel.ConstructionLines.Point](../../../../Mechanical/DataModel/ConstructionLines/Point.md#Point)], connectionCollection: System.Collections.Generic.IEnumerable[System.Collections.Generic.IEnumerable[System.Object]])
 
 CreateStraightLines method.
 
@@ -216,7 +216,7 @@ CreateStraightLines method.
 
 <a id="ConstructionLine.FlipEdges"></a>
 
-### ConstructionLine.FlipEdges(edgesToFlip: System.Collections.Generic.IEnumerable[[Ansys.Mechanical.DataModel.ConstructionLines.Edges.IEdge](./../../../../Mechanical/DataModel/ConstructionLines/Edges/IEdge.md#IEdge)])
+### ConstructionLine.FlipEdges(edgesToFlip: System.Collections.Generic.IEnumerable[[Ansys.Mechanical.DataModel.ConstructionLines.Edges.IEdge](../../../../Mechanical/DataModel/ConstructionLines/Edges/IEdge.md#IEdge)])
 
 FlipEdges method.
 
@@ -224,7 +224,7 @@ FlipEdges method.
 
 <a id="ConstructionLine.DeleteEdges"></a>
 
-### ConstructionLine.DeleteEdges(edgeCollection: System.Collections.Generic.IEnumerable[[Ansys.Mechanical.DataModel.ConstructionLines.Edges.IEdge](./../../../../Mechanical/DataModel/ConstructionLines/Edges/IEdge.md#IEdge)])
+### ConstructionLine.DeleteEdges(edgeCollection: System.Collections.Generic.IEnumerable[[Ansys.Mechanical.DataModel.ConstructionLines.Edges.IEdge](../../../../Mechanical/DataModel/ConstructionLines/Edges/IEdge.md#IEdge)])
 
 DeleteEdges method.
 
@@ -232,7 +232,7 @@ DeleteEdges method.
 
 <a id="ConstructionLine.DeletePlane"></a>
 
-### ConstructionLine.DeletePlane(plane: [Ansys.Mechanical.DataModel.ConstructionLines.Plane](./../../../../Mechanical/DataModel/ConstructionLines/Plane.md#Plane), forceDelete: System.Boolean)
+### ConstructionLine.DeletePlane(plane: [Ansys.Mechanical.DataModel.ConstructionLines.Plane](../../../../Mechanical/DataModel/ConstructionLines/Plane.md#Plane), forceDelete: System.Boolean)
 
 Delete a plane associated with this construction line.
 

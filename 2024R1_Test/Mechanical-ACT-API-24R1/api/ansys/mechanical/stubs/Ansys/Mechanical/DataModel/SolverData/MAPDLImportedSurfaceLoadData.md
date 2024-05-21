@@ -40,7 +40,7 @@ from ansys.mechanical.stubs.Ansys.Mechanical.DataModel.SolverData import MAPDLIm
 
 <a id="MAPDLImportedSurfaceLoadData.LoadTypes"></a>
 
-### *property* MAPDLImportedSurfaceLoadData.LoadTypes *: System.Collections.Generic.IEnumerable[[Ansys.Mechanical.DataModel.Enums.ExternalModel.ImportedSurfaceLoadType](./../Enums/ExternalModel/ImportedSurfaceLoadType.md#ImportedSurfaceLoadType)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MAPDLImportedSurfaceLoadData.LoadTypes *: System.Collections.Generic.IEnumerable[[Ansys.Mechanical.DataModel.Enums.ExternalModel.ImportedSurfaceLoadType](../Enums/ExternalModel/ImportedSurfaceLoadType.md#ImportedSurfaceLoadType)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the load types present in the row.
 
@@ -52,7 +52,7 @@ Gets the load types present in the row.
 
 <a id="MAPDLImportedSurfaceLoadData.GetSurfaceEffectElementTypeId"></a>
 
-### MAPDLImportedSurfaceLoadData.GetSurfaceEffectElementTypeId(eType: [Ansys.Mechanical.DataModel.Enums.ExternalModel.ImportedSurfaceLoadType](./../Enums/ExternalModel/ImportedSurfaceLoadType.md#ImportedSurfaceLoadType))
+### MAPDLImportedSurfaceLoadData.GetSurfaceEffectElementTypeId(eType: [Ansys.Mechanical.DataModel.Enums.ExternalModel.ImportedSurfaceLoadType](../Enums/ExternalModel/ImportedSurfaceLoadType.md#ImportedSurfaceLoadType))
 
 Gets the SurfaceEffectElementTypeId for the requested load type present in the row
 

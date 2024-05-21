@@ -62,7 +62,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`MeshUsingVoxelization`](#AMProcess.MeshUsingVoxelization)                                                            | Gets or sets the MeshUsingVoxelization.                                    |
 | [`BaseGeometry`](#AMProcess.BaseGeometry)                                                                              | Gets or sets the BaseGeometry.                                             |
 | [`PartGeometry`](#AMProcess.PartGeometry)                                                                              | Gets or sets the PartGeometry.                                             |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                               |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                               |
 | [`Children`](#AMProcess.Children)                                                                                      | Gets the list of children.                                                 |
 | [`Comments`](#AMProcess.Comments)                                                                                      | Gets the list of associated comments.                                      |
 | [`Figures`](#AMProcess.Figures)                                                                                        | Gets the list of associated figures.                                       |
@@ -133,7 +133,7 @@ Gets or sets the WallThickness.
 
 <a id="AMProcess.LengthUnits"></a>
 
-### *property* AMProcess.LengthUnits *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](./../../../../Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMProcess.LengthUnits *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](../../../../Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LengthUnits.
 
@@ -173,7 +173,7 @@ Gets or sets the PartGeometry.
 
 <a id="AMProcess.DataModelObjectCategory"></a>
 
-### *property* AMProcess.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMProcess.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -189,7 +189,7 @@ Gets the list of children.
 
 <a id="AMProcess.Comments"></a>
 
-### *property* AMProcess.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMProcess.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -197,7 +197,7 @@ Gets the list of associated comments.
 
 <a id="AMProcess.Figures"></a>
 
-### *property* AMProcess.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMProcess.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -205,7 +205,7 @@ Gets the list of associated figures.
 
 <a id="AMProcess.Images"></a>
 
-### *property* AMProcess.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMProcess.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -241,7 +241,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="AMProcess.GetSequence"></a>
 
-### AMProcess.GetSequence(analysis: [Ansys.ACT.Automation.Mechanical.Analysis](./../Analysis.md#Analysis))
+### AMProcess.GetSequence(analysis: [Ansys.ACT.Automation.Mechanical.Analysis](../Analysis.md#Analysis))
 
 Gets the support removal sequence for a given environment.
 
@@ -353,7 +353,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### AMProcess.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### AMProcess.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

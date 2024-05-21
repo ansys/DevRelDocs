@@ -47,7 +47,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`ScopingMethod`](#VolumeConstraint.ScopingMethod)                                                                  | Gets or sets the ScopingMethod.                                                          |
 | [`Selection`](#VolumeConstraint.Selection)                                                                          | Gets or sets the Selection.                                                              |
 | [`Location`](#VolumeConstraint.Location)                                                                            | Gets or sets the Location.                                                               |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                             |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                             |
 | [`EnvironmentSelection`](#VolumeConstraint.EnvironmentSelection)                                                    | Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum. |
 | [`Suppressed`](#VolumeConstraint.Suppressed)                                                                        | Gets or sets the Suppressed.                                                             |
 | [`Children`](#VolumeConstraint.Children)                                                                            | Gets the list of children.                                                               |
@@ -117,7 +117,7 @@ Gets or sets the MinimumAbsoluteValue.
 
 <a id="VolumeConstraint.DefineBy"></a>
 
-### *property* VolumeConstraint.DefineBy *: [Ansys.Mechanical.DataModel.Enums.ResponseConstraintDefineBy](./../../../Mechanical/DataModel/Enums/ResponseConstraintDefineBy.md#ResponseConstraintDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VolumeConstraint.DefineBy *: [Ansys.Mechanical.DataModel.Enums.ResponseConstraintDefineBy](../../../Mechanical/DataModel/Enums/ResponseConstraintDefineBy.md#ResponseConstraintDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DefineBy.
 
@@ -125,7 +125,7 @@ Gets or sets the DefineBy.
 
 <a id="VolumeConstraint.ScopingMethod"></a>
 
-### *property* VolumeConstraint.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](./../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VolumeConstraint.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -149,7 +149,7 @@ Gets or sets the Location.
 
 <a id="VolumeConstraint.DataModelObjectCategory"></a>
 
-### *property* VolumeConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VolumeConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -233,7 +233,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### VolumeConstraint.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### VolumeConstraint.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

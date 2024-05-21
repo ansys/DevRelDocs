@@ -39,7 +39,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Text`](#Comment.Text)                                                                                             | Gets the Text.                                                |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`Author`](#Comment.Author)                                                                                         | Gets or sets the Author.                                      |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#Comment.Children)                                                                                     | Gets the list of children.                                    |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`Properties`](#Comment.Properties)                                                                                 | Gets the list of properties for this object.                  |
@@ -83,7 +83,7 @@ Gets or sets the Author.
 
 <a id="Comment.DataModelObjectCategory"></a>
 
-### *property* Comment.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Comment.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -143,7 +143,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### Comment.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### Comment.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

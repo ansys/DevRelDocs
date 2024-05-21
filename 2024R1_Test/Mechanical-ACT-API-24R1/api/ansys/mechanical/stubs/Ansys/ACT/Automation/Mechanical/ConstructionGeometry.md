@@ -49,7 +49,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`ShowMesh`](#ConstructionGeometry.ShowMesh)                                                                        | Gets or sets the ShowMesh.                                    |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#ConstructionGeometry.Children)                                                                        | Gets the list of children.                                    |
 | [`Comments`](#ConstructionGeometry.Comments)                                                                        | Gets the list of associated comments.                         |
 | [`Figures`](#ConstructionGeometry.Figures)                                                                          | Gets the list of associated figures.                          |
@@ -88,7 +88,7 @@ Gets or sets the ShowMesh.
 
 <a id="ConstructionGeometry.DataModelObjectCategory"></a>
 
-### *property* ConstructionGeometry.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConstructionGeometry.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -236,7 +236,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### ConstructionGeometry.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### ConstructionGeometry.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

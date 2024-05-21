@@ -47,11 +47,11 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`NumberOfSegments`](#HeatFlux.NumberOfSegments)                                                                       | Gets or sets the NumberOfSegments.                            |
 | [`Magnitude`](#HeatFlux.Magnitude)                                                                                     | Gets the Magnitude.                                           |
-| [`GraphControlsXAxis`](./../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#GraphControlsXAxis)                | Gets or sets the GraphControlsXAxis.                          |
+| [`GraphControlsXAxis`](../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#GraphControlsXAxis)                | Gets or sets the GraphControlsXAxis.                          |
 | [`IndependentVariable`](#HeatFlux.IndependentVariable)                                                                 | Gets or sets the IndependentVariable.                         |
 | [`XYZFunctionCoordinateSystem`](#HeatFlux.XYZFunctionCoordinateSystem)                                                 | Gets or sets the XYZFunctionCoordinateSystem.                 |
 | [`Location`](#HeatFlux.Location)                                                                                       | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Suppressed`](#HeatFlux.Suppressed)                                                                                   | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#HeatFlux.SharedRefBody)                                                                             | Gets or sets the SharedRefBody.                               |
 | [`Children`](#HeatFlux.Children)                                                                                       | Gets the list of children.                                    |
@@ -93,7 +93,7 @@ Gets or sets the NumberOfSegments.
 
 <a id="HeatFlux.Magnitude"></a>
 
-### *property* HeatFlux.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HeatFlux.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Magnitude.
 
@@ -101,7 +101,7 @@ Gets the Magnitude.
 
 <a id="HeatFlux.GraphControlsXAxis"></a>
 
-### *property* HeatFlux.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](./../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HeatFlux.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GraphControlsXAxis.
 
@@ -109,7 +109,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="HeatFlux.IndependentVariable"></a>
 
-### *property* HeatFlux.IndependentVariable *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](./../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HeatFlux.IndependentVariable *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IndependentVariable.
 
@@ -117,7 +117,7 @@ Gets or sets the IndependentVariable.
 
 <a id="HeatFlux.XYZFunctionCoordinateSystem"></a>
 
-### *property* HeatFlux.XYZFunctionCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HeatFlux.XYZFunctionCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XYZFunctionCoordinateSystem.
 
@@ -133,7 +133,7 @@ Gets or sets the Location.
 
 <a id="HeatFlux.DataModelObjectCategory"></a>
 
-### *property* HeatFlux.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HeatFlux.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -149,7 +149,7 @@ Gets or sets the Suppressed.
 
 <a id="HeatFlux.SharedRefBody"></a>
 
-### *property* HeatFlux.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](./../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HeatFlux.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -165,7 +165,7 @@ Gets the list of children.
 
 <a id="HeatFlux.Comments"></a>
 
-### *property* HeatFlux.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HeatFlux.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -173,7 +173,7 @@ Gets the list of associated comments.
 
 <a id="HeatFlux.Figures"></a>
 
-### *property* HeatFlux.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HeatFlux.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -181,7 +181,7 @@ Gets the list of associated figures.
 
 <a id="HeatFlux.Images"></a>
 
-### *property* HeatFlux.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HeatFlux.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -281,7 +281,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### HeatFlux.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### HeatFlux.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

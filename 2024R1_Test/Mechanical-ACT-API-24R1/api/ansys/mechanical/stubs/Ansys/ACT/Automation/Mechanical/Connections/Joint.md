@@ -84,7 +84,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`MobileBehavior`](#Joint.MobileBehavior)                                                                              | Gets or sets the MobileBehavior.                                          |
 | [`ReferenceBehavior`](#Joint.ReferenceBehavior)                                                                        | Gets or sets the ReferenceBehavior.                                       |
 | [`Formulation`](#Joint.Formulation)                                                                                    | Gets or sets the Formulation.                                             |
-| [`JointFrictionType`](./../../../../Mechanical/DataModel/Enums/JointFrictionType.md#JointFrictionType)                   | Gets or sets the JointFrictionType.                                       |
+| [`JointFrictionType`](../../../../Mechanical/DataModel/Enums/JointFrictionType.md#JointFrictionType)                   | Gets or sets the JointFrictionType.                                       |
 | [`MobileFormulation`](#Joint.MobileFormulation)                                                                        | Gets or sets the MobileFormulation.                                       |
 | [`RadialGapType`](#Joint.RadialGapType)                                                                                | Gets or sets the RadialGapType.                                           |
 | [`ReferenceFormulation`](#Joint.ReferenceFormulation)                                                                  | Gets or sets the ReferenceFormulation.                                    |
@@ -119,7 +119,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`MobileLocation`](#Joint.MobileLocation)                                                                              | Gets or sets the MobileLocation.                                          |
 | [`CurveOrientationSurface`](#Joint.CurveOrientationSurface)                                                            | Gets or sets the CurveOrientationSurface.                                 |
 | [`ReferenceLocation`](#Joint.ReferenceLocation)                                                                        | Gets or sets the ReferenceLocation.                                       |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                              |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                              |
 | [`Children`](#Joint.Children)                                                                                          | Gets the list of children.                                                |
 | [`Comments`](#Joint.Comments)                                                                                          | Gets the list of associated comments.                                     |
 | [`Figures`](#Joint.Figures)                                                                                            | Gets the list of associated figures.                                      |
@@ -423,7 +423,7 @@ Gets or sets the ReferenceBeamRadius.
 
 <a id="Joint.GeneralPrimitiveType"></a>
 
-### *property* Joint.GeneralPrimitiveType *: [Ansys.Mechanical.DataModel.Enums.JointGeneralPrimitiveType](./../../../../Mechanical/DataModel/Enums/JointGeneralPrimitiveType.md#JointGeneralPrimitiveType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.GeneralPrimitiveType *: [Ansys.Mechanical.DataModel.Enums.JointGeneralPrimitiveType](../../../../Mechanical/DataModel/Enums/JointGeneralPrimitiveType.md#JointGeneralPrimitiveType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GeneralPrimitiveType.
 
@@ -431,7 +431,7 @@ Gets or sets the GeneralPrimitiveType.
 
 <a id="Joint.InitialPosition"></a>
 
-### *property* Joint.InitialPosition *: [Ansys.Mechanical.DataModel.Enums.JointInitialPosition](./../../../../Mechanical/DataModel/Enums/JointInitialPosition.md#JointInitialPosition) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.InitialPosition *: [Ansys.Mechanical.DataModel.Enums.JointInitialPosition](../../../../Mechanical/DataModel/Enums/JointInitialPosition.md#JointInitialPosition) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the InitialPosition.
 
@@ -439,7 +439,7 @@ Gets or sets the InitialPosition.
 
 <a id="Joint.MobileBehavior"></a>
 
-### *property* Joint.MobileBehavior *: [Ansys.Mechanical.DataModel.Enums.LoadBehavior](./../../../../Mechanical/DataModel/Enums/LoadBehavior.md#LoadBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.MobileBehavior *: [Ansys.Mechanical.DataModel.Enums.LoadBehavior](../../../../Mechanical/DataModel/Enums/LoadBehavior.md#LoadBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MobileBehavior.
 
@@ -447,7 +447,7 @@ Gets or sets the MobileBehavior.
 
 <a id="Joint.ReferenceBehavior"></a>
 
-### *property* Joint.ReferenceBehavior *: [Ansys.Mechanical.DataModel.Enums.LoadBehavior](./../../../../Mechanical/DataModel/Enums/LoadBehavior.md#LoadBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.ReferenceBehavior *: [Ansys.Mechanical.DataModel.Enums.LoadBehavior](../../../../Mechanical/DataModel/Enums/LoadBehavior.md#LoadBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReferenceBehavior.
 
@@ -455,7 +455,7 @@ Gets or sets the ReferenceBehavior.
 
 <a id="Joint.Formulation"></a>
 
-### *property* Joint.Formulation *: [Ansys.Mechanical.DataModel.Enums.JointFormulation](./../../../../Mechanical/DataModel/Enums/JointFormulation.md#JointFormulation) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.Formulation *: [Ansys.Mechanical.DataModel.Enums.JointFormulation](../../../../Mechanical/DataModel/Enums/JointFormulation.md#JointFormulation) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Formulation.
 
@@ -463,7 +463,7 @@ Gets or sets the Formulation.
 
 <a id="Joint.JointFrictionType"></a>
 
-### *property* Joint.JointFrictionType *: [Ansys.Mechanical.DataModel.Enums.JointFrictionType](./../../../../Mechanical/DataModel/Enums/JointFrictionType.md#JointFrictionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.JointFrictionType *: [Ansys.Mechanical.DataModel.Enums.JointFrictionType](../../../../Mechanical/DataModel/Enums/JointFrictionType.md#JointFrictionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the JointFrictionType.
 
@@ -471,7 +471,7 @@ Gets or sets the JointFrictionType.
 
 <a id="Joint.MobileFormulation"></a>
 
-### *property* Joint.MobileFormulation *: [Ansys.Mechanical.DataModel.Enums.RemotePointFormulation](./../../../../Mechanical/DataModel/Enums/RemotePointFormulation.md#RemotePointFormulation) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.MobileFormulation *: [Ansys.Mechanical.DataModel.Enums.RemotePointFormulation](../../../../Mechanical/DataModel/Enums/RemotePointFormulation.md#RemotePointFormulation) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MobileFormulation.
 
@@ -479,7 +479,7 @@ Gets or sets the MobileFormulation.
 
 <a id="Joint.RadialGapType"></a>
 
-### *property* Joint.RadialGapType *: [Ansys.Mechanical.DataModel.Enums.JointStopType](./../../../../Mechanical/DataModel/Enums/JointStopType.md#JointStopType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.RadialGapType *: [Ansys.Mechanical.DataModel.Enums.JointStopType](../../../../Mechanical/DataModel/Enums/JointStopType.md#JointStopType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RadialGapType.
 
@@ -487,7 +487,7 @@ Gets or sets the RadialGapType.
 
 <a id="Joint.ReferenceFormulation"></a>
 
-### *property* Joint.ReferenceFormulation *: [Ansys.Mechanical.DataModel.Enums.RemotePointFormulation](./../../../../Mechanical/DataModel/Enums/RemotePointFormulation.md#RemotePointFormulation) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.ReferenceFormulation *: [Ansys.Mechanical.DataModel.Enums.RemotePointFormulation](../../../../Mechanical/DataModel/Enums/RemotePointFormulation.md#RemotePointFormulation) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReferenceFormulation.
 
@@ -495,7 +495,7 @@ Gets or sets the ReferenceFormulation.
 
 <a id="Joint.ConnectionType"></a>
 
-### *property* Joint.ConnectionType *: [Ansys.Mechanical.DataModel.Enums.JointScopingType](./../../../../Mechanical/DataModel/Enums/JointScopingType.md#JointScopingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.ConnectionType *: [Ansys.Mechanical.DataModel.Enums.JointScopingType](../../../../Mechanical/DataModel/Enums/JointScopingType.md#JointScopingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ConnectionType.
 
@@ -503,7 +503,7 @@ Gets or sets the ConnectionType.
 
 <a id="Joint.RXMaximumType"></a>
 
-### *property* Joint.RXMaximumType *: [Ansys.Mechanical.DataModel.Enums.JointStopType](./../../../../Mechanical/DataModel/Enums/JointStopType.md#JointStopType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.RXMaximumType *: [Ansys.Mechanical.DataModel.Enums.JointStopType](../../../../Mechanical/DataModel/Enums/JointStopType.md#JointStopType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RXMaximumType.
 
@@ -511,7 +511,7 @@ Gets or sets the RXMaximumType.
 
 <a id="Joint.RXMinimumType"></a>
 
-### *property* Joint.RXMinimumType *: [Ansys.Mechanical.DataModel.Enums.JointStopType](./../../../../Mechanical/DataModel/Enums/JointStopType.md#JointStopType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.RXMinimumType *: [Ansys.Mechanical.DataModel.Enums.JointStopType](../../../../Mechanical/DataModel/Enums/JointStopType.md#JointStopType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RXMinimumType.
 
@@ -519,7 +519,7 @@ Gets or sets the RXMinimumType.
 
 <a id="Joint.RYMaximumType"></a>
 
-### *property* Joint.RYMaximumType *: [Ansys.Mechanical.DataModel.Enums.JointStopType](./../../../../Mechanical/DataModel/Enums/JointStopType.md#JointStopType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.RYMaximumType *: [Ansys.Mechanical.DataModel.Enums.JointStopType](../../../../Mechanical/DataModel/Enums/JointStopType.md#JointStopType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RYMaximumType.
 
@@ -527,7 +527,7 @@ Gets or sets the RYMaximumType.
 
 <a id="Joint.RYMinimumType"></a>
 
-### *property* Joint.RYMinimumType *: [Ansys.Mechanical.DataModel.Enums.JointStopType](./../../../../Mechanical/DataModel/Enums/JointStopType.md#JointStopType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.RYMinimumType *: [Ansys.Mechanical.DataModel.Enums.JointStopType](../../../../Mechanical/DataModel/Enums/JointStopType.md#JointStopType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RYMinimumType.
 
@@ -535,7 +535,7 @@ Gets or sets the RYMinimumType.
 
 <a id="Joint.RZMaximumType"></a>
 
-### *property* Joint.RZMaximumType *: [Ansys.Mechanical.DataModel.Enums.JointStopType](./../../../../Mechanical/DataModel/Enums/JointStopType.md#JointStopType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.RZMaximumType *: [Ansys.Mechanical.DataModel.Enums.JointStopType](../../../../Mechanical/DataModel/Enums/JointStopType.md#JointStopType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RZMaximumType.
 
@@ -543,7 +543,7 @@ Gets or sets the RZMaximumType.
 
 <a id="Joint.RZMinimumType"></a>
 
-### *property* Joint.RZMinimumType *: [Ansys.Mechanical.DataModel.Enums.JointStopType](./../../../../Mechanical/DataModel/Enums/JointStopType.md#JointStopType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.RZMinimumType *: [Ansys.Mechanical.DataModel.Enums.JointStopType](../../../../Mechanical/DataModel/Enums/JointStopType.md#JointStopType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RZMinimumType.
 
@@ -551,7 +551,7 @@ Gets or sets the RZMinimumType.
 
 <a id="Joint.XMaximumType"></a>
 
-### *property* Joint.XMaximumType *: [Ansys.Mechanical.DataModel.Enums.JointStopType](./../../../../Mechanical/DataModel/Enums/JointStopType.md#JointStopType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.XMaximumType *: [Ansys.Mechanical.DataModel.Enums.JointStopType](../../../../Mechanical/DataModel/Enums/JointStopType.md#JointStopType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XMaximumType.
 
@@ -559,7 +559,7 @@ Gets or sets the XMaximumType.
 
 <a id="Joint.XMinimumType"></a>
 
-### *property* Joint.XMinimumType *: [Ansys.Mechanical.DataModel.Enums.JointStopType](./../../../../Mechanical/DataModel/Enums/JointStopType.md#JointStopType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.XMinimumType *: [Ansys.Mechanical.DataModel.Enums.JointStopType](../../../../Mechanical/DataModel/Enums/JointStopType.md#JointStopType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XMinimumType.
 
@@ -567,7 +567,7 @@ Gets or sets the XMinimumType.
 
 <a id="Joint.YMaximumType"></a>
 
-### *property* Joint.YMaximumType *: [Ansys.Mechanical.DataModel.Enums.JointStopType](./../../../../Mechanical/DataModel/Enums/JointStopType.md#JointStopType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.YMaximumType *: [Ansys.Mechanical.DataModel.Enums.JointStopType](../../../../Mechanical/DataModel/Enums/JointStopType.md#JointStopType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the YMaximumType.
 
@@ -575,7 +575,7 @@ Gets or sets the YMaximumType.
 
 <a id="Joint.YMinimumType"></a>
 
-### *property* Joint.YMinimumType *: [Ansys.Mechanical.DataModel.Enums.JointStopType](./../../../../Mechanical/DataModel/Enums/JointStopType.md#JointStopType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.YMinimumType *: [Ansys.Mechanical.DataModel.Enums.JointStopType](../../../../Mechanical/DataModel/Enums/JointStopType.md#JointStopType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the YMinimumType.
 
@@ -583,7 +583,7 @@ Gets or sets the YMinimumType.
 
 <a id="Joint.ZMaximumType"></a>
 
-### *property* Joint.ZMaximumType *: [Ansys.Mechanical.DataModel.Enums.JointStopType](./../../../../Mechanical/DataModel/Enums/JointStopType.md#JointStopType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.ZMaximumType *: [Ansys.Mechanical.DataModel.Enums.JointStopType](../../../../Mechanical/DataModel/Enums/JointStopType.md#JointStopType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ZMaximumType.
 
@@ -591,7 +591,7 @@ Gets or sets the ZMaximumType.
 
 <a id="Joint.ZMinimumType"></a>
 
-### *property* Joint.ZMinimumType *: [Ansys.Mechanical.DataModel.Enums.JointStopType](./../../../../Mechanical/DataModel/Enums/JointStopType.md#JointStopType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.ZMinimumType *: [Ansys.Mechanical.DataModel.Enums.JointStopType](../../../../Mechanical/DataModel/Enums/JointStopType.md#JointStopType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ZMinimumType.
 
@@ -599,7 +599,7 @@ Gets or sets the ZMinimumType.
 
 <a id="Joint.Type"></a>
 
-### *property* Joint.Type *: [Ansys.Mechanical.DataModel.Enums.JointType](./../../../../Mechanical/DataModel/Enums/JointType.md#JointType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.Type *: [Ansys.Mechanical.DataModel.Enums.JointType](../../../../Mechanical/DataModel/Enums/JointType.md#JointType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Type.
 
@@ -607,7 +607,7 @@ Gets or sets the Type.
 
 <a id="Joint.MobileAppliedBy"></a>
 
-### *property* Joint.MobileAppliedBy *: [Ansys.Mechanical.DataModel.Enums.RemoteApplicationType](./../../../../Mechanical/DataModel/Enums/RemoteApplicationType.md#RemoteApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.MobileAppliedBy *: [Ansys.Mechanical.DataModel.Enums.RemoteApplicationType](../../../../Mechanical/DataModel/Enums/RemoteApplicationType.md#RemoteApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MobileAppliedBy.
 
@@ -615,7 +615,7 @@ Gets or sets the MobileAppliedBy.
 
 <a id="Joint.ReferenceAppliedBy"></a>
 
-### *property* Joint.ReferenceAppliedBy *: [Ansys.Mechanical.DataModel.Enums.RemoteApplicationType](./../../../../Mechanical/DataModel/Enums/RemoteApplicationType.md#RemoteApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.ReferenceAppliedBy *: [Ansys.Mechanical.DataModel.Enums.RemoteApplicationType](../../../../Mechanical/DataModel/Enums/RemoteApplicationType.md#RemoteApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReferenceAppliedBy.
 
@@ -623,7 +623,7 @@ Gets or sets the ReferenceAppliedBy.
 
 <a id="Joint.Rotations"></a>
 
-### *property* Joint.Rotations *: [Ansys.Mechanical.DataModel.Enums.JointRotationDOFType](./../../../../Mechanical/DataModel/Enums/JointRotationDOFType.md#JointRotationDOFType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.Rotations *: [Ansys.Mechanical.DataModel.Enums.JointRotationDOFType](../../../../Mechanical/DataModel/Enums/JointRotationDOFType.md#JointRotationDOFType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Rotations.
 
@@ -631,7 +631,7 @@ Gets or sets the Rotations.
 
 <a id="Joint.SolverElementType"></a>
 
-### *property* Joint.SolverElementType *: [Ansys.Mechanical.DataModel.Enums.JointSolverElementType](./../../../../Mechanical/DataModel/Enums/JointSolverElementType.md#JointSolverElementType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.SolverElementType *: [Ansys.Mechanical.DataModel.Enums.JointSolverElementType](../../../../Mechanical/DataModel/Enums/JointSolverElementType.md#JointSolverElementType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverElementType.
 
@@ -639,7 +639,7 @@ Gets or sets the SolverElementType.
 
 <a id="Joint.TranslationX"></a>
 
-### *property* Joint.TranslationX *: [Ansys.Mechanical.DataModel.Enums.FixedOrFree](./../../../../Mechanical/DataModel/Enums/FixedOrFree.md#FixedOrFree) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.TranslationX *: [Ansys.Mechanical.DataModel.Enums.FixedOrFree](../../../../Mechanical/DataModel/Enums/FixedOrFree.md#FixedOrFree) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TranslationX.
 
@@ -647,7 +647,7 @@ Gets or sets the TranslationX.
 
 <a id="Joint.TranslationY"></a>
 
-### *property* Joint.TranslationY *: [Ansys.Mechanical.DataModel.Enums.FixedOrFree](./../../../../Mechanical/DataModel/Enums/FixedOrFree.md#FixedOrFree) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.TranslationY *: [Ansys.Mechanical.DataModel.Enums.FixedOrFree](../../../../Mechanical/DataModel/Enums/FixedOrFree.md#FixedOrFree) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TranslationY.
 
@@ -655,7 +655,7 @@ Gets or sets the TranslationY.
 
 <a id="Joint.TranslationZ"></a>
 
-### *property* Joint.TranslationZ *: [Ansys.Mechanical.DataModel.Enums.FixedOrFree](./../../../../Mechanical/DataModel/Enums/FixedOrFree.md#FixedOrFree) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.TranslationZ *: [Ansys.Mechanical.DataModel.Enums.FixedOrFree](../../../../Mechanical/DataModel/Enums/FixedOrFree.md#FixedOrFree) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TranslationZ.
 
@@ -695,7 +695,7 @@ Gets the SuppressedForSolve.
 
 <a id="Joint.ElementCoordinateSystem"></a>
 
-### *property* Joint.ElementCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.ElementCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ElementCoordinateSystem.
 
@@ -703,7 +703,7 @@ Gets or sets the ElementCoordinateSystem.
 
 <a id="Joint.MobileCoordinateSystem"></a>
 
-### *property* Joint.MobileCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.MobileCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MobileCoordinateSystem.
 
@@ -711,7 +711,7 @@ Gets or sets the MobileCoordinateSystem.
 
 <a id="Joint.ReferenceCoordinateSystem"></a>
 
-### *property* Joint.ReferenceCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.ReferenceCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReferenceCoordinateSystem.
 
@@ -743,7 +743,7 @@ Gets or sets the ReferenceLocation.
 
 <a id="Joint.DataModelObjectCategory"></a>
 
-### *property* Joint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -759,7 +759,7 @@ Gets the list of children.
 
 <a id="Joint.Comments"></a>
 
-### *property* Joint.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -767,7 +767,7 @@ Gets the list of associated comments.
 
 <a id="Joint.Figures"></a>
 
-### *property* Joint.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -775,7 +775,7 @@ Gets the list of associated figures.
 
 <a id="Joint.Images"></a>
 
-### *property* Joint.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -875,7 +875,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### Joint.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### Joint.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

@@ -42,9 +42,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
-| [`NamedSelection`](./../NamedSelection.md#NamedSelection)                                                                | Gets or sets the NamedSelection.                              |
+| [`NamedSelection`](../NamedSelection.md#NamedSelection)                                                                | Gets or sets the NamedSelection.                              |
 | [`Location`](#GeometryFidelity.Location)                                                                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`ScopingMethod`](#GeometryFidelity.ScopingMethod)                                                                     | Gets or sets the ScopingMethod.                               |
 | [`Suppressed`](#GeometryFidelity.Suppressed)                                                                           | Gets or sets the Suppressed.                                  |
 | [`Children`](#GeometryFidelity.Children)                                                                               | Gets the list of children.                                    |
@@ -77,7 +77,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="GeometryFidelity.NamedSelection"></a>
 
-### *property* GeometryFidelity.NamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](./../NamedSelection.md#NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryFidelity.NamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../NamedSelection.md#NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelection.
 
@@ -93,7 +93,7 @@ Gets or sets the Location.
 
 <a id="GeometryFidelity.DataModelObjectCategory"></a>
 
-### *property* GeometryFidelity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryFidelity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -101,7 +101,7 @@ Gets the current DataModelObject’s category.
 
 <a id="GeometryFidelity.ScopingMethod"></a>
 
-### *property* GeometryFidelity.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](./../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryFidelity.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -125,7 +125,7 @@ Gets the list of children.
 
 <a id="GeometryFidelity.Comments"></a>
 
-### *property* GeometryFidelity.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryFidelity.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -133,7 +133,7 @@ Gets the list of associated comments.
 
 <a id="GeometryFidelity.Figures"></a>
 
-### *property* GeometryFidelity.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryFidelity.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -141,7 +141,7 @@ Gets the list of associated figures.
 
 <a id="GeometryFidelity.Images"></a>
 
-### *property* GeometryFidelity.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryFidelity.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -209,7 +209,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### GeometryFidelity.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### GeometryFidelity.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

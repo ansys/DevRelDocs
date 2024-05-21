@@ -45,7 +45,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`LengthUnits`](#GeometryFileContainer.LengthUnits)                                                                 | Gets or sets the LengthUnits.                                 |
 | [`ShowAlways`](#GeometryFileContainer.ShowAlways)                                                                   | Gets or sets the ShowAlways.                                  |
 | [`Suppressed`](#GeometryFileContainer.Suppressed)                                                                   | Gets or sets the Suppressed.                                  |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#GeometryFileContainer.Children)                                                                       | Gets the list of children.                                    |
 | [`Comments`](#GeometryFileContainer.Comments)                                                                       | Gets the list of associated comments.                         |
 | [`Figures`](#GeometryFileContainer.Figures)                                                                         | Gets the list of associated figures.                          |
@@ -85,7 +85,7 @@ Gets the Statistics.
 
 <a id="GeometryFileContainer.LengthUnits"></a>
 
-### *property* GeometryFileContainer.LengthUnits *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](./../../../Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryFileContainer.LengthUnits *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](../../../Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LengthUnits.
 
@@ -109,7 +109,7 @@ Gets or sets the Suppressed.
 
 <a id="GeometryFileContainer.DataModelObjectCategory"></a>
 
-### *property* GeometryFileContainer.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryFileContainer.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -209,7 +209,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### GeometryFileContainer.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### GeometryFileContainer.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

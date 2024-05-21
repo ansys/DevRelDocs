@@ -43,9 +43,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](./../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`IsSolved`](#DeformationPhaseResponse.IsSolved)                                                                          | Gets the IsSolved.                                            |
-| [`ChartDimensions`](./../../../../../Mechanical/DataModel/Enums/ChartDimensions.md#ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
+| [`ChartDimensions`](../../../../../Mechanical/DataModel/Enums/ChartDimensions.md#ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
 | [`BoundaryCondition`](#DeformationPhaseResponse.BoundaryCondition)                                                        | Gets or sets the BoundaryCondition.                           |
 | [`CutFrequency`](#DeformationPhaseResponse.CutFrequency)                                                                  | Gets or sets the CutFrequency.                                |
 | [`SectorNumber`](#DeformationPhaseResponse.SectorNumber)                                                                  | Gets or sets the SectorNumber.                                |
@@ -67,23 +67,23 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`RequestedFrequency`](#DeformationPhaseResponse.RequestedFrequency)                                                      | Gets or sets the RequestedFrequency.                          |
 | [`AccelerationType`](#DeformationPhaseResponse.AccelerationType)                                                          | Gets or sets the AccelerationType.                            |
 | [`ChartViewingStyle`](#DeformationPhaseResponse.ChartViewingStyle)                                                        | Gets or sets the ChartViewingStyle.                           |
-| [`DeformationType`](./../../../../../Mechanical/DataModel/Enums/DeformationType.md#DeformationType)                         | Gets or sets the DeformationType.                             |
-| [`FilterType`](./../../../../../Mechanical/DataModel/Enums/FilterType.md#FilterType)                                        | Gets or sets the FilterType.                                  |
+| [`DeformationType`](../../../../../Mechanical/DataModel/Enums/DeformationType.md#DeformationType)                         | Gets or sets the DeformationType.                             |
+| [`FilterType`](../../../../../Mechanical/DataModel/Enums/FilterType.md#FilterType)                                        | Gets or sets the FilterType.                                  |
 | [`SpatialResolution`](#DeformationPhaseResponse.SpatialResolution)                                                        | Gets or sets the SpatialResolution.                           |
 | [`NormalOrientation`](#DeformationPhaseResponse.NormalOrientation)                                                        | Gets or sets the NormalOrientation.                           |
 | [`CurvesAppearanceDisplay`](#DeformationPhaseResponse.CurvesAppearanceDisplay)                                            | Gets or sets the CurvesAppearanceDisplay.                     |
 | [`ResultChartType`](#DeformationPhaseResponse.ResultChartType)                                                            | Gets the ResultChartType.                                     |
 | [`DpfEvaluation`](#DeformationPhaseResponse.DpfEvaluation)                                                                | Gets or sets the DpfEvaluation.                               |
-| [`XAxisValues`](./../../../../../Mechanical/DataModel/Enums/XAxisValues.md#XAxisValues)                                     | Gets or sets the XAxisValues.                                 |
+| [`XAxisValues`](../../../../../Mechanical/DataModel/Enums/XAxisValues.md#XAxisValues)                                     | Gets or sets the XAxisValues.                                 |
 | [`ShearOrientation`](#DeformationPhaseResponse.ShearOrientation)                                                          | Gets or sets the ShearOrientation.                            |
-| [`StressStrainType`](./../../../../../Mechanical/DataModel/Enums/StressStrainType.md#StressStrainType)                      | Gets or sets the StressStrainType.                            |
+| [`StressStrainType`](../../../../../Mechanical/DataModel/Enums/StressStrainType.md#StressStrainType)                      | Gets or sets the StressStrainType.                            |
 | [`TimeHistoryDisplay`](#DeformationPhaseResponse.TimeHistoryDisplay)                                                      | Gets or sets the TimeHistoryDisplay.                          |
 | [`VelocityType`](#DeformationPhaseResponse.VelocityType)                                                                  | Gets or sets the VelocityType.                                |
 | [`Suppressed`](#DeformationPhaseResponse.Suppressed)                                                                      | Gets or sets the Suppressed.                                  |
 | [`EnhancedTracking`](#DeformationPhaseResponse.EnhancedTracking)                                                          | Gets the EnhancedTracking.                                    |
 | [`UseParentFrequencyRange`](#DeformationPhaseResponse.UseParentFrequencyRange)                                            | Gets or sets the UseParentFrequencyRange.                     |
-| [`CoordinateSystem`](./../../../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
-| [`Spring`](./../../Connections/Spring.md#Spring)                                                                            | Gets or sets the Spring.                                      |
+| [`CoordinateSystem`](../../../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
+| [`Spring`](../../Connections/Spring.md#Spring)                                                                            | Gets or sets the Spring.                                      |
 | [`Location`](#DeformationPhaseResponse.Location)                                                                          | Gets or sets the Location.                                    |
 | [`Children`](#DeformationPhaseResponse.Children)                                                                          | Gets the list of children.                                    |
 | [`Comments`](#DeformationPhaseResponse.Comments)                                                                          | Gets the list of associated comments.                         |
@@ -114,7 +114,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="DeformationPhaseResponse.DataModelObjectCategory"></a>
 
-### *property* DeformationPhaseResponse.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationPhaseResponse.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -130,7 +130,7 @@ Gets the IsSolved.
 
 <a id="DeformationPhaseResponse.ChartDimensions"></a>
 
-### *property* DeformationPhaseResponse.ChartDimensions *: [Ansys.Mechanical.DataModel.Enums.ChartDimensions](./../../../../../Mechanical/DataModel/Enums/ChartDimensions.md#ChartDimensions) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationPhaseResponse.ChartDimensions *: [Ansys.Mechanical.DataModel.Enums.ChartDimensions](../../../../../Mechanical/DataModel/Enums/ChartDimensions.md#ChartDimensions) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Chart Dimensions
 
@@ -138,7 +138,7 @@ Gets or sets the Chart Dimensions
 
 <a id="DeformationPhaseResponse.BoundaryCondition"></a>
 
-### *property* DeformationPhaseResponse.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](./../../BoundaryConditions/GenericBoundaryCondition.md#GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationPhaseResponse.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](../../BoundaryConditions/GenericBoundaryCondition.md#GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BoundaryCondition.
 
@@ -290,7 +290,7 @@ Gets or sets the RequestedFrequency.
 
 <a id="DeformationPhaseResponse.AccelerationType"></a>
 
-### *property* DeformationPhaseResponse.AccelerationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](./../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationPhaseResponse.AccelerationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AccelerationType.
 
@@ -298,7 +298,7 @@ Gets or sets the AccelerationType.
 
 <a id="DeformationPhaseResponse.ChartViewingStyle"></a>
 
-### *property* DeformationPhaseResponse.ChartViewingStyle *: [Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType](./../../../../../Mechanical/DataModel/Enums/ChartAxisScaleType.md#ChartAxisScaleType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationPhaseResponse.ChartViewingStyle *: [Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType](../../../../../Mechanical/DataModel/Enums/ChartAxisScaleType.md#ChartAxisScaleType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ChartViewingStyle.
 
@@ -306,7 +306,7 @@ Gets or sets the ChartViewingStyle.
 
 <a id="DeformationPhaseResponse.DeformationType"></a>
 
-### *property* DeformationPhaseResponse.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](./../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationPhaseResponse.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DeformationType.
 
@@ -314,7 +314,7 @@ Gets or sets the DeformationType.
 
 <a id="DeformationPhaseResponse.FilterType"></a>
 
-### *property* DeformationPhaseResponse.FilterType *: [Ansys.Mechanical.DataModel.Enums.FilterType](./../../../../../Mechanical/DataModel/Enums/FilterType.md#FilterType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationPhaseResponse.FilterType *: [Ansys.Mechanical.DataModel.Enums.FilterType](../../../../../Mechanical/DataModel/Enums/FilterType.md#FilterType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FilterType.
 
@@ -322,7 +322,7 @@ Gets or sets the FilterType.
 
 <a id="DeformationPhaseResponse.SpatialResolution"></a>
 
-### *property* DeformationPhaseResponse.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MultipleNodeType](./../../../../../Mechanical/DataModel/Enums/MultipleNodeType.md#MultipleNodeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationPhaseResponse.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MultipleNodeType](../../../../../Mechanical/DataModel/Enums/MultipleNodeType.md#MultipleNodeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SpatialResolution.
 
@@ -330,7 +330,7 @@ Gets or sets the SpatialResolution.
 
 <a id="DeformationPhaseResponse.NormalOrientation"></a>
 
-### *property* DeformationPhaseResponse.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](./../../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationPhaseResponse.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NormalOrientation.
 
@@ -338,7 +338,7 @@ Gets or sets the NormalOrientation.
 
 <a id="DeformationPhaseResponse.CurvesAppearanceDisplay"></a>
 
-### *property* DeformationPhaseResponse.CurvesAppearanceDisplay *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](./../../../../../Mechanical/DataModel/Enums/ChartPlotStyle.md#ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationPhaseResponse.CurvesAppearanceDisplay *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](../../../../../Mechanical/DataModel/Enums/ChartPlotStyle.md#ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CurvesAppearanceDisplay.
 
@@ -346,7 +346,7 @@ Gets or sets the CurvesAppearanceDisplay.
 
 <a id="DeformationPhaseResponse.ResultChartType"></a>
 
-### *property* DeformationPhaseResponse.ResultChartType *: [Ansys.Mechanical.DataModel.Enums.ChartResultType](./../../../../../Mechanical/DataModel/Enums/ChartResultType.md#ChartResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationPhaseResponse.ResultChartType *: [Ansys.Mechanical.DataModel.Enums.ChartResultType](../../../../../Mechanical/DataModel/Enums/ChartResultType.md#ChartResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ResultChartType.
 
@@ -354,7 +354,7 @@ Gets the ResultChartType.
 
 <a id="DeformationPhaseResponse.DpfEvaluation"></a>
 
-### *property* DeformationPhaseResponse.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](./../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationPhaseResponse.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DpfEvaluation.
 
@@ -362,7 +362,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="DeformationPhaseResponse.XAxisValues"></a>
 
-### *property* DeformationPhaseResponse.XAxisValues *: [Ansys.Mechanical.DataModel.Enums.XAxisValues](./../../../../../Mechanical/DataModel/Enums/XAxisValues.md#XAxisValues) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationPhaseResponse.XAxisValues *: [Ansys.Mechanical.DataModel.Enums.XAxisValues](../../../../../Mechanical/DataModel/Enums/XAxisValues.md#XAxisValues) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XAxisValues.
 
@@ -370,7 +370,7 @@ Gets or sets the XAxisValues.
 
 <a id="DeformationPhaseResponse.ShearOrientation"></a>
 
-### *property* DeformationPhaseResponse.ShearOrientation *: [Ansys.Mechanical.DataModel.Enums.ShearOrientationType](./../../../../../Mechanical/DataModel/Enums/ShearOrientationType.md#ShearOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationPhaseResponse.ShearOrientation *: [Ansys.Mechanical.DataModel.Enums.ShearOrientationType](../../../../../Mechanical/DataModel/Enums/ShearOrientationType.md#ShearOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShearOrientation.
 
@@ -378,7 +378,7 @@ Gets or sets the ShearOrientation.
 
 <a id="DeformationPhaseResponse.StressStrainType"></a>
 
-### *property* DeformationPhaseResponse.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](./../../../../../Mechanical/DataModel/Enums/StressStrainType.md#StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationPhaseResponse.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](../../../../../Mechanical/DataModel/Enums/StressStrainType.md#StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StressStrainType.
 
@@ -386,7 +386,7 @@ Gets or sets the StressStrainType.
 
 <a id="DeformationPhaseResponse.TimeHistoryDisplay"></a>
 
-### *property* DeformationPhaseResponse.TimeHistoryDisplay *: [Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType](./../../../../../Mechanical/DataModel/Enums/TimeHistoryDisplayType.md#TimeHistoryDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationPhaseResponse.TimeHistoryDisplay *: [Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType](../../../../../Mechanical/DataModel/Enums/TimeHistoryDisplayType.md#TimeHistoryDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TimeHistoryDisplay.
 
@@ -394,7 +394,7 @@ Gets or sets the TimeHistoryDisplay.
 
 <a id="DeformationPhaseResponse.VelocityType"></a>
 
-### *property* DeformationPhaseResponse.VelocityType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](./../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationPhaseResponse.VelocityType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the VelocityType.
 
@@ -426,7 +426,7 @@ Gets or sets the UseParentFrequencyRange.
 
 <a id="DeformationPhaseResponse.CoordinateSystem"></a>
 
-### *property* DeformationPhaseResponse.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationPhaseResponse.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -434,7 +434,7 @@ Gets or sets the CoordinateSystem.
 
 <a id="DeformationPhaseResponse.Spring"></a>
 
-### *property* DeformationPhaseResponse.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](./../../Connections/Spring.md#Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationPhaseResponse.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../Connections/Spring.md#Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Spring.
 
@@ -458,7 +458,7 @@ Gets the list of children.
 
 <a id="DeformationPhaseResponse.Comments"></a>
 
-### *property* DeformationPhaseResponse.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationPhaseResponse.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -466,7 +466,7 @@ Gets the list of associated comments.
 
 <a id="DeformationPhaseResponse.Images"></a>
 
-### *property* DeformationPhaseResponse.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationPhaseResponse.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -502,7 +502,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="DeformationPhaseResponse.ExportAnimation"></a>
 
-### DeformationPhaseResponse.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](./../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](./../../../../../Mechanical/Graphics/AnimationExportSettings.md#AnimationExportSettings))
+### DeformationPhaseResponse.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -550,7 +550,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### DeformationPhaseResponse.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### DeformationPhaseResponse.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

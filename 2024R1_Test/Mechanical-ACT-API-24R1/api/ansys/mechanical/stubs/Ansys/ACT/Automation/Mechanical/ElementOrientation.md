@@ -45,11 +45,11 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`AxisSurfaceOrientation`](#ElementOrientation.AxisSurfaceOrientation)                                              | Gets or sets the AxisSurfaceOrientation.                      |
 | [`OrientationGuideDefinedBy`](#ElementOrientation.OrientationGuideDefinedBy)                                        | Gets or sets the OrientationGuideDefinedBy.                   |
 | [`Suppressed`](#ElementOrientation.Suppressed)                                                                      | Gets or sets the Suppressed.                                  |
-| [`CoordinateSystem`](./../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
+| [`CoordinateSystem`](../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
 | [`BodyLocation`](#ElementOrientation.BodyLocation)                                                                  | Gets or sets the BodyLocation.                                |
 | [`EdgeLocation`](#ElementOrientation.EdgeLocation)                                                                  | Gets or sets the EdgeLocation.                                |
 | [`SurfaceLocation`](#ElementOrientation.SurfaceLocation)                                                            | Gets or sets the SurfaceLocation.                             |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#ElementOrientation.Children)                                                                          | Gets the list of children.                                    |
 | [`Comments`](#ElementOrientation.Comments)                                                                          | Gets the list of associated comments.                         |
 | [`Figures`](#ElementOrientation.Figures)                                                                            | Gets the list of associated figures.                          |
@@ -81,7 +81,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ElementOrientation.AxisEdgeOrientation"></a>
 
-### *property* ElementOrientation.AxisEdgeOrientation *: [Ansys.Mechanical.DataModel.Enums.ElementOrientationAxisType](./../../../Mechanical/DataModel/Enums/ElementOrientationAxisType.md#ElementOrientationAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementOrientation.AxisEdgeOrientation *: [Ansys.Mechanical.DataModel.Enums.ElementOrientationAxisType](../../../Mechanical/DataModel/Enums/ElementOrientationAxisType.md#ElementOrientationAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AxisEdgeOrientation.
 
@@ -89,7 +89,7 @@ Gets or sets the AxisEdgeOrientation.
 
 <a id="ElementOrientation.AxisSurfaceOrientation"></a>
 
-### *property* ElementOrientation.AxisSurfaceOrientation *: [Ansys.Mechanical.DataModel.Enums.ElementOrientationAxisType](./../../../Mechanical/DataModel/Enums/ElementOrientationAxisType.md#ElementOrientationAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementOrientation.AxisSurfaceOrientation *: [Ansys.Mechanical.DataModel.Enums.ElementOrientationAxisType](../../../Mechanical/DataModel/Enums/ElementOrientationAxisType.md#ElementOrientationAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AxisSurfaceOrientation.
 
@@ -97,7 +97,7 @@ Gets or sets the AxisSurfaceOrientation.
 
 <a id="ElementOrientation.OrientationGuideDefinedBy"></a>
 
-### *property* ElementOrientation.OrientationGuideDefinedBy *: [Ansys.Mechanical.DataModel.Enums.ElementOrientationGuide](./../../../Mechanical/DataModel/Enums/ElementOrientationGuide.md#ElementOrientationGuide) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementOrientation.OrientationGuideDefinedBy *: [Ansys.Mechanical.DataModel.Enums.ElementOrientationGuide](../../../Mechanical/DataModel/Enums/ElementOrientationGuide.md#ElementOrientationGuide) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the OrientationGuideDefinedBy.
 
@@ -145,7 +145,7 @@ Gets or sets the SurfaceLocation.
 
 <a id="ElementOrientation.DataModelObjectCategory"></a>
 
-### *property* ElementOrientation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementOrientation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -245,7 +245,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### ElementOrientation.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### ElementOrientation.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

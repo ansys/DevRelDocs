@@ -19,7 +19,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------|-------------------------------------|
 | [`NastranFilename`](#NastranExportOptions.NastranFilename)                                                  | Full path of Nastran export file.   |
-| [`AnalysisType`](./../../../Mechanical/DataModel/Enums/GeometryImportPreference/AnalysisType.md#AnalysisType) | Analysis type.                      |
+| [`AnalysisType`](../../../Mechanical/DataModel/Enums/GeometryImportPreference/AnalysisType.md#AnalysisType) | Analysis type.                      |
 | [`GridCS`](#NastranExportOptions.GridCS)                                                                    | Grid coordinate system number.      |
 | [`Offset`](#NastranExportOptions.Offset)                                                                    | Offset.                             |
 | [`WTMass`](#NastranExportOptions.WTMass)                                                                    | WTMass.                             |

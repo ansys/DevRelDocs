@@ -44,10 +44,10 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 |---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.            |
 | [`ContactSide`](#ContactMinimumGeometricSlidingDistanceTracker.ContactSide)                                               | Gets or sets the ContactSide.                                 |
-| [`ContactRegion`](./../../Connections/ContactRegion.md#ContactRegion)                                                       | Gets or sets the ContactRegion.                               |
-| [`DataModelObjectCategory`](./../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`ContactRegion`](../../Connections/ContactRegion.md#ContactRegion)                                                       | Gets or sets the ContactRegion.                               |
+| [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`IsSolved`](#ContactMinimumGeometricSlidingDistanceTracker.IsSolved)                                                     | Gets the IsSolved.                                            |
-| [`ChartDimensions`](./../../../../../Mechanical/DataModel/Enums/ChartDimensions.md#ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
+| [`ChartDimensions`](../../../../../Mechanical/DataModel/Enums/ChartDimensions.md#ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
 | [`BoundaryCondition`](#ContactMinimumGeometricSlidingDistanceTracker.BoundaryCondition)                                   | Gets or sets the BoundaryCondition.                           |
 | [`CutFrequency`](#ContactMinimumGeometricSlidingDistanceTracker.CutFrequency)                                             | Gets or sets the CutFrequency.                                |
 | [`SectorNumber`](#ContactMinimumGeometricSlidingDistanceTracker.SectorNumber)                                             | Gets or sets the SectorNumber.                                |
@@ -69,23 +69,23 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`RequestedFrequency`](#ContactMinimumGeometricSlidingDistanceTracker.RequestedFrequency)                                 | Gets or sets the RequestedFrequency.                          |
 | [`AccelerationType`](#ContactMinimumGeometricSlidingDistanceTracker.AccelerationType)                                     | Gets or sets the AccelerationType.                            |
 | [`ChartViewingStyle`](#ContactMinimumGeometricSlidingDistanceTracker.ChartViewingStyle)                                   | Gets or sets the ChartViewingStyle.                           |
-| [`DeformationType`](./../../../../../Mechanical/DataModel/Enums/DeformationType.md#DeformationType)                         | Gets or sets the DeformationType.                             |
-| [`FilterType`](./../../../../../Mechanical/DataModel/Enums/FilterType.md#FilterType)                                        | Gets or sets the FilterType.                                  |
+| [`DeformationType`](../../../../../Mechanical/DataModel/Enums/DeformationType.md#DeformationType)                         | Gets or sets the DeformationType.                             |
+| [`FilterType`](../../../../../Mechanical/DataModel/Enums/FilterType.md#FilterType)                                        | Gets or sets the FilterType.                                  |
 | [`SpatialResolution`](#ContactMinimumGeometricSlidingDistanceTracker.SpatialResolution)                                   | Gets or sets the SpatialResolution.                           |
 | [`NormalOrientation`](#ContactMinimumGeometricSlidingDistanceTracker.NormalOrientation)                                   | Gets or sets the NormalOrientation.                           |
 | [`CurvesAppearanceDisplay`](#ContactMinimumGeometricSlidingDistanceTracker.CurvesAppearanceDisplay)                       | Gets or sets the CurvesAppearanceDisplay.                     |
 | [`ResultChartType`](#ContactMinimumGeometricSlidingDistanceTracker.ResultChartType)                                       | Gets the ResultChartType.                                     |
 | [`DpfEvaluation`](#ContactMinimumGeometricSlidingDistanceTracker.DpfEvaluation)                                           | Gets or sets the DpfEvaluation.                               |
-| [`XAxisValues`](./../../../../../Mechanical/DataModel/Enums/XAxisValues.md#XAxisValues)                                     | Gets or sets the XAxisValues.                                 |
+| [`XAxisValues`](../../../../../Mechanical/DataModel/Enums/XAxisValues.md#XAxisValues)                                     | Gets or sets the XAxisValues.                                 |
 | [`ShearOrientation`](#ContactMinimumGeometricSlidingDistanceTracker.ShearOrientation)                                     | Gets or sets the ShearOrientation.                            |
-| [`StressStrainType`](./../../../../../Mechanical/DataModel/Enums/StressStrainType.md#StressStrainType)                      | Gets or sets the StressStrainType.                            |
+| [`StressStrainType`](../../../../../Mechanical/DataModel/Enums/StressStrainType.md#StressStrainType)                      | Gets or sets the StressStrainType.                            |
 | [`TimeHistoryDisplay`](#ContactMinimumGeometricSlidingDistanceTracker.TimeHistoryDisplay)                                 | Gets or sets the TimeHistoryDisplay.                          |
 | [`VelocityType`](#ContactMinimumGeometricSlidingDistanceTracker.VelocityType)                                             | Gets or sets the VelocityType.                                |
 | [`Suppressed`](#ContactMinimumGeometricSlidingDistanceTracker.Suppressed)                                                 | Gets or sets the Suppressed.                                  |
 | [`EnhancedTracking`](#ContactMinimumGeometricSlidingDistanceTracker.EnhancedTracking)                                     | Gets the EnhancedTracking.                                    |
 | [`UseParentFrequencyRange`](#ContactMinimumGeometricSlidingDistanceTracker.UseParentFrequencyRange)                       | Gets or sets the UseParentFrequencyRange.                     |
-| [`CoordinateSystem`](./../../../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
-| [`Spring`](./../../Connections/Spring.md#Spring)                                                                            | Gets or sets the Spring.                                      |
+| [`CoordinateSystem`](../../../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
+| [`Spring`](../../Connections/Spring.md#Spring)                                                                            | Gets or sets the Spring.                                      |
 | [`Location`](#ContactMinimumGeometricSlidingDistanceTracker.Location)                                                     | Gets or sets the Location.                                    |
 | [`Children`](#ContactMinimumGeometricSlidingDistanceTracker.Children)                                                     | Gets the list of children.                                    |
 | [`Comments`](#ContactMinimumGeometricSlidingDistanceTracker.Comments)                                                     | Gets the list of associated comments.                         |
@@ -116,7 +116,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.ContactSide"></a>
 
-### *property* ContactMinimumGeometricSlidingDistanceTracker.ContactSide *: [Ansys.Mechanical.DataModel.Enums.ContactScopingType](./../../../../../Mechanical/DataModel/Enums/ContactScopingType.md#ContactScopingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumGeometricSlidingDistanceTracker.ContactSide *: [Ansys.Mechanical.DataModel.Enums.ContactScopingType](../../../../../Mechanical/DataModel/Enums/ContactScopingType.md#ContactScopingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactSide.
 
@@ -124,7 +124,7 @@ Gets or sets the ContactSide.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.ContactRegion"></a>
 
-### *property* ContactMinimumGeometricSlidingDistanceTracker.ContactRegion *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](./../../Connections/ContactRegion.md#ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumGeometricSlidingDistanceTracker.ContactRegion *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../Connections/ContactRegion.md#ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactRegion.
 
@@ -132,7 +132,7 @@ Gets or sets the ContactRegion.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.DataModelObjectCategory"></a>
 
-### *property* ContactMinimumGeometricSlidingDistanceTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumGeometricSlidingDistanceTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -148,7 +148,7 @@ Gets the IsSolved.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.ChartDimensions"></a>
 
-### *property* ContactMinimumGeometricSlidingDistanceTracker.ChartDimensions *: [Ansys.Mechanical.DataModel.Enums.ChartDimensions](./../../../../../Mechanical/DataModel/Enums/ChartDimensions.md#ChartDimensions) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumGeometricSlidingDistanceTracker.ChartDimensions *: [Ansys.Mechanical.DataModel.Enums.ChartDimensions](../../../../../Mechanical/DataModel/Enums/ChartDimensions.md#ChartDimensions) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Chart Dimensions
 
@@ -156,7 +156,7 @@ Gets or sets the Chart Dimensions
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.BoundaryCondition"></a>
 
-### *property* ContactMinimumGeometricSlidingDistanceTracker.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](./../../BoundaryConditions/GenericBoundaryCondition.md#GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumGeometricSlidingDistanceTracker.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](../../BoundaryConditions/GenericBoundaryCondition.md#GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BoundaryCondition.
 
@@ -308,7 +308,7 @@ Gets or sets the RequestedFrequency.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.AccelerationType"></a>
 
-### *property* ContactMinimumGeometricSlidingDistanceTracker.AccelerationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](./../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumGeometricSlidingDistanceTracker.AccelerationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AccelerationType.
 
@@ -316,7 +316,7 @@ Gets or sets the AccelerationType.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.ChartViewingStyle"></a>
 
-### *property* ContactMinimumGeometricSlidingDistanceTracker.ChartViewingStyle *: [Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType](./../../../../../Mechanical/DataModel/Enums/ChartAxisScaleType.md#ChartAxisScaleType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumGeometricSlidingDistanceTracker.ChartViewingStyle *: [Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType](../../../../../Mechanical/DataModel/Enums/ChartAxisScaleType.md#ChartAxisScaleType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ChartViewingStyle.
 
@@ -324,7 +324,7 @@ Gets or sets the ChartViewingStyle.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.DeformationType"></a>
 
-### *property* ContactMinimumGeometricSlidingDistanceTracker.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](./../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumGeometricSlidingDistanceTracker.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DeformationType.
 
@@ -332,7 +332,7 @@ Gets or sets the DeformationType.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.FilterType"></a>
 
-### *property* ContactMinimumGeometricSlidingDistanceTracker.FilterType *: [Ansys.Mechanical.DataModel.Enums.FilterType](./../../../../../Mechanical/DataModel/Enums/FilterType.md#FilterType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumGeometricSlidingDistanceTracker.FilterType *: [Ansys.Mechanical.DataModel.Enums.FilterType](../../../../../Mechanical/DataModel/Enums/FilterType.md#FilterType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FilterType.
 
@@ -340,7 +340,7 @@ Gets or sets the FilterType.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.SpatialResolution"></a>
 
-### *property* ContactMinimumGeometricSlidingDistanceTracker.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MultipleNodeType](./../../../../../Mechanical/DataModel/Enums/MultipleNodeType.md#MultipleNodeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumGeometricSlidingDistanceTracker.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MultipleNodeType](../../../../../Mechanical/DataModel/Enums/MultipleNodeType.md#MultipleNodeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SpatialResolution.
 
@@ -348,7 +348,7 @@ Gets or sets the SpatialResolution.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.NormalOrientation"></a>
 
-### *property* ContactMinimumGeometricSlidingDistanceTracker.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](./../../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumGeometricSlidingDistanceTracker.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NormalOrientation.
 
@@ -356,7 +356,7 @@ Gets or sets the NormalOrientation.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.CurvesAppearanceDisplay"></a>
 
-### *property* ContactMinimumGeometricSlidingDistanceTracker.CurvesAppearanceDisplay *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](./../../../../../Mechanical/DataModel/Enums/ChartPlotStyle.md#ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumGeometricSlidingDistanceTracker.CurvesAppearanceDisplay *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](../../../../../Mechanical/DataModel/Enums/ChartPlotStyle.md#ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CurvesAppearanceDisplay.
 
@@ -364,7 +364,7 @@ Gets or sets the CurvesAppearanceDisplay.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.ResultChartType"></a>
 
-### *property* ContactMinimumGeometricSlidingDistanceTracker.ResultChartType *: [Ansys.Mechanical.DataModel.Enums.ChartResultType](./../../../../../Mechanical/DataModel/Enums/ChartResultType.md#ChartResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumGeometricSlidingDistanceTracker.ResultChartType *: [Ansys.Mechanical.DataModel.Enums.ChartResultType](../../../../../Mechanical/DataModel/Enums/ChartResultType.md#ChartResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ResultChartType.
 
@@ -372,7 +372,7 @@ Gets the ResultChartType.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.DpfEvaluation"></a>
 
-### *property* ContactMinimumGeometricSlidingDistanceTracker.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](./../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumGeometricSlidingDistanceTracker.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DpfEvaluation.
 
@@ -380,7 +380,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.XAxisValues"></a>
 
-### *property* ContactMinimumGeometricSlidingDistanceTracker.XAxisValues *: [Ansys.Mechanical.DataModel.Enums.XAxisValues](./../../../../../Mechanical/DataModel/Enums/XAxisValues.md#XAxisValues) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumGeometricSlidingDistanceTracker.XAxisValues *: [Ansys.Mechanical.DataModel.Enums.XAxisValues](../../../../../Mechanical/DataModel/Enums/XAxisValues.md#XAxisValues) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XAxisValues.
 
@@ -388,7 +388,7 @@ Gets or sets the XAxisValues.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.ShearOrientation"></a>
 
-### *property* ContactMinimumGeometricSlidingDistanceTracker.ShearOrientation *: [Ansys.Mechanical.DataModel.Enums.ShearOrientationType](./../../../../../Mechanical/DataModel/Enums/ShearOrientationType.md#ShearOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumGeometricSlidingDistanceTracker.ShearOrientation *: [Ansys.Mechanical.DataModel.Enums.ShearOrientationType](../../../../../Mechanical/DataModel/Enums/ShearOrientationType.md#ShearOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShearOrientation.
 
@@ -396,7 +396,7 @@ Gets or sets the ShearOrientation.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.StressStrainType"></a>
 
-### *property* ContactMinimumGeometricSlidingDistanceTracker.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](./../../../../../Mechanical/DataModel/Enums/StressStrainType.md#StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumGeometricSlidingDistanceTracker.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](../../../../../Mechanical/DataModel/Enums/StressStrainType.md#StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StressStrainType.
 
@@ -404,7 +404,7 @@ Gets or sets the StressStrainType.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.TimeHistoryDisplay"></a>
 
-### *property* ContactMinimumGeometricSlidingDistanceTracker.TimeHistoryDisplay *: [Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType](./../../../../../Mechanical/DataModel/Enums/TimeHistoryDisplayType.md#TimeHistoryDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumGeometricSlidingDistanceTracker.TimeHistoryDisplay *: [Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType](../../../../../Mechanical/DataModel/Enums/TimeHistoryDisplayType.md#TimeHistoryDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TimeHistoryDisplay.
 
@@ -412,7 +412,7 @@ Gets or sets the TimeHistoryDisplay.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.VelocityType"></a>
 
-### *property* ContactMinimumGeometricSlidingDistanceTracker.VelocityType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](./../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumGeometricSlidingDistanceTracker.VelocityType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the VelocityType.
 
@@ -444,7 +444,7 @@ Gets or sets the UseParentFrequencyRange.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.CoordinateSystem"></a>
 
-### *property* ContactMinimumGeometricSlidingDistanceTracker.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumGeometricSlidingDistanceTracker.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -452,7 +452,7 @@ Gets or sets the CoordinateSystem.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.Spring"></a>
 
-### *property* ContactMinimumGeometricSlidingDistanceTracker.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](./../../Connections/Spring.md#Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumGeometricSlidingDistanceTracker.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../Connections/Spring.md#Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Spring.
 
@@ -476,7 +476,7 @@ Gets the list of children.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.Comments"></a>
 
-### *property* ContactMinimumGeometricSlidingDistanceTracker.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumGeometricSlidingDistanceTracker.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -484,7 +484,7 @@ Gets the list of associated comments.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.Images"></a>
 
-### *property* ContactMinimumGeometricSlidingDistanceTracker.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumGeometricSlidingDistanceTracker.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -520,7 +520,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.ExportAnimation"></a>
 
-### ContactMinimumGeometricSlidingDistanceTracker.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](./../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](./../../../../../Mechanical/Graphics/AnimationExportSettings.md#AnimationExportSettings))
+### ContactMinimumGeometricSlidingDistanceTracker.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -568,7 +568,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### ContactMinimumGeometricSlidingDistanceTracker.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### ContactMinimumGeometricSlidingDistanceTracker.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

@@ -21,7 +21,7 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 | [`No`](#ExportTopologyFileOption.No) |
 | [`GeometryOnly`](#ExportTopologyFileOption.GeometryOnly) |
 | [`ProgramControlled`](#ExportTopologyFileOption.ProgramControlled) |
-| [`Model`](./../../../ACT/Automation/Mechanical/Model.md#Model) |
+| [`Model`](../../../ACT/Automation/Mechanical/Model.md#Model) |
 
 <a id="import-detail"></a>
 

@@ -43,7 +43,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`CurrentStep`](#ElementBirthAndDeath.CurrentStep)                                                                     | Gets or sets the CurrentStep.                                 |
 | [`Status`](#ElementBirthAndDeath.Status)                                                                               | Gets or sets the Status.                                      |
 | [`Location`](#ElementBirthAndDeath.Location)                                                                           | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Suppressed`](#ElementBirthAndDeath.Suppressed)                                                                       | Gets or sets the Suppressed.                                  |
 | [`Children`](#ElementBirthAndDeath.Children)                                                                           | Gets the list of children.                                    |
 | [`Comments`](#ElementBirthAndDeath.Comments)                                                                           | Gets the list of associated comments.                         |
@@ -83,7 +83,7 @@ Gets or sets the CurrentStep.
 
 <a id="ElementBirthAndDeath.Status"></a>
 
-### *property* ElementBirthAndDeath.Status *: [Ansys.Mechanical.DataModel.Enums.ElementControlsStatus](./../../../../Mechanical/DataModel/Enums/ElementControlsStatus.md#ElementControlsStatus) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementBirthAndDeath.Status *: [Ansys.Mechanical.DataModel.Enums.ElementControlsStatus](../../../../Mechanical/DataModel/Enums/ElementControlsStatus.md#ElementControlsStatus) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Status.
 
@@ -99,7 +99,7 @@ Gets or sets the Location.
 
 <a id="ElementBirthAndDeath.DataModelObjectCategory"></a>
 
-### *property* ElementBirthAndDeath.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementBirthAndDeath.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -123,7 +123,7 @@ Gets the list of children.
 
 <a id="ElementBirthAndDeath.Comments"></a>
 
-### *property* ElementBirthAndDeath.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementBirthAndDeath.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -131,7 +131,7 @@ Gets the list of associated comments.
 
 <a id="ElementBirthAndDeath.Figures"></a>
 
-### *property* ElementBirthAndDeath.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementBirthAndDeath.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -139,7 +139,7 @@ Gets the list of associated figures.
 
 <a id="ElementBirthAndDeath.Images"></a>
 
-### *property* ElementBirthAndDeath.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementBirthAndDeath.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -191,7 +191,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### ElementBirthAndDeath.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### ElementBirthAndDeath.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

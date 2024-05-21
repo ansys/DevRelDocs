@@ -50,8 +50,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`ZCoordinate`](#RotationalVelocity.ZCoordinate)                                                                       | Gets or sets the ZCoordinate.                                 |
 | [`DefineBy`](#RotationalVelocity.DefineBy)                                                                             | Gets or sets the DefineBy.                                    |
 | [`IndependentVariable`](#RotationalVelocity.IndependentVariable)                                                       | Gets or sets the IndependentVariable.                         |
-| [`CoordinateSystem`](./../../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`CoordinateSystem`](../../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Axis`](#RotationalVelocity.Axis)                                                                                     | Gets or sets the Axis.                                        |
 | [`NumberOfSegments`](#RotationalVelocity.NumberOfSegments)                                                             | Gets or sets the NumberOfSegments.                            |
 | [`Suppressed`](#RotationalVelocity.Suppressed)                                                                         | Gets or sets the Suppressed.                                  |
@@ -94,7 +94,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="RotationalVelocity.XComponent"></a>
 
-### *property* RotationalVelocity.XComponent *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RotationalVelocity.XComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the XComponent.
 
@@ -102,7 +102,7 @@ Gets the XComponent.
 
 <a id="RotationalVelocity.YComponent"></a>
 
-### *property* RotationalVelocity.YComponent *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RotationalVelocity.YComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the YComponent.
 
@@ -110,7 +110,7 @@ Gets the YComponent.
 
 <a id="RotationalVelocity.ZComponent"></a>
 
-### *property* RotationalVelocity.ZComponent *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RotationalVelocity.ZComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ZComponent.
 
@@ -118,7 +118,7 @@ Gets the ZComponent.
 
 <a id="RotationalVelocity.Magnitude"></a>
 
-### *property* RotationalVelocity.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RotationalVelocity.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Magnitude.
 
@@ -150,7 +150,7 @@ Gets or sets the ZCoordinate.
 
 <a id="RotationalVelocity.DefineBy"></a>
 
-### *property* RotationalVelocity.DefineBy *: [Ansys.Mechanical.DataModel.Enums.LoadDefineBy](./../../../../Mechanical/DataModel/Enums/LoadDefineBy.md#LoadDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RotationalVelocity.DefineBy *: [Ansys.Mechanical.DataModel.Enums.LoadDefineBy](../../../../Mechanical/DataModel/Enums/LoadDefineBy.md#LoadDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DefineBy.
 
@@ -158,7 +158,7 @@ Gets or sets the DefineBy.
 
 <a id="RotationalVelocity.IndependentVariable"></a>
 
-### *property* RotationalVelocity.IndependentVariable *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](./../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RotationalVelocity.IndependentVariable *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IndependentVariable.
 
@@ -166,7 +166,7 @@ Gets or sets the IndependentVariable.
 
 <a id="RotationalVelocity.CoordinateSystem"></a>
 
-### *property* RotationalVelocity.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RotationalVelocity.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -174,7 +174,7 @@ Gets or sets the CoordinateSystem.
 
 <a id="RotationalVelocity.DataModelObjectCategory"></a>
 
-### *property* RotationalVelocity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RotationalVelocity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -182,7 +182,7 @@ Gets the current DataModelObject’s category.
 
 <a id="RotationalVelocity.Axis"></a>
 
-### *property* RotationalVelocity.Axis *: [Ansys.Mechanical.Math.BoundVector](./../../../../Mechanical/Math/BoundVector.md#BoundVector) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RotationalVelocity.Axis *: [Ansys.Mechanical.Math.BoundVector](../../../../Mechanical/Math/BoundVector.md#BoundVector) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Axis.
 
@@ -214,7 +214,7 @@ Gets the list of children.
 
 <a id="RotationalVelocity.Comments"></a>
 
-### *property* RotationalVelocity.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RotationalVelocity.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -222,7 +222,7 @@ Gets the list of associated comments.
 
 <a id="RotationalVelocity.Figures"></a>
 
-### *property* RotationalVelocity.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RotationalVelocity.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -230,7 +230,7 @@ Gets the list of associated figures.
 
 <a id="RotationalVelocity.Images"></a>
 
-### *property* RotationalVelocity.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RotationalVelocity.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -290,7 +290,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### RotationalVelocity.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### RotationalVelocity.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

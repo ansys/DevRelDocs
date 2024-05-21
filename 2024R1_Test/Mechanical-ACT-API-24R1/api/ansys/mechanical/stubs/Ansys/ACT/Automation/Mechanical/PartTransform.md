@@ -50,11 +50,11 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`DefineBy`](#PartTransform.DefineBy)                                                                               | Gets or sets the DefineBy.                                    |
 | [`ScopingMethod`](#PartTransform.ScopingMethod)                                                                     | Gets or sets the ScopingMethod.                               |
 | [`Suppressed`](#PartTransform.Suppressed)                                                                           | Gets or sets the Suppressed.                                  |
-| [`CoordinateSystem`](./../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
+| [`CoordinateSystem`](../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
 | [`SourceCoordinateSystem`](#PartTransform.SourceCoordinateSystem)                                                   | Gets or sets the SourceCoordinateSystem.                      |
 | [`TargetCoordinateSystem`](#PartTransform.TargetCoordinateSystem)                                                   | Gets or sets the TargetCoordinateSystem.                      |
 | [`Location`](#PartTransform.Location)                                                                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#PartTransform.Children)                                                                               | Gets the list of children.                                    |
 | [`Comments`](#PartTransform.Comments)                                                                               | Gets the list of associated comments.                         |
 | [`Figures`](#PartTransform.Figures)                                                                                 | Gets the list of associated figures.                          |
@@ -133,7 +133,7 @@ Gets or sets the TranslationZ.
 
 <a id="PartTransform.DefineBy"></a>
 
-### *property* PartTransform.DefineBy *: [Ansys.Mechanical.DataModel.Enums.PartTransformationDefinitionType](./../../../Mechanical/DataModel/Enums/PartTransformationDefinitionType.md#PartTransformationDefinitionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PartTransform.DefineBy *: [Ansys.Mechanical.DataModel.Enums.PartTransformationDefinitionType](../../../Mechanical/DataModel/Enums/PartTransformationDefinitionType.md#PartTransformationDefinitionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DefineBy.
 
@@ -141,7 +141,7 @@ Gets or sets the DefineBy.
 
 <a id="PartTransform.ScopingMethod"></a>
 
-### *property* PartTransform.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](./../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PartTransform.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -189,7 +189,7 @@ Gets or sets the Location.
 
 <a id="PartTransform.DataModelObjectCategory"></a>
 
-### *property* PartTransform.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PartTransform.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -281,7 +281,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### PartTransform.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### PartTransform.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

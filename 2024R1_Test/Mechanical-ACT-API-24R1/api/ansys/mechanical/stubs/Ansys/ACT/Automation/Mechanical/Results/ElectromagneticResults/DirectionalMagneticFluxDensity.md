@@ -52,7 +52,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.                     |
 | [`NormalOrientation`](#DirectionalMagneticFluxDensity.NormalOrientation)                                                  | Gets or sets the NormalOrientation.                                    |
-| [`DataModelObjectCategory`](./../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
 | [`ElectromagneticResultType`](#DirectionalMagneticFluxDensity.ElectromagneticResultType)                                  | Gets or sets the ElectromagneticResultType.                            |
 | [`AverageAcrossBodies`](#DirectionalMagneticFluxDensity.AverageAcrossBodies)                                              | Gets or sets the AverageAcrossBodies.                                  |
 | [`PlotData`](#DirectionalMagneticFluxDensity.PlotData)                                                                    | Gets the result table.                                                 |
@@ -66,14 +66,14 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`LoadStepForMaximumOfMinimumValues`](#DirectionalMagneticFluxDensity.LoadStepForMaximumOfMinimumValues)                  | Get the Load Step for the maximum of minimum values.                   |
 | [`LoadStepForMaximumOfMaximumValues`](#DirectionalMagneticFluxDensity.LoadStepForMaximumOfMaximumValues)                  | Get the Load Step for the maximum of maximum values.                   |
 | [`IsSolved`](#DirectionalMagneticFluxDensity.IsSolved)                                                                    | Gets the IsSolved.                                                     |
-| [`CoordinateSystem`](./../../../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the Coordinate System.                                    |
+| [`CoordinateSystem`](../../../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the Coordinate System.                                    |
 | [`ScopingMethod`](#DirectionalMagneticFluxDensity.ScopingMethod)                                                          | Gets or sets the ScopingMethod.                                        |
 | [`SetNumber`](#DirectionalMagneticFluxDensity.SetNumber)                                                                  | Gets or sets the Set Number.                                           |
 | [`CombinationNumber`](#DirectionalMagneticFluxDensity.CombinationNumber)                                                  | Gets or sets the Combination Number for a Solution Combination result. |
 | [`SolutionCombinationDriver`](#DirectionalMagneticFluxDensity.SolutionCombinationDriver)                                  | Gets or sets the SolutionCombinationDriver.                            |
-| [`Path`](./../../Path.md#Path)                                                                                              | Path property.                                                         |
-| [`Surface`](./../../Surface.md#Surface)                                                                                     | Surface property.                                                      |
-| [`NamedSelections`](./../../NamedSelections.md#NamedSelections)                                                             | Gets or sets the NamedSelections.                                      |
+| [`Path`](../../Path.md#Path)                                                                                              | Path property.                                                         |
+| [`Surface`](../../Surface.md#Surface)                                                                                     | Surface property.                                                      |
+| [`NamedSelections`](../../NamedSelections.md#NamedSelections)                                                             | Gets or sets the NamedSelections.                                      |
 | [`WaterfallPanelShowTextOnMosaic`](#DirectionalMagneticFluxDensity.WaterfallPanelShowTextOnMosaic)                        | Gets or sets the Waterfall Panel Mosaic Text Property.                 |
 | [`CrackFrontNumber`](#DirectionalMagneticFluxDensity.CrackFrontNumber)                                                    | Gets or sets the CrackFrontNumber.                                     |
 | [`GlobalIDs`](#DirectionalMagneticFluxDensity.GlobalIDs)                                                                  | Gets or sets the GlobalIDs.                                            |
@@ -94,7 +94,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`MinimumOfMinimumOverTime`](#DirectionalMagneticFluxDensity.MinimumOfMinimumOverTime)                                    | Gets the MinimumOfMinimumOverTime.                                     |
 | [`Time`](#DirectionalMagneticFluxDensity.Time)                                                                            | Gets the Time.                                                         |
 | [`DisplayTime`](#DirectionalMagneticFluxDensity.DisplayTime)                                                              | Gets or sets the DisplayTime.                                          |
-| [`GraphControlsXAxis`](./../../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#GraphControlsXAxis)                | Gets or sets the GraphControlsXAxis.                                   |
+| [`GraphControlsXAxis`](../../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#GraphControlsXAxis)                | Gets or sets the GraphControlsXAxis.                                   |
 | [`DisplayOption`](#DirectionalMagneticFluxDensity.DisplayOption)                                                          | Gets or sets the DisplayOption.                                        |
 | [`DpfEvaluation`](#DirectionalMagneticFluxDensity.DpfEvaluation)                                                          | Gets or sets the DpfEvaluation.                                        |
 | [`By`](#DirectionalMagneticFluxDensity.By)                                                                                | Gets or sets the By.                                                   |
@@ -131,7 +131,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="DirectionalMagneticFluxDensity.NormalOrientation"></a>
 
-### *property* DirectionalMagneticFluxDensity.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](./../../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFluxDensity.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NormalOrientation.
 
@@ -139,7 +139,7 @@ Gets or sets the NormalOrientation.
 
 <a id="DirectionalMagneticFluxDensity.DataModelObjectCategory"></a>
 
-### *property* DirectionalMagneticFluxDensity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFluxDensity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -147,7 +147,7 @@ Gets the current DataModelObject’s category.
 
 <a id="DirectionalMagneticFluxDensity.ElectromagneticResultType"></a>
 
-### *property* DirectionalMagneticFluxDensity.ElectromagneticResultType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](./../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFluxDensity.ElectromagneticResultType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ElectromagneticResultType.
 
@@ -163,7 +163,7 @@ Gets or sets the AverageAcrossBodies.
 
 <a id="DirectionalMagneticFluxDensity.PlotData"></a>
 
-### *property* DirectionalMagneticFluxDensity.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](./../../../../../Mechanical/DataModel/Results/ResultDataTable.md#ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFluxDensity.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../Mechanical/DataModel/Results/ResultDataTable.md#ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the result table.
 
@@ -251,7 +251,7 @@ Gets the IsSolved.
 
 <a id="DirectionalMagneticFluxDensity.CoordinateSystem"></a>
 
-### *property* DirectionalMagneticFluxDensity.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFluxDensity.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -261,7 +261,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="DirectionalMagneticFluxDensity.ScopingMethod"></a>
 
-### *property* DirectionalMagneticFluxDensity.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](./../../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFluxDensity.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -285,7 +285,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="DirectionalMagneticFluxDensity.SolutionCombinationDriver"></a>
 
-### *property* DirectionalMagneticFluxDensity.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](./../../../../../Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFluxDensity.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolutionCombinationDriver.
 
@@ -293,7 +293,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="DirectionalMagneticFluxDensity.Path"></a>
 
-### *property* DirectionalMagneticFluxDensity.Path *: [Ansys.ACT.Automation.Mechanical.Path](./../../Path.md#Path) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFluxDensity.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../Path.md#Path) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Path property.
 
@@ -301,7 +301,7 @@ Path property.
 
 <a id="DirectionalMagneticFluxDensity.Surface"></a>
 
-### *property* DirectionalMagneticFluxDensity.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](./../../Surface.md#Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFluxDensity.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Surface property.
 
@@ -477,7 +477,7 @@ Gets or sets the DisplayTime.
 
 <a id="DirectionalMagneticFluxDensity.GraphControlsXAxis"></a>
 
-### *property* DirectionalMagneticFluxDensity.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](./../../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFluxDensity.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GraphControlsXAxis.
 
@@ -485,7 +485,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="DirectionalMagneticFluxDensity.DisplayOption"></a>
 
-### *property* DirectionalMagneticFluxDensity.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](./../../../../../Mechanical/DataModel/Enums/ResultAveragingType.md#ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFluxDensity.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../Mechanical/DataModel/Enums/ResultAveragingType.md#ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DisplayOption.
 
@@ -493,7 +493,7 @@ Gets or sets the DisplayOption.
 
 <a id="DirectionalMagneticFluxDensity.DpfEvaluation"></a>
 
-### *property* DirectionalMagneticFluxDensity.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](./../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFluxDensity.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DpfEvaluation.
 
@@ -501,7 +501,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="DirectionalMagneticFluxDensity.By"></a>
 
-### *property* DirectionalMagneticFluxDensity.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](./../../../../../Mechanical/DataModel/Enums/SetDriverStyle.md#SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFluxDensity.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../Mechanical/DataModel/Enums/SetDriverStyle.md#SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the By.
 
@@ -509,7 +509,7 @@ Gets or sets the By.
 
 <a id="DirectionalMagneticFluxDensity.ItemType"></a>
 
-### *property* DirectionalMagneticFluxDensity.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](./../../../../../Mechanical/DataModel/Enums/ResultFileItemType.md#ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFluxDensity.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../Mechanical/DataModel/Enums/ResultFileItemType.md#ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ItemType.
 
@@ -541,7 +541,7 @@ Gets the list of children.
 
 <a id="DirectionalMagneticFluxDensity.Comments"></a>
 
-### *property* DirectionalMagneticFluxDensity.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFluxDensity.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -549,7 +549,7 @@ Gets the list of associated comments.
 
 <a id="DirectionalMagneticFluxDensity.Figures"></a>
 
-### *property* DirectionalMagneticFluxDensity.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFluxDensity.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -557,7 +557,7 @@ Gets the list of associated figures.
 
 <a id="DirectionalMagneticFluxDensity.Images"></a>
 
-### *property* DirectionalMagneticFluxDensity.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFluxDensity.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -625,7 +625,7 @@ Run the ExportToTextFile action.
 
 <a id="DirectionalMagneticFluxDensity.ExportAnimation"></a>
 
-### DirectionalMagneticFluxDensity.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](./../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](./../../../../../Mechanical/Graphics/AnimationExportSettings.md#AnimationExportSettings))
+### DirectionalMagneticFluxDensity.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -705,7 +705,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### DirectionalMagneticFluxDensity.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### DirectionalMagneticFluxDensity.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

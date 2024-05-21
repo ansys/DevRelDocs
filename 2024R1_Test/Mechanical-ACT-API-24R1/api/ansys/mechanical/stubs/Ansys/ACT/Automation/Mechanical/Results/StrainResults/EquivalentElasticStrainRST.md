@@ -51,7 +51,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](./../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
 | [`Mode`](#EquivalentElasticStrainRST.Mode)                                                                                | Gets or sets the Mode.                                                 |
 | [`Ply`](#EquivalentElasticStrainRST.Ply)                                                                                  | Gets or sets the Ply selection.                                        |
 | [`Plies`](#EquivalentElasticStrainRST.Plies)                                                                              | Plies property.                                                        |
@@ -64,8 +64,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`SweepingPhase`](#EquivalentElasticStrainRST.SweepingPhase)                                                              | Gets or sets the SweepingPhase.                                        |
 | [`PhaseIncrement`](#EquivalentElasticStrainRST.PhaseIncrement)                                                            | Gets or sets the PhaseIncrement.                                       |
 | [`Frequency`](#EquivalentElasticStrainRST.Frequency)                                                                      | Gets or sets the Frequency.                                            |
-| [`Position`](./../ProbeResults/Position.md#Position)                                                                        | Gets or sets the Position.                                             |
-| [`StressStrainType`](./../../../../../Mechanical/DataModel/Enums/StressStrainType.md#StressStrainType)                      | Gets or sets the StressStrainType.                                     |
+| [`Position`](../ProbeResults/Position.md#Position)                                                                        | Gets or sets the Position.                                             |
+| [`StressStrainType`](../../../../../Mechanical/DataModel/Enums/StressStrainType.md#StressStrainType)                      | Gets or sets the StressStrainType.                                     |
 | [`SubScopeBy`](#EquivalentElasticStrainRST.SubScopeBy)                                                                    | Gets or sets the SubScopeBy.                                           |
 | [`Amplitude`](#EquivalentElasticStrainRST.Amplitude)                                                                      | Gets or sets the Amplitude.                                            |
 | [`AverageAcrossBodies`](#EquivalentElasticStrainRST.AverageAcrossBodies)                                                  | Gets or sets the AverageAcrossBodies.                                  |
@@ -80,14 +80,14 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`LoadStepForMaximumOfMinimumValues`](#EquivalentElasticStrainRST.LoadStepForMaximumOfMinimumValues)                      | Get the Load Step for the maximum of minimum values.                   |
 | [`LoadStepForMaximumOfMaximumValues`](#EquivalentElasticStrainRST.LoadStepForMaximumOfMaximumValues)                      | Get the Load Step for the maximum of maximum values.                   |
 | [`IsSolved`](#EquivalentElasticStrainRST.IsSolved)                                                                        | Gets the IsSolved.                                                     |
-| [`CoordinateSystem`](./../../../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the Coordinate System.                                    |
+| [`CoordinateSystem`](../../../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the Coordinate System.                                    |
 | [`ScopingMethod`](#EquivalentElasticStrainRST.ScopingMethod)                                                              | Gets or sets the ScopingMethod.                                        |
 | [`SetNumber`](#EquivalentElasticStrainRST.SetNumber)                                                                      | Gets or sets the Set Number.                                           |
 | [`CombinationNumber`](#EquivalentElasticStrainRST.CombinationNumber)                                                      | Gets or sets the Combination Number for a Solution Combination result. |
 | [`SolutionCombinationDriver`](#EquivalentElasticStrainRST.SolutionCombinationDriver)                                      | Gets or sets the SolutionCombinationDriver.                            |
-| [`Path`](./../../Path.md#Path)                                                                                              | Path property.                                                         |
-| [`Surface`](./../../Surface.md#Surface)                                                                                     | Surface property.                                                      |
-| [`NamedSelections`](./../../NamedSelections.md#NamedSelections)                                                             | Gets or sets the NamedSelections.                                      |
+| [`Path`](../../Path.md#Path)                                                                                              | Path property.                                                         |
+| [`Surface`](../../Surface.md#Surface)                                                                                     | Surface property.                                                      |
+| [`NamedSelections`](../../NamedSelections.md#NamedSelections)                                                             | Gets or sets the NamedSelections.                                      |
 | [`WaterfallPanelShowTextOnMosaic`](#EquivalentElasticStrainRST.WaterfallPanelShowTextOnMosaic)                            | Gets or sets the Waterfall Panel Mosaic Text Property.                 |
 | [`CrackFrontNumber`](#EquivalentElasticStrainRST.CrackFrontNumber)                                                        | Gets or sets the CrackFrontNumber.                                     |
 | [`GlobalIDs`](#EquivalentElasticStrainRST.GlobalIDs)                                                                      | Gets or sets the GlobalIDs.                                            |
@@ -108,7 +108,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`MinimumOfMinimumOverTime`](#EquivalentElasticStrainRST.MinimumOfMinimumOverTime)                                        | Gets the MinimumOfMinimumOverTime.                                     |
 | [`Time`](#EquivalentElasticStrainRST.Time)                                                                                | Gets the Time.                                                         |
 | [`DisplayTime`](#EquivalentElasticStrainRST.DisplayTime)                                                                  | Gets or sets the DisplayTime.                                          |
-| [`GraphControlsXAxis`](./../../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#GraphControlsXAxis)                | Gets or sets the GraphControlsXAxis.                                   |
+| [`GraphControlsXAxis`](../../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#GraphControlsXAxis)                | Gets or sets the GraphControlsXAxis.                                   |
 | [`DisplayOption`](#EquivalentElasticStrainRST.DisplayOption)                                                              | Gets or sets the DisplayOption.                                        |
 | [`DpfEvaluation`](#EquivalentElasticStrainRST.DpfEvaluation)                                                              | Gets or sets the DpfEvaluation.                                        |
 | [`By`](#EquivalentElasticStrainRST.By)                                                                                    | Gets or sets the By.                                                   |
@@ -145,7 +145,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="EquivalentElasticStrainRST.DataModelObjectCategory"></a>
 
-### *property* EquivalentElasticStrainRST.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrainRST.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -161,7 +161,7 @@ Gets or sets the Mode.
 
 <a id="EquivalentElasticStrainRST.Ply"></a>
 
-### *property* EquivalentElasticStrainRST.Ply *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](./../../AnalysisPly.md#AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrainRST.Ply *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../AnalysisPly.md#AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Ply selection.
 
@@ -169,7 +169,7 @@ Gets or sets the Ply selection.
 
 <a id="EquivalentElasticStrainRST.Plies"></a>
 
-### *property* EquivalentElasticStrainRST.Plies *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](./../../ImportedPliesCollection.md#ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrainRST.Plies *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](../../ImportedPliesCollection.md#ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Plies property.
 
@@ -177,7 +177,7 @@ Plies property.
 
 <a id="EquivalentElasticStrainRST.EnvironmentSelection"></a>
 
-### *property* EquivalentElasticStrainRST.EnvironmentSelection *: [Ansys.ACT.Automation.Mechanical.Analysis](./../../Analysis.md#Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrainRST.EnvironmentSelection *: [Ansys.ACT.Automation.Mechanical.Analysis](../../Analysis.md#Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EnvironmentSelection.
 
@@ -249,7 +249,7 @@ Gets or sets the Frequency.
 
 <a id="EquivalentElasticStrainRST.Position"></a>
 
-### *property* EquivalentElasticStrainRST.Position *: [Ansys.Mechanical.DataModel.Enums.ShellFaceType](./../../../../../Mechanical/DataModel/Enums/ShellFaceType.md#ShellFaceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrainRST.Position *: [Ansys.Mechanical.DataModel.Enums.ShellFaceType](../../../../../Mechanical/DataModel/Enums/ShellFaceType.md#ShellFaceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Position.
 
@@ -257,7 +257,7 @@ Gets or sets the Position.
 
 <a id="EquivalentElasticStrainRST.StressStrainType"></a>
 
-### *property* EquivalentElasticStrainRST.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](./../../../../../Mechanical/DataModel/Enums/StressStrainType.md#StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrainRST.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](../../../../../Mechanical/DataModel/Enums/StressStrainType.md#StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StressStrainType.
 
@@ -265,7 +265,7 @@ Gets or sets the StressStrainType.
 
 <a id="EquivalentElasticStrainRST.SubScopeBy"></a>
 
-### *property* EquivalentElasticStrainRST.SubScopeBy *: [Ansys.Mechanical.DataModel.Enums.SubScopingDefineByType](./../../../../../Mechanical/DataModel/Enums/SubScopingDefineByType.md#SubScopingDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrainRST.SubScopeBy *: [Ansys.Mechanical.DataModel.Enums.SubScopingDefineByType](../../../../../Mechanical/DataModel/Enums/SubScopingDefineByType.md#SubScopingDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SubScopeBy.
 
@@ -289,7 +289,7 @@ Gets or sets the AverageAcrossBodies.
 
 <a id="EquivalentElasticStrainRST.PlotData"></a>
 
-### *property* EquivalentElasticStrainRST.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](./../../../../../Mechanical/DataModel/Results/ResultDataTable.md#ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrainRST.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../Mechanical/DataModel/Results/ResultDataTable.md#ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the result table.
 
@@ -377,7 +377,7 @@ Gets the IsSolved.
 
 <a id="EquivalentElasticStrainRST.CoordinateSystem"></a>
 
-### *property* EquivalentElasticStrainRST.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrainRST.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -387,7 +387,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="EquivalentElasticStrainRST.ScopingMethod"></a>
 
-### *property* EquivalentElasticStrainRST.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](./../../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrainRST.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -411,7 +411,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="EquivalentElasticStrainRST.SolutionCombinationDriver"></a>
 
-### *property* EquivalentElasticStrainRST.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](./../../../../../Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrainRST.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolutionCombinationDriver.
 
@@ -419,7 +419,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="EquivalentElasticStrainRST.Path"></a>
 
-### *property* EquivalentElasticStrainRST.Path *: [Ansys.ACT.Automation.Mechanical.Path](./../../Path.md#Path) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrainRST.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../Path.md#Path) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Path property.
 
@@ -427,7 +427,7 @@ Path property.
 
 <a id="EquivalentElasticStrainRST.Surface"></a>
 
-### *property* EquivalentElasticStrainRST.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](./../../Surface.md#Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrainRST.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Surface property.
 
@@ -603,7 +603,7 @@ Gets or sets the DisplayTime.
 
 <a id="EquivalentElasticStrainRST.GraphControlsXAxis"></a>
 
-### *property* EquivalentElasticStrainRST.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](./../../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrainRST.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GraphControlsXAxis.
 
@@ -611,7 +611,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="EquivalentElasticStrainRST.DisplayOption"></a>
 
-### *property* EquivalentElasticStrainRST.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](./../../../../../Mechanical/DataModel/Enums/ResultAveragingType.md#ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrainRST.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../Mechanical/DataModel/Enums/ResultAveragingType.md#ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DisplayOption.
 
@@ -619,7 +619,7 @@ Gets or sets the DisplayOption.
 
 <a id="EquivalentElasticStrainRST.DpfEvaluation"></a>
 
-### *property* EquivalentElasticStrainRST.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](./../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrainRST.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DpfEvaluation.
 
@@ -627,7 +627,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="EquivalentElasticStrainRST.By"></a>
 
-### *property* EquivalentElasticStrainRST.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](./../../../../../Mechanical/DataModel/Enums/SetDriverStyle.md#SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrainRST.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../Mechanical/DataModel/Enums/SetDriverStyle.md#SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the By.
 
@@ -635,7 +635,7 @@ Gets or sets the By.
 
 <a id="EquivalentElasticStrainRST.ItemType"></a>
 
-### *property* EquivalentElasticStrainRST.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](./../../../../../Mechanical/DataModel/Enums/ResultFileItemType.md#ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrainRST.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../Mechanical/DataModel/Enums/ResultFileItemType.md#ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ItemType.
 
@@ -667,7 +667,7 @@ Gets the list of children.
 
 <a id="EquivalentElasticStrainRST.Comments"></a>
 
-### *property* EquivalentElasticStrainRST.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrainRST.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -675,7 +675,7 @@ Gets the list of associated comments.
 
 <a id="EquivalentElasticStrainRST.Figures"></a>
 
-### *property* EquivalentElasticStrainRST.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrainRST.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -683,7 +683,7 @@ Gets the list of associated figures.
 
 <a id="EquivalentElasticStrainRST.Images"></a>
 
-### *property* EquivalentElasticStrainRST.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrainRST.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -751,7 +751,7 @@ Run the ExportToTextFile action.
 
 <a id="EquivalentElasticStrainRST.ExportAnimation"></a>
 
-### EquivalentElasticStrainRST.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](./../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](./../../../../../Mechanical/Graphics/AnimationExportSettings.md#AnimationExportSettings))
+### EquivalentElasticStrainRST.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -831,7 +831,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### EquivalentElasticStrainRST.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### EquivalentElasticStrainRST.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

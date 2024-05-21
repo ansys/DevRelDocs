@@ -49,7 +49,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`PlotStyle`](#Chart.PlotStyle)                                                                                     | Gets or sets the PlotStyle.                                   |
 | [`Content`](#Chart.Content)                                                                                         | Gets or sets the Content.                                     |
 | [`Scale`](#Chart.Scale)                                                                                             | Gets or sets the Scale.                                       |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#Chart.Children)                                                                                       | Gets the list of children.                                    |
 | [`Comments`](#Chart.Comments)                                                                                       | Gets the list of associated comments.                         |
 | [`Images`](#Chart.Images)                                                                                           | Gets the list of associated images.                           |
@@ -119,7 +119,7 @@ Gets or sets the YAxisLabel.
 
 <a id="Chart.Gridlines"></a>
 
-### *property* Chart.Gridlines *: [Ansys.Mechanical.DataModel.Enums.ChartGridlines](./../../../Mechanical/DataModel/Enums/ChartGridlines.md#ChartGridlines) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Chart.Gridlines *: [Ansys.Mechanical.DataModel.Enums.ChartGridlines](../../../Mechanical/DataModel/Enums/ChartGridlines.md#ChartGridlines) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Gridlines.
 
@@ -127,7 +127,7 @@ Gets or sets the Gridlines.
 
 <a id="Chart.ModalDisplayType"></a>
 
-### *property* Chart.ModalDisplayType *: [Ansys.Mechanical.DataModel.Enums.ChartModalType](./../../../Mechanical/DataModel/Enums/ChartModalType.md#ChartModalType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Chart.ModalDisplayType *: [Ansys.Mechanical.DataModel.Enums.ChartModalType](../../../Mechanical/DataModel/Enums/ChartModalType.md#ChartModalType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ModalDisplayType.
 
@@ -135,7 +135,7 @@ Gets or sets the ModalDisplayType.
 
 <a id="Chart.PlotStyle"></a>
 
-### *property* Chart.PlotStyle *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](./../../../Mechanical/DataModel/Enums/ChartPlotStyle.md#ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Chart.PlotStyle *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](../../../Mechanical/DataModel/Enums/ChartPlotStyle.md#ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PlotStyle.
 
@@ -143,7 +143,7 @@ Gets or sets the PlotStyle.
 
 <a id="Chart.Content"></a>
 
-### *property* Chart.Content *: [Ansys.Mechanical.DataModel.Enums.ChartReportType](./../../../Mechanical/DataModel/Enums/ChartReportType.md#ChartReportType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Chart.Content *: [Ansys.Mechanical.DataModel.Enums.ChartReportType](../../../Mechanical/DataModel/Enums/ChartReportType.md#ChartReportType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Content.
 
@@ -151,7 +151,7 @@ Gets or sets the Content.
 
 <a id="Chart.Scale"></a>
 
-### *property* Chart.Scale *: [Ansys.Mechanical.DataModel.Enums.ChartScale](./../../../Mechanical/DataModel/Enums/ChartScale.md#ChartScale) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Chart.Scale *: [Ansys.Mechanical.DataModel.Enums.ChartScale](../../../Mechanical/DataModel/Enums/ChartScale.md#ChartScale) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Scale.
 
@@ -159,7 +159,7 @@ Gets or sets the Scale.
 
 <a id="Chart.DataModelObjectCategory"></a>
 
-### *property* Chart.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Chart.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -235,7 +235,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### Chart.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### Chart.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

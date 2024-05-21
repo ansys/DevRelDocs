@@ -41,7 +41,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`TemperatureAbsMax`](#TemperatureConstraint.TemperatureAbsMax)                                                     | Gets or sets the TemperatureAbsMax.                                                      |
 | [`ScopingMethod`](#TemperatureConstraint.ScopingMethod)                                                             | Gets or sets the ScopingMethod.                                                          |
 | [`Location`](#TemperatureConstraint.Location)                                                                       | Gets or sets the Location.                                                               |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                             |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                             |
 | [`EnvironmentSelection`](#TemperatureConstraint.EnvironmentSelection)                                               | Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum. |
 | [`Suppressed`](#TemperatureConstraint.Suppressed)                                                                   | Gets or sets the Suppressed.                                                             |
 | [`Children`](#TemperatureConstraint.Children)                                                                       | Gets the list of children.                                                               |
@@ -71,7 +71,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="TemperatureConstraint.TemperatureAbsMax"></a>
 
-### *property* TemperatureConstraint.TemperatureAbsMax *: [Ansys.ACT.Mechanical.Fields.Field](./../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TemperatureConstraint.TemperatureAbsMax *: [Ansys.ACT.Mechanical.Fields.Field](../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TemperatureAbsMax.
 
@@ -79,7 +79,7 @@ Gets or sets the TemperatureAbsMax.
 
 <a id="TemperatureConstraint.ScopingMethod"></a>
 
-### *property* TemperatureConstraint.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](./../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TemperatureConstraint.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -95,7 +95,7 @@ Gets or sets the Location.
 
 <a id="TemperatureConstraint.DataModelObjectCategory"></a>
 
-### *property* TemperatureConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TemperatureConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -179,7 +179,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### TemperatureConstraint.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### TemperatureConstraint.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

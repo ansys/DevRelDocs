@@ -26,7 +26,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 |------------------------------------------------------|------------------------------------------------------------------------|
 | [`Type`](#Point.Type)                                | Type property.                                                         |
 | [`Definition`](#Point.Definition)                    | Definition property.                                                   |
-| [`Location`](./../../Graphics/Point.md#Point.Location) | Get the global location of this point.                                 |
+| [`Location`](../../Graphics/Point.md#Point.Location) | Get the global location of this point.                                 |
 | [`ObjectId`](#Point.ObjectId)                        | Get the ID of the represented entity.                                  |
 | [`IsRepresentation`](#Point.IsRepresentation)        | Check to see if there is a valid entity that this instance represents. |
 

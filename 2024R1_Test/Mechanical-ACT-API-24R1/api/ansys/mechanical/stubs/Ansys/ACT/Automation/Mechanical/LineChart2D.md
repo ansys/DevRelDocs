@@ -38,7 +38,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`MultiScopedCurveId`](#LineChart2D.MultiScopedCurveId)                                                             | Gets or sets the OutlineSelection.                            |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`Suppressed`](#LineChart2D.Suppressed)                                                                             | Gets or sets the Suppressed.                                  |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#LineChart2D.Children)                                                                                 | Gets the list of children.                                    |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`Properties`](#LineChart2D.Properties)                                                                             | Gets the list of properties for this object.                  |
@@ -82,7 +82,7 @@ Gets or sets the Suppressed.
 
 <a id="LineChart2D.DataModelObjectCategory"></a>
 
-### *property* LineChart2D.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LineChart2D.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -134,7 +134,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### LineChart2D.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### LineChart2D.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

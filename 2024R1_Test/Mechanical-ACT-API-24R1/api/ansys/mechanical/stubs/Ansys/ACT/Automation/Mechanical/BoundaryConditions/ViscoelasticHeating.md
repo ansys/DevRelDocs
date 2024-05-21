@@ -40,7 +40,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`ViscoelasticLossFraction`](#ViscoelasticHeating.ViscoelasticLossFraction)                                            | Gets or sets the ViscoelasticLossFraction.                    |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Suppressed`](#ViscoelasticHeating.Suppressed)                                                                        | Gets or sets the Suppressed.                                  |
 | [`Location`](#ViscoelasticHeating.Location)                                                                            | Gets or sets the Location.                                    |
 | [`Children`](#ViscoelasticHeating.Children)                                                                            | Gets the list of children.                                    |
@@ -80,7 +80,7 @@ Gets or sets the ViscoelasticLossFraction.
 
 <a id="ViscoelasticHeating.DataModelObjectCategory"></a>
 
-### *property* ViscoelasticHeating.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ViscoelasticHeating.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -112,7 +112,7 @@ Gets the list of children.
 
 <a id="ViscoelasticHeating.Comments"></a>
 
-### *property* ViscoelasticHeating.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ViscoelasticHeating.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -120,7 +120,7 @@ Gets the list of associated comments.
 
 <a id="ViscoelasticHeating.Images"></a>
 
-### *property* ViscoelasticHeating.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ViscoelasticHeating.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -172,7 +172,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### ViscoelasticHeating.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### ViscoelasticHeating.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

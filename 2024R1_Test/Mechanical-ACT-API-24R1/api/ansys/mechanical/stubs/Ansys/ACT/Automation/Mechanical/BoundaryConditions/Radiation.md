@@ -50,11 +50,11 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Emissivity`](#Radiation.Emissivity)                                                                                  | Gets or sets the Emissivity.                                  |
 | [`AmbientTemperature`](#Radiation.AmbientTemperature)                                                                  | Gets the AmbientTemperature.                                  |
 | [`EditDataFor`](#Radiation.EditDataFor)                                                                                | Gets or sets the EditDataFor.                                 |
-| [`EnclosureType`](./../../../../Mechanical/DataModel/Enums/EnclosureType.md#EnclosureType)                               | Gets or sets the EnclosureType.                               |
+| [`EnclosureType`](../../../../Mechanical/DataModel/Enums/EnclosureType.md#EnclosureType)                               | Gets or sets the EnclosureType.                               |
 | [`Correlation`](#Radiation.Correlation)                                                                                | Gets or sets the Correlation.                                 |
 | [`ShellFace`](#Radiation.ShellFace)                                                                                    | Gets or sets the ShellFace.                                   |
 | [`Location`](#Radiation.Location)                                                                                      | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Suppressed`](#Radiation.Suppressed)                                                                                  | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#Radiation.SharedRefBody)                                                                            | Gets or sets the SharedRefBody.                               |
 | [`Children`](#Radiation.Children)                                                                                      | Gets the list of children.                                    |
@@ -104,7 +104,7 @@ Gets or sets the Enclosure.
 
 <a id="Radiation.Emissivity"></a>
 
-### *property* Radiation.Emissivity *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Radiation.Emissivity *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Emissivity.
 
@@ -112,7 +112,7 @@ Gets or sets the Emissivity.
 
 <a id="Radiation.AmbientTemperature"></a>
 
-### *property* Radiation.AmbientTemperature *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Radiation.AmbientTemperature *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the AmbientTemperature.
 
@@ -120,7 +120,7 @@ Gets the AmbientTemperature.
 
 <a id="Radiation.EditDataFor"></a>
 
-### *property* Radiation.EditDataFor *: [Ansys.Mechanical.DataModel.Enums.ConvectionTableSelection](./../../../../Mechanical/DataModel/Enums/ConvectionTableSelection.md#ConvectionTableSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Radiation.EditDataFor *: [Ansys.Mechanical.DataModel.Enums.ConvectionTableSelection](../../../../Mechanical/DataModel/Enums/ConvectionTableSelection.md#ConvectionTableSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EditDataFor.
 
@@ -128,7 +128,7 @@ Gets or sets the EditDataFor.
 
 <a id="Radiation.EnclosureType"></a>
 
-### *property* Radiation.EnclosureType *: [Ansys.Mechanical.DataModel.Enums.EnclosureType](./../../../../Mechanical/DataModel/Enums/EnclosureType.md#EnclosureType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Radiation.EnclosureType *: [Ansys.Mechanical.DataModel.Enums.EnclosureType](../../../../Mechanical/DataModel/Enums/EnclosureType.md#EnclosureType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EnclosureType.
 
@@ -136,7 +136,7 @@ Gets or sets the EnclosureType.
 
 <a id="Radiation.Correlation"></a>
 
-### *property* Radiation.Correlation *: [Ansys.Mechanical.DataModel.Enums.RadiationType](./../../../../Mechanical/DataModel/Enums/RadiationType.md#RadiationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Radiation.Correlation *: [Ansys.Mechanical.DataModel.Enums.RadiationType](../../../../Mechanical/DataModel/Enums/RadiationType.md#RadiationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Correlation.
 
@@ -144,7 +144,7 @@ Gets or sets the Correlation.
 
 <a id="Radiation.ShellFace"></a>
 
-### *property* Radiation.ShellFace *: [Ansys.Mechanical.DataModel.Enums.ShellFaceType](./../../../../Mechanical/DataModel/Enums/ShellFaceType.md#ShellFaceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Radiation.ShellFace *: [Ansys.Mechanical.DataModel.Enums.ShellFaceType](../../../../Mechanical/DataModel/Enums/ShellFaceType.md#ShellFaceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShellFace.
 
@@ -160,7 +160,7 @@ Gets or sets the Location.
 
 <a id="Radiation.DataModelObjectCategory"></a>
 
-### *property* Radiation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Radiation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -176,7 +176,7 @@ Gets or sets the Suppressed.
 
 <a id="Radiation.SharedRefBody"></a>
 
-### *property* Radiation.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](./../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Radiation.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -192,7 +192,7 @@ Gets the list of children.
 
 <a id="Radiation.Comments"></a>
 
-### *property* Radiation.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Radiation.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -200,7 +200,7 @@ Gets the list of associated comments.
 
 <a id="Radiation.Figures"></a>
 
-### *property* Radiation.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Radiation.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -208,7 +208,7 @@ Gets the list of associated figures.
 
 <a id="Radiation.Images"></a>
 
-### *property* Radiation.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Radiation.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -308,7 +308,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### Radiation.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### Radiation.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

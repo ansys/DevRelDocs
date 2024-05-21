@@ -56,7 +56,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`PanelsToDisplay`](#VelocityWaterfallDiagram.PanelsToDisplay)                                                            | Gets or sets the PanelsToDisplay.                                      |
 | [`DisplayPanel`](#VelocityWaterfallDiagram.DisplayPanel)                                                                  | Gets or sets the DisplayPanel.                                         |
 | [`PanelContribution`](#VelocityWaterfallDiagram.PanelContribution)                                                        | Gets or sets the PanelContribution.                                    |
-| [`DataModelObjectCategory`](./../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
 | [`PlotData`](#VelocityWaterfallDiagram.PlotData)                                                                          | Gets the result table.                                                 |
 | [`Location`](#VelocityWaterfallDiagram.Location)                                                                          | Gets or sets the Location.                                             |
 | [`TimeForMinimumOfMinimumValues`](#VelocityWaterfallDiagram.TimeForMinimumOfMinimumValues)                                | Get the Time for the minimum of minimum values.                        |
@@ -68,14 +68,14 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`LoadStepForMaximumOfMinimumValues`](#VelocityWaterfallDiagram.LoadStepForMaximumOfMinimumValues)                        | Get the Load Step for the maximum of minimum values.                   |
 | [`LoadStepForMaximumOfMaximumValues`](#VelocityWaterfallDiagram.LoadStepForMaximumOfMaximumValues)                        | Get the Load Step for the maximum of maximum values.                   |
 | [`IsSolved`](#VelocityWaterfallDiagram.IsSolved)                                                                          | Gets the IsSolved.                                                     |
-| [`CoordinateSystem`](./../../../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the Coordinate System.                                    |
+| [`CoordinateSystem`](../../../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the Coordinate System.                                    |
 | [`ScopingMethod`](#VelocityWaterfallDiagram.ScopingMethod)                                                                | Gets or sets the ScopingMethod.                                        |
 | [`SetNumber`](#VelocityWaterfallDiagram.SetNumber)                                                                        | Gets or sets the Set Number.                                           |
 | [`CombinationNumber`](#VelocityWaterfallDiagram.CombinationNumber)                                                        | Gets or sets the Combination Number for a Solution Combination result. |
 | [`SolutionCombinationDriver`](#VelocityWaterfallDiagram.SolutionCombinationDriver)                                        | Gets or sets the SolutionCombinationDriver.                            |
-| [`Path`](./../../Path.md#Path)                                                                                              | Path property.                                                         |
-| [`Surface`](./../../Surface.md#Surface)                                                                                     | Surface property.                                                      |
-| [`NamedSelections`](./../../NamedSelections.md#NamedSelections)                                                             | Gets or sets the NamedSelections.                                      |
+| [`Path`](../../Path.md#Path)                                                                                              | Path property.                                                         |
+| [`Surface`](../../Surface.md#Surface)                                                                                     | Surface property.                                                      |
+| [`NamedSelections`](../../NamedSelections.md#NamedSelections)                                                             | Gets or sets the NamedSelections.                                      |
 | [`WaterfallPanelShowTextOnMosaic`](#VelocityWaterfallDiagram.WaterfallPanelShowTextOnMosaic)                              | Gets or sets the Waterfall Panel Mosaic Text Property.                 |
 | [`CrackFrontNumber`](#VelocityWaterfallDiagram.CrackFrontNumber)                                                          | Gets or sets the CrackFrontNumber.                                     |
 | [`GlobalIDs`](#VelocityWaterfallDiagram.GlobalIDs)                                                                        | Gets or sets the GlobalIDs.                                            |
@@ -96,7 +96,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`MinimumOfMinimumOverTime`](#VelocityWaterfallDiagram.MinimumOfMinimumOverTime)                                          | Gets the MinimumOfMinimumOverTime.                                     |
 | [`Time`](#VelocityWaterfallDiagram.Time)                                                                                  | Gets the Time.                                                         |
 | [`DisplayTime`](#VelocityWaterfallDiagram.DisplayTime)                                                                    | Gets or sets the DisplayTime.                                          |
-| [`GraphControlsXAxis`](./../../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#GraphControlsXAxis)                | Gets or sets the GraphControlsXAxis.                                   |
+| [`GraphControlsXAxis`](../../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#GraphControlsXAxis)                | Gets or sets the GraphControlsXAxis.                                   |
 | [`DisplayOption`](#VelocityWaterfallDiagram.DisplayOption)                                                                | Gets or sets the DisplayOption.                                        |
 | [`DpfEvaluation`](#VelocityWaterfallDiagram.DpfEvaluation)                                                                | Gets or sets the DpfEvaluation.                                        |
 | [`By`](#VelocityWaterfallDiagram.By)                                                                                      | Gets or sets the By.                                                   |
@@ -133,7 +133,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="VelocityWaterfallDiagram.SpatialResolution"></a>
 
-### *property* VelocityWaterfallDiagram.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MultipleNodeType](./../../../../../Mechanical/DataModel/Enums/MultipleNodeType.md#MultipleNodeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MultipleNodeType](../../../../../Mechanical/DataModel/Enums/MultipleNodeType.md#MultipleNodeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SpatialResolution.
 
@@ -141,7 +141,7 @@ Gets or sets the SpatialResolution.
 
 <a id="VelocityWaterfallDiagram.NormalOrientation"></a>
 
-### *property* VelocityWaterfallDiagram.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](./../../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NormalOrientation.
 
@@ -149,7 +149,7 @@ Gets or sets the NormalOrientation.
 
 <a id="VelocityWaterfallDiagram.PanelsToDisplay"></a>
 
-### *property* VelocityWaterfallDiagram.PanelsToDisplay *: [Ansys.Mechanical.DataModel.Enums.PanelsToDisplayType](./../../../../../Mechanical/DataModel/Enums/PanelsToDisplayType.md#PanelsToDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.PanelsToDisplay *: [Ansys.Mechanical.DataModel.Enums.PanelsToDisplayType](../../../../../Mechanical/DataModel/Enums/PanelsToDisplayType.md#PanelsToDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PanelsToDisplay.
 
@@ -173,7 +173,7 @@ Gets or sets the PanelContribution.
 
 <a id="VelocityWaterfallDiagram.DataModelObjectCategory"></a>
 
-### *property* VelocityWaterfallDiagram.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -181,7 +181,7 @@ Gets the current DataModelObject’s category.
 
 <a id="VelocityWaterfallDiagram.PlotData"></a>
 
-### *property* VelocityWaterfallDiagram.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](./../../../../../Mechanical/DataModel/Results/ResultDataTable.md#ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../Mechanical/DataModel/Results/ResultDataTable.md#ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the result table.
 
@@ -269,7 +269,7 @@ Gets the IsSolved.
 
 <a id="VelocityWaterfallDiagram.CoordinateSystem"></a>
 
-### *property* VelocityWaterfallDiagram.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -279,7 +279,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="VelocityWaterfallDiagram.ScopingMethod"></a>
 
-### *property* VelocityWaterfallDiagram.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](./../../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -303,7 +303,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="VelocityWaterfallDiagram.SolutionCombinationDriver"></a>
 
-### *property* VelocityWaterfallDiagram.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](./../../../../../Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolutionCombinationDriver.
 
@@ -311,7 +311,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="VelocityWaterfallDiagram.Path"></a>
 
-### *property* VelocityWaterfallDiagram.Path *: [Ansys.ACT.Automation.Mechanical.Path](./../../Path.md#Path) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../Path.md#Path) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Path property.
 
@@ -319,7 +319,7 @@ Path property.
 
 <a id="VelocityWaterfallDiagram.Surface"></a>
 
-### *property* VelocityWaterfallDiagram.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](./../../Surface.md#Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Surface property.
 
@@ -495,7 +495,7 @@ Gets or sets the DisplayTime.
 
 <a id="VelocityWaterfallDiagram.GraphControlsXAxis"></a>
 
-### *property* VelocityWaterfallDiagram.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](./../../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GraphControlsXAxis.
 
@@ -503,7 +503,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="VelocityWaterfallDiagram.DisplayOption"></a>
 
-### *property* VelocityWaterfallDiagram.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](./../../../../../Mechanical/DataModel/Enums/ResultAveragingType.md#ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../Mechanical/DataModel/Enums/ResultAveragingType.md#ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DisplayOption.
 
@@ -511,7 +511,7 @@ Gets or sets the DisplayOption.
 
 <a id="VelocityWaterfallDiagram.DpfEvaluation"></a>
 
-### *property* VelocityWaterfallDiagram.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](./../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DpfEvaluation.
 
@@ -519,7 +519,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="VelocityWaterfallDiagram.By"></a>
 
-### *property* VelocityWaterfallDiagram.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](./../../../../../Mechanical/DataModel/Enums/SetDriverStyle.md#SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../Mechanical/DataModel/Enums/SetDriverStyle.md#SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the By.
 
@@ -527,7 +527,7 @@ Gets or sets the By.
 
 <a id="VelocityWaterfallDiagram.ItemType"></a>
 
-### *property* VelocityWaterfallDiagram.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](./../../../../../Mechanical/DataModel/Enums/ResultFileItemType.md#ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../Mechanical/DataModel/Enums/ResultFileItemType.md#ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ItemType.
 
@@ -559,7 +559,7 @@ Gets the list of children.
 
 <a id="VelocityWaterfallDiagram.Comments"></a>
 
-### *property* VelocityWaterfallDiagram.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -567,7 +567,7 @@ Gets the list of associated comments.
 
 <a id="VelocityWaterfallDiagram.Figures"></a>
 
-### *property* VelocityWaterfallDiagram.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -575,7 +575,7 @@ Gets the list of associated figures.
 
 <a id="VelocityWaterfallDiagram.Images"></a>
 
-### *property* VelocityWaterfallDiagram.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -643,7 +643,7 @@ Run the ExportToTextFile action.
 
 <a id="VelocityWaterfallDiagram.ExportAnimation"></a>
 
-### VelocityWaterfallDiagram.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](./../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](./../../../../../Mechanical/Graphics/AnimationExportSettings.md#AnimationExportSettings))
+### VelocityWaterfallDiagram.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -723,7 +723,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### VelocityWaterfallDiagram.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### VelocityWaterfallDiagram.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

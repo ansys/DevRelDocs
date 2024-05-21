@@ -80,11 +80,11 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`TransferStep`](#ImportedLoadGroup.TransferStep)                                                                      | Controls which additive simulation step is used for the data transfer. |
 | [`Source`](#ImportedLoadGroup.Source)                                                                                  | Gets the Source.                                                       |
 | [`ResultFileTimestamp`](#ImportedLoadGroup.ResultFileTimestamp)                                                        | Gets the ResultFileTimestamp.                                          |
-| [`SourceDimension`](./../../../../Mechanical/DataModel/Enums/SourceDimension.md#SourceDimension)                         | Gets or sets the SourceDimension.                                      |
+| [`SourceDimension`](../../../../Mechanical/DataModel/Enums/SourceDimension.md#SourceDimension)                         | Gets or sets the SourceDimension.                                      |
 | [`DeleteMappedDataFilesAfterImport`](#ImportedLoadGroup.DeleteMappedDataFilesAfterImport)                              | Gets or sets the DeleteMappedDataFilesAfterImport.                     |
 | [`Suppressed`](#ImportedLoadGroup.Suppressed)                                                                          | Gets or sets the Suppressed.                                           |
 | [`TransferTemperaturesDuringSolve`](#ImportedLoadGroup.TransferTemperaturesDuringSolve)                                | Gets or sets the TransferTemperaturesDuringSolve.                      |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
 | [`Children`](#ImportedLoadGroup.Children)                                                                              | Gets the list of children.                                             |
 | [`Comments`](#ImportedLoadGroup.Comments)                                                                              | Gets the list of associated comments.                                  |
 | [`Figures`](#ImportedLoadGroup.Figures)                                                                                | Gets the list of associated figures.                                   |
@@ -115,7 +115,7 @@ Gets or sets the ResultFile.
 
 <a id="ImportedLoadGroup.ResultFileUnitSystem"></a>
 
-### *property* ImportedLoadGroup.ResultFileUnitSystem *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](./../../../../Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedLoadGroup.ResultFileUnitSystem *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](../../../../Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ResultFileUnitSystem.
 
@@ -163,7 +163,7 @@ Gets the ResultFileTimestamp.
 
 <a id="ImportedLoadGroup.SourceDimension"></a>
 
-### *property* ImportedLoadGroup.SourceDimension *: [Ansys.Mechanical.DataModel.Enums.SourceDimension](./../../../../Mechanical/DataModel/Enums/SourceDimension.md#SourceDimension) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedLoadGroup.SourceDimension *: [Ansys.Mechanical.DataModel.Enums.SourceDimension](../../../../Mechanical/DataModel/Enums/SourceDimension.md#SourceDimension) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SourceDimension.
 
@@ -195,7 +195,7 @@ Gets or sets the TransferTemperaturesDuringSolve.
 
 <a id="ImportedLoadGroup.DataModelObjectCategory"></a>
 
-### *property* ImportedLoadGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedLoadGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -211,7 +211,7 @@ Gets the list of children.
 
 <a id="ImportedLoadGroup.Comments"></a>
 
-### *property* ImportedLoadGroup.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedLoadGroup.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -219,7 +219,7 @@ Gets the list of associated comments.
 
 <a id="ImportedLoadGroup.Figures"></a>
 
-### *property* ImportedLoadGroup.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedLoadGroup.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -227,7 +227,7 @@ Gets the list of associated figures.
 
 <a id="ImportedLoadGroup.Images"></a>
 
-### *property* ImportedLoadGroup.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedLoadGroup.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -271,7 +271,7 @@ Run the CreateExternalLoadVelocitiesAndSyncAnalysisSettings action.
 
 <a id="ImportedLoadGroup.SetResultFile"></a>
 
-### ImportedLoadGroup.SetResultFile(resultFile: System.String, unitSystem: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](./../../../../Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType))
+### ImportedLoadGroup.SetResultFile(resultFile: System.String, unitSystem: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](../../../../Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType))
 
 Sets the ResultFile with unitSystem supplied. For MAPDL Results File without a unit system.
 
@@ -279,7 +279,7 @@ Sets the ResultFile with unitSystem supplied. For MAPDL Results File without a u
 
 <a id="ImportedLoadGroup.ImportExternalDataFiles"></a>
 
-### ImportedLoadGroup.ImportExternalDataFiles(externalDataFiles: [Ansys.Mechanical.ExternalData.ExternalDataFileCollection](./../../../../Mechanical/ExternalData/ExternalDataFileCollection.md#ExternalDataFileCollection))
+### ImportedLoadGroup.ImportExternalDataFiles(externalDataFiles: [Ansys.Mechanical.ExternalData.ExternalDataFileCollection](../../../../Mechanical/ExternalData/ExternalDataFileCollection.md#ExternalDataFileCollection))
 
 <!-- !! processed by numpydoc !! -->
 
@@ -547,7 +547,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### ImportedLoadGroup.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### ImportedLoadGroup.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

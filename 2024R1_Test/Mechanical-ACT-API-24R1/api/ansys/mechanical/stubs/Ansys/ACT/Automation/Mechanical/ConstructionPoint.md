@@ -44,7 +44,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`LocationX`](#ConstructionPoint.LocationX)                                                                         | Gets or sets the LocationX.                                   |
 | [`LocationY`](#ConstructionPoint.LocationY)                                                                         | Gets or sets the LocationY.                                   |
 | [`LocationZ`](#ConstructionPoint.LocationZ)                                                                         | Gets or sets the LocationZ.                                   |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#ConstructionPoint.Children)                                                                           | Gets the list of children.                                    |
 | [`Comments`](#ConstructionPoint.Comments)                                                                           | Gets the list of associated comments.                         |
 | [`Figures`](#ConstructionPoint.Figures)                                                                             | Gets the list of associated figures.                          |
@@ -105,7 +105,7 @@ Gets or sets the LocationZ.
 
 <a id="ConstructionPoint.DataModelObjectCategory"></a>
 
-### *property* ConstructionPoint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConstructionPoint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -205,7 +205,7 @@ Gets the list of children, filtered by type.
 
 <a id="id2"></a>
 
-### ConstructionPoint.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### ConstructionPoint.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

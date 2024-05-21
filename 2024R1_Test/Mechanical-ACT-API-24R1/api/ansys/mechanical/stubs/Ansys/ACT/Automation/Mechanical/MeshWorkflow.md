@@ -47,11 +47,11 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| [`WorkflowType`](./../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/WorkflowType.md#WorkflowType)           | Returns the workflow type which is applicable to the Input, Steps, and Output.                                                        |
+| [`WorkflowType`](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/WorkflowType.md#WorkflowType)           | Returns the workflow type which is applicable to the Input, Steps, and Output.                                                        |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.                                                                                    |
 | [`ImportedWorkflowFilename`](#MeshWorkflow.ImportedWorkflowFilename)                                                | The filename of the template.emx file that populated the workflow initially.                                                          |
 | [`UnitSystem`](#MeshWorkflow.UnitSystem)                                                                            | Defines the “unit system” of a Prime Model, if not defined, the unit system is deduced from the geometry at input data transfer time. |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                                                                          |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                                                                          |
 | [`Children`](#MeshWorkflow.Children)                                                                                | Gets the list of children.                                                                                                            |
 | [`Figures`](#MeshWorkflow.Figures)                                                                                  | Gets the list of associated figures.                                                                                                  |
 | [`Images`](#MeshWorkflow.Images)                                                                                    | Gets the list of associated images.                                                                                                   |
@@ -73,7 +73,7 @@ from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical import MeshWorkflow
 
 <a id="MeshWorkflow.WorkflowType"></a>
 
-### *property* MeshWorkflow.WorkflowType *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.WorkflowType](./../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/WorkflowType.md#WorkflowType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflow.WorkflowType *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.WorkflowType](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/WorkflowType.md#WorkflowType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Returns the workflow type which is applicable to the Input, Steps, and Output.
 
@@ -97,7 +97,7 @@ The filename of the template.emx file that populated the workflow initially.
 
 <a id="MeshWorkflow.UnitSystem"></a>
 
-### *property* MeshWorkflow.UnitSystem *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](./../../../Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflow.UnitSystem *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](../../../Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Defines the “unit system” of a Prime Model, if not defined, the unit system is deduced from the geometry at input data transfer time.
 
@@ -105,7 +105,7 @@ Defines the “unit system” of a Prime Model, if not defined, the unit system 
 
 <a id="MeshWorkflow.DataModelObjectCategory"></a>
 
-### *property* MeshWorkflow.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflow.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -253,7 +253,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### MeshWorkflow.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### MeshWorkflow.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

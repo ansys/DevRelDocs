@@ -53,8 +53,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`RelativeTolerance`](#NamedSelection.RelativeTolerance)                                                            | Gets or sets the RelativeTolerance.                                     |
 | [`ZeroTolerance`](#NamedSelection.ZeroTolerance)                                                                    | Gets or sets the ZeroTolerance.                                         |
 | [`ScopingMethod`](#NamedSelection.ScopingMethod)                                                                    | Gets or sets the ScopingMethod.                                         |
-| [`SendAs`](./../../../Mechanical/DataModel/Enums/SendAs.md#SendAs)                                                    | Gets or sets the SendAs.                                                |
-| [`ToleranceType`](./../../../Mechanical/DataModel/Enums/ToleranceType.md#ToleranceType)                               | Gets or sets the ToleranceType.                                         |
+| [`SendAs`](../../../Mechanical/DataModel/Enums/SendAs.md#SendAs)                                                    | Gets or sets the SendAs.                                                |
+| [`ToleranceType`](../../../Mechanical/DataModel/Enums/ToleranceType.md#ToleranceType)                               | Gets or sets the ToleranceType.                                         |
 | [`Type`](#NamedSelection.Type)                                                                                      | Gets the Type.                                                          |
 | [`IncludeProgramControlledInflation`](#NamedSelection.IncludeProgramControlledInflation)                            | Gets or sets the IncludeProgramControlledInflation.                     |
 | [`PreserveDuringSolve`](#NamedSelection.PreserveDuringSolve)                                                        | Gets or sets the PreserveDuringSolve.                                   |
@@ -62,7 +62,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Visible`](#NamedSelection.Visible)                                                                                | Gets or sets the Visible.                                               |
 | [`UsedByMeshWorksheet`](#NamedSelection.UsedByMeshWorksheet)                                                        | Gets the UsedByMeshWorksheet.                                           |
 | [`CreatedForCrack`](#NamedSelection.CreatedForCrack)                                                                | Gets the CreatedForCrack.                                               |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                            |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                            |
 | [`Children`](#NamedSelection.Children)                                                                              | Gets the list of children.                                              |
 | [`Comments`](#NamedSelection.Comments)                                                                              | Gets the list of associated comments.                                   |
 | [`Figures`](#NamedSelection.Figures)                                                                                | Gets the list of associated figures.                                    |
@@ -158,7 +158,7 @@ Gets or sets the ZeroTolerance.
 
 <a id="NamedSelection.ScopingMethod"></a>
 
-### *property* NamedSelection.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](./../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelection.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -166,7 +166,7 @@ Gets or sets the ScopingMethod.
 
 <a id="NamedSelection.SendAs"></a>
 
-### *property* NamedSelection.SendAs *: [Ansys.Mechanical.DataModel.Enums.SendAs](./../../../Mechanical/DataModel/Enums/SendAs.md#SendAs) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelection.SendAs *: [Ansys.Mechanical.DataModel.Enums.SendAs](../../../Mechanical/DataModel/Enums/SendAs.md#SendAs) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SendAs.
 
@@ -174,7 +174,7 @@ Gets or sets the SendAs.
 
 <a id="NamedSelection.ToleranceType"></a>
 
-### *property* NamedSelection.ToleranceType *: [Ansys.Mechanical.DataModel.Enums.ToleranceType](./../../../Mechanical/DataModel/Enums/ToleranceType.md#ToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelection.ToleranceType *: [Ansys.Mechanical.DataModel.Enums.ToleranceType](../../../Mechanical/DataModel/Enums/ToleranceType.md#ToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ToleranceType.
 
@@ -238,7 +238,7 @@ Gets the CreatedForCrack.
 
 <a id="NamedSelection.DataModelObjectCategory"></a>
 
-### *property* NamedSelection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -362,7 +362,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### NamedSelection.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### NamedSelection.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

@@ -42,9 +42,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`ScopingMethod`](#PullOutDirectionManufacturingConstraint.ScopingMethod)                                           | Gets or sets the ScopingMethod.                               |
 | [`Subtype`](#PullOutDirectionManufacturingConstraint.Subtype)                                                       | Gets or sets the Subtype.                                     |
 | [`Direction`](#PullOutDirectionManufacturingConstraint.Direction)                                                   | Gets or sets the Direction.                                   |
-| [`CoordinateSystem`](./../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
+| [`CoordinateSystem`](../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
 | [`Location`](#PullOutDirectionManufacturingConstraint.Location)                                                     | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Suppressed`](#PullOutDirectionManufacturingConstraint.Suppressed)                                                 | Gets or sets the Suppressed.                                  |
 | [`Selection`](#PullOutDirectionManufacturingConstraint.Selection)                                                   | Gets or sets the Selection.                                   |
 | [`Children`](#PullOutDirectionManufacturingConstraint.Children)                                                     | Gets the list of children.                                    |
@@ -74,7 +74,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="PullOutDirectionManufacturingConstraint.Axis"></a>
 
-### *property* PullOutDirectionManufacturingConstraint.Axis *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType](./../../../Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#CoordinateSystemAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PullOutDirectionManufacturingConstraint.Axis *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType](../../../Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#CoordinateSystemAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Axis.
 
@@ -82,7 +82,7 @@ Gets or sets the Axis.
 
 <a id="PullOutDirectionManufacturingConstraint.ScopingMethod"></a>
 
-### *property* PullOutDirectionManufacturingConstraint.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](./../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PullOutDirectionManufacturingConstraint.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -90,7 +90,7 @@ Gets or sets the ScopingMethod.
 
 <a id="PullOutDirectionManufacturingConstraint.Subtype"></a>
 
-### *property* PullOutDirectionManufacturingConstraint.Subtype *: [Ansys.Mechanical.DataModel.Enums.PullOutConstraintSubtype](./../../../Mechanical/DataModel/Enums/PullOutConstraintSubtype.md#PullOutConstraintSubtype) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PullOutDirectionManufacturingConstraint.Subtype *: [Ansys.Mechanical.DataModel.Enums.PullOutConstraintSubtype](../../../Mechanical/DataModel/Enums/PullOutConstraintSubtype.md#PullOutConstraintSubtype) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Subtype.
 
@@ -98,7 +98,7 @@ Gets or sets the Subtype.
 
 <a id="PullOutDirectionManufacturingConstraint.Direction"></a>
 
-### *property* PullOutDirectionManufacturingConstraint.Direction *: [Ansys.Mechanical.DataModel.Enums.PullOutDirectionType](./../../../Mechanical/DataModel/Enums/PullOutDirectionType.md#PullOutDirectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PullOutDirectionManufacturingConstraint.Direction *: [Ansys.Mechanical.DataModel.Enums.PullOutDirectionType](../../../Mechanical/DataModel/Enums/PullOutDirectionType.md#PullOutDirectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Direction.
 
@@ -122,7 +122,7 @@ Gets or sets the Location.
 
 <a id="PullOutDirectionManufacturingConstraint.DataModelObjectCategory"></a>
 
-### *property* PullOutDirectionManufacturingConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PullOutDirectionManufacturingConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -206,7 +206,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### PullOutDirectionManufacturingConstraint.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### PullOutDirectionManufacturingConstraint.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

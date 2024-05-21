@@ -18,9 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 | Name |
 | -------------------------------------------------------------------------------------------------------------- |
-| [`ContactDebonding`](./../../../ACT/Automation/Mechanical/ContactDebonding.md#ContactDebonding) |
+| [`ContactDebonding`](../../../ACT/Automation/Mechanical/ContactDebonding.md#ContactDebonding) |
 | [`CrackGrowth`](#DelaminationType.CrackGrowth) |
-| [`InterfaceDelamination`](./../../../ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination) |
+| [`InterfaceDelamination`](../../../ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination) |
 
 <a id="import-detail"></a>
 

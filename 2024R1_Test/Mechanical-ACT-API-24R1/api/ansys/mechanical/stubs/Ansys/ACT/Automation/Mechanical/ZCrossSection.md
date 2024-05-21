@@ -49,7 +49,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Width1`](#ZCrossSection.Width1)                                                                                   | Gets or sets the Width1.                                      |
 | [`Width2`](#ZCrossSection.Width2)                                                                                   | Gets or sets the Width2.                                      |
 | [`Width3`](#ZCrossSection.Width3)                                                                                   | Gets or sets the Width3.                                      |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#ZCrossSection.Children)                                                                               | Gets the list of children.                                    |
 | [`Comments`](#ZCrossSection.Comments)                                                                               | Gets the list of associated comments.                         |
 | [`Figures`](#ZCrossSection.Figures)                                                                                 | Gets the list of associated figures.                          |
@@ -153,7 +153,7 @@ Gets or sets the Width3.
 
 <a id="ZCrossSection.DataModelObjectCategory"></a>
 
-### *property* ZCrossSection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ZCrossSection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -245,7 +245,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### ZCrossSection.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### ZCrossSection.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

@@ -51,13 +51,13 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`ReflectionCoefficient`](#PhysicsRegion.ReflectionCoefficient)                                                              | Gets or sets the ReflectionCoefficient.                       |
 | [`ReferencePressure`](#PhysicsRegion.ReferencePressure)                                                                      | Gets or sets the ReferencePressure.                           |
 | [`ReferenceStaticPressure`](#PhysicsRegion.ReferenceStaticPressure)                                                          | Gets or sets the ReferenceStaticPressure.                     |
-| [`ArtificiallyMatchedLayers`](./../../../Mechanical/DataModel/Enums/ArtificiallyMatchedLayers.md#ArtificiallyMatchedLayers)    | Gets or sets the ArtificiallyMatchedLayers.                   |
+| [`ArtificiallyMatchedLayers`](../../../Mechanical/DataModel/Enums/ArtificiallyMatchedLayers.md#ArtificiallyMatchedLayers)    | Gets or sets the ArtificiallyMatchedLayers.                   |
 | [`Electric`](#PhysicsRegion.Electric)                                                                                        | Gets or sets the Electric.                                    |
-| [`ElectrostaticForce`](./../../../Mechanical/DataModel/Enums/ElectrostaticForce.md#ElectrostaticForce)                         | Gets or sets the ElectrostaticForce.                          |
+| [`ElectrostaticForce`](../../../Mechanical/DataModel/Enums/ElectrostaticForce.md#ElectrostaticForce)                         | Gets or sets the ElectrostaticForce.                          |
 | [`ElementMorphing`](#PhysicsRegion.ElementMorphing)                                                                          | Gets or sets the ElementMorphing.                             |
-| [`FluidBehavior`](./../../../Mechanical/DataModel/Enums/FluidBehavior.md#FluidBehavior)                                        | Gets or sets the FluidBehavior.                               |
-| [`ReflectionCoefficientsType`](./../../../Mechanical/DataModel/Enums/ReflectionCoefficientsType.md#ReflectionCoefficientsType) | Gets or sets the ReflectionCoefficientsType.                  |
-| [`PMLOptions`](./../../../Mechanical/DataModel/Enums/PMLOptions.md#PMLOptions)                                                 | Gets or sets the PMLOptions.                                  |
+| [`FluidBehavior`](../../../Mechanical/DataModel/Enums/FluidBehavior.md#FluidBehavior)                                        | Gets or sets the FluidBehavior.                               |
+| [`ReflectionCoefficientsType`](../../../Mechanical/DataModel/Enums/ReflectionCoefficientsType.md#ReflectionCoefficientsType) | Gets or sets the ReflectionCoefficientsType.                  |
+| [`PMLOptions`](../../../Mechanical/DataModel/Enums/PMLOptions.md#PMLOptions)                                                 | Gets or sets the PMLOptions.                                  |
 | [`ThermalStrain`](#PhysicsRegion.ThermalStrain)                                                                              | Gets or sets the ThermalStrain.                               |
 | [`ThermoelasticDamping`](#PhysicsRegion.ThermoelasticDamping)                                                                | Gets or sets the ThermoelasticDamping.                        |
 | [`Acoustics`](#PhysicsRegion.Acoustics)                                                                                      | Gets or sets the Acoustics.                                   |
@@ -68,7 +68,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Thermal`](#PhysicsRegion.Thermal)                                                                                          | Gets or sets the Thermal.                                     |
 | [`PMLElementCoordinateSystem`](#PhysicsRegion.PMLElementCoordinateSystem)                                                    | Gets or sets the PMLElementCoordinateSystem.                  |
 | [`Location`](#PhysicsRegion.Location)                                                                                        | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory)          | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory)          | Gets the current DataModelObject’s category.                  |
 | [`Children`](#PhysicsRegion.Children)                                                                                        | Gets the list of children.                                    |
 | [`Comments`](#PhysicsRegion.Comments)                                                                                        | Gets the list of associated comments.                         |
 | [`Figures`](#PhysicsRegion.Figures)                                                                                          | Gets the list of associated figures.                          |
@@ -171,7 +171,7 @@ Gets or sets the ReferenceStaticPressure.
 
 <a id="PhysicsRegion.ArtificiallyMatchedLayers"></a>
 
-### *property* PhysicsRegion.ArtificiallyMatchedLayers *: [Ansys.Mechanical.DataModel.Enums.ArtificiallyMatchedLayers](./../../../Mechanical/DataModel/Enums/ArtificiallyMatchedLayers.md#ArtificiallyMatchedLayers) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PhysicsRegion.ArtificiallyMatchedLayers *: [Ansys.Mechanical.DataModel.Enums.ArtificiallyMatchedLayers](../../../Mechanical/DataModel/Enums/ArtificiallyMatchedLayers.md#ArtificiallyMatchedLayers) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ArtificiallyMatchedLayers.
 
@@ -179,7 +179,7 @@ Gets or sets the ArtificiallyMatchedLayers.
 
 <a id="PhysicsRegion.Electric"></a>
 
-### *property* PhysicsRegion.Electric *: [Ansys.Mechanical.DataModel.Enums.ElectricType](./../../../Mechanical/DataModel/Enums/ElectricType.md#ElectricType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PhysicsRegion.Electric *: [Ansys.Mechanical.DataModel.Enums.ElectricType](../../../Mechanical/DataModel/Enums/ElectricType.md#ElectricType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Electric.
 
@@ -187,7 +187,7 @@ Gets or sets the Electric.
 
 <a id="PhysicsRegion.ElectrostaticForce"></a>
 
-### *property* PhysicsRegion.ElectrostaticForce *: [Ansys.Mechanical.DataModel.Enums.ElectrostaticForce](./../../../Mechanical/DataModel/Enums/ElectrostaticForce.md#ElectrostaticForce) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PhysicsRegion.ElectrostaticForce *: [Ansys.Mechanical.DataModel.Enums.ElectrostaticForce](../../../Mechanical/DataModel/Enums/ElectrostaticForce.md#ElectrostaticForce) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ElectrostaticForce.
 
@@ -195,7 +195,7 @@ Gets or sets the ElectrostaticForce.
 
 <a id="PhysicsRegion.ElementMorphing"></a>
 
-### *property* PhysicsRegion.ElementMorphing *: [Ansys.Mechanical.DataModel.Enums.ElementMorphingType](./../../../Mechanical/DataModel/Enums/ElementMorphingType.md#ElementMorphingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PhysicsRegion.ElementMorphing *: [Ansys.Mechanical.DataModel.Enums.ElementMorphingType](../../../Mechanical/DataModel/Enums/ElementMorphingType.md#ElementMorphingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ElementMorphing.
 
@@ -203,7 +203,7 @@ Gets or sets the ElementMorphing.
 
 <a id="PhysicsRegion.FluidBehavior"></a>
 
-### *property* PhysicsRegion.FluidBehavior *: [Ansys.Mechanical.DataModel.Enums.FluidBehavior](./../../../Mechanical/DataModel/Enums/FluidBehavior.md#FluidBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PhysicsRegion.FluidBehavior *: [Ansys.Mechanical.DataModel.Enums.FluidBehavior](../../../Mechanical/DataModel/Enums/FluidBehavior.md#FluidBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FluidBehavior.
 
@@ -211,7 +211,7 @@ Gets or sets the FluidBehavior.
 
 <a id="PhysicsRegion.ReflectionCoefficientsType"></a>
 
-### *property* PhysicsRegion.ReflectionCoefficientsType *: [Ansys.Mechanical.DataModel.Enums.ReflectionCoefficientsType](./../../../Mechanical/DataModel/Enums/ReflectionCoefficientsType.md#ReflectionCoefficientsType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PhysicsRegion.ReflectionCoefficientsType *: [Ansys.Mechanical.DataModel.Enums.ReflectionCoefficientsType](../../../Mechanical/DataModel/Enums/ReflectionCoefficientsType.md#ReflectionCoefficientsType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReflectionCoefficientsType.
 
@@ -219,7 +219,7 @@ Gets or sets the ReflectionCoefficientsType.
 
 <a id="PhysicsRegion.PMLOptions"></a>
 
-### *property* PhysicsRegion.PMLOptions *: [Ansys.Mechanical.DataModel.Enums.PMLOptions](./../../../Mechanical/DataModel/Enums/PMLOptions.md#PMLOptions) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PhysicsRegion.PMLOptions *: [Ansys.Mechanical.DataModel.Enums.PMLOptions](../../../Mechanical/DataModel/Enums/PMLOptions.md#PMLOptions) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PMLOptions.
 
@@ -227,7 +227,7 @@ Gets or sets the PMLOptions.
 
 <a id="PhysicsRegion.ThermalStrain"></a>
 
-### *property* PhysicsRegion.ThermalStrain *: [Ansys.Mechanical.DataModel.Enums.ThermalStrainType](./../../../Mechanical/DataModel/Enums/ThermalStrainType.md#ThermalStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PhysicsRegion.ThermalStrain *: [Ansys.Mechanical.DataModel.Enums.ThermalStrainType](../../../Mechanical/DataModel/Enums/ThermalStrainType.md#ThermalStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ThermalStrain.
 
@@ -235,7 +235,7 @@ Gets or sets the ThermalStrain.
 
 <a id="PhysicsRegion.ThermoelasticDamping"></a>
 
-### *property* PhysicsRegion.ThermoelasticDamping *: [Ansys.Mechanical.DataModel.Enums.ThermoelasticDampingType](./../../../Mechanical/DataModel/Enums/ThermoelasticDampingType.md#ThermoelasticDampingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PhysicsRegion.ThermoelasticDamping *: [Ansys.Mechanical.DataModel.Enums.ThermoelasticDampingType](../../../Mechanical/DataModel/Enums/ThermoelasticDampingType.md#ThermoelasticDampingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ThermoelasticDamping.
 
@@ -307,7 +307,7 @@ Gets or sets the Location.
 
 <a id="PhysicsRegion.DataModelObjectCategory"></a>
 
-### *property* PhysicsRegion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PhysicsRegion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -407,7 +407,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### PhysicsRegion.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### PhysicsRegion.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

@@ -45,8 +45,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`QuantityName`](#Column.QuantityName)                                                                                           | QuantityName property.           |
 | [`Unit`](#Column.Unit)                                                                                                           | Unit property.                   |
 | [`Values`](#Column.Values)                                                                                                       | Values property.                 |
-| [`VariableClassification`](./../../../Mechanical/DataModel/MechanicalEnums/Table/VariableClassification.md#VariableClassification) | VariableClassification property. |
-| [`VariableType`](./../../../Mechanical/DataModel/MechanicalEnums/Table/VariableType.md#VariableType)                               | VariableType property.           |
+| [`VariableClassification`](../../../Mechanical/DataModel/MechanicalEnums/Table/VariableClassification.md#VariableClassification) | VariableClassification property. |
+| [`VariableType`](../../../Mechanical/DataModel/MechanicalEnums/Table/VariableType.md#VariableType)                               | VariableType property.           |
 
 <a id="import-detail"></a>
 
@@ -158,7 +158,7 @@ Values property.
 
 <a id="Column.VariableClassification"></a>
 
-### *property* Column.VariableClassification *: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableClassification](./../../../Mechanical/DataModel/MechanicalEnums/Table/VariableClassification.md#VariableClassification) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Column.VariableClassification *: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableClassification](../../../Mechanical/DataModel/MechanicalEnums/Table/VariableClassification.md#VariableClassification) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 VariableClassification property.
 
@@ -166,7 +166,7 @@ VariableClassification property.
 
 <a id="Column.VariableType"></a>
 
-### *property* Column.VariableType *: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableType](./../../../Mechanical/DataModel/MechanicalEnums/Table/VariableType.md#VariableType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Column.VariableType *: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableType](../../../Mechanical/DataModel/MechanicalEnums/Table/VariableType.md#VariableType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 VariableType property.
 
@@ -214,7 +214,7 @@ VariableType property.
 
 <a id="Column.ChangeVariableType"></a>
 
-### Column.ChangeVariableType(newVariableType: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableType](./../../../Mechanical/DataModel/MechanicalEnums/Table/VariableType.md#VariableType), newVariableClassification: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableClassification](./../../../Mechanical/DataModel/MechanicalEnums/Table/VariableClassification.md#VariableClassification), newUnit: System.String)
+### Column.ChangeVariableType(newVariableType: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableType](../../../Mechanical/DataModel/MechanicalEnums/Table/VariableType.md#VariableType), newVariableClassification: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableClassification](../../../Mechanical/DataModel/MechanicalEnums/Table/VariableClassification.md#VariableClassification), newUnit: System.String)
 
 Contains the business logic for changing the variable type.
 

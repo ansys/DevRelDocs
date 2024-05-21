@@ -21,7 +21,7 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 | [`AMOctree`](#NonlinearAdaptivityCriterionType.AMOctree) |
 | [`Box`](#NonlinearAdaptivityCriterionType.Box) |
 | [`Energy`](#NonlinearAdaptivityCriterionType.Energy) |
-| [`Mesh`](./../../../ACT/Automation/Mechanical/MeshControls/Mesh.md#Mesh) |
+| [`Mesh`](../../../ACT/Automation/Mechanical/MeshControls/Mesh.md#Mesh) |
 | [`Undefined`](#NonlinearAdaptivityCriterionType.Undefined) |
 
 <a id="import-detail"></a>

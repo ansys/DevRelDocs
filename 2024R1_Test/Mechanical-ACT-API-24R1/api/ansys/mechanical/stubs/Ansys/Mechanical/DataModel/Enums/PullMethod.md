@@ -21,7 +21,7 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 | [`Extrude`](#PullMethod.Extrude) |
 | [`LineCoating`](#PullMethod.LineCoating) |
 | [`Revolve`](#PullMethod.Revolve) |
-| [`SurfaceCoating`](./../../../ACT/Automation/Mechanical/SurfaceCoating.md#SurfaceCoating) |
+| [`SurfaceCoating`](../../../ACT/Automation/Mechanical/SurfaceCoating.md#SurfaceCoating) |
 
 <a id="import-detail"></a>
 

@@ -39,7 +39,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 |---------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.                                       |
 | [`ComplianceLimit`](#ComplianceConstraint.ComplianceLimit)                                                          | Gets or sets the ComplianceLimit.                                                        |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                             |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                             |
 | [`EnvironmentSelection`](#ComplianceConstraint.EnvironmentSelection)                                                | Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum. |
 | [`Suppressed`](#ComplianceConstraint.Suppressed)                                                                    | Gets or sets the Suppressed.                                                             |
 | [`Children`](#ComplianceConstraint.Children)                                                                        | Gets the list of children.                                                               |
@@ -69,7 +69,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ComplianceConstraint.ComplianceLimit"></a>
 
-### *property* ComplianceConstraint.ComplianceLimit *: [Ansys.ACT.Mechanical.Fields.Field](./../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ComplianceConstraint.ComplianceLimit *: [Ansys.ACT.Mechanical.Fields.Field](../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ComplianceLimit.
 
@@ -77,7 +77,7 @@ Gets or sets the ComplianceLimit.
 
 <a id="ComplianceConstraint.DataModelObjectCategory"></a>
 
-### *property* ComplianceConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ComplianceConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -161,7 +161,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### ComplianceConstraint.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### ComplianceConstraint.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

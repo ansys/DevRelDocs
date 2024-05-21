@@ -53,7 +53,7 @@ Gets or Sets the Element Visibility of the Section Plane
 
 <a id="SectionPlanes.Capping"></a>
 
-### *property* SectionPlanes.Capping *: [Ansys.Mechanical.DataModel.Enums.SectionPlaneCappingType](./../DataModel/Enums/SectionPlaneCappingType.md#SectionPlaneCappingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SectionPlanes.Capping *: [Ansys.Mechanical.DataModel.Enums.SectionPlaneCappingType](../DataModel/Enums/SectionPlaneCappingType.md#SectionPlaneCappingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or Sets the Capping style of the Section Plane
 

@@ -38,7 +38,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 | Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [`ControlType`](./../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ControlType.md#ControlType)                   | Returns the type of the control.                                                                                                                                                                                                          |
+| [`ControlType`](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ControlType.md#ControlType)                   | Returns the type of the control.                                                                                                                                                                                                          |
 | [`EnableCheckpoint`](#MeshWorkflowControl.EnableCheckpoint)                                                              | Flag whether to enable a checkpoint or not. The default value is false.                                                                                                                                                                   |
 | [`InnerScopeOutcome`](#MeshWorkflowControl.InnerScopeOutcome)                                                            | If the InnerScopeDefinition is set to Outcome, then this property is visible. It defines the previous step outcome. This way we input the results of a previous step to the current step. The input applies to inner region of enclosure. |
 | [`ExternalScopeOutcome`](#MeshWorkflowControl.ExternalScopeOutcome)                                                      | If the InnerScopeDefinition is set to Outcome, then this property is visible. It defines the previous step outcome. This way we input the results of a previous step to the current step. The input applies to inner region of enclosure. |
@@ -49,13 +49,13 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`InnerScopeMethod`](#MeshWorkflowControl.InnerScopeMethod)                                                              | The method can be label/zone/part and it is applied to inner region of enclosure.                                                                                                                                                         |
 | [`ExternalScopeDefinition`](#MeshWorkflowControl.ExternalScopeDefinition)                                                | It is defined by value or outcome depending on if the External scope is defined manual by the user or defined based on a previous outcome.                                                                                                |
 | [`ExternalScopeMethod`](#MeshWorkflowControl.ExternalScopeMethod)                                                        | The method can be label/zone/part and it is applied to external region of enclosure.                                                                                                                                                      |
-| [`SurfaceMeshType`](./../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/SurfaceMeshType.md#SurfaceMeshType)       | This property gives control over what type of elements need to be generated in the mesh. The supported surface mesh types are Triangles and Quadrilaterals.                                                                               |
+| [`SurfaceMeshType`](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/SurfaceMeshType.md#SurfaceMeshType)       | This property gives control over what type of elements need to be generated in the mesh. The supported surface mesh types are Triangles and Quadrilaterals.                                                                               |
 | [`MeshFlowControl`](#MeshWorkflowControl.MeshFlowControl)                                                                | This property gives control over the flow of mesh during surface mesh generation. The supported modes are None, and Global Cartesian.                                                                                                     |
 | [`TriangleCountReductionMode`](#MeshWorkflowControl.TriangleCountReductionMode)                                          | This property gives control over the mode/degree of triangle count reduction during surface mesh generation. The supported modes are None, Conservative and Aggressive.                                                                   |
-| [`VolumeMeshType`](./../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/VolumeMeshType.md#VolumeMeshType)          | Type of Volume elements such as Tetrahedrons and Hex.                                                                                                                                                                                     |
+| [`VolumeMeshType`](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/VolumeMeshType.md#VolumeMeshType)          | Type of Volume elements such as Tetrahedrons and Hex.                                                                                                                                                                                     |
 | [`CenterPosition`](#MeshWorkflowControl.CenterPosition)                                                                  | It is defined by “Centered”, “Minimal”, and “User Defined”.                                                                                                                                                                               |
 | [`RegionType`](#MeshWorkflowControl.RegionType)                                                                          | It is defined by Material Point or External.                                                                                                                                                                                              |
-| [`MaterialPointType`](./../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/MaterialPointType.md#MaterialPointType) | It defines the type of material point, it can be “Include” or “Exclude”.                                                                                                                                                                  |
+| [`MaterialPointType`](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/MaterialPointType.md#MaterialPointType) | It defines the type of material point, it can be “Include” or “Exclude”.                                                                                                                                                                  |
 | [`XCoordinate`](#MeshWorkflowControl.XCoordinate)                                                                        | It defines the X Coordinate.                                                                                                                                                                                                              |
 | [`ZCoordinate`](#MeshWorkflowControl.ZCoordinate)                                                                        | It defines the Z Coordinate.                                                                                                                                                                                                              |
 | [`YCoordinate`](#MeshWorkflowControl.YCoordinate)                                                                        | It defines the Y Coordinate.                                                                                                                                                                                                              |
@@ -95,7 +95,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`DeleteInputScope`](#MeshWorkflowControl.DeleteInputScope)                                                              | Deletion of input scope. The default value is false.                                                                                                                                                                                      |
 | [`ExcludeEnclosure`](#MeshWorkflowControl.ExcludeEnclosure)                                                              | Excluding Enclosure . The default value is false.                                                                                                                                                                                         |
 | [`ReverseSurfaceOrientation`](#MeshWorkflowControl.ReverseSurfaceOrientation)                                            | Reverse Surface Orientation. The default value is false.                                                                                                                                                                                  |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory)      | Gets the current DataModelObject’s category.                                                                                                                                                                                              |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory)      | Gets the current DataModelObject’s category.                                                                                                                                                                                              |
 | [`Children`](#MeshWorkflowControl.Children)                                                                              | Gets the list of children.                                                                                                                                                                                                                |
 | [`Figures`](#MeshWorkflowControl.Figures)                                                                                | Gets the list of associated figures.                                                                                                                                                                                                      |
 | [`Images`](#MeshWorkflowControl.Images)                                                                                  | Gets the list of associated images.                                                                                                                                                                                                       |
@@ -117,7 +117,7 @@ from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical import MeshWorkflowC
 
 <a id="MeshWorkflowControl.ControlType"></a>
 
-### *property* MeshWorkflowControl.ControlType *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ControlType](./../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ControlType.md#ControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.ControlType *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ControlType](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ControlType.md#ControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Returns the type of the control.
 
@@ -125,7 +125,7 @@ Returns the type of the control.
 
 <a id="MeshWorkflowControl.EnableCheckpoint"></a>
 
-### *property* MeshWorkflowControl.EnableCheckpoint *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.CheckpointDefinitionType](./../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/CheckpointDefinitionType.md#CheckpointDefinitionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.EnableCheckpoint *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.CheckpointDefinitionType](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/CheckpointDefinitionType.md#CheckpointDefinitionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Flag whether to enable a checkpoint or not. The default value is false.
 
@@ -157,7 +157,7 @@ If the InnerScopeDefinition is set to Outcome, then this property is visible. It
 
 <a id="MeshWorkflowControl.ScopeDefinition"></a>
 
-### *property* MeshWorkflowControl.ScopeDefinition *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ScopeDefinedByType](./../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ScopeDefinedByType.md#ScopeDefinedByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.ScopeDefinition *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ScopeDefinedByType](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ScopeDefinedByType.md#ScopeDefinedByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 It is defined by value or outcome.
 
@@ -165,7 +165,7 @@ It is defined by value or outcome.
 
 <a id="MeshWorkflowControl.ScopeMethod"></a>
 
-### *property* MeshWorkflowControl.ScopeMethod *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ScopeType](./../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ScopeType.md#ScopeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.ScopeMethod *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ScopeType](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ScopeType.md#ScopeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The method can be label/zone/part.
 
@@ -173,7 +173,7 @@ The method can be label/zone/part.
 
 <a id="MeshWorkflowControl.InnerScopeDefinition"></a>
 
-### *property* MeshWorkflowControl.InnerScopeDefinition *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ScopeDefinedByType](./../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ScopeDefinedByType.md#ScopeDefinedByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.InnerScopeDefinition *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ScopeDefinedByType](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ScopeDefinedByType.md#ScopeDefinedByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 It is defined by value or outcome depending on if the Inner scope is defined manually by the user or defined based on a previous outcome.
 
@@ -181,7 +181,7 @@ It is defined by value or outcome depending on if the Inner scope is defined man
 
 <a id="MeshWorkflowControl.InnerScopeMethod"></a>
 
-### *property* MeshWorkflowControl.InnerScopeMethod *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ScopeType](./../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ScopeType.md#ScopeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.InnerScopeMethod *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ScopeType](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ScopeType.md#ScopeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The method can be label/zone/part and it is applied to inner region of enclosure.
 
@@ -189,7 +189,7 @@ The method can be label/zone/part and it is applied to inner region of enclosure
 
 <a id="MeshWorkflowControl.ExternalScopeDefinition"></a>
 
-### *property* MeshWorkflowControl.ExternalScopeDefinition *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ScopeDefinedByType](./../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ScopeDefinedByType.md#ScopeDefinedByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.ExternalScopeDefinition *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ScopeDefinedByType](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ScopeDefinedByType.md#ScopeDefinedByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 It is defined by value or outcome depending on if the External scope is defined manual by the user or defined based on a previous outcome.
 
@@ -197,7 +197,7 @@ It is defined by value or outcome depending on if the External scope is defined 
 
 <a id="MeshWorkflowControl.ExternalScopeMethod"></a>
 
-### *property* MeshWorkflowControl.ExternalScopeMethod *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ScopeType](./../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ScopeType.md#ScopeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.ExternalScopeMethod *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ScopeType](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ScopeType.md#ScopeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The method can be label/zone/part and it is applied to external region of enclosure.
 
@@ -205,7 +205,7 @@ The method can be label/zone/part and it is applied to external region of enclos
 
 <a id="MeshWorkflowControl.SurfaceMeshType"></a>
 
-### *property* MeshWorkflowControl.SurfaceMeshType *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.SurfaceMeshType](./../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/SurfaceMeshType.md#SurfaceMeshType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.SurfaceMeshType *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.SurfaceMeshType](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/SurfaceMeshType.md#SurfaceMeshType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 This property gives control over what type of elements need to be generated in the mesh. The supported surface mesh types are Triangles and Quadrilaterals.
 
@@ -229,7 +229,7 @@ This property gives control over the mode/degree of triangle count reduction dur
 
 <a id="MeshWorkflowControl.VolumeMeshType"></a>
 
-### *property* MeshWorkflowControl.VolumeMeshType *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.VolumeMeshType](./../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/VolumeMeshType.md#VolumeMeshType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.VolumeMeshType *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.VolumeMeshType](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/VolumeMeshType.md#VolumeMeshType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Type of Volume elements such as Tetrahedrons and Hex.
 
@@ -237,7 +237,7 @@ Type of Volume elements such as Tetrahedrons and Hex.
 
 <a id="MeshWorkflowControl.CenterPosition"></a>
 
-### *property* MeshWorkflowControl.CenterPosition *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.SphereCenterDefinitionType](./../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/SphereCenterDefinitionType.md#SphereCenterDefinitionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.CenterPosition *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.SphereCenterDefinitionType](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/SphereCenterDefinitionType.md#SphereCenterDefinitionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 It is defined by “Centered”, “Minimal”, and “User Defined”.
 
@@ -245,7 +245,7 @@ It is defined by “Centered”, “Minimal”, and “User Defined”.
 
 <a id="MeshWorkflowControl.RegionType"></a>
 
-### *property* MeshWorkflowControl.RegionType *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.WrapperRegionType](./../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/WrapperRegionType.md#WrapperRegionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.RegionType *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.WrapperRegionType](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/WrapperRegionType.md#WrapperRegionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 It is defined by Material Point or External.
 
@@ -253,7 +253,7 @@ It is defined by Material Point or External.
 
 <a id="MeshWorkflowControl.MaterialPointType"></a>
 
-### *property* MeshWorkflowControl.MaterialPointType *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.MaterialPointType](./../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/MaterialPointType.md#MaterialPointType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.MaterialPointType *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.MaterialPointType](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/MaterialPointType.md#MaterialPointType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 It defines the type of material point, it can be “Include” or “Exclude”.
 
@@ -569,7 +569,7 @@ Reverse Surface Orientation. The default value is false.
 
 <a id="MeshWorkflowControl.DataModelObjectCategory"></a>
 
-### *property* MeshWorkflowControl.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -637,7 +637,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### MeshWorkflowControl.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### MeshWorkflowControl.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

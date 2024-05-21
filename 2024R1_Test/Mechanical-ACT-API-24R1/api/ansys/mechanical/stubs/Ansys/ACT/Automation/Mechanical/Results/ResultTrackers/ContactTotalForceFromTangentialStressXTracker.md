@@ -43,10 +43,10 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.            |
-| [`ContactRegion`](./../../Connections/ContactRegion.md#ContactRegion)                                                       | Gets or sets the ContactRegion.                               |
-| [`DataModelObjectCategory`](./../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`ContactRegion`](../../Connections/ContactRegion.md#ContactRegion)                                                       | Gets or sets the ContactRegion.                               |
+| [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`IsSolved`](#ContactTotalForceFromTangentialStressXTracker.IsSolved)                                                     | Gets the IsSolved.                                            |
-| [`ChartDimensions`](./../../../../../Mechanical/DataModel/Enums/ChartDimensions.md#ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
+| [`ChartDimensions`](../../../../../Mechanical/DataModel/Enums/ChartDimensions.md#ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
 | [`BoundaryCondition`](#ContactTotalForceFromTangentialStressXTracker.BoundaryCondition)                                   | Gets or sets the BoundaryCondition.                           |
 | [`CutFrequency`](#ContactTotalForceFromTangentialStressXTracker.CutFrequency)                                             | Gets or sets the CutFrequency.                                |
 | [`SectorNumber`](#ContactTotalForceFromTangentialStressXTracker.SectorNumber)                                             | Gets or sets the SectorNumber.                                |
@@ -68,23 +68,23 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`RequestedFrequency`](#ContactTotalForceFromTangentialStressXTracker.RequestedFrequency)                                 | Gets or sets the RequestedFrequency.                          |
 | [`AccelerationType`](#ContactTotalForceFromTangentialStressXTracker.AccelerationType)                                     | Gets or sets the AccelerationType.                            |
 | [`ChartViewingStyle`](#ContactTotalForceFromTangentialStressXTracker.ChartViewingStyle)                                   | Gets or sets the ChartViewingStyle.                           |
-| [`DeformationType`](./../../../../../Mechanical/DataModel/Enums/DeformationType.md#DeformationType)                         | Gets or sets the DeformationType.                             |
-| [`FilterType`](./../../../../../Mechanical/DataModel/Enums/FilterType.md#FilterType)                                        | Gets or sets the FilterType.                                  |
+| [`DeformationType`](../../../../../Mechanical/DataModel/Enums/DeformationType.md#DeformationType)                         | Gets or sets the DeformationType.                             |
+| [`FilterType`](../../../../../Mechanical/DataModel/Enums/FilterType.md#FilterType)                                        | Gets or sets the FilterType.                                  |
 | [`SpatialResolution`](#ContactTotalForceFromTangentialStressXTracker.SpatialResolution)                                   | Gets or sets the SpatialResolution.                           |
 | [`NormalOrientation`](#ContactTotalForceFromTangentialStressXTracker.NormalOrientation)                                   | Gets or sets the NormalOrientation.                           |
 | [`CurvesAppearanceDisplay`](#ContactTotalForceFromTangentialStressXTracker.CurvesAppearanceDisplay)                       | Gets or sets the CurvesAppearanceDisplay.                     |
 | [`ResultChartType`](#ContactTotalForceFromTangentialStressXTracker.ResultChartType)                                       | Gets the ResultChartType.                                     |
 | [`DpfEvaluation`](#ContactTotalForceFromTangentialStressXTracker.DpfEvaluation)                                           | Gets or sets the DpfEvaluation.                               |
-| [`XAxisValues`](./../../../../../Mechanical/DataModel/Enums/XAxisValues.md#XAxisValues)                                     | Gets or sets the XAxisValues.                                 |
+| [`XAxisValues`](../../../../../Mechanical/DataModel/Enums/XAxisValues.md#XAxisValues)                                     | Gets or sets the XAxisValues.                                 |
 | [`ShearOrientation`](#ContactTotalForceFromTangentialStressXTracker.ShearOrientation)                                     | Gets or sets the ShearOrientation.                            |
-| [`StressStrainType`](./../../../../../Mechanical/DataModel/Enums/StressStrainType.md#StressStrainType)                      | Gets or sets the StressStrainType.                            |
+| [`StressStrainType`](../../../../../Mechanical/DataModel/Enums/StressStrainType.md#StressStrainType)                      | Gets or sets the StressStrainType.                            |
 | [`TimeHistoryDisplay`](#ContactTotalForceFromTangentialStressXTracker.TimeHistoryDisplay)                                 | Gets or sets the TimeHistoryDisplay.                          |
 | [`VelocityType`](#ContactTotalForceFromTangentialStressXTracker.VelocityType)                                             | Gets or sets the VelocityType.                                |
 | [`Suppressed`](#ContactTotalForceFromTangentialStressXTracker.Suppressed)                                                 | Gets or sets the Suppressed.                                  |
 | [`EnhancedTracking`](#ContactTotalForceFromTangentialStressXTracker.EnhancedTracking)                                     | Gets the EnhancedTracking.                                    |
 | [`UseParentFrequencyRange`](#ContactTotalForceFromTangentialStressXTracker.UseParentFrequencyRange)                       | Gets or sets the UseParentFrequencyRange.                     |
-| [`CoordinateSystem`](./../../../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
-| [`Spring`](./../../Connections/Spring.md#Spring)                                                                            | Gets or sets the Spring.                                      |
+| [`CoordinateSystem`](../../../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
+| [`Spring`](../../Connections/Spring.md#Spring)                                                                            | Gets or sets the Spring.                                      |
 | [`Location`](#ContactTotalForceFromTangentialStressXTracker.Location)                                                     | Gets or sets the Location.                                    |
 | [`Children`](#ContactTotalForceFromTangentialStressXTracker.Children)                                                     | Gets the list of children.                                    |
 | [`Comments`](#ContactTotalForceFromTangentialStressXTracker.Comments)                                                     | Gets the list of associated comments.                         |
@@ -115,7 +115,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ContactTotalForceFromTangentialStressXTracker.ContactRegion"></a>
 
-### *property* ContactTotalForceFromTangentialStressXTracker.ContactRegion *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](./../../Connections/ContactRegion.md#ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactTotalForceFromTangentialStressXTracker.ContactRegion *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../Connections/ContactRegion.md#ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactRegion.
 
@@ -123,7 +123,7 @@ Gets or sets the ContactRegion.
 
 <a id="ContactTotalForceFromTangentialStressXTracker.DataModelObjectCategory"></a>
 
-### *property* ContactTotalForceFromTangentialStressXTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactTotalForceFromTangentialStressXTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -139,7 +139,7 @@ Gets the IsSolved.
 
 <a id="ContactTotalForceFromTangentialStressXTracker.ChartDimensions"></a>
 
-### *property* ContactTotalForceFromTangentialStressXTracker.ChartDimensions *: [Ansys.Mechanical.DataModel.Enums.ChartDimensions](./../../../../../Mechanical/DataModel/Enums/ChartDimensions.md#ChartDimensions) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactTotalForceFromTangentialStressXTracker.ChartDimensions *: [Ansys.Mechanical.DataModel.Enums.ChartDimensions](../../../../../Mechanical/DataModel/Enums/ChartDimensions.md#ChartDimensions) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Chart Dimensions
 
@@ -147,7 +147,7 @@ Gets or sets the Chart Dimensions
 
 <a id="ContactTotalForceFromTangentialStressXTracker.BoundaryCondition"></a>
 
-### *property* ContactTotalForceFromTangentialStressXTracker.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](./../../BoundaryConditions/GenericBoundaryCondition.md#GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactTotalForceFromTangentialStressXTracker.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](../../BoundaryConditions/GenericBoundaryCondition.md#GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BoundaryCondition.
 
@@ -299,7 +299,7 @@ Gets or sets the RequestedFrequency.
 
 <a id="ContactTotalForceFromTangentialStressXTracker.AccelerationType"></a>
 
-### *property* ContactTotalForceFromTangentialStressXTracker.AccelerationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](./../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactTotalForceFromTangentialStressXTracker.AccelerationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AccelerationType.
 
@@ -307,7 +307,7 @@ Gets or sets the AccelerationType.
 
 <a id="ContactTotalForceFromTangentialStressXTracker.ChartViewingStyle"></a>
 
-### *property* ContactTotalForceFromTangentialStressXTracker.ChartViewingStyle *: [Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType](./../../../../../Mechanical/DataModel/Enums/ChartAxisScaleType.md#ChartAxisScaleType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactTotalForceFromTangentialStressXTracker.ChartViewingStyle *: [Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType](../../../../../Mechanical/DataModel/Enums/ChartAxisScaleType.md#ChartAxisScaleType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ChartViewingStyle.
 
@@ -315,7 +315,7 @@ Gets or sets the ChartViewingStyle.
 
 <a id="ContactTotalForceFromTangentialStressXTracker.DeformationType"></a>
 
-### *property* ContactTotalForceFromTangentialStressXTracker.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](./../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactTotalForceFromTangentialStressXTracker.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DeformationType.
 
@@ -323,7 +323,7 @@ Gets or sets the DeformationType.
 
 <a id="ContactTotalForceFromTangentialStressXTracker.FilterType"></a>
 
-### *property* ContactTotalForceFromTangentialStressXTracker.FilterType *: [Ansys.Mechanical.DataModel.Enums.FilterType](./../../../../../Mechanical/DataModel/Enums/FilterType.md#FilterType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactTotalForceFromTangentialStressXTracker.FilterType *: [Ansys.Mechanical.DataModel.Enums.FilterType](../../../../../Mechanical/DataModel/Enums/FilterType.md#FilterType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FilterType.
 
@@ -331,7 +331,7 @@ Gets or sets the FilterType.
 
 <a id="ContactTotalForceFromTangentialStressXTracker.SpatialResolution"></a>
 
-### *property* ContactTotalForceFromTangentialStressXTracker.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MultipleNodeType](./../../../../../Mechanical/DataModel/Enums/MultipleNodeType.md#MultipleNodeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactTotalForceFromTangentialStressXTracker.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MultipleNodeType](../../../../../Mechanical/DataModel/Enums/MultipleNodeType.md#MultipleNodeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SpatialResolution.
 
@@ -339,7 +339,7 @@ Gets or sets the SpatialResolution.
 
 <a id="ContactTotalForceFromTangentialStressXTracker.NormalOrientation"></a>
 
-### *property* ContactTotalForceFromTangentialStressXTracker.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](./../../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactTotalForceFromTangentialStressXTracker.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NormalOrientation.
 
@@ -347,7 +347,7 @@ Gets or sets the NormalOrientation.
 
 <a id="ContactTotalForceFromTangentialStressXTracker.CurvesAppearanceDisplay"></a>
 
-### *property* ContactTotalForceFromTangentialStressXTracker.CurvesAppearanceDisplay *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](./../../../../../Mechanical/DataModel/Enums/ChartPlotStyle.md#ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactTotalForceFromTangentialStressXTracker.CurvesAppearanceDisplay *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](../../../../../Mechanical/DataModel/Enums/ChartPlotStyle.md#ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CurvesAppearanceDisplay.
 
@@ -355,7 +355,7 @@ Gets or sets the CurvesAppearanceDisplay.
 
 <a id="ContactTotalForceFromTangentialStressXTracker.ResultChartType"></a>
 
-### *property* ContactTotalForceFromTangentialStressXTracker.ResultChartType *: [Ansys.Mechanical.DataModel.Enums.ChartResultType](./../../../../../Mechanical/DataModel/Enums/ChartResultType.md#ChartResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactTotalForceFromTangentialStressXTracker.ResultChartType *: [Ansys.Mechanical.DataModel.Enums.ChartResultType](../../../../../Mechanical/DataModel/Enums/ChartResultType.md#ChartResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ResultChartType.
 
@@ -363,7 +363,7 @@ Gets the ResultChartType.
 
 <a id="ContactTotalForceFromTangentialStressXTracker.DpfEvaluation"></a>
 
-### *property* ContactTotalForceFromTangentialStressXTracker.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](./../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactTotalForceFromTangentialStressXTracker.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DpfEvaluation.
 
@@ -371,7 +371,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="ContactTotalForceFromTangentialStressXTracker.XAxisValues"></a>
 
-### *property* ContactTotalForceFromTangentialStressXTracker.XAxisValues *: [Ansys.Mechanical.DataModel.Enums.XAxisValues](./../../../../../Mechanical/DataModel/Enums/XAxisValues.md#XAxisValues) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactTotalForceFromTangentialStressXTracker.XAxisValues *: [Ansys.Mechanical.DataModel.Enums.XAxisValues](../../../../../Mechanical/DataModel/Enums/XAxisValues.md#XAxisValues) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XAxisValues.
 
@@ -379,7 +379,7 @@ Gets or sets the XAxisValues.
 
 <a id="ContactTotalForceFromTangentialStressXTracker.ShearOrientation"></a>
 
-### *property* ContactTotalForceFromTangentialStressXTracker.ShearOrientation *: [Ansys.Mechanical.DataModel.Enums.ShearOrientationType](./../../../../../Mechanical/DataModel/Enums/ShearOrientationType.md#ShearOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactTotalForceFromTangentialStressXTracker.ShearOrientation *: [Ansys.Mechanical.DataModel.Enums.ShearOrientationType](../../../../../Mechanical/DataModel/Enums/ShearOrientationType.md#ShearOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShearOrientation.
 
@@ -387,7 +387,7 @@ Gets or sets the ShearOrientation.
 
 <a id="ContactTotalForceFromTangentialStressXTracker.StressStrainType"></a>
 
-### *property* ContactTotalForceFromTangentialStressXTracker.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](./../../../../../Mechanical/DataModel/Enums/StressStrainType.md#StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactTotalForceFromTangentialStressXTracker.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](../../../../../Mechanical/DataModel/Enums/StressStrainType.md#StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StressStrainType.
 
@@ -395,7 +395,7 @@ Gets or sets the StressStrainType.
 
 <a id="ContactTotalForceFromTangentialStressXTracker.TimeHistoryDisplay"></a>
 
-### *property* ContactTotalForceFromTangentialStressXTracker.TimeHistoryDisplay *: [Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType](./../../../../../Mechanical/DataModel/Enums/TimeHistoryDisplayType.md#TimeHistoryDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactTotalForceFromTangentialStressXTracker.TimeHistoryDisplay *: [Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType](../../../../../Mechanical/DataModel/Enums/TimeHistoryDisplayType.md#TimeHistoryDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TimeHistoryDisplay.
 
@@ -403,7 +403,7 @@ Gets or sets the TimeHistoryDisplay.
 
 <a id="ContactTotalForceFromTangentialStressXTracker.VelocityType"></a>
 
-### *property* ContactTotalForceFromTangentialStressXTracker.VelocityType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](./../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactTotalForceFromTangentialStressXTracker.VelocityType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the VelocityType.
 
@@ -435,7 +435,7 @@ Gets or sets the UseParentFrequencyRange.
 
 <a id="ContactTotalForceFromTangentialStressXTracker.CoordinateSystem"></a>
 
-### *property* ContactTotalForceFromTangentialStressXTracker.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactTotalForceFromTangentialStressXTracker.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -443,7 +443,7 @@ Gets or sets the CoordinateSystem.
 
 <a id="ContactTotalForceFromTangentialStressXTracker.Spring"></a>
 
-### *property* ContactTotalForceFromTangentialStressXTracker.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](./../../Connections/Spring.md#Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactTotalForceFromTangentialStressXTracker.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../Connections/Spring.md#Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Spring.
 
@@ -467,7 +467,7 @@ Gets the list of children.
 
 <a id="ContactTotalForceFromTangentialStressXTracker.Comments"></a>
 
-### *property* ContactTotalForceFromTangentialStressXTracker.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactTotalForceFromTangentialStressXTracker.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -475,7 +475,7 @@ Gets the list of associated comments.
 
 <a id="ContactTotalForceFromTangentialStressXTracker.Images"></a>
 
-### *property* ContactTotalForceFromTangentialStressXTracker.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactTotalForceFromTangentialStressXTracker.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -511,7 +511,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="ContactTotalForceFromTangentialStressXTracker.ExportAnimation"></a>
 
-### ContactTotalForceFromTangentialStressXTracker.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](./../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](./../../../../../Mechanical/Graphics/AnimationExportSettings.md#AnimationExportSettings))
+### ContactTotalForceFromTangentialStressXTracker.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -559,7 +559,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### ContactTotalForceFromTangentialStressXTracker.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### ContactTotalForceFromTangentialStressXTracker.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

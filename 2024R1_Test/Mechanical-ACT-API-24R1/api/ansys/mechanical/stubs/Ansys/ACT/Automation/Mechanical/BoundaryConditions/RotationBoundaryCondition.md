@@ -43,7 +43,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`NumberOfSegments`](#RotationBoundaryCondition.NumberOfSegments)                                                      | Gets or sets the NumberOfSegments.                            |
 | [`Suppressed`](#RotationBoundaryCondition.Suppressed)                                                                  | Gets or sets the Suppressed.                                  |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#RotationBoundaryCondition.Children)                                                                      | Gets the list of children.                                    |
 | [`Comments`](#RotationBoundaryCondition.Comments)                                                                      | Gets the list of associated comments.                         |
 | [`Figures`](#RotationBoundaryCondition.Figures)                                                                        | Gets the list of associated figures.                          |
@@ -67,7 +67,7 @@ from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.BoundaryConditions i
 
 <a id="RotationBoundaryCondition.Axis"></a>
 
-### *property* RotationBoundaryCondition.Axis *: [Ansys.Mechanical.Math.BoundVector](./../../../../Mechanical/Math/BoundVector.md#BoundVector) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RotationBoundaryCondition.Axis *: [Ansys.Mechanical.Math.BoundVector](../../../../Mechanical/Math/BoundVector.md#BoundVector) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Axis.
 
@@ -99,7 +99,7 @@ Gets or sets the Suppressed.
 
 <a id="RotationBoundaryCondition.DataModelObjectCategory"></a>
 
-### *property* RotationBoundaryCondition.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RotationBoundaryCondition.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -115,7 +115,7 @@ Gets the list of children.
 
 <a id="RotationBoundaryCondition.Comments"></a>
 
-### *property* RotationBoundaryCondition.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RotationBoundaryCondition.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -123,7 +123,7 @@ Gets the list of associated comments.
 
 <a id="RotationBoundaryCondition.Figures"></a>
 
-### *property* RotationBoundaryCondition.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RotationBoundaryCondition.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -131,7 +131,7 @@ Gets the list of associated figures.
 
 <a id="RotationBoundaryCondition.Images"></a>
 
-### *property* RotationBoundaryCondition.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RotationBoundaryCondition.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -191,7 +191,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### RotationBoundaryCondition.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### RotationBoundaryCondition.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

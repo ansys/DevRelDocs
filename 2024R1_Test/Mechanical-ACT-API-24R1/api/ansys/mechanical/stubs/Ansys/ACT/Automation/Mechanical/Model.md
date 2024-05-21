@@ -124,7 +124,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Ambient`](#Model.Ambient)                                                                                         | Gets or sets the Ambient Lighting factor.                                                                                                                                                                                                                                                                     |
 | [`Color`](#Model.Color)                                                                                             | Gets or sets the Lighting Color. Can also be set using Hex color codes; three byte hexadecimal numbers (consisting of six digits) preceded by ‘0x’, where each byte (or pair of characters in the Hex code) represents the intensity of red, green and blue in the color respectively. For example, 0xFFFFFF. |
 | [`Diffuse`](#Model.Diffuse)                                                                                         | Gets or sets the Diffuse Lighting factor.                                                                                                                                                                                                                                                                     |
-| [`Control`](./../../Mechanical/AdditionalProperties/Control.md#Control)                                               | Gets the Control.                                                                                                                                                                                                                                                                                             |
+| [`Control`](../../Mechanical/AdditionalProperties/Control.md#Control)                                               | Gets the Control.                                                                                                                                                                                                                                                                                             |
 | [`Specular`](#Model.Specular)                                                                                       | Gets or sets the Specular Lighting factor.                                                                                                                                                                                                                                                                    |
 | [`AMProcess`](AdditiveManufacturing/AMProcess.md#AMProcess)                                                         | Gets the AMProcess.                                                                                                                                                                                                                                                                                           |
 | [`NamedSelections`](NamedSelections.md#NamedSelections)                                                             | Gets the NamedSelections.                                                                                                                                                                                                                                                                                     |
@@ -147,7 +147,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Symmetry`](Symmetry.md#Symmetry)                                                                                  | Gets the Symmetry.                                                                                                                                                                                                                                                                                            |
 | [`VirtualTopology`](VirtualTopology.md#VirtualTopology)                                                             | Gets the VirtualTopology.                                                                                                                                                                                                                                                                                     |
 | [`Analyses`](#Model.Analyses)                                                                                       | Gets the Analyses.                                                                                                                                                                                                                                                                                            |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                                                                                                                                                                                                                                                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                                                                                                                                                                                                                                                  |
 | [`Children`](#Model.Children)                                                                                       | Gets the list of children.                                                                                                                                                                                                                                                                                    |
 | [`Comments`](#Model.Comments)                                                                                       | Gets the list of associated comments.                                                                                                                                                                                                                                                                         |
 | [`Figures`](#Model.Figures)                                                                                         | Gets the list of associated figures.                                                                                                                                                                                                                                                                          |
@@ -426,7 +426,7 @@ Gets the Analyses.
 
 <a id="Model.DataModelObjectCategory"></a>
 
-### *property* Model.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Model.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -564,7 +564,7 @@ Get the transformation matrix of the provided part.
 
 <a id="Model.SetTransformationOnPart"></a>
 
-### Model.SetTransformationOnPart(part: Ansys.ACT.Interfaces.Geometry.IGeoPart, transformationMatrix: [Ansys.Mechanical.DataModel.Utilities.RigidBodyTransformationMatrix](./../../../Mechanical/DataModel/Utilities/RigidBodyTransformationMatrix.md#RigidBodyTransformationMatrix))
+### Model.SetTransformationOnPart(part: Ansys.ACT.Interfaces.Geometry.IGeoPart, transformationMatrix: [Ansys.Mechanical.DataModel.Utilities.RigidBodyTransformationMatrix](../../../Mechanical/DataModel/Utilities/RigidBodyTransformationMatrix.md#RigidBodyTransformationMatrix))
 
 Transform a part with given transformation. Only rigid body transformation is
 supported, i.e., no scaling will be performed. The validity of “transformationMatrix”
@@ -599,7 +599,7 @@ Run the Solve action.
 
 <a id="id1"></a>
 
-### Model.Solve(wait: System.Boolean, config: [Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolveConfiguration](./../../Mechanical/Application/SolveProcessSettings/SolveConfiguration.md#SolveConfiguration))
+### Model.Solve(wait: System.Boolean, config: [Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolveConfiguration](../../Mechanical/Application/SolveProcessSettings/SolveConfiguration.md#SolveConfiguration))
 
 Run the Solve action.
 
@@ -1145,7 +1145,7 @@ Gets the list of children, filtered by type.
 
 <a id="id3"></a>
 
-### Model.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### Model.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

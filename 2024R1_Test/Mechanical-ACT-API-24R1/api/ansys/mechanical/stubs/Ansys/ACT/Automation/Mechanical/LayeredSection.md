@@ -40,7 +40,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Layers`](#LayeredSection.Layers)                                                                                  | Returns the Layers worksheet associated with LayeredSection   |
-| [`CoordinateSystem`](./../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
+| [`CoordinateSystem`](../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`LayerToDisplay`](#LayeredSection.LayerToDisplay)                                                                  | Gets or sets the LayerToDisplay.                              |
 | [`LayeredSectionMembraneOffset`](#LayeredSection.LayeredSectionMembraneOffset)                                      | Gets or sets the LayeredSectionMembraneOffset.                |
@@ -51,7 +51,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Suppressed`](#LayeredSection.Suppressed)                                                                          | Gets or sets the Suppressed.                                  |
 | [`ThermalStrainEffects`](#LayeredSection.ThermalStrainEffects)                                                      | Gets or sets the ThermalStrainEffects.                        |
 | [`Location`](#LayeredSection.Location)                                                                              | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#LayeredSection.Children)                                                                              | Gets the list of children.                                    |
 | [`Comments`](#LayeredSection.Comments)                                                                              | Gets the list of associated comments.                         |
 | [`Figures`](#LayeredSection.Figures)                                                                                | Gets the list of associated figures.                          |
@@ -131,7 +131,7 @@ Gets the TotalThickness.
 
 <a id="LayeredSection.OffsetType"></a>
 
-### *property* LayeredSection.OffsetType *: [Ansys.Mechanical.DataModel.Enums.ShellOffsetType](./../../../Mechanical/DataModel/Enums/ShellOffsetType.md#ShellOffsetType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LayeredSection.OffsetType *: [Ansys.Mechanical.DataModel.Enums.ShellOffsetType](../../../Mechanical/DataModel/Enums/ShellOffsetType.md#ShellOffsetType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the OffsetType.
 
@@ -171,7 +171,7 @@ Gets or sets the Location.
 
 <a id="LayeredSection.DataModelObjectCategory"></a>
 
-### *property* LayeredSection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LayeredSection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -255,7 +255,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### LayeredSection.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### LayeredSection.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

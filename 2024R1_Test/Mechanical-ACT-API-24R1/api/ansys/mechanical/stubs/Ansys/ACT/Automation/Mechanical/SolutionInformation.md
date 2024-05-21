@@ -146,7 +146,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`ShowMomentResiduals`](#SolutionInformation.ShowMomentResiduals)                                                   | Gets or sets the ShowMomentResiduals.                          |
 | [`DisplayFilterDuringSolve`](#SolutionInformation.DisplayFilterDuringSolve)                                         | Gets or sets the DisplayFilterDuringSolve.                     |
 | [`ResponseConstraint`](ResponseConstraint.md#ResponseConstraint)                                                    | Gets or sets the ResponseConstraint.                           |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                   |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                   |
 | [`Children`](#SolutionInformation.Children)                                                                         | Gets the list of children.                                     |
 | [`Comments`](#SolutionInformation.Comments)                                                                         | Gets the list of associated comments.                          |
 | [`Figures`](#SolutionInformation.Figures)                                                                           | Gets the list of associated figures.                           |
@@ -233,7 +233,7 @@ Gets or sets the UpdateInterval.
 
 <a id="SolutionInformation.Component"></a>
 
-### *property* SolutionInformation.Component *: [Ansys.Mechanical.DataModel.Enums.OptimizationResponseConstraintComponentType](./../../../Mechanical/DataModel/Enums/OptimizationResponseConstraintComponentType.md#OptimizationResponseConstraintComponentType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolutionInformation.Component *: [Ansys.Mechanical.DataModel.Enums.OptimizationResponseConstraintComponentType](../../../Mechanical/DataModel/Enums/OptimizationResponseConstraintComponentType.md#OptimizationResponseConstraintComponentType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Component.
 
@@ -241,7 +241,7 @@ Gets or sets the Component.
 
 <a id="SolutionInformation.LineColor"></a>
 
-### *property* SolutionInformation.LineColor *: [Ansys.Mechanical.DataModel.Enums.FEConnectionLineColor](./../../../Mechanical/DataModel/Enums/FEConnectionLineColor.md#FEConnectionLineColor) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolutionInformation.LineColor *: [Ansys.Mechanical.DataModel.Enums.FEConnectionLineColor](../../../Mechanical/DataModel/Enums/FEConnectionLineColor.md#FEConnectionLineColor) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LineColor.
 
@@ -249,7 +249,7 @@ Gets or sets the LineColor.
 
 <a id="SolutionInformation.DrawConnectionsAttachedTo"></a>
 
-### *property* SolutionInformation.DrawConnectionsAttachedTo *: [Ansys.Mechanical.DataModel.Enums.NodeSelection](./../../../Mechanical/DataModel/Enums/NodeSelection.md#NodeSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolutionInformation.DrawConnectionsAttachedTo *: [Ansys.Mechanical.DataModel.Enums.NodeSelection](../../../Mechanical/DataModel/Enums/NodeSelection.md#NodeSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DrawConnectionsAttachedTo.
 
@@ -257,7 +257,7 @@ Gets or sets the DrawConnectionsAttachedTo.
 
 <a id="SolutionInformation.Display"></a>
 
-### *property* SolutionInformation.Display *: [Ansys.Mechanical.DataModel.Enums.FEConnectionDisplay](./../../../Mechanical/DataModel/Enums/FEConnectionDisplay.md#FEConnectionDisplay) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolutionInformation.Display *: [Ansys.Mechanical.DataModel.Enums.FEConnectionDisplay](../../../Mechanical/DataModel/Enums/FEConnectionDisplay.md#FEConnectionDisplay) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Display.
 
@@ -265,7 +265,7 @@ Gets or sets the Display.
 
 <a id="SolutionInformation.DisplayType"></a>
 
-### *property* SolutionInformation.DisplayType *: [Ansys.Mechanical.DataModel.Enums.FEConnectionDisplayType](./../../../Mechanical/DataModel/Enums/FEConnectionDisplayType.md#FEConnectionDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolutionInformation.DisplayType *: [Ansys.Mechanical.DataModel.Enums.FEConnectionDisplayType](../../../Mechanical/DataModel/Enums/FEConnectionDisplayType.md#FEConnectionDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DisplayType.
 
@@ -273,7 +273,7 @@ Gets or sets the DisplayType.
 
 <a id="SolutionInformation.LineThickness"></a>
 
-### *property* SolutionInformation.LineThickness *: [Ansys.Mechanical.DataModel.Enums.FEConnectionLineThicknessType](./../../../Mechanical/DataModel/Enums/FEConnectionLineThicknessType.md#FEConnectionLineThicknessType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolutionInformation.LineThickness *: [Ansys.Mechanical.DataModel.Enums.FEConnectionLineThicknessType](../../../Mechanical/DataModel/Enums/FEConnectionLineThicknessType.md#FEConnectionLineThicknessType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LineThickness.
 
@@ -281,7 +281,7 @@ Gets or sets the LineThickness.
 
 <a id="SolutionInformation.SummaryType"></a>
 
-### *property* SolutionInformation.SummaryType *: [Ansys.Mechanical.DataModel.Enums.PFactorResultType](./../../../Mechanical/DataModel/Enums/PFactorResultType.md#PFactorResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolutionInformation.SummaryType *: [Ansys.Mechanical.DataModel.Enums.PFactorResultType](../../../Mechanical/DataModel/Enums/PFactorResultType.md#PFactorResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SummaryType.
 
@@ -289,7 +289,7 @@ Gets or sets the SummaryType.
 
 <a id="SolutionInformation.SolutionOutput"></a>
 
-### *property* SolutionInformation.SolutionOutput *: [Ansys.Mechanical.DataModel.Enums.SolutionOutputType](./../../../Mechanical/DataModel/Enums/SolutionOutputType.md#SolutionOutputType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolutionInformation.SolutionOutput *: [Ansys.Mechanical.DataModel.Enums.SolutionOutputType](../../../Mechanical/DataModel/Enums/SolutionOutputType.md#SolutionOutputType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolutionOutput.
 
@@ -297,7 +297,7 @@ Gets or sets the SolutionOutput.
 
 <a id="SolutionInformation.StepSelectionMode"></a>
 
-### *property* SolutionInformation.StepSelectionMode *: [Ansys.Mechanical.DataModel.Enums.SeqSelectionMode](./../../../Mechanical/DataModel/Enums/SeqSelectionMode.md#SeqSelectionMode) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolutionInformation.StepSelectionMode *: [Ansys.Mechanical.DataModel.Enums.SeqSelectionMode](../../../Mechanical/DataModel/Enums/SeqSelectionMode.md#SeqSelectionMode) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StepSelectionMode.
 
@@ -361,7 +361,7 @@ Gets or sets the ResponseConstraint.
 
 <a id="SolutionInformation.DataModelObjectCategory"></a>
 
-### *property* SolutionInformation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolutionInformation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -1109,7 +1109,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### SolutionInformation.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### SolutionInformation.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

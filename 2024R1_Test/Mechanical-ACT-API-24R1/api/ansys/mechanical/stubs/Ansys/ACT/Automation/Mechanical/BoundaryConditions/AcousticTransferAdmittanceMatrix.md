@@ -62,7 +62,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`TransferAdmittanceModel`](#AcousticTransferAdmittanceMatrix.TransferAdmittanceModel)                                 | Gets or sets the TransferAdmittanceModel.                     |
 | [`Port1`](#AcousticTransferAdmittanceMatrix.Port1)                                                                     | Gets or sets the Port1.                                       |
 | [`Port2`](#AcousticTransferAdmittanceMatrix.Port2)                                                                     | Gets or sets the Port2.                                       |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Suppressed`](#AcousticTransferAdmittanceMatrix.Suppressed)                                                           | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#AcousticTransferAdmittanceMatrix.SharedRefBody)                                                     | Gets or sets the SharedRefBody.                               |
 | [`Children`](#AcousticTransferAdmittanceMatrix.Children)                                                               | Gets the list of children.                                    |
@@ -96,7 +96,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="AcousticTransferAdmittanceMatrix.DynamicViscosity"></a>
 
-### *property* AcousticTransferAdmittanceMatrix.DynamicViscosity *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransferAdmittanceMatrix.DynamicViscosity *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DynamicViscosity.
 
@@ -104,7 +104,7 @@ Gets or sets the DynamicViscosity.
 
 <a id="AcousticTransferAdmittanceMatrix.GridPeriod"></a>
 
-### *property* AcousticTransferAdmittanceMatrix.GridPeriod *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransferAdmittanceMatrix.GridPeriod *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GridPeriod.
 
@@ -112,7 +112,7 @@ Gets or sets the GridPeriod.
 
 <a id="AcousticTransferAdmittanceMatrix.HoleRadius"></a>
 
-### *property* AcousticTransferAdmittanceMatrix.HoleRadius *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransferAdmittanceMatrix.HoleRadius *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HoleRadius.
 
@@ -120,7 +120,7 @@ Gets or sets the HoleRadius.
 
 <a id="AcousticTransferAdmittanceMatrix.MassDensity"></a>
 
-### *property* AcousticTransferAdmittanceMatrix.MassDensity *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransferAdmittanceMatrix.MassDensity *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MassDensity.
 
@@ -128,7 +128,7 @@ Gets or sets the MassDensity.
 
 <a id="AcousticTransferAdmittanceMatrix.RatioOfInnerAndOuterRadius"></a>
 
-### *property* AcousticTransferAdmittanceMatrix.RatioOfInnerAndOuterRadius *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransferAdmittanceMatrix.RatioOfInnerAndOuterRadius *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RatioOfInnerAndOuterRadius.
 
@@ -136,7 +136,7 @@ Gets or sets the RatioOfInnerAndOuterRadius.
 
 <a id="AcousticTransferAdmittanceMatrix.StructureThickness"></a>
 
-### *property* AcousticTransferAdmittanceMatrix.StructureThickness *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransferAdmittanceMatrix.StructureThickness *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StructureThickness.
 
@@ -144,7 +144,7 @@ Gets or sets the StructureThickness.
 
 <a id="AcousticTransferAdmittanceMatrix.Alpha1Imag"></a>
 
-### *property* AcousticTransferAdmittanceMatrix.Alpha1Imag *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransferAdmittanceMatrix.Alpha1Imag *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Alpha1Imag.
 
@@ -152,7 +152,7 @@ Gets or sets the Alpha1Imag.
 
 <a id="AcousticTransferAdmittanceMatrix.Alpha1Real"></a>
 
-### *property* AcousticTransferAdmittanceMatrix.Alpha1Real *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransferAdmittanceMatrix.Alpha1Real *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Alpha1Real.
 
@@ -160,7 +160,7 @@ Gets or sets the Alpha1Real.
 
 <a id="AcousticTransferAdmittanceMatrix.Alpha2Imag"></a>
 
-### *property* AcousticTransferAdmittanceMatrix.Alpha2Imag *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransferAdmittanceMatrix.Alpha2Imag *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Alpha2Imag.
 
@@ -168,7 +168,7 @@ Gets or sets the Alpha2Imag.
 
 <a id="AcousticTransferAdmittanceMatrix.Alpha2Real"></a>
 
-### *property* AcousticTransferAdmittanceMatrix.Alpha2Real *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransferAdmittanceMatrix.Alpha2Real *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Alpha2Real.
 
@@ -176,7 +176,7 @@ Gets or sets the Alpha2Real.
 
 <a id="AcousticTransferAdmittanceMatrix.Y11Imag"></a>
 
-### *property* AcousticTransferAdmittanceMatrix.Y11Imag *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransferAdmittanceMatrix.Y11Imag *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Y11Imag.
 
@@ -184,7 +184,7 @@ Gets or sets the Y11Imag.
 
 <a id="AcousticTransferAdmittanceMatrix.Y11Real"></a>
 
-### *property* AcousticTransferAdmittanceMatrix.Y11Real *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransferAdmittanceMatrix.Y11Real *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Y11Real.
 
@@ -192,7 +192,7 @@ Gets or sets the Y11Real.
 
 <a id="AcousticTransferAdmittanceMatrix.Y12Imag"></a>
 
-### *property* AcousticTransferAdmittanceMatrix.Y12Imag *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransferAdmittanceMatrix.Y12Imag *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Y12Imag.
 
@@ -200,7 +200,7 @@ Gets or sets the Y12Imag.
 
 <a id="AcousticTransferAdmittanceMatrix.Y12Real"></a>
 
-### *property* AcousticTransferAdmittanceMatrix.Y12Real *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransferAdmittanceMatrix.Y12Real *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Y12Real.
 
@@ -208,7 +208,7 @@ Gets or sets the Y12Real.
 
 <a id="AcousticTransferAdmittanceMatrix.Y21Imag"></a>
 
-### *property* AcousticTransferAdmittanceMatrix.Y21Imag *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransferAdmittanceMatrix.Y21Imag *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Y21Imag.
 
@@ -216,7 +216,7 @@ Gets or sets the Y21Imag.
 
 <a id="AcousticTransferAdmittanceMatrix.Y21Real"></a>
 
-### *property* AcousticTransferAdmittanceMatrix.Y21Real *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransferAdmittanceMatrix.Y21Real *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Y21Real.
 
@@ -224,7 +224,7 @@ Gets or sets the Y21Real.
 
 <a id="AcousticTransferAdmittanceMatrix.Y22Imag"></a>
 
-### *property* AcousticTransferAdmittanceMatrix.Y22Imag *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransferAdmittanceMatrix.Y22Imag *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Y22Imag.
 
@@ -232,7 +232,7 @@ Gets or sets the Y22Imag.
 
 <a id="AcousticTransferAdmittanceMatrix.Y22Real"></a>
 
-### *property* AcousticTransferAdmittanceMatrix.Y22Real *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransferAdmittanceMatrix.Y22Real *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Y22Real.
 
@@ -240,7 +240,7 @@ Gets or sets the Y22Real.
 
 <a id="AcousticTransferAdmittanceMatrix.TransferAdmittanceModel"></a>
 
-### *property* AcousticTransferAdmittanceMatrix.TransferAdmittanceModel *: [Ansys.Mechanical.DataModel.Enums.TransferAdmittanceModelType](./../../../../Mechanical/DataModel/Enums/TransferAdmittanceModelType.md#TransferAdmittanceModelType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransferAdmittanceMatrix.TransferAdmittanceModel *: [Ansys.Mechanical.DataModel.Enums.TransferAdmittanceModelType](../../../../Mechanical/DataModel/Enums/TransferAdmittanceModelType.md#TransferAdmittanceModelType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TransferAdmittanceModel.
 
@@ -264,7 +264,7 @@ Gets or sets the Port2.
 
 <a id="AcousticTransferAdmittanceMatrix.DataModelObjectCategory"></a>
 
-### *property* AcousticTransferAdmittanceMatrix.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransferAdmittanceMatrix.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -280,7 +280,7 @@ Gets or sets the Suppressed.
 
 <a id="AcousticTransferAdmittanceMatrix.SharedRefBody"></a>
 
-### *property* AcousticTransferAdmittanceMatrix.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](./../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransferAdmittanceMatrix.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -296,7 +296,7 @@ Gets the list of children.
 
 <a id="AcousticTransferAdmittanceMatrix.Comments"></a>
 
-### *property* AcousticTransferAdmittanceMatrix.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransferAdmittanceMatrix.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -304,7 +304,7 @@ Gets the list of associated comments.
 
 <a id="AcousticTransferAdmittanceMatrix.Figures"></a>
 
-### *property* AcousticTransferAdmittanceMatrix.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransferAdmittanceMatrix.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -312,7 +312,7 @@ Gets the list of associated figures.
 
 <a id="AcousticTransferAdmittanceMatrix.Images"></a>
 
-### *property* AcousticTransferAdmittanceMatrix.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransferAdmittanceMatrix.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -380,7 +380,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### AcousticTransferAdmittanceMatrix.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### AcousticTransferAdmittanceMatrix.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

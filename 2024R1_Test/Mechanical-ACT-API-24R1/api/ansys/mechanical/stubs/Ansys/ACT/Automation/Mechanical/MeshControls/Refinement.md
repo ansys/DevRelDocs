@@ -43,9 +43,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`NumberOfRefinements`](#Refinement.NumberOfRefinements)                                                               | Gets or sets the NumberOfRefinements.                         |
-| [`NamedSelection`](./../NamedSelection.md#NamedSelection)                                                                | Gets or sets the NamedSelection.                              |
+| [`NamedSelection`](../NamedSelection.md#NamedSelection)                                                                | Gets or sets the NamedSelection.                              |
 | [`Location`](#Refinement.Location)                                                                                     | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`ScopingMethod`](#Refinement.ScopingMethod)                                                                           | Gets or sets the ScopingMethod.                               |
 | [`Suppressed`](#Refinement.Suppressed)                                                                                 | Gets or sets the Suppressed.                                  |
 | [`Children`](#Refinement.Children)                                                                                     | Gets the list of children.                                    |
@@ -86,7 +86,7 @@ Gets or sets the NumberOfRefinements.
 
 <a id="Refinement.NamedSelection"></a>
 
-### *property* Refinement.NamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](./../NamedSelection.md#NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Refinement.NamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../NamedSelection.md#NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelection.
 
@@ -102,7 +102,7 @@ Gets or sets the Location.
 
 <a id="Refinement.DataModelObjectCategory"></a>
 
-### *property* Refinement.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Refinement.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -110,7 +110,7 @@ Gets the current DataModelObject’s category.
 
 <a id="Refinement.ScopingMethod"></a>
 
-### *property* Refinement.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](./../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Refinement.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -134,7 +134,7 @@ Gets the list of children.
 
 <a id="Refinement.Comments"></a>
 
-### *property* Refinement.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Refinement.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -142,7 +142,7 @@ Gets the list of associated comments.
 
 <a id="Refinement.Figures"></a>
 
-### *property* Refinement.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Refinement.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -150,7 +150,7 @@ Gets the list of associated figures.
 
 <a id="Refinement.Images"></a>
 
-### *property* Refinement.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Refinement.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -218,7 +218,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### Refinement.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### Refinement.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

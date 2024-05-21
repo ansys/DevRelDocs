@@ -18,9 +18,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 | Name |
 | --------------------------------------------------------------------------------------------------- |
-| [`Pressure`](./../../../../ACT/Automation/Mechanical/BoundaryConditions/Pressure.md#Pressure) |
-| [`HeatFlux`](./../../../../ACT/Automation/Mechanical/BoundaryConditions/HeatFlux.md#HeatFlux) |
-| [`Convection`](./../../../../ACT/Automation/Mechanical/BoundaryConditions/Convection.md#Convection) |
+| [`Pressure`](../../../../ACT/Automation/Mechanical/BoundaryConditions/Pressure.md#Pressure) |
+| [`HeatFlux`](../../../../ACT/Automation/Mechanical/BoundaryConditions/HeatFlux.md#HeatFlux) |
+| [`Convection`](../../../../ACT/Automation/Mechanical/BoundaryConditions/Convection.md#Convection) |
 
 <a id="import-detail"></a>
 

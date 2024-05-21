@@ -68,8 +68,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`XComponent`](#InitialCondition.XComponent)                                                                        | Gets or sets the XComponent.                                  |
 | [`YComponent`](#InitialCondition.YComponent)                                                                        | Gets or sets the YComponent.                                  |
 | [`ZComponent`](#InitialCondition.ZComponent)                                                                        | Gets or sets the ZComponent.                                  |
-| [`DropTestDefineBy`](./../../../Mechanical/DataModel/Enums/DropTestDefineBy.md#DropTestDefineBy)                      | Gets or sets the DropTestDefineBy.                            |
-| [`DropDirection`](./../../../Mechanical/DataModel/Enums/DropDirection.md#DropDirection)                               | Gets or sets the DropDirection.                               |
+| [`DropTestDefineBy`](../../../Mechanical/DataModel/Enums/DropTestDefineBy.md#DropTestDefineBy)                      | Gets or sets the DropTestDefineBy.                            |
+| [`DropDirection`](../../../Mechanical/DataModel/Enums/DropDirection.md#DropDirection)                               | Gets or sets the DropDirection.                               |
 | [`InitialTemperature`](#InitialCondition.InitialTemperature)                                                        | Gets or sets the InitialTemperature.                          |
 | [`PressureInitialization`](#InitialCondition.PressureInitialization)                                                | Gets or sets the PressureInitialization.                      |
 | [`ContactStatus`](Results/ContactToolResults/ContactStatus.md#ContactStatus)                                        | Gets or sets the ContactStatus.                               |
@@ -81,10 +81,10 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`DefineBy`](#InitialCondition.DefineBy)                                                                            | Gets or sets the DefineBy.                                    |
 | [`Suppressed`](#InitialCondition.Suppressed)                                                                        | Gets or sets the Suppressed.                                  |
 | [`PreStressEnvironmentHarmonicMSUPModal`](#InitialCondition.PreStressEnvironmentHarmonicMSUPModal)                  | Gets the PreStressEnvironmentHarmonicMSUPModal.               |
-| [`CoordinateSystem`](./../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
+| [`CoordinateSystem`](../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
 | [`PreStressEnvironmentTransientMSUPModal`](#InitialCondition.PreStressEnvironmentTransientMSUPModal)                | Gets the PreStressEnvironmentTransientMSUPModal.              |
 | [`Location`](#InitialCondition.Location)                                                                            | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#InitialCondition.Children)                                                                            | Gets the list of children.                                    |
 | [`Comments`](#InitialCondition.Comments)                                                                            | Gets the list of associated comments.                         |
 | [`Figures`](#InitialCondition.Figures)                                                                              | Gets the list of associated figures.                          |
@@ -331,7 +331,7 @@ Gets or sets the ZComponent.
 
 <a id="InitialCondition.DropTestDefineBy"></a>
 
-### *property* InitialCondition.DropTestDefineBy *: [Ansys.Mechanical.DataModel.Enums.DropTestDefineBy](./../../../Mechanical/DataModel/Enums/DropTestDefineBy.md#DropTestDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.DropTestDefineBy *: [Ansys.Mechanical.DataModel.Enums.DropTestDefineBy](../../../Mechanical/DataModel/Enums/DropTestDefineBy.md#DropTestDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DropTestDefineBy.
 
@@ -339,7 +339,7 @@ Gets or sets the DropTestDefineBy.
 
 <a id="InitialCondition.DropDirection"></a>
 
-### *property* InitialCondition.DropDirection *: [Ansys.Mechanical.DataModel.Enums.DropDirection](./../../../Mechanical/DataModel/Enums/DropDirection.md#DropDirection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.DropDirection *: [Ansys.Mechanical.DataModel.Enums.DropDirection](../../../Mechanical/DataModel/Enums/DropDirection.md#DropDirection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DropDirection.
 
@@ -347,7 +347,7 @@ Gets or sets the DropDirection.
 
 <a id="InitialCondition.InitialTemperature"></a>
 
-### *property* InitialCondition.InitialTemperature *: [Ansys.Mechanical.DataModel.Enums.InitialTemperatureType](./../../../Mechanical/DataModel/Enums/InitialTemperatureType.md#InitialTemperatureType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.InitialTemperature *: [Ansys.Mechanical.DataModel.Enums.InitialTemperatureType](../../../Mechanical/DataModel/Enums/InitialTemperatureType.md#InitialTemperatureType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the InitialTemperature.
 
@@ -355,7 +355,7 @@ Gets or sets the InitialTemperature.
 
 <a id="InitialCondition.PressureInitialization"></a>
 
-### *property* InitialCondition.PressureInitialization *: [Ansys.Mechanical.DataModel.Enums.PressureInitializationType](./../../../Mechanical/DataModel/Enums/PressureInitializationType.md#PressureInitializationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.PressureInitialization *: [Ansys.Mechanical.DataModel.Enums.PressureInitializationType](../../../Mechanical/DataModel/Enums/PressureInitializationType.md#PressureInitializationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PressureInitialization.
 
@@ -363,7 +363,7 @@ Gets or sets the PressureInitialization.
 
 <a id="InitialCondition.ContactStatus"></a>
 
-### *property* InitialCondition.ContactStatus *: [Ansys.Mechanical.DataModel.Enums.PreStressContactStatus](./../../../Mechanical/DataModel/Enums/PreStressContactStatus.md#PreStressContactStatus) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.ContactStatus *: [Ansys.Mechanical.DataModel.Enums.PreStressContactStatus](../../../Mechanical/DataModel/Enums/PreStressContactStatus.md#PreStressContactStatus) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactStatus.
 
@@ -371,7 +371,7 @@ Gets or sets the ContactStatus.
 
 <a id="InitialCondition.LoadControl"></a>
 
-### *property* InitialCondition.LoadControl *: [Ansys.Mechanical.DataModel.Enums.PreStressLoadControl](./../../../Mechanical/DataModel/Enums/PreStressLoadControl.md#PreStressLoadControl) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.LoadControl *: [Ansys.Mechanical.DataModel.Enums.PreStressLoadControl](../../../Mechanical/DataModel/Enums/PreStressLoadControl.md#PreStressLoadControl) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadControl.
 
@@ -379,7 +379,7 @@ Gets or sets the LoadControl.
 
 <a id="InitialCondition.Mode"></a>
 
-### *property* InitialCondition.Mode *: [Ansys.Mechanical.DataModel.Enums.PreStressMode](./../../../Mechanical/DataModel/Enums/PreStressMode.md#PreStressMode) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.Mode *: [Ansys.Mechanical.DataModel.Enums.PreStressMode](../../../Mechanical/DataModel/Enums/PreStressMode.md#PreStressMode) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Mode.
 
@@ -387,7 +387,7 @@ Gets or sets the Mode.
 
 <a id="InitialCondition.NewtonRaphsonOption"></a>
 
-### *property* InitialCondition.NewtonRaphsonOption *: [Ansys.Mechanical.DataModel.Enums.NewtonRaphsonType](./../../../Mechanical/DataModel/Enums/NewtonRaphsonType.md#NewtonRaphsonType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.NewtonRaphsonOption *: [Ansys.Mechanical.DataModel.Enums.NewtonRaphsonType](../../../Mechanical/DataModel/Enums/NewtonRaphsonType.md#NewtonRaphsonType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the NewtonRaphsonOption.
 
@@ -395,7 +395,7 @@ Gets the NewtonRaphsonOption.
 
 <a id="InitialCondition.PreStressDefineBy"></a>
 
-### *property* InitialCondition.PreStressDefineBy *: [Ansys.Mechanical.DataModel.Enums.PreStressStateType](./../../../Mechanical/DataModel/Enums/PreStressStateType.md#PreStressStateType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.PreStressDefineBy *: [Ansys.Mechanical.DataModel.Enums.PreStressStateType](../../../Mechanical/DataModel/Enums/PreStressStateType.md#PreStressStateType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PreStressDefineBy.
 
@@ -403,7 +403,7 @@ Gets or sets the PreStressDefineBy.
 
 <a id="InitialCondition.InputType"></a>
 
-### *property* InitialCondition.InputType *: [Ansys.Mechanical.DataModel.Enums.InitialConditionsType](./../../../Mechanical/DataModel/Enums/InitialConditionsType.md#InitialConditionsType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.InputType *: [Ansys.Mechanical.DataModel.Enums.InitialConditionsType](../../../Mechanical/DataModel/Enums/InitialConditionsType.md#InitialConditionsType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the InputType.
 
@@ -411,7 +411,7 @@ Gets or sets the InputType.
 
 <a id="InitialCondition.DefineBy"></a>
 
-### *property* InitialCondition.DefineBy *: [Ansys.Mechanical.DataModel.Enums.LoadDefineBy](./../../../Mechanical/DataModel/Enums/LoadDefineBy.md#LoadDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.DefineBy *: [Ansys.Mechanical.DataModel.Enums.LoadDefineBy](../../../Mechanical/DataModel/Enums/LoadDefineBy.md#LoadDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DefineBy.
 
@@ -459,7 +459,7 @@ Gets or sets the Location.
 
 <a id="InitialCondition.DataModelObjectCategory"></a>
 
-### *property* InitialCondition.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -551,7 +551,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### InitialCondition.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### InitialCondition.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

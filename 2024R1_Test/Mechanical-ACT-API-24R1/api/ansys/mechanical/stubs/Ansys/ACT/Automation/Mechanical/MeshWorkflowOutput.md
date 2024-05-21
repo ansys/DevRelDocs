@@ -38,9 +38,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
-| [`DataTransferType`](./../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/DataTransferType.md#DataTransferType)   | Defines how the PrimeMesh model data should be transferred back into Geometry part(s) and associated mesh(es).   |
+| [`DataTransferType`](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/DataTransferType.md#DataTransferType)   | Defines how the PrimeMesh model data should be transferred back into Geometry part(s) and associated mesh(es).   |
 | [`InternalObject`](#id0)                                                                                                | Gets the internal object. For advanced usage only.                                                               |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory)     | Gets the current DataModelObject’s category.                                                                     |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory)     | Gets the current DataModelObject’s category.                                                                     |
 | [`Children`](#MeshWorkflowOutput.Children)                                                                              | Gets the list of children.                                                                                       |
 | [`Figures`](#MeshWorkflowOutput.Figures)                                                                                | Gets the list of associated figures.                                                                             |
 | [`Images`](#MeshWorkflowOutput.Images)                                                                                  | Gets the list of associated images.                                                                              |
@@ -62,7 +62,7 @@ from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical import MeshWorkflowO
 
 <a id="MeshWorkflowOutput.DataTransferType"></a>
 
-### *property* MeshWorkflowOutput.DataTransferType *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.DataTransferType](./../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/DataTransferType.md#DataTransferType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowOutput.DataTransferType *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.DataTransferType](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/DataTransferType.md#DataTransferType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Defines how the PrimeMesh model data should be transferred back into Geometry part(s) and associated mesh(es).
 
@@ -78,7 +78,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="MeshWorkflowOutput.DataModelObjectCategory"></a>
 
-### *property* MeshWorkflowOutput.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowOutput.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -154,7 +154,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### MeshWorkflowOutput.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### MeshWorkflowOutput.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

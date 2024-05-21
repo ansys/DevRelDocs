@@ -50,7 +50,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`DisplayConnectionLines`](#ImportedConvection.DisplayConnectionLines)                                                             | Gets or sets the DisplayConnectionLines.                                                                |
 | [`FluidFlow`](#ImportedConvection.FluidFlow)                                                                                       | Gets or sets the FluidFlow.                                                                             |
 | [`FluidFlowLocation`](#ImportedConvection.FluidFlowLocation)                                                                       | Gets or sets the FluidFlowLocation.                                                                     |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory)             | Gets the current DataModelObject’s category.                                                            |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory)             | Gets the current DataModelObject’s category.                                                            |
 | [`Weighting`](#ImportedConvection.Weighting)                                                                                       | Weighting property.                                                                                     |
 | [`MappingControl`](#ImportedConvection.MappingControl)                                                                             | MappingControl property.                                                                                |
 | [`DisplaySourcePoints`](#ImportedConvection.DisplaySourcePoints)                                                                   | DisplaySourcePoints property.                                                                           |
@@ -71,13 +71,13 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`OutsideDistanceCheck`](#ImportedConvection.OutsideDistanceCheck)                                                                 | OutsideDistanceCheck property.                                                                          |
 | [`OutsideOption`](#ImportedConvection.OutsideOption)                                                                               | OutsideOption property.                                                                                 |
 | [`Projection`](#ImportedConvection.Projection)                                                                                     | Projection property.                                                                                    |
-| [`RigidBodyTransformationType`](./../../../../Mechanical/DataModel/Enums/RigidBodyTransformationType.md#RigidBodyTransformationType) | RigidBodyTransformationType property.                                                                   |
+| [`RigidBodyTransformationType`](../../../../Mechanical/DataModel/Enums/RigidBodyTransformationType.md#RigidBodyTransformationType) | RigidBodyTransformationType property.                                                                   |
 | [`RigidTransformSourceCoordinateSystem`](#ImportedConvection.RigidTransformSourceCoordinateSystem)                                 | RigidTransformSourceCoordinateSystem property.                                                          |
 | [`RigidTransformTargetCoordinateSystem`](#ImportedConvection.RigidTransformTargetCoordinateSystem)                                 | RigidTransformTargetCoordinateSystem property.                                                          |
 | [`ShellThicknessFactor`](#ImportedConvection.ShellThicknessFactor)                                                                 | ShellThicknessFactor property.                                                                          |
 | [`SourceMaximum`](#ImportedConvection.SourceMaximum)                                                                               | SourceMaximum property.                                                                                 |
 | [`SourceMinimum`](#ImportedConvection.SourceMinimum)                                                                               | SourceMinimum property.                                                                                 |
-| [`VariableType`](./../../../../Mechanical/DataModel/MechanicalEnums/Table/VariableType.md#VariableType)                              | VariableType property.                                                                                  |
+| [`VariableType`](../../../../Mechanical/DataModel/MechanicalEnums/Table/VariableType.md#VariableType)                              | VariableType property.                                                                                  |
 | [`Interpolation`](#ImportedConvection.Interpolation)                                                                               | Interpolation property.                                                                                 |
 | [`UnmappedNodesName`](#ImportedConvection.UnmappedNodesName)                                                                       | UnmappedNodesName property.                                                                             |
 | [`MappedNodesName`](#ImportedConvection.MappedNodesName)                                                                           | MappedNodesName property.                                                                               |
@@ -147,7 +147,7 @@ Gets or sets the FluidFlowLocation.
 
 <a id="ImportedConvection.DataModelObjectCategory"></a>
 
-### *property* ImportedConvection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -155,7 +155,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ImportedConvection.Weighting"></a>
 
-### *property* ImportedConvection.Weighting *: [Ansys.Mechanical.DataModel.Enums.WeightingType](./../../../../Mechanical/DataModel/Enums/WeightingType.md#WeightingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.Weighting *: [Ansys.Mechanical.DataModel.Enums.WeightingType](../../../../Mechanical/DataModel/Enums/WeightingType.md#WeightingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Weighting property.
 
@@ -163,7 +163,7 @@ Weighting property.
 
 <a id="ImportedConvection.MappingControl"></a>
 
-### *property* ImportedConvection.MappingControl *: [Ansys.Mechanical.DataModel.Enums.MappingControlType](./../../../../Mechanical/DataModel/Enums/MappingControlType.md#MappingControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.MappingControl *: [Ansys.Mechanical.DataModel.Enums.MappingControlType](../../../../Mechanical/DataModel/Enums/MappingControlType.md#MappingControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 MappingControl property.
 
@@ -203,7 +203,7 @@ DisplayProjectionPlane property.
 
 <a id="ImportedConvection.Algorithm"></a>
 
-### *property* ImportedConvection.Algorithm *: [Ansys.Mechanical.DataModel.Enums.MappingAlgorithm](./../../../../Mechanical/DataModel/Enums/MappingAlgorithm.md#MappingAlgorithm) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.Algorithm *: [Ansys.Mechanical.DataModel.Enums.MappingAlgorithm](../../../../Mechanical/DataModel/Enums/MappingAlgorithm.md#MappingAlgorithm) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Algorithm property.
 
@@ -243,7 +243,7 @@ CreateNameSelectionForUnmappedNodes property.
 
 <a id="ImportedConvection.Mapping"></a>
 
-### *property* ImportedConvection.Mapping *: [Ansys.Mechanical.DataModel.Enums.MappingInterpolationType](./../../../../Mechanical/DataModel/Enums/MappingInterpolationType.md#MappingInterpolationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.Mapping *: [Ansys.Mechanical.DataModel.Enums.MappingInterpolationType](../../../../Mechanical/DataModel/Enums/MappingInterpolationType.md#MappingInterpolationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Mapping property.
 
@@ -267,7 +267,7 @@ LegendMinimum property.
 
 <a id="ImportedConvection.LegendRange"></a>
 
-### *property* ImportedConvection.LegendRange *: [Ansys.Mechanical.DataModel.Enums.LegendRangeType](./../../../../Mechanical/DataModel/Enums/LegendRangeType.md#LegendRangeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.LegendRange *: [Ansys.Mechanical.DataModel.Enums.LegendRangeType](../../../../Mechanical/DataModel/Enums/LegendRangeType.md#LegendRangeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 LegendRange property.
 
@@ -283,7 +283,7 @@ MaxOutsideDistance property.
 
 <a id="ImportedConvection.Method"></a>
 
-### *property* ImportedConvection.Method *: [Ansys.Mechanical.DataModel.Enums.MappingMethod](./../../../../Mechanical/DataModel/Enums/MappingMethod.md#MappingMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.Method *: [Ansys.Mechanical.DataModel.Enums.MappingMethod](../../../../Mechanical/DataModel/Enums/MappingMethod.md#MappingMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Method property.
 
@@ -299,7 +299,7 @@ OutsideDistanceCheck property.
 
 <a id="ImportedConvection.OutsideOption"></a>
 
-### *property* ImportedConvection.OutsideOption *: [Ansys.Mechanical.DataModel.Enums.MappingOutsideOption](./../../../../Mechanical/DataModel/Enums/MappingOutsideOption.md#MappingOutsideOption) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.OutsideOption *: [Ansys.Mechanical.DataModel.Enums.MappingOutsideOption](../../../../Mechanical/DataModel/Enums/MappingOutsideOption.md#MappingOutsideOption) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 OutsideOption property.
 
@@ -307,7 +307,7 @@ OutsideOption property.
 
 <a id="ImportedConvection.Projection"></a>
 
-### *property* ImportedConvection.Projection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.Projection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Projection property.
 
@@ -315,7 +315,7 @@ Projection property.
 
 <a id="ImportedConvection.RigidBodyTransformationType"></a>
 
-### *property* ImportedConvection.RigidBodyTransformationType *: [Ansys.Mechanical.DataModel.Enums.RigidBodyTransformationType](./../../../../Mechanical/DataModel/Enums/RigidBodyTransformationType.md#RigidBodyTransformationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.RigidBodyTransformationType *: [Ansys.Mechanical.DataModel.Enums.RigidBodyTransformationType](../../../../Mechanical/DataModel/Enums/RigidBodyTransformationType.md#RigidBodyTransformationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 RigidBodyTransformationType property.
 
@@ -323,7 +323,7 @@ RigidBodyTransformationType property.
 
 <a id="ImportedConvection.RigidTransformSourceCoordinateSystem"></a>
 
-### *property* ImportedConvection.RigidTransformSourceCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.RigidTransformSourceCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 RigidTransformSourceCoordinateSystem property.
 
@@ -331,7 +331,7 @@ RigidTransformSourceCoordinateSystem property.
 
 <a id="ImportedConvection.RigidTransformTargetCoordinateSystem"></a>
 
-### *property* ImportedConvection.RigidTransformTargetCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.RigidTransformTargetCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 RigidTransformTargetCoordinateSystem property.
 
@@ -363,7 +363,7 @@ SourceMinimum property.
 
 <a id="ImportedConvection.VariableType"></a>
 
-### *property* ImportedConvection.VariableType *: [Ansys.Mechanical.DataModel.Enums.MappingVariableType](./../../../../Mechanical/DataModel/Enums/MappingVariableType.md#MappingVariableType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.VariableType *: [Ansys.Mechanical.DataModel.Enums.MappingVariableType](../../../../Mechanical/DataModel/Enums/MappingVariableType.md#MappingVariableType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 VariableType property.
 
@@ -371,7 +371,7 @@ VariableType property.
 
 <a id="ImportedConvection.Interpolation"></a>
 
-### *property* ImportedConvection.Interpolation *: [Ansys.Mechanical.DataModel.Enums.InterpolationType](./../../../../Mechanical/DataModel/Enums/InterpolationType.md#InterpolationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.Interpolation *: [Ansys.Mechanical.DataModel.Enums.InterpolationType](../../../../Mechanical/DataModel/Enums/InterpolationType.md#InterpolationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Interpolation property.
 
@@ -435,7 +435,7 @@ Limit property.
 
 <a id="ImportedConvection.KrigingCorrelationFunction"></a>
 
-### *property* ImportedConvection.KrigingCorrelationFunction *: [Ansys.Mechanical.DataModel.Enums.KrigingCorrFuncType](./../../../../Mechanical/DataModel/Enums/KrigingCorrFuncType.md#KrigingCorrFuncType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.KrigingCorrelationFunction *: [Ansys.Mechanical.DataModel.Enums.KrigingCorrFuncType](../../../../Mechanical/DataModel/Enums/KrigingCorrFuncType.md#KrigingCorrFuncType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 KrigingCorrelationFunction property.
 
@@ -443,7 +443,7 @@ KrigingCorrelationFunction property.
 
 <a id="ImportedConvection.KrigingPolynom"></a>
 
-### *property* ImportedConvection.KrigingPolynom *: [Ansys.Mechanical.DataModel.Enums.KrigingPolynomType](./../../../../Mechanical/DataModel/Enums/KrigingPolynomType.md#KrigingPolynomType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.KrigingPolynom *: [Ansys.Mechanical.DataModel.Enums.KrigingPolynomType](../../../../Mechanical/DataModel/Enums/KrigingPolynomType.md#KrigingPolynomType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 KrigingPolynom property.
 
@@ -459,7 +459,7 @@ ExtrapolationTolerancePercent property.
 
 <a id="ImportedConvection.ApplyAs"></a>
 
-### *property* ImportedConvection.ApplyAs *: [Ansys.Mechanical.DataModel.Enums.ExternalLoadApplicationType](./../../../../Mechanical/DataModel/Enums/ExternalLoadApplicationType.md#ExternalLoadApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.ApplyAs *: [Ansys.Mechanical.DataModel.Enums.ExternalLoadApplicationType](../../../../Mechanical/DataModel/Enums/ExternalLoadApplicationType.md#ExternalLoadApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 This controls how the imported load is applied, either as a boundary condition or an initial condition.
 
@@ -475,7 +475,7 @@ Gets or sets the Suppressed.
 
 <a id="ImportedConvection.SharedRefBody"></a>
 
-### *property* ImportedConvection.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](./../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -499,7 +499,7 @@ Gets the list of children.
 
 <a id="ImportedConvection.Comments"></a>
 
-### *property* ImportedConvection.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -507,7 +507,7 @@ Gets the list of associated comments.
 
 <a id="ImportedConvection.Figures"></a>
 
-### *property* ImportedConvection.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -515,7 +515,7 @@ Gets the list of associated figures.
 
 <a id="ImportedConvection.Images"></a>
 
-### *property* ImportedConvection.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -623,7 +623,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### ImportedConvection.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### ImportedConvection.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

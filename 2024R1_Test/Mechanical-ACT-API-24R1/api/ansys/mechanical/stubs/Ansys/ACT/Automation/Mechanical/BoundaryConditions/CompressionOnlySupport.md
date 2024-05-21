@@ -45,7 +45,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`UpdateStiffness`](#CompressionOnlySupport.UpdateStiffness)                                                           | Gets or sets the UpdateStiffness.                             |
 | [`AutomaticNormalStiffness`](#CompressionOnlySupport.AutomaticNormalStiffness)                                         | Gets or sets the AutomaticNormalStiffness.                    |
 | [`Location`](#CompressionOnlySupport.Location)                                                                         | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Suppressed`](#CompressionOnlySupport.Suppressed)                                                                     | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#CompressionOnlySupport.SharedRefBody)                                                               | Gets or sets the SharedRefBody.                               |
 | [`Children`](#CompressionOnlySupport.Children)                                                                         | Gets the list of children.                                    |
@@ -87,7 +87,7 @@ Gets or sets the NormalStiffnessFactor.
 
 <a id="CompressionOnlySupport.UpdateStiffness"></a>
 
-### *property* CompressionOnlySupport.UpdateStiffness *: [Ansys.Mechanical.DataModel.Enums.UpdateContactStiffness](./../../../../Mechanical/DataModel/Enums/UpdateContactStiffness.md#UpdateContactStiffness) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompressionOnlySupport.UpdateStiffness *: [Ansys.Mechanical.DataModel.Enums.UpdateContactStiffness](../../../../Mechanical/DataModel/Enums/UpdateContactStiffness.md#UpdateContactStiffness) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UpdateStiffness.
 
@@ -111,7 +111,7 @@ Gets or sets the Location.
 
 <a id="CompressionOnlySupport.DataModelObjectCategory"></a>
 
-### *property* CompressionOnlySupport.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompressionOnlySupport.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -127,7 +127,7 @@ Gets or sets the Suppressed.
 
 <a id="CompressionOnlySupport.SharedRefBody"></a>
 
-### *property* CompressionOnlySupport.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](./../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompressionOnlySupport.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -143,7 +143,7 @@ Gets the list of children.
 
 <a id="CompressionOnlySupport.Comments"></a>
 
-### *property* CompressionOnlySupport.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompressionOnlySupport.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -151,7 +151,7 @@ Gets the list of associated comments.
 
 <a id="CompressionOnlySupport.Figures"></a>
 
-### *property* CompressionOnlySupport.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompressionOnlySupport.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -159,7 +159,7 @@ Gets the list of associated figures.
 
 <a id="CompressionOnlySupport.Images"></a>
 
-### *property* CompressionOnlySupport.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompressionOnlySupport.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -227,7 +227,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### CompressionOnlySupport.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### CompressionOnlySupport.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

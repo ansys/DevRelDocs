@@ -128,7 +128,7 @@ Returns the manual linux settings.
 
 <a id="SolveProcessSettings.GPUAccelerationDevice"></a>
 
-### *property* SolveProcessSettings.GPUAccelerationDevice *: [Ansys.Mechanical.DataModel.Enums.GPUAccelerationDevicesType](./../../../../Mechanical/DataModel/Enums/GPUAccelerationDevicesType.md#GPUAccelerationDevicesType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolveProcessSettings.GPUAccelerationDevice *: [Ansys.Mechanical.DataModel.Enums.GPUAccelerationDevicesType](../../../../Mechanical/DataModel/Enums/GPUAccelerationDevicesType.md#GPUAccelerationDevicesType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The GPU Acceleration device the solver will use.
 

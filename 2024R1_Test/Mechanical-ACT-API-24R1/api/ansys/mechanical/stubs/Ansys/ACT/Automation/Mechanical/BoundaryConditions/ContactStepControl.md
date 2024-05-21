@@ -46,7 +46,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Status`](#ContactStepControl.Status)                                                                                 | Gets or sets the Status.                                      |
 | [`NormalStiffness`](#ContactStepControl.NormalStiffness)                                                               | Gets or sets the NormalStiffness.                             |
 | [`ContactSelection`](#ContactStepControl.ContactSelection)                                                             | Gets or sets the ContactSelection.                            |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Suppressed`](#ContactStepControl.Suppressed)                                                                         | Gets or sets the Suppressed.                                  |
 | [`Children`](#ContactStepControl.Children)                                                                             | Gets the list of children.                                    |
 | [`Comments`](#ContactStepControl.Comments)                                                                             | Gets the list of associated comments.                         |
@@ -102,7 +102,7 @@ Gets or sets the NormalStiffnessFactor.
 
 <a id="ContactStepControl.Status"></a>
 
-### *property* ContactStepControl.Status *: [Ansys.Mechanical.DataModel.Enums.ElementControlsStatus](./../../../../Mechanical/DataModel/Enums/ElementControlsStatus.md#ElementControlsStatus) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactStepControl.Status *: [Ansys.Mechanical.DataModel.Enums.ElementControlsStatus](../../../../Mechanical/DataModel/Enums/ElementControlsStatus.md#ElementControlsStatus) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Status.
 
@@ -110,7 +110,7 @@ Gets or sets the Status.
 
 <a id="ContactStepControl.NormalStiffness"></a>
 
-### *property* ContactStepControl.NormalStiffness *: [Ansys.Mechanical.DataModel.Enums.ElementControlsNormalStiffnessType](./../../../../Mechanical/DataModel/Enums/ElementControlsNormalStiffnessType.md#ElementControlsNormalStiffnessType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactStepControl.NormalStiffness *: [Ansys.Mechanical.DataModel.Enums.ElementControlsNormalStiffnessType](../../../../Mechanical/DataModel/Enums/ElementControlsNormalStiffnessType.md#ElementControlsNormalStiffnessType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NormalStiffness.
 
@@ -118,7 +118,7 @@ Gets or sets the NormalStiffness.
 
 <a id="ContactStepControl.ContactSelection"></a>
 
-### *property* ContactStepControl.ContactSelection *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](./../Connections/ContactRegion.md#ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactStepControl.ContactSelection *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../Connections/ContactRegion.md#ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactSelection.
 
@@ -126,7 +126,7 @@ Gets or sets the ContactSelection.
 
 <a id="ContactStepControl.DataModelObjectCategory"></a>
 
-### *property* ContactStepControl.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactStepControl.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -150,7 +150,7 @@ Gets the list of children.
 
 <a id="ContactStepControl.Comments"></a>
 
-### *property* ContactStepControl.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactStepControl.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -158,7 +158,7 @@ Gets the list of associated comments.
 
 <a id="ContactStepControl.Figures"></a>
 
-### *property* ContactStepControl.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactStepControl.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -166,7 +166,7 @@ Gets the list of associated figures.
 
 <a id="ContactStepControl.Images"></a>
 
-### *property* ContactStepControl.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactStepControl.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -218,7 +218,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### ContactStepControl.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### ContactStepControl.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

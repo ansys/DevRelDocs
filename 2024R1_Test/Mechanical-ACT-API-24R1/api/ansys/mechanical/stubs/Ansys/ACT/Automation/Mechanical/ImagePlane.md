@@ -39,12 +39,12 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.                                                                                                              |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                                                                                                    |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                                                                                                    |
 | [`Children`](#ImagePlane.Children)                                                                                  | Gets the list of children.                                                                                                                                      |
 | [`Comments`](#ImagePlane.Comments)                                                                                  | Gets the list of associated comments.                                                                                                                           |
 | [`Images`](#ImagePlane.Images)                                                                                      | Gets the list of associated images.                                                                                                                             |
 | [`ImageFilePath`](#ImagePlane.ImageFilePath)                                                                        | Gets the file path for the rendered image.                                                                                                                      |
-| [`CoordinateSystem`](./../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the coordinate system object used for defining the plane’s location and orientation.  This property is restricted to cartesian coordinate systems. |
+| [`CoordinateSystem`](../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the coordinate system object used for defining the plane’s location and orientation.  This property is restricted to cartesian coordinate systems. |
 | [`CoordinateSystemVisible`](#ImagePlane.CoordinateSystemVisible)                                                    | Gets or sets whether the annotation for the image’s coordinate system is rendered.                                                                              |
 | [`PixelWidth`](#ImagePlane.PixelWidth)                                                                              | Gets the pixel width of the plane’s image.                                                                                                                      |
 | [`PixelHeight`](#ImagePlane.PixelHeight)                                                                            | Gets the pixel height of the plane’s image.                                                                                                                     |
@@ -80,7 +80,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ImagePlane.DataModelObjectCategory"></a>
 
-### *property* ImagePlane.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImagePlane.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -244,7 +244,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### ImagePlane.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### ImagePlane.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

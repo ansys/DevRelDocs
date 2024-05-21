@@ -18,13 +18,13 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 | Name |
 | ------------------------------------------------------------------------------------------------------------------------ |
-| [`BuildStep`](./../../../ACT/Automation/Mechanical/AdditiveManufacturing/BuildStep.md#BuildStep) |
-| [`CooldownStep`](./../../../ACT/Automation/Mechanical/AdditiveManufacturing/CooldownStep.md#CooldownStep) |
+| [`BuildStep`](../../../ACT/Automation/Mechanical/AdditiveManufacturing/BuildStep.md#BuildStep) |
+| [`CooldownStep`](../../../ACT/Automation/Mechanical/AdditiveManufacturing/CooldownStep.md#CooldownStep) |
 | [`BaseRemovalStep`](#AMProcessStepType.BaseRemovalStep) |
 | [`SupportRemovalStep`](#AMProcessStepType.SupportRemovalStep) |
-| [`UserStep`](./../../../ACT/Automation/Mechanical/AdditiveManufacturing/UserStep.md#UserStep) |
-| [`HeatTreatmentStep`](./../../../ACT/Automation/Mechanical/AdditiveManufacturing/HeatTreatmentStep.md#HeatTreatmentStep) |
-| [`BaseUnboltStep`](./../../../ACT/Automation/Mechanical/AdditiveManufacturing/BaseUnboltStep.md#BaseUnboltStep) |
+| [`UserStep`](../../../ACT/Automation/Mechanical/AdditiveManufacturing/UserStep.md#UserStep) |
+| [`HeatTreatmentStep`](../../../ACT/Automation/Mechanical/AdditiveManufacturing/HeatTreatmentStep.md#HeatTreatmentStep) |
+| [`BaseUnboltStep`](../../../ACT/Automation/Mechanical/AdditiveManufacturing/BaseUnboltStep.md#BaseUnboltStep) |
 
 <a id="import-detail"></a>
 

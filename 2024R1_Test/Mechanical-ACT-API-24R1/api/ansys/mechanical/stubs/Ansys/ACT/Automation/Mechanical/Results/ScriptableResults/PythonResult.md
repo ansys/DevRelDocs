@@ -28,7 +28,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`AddFigure`](#PythonResult.AddFigure)                             | Creates a new child Figure.                                                       |
 | [`AddImage`](#PythonResult.AddImage)                               | Creates a new child Image.                                                        |
 | [`ReloadProperties`](#PythonResult.ReloadProperties)               | Reload properties to update properties provided by the provider.                  |
-| [`Connect`](./../../MeshControls/Connect.md#Connect)                 | Register the python code.                                                         |
+| [`Connect`](../../MeshControls/Connect.md#Connect)                 | Register the python code.                                                         |
 | [`Delete`](#PythonResult.Delete)                                   | Run the Delete action.                                                            |
 | [`Activate`](#PythonResult.Activate)                               | Activate the current object.                                                      |
 | [`CopyTo`](#PythonResult.CopyTo)                                   | Copies all visible properties from this object to another.                        |
@@ -50,7 +50,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`DisplayTime`](#PythonResult.DisplayTime)                                                                                | Gets or sets the DisplayTime.                                                         |
 | [`By`](#PythonResult.By)                                                                                                  | Gets or sets the By.                                                                  |
 | [`Location`](#PythonResult.Location)                                                                                      | Gets or sets the Location.                                                            |
-| [`DataModelObjectCategory`](./../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                          |
+| [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                          |
 | [`Children`](#PythonResult.Children)                                                                                      | Gets the list of children.                                                            |
 | [`Comments`](#PythonResult.Comments)                                                                                      | Gets the list of associated comments.                                                 |
 | [`Figures`](#PythonResult.Figures)                                                                                        | Gets the list of associated figures.                                                  |
@@ -102,7 +102,7 @@ Gets or sets the DisplayTime.
 
 <a id="PythonResult.By"></a>
 
-### *property* PythonResult.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](./../../../../../Mechanical/DataModel/Enums/SetDriverStyle.md#SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PythonResult.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../Mechanical/DataModel/Enums/SetDriverStyle.md#SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the By.
 
@@ -118,7 +118,7 @@ Gets or sets the Location.
 
 <a id="PythonResult.DataModelObjectCategory"></a>
 
-### *property* PythonResult.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PythonResult.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -134,7 +134,7 @@ Gets the list of children.
 
 <a id="PythonResult.Comments"></a>
 
-### *property* PythonResult.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PythonResult.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -142,7 +142,7 @@ Gets the list of associated comments.
 
 <a id="PythonResult.Figures"></a>
 
-### *property* PythonResult.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PythonResult.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -150,7 +150,7 @@ Gets the list of associated figures.
 
 <a id="PythonResult.Images"></a>
 
-### *property* PythonResult.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PythonResult.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -250,7 +250,7 @@ ClearGeneratedData method.
 
 <a id="PythonResult.ExportAnimation"></a>
 
-### PythonResult.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](./../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](./../../../../../Mechanical/Graphics/AnimationExportSettings.md#AnimationExportSettings))
+### PythonResult.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -266,7 +266,7 @@ Gets the list of children, filtered by type.
 
 <a id="id2"></a>
 
-### PythonResult.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### PythonResult.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

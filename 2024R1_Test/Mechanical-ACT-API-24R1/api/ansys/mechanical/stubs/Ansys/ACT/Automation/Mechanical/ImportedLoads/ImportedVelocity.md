@@ -51,9 +51,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`CutoffFrequency`](#ImportedVelocity.CutoffFrequency)                                                                             | Gets or sets the CutoffFrequency.                                                                       |
 | [`MaximumTimeRange`](#ImportedVelocity.MaximumTimeRange)                                                                           | Gets or sets the MaximumTimeRange.                                                                      |
 | [`MinimumTimeRange`](#ImportedVelocity.MinimumTimeRange)                                                                           | Gets or sets the MinimumTimeRange.                                                                      |
-| [`SourceTimeDefinitionType`](./../../../../Mechanical/DataModel/Enums/SourceTimeDefinitionType.md#SourceTimeDefinitionType)          | Gets or sets the SourceTimeDefinitionType.                                                              |
-| [`WindowType`](./../../../../Mechanical/DataModel/Enums/WindowType.md#WindowType)                                                    | Gets or sets the WindowType.                                                                            |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory)             | Gets the current DataModelObject’s category.                                                            |
+| [`SourceTimeDefinitionType`](../../../../Mechanical/DataModel/Enums/SourceTimeDefinitionType.md#SourceTimeDefinitionType)          | Gets or sets the SourceTimeDefinitionType.                                                              |
+| [`WindowType`](../../../../Mechanical/DataModel/Enums/WindowType.md#WindowType)                                                    | Gets or sets the WindowType.                                                                            |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory)             | Gets the current DataModelObject’s category.                                                            |
 | [`Weighting`](#ImportedVelocity.Weighting)                                                                                         | Weighting property.                                                                                     |
 | [`MappingControl`](#ImportedVelocity.MappingControl)                                                                               | MappingControl property.                                                                                |
 | [`DisplaySourcePoints`](#ImportedVelocity.DisplaySourcePoints)                                                                     | DisplaySourcePoints property.                                                                           |
@@ -74,13 +74,13 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`OutsideDistanceCheck`](#ImportedVelocity.OutsideDistanceCheck)                                                                   | OutsideDistanceCheck property.                                                                          |
 | [`OutsideOption`](#ImportedVelocity.OutsideOption)                                                                                 | OutsideOption property.                                                                                 |
 | [`Projection`](#ImportedVelocity.Projection)                                                                                       | Projection property.                                                                                    |
-| [`RigidBodyTransformationType`](./../../../../Mechanical/DataModel/Enums/RigidBodyTransformationType.md#RigidBodyTransformationType) | RigidBodyTransformationType property.                                                                   |
+| [`RigidBodyTransformationType`](../../../../Mechanical/DataModel/Enums/RigidBodyTransformationType.md#RigidBodyTransformationType) | RigidBodyTransformationType property.                                                                   |
 | [`RigidTransformSourceCoordinateSystem`](#ImportedVelocity.RigidTransformSourceCoordinateSystem)                                   | RigidTransformSourceCoordinateSystem property.                                                          |
 | [`RigidTransformTargetCoordinateSystem`](#ImportedVelocity.RigidTransformTargetCoordinateSystem)                                   | RigidTransformTargetCoordinateSystem property.                                                          |
 | [`ShellThicknessFactor`](#ImportedVelocity.ShellThicknessFactor)                                                                   | ShellThicknessFactor property.                                                                          |
 | [`SourceMaximum`](#ImportedVelocity.SourceMaximum)                                                                                 | SourceMaximum property.                                                                                 |
 | [`SourceMinimum`](#ImportedVelocity.SourceMinimum)                                                                                 | SourceMinimum property.                                                                                 |
-| [`VariableType`](./../../../../Mechanical/DataModel/MechanicalEnums/Table/VariableType.md#VariableType)                              | VariableType property.                                                                                  |
+| [`VariableType`](../../../../Mechanical/DataModel/MechanicalEnums/Table/VariableType.md#VariableType)                              | VariableType property.                                                                                  |
 | [`Interpolation`](#ImportedVelocity.Interpolation)                                                                                 | Interpolation property.                                                                                 |
 | [`UnmappedNodesName`](#ImportedVelocity.UnmappedNodesName)                                                                         | UnmappedNodesName property.                                                                             |
 | [`MappedNodesName`](#ImportedVelocity.MappedNodesName)                                                                             | MappedNodesName property.                                                                               |
@@ -158,7 +158,7 @@ Gets or sets the MinimumTimeRange.
 
 <a id="ImportedVelocity.SourceTimeDefinitionType"></a>
 
-### *property* ImportedVelocity.SourceTimeDefinitionType *: [Ansys.Mechanical.DataModel.Enums.SourceTimeDefinitionType](./../../../../Mechanical/DataModel/Enums/SourceTimeDefinitionType.md#SourceTimeDefinitionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.SourceTimeDefinitionType *: [Ansys.Mechanical.DataModel.Enums.SourceTimeDefinitionType](../../../../Mechanical/DataModel/Enums/SourceTimeDefinitionType.md#SourceTimeDefinitionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SourceTimeDefinitionType.
 
@@ -166,7 +166,7 @@ Gets or sets the SourceTimeDefinitionType.
 
 <a id="ImportedVelocity.WindowType"></a>
 
-### *property* ImportedVelocity.WindowType *: [Ansys.Mechanical.DataModel.Enums.WindowType](./../../../../Mechanical/DataModel/Enums/WindowType.md#WindowType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.WindowType *: [Ansys.Mechanical.DataModel.Enums.WindowType](../../../../Mechanical/DataModel/Enums/WindowType.md#WindowType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the WindowType.
 
@@ -174,7 +174,7 @@ Gets or sets the WindowType.
 
 <a id="ImportedVelocity.DataModelObjectCategory"></a>
 
-### *property* ImportedVelocity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -182,7 +182,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ImportedVelocity.Weighting"></a>
 
-### *property* ImportedVelocity.Weighting *: [Ansys.Mechanical.DataModel.Enums.WeightingType](./../../../../Mechanical/DataModel/Enums/WeightingType.md#WeightingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.Weighting *: [Ansys.Mechanical.DataModel.Enums.WeightingType](../../../../Mechanical/DataModel/Enums/WeightingType.md#WeightingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Weighting property.
 
@@ -190,7 +190,7 @@ Weighting property.
 
 <a id="ImportedVelocity.MappingControl"></a>
 
-### *property* ImportedVelocity.MappingControl *: [Ansys.Mechanical.DataModel.Enums.MappingControlType](./../../../../Mechanical/DataModel/Enums/MappingControlType.md#MappingControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.MappingControl *: [Ansys.Mechanical.DataModel.Enums.MappingControlType](../../../../Mechanical/DataModel/Enums/MappingControlType.md#MappingControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 MappingControl property.
 
@@ -230,7 +230,7 @@ DisplayProjectionPlane property.
 
 <a id="ImportedVelocity.Algorithm"></a>
 
-### *property* ImportedVelocity.Algorithm *: [Ansys.Mechanical.DataModel.Enums.MappingAlgorithm](./../../../../Mechanical/DataModel/Enums/MappingAlgorithm.md#MappingAlgorithm) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.Algorithm *: [Ansys.Mechanical.DataModel.Enums.MappingAlgorithm](../../../../Mechanical/DataModel/Enums/MappingAlgorithm.md#MappingAlgorithm) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Algorithm property.
 
@@ -270,7 +270,7 @@ CreateNameSelectionForUnmappedNodes property.
 
 <a id="ImportedVelocity.Mapping"></a>
 
-### *property* ImportedVelocity.Mapping *: [Ansys.Mechanical.DataModel.Enums.MappingInterpolationType](./../../../../Mechanical/DataModel/Enums/MappingInterpolationType.md#MappingInterpolationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.Mapping *: [Ansys.Mechanical.DataModel.Enums.MappingInterpolationType](../../../../Mechanical/DataModel/Enums/MappingInterpolationType.md#MappingInterpolationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Mapping property.
 
@@ -294,7 +294,7 @@ LegendMinimum property.
 
 <a id="ImportedVelocity.LegendRange"></a>
 
-### *property* ImportedVelocity.LegendRange *: [Ansys.Mechanical.DataModel.Enums.LegendRangeType](./../../../../Mechanical/DataModel/Enums/LegendRangeType.md#LegendRangeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.LegendRange *: [Ansys.Mechanical.DataModel.Enums.LegendRangeType](../../../../Mechanical/DataModel/Enums/LegendRangeType.md#LegendRangeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 LegendRange property.
 
@@ -310,7 +310,7 @@ MaxOutsideDistance property.
 
 <a id="ImportedVelocity.Method"></a>
 
-### *property* ImportedVelocity.Method *: [Ansys.Mechanical.DataModel.Enums.MappingMethod](./../../../../Mechanical/DataModel/Enums/MappingMethod.md#MappingMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.Method *: [Ansys.Mechanical.DataModel.Enums.MappingMethod](../../../../Mechanical/DataModel/Enums/MappingMethod.md#MappingMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Method property.
 
@@ -326,7 +326,7 @@ OutsideDistanceCheck property.
 
 <a id="ImportedVelocity.OutsideOption"></a>
 
-### *property* ImportedVelocity.OutsideOption *: [Ansys.Mechanical.DataModel.Enums.MappingOutsideOption](./../../../../Mechanical/DataModel/Enums/MappingOutsideOption.md#MappingOutsideOption) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.OutsideOption *: [Ansys.Mechanical.DataModel.Enums.MappingOutsideOption](../../../../Mechanical/DataModel/Enums/MappingOutsideOption.md#MappingOutsideOption) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 OutsideOption property.
 
@@ -334,7 +334,7 @@ OutsideOption property.
 
 <a id="ImportedVelocity.Projection"></a>
 
-### *property* ImportedVelocity.Projection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.Projection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Projection property.
 
@@ -342,7 +342,7 @@ Projection property.
 
 <a id="ImportedVelocity.RigidBodyTransformationType"></a>
 
-### *property* ImportedVelocity.RigidBodyTransformationType *: [Ansys.Mechanical.DataModel.Enums.RigidBodyTransformationType](./../../../../Mechanical/DataModel/Enums/RigidBodyTransformationType.md#RigidBodyTransformationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.RigidBodyTransformationType *: [Ansys.Mechanical.DataModel.Enums.RigidBodyTransformationType](../../../../Mechanical/DataModel/Enums/RigidBodyTransformationType.md#RigidBodyTransformationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 RigidBodyTransformationType property.
 
@@ -350,7 +350,7 @@ RigidBodyTransformationType property.
 
 <a id="ImportedVelocity.RigidTransformSourceCoordinateSystem"></a>
 
-### *property* ImportedVelocity.RigidTransformSourceCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.RigidTransformSourceCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 RigidTransformSourceCoordinateSystem property.
 
@@ -358,7 +358,7 @@ RigidTransformSourceCoordinateSystem property.
 
 <a id="ImportedVelocity.RigidTransformTargetCoordinateSystem"></a>
 
-### *property* ImportedVelocity.RigidTransformTargetCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.RigidTransformTargetCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 RigidTransformTargetCoordinateSystem property.
 
@@ -390,7 +390,7 @@ SourceMinimum property.
 
 <a id="ImportedVelocity.VariableType"></a>
 
-### *property* ImportedVelocity.VariableType *: [Ansys.Mechanical.DataModel.Enums.MappingVariableType](./../../../../Mechanical/DataModel/Enums/MappingVariableType.md#MappingVariableType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.VariableType *: [Ansys.Mechanical.DataModel.Enums.MappingVariableType](../../../../Mechanical/DataModel/Enums/MappingVariableType.md#MappingVariableType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 VariableType property.
 
@@ -398,7 +398,7 @@ VariableType property.
 
 <a id="ImportedVelocity.Interpolation"></a>
 
-### *property* ImportedVelocity.Interpolation *: [Ansys.Mechanical.DataModel.Enums.InterpolationType](./../../../../Mechanical/DataModel/Enums/InterpolationType.md#InterpolationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.Interpolation *: [Ansys.Mechanical.DataModel.Enums.InterpolationType](../../../../Mechanical/DataModel/Enums/InterpolationType.md#InterpolationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Interpolation property.
 
@@ -462,7 +462,7 @@ Limit property.
 
 <a id="ImportedVelocity.KrigingCorrelationFunction"></a>
 
-### *property* ImportedVelocity.KrigingCorrelationFunction *: [Ansys.Mechanical.DataModel.Enums.KrigingCorrFuncType](./../../../../Mechanical/DataModel/Enums/KrigingCorrFuncType.md#KrigingCorrFuncType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.KrigingCorrelationFunction *: [Ansys.Mechanical.DataModel.Enums.KrigingCorrFuncType](../../../../Mechanical/DataModel/Enums/KrigingCorrFuncType.md#KrigingCorrFuncType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 KrigingCorrelationFunction property.
 
@@ -470,7 +470,7 @@ KrigingCorrelationFunction property.
 
 <a id="ImportedVelocity.KrigingPolynom"></a>
 
-### *property* ImportedVelocity.KrigingPolynom *: [Ansys.Mechanical.DataModel.Enums.KrigingPolynomType](./../../../../Mechanical/DataModel/Enums/KrigingPolynomType.md#KrigingPolynomType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.KrigingPolynom *: [Ansys.Mechanical.DataModel.Enums.KrigingPolynomType](../../../../Mechanical/DataModel/Enums/KrigingPolynomType.md#KrigingPolynomType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 KrigingPolynom property.
 
@@ -486,7 +486,7 @@ ExtrapolationTolerancePercent property.
 
 <a id="ImportedVelocity.ApplyAs"></a>
 
-### *property* ImportedVelocity.ApplyAs *: [Ansys.Mechanical.DataModel.Enums.ExternalLoadApplicationType](./../../../../Mechanical/DataModel/Enums/ExternalLoadApplicationType.md#ExternalLoadApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.ApplyAs *: [Ansys.Mechanical.DataModel.Enums.ExternalLoadApplicationType](../../../../Mechanical/DataModel/Enums/ExternalLoadApplicationType.md#ExternalLoadApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 This controls how the imported load is applied, either as a boundary condition or an initial condition.
 
@@ -502,7 +502,7 @@ Gets or sets the Suppressed.
 
 <a id="ImportedVelocity.SharedRefBody"></a>
 
-### *property* ImportedVelocity.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](./../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -526,7 +526,7 @@ Gets the list of children.
 
 <a id="ImportedVelocity.Comments"></a>
 
-### *property* ImportedVelocity.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -534,7 +534,7 @@ Gets the list of associated comments.
 
 <a id="ImportedVelocity.Figures"></a>
 
-### *property* ImportedVelocity.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -542,7 +542,7 @@ Gets the list of associated figures.
 
 <a id="ImportedVelocity.Images"></a>
 
-### *property* ImportedVelocity.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -650,7 +650,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### ImportedVelocity.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### ImportedVelocity.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

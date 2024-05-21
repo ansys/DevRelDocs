@@ -39,7 +39,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 |---------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.                                       |
 | [`ComplianceLimit`](#ThermalComplianceConstraint.ComplianceLimit)                                                   | Gets or sets the ComplianceLimit.                                                        |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                             |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                             |
 | [`EnvironmentSelection`](#ThermalComplianceConstraint.EnvironmentSelection)                                         | Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum. |
 | [`Suppressed`](#ThermalComplianceConstraint.Suppressed)                                                             | Gets or sets the Suppressed.                                                             |
 | [`Children`](#ThermalComplianceConstraint.Children)                                                                 | Gets the list of children.                                                               |
@@ -69,7 +69,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ThermalComplianceConstraint.ComplianceLimit"></a>
 
-### *property* ThermalComplianceConstraint.ComplianceLimit *: [Ansys.ACT.Mechanical.Fields.Field](./../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalComplianceConstraint.ComplianceLimit *: [Ansys.ACT.Mechanical.Fields.Field](../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ComplianceLimit.
 
@@ -77,7 +77,7 @@ Gets or sets the ComplianceLimit.
 
 <a id="ThermalComplianceConstraint.DataModelObjectCategory"></a>
 
-### *property* ThermalComplianceConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalComplianceConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -161,7 +161,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### ThermalComplianceConstraint.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### ThermalComplianceConstraint.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

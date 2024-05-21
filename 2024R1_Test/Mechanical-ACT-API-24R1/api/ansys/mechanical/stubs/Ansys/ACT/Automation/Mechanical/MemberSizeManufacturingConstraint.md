@@ -46,7 +46,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Maximum`](#MemberSizeManufacturingConstraint.Maximum)                                                             | Gets or sets the Maximum.                                     |
 | [`Minimum`](#MemberSizeManufacturingConstraint.Minimum)                                                             | Gets or sets the Minimum.                                     |
 | [`Location`](#MemberSizeManufacturingConstraint.Location)                                                           | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Suppressed`](#MemberSizeManufacturingConstraint.Suppressed)                                                       | Gets or sets the Suppressed.                                  |
 | [`Selection`](#MemberSizeManufacturingConstraint.Selection)                                                         | Gets or sets the Selection.                                   |
 | [`Children`](#MemberSizeManufacturingConstraint.Children)                                                           | Gets the list of children.                                    |
@@ -100,7 +100,7 @@ Gets or sets the MinSize.
 
 <a id="MemberSizeManufacturingConstraint.GapSizeControlledType"></a>
 
-### *property* MemberSizeManufacturingConstraint.GapSizeControlledType *: [Ansys.Mechanical.DataModel.Enums.ManuMemberSizeControlledType](./../../../Mechanical/DataModel/Enums/ManuMemberSizeControlledType.md#ManuMemberSizeControlledType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MemberSizeManufacturingConstraint.GapSizeControlledType *: [Ansys.Mechanical.DataModel.Enums.ManuMemberSizeControlledType](../../../Mechanical/DataModel/Enums/ManuMemberSizeControlledType.md#ManuMemberSizeControlledType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GapSizeControlledType.
 
@@ -108,7 +108,7 @@ Gets or sets the GapSizeControlledType.
 
 <a id="MemberSizeManufacturingConstraint.ScopingMethod"></a>
 
-### *property* MemberSizeManufacturingConstraint.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](./../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MemberSizeManufacturingConstraint.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -116,7 +116,7 @@ Gets or sets the ScopingMethod.
 
 <a id="MemberSizeManufacturingConstraint.Maximum"></a>
 
-### *property* MemberSizeManufacturingConstraint.Maximum *: [Ansys.Mechanical.DataModel.Enums.ManuMemberSizeControlledType](./../../../Mechanical/DataModel/Enums/ManuMemberSizeControlledType.md#ManuMemberSizeControlledType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MemberSizeManufacturingConstraint.Maximum *: [Ansys.Mechanical.DataModel.Enums.ManuMemberSizeControlledType](../../../Mechanical/DataModel/Enums/ManuMemberSizeControlledType.md#ManuMemberSizeControlledType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Maximum.
 
@@ -124,7 +124,7 @@ Gets or sets the Maximum.
 
 <a id="MemberSizeManufacturingConstraint.Minimum"></a>
 
-### *property* MemberSizeManufacturingConstraint.Minimum *: [Ansys.Mechanical.DataModel.Enums.ManuMemberSizeControlledType](./../../../Mechanical/DataModel/Enums/ManuMemberSizeControlledType.md#ManuMemberSizeControlledType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MemberSizeManufacturingConstraint.Minimum *: [Ansys.Mechanical.DataModel.Enums.ManuMemberSizeControlledType](../../../Mechanical/DataModel/Enums/ManuMemberSizeControlledType.md#ManuMemberSizeControlledType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Minimum.
 
@@ -140,7 +140,7 @@ Gets or sets the Location.
 
 <a id="MemberSizeManufacturingConstraint.DataModelObjectCategory"></a>
 
-### *property* MemberSizeManufacturingConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MemberSizeManufacturingConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -224,7 +224,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### MemberSizeManufacturingConstraint.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### MemberSizeManufacturingConstraint.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

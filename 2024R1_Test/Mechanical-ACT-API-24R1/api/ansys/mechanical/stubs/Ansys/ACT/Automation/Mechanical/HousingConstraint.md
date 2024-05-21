@@ -42,7 +42,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`ScopingMethod`](#HousingConstraint.ScopingMethod)                                                                 | Gets or sets the ScopingMethod.                               |
 | [`Location`](#HousingConstraint.Location)                                                                           | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Suppressed`](#HousingConstraint.Suppressed)                                                                       | Gets or sets the Suppressed.                                  |
 | [`Selection`](#HousingConstraint.Selection)                                                                         | Gets or sets the Selection.                                   |
 | [`Children`](#HousingConstraint.Children)                                                                           | Gets the list of children.                                    |
@@ -64,7 +64,7 @@ from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical import HousingConstr
 
 <a id="HousingConstraint.HousingScopingMethod"></a>
 
-### *property* HousingConstraint.HousingScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](./../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HousingConstraint.HousingScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HousingScopingMethod.
 
@@ -88,7 +88,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="HousingConstraint.ScopingMethod"></a>
 
-### *property* HousingConstraint.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](./../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HousingConstraint.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -104,7 +104,7 @@ Gets or sets the Location.
 
 <a id="HousingConstraint.DataModelObjectCategory"></a>
 
-### *property* HousingConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HousingConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -188,7 +188,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### HousingConstraint.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### HousingConstraint.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

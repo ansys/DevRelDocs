@@ -20,7 +20,7 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 | -------------------------------------------------------------- |
 | [`DefinedByGeometry`](#PhaseType.DefinedByGeometry) |
 | [`LiquidGas`](#PhaseType.LiquidGas) |
-| [`Solid`](./../../../ACT/Automation/Mechanical/Solid.md#Solid) |
+| [`Solid`](../../../ACT/Automation/Mechanical/Solid.md#Solid) |
 
 <a id="import-detail"></a>
 

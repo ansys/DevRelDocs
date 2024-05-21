@@ -49,7 +49,7 @@ from ansys.mechanical.stubs.Ansys.ACT.Common.Graphics import MechanicalCameraWra
 
 <a id="MechanicalCameraWrapper.FocalPoint"></a>
 
-### *property* MechanicalCameraWrapper.FocalPoint *: [Ansys.Mechanical.Graphics.Point](./../../../Mechanical/Graphics/Point.md#Point) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MechanicalCameraWrapper.FocalPoint *: [Ansys.Mechanical.Graphics.Point](../../../Mechanical/Graphics/Point.md#Point) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The focal point of the camera (coordinates are in the global coordinate system).
 
@@ -93,7 +93,7 @@ Specifies the scene width (in length units) that will be projected and fit to th
 
 <a id="MechanicalCameraWrapper.Rotate"></a>
 
-### MechanicalCameraWrapper.Rotate(angle: System.Double, axis: [Ansys.Mechanical.DataModel.Enums.CameraAxisType](./../../../Mechanical/DataModel/Enums/CameraAxisType.md#CameraAxisType))
+### MechanicalCameraWrapper.Rotate(angle: System.Double, axis: [Ansys.Mechanical.DataModel.Enums.CameraAxisType](../../../Mechanical/DataModel/Enums/CameraAxisType.md#CameraAxisType))
 
 Rotates the camera about an axis.
 
@@ -101,7 +101,7 @@ Rotates the camera about an axis.
 
 <a id="MechanicalCameraWrapper.SetSpecificViewOrientation"></a>
 
-### MechanicalCameraWrapper.SetSpecificViewOrientation(type: [Ansys.Mechanical.DataModel.Enums.ViewOrientationType](./../../../Mechanical/DataModel/Enums/ViewOrientationType.md#ViewOrientationType))
+### MechanicalCameraWrapper.SetSpecificViewOrientation(type: [Ansys.Mechanical.DataModel.Enums.ViewOrientationType](../../../Mechanical/DataModel/Enums/ViewOrientationType.md#ViewOrientationType))
 
 Sets a specific view orientation.
 
@@ -117,7 +117,7 @@ Fits the view to the specified selection. If null is supplied, fits the view to 
 
 <a id="MechanicalCameraWrapper.GetAsString"></a>
 
-### MechanicalCameraWrapper.GetAsString(appType: [Ansys.Mechanical.DataModel.Enums.ApplicationType](./../../../Mechanical/DataModel/Enums/ApplicationType.md#ApplicationType))
+### MechanicalCameraWrapper.GetAsString(appType: [Ansys.Mechanical.DataModel.Enums.ApplicationType](../../../Mechanical/DataModel/Enums/ApplicationType.md#ApplicationType))
 
 Retrieves the view commands as related to the application type as a string.
 

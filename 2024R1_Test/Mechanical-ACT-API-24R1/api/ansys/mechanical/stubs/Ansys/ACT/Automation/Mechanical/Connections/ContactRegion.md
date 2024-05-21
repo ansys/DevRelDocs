@@ -59,7 +59,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`BeamMaterialName`](#ContactRegion.BeamMaterialName)                                                                  | Gets or sets the BeamMaterialName.                            |
 | [`BeamBeamDetection`](#ContactRegion.BeamBeamDetection)                                                                | Gets or sets the BeamBeamDetection.                           |
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
-| [`Material`](./../Material.md#Material)                                                                                  | Gets or sets the Material.                                    |
+| [`Material`](../Material.md#Material)                                                                                  | Gets or sets the Material.                                    |
 | [`StabilizationDampingFactor`](#ContactRegion.StabilizationDampingFactor)                                              | Gets or sets the StabilizationDampingFactor.                  |
 | [`DecayConstant`](#ContactRegion.DecayConstant)                                                                        | Gets or sets the DecayConstant.                               |
 | [`DynamicCoefficient`](#ContactRegion.DynamicCoefficient)                                                              | Gets or sets the DynamicCoefficient.                          |
@@ -99,19 +99,19 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`TrimTolerance`](#ContactRegion.TrimTolerance)                                                                        | Gets or sets the TrimTolerance.                               |
 | [`UserOffset`](#ContactRegion.UserOffset)                                                                              | Gets or sets the UserOffset.                                  |
 | [`LineLineDetection`](#ContactRegion.LineLineDetection)                                                                | Gets or sets the LineLineDetection.                           |
-| [`BeamBeamModel`](./../../../../Mechanical/DataModel/Enums/BeamBeamModel.md#BeamBeamModel)                               | Gets or sets the BeamBeamModel.                               |
+| [`BeamBeamModel`](../../../../Mechanical/DataModel/Enums/BeamBeamModel.md#BeamBeamModel)                               | Gets or sets the BeamBeamModel.                               |
 | [`Handedness`](#ContactRegion.Handedness)                                                                              | Gets or sets the Handedness.                                  |
 | [`ThreadType`](#ContactRegion.ThreadType)                                                                              | Gets or sets the ThreadType.                                  |
 | [`Breakable`](#ContactRegion.Breakable)                                                                                | Gets or sets the Breakable.                                   |
 | [`ConstraintType`](#ContactRegion.ConstraintType)                                                                      | Gets or sets the ConstraintType.                              |
 | [`ContactGeometryCorrection`](#ContactRegion.ContactGeometryCorrection)                                                | Gets or sets the ContactGeometryCorrection.                   |
-| [`ContactFormulation`](./../../../../Mechanical/DataModel/Enums/ContactFormulation.md#ContactFormulation)                | Gets or sets the ContactFormulation.                          |
-| [`ContactOrientation`](./../../../../Mechanical/DataModel/Enums/ContactOrientation.md#ContactOrientation)                | Gets or sets the ContactOrientation.                          |
+| [`ContactFormulation`](../../../../Mechanical/DataModel/Enums/ContactFormulation.md#ContactFormulation)                | Gets or sets the ContactFormulation.                          |
+| [`ContactOrientation`](../../../../Mechanical/DataModel/Enums/ContactOrientation.md#ContactOrientation)                | Gets or sets the ContactOrientation.                          |
 | [`ContactShellFace`](#ContactRegion.ContactShellFace)                                                                  | Gets or sets the ContactShellFace.                            |
-| [`ContactType`](./../../../../Mechanical/DataModel/Enums/ContactType.md#ContactType)                                     | Gets or sets the ContactType.                                 |
+| [`ContactType`](../../../../Mechanical/DataModel/Enums/ContactType.md#ContactType)                                     | Gets or sets the ContactType.                                 |
 | [`ContinuousDistanceComputation`](#ContactRegion.ContinuousDistanceComputation)                                        | Gets or sets the ContinuousDistanceComputation.               |
 | [`DetectionMethod`](#ContactRegion.DetectionMethod)                                                                    | Gets or sets the DetectionMethod.                             |
-| [`EdgeContactType`](./../../../../Mechanical/DataModel/Enums/EdgeContactType.md#EdgeContactType)                         | Gets or sets the EdgeContactType.                             |
+| [`EdgeContactType`](../../../../Mechanical/DataModel/Enums/EdgeContactType.md#EdgeContactType)                         | Gets or sets the EdgeContactType.                             |
 | [`InitialClearance`](#ContactRegion.InitialClearance)                                                                  | Gets or sets the InitialClearance.                            |
 | [`InterfaceTreatment`](#ContactRegion.InterfaceTreatment)                                                              | Gets or sets the InterfaceTreatment.                          |
 | [`ScopeMode`](#ContactRegion.ScopeMode)                                                                                | Gets the ScopeMode.                                           |
@@ -122,7 +122,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`SmallSliding`](#ContactRegion.SmallSliding)                                                                          | Gets or sets the SmallSliding.                                |
 | [`Behavior`](#ContactRegion.Behavior)                                                                                  | Gets or sets the Behavior.                                    |
 | [`TargetGeometryCorrection`](#ContactRegion.TargetGeometryCorrection)                                                  | Gets or sets the TargetGeometryCorrection.                    |
-| [`TargetOrientation`](./../../../../Mechanical/DataModel/Enums/TargetOrientation.md#TargetOrientation)                   | Gets or sets the TargetOrientation.                           |
+| [`TargetOrientation`](../../../../Mechanical/DataModel/Enums/TargetOrientation.md#TargetOrientation)                   | Gets or sets the TargetOrientation.                           |
 | [`TargetShellFace`](#ContactRegion.TargetShellFace)                                                                    | Gets or sets the TargetShellFace.                             |
 | [`TimeStepControls`](#ContactRegion.TimeStepControls)                                                                  | Gets or sets the TimeStepControls.                            |
 | [`TrimContact`](#ContactRegion.TrimContact)                                                                            | Gets or sets the TrimContact.                                 |
@@ -148,7 +148,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`TargetStartingPoint`](#ContactRegion.TargetStartingPoint)                                                            | Gets or sets the TargetStartingPoint.                         |
 | [`SharedSourceReverseNormalLocation`](#ContactRegion.SharedSourceReverseNormalLocation)                                | Gets or sets the SharedSourceReverseNormalLocation.           |
 | [`SharedTargetReverseNormalLocation`](#ContactRegion.SharedTargetReverseNormalLocation)                                | Gets or sets the SharedTargetReverseNormalLocation.           |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#ContactRegion.Children)                                                                                  | Gets the list of children.                                    |
 | [`Comments`](#ContactRegion.Comments)                                                                                  | Gets the list of associated comments.                         |
 | [`Figures`](#ContactRegion.Figures)                                                                                    | Gets the list of associated figures.                          |
@@ -220,7 +220,7 @@ Gets or sets the BeamMaterialName.
 
 <a id="ContactRegion.BeamBeamDetection"></a>
 
-### *property* ContactRegion.BeamBeamDetection *: [Ansys.Mechanical.DataModel.Enums.BeamBeamContactDetectionType](./../../../../Mechanical/DataModel/Enums/BeamBeamContactDetectionType.md#BeamBeamContactDetectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.BeamBeamDetection *: [Ansys.Mechanical.DataModel.Enums.BeamBeamContactDetectionType](../../../../Mechanical/DataModel/Enums/BeamBeamContactDetectionType.md#BeamBeamContactDetectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BeamBeamDetection.
 
@@ -548,7 +548,7 @@ Gets or sets the UserOffset.
 
 <a id="ContactRegion.LineLineDetection"></a>
 
-### *property* ContactRegion.LineLineDetection *: [Ansys.Mechanical.DataModel.Enums.LineLineContactDetectionType](./../../../../Mechanical/DataModel/Enums/LineLineContactDetectionType.md#LineLineContactDetectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.LineLineDetection *: [Ansys.Mechanical.DataModel.Enums.LineLineContactDetectionType](../../../../Mechanical/DataModel/Enums/LineLineContactDetectionType.md#LineLineContactDetectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LineLineDetection.
 
@@ -556,7 +556,7 @@ Gets or sets the LineLineDetection.
 
 <a id="ContactRegion.BeamBeamModel"></a>
 
-### *property* ContactRegion.BeamBeamModel *: [Ansys.Mechanical.DataModel.Enums.BeamBeamModel](./../../../../Mechanical/DataModel/Enums/BeamBeamModel.md#BeamBeamModel) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.BeamBeamModel *: [Ansys.Mechanical.DataModel.Enums.BeamBeamModel](../../../../Mechanical/DataModel/Enums/BeamBeamModel.md#BeamBeamModel) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BeamBeamModel.
 
@@ -564,7 +564,7 @@ Gets or sets the BeamBeamModel.
 
 <a id="ContactRegion.Handedness"></a>
 
-### *property* ContactRegion.Handedness *: [Ansys.Mechanical.DataModel.Enums.ContactBoltThreadHand](./../../../../Mechanical/DataModel/Enums/ContactBoltThreadHand.md#ContactBoltThreadHand) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.Handedness *: [Ansys.Mechanical.DataModel.Enums.ContactBoltThreadHand](../../../../Mechanical/DataModel/Enums/ContactBoltThreadHand.md#ContactBoltThreadHand) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Handedness.
 
@@ -572,7 +572,7 @@ Gets or sets the Handedness.
 
 <a id="ContactRegion.ThreadType"></a>
 
-### *property* ContactRegion.ThreadType *: [Ansys.Mechanical.DataModel.Enums.ContactBoltThreadType](./../../../../Mechanical/DataModel/Enums/ContactBoltThreadType.md#ContactBoltThreadType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.ThreadType *: [Ansys.Mechanical.DataModel.Enums.ContactBoltThreadType](../../../../Mechanical/DataModel/Enums/ContactBoltThreadType.md#ContactBoltThreadType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ThreadType.
 
@@ -580,7 +580,7 @@ Gets or sets the ThreadType.
 
 <a id="ContactRegion.Breakable"></a>
 
-### *property* ContactRegion.Breakable *: [Ansys.Mechanical.DataModel.Enums.BondedBreakableType](./../../../../Mechanical/DataModel/Enums/BondedBreakableType.md#BondedBreakableType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.Breakable *: [Ansys.Mechanical.DataModel.Enums.BondedBreakableType](../../../../Mechanical/DataModel/Enums/BondedBreakableType.md#BondedBreakableType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Breakable.
 
@@ -588,7 +588,7 @@ Gets or sets the Breakable.
 
 <a id="ContactRegion.ConstraintType"></a>
 
-### *property* ContactRegion.ConstraintType *: [Ansys.Mechanical.DataModel.Enums.ContactConstraintType](./../../../../Mechanical/DataModel/Enums/ContactConstraintType.md#ContactConstraintType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.ConstraintType *: [Ansys.Mechanical.DataModel.Enums.ContactConstraintType](../../../../Mechanical/DataModel/Enums/ContactConstraintType.md#ContactConstraintType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ConstraintType.
 
@@ -596,7 +596,7 @@ Gets or sets the ConstraintType.
 
 <a id="ContactRegion.ContactGeometryCorrection"></a>
 
-### *property* ContactRegion.ContactGeometryCorrection *: [Ansys.Mechanical.DataModel.Enums.ContactCorrection](./../../../../Mechanical/DataModel/Enums/ContactCorrection.md#ContactCorrection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.ContactGeometryCorrection *: [Ansys.Mechanical.DataModel.Enums.ContactCorrection](../../../../Mechanical/DataModel/Enums/ContactCorrection.md#ContactCorrection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactGeometryCorrection.
 
@@ -604,7 +604,7 @@ Gets or sets the ContactGeometryCorrection.
 
 <a id="ContactRegion.ContactFormulation"></a>
 
-### *property* ContactRegion.ContactFormulation *: [Ansys.Mechanical.DataModel.Enums.ContactFormulation](./../../../../Mechanical/DataModel/Enums/ContactFormulation.md#ContactFormulation) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.ContactFormulation *: [Ansys.Mechanical.DataModel.Enums.ContactFormulation](../../../../Mechanical/DataModel/Enums/ContactFormulation.md#ContactFormulation) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactFormulation.
 
@@ -612,7 +612,7 @@ Gets or sets the ContactFormulation.
 
 <a id="ContactRegion.ContactOrientation"></a>
 
-### *property* ContactRegion.ContactOrientation *: [Ansys.Mechanical.DataModel.Enums.ContactOrientation](./../../../../Mechanical/DataModel/Enums/ContactOrientation.md#ContactOrientation) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.ContactOrientation *: [Ansys.Mechanical.DataModel.Enums.ContactOrientation](../../../../Mechanical/DataModel/Enums/ContactOrientation.md#ContactOrientation) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactOrientation.
 
@@ -620,7 +620,7 @@ Gets or sets the ContactOrientation.
 
 <a id="ContactRegion.ContactShellFace"></a>
 
-### *property* ContactRegion.ContactShellFace *: [Ansys.Mechanical.DataModel.Enums.ShellFaceType](./../../../../Mechanical/DataModel/Enums/ShellFaceType.md#ShellFaceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.ContactShellFace *: [Ansys.Mechanical.DataModel.Enums.ShellFaceType](../../../../Mechanical/DataModel/Enums/ShellFaceType.md#ShellFaceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactShellFace.
 
@@ -628,7 +628,7 @@ Gets or sets the ContactShellFace.
 
 <a id="ContactRegion.ContactType"></a>
 
-### *property* ContactRegion.ContactType *: [Ansys.Mechanical.DataModel.Enums.ContactType](./../../../../Mechanical/DataModel/Enums/ContactType.md#ContactType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.ContactType *: [Ansys.Mechanical.DataModel.Enums.ContactType](../../../../Mechanical/DataModel/Enums/ContactType.md#ContactType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactType.
 
@@ -636,7 +636,7 @@ Gets or sets the ContactType.
 
 <a id="ContactRegion.ContinuousDistanceComputation"></a>
 
-### *property* ContactRegion.ContinuousDistanceComputation *: [Ansys.Mechanical.DataModel.Enums.YesNoProgrammedControlled](./../../../../Mechanical/DataModel/Enums/YesNoProgrammedControlled.md#YesNoProgrammedControlled) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.ContinuousDistanceComputation *: [Ansys.Mechanical.DataModel.Enums.YesNoProgrammedControlled](../../../../Mechanical/DataModel/Enums/YesNoProgrammedControlled.md#YesNoProgrammedControlled) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContinuousDistanceComputation.
 
@@ -644,7 +644,7 @@ Gets or sets the ContinuousDistanceComputation.
 
 <a id="ContactRegion.DetectionMethod"></a>
 
-### *property* ContactRegion.DetectionMethod *: [Ansys.Mechanical.DataModel.Enums.ContactDetectionPoint](./../../../../Mechanical/DataModel/Enums/ContactDetectionPoint.md#ContactDetectionPoint) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.DetectionMethod *: [Ansys.Mechanical.DataModel.Enums.ContactDetectionPoint](../../../../Mechanical/DataModel/Enums/ContactDetectionPoint.md#ContactDetectionPoint) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DetectionMethod.
 
@@ -652,7 +652,7 @@ Gets or sets the DetectionMethod.
 
 <a id="ContactRegion.EdgeContactType"></a>
 
-### *property* ContactRegion.EdgeContactType *: [Ansys.Mechanical.DataModel.Enums.EdgeContactType](./../../../../Mechanical/DataModel/Enums/EdgeContactType.md#EdgeContactType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.EdgeContactType *: [Ansys.Mechanical.DataModel.Enums.EdgeContactType](../../../../Mechanical/DataModel/Enums/EdgeContactType.md#EdgeContactType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EdgeContactType.
 
@@ -660,7 +660,7 @@ Gets or sets the EdgeContactType.
 
 <a id="ContactRegion.InitialClearance"></a>
 
-### *property* ContactRegion.InitialClearance *: [Ansys.Mechanical.DataModel.Enums.InitialClearanceType](./../../../../Mechanical/DataModel/Enums/InitialClearanceType.md#InitialClearanceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.InitialClearance *: [Ansys.Mechanical.DataModel.Enums.InitialClearanceType](../../../../Mechanical/DataModel/Enums/InitialClearanceType.md#InitialClearanceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the InitialClearance.
 
@@ -668,7 +668,7 @@ Gets or sets the InitialClearance.
 
 <a id="ContactRegion.InterfaceTreatment"></a>
 
-### *property* ContactRegion.InterfaceTreatment *: [Ansys.Mechanical.DataModel.Enums.ContactInitialEffect](./../../../../Mechanical/DataModel/Enums/ContactInitialEffect.md#ContactInitialEffect) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.InterfaceTreatment *: [Ansys.Mechanical.DataModel.Enums.ContactInitialEffect](../../../../Mechanical/DataModel/Enums/ContactInitialEffect.md#ContactInitialEffect) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the InterfaceTreatment.
 
@@ -676,7 +676,7 @@ Gets or sets the InterfaceTreatment.
 
 <a id="ContactRegion.ScopeMode"></a>
 
-### *property* ContactRegion.ScopeMode *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](./../../../../Mechanical/DataModel/Enums/AutomaticOrManual.md#AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.ScopeMode *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](../../../../Mechanical/DataModel/Enums/AutomaticOrManual.md#AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ScopeMode.
 
@@ -684,7 +684,7 @@ Gets the ScopeMode.
 
 <a id="ContactRegion.NormalStiffnessValueType"></a>
 
-### *property* ContactRegion.NormalStiffnessValueType *: [Ansys.Mechanical.DataModel.Enums.ElementControlsNormalStiffnessType](./../../../../Mechanical/DataModel/Enums/ElementControlsNormalStiffnessType.md#ElementControlsNormalStiffnessType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.NormalStiffnessValueType *: [Ansys.Mechanical.DataModel.Enums.ElementControlsNormalStiffnessType](../../../../Mechanical/DataModel/Enums/ElementControlsNormalStiffnessType.md#ElementControlsNormalStiffnessType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NormalStiffnessValueType.
 
@@ -692,7 +692,7 @@ Gets or sets the NormalStiffnessValueType.
 
 <a id="ContactRegion.PinballRegion"></a>
 
-### *property* ContactRegion.PinballRegion *: [Ansys.Mechanical.DataModel.Enums.ContactPinballType](./../../../../Mechanical/DataModel/Enums/ContactPinballType.md#ContactPinballType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.PinballRegion *: [Ansys.Mechanical.DataModel.Enums.ContactPinballType](../../../../Mechanical/DataModel/Enums/ContactPinballType.md#ContactPinballType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PinballRegion.
 
@@ -700,7 +700,7 @@ Gets or sets the PinballRegion.
 
 <a id="ContactRegion.PressureAtZeroPenetration"></a>
 
-### *property* ContactRegion.PressureAtZeroPenetration *: [Ansys.Mechanical.DataModel.Enums.PressureAtZeroPenetrationType](./../../../../Mechanical/DataModel/Enums/PressureAtZeroPenetrationType.md#PressureAtZeroPenetrationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.PressureAtZeroPenetration *: [Ansys.Mechanical.DataModel.Enums.PressureAtZeroPenetrationType](../../../../Mechanical/DataModel/Enums/PressureAtZeroPenetrationType.md#PressureAtZeroPenetrationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PressureAtZeroPenetration.
 
@@ -708,7 +708,7 @@ Gets or sets the PressureAtZeroPenetration.
 
 <a id="ContactRegion.RBDContactDetection"></a>
 
-### *property* ContactRegion.RBDContactDetection *: [Ansys.Mechanical.DataModel.Enums.DSRBDContactDetection](./../../../../Mechanical/DataModel/Enums/DSRBDContactDetection.md#DSRBDContactDetection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.RBDContactDetection *: [Ansys.Mechanical.DataModel.Enums.DSRBDContactDetection](../../../../Mechanical/DataModel/Enums/DSRBDContactDetection.md#DSRBDContactDetection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RBDContactDetection.
 
@@ -716,7 +716,7 @@ Gets or sets the RBDContactDetection.
 
 <a id="ContactRegion.SmallSliding"></a>
 
-### *property* ContactRegion.SmallSliding *: [Ansys.Mechanical.DataModel.Enums.ContactSmallSlidingType](./../../../../Mechanical/DataModel/Enums/ContactSmallSlidingType.md#ContactSmallSlidingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.SmallSliding *: [Ansys.Mechanical.DataModel.Enums.ContactSmallSlidingType](../../../../Mechanical/DataModel/Enums/ContactSmallSlidingType.md#ContactSmallSlidingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SmallSliding.
 
@@ -724,7 +724,7 @@ Gets or sets the SmallSliding.
 
 <a id="ContactRegion.Behavior"></a>
 
-### *property* ContactRegion.Behavior *: [Ansys.Mechanical.DataModel.Enums.ContactBehavior](./../../../../Mechanical/DataModel/Enums/ContactBehavior.md#ContactBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.Behavior *: [Ansys.Mechanical.DataModel.Enums.ContactBehavior](../../../../Mechanical/DataModel/Enums/ContactBehavior.md#ContactBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Behavior.
 
@@ -732,7 +732,7 @@ Gets or sets the Behavior.
 
 <a id="ContactRegion.TargetGeometryCorrection"></a>
 
-### *property* ContactRegion.TargetGeometryCorrection *: [Ansys.Mechanical.DataModel.Enums.TargetCorrection](./../../../../Mechanical/DataModel/Enums/TargetCorrection.md#TargetCorrection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.TargetGeometryCorrection *: [Ansys.Mechanical.DataModel.Enums.TargetCorrection](../../../../Mechanical/DataModel/Enums/TargetCorrection.md#TargetCorrection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TargetGeometryCorrection.
 
@@ -740,7 +740,7 @@ Gets or sets the TargetGeometryCorrection.
 
 <a id="ContactRegion.TargetOrientation"></a>
 
-### *property* ContactRegion.TargetOrientation *: [Ansys.Mechanical.DataModel.Enums.TargetOrientation](./../../../../Mechanical/DataModel/Enums/TargetOrientation.md#TargetOrientation) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.TargetOrientation *: [Ansys.Mechanical.DataModel.Enums.TargetOrientation](../../../../Mechanical/DataModel/Enums/TargetOrientation.md#TargetOrientation) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TargetOrientation.
 
@@ -748,7 +748,7 @@ Gets or sets the TargetOrientation.
 
 <a id="ContactRegion.TargetShellFace"></a>
 
-### *property* ContactRegion.TargetShellFace *: [Ansys.Mechanical.DataModel.Enums.ShellFaceType](./../../../../Mechanical/DataModel/Enums/ShellFaceType.md#ShellFaceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.TargetShellFace *: [Ansys.Mechanical.DataModel.Enums.ShellFaceType](../../../../Mechanical/DataModel/Enums/ShellFaceType.md#ShellFaceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TargetShellFace.
 
@@ -756,7 +756,7 @@ Gets or sets the TargetShellFace.
 
 <a id="ContactRegion.TimeStepControls"></a>
 
-### *property* ContactRegion.TimeStepControls *: [Ansys.Mechanical.DataModel.Enums.ContactTimeStepControls](./../../../../Mechanical/DataModel/Enums/ContactTimeStepControls.md#ContactTimeStepControls) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.TimeStepControls *: [Ansys.Mechanical.DataModel.Enums.ContactTimeStepControls](../../../../Mechanical/DataModel/Enums/ContactTimeStepControls.md#ContactTimeStepControls) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TimeStepControls.
 
@@ -764,7 +764,7 @@ Gets or sets the TimeStepControls.
 
 <a id="ContactRegion.TrimContact"></a>
 
-### *property* ContactRegion.TrimContact *: [Ansys.Mechanical.DataModel.Enums.ContactTrimType](./../../../../Mechanical/DataModel/Enums/ContactTrimType.md#ContactTrimType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.TrimContact *: [Ansys.Mechanical.DataModel.Enums.ContactTrimType](../../../../Mechanical/DataModel/Enums/ContactTrimType.md#ContactTrimType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TrimContact.
 
@@ -772,7 +772,7 @@ Gets or sets the TrimContact.
 
 <a id="ContactRegion.UpdateStiffness"></a>
 
-### *property* ContactRegion.UpdateStiffness *: [Ansys.Mechanical.DataModel.Enums.UpdateContactStiffness](./../../../../Mechanical/DataModel/Enums/UpdateContactStiffness.md#UpdateContactStiffness) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.UpdateStiffness *: [Ansys.Mechanical.DataModel.Enums.UpdateContactStiffness](../../../../Mechanical/DataModel/Enums/UpdateContactStiffness.md#UpdateContactStiffness) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UpdateStiffness.
 
@@ -780,7 +780,7 @@ Gets or sets the UpdateStiffness.
 
 <a id="ContactRegion.ElasticSlipTolerance"></a>
 
-### *property* ContactRegion.ElasticSlipTolerance *: [Ansys.Mechanical.DataModel.Enums.ContactElasticSlipToleranceType](./../../../../Mechanical/DataModel/Enums/ContactElasticSlipToleranceType.md#ContactElasticSlipToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.ElasticSlipTolerance *: [Ansys.Mechanical.DataModel.Enums.ContactElasticSlipToleranceType](../../../../Mechanical/DataModel/Enums/ContactElasticSlipToleranceType.md#ContactElasticSlipToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ElasticSlipTolerance.
 
@@ -788,7 +788,7 @@ Gets or sets the ElasticSlipTolerance.
 
 <a id="ContactRegion.PenetrationTolerance"></a>
 
-### *property* ContactRegion.PenetrationTolerance *: [Ansys.Mechanical.DataModel.Enums.ContactPenetrationToleranceType](./../../../../Mechanical/DataModel/Enums/ContactPenetrationToleranceType.md#ContactPenetrationToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.PenetrationTolerance *: [Ansys.Mechanical.DataModel.Enums.ContactPenetrationToleranceType](../../../../Mechanical/DataModel/Enums/ContactPenetrationToleranceType.md#ContactPenetrationToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PenetrationTolerance.
 
@@ -868,7 +868,7 @@ Gets or sets the AutomaticThermalConductance.
 
 <a id="ContactRegion.ContactCenterPoint"></a>
 
-### *property* ContactRegion.ContactCenterPoint *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.ContactCenterPoint *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactCenterPoint.
 
@@ -876,7 +876,7 @@ Gets or sets the ContactCenterPoint.
 
 <a id="ContactRegion.ContactEndingPoint"></a>
 
-### *property* ContactRegion.ContactEndingPoint *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.ContactEndingPoint *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactEndingPoint.
 
@@ -884,7 +884,7 @@ Gets or sets the ContactEndingPoint.
 
 <a id="ContactRegion.ContactStartingPoint"></a>
 
-### *property* ContactRegion.ContactStartingPoint *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.ContactStartingPoint *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactStartingPoint.
 
@@ -892,7 +892,7 @@ Gets or sets the ContactStartingPoint.
 
 <a id="ContactRegion.SharedSourceBody"></a>
 
-### *property* ContactRegion.SharedSourceBody *: [Ansys.ACT.Automation.Mechanical.Body](./../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.SharedSourceBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedSourceBody.
 
@@ -900,7 +900,7 @@ Gets or sets the SharedSourceBody.
 
 <a id="ContactRegion.SharedTargetBody"></a>
 
-### *property* ContactRegion.SharedTargetBody *: [Ansys.ACT.Automation.Mechanical.Body](./../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.SharedTargetBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedTargetBody.
 
@@ -908,7 +908,7 @@ Gets or sets the SharedTargetBody.
 
 <a id="ContactRegion.TargetCenterPoint"></a>
 
-### *property* ContactRegion.TargetCenterPoint *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.TargetCenterPoint *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TargetCenterPoint.
 
@@ -916,7 +916,7 @@ Gets or sets the TargetCenterPoint.
 
 <a id="ContactRegion.TargetEndingPoint"></a>
 
-### *property* ContactRegion.TargetEndingPoint *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.TargetEndingPoint *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TargetEndingPoint.
 
@@ -924,7 +924,7 @@ Gets or sets the TargetEndingPoint.
 
 <a id="ContactRegion.TargetStartingPoint"></a>
 
-### *property* ContactRegion.TargetStartingPoint *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.TargetStartingPoint *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TargetStartingPoint.
 
@@ -948,7 +948,7 @@ Gets or sets the SharedTargetReverseNormalLocation.
 
 <a id="ContactRegion.DataModelObjectCategory"></a>
 
-### *property* ContactRegion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -964,7 +964,7 @@ Gets the list of children.
 
 <a id="ContactRegion.Comments"></a>
 
-### *property* ContactRegion.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -972,7 +972,7 @@ Gets the list of associated comments.
 
 <a id="ContactRegion.Figures"></a>
 
-### *property* ContactRegion.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -980,7 +980,7 @@ Gets the list of associated figures.
 
 <a id="ContactRegion.Images"></a>
 
-### *property* ContactRegion.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -1136,7 +1136,7 @@ Gets the list of children, filtered by type.
 
 <a id="id2"></a>
 
-### ContactRegion.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### ContactRegion.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

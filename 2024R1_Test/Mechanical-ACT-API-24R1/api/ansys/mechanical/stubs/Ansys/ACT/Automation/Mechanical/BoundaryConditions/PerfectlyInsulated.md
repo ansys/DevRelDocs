@@ -44,7 +44,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Magnitude`](#PerfectlyInsulated.Magnitude)                                                                           | Gets the Magnitude.                                           |
 | [`DefineAs`](#PerfectlyInsulated.DefineAs)                                                                             | Gets or sets the DefineAs.                                    |
 | [`Location`](#PerfectlyInsulated.Location)                                                                             | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Suppressed`](#PerfectlyInsulated.Suppressed)                                                                         | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#PerfectlyInsulated.SharedRefBody)                                                                   | Gets or sets the SharedRefBody.                               |
 | [`Children`](#PerfectlyInsulated.Children)                                                                             | Gets the list of children.                                    |
@@ -78,7 +78,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="PerfectlyInsulated.Magnitude"></a>
 
-### *property* PerfectlyInsulated.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PerfectlyInsulated.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Magnitude.
 
@@ -86,7 +86,7 @@ Gets the Magnitude.
 
 <a id="PerfectlyInsulated.DefineAs"></a>
 
-### *property* PerfectlyInsulated.DefineAs *: [Ansys.Mechanical.DataModel.Enums.LoadVariationType](./../../../../Mechanical/DataModel/Enums/LoadVariationType.md#LoadVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PerfectlyInsulated.DefineAs *: [Ansys.Mechanical.DataModel.Enums.LoadVariationType](../../../../Mechanical/DataModel/Enums/LoadVariationType.md#LoadVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DefineAs.
 
@@ -102,7 +102,7 @@ Gets or sets the Location.
 
 <a id="PerfectlyInsulated.DataModelObjectCategory"></a>
 
-### *property* PerfectlyInsulated.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PerfectlyInsulated.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -118,7 +118,7 @@ Gets or sets the Suppressed.
 
 <a id="PerfectlyInsulated.SharedRefBody"></a>
 
-### *property* PerfectlyInsulated.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](./../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PerfectlyInsulated.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -134,7 +134,7 @@ Gets the list of children.
 
 <a id="PerfectlyInsulated.Comments"></a>
 
-### *property* PerfectlyInsulated.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PerfectlyInsulated.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -142,7 +142,7 @@ Gets the list of associated comments.
 
 <a id="PerfectlyInsulated.Figures"></a>
 
-### *property* PerfectlyInsulated.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PerfectlyInsulated.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -150,7 +150,7 @@ Gets the list of associated figures.
 
 <a id="PerfectlyInsulated.Images"></a>
 
-### *property* PerfectlyInsulated.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PerfectlyInsulated.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -218,7 +218,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### PerfectlyInsulated.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### PerfectlyInsulated.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

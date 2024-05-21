@@ -43,11 +43,11 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`ScopeMode`](#SymmetryGeneral.ScopeMode)                                                                           | Gets the ScopeMode.                                           |
 | [`Suppressed`](#SymmetryGeneral.Suppressed)                                                                         | Gets or sets the Suppressed.                                  |
-| [`CoordinateSystem`](./../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
+| [`CoordinateSystem`](../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
 | [`Location`](#SymmetryGeneral.Location)                                                                             | Gets or sets the Location.                                    |
 | [`HighBoundaryLocation`](#SymmetryGeneral.HighBoundaryLocation)                                                     | Gets or sets the HighBoundaryLocation.                        |
 | [`LowBoundaryLocation`](#SymmetryGeneral.LowBoundaryLocation)                                                       | Gets or sets the LowBoundaryLocation.                         |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#SymmetryGeneral.Children)                                                                             | Gets the list of children.                                    |
 | [`Comments`](#SymmetryGeneral.Comments)                                                                             | Gets the list of associated comments.                         |
 | [`Figures`](#SymmetryGeneral.Figures)                                                                               | Gets the list of associated figures.                          |
@@ -79,7 +79,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="SymmetryGeneral.ScopeMode"></a>
 
-### *property* SymmetryGeneral.ScopeMode *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](./../../../Mechanical/DataModel/Enums/AutomaticOrManual.md#AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SymmetryGeneral.ScopeMode *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](../../../Mechanical/DataModel/Enums/AutomaticOrManual.md#AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ScopeMode.
 
@@ -127,7 +127,7 @@ Gets or sets the LowBoundaryLocation.
 
 <a id="SymmetryGeneral.DataModelObjectCategory"></a>
 
-### *property* SymmetryGeneral.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SymmetryGeneral.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -227,7 +227,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### SymmetryGeneral.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### SymmetryGeneral.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

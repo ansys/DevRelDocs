@@ -42,12 +42,12 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
-| [`CoordinateSystem`](./../../../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem. Accepts/Returns None if it is the Solution Coordinate System.   |
+| [`CoordinateSystem`](../../../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem. Accepts/Returns None if it is the Solution Coordinate System.   |
 | [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.                                                 |
 | [`RemotePointSelection`](#FrequencyResponseResultChart.RemotePointSelection)                                              | Gets or sets the RemotePointSelection.                                                             |
-| [`DataModelObjectCategory`](./../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                                       |
+| [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                                       |
 | [`IsSolved`](#FrequencyResponseResultChart.IsSolved)                                                                      | Gets the IsSolved.                                                                                 |
-| [`ChartDimensions`](./../../../../../Mechanical/DataModel/Enums/ChartDimensions.md#ChartDimensions)                         | Gets or sets the Chart Dimensions                                                                  |
+| [`ChartDimensions`](../../../../../Mechanical/DataModel/Enums/ChartDimensions.md#ChartDimensions)                         | Gets or sets the Chart Dimensions                                                                  |
 | [`BoundaryCondition`](#FrequencyResponseResultChart.BoundaryCondition)                                                    | Gets or sets the BoundaryCondition.                                                                |
 | [`CutFrequency`](#FrequencyResponseResultChart.CutFrequency)                                                              | Gets or sets the CutFrequency.                                                                     |
 | [`SectorNumber`](#FrequencyResponseResultChart.SectorNumber)                                                              | Gets or sets the SectorNumber.                                                                     |
@@ -69,22 +69,22 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`RequestedFrequency`](#FrequencyResponseResultChart.RequestedFrequency)                                                  | Gets or sets the RequestedFrequency.                                                               |
 | [`AccelerationType`](#FrequencyResponseResultChart.AccelerationType)                                                      | Gets or sets the AccelerationType.                                                                 |
 | [`ChartViewingStyle`](#FrequencyResponseResultChart.ChartViewingStyle)                                                    | Gets or sets the ChartViewingStyle.                                                                |
-| [`DeformationType`](./../../../../../Mechanical/DataModel/Enums/DeformationType.md#DeformationType)                         | Gets or sets the DeformationType.                                                                  |
-| [`FilterType`](./../../../../../Mechanical/DataModel/Enums/FilterType.md#FilterType)                                        | Gets or sets the FilterType.                                                                       |
+| [`DeformationType`](../../../../../Mechanical/DataModel/Enums/DeformationType.md#DeformationType)                         | Gets or sets the DeformationType.                                                                  |
+| [`FilterType`](../../../../../Mechanical/DataModel/Enums/FilterType.md#FilterType)                                        | Gets or sets the FilterType.                                                                       |
 | [`SpatialResolution`](#FrequencyResponseResultChart.SpatialResolution)                                                    | Gets or sets the SpatialResolution.                                                                |
 | [`NormalOrientation`](#FrequencyResponseResultChart.NormalOrientation)                                                    | Gets or sets the NormalOrientation.                                                                |
 | [`CurvesAppearanceDisplay`](#FrequencyResponseResultChart.CurvesAppearanceDisplay)                                        | Gets or sets the CurvesAppearanceDisplay.                                                          |
 | [`ResultChartType`](#FrequencyResponseResultChart.ResultChartType)                                                        | Gets the ResultChartType.                                                                          |
 | [`DpfEvaluation`](#FrequencyResponseResultChart.DpfEvaluation)                                                            | Gets or sets the DpfEvaluation.                                                                    |
-| [`XAxisValues`](./../../../../../Mechanical/DataModel/Enums/XAxisValues.md#XAxisValues)                                     | Gets or sets the XAxisValues.                                                                      |
+| [`XAxisValues`](../../../../../Mechanical/DataModel/Enums/XAxisValues.md#XAxisValues)                                     | Gets or sets the XAxisValues.                                                                      |
 | [`ShearOrientation`](#FrequencyResponseResultChart.ShearOrientation)                                                      | Gets or sets the ShearOrientation.                                                                 |
-| [`StressStrainType`](./../../../../../Mechanical/DataModel/Enums/StressStrainType.md#StressStrainType)                      | Gets or sets the StressStrainType.                                                                 |
+| [`StressStrainType`](../../../../../Mechanical/DataModel/Enums/StressStrainType.md#StressStrainType)                      | Gets or sets the StressStrainType.                                                                 |
 | [`TimeHistoryDisplay`](#FrequencyResponseResultChart.TimeHistoryDisplay)                                                  | Gets or sets the TimeHistoryDisplay.                                                               |
 | [`VelocityType`](#FrequencyResponseResultChart.VelocityType)                                                              | Gets or sets the VelocityType.                                                                     |
 | [`Suppressed`](#FrequencyResponseResultChart.Suppressed)                                                                  | Gets or sets the Suppressed.                                                                       |
 | [`EnhancedTracking`](#FrequencyResponseResultChart.EnhancedTracking)                                                      | Gets the EnhancedTracking.                                                                         |
 | [`UseParentFrequencyRange`](#FrequencyResponseResultChart.UseParentFrequencyRange)                                        | Gets or sets the UseParentFrequencyRange.                                                          |
-| [`Spring`](./../../Connections/Spring.md#Spring)                                                                            | Gets or sets the Spring.                                                                           |
+| [`Spring`](../../Connections/Spring.md#Spring)                                                                            | Gets or sets the Spring.                                                                           |
 | [`Location`](#FrequencyResponseResultChart.Location)                                                                      | Gets or sets the Location.                                                                         |
 | [`Children`](#FrequencyResponseResultChart.Children)                                                                      | Gets the list of children.                                                                         |
 | [`Comments`](#FrequencyResponseResultChart.Comments)                                                                      | Gets the list of associated comments.                                                              |
@@ -107,7 +107,7 @@ from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.Results.FrequencyRes
 
 <a id="FrequencyResponseResultChart.CoordinateSystem"></a>
 
-### *property* FrequencyResponseResultChart.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FrequencyResponseResultChart.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem. Accepts/Returns None if it is the Solution Coordinate System.
 
@@ -123,7 +123,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="FrequencyResponseResultChart.RemotePointSelection"></a>
 
-### *property* FrequencyResponseResultChart.RemotePointSelection *: [Ansys.ACT.Automation.Mechanical.RemotePoint](./../../RemotePoint.md#RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FrequencyResponseResultChart.RemotePointSelection *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../../RemotePoint.md#RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RemotePointSelection.
 
@@ -131,7 +131,7 @@ Gets or sets the RemotePointSelection.
 
 <a id="FrequencyResponseResultChart.DataModelObjectCategory"></a>
 
-### *property* FrequencyResponseResultChart.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FrequencyResponseResultChart.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -147,7 +147,7 @@ Gets the IsSolved.
 
 <a id="FrequencyResponseResultChart.ChartDimensions"></a>
 
-### *property* FrequencyResponseResultChart.ChartDimensions *: [Ansys.Mechanical.DataModel.Enums.ChartDimensions](./../../../../../Mechanical/DataModel/Enums/ChartDimensions.md#ChartDimensions) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FrequencyResponseResultChart.ChartDimensions *: [Ansys.Mechanical.DataModel.Enums.ChartDimensions](../../../../../Mechanical/DataModel/Enums/ChartDimensions.md#ChartDimensions) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Chart Dimensions
 
@@ -155,7 +155,7 @@ Gets or sets the Chart Dimensions
 
 <a id="FrequencyResponseResultChart.BoundaryCondition"></a>
 
-### *property* FrequencyResponseResultChart.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](./../../BoundaryConditions/GenericBoundaryCondition.md#GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FrequencyResponseResultChart.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](../../BoundaryConditions/GenericBoundaryCondition.md#GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BoundaryCondition.
 
@@ -307,7 +307,7 @@ Gets or sets the RequestedFrequency.
 
 <a id="FrequencyResponseResultChart.AccelerationType"></a>
 
-### *property* FrequencyResponseResultChart.AccelerationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](./../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FrequencyResponseResultChart.AccelerationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AccelerationType.
 
@@ -315,7 +315,7 @@ Gets or sets the AccelerationType.
 
 <a id="FrequencyResponseResultChart.ChartViewingStyle"></a>
 
-### *property* FrequencyResponseResultChart.ChartViewingStyle *: [Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType](./../../../../../Mechanical/DataModel/Enums/ChartAxisScaleType.md#ChartAxisScaleType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FrequencyResponseResultChart.ChartViewingStyle *: [Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType](../../../../../Mechanical/DataModel/Enums/ChartAxisScaleType.md#ChartAxisScaleType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ChartViewingStyle.
 
@@ -323,7 +323,7 @@ Gets or sets the ChartViewingStyle.
 
 <a id="FrequencyResponseResultChart.DeformationType"></a>
 
-### *property* FrequencyResponseResultChart.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](./../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FrequencyResponseResultChart.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DeformationType.
 
@@ -331,7 +331,7 @@ Gets or sets the DeformationType.
 
 <a id="FrequencyResponseResultChart.FilterType"></a>
 
-### *property* FrequencyResponseResultChart.FilterType *: [Ansys.Mechanical.DataModel.Enums.FilterType](./../../../../../Mechanical/DataModel/Enums/FilterType.md#FilterType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FrequencyResponseResultChart.FilterType *: [Ansys.Mechanical.DataModel.Enums.FilterType](../../../../../Mechanical/DataModel/Enums/FilterType.md#FilterType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FilterType.
 
@@ -339,7 +339,7 @@ Gets or sets the FilterType.
 
 <a id="FrequencyResponseResultChart.SpatialResolution"></a>
 
-### *property* FrequencyResponseResultChart.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MultipleNodeType](./../../../../../Mechanical/DataModel/Enums/MultipleNodeType.md#MultipleNodeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FrequencyResponseResultChart.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MultipleNodeType](../../../../../Mechanical/DataModel/Enums/MultipleNodeType.md#MultipleNodeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SpatialResolution.
 
@@ -347,7 +347,7 @@ Gets or sets the SpatialResolution.
 
 <a id="FrequencyResponseResultChart.NormalOrientation"></a>
 
-### *property* FrequencyResponseResultChart.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](./../../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FrequencyResponseResultChart.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NormalOrientation.
 
@@ -355,7 +355,7 @@ Gets or sets the NormalOrientation.
 
 <a id="FrequencyResponseResultChart.CurvesAppearanceDisplay"></a>
 
-### *property* FrequencyResponseResultChart.CurvesAppearanceDisplay *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](./../../../../../Mechanical/DataModel/Enums/ChartPlotStyle.md#ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FrequencyResponseResultChart.CurvesAppearanceDisplay *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](../../../../../Mechanical/DataModel/Enums/ChartPlotStyle.md#ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CurvesAppearanceDisplay.
 
@@ -363,7 +363,7 @@ Gets or sets the CurvesAppearanceDisplay.
 
 <a id="FrequencyResponseResultChart.ResultChartType"></a>
 
-### *property* FrequencyResponseResultChart.ResultChartType *: [Ansys.Mechanical.DataModel.Enums.ChartResultType](./../../../../../Mechanical/DataModel/Enums/ChartResultType.md#ChartResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FrequencyResponseResultChart.ResultChartType *: [Ansys.Mechanical.DataModel.Enums.ChartResultType](../../../../../Mechanical/DataModel/Enums/ChartResultType.md#ChartResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ResultChartType.
 
@@ -371,7 +371,7 @@ Gets the ResultChartType.
 
 <a id="FrequencyResponseResultChart.DpfEvaluation"></a>
 
-### *property* FrequencyResponseResultChart.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](./../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FrequencyResponseResultChart.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DpfEvaluation.
 
@@ -379,7 +379,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="FrequencyResponseResultChart.XAxisValues"></a>
 
-### *property* FrequencyResponseResultChart.XAxisValues *: [Ansys.Mechanical.DataModel.Enums.XAxisValues](./../../../../../Mechanical/DataModel/Enums/XAxisValues.md#XAxisValues) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FrequencyResponseResultChart.XAxisValues *: [Ansys.Mechanical.DataModel.Enums.XAxisValues](../../../../../Mechanical/DataModel/Enums/XAxisValues.md#XAxisValues) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XAxisValues.
 
@@ -387,7 +387,7 @@ Gets or sets the XAxisValues.
 
 <a id="FrequencyResponseResultChart.ShearOrientation"></a>
 
-### *property* FrequencyResponseResultChart.ShearOrientation *: [Ansys.Mechanical.DataModel.Enums.ShearOrientationType](./../../../../../Mechanical/DataModel/Enums/ShearOrientationType.md#ShearOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FrequencyResponseResultChart.ShearOrientation *: [Ansys.Mechanical.DataModel.Enums.ShearOrientationType](../../../../../Mechanical/DataModel/Enums/ShearOrientationType.md#ShearOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShearOrientation.
 
@@ -395,7 +395,7 @@ Gets or sets the ShearOrientation.
 
 <a id="FrequencyResponseResultChart.StressStrainType"></a>
 
-### *property* FrequencyResponseResultChart.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](./../../../../../Mechanical/DataModel/Enums/StressStrainType.md#StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FrequencyResponseResultChart.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](../../../../../Mechanical/DataModel/Enums/StressStrainType.md#StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StressStrainType.
 
@@ -403,7 +403,7 @@ Gets or sets the StressStrainType.
 
 <a id="FrequencyResponseResultChart.TimeHistoryDisplay"></a>
 
-### *property* FrequencyResponseResultChart.TimeHistoryDisplay *: [Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType](./../../../../../Mechanical/DataModel/Enums/TimeHistoryDisplayType.md#TimeHistoryDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FrequencyResponseResultChart.TimeHistoryDisplay *: [Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType](../../../../../Mechanical/DataModel/Enums/TimeHistoryDisplayType.md#TimeHistoryDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TimeHistoryDisplay.
 
@@ -411,7 +411,7 @@ Gets or sets the TimeHistoryDisplay.
 
 <a id="FrequencyResponseResultChart.VelocityType"></a>
 
-### *property* FrequencyResponseResultChart.VelocityType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](./../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FrequencyResponseResultChart.VelocityType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the VelocityType.
 
@@ -443,7 +443,7 @@ Gets or sets the UseParentFrequencyRange.
 
 <a id="FrequencyResponseResultChart.Spring"></a>
 
-### *property* FrequencyResponseResultChart.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](./../../Connections/Spring.md#Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FrequencyResponseResultChart.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../Connections/Spring.md#Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Spring.
 
@@ -467,7 +467,7 @@ Gets the list of children.
 
 <a id="FrequencyResponseResultChart.Comments"></a>
 
-### *property* FrequencyResponseResultChart.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FrequencyResponseResultChart.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -475,7 +475,7 @@ Gets the list of associated comments.
 
 <a id="FrequencyResponseResultChart.Images"></a>
 
-### *property* FrequencyResponseResultChart.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FrequencyResponseResultChart.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -511,7 +511,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="FrequencyResponseResultChart.ExportAnimation"></a>
 
-### FrequencyResponseResultChart.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](./../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](./../../../../../Mechanical/Graphics/AnimationExportSettings.md#AnimationExportSettings))
+### FrequencyResponseResultChart.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -559,7 +559,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### FrequencyResponseResultChart.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### FrequencyResponseResultChart.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

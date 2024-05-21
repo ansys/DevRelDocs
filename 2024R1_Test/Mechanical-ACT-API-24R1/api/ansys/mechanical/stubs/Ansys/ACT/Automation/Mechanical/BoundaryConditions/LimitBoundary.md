@@ -49,9 +49,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`LimitBCMinX`](#LimitBoundary.LimitBCMinX)                                                                            | Gets or sets the LimitBCMinX.                                 |
 | [`LimitBCMinY`](#LimitBoundary.LimitBCMinY)                                                                            | Gets or sets the LimitBCMinY.                                 |
 | [`LimitBCMinZ`](#LimitBoundary.LimitBCMinZ)                                                                            | Gets or sets the LimitBCMinZ.                                 |
-| [`LimitBCDirection`](./../../../../Mechanical/DataModel/Enums/LimitBCDirection.md#LimitBCDirection)                      | Gets or sets the LimitBCDirection.                            |
+| [`LimitBCDirection`](../../../../Mechanical/DataModel/Enums/LimitBCDirection.md#LimitBCDirection)                      | Gets or sets the LimitBCDirection.                            |
 | [`Location`](#LimitBoundary.Location)                                                                                  | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Suppressed`](#LimitBoundary.Suppressed)                                                                              | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#LimitBoundary.SharedRefBody)                                                                        | Gets or sets the SharedRefBody.                               |
 | [`Children`](#LimitBoundary.Children)                                                                                  | Gets the list of children.                                    |
@@ -149,7 +149,7 @@ Gets or sets the LimitBCMinZ.
 
 <a id="LimitBoundary.LimitBCDirection"></a>
 
-### *property* LimitBoundary.LimitBCDirection *: [Ansys.Mechanical.DataModel.Enums.LimitBCDirection](./../../../../Mechanical/DataModel/Enums/LimitBCDirection.md#LimitBCDirection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LimitBoundary.LimitBCDirection *: [Ansys.Mechanical.DataModel.Enums.LimitBCDirection](../../../../Mechanical/DataModel/Enums/LimitBCDirection.md#LimitBCDirection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LimitBCDirection.
 
@@ -165,7 +165,7 @@ Gets or sets the Location.
 
 <a id="LimitBoundary.DataModelObjectCategory"></a>
 
-### *property* LimitBoundary.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LimitBoundary.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -181,7 +181,7 @@ Gets or sets the Suppressed.
 
 <a id="LimitBoundary.SharedRefBody"></a>
 
-### *property* LimitBoundary.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](./../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LimitBoundary.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -197,7 +197,7 @@ Gets the list of children.
 
 <a id="LimitBoundary.Comments"></a>
 
-### *property* LimitBoundary.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LimitBoundary.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -205,7 +205,7 @@ Gets the list of associated comments.
 
 <a id="LimitBoundary.Figures"></a>
 
-### *property* LimitBoundary.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LimitBoundary.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -213,7 +213,7 @@ Gets the list of associated figures.
 
 <a id="LimitBoundary.Images"></a>
 
-### *property* LimitBoundary.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LimitBoundary.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -281,7 +281,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### LimitBoundary.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### LimitBoundary.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

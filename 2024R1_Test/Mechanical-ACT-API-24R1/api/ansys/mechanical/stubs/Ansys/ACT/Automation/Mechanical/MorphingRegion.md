@@ -51,7 +51,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`FixedLocation`](#MorphingRegion.FixedLocation)                                                                    | Gets or sets the FixedLocation.                               |
 | [`MovingLocation`](#MorphingRegion.MovingLocation)                                                                  | Gets or sets the MovingLocation.                              |
 | [`RegionLocation`](#MorphingRegion.RegionLocation)                                                                  | Gets or sets the RegionLocation.                              |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#MorphingRegion.Children)                                                                              | Gets the list of children.                                    |
 | [`Comments`](#MorphingRegion.Comments)                                                                              | Gets the list of associated comments.                         |
 | [`Figures`](#MorphingRegion.Figures)                                                                                | Gets the list of associated figures.                          |
@@ -170,7 +170,7 @@ Gets or sets the RegionLocation.
 
 <a id="MorphingRegion.DataModelObjectCategory"></a>
 
-### *property* MorphingRegion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MorphingRegion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -254,7 +254,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### MorphingRegion.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### MorphingRegion.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

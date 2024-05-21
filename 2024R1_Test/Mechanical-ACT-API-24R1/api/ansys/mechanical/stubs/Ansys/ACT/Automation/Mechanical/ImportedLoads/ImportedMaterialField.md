@@ -47,7 +47,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                                                           | Gets the internal object. For advanced usage only.                                                      |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory)             | Gets the current DataModelObject’s category.                                                            |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory)             | Gets the current DataModelObject’s category.                                                            |
 | [`Weighting`](#ImportedMaterialField.Weighting)                                                                                    | Weighting property.                                                                                     |
 | [`MappingControl`](#ImportedMaterialField.MappingControl)                                                                          | MappingControl property.                                                                                |
 | [`DisplaySourcePoints`](#ImportedMaterialField.DisplaySourcePoints)                                                                | DisplaySourcePoints property.                                                                           |
@@ -68,13 +68,13 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`OutsideDistanceCheck`](#ImportedMaterialField.OutsideDistanceCheck)                                                              | OutsideDistanceCheck property.                                                                          |
 | [`OutsideOption`](#ImportedMaterialField.OutsideOption)                                                                            | OutsideOption property.                                                                                 |
 | [`Projection`](#ImportedMaterialField.Projection)                                                                                  | Projection property.                                                                                    |
-| [`RigidBodyTransformationType`](./../../../../Mechanical/DataModel/Enums/RigidBodyTransformationType.md#RigidBodyTransformationType) | RigidBodyTransformationType property.                                                                   |
+| [`RigidBodyTransformationType`](../../../../Mechanical/DataModel/Enums/RigidBodyTransformationType.md#RigidBodyTransformationType) | RigidBodyTransformationType property.                                                                   |
 | [`RigidTransformSourceCoordinateSystem`](#ImportedMaterialField.RigidTransformSourceCoordinateSystem)                              | RigidTransformSourceCoordinateSystem property.                                                          |
 | [`RigidTransformTargetCoordinateSystem`](#ImportedMaterialField.RigidTransformTargetCoordinateSystem)                              | RigidTransformTargetCoordinateSystem property.                                                          |
 | [`ShellThicknessFactor`](#ImportedMaterialField.ShellThicknessFactor)                                                              | ShellThicknessFactor property.                                                                          |
 | [`SourceMaximum`](#ImportedMaterialField.SourceMaximum)                                                                            | SourceMaximum property.                                                                                 |
 | [`SourceMinimum`](#ImportedMaterialField.SourceMinimum)                                                                            | SourceMinimum property.                                                                                 |
-| [`VariableType`](./../../../../Mechanical/DataModel/MechanicalEnums/Table/VariableType.md#VariableType)                              | VariableType property.                                                                                  |
+| [`VariableType`](../../../../Mechanical/DataModel/MechanicalEnums/Table/VariableType.md#VariableType)                              | VariableType property.                                                                                  |
 | [`Interpolation`](#ImportedMaterialField.Interpolation)                                                                            | Interpolation property.                                                                                 |
 | [`UnmappedNodesName`](#ImportedMaterialField.UnmappedNodesName)                                                                    | UnmappedNodesName property.                                                                             |
 | [`MappedNodesName`](#ImportedMaterialField.MappedNodesName)                                                                        | MappedNodesName property.                                                                               |
@@ -120,7 +120,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ImportedMaterialField.DataModelObjectCategory"></a>
 
-### *property* ImportedMaterialField.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedMaterialField.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -128,7 +128,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ImportedMaterialField.Weighting"></a>
 
-### *property* ImportedMaterialField.Weighting *: [Ansys.Mechanical.DataModel.Enums.WeightingType](./../../../../Mechanical/DataModel/Enums/WeightingType.md#WeightingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedMaterialField.Weighting *: [Ansys.Mechanical.DataModel.Enums.WeightingType](../../../../Mechanical/DataModel/Enums/WeightingType.md#WeightingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Weighting property.
 
@@ -136,7 +136,7 @@ Weighting property.
 
 <a id="ImportedMaterialField.MappingControl"></a>
 
-### *property* ImportedMaterialField.MappingControl *: [Ansys.Mechanical.DataModel.Enums.MappingControlType](./../../../../Mechanical/DataModel/Enums/MappingControlType.md#MappingControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedMaterialField.MappingControl *: [Ansys.Mechanical.DataModel.Enums.MappingControlType](../../../../Mechanical/DataModel/Enums/MappingControlType.md#MappingControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 MappingControl property.
 
@@ -176,7 +176,7 @@ DisplayProjectionPlane property.
 
 <a id="ImportedMaterialField.Algorithm"></a>
 
-### *property* ImportedMaterialField.Algorithm *: [Ansys.Mechanical.DataModel.Enums.MappingAlgorithm](./../../../../Mechanical/DataModel/Enums/MappingAlgorithm.md#MappingAlgorithm) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedMaterialField.Algorithm *: [Ansys.Mechanical.DataModel.Enums.MappingAlgorithm](../../../../Mechanical/DataModel/Enums/MappingAlgorithm.md#MappingAlgorithm) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Algorithm property.
 
@@ -216,7 +216,7 @@ CreateNameSelectionForUnmappedNodes property.
 
 <a id="ImportedMaterialField.Mapping"></a>
 
-### *property* ImportedMaterialField.Mapping *: [Ansys.Mechanical.DataModel.Enums.MappingInterpolationType](./../../../../Mechanical/DataModel/Enums/MappingInterpolationType.md#MappingInterpolationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedMaterialField.Mapping *: [Ansys.Mechanical.DataModel.Enums.MappingInterpolationType](../../../../Mechanical/DataModel/Enums/MappingInterpolationType.md#MappingInterpolationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Mapping property.
 
@@ -240,7 +240,7 @@ LegendMinimum property.
 
 <a id="ImportedMaterialField.LegendRange"></a>
 
-### *property* ImportedMaterialField.LegendRange *: [Ansys.Mechanical.DataModel.Enums.LegendRangeType](./../../../../Mechanical/DataModel/Enums/LegendRangeType.md#LegendRangeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedMaterialField.LegendRange *: [Ansys.Mechanical.DataModel.Enums.LegendRangeType](../../../../Mechanical/DataModel/Enums/LegendRangeType.md#LegendRangeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 LegendRange property.
 
@@ -256,7 +256,7 @@ MaxOutsideDistance property.
 
 <a id="ImportedMaterialField.Method"></a>
 
-### *property* ImportedMaterialField.Method *: [Ansys.Mechanical.DataModel.Enums.MappingMethod](./../../../../Mechanical/DataModel/Enums/MappingMethod.md#MappingMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedMaterialField.Method *: [Ansys.Mechanical.DataModel.Enums.MappingMethod](../../../../Mechanical/DataModel/Enums/MappingMethod.md#MappingMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Method property.
 
@@ -272,7 +272,7 @@ OutsideDistanceCheck property.
 
 <a id="ImportedMaterialField.OutsideOption"></a>
 
-### *property* ImportedMaterialField.OutsideOption *: [Ansys.Mechanical.DataModel.Enums.MappingOutsideOption](./../../../../Mechanical/DataModel/Enums/MappingOutsideOption.md#MappingOutsideOption) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedMaterialField.OutsideOption *: [Ansys.Mechanical.DataModel.Enums.MappingOutsideOption](../../../../Mechanical/DataModel/Enums/MappingOutsideOption.md#MappingOutsideOption) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 OutsideOption property.
 
@@ -280,7 +280,7 @@ OutsideOption property.
 
 <a id="ImportedMaterialField.Projection"></a>
 
-### *property* ImportedMaterialField.Projection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedMaterialField.Projection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Projection property.
 
@@ -288,7 +288,7 @@ Projection property.
 
 <a id="ImportedMaterialField.RigidBodyTransformationType"></a>
 
-### *property* ImportedMaterialField.RigidBodyTransformationType *: [Ansys.Mechanical.DataModel.Enums.RigidBodyTransformationType](./../../../../Mechanical/DataModel/Enums/RigidBodyTransformationType.md#RigidBodyTransformationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedMaterialField.RigidBodyTransformationType *: [Ansys.Mechanical.DataModel.Enums.RigidBodyTransformationType](../../../../Mechanical/DataModel/Enums/RigidBodyTransformationType.md#RigidBodyTransformationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 RigidBodyTransformationType property.
 
@@ -296,7 +296,7 @@ RigidBodyTransformationType property.
 
 <a id="ImportedMaterialField.RigidTransformSourceCoordinateSystem"></a>
 
-### *property* ImportedMaterialField.RigidTransformSourceCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedMaterialField.RigidTransformSourceCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 RigidTransformSourceCoordinateSystem property.
 
@@ -304,7 +304,7 @@ RigidTransformSourceCoordinateSystem property.
 
 <a id="ImportedMaterialField.RigidTransformTargetCoordinateSystem"></a>
 
-### *property* ImportedMaterialField.RigidTransformTargetCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedMaterialField.RigidTransformTargetCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 RigidTransformTargetCoordinateSystem property.
 
@@ -336,7 +336,7 @@ SourceMinimum property.
 
 <a id="ImportedMaterialField.VariableType"></a>
 
-### *property* ImportedMaterialField.VariableType *: [Ansys.Mechanical.DataModel.Enums.MappingVariableType](./../../../../Mechanical/DataModel/Enums/MappingVariableType.md#MappingVariableType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedMaterialField.VariableType *: [Ansys.Mechanical.DataModel.Enums.MappingVariableType](../../../../Mechanical/DataModel/Enums/MappingVariableType.md#MappingVariableType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 VariableType property.
 
@@ -344,7 +344,7 @@ VariableType property.
 
 <a id="ImportedMaterialField.Interpolation"></a>
 
-### *property* ImportedMaterialField.Interpolation *: [Ansys.Mechanical.DataModel.Enums.InterpolationType](./../../../../Mechanical/DataModel/Enums/InterpolationType.md#InterpolationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedMaterialField.Interpolation *: [Ansys.Mechanical.DataModel.Enums.InterpolationType](../../../../Mechanical/DataModel/Enums/InterpolationType.md#InterpolationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Interpolation property.
 
@@ -408,7 +408,7 @@ Limit property.
 
 <a id="ImportedMaterialField.KrigingCorrelationFunction"></a>
 
-### *property* ImportedMaterialField.KrigingCorrelationFunction *: [Ansys.Mechanical.DataModel.Enums.KrigingCorrFuncType](./../../../../Mechanical/DataModel/Enums/KrigingCorrFuncType.md#KrigingCorrFuncType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedMaterialField.KrigingCorrelationFunction *: [Ansys.Mechanical.DataModel.Enums.KrigingCorrFuncType](../../../../Mechanical/DataModel/Enums/KrigingCorrFuncType.md#KrigingCorrFuncType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 KrigingCorrelationFunction property.
 
@@ -416,7 +416,7 @@ KrigingCorrelationFunction property.
 
 <a id="ImportedMaterialField.KrigingPolynom"></a>
 
-### *property* ImportedMaterialField.KrigingPolynom *: [Ansys.Mechanical.DataModel.Enums.KrigingPolynomType](./../../../../Mechanical/DataModel/Enums/KrigingPolynomType.md#KrigingPolynomType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedMaterialField.KrigingPolynom *: [Ansys.Mechanical.DataModel.Enums.KrigingPolynomType](../../../../Mechanical/DataModel/Enums/KrigingPolynomType.md#KrigingPolynomType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 KrigingPolynom property.
 
@@ -432,7 +432,7 @@ ExtrapolationTolerancePercent property.
 
 <a id="ImportedMaterialField.ApplyAs"></a>
 
-### *property* ImportedMaterialField.ApplyAs *: [Ansys.Mechanical.DataModel.Enums.ExternalLoadApplicationType](./../../../../Mechanical/DataModel/Enums/ExternalLoadApplicationType.md#ExternalLoadApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedMaterialField.ApplyAs *: [Ansys.Mechanical.DataModel.Enums.ExternalLoadApplicationType](../../../../Mechanical/DataModel/Enums/ExternalLoadApplicationType.md#ExternalLoadApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 This controls how the imported load is applied, either as a boundary condition or an initial condition.
 
@@ -448,7 +448,7 @@ Gets or sets the Suppressed.
 
 <a id="ImportedMaterialField.SharedRefBody"></a>
 
-### *property* ImportedMaterialField.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](./../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedMaterialField.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -472,7 +472,7 @@ Gets the list of children.
 
 <a id="ImportedMaterialField.Comments"></a>
 
-### *property* ImportedMaterialField.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedMaterialField.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -480,7 +480,7 @@ Gets the list of associated comments.
 
 <a id="ImportedMaterialField.Figures"></a>
 
-### *property* ImportedMaterialField.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedMaterialField.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -488,7 +488,7 @@ Gets the list of associated figures.
 
 <a id="ImportedMaterialField.Images"></a>
 
-### *property* ImportedMaterialField.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedMaterialField.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -596,7 +596,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### ImportedMaterialField.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### ImportedMaterialField.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

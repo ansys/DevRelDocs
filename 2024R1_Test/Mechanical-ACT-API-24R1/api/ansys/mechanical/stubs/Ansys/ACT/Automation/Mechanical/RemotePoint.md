@@ -56,17 +56,17 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`ZComponent`](#RemotePoint.ZComponent)                                                                             | Gets or sets the ZComponent.                                  |
 | [`DOFSelection`](#RemotePoint.DOFSelection)                                                                         | Gets or sets the DOFSelection.                                |
 | [`ScopingMethod`](#RemotePoint.ScopingMethod)                                                                       | Gets or sets the ScopingMethod.                               |
-| [`PilotNodeScopingType`](./../../../Mechanical/DataModel/Enums/PilotNodeScopingType.md#PilotNodeScopingType)          | Gets or sets the PilotNodeScopingType.                        |
+| [`PilotNodeScopingType`](../../../Mechanical/DataModel/Enums/PilotNodeScopingType.md#PilotNodeScopingType)          | Gets or sets the PilotNodeScopingType.                        |
 | [`Formulation`](#RemotePoint.Formulation)                                                                           | Gets or sets the Formulation.                                 |
 | [`RotationX`](#RemotePoint.RotationX)                                                                               | Gets or sets the RotationX.                                   |
 | [`RotationY`](#RemotePoint.RotationY)                                                                               | Gets or sets the RotationY.                                   |
 | [`RotationZ`](#RemotePoint.RotationZ)                                                                               | Gets or sets the RotationZ.                                   |
 | [`RelaxationMethod`](#RemotePoint.RelaxationMethod)                                                                 | Gets or sets the RelaxationMethod.                            |
 | [`Suppressed`](#RemotePoint.Suppressed)                                                                             | Gets or sets the Suppressed.                                  |
-| [`Point`](./../../../Mechanical/Graphics/Point.md#Point)                                                              | Gets or sets the Point.                                       |
-| [`CoordinateSystem`](./../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
+| [`Point`](../../../Mechanical/Graphics/Point.md#Point)                                                              | Gets or sets the Point.                                       |
+| [`CoordinateSystem`](../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
 | [`Location`](#RemotePoint.Location)                                                                                 | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#RemotePoint.Children)                                                                                 | Gets the list of children.                                    |
 | [`Comments`](#RemotePoint.Comments)                                                                                 | Gets the list of associated comments.                         |
 | [`ReadOnly`](#RemotePoint.ReadOnly)                                                                                 | Gets or sets the ReadOnly.                                    |
@@ -168,7 +168,7 @@ Gets or sets the PinballRegion.
 
 <a id="RemotePoint.Behavior"></a>
 
-### *property* RemotePoint.Behavior *: [Ansys.Mechanical.DataModel.Enums.LoadBehavior](./../../../Mechanical/DataModel/Enums/LoadBehavior.md#LoadBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemotePoint.Behavior *: [Ansys.Mechanical.DataModel.Enums.LoadBehavior](../../../Mechanical/DataModel/Enums/LoadBehavior.md#LoadBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Behavior.
 
@@ -176,7 +176,7 @@ Gets or sets the Behavior.
 
 <a id="RemotePoint.XComponent"></a>
 
-### *property* RemotePoint.XComponent *: [Ansys.Mechanical.DataModel.Enums.ActiveOrInactive](./../../../Mechanical/DataModel/Enums/ActiveOrInactive.md#ActiveOrInactive) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemotePoint.XComponent *: [Ansys.Mechanical.DataModel.Enums.ActiveOrInactive](../../../Mechanical/DataModel/Enums/ActiveOrInactive.md#ActiveOrInactive) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XComponent.
 
@@ -184,7 +184,7 @@ Gets or sets the XComponent.
 
 <a id="RemotePoint.YComponent"></a>
 
-### *property* RemotePoint.YComponent *: [Ansys.Mechanical.DataModel.Enums.ActiveOrInactive](./../../../Mechanical/DataModel/Enums/ActiveOrInactive.md#ActiveOrInactive) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemotePoint.YComponent *: [Ansys.Mechanical.DataModel.Enums.ActiveOrInactive](../../../Mechanical/DataModel/Enums/ActiveOrInactive.md#ActiveOrInactive) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the YComponent.
 
@@ -192,7 +192,7 @@ Gets or sets the YComponent.
 
 <a id="RemotePoint.ZComponent"></a>
 
-### *property* RemotePoint.ZComponent *: [Ansys.Mechanical.DataModel.Enums.ActiveOrInactive](./../../../Mechanical/DataModel/Enums/ActiveOrInactive.md#ActiveOrInactive) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemotePoint.ZComponent *: [Ansys.Mechanical.DataModel.Enums.ActiveOrInactive](../../../Mechanical/DataModel/Enums/ActiveOrInactive.md#ActiveOrInactive) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ZComponent.
 
@@ -200,7 +200,7 @@ Gets or sets the ZComponent.
 
 <a id="RemotePoint.DOFSelection"></a>
 
-### *property* RemotePoint.DOFSelection *: [Ansys.Mechanical.DataModel.Enums.RemotePointDOFSelectionType](./../../../Mechanical/DataModel/Enums/RemotePointDOFSelectionType.md#RemotePointDOFSelectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemotePoint.DOFSelection *: [Ansys.Mechanical.DataModel.Enums.RemotePointDOFSelectionType](../../../Mechanical/DataModel/Enums/RemotePointDOFSelectionType.md#RemotePointDOFSelectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DOFSelection.
 
@@ -208,7 +208,7 @@ Gets or sets the DOFSelection.
 
 <a id="RemotePoint.ScopingMethod"></a>
 
-### *property* RemotePoint.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](./../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemotePoint.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -216,7 +216,7 @@ Gets or sets the ScopingMethod.
 
 <a id="RemotePoint.PilotNodeScopingType"></a>
 
-### *property* RemotePoint.PilotNodeScopingType *: [Ansys.Mechanical.DataModel.Enums.PilotNodeScopingType](./../../../Mechanical/DataModel/Enums/PilotNodeScopingType.md#PilotNodeScopingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemotePoint.PilotNodeScopingType *: [Ansys.Mechanical.DataModel.Enums.PilotNodeScopingType](../../../Mechanical/DataModel/Enums/PilotNodeScopingType.md#PilotNodeScopingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PilotNodeScopingType.
 
@@ -224,7 +224,7 @@ Gets or sets the PilotNodeScopingType.
 
 <a id="RemotePoint.Formulation"></a>
 
-### *property* RemotePoint.Formulation *: [Ansys.Mechanical.DataModel.Enums.RemotePointFormulation](./../../../Mechanical/DataModel/Enums/RemotePointFormulation.md#RemotePointFormulation) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemotePoint.Formulation *: [Ansys.Mechanical.DataModel.Enums.RemotePointFormulation](../../../Mechanical/DataModel/Enums/RemotePointFormulation.md#RemotePointFormulation) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Formulation.
 
@@ -232,7 +232,7 @@ Gets or sets the Formulation.
 
 <a id="RemotePoint.RotationX"></a>
 
-### *property* RemotePoint.RotationX *: [Ansys.Mechanical.DataModel.Enums.ActiveOrInactive](./../../../Mechanical/DataModel/Enums/ActiveOrInactive.md#ActiveOrInactive) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemotePoint.RotationX *: [Ansys.Mechanical.DataModel.Enums.ActiveOrInactive](../../../Mechanical/DataModel/Enums/ActiveOrInactive.md#ActiveOrInactive) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RotationX.
 
@@ -240,7 +240,7 @@ Gets or sets the RotationX.
 
 <a id="RemotePoint.RotationY"></a>
 
-### *property* RemotePoint.RotationY *: [Ansys.Mechanical.DataModel.Enums.ActiveOrInactive](./../../../Mechanical/DataModel/Enums/ActiveOrInactive.md#ActiveOrInactive) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemotePoint.RotationY *: [Ansys.Mechanical.DataModel.Enums.ActiveOrInactive](../../../Mechanical/DataModel/Enums/ActiveOrInactive.md#ActiveOrInactive) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RotationY.
 
@@ -248,7 +248,7 @@ Gets or sets the RotationY.
 
 <a id="RemotePoint.RotationZ"></a>
 
-### *property* RemotePoint.RotationZ *: [Ansys.Mechanical.DataModel.Enums.ActiveOrInactive](./../../../Mechanical/DataModel/Enums/ActiveOrInactive.md#ActiveOrInactive) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemotePoint.RotationZ *: [Ansys.Mechanical.DataModel.Enums.ActiveOrInactive](../../../Mechanical/DataModel/Enums/ActiveOrInactive.md#ActiveOrInactive) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RotationZ.
 
@@ -296,7 +296,7 @@ Gets or sets the Location.
 
 <a id="RemotePoint.DataModelObjectCategory"></a>
 
-### *property* RemotePoint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemotePoint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -396,7 +396,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### RemotePoint.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### RemotePoint.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

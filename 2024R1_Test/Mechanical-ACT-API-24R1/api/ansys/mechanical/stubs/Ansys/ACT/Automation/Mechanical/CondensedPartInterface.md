@@ -37,7 +37,7 @@ from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical import CondensedPart
 
 <a id="CondensedPartInterface.Type"></a>
 
-### *property* CondensedPartInterface.Type *: [Ansys.Mechanical.DataModel.Enums.CondensedPartInterfaceType](./../../../Mechanical/DataModel/Enums/CondensedPartInterfaceType.md#CondensedPartInterfaceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPartInterface.Type *: [Ansys.Mechanical.DataModel.Enums.CondensedPartInterfaceType](../../../Mechanical/DataModel/Enums/CondensedPartInterfaceType.md#CondensedPartInterfaceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or Sets Condensed part interface type
 

@@ -42,11 +42,11 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`InternalObject`](#id0)                                                                                                                    | Gets the internal object. For advanced usage only.            |
 | [`Material`](Material.md#Material)                                                                                                          | Gets or sets the Material.                                    |
 | [`Thickness`](Thickness.md#Thickness)                                                                                                       | Gets or sets the Thickness.                                   |
-| [`SurfaceCoatingStiffnessBehavior`](./../../../Mechanical/DataModel/Enums/SurfaceCoatingStiffnessBehavior.md#SurfaceCoatingStiffnessBehavior) | Gets or sets the SurfaceCoatingStiffnessBehavior.             |
+| [`SurfaceCoatingStiffnessBehavior`](../../../Mechanical/DataModel/Enums/SurfaceCoatingStiffnessBehavior.md#SurfaceCoatingStiffnessBehavior) | Gets or sets the SurfaceCoatingStiffnessBehavior.             |
 | [`Suppressed`](#SurfaceCoating.Suppressed)                                                                                                  | Gets or sets the Suppressed.                                  |
-| [`CoordinateSystem`](./../../Common/CoordinateSystem.md#CoordinateSystem)                                                                     | Gets or sets the CoordinateSystem.                            |
+| [`CoordinateSystem`](../../Common/CoordinateSystem.md#CoordinateSystem)                                                                     | Gets or sets the CoordinateSystem.                            |
 | [`Location`](#SurfaceCoating.Location)                                                                                                      | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory)                         | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory)                         | Gets the current DataModelObject’s category.                  |
 | [`Children`](#SurfaceCoating.Children)                                                                                                      | Gets the list of children.                                    |
 | [`Comments`](#SurfaceCoating.Comments)                                                                                                      | Gets the list of associated comments.                         |
 | [`Figures`](#SurfaceCoating.Figures)                                                                                                        | Gets the list of associated figures.                          |
@@ -94,7 +94,7 @@ Gets or sets the Thickness.
 
 <a id="SurfaceCoating.SurfaceCoatingStiffnessBehavior"></a>
 
-### *property* SurfaceCoating.SurfaceCoatingStiffnessBehavior *: [Ansys.Mechanical.DataModel.Enums.SurfaceCoatingStiffnessBehavior](./../../../Mechanical/DataModel/Enums/SurfaceCoatingStiffnessBehavior.md#SurfaceCoatingStiffnessBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SurfaceCoating.SurfaceCoatingStiffnessBehavior *: [Ansys.Mechanical.DataModel.Enums.SurfaceCoatingStiffnessBehavior](../../../Mechanical/DataModel/Enums/SurfaceCoatingStiffnessBehavior.md#SurfaceCoatingStiffnessBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SurfaceCoatingStiffnessBehavior.
 
@@ -126,7 +126,7 @@ Gets or sets the Location.
 
 <a id="SurfaceCoating.DataModelObjectCategory"></a>
 
-### *property* SurfaceCoating.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SurfaceCoating.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -218,7 +218,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### SurfaceCoating.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### SurfaceCoating.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

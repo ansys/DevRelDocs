@@ -51,7 +51,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`FeatureAngle`](#MeshExtrude.FeatureAngle)                                                                         | To specify feature angle for splitting side faces.                                                                                                                          |
 | [`Thickness`](Thickness.md#Thickness)                                                                               | To specify the thickness for surface coating. The Thickness option is available only when the Stiffness Behavior is set to Membrane Only or Membrane and Bending.           |
 | [`AxisOfRevolution`](#MeshExtrude.AxisOfRevolution)                                                                 | To select the coordinate axis along which the selected elements can be revolved. The available options are X Axis, Y Axis, Z Axis.                                          |
-| [`ExtrudeBy`](./../../../Mechanical/DataModel/Enums/ExtrudeBy.md#ExtrudeBy)                                           | To specify the method of Extrude. The available options are Use Coordinate System and Face Normal.                                                                          |
+| [`ExtrudeBy`](../../../Mechanical/DataModel/Enums/ExtrudeBy.md#ExtrudeBy)                                           | To specify the method of Extrude. The available options are Use Coordinate System and Face Normal.                                                                          |
 | [`UseCoordinateSystem`](#MeshExtrude.UseCoordinateSystem)                                                           | The Use Coordinate System allows to select any of the XYZ coordinate axis in the method of Extrude.                                                                         |
 | [`Method`](#MeshExtrude.Method)                                                                                     | To select the method of Pull. There are three methods. They are Extrude, Revolve and Surface Coating.                                                                       |
 | [`ElementOption`](#MeshExtrude.ElementOption)                                                                       | Gets or sets the ElementOption.                                                                                                                                             |
@@ -62,9 +62,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Suppressed`](#MeshExtrude.Suppressed)                                                                             | To suppress the selected entities. You can select Yes to suppress the selected entities and No to unsuppress the selected entities. The default value is No.                |
 | [`ThermalStrainCalculation`](#MeshExtrude.ThermalStrainCalculation)                                                 | Gets or sets the ThermalStrainCalculation.                                                                                                                                  |
 | [`UseFeatureAngle`](#MeshExtrude.UseFeatureAngle)                                                                   | To split side faces by speficied feature angle.                                                                                                                             |
-| [`CoordinateSystem`](./../../Common/CoordinateSystem.md#CoordinateSystem)                                             | To generate elements in the specified coordinate system. The Coordinate System allows to select the Global Coordinate System by default.                                    |
+| [`CoordinateSystem`](../../Common/CoordinateSystem.md#CoordinateSystem)                                             | To generate elements in the specified coordinate system. The Coordinate System allows to select the Global Coordinate System by default.                                    |
 | [`UpToTarget`](#MeshExtrude.UpToTarget)                                                                             | The target can be faces from solids or sheet bodies and multiple faces with sharing topoedge in Extrude UpTo.                                                               |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                                                                                                                |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                                                                                                                |
 | [`Children`](#MeshExtrude.Children)                                                                                 | Gets the list of children.                                                                                                                                                  |
 | [`Comments`](#MeshExtrude.Comments)                                                                                 | Gets the list of associated comments.                                                                                                                                       |
 | [`Figures`](#MeshExtrude.Figures)                                                                                   | Gets the list of associated figures.                                                                                                                                        |
@@ -87,7 +87,7 @@ from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical import MeshExtrude
 
 <a id="MeshExtrude.ScopingMethod"></a>
 
-### *property* MeshExtrude.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](./../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshExtrude.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Defines what type of selection this object is scoped to.
 
@@ -159,7 +159,7 @@ To specify the thickness for surface coating. The Thickness option is available 
 
 <a id="MeshExtrude.AxisOfRevolution"></a>
 
-### *property* MeshExtrude.AxisOfRevolution *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType](./../../../Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#CoordinateSystemAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshExtrude.AxisOfRevolution *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType](../../../Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#CoordinateSystemAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 To select the coordinate axis along which the selected elements can be revolved. The available options are X Axis, Y Axis, Z Axis.
 
@@ -167,7 +167,7 @@ To select the coordinate axis along which the selected elements can be revolved.
 
 <a id="MeshExtrude.ExtrudeBy"></a>
 
-### *property* MeshExtrude.ExtrudeBy *: [Ansys.Mechanical.DataModel.Enums.ExtrudeBy](./../../../Mechanical/DataModel/Enums/ExtrudeBy.md#ExtrudeBy) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshExtrude.ExtrudeBy *: [Ansys.Mechanical.DataModel.Enums.ExtrudeBy](../../../Mechanical/DataModel/Enums/ExtrudeBy.md#ExtrudeBy) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 To specify the method of Extrude. The available options are Use Coordinate System and Face Normal.
 
@@ -175,7 +175,7 @@ To specify the method of Extrude. The available options are Use Coordinate Syste
 
 <a id="MeshExtrude.UseCoordinateSystem"></a>
 
-### *property* MeshExtrude.UseCoordinateSystem *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType](./../../../Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#CoordinateSystemAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshExtrude.UseCoordinateSystem *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType](../../../Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#CoordinateSystemAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The Use Coordinate System allows to select any of the XYZ coordinate axis in the method of Extrude.
 
@@ -183,7 +183,7 @@ The Use Coordinate System allows to select any of the XYZ coordinate axis in the
 
 <a id="MeshExtrude.Method"></a>
 
-### *property* MeshExtrude.Method *: [Ansys.Mechanical.DataModel.Enums.PullMethod](./../../../Mechanical/DataModel/Enums/PullMethod.md#PullMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshExtrude.Method *: [Ansys.Mechanical.DataModel.Enums.PullMethod](../../../Mechanical/DataModel/Enums/PullMethod.md#PullMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 To select the method of Pull. There are three methods. They are Extrude, Revolve and Surface Coating.
 
@@ -191,7 +191,7 @@ To select the method of Pull. There are three methods. They are Extrude, Revolve
 
 <a id="MeshExtrude.ElementOption"></a>
 
-### *property* MeshExtrude.ElementOption *: [Ansys.Mechanical.DataModel.Enums.SweepElementOptionType](./../../../Mechanical/DataModel/Enums/SweepElementOptionType.md#SweepElementOptionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshExtrude.ElementOption *: [Ansys.Mechanical.DataModel.Enums.SweepElementOptionType](../../../Mechanical/DataModel/Enums/SweepElementOptionType.md#SweepElementOptionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ElementOption.
 
@@ -199,7 +199,7 @@ Gets or sets the ElementOption.
 
 <a id="MeshExtrude.StiffnessOption"></a>
 
-### *property* MeshExtrude.StiffnessOption *: [Ansys.Mechanical.DataModel.Enums.ShellElementStiffnessOption](./../../../Mechanical/DataModel/Enums/ShellElementStiffnessOption.md#ShellElementStiffnessOption) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshExtrude.StiffnessOption *: [Ansys.Mechanical.DataModel.Enums.ShellElementStiffnessOption](../../../Mechanical/DataModel/Enums/ShellElementStiffnessOption.md#ShellElementStiffnessOption) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 To provide the stiffness option of the shell body created by surface coating. The available options are Stress Evaluation Only, Membrane Only, Membrane and Bending.
 
@@ -271,7 +271,7 @@ The target can be faces from solids or sheet bodies and multiple faces with shar
 
 <a id="MeshExtrude.DataModelObjectCategory"></a>
 
-### *property* MeshExtrude.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshExtrude.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -371,7 +371,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### MeshExtrude.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### MeshExtrude.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

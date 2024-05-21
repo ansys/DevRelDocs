@@ -76,7 +76,7 @@ Gets or Sets the Name of the Section Plane
 
 <a id="SectionPlane.Type"></a>
 
-### *property* SectionPlane.Type *: [Ansys.Mechanical.DataModel.Enums.SectionPlaneType](./../DataModel/Enums/SectionPlaneType.md#SectionPlaneType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SectionPlane.Type *: [Ansys.Mechanical.DataModel.Enums.SectionPlaneType](../DataModel/Enums/SectionPlaneType.md#SectionPlaneType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or Sets the SectionPlane Type of the Section Plane
 

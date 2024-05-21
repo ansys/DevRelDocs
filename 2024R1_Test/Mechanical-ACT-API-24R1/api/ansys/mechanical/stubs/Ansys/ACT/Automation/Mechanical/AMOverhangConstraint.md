@@ -41,8 +41,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`OverhangAngle`](#AMOverhangConstraint.OverhangAngle)                                                              | Gets or sets the OverhangAngle.                               |
 | [`ScopingMethod`](#AMOverhangConstraint.ScopingMethod)                                                              | Gets or sets the ScopingMethod.                               |
 | [`BuildDirection`](#AMOverhangConstraint.BuildDirection)                                                            | Gets or sets the BuildDirection.                              |
-| [`CoordinateSystem`](./../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`CoordinateSystem`](../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Suppressed`](#AMOverhangConstraint.Suppressed)                                                                    | Gets or sets the Suppressed.                                  |
 | [`Selection`](#AMOverhangConstraint.Selection)                                                                      | Gets or sets the Selection.                                   |
 | [`Children`](#AMOverhangConstraint.Children)                                                                        | Gets the list of children.                                    |
@@ -80,7 +80,7 @@ Gets or sets the OverhangAngle.
 
 <a id="AMOverhangConstraint.ScopingMethod"></a>
 
-### *property* AMOverhangConstraint.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](./../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMOverhangConstraint.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -88,7 +88,7 @@ Gets or sets the ScopingMethod.
 
 <a id="AMOverhangConstraint.BuildDirection"></a>
 
-### *property* AMOverhangConstraint.BuildDirection *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType](./../../../Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#CoordinateSystemAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMOverhangConstraint.BuildDirection *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType](../../../Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#CoordinateSystemAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BuildDirection.
 
@@ -104,7 +104,7 @@ Gets or sets the CoordinateSystem.
 
 <a id="AMOverhangConstraint.DataModelObjectCategory"></a>
 
-### *property* AMOverhangConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMOverhangConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -188,7 +188,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### AMOverhangConstraint.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### AMOverhangConstraint.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

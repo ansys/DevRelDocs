@@ -47,7 +47,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`NumberOfMoves`](#NodeMove.NumberOfMoves)                                                                          | Gets the NumberOfMoves.                                       |
 | [`NumberOfNodes`](#NodeMove.NumberOfNodes)                                                                          | Gets the NumberOfNodes.                                       |
 | [`Information`](#NodeMove.Information)                                                                              | Gets the Information.                                         |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#NodeMove.Children)                                                                                    | Gets the list of children.                                    |
 | [`Comments`](#NodeMove.Comments)                                                                                    | Gets the list of associated comments.                         |
 | [`Figures`](#NodeMove.Figures)                                                                                      | Gets the list of associated figures.                          |
@@ -95,7 +95,7 @@ Gets the NumberOfNodes.
 
 <a id="NodeMove.Information"></a>
 
-### *property* NodeMove.Information *: [Ansys.Mechanical.DataModel.Enums.NodeMoveInformationType](./../../../Mechanical/DataModel/Enums/NodeMoveInformationType.md#NodeMoveInformationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMove.Information *: [Ansys.Mechanical.DataModel.Enums.NodeMoveInformationType](../../../Mechanical/DataModel/Enums/NodeMoveInformationType.md#NodeMoveInformationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Information.
 
@@ -103,7 +103,7 @@ Gets the Information.
 
 <a id="NodeMove.DataModelObjectCategory"></a>
 
-### *property* NodeMove.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMove.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -227,7 +227,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### NodeMove.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### NodeMove.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

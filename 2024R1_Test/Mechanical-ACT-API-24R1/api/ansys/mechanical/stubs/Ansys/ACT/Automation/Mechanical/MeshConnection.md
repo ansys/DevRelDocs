@@ -48,15 +48,15 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`ThicknessScaleFactor`](#MeshConnection.ThicknessScaleFactor)                                                      | Gets or sets the ThicknessScaleFactor.                        |
 | [`ToleranceValue`](#MeshConnection.ToleranceValue)                                                                  | Gets or sets the ToleranceValue.                              |
 | [`ContactRegion`](Connections/ContactRegion.md#ContactRegion)                                                       | Gets or sets the ContactRegion.                               |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`ScopingMethod`](#MeshConnection.ScopingMethod)                                                                    | ScopingMethod property.                                       |
 | [`ToleranceSlider`](#MeshConnection.ToleranceSlider)                                                                | Gets or sets the ToleranceSlider.                             |
 | [`MasterBodies`](#MeshConnection.MasterBodies)                                                                      | Gets the MasterBodies.                                        |
 | [`SlaveBodies`](#MeshConnection.SlaveBodies)                                                                        | Gets the SlaveBodies.                                         |
 | [`SnapTolerance`](#MeshConnection.SnapTolerance)                                                                    | Gets or sets the SnapTolerance.                               |
 | [`ScopeMode`](#MeshConnection.ScopeMode)                                                                            | Gets the ScopeMode.                                           |
-| [`SnapType`](./../../../Mechanical/DataModel/Enums/SnapType.md#SnapType)                                              | Gets or sets the SnapType.                                    |
-| [`ToleranceType`](./../../../Mechanical/DataModel/Enums/ToleranceType.md#ToleranceType)                               | Gets or sets the ToleranceType.                               |
+| [`SnapType`](../../../Mechanical/DataModel/Enums/SnapType.md#SnapType)                                              | Gets or sets the SnapType.                                    |
+| [`ToleranceType`](../../../Mechanical/DataModel/Enums/ToleranceType.md#ToleranceType)                               | Gets or sets the ToleranceType.                               |
 | [`SnapToBoundary`](#MeshConnection.SnapToBoundary)                                                                  | Gets or sets the SnapToBoundary.                              |
 | [`Suppressed`](#MeshConnection.Suppressed)                                                                          | Gets or sets the Suppressed.                                  |
 | [`MasterLocation`](#MeshConnection.MasterLocation)                                                                  | Gets or sets the MasterLocation.                              |
@@ -123,7 +123,7 @@ Gets or sets the ContactRegion.
 
 <a id="MeshConnection.DataModelObjectCategory"></a>
 
-### *property* MeshConnection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshConnection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -131,7 +131,7 @@ Gets the current DataModelObject’s category.
 
 <a id="MeshConnection.ScopingMethod"></a>
 
-### *property* MeshConnection.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](./../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshConnection.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 ScopingMethod property.
 
@@ -171,7 +171,7 @@ Gets or sets the SnapTolerance.
 
 <a id="MeshConnection.ScopeMode"></a>
 
-### *property* MeshConnection.ScopeMode *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](./../../../Mechanical/DataModel/Enums/AutomaticOrManual.md#AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshConnection.ScopeMode *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](../../../Mechanical/DataModel/Enums/AutomaticOrManual.md#AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ScopeMode.
 
@@ -179,7 +179,7 @@ Gets the ScopeMode.
 
 <a id="MeshConnection.SnapType"></a>
 
-### *property* MeshConnection.SnapType *: [Ansys.Mechanical.DataModel.Enums.SnapType](./../../../Mechanical/DataModel/Enums/SnapType.md#SnapType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshConnection.SnapType *: [Ansys.Mechanical.DataModel.Enums.SnapType](../../../Mechanical/DataModel/Enums/SnapType.md#SnapType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SnapType.
 
@@ -187,7 +187,7 @@ Gets or sets the SnapType.
 
 <a id="MeshConnection.ToleranceType"></a>
 
-### *property* MeshConnection.ToleranceType *: [Ansys.Mechanical.DataModel.Enums.ContactToleranceType](./../../../Mechanical/DataModel/Enums/ContactToleranceType.md#ContactToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshConnection.ToleranceType *: [Ansys.Mechanical.DataModel.Enums.ContactToleranceType](../../../Mechanical/DataModel/Enums/ContactToleranceType.md#ContactToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ToleranceType.
 
@@ -335,7 +335,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### MeshConnection.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### MeshConnection.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

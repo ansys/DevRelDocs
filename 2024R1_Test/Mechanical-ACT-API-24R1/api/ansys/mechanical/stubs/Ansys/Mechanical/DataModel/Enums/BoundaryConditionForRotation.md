@@ -19,7 +19,7 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 | Name |
 | ------------------------------------------------------------------------------------ |
 | [`Free`](#BoundaryConditionForRotation.Free) |
-| [`Moment`](./../../../ACT/Automation/Mechanical/BoundaryConditions/Moment.md#Moment) |
+| [`Moment`](../../../ACT/Automation/Mechanical/BoundaryConditions/Moment.md#Moment) |
 | [`Rotation`](#BoundaryConditionForRotation.Rotation) |
 
 <a id="import-detail"></a>

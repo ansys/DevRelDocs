@@ -63,11 +63,11 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`DefineBy`](#RotatingForce.DefineBy)                                                                                  | Gets or sets the DefineBy.                                    |
 | [`CalculatedFromUnbalancedMass`](#RotatingForce.CalculatedFromUnbalancedMass)                                          | Gets or sets the CalculatedFromUnbalancedMass.                |
 | [`HitPointSelection`](#RotatingForce.HitPointSelection)                                                                | Gets or sets the HitPointSelection.                           |
-| [`CoordinateSystem`](./../../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
+| [`CoordinateSystem`](../../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
 | [`RemotePointSelection`](#RotatingForce.RemotePointSelection)                                                          | Gets or sets the RemotePointSelection.                        |
 | [`HitPointRemotePointSelection`](#RotatingForce.HitPointRemotePointSelection)                                          | Gets or sets the HitPointRemotePointSelection.                |
 | [`Location`](#RotatingForce.Location)                                                                                  | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Suppressed`](#RotatingForce.Suppressed)                                                                              | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#RotatingForce.SharedRefBody)                                                                        | Gets or sets the SharedRefBody.                               |
 | [`Children`](#RotatingForce.Children)                                                                                  | Gets the list of children.                                    |
@@ -93,7 +93,7 @@ from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.BoundaryConditions i
 
 <a id="RotatingForce.Axis"></a>
 
-### *property* RotatingForce.Axis *: [Ansys.Mechanical.Math.BoundVector](./../../../../Mechanical/Math/BoundVector.md#BoundVector) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RotatingForce.Axis *: [Ansys.Mechanical.Math.BoundVector](../../../../Mechanical/Math/BoundVector.md#BoundVector) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Axis.
 
@@ -253,7 +253,7 @@ Gets or sets the Mass.
 
 <a id="RotatingForce.DefineBy"></a>
 
-### *property* RotatingForce.DefineBy *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](./../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RotatingForce.DefineBy *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DefineBy.
 
@@ -277,7 +277,7 @@ Gets or sets the HitPointSelection.
 
 <a id="RotatingForce.CoordinateSystem"></a>
 
-### *property* RotatingForce.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RotatingForce.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -285,7 +285,7 @@ Gets or sets the CoordinateSystem.
 
 <a id="RotatingForce.RemotePointSelection"></a>
 
-### *property* RotatingForce.RemotePointSelection *: [Ansys.ACT.Automation.Mechanical.RemotePoint](./../RemotePoint.md#RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RotatingForce.RemotePointSelection *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../RemotePoint.md#RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RemotePointSelection.
 
@@ -293,7 +293,7 @@ Gets or sets the RemotePointSelection.
 
 <a id="RotatingForce.HitPointRemotePointSelection"></a>
 
-### *property* RotatingForce.HitPointRemotePointSelection *: [Ansys.ACT.Automation.Mechanical.RemotePoint](./../RemotePoint.md#RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RotatingForce.HitPointRemotePointSelection *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../RemotePoint.md#RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HitPointRemotePointSelection.
 
@@ -309,7 +309,7 @@ Gets or sets the Location.
 
 <a id="RotatingForce.DataModelObjectCategory"></a>
 
-### *property* RotatingForce.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RotatingForce.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -325,7 +325,7 @@ Gets or sets the Suppressed.
 
 <a id="RotatingForce.SharedRefBody"></a>
 
-### *property* RotatingForce.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](./../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RotatingForce.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -341,7 +341,7 @@ Gets the list of children.
 
 <a id="RotatingForce.Comments"></a>
 
-### *property* RotatingForce.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RotatingForce.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -349,7 +349,7 @@ Gets the list of associated comments.
 
 <a id="RotatingForce.Figures"></a>
 
-### *property* RotatingForce.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RotatingForce.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -357,7 +357,7 @@ Gets the list of associated figures.
 
 <a id="RotatingForce.Images"></a>
 
-### *property* RotatingForce.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RotatingForce.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -425,7 +425,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### RotatingForce.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### RotatingForce.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

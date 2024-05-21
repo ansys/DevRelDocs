@@ -45,12 +45,12 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`MagnitudeRotationY`](#GeneralizedPlaneStrain.MagnitudeRotationY)                                                                 | Gets or sets the MagnitudeRotationY.                          |
 | [`XCoordinateOfRefPoint`](#GeneralizedPlaneStrain.XCoordinateOfRefPoint)                                                           | Gets or sets the XCoordinateOfRefPoint.                       |
 | [`YCoordinateOfRefPoint`](#GeneralizedPlaneStrain.YCoordinateOfRefPoint)                                                           | Gets or sets the YCoordinateOfRefPoint.                       |
-| [`BoundaryConditionAlongFiber`](./../../../../Mechanical/DataModel/Enums/BoundaryConditionAlongFiber.md#BoundaryConditionAlongFiber) | Gets or sets the BoundaryConditionAlongFiber.                 |
+| [`BoundaryConditionAlongFiber`](../../../../Mechanical/DataModel/Enums/BoundaryConditionAlongFiber.md#BoundaryConditionAlongFiber) | Gets or sets the BoundaryConditionAlongFiber.                 |
 | [`BoundaryConditionForRotationAboutX`](#GeneralizedPlaneStrain.BoundaryConditionForRotationAboutX)                                 | Gets or sets the BoundaryConditionForRotationAboutX.          |
 | [`BoundaryConditionForRotationAboutY`](#GeneralizedPlaneStrain.BoundaryConditionForRotationAboutY)                                 | Gets or sets the BoundaryConditionForRotationAboutY.          |
 | [`Suppressed`](#GeneralizedPlaneStrain.Suppressed)                                                                                 | Gets or sets the Suppressed.                                  |
-| [`CoordinateSystem`](./../../../Common/CoordinateSystem.md#CoordinateSystem)                                                         | Gets or sets the CoordinateSystem.                            |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory)             | Gets the current DataModelObject’s category.                  |
+| [`CoordinateSystem`](../../../Common/CoordinateSystem.md#CoordinateSystem)                                                         | Gets or sets the CoordinateSystem.                            |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory)             | Gets the current DataModelObject’s category.                  |
 | [`Children`](#GeneralizedPlaneStrain.Children)                                                                                     | Gets the list of children.                                    |
 | [`Comments`](#GeneralizedPlaneStrain.Comments)                                                                                     | Gets the list of associated comments.                         |
 | [`Figures`](#GeneralizedPlaneStrain.Figures)                                                                                       | Gets the list of associated figures.                          |
@@ -121,7 +121,7 @@ Gets or sets the YCoordinateOfRefPoint.
 
 <a id="GeneralizedPlaneStrain.BoundaryConditionAlongFiber"></a>
 
-### *property* GeneralizedPlaneStrain.BoundaryConditionAlongFiber *: [Ansys.Mechanical.DataModel.Enums.BoundaryConditionAlongFiber](./../../../../Mechanical/DataModel/Enums/BoundaryConditionAlongFiber.md#BoundaryConditionAlongFiber) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeneralizedPlaneStrain.BoundaryConditionAlongFiber *: [Ansys.Mechanical.DataModel.Enums.BoundaryConditionAlongFiber](../../../../Mechanical/DataModel/Enums/BoundaryConditionAlongFiber.md#BoundaryConditionAlongFiber) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BoundaryConditionAlongFiber.
 
@@ -129,7 +129,7 @@ Gets or sets the BoundaryConditionAlongFiber.
 
 <a id="GeneralizedPlaneStrain.BoundaryConditionForRotationAboutX"></a>
 
-### *property* GeneralizedPlaneStrain.BoundaryConditionForRotationAboutX *: [Ansys.Mechanical.DataModel.Enums.BoundaryConditionForRotation](./../../../../Mechanical/DataModel/Enums/BoundaryConditionForRotation.md#BoundaryConditionForRotation) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeneralizedPlaneStrain.BoundaryConditionForRotationAboutX *: [Ansys.Mechanical.DataModel.Enums.BoundaryConditionForRotation](../../../../Mechanical/DataModel/Enums/BoundaryConditionForRotation.md#BoundaryConditionForRotation) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BoundaryConditionForRotationAboutX.
 
@@ -137,7 +137,7 @@ Gets or sets the BoundaryConditionForRotationAboutX.
 
 <a id="GeneralizedPlaneStrain.BoundaryConditionForRotationAboutY"></a>
 
-### *property* GeneralizedPlaneStrain.BoundaryConditionForRotationAboutY *: [Ansys.Mechanical.DataModel.Enums.BoundaryConditionForRotation](./../../../../Mechanical/DataModel/Enums/BoundaryConditionForRotation.md#BoundaryConditionForRotation) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeneralizedPlaneStrain.BoundaryConditionForRotationAboutY *: [Ansys.Mechanical.DataModel.Enums.BoundaryConditionForRotation](../../../../Mechanical/DataModel/Enums/BoundaryConditionForRotation.md#BoundaryConditionForRotation) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BoundaryConditionForRotationAboutY.
 
@@ -153,7 +153,7 @@ Gets or sets the Suppressed.
 
 <a id="GeneralizedPlaneStrain.CoordinateSystem"></a>
 
-### *property* GeneralizedPlaneStrain.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeneralizedPlaneStrain.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -161,7 +161,7 @@ Gets or sets the CoordinateSystem.
 
 <a id="GeneralizedPlaneStrain.DataModelObjectCategory"></a>
 
-### *property* GeneralizedPlaneStrain.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeneralizedPlaneStrain.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -177,7 +177,7 @@ Gets the list of children.
 
 <a id="GeneralizedPlaneStrain.Comments"></a>
 
-### *property* GeneralizedPlaneStrain.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeneralizedPlaneStrain.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -185,7 +185,7 @@ Gets the list of associated comments.
 
 <a id="GeneralizedPlaneStrain.Figures"></a>
 
-### *property* GeneralizedPlaneStrain.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeneralizedPlaneStrain.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -193,7 +193,7 @@ Gets the list of associated figures.
 
 <a id="GeneralizedPlaneStrain.Images"></a>
 
-### *property* GeneralizedPlaneStrain.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeneralizedPlaneStrain.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -245,7 +245,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### GeneralizedPlaneStrain.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### GeneralizedPlaneStrain.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

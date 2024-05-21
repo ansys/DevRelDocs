@@ -54,14 +54,14 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`CoefficientType`](#Convection.CoefficientType)                                                                       | Gets or sets the CoefficientType.                             |
 | [`ConvectionMatrix`](#Convection.ConvectionMatrix)                                                                     | Gets or sets the ConvectionMatrix.                            |
 | [`EditDataFor`](#Convection.EditDataFor)                                                                               | Gets or sets the EditDataFor.                                 |
-| [`GraphControlsXAxis`](./../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#GraphControlsXAxis)                | Gets or sets the GraphControlsXAxis.                          |
+| [`GraphControlsXAxis`](../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#GraphControlsXAxis)                | Gets or sets the GraphControlsXAxis.                          |
 | [`IndependentVariable`](#Convection.IndependentVariable)                                                               | Gets or sets the IndependentVariable.                         |
 | [`DisplayConnectionLines`](#Convection.DisplayConnectionLines)                                                         | Gets or sets the DisplayConnectionLines.                      |
 | [`HasFluidFlow`](#Convection.HasFluidFlow)                                                                             | Gets or sets the HasFluidFlow.                                |
 | [`XYZFunctionCoordinateSystem`](#Convection.XYZFunctionCoordinateSystem)                                               | Gets or sets the XYZFunctionCoordinateSystem.                 |
 | [`FluidFlowSelection`](#Convection.FluidFlowSelection)                                                                 | Gets or sets the FluidFlowSelection.                          |
 | [`Location`](#Convection.Location)                                                                                     | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Suppressed`](#Convection.Suppressed)                                                                                 | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#Convection.SharedRefBody)                                                                           | Gets or sets the SharedRefBody.                               |
 | [`Children`](#Convection.Children)                                                                                     | Gets the list of children.                                    |
@@ -87,7 +87,7 @@ from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.BoundaryConditions i
 
 <a id="Convection.FluidFlowEdge"></a>
 
-### *property* Convection.FluidFlowEdge *: [Ansys.ACT.Automation.Mechanical.NamedSelection](./../NamedSelection.md#NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Convection.FluidFlowEdge *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../NamedSelection.md#NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FluidFlowEdge.
 
@@ -111,7 +111,7 @@ Gets or sets the NumberOfSegments.
 
 <a id="Convection.FilmCoefficient"></a>
 
-### *property* Convection.FilmCoefficient *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Convection.FilmCoefficient *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the FilmCoefficient.
 
@@ -119,7 +119,7 @@ Gets the FilmCoefficient.
 
 <a id="Convection.AmbientTemperature"></a>
 
-### *property* Convection.AmbientTemperature *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Convection.AmbientTemperature *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the AmbientTemperature.
 
@@ -143,7 +143,7 @@ Gets or sets the RangeMinimum.
 
 <a id="Convection.CoefficientType"></a>
 
-### *property* Convection.CoefficientType *: [Ansys.Mechanical.DataModel.Enums.LoadVariationSubOption](./../../../../Mechanical/DataModel/Enums/LoadVariationSubOption.md#LoadVariationSubOption) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Convection.CoefficientType *: [Ansys.Mechanical.DataModel.Enums.LoadVariationSubOption](../../../../Mechanical/DataModel/Enums/LoadVariationSubOption.md#LoadVariationSubOption) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoefficientType.
 
@@ -151,7 +151,7 @@ Gets or sets the CoefficientType.
 
 <a id="Convection.ConvectionMatrix"></a>
 
-### *property* Convection.ConvectionMatrix *: [Ansys.Mechanical.DataModel.Enums.DiagonalOrConsistent](./../../../../Mechanical/DataModel/Enums/DiagonalOrConsistent.md#DiagonalOrConsistent) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Convection.ConvectionMatrix *: [Ansys.Mechanical.DataModel.Enums.DiagonalOrConsistent](../../../../Mechanical/DataModel/Enums/DiagonalOrConsistent.md#DiagonalOrConsistent) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ConvectionMatrix.
 
@@ -159,7 +159,7 @@ Gets or sets the ConvectionMatrix.
 
 <a id="Convection.EditDataFor"></a>
 
-### *property* Convection.EditDataFor *: [Ansys.Mechanical.DataModel.Enums.ConvectionTableSelection](./../../../../Mechanical/DataModel/Enums/ConvectionTableSelection.md#ConvectionTableSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Convection.EditDataFor *: [Ansys.Mechanical.DataModel.Enums.ConvectionTableSelection](../../../../Mechanical/DataModel/Enums/ConvectionTableSelection.md#ConvectionTableSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EditDataFor.
 
@@ -167,7 +167,7 @@ Gets or sets the EditDataFor.
 
 <a id="Convection.GraphControlsXAxis"></a>
 
-### *property* Convection.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](./../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Convection.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GraphControlsXAxis.
 
@@ -175,7 +175,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="Convection.IndependentVariable"></a>
 
-### *property* Convection.IndependentVariable *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](./../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Convection.IndependentVariable *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IndependentVariable.
 
@@ -199,7 +199,7 @@ Gets or sets the HasFluidFlow.
 
 <a id="Convection.XYZFunctionCoordinateSystem"></a>
 
-### *property* Convection.XYZFunctionCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Convection.XYZFunctionCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XYZFunctionCoordinateSystem.
 
@@ -223,7 +223,7 @@ Gets or sets the Location.
 
 <a id="Convection.DataModelObjectCategory"></a>
 
-### *property* Convection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Convection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -239,7 +239,7 @@ Gets or sets the Suppressed.
 
 <a id="Convection.SharedRefBody"></a>
 
-### *property* Convection.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](./../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Convection.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -255,7 +255,7 @@ Gets the list of children.
 
 <a id="Convection.Comments"></a>
 
-### *property* Convection.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Convection.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -263,7 +263,7 @@ Gets the list of associated comments.
 
 <a id="Convection.Figures"></a>
 
-### *property* Convection.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Convection.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -271,7 +271,7 @@ Gets the list of associated figures.
 
 <a id="Convection.Images"></a>
 
-### *property* Convection.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Convection.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -371,7 +371,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### Convection.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### Convection.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

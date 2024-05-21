@@ -18,9 +18,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 | Name | Description |
 |------------------------------------------------------------------------|-------------------------|
-| [`Arguments`](./../NASTRAN/GenericCommand.md#GenericCommand.Arguments)   | Gets the arguments.     |
-| [`Name`](./../NASTRAN/GenericCommand.md#GenericCommand.Name)             | Gets the command name.  |
-| [`Index`](./../NASTRAN/GenericCommand.md#GenericCommand.Index)           | Gets the command index. |
+| [`Arguments`](../NASTRAN/GenericCommand.md#GenericCommand.Arguments)   | Gets the arguments.     |
+| [`Name`](../NASTRAN/GenericCommand.md#GenericCommand.Name)             | Gets the command name.  |
+| [`Index`](../NASTRAN/GenericCommand.md#GenericCommand.Index)           | Gets the command index. |
 
 <a id="import-detail"></a>
 

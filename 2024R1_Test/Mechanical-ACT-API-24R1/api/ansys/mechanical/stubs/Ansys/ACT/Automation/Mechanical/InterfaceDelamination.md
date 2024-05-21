@@ -40,7 +40,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`AutomaticTimeStepping`](./../../../Mechanical/DataModel/Enums/AutomaticTimeStepping.md#AutomaticTimeStepping)       | Gets or sets the AutomaticTimeStepping.                       |
+| [`AutomaticTimeStepping`](../../../Mechanical/DataModel/Enums/AutomaticTimeStepping.md#AutomaticTimeStepping)       | Gets or sets the AutomaticTimeStepping.                       |
 | [`FailureCriteriaOption`](#InterfaceDelamination.FailureCriteriaOption)                                             | Gets or sets the FailureCriteriaOption.                       |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`Material`](Material.md#Material)                                                                                  | Gets or sets the Material.                                    |
@@ -52,13 +52,13 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Method`](#InterfaceDelamination.Method)                                                                           | Gets or sets the Method.                                      |
 | [`Type`](#InterfaceDelamination.Type)                                                                               | Gets the Type.                                                |
 | [`GenerationMethod`](#InterfaceDelamination.GenerationMethod)                                                       | Gets or sets the GenerationMethod.                            |
-| [`ToleranceType`](./../../../Mechanical/DataModel/Enums/ToleranceType.md#ToleranceType)                               | Gets or sets the ToleranceType.                               |
+| [`ToleranceType`](../../../Mechanical/DataModel/Enums/ToleranceType.md#ToleranceType)                               | Gets or sets the ToleranceType.                               |
 | [`Suppressed`](#InterfaceDelamination.Suppressed)                                                                   | Gets or sets the Suppressed.                                  |
 | [`InitialCrack`](#InterfaceDelamination.InitialCrack)                                                               | Gets or sets the InitialCrack.                                |
 | [`MatchControl`](MeshControls/MatchControl.md#MatchControl)                                                         | Gets or sets the MatchControl.                                |
 | [`SourceLocation`](#InterfaceDelamination.SourceLocation)                                                           | Gets or sets the SourceLocation.                              |
 | [`TargetLocation`](#InterfaceDelamination.TargetLocation)                                                           | Gets or sets the TargetLocation.                              |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#InterfaceDelamination.Children)                                                                       | Gets the list of children.                                    |
 | [`Comments`](#InterfaceDelamination.Comments)                                                                       | Gets the list of associated comments.                         |
 | [`Figures`](#InterfaceDelamination.Figures)                                                                         | Gets the list of associated figures.                          |
@@ -82,7 +82,7 @@ from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical import InterfaceDela
 
 <a id="InterfaceDelamination.AutomaticTimeStepping"></a>
 
-### *property* InterfaceDelamination.AutomaticTimeStepping *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](./../../../Mechanical/DataModel/Enums/AutomaticOrManual.md#AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InterfaceDelamination.AutomaticTimeStepping *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](../../../Mechanical/DataModel/Enums/AutomaticOrManual.md#AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AutomaticTimeStepping.
 
@@ -90,7 +90,7 @@ Gets or sets the AutomaticTimeStepping.
 
 <a id="InterfaceDelamination.FailureCriteriaOption"></a>
 
-### *property* InterfaceDelamination.FailureCriteriaOption *: [Ansys.Mechanical.DataModel.Enums.DelaminationFailureCriteriaOption](./../../../Mechanical/DataModel/Enums/DelaminationFailureCriteriaOption.md#DelaminationFailureCriteriaOption) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InterfaceDelamination.FailureCriteriaOption *: [Ansys.Mechanical.DataModel.Enums.DelaminationFailureCriteriaOption](../../../Mechanical/DataModel/Enums/DelaminationFailureCriteriaOption.md#DelaminationFailureCriteriaOption) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FailureCriteriaOption.
 
@@ -154,7 +154,7 @@ Gets or sets the MinimumTimeStep.
 
 <a id="InterfaceDelamination.Method"></a>
 
-### *property* InterfaceDelamination.Method *: [Ansys.Mechanical.DataModel.Enums.DelaminationMethod](./../../../Mechanical/DataModel/Enums/DelaminationMethod.md#DelaminationMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InterfaceDelamination.Method *: [Ansys.Mechanical.DataModel.Enums.DelaminationMethod](../../../Mechanical/DataModel/Enums/DelaminationMethod.md#DelaminationMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Method.
 
@@ -162,7 +162,7 @@ Gets or sets the Method.
 
 <a id="InterfaceDelamination.Type"></a>
 
-### *property* InterfaceDelamination.Type *: [Ansys.Mechanical.DataModel.Enums.DelaminationType](./../../../Mechanical/DataModel/Enums/DelaminationType.md#DelaminationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InterfaceDelamination.Type *: [Ansys.Mechanical.DataModel.Enums.DelaminationType](../../../Mechanical/DataModel/Enums/DelaminationType.md#DelaminationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Type.
 
@@ -170,7 +170,7 @@ Gets the Type.
 
 <a id="InterfaceDelamination.GenerationMethod"></a>
 
-### *property* InterfaceDelamination.GenerationMethod *: [Ansys.Mechanical.DataModel.Enums.DelaminationGenerationMethod](./../../../Mechanical/DataModel/Enums/DelaminationGenerationMethod.md#DelaminationGenerationMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InterfaceDelamination.GenerationMethod *: [Ansys.Mechanical.DataModel.Enums.DelaminationGenerationMethod](../../../Mechanical/DataModel/Enums/DelaminationGenerationMethod.md#DelaminationGenerationMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GenerationMethod.
 
@@ -178,7 +178,7 @@ Gets or sets the GenerationMethod.
 
 <a id="InterfaceDelamination.ToleranceType"></a>
 
-### *property* InterfaceDelamination.ToleranceType *: [Ansys.Mechanical.DataModel.Enums.ToleranceType](./../../../Mechanical/DataModel/Enums/ToleranceType.md#ToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InterfaceDelamination.ToleranceType *: [Ansys.Mechanical.DataModel.Enums.ToleranceType](../../../Mechanical/DataModel/Enums/ToleranceType.md#ToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ToleranceType.
 
@@ -226,7 +226,7 @@ Gets or sets the TargetLocation.
 
 <a id="InterfaceDelamination.DataModelObjectCategory"></a>
 
-### *property* InterfaceDelamination.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InterfaceDelamination.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -326,7 +326,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### InterfaceDelamination.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### InterfaceDelamination.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

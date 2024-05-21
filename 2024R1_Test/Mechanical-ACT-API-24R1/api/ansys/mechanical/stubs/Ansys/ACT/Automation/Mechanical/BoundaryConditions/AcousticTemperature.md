@@ -45,15 +45,15 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`NumberOfSegments`](#AcousticTemperature.NumberOfSegments)                                                            | Gets or sets the NumberOfSegments.                            |
 | [`LoadVectorNumber`](#AcousticTemperature.LoadVectorNumber)                                                            | Gets or sets the LoadVectorNumber.                            |
 | [`Magnitude`](#AcousticTemperature.Magnitude)                                                                          | Gets or sets the Magnitude.                                   |
 | [`RangeMaximum`](#AcousticTemperature.RangeMaximum)                                                                    | Gets or sets the RangeMaximum.                                |
 | [`RangeMinimum`](#AcousticTemperature.RangeMinimum)                                                                    | Gets or sets the RangeMinimum.                                |
 | [`DefineBy`](#AcousticTemperature.DefineBy)                                                                            | Gets the DefineBy.                                            |
-| [`GraphControlsXAxis`](./../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#GraphControlsXAxis)                | Gets or sets the GraphControlsXAxis.                          |
-| [`LoadVectorAssignment`](./../../../../Mechanical/DataModel/Enums/LoadVectorAssignment.md#LoadVectorAssignment)          | Gets or sets the LoadVectorAssignment.                        |
+| [`GraphControlsXAxis`](../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#GraphControlsXAxis)                | Gets or sets the GraphControlsXAxis.                          |
+| [`LoadVectorAssignment`](../../../../Mechanical/DataModel/Enums/LoadVectorAssignment.md#LoadVectorAssignment)          | Gets or sets the LoadVectorAssignment.                        |
 | [`ShellFace`](#AcousticTemperature.ShellFace)                                                                          | Gets or sets the ShellFace.                                   |
 | [`IndependentVariable`](#AcousticTemperature.IndependentVariable)                                                      | Gets or sets the IndependentVariable.                         |
 | [`XYZFunctionCoordinateSystem`](#AcousticTemperature.XYZFunctionCoordinateSystem)                                      | Gets or sets the XYZFunctionCoordinateSystem.                 |
@@ -92,7 +92,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="AcousticTemperature.DataModelObjectCategory"></a>
 
-### *property* AcousticTemperature.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTemperature.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -116,7 +116,7 @@ Gets or sets the LoadVectorNumber.
 
 <a id="AcousticTemperature.Magnitude"></a>
 
-### *property* AcousticTemperature.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTemperature.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Magnitude.
 
@@ -140,7 +140,7 @@ Gets or sets the RangeMinimum.
 
 <a id="AcousticTemperature.DefineBy"></a>
 
-### *property* AcousticTemperature.DefineBy *: [Ansys.Mechanical.DataModel.Enums.LoadDefineBy](./../../../../Mechanical/DataModel/Enums/LoadDefineBy.md#LoadDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTemperature.DefineBy *: [Ansys.Mechanical.DataModel.Enums.LoadDefineBy](../../../../Mechanical/DataModel/Enums/LoadDefineBy.md#LoadDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the DefineBy.
 
@@ -148,7 +148,7 @@ Gets the DefineBy.
 
 <a id="AcousticTemperature.GraphControlsXAxis"></a>
 
-### *property* AcousticTemperature.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](./../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTemperature.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GraphControlsXAxis.
 
@@ -156,7 +156,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="AcousticTemperature.LoadVectorAssignment"></a>
 
-### *property* AcousticTemperature.LoadVectorAssignment *: [Ansys.Mechanical.DataModel.Enums.LoadVectorAssignment](./../../../../Mechanical/DataModel/Enums/LoadVectorAssignment.md#LoadVectorAssignment) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTemperature.LoadVectorAssignment *: [Ansys.Mechanical.DataModel.Enums.LoadVectorAssignment](../../../../Mechanical/DataModel/Enums/LoadVectorAssignment.md#LoadVectorAssignment) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadVectorAssignment.
 
@@ -164,7 +164,7 @@ Gets or sets the LoadVectorAssignment.
 
 <a id="AcousticTemperature.ShellFace"></a>
 
-### *property* AcousticTemperature.ShellFace *: [Ansys.Mechanical.DataModel.Enums.ShellFaceType](./../../../../Mechanical/DataModel/Enums/ShellFaceType.md#ShellFaceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTemperature.ShellFace *: [Ansys.Mechanical.DataModel.Enums.ShellFaceType](../../../../Mechanical/DataModel/Enums/ShellFaceType.md#ShellFaceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShellFace.
 
@@ -172,7 +172,7 @@ Gets or sets the ShellFace.
 
 <a id="AcousticTemperature.IndependentVariable"></a>
 
-### *property* AcousticTemperature.IndependentVariable *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](./../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTemperature.IndependentVariable *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IndependentVariable.
 
@@ -180,7 +180,7 @@ Gets or sets the IndependentVariable.
 
 <a id="AcousticTemperature.XYZFunctionCoordinateSystem"></a>
 
-### *property* AcousticTemperature.XYZFunctionCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTemperature.XYZFunctionCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XYZFunctionCoordinateSystem.
 
@@ -188,7 +188,7 @@ Gets or sets the XYZFunctionCoordinateSystem.
 
 <a id="AcousticTemperature.TableAssignment"></a>
 
-### *property* AcousticTemperature.TableAssignment *: [Ansys.ACT.Automation.Mechanical.Table](./../Table.md#Table) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTemperature.TableAssignment *: [Ansys.ACT.Automation.Mechanical.Table](../Table.md#Table) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TableAssignment.
 
@@ -212,7 +212,7 @@ Gets or sets the Suppressed.
 
 <a id="AcousticTemperature.SharedRefBody"></a>
 
-### *property* AcousticTemperature.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](./../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTemperature.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -228,7 +228,7 @@ Gets the list of children.
 
 <a id="AcousticTemperature.Comments"></a>
 
-### *property* AcousticTemperature.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTemperature.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -236,7 +236,7 @@ Gets the list of associated comments.
 
 <a id="AcousticTemperature.Figures"></a>
 
-### *property* AcousticTemperature.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTemperature.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -244,7 +244,7 @@ Gets the list of associated figures.
 
 <a id="AcousticTemperature.Images"></a>
 
-### *property* AcousticTemperature.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTemperature.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -344,7 +344,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### AcousticTemperature.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### AcousticTemperature.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

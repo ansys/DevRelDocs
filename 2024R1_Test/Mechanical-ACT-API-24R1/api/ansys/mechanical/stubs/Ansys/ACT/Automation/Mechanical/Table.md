@@ -46,10 +46,10 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`RefreshImportOn`](#Table.RefreshImportOn)                                                                         | Controls when the imported file should be refreshed.                                   |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.                                     |
 | [`APDLName`](#Table.APDLName)                                                                                       | Gets or sets the name of the Table when explicitly written to the APDL input file.     |
-| [`PathType`](./../../../Mechanical/DataModel/MechanicalEnums/Common/PathType.md#PathType)                             | Gets or sets the PathType.                                                             |
+| [`PathType`](../../../Mechanical/DataModel/MechanicalEnums/Common/PathType.md#PathType)                             | Gets or sets the PathType.                                                             |
 | [`SendToSolver`](#Table.SendToSolver)                                                                               | Get whether the Table will be explicitly written to the APDL input file.               |
 | [`SpatialCoordinateSystem`](#Table.SpatialCoordinateSystem)                                                         | Gets or sets the coordinate system applied to the Table’s spatial independent columns. |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                           |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                           |
 | [`Children`](#Table.Children)                                                                                       | Gets the list of children.                                                             |
 | [`Comments`](#Table.Comments)                                                                                       | Gets the list of associated comments.                                                  |
 | [`Figures`](#Table.Figures)                                                                                         | Gets the list of associated figures.                                                   |
@@ -80,7 +80,7 @@ Whether column add/create/import/refresh operations cannot grow the number of ro
 
 <a id="Table.RefreshImportOn"></a>
 
-### *property* Table.RefreshImportOn *: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.TableRefreshImportOn](./../../../Mechanical/DataModel/MechanicalEnums/Table/TableRefreshImportOn.md#TableRefreshImportOn) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Table.RefreshImportOn *: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.TableRefreshImportOn](../../../Mechanical/DataModel/MechanicalEnums/Table/TableRefreshImportOn.md#TableRefreshImportOn) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Controls when the imported file should be refreshed.
 
@@ -104,7 +104,7 @@ Gets or sets the name of the Table when explicitly written to the APDL input fil
 
 <a id="Table.PathType"></a>
 
-### *property* Table.PathType *: [Ansys.Mechanical.DataModel.MechanicalEnums.Common.PathType](./../../../Mechanical/DataModel/MechanicalEnums/Common/PathType.md#PathType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Table.PathType *: [Ansys.Mechanical.DataModel.MechanicalEnums.Common.PathType](../../../Mechanical/DataModel/MechanicalEnums/Common/PathType.md#PathType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PathType.
 
@@ -128,7 +128,7 @@ Gets or sets the coordinate system applied to the Table’s spatial independent 
 
 <a id="Table.DataModelObjectCategory"></a>
 
-### *property* Table.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Table.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -196,7 +196,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="Table.CreateAndAddColumn"></a>
 
-### Table.CreateAndAddColumn(variableType: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableType](./../../../Mechanical/DataModel/MechanicalEnums/Table/VariableType.md#VariableType), variableClassification: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableClassification](./../../../Mechanical/DataModel/MechanicalEnums/Table/VariableClassification.md#VariableClassification), data: System.Collections.IEnumerable, unit: System.String, name: System.String)
+### Table.CreateAndAddColumn(variableType: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableType](../../../Mechanical/DataModel/MechanicalEnums/Table/VariableType.md#VariableType), variableClassification: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableClassification](../../../Mechanical/DataModel/MechanicalEnums/Table/VariableClassification.md#VariableClassification), data: System.Collections.IEnumerable, unit: System.String, name: System.String)
 
 Creates and adds a new column (data series) to the table.
 
@@ -220,7 +220,7 @@ Get the settings used for an import operation.
 
 <a id="Table.Import"></a>
 
-### Table.Import(dataURI: System.String, format: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.ImportFormat](./../../../Mechanical/DataModel/MechanicalEnums/Table/ImportFormat.md#ImportFormat), settings: [Ansys.Mechanical.Table.ImportSettingsBase](./../../../Mechanical/Table/ImportSettingsBase.md#ImportSettingsBase))
+### Table.Import(dataURI: System.String, format: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.ImportFormat](../../../Mechanical/DataModel/MechanicalEnums/Table/ImportFormat.md#ImportFormat), settings: [Ansys.Mechanical.Table.ImportSettingsBase](../../../Mechanical/Table/ImportSettingsBase.md#ImportSettingsBase))
 
 <!-- !! processed by numpydoc !! -->
 
@@ -234,7 +234,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### Table.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### Table.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

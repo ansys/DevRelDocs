@@ -41,7 +41,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
 | [`LoadData`](#RSVelocity.LoadData)                                                                                     | Gets or sets the LoadData.                                    |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`BoundaryCondition`](#RSVelocity.BoundaryCondition)                                                                   | Gets or sets the BoundaryCondition.                           |
 | [`ScaleFactor`](#RSVelocity.ScaleFactor)                                                                               | Gets or sets the ScaleFactor.                                 |
 | [`MissingMassEffectZPA`](#RSVelocity.MissingMassEffectZPA)                                                             | Gets or sets the MissingMassEffectZPA.                        |
@@ -49,7 +49,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`RigidResponseEffectFreqEnd`](#RSVelocity.RigidResponseEffectFreqEnd)                                                 | Gets or sets the RigidResponseEffectFreqEnd.                  |
 | [`RigidResponseEffectZPA`](#RSVelocity.RigidResponseEffectZPA)                                                         | Gets or sets the RigidResponseEffectZPA.                      |
 | [`Direction`](#RSVelocity.Direction)                                                                                   | Gets or sets the Direction.                                   |
-| [`RigidResponseEffectType`](./../../../../Mechanical/DataModel/Enums/RigidResponseEffectType.md#RigidResponseEffectType) | Gets or sets the RigidResponseEffectType.                     |
+| [`RigidResponseEffectType`](../../../../Mechanical/DataModel/Enums/RigidResponseEffectType.md#RigidResponseEffectType) | Gets or sets the RigidResponseEffectType.                     |
 | [`MissingMassEffect`](#RSVelocity.MissingMassEffect)                                                                   | Gets or sets the MissingMassEffect.                           |
 | [`RigidResponseEffect`](#RSVelocity.RigidResponseEffect)                                                               | Gets or sets the RigidResponseEffect.                         |
 | [`Suppressed`](#RSVelocity.Suppressed)                                                                                 | Gets or sets the Suppressed.                                  |
@@ -83,7 +83,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="RSVelocity.LoadData"></a>
 
-### *property* RSVelocity.LoadData *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSVelocity.LoadData *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadData.
 
@@ -91,7 +91,7 @@ Gets or sets the LoadData.
 
 <a id="RSVelocity.DataModelObjectCategory"></a>
 
-### *property* RSVelocity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSVelocity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -147,7 +147,7 @@ Gets or sets the RigidResponseEffectZPA.
 
 <a id="RSVelocity.Direction"></a>
 
-### *property* RSVelocity.Direction *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](./../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSVelocity.Direction *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Direction.
 
@@ -155,7 +155,7 @@ Gets or sets the Direction.
 
 <a id="RSVelocity.RigidResponseEffectType"></a>
 
-### *property* RSVelocity.RigidResponseEffectType *: [Ansys.Mechanical.DataModel.Enums.RigidResponseEffectType](./../../../../Mechanical/DataModel/Enums/RigidResponseEffectType.md#RigidResponseEffectType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSVelocity.RigidResponseEffectType *: [Ansys.Mechanical.DataModel.Enums.RigidResponseEffectType](../../../../Mechanical/DataModel/Enums/RigidResponseEffectType.md#RigidResponseEffectType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RigidResponseEffectType.
 
@@ -195,7 +195,7 @@ Gets the list of children.
 
 <a id="RSVelocity.Comments"></a>
 
-### *property* RSVelocity.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSVelocity.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -203,7 +203,7 @@ Gets the list of associated comments.
 
 <a id="RSVelocity.Figures"></a>
 
-### *property* RSVelocity.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSVelocity.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -211,7 +211,7 @@ Gets the list of associated figures.
 
 <a id="RSVelocity.Images"></a>
 
-### *property* RSVelocity.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSVelocity.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -263,7 +263,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### RSVelocity.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### RSVelocity.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

@@ -22,7 +22,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Identifier`](#ExternalDataFile.Identifier)                      | Gets or sets the identifier of the external data file.           |
 | [`Description`](#ExternalDataFile.Description)                    | Gets or sets the optional description of the external data file. |
 | [`IsMainFile`](#ExternalDataFile.IsMainFile)                      |                                                                  |
-| [`ImportSettings`](./../Materials/ImportSettings.md#ImportSettings) |                                                                  |
+| [`ImportSettings`](../Materials/ImportSettings.md#ImportSettings) |                                                                  |
 
 <a id="import-detail"></a>
 

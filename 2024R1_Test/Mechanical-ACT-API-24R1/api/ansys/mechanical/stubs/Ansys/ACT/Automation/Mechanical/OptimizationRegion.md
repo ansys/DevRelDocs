@@ -52,14 +52,14 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`BoundaryCondition`](#OptimizationRegion.BoundaryCondition)                                                                 | Gets or sets the BoundaryCondition.                           |
 | [`ExclusionExtension`](#OptimizationRegion.ExclusionExtension)                                                               | Gets or sets the ExclusionExtension.                          |
 | [`HyperbolicProjection`](#OptimizationRegion.HyperbolicProjection)                                                           | Gets or sets the HyperbolicProjection.                        |
-| [`InitializationModifierType`](./../../../Mechanical/DataModel/Enums/InitializationModifierType.md#InitializationModifierType) | Gets or sets the InitializationModifierType.                  |
-| [`LatticeType`](./../../../Mechanical/DataModel/Enums/LatticeType.md#LatticeType)                                              | Gets or sets the LatticeType.                                 |
+| [`InitializationModifierType`](../../../Mechanical/DataModel/Enums/InitializationModifierType.md#InitializationModifierType) | Gets or sets the InitializationModifierType.                  |
+| [`LatticeType`](../../../Mechanical/DataModel/Enums/LatticeType.md#LatticeType)                                              | Gets or sets the LatticeType.                                 |
 | [`MaxCumulatedDisplacementControl`](#OptimizationRegion.MaxCumulatedDisplacementControl)                                     | Gets or sets the MaxCumulatedDisplacementControl.             |
 | [`MeshDeformationToleranceControl`](#OptimizationRegion.MeshDeformationToleranceControl)                                     | Gets or sets the MeshDeformationToleranceControl.             |
-| [`OptimizationType`](./../../../Mechanical/DataModel/Enums/OptimizationType.md#OptimizationType)                               | Gets or sets the OptimizationType.                            |
+| [`OptimizationType`](../../../Mechanical/DataModel/Enums/OptimizationType.md#OptimizationType)                               | Gets or sets the OptimizationType.                            |
 | [`ShapeMoveLimitControl`](#OptimizationRegion.ShapeMoveLimitControl)                                                         | Gets or sets the ShapeMoveLimitControl.                       |
 | [`DesignRegionLocation`](#OptimizationRegion.DesignRegionLocation)                                                           | Gets or sets the DesignRegionLocation.                        |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory)          | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory)          | Gets the current DataModelObject’s category.                  |
 | [`ExclusionRegionLocation`](#OptimizationRegion.ExclusionRegionLocation)                                                     | Gets or sets the ExclusionRegionLocation.                     |
 | [`ExclusionScopingMethod`](#OptimizationRegion.ExclusionScopingMethod)                                                       | Gets or sets the ExclusionScopingMethod.                      |
 | [`Children`](#OptimizationRegion.Children)                                                                                   | Gets the list of children.                                    |
@@ -169,7 +169,7 @@ Gets or sets the LatticeSize.
 
 <a id="OptimizationRegion.BoundaryCondition"></a>
 
-### *property* OptimizationRegion.BoundaryCondition *: [Ansys.Mechanical.DataModel.Enums.BoundaryConditionType](./../../../Mechanical/DataModel/Enums/BoundaryConditionType.md#BoundaryConditionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* OptimizationRegion.BoundaryCondition *: [Ansys.Mechanical.DataModel.Enums.BoundaryConditionType](../../../Mechanical/DataModel/Enums/BoundaryConditionType.md#BoundaryConditionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BoundaryCondition.
 
@@ -177,7 +177,7 @@ Gets or sets the BoundaryCondition.
 
 <a id="OptimizationRegion.ExclusionExtension"></a>
 
-### *property* OptimizationRegion.ExclusionExtension *: [Ansys.Mechanical.DataModel.Enums.ExclusionType](./../../../Mechanical/DataModel/Enums/ExclusionType.md#ExclusionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* OptimizationRegion.ExclusionExtension *: [Ansys.Mechanical.DataModel.Enums.ExclusionType](../../../Mechanical/DataModel/Enums/ExclusionType.md#ExclusionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ExclusionExtension.
 
@@ -185,7 +185,7 @@ Gets or sets the ExclusionExtension.
 
 <a id="OptimizationRegion.HyperbolicProjection"></a>
 
-### *property* OptimizationRegion.HyperbolicProjection *: [Ansys.Mechanical.DataModel.Enums.HyperbolicProjectionType](./../../../Mechanical/DataModel/Enums/HyperbolicProjectionType.md#HyperbolicProjectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* OptimizationRegion.HyperbolicProjection *: [Ansys.Mechanical.DataModel.Enums.HyperbolicProjectionType](../../../Mechanical/DataModel/Enums/HyperbolicProjectionType.md#HyperbolicProjectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HyperbolicProjection.
 
@@ -193,7 +193,7 @@ Gets or sets the HyperbolicProjection.
 
 <a id="OptimizationRegion.InitializationModifierType"></a>
 
-### *property* OptimizationRegion.InitializationModifierType *: [Ansys.Mechanical.DataModel.Enums.InitializationModifierType](./../../../Mechanical/DataModel/Enums/InitializationModifierType.md#InitializationModifierType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* OptimizationRegion.InitializationModifierType *: [Ansys.Mechanical.DataModel.Enums.InitializationModifierType](../../../Mechanical/DataModel/Enums/InitializationModifierType.md#InitializationModifierType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the InitializationModifierType.
 
@@ -201,7 +201,7 @@ Gets or sets the InitializationModifierType.
 
 <a id="OptimizationRegion.LatticeType"></a>
 
-### *property* OptimizationRegion.LatticeType *: [Ansys.Mechanical.DataModel.Enums.LatticeType](./../../../Mechanical/DataModel/Enums/LatticeType.md#LatticeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* OptimizationRegion.LatticeType *: [Ansys.Mechanical.DataModel.Enums.LatticeType](../../../Mechanical/DataModel/Enums/LatticeType.md#LatticeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LatticeType.
 
@@ -209,7 +209,7 @@ Gets or sets the LatticeType.
 
 <a id="OptimizationRegion.MaxCumulatedDisplacementControl"></a>
 
-### *property* OptimizationRegion.MaxCumulatedDisplacementControl *: [Ansys.Mechanical.DataModel.Enums.TopoPropertyControlType](./../../../Mechanical/DataModel/Enums/TopoPropertyControlType.md#TopoPropertyControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* OptimizationRegion.MaxCumulatedDisplacementControl *: [Ansys.Mechanical.DataModel.Enums.TopoPropertyControlType](../../../Mechanical/DataModel/Enums/TopoPropertyControlType.md#TopoPropertyControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MaxCumulatedDisplacementControl.
 
@@ -217,7 +217,7 @@ Gets or sets the MaxCumulatedDisplacementControl.
 
 <a id="OptimizationRegion.MeshDeformationToleranceControl"></a>
 
-### *property* OptimizationRegion.MeshDeformationToleranceControl *: [Ansys.Mechanical.DataModel.Enums.TopoPropertyControlType](./../../../Mechanical/DataModel/Enums/TopoPropertyControlType.md#TopoPropertyControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* OptimizationRegion.MeshDeformationToleranceControl *: [Ansys.Mechanical.DataModel.Enums.TopoPropertyControlType](../../../Mechanical/DataModel/Enums/TopoPropertyControlType.md#TopoPropertyControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MeshDeformationToleranceControl.
 
@@ -225,7 +225,7 @@ Gets or sets the MeshDeformationToleranceControl.
 
 <a id="OptimizationRegion.OptimizationType"></a>
 
-### *property* OptimizationRegion.OptimizationType *: [Ansys.Mechanical.DataModel.Enums.OptimizationType](./../../../Mechanical/DataModel/Enums/OptimizationType.md#OptimizationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* OptimizationRegion.OptimizationType *: [Ansys.Mechanical.DataModel.Enums.OptimizationType](../../../Mechanical/DataModel/Enums/OptimizationType.md#OptimizationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the OptimizationType.
 
@@ -233,7 +233,7 @@ Gets or sets the OptimizationType.
 
 <a id="OptimizationRegion.ShapeMoveLimitControl"></a>
 
-### *property* OptimizationRegion.ShapeMoveLimitControl *: [Ansys.Mechanical.DataModel.Enums.TopoPropertyControlType](./../../../Mechanical/DataModel/Enums/TopoPropertyControlType.md#TopoPropertyControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* OptimizationRegion.ShapeMoveLimitControl *: [Ansys.Mechanical.DataModel.Enums.TopoPropertyControlType](../../../Mechanical/DataModel/Enums/TopoPropertyControlType.md#TopoPropertyControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShapeMoveLimitControl.
 
@@ -249,7 +249,7 @@ Gets or sets the DesignRegionLocation.
 
 <a id="OptimizationRegion.DataModelObjectCategory"></a>
 
-### *property* OptimizationRegion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* OptimizationRegion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -265,7 +265,7 @@ Gets or sets the ExclusionRegionLocation.
 
 <a id="OptimizationRegion.ExclusionScopingMethod"></a>
 
-### *property* OptimizationRegion.ExclusionScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](./../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* OptimizationRegion.ExclusionScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ExclusionScopingMethod.
 
@@ -341,7 +341,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### OptimizationRegion.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### OptimizationRegion.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

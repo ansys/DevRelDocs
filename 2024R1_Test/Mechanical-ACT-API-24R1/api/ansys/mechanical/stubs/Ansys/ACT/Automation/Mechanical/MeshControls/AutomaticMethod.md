@@ -47,7 +47,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`CornerAngle`](#AutomaticMethod.CornerAngle)                                                                          | Gets or sets the CornerAngle.                                                                    |
 | [`DefeatureLayerVolume`](#AutomaticMethod.DefeatureLayerVolume)                                                        | Gets or sets the DefeatureLayerVolume.                                                           |
 | [`ElementMidsideNodes`](#AutomaticMethod.ElementMidsideNodes)                                                          | Gets or sets the ElementMidsideNodes.                                                            |
-| [`ElementOrder`](./../../../../Mechanical/DataModel/Enums/ElementOrder.md#ElementOrder)                                  | Gets or sets the ElementOrder.                                                                   |
+| [`ElementOrder`](../../../../Mechanical/DataModel/Enums/ElementOrder.md#ElementOrder)                                  | Gets or sets the ElementOrder.                                                                   |
 | [`GenerateLayersUsingFacets`](#AutomaticMethod.GenerateLayersUsingFacets)                                              | Gets or sets the GenerateLayersUsingFacets.                                                      |
 | [`InflateRelativeTolerance`](#AutomaticMethod.InflateRelativeTolerance)                                                | Gets or sets the InflateRelativeTolerance.                                                       |
 | [`LayerHeight`](#AutomaticMethod.LayerHeight)                                                                          | Gets or sets the LayerHeight.                                                                    |
@@ -116,7 +116,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`AutomaticNodeMovement`](#AutomaticMethod.AutomaticNodeMovement)                                                      | Gets or sets the AutomaticNodeMovement method under PCTet.                                       |
 | [`MeshFlowControl`](#AutomaticMethod.MeshFlowControl)                                                                  | Gets or sets the MeshFlowControl.                                                                |
 | [`MeshType`](#AutomaticMethod.MeshType)                                                                                | Gets or sets the MeshType.                                                                       |
-| [`TriangleReduction`](./../../../../Mechanical/DataModel/Enums/TriangleReduction.md#TriangleReduction)                   | Gets or sets the TriangleReduction.                                                              |
+| [`TriangleReduction`](../../../../Mechanical/DataModel/Enums/TriangleReduction.md#TriangleReduction)                   | Gets or sets the TriangleReduction.                                                              |
 | [`SolidShellElementForStacker`](#AutomaticMethod.SolidShellElementForStacker)                                          | Gets or sets the SolidShellElementForStacker.                                                    |
 | [`SolidShellElementForStackerScopingMethod`](#AutomaticMethod.SolidShellElementForStackerScopingMethod)                | Gets or sets the SolidShellElementForStackerScopingMethod.                                       |
 | [`StackingAxis`](#AutomaticMethod.StackingAxis)                                                                        | Gets or sets the StackingAxis.                                                                   |
@@ -140,8 +140,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`ReuseBlocking`](#AutomaticMethod.ReuseBlocking)                                                                      | Gets or sets the ReuseBlocking.                                                                  |
 | [`UseSplitAngle`](#AutomaticMethod.UseSplitAngle)                                                                      | Gets or sets the UseSplitAngle in Multizone.                                                     |
 | [`WriteICEMCFDFiles`](#AutomaticMethod.WriteICEMCFDFiles)                                                              | Gets or sets the WriteICEMCFDFiles.                                                              |
-| [`CoordinateSystem`](./../../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                                                               |
-| [`NamedSelection`](./../NamedSelection.md#NamedSelection)                                                                | Gets or sets the NamedSelection.                                                                 |
+| [`CoordinateSystem`](../../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                                                               |
+| [`NamedSelection`](../NamedSelection.md#NamedSelection)                                                                | Gets or sets the NamedSelection.                                                                 |
 | [`ParticleCoordinateSystem`](#AutomaticMethod.ParticleCoordinateSystem)                                                | Gets or sets the ParticleCoordinateSystem.                                                       |
 | [`SolidShellElementForStackerNamedSelection`](#AutomaticMethod.SolidShellElementForStackerNamedSelection)              | Gets or sets the SolidShellElementForStackerNamedSelection.                                      |
 | [`StackerCoordinateSystem`](#AutomaticMethod.StackerCoordinateSystem)                                                  | Gets or sets the StackerCoordinateSystem.                                                        |
@@ -150,7 +150,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`SourceLocation`](#AutomaticMethod.SourceLocation)                                                                    | Gets or sets the SourceLocation.                                                                 |
 | [`SweepEdges`](#AutomaticMethod.SweepEdges)                                                                            | Gets or sets the SweepEdges.                                                                     |
 | [`TargetLocation`](#AutomaticMethod.TargetLocation)                                                                    | Gets or sets the TargetLocation.                                                                 |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                                     |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                                     |
 | [`ScopingMethod`](#AutomaticMethod.ScopingMethod)                                                                      | Gets or sets the ScopingMethod.                                                                  |
 | [`Suppressed`](#AutomaticMethod.Suppressed)                                                                            | Gets or sets the Suppressed.                                                                     |
 | [`Children`](#AutomaticMethod.Children)                                                                                | Gets the list of children.                                                                       |
@@ -215,7 +215,7 @@ Gets or sets the DefeatureLayerVolume.
 
 <a id="AutomaticMethod.ElementMidsideNodes"></a>
 
-### *property* AutomaticMethod.ElementMidsideNodes *: [Ansys.Mechanical.DataModel.Enums.ElementMidsideNodesType](./../../../../Mechanical/DataModel/Enums/ElementMidsideNodesType.md#ElementMidsideNodesType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.ElementMidsideNodes *: [Ansys.Mechanical.DataModel.Enums.ElementMidsideNodesType](../../../../Mechanical/DataModel/Enums/ElementMidsideNodesType.md#ElementMidsideNodesType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ElementMidsideNodes.
 
@@ -223,7 +223,7 @@ Gets or sets the ElementMidsideNodes.
 
 <a id="AutomaticMethod.ElementOrder"></a>
 
-### *property* AutomaticMethod.ElementOrder *: [Ansys.Mechanical.DataModel.Enums.ElementOrder](./../../../../Mechanical/DataModel/Enums/ElementOrder.md#ElementOrder) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.ElementOrder *: [Ansys.Mechanical.DataModel.Enums.ElementOrder](../../../../Mechanical/DataModel/Enums/ElementOrder.md#ElementOrder) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ElementOrder.
 
@@ -271,7 +271,7 @@ Gets or sets the MeshInCenter.
 
 <a id="AutomaticMethod.Method"></a>
 
-### *property* AutomaticMethod.Method *: [Ansys.Mechanical.DataModel.Enums.MethodType](./../../../../Mechanical/DataModel/Enums/MethodType.md#MethodType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.Method *: [Ansys.Mechanical.DataModel.Enums.MethodType](../../../../Mechanical/DataModel/Enums/MethodType.md#MethodType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Method.
 
@@ -719,7 +719,7 @@ Gets or sets the SweepThickness in Multizone.
 
 <a id="AutomaticMethod.KeyPointsSelection"></a>
 
-### *property* AutomaticMethod.KeyPointsSelection *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](./../../../../Mechanical/DataModel/Enums/AutomaticOrManual.md#AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.KeyPointsSelection *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](../../../../Mechanical/DataModel/Enums/AutomaticOrManual.md#AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the KeyPointsSelection.
 
@@ -727,7 +727,7 @@ Gets or sets the KeyPointsSelection.
 
 <a id="AutomaticMethod.FillingDirection"></a>
 
-### *property* AutomaticMethod.FillingDirection *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType](./../../../../Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#CoordinateSystemAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.FillingDirection *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType](../../../../Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#CoordinateSystemAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FillingDirection.
 
@@ -735,7 +735,7 @@ Gets or sets the FillingDirection.
 
 <a id="AutomaticMethod.DefinedBy"></a>
 
-### *property* AutomaticMethod.DefinedBy *: [Ansys.Mechanical.DataModel.Enums.PatchIndependentDefineType](./../../../../Mechanical/DataModel/Enums/PatchIndependentDefineType.md#PatchIndependentDefineType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.DefinedBy *: [Ansys.Mechanical.DataModel.Enums.PatchIndependentDefineType](../../../../Mechanical/DataModel/Enums/PatchIndependentDefineType.md#PatchIndependentDefineType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DefinedBy.
 
@@ -743,7 +743,7 @@ Gets or sets the DefinedBy.
 
 <a id="AutomaticMethod.ElementOption"></a>
 
-### *property* AutomaticMethod.ElementOption *: [Ansys.Mechanical.DataModel.Enums.SweepElementOptionType](./../../../../Mechanical/DataModel/Enums/SweepElementOptionType.md#SweepElementOptionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.ElementOption *: [Ansys.Mechanical.DataModel.Enums.SweepElementOptionType](../../../../Mechanical/DataModel/Enums/SweepElementOptionType.md#SweepElementOptionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ElementOption.
 
@@ -751,7 +751,7 @@ Gets or sets the ElementOption.
 
 <a id="AutomaticMethod.AutomaticNodeMovement"></a>
 
-### *property* AutomaticMethod.AutomaticNodeMovement *: [Ansys.Mechanical.DataModel.Enums.AutomaticNodeMovementMethod](./../../../../Mechanical/DataModel/Enums/AutomaticNodeMovementMethod.md#AutomaticNodeMovementMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.AutomaticNodeMovement *: [Ansys.Mechanical.DataModel.Enums.AutomaticNodeMovementMethod](../../../../Mechanical/DataModel/Enums/AutomaticNodeMovementMethod.md#AutomaticNodeMovementMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AutomaticNodeMovement method under PCTet.
 
@@ -759,7 +759,7 @@ Gets or sets the AutomaticNodeMovement method under PCTet.
 
 <a id="AutomaticMethod.MeshFlowControl"></a>
 
-### *property* AutomaticMethod.MeshFlowControl *: [Ansys.Mechanical.DataModel.Enums.MeshFlowControlMethod](./../../../../Mechanical/DataModel/Enums/MeshFlowControlMethod.md#MeshFlowControlMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.MeshFlowControl *: [Ansys.Mechanical.DataModel.Enums.MeshFlowControlMethod](../../../../Mechanical/DataModel/Enums/MeshFlowControlMethod.md#MeshFlowControlMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MeshFlowControl.
 
@@ -767,7 +767,7 @@ Gets or sets the MeshFlowControl.
 
 <a id="AutomaticMethod.MeshType"></a>
 
-### *property* AutomaticMethod.MeshType *: [Ansys.Mechanical.DataModel.Enums.MethodMeshType](./../../../../Mechanical/DataModel/Enums/MethodMeshType.md#MethodMeshType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.MeshType *: [Ansys.Mechanical.DataModel.Enums.MethodMeshType](../../../../Mechanical/DataModel/Enums/MethodMeshType.md#MethodMeshType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MeshType.
 
@@ -775,7 +775,7 @@ Gets or sets the MeshType.
 
 <a id="AutomaticMethod.TriangleReduction"></a>
 
-### *property* AutomaticMethod.TriangleReduction *: [Ansys.Mechanical.DataModel.Enums.TriangleReduction](./../../../../Mechanical/DataModel/Enums/TriangleReduction.md#TriangleReduction) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.TriangleReduction *: [Ansys.Mechanical.DataModel.Enums.TriangleReduction](../../../../Mechanical/DataModel/Enums/TriangleReduction.md#TriangleReduction) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TriangleReduction.
 
@@ -783,7 +783,7 @@ Gets or sets the TriangleReduction.
 
 <a id="AutomaticMethod.SolidShellElementForStacker"></a>
 
-### *property* AutomaticMethod.SolidShellElementForStacker *: [Ansys.Mechanical.DataModel.Enums.YesNoType](./../../../../Mechanical/DataModel/Enums/YesNoType.md#YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.SolidShellElementForStacker *: [Ansys.Mechanical.DataModel.Enums.YesNoType](../../../../Mechanical/DataModel/Enums/YesNoType.md#YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolidShellElementForStacker.
 
@@ -791,7 +791,7 @@ Gets or sets the SolidShellElementForStacker.
 
 <a id="AutomaticMethod.SolidShellElementForStackerScopingMethod"></a>
 
-### *property* AutomaticMethod.SolidShellElementForStackerScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](./../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.SolidShellElementForStackerScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolidShellElementForStackerScopingMethod.
 
@@ -799,7 +799,7 @@ Gets or sets the SolidShellElementForStackerScopingMethod.
 
 <a id="AutomaticMethod.StackingAxis"></a>
 
-### *property* AutomaticMethod.StackingAxis *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType](./../../../../Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#CoordinateSystemAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.StackingAxis *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType](../../../../Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#CoordinateSystemAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StackingAxis.
 
@@ -807,7 +807,7 @@ Gets or sets the StackingAxis.
 
 <a id="AutomaticMethod.StackerFreeFaceMeshType"></a>
 
-### *property* AutomaticMethod.StackerFreeFaceMeshType *: [Ansys.Mechanical.DataModel.Enums.StackerMethodMeshType](./../../../../Mechanical/DataModel/Enums/StackerMethodMeshType.md#StackerMethodMeshType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.StackerFreeFaceMeshType *: [Ansys.Mechanical.DataModel.Enums.StackerMethodMeshType](../../../../Mechanical/DataModel/Enums/StackerMethodMeshType.md#StackerMethodMeshType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StackerFreeFaceMeshType.
 
@@ -815,7 +815,7 @@ Gets or sets the StackerFreeFaceMeshType.
 
 <a id="AutomaticMethod.StackerTriangleReduction"></a>
 
-### *property* AutomaticMethod.StackerTriangleReduction *: [Ansys.Mechanical.DataModel.Enums.TriangleReduction](./../../../../Mechanical/DataModel/Enums/TriangleReduction.md#TriangleReduction) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.StackerTriangleReduction *: [Ansys.Mechanical.DataModel.Enums.TriangleReduction](../../../../Mechanical/DataModel/Enums/TriangleReduction.md#TriangleReduction) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StackerTriangleReduction.
 
@@ -823,7 +823,7 @@ Gets or sets the StackerTriangleReduction.
 
 <a id="AutomaticMethod.Algorithm"></a>
 
-### *property* AutomaticMethod.Algorithm *: [Ansys.Mechanical.DataModel.Enums.MeshMethodAlgorithm](./../../../../Mechanical/DataModel/Enums/MeshMethodAlgorithm.md#MeshMethodAlgorithm) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.Algorithm *: [Ansys.Mechanical.DataModel.Enums.MeshMethodAlgorithm](../../../../Mechanical/DataModel/Enums/MeshMethodAlgorithm.md#MeshMethodAlgorithm) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Algorithm.
 
@@ -967,7 +967,7 @@ Gets or sets the WriteICEMCFDFiles.
 
 <a id="AutomaticMethod.CoordinateSystem"></a>
 
-### *property* AutomaticMethod.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -975,7 +975,7 @@ Gets or sets the CoordinateSystem.
 
 <a id="AutomaticMethod.NamedSelection"></a>
 
-### *property* AutomaticMethod.NamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](./../NamedSelection.md#NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.NamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../NamedSelection.md#NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelection.
 
@@ -983,7 +983,7 @@ Gets or sets the NamedSelection.
 
 <a id="AutomaticMethod.ParticleCoordinateSystem"></a>
 
-### *property* AutomaticMethod.ParticleCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.ParticleCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ParticleCoordinateSystem.
 
@@ -991,7 +991,7 @@ Gets or sets the ParticleCoordinateSystem.
 
 <a id="AutomaticMethod.SolidShellElementForStackerNamedSelection"></a>
 
-### *property* AutomaticMethod.SolidShellElementForStackerNamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](./../NamedSelection.md#NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.SolidShellElementForStackerNamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../NamedSelection.md#NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolidShellElementForStackerNamedSelection.
 
@@ -999,7 +999,7 @@ Gets or sets the SolidShellElementForStackerNamedSelection.
 
 <a id="AutomaticMethod.StackerCoordinateSystem"></a>
 
-### *property* AutomaticMethod.StackerCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.StackerCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StackerCoordinateSystem.
 
@@ -1047,7 +1047,7 @@ Gets or sets the TargetLocation.
 
 <a id="AutomaticMethod.DataModelObjectCategory"></a>
 
-### *property* AutomaticMethod.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -1055,7 +1055,7 @@ Gets the current DataModelObject’s category.
 
 <a id="AutomaticMethod.ScopingMethod"></a>
 
-### *property* AutomaticMethod.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](./../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -1079,7 +1079,7 @@ Gets the list of children.
 
 <a id="AutomaticMethod.Comments"></a>
 
-### *property* AutomaticMethod.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -1087,7 +1087,7 @@ Gets the list of associated comments.
 
 <a id="AutomaticMethod.Figures"></a>
 
-### *property* AutomaticMethod.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -1095,7 +1095,7 @@ Gets the list of associated figures.
 
 <a id="AutomaticMethod.Images"></a>
 
-### *property* AutomaticMethod.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -1163,7 +1163,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### AutomaticMethod.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### AutomaticMethod.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

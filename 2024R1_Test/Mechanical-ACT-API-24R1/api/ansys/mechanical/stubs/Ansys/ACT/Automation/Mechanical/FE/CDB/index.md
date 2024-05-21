@@ -23,7 +23,7 @@
 | [`EBlockCommand`](EBlockCommand.md#EBlockCommand)                                                       | Represents an EBLOCK command.                                         |
 | [`ENCommand`](ENCommand.md#ENCommand)                                                                   | Represents an EN command.                                             |
 | [`ETCommand`](ETCommand.md#ETCommand)                                                                   | Represents an ET command.                                             |
-| [`GenericCommand`](./../NASTRAN/GenericCommand.md#GenericCommand)                                         | Represents a generic command.                                         |
+| [`GenericCommand`](../NASTRAN/GenericCommand.md#GenericCommand)                                         | Represents a generic command.                                         |
 | [`LocalCommand`](LocalCommand.md#LocalCommand)                                                          | Represents a LOCAL command.                                           |
 | [`MPCommand`](MPCommand.md#MPCommand)                                                                   | Represents a MP command.                                              |
 | [`MPDataCommand`](MPDataCommand.md#MPDataCommand)                                                       | Represents a MPDATA command.                                          |

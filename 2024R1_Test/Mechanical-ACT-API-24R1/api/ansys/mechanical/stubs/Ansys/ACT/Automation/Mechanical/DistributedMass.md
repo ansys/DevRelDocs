@@ -46,7 +46,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`TotalMass`](#DistributedMass.TotalMass)                                                                           | Gets or sets the TotalMass.                                   |
 | [`MassType`](#DistributedMass.MassType)                                                                             | Gets or sets the MassType.                                    |
 | [`Suppressed`](#DistributedMass.Suppressed)                                                                         | Gets or sets the Suppressed.                                  |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`RemotePoint`](RemotePoint.md#RemotePoint)                                                                         | Gets the remote point associated to the point mass.           |
 | [`IsDistributedMass`](#DistributedMass.IsDistributedMass)                                                           | Gets the IsDistributedMass.                                   |
 | [`Location`](#DistributedMass.Location)                                                                             | Gets or sets the Geometry.                                    |
@@ -105,7 +105,7 @@ Gets or sets the TotalMass.
 
 <a id="DistributedMass.MassType"></a>
 
-### *property* DistributedMass.MassType *: [Ansys.Mechanical.DataModel.Enums.DistributedMassInputType](./../../../Mechanical/DataModel/Enums/DistributedMassInputType.md#DistributedMassInputType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DistributedMass.MassType *: [Ansys.Mechanical.DataModel.Enums.DistributedMassInputType](../../../Mechanical/DataModel/Enums/DistributedMassInputType.md#DistributedMassInputType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MassType.
 
@@ -121,7 +121,7 @@ Gets or sets the Suppressed.
 
 <a id="DistributedMass.DataModelObjectCategory"></a>
 
-### *property* DistributedMass.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DistributedMass.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -245,7 +245,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### DistributedMass.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### DistributedMass.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

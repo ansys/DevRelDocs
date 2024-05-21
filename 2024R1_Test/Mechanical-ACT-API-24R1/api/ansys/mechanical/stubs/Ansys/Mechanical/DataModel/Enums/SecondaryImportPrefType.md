@@ -19,8 +19,8 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 | Name |
 | -------------------------------------------------------------------- |
 | [`None_`](#SecondaryImportPrefType.None_) |
-| [`Solid`](./../../../ACT/Automation/Mechanical/Solid.md#Solid) |
-| [`Surface`](./../../../ACT/Automation/Mechanical/Surface.md#Surface) |
+| [`Solid`](../../../ACT/Automation/Mechanical/Solid.md#Solid) |
+| [`Surface`](../../../ACT/Automation/Mechanical/Surface.md#Surface) |
 | [`Line`](#SecondaryImportPrefType.Line) |
 | [`SolidAndSurface`](#SecondaryImportPrefType.SolidAndSurface) |
 | [`SurfaceAndLine`](#SecondaryImportPrefType.SurfaceAndLine) |

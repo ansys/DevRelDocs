@@ -42,9 +42,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`PressureAmplitude`](#AcousticIncidentWaveSource.PressureAmplitude)                                                   | Gets or sets the PressureAmplitude.                           |
 | [`VelocityAmplitude`](#AcousticIncidentWaveSource.VelocityAmplitude)                                                   | Gets or sets the VelocityAmplitude.                           |
-| [`MaterialAssignment`](./../MaterialAssignment.md#MaterialAssignment)                                                    | Gets or sets the Material.                                    |
+| [`MaterialAssignment`](../MaterialAssignment.md#MaterialAssignment)                                                    | Gets or sets the Material.                                    |
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.            |
-| [`Material`](./../Material.md#Material)                                                                                  | Gets or sets the Material.                                    |
+| [`Material`](../Material.md#Material)                                                                                  | Gets or sets the Material.                                    |
 | [`WaveNumber`](#AcousticIncidentWaveSource.WaveNumber)                                                                 | Gets the WaveNumber.                                          |
 | [`XComponentOfUnitDipoleVector`](#AcousticIncidentWaveSource.XComponentOfUnitDipoleVector)                             | Gets or sets the XComponentOfUnitDipoleVector.                |
 | [`YComponentOfUnitDipoleVector`](#AcousticIncidentWaveSource.YComponentOfUnitDipoleVector)                             | Gets or sets the YComponentOfUnitDipoleVector.                |
@@ -59,12 +59,12 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`PhaseAngle`](#AcousticIncidentWaveSource.PhaseAngle)                                                                 | Gets or sets the PhaseAngle.                                  |
 | [`RadiusOfPulsatingSphere`](#AcousticIncidentWaveSource.RadiusOfPulsatingSphere)                                       | Gets or sets the RadiusOfPulsatingSphere.                     |
 | [`SpeedOfSound`](#AcousticIncidentWaveSource.SpeedOfSound)                                                             | Gets or sets the SpeedOfSound.                                |
-| [`IncidentWaveLocation`](./../../../../Mechanical/DataModel/Enums/IncidentWaveLocation.md#IncidentWaveLocation)          | Gets or sets the IncidentWaveLocation.                        |
-| [`ExcitationType`](./../../../../Mechanical/DataModel/Enums/ExcitationType.md#ExcitationType)                            | Gets or sets the ExcitationType.                              |
-| [`WaveType`](./../../../../Mechanical/DataModel/Enums/WaveType.md#WaveType)                                              | Gets or sets the WaveType.                                    |
+| [`IncidentWaveLocation`](../../../../Mechanical/DataModel/Enums/IncidentWaveLocation.md#IncidentWaveLocation)          | Gets or sets the IncidentWaveLocation.                        |
+| [`ExcitationType`](../../../../Mechanical/DataModel/Enums/ExcitationType.md#ExcitationType)                            | Gets or sets the ExcitationType.                              |
+| [`WaveType`](../../../../Mechanical/DataModel/Enums/WaveType.md#WaveType)                                              | Gets or sets the WaveType.                                    |
 | [`CalculateIncidentPower`](#AcousticIncidentWaveSource.CalculateIncidentPower)                                         | Gets or sets the CalculateIncidentPower.                      |
 | [`PortSelection`](#AcousticIncidentWaveSource.PortSelection)                                                           | Gets or sets the PortSelection.                               |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Suppressed`](#AcousticIncidentWaveSource.Suppressed)                                                                 | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#AcousticIncidentWaveSource.SharedRefBody)                                                           | Gets or sets the SharedRefBody.                               |
 | [`Children`](#AcousticIncidentWaveSource.Children)                                                                     | Gets the list of children.                                    |
@@ -242,7 +242,7 @@ Gets or sets the SpeedOfSound.
 
 <a id="AcousticIncidentWaveSource.IncidentWaveLocation"></a>
 
-### *property* AcousticIncidentWaveSource.IncidentWaveLocation *: [Ansys.Mechanical.DataModel.Enums.IncidentWaveLocation](./../../../../Mechanical/DataModel/Enums/IncidentWaveLocation.md#IncidentWaveLocation) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticIncidentWaveSource.IncidentWaveLocation *: [Ansys.Mechanical.DataModel.Enums.IncidentWaveLocation](../../../../Mechanical/DataModel/Enums/IncidentWaveLocation.md#IncidentWaveLocation) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IncidentWaveLocation.
 
@@ -250,7 +250,7 @@ Gets or sets the IncidentWaveLocation.
 
 <a id="AcousticIncidentWaveSource.ExcitationType"></a>
 
-### *property* AcousticIncidentWaveSource.ExcitationType *: [Ansys.Mechanical.DataModel.Enums.ExcitationType](./../../../../Mechanical/DataModel/Enums/ExcitationType.md#ExcitationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticIncidentWaveSource.ExcitationType *: [Ansys.Mechanical.DataModel.Enums.ExcitationType](../../../../Mechanical/DataModel/Enums/ExcitationType.md#ExcitationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ExcitationType.
 
@@ -258,7 +258,7 @@ Gets or sets the ExcitationType.
 
 <a id="AcousticIncidentWaveSource.WaveType"></a>
 
-### *property* AcousticIncidentWaveSource.WaveType *: [Ansys.Mechanical.DataModel.Enums.WaveType](./../../../../Mechanical/DataModel/Enums/WaveType.md#WaveType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticIncidentWaveSource.WaveType *: [Ansys.Mechanical.DataModel.Enums.WaveType](../../../../Mechanical/DataModel/Enums/WaveType.md#WaveType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the WaveType.
 
@@ -282,7 +282,7 @@ Gets or sets the PortSelection.
 
 <a id="AcousticIncidentWaveSource.DataModelObjectCategory"></a>
 
-### *property* AcousticIncidentWaveSource.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticIncidentWaveSource.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -298,7 +298,7 @@ Gets or sets the Suppressed.
 
 <a id="AcousticIncidentWaveSource.SharedRefBody"></a>
 
-### *property* AcousticIncidentWaveSource.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](./../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticIncidentWaveSource.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -314,7 +314,7 @@ Gets the list of children.
 
 <a id="AcousticIncidentWaveSource.Comments"></a>
 
-### *property* AcousticIncidentWaveSource.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticIncidentWaveSource.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -322,7 +322,7 @@ Gets the list of associated comments.
 
 <a id="AcousticIncidentWaveSource.Figures"></a>
 
-### *property* AcousticIncidentWaveSource.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticIncidentWaveSource.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -330,7 +330,7 @@ Gets the list of associated figures.
 
 <a id="AcousticIncidentWaveSource.Images"></a>
 
-### *property* AcousticIncidentWaveSource.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticIncidentWaveSource.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -398,7 +398,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### AcousticIncidentWaveSource.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### AcousticIncidentWaveSource.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

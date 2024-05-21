@@ -23,7 +23,7 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 | [`MixableDensity`](#OptimizationType.MixableDensity) |
 | [`Shape`](#OptimizationType.Shape) |
 | [`Topography`](#OptimizationType.Topography) |
-| [`TopologyDensity`](./../../../ACT/Automation/Mechanical/Results/TopologyDensity.md#TopologyDensity) |
+| [`TopologyDensity`](../../../ACT/Automation/Mechanical/Results/TopologyDensity.md#TopologyDensity) |
 
 <a id="import-detail"></a>
 

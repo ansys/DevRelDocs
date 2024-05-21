@@ -51,7 +51,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                           |
 | [`PlotData`](#ShapeFinderElemental.PlotData)                                                                           | Gets the result table.                                                 |
 | [`Location`](#ShapeFinderElemental.Location)                                                                           | Gets or sets the Location.                                             |
 | [`TimeForMinimumOfMinimumValues`](#ShapeFinderElemental.TimeForMinimumOfMinimumValues)                                 | Get the Time for the minimum of minimum values.                        |
@@ -63,14 +63,14 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`LoadStepForMaximumOfMinimumValues`](#ShapeFinderElemental.LoadStepForMaximumOfMinimumValues)                         | Get the Load Step for the maximum of minimum values.                   |
 | [`LoadStepForMaximumOfMaximumValues`](#ShapeFinderElemental.LoadStepForMaximumOfMaximumValues)                         | Get the Load Step for the maximum of maximum values.                   |
 | [`IsSolved`](#ShapeFinderElemental.IsSolved)                                                                           | Gets the IsSolved.                                                     |
-| [`CoordinateSystem`](./../../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the Coordinate System.                                    |
+| [`CoordinateSystem`](../../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the Coordinate System.                                    |
 | [`ScopingMethod`](#ShapeFinderElemental.ScopingMethod)                                                                 | Gets or sets the ScopingMethod.                                        |
 | [`SetNumber`](#ShapeFinderElemental.SetNumber)                                                                         | Gets or sets the Set Number.                                           |
 | [`CombinationNumber`](#ShapeFinderElemental.CombinationNumber)                                                         | Gets or sets the Combination Number for a Solution Combination result. |
 | [`SolutionCombinationDriver`](#ShapeFinderElemental.SolutionCombinationDriver)                                         | Gets or sets the SolutionCombinationDriver.                            |
-| [`Path`](./../Path.md#Path)                                                                                              | Path property.                                                         |
-| [`Surface`](./../Surface.md#Surface)                                                                                     | Surface property.                                                      |
-| [`NamedSelections`](./../NamedSelections.md#NamedSelections)                                                             | Gets or sets the NamedSelections.                                      |
+| [`Path`](../Path.md#Path)                                                                                              | Path property.                                                         |
+| [`Surface`](../Surface.md#Surface)                                                                                     | Surface property.                                                      |
+| [`NamedSelections`](../NamedSelections.md#NamedSelections)                                                             | Gets or sets the NamedSelections.                                      |
 | [`WaterfallPanelShowTextOnMosaic`](#ShapeFinderElemental.WaterfallPanelShowTextOnMosaic)                               | Gets or sets the Waterfall Panel Mosaic Text Property.                 |
 | [`CrackFrontNumber`](#ShapeFinderElemental.CrackFrontNumber)                                                           | Gets or sets the CrackFrontNumber.                                     |
 | [`GlobalIDs`](#ShapeFinderElemental.GlobalIDs)                                                                         | Gets or sets the GlobalIDs.                                            |
@@ -91,7 +91,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`MinimumOfMinimumOverTime`](#ShapeFinderElemental.MinimumOfMinimumOverTime)                                           | Gets the MinimumOfMinimumOverTime.                                     |
 | [`Time`](#ShapeFinderElemental.Time)                                                                                   | Gets the Time.                                                         |
 | [`DisplayTime`](#ShapeFinderElemental.DisplayTime)                                                                     | Gets or sets the DisplayTime.                                          |
-| [`GraphControlsXAxis`](./../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#GraphControlsXAxis)                | Gets or sets the GraphControlsXAxis.                                   |
+| [`GraphControlsXAxis`](../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#GraphControlsXAxis)                | Gets or sets the GraphControlsXAxis.                                   |
 | [`DisplayOption`](#ShapeFinderElemental.DisplayOption)                                                                 | Gets or sets the DisplayOption.                                        |
 | [`DpfEvaluation`](#ShapeFinderElemental.DpfEvaluation)                                                                 | Gets or sets the DpfEvaluation.                                        |
 | [`By`](#ShapeFinderElemental.By)                                                                                       | Gets or sets the By.                                                   |
@@ -128,7 +128,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ShapeFinderElemental.DataModelObjectCategory"></a>
 
-### *property* ShapeFinderElemental.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShapeFinderElemental.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -136,7 +136,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ShapeFinderElemental.PlotData"></a>
 
-### *property* ShapeFinderElemental.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](./../../../../Mechanical/DataModel/Results/ResultDataTable.md#ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShapeFinderElemental.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../Mechanical/DataModel/Results/ResultDataTable.md#ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the result table.
 
@@ -224,7 +224,7 @@ Gets the IsSolved.
 
 <a id="ShapeFinderElemental.CoordinateSystem"></a>
 
-### *property* ShapeFinderElemental.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShapeFinderElemental.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -234,7 +234,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="ShapeFinderElemental.ScopingMethod"></a>
 
-### *property* ShapeFinderElemental.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](./../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShapeFinderElemental.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -258,7 +258,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="ShapeFinderElemental.SolutionCombinationDriver"></a>
 
-### *property* ShapeFinderElemental.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](./../../../../Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShapeFinderElemental.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolutionCombinationDriver.
 
@@ -266,7 +266,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="ShapeFinderElemental.Path"></a>
 
-### *property* ShapeFinderElemental.Path *: [Ansys.ACT.Automation.Mechanical.Path](./../Path.md#Path) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShapeFinderElemental.Path *: [Ansys.ACT.Automation.Mechanical.Path](../Path.md#Path) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Path property.
 
@@ -274,7 +274,7 @@ Path property.
 
 <a id="ShapeFinderElemental.Surface"></a>
 
-### *property* ShapeFinderElemental.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](./../Surface.md#Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShapeFinderElemental.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../Surface.md#Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Surface property.
 
@@ -450,7 +450,7 @@ Gets or sets the DisplayTime.
 
 <a id="ShapeFinderElemental.GraphControlsXAxis"></a>
 
-### *property* ShapeFinderElemental.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](./../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShapeFinderElemental.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GraphControlsXAxis.
 
@@ -458,7 +458,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="ShapeFinderElemental.DisplayOption"></a>
 
-### *property* ShapeFinderElemental.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](./../../../../Mechanical/DataModel/Enums/ResultAveragingType.md#ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShapeFinderElemental.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../Mechanical/DataModel/Enums/ResultAveragingType.md#ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DisplayOption.
 
@@ -466,7 +466,7 @@ Gets or sets the DisplayOption.
 
 <a id="ShapeFinderElemental.DpfEvaluation"></a>
 
-### *property* ShapeFinderElemental.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](./../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShapeFinderElemental.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DpfEvaluation.
 
@@ -474,7 +474,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="ShapeFinderElemental.By"></a>
 
-### *property* ShapeFinderElemental.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](./../../../../Mechanical/DataModel/Enums/SetDriverStyle.md#SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShapeFinderElemental.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../Mechanical/DataModel/Enums/SetDriverStyle.md#SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the By.
 
@@ -482,7 +482,7 @@ Gets or sets the By.
 
 <a id="ShapeFinderElemental.ItemType"></a>
 
-### *property* ShapeFinderElemental.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](./../../../../Mechanical/DataModel/Enums/ResultFileItemType.md#ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShapeFinderElemental.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../Mechanical/DataModel/Enums/ResultFileItemType.md#ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ItemType.
 
@@ -514,7 +514,7 @@ Gets the list of children.
 
 <a id="ShapeFinderElemental.Comments"></a>
 
-### *property* ShapeFinderElemental.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShapeFinderElemental.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -522,7 +522,7 @@ Gets the list of associated comments.
 
 <a id="ShapeFinderElemental.Figures"></a>
 
-### *property* ShapeFinderElemental.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShapeFinderElemental.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -530,7 +530,7 @@ Gets the list of associated figures.
 
 <a id="ShapeFinderElemental.Images"></a>
 
-### *property* ShapeFinderElemental.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShapeFinderElemental.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -598,7 +598,7 @@ Run the ExportToTextFile action.
 
 <a id="ShapeFinderElemental.ExportAnimation"></a>
 
-### ShapeFinderElemental.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](./../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](./../../../../Mechanical/Graphics/AnimationExportSettings.md#AnimationExportSettings))
+### ShapeFinderElemental.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../Mechanical/Graphics/AnimationExportSettings.md#AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -678,7 +678,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### ShapeFinderElemental.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### ShapeFinderElemental.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

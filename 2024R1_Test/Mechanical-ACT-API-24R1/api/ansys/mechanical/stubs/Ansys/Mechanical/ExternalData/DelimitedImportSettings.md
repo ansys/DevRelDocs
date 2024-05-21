@@ -16,22 +16,22 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------|-------------------------------------------------------|
-| [`Clear`](./../Table/DelimitedImportSettings.md#DelimitedImportSettings.Clear)                 |                                                       |
-| [`GetEnumerator`](./../Table/DelimitedImportSettings.md#DelimitedImportSettings.GetEnumerator) |                                                       |
-| [`RemoveAt`](./../Table/DelimitedImportSettings.md#DelimitedImportSettings.RemoveAt)           | Removes the import definition at the specified index. |
-| [`UseColumn`](./../Table/DelimitedImportSettings.md#DelimitedImportSettings.UseColumn)         |                                                       |
+| [`Clear`](../Table/DelimitedImportSettings.md#DelimitedImportSettings.Clear)                 |                                                       |
+| [`GetEnumerator`](../Table/DelimitedImportSettings.md#DelimitedImportSettings.GetEnumerator) |                                                       |
+| [`RemoveAt`](../Table/DelimitedImportSettings.md#DelimitedImportSettings.RemoveAt)           | Removes the import definition at the specified index. |
+| [`UseColumn`](../Table/DelimitedImportSettings.md#DelimitedImportSettings.UseColumn)         |                                                       |
 
 ### Properties
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| [`Delimiter`](./../Table/DelimitedImportSettings.md#DelimitedImportSettings.Delimiter)            | The delimiter used to separate columns.                                              |
+| [`Delimiter`](../Table/DelimitedImportSettings.md#DelimitedImportSettings.Delimiter)            | The delimiter used to separate columns.                                              |
 | [`AverageCornerNodesToMidsideNodes`](#DelimitedImportSettings.AverageCornerNodesToMidsideNodes) |                                                                                      |
-| [`Count`](./../Table/DelimitedImportSettings.md#DelimitedImportSettings.Count)                    | Gets the number of column definitions.                                               |
-| [`Item`](./../Table/DelimitedImportSettings.md#DelimitedImportSettings.Item)                      | Item property.                                                                       |
-| [`SkipFooter`](./../Table/DelimitedImportSettings.md#DelimitedImportSettings.SkipFooter)          | Gets or sets the number of rows to ignore at the end of the file during import.      |
-| [`SkipRows`](./../Table/DelimitedImportSettings.md#DelimitedImportSettings.SkipRows)              | Gets or sets the number of rows to skip over at the start of the file during import. |
-| [`Format`](./../DataModel/Enums/GeometryImportPreference/Format.md#Format)                        | Gets the existing corresponding format.                                              |
+| [`Count`](../Table/DelimitedImportSettings.md#DelimitedImportSettings.Count)                    | Gets the number of column definitions.                                               |
+| [`Item`](../Table/DelimitedImportSettings.md#DelimitedImportSettings.Item)                      | Item property.                                                                       |
+| [`SkipFooter`](../Table/DelimitedImportSettings.md#DelimitedImportSettings.SkipFooter)          | Gets or sets the number of rows to ignore at the end of the file during import.      |
+| [`SkipRows`](../Table/DelimitedImportSettings.md#DelimitedImportSettings.SkipRows)              | Gets or sets the number of rows to skip over at the start of the file during import. |
+| [`Format`](../DataModel/Enums/GeometryImportPreference/Format.md#Format)                        | Gets the existing corresponding format.                                              |
 
 <a id="import-detail"></a>
 
@@ -93,7 +93,7 @@ Gets or sets the number of rows to skip over at the start of the file during imp
 
 <a id="DelimitedImportSettings.Format"></a>
 
-### *property* DelimitedImportSettings.Format *: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat](./../DataModel/MechanicalEnums/ExternalData/ImportFormat.md#ImportFormat) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DelimitedImportSettings.Format *: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat](../DataModel/MechanicalEnums/ExternalData/ImportFormat.md#ImportFormat) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the existing corresponding format.
 
@@ -121,6 +121,6 @@ Removes the import definition at the specified index.
 
 <a id="DelimitedImportSettings.UseColumn"></a>
 
-### DelimitedImportSettings.UseColumn(index: System.Int32, variableType: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.VariableType](./../DataModel/MechanicalEnums/ExternalData/VariableType.md#VariableType), unit: System.String, name: System.String)
+### DelimitedImportSettings.UseColumn(index: System.Int32, variableType: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.VariableType](../DataModel/MechanicalEnums/ExternalData/VariableType.md#VariableType), unit: System.String, name: System.String)
 
 <!-- !! processed by numpydoc !! -->

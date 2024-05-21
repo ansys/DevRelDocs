@@ -34,7 +34,7 @@ from ansys.mechanical.stubs.Ansys.Mechanical.Graphics import Graphics3DExportSet
 
 <a id="Graphics3DExportSettings.Background"></a>
 
-### *property* Graphics3DExportSettings.Background *: [Ansys.Mechanical.DataModel.Enums.GraphicsBackgroundType](./../DataModel/Enums/GraphicsBackgroundType.md#GraphicsBackgroundType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Graphics3DExportSettings.Background *: [Ansys.Mechanical.DataModel.Enums.GraphicsBackgroundType](../DataModel/Enums/GraphicsBackgroundType.md#GraphicsBackgroundType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Specifies the background color.
 

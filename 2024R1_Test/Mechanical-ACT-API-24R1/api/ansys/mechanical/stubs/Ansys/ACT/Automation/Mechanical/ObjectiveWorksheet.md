@@ -119,7 +119,7 @@ Gets the Objective Type property at index.
 
 <a id="ObjectiveWorksheet.SetObjectiveType"></a>
 
-### ObjectiveWorksheet.SetObjectiveType(index: System.Int32, value: [Ansys.Mechanical.DataModel.Enums.ObjectiveType](./../../../Mechanical/DataModel/Enums/ObjectiveType.md#ObjectiveType))
+### ObjectiveWorksheet.SetObjectiveType(index: System.Int32, value: [Ansys.Mechanical.DataModel.Enums.ObjectiveType](../../../Mechanical/DataModel/Enums/ObjectiveType.md#ObjectiveType))
 
 Sets the ObjectiveType property at index.
 
@@ -135,7 +135,7 @@ Gets the worksheet Formulation property at index.
 
 <a id="ObjectiveWorksheet.SetFormulation"></a>
 
-### ObjectiveWorksheet.SetFormulation(index: System.Int32, value: [Ansys.Mechanical.DataModel.Enums.TopoObjectiveFormulation](./../../../Mechanical/DataModel/Enums/TopoObjectiveFormulation.md#TopoObjectiveFormulation))
+### ObjectiveWorksheet.SetFormulation(index: System.Int32, value: [Ansys.Mechanical.DataModel.Enums.TopoObjectiveFormulation](../../../Mechanical/DataModel/Enums/TopoObjectiveFormulation.md#TopoObjectiveFormulation))
 
 Sets the worksheet Formulation property at index.
 

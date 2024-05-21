@@ -39,7 +39,7 @@ from ansys.mechanical.stubs.Ansys.ACT.Common import SimpleTransform
 
 <a id="SimpleTransform.TransformationMatrix"></a>
 
-### *property* SimpleTransform.TransformationMatrix *: [Ansys.Mechanical.DataModel.Utilities.RigidBodyTransformationMatrix](./../../Mechanical/DataModel/Utilities/RigidBodyTransformationMatrix.md#RigidBodyTransformationMatrix) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SimpleTransform.TransformationMatrix *: [Ansys.Mechanical.DataModel.Utilities.RigidBodyTransformationMatrix](../../Mechanical/DataModel/Utilities/RigidBodyTransformationMatrix.md#RigidBodyTransformationMatrix) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 TransformationMatrix property.
 

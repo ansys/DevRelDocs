@@ -40,9 +40,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`MaterialAssignment`](./../MaterialAssignment.md#MaterialAssignment)                                                                            | Gets or sets the Material.                                    |
+| [`MaterialAssignment`](../MaterialAssignment.md#MaterialAssignment)                                                                            | Gets or sets the Material.                                    |
 | [`InternalObject`](#id0)                                                                                                                       | Gets the internal object. For advanced usage only.            |
-| [`Material`](./../Material.md#Material)                                                                                                          | Gets or sets the Material.                                    |
+| [`Material`](../Material.md#Material)                                                                                                          | Gets or sets the Material.                                    |
 | [`FrequencyOfNormConvergenceCheck`](#AcousticDiffuseSoundField.FrequencyOfNormConvergenceCheck)                                                | Gets or sets the FrequencyOfNormConvergenceCheck.             |
 | [`NumberOfDivisionsOnReferenceSphere`](#AcousticDiffuseSoundField.NumberOfDivisionsOnReferenceSphere)                                          | Gets or sets the NumberOfDivisionsOnReferenceSphere.          |
 | [`NumberOfRandomSampling`](#AcousticDiffuseSoundField.NumberOfRandomSampling)                                                                  | Gets or sets the NumberOfRandomSampling.                      |
@@ -52,12 +52,12 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`RadiusOfReferenceSphere`](#AcousticDiffuseSoundField.RadiusOfReferenceSphere)                                                                | Gets or sets the RadiusOfReferenceSphere.                     |
 | [`ReferencePowerSpectralDensity`](#AcousticDiffuseSoundField.ReferencePowerSpectralDensity)                                                    | Gets or sets the ReferencePowerSpectralDensity.               |
 | [`SpeedOfSound`](#AcousticDiffuseSoundField.SpeedOfSound)                                                                                      | Gets the SpeedOfSound.                                        |
-| [`RadiusOfReferenceSphereDefineBy`](./../../../../Mechanical/DataModel/Enums/RadiusOfReferenceSphereDefineBy.md#RadiusOfReferenceSphereDefineBy) | Gets or sets the RadiusOfReferenceSphereDefineBy.             |
-| [`RandomSamplingType`](./../../../../Mechanical/DataModel/Enums/RandomSamplingType.md#RandomSamplingType)                                        | Gets or sets the RandomSamplingType.                          |
+| [`RadiusOfReferenceSphereDefineBy`](../../../../Mechanical/DataModel/Enums/RadiusOfReferenceSphereDefineBy.md#RadiusOfReferenceSphereDefineBy) | Gets or sets the RadiusOfReferenceSphereDefineBy.             |
+| [`RandomSamplingType`](../../../../Mechanical/DataModel/Enums/RandomSamplingType.md#RandomSamplingType)                                        | Gets or sets the RandomSamplingType.                          |
 | [`PressureExcitation`](#AcousticDiffuseSoundField.PressureExcitation)                                                                          | Gets the PressureExcitation.                                  |
-| [`CoordinateSystem`](./../../../Common/CoordinateSystem.md#CoordinateSystem)                                                                     | Gets or sets the CoordinateSystem.                            |
+| [`CoordinateSystem`](../../../Common/CoordinateSystem.md#CoordinateSystem)                                                                     | Gets or sets the CoordinateSystem.                            |
 | [`Location`](#AcousticDiffuseSoundField.Location)                                                                                              | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory)                         | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory)                         | Gets the current DataModelObject’s category.                  |
 | [`Suppressed`](#AcousticDiffuseSoundField.Suppressed)                                                                                          | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#AcousticDiffuseSoundField.SharedRefBody)                                                                                    | Gets or sets the SharedRefBody.                               |
 | [`Children`](#AcousticDiffuseSoundField.Children)                                                                                              | Gets the list of children.                                    |
@@ -179,7 +179,7 @@ Gets the SpeedOfSound.
 
 <a id="AcousticDiffuseSoundField.RadiusOfReferenceSphereDefineBy"></a>
 
-### *property* AcousticDiffuseSoundField.RadiusOfReferenceSphereDefineBy *: [Ansys.Mechanical.DataModel.Enums.RadiusOfReferenceSphereDefineBy](./../../../../Mechanical/DataModel/Enums/RadiusOfReferenceSphereDefineBy.md#RadiusOfReferenceSphereDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundField.RadiusOfReferenceSphereDefineBy *: [Ansys.Mechanical.DataModel.Enums.RadiusOfReferenceSphereDefineBy](../../../../Mechanical/DataModel/Enums/RadiusOfReferenceSphereDefineBy.md#RadiusOfReferenceSphereDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RadiusOfReferenceSphereDefineBy.
 
@@ -187,7 +187,7 @@ Gets or sets the RadiusOfReferenceSphereDefineBy.
 
 <a id="AcousticDiffuseSoundField.RandomSamplingType"></a>
 
-### *property* AcousticDiffuseSoundField.RandomSamplingType *: [Ansys.Mechanical.DataModel.Enums.RandomSamplingType](./../../../../Mechanical/DataModel/Enums/RandomSamplingType.md#RandomSamplingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundField.RandomSamplingType *: [Ansys.Mechanical.DataModel.Enums.RandomSamplingType](../../../../Mechanical/DataModel/Enums/RandomSamplingType.md#RandomSamplingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RandomSamplingType.
 
@@ -203,7 +203,7 @@ Gets the PressureExcitation.
 
 <a id="AcousticDiffuseSoundField.CoordinateSystem"></a>
 
-### *property* AcousticDiffuseSoundField.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundField.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -219,7 +219,7 @@ Gets or sets the Location.
 
 <a id="AcousticDiffuseSoundField.DataModelObjectCategory"></a>
 
-### *property* AcousticDiffuseSoundField.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundField.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -235,7 +235,7 @@ Gets or sets the Suppressed.
 
 <a id="AcousticDiffuseSoundField.SharedRefBody"></a>
 
-### *property* AcousticDiffuseSoundField.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](./../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundField.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -251,7 +251,7 @@ Gets the list of children.
 
 <a id="AcousticDiffuseSoundField.Comments"></a>
 
-### *property* AcousticDiffuseSoundField.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundField.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -259,7 +259,7 @@ Gets the list of associated comments.
 
 <a id="AcousticDiffuseSoundField.Figures"></a>
 
-### *property* AcousticDiffuseSoundField.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundField.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -267,7 +267,7 @@ Gets the list of associated figures.
 
 <a id="AcousticDiffuseSoundField.Images"></a>
 
-### *property* AcousticDiffuseSoundField.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundField.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -335,7 +335,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### AcousticDiffuseSoundField.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### AcousticDiffuseSoundField.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

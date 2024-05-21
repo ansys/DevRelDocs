@@ -46,7 +46,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                                                  | Gets the internal object. For advanced usage only.                                                                                                                         |
-| [`EquivalentStress`](./../StressResults/EquivalentStress.md#EquivalentStress)                                               | Gets the EquivalentStress.                                                                                                                                                 |
+| [`EquivalentStress`](../StressResults/EquivalentStress.md#EquivalentStress)                                               | Gets the EquivalentStress.                                                                                                                                                 |
 | [`XCoordinate`](#StressProbe.XCoordinate)                                                                                 | Gets the XCoordinate.                                                                                                                                                      |
 | [`YCoordinate`](#StressProbe.YCoordinate)                                                                                 | Gets the YCoordinate.                                                                                                                                                      |
 | [`ZCoordinate`](#StressProbe.ZCoordinate)                                                                                 | Gets the ZCoordinate.                                                                                                                                                      |
@@ -57,12 +57,12 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`MaximumNormalXAxisStress`](#StressProbe.MaximumNormalXAxisStress)                                                       | Gets the MaximumNormalXAxisStress.                                                                                                                                         |
 | [`MaximumNormalYAxisStress`](#StressProbe.MaximumNormalYAxisStress)                                                       | Gets the MaximumNormalYAxisStress.                                                                                                                                         |
 | [`MaximumNormalZAxisStress`](#StressProbe.MaximumNormalZAxisStress)                                                       | Gets the MaximumNormalZAxisStress.                                                                                                                                         |
-| [`MaximumPrincipalStress`](./../StressResults/MaximumPrincipalStress.md#MaximumPrincipalStress)                             | Gets the MaximumPrincipalStress.                                                                                                                                           |
+| [`MaximumPrincipalStress`](../StressResults/MaximumPrincipalStress.md#MaximumPrincipalStress)                             | Gets the MaximumPrincipalStress.                                                                                                                                           |
 | [`MaximumXYShearStress`](#StressProbe.MaximumXYShearStress)                                                               | Gets the MaximumXYShearStress.                                                                                                                                             |
 | [`MaximumXZShearStress`](#StressProbe.MaximumXZShearStress)                                                               | Gets the MaximumXZShearStress.                                                                                                                                             |
 | [`MaximumYZShearStress`](#StressProbe.MaximumYZShearStress)                                                               | Gets the MaximumYZShearStress.                                                                                                                                             |
 | [`MaximumStressIntensity`](#StressProbe.MaximumStressIntensity)                                                           | Gets the MaximumStressIntensity.                                                                                                                                           |
-| [`MiddlePrincipalStress`](./../StressResults/MiddlePrincipalStress.md#MiddlePrincipalStress)                                | Gets the MiddlePrincipalStress.                                                                                                                                            |
+| [`MiddlePrincipalStress`](../StressResults/MiddlePrincipalStress.md#MiddlePrincipalStress)                                | Gets the MiddlePrincipalStress.                                                                                                                                            |
 | [`MinimumEquivalentStress`](#StressProbe.MinimumEquivalentStress)                                                         | Gets the MinimumEquivalentStress.                                                                                                                                          |
 | [`MinimumMaximumPrincipalStress`](#StressProbe.MinimumMaximumPrincipalStress)                                             | Gets the MinimumMaximumPrincipalStress.                                                                                                                                    |
 | [`MinimumMiddlePrincipalStress`](#StressProbe.MinimumMiddlePrincipalStress)                                               | Gets the MinimumMiddlePrincipalStress.                                                                                                                                     |
@@ -70,7 +70,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`MinimumNormalXAxisStress`](#StressProbe.MinimumNormalXAxisStress)                                                       | Gets the MinimumNormalXAxisStress.                                                                                                                                         |
 | [`MinimumNormalYAxisStress`](#StressProbe.MinimumNormalYAxisStress)                                                       | Gets the MinimumNormalYAxisStress.                                                                                                                                         |
 | [`MinimumNormalZAxisStress`](#StressProbe.MinimumNormalZAxisStress)                                                       | Gets the MinimumNormalZAxisStress.                                                                                                                                         |
-| [`MinimumPrincipalStress`](./../StressResults/MinimumPrincipalStress.md#MinimumPrincipalStress)                             | Gets the MinimumPrincipalStress.                                                                                                                                           |
+| [`MinimumPrincipalStress`](../StressResults/MinimumPrincipalStress.md#MinimumPrincipalStress)                             | Gets the MinimumPrincipalStress.                                                                                                                                           |
 | [`MinimumXYShearStress`](#StressProbe.MinimumXYShearStress)                                                               | Gets the MinimumXYShearStress.                                                                                                                                             |
 | [`MinimumXZShearStress`](#StressProbe.MinimumXZShearStress)                                                               | Gets the MinimumXZShearStress.                                                                                                                                             |
 | [`MinimumYZShearStress`](#StressProbe.MinimumYZShearStress)                                                               | Gets the MinimumYZShearStress.                                                                                                                                             |
@@ -81,8 +81,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`XYShearStress`](#StressProbe.XYShearStress)                                                                             | Gets the XYShearStress.                                                                                                                                                    |
 | [`XZShearStress`](#StressProbe.XZShearStress)                                                                             | Gets the XZShearStress.                                                                                                                                                    |
 | [`YZShearStress`](#StressProbe.YZShearStress)                                                                             | Gets the YZShearStress.                                                                                                                                                    |
-| [`StressIntensity`](./../StressResults/StressIntensity.md#StressIntensity)                                                  | Gets the StressIntensity.                                                                                                                                                  |
-| [`DataModelObjectCategory`](./../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                                                                                                               |
+| [`StressIntensity`](../StressResults/StressIntensity.md#StressIntensity)                                                  | Gets the StressIntensity.                                                                                                                                                  |
+| [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                                                                                                               |
 | [`Summation`](#StressProbe.Summation)                                                                                     | Gets or sets the Summation.                                                                                                                                                |
 | [`LocationMethod`](#StressProbe.LocationMethod)                                                                           | Gets or sets the LocationMethod.                                                                                                                                           |
 | [`GeometryLocation`](#StressProbe.GeometryLocation)                                                                       | Gets or sets the GeometryLocation.                                                                                                                                         |
@@ -437,7 +437,7 @@ Gets the StressIntensity.
 
 <a id="StressProbe.DataModelObjectCategory"></a>
 
-### *property* StressProbe.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressProbe.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -445,7 +445,7 @@ Gets the current DataModelObject’s category.
 
 <a id="StressProbe.Summation"></a>
 
-### *property* StressProbe.Summation *: [Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType](./../../../../../Mechanical/DataModel/Enums/MomentsAtSummationPointType.md#MomentsAtSummationPointType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressProbe.Summation *: [Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType](../../../../../Mechanical/DataModel/Enums/MomentsAtSummationPointType.md#MomentsAtSummationPointType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Summation.
 
@@ -453,7 +453,7 @@ Gets or sets the Summation.
 
 <a id="StressProbe.LocationMethod"></a>
 
-### *property* StressProbe.LocationMethod *: [Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod](./../../../../../Mechanical/DataModel/Enums/LocationDefinitionMethod.md#LocationDefinitionMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressProbe.LocationMethod *: [Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod](../../../../../Mechanical/DataModel/Enums/LocationDefinitionMethod.md#LocationDefinitionMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LocationMethod.
 
@@ -469,7 +469,7 @@ Gets or sets the GeometryLocation.
 
 <a id="StressProbe.CoordinateSystemSelection"></a>
 
-### *property* StressProbe.CoordinateSystemSelection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressProbe.CoordinateSystemSelection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystemSelection.
 
@@ -485,7 +485,7 @@ Gets or sets the BoundaryConditionSelection. In order to select the option ‘We
 
 <a id="StressProbe.ContactRegionSelection"></a>
 
-### *property* StressProbe.ContactRegionSelection *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](./../../Connections/ContactRegion.md#ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressProbe.ContactRegionSelection *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../Connections/ContactRegion.md#ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactRegionSelection.
 
@@ -493,7 +493,7 @@ Gets or sets the ContactRegionSelection.
 
 <a id="StressProbe.RemotePointSelection"></a>
 
-### *property* StressProbe.RemotePointSelection *: [Ansys.ACT.Automation.Mechanical.RemotePoint](./../../RemotePoint.md#RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressProbe.RemotePointSelection *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../../RemotePoint.md#RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RemotePointSelection.
 
@@ -501,7 +501,7 @@ Gets or sets the RemotePointSelection.
 
 <a id="StressProbe.BeamSelection"></a>
 
-### *property* StressProbe.BeamSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Beam](./../../Connections/Beam.md#Beam) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressProbe.BeamSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Beam](../../Connections/Beam.md#Beam) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BeamSelection.
 
@@ -509,7 +509,7 @@ Gets or sets the BeamSelection.
 
 <a id="StressProbe.MeshConnectionSelection"></a>
 
-### *property* StressProbe.MeshConnectionSelection *: [Ansys.ACT.Automation.Mechanical.MeshConnection](./../../MeshConnection.md#MeshConnection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressProbe.MeshConnectionSelection *: [Ansys.ACT.Automation.Mechanical.MeshConnection](../../MeshConnection.md#MeshConnection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MeshConnectionSelection.
 
@@ -517,7 +517,7 @@ Gets or sets the MeshConnectionSelection.
 
 <a id="StressProbe.SurfaceSelection"></a>
 
-### *property* StressProbe.SurfaceSelection *: [Ansys.ACT.Automation.Mechanical.Surface](./../../Surface.md#Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressProbe.SurfaceSelection *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MeshConnectionSelection.
 
@@ -525,7 +525,7 @@ Gets or sets the MeshConnectionSelection.
 
 <a id="StressProbe.SpringSelection"></a>
 
-### *property* StressProbe.SpringSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](./../../Connections/Spring.md#Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressProbe.SpringSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../Connections/Spring.md#Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SpringSelection.
 
@@ -541,7 +541,7 @@ Gets the IsSolved.
 
 <a id="StressProbe.Orientation"></a>
 
-### *property* StressProbe.Orientation *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressProbe.Orientation *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordinate System.
 
@@ -693,7 +693,7 @@ Gets the ZAxis.
 
 <a id="StressProbe.ResultSelection"></a>
 
-### *property* StressProbe.ResultSelection *: [Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter](./../../../../../Mechanical/DataModel/Enums/ProbeDisplayFilter.md#ProbeDisplayFilter) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressProbe.ResultSelection *: [Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter](../../../../../Mechanical/DataModel/Enums/ProbeDisplayFilter.md#ProbeDisplayFilter) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ResultSelection.
 
@@ -701,7 +701,7 @@ Gets or sets the ResultSelection.
 
 <a id="StressProbe.SpatialResolution"></a>
 
-### *property* StressProbe.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum](./../../../../../Mechanical/DataModel/Enums/MinimumOrMaximum.md#MinimumOrMaximum) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressProbe.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum](../../../../../Mechanical/DataModel/Enums/MinimumOrMaximum.md#MinimumOrMaximum) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SpatialResolution.
 
@@ -709,7 +709,7 @@ Gets or sets the SpatialResolution.
 
 <a id="StressProbe.Type"></a>
 
-### *property* StressProbe.Type *: [Ansys.Mechanical.DataModel.Enums.ProbeResultType](./../../../../../Mechanical/DataModel/Enums/ProbeResultType.md#ProbeResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressProbe.Type *: [Ansys.Mechanical.DataModel.Enums.ProbeResultType](../../../../../Mechanical/DataModel/Enums/ProbeResultType.md#ProbeResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Type.
 
@@ -717,7 +717,7 @@ Gets the Type.
 
 <a id="StressProbe.DpfEvaluation"></a>
 
-### *property* StressProbe.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](./../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressProbe.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DpfEvaluation.
 
@@ -741,7 +741,7 @@ Gets the list of children.
 
 <a id="StressProbe.Comments"></a>
 
-### *property* StressProbe.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressProbe.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -749,7 +749,7 @@ Gets the list of associated comments.
 
 <a id="StressProbe.Figures"></a>
 
-### *property* StressProbe.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressProbe.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -757,7 +757,7 @@ Gets the list of associated figures.
 
 <a id="StressProbe.Images"></a>
 
-### *property* StressProbe.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressProbe.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -793,7 +793,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="StressProbe.ExportAnimation"></a>
 
-### StressProbe.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](./../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](./../../../../../Mechanical/Graphics/AnimationExportSettings.md#AnimationExportSettings))
+### StressProbe.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -857,7 +857,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### StressProbe.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### StressProbe.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

@@ -42,7 +42,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`LowerBound`](#CriterionConstraint.LowerBound)                                                                     | Gets or sets the LowerBound.                                                             |
 | [`UpperBound`](#CriterionConstraint.UpperBound)                                                                     | Gets or sets the UpperBound.                                                             |
 | [`Criterion`](Criterion.md#Criterion)                                                                               | Gets or sets the Criterion.                                                              |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                             |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                             |
 | [`EnvironmentSelection`](#CriterionConstraint.EnvironmentSelection)                                                 | Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum. |
 | [`Suppressed`](#CriterionConstraint.Suppressed)                                                                     | Gets or sets the Suppressed.                                                             |
 | [`Children`](#CriterionConstraint.Children)                                                                         | Gets the list of children.                                                               |
@@ -104,7 +104,7 @@ Gets or sets the Criterion.
 
 <a id="CriterionConstraint.DataModelObjectCategory"></a>
 
-### *property* CriterionConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CriterionConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -188,7 +188,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### CriterionConstraint.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### CriterionConstraint.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

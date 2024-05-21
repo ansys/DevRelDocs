@@ -18,8 +18,8 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 | Name |
 | -------------------------------------------------------------------- |
-| [`Solid`](./../../../ACT/Automation/Mechanical/Solid.md#Solid) |
-| [`Surface`](./../../../ACT/Automation/Mechanical/Surface.md#Surface) |
+| [`Solid`](../../../ACT/Automation/Mechanical/Solid.md#Solid) |
+| [`Surface`](../../../ACT/Automation/Mechanical/Surface.md#Surface) |
 | [`Mixed`](#GeometryType.Mixed) |
 | [`Line`](#GeometryType.Line) |
 | [`Empty`](#GeometryType.Empty) |

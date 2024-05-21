@@ -72,14 +72,14 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`RpmSelection`](#RemoteForce.RpmSelection)                                                                            | Gets or sets the RpmSelection.                                |
 | [`Behavior`](#RemoteForce.Behavior)                                                                                    | Gets or sets the Behavior.                                    |
 | [`DefineBy`](#RemoteForce.DefineBy)                                                                                    | Gets or sets the DefineBy.                                    |
-| [`LoadingApplicationType`](./../../../../Mechanical/DataModel/Enums/LoadingApplicationType.md#LoadingApplicationType)    | Gets or sets the LoadingApplicationType.                      |
-| [`StepVarying`](./../../../../Mechanical/DataModel/Enums/StepVarying.md#StepVarying)                                     | Gets or sets the StepVarying.                                 |
-| [`NonCyclicLoadingType`](./../../../../Mechanical/DataModel/Enums/NonCyclicLoadingType.md#NonCyclicLoadingType)          | Gets or sets the NonCyclicLoadingType.                        |
+| [`LoadingApplicationType`](../../../../Mechanical/DataModel/Enums/LoadingApplicationType.md#LoadingApplicationType)    | Gets or sets the LoadingApplicationType.                      |
+| [`StepVarying`](../../../../Mechanical/DataModel/Enums/StepVarying.md#StepVarying)                                     | Gets or sets the StepVarying.                                 |
+| [`NonCyclicLoadingType`](../../../../Mechanical/DataModel/Enums/NonCyclicLoadingType.md#NonCyclicLoadingType)          | Gets or sets the NonCyclicLoadingType.                        |
 | [`IndependentVariable`](#RemoteForce.IndependentVariable)                                                              | Gets or sets the IndependentVariable.                         |
 | [`FollowerLoad`](#RemoteForce.FollowerLoad)                                                                            | Gets or sets the FollowerLoad.                                |
-| [`CoordinateSystem`](./../../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
+| [`CoordinateSystem`](../../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
 | [`Location`](#RemoteForce.Location)                                                                                    | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Suppressed`](#RemoteForce.Suppressed)                                                                                | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#RemoteForce.SharedRefBody)                                                                          | Gets or sets the SharedRefBody.                               |
 | [`Children`](#RemoteForce.Children)                                                                                    | Gets the list of children.                                    |
@@ -145,7 +145,7 @@ Gets or sets the NumberOfSegments.
 
 <a id="RemoteForce.XComponent"></a>
 
-### *property* RemoteForce.XComponent *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteForce.XComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the XComponent.
 
@@ -153,7 +153,7 @@ Gets the XComponent.
 
 <a id="RemoteForce.XComponentImag"></a>
 
-### *property* RemoteForce.XComponentImag *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteForce.XComponentImag *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the XComponentImag.
 
@@ -161,7 +161,7 @@ Gets the XComponentImag.
 
 <a id="RemoteForce.YComponent"></a>
 
-### *property* RemoteForce.YComponent *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteForce.YComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the YComponent.
 
@@ -169,7 +169,7 @@ Gets the YComponent.
 
 <a id="RemoteForce.YComponentImag"></a>
 
-### *property* RemoteForce.YComponentImag *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteForce.YComponentImag *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the YComponentImag.
 
@@ -177,7 +177,7 @@ Gets the YComponentImag.
 
 <a id="RemoteForce.ZComponent"></a>
 
-### *property* RemoteForce.ZComponent *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteForce.ZComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ZComponent.
 
@@ -185,7 +185,7 @@ Gets the ZComponent.
 
 <a id="RemoteForce.ZComponentImag"></a>
 
-### *property* RemoteForce.ZComponentImag *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteForce.ZComponentImag *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ZComponentImag.
 
@@ -193,7 +193,7 @@ Gets the ZComponentImag.
 
 <a id="RemoteForce.HarmonicIndex"></a>
 
-### *property* RemoteForce.HarmonicIndex *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteForce.HarmonicIndex *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HarmonicIndex.
 
@@ -201,7 +201,7 @@ Gets or sets the HarmonicIndex.
 
 <a id="RemoteForce.SectorNumber"></a>
 
-### *property* RemoteForce.SectorNumber *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteForce.SectorNumber *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SectorNumber.
 
@@ -209,7 +209,7 @@ Gets or sets the SectorNumber.
 
 <a id="RemoteForce.Magnitude"></a>
 
-### *property* RemoteForce.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteForce.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Magnitude.
 
@@ -217,7 +217,7 @@ Gets the Magnitude.
 
 <a id="RemoteForce.MagnitudeImag"></a>
 
-### *property* RemoteForce.MagnitudeImag *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteForce.MagnitudeImag *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MagnitudeImag.
 
@@ -225,7 +225,7 @@ Gets the MagnitudeImag.
 
 <a id="RemoteForce.PhaseAngle"></a>
 
-### *property* RemoteForce.PhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteForce.PhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the PhaseAngle.
 
@@ -233,7 +233,7 @@ Gets the PhaseAngle.
 
 <a id="RemoteForce.XPhaseAngle"></a>
 
-### *property* RemoteForce.XPhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteForce.XPhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the XPhaseAngle.
 
@@ -241,7 +241,7 @@ Gets the XPhaseAngle.
 
 <a id="RemoteForce.YPhaseAngle"></a>
 
-### *property* RemoteForce.YPhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteForce.YPhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the YPhaseAngle.
 
@@ -249,7 +249,7 @@ Gets the YPhaseAngle.
 
 <a id="RemoteForce.ZPhaseAngle"></a>
 
-### *property* RemoteForce.ZPhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteForce.ZPhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ZPhaseAngle.
 
@@ -305,7 +305,7 @@ Gets or sets the RpmSelection.
 
 <a id="RemoteForce.Behavior"></a>
 
-### *property* RemoteForce.Behavior *: [Ansys.Mechanical.DataModel.Enums.LoadBehavior](./../../../../Mechanical/DataModel/Enums/LoadBehavior.md#LoadBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteForce.Behavior *: [Ansys.Mechanical.DataModel.Enums.LoadBehavior](../../../../Mechanical/DataModel/Enums/LoadBehavior.md#LoadBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Behavior.
 
@@ -313,7 +313,7 @@ Gets or sets the Behavior.
 
 <a id="RemoteForce.DefineBy"></a>
 
-### *property* RemoteForce.DefineBy *: [Ansys.Mechanical.DataModel.Enums.LoadDefineBy](./../../../../Mechanical/DataModel/Enums/LoadDefineBy.md#LoadDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteForce.DefineBy *: [Ansys.Mechanical.DataModel.Enums.LoadDefineBy](../../../../Mechanical/DataModel/Enums/LoadDefineBy.md#LoadDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DefineBy.
 
@@ -321,7 +321,7 @@ Gets or sets the DefineBy.
 
 <a id="RemoteForce.LoadingApplicationType"></a>
 
-### *property* RemoteForce.LoadingApplicationType *: [Ansys.Mechanical.DataModel.Enums.LoadingApplicationType](./../../../../Mechanical/DataModel/Enums/LoadingApplicationType.md#LoadingApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteForce.LoadingApplicationType *: [Ansys.Mechanical.DataModel.Enums.LoadingApplicationType](../../../../Mechanical/DataModel/Enums/LoadingApplicationType.md#LoadingApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadingApplicationType.
 
@@ -329,7 +329,7 @@ Gets or sets the LoadingApplicationType.
 
 <a id="RemoteForce.StepVarying"></a>
 
-### *property* RemoteForce.StepVarying *: [Ansys.Mechanical.DataModel.Enums.StepVarying](./../../../../Mechanical/DataModel/Enums/StepVarying.md#StepVarying) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteForce.StepVarying *: [Ansys.Mechanical.DataModel.Enums.StepVarying](../../../../Mechanical/DataModel/Enums/StepVarying.md#StepVarying) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StepVarying.
 
@@ -337,7 +337,7 @@ Gets or sets the StepVarying.
 
 <a id="RemoteForce.NonCyclicLoadingType"></a>
 
-### *property* RemoteForce.NonCyclicLoadingType *: [Ansys.Mechanical.DataModel.Enums.NonCyclicLoadingType](./../../../../Mechanical/DataModel/Enums/NonCyclicLoadingType.md#NonCyclicLoadingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteForce.NonCyclicLoadingType *: [Ansys.Mechanical.DataModel.Enums.NonCyclicLoadingType](../../../../Mechanical/DataModel/Enums/NonCyclicLoadingType.md#NonCyclicLoadingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NonCyclicLoadingType.
 
@@ -345,7 +345,7 @@ Gets or sets the NonCyclicLoadingType.
 
 <a id="RemoteForce.IndependentVariable"></a>
 
-### *property* RemoteForce.IndependentVariable *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](./../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteForce.IndependentVariable *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IndependentVariable.
 
@@ -361,7 +361,7 @@ Gets or sets the FollowerLoad.
 
 <a id="RemoteForce.CoordinateSystem"></a>
 
-### *property* RemoteForce.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteForce.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -377,7 +377,7 @@ Gets or sets the Location.
 
 <a id="RemoteForce.DataModelObjectCategory"></a>
 
-### *property* RemoteForce.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteForce.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -393,7 +393,7 @@ Gets or sets the Suppressed.
 
 <a id="RemoteForce.SharedRefBody"></a>
 
-### *property* RemoteForce.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](./../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteForce.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -409,7 +409,7 @@ Gets the list of children.
 
 <a id="RemoteForce.Comments"></a>
 
-### *property* RemoteForce.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteForce.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -417,7 +417,7 @@ Gets the list of associated comments.
 
 <a id="RemoteForce.Figures"></a>
 
-### *property* RemoteForce.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteForce.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -425,7 +425,7 @@ Gets the list of associated figures.
 
 <a id="RemoteForce.Images"></a>
 
-### *property* RemoteForce.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteForce.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -533,7 +533,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### RemoteForce.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### RemoteForce.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

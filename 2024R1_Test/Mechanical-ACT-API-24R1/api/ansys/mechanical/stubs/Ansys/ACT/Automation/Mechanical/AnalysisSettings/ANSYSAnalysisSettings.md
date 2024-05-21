@@ -328,7 +328,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`SpringStiffnessValue`](#ANSYSAnalysisSettings.SpringStiffnessValue)                                                        | Gets or sets the SpringStiffnessValue.                                                              |
 | [`BaseRemovalType`](#ANSYSAnalysisSettings.BaseRemovalType)                                                                  | Gets or sets the BaseRemovalType.                                                                   |
 | [`StiffnessCoefficientDefineBy`](#ANSYSAnalysisSettings.StiffnessCoefficientDefineBy)                                        | Gets or sets the StiffnessCoefficientDefineBy.                                                      |
-| [`CacheResultsInMemory`](./../../../../Mechanical/DataModel/Enums/CacheResultsInMemory.md#CacheResultsInMemory)                | Gets or sets the CacheResultsInMemory.                                                              |
+| [`CacheResultsInMemory`](../../../../Mechanical/DataModel/Enums/CacheResultsInMemory.md#CacheResultsInMemory)                | Gets or sets the CacheResultsInMemory.                                                              |
 | [`ParticipationFactor`](#ANSYSAnalysisSettings.ParticipationFactor)                                                          | Gets or sets the ParticipationFactor.                                                               |
 | [`StoreResultsAt`](#ANSYSAnalysisSettings.StoreResultsAt)                                                                    | Gets or sets the StoreResultsAt.                                                                    |
 | [`ConstantDamping`](#ANSYSAnalysisSettings.ConstantDamping)                                                                  | Gets or sets the ConstantDamping.                                                                   |
@@ -350,7 +350,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`CoriolisEffectApplied`](#ANSYSAnalysisSettings.CoriolisEffectApplied)                                                      | Gets or sets the CoriolisEffectApplied.                                                             |
 | [`CreepEffects`](#ANSYSAnalysisSettings.CreepEffects)                                                                        | Gets or sets the CreepEffects.                                                                      |
 | [`HarmonicIndexRange`](#ANSYSAnalysisSettings.HarmonicIndexRange)                                                            | Gets or sets the HarmonicIndexRange.                                                                |
-| [`DampingDefineBy`](./../../../../Mechanical/DataModel/Enums/DampingDefineBy.md#DampingDefineBy)                               | Gets or sets the DampingDefineBy.                                                                   |
+| [`DampingDefineBy`](../../../../Mechanical/DataModel/Enums/DampingDefineBy.md#DampingDefineBy)                               | Gets or sets the DampingDefineBy.                                                                   |
 | [`FarFieldRadiationSurface`](#ANSYSAnalysisSettings.FarFieldRadiationSurface)                                                | Gets or sets the FarFieldRadiationSurface.                                                          |
 | [`ExpandResultsFrom`](#ANSYSAnalysisSettings.ExpandResultsFrom)                                                              | Gets or sets the ExpandResultsFrom.                                                                 |
 | [`FrequencySpacing`](#ANSYSAnalysisSettings.FrequencySpacing)                                                                | Gets or sets the FrequencySpacing.                                                                  |
@@ -367,8 +367,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`MeshSaveAtLoadStep`](#ANSYSAnalysisSettings.MeshSaveAtLoadStep)                                                            | Gets or sets the MeshSaveAtLoadStep.                                                                |
 | [`MeshSaveAtSubstep`](#ANSYSAnalysisSettings.MeshSaveAtSubstep)                                                              | Gets or sets the MeshSaveAtSubstep.                                                                 |
 | [`ModeReuse`](#ANSYSAnalysisSettings.ModeReuse)                                                                              | Gets or sets the ModeReuse.                                                                         |
-| [`ModesCombinationType`](./../../../../Mechanical/DataModel/Enums/ModesCombinationType.md#ModesCombinationType)                | Gets or sets the ModesCombinationType.                                                              |
-| [`ModeSelectionMethod`](./../../../../Mechanical/DataModel/Enums/ModeSelectionMethod.md#ModeSelectionMethod)                   | Gets or sets the ModeSelectionMethod.                                                               |
+| [`ModesCombinationType`](../../../../Mechanical/DataModel/Enums/ModesCombinationType.md#ModesCombinationType)                | Gets or sets the ModesCombinationType.                                                              |
+| [`ModeSelectionMethod`](../../../../Mechanical/DataModel/Enums/ModeSelectionMethod.md#ModeSelectionMethod)                   | Gets or sets the ModeSelectionMethod.                                                               |
 | [`OnDemandExpansionOption`](#ANSYSAnalysisSettings.OnDemandExpansionOption)                                                  | Gets or sets the OnDemandExpansionOption.                                                           |
 | [`NewtonRaphsonOption`](#ANSYSAnalysisSettings.NewtonRaphsonOption)                                                          | Gets or sets the NewtonRaphsonOption.                                                               |
 | [`NodalForces`](#ANSYSAnalysisSettings.NodalForces)                                                                          | Gets or sets the NodalForces.                                                                       |
@@ -383,25 +383,25 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`CombineRestartFiles`](#ANSYSAnalysisSettings.CombineRestartFiles)                                                          | Gets or sets the CombineRestartFiles.                                                               |
 | [`GenerateRestartPoints`](#ANSYSAnalysisSettings.GenerateRestartPoints)                                                      | Gets or sets the GenerateRestartPoints.                                                             |
 | [`RetainFilesAfterFullSolve`](#ANSYSAnalysisSettings.RetainFilesAfterFullSolve)                                              | Gets or sets the RetainFilesAfterFullSolve.                                                         |
-| [`RestartType`](./../../../../Mechanical/DataModel/Enums/RestartType.md#RestartType)                                           | Gets or sets the RestartType.                                                                       |
+| [`RestartType`](../../../../Mechanical/DataModel/Enums/RestartType.md#RestartType)                                           | Gets or sets the RestartType.                                                                       |
 | [`ResultFileCompression`](#ANSYSAnalysisSettings.ResultFileCompression)                                                      | Gets or sets the ResultFileCompression.                                                             |
 | [`RpmFrequencySpacing`](#ANSYSAnalysisSettings.RpmFrequencySpacing)                                                          | Gets or sets the RpmFrequencySpacing.                                                               |
 | [`SaveAtLoadStep`](#ANSYSAnalysisSettings.SaveAtLoadStep)                                                                    | Gets or sets the SaveAtLoadStep.                                                                    |
 | [`SaveAtSubstep`](#ANSYSAnalysisSettings.SaveAtSubstep)                                                                      | Gets or sets the SaveAtSubstep.                                                                     |
-| [`ScatteredFieldFormulation`](./../../../../Mechanical/DataModel/Enums/ScatteredFieldFormulation.md#ScatteredFieldFormulation) | Gets or sets the ScatteredFieldFormulation.                                                         |
-| [`ScatteringOutputType`](./../../../../Mechanical/DataModel/Enums/ScatteringOutputType.md#ScatteringOutputType)                | Gets or sets the ScatteringOutputType.                                                              |
+| [`ScatteredFieldFormulation`](../../../../Mechanical/DataModel/Enums/ScatteredFieldFormulation.md#ScatteredFieldFormulation) | Gets or sets the ScatteredFieldFormulation.                                                         |
+| [`ScatteringOutputType`](../../../../Mechanical/DataModel/Enums/ScatteringOutputType.md#ScatteringOutputType)                | Gets or sets the ScatteringOutputType.                                                              |
 | [`SolverUnitSystem`](#ANSYSAnalysisSettings.SolverUnitSystem)                                                                | Gets or sets the SolverUnitSystem.                                                                  |
-| [`SolverPivotChecking`](./../../../../Mechanical/DataModel/Enums/SolverPivotChecking.md#SolverPivotChecking)                   | Gets or sets the SolverPivotChecking.                                                               |
-| [`SolverType`](./../../../../Mechanical/DataModel/Enums/SolverType.md#SolverType)                                              | Gets or sets the SolverType.                                                                        |
+| [`SolverPivotChecking`](../../../../Mechanical/DataModel/Enums/SolverPivotChecking.md#SolverPivotChecking)                   | Gets or sets the SolverPivotChecking.                                                               |
+| [`SolverType`](../../../../Mechanical/DataModel/Enums/SolverType.md#SolverType)                                              | Gets or sets the SolverType.                                                                        |
 | [`SolverUnits`](#ANSYSAnalysisSettings.SolverUnits)                                                                          | Gets or sets the SolverUnits.                                                                       |
-| [`SpectrumType`](./../../../../Mechanical/DataModel/Enums/SpectrumType.md#SpectrumType)                                        | Gets or sets the SpectrumType.                                                                      |
+| [`SpectrumType`](../../../../Mechanical/DataModel/Enums/SpectrumType.md#SpectrumType)                                        | Gets or sets the SpectrumType.                                                                      |
 | [`Stabilization`](#ANSYSAnalysisSettings.Stabilization)                                                                      | Gets or sets the Stabilization.                                                                     |
 | [`StabilizationActivationForFirstSubstep`](#ANSYSAnalysisSettings.StabilizationActivationForFirstSubstep)                    | Gets or sets the StabilizationActivationForFirstSubstep.                                            |
-| [`StabilizationMethod`](./../../../../Mechanical/DataModel/Enums/StabilizationMethod.md#StabilizationMethod)                   | Gets or sets the StabilizationMethod.                                                               |
+| [`StabilizationMethod`](../../../../Mechanical/DataModel/Enums/StabilizationMethod.md#StabilizationMethod)                   | Gets or sets the StabilizationMethod.                                                               |
 | [`StoreModalResults`](#ANSYSAnalysisSettings.StoreModalResults)                                                              | Gets or sets the StoreModalResults.                                                                 |
 | [`DefineBy`](#ANSYSAnalysisSettings.DefineBy)                                                                                | Gets or sets the DefineBy.                                                                          |
 | [`TransientApplication`](#ANSYSAnalysisSettings.TransientApplication)                                                        | Gets or sets the TransientApplication.                                                              |
-| [`AutomaticTimeStepping`](./../../../../Mechanical/DataModel/Enums/AutomaticTimeStepping.md#AutomaticTimeStepping)             | Gets or sets the AutomaticTimeStepping.                                                             |
+| [`AutomaticTimeStepping`](../../../../Mechanical/DataModel/Enums/AutomaticTimeStepping.md#AutomaticTimeStepping)             | Gets or sets the AutomaticTimeStepping.                                                             |
 | [`RetainModesymFileAfterSolve`](#ANSYSAnalysisSettings.RetainModesymFileAfterSolve)                                          | Gets or sets the RetainModesymFileAfterSolve.                                                       |
 | [`WeakSprings`](#ANSYSAnalysisSettings.WeakSprings)                                                                          | Gets or sets the WeakSprings.                                                                       |
 | [`SpringStiffness`](#ANSYSAnalysisSettings.SpringStiffness)                                                                  | Gets or sets the SpringStiffness.                                                                   |
@@ -429,7 +429,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`TStress`](#ANSYSAnalysisSettings.TStress)                                                                                  | Gets or sets the TStress.                                                                           |
 | [`CalculateVelocity`](#ANSYSAnalysisSettings.CalculateVelocity)                                                              | Gets or sets the CalculateVelocity.                                                                 |
 | [`CalculateVelocityAndAcceleration`](#ANSYSAnalysisSettings.CalculateVelocityAndAcceleration)                                | Gets or sets the CalculateVelocityAndAcceleration.                                                  |
-| [`CampbellDiagram`](./../Results/ResultTrackers/CampbellDiagram.md#CampbellDiagram)                                            | Gets or sets the CampbellDiagram.                                                                   |
+| [`CampbellDiagram`](../Results/ResultTrackers/CampbellDiagram.md#CampbellDiagram)                                            | Gets or sets the CampbellDiagram.                                                                   |
 | [`CarryOverTimeStep`](#ANSYSAnalysisSettings.CarryOverTimeStep)                                                              | Gets or sets the CarryOverTimeStep.                                                                 |
 | [`DeleteUnneededFiles`](#ANSYSAnalysisSettings.DeleteUnneededFiles)                                                          | Gets or sets the DeleteUnneededFiles.                                                               |
 | [`CyclicModeSuperposition`](#ANSYSAnalysisSettings.CyclicModeSuperposition)                                                  | Gets or sets the CyclicModeSuperposition.                                                           |
@@ -459,7 +459,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`ElectricOnly`](#ANSYSAnalysisSettings.ElectricOnly)                                                                        | Gets or sets the ElectricOnly.                                                                      |
 | [`StructuralOnly`](#ANSYSAnalysisSettings.StructuralOnly)                                                                    | Gets or sets the StructuralOnly.                                                                    |
 | [`ThermalOnly`](#ANSYSAnalysisSettings.ThermalOnly)                                                                          | Gets or sets the ThermalOnly.                                                                       |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory)       | Gets the current DataModelObject’s category.                                                        |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory)       | Gets the current DataModelObject’s category.                                                        |
 | [`Graph`](#ANSYSAnalysisSettings.Graph)                                                                                      | Graph property.                                                                                     |
 | [`ScratchSolverFilesDirectory`](#ANSYSAnalysisSettings.ScratchSolverFilesDirectory)                                          | Gets the ScratchSolverFilesDirectory.                                                               |
 | [`SolverFilesDirectory`](#ANSYSAnalysisSettings.SolverFilesDirectory)                                                        | Gets the SolverFilesDirectory.                                                                      |
@@ -493,7 +493,7 @@ Gets or sets the Step Name.
 
 <a id="ANSYSAnalysisSettings.AMStepType"></a>
 
-### *property* ANSYSAnalysisSettings.AMStepType *: [Ansys.Mechanical.DataModel.Enums.AMProcessStepType](./../../../../Mechanical/DataModel/Enums/AMProcessStepType.md#AMProcessStepType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.AMStepType *: [Ansys.Mechanical.DataModel.Enums.AMProcessStepType](../../../../Mechanical/DataModel/Enums/AMProcessStepType.md#AMProcessStepType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AM Process Step Type.
 
@@ -525,7 +525,7 @@ Gets or sets the AM Cooldown Number of Substeps.
 
 <a id="ANSYSAnalysisSettings.CooldownTimeType"></a>
 
-### *property* ANSYSAnalysisSettings.CooldownTimeType *: [Ansys.Mechanical.DataModel.Enums.AMCooldownTimeType](./../../../../Mechanical/DataModel/Enums/AMCooldownTimeType.md#AMCooldownTimeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.CooldownTimeType *: [Ansys.Mechanical.DataModel.Enums.AMCooldownTimeType](../../../../Mechanical/DataModel/Enums/AMCooldownTimeType.md#AMCooldownTimeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AM Cooldown Time Type.
 
@@ -549,7 +549,7 @@ Gets or sets the AM Layers to Build.
 
 <a id="ANSYSAnalysisSettings.ReferenceTemperatureType"></a>
 
-### *property* ANSYSAnalysisSettings.ReferenceTemperatureType *: [Ansys.Mechanical.DataModel.Enums.AMReferenceTemperatureType](./../../../../Mechanical/DataModel/Enums/AMReferenceTemperatureType.md#AMReferenceTemperatureType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ReferenceTemperatureType *: [Ansys.Mechanical.DataModel.Enums.AMReferenceTemperatureType](../../../../Mechanical/DataModel/Enums/AMReferenceTemperatureType.md#AMReferenceTemperatureType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AM Reference Temperature Type.
 
@@ -565,7 +565,7 @@ Gets or sets the AM Reference Temperature.
 
 <a id="ANSYSAnalysisSettings.RelaxationTemperatureType"></a>
 
-### *property* ANSYSAnalysisSettings.RelaxationTemperatureType *: [Ansys.Mechanical.DataModel.Enums.AMRelaxationTemperatureType](./../../../../Mechanical/DataModel/Enums/AMRelaxationTemperatureType.md#AMRelaxationTemperatureType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.RelaxationTemperatureType *: [Ansys.Mechanical.DataModel.Enums.AMRelaxationTemperatureType](../../../../Mechanical/DataModel/Enums/AMRelaxationTemperatureType.md#AMRelaxationTemperatureType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AM Relaxation Temperature Type.
 
@@ -597,7 +597,7 @@ Gets or sets the AggressiveRemeshing.
 
 <a id="ANSYSAnalysisSettings.SpinSoftening"></a>
 
-### *property* ANSYSAnalysisSettings.SpinSoftening *: [Ansys.Mechanical.DataModel.Enums.SpinSofteningType](./../../../../Mechanical/DataModel/Enums/SpinSofteningType.md#SpinSofteningType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.SpinSoftening *: [Ansys.Mechanical.DataModel.Enums.SpinSofteningType](../../../../Mechanical/DataModel/Enums/SpinSofteningType.md#SpinSofteningType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SpinSoftening.
 
@@ -1589,7 +1589,7 @@ Gets or sets the SpringStiffnessValue.
 
 <a id="ANSYSAnalysisSettings.BaseRemovalType"></a>
 
-### *property* ANSYSAnalysisSettings.BaseRemovalType *: [Ansys.Mechanical.DataModel.Enums.AMBaseRemovalType](./../../../../Mechanical/DataModel/Enums/AMBaseRemovalType.md#AMBaseRemovalType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.BaseRemovalType *: [Ansys.Mechanical.DataModel.Enums.AMBaseRemovalType](../../../../Mechanical/DataModel/Enums/AMBaseRemovalType.md#AMBaseRemovalType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BaseRemovalType.
 
@@ -1597,7 +1597,7 @@ Gets or sets the BaseRemovalType.
 
 <a id="ANSYSAnalysisSettings.StiffnessCoefficientDefineBy"></a>
 
-### *property* ANSYSAnalysisSettings.StiffnessCoefficientDefineBy *: [Ansys.Mechanical.DataModel.Enums.DampingType](./../../../../Mechanical/DataModel/Enums/DampingType.md#DampingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.StiffnessCoefficientDefineBy *: [Ansys.Mechanical.DataModel.Enums.DampingType](../../../../Mechanical/DataModel/Enums/DampingType.md#DampingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StiffnessCoefficientDefineBy.
 
@@ -1605,7 +1605,7 @@ Gets or sets the StiffnessCoefficientDefineBy.
 
 <a id="ANSYSAnalysisSettings.CacheResultsInMemory"></a>
 
-### *property* ANSYSAnalysisSettings.CacheResultsInMemory *: [Ansys.Mechanical.DataModel.Enums.CacheResultsInMemory](./../../../../Mechanical/DataModel/Enums/CacheResultsInMemory.md#CacheResultsInMemory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.CacheResultsInMemory *: [Ansys.Mechanical.DataModel.Enums.CacheResultsInMemory](../../../../Mechanical/DataModel/Enums/CacheResultsInMemory.md#CacheResultsInMemory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CacheResultsInMemory.
 
@@ -1613,7 +1613,7 @@ Gets or sets the CacheResultsInMemory.
 
 <a id="ANSYSAnalysisSettings.ParticipationFactor"></a>
 
-### *property* ANSYSAnalysisSettings.ParticipationFactor *: [Ansys.Mechanical.DataModel.Enums.CalculateParticipationFactorResult](./../../../../Mechanical/DataModel/Enums/CalculateParticipationFactorResult.md#CalculateParticipationFactorResult) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ParticipationFactor *: [Ansys.Mechanical.DataModel.Enums.CalculateParticipationFactorResult](../../../../Mechanical/DataModel/Enums/CalculateParticipationFactorResult.md#CalculateParticipationFactorResult) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ParticipationFactor.
 
@@ -1621,7 +1621,7 @@ Gets or sets the ParticipationFactor.
 
 <a id="ANSYSAnalysisSettings.StoreResultsAt"></a>
 
-### *property* ANSYSAnalysisSettings.StoreResultsAt *: [Ansys.Mechanical.DataModel.Enums.TimePointsOptions](./../../../../Mechanical/DataModel/Enums/TimePointsOptions.md#TimePointsOptions) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.StoreResultsAt *: [Ansys.Mechanical.DataModel.Enums.TimePointsOptions](../../../../Mechanical/DataModel/Enums/TimePointsOptions.md#TimePointsOptions) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StoreResultsAt.
 
@@ -1629,7 +1629,7 @@ Gets or sets the StoreResultsAt.
 
 <a id="ANSYSAnalysisSettings.ConstantDamping"></a>
 
-### *property* ANSYSAnalysisSettings.ConstantDamping *: [Ansys.Mechanical.DataModel.Enums.ConstantDampingType](./../../../../Mechanical/DataModel/Enums/ConstantDampingType.md#ConstantDampingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ConstantDamping *: [Ansys.Mechanical.DataModel.Enums.ConstantDampingType](../../../../Mechanical/DataModel/Enums/ConstantDampingType.md#ConstantDampingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ConstantDamping.
 
@@ -1637,7 +1637,7 @@ Gets or sets the ConstantDamping.
 
 <a id="ANSYSAnalysisSettings.ContactSplit"></a>
 
-### *property* ANSYSAnalysisSettings.ContactSplit *: [Ansys.Mechanical.DataModel.Enums.ContactSplitType](./../../../../Mechanical/DataModel/Enums/ContactSplitType.md#ContactSplitType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ContactSplit *: [Ansys.Mechanical.DataModel.Enums.ContactSplitType](../../../../Mechanical/DataModel/Enums/ContactSplitType.md#ContactSplitType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactSplit.
 
@@ -1645,7 +1645,7 @@ Gets or sets the ContactSplit.
 
 <a id="ANSYSAnalysisSettings.ContactSummary"></a>
 
-### *property* ANSYSAnalysisSettings.ContactSummary *: [Ansys.Mechanical.DataModel.Enums.ContactSummaryType](./../../../../Mechanical/DataModel/Enums/ContactSummaryType.md#ContactSummaryType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ContactSummary *: [Ansys.Mechanical.DataModel.Enums.ContactSummaryType](../../../../Mechanical/DataModel/Enums/ContactSummaryType.md#ContactSummaryType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactSummary.
 
@@ -1653,7 +1653,7 @@ Gets or sets the ContactSummary.
 
 <a id="ANSYSAnalysisSettings.ChargeConvergence"></a>
 
-### *property* ANSYSAnalysisSettings.ChargeConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](./../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ChargeConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ChargeConvergence.
 
@@ -1661,7 +1661,7 @@ Gets or sets the ChargeConvergence.
 
 <a id="ANSYSAnalysisSettings.CurrentConvergence"></a>
 
-### *property* ANSYSAnalysisSettings.CurrentConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](./../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.CurrentConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CurrentConvergence.
 
@@ -1669,7 +1669,7 @@ Gets or sets the CurrentConvergence.
 
 <a id="ANSYSAnalysisSettings.DisplacementConvergence"></a>
 
-### *property* ANSYSAnalysisSettings.DisplacementConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](./../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.DisplacementConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DisplacementConvergence.
 
@@ -1677,7 +1677,7 @@ Gets or sets the DisplacementConvergence.
 
 <a id="ANSYSAnalysisSettings.AMPSConvergence"></a>
 
-### *property* ANSYSAnalysisSettings.AMPSConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](./../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.AMPSConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AMPSConvergence.
 
@@ -1685,7 +1685,7 @@ Gets or sets the AMPSConvergence.
 
 <a id="ANSYSAnalysisSettings.CSGConvergence"></a>
 
-### *property* ANSYSAnalysisSettings.CSGConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](./../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.CSGConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CSGConvergence.
 
@@ -1693,7 +1693,7 @@ Gets or sets the CSGConvergence.
 
 <a id="ANSYSAnalysisSettings.EnergyConvergence"></a>
 
-### *property* ANSYSAnalysisSettings.EnergyConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](./../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.EnergyConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EnergyConvergence.
 
@@ -1701,7 +1701,7 @@ Gets or sets the EnergyConvergence.
 
 <a id="ANSYSAnalysisSettings.ForceConvergence"></a>
 
-### *property* ANSYSAnalysisSettings.ForceConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](./../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ForceConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ForceConvergence.
 
@@ -1709,7 +1709,7 @@ Gets or sets the ForceConvergence.
 
 <a id="ANSYSAnalysisSettings.HeatConvergence"></a>
 
-### *property* ANSYSAnalysisSettings.HeatConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](./../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.HeatConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HeatConvergence.
 
@@ -1717,7 +1717,7 @@ Gets or sets the HeatConvergence.
 
 <a id="ANSYSAnalysisSettings.MomentConvergence"></a>
 
-### *property* ANSYSAnalysisSettings.MomentConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](./../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.MomentConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MomentConvergence.
 
@@ -1725,7 +1725,7 @@ Gets or sets the MomentConvergence.
 
 <a id="ANSYSAnalysisSettings.RotationConvergence"></a>
 
-### *property* ANSYSAnalysisSettings.RotationConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](./../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.RotationConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RotationConvergence.
 
@@ -1733,7 +1733,7 @@ Gets or sets the RotationConvergence.
 
 <a id="ANSYSAnalysisSettings.TemperatureConvergence"></a>
 
-### *property* ANSYSAnalysisSettings.TemperatureConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](./../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.TemperatureConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TemperatureConvergence.
 
@@ -1741,7 +1741,7 @@ Gets or sets the TemperatureConvergence.
 
 <a id="ANSYSAnalysisSettings.TemperatureConvergenceValue"></a>
 
-### *property* ANSYSAnalysisSettings.TemperatureConvergenceValue *: [Ansys.Mechanical.DataModel.Enums.NonLinearValueType](./../../../../Mechanical/DataModel/Enums/NonLinearValueType.md#NonLinearValueType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.TemperatureConvergenceValue *: [Ansys.Mechanical.DataModel.Enums.NonLinearValueType](../../../../Mechanical/DataModel/Enums/NonLinearValueType.md#NonLinearValueType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TemperatureConvergenceValue.
 
@@ -1749,7 +1749,7 @@ Gets or sets the TemperatureConvergenceValue.
 
 <a id="ANSYSAnalysisSettings.VoltageConvergence"></a>
 
-### *property* ANSYSAnalysisSettings.VoltageConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](./../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.VoltageConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the VoltageConvergence.
 
@@ -1757,7 +1757,7 @@ Gets or sets the VoltageConvergence.
 
 <a id="ANSYSAnalysisSettings.CoriolisEffectApplied"></a>
 
-### *property* ANSYSAnalysisSettings.CoriolisEffectApplied *: [Ansys.Mechanical.DataModel.Enums.CoriolisEffectType](./../../../../Mechanical/DataModel/Enums/CoriolisEffectType.md#CoriolisEffectType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.CoriolisEffectApplied *: [Ansys.Mechanical.DataModel.Enums.CoriolisEffectType](../../../../Mechanical/DataModel/Enums/CoriolisEffectType.md#CoriolisEffectType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoriolisEffectApplied.
 
@@ -1765,7 +1765,7 @@ Gets or sets the CoriolisEffectApplied.
 
 <a id="ANSYSAnalysisSettings.CreepEffects"></a>
 
-### *property* ANSYSAnalysisSettings.CreepEffects *: [Ansys.Mechanical.DataModel.Enums.Creep](./../../../../Mechanical/DataModel/Enums/Creep.md#Creep) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.CreepEffects *: [Ansys.Mechanical.DataModel.Enums.Creep](../../../../Mechanical/DataModel/Enums/Creep.md#Creep) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CreepEffects.
 
@@ -1773,7 +1773,7 @@ Gets or sets the CreepEffects.
 
 <a id="ANSYSAnalysisSettings.HarmonicIndexRange"></a>
 
-### *property* ANSYSAnalysisSettings.HarmonicIndexRange *: [Ansys.Mechanical.DataModel.Enums.CyclicHarmonicIndex](./../../../../Mechanical/DataModel/Enums/CyclicHarmonicIndex.md#CyclicHarmonicIndex) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.HarmonicIndexRange *: [Ansys.Mechanical.DataModel.Enums.CyclicHarmonicIndex](../../../../Mechanical/DataModel/Enums/CyclicHarmonicIndex.md#CyclicHarmonicIndex) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HarmonicIndexRange.
 
@@ -1781,7 +1781,7 @@ Gets or sets the HarmonicIndexRange.
 
 <a id="ANSYSAnalysisSettings.DampingDefineBy"></a>
 
-### *property* ANSYSAnalysisSettings.DampingDefineBy *: [Ansys.Mechanical.DataModel.Enums.DampingDefineBy](./../../../../Mechanical/DataModel/Enums/DampingDefineBy.md#DampingDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.DampingDefineBy *: [Ansys.Mechanical.DataModel.Enums.DampingDefineBy](../../../../Mechanical/DataModel/Enums/DampingDefineBy.md#DampingDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DampingDefineBy.
 
@@ -1789,7 +1789,7 @@ Gets or sets the DampingDefineBy.
 
 <a id="ANSYSAnalysisSettings.FarFieldRadiationSurface"></a>
 
-### *property* ANSYSAnalysisSettings.FarFieldRadiationSurface *: [Ansys.Mechanical.DataModel.Enums.FarFieldRadiationSurfaceType](./../../../../Mechanical/DataModel/Enums/FarFieldRadiationSurfaceType.md#FarFieldRadiationSurfaceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.FarFieldRadiationSurface *: [Ansys.Mechanical.DataModel.Enums.FarFieldRadiationSurfaceType](../../../../Mechanical/DataModel/Enums/FarFieldRadiationSurfaceType.md#FarFieldRadiationSurfaceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FarFieldRadiationSurface.
 
@@ -1797,7 +1797,7 @@ Gets or sets the FarFieldRadiationSurface.
 
 <a id="ANSYSAnalysisSettings.ExpandResultsFrom"></a>
 
-### *property* ANSYSAnalysisSettings.ExpandResultsFrom *: [Ansys.Mechanical.DataModel.Enums.ExpandResultFrom](./../../../../Mechanical/DataModel/Enums/ExpandResultFrom.md#ExpandResultFrom) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ExpandResultsFrom *: [Ansys.Mechanical.DataModel.Enums.ExpandResultFrom](../../../../Mechanical/DataModel/Enums/ExpandResultFrom.md#ExpandResultFrom) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ExpandResultsFrom.
 
@@ -1805,7 +1805,7 @@ Gets or sets the ExpandResultsFrom.
 
 <a id="ANSYSAnalysisSettings.FrequencySpacing"></a>
 
-### *property* ANSYSAnalysisSettings.FrequencySpacing *: [Ansys.Mechanical.DataModel.Enums.FrequencySpacingType](./../../../../Mechanical/DataModel/Enums/FrequencySpacingType.md#FrequencySpacingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.FrequencySpacing *: [Ansys.Mechanical.DataModel.Enums.FrequencySpacingType](../../../../Mechanical/DataModel/Enums/FrequencySpacingType.md#FrequencySpacingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FrequencySpacing.
 
@@ -1813,7 +1813,7 @@ Gets or sets the FrequencySpacing.
 
 <a id="ANSYSAnalysisSettings.FutureAnalysis"></a>
 
-### *property* ANSYSAnalysisSettings.FutureAnalysis *: [Ansys.Mechanical.DataModel.Enums.FutureIntentType](./../../../../Mechanical/DataModel/Enums/FutureIntentType.md#FutureIntentType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.FutureAnalysis *: [Ansys.Mechanical.DataModel.Enums.FutureIntentType](../../../../Mechanical/DataModel/Enums/FutureIntentType.md#FutureIntentType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FutureAnalysis.
 
@@ -1821,7 +1821,7 @@ Gets or sets the FutureAnalysis.
 
 <a id="ANSYSAnalysisSettings.GeneralMiscellaneousOption"></a>
 
-### *property* ANSYSAnalysisSettings.GeneralMiscellaneousOption *: [Ansys.Mechanical.DataModel.Enums.GeneralMiscellaneousOptionType](./../../../../Mechanical/DataModel/Enums/GeneralMiscellaneousOptionType.md#GeneralMiscellaneousOptionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.GeneralMiscellaneousOption *: [Ansys.Mechanical.DataModel.Enums.GeneralMiscellaneousOptionType](../../../../Mechanical/DataModel/Enums/GeneralMiscellaneousOptionType.md#GeneralMiscellaneousOptionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GeneralMiscellaneousOption.
 
@@ -1829,7 +1829,7 @@ Gets or sets the GeneralMiscellaneousOption.
 
 <a id="ANSYSAnalysisSettings.MultistepType"></a>
 
-### *property* ANSYSAnalysisSettings.MultistepType *: [Ansys.Mechanical.DataModel.Enums.HarmonicMultiStepType](./../../../../Mechanical/DataModel/Enums/HarmonicMultiStepType.md#HarmonicMultiStepType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.MultistepType *: [Ansys.Mechanical.DataModel.Enums.HarmonicMultiStepType](../../../../Mechanical/DataModel/Enums/HarmonicMultiStepType.md#HarmonicMultiStepType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MultistepType.
 
@@ -1837,7 +1837,7 @@ Gets or sets the MultistepType.
 
 <a id="ANSYSAnalysisSettings.ModalFrequencyRange"></a>
 
-### *property* ANSYSAnalysisSettings.ModalFrequencyRange *: [Ansys.Mechanical.DataModel.Enums.ModalFrequencyRangeType](./../../../../Mechanical/DataModel/Enums/ModalFrequencyRangeType.md#ModalFrequencyRangeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ModalFrequencyRange *: [Ansys.Mechanical.DataModel.Enums.ModalFrequencyRangeType](../../../../Mechanical/DataModel/Enums/ModalFrequencyRangeType.md#ModalFrequencyRangeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ModalFrequencyRange.
 
@@ -1845,7 +1845,7 @@ Gets or sets the ModalFrequencyRange.
 
 <a id="ANSYSAnalysisSettings.StoreResultsAtAllFrequencies"></a>
 
-### *property* ANSYSAnalysisSettings.StoreResultsAtAllFrequencies *: [Ansys.Mechanical.DataModel.Enums.HarmonicMSUPStorage](./../../../../Mechanical/DataModel/Enums/HarmonicMSUPStorage.md#HarmonicMSUPStorage) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.StoreResultsAtAllFrequencies *: [Ansys.Mechanical.DataModel.Enums.HarmonicMSUPStorage](../../../../Mechanical/DataModel/Enums/HarmonicMSUPStorage.md#HarmonicMSUPStorage) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StoreResultsAtAllFrequencies.
 
@@ -1853,7 +1853,7 @@ Gets or sets the StoreResultsAtAllFrequencies.
 
 <a id="ANSYSAnalysisSettings.SolutionMethod"></a>
 
-### *property* ANSYSAnalysisSettings.SolutionMethod *: [Ansys.Mechanical.DataModel.Enums.HarmonicMethod](./../../../../Mechanical/DataModel/Enums/HarmonicMethod.md#HarmonicMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.SolutionMethod *: [Ansys.Mechanical.DataModel.Enums.HarmonicMethod](../../../../Mechanical/DataModel/Enums/HarmonicMethod.md#HarmonicMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolutionMethod.
 
@@ -1861,7 +1861,7 @@ Gets or sets the SolutionMethod.
 
 <a id="ANSYSAnalysisSettings.IncludeNegativeLoadMultiplier"></a>
 
-### *property* ANSYSAnalysisSettings.IncludeNegativeLoadMultiplier *: [Ansys.Mechanical.DataModel.Enums.SolverControlsIncludeNegativeLoadMultiplier](./../../../../Mechanical/DataModel/Enums/SolverControlsIncludeNegativeLoadMultiplier.md#SolverControlsIncludeNegativeLoadMultiplier) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.IncludeNegativeLoadMultiplier *: [Ansys.Mechanical.DataModel.Enums.SolverControlsIncludeNegativeLoadMultiplier](../../../../Mechanical/DataModel/Enums/SolverControlsIncludeNegativeLoadMultiplier.md#SolverControlsIncludeNegativeLoadMultiplier) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IncludeNegativeLoadMultiplier.
 
@@ -1869,7 +1869,7 @@ Gets or sets the IncludeNegativeLoadMultiplier.
 
 <a id="ANSYSAnalysisSettings.LineSearch"></a>
 
-### *property* ANSYSAnalysisSettings.LineSearch *: [Ansys.Mechanical.DataModel.Enums.LineSearchType](./../../../../Mechanical/DataModel/Enums/LineSearchType.md#LineSearchType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.LineSearch *: [Ansys.Mechanical.DataModel.Enums.LineSearchType](../../../../Mechanical/DataModel/Enums/LineSearchType.md#LineSearchType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LineSearch.
 
@@ -1877,7 +1877,7 @@ Gets or sets the LineSearch.
 
 <a id="ANSYSAnalysisSettings.GenerateMeshRestartPoints"></a>
 
-### *property* ANSYSAnalysisSettings.GenerateMeshRestartPoints *: [Ansys.Mechanical.DataModel.Enums.MeshRestartControlsType](./../../../../Mechanical/DataModel/Enums/MeshRestartControlsType.md#MeshRestartControlsType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.GenerateMeshRestartPoints *: [Ansys.Mechanical.DataModel.Enums.MeshRestartControlsType](../../../../Mechanical/DataModel/Enums/MeshRestartControlsType.md#MeshRestartControlsType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GenerateMeshRestartPoints.
 
@@ -1885,7 +1885,7 @@ Gets or sets the GenerateMeshRestartPoints.
 
 <a id="ANSYSAnalysisSettings.MeshRetainFilesAfterFullSolve"></a>
 
-### *property* ANSYSAnalysisSettings.MeshRetainFilesAfterFullSolve *: [Ansys.Mechanical.DataModel.Enums.MeshRestartRetainFilesType](./../../../../Mechanical/DataModel/Enums/MeshRestartRetainFilesType.md#MeshRestartRetainFilesType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.MeshRetainFilesAfterFullSolve *: [Ansys.Mechanical.DataModel.Enums.MeshRestartRetainFilesType](../../../../Mechanical/DataModel/Enums/MeshRestartRetainFilesType.md#MeshRestartRetainFilesType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MeshRetainFilesAfterFullSolve.
 
@@ -1893,7 +1893,7 @@ Gets or sets the MeshRetainFilesAfterFullSolve.
 
 <a id="ANSYSAnalysisSettings.MeshSaveAtLoadStep"></a>
 
-### *property* ANSYSAnalysisSettings.MeshSaveAtLoadStep *: [Ansys.Mechanical.DataModel.Enums.MeshRestartSaveAtLoadStep](./../../../../Mechanical/DataModel/Enums/MeshRestartSaveAtLoadStep.md#MeshRestartSaveAtLoadStep) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.MeshSaveAtLoadStep *: [Ansys.Mechanical.DataModel.Enums.MeshRestartSaveAtLoadStep](../../../../Mechanical/DataModel/Enums/MeshRestartSaveAtLoadStep.md#MeshRestartSaveAtLoadStep) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MeshSaveAtLoadStep.
 
@@ -1901,7 +1901,7 @@ Gets or sets the MeshSaveAtLoadStep.
 
 <a id="ANSYSAnalysisSettings.MeshSaveAtSubstep"></a>
 
-### *property* ANSYSAnalysisSettings.MeshSaveAtSubstep *: [Ansys.Mechanical.DataModel.Enums.MeshRestartSaveAtSubstep](./../../../../Mechanical/DataModel/Enums/MeshRestartSaveAtSubstep.md#MeshRestartSaveAtSubstep) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.MeshSaveAtSubstep *: [Ansys.Mechanical.DataModel.Enums.MeshRestartSaveAtSubstep](../../../../Mechanical/DataModel/Enums/MeshRestartSaveAtSubstep.md#MeshRestartSaveAtSubstep) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MeshSaveAtSubstep.
 
@@ -1909,7 +1909,7 @@ Gets or sets the MeshSaveAtSubstep.
 
 <a id="ANSYSAnalysisSettings.ModeReuse"></a>
 
-### *property* ANSYSAnalysisSettings.ModeReuse *: [Ansys.Mechanical.DataModel.Enums.SolverControlsModeReuse](./../../../../Mechanical/DataModel/Enums/SolverControlsModeReuse.md#SolverControlsModeReuse) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ModeReuse *: [Ansys.Mechanical.DataModel.Enums.SolverControlsModeReuse](../../../../Mechanical/DataModel/Enums/SolverControlsModeReuse.md#SolverControlsModeReuse) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ModeReuse.
 
@@ -1917,7 +1917,7 @@ Gets or sets the ModeReuse.
 
 <a id="ANSYSAnalysisSettings.ModesCombinationType"></a>
 
-### *property* ANSYSAnalysisSettings.ModesCombinationType *: [Ansys.Mechanical.DataModel.Enums.ModesCombinationType](./../../../../Mechanical/DataModel/Enums/ModesCombinationType.md#ModesCombinationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ModesCombinationType *: [Ansys.Mechanical.DataModel.Enums.ModesCombinationType](../../../../Mechanical/DataModel/Enums/ModesCombinationType.md#ModesCombinationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ModesCombinationType.
 
@@ -1925,7 +1925,7 @@ Gets or sets the ModesCombinationType.
 
 <a id="ANSYSAnalysisSettings.ModeSelectionMethod"></a>
 
-### *property* ANSYSAnalysisSettings.ModeSelectionMethod *: [Ansys.Mechanical.DataModel.Enums.ModeSelectionMethod](./../../../../Mechanical/DataModel/Enums/ModeSelectionMethod.md#ModeSelectionMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ModeSelectionMethod *: [Ansys.Mechanical.DataModel.Enums.ModeSelectionMethod](../../../../Mechanical/DataModel/Enums/ModeSelectionMethod.md#ModeSelectionMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ModeSelectionMethod.
 
@@ -1933,7 +1933,7 @@ Gets or sets the ModeSelectionMethod.
 
 <a id="ANSYSAnalysisSettings.OnDemandExpansionOption"></a>
 
-### *property* ANSYSAnalysisSettings.OnDemandExpansionOption *: [Ansys.Mechanical.DataModel.Enums.OnDemandExpansionType](./../../../../Mechanical/DataModel/Enums/OnDemandExpansionType.md#OnDemandExpansionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.OnDemandExpansionOption *: [Ansys.Mechanical.DataModel.Enums.OnDemandExpansionType](../../../../Mechanical/DataModel/Enums/OnDemandExpansionType.md#OnDemandExpansionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the OnDemandExpansionOption.
 
@@ -1941,7 +1941,7 @@ Gets or sets the OnDemandExpansionOption.
 
 <a id="ANSYSAnalysisSettings.NewtonRaphsonOption"></a>
 
-### *property* ANSYSAnalysisSettings.NewtonRaphsonOption *: [Ansys.Mechanical.DataModel.Enums.NewtonRaphsonType](./../../../../Mechanical/DataModel/Enums/NewtonRaphsonType.md#NewtonRaphsonType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.NewtonRaphsonOption *: [Ansys.Mechanical.DataModel.Enums.NewtonRaphsonType](../../../../Mechanical/DataModel/Enums/NewtonRaphsonType.md#NewtonRaphsonType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NewtonRaphsonOption.
 
@@ -1949,7 +1949,7 @@ Gets or sets the NewtonRaphsonOption.
 
 <a id="ANSYSAnalysisSettings.NodalForces"></a>
 
-### *property* ANSYSAnalysisSettings.NodalForces *: [Ansys.Mechanical.DataModel.Enums.OutputControlsNodalForcesType](./../../../../Mechanical/DataModel/Enums/OutputControlsNodalForcesType.md#OutputControlsNodalForcesType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.NodalForces *: [Ansys.Mechanical.DataModel.Enums.OutputControlsNodalForcesType](../../../../Mechanical/DataModel/Enums/OutputControlsNodalForcesType.md#OutputControlsNodalForcesType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NodalForces.
 
@@ -1957,7 +1957,7 @@ Gets or sets the NodalForces.
 
 <a id="ANSYSAnalysisSettings.ProjectToGeometry"></a>
 
-### *property* ANSYSAnalysisSettings.ProjectToGeometry *: [Ansys.Mechanical.DataModel.Enums.NLADControlProjectToGeometry](./../../../../Mechanical/DataModel/Enums/NLADControlProjectToGeometry.md#NLADControlProjectToGeometry) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ProjectToGeometry *: [Ansys.Mechanical.DataModel.Enums.NLADControlProjectToGeometry](../../../../Mechanical/DataModel/Enums/NLADControlProjectToGeometry.md#NLADControlProjectToGeometry) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ProjectToGeometry.
 
@@ -1965,7 +1965,7 @@ Gets or sets the ProjectToGeometry.
 
 <a id="ANSYSAnalysisSettings.RefinementAlgorithm"></a>
 
-### *property* ANSYSAnalysisSettings.RefinementAlgorithm *: [Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityControlsRefinementAlgorithmType](./../../../../Mechanical/DataModel/Enums/NonlinearAdaptivityControlsRefinementAlgorithmType.md#NonlinearAdaptivityControlsRefinementAlgorithmType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.RefinementAlgorithm *: [Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityControlsRefinementAlgorithmType](../../../../Mechanical/DataModel/Enums/NonlinearAdaptivityControlsRefinementAlgorithmType.md#NonlinearAdaptivityControlsRefinementAlgorithmType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RefinementAlgorithm.
 
@@ -1973,7 +1973,7 @@ Gets or sets the RefinementAlgorithm.
 
 <a id="ANSYSAnalysisSettings.RemeshingGradient"></a>
 
-### *property* ANSYSAnalysisSettings.RemeshingGradient *: [Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityControlsRemeshingGradientType](./../../../../Mechanical/DataModel/Enums/NonlinearAdaptivityControlsRemeshingGradientType.md#NonlinearAdaptivityControlsRemeshingGradientType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.RemeshingGradient *: [Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityControlsRemeshingGradientType](../../../../Mechanical/DataModel/Enums/NonlinearAdaptivityControlsRemeshingGradientType.md#NonlinearAdaptivityControlsRemeshingGradientType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RemeshingGradient.
 
@@ -1981,7 +1981,7 @@ Gets or sets the RemeshingGradient.
 
 <a id="ANSYSAnalysisSettings.NonLinearFormulation"></a>
 
-### *property* ANSYSAnalysisSettings.NonLinearFormulation *: [Ansys.Mechanical.DataModel.Enums.NonLinearFormulationType](./../../../../Mechanical/DataModel/Enums/NonLinearFormulationType.md#NonLinearFormulationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.NonLinearFormulation *: [Ansys.Mechanical.DataModel.Enums.NonLinearFormulationType](../../../../Mechanical/DataModel/Enums/NonLinearFormulationType.md#NonLinearFormulationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NonLinearFormulation.
 
@@ -1989,7 +1989,7 @@ Gets or sets the NonLinearFormulation.
 
 <a id="ANSYSAnalysisSettings.NumericalDamping"></a>
 
-### *property* ANSYSAnalysisSettings.NumericalDamping *: [Ansys.Mechanical.DataModel.Enums.TransientDampingType](./../../../../Mechanical/DataModel/Enums/TransientDampingType.md#TransientDampingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.NumericalDamping *: [Ansys.Mechanical.DataModel.Enums.TransientDampingType](../../../../Mechanical/DataModel/Enums/TransientDampingType.md#TransientDampingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumericalDamping.
 
@@ -1997,7 +1997,7 @@ Gets or sets the NumericalDamping.
 
 <a id="ANSYSAnalysisSettings.Expansion"></a>
 
-### *property* ANSYSAnalysisSettings.Expansion *: [Ansys.Mechanical.DataModel.Enums.ExpandResultsSubType](./../../../../Mechanical/DataModel/Enums/ExpandResultsSubType.md#ExpandResultsSubType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.Expansion *: [Ansys.Mechanical.DataModel.Enums.ExpandResultsSubType](../../../../Mechanical/DataModel/Enums/ExpandResultsSubType.md#ExpandResultsSubType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Expansion.
 
@@ -2005,7 +2005,7 @@ Gets the Expansion.
 
 <a id="ANSYSAnalysisSettings.ViewFactorMethod"></a>
 
-### *property* ANSYSAnalysisSettings.ViewFactorMethod *: [Ansys.Mechanical.DataModel.Enums.RadiosityViewFactorType](./../../../../Mechanical/DataModel/Enums/RadiosityViewFactorType.md#RadiosityViewFactorType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ViewFactorMethod *: [Ansys.Mechanical.DataModel.Enums.RadiosityViewFactorType](../../../../Mechanical/DataModel/Enums/RadiosityViewFactorType.md#RadiosityViewFactorType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ViewFactorMethod.
 
@@ -2013,7 +2013,7 @@ Gets or sets the ViewFactorMethod.
 
 <a id="ANSYSAnalysisSettings.RadiositySolver"></a>
 
-### *property* ANSYSAnalysisSettings.RadiositySolver *: [Ansys.Mechanical.DataModel.Enums.RadiositySolverType](./../../../../Mechanical/DataModel/Enums/RadiositySolverType.md#RadiositySolverType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.RadiositySolver *: [Ansys.Mechanical.DataModel.Enums.RadiositySolverType](../../../../Mechanical/DataModel/Enums/RadiositySolverType.md#RadiositySolverType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RadiositySolver.
 
@@ -2021,7 +2021,7 @@ Gets or sets the RadiositySolver.
 
 <a id="ANSYSAnalysisSettings.CombineRestartFiles"></a>
 
-### *property* ANSYSAnalysisSettings.CombineRestartFiles *: [Ansys.Mechanical.DataModel.Enums.CombineRestartFilesType](./../../../../Mechanical/DataModel/Enums/CombineRestartFilesType.md#CombineRestartFilesType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.CombineRestartFiles *: [Ansys.Mechanical.DataModel.Enums.CombineRestartFilesType](../../../../Mechanical/DataModel/Enums/CombineRestartFilesType.md#CombineRestartFilesType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CombineRestartFiles.
 
@@ -2029,7 +2029,7 @@ Gets or sets the CombineRestartFiles.
 
 <a id="ANSYSAnalysisSettings.GenerateRestartPoints"></a>
 
-### *property* ANSYSAnalysisSettings.GenerateRestartPoints *: [Ansys.Mechanical.DataModel.Enums.RestartControlsType](./../../../../Mechanical/DataModel/Enums/RestartControlsType.md#RestartControlsType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.GenerateRestartPoints *: [Ansys.Mechanical.DataModel.Enums.RestartControlsType](../../../../Mechanical/DataModel/Enums/RestartControlsType.md#RestartControlsType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GenerateRestartPoints.
 
@@ -2037,7 +2037,7 @@ Gets or sets the GenerateRestartPoints.
 
 <a id="ANSYSAnalysisSettings.RetainFilesAfterFullSolve"></a>
 
-### *property* ANSYSAnalysisSettings.RetainFilesAfterFullSolve *: [Ansys.Mechanical.DataModel.Enums.RestartRetainFilesType](./../../../../Mechanical/DataModel/Enums/RestartRetainFilesType.md#RestartRetainFilesType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.RetainFilesAfterFullSolve *: [Ansys.Mechanical.DataModel.Enums.RestartRetainFilesType](../../../../Mechanical/DataModel/Enums/RestartRetainFilesType.md#RestartRetainFilesType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RetainFilesAfterFullSolve.
 
@@ -2045,7 +2045,7 @@ Gets or sets the RetainFilesAfterFullSolve.
 
 <a id="ANSYSAnalysisSettings.RestartType"></a>
 
-### *property* ANSYSAnalysisSettings.RestartType *: [Ansys.Mechanical.DataModel.Enums.RestartType](./../../../../Mechanical/DataModel/Enums/RestartType.md#RestartType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.RestartType *: [Ansys.Mechanical.DataModel.Enums.RestartType](../../../../Mechanical/DataModel/Enums/RestartType.md#RestartType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RestartType.
 
@@ -2053,7 +2053,7 @@ Gets or sets the RestartType.
 
 <a id="ANSYSAnalysisSettings.ResultFileCompression"></a>
 
-### *property* ANSYSAnalysisSettings.ResultFileCompression *: [Ansys.Mechanical.DataModel.Enums.ResultFileCompressionType](./../../../../Mechanical/DataModel/Enums/ResultFileCompressionType.md#ResultFileCompressionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ResultFileCompression *: [Ansys.Mechanical.DataModel.Enums.ResultFileCompressionType](../../../../Mechanical/DataModel/Enums/ResultFileCompressionType.md#ResultFileCompressionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ResultFileCompression.
 
@@ -2061,7 +2061,7 @@ Gets or sets the ResultFileCompression.
 
 <a id="ANSYSAnalysisSettings.RpmFrequencySpacing"></a>
 
-### *property* ANSYSAnalysisSettings.RpmFrequencySpacing *: [Ansys.Mechanical.DataModel.Enums.FrequencySpacingType](./../../../../Mechanical/DataModel/Enums/FrequencySpacingType.md#FrequencySpacingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.RpmFrequencySpacing *: [Ansys.Mechanical.DataModel.Enums.FrequencySpacingType](../../../../Mechanical/DataModel/Enums/FrequencySpacingType.md#FrequencySpacingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RpmFrequencySpacing.
 
@@ -2069,7 +2069,7 @@ Gets or sets the RpmFrequencySpacing.
 
 <a id="ANSYSAnalysisSettings.SaveAtLoadStep"></a>
 
-### *property* ANSYSAnalysisSettings.SaveAtLoadStep *: [Ansys.Mechanical.DataModel.Enums.RestartSaveAtLoadStep](./../../../../Mechanical/DataModel/Enums/RestartSaveAtLoadStep.md#RestartSaveAtLoadStep) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.SaveAtLoadStep *: [Ansys.Mechanical.DataModel.Enums.RestartSaveAtLoadStep](../../../../Mechanical/DataModel/Enums/RestartSaveAtLoadStep.md#RestartSaveAtLoadStep) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SaveAtLoadStep.
 
@@ -2077,7 +2077,7 @@ Gets or sets the SaveAtLoadStep.
 
 <a id="ANSYSAnalysisSettings.SaveAtSubstep"></a>
 
-### *property* ANSYSAnalysisSettings.SaveAtSubstep *: [Ansys.Mechanical.DataModel.Enums.RestartSaveAtSubstep](./../../../../Mechanical/DataModel/Enums/RestartSaveAtSubstep.md#RestartSaveAtSubstep) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.SaveAtSubstep *: [Ansys.Mechanical.DataModel.Enums.RestartSaveAtSubstep](../../../../Mechanical/DataModel/Enums/RestartSaveAtSubstep.md#RestartSaveAtSubstep) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SaveAtSubstep.
 
@@ -2085,7 +2085,7 @@ Gets or sets the SaveAtSubstep.
 
 <a id="ANSYSAnalysisSettings.ScatteredFieldFormulation"></a>
 
-### *property* ANSYSAnalysisSettings.ScatteredFieldFormulation *: [Ansys.Mechanical.DataModel.Enums.ScatteredFieldFormulation](./../../../../Mechanical/DataModel/Enums/ScatteredFieldFormulation.md#ScatteredFieldFormulation) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ScatteredFieldFormulation *: [Ansys.Mechanical.DataModel.Enums.ScatteredFieldFormulation](../../../../Mechanical/DataModel/Enums/ScatteredFieldFormulation.md#ScatteredFieldFormulation) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScatteredFieldFormulation.
 
@@ -2093,7 +2093,7 @@ Gets or sets the ScatteredFieldFormulation.
 
 <a id="ANSYSAnalysisSettings.ScatteringOutputType"></a>
 
-### *property* ANSYSAnalysisSettings.ScatteringOutputType *: [Ansys.Mechanical.DataModel.Enums.ScatteringOutputType](./../../../../Mechanical/DataModel/Enums/ScatteringOutputType.md#ScatteringOutputType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ScatteringOutputType *: [Ansys.Mechanical.DataModel.Enums.ScatteringOutputType](../../../../Mechanical/DataModel/Enums/ScatteringOutputType.md#ScatteringOutputType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScatteringOutputType.
 
@@ -2101,7 +2101,7 @@ Gets or sets the ScatteringOutputType.
 
 <a id="ANSYSAnalysisSettings.SolverUnitSystem"></a>
 
-### *property* ANSYSAnalysisSettings.SolverUnitSystem *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](./../../../../Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.SolverUnitSystem *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](../../../../Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverUnitSystem.
 
@@ -2109,7 +2109,7 @@ Gets or sets the SolverUnitSystem.
 
 <a id="ANSYSAnalysisSettings.SolverPivotChecking"></a>
 
-### *property* ANSYSAnalysisSettings.SolverPivotChecking *: [Ansys.Mechanical.DataModel.Enums.SolverPivotChecking](./../../../../Mechanical/DataModel/Enums/SolverPivotChecking.md#SolverPivotChecking) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.SolverPivotChecking *: [Ansys.Mechanical.DataModel.Enums.SolverPivotChecking](../../../../Mechanical/DataModel/Enums/SolverPivotChecking.md#SolverPivotChecking) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverPivotChecking.
 
@@ -2117,7 +2117,7 @@ Gets or sets the SolverPivotChecking.
 
 <a id="ANSYSAnalysisSettings.SolverType"></a>
 
-### *property* ANSYSAnalysisSettings.SolverType *: [Ansys.Mechanical.DataModel.Enums.SolverType](./../../../../Mechanical/DataModel/Enums/SolverType.md#SolverType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.SolverType *: [Ansys.Mechanical.DataModel.Enums.SolverType](../../../../Mechanical/DataModel/Enums/SolverType.md#SolverType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverType.
 
@@ -2125,7 +2125,7 @@ Gets or sets the SolverType.
 
 <a id="ANSYSAnalysisSettings.SolverUnits"></a>
 
-### *property* ANSYSAnalysisSettings.SolverUnits *: [Ansys.Mechanical.DataModel.Enums.SolverUnitsControlType](./../../../../Mechanical/DataModel/Enums/SolverUnitsControlType.md#SolverUnitsControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.SolverUnits *: [Ansys.Mechanical.DataModel.Enums.SolverUnitsControlType](../../../../Mechanical/DataModel/Enums/SolverUnitsControlType.md#SolverUnitsControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverUnits.
 
@@ -2133,7 +2133,7 @@ Gets or sets the SolverUnits.
 
 <a id="ANSYSAnalysisSettings.SpectrumType"></a>
 
-### *property* ANSYSAnalysisSettings.SpectrumType *: [Ansys.Mechanical.DataModel.Enums.SpectrumType](./../../../../Mechanical/DataModel/Enums/SpectrumType.md#SpectrumType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.SpectrumType *: [Ansys.Mechanical.DataModel.Enums.SpectrumType](../../../../Mechanical/DataModel/Enums/SpectrumType.md#SpectrumType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SpectrumType.
 
@@ -2141,7 +2141,7 @@ Gets or sets the SpectrumType.
 
 <a id="ANSYSAnalysisSettings.Stabilization"></a>
 
-### *property* ANSYSAnalysisSettings.Stabilization *: [Ansys.Mechanical.DataModel.Enums.StabilizationType](./../../../../Mechanical/DataModel/Enums/StabilizationType.md#StabilizationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.Stabilization *: [Ansys.Mechanical.DataModel.Enums.StabilizationType](../../../../Mechanical/DataModel/Enums/StabilizationType.md#StabilizationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Stabilization.
 
@@ -2149,7 +2149,7 @@ Gets or sets the Stabilization.
 
 <a id="ANSYSAnalysisSettings.StabilizationActivationForFirstSubstep"></a>
 
-### *property* ANSYSAnalysisSettings.StabilizationActivationForFirstSubstep *: [Ansys.Mechanical.DataModel.Enums.StabilizationFirstSubstepOption](./../../../../Mechanical/DataModel/Enums/StabilizationFirstSubstepOption.md#StabilizationFirstSubstepOption) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.StabilizationActivationForFirstSubstep *: [Ansys.Mechanical.DataModel.Enums.StabilizationFirstSubstepOption](../../../../Mechanical/DataModel/Enums/StabilizationFirstSubstepOption.md#StabilizationFirstSubstepOption) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StabilizationActivationForFirstSubstep.
 
@@ -2157,7 +2157,7 @@ Gets or sets the StabilizationActivationForFirstSubstep.
 
 <a id="ANSYSAnalysisSettings.StabilizationMethod"></a>
 
-### *property* ANSYSAnalysisSettings.StabilizationMethod *: [Ansys.Mechanical.DataModel.Enums.StabilizationMethod](./../../../../Mechanical/DataModel/Enums/StabilizationMethod.md#StabilizationMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.StabilizationMethod *: [Ansys.Mechanical.DataModel.Enums.StabilizationMethod](../../../../Mechanical/DataModel/Enums/StabilizationMethod.md#StabilizationMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StabilizationMethod.
 
@@ -2165,7 +2165,7 @@ Gets or sets the StabilizationMethod.
 
 <a id="ANSYSAnalysisSettings.StoreModalResults"></a>
 
-### *property* ANSYSAnalysisSettings.StoreModalResults *: [Ansys.Mechanical.DataModel.Enums.StoreModalResult](./../../../../Mechanical/DataModel/Enums/StoreModalResult.md#StoreModalResult) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.StoreModalResults *: [Ansys.Mechanical.DataModel.Enums.StoreModalResult](../../../../Mechanical/DataModel/Enums/StoreModalResult.md#StoreModalResult) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StoreModalResults.
 
@@ -2173,7 +2173,7 @@ Gets or sets the StoreModalResults.
 
 <a id="ANSYSAnalysisSettings.DefineBy"></a>
 
-### *property* ANSYSAnalysisSettings.DefineBy *: [Ansys.Mechanical.DataModel.Enums.TimeStepDefineByType](./../../../../Mechanical/DataModel/Enums/TimeStepDefineByType.md#TimeStepDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.DefineBy *: [Ansys.Mechanical.DataModel.Enums.TimeStepDefineByType](../../../../Mechanical/DataModel/Enums/TimeStepDefineByType.md#TimeStepDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DefineBy.
 
@@ -2181,7 +2181,7 @@ Gets or sets the DefineBy.
 
 <a id="ANSYSAnalysisSettings.TransientApplication"></a>
 
-### *property* ANSYSAnalysisSettings.TransientApplication *: [Ansys.Mechanical.DataModel.Enums.TransientApplicationType](./../../../../Mechanical/DataModel/Enums/TransientApplicationType.md#TransientApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.TransientApplication *: [Ansys.Mechanical.DataModel.Enums.TransientApplicationType](../../../../Mechanical/DataModel/Enums/TransientApplicationType.md#TransientApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TransientApplication.
 
@@ -2189,7 +2189,7 @@ Gets or sets the TransientApplication.
 
 <a id="ANSYSAnalysisSettings.AutomaticTimeStepping"></a>
 
-### *property* ANSYSAnalysisSettings.AutomaticTimeStepping *: [Ansys.Mechanical.DataModel.Enums.AutomaticTimeStepping](./../../../../Mechanical/DataModel/Enums/AutomaticTimeStepping.md#AutomaticTimeStepping) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.AutomaticTimeStepping *: [Ansys.Mechanical.DataModel.Enums.AutomaticTimeStepping](../../../../Mechanical/DataModel/Enums/AutomaticTimeStepping.md#AutomaticTimeStepping) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AutomaticTimeStepping.
 
@@ -2197,7 +2197,7 @@ Gets or sets the AutomaticTimeStepping.
 
 <a id="ANSYSAnalysisSettings.RetainModesymFileAfterSolve"></a>
 
-### *property* ANSYSAnalysisSettings.RetainModesymFileAfterSolve *: [Ansys.Mechanical.DataModel.Enums.UseExistingModesymFile](./../../../../Mechanical/DataModel/Enums/UseExistingModesymFile.md#UseExistingModesymFile) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.RetainModesymFileAfterSolve *: [Ansys.Mechanical.DataModel.Enums.UseExistingModesymFile](../../../../Mechanical/DataModel/Enums/UseExistingModesymFile.md#UseExistingModesymFile) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RetainModesymFileAfterSolve.
 
@@ -2205,7 +2205,7 @@ Gets or sets the RetainModesymFileAfterSolve.
 
 <a id="ANSYSAnalysisSettings.WeakSprings"></a>
 
-### *property* ANSYSAnalysisSettings.WeakSprings *: [Ansys.Mechanical.DataModel.Enums.WeakSpringsType](./../../../../Mechanical/DataModel/Enums/WeakSpringsType.md#WeakSpringsType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.WeakSprings *: [Ansys.Mechanical.DataModel.Enums.WeakSpringsType](../../../../Mechanical/DataModel/Enums/WeakSpringsType.md#WeakSpringsType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the WeakSprings.
 
@@ -2213,7 +2213,7 @@ Gets or sets the WeakSprings.
 
 <a id="ANSYSAnalysisSettings.SpringStiffness"></a>
 
-### *property* ANSYSAnalysisSettings.SpringStiffness *: [Ansys.Mechanical.DataModel.Enums.SpringsStiffnessType](./../../../../Mechanical/DataModel/Enums/SpringsStiffnessType.md#SpringsStiffnessType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.SpringStiffness *: [Ansys.Mechanical.DataModel.Enums.SpringsStiffnessType](../../../../Mechanical/DataModel/Enums/SpringsStiffnessType.md#SpringsStiffnessType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SpringStiffness.
 
@@ -2653,7 +2653,7 @@ Gets or sets the ThermalOnly.
 
 <a id="ANSYSAnalysisSettings.DataModelObjectCategory"></a>
 
-### *property* ANSYSAnalysisSettings.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -2661,7 +2661,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ANSYSAnalysisSettings.Graph"></a>
 
-### *property* ANSYSAnalysisSettings.Graph *: [Ansys.Mechanical.Graphics.AnalysisSettingsGraph](./../../../../Mechanical/Graphics/AnalysisSettingsGraph.md#AnalysisSettingsGraph) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.Graph *: [Ansys.Mechanical.Graphics.AnalysisSettingsGraph](../../../../Mechanical/Graphics/AnalysisSettingsGraph.md#AnalysisSettingsGraph) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Graph property.
 
@@ -2693,7 +2693,7 @@ Gets the list of children.
 
 <a id="ANSYSAnalysisSettings.Comments"></a>
 
-### *property* ANSYSAnalysisSettings.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -2701,7 +2701,7 @@ Gets the list of associated comments.
 
 <a id="ANSYSAnalysisSettings.Figures"></a>
 
-### *property* ANSYSAnalysisSettings.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -2709,7 +2709,7 @@ Gets the list of associated figures.
 
 <a id="ANSYSAnalysisSettings.Images"></a>
 
-### *property* ANSYSAnalysisSettings.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -2769,7 +2769,7 @@ Gets the Automatic Time Stepping at a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetAutomaticTimeStepping"></a>
 
-### ANSYSAnalysisSettings.SetAutomaticTimeStepping(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.AutomaticTimeStepping](./../../../../Mechanical/DataModel/Enums/AutomaticTimeStepping.md#AutomaticTimeStepping))
+### ANSYSAnalysisSettings.SetAutomaticTimeStepping(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.AutomaticTimeStepping](../../../../Mechanical/DataModel/Enums/AutomaticTimeStepping.md#AutomaticTimeStepping))
 
 Sets the Automatic Time Stepping for a given solution step.
 
@@ -2785,7 +2785,7 @@ Gets the Force Convergence Tolerance Type at a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetForceConvergenceType"></a>
 
-### ANSYSAnalysisSettings.SetForceConvergenceType(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](./../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType))
+### ANSYSAnalysisSettings.SetForceConvergenceType(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType))
 
 Sets the Force Convergence Tolerance Type for a given solution step.
 
@@ -2850,7 +2850,7 @@ Gets the Moment Convergence Tolerance type at a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetMomentConvergenceType"></a>
 
-### ANSYSAnalysisSettings.SetMomentConvergenceType(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](./../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType))
+### ANSYSAnalysisSettings.SetMomentConvergenceType(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType))
 
 Sets the Moment Convergence Tolerance type for a given solution step.
 
@@ -2915,7 +2915,7 @@ Gets the Displacement Convergence Tolerance type at a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetDisplacementConvergenceType"></a>
 
-### ANSYSAnalysisSettings.SetDisplacementConvergenceType(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](./../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType))
+### ANSYSAnalysisSettings.SetDisplacementConvergenceType(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType))
 
 Sets the Displacement Convergence Tolerance type for a given solution step.
 
@@ -2980,7 +2980,7 @@ Gets the Rotation Convergence Tolerance type at a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetRotationConvergenceType"></a>
 
-### ANSYSAnalysisSettings.SetRotationConvergenceType(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](./../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType))
+### ANSYSAnalysisSettings.SetRotationConvergenceType(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType))
 
 Sets the Rotation Convergence Tolerance type for a given solution step.
 
@@ -3037,7 +3037,7 @@ Sets the Rotation Convergence Minimum Reference for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetTemperatureConvergenceType"></a>
 
-### ANSYSAnalysisSettings.SetTemperatureConvergenceType(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](./../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType))
+### ANSYSAnalysisSettings.SetTemperatureConvergenceType(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType))
 
 Sets the Temperature Convergence Tolerance type for a given solution step.
 
@@ -3054,7 +3054,7 @@ For example if the user input is 5% then the “value” argument should be set 
 
 <a id="ANSYSAnalysisSettings.SetTemperatureConvergenceValue"></a>
 
-### ANSYSAnalysisSettings.SetTemperatureConvergenceValue(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.NonLinearValueType](./../../../../Mechanical/DataModel/Enums/NonLinearValueType.md#NonLinearValueType))
+### ANSYSAnalysisSettings.SetTemperatureConvergenceValue(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.NonLinearValueType](../../../../Mechanical/DataModel/Enums/NonLinearValueType.md#NonLinearValueType))
 
 Sets the Temperature Convergence Value for a given solution step.
 
@@ -3078,7 +3078,7 @@ Sets the Temperature Convergence Minimum Reference for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetHeatConvergenceType"></a>
 
-### ANSYSAnalysisSettings.SetHeatConvergenceType(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](./../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType))
+### ANSYSAnalysisSettings.SetHeatConvergenceType(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType))
 
 Sets the Heat Convergence Tolerance type for a given solution step.
 
@@ -3111,7 +3111,7 @@ Sets the Heat Convergence Minimum Reference for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetVoltageConvergenceType"></a>
 
-### ANSYSAnalysisSettings.SetVoltageConvergenceType(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](./../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType))
+### ANSYSAnalysisSettings.SetVoltageConvergenceType(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType))
 
 Sets the Voltage Convergence Tolerance type for a given solution step.
 
@@ -3144,7 +3144,7 @@ Sets the Voltage Convergence Minimum Reference for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetChargeConvergenceType"></a>
 
-### ANSYSAnalysisSettings.SetChargeConvergenceType(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](./../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType))
+### ANSYSAnalysisSettings.SetChargeConvergenceType(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType))
 
 Sets the Charge Convergence Tolerance type for a given solution step.
 
@@ -3177,7 +3177,7 @@ Sets the Charge Convergence Minimum Reference for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetEnergyConvergenceType"></a>
 
-### ANSYSAnalysisSettings.SetEnergyConvergenceType(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](./../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType))
+### ANSYSAnalysisSettings.SetEnergyConvergenceType(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType))
 
 Sets the Energy Convergence Tolerance type for a given solution step.
 
@@ -3210,7 +3210,7 @@ Sets the Energy Convergence Minimum Reference for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetCurrentConvergenceType"></a>
 
-### ANSYSAnalysisSettings.SetCurrentConvergenceType(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](./../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType))
+### ANSYSAnalysisSettings.SetCurrentConvergenceType(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType))
 
 Sets the Current Convergence Tolerance type for a given solution step.
 
@@ -3243,7 +3243,7 @@ Sets the Current Convergence Minimum Reference for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetEmagAMPSConvergenceType"></a>
 
-### ANSYSAnalysisSettings.SetEmagAMPSConvergenceType(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](./../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType))
+### ANSYSAnalysisSettings.SetEmagAMPSConvergenceType(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType))
 
 Sets the EmagAMPS Convergence Tolerance type for a given solution step.
 
@@ -3276,7 +3276,7 @@ Sets the EmagAMPS Convergence Minimum Reference for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetEmagCSGConvergenceType"></a>
 
-### ANSYSAnalysisSettings.SetEmagCSGConvergenceType(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](./../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType))
+### ANSYSAnalysisSettings.SetEmagCSGConvergenceType(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType))
 
 Sets the EmagCSG Convergence Tolerance type for a given solution step.
 
@@ -3549,7 +3549,7 @@ Gets the Line Search at a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetLineSearch"></a>
 
-### ANSYSAnalysisSettings.SetLineSearch(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.LineSearchType](./../../../../Mechanical/DataModel/Enums/LineSearchType.md#LineSearchType))
+### ANSYSAnalysisSettings.SetLineSearch(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.LineSearchType](../../../../Mechanical/DataModel/Enums/LineSearchType.md#LineSearchType))
 
 Sets the Line Search for a given solution step.
 
@@ -3565,7 +3565,7 @@ Gets the Stabilization at a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetStabilization"></a>
 
-### ANSYSAnalysisSettings.SetStabilization(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.StabilizationType](./../../../../Mechanical/DataModel/Enums/StabilizationType.md#StabilizationType))
+### ANSYSAnalysisSettings.SetStabilization(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.StabilizationType](../../../../Mechanical/DataModel/Enums/StabilizationType.md#StabilizationType))
 
 Sets the Stabilization for a given solution step.
 
@@ -3581,7 +3581,7 @@ Gets the Stabilization Method at a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetStabilizationMethod"></a>
 
-### ANSYSAnalysisSettings.SetStabilizationMethod(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.StabilizationMethod](./../../../../Mechanical/DataModel/Enums/StabilizationMethod.md#StabilizationMethod))
+### ANSYSAnalysisSettings.SetStabilizationMethod(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.StabilizationMethod](../../../../Mechanical/DataModel/Enums/StabilizationMethod.md#StabilizationMethod))
 
 Sets the Stabilization Method for a given solution step.
 
@@ -3629,7 +3629,7 @@ Gets the Stabilization First Substep Option at a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetStabilizationFirstSubstepOption"></a>
 
-### ANSYSAnalysisSettings.SetStabilizationFirstSubstepOption(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.StabilizationFirstSubstepOption](./../../../../Mechanical/DataModel/Enums/StabilizationFirstSubstepOption.md#StabilizationFirstSubstepOption))
+### ANSYSAnalysisSettings.SetStabilizationFirstSubstepOption(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.StabilizationFirstSubstepOption](../../../../Mechanical/DataModel/Enums/StabilizationFirstSubstepOption.md#StabilizationFirstSubstepOption))
 
 Sets the Stabilization First Substep Option for a given solution step.
 
@@ -3661,7 +3661,7 @@ Gets the Store Results At at a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetStoreResultsAt"></a>
 
-### ANSYSAnalysisSettings.SetStoreResultsAt(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.TimePointsOptions](./../../../../Mechanical/DataModel/Enums/TimePointsOptions.md#TimePointsOptions))
+### ANSYSAnalysisSettings.SetStoreResultsAt(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.TimePointsOptions](../../../../Mechanical/DataModel/Enums/TimePointsOptions.md#TimePointsOptions))
 
 Sets the Store Results At for a given solution step.
 
@@ -3693,7 +3693,7 @@ Gets the Define By at a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetDefineBy"></a>
 
-### ANSYSAnalysisSettings.SetDefineBy(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.TimeStepDefineByType](./../../../../Mechanical/DataModel/Enums/TimeStepDefineByType.md#TimeStepDefineByType))
+### ANSYSAnalysisSettings.SetDefineBy(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.TimeStepDefineByType](../../../../Mechanical/DataModel/Enums/TimeStepDefineByType.md#TimeStepDefineByType))
 
 Sets the Define By for a given solution step.
 
@@ -3925,7 +3925,7 @@ CopyTo method.
 
 <a id="ANSYSAnalysisSettings.SetCreepEffects"></a>
 
-### ANSYSAnalysisSettings.SetCreepEffects(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.Creep](./../../../../Mechanical/DataModel/Enums/Creep.md#Creep))
+### ANSYSAnalysisSettings.SetCreepEffects(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.Creep](../../../../Mechanical/DataModel/Enums/Creep.md#Creep))
 
 Sets the Creep Effects for a given solution step.
 
@@ -3973,7 +3973,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### ANSYSAnalysisSettings.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### ANSYSAnalysisSettings.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

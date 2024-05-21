@@ -71,8 +71,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`MeshMetric`](#Part.MeshMetric)                                                                                    | Gets the MeshMetric.                                          |
 | [`Visible`](#Part.Visible)                                                                                          | Gets or sets the Visible.                                     |
 | [`Suppressed`](#Part.Suppressed)                                                                                    | Gets or sets the Suppressed.                                  |
-| [`CoordinateSystem`](./../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`CoordinateSystem`](../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#Part.Children)                                                                                        | Gets the list of children.                                    |
 | [`Comments`](#Part.Comments)                                                                                        | Gets the list of associated comments.                         |
 | [`Figures`](#Part.Figures)                                                                                          | Gets the list of associated figures.                          |
@@ -296,7 +296,7 @@ Gets the Volume.
 
 <a id="Part.MeshMetric"></a>
 
-### *property* Part.MeshMetric *: [Ansys.Mechanical.DataModel.Enums.MeshMetricType](./../../../Mechanical/DataModel/Enums/MeshMetricType.md#MeshMetricType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Part.MeshMetric *: [Ansys.Mechanical.DataModel.Enums.MeshMetricType](../../../Mechanical/DataModel/Enums/MeshMetricType.md#MeshMetricType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MeshMetric.
 
@@ -328,7 +328,7 @@ Gets or sets the CoordinateSystem.
 
 <a id="Part.DataModelObjectCategory"></a>
 
-### *property* Part.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Part.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -468,7 +468,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### Part.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### Part.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

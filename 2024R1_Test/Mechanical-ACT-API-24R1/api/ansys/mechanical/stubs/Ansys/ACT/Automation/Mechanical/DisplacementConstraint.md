@@ -43,7 +43,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`ZComponentMax`](#DisplacementConstraint.ZComponentMax)                                                            | Gets or sets the ZComponentMax.                                                          |
 | [`ScopingMethod`](#DisplacementConstraint.ScopingMethod)                                                            | Gets or sets the ScopingMethod.                                                          |
 | [`Location`](#DisplacementConstraint.Location)                                                                      | Gets or sets the Location.                                                               |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                             |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                             |
 | [`EnvironmentSelection`](#DisplacementConstraint.EnvironmentSelection)                                              | Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum. |
 | [`Suppressed`](#DisplacementConstraint.Suppressed)                                                                  | Gets or sets the Suppressed.                                                             |
 | [`Children`](#DisplacementConstraint.Children)                                                                      | Gets the list of children.                                                               |
@@ -73,7 +73,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="DisplacementConstraint.XComponentMax"></a>
 
-### *property* DisplacementConstraint.XComponentMax *: [Ansys.ACT.Mechanical.Fields.Field](./../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DisplacementConstraint.XComponentMax *: [Ansys.ACT.Mechanical.Fields.Field](../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XComponentMax.
 
@@ -81,7 +81,7 @@ Gets or sets the XComponentMax.
 
 <a id="DisplacementConstraint.YComponentMax"></a>
 
-### *property* DisplacementConstraint.YComponentMax *: [Ansys.ACT.Mechanical.Fields.Field](./../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DisplacementConstraint.YComponentMax *: [Ansys.ACT.Mechanical.Fields.Field](../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the YComponentMax.
 
@@ -89,7 +89,7 @@ Gets or sets the YComponentMax.
 
 <a id="DisplacementConstraint.ZComponentMax"></a>
 
-### *property* DisplacementConstraint.ZComponentMax *: [Ansys.ACT.Mechanical.Fields.Field](./../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DisplacementConstraint.ZComponentMax *: [Ansys.ACT.Mechanical.Fields.Field](../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ZComponentMax.
 
@@ -97,7 +97,7 @@ Gets or sets the ZComponentMax.
 
 <a id="DisplacementConstraint.ScopingMethod"></a>
 
-### *property* DisplacementConstraint.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](./../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DisplacementConstraint.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -113,7 +113,7 @@ Gets or sets the Location.
 
 <a id="DisplacementConstraint.DataModelObjectCategory"></a>
 
-### *property* DisplacementConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DisplacementConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -197,7 +197,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### DisplacementConstraint.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### DisplacementConstraint.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

@@ -51,14 +51,14 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`RangeMaximum`](#ThermalCondition.RangeMaximum)                                                                       | Gets or sets the RangeMaximum.                                |
 | [`RangeMinimum`](#ThermalCondition.RangeMinimum)                                                                       | Gets or sets the RangeMinimum.                                |
 | [`DefineBy`](#ThermalCondition.DefineBy)                                                                               | Gets the DefineBy.                                            |
-| [`GraphControlsXAxis`](./../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#GraphControlsXAxis)                | Gets or sets the GraphControlsXAxis.                          |
-| [`LoadVectorAssignment`](./../../../../Mechanical/DataModel/Enums/LoadVectorAssignment.md#LoadVectorAssignment)          | Gets or sets the LoadVectorAssignment.                        |
+| [`GraphControlsXAxis`](../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#GraphControlsXAxis)                | Gets or sets the GraphControlsXAxis.                          |
+| [`LoadVectorAssignment`](../../../../Mechanical/DataModel/Enums/LoadVectorAssignment.md#LoadVectorAssignment)          | Gets or sets the LoadVectorAssignment.                        |
 | [`ShellFace`](#ThermalCondition.ShellFace)                                                                             | Gets or sets the ShellFace.                                   |
 | [`IndependentVariable`](#ThermalCondition.IndependentVariable)                                                         | Gets or sets the IndependentVariable.                         |
 | [`XYZFunctionCoordinateSystem`](#ThermalCondition.XYZFunctionCoordinateSystem)                                         | Gets or sets the XYZFunctionCoordinateSystem.                 |
 | [`TableAssignment`](#ThermalCondition.TableAssignment)                                                                 | Gets or sets the TableAssignment.                             |
 | [`Location`](#ThermalCondition.Location)                                                                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Suppressed`](#ThermalCondition.Suppressed)                                                                           | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#ThermalCondition.SharedRefBody)                                                                     | Gets or sets the SharedRefBody.                               |
 | [`Children`](#ThermalCondition.Children)                                                                               | Gets the list of children.                                    |
@@ -108,7 +108,7 @@ Gets or sets the LoadVectorNumber.
 
 <a id="ThermalCondition.Magnitude"></a>
 
-### *property* ThermalCondition.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalCondition.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Magnitude.
 
@@ -132,7 +132,7 @@ Gets or sets the RangeMinimum.
 
 <a id="ThermalCondition.DefineBy"></a>
 
-### *property* ThermalCondition.DefineBy *: [Ansys.Mechanical.DataModel.Enums.LoadDefineBy](./../../../../Mechanical/DataModel/Enums/LoadDefineBy.md#LoadDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalCondition.DefineBy *: [Ansys.Mechanical.DataModel.Enums.LoadDefineBy](../../../../Mechanical/DataModel/Enums/LoadDefineBy.md#LoadDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the DefineBy.
 
@@ -140,7 +140,7 @@ Gets the DefineBy.
 
 <a id="ThermalCondition.GraphControlsXAxis"></a>
 
-### *property* ThermalCondition.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](./../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalCondition.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GraphControlsXAxis.
 
@@ -148,7 +148,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="ThermalCondition.LoadVectorAssignment"></a>
 
-### *property* ThermalCondition.LoadVectorAssignment *: [Ansys.Mechanical.DataModel.Enums.LoadVectorAssignment](./../../../../Mechanical/DataModel/Enums/LoadVectorAssignment.md#LoadVectorAssignment) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalCondition.LoadVectorAssignment *: [Ansys.Mechanical.DataModel.Enums.LoadVectorAssignment](../../../../Mechanical/DataModel/Enums/LoadVectorAssignment.md#LoadVectorAssignment) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadVectorAssignment.
 
@@ -156,7 +156,7 @@ Gets or sets the LoadVectorAssignment.
 
 <a id="ThermalCondition.ShellFace"></a>
 
-### *property* ThermalCondition.ShellFace *: [Ansys.Mechanical.DataModel.Enums.ShellFaceType](./../../../../Mechanical/DataModel/Enums/ShellFaceType.md#ShellFaceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalCondition.ShellFace *: [Ansys.Mechanical.DataModel.Enums.ShellFaceType](../../../../Mechanical/DataModel/Enums/ShellFaceType.md#ShellFaceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShellFace.
 
@@ -164,7 +164,7 @@ Gets or sets the ShellFace.
 
 <a id="ThermalCondition.IndependentVariable"></a>
 
-### *property* ThermalCondition.IndependentVariable *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](./../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalCondition.IndependentVariable *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IndependentVariable.
 
@@ -172,7 +172,7 @@ Gets or sets the IndependentVariable.
 
 <a id="ThermalCondition.XYZFunctionCoordinateSystem"></a>
 
-### *property* ThermalCondition.XYZFunctionCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalCondition.XYZFunctionCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XYZFunctionCoordinateSystem.
 
@@ -180,7 +180,7 @@ Gets or sets the XYZFunctionCoordinateSystem.
 
 <a id="ThermalCondition.TableAssignment"></a>
 
-### *property* ThermalCondition.TableAssignment *: [Ansys.ACT.Automation.Mechanical.Table](./../Table.md#Table) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalCondition.TableAssignment *: [Ansys.ACT.Automation.Mechanical.Table](../Table.md#Table) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TableAssignment.
 
@@ -196,7 +196,7 @@ Gets or sets the Location.
 
 <a id="ThermalCondition.DataModelObjectCategory"></a>
 
-### *property* ThermalCondition.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalCondition.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -212,7 +212,7 @@ Gets or sets the Suppressed.
 
 <a id="ThermalCondition.SharedRefBody"></a>
 
-### *property* ThermalCondition.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](./../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalCondition.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -228,7 +228,7 @@ Gets the list of children.
 
 <a id="ThermalCondition.Comments"></a>
 
-### *property* ThermalCondition.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalCondition.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -236,7 +236,7 @@ Gets the list of associated comments.
 
 <a id="ThermalCondition.Figures"></a>
 
-### *property* ThermalCondition.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalCondition.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -244,7 +244,7 @@ Gets the list of associated figures.
 
 <a id="ThermalCondition.Images"></a>
 
-### *property* ThermalCondition.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalCondition.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -344,7 +344,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### ThermalCondition.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### ThermalCondition.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

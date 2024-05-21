@@ -18,20 +18,20 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 | Name |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`MullinsDamageVariable`](./../../../ACT/Automation/Mechanical/Results/DamageResults/MullinsDamageVariable.md#MullinsDamageVariable) |
-| [`MullinsMaximumPreviousStrainEnergy`](./../../../ACT/Automation/Mechanical/Results/DamageResults/MullinsMaximumPreviousStrainEnergy.md#MullinsMaximumPreviousStrainEnergy) |
-| [`MaximumFailureCriteria`](./../../../ACT/Automation/Mechanical/Results/DamageResults/MaximumFailureCriteria.md#MaximumFailureCriteria) |
-| [`FiberTensileFailureCriterion`](./../../../ACT/Automation/Mechanical/Results/DamageResults/FiberTensileFailureCriterion.md#FiberTensileFailureCriterion) |
-| [`FiberCompressiveFailureCriterion`](./../../../ACT/Automation/Mechanical/Results/DamageResults/FiberCompressiveFailureCriterion.md#FiberCompressiveFailureCriterion) |
-| [`MatrixTensileFailureCriterion`](./../../../ACT/Automation/Mechanical/Results/DamageResults/MatrixTensileFailureCriterion.md#MatrixTensileFailureCriterion) |
-| [`MatrixCompressiveFailureCriterion`](./../../../ACT/Automation/Mechanical/Results/DamageResults/MatrixCompressiveFailureCriterion.md#MatrixCompressiveFailureCriterion) |
-| [`DamageStatus`](./../../../ACT/Automation/Mechanical/Results/DamageResults/DamageStatus.md#DamageStatus) |
-| [`FiberTensileDamageVariable`](./../../../ACT/Automation/Mechanical/Results/DamageResults/FiberTensileDamageVariable.md#FiberTensileDamageVariable) |
-| [`FiberCompressiveDamageVariable`](./../../../ACT/Automation/Mechanical/Results/DamageResults/FiberCompressiveDamageVariable.md#FiberCompressiveDamageVariable) |
-| [`MatrixTensileDamageVariable`](./../../../ACT/Automation/Mechanical/Results/DamageResults/MatrixTensileDamageVariable.md#MatrixTensileDamageVariable) |
-| [`MatrixCompressiveDamageVariable`](./../../../ACT/Automation/Mechanical/Results/DamageResults/MatrixCompressiveDamageVariable.md#MatrixCompressiveDamageVariable) |
-| [`ShearDamageVariable`](./../../../ACT/Automation/Mechanical/Results/DamageResults/ShearDamageVariable.md#ShearDamageVariable) |
-| [`EnergyDissipatedPerUnitVolume`](./../../../ACT/Automation/Mechanical/Results/DamageResults/EnergyDissipatedPerUnitVolume.md#EnergyDissipatedPerUnitVolume) |
+| [`MullinsDamageVariable`](../../../ACT/Automation/Mechanical/Results/DamageResults/MullinsDamageVariable.md#MullinsDamageVariable) |
+| [`MullinsMaximumPreviousStrainEnergy`](../../../ACT/Automation/Mechanical/Results/DamageResults/MullinsMaximumPreviousStrainEnergy.md#MullinsMaximumPreviousStrainEnergy) |
+| [`MaximumFailureCriteria`](../../../ACT/Automation/Mechanical/Results/DamageResults/MaximumFailureCriteria.md#MaximumFailureCriteria) |
+| [`FiberTensileFailureCriterion`](../../../ACT/Automation/Mechanical/Results/DamageResults/FiberTensileFailureCriterion.md#FiberTensileFailureCriterion) |
+| [`FiberCompressiveFailureCriterion`](../../../ACT/Automation/Mechanical/Results/DamageResults/FiberCompressiveFailureCriterion.md#FiberCompressiveFailureCriterion) |
+| [`MatrixTensileFailureCriterion`](../../../ACT/Automation/Mechanical/Results/DamageResults/MatrixTensileFailureCriterion.md#MatrixTensileFailureCriterion) |
+| [`MatrixCompressiveFailureCriterion`](../../../ACT/Automation/Mechanical/Results/DamageResults/MatrixCompressiveFailureCriterion.md#MatrixCompressiveFailureCriterion) |
+| [`DamageStatus`](../../../ACT/Automation/Mechanical/Results/DamageResults/DamageStatus.md#DamageStatus) |
+| [`FiberTensileDamageVariable`](../../../ACT/Automation/Mechanical/Results/DamageResults/FiberTensileDamageVariable.md#FiberTensileDamageVariable) |
+| [`FiberCompressiveDamageVariable`](../../../ACT/Automation/Mechanical/Results/DamageResults/FiberCompressiveDamageVariable.md#FiberCompressiveDamageVariable) |
+| [`MatrixTensileDamageVariable`](../../../ACT/Automation/Mechanical/Results/DamageResults/MatrixTensileDamageVariable.md#MatrixTensileDamageVariable) |
+| [`MatrixCompressiveDamageVariable`](../../../ACT/Automation/Mechanical/Results/DamageResults/MatrixCompressiveDamageVariable.md#MatrixCompressiveDamageVariable) |
+| [`ShearDamageVariable`](../../../ACT/Automation/Mechanical/Results/DamageResults/ShearDamageVariable.md#ShearDamageVariable) |
+| [`EnergyDissipatedPerUnitVolume`](../../../ACT/Automation/Mechanical/Results/DamageResults/EnergyDissipatedPerUnitVolume.md#EnergyDissipatedPerUnitVolume) |
 
 <a id="import-detail"></a>
 

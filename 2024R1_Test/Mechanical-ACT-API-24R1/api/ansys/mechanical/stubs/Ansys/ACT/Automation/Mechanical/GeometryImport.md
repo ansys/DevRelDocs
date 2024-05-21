@@ -44,7 +44,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Parts`](#GeometryImport.Parts)                                                                                    | List of parts created by the most recent import operation.    |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#GeometryImport.Children)                                                                              | Gets the list of children.                                    |
 | [`Comments`](#GeometryImport.Comments)                                                                              | Gets the list of associated comments.                         |
 | [`Figures`](#GeometryImport.Figures)                                                                                | Gets the list of associated figures.                          |
@@ -83,7 +83,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="GeometryImport.DataModelObjectCategory"></a>
 
-### *property* GeometryImport.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryImport.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -176,7 +176,7 @@ Gets the preferences for most recent import operations with the geometry file/da
 
 <a id="GeometryImport.Import"></a>
 
-### GeometryImport.Import(geometryURI: System.String, format: [Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.Format](./../../../Mechanical/DataModel/Enums/GeometryImportPreference/Format.md#Format), preferences: [Ansys.ACT.Mechanical.Utilities.GeometryImportPreferences](./../../Mechanical/Utilities/GeometryImportPreferences.md#GeometryImportPreferences))
+### GeometryImport.Import(geometryURI: System.String, format: [Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.Format](../../../Mechanical/DataModel/Enums/GeometryImportPreference/Format.md#Format), preferences: [Ansys.ACT.Mechanical.Utilities.GeometryImportPreferences](../../Mechanical/Utilities/GeometryImportPreferences.md#GeometryImportPreferences))
 
 Import/reload geometry from the CAD file using the provided preferences. **\* If no
 preference argument is provided, i.e., null is used (also the default argument), then
@@ -196,7 +196,7 @@ Gets the list of children, filtered by type.
 
 <a id="id3"></a>
 
-### GeometryImport.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### GeometryImport.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

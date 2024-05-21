@@ -83,7 +83,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`InternalObject`](#id0)                                                                                                    | Gets the internal object. For advanced usage only.                     |
 | [`ScratchSolverFilesDirectory`](#RBDAnalysisSettings.ScratchSolverFilesDirectory)                                           | Gets the ScratchSolverFilesDirectory.                                  |
 | [`SolverFilesDirectory`](#RBDAnalysisSettings.SolverFilesDirectory)                                                         | Gets the SolverFilesDirectory.                                         |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory)      | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory)      | Gets the current DataModelObject’s category.                           |
 | [`Children`](#RBDAnalysisSettings.Children)                                                                                 | Gets the list of children.                                             |
 | [`Comments`](#RBDAnalysisSettings.Comments)                                                                                 | Gets the list of associated comments.                                  |
 | [`Figures`](#RBDAnalysisSettings.Figures)                                                                                   | Gets the list of associated figures.                                   |
@@ -129,7 +129,7 @@ Gets or sets the CurrentStepNumber.
 
 <a id="RBDAnalysisSettings.TimeIntegrationType"></a>
 
-### *property* RBDAnalysisSettings.TimeIntegrationType *: [Ansys.Mechanical.DataModel.Enums.RBDTimeIntegrationType](./../../../../Mechanical/DataModel/Enums/RBDTimeIntegrationType.md#RBDTimeIntegrationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RBDAnalysisSettings.TimeIntegrationType *: [Ansys.Mechanical.DataModel.Enums.RBDTimeIntegrationType](../../../../Mechanical/DataModel/Enums/RBDTimeIntegrationType.md#RBDTimeIntegrationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Integration Method.
 
@@ -153,7 +153,7 @@ Gets or sets the VelocityCorrection.
 
 <a id="RBDAnalysisSettings.CorrectionType"></a>
 
-### *property* RBDAnalysisSettings.CorrectionType *: [Ansys.Mechanical.DataModel.Enums.RBDCorrectionType](./../../../../Mechanical/DataModel/Enums/RBDCorrectionType.md#RBDCorrectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RBDAnalysisSettings.CorrectionType *: [Ansys.Mechanical.DataModel.Enums.RBDCorrectionType](../../../../Mechanical/DataModel/Enums/RBDCorrectionType.md#RBDCorrectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CorrectionType.
 
@@ -161,7 +161,7 @@ Gets or sets the CorrectionType.
 
 <a id="RBDAnalysisSettings.AssemblyType"></a>
 
-### *property* RBDAnalysisSettings.AssemblyType *: [Ansys.Mechanical.DataModel.Enums.RBDCorrectionType](./../../../../Mechanical/DataModel/Enums/RBDCorrectionType.md#RBDCorrectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RBDAnalysisSettings.AssemblyType *: [Ansys.Mechanical.DataModel.Enums.RBDCorrectionType](../../../../Mechanical/DataModel/Enums/RBDCorrectionType.md#RBDCorrectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AssemblyType.
 
@@ -177,7 +177,7 @@ Gets or sets the DropoffTolerance.
 
 <a id="RBDAnalysisSettings.RelativeAssemblyTolerance"></a>
 
-### *property* RBDAnalysisSettings.RelativeAssemblyTolerance *: [Ansys.Mechanical.DataModel.Enums.RBDProgramControlType](./../../../../Mechanical/DataModel/Enums/RBDProgramControlType.md#RBDProgramControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RBDAnalysisSettings.RelativeAssemblyTolerance *: [Ansys.Mechanical.DataModel.Enums.RBDProgramControlType](../../../../Mechanical/DataModel/Enums/RBDProgramControlType.md#RBDProgramControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RelativeAssemblyTolerance activity.
 
@@ -193,7 +193,7 @@ Gets or sets the RelativeAssemblyToleranceValue.
 
 <a id="RBDAnalysisSettings.EnergyAccuracyTolerance"></a>
 
-### *property* RBDAnalysisSettings.EnergyAccuracyTolerance *: [Ansys.Mechanical.DataModel.Enums.RBDProgramControlType](./../../../../Mechanical/DataModel/Enums/RBDProgramControlType.md#RBDProgramControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RBDAnalysisSettings.EnergyAccuracyTolerance *: [Ansys.Mechanical.DataModel.Enums.RBDProgramControlType](../../../../Mechanical/DataModel/Enums/RBDProgramControlType.md#RBDProgramControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EnergyAccuracyTolerance activity.
 
@@ -209,7 +209,7 @@ Gets or sets the EnergyAccuracyToleranceValue.
 
 <a id="RBDAnalysisSettings.NumericalDampingTolerance"></a>
 
-### *property* RBDAnalysisSettings.NumericalDampingTolerance *: [Ansys.Mechanical.DataModel.Enums.RBDProgramControlType](./../../../../Mechanical/DataModel/Enums/RBDProgramControlType.md#RBDProgramControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RBDAnalysisSettings.NumericalDampingTolerance *: [Ansys.Mechanical.DataModel.Enums.RBDProgramControlType](../../../../Mechanical/DataModel/Enums/RBDProgramControlType.md#RBDProgramControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumericalDamping activity.
 
@@ -225,7 +225,7 @@ Gets or sets the NumericalDampingValue.
 
 <a id="RBDAnalysisSettings.ForceResidualTolerance"></a>
 
-### *property* RBDAnalysisSettings.ForceResidualTolerance *: [Ansys.Mechanical.DataModel.Enums.RBDProgramControlType](./../../../../Mechanical/DataModel/Enums/RBDProgramControlType.md#RBDProgramControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RBDAnalysisSettings.ForceResidualTolerance *: [Ansys.Mechanical.DataModel.Enums.RBDProgramControlType](../../../../Mechanical/DataModel/Enums/RBDProgramControlType.md#RBDProgramControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ForceResidualTolerance activity.
 
@@ -241,7 +241,7 @@ Gets or sets the ForceResidualToleranceValue.
 
 <a id="RBDAnalysisSettings.ConstraintEquationResidualTolerance"></a>
 
-### *property* RBDAnalysisSettings.ConstraintEquationResidualTolerance *: [Ansys.Mechanical.DataModel.Enums.RBDProgramControlType](./../../../../Mechanical/DataModel/Enums/RBDProgramControlType.md#RBDProgramControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RBDAnalysisSettings.ConstraintEquationResidualTolerance *: [Ansys.Mechanical.DataModel.Enums.RBDProgramControlType](../../../../Mechanical/DataModel/Enums/RBDProgramControlType.md#RBDProgramControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ConstraintEquationResidualTolerance activity.
 
@@ -257,7 +257,7 @@ Gets or sets the ConstraintEquationResidualToleranceValue.
 
 <a id="RBDAnalysisSettings.VelocityConstraintEquationResidualTolerance"></a>
 
-### *property* RBDAnalysisSettings.VelocityConstraintEquationResidualTolerance *: [Ansys.Mechanical.DataModel.Enums.RBDProgramControlType](./../../../../Mechanical/DataModel/Enums/RBDProgramControlType.md#RBDProgramControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RBDAnalysisSettings.VelocityConstraintEquationResidualTolerance *: [Ansys.Mechanical.DataModel.Enums.RBDProgramControlType](../../../../Mechanical/DataModel/Enums/RBDProgramControlType.md#RBDProgramControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the VelocityConstraintEquationResidualTolerance activity.
 
@@ -273,7 +273,7 @@ Gets or sets the ConstraintEquationResidualToleranceValue.
 
 <a id="RBDAnalysisSettings.PerformStaticAnalysis"></a>
 
-### *property* RBDAnalysisSettings.PerformStaticAnalysis *: [Ansys.Mechanical.DataModel.Enums.RBDDoStaticAnalysisType](./../../../../Mechanical/DataModel/Enums/RBDDoStaticAnalysisType.md#RBDDoStaticAnalysisType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RBDAnalysisSettings.PerformStaticAnalysis *: [Ansys.Mechanical.DataModel.Enums.RBDDoStaticAnalysisType](../../../../Mechanical/DataModel/Enums/RBDDoStaticAnalysisType.md#RBDDoStaticAnalysisType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the .
 
@@ -281,7 +281,7 @@ Gets or sets the .
 
 <a id="RBDAnalysisSettings.Graph"></a>
 
-### *property* RBDAnalysisSettings.Graph *: [Ansys.Mechanical.Graphics.AnalysisSettingsGraph](./../../../../Mechanical/Graphics/AnalysisSettingsGraph.md#AnalysisSettingsGraph) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RBDAnalysisSettings.Graph *: [Ansys.Mechanical.Graphics.AnalysisSettingsGraph](../../../../Mechanical/Graphics/AnalysisSettingsGraph.md#AnalysisSettingsGraph) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Graph property.
 
@@ -313,7 +313,7 @@ Gets the SolverFilesDirectory.
 
 <a id="RBDAnalysisSettings.DataModelObjectCategory"></a>
 
-### *property* RBDAnalysisSettings.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RBDAnalysisSettings.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -329,7 +329,7 @@ Gets the list of children.
 
 <a id="RBDAnalysisSettings.Comments"></a>
 
-### *property* RBDAnalysisSettings.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RBDAnalysisSettings.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -337,7 +337,7 @@ Gets the list of associated comments.
 
 <a id="RBDAnalysisSettings.Figures"></a>
 
-### *property* RBDAnalysisSettings.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RBDAnalysisSettings.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -345,7 +345,7 @@ Gets the list of associated figures.
 
 <a id="RBDAnalysisSettings.Images"></a>
 
-### *property* RBDAnalysisSettings.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RBDAnalysisSettings.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -397,7 +397,7 @@ Gets the Automatic Time Stepping at a given solution step.
 
 <a id="RBDAnalysisSettings.SetAutomaticTimeStepping"></a>
 
-### RBDAnalysisSettings.SetAutomaticTimeStepping(stepNumber: System.Int32, value: [Ansys.Mechanical.DataModel.Enums.AutomaticTimeStepping](./../../../../Mechanical/DataModel/Enums/AutomaticTimeStepping.md#AutomaticTimeStepping))
+### RBDAnalysisSettings.SetAutomaticTimeStepping(stepNumber: System.Int32, value: [Ansys.Mechanical.DataModel.Enums.AutomaticTimeStepping](../../../../Mechanical/DataModel/Enums/AutomaticTimeStepping.md#AutomaticTimeStepping))
 
 Sets the Automatic Time Stepping for a given solution step.
 
@@ -493,7 +493,7 @@ Gets the StoreResultAt setting at a given solution step.
 
 <a id="RBDAnalysisSettings.SetStoreResultAt"></a>
 
-### RBDAnalysisSettings.SetStoreResultAt(stepNumber: System.Int32, value: [Ansys.Mechanical.DataModel.Enums.TimePointsOptions](./../../../../Mechanical/DataModel/Enums/TimePointsOptions.md#TimePointsOptions))
+### RBDAnalysisSettings.SetStoreResultAt(stepNumber: System.Int32, value: [Ansys.Mechanical.DataModel.Enums.TimePointsOptions](../../../../Mechanical/DataModel/Enums/TimePointsOptions.md#TimePointsOptions))
 
 Sets the StoreResultAt setting for a given solution step.
 
@@ -533,7 +533,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### RBDAnalysisSettings.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### RBDAnalysisSettings.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

@@ -99,9 +99,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`MassScalingUpdateFreq`](#EXDAnalysisSettings.MassScalingUpdateFreq)                                                  | Gets or sets the  MassScalingUpdateFreq.                             |
 | [`SolverPrecisionType`](#EXDAnalysisSettings.SolverPrecisionType)                                                      | Gets or sets the  SolverPrecisionType.                               |
 | [`SolveUnits`](#EXDAnalysisSettings.SolveUnits)                                                                        | Gets or sets the  SolveUnits.                                        |
-| [`BeamSolutionType`](./../../../../Mechanical/DataModel/Enums/BeamSolutionType.md#BeamSolutionType)                      | Gets or sets the  BeamSolutionType.                                  |
+| [`BeamSolutionType`](../../../../Mechanical/DataModel/Enums/BeamSolutionType.md#BeamSolutionType)                      | Gets or sets the  BeamSolutionType.                                  |
 | [`BeamTimeStepSafetyFactor`](#EXDAnalysisSettings.BeamTimeStepSafetyFactor)                                            | Gets or sets the  BeamTimeStepSafetyFactor.                          |
-| [`HexIntegrationType`](./../../../../Mechanical/DataModel/Enums/HexIntegrationType.md#HexIntegrationType)                | Gets or sets the  HexIntegrationType.                                |
+| [`HexIntegrationType`](../../../../Mechanical/DataModel/Enums/HexIntegrationType.md#HexIntegrationType)                | Gets or sets the  HexIntegrationType.                                |
 | [`ShellSublayers`](#EXDAnalysisSettings.ShellSublayers)                                                                | Gets or sets the  ShellSublayers.                                    |
 | [`ShellShearCorrectionFactor`](#EXDAnalysisSettings.ShellShearCorrectionFactor)                                        | Gets or sets the  ShellShearCorrectionFactor.                        |
 | [`ShellWarpCorrection`](#EXDAnalysisSettings.ShellWarpCorrection)                                                      | Gets or sets the  ShellWarpCorrection.                               |
@@ -164,7 +164,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`ArtificialViscosityForShellsType`](#EXDAnalysisSettings.ArtificialViscosityForShellsType)                            | Gets or sets the ArtificialViscosityForShellsType.                   |
 | [`LinearViscositySPH`](#EXDAnalysisSettings.LinearViscositySPH)                                                        | Gets or sets the Linear Artificial Viscosity for SPH.                |
 | [`QuadratricViscositySPH`](#EXDAnalysisSettings.QuadratricViscositySPH)                                                | Gets or sets the Quadratic Artificial Viscosity for SPH.             |
-| [`HourglassDampingType`](./../../../../Mechanical/DataModel/Enums/HourglassDampingType.md#HourglassDampingType)          | Gets or sets the HourglassDampingType.                               |
+| [`HourglassDampingType`](../../../../Mechanical/DataModel/Enums/HourglassDampingType.md#HourglassDampingType)          | Gets or sets the HourglassDampingType.                               |
 | [`StiffnessCoefficient`](#EXDAnalysisSettings.StiffnessCoefficient)                                                    | Gets or sets the StiffnessCoefficient.                               |
 | [`ViscousCoefficient`](#EXDAnalysisSettings.ViscousCoefficient)                                                        | Gets or sets the ViscousCoefficient.                                 |
 | [`ViscousCoefficientFB`](#EXDAnalysisSettings.ViscousCoefficientFB)                                                    | Gets or sets the ViscousCoefficientFB.                               |
@@ -190,7 +190,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`InternalObject`](#id0)                                                                                               | Gets the internal object. For advanced usage only.                   |
 | [`ScratchSolverFilesDirectory`](#EXDAnalysisSettings.ScratchSolverFilesDirectory)                                      | Gets the ScratchSolverFilesDirectory.                                |
 | [`SolverFilesDirectory`](#EXDAnalysisSettings.SolverFilesDirectory)                                                    | Gets the SolverFilesDirectory.                                       |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                         |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                         |
 | [`Children`](#EXDAnalysisSettings.Children)                                                                            | Gets the list of children.                                           |
 | [`Comments`](#EXDAnalysisSettings.Comments)                                                                            | Gets the list of associated comments.                                |
 | [`Figures`](#EXDAnalysisSettings.Figures)                                                                              | Gets the list of associated figures.                                 |
@@ -220,7 +220,7 @@ Gets the Internal Object. For advanced usage only.
 
 <a id="EXDAnalysisSettings.PreferenceType"></a>
 
-### *property* EXDAnalysisSettings.PreferenceType *: [Ansys.Mechanical.DataModel.Enums.EXDPreferenceType](./../../../../Mechanical/DataModel/Enums/EXDPreferenceType.md#EXDPreferenceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.PreferenceType *: [Ansys.Mechanical.DataModel.Enums.EXDPreferenceType](../../../../Mechanical/DataModel/Enums/EXDPreferenceType.md#EXDPreferenceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PreferenceType
 
@@ -308,7 +308,7 @@ Gets or sets the  TimeStepSafetyFactor.
 
 <a id="EXDAnalysisSettings.CharZoneDimensionType"></a>
 
-### *property* EXDAnalysisSettings.CharZoneDimensionType *: [Ansys.Mechanical.DataModel.Enums.EXDCharZoneDimensionType](./../../../../Mechanical/DataModel/Enums/EXDCharZoneDimensionType.md#EXDCharZoneDimensionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.CharZoneDimensionType *: [Ansys.Mechanical.DataModel.Enums.EXDCharZoneDimensionType](../../../../Mechanical/DataModel/Enums/EXDCharZoneDimensionType.md#EXDCharZoneDimensionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  CharZoneDimensionType.
 
@@ -364,7 +364,7 @@ Gets or sets the  MassScalingUpdateFreq.
 
 <a id="EXDAnalysisSettings.SolverPrecisionType"></a>
 
-### *property* EXDAnalysisSettings.SolverPrecisionType *: [Ansys.Mechanical.DataModel.Enums.EXDSolverPrecisionType](./../../../../Mechanical/DataModel/Enums/EXDSolverPrecisionType.md#EXDSolverPrecisionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.SolverPrecisionType *: [Ansys.Mechanical.DataModel.Enums.EXDSolverPrecisionType](../../../../Mechanical/DataModel/Enums/EXDSolverPrecisionType.md#EXDSolverPrecisionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  SolverPrecisionType.
 
@@ -372,7 +372,7 @@ Gets or sets the  SolverPrecisionType.
 
 <a id="EXDAnalysisSettings.SolveUnits"></a>
 
-### *property* EXDAnalysisSettings.SolveUnits *: [Ansys.Mechanical.DataModel.Enums.EXDSolveUnitsType](./../../../../Mechanical/DataModel/Enums/EXDSolveUnitsType.md#EXDSolveUnitsType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.SolveUnits *: [Ansys.Mechanical.DataModel.Enums.EXDSolveUnitsType](../../../../Mechanical/DataModel/Enums/EXDSolveUnitsType.md#EXDSolveUnitsType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  SolveUnits.
 
@@ -380,7 +380,7 @@ Gets or sets the  SolveUnits.
 
 <a id="EXDAnalysisSettings.BeamSolutionType"></a>
 
-### *property* EXDAnalysisSettings.BeamSolutionType *: [Ansys.Mechanical.DataModel.Enums.EXDBeamSolutionType](./../../../../Mechanical/DataModel/Enums/EXDBeamSolutionType.md#EXDBeamSolutionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.BeamSolutionType *: [Ansys.Mechanical.DataModel.Enums.EXDBeamSolutionType](../../../../Mechanical/DataModel/Enums/EXDBeamSolutionType.md#EXDBeamSolutionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  BeamSolutionType.
 
@@ -396,7 +396,7 @@ Gets or sets the  BeamTimeStepSafetyFactor.
 
 <a id="EXDAnalysisSettings.HexIntegrationType"></a>
 
-### *property* EXDAnalysisSettings.HexIntegrationType *: [Ansys.Mechanical.DataModel.Enums.EXDHexIntegrationType](./../../../../Mechanical/DataModel/Enums/EXDHexIntegrationType.md#EXDHexIntegrationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.HexIntegrationType *: [Ansys.Mechanical.DataModel.Enums.EXDHexIntegrationType](../../../../Mechanical/DataModel/Enums/EXDHexIntegrationType.md#EXDHexIntegrationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  HexIntegrationType.
 
@@ -428,7 +428,7 @@ Gets or sets the  ShellWarpCorrection.
 
 <a id="EXDAnalysisSettings.ShellThicknessUpdateType"></a>
 
-### *property* EXDAnalysisSettings.ShellThicknessUpdateType *: [Ansys.Mechanical.DataModel.Enums.EXDShellThicknessUpdateType](./../../../../Mechanical/DataModel/Enums/EXDShellThicknessUpdateType.md#EXDShellThicknessUpdateType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.ShellThicknessUpdateType *: [Ansys.Mechanical.DataModel.Enums.EXDShellThicknessUpdateType](../../../../Mechanical/DataModel/Enums/EXDShellThicknessUpdateType.md#EXDShellThicknessUpdateType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  ShellThicknessUpdateType.
 
@@ -444,7 +444,7 @@ Gets or sets the  PusoCoefficient.
 
 <a id="EXDAnalysisSettings.TetPressureIntegrationType"></a>
 
-### *property* EXDAnalysisSettings.TetPressureIntegrationType *: [Ansys.Mechanical.DataModel.Enums.EXDTetPressureIntegrationType](./../../../../Mechanical/DataModel/Enums/EXDTetPressureIntegrationType.md#EXDTetPressureIntegrationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.TetPressureIntegrationType *: [Ansys.Mechanical.DataModel.Enums.EXDTetPressureIntegrationType](../../../../Mechanical/DataModel/Enums/EXDTetPressureIntegrationType.md#EXDTetPressureIntegrationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  TetIntegrationType.
 
@@ -452,7 +452,7 @@ Gets or sets the  TetIntegrationType.
 
 <a id="EXDAnalysisSettings.ShellInertiaUpdateType"></a>
 
-### *property* EXDAnalysisSettings.ShellInertiaUpdateType *: [Ansys.Mechanical.DataModel.Enums.EXDShellInertiaUpdateType](./../../../../Mechanical/DataModel/Enums/EXDShellInertiaUpdateType.md#EXDShellInertiaUpdateType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.ShellInertiaUpdateType *: [Ansys.Mechanical.DataModel.Enums.EXDShellInertiaUpdateType](../../../../Mechanical/DataModel/Enums/EXDShellInertiaUpdateType.md#EXDShellInertiaUpdateType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  ShellInertiaUpdateType.
 
@@ -460,7 +460,7 @@ Gets or sets the  ShellInertiaUpdateType.
 
 <a id="EXDAnalysisSettings.DensityUpdateType"></a>
 
-### *property* EXDAnalysisSettings.DensityUpdateType *: [Ansys.Mechanical.DataModel.Enums.EXDDensityUpdateType](./../../../../Mechanical/DataModel/Enums/EXDDensityUpdateType.md#EXDDensityUpdateType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.DensityUpdateType *: [Ansys.Mechanical.DataModel.Enums.EXDDensityUpdateType](../../../../Mechanical/DataModel/Enums/EXDDensityUpdateType.md#EXDDensityUpdateType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  DensityUpdateType.
 
@@ -492,7 +492,7 @@ Gets or sets the  Maximum Density Factor for SPH.
 
 <a id="EXDAnalysisSettings.SPHNodeDensityCutoffOption"></a>
 
-### *property* EXDAnalysisSettings.SPHNodeDensityCutoffOption *: [Ansys.Mechanical.DataModel.Enums.EXDSPHNodeDensityCutoffOption](./../../../../Mechanical/DataModel/Enums/EXDSPHNodeDensityCutoffOption.md#EXDSPHNodeDensityCutoffOption) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.SPHNodeDensityCutoffOption *: [Ansys.Mechanical.DataModel.Enums.EXDSPHNodeDensityCutoffOption](../../../../Mechanical/DataModel/Enums/EXDSPHNodeDensityCutoffOption.md#EXDSPHNodeDensityCutoffOption) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  SPHNodeDensityCutoffOption.
 
@@ -500,7 +500,7 @@ Gets or sets the  SPHNodeDensityCutoffOption.
 
 <a id="EXDAnalysisSettings.DetonationBurnType"></a>
 
-### *property* EXDAnalysisSettings.DetonationBurnType *: [Ansys.Mechanical.DataModel.Enums.EXDDetonationBurnType](./../../../../Mechanical/DataModel/Enums/EXDDetonationBurnType.md#EXDDetonationBurnType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.DetonationBurnType *: [Ansys.Mechanical.DataModel.Enums.EXDDetonationBurnType](../../../../Mechanical/DataModel/Enums/EXDDetonationBurnType.md#EXDDetonationBurnType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  DetonationBurnType.
 
@@ -540,7 +540,7 @@ Gets or sets the  MinimumStrainCutOff.
 
 <a id="EXDAnalysisSettings.EulerSizeDefType"></a>
 
-### *property* EXDAnalysisSettings.EulerSizeDefType *: [Ansys.Mechanical.DataModel.Enums.EXDEulerSizeDefType](./../../../../Mechanical/DataModel/Enums/EXDEulerSizeDefType.md#EXDEulerSizeDefType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.EulerSizeDefType *: [Ansys.Mechanical.DataModel.Enums.EXDEulerSizeDefType](../../../../Mechanical/DataModel/Enums/EXDEulerSizeDefType.md#EXDEulerSizeDefType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  EulerSizeDefType.
 
@@ -548,7 +548,7 @@ Gets or sets the  EulerSizeDefType.
 
 <a id="EXDAnalysisSettings.EulerDomainType"></a>
 
-### *property* EXDAnalysisSettings.EulerDomainType *: [Ansys.Mechanical.DataModel.Enums.EXDEulerDomainType](./../../../../Mechanical/DataModel/Enums/EXDEulerDomainType.md#EXDEulerDomainType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.EulerDomainType *: [Ansys.Mechanical.DataModel.Enums.EXDEulerDomainType](../../../../Mechanical/DataModel/Enums/EXDEulerDomainType.md#EXDEulerDomainType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  EulerDomainType.
 
@@ -564,7 +564,7 @@ Gets or sets the  EulerDisplayBox.
 
 <a id="EXDAnalysisSettings.EulerDomScopeDefType"></a>
 
-### *property* EXDAnalysisSettings.EulerDomScopeDefType *: [Ansys.Mechanical.DataModel.Enums.EXDEulerDomScopeDefType](./../../../../Mechanical/DataModel/Enums/EXDEulerDomScopeDefType.md#EXDEulerDomScopeDefType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.EulerDomScopeDefType *: [Ansys.Mechanical.DataModel.Enums.EXDEulerDomScopeDefType](../../../../Mechanical/DataModel/Enums/EXDEulerDomScopeDefType.md#EXDEulerDomScopeDefType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  EulerDomScopeDefType.
 
@@ -644,7 +644,7 @@ Gets or sets the  EulerZDim.
 
 <a id="EXDAnalysisSettings.EulerResolutionDefType"></a>
 
-### *property* EXDAnalysisSettings.EulerResolutionDefType *: [Ansys.Mechanical.DataModel.Enums.EXDEulerResolutionDefType](./../../../../Mechanical/DataModel/Enums/EXDEulerResolutionDefType.md#EXDEulerResolutionDefType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.EulerResolutionDefType *: [Ansys.Mechanical.DataModel.Enums.EXDEulerResolutionDefType](../../../../Mechanical/DataModel/Enums/EXDEulerResolutionDefType.md#EXDEulerResolutionDefType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  EulerResolutionDefType.
 
@@ -652,7 +652,7 @@ Gets or sets the  EulerResolutionDefType.
 
 <a id="EXDAnalysisSettings.EulerGradedDefinition"></a>
 
-### *property* EXDAnalysisSettings.EulerGradedDefinition *: [Ansys.Mechanical.DataModel.Enums.EXDEulerGradedDefinition](./../../../../Mechanical/DataModel/Enums/EXDEulerGradedDefinition.md#EXDEulerGradedDefinition) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.EulerGradedDefinition *: [Ansys.Mechanical.DataModel.Enums.EXDEulerGradedDefinition](../../../../Mechanical/DataModel/Enums/EXDEulerGradedDefinition.md#EXDEulerGradedDefinition) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  EulerGradedDefinition.
 
@@ -716,7 +716,7 @@ Gets or sets the  EulerZZones.
 
 <a id="EXDAnalysisSettings.EulerBoundLowerX"></a>
 
-### *property* EXDAnalysisSettings.EulerBoundLowerX *: [Ansys.Mechanical.DataModel.Enums.EXDEulerBoundaryDefType](./../../../../Mechanical/DataModel/Enums/EXDEulerBoundaryDefType.md#EXDEulerBoundaryDefType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.EulerBoundLowerX *: [Ansys.Mechanical.DataModel.Enums.EXDEulerBoundaryDefType](../../../../Mechanical/DataModel/Enums/EXDEulerBoundaryDefType.md#EXDEulerBoundaryDefType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  EulerBoundLowerX.
 
@@ -724,7 +724,7 @@ Gets or sets the  EulerBoundLowerX.
 
 <a id="EXDAnalysisSettings.EulerBoundLowerY"></a>
 
-### *property* EXDAnalysisSettings.EulerBoundLowerY *: [Ansys.Mechanical.DataModel.Enums.EXDEulerBoundaryDefType](./../../../../Mechanical/DataModel/Enums/EXDEulerBoundaryDefType.md#EXDEulerBoundaryDefType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.EulerBoundLowerY *: [Ansys.Mechanical.DataModel.Enums.EXDEulerBoundaryDefType](../../../../Mechanical/DataModel/Enums/EXDEulerBoundaryDefType.md#EXDEulerBoundaryDefType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  EulerBoundLowerY.
 
@@ -732,7 +732,7 @@ Gets or sets the  EulerBoundLowerY.
 
 <a id="EXDAnalysisSettings.EulerBoundLowerZ"></a>
 
-### *property* EXDAnalysisSettings.EulerBoundLowerZ *: [Ansys.Mechanical.DataModel.Enums.EXDEulerBoundaryDefType](./../../../../Mechanical/DataModel/Enums/EXDEulerBoundaryDefType.md#EXDEulerBoundaryDefType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.EulerBoundLowerZ *: [Ansys.Mechanical.DataModel.Enums.EXDEulerBoundaryDefType](../../../../Mechanical/DataModel/Enums/EXDEulerBoundaryDefType.md#EXDEulerBoundaryDefType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  EulerBoundLowerZ.
 
@@ -740,7 +740,7 @@ Gets or sets the  EulerBoundLowerZ.
 
 <a id="EXDAnalysisSettings.EulerBoundUpperX"></a>
 
-### *property* EXDAnalysisSettings.EulerBoundUpperX *: [Ansys.Mechanical.DataModel.Enums.EXDEulerBoundaryDefType](./../../../../Mechanical/DataModel/Enums/EXDEulerBoundaryDefType.md#EXDEulerBoundaryDefType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.EulerBoundUpperX *: [Ansys.Mechanical.DataModel.Enums.EXDEulerBoundaryDefType](../../../../Mechanical/DataModel/Enums/EXDEulerBoundaryDefType.md#EXDEulerBoundaryDefType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  EulerBoundUpperX.
 
@@ -748,7 +748,7 @@ Gets or sets the  EulerBoundUpperX.
 
 <a id="EXDAnalysisSettings.EulerBoundUpperY"></a>
 
-### *property* EXDAnalysisSettings.EulerBoundUpperY *: [Ansys.Mechanical.DataModel.Enums.EXDEulerBoundaryDefType](./../../../../Mechanical/DataModel/Enums/EXDEulerBoundaryDefType.md#EXDEulerBoundaryDefType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.EulerBoundUpperY *: [Ansys.Mechanical.DataModel.Enums.EXDEulerBoundaryDefType](../../../../Mechanical/DataModel/Enums/EXDEulerBoundaryDefType.md#EXDEulerBoundaryDefType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  EulerBoundUpperY.
 
@@ -756,7 +756,7 @@ Gets or sets the  EulerBoundUpperY.
 
 <a id="EXDAnalysisSettings.EulerBoundUpperZ"></a>
 
-### *property* EXDAnalysisSettings.EulerBoundUpperZ *: [Ansys.Mechanical.DataModel.Enums.EXDEulerBoundaryDefType](./../../../../Mechanical/DataModel/Enums/EXDEulerBoundaryDefType.md#EXDEulerBoundaryDefType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.EulerBoundUpperZ *: [Ansys.Mechanical.DataModel.Enums.EXDEulerBoundaryDefType](../../../../Mechanical/DataModel/Enums/EXDEulerBoundaryDefType.md#EXDEulerBoundaryDefType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  EulerBoundUpperZ.
 
@@ -764,7 +764,7 @@ Gets or sets the  EulerBoundUpperZ.
 
 <a id="EXDAnalysisSettings.EulerTrackType"></a>
 
-### *property* EXDAnalysisSettings.EulerTrackType *: [Ansys.Mechanical.DataModel.Enums.EXDEulerTrackType](./../../../../Mechanical/DataModel/Enums/EXDEulerTrackType.md#EXDEulerTrackType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.EulerTrackType *: [Ansys.Mechanical.DataModel.Enums.EXDEulerTrackType](../../../../Mechanical/DataModel/Enums/EXDEulerTrackType.md#EXDEulerTrackType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the  EulerTrackType.
 
@@ -900,7 +900,7 @@ Gets or sets the Quadratic Artificial Viscosity for SPH.
 
 <a id="EXDAnalysisSettings.HourglassDampingType"></a>
 
-### *property* EXDAnalysisSettings.HourglassDampingType *: [Ansys.Mechanical.DataModel.Enums.EXDHourglassDampingType](./../../../../Mechanical/DataModel/Enums/EXDHourglassDampingType.md#EXDHourglassDampingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.HourglassDampingType *: [Ansys.Mechanical.DataModel.Enums.EXDHourglassDampingType](../../../../Mechanical/DataModel/Enums/EXDHourglassDampingType.md#EXDHourglassDampingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HourglassDampingType.
 
@@ -988,7 +988,7 @@ Gets or Sets the Step aware Output Controls.
 
 <a id="EXDAnalysisSettings.OutputContactForcesOnType"></a>
 
-### *property* EXDAnalysisSettings.OutputContactForcesOnType *: [Ansys.Mechanical.DataModel.Enums.EXDOutputContactForcesOnType](./../../../../Mechanical/DataModel/Enums/EXDOutputContactForcesOnType.md#EXDOutputContactForcesOnType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.OutputContactForcesOnType *: [Ansys.Mechanical.DataModel.Enums.EXDOutputContactForcesOnType](../../../../Mechanical/DataModel/Enums/EXDOutputContactForcesOnType.md#EXDOutputContactForcesOnType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or Sets OutputContactForces Increment Type.
 
@@ -1020,7 +1020,7 @@ Gets or Sets the Points increment for OutputContactForcesOnPoints.
 
 <a id="EXDAnalysisSettings.SavePrintSummaryOnType"></a>
 
-### *property* EXDAnalysisSettings.SavePrintSummaryOnType *: [Ansys.Mechanical.DataModel.Enums.EXDSavePrintSummaryOnType](./../../../../Mechanical/DataModel/Enums/EXDSavePrintSummaryOnType.md#EXDSavePrintSummaryOnType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.SavePrintSummaryOnType *: [Ansys.Mechanical.DataModel.Enums.EXDSavePrintSummaryOnType](../../../../Mechanical/DataModel/Enums/EXDSavePrintSummaryOnType.md#EXDSavePrintSummaryOnType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or Sets SavePrintSummaryOnType.
 
@@ -1052,7 +1052,7 @@ Gets or Sets the Output Remap File Type.
 
 <a id="EXDAnalysisSettings.SaveUserEditOnType"></a>
 
-### *property* EXDAnalysisSettings.SaveUserEditOnType *: [Ansys.Mechanical.DataModel.Enums.EXDSaveUserEditOnType](./../../../../Mechanical/DataModel/Enums/EXDSaveUserEditOnType.md#EXDSaveUserEditOnType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.SaveUserEditOnType *: [Ansys.Mechanical.DataModel.Enums.EXDSaveUserEditOnType](../../../../Mechanical/DataModel/Enums/EXDSaveUserEditOnType.md#EXDSaveUserEditOnType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or Sets SaveUserEditOnType.
 
@@ -1076,7 +1076,7 @@ Gets or Sets Cycle increment for SaveUserEditOnTimeSteps.
 
 <a id="EXDAnalysisSettings.Graph"></a>
 
-### *property* EXDAnalysisSettings.Graph *: [Ansys.Mechanical.Graphics.AnalysisSettingsGraph](./../../../../Mechanical/Graphics/AnalysisSettingsGraph.md#AnalysisSettingsGraph) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.Graph *: [Ansys.Mechanical.Graphics.AnalysisSettingsGraph](../../../../Mechanical/Graphics/AnalysisSettingsGraph.md#AnalysisSettingsGraph) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Graph property.
 
@@ -1108,7 +1108,7 @@ Gets the SolverFilesDirectory.
 
 <a id="EXDAnalysisSettings.DataModelObjectCategory"></a>
 
-### *property* EXDAnalysisSettings.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -1124,7 +1124,7 @@ Gets the list of children.
 
 <a id="EXDAnalysisSettings.Comments"></a>
 
-### *property* EXDAnalysisSettings.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -1132,7 +1132,7 @@ Gets the list of associated comments.
 
 <a id="EXDAnalysisSettings.Figures"></a>
 
-### *property* EXDAnalysisSettings.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -1140,7 +1140,7 @@ Gets the list of associated figures.
 
 <a id="EXDAnalysisSettings.Images"></a>
 
-### *property* EXDAnalysisSettings.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -1192,7 +1192,7 @@ Gets the  LoadStepType for a step.
 
 <a id="EXDAnalysisSettings.SetLoadStepType"></a>
 
-### EXDAnalysisSettings.SetLoadStepType(stepNumber: System.Int32, value: [Ansys.Mechanical.DataModel.Enums.EXDLoadStepType](./../../../../Mechanical/DataModel/Enums/EXDLoadStepType.md#EXDLoadStepType))
+### EXDAnalysisSettings.SetLoadStepType(stepNumber: System.Int32, value: [Ansys.Mechanical.DataModel.Enums.EXDLoadStepType](../../../../Mechanical/DataModel/Enums/EXDLoadStepType.md#EXDLoadStepType))
 
 Sets the LoadStepType for a step.
 
@@ -1208,7 +1208,7 @@ Gets the Covergence Method for ADR loadstep.
 
 <a id="EXDAnalysisSettings.setADRConvergenceMethod"></a>
 
-### EXDAnalysisSettings.setADRConvergenceMethod(stepNumber: System.Int32, value: [Ansys.Mechanical.DataModel.Enums.EXDADRConvergenceMethod](./../../../../Mechanical/DataModel/Enums/EXDADRConvergenceMethod.md#EXDADRConvergenceMethod))
+### EXDAnalysisSettings.setADRConvergenceMethod(stepNumber: System.Int32, value: [Ansys.Mechanical.DataModel.Enums.EXDADRConvergenceMethod](../../../../Mechanical/DataModel/Enums/EXDADRConvergenceMethod.md#EXDADRConvergenceMethod))
 
 Sets the Covergence Method for ADR loadstep.
 
@@ -1256,7 +1256,7 @@ Gets the  AutomaticMassScalingType for a load step.
 
 <a id="EXDAnalysisSettings.SetAutomaticMassScalingType"></a>
 
-### EXDAnalysisSettings.SetAutomaticMassScalingType(stepNumber: System.Int32, value: [Ansys.Mechanical.DataModel.Enums.EXDAutomaticMassScalingType](./../../../../Mechanical/DataModel/Enums/EXDAutomaticMassScalingType.md#EXDAutomaticMassScalingType))
+### EXDAnalysisSettings.SetAutomaticMassScalingType(stepNumber: System.Int32, value: [Ansys.Mechanical.DataModel.Enums.EXDAutomaticMassScalingType](../../../../Mechanical/DataModel/Enums/EXDAutomaticMassScalingType.md#EXDAutomaticMassScalingType))
 
 Sets the  AutomaticMassScalingType for a load step.
 
@@ -1304,7 +1304,7 @@ Gets the  Save Results Type for a load step.
 
 <a id="EXDAnalysisSettings.SetSaveResultsOnType"></a>
 
-### EXDAnalysisSettings.SetSaveResultsOnType(stepNumber: System.Int32, value: [Ansys.Mechanical.DataModel.Enums.EXDSaveResultsOnType](./../../../../Mechanical/DataModel/Enums/EXDSaveResultsOnType.md#EXDSaveResultsOnType))
+### EXDAnalysisSettings.SetSaveResultsOnType(stepNumber: System.Int32, value: [Ansys.Mechanical.DataModel.Enums.EXDSaveResultsOnType](../../../../Mechanical/DataModel/Enums/EXDSaveResultsOnType.md#EXDSaveResultsOnType))
 
 Sets the  Save Results Type for a load step.
 
@@ -1368,7 +1368,7 @@ Gets the  Save Restarts Type for a load step.
 
 <a id="EXDAnalysisSettings.SetSaveRestartsOnType"></a>
 
-### EXDAnalysisSettings.SetSaveRestartsOnType(stepNumber: System.Int32, value: [Ansys.Mechanical.DataModel.Enums.EXDSaveRestartsOnType](./../../../../Mechanical/DataModel/Enums/EXDSaveRestartsOnType.md#EXDSaveRestartsOnType))
+### EXDAnalysisSettings.SetSaveRestartsOnType(stepNumber: System.Int32, value: [Ansys.Mechanical.DataModel.Enums.EXDSaveRestartsOnType](../../../../Mechanical/DataModel/Enums/EXDSaveRestartsOnType.md#EXDSaveRestartsOnType))
 
 Sets the  Save Restarts Type for a load step.
 
@@ -1432,7 +1432,7 @@ Gets the  Save ProbeData Type for a load step.
 
 <a id="EXDAnalysisSettings.SetSaveProbeDataOnType"></a>
 
-### EXDAnalysisSettings.SetSaveProbeDataOnType(stepNumber: System.Int32, value: [Ansys.Mechanical.DataModel.Enums.EXDSaveProbeDataOnType](./../../../../Mechanical/DataModel/Enums/EXDSaveProbeDataOnType.md#EXDSaveProbeDataOnType))
+### EXDAnalysisSettings.SetSaveProbeDataOnType(stepNumber: System.Int32, value: [Ansys.Mechanical.DataModel.Enums.EXDSaveProbeDataOnType](../../../../Mechanical/DataModel/Enums/EXDSaveProbeDataOnType.md#EXDSaveProbeDataOnType))
 
 Sets the  Save ProbeData Type for a load step.
 
@@ -1488,7 +1488,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### EXDAnalysisSettings.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### EXDAnalysisSettings.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

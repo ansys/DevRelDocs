@@ -154,7 +154,7 @@ Sets the worksheet LowerBound property at index.
 
 <a id="SelectionWorksheet.SetOperator"></a>
 
-### SelectionWorksheet.SetOperator(index: System.Int32, newVal: [Ansys.Mechanical.DataModel.Enums.NamedSelectionWorksheetOperator](./../../../Mechanical/DataModel/Enums/NamedSelectionWorksheetOperator.md#NamedSelectionWorksheetOperator))
+### SelectionWorksheet.SetOperator(index: System.Int32, newVal: [Ansys.Mechanical.DataModel.Enums.NamedSelectionWorksheetOperator](../../../Mechanical/DataModel/Enums/NamedSelectionWorksheetOperator.md#NamedSelectionWorksheetOperator))
 
 Sets the worksheet Operator property at index.
 
@@ -242,7 +242,7 @@ Gets the worksheet Body Type Value property at index.
 
 <a id="SelectionWorksheet.SetMeshElementTypeValue"></a>
 
-### SelectionWorksheet.SetMeshElementTypeValue(index: System.Int32, newVal: [Ansys.Mechanical.DataModel.Enums.MeshElementShape](./../../../Mechanical/DataModel/Enums/MeshElementShape.md#MeshElementShape))
+### SelectionWorksheet.SetMeshElementTypeValue(index: System.Int32, newVal: [Ansys.Mechanical.DataModel.Enums.MeshElementShape](../../../Mechanical/DataModel/Enums/MeshElementShape.md#MeshElementShape))
 
 Sets the worksheet Mesh Element Type Value property at index.
 

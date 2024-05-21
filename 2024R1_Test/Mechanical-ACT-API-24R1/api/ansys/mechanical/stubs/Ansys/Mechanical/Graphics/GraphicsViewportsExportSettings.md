@@ -42,7 +42,7 @@ from ansys.mechanical.stubs.Ansys.Mechanical.Graphics import GraphicsViewportsEx
 
 <a id="GraphicsViewportsExportSettings.BorderStyle"></a>
 
-### *property* GraphicsViewportsExportSettings.BorderStyle *: [Ansys.Mechanical.DataModel.Enums.GraphicsViewportsExportBorderStyle](./../DataModel/Enums/GraphicsViewportsExportBorderStyle.md#GraphicsViewportsExportBorderStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GraphicsViewportsExportSettings.BorderStyle *: [Ansys.Mechanical.DataModel.Enums.GraphicsViewportsExportBorderStyle](../DataModel/Enums/GraphicsViewportsExportBorderStyle.md#GraphicsViewportsExportBorderStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Specifies which borders to add, if any, to the exported viewports image.
 Border style enum values can be combined via bitwise-or ( | ).
@@ -68,7 +68,7 @@ Specifies whether to append the viewport graph(s) to the exported image. Default
 
 <a id="GraphicsViewportsExportSettings.Resolution"></a>
 
-### *property* GraphicsViewportsExportSettings.Resolution *: [Ansys.Mechanical.DataModel.Enums.GraphicsResolutionType](./../DataModel/Enums/GraphicsResolutionType.md#GraphicsResolutionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GraphicsViewportsExportSettings.Resolution *: [Ansys.Mechanical.DataModel.Enums.GraphicsResolutionType](../DataModel/Enums/GraphicsResolutionType.md#GraphicsResolutionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Specifies the resolution type. Defaults to NormalResolution.
 
@@ -76,7 +76,7 @@ Specifies the resolution type. Defaults to NormalResolution.
 
 <a id="GraphicsViewportsExportSettings.Capture"></a>
 
-### *property* GraphicsViewportsExportSettings.Capture *: [Ansys.Mechanical.DataModel.Enums.GraphicsCaptureType](./../DataModel/Enums/GraphicsCaptureType.md#GraphicsCaptureType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GraphicsViewportsExportSettings.Capture *: [Ansys.Mechanical.DataModel.Enums.GraphicsCaptureType](../DataModel/Enums/GraphicsCaptureType.md#GraphicsCaptureType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Specifies what to include in the capture. Defaults to ImageAndLegend.
 
@@ -84,7 +84,7 @@ Specifies what to include in the capture. Defaults to ImageAndLegend.
 
 <a id="GraphicsViewportsExportSettings.Background"></a>
 
-### *property* GraphicsViewportsExportSettings.Background *: [Ansys.Mechanical.DataModel.Enums.GraphicsBackgroundType](./../DataModel/Enums/GraphicsBackgroundType.md#GraphicsBackgroundType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GraphicsViewportsExportSettings.Background *: [Ansys.Mechanical.DataModel.Enums.GraphicsBackgroundType](../DataModel/Enums/GraphicsBackgroundType.md#GraphicsBackgroundType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Specifies the background color. Defaults to GraphicsAppearanceSetting.
 

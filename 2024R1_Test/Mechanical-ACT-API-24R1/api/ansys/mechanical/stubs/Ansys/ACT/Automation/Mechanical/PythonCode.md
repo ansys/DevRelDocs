@@ -41,7 +41,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.                                    |
 | [`ScriptExecutionScope`](#PythonCode.ScriptExecutionScope)                                                          | The scope identifier in which the code execution will take place.                     |
 | [`Connected`](#PythonCode.Connected)                                                                                | Gets whether the callbacks are currently connected.                                   |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                          |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                                          |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.                                    |
 | [`Properties`](#PythonCode.Properties)                                                                              | Gets the list of properties for this object.                                          |
 | [`VisibleProperties`](#PythonCode.VisibleProperties)                                                                | Gets the list of properties that are visible for this object.                         |
@@ -100,7 +100,7 @@ Gets whether the callbacks are currently connected.
 
 <a id="PythonCode.DataModelObjectCategory"></a>
 
-### *property* PythonCode.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PythonCode.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 

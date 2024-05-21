@@ -134,7 +134,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`WeldCurves`](#Weld.WeldCurves)                                                                                       | Gets or sets the Weld Curves.                                      |
 | [`WeldCurvesBody`](#Weld.WeldCurvesBody)                                                                               | WeldCurvesBody property.                                           |
 | [`EdgeSelection`](#Weld.EdgeSelection)                                                                                 | Gets or sets the Edges.                                            |
-| [`ControlType`](./../../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ControlType.md#ControlType)              | Gets or sets the WeldControlType.                                  |
+| [`ControlType`](../../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ControlType.md#ControlType)              | Gets or sets the WeldControlType.                                  |
 | [`Source`](#Weld.Source)                                                                                               | Gets or sets the WeldControlSource.                                |
 | [`ModeledAs`](#Weld.ModeledAs)                                                                                         | Gets or sets the WeldControlModeledAs.                             |
 | [`WeldElementRows`](#Weld.WeldElementRows)                                                                             | Gets or sets the WeldControlElementRows.                           |
@@ -161,7 +161,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`HAZDistanceExpressionBottomPlate`](#Weld.HAZDistanceExpressionBottomPlate)                                           | Gets or sets HAZDistanceExpressionBottomPlate Value.               |
 | [`MaxThicknessFactor`](#Weld.MaxThicknessFactor)                                                                       | Gets or sets the WeldControlMaxThicknessFactor                     |
 | [`MinThicknessFactor`](#Weld.MinThicknessFactor)                                                                       | Gets or sets the WeldControlMinThicknessFactor                     |
-| [`Thickness`](./../Thickness.md#Thickness)                                                                               | Gets or sets the WeldControlThickness                              |
+| [`Thickness`](../Thickness.md#Thickness)                                                                               | Gets or sets the WeldControlThickness                              |
 | [`AdjustWeldHeight`](#Weld.AdjustWeldHeight)                                                                           | Gets or sets the WeldControlAdjustWeldHeight.                      |
 | [`CreateHAZLayer`](#Weld.CreateHAZLayer)                                                                               | Gets or sets the WeldControlCreateHAZLayer.                        |
 | [`WeldHeight`](#Weld.WeldHeight)                                                                                       | Gets or sets the WeldControlOffsetLayerHeight                      |
@@ -186,7 +186,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`WeldDefinitionFileLocation`](#Weld.WeldDefinitionFileLocation)                                                       | Gets or sets the WeldDefinitionFile Location.                      |
 | [`WeldIntersectionTag`](#Weld.WeldIntersectionTag)                                                                     | Gets or sets the WeldControlIntersectionTag Value.                 |
 | [`WeldIntersectionTolerance`](#Weld.WeldIntersectionTolerance)                                                         | Gets or sets the WeldControlIntersectionTolerance Value.           |
-| [`Smoothing`](./../Results/Smoothing.md#Smoothing)                                                                       | Gets or sets the WeldControlSmoothing.                             |
+| [`Smoothing`](../Results/Smoothing.md#Smoothing)                                                                       | Gets or sets the WeldControlSmoothing.                             |
 | [`CrossSectionId`](#Weld.CrossSectionId)                                                                               | Gets or sets the WeldControlCrossSectionId.                        |
 | [`MaterialId`](#Weld.MaterialId)                                                                                       | Gets or sets the WeldControlMaterialId.                            |
 | [`NameFilter`](#Weld.NameFilter)                                                                                       | Gets or sets the NameFilter.                                       |
@@ -194,7 +194,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`WeldEdgesNamedSelection`](#Weld.WeldEdgesNamedSelection)                                                             | Gets or sets the WeldEdgesNamedSelection.                          |
 | [`BottomEntitiesNamedSelection`](#Weld.BottomEntitiesNamedSelection)                                                   | Gets or sets the BottomEntitiesNamedSelection.                     |
 | [`TopEntitiesNamedSelection`](#Weld.TopEntitiesNamedSelection)                                                         | Gets or sets the TopEntitiesNamedSelection.                        |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                       |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                       |
 | [`ScopingMethod`](#Weld.ScopingMethod)                                                                                 | Gets or sets the ScopingMethod.                                    |
 | [`Suppressed`](#Weld.Suppressed)                                                                                       | Gets or sets the Suppressed.                                       |
 | [`Children`](#Weld.Children)                                                                                           | Gets the list of children.                                         |
@@ -307,7 +307,7 @@ Gets or sets the WeldTargetShellFace.
 
 <a id="Weld.WeldFormulation"></a>
 
-### *property* Weld.WeldFormulation *: [Ansys.Mechanical.DataModel.Enums.ContactFormulation](./../../../../Mechanical/DataModel/Enums/ContactFormulation.md#ContactFormulation) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Weld.WeldFormulation *: [Ansys.Mechanical.DataModel.Enums.ContactFormulation](../../../../Mechanical/DataModel/Enums/ContactFormulation.md#ContactFormulation) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the WeldFormulation.
 
@@ -339,7 +339,7 @@ Gets or sets the WeldControlCreateUsing.
 
 <a id="Weld.UseWorksheet"></a>
 
-### *property* Weld.UseWorksheet *: [Ansys.Mechanical.DataModel.Enums.YesNoType](./../../../../Mechanical/DataModel/Enums/YesNoType.md#YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Weld.UseWorksheet *: [Ansys.Mechanical.DataModel.Enums.YesNoType](../../../../Mechanical/DataModel/Enums/YesNoType.md#YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the WeldControlUseWorksheet.
 
@@ -483,7 +483,7 @@ Gets or sets the WeldControlThickness
 
 <a id="Weld.AdjustWeldHeight"></a>
 
-### *property* Weld.AdjustWeldHeight *: [Ansys.Mechanical.DataModel.Enums.YesNoType](./../../../../Mechanical/DataModel/Enums/YesNoType.md#YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Weld.AdjustWeldHeight *: [Ansys.Mechanical.DataModel.Enums.YesNoType](../../../../Mechanical/DataModel/Enums/YesNoType.md#YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the WeldControlAdjustWeldHeight.
 
@@ -491,7 +491,7 @@ Gets or sets the WeldControlAdjustWeldHeight.
 
 <a id="Weld.CreateHAZLayer"></a>
 
-### *property* Weld.CreateHAZLayer *: [Ansys.Mechanical.DataModel.Enums.YesNoType](./../../../../Mechanical/DataModel/Enums/YesNoType.md#YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Weld.CreateHAZLayer *: [Ansys.Mechanical.DataModel.Enums.YesNoType](../../../../Mechanical/DataModel/Enums/YesNoType.md#YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the WeldControlCreateHAZLayer.
 
@@ -635,7 +635,7 @@ Gets or sets the WeldControlGenerateNamedSelection.
 
 <a id="Weld.GenerateEndCaps"></a>
 
-### *property* Weld.GenerateEndCaps *: [Ansys.Mechanical.DataModel.Enums.YesNoType](./../../../../Mechanical/DataModel/Enums/YesNoType.md#YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Weld.GenerateEndCaps *: [Ansys.Mechanical.DataModel.Enums.YesNoType](../../../../Mechanical/DataModel/Enums/YesNoType.md#YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the WeldControlSmoothing.
 
@@ -643,7 +643,7 @@ Gets or sets the WeldControlSmoothing.
 
 <a id="Weld.WriteDefinitionFile"></a>
 
-### *property* Weld.WriteDefinitionFile *: [Ansys.Mechanical.DataModel.Enums.YesNoType](./../../../../Mechanical/DataModel/Enums/YesNoType.md#YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Weld.WriteDefinitionFile *: [Ansys.Mechanical.DataModel.Enums.YesNoType](../../../../Mechanical/DataModel/Enums/YesNoType.md#YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the WeldControlSmoothing.
 
@@ -675,7 +675,7 @@ Gets or sets the WeldControlIntersectionTolerance Value.
 
 <a id="Weld.Smoothing"></a>
 
-### *property* Weld.Smoothing *: [Ansys.Mechanical.DataModel.Enums.YesNoType](./../../../../Mechanical/DataModel/Enums/YesNoType.md#YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Weld.Smoothing *: [Ansys.Mechanical.DataModel.Enums.YesNoType](../../../../Mechanical/DataModel/Enums/YesNoType.md#YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the WeldControlSmoothing.
 
@@ -715,7 +715,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="Weld.WeldEdgesNamedSelection"></a>
 
-### *property* Weld.WeldEdgesNamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](./../NamedSelection.md#NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Weld.WeldEdgesNamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../NamedSelection.md#NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the WeldEdgesNamedSelection.
 
@@ -723,7 +723,7 @@ Gets or sets the WeldEdgesNamedSelection.
 
 <a id="Weld.BottomEntitiesNamedSelection"></a>
 
-### *property* Weld.BottomEntitiesNamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](./../NamedSelection.md#NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Weld.BottomEntitiesNamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../NamedSelection.md#NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BottomEntitiesNamedSelection.
 
@@ -731,7 +731,7 @@ Gets or sets the BottomEntitiesNamedSelection.
 
 <a id="Weld.TopEntitiesNamedSelection"></a>
 
-### *property* Weld.TopEntitiesNamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](./../NamedSelection.md#NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Weld.TopEntitiesNamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../NamedSelection.md#NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TopEntitiesNamedSelection.
 
@@ -739,7 +739,7 @@ Gets or sets the TopEntitiesNamedSelection.
 
 <a id="Weld.DataModelObjectCategory"></a>
 
-### *property* Weld.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Weld.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -747,7 +747,7 @@ Gets the current DataModelObject’s category.
 
 <a id="Weld.ScopingMethod"></a>
 
-### *property* Weld.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](./../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Weld.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -771,7 +771,7 @@ Gets the list of children.
 
 <a id="Weld.Comments"></a>
 
-### *property* Weld.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Weld.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -779,7 +779,7 @@ Gets the list of associated comments.
 
 <a id="Weld.Figures"></a>
 
-### *property* Weld.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Weld.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -787,7 +787,7 @@ Gets the list of associated figures.
 
 <a id="Weld.Images"></a>
 
-### *property* Weld.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Weld.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -1559,7 +1559,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### Weld.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### Weld.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

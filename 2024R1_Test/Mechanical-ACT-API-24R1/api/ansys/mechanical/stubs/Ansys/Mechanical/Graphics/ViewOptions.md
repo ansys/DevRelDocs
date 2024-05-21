@@ -37,8 +37,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`ShowEdgeDirection`](#ViewOptions.ShowEdgeDirection)                     | Displays the edge direction arrow.                                                      |
 | [`ShowMeshConnection`](#ViewOptions.ShowMeshConnection)                   | Displays edge connection using a color scheme based on the mesh connection information. |
 | [`ShowThickEdgeScoping`](#ViewOptions.ShowThickEdgeScoping)               | Thicken the display of edge scoping.                                                    |
-| [`ModelDisplay`](./../DataModel/Enums/ModelDisplay.md#ModelDisplay)         | Sets the model display option.                                                          |
-| [`ModelColoring`](./../DataModel/Enums/ModelColoring.md#ModelColoring)      | Sets the Model display Coloring.                                                        |
+| [`ModelDisplay`](../DataModel/Enums/ModelDisplay.md#ModelDisplay)         | Sets the model display option.                                                          |
+| [`ModelColoring`](../DataModel/Enums/ModelColoring.md#ModelColoring)      | Sets the Model display Coloring.                                                        |
 | [`ShowCoordinateSystems`](#ViewOptions.ShowCoordinateSystems)             | Displays all coordinate system defined.                                                 |
 | [`ClusteredVertexTolerance`](#ViewOptions.ClusteredVertexTolerance)       | Sets the clustered vertices custom tolerance value.                                     |
 | [`ShowLegend`](#ViewOptions.ShowLegend)                                   | Displays the legend.                                                                    |
@@ -166,7 +166,7 @@ Thicken the display of edge scoping.
 
 <a id="ViewOptions.ModelDisplay"></a>
 
-### *property* ViewOptions.ModelDisplay *: [Ansys.Mechanical.DataModel.Enums.ModelDisplay](./../DataModel/Enums/ModelDisplay.md#ModelDisplay) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ViewOptions.ModelDisplay *: [Ansys.Mechanical.DataModel.Enums.ModelDisplay](../DataModel/Enums/ModelDisplay.md#ModelDisplay) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Sets the model display option.
 
@@ -174,7 +174,7 @@ Sets the model display option.
 
 <a id="ViewOptions.ModelColoring"></a>
 
-### *property* ViewOptions.ModelColoring *: [Ansys.Mechanical.DataModel.Enums.ModelColoring](./../DataModel/Enums/ModelColoring.md#ModelColoring) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ViewOptions.ModelColoring *: [Ansys.Mechanical.DataModel.Enums.ModelColoring](../DataModel/Enums/ModelColoring.md#ModelColoring) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Sets the Model display Coloring.
 

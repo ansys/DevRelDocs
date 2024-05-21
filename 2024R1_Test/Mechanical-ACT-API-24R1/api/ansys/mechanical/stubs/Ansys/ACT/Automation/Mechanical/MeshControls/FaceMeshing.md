@@ -47,12 +47,12 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Method`](#FaceMeshing.Method)                                                                                        | Gets or sets the Method.                                      |
 | [`Active`](#FaceMeshing.Active)                                                                                        | Gets the Active.                                              |
 | [`MappedMesh`](#FaceMeshing.MappedMesh)                                                                                | Gets or sets the MappedMesh.                                  |
-| [`NamedSelection`](./../NamedSelection.md#NamedSelection)                                                                | Gets or sets the NamedSelection.                              |
+| [`NamedSelection`](../NamedSelection.md#NamedSelection)                                                                | Gets or sets the NamedSelection.                              |
 | [`Location`](#FaceMeshing.Location)                                                                                    | Gets or sets the Location.                                    |
 | [`SpecifiedCorners`](#FaceMeshing.SpecifiedCorners)                                                                    | Gets or sets the SpecifiedCorners.                            |
 | [`SpecifiedEnds`](#FaceMeshing.SpecifiedEnds)                                                                          | Gets or sets the SpecifiedEnds.                               |
 | [`SpecifiedSides`](#FaceMeshing.SpecifiedSides)                                                                        | Gets or sets the SpecifiedSides.                              |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`ScopingMethod`](#FaceMeshing.ScopingMethod)                                                                          | Gets or sets the ScopingMethod.                               |
 | [`Suppressed`](#FaceMeshing.Suppressed)                                                                                | Gets or sets the Suppressed.                                  |
 | [`Children`](#FaceMeshing.Children)                                                                                    | Gets the list of children.                                    |
@@ -101,7 +101,7 @@ Gets or sets the InternalNumberOfDivisions.
 
 <a id="FaceMeshing.Method"></a>
 
-### *property* FaceMeshing.Method *: [Ansys.Mechanical.DataModel.Enums.FaceMeshingMethod](./../../../../Mechanical/DataModel/Enums/FaceMeshingMethod.md#FaceMeshingMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FaceMeshing.Method *: [Ansys.Mechanical.DataModel.Enums.FaceMeshingMethod](../../../../Mechanical/DataModel/Enums/FaceMeshingMethod.md#FaceMeshingMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Method.
 
@@ -125,7 +125,7 @@ Gets or sets the MappedMesh.
 
 <a id="FaceMeshing.NamedSelection"></a>
 
-### *property* FaceMeshing.NamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](./../NamedSelection.md#NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FaceMeshing.NamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../NamedSelection.md#NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelection.
 
@@ -165,7 +165,7 @@ Gets or sets the SpecifiedSides.
 
 <a id="FaceMeshing.DataModelObjectCategory"></a>
 
-### *property* FaceMeshing.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FaceMeshing.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -173,7 +173,7 @@ Gets the current DataModelObject’s category.
 
 <a id="FaceMeshing.ScopingMethod"></a>
 
-### *property* FaceMeshing.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](./../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FaceMeshing.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -197,7 +197,7 @@ Gets the list of children.
 
 <a id="FaceMeshing.Comments"></a>
 
-### *property* FaceMeshing.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FaceMeshing.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -205,7 +205,7 @@ Gets the list of associated comments.
 
 <a id="FaceMeshing.Figures"></a>
 
-### *property* FaceMeshing.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FaceMeshing.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -213,7 +213,7 @@ Gets the list of associated figures.
 
 <a id="FaceMeshing.Images"></a>
 
-### *property* FaceMeshing.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FaceMeshing.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -281,7 +281,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### FaceMeshing.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### FaceMeshing.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

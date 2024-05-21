@@ -22,14 +22,14 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 | [`Mass`](#BaseResultType.Mass) |
 | [`MomentOfInertia`](#BaseResultType.MomentOfInertia) |
 | [`Rotation`](#BaseResultType.Rotation) |
-| [`Acceleration`](./../../../ACT/Automation/Mechanical/BoundaryConditions/Acceleration.md#Acceleration) |
-| [`Displacement`](./../../../ACT/Automation/Mechanical/BoundaryConditions/Displacement.md#Displacement) |
+| [`Acceleration`](../../../ACT/Automation/Mechanical/BoundaryConditions/Acceleration.md#Acceleration) |
+| [`Displacement`](../../../ACT/Automation/Mechanical/BoundaryConditions/Displacement.md#Displacement) |
 | [`Frequency`](#BaseResultType.Frequency) |
 | [`ReactionForce`](#BaseResultType.ReactionForce) |
 | [`ReactionMoment`](#BaseResultType.ReactionMoment) |
 | [`Frequencies`](#BaseResultType.Frequencies) |
-| [`Velocity`](./../../../ACT/Automation/Mechanical/BoundaryConditions/Velocity.md#Velocity) |
-| [`Volume`](./../../../ACT/Automation/Mechanical/Results/Volume.md#Volume) |
+| [`Velocity`](../../../ACT/Automation/Mechanical/BoundaryConditions/Velocity.md#Velocity) |
+| [`Volume`](../../../ACT/Automation/Mechanical/Results/Volume.md#Volume) |
 
 <a id="import-detail"></a>
 

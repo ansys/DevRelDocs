@@ -19,7 +19,7 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 | Name |
 | ------------------------------------------------------------------------------------------ |
 | [`Support`](#ForceComponentSelectionType.Support) |
-| [`Coupling`](./../../../ACT/Automation/Mechanical/BoundaryConditions/Coupling.md#Coupling) |
+| [`Coupling`](../../../ACT/Automation/Mechanical/BoundaryConditions/Coupling.md#Coupling) |
 | [`Contact`](#ForceComponentSelectionType.Contact) |
 | [`All`](#ForceComponentSelectionType.All) |
 

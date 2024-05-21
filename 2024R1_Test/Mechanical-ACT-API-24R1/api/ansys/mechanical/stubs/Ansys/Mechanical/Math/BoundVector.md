@@ -36,7 +36,7 @@ from ansys.mechanical.stubs.Ansys.Mechanical.Math import BoundVector
 
 <a id="BoundVector.Origin"></a>
 
-### *property* BoundVector.Origin *: [Ansys.Mechanical.Graphics.Point](./../Graphics/Point.md#Point) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoundVector.Origin *: [Ansys.Mechanical.Graphics.Point](../Graphics/Point.md#Point) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The location at the start of the BoundVector.
 

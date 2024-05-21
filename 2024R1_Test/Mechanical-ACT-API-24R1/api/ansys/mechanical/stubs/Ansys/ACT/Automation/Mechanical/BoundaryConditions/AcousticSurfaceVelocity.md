@@ -51,7 +51,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`ZPhaseAngle`](#AcousticSurfaceVelocity.ZPhaseAngle)                                                                  | Gets or sets the ZPhaseAngle.                                 |
 | [`DefineBy`](#AcousticSurfaceVelocity.DefineBy)                                                                        | Gets or sets the DefineBy.                                    |
 | [`Location`](#AcousticSurfaceVelocity.Location)                                                                        | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Suppressed`](#AcousticSurfaceVelocity.Suppressed)                                                                    | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#AcousticSurfaceVelocity.SharedRefBody)                                                              | Gets or sets the SharedRefBody.                               |
 | [`Children`](#AcousticSurfaceVelocity.Children)                                                                        | Gets the list of children.                                    |
@@ -85,7 +85,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="AcousticSurfaceVelocity.XComponent"></a>
 
-### *property* AcousticSurfaceVelocity.XComponent *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticSurfaceVelocity.XComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XComponent.
 
@@ -93,7 +93,7 @@ Gets or sets the XComponent.
 
 <a id="AcousticSurfaceVelocity.YComponent"></a>
 
-### *property* AcousticSurfaceVelocity.YComponent *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticSurfaceVelocity.YComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the YComponent.
 
@@ -101,7 +101,7 @@ Gets or sets the YComponent.
 
 <a id="AcousticSurfaceVelocity.ZComponent"></a>
 
-### *property* AcousticSurfaceVelocity.ZComponent *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticSurfaceVelocity.ZComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ZComponent.
 
@@ -109,7 +109,7 @@ Gets or sets the ZComponent.
 
 <a id="AcousticSurfaceVelocity.Magnitude"></a>
 
-### *property* AcousticSurfaceVelocity.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticSurfaceVelocity.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Magnitude.
 
@@ -117,7 +117,7 @@ Gets or sets the Magnitude.
 
 <a id="AcousticSurfaceVelocity.PhaseAngle"></a>
 
-### *property* AcousticSurfaceVelocity.PhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticSurfaceVelocity.PhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PhaseAngle.
 
@@ -125,7 +125,7 @@ Gets or sets the PhaseAngle.
 
 <a id="AcousticSurfaceVelocity.XPhaseAngle"></a>
 
-### *property* AcousticSurfaceVelocity.XPhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticSurfaceVelocity.XPhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XPhaseAngle.
 
@@ -133,7 +133,7 @@ Gets or sets the XPhaseAngle.
 
 <a id="AcousticSurfaceVelocity.YPhaseAngle"></a>
 
-### *property* AcousticSurfaceVelocity.YPhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticSurfaceVelocity.YPhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the YPhaseAngle.
 
@@ -141,7 +141,7 @@ Gets or sets the YPhaseAngle.
 
 <a id="AcousticSurfaceVelocity.ZPhaseAngle"></a>
 
-### *property* AcousticSurfaceVelocity.ZPhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticSurfaceVelocity.ZPhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ZPhaseAngle.
 
@@ -149,7 +149,7 @@ Gets or sets the ZPhaseAngle.
 
 <a id="AcousticSurfaceVelocity.DefineBy"></a>
 
-### *property* AcousticSurfaceVelocity.DefineBy *: [Ansys.Mechanical.DataModel.Enums.LoadDefineBy](./../../../../Mechanical/DataModel/Enums/LoadDefineBy.md#LoadDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticSurfaceVelocity.DefineBy *: [Ansys.Mechanical.DataModel.Enums.LoadDefineBy](../../../../Mechanical/DataModel/Enums/LoadDefineBy.md#LoadDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DefineBy.
 
@@ -165,7 +165,7 @@ Gets or sets the Location.
 
 <a id="AcousticSurfaceVelocity.DataModelObjectCategory"></a>
 
-### *property* AcousticSurfaceVelocity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticSurfaceVelocity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -181,7 +181,7 @@ Gets or sets the Suppressed.
 
 <a id="AcousticSurfaceVelocity.SharedRefBody"></a>
 
-### *property* AcousticSurfaceVelocity.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](./../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticSurfaceVelocity.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -197,7 +197,7 @@ Gets the list of children.
 
 <a id="AcousticSurfaceVelocity.Comments"></a>
 
-### *property* AcousticSurfaceVelocity.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticSurfaceVelocity.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -205,7 +205,7 @@ Gets the list of associated comments.
 
 <a id="AcousticSurfaceVelocity.Figures"></a>
 
-### *property* AcousticSurfaceVelocity.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticSurfaceVelocity.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -213,7 +213,7 @@ Gets the list of associated figures.
 
 <a id="AcousticSurfaceVelocity.Images"></a>
 
-### *property* AcousticSurfaceVelocity.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticSurfaceVelocity.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -281,7 +281,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### AcousticSurfaceVelocity.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### AcousticSurfaceVelocity.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

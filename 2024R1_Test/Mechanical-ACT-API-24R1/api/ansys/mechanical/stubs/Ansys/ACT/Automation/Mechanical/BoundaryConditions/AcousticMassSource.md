@@ -44,7 +44,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Magnitude`](#AcousticMassSource.Magnitude)                                                                           | Gets or sets the Magnitude.                                   |
 | [`PhaseAngle`](#AcousticMassSource.PhaseAngle)                                                                         | Gets or sets the PhaseAngle.                                  |
 | [`Location`](#AcousticMassSource.Location)                                                                             | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Suppressed`](#AcousticMassSource.Suppressed)                                                                         | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#AcousticMassSource.SharedRefBody)                                                                   | Gets or sets the SharedRefBody.                               |
 | [`Children`](#AcousticMassSource.Children)                                                                             | Gets the list of children.                                    |
@@ -78,7 +78,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="AcousticMassSource.Magnitude"></a>
 
-### *property* AcousticMassSource.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticMassSource.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Magnitude.
 
@@ -86,7 +86,7 @@ Gets or sets the Magnitude.
 
 <a id="AcousticMassSource.PhaseAngle"></a>
 
-### *property* AcousticMassSource.PhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticMassSource.PhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PhaseAngle.
 
@@ -102,7 +102,7 @@ Gets or sets the Location.
 
 <a id="AcousticMassSource.DataModelObjectCategory"></a>
 
-### *property* AcousticMassSource.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticMassSource.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -118,7 +118,7 @@ Gets or sets the Suppressed.
 
 <a id="AcousticMassSource.SharedRefBody"></a>
 
-### *property* AcousticMassSource.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](./../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticMassSource.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -134,7 +134,7 @@ Gets the list of children.
 
 <a id="AcousticMassSource.Comments"></a>
 
-### *property* AcousticMassSource.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticMassSource.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -142,7 +142,7 @@ Gets the list of associated comments.
 
 <a id="AcousticMassSource.Figures"></a>
 
-### *property* AcousticMassSource.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticMassSource.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -150,7 +150,7 @@ Gets the list of associated figures.
 
 <a id="AcousticMassSource.Images"></a>
 
-### *property* AcousticMassSource.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticMassSource.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -218,7 +218,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### AcousticMassSource.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### AcousticMassSource.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

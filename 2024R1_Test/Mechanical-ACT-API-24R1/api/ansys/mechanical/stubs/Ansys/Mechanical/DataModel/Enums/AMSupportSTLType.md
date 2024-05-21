@@ -18,7 +18,7 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 | Name |
 | ---------------------------------------------------------------- |
-| [`Solid`](./../../../ACT/Automation/Mechanical/Solid.md#Solid) |
+| [`Solid`](../../../ACT/Automation/Mechanical/Solid.md#Solid) |
 | [`Volumeless`](#AMSupportSTLType.Volumeless) |
 
 <a id="import-detail"></a>

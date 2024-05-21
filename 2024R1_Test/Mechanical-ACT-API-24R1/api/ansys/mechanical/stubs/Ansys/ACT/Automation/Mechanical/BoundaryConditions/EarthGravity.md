@@ -46,8 +46,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`ZComponent`](#EarthGravity.ZComponent)                                                                               | Gets the ZComponent.                                          |
 | [`Direction`](#EarthGravity.Direction)                                                                                 | Gets or sets the Direction.                                   |
 | [`Suppressed`](#EarthGravity.Suppressed)                                                                               | Gets or sets the Suppressed.                                  |
-| [`CoordinateSystem`](./../../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`CoordinateSystem`](../../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#EarthGravity.Children)                                                                                   | Gets the list of children.                                    |
 | [`Comments`](#EarthGravity.Comments)                                                                                   | Gets the list of associated comments.                         |
 | [`Figures`](#EarthGravity.Figures)                                                                                     | Gets the list of associated figures.                          |
@@ -86,7 +86,7 @@ Gets the GeometrySelection.
 
 <a id="EarthGravity.XComponent"></a>
 
-### *property* EarthGravity.XComponent *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EarthGravity.XComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the XComponent.
 
@@ -94,7 +94,7 @@ Gets the XComponent.
 
 <a id="EarthGravity.YComponent"></a>
 
-### *property* EarthGravity.YComponent *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EarthGravity.YComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the YComponent.
 
@@ -102,7 +102,7 @@ Gets the YComponent.
 
 <a id="EarthGravity.ZComponent"></a>
 
-### *property* EarthGravity.ZComponent *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EarthGravity.ZComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ZComponent.
 
@@ -110,7 +110,7 @@ Gets the ZComponent.
 
 <a id="EarthGravity.Direction"></a>
 
-### *property* EarthGravity.Direction *: [Ansys.Mechanical.DataModel.Enums.GravityOrientationType](./../../../../Mechanical/DataModel/Enums/GravityOrientationType.md#GravityOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EarthGravity.Direction *: [Ansys.Mechanical.DataModel.Enums.GravityOrientationType](../../../../Mechanical/DataModel/Enums/GravityOrientationType.md#GravityOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Direction.
 
@@ -126,7 +126,7 @@ Gets or sets the Suppressed.
 
 <a id="EarthGravity.CoordinateSystem"></a>
 
-### *property* EarthGravity.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EarthGravity.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -134,7 +134,7 @@ Gets or sets the CoordinateSystem.
 
 <a id="EarthGravity.DataModelObjectCategory"></a>
 
-### *property* EarthGravity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EarthGravity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -150,7 +150,7 @@ Gets the list of children.
 
 <a id="EarthGravity.Comments"></a>
 
-### *property* EarthGravity.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EarthGravity.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -158,7 +158,7 @@ Gets the list of associated comments.
 
 <a id="EarthGravity.Figures"></a>
 
-### *property* EarthGravity.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EarthGravity.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -166,7 +166,7 @@ Gets the list of associated figures.
 
 <a id="EarthGravity.Images"></a>
 
-### *property* EarthGravity.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EarthGravity.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -218,7 +218,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### EarthGravity.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### EarthGravity.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

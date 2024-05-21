@@ -53,13 +53,13 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`RangeMinimum`](#NodalDisplacement.RangeMinimum)                                                                      | Gets or sets the RangeMinimum.                                |
 | [`PhaseAngle`](#NodalDisplacement.PhaseAngle)                                                                          | Gets or sets the PhaseAngle.                                  |
 | [`DynamicRelaxationBehavior`](#NodalDisplacement.DynamicRelaxationBehavior)                                            | Gets or sets the DynamicRelaxationBehavior.                   |
-| [`GraphControlsXAxis`](./../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#GraphControlsXAxis)                | Gets or sets the GraphControlsXAxis.                          |
+| [`GraphControlsXAxis`](../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#GraphControlsXAxis)                | Gets or sets the GraphControlsXAxis.                          |
 | [`IndependentVariable`](#NodalDisplacement.IndependentVariable)                                                        | Gets or sets the IndependentVariable.                         |
 | [`ReverseDirectionForInverseSteps`](#NodalDisplacement.ReverseDirectionForInverseSteps)                                | Gets or sets the ReverseDirectionForInverseSteps.             |
-| [`CoordinateSystem`](./../../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets the CoordinateSystem.                                    |
+| [`CoordinateSystem`](../../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets the CoordinateSystem.                                    |
 | [`XYZFunctionCoordinateSystem`](#NodalDisplacement.XYZFunctionCoordinateSystem)                                        | Gets or sets the XYZFunctionCoordinateSystem.                 |
 | [`Location`](#NodalDisplacement.Location)                                                                              | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Suppressed`](#NodalDisplacement.Suppressed)                                                                          | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#NodalDisplacement.SharedRefBody)                                                                    | Gets or sets the SharedRefBody.                               |
 | [`Children`](#NodalDisplacement.Children)                                                                              | Gets the list of children.                                    |
@@ -101,7 +101,7 @@ Gets or sets the NumberOfSegments.
 
 <a id="NodalDisplacement.XComponent"></a>
 
-### *property* NodalDisplacement.XComponent *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalDisplacement.XComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the XComponent.
 
@@ -109,7 +109,7 @@ Gets the XComponent.
 
 <a id="NodalDisplacement.YComponent"></a>
 
-### *property* NodalDisplacement.YComponent *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalDisplacement.YComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the YComponent.
 
@@ -117,7 +117,7 @@ Gets the YComponent.
 
 <a id="NodalDisplacement.ZComponent"></a>
 
-### *property* NodalDisplacement.ZComponent *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalDisplacement.ZComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ZComponent.
 
@@ -149,7 +149,7 @@ Gets or sets the PhaseAngle.
 
 <a id="NodalDisplacement.DynamicRelaxationBehavior"></a>
 
-### *property* NodalDisplacement.DynamicRelaxationBehavior *: [Ansys.Mechanical.DataModel.Enums.DynamicRelaxationBehaviorType](./../../../../Mechanical/DataModel/Enums/DynamicRelaxationBehaviorType.md#DynamicRelaxationBehaviorType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalDisplacement.DynamicRelaxationBehavior *: [Ansys.Mechanical.DataModel.Enums.DynamicRelaxationBehaviorType](../../../../Mechanical/DataModel/Enums/DynamicRelaxationBehaviorType.md#DynamicRelaxationBehaviorType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DynamicRelaxationBehavior.
 
@@ -157,7 +157,7 @@ Gets or sets the DynamicRelaxationBehavior.
 
 <a id="NodalDisplacement.GraphControlsXAxis"></a>
 
-### *property* NodalDisplacement.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](./../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalDisplacement.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GraphControlsXAxis.
 
@@ -165,7 +165,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="NodalDisplacement.IndependentVariable"></a>
 
-### *property* NodalDisplacement.IndependentVariable *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](./../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalDisplacement.IndependentVariable *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IndependentVariable.
 
@@ -181,7 +181,7 @@ Gets or sets the ReverseDirectionForInverseSteps.
 
 <a id="NodalDisplacement.CoordinateSystem"></a>
 
-### *property* NodalDisplacement.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalDisplacement.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the CoordinateSystem.
 
@@ -189,7 +189,7 @@ Gets the CoordinateSystem.
 
 <a id="NodalDisplacement.XYZFunctionCoordinateSystem"></a>
 
-### *property* NodalDisplacement.XYZFunctionCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalDisplacement.XYZFunctionCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XYZFunctionCoordinateSystem.
 
@@ -205,7 +205,7 @@ Gets or sets the Location.
 
 <a id="NodalDisplacement.DataModelObjectCategory"></a>
 
-### *property* NodalDisplacement.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalDisplacement.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -221,7 +221,7 @@ Gets or sets the Suppressed.
 
 <a id="NodalDisplacement.SharedRefBody"></a>
 
-### *property* NodalDisplacement.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](./../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalDisplacement.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -237,7 +237,7 @@ Gets the list of children.
 
 <a id="NodalDisplacement.Comments"></a>
 
-### *property* NodalDisplacement.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalDisplacement.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -245,7 +245,7 @@ Gets the list of associated comments.
 
 <a id="NodalDisplacement.Figures"></a>
 
-### *property* NodalDisplacement.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalDisplacement.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -253,7 +253,7 @@ Gets the list of associated figures.
 
 <a id="NodalDisplacement.Images"></a>
 
-### *property* NodalDisplacement.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalDisplacement.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -353,7 +353,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### NodalDisplacement.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### NodalDisplacement.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

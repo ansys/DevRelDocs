@@ -19,8 +19,8 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 | Name |
 | ------------------------------------------------------------------------ |
 | [`KnockdownFactors`](#STLSupportViewType.KnockdownFactors) |
-| [`Mesh`](./../../../ACT/Automation/Mechanical/MeshControls/Mesh.md#Mesh) |
-| [`STL`](./../../../ACT/Automation/Mechanical/STL.md#STL) |
+| [`Mesh`](../../../ACT/Automation/Mechanical/MeshControls/Mesh.md#Mesh) |
+| [`STL`](../../../ACT/Automation/Mechanical/STL.md#STL) |
 
 <a id="import-detail"></a>
 

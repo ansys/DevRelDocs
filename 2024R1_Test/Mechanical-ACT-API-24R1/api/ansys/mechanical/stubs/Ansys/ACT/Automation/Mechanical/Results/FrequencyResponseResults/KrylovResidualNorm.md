@@ -42,11 +42,11 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 | Name | Description |
 |------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
-| [`CoordinateSystem`](./../../../../Common/CoordinateSystem.md#CoordinateSystem)                        | Gets or sets the CoordinateSystem. Accepts/Returns None if it is the Solution Coordinate System.   |
+| [`CoordinateSystem`](../../../../Common/CoordinateSystem.md#CoordinateSystem)                        | Gets or sets the CoordinateSystem. Accepts/Returns None if it is the Solution Coordinate System.   |
 | [`InternalObject`](#id0)                                                                             | Gets the internal object. For advanced usage only.                                                 |
 | [`RemotePointSelection`](#KrylovResidualNorm.RemotePointSelection)                                   | Gets or sets the RemotePointSelection.                                                             |
 | [`IsSolved`](#KrylovResidualNorm.IsSolved)                                                           | Gets the IsSolved.                                                                                 |
-| [`ChartDimensions`](./../../../../../Mechanical/DataModel/Enums/ChartDimensions.md#ChartDimensions)    | Gets or sets the Chart Dimensions                                                                  |
+| [`ChartDimensions`](../../../../../Mechanical/DataModel/Enums/ChartDimensions.md#ChartDimensions)    | Gets or sets the Chart Dimensions                                                                  |
 | [`BoundaryCondition`](#KrylovResidualNorm.BoundaryCondition)                                         | Gets or sets the BoundaryCondition.                                                                |
 | [`CutFrequency`](#KrylovResidualNorm.CutFrequency)                                                   | Gets or sets the CutFrequency.                                                                     |
 | [`SectorNumber`](#KrylovResidualNorm.SectorNumber)                                                   | Gets or sets the SectorNumber.                                                                     |
@@ -68,22 +68,22 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`RequestedFrequency`](#KrylovResidualNorm.RequestedFrequency)                                       | Gets or sets the RequestedFrequency.                                                               |
 | [`AccelerationType`](#KrylovResidualNorm.AccelerationType)                                           | Gets or sets the AccelerationType.                                                                 |
 | [`ChartViewingStyle`](#KrylovResidualNorm.ChartViewingStyle)                                         | Gets or sets the ChartViewingStyle.                                                                |
-| [`DeformationType`](./../../../../../Mechanical/DataModel/Enums/DeformationType.md#DeformationType)    | Gets or sets the DeformationType.                                                                  |
-| [`FilterType`](./../../../../../Mechanical/DataModel/Enums/FilterType.md#FilterType)                   | Gets or sets the FilterType.                                                                       |
+| [`DeformationType`](../../../../../Mechanical/DataModel/Enums/DeformationType.md#DeformationType)    | Gets or sets the DeformationType.                                                                  |
+| [`FilterType`](../../../../../Mechanical/DataModel/Enums/FilterType.md#FilterType)                   | Gets or sets the FilterType.                                                                       |
 | [`SpatialResolution`](#KrylovResidualNorm.SpatialResolution)                                         | Gets or sets the SpatialResolution.                                                                |
 | [`NormalOrientation`](#KrylovResidualNorm.NormalOrientation)                                         | Gets or sets the NormalOrientation.                                                                |
 | [`CurvesAppearanceDisplay`](#KrylovResidualNorm.CurvesAppearanceDisplay)                             | Gets or sets the CurvesAppearanceDisplay.                                                          |
 | [`ResultChartType`](#KrylovResidualNorm.ResultChartType)                                             | Gets the ResultChartType.                                                                          |
 | [`DpfEvaluation`](#KrylovResidualNorm.DpfEvaluation)                                                 | Gets or sets the DpfEvaluation.                                                                    |
-| [`XAxisValues`](./../../../../../Mechanical/DataModel/Enums/XAxisValues.md#XAxisValues)                | Gets or sets the XAxisValues.                                                                      |
+| [`XAxisValues`](../../../../../Mechanical/DataModel/Enums/XAxisValues.md#XAxisValues)                | Gets or sets the XAxisValues.                                                                      |
 | [`ShearOrientation`](#KrylovResidualNorm.ShearOrientation)                                           | Gets or sets the ShearOrientation.                                                                 |
-| [`StressStrainType`](./../../../../../Mechanical/DataModel/Enums/StressStrainType.md#StressStrainType) | Gets or sets the StressStrainType.                                                                 |
+| [`StressStrainType`](../../../../../Mechanical/DataModel/Enums/StressStrainType.md#StressStrainType) | Gets or sets the StressStrainType.                                                                 |
 | [`TimeHistoryDisplay`](#KrylovResidualNorm.TimeHistoryDisplay)                                       | Gets or sets the TimeHistoryDisplay.                                                               |
 | [`VelocityType`](#KrylovResidualNorm.VelocityType)                                                   | Gets or sets the VelocityType.                                                                     |
 | [`Suppressed`](#KrylovResidualNorm.Suppressed)                                                       | Gets or sets the Suppressed.                                                                       |
 | [`EnhancedTracking`](#KrylovResidualNorm.EnhancedTracking)                                           | Gets the EnhancedTracking.                                                                         |
 | [`UseParentFrequencyRange`](#KrylovResidualNorm.UseParentFrequencyRange)                             | Gets or sets the UseParentFrequencyRange.                                                          |
-| [`Spring`](./../../Connections/Spring.md#Spring)                                                       | Gets or sets the Spring.                                                                           |
+| [`Spring`](../../Connections/Spring.md#Spring)                                                       | Gets or sets the Spring.                                                                           |
 | [`Location`](#KrylovResidualNorm.Location)                                                           | Gets or sets the Location.                                                                         |
 | [`Children`](#KrylovResidualNorm.Children)                                                           | Gets the list of children.                                                                         |
 | [`Comments`](#KrylovResidualNorm.Comments)                                                           | Gets the list of associated comments.                                                              |
@@ -106,7 +106,7 @@ from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.Results.FrequencyRes
 
 <a id="KrylovResidualNorm.CoordinateSystem"></a>
 
-### *property* KrylovResidualNorm.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* KrylovResidualNorm.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem. Accepts/Returns None if it is the Solution Coordinate System.
 
@@ -122,7 +122,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="KrylovResidualNorm.RemotePointSelection"></a>
 
-### *property* KrylovResidualNorm.RemotePointSelection *: [Ansys.ACT.Automation.Mechanical.RemotePoint](./../../RemotePoint.md#RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* KrylovResidualNorm.RemotePointSelection *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../../RemotePoint.md#RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RemotePointSelection.
 
@@ -138,7 +138,7 @@ Gets the IsSolved.
 
 <a id="KrylovResidualNorm.ChartDimensions"></a>
 
-### *property* KrylovResidualNorm.ChartDimensions *: [Ansys.Mechanical.DataModel.Enums.ChartDimensions](./../../../../../Mechanical/DataModel/Enums/ChartDimensions.md#ChartDimensions) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* KrylovResidualNorm.ChartDimensions *: [Ansys.Mechanical.DataModel.Enums.ChartDimensions](../../../../../Mechanical/DataModel/Enums/ChartDimensions.md#ChartDimensions) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Chart Dimensions
 
@@ -146,7 +146,7 @@ Gets or sets the Chart Dimensions
 
 <a id="KrylovResidualNorm.BoundaryCondition"></a>
 
-### *property* KrylovResidualNorm.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](./../../BoundaryConditions/GenericBoundaryCondition.md#GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* KrylovResidualNorm.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](../../BoundaryConditions/GenericBoundaryCondition.md#GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BoundaryCondition.
 
@@ -298,7 +298,7 @@ Gets or sets the RequestedFrequency.
 
 <a id="KrylovResidualNorm.AccelerationType"></a>
 
-### *property* KrylovResidualNorm.AccelerationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](./../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* KrylovResidualNorm.AccelerationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AccelerationType.
 
@@ -306,7 +306,7 @@ Gets or sets the AccelerationType.
 
 <a id="KrylovResidualNorm.ChartViewingStyle"></a>
 
-### *property* KrylovResidualNorm.ChartViewingStyle *: [Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType](./../../../../../Mechanical/DataModel/Enums/ChartAxisScaleType.md#ChartAxisScaleType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* KrylovResidualNorm.ChartViewingStyle *: [Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType](../../../../../Mechanical/DataModel/Enums/ChartAxisScaleType.md#ChartAxisScaleType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ChartViewingStyle.
 
@@ -314,7 +314,7 @@ Gets or sets the ChartViewingStyle.
 
 <a id="KrylovResidualNorm.DeformationType"></a>
 
-### *property* KrylovResidualNorm.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](./../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* KrylovResidualNorm.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DeformationType.
 
@@ -322,7 +322,7 @@ Gets or sets the DeformationType.
 
 <a id="KrylovResidualNorm.FilterType"></a>
 
-### *property* KrylovResidualNorm.FilterType *: [Ansys.Mechanical.DataModel.Enums.FilterType](./../../../../../Mechanical/DataModel/Enums/FilterType.md#FilterType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* KrylovResidualNorm.FilterType *: [Ansys.Mechanical.DataModel.Enums.FilterType](../../../../../Mechanical/DataModel/Enums/FilterType.md#FilterType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FilterType.
 
@@ -330,7 +330,7 @@ Gets or sets the FilterType.
 
 <a id="KrylovResidualNorm.SpatialResolution"></a>
 
-### *property* KrylovResidualNorm.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MultipleNodeType](./../../../../../Mechanical/DataModel/Enums/MultipleNodeType.md#MultipleNodeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* KrylovResidualNorm.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MultipleNodeType](../../../../../Mechanical/DataModel/Enums/MultipleNodeType.md#MultipleNodeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SpatialResolution.
 
@@ -338,7 +338,7 @@ Gets or sets the SpatialResolution.
 
 <a id="KrylovResidualNorm.NormalOrientation"></a>
 
-### *property* KrylovResidualNorm.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](./../../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* KrylovResidualNorm.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NormalOrientation.
 
@@ -346,7 +346,7 @@ Gets or sets the NormalOrientation.
 
 <a id="KrylovResidualNorm.CurvesAppearanceDisplay"></a>
 
-### *property* KrylovResidualNorm.CurvesAppearanceDisplay *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](./../../../../../Mechanical/DataModel/Enums/ChartPlotStyle.md#ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* KrylovResidualNorm.CurvesAppearanceDisplay *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](../../../../../Mechanical/DataModel/Enums/ChartPlotStyle.md#ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CurvesAppearanceDisplay.
 
@@ -354,7 +354,7 @@ Gets or sets the CurvesAppearanceDisplay.
 
 <a id="KrylovResidualNorm.ResultChartType"></a>
 
-### *property* KrylovResidualNorm.ResultChartType *: [Ansys.Mechanical.DataModel.Enums.ChartResultType](./../../../../../Mechanical/DataModel/Enums/ChartResultType.md#ChartResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* KrylovResidualNorm.ResultChartType *: [Ansys.Mechanical.DataModel.Enums.ChartResultType](../../../../../Mechanical/DataModel/Enums/ChartResultType.md#ChartResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ResultChartType.
 
@@ -362,7 +362,7 @@ Gets the ResultChartType.
 
 <a id="KrylovResidualNorm.DpfEvaluation"></a>
 
-### *property* KrylovResidualNorm.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](./../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* KrylovResidualNorm.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DpfEvaluation.
 
@@ -370,7 +370,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="KrylovResidualNorm.XAxisValues"></a>
 
-### *property* KrylovResidualNorm.XAxisValues *: [Ansys.Mechanical.DataModel.Enums.XAxisValues](./../../../../../Mechanical/DataModel/Enums/XAxisValues.md#XAxisValues) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* KrylovResidualNorm.XAxisValues *: [Ansys.Mechanical.DataModel.Enums.XAxisValues](../../../../../Mechanical/DataModel/Enums/XAxisValues.md#XAxisValues) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XAxisValues.
 
@@ -378,7 +378,7 @@ Gets or sets the XAxisValues.
 
 <a id="KrylovResidualNorm.ShearOrientation"></a>
 
-### *property* KrylovResidualNorm.ShearOrientation *: [Ansys.Mechanical.DataModel.Enums.ShearOrientationType](./../../../../../Mechanical/DataModel/Enums/ShearOrientationType.md#ShearOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* KrylovResidualNorm.ShearOrientation *: [Ansys.Mechanical.DataModel.Enums.ShearOrientationType](../../../../../Mechanical/DataModel/Enums/ShearOrientationType.md#ShearOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShearOrientation.
 
@@ -386,7 +386,7 @@ Gets or sets the ShearOrientation.
 
 <a id="KrylovResidualNorm.StressStrainType"></a>
 
-### *property* KrylovResidualNorm.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](./../../../../../Mechanical/DataModel/Enums/StressStrainType.md#StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* KrylovResidualNorm.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](../../../../../Mechanical/DataModel/Enums/StressStrainType.md#StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StressStrainType.
 
@@ -394,7 +394,7 @@ Gets or sets the StressStrainType.
 
 <a id="KrylovResidualNorm.TimeHistoryDisplay"></a>
 
-### *property* KrylovResidualNorm.TimeHistoryDisplay *: [Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType](./../../../../../Mechanical/DataModel/Enums/TimeHistoryDisplayType.md#TimeHistoryDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* KrylovResidualNorm.TimeHistoryDisplay *: [Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType](../../../../../Mechanical/DataModel/Enums/TimeHistoryDisplayType.md#TimeHistoryDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TimeHistoryDisplay.
 
@@ -402,7 +402,7 @@ Gets or sets the TimeHistoryDisplay.
 
 <a id="KrylovResidualNorm.VelocityType"></a>
 
-### *property* KrylovResidualNorm.VelocityType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](./../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* KrylovResidualNorm.VelocityType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the VelocityType.
 
@@ -434,7 +434,7 @@ Gets or sets the UseParentFrequencyRange.
 
 <a id="KrylovResidualNorm.Spring"></a>
 
-### *property* KrylovResidualNorm.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](./../../Connections/Spring.md#Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* KrylovResidualNorm.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../Connections/Spring.md#Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Spring.
 
@@ -458,7 +458,7 @@ Gets the list of children.
 
 <a id="KrylovResidualNorm.Comments"></a>
 
-### *property* KrylovResidualNorm.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* KrylovResidualNorm.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -466,7 +466,7 @@ Gets the list of associated comments.
 
 <a id="KrylovResidualNorm.Images"></a>
 
-### *property* KrylovResidualNorm.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* KrylovResidualNorm.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -502,7 +502,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="KrylovResidualNorm.ExportAnimation"></a>
 
-### KrylovResidualNorm.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](./../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](./../../../../../Mechanical/Graphics/AnimationExportSettings.md#AnimationExportSettings))
+### KrylovResidualNorm.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -550,7 +550,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### KrylovResidualNorm.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### KrylovResidualNorm.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

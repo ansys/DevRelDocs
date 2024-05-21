@@ -56,9 +56,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`AppliedBy`](#PointMass.AppliedBy)                                                                                 | Gets or sets the AppliedBy.                                   |
 | [`Behavior`](#PointMass.Behavior)                                                                                   | Gets or sets the Behavior.                                    |
 | [`Suppressed`](#PointMass.Suppressed)                                                                               | Gets or sets the Suppressed.                                  |
-| [`CoordinateSystem`](./../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
+| [`CoordinateSystem`](../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
 | [`NodalCoordinateSystem`](#PointMass.NodalCoordinateSystem)                                                         | Gets the NodalCoordinateSystem.                               |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`RemotePoint`](RemotePoint.md#RemotePoint)                                                                         | Gets the remote point associated to the point mass.           |
 | [`IsDistributedMass`](#PointMass.IsDistributedMass)                                                                 | Gets the IsDistributedMass.                                   |
 | [`Location`](#PointMass.Location)                                                                                   | Gets or sets the Geometry.                                    |
@@ -181,7 +181,7 @@ Gets or sets the PinballRegion.
 
 <a id="PointMass.AppliedBy"></a>
 
-### *property* PointMass.AppliedBy *: [Ansys.Mechanical.DataModel.Enums.RemoteApplicationType](./../../../Mechanical/DataModel/Enums/RemoteApplicationType.md#RemoteApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PointMass.AppliedBy *: [Ansys.Mechanical.DataModel.Enums.RemoteApplicationType](../../../Mechanical/DataModel/Enums/RemoteApplicationType.md#RemoteApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AppliedBy.
 
@@ -189,7 +189,7 @@ Gets or sets the AppliedBy.
 
 <a id="PointMass.Behavior"></a>
 
-### *property* PointMass.Behavior *: [Ansys.Mechanical.DataModel.Enums.LoadBehavior](./../../../Mechanical/DataModel/Enums/LoadBehavior.md#LoadBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PointMass.Behavior *: [Ansys.Mechanical.DataModel.Enums.LoadBehavior](../../../Mechanical/DataModel/Enums/LoadBehavior.md#LoadBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Behavior.
 
@@ -221,7 +221,7 @@ Gets the NodalCoordinateSystem.
 
 <a id="PointMass.DataModelObjectCategory"></a>
 
-### *property* PointMass.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PointMass.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -353,7 +353,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### PointMass.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### PointMass.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

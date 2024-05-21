@@ -41,7 +41,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Extend`](#PipeIdealization.Extend)                                                                                | Gets or sets the Extend.                                      |
 | [`Suppressed`](#PipeIdealization.Suppressed)                                                                        | Gets or sets the Suppressed.                                  |
 | [`GeometrySelection`](#PipeIdealization.GeometrySelection)                                                          | Gets or sets the GeometrySelection.                           |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#PipeIdealization.Children)                                                                            | Gets the list of children.                                    |
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.            |
 | [`Properties`](#PipeIdealization.Properties)                                                                        | Gets the list of properties for this object.                  |
@@ -77,7 +77,7 @@ Gets or sets the Factor.
 
 <a id="PipeIdealization.Extend"></a>
 
-### *property* PipeIdealization.Extend *: [Ansys.Mechanical.DataModel.Enums.GrowElbowElementsBy](./../../../Mechanical/DataModel/Enums/GrowElbowElementsBy.md#GrowElbowElementsBy) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PipeIdealization.Extend *: [Ansys.Mechanical.DataModel.Enums.GrowElbowElementsBy](../../../Mechanical/DataModel/Enums/GrowElbowElementsBy.md#GrowElbowElementsBy) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Extend.
 
@@ -101,7 +101,7 @@ Gets or sets the GeometrySelection.
 
 <a id="PipeIdealization.DataModelObjectCategory"></a>
 
-### *property* PipeIdealization.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PipeIdealization.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -161,7 +161,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### PipeIdealization.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### PipeIdealization.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

@@ -54,7 +54,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`SolverUnits`](#CondensedPartBase.SolverUnits)                                                                     | Gets or sets the SolverUnits.                                 |
 | [`Suppressed`](#CondensedPartBase.Suppressed)                                                                       | Gets or sets the Suppressed.                                  |
 | [`GeometrySelection`](#CondensedPartBase.GeometrySelection)                                                         | Gets or sets the GeometrySelection.                           |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#CondensedPartBase.Children)                                                                           | Gets the list of children.                                    |
 | [`Comments`](#CondensedPartBase.Comments)                                                                           | Gets the list of associated comments.                         |
 | [`Figures`](#CondensedPartBase.Figures)                                                                             | Gets the list of associated figures.                          |
@@ -133,7 +133,7 @@ Gets or sets the ReferenceTemperature.
 
 <a id="CondensedPartBase.Physics"></a>
 
-### *property* CondensedPartBase.Physics *: [Ansys.Mechanical.DataModel.Enums.CondensedPartPhysics](./../../../Mechanical/DataModel/Enums/CondensedPartPhysics.md#CondensedPartPhysics) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPartBase.Physics *: [Ansys.Mechanical.DataModel.Enums.CondensedPartPhysics](../../../Mechanical/DataModel/Enums/CondensedPartPhysics.md#CondensedPartPhysics) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Physics.
 
@@ -141,7 +141,7 @@ Gets the Physics.
 
 <a id="CondensedPartBase.SolverUnitSystem"></a>
 
-### *property* CondensedPartBase.SolverUnitSystem *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](./../../../Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPartBase.SolverUnitSystem *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](../../../Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverUnitSystem.
 
@@ -149,7 +149,7 @@ Gets or sets the SolverUnitSystem.
 
 <a id="CondensedPartBase.SolutionNameMode"></a>
 
-### *property* CondensedPartBase.SolutionNameMode *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](./../../../Mechanical/DataModel/Enums/AutomaticOrManual.md#AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPartBase.SolutionNameMode *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](../../../Mechanical/DataModel/Enums/AutomaticOrManual.md#AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolutionNameMode.
 
@@ -157,7 +157,7 @@ Gets or sets the SolutionNameMode.
 
 <a id="CondensedPartBase.SolverUnits"></a>
 
-### *property* CondensedPartBase.SolverUnits *: [Ansys.Mechanical.DataModel.Enums.SolverUnitsControlType](./../../../Mechanical/DataModel/Enums/SolverUnitsControlType.md#SolverUnitsControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPartBase.SolverUnits *: [Ansys.Mechanical.DataModel.Enums.SolverUnitsControlType](../../../Mechanical/DataModel/Enums/SolverUnitsControlType.md#SolverUnitsControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverUnits.
 
@@ -181,7 +181,7 @@ Gets or sets the GeometrySelection.
 
 <a id="CondensedPartBase.DataModelObjectCategory"></a>
 
-### *property* CondensedPartBase.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPartBase.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -281,7 +281,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### CondensedPartBase.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### CondensedPartBase.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

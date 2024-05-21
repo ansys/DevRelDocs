@@ -46,7 +46,7 @@ Length property.
 
 <a id="StraightLineEdge.EndPoint"></a>
 
-### *property* StraightLineEdge.EndPoint *: [Ansys.Mechanical.DataModel.ConstructionLines.Point](./../Point.md#Point) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StraightLineEdge.EndPoint *: [Ansys.Mechanical.DataModel.ConstructionLines.Point](../Point.md#Point) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 A Point representing the end vertex of the edge.
 
@@ -54,7 +54,7 @@ A Point representing the end vertex of the edge.
 
 <a id="StraightLineEdge.StartPoint"></a>
 
-### *property* StraightLineEdge.StartPoint *: [Ansys.Mechanical.DataModel.ConstructionLines.Point](./../Point.md#Point) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StraightLineEdge.StartPoint *: [Ansys.Mechanical.DataModel.ConstructionLines.Point](../Point.md#Point) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 A Point representing the start vertex of an edge.
 

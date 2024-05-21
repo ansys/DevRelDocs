@@ -49,14 +49,14 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`ShellShearCorrectionFactor`](#BodyControl.ShellShearCorrectionFactor)                                                | Gets or sets the ShellShearCorrectionFactor.                  |
 | [`ShellSublayers`](#BodyControl.ShellSublayers)                                                                        | Gets or sets the ShellSublayers.                              |
 | [`StiffnessCoefficient`](#BodyControl.StiffnessCoefficient)                                                            | Gets or sets the StiffnessCoefficient.                        |
-| [`BeamSolutionType`](./../../../../Mechanical/DataModel/Enums/BeamSolutionType.md#BeamSolutionType)                      | Gets or sets the BeamSolutionType.                            |
-| [`HexIntegrationType`](./../../../../Mechanical/DataModel/Enums/HexIntegrationType.md#HexIntegrationType)                | Gets or sets the HexIntegrationType.                          |
-| [`HourglassDampingType`](./../../../../Mechanical/DataModel/Enums/HourglassDampingType.md#HourglassDampingType)          | Gets or sets the HourglassDampingType.                        |
-| [`ShellInertiaUpdate`](./../../../../Mechanical/DataModel/Enums/ShellInertiaUpdate.md#ShellInertiaUpdate)                | Gets or sets the ShellInertiaUpdate.                          |
-| [`ShellThicknessUpdate`](./../../../../Mechanical/DataModel/Enums/ShellThicknessUpdate.md#ShellThicknessUpdate)          | Gets or sets the ShellThicknessUpdate.                        |
-| [`TetIntegrationType`](./../../../../Mechanical/DataModel/Enums/TetIntegrationType.md#TetIntegrationType)                | Gets or sets the TetIntegrationType.                          |
+| [`BeamSolutionType`](../../../../Mechanical/DataModel/Enums/BeamSolutionType.md#BeamSolutionType)                      | Gets or sets the BeamSolutionType.                            |
+| [`HexIntegrationType`](../../../../Mechanical/DataModel/Enums/HexIntegrationType.md#HexIntegrationType)                | Gets or sets the HexIntegrationType.                          |
+| [`HourglassDampingType`](../../../../Mechanical/DataModel/Enums/HourglassDampingType.md#HourglassDampingType)          | Gets or sets the HourglassDampingType.                        |
+| [`ShellInertiaUpdate`](../../../../Mechanical/DataModel/Enums/ShellInertiaUpdate.md#ShellInertiaUpdate)                | Gets or sets the ShellInertiaUpdate.                          |
+| [`ShellThicknessUpdate`](../../../../Mechanical/DataModel/Enums/ShellThicknessUpdate.md#ShellThicknessUpdate)          | Gets or sets the ShellThicknessUpdate.                        |
+| [`TetIntegrationType`](../../../../Mechanical/DataModel/Enums/TetIntegrationType.md#TetIntegrationType)                | Gets or sets the TetIntegrationType.                          |
 | [`Location`](#BodyControl.Location)                                                                                    | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Suppressed`](#BodyControl.Suppressed)                                                                                | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#BodyControl.SharedRefBody)                                                                          | Gets or sets the SharedRefBody.                               |
 | [`Children`](#BodyControl.Children)                                                                                    | Gets the list of children.                                    |
@@ -154,7 +154,7 @@ Gets or sets the StiffnessCoefficient.
 
 <a id="BodyControl.BeamSolutionType"></a>
 
-### *property* BodyControl.BeamSolutionType *: [Ansys.Mechanical.DataModel.Enums.BeamSolutionType](./../../../../Mechanical/DataModel/Enums/BeamSolutionType.md#BeamSolutionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyControl.BeamSolutionType *: [Ansys.Mechanical.DataModel.Enums.BeamSolutionType](../../../../Mechanical/DataModel/Enums/BeamSolutionType.md#BeamSolutionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BeamSolutionType.
 
@@ -162,7 +162,7 @@ Gets or sets the BeamSolutionType.
 
 <a id="BodyControl.HexIntegrationType"></a>
 
-### *property* BodyControl.HexIntegrationType *: [Ansys.Mechanical.DataModel.Enums.HexIntegrationType](./../../../../Mechanical/DataModel/Enums/HexIntegrationType.md#HexIntegrationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyControl.HexIntegrationType *: [Ansys.Mechanical.DataModel.Enums.HexIntegrationType](../../../../Mechanical/DataModel/Enums/HexIntegrationType.md#HexIntegrationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HexIntegrationType.
 
@@ -170,7 +170,7 @@ Gets or sets the HexIntegrationType.
 
 <a id="BodyControl.HourglassDampingType"></a>
 
-### *property* BodyControl.HourglassDampingType *: [Ansys.Mechanical.DataModel.Enums.HourglassDampingType](./../../../../Mechanical/DataModel/Enums/HourglassDampingType.md#HourglassDampingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyControl.HourglassDampingType *: [Ansys.Mechanical.DataModel.Enums.HourglassDampingType](../../../../Mechanical/DataModel/Enums/HourglassDampingType.md#HourglassDampingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HourglassDampingType.
 
@@ -178,7 +178,7 @@ Gets or sets the HourglassDampingType.
 
 <a id="BodyControl.ShellInertiaUpdate"></a>
 
-### *property* BodyControl.ShellInertiaUpdate *: [Ansys.Mechanical.DataModel.Enums.ShellInertiaUpdate](./../../../../Mechanical/DataModel/Enums/ShellInertiaUpdate.md#ShellInertiaUpdate) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyControl.ShellInertiaUpdate *: [Ansys.Mechanical.DataModel.Enums.ShellInertiaUpdate](../../../../Mechanical/DataModel/Enums/ShellInertiaUpdate.md#ShellInertiaUpdate) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShellInertiaUpdate.
 
@@ -186,7 +186,7 @@ Gets or sets the ShellInertiaUpdate.
 
 <a id="BodyControl.ShellThicknessUpdate"></a>
 
-### *property* BodyControl.ShellThicknessUpdate *: [Ansys.Mechanical.DataModel.Enums.ShellThicknessUpdate](./../../../../Mechanical/DataModel/Enums/ShellThicknessUpdate.md#ShellThicknessUpdate) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyControl.ShellThicknessUpdate *: [Ansys.Mechanical.DataModel.Enums.ShellThicknessUpdate](../../../../Mechanical/DataModel/Enums/ShellThicknessUpdate.md#ShellThicknessUpdate) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShellThicknessUpdate.
 
@@ -194,7 +194,7 @@ Gets or sets the ShellThicknessUpdate.
 
 <a id="BodyControl.TetIntegrationType"></a>
 
-### *property* BodyControl.TetIntegrationType *: [Ansys.Mechanical.DataModel.Enums.TetIntegrationType](./../../../../Mechanical/DataModel/Enums/TetIntegrationType.md#TetIntegrationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyControl.TetIntegrationType *: [Ansys.Mechanical.DataModel.Enums.TetIntegrationType](../../../../Mechanical/DataModel/Enums/TetIntegrationType.md#TetIntegrationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TetIntegrationType.
 
@@ -210,7 +210,7 @@ Gets or sets the Location.
 
 <a id="BodyControl.DataModelObjectCategory"></a>
 
-### *property* BodyControl.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyControl.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -226,7 +226,7 @@ Gets or sets the Suppressed.
 
 <a id="BodyControl.SharedRefBody"></a>
 
-### *property* BodyControl.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](./../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyControl.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -242,7 +242,7 @@ Gets the list of children.
 
 <a id="BodyControl.Comments"></a>
 
-### *property* BodyControl.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyControl.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -250,7 +250,7 @@ Gets the list of associated comments.
 
 <a id="BodyControl.Figures"></a>
 
-### *property* BodyControl.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyControl.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -258,7 +258,7 @@ Gets the list of associated figures.
 
 <a id="BodyControl.Images"></a>
 
-### *property* BodyControl.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyControl.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -326,7 +326,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### BodyControl.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### BodyControl.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

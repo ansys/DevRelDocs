@@ -27,7 +27,7 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 | [`ThermalElectric`](#PhysicsType.ThermalElectric) |
 | [`Acoustic`](#PhysicsType.Acoustic) |
 | [`MechanicalAcoustic`](#PhysicsType.MechanicalAcoustic) |
-| [`ElectricCharge`](./../../../ACT/Automation/Mechanical/BoundaryConditions/ElectricCharge.md#ElectricCharge) |
+| [`ElectricCharge`](../../../ACT/Automation/Mechanical/BoundaryConditions/ElectricCharge.md#ElectricCharge) |
 | [`MechanicalElectricCharge`](#PhysicsType.MechanicalElectricCharge) |
 
 <a id="import-detail"></a>

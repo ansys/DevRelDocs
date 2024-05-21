@@ -48,8 +48,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Y2`](#Solid.Y2)                                                                                                   | Gets or sets the Y2.                                          |
 | [`Z1`](#Solid.Z1)                                                                                                   | Gets or sets the Z1.                                          |
 | [`Z2`](#Solid.Z2)                                                                                                   | Gets or sets the Z2.                                          |
-| [`CoordinateSystem`](./../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`CoordinateSystem`](../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#Solid.Children)                                                                                       | Gets the list of children.                                    |
 | [`Comments`](#Solid.Comments)                                                                                       | Gets the list of associated comments.                         |
 | [`ReadOnly`](#Solid.ReadOnly)                                                                                       | Gets or sets the ReadOnly.                                    |
@@ -143,7 +143,7 @@ Gets or sets the CoordinateSystem.
 
 <a id="Solid.DataModelObjectCategory"></a>
 
-### *property* Solid.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solid.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -243,7 +243,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### Solid.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### Solid.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

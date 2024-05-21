@@ -25,9 +25,9 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 | Name | Description |
 |--------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
-| [`Project`](./../../Automation/Mechanical/Project.md#Project)              | Gets the project object. Main object of the tree of Mechanical.                                                         |
-| [`Tree`](./../../Automation/Mechanical/Tree.md#Tree)                       | Gets the tree of Mechanical.                                                                                            |
-| [`ObjectTags`](./../../../Mechanical/Application/ObjectTags.md#ObjectTags) | Gets the ObjectTags object for the Data Model, which represents the current list of tags visable in the User Interface. |
+| [`Project`](../../Automation/Mechanical/Project.md#Project)              | Gets the project object. Main object of the tree of Mechanical.                                                         |
+| [`Tree`](../../Automation/Mechanical/Tree.md#Tree)                       | Gets the tree of Mechanical.                                                                                            |
+| [`ObjectTags`](../../../Mechanical/Application/ObjectTags.md#ObjectTags) | Gets the ObjectTags object for the Data Model, which represents the current list of tags visable in the User Interface. |
 
 <a id="import-detail"></a>
 
@@ -43,7 +43,7 @@ from ansys.mechanical.stubs.Ansys.ACT.Interfaces.Mechanical import IMechanicalDa
 
 <a id="IMechanicalDataModel.Project"></a>
 
-### *property* IMechanicalDataModel.Project *: [Ansys.ACT.Automation.Mechanical.Project](./../../Automation/Mechanical/Project.md#Project) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IMechanicalDataModel.Project *: [Ansys.ACT.Automation.Mechanical.Project](../../Automation/Mechanical/Project.md#Project) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the project object. Main object of the tree of Mechanical.
 
@@ -51,7 +51,7 @@ Gets the project object. Main object of the tree of Mechanical.
 
 <a id="IMechanicalDataModel.Tree"></a>
 
-### *property* IMechanicalDataModel.Tree *: [Ansys.ACT.Automation.Mechanical.Tree](./../../Automation/Mechanical/Tree.md#Tree) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IMechanicalDataModel.Tree *: [Ansys.ACT.Automation.Mechanical.Tree](../../Automation/Mechanical/Tree.md#Tree) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the tree of Mechanical.
 
@@ -59,7 +59,7 @@ Gets the tree of Mechanical.
 
 <a id="IMechanicalDataModel.ObjectTags"></a>
 
-### *property* IMechanicalDataModel.ObjectTags *: [Ansys.Mechanical.Application.ObjectTags](./../../../Mechanical/Application/ObjectTags.md#ObjectTags) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IMechanicalDataModel.ObjectTags *: [Ansys.Mechanical.Application.ObjectTags](../../../Mechanical/Application/ObjectTags.md#ObjectTags) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ObjectTags object for the Data Model, which represents the current list of tags visable in the User Interface.
 

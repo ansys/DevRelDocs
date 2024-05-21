@@ -59,8 +59,8 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`CondensedPartUnitSystem`](#ImportedCondensedPart.CondensedPartUnitSystem)                                         | Gets or sets the CondensedPartUnitSystem.                     |
 | [`ImportFileFormat`](#ImportedCondensedPart.ImportFileFormat)                                                       | Gets or sets the ImportFileFormat.                            |
 | [`ImportStatus`](#ImportedCondensedPart.ImportStatus)                                                               | Gets the ImportStatus.                                        |
-| [`CoordinateSystem`](./../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`CoordinateSystem`](../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`NumberInterfaceEntries`](#ImportedCondensedPart.NumberInterfaceEntries)                                           | Gets the NumberInterfaceEntries.                              |
 | [`NumberMasterNodes`](#ImportedCondensedPart.NumberMasterNodes)                                                     | Gets the NumberMasterNodes.                                   |
 | [`SolutionName`](#ImportedCondensedPart.SolutionName)                                                               | Gets or sets the SolutionName.                                |
@@ -127,7 +127,7 @@ Gets or sets the NodeOffset.
 
 <a id="ImportedCondensedPart.CondensedPartUnitSystem"></a>
 
-### *property* ImportedCondensedPart.CondensedPartUnitSystem *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](./../../../Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCondensedPart.CondensedPartUnitSystem *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](../../../Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CondensedPartUnitSystem.
 
@@ -135,7 +135,7 @@ Gets or sets the CondensedPartUnitSystem.
 
 <a id="ImportedCondensedPart.ImportFileFormat"></a>
 
-### *property* ImportedCondensedPart.ImportFileFormat *: [Ansys.Mechanical.DataModel.Enums.CondensedPartFileFormat](./../../../Mechanical/DataModel/Enums/CondensedPartFileFormat.md#CondensedPartFileFormat) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCondensedPart.ImportFileFormat *: [Ansys.Mechanical.DataModel.Enums.CondensedPartFileFormat](../../../Mechanical/DataModel/Enums/CondensedPartFileFormat.md#CondensedPartFileFormat) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ImportFileFormat.
 
@@ -143,7 +143,7 @@ Gets or sets the ImportFileFormat.
 
 <a id="ImportedCondensedPart.ImportStatus"></a>
 
-### *property* ImportedCondensedPart.ImportStatus *: [Ansys.Mechanical.DataModel.Enums.ImportedCondensedPartStatus](./../../../Mechanical/DataModel/Enums/ImportedCondensedPartStatus.md#ImportedCondensedPartStatus) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCondensedPart.ImportStatus *: [Ansys.Mechanical.DataModel.Enums.ImportedCondensedPartStatus](../../../Mechanical/DataModel/Enums/ImportedCondensedPartStatus.md#ImportedCondensedPartStatus) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ImportStatus.
 
@@ -159,7 +159,7 @@ Gets or sets the CoordinateSystem.
 
 <a id="ImportedCondensedPart.DataModelObjectCategory"></a>
 
-### *property* ImportedCondensedPart.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCondensedPart.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -215,7 +215,7 @@ Gets or sets the ReferenceTemperature.
 
 <a id="ImportedCondensedPart.Physics"></a>
 
-### *property* ImportedCondensedPart.Physics *: [Ansys.Mechanical.DataModel.Enums.CondensedPartPhysics](./../../../Mechanical/DataModel/Enums/CondensedPartPhysics.md#CondensedPartPhysics) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCondensedPart.Physics *: [Ansys.Mechanical.DataModel.Enums.CondensedPartPhysics](../../../Mechanical/DataModel/Enums/CondensedPartPhysics.md#CondensedPartPhysics) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Physics.
 
@@ -223,7 +223,7 @@ Gets the Physics.
 
 <a id="ImportedCondensedPart.SolverUnitSystem"></a>
 
-### *property* ImportedCondensedPart.SolverUnitSystem *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](./../../../Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCondensedPart.SolverUnitSystem *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](../../../Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverUnitSystem.
 
@@ -231,7 +231,7 @@ Gets or sets the SolverUnitSystem.
 
 <a id="ImportedCondensedPart.SolutionNameMode"></a>
 
-### *property* ImportedCondensedPart.SolutionNameMode *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](./../../../Mechanical/DataModel/Enums/AutomaticOrManual.md#AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCondensedPart.SolutionNameMode *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](../../../Mechanical/DataModel/Enums/AutomaticOrManual.md#AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolutionNameMode.
 
@@ -239,7 +239,7 @@ Gets or sets the SolutionNameMode.
 
 <a id="ImportedCondensedPart.SolverUnits"></a>
 
-### *property* ImportedCondensedPart.SolverUnits *: [Ansys.Mechanical.DataModel.Enums.SolverUnitsControlType](./../../../Mechanical/DataModel/Enums/SolverUnitsControlType.md#SolverUnitsControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCondensedPart.SolverUnits *: [Ansys.Mechanical.DataModel.Enums.SolverUnitsControlType](../../../Mechanical/DataModel/Enums/SolverUnitsControlType.md#SolverUnitsControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverUnits.
 
@@ -443,7 +443,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### ImportedCondensedPart.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### ImportedCondensedPart.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

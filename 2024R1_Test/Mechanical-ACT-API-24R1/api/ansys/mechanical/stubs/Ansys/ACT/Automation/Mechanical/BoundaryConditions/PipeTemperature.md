@@ -47,12 +47,12 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Magnitude`](#PipeTemperature.Magnitude)                                                                              | Gets the Magnitude.                                           |
 | [`RangeMaximum`](#PipeTemperature.RangeMaximum)                                                                        | Gets or sets the RangeMaximum.                                |
 | [`RangeMinimum`](#PipeTemperature.RangeMinimum)                                                                        | Gets or sets the RangeMinimum.                                |
-| [`GraphControlsXAxis`](./../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#GraphControlsXAxis)                | Gets or sets the GraphControlsXAxis.                          |
+| [`GraphControlsXAxis`](../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#GraphControlsXAxis)                | Gets or sets the GraphControlsXAxis.                          |
 | [`Loading`](#PipeTemperature.Loading)                                                                                  | Gets or sets the Loading.                                     |
 | [`IndependentVariable`](#PipeTemperature.IndependentVariable)                                                          | Gets or sets the IndependentVariable.                         |
 | [`XYZFunctionCoordinateSystem`](#PipeTemperature.XYZFunctionCoordinateSystem)                                          | Gets or sets the XYZFunctionCoordinateSystem.                 |
 | [`Location`](#PipeTemperature.Location)                                                                                | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Suppressed`](#PipeTemperature.Suppressed)                                                                            | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#PipeTemperature.SharedRefBody)                                                                      | Gets or sets the SharedRefBody.                               |
 | [`Children`](#PipeTemperature.Children)                                                                                | Gets the list of children.                                    |
@@ -94,7 +94,7 @@ Gets or sets the NumberOfSegments.
 
 <a id="PipeTemperature.Magnitude"></a>
 
-### *property* PipeTemperature.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](./../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PipeTemperature.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Magnitude.
 
@@ -118,7 +118,7 @@ Gets or sets the RangeMinimum.
 
 <a id="PipeTemperature.GraphControlsXAxis"></a>
 
-### *property* PipeTemperature.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](./../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PipeTemperature.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GraphControlsXAxis.
 
@@ -126,7 +126,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="PipeTemperature.Loading"></a>
 
-### *property* PipeTemperature.Loading *: [Ansys.Mechanical.DataModel.Enums.PipeLoadingType](./../../../../Mechanical/DataModel/Enums/PipeLoadingType.md#PipeLoadingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PipeTemperature.Loading *: [Ansys.Mechanical.DataModel.Enums.PipeLoadingType](../../../../Mechanical/DataModel/Enums/PipeLoadingType.md#PipeLoadingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Loading.
 
@@ -134,7 +134,7 @@ Gets or sets the Loading.
 
 <a id="PipeTemperature.IndependentVariable"></a>
 
-### *property* PipeTemperature.IndependentVariable *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](./../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PipeTemperature.IndependentVariable *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IndependentVariable.
 
@@ -142,7 +142,7 @@ Gets or sets the IndependentVariable.
 
 <a id="PipeTemperature.XYZFunctionCoordinateSystem"></a>
 
-### *property* PipeTemperature.XYZFunctionCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PipeTemperature.XYZFunctionCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XYZFunctionCoordinateSystem.
 
@@ -158,7 +158,7 @@ Gets or sets the Location.
 
 <a id="PipeTemperature.DataModelObjectCategory"></a>
 
-### *property* PipeTemperature.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PipeTemperature.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -174,7 +174,7 @@ Gets or sets the Suppressed.
 
 <a id="PipeTemperature.SharedRefBody"></a>
 
-### *property* PipeTemperature.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](./../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PipeTemperature.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -190,7 +190,7 @@ Gets the list of children.
 
 <a id="PipeTemperature.Comments"></a>
 
-### *property* PipeTemperature.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PipeTemperature.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -198,7 +198,7 @@ Gets the list of associated comments.
 
 <a id="PipeTemperature.Figures"></a>
 
-### *property* PipeTemperature.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PipeTemperature.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -206,7 +206,7 @@ Gets the list of associated figures.
 
 <a id="PipeTemperature.Images"></a>
 
-### *property* PipeTemperature.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PipeTemperature.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -290,7 +290,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### PipeTemperature.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### PipeTemperature.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

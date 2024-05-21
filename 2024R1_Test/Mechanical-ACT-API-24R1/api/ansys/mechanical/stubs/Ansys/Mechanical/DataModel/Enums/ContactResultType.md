@@ -18,7 +18,7 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 | Name |
 | -------------------------------------------------------------------------------------------- |
-| [`Pressure`](./../../../ACT/Automation/Mechanical/BoundaryConditions/Pressure.md#Pressure) |
+| [`Pressure`](../../../ACT/Automation/Mechanical/BoundaryConditions/Pressure.md#Pressure) |
 | [`Penetration`](#ContactResultType.Penetration) |
 | [`Gap`](#ContactResultType.Gap) |
 | [`FrictionalStress`](#ContactResultType.FrictionalStress) |

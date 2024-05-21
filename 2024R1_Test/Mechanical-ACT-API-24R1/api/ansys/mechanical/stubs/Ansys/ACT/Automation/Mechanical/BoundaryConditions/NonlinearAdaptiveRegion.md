@@ -60,14 +60,14 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`MaximumCornerAngle`](#NonlinearAdaptiveRegion.MaximumCornerAngle)                                                    | Gets or sets the MaximumCornerAngle.                          |
 | [`EndTime`](#NonlinearAdaptiveRegion.EndTime)                                                                          | Gets or sets the EndTime.                                     |
 | [`StartTime`](#NonlinearAdaptiveRegion.StartTime)                                                                      | Gets or sets the StartTime.                                   |
-| [`Criterion`](./../Criterion.md#Criterion)                                                                               | Gets or sets the Criterion.                                   |
+| [`Criterion`](../Criterion.md#Criterion)                                                                               | Gets or sets the Criterion.                                   |
 | [`HexDomCheckAt`](#NonlinearAdaptiveRegion.HexDomCheckAt)                                                              | Gets or sets the HexDomCheckAt.                               |
 | [`Option`](#NonlinearAdaptiveRegion.Option)                                                                            | Gets or sets the Option.                                      |
 | [`CheckAt`](#NonlinearAdaptiveRegion.CheckAt)                                                                          | Gets or sets the CheckAt.                                     |
 | [`Suppressed`](#NonlinearAdaptiveRegion.Suppressed)                                                                    | Gets or sets the Suppressed.                                  |
-| [`CoordinateSystem`](./../../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
+| [`CoordinateSystem`](../../../Common/CoordinateSystem.md#CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
 | [`Location`](#NonlinearAdaptiveRegion.Location)                                                                        | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#NonlinearAdaptiveRegion.Children)                                                                        | Gets the list of children.                                    |
 | [`Comments`](#NonlinearAdaptiveRegion.Comments)                                                                        | Gets the list of associated comments.                         |
 | [`Figures`](#NonlinearAdaptiveRegion.Figures)                                                                          | Gets the list of associated figures.                          |
@@ -90,7 +90,7 @@ from ansys.mechanical.stubs.Ansys.ACT.Automation.Mechanical.BoundaryConditions i
 
 <a id="NonlinearAdaptiveRegion.TimeRange"></a>
 
-### *property* NonlinearAdaptiveRegion.TimeRange *: [Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityTimeRange](./../../../../Mechanical/DataModel/Enums/NonlinearAdaptivityTimeRange.md#NonlinearAdaptivityTimeRange) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NonlinearAdaptiveRegion.TimeRange *: [Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityTimeRange](../../../../Mechanical/DataModel/Enums/NonlinearAdaptivityTimeRange.md#NonlinearAdaptivityTimeRange) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TimeRange.
 
@@ -106,7 +106,7 @@ Gets or sets the CheckAtValue.
 
 <a id="NonlinearAdaptiveRegion.HexDomTimeRange"></a>
 
-### *property* NonlinearAdaptiveRegion.HexDomTimeRange *: [Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityTimeRange](./../../../../Mechanical/DataModel/Enums/NonlinearAdaptivityTimeRange.md#NonlinearAdaptivityTimeRange) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NonlinearAdaptiveRegion.HexDomTimeRange *: [Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityTimeRange](../../../../Mechanical/DataModel/Enums/NonlinearAdaptivityTimeRange.md#NonlinearAdaptivityTimeRange) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HexDomTimeRange.
 
@@ -258,7 +258,7 @@ Gets or sets the StartTime.
 
 <a id="NonlinearAdaptiveRegion.Criterion"></a>
 
-### *property* NonlinearAdaptiveRegion.Criterion *: [Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityCriterionType](./../../../../Mechanical/DataModel/Enums/NonlinearAdaptivityCriterionType.md#NonlinearAdaptivityCriterionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NonlinearAdaptiveRegion.Criterion *: [Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityCriterionType](../../../../Mechanical/DataModel/Enums/NonlinearAdaptivityCriterionType.md#NonlinearAdaptivityCriterionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Criterion.
 
@@ -266,7 +266,7 @@ Gets or sets the Criterion.
 
 <a id="NonlinearAdaptiveRegion.HexDomCheckAt"></a>
 
-### *property* NonlinearAdaptiveRegion.HexDomCheckAt *: [Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityUpdateType](./../../../../Mechanical/DataModel/Enums/NonlinearAdaptivityUpdateType.md#NonlinearAdaptivityUpdateType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NonlinearAdaptiveRegion.HexDomCheckAt *: [Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityUpdateType](../../../../Mechanical/DataModel/Enums/NonlinearAdaptivityUpdateType.md#NonlinearAdaptivityUpdateType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HexDomCheckAt.
 
@@ -274,7 +274,7 @@ Gets or sets the HexDomCheckAt.
 
 <a id="NonlinearAdaptiveRegion.Option"></a>
 
-### *property* NonlinearAdaptiveRegion.Option *: [Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityOptionType](./../../../../Mechanical/DataModel/Enums/NonlinearAdaptivityOptionType.md#NonlinearAdaptivityOptionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NonlinearAdaptiveRegion.Option *: [Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityOptionType](../../../../Mechanical/DataModel/Enums/NonlinearAdaptivityOptionType.md#NonlinearAdaptivityOptionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Option.
 
@@ -282,7 +282,7 @@ Gets or sets the Option.
 
 <a id="NonlinearAdaptiveRegion.CheckAt"></a>
 
-### *property* NonlinearAdaptiveRegion.CheckAt *: [Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityUpdateType](./../../../../Mechanical/DataModel/Enums/NonlinearAdaptivityUpdateType.md#NonlinearAdaptivityUpdateType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NonlinearAdaptiveRegion.CheckAt *: [Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityUpdateType](../../../../Mechanical/DataModel/Enums/NonlinearAdaptivityUpdateType.md#NonlinearAdaptivityUpdateType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CheckAt.
 
@@ -298,7 +298,7 @@ Gets or sets the Suppressed.
 
 <a id="NonlinearAdaptiveRegion.CoordinateSystem"></a>
 
-### *property* NonlinearAdaptiveRegion.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](./../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NonlinearAdaptiveRegion.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -314,7 +314,7 @@ Gets or sets the Location.
 
 <a id="NonlinearAdaptiveRegion.DataModelObjectCategory"></a>
 
-### *property* NonlinearAdaptiveRegion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NonlinearAdaptiveRegion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -330,7 +330,7 @@ Gets the list of children.
 
 <a id="NonlinearAdaptiveRegion.Comments"></a>
 
-### *property* NonlinearAdaptiveRegion.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NonlinearAdaptiveRegion.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -338,7 +338,7 @@ Gets the list of associated comments.
 
 <a id="NonlinearAdaptiveRegion.Figures"></a>
 
-### *property* NonlinearAdaptiveRegion.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NonlinearAdaptiveRegion.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -346,7 +346,7 @@ Gets the list of associated figures.
 
 <a id="NonlinearAdaptiveRegion.Images"></a>
 
-### *property* NonlinearAdaptiveRegion.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NonlinearAdaptiveRegion.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -398,7 +398,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### NonlinearAdaptiveRegion.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### NonlinearAdaptiveRegion.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

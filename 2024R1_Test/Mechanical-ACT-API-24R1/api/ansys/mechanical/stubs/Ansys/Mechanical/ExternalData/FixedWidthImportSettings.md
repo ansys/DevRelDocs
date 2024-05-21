@@ -16,22 +16,22 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 | Name | Description |
 |------------------------------------------------------------------------------------------------|-------------------------------------------------------|
-| [`Clear`](./../Table/FixedWidthImportSettings.md#FixedWidthImportSettings.Clear)                 |                                                       |
-| [`GetEnumerator`](./../Table/FixedWidthImportSettings.md#FixedWidthImportSettings.GetEnumerator) |                                                       |
-| [`RemoveAt`](./../Table/FixedWidthImportSettings.md#FixedWidthImportSettings.RemoveAt)           | Removes the import definition at the specified index. |
-| [`UseColumn`](./../Table/FixedWidthImportSettings.md#FixedWidthImportSettings.UseColumn)         |                                                       |
+| [`Clear`](../Table/FixedWidthImportSettings.md#FixedWidthImportSettings.Clear)                 |                                                       |
+| [`GetEnumerator`](../Table/FixedWidthImportSettings.md#FixedWidthImportSettings.GetEnumerator) |                                                       |
+| [`RemoveAt`](../Table/FixedWidthImportSettings.md#FixedWidthImportSettings.RemoveAt)           | Removes the import definition at the specified index. |
+| [`UseColumn`](../Table/FixedWidthImportSettings.md#FixedWidthImportSettings.UseColumn)         |                                                       |
 
 ### Properties
 
 | Name | Description |
 |--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| [`ColumnWidths`](./../Table/FixedWidthImportSettings.md#FixedWidthImportSettings.ColumnWidths)     |                                                                                      |
+| [`ColumnWidths`](../Table/FixedWidthImportSettings.md#FixedWidthImportSettings.ColumnWidths)     |                                                                                      |
 | [`AverageCornerNodesToMidsideNodes`](#FixedWidthImportSettings.AverageCornerNodesToMidsideNodes) |                                                                                      |
-| [`Count`](./../Table/FixedWidthImportSettings.md#FixedWidthImportSettings.Count)                   | Gets the number of column definitions.                                               |
-| [`Item`](./../Table/FixedWidthImportSettings.md#FixedWidthImportSettings.Item)                     | Item property.                                                                       |
-| [`SkipFooter`](./../Table/FixedWidthImportSettings.md#FixedWidthImportSettings.SkipFooter)         | Gets or sets the number of rows to ignore at the end of the file during import.      |
-| [`SkipRows`](./../Table/FixedWidthImportSettings.md#FixedWidthImportSettings.SkipRows)             | Gets or sets the number of rows to skip over at the start of the file during import. |
-| [`Format`](./../DataModel/Enums/GeometryImportPreference/Format.md#Format)                         | Gets the existing corresponding format.                                              |
+| [`Count`](../Table/FixedWidthImportSettings.md#FixedWidthImportSettings.Count)                   | Gets the number of column definitions.                                               |
+| [`Item`](../Table/FixedWidthImportSettings.md#FixedWidthImportSettings.Item)                     | Item property.                                                                       |
+| [`SkipFooter`](../Table/FixedWidthImportSettings.md#FixedWidthImportSettings.SkipFooter)         | Gets or sets the number of rows to ignore at the end of the file during import.      |
+| [`SkipRows`](../Table/FixedWidthImportSettings.md#FixedWidthImportSettings.SkipRows)             | Gets or sets the number of rows to skip over at the start of the file during import. |
+| [`Format`](../DataModel/Enums/GeometryImportPreference/Format.md#Format)                         | Gets the existing corresponding format.                                              |
 
 <a id="import-detail"></a>
 
@@ -91,7 +91,7 @@ Gets or sets the number of rows to skip over at the start of the file during imp
 
 <a id="FixedWidthImportSettings.Format"></a>
 
-### *property* FixedWidthImportSettings.Format *: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat](./../DataModel/MechanicalEnums/ExternalData/ImportFormat.md#ImportFormat) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FixedWidthImportSettings.Format *: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat](../DataModel/MechanicalEnums/ExternalData/ImportFormat.md#ImportFormat) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the existing corresponding format.
 
@@ -119,6 +119,6 @@ Removes the import definition at the specified index.
 
 <a id="FixedWidthImportSettings.UseColumn"></a>
 
-### FixedWidthImportSettings.UseColumn(index: System.Int32, variableType: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.VariableType](./../DataModel/MechanicalEnums/ExternalData/VariableType.md#VariableType), unit: System.String, name: System.String)
+### FixedWidthImportSettings.UseColumn(index: System.Int32, variableType: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.VariableType](../DataModel/MechanicalEnums/ExternalData/VariableType.md#VariableType), unit: System.String, name: System.String)
 
 <!-- !! processed by numpydoc !! -->

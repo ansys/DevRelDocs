@@ -49,7 +49,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`LumpedMassFormulation`](#SubstructureGenerationCondensedPart.LumpedMassFormulation)                               | Gets or sets the LumpedMassFormulation.                       |
 | [`PointMassTreatment`](#SubstructureGenerationCondensedPart.PointMassTreatment)                                     | Gets or sets the PointMassTreatment.                          |
 | [`ReductionMethod`](#SubstructureGenerationCondensedPart.ReductionMethod)                                           | Gets or sets the ReductionMethod.                             |
-| [`DataModelObjectCategory`](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`NumberInterfaceEntries`](#SubstructureGenerationCondensedPart.NumberInterfaceEntries)                             | Gets the NumberInterfaceEntries.                              |
 | [`NumberMasterNodes`](#SubstructureGenerationCondensedPart.NumberMasterNodes)                                       | Gets the NumberMasterNodes.                                   |
 | [`SolutionName`](#SubstructureGenerationCondensedPart.SolutionName)                                                 | Gets or sets the SolutionName.                                |
@@ -100,7 +100,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="SubstructureGenerationCondensedPart.AttachmentMethod"></a>
 
-### *property* SubstructureGenerationCondensedPart.AttachmentMethod *: [Ansys.Mechanical.DataModel.Enums.CondensedPartCMSAttachmentMethod](./../../../Mechanical/DataModel/Enums/CondensedPartCMSAttachmentMethod.md#CondensedPartCMSAttachmentMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SubstructureGenerationCondensedPart.AttachmentMethod *: [Ansys.Mechanical.DataModel.Enums.CondensedPartCMSAttachmentMethod](../../../Mechanical/DataModel/Enums/CondensedPartCMSAttachmentMethod.md#CondensedPartCMSAttachmentMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AttachmentMethod.
 
@@ -108,7 +108,7 @@ Gets or sets the AttachmentMethod.
 
 <a id="SubstructureGenerationCondensedPart.GenerateDampingMatrix"></a>
 
-### *property* SubstructureGenerationCondensedPart.GenerateDampingMatrix *: [Ansys.Mechanical.DataModel.Enums.YesNoProgrammedControlled](./../../../Mechanical/DataModel/Enums/YesNoProgrammedControlled.md#YesNoProgrammedControlled) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SubstructureGenerationCondensedPart.GenerateDampingMatrix *: [Ansys.Mechanical.DataModel.Enums.YesNoProgrammedControlled](../../../Mechanical/DataModel/Enums/YesNoProgrammedControlled.md#YesNoProgrammedControlled) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GenerateDampingMatrix.
 
@@ -116,7 +116,7 @@ Gets or sets the GenerateDampingMatrix.
 
 <a id="SubstructureGenerationCondensedPart.InterfaceMethod"></a>
 
-### *property* SubstructureGenerationCondensedPart.InterfaceMethod *: [Ansys.Mechanical.DataModel.Enums.CondensedPartInterfaceMethod](./../../../Mechanical/DataModel/Enums/CondensedPartInterfaceMethod.md#CondensedPartInterfaceMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SubstructureGenerationCondensedPart.InterfaceMethod *: [Ansys.Mechanical.DataModel.Enums.CondensedPartInterfaceMethod](../../../Mechanical/DataModel/Enums/CondensedPartInterfaceMethod.md#CondensedPartInterfaceMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the InterfaceMethod.
 
@@ -124,7 +124,7 @@ Gets or sets the InterfaceMethod.
 
 <a id="SubstructureGenerationCondensedPart.LumpedMassFormulation"></a>
 
-### *property* SubstructureGenerationCondensedPart.LumpedMassFormulation *: [Ansys.Mechanical.DataModel.Enums.CondensedPartLumpedMassFormulation](./../../../Mechanical/DataModel/Enums/CondensedPartLumpedMassFormulation.md#CondensedPartLumpedMassFormulation) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SubstructureGenerationCondensedPart.LumpedMassFormulation *: [Ansys.Mechanical.DataModel.Enums.CondensedPartLumpedMassFormulation](../../../Mechanical/DataModel/Enums/CondensedPartLumpedMassFormulation.md#CondensedPartLumpedMassFormulation) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LumpedMassFormulation.
 
@@ -132,7 +132,7 @@ Gets or sets the LumpedMassFormulation.
 
 <a id="SubstructureGenerationCondensedPart.PointMassTreatment"></a>
 
-### *property* SubstructureGenerationCondensedPart.PointMassTreatment *: [Ansys.Mechanical.DataModel.Enums.CondensedPartPointMassTreatment](./../../../Mechanical/DataModel/Enums/CondensedPartPointMassTreatment.md#CondensedPartPointMassTreatment) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SubstructureGenerationCondensedPart.PointMassTreatment *: [Ansys.Mechanical.DataModel.Enums.CondensedPartPointMassTreatment](../../../Mechanical/DataModel/Enums/CondensedPartPointMassTreatment.md#CondensedPartPointMassTreatment) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PointMassTreatment.
 
@@ -140,7 +140,7 @@ Gets or sets the PointMassTreatment.
 
 <a id="SubstructureGenerationCondensedPart.ReductionMethod"></a>
 
-### *property* SubstructureGenerationCondensedPart.ReductionMethod *: [Ansys.Mechanical.DataModel.Enums.CondensedPartReductionMethod](./../../../Mechanical/DataModel/Enums/CondensedPartReductionMethod.md#CondensedPartReductionMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SubstructureGenerationCondensedPart.ReductionMethod *: [Ansys.Mechanical.DataModel.Enums.CondensedPartReductionMethod](../../../Mechanical/DataModel/Enums/CondensedPartReductionMethod.md#CondensedPartReductionMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReductionMethod.
 
@@ -148,7 +148,7 @@ Gets or sets the ReductionMethod.
 
 <a id="SubstructureGenerationCondensedPart.DataModelObjectCategory"></a>
 
-### *property* SubstructureGenerationCondensedPart.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SubstructureGenerationCondensedPart.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -204,7 +204,7 @@ Gets or sets the ReferenceTemperature.
 
 <a id="SubstructureGenerationCondensedPart.Physics"></a>
 
-### *property* SubstructureGenerationCondensedPart.Physics *: [Ansys.Mechanical.DataModel.Enums.CondensedPartPhysics](./../../../Mechanical/DataModel/Enums/CondensedPartPhysics.md#CondensedPartPhysics) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SubstructureGenerationCondensedPart.Physics *: [Ansys.Mechanical.DataModel.Enums.CondensedPartPhysics](../../../Mechanical/DataModel/Enums/CondensedPartPhysics.md#CondensedPartPhysics) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Physics.
 
@@ -212,7 +212,7 @@ Gets the Physics.
 
 <a id="SubstructureGenerationCondensedPart.SolverUnitSystem"></a>
 
-### *property* SubstructureGenerationCondensedPart.SolverUnitSystem *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](./../../../Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SubstructureGenerationCondensedPart.SolverUnitSystem *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](../../../Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverUnitSystem.
 
@@ -220,7 +220,7 @@ Gets or sets the SolverUnitSystem.
 
 <a id="SubstructureGenerationCondensedPart.SolutionNameMode"></a>
 
-### *property* SubstructureGenerationCondensedPart.SolutionNameMode *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](./../../../Mechanical/DataModel/Enums/AutomaticOrManual.md#AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SubstructureGenerationCondensedPart.SolutionNameMode *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](../../../Mechanical/DataModel/Enums/AutomaticOrManual.md#AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolutionNameMode.
 
@@ -228,7 +228,7 @@ Gets or sets the SolutionNameMode.
 
 <a id="SubstructureGenerationCondensedPart.SolverUnits"></a>
 
-### *property* SubstructureGenerationCondensedPart.SolverUnits *: [Ansys.Mechanical.DataModel.Enums.SolverUnitsControlType](./../../../Mechanical/DataModel/Enums/SolverUnitsControlType.md#SolverUnitsControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SubstructureGenerationCondensedPart.SolverUnits *: [Ansys.Mechanical.DataModel.Enums.SolverUnitsControlType](../../../Mechanical/DataModel/Enums/SolverUnitsControlType.md#SolverUnitsControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverUnits.
 
@@ -344,7 +344,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### SubstructureGenerationCondensedPart.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### SubstructureGenerationCondensedPart.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 

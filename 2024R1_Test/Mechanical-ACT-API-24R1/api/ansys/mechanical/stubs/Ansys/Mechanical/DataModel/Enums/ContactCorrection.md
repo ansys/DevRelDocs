@@ -20,7 +20,7 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 | ---------------------------------------------------------------------------------- |
 | [`Bolt`](#ContactCorrection.Bolt) |
 | [`No`](#ContactCorrection.No) |
-| [`Smoothing`](./../../../ACT/Automation/Mechanical/Results/Smoothing.md#Smoothing) |
+| [`Smoothing`](../../../ACT/Automation/Mechanical/Results/Smoothing.md#Smoothing) |
 
 <a id="import-detail"></a>
 

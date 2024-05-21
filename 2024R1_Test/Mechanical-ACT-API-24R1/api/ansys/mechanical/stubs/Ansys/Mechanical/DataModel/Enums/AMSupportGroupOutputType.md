@@ -18,8 +18,8 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 | Name |
 | ------------------------------------------------------------------------------------------------ |
-| [`NamedSelection`](./../../../ACT/Automation/Mechanical/NamedSelection.md#NamedSelection) |
-| [`AMSupport`](./../../../ACT/Automation/Mechanical/AdditiveManufacturing/AMSupport.md#AMSupport) |
+| [`NamedSelection`](../../../ACT/Automation/Mechanical/NamedSelection.md#NamedSelection) |
+| [`AMSupport`](../../../ACT/Automation/Mechanical/AdditiveManufacturing/AMSupport.md#AMSupport) |
 
 <a id="import-detail"></a>
 

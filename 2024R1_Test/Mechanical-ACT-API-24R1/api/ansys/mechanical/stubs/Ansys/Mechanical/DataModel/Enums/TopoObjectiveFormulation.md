@@ -18,10 +18,10 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 | Name |
 | --------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Displacement`](./../../../ACT/Automation/Mechanical/BoundaryConditions/Displacement.md#Displacement) |
-| [`Force`](./../../../ACT/Automation/Mechanical/BoundaryConditions/Force.md#Force) |
+| [`Displacement`](../../../ACT/Automation/Mechanical/BoundaryConditions/Displacement.md#Displacement) |
+| [`Force`](../../../ACT/Automation/Mechanical/BoundaryConditions/Force.md#Force) |
 | [`LocalStrainEnergy`](#TopoObjectiveFormulation.LocalStrainEnergy) |
-| [`MaximumPrincipalStress`](./../../../ACT/Automation/Mechanical/Results/StressResults/MaximumPrincipalStress.md#MaximumPrincipalStress) |
+| [`MaximumPrincipalStress`](../../../ACT/Automation/Mechanical/Results/StressResults/MaximumPrincipalStress.md#MaximumPrincipalStress) |
 | [`ProgramControlled`](#TopoObjectiveFormulation.ProgramControlled) |
 | [`Undefined`](#TopoObjectiveFormulation.Undefined) |
 | [`VonMisesStress`](#TopoObjectiveFormulation.VonMisesStress) |

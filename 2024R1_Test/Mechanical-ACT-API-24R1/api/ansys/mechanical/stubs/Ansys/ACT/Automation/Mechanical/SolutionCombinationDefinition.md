@@ -202,7 +202,7 @@ Gets the Load Combination Type property at given index
 
 <a id="SolutionCombinationDefinition.SetLoadCombinationType"></a>
 
-### SolutionCombinationDefinition.SetLoadCombinationType(index: System.Int32, value: [Ansys.Mechanical.DataModel.Enums.LoadCombinationType](./../../../Mechanical/DataModel/Enums/LoadCombinationType.md#LoadCombinationType))
+### SolutionCombinationDefinition.SetLoadCombinationType(index: System.Int32, value: [Ansys.Mechanical.DataModel.Enums.LoadCombinationType](../../../Mechanical/DataModel/Enums/LoadCombinationType.md#LoadCombinationType))
 
 Sets the Load Combination Type property at given index
 

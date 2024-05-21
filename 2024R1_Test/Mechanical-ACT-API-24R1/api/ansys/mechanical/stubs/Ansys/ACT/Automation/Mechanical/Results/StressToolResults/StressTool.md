@@ -52,7 +52,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Theory`](#StressTool.Theory)                                                                                            | Gets or sets the Theory.                                      |
 | [`StressLimitType`](#StressTool.StressLimitType)                                                                          | Gets or sets the StressLimitType.                             |
 | [`TensileLimitType`](#StressTool.TensileLimitType)                                                                        | Gets or sets the TensileLimitType.                            |
-| [`DataModelObjectCategory`](./../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Children`](#StressTool.Children)                                                                                        | Gets the list of children.                                    |
 | [`Comments`](#StressTool.Comments)                                                                                        | Gets the list of associated comments.                         |
 | [`Figures`](#StressTool.Figures)                                                                                          | Gets the list of associated figures.                          |
@@ -115,7 +115,7 @@ Gets or sets the TensileLimit.
 
 <a id="StressTool.CompressiveLimitType"></a>
 
-### *property* StressTool.CompressiveLimitType *: [Ansys.Mechanical.DataModel.Enums.SafetyLimitType](./../../../../../Mechanical/DataModel/Enums/SafetyLimitType.md#SafetyLimitType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressTool.CompressiveLimitType *: [Ansys.Mechanical.DataModel.Enums.SafetyLimitType](../../../../../Mechanical/DataModel/Enums/SafetyLimitType.md#SafetyLimitType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CompressiveLimitType.
 
@@ -123,7 +123,7 @@ Gets or sets the CompressiveLimitType.
 
 <a id="StressTool.Theory"></a>
 
-### *property* StressTool.Theory *: [Ansys.Mechanical.DataModel.Enums.SafetyTheoryType](./../../../../../Mechanical/DataModel/Enums/SafetyTheoryType.md#SafetyTheoryType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressTool.Theory *: [Ansys.Mechanical.DataModel.Enums.SafetyTheoryType](../../../../../Mechanical/DataModel/Enums/SafetyTheoryType.md#SafetyTheoryType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Theory.
 
@@ -131,7 +131,7 @@ Gets or sets the Theory.
 
 <a id="StressTool.StressLimitType"></a>
 
-### *property* StressTool.StressLimitType *: [Ansys.Mechanical.DataModel.Enums.SafetyLimitType](./../../../../../Mechanical/DataModel/Enums/SafetyLimitType.md#SafetyLimitType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressTool.StressLimitType *: [Ansys.Mechanical.DataModel.Enums.SafetyLimitType](../../../../../Mechanical/DataModel/Enums/SafetyLimitType.md#SafetyLimitType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StressLimitType.
 
@@ -139,7 +139,7 @@ Gets or sets the StressLimitType.
 
 <a id="StressTool.TensileLimitType"></a>
 
-### *property* StressTool.TensileLimitType *: [Ansys.Mechanical.DataModel.Enums.SafetyLimitType](./../../../../../Mechanical/DataModel/Enums/SafetyLimitType.md#SafetyLimitType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressTool.TensileLimitType *: [Ansys.Mechanical.DataModel.Enums.SafetyLimitType](../../../../../Mechanical/DataModel/Enums/SafetyLimitType.md#SafetyLimitType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TensileLimitType.
 
@@ -147,7 +147,7 @@ Gets or sets the TensileLimitType.
 
 <a id="StressTool.DataModelObjectCategory"></a>
 
-### *property* StressTool.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressTool.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -163,7 +163,7 @@ Gets the list of children.
 
 <a id="StressTool.Comments"></a>
 
-### *property* StressTool.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](./../../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressTool.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -171,7 +171,7 @@ Gets the list of associated comments.
 
 <a id="StressTool.Figures"></a>
 
-### *property* StressTool.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](./../../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressTool.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -179,7 +179,7 @@ Gets the list of associated figures.
 
 <a id="StressTool.Images"></a>
 
-### *property* StressTool.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](./../../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressTool.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -263,7 +263,7 @@ Gets the list of children, filtered by type.
 
 <a id="id1"></a>
 
-### StressTool.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](./../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### StressTool.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 
