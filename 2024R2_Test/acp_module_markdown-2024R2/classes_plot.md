@@ -6,7 +6,7 @@
 
 <a id="plotdatadict-class"></a>
 
-### [`PlotDataDict`](#compolyx.plot_data.PlotDataDict) Class
+### `PlotDataDict` Class
 
 <a id="compolyx.plot_data.PlotDataDict"></a>
 
@@ -32,7 +32,7 @@ Copy a plot object.
 
 <a id="layupplotdict-class"></a>
 
-### [`LayupPlotDict`](#compolyx.plot_data.LayupPlotDict) Class
+### `LayupPlotDict` Class
 
 <a id="compolyx.plot_data.LayupPlotDict"></a>
 
@@ -240,7 +240,7 @@ Create a User-defined Plot object.
 
 <a id="postprocessingplotdict-class"></a>
 
-### [`PostProcessingPlotDict`](#compolyx.plot_data.PostProcessingPlotDict) Class
+### `PostProcessingPlotDict` Class
 
 <a id="compolyx.plot_data.PostProcessingPlotDict"></a>
 
@@ -475,11 +475,11 @@ Create a User-Defined Plot object.
 
 <a id="plotdata-classes"></a>
 
-## [`PlotData`](#compolyx.plot_data.PlotData) classes
+## `PlotData` classes
 
 <a id="plotdata"></a>
 
-### [`PlotData`](#compolyx.plot_data.PlotData)
+### `PlotData`
 
 <a id="compolyx.plot_data.PlotData"></a>
 
@@ -786,7 +786,7 @@ Whether the plot is uptodate.
 
 <a id="contourdata"></a>
 
-### [`ContourData`](#compolyx.plot_data.ContourData)
+### `ContourData`
 
 <a id="compolyx.plot_data.ContourData"></a>
 
@@ -848,7 +848,7 @@ Serialize to Python string
 
 <a id="angledata"></a>
 
-### [`AngleData`](#compolyx.plot_data.AngleData)
+### `AngleData`
 
 <a id="compolyx.plot_data.AngleData"></a>
 
@@ -864,7 +864,7 @@ Not applicable to an angle plot
 
 <a id="thicknessdata"></a>
 
-### [`ThicknessData`](#compolyx.plot_data.ThicknessData)
+### `ThicknessData`
 
 <a id="compolyx.plot_data.ThicknessData"></a>
 
@@ -880,7 +880,7 @@ Not applicable to a thickness plot
 
 <a id="scalarfielddata"></a>
 
-### [`ScalarFieldData`](#compolyx.plot_data.ScalarFieldData)
+### `ScalarFieldData`
 
 <a id="compolyx.plot_data.ScalarFieldData"></a>
 
@@ -980,7 +980,7 @@ Relative scale factor for the supporting points.
 
 <a id="drapingdata"></a>
 
-### [`DrapingData`](#compolyx.plot_data.DrapingData)
+### `DrapingData`
 
 <a id="compolyx.plot_data.DrapingData"></a>
 
@@ -1014,7 +1014,7 @@ Whether to plot the flatwrap.
 
 <a id="fielddefinitiondata"></a>
 
-### [`FieldDefinitionData`](#compolyx.plot_data.FieldDefinitionData)
+### `FieldDefinitionData`
 
 <a id="compolyx.plot_data.FieldDefinitionData"></a>
 
@@ -1042,7 +1042,7 @@ Not applicable to a field definition plot
 
 <a id="layupmappingdata"></a>
 
-### [`LayupMappingData`](#compolyx.plot_data.LayupMappingData)
+### `LayupMappingData`
 
 <a id="compolyx.plot_data.LayupMappingData"></a>
 
@@ -1058,7 +1058,7 @@ Not applicable to a layup mapping plot
 
 <a id="userdefineddata"></a>
 
-### [`UserDefinedData`](#compolyx.plot_data.UserDefinedData)
+### `UserDefinedData`
 
 <a id="compolyx.plot_data.UserDefinedData"></a>
 
@@ -1140,7 +1140,7 @@ Access to the user-defined text of the plot. Note: the get method returns the fi
 
 <a id="deformationcontourdata"></a>
 
-### [`DeformationContourData`](#compolyx.plot_data.DeformationContourData)
+### `DeformationContourData`
 
 <a id="compolyx.plot_data.DeformationContourData"></a>
 
@@ -1150,7 +1150,7 @@ Bases: [`ContourData`](#compolyx.plot_data.ContourData)
 
 <a id="straindata"></a>
 
-### [`StrainData`](#compolyx.plot_data.StrainData)
+### `StrainData`
 
 <a id="compolyx.plot_data.StrainData"></a>
 
@@ -1160,7 +1160,7 @@ Bases: [`ContourData`](#compolyx.plot_data.ContourData)
 
 <a id="stressdata"></a>
 
-### [`StressData`](#compolyx.plot_data.StressData)
+### `StressData`
 
 <a id="compolyx.plot_data.StressData"></a>
 
@@ -1176,7 +1176,7 @@ Whether to evaluate normal stresses.
 
 <a id="failuredata"></a>
 
-### [`FailureData`](#compolyx.plot_data.FailureData)
+### `FailureData`
 
 <a id="compolyx.plot_data.FailureData"></a>
 
@@ -1271,7 +1271,7 @@ Whether the threshold for visualization of failure text is set automatically or 
 
 <a id="temperaturedata"></a>
 
-### [`TemperatureData`](#compolyx.plot_data.TemperatureData)
+### `TemperatureData`
 
 <a id="compolyx.plot_data.TemperatureData"></a>
 
@@ -1281,7 +1281,7 @@ Bases: [`ContourData`](#compolyx.plot_data.ContourData)
 
 <a id="progressivedamagedata"></a>
 
-### [`ProgressiveDamageData`](#compolyx.plot_data.ProgressiveDamageData)
+### `ProgressiveDamageData`
 
 <a id="compolyx.plot_data.ProgressiveDamageData"></a>
 

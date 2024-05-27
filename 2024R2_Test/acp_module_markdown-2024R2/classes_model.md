@@ -2,7 +2,7 @@
 
 <a id="model"></a>
 
-## [`Model`](#compolyx.Model)
+## `Model`
 
 <a id="compolyx.Model"></a>
 
@@ -1504,7 +1504,7 @@ This function is part of the WB integration and should not be called manually.
 
 <a id="rosette"></a>
 
-## [`Rosette`](#compolyx.Rosette)
+## `Rosette`
 
 <a id="compolyx.Rosette"></a>
 
@@ -1688,7 +1688,7 @@ sets dir1 orthogonal to dir2 as y- and z-axis
 
 <a id="lookuptablebase"></a>
 
-### [`LookUpTableBase`](#compolyx.LookUpTableBase)
+### `LookUpTableBase`
 
 <a id="compolyx.LookUpTableBase"></a>
 
@@ -1797,7 +1797,7 @@ a tuple containing a list of column labels and a 2d array with floats for all ce
 
 <a id="lookuptable1d"></a>
 
-### [`LookUpTable1D`](#compolyx.LookUpTable1D)
+### `LookUpTable1D`
 
 <a id="compolyx.LookUpTable1D"></a>
 
@@ -1833,7 +1833,7 @@ a tuple containing a list of column labels and a 2d array with floats for all ce
 
 <a id="lookuptable3d"></a>
 
-### [`LookUpTable3D`](#compolyx.LookUpTable3D)
+### `LookUpTable3D`
 
 <a id="compolyx.LookUpTable3D"></a>
 
@@ -1891,7 +1891,7 @@ True if the search radius is estimated automatically.
 
 <a id="lookuptablecolumn"></a>
 
-### [`LookUpTableColumn`](#compolyx.LookUpTableColumn)
+### `LookUpTableColumn`
 
 <a id="compolyx.LookUpTableColumn"></a>
 
@@ -1925,7 +1925,7 @@ numpy array containing the column values
 
 <a id="elementselectionrule-classes"></a>
 
-## [`ElementSelectionRule`](#compolyx.ElementSelectionRule) classes
+## `ElementSelectionRule` classes
 
 <a id="compolyx.ElementSelectionRule"></a>
 
@@ -1969,7 +1969,7 @@ relative type
 
 <a id="parallelselectionrule"></a>
 
-### [`ParallelSelectionRule`](#compolyx.ParallelSelectionRule)
+### `ParallelSelectionRule`
 
 <a id="compolyx.ParallelSelectionRule"></a>
 
@@ -2035,7 +2035,7 @@ Use global coordinate system for origin and direction
 
 <a id="cylindricalselectionrule"></a>
 
-### [`CylindricalSelectionRule`](#compolyx.CylindricalSelectionRule)
+### `CylindricalSelectionRule`
 
 <a id="compolyx.CylindricalSelectionRule"></a>
 
@@ -2095,7 +2095,7 @@ Use global coordinate system for origin and direction
 
 <a id="sphericalselectionrule"></a>
 
-### [`SphericalSelectionRule`](#compolyx.SphericalSelectionRule)
+### `SphericalSelectionRule`
 
 <a id="compolyx.SphericalSelectionRule"></a>
 
@@ -2149,7 +2149,7 @@ Use global coordinate system for origin and direction
 
 <a id="tubeselectionrule"></a>
 
-### [`TubeSelectionRule`](#compolyx.TubeSelectionRule)
+### `TubeSelectionRule`
 
 <a id="compolyx.TubeSelectionRule"></a>
 
@@ -2246,7 +2246,7 @@ Specifies the length of the extension at the tail of the the tube.
 
 <a id="cutoffselectionrule"></a>
 
-### [`CutoffSelectionRule`](#compolyx.CutoffSelectionRule)
+### `CutoffSelectionRule`
 
 <a id="compolyx.CutoffSelectionRule"></a>
 
@@ -2328,7 +2328,7 @@ Use Ply Tapering Orientation
 
 <a id="geometricalselectionrule"></a>
 
-### [`GeometricalSelectionRule`](#compolyx.GeometricalSelectionRule)
+### `GeometricalSelectionRule`
 
 <a id="compolyx.GeometricalSelectionRule"></a>
 
@@ -2412,7 +2412,7 @@ Whether to use a projection normal for outlines or not.
 
 <a id="booleanselectionrule"></a>
 
-### [`BooleanSelectionRule`](#compolyx.BooleanSelectionRule)
+### `BooleanSelectionRule`
 
 <a id="compolyx.BooleanSelectionRule"></a>
 
@@ -2451,7 +2451,7 @@ Serialize to Python string
 
 <a id="variableoffsetselectionrule"></a>
 
-### [`VariableOffsetSelectionRule`](#compolyx.VariableOffsetSelectionRule)
+### `VariableOffsetSelectionRule`
 
 <a id="compolyx.VariableOffsetSelectionRule"></a>
 
@@ -2521,7 +2521,7 @@ Use offset correction on mesh
 
 <a id="entityset-classes"></a>
 
-## [`EntitySet`](#compolyx.EntitySet) classes
+## `EntitySet` classes
 
 <a id="compolyx.EntitySet"></a>
 
@@ -2549,7 +2549,7 @@ Number of entities
 
 <a id="elementset"></a>
 
-### [`ElementSet`](#compolyx.ElementSet)
+### `ElementSet`
 
 <a id="compolyx.ElementSet"></a>
 
@@ -2643,7 +2643,7 @@ Write boundaries in iges/step format
 
 <a id="edgeset"></a>
 
-### [`EdgeSet`](#compolyx.EdgeSet)
+### `EdgeSet`
 
 <a id="compolyx.EdgeSet"></a>
 
@@ -2729,7 +2729,7 @@ Serialize to Python string
 
 <a id="cadgeometry"></a>
 
-### [`CADGeometry`](#compolyx.CADGeometry)
+### `CADGeometry`
 
 <a id="compolyx.CADGeometry"></a>
 
@@ -2886,7 +2886,7 @@ Visualization mesh of this geometry
 
 <a id="cadcompound"></a>
 
-### [`CADCompound`](#compolyx.CADCompound)
+### `CADCompound`
 
 <a id="compolyx.CADCompound"></a>
 
@@ -2902,7 +2902,7 @@ Sub faces of the CAD Compound.
 
 <a id="cadsolid"></a>
 
-### [`CADSolid`](#compolyx.CADSolid)
+### `CADSolid`
 
 <a id="compolyx.CADSolid"></a>
 
@@ -2918,7 +2918,7 @@ Sub faces of the CAD Solid.
 
 <a id="cadshell"></a>
 
-### [`CADShell`](#compolyx.CADShell)
+### `CADShell`
 
 <a id="compolyx.CADShell"></a>
 
@@ -2934,7 +2934,7 @@ Sub faces of the CAD Shell.
 
 <a id="cadface"></a>
 
-### [`CADFace`](#compolyx.CADFace)
+### `CADFace`
 
 <a id="compolyx.CADFace"></a>
 
@@ -2944,7 +2944,7 @@ ComPoLyX Class to represent CADFace
 
 <a id="virtualgeometry"></a>
 
-### [`VirtualGeometry`](#compolyx.VirtualGeometry)
+### `VirtualGeometry`
 
 <a id="compolyx.VirtualGeometry"></a>
 
@@ -3057,7 +3057,7 @@ Sub components of the VirtualGeometry.
 
 <a id="cadreference"></a>
 
-### [`CADReference`](#compolyx.CADReference)
+### `CADReference`
 
 <a id="compolyx.CADReference"></a>
 
@@ -3109,7 +3109,7 @@ Status of the CADReference
 
 <a id="orientedselectionset"></a>
 
-## [`OrientedSelectionSet`](#compolyx.OrientedSelectionSet)
+## `OrientedSelectionSet`
 
 <a id="compolyx.OrientedSelectionSet"></a>
 
@@ -3335,7 +3335,7 @@ Write boundaries in iges/step format
 
 <a id="modelinggroup"></a>
 
-## [`ModelingGroup`](#compolyx.ModelingGroup)
+## `ModelingGroup`
 
 <a id="compolyx.ModelingGroup"></a>
 
@@ -3546,7 +3546,7 @@ Serialize to Python string
 
 <a id="modelingply"></a>
 
-### [`ModelingPly`](#compolyx.ModelingPly)
+### `ModelingPly`
 
 <a id="compolyx.ModelingPly"></a>
 
@@ -3983,7 +3983,7 @@ Write boundaries in iges/step format
 
 <a id="analysisply"></a>
 
-### [`AnalysisPly`](#compolyx.AnalysisPly)
+### `AnalysisPly`
 
 <a id="compolyx.AnalysisPly"></a>
 
@@ -4081,7 +4081,7 @@ Write boundaries in iges/step format
 
 <a id="interfacelayer"></a>
 
-### [`InterfaceLayer`](#compolyx.InterfaceLayer)
+### `InterfaceLayer`
 
 <a id="compolyx.InterfaceLayer"></a>
 
@@ -4163,7 +4163,7 @@ Serialize to Python string
 
 <a id="buttjointsequence"></a>
 
-### [`ButtJointSequence`](#compolyx.ButtJointSequence)
+### `ButtJointSequence`
 
 <a id="compolyx.ButtJointSequence"></a>
 
@@ -4191,7 +4191,7 @@ Serialize to Python string
 
 <a id="importedmodelinggroup"></a>
 
-## [`ImportedModelingGroup`](#compolyx.ImportedModelingGroup)
+## `ImportedModelingGroup`
 
 <a id="compolyx.ImportedModelingGroup"></a>
 
@@ -4253,7 +4253,7 @@ Modeling Plies of the Modeling Group
 
 <a id="importedmodelingply"></a>
 
-### [`ImportedModelingPly`](#compolyx.ImportedModelingPly)
+### `ImportedModelingPly`
 
 <a id="compolyx.ImportedModelingPly"></a>
 
@@ -4373,7 +4373,7 @@ The type of the Thickness field ‘absolute’ or ‘relative’
 
 <a id="importedproductionply"></a>
 
-### [`ImportedProductionPly`](#compolyx.ImportedProductionPly)
+### `ImportedProductionPly`
 
 <a id="compolyx.ImportedProductionPly"></a>
 
@@ -4409,7 +4409,7 @@ Thickness of the Production Ply
 
 <a id="importedanalysisply"></a>
 
-### [`ImportedAnalysisPly`](#compolyx.ImportedAnalysisPly)
+### `ImportedAnalysisPly`
 
 <a id="compolyx.ImportedAnalysisPly"></a>
 
@@ -4456,7 +4456,7 @@ Average ply thickness
 
 <a id="fielddefinition"></a>
 
-## [`FieldDefinition`](#compolyx.FieldDefinition)
+## `FieldDefinition`
 
 <a id="compolyx.FieldDefinition"></a>
 
@@ -4514,7 +4514,7 @@ Serialize to Python string
 
 <a id="samplingpoint"></a>
 
-## [`SamplingPoint`](#compolyx.SamplingPoint)
+## `SamplingPoint`
 
 <a id="compolyx.SamplingPoint"></a>
 
@@ -4696,7 +4696,7 @@ Flag to use default reference direction
 
 <a id="sectioncut"></a>
 
-## [`SectionCut`](#compolyx.SectionCut)
+## `SectionCut`
 
 <a id="compolyx.SectionCut"></a>
 
@@ -5076,7 +5076,7 @@ Section cut line wireframe mesh
 
 <a id="sensor"></a>
 
-## [`Sensor`](#compolyx.Sensor)
+## `Sensor`
 
 <a id="compolyx.Sensor"></a>
 
@@ -5174,7 +5174,7 @@ Weight over all Entities of the Sensor
 
 <a id="id1"></a>
 
-### [`PlyBook`](#compolyx.PlyBook)
+### `PlyBook`
 
 <a id="compolyx.PlyBook"></a>
 
@@ -5230,7 +5230,7 @@ reST title page template
 
 <a id="chapter"></a>
 
-### [`Chapter`](#compolyx.Chapter)
+### `Chapter`
 
 <a id="compolyx.Chapter"></a>
 
@@ -5264,7 +5264,7 @@ Show the rosettes linked to a ply in snapshots
 
 <a id="publishedparameter"></a>
 
-## [`PublishedParameter`](#compolyx.PublishedParameter)
+## `PublishedParameter`
 
 <a id="compolyx.PublishedParameter"></a>
 
@@ -5370,7 +5370,7 @@ The parameter value as it is represented in the ANSYS workbench
 
 <a id="script"></a>
 
-## [`Script`](#compolyx.Script)
+## `Script`
 
 <a id="compolyx.Script"></a>
 

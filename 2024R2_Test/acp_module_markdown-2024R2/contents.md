@@ -1,4 +1,4 @@
-# The ACP scripting interface
+# Introduction
 
 The ACP scripting interface provides programmable control of the ACP application.
 

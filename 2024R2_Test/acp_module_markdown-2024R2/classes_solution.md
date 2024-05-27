@@ -2,7 +2,7 @@
 
 <a id="solution"></a>
 
-## [`Solution`](#compolyx.Solution)
+## `Solution`
 
 <a id="compolyx.Solution"></a>
 
@@ -245,7 +245,7 @@ Allows to visualize the post-processing results of layered solid models on the â
 
 <a id="envelopesolution"></a>
 
-## [`EnvelopeSolution`](#compolyx.EnvelopeSolution)
+## `EnvelopeSolution`
 
 <a id="compolyx.EnvelopeSolution"></a>
 

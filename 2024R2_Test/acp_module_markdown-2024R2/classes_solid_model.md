@@ -2,7 +2,7 @@
 
 <a id="solidmodel"></a>
 
-## [`SolidModel`](#compolyx.SolidModel)
+## `SolidModel`
 
 <a id="compolyx.SolidModel"></a>
 
@@ -233,7 +233,7 @@ Snap to Geometry objects
 
 <a id="extrusionguide"></a>
 
-## [`ExtrusionGuide`](#compolyx.ExtrusionGuide)
+## `ExtrusionGuide`
 
 <a id="compolyx.ExtrusionGuide"></a>
 
@@ -291,7 +291,7 @@ whether to use curvature correction algorithm to smooth mesh adapted to extrusio
 
 <a id="snaptogeometry"></a>
 
-## [`SnapToGeometry`](#compolyx.SnapToGeometry)
+## `SnapToGeometry`
 
 <a id="compolyx.SnapToGeometry"></a>
 
@@ -331,7 +331,7 @@ Orientation. Allowed string values: [‘top’, ‘bottom’, ‘undefined’]
 
 <a id="cutoffgeometry"></a>
 
-## [`CutOffGeometry`](#compolyx.CutOffGeometry)
+## `CutOffGeometry`
 
 <a id="compolyx.CutOffGeometry"></a>
 
@@ -371,7 +371,7 @@ Relative Merge Tolerance
 
 <a id="solidelementset"></a>
 
-## [`SolidElementSet`](#compolyx.SolidElementSet)
+## `SolidElementSet`
 
 <a id="compolyx.SolidElementSet"></a>
 
@@ -406,7 +406,7 @@ Number of entities
 
 <a id="importedsolidmodel"></a>
 
-## [`ImportedSolidModel`](#compolyx.ImportedSolidModel)
+## `ImportedSolidModel`
 
 <a id="compolyx.ImportedSolidModel"></a>
 
@@ -555,7 +555,7 @@ Use imported_solid_model.mapping_statistics() to retrieve the results
 
 <a id="layupmappingobject"></a>
 
-## [`LayupMappingObject`](#compolyx.LayupMappingObject)
+## `LayupMappingObject`
 
 <a id="compolyx.LayupMappingObject"></a>
 
