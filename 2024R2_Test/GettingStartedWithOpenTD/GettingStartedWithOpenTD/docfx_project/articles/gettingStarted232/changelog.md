@@ -1,18 +1,4 @@
-# Getting Started with OpenTD Version 2023 R2
-
-## Prepared, distributed, and supported by
-
-Ansys, Inc. Thermal Systems  
-Boulder, Colorado  
-(303) 971-0292  
-[www.crtech.com](http://www.crtech.com)  
-
-## OpenTD Authors
-
-Matthew D. Garrett  
-Timothy D. Panczak  
-Mark J. Schmidt  
-Dave Wilkins  
+# Changelog
 
 ## Release Notes: OpenTD 2023 R2
 
