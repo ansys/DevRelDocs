@@ -1,0 +1,13 @@
+{
+    "build": {
+      "globalMetadata": {
+        "title": "Speos LABs Automation 2024 R1",
+        "summary": "",
+        "version": "2024 R1",
+        "product": "Speos",
+        "programming language": "IronPython",
+        "product collection": "Optics",
+        "physics": "Optics"
+      }
+    }
+ }
