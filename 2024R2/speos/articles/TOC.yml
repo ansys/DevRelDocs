@@ -1,0 +1,149 @@
+- name: Introduction
+  href: client-speos-api-home.md
+- name: Getting started
+  items:
+  - name: Creating a script
+    href: speos_getting_started\creating_script.md
+  - name: Forbidden values management
+    href: speos_getting_started\forbidden_values_management.md
+- name: Cross-functional methods
+  href: crossfunctional_methods\crossfunctional_methods.md
+  items:
+  - name: Common methods
+    href: crossfunctional_methods\common_methods.md
+  - name: Geometry selection methods
+    href: crossfunctional_methods\geometry_selection_methods.md
+  - name: List (enum) parameters
+    href: crossfunctional_methods\list_enum_parameters.md
+  - name: ConvertToScriptVersion method
+    href: crossfunctional_methods\converttoscriptversion_method.md
+- name: Speos Sim
+  href: sim\client-speos-sim.md
+  items:
+  - name: ResultLXP - GetMeasureValues method - List of possible values
+    href: sim\resultlxp_getmeasurevalue_list_enum.md
+  - name: Speos Sim script examples
+    href: sim\sim-example\sim_script_examples.md
+    items:
+    - name: Material - Creating and applying UV mapping
+      href: sim\sim-example\method_uvmap_applying_uv_mapping.md
+    - name: Material - Creating and applying materials
+      href: sim\sim-example\method_material_creating_applying_materials.md
+    - name: Component3Dtexture - Creating a 3D texture on a geometry
+      href: sim\sim-example\method_component3dtexture_creating_3d_texture_on_geometry.md
+    - name: ComponentExport - Creating a lightBox export
+      href: sim\sim-example\method_componentexport_creating_lightbox_export.md
+    - name: ComponentImport - Creating a lightBox import
+      href: sim\sim-example\method_componentimport_creating_lightbox_import.md
+    - name: LocalMeshing - Creating a local meshing
+      href: sim\sim-example\method_localmeshing_creating_local_meshing.md
+    - name: SourceAmbientCIEGeneral - Creating an ambient source CIE standard general sky
+      href: sim\sim-example\method_sourceambientciegeneral_creating_cie_general_sky.md
+    - name: SourceAmbientCIEOvercast - Creating an ambient source CIE standard overcast sky
+      href: sim\sim-example\method_sourceambientcieovercast_creating_cie_overcast_sky.md
+    - name: SourceAmbientEnvironment - Creating an environment ambient source
+      href: sim\sim-example\method_sourceambientenvironment_creating_environment.md
+    - name: SourceAmbientNaturalLight - Creating a natural light ambient source
+      href: sim\sim-example\method_sourceambientnaturallight_creating_natural_light.md
+    - name: SourceAmbientUniform - Creating an ambient source uniform
+      href: sim\sim-example\method_sourceambientuniform_creating_ambient_source_uniform.md
+    - name: SourceAmbienUS1976 - Creating an ambient source US standard atmosphere 1976
+      href: sim\sim-example\method_sourceambientus1976_creating_ambient_source_us_1976.md
+    - name: SourceDisplay - Creating a display source
+      href: sim\sim-example\method_sourcedisplay_creating_display_source.md
+    - name: SourceInteractive - Creating an interactive source
+      href: sim\sim-example\method_sourceinteractive_creating_interactive_source.md
+    - name: SourceLuminaire - Creating a luminaire source
+      href: sim\sim-example\method_sourceluminaire_creating_luminaire_source.md
+    - name: SourceRayFile - Creating a ray file source
+      href: sim\sim-example\method_sourcerayfile_creating_ray_file_source.md
+    - name: SourceRayFile - Optimizing a ray file source
+      href: sim\sim-example\method_sourcerayfile_optimizing_ray_file_source.md
+    - name: SourceSurface - Creating a surface source
+      href: sim\sim-example\method_sourcesurface_creating_surface_source.md
+    - name: SourceThermic - Creating a thermic source
+      href: sim\sim-example\method_sourcethermic_creating_thermic_source.md
+    - name: Sensor3DED - Creating a 3D energy density sensor
+      href: sim\sim-example\method_sensor3ded_creating_3d_energy_density_sensor.md
+    - name: Sensor3Dirradiance - Creating a 3D irradiance sensor
+      href: sim\sim-example\method_sensor3dirradiance_creating_3d_irradiance_sensor.md
+    - name: SensorCamera - Creating a camera sensor
+      href: sim\sim-example\method_sensorcamera_creating_camera_sensor.md
+    - name: SensorEye - Creating an eye sensor
+      href: sim\sim-example\method_sensoreye_creating_eye_sensor.md
+    - name: SensorImmersive - Creating an immersive sensor
+      href: sim\sim-example\method_sensorimmersive_creating_immersive_sensor.md
+    - name: SensorIntensity - Creating an intensity sensor
+      href: sim\sim-example\method_sensorintensity_creating_intensity_sensor.md
+    - name: SensorIrradiance - Creating an irradiance sensor
+      href: sim\sim-example\method_sensorirradiance_creating_irradiance_sensor.md
+    - name: SensorLidar - Creating a LiDAR sensor
+      href: sim\sim-example\method_sensorlidar_creating_lidar_sensor.md
+    - name: SensorObserver - Creating an observer sensor
+      href: sim\sim-example\method_sensorobserver_creating_observer_sensor.md
+    - name: SensorRadiance - Creating a radiance sensor
+      href: sim\sim-example\method_sensorradiance_creating_radiance_sensor.md
+    - name: SensorRotatingLidar - Creating a rotating LiDAR sensor
+      href: sim\sim-example\method_sensorrotatinglidar_creating_rotating_lidar_sensor.md
+    - name: SimulationInteractive - Setting an interactive simulation
+      href: sim\sim-example\method_simulationinteractive_setting_interactive_simulation.md
+    - name: SimulationInteractive - Creating and using an interactive simulation
+      href: sim\sim-example\method_simulationinteractive_creating_using_interactive_simulation.md
+    - name: SimulationDirect - Creating a direct simulation
+      href: sim\sim-example\method_simulationdirect_creating_direct_simulation.md
+    - name: DirectSImulationSettings - Setting a direct simulation
+      href: sim\sim-example\method_directsimulationsettings_setting_direct_simulation.md
+    - name: SimulationInverse - Creating an inverse simulation
+      href: sim\sim-example\method_simulationinverse_creating_inverse_simulation.md
+    - name: InverseSimulationSettings - Setting an inverse simulation
+      href: sim\sim-example\method_inversesimulationsettings_setting_inverse_simulation.md
+    - name: SimulationRotatingLidar - Creating a rotating LiDAR simulation
+      href: sim\sim-example\method_simulationrotatinglidar_creating_rotating_lidar_simulation.md
+    - name: SimulationHoa - Creating a HUD optical analysis simulation
+      href: sim\sim-example\method_simulationhoa_creating_hud_optical_analysis_simulation.md
+    - name: LXPEnabledSensor - Activating the light expert on a sensor
+      href: sim\sim-example\method_lxpenabledsensor_activating_lxp_on_sensor.md
+    - name: FTGEnabledGeometry - Activating the fast transmission gathering on a geometry
+      href: sim\sim-example\method_ftgenabledgeometry_activating_ftg_on_geometry.md
+    - name: EyeboxConfiguration - Defining a HUD optical analysis with multi-eyebox configuration
+      href: sim\sim-example\method_eyeboxconfiguration_defining_hoa_multieyebox.md
+    - name: ResultLXP - Analyzing the interactive simulation light expert result
+      href: sim\sim-example\method_resultlxp_analyzing_interactive_simulation_lxp_result.md
+    - name: ResultLXP - Exporting rays as geometry out of a light expert result
+      href: sim\sim-example\method_resultlxp_exporting_rays_as_geometry_lxp_result.md
+    - name: ResultProjectedGrid - Exporting a projected grid as geometry
+      href: sim\sim-example\method_resultprojectedgrid_exporting_projected_grid_as_geometry.md
+    - name: Options - Retrieving values
+      href: sim\sim-example\method_options_retrieving_values.md
+    - name: Options - Updating values
+      href: sim\sim-example\method_options_updating_values.md
+    - name: Options - Reseting values
+      href: sim\sim-example\method_options_reseting_values.md
+- name: Speos Des
+  href: des\client-speos-des.md
+  items:
+  - name: Speos Des script examples
+    href: des\des-example\des_script_examples.md
+    items:
+    - name: LightGuide - Exporting prism parameters as CSV file
+      href: des\des-example\method_lightguide_exporting_prism_parameters_csv.md
+    - name: LightGuide - Defining control points to create parameters variation along the guide
+      href: des\des-example\method_lightguide_defining_control_points_variation.md
+    - name: ProjectionLens - Getting - setting aspheric parameters
+      href: des\des-example\method_projectionlens_getting_setting_aspheric_parameters.md
+    - name: PERAngularSection - Managing the beam spread of a poly ellipsoidal reflector
+      href: des\des-example\method_perangularsection_managing_beam_spread_per.md
+    - name: PERAngularSection - Using the FittingControlPlane method
+      href: des\des-example\method_perangularsection_fittingcontrolplane.md
+    - name: HUDOD - Getting - Setting advanced parameters to improve HUD system
+      href: des\des-example\method_hudod_getting_setting_advanced_parameters.md
+- name: Speos Asm
+  href: asm\client-speos-asm.md
+  items:
+  - name: Speos Asm script examples
+    href: asm\asm-example\asm_script_examples.md
+    items:
+    - name: CADUpdate - Importing a geometry
+      href: asm\asm-example\method_cadupdate_importing_geometry.md
+    - name: CADUpdate - Updating a geometry
+      href: asm\asm-example\method_cadupdate_updating_geometry.md

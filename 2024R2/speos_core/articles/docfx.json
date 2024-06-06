@@ -1,0 +1,13 @@
+{
+    "build": {
+      "globalMetadata": {
+        "title": "Speos Core methods 2024 R2",
+        "summary": "",
+        "version": "2024 R2",
+        "product": "Speos",
+        "programming language": "IronPython",
+        "product collection": "Optics",
+        "physics": "Optics"
+      }
+    }
+ }
