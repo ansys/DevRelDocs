@@ -51,7 +51,8 @@ Create a Angle Plot object.
   - id: ID for the plot
   - scope_entire_model: If true, then the scope of this plot is the entire model. If not, then set to false and use the data_scope to specify a sub scope.
   - data_scope: Object(s) defining the scope for which data is computed and returned
-    : Applicable are: Element Set, Oriented Selection Set, Modeling Ply, Sampling Point
+   
+    &nbsp;&nbsp; Applicable are: Element Set, Oriented Selection Set, Modeling Ply, Sampling Point
   - show_on_solids: True or False (default). Whether to show the results on the shell or solid model (if present).
   - show_on_section_cuts: Whether to show the results on the surface section cuts as well. Default is True.
   - show_ply_offsets: True or False (default). Whether to display ply-wise visualizations with ply offsets or not.
@@ -592,13 +593,14 @@ Get data of plot.
 Data is returned independent of update status of plot, but only if results for the current plot configuration are available, else an empty array is returned.
 
 Examples:
-: Get data for current ply-wise plot with visible scope set to element set “All_Elements” and with ply1 and ply2 selected:
+
+Get data for current ply-wise plot with visible scope set to element set “All_Elements” and with ply1 and ply2 selected:
   <br/>
   ```default
   >>> data = my_plot.get_data(visible=db.active_model.element_sets['All_Elements'], selected=[ply1, ply2])
   ```
-  <br/>
-  Get data for current element-wise plot with visible scope equal to all objects visible in current scene:
+
+Get data for current element-wise plot with visible scope equal to all objects visible in current scene:
   <br/>
   ```default
   >>> data = my_plot.get_data(visible=db.active_model.active_scene.active_set.entities)
@@ -660,16 +662,17 @@ Get element labels (element numbers as read from / written to mesh files)  of pl
 Labels are returned independent of update status of plot, but only if results for the current plot configuration are available, else an empty array is returned.
 
 **Examples:**
-: Get element labels for current plot with visible scope set to element set “All_Elements” and with ply1 and ply2 selected:
+Get element labels for current plot with visible scope set to element set “All_Elements” and with ply1 and ply2 selected:
   <br/>
   ```default
   >>> eis = my_plot.get_element_labels(visible=db.active_model.element_sets['All_Elements'], selected=[ply1, ply2])
   ```
   <br/>
-  Get element labels for current plot with visible scope equal to all objects visible in current scene::
-  : ```pycon
-    >>> eis = my_plot.get_element_labels(visible=db.active_model.active_scene.active_set.entities)
-    ```
+ Get element labels for current plot with visible scope equal to all objects visible in current scene:
+
+  ```pycon
+  >>> eis = my_plot.get_element_labels(visible=db.active_model.active_scene.active_set.entities)
+  ```
 
 <a id="compolyx.plot_data.PlotData.get_full_description"></a>
 
