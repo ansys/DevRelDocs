@@ -17,11 +17,11 @@ MaterialData manages all composite material data.
 copy a list of material data source, keeps track of all dependencies
 
 * **Parameters:**
-  - source : a list of source of copy
-  - on_duplicate_name : action to take if source.name is already contained in self.fabrics
-    - keep_both : create a new instance with the same name (different id)
-    - overwrite : replace first instance with equal name in self with source
-    - keep_existing : ignore copy action, returns first existing instance in self with equal name
+  - source: a list of source of copy
+  - on_duplicate_name: action to take if source.name is already contained in self.fabrics
+    - keep_both: create a new instance with the same name (different id)
+    - overwrite: replace first instance with equal name in self with source
+    - keep_existing: ignore copy action, returns first existing instance in self with equal name
 
 <a id="compolyx.MaterialData.copy_fabric"></a>
 
@@ -31,11 +31,11 @@ Copy a fabric
 
 * **Parameters:**
   - source: Source object to copy
-  - on_duplicate_name : action to take if source.name is already contained in self.fabrics
-    - keep_both : create a new instance with the same name (different id)
-    - overwrite : replace first instance with equal name in self with source
-    - keep_existing : ignore copy action, returns first existing instance in self with equal name
-  - memo : a dict to collect copied items (for internal dependency tracking when copying stackups or sub-laminates)
+  - on_duplicate_name: action to take if source.name is already contained in self.fabrics
+    - keep_both: create a new instance with the same name (different id)
+    - overwrite: replace first instance with equal name in self with source
+    - keep_existing: ignore copy action, returns first existing instance in self with equal name
+  - memo: a dict to collect copied items (for internal dependency tracking when copying stackups or sub-laminates)
 * **Returns:**
   New Instance of Fabric
 
@@ -47,11 +47,11 @@ Copy a material
 
 * **Parameters:**
   - source: Source object to copy
-  - on_duplicate_name : action to take if source.name is already contained in self.materials
-    - keep_both : create a new instance with the same name (different id)
-    - overwrite : replace first instance with equal name in self with source
-    - keep_existing : ignore copy action, returns first existing instance in self with equal name
-  - memo : a dict to collect copied items (for internal dependency tracking when copying stackups or sub-laminates)
+  - on_duplicate_name: action to take if source.name is already contained in self.materials
+    - keep_both: create a new instance with the same name (different id)
+    - overwrite: replace first instance with equal name in self with source
+    - keep_existing: ignore copy action, returns first existing instance in self with equal name
+  - memo: a dict to collect copied items (for internal dependency tracking when copying stackups or sub-laminates)
 * **Returns:**
   New instance of material
 
@@ -63,11 +63,11 @@ Copy a stackup
 
 * **Parameters:**
   - source: Source object to copy
-  - on_duplicate_name : action to take if source.name is already contained in self.stackups
-    - keep_both : create a new instance with the same name (different id)
-    - overwrite : replace first instance with equal name in self with source
-    - keep_existing : ignore copy action, returns first existing instance in self with equal name
-  - memo : a dict to collect copied items
+  - on_duplicate_name: action to take if source.name is already contained in self.stackups
+    - keep_both: create a new instance with the same name (different id)
+    - overwrite: replace first instance with equal name in self with source
+    - keep_existing: ignore copy action, returns first existing instance in self with equal name
+  - memo: a dict to collect copied items
 * **Returns:**
   New Instance of Fabric
 
@@ -79,11 +79,11 @@ Copy a sub lamiante
 
 * **Parameters:**
   - source: Source object to copy
-  - on_duplicate_name : action to take if source.name is already contained in self.sub_laminates
-    - keep_both : create a new instance with the same name (different id)
-    - overwrite : replace first instance with equal name in self with source
-    - keep_existing : ignore copy action, returns first existing instance in self with equal name
-  - memo : a dict to collect copied items
+  - on_duplicate_name: action to take if source.name is already contained in self.sub_laminates
+    - keep_both: create a new instance with the same name (different id)
+    - overwrite: replace first instance with equal name in self with source
+    - keep_existing: ignore copy action, returns first existing instance in self with equal name
+  - memo: a dict to collect copied items
 * **Returns:**
   New Instance of sub laminate
 
@@ -185,7 +185,7 @@ Export materials to ANSYS Engineering Data MatML format.
 
 * **Parameters:**
   - path: Path to file to write.
-  - unit_system : Convert all quantities into this unit system. The units
+  - unit_system: Convert all quantities into this unit system. The units
     will be stored in the file written. The default is the unit system of the model.
 
 <a id="compolyx.MaterialData.fabrics"></a>
@@ -202,7 +202,7 @@ Find materials with the given properties or property ranges
 
 * **Parameters:**
   - properties: Arbitrary material properties which must be matched.
-    : Note that a single property value can be given as string,
+: Note that a single property value can be given as string,
       number or min-max range
 * **Returns:**
   A list with materials which match the given properties. If nothing
@@ -224,7 +224,7 @@ Engineering Data.
 
 * **Parameters:**
   - path: File to read from.
-  - material_apdl_path : Specify the APDL file containing the
+  - material_apdl_path: Specify the APDL file containing the
     ANSYS Engineering Data material definitions.
 
 <a id="compolyx.MaterialData.material_apdl_path"></a>
