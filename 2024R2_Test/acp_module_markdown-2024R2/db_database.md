@@ -33,7 +33,7 @@ Function clears the eventually stored update results and deletes the generated d
 Production and Analysis Plies, Solid Models etc.
 
 * **Parameters:**
-  -model: the ACP model to be cleared
+  - model: the ACP model to be cleared
 
 <a id="compolyx.DB.close"></a>
 
@@ -100,14 +100,12 @@ Refresh an acph5 db (Workbench mode only)
 
 * **Parameters:**
   - path: file path to acph5 file
-  - external_sources: nested dict provided by ACP WB Add-in containing all the
-   
-    &nbsp;&nbsp; external sources info (the file path, whether the source was modified, its ID etc.).
-      The keys of the dict are: [‘model’, ‘materials’, ‘cad_geometries’, ‘imported_solid_models’, ‘pre_db’, ‘solutions’].
+  - external_sources: nested dict provided by ACP WB Add-in containing all the external sources info (the file path, whether the source was modified, its ID etc.).
+      - The keys of the dict are: [‘model’, ‘materials’, ‘cad_geometries’, ‘imported_solid_models’, ‘pre_db’, ‘solutions’].
       Values for ‘model’ and ‘materials’ are dicts with the following fields [‘path’, ‘external_id’, ‘modified’].
-      Values for ‘cad_geometries’, ‘imported_solid_models’ and ‘pre_db’ are list
+        - Values for ‘cad_geometries’, ‘imported_solid_models’, and ‘pre_db’ are list
       of dicts with fields [‘name’, ‘path’, ‘external_id’, ‘modified’].
-      Values for ‘solutions’ are dicts with fields  [‘name’, ‘path’, ‘external_id’, ‘modified’, ‘renumbering_mapping_paths’] where
+        - Values for ‘solutions’ are dicts with fields  [‘name’, ‘path’, ‘external_id’, ‘modified’, ‘renumbering_mapping_paths’] where
       renumbering_mapping_paths is a list of file paths.
   - input_parameters: a dict of (name, value) pairs of WB input parameters.
   - initialize: specifies whether the acph5 database needs to be initialized (i.e. the file does not
@@ -123,7 +121,7 @@ Refresh an acph5 db (Workbench mode only)
 Reloads the reference surface (mesh) of the model. See reload_mesh in the model for more details
 
 * **Parameters:**
-  -model: the model to be reloaded
+  - model: the model to be reloaded
 
 <a id="compolyx.DB.save"></a>
 

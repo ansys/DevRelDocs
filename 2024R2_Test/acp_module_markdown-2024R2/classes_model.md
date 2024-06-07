@@ -77,7 +77,7 @@ angle = sign(angle) \* 90° otherwise
 with const = reference_radius \* sin(nominal_angle)
 
 Each layer is a dict with the following properties:
-: * fabric: Fabric of the layer (Stackups and Sublaminates are not supported)
+  * fabric: Fabric of the layer (Stackups and Sublaminates are not supported)
   * angle: Nominal angle at Reference Radius with respect to the axis of symmetry (in degree)
   * selection_rule_limits: A dictionary with the entries “upper” and “lower”
     that define the extent of the plies in axial direction.
@@ -88,7 +88,7 @@ Each layer is a dict with the following properties:
     twice the original thickness of the layer
 
 The function generates the following objects:
-: - A cylindrical Rosette
+  - A cylindrical Rosette
   - An Oriented Selection Set which defines a reference direction along the axial
     direction of the axisymmetric body
   - A Lookup Table with the thickness corrections and angles
@@ -178,9 +178,9 @@ Copy a Combined Failure Criteria Definition
 
 #### copy_edge_set(source)
 
-Copy a edge set
-:Parameters:
-- source: Source object to copy
+Copy an edge set
+* **Parameters:**
+  - source: Source object to copy
 
 * **Returns:**
   New instance of edge set
@@ -868,7 +868,7 @@ Exports all ACP composite defintions.
 
 Export layup to Composite CAE HDF5 file.
 
-> * **parameters:**
+> * **Parameters:**
 >   - path: Save path of the h5 file.
 >   - remove_midside_nodes: Whether midside nodes should be exported or not.
 >   - layup_representation_3d: Whether to compute the 3D lay-up representation of the model. See note.
@@ -889,7 +889,7 @@ This can be resolved by exporting sub-parts (element sets).
 Save composite definitions to HDF5 file.
 Function is mainly used to exchange composite definitions with ANSYS Workbench
 
-> * **parameters:**
+> * **Parameters:**
 >   - path: Save path of the h5 file
 
 <a id="compolyx.Model.export_ply_geometries"></a>
@@ -944,13 +944,13 @@ Find materials with the given properties or property ranges
 * **Returns:**
   A list with materials which match the given properties. If nothing matches an empty list is returned.
 
-Examples:
+* **Example:**
 
-```pycon
->>> materials = model.find_materials(E1=100000.0, nu12=0.3)
->>> materials = model.find_materials( name='1')
->>> materials = model.find_materials(E1=[200000.0, 220000.0], nu12=0.3, G12=[4500.0,5500.0])
-```
+  ```pycon
+  >>> materials = model.find_materials(E1=100000.0, nu12=0.3)
+  >>> materials = model.find_materials( name='1')
+  >>> materials = model.find_materials(E1=[200000.0, 220000.0], nu12=0.3, G12=[4500.0,5500.0])
+  ```
 
 <a id="compolyx.Model.format"></a>
 
@@ -971,7 +971,7 @@ Geometry node
 Returns the element label of the closest element with respect to the given point.
 
 * **Parameters:**
-  -point: Tuple of the global coordinates
+  - point: Tuple of the global coordinates
 
 <a id="compolyx.Model.get_layup"></a>
 
@@ -1239,8 +1239,8 @@ Section computation relative thickness tolerance
 Reloads the mesh (nodes, elements and named selections)
 Ignored imported entities are the materials and rosettes.
 
-Parameters:
-: - path: New mesh path. Default is the current model path.
+* **Parameters:**
+ - path: New mesh path. Default is the current model path.
   - format: New format. Default is the current format
 
 <a id="compolyx.Model.reorder_modeling_groups"></a>
@@ -1285,7 +1285,7 @@ Save ACP model to .acph5 file
 
 Save actual analysis model to disc
 
-> * **parameters:**
+> * **Parameters:**
 >   - path Save path of the cdb file
 
 <a id="compolyx.Model.save_apdl_commands"></a>
@@ -1294,7 +1294,7 @@ Save actual analysis model to disc
 
 Save APDL commands for composite definitions of actual model
 
-> * **parameters:**
+> * **Parameters:**
 >   - path Save path of the cdb file
 
 <a id="compolyx.Model.save_h5"></a>
@@ -1550,13 +1550,13 @@ Edge Set for Rosette
 #### get_global_coordinates(coordinates)
 
 Evaluates the global coordinates of a point given in local rosette coordinates:
-CYLINDRICAL,  RADIAL and SPHERICAL coord sys type: Give phi and theta in RAD
+CYLINDRICAL,  RADIAL, and SPHERICAL. Coordinate system type: Give phi and theta in RAD.
 
 * **Parameters:**
-  - (x, y, z): x = x for PARALLEL, r for CYLINDRICAL, RADIAL and SPHERICAL)
-   
-    &nbsp;&nbsp; y = y for PARALLEL, phi for CYLINDRICAL, RADIAL and SPHERICAL
-      z = z for PARALLEL, CYLINDRICAL, RADIAL and theta for SPHERICAL)
+  - (x, y, z):
+    - x = x for PARALLEL, and r for CYLINDRICAL, RADIAL and SPHERICAL
+    - y = y for PARALLEL, and phi for CYLINDRICAL, RADIAL and SPHERICAL
+    - z = z for PARALLEL, CYLINDRICAL and RADIAL, and theta for SPHERICAL
 * **Usage:**
   ```pycon
   >>> rosette.get_global_coordinates((1.,2.,3.))
@@ -1566,14 +1566,14 @@ CYLINDRICAL,  RADIAL and SPHERICAL coord sys type: Give phi and theta in RAD
 
 #### get_global_vector_components(vector)
 
-gets global vector components from local rosette vector components
-CYLINDRICAL,  RADIAL and SPHERICAL coord sys type: Give phi and theta in RAD
+Gets global vector components from local rosette vector components
+CYLINDRICAL,  RADIAL, and SPHERICAL. Coordiante system type: Give phi and theta in RAD.
 
 * **Parameters:**
-  - (x, y, z): x = x for PARALLEL, r for CYLINDRICAL, RADIAL and SPHERICAL)
-   
-    &nbsp;&nbsp; y = y for PARALLEL, phi for CYLINDRICAL, RADIAL and SPHERICAL
-      z = z for PARALLEL, CYLINDRICAL, RADIAL and theta for SPHERICAL)
+  - (x, y, z):
+    - x = x for PARALLEL, and r for CYLINDRICAL, RADIAL and SPHERICAL
+    - y = y for PARALLEL, and phi for CYLINDRICAL, RADIAL and SPHERICAL
+    - z = z for PARALLEL, CYLINDRICAL and RADIAL, and theta for SPHERICAL
 * **Usage:**
   ```pycon
   >>> rosette.get_global_vector_components((1.,2.,3.))
@@ -1589,11 +1589,11 @@ Evaluates the local rosette coordinates of a point given in global coordinates:
   - (x, y, z): coordinates in global (parallel) coordinates
 
   - returns (x,y,z):
-
-  x = x for PARALLEL, r for CYLINDRICAL, RADIAL and SPHERICAL)
-  y = y for PARALLEL, phi for CYLINDRICAL, RADIAL and SPHERICAL
-  z = z for PARALLEL, CYLINDRICAL, RADIAL and theta for SPHERICAL)
-  CYLINDRICAL,  RADIAL and SPHERICAL coord sys type:  phi and theta in RAD
+    - x = x for PARALLEL, and r for CYLINDRICAL, RADIAL and SPHERICAL
+    - y = y for PARALLEL, and phi for CYLINDRICAL, RADIAL and SPHERICAL
+    - z = z for PARALLEL, CYLINDRICAL and RADIAL, and theta for SPHERICAL
+  
+    CYLINDRICAL,  RADIAL and SPHERICAL coord sys type:  phi and theta in RAD
 
 * **Usage:**
   ```pycon
@@ -1610,11 +1610,11 @@ Returns local rosette vector components from global vector components
   - (x, y, z): components in global (parallel) coordinates
 
   - returns (x,y,z):
-
-  x = x for PARALLEL, r for CYLINDRICAL, RADIAL and SPHERICAL)
-  y = y for PARALLEL, phi for CYLINDRICAL, RADIAL and SPHERICAL
-  z = z for PARALLEL, CYLINDRICAL, RADIAL and theta for SPHERICAL)
-  CYLINDRICAL,  RADIAL and SPHERICAL coord sys type:  phi and theta in RAD
+    - x = x for PARALLEL, and r for CYLINDRICAL, RADIAL and SPHERICAL
+    - y = y for PARALLEL, and phi for CYLINDRICAL, RADIAL and SPHERICAL
+    - z = z for PARALLEL, CYLINDRICAL,and RADIAL, and theta for SPHERICAL
+  
+    CYLINDRICAL,  RADIAL and SPHERICAL coord sys type:  phi and theta in RAD
 
 * **Usage:**
   ```pycon
@@ -1705,15 +1705,15 @@ Look-Up Table Class
 
 associates scalar or vector values to points
 
-Example:
+* **Example:**
 
-```pycon
->>> table = db.models['class40.1'].create_lookup_table1d(name='LookUpTable1D.1')
->>> table.columns['Location'].values = [0,1,2,3]
->>> db.models['class40.1'].lookup_tables['LookUpTable1D.2'].create_column( name='Radius', type='scalar' )
->>> r = db.models['class40.1'].lookup_tables['LookUpTable1D.2'].columns['Radius']
->>> r.values = [0,0.3,0.6,1]
-```
+  ```pycon
+  >>> table = db.models['class40.1'].create_lookup_table1d(name='LookUpTable1D.1')
+  >>> table.columns['Location'].values = [0,1,2,3]
+  >>> db.models['class40.1'].lookup_tables['LookUpTable1D.2'].create_column( name='Radius', type='scalar' )
+  >>> r = db.models['class40.1'].lookup_tables['LookUpTable1D.2'].columns['Radius']
+  >>> r.values = [0,0.3,0.6,1]
+  ```
 
 <a id="compolyx.LookUpTableBase.active"></a>
 
@@ -2439,7 +2439,7 @@ Add Selection Rule to Boolean Selection rule
   - rule_values: Parameters of the template rule (For instance upper and lower limit of a ParallelSelectionRule)
   - operation_type: Boolean operation type (intersect, add, remove)
 
-Example:
+* **Example:**
 >>> boolean_rule.add_rule(rule=model.selection_rules[‘ParallelRule.1’],template_rule=True, rule_values=(-20.0, 50.0), operation_type=’intersect’)
 
 <a id="compolyx.BooleanSelectionRule.selection_rules"></a>
@@ -3417,12 +3417,12 @@ Copy a modeling ply
 Creates an new butt joint sequences and adds it to this modeling group
 
 * **Parameters:**
-  -name: Name of the butt joint
-  -id: ID of the name
-  -global_ply_nr: Global ply number which orders the ply sequences
-  -primary_plies: List of tuples (modeling ply, level). Define the source of the thickness between plies.
-  -secondary_plies: Single or list of modeling plies. Secondary plies inherit the thickness from the primary plies
-  -active: Boolean whether the butt joint sequence is active or not
+  - name: Name of the butt joint
+  - id: ID of the name
+  - global_ply_nr: Global ply number which orders the ply sequences
+  - primary_plies: List of tuples (modeling ply, level). Define the source of the thickness between plies.
+  - secondary_plies: Single or list of modeling plies. Secondary plies inherit the thickness from the primary plies
+  - active: Boolean whether the butt joint sequence is active or not
 * **Return:**
   New butt joint sequence
 
@@ -3436,9 +3436,7 @@ Create Interface Layer
   - name: Name of the new Interface Layer
   - id: Optional id of the new Interface Layer
   - global_ply_nr: Ply number for stacking sequence
-  - oriented_selection_sets: Oriented Selection Set for the expansion
-   
-    &nbsp;&nbsp; of the Interface Layer
+  - oriented_selection_sets: Oriented Selection Set for the expansion of the Interface Layer
   - open_area_sets: Defines the initial crack of a VCCT layer (optional)
   - active: Interface Layer active. Default True
 * **Returns:**
@@ -3466,9 +3464,7 @@ Create modeling ply
   - ply_angle: Angle of the Ply Material
   - number_of_layers: Multiplier of this layer
   - global_ply_nr: Ply number for stacking sequence
-  - oriented_selection_sets: Oriented Selection Set for the expansion
-   
-    &nbsp;&nbsp; of the Modeling Ply
+  - oriented_selection_sets: Oriented Selection Set for the expansion of the Modeling Ply
   - selection_rules: Element Selection Rules for the Modeling Ply
   - draping: The type of draping to be used “no_draping”, “evaluate_draping”, or “tabular_values”
   - draping_seed_point: Start/Seed Point for Draping
@@ -3537,9 +3533,7 @@ specified as a target, the modeling plies retain their original global ply numbe
 * **Parameters:**
   - source: list of plies to insert at new position
   - target: position to insert plies. Can be modeling group or sequence entity
-  - option: where to insert: after\`(default), \`before, or end (for SequenceEntity targets) keep (for
-   
-    &nbsp;&nbsp; ModelingGroup targets)
+  - option: where to insert: after\`(default), \`before, or end (for SequenceEntity targets) keep (for ModelingGroup targets)
       - after: paste right after the target
       - before: paste right before the target
       - end: paste at the end of the ModelingGroup containing target
@@ -4810,14 +4804,14 @@ Exports the suface section cut to BECAS or ANSYS MAPDL
   - export_strength_limits: Whether to export the strength limits for BECAS. True by default. Ignored if the format is not ‘becas:in’.
   - mapdl_model_type: The type of the model to be exported to ANSYS MAPDL. Ignored if the format is not ‘ansys:cdb’.
 
-  mapdl_model_type: str
+    mapdl_model_type: str
  
-    &nbsp;&nbsp; - ‘mesh_only’: Only the mesh (elements and nodes) is exported. This is the default.
+    - ‘mesh_only’: Only the mesh (elements and nodes) is exported. This is the default.
     - solid_model: The section cut is expanded into a slice of solid elements.
      
-    &nbsp;&nbsp; In addition, the material properties are exported and the element coordinate systems
-        are alinged with the fiber direction. This model can be used to compute the equivalent
-        beam properties of the section cut.
+    In addition, the material properties are exported and the element coordinate systems
+    are alinged with the fiber direction. This model can be used to compute the equivalent
+    beam properties of the section cut.
 * **Usage:**
   ```pycon
   >>> section_cut.export_surface_section_cut(r'D:\tmp\section_cut.cdb', 'ansys:cdb', mapdl_model_type='mesh_only')
@@ -4843,7 +4837,8 @@ Transforms global coordinates into the local coordinate system of the section cu
 * **Parameters:**
   - global_coords: The global coordinates to be transformed. (x, y, z)
 
-Example: section_cut.from_global_to_local((2.3, 1.2, 4.3))
+* **Example:**
+  >> section_cut.from_global_to_local((2.3, 1.2, 4.3))
 
 <a id="compolyx.SectionCut.from_local_to_global"></a>
 
