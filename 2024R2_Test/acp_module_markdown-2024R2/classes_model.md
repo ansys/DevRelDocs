@@ -99,9 +99,9 @@ The function generates the following objects:
   - axial_direction: Direction vector for the axis of symmetry
   - origin: Point on the axis of symmetry
   - reference radius: Reference radius at which the plies are assumed to have the
-    : nominal angle and the nominal thickness
+: nominal angle and the nominal thickness
   - layers: List of dicts with the following entries:
-    : - fabric: Fabric of the layer (Stackups and Sublaminates are not supported)
+: - fabric: Fabric of the layer (Stackups and Sublaminates are not supported)
       - angle: Nominal angle at Reference Radius with respect to the axis of symmetry (in degree)
       - selection_rule_limits: A dictionary with the entries “upper” and “lower”
         that define the extent of the plies in axial direction.
@@ -111,11 +111,11 @@ The function generates the following objects:
         a negative angle is generated. This implies that the resulting thickness is
         twice the original thickness of the layer
   - number_of_digits_angle, optional, default: 3: Lookup tables for the angles are
-    : shared between different layers with similar angles.
+: shared between different layers with similar angles.
       Angles which are equal until number_of_digits_angle after the
       decimal point share the same lookup table.
   - max_angle_with_thickness_correction: The thickness for layers where abs(angle) >
-    : max_angle_with_thickness_correction is not
+: max_angle_with_thickness_correction is not
       corrected. These layers always have the nominal
       layer thickness.
 * **Usage:**
@@ -332,16 +332,16 @@ Create new Cut-Off Rule
   - name: Name of the rule
   - cutoff_rule_type: geometry, taper, or variable_taper
   - offset: Offset of the rule (float for cutoff_rule_type=\`geometry\` or taper, LookUpTableColumn for cutoff_rule_type=\`variable_taper\`)
-  - angle : Angle of the rule (ignored for cutoff_rule_type=\`geometry\`, float for taper, LookUpTableColumn for variable_taper)
-  - origin : Origin of the offset and angle interpolation for variable_taper
-  - direction : Direction of the offset and angle interpolation for variable_taper
-  - distance_type : along_direction or along_edge (only relevant for variable_taper)
+  - angle: Angle of the rule (ignored for cutoff_rule_type=\`geometry\`, float for taper, LookUpTableColumn for variable_taper)
+  - origin: Origin of the offset and angle interpolation for variable_taper
+  - direction: Direction of the offset and angle interpolation for variable_taper
+  - distance_type: along_direction or along_edge (only relevant for variable_taper)
   - ply_cutoff_type: Determines on which ply level the cutoff is done.
   - ply_tapering: Use ply tapering
   - cutoff_geometry: CADGeometry for the rule (only relevant for cutoff_rule_type=\`geometry\`)
   - edge_set: Edge Set for cutoff_rule_type=\`taper\` or variable_taper
-  - offset_method : Method to compute offset of plies laminate_stack or attached_plies
-  - offset_type : Measure offset from edge set normal to element reference surface (out_of_plane) or in element reference surface (in_plane)
+  - offset_method: Method to compute offset of plies laminate_stack or attached_plies
+  - offset_type: Measure offset from edge set normal to element reference surface (out_of_plane) or in element reference surface (in_plane)
 * **Returns:**
   The created rule
 
@@ -457,28 +457,28 @@ Create a new Solid Model
 * **Parameters:**
   - name: The name of the Solid Model
   - id: The id of the Solid Model
-  - active : Active status of the solid model
+  - active: Active status of the solid model
   - external_file_path: File path to the external source
   - unit_system: Unit system of the imported mesh
   - format: File format of the external source
-  - use_default_element_index : consecutive element numbering if set to true
-  - element_index : start index for first element (only relevant if use_default_element_index)
-  - use_default_node_index : consecutive node numbering if set to true
-  - node_index : start index for first node (only relevant if use_default_node_index)
-  - use_default_section_index : consecutive section numbering if set to true
-  - section_index : start index for first element (only relevant if use_default_section_index)
-  - use_default_material_index : consecutive material numbering if set to true
-  - material_index : start index for first element (only relevant if use_default_material_index)
-  - use_default_coordinate_system_index : consecutive coordinate system numbering if set to true
-  - coordinate_system_index : start index for first coordinate system (only relevant if use_default_coordinate_system_index)
-  - use_solsh_elements : the solid model is created out of solsh elements
+  - use_default_element_index: consecutive element numbering if set to true
+  - element_index: start index for first element (only relevant if use_default_element_index)
+  - use_default_node_index: consecutive node numbering if set to true
+  - node_index: start index for first node (only relevant if use_default_node_index)
+  - use_default_section_index: consecutive section numbering if set to true
+  - section_index: start index for first element (only relevant if use_default_section_index)
+  - use_default_material_index: consecutive material numbering if set to true
+  - material_index: start index for first element (only relevant if use_default_material_index)
+  - use_default_coordinate_system_index: consecutive coordinate system numbering if set to true
+  - coordinate_system_index: start index for first coordinate system (only relevant if use_default_coordinate_system_index)
+  - use_solsh_elements: the solid model is created out of solsh elements
   - drop_hanging_nodes: whether to skip mid-side nodes that are not shared by adjacent elements. Only relevant when the object has applies cut-off geometries and a quadratic mesh.
-  - use_solid_model_prefix : the name of the solid model is used as a prefix for all components written to the \*cdb file
-  - write_degenerated_elements : If false, degenerated (homogeneous) elements are not exported
+  - use_solid_model_prefix: the name of the solid model is used as a prefix for all components written to the \*cdb file
+  - write_degenerated_elements: If false, degenerated (homogeneous) elements are not exported
   - delete_bad_elements: Boolean whether to delete the erroneous elements or not
   - warping_limit: Warping limit factor used to detect erroneous elements
   - minimum_volume: Minimum volume of solid elements. Default is 0. Elements equal or smaller than this limit are removed from the solid model.
-  - global_cut_off_material : Defines the global cut-off material
+  - global_cut_off_material: Defines the global cut-off material
   - transfer_all_sets: defines whether all edge and element sets should be transferred to the solid model.
   - transferred_element_sets: element sets to transfer to the solid model if transfer_all_sets is set to false.
   - transferred_edge_sets: edge sets to transfer to the solid model if transfer_all_sets is set to false.
@@ -492,8 +492,8 @@ Create a new Solid Model
 Create a new 1D Look-Up Table object
 
 * **Parameters:**
-  - name : Name
-  - id : ID
+  - name: Name
+  - id: ID
 * **Returns:**
   The created Look-Up Table object
 
@@ -504,8 +504,8 @@ Create a new 1D Look-Up Table object
 Create a new 3D Look-Up Table object
 
 * **Parameters:**
-  - name : Name
-  - id : ID
+  - name: Name
+  - id: ID
   - tabular_data: data points and values of the look-up table
   - algorithm_type: specify which algorithm type is used for the interpolation
   - use_default_search_radius: force the program to use the default search radius. Used for the algorithm weighted_nearest_neighbor”.
@@ -529,7 +529,8 @@ Create a new Oriented Selection Set
   - geometries: Virtual geometries
   - rosettes: Rosettes for the Oriented Selection Set
   - rosette_selection_method: Method to calculate element orientation
-    : (‘minimum_angle’, ‘maximum_angle’, ‘minimum_distance’,
+
+    &nbsp;&nbsp; (‘minimum_angle’, ‘maximum_angle’, ‘minimum_distance’,
       ‘minimum_angle_superposed’, ‘minimum_distance_superposed’,
       ‘maximum_angle_superposed’, ‘ansys_classic’, or
       ‘tabular_values’)
@@ -602,7 +603,7 @@ Create a new rosette
   - dir2: Direction 2 of the Rosette
   - rosette_type: Type of the Rosette ( ‘PARALLEL’, ‘RADIAL’, ‘CYLINDRICAL’, ‘SPHERICAL’, ‘EDGE_WISE’ )
   - edge_set: Edge Set to be used in Rosette
-  - show : Whether the newly created rosette is shown in the scene / the 3D window or not
+  - show: Whether the newly created rosette is shown in the scene / the 3D window or not
 * **Returns:**
   The created Rosette
 * **Example:**
@@ -658,7 +659,7 @@ Creates a script object, which allows executing custom Python code
   - active: If False, the script will not be executed
   - uptodate: Whether the script currently needs to be executed
   - update_mode: Defines which changes cause the script to become
-    : out-of-date. Can be either ‘manual’ (run only when manually
+: out-of-date. Can be either ‘manual’ (run only when manually
       triggered), ‘on_triggers’ (run when a parameter or the script
       itself changes) or ‘always’ (run with every update)
 * **Returns:**
@@ -714,7 +715,7 @@ Create a new Solid Model
 * **Parameters:**
   - name: The name of the Solid Model
   - id: The id of the Solid Model
-  - active : Active status fo the Solid Model
+  - active: Active status fo the Solid Model
   - element_sets: a list of Element Sets
   - ex_type:
     Extrusion method. Possible values are:
@@ -726,24 +727,24 @@ Create a new Solid Model
     \* user_defined (groups plies by global ply numbers to groups
     \* material_wise (groups subsequent plies with equal material)
   - drop_off_type: inside ply (one element inside the ply boundary), outside ply (one element outside the ply boundary)
-  - offset_type : shell normal (offset to the shell normal), surface normal (update normal direction by normal of layered solids), distortion controlled (surface normal with local corrections)
-  - max_thickness : maximum thickness for one solid, splits the layer into more solids, if a single layer is thicker than this value (only for ex_type=\`specify thickness\`)
-  - ply_group_pointers : step used to make user-defined ply groups
-  - element_set : (deprecated, use element_sets instead) a single element set
-  - use_default_element_index : consecutive element numbering if set to true
-  - element_index : start index for first element (only relevant if use_default_element_index)
-  - use_default_node_index : consecutive node numbering if set to true
-  - node_index : start index for first node (only relevant if use_default_node_index)
-  - use_default_section_index : consecutive section numbering if set to true
-  - section_index : start index for first element (only relevant if use_default_section_index)
-  - use_default_material_index : consecutive material numbering if set to true
-  - material_index : start index for first element (only relevant if use_default_material_index)
-  - use_default_coordinate_system_index : consecutive coordinate system numbering if set to true
-  - coordinate_system_index : start index for first coordinate system (only relevant if use_default_coordinate_system_index)
-  - connect_butt_joined_plies : connect adjacent plies without intermediate drop-offs
-  - write_degenerated_elements : degenerated drop-off and cut-off elements are written to the \*cdb file
-  - use_solsh_elements : the solid model is created out of solsh elements
-  - use_solid_model_prefix : the name of the solid model is used as a prefix for all components written to the \*cdb file
+  - offset_type: shell normal (offset to the shell normal), surface normal (update normal direction by normal of layered solids), distortion controlled (surface normal with local corrections)
+  - max_thickness: maximum thickness for one solid, splits the layer into more solids, if a single layer is thicker than this value (only for ex_type=\`specify thickness\`)
+  - ply_group_pointers: step used to make user-defined ply groups
+  - element_set: (deprecated, use element_sets instead) a single element set
+  - use_default_element_index: consecutive element numbering if set to true
+  - element_index: start index for first element (only relevant if use_default_element_index)
+  - use_default_node_index: consecutive node numbering if set to true
+  - node_index: start index for first node (only relevant if use_default_node_index)
+  - use_default_section_index: consecutive section numbering if set to true
+  - section_index: start index for first element (only relevant if use_default_section_index)
+  - use_default_material_index: consecutive material numbering if set to true
+  - material_index: start index for first element (only relevant if use_default_material_index)
+  - use_default_coordinate_system_index: consecutive coordinate system numbering if set to true
+  - coordinate_system_index: start index for first coordinate system (only relevant if use_default_coordinate_system_index)
+  - connect_butt_joined_plies: connect adjacent plies without intermediate drop-offs
+  - write_degenerated_elements: degenerated drop-off and cut-off elements are written to the \*cdb file
+  - use_solsh_elements: the solid model is created out of solsh elements
+  - use_solid_model_prefix: the name of the solid model is used as a prefix for all components written to the \*cdb file
   - global_drop_off_material: defines the global drop-off material
   - global_cut_off_material: defines the global cut-off material
   - transfer_all_sets: defines whether all edge and element sets should be transferred to the solid model.
@@ -868,13 +869,13 @@ Exports all ACP composite defintions.
 Export layup to Composite CAE HDF5 file.
 
 > * **parameters:**
->   - path : Save path of the h5 file.
->   - remove_midside_nodes : Whether midside nodes should be exported or not.
->   - layup_representation_3d : Whether to compute the 3D lay-up representation of the model. See note.
->   - offset_type : Specifies the ply surface to export. Can be bottom_offset, middle_offset or top_offset.
->   - element_sets : A list of Element Sets and/or Oriented Selection Sets. Only plies defined over the selected elements will be exported. If empty list or None, all elements will be considered.
->   - modeling_plies : A list of Modeling Plies and/or Modeling Groups. If empty list or None, all modeling plies will be exported
->   - ascii_encoding : If True, set the HDF5 data type for strings to H5T_CSET_ASCII. Note that the string contents will be UTF-8 encoded regardless of this setting, which means the content will only be well-defined ASCII if the ACP object names do not contain unicode characters outside the ASCII range. This option is added for compatibility with readers which may not support the H5T_CSET_UTF8 data type.
+>   - path: Save path of the h5 file.
+>   - remove_midside_nodes: Whether midside nodes should be exported or not.
+>   - layup_representation_3d: Whether to compute the 3D lay-up representation of the model. See note.
+>   - offset_type: Specifies the ply surface to export. Can be bottom_offset, middle_offset or top_offset.
+>   - element_sets: A list of Element Sets and/or Oriented Selection Sets. Only plies defined over the selected elements will be exported. If empty list or None, all elements will be considered.
+>   - modeling_plies: A list of Modeling Plies and/or Modeling Groups. If empty list or None, all modeling plies will be exported
+>   - ascii_encoding: If True, set the HDF5 data type for strings to H5T_CSET_ASCII. Note that the string contents will be UTF-8 encoded regardless of this setting, which means the content will only be well-defined ASCII if the ACP object names do not contain unicode characters outside the ASCII range. This option is added for compatibility with readers which may not support the H5T_CSET_UTF8 data type.
 
 Note about layup_representation_3d: the 3D lay-up representation contains the offset ply surfaces where
 the bottom offset of each ply is exported. The computation can take a while depending on the model size
@@ -889,7 +890,7 @@ Save composite definitions to HDF5 file.
 Function is mainly used to exchange composite definitions with ANSYS Workbench
 
 > * **parameters:**
->   - path Save path of the h5 file
+>   - path: Save path of the h5 file
 
 <a id="compolyx.Model.export_ply_geometries"></a>
 
@@ -980,7 +981,7 @@ Load layup from excel or csv file
 
 * **Parameters:**
   - mode: can be: update_properties_only: Definitions are updated with properties given
-    : update_entities: Definitions are update, additional plies are generated and deleted
+: update_entities: Definitions are update, additional plies are generated and deleted
       recreate: Existing layup is deleted generated from scratch
 
 <a id="compolyx.Model.get_layup_from_csv_file"></a>
@@ -993,7 +994,7 @@ Function that reads the layup data from a csv file and adds the data to the grap
   - objects: List of objects to be synced
   - path: the path to the file
   - mode: can be: update_properties_only: Definitions are updated with properties given
-    : update_entities: Definitions are update, additional plies are generated and deleted
+: update_entities: Definitions are update, additional plies are generated and deleted
       recreate: Existing layup is deleted generated from scratch
   - modeling_group: key of the mpg_collection dict = the id of the mpg. Only plies of this modeling_group will be imported from the file if none is specified all mpgs are read
 
@@ -1007,7 +1008,7 @@ Load layup from Excel File
   - path: Path to file to load
   - objects: Objects to be loaded and overwritten
   - mode: can be: update_properties_only: Definitions are updated with properties given
-    : update_entities: Definitions are update, additional plies are generated and deleted
+: update_entities: Definitions are update, additional plies are generated and deleted
       recreate: Existing layup is deleted generated from scratch
 
 <a id="compolyx.Model.import_composite_cae_h5"></a>
@@ -1017,20 +1018,20 @@ Load layup from Excel File
 Import a composite layup definition from a HDF5 file.
 
 * **Parameters:**
-  - path : Load path of the h5 file
-  - mode : Specify how objects are imported
-    - append : Imported data/objects are appended to existing model/layup.
-    - overwrite : Replace objects with equal ids in the model with imported instances if possible (not locked).
+  - path: Load path of the h5 file
+  - mode: Specify how objects are imported
+    - append: Imported data/objects are appended to existing model/layup.
+    - overwrite: Replace objects with equal ids in the model with imported instances if possible (not locked).
   - projection: Defines whether the imported data is treated as shell or solid data
     - shell: Default. The imported components are mapped onto the reference surface and converted into Modeling Plies.
     - solid: The components are imported one-to-one and exposed as Imported Plies. Can be used in combination with ImportedSolidModel (lay-up mapping)
-  - tol_thickness : Mapping tolerance in element thickness direction relative to min element edge length.
-  - tol_in_plane : Mapping tolerance in element in-plane direction relative to min element edge length.
-  - tol_angle : Mapping tolerance for the angles between element normals.
-  - small_hole_threshold : Holes in plies/element sets with an area smaller than this threshold times the area of the element set/ply are filled.
-  - tol_min_angle : Minimum angle tolerance for which tabular correction angles for plies are computed.
-  - recompute_ref_directions’ : Whether reference directions should be recomputed from tabular angle data or not.
-  - element_sets : A list of Element Sets.
+  - tol_thickness: Mapping tolerance in element thickness direction relative to min element edge length.
+  - tol_in_plane: Mapping tolerance in element in-plane direction relative to min element edge length.
+  - tol_angle: Mapping tolerance for the angles between element normals.
+  - small_hole_threshold: Holes in plies/element sets with an area smaller than this threshold times the area of the element set/ply are filled.
+  - tol_min_angle: Minimum angle tolerance for which tabular correction angles for plies are computed.
+  - recompute_ref_directions’: Whether reference directions should be recomputed from tabular angle data or not.
+  - element_sets: A list of Element Sets.
   - offset: Offset for imported plies. Defines if imported mesh is interpreted as bottom, middle or top ply surface. Valid modes are ‘bottom_offset’, ‘middle_offset’, ‘top_offset’
   - coord_transform_inputs: Coordinate transform for the imported data. Dict with the following properties:
     - “translation_x”, “translation_y”, “translation_z”,
@@ -1110,7 +1111,7 @@ Mesh of this model
 Query arbitrary data from the mesh of the model
 
 * **Parameters:**
-  - name : Data type to query:
+  - name: Data type to query:
     - labels, indices
     - etypes
     - coordinates
@@ -1123,23 +1124,23 @@ Query arbitrary data from the mesh of the model
     - area, volume, mass, price
     - cog (centre of gravity)
     - offset (offset in the thickness direction)
-  - component : Defines the component. Needed for name=’angles’ or ‘thickness’
+  - component: Defines the component. Needed for name=’angles’ or ‘thickness’
     - angles: design_angle, shear, draped_fiber_angle, draped_transverse_angle. design_angle is the default.
     - thickness: thickness, relative_thickness_correction. thickness is the default.
-  - position : Position where data is queried:
+  - position: Position where data is queried:
     - nodal
     - centroid
     - element_nodal
-  - selection : The selection set determines the selected nodes and elements.
+  - selection: The selection set determines the selected nodes and elements.
     Can be given as string ‘sel0’ - ‘sel5’ or ‘all’
     or can be given as ObjectSelection object such as
     - model.selection
     - scene.active_set
-  - entity : Specialized queries require the specification of an additional associated entity,
+  - entity: Specialized queries require the specification of an additional associated entity,
     e.g. an oriented element set is needed to compute orientations.
     Entity can be given as NamedGraphObjects or vertex descriptor.
-  - entities : If a list of entities is given, the query will also compute and return a list of results, with one array for each entity.
-  - simulate : Whether the query is only simulated to test if it will return data.
+  - entities: If a list of entities is given, the query will also compute and return a list of results, with one array for each entity.
+  - simulate: Whether the query is only simulated to test if it will return data.
     If this flag is set the mesh_query(…) function will only return 0 or 1.
 
 <a id="compolyx.Model.minimum_analysis_ply_thickness"></a>
@@ -1275,8 +1276,8 @@ Sampling Point Container
 
 Save ACP model to .acph5 file
 :Parameters:
-- path : Path to file
-- cache_data : Whether to cache current state of model or not.
+- path: Path to file
+- cache_data: Whether to cache current state of model or not.
 
 <a id="compolyx.Model.save_analysis_model"></a>
 
@@ -1358,7 +1359,7 @@ Section Cuts
 Selects element within active model. (Marks the given selection as SELECTED)
 
 * **Parameters:**
-  - selection : The selection to update.
+  - selection: The selection to update.
     Can be given as string ‘sel0’ - ‘sel5’ or ‘all’ or can be given as ObjectSelection object such as
     - model.selection
     - scene.active_set
@@ -1378,7 +1379,7 @@ Selects element within active model. (Marks the given selection as SELECTED)
 Function selects nodes in graph and marks the given selection as SELECTED.
 
 * **Parameters:**
-  - selection : The selection to update
+  - selection: The selection to update
     Can be given as string ‘sel0’ - ‘sel5’ or ‘all’
     or can be given as ObjectSelection object such as
     - model.selection
@@ -1398,7 +1399,7 @@ Function selects nodes in graph and marks the given selection as SELECTED.
 Selects the solid element within given selection and deselects the shell elements.
 
 * **Parameters:**
-  - selection : The selection to update. Can be given as string ‘sel0’ - ‘sel5’
+  - selection: The selection to update. Can be given as string ‘sel0’ - ‘sel5’
 * **Return:**
   Number of selected solid elements
 
@@ -1553,7 +1554,8 @@ CYLINDRICAL,  RADIAL and SPHERICAL coord sys type: Give phi and theta in RAD
 
 * **Parameters:**
   - (x, y, z): x = x for PARALLEL, r for CYLINDRICAL, RADIAL and SPHERICAL)
-    : y = y for PARALLEL, phi for CYLINDRICAL, RADIAL and SPHERICAL
+   
+    &nbsp;&nbsp; y = y for PARALLEL, phi for CYLINDRICAL, RADIAL and SPHERICAL
       z = z for PARALLEL, CYLINDRICAL, RADIAL and theta for SPHERICAL)
 * **Usage:**
   ```pycon
@@ -1569,7 +1571,8 @@ CYLINDRICAL,  RADIAL and SPHERICAL coord sys type: Give phi and theta in RAD
 
 * **Parameters:**
   - (x, y, z): x = x for PARALLEL, r for CYLINDRICAL, RADIAL and SPHERICAL)
-    : y = y for PARALLEL, phi for CYLINDRICAL, RADIAL and SPHERICAL
+   
+    &nbsp;&nbsp; y = y for PARALLEL, phi for CYLINDRICAL, RADIAL and SPHERICAL
       z = z for PARALLEL, CYLINDRICAL, RADIAL and theta for SPHERICAL)
 * **Usage:**
   ```pycon
@@ -1585,8 +1588,9 @@ Evaluates the local rosette coordinates of a point given in global coordinates:
 * **Parameters:**
   - (x, y, z): coordinates in global (parallel) coordinates
 
-:returns (x,y,z)
-: x = x for PARALLEL, r for CYLINDRICAL, RADIAL and SPHERICAL)
+  - returns (x,y,z):
+
+  x = x for PARALLEL, r for CYLINDRICAL, RADIAL and SPHERICAL)
   y = y for PARALLEL, phi for CYLINDRICAL, RADIAL and SPHERICAL
   z = z for PARALLEL, CYLINDRICAL, RADIAL and theta for SPHERICAL)
   CYLINDRICAL,  RADIAL and SPHERICAL coord sys type:  phi and theta in RAD
@@ -1605,8 +1609,9 @@ Returns local rosette vector components from global vector components
 * **Parameters:**
   - (x, y, z): components in global (parallel) coordinates
 
-:returns (x,y,z)
-: x = x for PARALLEL, r for CYLINDRICAL, RADIAL and SPHERICAL)
+  - returns (x,y,z):
+
+  x = x for PARALLEL, r for CYLINDRICAL, RADIAL and SPHERICAL)
   y = y for PARALLEL, phi for CYLINDRICAL, RADIAL and SPHERICAL
   z = z for PARALLEL, CYLINDRICAL, RADIAL and theta for SPHERICAL)
   CYLINDRICAL,  RADIAL and SPHERICAL coord sys type:  phi and theta in RAD
@@ -1694,7 +1699,7 @@ sets dir1 orthogonal to dir2 as y- and z-axis
 
 ### *class* compolyx.LookUpTableBase(obj, parent=None)
 
-Bases: `NamedGraphFuncObject`
+Bases: [`NamedGraphFuncObject`](#compolyx.NamedGraphFuncObject)
 
 Look-Up Table Class
 
@@ -1747,9 +1752,9 @@ Dictionary with all columns
 Create a new column.
 
 * **Parameters:**
-  - name : name of column
-  - type : a string (‘scalar’, ‘direction’) specifying the column type (the values will be initialized to NaN)
-  - values : a numpy array with values (the type is determined from its shape)
+  - name: name of column
+  - type: a string (‘scalar’, ‘direction’) specifying the column type (the values will be initialized to NaN)
+  - values: a numpy array with values (the type is determined from its shape)
 
 <a id="compolyx.LookUpTableBase.empty"></a>
 
@@ -3371,7 +3376,7 @@ Makes a copy of a butt joint sequence
   - source: Source object to copy
   - global_ply_nr: Global ply number to use. If 0 the ply is added at the top.
   - sort: Whether to sort all plies of modeling group after copy.
-    : If multiple plies are copied at once it can be useful to sort only once at the end of the copy operation.
+: If multiple plies are copied at once it can be useful to sort only once at the end of the copy operation.
 * **Returns:**
   New instance of modeling ply
 
@@ -3385,7 +3390,8 @@ Copy a Interface Layer
   - source: Source object to copy
   - global_ply_nr: Global ply number to use. If 0 the ply is added at the top.
   - sort: Whether to sort all plies of Interface Layer group after copy.
-    : If multiple plies are copied at once it can be useful to sort only once at the end of the copy operation.
+
+    &nbsp;&nbsp; If multiple plies are copied at once it can be useful to sort only once at the end of the copy operation.
 * **Returns:**
   New instance of Interface Layer
 
@@ -3399,7 +3405,8 @@ Copy a modeling ply
   - source: Source object to copy
   - global_ply_nr: Global ply number to use. If 0 the ply is added at the top.
   - sort: Whether to sort all plies of modeling group after copy.
-    : If multiple plies are copied at once it can be useful to sort only once at the end of the copy operation.
+   
+    &nbsp;&nbsp; If multiple plies are copied at once it can be useful to sort only once at the end of the copy operation.
 * **Returns:**
   New instance of modeling ply
 
@@ -3430,7 +3437,8 @@ Create Interface Layer
   - id: Optional id of the new Interface Layer
   - global_ply_nr: Ply number for stacking sequence
   - oriented_selection_sets: Oriented Selection Set for the expansion
-    : of the Interface Layer
+   
+    &nbsp;&nbsp; of the Interface Layer
   - open_area_sets: Defines the initial crack of a VCCT layer (optional)
   - active: Interface Layer active. Default True
 * **Returns:**
@@ -3459,7 +3467,8 @@ Create modeling ply
   - number_of_layers: Multiplier of this layer
   - global_ply_nr: Ply number for stacking sequence
   - oriented_selection_sets: Oriented Selection Set for the expansion
-    : of the Modeling Ply
+   
+    &nbsp;&nbsp; of the Modeling Ply
   - selection_rules: Element Selection Rules for the Modeling Ply
   - draping: The type of draping to be used “no_draping”, “evaluate_draping”, or “tabular_values”
   - draping_seed_point: Start/Seed Point for Draping
@@ -3529,7 +3538,8 @@ specified as a target, the modeling plies retain their original global ply numbe
   - source: list of plies to insert at new position
   - target: position to insert plies. Can be modeling group or sequence entity
   - option: where to insert: after\`(default), \`before, or end (for SequenceEntity targets) keep (for
-    : ModelingGroup targets)
+   
+    &nbsp;&nbsp; ModelingGroup targets)
       - after: paste right after the target
       - before: paste right before the target
       - end: paste at the end of the ModelingGroup containing target
@@ -4224,7 +4234,8 @@ Create modeling ply
   - mesh_import_type: The source of the imported mesh (‘from_h5_composite_cae’ or ‘from_geometry’)
   - mesh_geometry: if mesh_import_type is from_geometry, then this geometry defines the surface of the ply
   - rosette_selection_method: Method to calculate element orientation
-    : (‘minimum_angle’, ‘maximum_angle’, ‘minimum_distance’,
+   
+    &nbsp;&nbsp; (‘minimum_angle’, ‘maximum_angle’, ‘minimum_distance’,
       ‘minimum_angle_superposed’, ‘minimum_distance_superposed’,
       ‘maximum_angle_superposed’, ‘ansys_classic’, or
       ‘tabular_values’)
@@ -4578,7 +4589,7 @@ Returns the properties of the classical laminate theory:
   - laminate_forces: Returns a dict with the laminate forces Nx, Ny, Nxy, Mx, My, Mxy, Qx and Qy. Offset is middle is always true for this evaluation.
 
 Usage:
-: ```pycon
+```pycon
   >>> se.clt_query(query='polar_properties')
   ```
 
@@ -4726,7 +4737,7 @@ Status boolean. Set to true if the underlying data has been changed. Write only 
 > ‘LINEAR, STRAIGHT AND UNTWISTED ANISOTROPIC BEAM SECTION PROPERTIES
 > FROM SOLID FINITE ELEMENTS’. See ACP documentation for more details.
 
-> * **Parametes:**
+> * **Parameters:**
 >   - check_status: Set to true to throw an exception if the computation failed. Otherwise, use SectionalAnalysisOutputs.status to check if the computation failed.
 
 > Returns SectionalAnalysisOutputs. The equivalent beam properties are stored under properties
@@ -4739,7 +4750,7 @@ Status boolean. Set to true if the underlying data has been changed. Write only 
 > >>>     print(f”MAPDL output:
 
 {result.mapdl_out_file}”)
-: ```pycon
+```pycon
   >>>     print(f"Result file:
   ```
 
@@ -4800,9 +4811,11 @@ Exports the suface section cut to BECAS or ANSYS MAPDL
   - mapdl_model_type: The type of the model to be exported to ANSYS MAPDL. Ignored if the format is not ‘ansys:cdb’.
 
   mapdl_model_type: str
-  : - ‘mesh_only’: Only the mesh (elements and nodes) is exported. This is the default.
+ 
+    &nbsp;&nbsp; - ‘mesh_only’: Only the mesh (elements and nodes) is exported. This is the default.
     - solid_model: The section cut is expanded into a slice of solid elements.
-      : In addition, the material properties are exported and the element coordinate systems
+     
+    &nbsp;&nbsp; In addition, the material properties are exported and the element coordinate systems
         are alinged with the fiber direction. This model can be used to compute the equivalent
         beam properties of the section cut.
 * **Usage:**
