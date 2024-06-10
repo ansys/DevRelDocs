@@ -9,7 +9,7 @@ your project and exploring simulation results. For a more complete reference to 
 in scripting see the [Class Reference](prepost-scripting-reference.md).
 
 > **Note:** Not all Rocky scripting capabilities are currently documented in this scripting
-> manual. There are additional classes and functions available for some Rocky post-processing
+> manual. There are additional classes and functions available for some Rocky postprocessing
 > features that are documented in the Rocky code itself. These can be accessed via the Python Shell.
 
 ---
