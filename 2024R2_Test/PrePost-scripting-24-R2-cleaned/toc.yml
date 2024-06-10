@@ -1,11 +1,11 @@
 - name: Introduction
-  href: basic_usage.md
+  href: basic-usage.md
 - name: Getting started
   items:
   - name: Setting up a project
-    href: getting_started.md#setting-up-a-project
+    href: getting-started-setting-up-a-project.md
   - name: Postprocessing results
-    href: getting_started.md#post-processing-results
+    href: getting-started-post-processing-results.md
 - name: Using VSCode to create and edit scripts
   href: setup-ide.md
 - name: Class reference

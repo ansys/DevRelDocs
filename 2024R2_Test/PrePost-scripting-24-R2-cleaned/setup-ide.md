@@ -11,7 +11,7 @@ In Linux, the “bin” folder is in the same folder where the Rocky .tbz2 insta
 To configure auto-completion for PrePost scripts in VSCode proceed as following:
 
 1. Open the PrePost scripts folder in VSCode (usually at `"%HOME%\Documents\Rocky\Scripts"`);
-   > **Tip:** In Rocky, open the PrePost Scripting in Tools and click on the folder icon at the bottom of the scripts window, the script folder will open.
+   > :bulb: **Tip:** In Rocky, open the PrePost Scripting in Tools and click on the folder icon at the bottom of the scripts window, the script folder will open.
 2. Open this folder in VSCode like a workspace;
 3. Press F1 key in VSCode and type “Preferences: Open Workspace Settings (JSON)”;
 4. Set extra paths in “settings.json” with the path of PrePost Scripting files, like the example below:
