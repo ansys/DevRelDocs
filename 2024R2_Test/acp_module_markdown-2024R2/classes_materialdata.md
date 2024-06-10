@@ -14,99 +14,99 @@ MaterialData manages all composite material data.
 
 #### copy(source, on_duplicate_name='keep_both')
 
-copy a list of material data source, keeps track of all dependencies
+Copy a list of material data source. Keeps track of all dependencies.
 
 * **Parameters:**
-  - source: a list of source of copy
-  - on_duplicate_name: action to take if source.name is already contained in self.fabrics
-    - keep_both: create a new instance with the same name (different id)
-    - overwrite: replace first instance with equal name in self with source
-    - keep_existing: ignore copy action, returns first existing instance in self with equal name
+  - source: A list of source of copy.
+  - on_duplicate_name: Action to take if source.name is already contained in self.fabrics.
+    - keep_both: Create a new instance with the same name (different ID).
+    - overwrite: Replace first instance with equal name in self with source.
+    - keep_existing: Ignore copy action. Returns first existing instance in self with equal name.
 
 <a id="compolyx.MaterialData.copy_fabric"></a>
 
 #### copy_fabric(source, on_duplicate_name='keep_both', memo=None)
 
-Copy a fabric
+Copy a fabric.
 
 * **Parameters:**
-  - source: Source object to copy
-  - on_duplicate_name: action to take if source.name is already contained in self.fabrics
-    - keep_both: create a new instance with the same name (different id)
-    - overwrite: replace first instance with equal name in self with source
-    - keep_existing: ignore copy action, returns first existing instance in self with equal name
-  - memo: a dict to collect copied items (for internal dependency tracking when copying stackups or sub-laminates)
+  - source: Source object to copy.
+  - on_duplicate_name: Action to take if source.name is already contained in self.fabrics.
+    - keep_both: Create a new instance with the same name (different ID).
+    - overwrite: Replace first instance with equal name in self with source.
+    - keep_existing: Ignore copy action. Returns first existing instance in self with equal name.
+  - memo: A dict to collect copied items (for internal dependency tracking when copying stackups or sub-laminates).
 * **Returns:**
-  New Instance of Fabric
+  New Instance of Fabric.
 
 <a id="compolyx.MaterialData.copy_material"></a>
 
 #### copy_material(source, on_duplicate_name='keep_both', memo=None)
 
-Copy a material
+Copy a material.
 
 * **Parameters:**
-  - source: Source object to copy
-  - on_duplicate_name: action to take if source.name is already contained in self.materials
-    - keep_both: create a new instance with the same name (different id)
-    - overwrite: replace first instance with equal name in self with source
-    - keep_existing: ignore copy action, returns first existing instance in self with equal name
-  - memo: a dict to collect copied items (for internal dependency tracking when copying stackups or sub-laminates)
+  - source: Source object to copy.
+  - on_duplicate_name: Action to take if source.name is already contained in self.materials.
+    - keep_both: Create a new instance with the same name (different ID).
+    - overwrite: Replace first instance with equal name in self with source.
+    - keep_existing: Ignore copy action. Returns first existing instance in self with equal name.
+  - memo: A dict to collect copied items (for internal dependency tracking when copying stackups or sub-laminates).
 * **Returns:**
-  New instance of material
+  New instance of material.
 
 <a id="compolyx.MaterialData.copy_stackup"></a>
 
 #### copy_stackup(source, on_duplicate_name='keep_both', memo=None)
 
-Copy a stackup
+Copy a stackup.
 
 * **Parameters:**
-  - source: Source object to copy
-  - on_duplicate_name: action to take if source.name is already contained in self.stackups
-    - keep_both: create a new instance with the same name (different id)
-    - overwrite: replace first instance with equal name in self with source
-    - keep_existing: ignore copy action, returns first existing instance in self with equal name
-  - memo: a dict to collect copied items
+  - source: Source object to copy.
+  - on_duplicate_name: Action to take if source.name is already contained in self.stackups.
+    - keep_both: Create a new instance with the same name (different ID).
+    - overwrite: Replace first instance with equal name in self with source.
+    - keep_existing: Ignore copy action, returns first existing instance in self with equal name.
+  - memo: A dict to collect copied items.
 * **Returns:**
-  New Instance of Fabric
+  New Instance of Fabric.
 
 <a id="compolyx.MaterialData.copy_sub_laminate"></a>
 
 #### copy_sub_laminate(source, on_duplicate_name='keep_both', memo=None)
 
-Copy a sub lamiante
+Copy a sub-lamiante.
 
 * **Parameters:**
-  - source: Source object to copy
-  - on_duplicate_name: action to take if source.name is already contained in self.sub_laminates
-    - keep_both: create a new instance with the same name (different id)
-    - overwrite: replace first instance with equal name in self with source
-    - keep_existing: ignore copy action, returns first existing instance in self with equal name
-  - memo: a dict to collect copied items
+  - source: Source object to copy.
+  - on_duplicate_name: Action to take if source.name is already contained in self.sub_laminates.
+    - keep_both: Create a new instance with the same name (different ID).
+    - overwrite: Replace first instance with equal name in self with source.
+    - keep_existing: Ignore copy action. Returns first existing instance in self with equal name.
+  - memo: A dict to collect copied items.
 * **Returns:**
-  New Instance of sub laminate
+  New Instance of sub-laminate.
 
 <a id="compolyx.MaterialData.create_fabric"></a>
 
 #### create_fabric(name, id=None, material=None, thickness=0.0, area_price=0.0, ignore_for_postprocessing=False, drop_off_material_handling='Global', cut_off_material_handling='Computed', drop_off_material=None, cut_off_material=None, draping_material_model='woven', draping_ud_coefficient=0.0)
 
-Create a new fabric
+Create a new fabric.
 
 * **Parameters:**
-  - name: Name for the Fabric
-  - material: Material of the Fabric
-  - thickness: Thickness of the Fabric
-  - area_price: Area Price of the Fabric
-  - ignore_for_postprocessing: Flag if this material is post-processed
-  - drop_off_material_handling: Type defining how drop-off material is used in drop-off areas of the fabric
-  - cut_off_material_handling: Type defining how cut-off material is used in cut-off areas of the fabric
-  - drop_off_material: Material to use for ‘Custom’ drop-off material handling
-  - cut_off_material: Material to use for ‘Custom’ cut-off material handling
-  - draping_material_model: Material model for draping, either ‘woven’ or ‘unidirectional’
-  - draping_ud_coefficient: Coefficient for the unidirectional draping material model
+  - name: Name for the Fabric.
+  - material: Material of the Fabric.
+  - thickness: Thickness of the Fabric.
+  - area_price: Area Price of the Fabric.
+  - ignore_for_postprocessing: Flag if this material is postprocessed.
+  - drop_off_material_handling: Type defining how drop-off material is used in drop-off areas of the fabric.
+  - cut_off_material_handling: Type defining how cut-off material is used in cut-off areas of the fabric.
+  - drop_off_material: Material to use for ‘Custom’ drop-off material handling.
+  - cut_off_material: Material to use for ‘Custom’ cut-off material handling.
+  - draping_material_model: Material model for draping, either ‘woven’ or ‘unidirectional’.
+  - draping_ud_coefficient: Coefficient for the unidirectional draping material model.
 * **Returns:**
-  The created Fabric
+  The created Fabric.
 * **Examples:**
   ```pycon
   >>> material_data = db.models['beam'].material_data
@@ -117,35 +117,35 @@ Create a new fabric
 
 #### create_material(name, id=None, ply_type='undefined', E1=0.0, E2=0.0, E3=0.0, G12=0.0, G31=0.0, G23=0.0, nu12=0.0, nu13=0.0, nu23=0.0, rho=0.0, locked=False, ext_id='')
 
-Create a constant Material
+Create a constant Material.
 
 * **Parameters:**
-  - name: Name of the new Material
-  - ply_type: Type of the ply for the material. Allowed string values: regular, woven, orthotropic_homogeneous_core, isotropic_homogeneous_core, honeycomb_core, isotropic, adhesive, undefined.
-  - E1 - rho: Material parameters
+  - name: Name of the new Material.
+  - ply_type: Type of the ply for the material. Allowed string values: regular, woven, orthotropic_homogeneous_core, isotropic_homogeneous_core, honeycomb_core, isotropic, adhesive, and undefined.
+  - E1 - rho: Material parameters.
 * **Returns:**
-  New Instance of Material
+  New Instance of Material.
 
 <a id="compolyx.MaterialData.create_stackup"></a>
 
 #### create_stackup(name, id=None, fabrics=None, area_price=0.0, symmetry='No Symmetry', layup_sequence='Top-Down', drop_off_material_handling='Global', cut_off_material_handling='Computed', drop_off_material=None, cut_off_material=None, draping_material_model='woven', draping_ud_coefficient=0.0)
 
-Create a new Stackup
+Create a new Stackup.
 
 * **Parameters:**
-  - name: Name for the Stackup
-  - fabrics: Fabrics of the Stackup
-  - area_price: Area Price of the Stackup
-  - symmetry: Symmetry the Stackup can be ‘No Symmetry’, ‘Even Symmetry’ or ‘Odd Symmetry’
-  - layup_sequence: Layup sequence of the Stackup can be ‘Top-Down’ or ‘Bottom-Up’
-  - drop_off_material_handling: Type defining how drop-off material is used in drop-off areas of the stackup
-  - cut_off_material_handling: Type defining how cut-off material is used in cut-off areas of the stackup
-  - drop_off_material: Material to use for ‘Custom’ drop-off material handling
-  - cut_off_material: Material to use for ‘Custom’ cut-off material handling
-  - draping_material_model: Material model for draping, either ‘woven’ or ‘unidirectional’
-  - draping_ud_coefficient: Coefficient for the unidirectional draping material model
+  - name: Name for the Stackup.
+  - fabrics: Fabrics of the Stackup.
+  - area_price: Area Price of the Stackup.
+  - symmetry: Symmetry the Stackup can be ‘No Symmetry’, ‘Even Symmetry’, or ‘Odd Symmetry’.
+  - layup_sequence: Layup sequence of the Stackup can be ‘Top-Down’ or ‘Bottom-Up’.
+  - drop_off_material_handling: Type defining how drop-off material is used in drop-off areas of the stackup.
+  - cut_off_material_handling: Type defining how cut-off material is used in cut-off areas of the stackup.
+  - drop_off_material: Material to use for ‘Custom’ drop-off material handling.
+  - cut_off_material: Material to use for ‘Custom’ cut-off material handling.
+  - draping_material_model: Material model for draping, either ‘woven’ or ‘unidirectional’.
+  - draping_ud_coefficient: Coefficient for the unidirectional draping material model.
 * **Returns:**
-  The created Stackup
+  The created Stackup.
 * **Examples:**
   ```pycon
   >>> material_data = db.models['beam'].material_data
@@ -156,15 +156,15 @@ Create a new Stackup
 
 #### create_sub_laminate(name, id=None, fabrics=None, symmetry='No Symmetry', layup_sequence='Top-Down')
 
-Create a new SubLaminate
+Create a new Sub-Laminate.
 
 * **Parameters:**
-  - name: Name for the Sub Laminate
-  - fabrics: Fabrics of the Sub Laminate
-  - symmetry: Symmetry the Sub Laminate can be ‘No Symmetry’, ‘Even Symmetry’ or ‘Odd Symmetry’
-  - layup_sequence: Layup sequence of the Sub Laminate can be ‘Top-Down’ or ‘Bottom-Up’
+  - name: Name for the Sub-Laminate.
+  - fabrics: Fabrics of the Sub-Laminate.
+  - symmetry: Symmetry the Sub-Laminate can be ‘No Symmetry’, ‘Even Symmetry’ or ‘Odd Symmetry’.
+  - layup_sequence: Layup sequence of the Sub-Laminate can be ‘Top-Down’ or ‘Bottom-Up’.
 * **Returns:**
-  The created SubLaminate
+  The created Sub-Laminate.
 * **Examples:**
   ```pycon
   >>> material_data = db.models['beam'].material_data
@@ -198,15 +198,16 @@ Dictionary with all fabrics defined.
 
 #### find_materials(\*\*properties)
 
-Find materials with the given properties or property ranges
+Find materials with the given properties or property ranges.
 
 * **Parameters:**
   - properties: Arbitrary material properties which must be matched.
-: Note that a single property value can be given as string,
-      number or min-max range
+  
+    Note that a single property value can be given as string,
+      number, or min-max range.
 * **Returns:**
   A list with materials which match the given properties. If nothing
-  matches an empty list is returned.
+  matches, then an empty list is returned.
 * **Examples:**
   ```pycon
   >>> material_data = db.models['model.1'].material_data
@@ -243,7 +244,7 @@ Dictionary with all materials defined.
 
 #### *property* matml_path
 
-Path to MatML file as provided by Workbench EngineeringData
+Path to MatML file as provided by Workbench EngineeringData.
 
 <a id="compolyx.MaterialData.name"></a>
 
@@ -255,7 +256,7 @@ Currently a name is needed for every object in the db tree.
 
 #### serialize()
 
-Serialize to Python string
+Serialize to Python string.
 
 <a id="compolyx.MaterialData.stackups"></a>
 
@@ -273,7 +274,7 @@ Dictionary with all sub laminates defined.
 
 #### *property* unit_system
 
-Unit system of material data, propagated from model
+Unit system of material data, propagated from model.
 
 <a id="material"></a>
 
@@ -341,7 +342,7 @@ Function to delete a specific property set.
 
 #### *property* ext_id
 
-Id of corresponding Material in external source.
+ID of corresponding Material in external source.
 
 <a id="compolyx.Material.is_constant"></a>
 
@@ -359,7 +360,7 @@ True if ply_type is isotropic or isotropic_homogeneous_core.
 
 #### *property* link_path
 
-Root path of the current node in the tree for links to this object
+Root path of the current node in the tree for links to this object.
 
 <a id="compolyx.Material.locked"></a>
 
@@ -383,7 +384,7 @@ List with all available property keys.
 
 #### serialize()
 
-Serialize to Python string
+Serialize to Python string.
 
 <a id="propertyset"></a>
 
@@ -395,7 +396,7 @@ Serialize to Python string
 
 Python PropertySet class.
 
-This class wraps GIL-functionality and adds Python-UI utilities to all material PropertySets (Engineering Constants, Stress Limits, …).
+This class wraps GIL-functionality and adds Python-UI utilities to all material PropertySets (Engineering Constants, Stress Limits, etc.).
 
 * **Examples:**
   ```pycon
@@ -418,7 +419,7 @@ This class wraps GIL-functionality and adds Python-UI utilities to all material 
 Get raw PropertySet data. For puck_constants and woven_characterization the Puck Material Classification can be retrieved.
 
 * **Parameters:**
-  - variables: Optional string of variable to be retrieved (property or envrionment variable). If this string is set to mat_type the Puck Material Classification is returned if available.
+  - variables: Optional string of variable to be retrieved (property or envrionment variable). If this string is set to mat_type, the Puck Material Classification is returned if available.
 * **Returns:**
   - If no variable was specified, all PropertySet raw data will be returned in dictionary-form. If a variable was specified, then only this data will be returned.
 * **Examples:**
@@ -494,7 +495,7 @@ Set constant and variable material data.
 Constant properties can be given as keyword arguments.
 
 * **Parameters:**
-  - props: A dictionary or tuple of two dictionaries defining the data
+  - props: A dictionary or tuple of two dictionaries defining the data.
 * **Examples:**
   ```pycon
   >>> m = db._active_model()
@@ -522,19 +523,19 @@ Constant properties can be given as keyword arguments.
 
 ### *class* compolyx.Fabric(graph, obj, parent=None)
 
-Class to represent fabric
+Class to represent fabric.
 
 <a id="compolyx.Fabric.area_price"></a>
 
 #### *property* area_price
 
-Area price of fabric
+Area price of fabric.
 
 <a id="compolyx.Fabric.area_weight"></a>
 
 #### *property* area_weight
 
-Area weight of fabric
+Area weight of fabric.
 
 <a id="compolyx.Fabric.capture_analysis_plot"></a>
 
@@ -557,10 +558,10 @@ mode.
 Returns the properties of the classical laminate theory:
 
 * **Parameters:**
-  - query: result type
+  - query: Result type.
 * **Options:**
-  - laminate_properties: Young’s, flexural and shear moduli of the laminate
-  - polar_properties: E1, E2  and G12 depending on the laminate orientation
+  - laminate_properties: Young’s, flexural, and shear moduli of the laminate.
+  - polar_properties: E1, E2,  and G12 depending on the laminate orientation.
 * **Example:**
   ```pycon
   >>> fab.clt_query(query='polar_properties')
@@ -570,13 +571,13 @@ Returns the properties of the classical laminate theory:
 
 #### create_plot(query={'polar_properties': ['E1', 'G12']})
 
-Generates 2D-plots with the results of interest
+Generates 2D-plots with the results of interest.
 
 * **Parameters:**
-  - query: query arguments
+  - query: Query arguments
 * **Options:**
   - layup: [‘pp’] Production plies
-  - polar_properties: [‘E1’,’E2’,’G12’] polar plot of laminate stiffess
+  - polar_properties: [‘E1’,’E2’,’G12’] Polar plot of laminate stiffess.
   - text_plot: [‘materials’, ‘angles’, ‘thicknesses’]
 * **Examples:**
   ```pycon
@@ -593,7 +594,7 @@ Cut-off material used in cut-off areas of this fabric.
 
 #### *property* cut_off_material_handling
 
-Type defining how cut-off material is used in cut-off areas of this fabric. Types: [‘Computed’, ‘Global’, ‘Custom’]
+Type defining how cut-off material is used in cut-off areas of this fabric. Types: [‘Computed’, ‘Global’, ‘Custom’].
 
 <a id="compolyx.Fabric.draping_material_model"></a>
 
@@ -605,7 +606,7 @@ Draping material model.
 
 #### *property* draping_ud_coefficient
 
-UD draping coefficient
+UD draping coefficient.
 
 <a id="compolyx.Fabric.drop_off_material"></a>
 
@@ -617,7 +618,7 @@ Drop-off material used in drop-off areas of this fabric.
 
 #### *property* drop_off_material_handling
 
-Type defining how drop-off material is used in drop-off areas of this fabric. Types: [‘Global’, ‘Custom’]
+Type defining how drop-off material is used in drop-off areas of this fabric. Types: [‘Global’, ‘Custom’].
 
 <a id="compolyx.Fabric.graph_plot"></a>
 
@@ -629,7 +630,7 @@ Graph Plot object used to configure 2D plots.
 
 #### *property* ignore_for_postprocessing
 
-Flag if this material is NOT post-processed.
+Flag if this material is NOT postprocessed.
 
 <a id="compolyx.Fabric.is_constant"></a>
 
@@ -641,27 +642,27 @@ Returns True if all engineering constants and strength limits of the assigned ma
 
 #### *property* material
 
-Material of the fabric
+Material of the fabric.
 
 <a id="compolyx.Fabric.serialize"></a>
 
 #### serialize()
 
-Serialize to Python string
+Serialize to Python string.
 
 <a id="compolyx.Fabric.thickness"></a>
 
 #### *property* thickness
 
-Thickness of fabric
+Thickness of fabric.
 
 <a id="compolyx.Fabric.update_plot"></a>
 
 #### update_plot()
 
-Updates the 2D plot
+Updates the 2D plot.
 
-Note: The coupling effect is always neglected (which is anyway 0 for a single fabric)
+Note: The coupling effect is always neglected (which is anyways 0 for a single fabric).
 
 <a id="stackup"></a>
 
@@ -671,25 +672,25 @@ Note: The coupling effect is always neglected (which is anyway 0 for a single fa
 
 ### *class* compolyx.Stackup(graph, obj, parent=None)
 
-Class to represent stack-up
+Class to represent stack-up.
 
 <a id="compolyx.Stackup.add_fabric"></a>
 
 #### add_fabric(fabric, angle=0.0)
 
-Add fabric at end of fabrics of the Stackup
+Add fabric at end of fabrics of the Stackup.
 
 <a id="compolyx.Stackup.area_price"></a>
 
 #### *property* area_price
 
-Price per area of the Stackup
+Price per area of the Stackup.
 
 <a id="compolyx.Stackup.area_weight"></a>
 
 #### *property* area_weight
 
-Area weight of the Stackup
+Area weight of the Stackup.
 
 <a id="compolyx.Stackup.capture_analysis_plot"></a>
 
@@ -709,22 +710,22 @@ mode.
 
 #### clear_fabrics()
 
-Clear all fabrics
+Clear all fabrics.
 
 <a id="compolyx.Stackup.clt_query"></a>
 
 #### clt_query(query='laminate_properties')
 
-Returns the properties of the classical laminate theory
+Returns the properties of the classical laminate theory.
 
 * **Parameters:**
-  - query: query parameters
+  - query: Query parameters.
 * **Options:**
   - layup: Return the layup
-  - laminate_properties: Young’s, flexural and shear moduli of the laminate
-  - polar_properties: E1, E2  and G12 depending on the laminate orientation
-  - stiffness_matrix: Returns the laminate stiffness matrix (ABD)
-  - compliance_matrix: Returns the lamiante compliance matrix (inverse of ABD)
+  - laminate_properties: Young’s, flexural, and shear moduli of the laminate.
+  - polar_properties: E1, E2,  and G12 depending on the laminate orientation.
+  - stiffness_matrix: Returns the laminate stiffness matrix (ABD).
+  - compliance_matrix: Returns the lamiante compliance matrix (inverse of ABD).
 * **Example:**
   ```pycon
   >>> stackup.clt_query(query='laminate_properties')
@@ -734,15 +735,15 @@ Returns the properties of the classical laminate theory
 
 #### create_plot(query={'layup': ['pp', 'ap'], 'polar_properties': ['E1', 'G12']}, core_scale_factor=None)
 
-Generates 2D-plots with the results of interest
+Generates 2D-plots with the results of interest.
 
 * **Parameters:**
-  - query: Query parameters
+  - query: Query parameters.
   - core_scale_factor: Scale core thickness by this value.
 * **Options:**
-  - layup: [‘pp’, ‘ap’] Production Ply and Analysis Plies
-  - polar_properties: [‘E1’,’E2’,’G12’] polar plot of laminate stiffesses
-  - text_plot: [‘materials’,’angles’,’thicknesses’] property to show as label in the layup plot
+  - layup: [‘pp’, ‘ap’] Production Ply and Analysis Plies.
+  - polar_properties: [‘E1’,’E2’,’G12’] Polar plot of laminate stiffesses.
+  - text_plot: [‘materials’,’angles’,’thicknesses’] Property to show as label in the layup plot.
 * **Examples:**
   ```pycon
   >>> query={'polar_properties':['E1', 'G12'], layup:['pp'], text_plot:['materials']}
@@ -758,7 +759,7 @@ Cut-off material used in cut-off areas of this Stackup.
 
 #### *property* cut_off_material_handling
 
-Type defining how cut-off material is used in cut-off areas of this stackup. Types: [‘Computed’, ‘Global’, ‘Custom’]
+Type defining how cut-off material is used in cut-off areas of this stackup. Types: [‘Computed’, ‘Global’, ‘Custom’].
 
 <a id="compolyx.Stackup.draping_material_model"></a>
 
@@ -770,7 +771,7 @@ Draping material model.
 
 #### *property* draping_ud_coefficient
 
-UD Draping Coefficient
+UD Draping Coefficient.
 
 <a id="compolyx.Stackup.drop_off_material"></a>
 
@@ -782,13 +783,13 @@ Drop-off material used in drop-off areas of this Stackup.
 
 #### *property* drop_off_material_handling
 
-Type defining how drop-off material is used in drop-off areas of this stackup. Types: [‘Global’, ‘Custom’]
+Type defining how drop-off material is used in drop-off areas of this stackup. Types: [‘Global’, ‘Custom’].
 
 <a id="compolyx.Stackup.fabrics"></a>
 
 #### *property* fabrics
 
-Fabrics property of the Stackup
+Fabrics property of the Stackup.
 
 <a id="compolyx.Stackup.get_ordered_fabrics"></a>
 
@@ -806,7 +807,7 @@ Graph Plot object used to configure 2D plots.
 
 #### insert_fabric(pos, fabric, angle)
 
-Insert fabric at given position
+Insert fabric at given position.
 
 <a id="compolyx.Stackup.is_constant"></a>
 
@@ -818,40 +819,40 @@ Returns True if all engineering constants and strength limits of the assigned fa
 
 #### *property* layup_sequence
 
-Layup Sequence of the Stackup can be ‘Top-Down’ or ‘Bottom-Up’
+Layup Sequence of the Stackup, can be ‘Top-Down’ or ‘Bottom-Up’.
 
 <a id="compolyx.Stackup.remove_fabric"></a>
 
 #### remove_fabric(pos)
 
-Remove fabric from position
+Remove fabric from position.
 
 * **Parameters:**
-  - pos: Position of the Fabric to remove
+  - pos: Position of the Fabric to remove.
 
 <a id="compolyx.Stackup.serialize"></a>
 
 #### serialize()
 
-Serialize to Python string
+Serialize to Python string.
 
 <a id="compolyx.Stackup.symmetry"></a>
 
 #### *property* symmetry
 
-Symmetry of the Stackup can be ‘No Symmetry’, ‘Even Symmetry’ or ‘Odd Symmetry’
+Symmetry of the Stackup can be ‘No Symmetry’, ‘Even Symmetry’, or ‘Odd Symmetry’.
 
 <a id="compolyx.Stackup.thickness"></a>
 
 #### *property* thickness
 
-Thickness of the Stackup
+Thickness of the Stackup.
 
 <a id="compolyx.Stackup.update_plot"></a>
 
 #### update_plot()
 
-updates the data of the 2D plot
+updates the data of the 2D plot.
 
 <a id="sublaminate"></a>
 
@@ -861,25 +862,25 @@ updates the data of the 2D plot
 
 ### *class* compolyx.SubLaminate(graph, obj, parent=None)
 
-Class to represent sub-laminate
+Class to represent sub-laminate.
 
 <a id="compolyx.SubLaminate.add_fabric"></a>
 
 #### add_fabric(fabric, angle=0.0)
 
-Add fabric at end of fabrics list
+Add fabric at end of fabrics list.
 
 <a id="compolyx.SubLaminate.area_price"></a>
 
 #### *property* area_price
 
-Price per area of the Sub Laminate
+Price per area of the Sub-Laminate.
 
 <a id="compolyx.SubLaminate.area_weight"></a>
 
 #### *property* area_weight
 
-Area weight of the Sub Laminate
+Area weight of the Sub-Laminate.
 
 <a id="compolyx.SubLaminate.capture_analysis_plot"></a>
 
@@ -899,22 +900,22 @@ mode.
 
 #### clear_fabrics()
 
-Clear all fabrics
+Clear all fabrics.
 
 <a id="compolyx.SubLaminate.clt_query"></a>
 
 #### clt_query(query='laminate_properties')
 
-Returns the properties of the classical laminate theory
+Returns the properties of the classical laminate theory.
 
 * **Parameters:**
-  - query: result type
+  - query: Result type.
 * **Options:**
-  - layup: Return the layup of the laminate
-  - laminate_properties: Young’s, flexural and shear moduli of the laminate
-  - polar_properties: E1, E2  and G12 depending on the laminate orientation
-  - stiffness_matrix: Returns the laminate stiffness matrix (ABD)
-  - compliance_matrix: Returns the lamiante compliance matrix (inverse of ABD)
+  - layup: Return the layup of the laminate.
+  - laminate_properties: Young’s, flexural, and shear moduli of the laminate.
+  - polar_properties: E1, E2,  and G12 depending on the laminate orientation.
+  - stiffness_matrix: Returns the laminate stiffness matrix (ABD).
+  - compliance_matrix: Returns the lamiante compliance matrix (inverse of ABD).
 * **Example:**
   ```pycon
   >>> sub.clt_query(query='layup')
@@ -924,15 +925,15 @@ Returns the properties of the classical laminate theory
 
 #### create_plot(query={'layup': ['mp', 'pp', 'ap'], 'polar_properties': ['E1', 'G12']}, core_scale_factor=None)
 
-Generates 2D-plots with the results of interest
+Generates 2D-plots with the results of interest.
 
 * **Parameters:**
-  - query: query parameters
+  - query: Query parameters.
   - core_scale_factor: Scale core thickness by this value.
 * **Options:**
-  - layup: [‘mp’, ‘pp’, ‘ap’] Modeling Ply, Production Plies and Analysis Plies
-  - polar_properties: [‘E1’,’E2’,’G12’] polar plot of laminate stiffesses
-  - text_plot: [‘materials’,’thicknesses’,’angles’] text plot shown in the layup plot
+  - layup: [‘mp’, ‘pp’, ‘ap’] Modeling Ply, Production Plies and Analysis Plies.
+  - polar_properties: [‘E1’,’E2’,’G12’] Polar plot of laminate stiffesses.
+  - text_plot: [‘materials’,’thicknesses’,’angles’] Text plot shown in the layup plot.
 * **Example:**
   ```pycon
   >>> query={'polar_properties':['E1', 'G12'], layup:['pp'], text_plot:['materials']}
@@ -942,7 +943,7 @@ Generates 2D-plots with the results of interest
 
 #### *property* fabrics
 
-Fabrics property of the Sub Laminate
+Fabrics property of the Sub-Laminate.
 
 <a id="compolyx.SubLaminate.get_ordered_fabrics"></a>
 
@@ -966,7 +967,7 @@ Graph Plot object used to configure 2D plots.
 
 #### insert_fabric(pos, fabric, angle)
 
-Insert fabric at given position
+Insert fabric at given position.
 
 <a id="compolyx.SubLaminate.is_constant"></a>
 
@@ -978,34 +979,34 @@ Returns True if all engineering constants and strength limits of the assigned fa
 
 #### *property* layup_sequence
 
-Layup Sequence of the Sub Laminate can be ‘Top-Down’ or ‘Bottom-Up’
+Layup Sequence of the Sub Laminate, can be ‘Top-Down’ or ‘Bottom-Up’.
 
 <a id="compolyx.SubLaminate.remove_fabric"></a>
 
 #### remove_fabric(pos)
 
-Remove fabric from position
+Remove fabric from position.
 
 <a id="compolyx.SubLaminate.serialize"></a>
 
 #### serialize()
 
-Serialize to Python string
+Serialize to Python string.
 
 <a id="compolyx.SubLaminate.symmetry"></a>
 
 #### *property* symmetry
 
-Symmetry of the Sub Laminate can be ‘No Symmetry’, ‘Even Symmetry’ or ‘Odd Symmetry’
+Symmetry of the Sub Laminate can be ‘No Symmetry’, ‘Even Symmetry’, or ‘Odd Symmetry’.
 
 <a id="compolyx.SubLaminate.thickness"></a>
 
 #### *property* thickness
 
-Thickness of the Sub Laminate
+Thickness of the Sub-Laminate.
 
 <a id="compolyx.SubLaminate.update_plot"></a>
 
 #### update_plot()
 
-Updates the data of the 2D plot
+Updates the data of the 2D plot.

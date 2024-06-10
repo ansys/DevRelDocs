@@ -8,7 +8,7 @@
 
 ### *class* compolyx.Model(name=None, path=None, format=None, ignored_entities=None, graph=None, parent=None, convert_section_data=False, unit_system_type=None, reference_surface_input_unit_system_type=None, cache_data=False)
 
-Class to represent a finite element model
+Class to represent a finite element model.
 
 Access:
 
@@ -28,30 +28,30 @@ Get existing model:
 
 #### *property* active_scene
 
-Active Scene
+Active Scene.
 
 <a id="compolyx.Model.add_solution"></a>
 
 #### add_solution(name, id='', path=None, path2=None, format='ansys:rst', subcase=(False, 0), set=-1, load_factor=(False, 0.0), read_stresses_strains=True, use_felyx_to_compute_pp_results=True, use_solid_results=True, recompute_iss_of_solids=False, renumbering_mapping_paths=[], ext_id='', active=True)
 
-Load a nodal solution from file(s) and add it to the model
+Load a nodal solution from file(s) and add it to the model.
 
 * **Parameters:**
-  - name: Custom name of the solution
-  - path: Path to the data file
+  - name: Custom name of the solution.
+  - path: Path to the data file.
   - path2: Optional path to second result file. Useful for ANSYS PRNSOL solution, where nodal deformations and nodal rotations can be exported to different files only.
-  - format: File format string. Choose one of ‘abaqus:fieldreport’, ‘ansys:prnsol’,’ansys:rst’ or ‘nastran:f06’
+  - format: File format string. Choose one of ‘abaqus:fieldreport’, ‘ansys:prnsol’, ’ansys:rst’, or ‘nastran:f06’.
   - subcase: Optional subcase to read. Only valid for ‘nastran:f06’ format. (False,0) if not given in the F06 file.
   - load_factor: Optional load factor within substep of non-linear solution where the nodal solution should be taken from. Only valid for ‘nastran:f06’ format. (False,0) if not given in the F06 file.
-  - set: Result set for ANSYS RST files, None is last result set
-  - read_stresses_strains: Reads strain and stress results from the RST file (necessary to post-process non-linear solutions)
-  - ‘use_felyx_to_compute_pp_results’: Use ACP to compute strain and stress data
-  - use_solid_results: Mapps solid element solution onto ‘Layered Solid Reference Surface’
-  - recompute_iss_of_solids: For solids the interlaminar shear stresses are recalculated considering the laminate stacking
-  - renumbering_mapping_paths: List of paths of the assembly renumbering files used to map the results of composite assemblies
-  - active: Active/inactive flag
+  - set: Result set for ANSYS RST files. None is last result set.
+  - read_stresses_strains: Reads strain and stress results from the RST file (necessary to postprocess non-linear solutions).
+  - ‘use_felyx_to_compute_pp_results’: Use ACP to compute strain and stress data.
+  - use_solid_results: Maps solid element solution onto ‘Layered Solid Reference Surface’.
+  - recompute_iss_of_solids: For solids the interlaminar shear stresses are recalculated considering the laminate stacking.
+  - renumbering_mapping_paths: List of paths of the assembly renumbering files used to map the results of composite assemblies.
+  - active: Active/inactive flag.
 * **Returns:**
-  The new Solution instance just added to the model
+  The new Solution instance just added to the model.
 
 <a id="compolyx.Model.add_winding_entities"></a>
 
@@ -64,58 +64,57 @@ the axial_direction and the reference radius
 to automatically generate a winding layup for an axisymmetric body.
 The radius is defined as the minimal distance from any point on the surface
 to the axis of symmetry. The reference radius is equal to the radius, where
-the layers have the nominal thickness and angle. For a typical winding body this is
+the layers have the nominal thickness and angle. For a typical winding body, this is
 the radius in the cylindrical region.
 
-The thickness correction of each layer is calculated with
+The thickness correction of each layer is calculated with:
 thickness_correction = reference_radius / radius
 
 The angle is calculated based on a geodesic path for which radius\*sin(angle) is constant:
+
 angle = arcsin( const / radius) if const / radius in [-1,1]
+
 angle = sign(angle) \* 90° otherwise
 
 with const = reference_radius \* sin(nominal_angle)
 
 Each layer is a dict with the following properties:
-  * fabric: Fabric of the layer (Stackups and Sublaminates are not supported)
-  * angle: Nominal angle at Reference Radius with respect to the axis of symmetry (in degree)
+  * fabric: Fabric of the layer (Stackups and Sublaminates are not supported).
+  * angle: Nominal angle at Reference Radius with respect to the axis of symmetry (in degree).
   * selection_rule_limits: A dictionary with the entries “upper” and “lower”
     that define the extent of the plies in axial direction.
     The “upper” and “lower” values are interpreted as distance from the origin along
     the axial_direction.
   * add_mirrored_ply: If True, an addtional layer with the same properties but
     a negative angle is generated. This implies that the resulting thickness is
-    twice the original thickness of the layer
+    twice the original thickness of the layer.
 
 The function generates the following objects:
-  - A cylindrical Rosette
+  - A cylindrical Rosette.
   - An Oriented Selection Set which defines a reference direction along the axial
-    direction of the axisymmetric body
-  - A Lookup Table with the thickness corrections and angles
-  - A template Selection Rule if limits are defined
-  - A Modeling Group with the Plies
+    direction of the axisymmetric body.
+  - A Lookup Table with the thickness corrections and angles.
+  - A template Selection Rule if limits are defined.
+  - A Modeling Group with the Plies.
 
 * **Parameters:**
-  - axial_direction: Direction vector for the axis of symmetry
-  - origin: Point on the axis of symmetry
-  - reference radius: Reference radius at which the plies are assumed to have the
-: nominal angle and the nominal thickness
+  - axial_direction: Direction vector for the axis of symmetry.
+  - origin: Point on the axis of symmetry.
+  - reference radius: Reference radius at which the plies are assumed to have the nominal angle and the nominal thickness.
   - layers: List of dicts with the following entries:
-: - fabric: Fabric of the layer (Stackups and Sublaminates are not supported)
-      - angle: Nominal angle at Reference Radius with respect to the axis of symmetry (in degree)
+      - fabric: Fabric of the layer (Stackups and Sublaminates are not supported).
+      - angle: Nominal angle at Reference Radius with respect to the axis of symmetry (in degree).
       - selection_rule_limits: A dictionary with the entries “upper” and “lower”
         that define the extent of the plies in axial direction.
         The “upper” and “lower” values are interpreted as distance from the origin along
         the axial_direction.
-      - add_mirrored_ply: If True an addtional layer with the same properties but
+      - add_mirrored_ply: If True, an addtional layer with the same properties but
         a negative angle is generated. This implies that the resulting thickness is
-        twice the original thickness of the layer
-  - number_of_digits_angle, optional, default: 3: Lookup tables for the angles are
-: shared between different layers with similar angles.
+        twice the original thickness of the layer.
+  - number_of_digits_angle, optional, default: 3: Lookup tables for the angles are shared between different layers with similar angles.
       Angles which are equal until number_of_digits_angle after the
       decimal point share the same lookup table.
-  - max_angle_with_thickness_correction: The thickness for layers where abs(angle) >
-: max_angle_with_thickness_correction is not
+  - max_angle_with_thickness_correction: The thickness for layers where abs(angle) > max_angle_with_thickness_correction is not
       corrected. These layers always have the nominal
       layer thickness.
 * **Usage:**
@@ -137,25 +136,25 @@ The function generates the following objects:
   ```
   
 * **Returns:**
-  Dict of generated objects
+  Dict of generated objects.
 
 <a id="compolyx.Model.analysis_model_path"></a>
 
 #### *property* analysis_model_path
 
-Analysis model file path
+Analysis model file path.
 
 <a id="compolyx.Model.angle_tolerance"></a>
 
 #### *property* angle_tolerance
 
-Section computation angle tolerance (in degree)
+Section computation angle tolerance (in degree).
 
 <a id="compolyx.Model.average_element_size"></a>
 
 #### average_element_size()
 
-Average element size of the model
+Average element size of the model.
 
 <a id="compolyx.Model.cache_update_results"></a>
 
@@ -167,235 +166,235 @@ Define whether to store the update results or not.
 
 #### copy_combined_failure_criteria(source)
 
-Copy a Combined Failure Criteria Definition
+Copy a Combined Failure Criteria Definition.
 
 * **Parameters:**
-  - source: Source object to copy
+  - source: Source object to copy.
 * **Returns:**
-  New instance of Combined Failure Criteria Definition
+  New instance of Combined Failure Criteria Definition.
 
 <a id="compolyx.Model.copy_edge_set"></a>
 
 #### copy_edge_set(source)
 
-Copy an edge set
+Copy an edge set.
 * **Parameters:**
-  - source: Source object to copy
+  - source: Source object to copy.
 
 * **Returns:**
-  New instance of edge set
+  New instance of edge set.
 
 <a id="compolyx.Model.copy_element_set"></a>
 
 #### copy_element_set(source)
 
-Copy a element set
+Copy an element set.
 
 * **Parameters:**
-  - source: Source object to copy
+  - source: Source object to copy.
 * **Returns:**
-  New instance of element set
+  New instance of element set.
 
 <a id="compolyx.Model.copy_field_definition"></a>
 
 #### copy_field_definition(source)
 
-Copy a FieldDefinition
+Copy a FieldDefinition.
 
 * **Parameters:**
-  - source: Source object to copy
+  - source: Source object to copy.
 * **Returns:**
-  New instance of FieldDefinition
+  New instance of FieldDefinition.
 
 <a id="compolyx.Model.copy_lookup_table"></a>
 
 #### copy_lookup_table(source)
 
-Copy a Look-up Table
+Copy a Look-up Table.
 
 * **Parameters:**
-  - source: Source object to copy
+  - source: Source object to copy.
 * **Returns:**
-  New instance of a Look-Up Table
+  New instance of a Look-Up Table.
 
 <a id="compolyx.Model.copy_oriented_selection_set"></a>
 
 #### copy_oriented_selection_set(source)
 
-Copy an oriented element set
+Copy an oriented element set.
 
 * **Parameters:**
-  - source: Source object to copy
+  - source: Source object to copy.
 * **Returns:**
-  New instance of oriented element set
+  New instance of oriented element set.
 
 <a id="compolyx.Model.copy_rosette"></a>
 
 #### copy_rosette(source)
 
-Copy a Rosette
+Copy a Rosette.
 
 * **Parameters:**
-  - source: Source object to copy
+  - source: Source object to copy.
 * **Returns:**
-  New instance of Rosette
+  New instance of Rosette.
 
 <a id="compolyx.Model.copy_sampling_point"></a>
 
 #### copy_sampling_point(source)
 
-Copy a sampling point
+Copy a sampling point.
 
 * **Parameters:**
-  - source: Source object to copy
+  - source: Source object to copy.
 * **Returns:**
-  New instance of a sampling point
+  New instance of a sampling point.
 
 <a id="compolyx.Model.copy_section_cut"></a>
 
 #### copy_section_cut(source)
 
-Copy a section cut
+Copy a section cut.
 
 * **Parameters:**
-  - source: Source object to copy
+  - source: Source object to copy.
 * **Returns:**
-  New instance of a section cut
+  New instance of a section cut.
 
 <a id="compolyx.Model.copy_selection_rule"></a>
 
 #### copy_selection_rule(source)
 
-Copy a rule
+Copy a rule.
 
 * **Parameters:**
-  - source: Source object to copy
+  - source: Source object to copy.
 * **Returns:**
-  New instance of rule
+  New instance of rule.
 
 <a id="compolyx.Model.copy_sensor"></a>
 
 #### copy_sensor(source)
 
-Copy a sensor
+Copy a sensor.
 
 * **Parameters:**
-  - source: Source object to copy
+  - source: Source object to copy.
 * **Returns:**
-  New instance of a sensor
+  New instance of a sensor.
 
 <a id="compolyx.Model.copy_solid_model"></a>
 
 #### copy_solid_model(source)
 
-Copy a solid model
+Copy a solid model.
 
 * **Parameters:**
-  - source: Source object to copy
+  - source: Source object to copy.
 * **Returns:**
-  New instance of a solid model
+  New instance of a solid model.
 
 <a id="compolyx.Model.create_boolean_selection_rule"></a>
 
 #### create_boolean_selection_rule(name, id=None, include_rule_type=True, selection_rules=[])
 
-Create new Boolean Selection Rule
+Create new Boolean Selection Rule.
 
 * **Parameters:**
-  - name: Name of the Rule
-  - id: ID of the Rule
-  - include_rule_type: Whether the rule is of type include or exlude
-  - selection_rules: list of tuples of attached rules and operation type
+  - name: Name of the Rule.
+  - id: ID of the Rule.
+  - include_rule_type: Whether the rule is of type include or exlude.
+  - selection_rules: List of tuples of attached rules and operation type.
 * **Returns:**
-  The created Boolean Selection Rule
+  The created Boolean Selection Rule.
 
 <a id="compolyx.Model.create_combined_failure_criteria"></a>
 
 #### create_combined_failure_criteria(name, set=[], id=None)
 
-Create Combined Failure Criteria
+Create Combined Failure Criteria.
 
 * **Parameters:**
-  - name: Name for the Combined Failure Criteria
-  - set: set of Failure Criteria to be assigned
-  - id: id to be assigned (optional)
+  - name: Name for the Combined Failure Criteria.
+  - set: Set of Failure Criteria to be assigned.
+  - id: ID to be assigned (optional).
 * **Returns:**
-  - created Combined Failure Criteria
+  - Created Combined Failure Criteria.
 
 <a id="compolyx.Model.create_cutoff_selection_rule"></a>
 
 #### create_cutoff_selection_rule(name, id=None, cutoff_rule_type='geometry', offset=0.0, angle=0.0, origin=(0.0, 0.0, 0.0), direction=(1.0, 0.0, 0.0), distance_type='along_direction', ply_cutoff_type='production_ply_cutoff', ply_tapering=False, cutoff_geometry=None, edge_set=None, offset_method='laminate_stack', offset_type='out_of_plane')
 
-Create new Cut-Off Rule
+Create new Cut-Off Rule.
 
 * **Parameters:**
-  - name: Name of the rule
-  - cutoff_rule_type: geometry, taper, or variable_taper
-  - offset: Offset of the rule (float for cutoff_rule_type=\`geometry\` or taper, LookUpTableColumn for cutoff_rule_type=\`variable_taper\`)
-  - angle: Angle of the rule (ignored for cutoff_rule_type=\`geometry\`, float for taper, LookUpTableColumn for variable_taper)
-  - origin: Origin of the offset and angle interpolation for variable_taper
-  - direction: Direction of the offset and angle interpolation for variable_taper
-  - distance_type: along_direction or along_edge (only relevant for variable_taper)
+  - name: Name of the rule.
+  - cutoff_rule_type: geometry, taper, or variable_taper.
+  - offset: Offset of the rule (float for cutoff_rule_type=\`geometry\` or taper, LookUpTableColumn for cutoff_rule_type=\`variable_taper\`).
+  - angle: Angle of the rule (ignored for cutoff_rule_type=\`geometry\`, float for taper, LookUpTableColumn for variable_taper).
+  - origin: Origin of the offset and angle interpolation for variable_taper.
+  - direction: Direction of the offset and angle interpolation for variable_taper.
+  - distance_type: along_direction or along_edge (only relevant for variable_taper).
   - ply_cutoff_type: Determines on which ply level the cutoff is done.
-  - ply_tapering: Use ply tapering
-  - cutoff_geometry: CADGeometry for the rule (only relevant for cutoff_rule_type=\`geometry\`)
-  - edge_set: Edge Set for cutoff_rule_type=\`taper\` or variable_taper
-  - offset_method: Method to compute offset of plies laminate_stack or attached_plies
-  - offset_type: Measure offset from edge set normal to element reference surface (out_of_plane) or in element reference surface (in_plane)
+  - ply_tapering: Use ply tapering.
+  - cutoff_geometry: CADGeometry for the rule (only relevant for cutoff_rule_type=\`geometry\`).
+  - edge_set: Edge Set for cutoff_rule_type=\`taper\` or variable_taper.
+  - offset_method: Method to compute offset of plies laminate_stack or attached_plies.
+  - offset_type: Measure offset from edge set normal to element reference surface (out_of_plane) or in element reference surface (in_plane).
 * **Returns:**
-  The created rule
+  The created rule.
 
 <a id="compolyx.Model.create_cylindrical_selection_rule"></a>
 
 #### create_cylindrical_selection_rule(name, id=None, origin=None, direction=None, radius=None, relative_rule_type=False, include_rule_type=True, rosette=None, use_global_coordinate_system=None)
 
-Create new Cylindrical Selection Rule
+Create new Cylindrical Selection Rule.
 
 * **Parameters:**
-  - name: Name of the rule
-  - origin: Origin of the Cylindircal Rule
-  - direction: Direction of the Cylindircal Rule
-  - radius: Radius of the Cylindircal Rule
-  - relative_rule_type: If True parameters are evaluated relative to size of the object
-  - include_rule_type: Include or Exclude area in rule
-  - use_global_coordinate_system: Use global coordinate system to define rule parameters
-  - rosette: Rosette used if use_global_coordinate_system is False
+  - name: Name of the rule.
+  - origin: Origin of the Cylindircal Rule.
+  - direction: Direction of the Cylindircal Rule.
+  - radius: Radius of the Cylindircal Rule.
+  - relative_rule_type: If True parameters are evaluated relative to size of the object.
+  - include_rule_type: Include or Exclude area in rule.
+  - use_global_coordinate_system: Use global coordinate system to define rule parameters.
+  - rosette: Rosette used if use_global_coordinate_system is False.
 * **Returns:**
-  The created Cylindircal Rule
+  The created Cylindircal Rule.
 
 <a id="compolyx.Model.create_edge_set"></a>
 
 #### create_edge_set(name, id=None, origin=(0.0, 0.0, 0.0), limit_angle=-1.0, edge_set_type='By Reference', element_set=None, node_labels=[], show=False)
 
-Create new Edge Set
+Create new Edge Set.
 
 * **Parameters:**
-  - name: Name of the Edge Set
-  - edge_set_type: ‘By Nodes’, ‘By Reference’, ‘Imported’ (only for imported Edge Sets)
-  - origin: Origin
+  - name: Name of the Edge Set.
+  - edge_set_type: ‘By Nodes’, ‘By Reference’, ‘Imported’ (only for imported Edge Sets).
+  - origin: Origin.
   - limit_angle:
-  - element_set: element set
-  - node_labels: list of nodes defining the edge set (only if edge_set_type=’By Nodes’)
+  - element_set: Element set.
+  - node_labels: List of nodes defining the edge set (only if edge_set_type=’By Nodes’).
 * **Returns:**
-  The created Edge Set
+  The created Edge Set.
 
 <a id="compolyx.Model.create_element_set"></a>
 
 #### create_element_set(name, id=None, element_labels=None, element_sets=None, x=None, y=None, z=None, op='new', middle_offset=False, show=False)
 
-Create new element set
+Create new element set.
 
 * **Parameters:**
-  - name: Name of the Element Set
-  - element_labels: Labels of elements to be assigned to the Element Set
+  - name: Name of the Element Set.
+  - element_labels: Labels of elements to be assigned to the Element Set.
   - element_sets: Select elements of these sets
-  - x: X-range to select.
-  - y: Y-range to select.
-  - z: Z-range to select.
+    - x: X-range to select.
+    - y: Y-range to select.
+    - z: Z-range to select.
   - op: Select operation. Can be all, new (default), add, remove, intersect, inverse or none
   - middle_offset: Boolean to enforce that the laminate mid-plane is moved onto the reference surface.
 * **Returns:**
-  The created Element Set
+  The created Element Set.
 
 If element set already exists, it is updated depending on the operation given in op.
 
@@ -403,85 +402,85 @@ If element set already exists, it is updated depending on the operation given in
 
 #### create_envelope_solution(name, id=None, solution_sets=[])
 
-Create Envelope Solution
+Create Envelope Solution.
 
 * **Parameters:**
-  - name: Name for the Envelope Solution
-  - solution_sets: list of Solution Sets that are combined
+  - name: Name for the Envelope Solution.
+  - solution_sets: List of Solution Sets that are combined.
 * **Returns:**
-  The new envelope solution object
+  The new envelope solution object.
 
 <a id="compolyx.Model.create_field_definition"></a>
 
 #### create_field_definition(name, id=None, field_variable_name=None, scope_entities=None, scalar_field=None, full_mapping=False, active=True, locked=False)
 
-Create a new Field Definition
+Create a new Field Definition.
 
 * **Parameters:**
-  - name: The name of the oriented element set
-  - id: The id of the oriented element set.
-  - field_variable: String identifier of the field
-  - scope_entities: A list of scope entities defining the region of definition
-  - scalar_field: Tabular scalar column defining the field
-  - full_mapping: Bool. Whether offsets are to be included during the interpolation process
+  - name: The name of the oriented element set.
+  - id: The ID of the oriented element set.
+  - field_variable: String identifier of the field.
+  - scope_entities: A list of scope entities defining the region of definition.
+  - scalar_field: Tabular scalar column defining the field.
+  - full_mapping: Boolean. Whether offsets are to be included during the interpolation process.
 * **Returns:**
-  The created Field Definition
+  The created Field Definition.
 
 <a id="compolyx.Model.create_geometrical_selection_rule"></a>
 
 #### create_geometrical_selection_rule(name, geometrical_rule_type='geometry', id=None, use_defaults=True, in_plane_capture_tolerance=0.0, neg_capture_tolerance=0.0, pos_capture_tolerance=0.0, include_rule_type=True, geometry=None, use_projection_normal=False, projection_normal=(0.0, 0.0, 0.0), element_sets=None)
 
-Create new Geometrical Selection Rule
+Create new Geometrical Selection Rule.
 
 * **Parameters:**
-  - name: Name of the Rule
+  - name: Name of the Rule.
   - geometrical_rule_type: Define whether the rule extent is defined by a geometry of element sets. The value can be ‘geometry’ or ‘element_sets’. Default is ‘geometry.
   - use_defaults: Whether to use the offset value of the CAD geometry.
   - in_plane_capture_tolerance: In-plane extend (extend) if CAD geometry is a surface.
   - neg_capture_tolerance: Offset in the negative direction if CAD geometry is a surface.
   - pos_capture_tolerance: Offset in the positive direction if CAD geometry is a surface.
-  - include_rule_type: Whether the selection is inside or outside the CAD geometry
-  - geometry: CAD geometry used to determine the selection (only relevant for geometrical_rule_type=\`geometry\`)
+  - include_rule_type: Whether the selection is inside or outside the CAD geometry.
+  - geometry: CAD geometry used to determine the selection (only relevant for geometrical_rule_type=\`geometry\`).
   - use_projection_normal: Boolean wheter to use the projection normal or not.
-  - projection_normal: Normal direction used to map elements on outlines / curves
-  - element_sets: Preselection of elements in the form of an element set where the rule is applied on (only relevant for geometrical_rule_type=\`element_sets\`)
+  - projection_normal: Normal direction used to map elements on outlines / curves.
+  - element_sets: Preselection of elements in the form of an element set where the rule is applied on (only relevant for geometrical_rule_type=\`element_sets\`).
 * **Returns:**
-  The created rule
+  The created rule.
 
 <a id="compolyx.Model.create_imported_solid_model"></a>
 
 #### create_imported_solid_model(name, id='', active=True, external_file_path=None, unit_system='undefined', format='ansys:cdb', ext_id='', use_default_element_index=True, element_index=0, use_default_node_index=True, node_index=0, use_default_section_index=True, section_index=0, use_default_material_index=True, material_index=0, use_default_coordinate_system_index=True, coordinate_system_index=0, use_solsh_elements=False, drop_hanging_nodes=True, use_solid_model_prefix=True, write_degenerated_elements=True, delete_bad_elements=True, warping_limit=0.4, minimum_volume=0.0, global_cut_off_material=None, transfer_all_sets=True, transferred_element_sets=[], transferred_edge_sets=[], locked=False, from_pre=False)
 
-Create a new Solid Model
+Create a new Solid Model.
 
 * **Parameters:**
-  - name: The name of the Solid Model
-  - id: The id of the Solid Model
-  - active: Active status of the solid model
-  - external_file_path: File path to the external source
-  - unit_system: Unit system of the imported mesh
-  - format: File format of the external source
-  - use_default_element_index: consecutive element numbering if set to true
-  - element_index: start index for first element (only relevant if use_default_element_index)
-  - use_default_node_index: consecutive node numbering if set to true
-  - node_index: start index for first node (only relevant if use_default_node_index)
-  - use_default_section_index: consecutive section numbering if set to true
-  - section_index: start index for first element (only relevant if use_default_section_index)
-  - use_default_material_index: consecutive material numbering if set to true
-  - material_index: start index for first element (only relevant if use_default_material_index)
-  - use_default_coordinate_system_index: consecutive coordinate system numbering if set to true
-  - coordinate_system_index: start index for first coordinate system (only relevant if use_default_coordinate_system_index)
-  - use_solsh_elements: the solid model is created out of solsh elements
-  - drop_hanging_nodes: whether to skip mid-side nodes that are not shared by adjacent elements. Only relevant when the object has applies cut-off geometries and a quadratic mesh.
-  - use_solid_model_prefix: the name of the solid model is used as a prefix for all components written to the \*cdb file
-  - write_degenerated_elements: If false, degenerated (homogeneous) elements are not exported
-  - delete_bad_elements: Boolean whether to delete the erroneous elements or not
-  - warping_limit: Warping limit factor used to detect erroneous elements
+  - name: The name of the Solid Model.
+  - id: The ID of the Solid Model.
+  - active: Active status of the solid model.
+  - external_file_path: File path to the external source.
+  - unit_system: Unit system of the imported mesh.
+  - format: File format of the external source.
+  - use_default_element_index: Consecutive element numbering if set to true.
+  - element_index: start index for first element (only relevant if use_default_element_index).
+  - use_default_node_index: Consecutive node numbering if set to true.
+  - node_index: start index for first node (only relevant if use_default_node_index).
+  - use_default_section_index: Consecutive section numbering if set to true.
+  - section_index: start index for first element (only relevant if use_default_section_index).
+  - use_default_material_index: Consecutive material numbering if set to true.
+  - material_index: start index for first element (only relevant if use_default_material_index).
+  - use_default_coordinate_system_index: Consecutive coordinate system numbering if set to true.
+  - coordinate_system_index: Start index for first coordinate system (only relevant if use_default_coordinate_system_index).
+  - use_solsh_elements: The solid model is created out of solsh elements.
+  - drop_hanging_nodes: Whether to skip mid-side nodes that are not shared by adjacent elements. Only relevant when the object has applies cut-off geometries and a quadratic mesh.
+  - use_solid_model_prefix: The name of the solid model is used as a prefix for all components written to the \*cdb file.
+  - write_degenerated_elements: If false, degenerated (homogeneous) elements are not exported.
+  - delete_bad_elements: Boolean whether to delete the erroneous elements or not.
+  - warping_limit: Warping limit factor used to detect erroneous elements.
   - minimum_volume: Minimum volume of solid elements. Default is 0. Elements equal or smaller than this limit are removed from the solid model.
-  - global_cut_off_material: Defines the global cut-off material
-  - transfer_all_sets: defines whether all edge and element sets should be transferred to the solid model.
-  - transferred_element_sets: element sets to transfer to the solid model if transfer_all_sets is set to false.
-  - transferred_edge_sets: edge sets to transfer to the solid model if transfer_all_sets is set to false.
+  - global_cut_off_material: Defines the global cut-off material.
+  - transfer_all_sets: Defines whether all edge and element sets should be transferred to the solid model.
+  - transferred_element_sets: Element sets to transfer to the solid model if transfer_all_sets is set to false.
+  - transferred_edge_sets: Edge sets to transfer to the solid model if transfer_all_sets is set to false.
 * **Returns:**
   The created Imported Solid Model
 
@@ -489,103 +488,102 @@ Create a new Solid Model
 
 #### create_lookup_table1d(name, id='', tabular_data=None, origin=None, direction=None, dimensions=[])
 
-Create a new 1D Look-Up Table object
+Create a new 1D Look-Up Table object.
 
 * **Parameters:**
-  - name: Name
-  - id: ID
+  - name: Name.
+  - id: ID.
 * **Returns:**
-  The created Look-Up Table object
+  The created Look-Up Table object.
 
 <a id="compolyx.Model.create_lookup_table3d"></a>
 
 #### create_lookup_table3d(name, id='', tabular_data=None, algorithm_type='weighted_nearest_neighbor', use_default_search_radius=True, search_radius=0.0, num_min_neighbors=1, dimensions=[])
 
-Create a new 3D Look-Up Table object
+Create a new 3D Look-Up Table object.
 
 * **Parameters:**
-  - name: Name
-  - id: ID
-  - tabular_data: data points and values of the look-up table
-  - algorithm_type: specify which algorithm type is used for the interpolation
-  - use_default_search_radius: force the program to use the default search radius. Used for the algorithm weighted_nearest_neighbor”.
-  - search_radius: set a custom search radius. Used if use_default_search_radius is false. Used for the algorithm weighted_nearest_neighbor.
-  - dimensions: list of the dimensions of the columns (e.g. length for coordinates)
+  - name: Name.
+  - id: ID.
+  - tabular_data: Data points and values of the look-up table.
+  - algorithm_type: Specify which algorithm type is used for the interpolation.
+  - use_default_search_radius: Force the program to use the default search radius. Used for the algorithm weighted_nearest_neighbor”.
+  - search_radius: Set a custom search radius. Used if use_default_search_radius is false. Used for the algorithm weighted_nearest_neighbor.
+  - dimensions: List of the dimensions of the columns (e.g. length for coordinates).
 * **Returns:**
-  The created Look-Up Table object
+  The created Look-Up Table object.
 
 <a id="compolyx.Model.create_oriented_selection_set"></a>
 
 #### create_oriented_selection_set(name, id=None, orientation_point=(0.0, 0.0, 0.0), orientation_direction=(0.0, 0.0, 0.0), element_sets=None, geometries=None, rosettes=None, rosette_selection_method='minimum_angle', selection_rules=None, draping=False, draping_seed_point=(0.0, 0.0, 0.0), auto_draping_direction=True, draping_direction=(0.0, 0.0, 1.0), draping_mesh_size=0.0, use_default_draping_mesh_size=True, draping_material_model='woven', draping_ud_coefficient=0.0, reference_direction_field=None, rotation_angle=0.0)
 
-Create a new Oriented Selection Set
+Create a new Oriented Selection Set.
 
 * **Parameters:**
-  - name: The name of the oriented element set
-  - id: The id of the oriented element set.
-  - orientation_point: Orientation Point for the Oriented Selection Set
-  - orientation_direction: Orientation Direction for the Oriented Selection Set
-  - element_sets: Element Sets
-  - geometries: Virtual geometries
-  - rosettes: Rosettes for the Oriented Selection Set
-  - rosette_selection_method: Method to calculate element orientation
-
-    &nbsp;&nbsp; (‘minimum_angle’, ‘maximum_angle’, ‘minimum_distance’,
+  - name: The name of the oriented element set.
+  - id: The ID of the oriented element set.
+  - orientation_point: Orientation Point for the Oriented Selection Set.
+  - orientation_direction: Orientation Direction for the Oriented Selection Set.
+  - element_sets: Element Sets.
+  - geometries: Virtual geometries.
+  - rosettes: Rosettes for the Oriented Selection Set.
+  - rosette_selection_method: Method to calculate element orientation.
+      - (‘minimum_angle’, ‘maximum_angle’, ‘minimum_distance’,
       ‘minimum_angle_superposed’, ‘minimum_distance_superposed’,
       ‘maximum_angle_superposed’, ‘ansys_classic’, or
       ‘tabular_values’)
-  - reference_direction_field: Table column used to compute reference directions
-  - draping: Draping enabled
-  - draping_seed_point: Seed Point used to start draping
-  - draping_direction: Direction for draping
-  - auto_draping_direction: Generate direction for draping
+  - reference_direction_field: Table column used to compute reference directions.
+  - draping: Draping enabled.
+  - draping_seed_point: Seed Point used to start draping.
+  - draping_direction: Direction for draping.
+  - auto_draping_direction: Generate direction for draping.
   - draping_mesh_size: Mesh size for draping.
   - use_default_draping_mesh_size: Enable this property to use the default size for the draping mesh. The default is the average element size of the shell mesh.
-  - draping_material_model: Material model for draping, either ‘woven’ or ‘unidirectional’
-  - draping_ud_coefficient: Coefficient for the unidirectional draping material model
-  - rotation_angle: Angle to rotate the reference directions around the orientation directions (in degree)
+  - draping_material_model: Material model for draping, either ‘woven’ or ‘unidirectional’.
+  - draping_ud_coefficient: Coefficient for the unidirectional draping material model.
+  - rotation_angle: Angle to rotate the reference directions around the orientation directions (in degree).
 * **Returns:**
-  The created Oriented Selection Set
+  The created Oriented Selection Set.
 
 <a id="compolyx.Model.create_parallel_selection_rule"></a>
 
 #### create_parallel_selection_rule(name, id=None, origin=None, direction=None, pos_distance=None, neg_distance=None, relative_rule_type=False, use_global_coordinate_system=None, rosette=None, include_rule_type=True)
 
-Create new Parallel Selection Rule
+Create new Parallel Selection Rule.
 
 * **Parameters:**
-  - name: Name of the Rule
-  - origin: Origin of the Parallel Selection Rule
-  - direction: Direction of the Parallel Selection Rule
-  - pos_distance: Positive Disance of the Parallel Selection Rule
-  - neg_distance: Negative Distance of the Parallel Selection Rule
-  - relative_rule_type: If True parameters are evaluated relative to size of the object
-  - use_global_coordinate_system: Use global coordinate system to define rule parameters
-  - rosette: Rosette used if use_global_coordinate_system is False
-  - include_rule_type: Include or Exclude area in rule
+  - name: Name of the Rule.
+  - origin: Origin of the Parallel Selection Rule.
+  - direction: Direction of the Parallel Selection Rule.
+  - pos_distance: Positive Disance of the Parallel Selection Rule.
+  - neg_distance: Negative Distance of the Parallel Selection Rule.
+  - relative_rule_type: If True parameters are evaluated relative to size of the object.
+  - use_global_coordinate_system: Use global coordinate system to define rule parameters.
+  - rosette: Rosette used if use_global_coordinate_system is False.
+  - include_rule_type: Include or Exclude area in rule.
 * **Returns:**
-  The created Parallel Selection Rule
+  The created Parallel Selection Rule.
 
 <a id="compolyx.Model.create_published_parameter"></a>
 
 #### create_published_parameter(name, source_object=None, source_property='', user_script='', category='input', acp_type=None, description='', lower_limit=None, upper_limit=None, cyclic=False, float_list=[], string_list=[], unbound_value=None)
 
-Create a published parameter
+Create a published parameter.
 
 * **Parameters:**
-  - name: Name of the parameter
-  - source_object: Name of the object the parameter is linked to
-  - source_property: Property of the linked object the parameter controls
-  - user_script: Script to be executed for determining the parameter value. Only used when category==”expression_output”
-  - category: Controls the behavior of the parameter. Can be one of input, unbound_input, output, expression_output
-  - acp_type: Type of the parameter, as used within ACP
-  - description: String description of the parameter
-  - lower_limit: The lower limit for numeric values
-  - upper_limit: The upper limit for numeric values
-  - cyclic: Whether a float value is cyclic or not
-  - float_list: A list of possible values for a float
-  - string_list: A list of possible values. List of objects if the property type is object, else list of strings
-  - unbound_value: The value of the parameter, if category==”unbound_input”. In this case, the parameter is not linked to an existing object
+  - name: Name of the parameter.
+  - source_object: Name of the object the parameter is linked to.
+  - source_property: Property of the linked object the parameter controls.
+  - user_script: Script to be executed for determining the parameter value. Only used when category==”expression_output”.
+  - category: Controls the behavior of the parameter. Can be one of input, unbound_input, output, expression_output.
+  - acp_type: Type of the parameter, as used within ACP.
+  - description: String description of the parameter.
+  - lower_limit: The lower limit for numeric values.
+  - upper_limit: The upper limit for numeric values.
+  - cyclic: Whether a float value is cyclic or not.
+  - float_list: A list of possible values for a float.
+  - string_list: A list of possible values. List of objects if the property type is object, else list of strings.
+  - unbound_value: The value of the parameter, if category==”unbound_input”. In this case, the parameter is not linked to an existing object.
 * **Returns:**
   The created PublishedParameter.
 
@@ -593,19 +591,19 @@ Create a published parameter
 
 #### create_rosette(name, id=None, origin=(0.0, 0.0, 0.0), dir1=(1.0, 0.0, 0.0), dir2=(0.0, 1.0, 0.0), rosette_type='PARALLEL', edge_set=None, show=False)
 
-Create a new rosette
+Create a new rosette.
 
 * **Parameters:**
-  - name: The name of the Rosette
-  - id: ID (optional)
-  - origin: The origin of the Rosette
-  - dir1: Direction 1 of the Rosette
-  - dir2: Direction 2 of the Rosette
-  - rosette_type: Type of the Rosette ( ‘PARALLEL’, ‘RADIAL’, ‘CYLINDRICAL’, ‘SPHERICAL’, ‘EDGE_WISE’ )
-  - edge_set: Edge Set to be used in Rosette
-  - show: Whether the newly created rosette is shown in the scene / the 3D window or not
+  - name: The name of the Rosette.
+  - id: ID (optional).
+  - origin: The origin of the Rosette.
+  - dir1: Direction 1 of the Rosette.
+  - dir2: Direction 2 of the Rosette.
+  - rosette_type: Type of the Rosette (‘PARALLEL’, ‘RADIAL’, ‘CYLINDRICAL’, ‘SPHERICAL’, ‘EDGE_WISE’).
+  - edge_set: Edge Set to be used in Rosette.
+  - show: Whether the newly created rosette is shown in the scene/3D window.
 * **Returns:**
-  The created Rosette
+  The created Rosette.
 * **Example:**
   ```pycon
   >>> rosette_1 = model.create_rosette('Rosette.1',
@@ -619,19 +617,19 @@ Create a new rosette
 
 #### create_sampling_point(name, id=None, point=(0.0, 0.0, 0.0), direction=(0.0, 0.0, 0.0), locked=False, use_default_reference_direction=True, rosette=None, offset_is_middle=True, consider_coupling_effect=True, solution_set=None)
 
-Create new Sampling Point
+Create new Sampling Point.
 
 * **Parameters:**
-  - name: Name of the Sampling Point
-  - point: Sampling point
-  - direction: Sampling direction
-  - use_default_reference_direction: whether to use the default reference direction for the evaluation
-  - rosette: Rosette used for the evaluation of the reference direction
-  - offset_is_middle: Specifies the offset of the reference plane used for the CLT analyses
-  - consider_coupling_effect: Specifies whether the laminate properties are evaluated considering the coupling effect (B matrix) or not
+  - name: Name of the Sampling Point.
+  - point: Sampling point.
+  - direction: Sampling direction.
+  - use_default_reference_direction: Whether to use the default reference direction for the evaluation.
+  - rosette: Rosette used for the evaluation of the reference direction.
+  - offset_is_middle: Specifies the offset of the reference plane used for the CLT analyses.
+  - consider_coupling_effect: Specifies whether the laminate properties are evaluated considering the coupling effect (B matrix) or not.
   - solution_set: Specifies the solution and the set of the element-wise post-processing. Note, this must be given as a tuple.
 * **Returns:**
-  The created Sampling Point
+  The created Sampling Point.
 
 <a id="compolyx.Model.create_scene"></a>
 
