@@ -1,0 +1,14 @@
+{
+    "build": {
+      "globalMetadata": {
+        "title": "Rocky PrePost scripting 2024 R2",
+        "summary": "",
+        "version": "2024 R2",
+        "product": "Rocky",
+        "programming language": "Python",
+        "product collection": "Fluids",
+        "physics": "Particles",
+        "Description": "Lists the PrePost Scripting functionality that can be used to create and modify Python scripts for automating tasks in Rocky. Also includes basic descriptions of how the PrePost Scripting can be used."
+      }
+    }
+ }
