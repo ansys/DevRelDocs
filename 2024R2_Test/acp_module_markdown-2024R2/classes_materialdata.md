@@ -575,9 +575,9 @@ Generates 2D-plots with the results of interest
 * **Parameters:**
   - query: query arguments
 * **Options:**
-  - layup:[‘pp’] Production plies
-  - polar_properties:[‘E1’,’E2’,’G12’] polar plot of laminate stiffess
-  - text_plot:[‘materials’, ‘angles’, ‘thicknesses’]
+  - layup: [‘pp’] Production plies
+  - polar_properties: [‘E1’,’E2’,’G12’] polar plot of laminate stiffess
+  - text_plot: [‘materials’, ‘angles’, ‘thicknesses’]
 * **Examples:**
   ```pycon
   >>> query={'polar_properties':['E1', 'G12'], layup:['pp'], text_plot:['materials', 'angles', 'thicknesses']}
@@ -740,9 +740,9 @@ Generates 2D-plots with the results of interest
   - query: Query parameters
   - core_scale_factor: Scale core thickness by this value.
 * **Options:**
-  - layup:[‘pp’, ‘ap’] Production Ply and Analysis Plies
-  - polar_properties:[‘E1’,’E2’,’G12’] polar plot of laminate stiffesses
-  - text_plot:[‘materials’,’angles’,’thicknesses’] property to show as label in the layup plot
+  - layup: [‘pp’, ‘ap’] Production Ply and Analysis Plies
+  - polar_properties: [‘E1’,’E2’,’G12’] polar plot of laminate stiffesses
+  - text_plot: [‘materials’,’angles’,’thicknesses’] property to show as label in the layup plot
 * **Examples:**
   ```pycon
   >>> query={'polar_properties':['E1', 'G12'], layup:['pp'], text_plot:['materials']}
@@ -930,9 +930,9 @@ Generates 2D-plots with the results of interest
   - query: query parameters
   - core_scale_factor: Scale core thickness by this value.
 * **Options:**
-  - layup:[‘mp’, ‘pp’, ‘ap’] Modeling Ply, Production Plies and Analysis Plies
-  - polar_properties:[‘E1’,’E2’,’G12’] polar plot of laminate stiffesses
-  - text_plot:[‘materials’,’thicknesses’,’angles’] text plot shown in the layup plot
+  - layup: [‘mp’, ‘pp’, ‘ap’] Modeling Ply, Production Plies and Analysis Plies
+  - polar_properties: [‘E1’,’E2’,’G12’] polar plot of laminate stiffesses
+  - text_plot: [‘materials’,’thicknesses’,’angles’] text plot shown in the layup plot
 * **Example:**
   ```pycon
   >>> query={'polar_properties':['E1', 'G12'], layup:['pp'], text_plot:['materials']}

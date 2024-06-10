@@ -104,7 +104,9 @@ Serialize to Python string
 
 #### *property* show_element_type
 
-Highlight “shell” or “solid” elements, or use “automatic” to select solid elements if the object belongs to a solid model.Note: Only analysis plies have solid elements. Shell elements are highlighted for modeling and production plies.
+Highlight “shell” or “solid” elements, or use “automatic” to select solid elements if the object belongs to a solid model.
+
+Note: Only analysis plies have solid elements. Shell elements are highlighted for modeling and production plies.
 
 <a id="compolyx.Scene.show_global_coordinate_system"></a>
 

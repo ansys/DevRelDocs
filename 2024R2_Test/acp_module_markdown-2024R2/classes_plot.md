@@ -24,7 +24,7 @@ Copy a plot object.
   Object of the plot duplicate.
 
 **Examples:**
-: Make a copy of the thickness plot “My_Thickness_Plot”:
+  Make a copy of the thickness plot “My_Thickness_Plot”:
   <br/>
   ```default
   >>> plot_copy = db.active_model.layup_plots.copy_plot( db.active_model.layup_plots['My_Thickness_Plot'] )
@@ -61,7 +61,7 @@ Create a Angle Plot object.
   the plot object
 
 **Example:**
-: Create a angle plot with Data Scope set to Element Set “All_Elements”:
+  Create a angle plot with Data Scope set to Element Set “All_Elements”:
   <br/>
   ```default
   >>> angle_plot = db.active_model.layup_plots.create_angle_plot(self, name="MyPlot", data_scope=db.active_model.element_sets['All_Elements'])
@@ -80,7 +80,7 @@ Create a Draping Plot object.
   the plot object
 
 **Example:**
-: Create a draping plot with Data Scope set to Element Set “All_Elements”:
+  Create a draping plot with Data Scope set to Element Set “All_Elements”:
   <br/>
   ```default
   >>> draping_plot = db.active_model.layup_plots.create_draping_plot(self, name="MyPlot")
@@ -102,7 +102,7 @@ Create a FieldDefinition Plot object.
   the plot object
 
 **Example:**
-: Create a field definition plot for field degradation with Data Scope set to Element Set “All_Elements” in ply_wise mode:
+  Create a field definition plot for field degradation with Data Scope set to Element Set “All_Elements” in ply_wise mode:
   <br/>
   ```default
   >>> field_plot = db.active_model.layup_plots.create_field_definition_plot(self, name="MyPlot", field_variable_name="degradation", data_scope=db.active_model.element_sets['All_Elements'], ply_wise = True)
@@ -127,7 +127,7 @@ Create a Layup Mapping Plot object.
   the plot object
 
 **Example:**
-: Create a thickness plot with Data Scope set to Element Set “All_Elements” in ply_wise mode:
+  Create a thickness plot with Data Scope set to Element Set “All_Elements” in ply_wise mode:
   <br/>
   ```default
   >>> thick_plot = db.active_model.layup_plots.create_layup_mapping_plot(self, name="MyPlot", data_scope=[db.active_model.solid_models['ImportedSolidModel'], ply_wise = True)
@@ -154,7 +154,7 @@ Create a Material Plot object.
   the plot object
 
 **Example:**
-: Create a material plot with Data Scope set to Element Set “All_Elements” showing the Young Modulus E2:
+  Create a material plot with Data Scope set to Element Set “All_Elements” showing the Young Modulus E2:
   <br/>
   ```default
   >>> E2_plot = db.active_model.layup_plots.create_material_plot(name="E2_Plot", data_scope=[db.active_model.element_sets['All_Elements']], component = 'E2')
@@ -179,7 +179,7 @@ Create a Field Plot object.
   the plot object
 
 **Example:**
-: Create a field plot with Data Scope set to Element Set “All_Elements” in ply_wise mode:: tbdtbdtbd
+  Create a field plot with Data Scope set to Element Set “All_Elements” in ply_wise mode:: tbdtbdtbd
 
 <a id="compolyx.plot_data.LayupPlotDict.create_thickness_plot"></a>
 
@@ -201,7 +201,7 @@ Create a Thickness Plot object.
   the plot object
 
 **Example:**
-: Create a thickness plot with Data Scope set to Element Set “All_Elements” in ply_wise mode:
+  Create a thickness plot with Data Scope set to Element Set “All_Elements” in ply_wise mode:
   <br/>
   ```default
   >>> thick_plot = db.active_model.layup_plots.create_thickness_plot(self, name="MyPlot", data_scope=db.active_model.element_sets['All_Elements'], ply_wise = True)
@@ -233,7 +233,7 @@ Create a User-defined Plot object.
   the plot object
 
 **Example:**
-: Create a user-defined plot with Data Scope set to Element Set “All_Elements”:
+  Create a user-defined plot with Data Scope set to Element Set “All_Elements”:
   <br/>
   ```default
   >>> u_plot = db.active_model.layup_plots.create_user_defined_plot(self, name="MyPlot", data_scope=db.active_model.element_sets['All_Elements'])
@@ -268,7 +268,7 @@ Create a Deformation Plot object.
   the plot object
 
 **Example:**
-: Create a deformation plot with Data Scope set to Element Set “All_Elements” for ‘rotx’:
+  Create a deformation plot with Data Scope set to Element Set “All_Elements” for ‘rotx’:
   <br/>
   ```default
   >>> defo_plot = db.active_model.solutions['Solution.1'].plots.create_deformation_contour_plot(self, name="MyPlot", data_scope=db.active_model.element_sets['All_Elements'], component = 'rotx')
@@ -302,7 +302,7 @@ Create a Failure Criterion Plot object.
   the plot object
 
 **Example:**
-: Create a failure criterion plot with Data Scope set to Element Set “All_Elements”, showing the inverse reserve factor with the most critical layer per element for failure criterion “MyFC”, and not showing any text.:
+  Create a failure criterion plot with Data Scope set to Element Set “All_Elements”, showing the inverse reserve factor with the most critical layer per element for failure criterion “MyFC”, and not showing any text.:
   <br/>
   ```default
   >>> fc_plot = db.active_model.solutions['Solution.1'].plots.create_failure_plot(self, name="MyPlot", data_scope=db.active_model.element_sets['All_Elements'], component = 'irf', ply_wise = False, show_critical_failure_mode = False, failure_criteria_definition = db.active_model.definitions['MyFC'])
@@ -352,7 +352,7 @@ Create a Progressive Damage Plot object.
   the plot object
 
 **Example:**
-: Create a progressive damage plot with Data Scope set to Element Set “All_Elements” for ‘e1’ at ‘mid’ in ply_wise mode:
+  Create a progressive damage plot with Data Scope set to Element Set “All_Elements” for ‘e1’ at ‘mid’ in ply_wise mode:
   <br/>
   ```default
   >>> pd_plot = db.active_model.solutions['Solution.1'].plots.create_progressive_damage_plot(self, name="MyPlot", data_scope=db.active_model.element_sets['All_Elements'], component = 'state', spot = 'bot', ply_wise = Flase)
@@ -381,7 +381,7 @@ Create a Strain Plot object.
   the plot object
 
 **Example:**
-: Create a strain plot with Data Scope set to Element Set “All_Elements” for ‘e1’ at ‘mid’ in ply_wise mode:
+  Create a strain plot with Data Scope set to Element Set “All_Elements” for ‘e1’ at ‘mid’ in ply_wise mode:
   <br/>
   ```default
   >>> strain_plot = db.active_model.solutions['Solution.1'].plots.create_strain_plot(self, name="MyPlot", data_scope=db.active_model.element_sets['All_Elements'], component = 's1', spot = 'mid', ply_wise = True)
@@ -410,7 +410,7 @@ Create a Stress Plot object.
   the plot object
 
 **Example:**
-: Create a stress plot with Data Scope set to Element Set “All_Elements” for ‘s1’ at ‘mid’ in ply_wise mode:
+  Create a stress plot with Data Scope set to Element Set “All_Elements” for ‘s1’ at ‘mid’ in ply_wise mode:
   <br/>
   ```default
   >>> stress_plot = db.active_model.solutions['Solution.1'].plots.create_stress_plot(self, name="MyPlot", data_scope=db.active_model.element_sets['All_Elements'], component = 's1', spot = 'mid', ply_wise = True)
@@ -435,7 +435,7 @@ Create a Temperature Plot object.
   the plot object
 
 **Example:**
-: Create a temperature plot with Data Scope set to Element Set “All_Elements” with spot set to ‘mid’ in ply_wise mode:
+  Create a temperature plot with Data Scope set to Element Set “All_Elements” with spot set to ‘mid’ in ply_wise mode:
   <br/>
   ```default
   >>> temp_plot = db.active_model.solutions['Solution.1'].plots.create_temperature_plot(self, name="MyPlot", data_scope=db.active_model.element_sets['All_Elements'], spot = 'mid', ply_wise = True)
@@ -468,7 +468,7 @@ Create a User-Defined Plot object.
   the plot object
 
 **Example:**
-: Create a user-defined plot with Data Scope set to Element Set “All_Elements”:
+  Create a user-defined plot with Data Scope set to Element Set “All_Elements”:
   <br/>
   ```default
   >>> u_plot = db.active_model.layup_plots.create_user_defined_plot(self, name="MyPlot", data_scope=db.active_model.element_sets['All_Elements'])
@@ -508,7 +508,7 @@ Add 1 entity to the Data Scope of a plot.
   - entity: Entity to be added. Applicable are Element Set, Oriented Selection Set, Modeling Ply, Production Ply, Analysis Ply, and Sampling Point
 
 **Example:**
-: Add the Element Set “My_ESet” to a my_plot:
+  Add the Element Set “My_ESet” to a my_plot:
   <br/>
   ```default
   >>> my_plot.add_data_scope_entity(entity = db.active_model.element_sets['My_ESet'])
@@ -592,7 +592,7 @@ Get data of plot.
 
 Data is returned independent of update status of plot, but only if results for the current plot configuration are available, else an empty array is returned.
 
-Examples:
+**Examples:**
 
 Get data for current ply-wise plot with visible scope set to element set “All_Elements” and with ply1 and ply2 selected:
   <br/>
@@ -632,12 +632,11 @@ Get element indices (ACP internal element numbers starting from 0) of plot
 Indices are returned independent of update status of plot, but only if results for the current plot configuration are available, else an empty array is returned.
 
 **Examples:**
-: Get element indices for current plot with visible scope set to element set “All_Elements” and with ply1 and ply2 selected:
+  Get element indices for current plot with visible scope set to element set “All_Elements” and with ply1 and ply2 selected:
   <br/>
   ```default
   >>> eis = my_plot.get_element_indices(visible=db.active_model.element_sets['All_Elements'], selected=[ply1, ply2])
   ```
-  <br/>
   Get element indices for current plot with visible scope equal to all objects visible in current scene:
   <br/>
   ```default
@@ -721,7 +720,7 @@ Remove 1 entity to the Data Scope of a plot.
   - entity: Entity to be removed. Applicable are Element Set, Oriented Selection Set, Modeling Ply, Production Ply, Analysis Ply, and Sampling Point
 
 **Example:**
-: Remove the Element Set “My_ESet” from my_plot:
+  Remove the Element Set “My_ESet” from my_plot:
   <br/>
   ```default
   >>> my_plot.remove_data_scope_entity(entity = db.active_model.element_sets['My_ESet'])
@@ -819,7 +818,7 @@ Get the offset between plies and reference surface.
   > - selection_scope defined by selected
 
 **Example:**
-: Get the ply-offsets for the current ply-wise plot with visible scope set to element set “All_Elements” and with ply1 and ply2 selected:
+  Get the ply-offsets for the current ply-wise plot with visible scope set to element set “All_Elements” and with ply1 and ply2 selected:
   <br/>
   ```default
   >>> p_offs = my_contour_plot.get_ply_offsets(visible=db.active_model.element_sets['All_Elements'], selected=[ply1, ply2])
@@ -902,8 +901,8 @@ Get the coordinates of the supporting points.
 
 Data is returned independent of update status of plot.
 
-Examples:
-: Get coordinates for supporting points defining look-up table plot:
+**Example:**
+  Get coordinates for supporting points defining look-up table plot:
   <br/>
   ```default
   >>> coords = my_plot._get_support_point_coordinates()
@@ -920,8 +919,8 @@ Get the identifiers for the supporting points.
 
 Labels are returned independent of update status of plot.
 
-Examples:
-: Get labels for supporting points defining look-up table plot:
+**Example:**
+  Get labels for supporting points defining look-up table plot:
   <br/>
   ```default
   >>> coords = my_plot._get_support_point_labels()
@@ -938,8 +937,8 @@ Get the scalar values defined at the supporting points.
 
 Values are returned independent of update status of plot.
 
-Examples:
-: Get scalar values for supporting points defining look-up table plot:
+**Example:**
+  Get scalar values for supporting points defining look-up table plot:
   <br/>
   ```default
   >>> coords = my_plot._get_support_point_values()
