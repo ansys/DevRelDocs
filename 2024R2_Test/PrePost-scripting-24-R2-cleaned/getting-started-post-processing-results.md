@@ -1,4 +1,4 @@
-## Postprocessing results
+# Postprocessing results
 
 The simulation entities that provide results (such as particles, conveyors, and custom geometries)
 have methods in their API wrappers to retrieve the geometry, properties (grid functions), curves, etc.
