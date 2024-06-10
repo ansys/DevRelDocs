@@ -14,7 +14,7 @@ Properties.
 
 <a id="stress-tensor"></a>
 
-## Stress tensor
+## Stress Tensor
 
 The Stress Tensor Grid Function is available when the contacts collection is activated.
 

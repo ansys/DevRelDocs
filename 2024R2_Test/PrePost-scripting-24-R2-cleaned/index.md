@@ -1,9 +1,9 @@
 # Rocky PrePost Scripting Help
 
 * [Introduction](basic-usage.md)
-* [Getting Started](getting-started.md)
-  * [Setting Up a Project](getting-started.md#setting-up-a-project)
-  * [Post-Processing Results](getting-started.md#post-processing-results)
+* [Getting Started](getting-started-setting-up-a-project.md)
+  * [Setting Up a Project](getting-started-setting-up-a-project.md#setting-up-a-project)
+  * [Post-Processing Results](getting-started-setting-up-a-project.md#post-processing-results)
 * [Using VScode to Create/Edit Scripts](setup-ide.md)
 * [Class Reference](prepost-scripting-reference.md)
   * [RAAirFlow](RAAirFlow.md)

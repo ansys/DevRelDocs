@@ -6,7 +6,7 @@
 
 <a id="new-classes"></a>
 
-### New classes
+### New Classes
 
 * [`RAContactsDataMeshColoring`](RAContactsDataMeshColoring.md) - This class allow users to change coloring properties for Contacts Data.
 * [`RAJointsDataMeshColoring`](RAJointsDataMeshColoring.md) - This class allow users to change coloring properties for Joints Data.
@@ -15,7 +15,7 @@
 
 <a id="new-methods"></a>
 
-### New methods
+### New Methods
 
 * [`RAExportToolkit`](RAExportToolkit.md)
   * [`ExportHTC`](RAExportToolkit.md#generated.RAExportToolkit.ExportHTC)
