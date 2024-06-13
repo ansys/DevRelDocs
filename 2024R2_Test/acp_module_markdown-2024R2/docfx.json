@@ -1,7 +1,7 @@
 {
   "build": {
     "globalMetadata": {
-      "title": "ACP scripting interface 2024 R2- corrected",
+      "title": "ACP scripting interface 2024 R2#13-06",
       "summary": "The ACP scripting interface provides programmable control of the ACP application.",
       "version": "2024 R2",
       "product": "ACP",
