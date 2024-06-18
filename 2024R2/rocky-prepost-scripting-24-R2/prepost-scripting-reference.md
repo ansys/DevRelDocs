@@ -1,4 +1,4 @@
-# Class reference
+# Class Reference
 
 These are the classes and methods available to the user when executing scripts:
 
@@ -39,6 +39,7 @@ These are the classes and methods available to the user when executing scripts:
 * [RAMaterialCollection](RAMaterialCollection.md)
 * [RAMaterialsInteraction](RAMaterialsInteraction.md)
 * [RAMaterialsInteractionCollection](RAMaterialsInteractionCollection.md)
+* [RAMeshColoring](RAMeshColoring.md)
 * [RAModule](RAModule.md)
 * [RAModuleCollection](RAModuleCollection.md)
 * [RAModuleOutput](RAModuleOutput.md)
@@ -95,6 +96,8 @@ These are the classes and methods available to the user when executing scripts:
 * [RATagging](RATagging.md)
 * [RAThreeRollsBeltProfile](RAThreeRollsBeltProfile.md)
 * [RATimeRangeFilter](RATimeRangeFilter.md)
+* [RATimeSeriesRotation](RATimeSeriesRotation.md)
+* [RATimeSeriesTranslation](RATimeSeriesTranslation.md)
 * [RATrajectoryProcess](RATrajectoryProcess.md)
 * [RATranslation](RATranslation.md)
 * [RATwoRollsBeltProfile](RATwoRollsBeltProfile.md)
