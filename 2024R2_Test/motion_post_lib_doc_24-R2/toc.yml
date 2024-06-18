@@ -1,11 +1,17 @@
 - name: Introduction
   href: index.md
-- name: Getting started
+- name: Getting Started
   items:
   - name: Result File Reader using Python language
     href: getting_started_result_file_reader_using_py.md
   - name: Operation API using Python language
     href: getting_started_operation_api_using_py.md
+  - name: Changelog
+    items:
+    - name: Result File Reader
+      href: changelog_result_file_reader_api.md
+    - name: Operation API
+      href: changelog_operation_api.md
 - name: Examples
   items:
   - name: Result File Reader
@@ -18,12 +24,6 @@
     href: example_export_for_operation_api.md
   - name: Analysis for Operation API
     href: example_analysis_for_operation_api.md
-- name: Changelog
-  items:
-  - name: Result File Reader
-    href: changelog_result_file_reader_api.md
-  - name: Operation API
-    href: changelog_operation_api.md
 - name: Reference
   href: lib/VM.Operations.Post.Interfaces.md
   items:
