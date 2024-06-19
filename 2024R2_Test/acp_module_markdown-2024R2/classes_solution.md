@@ -23,31 +23,31 @@ Access:
 
 #### *property* ID
 
-Id to be displayed in Envelope solution
+Id to be displayed in Envelope solution.
 
 <a id="compolyx.Solution.active"></a>
 
 #### *property* active
 
-Activate or deactivate solution
+Activate or deactivate solution.
 
 <a id="compolyx.Solution.clear"></a>
 
 #### clear()
 
-Clear all result data
+Clear all result data.
 
 <a id="compolyx.Solution.clear_element_results"></a>
 
 #### clear_element_results()
 
-Resets the post-processing results for each layered element
+Resets the post-processing results for each layered element.
 
 <a id="compolyx.Solution.clear_failure_criteria_results"></a>
 
 #### clear_failure_criteria_results()
 
-Resets the failure criteria results for each layered element
+Resets the failure criteria results for each layered element.
 
 <a id="compolyx.Solution.enabled"></a>
 
@@ -62,10 +62,10 @@ Whether this object is currently enabled or not. Mainly defined through the curr
 Exports the shell results of the selected entities to a csv file.
 
 * **Parameters:**
-  - definitions: Selected definition - CombinedFailure Criteria object or as string ‘deformations’, ‘strains’ or ‘stresses’
-  - entities: Defines the selection for the export. Can be a list of ElementSets, AnalysisPlies or SolidModels
-  - file_path: File name
-  - solution_set: Solution Set for which data is requested
+  - definitions: Selected definition - CombinedFailure Criteria object or as string ‘deformations’, ‘strains’ or ‘stresses’.
+  - entities: Defines the selection for the export. Can be a list of ElementSets, AnalysisPlies or SolidModels.
+  - file_path: File name.
+  - solution_set: Solution Set for which data is requested.
   - solids: Boolean whether to take the results of the solid elements or not. Default is False (results of shells).
   - spots: Layer positions for which the results are exported. Allowed are ‘bot’, ‘mid’, ‘top’, ‘bot/top’, and ‘all’.
 
@@ -105,7 +105,7 @@ Boolean flag if progressive_damage data are read from the rst file.
 
 #### load()
 
-Load result data from file
+Load result data from file.
 
 <a id="compolyx.Solution.load_factor"></a>
 
@@ -117,62 +117,62 @@ Optional load factor within substep of non-linear solution where the nodal solut
 
 #### *property* path
 
-Path to the data file
+Path to the data file.
 
 <a id="compolyx.Solution.path2"></a>
 
 #### *property* path2
 
-Path to the data file
+Path to the data file.
 
 <a id="compolyx.Solution.plots"></a>
 
 #### *property* plots
 
-Container with PostProcessing Plots
+Container with PostProcessing Plots.
 
 <a id="compolyx.Solution.query"></a>
 
 #### query(definition, options={'eval_ins': False}, position='centroid', selection='all', entity=None, entities=None, spot=None, component=None, rosette=None, simulate=False, solution_set=-1)
 
-Query results from the solution
+Query results from the solution.
 
 * **Parameters:**
   - definition: The postproc definition defines what results are evaluated. Can be given as
     CombinedFailureCriteria object or as string such as
     ‘strains’, ‘stresses’, ‘laminate_forces’, ‘deformations’, ‘temperatures’ or ‘progressive_damage’.
   - options: Dict with the additional options used to fully configure the definition.
-    - stresses: options={“eval_ins”:True} to enable the interlaminar normal stress evaluation for shells
+    - stresses: options={“eval_ins”:True} to enable the interlaminar normal stress evaluation for shells.
   - position: Position where data is queried:
-    - nodal, centroid, element_nodal, integration_point or element_results
+    - nodal, centroid, element_nodal, integration_point or element_results.
   - selection: The selection set determines the selected nodes and elements.
     Can be given as string ‘sel0’ - ‘sel5’ or ‘all’
-    or can be given as ObjectSelection object such as model.selection or scene.active_set
+    or can be given as ObjectSelection object such as model.selection or scene.active_set.
   - entity:  Entity for which results are evaluated.
-    Currently supported: Analysis ply or analysis ply vertex
+    Currently supported: Analysis ply or analysis ply vertex.
   - entities: If a list of entities is given, the query will also compute and return a list of results, with one array for each entity.
-  - spot: Used to identify bot, mid or top when querying layered shells
-  - component: Components to query. Valid components for
+  - spot: Used to identify bot, mid or top when querying layered shells.
+  - component: Components to query. Valid components for:
     - DEFORMATION
-      - x, y, z, usum, rotx, roty, rotz -> (nx1)
-      - all -> (nx6), translations, rotations -> (nx3)
+      - x, y, z, usum, rotx, roty, rotz -> (nx1).
+      - all -> (nx6), translations, rotations -> (nx3).
     - STRAIN
-      - e1, e2, e3, e12, e23, e13, eI, eII, eII, von_mises -> (nx1)
-      - all -> (nx6), principals -> (nx3)
+      - e1, e2, e3, e12, e23, e13, eI, eII, eII, von_mises -> (nx1).
+      - all -> (nx6), principals -> (nx3).
     - STRESS
-      - s1, s2, s3, s12, s23, s13, sI, sII, sII -> (nx1)
-      - all -> (nx6), principals -> (nx3)
+      - s1, s2, s3, s12, s23, s13, sI, sII, sII -> (nx1).
+      - all -> (nx6), principals -> (nx3).
     - FAILURE CRITERIA
-      - irf (Inverse reserve factor), rf (Reserve factor), mos (Margin of safety) -> (nx1)
-      - fm (Failure mode) ->(n x string(size<=4))
-      - li (Layer index)  ->(n x 1) (Only available for element queries where no entity is given.)
+      - irf (Inverse reserve factor), rf (Reserve factor), mos (Margin of safety) -> (nx1).
+      - fm (Failure mode) ->(n x string(size<=4)).
+      - li (Layer index)  ->(n x 1) (Only available for element queries where no entity is given.).
     - LAMINATE FORCES
-      - all -> (nx8)
+      - all -> (nx8).
     - PROGRESSIVE DAMAGE
-      - status (damage status), ft, fc (fiber tensile/compressive) ->(nx1)
-      - mt, mc (matrix tensile/compressive), s (shear) ->(nx1)
-      - sed (energy dissipated per unit volume), sedv (energy per unit volume due to viscous damping) ->(nx1)
-  - rosette: If a rosette is given, the results are evaluated with respect to this coordinate system (not recommended for non-linear results)
+      - status (damage status), ft, fc (fiber tensile/compressive) ->(nx1).
+      - mt, mc (matrix tensile/compressive), s (shear) ->(nx1).
+      - sed (energy dissipated per unit volume), sedv (energy per unit volume due to viscous damping) ->(nx1).
+  - rosette: If a rosette is given, the results are evaluated with respect to this coordinate system (not recommended for non-linear results).
   - simulate: Whether the query is only simulated to test if it will return data.
     If this flag is set the query(…) function will only return 0 or 1.
   - solution_set: Identifier of the queried solution. -1 identifies the last available Set.
@@ -205,7 +205,7 @@ Path of the assembly renumbering files.
 
 #### serialize()
 
-Serialize to Python string
+Serialize to Python string.
 
 <a id="compolyx.Solution.set"></a>
 
@@ -255,17 +255,17 @@ Allows to visualize the post-processing results of layered solid models on the �
 
 #### add_solution_set(solution, sset=-1)
 
-Add solution set to solution sets of Envelope Solution
+Add solution set to solution sets of Envelope Solution.
 
 * **Parameters:**
-  - solution: Solution object
-  - sset: Solution set (default: -1)
+  - solution: Solution object.
+  - sset: Solution set (default: -1).
 
 <a id="compolyx.EnvelopeSolution.clear_solution_sets"></a>
 
 #### clear_solution_sets()
 
-Clear Solution Sets of Envelope Solution
+Clear Solution Sets of Envelope Solution.
 
 <a id="compolyx.EnvelopeSolution.enabled"></a>
 
@@ -277,8 +277,8 @@ Whether this object is currently enabled or not. Mainly defined through the curr
 
 #### remove_solution_set(solution, sset=-1)
 
-Remove solution set from solution sets of Envelope Solution
+Remove solution set from solution sets of Envelope Solution.
 
 * **Parameters:**
-  - solution: Solution object
-  - sset: Solution set (default: -1)
+  - solution: Solution object.
+  - sset: Solution set (default: -1).
