@@ -8,49 +8,49 @@
 
 ### *class* compolyx.SolidModel(graph, obj, parent=None)
 
-Solid Model class
+Solid Model class.
 
 <a id="compolyx.SolidModel.active"></a>
 
 #### *property* active
 
-Solid-Model active
+Solid-Model active.
 
 <a id="compolyx.SolidModel.add_disable_dropoff_set_on_bottom"></a>
 
 #### add_disable_dropoff_set_on_bottom(set)
 
-Add set where the drop-offs on bottom surface are disabled
+Add set where the drop-offs on bottom surface are disabled.
 
 <a id="compolyx.SolidModel.add_disable_dropoff_set_on_top"></a>
 
 #### add_disable_dropoff_set_on_top(set)
 
-Add set where the drop-offs on top surface are disabled
+Add set where the drop-offs on top surface are disabled.
 
 <a id="compolyx.SolidModel.add_element_set"></a>
 
 #### add_element_set(element_set)
 
-Add Element Set to Solid Model
+Add Element Set to Solid Model.
 
 <a id="compolyx.SolidModel.clear_disable_dropoff_sets_on_bottom"></a>
 
 #### clear_disable_dropoff_sets_on_bottom()
 
-Clear sets where the drop-offs on bottom are disabled
+Clear sets where the drop-offs on bottom are disabled.
 
 <a id="compolyx.SolidModel.clear_disable_dropoff_sets_on_top"></a>
 
 #### clear_disable_dropoff_sets_on_top()
 
-Clear sets where the drop-offs on top are disabled
+Clear sets where the drop-offs on top are disabled.
 
 <a id="compolyx.SolidModel.clear_element_sets"></a>
 
 #### clear_element_sets()
 
-Clear Element Sets of Solid Model
+Clear Element Sets of Solid Model.
 
 <a id="compolyx.SolidModel.clear_generated_data"></a>
 
@@ -62,75 +62,75 @@ Function clears generated solid model but keeps all definitions.
 
 #### *property* connect_butt_joined_plies
 
-Do not make drop-offs between butt-joined plies if set to True
+Do not make drop-offs between butt-joined plies if set to True.
 
 <a id="compolyx.SolidModel.copy_extrusion_guide"></a>
 
 #### copy_extrusion_guide(source)
 
-Copy a Extrusion Guide
+Copy a Extrusion Guide.
 
 * **Parameters:**
-  - source: Source object to copy
+  - source: Source object to copy.
 * **Returns:**
-  New instance of a Extrusion Guide
+  New instance of a Extrusion Guide.
 
 <a id="compolyx.SolidModel.copy_snap_to_geometry_obj"></a>
 
 #### copy_snap_to_geometry_obj(source)
 
-Copy a Snap-To Geometry
+Copy a Snap-To Geometry.
 
 * **Parameters:**
-  - source: Source object to copy
+  - source: Source object to copy.
 * **Returns:**
-  New instance of a Snap-To Geometry
+  New instance of a Snap-To Geometry.
 
 <a id="compolyx.SolidModel.create_extrusion_guide"></a>
 
 #### create_extrusion_guide(name, edge_set=None, id='', cad_geometry=None, direction=(0.0, 0.0, 0.0), radius=None, depth=1.0, use_curvature_correction=False, active=True)
 
-Create a new extrusion guide
+Create a new extrusion guide.
 
 * **Parameters:**
-  - name: the name of the extrusion guide
-  - edge_set: an edge set where this guide applies
-  - id: the id of the extrusion guide
-  - cad_geometry: a cad geometry object
-  - direction: Extrusion direction
-  - radius: distance up to which node translations due to the guide will be propagated through the mesh
-    - `0.0`: only the nodes extruded from edge_set will be shifted onto the guide
-  - depth:  intensity for the propagation of mesh corrections
-    - `1.0`: linear decay from guide to radius
-    - `>1.0`: higher reach
-    - `<1.0`: more local
-  - use_curvature_correction: whether to use curvature correction algorithm to smooth mesh adapted to extrusion guide. Default is False
+  - name: The name of the extrusion guide.
+  - edge_set: An edge set where this guide applies.
+  - id: The id of the extrusion guide.
+  - cad_geometry: A cad geometry object.
+  - direction: Extrusion direction.
+  - radius: Distance up to which node translations due to the guide will be propagated through the mesh.
+    - `0.0`: Only the nodes extruded from edge_set will be shifted onto the guide.
+  - depth:  Intensity for the propagation of mesh corrections.
+    - `1.0`: Linear decay from guide to radius.
+    - `>1.0`: Higher reach.
+    - `<1.0`: More local.
+  - use_curvature_correction: Whether to use curvature correction algorithm to smooth mesh adapted to extrusion guide. Default is False.
 
 <a id="compolyx.SolidModel.create_snap_to_geometry_obj"></a>
 
 #### create_snap_to_geometry_obj(name, cad_geometry=None, oriented_selection_set=None, orientation='top', active=True, id='')
 
-Create a new snap-to-geometry object
+Create a new snap-to-geometry object.
 
 * **Parameters:**
-  - name: the name of the object
-  - id: the id of the object
-  - active: pass the active-flag of the object
-  - cad_geometry: a geometry to snap to
-  - oriented_selection_set: oriented element set where this snap to applies
-  - orientation: “top” or “bottom”
+  - name: The name of the object.
+  - id: The id of the object.
+  - active: Pass the active-flag of the object.
+  - cad_geometry: A geometry to snap to.
+  - oriented_selection_set: Oriented element set where this snap to applies.
+  - orientation: “top” or “bottom”.
 
 <a id="compolyx.SolidModel.disable_dropoff_sets_on_bottom"></a>
 
 #### *property* disable_dropoff_sets_on_bottom
 
-Elements where the drop-offs on bottom are disabled. List of element sets or ‘all’         to select the entire scope of the solid model.
+Elements where the drop-offs on bottom are disabled. List of element sets or ‘all' to select the entire scope of the solid model.
 
 <a id="compolyx.SolidModel.disable_dropoff_sets_on_top"></a>
 
 #### *property* disable_dropoff_sets_on_top
 
-Elements of where the drop-offs on top are disabled. List of element sets or ‘all’         to select the entire scope of the solid model.
+Elements of where the drop-offs on top are disabled. List of element sets or ‘all’ to select the entire scope of the solid model.
 
 <a id="compolyx.SolidModel.disable_dropoffs_on_bottom"></a>
 
@@ -148,7 +148,7 @@ Boolean whether to disable the drop-off elements on top surface.
 
 #### *property* drop_off_type
 
-Drop-off type. Allowed string values: [‘inside_ply’, ‘outside_ply’]
+Drop-off type. Allowed string values: [‘inside_ply’, ‘outside_ply’].
 
 <a id="compolyx.SolidModel.element_sets"></a>
 
@@ -166,13 +166,13 @@ Whether this object is currently enabled or not. Solid Models are are enabled in
 
 #### *property* ex_type
 
-Extrusion type. Allowed string values: [‘monolithic’, ‘analysis_ply_wise’, ‘production_ply_wise’, ‘modeling_ply_wise’, ‘sandwich_wise’, ‘specify_thickness’, ‘material_wise’, ‘user_defined’]
+Extrusion type. Allowed string values: [‘monolithic’, ‘analysis_ply_wise’, ‘production_ply_wise’, ‘modeling_ply_wise’, ‘sandwich_wise’, ‘specify_thickness’, ‘material_wise’, ‘user_defined’].
 
 <a id="compolyx.SolidModel.extrusion_guides"></a>
 
 #### *property* extrusion_guides
 
-Extrusion Guides
+Extrusion Guides.
 
 <a id="compolyx.SolidModel.global_drop_off_material"></a>
 
@@ -190,7 +190,7 @@ Maximum thickness of solid elements.
 
 #### *property* offset_type
 
-Offset type. Allowed string values: [‘shell_normal’, ‘surface_normal’]
+Offset type. Allowed string values: [‘shell_normal’, ‘surface_normal’].
 
 <a id="compolyx.SolidModel.ply_group_pointers"></a>
 
@@ -202,13 +202,13 @@ Ply group pointers for user defined extrusion.
 
 #### remove_element_set(element_set)
 
-Remove Element Set from the solid model
+Remove Element Set from the solid model.
 
 <a id="compolyx.SolidModel.reorder_extrusion_guides"></a>
 
 #### reorder_extrusion_guides(source, target, option='after')
 
-Reorders the extrusion guides
+Reorders the extrusion guides.
 
 * **Parameters:**
   - source: Extrusion guide to be reordered.
@@ -223,13 +223,13 @@ Reorders the extrusion guides
 
 #### *property* skip_elements_without_plies
 
-Enable this option to automatically skip elements without plies from the region of extrusion
+Enable this option to automatically skip elements without plies from the region of extrusion.
 
 <a id="compolyx.SolidModel.snap_to_geometry_objs"></a>
 
 #### *property* snap_to_geometry_objs
 
-Snap to Geometry objects
+Snap to Geometry objects.
 
 <a id="extrusionguide"></a>
 
@@ -239,13 +239,13 @@ Snap to Geometry objects
 
 ### *class* compolyx.ExtrusionGuide(obj, parent=None)
 
-Extrusion guide class
+Extrusion guide class.
 
 <a id="compolyx.ExtrusionGuide.active"></a>
 
 #### *property* active
 
-Extrusion Guide active
+Extrusion Guide active.
 
 <a id="compolyx.ExtrusionGuide.cad_geometry"></a>
 
@@ -257,13 +257,13 @@ Associated CADGeometry.
 
 #### *property* depth
 
-intensity for the propagation of mesh corrections, depth=1 leads to a linear decay from the guide to the radius, depth<1 leads to more local corrections
+Intensity for the propagation of mesh corrections, depth=1 leads to a linear decay from the guide to the radius, depth<1 leads to more local corrections.
 
 <a id="compolyx.ExtrusionGuide.direction"></a>
 
 #### *property* direction
 
-extrusion direction
+Extrusion direction.
 
 <a id="compolyx.ExtrusionGuide.edge_set"></a>
 
@@ -281,13 +281,13 @@ Whether this object is currently enabled or not. It’s derived from the parent 
 
 #### *property* radius
 
-radius up to which nodal guide translations are propagated through the mesh
+Radius up to which nodal guide translations are propagated through the mesh.
 
 <a id="compolyx.ExtrusionGuide.use_curvature_correction"></a>
 
 #### *property* use_curvature_correction
 
-whether to use curvature correction algorithm to smooth mesh adapted to extrusion guide. Default is False
+Whether to use curvature correction algorithm to smooth mesh adapted to extrusion guide. Default is False.
 
 <a id="snaptogeometry"></a>
 
@@ -297,13 +297,13 @@ whether to use curvature correction algorithm to smooth mesh adapted to extrusio
 
 ### *class* compolyx.SnapToGeometry(obj, parent)
 
-SnapToGeometry guide class
+SnapToGeometry guide class.
 
 <a id="compolyx.SnapToGeometry.active"></a>
 
 #### *property* active
 
-Snap-To Geometry active
+Snap-To Geometry active.
 
 <a id="compolyx.SnapToGeometry.cad_geometry"></a>
 
@@ -315,7 +315,7 @@ Associated Geometry.
 
 #### *property* elements
 
-List of affected shell elements
+List of affected shell elements.
 
 <a id="compolyx.SnapToGeometry.enabled"></a>
 
@@ -327,7 +327,7 @@ Whether this object is currently enabled or not. It’s derived from the parent 
 
 #### *property* orientation
 
-Orientation. Allowed string values: [‘top’, ‘bottom’, ‘undefined’]
+Orientation. Allowed string values: [‘top’, ‘bottom’, ‘undefined’].
 
 <a id="cutoffgeometry"></a>
 
@@ -337,13 +337,13 @@ Orientation. Allowed string values: [‘top’, ‘bottom’, ‘undefined’]
 
 ### *class* compolyx.CutOffGeometry(obj, parent=None)
 
-CutOffGeometry guide class
+CutOffGeometry guide class.
 
 <a id="compolyx.CutOffGeometry.active"></a>
 
 #### *property* active
 
-Cut-Off Geometry active
+Cut-Off Geometry active.
 
 <a id="compolyx.CutOffGeometry.cad_geometry"></a>
 
@@ -361,13 +361,13 @@ Whether this object is currently enabled or not. It’s derived from the parent 
 
 #### *property* orientation
 
-Orientation. Allowed string values: [‘up’, ‘down’]
+Orientation. Allowed string values: [‘up’, ‘down’].
 
 <a id="compolyx.CutOffGeometry.rel_merge_tolerance"></a>
 
 #### *property* rel_merge_tolerance
 
-Relative Merge Tolerance
+Relative Merge Tolerance..
 
 <a id="solidelementset"></a>
 
@@ -378,7 +378,7 @@ Relative Merge Tolerance
 ### *class* compolyx.SolidElementSet(graph, obj=None, parent=None)
 
 Solid element set class
-Element Set of a solid model
+Element Set of a solid model.
 
 <a id="compolyx.SolidElementSet.element_labels"></a>
 
@@ -390,19 +390,19 @@ List of solid elements which are linked to this element set.
 
 #### *property* locked
 
-Returns true if the object is locked (nor editable, neither deletable)
+Returns true if the object is locked (nor editable, neither deletable).
 
 <a id="compolyx.SolidElementSet.serialize"></a>
 
 #### serialize()
 
-Serialize to Python string
+Serialize to Python string.
 
 <a id="compolyx.SolidElementSet.size"></a>
 
 #### *property* size
 
-Number of entities
+Number of entities.
 
 <a id="importedsolidmodel"></a>
 
@@ -412,7 +412,7 @@ Number of entities
 
 ### *class* compolyx.ImportedSolidModel(graph, obj, parent=None)
 
-Imported Solid Model class
+Imported Solid Model class.
 
 <a id="compolyx.ImportedSolidModel.clear_generated_data"></a>
 
@@ -424,45 +424,45 @@ Function clears generated solid model but keeps all definitions.
 
 #### copy_layup_mapping_object(source)
 
-Copy a Lay-up Mapping Object
+Copy a Lay-up Mapping Object.
 
 * **Parameters:**
-  - source: Source object to copy
+  - source: Source object to copy.
 * **Returns:**
-  New instance of LayupMappingObject
+  New instance of LayupMappingObject.
 
 <a id="compolyx.ImportedSolidModel.create_layup_mapping_object"></a>
 
 #### create_layup_mapping_object(name='', id='', active=True, entire_solid_mesh=True, solid_element_sets=[], element_sets=None, delete_lost_elements=True, rosette_selection_method_type='minimum_distance', base_element_rosette_selection_method_type='minimum_distance', element_technology='layered_element', scale_ply_thicknesses=True, all_plies=True, use_imported_plies=False, sequences=[], rosettes=[], base_element_rosettes=[], minimum_void_material_thickness=-1.0, void_material=None, filler_material=None, base_material=None, base_element_material_handling='remove', reinforcing_stress_state='plane_stress_state_with_transverse_shear_and_bending_stiffness', reinforcing_behavior='tension_and_compression')
 
-Create a new lay-up mapping object
+Create a new lay-up mapping object.
 
 * **Parameters:**
-  - name: The name of the Solid Model
-  - id: The id of the Solid Model
-  - active: Active status of lay-up mapping object
-  - entire_solid_mesh: If true, then the scope is all solid elements
-  - solid_element_sets: Defines the scope of solid elements if entire_solid_mesh is False
-  - element_sets: a list of Element Sets of the reference surface. Used to extract the plies.
-  - filler_material: Global filler material which is assigned to the elements without any layers
+  - name: The name of the Solid Model.
+  - id: The id of the Solid Model.
+  - active: Active status of lay-up mapping object.
+  - entire_solid_mesh: If true, then the scope is all solid elements.
+  - solid_element_sets: Defines the scope of solid elements if entire_solid_mesh is False.
+  - element_sets: A list of Element Sets of the reference surface. Used to extract the plies.
+  - filler_material: Global filler material which is assigned to the elements without any layers.
   - delete_lost_elements: If enabled, then all elements which do not intersect with the lay-up are deleted.
   - rosette_selection_method_type: Defines how the coordinate systems are applied to the filler/lost elements. Used if the element technology is layered_element.
   - base_element_rosette_selection_method_type: Defines how the coordinate systems are applied to the base solid elements. Used if the element technology is reinforcing.
-  - element_technology: Specifies the element technology of this mapping (layered elements or reinforcings)
-  - scale_ply_thicknesses: Scale plies within layered solid element if they do not fill the entire element, else add void layers
-  - all_plies: Whether all plies of the selected scope (element_sets) should be mapped or only specific sequences
+  - element_technology: Specifies the element technology of this mapping (layered elements or reinforcings).
+  - scale_ply_thicknesses: Scale plies within layered solid element if they do not fill the entire element, else add void layers.
+  - all_plies: Whether all plies of the selected scope (element_sets) should be mapped or only specific sequences.
   - use_imported_plies: If selected, Imported Ply objects can be used for the mapping. Else standard Modeling Plies.
-  - sequences: List of Modeling Groups and/or Modeling Plies which are mapped onto the element scope
+  - sequences: List of Modeling Groups and/or Modeling Plies which are mapped onto the element scope.
   - rosettes: List of rosettes used to orient the lost elements. Used if the element technology is layered_element.
   - base_element_rosettes: List of coordinate systems used to orient the base solid elements. Used if the element technology is reinforcing.
   - minimum_void_material_thickness: Specifies the minimum thickness of void layers. Default is equal to the minimum analysis ply thickness of the model.
-  - void_material: Global void material which is assigned to layered elements that are not fully filled with ply material
-  - base_material: Specify the base material of the solids if reinforcing are used
+  - void_material: Global void material which is assigned to layered elements that are not fully filled with ply material.
+  - base_material: Specify the base material of the solids if reinforcing are used.
   - base_element_material_handling: Whether to remove the base material of the solids where the reinforcing intersect, or keep it.
   - reinforcing_stress_state: Specify the stress state of the reinforcing.
   - reinforcing_behavior: Select the mechanical behavior of the reinforcing.
 * **Returns:**
-  The created Layup Mapping Object
+  The created Layup Mapping Object.
 * **Note:**
   - Base solid elements are the solid elements of a Lay-up Mapping object of type reinforcing which are intersected with the
     reinforcing surfaces.
@@ -471,7 +471,7 @@ Create a new lay-up mapping object
 
 #### create_solid_element_set(name, id='', locked=False)
 
-For internal use only: Creates a Solid Element Set
+For internal use only: Creates a Solid Element Set.
 
 <a id="compolyx.ImportedSolidModel.enabled"></a>
 
@@ -495,7 +495,7 @@ The file path where the CAD geometry is loaded from.
 
 #### *property* format
 
-File format of the imported mesh
+File format of the imported mesh.
 
 <a id="compolyx.ImportedSolidModel.has_reinforcing_objects"></a>
 
@@ -511,7 +511,7 @@ Load the solid mesh without updating the lay-up mapping.
 The mesh is not refreshed if the solid model is already up-to-date.
 
 * **Parameters:**
-  - unit_system_type: the mesh is converted to the specified unit system. For instance, “mpa” or “bin”
+  - unit_system_type: the mesh is converted to the specified unit system. For instance, “mpa” or “bin”.
 
 <a id="compolyx.ImportedSolidModel.layup_mapping_objects"></a>
 
@@ -523,7 +523,7 @@ Objects which define the scoping and details of each mapping step.
 
 #### mapping_statistics()
 
-Returns the statistics of the layup mapping (number of elements, volumes, mass etc.)
+Returns the statistics of the layup mapping (number of elements, volumes, mass etc.).
 
 <a id="compolyx.ImportedSolidModel.refresh_external_source"></a>
 
@@ -538,20 +538,20 @@ Reloads the mesh from the external source.
 
 #### serialize()
 
-Returns the Python serialization string
+Returns the Python serialization string.
 
 <a id="compolyx.ImportedSolidModel.unit_system"></a>
 
 #### *property* unit_system
 
-Unit system type of the imported mesh. Allowed string values are undefined, si, mks, umks, cgs, mpa, bft, bin
+Unit system type of the imported mesh. Allowed string values are undefined, si, mks, umks, cgs, mpa, bft, bin.
 
 <a id="compolyx.ImportedSolidModel.update_mapping_statistics"></a>
 
 #### update_mapping_statistics()
 
 Computes the mapping statistics per ply to compare the original lay-up with the mapped data.
-Use imported_solid_model.mapping_statistics() to retrieve the results
+Use imported_solid_model.mapping_statistics() to retrieve the results.
 
 <a id="layupmappingobject"></a>
 
@@ -561,7 +561,7 @@ Use imported_solid_model.mapping_statistics() to retrieve the results
 
 ### *class* compolyx.LayupMappingObject(graph, obj, parent=None)
 
-Layup Mapping class
+Layup Mapping class.
 
 <a id="compolyx.LayupMappingObject.active"></a>
 
@@ -579,25 +579,25 @@ Boolean whether all plies of the selected scope should be mapped or a user-defin
 
 #### *property* analysis_plies
 
-Analysis Plies of the Mapping Object
+Analysis Plies of the Mapping Object.
 
 <a id="compolyx.LayupMappingObject.base_element_material_handling"></a>
 
 #### *property* base_element_material_handling
 
-Whether the base-element material is removed or kept. Allowed string values: [‘retain’, ‘remove’]
+Whether the base-element material is removed or kept. Allowed string values: [‘retain’, ‘remove’].
 
 <a id="compolyx.LayupMappingObject.base_element_rosette_selection_method_type"></a>
 
 #### *property* base_element_rosette_selection_method_type
 
-Selection method of the coordinate systems for the base elements. Allowed string values: [‘minimum_distance’, ‘minimum_distance_superposed’]
+Selection method of the coordinate systems for the base elements. Allowed string values: [‘minimum_distance’, ‘minimum_distance_superposed’].
 
 <a id="compolyx.LayupMappingObject.base_element_rosettes"></a>
 
 #### *property* base_element_rosettes
 
-List of rosettes used to orient the lost elements
+List of rosettes used to orient the lost elements.
 
 <a id="compolyx.LayupMappingObject.base_material"></a>
 
@@ -621,7 +621,7 @@ Element Set(s) of the solid model.
 
 #### *property* element_technology
 
-Defines the element technology. Allowed string values: [‘layered_element’, ‘reinforcing’]
+Defines the element technology. Allowed string values: [‘layered_element’, ‘reinforcing’].
 
 <a id="compolyx.LayupMappingObject.enabled"></a>
 
@@ -645,31 +645,31 @@ Filler material if layered elements are used.
 
 #### *property* minimum_void_material_thickness
 
-Minimum thickness of the void layer!
+Minimum thickness of the void layer.
 
 <a id="compolyx.LayupMappingObject.reinforcing_behavior"></a>
 
 #### *property* reinforcing_behavior
 
-Whether the reinforcing carries load and/or tension. Allowed string values: [‘tension_and_compression’, ‘tension_only’, ‘compression_only’]
+Whether the reinforcing carries load and/or tension. Allowed string values: [‘tension_and_compression’, ‘tension_only’, ‘compression_only’].
 
 <a id="compolyx.LayupMappingObject.reinforcing_stress_state"></a>
 
 #### *property* reinforcing_stress_state
 
-Defines which FE elements are used. Allowed string values: [‘uniaxial_stress_state’, ‘plane_stress_state’, ‘plane_stress_state_with_transverse_shear_stiffness’, ‘plane_stress_state_with_transverse_shear_and_bending_stiffness’]
+Defines which FE elements are used. Allowed string values: [‘uniaxial_stress_state’, ‘plane_stress_state’, ‘plane_stress_state_with_transverse_shear_stiffness’, ‘plane_stress_state_with_transverse_shear_and_bending_stiffness’].
 
 <a id="compolyx.LayupMappingObject.rosette_selection_method_type"></a>
 
 #### *property* rosette_selection_method_type
 
-Selection method of the coordinate systems for the filler/lost elements. Allowed string values: [‘minimum_distance’, ‘minimum_distance_superposed’]
+Selection method of the coordinate systems for the filler/lost elements. Allowed string values: [‘minimum_distance’, ‘minimum_distance_superposed’].
 
 <a id="compolyx.LayupMappingObject.rosettes"></a>
 
 #### *property* rosettes
 
-List of rosettes used to orient the lost elements
+List of rosettes used to orient the lost elements.
 
 <a id="compolyx.LayupMappingObject.scale_ply_thicknesses"></a>
 
@@ -687,7 +687,7 @@ User-defined sequence entities to map.
 
 #### *property* solid_element_sets
 
-List of element sets of the solid mesh onto which the mapping is applied to
+List of element sets of the solid mesh onto which the mapping is applied to.
 
 <a id="compolyx.LayupMappingObject.use_imported_plies"></a>
 
