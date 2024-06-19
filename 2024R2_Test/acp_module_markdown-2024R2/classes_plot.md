@@ -38,7 +38,7 @@ Copy a plot object.
 
 ### *class* compolyx.plot_data.LayupPlotDict(name, label=None, obj=None, list=[], item_type=<class 'object'>, parent=None, key_attr='name')
 
-Container for Layup Plots
+Container for Layup Plots.
 
 <a id="compolyx.plot_data.LayupPlotDict.create_angle_plot"></a>
 
@@ -47,10 +47,10 @@ Container for Layup Plots
 Create a Angle Plot object.
 
 * **Parameters:**
-  - name: Name of the plot
-  - id: ID for the plot
+  - name: Name of the plot.
+  - id: ID for the plot.
   - scope_entire_model: If true, then the scope of this plot is the entire model. If not, then set to false and use the data_scope to specify a sub scope.
-  - data_scope: Object(s) defining the scope for which data is computed and returned
+  - data_scope: Object(s) defining the scope for which data is computed and returned.
    
     &nbsp;&nbsp; Applicable are: Element Set, Oriented Selection Set, Modeling Ply, Sampling Point
   - show_on_solids: True or False (default). Whether to show the results on the shell or solid model (if present).
@@ -58,7 +58,7 @@ Create a Angle Plot object.
   - show_ply_offsets: True or False (default). Whether to display ply-wise visualizations with ply offsets or not.
   - ply_offset_scale_factor: Scale factor for the offsets of the visualized plies if show_ply_offsets=True.
 * **Returns:**
-  the plot object
+  the plot object.
 
 **Example:**
   Create a angle plot with Data Scope set to Element Set “All_Elements”:
@@ -74,10 +74,10 @@ Create a Angle Plot object.
 Create a Draping Plot object.
 
 * **Parameters:**
-  - name: Name of the plot
-  - id: ID for the plot
+  - name: Name of the plot.
+  - id: ID for the plot.
 * **Returns:**
-  the plot object
+  the plot object.
 
 **Example:**
   Create a draping plot with Data Scope set to Element Set “All_Elements”:
@@ -93,13 +93,13 @@ Create a Draping Plot object.
 Create a FieldDefinition Plot object.
 
 * **Parameters:**
-  - name: Name of the plot
-  - id: ID for the plot
+  - name: Name of the plot.
+  - id: ID for the plot.
   - scope_entire_model: If true, then the scope of this plot is the entire model. If not, then set to false and use the data_scope to specify a sub scope.
-  - data_scope: Object(s) defining the scope for which data is computed and returned. Applicable are: Element Set, Oriented Selection Set, Modeling Ply
+  - data_scope: Object(s) defining the scope for which data is computed and returned. Applicable are: Element Set, Oriented Selection Set, Modeling Ply.
   - show_on_solids: True or False (default). Whether to show the results on the shell or solid model (if present).
 * **Returns:**
-  the plot object
+  the plot object.
 
 **Example:**
   Create a field definition plot for field degradation with Data Scope set to Element Set “All_Elements” in ply_wise mode:
@@ -115,16 +115,16 @@ Create a FieldDefinition Plot object.
 Create a Layup Mapping Plot object.
 
 * **Parameters:**
-  - name: Name of the plot
-  - id: ID for the plot
-  - data_scope: Object(s) defining the scope for which data is computed and returned. Applicable are: Imported Solid Model
+  - name: Name of the plot.
+  - id: ID for the plot.
+  - data_scope: Object(s) defining the scope for which data is computed and returned. Applicable are: Imported Solid Model.
   - ply_wise: True or False (default). Decides whether to return the thickness of the individual plies or of the whole stack of plies present at an element.
   - show_on_solids: True or False (default). Whether to show the results on the shell or solid model (if present).
   - component: Specifies the active component
-  - show_on_solids: Whether to show the values of the solid element or not
-  - active: Whether the plot is active or not
+  - show_on_solids: Whether to show the values of the solid element or not.
+  - active: Whether the plot is active or not.
 * **Returns:**
-  the plot object
+  the plot object.
 
 **Example:**
   Create a thickness plot with Data Scope set to Element Set “All_Elements” in ply_wise mode:
@@ -140,18 +140,18 @@ Create a Layup Mapping Plot object.
 Create a Material Plot object.
 
 * **Parameters:**
-  - name: Name of the plot
-  - id: ID for the plot
+  - name: Name of the plot.
+  - id: ID for the plot.
   - active: Whether the plot is active or not.
   - scope_entire_model: If true, then the scope of this plot is the entire model. If not, then set to false and use the data_scope to specify a sub scope.
-  - data_scope: Object(s) defining the scope for which data is computed and returned. Applicable are: Element Set, Oriented Selection Set, Modeling Ply, Sampling Point
+  - data_scope: Object(s) defining the scope for which data is computed and returned. Applicable are: Element Set, Oriented Selection Set, Modeling Ply, Sampling Point.
   - show_on_solids: True or False (default). Whether to show the results on the shell or solid model (if present).
   - show_ply_offsets: True or False (default). Whether to display ply-wise visualizations with ply offsets or not.
   - ply_offset_scale_factor: Scale factor for the offsets of the visualized plies if show_ply_offsets=True.
   - component: Specifies the component.
   - use_all_available_fields: True (default) or False. Whether to enable all available field variables in the evaluation or not.
 * **Returns:**
-  the plot object
+  the plot object.
 
 **Example:**
   Create a material plot with Data Scope set to Element Set “All_Elements” showing the Young Modulus E2:
@@ -167,19 +167,19 @@ Create a Material Plot object.
 Create a Field Plot object.
 
 * **Parameters:**
-  - name: Name of the plot
-  - id: ID for the plot
+  - name: Name of the plot.
+  - id: ID for the plot.
   - scope_entire_model: If true, then the scope of this plot is the entire model. If not, then set to false and use the data_scope to specify a sub scope.
-  - data_scope: Object(s) defining the scope for which data is computed and returned. Applicable are: Element Set, Oriented Selection Set, Modeling Ply, Sampling Point
+  - data_scope: Object(s) defining the scope for which data is computed and returned. Applicable are: Element Set, Oriented Selection Set, Modeling Ply, Sampling Point.
   - ply_wise: True or False (default). Decides whether to return the field values of the individual plies or of the whole stack of plies present at an element.
   - show_on_solids: True or False (default). Whether to show the results on the shell or solid model (if present).
   - show_ply_offsets: True or False (default). Whether to display ply-wise visualizations with ply offsets or not.
   - ply_offset_scale_factor: Scale factor for the offsets of the visualized plies if show_ply_offsets=True.
 * **Returns:**
-  the plot object
+  the plot object.
 
 **Example:**
-  Create a field plot with Data Scope set to Element Set “All_Elements” in ply_wise mode:: tbdtbdtbd
+  Create a field plot with Data Scope set to Element Set “All_Elements” in ply_wise mode:: tbdtbdtbd.
 
 <a id="compolyx.plot_data.LayupPlotDict.create_thickness_plot"></a>
 
@@ -188,17 +188,17 @@ Create a Field Plot object.
 Create a Thickness Plot object.
 
 * **Parameters:**
-  - name: Name of the plot
-  - id: ID for the plot
+  - name: Name of the plot.
+  - id: ID for the plot.
   - scope_entire_model: If true, then the scope of this plot is the entire model. If not, then set to false and use the data_scope to specify a sub scope.
-  - data_scope: Object(s) defining the scope for which data is computed and returned. Applicable are: Element Set, Oriented Selection Set, Modeling Ply, Sampling Point
+  - data_scope: Object(s) defining the scope for which data is computed and returned. Applicable are: Element Set, Oriented Selection Set, Modeling Ply, Sampling Point.
   - ply_wise: True or False (default). Decides whether to return the thickness of the individual plies or of the whole stack of plies present at an element.
   - show_on_solids: True or False (default). Whether to show the results on the shell or solid model (if present).
   - show_ply_offsets: True or False (default). Whether to display ply-wise visualizations with ply offsets or not.
   - ply_offset_scale_factor: Scale factor for the offsets of the visualized plies if show_ply_offsets=True.
-  - component: Specifies the component
+  - component: Specifies the component.
 * **Returns:**
-  the plot object
+  the plot object.
 
 **Example:**
   Create a thickness plot with Data Scope set to Element Set “All_Elements” in ply_wise mode:
@@ -214,11 +214,11 @@ Create a Thickness Plot object.
 Create a User-defined Plot object.
 
 * **Parameters:**
-  - name: Name of the plot
-  - id: ID for the plot
+  - name: Name of the plot.
+  - id: ID for the plot.
   - active: Whether the plot is active or not.
   - scope_entire_model: If true, then the scope of this plot is the entire model. If not, then set to false and use the data_scope to specify a sub scope.
-  - data_scope: Object(s) defining the scope for which data is computed and returned. Applicable are: Element Set, Oriented Selection Set, Modeling Ply, Sampling Point
+  - data_scope: Object(s) defining the scope for which data is computed and returned. Applicable are: Element Set, Oriented Selection Set, Modeling Ply, Sampling Point.
   - user_data: Retrieve or provide the user data, which must obey the order of the user_element_indices or user_element_labels, respectively.
   - user_text: Access to the user-defined text of the plot. Empty strings can be inserted when no labels are to be shown for certain elements.
   - user_script: The body of the script to be executed on update if user_script_enabled = True.
@@ -230,7 +230,7 @@ Create a User-defined Plot object.
   - show_ply_offsets: True or False (default). Whether to display ply-wise visualizations with ply offsets or not.
   - ply_offset_scale_factor: Scale factor for the offsets of the visualized plies if show_ply_offsets=True.
 * **Returns:**
-  the plot object
+  the plot object.
 
 **Example:**
   Create a user-defined plot with Data Scope set to Element Set “All_Elements”:
@@ -247,7 +247,7 @@ Create a User-defined Plot object.
 
 ### *class* compolyx.plot_data.PostProcessingPlotDict(name, label=None, obj=None, list=[], item_type=<class 'object'>, parent=None, key_attr='name')
 
-Container for Post Processing Plots
+Container for Post Processing Plots.
 
 <a id="compolyx.plot_data.PostProcessingPlotDict.create_deformation_contour_plot"></a>
 
@@ -256,16 +256,16 @@ Container for Post Processing Plots
 Create a Deformation Plot object.
 
 * **Parameters:**
-  - name: Name of the plot
-  - id: ID for the plot
+  - name: Name of the plot.
+  - id: ID for the plot.
   - active: Whether the plot is active or not.
   - scope_entire_model: If true, then the scope of this plot is the entire model. If not, then set to false and use the data_scope to specify a sub scope.
-  - data_scope: Object(s) defining the scope for which data is computed and returned. Applicable are: Element Set, Oriented Selection Set, Modeling Ply, Sampling Point
-  - component: ‘x’, ‘y’, ‘z’, ‘rotx’, ‘roty’, ‘rotz’, ‘usum’
+  - data_scope: Object(s) defining the scope for which data is computed and returned. Applicable are: Element Set, Oriented Selection Set, Modeling Ply, Sampling Point.
+  - component: ‘x’, ‘y’, ‘z’, ‘rotx’, ‘roty’, ‘rotz’, ‘usum’.
   - show_on_solids: True or False (default). Whether to show the results on the shell or solid model (if present).
   - solution_set: Selection of the Solution Set.
 * **Returns:**
-  the plot object
+  the plot object.
 
 **Example:**
   Create a deformation plot with Data Scope set to Element Set “All_Elements” for ‘rotx’:
@@ -281,17 +281,17 @@ Create a Deformation Plot object.
 Create a Failure Criterion Plot object.
 
 * **Parameters:**
-  - name: Name of the plot
-  - id: ID for the plot
+  - name: Name of the plot.
+  - id: ID for the plot.
   - active: Whether the plot is active or not.
   - scope_entire_model: If true, then the scope of this plot is the entire model. If not, then set to false and use the data_scope to specify a sub scope.
-  - data_scope: Object(s) defining the scope for which data is computed and returned. Applicable are: Element Set, Oriented Selection Set, Modeling Ply, Sampling Point
-  - component: ‘irf’, ‘mos’, or ‘rf’, which are Inverse Reserve Factor, Margin of Safety, and Reserve Factor
+  - data_scope: Object(s) defining the scope for which data is computed and returned. Applicable are: Element Set, Oriented Selection Set, Modeling Ply, Sampling Point.
+  - component: ‘irf’, ‘mos’, or ‘rf’, which are Inverse Reserve Factor, Margin of Safety, and Reserve Factor.
   - ply_wise: True or False (default). Decides whether to evaluate for individual plies or pick the most critical ply per element.
   - show_on_solids: True or False (default). Whether to show the results on the shell or solid model (if present).
   - show_critical_failure_mode: True (default) or False. Whether to show the text, which indicates the mode of failure.
-  - show_critical_layer: Ture or False (default). Whether to show the text, which indicates the number of the failing ply (only if ply_wise = False)
-  - show_critical_load_case: Ture or False (default). Whether to show the text, which indicates the load case for which failure is predicted (only for Envelope Solutions)
+  - show_critical_layer: Ture or False (default). Whether to show the text, which indicates the number of the failing ply (only if ply_wise = False).
+  - show_critical_load_case: Ture or False (default). Whether to show the text, which indicates the load case for which failure is predicted (only for Envelope Solutions).
   - text_threshold: Threshold value above/below which text for an element is hidden. This helps to declutter the text plot.
   - text_threshold_auto: True (default) or False. If True, suggested text_thersold values are used.
   - failure_criteria_definition: Object of the failure criterion definition to be used for this plot.
@@ -299,10 +299,10 @@ Create a Failure Criterion Plot object.
   - ply_offset_scale_factor: Scale factor for the offsets of the visualized plies if show_ply_offsets=True.
   - solution_set: Selection of the Solution Set.
 * **Returns:**
-  the plot object
+  the plot object.
 
 **Example:**
-  Create a failure criterion plot with Data Scope set to Element Set “All_Elements”, showing the inverse reserve factor with the most critical layer per element for failure criterion “MyFC”, and not showing any text.:
+  Create a failure criterion plot with Data Scope set to Element Set “All_Elements”, showing the inverse reserve factor with the most critical layer per element for failure criterion “MyFC”, and not showing any text.
   <br/>
   ```default
   >>> fc_plot = db.active_model.solutions['Solution.1'].plots.create_failure_plot(self, name="MyPlot", data_scope=db.active_model.element_sets['All_Elements'], component = 'irf', ply_wise = False, show_critical_failure_mode = False, failure_criteria_definition = db.active_model.definitions['MyFC'])
@@ -315,18 +315,18 @@ Create a Failure Criterion Plot object.
 Create a Material Plot object.
 
 * **Parameters:**
-  - name: Name of the plot
-  - id: ID for the plot
+  - name: Name of the plot.
+  - id: ID for the plot.
   - active: Whether the plot is active or not.
   - scope_entire_model: If true, then the scope of this plot is the entire model. If not, then set to false and use the data_scope to specify a sub scope.
-  - data_scope: Object(s) defining the scope for which data is computed and returned. Applicable are: Element Set, Oriented Selection Set, Modeling Ply, Sampling Point
+  - data_scope: Object(s) defining the scope for which data is computed and returned. Applicable are: Element Set, Oriented Selection Set, Modeling Ply, Sampling Point.
   - show_on_solids: True or False (default). Whether to show the results on the shell or solid model (if present).
   - show_ply_offsets: True or False (default). Whether to display ply-wise visualizations with ply offsets or not.
   - ply_offset_scale_factor: Scale factor for the offsets of the visualized plies if show_ply_offsets=True.
-  - component: Specifies the component
+  - component: Specifies the component.
   - use_all_available_fields: True (default) or False. Whether to enable all available field variables in the evaluation or not.
   - solution_set: Selection of the Solution Set.
-* **Returns:**
+* **Returns:**.
   the plot object
 
 <a id="compolyx.plot_data.PostProcessingPlotDict.create_progressive_damage_plot"></a>
@@ -336,11 +336,11 @@ Create a Material Plot object.
 Create a Progressive Damage Plot object.
 
 * **Parameters:**
-  - name: Name of the plot
-  - id: ID for the plot
+  - name: Name of the plot.
+  - id: ID for the plot.
   - active: Whether the plot is active or not.
   - scope_entire_model: If true, then the scope of this plot is the entire model. If not, then set to false and use the data_scope to specify a sub scope.
-  - data_scope: Object(s) defining the scope for which data is computed and returned. Applicable are: Element Set, Oriented Selection Set, Modeling Ply, Sampling Point
+  - data_scope: Object(s) defining the scope for which data is computed and returned. Applicable are: Element Set, Oriented Selection Set, Modeling Ply, Sampling Point.
   - component: ‘state’, ‘fc’, ‘ft’, ‘mc’, ‘mt’, ‘s’ which are damage status, fiber compressive/tension damage, matrix compressive/tension damage and shear damage.
   - spot: ‘bot’, ‘top’, ‘mid’ (only if ply_wise = True)
   - ply_wise: True (default) or False. Decides whether to evaluate for individual plies or return the result of the finite element.
@@ -349,7 +349,7 @@ Create a Progressive Damage Plot object.
   - ply_offset_scale_factor: Scale factor for the offsets of the visualized plies if show_ply_offsets=True.
   - solution_set: Selection of the Solution Set.
 * **Returns:**
-  the plot object
+  the plot object.
 
 **Example:**
   Create a progressive damage plot with Data Scope set to Element Set “All_Elements” for ‘e1’ at ‘mid’ in ply_wise mode:
@@ -365,20 +365,20 @@ Create a Progressive Damage Plot object.
 Create a Strain Plot object.
 
 * **Parameters:**
-  - name: Name of the plot
-  - id: ID for the plot
+  - name: Name of the plot.
+  - id: ID for the plot.
   - active: Whether the plot is active or not.
   - scope_entire_model: If true, then the scope of this plot is the entire model. If not, then set to false and use the data_scope to specify a sub scope.
-  - data_scope: Object(s) defining the scope for which data is computed and returned. Applicable are: Element Set, Oriented Selection Set, Modeling Ply, Sampling Point
-  - component: ‘e1’, ‘e2’, ‘e3’, ‘e12’, ‘e23’, ‘e13’, ‘eI’, ‘eII’, ‘eIII’
-  - spot: ‘bot’, ‘top’, ‘mid’ (only if ply_wise = True)
+  - data_scope: Object(s) defining the scope for which data is computed and returned. Applicable are: Element Set, Oriented Selection Set, Modeling Ply, Sampling Point.
+  - component: ‘e1’, ‘e2’, ‘e3’, ‘e12’, ‘e23’, ‘e13’, ‘eI’, ‘eII’, ‘eIII’.
+  - spot: ‘bot’, ‘top’, ‘mid’ (only if ply_wise = True).
   - ply_wise: True (default) or False. Decides whether to evaluate for individual plies or return the result of the finite element.
   - show_on_solids: True or False (default). Whether to show the results on the shell or solid model (if present).
   - show_ply_offsets: True or False (default). Whether to display ply-wise visualizations with ply offsets or not.
   - ply_offset_scale_factor: Scale factor for the offsets of the visualized plies if show_ply_offsets=True.
   - solution_set: Selection of the Solution Set.
 * **Returns:**
-  the plot object
+  the plot object.
 
 **Example:**
   Create a strain plot with Data Scope set to Element Set “All_Elements” for ‘e1’ at ‘mid’ in ply_wise mode:
@@ -394,20 +394,20 @@ Create a Strain Plot object.
 Create a Stress Plot object.
 
 * **Parameters:**
-  - name: Name of the plot
-  - id: ID for the plot
+  - name: Name of the plot.
+  - id: ID for the plot.
   - active: Whether the plot is active or not.
   - scope_entire_model: If true, then the scope of this plot is the entire model. If not, then set to false and use the data_scope to specify a sub scope.
-  - data_scope: Object(s) defining the scope for which data is computed and returned. Applicable are: Element Set, Oriented Selection Set, Modeling Ply, Sampling Point
-  - component: ‘s1’, ‘s2’, ‘s3’, ‘s12’, ‘s23’, ‘s13’, ‘sI’, ‘sII’, ‘sIII’
-  - spot: ‘bot’, ‘top’, ‘mid’ (only if ply_wise = True)
+  - data_scope: Object(s) defining the scope for which data is computed and returned. Applicable are: Element Set, Oriented Selection Set, Modeling Ply, Sampling Point.
+  - component: ‘s1’, ‘s2’, ‘s3’, ‘s12’, ‘s23’, ‘s13’, ‘sI’, ‘sII’, ‘sIII’.
+  - spot: ‘bot’, ‘top’, ‘mid’ (only if ply_wise = True).
   - ply_wise: True (default) or False. Decides whether to evaluate for individual plies or return the result of the finite element.
   - show_on_solids: True or False (default). Whether to show the results on the shell or solid model (if present).
   - show_ply_offsets: True or False (default). Whether to display ply-wise visualizations with ply offsets or not.
   - ply_offset_scale_factor: Scale factor for the offsets of the visualized plies if show_ply_offsets=True.
   - solution_set: Selection of the Solution Set.
 * **Returns:**
-  the plot object
+  the plot object.
 
 **Example:**
   Create a stress plot with Data Scope set to Element Set “All_Elements” for ‘s1’ at ‘mid’ in ply_wise mode:
@@ -423,8 +423,8 @@ Create a Stress Plot object.
 Create a Temperature Plot object.
 
 * **Parameters:**
-  - name: Name of the plot
-  - id: ID for the plot
+  - name: Name of the plot.
+  - id: ID for the plot.
   - active: Whether the plot is active or not.
   - scope_entire_model: If true, then the scope of this plot is the entire model. If not, then set to false and use the data_scope to specify a sub scope.
   - data_scope: Object(s) defining the scope for which data is computed and returned. Applicable are: Element Set, Oriented Selection Set, Modeling Ply, Sampling Point
@@ -432,7 +432,7 @@ Create a Temperature Plot object.
   - ply_wise: True (default) or False. Decides whether to evaluate for individual plies or return the result of the finite element.
   - solution_set: Selection of the Solution Set.
 * **Returns:**
-  the plot object
+  the plot object.
 
 **Example:**
   Create a temperature plot with Data Scope set to Element Set “All_Elements” with spot set to ‘mid’ in ply_wise mode:
@@ -448,24 +448,24 @@ Create a Temperature Plot object.
 Create a User-Defined Plot object.
 
 * **Parameters:**
-  - name: Name of the plot
-  - id: ID for the plot
+  - name: Name of the plot.
+  - id: ID for the plot.
   - active: Whether the plot is active or not.
   - scope_entire_model: If true, then the scope of this plot is the entire model. If not, then set to false and use the data_scope to specify a sub scope.
-  - data_scope: Object(s) defining the scope for which data is computed and returned. Applicable are: Element Set, Oriented Selection Set, Modeling Ply, Sampling Point
+  - data_scope: Object(s) defining the scope for which data is computed and returned. Applicable are: Element Set, Oriented Selection Set, Modeling Ply, Sampling Point.
   - user_data: Retrieve or provide the user data, which must obey the order of the user_element_indices or user_element_labels, respectively.
   - user_text: Access to the user-defined text of the plot. Empty strings can be inserted when no labels are to be shown for certain elements.
   - user_script: The body of the script to be executed on update if user_script_enabled = True.
   - user_script_enabled: Boolean that controls if a custom script is run on update.
   - show_on_solids: True or False (default). Whether to show the results on the shell or solid model (if present).
   - show_user_text: True or False (default). Whether to show the text, which the user provided.
-  - text_threshold_type: “show_all” (default), “show_only_values_above_threshold”, “show_only_values_below_threshold. Threshold can be set using the text_threshold property
+  - text_threshold_type: “show_all” (default), “show_only_values_above_threshold”, “show_only_values_below_threshold. Threshold can be set using the text_threshold property.
   - text_threshold: Threshold used for showing text if text_threshold_type is not “show_all”
   - show_ply_offsets: True or False (default). Whether to display ply-wise visualizations with ply offsets or not.
   - ply_offset_scale_factor: Scale factor for the offsets of the visualized plies if show_ply_offsets=True.
   - solution_set: Selection of the Solution Set.
 * **Returns:**
-  the plot object
+  the plot object.
 
 **Example:**
   Create a user-defined plot with Data Scope set to Element Set “All_Elements”:
@@ -496,7 +496,7 @@ Whether the plot is active or not; an inactive plot is not updated and it does n
 
 #### *property* active_display_data
 
-Returns a dictionary containing display data for this plot owned by the active scene
+Returns a dictionary containing display data for this plot owned by the active scene.
 
 <a id="compolyx.plot_data.PlotData.add_data_scope_entity"></a>
 
@@ -505,7 +505,7 @@ Returns a dictionary containing display data for this plot owned by the active s
 Add 1 entity to the Data Scope of a plot.
 
 * **Parameters:**
-  - entity: Entity to be added. Applicable are Element Set, Oriented Selection Set, Modeling Ply, Production Ply, Analysis Ply, and Sampling Point
+  - entity: Entity to be added. Applicable are Element Set, Oriented Selection Set, Modeling Ply, Production Ply, Analysis Ply, and Sampling Point.
 
 **Example:**
   Add the Element Set “My_ESet” to a my_plot:
@@ -518,13 +518,13 @@ Add 1 entity to the Data Scope of a plot.
 
 #### *property* all_display_data
 
-Returns a list of all display data classes in existence for this object
+Returns a list of all display data classes in existence for this object.
 
 <a id="compolyx.plot_data.PlotData.changed"></a>
 
 #### *property* changed
 
-Status boolean. Set to true if the underlying data has been changed. Write only property
+Status boolean. Set to true if the underlying data has been changed. Write only property.
 
 <a id="compolyx.plot_data.PlotData.clear_data_scope"></a>
 
@@ -536,13 +536,13 @@ Cleares the complete data scope of a plot, i.e. all scope entities are removed a
 
 #### *property* component
 
-The requested result component for a specific plot, e.g. s1 for the stress in the 1-direction
+The requested result component for a specific plot, e.g. s1 for the stress in the 1-direction.
 
 <a id="compolyx.plot_data.PlotData.components"></a>
 
 #### *property* components
 
-Return the possible component set on this plot type
+Return the possible component set on this plot type.
 
 <a id="compolyx.plot_data.PlotData.data_scope"></a>
 
@@ -554,7 +554,7 @@ Data scope of the plot where results will be evaluated.
 
 #### *property* description_changed
 
-Status boolean. Set to true if the object’s description has been changed. Write only property
+Status boolean. Set to true if the object’s description has been changed. Write only property.
 
 <a id="compolyx.plot_data.PlotData.display_data_create"></a>
 
@@ -581,14 +581,14 @@ The finite element position at which the results are given, e.g. centroid or nod
 Get data of plot.
 
 * **Parameters:**
-  - visible: Object(s) defining visible scope
+  - visible: Object(s) defining visible scope.
   - selected: Selected object(s) for ply-wise evaluations.
 * **Returns:**
   Resulting n-dimensional array with plot data for each selected object.
-  The scope of the data is evaluated identically as for get_element_xx functions as the intersection of
-  - data_scope of plot
-  - visible_scope defined by visible
-  - selection_scope defined by selected
+  The scope of the data is evaluated identically as for get_element_xx functions as the intersection of:
+  - data_scope of plot.
+  - visible_scope defined by visible.
+  - selection_scope defined by selected.
 
 Data is returned independent of update status of plot, but only if results for the current plot configuration are available, else an empty array is returned.
 
@@ -618,16 +618,16 @@ normal get_data(…) method.
 
 #### get_element_indices(visible=None, selected=None)
 
-Get element indices (ACP internal element numbers starting from 0) of plot
+Get element indices (ACP internal element numbers starting from 0) of plot.
 
 * **Parameters:**
-  - visible: Object(s) defining visible scope
+  - visible: Object(s) defining visible scope.
   - selected: Selected object(s) for ply-wise evaluations.
 * **Returns:**
-  Resulting array with element indices from the intersection of
-  - data_scope of plot
-  - visible_scope defined by visible
-  - selection_scope defined by selected
+  Resulting array with element indices from the intersection of:
+  - data_scope of plot.
+  - visible_scope defined by visible.
+  - selection_scope defined by selected.
 
 Indices are returned independent of update status of plot, but only if results for the current plot configuration are available, else an empty array is returned.
 
@@ -650,13 +650,13 @@ Indices are returned independent of update status of plot, but only if results f
 Get element labels (element numbers as read from / written to mesh files)  of plot.
 
 * **Parameters:**
-  - visible: Object(s) defining visible scope
+  - visible: Object(s) defining visible scope.
   - selected: Selected object(s) for ply-wise evaluations.
 * **Returns:**
-  Resulting array with element labels from the intersection of
-  - data_scope of plot
-  - visible_scope defined by visible
-  - selection_scope defined by selected
+  Resulting array with element labels from the intersection of:
+  - data_scope of plot.
+  - visible_scope defined by visible.
+  - selection_scope defined by selected.
 
 Labels are returned independent of update status of plot, but only if results for the current plot configuration are available, else an empty array is returned.
 
@@ -696,13 +696,13 @@ Whether the plot offers ply-wise data.
 
 #### *property* locked
 
-Returns the locked status of the plot
+Returns the locked status of the plot.
 
 <a id="compolyx.plot_data.PlotData.name"></a>
 
 #### *property* name
 
-Name of object
+Name of object.
 
 <a id="compolyx.plot_data.PlotData.ply_wise"></a>
 
@@ -717,7 +717,7 @@ Whether to plot ply-wise or element-wise.
 Remove 1 entity to the Data Scope of a plot.
 
 * **Parameters:**
-  - entity: Entity to be removed. Applicable are Element Set, Oriented Selection Set, Modeling Ply, Production Ply, Analysis Ply, and Sampling Point
+  - entity: Entity to be removed. Applicable are Element Set, Oriented Selection Set, Modeling Ply, Production Ply, Analysis Ply, and Sampling Point.
 
 **Example:**
   Remove the Element Set “My_ESet” from my_plot:
@@ -736,13 +736,13 @@ Whether the plot scope is the entire model or a subset defined by the data_scope
 
 #### serialize()
 
-Serialize to Python string
+Serialize to Python string.
 
 <a id="compolyx.plot_data.PlotData.serialize_properties"></a>
 
 #### serialize_properties()
 
-Serialize to Python string
+Serialize to Python string.
 
 <a id="compolyx.plot_data.PlotData.show_on_solids"></a>
 
@@ -772,13 +772,13 @@ Whether to plot data at bot, mid or top of the layer or laminate.
 
 #### *property* spots
 
-Return the possible spot set on this plot type
+Return the possible spot set on this plot type.
 
 <a id="compolyx.plot_data.PlotData.updated"></a>
 
 #### *property* updated
 
-Status boolean. Set to true if the underlying data has been changed. Write only property
+Status boolean. Set to true if the underlying data has been changed. Write only property.
 
 <a id="compolyx.plot_data.PlotData.uptodate"></a>
 
@@ -803,7 +803,7 @@ Bases: [`PlotData`](#compolyx.plot_data.PlotData)
 Get the offset between plies and reference surface.
 
 * **Parameters:**
-  - visible: Object(s) defining visible scope
+  - visible: Object(s) defining visible scope.
   - selected: Selected object(s) for ply-wise evaluations.
 * **Returns:**
   Resulting n-dimensional array of arrays with the ply-offset vectors for each node within the object/ply-selection:
@@ -812,10 +812,10 @@ Get the offset between plies and reference surface.
   …
   ]
 
-  The scope of the data is evaluated as the intersection of
-  > - data_scope of plot
-  > - visible_scope defined by visible
-  > - selection_scope defined by selected
+  The scope of the data is evaluated as the intersection of:
+   - data_scope of plot.
+   - visible_scope defined by visible.
+   - selection_scope defined by selected.
 
 **Example:**
   Get the ply-offsets for the current ply-wise plot with visible scope set to element set “All_Elements” and with ply1 and ply2 selected:
@@ -828,25 +828,25 @@ Get the offset between plies and reference surface.
 
 #### *property* minmax
 
-Min and max value of current data
+Min and max value of current data.
 
 <a id="compolyx.plot_data.ContourData.minmax_last_query"></a>
 
 #### *property* minmax_last_query
 
-Min and max value of data of last query
+Min and max value of data of last query.
 
 <a id="compolyx.plot_data.ContourData.ply_offset_scale_factor"></a>
 
 #### *property* ply_offset_scale_factor
 
-Offset scale factor
+Offset scale factor.
 
 <a id="compolyx.plot_data.ContourData.serialize"></a>
 
 #### serialize()
 
-Serialize to Python string
+Serialize to Python string.
 
 <a id="angledata"></a>
 
@@ -862,7 +862,7 @@ Bases: [`ContourData`](#compolyx.plot_data.ContourData)
 
 #### *property* spot
 
-Not applicable to an angle plot
+Not applicable to an angle plot.
 
 <a id="thicknessdata"></a>
 
@@ -878,7 +878,7 @@ Bases: [`ContourData`](#compolyx.plot_data.ContourData)
 
 #### *property* spot
 
-Not applicable to a thickness plot
+Not applicable to a thickness plot.
 
 <a id="scalarfielddata"></a>
 
@@ -954,7 +954,7 @@ The underlying scalar field.
 
 #### serialize()
 
-Serialize to Python string
+Serialize to Python string.
 
 <a id="compolyx.plot_data.ScalarFieldData.show_supporting_point_labels"></a>
 
@@ -972,7 +972,7 @@ Whether to the plot supporting points.
 
 #### *property* spot
 
-Not applicable to a scalar field plot
+Not applicable to a scalar field plot.
 
 <a id="compolyx.plot_data.ScalarFieldData.supporting_point_scale_factor"></a>
 
@@ -994,13 +994,13 @@ Bases: [`PlotData`](#compolyx.plot_data.PlotData)
 
 #### serialize()
 
-Serialize to Python string
+Serialize to Python string.
 
 <a id="compolyx.plot_data.DrapingData.serialize_properties"></a>
 
 #### serialize_properties()
 
-Serialize to Python string
+Serialize to Python string.
 
 <a id="compolyx.plot_data.DrapingData.show_draping_mesh"></a>
 
@@ -1034,13 +1034,13 @@ The underlying field variable name.
 
 #### serialize()
 
-Serialize to Python string
+Serialize to Python string.
 
 <a id="compolyx.plot_data.FieldDefinitionData.spot"></a>
 
 #### *property* spot
 
-Not applicable to a field definition plot
+Not applicable to a field definition plot.
 
 <a id="layupmappingdata"></a>
 
@@ -1056,7 +1056,7 @@ Bases: [`ContourData`](#compolyx.plot_data.ContourData)
 
 #### *property* spot
 
-Not applicable to a layup mapping plot
+Not applicable to a layup mapping plot.
 
 <a id="userdefineddata"></a>
 
@@ -1072,7 +1072,7 @@ Bases: [`ContourData`](#compolyx.plot_data.ContourData)
 
 #### serialize_properties()
 
-Serialize to Python string
+Serialize to Python string.
 
 <a id="compolyx.plot_data.UserDefinedData.show_user_text"></a>
 
@@ -1084,7 +1084,7 @@ Whether to show the user-defined text labels or not.
 
 #### *property* spot
 
-Not applicable to a user-defined plot
+Not applicable to a user-defined plot.
 
 <a id="compolyx.plot_data.UserDefinedData.text_threshold"></a>
 
@@ -1126,13 +1126,13 @@ Access the labels for the given data-scope.
 
 #### *property* user_script
 
-Body of the script to be executed is user_script_enabled is set to True
+Body of the script to be executed is user_script_enabled is set to True.
 
 <a id="compolyx.plot_data.UserDefinedData.user_script_enabled"></a>
 
 #### *property* user_script_enabled
 
-Whether to run a custom script on update
+Whether to run a custom script on update.
 
 <a id="compolyx.plot_data.UserDefinedData.user_text"></a>
 
@@ -1193,7 +1193,7 @@ Bases: [`ContourData`](#compolyx.plot_data.ContourData)
 Get text data of failure plot.
 
 * **Parameters:**
-  - visible: Object(s) defining visible scope
+  - visible: Object(s) defining visible scope.
   - selected: Selected object(s) for ply-wise evaluations.
   - str_results: Whether to return failure modes as strings or enums. (default is str)
 * **Returns:**
@@ -1204,14 +1204,14 @@ Get text data of failure plot.
   …
   ]
   Possible keys:
-  - fm: Failure Mode (enum)
-  - li:  Layer index
-  - lc: Load case (for envelope solutions only)
+  - fm: Failure Mode (enum).
+  - li:  Layer index.
+  - lc: Load case (for envelope solutions only).
 
   The scope of the data is evaluated identically as for get_element_xxx functions as the intersection of:
-  - data_scope of plot
-  - visible_scope defined by visible
-  - selection_scope defined by selected
+  - data_scope of plot.
+  - visible_scope defined by visible.
+  - selection_scope defined by selected.
 
 Text data is returned independent of update status of plot, but only if results for the current plot configuration are available, else an empty array is returned.
 
@@ -1220,7 +1220,7 @@ Text data is returned independent of update status of plot, but only if results 
 > Get text data for current ply-wise plot with visible scope set to element set “All_Elements” and with ply1 and ply2 selected:
 
 > ```default
-> >>> text = my_plot.get_text(visible=db.active_model.element_sets['All_Elements'], selected=[ply1, ply2])
+> >>> text = my_plot.get_text(visible=db.active_model.element_sets['All_Elements'], selected=[ply1, ply2]).
 > ```
 
 > Get textdata for current element-wise plot with visible scope equal to all objects visible in current scene:
@@ -1233,7 +1233,7 @@ Text data is returned independent of update status of plot, but only if results 
 
 #### serialize()
 
-Serialize to Python string
+Serialize to Python string.
 
 <a id="compolyx.plot_data.FailureData.show_critical_failure_mode"></a>
 
@@ -1257,7 +1257,7 @@ Whether to evaluate and show the critical laod case; available only for Envelope
 
 #### *property* spot
 
-Not applicable to a failure plot
+Not applicable to a failure plot.
 
 <a id="compolyx.plot_data.FailureData.text_threshold"></a>
 
@@ -1295,4 +1295,4 @@ Bases: [`ContourData`](#compolyx.plot_data.ContourData)
 
 #### *property* spot
 
-Not applicable to a progressive damage plot
+Not applicable to a progressive damage plot.
