@@ -1,0 +1,11 @@
+<a id="ansys-meshing-prime-deleteresults-error-code"></a>
+
+# ansys.meshing.prime.DeleteResults.error_code
+
+<a id="ansys.meshing.prime.DeleteResults.error_code"></a>
+
+#### *property* DeleteResults.error_code *: [ErrorCode](ansys.meshing.prime.ErrorCode.md#ansys.meshing.prime.ErrorCode)*
+
+Error code associated with the failure of operation.
+
+<!-- !! processed by numpydoc !! -->
