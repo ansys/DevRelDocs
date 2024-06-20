@@ -8,37 +8,37 @@
 
 ### *class* compolyx.Scene(graph, model=None, name='', id=None, title='', view=None, parent=None, active_set=None)
 
-Class to represent Scene
+Class to represent Scene.
 
 <a id="compolyx.Scene.active_set"></a>
 
 #### *property* active_set
 
-Set of active entities
+Set of active entities.
 
 <a id="compolyx.Scene.background"></a>
 
 #### *property* background
 
-Background color
+Background color.
 
 <a id="compolyx.Scene.background2"></a>
 
 #### *property* background2
 
-Background color 2
+Background color 2.
 
 <a id="compolyx.Scene.camera"></a>
 
 #### *property* camera
 
-Camera settings
+Camera settings.
 
 <a id="compolyx.Scene.changed"></a>
 
 #### *property* changed
 
-Status boolean. Set to true if the underlying data has been changed. Write only property
+Status boolean. Set to true if the underlying data has been changed. Write only property.
 
 <a id="compolyx.Scene.descriptions_changed"></a>
 
@@ -50,19 +50,19 @@ Set to True if descriptions should be updated.
 
 #### *property* fit_to_window
 
-Reset the zoom of the window
+Reset the zoom of the window.
 
 <a id="compolyx.Scene.foreground"></a>
 
 #### *property* foreground
 
-Foreground color
+Foreground color.
 
 <a id="compolyx.Scene.logo_type"></a>
 
 #### *property* logo_type
 
-Logo type: default or black
+Logo type: default or black.
 
 <a id="compolyx.Scene.mode"></a>
 
@@ -74,18 +74,18 @@ Current ACP mode (pre or post).
 
 #### *property* projection
 
-Projection method: ‘parallel’ or ‘perspective’
+Projection method: ‘parallel’ or ‘perspective’.
 
 <a id="compolyx.Scene.save_snapshot"></a>
 
 #### save_snapshot(path, width=None, height=None, draw_background=False)
 
-Create a snapshot of the scene
+Create a snapshot of the scene.
 
 * **Parameters:**
-  - path: File path
-  - width: Width in pixels of the snapshot
-  - height: Height in pixels of the snapshot
+  - path: File path.
+  - width: Width in pixels of the snapshot.
+  - height: Height in pixels of the snapshot.
   - draw_background: Boolean whether to draw the background or not. If false, the background is white.
 
 <a id="compolyx.Scene.scale_factor"></a>
@@ -98,7 +98,7 @@ Scale factor of the deformed mesh.
 
 #### serialize()
 
-Serialize to Python string
+Serialize to Python string.
 
 <a id="compolyx.Scene.show_element_type"></a>
 
@@ -112,53 +112,53 @@ Note: Only analysis plies have solid elements. Shell elements are highlighted fo
 
 #### *property* show_global_coordinate_system
 
-Toggle visibility of global coordinate system marker
+Toggle visibility of global coordinate system marker.
 
 <a id="compolyx.Scene.show_labeled_bounding_box"></a>
 
 #### *property* show_labeled_bounding_box
 
-Toggle visibility of labeled bounding box
+Toggle visibility of labeled bounding box.
 
 <a id="compolyx.Scene.show_selected_mesh"></a>
 
 #### *property* show_selected_mesh
 
-Specify whether to show/highlight currently selected Elements
+Specify whether to show/highlight currently selected Elements.
 
 <a id="compolyx.Scene.show_silhouette"></a>
 
 #### *property* show_silhouette
 
-Whether to show the silhouette of currently selected elements
+Whether to show the silhouette of currently selected elements.
 
 <a id="compolyx.Scene.status"></a>
 
 #### *property* status
 
-Status of the object
+Status of the object.
 
 <a id="compolyx.Scene.title"></a>
 
 #### *property* title
 
-Scene title
+Scene title.
 
 <a id="compolyx.Scene.update_direction_display_data"></a>
 
 #### update_direction_display_data(entities)
 
 Function syncronizes the following direction plots with the added/removed entities given:
-- “orientations”
-- “ref_directions”
-- “fiber_directions”
-- “draped_fiber_directions”
+- “orientations”.
+- “ref_directions”.
+- “fiber_directions”.
+- “draped_fiber_directions”.
 
 <a id="compolyx.Scene.uptodate"></a>
 
 #### *property* uptodate
 
-Apply a view to the scene. Write only
+Apply a view to the scene. Write only.
 
 <a id="compolyx.Scene.view"></a>
 
@@ -194,7 +194,7 @@ A View which is imported from an other source can not be modified.
 
 #### *property* orientation
 
-Get/set the view orientation
+Get/set the view orientation.
 
 <a id="compolyx.View.parallel_scale"></a>
 
@@ -206,13 +206,13 @@ Get/set the view parallel perspective scale factor.
 
 #### *property* position
 
-Get/set the view position
+Get/set the view position.
 
 <a id="compolyx.View.projection"></a>
 
 #### *property* projection
 
-Get/set the projection method parallel or perspective
+Get/set the projection method parallel or perspective.
 
 <a id="compolyx.View.rotation_point"></a>
 
@@ -224,4 +224,4 @@ Get/set the view rotation point.
 
 #### serialize()
 
-Serialize to Python string
+Serialize to Python string.
