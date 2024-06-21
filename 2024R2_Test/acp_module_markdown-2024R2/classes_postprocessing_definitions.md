@@ -32,7 +32,8 @@ Serialize to Python string.
 
 Max stress failure criterion configuration.
 Properties are s1, s2, s3, s12, s13, s23, wf_s1, wf_s2, wf_s3, wf_s12, wf_s13, wf_s23.
-e.g. MaxStressCriterion(s1=1, s2=1, s3=0, s12=1, s13=0, s23=0, wf_s1=1, wf_s2=1, wf_s3=1, wf_s12=1, wf_s13=1, wf_s23=1).
+
+For instance, MaxStressCriterion(s1=1, s2=1, s3=0, s12=1, s13=0, s23=0, wf_s1=1, wf_s2=1, wf_s3=1, wf_s12=1, wf_s13=1, wf_s23=1).
 
 <a id="compolyx.MaxStressCriterion.s1"></a>
 
@@ -415,7 +416,7 @@ Puck failure criterion configuration
 
 #### *property* M
 
-Degradation factor (Default=0.5).
+Degradation factor (default = 0.5).
 
 <a id="compolyx.Puck.cfps"></a>
 
@@ -427,7 +428,7 @@ Specifies whether to consider the influence of fiber parallel stresses on inter-
 
 #### *property* dim
 
-Dimension of the puck failure criterion (1, 2 or 3).
+Dimension of the puck failure criterion (1, 2, or 3).
 
 <a id="compolyx.Puck.force_global_constants"></a>
 
@@ -445,25 +446,25 @@ Interface weakening factor (Default=0.8).
 
 #### *property* p21_neg
 
-Inclination of the failure curve for negative normal matrix stresses (Default=0.275).
+Inclination of the failure curve for negative normal matrix stresses (default = 0.275).
 
 <a id="compolyx.Puck.p21_pos"></a>
 
 #### *property* p21_pos
 
-Inclination of the failure curve for positive normal matrix stresses (Default=0.325).
+Inclination of the failure curve for positive normal matrix stresses (default = 0.325).
 
 <a id="compolyx.Puck.p22_neg"></a>
 
 #### *property* p22_neg
 
-Inclination of the failure curve for negative normal matrix stresses (Default=0.225).
+Inclination of the failure curve for negative normal matrix stresses (default = 0.225).
 
 <a id="compolyx.Puck.p22_pos"></a>
 
 #### *property* p22_pos
 
-Inclination of the failure curve for positive normal matrix stresses (Default=0.225).
+Inclination of the failure curve for positive normal matrix stresses (default = 0.225).
 
 <a id="compolyx.Puck.pd"></a>
 
@@ -499,7 +500,7 @@ Specifies whether to compute matrix shear failure.
 
 #### *property* s
 
-Degradation factor (Default=0.5).
+Degradation factor (default = 0.5).
 
 <a id="compolyx.Puck.serialize"></a>
 
@@ -551,13 +552,13 @@ Configuration of wrinkling failure criterion for sandwich structures.
 
 #### *property* q_homogeneous
 
-Wrinkling coefficient for sandwiches with homogeneous core. Default=0.5.
+Wrinkling coefficient for sandwiches with homogeneous core (default = 0.5).
 
 <a id="compolyx.Wrinkling.q_honeycomb"></a>
 
 #### *property* q_honeycomb
 
-Wrinkling coefficient for sandwiches with honeycomb core. Default=0.33.
+Wrinkling coefficient for sandwiches with honeycomb core (default = 0.33).
 
 <a id="compolyx.Wrinkling.serialize"></a>
 
@@ -689,13 +690,13 @@ Puck failure criterion configuration.
 
 #### *property* b21
 
-In-plane shear related friction parameter (between 0.1 and 0.6, default=0.2).
+In-plane shear related friction parameter (between 0.1 and 0.6; default = 0.2).
 
 <a id="compolyx.Cuntze.b32"></a>
 
 #### *property* b32
 
-Out-of-plane shear related friction parameter (between 1.0 and 1.6, default=1.38).
+Out-of-plane shear related friction parameter (between 1.0 and 1.6; default = 1.38).
 
 <a id="compolyx.Cuntze.cfc"></a>
 
@@ -737,13 +738,13 @@ Dimension of the cuntze failure criterion (2 or 3).
 
 #### *property* fracture_plane_angle
 
-Angle between the out-of-plane axis and fracture plane in degree (> 45, < 90), default=53.
+Angle between the out-of-plane axis and fracture plane in degree (> 45, < 90) (default = 53).
 
 <a id="compolyx.Cuntze.m"></a>
 
 #### *property* m
 
-Mode interaction coefficient (between [2.0,4.0], default=2.6).
+Mode interaction coefficient (between [2.0,4.0]; default = 2.6).
 
 <a id="compolyx.Cuntze.serialize"></a>
 
