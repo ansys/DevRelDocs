@@ -507,7 +507,7 @@ Create a new 3D Look-Up Table object.
   - id: ID.
   - tabular_data: Data points and values of the look-up table.
   - algorithm_type: Specify which algorithm type is used for the interpolation.
-  - use_default_search_radius: Force the program to use the default search radius. Used for the algorithm weighted_nearest_neighbor”.
+  - use_default_search_radius: Force the program to use the default search radius. Used for the algorithm weighted_nearest_neighbor.
   - search_radius: Set a custom search radius. Used if use_default_search_radius is false. Used for the algorithm weighted_nearest_neighbor.
   - dimensions: List of the dimensions of the columns (e.g. length for coordinates).
 * **Returns:**
@@ -841,7 +841,7 @@ Dictionary with all Edge Sets defined.
 Returns the element normal (direction).
 
 * **Parameters:**
-  - globalID: Element label
+  - globalID: Element label.
 
 <a id="compolyx.Model.element_sets"></a>
 
@@ -856,7 +856,7 @@ Dictionary with all Element Sets defined.
 Exports all ACP composite defintions.
 
 * **Parameters:**
-  - path: .acp file path
+  - path: .acp file path.
 
 <a id="compolyx.Model.export_composite_cae_h5"></a>
 
@@ -1080,7 +1080,7 @@ the element labels in the legacy and ACP model match. The import is only perform
 
 #### *property* layup_plots
 
-Plots
+Plots.
 
 <a id="compolyx.Model.lookup_tables"></a>
 
@@ -1173,7 +1173,7 @@ Path to the reference surface input file. Read only.
 
 #### plot_dependencies(path=None, parent=None, levels=3)
 
-Generates a graph with all dependencies. The output is a dot, png and pdf file.
+Generates a graph with all dependencies. The output is a .dot, .png, and pdf file.
 
 * **Parameters:**
   - path: file path without file extension.
@@ -1190,7 +1190,7 @@ Generates a graph with all dependencies. The output is a dot, png and pdf file.
 
 #### *property* plybook
 
-PlyBook
+PlyBook.
 
 <a id="compolyx.Model.pre_path"></a>
 
@@ -1246,9 +1246,9 @@ Ignored imported entities are the materials and rosettes.
 Reorders the modeling groups by placing source before or after the target.
 
 * **Parameters:**
-  - source: list of modeling groups to insert at the new position.
-  - target: a modeling group which defines the position to insert the source.
-  - option: whether to insert the source before or after the target.
+  - source: List of modeling groups to insert at the new position.
+  - target: A modeling group which defines the position to insert the source.
+  - option: Whether to insert the source before or after the target.
 * **Usage:**
   ```pycon
   >>> model.reorder_modeling_groups(source=[modelmodeling_groups['DECK']], target=modelmodeling_groups['HULL'], option='before')
@@ -1271,7 +1271,7 @@ Sampling Point Container.
 #### save(path=None, cache_data=None)
 
 Save ACP model to .acph5 file.
-:Parameters:
+* **Parameters:**
 - path: Path to file.
 - cache_data: Whether to cache current state of model or not.
 
@@ -1334,7 +1334,7 @@ Function that saves the layup data to an excel file. Windows only!
 
 #### *property* scenes
 
-Scenes
+Scenes.
 
 <a id="compolyx.Model.scripts"></a>
 
@@ -1346,23 +1346,23 @@ List of user-defined scripts.
 
 #### *property* section_cuts
 
-Section Cuts
+Section Cuts.
 
 <a id="compolyx.Model.select_elements"></a>
 
 #### select_elements(selection='sel0', op='new', labels=None, indices=None, attached_to=None, x=None, y=None, z=None, element_type='all')
 
-Selects element within active model. (Marks the given selection as SELECTED)
+Selects element within active model and marks the given selection as SELECTED.
 
 * **Parameters:**
   - selection: The selection to update.
-    Can be given as string ‘sel0’ - ‘sel5’ or ‘all’ or can be given as ObjectSelection object such as
+    Can be given as string ‘sel0’ - ‘sel5’ or ‘all’, or can be given as ObjectSelection object such as:
     - model.selection
     - scene.active_set
   - op: Select operation. Can be all, new (default), add, remove, intersect, inverse or none
   - labels: List with element labels to select.
   - indices: List with element indices to select.
-  - attached_to: Elements attached to entities / vertices in this list will be selected.
+  - attached_to: Elements attached to entities/vertices in this list will be selected.
   - x: X-range to select.
   - y: Y-range to select.
   - z: Z-range to select.
@@ -1375,8 +1375,8 @@ Selects element within active model. (Marks the given selection as SELECTED)
 Function selects nodes in graph and marks the given selection as SELECTED.
 
 * **Parameters:**
-  - selection: The selection to update
-    Can be given as string ‘sel0’ - ‘sel5’ or ‘all’
+  - selection: The selection to update.
+    Can be given as string ‘sel0’ - ‘sel5’ or ‘all’,
     or can be given as ObjectSelection object such as:
     - model.selection
     - scene.active_set
@@ -1395,7 +1395,7 @@ Function selects nodes in graph and marks the given selection as SELECTED.
 Selects the solid element within given selection and deselects the shell elements.
 
 * **Parameters:**
-  - selection: The selection to update. Can be given as string ‘sel0’ - ‘sel5’
+  - selection: The selection to update. Can be given as string ‘sel0’ - ‘sel5’.
 * **Return:**
   Number of selected solid elements.
 
@@ -1433,13 +1433,13 @@ Whether mesh selections and plot should consider solver elements in solid models
 
 #### *property* solid_models
 
-SolidModel
+SolidModel.
 
 <a id="compolyx.Model.solutions"></a>
 
 #### *property* solutions
 
-Solutions
+Solutions.
 
 <a id="compolyx.Model.solve"></a>
 
@@ -1489,7 +1489,7 @@ Define whether to use nodal thicknesses or element thicknesses.
 
 #### *property* views
 
-Views
+Views.
 
 <a id="compolyx.Model.wbupdate"></a>
 
@@ -1767,7 +1767,7 @@ load the table from csv file in path.
 Load LookUpTable from CSV file.
 
 * **Parameters:**
-  - path: path to output file.
+  - path: Path to output file.
 
 <a id="compolyx.LookUpTableBase.num_cols"></a>
 
@@ -1794,7 +1794,7 @@ Save LookUpTable to CSV file.
 
 #### *property* tabular_data
 
-a tuple containing a list of column labels and a 2d array with floats for all cells. This is a flattened view of all columns.
+A tuple containing a list of column labels and a 2d array with floats for all cells. This is a flattened view of all columns.
 
 <a id="lookuptable1d"></a>
 
@@ -1812,7 +1812,7 @@ A LookUpTable to associate arbitrary data to a one-dimensional field of Location
 
 #### column_factory
 
-alias of `LookUpTable1DColumn`
+alias of `LookUpTable1DColumn`.
 
 <a id="compolyx.LookUpTable1D.direction"></a>
 
@@ -1848,7 +1848,7 @@ A LookUpTable to associate arbitrary data to a three-dimensional field of locati
 
 #### *property* algorithm_type
 
-Algorithm types can be: nearest_neighbor,linear_multivariate,weighted_nearest_neighbor.
+Algorithm types can be: nearest_neighbor, linear_multivariate, or weighted_nearest_neighbor.
 
 <a id="compolyx.LookUpTable3D.column_factory"></a>
 
@@ -1882,7 +1882,7 @@ Search Radius used for the interpolation with weighted nearest neighbor.
 
 #### *property* tabular_data
 
-a tuple containing a list of column labels and a 2d array with floats for all cells. This is a flattened view of all columns.
+A tuple containing a list of column labels and a 2d array with floats for all cells. This is a flattened view of all columns.
 
 <a id="compolyx.LookUpTable3D.use_default_search_radius"></a>
 
@@ -1898,7 +1898,7 @@ True if the search radius is estimated automatically.
 
 ### *class* compolyx.LookUpTableColumn(name, parent)
 
-an object to hold a column in a table.
+An object to hold a column in a table.
 
 <a id="compolyx.LookUpTableColumn.enabled"></a>
 
@@ -1910,19 +1910,19 @@ Whether this object is currently enabled or not. Mainly defined through the curr
 
 #### *property* status
 
-column status (‘UPTODATE’,’NOTUPTODATE’, or ‘LOCKED’).
+Column status (‘UPTODATE’,’NOTUPTODATE’, or ‘LOCKED’).
 
 <a id="compolyx.LookUpTableColumn.type"></a>
 
 #### *property* type
 
-column type (scalar or direction).
+Column type (scalar or direction).
 
 <a id="compolyx.LookUpTableColumn.values"></a>
 
 #### *property* values
 
-numpy array containing the column values.
+Numpy array containing the column values.
 
 <a id="elementselectionrule-classes"></a>
 
@@ -1954,19 +1954,19 @@ Triggers Observable to dispatch changed message.
 
 #### *property* extent
 
-extent of the rule.
+Extent of the rule.
 
 <a id="compolyx.ElementSelectionRule.include_rule_type"></a>
 
 #### *property* include_rule_type
 
-include type.
+Include type.
 
 <a id="compolyx.ElementSelectionRule.relative_rule_type"></a>
 
 #### *property* relative_rule_type
 
-relative type.
+Relative type.
 
 <a id="parallelselectionrule"></a>
 
@@ -2271,7 +2271,7 @@ Cut-Off Geometry for the Cut-Off Rule.
 
 #### *property* cutoff_rule_type
 
-Cutoff rule type, valid values geometry,taper,variable_taper.
+Cut-off rule type. Valid values: geometry, taper, and variable_taper.
 
 <a id="compolyx.CutoffSelectionRule.direction"></a>
 
@@ -2313,13 +2313,13 @@ Take offset from edge set perpendicular to element reference surface (out_of_pla
 
 #### *property* origin
 
-Origin of the offset and angle interpolation for ‘variable_taper’ cutoff rules.
+Origin of the offset and angle interpolation for ‘variable_taper’ cut-off rules.
 
 <a id="compolyx.CutoffSelectionRule.ply_cutoff_type"></a>
 
 #### *property* ply_cutoff_type
 
-Cutoff Types can be: production_ply_cutoff,analysis_ply_cutoff.
+Cut-off Types can be: production_ply_cutoff or analysis_ply_cutoff.
 
 <a id="compolyx.CutoffSelectionRule.ply_tapering"></a>
 
@@ -2361,7 +2361,7 @@ Element Sets for the Geometrical Selection Rule.
 
 #### *property* geometrical_rule_type
 
-Geometrical rule type, valid values geometry,element_sets.
+Geometrical rule type. Valid values: geometry and element_sets.
 
 <a id="compolyx.GeometricalSelectionRule.geometry"></a>
 
@@ -2403,13 +2403,13 @@ Serialize to Python string.
 
 #### *property* use_defaults
 
-Whether to use the offset value of the CAD Geometry or not.
+Whether to use the offset value of the CAD Geometry.
 
 <a id="compolyx.GeometricalSelectionRule.use_projection_normal"></a>
 
 #### *property* use_projection_normal
 
-Whether to use a projection normal for outlines or not.
+Whether to use a projection normal for outlines.
 
 <a id="booleanselectionrule"></a>
 
@@ -2595,8 +2595,8 @@ Middle offset flag.
 General method to modify the elements in an element set.
 
 * **Parameters:**
-  - op: Selection method: new, add, remove, intersect or inverse.
-  - element_labels: List of element ids.
+  - op: Selection method: new, add, remove, intersect, or inverse.
+  - element_labels: List of element IDs.
   - element_sets: List of element sets.
   - x: Min and max of x location.
   - y: Min and max of y location.
@@ -2618,8 +2618,7 @@ True if the Element Set has an orientable topology.
 
 #### partition()
 
-Partitions this ElementSet into new ElementSets with an orientable topology
-if this ElementSet is already orientable, a copy will be created.
+Partitions this ElementSet into new ElementSets with an orientable topology. If this ElementSet is already orientable, a copy will be created.
 
 <a id="compolyx.ElementSet.planar"></a>
 
@@ -2640,7 +2639,7 @@ Serialize to Python string.
 Write boundaries in iges/step format.
 :Parameters:
 - filename: Output file.
-- format: ‘iges’, ‘step’, None (automatic format recognition).
+- format: ‘iges’, ‘step’, or None (automatic format recognition).
 
 <a id="edgeset"></a>
 
@@ -2668,13 +2667,13 @@ The edge set mesh plot.
 
 #### *property* edge_set_type
 
-Edge Set Types can be: “By Reference”, “By Nodes”.
+Edge Set Types. Valid types: “By Reference” or “By Nodes”.
 
 <a id="compolyx.EdgeSet.get_nodes"></a>
 
 #### get_nodes()
 
-Return python list with nodes as objects.
+Return Python list with nodes as objects.
 
 <a id="compolyx.EdgeSet.is_closed"></a>
 
@@ -2806,7 +2805,7 @@ The file path where the CAD geometry is loaded from.
 
 #### *property* precision
 
-Precision of geometrical operations (intersection points, thickness sampling, …).
+Precision of geometrical operations (intersection points, thickness sampling, etc.).
 
 <a id="compolyx.CADGeometry.refresh_external_source"></a>
 
@@ -2815,7 +2814,7 @@ Precision of geometrical operations (intersection points, thickness sampling, �
 Reload the geometry from the external source.
 
 * **Parameters:**
-  - enforce: enforce the reloading of external data for locked object in the new acph5 serialization format. This option should be used with care!
+  - enforce: Enforce the reloading of external data for locked object in the new acph5 serialization format. This option should be used with care!
 
 <a id="compolyx.CADGeometry.root_shapes"></a>
 
@@ -2877,7 +2876,7 @@ Whether to use default precision value or not.
 
 #### *property* visible_sub_shapes
 
-Ids of CAD sub shapes to be displayed, stored per-scene id.
+Ids of CAD sub shapes to be displayed, stored per scene ID.
 
 <a id="compolyx.CADGeometry.visualization_mesh"></a>
 
@@ -2982,7 +2981,7 @@ Returns the linked CADGeometry. Read only.
 
 #### *property* cad_references
 
-Dictionary of all cad references.
+Dictionary of all CAD references.
 
 <a id="compolyx.VirtualGeometry.clear_cad_references"></a>
 
@@ -2994,15 +2993,15 @@ Clear all linked references (VirtualGeometry becomes empty).
 
 #### create_cad_reference(name='VirtualGeometry.1', id=None, path=None, size=None, cog=None, dimension=None, bounding_box_min=None, bounding_box_max=None)
 
-Creates a new Cad Reference and links it with the Virtual Geometry.
+Creates a new CAD Reference and links it with the Virtual Geometry.
 
 * **Parameters:**
   - name: Name of the object.
   - id: ID of the object.
-  - path: Path of the linked cad component. For instance “CADGeometry.1//top_surface”.
-  - size: Size of the linked cad component. Size can be the volume, area or length depending on the type of the linked cad component.
-  - cog: Center of gravity of the linked cad component.
-  - dimension: The shape type of the cad component. CADCompound, CADSolid, CADShell or CADFace.
+  - path: Path of the linked CAD component. For instance “CADGeometry.1//top_surface”.
+  - size: Size of the linked CAD component. Size can be the volume, area or length depending on the type of the linked cad component.
+  - cog: Center of gravity of the linked CAD component.
+  - dimension: The shape type of the CAD component. Valid types: CADCompound, CADSolid, CADShell, or CADFace.
   - bounding_box_min: Minimum point of the bounding box.
   - bounding_box_max: Maximum point of the bounding box.
 * **Return:**
@@ -3012,7 +3011,7 @@ Creates a new Cad Reference and links it with the Virtual Geometry.
 
 #### *property* dimension
 
-Highest dimension of all cad references. 3=solid, 2=surface, 1=curve.
+Highest dimension of all CAD references. 3=solid, 2=surface, 1=curve.
 
 <a id="compolyx.VirtualGeometry.remove"></a>
 
@@ -3088,7 +3087,7 @@ Center of gravity of the linked shape.
 
 #### *property* dimension
 
-Dimension of the linked shape (1 for lines, 2 for surfaces and 3 for solids).
+Dimension of the linked shape (1 for lines, 2 for surfaces, and 3 for solids).
 
 <a id="compolyx.CADReference.path"></a>
 
@@ -3100,7 +3099,7 @@ Path to the linked CAD Component. For instance ‘CADGeometry.1//top_surface’.
 
 #### *property* size
 
-Size of the linked cad shape.
+Size of the linked CAD shape.
 
 <a id="compolyx.CADReference.status"></a>
 
@@ -3302,10 +3301,10 @@ Angle to rotate the reference directions around the orientation directions (in d
 
 #### save_flat_wrap(filename)
 
-Write the flatwrap to DXF, IGES or STEP file.
+Write the flatwrap to DXF, IGES, or STEP file.
 
 * **Parameters:**
-  - filename: Path to the file to be writen.
+  - filename: Path to the file to be written.
 
 <a id="compolyx.OrientedSelectionSet.selection_rules"></a>
 
@@ -3330,9 +3329,9 @@ Whether to use a default size for the draping mesh.
 #### write_boundaries(filename, format=None)
 
 Write boundaries in iges/step format.
-:Parameters:
-- filename: Output file.
-- format: ‘iges’, ‘step’, None (automatic format recognition).
+* **Parameters**
+  - filename: Output file.
+  - format: ‘iges’, ‘step’, or None (automatic format recognition).
 
 <a id="modelinggroup"></a>
 
@@ -3368,11 +3367,10 @@ Creation:
 
 Makes a copy of a butt joint sequence.
 
-* **Parameters:**
+* **Parameters**
   - source: Source object to copy.
-  - global_ply_nr: Global ply number to use. If 0 the ply is added at the top.
-  - sort: Whether to sort all plies of modeling group after copy.
-: If multiple plies are copied at once it can be useful to sort only once at the end of the copy operation.
+  - global_ply_nr: Global ply number to use. If 0, then the ply is added at the top.
+  - sort: Whether to sort all plies of modeling group after copy. If multiple plies are copied at once, it can be useful to sort only once at the end of the copy operation.
 * **Returns:**
   New instance of modeling ply.
 
@@ -3384,10 +3382,8 @@ Copy a Interface Layer.
 
 * **Parameters:**
   - source: Source object to copy.
-  - global_ply_nr: Global ply number to use. If 0 the ply is added at the top.
-  - sort: Whether to sort all plies of Interface Layer group after copy.
-
-    &nbsp;&nbsp; If multiple plies are copied at once it can be useful to sort only once at the end of the copy operation.
+  - global_ply_nr: Global ply number to use. If 0, then the ply is added at the top.
+  - sort: Whether to sort all plies of Interface Layer group after copy. If multiple plies are copied at once, it can be useful to sort only once at the end of the copy operation.
 * **Returns:**
   New instance of Interface Layer.
 
@@ -3395,14 +3391,12 @@ Copy a Interface Layer.
 
 #### copy_modeling_ply(source, global_ply_nr=None, sort=True)
 
-Copy a modeling ply
+Copy a modeling ply.
 
 * **Parameters:**
   - source: Source object to copy.
-  - global_ply_nr: Global ply number to use. If 0 the ply is added at the top.
-  - sort: Whether to sort all plies of modeling group after copy.
-   
-    &nbsp;&nbsp; If multiple plies are copied at once it can be useful to sort only once at the end of the copy operation.
+  - global_ply_nr: Global ply number to use. If 0, then the ply is added at the top.
+  - sort: Whether to sort all plies of modeling group after copy. If multiple plies are copied at once, it can be useful to sort only once at the end of the copy operation.
 * **Returns:**
   New instance of modeling ply.
 
@@ -3416,7 +3410,7 @@ Creates an new butt joint sequences and adds it to this modeling group.
   - name: Name of the butt joint.
   - id: ID of the name.
   - global_ply_nr: Global ply number which orders the ply sequences.
-  - primary_plies: List of tuples (modeling ply, level). Define the source of the thickness between plies.
+  - primary_plies: List of tuples (modeling ply, level). Defines the source of the thickness between plies.
   - secondary_plies: Single or list of modeling plies. Secondary plies inherit the thickness from the primary plies.
   - active: Boolean whether the butt joint sequence is active or not.
 * **Return:**
@@ -3430,7 +3424,7 @@ Create Interface Layer.
 
 * **Parameters:**
   - name: Name of the new Interface Layer.
-  - id: Optional id of the new Interface Layer.
+  - id: Optional ID of the new Interface Layer.
   - global_ply_nr: Ply number for stacking sequence.
   - oriented_selection_sets: Oriented Selection Set for the expansion of the Interface Layer.
   - open_area_sets: Defines the initial crack of a VCCT layer (optional).
@@ -3455,19 +3449,19 @@ Create modeling ply.
 
 * **Parameters:**
   - name: Name of the new Modeling Ply.
-  - id: Optional id of the new Modeling Ply.
-  - ply_material: Ply Material (Fabric, Stackup, SubLaminate).
+  - id: Optional ID of the new Modeling Ply.
+  - ply_material: Ply Material (Fabric, Stackup, or SubLaminate).
   - ply_angle: Angle of the Ply Material.
   - number_of_layers: Multiplier of this layer.
   - global_ply_nr: Ply number for stacking sequence.
   - oriented_selection_sets: Oriented Selection Set for the expansion of the Modeling Ply.
   - selection_rules: Element Selection Rules for the Modeling Ply.
-  - draping: The type of draping to be used “no_draping”, “evaluate_draping”, or “tabular_values”.
+  - draping: The type of draping to be used. Valid types: “no_draping”, “evaluate_draping”, or “tabular_values”.
   - draping_seed_point: Start/Seed Point for Draping.
   - auto_draping_direction: Automatically set draping direction (Default: True).
   - draping_direction: Direction to go in Draping (Default: None).
   - draping_mesh_size: Mesh size used for Draping.
-  - use_default_draping_mesh_size: Wheterh to use a default size for the draping mesh. Default is the average element size of the shell mesh.
+  - use_default_draping_mesh_size: Whether to use a default size for the draping mesh. Default is the average element size of the shell mesh.
   - thickness_definition: Enum that describes the method used for thickness definition (Default: Nominal).
   - core_geometry: The assigned core geometry.
   - active: Modeling Ply active.
@@ -3499,10 +3493,10 @@ Create modeling ply.
 
 #### export_ply_geometries(filename, ply_level='production_ply', boundary=True, surface=True, offset_type='middle_offset', direction_arrows=False, first_direction=True, second_direction=False, arrow_length=1.0, arrow_type='no_arrow')
 
-Exports the surface, boundary and/or fiber directions of modeling, production and analysis ply to igs or step file.
+Exports the surface, boundary, and/or fiber directions of the modeling, production, and analysis ply to .igs or .step file.
 
 * **Parameters:**
-  - filename: File path (allowed extensions are iges, igs, step and stp).
+  - filename: File path (allowed extensions are .iges, .igs, .step, and .stp).
   - ply_level: Defines which plies are exported: modeling_ply_wise, production_ply_wise or analysis_ply_wise. Default is production_ply_wise.
   - boundary: Boolean whether to export the boundary. Default is True.
   - surface: Boolean whether to export the ply surface. Default is True.
@@ -3732,7 +3726,7 @@ Flag if the modeling ply is on sampling point.
 #### orientation_at_element(element_id=None)
 
 Returns the orientation of this modeling ply for a certain element.
-If the element does not belong to the modeling ply the return value is [0,0,0].
+If the element does not belong to the modeling ply, then the return value is [0,0,0].
 
 * **Parameters:**
   - element_id: Element label.
@@ -3840,7 +3834,7 @@ LookUpTable Column with tabular thicknesses or None.
 
 #### *property* thickness_field_type
 
-The type of the Thickness field ‘absolute’ or ‘relative’
+The type of Thickness field. Valid options: ‘absolute’ or ‘relative’.
 
 <a id="compolyx.ModelingPly.use_default_draping_mesh_size"></a>
 
@@ -3858,15 +3852,15 @@ Weight of the Modeling Ply.
 
 #### write_boundaries(filename, format=None, offset_type='no_offset', with_direction_arrows=False, arrow_length=None, arrow_type='standard_arrow')
 
-Write boundaries in iges/step format.
+Write boundaries in .iges/.step format.
 
 * **Parameters:**
   - filename: Output file.
   - format: ‘iges’, ‘step’, None (automatic format recognition).
-  - offset_type: ‘no_offset’ (default), ‘bottom_offset’, ‘middle_offset’, ‘top_offset’.
+  - offset_type: ‘no_offset’ (default), ‘bottom_offset’, ‘middle_offset’, or ‘top_offset’.
   - with_direction_arrows: The element directions should be written to.
   - arrow_length: Length of the direction arrows (default is average element edge size).
-  - arrow_type: Type to be used as arrows (‘standard_arrow’(default), ‘no_arrow’, ‘half_arrow’).
+  - arrow_type: Type to be used as arrows (‘standard_arrow’(default), ‘no_arrow’, or ‘half_arrow’).
 
 <a id="productionply"></a>
 
@@ -3894,7 +3888,7 @@ Ply Angle of the Production Ply.
 
 #### *property* area
 
-Area of the production ply.
+Area of the Production Ply.
 
 <a id="compolyx.production_ply.ProductionPly.const_thickness"></a>
 
@@ -3910,8 +3904,8 @@ Direction arrows of the ply.
 
 * **Parameters:**
   - arrow_length: Length of the arrow.
-  - arrow_type: ‘standard_arrow’ (default), ‘no_arrow’, ‘half_arrow’.
-  - offset_type: ‘no_offset’ (default), ‘bottom_offset’, ‘middle_offset’, ‘top_offset’.
+  - arrow_type: ‘standard_arrow’ (default), ‘no_arrow’, or ‘half_arrow’.
+  - offset_type: ‘no_offset’ (default), ‘bottom_offset’, ‘middle_offset’, or ‘top_offset’.
 
 <a id="compolyx.production_ply.ProductionPly.draping_obj"></a>
 
@@ -3929,7 +3923,7 @@ Ply Material of the Production Ply.
 
 #### *property* price
 
-Price of the production ply.
+Price of the Production Ply.
 
 <a id="compolyx.production_ply.ProductionPly.save_draping_input_data"></a>
 
@@ -3944,7 +3938,7 @@ Writes out Modeling Ply to Draping Interface File.
 
 #### save_flat_wrap(filename)
 
-Write the flatwrap to DXF, IGES or STEP file.
+Write the flatwrap to .dxf, .iges, or .step file.
 
 * **Parameters:**
   - filename: Path to the file to be writen.
@@ -3971,15 +3965,15 @@ Weight of the production ply.
 
 #### write_boundaries(filename, format=None, offset_type='no_offset', with_direction_arrows=False, arrow_length=None, arrow_type='standard_arrow')
 
-Write boundaries in iges/step format.
+Write boundaries in .iges/.step format.
 
 * **Parameters:**
   - filename: Output file.
-  - format: ‘iges’, ‘step’, None (automatic format recognition).
-  - offset_type: ‘no_offset’ (default), ‘bottom_offset’, ‘middle_offset’, ‘top_offset’.
+  - format: ‘iges’, ‘step’, or None (automatic format recognition).
+  - offset_type: ‘no_offset’ (default), ‘bottom_offset’, ‘middle_offset’, or ‘top_offset’.
   - with_direction_arrows: The element directions should be written to.
   - arrow_length: Length of the direction arrows (default is average element edge size).
-  - arrow_type: Type to be used as arrows (‘standard_arrow’(default), ‘no_arrow’, ‘half_arrow’).
+  - arrow_type: Type to be used as arrows (‘standard_arrow’(default), ‘no_arrow’, or ‘half_arrow’).
 
 <a id="analysisply"></a>
 
@@ -4017,8 +4011,8 @@ Direction arrows of the ply.
 
 * **Parameters:**
   - arrow_length: Length of the arrow.
-  - arrow_type: ‘standard_arrow’ (default), ‘no_arrow’, ‘half_arrow’.
-  - offset_type: ‘no_offset’ (default), ‘bottom_offset’, ‘middle_offset’, ‘top_offset’.
+  - arrow_type: ‘standard_arrow’ (default), ‘no_arrow’, or ‘half_arrow’.
+  - offset_type: ‘no_offset’ (default), ‘bottom_offset’, ‘middle_offset’, or ‘top_offset’.
 
 <a id="compolyx.AnalysisPly.draping_obj"></a>
 
@@ -4069,15 +4063,15 @@ Update the Analysis Ply.
 
 #### write_boundaries(filename, format=None, offset_type='no_offset', with_direction_arrows=False, arrow_length=None, arrow_type='standard_arrow')
 
-Write boundaries in iges/step format.
+Write boundaries in .iges/.step format.
 
 * **Parameters:**
   - filename: Output file.
   - format: ‘iges’, ‘step’, None (automatic format recognition).
-  - offset_type: ‘no_offset’ (default), ‘bottom_offset’, ‘middle_offset’, ‘top_offset’.
+  - offset_type: ‘no_offset’ (default), ‘bottom_offset’, ‘middle_offset’, or ‘top_offset’.
   - with_direction_arrows: The element directions should be written to.
   - arrow_length: Length of the direction arrows (default is average element edge size).
-  - arrow_type: Type to be used as arrows (‘standard_arrow’(default), ‘no_arrow’, ‘half_arrow’).
+  - arrow_type: Type to be used as arrows (‘standard_arrow’(default), ‘no_arrow’, or ‘half_arrow’).
 
 <a id="interfacelayer"></a>
 
@@ -4099,7 +4093,7 @@ Add Open Area Set to Interface Layer.
 
 #### add_oriented_selection_set(oriented_selection_set)
 
-Add Oriented Selection Set
+Add Oriented Selection Set.
 
 * **Parameters:**
   - oriented_selection_set: The Oriented Selection Set to be assigned to Interface Layer.
@@ -4169,7 +4163,7 @@ Serialize to Python string.
 
 ### *class* compolyx.ButtJointSequence(graph, obj, parent=None)
 
-Class to represent the Butt Joint Sequence.
+Class to represent the butt joint sequence.
 
 <a id="compolyx.ButtJointSequence.primary_plies"></a>
 
@@ -4216,7 +4210,7 @@ Create modeling ply.
 
 * **Parameters:**
   - name: Name of the new Imported Modeling Ply.
-  - id: Optional id of the new Imported Modeling Ply.
+  - id: Optional ID of the new Imported Modeling Ply.
   - active: Whether the ply is active or not.
   - offset: Whether the mesh defines the bottom, middle or top surface of the ply.
   - ply_material: Ply Material (Fabric).
@@ -4225,7 +4219,7 @@ Create modeling ply.
   - mesh_geometry: if mesh_import_type is from_geometry, then this geometry defines the surface of the ply.
   - rosette_selection_method: Method to calculate element orientation.
    
-    &nbsp;&nbsp; (‘minimum_angle’, ‘maximum_angle’, ‘minimum_distance’,
+    (‘minimum_angle’, ‘maximum_angle’, ‘minimum_distance’,
       ‘minimum_angle_superposed’, ‘minimum_distance_superposed’,
       ‘maximum_angle_superposed’, ‘ansys_classic’, or
       ‘tabular_values’).
@@ -4310,7 +4304,7 @@ Defines the source of the imported mesh.
 
 #### *property* offset
 
-Defines whether the imported mesh defines the bottom, middle or top surface of the ply.
+Wether the imported mesh defines the bottom, middle, or top surface of the ply.
 
 <a id="compolyx.ImportedModelingPly.ply_angle"></a>
 
@@ -4334,7 +4328,7 @@ Attached imported production plies.
 
 #### *property* reference_direction_field
 
-a look-up table column or None for external reference directions.
+A look-up table column or None for external reference directions.
 
 <a id="compolyx.ImportedModelingPly.rosette_selection_method"></a>
 
@@ -4370,7 +4364,7 @@ LookUpTable Column with tabular thicknesses or None.
 
 #### *property* thickness_field_type
 
-The type of the Thickness field ‘absolute’ or ‘relative’.
+The type of the Thickness field, ‘absolute’ or ‘relative’.
 
 <a id="importedproductionply"></a>
 
@@ -4422,7 +4416,7 @@ Class to represent an imported modeling ply.
 
 #### *property* active_in_post_mode
 
-Whether ply is active in ACP Post.
+Whether ply is active in ACP (Post).
 
 <a id="compolyx.ImportedAnalysisPly.angle"></a>
 
@@ -4487,7 +4481,7 @@ The name of the field variable defined.
 
 #### *property* full_mapping
 
-Whether the field is interpolated to the shell reference surface or to the actual ply-position by taking into account the shell offset; in solid models the interpolation takes always place at the actual ply position.
+Whether the field is interpolated to the shell reference surface or to the actual ply-position by taking into account the shell offset. In solid models, the interpolation takes always place at the actual ply position.
 
 <a id="compolyx.FieldDefinition.locked"></a>
 
@@ -4505,7 +4499,7 @@ Look-up table used with this field definition.
 
 #### *property* scope_entities
 
-The entities defining the scope of the field definition. Allowed are Element Sets, Modeling Plies and Oriented Selection Sets.
+The entities defining the scope of the field definition. Allowed are Element Sets, Modeling Plies, and Oriented Selection Sets.
 
 <a id="compolyx.FieldDefinition.serialize"></a>
 
@@ -4524,15 +4518,15 @@ Serialize to Python string.
 The Sampling Point allows to pick through the laminate at a certain point to run detailed analyses.
 
 Key features:
-: - Layup in the object tree of the closest element to the selected point.
+  - Layup in the object tree of the closest element to the selected point.
   - Sampling direction defines the ply order (bottom-up or top-down).
   - Reference direction defines the 0 degree axis of the element used for the evaluations (CLT).
   - Optional a user-defined coordinate system can be selected to compute the reference direction. The element normal and reference direction
     defines the result coordinate system.
-  - 2D plots showing the layup, stress, strain and failure distribution through the laminate.
+  - 2D plots showing the layup, stress, strain, and failure distribution through the laminate.
   - Polar plot of the laminate properties.
   - Analysis based on the Classical Laminate Theory (CLT).
-  - Export to ESAComp, CSV file …
+  - Export to ESAComp, CSV file, etc.
 
 * **Usage:**
   ```pycon
@@ -4563,22 +4557,22 @@ mode.
 
 #### clt_query(query='layup', offset_is_middle=True, consider_coupling_effect=True)
 
-Returns the properties of the classical laminate theory:
+Returns the properties of the classical laminate theory.
 
 * **Parameters:**
-  - query: query parameter (see below).
+  - query: Query parameter (see below).
   - offset_is_middle: Whether to offset the reference surface to the mid-plane of the laminate. This has an influence on the laminate stiffness calculations.
-  - consider_coupling_effect: Whether to consider the coupling effect or not (B-Matrix). It’s only of relevance for the laminate engineering constants.
+  - consider_coupling_effect: Whether to consider the coupling effect or not (B-Matrix). It is only of relevance for the laminate engineering constants.
 * **Options:**
   - layup: Returns the layup of the laminate (Modeling, Production and Analysis Plies). Default.
-  - laminate_properties: Young’s, flexural and shear moduli of the laminate.
-  - polar_properties: E1, E2  and G12 depending on the laminate orientation.
+  - laminate_properties: Young’s, flexural, and shear moduli of the laminate.
+  - polar_properties: E1, E2, and G12 depending on the laminate orientation.
   - text_labels: Returns a list with the material names, angles and thicknesses.
   - stiffness_matrix: Returns the laminate stiffness matrix (ABD).
   - compliance_matrix: Returns the lamiante compliance matrix (inverse of ABD).
-  - laminate_forces: Returns a dict with the laminate forces Nx, Ny, Nxy, Mx, My, Mxy, Qx and Qy. Offset is middle is always true for this evaluation.
+  - laminate_forces: Returns a dict with the laminate forces Nx, Ny, Nxy, Mx, My, Mxy, Qx, and Qy. Offset is middle is always true for this evaluation.
 
-Usage:
+* **Usage:**
 ```pycon
   >>> se.clt_query(query='polar_properties')
   ```
@@ -4593,18 +4587,18 @@ Whether to consider coupling effects (B-Matrix) for the calculation of the lamin
 
 #### create_plot(query={'layup': ['mp'], 'polar_properties': ['E1', 'G12']}, offset_is_middle=True, consider_coupling_effect=True)
 
-Generates 2D-plots with the results of interest.
+Generates 2D plots with the results of interest.
 
 * **Parameters:**
-  - query: query parameter.
+  - query: Query parameter.
   - offset_is_middle: Whether to offset the reference surface to the mid-plane of the laminate. This has an influence on the laminate stiffness calculations.
-  - consider_coupling_effect: Whether to consider the coupling effect or not (B-Matrix). It’s only of relevance for the laminate engineering constants.
+  - consider_coupling_effect: Whether to consider the coupling effect or not (B-Matrix). It is only of relevance for the laminate engineering constants.
 * **Options:**
-  - layup:[‘mp’, ‘pp’, ‘ap’] Modeling Plies, Production Plies and Analysis Plies.
-  - polar_properties:[‘E1’,’E2’,’G12’] polar plot of laminate stiffesses.
-  - strains:[‘e1’, ‘e2’, ‘e3’, ‘e12’, ‘e13’, ‘e23’, ‘eI’, ‘eII’, ‘eIII’] - Strain definition name and component.
-  - stresses:[‘s1’, ‘s2’, ‘s3’, ‘s12’, ‘s13’, ‘s23’, ‘sI’, ‘sII’, ‘sIII’] - Stress definition name and component.
-  - failures:[‘FailureCriteria.1_irf’, ‘FailureCriteria.1_rf’, ‘FailureCriteria.1_mos’, ‘FailureCriteria.1_fm’] - Name of FC and value.
+  - layup: [‘mp’, ‘pp’, ‘ap’] Modeling Plies, Production Plies, and Analysis Plies.
+  - polar_properties: [‘E1’,’E2’,’G12’] polar plot of laminate stiffesses.
+  - strains: [‘e1’, ‘e2’, ‘e3’, ‘e12’, ‘e13’, ‘e23’, ‘eI’, ‘eII’, ‘eIII’] - Strain definition name and component.
+  - stresses: [‘s1’, ‘s2’, ‘s3’, ‘s12’, ‘s13’, ‘s23’, ‘sI’, ‘sII’, ‘sIII’] - Stress definition name and component.
+  - failures: [‘FailureCriteria.1_irf’, ‘FailureCriteria.1_rf’, ‘FailureCriteria.1_mos’, ‘FailureCriteria.1_fm’] - Name of FC and value.
   - text_labels:[‘material’, ‘angle’, ‘thickness’].
 * **Usage:**
   ```pycon
@@ -4725,7 +4719,7 @@ Status boolean. Set to true if the underlying data has been changed. Write only 
 
 > The section is exported to MAPDL and solved based on G.L.Ghiringhelli’s paper
 > ‘LINEAR, STRAIGHT AND UNTWISTED ANISOTROPIC BEAM SECTION PROPERTIES
-> FROM SOLID FINITE ELEMENTS’. See ACP documentation for more details.
+> FROM SOLID FINITE ELEMENTS’. For more details, see ACP documentation.
 
 > * **Parameters:**
 >   - check_status: Set to true to throw an exception if the computation failed. Otherwise, use SectionalAnalysisOutputs.status to check if the computation failed.
@@ -4816,13 +4810,13 @@ Exports the suface section cut to BECAS or ANSYS MAPDL.
   ```
 * **Output:**
   - mapdl: CDB file including the nodes and elements.
-  - becas: BECAS IN input files: N2D, E2D, EMAT and MATPROPS. Optional FAILMAT.
+  - becas: BECAS IN input files: N2D, E2D, EMAT, and MATPROPS. Optional FAILMAT.
 
 <a id="compolyx.SectionCut.extrusion_type"></a>
 
 #### *property* extrusion_type
 
-Section Cut Types can be: wire_frame,surface_normal,surface_sweep_based.
+Section Cut Types. Valid options: wire_frame,surface_normal, and surface_sweep_based.
 
 <a id="compolyx.SectionCut.from_global_to_local"></a>
 
@@ -4831,7 +4825,7 @@ Section Cut Types can be: wire_frame,surface_normal,surface_sweep_based.
 Transforms global coordinates into the local coordinate system of the section cut.
 
 * **Parameters:**
-  - global_coords: The global coordinates to be transformed. (x, y, z).
+  - global_coords: The global coordinates (x, y, z) to be transformed.
 
 * **Example:**
   >> section_cut.from_global_to_local((2.3, 1.2, 4.3)).
@@ -4843,7 +4837,7 @@ Transforms global coordinates into the local coordinate system of the section cu
 Transforms local coordinates into the global coordinate system.
 
 * **Parameters:**
-  - local_coords: The local coordinates to be transformed. (x, y, z).
+  - local_coords: The local coordinates (x, y, z) to be transformed.
 
 If local_coords is (x, y) only, then z is assumed to be 0.
 
@@ -4859,7 +4853,7 @@ Cross-sectional Measures of Geometry.
 
 Returns the sectional stiffness values for a given matrix.
 
-These are EA, GJ, GAx, GAy, EIx, EIy. Use get_transformed_sectional_properties_matrix to
+These are EA, GJ, GAx, GAy, EIx, and EIy. Use get_transformed_sectional_properties_matrix to
 transform the stiffness matrix into the desired coordinate system and format.
 
 * **Parameters:**
@@ -4888,9 +4882,9 @@ composite beam section. Or it can be used in Mechanical via a command snippet.
 
 - properties: All sectional properties of the equivalent beam properties calculation.
 - stiffness_matrix_position: The point to which the stiffness matrix is transformed. One of “origin”, “center of gravity”, “shear center”, or “elastic center”.
-- stiffness_matrix_angle: The angle by which the stiffness matrix is rotated. One of “global”, “elastic axes angle” or “principal axes angle”.
+- stiffness_matrix_angle: The angle by which the stiffness matrix is rotated. One of “global”, “elastic axes angle”, or “principal axes angle”.
 - mass_matrix_position: The point to which the mass matrix is transformed. One of “origin”, “center of gravity”, “shear center”, or “elastic center”.
-- mass_matrix_angle: The angle by which the mass matrix is rotated. One of “global”, “elastic axes angle” or “principal axes angle”.
+- mass_matrix_angle: The angle by which the mass matrix is rotated. One of “global”, “elastic axes angle”, or “principal axes angle”.
 - sectype_id: Defines the index of the section.
 
 * **Usage:**
@@ -4915,7 +4909,7 @@ Transform the global mass or stiffness matrix to the given point and rotate it b
 * **Parameters:**
   - properties: All sectional properties of the equivalent beam properties calculation.
   - position: The point to which the matrix is transformed. One of “origin”, “center of gravity”, “shear center”, or “elastic center”.
-  - angle: The angle by which the matrix is rotated. One of “global”, “elastic axes angle” or “principal axes angle”.
+  - angle: The angle by which the matrix is rotated. One of “global”, “elastic axes angle”, or “principal axes angle”.
   - matrix_type: The type of the matrix. One of “mass_matrix” or “stiffness_matrix”.
   - matrix_format: The format of the transformed matrix. One of “default” or “ansys” (Ansys Preintegrated Composite Beam).
 
@@ -5028,7 +5022,7 @@ User-defined search radius.
 
 #### *property* section_cut_type
 
-Section Cut Types can be: modeling_ply_wise,production_ply_wise,analysis_ply_wise.
+Section Cut Types. Valid options: modeling_ply_wise, production_ply_wise, or analysis_ply_wise.
 
 <a id="compolyx.SectionCut.surface_display_data"></a>
 
@@ -5164,7 +5158,7 @@ Remove entity from sensor.
 
 #### *property* sensor_type
 
-Sensor type. Allowed string values: sensor_by_area, sensor_by_plies, sensor_by_material and sensor_by_solid_model.
+Sensor type. Valid string values: sensor_by_area, sensor_by_plies, sensor_by_material, and sensor_by_solid_model.
 
 <a id="compolyx.Sensor.weight"></a>
 
@@ -5212,7 +5206,7 @@ Generate the complete plybook.
 
 * **Parameters:**
   - filename: Output filename.
-  - format: pdf, html, odt, txt.
+  - format: pdf, html, odt, or txt.
 
 <a id="compolyx.PlyBook.reST_chapter"></a>
 
@@ -5274,31 +5268,31 @@ Show the rosettes linked to a ply in snapshots.
 
 ### *class* compolyx.PublishedParameter(name, parent, source_object=None, source_property='', user_script='', category='input', acp_type=None, description='', lower_limit=None, upper_limit=None, cyclic=False, float_list=[], string_list=[], unbound_value=None)
 
-Class to represent parameters which are linked to the ANSYS workbench.
+Class to represent parameters which are linked to the ANSYS Workbench.
 
 <a id="compolyx.PublishedParameter.acp_type"></a>
 
 #### *property* acp_type
 
-ACP parameter type. Can be one of: ‘int’, ‘float’, ‘float_list’, ‘bool’, ‘string’ or None.
+ACP parameter type. Valid types: ‘int’, ‘float’, ‘float_list’, ‘bool’, ‘string’, or None.
 
 <a id="compolyx.PublishedParameter.ansys_type"></a>
 
 #### *property* ansys_type
 
-ANSYS parameter type where ACP parameter is mapped to. Can be one of: ‘int’, ‘double’, ‘boolean’, or None.
+ANSYS parameter type where ACP parameter is mapped to. Valid types: ‘int’, ‘double’, ‘boolean’, or None.
 
 <a id="compolyx.PublishedParameter.category"></a>
 
 #### *property* category
 
-Should be one of: input, unbound_input, output or expression_output.
+Valid options: input, unbound_input, output, or expression_output.
 
 <a id="compolyx.PublishedParameter.cyclic"></a>
 
 #### *property* cyclic
 
-Whether a float value is cyclic or not.
+Defines whether a float value is cyclic.
 
 <a id="compolyx.PublishedParameter.description"></a>
 
@@ -5310,7 +5304,7 @@ A human-readable description of the linked parameter.
 
 #### *property* enabled
 
-Whether this object is currently enabled or not. Mainly defined through the current application mode pre or post.
+Defines whether the object is currently enabled. Mainly defined through the current application mode pre or post.
 
 <a id="compolyx.PublishedParameter.float_list"></a>
 
@@ -5346,7 +5340,7 @@ Serialize to Python string.
 
 #### *property* string_list
 
-A list of possible values. List of objects if the property type is object, else list of strings.
+A list of possible values. A list of objects if the property type is an object, otherwise a list of strings.
 
 <a id="compolyx.PublishedParameter.unit"></a>
 
@@ -5370,7 +5364,7 @@ The actual parameter value.
 
 #### *property* wb_value
 
-The parameter value as it is represented in the ANSYS workbench.
+The parameter value as it is represented in the ANSYS Workbench.
 
 <a id="script"></a>
 
@@ -5386,13 +5380,13 @@ Class to represent user-defined scripts operating on the input parameters.
 
 #### *property* active
 
-Whether the script should run or not.
+Defines whether the script should run.
 
 <a id="compolyx.Script.enabled"></a>
 
 #### *property* enabled
 
-Whether this object is currently enabled or not. Mainly defined through the current application mode pre or post.
+Defines whether the object is currently enabled. Mainly defined through the current application mode pre or post.
 
 <a id="compolyx.Script.serialize"></a>
 
@@ -5410,19 +5404,19 @@ Source code of the user-defined script.
 
 #### *property* status
 
-String status indicating if the object is up-to-date.
+String status indicating if the object is up to date.
 
 <a id="compolyx.Script.status_changed"></a>
 
 #### *property* status_changed
 
-Specifies if the object has changed, for the purposes of notifying workbench.
+Specifies if the object has changed, for the purposes of notifying Workbench.
 
 <a id="compolyx.Script.update_mode"></a>
 
 #### *property* update_mode
 
-Defines which changes cause the script to become out-of-date. Can be either ‘manual’ (run only when manually triggered), ‘on_triggers’ (run when a parameter or the script itself changes), or ‘always’ (run with every update).
+Defines what changes cause the script to become out of date. Can be either ‘manual’ (run only when manually triggered), ‘on_triggers’ (run when a parameter or the script itself changes), or ‘always’ (run with every update).
 
 <a id="compolyx.Script.uptodate"></a>
 

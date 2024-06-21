@@ -95,8 +95,8 @@ Create a new extrusion guide.
 * **Parameters:**
   - name: The name of the extrusion guide.
   - edge_set: An edge set where this guide applies.
-  - id: The id of the extrusion guide.
-  - cad_geometry: A cad geometry object.
+  - id: The ID of the extrusion guide.
+  - cad_geometry: A CAD geometry object.
   - direction: Extrusion direction.
   - radius: Distance up to which node translations due to the guide will be propagated through the mesh.
     - `0.0`: Only the nodes extruded from edge_set will be shifted onto the guide.
@@ -114,7 +114,7 @@ Create a new snap-to-geometry object.
 
 * **Parameters:**
   - name: The name of the object.
-  - id: The id of the object.
+  - id: The ID of the object.
   - active: Pass the active-flag of the object.
   - cad_geometry: A geometry to snap to.
   - oriented_selection_set: Oriented element set where this snap to applies.
@@ -148,7 +148,7 @@ Boolean whether to disable the drop-off elements on top surface.
 
 #### *property* drop_off_type
 
-Drop-off type. Allowed string values: [‘inside_ply’, ‘outside_ply’].
+Drop-off type. Valid string values: [‘inside_ply’, ‘outside_ply’].
 
 <a id="compolyx.SolidModel.element_sets"></a>
 
@@ -166,7 +166,7 @@ Whether this object is currently enabled or not. Solid Models are are enabled in
 
 #### *property* ex_type
 
-Extrusion type. Allowed string values: [‘monolithic’, ‘analysis_ply_wise’, ‘production_ply_wise’, ‘modeling_ply_wise’, ‘sandwich_wise’, ‘specify_thickness’, ‘material_wise’, ‘user_defined’].
+Extrusion type. Valid string values: [‘monolithic’, ‘analysis_ply_wise’, ‘production_ply_wise’, ‘modeling_ply_wise’, ‘sandwich_wise’, ‘specify_thickness’, ‘material_wise’, ‘user_defined’].
 
 <a id="compolyx.SolidModel.extrusion_guides"></a>
 
@@ -275,7 +275,7 @@ Associated EdgeSet.
 
 #### *property* enabled
 
-Whether this object is currently enabled or not. It’s derived from the parent solid model.
+Defines whether this object is currently enabled. It is derived from the parent solid model.
 
 <a id="compolyx.ExtrusionGuide.radius"></a>
 
@@ -327,7 +327,7 @@ Whether this object is currently enabled or not. It’s derived from the parent 
 
 #### *property* orientation
 
-Orientation. Allowed string values: [‘top’, ‘bottom’, ‘undefined’].
+Orientation. Valid string values: [‘top’, ‘bottom’, ‘undefined’].
 
 <a id="cutoffgeometry"></a>
 
@@ -355,7 +355,7 @@ Associated CADGeometry.
 
 #### *property* enabled
 
-Whether this object is currently enabled or not. It’s derived from the parent solid model.
+Whether this object is currently enabled or not. It is derived from the parent solid model.
 
 <a id="compolyx.CutOffGeometry.orientation"></a>
 
@@ -439,7 +439,7 @@ Create a new lay-up mapping object.
 
 * **Parameters:**
   - name: The name of the Solid Model.
-  - id: The id of the Solid Model.
+  - id: The ID of the Solid Model.
   - active: Active status of lay-up mapping object.
   - entire_solid_mesh: If true, then the scope is all solid elements.
   - solid_element_sets: Defines the scope of solid elements if entire_solid_mesh is False.
@@ -483,7 +483,7 @@ Whether this object is currently enabled or not. Solid Models are are enabled in
 
 #### *property* ext_id
 
-Id of corresponding Mechanical Model within WB arhcive (ComponentID).
+ID of corresponding Mechanical Model within WB arhcive (ComponentID).
 
 <a id="compolyx.ImportedSolidModel.external_file_path"></a>
 
@@ -508,7 +508,7 @@ Boolean whether Lay-up Mapping Objects of type reinforcing are present.
 #### import_initial_mesh(unit_system_type='undefined')
 
 Load the solid mesh without updating the lay-up mapping.
-The mesh is not refreshed if the solid model is already up-to-date.
+The mesh is not refreshed if the solid model is already up to date.
 
 * **Parameters:**
   - unit_system_type: the mesh is converted to the specified unit system. For instance, “mpa” or “bin”.
@@ -532,7 +532,7 @@ Returns the statistics of the layup mapping (number of elements, volumes, mass e
 Reloads the mesh from the external source.
 
 * **Parameters:**
-  - enforce: enforce the reloading of external data for locked object in the new acph5 serialization format. This option should be used with care!
+  - enforce: Enforce the reloading of external data for locked object in the new acph5 serialization format. This option should be used with care!
 
 <a id="compolyx.ImportedSolidModel.serialize"></a>
 
@@ -585,7 +585,7 @@ Analysis Plies of the Mapping Object.
 
 #### *property* base_element_material_handling
 
-Whether the base-element material is removed or kept. Allowed string values: [‘retain’, ‘remove’].
+Whether the base-element material is removed or kept. Valid string values: [‘retain’, ‘remove’].
 
 <a id="compolyx.LayupMappingObject.base_element_rosette_selection_method_type"></a>
 
@@ -627,7 +627,7 @@ Defines the element technology. Allowed string values: [‘layered_element’, �
 
 #### *property* enabled
 
-Whether this object is currently enabled or not. Solid Models are are enabled in pre and shared mode.
+Defines whether this object is currently enabled. Solid Models are are enabled in pre and shared mode.
 
 <a id="compolyx.LayupMappingObject.entire_solid_mesh"></a>
 
@@ -651,19 +651,19 @@ Minimum thickness of the void layer.
 
 #### *property* reinforcing_behavior
 
-Whether the reinforcing carries load and/or tension. Allowed string values: [‘tension_and_compression’, ‘tension_only’, ‘compression_only’].
+Whether the reinforcing carries load and/or tension. Valid string values: [‘tension_and_compression’, ‘tension_only’, ‘compression_only’].
 
 <a id="compolyx.LayupMappingObject.reinforcing_stress_state"></a>
 
 #### *property* reinforcing_stress_state
 
-Defines which FE elements are used. Allowed string values: [‘uniaxial_stress_state’, ‘plane_stress_state’, ‘plane_stress_state_with_transverse_shear_stiffness’, ‘plane_stress_state_with_transverse_shear_and_bending_stiffness’].
+Defines which FE elements are used. Valid string values: [‘uniaxial_stress_state’, ‘plane_stress_state’, ‘plane_stress_state_with_transverse_shear_stiffness’, ‘plane_stress_state_with_transverse_shear_and_bending_stiffness’].
 
 <a id="compolyx.LayupMappingObject.rosette_selection_method_type"></a>
 
 #### *property* rosette_selection_method_type
 
-Selection method of the coordinate systems for the filler/lost elements. Allowed string values: [‘minimum_distance’, ‘minimum_distance_superposed’].
+Selection method of the coordinate systems for the filler/lost elements. Valid string values: [‘minimum_distance’, ‘minimum_distance_superposed’].
 
 <a id="compolyx.LayupMappingObject.rosettes"></a>
 
