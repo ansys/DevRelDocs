@@ -23,7 +23,7 @@ Access:
 
 #### *property* ID
 
-Id to be displayed in Envelope solution.
+ID to be displayed in Envelope solution.
 
 <a id="compolyx.Solution.active"></a>
 
@@ -41,7 +41,7 @@ Clear all result data.
 
 #### clear_element_results()
 
-Resets the post-processing results for each layered element.
+Resets the postprocessing results for each layered element.
 
 <a id="compolyx.Solution.clear_failure_criteria_results"></a>
 
@@ -53,17 +53,17 @@ Resets the failure criteria results for each layered element.
 
 #### *property* enabled
 
-Whether this object is currently enabled or not. Mainly defined through the current application mode pre or post.
+Defines whether this object is currently enabled. Mainly defined through the current application mode pre or post.
 
 <a id="compolyx.Solution.export_results_to_csv"></a>
 
 #### export_results_to_csv(definition=None, entities=[], file_path=None, solution_set=-1, solids=False, spot='all')
 
-Exports the shell results of the selected entities to a csv file.
+Exports the shell results of the selected entities to a .csv file.
 
 * **Parameters:**
-  - definitions: Selected definition - CombinedFailure Criteria object or as string ‘deformations’, ‘strains’ or ‘stresses’.
-  - entities: Defines the selection for the export. Can be a list of ElementSets, AnalysisPlies or SolidModels.
+  - definitions: Selected definition - CombinedFailure Criteria object or as string ‘deformations’, ‘strains’, or ‘stresses’.
+  - entities: Defines the selection for the export. Can be a list of ElementSets, AnalysisPlies, or SolidModels.
   - file_path: File name.
   - solution_set: Solution Set for which data is requested.
   - solids: Boolean whether to take the results of the solid elements or not. Default is False (results of shells).
@@ -81,25 +81,25 @@ Export results of solid models: Select the element set which is selected in the 
 
 #### *property* ext_id
 
-Id of corresponding Solution in external solution (ComponentID).
+ID of corresponding Solution in external solution (ComponentID).
 
 <a id="compolyx.Solution.format"></a>
 
 #### *property* format
 
-File format string. Choose one of ‘abaqus:inp’,’ansys:cdb’ or ‘nastran:f06’
+File format string. Choose one of ‘abaqus:inp’,’ansys:cdb’, or ‘nastran:f06’,
 
 <a id="compolyx.Solution.has_element_temperatures"></a>
 
 #### *property* has_element_temperatures
 
-Boolean flag if element nodal temperatures are read from the rst file.
+Boolean flag if element nodal temperatures are read from the .rst file.
 
 <a id="compolyx.Solution.has_progressive_damage"></a>
 
 #### *property* has_progressive_damage
 
-Boolean flag if progressive_damage data are read from the rst file.
+Boolean flag if progressive_damage data are read from the .rst file.
 
 <a id="compolyx.Solution.load"></a>
 
@@ -140,11 +140,11 @@ Query results from the solution.
 * **Parameters:**
   - definition: The postproc definition defines what results are evaluated. Can be given as
     CombinedFailureCriteria object or as string such as
-    ‘strains’, ‘stresses’, ‘laminate_forces’, ‘deformations’, ‘temperatures’ or ‘progressive_damage’.
+    ‘strains’, ‘stresses’, ‘laminate_forces’, ‘deformations’, ‘temperatures’, or ‘progressive_damage’.
   - options: Dict with the additional options used to fully configure the definition.
     - stresses: options={“eval_ins”:True} to enable the interlaminar normal stress evaluation for shells.
   - position: Position where data is queried:
-    - nodal, centroid, element_nodal, integration_point or element_results.
+    - nodal, centroid, element_nodal, integration_point, or element_results.
   - selection: The selection set determines the selected nodes and elements.
     Can be given as string ‘sel0’ - ‘sel5’ or ‘all’
     or can be given as ObjectSelection object such as model.selection or scene.active_set.
