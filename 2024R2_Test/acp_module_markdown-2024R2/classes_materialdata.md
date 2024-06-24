@@ -161,7 +161,7 @@ Create a new Sub-Laminate.
 * **Parameters:**
   - name: Name for the Sub-Laminate.
   - fabrics: Fabrics of the Sub-Laminate.
-  - symmetry: Symmetry the Sub-Laminate can be ‘No Symmetry’, ‘Even Symmetry’ or ‘Odd Symmetry’.
+  - symmetry: Symmetry the Sub-Laminate can be ‘No Symmetry’, ‘Even Symmetry’, or ‘Odd Symmetry’.
   - layup_sequence: Layup sequence of the Sub-Laminate can be ‘Top-Down’ or ‘Bottom-Up’.
 * **Returns:**
   The created Sub-Laminate.
@@ -250,7 +250,7 @@ Path to MatML file as provided by Workbench EngineeringData.
 
 #### *property* name
 
-Currently a name is needed for every object in the db tree.
+Currently a name is needed for every object in the DB tree.
 
 <a id="compolyx.MaterialData.serialize"></a>
 
@@ -372,7 +372,7 @@ Material is generated from an external source and cannot be changed.
 
 #### *property* ply_type
 
-Ply type. Allowed string values: regular, woven, orthotropic_homogeneous_core, isotropic_homogeneous_core, honeycomb_core, isotropic, adhesive, undefined
+Ply type. Allowed string values: regular, woven, orthotropic_homogeneous_core, isotropic_homogeneous_core, honeycomb_core, isotropic, adhesive, and undefined.
 
 <a id="compolyx.Material.property_names"></a>
 
@@ -416,7 +416,7 @@ This class wraps GIL-functionality and adds Python-UI utilities to all material 
 
 #### get(variables=None)
 
-Get raw PropertySet data. For puck_constants and woven_characterization the Puck Material Classification can be retrieved.
+Get raw PropertySet data. For puck_constants and woven_characterization, the Puck Material Classification can be retrieved.
 
 * **Parameters:**
   - variables: Optional string of variable to be retrieved (property or envrionment variable). If this string is set to mat_type, the Puck Material Classification is returned if available.
@@ -571,14 +571,14 @@ Returns the properties of the classical laminate theory:
 
 #### create_plot(query={'polar_properties': ['E1', 'G12']})
 
-Generates 2D-plots with the results of interest.
+Generates 2D plots with the results of interest.
 
 * **Parameters:**
-  - query: Query arguments
+  - query: Query arguments.
 * **Options:**
-  - layup: [‘pp’] Production plies
+  - layup: [‘pp’] Production plies.
   - polar_properties: [‘E1’,’E2’,’G12’] Polar plot of laminate stiffess.
-  - text_plot: [‘materials’, ‘angles’, ‘thicknesses’]
+  - text_plot: [‘materials’, ‘angles’, ‘thicknesses’].
 * **Examples:**
   ```pycon
   >>> query={'polar_properties':['E1', 'G12'], layup:['pp'], text_plot:['materials', 'angles', 'thicknesses']}
@@ -721,9 +721,9 @@ Returns the properties of the classical laminate theory.
 * **Parameters:**
   - query: Query parameters.
 * **Options:**
-  - layup: Return the layup
+  - layup: Return the layup.
   - laminate_properties: Young’s, flexural, and shear moduli of the laminate.
-  - polar_properties: E1, E2,  and G12 depending on the laminate orientation.
+  - polar_properties: E1, E2, and G12 depending on the laminate orientation.
   - stiffness_matrix: Returns the laminate stiffness matrix (ABD).
   - compliance_matrix: Returns the lamiante compliance matrix (inverse of ABD).
 * **Example:**
@@ -735,7 +735,7 @@ Returns the properties of the classical laminate theory.
 
 #### create_plot(query={'layup': ['pp', 'ap'], 'polar_properties': ['E1', 'G12']}, core_scale_factor=None)
 
-Generates 2D-plots with the results of interest.
+Generates 2D plots with the results of interest.
 
 * **Parameters:**
   - query: Query parameters.
@@ -874,13 +874,13 @@ Add fabric at end of fabrics list.
 
 #### *property* area_price
 
-Price per area of the Sub-Laminate.
+Price per area of the sub-laminate.
 
 <a id="compolyx.SubLaminate.area_weight"></a>
 
 #### *property* area_weight
 
-Area weight of the Sub-Laminate.
+Area weight of the sub-laminate.
 
 <a id="compolyx.SubLaminate.capture_analysis_plot"></a>
 
@@ -925,7 +925,7 @@ Returns the properties of the classical laminate theory.
 
 #### create_plot(query={'layup': ['mp', 'pp', 'ap'], 'polar_properties': ['E1', 'G12']}, core_scale_factor=None)
 
-Generates 2D-plots with the results of interest.
+Generates 2D plots with the results of interest.
 
 * **Parameters:**
   - query: Query parameters.
@@ -943,7 +943,7 @@ Generates 2D-plots with the results of interest.
 
 #### *property* fabrics
 
-Fabrics property of the Sub-Laminate.
+Fabrics property of the sub-laminate.
 
 <a id="compolyx.SubLaminate.get_ordered_fabrics"></a>
 
@@ -979,7 +979,7 @@ Returns True if all engineering constants and strength limits of the assigned fa
 
 #### *property* layup_sequence
 
-Layup Sequence of the Sub Laminate, can be ‘Top-Down’ or ‘Bottom-Up’.
+Layup Sequence of the sub-laminate, can be ‘Top-Down’ or ‘Bottom-Up’.
 
 <a id="compolyx.SubLaminate.remove_fabric"></a>
 
@@ -997,13 +997,13 @@ Serialize to Python string.
 
 #### *property* symmetry
 
-Symmetry of the Sub Laminate can be ‘No Symmetry’, ‘Even Symmetry’, or ‘Odd Symmetry’.
+Symmetry of the sub-laminate. Valid options: ‘No Symmetry’, ‘Even Symmetry’, or ‘Odd Symmetry’.
 
 <a id="compolyx.SubLaminate.thickness"></a>
 
 #### *property* thickness
 
-Thickness of the Sub-Laminate.
+Thickness of the sub-laminate.
 
 <a id="compolyx.SubLaminate.update_plot"></a>
 
