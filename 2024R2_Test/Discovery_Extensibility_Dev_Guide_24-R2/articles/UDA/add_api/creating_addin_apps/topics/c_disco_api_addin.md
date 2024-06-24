@@ -13,7 +13,7 @@ This section contains the following topics:
 
 -   **[Getting started](../../../../UDA/add_api/creating_addin_apps/topics/c_disco_api_addin_gettingstarted.md)**  
 
--   **[Creating a C\# add-in](../../../../UDA/add_api/creating_addin_apps/topics/c_disco_api_create_csharp.md)**  
+-   **[Creating a C# add-in](../../../../UDA/add_api/creating_addin_apps/topics/c_disco_api_create_csharp.md)**  
 
 -   **[Creating manifest files](../../../../UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md)**  
 

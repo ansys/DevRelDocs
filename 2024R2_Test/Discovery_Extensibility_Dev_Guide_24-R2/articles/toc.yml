@@ -5,7 +5,7 @@
   items:
   - name: Getting started
     href: UDA/add_api/creating_addin_apps/topics/c_disco_api_addin_gettingstarted.md
-  - name: Creating a C\# add-in
+  - name: Creating a C# add-in
     href: UDA/add_api/creating_addin_apps/topics/c_disco_api_create_csharp.md
   - name: Creating manifest files
     href: UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md
@@ -124,10 +124,10 @@
       href: UDA/add_api/architecture/units/input_vals.md
     - name: Custom conversions
       href: UDA/add_api/architecture/units/custom_conversion.md
-- name: Release notes
-  href: UDA/add_api/release_notes/c_disco_api_addin_release_notes.md
+- name: Changelog
+  href: UDA/add_api/changelog/c_disco_api_addin_changelog.md
   items:
   - name: V24.2
-    href: UDA/add_api/release_notes/V24.2.md
+    href: UDA/add_api/changelog/V24-r2.md
 # -  name: Copyright and trademark information
   # href: shared/c_legal_frontmatter.md

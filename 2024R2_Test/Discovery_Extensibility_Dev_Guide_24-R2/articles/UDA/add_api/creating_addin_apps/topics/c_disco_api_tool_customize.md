@@ -4,9 +4,9 @@
 
 In Discovery, a tool is defined as a piece of functionality related to geometry manipulation \(for example, the Pull tool for geometry extrusion\) or a physical condition definition \(for example, the creation of a Force\). The definition of a tool requires user inputs, called tool options.
 
-In the C\# code, a tool is defined by a class derived from `SpaceClaim.Api.V22.Tool`. The OptionsXml property defines the layout of the panel that contains the tool options, like the ribbon XML.
+In the C# code, a tool is defined by a class derived from `SpaceClaim.Api.V22.Tool`. The OptionsXml property defines the layout of the panel that contains the tool options, like the ribbon XML.
 
-``` {#codeblock_rrd_yfg_2vb}
+```
 class CustomTool : Tool  
 { 
 	public CustomTool() 
@@ -19,10 +19,9 @@ class CustomTool : Tool
 		get { return Resources.CustomToolOptions; } 
      } 
 }
-
 ```
 
-``` {#codeblock_ynj_bgg_2vb}
+```xml
 <?xml version="1.0" encoding="utf-8"?> 
 <customUI xmlns="http://schemas.spaceclaim.com/customui"> 
   <panel command="DiscoverySampleAddIn.BarTool" label="Tool" modeLabel="TextBox"> 
@@ -46,7 +45,7 @@ Another configurable tool item by the add-ins is the tool guide. It is a short c
 
 ![](../../../../images/tool_customization_tool_guide.png)
 
-``` {#codeblock_kxm_kgg_2vb}
+```
 <group id=" DiscoverySampleAddIn.CustomTestTool3ToolGuideGroup1" label="Tool Guides 1" optionsType="toolGuide"> 
 	<button id=" DiscoverySampleAddIn.CustomTestTool3ToolGuide" command=" DiscoverySampleAddIn.TextBoxTool"/> 
 	<button id=" DiscoverySampleAddIn.CustomTestTool3ToolGuide" command=" DiscoverySampleAddIn.CheckBoxTool"/> 
@@ -57,19 +56,18 @@ Another configurable tool item by the add-ins is the tool guide. It is a short c
 
 If a tool has options to choose from, it should be expressed as below:
 
-``` {#codeblock_xxb_mgg_2vb}
+```
 <group id="DiscoverySampleAddIn.FooToolSubOption" label="Tool Sub Options" optionsType="toolSubOption"> 
    <toolSubOption id="DiscoverySampleAddIn.FooToolSubOption" command="DiscoverySampleAddIn.FooToolSubOption" width="80"> 
         <item label="Sub Option1"/> 
         <item label="Sub Option2"/> 
    </toolSubOption> 
 </group> 
-
 ```
 
-Tool sub option is a collection of tool sub option items \(unbounded\) that will be shown in a dropdown. In the example above, there are two items with labels, "Sub Option1" and "Sub Option 2," which are also the display names. Using this code, items tools options can be grouped and filtered. The command for the tool sub option can be defined as shown below in C\# and linked to the XML by the command name.
+Tool sub option is a collection of tool sub option items \(unbounded\) that will be shown in a dropdown. In the example above, there are two items with labels, "Sub Option1" and "Sub Option 2," which are also the display names. Using this code, items tools options can be grouped and filtered. The command for the tool sub option can be defined as shown below in C# and linked to the XML by the command name.
 
-``` {#codeblock_f32_5gg_2vb}
+```
 static class FooToolSubOptionComboBox 
     { 
         const string commandName = "DiscoverySampleAddIn.FooToolSubOption"; 
@@ -108,7 +106,7 @@ The primary options are mostly used to add another level of selection. They shou
 
 Below is an example add-in showing how you can create primary options.
 
-``` {#codeblock_nl5_zgg_2vb}
+```
 <group id="DiscoverySampleAddIn.FooToolPrimary" label="Textbox Options" optionsType="primary"> 
       <container id="DiscoverySampleAddIn.FooToolContainer" layoutOrientation="vertical"> 
         <checkBox id="DiscoverySampleAddIn.CheckBox" label="Unitless" command="DiscoverySampleAddIn.CheckBox"/> 
@@ -117,7 +115,6 @@ Below is an example add-in showing how you can create primary options.
         <textBox id="DiscoverySampleAddIn.TextBoxQuantity" command="DiscoverySampleAddIn.TextBoxQuantity" width="80" label="Quantity :" quantityType="temperature" /> 
       </container> 
 </group> 
-
 ```
 
 In primary options, multiple buttons or text box fields can be stacked together. As shown in the example above, they are added to a container with a layout orientation of "vertical."
@@ -134,7 +131,7 @@ To create a preferred options block, the add-in needs to define a group with opt
 
 In the example below, the preferred options are stacked vertically. As you can see, a button item can be used as an expander to group other items. Also, shown below, the spin box is only visible when a button is clicked. This button functionality can be useful when there are multiple fields that need to be activated under certain conditions.
 
-``` {#codeblock_vrt_yhg_2vb}
+```
 
 <group id="DiscoverySampleAddIn.FooToolPreferred" label="Textbox Options" optionsType="preferred"> 
      <container id="DiscoverySampleAddIn.FooToolContainer" layoutOrientation="vertical"> 
@@ -155,7 +152,7 @@ In the example below, the preferred options are stacked vertically. As you can s
 
 Expanded options allow for further grouping on the tools and they work in a similar way to buttons, but visually they are represented as arrows on the preferred options. To create expanded options, define a group in XML using optionsType="expanded."
 
-``` {#codeblock_yzj_c3g_2vb}
+```
 <group id="DiscoverySampleAddIn.FooToolExpanded" label="Textbox Options" optionsType="expanded"> 
         <container id="DiscoverySampleAddIn.FooToolContainer" layoutOrientation="vertical"> 
           <textBox id="DiscoverySampleAddIn.ExpandedDouble1" command="DiscoverySampleAddIn.ExpandedDouble1" width="80" label="expanded 1:" /> 

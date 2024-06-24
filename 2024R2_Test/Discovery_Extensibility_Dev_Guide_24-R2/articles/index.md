@@ -3,7 +3,7 @@
 -   [Introduction](UDA/add_api/introduction/topics/disco_api_intro.md)
 -   [Creating Add-in Applications](UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md)
     -   [Getting Started](UDA/add_api/creating_addin_apps/topics/c_disco_api_addin_gettingstarted.md)
-    -   [Creating a C\# Add-in](UDA/add_api/creating_addin_apps/topics/c_disco_api_create_csharp.md)
+    -   [Creating a C# Add-in](UDA/add_api/creating_addin_apps/topics/c_disco_api_create_csharp.md)
     -   [Creating Manifest Files](UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md)
     -   [Creating Custom Commands](UDA/add_api/creating_addin_apps/topics/c_disco_api_create_custom.md)
     -   [Customizing the Ribbon](UDA/add_api/creating_addin_apps/topics/c_disco_api_ribbon_customize.md)
@@ -58,6 +58,6 @@
         -   [Inputting Values](UDA/add_api/architecture/units/input_vals.md)
         -   [Custom Conversions](UDA/add_api/architecture/units/custom_conversion.md)
 -   [Release Notes](UDA/add_api/release_notes/c_disco_api_addin_release_notes.md)
-    -   [V24.2](UDA/add_api/release_notes/V24.2.md)
+    -   [V24.2](UDA/add_api/release_notes/V24-r2.md)
 <!-- -   [Copyright and Trademark Information](shared/c_legal_frontmatter.md) -->
 

@@ -24,7 +24,6 @@ public static void Example(DesignFace desFace) {
 	UpdateState beforeStateB = UpdateState.FromString(stateText);
 	Debug.Assert(beforeStateA == beforeStateB);
 }
-
 ```
 
 Update states aren't provided for occurrences, but you can store the update states of the instances involved in the occurrence chain, along with the update state of the master. PathToMaster returns these instances.

@@ -18,7 +18,6 @@ public static void Example(Part part) {
 	// override the layer color
 	desCurve.SetColor(null, Color.DarkSalmon);
 }
-
 ```
 
 A design curve has other properties that are outside the concept of a trimmed curve, such as layer, color override, and name.
