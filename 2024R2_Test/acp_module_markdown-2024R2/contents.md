@@ -5,7 +5,7 @@ The ACP scripting interface provides programmable control of the ACP application
 * [Getting started](getting_started_acp.md)
   * [Basic scripting](getting_started_acp.md#basic-scripting)
   * [Advanced scripting](getting_started_acp.md#advanced-scripting)
-  * [test link](classes_model#add_entityentity)
+  * [test link](getting_started_acp.md#test-heading)
 * [The Python object tree](python_object_tree.md)
 * [Classes](classes.md)
   * [Database](db_database.md)
