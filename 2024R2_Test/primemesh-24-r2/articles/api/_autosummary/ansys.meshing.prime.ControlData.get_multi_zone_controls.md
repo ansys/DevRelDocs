@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-controldata-get-multi-zone-controls"></a>
-
 # ansys.meshing.prime.ControlData.get_multi_zone_controls
 
 <a id="ansys.meshing.prime.ControlData.get_multi_zone_controls"></a>

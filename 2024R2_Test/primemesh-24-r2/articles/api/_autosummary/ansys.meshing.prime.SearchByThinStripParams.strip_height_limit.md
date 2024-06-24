@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-searchbythinstripparams-strip-height-limit"></a>
-
 # ansys.meshing.prime.SearchByThinStripParams.strip_height_limit
 
 <a id="ansys.meshing.prime.SearchByThinStripParams.strip_height_limit"></a>

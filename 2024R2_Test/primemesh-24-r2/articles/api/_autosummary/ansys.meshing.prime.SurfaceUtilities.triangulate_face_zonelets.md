@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfaceutilities-triangulate-face-zonelets"></a>
-
 # ansys.meshing.prime.SurfaceUtilities.triangulate_face_zonelets
 
 <a id="ansys.meshing.prime.SurfaceUtilities.triangulate_face_zonelets"></a>

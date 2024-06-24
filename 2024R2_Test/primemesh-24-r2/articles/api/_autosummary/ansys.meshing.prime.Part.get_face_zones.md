@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-part-get-face-zones"></a>
-
 # ansys.meshing.prime.Part.get_face_zones
 
 <a id="ansys.meshing.prime.Part.get_face_zones"></a>

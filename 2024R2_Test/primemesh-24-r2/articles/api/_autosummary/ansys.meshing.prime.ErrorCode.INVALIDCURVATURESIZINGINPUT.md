@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-invalidcurvaturesizinginput"></a>
-
 # ansys.meshing.prime.ErrorCode.INVALIDCURVATURESIZINGINPUT
 
 <a id="ansys.meshing.prime.ErrorCode.INVALIDCURVATURESIZINGINPUT"></a>

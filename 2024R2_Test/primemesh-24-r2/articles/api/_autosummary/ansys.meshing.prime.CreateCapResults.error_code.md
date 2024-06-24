@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-createcapresults-error-code"></a>
-
 # ansys.meshing.prime.CreateCapResults.error_code
 
 <a id="ansys.meshing.prime.CreateCapResults.error_code"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-automeshparams-size-field-type"></a>
-
 # ansys.meshing.prime.AutoMeshParams.size_field_type
 
 <a id="ansys.meshing.prime.AutoMeshParams.size_field_type"></a>

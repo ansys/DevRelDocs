@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-part-get-unstructured-spline-surface"></a>
-
 # ansys.meshing.prime.Part.get_unstructured_spline_surface
 
 <a id="ansys.meshing.prime.Part.get_unstructured_spline_surface"></a>

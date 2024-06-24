@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-boundaryfittedsplineparams-refinement-fraction-v"></a>
-
 # ansys.meshing.prime.BoundaryFittedSplineParams.refinement_fraction_v
 
 <a id="ansys.meshing.prime.BoundaryFittedSplineParams.refinement_fraction_v"></a>

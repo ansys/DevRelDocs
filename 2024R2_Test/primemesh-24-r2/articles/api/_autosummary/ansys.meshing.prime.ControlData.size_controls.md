@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-controldata-size-controls"></a>
-
 # ansys.meshing.prime.ControlData.size_controls
 
 <a id="ansys.meshing.prime.ControlData.size_controls"></a>

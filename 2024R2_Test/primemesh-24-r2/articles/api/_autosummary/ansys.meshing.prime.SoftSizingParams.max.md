@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-softsizingparams-max"></a>
-
 # ansys.meshing.prime.SoftSizingParams.max
 
 <a id="ansys.meshing.prime.SoftSizingParams.max"></a>

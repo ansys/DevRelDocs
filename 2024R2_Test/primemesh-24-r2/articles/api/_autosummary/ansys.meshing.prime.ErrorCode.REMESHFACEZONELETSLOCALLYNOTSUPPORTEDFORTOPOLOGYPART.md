@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-remeshfacezoneletslocallynotsupportedfortopologypart"></a>
-
 # ansys.meshing.prime.ErrorCode.REMESHFACEZONELETSLOCALLYNOTSUPPORTEDFORTOPOLOGYPART
 
 <a id="ansys.meshing.prime.ErrorCode.REMESHFACEZONELETSLOCALLYNOTSUPPORTEDFORTOPOLOGYPART"></a>

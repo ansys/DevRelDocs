@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-periodiccontrol-get-summary"></a>
-
 # ansys.meshing.prime.PeriodicControl.get_summary
 
 <a id="ansys.meshing.prime.PeriodicControl.get_summary"></a>

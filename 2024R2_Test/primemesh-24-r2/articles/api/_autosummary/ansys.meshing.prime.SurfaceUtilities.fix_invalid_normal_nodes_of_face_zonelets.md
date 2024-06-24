@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfaceutilities-fix-invalid-normal-nodes-of-face-zonelets"></a>
-
 # ansys.meshing.prime.SurfaceUtilities.fix_invalid_normal_nodes_of_face_zonelets
 
 <a id="ansys.meshing.prime.SurfaceUtilities.fix_invalid_normal_nodes_of_face_zonelets"></a>

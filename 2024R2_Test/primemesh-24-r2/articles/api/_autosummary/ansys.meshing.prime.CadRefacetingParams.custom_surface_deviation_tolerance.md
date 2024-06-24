@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-cadrefacetingparams-custom-surface-deviation-tolerance"></a>
-
 # ansys.meshing.prime.CadRefacetingParams.custom_surface_deviation_tolerance
 
 <a id="ansys.meshing.prime.CadRefacetingParams.custom_surface_deviation_tolerance"></a>

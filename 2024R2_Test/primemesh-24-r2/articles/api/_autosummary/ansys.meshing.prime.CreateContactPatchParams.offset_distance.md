@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-createcontactpatchparams-offset-distance"></a>
-
 # ansys.meshing.prime.CreateContactPatchParams.offset_distance
 
 <a id="ansys.meshing.prime.CreateContactPatchParams.offset_distance"></a>

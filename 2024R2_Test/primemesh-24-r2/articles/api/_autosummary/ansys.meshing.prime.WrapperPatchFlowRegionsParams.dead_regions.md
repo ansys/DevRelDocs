@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapperpatchflowregionsparams-dead-regions"></a>
-
 # ansys.meshing.prime.WrapperPatchFlowRegionsParams.dead_regions
 
 <a id="ansys.meshing.prime.WrapperPatchFlowRegionsParams.dead_regions"></a>

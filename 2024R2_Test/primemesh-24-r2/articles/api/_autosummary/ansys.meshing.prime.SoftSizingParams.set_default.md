@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-softsizingparams-set-default"></a>
-
 # ansys.meshing.prime.SoftSizingParams.set_default
 
 <a id="ansys.meshing.prime.SoftSizingParams.set_default"></a>

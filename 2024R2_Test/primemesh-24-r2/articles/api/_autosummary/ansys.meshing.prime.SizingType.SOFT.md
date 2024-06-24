@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-sizingtype-soft"></a>
-
 # ansys.meshing.prime.SizingType.SOFT
 
 <a id="ansys.meshing.prime.SizingType.SOFT"></a>

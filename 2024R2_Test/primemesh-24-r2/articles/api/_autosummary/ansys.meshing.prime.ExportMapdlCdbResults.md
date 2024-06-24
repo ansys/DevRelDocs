@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="exportmapdlcdbresults"></a>
-
 # ExportMapdlCdbResults
 
 <a id="ansys.meshing.prime.ExportMapdlCdbResults"></a>
@@ -40,14 +38,16 @@ Results associated with the MAPDL CDB export.
 
 ### Methods
 
-| [`ExportMapdlCdbResults.print_default`](ansys.meshing.prime.ExportMapdlCdbResults.print_default.md#ansys.meshing.prime.ExportMapdlCdbResults.print_default)()   | Print the default values of `ExportMapdlCdbResults` object.   |
+| Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`ExportMapdlCdbResults.print_default`](ansys.meshing.prime.ExportMapdlCdbResults.print_default.md#ansys.meshing.prime.ExportMapdlCdbResults.print_default)()   | Print the default values of `ExportMapdlCdbResults` object.   |
 | [`ExportMapdlCdbResults.set_default`](ansys.meshing.prime.ExportMapdlCdbResults.set_default.md#ansys.meshing.prime.ExportMapdlCdbResults.set_default)([...])    | Set the default values of the `ExportMapdlCdbResults` object. |
 
 ### Attributes
 
-| [`ExportMapdlCdbResults.error_code`](ansys.meshing.prime.ExportMapdlCdbResults.error_code.md#ansys.meshing.prime.ExportMapdlCdbResults.error_code)          | Error code associated with failure of operation.     |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
+| [`ExportMapdlCdbResults.error_code`](ansys.meshing.prime.ExportMapdlCdbResults.error_code.md#ansys.meshing.prime.ExportMapdlCdbResults.error_code)          | Error code associated with failure of operation.     |
 | [`ExportMapdlCdbResults.summary_log`](ansys.meshing.prime.ExportMapdlCdbResults.summary_log.md#ansys.meshing.prime.ExportMapdlCdbResults.summary_log)       | Summary log for the export operation in json format. |
 | [`ExportMapdlCdbResults.warning_codes`](ansys.meshing.prime.ExportMapdlCdbResults.warning_codes.md#ansys.meshing.prime.ExportMapdlCdbResults.warning_codes) | Warning codes associated with the operation.         |
 <!-- vale on -->

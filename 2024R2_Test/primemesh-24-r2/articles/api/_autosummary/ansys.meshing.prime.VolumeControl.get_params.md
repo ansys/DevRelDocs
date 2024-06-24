@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-volumecontrol-get-params"></a>
-
 # ansys.meshing.prime.VolumeControl.get_params
 
 <a id="ansys.meshing.prime.VolumeControl.get_params"></a>

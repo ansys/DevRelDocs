@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-repairedgesparams-absolute-tolerance"></a>
-
 # ansys.meshing.prime.RepairEdgesParams.absolute_tolerance
 
 <a id="ansys.meshing.prime.RepairEdgesParams.absolute_tolerance"></a>

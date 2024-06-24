@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-filereadresults-error-code"></a>
-
 # ansys.meshing.prime.FileReadResults.error_code
 
 <a id="ansys.meshing.prime.FileReadResults.error_code"></a>

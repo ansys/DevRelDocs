@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-warningcode-overridesoftsizingparams"></a>
-
 # ansys.meshing.prime.WarningCode.OVERRIDESOFTSIZINGPARAMS
 
 <a id="ansys.meshing.prime.WarningCode.OVERRIDESOFTSIZINGPARAMS"></a>

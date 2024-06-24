@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-sizecontrol-get-proximity-sizing-params"></a>
-
 # ansys.meshing.prime.SizeControl.get_proximity_sizing_params
 
 <a id="ansys.meshing.prime.SizeControl.get_proximity_sizing_params"></a>

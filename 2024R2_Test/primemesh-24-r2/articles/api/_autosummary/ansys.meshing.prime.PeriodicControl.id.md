@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-periodiccontrol-id"></a>
-
 # ansys.meshing.prime.PeriodicControl.id
 
 <a id="ansys.meshing.prime.PeriodicControl.id"></a>

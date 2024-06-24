@@ -1,7 +1,3 @@
-<a id="ref-index-graphics"></a>
-
-<a id="interactive-graphics-using-pyvista"></a>
-
 # Interactive graphics using PyVista
 
 PyPrimeMesh provides support for interactive graphical visualisation using [PyVista](https://docs.pyvista.org/)
@@ -16,7 +12,7 @@ This code shows how to display the model using the `Graphics` class:
 >>> display()
 ```
 
-Using the [`ScopeDefinition`](../api/_autosummary/ansys.meshing.prime.ScopeDefinition.md#ansys.meshing.prime.ScopeDefinition) class allows
+Using the [`ScopeDefinition`](./../api/_autosummary/ansys.meshing.prime.ScopeDefinition.md#ansys.meshing.prime.ScopeDefinition) class allows
 you to limit the display to particular regions of the model:
 
 ```pycon

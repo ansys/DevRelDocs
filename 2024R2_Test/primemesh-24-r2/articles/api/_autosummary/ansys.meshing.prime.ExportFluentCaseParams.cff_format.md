@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-exportfluentcaseparams-cff-format"></a>
-
 # ansys.meshing.prime.ExportFluentCaseParams.cff_format
 
 <a id="ansys.meshing.prime.ExportFluentCaseParams.cff_format"></a>

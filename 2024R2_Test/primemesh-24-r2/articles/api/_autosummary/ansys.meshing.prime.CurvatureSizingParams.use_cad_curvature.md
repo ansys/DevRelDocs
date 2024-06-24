@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-curvaturesizingparams-use-cad-curvature"></a>
-
 # ansys.meshing.prime.CurvatureSizingParams.use_cad_curvature
 
 <a id="ansys.meshing.prime.CurvatureSizingParams.use_cad_curvature"></a>

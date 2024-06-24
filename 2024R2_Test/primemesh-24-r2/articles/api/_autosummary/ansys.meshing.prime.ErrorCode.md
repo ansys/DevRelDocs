@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="errorcode"></a>
-
 # ErrorCode
 
 <a id="ansys.meshing.prime.ErrorCode"></a>
@@ -14,8 +12,9 @@ Error codes associated with the failure of PyPrimeMesh operation.
 
 ### Attributes
 
-| [`ErrorCode.NOERROR`](ansys.meshing.prime.ErrorCode.NOERROR.md#ansys.meshing.prime.ErrorCode.NOERROR)                                                                                                                                        | No error.                                                                            |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| [`ErrorCode.NOERROR`](ansys.meshing.prime.ErrorCode.NOERROR.md#ansys.meshing.prime.ErrorCode.NOERROR)                                                                                                                                        | No error.                                                                            |
 | [`ErrorCode.UNKNOWN`](ansys.meshing.prime.ErrorCode.UNKNOWN.md#ansys.meshing.prime.ErrorCode.UNKNOWN)                                                                                                                                        | Unknown error.                                                                       |
 | [`ErrorCode.SIGSEGV`](ansys.meshing.prime.ErrorCode.SIGSEGV.md#ansys.meshing.prime.ErrorCode.SIGSEGV)                                                                                                                                        | Segmentation violation.                                                              |
 | [`ErrorCode.SURFERFAILED`](ansys.meshing.prime.ErrorCode.SURFERFAILED.md#ansys.meshing.prime.ErrorCode.SURFERFAILED)                                                                                                                         | Surface meshing failed.                                                              |

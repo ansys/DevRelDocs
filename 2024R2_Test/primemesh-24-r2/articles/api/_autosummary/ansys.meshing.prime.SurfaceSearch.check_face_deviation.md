@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfacesearch-check-face-deviation"></a>
-
 # ansys.meshing.prime.SurfaceSearch.check_face_deviation
 
 <a id="ansys.meshing.prime.SurfaceSearch.check_face_deviation"></a>

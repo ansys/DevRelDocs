@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-examples-download-pcb-scdoc"></a>
-
 # ansys.meshing.prime.examples.download_pcb_scdoc
 
 <a id="ansys.meshing.prime.examples.download_pcb_scdoc"></a>

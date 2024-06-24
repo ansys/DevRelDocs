@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surferparams-smooth-size-transition"></a>
-
 # ansys.meshing.prime.SurferParams.smooth_size_transition
 
 <a id="ansys.meshing.prime.SurferParams.smooth_size_transition"></a>

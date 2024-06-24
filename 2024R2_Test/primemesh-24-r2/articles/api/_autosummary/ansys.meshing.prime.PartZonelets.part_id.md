@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-partzonelets-part-id"></a>
-
 # ansys.meshing.prime.PartZonelets.part_id
 
 <a id="ansys.meshing.prime.PartZonelets.part_id"></a>

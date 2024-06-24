@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-model-activate-volumetric-size-fields"></a>
-
 # ansys.meshing.prime.Model.activate_volumetric_size_fields
 
 <a id="ansys.meshing.prime.Model.activate_volumetric_size_fields"></a>

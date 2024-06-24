@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-deletetopoentitiesresults-print-default"></a>
-
 # ansys.meshing.prime.DeleteTopoEntitiesResults.print_default
 
 <a id="ansys.meshing.prime.DeleteTopoEntitiesResults.print_default"></a>

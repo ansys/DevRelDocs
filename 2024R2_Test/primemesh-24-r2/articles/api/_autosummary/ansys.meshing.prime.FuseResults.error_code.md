@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fuseresults-error-code"></a>
-
 # ansys.meshing.prime.FuseResults.error_code
 
 <a id="ansys.meshing.prime.FuseResults.error_code"></a>

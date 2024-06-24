@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-remeshfacezoneletsnotsupportedfortopologypart"></a>
-
 # ansys.meshing.prime.ErrorCode.REMESHFACEZONELETSNOTSUPPORTEDFORTOPOLOGYPART
 
 <a id="ansys.meshing.prime.ErrorCode.REMESHFACEZONELETSNOTSUPPORTEDFORTOPOLOGYPART"></a>

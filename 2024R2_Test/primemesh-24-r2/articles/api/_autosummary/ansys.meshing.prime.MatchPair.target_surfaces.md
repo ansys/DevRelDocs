@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-matchpair-target-surfaces"></a>
-
 # ansys.meshing.prime.MatchPair.target_surfaces
 
 <a id="ansys.meshing.prime.MatchPair.target_surfaces"></a>

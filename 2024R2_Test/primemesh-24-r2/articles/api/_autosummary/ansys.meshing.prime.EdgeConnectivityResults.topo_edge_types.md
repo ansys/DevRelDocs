@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-edgeconnectivityresults-topo-edge-types"></a>
-
 # ansys.meshing.prime.EdgeConnectivityResults.topo_edge_types
 
 <a id="ansys.meshing.prime.EdgeConnectivityResults.topo_edge_types"></a>

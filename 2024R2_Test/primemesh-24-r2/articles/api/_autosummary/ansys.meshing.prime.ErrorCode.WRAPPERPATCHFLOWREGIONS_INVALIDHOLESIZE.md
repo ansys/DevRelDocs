@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-wrapperpatchflowregions-invalidholesize"></a>
-
 # ansys.meshing.prime.ErrorCode.WRAPPERPATCHFLOWREGIONS_INVALIDHOLESIZE
 
 <a id="ansys.meshing.prime.ErrorCode.WRAPPERPATCHFLOWREGIONS_INVALIDHOLESIZE"></a>

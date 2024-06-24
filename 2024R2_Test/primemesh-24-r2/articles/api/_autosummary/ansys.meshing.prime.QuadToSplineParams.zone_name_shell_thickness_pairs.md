@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-quadtosplineparams-zone-name-shell-thickness-pairs"></a>
-
 # ansys.meshing.prime.QuadToSplineParams.zone_name_shell_thickness_pairs
 
 <a id="ansys.meshing.prime.QuadToSplineParams.zone_name_shell_thickness_pairs"></a>

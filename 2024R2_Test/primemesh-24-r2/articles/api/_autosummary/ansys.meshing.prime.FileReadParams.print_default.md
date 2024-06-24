@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-filereadparams-print-default"></a>
-
 # ansys.meshing.prime.FileReadParams.print_default
 
 <a id="ansys.meshing.prime.FileReadParams.print_default"></a>

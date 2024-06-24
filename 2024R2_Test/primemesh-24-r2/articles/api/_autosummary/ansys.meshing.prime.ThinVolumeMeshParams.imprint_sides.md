@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-thinvolumemeshparams-imprint-sides"></a>
-
 # ansys.meshing.prime.ThinVolumeMeshParams.imprint_sides
 
 <a id="ansys.meshing.prime.ThinVolumeMeshParams.imprint_sides"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-lsdynaanalysistype-doorslam"></a>
-
 # ansys.meshing.prime.LSDynaAnalysisType.DOORSLAM
 
 <a id="ansys.meshing.prime.LSDynaAnalysisType.DOORSLAM"></a>

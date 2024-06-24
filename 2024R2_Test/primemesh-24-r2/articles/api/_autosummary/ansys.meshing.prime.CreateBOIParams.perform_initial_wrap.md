@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-createboiparams-perform-initial-wrap"></a>
-
 # ansys.meshing.prime.CreateBOIParams.perform_initial_wrap
 
 <a id="ansys.meshing.prime.CreateBOIParams.perform_initial_wrap"></a>

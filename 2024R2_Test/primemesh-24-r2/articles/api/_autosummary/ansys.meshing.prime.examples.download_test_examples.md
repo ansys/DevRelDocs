@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-examples-download-test-examples"></a>
-
 # ansys.meshing.prime.examples.download_test_examples
 
 <a id="ansys.meshing.prime.examples.download_test_examples"></a>

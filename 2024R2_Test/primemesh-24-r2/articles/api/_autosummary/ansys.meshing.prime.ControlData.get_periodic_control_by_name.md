@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-controldata-get-periodic-control-by-name"></a>
-
 # ansys.meshing.prime.ControlData.get_periodic_control_by_name
 
 <a id="ansys.meshing.prime.ControlData.get_periodic_control_by_name"></a>

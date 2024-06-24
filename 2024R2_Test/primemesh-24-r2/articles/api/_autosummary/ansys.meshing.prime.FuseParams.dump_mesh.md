@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fuseparams-dump-mesh"></a>
-
 # ansys.meshing.prime.FuseParams.dump_mesh
 
 <a id="ansys.meshing.prime.FuseParams.dump_mesh"></a>

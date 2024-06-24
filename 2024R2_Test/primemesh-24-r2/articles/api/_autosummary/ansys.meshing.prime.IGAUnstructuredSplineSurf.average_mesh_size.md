@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-igaunstructuredsplinesurf-average-mesh-size"></a>
-
 # ansys.meshing.prime.IGAUnstructuredSplineSurf.average_mesh_size
 
 <a id="ansys.meshing.prime.IGAUnstructuredSplineSurf.average_mesh_size"></a>

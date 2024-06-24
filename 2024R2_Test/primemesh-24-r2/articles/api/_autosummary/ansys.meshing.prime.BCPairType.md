@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="bcpairtype"></a>
-
 # BCPairType
 
 <a id="ansys.meshing.prime.BCPairType"></a>
@@ -14,7 +12,8 @@ Option to specify boundary condition pair type.
 
 ### Attributes
 
-| [`BCPairType.FACE`](ansys.meshing.prime.BCPairType.FACE.md#ansys.meshing.prime.BCPairType.FACE)   | Option to specify face zonelet as boundary condition pair.   |
+| Name | Description |
 |---------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| [`BCPairType.FACE`](ansys.meshing.prime.BCPairType.FACE.md#ansys.meshing.prime.BCPairType.FACE)   | Option to specify face zonelet as boundary condition pair.   |
 | [`BCPairType.EDGE`](ansys.meshing.prime.BCPairType.EDGE.md#ansys.meshing.prime.BCPairType.EDGE)   | Option to specify edge zonelet as boundary condition pair.   |
 <!-- vale on -->

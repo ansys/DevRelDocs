@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-computevolumesresults-warning-codes"></a>
-
 # ansys.meshing.prime.ComputeVolumesResults.warning_codes
 
 <a id="ansys.meshing.prime.ComputeVolumesResults.warning_codes"></a>

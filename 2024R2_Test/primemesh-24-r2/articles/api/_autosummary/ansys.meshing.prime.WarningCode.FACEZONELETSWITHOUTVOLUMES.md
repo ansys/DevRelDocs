@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-warningcode-facezoneletswithoutvolumes"></a>
-
 # ansys.meshing.prime.WarningCode.FACEZONELETSWITHOUTVOLUMES
 
 <a id="ansys.meshing.prime.WarningCode.FACEZONELETSWITHOUTVOLUMES"></a>

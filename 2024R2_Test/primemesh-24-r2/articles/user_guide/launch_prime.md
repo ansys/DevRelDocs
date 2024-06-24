@@ -1,16 +1,12 @@
-<a id="ref-index-launching-pyprime"></a>
-
-<a id="launching-pyprimemesh"></a>
-
 # Launching PyPrimeMesh
 
 <a id="launch-server-from-a-python-script"></a>
 
 ## Launch server from a Python script
 
-The [`launch_prime()`](../api/_autosummary/ansys.meshing.prime.launch_prime.md#ansys.meshing.prime.launch_prime) method launches Ansys Prime Server.
+The [`launch_prime()`](./../api/_autosummary/ansys.meshing.prime.launch_prime.md#ansys.meshing.prime.launch_prime) method launches Ansys Prime Server.
 
-This code returns an instance of the PyPrimeMesh [`Client`](../api/_autosummary/ansys.meshing.prime.Client.md#ansys.meshing.prime.Client) class
+This code returns an instance of the PyPrimeMesh [`Client`](./../api/_autosummary/ansys.meshing.prime.Client.md#ansys.meshing.prime.Client) class
 connected to the launched server session:
 
 ```python
@@ -21,7 +17,7 @@ prime_client = prime.launch_prime()
 
 You can send commands to Ansys Prime Server and receive responses from it.
 
-The [`Client`](../api/_autosummary/ansys.meshing.prime.Client.md#ansys.meshing.prime.Client) class gets the [`model`](../api/_autosummary/ansys.meshing.prime.Client.model.md#ansys.meshing.prime.Client.model)
+The [`Client`](./../api/_autosummary/ansys.meshing.prime.Client.md#ansys.meshing.prime.Client) class gets the [`model`](./../api/_autosummary/ansys.meshing.prime.Client.model.md#ansys.meshing.prime.Client.model)
 parameter associated with the client instance:
 
 ```python
@@ -40,7 +36,7 @@ This example starts the server in parallel mode on four nodes and specifies the 
    ```shell-session
    "%AWP_ROOT242%\meshing\Prime\runPrime.bat" server -np 4 --ip 127.0.0.1 --port 50055
    ```
-2. Connect to the server in Python using the [`Client`](../api/_autosummary/ansys.meshing.prime.Client.md#ansys.meshing.prime.Client) class:
+2. Connect to the server in Python using the [`Client`](./../api/_autosummary/ansys.meshing.prime.Client.md#ansys.meshing.prime.Client) class:
    ```python
    import ansys.meshing.prime as prime
 
@@ -55,9 +51,9 @@ Only a single client session can be connected to an active Ansys Prime Server in
 
 ## Disconnect from the server
 
-The [`Client.exit()`](../api/_autosummary/ansys.meshing.prime.Client.exit.md#ansys.meshing.prime.Client.exit) method ends the connection with the server.
+The [`Client.exit()`](./../api/_autosummary/ansys.meshing.prime.Client.exit.md#ansys.meshing.prime.Client.exit) method ends the connection with the server.
 
-If the [`Client`](../api/_autosummary/ansys.meshing.prime.Client.md#ansys.meshing.prime.Client) class launched the server, then this terminates the server process.
+If the [`Client`](./../api/_autosummary/ansys.meshing.prime.Client.md#ansys.meshing.prime.Client) class launched the server, then this terminates the server process.
 
 <a id="run-a-python-script-in-batch-on-the-server"></a>
 
@@ -89,4 +85,4 @@ with prime.launch_prime() as prime_client:
     # Indented code to run...
 ```
 
-Using the [`Client.exit()`](../api/_autosummary/ansys.meshing.prime.Client.exit.md#ansys.meshing.prime.Client.exit) method to close the server in this instance is not required.
+Using the [`Client.exit()`](./../api/_autosummary/ansys.meshing.prime.Client.exit.md#ansys.meshing.prime.Client.exit) method to close the server in this instance is not required.

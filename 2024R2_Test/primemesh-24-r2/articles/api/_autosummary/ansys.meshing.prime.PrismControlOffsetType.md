@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="prismcontroloffsettype"></a>
-
 # PrismControlOffsetType
 
 <a id="ansys.meshing.prime.PrismControlOffsetType"></a>
@@ -14,8 +12,9 @@ Offset type for prism control.
 
 ### Attributes
 
-| [`PrismControlOffsetType.UNIFORM`](ansys.meshing.prime.PrismControlOffsetType.UNIFORM.md#ansys.meshing.prime.PrismControlOffsetType.UNIFORM)             | Option to grow prism layers with uniform offset height based on first height.   |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
+| [`PrismControlOffsetType.UNIFORM`](ansys.meshing.prime.PrismControlOffsetType.UNIFORM.md#ansys.meshing.prime.PrismControlOffsetType.UNIFORM)             | Option to grow prism layers with uniform offset height based on first height.   |
 | [`PrismControlOffsetType.ASPECTRATIO`](ansys.meshing.prime.PrismControlOffsetType.ASPECTRATIO.md#ansys.meshing.prime.PrismControlOffsetType.ASPECTRATIO) | Option to grow prism layers based on first aspect ratio specified.              |
 | [`PrismControlOffsetType.LASTRATIO`](ansys.meshing.prime.PrismControlOffsetType.LASTRATIO.md#ansys.meshing.prime.PrismControlOffsetType.LASTRATIO)       | Option to grow prism layers based on first height and last aspect ratio.        |
 <!-- vale on -->

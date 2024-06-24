@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-client-exit"></a>
-
 # ansys.meshing.prime.Client.exit
 
 <a id="ansys.meshing.prime.Client.exit"></a>

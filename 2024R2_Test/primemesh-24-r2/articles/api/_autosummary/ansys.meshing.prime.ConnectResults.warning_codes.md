@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-connectresults-warning-codes"></a>
-
 # ansys.meshing.prime.ConnectResults.warning_codes
 
 <a id="ansys.meshing.prime.ConnectResults.warning_codes"></a>

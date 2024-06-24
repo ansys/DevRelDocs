@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-createboiparams-side-scale"></a>
-
 # ansys.meshing.prime.CreateBOIParams.side_scale
 
 <a id="ansys.meshing.prime.CreateBOIParams.side_scale"></a>

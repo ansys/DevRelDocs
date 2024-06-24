@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-automeshparams-max-size"></a>
-
 # ansys.meshing.prime.AutoMeshParams.max_size
 
 <a id="ansys.meshing.prime.AutoMeshParams.max_size"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-detectandtreatfeaturesparams-detect-and-treat-holes"></a>
-
 # ansys.meshing.prime.DetectAndTreatFeaturesParams.detect_and_treat_holes
 
 <a id="ansys.meshing.prime.DetectAndTreatFeaturesParams.detect_and_treat_holes"></a>

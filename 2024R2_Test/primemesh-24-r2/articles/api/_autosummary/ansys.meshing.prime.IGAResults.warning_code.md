@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-igaresults-warning-code"></a>
-
 # ansys.meshing.prime.IGAResults.warning_code
 
 <a id="ansys.meshing.prime.IGAResults.warning_code"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-examples-download-toy-car-pmdat"></a>
-
 # ansys.meshing.prime.examples.download_toy_car_pmdat
 
 <a id="ansys.meshing.prime.examples.download_toy_car_pmdat"></a>

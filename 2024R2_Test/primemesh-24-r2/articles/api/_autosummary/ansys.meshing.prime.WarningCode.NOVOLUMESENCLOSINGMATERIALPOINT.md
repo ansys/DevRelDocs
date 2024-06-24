@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-warningcode-novolumesenclosingmaterialpoint"></a>
-
 # ansys.meshing.prime.WarningCode.NOVOLUMESENCLOSINGMATERIALPOINT
 
 <a id="ansys.meshing.prime.WarningCode.NOVOLUMESENCLOSINGMATERIALPOINT"></a>

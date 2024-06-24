@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-multizonesizingparams-min-size"></a>
-
 # ansys.meshing.prime.MultiZoneSizingParams.min_size
 
 <a id="ansys.meshing.prime.MultiZoneSizingParams.min_size"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-unitezoneletsfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.UNITEZONELETSFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.UNITEZONELETSFAILED"></a>

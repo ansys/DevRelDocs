@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-examples-download-saddle-bracket-fmd"></a>
-
 # ansys.meshing.prime.examples.download_saddle_bracket_fmd
 
 <a id="ansys.meshing.prime.examples.download_saddle_bracket_fmd"></a>

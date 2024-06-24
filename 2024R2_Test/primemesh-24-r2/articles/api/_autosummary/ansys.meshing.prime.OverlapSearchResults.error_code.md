@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-overlapsearchresults-error-code"></a>
-
 # ansys.meshing.prime.OverlapSearchResults.error_code
 
 <a id="ansys.meshing.prime.OverlapSearchResults.error_code"></a>

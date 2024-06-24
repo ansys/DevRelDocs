@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-part-get-edge-zonelets-of-label-name-pattern"></a>
-
 # ansys.meshing.prime.Part.get_edge_zonelets_of_label_name_pattern
 
 <a id="ansys.meshing.prime.Part.get_edge_zonelets_of_label_name_pattern"></a>

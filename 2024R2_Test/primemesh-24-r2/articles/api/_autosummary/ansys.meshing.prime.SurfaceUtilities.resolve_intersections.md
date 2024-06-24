@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfaceutilities-resolve-intersections"></a>
-
 # ansys.meshing.prime.SurfaceUtilities.resolve_intersections
 
 <a id="ansys.meshing.prime.SurfaceUtilities.resolve_intersections"></a>

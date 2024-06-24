@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-importcadparams-part-creation-type"></a>
-
 # ansys.meshing.prime.ImportCadParams.part_creation_type
 
 <a id="ansys.meshing.prime.ImportCadParams.part_creation_type"></a>

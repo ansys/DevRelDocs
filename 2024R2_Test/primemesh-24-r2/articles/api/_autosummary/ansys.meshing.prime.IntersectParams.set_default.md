@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-intersectparams-set-default"></a>
-
 # ansys.meshing.prime.IntersectParams.set_default
 
 <a id="ansys.meshing.prime.IntersectParams.set_default"></a>

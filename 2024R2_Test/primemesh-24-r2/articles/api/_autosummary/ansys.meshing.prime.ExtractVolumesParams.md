@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="extractvolumesparams"></a>
-
 # ExtractVolumesParams
 
 <a id="ansys.meshing.prime.ExtractVolumesParams"></a>
@@ -33,13 +31,15 @@ Parameters to extract flow volumes.
 
 ### Methods
 
-| [`ExtractVolumesParams.print_default`](ansys.meshing.prime.ExtractVolumesParams.print_default.md#ansys.meshing.prime.ExtractVolumesParams.print_default)()   | Print the default values of `ExtractVolumesParams` object.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| [`ExtractVolumesParams.print_default`](ansys.meshing.prime.ExtractVolumesParams.print_default.md#ansys.meshing.prime.ExtractVolumesParams.print_default)()   | Print the default values of `ExtractVolumesParams` object.   |
 | [`ExtractVolumesParams.set_default`](ansys.meshing.prime.ExtractVolumesParams.set_default.md#ansys.meshing.prime.ExtractVolumesParams.set_default)([...])    | Set the default values of the `ExtractVolumesParams` object. |
 
 ### Attributes
 
-| [`ExtractVolumesParams.create_zone`](ansys.meshing.prime.ExtractVolumesParams.create_zone.md#ansys.meshing.prime.ExtractVolumesParams.create_zone)                         | Option to create zone for flow volumes extracted.   |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
+| [`ExtractVolumesParams.create_zone`](ansys.meshing.prime.ExtractVolumesParams.create_zone.md#ansys.meshing.prime.ExtractVolumesParams.create_zone)                         | Option to create zone for flow volumes extracted.   |
 | [`ExtractVolumesParams.suggested_zone_name`](ansys.meshing.prime.ExtractVolumesParams.suggested_zone_name.md#ansys.meshing.prime.ExtractVolumesParams.suggested_zone_name) | Name suggested for the created zone.                |
 <!-- vale on -->

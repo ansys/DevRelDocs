@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-extractvolumesparams-set-default"></a>
-
 # ansys.meshing.prime.ExtractVolumesParams.set_default
 
 <a id="ansys.meshing.prime.ExtractVolumesParams.set_default"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-unsupportedfileextensionforfluentcase"></a>
-
 # ansys.meshing.prime.ErrorCode.UNSUPPORTEDFILEEXTENSIONFORFLUENTCASE
 
 <a id="ansys.meshing.prime.ErrorCode.UNSUPPORTEDFILEEXTENSIONFORFLUENTCASE"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-importcadparams-ansys-release"></a>
-
 # ansys.meshing.prime.ImportCadParams.ansys_release
 
 <a id="ansys.meshing.prime.ImportCadParams.ansys_release"></a>

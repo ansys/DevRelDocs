@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-thinstriptype-all"></a>
-
 # ansys.meshing.prime.ThinStripType.ALL
 
 <a id="ansys.meshing.prime.ThinStripType.ALL"></a>

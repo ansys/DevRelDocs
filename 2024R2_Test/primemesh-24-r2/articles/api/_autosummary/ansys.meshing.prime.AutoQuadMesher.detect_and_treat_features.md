@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-autoquadmesher-detect-and-treat-features"></a>
-
 # ansys.meshing.prime.AutoQuadMesher.detect_and_treat_features
 
 <a id="ansys.meshing.prime.AutoQuadMesher.detect_and_treat_features"></a>

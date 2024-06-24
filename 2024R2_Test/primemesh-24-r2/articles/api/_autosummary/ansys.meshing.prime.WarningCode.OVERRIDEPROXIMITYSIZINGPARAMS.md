@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-warningcode-overrideproximitysizingparams"></a>
-
 # ansys.meshing.prime.WarningCode.OVERRIDEPROXIMITYSIZINGPARAMS
 
 <a id="ansys.meshing.prime.WarningCode.OVERRIDEPROXIMITYSIZINGPARAMS"></a>

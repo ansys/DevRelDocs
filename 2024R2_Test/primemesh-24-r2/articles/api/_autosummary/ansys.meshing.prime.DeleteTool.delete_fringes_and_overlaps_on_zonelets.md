@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-deletetool-delete-fringes-and-overlaps-on-zonelets"></a>
-
 # ansys.meshing.prime.DeleteTool.delete_fringes_and_overlaps_on_zonelets
 
 <a id="ansys.meshing.prime.DeleteTool.delete_fringes_and_overlaps_on_zonelets"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-setleakpreventionsresults-ids"></a>
-
 # ansys.meshing.prime.SetLeakPreventionsResults.ids
 
 <a id="ansys.meshing.prime.SetLeakPreventionsResults.ids"></a>

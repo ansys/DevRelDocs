@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-defeaturetopologyparams-thin-stripes-tolerance"></a>
-
 # ansys.meshing.prime.DefeatureTopologyParams.thin_stripes_tolerance
 
 <a id="ansys.meshing.prime.DefeatureTopologyParams.thin_stripes_tolerance"></a>

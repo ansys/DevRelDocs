@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="createintersectionedgeloopsparams"></a>
-
 # CreateIntersectionEdgeLoopsParams
 
 <a id="ansys.meshing.prime.CreateIntersectionEdgeLoopsParams"></a>
@@ -30,12 +28,14 @@ Parameters used to calculate edge loops created by intersection of two groups of
 
 ### Methods
 
-| [`CreateIntersectionEdgeLoopsParams.print_default`](ansys.meshing.prime.CreateIntersectionEdgeLoopsParams.print_default.md#ansys.meshing.prime.CreateIntersectionEdgeLoopsParams.print_default)()   | Print the default values of `CreateIntersectionEdgeLoopsParams` object.   |
+| Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
+| [`CreateIntersectionEdgeLoopsParams.print_default`](ansys.meshing.prime.CreateIntersectionEdgeLoopsParams.print_default.md#ansys.meshing.prime.CreateIntersectionEdgeLoopsParams.print_default)()   | Print the default values of `CreateIntersectionEdgeLoopsParams` object.   |
 | [`CreateIntersectionEdgeLoopsParams.set_default`](ansys.meshing.prime.CreateIntersectionEdgeLoopsParams.set_default.md#ansys.meshing.prime.CreateIntersectionEdgeLoopsParams.set_default)([...])    | Set the default values of the `CreateIntersectionEdgeLoopsParams` object. |
 
 ### Attributes
 
-| [`CreateIntersectionEdgeLoopsParams.label_name`](ansys.meshing.prime.CreateIntersectionEdgeLoopsParams.label_name.md#ansys.meshing.prime.CreateIntersectionEdgeLoopsParams.label_name)   | Label name to be assigned to extracted features.   |
+| Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
+| [`CreateIntersectionEdgeLoopsParams.label_name`](ansys.meshing.prime.CreateIntersectionEdgeLoopsParams.label_name.md#ansys.meshing.prime.CreateIntersectionEdgeLoopsParams.label_name)   | Label name to be assigned to extracted features.   |
 <!-- vale on -->

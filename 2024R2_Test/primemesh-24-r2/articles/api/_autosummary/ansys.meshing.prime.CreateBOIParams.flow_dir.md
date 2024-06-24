@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-createboiparams-flow-dir"></a>
-
 # ansys.meshing.prime.CreateBOIParams.flow_dir
 
 <a id="ansys.meshing.prime.CreateBOIParams.flow_dir"></a>

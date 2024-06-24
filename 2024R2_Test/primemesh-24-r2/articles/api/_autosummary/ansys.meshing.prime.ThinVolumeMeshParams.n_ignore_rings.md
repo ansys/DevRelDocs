@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-thinvolumemeshparams-n-ignore-rings"></a>
-
 # ansys.meshing.prime.ThinVolumeMeshParams.n_ignore_rings
 
 <a id="ansys.meshing.prime.ThinVolumeMeshParams.n_ignore_rings"></a>

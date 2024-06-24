@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapperimprovequalityparams-resolve-spikes"></a>
-
 # ansys.meshing.prime.WrapperImproveQualityParams.resolve_spikes
 
 <a id="ansys.meshing.prime.WrapperImproveQualityParams.resolve_spikes"></a>

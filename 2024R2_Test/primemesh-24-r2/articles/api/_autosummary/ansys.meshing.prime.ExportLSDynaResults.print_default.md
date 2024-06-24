@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-exportlsdynaresults-print-default"></a>
-
 # ansys.meshing.prime.ExportLSDynaResults.print_default
 
 <a id="ansys.meshing.prime.ExportLSDynaResults.print_default"></a>

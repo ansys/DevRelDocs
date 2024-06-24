@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-faceconnectivityresults-face-list"></a>
-
 # ansys.meshing.prime.FaceConnectivityResults.face_list
 
 <a id="ansys.meshing.prime.FaceConnectivityResults.face_list"></a>

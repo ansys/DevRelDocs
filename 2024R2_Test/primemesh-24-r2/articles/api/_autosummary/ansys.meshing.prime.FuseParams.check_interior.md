@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fuseparams-check-interior"></a>
-
 # ansys.meshing.prime.FuseParams.check_interior
 
 <a id="ansys.meshing.prime.FuseParams.check_interior"></a>

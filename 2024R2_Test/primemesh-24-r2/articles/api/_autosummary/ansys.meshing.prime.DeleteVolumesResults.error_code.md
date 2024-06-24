@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-deletevolumesresults-error-code"></a>
-
 # ansys.meshing.prime.DeleteVolumesResults.error_code
 
 <a id="ansys.meshing.prime.DeleteVolumesResults.error_code"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-connectfacesparams-absolute-tolerance"></a>
-
 # ansys.meshing.prime.ConnectFacesParams.absolute_tolerance
 
 <a id="ansys.meshing.prime.ConnectFacesParams.absolute_tolerance"></a>

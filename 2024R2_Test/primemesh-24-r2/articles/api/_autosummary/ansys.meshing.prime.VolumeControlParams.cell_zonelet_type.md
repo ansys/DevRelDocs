@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-volumecontrolparams-cell-zonelet-type"></a>
-
 # ansys.meshing.prime.VolumeControlParams.cell_zonelet_type
 
 <a id="ansys.meshing.prime.VolumeControlParams.cell_zonelet_type"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-createboi-invalidscale"></a>
-
 # ansys.meshing.prime.ErrorCode.CREATEBOI_INVALIDSCALE
 
 <a id="ansys.meshing.prime.ErrorCode.CREATEBOI_INVALIDSCALE"></a>

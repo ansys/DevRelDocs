@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-importabaqusresults-print-default"></a>
-
 # ansys.meshing.prime.ImportAbaqusResults.print_default
 
 <a id="ansys.meshing.prime.ImportAbaqusResults.print_default"></a>

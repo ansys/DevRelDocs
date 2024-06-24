@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-scopedefinition-entity-type"></a>
-
 # ansys.meshing.prime.ScopeDefinition.entity_type
 
 <a id="ansys.meshing.prime.ScopeDefinition.entity_type"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fileio-export-fluent-meshing-mesh"></a>
-
 # ansys.meshing.prime.FileIO.export_fluent_meshing_mesh
 
 <a id="ansys.meshing.prime.FileIO.export_fluent_meshing_mesh"></a>

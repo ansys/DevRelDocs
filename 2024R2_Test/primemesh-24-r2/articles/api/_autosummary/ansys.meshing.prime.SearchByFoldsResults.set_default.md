@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-searchbyfoldsresults-set-default"></a>
-
 # ansys.meshing.prime.SearchByFoldsResults.set_default
 
 <a id="ansys.meshing.prime.SearchByFoldsResults.set_default"></a>

@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="splinerefinementtype"></a>
-
 # SplineRefinementType
 
 <a id="ansys.meshing.prime.SplineRefinementType"></a>
@@ -14,7 +12,8 @@ Type of spline refinement. Currently, supports h-refinement and p-refinement.
 
 ### Attributes
 
-| [`SplineRefinementType.H`](ansys.meshing.prime.SplineRefinementType.H.md#ansys.meshing.prime.SplineRefinementType.H)   | H refinement of spline.   |
+| Name | Description |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------|
+| [`SplineRefinementType.H`](ansys.meshing.prime.SplineRefinementType.H.md#ansys.meshing.prime.SplineRefinementType.H)   | H refinement of spline.   |
 | [`SplineRefinementType.P`](ansys.meshing.prime.SplineRefinementType.P.md#ansys.meshing.prime.SplineRefinementType.P)   | P refinement of spline.   |
 <!-- vale on -->

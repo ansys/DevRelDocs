@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-scopedefinition-set-default"></a>
-
 # ansys.meshing.prime.ScopeDefinition.set_default
 
 <a id="ansys.meshing.prime.ScopeDefinition.set_default"></a>

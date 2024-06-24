@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-sourceortargetnotspecified"></a>
-
 # ansys.meshing.prime.ErrorCode.SOURCEORTARGETNOTSPECIFIED
 
 <a id="ansys.meshing.prime.ErrorCode.SOURCEORTARGETNOTSPECIFIED"></a>

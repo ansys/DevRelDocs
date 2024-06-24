@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-cellqualitymeasure-elementquality"></a>
-
 # ansys.meshing.prime.CellQualityMeasure.ELEMENTQUALITY
 
 <a id="ansys.meshing.prime.CellQualityMeasure.ELEMENTQUALITY"></a>

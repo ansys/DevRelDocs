@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-pathnotfound"></a>
-
 # ansys.meshing.prime.ErrorCode.PATHNOTFOUND
 
 <a id="ansys.meshing.prime.ErrorCode.PATHNOTFOUND"></a>

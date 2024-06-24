@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapperpatchflowregionsparams-suggested-part-name"></a>
-
 # ansys.meshing.prime.WrapperPatchFlowRegionsParams.suggested_part_name
 
 <a id="ansys.meshing.prime.WrapperPatchFlowRegionsParams.suggested_part_name"></a>

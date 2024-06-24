@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-stacker-invalidinputvolumes"></a>
-
 # ansys.meshing.prime.ErrorCode.STACKER_INVALIDINPUTVOLUMES
 
 <a id="ansys.meshing.prime.ErrorCode.STACKER_INVALIDINPUTVOLUMES"></a>

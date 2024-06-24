@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-searchinfobyregisteridresults-locations-found"></a>
-
 # ansys.meshing.prime.SearchInfoByRegisterIdResults.locations_found
 
 <a id="ansys.meshing.prime.SearchInfoByRegisterIdResults.locations_found"></a>

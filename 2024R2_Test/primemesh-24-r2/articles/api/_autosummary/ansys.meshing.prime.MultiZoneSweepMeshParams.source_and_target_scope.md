@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-multizonesweepmeshparams-source-and-target-scope"></a>
-
 # ansys.meshing.prime.MultiZoneSweepMeshParams.source_and_target_scope
 
 <a id="ansys.meshing.prime.MultiZoneSweepMeshParams.source_and_target_scope"></a>

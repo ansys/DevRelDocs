@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-createboiparams-set-default"></a>
-
 # ansys.meshing.prime.CreateBOIParams.set_default
 
 <a id="ansys.meshing.prime.CreateBOIParams.set_default"></a>

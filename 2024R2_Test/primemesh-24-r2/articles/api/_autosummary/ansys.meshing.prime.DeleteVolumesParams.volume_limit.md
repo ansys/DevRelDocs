@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-deletevolumesparams-volume-limit"></a>
-
 # ansys.meshing.prime.DeleteVolumesParams.volume_limit
 
 <a id="ansys.meshing.prime.DeleteVolumesParams.volume_limit"></a>

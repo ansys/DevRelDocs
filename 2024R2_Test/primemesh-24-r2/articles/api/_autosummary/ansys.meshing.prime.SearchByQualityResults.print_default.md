@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-searchbyqualityresults-print-default"></a>
-
 # ansys.meshing.prime.SearchByQualityResults.print_default
 
 <a id="ansys.meshing.prime.SearchByQualityResults.print_default"></a>

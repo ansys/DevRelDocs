@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-lucid-mesh-delete-topology"></a>
-
 # ansys.meshing.prime.lucid.Mesh.delete_topology
 
 <a id="ansys.meshing.prime.lucid.Mesh.delete_topology"></a>

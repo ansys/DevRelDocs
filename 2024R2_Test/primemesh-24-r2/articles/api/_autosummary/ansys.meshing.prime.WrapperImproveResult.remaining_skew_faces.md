@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapperimproveresult-remaining-skew-faces"></a>
-
 # ansys.meshing.prime.WrapperImproveResult.remaining_skew_faces
 
 <a id="ansys.meshing.prime.WrapperImproveResult.remaining_skew_faces"></a>

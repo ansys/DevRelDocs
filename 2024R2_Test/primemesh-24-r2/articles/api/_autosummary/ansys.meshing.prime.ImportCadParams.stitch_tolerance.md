@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-importcadparams-stitch-tolerance"></a>
-
 # ansys.meshing.prime.ImportCadParams.stitch_tolerance
 
 <a id="ansys.meshing.prime.ImportCadParams.stitch_tolerance"></a>

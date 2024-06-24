@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-toposearchfield-brokenlooptopofaces"></a>
-
 # ansys.meshing.prime.TopoSearchField.BROKENLOOPTOPOFACES
 
 <a id="ansys.meshing.prime.TopoSearchField.BROKENLOOPTOPOFACES"></a>

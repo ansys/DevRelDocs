@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-prismcontrolgrowthparams-min-aspect-ratio"></a>
-
 # ansys.meshing.prime.PrismControlGrowthParams.min_aspect_ratio
 
 <a id="ansys.meshing.prime.PrismControlGrowthParams.min_aspect_ratio"></a>

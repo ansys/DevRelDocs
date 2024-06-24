@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-computevolumesparams-priority-ordered-names"></a>
-
 # ansys.meshing.prime.ComputeVolumesParams.priority_ordered_names
 
 <a id="ansys.meshing.prime.ComputeVolumesParams.priority_ordered_names"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-deadregion-hole-size"></a>
-
 # ansys.meshing.prime.DeadRegion.hole_size
 
 <a id="ansys.meshing.prime.DeadRegion.hole_size"></a>

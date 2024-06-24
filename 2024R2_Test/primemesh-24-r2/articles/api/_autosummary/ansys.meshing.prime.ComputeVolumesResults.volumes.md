@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-computevolumesresults-volumes"></a>
-
 # ansys.meshing.prime.ComputeVolumesResults.volumes
 
 <a id="ansys.meshing.prime.ComputeVolumesResults.volumes"></a>

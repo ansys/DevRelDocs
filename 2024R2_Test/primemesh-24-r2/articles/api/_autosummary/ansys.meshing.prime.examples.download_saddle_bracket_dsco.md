@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-examples-download-saddle-bracket-dsco"></a>
-
 # ansys.meshing.prime.examples.download_saddle_bracket_dsco
 
 <a id="ansys.meshing.prime.examples.download_saddle_bracket_dsco"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-bcpair-target-zonelet"></a>
-
 # ansys.meshing.prime.BCPair.target_zonelet
 
 <a id="ansys.meshing.prime.BCPair.target_zonelet"></a>

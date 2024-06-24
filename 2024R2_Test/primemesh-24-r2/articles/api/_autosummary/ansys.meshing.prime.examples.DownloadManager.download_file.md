@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-examples-downloadmanager-download-file"></a>
-
 # ansys.meshing.prime.examples.DownloadManager.download_file
 
 <a id="ansys.meshing.prime.examples.DownloadManager.download_file"></a>

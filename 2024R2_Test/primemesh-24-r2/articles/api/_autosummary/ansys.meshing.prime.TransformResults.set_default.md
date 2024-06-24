@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-transformresults-set-default"></a>
-
 # ansys.meshing.prime.TransformResults.set_default
 
 <a id="ansys.meshing.prime.TransformResults.set_default"></a>

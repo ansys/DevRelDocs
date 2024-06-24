@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-lucid-surfacescope-get-parts"></a>
-
 # ansys.meshing.prime.lucid.SurfaceScope.get_parts
 
 <a id="ansys.meshing.prime.lucid.SurfaceScope.get_parts"></a>

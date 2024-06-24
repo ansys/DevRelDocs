@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-stitchparams-use-absolute-tolerance"></a>
-
 # ansys.meshing.prime.StitchParams.use_absolute_tolerance
 
 <a id="ansys.meshing.prime.StitchParams.use_absolute_tolerance"></a>

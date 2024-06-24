@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-volumecontrol-set-scope"></a>
-
 # ansys.meshing.prime.VolumeControl.set_scope
 
 <a id="ansys.meshing.prime.VolumeControl.set_scope"></a>

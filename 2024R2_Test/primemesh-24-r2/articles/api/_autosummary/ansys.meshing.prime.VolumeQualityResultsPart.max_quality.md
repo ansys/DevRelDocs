@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-volumequalityresultspart-max-quality"></a>
-
 # ansys.meshing.prime.VolumeQualityResultsPart.max_quality
 
 <a id="ansys.meshing.prime.VolumeQualityResultsPart.max_quality"></a>

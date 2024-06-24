@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="cellqualitymeasure"></a>
-
 # CellQualityMeasure
 
 <a id="ansys.meshing.prime.CellQualityMeasure"></a>
@@ -14,8 +12,9 @@ The type of cell quality measures to check cell quality metrics.
 
 ### Attributes
 
-| [`CellQualityMeasure.SKEWNESS`](ansys.meshing.prime.CellQualityMeasure.SKEWNESS.md#ansys.meshing.prime.CellQualityMeasure.SKEWNESS)                                     | The Skewness metric ranges between 0 (best) and 1 (worst).                    |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| [`CellQualityMeasure.SKEWNESS`](ansys.meshing.prime.CellQualityMeasure.SKEWNESS.md#ansys.meshing.prime.CellQualityMeasure.SKEWNESS)                                     | The Skewness metric ranges between 0 (best) and 1 (worst).                    |
 | [`CellQualityMeasure.ASPECTRATIO`](ansys.meshing.prime.CellQualityMeasure.ASPECTRATIO.md#ansys.meshing.prime.CellQualityMeasure.ASPECTRATIO)                            | The Aspect Ratio metric is greater than 1.                                    |
 | [`CellQualityMeasure.FLUENTASPECTRATIO`](ansys.meshing.prime.CellQualityMeasure.FLUENTASPECTRATIO.md#ansys.meshing.prime.CellQualityMeasure.FLUENTASPECTRATIO)          | The Fluent aspect Ratio metric is greater than 1.                             |
 | [`CellQualityMeasure.INVERSEORTHOGONAL`](ansys.meshing.prime.CellQualityMeasure.INVERSEORTHOGONAL.md#ansys.meshing.prime.CellQualityMeasure.INVERSEORTHOGONAL)          | The inverse orthogonal metric ranges between 0 (best) and 1 (worst).          |

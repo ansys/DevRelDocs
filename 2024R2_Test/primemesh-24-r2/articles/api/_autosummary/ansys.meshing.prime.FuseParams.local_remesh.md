@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fuseparams-local-remesh"></a>
-
 # ansys.meshing.prime.FuseParams.local_remesh
 
 <a id="ansys.meshing.prime.FuseParams.local_remesh"></a>

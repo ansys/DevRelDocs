@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-deletemeshfacesfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.DELETEMESHFACESFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.DELETEMESHFACESFAILED"></a>

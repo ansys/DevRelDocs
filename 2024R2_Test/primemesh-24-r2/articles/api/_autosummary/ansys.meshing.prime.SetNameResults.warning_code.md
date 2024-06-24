@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-setnameresults-warning-code"></a>
-
 # ansys.meshing.prime.SetNameResults.warning_code
 
 <a id="ansys.meshing.prime.SetNameResults.warning_code"></a>

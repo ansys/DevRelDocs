@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-createboiresults-set-default"></a>
-
 # ansys.meshing.prime.CreateBOIResults.set_default
 
 <a id="ansys.meshing.prime.CreateBOIResults.set_default"></a>

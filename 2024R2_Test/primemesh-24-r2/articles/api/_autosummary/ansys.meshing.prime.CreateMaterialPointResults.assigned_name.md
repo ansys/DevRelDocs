@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-creatematerialpointresults-assigned-name"></a>
-
 # ansys.meshing.prime.CreateMaterialPointResults.assigned_name
 
 <a id="ansys.meshing.prime.CreateMaterialPointResults.assigned_name"></a>

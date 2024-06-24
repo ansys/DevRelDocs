@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-meshstackerresults-small-features"></a>
-
 # ansys.meshing.prime.MeshStackerResults.small_features
 
 <a id="ansys.meshing.prime.MeshStackerResults.small_features"></a>

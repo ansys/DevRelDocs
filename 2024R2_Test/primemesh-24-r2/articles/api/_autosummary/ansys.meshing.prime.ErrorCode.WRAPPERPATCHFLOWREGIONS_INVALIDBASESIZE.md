@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-wrapperpatchflowregions-invalidbasesize"></a>
-
 # ansys.meshing.prime.ErrorCode.WRAPPERPATCHFLOWREGIONS_INVALIDBASESIZE
 
 <a id="ansys.meshing.prime.ErrorCode.WRAPPERPATCHFLOWREGIONS_INVALIDBASESIZE"></a>

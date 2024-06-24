@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-sizefieldtype-meshedgeodesic"></a>
-
 # ansys.meshing.prime.SizeFieldType.MESHEDGEODESIC
 
 <a id="ansys.meshing.prime.SizeFieldType.MESHEDGEODESIC"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-searchbyfoldsresults-error-code"></a>
-
 # ansys.meshing.prime.SearchByFoldsResults.error_code
 
 <a id="ansys.meshing.prime.SearchByFoldsResults.error_code"></a>

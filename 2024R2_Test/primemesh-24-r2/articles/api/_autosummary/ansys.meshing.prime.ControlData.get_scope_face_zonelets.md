@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-controldata-get-scope-face-zonelets"></a>
-
 # ansys.meshing.prime.ControlData.get_scope_face_zonelets
 
 <a id="ansys.meshing.prime.ControlData.get_scope_face_zonelets"></a>

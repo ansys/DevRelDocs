@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-stacker-nofacefoundinvolumes"></a>
-
 # ansys.meshing.prime.ErrorCode.STACKER_NOFACEFOUNDINVOLUMES
 
 <a id="ansys.meshing.prime.ErrorCode.STACKER_NOFACEFOUNDINVOLUMES"></a>

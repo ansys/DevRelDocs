@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-cellstatisticsresults-error-code"></a>
-
 # ansys.meshing.prime.CellStatisticsResults.error_code
 
 <a id="ansys.meshing.prime.CellStatisticsResults.error_code"></a>

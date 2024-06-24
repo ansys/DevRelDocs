@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-prismcontrolgrowthparams-print-default"></a>
-
 # ansys.meshing.prime.PrismControlGrowthParams.print_default
 
 <a id="ansys.meshing.prime.PrismControlGrowthParams.print_default"></a>

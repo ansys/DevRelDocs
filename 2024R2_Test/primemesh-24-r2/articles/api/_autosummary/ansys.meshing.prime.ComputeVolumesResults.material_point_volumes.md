@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-computevolumesresults-material-point-volumes"></a>
-
 # ansys.meshing.prime.ComputeVolumesResults.material_point_volumes
 
 <a id="ansys.meshing.prime.ComputeVolumesResults.material_point_volumes"></a>

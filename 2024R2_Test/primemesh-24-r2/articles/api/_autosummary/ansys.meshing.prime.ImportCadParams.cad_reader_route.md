@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-importcadparams-cad-reader-route"></a>
-
 # ansys.meshing.prime.ImportCadParams.cad_reader_route
 
 <a id="ansys.meshing.prime.ImportCadParams.cad_reader_route"></a>

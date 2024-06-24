@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-autoquadmesher-defeature-topology"></a>
-
 # ansys.meshing.prime.AutoQuadMesher.defeature_topology
 
 <a id="ansys.meshing.prime.AutoQuadMesher.defeature_topology"></a>

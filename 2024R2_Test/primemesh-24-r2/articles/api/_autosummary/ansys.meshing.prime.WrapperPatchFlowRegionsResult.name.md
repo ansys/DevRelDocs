@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapperpatchflowregionsresult-name"></a>
-
 # ansys.meshing.prime.WrapperPatchFlowRegionsResult.name
 
 <a id="ansys.meshing.prime.WrapperPatchFlowRegionsResult.name"></a>

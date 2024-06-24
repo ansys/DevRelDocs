@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-examples-download-block-model-pmdat"></a>
-
 # ansys.meshing.prime.examples.download_block_model_pmdat
 
 <a id="ansys.meshing.prime.examples.download_block_model_pmdat"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-wrappercontrol-invalidgeometryscope"></a>
-
 # ansys.meshing.prime.ErrorCode.WRAPPERCONTROL_INVALIDGEOMETRYSCOPE
 
 <a id="ansys.meshing.prime.ErrorCode.WRAPPERCONTROL_INVALIDGEOMETRYSCOPE"></a>

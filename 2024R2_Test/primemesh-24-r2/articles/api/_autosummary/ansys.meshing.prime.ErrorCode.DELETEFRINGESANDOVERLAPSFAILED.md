@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-deletefringesandoverlapsfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.DELETEFRINGESANDOVERLAPSFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.DELETEFRINGESANDOVERLAPSFAILED"></a>

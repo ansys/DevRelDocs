@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="sfperiodicparams"></a>
-
 # SFPeriodicParams
 
 <a id="ansys.meshing.prime.SFPeriodicParams"></a>
@@ -36,14 +34,16 @@ Parameters for setting periodic size fields.
 
 ### Methods
 
-| [`SFPeriodicParams.print_default`](ansys.meshing.prime.SFPeriodicParams.print_default.md#ansys.meshing.prime.SFPeriodicParams.print_default)()             | Print the default values of `SFPeriodicParams` object.   |
+| Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
+| [`SFPeriodicParams.print_default`](ansys.meshing.prime.SFPeriodicParams.print_default.md#ansys.meshing.prime.SFPeriodicParams.print_default)()             | Print the default values of `SFPeriodicParams` object.   |
 | [`SFPeriodicParams.set_default`](ansys.meshing.prime.SFPeriodicParams.set_default.md#ansys.meshing.prime.SFPeriodicParams.set_default)([axis, angle, ...]) | Set the default values of the `SFPeriodicParams` object. |
 
 ### Attributes
 
-| [`SFPeriodicParams.angle`](ansys.meshing.prime.SFPeriodicParams.angle.md#ansys.meshing.prime.SFPeriodicParams.angle)    | Angle in degrees.        |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------|--------------------------|
+| [`SFPeriodicParams.angle`](ansys.meshing.prime.SFPeriodicParams.angle.md#ansys.meshing.prime.SFPeriodicParams.angle)    | Angle in degrees.        |
 | [`SFPeriodicParams.axis`](ansys.meshing.prime.SFPeriodicParams.axis.md#ansys.meshing.prime.SFPeriodicParams.axis)       | Axis vector coordinates. |
 | [`SFPeriodicParams.center`](ansys.meshing.prime.SFPeriodicParams.center.md#ansys.meshing.prime.SFPeriodicParams.center) | Center coordinates.      |
 <!-- vale on -->

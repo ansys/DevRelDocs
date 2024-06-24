@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-lucid-mesh-read"></a>
-
 # ansys.meshing.prime.lucid.Mesh.read
 
 <a id="ansys.meshing.prime.lucid.Mesh.read"></a>

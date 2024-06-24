@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-automesh-mesh"></a>
-
 # ansys.meshing.prime.AutoMesh.mesh
 
 <a id="ansys.meshing.prime.AutoMesh.mesh"></a>

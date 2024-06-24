@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-topodata-get-adjacent-topo-edges-of-topo-edges"></a>
-
 # ansys.meshing.prime.TopoData.get_adjacent_topo_edges_of_topo_edges
 
 <a id="ansys.meshing.prime.TopoData.get_adjacent_topo_edges_of_topo_edges"></a>

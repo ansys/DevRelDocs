@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-edgeconnectivityresults-set-default"></a>
-
 # ansys.meshing.prime.EdgeConnectivityResults.set_default
 
 <a id="ansys.meshing.prime.EdgeConnectivityResults.set_default"></a>

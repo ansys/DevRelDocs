@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-setleakpreventionsresults-error-code"></a>
-
 # ansys.meshing.prime.SetLeakPreventionsResults.error_code
 
 <a id="ansys.meshing.prime.SetLeakPreventionsResults.error_code"></a>

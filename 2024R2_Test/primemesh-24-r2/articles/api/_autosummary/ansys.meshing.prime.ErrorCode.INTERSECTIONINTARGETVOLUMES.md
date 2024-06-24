@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-intersectionintargetvolumes"></a>
-
 # ansys.meshing.prime.ErrorCode.INTERSECTIONINTARGETVOLUMES
 
 <a id="ansys.meshing.prime.ErrorCode.INTERSECTIONINTARGETVOLUMES"></a>

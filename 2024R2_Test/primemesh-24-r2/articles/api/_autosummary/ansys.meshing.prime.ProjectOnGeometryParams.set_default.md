@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-projectongeometryparams-set-default"></a>
-
 # ansys.meshing.prime.ProjectOnGeometryParams.set_default
 
 <a id="ansys.meshing.prime.ProjectOnGeometryParams.set_default"></a>

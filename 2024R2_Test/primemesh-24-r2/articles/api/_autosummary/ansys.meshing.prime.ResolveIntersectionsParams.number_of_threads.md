@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-resolveintersectionsparams-number-of-threads"></a>
-
 # ansys.meshing.prime.ResolveIntersectionsParams.number_of_threads
 
 <a id="ansys.meshing.prime.ResolveIntersectionsParams.number_of_threads"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fuseresults-warning-codes"></a>
-
 # ansys.meshing.prime.FuseResults.warning_codes
 
 <a id="ansys.meshing.prime.FuseResults.warning_codes"></a>

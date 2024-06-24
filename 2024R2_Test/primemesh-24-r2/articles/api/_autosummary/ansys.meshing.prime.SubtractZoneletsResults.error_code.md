@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-subtractzoneletsresults-error-code"></a>
-
 # ansys.meshing.prime.SubtractZoneletsResults.error_code
 
 <a id="ansys.meshing.prime.SubtractZoneletsResults.error_code"></a>

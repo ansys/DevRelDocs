@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fillholesatplaneresults-error-code"></a>
-
 # ansys.meshing.prime.FillHolesAtPlaneResults.error_code
 
 <a id="ansys.meshing.prime.FillHolesAtPlaneResults.error_code"></a>

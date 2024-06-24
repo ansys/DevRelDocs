@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-part-remove-zone-on-topo-entities"></a>
-
 # ansys.meshing.prime.Part.remove_zone_on_topo_entities
 
 <a id="ansys.meshing.prime.Part.remove_zone_on_topo_entities"></a>

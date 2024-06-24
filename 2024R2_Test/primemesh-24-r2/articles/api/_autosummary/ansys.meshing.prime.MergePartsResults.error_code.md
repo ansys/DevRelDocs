@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-mergepartsresults-error-code"></a>
-
 # ansys.meshing.prime.MergePartsResults.error_code
 
 <a id="ansys.meshing.prime.MergePartsResults.error_code"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-scaffolderparams-size-field-type"></a>
-
 # ansys.meshing.prime.ScaffolderParams.size_field_type
 
 <a id="ansys.meshing.prime.ScaffolderParams.size_field_type"></a>

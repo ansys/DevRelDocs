@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-creatematerialpointresults-warning-codes"></a>
-
 # ansys.meshing.prime.CreateMaterialPointResults.warning_codes
 
 <a id="ansys.meshing.prime.CreateMaterialPointResults.warning_codes"></a>

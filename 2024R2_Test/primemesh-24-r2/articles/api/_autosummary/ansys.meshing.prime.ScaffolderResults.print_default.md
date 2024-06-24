@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-scaffolderresults-print-default"></a>
-
 # ansys.meshing.prime.ScaffolderResults.print_default
 
 <a id="ansys.meshing.prime.ScaffolderResults.print_default"></a>

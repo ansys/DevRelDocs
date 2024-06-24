@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-automeshinvalidmaxsize"></a>
-
 # ansys.meshing.prime.ErrorCode.AUTOMESHINVALIDMAXSIZE
 
 <a id="ansys.meshing.prime.ErrorCode.AUTOMESHINVALIDMAXSIZE"></a>

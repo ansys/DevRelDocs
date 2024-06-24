@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-multizonecontrol-set-sweep-mesh-params"></a>
-
 # ansys.meshing.prime.MultiZoneControl.set_sweep_mesh_params
 
 <a id="ansys.meshing.prime.MultiZoneControl.set_sweep_mesh_params"></a>

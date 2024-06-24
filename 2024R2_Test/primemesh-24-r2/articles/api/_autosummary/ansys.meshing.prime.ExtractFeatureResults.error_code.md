@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-extractfeatureresults-error-code"></a>
-
 # ansys.meshing.prime.ExtractFeatureResults.error_code
 
 <a id="ansys.meshing.prime.ExtractFeatureResults.error_code"></a>

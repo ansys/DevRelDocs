@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-checkmeshresults-warning-codes"></a>
-
 # ansys.meshing.prime.CheckMeshResults.warning_codes
 
 <a id="ansys.meshing.prime.CheckMeshResults.warning_codes"></a>

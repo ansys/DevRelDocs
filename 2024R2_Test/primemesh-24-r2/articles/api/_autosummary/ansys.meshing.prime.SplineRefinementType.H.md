@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-splinerefinementtype-h"></a>
-
 # ansys.meshing.prime.SplineRefinementType.H
 
 <a id="ansys.meshing.prime.SplineRefinementType.H"></a>

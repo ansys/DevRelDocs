@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-leakpreventionparams-scope"></a>
-
 # ansys.meshing.prime.LeakPreventionParams.scope
 
 <a id="ansys.meshing.prime.LeakPreventionParams.scope"></a>

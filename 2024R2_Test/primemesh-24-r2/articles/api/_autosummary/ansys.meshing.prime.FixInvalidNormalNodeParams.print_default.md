@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fixinvalidnormalnodeparams-print-default"></a>
-
 # ansys.meshing.prime.FixInvalidNormalNodeParams.print_default
 
 <a id="ansys.meshing.prime.FixInvalidNormalNodeParams.print_default"></a>

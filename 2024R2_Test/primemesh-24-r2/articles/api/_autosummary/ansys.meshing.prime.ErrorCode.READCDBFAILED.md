@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-readcdbfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.READCDBFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.READCDBFAILED"></a>

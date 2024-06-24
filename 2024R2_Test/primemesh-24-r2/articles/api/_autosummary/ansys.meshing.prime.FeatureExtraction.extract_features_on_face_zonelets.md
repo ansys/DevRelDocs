@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-featureextraction-extract-features-on-face-zonelets"></a>
-
 # ansys.meshing.prime.FeatureExtraction.extract_features_on_face_zonelets
 
 <a id="ansys.meshing.prime.FeatureExtraction.extract_features_on_face_zonelets"></a>

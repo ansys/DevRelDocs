@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-thinvolumemeshparams-set-default"></a>
-
 # ansys.meshing.prime.ThinVolumeMeshParams.set_default
 
 <a id="ansys.meshing.prime.ThinVolumeMeshParams.set_default"></a>

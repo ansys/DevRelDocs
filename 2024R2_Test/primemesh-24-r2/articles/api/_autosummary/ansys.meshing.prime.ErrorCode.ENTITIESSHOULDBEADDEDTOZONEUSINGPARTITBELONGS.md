@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-entitiesshouldbeaddedtozoneusingpartitbelongs"></a>
-
 # ansys.meshing.prime.ErrorCode.ENTITIESSHOULDBEADDEDTOZONEUSINGPARTITBELONGS
 
 <a id="ansys.meshing.prime.ErrorCode.ENTITIESSHOULDBEADDEDTOZONEUSINGPARTITBELONGS"></a>

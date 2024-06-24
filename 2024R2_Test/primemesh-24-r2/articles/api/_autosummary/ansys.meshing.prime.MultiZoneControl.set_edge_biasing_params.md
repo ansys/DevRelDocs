@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-multizonecontrol-set-edge-biasing-params"></a>
-
 # ansys.meshing.prime.MultiZoneControl.set_edge_biasing_params
 
 <a id="ansys.meshing.prime.MultiZoneControl.set_edge_biasing_params"></a>

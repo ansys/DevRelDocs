@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-multizonesweepmeshparams-n-divisions"></a>
-
 # ansys.meshing.prime.MultiZoneSweepMeshParams.n_divisions
 
 <a id="ansys.meshing.prime.MultiZoneSweepMeshParams.n_divisions"></a>

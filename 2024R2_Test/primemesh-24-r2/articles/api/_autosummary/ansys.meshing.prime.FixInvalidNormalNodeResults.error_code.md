@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fixinvalidnormalnoderesults-error-code"></a>
-
 # ansys.meshing.prime.FixInvalidNormalNodeResults.error_code
 
 <a id="ansys.meshing.prime.FixInvalidNormalNodeResults.error_code"></a>

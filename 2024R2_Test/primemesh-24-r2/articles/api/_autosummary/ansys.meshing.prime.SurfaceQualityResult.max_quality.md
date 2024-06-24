@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfacequalityresult-max-quality"></a>
-
 # ansys.meshing.prime.SurfaceQualityResult.max_quality
 
 <a id="ansys.meshing.prime.SurfaceQualityResult.max_quality"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-surfernonmanifoldedge"></a>
-
 # ansys.meshing.prime.ErrorCode.SURFERNONMANIFOLDEDGE
 
 <a id="ansys.meshing.prime.ErrorCode.SURFERNONMANIFOLDEDGE"></a>

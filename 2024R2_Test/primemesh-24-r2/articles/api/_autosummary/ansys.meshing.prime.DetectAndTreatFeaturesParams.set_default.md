@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-detectandtreatfeaturesparams-set-default"></a>
-
 # ansys.meshing.prime.DetectAndTreatFeaturesParams.set_default
 
 <a id="ansys.meshing.prime.DetectAndTreatFeaturesParams.set_default"></a>

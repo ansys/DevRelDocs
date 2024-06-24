@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-cadrefacetingparams-custom-normal-angle-tolerance"></a>
-
 # ansys.meshing.prime.CadRefacetingParams.custom_normal_angle_tolerance
 
 <a id="ansys.meshing.prime.CadRefacetingParams.custom_normal_angle_tolerance"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-deletetopoentitiesparams-delete-mesh-zonelets"></a>
-
 # ansys.meshing.prime.DeleteTopoEntitiesParams.delete_mesh_zonelets
 
 <a id="ansys.meshing.prime.DeleteTopoEntitiesParams.delete_mesh_zonelets"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-automeshhexcorefailed"></a>
-
 # ansys.meshing.prime.ErrorCode.AUTOMESHHEXCOREFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.AUTOMESHHEXCOREFAILED"></a>

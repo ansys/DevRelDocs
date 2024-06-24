@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapparams-number-of-threads"></a>
-
 # ansys.meshing.prime.WrapParams.number_of_threads
 
 <a id="ansys.meshing.prime.WrapParams.number_of_threads"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-defeaturetopologyparams-allow-curved-topo-faces"></a>
-
 # ansys.meshing.prime.DefeatureTopologyParams.allow_curved_topo_faces
 
 <a id="ansys.meshing.prime.DefeatureTopologyParams.allow_curved_topo_faces"></a>

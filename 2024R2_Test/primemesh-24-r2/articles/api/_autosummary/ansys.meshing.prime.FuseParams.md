@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="fuseparams"></a>
-
 # FuseParams
 
 <a id="ansys.meshing.prime.FuseParams"></a>
@@ -87,14 +85,16 @@ Parameters for fuse operation.
 
 ### Methods
 
-| [`FuseParams.print_default`](ansys.meshing.prime.FuseParams.print_default.md#ansys.meshing.prime.FuseParams.print_default)()   | Print the default values of `FuseParams` object.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
+| [`FuseParams.print_default`](ansys.meshing.prime.FuseParams.print_default.md#ansys.meshing.prime.FuseParams.print_default)()   | Print the default values of `FuseParams` object.   |
 | [`FuseParams.set_default`](ansys.meshing.prime.FuseParams.set_default.md#ansys.meshing.prime.FuseParams.set_default)([...])    | Set the default values of the `FuseParams` object. |
 
 ### Attributes
 
-| [`FuseParams.angle`](ansys.meshing.prime.FuseParams.angle.md#ansys.meshing.prime.FuseParams.angle)                                                    | Faces zonelets with angle less than the provided value are considered for fuse operation.   |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
+| [`FuseParams.angle`](ansys.meshing.prime.FuseParams.angle.md#ansys.meshing.prime.FuseParams.angle)                                                    | Faces zonelets with angle less than the provided value are considered for fuse operation.   |
 | [`FuseParams.check_interior`](ansys.meshing.prime.FuseParams.check_interior.md#ansys.meshing.prime.FuseParams.check_interior)                         | When true, checks all nodes including boundary edge nodes and nodes inside the faces.       |
 | [`FuseParams.check_orientation`](ansys.meshing.prime.FuseParams.check_orientation.md#ansys.meshing.prime.FuseParams.check_orientation)                | Option to check face normal orientation during fuse operation.                              |
 | [`FuseParams.dump_mesh`](ansys.meshing.prime.FuseParams.dump_mesh.md#ansys.meshing.prime.FuseParams.dump_mesh)                                        | Option to dump mesh for debugging.                                                          |

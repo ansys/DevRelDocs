@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-noinput"></a>
-
 # ansys.meshing.prime.ErrorCode.NOINPUT
 
 <a id="ansys.meshing.prime.ErrorCode.NOINPUT"></a>

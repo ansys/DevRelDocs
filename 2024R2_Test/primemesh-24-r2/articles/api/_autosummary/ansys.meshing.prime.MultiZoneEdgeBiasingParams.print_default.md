@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-multizoneedgebiasingparams-print-default"></a>
-
 # ansys.meshing.prime.MultiZoneEdgeBiasingParams.print_default
 
 <a id="ansys.meshing.prime.MultiZoneEdgeBiasingParams.print_default"></a>

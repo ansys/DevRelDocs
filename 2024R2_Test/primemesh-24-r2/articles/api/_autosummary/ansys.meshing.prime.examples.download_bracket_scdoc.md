@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-examples-download-bracket-scdoc"></a>
-
 # ansys.meshing.prime.examples.download_bracket_scdoc
 
 <a id="ansys.meshing.prime.examples.download_bracket_scdoc"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-part-extract-volumes"></a>
-
 # ansys.meshing.prime.Part.extract_volumes
 
 <a id="ansys.meshing.prime.Part.extract_volumes"></a>

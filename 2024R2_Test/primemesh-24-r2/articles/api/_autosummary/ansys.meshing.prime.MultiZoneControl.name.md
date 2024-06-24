@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-multizonecontrol-name"></a>
-
 # ansys.meshing.prime.MultiZoneControl.name
 
 <a id="ansys.meshing.prime.MultiZoneControl.name"></a>

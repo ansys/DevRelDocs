@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-optimizequadmeshparams-suppress-topo-edge-and-mesh-cleanup"></a>
-
 # ansys.meshing.prime.OptimizeQuadMeshParams.suppress_topo_edge_and_mesh_cleanup
 
 <a id="ansys.meshing.prime.OptimizeQuadMeshParams.suppress_topo_edge_and_mesh_cleanup"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-part-delete-topo-entities"></a>
-
 # ansys.meshing.prime.Part.delete_topo_entities
 
 <a id="ansys.meshing.prime.Part.delete_topo_entities"></a>

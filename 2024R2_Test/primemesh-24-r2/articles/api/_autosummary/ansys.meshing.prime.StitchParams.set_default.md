@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-stitchparams-set-default"></a>
-
 # ansys.meshing.prime.StitchParams.set_default
 
 <a id="ansys.meshing.prime.StitchParams.set_default"></a>

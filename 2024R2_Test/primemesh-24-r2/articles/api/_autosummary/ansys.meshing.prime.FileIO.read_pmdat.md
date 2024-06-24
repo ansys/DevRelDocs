@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fileio-read-pmdat"></a>
-
 # ansys.meshing.prime.FileIO.read_pmdat
 
 <a id="ansys.meshing.prime.FileIO.read_pmdat"></a>

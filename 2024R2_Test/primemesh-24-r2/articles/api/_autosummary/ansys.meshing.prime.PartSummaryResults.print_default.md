@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-partsummaryresults-print-default"></a>
-
 # ansys.meshing.prime.PartSummaryResults.print_default
 
 <a id="ansys.meshing.prime.PartSummaryResults.print_default"></a>

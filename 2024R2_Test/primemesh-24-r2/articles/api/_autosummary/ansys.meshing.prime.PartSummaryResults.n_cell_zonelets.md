@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-partsummaryresults-n-cell-zonelets"></a>
-
 # ansys.meshing.prime.PartSummaryResults.n_cell_zonelets
 
 <a id="ansys.meshing.prime.PartSummaryResults.n_cell_zonelets"></a>

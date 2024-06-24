@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-part-print-id"></a>
-
 # ansys.meshing.prime.Part.print_id
 
 <a id="ansys.meshing.prime.Part.print_id"></a>

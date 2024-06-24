@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapper-patch-flow-regions"></a>
-
 # ansys.meshing.prime.Wrapper.patch_flow_regions
 
 <a id="ansys.meshing.prime.Wrapper.patch_flow_regions"></a>

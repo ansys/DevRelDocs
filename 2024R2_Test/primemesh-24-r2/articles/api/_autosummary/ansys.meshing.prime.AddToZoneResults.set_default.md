@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-addtozoneresults-set-default"></a>
-
 # ansys.meshing.prime.AddToZoneResults.set_default
 
 <a id="ansys.meshing.prime.AddToZoneResults.set_default"></a>

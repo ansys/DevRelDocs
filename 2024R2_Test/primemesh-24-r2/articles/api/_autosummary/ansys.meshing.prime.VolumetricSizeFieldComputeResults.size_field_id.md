@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-volumetricsizefieldcomputeresults-size-field-id"></a>
-
 # ansys.meshing.prime.VolumetricSizeFieldComputeResults.size_field_id
 
 <a id="ansys.meshing.prime.VolumetricSizeFieldComputeResults.size_field_id"></a>

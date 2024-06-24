@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfacequalitysummaryresults-quality-results"></a>
-
 # ansys.meshing.prime.SurfaceQualitySummaryResults.quality_results
 
 <a id="ansys.meshing.prime.SurfaceQualitySummaryResults.quality_results"></a>

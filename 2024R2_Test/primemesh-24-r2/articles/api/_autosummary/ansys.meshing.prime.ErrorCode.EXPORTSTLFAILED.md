@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-exportstlfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.EXPORTSTLFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.EXPORTSTLFAILED"></a>

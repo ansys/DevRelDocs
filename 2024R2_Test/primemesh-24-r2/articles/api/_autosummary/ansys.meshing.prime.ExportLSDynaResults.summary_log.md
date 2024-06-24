@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-exportlsdynaresults-summary-log"></a>
-
 # ansys.meshing.prime.ExportLSDynaResults.summary_log
 
 <a id="ansys.meshing.prime.ExportLSDynaResults.summary_log"></a>

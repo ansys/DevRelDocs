@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-morphsolveparams-print-default"></a>
-
 # ansys.meshing.prime.MorphSolveParams.print_default
 
 <a id="ansys.meshing.prime.MorphSolveParams.print_default"></a>

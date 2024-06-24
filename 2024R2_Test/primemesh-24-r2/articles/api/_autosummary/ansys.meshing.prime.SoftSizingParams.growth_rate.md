@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-softsizingparams-growth-rate"></a>
-
 # ansys.meshing.prime.SoftSizingParams.growth_rate
 
 <a id="ansys.meshing.prime.SoftSizingParams.growth_rate"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-cellqualitymeasure-skewness"></a>
-
 # ansys.meshing.prime.CellQualityMeasure.SKEWNESS
 
 <a id="ansys.meshing.prime.CellQualityMeasure.SKEWNESS"></a>

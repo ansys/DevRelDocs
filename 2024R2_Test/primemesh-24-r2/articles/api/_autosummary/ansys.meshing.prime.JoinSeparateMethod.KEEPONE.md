@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-joinseparatemethod-keepone"></a>
-
 # ansys.meshing.prime.JoinSeparateMethod.KEEPONE
 
 <a id="ansys.meshing.prime.JoinSeparateMethod.KEEPONE"></a>

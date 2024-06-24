@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfaceutilities-project-topo-faces-on-geometry"></a>
-
 # ansys.meshing.prime.SurfaceUtilities.project_topo_faces_on_geometry
 
 <a id="ansys.meshing.prime.SurfaceUtilities.project_topo_faces_on_geometry"></a>

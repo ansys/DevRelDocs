@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-optimizequadmeshparams-delete-interior-nodes-params"></a>
-
 # ansys.meshing.prime.OptimizeQuadMeshParams.delete_interior_nodes_params
 
 <a id="ansys.meshing.prime.OptimizeQuadMeshParams.delete_interior_nodes_params"></a>

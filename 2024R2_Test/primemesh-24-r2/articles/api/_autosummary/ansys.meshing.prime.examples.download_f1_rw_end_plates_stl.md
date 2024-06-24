@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-examples-download-f1-rw-end-plates-stl"></a>
-
 # ansys.meshing.prime.examples.download_f1_rw_end_plates_stl
 
 <a id="ansys.meshing.prime.examples.download_f1_rw_end_plates_stl"></a>

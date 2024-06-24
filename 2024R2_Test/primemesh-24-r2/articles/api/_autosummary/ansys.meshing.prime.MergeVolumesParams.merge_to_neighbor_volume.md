@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-mergevolumesparams-merge-to-neighbor-volume"></a>
-
 # ansys.meshing.prime.MergeVolumesParams.merge_to_neighbor_volume
 
 <a id="ansys.meshing.prime.MergeVolumesParams.merge_to_neighbor_volume"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-searchbythinstripparams-feature-type"></a>
-
 # ansys.meshing.prime.SearchByThinStripParams.feature_type
 
 <a id="ansys.meshing.prime.SearchByThinStripParams.feature_type"></a>

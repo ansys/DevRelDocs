@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-cellzonelettype-dead"></a>
-
 # ansys.meshing.prime.CellZoneletType.DEAD
 
 <a id="ansys.meshing.prime.CellZoneletType.DEAD"></a>

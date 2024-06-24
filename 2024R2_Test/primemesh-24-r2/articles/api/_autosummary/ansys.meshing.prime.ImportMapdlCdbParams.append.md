@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-importmapdlcdbparams-append"></a>
-
 # ansys.meshing.prime.ImportMapdlCdbParams.append
 
 <a id="ansys.meshing.prime.ImportMapdlCdbParams.append"></a>

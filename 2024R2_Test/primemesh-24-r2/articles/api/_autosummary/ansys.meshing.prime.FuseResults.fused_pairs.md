@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fuseresults-fused-pairs"></a>
-
 # ansys.meshing.prime.FuseResults.fused_pairs
 
 <a id="ansys.meshing.prime.FuseResults.fused_pairs"></a>

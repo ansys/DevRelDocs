@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-volumemesh-midnodesnotsupported"></a>
-
 # ansys.meshing.prime.ErrorCode.VOLUMEMESH_MIDNODESNOTSUPPORTED
 
 <a id="ansys.meshing.prime.ErrorCode.VOLUMEMESH_MIDNODESNOTSUPPORTED"></a>

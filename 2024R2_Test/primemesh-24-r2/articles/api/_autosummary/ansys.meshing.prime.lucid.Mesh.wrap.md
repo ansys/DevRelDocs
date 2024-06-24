@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-lucid-mesh-wrap"></a>
-
 # ansys.meshing.prime.lucid.Mesh.wrap
 
 <a id="ansys.meshing.prime.lucid.Mesh.wrap"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-stitchparams-type"></a>
-
 # ansys.meshing.prime.StitchParams.type
 
 <a id="ansys.meshing.prime.StitchParams.type"></a>

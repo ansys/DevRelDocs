@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-volumecontrol-id"></a>
-
 # ansys.meshing.prime.VolumeControl.id
 
 <a id="ansys.meshing.prime.VolumeControl.id"></a>

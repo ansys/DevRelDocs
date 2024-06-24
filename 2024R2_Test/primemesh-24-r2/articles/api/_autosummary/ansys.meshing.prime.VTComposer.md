@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="vtcomposer"></a>
-
 # VTComposer
 
 <a id="ansys.meshing.prime.VTComposer"></a>
@@ -21,6 +19,7 @@ VTComposer is used for fix topology corrections like separate, pinch.
 
 ### Methods
 
-| [`VTComposer.separate_faces_with_interior_edges`](ansys.meshing.prime.VTComposer.separate_faces_with_interior_edges.md#ansys.meshing.prime.VTComposer.separate_faces_with_interior_edges)(...)   | Separates the given topofaces having interior edges using the given VT Composer parameters.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| [`VTComposer.separate_faces_with_interior_edges`](ansys.meshing.prime.VTComposer.separate_faces_with_interior_edges.md#ansys.meshing.prime.VTComposer.separate_faces_with_interior_edges)(...)   | Separates the given topofaces having interior edges using the given VT Composer parameters.   |
 <!-- vale on -->

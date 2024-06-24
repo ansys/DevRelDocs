@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-faceandedgeconnectivityparams-print-default"></a>
-
 # ansys.meshing.prime.FaceAndEdgeConnectivityParams.print_default
 
 <a id="ansys.meshing.prime.FaceAndEdgeConnectivityParams.print_default"></a>

@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="sizefield"></a>
-
 # SizeField
 
 <a id="ansys.meshing.prime.SizeField"></a>
@@ -20,6 +18,7 @@ You can remesh surfaces and edges based on the size field.
 
 ### Methods
 
-| [`SizeField.compute_volumetric`](ansys.meshing.prime.SizeField.compute_volumetric.md#ansys.meshing.prime.SizeField.compute_volumetric)(...)   | Computes the volumetric size field using given size control ids.   |
+| Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
+| [`SizeField.compute_volumetric`](ansys.meshing.prime.SizeField.compute_volumetric.md#ansys.meshing.prime.SizeField.compute_volumetric)(...)   | Computes the volumetric size field using given size control ids.   |
 <!-- vale on -->

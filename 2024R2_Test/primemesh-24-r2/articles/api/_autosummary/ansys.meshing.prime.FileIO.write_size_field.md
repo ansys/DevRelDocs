@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fileio-write-size-field"></a>
-
 # ansys.meshing.prime.FileIO.write_size_field
 
 <a id="ansys.meshing.prime.FileIO.write_size_field"></a>

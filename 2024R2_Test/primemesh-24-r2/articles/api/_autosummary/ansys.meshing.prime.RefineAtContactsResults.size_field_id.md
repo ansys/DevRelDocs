@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-refineatcontactsresults-size-field-id"></a>
-
 # ansys.meshing.prime.RefineAtContactsResults.size_field_id
 
 <a id="ansys.meshing.prime.RefineAtContactsResults.size_field_id"></a>

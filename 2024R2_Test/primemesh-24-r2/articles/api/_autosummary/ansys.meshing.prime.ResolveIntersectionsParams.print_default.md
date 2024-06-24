@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-resolveintersectionsparams-print-default"></a>
-
 # ansys.meshing.prime.ResolveIntersectionsParams.print_default
 
 <a id="ansys.meshing.prime.ResolveIntersectionsParams.print_default"></a>

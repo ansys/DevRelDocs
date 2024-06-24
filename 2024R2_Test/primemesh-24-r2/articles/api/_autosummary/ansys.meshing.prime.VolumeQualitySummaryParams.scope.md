@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-volumequalitysummaryparams-scope"></a>
-
 # ansys.meshing.prime.VolumeQualitySummaryParams.scope
 
 <a id="ansys.meshing.prime.VolumeQualitySummaryParams.scope"></a>

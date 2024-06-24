@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="mergezoneletsparams"></a>
-
 # MergeZoneletsParams
 
 <a id="ansys.meshing.prime.MergeZoneletsParams"></a>
@@ -33,13 +31,15 @@ Parameters to merge zonelets.
 
 ### Methods
 
-| [`MergeZoneletsParams.print_default`](ansys.meshing.prime.MergeZoneletsParams.print_default.md#ansys.meshing.prime.MergeZoneletsParams.print_default)()   | Print the default values of `MergeZoneletsParams` object.   |
+| Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
+| [`MergeZoneletsParams.print_default`](ansys.meshing.prime.MergeZoneletsParams.print_default.md#ansys.meshing.prime.MergeZoneletsParams.print_default)()   | Print the default values of `MergeZoneletsParams` object.   |
 | [`MergeZoneletsParams.set_default`](ansys.meshing.prime.MergeZoneletsParams.set_default.md#ansys.meshing.prime.MergeZoneletsParams.set_default)([...])    | Set the default values of the `MergeZoneletsParams` object. |
 
 ### Attributes
 
-| [`MergeZoneletsParams.element_count_limit`](ansys.meshing.prime.MergeZoneletsParams.element_count_limit.md#ansys.meshing.prime.MergeZoneletsParams.element_count_limit)                                                 | Element count limit to identify small zonelets.                                                                                   |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| [`MergeZoneletsParams.element_count_limit`](ansys.meshing.prime.MergeZoneletsParams.element_count_limit.md#ansys.meshing.prime.MergeZoneletsParams.element_count_limit)                                                 | Element count limit to identify small zonelets.                                                                                   |
 | [`MergeZoneletsParams.merge_small_zonelets_with_neighbors`](ansys.meshing.prime.MergeZoneletsParams.merge_small_zonelets_with_neighbors.md#ansys.meshing.prime.MergeZoneletsParams.merge_small_zonelets_with_neighbors) | Merge zonelets with element count smaller than the given element count limit to neighboring zonelets sharing manifold face edges. |
 <!-- vale on -->

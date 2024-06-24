@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-exportlsdynaresults-warning-codes"></a>
-
 # ansys.meshing.prime.ExportLSDynaResults.warning_codes
 
 <a id="ansys.meshing.prime.ExportLSDynaResults.warning_codes"></a>

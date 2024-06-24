@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-defeaturetopologyparams-delete-interior-nodes"></a>
-
 # ansys.meshing.prime.DefeatureTopologyParams.delete_interior_nodes
 
 <a id="ansys.meshing.prime.DefeatureTopologyParams.delete_interior_nodes"></a>

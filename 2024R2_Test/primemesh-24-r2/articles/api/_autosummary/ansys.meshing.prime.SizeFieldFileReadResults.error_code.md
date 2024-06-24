@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-sizefieldfilereadresults-error-code"></a>
-
 # ansys.meshing.prime.SizeFieldFileReadResults.error_code
 
 <a id="ansys.meshing.prime.SizeFieldFileReadResults.error_code"></a>

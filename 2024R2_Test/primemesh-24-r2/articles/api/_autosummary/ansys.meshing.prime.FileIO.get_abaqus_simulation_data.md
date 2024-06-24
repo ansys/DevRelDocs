@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fileio-get-abaqus-simulation-data"></a>
-
 # ansys.meshing.prime.FileIO.get_abaqus_simulation_data
 
 <a id="ansys.meshing.prime.FileIO.get_abaqus_simulation_data"></a>

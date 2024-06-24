@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-collapseparams-target-skewness"></a>
-
 # ansys.meshing.prime.CollapseParams.target_skewness
 
 <a id="ansys.meshing.prime.CollapseParams.target_skewness"></a>

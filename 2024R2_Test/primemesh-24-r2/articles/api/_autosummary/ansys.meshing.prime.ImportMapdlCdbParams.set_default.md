@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-importmapdlcdbparams-set-default"></a>
-
 # ansys.meshing.prime.ImportMapdlCdbParams.set_default
 
 <a id="ansys.meshing.prime.ImportMapdlCdbParams.set_default"></a>

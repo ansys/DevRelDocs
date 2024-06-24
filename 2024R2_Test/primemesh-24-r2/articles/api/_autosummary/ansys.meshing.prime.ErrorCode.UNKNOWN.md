@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-unknown"></a>
-
 # ansys.meshing.prime.ErrorCode.UNKNOWN
 
 <a id="ansys.meshing.prime.ErrorCode.UNKNOWN"></a>

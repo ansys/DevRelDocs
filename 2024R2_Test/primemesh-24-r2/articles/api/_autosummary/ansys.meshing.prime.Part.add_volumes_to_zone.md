@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-part-add-volumes-to-zone"></a>
-
 # ansys.meshing.prime.Part.add_volumes_to_zone
 
 <a id="ansys.meshing.prime.Part.add_volumes_to_zone"></a>

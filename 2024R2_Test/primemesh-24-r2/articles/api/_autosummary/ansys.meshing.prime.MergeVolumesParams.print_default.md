@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-mergevolumesparams-print-default"></a>
-
 # ansys.meshing.prime.MergeVolumesParams.print_default
 
 <a id="ansys.meshing.prime.MergeVolumesParams.print_default"></a>

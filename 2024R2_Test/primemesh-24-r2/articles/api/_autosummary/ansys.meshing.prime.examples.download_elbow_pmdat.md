@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-examples-download-elbow-pmdat"></a>
-
 # ansys.meshing.prime.examples.download_elbow_pmdat
 
 <a id="ansys.meshing.prime.examples.download_elbow_pmdat"></a>

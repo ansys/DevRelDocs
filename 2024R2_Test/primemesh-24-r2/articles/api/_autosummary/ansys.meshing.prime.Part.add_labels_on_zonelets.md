@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-part-add-labels-on-zonelets"></a>
-
 # ansys.meshing.prime.Part.add_labels_on_zonelets
 
 <a id="ansys.meshing.prime.Part.add_labels_on_zonelets"></a>

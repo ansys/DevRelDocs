@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-mergezoneletsnotsupportedfortopologypart"></a>
-
 # ansys.meshing.prime.ErrorCode.MERGEZONELETSNOTSUPPORTEDFORTOPOLOGYPART
 
 <a id="ansys.meshing.prime.ErrorCode.MERGEZONELETSNOTSUPPORTEDFORTOPOLOGYPART"></a>

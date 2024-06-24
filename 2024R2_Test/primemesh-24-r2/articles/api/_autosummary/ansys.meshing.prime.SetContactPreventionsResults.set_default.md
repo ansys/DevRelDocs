@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-setcontactpreventionsresults-set-default"></a>
-
 # ansys.meshing.prime.SetContactPreventionsResults.set_default
 
 <a id="ansys.meshing.prime.SetContactPreventionsResults.set_default"></a>

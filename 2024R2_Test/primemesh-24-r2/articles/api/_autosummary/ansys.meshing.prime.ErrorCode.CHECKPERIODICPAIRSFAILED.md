@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-checkperiodicpairsfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.CHECKPERIODICPAIRSFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.CHECKPERIODICPAIRSFAILED"></a>

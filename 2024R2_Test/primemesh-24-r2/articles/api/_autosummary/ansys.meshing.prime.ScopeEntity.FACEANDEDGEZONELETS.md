@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-scopeentity-faceandedgezonelets"></a>
-
 # ansys.meshing.prime.ScopeEntity.FACEANDEDGEZONELETS
 
 <a id="ansys.meshing.prime.ScopeEntity.FACEANDEDGEZONELETS"></a>

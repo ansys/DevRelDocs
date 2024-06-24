@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-autoquadmesherresults-print-default"></a>
-
 # ansys.meshing.prime.AutoQuadMesherResults.print_default
 
 <a id="ansys.meshing.prime.AutoQuadMesherResults.print_default"></a>

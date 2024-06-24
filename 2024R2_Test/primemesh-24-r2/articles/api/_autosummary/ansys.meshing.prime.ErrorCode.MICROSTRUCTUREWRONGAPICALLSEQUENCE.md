@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-microstructurewrongapicallsequence"></a>
-
 # ansys.meshing.prime.ErrorCode.MICROSTRUCTUREWRONGAPICALLSEQUENCE
 
 <a id="ansys.meshing.prime.ErrorCode.MICROSTRUCTUREWRONGAPICALLSEQUENCE"></a>

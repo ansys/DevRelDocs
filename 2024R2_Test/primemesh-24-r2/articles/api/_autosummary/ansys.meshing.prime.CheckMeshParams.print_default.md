@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-checkmeshparams-print-default"></a>
-
 # ansys.meshing.prime.CheckMeshParams.print_default
 
 <a id="ansys.meshing.prime.CheckMeshParams.print_default"></a>

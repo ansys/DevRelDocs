@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-periodiccontrolsummaryresult-message"></a>
-
 # ansys.meshing.prime.PeriodicControlSummaryResult.message
 
 <a id="ansys.meshing.prime.PeriodicControlSummaryResult.message"></a>

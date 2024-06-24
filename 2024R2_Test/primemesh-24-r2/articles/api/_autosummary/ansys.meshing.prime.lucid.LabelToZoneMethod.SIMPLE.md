@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-lucid-labeltozonemethod-simple"></a>
-
 # ansys.meshing.prime.lucid.LabelToZoneMethod.SIMPLE
 
 <a id="ansys.meshing.prime.lucid.LabelToZoneMethod.SIMPLE"></a>

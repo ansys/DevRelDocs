@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="volumetricsizefieldcomputeparams"></a>
-
 # VolumetricSizeFieldComputeParams
 
 <a id="ansys.meshing.prime.VolumetricSizeFieldComputeParams"></a>
@@ -36,14 +34,16 @@ Parameters associated with the compute volumetric size field operation.
 
 ### Methods
 
-| [`VolumetricSizeFieldComputeParams.print_default`](ansys.meshing.prime.VolumetricSizeFieldComputeParams.print_default.md#ansys.meshing.prime.VolumetricSizeFieldComputeParams.print_default)()   | Print the default values of `VolumetricSizeFieldComputeParams` object.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| [`VolumetricSizeFieldComputeParams.print_default`](ansys.meshing.prime.VolumetricSizeFieldComputeParams.print_default.md#ansys.meshing.prime.VolumetricSizeFieldComputeParams.print_default)()   | Print the default values of `VolumetricSizeFieldComputeParams` object.   |
 | [`VolumetricSizeFieldComputeParams.set_default`](ansys.meshing.prime.VolumetricSizeFieldComputeParams.set_default.md#ansys.meshing.prime.VolumetricSizeFieldComputeParams.set_default)([...])    | Set the default values of the `VolumetricSizeFieldComputeParams` object. |
 
 ### Attributes
 
-| [`VolumetricSizeFieldComputeParams.enable_multi_threading`](ansys.meshing.prime.VolumetricSizeFieldComputeParams.enable_multi_threading.md#ansys.meshing.prime.VolumetricSizeFieldComputeParams.enable_multi_threading)   | Option to compute volumetric size field in parallel using multithreads.   |
+| Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
+| [`VolumetricSizeFieldComputeParams.enable_multi_threading`](ansys.meshing.prime.VolumetricSizeFieldComputeParams.enable_multi_threading.md#ansys.meshing.prime.VolumetricSizeFieldComputeParams.enable_multi_threading)   | Option to compute volumetric size field in parallel using multithreads.   |
 | [`VolumetricSizeFieldComputeParams.enable_periodicity`](ansys.meshing.prime.VolumetricSizeFieldComputeParams.enable_periodicity.md#ansys.meshing.prime.VolumetricSizeFieldComputeParams.enable_periodicity)               | Option to enable periodic size field computations.                        |
 | [`VolumetricSizeFieldComputeParams.periodic_params`](ansys.meshing.prime.VolumetricSizeFieldComputeParams.periodic_params.md#ansys.meshing.prime.VolumetricSizeFieldComputeParams.periodic_params)                        | Periodic parameters to compute the size field.                            |
 <!-- vale on -->

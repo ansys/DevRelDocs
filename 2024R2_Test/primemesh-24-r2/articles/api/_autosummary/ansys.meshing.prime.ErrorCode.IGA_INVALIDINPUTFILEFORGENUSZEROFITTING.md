@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-iga-invalidinputfileforgenuszerofitting"></a>
-
 # ansys.meshing.prime.ErrorCode.IGA_INVALIDINPUTFILEFORGENUSZEROFITTING
 
 <a id="ansys.meshing.prime.ErrorCode.IGA_INVALIDINPUTFILEFORGENUSZEROFITTING"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-exportmapdlcdbparams-boundary-conditions"></a>
-
 # ansys.meshing.prime.ExportMapdlCdbParams.boundary_conditions
 
 <a id="ansys.meshing.prime.ExportMapdlCdbParams.boundary_conditions"></a>

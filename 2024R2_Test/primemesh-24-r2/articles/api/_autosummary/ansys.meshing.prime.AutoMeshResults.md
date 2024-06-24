@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="automeshresults"></a>
-
 # AutoMeshResults
 
 <a id="ansys.meshing.prime.AutoMeshResults"></a>
@@ -36,14 +34,16 @@ Results of volume meshing.
 
 ### Methods
 
-| [`AutoMeshResults.print_default`](ansys.meshing.prime.AutoMeshResults.print_default.md#ansys.meshing.prime.AutoMeshResults.print_default)()            | Print the default values of `AutoMeshResults` object.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| [`AutoMeshResults.print_default`](ansys.meshing.prime.AutoMeshResults.print_default.md#ansys.meshing.prime.AutoMeshResults.print_default)()            | Print the default values of `AutoMeshResults` object.   |
 | [`AutoMeshResults.set_default`](ansys.meshing.prime.AutoMeshResults.set_default.md#ansys.meshing.prime.AutoMeshResults.set_default)([error_code, ...]) | Set the default values of the `AutoMeshResults` object. |
 
 ### Attributes
 
-| [`AutoMeshResults.error_code`](ansys.meshing.prime.AutoMeshResults.error_code.md#ansys.meshing.prime.AutoMeshResults.error_code)                | Provides error message when automesh fails.              |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
+| [`AutoMeshResults.error_code`](ansys.meshing.prime.AutoMeshResults.error_code.md#ansys.meshing.prime.AutoMeshResults.error_code)                | Provides error message when automesh fails.              |
 | [`AutoMeshResults.error_locations`](ansys.meshing.prime.AutoMeshResults.error_locations.md#ansys.meshing.prime.AutoMeshResults.error_locations) | Error location coordinates returned when automesh fails. |
 | [`AutoMeshResults.warning_codes`](ansys.meshing.prime.AutoMeshResults.warning_codes.md#ansys.meshing.prime.AutoMeshResults.warning_codes)       | Warning codes associated with the operation.             |
 <!-- vale on -->

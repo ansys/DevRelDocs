@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-materialpointtype-dead"></a>
-
 # ansys.meshing.prime.MaterialPointType.DEAD
 
 <a id="ansys.meshing.prime.MaterialPointType.DEAD"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-connect-stitch-face-zonelets"></a>
-
 # ansys.meshing.prime.Connect.stitch_face_zonelets
 
 <a id="ansys.meshing.prime.Connect.stitch_face_zonelets"></a>

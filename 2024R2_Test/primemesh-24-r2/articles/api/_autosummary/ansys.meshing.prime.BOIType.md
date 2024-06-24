@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="boitype"></a>
-
 # BOIType
 
 <a id="ansys.meshing.prime.BOIType"></a>
@@ -14,7 +12,8 @@ BOI type for BOI creation.
 
 ### Attributes
 
-| [`BOIType.OFFSETBOX`](ansys.meshing.prime.BOIType.OFFSETBOX.md#ansys.meshing.prime.BOIType.OFFSETBOX)             | Box BOI type for BOI creation.     |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------|------------------------------------|
+| [`BOIType.OFFSETBOX`](ansys.meshing.prime.BOIType.OFFSETBOX.md#ansys.meshing.prime.BOIType.OFFSETBOX)             | Box BOI type for BOI creation.     |
 | [`BOIType.OFFSETSURFACE`](ansys.meshing.prime.BOIType.OFFSETSURFACE.md#ansys.meshing.prime.BOIType.OFFSETSURFACE) | Surface BOI type for BOI creation. |
 <!-- vale on -->

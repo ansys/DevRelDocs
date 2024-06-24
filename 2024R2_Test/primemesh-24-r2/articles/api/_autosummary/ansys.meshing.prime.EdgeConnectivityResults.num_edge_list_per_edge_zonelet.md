@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-edgeconnectivityresults-num-edge-list-per-edge-zonelet"></a>
-
 # ansys.meshing.prime.EdgeConnectivityResults.num_edge_list_per_edge_zonelet
 
 <a id="ansys.meshing.prime.EdgeConnectivityResults.num_edge_list_per_edge_zonelet"></a>

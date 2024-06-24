@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-launch-server-process"></a>
-
 # ansys.meshing.prime.launch_server_process
 
 <a id="ansys.meshing.prime.launch_server_process"></a>

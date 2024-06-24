@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-deleteinteriornodesparams-merge-face-normals-angle"></a>
-
 # ansys.meshing.prime.DeleteInteriorNodesParams.merge_face_normals_angle
 
 <a id="ansys.meshing.prime.DeleteInteriorNodesParams.merge_face_normals_angle"></a>

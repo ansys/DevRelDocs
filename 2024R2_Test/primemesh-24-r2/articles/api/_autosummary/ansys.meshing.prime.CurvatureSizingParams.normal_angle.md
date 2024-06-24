@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-curvaturesizingparams-normal-angle"></a>
-
 # ansys.meshing.prime.CurvatureSizingParams.normal_angle
 
 <a id="ansys.meshing.prime.CurvatureSizingParams.normal_angle"></a>

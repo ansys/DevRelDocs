@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-createvolumezonestype-pernamesource"></a>
-
 # ansys.meshing.prime.CreateVolumeZonesType.PERNAMESOURCE
 
 <a id="ansys.meshing.prime.CreateVolumeZonesType.PERNAMESOURCE"></a>

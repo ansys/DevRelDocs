@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapperclosegapsparams-material-point-name"></a>
-
 # ansys.meshing.prime.WrapperCloseGapsParams.material_point_name
 
 <a id="ansys.meshing.prime.WrapperCloseGapsParams.material_point_name"></a>

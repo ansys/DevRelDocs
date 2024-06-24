@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-sizecontrol-get-meshed-sizing-params"></a>
-
 # ansys.meshing.prime.SizeControl.get_meshed_sizing_params
 
 <a id="ansys.meshing.prime.SizeControl.get_meshed_sizing_params"></a>

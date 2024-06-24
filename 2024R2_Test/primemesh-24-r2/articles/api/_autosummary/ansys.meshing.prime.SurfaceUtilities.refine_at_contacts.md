@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfaceutilities-refine-at-contacts"></a>
-
 # ansys.meshing.prime.SurfaceUtilities.refine_at_contacts
 
 <a id="ansys.meshing.prime.SurfaceUtilities.refine_at_contacts"></a>

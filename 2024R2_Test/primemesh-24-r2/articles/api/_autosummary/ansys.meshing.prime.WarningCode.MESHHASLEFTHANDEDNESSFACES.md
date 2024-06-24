@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-warningcode-meshhaslefthandednessfaces"></a>
-
 # ansys.meshing.prime.WarningCode.MESHHASLEFTHANDEDNESSFACES
 
 <a id="ansys.meshing.prime.WarningCode.MESHHASLEFTHANDEDNESSFACES"></a>

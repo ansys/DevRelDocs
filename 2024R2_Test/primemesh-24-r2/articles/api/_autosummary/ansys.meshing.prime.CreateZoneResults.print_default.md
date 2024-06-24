@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-createzoneresults-print-default"></a>
-
 # ansys.meshing.prime.CreateZoneResults.print_default
 
 <a id="ansys.meshing.prime.CreateZoneResults.print_default"></a>

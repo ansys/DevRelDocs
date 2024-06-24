@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-sizingtype-curvature"></a>
-
 # ansys.meshing.prime.SizingType.CURVATURE
 
 <a id="ansys.meshing.prime.SizingType.CURVATURE"></a>

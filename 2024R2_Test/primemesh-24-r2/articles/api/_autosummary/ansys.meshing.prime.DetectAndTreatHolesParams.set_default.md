@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-detectandtreatholesparams-set-default"></a>
-
 # ansys.meshing.prime.DetectAndTreatHolesParams.set_default
 
 <a id="ansys.meshing.prime.DetectAndTreatHolesParams.set_default"></a>

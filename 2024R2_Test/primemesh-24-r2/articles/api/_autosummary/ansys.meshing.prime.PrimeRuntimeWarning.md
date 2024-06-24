@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-primeruntimewarning"></a>
-
 # ansys.meshing.prime.PrimeRuntimeWarning
 
 <a id="ansys.meshing.prime.PrimeRuntimeWarning"></a>

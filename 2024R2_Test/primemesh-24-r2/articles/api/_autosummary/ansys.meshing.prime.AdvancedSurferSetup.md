@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="advancedsurfersetup"></a>
-
 # AdvancedSurferSetup
 
 <a id="ansys.meshing.prime.AdvancedSurferSetup"></a>
@@ -14,7 +12,8 @@ Define advanced settings for remeshing operation.
 
 ### Attributes
 
-| [`AdvancedSurferSetup.NONE`](ansys.meshing.prime.AdvancedSurferSetup.NONE.md#ansys.meshing.prime.AdvancedSurferSetup.NONE)          | Option to define no advanced settings.                   |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
+| [`AdvancedSurferSetup.NONE`](ansys.meshing.prime.AdvancedSurferSetup.NONE.md#ansys.meshing.prime.AdvancedSurferSetup.NONE)          | Option to define no advanced settings.                   |
 | [`AdvancedSurferSetup.WRAPPER`](ansys.meshing.prime.AdvancedSurferSetup.WRAPPER.md#ansys.meshing.prime.AdvancedSurferSetup.WRAPPER) | Option to define advanced settings for wrapper surfaces. |
 <!-- vale on -->

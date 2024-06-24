@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-smoothdihedralfacenodesresults-error-code"></a>
-
 # ansys.meshing.prime.SmoothDihedralFaceNodesResults.error_code
 
 <a id="ansys.meshing.prime.SmoothDihedralFaceNodesResults.error_code"></a>

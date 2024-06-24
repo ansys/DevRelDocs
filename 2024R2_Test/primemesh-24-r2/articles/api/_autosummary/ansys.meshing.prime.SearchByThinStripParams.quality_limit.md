@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-searchbythinstripparams-quality-limit"></a>
-
 # ansys.meshing.prime.SearchByThinStripParams.quality_limit
 
 <a id="ansys.meshing.prime.SearchByThinStripParams.quality_limit"></a>

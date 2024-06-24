@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-importcadparams-append"></a>
-
 # ansys.meshing.prime.ImportCadParams.append
 
 <a id="ansys.meshing.prime.ImportCadParams.append"></a>

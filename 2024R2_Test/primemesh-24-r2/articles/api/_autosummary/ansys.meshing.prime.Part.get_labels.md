@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-part-get-labels"></a>
-
 # ansys.meshing.prime.Part.get_labels
 
 <a id="ansys.meshing.prime.Part.get_labels"></a>

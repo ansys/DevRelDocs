@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-lucid-mesh-volume-mesh"></a>
-
 # ansys.meshing.prime.lucid.Mesh.volume_mesh
 
 <a id="ansys.meshing.prime.lucid.Mesh.volume_mesh"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-extractvolumesresults-error-code"></a>
-
 # ansys.meshing.prime.ExtractVolumesResults.error_code
 
 <a id="ansys.meshing.prime.ExtractVolumesResults.error_code"></a>

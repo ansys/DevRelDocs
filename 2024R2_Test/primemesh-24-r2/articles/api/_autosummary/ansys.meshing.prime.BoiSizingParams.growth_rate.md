@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-boisizingparams-growth-rate"></a>
-
 # ansys.meshing.prime.BoiSizingParams.growth_rate
 
 <a id="ansys.meshing.prime.BoiSizingParams.growth_rate"></a>

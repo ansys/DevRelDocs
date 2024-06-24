@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-invalidthinvolumecontrols"></a>
-
 # ansys.meshing.prime.ErrorCode.INVALIDTHINVOLUMECONTROLS
 
 <a id="ansys.meshing.prime.ErrorCode.INVALIDTHINVOLUMECONTROLS"></a>

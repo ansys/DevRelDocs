@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-partsummaryresults-message"></a>
-
 # ansys.meshing.prime.PartSummaryResults.message
 
 <a id="ansys.meshing.prime.PartSummaryResults.message"></a>

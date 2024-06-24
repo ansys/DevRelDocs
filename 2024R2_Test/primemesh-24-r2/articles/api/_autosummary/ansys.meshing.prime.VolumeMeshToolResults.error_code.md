@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-volumemeshtoolresults-error-code"></a>
-
 # ansys.meshing.prime.VolumeMeshToolResults.error_code
 
 <a id="ansys.meshing.prime.VolumeMeshToolResults.error_code"></a>

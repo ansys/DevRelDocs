@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-sizecontrol-get-summary"></a>
-
 # ansys.meshing.prime.SizeControl.get_summary
 
 <a id="ansys.meshing.prime.SizeControl.get_summary"></a>

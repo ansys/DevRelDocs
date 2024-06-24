@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrappercontrol-set-leak-preventions"></a>
-
 # ansys.meshing.prime.WrapperControl.set_leak_preventions
 
 <a id="ansys.meshing.prime.WrapperControl.set_leak_preventions"></a>

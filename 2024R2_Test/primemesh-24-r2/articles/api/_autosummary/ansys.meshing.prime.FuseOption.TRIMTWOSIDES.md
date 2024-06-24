@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fuseoption-trimtwosides"></a>
-
 # ansys.meshing.prime.FuseOption.TRIMTWOSIDES
 
 <a id="ansys.meshing.prime.FuseOption.TRIMTWOSIDES"></a>

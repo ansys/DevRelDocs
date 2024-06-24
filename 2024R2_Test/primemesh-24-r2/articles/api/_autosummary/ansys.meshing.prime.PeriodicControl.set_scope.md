@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-periodiccontrol-set-scope"></a>
-
 # ansys.meshing.prime.PeriodicControl.set_scope
 
 <a id="ansys.meshing.prime.PeriodicControl.set_scope"></a>

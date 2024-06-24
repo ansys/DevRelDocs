@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-stacker-failed"></a>
-
 # ansys.meshing.prime.ErrorCode.STACKER_FAILED
 
 <a id="ansys.meshing.prime.ErrorCode.STACKER_FAILED"></a>

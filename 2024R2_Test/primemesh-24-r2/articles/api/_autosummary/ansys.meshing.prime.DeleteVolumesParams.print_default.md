@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-deletevolumesparams-print-default"></a>
-
 # ansys.meshing.prime.DeleteVolumesParams.print_default
 
 <a id="ansys.meshing.prime.DeleteVolumesParams.print_default"></a>

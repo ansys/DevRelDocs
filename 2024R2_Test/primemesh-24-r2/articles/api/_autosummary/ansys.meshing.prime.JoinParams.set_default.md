@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-joinparams-set-default"></a>
-
 # ansys.meshing.prime.JoinParams.set_default
 
 <a id="ansys.meshing.prime.JoinParams.set_default"></a>

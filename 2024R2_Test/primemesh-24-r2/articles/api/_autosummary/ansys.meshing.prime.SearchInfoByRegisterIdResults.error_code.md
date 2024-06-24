@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-searchinfobyregisteridresults-error-code"></a>
-
 # ansys.meshing.prime.SearchInfoByRegisterIdResults.error_code
 
 <a id="ansys.meshing.prime.SearchInfoByRegisterIdResults.error_code"></a>

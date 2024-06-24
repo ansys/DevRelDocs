@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-autonodemoveparams-n-attempts"></a>
-
 # ansys.meshing.prime.AutoNodeMoveParams.n_attempts
 
 <a id="ansys.meshing.prime.AutoNodeMoveParams.n_attempts"></a>

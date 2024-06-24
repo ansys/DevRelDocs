@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-sfperiodicparams-axis"></a>
-
 # ansys.meshing.prime.SFPeriodicParams.axis
 
 <a id="ansys.meshing.prime.SFPeriodicParams.axis"></a>

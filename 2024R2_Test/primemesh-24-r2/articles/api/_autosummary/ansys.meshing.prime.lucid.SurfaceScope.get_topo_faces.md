@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-lucid-surfacescope-get-topo-faces"></a>
-
 # ansys.meshing.prime.lucid.SurfaceScope.get_topo_faces
 
 <a id="ansys.meshing.prime.lucid.SurfaceScope.get_topo_faces"></a>

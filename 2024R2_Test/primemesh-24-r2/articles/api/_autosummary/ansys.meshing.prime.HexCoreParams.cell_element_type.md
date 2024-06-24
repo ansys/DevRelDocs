@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-hexcoreparams-cell-element-type"></a>
-
 # ansys.meshing.prime.HexCoreParams.cell_element_type
 
 <a id="ansys.meshing.prime.HexCoreParams.cell_element_type"></a>

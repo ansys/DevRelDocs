@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-automeshparams-prism-control-ids"></a>
-
 # ansys.meshing.prime.AutoMeshParams.prism_control_ids
 
 <a id="ansys.meshing.prime.AutoMeshParams.prism_control_ids"></a>

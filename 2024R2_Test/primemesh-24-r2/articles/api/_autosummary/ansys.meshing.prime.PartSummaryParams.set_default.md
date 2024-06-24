@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-partsummaryparams-set-default"></a>
-
 # ansys.meshing.prime.PartSummaryParams.set_default
 
 <a id="ansys.meshing.prime.PartSummaryParams.set_default"></a>

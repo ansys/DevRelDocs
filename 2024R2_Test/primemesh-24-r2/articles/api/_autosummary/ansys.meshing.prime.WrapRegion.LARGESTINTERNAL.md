@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapregion-largestinternal"></a>
-
 # ansys.meshing.prime.WrapRegion.LARGESTINTERNAL
 
 <a id="ansys.meshing.prime.WrapRegion.LARGESTINTERNAL"></a>

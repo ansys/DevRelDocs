@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-facequalitymeasure-aspectratio"></a>
-
 # ansys.meshing.prime.FaceQualityMeasure.ASPECTRATIO
 
 <a id="ansys.meshing.prime.FaceQualityMeasure.ASPECTRATIO"></a>

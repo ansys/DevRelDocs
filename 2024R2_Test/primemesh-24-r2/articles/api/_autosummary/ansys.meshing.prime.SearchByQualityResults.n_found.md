@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-searchbyqualityresults-n-found"></a>
-
 # ansys.meshing.prime.SearchByQualityResults.n_found
 
 <a id="ansys.meshing.prime.SearchByQualityResults.n_found"></a>

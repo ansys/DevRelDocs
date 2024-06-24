@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-exportstlparams-part-ids"></a>
-
 # ansys.meshing.prime.ExportSTLParams.part_ids
 
 <a id="ansys.meshing.prime.ExportSTLParams.part_ids"></a>

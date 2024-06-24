@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-examples-download-pipe-tee-scdoc"></a>
-
 # ansys.meshing.prime.examples.download_pipe_tee_scdoc
 
 <a id="ansys.meshing.prime.examples.download_pipe_tee_scdoc"></a>

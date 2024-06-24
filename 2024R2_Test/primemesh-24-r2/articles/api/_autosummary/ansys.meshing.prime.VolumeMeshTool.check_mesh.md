@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-volumemeshtool-check-mesh"></a>
-
 # ansys.meshing.prime.VolumeMeshTool.check_mesh
 
 <a id="ansys.meshing.prime.VolumeMeshTool.check_mesh"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-zonetype-edge"></a>
-
 # ansys.meshing.prime.ZoneType.EDGE
 
 <a id="ansys.meshing.prime.ZoneType.EDGE"></a>

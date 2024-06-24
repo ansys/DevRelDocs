@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-cadrefacetingparams-cad-faceter"></a>
-
 # ansys.meshing.prime.CadRefacetingParams.cad_faceter
 
 <a id="ansys.meshing.prime.CadRefacetingParams.cad_faceter"></a>

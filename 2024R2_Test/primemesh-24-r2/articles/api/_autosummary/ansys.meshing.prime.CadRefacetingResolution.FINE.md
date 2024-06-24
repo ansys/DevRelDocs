@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-cadrefacetingresolution-fine"></a>
-
 # ansys.meshing.prime.CadRefacetingResolution.FINE
 
 <a id="ansys.meshing.prime.CadRefacetingResolution.FINE"></a>

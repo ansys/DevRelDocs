@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-extractvolumesresults-warning-codes"></a>
-
 # ansys.meshing.prime.ExtractVolumesResults.warning_codes
 
 <a id="ansys.meshing.prime.ExtractVolumesResults.warning_codes"></a>

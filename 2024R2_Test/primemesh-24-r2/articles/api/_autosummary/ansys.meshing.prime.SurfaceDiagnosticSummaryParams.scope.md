@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfacediagnosticsummaryparams-scope"></a>
-
 # ansys.meshing.prime.SurfaceDiagnosticSummaryParams.scope
 
 <a id="ansys.meshing.prime.SurfaceDiagnosticSummaryParams.scope"></a>

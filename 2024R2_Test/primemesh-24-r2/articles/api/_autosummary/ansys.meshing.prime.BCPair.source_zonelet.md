@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-bcpair-source-zonelet"></a>
-
 # ansys.meshing.prime.BCPair.source_zonelet
 
 <a id="ansys.meshing.prime.BCPair.source_zonelet"></a>

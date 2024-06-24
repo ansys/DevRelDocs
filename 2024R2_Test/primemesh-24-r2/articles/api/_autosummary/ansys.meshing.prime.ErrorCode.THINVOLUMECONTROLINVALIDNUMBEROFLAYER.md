@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-thinvolumecontrolinvalidnumberoflayer"></a>
-
 # ansys.meshing.prime.ErrorCode.THINVOLUMECONTROLINVALIDNUMBEROFLAYER
 
 <a id="ansys.meshing.prime.ErrorCode.THINVOLUMECONTROLINVALIDNUMBEROFLAYER"></a>

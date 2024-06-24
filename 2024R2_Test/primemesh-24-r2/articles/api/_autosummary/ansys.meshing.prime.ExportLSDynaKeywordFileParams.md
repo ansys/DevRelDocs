@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="exportlsdynakeywordfileparams"></a>
-
 # ExportLSDynaKeywordFileParams
 
 <a id="ansys.meshing.prime.ExportLSDynaKeywordFileParams"></a>
@@ -52,14 +50,16 @@ Parameters to control LS-DYNA keyword file export settings.
 
 ### Methods
 
-| [`ExportLSDynaKeywordFileParams.print_default`](ansys.meshing.prime.ExportLSDynaKeywordFileParams.print_default.md#ansys.meshing.prime.ExportLSDynaKeywordFileParams.print_default)()   | Print the default values of `ExportLSDynaKeywordFileParams` object.   |
+| Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
+| [`ExportLSDynaKeywordFileParams.print_default`](ansys.meshing.prime.ExportLSDynaKeywordFileParams.print_default.md#ansys.meshing.prime.ExportLSDynaKeywordFileParams.print_default)()   | Print the default values of `ExportLSDynaKeywordFileParams` object.   |
 | [`ExportLSDynaKeywordFileParams.set_default`](ansys.meshing.prime.ExportLSDynaKeywordFileParams.set_default.md#ansys.meshing.prime.ExportLSDynaKeywordFileParams.set_default)([...])    | Set the default values of the `ExportLSDynaKeywordFileParams` object. |
 
 ### Attributes
 
-| [`ExportLSDynaKeywordFileParams.analysis_type`](ansys.meshing.prime.ExportLSDynaKeywordFileParams.analysis_type.md#ansys.meshing.prime.ExportLSDynaKeywordFileParams.analysis_type)                                        | Option to specify LS-DYNA analysis type.                                      |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| [`ExportLSDynaKeywordFileParams.analysis_type`](ansys.meshing.prime.ExportLSDynaKeywordFileParams.analysis_type.md#ansys.meshing.prime.ExportLSDynaKeywordFileParams.analysis_type)                                        | Option to specify LS-DYNA analysis type.                                      |
 | [`ExportLSDynaKeywordFileParams.compute_spotweld_thickness`](ansys.meshing.prime.ExportLSDynaKeywordFileParams.compute_spotweld_thickness.md#ansys.meshing.prime.ExportLSDynaKeywordFileParams.compute_spotweld_thickness) | Option to compute spot weld thickness using shell thickness when set to true. |
 | [`ExportLSDynaKeywordFileParams.database_keywords`](ansys.meshing.prime.ExportLSDynaKeywordFileParams.database_keywords.md#ansys.meshing.prime.ExportLSDynaKeywordFileParams.database_keywords)                            | Database keywords in LS-DYNA format to be added to the file.                  |
 | [`ExportLSDynaKeywordFileParams.material_properties`](ansys.meshing.prime.ExportLSDynaKeywordFileParams.material_properties.md#ansys.meshing.prime.ExportLSDynaKeywordFileParams.material_properties)                      | Materials in LS-DYNA format to be added to the file.                          |

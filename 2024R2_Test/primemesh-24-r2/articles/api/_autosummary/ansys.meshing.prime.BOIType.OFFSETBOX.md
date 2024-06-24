@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-boitype-offsetbox"></a>
-
 # ansys.meshing.prime.BOIType.OFFSETBOX
 
 <a id="ansys.meshing.prime.BOIType.OFFSETBOX"></a>

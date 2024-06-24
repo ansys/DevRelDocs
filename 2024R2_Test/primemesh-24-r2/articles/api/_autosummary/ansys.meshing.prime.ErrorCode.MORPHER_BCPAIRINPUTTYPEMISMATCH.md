@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-morpher-bcpairinputtypemismatch"></a>
-
 # ansys.meshing.prime.ErrorCode.MORPHER_BCPAIRINPUTTYPEMISMATCH
 
 <a id="ansys.meshing.prime.ErrorCode.MORPHER_BCPAIRINPUTTYPEMISMATCH"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfacemeshsizescaling-factor"></a>
-
 # ansys.meshing.prime.SurfaceMeshSizeScaling.factor
 
 <a id="ansys.meshing.prime.SurfaceMeshSizeScaling.factor"></a>

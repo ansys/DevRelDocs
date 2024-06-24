@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-igaunstructuredsplinesurf-set-default"></a>
-
 # ansys.meshing.prime.IGAUnstructuredSplineSurf.set_default
 
 <a id="ansys.meshing.prime.IGAUnstructuredSplineSurf.set_default"></a>

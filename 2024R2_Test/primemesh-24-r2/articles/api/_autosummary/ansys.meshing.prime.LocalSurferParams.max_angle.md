@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-localsurferparams-max-angle"></a>
-
 # ansys.meshing.prime.LocalSurferParams.max_angle
 
 <a id="ansys.meshing.prime.LocalSurferParams.max_angle"></a>

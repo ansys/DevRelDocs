@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-exportfluentmeshingmeshparams-print-default"></a>
-
 # ansys.meshing.prime.ExportFluentMeshingMeshParams.print_default
 
 <a id="ansys.meshing.prime.ExportFluentMeshingMeshParams.print_default"></a>

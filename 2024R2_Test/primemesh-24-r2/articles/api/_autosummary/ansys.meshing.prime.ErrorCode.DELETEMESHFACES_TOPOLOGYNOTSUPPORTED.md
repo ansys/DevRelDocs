@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-deletemeshfaces-topologynotsupported"></a>
-
 # ansys.meshing.prime.ErrorCode.DELETEMESHFACES_TOPOLOGYNOTSUPPORTED
 
 <a id="ansys.meshing.prime.ErrorCode.DELETEMESHFACES_TOPOLOGYNOTSUPPORTED"></a>

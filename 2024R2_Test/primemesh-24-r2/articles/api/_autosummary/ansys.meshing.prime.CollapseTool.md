@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="collapsetool"></a>
-
 # CollapseTool
 
 <a id="ansys.meshing.prime.CollapseTool"></a>
@@ -18,6 +16,7 @@ Performs various collapse operations. For example, split and collapse on face zo
 
 ### Methods
 
-| [`CollapseTool.split_and_collapse_on_zonelets`](ansys.meshing.prime.CollapseTool.split_and_collapse_on_zonelets.md#ansys.meshing.prime.CollapseTool.split_and_collapse_on_zonelets)(...)   | Split and collapse elements on face zonelets with the specified register id.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| [`CollapseTool.split_and_collapse_on_zonelets`](ansys.meshing.prime.CollapseTool.split_and_collapse_on_zonelets.md#ansys.meshing.prime.CollapseTool.split_and_collapse_on_zonelets)(...)   | Split and collapse elements on face zonelets with the specified register id.   |
 <!-- vale on -->

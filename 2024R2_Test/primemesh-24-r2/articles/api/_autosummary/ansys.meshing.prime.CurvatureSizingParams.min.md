@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-curvaturesizingparams-min"></a>
-
 # ansys.meshing.prime.CurvatureSizingParams.min
 
 <a id="ansys.meshing.prime.CurvatureSizingParams.min"></a>

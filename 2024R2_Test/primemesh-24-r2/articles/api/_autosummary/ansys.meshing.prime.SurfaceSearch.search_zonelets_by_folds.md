@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfacesearch-search-zonelets-by-folds"></a>
-
 # ansys.meshing.prime.SurfaceSearch.search_zonelets_by_folds
 
 <a id="ansys.meshing.prime.SurfaceSearch.search_zonelets_by_folds"></a>

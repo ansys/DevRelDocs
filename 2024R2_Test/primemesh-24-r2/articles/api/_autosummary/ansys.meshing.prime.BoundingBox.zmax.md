@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-boundingbox-zmax"></a>
-
 # ansys.meshing.prime.BoundingBox.zmax
 
 <a id="ansys.meshing.prime.BoundingBox.zmax"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-invalidfirstheight"></a>
-
 # ansys.meshing.prime.ErrorCode.INVALIDFIRSTHEIGHT
 
 <a id="ansys.meshing.prime.ErrorCode.INVALIDFIRSTHEIGHT"></a>

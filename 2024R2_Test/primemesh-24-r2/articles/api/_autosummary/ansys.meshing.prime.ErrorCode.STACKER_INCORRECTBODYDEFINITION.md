@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-stacker-incorrectbodydefinition"></a>
-
 # ansys.meshing.prime.ErrorCode.STACKER_INCORRECTBODYDEFINITION
 
 <a id="ansys.meshing.prime.ErrorCode.STACKER_INCORRECTBODYDEFINITION"></a>

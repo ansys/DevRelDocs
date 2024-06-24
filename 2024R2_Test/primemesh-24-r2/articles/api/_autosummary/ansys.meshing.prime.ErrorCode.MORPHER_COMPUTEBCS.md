@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-morpher-computebcs"></a>
-
 # ansys.meshing.prime.ErrorCode.MORPHER_COMPUTEBCS
 
 <a id="ansys.meshing.prime.ErrorCode.MORPHER_COMPUTEBCS"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-meshstackerresults-print-default"></a>
-
 # ansys.meshing.prime.MeshStackerResults.print_default
 
 <a id="ansys.meshing.prime.MeshStackerResults.print_default"></a>

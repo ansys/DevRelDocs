@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-hexcoreparams-transition-size-field-type"></a>
-
 # ansys.meshing.prime.HexCoreParams.transition_size_field_type
 
 <a id="ansys.meshing.prime.HexCoreParams.transition_size_field_type"></a>

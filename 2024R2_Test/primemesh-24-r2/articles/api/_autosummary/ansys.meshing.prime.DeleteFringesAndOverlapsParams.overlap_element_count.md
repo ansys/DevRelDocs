@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-deletefringesandoverlapsparams-overlap-element-count"></a>
-
 # ansys.meshing.prime.DeleteFringesAndOverlapsParams.overlap_element_count
 
 <a id="ansys.meshing.prime.DeleteFringesAndOverlapsParams.overlap_element_count"></a>

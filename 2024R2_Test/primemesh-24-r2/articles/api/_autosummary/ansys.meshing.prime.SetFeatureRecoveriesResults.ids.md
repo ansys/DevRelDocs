@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-setfeaturerecoveriesresults-ids"></a>
-
 # ansys.meshing.prime.SetFeatureRecoveriesResults.ids
 
 <a id="ansys.meshing.prime.SetFeatureRecoveriesResults.ids"></a>

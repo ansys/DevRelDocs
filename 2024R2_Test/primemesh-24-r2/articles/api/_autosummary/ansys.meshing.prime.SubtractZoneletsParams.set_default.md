@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-subtractzoneletsparams-set-default"></a>
-
 # ansys.meshing.prime.SubtractZoneletsParams.set_default
 
 <a id="ansys.meshing.prime.SubtractZoneletsParams.set_default"></a>

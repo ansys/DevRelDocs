@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-controlpointselection-programcontrolled"></a>
-
 # ansys.meshing.prime.ControlPointSelection.PROGRAMCONTROLLED
 
 <a id="ansys.meshing.prime.ControlPointSelection.PROGRAMCONTROLLED"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapperimproveresult-n-skew-found"></a>
-
 # ansys.meshing.prime.WrapperImproveResult.n_skew_found
 
 <a id="ansys.meshing.prime.WrapperImproveResult.n_skew_found"></a>

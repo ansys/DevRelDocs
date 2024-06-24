@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-extractfeatureparams-separation-angle"></a>
-
 # ansys.meshing.prime.ExtractFeatureParams.separation_angle
 
 <a id="ansys.meshing.prime.ExtractFeatureParams.separation_angle"></a>

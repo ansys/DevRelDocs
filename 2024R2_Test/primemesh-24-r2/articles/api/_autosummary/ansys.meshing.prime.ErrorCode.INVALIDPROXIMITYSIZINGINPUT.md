@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-invalidproximitysizinginput"></a>
-
 # ansys.meshing.prime.ErrorCode.INVALIDPROXIMITYSIZINGINPUT
 
 <a id="ansys.meshing.prime.ErrorCode.INVALIDPROXIMITYSIZINGINPUT"></a>

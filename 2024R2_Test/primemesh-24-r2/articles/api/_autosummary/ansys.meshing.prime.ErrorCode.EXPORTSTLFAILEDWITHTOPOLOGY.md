@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-exportstlfailedwithtopology"></a>
-
 # ansys.meshing.prime.ErrorCode.EXPORTSTLFAILEDWITHTOPOLOGY
 
 <a id="ansys.meshing.prime.ErrorCode.EXPORTSTLFAILEDWITHTOPOLOGY"></a>

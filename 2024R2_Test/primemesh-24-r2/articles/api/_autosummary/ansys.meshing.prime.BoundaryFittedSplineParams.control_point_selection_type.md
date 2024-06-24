@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-boundaryfittedsplineparams-control-point-selection-type"></a>
-
 # ansys.meshing.prime.BoundaryFittedSplineParams.control_point_selection_type
 
 <a id="ansys.meshing.prime.BoundaryFittedSplineParams.control_point_selection_type"></a>

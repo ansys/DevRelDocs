@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surferparams-avoid-corner-triangles"></a>
-
 # ansys.meshing.prime.SurferParams.avoid_corner_triangles
 
 <a id="ansys.meshing.prime.SurferParams.avoid_corner_triangles"></a>

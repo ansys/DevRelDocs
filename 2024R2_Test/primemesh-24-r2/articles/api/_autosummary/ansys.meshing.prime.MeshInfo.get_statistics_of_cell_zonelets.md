@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-meshinfo-get-statistics-of-cell-zonelets"></a>
-
 # ansys.meshing.prime.MeshInfo.get_statistics_of_cell_zonelets
 
 <a id="ansys.meshing.prime.MeshInfo.get_statistics_of_cell_zonelets"></a>

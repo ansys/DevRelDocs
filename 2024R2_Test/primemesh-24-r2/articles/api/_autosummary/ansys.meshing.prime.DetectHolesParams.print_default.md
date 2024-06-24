@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-detectholesparams-print-default"></a>
-
 # ansys.meshing.prime.DetectHolesParams.print_default
 
 <a id="ansys.meshing.prime.DetectHolesParams.print_default"></a>

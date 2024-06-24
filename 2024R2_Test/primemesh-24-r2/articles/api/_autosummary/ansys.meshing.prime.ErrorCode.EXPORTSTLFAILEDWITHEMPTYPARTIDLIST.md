@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-exportstlfailedwithemptypartidlist"></a>
-
 # ansys.meshing.prime.ErrorCode.EXPORTSTLFAILEDWITHEMPTYPARTIDLIST
 
 <a id="ansys.meshing.prime.ErrorCode.EXPORTSTLFAILEDWITHEMPTYPARTIDLIST"></a>

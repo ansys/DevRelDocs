@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-lucid-volumescope-get-scope-definition"></a>
-
 # ansys.meshing.prime.lucid.VolumeScope.get_scope_definition
 
 <a id="ansys.meshing.prime.lucid.VolumeScope.get_scope_definition"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-wrappercontrol-invalidcontactpreventioncontrolid"></a>
-
 # ansys.meshing.prime.ErrorCode.WRAPPERCONTROL_INVALIDCONTACTPREVENTIONCONTROLID
 
 <a id="ansys.meshing.prime.ErrorCode.WRAPPERCONTROL_INVALIDCONTACTPREVENTIONCONTROLID"></a>

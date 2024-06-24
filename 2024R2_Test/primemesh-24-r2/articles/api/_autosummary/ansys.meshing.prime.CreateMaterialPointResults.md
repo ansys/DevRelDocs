@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="creatematerialpointresults"></a>
-
 # CreateMaterialPointResults
 
 <a id="ansys.meshing.prime.CreateMaterialPointResults"></a>
@@ -39,14 +37,16 @@ Results structure associated with create material point operation.
 
 ### Methods
 
-| [`CreateMaterialPointResults.print_default`](ansys.meshing.prime.CreateMaterialPointResults.print_default.md#ansys.meshing.prime.CreateMaterialPointResults.print_default)()    | Print the default values of `CreateMaterialPointResults` object.   |
+| Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
+| [`CreateMaterialPointResults.print_default`](ansys.meshing.prime.CreateMaterialPointResults.print_default.md#ansys.meshing.prime.CreateMaterialPointResults.print_default)()    | Print the default values of `CreateMaterialPointResults` object.   |
 | [`CreateMaterialPointResults.set_default`](ansys.meshing.prime.CreateMaterialPointResults.set_default.md#ansys.meshing.prime.CreateMaterialPointResults.set_default)([id, ...]) | Set the default values of the `CreateMaterialPointResults` object. |
 
 ### Attributes
 
-| [`CreateMaterialPointResults.assigned_name`](ansys.meshing.prime.CreateMaterialPointResults.assigned_name.md#ansys.meshing.prime.CreateMaterialPointResults.assigned_name)   | Assigned name of the material point created.                   |
+| Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
+| [`CreateMaterialPointResults.assigned_name`](ansys.meshing.prime.CreateMaterialPointResults.assigned_name.md#ansys.meshing.prime.CreateMaterialPointResults.assigned_name)   | Assigned name of the material point created.                   |
 | [`CreateMaterialPointResults.error_code`](ansys.meshing.prime.CreateMaterialPointResults.error_code.md#ansys.meshing.prime.CreateMaterialPointResults.error_code)            | Error code associated with create material point operation.    |
 | [`CreateMaterialPointResults.id`](ansys.meshing.prime.CreateMaterialPointResults.id.md#ansys.meshing.prime.CreateMaterialPointResults.id)                                    | Id of the material point created.                              |
 | [`CreateMaterialPointResults.warning_codes`](ansys.meshing.prime.CreateMaterialPointResults.warning_codes.md#ansys.meshing.prime.CreateMaterialPointResults.warning_codes)   | Warning codes associated with create material point operation. |

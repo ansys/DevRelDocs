@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-faceconnectivityresults-topo-face-ids"></a>
-
 # ansys.meshing.prime.FaceConnectivityResults.topo_face_ids
 
 <a id="ansys.meshing.prime.FaceConnectivityResults.topo_face_ids"></a>

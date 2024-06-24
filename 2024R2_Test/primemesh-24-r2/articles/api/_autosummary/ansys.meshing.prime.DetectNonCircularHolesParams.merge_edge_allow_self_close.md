@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-detectnoncircularholesparams-merge-edge-allow-self-close"></a>
-
 # ansys.meshing.prime.DetectNonCircularHolesParams.merge_edge_allow_self_close
 
 <a id="ansys.meshing.prime.DetectNonCircularHolesParams.merge_edge_allow_self_close"></a>

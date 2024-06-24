@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-searchbyintersectionresults-n-found"></a>
-
 # ansys.meshing.prime.SearchByIntersectionResults.n_found
 
 <a id="ansys.meshing.prime.SearchByIntersectionResults.n_found"></a>

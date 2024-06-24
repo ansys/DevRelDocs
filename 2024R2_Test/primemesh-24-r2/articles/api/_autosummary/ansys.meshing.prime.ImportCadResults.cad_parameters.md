@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-importcadresults-cad-parameters"></a>
-
 # ansys.meshing.prime.ImportCadResults.cad_parameters
 
 <a id="ansys.meshing.prime.ImportCadResults.cad_parameters"></a>

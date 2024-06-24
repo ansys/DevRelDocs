@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-fuseoptioninvalid"></a>
-
 # ansys.meshing.prime.ErrorCode.FUSEOPTIONINVALID
 
 <a id="ansys.meshing.prime.ErrorCode.FUSEOPTIONINVALID"></a>

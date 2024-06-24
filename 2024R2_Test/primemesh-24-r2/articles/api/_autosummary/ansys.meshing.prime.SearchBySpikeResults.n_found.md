@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-searchbyspikeresults-n-found"></a>
-
 # ansys.meshing.prime.SearchBySpikeResults.n_found
 
 <a id="ansys.meshing.prime.SearchBySpikeResults.n_found"></a>

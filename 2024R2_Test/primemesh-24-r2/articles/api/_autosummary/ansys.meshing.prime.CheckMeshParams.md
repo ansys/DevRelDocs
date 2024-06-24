@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="checkmeshparams"></a>
-
 # CheckMeshParams
 
 <a id="ansys.meshing.prime.CheckMeshParams"></a>
@@ -27,7 +25,8 @@ Parameters used to check mesh.
 
 ### Methods
 
-| [`CheckMeshParams.print_default`](ansys.meshing.prime.CheckMeshParams.print_default.md#ansys.meshing.prime.CheckMeshParams.print_default)()   | Print the default values of `CheckMeshParams` object.   |
+| Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| [`CheckMeshParams.print_default`](ansys.meshing.prime.CheckMeshParams.print_default.md#ansys.meshing.prime.CheckMeshParams.print_default)()   | Print the default values of `CheckMeshParams` object.   |
 | [`CheckMeshParams.set_default`](ansys.meshing.prime.CheckMeshParams.set_default.md#ansys.meshing.prime.CheckMeshParams.set_default)()         | Set the default values of the `CheckMeshParams` object. |
 <!-- vale on -->

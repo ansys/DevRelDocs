@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapresult-id"></a>
-
 # ansys.meshing.prime.WrapResult.id
 
 <a id="ansys.meshing.prime.WrapResult.id"></a>

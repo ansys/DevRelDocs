@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapresult-error-code"></a>
-
 # ansys.meshing.prime.WrapResult.error_code
 
 <a id="ansys.meshing.prime.WrapResult.error_code"></a>

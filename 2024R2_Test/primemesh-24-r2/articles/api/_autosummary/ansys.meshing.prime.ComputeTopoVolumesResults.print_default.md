@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-computetopovolumesresults-print-default"></a>
-
 # ansys.meshing.prime.ComputeTopoVolumesResults.print_default
 
 <a id="ansys.meshing.prime.ComputeTopoVolumesResults.print_default"></a>

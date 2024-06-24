@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-createzoneresults-zone-id"></a>
-
 # ansys.meshing.prime.CreateZoneResults.zone_id
 
 <a id="ansys.meshing.prime.CreateZoneResults.zone_id"></a>

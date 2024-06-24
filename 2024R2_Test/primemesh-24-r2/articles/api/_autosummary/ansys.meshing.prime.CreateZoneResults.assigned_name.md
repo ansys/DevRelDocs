@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-createzoneresults-assigned-name"></a>
-
 # ansys.meshing.prime.CreateZoneResults.assigned_name
 
 <a id="ansys.meshing.prime.CreateZoneResults.assigned_name"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-multizoneedgebiasingparams-n-divisions"></a>
-
 # ansys.meshing.prime.MultiZoneEdgeBiasingParams.n_divisions
 
 <a id="ansys.meshing.prime.MultiZoneEdgeBiasingParams.n_divisions"></a>

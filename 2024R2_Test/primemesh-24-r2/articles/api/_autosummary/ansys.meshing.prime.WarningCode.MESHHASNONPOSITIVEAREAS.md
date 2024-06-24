@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-warningcode-meshhasnonpositiveareas"></a>
-
 # ansys.meshing.prime.WarningCode.MESHHASNONPOSITIVEAREAS
 
 <a id="ansys.meshing.prime.WarningCode.MESHHASNONPOSITIVEAREAS"></a>

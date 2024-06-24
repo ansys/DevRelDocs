@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-transformationfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.TRANSFORMATIONFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.TRANSFORMATIONFAILED"></a>

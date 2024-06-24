@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-createintersectionedgeloopsresults-error-code"></a>
-
 # ansys.meshing.prime.CreateIntersectionEdgeLoopsResults.error_code
 
 <a id="ansys.meshing.prime.CreateIntersectionEdgeLoopsResults.error_code"></a>

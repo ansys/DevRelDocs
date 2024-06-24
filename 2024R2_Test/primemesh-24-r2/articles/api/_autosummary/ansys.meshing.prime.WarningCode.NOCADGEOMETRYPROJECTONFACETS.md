@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-warningcode-nocadgeometryprojectonfacets"></a>
-
 # ansys.meshing.prime.WarningCode.NOCADGEOMETRYPROJECTONFACETS
 
 <a id="ansys.meshing.prime.WarningCode.NOCADGEOMETRYPROJECTONFACETS"></a>

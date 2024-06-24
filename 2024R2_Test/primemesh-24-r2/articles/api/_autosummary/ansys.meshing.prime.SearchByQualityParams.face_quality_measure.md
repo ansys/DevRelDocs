@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-searchbyqualityparams-face-quality-measure"></a>
-
 # ansys.meshing.prime.SearchByQualityParams.face_quality_measure
 
 <a id="ansys.meshing.prime.SearchByQualityParams.face_quality_measure"></a>

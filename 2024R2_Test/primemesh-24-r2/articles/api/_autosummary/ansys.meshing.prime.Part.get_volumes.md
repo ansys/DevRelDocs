@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-part-get-volumes"></a>
-
 # ansys.meshing.prime.Part.get_volumes
 
 <a id="ansys.meshing.prime.Part.get_volumes"></a>

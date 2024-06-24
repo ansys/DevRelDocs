@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-sizingtype-boi"></a>
-
 # ansys.meshing.prime.SizingType.BOI
 
 <a id="ansys.meshing.prime.SizingType.BOI"></a>

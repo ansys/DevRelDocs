@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfaceutilities-create-contact-patch"></a>
-
 # ansys.meshing.prime.SurfaceUtilities.create_contact_patch
 
 <a id="ansys.meshing.prime.SurfaceUtilities.create_contact_patch"></a>

@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="addthicknessresults"></a>
-
 # AddThicknessResults
 
 <a id="ansys.meshing.prime.AddThicknessResults"></a>
@@ -33,13 +31,15 @@ Result structure associated with add thickness zonelets.
 
 ### Methods
 
-| [`AddThicknessResults.print_default`](ansys.meshing.prime.AddThicknessResults.print_default.md#ansys.meshing.prime.AddThicknessResults.print_default)()   | Print the default values of `AddThicknessResults` object.   |
+| Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
+| [`AddThicknessResults.print_default`](ansys.meshing.prime.AddThicknessResults.print_default.md#ansys.meshing.prime.AddThicknessResults.print_default)()   | Print the default values of `AddThicknessResults` object.   |
 | [`AddThicknessResults.set_default`](ansys.meshing.prime.AddThicknessResults.set_default.md#ansys.meshing.prime.AddThicknessResults.set_default)([...])    | Set the default values of the `AddThicknessResults` object. |
 
 ### Attributes
 
-| [`AddThicknessResults.error_code`](ansys.meshing.prime.AddThicknessResults.error_code.md#ansys.meshing.prime.AddThicknessResults.error_code)   | Error code associated with failure of operation.   |
+| Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
+| [`AddThicknessResults.error_code`](ansys.meshing.prime.AddThicknessResults.error_code.md#ansys.meshing.prime.AddThicknessResults.error_code)   | Error code associated with failure of operation.   |
 | [`AddThicknessResults.part_id`](ansys.meshing.prime.AddThicknessResults.part_id.md#ansys.meshing.prime.AddThicknessResults.part_id)            | The created thickness part id.                     |
 <!-- vale on -->

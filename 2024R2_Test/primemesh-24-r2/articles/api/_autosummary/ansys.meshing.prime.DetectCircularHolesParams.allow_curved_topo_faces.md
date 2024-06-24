@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-detectcircularholesparams-allow-curved-topo-faces"></a>
-
 # ansys.meshing.prime.DetectCircularHolesParams.allow_curved_topo_faces
 
 <a id="ansys.meshing.prime.DetectCircularHolesParams.allow_curved_topo_faces"></a>

@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="deletetopoentitiesresults"></a>
-
 # DeleteTopoEntitiesResults
 
 <a id="ansys.meshing.prime.DeleteTopoEntitiesResults"></a>
@@ -30,12 +28,14 @@ Results associated with delete topoentities.
 
 ### Methods
 
-| [`DeleteTopoEntitiesResults.print_default`](ansys.meshing.prime.DeleteTopoEntitiesResults.print_default.md#ansys.meshing.prime.DeleteTopoEntitiesResults.print_default)()   | Print the default values of `DeleteTopoEntitiesResults` object.   |
+| Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| [`DeleteTopoEntitiesResults.print_default`](ansys.meshing.prime.DeleteTopoEntitiesResults.print_default.md#ansys.meshing.prime.DeleteTopoEntitiesResults.print_default)()   | Print the default values of `DeleteTopoEntitiesResults` object.   |
 | [`DeleteTopoEntitiesResults.set_default`](ansys.meshing.prime.DeleteTopoEntitiesResults.set_default.md#ansys.meshing.prime.DeleteTopoEntitiesResults.set_default)([...])    | Set the default values of the `DeleteTopoEntitiesResults` object. |
 
 ### Attributes
 
-| [`DeleteTopoEntitiesResults.error_code`](ansys.meshing.prime.DeleteTopoEntitiesResults.error_code.md#ansys.meshing.prime.DeleteTopoEntitiesResults.error_code)   | Error code associated with delete topoentities.   |
+| Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------|
+| [`DeleteTopoEntitiesResults.error_code`](ansys.meshing.prime.DeleteTopoEntitiesResults.error_code.md#ansys.meshing.prime.DeleteTopoEntitiesResults.error_code)   | Error code associated with delete topoentities.   |
 <!-- vale on -->

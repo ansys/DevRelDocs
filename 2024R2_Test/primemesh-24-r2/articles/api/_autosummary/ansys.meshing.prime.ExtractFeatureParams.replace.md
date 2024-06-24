@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-extractfeatureparams-replace"></a>
-
 # ansys.meshing.prime.ExtractFeatureParams.replace
 
 <a id="ansys.meshing.prime.ExtractFeatureParams.replace"></a>

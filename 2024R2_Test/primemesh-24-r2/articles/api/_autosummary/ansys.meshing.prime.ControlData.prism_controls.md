@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-controldata-prism-controls"></a>
-
 # ansys.meshing.prime.ControlData.prism_controls
 
 <a id="ansys.meshing.prime.ControlData.prism_controls"></a>

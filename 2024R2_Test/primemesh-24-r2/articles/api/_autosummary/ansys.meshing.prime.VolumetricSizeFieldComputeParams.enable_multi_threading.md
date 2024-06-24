@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-volumetricsizefieldcomputeparams-enable-multi-threading"></a>
-
 # ansys.meshing.prime.VolumetricSizeFieldComputeParams.enable_multi_threading
 
 <a id="ansys.meshing.prime.VolumetricSizeFieldComputeParams.enable_multi_threading"></a>

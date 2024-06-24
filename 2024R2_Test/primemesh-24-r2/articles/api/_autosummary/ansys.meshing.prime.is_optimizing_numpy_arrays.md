@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-is-optimizing-numpy-arrays"></a>
-
 # ansys.meshing.prime.is_optimizing_numpy_arrays
 
 <a id="ansys.meshing.prime.is_optimizing_numpy_arrays"></a>

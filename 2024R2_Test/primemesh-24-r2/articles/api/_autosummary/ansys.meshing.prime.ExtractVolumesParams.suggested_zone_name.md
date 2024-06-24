@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-extractvolumesparams-suggested-zone-name"></a>
-
 # ansys.meshing.prime.ExtractVolumesParams.suggested_zone_name
 
 <a id="ansys.meshing.prime.ExtractVolumesParams.suggested_zone_name"></a>

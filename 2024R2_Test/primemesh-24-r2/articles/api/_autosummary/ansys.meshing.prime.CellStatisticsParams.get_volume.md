@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-cellstatisticsparams-get-volume"></a>
-
 # ansys.meshing.prime.CellStatisticsParams.get_volume
 
 <a id="ansys.meshing.prime.CellStatisticsParams.get_volume"></a>

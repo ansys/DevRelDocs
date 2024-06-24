@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-sizecontrolsummaryresult-message"></a>
-
 # ansys.meshing.prime.SizeControlSummaryResult.message
 
 <a id="ansys.meshing.prime.SizeControlSummaryResult.message"></a>

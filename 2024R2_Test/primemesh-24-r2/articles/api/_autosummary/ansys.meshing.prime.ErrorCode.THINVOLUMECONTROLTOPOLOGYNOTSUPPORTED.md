@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-thinvolumecontroltopologynotsupported"></a>
-
 # ansys.meshing.prime.ErrorCode.THINVOLUMECONTROLTOPOLOGYNOTSUPPORTED
 
 <a id="ansys.meshing.prime.ErrorCode.THINVOLUMECONTROLTOPOLOGYNOTSUPPORTED"></a>

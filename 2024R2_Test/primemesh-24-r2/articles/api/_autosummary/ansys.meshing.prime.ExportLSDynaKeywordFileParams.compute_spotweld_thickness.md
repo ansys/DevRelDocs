@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-exportlsdynakeywordfileparams-compute-spotweld-thickness"></a>
-
 # ansys.meshing.prime.ExportLSDynaKeywordFileParams.compute_spotweld_thickness
 
 <a id="ansys.meshing.prime.ExportLSDynaKeywordFileParams.compute_spotweld_thickness"></a>

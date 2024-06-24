@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-volumefilltype-hexcorepoly"></a>
-
 # ansys.meshing.prime.VolumeFillType.HEXCOREPOLY
 
 <a id="ansys.meshing.prime.VolumeFillType.HEXCOREPOLY"></a>

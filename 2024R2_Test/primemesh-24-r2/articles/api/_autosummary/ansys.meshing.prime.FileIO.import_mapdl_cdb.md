@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fileio-import-mapdl-cdb"></a>
-
 # ansys.meshing.prime.FileIO.import_mapdl_cdb
 
 <a id="ansys.meshing.prime.FileIO.import_mapdl_cdb"></a>

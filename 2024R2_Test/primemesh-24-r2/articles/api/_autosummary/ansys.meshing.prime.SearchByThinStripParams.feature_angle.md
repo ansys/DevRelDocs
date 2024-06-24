@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-searchbythinstripparams-feature-angle"></a>
-
 # ansys.meshing.prime.SearchByThinStripParams.feature_angle
 
 <a id="ansys.meshing.prime.SearchByThinStripParams.feature_angle"></a>

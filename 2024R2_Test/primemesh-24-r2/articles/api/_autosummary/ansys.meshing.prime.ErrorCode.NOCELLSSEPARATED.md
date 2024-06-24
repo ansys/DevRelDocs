@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-nocellsseparated"></a>
-
 # ansys.meshing.prime.ErrorCode.NOCELLSSEPARATED
 
 <a id="ansys.meshing.prime.ErrorCode.NOCELLSSEPARATED"></a>

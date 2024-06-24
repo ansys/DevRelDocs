@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-client-model"></a>
-
 # ansys.meshing.prime.Client.model
 
 <a id="ansys.meshing.prime.Client.model"></a>

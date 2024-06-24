@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-splitparams-set-default"></a>
-
 # ansys.meshing.prime.SplitParams.set_default
 
 <a id="ansys.meshing.prime.SplitParams.set_default"></a>

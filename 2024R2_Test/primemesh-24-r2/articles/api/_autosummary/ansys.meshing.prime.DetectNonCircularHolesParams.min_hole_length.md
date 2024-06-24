@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-detectnoncircularholesparams-min-hole-length"></a>
-
 # ansys.meshing.prime.DetectNonCircularHolesParams.min_hole_length
 
 <a id="ansys.meshing.prime.DetectNonCircularHolesParams.min_hole_length"></a>

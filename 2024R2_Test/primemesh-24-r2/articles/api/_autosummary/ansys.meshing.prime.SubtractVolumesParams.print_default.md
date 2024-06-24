@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-subtractvolumesparams-print-default"></a>
-
 # ansys.meshing.prime.SubtractVolumesParams.print_default
 
 <a id="ansys.meshing.prime.SubtractVolumesParams.print_default"></a>

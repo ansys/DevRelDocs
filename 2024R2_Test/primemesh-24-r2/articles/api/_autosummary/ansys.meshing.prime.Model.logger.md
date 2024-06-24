@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-model-logger"></a>
-
 # ansys.meshing.prime.Model.logger
 
 <a id="ansys.meshing.prime.Model.logger"></a>

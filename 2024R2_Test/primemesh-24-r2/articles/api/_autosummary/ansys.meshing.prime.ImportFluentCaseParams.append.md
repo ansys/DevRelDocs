@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-importfluentcaseparams-append"></a>
-
 # ansys.meshing.prime.ImportFluentCaseParams.append
 
 <a id="ansys.meshing.prime.ImportFluentCaseParams.append"></a>

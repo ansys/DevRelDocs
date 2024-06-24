@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surferparams-constant-size"></a>
-
 # ansys.meshing.prime.SurferParams.constant_size
 
 <a id="ansys.meshing.prime.SurferParams.constant_size"></a>

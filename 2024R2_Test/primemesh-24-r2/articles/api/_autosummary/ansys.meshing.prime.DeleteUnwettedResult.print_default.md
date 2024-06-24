@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-deleteunwettedresult-print-default"></a>
-
 # ansys.meshing.prime.DeleteUnwettedResult.print_default
 
 <a id="ansys.meshing.prime.DeleteUnwettedResult.print_default"></a>

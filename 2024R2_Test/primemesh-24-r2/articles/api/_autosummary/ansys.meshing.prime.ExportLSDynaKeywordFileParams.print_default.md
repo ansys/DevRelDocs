@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-exportlsdynakeywordfileparams-print-default"></a>
-
 # ansys.meshing.prime.ExportLSDynaKeywordFileParams.print_default
 
 <a id="ansys.meshing.prime.ExportLSDynaKeywordFileParams.print_default"></a>

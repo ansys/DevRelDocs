@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapperclosegapsparams-target"></a>
-
 # ansys.meshing.prime.WrapperCloseGapsParams.target
 
 <a id="ansys.meshing.prime.WrapperCloseGapsParams.target"></a>

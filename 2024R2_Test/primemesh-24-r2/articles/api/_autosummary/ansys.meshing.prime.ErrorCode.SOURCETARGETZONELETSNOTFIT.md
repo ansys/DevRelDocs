@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-sourcetargetzoneletsnotfit"></a>
-
 # ansys.meshing.prime.ErrorCode.SOURCETARGETZONELETSNOTFIT
 
 <a id="ansys.meshing.prime.ErrorCode.SOURCETARGETZONELETSNOTFIT"></a>

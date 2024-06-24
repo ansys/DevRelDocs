@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-computevolumesresults-error-locations"></a>
-
 # ansys.meshing.prime.ComputeVolumesResults.error_locations
 
 <a id="ansys.meshing.prime.ComputeVolumesResults.error_locations"></a>

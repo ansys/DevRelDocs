@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-wrappercouldnotextractinterface"></a>
-
 # ansys.meshing.prime.ErrorCode.WRAPPERCOULDNOTEXTRACTINTERFACE
 
 <a id="ansys.meshing.prime.ErrorCode.WRAPPERCOULDNOTEXTRACTINTERFACE"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-importabaqusresults-warning-codes"></a>
-
 # ansys.meshing.prime.ImportAbaqusResults.warning_codes
 
 <a id="ansys.meshing.prime.ImportAbaqusResults.warning_codes"></a>

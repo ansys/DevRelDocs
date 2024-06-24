@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-exportmapdlcdbresults-error-code"></a>
-
 # ansys.meshing.prime.ExportMapdlCdbResults.error_code
 
 <a id="ansys.meshing.prime.ExportMapdlCdbResults.error_code"></a>

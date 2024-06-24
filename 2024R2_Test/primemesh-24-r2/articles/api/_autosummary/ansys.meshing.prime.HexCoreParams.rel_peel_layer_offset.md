@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-hexcoreparams-rel-peel-layer-offset"></a>
-
 # ansys.meshing.prime.HexCoreParams.rel_peel_layer_offset
 
 <a id="ansys.meshing.prime.HexCoreParams.rel_peel_layer_offset"></a>

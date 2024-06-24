@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-mergepartsparams-print-default"></a>
-
 # ansys.meshing.prime.MergePartsParams.print_default
 
 <a id="ansys.meshing.prime.MergePartsParams.print_default"></a>

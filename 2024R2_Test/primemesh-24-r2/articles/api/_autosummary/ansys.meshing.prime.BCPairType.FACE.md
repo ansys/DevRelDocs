@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-bcpairtype-face"></a>
-
 # ansys.meshing.prime.BCPairType.FACE
 
 <a id="ansys.meshing.prime.BCPairType.FACE"></a>

@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="scopezoneletparams"></a>
-
 # ScopeZoneletParams
 
 <a id="ansys.meshing.prime.ScopeZoneletParams"></a>
@@ -27,7 +25,8 @@ Parameters used to get the scoped face or edge zonelets.
 
 ### Methods
 
-| [`ScopeZoneletParams.print_default`](ansys.meshing.prime.ScopeZoneletParams.print_default.md#ansys.meshing.prime.ScopeZoneletParams.print_default)()   | Print the default values of `ScopeZoneletParams` object.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
+| [`ScopeZoneletParams.print_default`](ansys.meshing.prime.ScopeZoneletParams.print_default.md#ansys.meshing.prime.ScopeZoneletParams.print_default)()   | Print the default values of `ScopeZoneletParams` object.   |
 | [`ScopeZoneletParams.set_default`](ansys.meshing.prime.ScopeZoneletParams.set_default.md#ansys.meshing.prime.ScopeZoneletParams.set_default)()         | Set the default values of the `ScopeZoneletParams` object. |
 <!-- vale on -->

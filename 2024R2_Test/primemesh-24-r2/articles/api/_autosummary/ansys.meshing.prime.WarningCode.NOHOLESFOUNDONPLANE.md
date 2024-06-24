@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-warningcode-noholesfoundonplane"></a>
-
 # ansys.meshing.prime.WarningCode.NOHOLESFOUNDONPLANE
 
 <a id="ansys.meshing.prime.WarningCode.NOHOLESFOUNDONPLANE"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-bcpair-type"></a>
-
 # ansys.meshing.prime.BCPair.type
 
 <a id="ansys.meshing.prime.BCPair.type"></a>

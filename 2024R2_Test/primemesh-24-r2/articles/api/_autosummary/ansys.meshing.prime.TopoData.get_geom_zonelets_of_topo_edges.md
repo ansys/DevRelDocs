@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-topodata-get-geom-zonelets-of-topo-edges"></a>
-
 # ansys.meshing.prime.TopoData.get_geom_zonelets_of_topo_edges
 
 <a id="ansys.meshing.prime.TopoData.get_geom_zonelets_of_topo_edges"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-toolzonelets-notwatertight"></a>
-
 # ansys.meshing.prime.ErrorCode.TOOLZONELETS_NOTWATERTIGHT
 
 <a id="ansys.meshing.prime.ErrorCode.TOOLZONELETS_NOTWATERTIGHT"></a>

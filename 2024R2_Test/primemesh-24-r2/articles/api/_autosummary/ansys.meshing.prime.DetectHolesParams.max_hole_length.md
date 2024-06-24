@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-detectholesparams-max-hole-length"></a>
-
 # ansys.meshing.prime.DetectHolesParams.max_hole_length
 
 <a id="ansys.meshing.prime.DetectHolesParams.max_hole_length"></a>

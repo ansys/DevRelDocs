@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-automeshparams-prism"></a>
-
 # ansys.meshing.prime.AutoMeshParams.prism
 
 <a id="ansys.meshing.prime.AutoMeshParams.prism"></a>

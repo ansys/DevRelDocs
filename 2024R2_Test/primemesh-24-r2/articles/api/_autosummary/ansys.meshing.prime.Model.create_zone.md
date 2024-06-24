@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-model-create-zone"></a>
-
 # ansys.meshing.prime.Model.create_zone
 
 <a id="ansys.meshing.prime.Model.create_zone"></a>

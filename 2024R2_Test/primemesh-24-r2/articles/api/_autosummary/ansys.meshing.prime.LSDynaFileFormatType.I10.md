@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-lsdynafileformattype-i10"></a>
-
 # ansys.meshing.prime.LSDynaFileFormatType.I10
 
 <a id="ansys.meshing.prime.LSDynaFileFormatType.I10"></a>

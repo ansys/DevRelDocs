@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-repairtopologyparams-fillet-max-radius"></a>
-
 # ansys.meshing.prime.RepairTopologyParams.fillet_max_radius
 
 <a id="ansys.meshing.prime.RepairTopologyParams.fillet_max_radius"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-stacker-nonstackablevolumesfound"></a>
-
 # ansys.meshing.prime.ErrorCode.STACKER_NONSTACKABLEVOLUMESFOUND
 
 <a id="ansys.meshing.prime.ErrorCode.STACKER_NONSTACKABLEVOLUMESFOUND"></a>

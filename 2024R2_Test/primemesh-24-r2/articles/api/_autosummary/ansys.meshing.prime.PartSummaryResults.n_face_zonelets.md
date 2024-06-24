@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-partsummaryresults-n-face-zonelets"></a>
-
 # ansys.meshing.prime.PartSummaryResults.n_face_zonelets
 
 <a id="ansys.meshing.prime.PartSummaryResults.n_face_zonelets"></a>

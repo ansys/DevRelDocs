@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-repairtopologyparams-connect-faces-params"></a>
-
 # ansys.meshing.prime.RepairTopologyParams.connect_faces_params
 
 <a id="ansys.meshing.prime.RepairTopologyParams.connect_faces_params"></a>

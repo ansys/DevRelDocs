@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fileio-import-cad"></a>
-
 # ansys.meshing.prime.FileIO.import_cad
 
 <a id="ansys.meshing.prime.FileIO.import_cad"></a>

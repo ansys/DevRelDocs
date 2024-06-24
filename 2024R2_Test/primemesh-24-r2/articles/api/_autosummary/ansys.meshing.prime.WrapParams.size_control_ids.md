@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapparams-size-control-ids"></a>
-
 # ansys.meshing.prime.WrapParams.size_control_ids
 
 <a id="ansys.meshing.prime.WrapParams.size_control_ids"></a>

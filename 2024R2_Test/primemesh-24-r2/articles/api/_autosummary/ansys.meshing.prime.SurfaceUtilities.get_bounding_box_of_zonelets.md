@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfaceutilities-get-bounding-box-of-zonelets"></a>
-
 # ansys.meshing.prime.SurfaceUtilities.get_bounding_box_of_zonelets
 
 <a id="ansys.meshing.prime.SurfaceUtilities.get_bounding_box_of_zonelets"></a>

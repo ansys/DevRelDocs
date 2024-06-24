@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-mergezoneletsparams-set-default"></a>
-
 # ansys.meshing.prime.MergeZoneletsParams.set_default
 
 <a id="ansys.meshing.prime.MergeZoneletsParams.set_default"></a>

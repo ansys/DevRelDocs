@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-faceconnectivityresults-face-zonelet-ids"></a>
-
 # ansys.meshing.prime.FaceConnectivityResults.face_zonelet_ids
 
 <a id="ansys.meshing.prime.FaceConnectivityResults.face_zonelet_ids"></a>

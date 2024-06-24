@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-model-name"></a>
-
 # ansys.meshing.prime.Model.name
 
 <a id="ansys.meshing.prime.Model.name"></a>

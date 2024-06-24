@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-unsupportedfileextensionforkeywordfile"></a>
-
 # ansys.meshing.prime.ErrorCode.UNSUPPORTEDFILEEXTENSIONFORKEYWORDFILE
 
 <a id="ansys.meshing.prime.ErrorCode.UNSUPPORTEDFILEEXTENSIONFORKEYWORDFILE"></a>

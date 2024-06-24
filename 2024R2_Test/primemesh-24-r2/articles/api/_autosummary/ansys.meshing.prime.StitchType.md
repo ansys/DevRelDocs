@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="stitchtype"></a>
-
 # StitchType
 
 <a id="ansys.meshing.prime.StitchType"></a>
@@ -14,7 +12,8 @@ Stitch type depending on nature of surface boundary edges to be stitched.
 
 ### Attributes
 
-| [`StitchType.ALLALL`](ansys.meshing.prime.StitchType.ALLALL.md#ansys.meshing.prime.StitchType.ALLALL)       | Stitch surfaces at boundary edges.      |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------|-----------------------------------------|
+| [`StitchType.ALLALL`](ansys.meshing.prime.StitchType.ALLALL.md#ansys.meshing.prime.StitchType.ALLALL)       | Stitch surfaces at boundary edges.      |
 | [`StitchType.FREEFREE`](ansys.meshing.prime.StitchType.FREEFREE.md#ansys.meshing.prime.StitchType.FREEFREE) | Stitch surfaces at free boundary edges. |
 <!-- vale on -->

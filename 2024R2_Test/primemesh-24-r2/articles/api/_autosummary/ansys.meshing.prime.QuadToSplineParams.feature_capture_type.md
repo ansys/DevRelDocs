@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-quadtosplineparams-feature-capture-type"></a>
-
 # ansys.meshing.prime.QuadToSplineParams.feature_capture_type
 
 <a id="ansys.meshing.prime.QuadToSplineParams.feature_capture_type"></a>

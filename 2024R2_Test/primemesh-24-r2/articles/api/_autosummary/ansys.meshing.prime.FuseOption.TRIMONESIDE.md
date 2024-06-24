@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fuseoption-trimoneside"></a>
-
 # ansys.meshing.prime.FuseOption.TRIMONESIDE
 
 <a id="ansys.meshing.prime.FuseOption.TRIMONESIDE"></a>

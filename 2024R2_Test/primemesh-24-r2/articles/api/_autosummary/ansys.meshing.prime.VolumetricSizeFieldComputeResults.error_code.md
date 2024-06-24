@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-volumetricsizefieldcomputeresults-error-code"></a>
-
 # ansys.meshing.prime.VolumetricSizeFieldComputeResults.error_code
 
 <a id="ansys.meshing.prime.VolumetricSizeFieldComputeResults.error_code"></a>

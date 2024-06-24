@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-exportlsdynakeywordfileparams-database-keywords"></a>
-
 # ansys.meshing.prime.ExportLSDynaKeywordFileParams.database_keywords
 
 <a id="ansys.meshing.prime.ExportLSDynaKeywordFileParams.database_keywords"></a>

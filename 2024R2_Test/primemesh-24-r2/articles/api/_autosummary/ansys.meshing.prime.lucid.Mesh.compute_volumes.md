@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-lucid-mesh-compute-volumes"></a>
-
 # ansys.meshing.prime.lucid.Mesh.compute_volumes
 
 <a id="ansys.meshing.prime.lucid.Mesh.compute_volumes"></a>

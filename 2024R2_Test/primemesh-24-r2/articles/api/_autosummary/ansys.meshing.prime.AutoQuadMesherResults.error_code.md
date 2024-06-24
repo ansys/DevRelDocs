@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-autoquadmesherresults-error-code"></a>
-
 # ansys.meshing.prime.AutoQuadMesherResults.error_code
 
 <a id="ansys.meshing.prime.AutoQuadMesherResults.error_code"></a>

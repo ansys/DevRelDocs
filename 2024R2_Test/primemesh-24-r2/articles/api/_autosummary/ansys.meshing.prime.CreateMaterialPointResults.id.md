@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-creatematerialpointresults-id"></a>
-
 # ansys.meshing.prime.CreateMaterialPointResults.id
 
 <a id="ansys.meshing.prime.CreateMaterialPointResults.id"></a>

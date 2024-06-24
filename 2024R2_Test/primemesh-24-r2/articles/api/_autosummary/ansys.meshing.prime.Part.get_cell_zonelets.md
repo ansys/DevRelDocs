@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-part-get-cell-zonelets"></a>
-
 # ansys.meshing.prime.Part.get_cell_zonelets
 
 <a id="ansys.meshing.prime.Part.get_cell_zonelets"></a>

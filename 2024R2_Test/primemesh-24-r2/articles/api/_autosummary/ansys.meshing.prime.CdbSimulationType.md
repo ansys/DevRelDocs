@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="cdbsimulationtype"></a>
-
 # CdbSimulationType
 
 <a id="ansys.meshing.prime.CdbSimulationType"></a>
@@ -14,7 +12,8 @@ Simulation Type for CDB export.
 
 ### Attributes
 
-| [`CdbSimulationType.IMPLICIT`](ansys.meshing.prime.CdbSimulationType.IMPLICIT.md#ansys.meshing.prime.CdbSimulationType.IMPLICIT)   | Implicit simulation.   |
+| Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------|------------------------|
+| [`CdbSimulationType.IMPLICIT`](ansys.meshing.prime.CdbSimulationType.IMPLICIT.md#ansys.meshing.prime.CdbSimulationType.IMPLICIT)   | Implicit simulation.   |
 | [`CdbSimulationType.EXPLICIT`](ansys.meshing.prime.CdbSimulationType.EXPLICIT.md#ansys.meshing.prime.CdbSimulationType.EXPLICIT)   | Explicit Simulation.   |
 <!-- vale on -->

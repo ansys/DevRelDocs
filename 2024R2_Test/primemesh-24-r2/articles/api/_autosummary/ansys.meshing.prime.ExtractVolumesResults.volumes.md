@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-extractvolumesresults-volumes"></a>
-
 # ansys.meshing.prime.ExtractVolumesResults.volumes
 
 <a id="ansys.meshing.prime.ExtractVolumesResults.volumes"></a>

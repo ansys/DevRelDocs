@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-localsurferresults-print-default"></a>
-
 # ansys.meshing.prime.LocalSurferResults.print_default
 
 <a id="ansys.meshing.prime.LocalSurferResults.print_default"></a>

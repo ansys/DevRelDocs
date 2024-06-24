@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fillholesatplaneparams-suggested-zone-name"></a>
-
 # ansys.meshing.prime.FillHolesAtPlaneParams.suggested_zone_name
 
 <a id="ansys.meshing.prime.FillHolesAtPlaneParams.suggested_zone_name"></a>

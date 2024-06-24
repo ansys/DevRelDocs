@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surferparams-project-on-geometry"></a>
-
 # ansys.meshing.prime.SurferParams.project_on_geometry
 
 <a id="ansys.meshing.prime.SurferParams.project_on_geometry"></a>

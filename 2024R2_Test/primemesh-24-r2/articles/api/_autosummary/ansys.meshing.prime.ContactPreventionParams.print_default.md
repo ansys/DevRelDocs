@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-contactpreventionparams-print-default"></a>
-
 # ansys.meshing.prime.ContactPreventionParams.print_default
 
 <a id="ansys.meshing.prime.ContactPreventionParams.print_default"></a>

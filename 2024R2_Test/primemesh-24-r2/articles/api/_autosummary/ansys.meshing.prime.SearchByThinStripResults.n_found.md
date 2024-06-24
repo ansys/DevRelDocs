@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-searchbythinstripresults-n-found"></a>
-
 # ansys.meshing.prime.SearchByThinStripResults.n_found
 
 <a id="ansys.meshing.prime.SearchByThinStripResults.n_found"></a>

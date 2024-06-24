@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-createcaponfacezoneletsfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.CREATECAPONFACEZONELETSFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.CREATECAPONFACEZONELETSFAILED"></a>

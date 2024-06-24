@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="periodiccontrol"></a>
-
 # PeriodicControl
 
 <a id="ansys.meshing.prime.PeriodicControl"></a>
@@ -29,8 +27,9 @@ A periodic control is specified by the scope (source surfaces) and the transform
 
 ### Methods
 
-| [`PeriodicControl.get_params`](ansys.meshing.prime.PeriodicControl.get_params.md#ansys.meshing.prime.PeriodicControl.get_params)()                             | Get the parameters of the periodic control.                                                  |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+| [`PeriodicControl.get_params`](ansys.meshing.prime.PeriodicControl.get_params.md#ansys.meshing.prime.PeriodicControl.get_params)()                             | Get the parameters of the periodic control.                                                  |
 | [`PeriodicControl.get_scope`](ansys.meshing.prime.PeriodicControl.get_scope.md#ansys.meshing.prime.PeriodicControl.get_scope)()                                | Gets the scope for the periodic control.                                                     |
 | [`PeriodicControl.get_summary`](ansys.meshing.prime.PeriodicControl.get_summary.md#ansys.meshing.prime.PeriodicControl.get_summary)(params)                    | Get the periodic control summary along with the evaluated scope for the provided parameters. |
 | [`PeriodicControl.set_params`](ansys.meshing.prime.PeriodicControl.set_params.md#ansys.meshing.prime.PeriodicControl.set_params)(...)                          | Set the periodic control parameters.                                                         |
@@ -39,7 +38,8 @@ A periodic control is specified by the scope (source surfaces) and the transform
 
 ### Attributes
 
-| [`PeriodicControl.id`](ansys.meshing.prime.PeriodicControl.id.md#ansys.meshing.prime.PeriodicControl.id)       | Get the id of PeriodicControl.   |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------|----------------------------------|
+| [`PeriodicControl.id`](ansys.meshing.prime.PeriodicControl.id.md#ansys.meshing.prime.PeriodicControl.id)       | Get the id of PeriodicControl.   |
 | [`PeriodicControl.name`](ansys.meshing.prime.PeriodicControl.name.md#ansys.meshing.prime.PeriodicControl.name) | Get the name of PeriodicControl. |
 <!-- vale on -->

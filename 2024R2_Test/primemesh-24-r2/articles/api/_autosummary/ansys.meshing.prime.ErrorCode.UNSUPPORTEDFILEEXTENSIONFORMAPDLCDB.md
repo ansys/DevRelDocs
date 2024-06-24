@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-unsupportedfileextensionformapdlcdb"></a>
-
 # ansys.meshing.prime.ErrorCode.UNSUPPORTEDFILEEXTENSIONFORMAPDLCDB
 
 <a id="ansys.meshing.prime.ErrorCode.UNSUPPORTEDFILEEXTENSIONFORMAPDLCDB"></a>

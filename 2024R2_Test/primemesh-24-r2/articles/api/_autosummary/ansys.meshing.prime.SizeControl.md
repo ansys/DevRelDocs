@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="sizecontrol"></a>
-
 # SizeControl
 
 <a id="ansys.meshing.prime.SizeControl"></a>
@@ -34,8 +32,9 @@ surface or within the volume.
 
 ### Methods
 
-| [`SizeControl.get_boi_sizing_params`](ansys.meshing.prime.SizeControl.get_boi_sizing_params.md#ansys.meshing.prime.SizeControl.get_boi_sizing_params)()                         | Get the body of influence sizing parameters of size control.                              |
+| Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
+| [`SizeControl.get_boi_sizing_params`](ansys.meshing.prime.SizeControl.get_boi_sizing_params.md#ansys.meshing.prime.SizeControl.get_boi_sizing_params)()                         | Get the body of influence sizing parameters of size control.                              |
 | [`SizeControl.get_curvature_sizing_params`](ansys.meshing.prime.SizeControl.get_curvature_sizing_params.md#ansys.meshing.prime.SizeControl.get_curvature_sizing_params)()       | Get the curvature sizing parameters of size control.                                      |
 | [`SizeControl.get_hard_sizing_params`](ansys.meshing.prime.SizeControl.get_hard_sizing_params.md#ansys.meshing.prime.SizeControl.get_hard_sizing_params)()                      | Get the hard sizing parameters of size control.                                           |
 | [`SizeControl.get_meshed_sizing_params`](ansys.meshing.prime.SizeControl.get_meshed_sizing_params.md#ansys.meshing.prime.SizeControl.get_meshed_sizing_params)()                | Get the meshed sizing parameters of size control.                                         |
@@ -54,7 +53,8 @@ surface or within the volume.
 
 ### Attributes
 
-| [`SizeControl.id`](ansys.meshing.prime.SizeControl.id.md#ansys.meshing.prime.SizeControl.id)       | Get the id of SizeControl.    |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------|-------------------------------|
+| [`SizeControl.id`](ansys.meshing.prime.SizeControl.id.md#ansys.meshing.prime.SizeControl.id)       | Get the id of SizeControl.    |
 | [`SizeControl.name`](ansys.meshing.prime.SizeControl.name.md#ansys.meshing.prime.SizeControl.name) | Get the name of size control. |
 <!-- vale on -->

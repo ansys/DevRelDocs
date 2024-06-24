@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-contactpatchaxis-y"></a>
-
 # ansys.meshing.prime.ContactPatchAxis.Y
 
 <a id="ansys.meshing.prime.ContactPatchAxis.Y"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-meshstackerparams-stacking-defeature-tolerance"></a>
-
 # ansys.meshing.prime.MeshStackerParams.stacking_defeature_tolerance
 
 <a id="ansys.meshing.prime.MeshStackerParams.stacking_defeature_tolerance"></a>

@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="scaffoldersplitresults"></a>
-
 # ScaffolderSplitResults
 
 <a id="ansys.meshing.prime.ScaffolderSplitResults"></a>
@@ -33,13 +31,15 @@ Result structure associated to split topofaces operation.
 
 ### Methods
 
-| [`ScaffolderSplitResults.print_default`](ansys.meshing.prime.ScaffolderSplitResults.print_default.md#ansys.meshing.prime.ScaffolderSplitResults.print_default)()   | Print the default values of `ScaffolderSplitResults` object.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
+| [`ScaffolderSplitResults.print_default`](ansys.meshing.prime.ScaffolderSplitResults.print_default.md#ansys.meshing.prime.ScaffolderSplitResults.print_default)()   | Print the default values of `ScaffolderSplitResults` object.   |
 | [`ScaffolderSplitResults.set_default`](ansys.meshing.prime.ScaffolderSplitResults.set_default.md#ansys.meshing.prime.ScaffolderSplitResults.set_default)([...])    | Set the default values of the `ScaffolderSplitResults` object. |
 
 ### Attributes
 
-| [`ScaffolderSplitResults.error_code`](ansys.meshing.prime.ScaffolderSplitResults.error_code.md#ansys.meshing.prime.ScaffolderSplitResults.error_code)   | Error code associated with split topofaces operation.   |
+| Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| [`ScaffolderSplitResults.error_code`](ansys.meshing.prime.ScaffolderSplitResults.error_code.md#ansys.meshing.prime.ScaffolderSplitResults.error_code)   | Error code associated with split topofaces operation.   |
 | [`ScaffolderSplitResults.new_faces`](ansys.meshing.prime.ScaffolderSplitResults.new_faces.md#ansys.meshing.prime.ScaffolderSplitResults.new_faces)      | Topofaces created after split operation.                |
 <!-- vale on -->

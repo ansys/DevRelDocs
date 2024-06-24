@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-zeroelementsreadfromcdbfile"></a>
-
 # ansys.meshing.prime.ErrorCode.ZEROELEMENTSREADFROMCDBFILE
 
 <a id="ansys.meshing.prime.ErrorCode.ZEROELEMENTSREADFROMCDBFILE"></a>

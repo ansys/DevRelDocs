@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfacediagnosticsummaryparams-print-default"></a>
-
 # ansys.meshing.prime.SurfaceDiagnosticSummaryParams.print_default
 
 <a id="ansys.meshing.prime.SurfaceDiagnosticSummaryParams.print_default"></a>

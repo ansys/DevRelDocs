@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-notsupportedforpolymeshpart"></a>
-
 # ansys.meshing.prime.ErrorCode.NOTSUPPORTEDFORPOLYMESHPART
 
 <a id="ansys.meshing.prime.ErrorCode.NOTSUPPORTEDFORPOLYMESHPART"></a>

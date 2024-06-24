@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-boundingbox-set-default"></a>
-
 # ansys.meshing.prime.BoundingBox.set_default
 
 <a id="ansys.meshing.prime.BoundingBox.set_default"></a>

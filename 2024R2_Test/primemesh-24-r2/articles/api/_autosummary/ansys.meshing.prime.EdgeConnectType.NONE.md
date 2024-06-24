@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-edgeconnecttype-none"></a>
-
 # ansys.meshing.prime.EdgeConnectType.NONE
 
 <a id="ansys.meshing.prime.EdgeConnectType.NONE"></a>

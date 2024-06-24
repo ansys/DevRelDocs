@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-partsummaryresults-n-poly-faces"></a>
-
 # ansys.meshing.prime.PartSummaryResults.n_poly_faces
 
 <a id="ansys.meshing.prime.PartSummaryResults.n_poly_faces"></a>

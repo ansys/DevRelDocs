@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-createintersectionedgeloopsparams-set-default"></a>
-
 # ansys.meshing.prime.CreateIntersectionEdgeLoopsParams.set_default
 
 <a id="ansys.meshing.prime.CreateIntersectionEdgeLoopsParams.set_default"></a>

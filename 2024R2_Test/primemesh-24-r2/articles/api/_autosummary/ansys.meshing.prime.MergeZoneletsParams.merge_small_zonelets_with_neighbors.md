@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-mergezoneletsparams-merge-small-zonelets-with-neighbors"></a>
-
 # ansys.meshing.prime.MergeZoneletsParams.merge_small_zonelets_with_neighbors
 
 <a id="ansys.meshing.prime.MergeZoneletsParams.merge_small_zonelets_with_neighbors"></a>

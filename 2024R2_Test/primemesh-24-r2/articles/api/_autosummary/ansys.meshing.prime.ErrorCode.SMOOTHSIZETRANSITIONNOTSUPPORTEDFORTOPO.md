@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-smoothsizetransitionnotsupportedfortopo"></a>
-
 # ansys.meshing.prime.ErrorCode.SMOOTHSIZETRANSITIONNOTSUPPORTEDFORTOPO
 
 <a id="ansys.meshing.prime.ErrorCode.SMOOTHSIZETRANSITIONNOTSUPPORTEDFORTOPO"></a>

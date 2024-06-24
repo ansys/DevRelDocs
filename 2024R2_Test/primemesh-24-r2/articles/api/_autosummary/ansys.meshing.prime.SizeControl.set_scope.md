@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-sizecontrol-set-scope"></a>
-
 # ansys.meshing.prime.SizeControl.set_scope
 
 <a id="ansys.meshing.prime.SizeControl.set_scope"></a>

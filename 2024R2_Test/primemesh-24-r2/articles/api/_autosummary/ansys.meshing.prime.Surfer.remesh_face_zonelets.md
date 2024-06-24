@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfer-remesh-face-zonelets"></a>
-
 # ansys.meshing.prime.Surfer.remesh_face_zonelets
 
 <a id="ansys.meshing.prime.Surfer.remesh_face_zonelets"></a>

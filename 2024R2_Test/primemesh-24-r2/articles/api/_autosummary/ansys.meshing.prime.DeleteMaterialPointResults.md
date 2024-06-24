@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="deletematerialpointresults"></a>
-
 # DeleteMaterialPointResults
 
 <a id="ansys.meshing.prime.DeleteMaterialPointResults"></a>
@@ -30,12 +28,14 @@ Results associated with delete material point operation.
 
 ### Methods
 
-| [`DeleteMaterialPointResults.print_default`](ansys.meshing.prime.DeleteMaterialPointResults.print_default.md#ansys.meshing.prime.DeleteMaterialPointResults.print_default)()   | Print the default values of `DeleteMaterialPointResults` object.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
+| [`DeleteMaterialPointResults.print_default`](ansys.meshing.prime.DeleteMaterialPointResults.print_default.md#ansys.meshing.prime.DeleteMaterialPointResults.print_default)()   | Print the default values of `DeleteMaterialPointResults` object.   |
 | [`DeleteMaterialPointResults.set_default`](ansys.meshing.prime.DeleteMaterialPointResults.set_default.md#ansys.meshing.prime.DeleteMaterialPointResults.set_default)([...])    | Set the default values of the `DeleteMaterialPointResults` object. |
 
 ### Attributes
 
-| [`DeleteMaterialPointResults.error_code`](ansys.meshing.prime.DeleteMaterialPointResults.error_code.md#ansys.meshing.prime.DeleteMaterialPointResults.error_code)   | Error code associated with the failure of operation.   |
+| Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
+| [`DeleteMaterialPointResults.error_code`](ansys.meshing.prime.DeleteMaterialPointResults.error_code.md#ansys.meshing.prime.DeleteMaterialPointResults.error_code)   | Error code associated with the failure of operation.   |
 <!-- vale on -->

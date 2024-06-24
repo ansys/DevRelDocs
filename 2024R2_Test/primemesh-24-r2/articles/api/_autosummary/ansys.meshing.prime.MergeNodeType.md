@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="mergenodetype"></a>
-
 # MergeNodeType
 
 <a id="ansys.meshing.prime.MergeNodeType"></a>
@@ -14,7 +12,8 @@ Type of nodes to be merged.
 
 ### Attributes
 
-| [`MergeNodeType.ALLALL`](ansys.meshing.prime.MergeNodeType.ALLALL.md#ansys.meshing.prime.MergeNodeType.ALLALL)       | Merge any type of nodes with any type of nodes.   |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------|---------------------------------------------------|
+| [`MergeNodeType.ALLALL`](ansys.meshing.prime.MergeNodeType.ALLALL.md#ansys.meshing.prime.MergeNodeType.ALLALL)       | Merge any type of nodes with any type of nodes.   |
 | [`MergeNodeType.FREEFREE`](ansys.meshing.prime.MergeNodeType.FREEFREE.md#ansys.meshing.prime.MergeNodeType.FREEFREE) | Merge only free nodes with free nodes.            |
 <!-- vale on -->

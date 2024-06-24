@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-wrapperconnectfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.WRAPPERCONNECTFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.WRAPPERCONNECTFAILED"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-volumemeshtool-improve-by-auto-node-move"></a>
-
 # ansys.meshing.prime.VolumeMeshTool.improve_by_auto_node_move
 
 <a id="ansys.meshing.prime.VolumeMeshTool.improve_by_auto_node_move"></a>

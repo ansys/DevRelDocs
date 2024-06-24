@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-connectfacesparams-print-default"></a>
-
 # ansys.meshing.prime.ConnectFacesParams.print_default
 
 <a id="ansys.meshing.prime.ConnectFacesParams.print_default"></a>

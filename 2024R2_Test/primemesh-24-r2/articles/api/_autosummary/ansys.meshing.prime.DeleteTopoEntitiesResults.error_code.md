@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-deletetopoentitiesresults-error-code"></a>
-
 # ansys.meshing.prime.DeleteTopoEntitiesResults.error_code
 
 <a id="ansys.meshing.prime.DeleteTopoEntitiesResults.error_code"></a>

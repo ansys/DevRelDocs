@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-volumetricsizefieldcomputeparams-print-default"></a>
-
 # ansys.meshing.prime.VolumetricSizeFieldComputeParams.print_default
 
 <a id="ansys.meshing.prime.VolumetricSizeFieldComputeParams.print_default"></a>

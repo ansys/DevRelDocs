@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-transform-transform-zonelets"></a>
-
 # ansys.meshing.prime.Transform.transform_zonelets
 
 <a id="ansys.meshing.prime.Transform.transform_zonelets"></a>

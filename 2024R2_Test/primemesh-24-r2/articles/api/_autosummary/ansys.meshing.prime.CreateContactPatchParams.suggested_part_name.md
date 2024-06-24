@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-createcontactpatchparams-suggested-part-name"></a>
-
 # ansys.meshing.prime.CreateContactPatchParams.suggested_part_name
 
 <a id="ansys.meshing.prime.CreateContactPatchParams.suggested_part_name"></a>

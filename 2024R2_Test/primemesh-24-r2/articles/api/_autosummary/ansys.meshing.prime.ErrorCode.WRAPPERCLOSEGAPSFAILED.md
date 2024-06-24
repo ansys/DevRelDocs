@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-wrapperclosegapsfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.WRAPPERCLOSEGAPSFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.WRAPPERCLOSEGAPSFAILED"></a>

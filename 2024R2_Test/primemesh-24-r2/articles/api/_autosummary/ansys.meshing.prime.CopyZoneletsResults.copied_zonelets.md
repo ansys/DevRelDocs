@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-copyzoneletsresults-copied-zonelets"></a>
-
 # ansys.meshing.prime.CopyZoneletsResults.copied_zonelets
 
 <a id="ansys.meshing.prime.CopyZoneletsResults.copied_zonelets"></a>

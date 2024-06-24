@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-igaresults-error-code"></a>
-
 # ansys.meshing.prime.IGAResults.error_code
 
 <a id="ansys.meshing.prime.IGAResults.error_code"></a>

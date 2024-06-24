@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-repairtopologyparams-repair-edges-params"></a>
-
 # ansys.meshing.prime.RepairTopologyParams.repair_edges_params
 
 <a id="ansys.meshing.prime.RepairTopologyParams.repair_edges_params"></a>

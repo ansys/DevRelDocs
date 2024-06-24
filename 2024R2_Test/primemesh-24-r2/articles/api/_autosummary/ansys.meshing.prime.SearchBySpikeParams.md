@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="searchbyspikeparams"></a>
-
 # SearchBySpikeParams
 
 <a id="ansys.meshing.prime.SearchBySpikeParams"></a>
@@ -30,12 +28,14 @@ Parameters to control spike detection.
 
 ### Methods
 
-| [`SearchBySpikeParams.print_default`](ansys.meshing.prime.SearchBySpikeParams.print_default.md#ansys.meshing.prime.SearchBySpikeParams.print_default)()        | Print the default values of `SearchBySpikeParams` object.   |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
+| [`SearchBySpikeParams.print_default`](ansys.meshing.prime.SearchBySpikeParams.print_default.md#ansys.meshing.prime.SearchBySpikeParams.print_default)()        | Print the default values of `SearchBySpikeParams` object.   |
 | [`SearchBySpikeParams.set_default`](ansys.meshing.prime.SearchBySpikeParams.set_default.md#ansys.meshing.prime.SearchBySpikeParams.set_default)([spike_angle]) | Set the default values of the `SearchBySpikeParams` object. |
 
 ### Attributes
 
-| [`SearchBySpikeParams.spike_angle`](ansys.meshing.prime.SearchBySpikeParams.spike_angle.md#ansys.meshing.prime.SearchBySpikeParams.spike_angle)   | Threshold angle for spike detection.   |
+| Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
+| [`SearchBySpikeParams.spike_angle`](ansys.meshing.prime.SearchBySpikeParams.spike_angle.md#ansys.meshing.prime.SearchBySpikeParams.spike_angle)   | Threshold angle for spike detection.   |
 <!-- vale on -->

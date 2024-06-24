@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-leakpreventionparams-material-points"></a>
-
 # ansys.meshing.prime.LeakPreventionParams.material_points
 
 <a id="ansys.meshing.prime.LeakPreventionParams.material_points"></a>

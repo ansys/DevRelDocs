@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-outofmemory"></a>
-
 # ansys.meshing.prime.ErrorCode.OUTOFMEMORY
 
 <a id="ansys.meshing.prime.ErrorCode.OUTOFMEMORY"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-searchbyfoldsresults-n-found"></a>
-
 # ansys.meshing.prime.SearchByFoldsResults.n_found
 
 <a id="ansys.meshing.prime.SearchByFoldsResults.n_found"></a>

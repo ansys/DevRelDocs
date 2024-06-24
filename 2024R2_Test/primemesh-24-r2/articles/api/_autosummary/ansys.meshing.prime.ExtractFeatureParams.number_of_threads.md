@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-extractfeatureparams-number-of-threads"></a>
-
 # ansys.meshing.prime.ExtractFeatureParams.number_of_threads
 
 <a id="ansys.meshing.prime.ExtractFeatureParams.number_of_threads"></a>

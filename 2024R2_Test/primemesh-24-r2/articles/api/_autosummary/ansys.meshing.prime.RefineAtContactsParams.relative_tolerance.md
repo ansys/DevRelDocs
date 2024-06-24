@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-refineatcontactsparams-relative-tolerance"></a>
-
 # ansys.meshing.prime.RefineAtContactsParams.relative_tolerance
 
 <a id="ansys.meshing.prime.RefineAtContactsParams.relative_tolerance"></a>

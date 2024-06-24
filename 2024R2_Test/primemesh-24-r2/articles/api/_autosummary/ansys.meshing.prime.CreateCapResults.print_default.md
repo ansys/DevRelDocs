@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-createcapresults-print-default"></a>
-
 # ansys.meshing.prime.CreateCapResults.print_default
 
 <a id="ansys.meshing.prime.CreateCapResults.print_default"></a>

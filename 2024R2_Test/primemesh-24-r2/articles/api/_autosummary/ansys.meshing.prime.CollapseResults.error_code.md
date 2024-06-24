@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-collapseresults-error-code"></a>
-
 # ansys.meshing.prime.CollapseResults.error_code
 
 <a id="ansys.meshing.prime.CollapseResults.error_code"></a>

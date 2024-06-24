@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-stitchparams-enable-multi-threading"></a>
-
 # ansys.meshing.prime.StitchParams.enable_multi_threading
 
 <a id="ansys.meshing.prime.StitchParams.enable_multi_threading"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-hexcoretransitionlayertype-hangingnodes"></a>
-
 # ansys.meshing.prime.HexCoreTransitionLayerType.HANGINGNODES
 
 <a id="ansys.meshing.prime.HexCoreTransitionLayerType.HANGINGNODES"></a>

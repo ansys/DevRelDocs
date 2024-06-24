@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-iga-nocellzonelets"></a>
-
 # ansys.meshing.prime.ErrorCode.IGA_NOCELLZONELETS
 
 <a id="ansys.meshing.prime.ErrorCode.IGA_NOCELLZONELETS"></a>

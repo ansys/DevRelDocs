@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfacediagnosticsummaryresults-n-multi-edges"></a>
-
 # ansys.meshing.prime.SurfaceDiagnosticSummaryResults.n_multi_edges
 
 <a id="ansys.meshing.prime.SurfaceDiagnosticSummaryResults.n_multi_edges"></a>

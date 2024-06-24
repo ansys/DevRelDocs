@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-setcontactpreventionsresults-error-code"></a>
-
 # ansys.meshing.prime.SetContactPreventionsResults.error_code
 
 <a id="ansys.meshing.prime.SetContactPreventionsResults.error_code"></a>

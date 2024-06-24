@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapperimproveresult-set-default"></a>
-
 # ansys.meshing.prime.WrapperImproveResult.set_default
 
 <a id="ansys.meshing.prime.WrapperImproveResult.set_default"></a>

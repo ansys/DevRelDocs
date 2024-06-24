@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-removelabelresults-print-default"></a>
-
 # ansys.meshing.prime.RemoveLabelResults.print_default
 
 <a id="ansys.meshing.prime.RemoveLabelResults.print_default"></a>

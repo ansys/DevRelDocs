@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-bcpair-set-default"></a>
-
 # ansys.meshing.prime.BCPair.set_default
 
 <a id="ansys.meshing.prime.BCPair.set_default"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-wrapperprojectionfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.WRAPPERPROJECTIONFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.WRAPPERPROJECTIONFAILED"></a>

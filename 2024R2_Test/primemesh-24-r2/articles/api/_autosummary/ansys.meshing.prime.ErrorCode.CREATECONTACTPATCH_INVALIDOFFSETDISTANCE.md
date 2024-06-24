@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-createcontactpatch-invalidoffsetdistance"></a>
-
 # ansys.meshing.prime.ErrorCode.CREATECONTACTPATCH_INVALIDOFFSETDISTANCE
 
 <a id="ansys.meshing.prime.ErrorCode.CREATECONTACTPATCH_INVALIDOFFSETDISTANCE"></a>

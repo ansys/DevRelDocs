@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-client-run-on-server"></a>
-
 # ansys.meshing.prime.Client.run_on_server
 
 <a id="ansys.meshing.prime.Client.run_on_server"></a>

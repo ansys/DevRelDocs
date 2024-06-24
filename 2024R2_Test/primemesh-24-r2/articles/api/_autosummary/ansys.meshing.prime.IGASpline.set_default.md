@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-igaspline-set-default"></a>
-
 # ansys.meshing.prime.IGASpline.set_default
 
 <a id="ansys.meshing.prime.IGASpline.set_default"></a>

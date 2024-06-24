@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-edgeintersectingfacefound"></a>
-
 # ansys.meshing.prime.ErrorCode.EDGEINTERSECTINGFACEFOUND
 
 <a id="ansys.meshing.prime.ErrorCode.EDGEINTERSECTINGFACEFOUND"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-splitparams-split-ratio"></a>
-
 # ansys.meshing.prime.SplitParams.split_ratio
 
 <a id="ansys.meshing.prime.SplitParams.split_ratio"></a>

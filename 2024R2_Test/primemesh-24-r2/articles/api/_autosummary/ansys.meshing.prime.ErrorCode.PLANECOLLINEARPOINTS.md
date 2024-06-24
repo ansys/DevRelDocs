@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-planecollinearpoints"></a>
-
 # ansys.meshing.prime.ErrorCode.PLANECOLLINEARPOINTS
 
 <a id="ansys.meshing.prime.ErrorCode.PLANECOLLINEARPOINTS"></a>

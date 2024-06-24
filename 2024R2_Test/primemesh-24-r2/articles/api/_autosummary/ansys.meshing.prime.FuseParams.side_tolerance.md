@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fuseparams-side-tolerance"></a>
-
 # ansys.meshing.prime.FuseParams.side_tolerance
 
 <a id="ansys.meshing.prime.FuseParams.side_tolerance"></a>

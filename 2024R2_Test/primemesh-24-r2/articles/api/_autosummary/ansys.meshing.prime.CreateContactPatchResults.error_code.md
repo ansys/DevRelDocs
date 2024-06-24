@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-createcontactpatchresults-error-code"></a>
-
 # ansys.meshing.prime.CreateContactPatchResults.error_code
 
 <a id="ansys.meshing.prime.CreateContactPatchResults.error_code"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-exportmapdlcdbparams-consider-general-connectors-as-spot-weld"></a>
-
 # ansys.meshing.prime.ExportMapdlCdbParams.consider_general_connectors_as_spot_weld
 
 <a id="ansys.meshing.prime.ExportMapdlCdbParams.consider_general_connectors_as_spot_weld"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-matchpairtargettype-facezonelet"></a>
-
 # ansys.meshing.prime.MatchPairTargetType.FACEZONELET
 
 <a id="ansys.meshing.prime.MatchPairTargetType.FACEZONELET"></a>

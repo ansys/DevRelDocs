@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-hexcoreparams-surface-mesh-size-scaling"></a>
-
 # ansys.meshing.prime.HexCoreParams.surface_mesh_size_scaling
 
 <a id="ansys.meshing.prime.HexCoreParams.surface_mesh_size_scaling"></a>

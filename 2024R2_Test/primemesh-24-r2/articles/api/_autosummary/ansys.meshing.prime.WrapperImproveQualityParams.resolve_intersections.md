@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapperimprovequalityparams-resolve-intersections"></a>
-
 # ansys.meshing.prime.WrapperImproveQualityParams.resolve_intersections
 
 <a id="ansys.meshing.prime.WrapperImproveQualityParams.resolve_intersections"></a>

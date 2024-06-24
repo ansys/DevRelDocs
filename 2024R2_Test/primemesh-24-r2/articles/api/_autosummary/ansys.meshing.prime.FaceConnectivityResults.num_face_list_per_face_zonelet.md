@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-faceconnectivityresults-num-face-list-per-face-zonelet"></a>
-
 # ansys.meshing.prime.FaceConnectivityResults.num_face_list_per_face_zonelet
 
 <a id="ansys.meshing.prime.FaceConnectivityResults.num_face_list_per_face_zonelet"></a>

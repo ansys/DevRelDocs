@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-scaffolderbadinputparams"></a>
-
 # ansys.meshing.prime.ErrorCode.SCAFFOLDERBADINPUTPARAMS
 
 <a id="ansys.meshing.prime.ErrorCode.SCAFFOLDERBADINPUTPARAMS"></a>

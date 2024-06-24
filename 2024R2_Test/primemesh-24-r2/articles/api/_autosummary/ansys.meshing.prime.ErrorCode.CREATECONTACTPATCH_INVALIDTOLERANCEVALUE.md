@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-createcontactpatch-invalidtolerancevalue"></a>
-
 # ansys.meshing.prime.ErrorCode.CREATECONTACTPATCH_INVALIDTOLERANCEVALUE
 
 <a id="ansys.meshing.prime.ErrorCode.CREATECONTACTPATCH_INVALIDTOLERANCEVALUE"></a>

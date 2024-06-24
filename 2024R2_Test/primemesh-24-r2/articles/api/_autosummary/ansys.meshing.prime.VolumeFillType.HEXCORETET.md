@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-volumefilltype-hexcoretet"></a>
-
 # ansys.meshing.prime.VolumeFillType.HEXCORETET
 
 <a id="ansys.meshing.prime.VolumeFillType.HEXCORETET"></a>

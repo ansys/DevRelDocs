@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-sizefieldnotfound"></a>
-
 # ansys.meshing.prime.ErrorCode.SIZEFIELDNOTFOUND
 
 <a id="ansys.meshing.prime.ErrorCode.SIZEFIELDNOTFOUND"></a>

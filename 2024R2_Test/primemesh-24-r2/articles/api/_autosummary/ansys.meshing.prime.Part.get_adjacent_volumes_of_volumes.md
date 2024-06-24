@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-part-get-adjacent-volumes-of-volumes"></a>
-
 # ansys.meshing.prime.Part.get_adjacent_volumes_of_volumes
 
 <a id="ansys.meshing.prime.Part.get_adjacent_volumes_of_volumes"></a>

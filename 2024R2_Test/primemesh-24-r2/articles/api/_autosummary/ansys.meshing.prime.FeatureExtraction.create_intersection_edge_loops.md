@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-featureextraction-create-intersection-edge-loops"></a>
-
 # ansys.meshing.prime.FeatureExtraction.create_intersection_edge_loops
 
 <a id="ansys.meshing.prime.FeatureExtraction.create_intersection_edge_loops"></a>

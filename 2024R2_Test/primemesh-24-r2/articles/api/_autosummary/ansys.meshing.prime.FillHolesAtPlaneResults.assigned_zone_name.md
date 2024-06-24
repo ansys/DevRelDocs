@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fillholesatplaneresults-assigned-zone-name"></a>
-
 # ansys.meshing.prime.FillHolesAtPlaneResults.assigned_zone_name
 
 <a id="ansys.meshing.prime.FillHolesAtPlaneResults.assigned_zone_name"></a>

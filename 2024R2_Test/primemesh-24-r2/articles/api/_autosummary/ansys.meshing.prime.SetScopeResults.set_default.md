@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-setscoperesults-set-default"></a>
-
 # ansys.meshing.prime.SetScopeResults.set_default
 
 <a id="ansys.meshing.prime.SetScopeResults.set_default"></a>

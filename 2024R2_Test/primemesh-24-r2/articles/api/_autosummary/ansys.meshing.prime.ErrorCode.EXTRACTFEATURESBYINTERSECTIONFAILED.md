@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-extractfeaturesbyintersectionfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.EXTRACTFEATURESBYINTERSECTIONFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.EXTRACTFEATURESBYINTERSECTIONFAILED"></a>

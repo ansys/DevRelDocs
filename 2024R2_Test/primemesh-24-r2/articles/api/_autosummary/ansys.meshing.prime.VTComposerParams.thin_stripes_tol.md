@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-vtcomposerparams-thin-stripes-tol"></a>
-
 # ansys.meshing.prime.VTComposerParams.thin_stripes_tol
 
 <a id="ansys.meshing.prime.VTComposerParams.thin_stripes_tol"></a>

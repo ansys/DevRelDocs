@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-examples-download-block-model-fmd"></a>
-
 # ansys.meshing.prime.examples.download_block_model_fmd
 
 <a id="ansys.meshing.prime.examples.download_block_model_fmd"></a>

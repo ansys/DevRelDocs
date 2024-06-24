@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-checkfacedeviationresults-maximum-deviation"></a>
-
 # ansys.meshing.prime.CheckFaceDeviationResults.maximum_deviation
 
 <a id="ansys.meshing.prime.CheckFaceDeviationResults.maximum_deviation"></a>

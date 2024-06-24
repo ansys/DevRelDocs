@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-controldata-create-prism-control"></a>
-
 # ansys.meshing.prime.ControlData.create_prism_control
 
 <a id="ansys.meshing.prime.ControlData.create_prism_control"></a>

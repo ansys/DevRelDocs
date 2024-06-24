@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-quadraticmesh-writemeshfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.QUADRATICMESH_WRITEMESHFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.QUADRATICMESH_WRITEMESHFAILED"></a>

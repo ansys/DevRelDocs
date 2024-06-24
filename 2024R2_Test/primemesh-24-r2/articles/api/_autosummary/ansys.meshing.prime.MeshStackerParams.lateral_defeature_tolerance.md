@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-meshstackerparams-lateral-defeature-tolerance"></a>
-
 # ansys.meshing.prime.MeshStackerParams.lateral_defeature_tolerance
 
 <a id="ansys.meshing.prime.MeshStackerParams.lateral_defeature_tolerance"></a>

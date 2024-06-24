@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-lucid-surfacescope-get-face-zonelets"></a>
-
 # ansys.meshing.prime.lucid.SurfaceScope.get_face_zonelets
 
 <a id="ansys.meshing.prime.lucid.SurfaceScope.get_face_zonelets"></a>

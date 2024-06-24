@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-deleteinteriornodesparams-merge-edge-allow-self-close"></a>
-
 # ansys.meshing.prime.DeleteInteriorNodesParams.merge_edge_allow_self_close
 
 <a id="ansys.meshing.prime.DeleteInteriorNodesParams.merge_edge_allow_self_close"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-searchbyqualityparams-quality-limit"></a>
-
 # ansys.meshing.prime.SearchByQualityParams.quality_limit
 
 <a id="ansys.meshing.prime.SearchByQualityParams.quality_limit"></a>

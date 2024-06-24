@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-addthicknessresults-error-code"></a>
-
 # ansys.meshing.prime.AddThicknessResults.error_code
 
 <a id="ansys.meshing.prime.AddThicknessResults.error_code"></a>

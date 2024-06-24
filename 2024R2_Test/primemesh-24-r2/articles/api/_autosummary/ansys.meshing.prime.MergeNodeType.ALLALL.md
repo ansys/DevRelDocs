@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-mergenodetype-allall"></a>
-
 # ansys.meshing.prime.MergeNodeType.ALLALL
 
 <a id="ansys.meshing.prime.MergeNodeType.ALLALL"></a>

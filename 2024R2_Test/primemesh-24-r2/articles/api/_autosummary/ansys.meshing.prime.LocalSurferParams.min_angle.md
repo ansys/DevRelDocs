@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-localsurferparams-min-angle"></a>
-
 # ansys.meshing.prime.LocalSurferParams.min_angle
 
 <a id="ansys.meshing.prime.LocalSurferParams.min_angle"></a>

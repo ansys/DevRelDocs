@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-multizonemapmeshparams-set-default"></a>
-
 # ansys.meshing.prime.MultiZoneMapMeshParams.set_default
 
 <a id="ansys.meshing.prime.MultiZoneMapMeshParams.set_default"></a>

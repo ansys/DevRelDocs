@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-partsummaryresults-n-nodes"></a>
-
 # ansys.meshing.prime.PartSummaryResults.n_nodes
 
 <a id="ansys.meshing.prime.PartSummaryResults.n_nodes"></a>

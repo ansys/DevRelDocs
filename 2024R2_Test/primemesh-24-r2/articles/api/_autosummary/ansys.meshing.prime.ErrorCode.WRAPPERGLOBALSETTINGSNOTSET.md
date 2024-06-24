@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-wrapperglobalsettingsnotset"></a>
-
 # ansys.meshing.prime.ErrorCode.WRAPPERGLOBALSETTINGSNOTSET
 
 <a id="ansys.meshing.prime.ErrorCode.WRAPPERGLOBALSETTINGSNOTSET"></a>

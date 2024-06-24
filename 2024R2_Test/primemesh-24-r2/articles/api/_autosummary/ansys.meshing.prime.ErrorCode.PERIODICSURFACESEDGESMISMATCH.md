@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-periodicsurfacesedgesmismatch"></a>
-
 # ansys.meshing.prime.ErrorCode.PERIODICSURFACESEDGESMISMATCH
 
 <a id="ansys.meshing.prime.ErrorCode.PERIODICSURFACESEDGESMISMATCH"></a>

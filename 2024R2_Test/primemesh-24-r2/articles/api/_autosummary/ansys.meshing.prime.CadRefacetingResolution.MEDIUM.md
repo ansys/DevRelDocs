@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-cadrefacetingresolution-medium"></a>
-
 # ansys.meshing.prime.CadRefacetingResolution.MEDIUM
 
 <a id="ansys.meshing.prime.CadRefacetingResolution.MEDIUM"></a>

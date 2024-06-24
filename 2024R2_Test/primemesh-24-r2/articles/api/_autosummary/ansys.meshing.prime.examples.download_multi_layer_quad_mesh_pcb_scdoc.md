@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-examples-download-multi-layer-quad-mesh-pcb-scdoc"></a>
-
 # ansys.meshing.prime.examples.download_multi_layer_quad_mesh_pcb_scdoc
 
 <a id="ansys.meshing.prime.examples.download_multi_layer_quad_mesh_pcb_scdoc"></a>

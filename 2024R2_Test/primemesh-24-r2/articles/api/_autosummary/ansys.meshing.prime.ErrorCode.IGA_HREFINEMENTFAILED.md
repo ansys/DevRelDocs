@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-iga-hrefinementfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.IGA_HREFINEMENTFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.IGA_HREFINEMENTFAILED"></a>

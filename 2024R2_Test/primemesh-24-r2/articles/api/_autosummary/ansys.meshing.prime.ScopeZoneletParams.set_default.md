@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-scopezoneletparams-set-default"></a>
-
 # ansys.meshing.prime.ScopeZoneletParams.set_default
 
 <a id="ansys.meshing.prime.ScopeZoneletParams.set_default"></a>

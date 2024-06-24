@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-hexcoreparams-transition-layer-type"></a>
-
 # ansys.meshing.prime.HexCoreParams.transition_layer_type
 
 <a id="ansys.meshing.prime.HexCoreParams.transition_layer_type"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-igaunstructuredsplinesurf-id"></a>
-
 # ansys.meshing.prime.IGAUnstructuredSplineSurf.id
 
 <a id="ansys.meshing.prime.IGAUnstructuredSplineSurf.id"></a>

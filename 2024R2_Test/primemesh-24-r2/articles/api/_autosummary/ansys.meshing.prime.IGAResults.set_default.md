@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-igaresults-set-default"></a>
-
 # ansys.meshing.prime.IGAResults.set_default
 
 <a id="ansys.meshing.prime.IGAResults.set_default"></a>

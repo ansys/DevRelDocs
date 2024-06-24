@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-importabaqusresults-error-code"></a>
-
 # ansys.meshing.prime.ImportAbaqusResults.error_code
 
 <a id="ansys.meshing.prime.ImportAbaqusResults.error_code"></a>

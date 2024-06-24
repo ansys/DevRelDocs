@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-localsurferinvalidnumrings"></a>
-
 # ansys.meshing.prime.ErrorCode.LOCALSURFERINVALIDNUMRINGS
 
 <a id="ansys.meshing.prime.ErrorCode.LOCALSURFERINVALIDNUMRINGS"></a>

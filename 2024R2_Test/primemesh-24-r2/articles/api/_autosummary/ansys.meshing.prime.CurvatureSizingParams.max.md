@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-curvaturesizingparams-max"></a>
-
 # ansys.meshing.prime.CurvatureSizingParams.max
 
 <a id="ansys.meshing.prime.CurvatureSizingParams.max"></a>

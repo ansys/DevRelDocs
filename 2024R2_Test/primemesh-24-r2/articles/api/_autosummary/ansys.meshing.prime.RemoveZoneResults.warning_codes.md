@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-removezoneresults-warning-codes"></a>
-
 # ansys.meshing.prime.RemoveZoneResults.warning_codes
 
 <a id="ansys.meshing.prime.RemoveZoneResults.warning_codes"></a>

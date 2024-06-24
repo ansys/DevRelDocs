@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="exportlsdynaresults"></a>
-
 # ExportLSDynaResults
 
 <a id="ansys.meshing.prime.ExportLSDynaResults"></a>
@@ -42,14 +40,16 @@ Results associated with the LS-DYNA export.
 
 ### Methods
 
-| [`ExportLSDynaResults.print_default`](ansys.meshing.prime.ExportLSDynaResults.print_default.md#ansys.meshing.prime.ExportLSDynaResults.print_default)()   | Print the default values of `ExportLSDynaResults` object.   |
+| Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
+| [`ExportLSDynaResults.print_default`](ansys.meshing.prime.ExportLSDynaResults.print_default.md#ansys.meshing.prime.ExportLSDynaResults.print_default)()   | Print the default values of `ExportLSDynaResults` object.   |
 | [`ExportLSDynaResults.set_default`](ansys.meshing.prime.ExportLSDynaResults.set_default.md#ansys.meshing.prime.ExportLSDynaResults.set_default)([...])    | Set the default values of the `ExportLSDynaResults` object. |
 
 ### Attributes
 
-| [`ExportLSDynaResults.error_code`](ansys.meshing.prime.ExportLSDynaResults.error_code.md#ansys.meshing.prime.ExportLSDynaResults.error_code)          | Error code associated with failure of operation.     |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
+| [`ExportLSDynaResults.error_code`](ansys.meshing.prime.ExportLSDynaResults.error_code.md#ansys.meshing.prime.ExportLSDynaResults.error_code)          | Error code associated with failure of operation.     |
 | [`ExportLSDynaResults.summary_log`](ansys.meshing.prime.ExportLSDynaResults.summary_log.md#ansys.meshing.prime.ExportLSDynaResults.summary_log)       | Summary log for the import operation in json format. |
 | [`ExportLSDynaResults.warning_codes`](ansys.meshing.prime.ExportLSDynaResults.warning_codes.md#ansys.meshing.prime.ExportLSDynaResults.warning_codes) | Warning codes associated with the operation.         |
 <!-- vale on -->

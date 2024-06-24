@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-defeaturetopologyparams-aggressive-edge-merge"></a>
-
 # ansys.meshing.prime.DefeatureTopologyParams.aggressive_edge_merge
 
 <a id="ansys.meshing.prime.DefeatureTopologyParams.aggressive_edge_merge"></a>

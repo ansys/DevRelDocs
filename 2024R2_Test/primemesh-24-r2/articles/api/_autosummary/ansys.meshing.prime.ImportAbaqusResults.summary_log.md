@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-importabaqusresults-summary-log"></a>
-
 # ansys.meshing.prime.ImportAbaqusResults.summary_log
 
 <a id="ansys.meshing.prime.ImportAbaqusResults.summary_log"></a>

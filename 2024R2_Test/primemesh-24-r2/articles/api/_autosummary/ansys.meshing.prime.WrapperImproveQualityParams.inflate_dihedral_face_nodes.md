@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapperimprovequalityparams-inflate-dihedral-face-nodes"></a>
-
 # ansys.meshing.prime.WrapperImproveQualityParams.inflate_dihedral_face_nodes
 
 <a id="ansys.meshing.prime.WrapperImproveQualityParams.inflate_dihedral_face_nodes"></a>

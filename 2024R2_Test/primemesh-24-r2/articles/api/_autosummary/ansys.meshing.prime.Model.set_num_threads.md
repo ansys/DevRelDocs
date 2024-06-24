@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-model-set-num-threads"></a>
-
 # ansys.meshing.prime.Model.set_num_threads
 
 <a id="ansys.meshing.prime.Model.set_num_threads"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-proximitysizingparams-ignore-orientation"></a>
-
 # ansys.meshing.prime.ProximitySizingParams.ignore_orientation
 
 <a id="ansys.meshing.prime.ProximitySizingParams.ignore_orientation"></a>

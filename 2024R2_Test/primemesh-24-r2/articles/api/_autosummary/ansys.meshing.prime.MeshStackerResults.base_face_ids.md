@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-meshstackerresults-base-face-ids"></a>
-
 # ansys.meshing.prime.MeshStackerResults.base_face_ids
 
 <a id="ansys.meshing.prime.MeshStackerResults.base_face_ids"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-sizecontrol-set-suggested-name"></a>
-
 # ansys.meshing.prime.SizeControl.set_suggested_name
 
 <a id="ansys.meshing.prime.SizeControl.set_suggested_name"></a>

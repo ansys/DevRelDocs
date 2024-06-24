@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-scaffoldersplitresults-new-faces"></a>
-
 # ansys.meshing.prime.ScaffolderSplitResults.new_faces
 
 <a id="ansys.meshing.prime.ScaffolderSplitResults.new_faces"></a>

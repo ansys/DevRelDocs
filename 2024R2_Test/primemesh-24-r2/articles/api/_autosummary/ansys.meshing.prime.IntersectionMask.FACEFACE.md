@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-intersectionmask-faceface"></a>
-
 # ansys.meshing.prime.IntersectionMask.FACEFACE
 
 <a id="ansys.meshing.prime.IntersectionMask.FACEFACE"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-importfluentmeshingmeshresults-set-default"></a>
-
 # ansys.meshing.prime.ImportFluentMeshingMeshResults.set_default
 
 <a id="ansys.meshing.prime.ImportFluentMeshingMeshResults.set_default"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-smoothdihedralfacenodesresults-n-nodes-smoothed"></a>
-
 # ansys.meshing.prime.SmoothDihedralFaceNodesResults.n_nodes_smoothed
 
 <a id="ansys.meshing.prime.SmoothDihedralFaceNodesResults.n_nodes_smoothed"></a>

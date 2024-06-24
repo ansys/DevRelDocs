@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-surfercannotremeshperiodiczonelets"></a>
-
 # ansys.meshing.prime.ErrorCode.SURFERCANNOTREMESHPERIODICZONELETS
 
 <a id="ansys.meshing.prime.ErrorCode.SURFERCANNOTREMESHPERIODICZONELETS"></a>

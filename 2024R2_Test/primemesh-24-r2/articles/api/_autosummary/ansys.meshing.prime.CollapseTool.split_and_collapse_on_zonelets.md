@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-collapsetool-split-and-collapse-on-zonelets"></a>
-
 # ansys.meshing.prime.CollapseTool.split_and_collapse_on_zonelets
 
 <a id="ansys.meshing.prime.CollapseTool.split_and_collapse_on_zonelets"></a>

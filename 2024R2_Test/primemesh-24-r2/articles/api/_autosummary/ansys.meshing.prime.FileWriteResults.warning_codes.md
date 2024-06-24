@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-filewriteresults-warning-codes"></a>
-
 # ansys.meshing.prime.FileWriteResults.warning_codes
 
 <a id="ansys.meshing.prime.FileWriteResults.warning_codes"></a>

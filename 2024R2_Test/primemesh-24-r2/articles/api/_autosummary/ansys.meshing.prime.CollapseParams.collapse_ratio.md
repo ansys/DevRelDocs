@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-collapseparams-collapse-ratio"></a>
-
 # ansys.meshing.prime.CollapseParams.collapse_ratio
 
 <a id="ansys.meshing.prime.CollapseParams.collapse_ratio"></a>

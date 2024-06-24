@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-transformresults-error-code"></a>
-
 # ansys.meshing.prime.TransformResults.error_code
 
 <a id="ansys.meshing.prime.TransformResults.error_code"></a>

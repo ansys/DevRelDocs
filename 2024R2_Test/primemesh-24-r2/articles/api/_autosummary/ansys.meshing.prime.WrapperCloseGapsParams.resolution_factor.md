@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapperclosegapsparams-resolution-factor"></a>
-
 # ansys.meshing.prime.WrapperCloseGapsParams.resolution_factor
 
 <a id="ansys.meshing.prime.WrapperCloseGapsParams.resolution_factor"></a>

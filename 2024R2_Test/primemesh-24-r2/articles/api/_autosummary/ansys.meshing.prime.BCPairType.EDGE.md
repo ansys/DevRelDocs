@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-bcpairtype-edge"></a>
-
 # ansys.meshing.prime.BCPairType.EDGE
 
 <a id="ansys.meshing.prime.BCPairType.EDGE"></a>

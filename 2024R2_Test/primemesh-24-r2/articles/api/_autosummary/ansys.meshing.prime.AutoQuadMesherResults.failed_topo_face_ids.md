@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-autoquadmesherresults-failed-topo-face-ids"></a>
-
 # ansys.meshing.prime.AutoQuadMesherResults.failed_topo_face_ids
 
 <a id="ansys.meshing.prime.AutoQuadMesherResults.failed_topo_face_ids"></a>

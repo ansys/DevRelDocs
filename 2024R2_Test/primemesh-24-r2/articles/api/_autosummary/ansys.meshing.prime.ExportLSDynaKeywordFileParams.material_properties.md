@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-exportlsdynakeywordfileparams-material-properties"></a>
-
 # ansys.meshing.prime.ExportLSDynaKeywordFileParams.material_properties
 
 <a id="ansys.meshing.prime.ExportLSDynaKeywordFileParams.material_properties"></a>

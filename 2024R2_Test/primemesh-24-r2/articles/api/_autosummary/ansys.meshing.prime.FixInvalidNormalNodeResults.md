@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="fixinvalidnormalnoderesults"></a>
-
 # FixInvalidNormalNodeResults
 
 <a id="ansys.meshing.prime.FixInvalidNormalNodeResults"></a>
@@ -30,12 +28,14 @@ Results associated with fix invalid average face normal at nodes.
 
 ### Methods
 
-| [`FixInvalidNormalNodeResults.print_default`](ansys.meshing.prime.FixInvalidNormalNodeResults.print_default.md#ansys.meshing.prime.FixInvalidNormalNodeResults.print_default)()   | Print the default values of `FixInvalidNormalNodeResults` object.   |
+| Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
+| [`FixInvalidNormalNodeResults.print_default`](ansys.meshing.prime.FixInvalidNormalNodeResults.print_default.md#ansys.meshing.prime.FixInvalidNormalNodeResults.print_default)()   | Print the default values of `FixInvalidNormalNodeResults` object.   |
 | [`FixInvalidNormalNodeResults.set_default`](ansys.meshing.prime.FixInvalidNormalNodeResults.set_default.md#ansys.meshing.prime.FixInvalidNormalNodeResults.set_default)([...])    | Set the default values of the `FixInvalidNormalNodeResults` object. |
 
 ### Attributes
 
-| [`FixInvalidNormalNodeResults.error_code`](ansys.meshing.prime.FixInvalidNormalNodeResults.error_code.md#ansys.meshing.prime.FixInvalidNormalNodeResults.error_code)   | Error code associated with failure of operation.   |
+| Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
+| [`FixInvalidNormalNodeResults.error_code`](ansys.meshing.prime.FixInvalidNormalNodeResults.error_code.md#ansys.meshing.prime.FixInvalidNormalNodeResults.error_code)   | Error code associated with failure of operation.   |
 <!-- vale on -->

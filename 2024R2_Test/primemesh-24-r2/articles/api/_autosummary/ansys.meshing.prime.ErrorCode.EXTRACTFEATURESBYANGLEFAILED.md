@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-extractfeaturesbyanglefailed"></a>
-
 # ansys.meshing.prime.ErrorCode.EXTRACTFEATURESBYANGLEFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.EXTRACTFEATURESBYANGLEFAILED"></a>

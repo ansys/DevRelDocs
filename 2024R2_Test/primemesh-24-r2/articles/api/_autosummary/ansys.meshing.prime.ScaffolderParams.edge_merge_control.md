@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-scaffolderparams-edge-merge-control"></a>
-
 # ansys.meshing.prime.ScaffolderParams.edge_merge_control
 
 <a id="ansys.meshing.prime.ScaffolderParams.edge_merge_control"></a>

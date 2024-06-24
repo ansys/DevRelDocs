@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfer-initialize-surfer-params-for-wrapper"></a>
-
 # ansys.meshing.prime.Surfer.initialize_surfer_params_for_wrapper
 
 <a id="ansys.meshing.prime.Surfer.initialize_surfer_params_for_wrapper"></a>

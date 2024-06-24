@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-checktopologyparams-topo-search-field-mask"></a>
-
 # ansys.meshing.prime.CheckTopologyParams.topo_search_field_mask
 
 <a id="ansys.meshing.prime.CheckTopologyParams.topo_search_field_mask"></a>

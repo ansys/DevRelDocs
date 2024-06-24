@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-proximitysizingparams-elements-per-gap"></a>
-
 # ansys.meshing.prime.ProximitySizingParams.elements_per_gap
 
 <a id="ansys.meshing.prime.ProximitySizingParams.elements_per_gap"></a>

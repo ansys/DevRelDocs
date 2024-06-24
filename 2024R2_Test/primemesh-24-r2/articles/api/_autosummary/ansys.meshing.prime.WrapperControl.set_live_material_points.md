@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrappercontrol-set-live-material-points"></a>
-
 # ansys.meshing.prime.WrapperControl.set_live_material_points
 
 <a id="ansys.meshing.prime.WrapperControl.set_live_material_points"></a>

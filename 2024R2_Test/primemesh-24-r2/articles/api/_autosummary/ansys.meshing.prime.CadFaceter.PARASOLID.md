@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-cadfaceter-parasolid"></a>
-
 # ansys.meshing.prime.CadFaceter.PARASOLID
 
 <a id="ansys.meshing.prime.CadFaceter.PARASOLID"></a>

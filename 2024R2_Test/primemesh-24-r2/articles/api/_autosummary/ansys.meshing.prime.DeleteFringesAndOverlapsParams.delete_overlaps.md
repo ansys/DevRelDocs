@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-deletefringesandoverlapsparams-delete-overlaps"></a>
-
 # ansys.meshing.prime.DeleteFringesAndOverlapsParams.delete_overlaps
 
 <a id="ansys.meshing.prime.DeleteFringesAndOverlapsParams.delete_overlaps"></a>

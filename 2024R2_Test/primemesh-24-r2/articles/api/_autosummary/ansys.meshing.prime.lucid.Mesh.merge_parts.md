@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-lucid-mesh-merge-parts"></a>
-
 # ansys.meshing.prime.lucid.Mesh.merge_parts
 
 <a id="ansys.meshing.prime.lucid.Mesh.merge_parts"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-scaffolder-delete-shadowed-topo-faces"></a>
-
 # ansys.meshing.prime.Scaffolder.delete_shadowed_topo_faces
 
 <a id="ansys.meshing.prime.Scaffolder.delete_shadowed_topo_faces"></a>

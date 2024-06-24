@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-examples-download-multi-layer-quad-mesh-pcb-pmdat"></a>
-
 # ansys.meshing.prime.examples.download_multi_layer_quad_mesh_pcb_pmdat
 
 <a id="ansys.meshing.prime.examples.download_multi_layer_quad_mesh_pcb_pmdat"></a>

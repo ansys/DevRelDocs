@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapregion-materialpoint"></a>
-
 # ansys.meshing.prime.WrapRegion.MATERIALPOINT
 
 <a id="ansys.meshing.prime.WrapRegion.MATERIALPOINT"></a>

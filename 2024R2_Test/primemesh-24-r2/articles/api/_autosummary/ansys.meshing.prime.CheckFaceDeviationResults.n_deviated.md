@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-checkfacedeviationresults-n-deviated"></a>
-
 # ansys.meshing.prime.CheckFaceDeviationResults.n_deviated
 
 <a id="ansys.meshing.prime.CheckFaceDeviationResults.n_deviated"></a>

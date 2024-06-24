@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-scopeevaluationtype-zones"></a>
-
 # ansys.meshing.prime.ScopeEvaluationType.ZONES
 
 <a id="ansys.meshing.prime.ScopeEvaluationType.ZONES"></a>

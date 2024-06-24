@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-topoutilities-fill-hole"></a>
-
 # ansys.meshing.prime.TopoUtilities.fill_hole
 
 <a id="ansys.meshing.prime.TopoUtilities.fill_hole"></a>

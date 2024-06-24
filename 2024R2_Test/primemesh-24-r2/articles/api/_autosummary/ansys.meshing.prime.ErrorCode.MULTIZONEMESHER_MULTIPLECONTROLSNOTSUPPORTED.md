@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-multizonemesher-multiplecontrolsnotsupported"></a>
-
 # ansys.meshing.prime.ErrorCode.MULTIZONEMESHER_MULTIPLECONTROLSNOTSUPPORTED
 
 <a id="ansys.meshing.prime.ErrorCode.MULTIZONEMESHER_MULTIPLECONTROLSNOTSUPPORTED"></a>

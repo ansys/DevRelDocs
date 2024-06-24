@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-computevolumesparams-material-point-names"></a>
-
 # ansys.meshing.prime.ComputeVolumesParams.material_point_names
 
 <a id="ansys.meshing.prime.ComputeVolumesParams.material_point_names"></a>

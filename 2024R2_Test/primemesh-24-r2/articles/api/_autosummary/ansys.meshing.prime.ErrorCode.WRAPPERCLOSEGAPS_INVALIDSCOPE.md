@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-wrapperclosegaps-invalidscope"></a>
-
 # ansys.meshing.prime.ErrorCode.WRAPPERCLOSEGAPS_INVALIDSCOPE
 
 <a id="ansys.meshing.prime.ErrorCode.WRAPPERCLOSEGAPS_INVALIDSCOPE"></a>

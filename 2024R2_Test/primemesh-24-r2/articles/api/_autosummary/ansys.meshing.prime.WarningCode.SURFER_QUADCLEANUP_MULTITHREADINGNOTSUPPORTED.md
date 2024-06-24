@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-warningcode-surfer-quadcleanup-multithreadingnotsupported"></a>
-
 # ansys.meshing.prime.WarningCode.SURFER_QUADCLEANUP_MULTITHREADINGNOTSUPPORTED
 
 <a id="ansys.meshing.prime.WarningCode.SURFER_QUADCLEANUP_MULTITHREADINGNOTSUPPORTED"></a>

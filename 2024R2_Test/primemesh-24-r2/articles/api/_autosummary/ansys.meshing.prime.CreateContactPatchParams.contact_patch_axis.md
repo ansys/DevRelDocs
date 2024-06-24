@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-createcontactpatchparams-contact-patch-axis"></a>
-
 # ansys.meshing.prime.CreateContactPatchParams.contact_patch_axis
 
 <a id="ansys.meshing.prime.CreateContactPatchParams.contact_patch_axis"></a>

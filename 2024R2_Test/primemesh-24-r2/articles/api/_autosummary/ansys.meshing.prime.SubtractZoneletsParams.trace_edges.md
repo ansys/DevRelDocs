@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-subtractzoneletsparams-trace-edges"></a>
-
 # ansys.meshing.prime.SubtractZoneletsParams.trace_edges
 
 <a id="ansys.meshing.prime.SubtractZoneletsParams.trace_edges"></a>

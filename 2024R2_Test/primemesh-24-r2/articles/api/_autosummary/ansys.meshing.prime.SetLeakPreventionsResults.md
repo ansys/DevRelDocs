@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="setleakpreventionsresults"></a>
-
 # SetLeakPreventionsResults
 
 <a id="ansys.meshing.prime.SetLeakPreventionsResults"></a>
@@ -33,13 +31,15 @@ Results associated with set leak preventions.
 
 ### Methods
 
-| [`SetLeakPreventionsResults.print_default`](ansys.meshing.prime.SetLeakPreventionsResults.print_default.md#ansys.meshing.prime.SetLeakPreventionsResults.print_default)()   | Print the default values of `SetLeakPreventionsResults` object.   |
+| Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| [`SetLeakPreventionsResults.print_default`](ansys.meshing.prime.SetLeakPreventionsResults.print_default.md#ansys.meshing.prime.SetLeakPreventionsResults.print_default)()   | Print the default values of `SetLeakPreventionsResults` object.   |
 | [`SetLeakPreventionsResults.set_default`](ansys.meshing.prime.SetLeakPreventionsResults.set_default.md#ansys.meshing.prime.SetLeakPreventionsResults.set_default)([...])    | Set the default values of the `SetLeakPreventionsResults` object. |
 
 ### Attributes
 
-| [`SetLeakPreventionsResults.error_code`](ansys.meshing.prime.SetLeakPreventionsResults.error_code.md#ansys.meshing.prime.SetLeakPreventionsResults.error_code)   | Error code associated with the set leak preventions.   |
+| Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
+| [`SetLeakPreventionsResults.error_code`](ansys.meshing.prime.SetLeakPreventionsResults.error_code.md#ansys.meshing.prime.SetLeakPreventionsResults.error_code)   | Error code associated with the set leak preventions.   |
 | [`SetLeakPreventionsResults.ids`](ansys.meshing.prime.SetLeakPreventionsResults.ids.md#ansys.meshing.prime.SetLeakPreventionsResults.ids)                        | Ids of added leak prevention controls.                 |
 <!-- vale on -->

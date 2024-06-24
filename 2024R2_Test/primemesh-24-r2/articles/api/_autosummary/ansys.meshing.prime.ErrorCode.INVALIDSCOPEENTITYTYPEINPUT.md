@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-invalidscopeentitytypeinput"></a>
-
 # ansys.meshing.prime.ErrorCode.INVALIDSCOPEENTITYTYPEINPUT
 
 <a id="ansys.meshing.prime.ErrorCode.INVALIDSCOPEENTITYTYPEINPUT"></a>

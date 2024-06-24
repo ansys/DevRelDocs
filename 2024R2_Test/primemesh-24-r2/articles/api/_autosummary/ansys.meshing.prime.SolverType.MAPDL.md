@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-solvertype-mapdl"></a>
-
 # ansys.meshing.prime.SolverType.MAPDL
 
 <a id="ansys.meshing.prime.SolverType.MAPDL"></a>

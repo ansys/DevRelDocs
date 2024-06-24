@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-scaffoldermergeresults-error-code"></a>
-
 # ansys.meshing.prime.ScaffolderMergeResults.error_code
 
 <a id="ansys.meshing.prime.ScaffolderMergeResults.error_code"></a>

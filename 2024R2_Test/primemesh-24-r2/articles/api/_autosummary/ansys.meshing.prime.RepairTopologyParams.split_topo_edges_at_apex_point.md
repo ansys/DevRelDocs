@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-repairtopologyparams-split-topo-edges-at-apex-point"></a>
-
 # ansys.meshing.prime.RepairTopologyParams.split_topo_edges_at_apex_point
 
 <a id="ansys.meshing.prime.RepairTopologyParams.split_topo_edges_at_apex_point"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-autonodemoveparams-restrict-boundary-nodes-along-surface"></a>
-
 # ansys.meshing.prime.AutoNodeMoveParams.restrict_boundary_nodes_along_surface
 
 <a id="ansys.meshing.prime.AutoNodeMoveParams.restrict_boundary_nodes_along_surface"></a>

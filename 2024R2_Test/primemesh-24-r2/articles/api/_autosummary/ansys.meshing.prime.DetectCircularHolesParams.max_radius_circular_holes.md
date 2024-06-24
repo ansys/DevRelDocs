@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-detectcircularholesparams-max-radius-circular-holes"></a>
-
 # ansys.meshing.prime.DetectCircularHolesParams.max_radius_circular_holes
 
 <a id="ansys.meshing.prime.DetectCircularHolesParams.max_radius_circular_holes"></a>

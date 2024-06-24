@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-exportlsdynaigakeywordfileparams-set-default"></a>
-
 # ansys.meshing.prime.ExportLSDynaIgaKeywordFileParams.set_default
 
 <a id="ansys.meshing.prime.ExportLSDynaIgaKeywordFileParams.set_default"></a>

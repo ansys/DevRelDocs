@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-detectandtreatholesparams-hole-proximity-tolerance"></a>
-
 # ansys.meshing.prime.DetectAndTreatHolesParams.hole_proximity_tolerance
 
 <a id="ansys.meshing.prime.DetectAndTreatHolesParams.hole_proximity_tolerance"></a>

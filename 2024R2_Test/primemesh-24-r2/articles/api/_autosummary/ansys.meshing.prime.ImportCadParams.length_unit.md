@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-importcadparams-length-unit"></a>
-
 # ansys.meshing.prime.ImportCadParams.length_unit
 
 <a id="ansys.meshing.prime.ImportCadParams.length_unit"></a>

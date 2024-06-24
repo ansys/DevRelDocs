@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-lucid-mesh-connect-faces"></a>
-
 # ansys.meshing.prime.lucid.Mesh.connect_faces
 
 <a id="ansys.meshing.prime.lucid.Mesh.connect_faces"></a>

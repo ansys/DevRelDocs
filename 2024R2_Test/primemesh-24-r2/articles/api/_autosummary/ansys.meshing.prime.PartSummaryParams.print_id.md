@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-partsummaryparams-print-id"></a>
-
 # ansys.meshing.prime.PartSummaryParams.print_id
 
 <a id="ansys.meshing.prime.PartSummaryParams.print_id"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-hexcorecellelementtype-hexandpoly"></a>
-
 # ansys.meshing.prime.HexCoreCellElementType.HEXANDPOLY
 
 <a id="ansys.meshing.prime.HexCoreCellElementType.HEXANDPOLY"></a>

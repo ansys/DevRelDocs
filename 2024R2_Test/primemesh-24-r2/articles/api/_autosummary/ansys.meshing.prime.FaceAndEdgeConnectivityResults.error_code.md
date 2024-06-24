@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-faceandedgeconnectivityresults-error-code"></a>
-
 # ansys.meshing.prime.FaceAndEdgeConnectivityResults.error_code
 
 <a id="ansys.meshing.prime.FaceAndEdgeConnectivityResults.error_code"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-part-remove-zone-on-zonelets"></a>
-
 # ansys.meshing.prime.Part.remove_zone_on_zonelets
 
 <a id="ansys.meshing.prime.Part.remove_zone_on_zonelets"></a>

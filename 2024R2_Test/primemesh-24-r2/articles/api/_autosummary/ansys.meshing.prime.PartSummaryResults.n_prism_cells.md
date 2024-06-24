@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-partsummaryresults-n-prism-cells"></a>
-
 # ansys.meshing.prime.PartSummaryResults.n_prism_cells
 
 <a id="ansys.meshing.prime.PartSummaryResults.n_prism_cells"></a>

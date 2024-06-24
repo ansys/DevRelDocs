@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-zonesarenotsupportedforcellzonelets"></a>
-
 # ansys.meshing.prime.ErrorCode.ZONESARENOTSUPPORTEDFORCELLZONELETS
 
 <a id="ansys.meshing.prime.ErrorCode.ZONESARENOTSUPPORTEDFORCELLZONELETS"></a>

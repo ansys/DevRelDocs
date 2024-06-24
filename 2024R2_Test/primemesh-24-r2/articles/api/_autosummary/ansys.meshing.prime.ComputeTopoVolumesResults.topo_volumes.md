@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-computetopovolumesresults-topo-volumes"></a>
-
 # ansys.meshing.prime.ComputeTopoVolumesResults.topo_volumes
 
 <a id="ansys.meshing.prime.ComputeTopoVolumesResults.topo_volumes"></a>

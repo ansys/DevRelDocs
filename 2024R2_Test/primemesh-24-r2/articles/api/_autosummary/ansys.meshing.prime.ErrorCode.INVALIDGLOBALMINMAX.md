@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-invalidglobalminmax"></a>
-
 # ansys.meshing.prime.ErrorCode.INVALIDGLOBALMINMAX
 
 <a id="ansys.meshing.prime.ErrorCode.INVALIDGLOBALMINMAX"></a>

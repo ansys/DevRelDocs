@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-hexcoreparams-buffer-layers"></a>
-
 # ansys.meshing.prime.HexCoreParams.buffer_layers
 
 <a id="ansys.meshing.prime.HexCoreParams.buffer_layers"></a>

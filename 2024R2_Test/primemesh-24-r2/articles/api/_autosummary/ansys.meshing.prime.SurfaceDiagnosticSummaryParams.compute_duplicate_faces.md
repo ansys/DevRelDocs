@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfacediagnosticsummaryparams-compute-duplicate-faces"></a>
-
 # ansys.meshing.prime.SurfaceDiagnosticSummaryParams.compute_duplicate_faces
 
 <a id="ansys.meshing.prime.SurfaceDiagnosticSummaryParams.compute_duplicate_faces"></a>

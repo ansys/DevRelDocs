@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-invalidinputvolumes"></a>
-
 # ansys.meshing.prime.ErrorCode.INVALIDINPUTVOLUMES
 
 <a id="ansys.meshing.prime.ErrorCode.INVALIDINPUTVOLUMES"></a>

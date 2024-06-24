@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="labeltozonemethod"></a>
-
 # LabelToZoneMethod
 
 <a id="ansys.meshing.prime.lucid.LabelToZoneMethod"></a>
@@ -14,6 +12,7 @@ Provides for creating zones from labels.
 
 ### Attributes
 
-| [`LabelToZoneMethod.SIMPLE`](ansys.meshing.prime.lucid.LabelToZoneMethod.SIMPLE.md#ansys.meshing.prime.lucid.LabelToZoneMethod.SIMPLE)   | Simple method for creating zones from labels.   |
+| Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
+| [`LabelToZoneMethod.SIMPLE`](ansys.meshing.prime.lucid.LabelToZoneMethod.SIMPLE.md#ansys.meshing.prime.lucid.LabelToZoneMethod.SIMPLE)   | Simple method for creating zones from labels.   |
 <!-- vale on -->

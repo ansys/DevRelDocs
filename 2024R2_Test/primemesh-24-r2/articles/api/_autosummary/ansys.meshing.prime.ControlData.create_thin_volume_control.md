@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-controldata-create-thin-volume-control"></a>
-
 # ansys.meshing.prime.ControlData.create_thin_volume_control
 
 <a id="ansys.meshing.prime.ControlData.create_thin_volume_control"></a>

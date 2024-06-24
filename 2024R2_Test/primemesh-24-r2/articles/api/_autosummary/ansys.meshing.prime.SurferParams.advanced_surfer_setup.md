@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surferparams-advanced-surfer-setup"></a>
-
 # ansys.meshing.prime.SurferParams.advanced_surfer_setup
 
 <a id="ansys.meshing.prime.SurferParams.advanced_surfer_setup"></a>

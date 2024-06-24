@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-scaffolderparams-set-default"></a>
-
 # ansys.meshing.prime.ScaffolderParams.set_default
 
 <a id="ansys.meshing.prime.ScaffolderParams.set_default"></a>

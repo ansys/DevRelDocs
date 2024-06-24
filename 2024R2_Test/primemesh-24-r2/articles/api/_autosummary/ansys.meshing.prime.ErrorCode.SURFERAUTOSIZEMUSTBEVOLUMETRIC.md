@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-surferautosizemustbevolumetric"></a>
-
 # ansys.meshing.prime.ErrorCode.SURFERAUTOSIZEMUSTBEVOLUMETRIC
 
 <a id="ansys.meshing.prime.ErrorCode.SURFERAUTOSIZEMUSTBEVOLUMETRIC"></a>

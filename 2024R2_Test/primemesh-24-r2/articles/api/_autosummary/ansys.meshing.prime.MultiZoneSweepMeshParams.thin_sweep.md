@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-multizonesweepmeshparams-thin-sweep"></a>
-
 # ansys.meshing.prime.MultiZoneSweepMeshParams.thin_sweep
 
 <a id="ansys.meshing.prime.MultiZoneSweepMeshParams.thin_sweep"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-scopeevaluationtype-labels"></a>
-
 # ansys.meshing.prime.ScopeEvaluationType.LABELS
 
 <a id="ansys.meshing.prime.ScopeEvaluationType.LABELS"></a>

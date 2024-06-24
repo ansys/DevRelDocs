@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfacequalitysummaryparams-scope"></a>
-
 # ansys.meshing.prime.SurfaceQualitySummaryParams.scope
 
 <a id="ansys.meshing.prime.SurfaceQualitySummaryParams.scope"></a>

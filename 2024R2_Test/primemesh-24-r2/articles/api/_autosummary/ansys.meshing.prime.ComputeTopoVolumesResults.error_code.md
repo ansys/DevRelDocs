@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-computetopovolumesresults-error-code"></a>
-
 # ansys.meshing.prime.ComputeTopoVolumesResults.error_code
 
 <a id="ansys.meshing.prime.ComputeTopoVolumesResults.error_code"></a>

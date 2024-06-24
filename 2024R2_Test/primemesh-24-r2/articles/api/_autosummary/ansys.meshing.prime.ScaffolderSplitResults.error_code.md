@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-scaffoldersplitresults-error-code"></a>
-
 # ansys.meshing.prime.ScaffolderSplitResults.error_code
 
 <a id="ansys.meshing.prime.ScaffolderSplitResults.error_code"></a>

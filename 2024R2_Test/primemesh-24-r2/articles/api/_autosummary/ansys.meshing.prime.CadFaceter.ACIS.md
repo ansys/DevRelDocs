@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-cadfaceter-acis"></a>
-
 # ansys.meshing.prime.CadFaceter.ACIS
 
 <a id="ansys.meshing.prime.CadFaceter.ACIS"></a>

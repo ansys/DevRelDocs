@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-cadrefacetingparams-max-edge-size"></a>
-
 # ansys.meshing.prime.CadRefacetingParams.max_edge_size
 
 <a id="ansys.meshing.prime.CadRefacetingParams.max_edge_size"></a>

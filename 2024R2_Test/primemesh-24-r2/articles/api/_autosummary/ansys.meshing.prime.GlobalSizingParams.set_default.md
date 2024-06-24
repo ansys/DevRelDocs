@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-globalsizingparams-set-default"></a>
-
 # ansys.meshing.prime.GlobalSizingParams.set_default
 
 <a id="ansys.meshing.prime.GlobalSizingParams.set_default"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-creatematerialpointparams-type"></a>
-
 # ansys.meshing.prime.CreateMaterialPointParams.type
 
 <a id="ansys.meshing.prime.CreateMaterialPointParams.type"></a>

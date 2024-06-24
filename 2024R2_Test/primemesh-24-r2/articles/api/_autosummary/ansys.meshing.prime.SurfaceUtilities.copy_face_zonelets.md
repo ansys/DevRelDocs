@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfaceutilities-copy-face-zonelets"></a>
-
 # ansys.meshing.prime.SurfaceUtilities.copy_face_zonelets
 
 <a id="ansys.meshing.prime.SurfaceUtilities.copy_face_zonelets"></a>

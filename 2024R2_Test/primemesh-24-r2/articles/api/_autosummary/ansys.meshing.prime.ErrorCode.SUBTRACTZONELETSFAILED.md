@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-subtractzoneletsfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.SUBTRACTZONELETSFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.SUBTRACTZONELETSFAILED"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fuseparams-separate"></a>
-
 # ansys.meshing.prime.FuseParams.separate
 
 <a id="ansys.meshing.prime.FuseParams.separate"></a>

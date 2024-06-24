@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapperimproveresult-n-face-intersections-found"></a>
-
 # ansys.meshing.prime.WrapperImproveResult.n_face_intersections_found
 
 <a id="ansys.meshing.prime.WrapperImproveResult.n_face_intersections_found"></a>

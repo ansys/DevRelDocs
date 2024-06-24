@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-multizonecontrol-set-map-mesh-params"></a>
-
 # ansys.meshing.prime.MultiZoneControl.set_map_mesh_params
 
 <a id="ansys.meshing.prime.MultiZoneControl.set_map_mesh_params"></a>

@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="wrapperpatchflowregionsparams"></a>
-
 # WrapperPatchFlowRegionsParams
 
 <a id="ansys.meshing.prime.WrapperPatchFlowRegionsParams"></a>
@@ -47,14 +45,16 @@ WrapperPatchFlowRegionsParams to define parameters for patch flow regions operat
 
 ### Methods
 
-| [`WrapperPatchFlowRegionsParams.print_default`](ansys.meshing.prime.WrapperPatchFlowRegionsParams.print_default.md#ansys.meshing.prime.WrapperPatchFlowRegionsParams.print_default)()   | Print the default values of `WrapperPatchFlowRegionsParams` object.   |
+| Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
+| [`WrapperPatchFlowRegionsParams.print_default`](ansys.meshing.prime.WrapperPatchFlowRegionsParams.print_default.md#ansys.meshing.prime.WrapperPatchFlowRegionsParams.print_default)()   | Print the default values of `WrapperPatchFlowRegionsParams` object.   |
 | [`WrapperPatchFlowRegionsParams.set_default`](ansys.meshing.prime.WrapperPatchFlowRegionsParams.set_default.md#ansys.meshing.prime.WrapperPatchFlowRegionsParams.set_default)([...])    | Set the default values of the `WrapperPatchFlowRegionsParams` object. |
 
 ### Attributes
 
-| [`WrapperPatchFlowRegionsParams.base_size`](ansys.meshing.prime.WrapperPatchFlowRegionsParams.base_size.md#ansys.meshing.prime.WrapperPatchFlowRegionsParams.base_size)                               | Base size to define octree.                        |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
+| [`WrapperPatchFlowRegionsParams.base_size`](ansys.meshing.prime.WrapperPatchFlowRegionsParams.base_size.md#ansys.meshing.prime.WrapperPatchFlowRegionsParams.base_size)                               | Base size to define octree.                        |
 | [`WrapperPatchFlowRegionsParams.dead_regions`](ansys.meshing.prime.WrapperPatchFlowRegionsParams.dead_regions.md#ansys.meshing.prime.WrapperPatchFlowRegionsParams.dead_regions)                      | List of dead regions.                              |
 | [`WrapperPatchFlowRegionsParams.number_of_threads`](ansys.meshing.prime.WrapperPatchFlowRegionsParams.number_of_threads.md#ansys.meshing.prime.WrapperPatchFlowRegionsParams.number_of_threads)       | Number of threads for multithreading.              |
 | [`WrapperPatchFlowRegionsParams.suggested_part_name`](ansys.meshing.prime.WrapperPatchFlowRegionsParams.suggested_part_name.md#ansys.meshing.prime.WrapperPatchFlowRegionsParams.suggested_part_name) | Suggested part name for created patching surfaces. |

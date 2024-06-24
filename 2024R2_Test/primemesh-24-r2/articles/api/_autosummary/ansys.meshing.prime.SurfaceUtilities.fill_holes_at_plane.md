@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfaceutilities-fill-holes-at-plane"></a>
-
 # ansys.meshing.prime.SurfaceUtilities.fill_holes_at_plane
 
 <a id="ansys.meshing.prime.SurfaceUtilities.fill_holes_at_plane"></a>

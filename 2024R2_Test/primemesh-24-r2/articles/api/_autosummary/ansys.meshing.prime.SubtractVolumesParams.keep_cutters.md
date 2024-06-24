@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-subtractvolumesparams-keep-cutters"></a>
-
 # ansys.meshing.prime.SubtractVolumesParams.keep_cutters
 
 <a id="ansys.meshing.prime.SubtractVolumesParams.keep_cutters"></a>

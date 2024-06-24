@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-hexcoreparams-enable-region-based-hexcore"></a>
-
 # ansys.meshing.prime.HexCoreParams.enable_region_based_hexcore
 
 <a id="ansys.meshing.prime.HexCoreParams.enable_region_based_hexcore"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-morphbcparams-morph-region-method"></a>
-
 # ansys.meshing.prime.MorphBCParams.morph_region_method
 
 <a id="ansys.meshing.prime.MorphBCParams.morph_region_method"></a>

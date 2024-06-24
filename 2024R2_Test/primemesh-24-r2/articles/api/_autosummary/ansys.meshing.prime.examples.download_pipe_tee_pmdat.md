@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-examples-download-pipe-tee-pmdat"></a>
-
 # ansys.meshing.prime.examples.download_pipe_tee_pmdat
 
 <a id="ansys.meshing.prime.examples.download_pipe_tee_pmdat"></a>

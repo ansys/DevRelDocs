@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-detectandtreatholesparams-mesh-offset-faces"></a>
-
 # ansys.meshing.prime.DetectAndTreatHolesParams.mesh_offset_faces
 
 <a id="ansys.meshing.prime.DetectAndTreatHolesParams.mesh_offset_faces"></a>

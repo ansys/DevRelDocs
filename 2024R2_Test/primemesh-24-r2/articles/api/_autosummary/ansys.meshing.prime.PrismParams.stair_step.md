@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-prismparams-stair-step"></a>
-
 # ansys.meshing.prime.PrismParams.stair_step
 
 <a id="ansys.meshing.prime.PrismParams.stair_step"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-searchbyspikeparams-print-default"></a>
-
 # ansys.meshing.prime.SearchBySpikeParams.print_default
 
 <a id="ansys.meshing.prime.SearchBySpikeParams.print_default"></a>

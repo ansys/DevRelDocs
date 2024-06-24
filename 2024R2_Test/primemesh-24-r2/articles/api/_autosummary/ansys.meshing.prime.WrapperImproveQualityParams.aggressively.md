@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapperimprovequalityparams-aggressively"></a>
-
 # ansys.meshing.prime.WrapperImproveQualityParams.aggressively
 
 <a id="ansys.meshing.prime.WrapperImproveQualityParams.aggressively"></a>

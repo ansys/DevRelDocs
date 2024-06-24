@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surferresults-error-code"></a>
-
 # ansys.meshing.prime.SurferResults.error_code
 
 <a id="ansys.meshing.prime.SurferResults.error_code"></a>

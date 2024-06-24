@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-createcapresults-created-face-zonelets"></a>
-
 # ansys.meshing.prime.CreateCapResults.created_face_zonelets
 
 <a id="ansys.meshing.prime.CreateCapResults.created_face_zonelets"></a>

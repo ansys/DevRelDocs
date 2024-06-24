@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-edgeconnectivityresults-error-code"></a>
-
 # ansys.meshing.prime.EdgeConnectivityResults.error_code
 
 <a id="ansys.meshing.prime.EdgeConnectivityResults.error_code"></a>

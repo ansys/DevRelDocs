@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-automeshinitfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.AUTOMESHINITFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.AUTOMESHINITFAILED"></a>

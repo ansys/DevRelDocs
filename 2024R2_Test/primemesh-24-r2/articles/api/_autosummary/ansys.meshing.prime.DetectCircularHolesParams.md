@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="detectcircularholesparams"></a>
-
 # DetectCircularHolesParams
 
 <a id="ansys.meshing.prime.DetectCircularHolesParams"></a>
@@ -47,14 +45,16 @@ Parameters for detect circular holes operation.
 
 ### Methods
 
-| [`DetectCircularHolesParams.print_default`](ansys.meshing.prime.DetectCircularHolesParams.print_default.md#ansys.meshing.prime.DetectCircularHolesParams.print_default)()   | Print the default values of `DetectCircularHolesParams` object.   |
+| Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| [`DetectCircularHolesParams.print_default`](ansys.meshing.prime.DetectCircularHolesParams.print_default.md#ansys.meshing.prime.DetectCircularHolesParams.print_default)()   | Print the default values of `DetectCircularHolesParams` object.   |
 | [`DetectCircularHolesParams.set_default`](ansys.meshing.prime.DetectCircularHolesParams.set_default.md#ansys.meshing.prime.DetectCircularHolesParams.set_default)([...])    | Set the default values of the `DetectCircularHolesParams` object. |
 
 ### Attributes
 
-| [`DetectCircularHolesParams.allow_curved_topo_faces`](ansys.meshing.prime.DetectCircularHolesParams.allow_curved_topo_faces.md#ansys.meshing.prime.DetectCircularHolesParams.allow_curved_topo_faces)             | Option to allow holes in curved topoface.   |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------|
+| [`DetectCircularHolesParams.allow_curved_topo_faces`](ansys.meshing.prime.DetectCircularHolesParams.allow_curved_topo_faces.md#ansys.meshing.prime.DetectCircularHolesParams.allow_curved_topo_faces)             | Option to allow holes in curved topoface.   |
 | [`DetectCircularHolesParams.max_radius_circular_holes`](ansys.meshing.prime.DetectCircularHolesParams.max_radius_circular_holes.md#ansys.meshing.prime.DetectCircularHolesParams.max_radius_circular_holes)       | Maximum radius of circular holes.           |
 | [`DetectCircularHolesParams.merge_edge_allow_self_close`](ansys.meshing.prime.DetectCircularHolesParams.merge_edge_allow_self_close.md#ansys.meshing.prime.DetectCircularHolesParams.merge_edge_allow_self_close) | Option for merging self-closing edge loops. |
 | [`DetectCircularHolesParams.min_radius_circular_holes`](ansys.meshing.prime.DetectCircularHolesParams.min_radius_circular_holes.md#ansys.meshing.prime.DetectCircularHolesParams.min_radius_circular_holes)       | Minimum radius of circular holes.           |

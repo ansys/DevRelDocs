@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-edgeconnecttype-alltoall"></a>
-
 # ansys.meshing.prime.EdgeConnectType.ALLTOALL
 
 <a id="ansys.meshing.prime.EdgeConnectType.ALLTOALL"></a>

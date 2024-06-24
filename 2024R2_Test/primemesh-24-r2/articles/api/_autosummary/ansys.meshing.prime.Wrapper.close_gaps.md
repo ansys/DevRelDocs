@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapper-close-gaps"></a>
-
 # ansys.meshing.prime.Wrapper.close_gaps
 
 <a id="ansys.meshing.prime.Wrapper.close_gaps"></a>

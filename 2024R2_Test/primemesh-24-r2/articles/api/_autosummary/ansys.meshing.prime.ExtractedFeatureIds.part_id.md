@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-extractedfeatureids-part-id"></a>
-
 # ansys.meshing.prime.ExtractedFeatureIds.part_id
 
 <a id="ansys.meshing.prime.ExtractedFeatureIds.part_id"></a>

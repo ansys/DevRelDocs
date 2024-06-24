@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-searchinfobyregisteridresults-n-found"></a>
-
 # ansys.meshing.prime.SearchInfoByRegisterIdResults.n_found
 
 <a id="ansys.meshing.prime.SearchInfoByRegisterIdResults.n_found"></a>

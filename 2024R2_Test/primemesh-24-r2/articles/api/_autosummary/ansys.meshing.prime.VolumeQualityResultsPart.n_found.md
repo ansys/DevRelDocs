@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-volumequalityresultspart-n-found"></a>
-
 # ansys.meshing.prime.VolumeQualityResultsPart.n_found
 
 <a id="ansys.meshing.prime.VolumeQualityResultsPart.n_found"></a>

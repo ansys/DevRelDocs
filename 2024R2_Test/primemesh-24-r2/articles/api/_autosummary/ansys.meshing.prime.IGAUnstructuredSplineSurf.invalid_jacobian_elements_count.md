@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-igaunstructuredsplinesurf-invalid-jacobian-elements-count"></a>
-
 # ansys.meshing.prime.IGAUnstructuredSplineSurf.invalid_jacobian_elements_count
 
 <a id="ansys.meshing.prime.IGAUnstructuredSplineSurf.invalid_jacobian_elements_count"></a>

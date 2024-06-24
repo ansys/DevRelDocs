@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surferparams-growth-rate"></a>
-
 # ansys.meshing.prime.SurferParams.growth_rate
 
 <a id="ansys.meshing.prime.SurferParams.growth_rate"></a>

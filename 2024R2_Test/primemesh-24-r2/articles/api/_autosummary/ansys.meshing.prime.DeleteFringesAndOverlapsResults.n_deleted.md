@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-deletefringesandoverlapsresults-n-deleted"></a>
-
 # ansys.meshing.prime.DeleteFringesAndOverlapsResults.n_deleted
 
 <a id="ansys.meshing.prime.DeleteFringesAndOverlapsResults.n_deleted"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-createboi-invalidtypeforwrap"></a>
-
 # ansys.meshing.prime.ErrorCode.CREATEBOI_INVALIDTYPEFORWRAP
 
 <a id="ansys.meshing.prime.ErrorCode.CREATEBOI_INVALIDTYPEFORWRAP"></a>

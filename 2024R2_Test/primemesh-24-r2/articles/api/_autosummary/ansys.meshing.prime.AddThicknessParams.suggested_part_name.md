@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-addthicknessparams-suggested-part-name"></a>
-
 # ansys.meshing.prime.AddThicknessParams.suggested_part_name
 
 <a id="ansys.meshing.prime.AddThicknessParams.suggested_part_name"></a>

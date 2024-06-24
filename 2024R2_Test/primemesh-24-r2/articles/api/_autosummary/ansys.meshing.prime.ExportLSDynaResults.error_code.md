@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-exportlsdynaresults-error-code"></a>
-
 # ansys.meshing.prime.ExportLSDynaResults.error_code
 
 <a id="ansys.meshing.prime.ExportLSDynaResults.error_code"></a>

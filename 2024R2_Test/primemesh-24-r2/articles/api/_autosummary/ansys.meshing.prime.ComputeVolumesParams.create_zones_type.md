@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-computevolumesparams-create-zones-type"></a>
-
 # ansys.meshing.prime.ComputeVolumesParams.create_zones_type
 
 <a id="ansys.meshing.prime.ComputeVolumesParams.create_zones_type"></a>

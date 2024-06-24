@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-sizefieldfilereadresults-set-default"></a>
-
 # ansys.meshing.prime.SizeFieldFileReadResults.set_default
 
 <a id="ansys.meshing.prime.SizeFieldFileReadResults.set_default"></a>

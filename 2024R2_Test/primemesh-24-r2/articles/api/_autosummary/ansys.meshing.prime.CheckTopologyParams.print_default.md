@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-checktopologyparams-print-default"></a>
-
 # ansys.meshing.prime.CheckTopologyParams.print_default
 
 <a id="ansys.meshing.prime.CheckTopologyParams.print_default"></a>

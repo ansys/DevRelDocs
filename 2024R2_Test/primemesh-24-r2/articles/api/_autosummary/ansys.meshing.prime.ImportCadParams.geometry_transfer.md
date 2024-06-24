@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-importcadparams-geometry-transfer"></a>
-
 # ansys.meshing.prime.ImportCadParams.geometry_transfer
 
 <a id="ansys.meshing.prime.ImportCadParams.geometry_transfer"></a>

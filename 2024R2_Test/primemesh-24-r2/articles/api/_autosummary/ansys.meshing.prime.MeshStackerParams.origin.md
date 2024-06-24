@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-meshstackerparams-origin"></a>
-
 # ansys.meshing.prime.MeshStackerParams.origin
 
 <a id="ansys.meshing.prime.MeshStackerParams.origin"></a>

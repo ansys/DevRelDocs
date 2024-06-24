@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-smoothdihedralfacenodesparams-tolerance"></a>
-
 # ansys.meshing.prime.SmoothDihedralFaceNodesParams.tolerance
 
 <a id="ansys.meshing.prime.SmoothDihedralFaceNodesParams.tolerance"></a>

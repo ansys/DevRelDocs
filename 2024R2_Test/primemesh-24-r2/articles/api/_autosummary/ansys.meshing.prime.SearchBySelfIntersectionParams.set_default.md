@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-searchbyselfintersectionparams-set-default"></a>
-
 # ansys.meshing.prime.SearchBySelfIntersectionParams.set_default
 
 <a id="ansys.meshing.prime.SearchBySelfIntersectionParams.set_default"></a>

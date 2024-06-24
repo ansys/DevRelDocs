@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-overlappairs-set-default"></a>
-
 # ansys.meshing.prime.OverlapPairs.set_default
 
 <a id="ansys.meshing.prime.OverlapPairs.set_default"></a>

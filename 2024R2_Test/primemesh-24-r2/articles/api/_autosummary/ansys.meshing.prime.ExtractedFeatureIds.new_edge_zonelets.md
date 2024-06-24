@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-extractedfeatureids-new-edge-zonelets"></a>
-
 # ansys.meshing.prime.ExtractedFeatureIds.new_edge_zonelets
 
 <a id="ansys.meshing.prime.ExtractedFeatureIds.new_edge_zonelets"></a>

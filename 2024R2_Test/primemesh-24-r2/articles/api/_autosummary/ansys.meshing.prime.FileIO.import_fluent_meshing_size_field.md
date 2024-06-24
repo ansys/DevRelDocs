@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fileio-import-fluent-meshing-size-field"></a>
-
 # ansys.meshing.prime.FileIO.import_fluent_meshing_size_field
 
 <a id="ansys.meshing.prime.FileIO.import_fluent_meshing_size_field"></a>

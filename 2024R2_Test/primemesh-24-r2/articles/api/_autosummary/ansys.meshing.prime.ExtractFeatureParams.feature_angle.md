@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-extractfeatureparams-feature-angle"></a>
-
 # ansys.meshing.prime.ExtractFeatureParams.feature_angle
 
 <a id="ansys.meshing.prime.ExtractFeatureParams.feature_angle"></a>

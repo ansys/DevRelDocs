@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-surferautosizequadunsupported"></a>
-
 # ansys.meshing.prime.ErrorCode.SURFERAUTOSIZEQUADUNSUPPORTED
 
 <a id="ansys.meshing.prime.ErrorCode.SURFERAUTOSIZEQUADUNSUPPORTED"></a>

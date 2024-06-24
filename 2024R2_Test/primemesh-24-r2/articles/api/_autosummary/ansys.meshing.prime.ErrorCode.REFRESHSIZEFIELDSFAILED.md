@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-refreshsizefieldsfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.REFRESHSIZEFIELDSFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.REFRESHSIZEFIELDSFAILED"></a>

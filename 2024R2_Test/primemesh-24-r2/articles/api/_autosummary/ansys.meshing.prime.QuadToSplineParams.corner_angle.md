@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-quadtosplineparams-corner-angle"></a>
-
 # ansys.meshing.prime.QuadToSplineParams.corner_angle
 
 <a id="ansys.meshing.prime.QuadToSplineParams.corner_angle"></a>

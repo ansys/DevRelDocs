@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-toposearchfield-invalidboundarytopofaces"></a>
-
 # ansys.meshing.prime.TopoSearchField.INVALIDBOUNDARYTOPOFACES
 
 <a id="ansys.meshing.prime.TopoSearchField.INVALIDBOUNDARYTOPOFACES"></a>

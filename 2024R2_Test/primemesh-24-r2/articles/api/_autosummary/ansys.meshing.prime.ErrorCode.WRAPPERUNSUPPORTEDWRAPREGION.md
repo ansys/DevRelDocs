@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-wrapperunsupportedwrapregion"></a>
-
 # ansys.meshing.prime.ErrorCode.WRAPPERUNSUPPORTEDWRAPREGION
 
 <a id="ansys.meshing.prime.ErrorCode.WRAPPERUNSUPPORTEDWRAPREGION"></a>

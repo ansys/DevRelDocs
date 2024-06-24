@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-sphereatinvalidnormalnodesfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.SPHEREATINVALIDNORMALNODESFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.SPHEREATINVALIDNORMALNODESFAILED"></a>

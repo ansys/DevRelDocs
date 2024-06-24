@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-solvertype-fluent"></a>
-
 # ansys.meshing.prime.SolverType.FLUENT
 
 <a id="ansys.meshing.prime.SolverType.FLUENT"></a>

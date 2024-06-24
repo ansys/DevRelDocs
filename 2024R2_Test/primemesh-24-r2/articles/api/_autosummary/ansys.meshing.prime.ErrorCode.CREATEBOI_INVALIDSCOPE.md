@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-createboi-invalidscope"></a>
-
 # ansys.meshing.prime.ErrorCode.CREATEBOI_INVALIDSCOPE
 
 <a id="ansys.meshing.prime.ErrorCode.CREATEBOI_INVALIDSCOPE"></a>

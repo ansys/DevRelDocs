@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-partsummaryresults-n-hex-cells"></a>
-
 # ansys.meshing.prime.PartSummaryResults.n_hex_cells
 
 <a id="ansys.meshing.prime.PartSummaryResults.n_hex_cells"></a>

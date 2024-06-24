@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-targetwithcellzonelets"></a>
-
 # ansys.meshing.prime.ErrorCode.TARGETWITHCELLZONELETS
 
 <a id="ansys.meshing.prime.ErrorCode.TARGETWITHCELLZONELETS"></a>

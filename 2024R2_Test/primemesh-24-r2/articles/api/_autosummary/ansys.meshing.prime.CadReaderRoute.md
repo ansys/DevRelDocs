@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="cadreaderroute"></a>
-
 # CadReaderRoute
 
 <a id="ansys.meshing.prime.CadReaderRoute"></a>
@@ -14,8 +12,9 @@ CAD Reader routes.
 
 ### Attributes
 
-| [`CadReaderRoute.PROGRAMCONTROLLED`](ansys.meshing.prime.CadReaderRoute.PROGRAMCONTROLLED.md#ansys.meshing.prime.CadReaderRoute.PROGRAMCONTROLLED)   | Denotes program controlled CAD reader route.   |
+| Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------|
+| [`CadReaderRoute.PROGRAMCONTROLLED`](ansys.meshing.prime.CadReaderRoute.PROGRAMCONTROLLED.md#ansys.meshing.prime.CadReaderRoute.PROGRAMCONTROLLED)   | Denotes program controlled CAD reader route.   |
 | [`CadReaderRoute.NATIVE`](ansys.meshing.prime.CadReaderRoute.NATIVE.md#ansys.meshing.prime.CadReaderRoute.NATIVE)                                    | Denotes native CAD reader route.               |
 | [`CadReaderRoute.WORKBENCH`](ansys.meshing.prime.CadReaderRoute.WORKBENCH.md#ansys.meshing.prime.CadReaderRoute.WORKBENCH)                           | Denotes WorkBench as CAD reader route.         |
 | [`CadReaderRoute.SPACECLAIM`](ansys.meshing.prime.CadReaderRoute.SPACECLAIM.md#ansys.meshing.prime.CadReaderRoute.SPACECLAIM)                        | Denotes SpaceClaim as CAD reader route.        |

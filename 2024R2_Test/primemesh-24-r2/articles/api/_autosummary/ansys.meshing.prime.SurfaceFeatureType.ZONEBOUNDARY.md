@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfacefeaturetype-zoneboundary"></a>
-
 # ansys.meshing.prime.SurfaceFeatureType.ZONEBOUNDARY
 
 <a id="ansys.meshing.prime.SurfaceFeatureType.ZONEBOUNDARY"></a>

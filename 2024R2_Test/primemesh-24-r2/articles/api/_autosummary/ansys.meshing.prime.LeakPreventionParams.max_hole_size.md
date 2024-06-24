@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-leakpreventionparams-max-hole-size"></a>
-
 # ansys.meshing.prime.LeakPreventionParams.max_hole_size
 
 <a id="ansys.meshing.prime.LeakPreventionParams.max_hole_size"></a>

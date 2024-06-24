@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-deletezoneresults-set-default"></a>
-
 # ansys.meshing.prime.DeleteZoneResults.set_default
 
 <a id="ansys.meshing.prime.DeleteZoneResults.set_default"></a>

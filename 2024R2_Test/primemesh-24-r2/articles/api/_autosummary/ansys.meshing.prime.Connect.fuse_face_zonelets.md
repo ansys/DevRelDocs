@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-connect-fuse-face-zonelets"></a>
-
 # ansys.meshing.prime.Connect.fuse_face_zonelets
 
 <a id="ansys.meshing.prime.Connect.fuse_face_zonelets"></a>

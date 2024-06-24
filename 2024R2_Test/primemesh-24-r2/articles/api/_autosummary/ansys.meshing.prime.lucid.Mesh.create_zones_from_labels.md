@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-lucid-mesh-create-zones-from-labels"></a>
-
 # ansys.meshing.prime.lucid.Mesh.create_zones_from_labels
 
 <a id="ansys.meshing.prime.lucid.Mesh.create_zones_from_labels"></a>

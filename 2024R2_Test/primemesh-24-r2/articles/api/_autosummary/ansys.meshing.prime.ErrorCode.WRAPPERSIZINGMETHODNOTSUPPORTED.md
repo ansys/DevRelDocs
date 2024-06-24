@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-wrappersizingmethodnotsupported"></a>
-
 # ansys.meshing.prime.ErrorCode.WRAPPERSIZINGMETHODNOTSUPPORTED
 
 <a id="ansys.meshing.prime.ErrorCode.WRAPPERSIZINGMETHODNOTSUPPORTED"></a>

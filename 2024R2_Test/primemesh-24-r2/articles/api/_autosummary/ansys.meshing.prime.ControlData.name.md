@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-controldata-name"></a>
-
 # ansys.meshing.prime.ControlData.name
 
 <a id="ansys.meshing.prime.ControlData.name"></a>

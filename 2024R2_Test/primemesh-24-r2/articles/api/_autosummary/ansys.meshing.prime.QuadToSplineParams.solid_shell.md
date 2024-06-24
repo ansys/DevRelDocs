@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-quadtosplineparams-solid-shell"></a>
-
 # ansys.meshing.prime.QuadToSplineParams.solid_shell
 
 <a id="ansys.meshing.prime.QuadToSplineParams.solid_shell"></a>

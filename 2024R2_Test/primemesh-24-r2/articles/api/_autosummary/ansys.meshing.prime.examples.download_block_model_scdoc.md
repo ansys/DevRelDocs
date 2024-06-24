@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-examples-download-block-model-scdoc"></a>
-
 # ansys.meshing.prime.examples.download_block_model_scdoc
 
 <a id="ansys.meshing.prime.examples.download_block_model_scdoc"></a>

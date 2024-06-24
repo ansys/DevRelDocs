@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="hexcoreparams"></a>
-
 # HexCoreParams
 
 <a id="ansys.meshing.prime.HexCoreParams"></a>
@@ -48,14 +46,16 @@ Parameters to control hexahedral mesh generation.
 
 ### Methods
 
-| [`HexCoreParams.print_default`](ansys.meshing.prime.HexCoreParams.print_default.md#ansys.meshing.prime.HexCoreParams.print_default)()   | Print the default values of `HexCoreParams` object.   |
+| Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|
+| [`HexCoreParams.print_default`](ansys.meshing.prime.HexCoreParams.print_default.md#ansys.meshing.prime.HexCoreParams.print_default)()   | Print the default values of `HexCoreParams` object.   |
 | [`HexCoreParams.set_default`](ansys.meshing.prime.HexCoreParams.set_default.md#ansys.meshing.prime.HexCoreParams.set_default)([...])    | Set the default values of the `HexCoreParams` object. |
 
 ### Attributes
 
-| [`HexCoreParams.buffer_layers`](ansys.meshing.prime.HexCoreParams.buffer_layers.md#ansys.meshing.prime.HexCoreParams.buffer_layers)                                           | Minimum number of cell layers of the same size before the cell size halves or doubles.   |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| [`HexCoreParams.buffer_layers`](ansys.meshing.prime.HexCoreParams.buffer_layers.md#ansys.meshing.prime.HexCoreParams.buffer_layers)                                           | Minimum number of cell layers of the same size before the cell size halves or doubles.   |
 | [`HexCoreParams.cell_element_type`](ansys.meshing.prime.HexCoreParams.cell_element_type.md#ansys.meshing.prime.HexCoreParams.cell_element_type)                               | Cell element type of hex-shaped cells.                                                   |
 | [`HexCoreParams.enable_region_based_hexcore`](ansys.meshing.prime.HexCoreParams.enable_region_based_hexcore.md#ansys.meshing.prime.HexCoreParams.enable_region_based_hexcore) | Checks whether to enable region based hexcore or not.                                    |
 | [`HexCoreParams.rel_peel_layer_offset`](ansys.meshing.prime.HexCoreParams.rel_peel_layer_offset.md#ansys.meshing.prime.HexCoreParams.rel_peel_layer_offset)                   | Gap between hexahedral core and geometry surface relative to the surface mesh size.      |

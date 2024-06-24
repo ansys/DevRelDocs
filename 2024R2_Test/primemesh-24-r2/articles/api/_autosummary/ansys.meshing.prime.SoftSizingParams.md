@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="softsizingparams"></a>
-
 # SoftSizingParams
 
 <a id="ansys.meshing.prime.SoftSizingParams"></a>
@@ -37,13 +35,15 @@ else a uniform size will be maintained.
 
 ### Methods
 
-| [`SoftSizingParams.print_default`](ansys.meshing.prime.SoftSizingParams.print_default.md#ansys.meshing.prime.SoftSizingParams.print_default)()             | Print the default values of `SoftSizingParams` object.   |
+| Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
+| [`SoftSizingParams.print_default`](ansys.meshing.prime.SoftSizingParams.print_default.md#ansys.meshing.prime.SoftSizingParams.print_default)()             | Print the default values of `SoftSizingParams` object.   |
 | [`SoftSizingParams.set_default`](ansys.meshing.prime.SoftSizingParams.set_default.md#ansys.meshing.prime.SoftSizingParams.set_default)([max, growth_rate]) | Set the default values of the `SoftSizingParams` object. |
 
 ### Attributes
 
-| [`SoftSizingParams.growth_rate`](ansys.meshing.prime.SoftSizingParams.growth_rate.md#ansys.meshing.prime.SoftSizingParams.growth_rate)   | Growth rate used for transitioning from one element size to neighbor element size.   |
+| Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| [`SoftSizingParams.growth_rate`](ansys.meshing.prime.SoftSizingParams.growth_rate.md#ansys.meshing.prime.SoftSizingParams.growth_rate)   | Growth rate used for transitioning from one element size to neighbor element size.   |
 | [`SoftSizingParams.max`](ansys.meshing.prime.SoftSizingParams.max.md#ansys.meshing.prime.SoftSizingParams.max)                           | Maximum size used for computing edge and face size using soft size control.          |
 <!-- vale on -->

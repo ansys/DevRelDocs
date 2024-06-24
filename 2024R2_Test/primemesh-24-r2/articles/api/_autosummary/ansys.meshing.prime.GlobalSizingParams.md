@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="globalsizingparams"></a>
-
 # GlobalSizingParams
 
 <a id="ansys.meshing.prime.GlobalSizingParams"></a>
@@ -36,14 +34,16 @@ Global sizing parameters.
 
 ### Methods
 
-| [`GlobalSizingParams.print_default`](ansys.meshing.prime.GlobalSizingParams.print_default.md#ansys.meshing.prime.GlobalSizingParams.print_default)()          | Print the default values of `GlobalSizingParams` object.   |
+| Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
+| [`GlobalSizingParams.print_default`](ansys.meshing.prime.GlobalSizingParams.print_default.md#ansys.meshing.prime.GlobalSizingParams.print_default)()          | Print the default values of `GlobalSizingParams` object.   |
 | [`GlobalSizingParams.set_default`](ansys.meshing.prime.GlobalSizingParams.set_default.md#ansys.meshing.prime.GlobalSizingParams.set_default)([min, max, ...]) | Set the default values of the `GlobalSizingParams` object. |
 
 ### Attributes
 
-| [`GlobalSizingParams.growth_rate`](ansys.meshing.prime.GlobalSizingParams.growth_rate.md#ansys.meshing.prime.GlobalSizingParams.growth_rate)   | Growth rate of global sizing parameters.   |
+| Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
+| [`GlobalSizingParams.growth_rate`](ansys.meshing.prime.GlobalSizingParams.growth_rate.md#ansys.meshing.prime.GlobalSizingParams.growth_rate)   | Growth rate of global sizing parameters.   |
 | [`GlobalSizingParams.max`](ansys.meshing.prime.GlobalSizingParams.max.md#ansys.meshing.prime.GlobalSizingParams.max)                           | Maximum value of global sizing parameters. |
 | [`GlobalSizingParams.min`](ansys.meshing.prime.GlobalSizingParams.min.md#ansys.meshing.prime.GlobalSizingParams.min)                           | Minimum value of global sizing parameters. |
 <!-- vale on -->

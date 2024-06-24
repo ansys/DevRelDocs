@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-autoquadmesherresults-warning-codes"></a>
-
 # ansys.meshing.prime.AutoQuadMesherResults.warning_codes
 
 <a id="ansys.meshing.prime.AutoQuadMesherResults.warning_codes"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-wrappersurfacehasholes"></a>
-
 # ansys.meshing.prime.ErrorCode.WRAPPERSURFACEHASHOLES
 
 <a id="ansys.meshing.prime.ErrorCode.WRAPPERSURFACEHASHOLES"></a>

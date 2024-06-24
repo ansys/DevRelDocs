@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-detectandtreatholesparams-edge-mesh-constant-size"></a>
-
 # ansys.meshing.prime.DetectAndTreatHolesParams.edge_mesh_constant_size
 
 <a id="ansys.meshing.prime.DetectAndTreatHolesParams.edge_mesh_constant_size"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-setnameresults-assigned-name"></a>
-
 # ansys.meshing.prime.SetNameResults.assigned_name
 
 <a id="ansys.meshing.prime.SetNameResults.assigned_name"></a>

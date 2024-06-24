@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-cadrefacetingparams-faceting-resolution"></a>
-
 # ansys.meshing.prime.CadRefacetingParams.faceting_resolution
 
 <a id="ansys.meshing.prime.CadRefacetingParams.faceting_resolution"></a>

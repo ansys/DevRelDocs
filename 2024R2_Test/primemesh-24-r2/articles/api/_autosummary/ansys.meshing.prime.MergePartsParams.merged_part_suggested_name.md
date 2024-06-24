@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-mergepartsparams-merged-part-suggested-name"></a>
-
 # ansys.meshing.prime.MergePartsParams.merged_part_suggested_name
 
 <a id="ansys.meshing.prime.MergePartsParams.merged_part_suggested_name"></a>

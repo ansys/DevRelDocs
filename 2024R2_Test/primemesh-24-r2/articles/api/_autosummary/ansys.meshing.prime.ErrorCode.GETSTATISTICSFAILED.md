@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-getstatisticsfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.GETSTATISTICSFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.GETSTATISTICSFAILED"></a>

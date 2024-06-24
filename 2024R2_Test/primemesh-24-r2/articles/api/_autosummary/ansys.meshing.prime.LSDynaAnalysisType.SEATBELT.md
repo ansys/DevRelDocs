@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-lsdynaanalysistype-seatbelt"></a>
-
 # ansys.meshing.prime.LSDynaAnalysisType.SEATBELT
 
 <a id="ansys.meshing.prime.LSDynaAnalysisType.SEATBELT"></a>

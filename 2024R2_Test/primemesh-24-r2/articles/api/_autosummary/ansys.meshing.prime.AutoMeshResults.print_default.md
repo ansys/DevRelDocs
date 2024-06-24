@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-automeshresults-print-default"></a>
-
 # ansys.meshing.prime.AutoMeshResults.print_default
 
 <a id="ansys.meshing.prime.AutoMeshResults.print_default"></a>

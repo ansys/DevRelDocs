@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-volumequalitysummaryparams-set-default"></a>
-
 # ansys.meshing.prime.VolumeQualitySummaryParams.set_default
 
 <a id="ansys.meshing.prime.VolumeQualitySummaryParams.set_default"></a>

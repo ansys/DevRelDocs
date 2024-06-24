@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-morphbcparams-print-default"></a>
-
 # ansys.meshing.prime.MorphBCParams.print_default
 
 <a id="ansys.meshing.prime.MorphBCParams.print_default"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-toposearchfield-overlappingtopofaces"></a>
-
 # ansys.meshing.prime.TopoSearchField.OVERLAPPINGTOPOFACES
 
 <a id="ansys.meshing.prime.TopoSearchField.OVERLAPPINGTOPOFACES"></a>

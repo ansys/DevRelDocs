@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-namepatternparams-set-default"></a>
-
 # ansys.meshing.prime.NamePatternParams.set_default
 
 <a id="ansys.meshing.prime.NamePatternParams.set_default"></a>

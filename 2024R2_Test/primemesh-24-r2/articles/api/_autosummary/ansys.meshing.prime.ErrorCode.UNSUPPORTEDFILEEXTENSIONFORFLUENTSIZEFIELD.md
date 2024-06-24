@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-unsupportedfileextensionforfluentsizefield"></a>
-
 # ansys.meshing.prime.ErrorCode.UNSUPPORTEDFILEEXTENSIONFORFLUENTSIZEFIELD
 
 <a id="ansys.meshing.prime.ErrorCode.UNSUPPORTEDFILEEXTENSIONFORFLUENTSIZEFIELD"></a>

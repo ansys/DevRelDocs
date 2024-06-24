@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-contactpatchresultsfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.CONTACTPATCHRESULTSFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.CONTACTPATCHRESULTSFAILED"></a>

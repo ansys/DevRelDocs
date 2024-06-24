@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-automeshparams-set-default"></a>
-
 # ansys.meshing.prime.AutoMeshParams.set_default
 
 <a id="ansys.meshing.prime.AutoMeshParams.set_default"></a>

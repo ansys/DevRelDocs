@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapperclosegapsresult-print-default"></a>
-
 # ansys.meshing.prime.WrapperCloseGapsResult.print_default
 
 <a id="ansys.meshing.prime.WrapperCloseGapsResult.print_default"></a>

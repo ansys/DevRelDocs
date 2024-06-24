@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapperpatchflowregionsparams-print-default"></a>
-
 # ansys.meshing.prime.WrapperPatchFlowRegionsParams.print_default
 
 <a id="ansys.meshing.prime.WrapperPatchFlowRegionsParams.print_default"></a>

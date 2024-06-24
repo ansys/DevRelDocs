@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-invalidplanepoints"></a>
-
 # ansys.meshing.prime.ErrorCode.INVALIDPLANEPOINTS
 
 <a id="ansys.meshing.prime.ErrorCode.INVALIDPLANEPOINTS"></a>

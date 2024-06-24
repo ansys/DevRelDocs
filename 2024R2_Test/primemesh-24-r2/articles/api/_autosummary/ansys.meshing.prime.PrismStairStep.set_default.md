@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-prismstairstep-set-default"></a>
-
 # ansys.meshing.prime.PrismStairStep.set_default
 
 <a id="ansys.meshing.prime.PrismStairStep.set_default"></a>

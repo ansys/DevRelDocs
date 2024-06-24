@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-createboiparams-suggested-part-name"></a>
-
 # ansys.meshing.prime.CreateBOIParams.suggested_part_name
 
 <a id="ansys.meshing.prime.CreateBOIParams.suggested_part_name"></a>

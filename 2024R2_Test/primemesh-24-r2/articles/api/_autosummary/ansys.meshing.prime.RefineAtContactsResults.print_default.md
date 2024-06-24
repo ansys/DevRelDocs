@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-refineatcontactsresults-print-default"></a>
-
 # ansys.meshing.prime.RefineAtContactsResults.print_default
 
 <a id="ansys.meshing.prime.RefineAtContactsResults.print_default"></a>

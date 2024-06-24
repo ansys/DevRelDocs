@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="scopeexpressiontype"></a>
-
 # ScopeExpressionType
 
 <a id="ansys.meshing.prime.ScopeExpressionType"></a>
@@ -14,6 +12,7 @@ ScopeExpressionType uses expression type to evaluate the scope.
 
 ### Attributes
 
-| [`ScopeExpressionType.NAMEPATTERN`](ansys.meshing.prime.ScopeExpressionType.NAMEPATTERN.md#ansys.meshing.prime.ScopeExpressionType.NAMEPATTERN)   | Use name pattern expression to evaluate scope.   |
+| Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
+| [`ScopeExpressionType.NAMEPATTERN`](ansys.meshing.prime.ScopeExpressionType.NAMEPATTERN.md#ansys.meshing.prime.ScopeExpressionType.NAMEPATTERN)   | Use name pattern expression to evaluate scope.   |
 <!-- vale on -->

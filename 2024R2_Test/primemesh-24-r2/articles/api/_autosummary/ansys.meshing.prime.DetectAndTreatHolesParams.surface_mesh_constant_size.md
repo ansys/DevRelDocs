@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-detectandtreatholesparams-surface-mesh-constant-size"></a>
-
 # ansys.meshing.prime.DetectAndTreatHolesParams.surface_mesh_constant_size
 
 <a id="ansys.meshing.prime.DetectAndTreatHolesParams.surface_mesh_constant_size"></a>

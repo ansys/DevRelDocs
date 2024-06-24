@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surferparams-min-size"></a>
-
 # ansys.meshing.prime.SurferParams.min_size
 
 <a id="ansys.meshing.prime.SurferParams.min_size"></a>

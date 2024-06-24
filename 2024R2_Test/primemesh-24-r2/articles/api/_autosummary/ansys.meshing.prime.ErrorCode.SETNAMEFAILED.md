@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-setnamefailed"></a>
-
 # ansys.meshing.prime.ErrorCode.SETNAMEFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.SETNAMEFAILED"></a>

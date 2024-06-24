@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-part-get-topo-faces-of-zone-name-pattern"></a>
-
 # ansys.meshing.prime.Part.get_topo_faces_of_zone_name_pattern
 
 <a id="ansys.meshing.prime.Part.get_topo_faces_of_zone_name_pattern"></a>

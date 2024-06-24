@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-mergezoneletsresults-error-code"></a>
-
 # ansys.meshing.prime.MergeZoneletsResults.error_code
 
 <a id="ansys.meshing.prime.MergeZoneletsResults.error_code"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-cadreaderroute-discovery"></a>
-
 # ansys.meshing.prime.CadReaderRoute.DISCOVERY
 
 <a id="ansys.meshing.prime.CadReaderRoute.DISCOVERY"></a>

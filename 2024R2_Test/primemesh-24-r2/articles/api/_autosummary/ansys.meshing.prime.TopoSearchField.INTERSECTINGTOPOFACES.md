@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-toposearchfield-intersectingtopofaces"></a>
-
 # ansys.meshing.prime.TopoSearchField.INTERSECTINGTOPOFACES
 
 <a id="ansys.meshing.prime.TopoSearchField.INTERSECTINGTOPOFACES"></a>

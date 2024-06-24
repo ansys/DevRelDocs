@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-searchbythinstripresults-error-code"></a>
-
 # ansys.meshing.prime.SearchByThinStripResults.error_code
 
 <a id="ansys.meshing.prime.SearchByThinStripResults.error_code"></a>

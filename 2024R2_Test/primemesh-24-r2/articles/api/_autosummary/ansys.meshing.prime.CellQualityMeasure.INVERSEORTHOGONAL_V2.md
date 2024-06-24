@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-cellqualitymeasure-inverseorthogonal-v2"></a>
-
 # ansys.meshing.prime.CellQualityMeasure.INVERSEORTHOGONAL_V2
 
 <a id="ansys.meshing.prime.CellQualityMeasure.INVERSEORTHOGONAL_V2"></a>

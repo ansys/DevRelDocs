@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-createvolumezonestype-pervolume"></a>
-
 # ansys.meshing.prime.CreateVolumeZonesType.PERVOLUME
 
 <a id="ansys.meshing.prime.CreateVolumeZonesType.PERVOLUME"></a>

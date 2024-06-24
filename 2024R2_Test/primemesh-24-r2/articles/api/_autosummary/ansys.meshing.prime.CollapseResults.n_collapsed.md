@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-collapseresults-n-collapsed"></a>
-
 # ansys.meshing.prime.CollapseResults.n_collapsed
 
 <a id="ansys.meshing.prime.CollapseResults.n_collapsed"></a>

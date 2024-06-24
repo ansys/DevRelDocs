@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-globalsizingparams-min"></a>
-
 # ansys.meshing.prime.GlobalSizingParams.min
 
 <a id="ansys.meshing.prime.GlobalSizingParams.min"></a>

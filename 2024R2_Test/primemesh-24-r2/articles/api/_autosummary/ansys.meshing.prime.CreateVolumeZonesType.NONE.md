@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-createvolumezonestype-none"></a>
-
 # ansys.meshing.prime.CreateVolumeZonesType.NONE
 
 <a id="ansys.meshing.prime.CreateVolumeZonesType.NONE"></a>

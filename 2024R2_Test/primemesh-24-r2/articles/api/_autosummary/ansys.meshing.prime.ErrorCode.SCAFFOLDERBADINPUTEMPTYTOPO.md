@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-scaffolderbadinputemptytopo"></a>
-
 # ansys.meshing.prime.ErrorCode.SCAFFOLDERBADINPUTEMPTYTOPO
 
 <a id="ansys.meshing.prime.ErrorCode.SCAFFOLDERBADINPUTEMPTYTOPO"></a>

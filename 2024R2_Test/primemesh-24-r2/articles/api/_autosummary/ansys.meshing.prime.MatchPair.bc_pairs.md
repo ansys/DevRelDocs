@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-matchpair-bc-pairs"></a>
-
 # ansys.meshing.prime.MatchPair.bc_pairs
 
 <a id="ansys.meshing.prime.MatchPair.bc_pairs"></a>

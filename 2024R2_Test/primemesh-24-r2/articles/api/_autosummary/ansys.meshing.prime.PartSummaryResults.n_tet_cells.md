@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-partsummaryresults-n-tet-cells"></a>
-
 # ansys.meshing.prime.PartSummaryResults.n_tet_cells
 
 <a id="ansys.meshing.prime.PartSummaryResults.n_tet_cells"></a>

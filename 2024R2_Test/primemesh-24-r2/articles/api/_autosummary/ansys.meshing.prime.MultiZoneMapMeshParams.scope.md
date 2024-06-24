@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-multizonemapmeshparams-scope"></a>
-
 # ansys.meshing.prime.MultiZoneMapMeshParams.scope
 
 <a id="ansys.meshing.prime.MultiZoneMapMeshParams.scope"></a>

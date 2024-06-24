@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-morpher-match-morph"></a>
-
 # ansys.meshing.prime.Morpher.match_morph
 
 <a id="ansys.meshing.prime.Morpher.match_morph"></a>

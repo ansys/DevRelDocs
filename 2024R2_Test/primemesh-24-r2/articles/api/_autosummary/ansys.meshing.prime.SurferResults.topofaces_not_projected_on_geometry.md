@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surferresults-topofaces-not-projected-on-geometry"></a>
-
 # ansys.meshing.prime.SurferResults.topofaces_not_projected_on_geometry
 
 <a id="ansys.meshing.prime.SurferResults.topofaces_not_projected_on_geometry"></a>

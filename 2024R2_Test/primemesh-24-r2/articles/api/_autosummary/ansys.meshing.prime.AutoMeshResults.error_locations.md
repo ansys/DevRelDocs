@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-automeshresults-error-locations"></a>
-
 # ansys.meshing.prime.AutoMeshResults.error_locations
 
 <a id="ansys.meshing.prime.AutoMeshResults.error_locations"></a>

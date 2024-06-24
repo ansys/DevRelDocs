@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-automeshparams-volume-control-ids"></a>
-
 # ansys.meshing.prime.AutoMeshParams.volume_control_ids
 
 <a id="ansys.meshing.prime.AutoMeshParams.volume_control_ids"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-projectongeometryresults-error-code"></a>
-
 # ansys.meshing.prime.ProjectOnGeometryResults.error_code
 
 <a id="ansys.meshing.prime.ProjectOnGeometryResults.error_code"></a>

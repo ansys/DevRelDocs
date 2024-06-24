@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-checkfacedeviationresults-set-default"></a>
-
 # ansys.meshing.prime.CheckFaceDeviationResults.set_default
 
 <a id="ansys.meshing.prime.CheckFaceDeviationResults.set_default"></a>

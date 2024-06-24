@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fuseresults-fused-area"></a>
-
 # ansys.meshing.prime.FuseResults.fused_area
 
 <a id="ansys.meshing.prime.FuseResults.fused_area"></a>

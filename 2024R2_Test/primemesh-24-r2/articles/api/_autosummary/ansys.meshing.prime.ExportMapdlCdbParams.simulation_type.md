@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-exportmapdlcdbparams-simulation-type"></a>
-
 # ansys.meshing.prime.ExportMapdlCdbParams.simulation_type
 
 <a id="ansys.meshing.prime.ExportMapdlCdbParams.simulation_type"></a>

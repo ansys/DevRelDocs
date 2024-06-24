@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-part-get-name"></a>
-
 # ansys.meshing.prime.Part.get_name
 
 <a id="ansys.meshing.prime.Part.get_name"></a>

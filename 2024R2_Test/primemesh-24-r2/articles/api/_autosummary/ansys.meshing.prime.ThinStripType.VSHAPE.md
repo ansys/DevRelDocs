@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-thinstriptype-vshape"></a>
-
 # ansys.meshing.prime.ThinStripType.VSHAPE
 
 <a id="ansys.meshing.prime.ThinStripType.VSHAPE"></a>

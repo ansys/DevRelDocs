@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-stitchparams-remesh"></a>
-
 # ansys.meshing.prime.StitchParams.remesh
 
 <a id="ansys.meshing.prime.StitchParams.remesh"></a>

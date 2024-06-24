@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-cellstatisticsresults-volume"></a>
-
 # ansys.meshing.prime.CellStatisticsResults.volume
 
 <a id="ansys.meshing.prime.CellStatisticsResults.volume"></a>

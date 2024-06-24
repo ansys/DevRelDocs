@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-matchmorphresults-error-code"></a>
-
 # ansys.meshing.prime.MatchMorphResults.error_code
 
 <a id="ansys.meshing.prime.MatchMorphResults.error_code"></a>

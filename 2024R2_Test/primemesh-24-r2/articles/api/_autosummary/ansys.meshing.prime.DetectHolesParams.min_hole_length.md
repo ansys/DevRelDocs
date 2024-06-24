@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-detectholesparams-min-hole-length"></a>
-
 # ansys.meshing.prime.DetectHolesParams.min_hole_length
 
 <a id="ansys.meshing.prime.DetectHolesParams.min_hole_length"></a>

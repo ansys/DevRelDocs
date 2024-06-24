@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-setleakpreventionsresults-set-default"></a>
-
 # ansys.meshing.prime.SetLeakPreventionsResults.set_default
 
 <a id="ansys.meshing.prime.SetLeakPreventionsResults.set_default"></a>

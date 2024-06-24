@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-edgemergecontrol-freetofree"></a>
-
 # ansys.meshing.prime.EdgeMergeControl.FREETOFREE
 
 <a id="ansys.meshing.prime.EdgeMergeControl.FREETOFREE"></a>

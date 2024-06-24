@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-warningcode-localsurfernofaceregistered"></a>
-
 # ansys.meshing.prime.WarningCode.LOCALSURFERNOFACEREGISTERED
 
 <a id="ansys.meshing.prime.WarningCode.LOCALSURFERNOFACEREGISTERED"></a>

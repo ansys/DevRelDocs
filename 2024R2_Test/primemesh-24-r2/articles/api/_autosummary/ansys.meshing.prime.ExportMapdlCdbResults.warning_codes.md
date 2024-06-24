@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-exportmapdlcdbresults-warning-codes"></a>
-
 # ansys.meshing.prime.ExportMapdlCdbResults.warning_codes
 
 <a id="ansys.meshing.prime.ExportMapdlCdbResults.warning_codes"></a>

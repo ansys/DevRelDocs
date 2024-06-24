@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-subtractvolumesparams-ignore-face-zonelets"></a>
-
 # ansys.meshing.prime.SubtractVolumesParams.ignore_face_zonelets
 
 <a id="ansys.meshing.prime.SubtractVolumesParams.ignore_face_zonelets"></a>

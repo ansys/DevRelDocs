@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-deadregion-dead-material-points"></a>
-
 # ansys.meshing.prime.DeadRegion.dead_material_points
 
 <a id="ansys.meshing.prime.DeadRegion.dead_material_points"></a>

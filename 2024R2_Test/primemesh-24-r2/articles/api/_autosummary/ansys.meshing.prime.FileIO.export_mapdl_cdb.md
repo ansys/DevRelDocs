@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fileio-export-mapdl-cdb"></a>
-
 # ansys.meshing.prime.FileIO.export_mapdl_cdb
 
 <a id="ansys.meshing.prime.FileIO.export_mapdl_cdb"></a>

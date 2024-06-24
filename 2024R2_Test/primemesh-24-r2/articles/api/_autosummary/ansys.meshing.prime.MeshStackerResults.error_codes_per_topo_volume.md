@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-meshstackerresults-error-codes-per-topo-volume"></a>
-
 # ansys.meshing.prime.MeshStackerResults.error_codes_per_topo_volume
 
 <a id="ansys.meshing.prime.MeshStackerResults.error_codes_per_topo_volume"></a>

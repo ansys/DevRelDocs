@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-thinvolumecontrol-set-volume-scope"></a>
-
 # ansys.meshing.prime.ThinVolumeControl.set_volume_scope
 
 <a id="ansys.meshing.prime.ThinVolumeControl.set_volume_scope"></a>

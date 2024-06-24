@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-sizecontrol-set-soft-sizing-params"></a>
-
 # ansys.meshing.prime.SizeControl.set_soft_sizing_params
 
 <a id="ansys.meshing.prime.SizeControl.set_soft_sizing_params"></a>

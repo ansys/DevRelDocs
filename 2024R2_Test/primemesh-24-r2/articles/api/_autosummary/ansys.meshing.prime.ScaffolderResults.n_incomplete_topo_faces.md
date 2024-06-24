@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-scaffolderresults-n-incomplete-topo-faces"></a>
-
 # ansys.meshing.prime.ScaffolderResults.n_incomplete_topo_faces
 
 <a id="ansys.meshing.prime.ScaffolderResults.n_incomplete_topo_faces"></a>

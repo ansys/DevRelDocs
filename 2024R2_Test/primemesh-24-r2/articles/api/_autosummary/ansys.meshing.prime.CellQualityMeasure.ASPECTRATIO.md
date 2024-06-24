@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-cellqualitymeasure-aspectratio"></a>
-
 # ansys.meshing.prime.CellQualityMeasure.ASPECTRATIO
 
 <a id="ansys.meshing.prime.CellQualityMeasure.ASPECTRATIO"></a>
