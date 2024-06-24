@@ -53,7 +53,7 @@ Resets the failure criteria results for each layered element.
 
 #### *property* enabled
 
-Defines whether this object is currently enabled. Mainly defined through the current application mode pre or post.
+Defines whether this object is currently enabled. Mainly defined through the current application mode, ACP (Pre) or ACP (Post) - UNSUPPORTED.
 
 <a id="compolyx.Solution.export_results_to_csv"></a>
 
@@ -69,7 +69,7 @@ Exports the shell results of the selected entities to a .csv file.
   - solids: Boolean whether to take the results of the solid elements or not. Default is False (results of shells).
   - spots: Layer positions for which the results are exported. Allowed are ‘bot’, ‘mid’, ‘top’, ‘bot/top’, and ‘all’.
 
-Export results of solid models: Select the element set which is selected in the extrusion settings.
+Export results of solid models: Choose the element set which is selected in the extrusion settings.
 
 * **Usage:**
   ```pycon
@@ -142,7 +142,7 @@ Query results from the solution.
     CombinedFailureCriteria object or as string such as
     ‘strains’, ‘stresses’, ‘laminate_forces’, ‘deformations’, ‘temperatures’, or ‘progressive_damage’.
   - options: Dict with the additional options used to fully configure the definition.
-    - stresses: options={“eval_ins”:True} to enable the interlaminar normal stress evaluation for shells.
+    - stresses: options = ``{“eval_ins”:True}`` to enable the interlaminar normal stress evaluation for shells.
   - position: Position where data is queried:
     - nodal, centroid, element_nodal, integration_point, or element_results.
   - selection: The selection set determines the selected nodes and elements.
@@ -271,7 +271,7 @@ Clear Solution Sets of Envelope Solution.
 
 #### *property* enabled
 
-Whether this object is currently enabled or not. Mainly defined through the current application mode pre or post.
+Whether this object is currently enabled or not. Mainly defined through the current application mode, ACP (Pre) or ACP (Post) - UNSUPPORTED.
 
 <a id="compolyx.EnvelopeSolution.remove_solution_set"></a>
 

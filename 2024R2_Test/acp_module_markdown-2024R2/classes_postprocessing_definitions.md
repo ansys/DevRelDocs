@@ -39,37 +39,37 @@ For instance, MaxStressCriterion(s1=1, s2=1, s3=0, s12=1, s13=0, s23=0, wf_s1=1,
 
 #### *property* s1
 
-Specifies whether to compute max stress in 1 direction.
+Specifies whether to compute max stress in the material 1 direction.
 
 <a id="compolyx.MaxStressCriterion.s12"></a>
 
 #### *property* s12
 
-Specifies whether to compute max shear stress in 1 direction.
+Specifies whether to compute max shear stress in the material 1 direction.
 
 <a id="compolyx.MaxStressCriterion.s13"></a>
 
 #### *property* s13
 
-Specifies whether to compute max normal stress in 1 direction.
+Specifies whether to compute max normal stress in the material 1 direction.
 
 <a id="compolyx.MaxStressCriterion.s2"></a>
 
 #### *property* s2
 
-Specifies whether to compute max stress in 2 direction.
+Specifies whether to compute max stress in the material 2 direction.
 
 <a id="compolyx.MaxStressCriterion.s23"></a>
 
 #### *property* s23
 
-Specifies whether to compute max normal stress in 2 direction.
+Specifies whether to compute max normal stress in the material 2 direction.
 
 <a id="compolyx.MaxStressCriterion.s3"></a>
 
 #### *property* s3
 
-Specifies whether to compute max stress in 3 direction.
+Specifies whether to compute max stress in the material 3 direction.
 
 <a id="compolyx.MaxStressCriterion.serialize"></a>
 
