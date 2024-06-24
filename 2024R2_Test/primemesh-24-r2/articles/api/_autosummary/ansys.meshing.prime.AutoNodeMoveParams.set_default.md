@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-autonodemoveparams-set-default"></a>
-
 # ansys.meshing.prime.AutoNodeMoveParams.set_default
 
 <a id="ansys.meshing.prime.AutoNodeMoveParams.set_default"></a>

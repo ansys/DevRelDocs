@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-searchbyintersectionresults-error-code"></a>
-
 # ansys.meshing.prime.SearchByIntersectionResults.error_code
 
 <a id="ansys.meshing.prime.SearchByIntersectionResults.error_code"></a>

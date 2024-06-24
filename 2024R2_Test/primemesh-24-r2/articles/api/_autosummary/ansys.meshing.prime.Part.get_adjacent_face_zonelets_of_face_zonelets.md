@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-part-get-adjacent-face-zonelets-of-face-zonelets"></a>
-
 # ansys.meshing.prime.Part.get_adjacent_face_zonelets_of_face_zonelets
 
 <a id="ansys.meshing.prime.Part.get_adjacent_face_zonelets_of_face_zonelets"></a>

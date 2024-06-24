@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-scaffolderinvalidabsolutedistol"></a>
-
 # ansys.meshing.prime.ErrorCode.SCAFFOLDERINVALIDABSOLUTEDISTOL
 
 <a id="ansys.meshing.prime.ErrorCode.SCAFFOLDERINVALIDABSOLUTEDISTOL"></a>

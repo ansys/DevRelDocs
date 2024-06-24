@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-detectandtreatfeaturesparams-treat-circular-faces-params"></a>
-
 # ansys.meshing.prime.DetectAndTreatFeaturesParams.treat_circular_faces_params
 
 <a id="ansys.meshing.prime.DetectAndTreatFeaturesParams.treat_circular_faces_params"></a>

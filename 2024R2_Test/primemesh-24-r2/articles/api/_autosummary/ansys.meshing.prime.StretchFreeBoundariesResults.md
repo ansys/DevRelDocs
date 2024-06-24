@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="stretchfreeboundariesresults"></a>
-
 # StretchFreeBoundariesResults
 
 <a id="ansys.meshing.prime.StretchFreeBoundariesResults"></a>
@@ -30,12 +28,14 @@ Results associated with stretch free boundaries operation.
 
 ### Methods
 
-| [`StretchFreeBoundariesResults.print_default`](ansys.meshing.prime.StretchFreeBoundariesResults.print_default.md#ansys.meshing.prime.StretchFreeBoundariesResults.print_default)()   | Print the default values of `StretchFreeBoundariesResults` object.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
+| [`StretchFreeBoundariesResults.print_default`](ansys.meshing.prime.StretchFreeBoundariesResults.print_default.md#ansys.meshing.prime.StretchFreeBoundariesResults.print_default)()   | Print the default values of `StretchFreeBoundariesResults` object.   |
 | [`StretchFreeBoundariesResults.set_default`](ansys.meshing.prime.StretchFreeBoundariesResults.set_default.md#ansys.meshing.prime.StretchFreeBoundariesResults.set_default)([...])    | Set the default values of the `StretchFreeBoundariesResults` object. |
 
 ### Attributes
 
-| [`StretchFreeBoundariesResults.error_code`](ansys.meshing.prime.StretchFreeBoundariesResults.error_code.md#ansys.meshing.prime.StretchFreeBoundariesResults.error_code)   | Error code associated with failure of operation.   |
+| Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
+| [`StretchFreeBoundariesResults.error_code`](ansys.meshing.prime.StretchFreeBoundariesResults.error_code.md#ansys.meshing.prime.StretchFreeBoundariesResults.error_code)   | Error code associated with failure of operation.   |
 <!-- vale on -->

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-exportfluentcasefailed"></a>
-
 # ansys.meshing.prime.ErrorCode.EXPORTFLUENTCASEFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.EXPORTFLUENTCASEFAILED"></a>

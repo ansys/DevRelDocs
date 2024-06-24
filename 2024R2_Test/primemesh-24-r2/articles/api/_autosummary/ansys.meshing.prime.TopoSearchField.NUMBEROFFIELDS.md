@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-toposearchfield-numberoffields"></a>
-
 # ansys.meshing.prime.TopoSearchField.NUMBEROFFIELDS
 
 <a id="ansys.meshing.prime.TopoSearchField.NUMBEROFFIELDS"></a>

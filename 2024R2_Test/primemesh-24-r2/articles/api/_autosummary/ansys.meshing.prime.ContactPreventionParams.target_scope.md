@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-contactpreventionparams-target-scope"></a>
-
 # ansys.meshing.prime.ContactPreventionParams.target_scope
 
 <a id="ansys.meshing.prime.ContactPreventionParams.target_scope"></a>

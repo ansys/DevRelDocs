@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fileio-read-size-field"></a>
-
 # ansys.meshing.prime.FileIO.read_size_field
 
 <a id="ansys.meshing.prime.FileIO.read_size_field"></a>

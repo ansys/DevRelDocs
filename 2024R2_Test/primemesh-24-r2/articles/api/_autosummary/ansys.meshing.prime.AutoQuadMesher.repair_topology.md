@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-autoquadmesher-repair-topology"></a>
-
 # ansys.meshing.prime.AutoQuadMesher.repair_topology
 
 <a id="ansys.meshing.prime.AutoQuadMesher.repair_topology"></a>

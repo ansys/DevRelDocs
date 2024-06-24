@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="thinvolumemeshparams"></a>
-
 # ThinVolumeMeshParams
 
 <a id="ansys.meshing.prime.ThinVolumeMeshParams"></a>
@@ -36,14 +34,16 @@ Parameters to generate thin volume mesh. This is for internal use only.
 
 ### Methods
 
-| [`ThinVolumeMeshParams.print_default`](ansys.meshing.prime.ThinVolumeMeshParams.print_default.md#ansys.meshing.prime.ThinVolumeMeshParams.print_default)()          | Print the default values of `ThinVolumeMeshParams` object.   |
+| Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| [`ThinVolumeMeshParams.print_default`](ansys.meshing.prime.ThinVolumeMeshParams.print_default.md#ansys.meshing.prime.ThinVolumeMeshParams.print_default)()          | Print the default values of `ThinVolumeMeshParams` object.   |
 | [`ThinVolumeMeshParams.set_default`](ansys.meshing.prime.ThinVolumeMeshParams.set_default.md#ansys.meshing.prime.ThinVolumeMeshParams.set_default)([n_layers, ...]) | Set the default values of the `ThinVolumeMeshParams` object. |
 
 ### Attributes
 
-| [`ThinVolumeMeshParams.imprint_sides`](ansys.meshing.prime.ThinVolumeMeshParams.imprint_sides.md#ansys.meshing.prime.ThinVolumeMeshParams.imprint_sides)    | Checks whether to imprint quad faces on side zonelets.                    |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
+| [`ThinVolumeMeshParams.imprint_sides`](ansys.meshing.prime.ThinVolumeMeshParams.imprint_sides.md#ansys.meshing.prime.ThinVolumeMeshParams.imprint_sides)    | Checks whether to imprint quad faces on side zonelets.                    |
 | [`ThinVolumeMeshParams.n_ignore_rings`](ansys.meshing.prime.ThinVolumeMeshParams.n_ignore_rings.md#ansys.meshing.prime.ThinVolumeMeshParams.n_ignore_rings) | Number of rings of cells at the sides to ignore when no imprint on sides. |
 | [`ThinVolumeMeshParams.n_layers`](ansys.meshing.prime.ThinVolumeMeshParams.n_layers.md#ansys.meshing.prime.ThinVolumeMeshParams.n_layers)                   | Number of thin volume layers to be generated.                             |
 <!-- vale on -->

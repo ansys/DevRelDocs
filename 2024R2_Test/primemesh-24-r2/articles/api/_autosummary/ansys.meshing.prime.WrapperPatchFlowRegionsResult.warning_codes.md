@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapperpatchflowregionsresult-warning-codes"></a>
-
 # ansys.meshing.prime.WrapperPatchFlowRegionsResult.warning_codes
 
 <a id="ansys.meshing.prime.WrapperPatchFlowRegionsResult.warning_codes"></a>

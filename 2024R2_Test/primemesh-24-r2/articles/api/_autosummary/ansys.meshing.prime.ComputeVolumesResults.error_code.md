@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-computevolumesresults-error-code"></a>
-
 # ansys.meshing.prime.ComputeVolumesResults.error_code
 
 <a id="ansys.meshing.prime.ComputeVolumesResults.error_code"></a>

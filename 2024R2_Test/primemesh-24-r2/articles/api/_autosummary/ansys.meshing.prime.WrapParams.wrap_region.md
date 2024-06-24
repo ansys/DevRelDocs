@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapparams-wrap-region"></a>
-
 # ansys.meshing.prime.WrapParams.wrap_region
 
 <a id="ansys.meshing.prime.WrapParams.wrap_region"></a>

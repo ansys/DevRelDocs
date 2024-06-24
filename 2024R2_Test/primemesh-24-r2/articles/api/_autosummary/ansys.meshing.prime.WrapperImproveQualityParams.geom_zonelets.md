@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapperimprovequalityparams-geom-zonelets"></a>
-
 # ansys.meshing.prime.WrapperImproveQualityParams.geom_zonelets
 
 <a id="ansys.meshing.prime.WrapperImproveQualityParams.geom_zonelets"></a>

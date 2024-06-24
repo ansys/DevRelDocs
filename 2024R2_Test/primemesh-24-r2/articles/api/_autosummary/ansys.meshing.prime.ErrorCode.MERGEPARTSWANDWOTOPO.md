@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-mergepartswandwotopo"></a>
-
 # ansys.meshing.prime.ErrorCode.MERGEPARTSWANDWOTOPO
 
 <a id="ansys.meshing.prime.ErrorCode.MERGEPARTSWANDWOTOPO"></a>

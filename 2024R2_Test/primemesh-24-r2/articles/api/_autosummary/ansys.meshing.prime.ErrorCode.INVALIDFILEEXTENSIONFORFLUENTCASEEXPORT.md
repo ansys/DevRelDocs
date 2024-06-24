@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-invalidfileextensionforfluentcaseexport"></a>
-
 # ansys.meshing.prime.ErrorCode.INVALIDFILEEXTENSIONFORFLUENTCASEEXPORT
 
 <a id="ansys.meshing.prime.ErrorCode.INVALIDFILEEXTENSIONFORFLUENTCASEEXPORT"></a>

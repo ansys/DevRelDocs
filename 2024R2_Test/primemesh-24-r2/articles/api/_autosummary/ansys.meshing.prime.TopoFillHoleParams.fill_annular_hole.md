@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-topofillholeparams-fill-annular-hole"></a>
-
 # ansys.meshing.prime.TopoFillHoleParams.fill_annular_hole
 
 <a id="ansys.meshing.prime.TopoFillHoleParams.fill_annular_hole"></a>

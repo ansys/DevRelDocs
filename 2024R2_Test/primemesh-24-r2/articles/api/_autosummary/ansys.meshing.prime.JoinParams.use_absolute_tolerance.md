@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-joinparams-use-absolute-tolerance"></a>
-
 # ansys.meshing.prime.JoinParams.use_absolute_tolerance
 
 <a id="ansys.meshing.prime.JoinParams.use_absolute_tolerance"></a>

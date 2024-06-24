@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-partialdefeatureparams-edge-sharp-corner-angle"></a>
-
 # ansys.meshing.prime.PartialDefeatureParams.edge_sharp_corner_angle
 
 <a id="ansys.meshing.prime.PartialDefeatureParams.edge_sharp_corner_angle"></a>

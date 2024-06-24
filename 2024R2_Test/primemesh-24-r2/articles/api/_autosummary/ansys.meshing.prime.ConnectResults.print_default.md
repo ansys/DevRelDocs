@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-connectresults-print-default"></a>
-
 # ansys.meshing.prime.ConnectResults.print_default
 
 <a id="ansys.meshing.prime.ConnectResults.print_default"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfaceutilities-create-boi"></a>
-
 # ansys.meshing.prime.SurfaceUtilities.create_boi
 
 <a id="ansys.meshing.prime.SurfaceUtilities.create_boi"></a>

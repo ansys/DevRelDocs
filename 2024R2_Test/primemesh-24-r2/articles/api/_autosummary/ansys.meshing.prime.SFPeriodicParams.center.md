@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-sfperiodicparams-center"></a>
-
 # ansys.meshing.prime.SFPeriodicParams.center
 
 <a id="ansys.meshing.prime.SFPeriodicParams.center"></a>

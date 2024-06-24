@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapparams-size-field-ids"></a>
-
 # ansys.meshing.prime.WrapParams.size_field_ids
 
 <a id="ansys.meshing.prime.WrapParams.size_field_ids"></a>

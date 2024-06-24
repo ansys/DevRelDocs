@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-projectongeometryresults-success"></a>
-
 # ansys.meshing.prime.ProjectOnGeometryResults.success
 
 <a id="ansys.meshing.prime.ProjectOnGeometryResults.success"></a>

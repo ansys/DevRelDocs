@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-boundingbox-ymin"></a>
-
 # ansys.meshing.prime.BoundingBox.ymin
 
 <a id="ansys.meshing.prime.BoundingBox.ymin"></a>

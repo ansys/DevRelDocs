@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-exportlsdynakeywordfileparams-output-format"></a>
-
 # ansys.meshing.prime.ExportLSDynaKeywordFileParams.output_format
 
 <a id="ansys.meshing.prime.ExportLSDynaKeywordFileParams.output_format"></a>

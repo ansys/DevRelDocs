@@ -1,17 +1,13 @@
-<a id="ref-index-matchmorph"></a>
-
-<a id="match-morphing"></a>
-
 # Match morphing
 
-[`Morpher.match_morph()`](../api/_autosummary/ansys.meshing.prime.Morpher.match_morph.md#ansys.meshing.prime.Morpher.match_morph) method performs face to face entity matching, providing the ability to match face pairs using match pairs.
-The method allows the source face to match with the corresponding target face. [`MatchPair`](../api/_autosummary/ansys.meshing.prime.MatchPair.md#ansys.meshing.prime.MatchPair) allows you to specify sources and targets for
+[`Morpher.match_morph()`](./../api/_autosummary/ansys.meshing.prime.Morpher.match_morph.md#ansys.meshing.prime.Morpher.match_morph) method performs face to face entity matching, providing the ability to match face pairs using match pairs.
+The method allows the source face to match with the corresponding target face. [`MatchPair`](./../api/_autosummary/ansys.meshing.prime.MatchPair.md#ansys.meshing.prime.MatchPair) allows you to specify sources and targets for
 match morphing.
 
 #### NOTE
 Match pairs should have the same type of entities for matching.
 
-[`Morpher.match_morph()`](../api/_autosummary/ansys.meshing.prime.Morpher.match_morph.md#ansys.meshing.prime.Morpher.match_morph) performs the following:
+[`Morpher.match_morph()`](./../api/_autosummary/ansys.meshing.prime.Morpher.match_morph.md#ansys.meshing.prime.Morpher.match_morph) performs the following:
 
 - Matches the boundaries of the source and targets using the specified boundary condition pairs.
 - Matches the source entities to the target entities using the specified match pairs.

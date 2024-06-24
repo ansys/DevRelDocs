@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-periodiccontrolparams-print-default"></a>
-
 # ansys.meshing.prime.PeriodicControlParams.print_default
 
 <a id="ansys.meshing.prime.PeriodicControlParams.print_default"></a>

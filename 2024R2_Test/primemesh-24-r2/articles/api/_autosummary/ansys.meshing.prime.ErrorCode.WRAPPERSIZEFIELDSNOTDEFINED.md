@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-wrappersizefieldsnotdefined"></a>
-
 # ansys.meshing.prime.ErrorCode.WRAPPERSIZEFIELDSNOTDEFINED
 
 <a id="ansys.meshing.prime.ErrorCode.WRAPPERSIZEFIELDSNOTDEFINED"></a>

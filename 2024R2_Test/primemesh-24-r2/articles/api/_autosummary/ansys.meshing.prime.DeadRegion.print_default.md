@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-deadregion-print-default"></a>
-
 # ansys.meshing.prime.DeadRegion.print_default
 
 <a id="ansys.meshing.prime.DeadRegion.print_default"></a>

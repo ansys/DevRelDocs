@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapperclosegapsresult-part-id"></a>
-
 # ansys.meshing.prime.WrapperCloseGapsResult.part_id
 
 <a id="ansys.meshing.prime.WrapperCloseGapsResult.part_id"></a>

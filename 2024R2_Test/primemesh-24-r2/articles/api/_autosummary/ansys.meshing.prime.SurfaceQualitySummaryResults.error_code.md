@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfacequalitysummaryresults-error-code"></a>
-
 # ansys.meshing.prime.SurfaceQualitySummaryResults.error_code
 
 <a id="ansys.meshing.prime.SurfaceQualitySummaryResults.error_code"></a>

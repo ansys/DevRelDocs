@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-transformparams-transformation-matrix"></a>
-
 # ansys.meshing.prime.TransformParams.transformation_matrix
 
 <a id="ansys.meshing.prime.TransformParams.transformation_matrix"></a>

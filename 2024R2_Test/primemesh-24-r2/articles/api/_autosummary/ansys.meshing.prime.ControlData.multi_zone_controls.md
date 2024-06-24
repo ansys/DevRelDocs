@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-controldata-multi-zone-controls"></a>
-
 # ansys.meshing.prime.ControlData.multi_zone_controls
 
 <a id="ansys.meshing.prime.ControlData.multi_zone_controls"></a>

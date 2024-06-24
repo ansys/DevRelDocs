@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-projectongeometryresults-print-default"></a>
-
 # ansys.meshing.prime.ProjectOnGeometryResults.print_default
 
 <a id="ansys.meshing.prime.ProjectOnGeometryResults.print_default"></a>

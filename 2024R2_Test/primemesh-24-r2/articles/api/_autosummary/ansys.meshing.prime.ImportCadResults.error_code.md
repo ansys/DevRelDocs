@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-importcadresults-error-code"></a>
-
 # ansys.meshing.prime.ImportCadResults.error_code
 
 <a id="ansys.meshing.prime.ImportCadResults.error_code"></a>

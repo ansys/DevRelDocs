@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-collapseparams-feature-type"></a>
-
 # ansys.meshing.prime.CollapseParams.feature_type
 
 <a id="ansys.meshing.prime.CollapseParams.feature_type"></a>

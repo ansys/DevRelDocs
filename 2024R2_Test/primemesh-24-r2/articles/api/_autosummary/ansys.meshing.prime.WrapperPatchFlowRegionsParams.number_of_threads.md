@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapperpatchflowregionsparams-number-of-threads"></a>
-
 # ansys.meshing.prime.WrapperPatchFlowRegionsParams.number_of_threads
 
 <a id="ansys.meshing.prime.WrapperPatchFlowRegionsParams.number_of_threads"></a>

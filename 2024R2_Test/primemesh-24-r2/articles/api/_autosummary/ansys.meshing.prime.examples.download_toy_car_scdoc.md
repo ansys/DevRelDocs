@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-examples-download-toy-car-scdoc"></a>
-
 # ansys.meshing.prime.examples.download_toy_car_scdoc
 
 <a id="ansys.meshing.prime.examples.download_toy_car_scdoc"></a>

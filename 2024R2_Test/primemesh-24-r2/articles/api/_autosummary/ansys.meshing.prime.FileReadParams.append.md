@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-filereadparams-append"></a>
-
 # ansys.meshing.prime.FileReadParams.append
 
 <a id="ansys.meshing.prime.FileReadParams.append"></a>

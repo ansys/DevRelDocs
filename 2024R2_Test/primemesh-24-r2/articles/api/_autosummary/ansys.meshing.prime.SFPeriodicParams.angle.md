@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-sfperiodicparams-angle"></a>
-
 # ansys.meshing.prime.SFPeriodicParams.angle
 
 <a id="ansys.meshing.prime.SFPeriodicParams.angle"></a>

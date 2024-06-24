@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrappercontrol-id"></a>
-
 # ansys.meshing.prime.WrapperControl.id
 
 <a id="ansys.meshing.prime.WrapperControl.id"></a>

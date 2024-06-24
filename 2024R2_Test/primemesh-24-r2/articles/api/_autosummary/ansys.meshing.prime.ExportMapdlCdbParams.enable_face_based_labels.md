@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-exportmapdlcdbparams-enable-face-based-labels"></a>
-
 # ansys.meshing.prime.ExportMapdlCdbParams.enable_face_based_labels
 
 <a id="ansys.meshing.prime.ExportMapdlCdbParams.enable_face_based_labels"></a>

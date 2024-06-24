@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-flowdirection-z"></a>
-
 # ansys.meshing.prime.FlowDirection.Z
 
 <a id="ansys.meshing.prime.FlowDirection.Z"></a>

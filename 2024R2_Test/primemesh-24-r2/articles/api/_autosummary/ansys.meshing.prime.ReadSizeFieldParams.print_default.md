@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-readsizefieldparams-print-default"></a>
-
 # ansys.meshing.prime.ReadSizeFieldParams.print_default
 
 <a id="ansys.meshing.prime.ReadSizeFieldParams.print_default"></a>

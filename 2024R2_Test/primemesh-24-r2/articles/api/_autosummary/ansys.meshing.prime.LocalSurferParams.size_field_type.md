@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-localsurferparams-size-field-type"></a>
-
 # ansys.meshing.prime.LocalSurferParams.size_field_type
 
 <a id="ansys.meshing.prime.LocalSurferParams.size_field_type"></a>

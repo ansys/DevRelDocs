@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fuseparams-use-absolute-tolerance"></a>
-
 # ansys.meshing.prime.FuseParams.use_absolute_tolerance
 
 <a id="ansys.meshing.prime.FuseParams.use_absolute_tolerance"></a>

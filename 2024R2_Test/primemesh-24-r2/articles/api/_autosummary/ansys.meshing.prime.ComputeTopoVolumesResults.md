@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="computetopovolumesresults"></a>
-
 # ComputeTopoVolumesResults
 
 <a id="ansys.meshing.prime.ComputeTopoVolumesResults"></a>
@@ -51,14 +49,16 @@ Results associated with compute topovolumes.
 
 ### Methods
 
-| [`ComputeTopoVolumesResults.print_default`](ansys.meshing.prime.ComputeTopoVolumesResults.print_default.md#ansys.meshing.prime.ComputeTopoVolumesResults.print_default)()   | Print the default values of `ComputeTopoVolumesResults` object.   |
+| Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| [`ComputeTopoVolumesResults.print_default`](ansys.meshing.prime.ComputeTopoVolumesResults.print_default.md#ansys.meshing.prime.ComputeTopoVolumesResults.print_default)()   | Print the default values of `ComputeTopoVolumesResults` object.   |
 | [`ComputeTopoVolumesResults.set_default`](ansys.meshing.prime.ComputeTopoVolumesResults.set_default.md#ansys.meshing.prime.ComputeTopoVolumesResults.set_default)([...])    | Set the default values of the `ComputeTopoVolumesResults` object. |
 
 ### Attributes
 
-| [`ComputeTopoVolumesResults.deleted_topo_volumes`](ansys.meshing.prime.ComputeTopoVolumesResults.deleted_topo_volumes.md#ansys.meshing.prime.ComputeTopoVolumesResults.deleted_topo_volumes)                      | Ids of existing topovolumes that got deleted.                            |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| [`ComputeTopoVolumesResults.deleted_topo_volumes`](ansys.meshing.prime.ComputeTopoVolumesResults.deleted_topo_volumes.md#ansys.meshing.prime.ComputeTopoVolumesResults.deleted_topo_volumes)                      | Ids of existing topovolumes that got deleted.                            |
 | [`ComputeTopoVolumesResults.error_code`](ansys.meshing.prime.ComputeTopoVolumesResults.error_code.md#ansys.meshing.prime.ComputeTopoVolumesResults.error_code)                                                    | Error code associated with the failure of operation.                     |
 | [`ComputeTopoVolumesResults.error_locations`](ansys.meshing.prime.ComputeTopoVolumesResults.error_locations.md#ansys.meshing.prime.ComputeTopoVolumesResults.error_locations)                                     | Coordinates of problematic locations in the surface mesh.                |
 | [`ComputeTopoVolumesResults.external_open_topo_faces`](ansys.meshing.prime.ComputeTopoVolumesResults.external_open_topo_faces.md#ansys.meshing.prime.ComputeTopoVolumesResults.external_open_topo_faces)          | Topoface ids that are in external space and not part of any topovolumes. |

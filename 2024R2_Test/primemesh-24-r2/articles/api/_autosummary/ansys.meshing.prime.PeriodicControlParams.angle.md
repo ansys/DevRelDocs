@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-periodiccontrolparams-angle"></a>
-
 # ansys.meshing.prime.PeriodicControlParams.angle
 
 <a id="ansys.meshing.prime.PeriodicControlParams.angle"></a>

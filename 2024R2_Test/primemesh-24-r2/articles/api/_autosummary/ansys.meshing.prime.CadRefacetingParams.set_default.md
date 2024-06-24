@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-cadrefacetingparams-set-default"></a>
-
 # ansys.meshing.prime.CadRefacetingParams.set_default
 
 <a id="ansys.meshing.prime.CadRefacetingParams.set_default"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-invalidfirstaspectratio"></a>
-
 # ansys.meshing.prime.ErrorCode.INVALIDFIRSTASPECTRATIO
 
 <a id="ansys.meshing.prime.ErrorCode.INVALIDFIRSTASPECTRATIO"></a>

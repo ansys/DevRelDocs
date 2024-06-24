@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-warningcode-unprocessedkeywordsinabaqusfile"></a>
-
 # ansys.meshing.prime.WarningCode.UNPROCESSEDKEYWORDSINABAQUSFILE
 
 <a id="ansys.meshing.prime.WarningCode.UNPROCESSEDKEYWORDSINABAQUSFILE"></a>

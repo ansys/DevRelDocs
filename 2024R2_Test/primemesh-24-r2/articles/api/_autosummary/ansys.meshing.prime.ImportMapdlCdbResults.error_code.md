@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-importmapdlcdbresults-error-code"></a>
-
 # ansys.meshing.prime.ImportMapdlCdbResults.error_code
 
 <a id="ansys.meshing.prime.ImportMapdlCdbResults.error_code"></a>

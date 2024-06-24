@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-extractfeatureparams-set-default"></a>
-
 # ansys.meshing.prime.ExtractFeatureParams.set_default
 
 <a id="ansys.meshing.prime.ExtractFeatureParams.set_default"></a>

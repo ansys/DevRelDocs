@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-topofillholeresult-error-code"></a>
-
 # ansys.meshing.prime.TopoFillHoleResult.error_code
 
 <a id="ansys.meshing.prime.TopoFillHoleResult.error_code"></a>

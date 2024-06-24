@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-scaffolderinvalidconstantmeshsize"></a>
-
 # ansys.meshing.prime.ErrorCode.SCAFFOLDERINVALIDCONSTANTMESHSIZE
 
 <a id="ansys.meshing.prime.ErrorCode.SCAFFOLDERINVALIDCONSTANTMESHSIZE"></a>

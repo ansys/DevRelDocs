@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapperimprovequalityparams-island-tol"></a>
-
 # ansys.meshing.prime.WrapperImproveQualityParams.island_tol
 
 <a id="ansys.meshing.prime.WrapperImproveQualityParams.island_tol"></a>

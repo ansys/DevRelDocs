@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapparams-imprint-relative-range"></a>
-
 # ansys.meshing.prime.WrapParams.imprint_relative_range
 
 <a id="ansys.meshing.prime.WrapParams.imprint_relative_range"></a>

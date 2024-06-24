@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="surfacesearch"></a>
-
 # SurfaceSearch
 
 <a id="ansys.meshing.prime.SurfaceSearch"></a>
@@ -20,8 +18,9 @@ SurfaceSearch performs surface mesh quality check based on different face qualit
 
 ### Methods
 
-| [`SurfaceSearch.check_face_deviation`](ansys.meshing.prime.SurfaceSearch.check_face_deviation.md#ansys.meshing.prime.SurfaceSearch.check_face_deviation)(...)                                                    | Gets information regarding the number of faces with a deviation higher than the tolerance.                |
+| Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
+| [`SurfaceSearch.check_face_deviation`](ansys.meshing.prime.SurfaceSearch.check_face_deviation.md#ansys.meshing.prime.SurfaceSearch.check_face_deviation)(...)                                                    | Gets information regarding the number of faces with a deviation higher than the tolerance.                |
 | [`SurfaceSearch.get_search_info_by_register_id`](ansys.meshing.prime.SurfaceSearch.get_search_info_by_register_id.md#ansys.meshing.prime.SurfaceSearch.get_search_info_by_register_id)(...)                      | Gets search information regarding registered face elements of provided zonelets using a register id.      |
 | [`SurfaceSearch.get_surface_diagnostic_summary`](ansys.meshing.prime.SurfaceSearch.get_surface_diagnostic_summary.md#ansys.meshing.prime.SurfaceSearch.get_surface_diagnostic_summary)(params)                   | Gets the surface diagnostic summary.                                                                      |
 | [`SurfaceSearch.get_surface_quality_summary`](ansys.meshing.prime.SurfaceSearch.get_surface_quality_summary.md#ansys.meshing.prime.SurfaceSearch.get_surface_quality_summary)(params)                            | Gets the surface quality summary.                                                                         |

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-readmeshfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.READMESHFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.READMESHFAILED"></a>

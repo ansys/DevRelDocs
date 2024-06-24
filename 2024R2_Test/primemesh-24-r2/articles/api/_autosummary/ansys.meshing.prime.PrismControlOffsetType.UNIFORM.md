@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-prismcontroloffsettype-uniform"></a>
-
 # ansys.meshing.prime.PrismControlOffsetType.UNIFORM
 
 <a id="ansys.meshing.prime.PrismControlOffsetType.UNIFORM"></a>

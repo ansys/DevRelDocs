@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-warningcode-invalidentitiesnotaddedtozone"></a>
-
 # ansys.meshing.prime.WarningCode.INVALIDENTITIESNOTADDEDTOZONE
 
 <a id="ansys.meshing.prime.WarningCode.INVALIDENTITIESNOTADDEDTOZONE"></a>

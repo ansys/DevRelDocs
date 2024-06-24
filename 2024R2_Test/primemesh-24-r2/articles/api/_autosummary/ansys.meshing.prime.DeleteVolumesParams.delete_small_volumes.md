@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-deletevolumesparams-delete-small-volumes"></a>
-
 # ansys.meshing.prime.DeleteVolumesParams.delete_small_volumes
 
 <a id="ansys.meshing.prime.DeleteVolumesParams.delete_small_volumes"></a>

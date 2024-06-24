@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-mergeboundarynodesresults-error-code"></a>
-
 # ansys.meshing.prime.MergeBoundaryNodesResults.error_code
 
 <a id="ansys.meshing.prime.MergeBoundaryNodesResults.error_code"></a>

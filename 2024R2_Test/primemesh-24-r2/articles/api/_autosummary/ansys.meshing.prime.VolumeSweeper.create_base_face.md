@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-volumesweeper-create-base-face"></a>
-
 # ansys.meshing.prime.VolumeSweeper.create_base_face
 
 <a id="ansys.meshing.prime.VolumeSweeper.create_base_face"></a>

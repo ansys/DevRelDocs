@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-cellseparationfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.CELLSEPARATIONFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.CELLSEPARATIONFAILED"></a>

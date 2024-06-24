@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-warningcode-maxofprismcontrolsminaspectratio"></a>
-
 # ansys.meshing.prime.WarningCode.MAXOFPRISMCONTROLSMINASPECTRATIO
 
 <a id="ansys.meshing.prime.WarningCode.MAXOFPRISMCONTROLSMINASPECTRATIO"></a>

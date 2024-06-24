@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-lengthunit-um"></a>
-
 # ansys.meshing.prime.LengthUnit.UM
 
 <a id="ansys.meshing.prime.LengthUnit.UM"></a>

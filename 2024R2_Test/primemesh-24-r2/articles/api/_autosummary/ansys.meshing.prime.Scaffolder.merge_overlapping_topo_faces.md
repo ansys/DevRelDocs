@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-scaffolder-merge-overlapping-topo-faces"></a>
-
 # ansys.meshing.prime.Scaffolder.merge_overlapping_topo_faces
 
 <a id="ansys.meshing.prime.Scaffolder.merge_overlapping_topo_faces"></a>

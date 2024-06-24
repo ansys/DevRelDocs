@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-meshstackerparams-delete-base"></a>
-
 # ansys.meshing.prime.MeshStackerParams.delete_base
 
 <a id="ansys.meshing.prime.MeshStackerParams.delete_base"></a>

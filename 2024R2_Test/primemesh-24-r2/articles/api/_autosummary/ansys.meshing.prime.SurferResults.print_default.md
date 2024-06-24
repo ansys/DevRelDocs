@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surferresults-print-default"></a>
-
 # ansys.meshing.prime.SurferResults.print_default
 
 <a id="ansys.meshing.prime.SurferResults.print_default"></a>

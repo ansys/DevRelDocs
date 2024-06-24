@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfaceutilities-delete-unwetted-surfaces"></a>
-
 # ansys.meshing.prime.SurfaceUtilities.delete_unwetted_surfaces
 
 <a id="ansys.meshing.prime.SurfaceUtilities.delete_unwetted_surfaces"></a>

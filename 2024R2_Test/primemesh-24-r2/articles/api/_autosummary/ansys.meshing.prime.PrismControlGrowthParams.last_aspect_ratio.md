@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-prismcontrolgrowthparams-last-aspect-ratio"></a>
-
 # ansys.meshing.prime.PrismControlGrowthParams.last_aspect_ratio
 
 <a id="ansys.meshing.prime.PrismControlGrowthParams.last_aspect_ratio"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-createboiparams-number-of-threads"></a>
-
 # ansys.meshing.prime.CreateBOIParams.number_of_threads
 
 <a id="ansys.meshing.prime.CreateBOIParams.number_of_threads"></a>

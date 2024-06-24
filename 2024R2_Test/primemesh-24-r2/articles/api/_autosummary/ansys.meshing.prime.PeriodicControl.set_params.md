@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-periodiccontrol-set-params"></a>
-
 # ansys.meshing.prime.PeriodicControl.set_params
 
 <a id="ansys.meshing.prime.PeriodicControl.set_params"></a>

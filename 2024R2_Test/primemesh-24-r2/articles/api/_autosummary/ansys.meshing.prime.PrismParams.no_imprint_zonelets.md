@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-prismparams-no-imprint-zonelets"></a>
-
 # ansys.meshing.prime.PrismParams.no_imprint_zonelets
 
 <a id="ansys.meshing.prime.PrismParams.no_imprint_zonelets"></a>

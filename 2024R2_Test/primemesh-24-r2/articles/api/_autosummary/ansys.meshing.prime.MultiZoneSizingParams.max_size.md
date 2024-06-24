@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-multizonesizingparams-max-size"></a>
-
 # ansys.meshing.prime.MultiZoneSizingParams.max_size
 
 <a id="ansys.meshing.prime.MultiZoneSizingParams.max_size"></a>

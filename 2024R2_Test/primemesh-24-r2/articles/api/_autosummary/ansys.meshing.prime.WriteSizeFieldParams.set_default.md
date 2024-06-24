@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-writesizefieldparams-set-default"></a>
-
 # ansys.meshing.prime.WriteSizeFieldParams.set_default
 
 <a id="ansys.meshing.prime.WriteSizeFieldParams.set_default"></a>

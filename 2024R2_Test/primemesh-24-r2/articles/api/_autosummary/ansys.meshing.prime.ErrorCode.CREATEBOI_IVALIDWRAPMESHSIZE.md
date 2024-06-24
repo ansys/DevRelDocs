@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-createboi-ivalidwrapmeshsize"></a>
-
 # ansys.meshing.prime.ErrorCode.CREATEBOI_IVALIDWRAPMESHSIZE
 
 <a id="ansys.meshing.prime.ErrorCode.CREATEBOI_IVALIDWRAPMESHSIZE"></a>

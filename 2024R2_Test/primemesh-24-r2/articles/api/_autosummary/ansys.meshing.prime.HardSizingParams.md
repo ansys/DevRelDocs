@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="hardsizingparams"></a>
-
 # HardSizingParams
 
 <a id="ansys.meshing.prime.HardSizingParams"></a>
@@ -35,13 +33,15 @@ The hard sizing will override any other specified size.
 
 ### Methods
 
-| [`HardSizingParams.print_default`](ansys.meshing.prime.HardSizingParams.print_default.md#ansys.meshing.prime.HardSizingParams.print_default)()             | Print the default values of `HardSizingParams` object.   |
+| Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
+| [`HardSizingParams.print_default`](ansys.meshing.prime.HardSizingParams.print_default.md#ansys.meshing.prime.HardSizingParams.print_default)()             | Print the default values of `HardSizingParams` object.   |
 | [`HardSizingParams.set_default`](ansys.meshing.prime.HardSizingParams.set_default.md#ansys.meshing.prime.HardSizingParams.set_default)([min, growth_rate]) | Set the default values of the `HardSizingParams` object. |
 
 ### Attributes
 
-| [`HardSizingParams.growth_rate`](ansys.meshing.prime.HardSizingParams.growth_rate.md#ansys.meshing.prime.HardSizingParams.growth_rate)   | Growth rate used for transitioning from one element size to neighbor element size.   |
+| Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| [`HardSizingParams.growth_rate`](ansys.meshing.prime.HardSizingParams.growth_rate.md#ansys.meshing.prime.HardSizingParams.growth_rate)   | Growth rate used for transitioning from one element size to neighbor element size.   |
 | [`HardSizingParams.min`](ansys.meshing.prime.HardSizingParams.min.md#ansys.meshing.prime.HardSizingParams.min)                           | Minimum size used for computing edge and face size using hard size control.          |
 <!-- vale on -->

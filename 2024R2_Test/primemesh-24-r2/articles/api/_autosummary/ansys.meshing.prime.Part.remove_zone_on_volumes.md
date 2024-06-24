@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-part-remove-zone-on-volumes"></a>
-
 # ansys.meshing.prime.Part.remove_zone_on_volumes
 
 <a id="ansys.meshing.prime.Part.remove_zone_on_volumes"></a>

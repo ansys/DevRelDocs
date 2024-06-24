@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-exportmapdlcdbparams-config-settings"></a>
-
 # ansys.meshing.prime.ExportMapdlCdbParams.config_settings
 
 <a id="ansys.meshing.prime.ExportMapdlCdbParams.config_settings"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-partcreationtype-model"></a>
-
 # ansys.meshing.prime.PartCreationType.MODEL
 
 <a id="ansys.meshing.prime.PartCreationType.MODEL"></a>

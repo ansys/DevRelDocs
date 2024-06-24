@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-autoquadmesher-invalidminmaxsizes"></a>
-
 # ansys.meshing.prime.ErrorCode.AUTOQUADMESHER_INVALIDMINMAXSIZES
 
 <a id="ansys.meshing.prime.ErrorCode.AUTOQUADMESHER_INVALIDMINMAXSIZES"></a>

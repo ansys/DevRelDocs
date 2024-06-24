@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-setnameresults-error-code"></a>
-
 # ansys.meshing.prime.SetNameResults.error_code
 
 <a id="ansys.meshing.prime.SetNameResults.error_code"></a>

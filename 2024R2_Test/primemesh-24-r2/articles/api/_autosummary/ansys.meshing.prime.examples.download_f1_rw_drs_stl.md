@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-examples-download-f1-rw-drs-stl"></a>
-
 # ansys.meshing.prime.examples.download_f1_rw_drs_stl
 
 <a id="ansys.meshing.prime.examples.download_f1_rw_drs_stl"></a>

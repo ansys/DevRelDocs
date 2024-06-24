@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-createboi-invalidflowdirection"></a>
-
 # ansys.meshing.prime.ErrorCode.CREATEBOI_INVALIDFLOWDIRECTION
 
 <a id="ansys.meshing.prime.ErrorCode.CREATEBOI_INVALIDFLOWDIRECTION"></a>

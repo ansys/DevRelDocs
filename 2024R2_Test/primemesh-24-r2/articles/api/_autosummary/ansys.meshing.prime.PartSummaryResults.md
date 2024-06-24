@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="partsummaryresults"></a>
-
 # PartSummaryResults
 
 <a id="ansys.meshing.prime.PartSummaryResults"></a>
@@ -96,14 +94,16 @@ Results of part summary.
 
 ### Methods
 
-| [`PartSummaryResults.print_default`](ansys.meshing.prime.PartSummaryResults.print_default.md#ansys.meshing.prime.PartSummaryResults.print_default)()         | Print the default values of `PartSummaryResults` object.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
+| [`PartSummaryResults.print_default`](ansys.meshing.prime.PartSummaryResults.print_default.md#ansys.meshing.prime.PartSummaryResults.print_default)()         | Print the default values of `PartSummaryResults` object.   |
 | [`PartSummaryResults.set_default`](ansys.meshing.prime.PartSummaryResults.set_default.md#ansys.meshing.prime.PartSummaryResults.set_default)([message, ...]) | Set the default values of the `PartSummaryResults` object. |
 
 ### Attributes
 
-| [`PartSummaryResults.message`](ansys.meshing.prime.PartSummaryResults.message.md#ansys.meshing.prime.PartSummaryResults.message)                                           | Part summary text.             |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|
+| [`PartSummaryResults.message`](ansys.meshing.prime.PartSummaryResults.message.md#ansys.meshing.prime.PartSummaryResults.message)                                           | Part summary text.             |
 | [`PartSummaryResults.n_cell_zonelets`](ansys.meshing.prime.PartSummaryResults.n_cell_zonelets.md#ansys.meshing.prime.PartSummaryResults.n_cell_zonelets)                   | Number of cell zonelets.       |
 | [`PartSummaryResults.n_cells`](ansys.meshing.prime.PartSummaryResults.n_cells.md#ansys.meshing.prime.PartSummaryResults.n_cells)                                           | Number of cells.               |
 | [`PartSummaryResults.n_edge_zonelets`](ansys.meshing.prime.PartSummaryResults.n_edge_zonelets.md#ansys.meshing.prime.PartSummaryResults.n_edge_zonelets)                   | Number of edge zonelets.       |

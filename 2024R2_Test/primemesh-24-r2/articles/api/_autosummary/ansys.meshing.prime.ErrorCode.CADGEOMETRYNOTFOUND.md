@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-cadgeometrynotfound"></a>
-
 # ansys.meshing.prime.ErrorCode.CADGEOMETRYNOTFOUND
 
 <a id="ansys.meshing.prime.ErrorCode.CADGEOMETRYNOTFOUND"></a>

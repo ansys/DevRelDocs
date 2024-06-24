@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-prismstairstep-check-proximity"></a>
-
 # ansys.meshing.prime.PrismStairStep.check_proximity
 
 <a id="ansys.meshing.prime.PrismStairStep.check_proximity"></a>

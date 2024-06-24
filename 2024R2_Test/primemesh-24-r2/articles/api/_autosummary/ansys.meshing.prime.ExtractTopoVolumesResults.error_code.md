@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-extracttopovolumesresults-error-code"></a>
-
 # ansys.meshing.prime.ExtractTopoVolumesResults.error_code
 
 <a id="ansys.meshing.prime.ExtractTopoVolumesResults.error_code"></a>

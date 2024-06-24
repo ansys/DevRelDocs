@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-extractfeatureparams-separate-features"></a>
-
 # ansys.meshing.prime.ExtractFeatureParams.separate_features
 
 <a id="ansys.meshing.prime.ExtractFeatureParams.separate_features"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-prismcontrol-id"></a>
-
 # ansys.meshing.prime.PrismControl.id
 
 <a id="ansys.meshing.prime.PrismControl.id"></a>

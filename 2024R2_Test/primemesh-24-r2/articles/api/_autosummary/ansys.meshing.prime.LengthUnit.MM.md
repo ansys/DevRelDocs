@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-lengthunit-mm"></a>
-
 # ansys.meshing.prime.LengthUnit.MM
 
 <a id="ansys.meshing.prime.LengthUnit.MM"></a>

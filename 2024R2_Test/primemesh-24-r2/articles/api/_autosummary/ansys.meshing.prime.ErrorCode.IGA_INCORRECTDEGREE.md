@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-iga-incorrectdegree"></a>
-
 # ansys.meshing.prime.ErrorCode.IGA_INCORRECTDEGREE
 
 <a id="ansys.meshing.prime.ErrorCode.IGA_INCORRECTDEGREE"></a>

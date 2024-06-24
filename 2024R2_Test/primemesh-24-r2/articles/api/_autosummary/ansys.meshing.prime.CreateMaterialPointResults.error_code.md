@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-creatematerialpointresults-error-code"></a>
-
 # ansys.meshing.prime.CreateMaterialPointResults.error_code
 
 <a id="ansys.meshing.prime.CreateMaterialPointResults.error_code"></a>

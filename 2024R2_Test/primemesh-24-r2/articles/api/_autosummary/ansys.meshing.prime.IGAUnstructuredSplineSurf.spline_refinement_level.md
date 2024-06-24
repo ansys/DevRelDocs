@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-igaunstructuredsplinesurf-spline-refinement-level"></a>
-
 # ansys.meshing.prime.IGAUnstructuredSplineSurf.spline_refinement_level
 
 <a id="ansys.meshing.prime.IGAUnstructuredSplineSurf.spline_refinement_level"></a>

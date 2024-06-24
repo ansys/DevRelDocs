@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fileio-import-fluent-meshing-meshes"></a>
-
 # ansys.meshing.prime.FileIO.import_fluent_meshing_meshes
 
 <a id="ansys.meshing.prime.FileIO.import_fluent_meshing_meshes"></a>

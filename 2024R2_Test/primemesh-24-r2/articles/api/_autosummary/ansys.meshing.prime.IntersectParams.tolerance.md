@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-intersectparams-tolerance"></a>
-
 # ansys.meshing.prime.IntersectParams.tolerance
 
 <a id="ansys.meshing.prime.IntersectParams.tolerance"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-part-get-face-zones-of-name-pattern"></a>
-
 # ansys.meshing.prime.Part.get_face_zones_of_name_pattern
 
 <a id="ansys.meshing.prime.Part.get_face_zones_of_name_pattern"></a>

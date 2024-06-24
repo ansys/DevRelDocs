@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fileio-export-stl"></a>
-
 # ansys.meshing.prime.FileIO.export_stl
 
 <a id="ansys.meshing.prime.FileIO.export_stl"></a>

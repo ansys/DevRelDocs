@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-splitintersectingboundaryedgesfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.SPLITINTERSECTINGBOUNDARYEDGESFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.SPLITINTERSECTINGBOUNDARYEDGESFAILED"></a>

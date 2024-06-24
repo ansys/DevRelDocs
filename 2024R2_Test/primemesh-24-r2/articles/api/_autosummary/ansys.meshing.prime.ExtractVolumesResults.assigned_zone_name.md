@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-extractvolumesresults-assigned-zone-name"></a>
-
 # ansys.meshing.prime.ExtractVolumesResults.assigned_zone_name
 
 <a id="ansys.meshing.prime.ExtractVolumesResults.assigned_zone_name"></a>

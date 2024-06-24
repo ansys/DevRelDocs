@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-volumemeshtool-copy-cell-zonelets"></a>
-
 # ansys.meshing.prime.VolumeMeshTool.copy_cell_zonelets
 
 <a id="ansys.meshing.prime.VolumeMeshTool.copy_cell_zonelets"></a>

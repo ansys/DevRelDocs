@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-featurerecoveryparams-size-at-features"></a>
-
 # ansys.meshing.prime.FeatureRecoveryParams.size_at_features
 
 <a id="ansys.meshing.prime.FeatureRecoveryParams.size_at_features"></a>

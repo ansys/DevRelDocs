@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-creatematerialpointresults-print-default"></a>
-
 # ansys.meshing.prime.CreateMaterialPointResults.print_default
 
 <a id="ansys.meshing.prime.CreateMaterialPointResults.print_default"></a>

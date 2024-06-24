@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-curvaturesizingparams-growth-rate"></a>
-
 # ansys.meshing.prime.CurvatureSizingParams.growth_rate
 
 <a id="ansys.meshing.prime.CurvatureSizingParams.growth_rate"></a>

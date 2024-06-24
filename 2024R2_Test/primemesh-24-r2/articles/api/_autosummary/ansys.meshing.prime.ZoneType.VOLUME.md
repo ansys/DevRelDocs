@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-zonetype-volume"></a>
-
 # ansys.meshing.prime.ZoneType.VOLUME
 
 <a id="ansys.meshing.prime.ZoneType.VOLUME"></a>

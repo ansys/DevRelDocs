@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-iga-incorrectcontrolpointsizewrtdegree"></a>
-
 # ansys.meshing.prime.ErrorCode.IGA_INCORRECTCONTROLPOINTSIZEWRTDEGREE
 
 <a id="ansys.meshing.prime.ErrorCode.IGA_INCORRECTCONTROLPOINTSIZEWRTDEGREE"></a>

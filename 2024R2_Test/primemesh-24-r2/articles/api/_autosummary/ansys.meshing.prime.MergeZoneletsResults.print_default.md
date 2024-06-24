@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-mergezoneletsresults-print-default"></a>
-
 # ansys.meshing.prime.MergeZoneletsResults.print_default
 
 <a id="ansys.meshing.prime.MergeZoneletsResults.print_default"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-autoquadmesher-check-topology"></a>
-
 # ansys.meshing.prime.AutoQuadMesher.check_topology
 
 <a id="ansys.meshing.prime.AutoQuadMesher.check_topology"></a>

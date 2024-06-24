@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-createintersectionedgeloopsresults-extracted-ids"></a>
-
 # ansys.meshing.prime.CreateIntersectionEdgeLoopsResults.extracted_ids
 
 <a id="ansys.meshing.prime.CreateIntersectionEdgeLoopsResults.extracted_ids"></a>

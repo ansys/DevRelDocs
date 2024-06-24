@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-createboiparams-suggested-label-prefix"></a>
-
 # ansys.meshing.prime.CreateBOIParams.suggested_label_prefix
 
 <a id="ansys.meshing.prime.CreateBOIParams.suggested_label_prefix"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-thinvolumemeshfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.THINVOLUMEMESHFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.THINVOLUMEMESHFAILED"></a>

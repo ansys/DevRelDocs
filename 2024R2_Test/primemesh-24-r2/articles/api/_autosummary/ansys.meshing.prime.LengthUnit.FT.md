@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-lengthunit-ft"></a>
-
 # ansys.meshing.prime.LengthUnit.FT
 
 <a id="ansys.meshing.prime.LengthUnit.FT"></a>

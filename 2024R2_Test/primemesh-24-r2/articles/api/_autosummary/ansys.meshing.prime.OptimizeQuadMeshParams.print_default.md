@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-optimizequadmeshparams-print-default"></a>
-
 # ansys.meshing.prime.OptimizeQuadMeshParams.print_default
 
 <a id="ansys.meshing.prime.OptimizeQuadMeshParams.print_default"></a>

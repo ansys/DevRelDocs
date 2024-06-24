@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-optimizequadmeshparams-surface-mesh-constant-size"></a>
-
 # ansys.meshing.prime.OptimizeQuadMeshParams.surface_mesh_constant_size
 
 <a id="ansys.meshing.prime.OptimizeQuadMeshParams.surface_mesh_constant_size"></a>

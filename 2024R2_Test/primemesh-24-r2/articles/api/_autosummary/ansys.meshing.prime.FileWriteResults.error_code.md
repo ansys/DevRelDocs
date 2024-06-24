@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-filewriteresults-error-code"></a>
-
 # ansys.meshing.prime.FileWriteResults.error_code
 
 <a id="ansys.meshing.prime.FileWriteResults.error_code"></a>

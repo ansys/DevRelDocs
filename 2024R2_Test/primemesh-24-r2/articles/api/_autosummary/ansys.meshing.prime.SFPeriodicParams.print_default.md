@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-sfperiodicparams-print-default"></a>
-
 # ansys.meshing.prime.SFPeriodicParams.print_default
 
 <a id="ansys.meshing.prime.SFPeriodicParams.print_default"></a>

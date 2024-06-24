@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-stitchtype-freefree"></a>
-
 # ansys.meshing.prime.StitchType.FREEFREE
 
 <a id="ansys.meshing.prime.StitchType.FREEFREE"></a>

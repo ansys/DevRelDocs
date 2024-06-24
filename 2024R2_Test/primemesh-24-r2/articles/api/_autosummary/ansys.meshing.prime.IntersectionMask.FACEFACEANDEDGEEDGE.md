@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-intersectionmask-facefaceandedgeedge"></a>
-
 # ansys.meshing.prime.IntersectionMask.FACEFACEANDEDGEEDGE
 
 <a id="ansys.meshing.prime.IntersectionMask.FACEFACEANDEDGEEDGE"></a>

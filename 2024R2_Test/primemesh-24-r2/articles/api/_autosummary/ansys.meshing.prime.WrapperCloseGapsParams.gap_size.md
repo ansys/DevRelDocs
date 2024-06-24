@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapperclosegapsparams-gap-size"></a>
-
 # ansys.meshing.prime.WrapperCloseGapsParams.gap_size
 
 <a id="ansys.meshing.prime.WrapperCloseGapsParams.gap_size"></a>

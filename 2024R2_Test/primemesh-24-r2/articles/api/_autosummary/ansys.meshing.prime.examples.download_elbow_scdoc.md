@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-examples-download-elbow-scdoc"></a>
-
 # ansys.meshing.prime.examples.download_elbow_scdoc
 
 <a id="ansys.meshing.prime.examples.download_elbow_scdoc"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-volumesearch-get-volume-quality-summary"></a>
-
 # ansys.meshing.prime.VolumeSearch.get_volume_quality_summary
 
 <a id="ansys.meshing.prime.VolumeSearch.get_volume_quality_summary"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-vtcomposerresults-error-code"></a>
-
 # ansys.meshing.prime.VTComposerResults.error_code
 
 <a id="ansys.meshing.prime.VTComposerResults.error_code"></a>

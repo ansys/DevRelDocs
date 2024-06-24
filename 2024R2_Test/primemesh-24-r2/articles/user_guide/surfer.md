@@ -1,10 +1,6 @@
-<a id="ref-index-surfer"></a>
-
-<a id="surface-meshing"></a>
-
 # Surface meshing
 
-The [`Surfer`](../api/_autosummary/ansys.meshing.prime.Surfer.md#ansys.meshing.prime.Surfer) class enables you to perform surface meshing using
+The [`Surfer`](./../api/_autosummary/ansys.meshing.prime.Surfer.md#ansys.meshing.prime.Surfer) class enables you to perform surface meshing using
 different surface meshing algorithms on *TopoFaces* or face zonelets. Surface meshing considers many
 parameters, such as size field type, minimum size, maximum size, growth rate, and transition type,
 while meshing *TopoFaces* or face zonelets.

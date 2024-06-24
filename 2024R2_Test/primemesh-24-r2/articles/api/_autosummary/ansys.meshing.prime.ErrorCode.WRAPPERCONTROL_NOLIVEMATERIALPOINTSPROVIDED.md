@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-wrappercontrol-nolivematerialpointsprovided"></a>
-
 # ansys.meshing.prime.ErrorCode.WRAPPERCONTROL_NOLIVEMATERIALPOINTSPROVIDED
 
 <a id="ansys.meshing.prime.ErrorCode.WRAPPERCONTROL_NOLIVEMATERIALPOINTSPROVIDED"></a>

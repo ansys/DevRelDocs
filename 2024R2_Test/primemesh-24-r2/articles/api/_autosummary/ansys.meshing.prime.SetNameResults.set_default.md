@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-setnameresults-set-default"></a>
-
 # ansys.meshing.prime.SetNameResults.set_default
 
 <a id="ansys.meshing.prime.SetNameResults.set_default"></a>

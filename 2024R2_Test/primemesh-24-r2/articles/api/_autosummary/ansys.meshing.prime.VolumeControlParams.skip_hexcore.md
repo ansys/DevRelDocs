@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-volumecontrolparams-skip-hexcore"></a>
-
 # ansys.meshing.prime.VolumeControlParams.skip_hexcore
 
 <a id="ansys.meshing.prime.VolumeControlParams.skip_hexcore"></a>

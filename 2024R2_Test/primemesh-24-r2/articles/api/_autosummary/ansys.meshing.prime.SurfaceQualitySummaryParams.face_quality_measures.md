@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfacequalitysummaryparams-face-quality-measures"></a>
-
 # ansys.meshing.prime.SurfaceQualitySummaryParams.face_quality_measures
 
 <a id="ansys.meshing.prime.SurfaceQualitySummaryParams.face_quality_measures"></a>

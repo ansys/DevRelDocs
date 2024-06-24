@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-sizingtype-hard"></a>
-
 # ansys.meshing.prime.SizingType.HARD
 
 <a id="ansys.meshing.prime.SizingType.HARD"></a>

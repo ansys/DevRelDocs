@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-deletevolumesresults-deleted-volumes"></a>
-
 # ansys.meshing.prime.DeleteVolumesResults.deleted_volumes
 
 <a id="ansys.meshing.prime.DeleteVolumesResults.deleted_volumes"></a>

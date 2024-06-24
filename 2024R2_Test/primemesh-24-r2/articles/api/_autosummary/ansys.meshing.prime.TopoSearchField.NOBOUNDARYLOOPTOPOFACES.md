@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-toposearchfield-noboundarylooptopofaces"></a>
-
 # ansys.meshing.prime.TopoSearchField.NOBOUNDARYLOOPTOPOFACES
 
 <a id="ansys.meshing.prime.TopoSearchField.NOBOUNDARYLOOPTOPOFACES"></a>

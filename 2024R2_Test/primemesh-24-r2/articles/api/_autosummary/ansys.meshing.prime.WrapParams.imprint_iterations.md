@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapparams-imprint-iterations"></a>
-
 # ansys.meshing.prime.WrapParams.imprint_iterations
 
 <a id="ansys.meshing.prime.WrapParams.imprint_iterations"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-parthastopology"></a>
-
 # ansys.meshing.prime.ErrorCode.PARTHASTOPOLOGY
 
 <a id="ansys.meshing.prime.ErrorCode.PARTHASTOPOLOGY"></a>

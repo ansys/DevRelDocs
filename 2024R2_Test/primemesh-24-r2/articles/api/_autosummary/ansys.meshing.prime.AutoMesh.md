@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="automesh"></a>
-
 # AutoMesh
 
 <a id="ansys.meshing.prime.AutoMesh"></a>
@@ -21,6 +19,7 @@ For example, with prisms.
 
 ### Methods
 
-| [`AutoMesh.mesh`](ansys.meshing.prime.AutoMesh.mesh.md#ansys.meshing.prime.AutoMesh.mesh)(part_id, automesh_params)   | Performs volume meshing on the part with the given meshing parameters.   |
+| Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| [`AutoMesh.mesh`](ansys.meshing.prime.AutoMesh.mesh.md#ansys.meshing.prime.AutoMesh.mesh)(part_id, automesh_params)   | Performs volume meshing on the part with the given meshing parameters.   |
 <!-- vale on -->

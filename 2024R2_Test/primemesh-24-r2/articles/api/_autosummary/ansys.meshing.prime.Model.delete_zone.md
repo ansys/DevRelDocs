@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-model-delete-zone"></a>
-
 # ansys.meshing.prime.Model.delete_zone
 
 <a id="ansys.meshing.prime.Model.delete_zone"></a>

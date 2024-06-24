@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapper-improve-quality"></a>
-
 # ansys.meshing.prime.Wrapper.improve_quality
 
 <a id="ansys.meshing.prime.Wrapper.improve_quality"></a>

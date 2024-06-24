@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-partsummaryresults-n-labels"></a>
-
 # ansys.meshing.prime.PartSummaryResults.n_labels
 
 <a id="ansys.meshing.prime.PartSummaryResults.n_labels"></a>

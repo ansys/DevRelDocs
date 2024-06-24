@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-partnotmeshed"></a>
-
 # ansys.meshing.prime.ErrorCode.PARTNOTMESHED
 
 <a id="ansys.meshing.prime.ErrorCode.PARTNOTMESHED"></a>

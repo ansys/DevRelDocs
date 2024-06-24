@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-lucid-mesh-write"></a>
-
 # ansys.meshing.prime.lucid.Mesh.write
 
 <a id="ansys.meshing.prime.lucid.Mesh.write"></a>

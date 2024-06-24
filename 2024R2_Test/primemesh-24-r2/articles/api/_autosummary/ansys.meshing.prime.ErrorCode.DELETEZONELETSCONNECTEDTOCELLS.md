@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-deletezoneletsconnectedtocells"></a>
-
 # ansys.meshing.prime.ErrorCode.DELETEZONELETSCONNECTEDTOCELLS
 
 <a id="ansys.meshing.prime.ErrorCode.DELETEZONELETSCONNECTEDTOCELLS"></a>

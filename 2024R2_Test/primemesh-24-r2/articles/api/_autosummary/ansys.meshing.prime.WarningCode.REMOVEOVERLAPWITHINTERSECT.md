@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-warningcode-removeoverlapwithintersect"></a>
-
 # ansys.meshing.prime.WarningCode.REMOVEOVERLAPWITHINTERSECT
 
 <a id="ansys.meshing.prime.WarningCode.REMOVEOVERLAPWITHINTERSECT"></a>

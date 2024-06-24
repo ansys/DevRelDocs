@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-volumesweeper-stack-base-face"></a>
-
 # ansys.meshing.prime.VolumeSweeper.stack_base_face
 
 <a id="ansys.meshing.prime.VolumeSweeper.stack_base_face"></a>

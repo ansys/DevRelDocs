@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-volumemeshtoolresults-print-default"></a>
-
 # ansys.meshing.prime.VolumeMeshToolResults.print_default
 
 <a id="ansys.meshing.prime.VolumeMeshToolResults.print_default"></a>

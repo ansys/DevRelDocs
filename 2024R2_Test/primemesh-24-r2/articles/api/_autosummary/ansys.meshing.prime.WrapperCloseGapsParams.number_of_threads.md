@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapperclosegapsparams-number-of-threads"></a>
-
 # ansys.meshing.prime.WrapperCloseGapsParams.number_of_threads
 
 <a id="ansys.meshing.prime.WrapperCloseGapsParams.number_of_threads"></a>

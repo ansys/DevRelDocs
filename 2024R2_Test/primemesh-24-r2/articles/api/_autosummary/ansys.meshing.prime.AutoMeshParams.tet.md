@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-automeshparams-tet"></a>
-
 # ansys.meshing.prime.AutoMeshParams.tet
 
 <a id="ansys.meshing.prime.AutoMeshParams.tet"></a>

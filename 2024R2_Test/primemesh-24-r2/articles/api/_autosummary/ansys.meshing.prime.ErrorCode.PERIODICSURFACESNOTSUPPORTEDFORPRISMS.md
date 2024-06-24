@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-periodicsurfacesnotsupportedforprisms"></a>
-
 # ansys.meshing.prime.ErrorCode.PERIODICSURFACESNOTSUPPORTEDFORPRISMS
 
 <a id="ansys.meshing.prime.ErrorCode.PERIODICSURFACESNOTSUPPORTEDFORPRISMS"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-importcadresults-print-default"></a>
-
 # ansys.meshing.prime.ImportCadResults.print_default
 
 <a id="ansys.meshing.prime.ImportCadResults.print_default"></a>

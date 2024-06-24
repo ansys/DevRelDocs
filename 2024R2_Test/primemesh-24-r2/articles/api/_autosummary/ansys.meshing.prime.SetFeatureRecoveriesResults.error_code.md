@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-setfeaturerecoveriesresults-error-code"></a>
-
 # ansys.meshing.prime.SetFeatureRecoveriesResults.error_code
 
 <a id="ansys.meshing.prime.SetFeatureRecoveriesResults.error_code"></a>

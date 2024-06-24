@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-quadtosplineparams-separate-by-zone"></a>
-
 # ansys.meshing.prime.QuadToSplineParams.separate_by_zone
 
 <a id="ansys.meshing.prime.QuadToSplineParams.separate_by_zone"></a>

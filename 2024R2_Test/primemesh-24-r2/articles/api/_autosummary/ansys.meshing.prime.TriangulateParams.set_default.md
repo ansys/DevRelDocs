@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-triangulateparams-set-default"></a>
-
 # ansys.meshing.prime.TriangulateParams.set_default
 
 <a id="ansys.meshing.prime.TriangulateParams.set_default"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-refinesplineparams-refine-flag-w"></a>
-
 # ansys.meshing.prime.RefineSplineParams.refine_flag_w
 
 <a id="ansys.meshing.prime.RefineSplineParams.refine_flag_w"></a>

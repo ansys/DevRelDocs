@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="volumescope"></a>
-
 # VolumeScope
 
 <a id="ansys.meshing.prime.lucid.VolumeScope"></a>
@@ -17,6 +15,7 @@ a scope for operation on volumes.
 
 ### Methods
 
-| [`VolumeScope.get_scope_definition`](ansys.meshing.prime.lucid.VolumeScope.get_scope_definition.md#ansys.meshing.prime.lucid.VolumeScope.get_scope_definition)(model)   | Get the scope definition of the scope.   |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
+| [`VolumeScope.get_scope_definition`](ansys.meshing.prime.lucid.VolumeScope.get_scope_definition.md#ansys.meshing.prime.lucid.VolumeScope.get_scope_definition)(model)   | Get the scope definition of the scope.   |
 <!-- vale on -->

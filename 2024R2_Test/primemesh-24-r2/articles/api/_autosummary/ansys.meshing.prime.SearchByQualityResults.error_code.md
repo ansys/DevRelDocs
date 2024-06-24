@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-searchbyqualityresults-error-code"></a>
-
 # ansys.meshing.prime.SearchByQualityResults.error_code
 
 <a id="ansys.meshing.prime.SearchByQualityResults.error_code"></a>

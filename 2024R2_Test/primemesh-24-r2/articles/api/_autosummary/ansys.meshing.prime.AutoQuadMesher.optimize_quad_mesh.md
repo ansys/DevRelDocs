@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-autoquadmesher-optimize-quad-mesh"></a>
-
 # ansys.meshing.prime.AutoQuadMesher.optimize_quad_mesh
 
 <a id="ansys.meshing.prime.AutoQuadMesher.optimize_quad_mesh"></a>

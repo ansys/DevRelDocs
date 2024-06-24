@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-notsupportedforhigherordermeshpart"></a>
-
 # ansys.meshing.prime.ErrorCode.NOTSUPPORTEDFORHIGHERORDERMESHPART
 
 <a id="ansys.meshing.prime.ErrorCode.NOTSUPPORTEDFORHIGHERORDERMESHPART"></a>

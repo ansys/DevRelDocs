@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-smoothdihedralfacenodesresults-set-default"></a>
-
 # ansys.meshing.prime.SmoothDihedralFaceNodesResults.set_default
 
 <a id="ansys.meshing.prime.SmoothDihedralFaceNodesResults.set_default"></a>

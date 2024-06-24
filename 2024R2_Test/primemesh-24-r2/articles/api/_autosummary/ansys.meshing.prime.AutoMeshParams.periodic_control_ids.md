@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-automeshparams-periodic-control-ids"></a>
-
 # ansys.meshing.prime.AutoMeshParams.periodic_control_ids
 
 <a id="ansys.meshing.prime.AutoMeshParams.periodic_control_ids"></a>

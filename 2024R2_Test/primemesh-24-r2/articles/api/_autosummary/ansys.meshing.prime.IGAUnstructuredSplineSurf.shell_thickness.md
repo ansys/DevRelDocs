@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-igaunstructuredsplinesurf-shell-thickness"></a>
-
 # ansys.meshing.prime.IGAUnstructuredSplineSurf.shell_thickness
 
 <a id="ansys.meshing.prime.IGAUnstructuredSplineSurf.shell_thickness"></a>

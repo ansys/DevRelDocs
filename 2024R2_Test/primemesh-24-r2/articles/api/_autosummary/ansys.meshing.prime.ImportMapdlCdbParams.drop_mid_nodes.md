@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-importmapdlcdbparams-drop-mid-nodes"></a>
-
 # ansys.meshing.prime.ImportMapdlCdbParams.drop_mid_nodes
 
 <a id="ansys.meshing.prime.ImportMapdlCdbParams.drop_mid_nodes"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-controldata-delete-controls"></a>
-
 # ansys.meshing.prime.ControlData.delete_controls
 
 <a id="ansys.meshing.prime.ControlData.delete_controls"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-surfacefeaturetypenotsupported"></a>
-
 # ansys.meshing.prime.ErrorCode.SURFACEFEATURETYPENOTSUPPORTED
 
 <a id="ansys.meshing.prime.ErrorCode.SURFACEFEATURETYPENOTSUPPORTED"></a>

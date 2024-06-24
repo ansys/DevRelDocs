@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-leakpreventionparams-n-expansion-layers"></a>
-
 # ansys.meshing.prime.LeakPreventionParams.n_expansion_layers
 
 <a id="ansys.meshing.prime.LeakPreventionParams.n_expansion_layers"></a>

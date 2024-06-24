@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fixinvalidnormalnodeparams-label"></a>
-
 # ansys.meshing.prime.FixInvalidNormalNodeParams.label
 
 <a id="ansys.meshing.prime.FixInvalidNormalNodeParams.label"></a>

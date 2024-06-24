@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-importfluentmeshingmeshparams-enable-multi-threading"></a>
-
 # ansys.meshing.prime.ImportFluentMeshingMeshParams.enable_multi_threading
 
 <a id="ansys.meshing.prime.ImportFluentMeshingMeshParams.enable_multi_threading"></a>

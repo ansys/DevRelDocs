@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-warningcode-iga-nogeomzoneletforsplinefitting"></a>
-
 # ansys.meshing.prime.WarningCode.IGA_NOGEOMZONELETFORSPLINEFITTING
 
 <a id="ansys.meshing.prime.WarningCode.IGA_NOGEOMZONELETFORSPLINEFITTING"></a>

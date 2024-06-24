@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-removezoneresults-error-code"></a>
-
 # ansys.meshing.prime.RemoveZoneResults.error_code
 
 <a id="ansys.meshing.prime.RemoveZoneResults.error_code"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-edgeconnectivityresults-node-coords"></a>
-
 # ansys.meshing.prime.EdgeConnectivityResults.node_coords
 
 <a id="ansys.meshing.prime.EdgeConnectivityResults.node_coords"></a>

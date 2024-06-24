@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fuseparams-print-default"></a>
-
 # ansys.meshing.prime.FuseParams.print_default
 
 <a id="ansys.meshing.prime.FuseParams.print_default"></a>

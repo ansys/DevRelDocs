@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-collapseparams-set-default"></a>
-
 # ansys.meshing.prime.CollapseParams.set_default
 
 <a id="ansys.meshing.prime.CollapseParams.set_default"></a>

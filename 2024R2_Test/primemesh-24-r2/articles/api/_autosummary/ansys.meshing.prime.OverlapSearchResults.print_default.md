@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-overlapsearchresults-print-default"></a>
-
 # ansys.meshing.prime.OverlapSearchResults.print_default
 
 <a id="ansys.meshing.prime.OverlapSearchResults.print_default"></a>

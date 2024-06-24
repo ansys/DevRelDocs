@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fillholesatplaneparams-set-default"></a>
-
 # ansys.meshing.prime.FillHolesAtPlaneParams.set_default
 
 <a id="ansys.meshing.prime.FillHolesAtPlaneParams.set_default"></a>

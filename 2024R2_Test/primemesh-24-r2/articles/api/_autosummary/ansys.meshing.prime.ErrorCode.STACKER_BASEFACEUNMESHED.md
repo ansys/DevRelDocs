@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-stacker-basefaceunmeshed"></a>
-
 # ansys.meshing.prime.ErrorCode.STACKER_BASEFACEUNMESHED
 
 <a id="ansys.meshing.prime.ErrorCode.STACKER_BASEFACEUNMESHED"></a>

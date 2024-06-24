@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-igaunstructuredsplinesurf-control-points"></a>
-
 # ansys.meshing.prime.IGAUnstructuredSplineSurf.control_points
 
 <a id="ansys.meshing.prime.IGAUnstructuredSplineSurf.control_points"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-smoothdihedralfacenodesparams-type"></a>
-
 # ansys.meshing.prime.SmoothDihedralFaceNodesParams.type
 
 <a id="ansys.meshing.prime.SmoothDihedralFaceNodesParams.type"></a>

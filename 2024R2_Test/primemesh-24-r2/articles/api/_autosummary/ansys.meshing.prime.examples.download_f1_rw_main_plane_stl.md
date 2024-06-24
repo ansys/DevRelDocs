@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-examples-download-f1-rw-main-plane-stl"></a>
-
 # ansys.meshing.prime.examples.download_f1_rw_main_plane_stl
 
 <a id="ansys.meshing.prime.examples.download_f1_rw_main_plane_stl"></a>

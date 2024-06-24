@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-optimizequadmeshparams-edge-mesh-constant-size"></a>
-
 # ansys.meshing.prime.OptimizeQuadMeshParams.edge_mesh_constant_size
 
 <a id="ansys.meshing.prime.OptimizeQuadMeshParams.edge_mesh_constant_size"></a>

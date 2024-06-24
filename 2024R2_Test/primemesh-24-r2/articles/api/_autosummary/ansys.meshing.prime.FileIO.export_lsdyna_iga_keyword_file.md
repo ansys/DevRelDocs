@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fileio-export-lsdyna-iga-keyword-file"></a>
-
 # ansys.meshing.prime.FileIO.export_lsdyna_iga_keyword_file
 
 <a id="ansys.meshing.prime.FileIO.export_lsdyna_iga_keyword_file"></a>

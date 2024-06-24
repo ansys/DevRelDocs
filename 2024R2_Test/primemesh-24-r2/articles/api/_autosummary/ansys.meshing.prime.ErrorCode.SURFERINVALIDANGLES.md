@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-surferinvalidangles"></a>
-
 # ansys.meshing.prime.ErrorCode.SURFERINVALIDANGLES
 
 <a id="ansys.meshing.prime.ErrorCode.SURFERINVALIDANGLES"></a>

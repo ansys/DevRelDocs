@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="cadfaceter"></a>
-
 # CadFaceter
 
 <a id="ansys.meshing.prime.CadFaceter"></a>
@@ -14,7 +12,8 @@ Types of CAD faceter.
 
 ### Attributes
 
-| [`CadFaceter.ACIS`](ansys.meshing.prime.CadFaceter.ACIS.md#ansys.meshing.prime.CadFaceter.ACIS)                | Denotes CAD faceter is Acis.      |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------|-----------------------------------|
+| [`CadFaceter.ACIS`](ansys.meshing.prime.CadFaceter.ACIS.md#ansys.meshing.prime.CadFaceter.ACIS)                | Denotes CAD faceter is Acis.      |
 | [`CadFaceter.PARASOLID`](ansys.meshing.prime.CadFaceter.PARASOLID.md#ansys.meshing.prime.CadFaceter.PARASOLID) | Denotes CAD faceter is Parasolid. |
 <!-- vale on -->

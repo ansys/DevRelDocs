@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-importmapdlcdbresults-print-default"></a>
-
 # ansys.meshing.prime.ImportMapdlCdbResults.print_default
 
 <a id="ansys.meshing.prime.ImportMapdlCdbResults.print_default"></a>

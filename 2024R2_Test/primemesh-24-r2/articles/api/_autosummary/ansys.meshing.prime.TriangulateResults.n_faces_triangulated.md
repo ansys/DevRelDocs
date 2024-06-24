@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-triangulateresults-n-faces-triangulated"></a>
-
 # ansys.meshing.prime.TriangulateResults.n_faces_triangulated
 
 <a id="ansys.meshing.prime.TriangulateResults.n_faces_triangulated"></a>

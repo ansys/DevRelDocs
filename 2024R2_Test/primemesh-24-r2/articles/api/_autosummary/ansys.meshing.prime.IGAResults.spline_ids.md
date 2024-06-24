@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-igaresults-spline-ids"></a>
-
 # ansys.meshing.prime.IGAResults.spline_ids
 
 <a id="ansys.meshing.prime.IGAResults.spline_ids"></a>

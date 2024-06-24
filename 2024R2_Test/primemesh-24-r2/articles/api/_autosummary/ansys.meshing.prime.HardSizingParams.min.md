@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-hardsizingparams-min"></a>
-
 # ansys.meshing.prime.HardSizingParams.min
 
 <a id="ansys.meshing.prime.HardSizingParams.min"></a>

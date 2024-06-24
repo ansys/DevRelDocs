@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-splitandcollapsefaceelementsfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.SPLITANDCOLLAPSEFACEELEMENTSFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.SPLITANDCOLLAPSEFACEELEMENTSFAILED"></a>

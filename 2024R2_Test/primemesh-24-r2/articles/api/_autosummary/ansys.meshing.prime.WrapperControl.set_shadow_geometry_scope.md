@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrappercontrol-set-shadow-geometry-scope"></a>
-
 # ansys.meshing.prime.WrapperControl.set_shadow_geometry_scope
 
 <a id="ansys.meshing.prime.WrapperControl.set_shadow_geometry_scope"></a>

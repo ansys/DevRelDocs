@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-prismmeshfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.PRISMMESHFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.PRISMMESHFAILED"></a>

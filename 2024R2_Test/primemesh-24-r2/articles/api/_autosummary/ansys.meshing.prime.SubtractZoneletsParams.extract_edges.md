@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-subtractzoneletsparams-extract-edges"></a>
-
 # ansys.meshing.prime.SubtractZoneletsParams.extract_edges
 
 <a id="ansys.meshing.prime.SubtractZoneletsParams.extract_edges"></a>

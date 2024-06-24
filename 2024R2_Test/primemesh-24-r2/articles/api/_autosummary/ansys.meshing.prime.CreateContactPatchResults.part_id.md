@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-createcontactpatchresults-part-id"></a>
-
 # ansys.meshing.prime.CreateContactPatchResults.part_id
 
 <a id="ansys.meshing.prime.CreateContactPatchResults.part_id"></a>

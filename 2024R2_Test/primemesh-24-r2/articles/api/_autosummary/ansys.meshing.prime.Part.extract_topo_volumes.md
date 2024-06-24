@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-part-extract-topo-volumes"></a>
-
 # ansys.meshing.prime.Part.extract_topo_volumes
 
 <a id="ansys.meshing.prime.Part.extract_topo_volumes"></a>

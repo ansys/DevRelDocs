@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapperimprovequalityparams-resolve-invalid-node-normals"></a>
-
 # ansys.meshing.prime.WrapperImproveQualityParams.resolve_invalid_node_normals
 
 <a id="ansys.meshing.prime.WrapperImproveQualityParams.resolve_invalid_node_normals"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfacequalityresult-print-default"></a>
-
 # ansys.meshing.prime.SurfaceQualityResult.print_default
 
 <a id="ansys.meshing.prime.SurfaceQualityResult.print_default"></a>

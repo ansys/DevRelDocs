@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-colocatefusednodesfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.COLOCATEFUSEDNODESFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.COLOCATEFUSEDNODESFAILED"></a>

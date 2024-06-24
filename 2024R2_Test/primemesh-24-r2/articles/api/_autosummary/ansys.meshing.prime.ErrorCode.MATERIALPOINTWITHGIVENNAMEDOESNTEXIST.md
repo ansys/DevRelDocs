@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-materialpointwithgivennamedoesntexist"></a>
-
 # ansys.meshing.prime.ErrorCode.MATERIALPOINTWITHGIVENNAMEDOESNTEXIST
 
 <a id="ansys.meshing.prime.ErrorCode.MATERIALPOINTWITHGIVENNAMEDOESNTEXIST"></a>

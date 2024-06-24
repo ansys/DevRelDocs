@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-duplicatenodesfound"></a>
-
 # ansys.meshing.prime.ErrorCode.DUPLICATENODESFOUND
 
 <a id="ansys.meshing.prime.ErrorCode.DUPLICATENODESFOUND"></a>

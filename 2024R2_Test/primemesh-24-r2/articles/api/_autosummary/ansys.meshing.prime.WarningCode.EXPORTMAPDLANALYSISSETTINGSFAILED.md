@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-warningcode-exportmapdlanalysissettingsfailed"></a>
-
 # ansys.meshing.prime.WarningCode.EXPORTMAPDLANALYSISSETTINGSFAILED
 
 <a id="ansys.meshing.prime.WarningCode.EXPORTMAPDLANALYSISSETTINGSFAILED"></a>

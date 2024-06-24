@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="toposearchfield"></a>
-
 # TopoSearchField
 
 <a id="ansys.meshing.prime.TopoSearchField"></a>
@@ -14,8 +12,9 @@ Toposearch diagnostic field.
 
 ### Attributes
 
-| [`TopoSearchField.OVERLAPPINGTOPOFACES`](ansys.meshing.prime.TopoSearchField.OVERLAPPINGTOPOFACES.md#ansys.meshing.prime.TopoSearchField.OVERLAPPINGTOPOFACES)                | Diagnoses overlapping or partially overlapping topofaces.     |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`TopoSearchField.OVERLAPPINGTOPOFACES`](ansys.meshing.prime.TopoSearchField.OVERLAPPINGTOPOFACES.md#ansys.meshing.prime.TopoSearchField.OVERLAPPINGTOPOFACES)                | Diagnoses overlapping or partially overlapping topofaces.     |
 | [`TopoSearchField.INTERSECTINGTOPOFACES`](ansys.meshing.prime.TopoSearchField.INTERSECTINGTOPOFACES.md#ansys.meshing.prime.TopoSearchField.INTERSECTINGTOPOFACES)             | Diagnoses intersecting topofaces.                             |
 | [`TopoSearchField.SELFINTERSECTINGTOPOFACES`](ansys.meshing.prime.TopoSearchField.SELFINTERSECTINGTOPOFACES.md#ansys.meshing.prime.TopoSearchField.SELFINTERSECTINGTOPOFACES) | Diagnoses topofaces with self intersecting bounding edges.    |
 | [`TopoSearchField.BROKENLOOPTOPOFACES`](ansys.meshing.prime.TopoSearchField.BROKENLOOPTOPOFACES.md#ansys.meshing.prime.TopoSearchField.BROKENLOOPTOPOFACES)                   | Diagnoses topofaces with open or broken bounding edge loops.  |

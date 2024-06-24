@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-detectnoncircularholesparams-max-hole-length"></a>
-
 # ansys.meshing.prime.DetectNonCircularHolesParams.max_hole_length
 
 <a id="ansys.meshing.prime.DetectNonCircularHolesParams.max_hole_length"></a>

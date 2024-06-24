@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-meshstackerresults-error-code"></a>
-
 # ansys.meshing.prime.MeshStackerResults.error_code
 
 <a id="ansys.meshing.prime.MeshStackerResults.error_code"></a>

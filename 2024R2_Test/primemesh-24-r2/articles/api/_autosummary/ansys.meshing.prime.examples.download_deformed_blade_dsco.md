@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-examples-download-deformed-blade-dsco"></a>
-
 # ansys.meshing.prime.examples.download_deformed_blade_dsco
 
 <a id="ansys.meshing.prime.examples.download_deformed_blade_dsco"></a>

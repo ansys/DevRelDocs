@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-copyzoneletsresults-print-default"></a>
-
 # ansys.meshing.prime.CopyZoneletsResults.print_default
 
 <a id="ansys.meshing.prime.CopyZoneletsResults.print_default"></a>

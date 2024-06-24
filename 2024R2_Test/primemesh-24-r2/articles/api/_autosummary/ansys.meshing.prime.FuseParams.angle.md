@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fuseparams-angle"></a>
-
 # ansys.meshing.prime.FuseParams.angle
 
 <a id="ansys.meshing.prime.FuseParams.angle"></a>

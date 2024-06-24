@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-volumecontrol-get-scope"></a>
-
 # ansys.meshing.prime.VolumeControl.get_scope
 
 <a id="ansys.meshing.prime.VolumeControl.get_scope"></a>

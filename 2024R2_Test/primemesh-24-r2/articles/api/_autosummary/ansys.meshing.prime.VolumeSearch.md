@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="volumesearch"></a>
-
 # VolumeSearch
 
 <a id="ansys.meshing.prime.VolumeSearch"></a>
@@ -20,6 +18,7 @@ VolumeSearch performs volume mesh quality check based on different cell quality 
 
 ### Methods
 
-| [`VolumeSearch.get_volume_quality_summary`](ansys.meshing.prime.VolumeSearch.get_volume_quality_summary.md#ansys.meshing.prime.VolumeSearch.get_volume_quality_summary)(params)   | Gets the volume quality summary.   |
+| Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------|
+| [`VolumeSearch.get_volume_quality_summary`](ansys.meshing.prime.VolumeSearch.get_volume_quality_summary.md#ansys.meshing.prime.VolumeSearch.get_volume_quality_summary)(params)   | Gets the volume quality summary.   |
 <!-- vale on -->

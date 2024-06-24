@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-addthicknessparams-fix-intersections"></a>
-
 # ansys.meshing.prime.AddThicknessParams.fix_intersections
 
 <a id="ansys.meshing.prime.AddThicknessParams.fix_intersections"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-featurerecoveryparams-scope"></a>
-
 # ansys.meshing.prime.FeatureRecoveryParams.scope
 
 <a id="ansys.meshing.prime.FeatureRecoveryParams.scope"></a>

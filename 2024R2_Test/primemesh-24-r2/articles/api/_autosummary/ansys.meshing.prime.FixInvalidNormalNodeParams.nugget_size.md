@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fixinvalidnormalnodeparams-nugget-size"></a>
-
 # ansys.meshing.prime.FixInvalidNormalNodeParams.nugget_size
 
 <a id="ansys.meshing.prime.FixInvalidNormalNodeParams.nugget_size"></a>

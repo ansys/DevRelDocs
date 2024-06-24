@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-bcsvolumetricmodality-box"></a>
-
 # ansys.meshing.prime.BCsVolumetricModality.BOX
 
 <a id="ansys.meshing.prime.BCsVolumetricModality.BOX"></a>

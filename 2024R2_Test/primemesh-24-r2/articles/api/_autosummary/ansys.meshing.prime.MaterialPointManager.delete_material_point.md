@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-materialpointmanager-delete-material-point"></a>
-
 # ansys.meshing.prime.MaterialPointManager.delete_material_point
 
 <a id="ansys.meshing.prime.MaterialPointManager.delete_material_point"></a>

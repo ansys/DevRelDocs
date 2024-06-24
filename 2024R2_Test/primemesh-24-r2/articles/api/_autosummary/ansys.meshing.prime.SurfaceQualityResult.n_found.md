@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfacequalityresult-n-found"></a>
-
 # ansys.meshing.prime.SurfaceQualityResult.n_found
 
 <a id="ansys.meshing.prime.SurfaceQualityResult.n_found"></a>

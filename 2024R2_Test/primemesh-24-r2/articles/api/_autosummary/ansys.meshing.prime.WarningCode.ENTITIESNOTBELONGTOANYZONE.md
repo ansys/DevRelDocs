@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-warningcode-entitiesnotbelongtoanyzone"></a>
-
 # ansys.meshing.prime.WarningCode.ENTITIESNOTBELONGTOANYZONE
 
 <a id="ansys.meshing.prime.WarningCode.ENTITIESNOTBELONGTOANYZONE"></a>

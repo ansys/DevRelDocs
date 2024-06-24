@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-prismcontrolgrowthparams-offset-type"></a>
-
 # ansys.meshing.prime.PrismControlGrowthParams.offset_type
 
 <a id="ansys.meshing.prime.PrismControlGrowthParams.offset_type"></a>

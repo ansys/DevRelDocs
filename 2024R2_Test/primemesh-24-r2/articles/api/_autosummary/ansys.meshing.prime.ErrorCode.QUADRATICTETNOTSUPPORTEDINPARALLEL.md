@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-quadratictetnotsupportedinparallel"></a>
-
 # ansys.meshing.prime.ErrorCode.QUADRATICTETNOTSUPPORTEDINPARALLEL
 
 <a id="ansys.meshing.prime.ErrorCode.QUADRATICTETNOTSUPPORTEDINPARALLEL"></a>

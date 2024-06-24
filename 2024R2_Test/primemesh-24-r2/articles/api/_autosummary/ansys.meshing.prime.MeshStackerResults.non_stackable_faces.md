@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-meshstackerresults-non-stackable-faces"></a>
-
 # ansys.meshing.prime.MeshStackerResults.non_stackable_faces
 
 <a id="ansys.meshing.prime.MeshStackerResults.non_stackable_faces"></a>

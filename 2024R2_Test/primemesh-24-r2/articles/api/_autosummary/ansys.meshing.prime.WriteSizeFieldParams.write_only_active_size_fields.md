@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-writesizefieldparams-write-only-active-size-fields"></a>
-
 # ansys.meshing.prime.WriteSizeFieldParams.write_only_active_size_fields
 
 <a id="ansys.meshing.prime.WriteSizeFieldParams.write_only_active_size_fields"></a>

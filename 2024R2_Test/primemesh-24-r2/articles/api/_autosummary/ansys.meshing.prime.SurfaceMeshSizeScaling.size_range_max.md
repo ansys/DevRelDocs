@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfacemeshsizescaling-size-range-max"></a>
-
 # ansys.meshing.prime.SurfaceMeshSizeScaling.size_range_max
 
 <a id="ansys.meshing.prime.SurfaceMeshSizeScaling.size_range_max"></a>

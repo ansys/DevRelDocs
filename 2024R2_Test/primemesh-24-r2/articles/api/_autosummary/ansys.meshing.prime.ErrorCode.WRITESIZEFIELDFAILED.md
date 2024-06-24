@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-writesizefieldfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.WRITESIZEFIELDFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.WRITESIZEFIELDFAILED"></a>

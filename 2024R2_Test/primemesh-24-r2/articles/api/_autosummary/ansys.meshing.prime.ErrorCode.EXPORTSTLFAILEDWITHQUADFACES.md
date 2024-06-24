@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-exportstlfailedwithquadfaces"></a>
-
 # ansys.meshing.prime.ErrorCode.EXPORTSTLFAILEDWITHQUADFACES
 
 <a id="ansys.meshing.prime.ErrorCode.EXPORTSTLFAILEDWITHQUADFACES"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-prismcontrolgrowthparams-n-layers"></a>
-
 # ansys.meshing.prime.PrismControlGrowthParams.n_layers
 
 <a id="ansys.meshing.prime.PrismControlGrowthParams.n_layers"></a>

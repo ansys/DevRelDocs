@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-searchbyspikeresults-error-code"></a>
-
 # ansys.meshing.prime.SearchBySpikeResults.error_code
 
 <a id="ansys.meshing.prime.SearchBySpikeResults.error_code"></a>

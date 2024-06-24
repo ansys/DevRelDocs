@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-invalidlastaspectratio"></a>
-
 # ansys.meshing.prime.ErrorCode.INVALIDLASTASPECTRATIO
 
 <a id="ansys.meshing.prime.ErrorCode.INVALIDLASTASPECTRATIO"></a>

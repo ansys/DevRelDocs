@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-boisizingparams-set-default"></a>
-
 # ansys.meshing.prime.BoiSizingParams.set_default
 
 <a id="ansys.meshing.prime.BoiSizingParams.set_default"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-globalsizingparams-max"></a>
-
 # ansys.meshing.prime.GlobalSizingParams.max
 
 <a id="ansys.meshing.prime.GlobalSizingParams.max"></a>

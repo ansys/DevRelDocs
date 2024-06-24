@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-partzonelets-print-default"></a>
-
 # ansys.meshing.prime.PartZonelets.print_default
 
 <a id="ansys.meshing.prime.PartZonelets.print_default"></a>

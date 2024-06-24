@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrappercontrol-get-live-material-points"></a>
-
 # ansys.meshing.prime.WrapperControl.get_live_material_points
 
 <a id="ansys.meshing.prime.WrapperControl.get_live_material_points"></a>

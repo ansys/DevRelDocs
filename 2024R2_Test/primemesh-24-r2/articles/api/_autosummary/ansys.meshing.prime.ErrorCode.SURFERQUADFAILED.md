@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-surferquadfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.SURFERQUADFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.SURFERQUADFAILED"></a>

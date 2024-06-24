@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-detectandtreatholesparams-edge-sharp-corner-angle"></a>
-
 # ansys.meshing.prime.DetectAndTreatHolesParams.edge_sharp_corner_angle
 
 <a id="ansys.meshing.prime.DetectAndTreatHolesParams.edge_sharp_corner_angle"></a>

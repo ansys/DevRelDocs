@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-topofillholeparams-suppress-boundary-after-hole-fill"></a>
-
 # ansys.meshing.prime.TopoFillHoleParams.suppress_boundary_after_hole_fill
 
 <a id="ansys.meshing.prime.TopoFillHoleParams.suppress_boundary_after_hole_fill"></a>

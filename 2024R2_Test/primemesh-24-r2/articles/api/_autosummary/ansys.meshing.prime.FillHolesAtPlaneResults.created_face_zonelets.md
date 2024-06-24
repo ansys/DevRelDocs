@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fillholesatplaneresults-created-face-zonelets"></a>
-
 # ansys.meshing.prime.FillHolesAtPlaneResults.created_face_zonelets
 
 <a id="ansys.meshing.prime.FillHolesAtPlaneResults.created_face_zonelets"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-topofillholeparams-edges-to-exclude"></a>
-
 # ansys.meshing.prime.TopoFillHoleParams.edges_to_exclude
 
 <a id="ansys.meshing.prime.TopoFillHoleParams.edges_to_exclude"></a>

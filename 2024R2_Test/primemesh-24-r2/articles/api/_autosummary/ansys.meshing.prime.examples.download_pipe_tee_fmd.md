@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-examples-download-pipe-tee-fmd"></a>
-
 # ansys.meshing.prime.examples.download_pipe_tee_fmd
 
 <a id="ansys.meshing.prime.examples.download_pipe_tee_fmd"></a>

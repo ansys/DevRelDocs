@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="importfluentcaseresults"></a>
-
 # ImportFluentCaseResults
 
 <a id="ansys.meshing.prime.ImportFluentCaseResults"></a>
@@ -30,12 +28,14 @@ Results associated with fluent case import.
 
 ### Methods
 
-| [`ImportFluentCaseResults.print_default`](ansys.meshing.prime.ImportFluentCaseResults.print_default.md#ansys.meshing.prime.ImportFluentCaseResults.print_default)()       | Print the default values of `ImportFluentCaseResults` object.   |
+| Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
+| [`ImportFluentCaseResults.print_default`](ansys.meshing.prime.ImportFluentCaseResults.print_default.md#ansys.meshing.prime.ImportFluentCaseResults.print_default)()       | Print the default values of `ImportFluentCaseResults` object.   |
 | [`ImportFluentCaseResults.set_default`](ansys.meshing.prime.ImportFluentCaseResults.set_default.md#ansys.meshing.prime.ImportFluentCaseResults.set_default)([error_code]) | Set the default values of the `ImportFluentCaseResults` object. |
 
 ### Attributes
 
-| [`ImportFluentCaseResults.error_code`](ansys.meshing.prime.ImportFluentCaseResults.error_code.md#ansys.meshing.prime.ImportFluentCaseResults.error_code)   | Error code associated with failure of operation.   |
+| Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
+| [`ImportFluentCaseResults.error_code`](ansys.meshing.prime.ImportFluentCaseResults.error_code.md#ansys.meshing.prime.ImportFluentCaseResults.error_code)   | Error code associated with failure of operation.   |
 <!-- vale on -->

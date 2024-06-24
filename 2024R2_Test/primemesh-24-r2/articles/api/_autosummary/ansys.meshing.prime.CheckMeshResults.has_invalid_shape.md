@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-checkmeshresults-has-invalid-shape"></a>
-
 # ansys.meshing.prime.CheckMeshResults.has_invalid_shape
 
 <a id="ansys.meshing.prime.CheckMeshResults.has_invalid_shape"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-examples-download-deformed-blade-fmd"></a>
-
 # ansys.meshing.prime.examples.download_deformed_blade_fmd
 
 <a id="ansys.meshing.prime.examples.download_deformed_blade_fmd"></a>

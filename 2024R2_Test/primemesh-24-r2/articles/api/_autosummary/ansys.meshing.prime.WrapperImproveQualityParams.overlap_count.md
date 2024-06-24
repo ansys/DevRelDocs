@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapperimprovequalityparams-overlap-count"></a>
-
 # ansys.meshing.prime.WrapperImproveQualityParams.overlap_count
 
 <a id="ansys.meshing.prime.WrapperImproveQualityParams.overlap_count"></a>

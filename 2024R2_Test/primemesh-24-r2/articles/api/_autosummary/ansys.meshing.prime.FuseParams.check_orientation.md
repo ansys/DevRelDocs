@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fuseparams-check-orientation"></a>
-
 # ansys.meshing.prime.FuseParams.check_orientation
 
 <a id="ansys.meshing.prime.FuseParams.check_orientation"></a>

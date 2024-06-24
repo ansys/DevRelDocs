@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-notsupportedfortopologypart"></a>
-
 # ansys.meshing.prime.ErrorCode.NOTSUPPORTEDFORTOPOLOGYPART
 
 <a id="ansys.meshing.prime.ErrorCode.NOTSUPPORTEDFORTOPOLOGYPART"></a>

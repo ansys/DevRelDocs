@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-scaffoldermergeresults-print-default"></a>
-
 # ansys.meshing.prime.ScaffolderMergeResults.print_default
 
 <a id="ansys.meshing.prime.ScaffolderMergeResults.print_default"></a>

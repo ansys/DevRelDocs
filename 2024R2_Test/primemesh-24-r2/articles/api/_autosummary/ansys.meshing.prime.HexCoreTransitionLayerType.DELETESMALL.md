@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-hexcoretransitionlayertype-deletesmall"></a>
-
 # ansys.meshing.prime.HexCoreTransitionLayerType.DELETESMALL
 
 <a id="ansys.meshing.prime.HexCoreTransitionLayerType.DELETESMALL"></a>

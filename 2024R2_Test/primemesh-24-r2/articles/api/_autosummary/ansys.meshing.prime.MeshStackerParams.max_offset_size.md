@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-meshstackerparams-max-offset-size"></a>
-
 # ansys.meshing.prime.MeshStackerParams.max_offset_size
 
 <a id="ansys.meshing.prime.MeshStackerParams.max_offset_size"></a>

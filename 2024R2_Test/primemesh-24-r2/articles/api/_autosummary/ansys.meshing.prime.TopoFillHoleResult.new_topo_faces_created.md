@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-topofillholeresult-new-topo-faces-created"></a>
-
 # ansys.meshing.prime.TopoFillHoleResult.new_topo_faces_created
 
 <a id="ansys.meshing.prime.TopoFillHoleResult.new_topo_faces_created"></a>

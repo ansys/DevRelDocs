@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrappercontrol-set-feature-recoveries"></a>
-
 # ansys.meshing.prime.WrapperControl.set_feature_recoveries
 
 <a id="ansys.meshing.prime.WrapperControl.set_feature_recoveries"></a>

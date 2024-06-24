@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-thinvolumecontrolsamesourceformorethantwocontrol"></a>
-
 # ansys.meshing.prime.ErrorCode.THINVOLUMECONTROLSAMESOURCEFORMORETHANTWOCONTROL
 
 <a id="ansys.meshing.prime.ErrorCode.THINVOLUMECONTROLSAMESOURCEFORMORETHANTWOCONTROL"></a>

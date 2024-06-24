@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-prismstairstep-gap-factor-scale"></a>
-
 # ansys.meshing.prime.PrismStairStep.gap_factor_scale
 
 <a id="ansys.meshing.prime.PrismStairStep.gap_factor_scale"></a>

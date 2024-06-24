@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-wrappercontrol-invalidfeaturerecoverycontrolid"></a>
-
 # ansys.meshing.prime.ErrorCode.WRAPPERCONTROL_INVALIDFEATURERECOVERYCONTROLID
 
 <a id="ansys.meshing.prime.ErrorCode.WRAPPERCONTROL_INVALIDFEATURERECOVERYCONTROLID"></a>

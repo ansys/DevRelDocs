@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapregion-external"></a>
-
 # ansys.meshing.prime.WrapRegion.EXTERNAL
 
 <a id="ansys.meshing.prime.WrapRegion.EXTERNAL"></a>

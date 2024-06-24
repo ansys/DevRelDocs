@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-examples-download-toy-car-dsco"></a>
-
 # ansys.meshing.prime.examples.download_toy_car_dsco
 
 <a id="ansys.meshing.prime.examples.download_toy_car_dsco"></a>

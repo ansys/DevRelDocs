@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-wrapperclosegaps-invalidresolutionfactor"></a>
-
 # ansys.meshing.prime.ErrorCode.WRAPPERCLOSEGAPS_INVALIDRESOLUTIONFACTOR
 
 <a id="ansys.meshing.prime.ErrorCode.WRAPPERCLOSEGAPS_INVALIDRESOLUTIONFACTOR"></a>

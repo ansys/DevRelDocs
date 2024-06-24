@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-prismcontrolgrowthparams-first-aspect-ratio"></a>
-
 # ansys.meshing.prime.PrismControlGrowthParams.first_aspect_ratio
 
 <a id="ansys.meshing.prime.PrismControlGrowthParams.first_aspect_ratio"></a>

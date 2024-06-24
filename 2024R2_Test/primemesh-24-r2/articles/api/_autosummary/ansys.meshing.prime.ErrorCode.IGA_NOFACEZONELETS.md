@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-iga-nofacezonelets"></a>
-
 # ansys.meshing.prime.ErrorCode.IGA_NOFACEZONELETS
 
 <a id="ansys.meshing.prime.ErrorCode.IGA_NOFACEZONELETS"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-iga-invalidinputfileforstructuredhexmeshfitting"></a>
-
 # ansys.meshing.prime.ErrorCode.IGA_INVALIDINPUTFILEFORSTRUCTUREDHEXMESHFITTING
 
 <a id="ansys.meshing.prime.ErrorCode.IGA_INVALIDINPUTFILEFORSTRUCTUREDHEXMESHFITTING"></a>

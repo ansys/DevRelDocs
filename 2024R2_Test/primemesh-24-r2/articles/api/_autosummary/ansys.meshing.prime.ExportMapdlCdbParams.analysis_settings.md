@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-exportmapdlcdbparams-analysis-settings"></a>
-
 # ansys.meshing.prime.ExportMapdlCdbParams.analysis_settings
 
 <a id="ansys.meshing.prime.ExportMapdlCdbParams.analysis_settings"></a>

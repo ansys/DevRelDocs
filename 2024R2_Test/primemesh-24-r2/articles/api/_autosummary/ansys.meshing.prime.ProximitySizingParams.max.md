@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-proximitysizingparams-max"></a>
-
 # ansys.meshing.prime.ProximitySizingParams.max
 
 <a id="ansys.meshing.prime.ProximitySizingParams.max"></a>

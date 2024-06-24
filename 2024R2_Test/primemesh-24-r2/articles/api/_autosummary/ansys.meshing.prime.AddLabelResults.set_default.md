@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-addlabelresults-set-default"></a>
-
 # ansys.meshing.prime.AddLabelResults.set_default
 
 <a id="ansys.meshing.prime.AddLabelResults.set_default"></a>

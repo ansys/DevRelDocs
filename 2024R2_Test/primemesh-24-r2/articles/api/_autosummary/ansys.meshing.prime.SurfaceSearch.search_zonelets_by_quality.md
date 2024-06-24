@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfacesearch-search-zonelets-by-quality"></a>
-
 # ansys.meshing.prime.SurfaceSearch.search_zonelets_by_quality
 
 <a id="ansys.meshing.prime.SurfaceSearch.search_zonelets_by_quality"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-detectandtreatholesparams-merge-face-normals-angle"></a>
-
 # ansys.meshing.prime.DetectAndTreatHolesParams.merge_face_normals_angle
 
 <a id="ansys.meshing.prime.DetectAndTreatHolesParams.merge_face_normals_angle"></a>

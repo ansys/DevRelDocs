@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-refineatcontactsresults-n-refined"></a>
-
 # ansys.meshing.prime.RefineAtContactsResults.n_refined
 
 <a id="ansys.meshing.prime.RefineAtContactsResults.n_refined"></a>

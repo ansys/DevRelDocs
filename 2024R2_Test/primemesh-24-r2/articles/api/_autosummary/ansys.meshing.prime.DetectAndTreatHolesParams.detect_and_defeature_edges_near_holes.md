@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-detectandtreatholesparams-detect-and-defeature-edges-near-holes"></a>
-
 # ansys.meshing.prime.DetectAndTreatHolesParams.detect_and_defeature_edges_near_holes
 
 <a id="ansys.meshing.prime.DetectAndTreatHolesParams.detect_and_defeature_edges_near_holes"></a>

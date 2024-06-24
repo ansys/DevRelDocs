@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-lucid-mesh-surface-mesh-with-size-controls"></a>
-
 # ansys.meshing.prime.lucid.Mesh.surface_mesh_with_size_controls
 
 <a id="ansys.meshing.prime.lucid.Mesh.surface_mesh_with_size_controls"></a>

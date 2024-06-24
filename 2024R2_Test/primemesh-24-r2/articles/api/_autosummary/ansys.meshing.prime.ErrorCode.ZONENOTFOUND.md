@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-zonenotfound"></a>
-
 # ansys.meshing.prime.ErrorCode.ZONENOTFOUND
 
 <a id="ansys.meshing.prime.ErrorCode.ZONENOTFOUND"></a>

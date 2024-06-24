@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-part-get-volume-zones-of-name-pattern"></a>
-
 # ansys.meshing.prime.Part.get_volume_zones_of_name_pattern
 
 <a id="ansys.meshing.prime.Part.get_volume_zones_of_name_pattern"></a>

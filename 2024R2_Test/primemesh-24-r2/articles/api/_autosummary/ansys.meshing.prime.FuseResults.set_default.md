@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fuseresults-set-default"></a>
-
 # ansys.meshing.prime.FuseResults.set_default
 
 <a id="ansys.meshing.prime.FuseResults.set_default"></a>

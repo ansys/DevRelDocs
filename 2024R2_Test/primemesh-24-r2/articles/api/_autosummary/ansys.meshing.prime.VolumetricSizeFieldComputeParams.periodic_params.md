@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-volumetricsizefieldcomputeparams-periodic-params"></a>
-
 # ansys.meshing.prime.VolumetricSizeFieldComputeParams.periodic_params
 
 <a id="ansys.meshing.prime.VolumetricSizeFieldComputeParams.periodic_params"></a>

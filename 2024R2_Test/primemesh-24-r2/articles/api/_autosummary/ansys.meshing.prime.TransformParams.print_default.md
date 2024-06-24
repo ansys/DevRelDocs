@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-transformparams-print-default"></a>
-
 # ansys.meshing.prime.TransformParams.print_default
 
 <a id="ansys.meshing.prime.TransformParams.print_default"></a>

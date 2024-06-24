@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-connect-subtract-volumes"></a>
-
 # ansys.meshing.prime.Connect.subtract_volumes
 
 <a id="ansys.meshing.prime.Connect.subtract_volumes"></a>

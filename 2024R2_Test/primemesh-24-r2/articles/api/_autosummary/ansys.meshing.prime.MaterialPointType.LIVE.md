@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-materialpointtype-live"></a>
-
 # ansys.meshing.prime.MaterialPointType.LIVE
 
 <a id="ansys.meshing.prime.MaterialPointType.LIVE"></a>

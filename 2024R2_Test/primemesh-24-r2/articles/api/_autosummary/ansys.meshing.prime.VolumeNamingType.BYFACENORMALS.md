@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-volumenamingtype-byfacenormals"></a>
-
 # ansys.meshing.prime.VolumeNamingType.BYFACENORMALS
 
 <a id="ansys.meshing.prime.VolumeNamingType.BYFACENORMALS"></a>

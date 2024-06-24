@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-quadtosplineparams-shell-thickness"></a>
-
 # ansys.meshing.prime.QuadToSplineParams.shell_thickness
 
 <a id="ansys.meshing.prime.QuadToSplineParams.shell_thickness"></a>

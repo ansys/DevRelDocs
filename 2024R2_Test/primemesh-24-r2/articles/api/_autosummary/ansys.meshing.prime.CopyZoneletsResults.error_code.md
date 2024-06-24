@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-copyzoneletsresults-error-code"></a>
-
 # ansys.meshing.prime.CopyZoneletsResults.error_code
 
 <a id="ansys.meshing.prime.CopyZoneletsResults.error_code"></a>

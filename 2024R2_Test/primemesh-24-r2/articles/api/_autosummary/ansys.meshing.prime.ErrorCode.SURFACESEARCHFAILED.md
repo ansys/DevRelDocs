@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-surfacesearchfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.SURFACESEARCHFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.SURFACESEARCHFAILED"></a>

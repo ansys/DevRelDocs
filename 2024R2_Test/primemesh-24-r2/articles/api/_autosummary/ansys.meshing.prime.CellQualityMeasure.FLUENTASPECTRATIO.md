@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-cellqualitymeasure-fluentaspectratio"></a>
-
 # ansys.meshing.prime.CellQualityMeasure.FLUENTASPECTRATIO
 
 <a id="ansys.meshing.prime.CellQualityMeasure.FLUENTASPECTRATIO"></a>

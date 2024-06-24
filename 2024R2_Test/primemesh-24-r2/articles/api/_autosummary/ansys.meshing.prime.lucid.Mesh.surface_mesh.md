@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-lucid-mesh-surface-mesh"></a>
-
 # ansys.meshing.prime.lucid.Mesh.surface_mesh
 
 <a id="ansys.meshing.prime.lucid.Mesh.surface_mesh"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-readsizefieldfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.READSIZEFIELDFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.READSIZEFIELDFAILED"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfacesearch-search-zonelets-by-self-intersections"></a>
-
 # ansys.meshing.prime.SurfaceSearch.search_zonelets_by_self_intersections
 
 <a id="ansys.meshing.prime.SurfaceSearch.search_zonelets_by_self_intersections"></a>

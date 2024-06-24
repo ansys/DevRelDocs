@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="mergepartsparams"></a>
-
 # MergePartsParams
 
 <a id="ansys.meshing.prime.MergePartsParams"></a>
@@ -30,12 +28,14 @@ Parameters to merge parts.
 
 ### Methods
 
-| [`MergePartsParams.print_default`](ansys.meshing.prime.MergePartsParams.print_default.md#ansys.meshing.prime.MergePartsParams.print_default)()   | Print the default values of `MergePartsParams` object.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
+| [`MergePartsParams.print_default`](ansys.meshing.prime.MergePartsParams.print_default.md#ansys.meshing.prime.MergePartsParams.print_default)()   | Print the default values of `MergePartsParams` object.   |
 | [`MergePartsParams.set_default`](ansys.meshing.prime.MergePartsParams.set_default.md#ansys.meshing.prime.MergePartsParams.set_default)([...])    | Set the default values of the `MergePartsParams` object. |
 
 ### Attributes
 
-| [`MergePartsParams.merged_part_suggested_name`](ansys.meshing.prime.MergePartsParams.merged_part_suggested_name.md#ansys.meshing.prime.MergePartsParams.merged_part_suggested_name)   | Suggested name to be set on merged part.   |
+| Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
+| [`MergePartsParams.merged_part_suggested_name`](ansys.meshing.prime.MergePartsParams.merged_part_suggested_name.md#ansys.meshing.prime.MergePartsParams.merged_part_suggested_name)   | Suggested name to be set on merged part.   |
 <!-- vale on -->

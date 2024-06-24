@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-partsummaryresults-n-volume-zones"></a>
-
 # ansys.meshing.prime.PartSummaryResults.n_volume_zones
 
 <a id="ansys.meshing.prime.PartSummaryResults.n_volume_zones"></a>

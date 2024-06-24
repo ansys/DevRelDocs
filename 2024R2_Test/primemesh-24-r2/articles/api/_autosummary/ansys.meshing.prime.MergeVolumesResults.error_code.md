@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-mergevolumesresults-error-code"></a>
-
 # ansys.meshing.prime.MergeVolumesResults.error_code
 
 <a id="ansys.meshing.prime.MergeVolumesResults.error_code"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-edgeconnecttype-freetofree"></a>
-
 # ansys.meshing.prime.EdgeConnectType.FREETOFREE
 
 <a id="ansys.meshing.prime.EdgeConnectType.FREETOFREE"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-sidezoneletsnotfit"></a>
-
 # ansys.meshing.prime.ErrorCode.SIDEZONELETSNOTFIT
 
 <a id="ansys.meshing.prime.ErrorCode.SIDEZONELETSNOTFIT"></a>

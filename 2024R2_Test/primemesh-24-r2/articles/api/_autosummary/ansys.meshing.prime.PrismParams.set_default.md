@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-prismparams-set-default"></a>
-
 # ansys.meshing.prime.PrismParams.set_default
 
 <a id="ansys.meshing.prime.PrismParams.set_default"></a>

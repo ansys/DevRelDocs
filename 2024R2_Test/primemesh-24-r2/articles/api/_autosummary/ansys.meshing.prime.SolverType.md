@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="solvertype"></a>
-
 # SolverType
 
 <a id="ansys.meshing.prime.SolverType"></a>
@@ -14,7 +12,8 @@ Type of solver.
 
 ### Attributes
 
-| [`SolverType.FLUENT`](ansys.meshing.prime.SolverType.FLUENT.md#ansys.meshing.prime.SolverType.FLUENT)   | Solver type is Fluent.   |
+| Name | Description |
 |---------------------------------------------------------------------------------------------------------|--------------------------|
+| [`SolverType.FLUENT`](ansys.meshing.prime.SolverType.FLUENT.md#ansys.meshing.prime.SolverType.FLUENT)   | Solver type is Fluent.   |
 | [`SolverType.MAPDL`](ansys.meshing.prime.SolverType.MAPDL.md#ansys.meshing.prime.SolverType.MAPDL)      | Solver type is MAPDL.    |
 <!-- vale on -->

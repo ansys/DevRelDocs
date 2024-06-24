@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-matchmorphparams-set-default"></a>
-
 # ansys.meshing.prime.MatchMorphParams.set_default
 
 <a id="ansys.meshing.prime.MatchMorphParams.set_default"></a>

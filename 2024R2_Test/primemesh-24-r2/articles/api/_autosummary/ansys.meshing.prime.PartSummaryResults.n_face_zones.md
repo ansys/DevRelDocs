@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-partsummaryresults-n-face-zones"></a>
-
 # ansys.meshing.prime.PartSummaryResults.n_face_zones
 
 <a id="ansys.meshing.prime.PartSummaryResults.n_face_zones"></a>

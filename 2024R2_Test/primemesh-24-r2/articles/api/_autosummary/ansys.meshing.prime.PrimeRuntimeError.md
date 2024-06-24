@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-primeruntimeerror"></a>
-
 # ansys.meshing.prime.PrimeRuntimeError
 
 <a id="ansys.meshing.prime.PrimeRuntimeError"></a>

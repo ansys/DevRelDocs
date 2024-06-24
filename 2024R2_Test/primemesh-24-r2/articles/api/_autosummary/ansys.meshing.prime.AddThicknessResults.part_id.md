@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-addthicknessresults-part-id"></a>
-
 # ansys.meshing.prime.AddThicknessResults.part_id
 
 <a id="ansys.meshing.prime.AddThicknessResults.part_id"></a>

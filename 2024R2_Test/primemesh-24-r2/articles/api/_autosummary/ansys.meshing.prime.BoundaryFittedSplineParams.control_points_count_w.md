@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-boundaryfittedsplineparams-control-points-count-w"></a>
-
 # ansys.meshing.prime.BoundaryFittedSplineParams.control_points_count_w
 
 <a id="ansys.meshing.prime.BoundaryFittedSplineParams.control_points_count_w"></a>

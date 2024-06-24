@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-part-remove-labels-from-topo-entities"></a>
-
 # ansys.meshing.prime.Part.remove_labels_from_topo_entities
 
 <a id="ansys.meshing.prime.Part.remove_labels_from_topo_entities"></a>

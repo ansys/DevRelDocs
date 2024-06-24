@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-part-get-topo-edges-of-label-name-pattern"></a>
-
 # ansys.meshing.prime.Part.get_topo_edges_of_label_name_pattern
 
 <a id="ansys.meshing.prime.Part.get_topo_edges_of_label_name_pattern"></a>

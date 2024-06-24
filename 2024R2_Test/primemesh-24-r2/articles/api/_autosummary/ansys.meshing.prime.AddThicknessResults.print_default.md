@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-addthicknessresults-print-default"></a>
-
 # ansys.meshing.prime.AddThicknessResults.print_default
 
 <a id="ansys.meshing.prime.AddThicknessResults.print_default"></a>

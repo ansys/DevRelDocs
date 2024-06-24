@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-contactpreventionparams-size"></a>
-
 # ansys.meshing.prime.ContactPreventionParams.size
 
 <a id="ansys.meshing.prime.ContactPreventionParams.size"></a>

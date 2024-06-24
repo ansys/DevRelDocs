@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-smoothdihedralfacenodesparams-min-dihedral-angle"></a>
-
 # ansys.meshing.prime.SmoothDihedralFaceNodesParams.min_dihedral_angle
 
 <a id="ansys.meshing.prime.SmoothDihedralFaceNodesParams.min_dihedral_angle"></a>

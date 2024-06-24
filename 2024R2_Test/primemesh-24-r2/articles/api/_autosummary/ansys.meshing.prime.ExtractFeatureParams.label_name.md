@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-extractfeatureparams-label-name"></a>
-
 # ansys.meshing.prime.ExtractFeatureParams.label_name
 
 <a id="ansys.meshing.prime.ExtractFeatureParams.label_name"></a>

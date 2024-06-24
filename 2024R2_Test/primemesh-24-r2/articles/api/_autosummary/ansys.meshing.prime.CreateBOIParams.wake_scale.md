@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-createboiparams-wake-scale"></a>
-
 # ansys.meshing.prime.CreateBOIParams.wake_scale
 
 <a id="ansys.meshing.prime.CreateBOIParams.wake_scale"></a>

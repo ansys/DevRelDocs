@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-readpmdatfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.READPMDATFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.READPMDATFAILED"></a>

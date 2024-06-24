@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-volumequalitysummaryresults-message"></a>
-
 # ansys.meshing.prime.VolumeQualitySummaryResults.message
 
 <a id="ansys.meshing.prime.VolumeQualitySummaryResults.message"></a>

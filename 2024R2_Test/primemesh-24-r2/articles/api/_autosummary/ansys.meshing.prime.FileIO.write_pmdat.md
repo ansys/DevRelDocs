@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fileio-write-pmdat"></a>
-
 # ansys.meshing.prime.FileIO.write_pmdat
 
 <a id="ansys.meshing.prime.FileIO.write_pmdat"></a>

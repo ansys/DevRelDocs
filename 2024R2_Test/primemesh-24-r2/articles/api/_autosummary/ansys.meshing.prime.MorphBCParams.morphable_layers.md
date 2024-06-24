@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-morphbcparams-morphable-layers"></a>
-
 # ansys.meshing.prime.MorphBCParams.morphable_layers
 
 <a id="ansys.meshing.prime.MorphBCParams.morphable_layers"></a>

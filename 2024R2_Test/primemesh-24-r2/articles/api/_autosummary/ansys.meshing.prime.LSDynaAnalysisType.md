@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="lsdynaanalysistype"></a>
-
 # LSDynaAnalysisType
 
 <a id="ansys.meshing.prime.LSDynaAnalysisType"></a>
@@ -14,7 +12,8 @@ Provides the LS-DYNA analysis type.
 
 ### Attributes
 
-| [`LSDynaAnalysisType.DOORSLAM`](ansys.meshing.prime.LSDynaAnalysisType.DOORSLAM.md#ansys.meshing.prime.LSDynaAnalysisType.DOORSLAM)   | Option to select doorslam as LS-DYNA analysis type.   |
+| Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|
+| [`LSDynaAnalysisType.DOORSLAM`](ansys.meshing.prime.LSDynaAnalysisType.DOORSLAM.md#ansys.meshing.prime.LSDynaAnalysisType.DOORSLAM)   | Option to select doorslam as LS-DYNA analysis type.   |
 | [`LSDynaAnalysisType.SEATBELT`](ansys.meshing.prime.LSDynaAnalysisType.SEATBELT.md#ansys.meshing.prime.LSDynaAnalysisType.SEATBELT)   | Option to select Seatbelt as LS-DYNA analysis type.   |
 <!-- vale on -->

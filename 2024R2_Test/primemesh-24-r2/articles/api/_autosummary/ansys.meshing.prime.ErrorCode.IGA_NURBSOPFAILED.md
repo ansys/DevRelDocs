@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-iga-nurbsopfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.IGA_NURBSOPFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.IGA_NURBSOPFAILED"></a>

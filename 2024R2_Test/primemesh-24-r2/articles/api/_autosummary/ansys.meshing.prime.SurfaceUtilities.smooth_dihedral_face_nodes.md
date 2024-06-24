@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfaceutilities-smooth-dihedral-face-nodes"></a>
-
 # ansys.meshing.prime.SurfaceUtilities.smooth_dihedral_face_nodes
 
 <a id="ansys.meshing.prime.SurfaceUtilities.smooth_dihedral_face_nodes"></a>

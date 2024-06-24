@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-contactpreventionparams-source-scope"></a>
-
 # ansys.meshing.prime.ContactPreventionParams.source_scope
 
 <a id="ansys.meshing.prime.ContactPreventionParams.source_scope"></a>

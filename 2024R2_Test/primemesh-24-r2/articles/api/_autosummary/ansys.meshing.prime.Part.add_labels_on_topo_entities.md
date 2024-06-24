@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-part-add-labels-on-topo-entities"></a>
-
 # ansys.meshing.prime.Part.add_labels_on_topo_entities
 
 <a id="ansys.meshing.prime.Part.add_labels_on_topo_entities"></a>

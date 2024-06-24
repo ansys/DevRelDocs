@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-model-set-suggested-zone-name"></a>
-
 # ansys.meshing.prime.Model.set_suggested_zone_name
 
 <a id="ansys.meshing.prime.Model.set_suggested_zone_name"></a>

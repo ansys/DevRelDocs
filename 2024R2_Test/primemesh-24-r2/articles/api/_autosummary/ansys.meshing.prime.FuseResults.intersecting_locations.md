@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fuseresults-intersecting-locations"></a>
-
 # ansys.meshing.prime.FuseResults.intersecting_locations
 
 <a id="ansys.meshing.prime.FuseResults.intersecting_locations"></a>

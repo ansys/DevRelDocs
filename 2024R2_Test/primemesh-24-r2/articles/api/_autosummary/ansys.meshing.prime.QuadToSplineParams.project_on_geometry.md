@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-quadtosplineparams-project-on-geometry"></a>
-
 # ansys.meshing.prime.QuadToSplineParams.project_on_geometry
 
 <a id="ansys.meshing.prime.QuadToSplineParams.project_on_geometry"></a>

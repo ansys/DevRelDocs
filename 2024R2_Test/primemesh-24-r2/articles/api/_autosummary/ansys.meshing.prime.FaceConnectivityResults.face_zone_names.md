@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-faceconnectivityresults-face-zone-names"></a>
-
 # ansys.meshing.prime.FaceConnectivityResults.face_zone_names
 
 <a id="ansys.meshing.prime.FaceConnectivityResults.face_zone_names"></a>

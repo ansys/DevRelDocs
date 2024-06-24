@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-meshstackerparams-direction"></a>
-
 # ansys.meshing.prime.MeshStackerParams.direction
 
 <a id="ansys.meshing.prime.MeshStackerParams.direction"></a>

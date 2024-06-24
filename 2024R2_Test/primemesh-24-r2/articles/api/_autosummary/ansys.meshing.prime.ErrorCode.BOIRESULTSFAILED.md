@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-boiresultsfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.BOIRESULTSFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.BOIRESULTSFAILED"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-facequalitymeasure-elementquality"></a>
-
 # ansys.meshing.prime.FaceQualityMeasure.ELEMENTQUALITY
 
 <a id="ansys.meshing.prime.FaceQualityMeasure.ELEMENTQUALITY"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-partialdefeatureparams-merge-edge-allow-self-close"></a>
-
 # ansys.meshing.prime.PartialDefeatureParams.merge_edge_allow_self_close
 
 <a id="ansys.meshing.prime.PartialDefeatureParams.merge_edge_allow_self_close"></a>

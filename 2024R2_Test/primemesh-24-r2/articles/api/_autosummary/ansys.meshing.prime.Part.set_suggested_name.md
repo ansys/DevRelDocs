@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-part-set-suggested-name"></a>
-
 # ansys.meshing.prime.Part.set_suggested_name
 
 <a id="ansys.meshing.prime.Part.set_suggested_name"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-detectandtreatholesparams-detect-non-circular-holes-params"></a>
-
 # ansys.meshing.prime.DetectAndTreatHolesParams.detect_non_circular_holes_params
 
 <a id="ansys.meshing.prime.DetectAndTreatHolesParams.detect_non_circular_holes_params"></a>

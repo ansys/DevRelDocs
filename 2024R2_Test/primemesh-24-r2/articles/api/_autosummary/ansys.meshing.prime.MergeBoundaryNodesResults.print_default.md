@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-mergeboundarynodesresults-print-default"></a>
-
 # ansys.meshing.prime.MergeBoundaryNodesResults.print_default
 
 <a id="ansys.meshing.prime.MergeBoundaryNodesResults.print_default"></a>

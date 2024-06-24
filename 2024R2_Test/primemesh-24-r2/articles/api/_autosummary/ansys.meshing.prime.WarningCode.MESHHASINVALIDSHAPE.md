@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-warningcode-meshhasinvalidshape"></a>
-
 # ansys.meshing.prime.WarningCode.MESHHASINVALIDSHAPE
 
 <a id="ansys.meshing.prime.WarningCode.MESHHASINVALIDSHAPE"></a>

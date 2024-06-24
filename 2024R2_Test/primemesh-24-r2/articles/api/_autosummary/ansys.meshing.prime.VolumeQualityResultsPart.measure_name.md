@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-volumequalityresultspart-measure-name"></a>
-
 # ansys.meshing.prime.VolumeQualityResultsPart.measure_name
 
 <a id="ansys.meshing.prime.VolumeQualityResultsPart.measure_name"></a>

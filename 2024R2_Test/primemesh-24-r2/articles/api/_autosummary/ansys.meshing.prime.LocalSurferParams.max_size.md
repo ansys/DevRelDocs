@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-localsurferparams-max-size"></a>
-
 # ansys.meshing.prime.LocalSurferParams.max_size
 
 <a id="ansys.meshing.prime.LocalSurferParams.max_size"></a>

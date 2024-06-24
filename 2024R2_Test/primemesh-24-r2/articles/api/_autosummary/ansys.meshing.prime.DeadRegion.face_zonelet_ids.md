@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-deadregion-face-zonelet-ids"></a>
-
 # ansys.meshing.prime.DeadRegion.face_zonelet_ids
 
 <a id="ansys.meshing.prime.DeadRegion.face_zonelet_ids"></a>

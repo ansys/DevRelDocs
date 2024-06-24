@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-extractvolumesparams-create-zone"></a>
-
 # ansys.meshing.prime.ExtractVolumesParams.create_zone
 
 <a id="ansys.meshing.prime.ExtractVolumesParams.create_zone"></a>

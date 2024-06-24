@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-setsizingresults-error-code"></a>
-
 # ansys.meshing.prime.SetSizingResults.error_code
 
 <a id="ansys.meshing.prime.SetSizingResults.error_code"></a>

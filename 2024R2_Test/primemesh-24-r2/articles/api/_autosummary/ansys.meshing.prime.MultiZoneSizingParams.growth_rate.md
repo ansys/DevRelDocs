@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-multizonesizingparams-growth-rate"></a>
-
 # ansys.meshing.prime.MultiZoneSizingParams.growth_rate
 
 <a id="ansys.meshing.prime.MultiZoneSizingParams.growth_rate"></a>

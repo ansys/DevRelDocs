@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="importcadparams"></a>
-
 # ImportCadParams
 
 <a id="ansys.meshing.prime.ImportCadParams"></a>
@@ -60,14 +58,16 @@ Parameters to control CAD import settings.
 
 ### Methods
 
-| [`ImportCadParams.print_default`](ansys.meshing.prime.ImportCadParams.print_default.md#ansys.meshing.prime.ImportCadParams.print_default)()        | Print the default values of `ImportCadParams` object.   |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| [`ImportCadParams.print_default`](ansys.meshing.prime.ImportCadParams.print_default.md#ansys.meshing.prime.ImportCadParams.print_default)()        | Print the default values of `ImportCadParams` object.   |
 | [`ImportCadParams.set_default`](ansys.meshing.prime.ImportCadParams.set_default.md#ansys.meshing.prime.ImportCadParams.set_default)([append, ...]) | Set the default values of the `ImportCadParams` object. |
 
 ### Attributes
 
-| [`ImportCadParams.ansys_release`](ansys.meshing.prime.ImportCadParams.ansys_release.md#ansys.meshing.prime.ImportCadParams.ansys_release)                                  | Configures the Ansys release to be used for loading CAD data through non Native route.   |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| [`ImportCadParams.ansys_release`](ansys.meshing.prime.ImportCadParams.ansys_release.md#ansys.meshing.prime.ImportCadParams.ansys_release)                                  | Configures the Ansys release to be used for loading CAD data through non Native route.   |
 | [`ImportCadParams.append`](ansys.meshing.prime.ImportCadParams.append.md#ansys.meshing.prime.ImportCadParams.append)                                                       | Append imported CAD into existing model when true.                                       |
 | [`ImportCadParams.cad_reader_route`](ansys.meshing.prime.ImportCadParams.cad_reader_route.md#ansys.meshing.prime.ImportCadParams.cad_reader_route)                         | Specify the available CAD reader routes.                                                 |
 | [`ImportCadParams.cad_refaceting_params`](ansys.meshing.prime.ImportCadParams.cad_refaceting_params.md#ansys.meshing.prime.ImportCadParams.cad_refaceting_params)          | Specify refaceting parameters.                                                           |

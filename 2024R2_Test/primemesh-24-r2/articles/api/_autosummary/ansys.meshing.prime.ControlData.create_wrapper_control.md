@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-controldata-create-wrapper-control"></a>
-
 # ansys.meshing.prime.ControlData.create_wrapper_control
 
 <a id="ansys.meshing.prime.ControlData.create_wrapper_control"></a>

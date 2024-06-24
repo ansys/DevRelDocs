@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="smoothtype"></a>
-
 # SmoothType
 
 <a id="ansys.meshing.prime.SmoothType"></a>
@@ -14,7 +12,8 @@ Indicates the the type of operation to be performed during the smooth dihedral f
 
 ### Attributes
 
-| [`SmoothType.SMOOTH`](ansys.meshing.prime.SmoothType.SMOOTH.md#ansys.meshing.prime.SmoothType.SMOOTH)    | Performs smoothing during the operation.   |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------|--------------------------------------------|
+| [`SmoothType.SMOOTH`](ansys.meshing.prime.SmoothType.SMOOTH.md#ansys.meshing.prime.SmoothType.SMOOTH)    | Performs smoothing during the operation.   |
 | [`SmoothType.INFLATE`](ansys.meshing.prime.SmoothType.INFLATE.md#ansys.meshing.prime.SmoothType.INFLATE) | Performs inflation during the operation.   |
 <!-- vale on -->

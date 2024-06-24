@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="mergevolumesparams"></a>
-
 # MergeVolumesParams
 
 <a id="ansys.meshing.prime.MergeVolumesParams"></a>
@@ -33,13 +31,15 @@ Parameters to merge volumes.
 
 ### Methods
 
-| [`MergeVolumesParams.print_default`](ansys.meshing.prime.MergeVolumesParams.print_default.md#ansys.meshing.prime.MergeVolumesParams.print_default)()   | Print the default values of `MergeVolumesParams` object.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
+| [`MergeVolumesParams.print_default`](ansys.meshing.prime.MergeVolumesParams.print_default.md#ansys.meshing.prime.MergeVolumesParams.print_default)()   | Print the default values of `MergeVolumesParams` object.   |
 | [`MergeVolumesParams.set_default`](ansys.meshing.prime.MergeVolumesParams.set_default.md#ansys.meshing.prime.MergeVolumesParams.set_default)([...])    | Set the default values of the `MergeVolumesParams` object. |
 
 ### Attributes
 
-| [`MergeVolumesParams.merge_to_neighbor_volume`](ansys.meshing.prime.MergeVolumesParams.merge_to_neighbor_volume.md#ansys.meshing.prime.MergeVolumesParams.merge_to_neighbor_volume)   | Option to merge given volumes to their neighbor volume.        |
+| Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
+| [`MergeVolumesParams.merge_to_neighbor_volume`](ansys.meshing.prime.MergeVolumesParams.merge_to_neighbor_volume.md#ansys.meshing.prime.MergeVolumesParams.merge_to_neighbor_volume)   | Option to merge given volumes to their neighbor volume.        |
 | [`MergeVolumesParams.neighbor_volumes`](ansys.meshing.prime.MergeVolumesParams.neighbor_volumes.md#ansys.meshing.prime.MergeVolumesParams.neighbor_volumes)                           | Ids of volume that are neighbors to given volumes for merging. |
 <!-- vale on -->

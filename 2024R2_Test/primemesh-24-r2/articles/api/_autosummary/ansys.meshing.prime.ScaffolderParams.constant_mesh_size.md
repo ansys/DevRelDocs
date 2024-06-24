@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-scaffolderparams-constant-mesh-size"></a>
-
 # ansys.meshing.prime.ScaffolderParams.constant_mesh_size
 
 <a id="ansys.meshing.prime.ScaffolderParams.constant_mesh_size"></a>

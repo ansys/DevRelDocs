@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="surferparams"></a>
-
 # SurferParams
 
 <a id="ansys.meshing.prime.SurferParams"></a>
@@ -66,14 +64,16 @@ Parameters used to generate surface mesh.
 
 ### Methods
 
-| [`SurferParams.print_default`](ansys.meshing.prime.SurferParams.print_default.md#ansys.meshing.prime.SurferParams.print_default)()           | Print the default values of `SurferParams` object.   |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
+| [`SurferParams.print_default`](ansys.meshing.prime.SurferParams.print_default.md#ansys.meshing.prime.SurferParams.print_default)()           | Print the default values of `SurferParams` object.   |
 | [`SurferParams.set_default`](ansys.meshing.prime.SurferParams.set_default.md#ansys.meshing.prime.SurferParams.set_default)([max_angle, ...]) | Set the default values of the `SurferParams` object. |
 
 ### Attributes
 
-| [`SurferParams.advanced_surfer_setup`](ansys.meshing.prime.SurferParams.advanced_surfer_setup.md#ansys.meshing.prime.SurferParams.advanced_surfer_setup)    | Option to define advanced settings for remeshing operation.                              |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| [`SurferParams.advanced_surfer_setup`](ansys.meshing.prime.SurferParams.advanced_surfer_setup.md#ansys.meshing.prime.SurferParams.advanced_surfer_setup)    | Option to define advanced settings for remeshing operation.                              |
 | [`SurferParams.avoid_corner_triangles`](ansys.meshing.prime.SurferParams.avoid_corner_triangles.md#ansys.meshing.prime.SurferParams.avoid_corner_triangles) | Option to avoid corner triangles(with all three boundary nodes) generated.               |
 | [`SurferParams.check_non_manifolds`](ansys.meshing.prime.SurferParams.check_non_manifolds.md#ansys.meshing.prime.SurferParams.check_non_manifolds)          | Option to avoid new non-manifolds(multi-connection) if generated in surface mesh.        |
 | [`SurferParams.constant_size`](ansys.meshing.prime.SurferParams.constant_size.md#ansys.meshing.prime.SurferParams.constant_size)                            | Size used in constant size surface meshing.                                              |

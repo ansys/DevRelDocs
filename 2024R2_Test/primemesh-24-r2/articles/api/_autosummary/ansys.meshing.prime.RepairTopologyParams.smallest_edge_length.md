@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-repairtopologyparams-smallest-edge-length"></a>
-
 # ansys.meshing.prime.RepairTopologyParams.smallest_edge_length
 
 <a id="ansys.meshing.prime.RepairTopologyParams.smallest_edge_length"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfacediagnosticsummaryresults-n-self-intersections"></a>
-
 # ansys.meshing.prime.SurfaceDiagnosticSummaryResults.n_self_intersections
 
 <a id="ansys.meshing.prime.SurfaceDiagnosticSummaryResults.n_self_intersections"></a>

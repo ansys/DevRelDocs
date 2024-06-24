@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-detectcircularholesparams-set-default"></a>
-
 # ansys.meshing.prime.DetectCircularHolesParams.set_default
 
 <a id="ansys.meshing.prime.DetectCircularHolesParams.set_default"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-invalidtransformationmatrix"></a>
-
 # ansys.meshing.prime.ErrorCode.INVALIDTRANSFORMATIONMATRIX
 
 <a id="ansys.meshing.prime.ErrorCode.INVALIDTRANSFORMATIONMATRIX"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-periodiccontrol-set-suggested-name"></a>
-
 # ansys.meshing.prime.PeriodicControl.set_suggested_name
 
 <a id="ansys.meshing.prime.PeriodicControl.set_suggested_name"></a>

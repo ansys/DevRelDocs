@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-multizonecontrol-set-surface-scope"></a>
-
 # ansys.meshing.prime.MultiZoneControl.set_surface_scope
 
 <a id="ansys.meshing.prime.MultiZoneControl.set_surface_scope"></a>

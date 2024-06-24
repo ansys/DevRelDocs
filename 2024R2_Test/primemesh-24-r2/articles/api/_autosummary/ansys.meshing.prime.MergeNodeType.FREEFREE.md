@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-mergenodetype-freefree"></a>
-
 # ansys.meshing.prime.MergeNodeType.FREEFREE
 
 <a id="ansys.meshing.prime.MergeNodeType.FREEFREE"></a>

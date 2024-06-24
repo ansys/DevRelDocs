@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-triangulateresults-print-default"></a>
-
 # ansys.meshing.prime.TriangulateResults.print_default
 
 <a id="ansys.meshing.prime.TriangulateResults.print_default"></a>

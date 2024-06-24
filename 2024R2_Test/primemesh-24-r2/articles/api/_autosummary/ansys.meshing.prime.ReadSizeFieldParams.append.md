@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-readsizefieldparams-append"></a>
-
 # ansys.meshing.prime.ReadSizeFieldParams.append
 
 <a id="ansys.meshing.prime.ReadSizeFieldParams.append"></a>

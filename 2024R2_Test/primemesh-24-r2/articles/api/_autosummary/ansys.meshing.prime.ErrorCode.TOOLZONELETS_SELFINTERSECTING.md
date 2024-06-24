@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-toolzonelets-selfintersecting"></a>
-
 # ansys.meshing.prime.ErrorCode.TOOLZONELETS_SELFINTERSECTING
 
 <a id="ansys.meshing.prime.ErrorCode.TOOLZONELETS_SELFINTERSECTING"></a>

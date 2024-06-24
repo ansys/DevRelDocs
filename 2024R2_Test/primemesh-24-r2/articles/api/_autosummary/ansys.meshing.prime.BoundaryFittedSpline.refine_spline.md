@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-boundaryfittedspline-refine-spline"></a>
-
 # ansys.meshing.prime.BoundaryFittedSpline.refine_spline
 
 <a id="ansys.meshing.prime.BoundaryFittedSpline.refine_spline"></a>

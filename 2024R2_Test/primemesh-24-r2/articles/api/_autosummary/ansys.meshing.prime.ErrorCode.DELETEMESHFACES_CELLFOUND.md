@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-deletemeshfaces-cellfound"></a>
-
 # ansys.meshing.prime.ErrorCode.DELETEMESHFACES_CELLFOUND
 
 <a id="ansys.meshing.prime.ErrorCode.DELETEMESHFACES_CELLFOUND"></a>

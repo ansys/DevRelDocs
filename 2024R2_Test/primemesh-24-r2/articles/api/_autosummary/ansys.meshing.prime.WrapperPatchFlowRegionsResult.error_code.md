@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapperpatchflowregionsresult-error-code"></a>
-
 # ansys.meshing.prime.WrapperPatchFlowRegionsResult.error_code
 
 <a id="ansys.meshing.prime.WrapperPatchFlowRegionsResult.error_code"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-extractfeatureresults-processing-time"></a>
-
 # ansys.meshing.prime.ExtractFeatureResults.processing_time
 
 <a id="ansys.meshing.prime.ExtractFeatureResults.processing_time"></a>

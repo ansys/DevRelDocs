@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fuseparams-n-layers"></a>
-
 # ansys.meshing.prime.FuseParams.n_layers
 
 <a id="ansys.meshing.prime.FuseParams.n_layers"></a>

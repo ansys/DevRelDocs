@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-automeshparams-volume-fill-type"></a>
-
 # ansys.meshing.prime.AutoMeshParams.volume_fill_type
 
 <a id="ansys.meshing.prime.AutoMeshParams.volume_fill_type"></a>

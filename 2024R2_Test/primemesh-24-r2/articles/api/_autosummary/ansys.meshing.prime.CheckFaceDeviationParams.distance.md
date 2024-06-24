@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-checkfacedeviationparams-distance"></a>
-
 # ansys.meshing.prime.CheckFaceDeviationParams.distance
 
 <a id="ansys.meshing.prime.CheckFaceDeviationParams.distance"></a>

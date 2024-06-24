@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-facequalitymeasure-skewness"></a>
-
 # ansys.meshing.prime.FaceQualityMeasure.SKEWNESS
 
 <a id="ansys.meshing.prime.FaceQualityMeasure.SKEWNESS"></a>

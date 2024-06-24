@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-prismcontrol-get-surface-scope"></a>
-
 # ansys.meshing.prime.PrismControl.get_surface_scope
 
 <a id="ansys.meshing.prime.PrismControl.get_surface_scope"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapperimproveresult-unresolved-face-intersections"></a>
-
 # ansys.meshing.prime.WrapperImproveResult.unresolved_face_intersections
 
 <a id="ansys.meshing.prime.WrapperImproveResult.unresolved_face_intersections"></a>

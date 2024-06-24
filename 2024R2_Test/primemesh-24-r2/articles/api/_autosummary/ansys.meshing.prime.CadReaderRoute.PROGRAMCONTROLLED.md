@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-cadreaderroute-programcontrolled"></a>
-
 # ansys.meshing.prime.CadReaderRoute.PROGRAMCONTROLLED
 
 <a id="ansys.meshing.prime.CadReaderRoute.PROGRAMCONTROLLED"></a>

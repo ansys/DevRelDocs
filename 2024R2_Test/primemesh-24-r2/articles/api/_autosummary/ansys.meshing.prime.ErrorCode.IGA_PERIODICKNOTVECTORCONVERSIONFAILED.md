@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-iga-periodicknotvectorconversionfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.IGA_PERIODICKNOTVECTORCONVERSIONFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.IGA_PERIODICKNOTVECTORCONVERSIONFAILED"></a>

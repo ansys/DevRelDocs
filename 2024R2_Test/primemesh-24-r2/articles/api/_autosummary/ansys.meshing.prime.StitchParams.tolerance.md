@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-stitchparams-tolerance"></a>
-
 # ansys.meshing.prime.StitchParams.tolerance
 
 <a id="ansys.meshing.prime.StitchParams.tolerance"></a>

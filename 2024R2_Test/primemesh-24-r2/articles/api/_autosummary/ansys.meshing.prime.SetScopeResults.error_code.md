@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-setscoperesults-error-code"></a>
-
 # ansys.meshing.prime.SetScopeResults.error_code
 
 <a id="ansys.meshing.prime.SetScopeResults.error_code"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-scaffoldermergeresults-n-merged"></a>
-
 # ansys.meshing.prime.ScaffolderMergeResults.n_merged
 
 <a id="ansys.meshing.prime.ScaffolderMergeResults.n_merged"></a>

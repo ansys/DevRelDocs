@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-connectresults-error-code"></a>
-
 # ansys.meshing.prime.ConnectResults.error_code
 
 <a id="ansys.meshing.prime.ConnectResults.error_code"></a>

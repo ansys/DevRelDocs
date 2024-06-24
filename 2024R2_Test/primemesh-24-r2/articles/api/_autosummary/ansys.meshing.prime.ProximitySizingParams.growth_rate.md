@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-proximitysizingparams-growth-rate"></a>
-
 # ansys.meshing.prime.ProximitySizingParams.growth_rate
 
 <a id="ansys.meshing.prime.ProximitySizingParams.growth_rate"></a>

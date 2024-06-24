@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapperclosegapsparams-create-new-part"></a>
-
 # ansys.meshing.prime.WrapperCloseGapsParams.create_new_part
 
 <a id="ansys.meshing.prime.WrapperCloseGapsParams.create_new_part"></a>

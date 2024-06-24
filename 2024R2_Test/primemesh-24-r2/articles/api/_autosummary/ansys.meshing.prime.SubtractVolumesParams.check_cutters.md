@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-subtractvolumesparams-check-cutters"></a>
-
 # ansys.meshing.prime.SubtractVolumesParams.check_cutters
 
 <a id="ansys.meshing.prime.SubtractVolumesParams.check_cutters"></a>

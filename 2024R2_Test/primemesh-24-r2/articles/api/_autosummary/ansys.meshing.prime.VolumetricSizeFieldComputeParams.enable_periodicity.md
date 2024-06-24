@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-volumetricsizefieldcomputeparams-enable-periodicity"></a>
-
 # ansys.meshing.prime.VolumetricSizeFieldComputeParams.enable_periodicity
 
 <a id="ansys.meshing.prime.VolumetricSizeFieldComputeParams.enable_periodicity"></a>

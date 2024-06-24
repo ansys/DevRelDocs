@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-searchbyqualityresults-min-quality"></a>
-
 # ansys.meshing.prime.SearchByQualityResults.min_quality
 
 <a id="ansys.meshing.prime.SearchByQualityResults.min_quality"></a>

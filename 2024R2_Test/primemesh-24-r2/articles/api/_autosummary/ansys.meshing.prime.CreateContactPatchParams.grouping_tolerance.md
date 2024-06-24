@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-createcontactpatchparams-grouping-tolerance"></a>
-
 # ansys.meshing.prime.CreateContactPatchParams.grouping_tolerance
 
 <a id="ansys.meshing.prime.CreateContactPatchParams.grouping_tolerance"></a>

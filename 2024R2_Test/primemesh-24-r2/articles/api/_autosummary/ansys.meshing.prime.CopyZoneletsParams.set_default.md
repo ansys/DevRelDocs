@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-copyzoneletsparams-set-default"></a>
-
 # ansys.meshing.prime.CopyZoneletsParams.set_default
 
 <a id="ansys.meshing.prime.CopyZoneletsParams.set_default"></a>

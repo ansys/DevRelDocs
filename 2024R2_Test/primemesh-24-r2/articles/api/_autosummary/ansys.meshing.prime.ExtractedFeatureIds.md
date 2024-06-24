@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="extractedfeatureids"></a>
-
 # ExtractedFeatureIds
 
 <a id="ansys.meshing.prime.ExtractedFeatureIds"></a>
@@ -33,13 +31,15 @@ Contains ids of the features extracted.
 
 ### Methods
 
-| [`ExtractedFeatureIds.print_default`](ansys.meshing.prime.ExtractedFeatureIds.print_default.md#ansys.meshing.prime.ExtractedFeatureIds.print_default)()         | Print the default values of `ExtractedFeatureIds` object.   |
+| Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
+| [`ExtractedFeatureIds.print_default`](ansys.meshing.prime.ExtractedFeatureIds.print_default.md#ansys.meshing.prime.ExtractedFeatureIds.print_default)()         | Print the default values of `ExtractedFeatureIds` object.   |
 | [`ExtractedFeatureIds.set_default`](ansys.meshing.prime.ExtractedFeatureIds.set_default.md#ansys.meshing.prime.ExtractedFeatureIds.set_default)([part_id, ...]) | Set the default values of the `ExtractedFeatureIds` object. |
 
 ### Attributes
 
-| [`ExtractedFeatureIds.new_edge_zonelets`](ansys.meshing.prime.ExtractedFeatureIds.new_edge_zonelets.md#ansys.meshing.prime.ExtractedFeatureIds.new_edge_zonelets)   | Ids of new edge zonelets extracted.                    |
+| Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
+| [`ExtractedFeatureIds.new_edge_zonelets`](ansys.meshing.prime.ExtractedFeatureIds.new_edge_zonelets.md#ansys.meshing.prime.ExtractedFeatureIds.new_edge_zonelets)   | Ids of new edge zonelets extracted.                    |
 | [`ExtractedFeatureIds.part_id`](ansys.meshing.prime.ExtractedFeatureIds.part_id.md#ansys.meshing.prime.ExtractedFeatureIds.part_id)                                 | Id of the part from which edge zonelets are extracted. |
 <!-- vale on -->

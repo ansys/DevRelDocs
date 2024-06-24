@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfaceutilities-add-thickness"></a>
-
 # ansys.meshing.prime.SurfaceUtilities.add_thickness
 
 <a id="ansys.meshing.prime.SurfaceUtilities.add_thickness"></a>

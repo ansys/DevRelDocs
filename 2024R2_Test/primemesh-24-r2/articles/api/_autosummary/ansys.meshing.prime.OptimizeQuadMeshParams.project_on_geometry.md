@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-optimizequadmeshparams-project-on-geometry"></a>
-
 # ansys.meshing.prime.OptimizeQuadMeshParams.project_on_geometry
 
 <a id="ansys.meshing.prime.OptimizeQuadMeshParams.project_on_geometry"></a>

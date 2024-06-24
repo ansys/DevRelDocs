@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-searchbythinstripparams-print-default"></a>
-
 # ansys.meshing.prime.SearchByThinStripParams.print_default
 
 <a id="ansys.meshing.prime.SearchByThinStripParams.print_default"></a>

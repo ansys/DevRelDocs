@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-cadreaderroute-workbench"></a>
-
 # ansys.meshing.prime.CadReaderRoute.WORKBENCH
 
 <a id="ansys.meshing.prime.CadReaderRoute.WORKBENCH"></a>

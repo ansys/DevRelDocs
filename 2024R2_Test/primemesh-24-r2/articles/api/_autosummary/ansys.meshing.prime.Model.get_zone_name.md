@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-model-get-zone-name"></a>
-
 # ansys.meshing.prime.Model.get_zone_name
 
 <a id="ansys.meshing.prime.Model.get_zone_name"></a>

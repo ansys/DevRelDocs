@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-checkmeshresults-has-non-positive-volumes"></a>
-
 # ansys.meshing.prime.CheckMeshResults.has_non_positive_volumes
 
 <a id="ansys.meshing.prime.CheckMeshResults.has_non_positive_volumes"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-smoothtype-inflate"></a>
-
 # ansys.meshing.prime.SmoothType.INFLATE
 
 <a id="ansys.meshing.prime.SmoothType.INFLATE"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-getelementcountfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.GETELEMENTCOUNTFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.GETELEMENTCOUNTFAILED"></a>

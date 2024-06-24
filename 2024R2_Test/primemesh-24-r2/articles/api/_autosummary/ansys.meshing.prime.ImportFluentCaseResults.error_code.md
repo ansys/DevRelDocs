@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-importfluentcaseresults-error-code"></a>
-
 # ansys.meshing.prime.ImportFluentCaseResults.error_code
 
 <a id="ansys.meshing.prime.ImportFluentCaseResults.error_code"></a>

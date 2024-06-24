@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="boisizingparams"></a>
-
 # BoiSizingParams
 
 <a id="ansys.meshing.prime.BoiSizingParams"></a>
@@ -36,13 +34,15 @@ The minimum size will be determined based on the influence of other size control
 
 ### Methods
 
-| [`BoiSizingParams.print_default`](ansys.meshing.prime.BoiSizingParams.print_default.md#ansys.meshing.prime.BoiSizingParams.print_default)()             | Print the default values of `BoiSizingParams` object.   |
+| Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| [`BoiSizingParams.print_default`](ansys.meshing.prime.BoiSizingParams.print_default.md#ansys.meshing.prime.BoiSizingParams.print_default)()             | Print the default values of `BoiSizingParams` object.   |
 | [`BoiSizingParams.set_default`](ansys.meshing.prime.BoiSizingParams.set_default.md#ansys.meshing.prime.BoiSizingParams.set_default)([max, growth_rate]) | Set the default values of the `BoiSizingParams` object. |
 
 ### Attributes
 
-| [`BoiSizingParams.growth_rate`](ansys.meshing.prime.BoiSizingParams.growth_rate.md#ansys.meshing.prime.BoiSizingParams.growth_rate)   | Growth rate used for transitioning from one element size to neighbor element size.   |
+| Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| [`BoiSizingParams.growth_rate`](ansys.meshing.prime.BoiSizingParams.growth_rate.md#ansys.meshing.prime.BoiSizingParams.growth_rate)   | Growth rate used for transitioning from one element size to neighbor element size.   |
 | [`BoiSizingParams.max`](ansys.meshing.prime.BoiSizingParams.max.md#ansys.meshing.prime.BoiSizingParams.max)                           | Maximum size used for computing edge and face size using boi size control.           |
 <!-- vale on -->

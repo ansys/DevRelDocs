@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-addlabelresults-error-code"></a>
-
 # ansys.meshing.prime.AddLabelResults.error_code
 
 <a id="ansys.meshing.prime.AddLabelResults.error_code"></a>

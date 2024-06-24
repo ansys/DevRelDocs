@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapparams-sizing-method"></a>
-
 # ansys.meshing.prime.WrapParams.sizing_method
 
 <a id="ansys.meshing.prime.WrapParams.sizing_method"></a>

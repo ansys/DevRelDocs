@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-igaunstructuredsplinesurf-elements-count"></a>
-
 # ansys.meshing.prime.IGAUnstructuredSplineSurf.elements_count
 
 <a id="ansys.meshing.prime.IGAUnstructuredSplineSurf.elements_count"></a>

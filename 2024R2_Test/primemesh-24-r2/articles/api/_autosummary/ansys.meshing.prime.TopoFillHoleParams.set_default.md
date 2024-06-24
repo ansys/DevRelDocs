@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-topofillholeparams-set-default"></a>
-
 # ansys.meshing.prime.TopoFillHoleParams.set_default
 
 <a id="ansys.meshing.prime.TopoFillHoleParams.set_default"></a>

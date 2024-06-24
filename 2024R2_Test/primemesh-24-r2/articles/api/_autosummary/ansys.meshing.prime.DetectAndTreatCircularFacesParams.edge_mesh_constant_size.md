@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-detectandtreatcircularfacesparams-edge-mesh-constant-size"></a>
-
 # ansys.meshing.prime.DetectAndTreatCircularFacesParams.edge_mesh_constant_size
 
 <a id="ansys.meshing.prime.DetectAndTreatCircularFacesParams.edge_mesh_constant_size"></a>

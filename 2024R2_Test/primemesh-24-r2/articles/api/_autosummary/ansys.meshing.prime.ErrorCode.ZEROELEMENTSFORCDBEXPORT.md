@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-zeroelementsforcdbexport"></a>
-
 # ansys.meshing.prime.ErrorCode.ZEROELEMENTSFORCDBEXPORT
 
 <a id="ansys.meshing.prime.ErrorCode.ZEROELEMENTSFORCDBEXPORT"></a>

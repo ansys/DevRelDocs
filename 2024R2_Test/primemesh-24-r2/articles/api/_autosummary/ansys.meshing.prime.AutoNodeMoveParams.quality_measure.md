@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-autonodemoveparams-quality-measure"></a>
-
 # ansys.meshing.prime.AutoNodeMoveParams.quality_measure
 
 <a id="ansys.meshing.prime.AutoNodeMoveParams.quality_measure"></a>

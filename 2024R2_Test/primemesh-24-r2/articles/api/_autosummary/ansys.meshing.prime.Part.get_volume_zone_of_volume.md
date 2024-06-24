@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-part-get-volume-zone-of-volume"></a>
-
 # ansys.meshing.prime.Part.get_volume_zone_of_volume
 
 <a id="ansys.meshing.prime.Part.get_volume_zone_of_volume"></a>

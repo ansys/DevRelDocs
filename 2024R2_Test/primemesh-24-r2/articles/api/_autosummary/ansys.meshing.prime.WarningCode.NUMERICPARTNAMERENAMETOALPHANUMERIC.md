@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-warningcode-numericpartnamerenametoalphanumeric"></a>
-
 # ansys.meshing.prime.WarningCode.NUMERICPARTNAMERENAMETOALPHANUMERIC
 
 <a id="ansys.meshing.prime.WarningCode.NUMERICPARTNAMERENAMETOALPHANUMERIC"></a>

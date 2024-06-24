@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-part-merge-volumes"></a>
-
 # ansys.meshing.prime.Part.merge_volumes
 
 <a id="ansys.meshing.prime.Part.merge_volumes"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-cadrefacetingresolution-coarse"></a>
-
 # ansys.meshing.prime.CadRefacetingResolution.COARSE
 
 <a id="ansys.meshing.prime.CadRefacetingResolution.COARSE"></a>

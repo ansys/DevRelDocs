@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-subtractzoneletsparams-retain-cutter"></a>
-
 # ansys.meshing.prime.SubtractZoneletsParams.retain_cutter
 
 <a id="ansys.meshing.prime.SubtractZoneletsParams.retain_cutter"></a>

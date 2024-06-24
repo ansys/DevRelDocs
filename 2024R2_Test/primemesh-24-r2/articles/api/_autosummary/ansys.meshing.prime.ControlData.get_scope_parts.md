@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-controldata-get-scope-parts"></a>
-
 # ansys.meshing.prime.ControlData.get_scope_parts
 
 <a id="ansys.meshing.prime.ControlData.get_scope_parts"></a>

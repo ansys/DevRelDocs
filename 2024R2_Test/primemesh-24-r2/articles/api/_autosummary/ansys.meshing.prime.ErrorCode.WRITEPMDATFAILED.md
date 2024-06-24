@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-writepmdatfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.WRITEPMDATFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.WRITEPMDATFAILED"></a>

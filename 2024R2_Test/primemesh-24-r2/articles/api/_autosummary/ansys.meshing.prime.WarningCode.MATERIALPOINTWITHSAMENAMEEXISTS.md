@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-warningcode-materialpointwithsamenameexists"></a>
-
 # ansys.meshing.prime.WarningCode.MATERIALPOINTWITHSAMENAMEEXISTS
 
 <a id="ansys.meshing.prime.WarningCode.MATERIALPOINTWITHSAMENAMEEXISTS"></a>

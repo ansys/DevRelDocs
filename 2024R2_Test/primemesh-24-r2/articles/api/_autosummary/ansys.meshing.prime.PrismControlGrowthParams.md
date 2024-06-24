@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="prismcontrolgrowthparams"></a>
-
 # PrismControlGrowthParams
 
 <a id="ansys.meshing.prime.PrismControlGrowthParams"></a>
@@ -48,14 +46,16 @@ Growth parameters for prism control.
 
 ### Methods
 
-| [`PrismControlGrowthParams.print_default`](ansys.meshing.prime.PrismControlGrowthParams.print_default.md#ansys.meshing.prime.PrismControlGrowthParams.print_default)()   | Print the default values of `PrismControlGrowthParams` object.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
+| [`PrismControlGrowthParams.print_default`](ansys.meshing.prime.PrismControlGrowthParams.print_default.md#ansys.meshing.prime.PrismControlGrowthParams.print_default)()   | Print the default values of `PrismControlGrowthParams` object.   |
 | [`PrismControlGrowthParams.set_default`](ansys.meshing.prime.PrismControlGrowthParams.set_default.md#ansys.meshing.prime.PrismControlGrowthParams.set_default)([...])    | Set the default values of the `PrismControlGrowthParams` object. |
 
 ### Attributes
 
-| [`PrismControlGrowthParams.first_aspect_ratio`](ansys.meshing.prime.PrismControlGrowthParams.first_aspect_ratio.md#ansys.meshing.prime.PrismControlGrowthParams.first_aspect_ratio)   | Aspect ratio to be used to compute first layer height.                                       |
+| Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+| [`PrismControlGrowthParams.first_aspect_ratio`](ansys.meshing.prime.PrismControlGrowthParams.first_aspect_ratio.md#ansys.meshing.prime.PrismControlGrowthParams.first_aspect_ratio)   | Aspect ratio to be used to compute first layer height.                                       |
 | [`PrismControlGrowthParams.first_height`](ansys.meshing.prime.PrismControlGrowthParams.first_height.md#ansys.meshing.prime.PrismControlGrowthParams.first_height)                     | Height to be used for first layer and adjust following layer height based on other settings. |
 | [`PrismControlGrowthParams.growth_rate`](ansys.meshing.prime.PrismControlGrowthParams.growth_rate.md#ansys.meshing.prime.PrismControlGrowthParams.growth_rate)                        | Growth rate to be used to compute prism layer heights.                                       |
 | [`PrismControlGrowthParams.last_aspect_ratio`](ansys.meshing.prime.PrismControlGrowthParams.last_aspect_ratio.md#ansys.meshing.prime.PrismControlGrowthParams.last_aspect_ratio)      | Apsect ratio of the last layer.                                                              |

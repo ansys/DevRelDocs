@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapperimprovequalityparams-island-count"></a>
-
 # ansys.meshing.prime.WrapperImproveQualityParams.island_count
 
 <a id="ansys.meshing.prime.WrapperImproveQualityParams.island_count"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfacediagnosticsummaryparams-compute-free-edges"></a>
-
 # ansys.meshing.prime.SurfaceDiagnosticSummaryParams.compute_free_edges
 
 <a id="ansys.meshing.prime.SurfaceDiagnosticSummaryParams.compute_free_edges"></a>

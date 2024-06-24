@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-removelabelresults-error-code"></a>
-
 # ansys.meshing.prime.RemoveLabelResults.error_code
 
 <a id="ansys.meshing.prime.RemoveLabelResults.error_code"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-matchmorphresults-print-default"></a>
-
 # ansys.meshing.prime.MatchMorphResults.print_default
 
 <a id="ansys.meshing.prime.MatchMorphResults.print_default"></a>

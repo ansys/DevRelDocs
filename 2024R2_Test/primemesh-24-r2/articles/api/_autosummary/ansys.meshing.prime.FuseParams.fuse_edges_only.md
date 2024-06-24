@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fuseparams-fuse-edges-only"></a>
-
 # ansys.meshing.prime.FuseParams.fuse_edges_only
 
 <a id="ansys.meshing.prime.FuseParams.fuse_edges_only"></a>

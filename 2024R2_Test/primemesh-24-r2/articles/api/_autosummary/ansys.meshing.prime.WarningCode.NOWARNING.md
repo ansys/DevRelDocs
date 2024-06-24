@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-warningcode-nowarning"></a>
-
 # ansys.meshing.prime.WarningCode.NOWARNING
 
 <a id="ansys.meshing.prime.WarningCode.NOWARNING"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-searchbyfoldsparams-critical-angle"></a>
-
 # ansys.meshing.prime.SearchByFoldsParams.critical_angle
 
 <a id="ansys.meshing.prime.SearchByFoldsParams.critical_angle"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-examples-downloadmanager-clear-download-cache"></a>
-
 # ansys.meshing.prime.examples.DownloadManager.clear_download_cache
 
 <a id="ansys.meshing.prime.examples.DownloadManager.clear_download_cache"></a>

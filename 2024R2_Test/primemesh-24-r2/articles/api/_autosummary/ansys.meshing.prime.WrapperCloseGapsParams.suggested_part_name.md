@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapperclosegapsparams-suggested-part-name"></a>
-
 # ansys.meshing.prime.WrapperCloseGapsParams.suggested_part_name
 
 <a id="ansys.meshing.prime.WrapperCloseGapsParams.suggested_part_name"></a>

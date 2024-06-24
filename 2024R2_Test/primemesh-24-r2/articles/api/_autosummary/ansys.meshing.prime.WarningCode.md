@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="warningcode"></a>
-
 # WarningCode
 
 <a id="ansys.meshing.prime.WarningCode"></a>
@@ -14,8 +12,9 @@ Warning codes associated with the PyPrimeMesh operation.
 
 ### Attributes
 
-| [`WarningCode.NOWARNING`](ansys.meshing.prime.WarningCode.NOWARNING.md#ansys.meshing.prime.WarningCode.NOWARNING)                                                                                                                                  | No warnings.                                                                                                  |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| [`WarningCode.NOWARNING`](ansys.meshing.prime.WarningCode.NOWARNING.md#ansys.meshing.prime.WarningCode.NOWARNING)                                                                                                                                  | No warnings.                                                                                                  |
 | [`WarningCode.UNKNOWN`](ansys.meshing.prime.WarningCode.UNKNOWN.md#ansys.meshing.prime.WarningCode.UNKNOWN)                                                                                                                                        | Unknown warning.                                                                                              |
 | [`WarningCode.SURFER_QUADCLEANUP_MULTITHREADINGNOTSUPPORTED`](ansys.meshing.prime.WarningCode.SURFER_QUADCLEANUP_MULTITHREADINGNOTSUPPORTED.md#ansys.meshing.prime.WarningCode.SURFER_QUADCLEANUP_MULTITHREADINGNOTSUPPORTED)                      | Multithreading is not supported for quad cleanup operation.                                                   |
 | [`WarningCode.OVERRIDECURVATURESIZINGPARAMS`](ansys.meshing.prime.WarningCode.OVERRIDECURVATURESIZINGPARAMS.md#ansys.meshing.prime.WarningCode.OVERRIDECURVATURESIZINGPARAMS)                                                                      | Overriding curvature sizing parameters.                                                                       |

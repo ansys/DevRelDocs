@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-wrapperresolveintersectionfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.WRAPPERRESOLVEINTERSECTIONFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.WRAPPERRESOLVEINTERSECTIONFAILED"></a>

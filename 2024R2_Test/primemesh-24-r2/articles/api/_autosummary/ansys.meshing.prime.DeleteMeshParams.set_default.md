@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-deletemeshparams-set-default"></a>
-
 # ansys.meshing.prime.DeleteMeshParams.set_default
 
 <a id="ansys.meshing.prime.DeleteMeshParams.set_default"></a>

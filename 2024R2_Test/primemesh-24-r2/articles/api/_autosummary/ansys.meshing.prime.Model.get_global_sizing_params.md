@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-model-get-global-sizing-params"></a>
-
 # ansys.meshing.prime.Model.get_global_sizing_params
 
 <a id="ansys.meshing.prime.Model.get_global_sizing_params"></a>

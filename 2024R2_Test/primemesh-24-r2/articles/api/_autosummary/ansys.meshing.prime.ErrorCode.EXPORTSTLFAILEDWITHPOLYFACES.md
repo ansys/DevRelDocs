@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-exportstlfailedwithpolyfaces"></a>
-
 # ansys.meshing.prime.ErrorCode.EXPORTSTLFAILEDWITHPOLYFACES
 
 <a id="ansys.meshing.prime.ErrorCode.EXPORTSTLFAILEDWITHPOLYFACES"></a>

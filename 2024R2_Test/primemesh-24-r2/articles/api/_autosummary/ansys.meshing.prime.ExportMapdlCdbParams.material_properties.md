@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-exportmapdlcdbparams-material-properties"></a>
-
 # ansys.meshing.prime.ExportMapdlCdbParams.material_properties
 
 <a id="ansys.meshing.prime.ExportMapdlCdbParams.material_properties"></a>

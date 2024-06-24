@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-stretchfreeboundariesresults-print-default"></a>
-
 # ansys.meshing.prime.StretchFreeBoundariesResults.print_default
 
 <a id="ansys.meshing.prime.StretchFreeBoundariesResults.print_default"></a>

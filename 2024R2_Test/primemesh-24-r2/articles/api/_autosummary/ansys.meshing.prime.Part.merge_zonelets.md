@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-part-merge-zonelets"></a>
-
 # ansys.meshing.prime.Part.merge_zonelets
 
 <a id="ansys.meshing.prime.Part.merge_zonelets"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapperimprovequalityparams-number-of-threads"></a>
-
 # ansys.meshing.prime.WrapperImproveQualityParams.number_of_threads
 
 <a id="ansys.meshing.prime.WrapperImproveQualityParams.number_of_threads"></a>

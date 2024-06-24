@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapper-wrap"></a>
-
 # ansys.meshing.prime.Wrapper.wrap
 
 <a id="ansys.meshing.prime.Wrapper.wrap"></a>

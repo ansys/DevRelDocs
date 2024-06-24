@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-topodata-get-mesh-zonelets-of-topo-faces"></a>
-
 # ansys.meshing.prime.TopoData.get_mesh_zonelets_of_topo_faces
 
 <a id="ansys.meshing.prime.TopoData.get_mesh_zonelets_of_topo_faces"></a>

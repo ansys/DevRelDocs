@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-splinefeaturecapturetype-byedges"></a>
-
 # ansys.meshing.prime.SplineFeatureCaptureType.BYEDGES
 
 <a id="ansys.meshing.prime.SplineFeatureCaptureType.BYEDGES"></a>

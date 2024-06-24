@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-sourcefacingcellzonelets"></a>
-
 # ansys.meshing.prime.ErrorCode.SOURCEFACINGCELLZONELETS
 
 <a id="ansys.meshing.prime.ErrorCode.SOURCEFACINGCELLZONELETS"></a>

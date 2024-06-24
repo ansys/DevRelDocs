@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-controldata-get-size-control-by-name"></a>
-
 # ansys.meshing.prime.ControlData.get_size_control_by_name
 
 <a id="ansys.meshing.prime.ControlData.get_size_control_by_name"></a>

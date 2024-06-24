@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-searchinfobyregisteridresults-face-zonelets-found"></a>
-
 # ansys.meshing.prime.SearchInfoByRegisterIdResults.face_zonelets_found
 
 <a id="ansys.meshing.prime.SearchInfoByRegisterIdResults.face_zonelets_found"></a>

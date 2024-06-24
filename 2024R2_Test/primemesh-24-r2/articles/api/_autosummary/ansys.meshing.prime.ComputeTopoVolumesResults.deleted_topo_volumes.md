@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-computetopovolumesresults-deleted-topo-volumes"></a>
-
 # ansys.meshing.prime.ComputeTopoVolumesResults.deleted_topo_volumes
 
 <a id="ansys.meshing.prime.ComputeTopoVolumesResults.deleted_topo_volumes"></a>

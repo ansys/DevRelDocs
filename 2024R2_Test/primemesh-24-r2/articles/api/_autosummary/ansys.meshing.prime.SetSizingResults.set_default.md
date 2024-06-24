@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-setsizingresults-set-default"></a>
-
 # ansys.meshing.prime.SetSizingResults.set_default
 
 <a id="ansys.meshing.prime.SetSizingResults.set_default"></a>

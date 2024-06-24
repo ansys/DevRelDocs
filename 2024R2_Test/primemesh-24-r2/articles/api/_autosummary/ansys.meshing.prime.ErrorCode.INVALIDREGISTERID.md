@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-invalidregisterid"></a>
-
 # ansys.meshing.prime.ErrorCode.INVALIDREGISTERID
 
 <a id="ansys.meshing.prime.ErrorCode.INVALIDREGISTERID"></a>

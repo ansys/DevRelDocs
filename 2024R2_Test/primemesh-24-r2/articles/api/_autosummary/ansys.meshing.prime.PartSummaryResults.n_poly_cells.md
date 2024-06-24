@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-partsummaryresults-n-poly-cells"></a>
-
 # ansys.meshing.prime.PartSummaryResults.n_poly_cells
 
 <a id="ansys.meshing.prime.PartSummaryResults.n_poly_cells"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-volumequalitysummaryresults-error-code"></a>
-
 # ansys.meshing.prime.VolumeQualitySummaryResults.error_code
 
 <a id="ansys.meshing.prime.VolumeQualitySummaryResults.error_code"></a>

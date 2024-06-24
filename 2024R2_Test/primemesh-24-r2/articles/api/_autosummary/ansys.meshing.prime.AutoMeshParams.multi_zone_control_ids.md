@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-automeshparams-multi-zone-control-ids"></a>
-
 # ansys.meshing.prime.AutoMeshParams.multi_zone_control_ids
 
 <a id="ansys.meshing.prime.AutoMeshParams.multi_zone_control_ids"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-searchinfobyregisteridparams-print-default"></a>
-
 # ansys.meshing.prime.SearchInfoByRegisterIdParams.print_default
 
 <a id="ansys.meshing.prime.SearchInfoByRegisterIdParams.print_default"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-deletematerialpointresults-error-code"></a>
-
 # ansys.meshing.prime.DeleteMaterialPointResults.error_code
 
 <a id="ansys.meshing.prime.DeleteMaterialPointResults.error_code"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-subtractzoneletsresults-processing-time"></a>
-
 # ansys.meshing.prime.SubtractZoneletsResults.processing_time
 
 <a id="ansys.meshing.prime.SubtractZoneletsResults.processing_time"></a>

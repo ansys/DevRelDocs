@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfaceutilities-create-cap-on-face-zonelets"></a>
-
 # ansys.meshing.prime.SurfaceUtilities.create_cap_on_face_zonelets
 
 <a id="ansys.meshing.prime.SurfaceUtilities.create_cap_on_face_zonelets"></a>

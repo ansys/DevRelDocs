@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-scaffolderparams-absolute-dist-tol"></a>
-
 # ansys.meshing.prime.ScaffolderParams.absolute_dist_tol
 
 <a id="ansys.meshing.prime.ScaffolderParams.absolute_dist_tol"></a>

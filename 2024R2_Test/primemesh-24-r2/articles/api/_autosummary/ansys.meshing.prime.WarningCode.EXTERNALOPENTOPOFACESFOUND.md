@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-warningcode-externalopentopofacesfound"></a>
-
 # ansys.meshing.prime.WarningCode.EXTERNALOPENTOPOFACESFOUND
 
 <a id="ansys.meshing.prime.WarningCode.EXTERNALOPENTOPOFACESFOUND"></a>

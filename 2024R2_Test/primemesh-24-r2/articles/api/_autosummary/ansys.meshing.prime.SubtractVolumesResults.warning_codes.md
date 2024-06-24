@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-subtractvolumesresults-warning-codes"></a>
-
 # ansys.meshing.prime.SubtractVolumesResults.warning_codes
 
 <a id="ansys.meshing.prime.SubtractVolumesResults.warning_codes"></a>

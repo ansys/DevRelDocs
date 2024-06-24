@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-projectongeometryresults-warning-codes"></a>
-
 # ansys.meshing.prime.ProjectOnGeometryResults.warning_codes
 
 <a id="ansys.meshing.prime.ProjectOnGeometryResults.warning_codes"></a>

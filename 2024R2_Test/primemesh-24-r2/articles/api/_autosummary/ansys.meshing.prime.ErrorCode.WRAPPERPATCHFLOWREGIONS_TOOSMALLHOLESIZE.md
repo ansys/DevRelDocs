@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-wrapperpatchflowregions-toosmallholesize"></a>
-
 # ansys.meshing.prime.ErrorCode.WRAPPERPATCHFLOWREGIONS_TOOSMALLHOLESIZE
 
 <a id="ansys.meshing.prime.ErrorCode.WRAPPERPATCHFLOWREGIONS_TOOSMALLHOLESIZE"></a>

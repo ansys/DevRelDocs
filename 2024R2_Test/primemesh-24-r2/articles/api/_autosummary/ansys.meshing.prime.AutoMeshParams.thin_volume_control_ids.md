@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-automeshparams-thin-volume-control-ids"></a>
-
 # ansys.meshing.prime.AutoMeshParams.thin_volume_control_ids
 
 <a id="ansys.meshing.prime.AutoMeshParams.thin_volume_control_ids"></a>

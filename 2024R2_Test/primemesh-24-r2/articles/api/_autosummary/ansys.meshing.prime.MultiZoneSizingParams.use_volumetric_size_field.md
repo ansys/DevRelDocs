@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-multizonesizingparams-use-volumetric-size-field"></a>
-
 # ansys.meshing.prime.MultiZoneSizingParams.use_volumetric_size_field
 
 <a id="ansys.meshing.prime.MultiZoneSizingParams.use_volumetric_size_field"></a>

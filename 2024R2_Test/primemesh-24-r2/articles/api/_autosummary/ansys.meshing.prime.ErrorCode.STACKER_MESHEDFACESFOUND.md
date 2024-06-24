@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-stacker-meshedfacesfound"></a>
-
 # ansys.meshing.prime.ErrorCode.STACKER_MESHEDFACESFOUND
 
 <a id="ansys.meshing.prime.ErrorCode.STACKER_MESHEDFACESFOUND"></a>

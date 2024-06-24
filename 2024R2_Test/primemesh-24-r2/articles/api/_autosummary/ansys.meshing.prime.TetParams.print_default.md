@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-tetparams-print-default"></a>
-
 # ansys.meshing.prime.TetParams.print_default
 
 <a id="ansys.meshing.prime.TetParams.print_default"></a>

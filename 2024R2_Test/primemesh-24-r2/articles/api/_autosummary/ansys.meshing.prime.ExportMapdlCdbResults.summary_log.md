@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-exportmapdlcdbresults-summary-log"></a>
-
 # ansys.meshing.prime.ExportMapdlCdbResults.summary_log
 
 <a id="ansys.meshing.prime.ExportMapdlCdbResults.summary_log"></a>

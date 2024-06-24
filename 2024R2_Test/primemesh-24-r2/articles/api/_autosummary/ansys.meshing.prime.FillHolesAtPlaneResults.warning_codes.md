@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fillholesatplaneresults-warning-codes"></a>
-
 # ansys.meshing.prime.FillHolesAtPlaneResults.warning_codes
 
 <a id="ansys.meshing.prime.FillHolesAtPlaneResults.warning_codes"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-lsdynafileformattype-regular"></a>
-
 # ansys.meshing.prime.LSDynaFileFormatType.REGULAR
 
 <a id="ansys.meshing.prime.LSDynaFileFormatType.REGULAR"></a>

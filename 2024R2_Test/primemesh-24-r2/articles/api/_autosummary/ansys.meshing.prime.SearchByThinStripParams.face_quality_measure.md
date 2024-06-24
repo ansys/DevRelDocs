@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-searchbythinstripparams-face-quality-measure"></a>
-
 # ansys.meshing.prime.SearchByThinStripParams.face_quality_measure
 
 <a id="ansys.meshing.prime.SearchByThinStripParams.face_quality_measure"></a>

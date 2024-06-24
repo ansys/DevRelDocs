@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-boundaryfittedsplineparams-n-refine"></a>
-
 # ansys.meshing.prime.BoundaryFittedSplineParams.n_refine
 
 <a id="ansys.meshing.prime.BoundaryFittedSplineParams.n_refine"></a>

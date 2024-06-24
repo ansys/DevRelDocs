@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrappercontrol-set-geometry-scope"></a>
-
 # ansys.meshing.prime.WrapperControl.set_geometry_scope
 
 <a id="ansys.meshing.prime.WrapperControl.set_geometry_scope"></a>

@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="searchbyqualityresults"></a>
-
 # SearchByQualityResults
 
 <a id="ansys.meshing.prime.SearchByQualityResults"></a>
@@ -39,14 +37,16 @@ Results of search by quality.
 
 ### Methods
 
-| [`SearchByQualityResults.print_default`](ansys.meshing.prime.SearchByQualityResults.print_default.md#ansys.meshing.prime.SearchByQualityResults.print_default)()   | Print the default values of `SearchByQualityResults` object.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
+| [`SearchByQualityResults.print_default`](ansys.meshing.prime.SearchByQualityResults.print_default.md#ansys.meshing.prime.SearchByQualityResults.print_default)()   | Print the default values of `SearchByQualityResults` object.   |
 | [`SearchByQualityResults.set_default`](ansys.meshing.prime.SearchByQualityResults.set_default.md#ansys.meshing.prime.SearchByQualityResults.set_default)([...])    | Set the default values of the `SearchByQualityResults` object. |
 
 ### Attributes
 
-| [`SearchByQualityResults.error_code`](ansys.meshing.prime.SearchByQualityResults.error_code.md#ansys.meshing.prime.SearchByQualityResults.error_code)    | Error code associated with failure of operation.                 |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
+| [`SearchByQualityResults.error_code`](ansys.meshing.prime.SearchByQualityResults.error_code.md#ansys.meshing.prime.SearchByQualityResults.error_code)    | Error code associated with failure of operation.                 |
 | [`SearchByQualityResults.max_quality`](ansys.meshing.prime.SearchByQualityResults.max_quality.md#ansys.meshing.prime.SearchByQualityResults.max_quality) | Maximum quality found by search.                                 |
 | [`SearchByQualityResults.min_quality`](ansys.meshing.prime.SearchByQualityResults.min_quality.md#ansys.meshing.prime.SearchByQualityResults.min_quality) | Minimum quality found by search.                                 |
 | [`SearchByQualityResults.n_found`](ansys.meshing.prime.SearchByQualityResults.n_found.md#ansys.meshing.prime.SearchByQualityResults.n_found)             | Number of face elements found by search for given quality limit. |

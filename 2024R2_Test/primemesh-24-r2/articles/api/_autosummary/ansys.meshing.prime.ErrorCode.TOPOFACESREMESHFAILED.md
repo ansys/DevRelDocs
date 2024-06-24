@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-topofacesremeshfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.TOPOFACESREMESHFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.TOPOFACESREMESHFAILED"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-defeaturetopologyparams-print-default"></a>
-
 # ansys.meshing.prime.DefeatureTopologyParams.print_default
 
 <a id="ansys.meshing.prime.DefeatureTopologyParams.print_default"></a>

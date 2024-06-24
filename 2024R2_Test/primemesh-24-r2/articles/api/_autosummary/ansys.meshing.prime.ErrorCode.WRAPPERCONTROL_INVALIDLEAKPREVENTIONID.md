@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-wrappercontrol-invalidleakpreventionid"></a>
-
 # ansys.meshing.prime.ErrorCode.WRAPPERCONTROL_INVALIDLEAKPREVENTIONID
 
 <a id="ansys.meshing.prime.ErrorCode.WRAPPERCONTROL_INVALIDLEAKPREVENTIONID"></a>

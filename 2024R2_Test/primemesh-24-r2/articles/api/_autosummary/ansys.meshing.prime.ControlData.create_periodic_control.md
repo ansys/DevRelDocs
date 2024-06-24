@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-controldata-create-periodic-control"></a>
-
 # ansys.meshing.prime.ControlData.create_periodic_control
 
 <a id="ansys.meshing.prime.ControlData.create_periodic_control"></a>

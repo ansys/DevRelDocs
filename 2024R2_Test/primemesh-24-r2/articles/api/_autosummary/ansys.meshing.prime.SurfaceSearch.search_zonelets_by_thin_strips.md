@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfacesearch-search-zonelets-by-thin-strips"></a>
-
 # ansys.meshing.prime.SurfaceSearch.search_zonelets_by_thin_strips
 
 <a id="ansys.meshing.prime.SurfaceSearch.search_zonelets_by_thin_strips"></a>

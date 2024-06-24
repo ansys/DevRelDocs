@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="lengthunit"></a>
-
 # LengthUnit
 
 <a id="ansys.meshing.prime.LengthUnit"></a>
@@ -14,8 +12,9 @@ Length units
 
 ### Attributes
 
-| [`LengthUnit.M`](ansys.meshing.prime.LengthUnit.M.md#ansys.meshing.prime.LengthUnit.M)    | Denotes length unit is meters.      |
+| Name | Description |
 |-------------------------------------------------------------------------------------------|-------------------------------------|
+| [`LengthUnit.M`](ansys.meshing.prime.LengthUnit.M.md#ansys.meshing.prime.LengthUnit.M)    | Denotes length unit is meters.      |
 | [`LengthUnit.CM`](ansys.meshing.prime.LengthUnit.CM.md#ansys.meshing.prime.LengthUnit.CM) | Denotes length unit is centimeters. |
 | [`LengthUnit.MM`](ansys.meshing.prime.LengthUnit.MM.md#ansys.meshing.prime.LengthUnit.MM) | Denotes length unit is milimeters.  |
 | [`LengthUnit.UM`](ansys.meshing.prime.LengthUnit.UM.md#ansys.meshing.prime.LengthUnit.UM) | Denotes length unit is micrometers. |

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surferparams-enable-multi-threading"></a>
-
 # ansys.meshing.prime.SurferParams.enable_multi_threading
 
 <a id="ansys.meshing.prime.SurferParams.enable_multi_threading"></a>

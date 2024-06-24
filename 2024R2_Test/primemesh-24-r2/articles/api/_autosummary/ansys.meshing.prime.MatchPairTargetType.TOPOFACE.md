@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-matchpairtargettype-topoface"></a>
-
 # ansys.meshing.prime.MatchPairTargetType.TOPOFACE
 
 <a id="ansys.meshing.prime.MatchPairTargetType.TOPOFACE"></a>

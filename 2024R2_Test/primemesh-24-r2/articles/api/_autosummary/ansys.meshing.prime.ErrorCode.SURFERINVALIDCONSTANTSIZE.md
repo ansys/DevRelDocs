@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-surferinvalidconstantsize"></a>
-
 # ansys.meshing.prime.ErrorCode.SURFERINVALIDCONSTANTSIZE
 
 <a id="ansys.meshing.prime.ErrorCode.SURFERINVALIDCONSTANTSIZE"></a>

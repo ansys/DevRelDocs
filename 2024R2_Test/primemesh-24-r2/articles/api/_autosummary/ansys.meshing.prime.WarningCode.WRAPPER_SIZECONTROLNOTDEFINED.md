@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-warningcode-wrapper-sizecontrolnotdefined"></a>
-
 # ansys.meshing.prime.WarningCode.WRAPPER_SIZECONTROLNOTDEFINED
 
 <a id="ansys.meshing.prime.WarningCode.WRAPPER_SIZECONTROLNOTDEFINED"></a>

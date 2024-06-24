@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-computevolumesparams-print-default"></a>
-
 # ansys.meshing.prime.ComputeVolumesParams.print_default
 
 <a id="ansys.meshing.prime.ComputeVolumesParams.print_default"></a>

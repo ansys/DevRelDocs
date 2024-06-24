@@ -1,14 +1,10 @@
-<a id="ref-index-automesh"></a>
-
-<a id="volumetric-meshing"></a>
-
 # Volumetric meshing
 
-The [`AutoMesh`](../api/_autosummary/ansys.meshing.prime.AutoMesh.md#ansys.meshing.prime.AutoMesh) class enables you to
+The [`AutoMesh`](./../api/_autosummary/ansys.meshing.prime.AutoMesh.md#ansys.meshing.prime.AutoMesh) class enables you to
 automatically create the volume mesh using different volume meshing algorithms. This class
 generates the volume mesh for all computed volumetric regions of the mesh object.
 For example, it creates mesh objects from the imported geometry. The
-[`AutoMesh.mesh()`](../api/_autosummary/ansys.meshing.prime.AutoMesh.mesh.md#ansys.meshing.prime.AutoMesh.mesh) method allows you to perform
+[`AutoMesh.mesh()`](./../api/_autosummary/ansys.meshing.prime.AutoMesh.mesh.md#ansys.meshing.prime.AutoMesh.mesh) method allows you to perform
 volumetric meshing with given meshing parameters.
 
 #### NOTE
@@ -18,7 +14,7 @@ The starting point for the volumetric meshing procedure is a valid surface mesh.
 
 ## Second-order tetrahedral mesh
 
-This code shows how to initialize the [`AutoMeshParams`](../api/_autosummary/ansys.meshing.prime.AutoMeshParams.md#ansys.meshing.prime.AutoMeshParams) class
+This code shows how to initialize the [`AutoMeshParams`](./../api/_autosummary/ansys.meshing.prime.AutoMeshParams.md#ansys.meshing.prime.AutoMeshParams) class
 and generate the volume mesh on meshed TopoFaces:
 
 ```python
@@ -54,7 +50,7 @@ prime.AutoMesh(model).mesh(part_id=part.id, automesh_params=automesh_params)
 
 ## Prism controls for polyhedral mesh
 
-The [`PrismControl`](../api/_autosummary/ansys.meshing.prime.PrismControl.md#ansys.meshing.prime.PrismControl) class helps you to control prism mesh generation
+The [`PrismControl`](./../api/_autosummary/ansys.meshing.prime.PrismControl.md#ansys.meshing.prime.PrismControl) class helps you to control prism mesh generation
 based on the face scope, volume scope and growth rate. You can use one or more prism controls. Each prism control
 definition is applied to one or more boundary zones and affects the height distribution and number of layers of
 the prism cells in the adjacent boundary layers.
@@ -144,7 +140,7 @@ mesh_util.volume_mesh(
 
 ## Volume-specific mesh controls
 
-The [`VolumeControl`](../api/_autosummary/ansys.meshing.prime.VolumeControl.md#ansys.meshing.prime.VolumeControl) class helps you to control volume mesh zonelets and elements.
+The [`VolumeControl`](./../api/_autosummary/ansys.meshing.prime.VolumeControl.md#ansys.meshing.prime.VolumeControl) class helps you to control volume mesh zonelets and elements.
 Volume mesh zonelets include fluids, solid, and dead. Elements include tetrahedrons and polyhedrons. This class
 allows you to define the scope and generate the various types of volume mesh.
 
@@ -180,7 +176,7 @@ prime.AutoMesh(model).mesh(part_id=part.id, automesh_params=automesh_params)
 
 ## Thin volume mesh controls
 
-The [`ThinVolumeControl`](../api/_autosummary/ansys.meshing.prime.ThinVolumeControl.md#ansys.meshing.prime.ThinVolumeControl) class creates prisms from a source face mesh projecting to a target with the specified number of layers.
+The [`ThinVolumeControl`](./../api/_autosummary/ansys.meshing.prime.ThinVolumeControl.md#ansys.meshing.prime.ThinVolumeControl) class creates prisms from a source face mesh projecting to a target with the specified number of layers.
 
 #### NOTE
 Thin volume controls can only be applied on the meshed surfaces.

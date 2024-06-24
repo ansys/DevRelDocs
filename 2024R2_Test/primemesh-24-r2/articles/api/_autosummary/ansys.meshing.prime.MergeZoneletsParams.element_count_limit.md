@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-mergezoneletsparams-element-count-limit"></a>
-
 # ansys.meshing.prime.MergeZoneletsParams.element_count_limit
 
 <a id="ansys.meshing.prime.MergeZoneletsParams.element_count_limit"></a>

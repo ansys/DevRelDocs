@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-exportstlfailedwithincorrectpartid"></a>
-
 # ansys.meshing.prime.ErrorCode.EXPORTSTLFAILEDWITHINCORRECTPARTID
 
 <a id="ansys.meshing.prime.ErrorCode.EXPORTSTLFAILEDWITHINCORRECTPARTID"></a>

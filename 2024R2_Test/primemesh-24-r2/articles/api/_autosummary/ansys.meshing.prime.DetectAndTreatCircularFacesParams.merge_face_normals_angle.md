@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-detectandtreatcircularfacesparams-merge-face-normals-angle"></a>
-
 # ansys.meshing.prime.DetectAndTreatCircularFacesParams.merge_face_normals_angle
 
 <a id="ansys.meshing.prime.DetectAndTreatCircularFacesParams.merge_face_normals_angle"></a>

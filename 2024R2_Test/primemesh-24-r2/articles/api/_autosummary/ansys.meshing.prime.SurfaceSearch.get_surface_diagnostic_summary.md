@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfacesearch-get-surface-diagnostic-summary"></a>
-
 # ansys.meshing.prime.SurfaceSearch.get_surface_diagnostic_summary
 
 <a id="ansys.meshing.prime.SurfaceSearch.get_surface_diagnostic_summary"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-joinparams-overlap-zone-name"></a>
-
 # ansys.meshing.prime.JoinParams.overlap_zone_name
 
 <a id="ansys.meshing.prime.JoinParams.overlap_zone_name"></a>

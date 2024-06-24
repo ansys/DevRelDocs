@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-launch-prime"></a>
-
 # ansys.meshing.prime.launch_prime
 
 <a id="ansys.meshing.prime.launch_prime"></a>

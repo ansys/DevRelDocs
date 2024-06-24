@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-boitype-offsetsurface"></a>
-
 # ansys.meshing.prime.BOIType.OFFSETSURFACE
 
 <a id="ansys.meshing.prime.BOIType.OFFSETSURFACE"></a>

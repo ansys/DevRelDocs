@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-collapseparams-preserve-quality"></a>
-
 # ansys.meshing.prime.CollapseParams.preserve_quality
 
 <a id="ansys.meshing.prime.CollapseParams.preserve_quality"></a>

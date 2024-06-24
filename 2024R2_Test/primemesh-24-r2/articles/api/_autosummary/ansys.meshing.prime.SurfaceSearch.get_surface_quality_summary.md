@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfacesearch-get-surface-quality-summary"></a>
-
 # ansys.meshing.prime.SurfaceSearch.get_surface_quality_summary
 
 <a id="ansys.meshing.prime.SurfaceSearch.get_surface_quality_summary"></a>

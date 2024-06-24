@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-invalidinputzonelets"></a>
-
 # ansys.meshing.prime.ErrorCode.INVALIDINPUTZONELETS
 
 <a id="ansys.meshing.prime.ErrorCode.INVALIDINPUTZONELETS"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-exportmapdlcdbresults-set-default"></a>
-
 # ansys.meshing.prime.ExportMapdlCdbResults.set_default
 
 <a id="ansys.meshing.prime.ExportMapdlCdbResults.set_default"></a>

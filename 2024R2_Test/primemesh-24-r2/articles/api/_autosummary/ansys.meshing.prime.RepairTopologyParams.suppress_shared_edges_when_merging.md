@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-repairtopologyparams-suppress-shared-edges-when-merging"></a>
-
 # ansys.meshing.prime.RepairTopologyParams.suppress_shared_edges_when_merging
 
 <a id="ansys.meshing.prime.RepairTopologyParams.suppress_shared_edges_when_merging"></a>

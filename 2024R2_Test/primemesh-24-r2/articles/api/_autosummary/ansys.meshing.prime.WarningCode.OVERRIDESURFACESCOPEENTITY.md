@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-warningcode-overridesurfacescopeentity"></a>
-
 # ansys.meshing.prime.WarningCode.OVERRIDESURFACESCOPEENTITY
 
 <a id="ansys.meshing.prime.WarningCode.OVERRIDESURFACESCOPEENTITY"></a>

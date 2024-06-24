@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-searchbyintersectionresults-set-default"></a>
-
 # ansys.meshing.prime.SearchByIntersectionResults.set_default
 
 <a id="ansys.meshing.prime.SearchByIntersectionResults.set_default"></a>

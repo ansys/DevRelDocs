@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-overlappairs-zone-id0"></a>
-
 # ansys.meshing.prime.OverlapPairs.zone_id0
 
 <a id="ansys.meshing.prime.OverlapPairs.zone_id0"></a>

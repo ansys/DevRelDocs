@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-tetparams-quadratic"></a>
-
 # ansys.meshing.prime.TetParams.quadratic
 
 <a id="ansys.meshing.prime.TetParams.quadratic"></a>

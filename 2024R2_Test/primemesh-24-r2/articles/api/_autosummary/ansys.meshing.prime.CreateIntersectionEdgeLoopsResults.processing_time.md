@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-createintersectionedgeloopsresults-processing-time"></a>
-
 # ansys.meshing.prime.CreateIntersectionEdgeLoopsResults.processing_time
 
 <a id="ansys.meshing.prime.CreateIntersectionEdgeLoopsResults.processing_time"></a>

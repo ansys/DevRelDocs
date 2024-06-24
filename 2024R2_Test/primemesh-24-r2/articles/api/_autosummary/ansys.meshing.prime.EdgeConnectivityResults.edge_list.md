@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-edgeconnectivityresults-edge-list"></a>
-
 # ansys.meshing.prime.EdgeConnectivityResults.edge_list
 
 <a id="ansys.meshing.prime.EdgeConnectivityResults.edge_list"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-part-get-volumes-of-face-zonelet"></a>
-
 # ansys.meshing.prime.Part.get_volumes_of_face_zonelet
 
 <a id="ansys.meshing.prime.Part.get_volumes_of_face_zonelet"></a>

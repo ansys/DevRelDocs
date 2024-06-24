@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-wrapperoctreeregioningfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.WRAPPEROCTREEREGIONINGFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.WRAPPEROCTREEREGIONINGFAILED"></a>

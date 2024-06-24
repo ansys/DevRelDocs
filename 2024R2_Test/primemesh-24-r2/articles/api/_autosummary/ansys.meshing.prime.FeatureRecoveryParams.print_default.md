@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-featurerecoveryparams-print-default"></a>
-
 # ansys.meshing.prime.FeatureRecoveryParams.print_default
 
 <a id="ansys.meshing.prime.FeatureRecoveryParams.print_default"></a>

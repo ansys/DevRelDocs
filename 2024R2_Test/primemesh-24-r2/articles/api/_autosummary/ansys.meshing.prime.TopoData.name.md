@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-topodata-name"></a>
-
 # ansys.meshing.prime.TopoData.name
 
 <a id="ansys.meshing.prime.TopoData.name"></a>

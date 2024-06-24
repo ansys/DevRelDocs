@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surferparams-generate-quads"></a>
-
 # ansys.meshing.prime.SurferParams.generate_quads
 
 <a id="ansys.meshing.prime.SurferParams.generate_quads"></a>

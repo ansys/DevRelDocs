@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-detectandtreatholesparams-offset-distance"></a>
-
 # ansys.meshing.prime.DetectAndTreatHolesParams.offset_distance
 
 <a id="ansys.meshing.prime.DetectAndTreatHolesParams.offset_distance"></a>

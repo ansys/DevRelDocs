@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-boundaryfittedspline-create-boundary-fitted-spline"></a>
-
 # ansys.meshing.prime.BoundaryFittedSpline.create_boundary_fitted_spline
 
 <a id="ansys.meshing.prime.BoundaryFittedSpline.create_boundary_fitted_spline"></a>

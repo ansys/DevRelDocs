@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapperimprovequalityparams-sharp-angle"></a>
-
 # ansys.meshing.prime.WrapperImproveQualityParams.sharp_angle
 
 <a id="ansys.meshing.prime.WrapperImproveQualityParams.sharp_angle"></a>

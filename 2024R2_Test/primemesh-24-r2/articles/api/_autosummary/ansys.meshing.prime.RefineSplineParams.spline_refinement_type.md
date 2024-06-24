@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-refinesplineparams-spline-refinement-type"></a>
-
 # ansys.meshing.prime.RefineSplineParams.spline_refinement_type
 
 <a id="ansys.meshing.prime.RefineSplineParams.spline_refinement_type"></a>

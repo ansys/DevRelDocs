@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-pyramidmeshfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.PYRAMIDMESHFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.PYRAMIDMESHFAILED"></a>

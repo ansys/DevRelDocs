@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-scopedefinition-label-expression"></a>
-
 # ansys.meshing.prime.ScopeDefinition.label_expression
 
 <a id="ansys.meshing.prime.ScopeDefinition.label_expression"></a>

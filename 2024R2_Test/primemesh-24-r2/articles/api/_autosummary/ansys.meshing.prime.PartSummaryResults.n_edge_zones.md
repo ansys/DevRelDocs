@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-partsummaryresults-n-edge-zones"></a>
-
 # ansys.meshing.prime.PartSummaryResults.n_edge_zones
 
 <a id="ansys.meshing.prime.PartSummaryResults.n_edge_zones"></a>

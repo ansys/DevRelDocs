@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-computevolumesresults-external-open-face-zonelets"></a>
-
 # ansys.meshing.prime.ComputeVolumesResults.external_open_face_zonelets
 
 <a id="ansys.meshing.prime.ComputeVolumesResults.external_open_face_zonelets"></a>

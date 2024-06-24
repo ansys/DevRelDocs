@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-mergepartsresults-merged-part-id"></a>
-
 # ansys.meshing.prime.MergePartsResults.merged_part_id
 
 <a id="ansys.meshing.prime.MergePartsResults.merged_part_id"></a>

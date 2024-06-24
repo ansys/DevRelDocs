@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfacequalityresult-quality-limit"></a>
-
 # ansys.meshing.prime.SurfaceQualityResult.quality_limit
 
 <a id="ansys.meshing.prime.SurfaceQualityResult.quality_limit"></a>

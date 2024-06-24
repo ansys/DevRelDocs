@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfacequalitysummaryparams-set-default"></a>
-
 # ansys.meshing.prime.SurfaceQualitySummaryParams.set_default
 
 <a id="ansys.meshing.prime.SurfaceQualitySummaryParams.set_default"></a>

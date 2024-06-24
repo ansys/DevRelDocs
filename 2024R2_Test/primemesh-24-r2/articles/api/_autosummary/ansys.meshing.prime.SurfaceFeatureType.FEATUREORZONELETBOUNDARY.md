@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfacefeaturetype-featureorzoneletboundary"></a>
-
 # ansys.meshing.prime.SurfaceFeatureType.FEATUREORZONELETBOUNDARY
 
 <a id="ansys.meshing.prime.SurfaceFeatureType.FEATUREORZONELETBOUNDARY"></a>

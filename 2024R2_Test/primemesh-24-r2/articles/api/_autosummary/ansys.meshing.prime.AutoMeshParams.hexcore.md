@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-automeshparams-hexcore"></a>
-
 # ansys.meshing.prime.AutoMeshParams.hexcore
 
 <a id="ansys.meshing.prime.AutoMeshParams.hexcore"></a>

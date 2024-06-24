@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-model-delete-volumetric-size-fields"></a>
-
 # ansys.meshing.prime.Model.delete_volumetric_size_fields
 
 <a id="ansys.meshing.prime.Model.delete_volumetric_size_fields"></a>

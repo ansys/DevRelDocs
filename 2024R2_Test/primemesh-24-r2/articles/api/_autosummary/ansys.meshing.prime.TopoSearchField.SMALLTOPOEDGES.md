@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-toposearchfield-smalltopoedges"></a>
-
 # ansys.meshing.prime.TopoSearchField.SMALLTOPOEDGES
 
 <a id="ansys.meshing.prime.TopoSearchField.SMALLTOPOEDGES"></a>

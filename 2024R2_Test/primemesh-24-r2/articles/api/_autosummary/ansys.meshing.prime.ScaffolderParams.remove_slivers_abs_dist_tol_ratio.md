@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-scaffolderparams-remove-slivers-abs-dist-tol-ratio"></a>
-
 # ansys.meshing.prime.ScaffolderParams.remove_slivers_abs_dist_tol_ratio
 
 <a id="ansys.meshing.prime.ScaffolderParams.remove_slivers_abs_dist_tol_ratio"></a>

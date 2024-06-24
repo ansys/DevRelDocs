@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-zonetype-face"></a>
-
 # ansys.meshing.prime.ZoneType.FACE
 
 <a id="ansys.meshing.prime.ZoneType.FACE"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-prismcontrolgrowthparams-first-height"></a>
-
 # ansys.meshing.prime.PrismControlGrowthParams.first_height
 
 <a id="ansys.meshing.prime.PrismControlGrowthParams.first_height"></a>

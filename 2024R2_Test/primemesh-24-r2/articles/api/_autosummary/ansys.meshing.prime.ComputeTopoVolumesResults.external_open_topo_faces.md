@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-computetopovolumesresults-external-open-topo-faces"></a>
-
 # ansys.meshing.prime.ComputeTopoVolumesResults.external_open_topo_faces
 
 <a id="ansys.meshing.prime.ComputeTopoVolumesResults.external_open_topo_faces"></a>

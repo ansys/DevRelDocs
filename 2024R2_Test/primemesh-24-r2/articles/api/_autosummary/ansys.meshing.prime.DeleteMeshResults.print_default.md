@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-deletemeshresults-print-default"></a>
-
 # ansys.meshing.prime.DeleteMeshResults.print_default
 
 <a id="ansys.meshing.prime.DeleteMeshResults.print_default"></a>

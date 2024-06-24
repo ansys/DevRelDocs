@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-checkmeshresults-has-non-positive-areas"></a>
-
 # ansys.meshing.prime.CheckMeshResults.has_non_positive_areas
 
 <a id="ansys.meshing.prime.CheckMeshResults.has_non_positive_areas"></a>

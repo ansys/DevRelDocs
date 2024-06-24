@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-localsurferparams-constant-size"></a>
-
 # ansys.meshing.prime.LocalSurferParams.constant_size
 
 <a id="ansys.meshing.prime.LocalSurferParams.constant_size"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-createzoneresults-error-code"></a>
-
 # ansys.meshing.prime.CreateZoneResults.error_code
 
 <a id="ansys.meshing.prime.CreateZoneResults.error_code"></a>

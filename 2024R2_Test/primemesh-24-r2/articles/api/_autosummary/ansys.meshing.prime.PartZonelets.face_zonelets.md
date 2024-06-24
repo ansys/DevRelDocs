@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-partzonelets-face-zonelets"></a>
-
 # ansys.meshing.prime.PartZonelets.face_zonelets
 
 <a id="ansys.meshing.prime.PartZonelets.face_zonelets"></a>

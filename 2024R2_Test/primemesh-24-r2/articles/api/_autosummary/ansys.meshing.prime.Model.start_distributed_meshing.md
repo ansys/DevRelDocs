@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-model-start-distributed-meshing"></a>
-
 # ansys.meshing.prime.Model.start_distributed_meshing
 
 <a id="ansys.meshing.prime.Model.start_distributed_meshing"></a>

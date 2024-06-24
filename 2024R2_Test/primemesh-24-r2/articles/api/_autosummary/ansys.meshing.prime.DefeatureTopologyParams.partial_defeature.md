@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-defeaturetopologyparams-partial-defeature"></a>
-
 # ansys.meshing.prime.DefeatureTopologyParams.partial_defeature
 
 <a id="ansys.meshing.prime.DefeatureTopologyParams.partial_defeature"></a>

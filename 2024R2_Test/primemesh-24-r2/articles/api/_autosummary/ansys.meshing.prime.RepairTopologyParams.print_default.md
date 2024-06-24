@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-repairtopologyparams-print-default"></a>
-
 # ansys.meshing.prime.RepairTopologyParams.print_default
 
 <a id="ansys.meshing.prime.RepairTopologyParams.print_default"></a>

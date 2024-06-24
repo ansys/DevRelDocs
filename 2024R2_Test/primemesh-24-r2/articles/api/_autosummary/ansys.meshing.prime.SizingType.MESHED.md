@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-sizingtype-meshed"></a>
-
 # ansys.meshing.prime.SizingType.MESHED
 
 <a id="ansys.meshing.prime.SizingType.MESHED"></a>

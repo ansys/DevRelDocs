@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-microstructurebadshapeproperties"></a>
-
 # ansys.meshing.prime.ErrorCode.MICROSTRUCTUREBADSHAPEPROPERTIES
 
 <a id="ansys.meshing.prime.ErrorCode.MICROSTRUCTUREBADSHAPEPROPERTIES"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-model-material-point-data"></a>
-
 # ansys.meshing.prime.Model.material_point_data
 
 <a id="ansys.meshing.prime.Model.material_point_data"></a>

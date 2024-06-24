@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapparams-base-size"></a>
-
 # ansys.meshing.prime.WrapParams.base_size
 
 <a id="ansys.meshing.prime.WrapParams.base_size"></a>

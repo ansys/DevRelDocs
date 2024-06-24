@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-part-add-topo-entities-to-zone"></a>
-
 # ansys.meshing.prime.Part.add_topo_entities_to_zone
 
 <a id="ansys.meshing.prime.Part.add_topo_entities_to_zone"></a>

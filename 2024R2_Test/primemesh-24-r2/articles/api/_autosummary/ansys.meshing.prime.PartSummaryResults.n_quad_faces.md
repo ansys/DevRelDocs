@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-partsummaryresults-n-quad-faces"></a>
-
 # ansys.meshing.prime.PartSummaryResults.n_quad_faces
 
 <a id="ansys.meshing.prime.PartSummaryResults.n_quad_faces"></a>

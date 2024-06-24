@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-exportmapdlcdbparams-write-cells"></a>
-
 # ansys.meshing.prime.ExportMapdlCdbParams.write_cells
 
 <a id="ansys.meshing.prime.ExportMapdlCdbParams.write_cells"></a>

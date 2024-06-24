@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-createboiresults-part-id"></a>
-
 # ansys.meshing.prime.CreateBOIResults.part_id
 
 <a id="ansys.meshing.prime.CreateBOIResults.part_id"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-lucid-surfacescope-get-scope-definition"></a>
-
 # ansys.meshing.prime.lucid.SurfaceScope.get_scope_definition
 
 <a id="ansys.meshing.prime.lucid.SurfaceScope.get_scope_definition"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-creatematerialpointparams-set-default"></a>
-
 # ansys.meshing.prime.CreateMaterialPointParams.set_default
 
 <a id="ansys.meshing.prime.CreateMaterialPointParams.set_default"></a>

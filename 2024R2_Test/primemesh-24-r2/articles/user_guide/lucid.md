@@ -1,7 +1,3 @@
-<a id="ref-index-lucid"></a>
-
-<a id="common-meshing-tasks-and-the-lucid-module"></a>
-
 # Common meshing tasks and the Lucid module
 
 The [lucid](https://prime.docs.pyansys.com/version/stable/api/_autosummary/ansys.meshing.prime.lucid.html) module defines high-level methods to abstract

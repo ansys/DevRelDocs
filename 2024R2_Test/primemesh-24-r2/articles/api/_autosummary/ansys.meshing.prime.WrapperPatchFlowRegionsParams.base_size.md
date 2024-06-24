@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapperpatchflowregionsparams-base-size"></a>
-
 # ansys.meshing.prime.WrapperPatchFlowRegionsParams.base_size
 
 <a id="ansys.meshing.prime.WrapperPatchFlowRegionsParams.base_size"></a>

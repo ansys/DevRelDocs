@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-polymeshfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.POLYMESHFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.POLYMESHFAILED"></a>

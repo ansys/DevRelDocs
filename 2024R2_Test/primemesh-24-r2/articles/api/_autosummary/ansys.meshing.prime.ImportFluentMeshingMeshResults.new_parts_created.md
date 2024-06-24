@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-importfluentmeshingmeshresults-new-parts-created"></a>
-
 # ansys.meshing.prime.ImportFluentMeshingMeshResults.new_parts_created
 
 <a id="ansys.meshing.prime.ImportFluentMeshingMeshResults.new_parts_created"></a>

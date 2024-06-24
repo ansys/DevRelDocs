@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-searchbyinvalidnormalsresults-n-found"></a>
-
 # ansys.meshing.prime.SearchByInvalidNormalsResults.n_found
 
 <a id="ansys.meshing.prime.SearchByInvalidNormalsResults.n_found"></a>

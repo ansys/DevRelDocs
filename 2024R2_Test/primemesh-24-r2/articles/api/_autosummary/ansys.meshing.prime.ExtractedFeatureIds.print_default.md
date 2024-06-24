@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-extractedfeatureids-print-default"></a>
-
 # ansys.meshing.prime.ExtractedFeatureIds.print_default
 
 <a id="ansys.meshing.prime.ExtractedFeatureIds.print_default"></a>

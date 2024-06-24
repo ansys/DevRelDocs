@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-model-merge-parts"></a>
-
 # ansys.meshing.prime.Model.merge_parts
 
 <a id="ansys.meshing.prime.Model.merge_parts"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-scaffolderparams-intersection-control-mask"></a>
-
 # ansys.meshing.prime.ScaffolderParams.intersection_control_mask
 
 <a id="ansys.meshing.prime.ScaffolderParams.intersection_control_mask"></a>

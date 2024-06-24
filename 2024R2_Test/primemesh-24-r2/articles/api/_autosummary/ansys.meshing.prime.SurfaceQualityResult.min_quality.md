@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfacequalityresult-min-quality"></a>
-
 # ansys.meshing.prime.SurfaceQualityResult.min_quality
 
 <a id="ansys.meshing.prime.SurfaceQualityResult.min_quality"></a>

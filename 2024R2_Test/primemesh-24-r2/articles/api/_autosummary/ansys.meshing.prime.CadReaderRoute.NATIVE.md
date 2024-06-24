@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-cadreaderroute-native"></a>
-
 # ansys.meshing.prime.CadReaderRoute.NATIVE
 
 <a id="ansys.meshing.prime.CadReaderRoute.NATIVE"></a>

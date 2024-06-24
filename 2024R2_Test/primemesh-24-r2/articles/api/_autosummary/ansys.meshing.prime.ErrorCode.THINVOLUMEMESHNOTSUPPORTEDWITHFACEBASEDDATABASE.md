@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-thinvolumemeshnotsupportedwithfacebaseddatabase"></a>
-
 # ansys.meshing.prime.ErrorCode.THINVOLUMEMESHNOTSUPPORTEDWITHFACEBASEDDATABASE
 
 <a id="ansys.meshing.prime.ErrorCode.THINVOLUMEMESHNOTSUPPORTEDWITHFACEBASEDDATABASE"></a>

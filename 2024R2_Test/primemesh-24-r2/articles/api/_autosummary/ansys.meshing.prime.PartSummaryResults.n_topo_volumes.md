@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-partsummaryresults-n-topo-volumes"></a>
-
 # ansys.meshing.prime.PartSummaryResults.n_topo_volumes
 
 <a id="ansys.meshing.prime.PartSummaryResults.n_topo_volumes"></a>

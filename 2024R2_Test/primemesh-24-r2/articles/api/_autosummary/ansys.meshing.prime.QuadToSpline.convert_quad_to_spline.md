@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-quadtospline-convert-quad-to-spline"></a>
-
 # ansys.meshing.prime.QuadToSpline.convert_quad_to_spline
 
 <a id="ansys.meshing.prime.QuadToSpline.convert_quad_to_spline"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-boundaryfittedsplineparams-degree-w"></a>
-
 # ansys.meshing.prime.BoundaryFittedSplineParams.degree_w
 
 <a id="ansys.meshing.prime.BoundaryFittedSplineParams.degree_w"></a>

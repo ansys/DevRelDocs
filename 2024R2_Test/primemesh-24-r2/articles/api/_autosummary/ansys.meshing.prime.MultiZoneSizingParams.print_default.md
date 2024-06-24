@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-multizonesizingparams-print-default"></a>
-
 # ansys.meshing.prime.MultiZoneSizingParams.print_default
 
 <a id="ansys.meshing.prime.MultiZoneSizingParams.print_default"></a>

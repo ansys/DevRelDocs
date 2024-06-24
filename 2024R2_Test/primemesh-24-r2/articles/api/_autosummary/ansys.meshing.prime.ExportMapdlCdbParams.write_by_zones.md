@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-exportmapdlcdbparams-write-by-zones"></a>
-
 # ansys.meshing.prime.ExportMapdlCdbParams.write_by_zones
 
 <a id="ansys.meshing.prime.ExportMapdlCdbParams.write_by_zones"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfacefeaturetype-feature"></a>
-
 # ansys.meshing.prime.SurfaceFeatureType.FEATURE
 
 <a id="ansys.meshing.prime.SurfaceFeatureType.FEATURE"></a>

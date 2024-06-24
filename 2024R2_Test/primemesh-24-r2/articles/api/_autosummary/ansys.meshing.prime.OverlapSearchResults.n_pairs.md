@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-overlapsearchresults-n-pairs"></a>
-
 # ansys.meshing.prime.OverlapSearchResults.n_pairs
 
 <a id="ansys.meshing.prime.OverlapSearchResults.n_pairs"></a>

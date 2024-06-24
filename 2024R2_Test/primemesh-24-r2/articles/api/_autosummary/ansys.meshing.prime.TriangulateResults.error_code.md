@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-triangulateresults-error-code"></a>
-
 # ansys.meshing.prime.TriangulateResults.error_code
 
 <a id="ansys.meshing.prime.TriangulateResults.error_code"></a>

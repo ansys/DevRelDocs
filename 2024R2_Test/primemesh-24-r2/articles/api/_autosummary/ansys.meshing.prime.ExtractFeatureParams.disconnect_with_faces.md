@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-extractfeatureparams-disconnect-with-faces"></a>
-
 # ansys.meshing.prime.ExtractFeatureParams.disconnect_with_faces
 
 <a id="ansys.meshing.prime.ExtractFeatureParams.disconnect_with_faces"></a>

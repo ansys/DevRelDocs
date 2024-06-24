@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-lengthunit-in"></a>
-
 # ansys.meshing.prime.LengthUnit.IN
 
 <a id="ansys.meshing.prime.LengthUnit.IN"></a>

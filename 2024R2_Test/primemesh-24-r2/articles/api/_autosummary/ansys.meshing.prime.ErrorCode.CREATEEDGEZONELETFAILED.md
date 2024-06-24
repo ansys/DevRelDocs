@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-createedgezoneletfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.CREATEEDGEZONELETFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.CREATEEDGEZONELETFAILED"></a>

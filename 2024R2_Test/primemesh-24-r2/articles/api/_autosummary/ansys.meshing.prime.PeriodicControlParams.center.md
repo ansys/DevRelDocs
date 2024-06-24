@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-periodiccontrolparams-center"></a>
-
 # ansys.meshing.prime.PeriodicControlParams.center
 
 <a id="ansys.meshing.prime.PeriodicControlParams.center"></a>

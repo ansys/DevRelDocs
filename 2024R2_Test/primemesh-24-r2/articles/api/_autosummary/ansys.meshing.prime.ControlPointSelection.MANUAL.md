@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-controlpointselection-manual"></a>
-
 # ansys.meshing.prime.ControlPointSelection.MANUAL
 
 <a id="ansys.meshing.prime.ControlPointSelection.MANUAL"></a>

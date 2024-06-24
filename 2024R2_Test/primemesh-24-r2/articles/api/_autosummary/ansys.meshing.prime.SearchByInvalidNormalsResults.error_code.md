@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-searchbyinvalidnormalsresults-error-code"></a>
-
 # ansys.meshing.prime.SearchByInvalidNormalsResults.error_code
 
 <a id="ansys.meshing.prime.SearchByInvalidNormalsResults.error_code"></a>

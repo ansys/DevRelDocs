@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-periodiccontrolparams-axis"></a>
-
 # ansys.meshing.prime.PeriodicControlParams.axis
 
 <a id="ansys.meshing.prime.PeriodicControlParams.axis"></a>

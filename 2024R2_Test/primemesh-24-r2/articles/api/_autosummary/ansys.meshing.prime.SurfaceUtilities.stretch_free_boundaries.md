@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfaceutilities-stretch-free-boundaries"></a>
-
 # ansys.meshing.prime.SurfaceUtilities.stretch_free_boundaries
 
 <a id="ansys.meshing.prime.SurfaceUtilities.stretch_free_boundaries"></a>

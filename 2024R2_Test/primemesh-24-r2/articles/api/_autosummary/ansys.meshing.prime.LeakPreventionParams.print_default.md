@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-leakpreventionparams-print-default"></a>
-
 # ansys.meshing.prime.LeakPreventionParams.print_default
 
 <a id="ansys.meshing.prime.LeakPreventionParams.print_default"></a>

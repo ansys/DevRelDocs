@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-edgemergecontrol-alltoall"></a>
-
 # ansys.meshing.prime.EdgeMergeControl.ALLTOALL
 
 <a id="ansys.meshing.prime.EdgeMergeControl.ALLTOALL"></a>

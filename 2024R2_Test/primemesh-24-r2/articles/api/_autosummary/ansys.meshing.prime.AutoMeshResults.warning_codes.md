@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-automeshresults-warning-codes"></a>
-
 # ansys.meshing.prime.AutoMeshResults.warning_codes
 
 <a id="ansys.meshing.prime.AutoMeshResults.warning_codes"></a>

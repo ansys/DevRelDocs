@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-meshstackerparams-set-default"></a>
-
 # ansys.meshing.prime.MeshStackerParams.set_default
 
 <a id="ansys.meshing.prime.MeshStackerParams.set_default"></a>

@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="wrapperclosegapsparams"></a>
-
 # WrapperCloseGapsParams
 
 <a id="ansys.meshing.prime.WrapperCloseGapsParams"></a>
@@ -48,14 +46,16 @@ WrapperCloseGapsParams to define parameters for close gaps operation.
 
 ### Methods
 
-| [`WrapperCloseGapsParams.print_default`](ansys.meshing.prime.WrapperCloseGapsParams.print_default.md#ansys.meshing.prime.WrapperCloseGapsParams.print_default)()        | Print the default values of `WrapperCloseGapsParams` object.   |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
+| [`WrapperCloseGapsParams.print_default`](ansys.meshing.prime.WrapperCloseGapsParams.print_default.md#ansys.meshing.prime.WrapperCloseGapsParams.print_default)()        | Print the default values of `WrapperCloseGapsParams` object.   |
 | [`WrapperCloseGapsParams.set_default`](ansys.meshing.prime.WrapperCloseGapsParams.set_default.md#ansys.meshing.prime.WrapperCloseGapsParams.set_default)([target, ...]) | Set the default values of the `WrapperCloseGapsParams` object. |
 
 ### Attributes
 
-| [`WrapperCloseGapsParams.create_new_part`](ansys.meshing.prime.WrapperCloseGapsParams.create_new_part.md#ansys.meshing.prime.WrapperCloseGapsParams.create_new_part)             | Creates a new gap closure part.                                       |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
+| [`WrapperCloseGapsParams.create_new_part`](ansys.meshing.prime.WrapperCloseGapsParams.create_new_part.md#ansys.meshing.prime.WrapperCloseGapsParams.create_new_part)             | Creates a new gap closure part.                                       |
 | [`WrapperCloseGapsParams.gap_size`](ansys.meshing.prime.WrapperCloseGapsParams.gap_size.md#ansys.meshing.prime.WrapperCloseGapsParams.gap_size)                                  | Maximum gap size to be closed.                                        |
 | [`WrapperCloseGapsParams.material_point_name`](ansys.meshing.prime.WrapperCloseGapsParams.material_point_name.md#ansys.meshing.prime.WrapperCloseGapsParams.material_point_name) | Material point name near the gaps to be closed.                       |
 | [`WrapperCloseGapsParams.number_of_threads`](ansys.meshing.prime.WrapperCloseGapsParams.number_of_threads.md#ansys.meshing.prime.WrapperCloseGapsParams.number_of_threads)       | Number of threads for multithreading.                                 |

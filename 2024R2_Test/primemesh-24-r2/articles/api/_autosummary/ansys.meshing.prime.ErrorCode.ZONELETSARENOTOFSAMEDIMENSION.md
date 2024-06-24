@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-zoneletsarenotofsamedimension"></a>
-
 # ansys.meshing.prime.ErrorCode.ZONELETSARENOTOFSAMEDIMENSION
 
 <a id="ansys.meshing.prime.ErrorCode.ZONELETSARENOTOFSAMEDIMENSION"></a>

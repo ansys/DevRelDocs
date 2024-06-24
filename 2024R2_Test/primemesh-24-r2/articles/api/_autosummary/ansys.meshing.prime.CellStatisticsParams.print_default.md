@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-cellstatisticsparams-print-default"></a>
-
 # ansys.meshing.prime.CellStatisticsParams.print_default
 
 <a id="ansys.meshing.prime.CellStatisticsParams.print_default"></a>

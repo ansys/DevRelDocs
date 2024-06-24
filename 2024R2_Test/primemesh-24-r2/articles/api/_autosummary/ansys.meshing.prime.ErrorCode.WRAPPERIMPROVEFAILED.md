@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-wrapperimprovefailed"></a>
-
 # ansys.meshing.prime.ErrorCode.WRAPPERIMPROVEFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.WRAPPERIMPROVEFAILED"></a>

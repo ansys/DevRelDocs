@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-topodata-get-topo-edges-of-topo-faces"></a>
-
 # ansys.meshing.prime.TopoData.get_topo_edges_of_topo_faces
 
 <a id="ansys.meshing.prime.TopoData.get_topo_edges_of_topo_faces"></a>

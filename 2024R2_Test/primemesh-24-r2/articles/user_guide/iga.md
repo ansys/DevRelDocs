@@ -1,7 +1,3 @@
-<a id="ref-index-iga"></a>
-
-<a id="isogeometric-analysis"></a>
-
 # Isogeometric analysis
 
 > *This is a beta feature. API behavior and implementation might change in the future.*

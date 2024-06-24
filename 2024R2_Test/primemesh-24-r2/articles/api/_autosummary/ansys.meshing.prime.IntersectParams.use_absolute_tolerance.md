@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-intersectparams-use-absolute-tolerance"></a>
-
 # ansys.meshing.prime.IntersectParams.use_absolute_tolerance
 
 <a id="ansys.meshing.prime.IntersectParams.use_absolute_tolerance"></a>

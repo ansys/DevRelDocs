@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-proximitysizingparams-set-default"></a>
-
 # ansys.meshing.prime.ProximitySizingParams.set_default
 
 <a id="ansys.meshing.prime.ProximitySizingParams.set_default"></a>

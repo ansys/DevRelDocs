@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-matchpair-target-type"></a>
-
 # ansys.meshing.prime.MatchPair.target_type
 
 <a id="ansys.meshing.prime.MatchPair.target_type"></a>

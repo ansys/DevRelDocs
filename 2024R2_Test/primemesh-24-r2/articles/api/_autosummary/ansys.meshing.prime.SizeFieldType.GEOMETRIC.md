@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-sizefieldtype-geometric"></a>
-
 # ansys.meshing.prime.SizeFieldType.GEOMETRIC
 
 <a id="ansys.meshing.prime.SizeFieldType.GEOMETRIC"></a>

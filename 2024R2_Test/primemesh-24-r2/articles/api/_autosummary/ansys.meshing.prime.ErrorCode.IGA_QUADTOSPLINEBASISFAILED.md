@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-iga-quadtosplinebasisfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.IGA_QUADTOSPLINEBASISFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.IGA_QUADTOSPLINEBASISFAILED"></a>

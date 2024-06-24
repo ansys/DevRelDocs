@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-part-remove-labels-from-zonelets"></a>
-
 # ansys.meshing.prime.Part.remove_labels_from_zonelets
 
 <a id="ansys.meshing.prime.Part.remove_labels_from_zonelets"></a>

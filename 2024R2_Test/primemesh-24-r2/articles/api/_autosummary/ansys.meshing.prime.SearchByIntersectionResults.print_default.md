@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-searchbyintersectionresults-print-default"></a>
-
 # ansys.meshing.prime.SearchByIntersectionResults.print_default
 
 <a id="ansys.meshing.prime.SearchByIntersectionResults.print_default"></a>

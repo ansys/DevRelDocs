@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-part-get-splines"></a>
-
 # ansys.meshing.prime.Part.get_splines
 
 <a id="ansys.meshing.prime.Part.get_splines"></a>

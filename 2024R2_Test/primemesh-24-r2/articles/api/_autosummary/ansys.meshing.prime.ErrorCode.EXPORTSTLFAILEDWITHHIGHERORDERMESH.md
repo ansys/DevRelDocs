@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-exportstlfailedwithhigherordermesh"></a>
-
 # ansys.meshing.prime.ErrorCode.EXPORTSTLFAILEDWITHHIGHERORDERMESH
 
 <a id="ansys.meshing.prime.ErrorCode.EXPORTSTLFAILEDWITHHIGHERORDERMESH"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-importcadparams-validate-shared-topology"></a>
-
 # ansys.meshing.prime.ImportCadParams.validate_shared_topology
 
 <a id="ansys.meshing.prime.ImportCadParams.validate_shared_topology"></a>

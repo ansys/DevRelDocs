@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-projectongeometryparams-project-only-mid-nodes"></a>
-
 # ansys.meshing.prime.ProjectOnGeometryParams.project_only_mid_nodes
 
 <a id="ansys.meshing.prime.ProjectOnGeometryParams.project_only_mid_nodes"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-sizefield-compute-volumetric"></a>
-
 # ansys.meshing.prime.SizeField.compute_volumetric
 
 <a id="ansys.meshing.prime.SizeField.compute_volumetric"></a>

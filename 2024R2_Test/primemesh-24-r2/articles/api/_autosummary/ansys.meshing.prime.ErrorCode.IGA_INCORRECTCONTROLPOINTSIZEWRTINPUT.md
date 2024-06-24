@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-iga-incorrectcontrolpointsizewrtinput"></a>
-
 # ansys.meshing.prime.ErrorCode.IGA_INCORRECTCONTROLPOINTSIZEWRTINPUT
 
 <a id="ansys.meshing.prime.ErrorCode.IGA_INCORRECTCONTROLPOINTSIZEWRTINPUT"></a>

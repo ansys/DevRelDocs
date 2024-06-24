@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-microstructureinvalidelementtype"></a>
-
 # ansys.meshing.prime.ErrorCode.MICROSTRUCTUREINVALIDELEMENTTYPE
 
 <a id="ansys.meshing.prime.ErrorCode.MICROSTRUCTUREINVALIDELEMENTTYPE"></a>

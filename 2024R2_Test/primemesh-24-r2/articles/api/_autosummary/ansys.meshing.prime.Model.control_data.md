@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-model-control-data"></a>
-
 # ansys.meshing.prime.Model.control_data
 
 <a id="ansys.meshing.prime.Model.control_data"></a>

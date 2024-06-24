@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fuseparams-fuse-option"></a>
-
 # ansys.meshing.prime.FuseParams.fuse_option
 
 <a id="ansys.meshing.prime.FuseParams.fuse_option"></a>

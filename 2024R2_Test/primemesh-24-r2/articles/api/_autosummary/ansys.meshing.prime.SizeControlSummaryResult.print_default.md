@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-sizecontrolsummaryresult-print-default"></a>
-
 # ansys.meshing.prime.SizeControlSummaryResult.print_default
 
 <a id="ansys.meshing.prime.SizeControlSummaryResult.print_default"></a>

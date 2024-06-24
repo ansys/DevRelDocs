@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-optimizequadmeshparams-generate-quads"></a>
-
 # ansys.meshing.prime.OptimizeQuadMeshParams.generate_quads
 
 <a id="ansys.meshing.prime.OptimizeQuadMeshParams.generate_quads"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-connectfacesparams-constant-mesh-size"></a>
-
 # ansys.meshing.prime.ConnectFacesParams.constant_mesh_size
 
 <a id="ansys.meshing.prime.ConnectFacesParams.constant_mesh_size"></a>

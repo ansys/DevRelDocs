@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-repairedgesparams-print-default"></a>
-
 # ansys.meshing.prime.RepairEdgesParams.print_default
 
 <a id="ansys.meshing.prime.RepairEdgesParams.print_default"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-computevolumesparams-volume-naming-type"></a>
-
 # ansys.meshing.prime.ComputeVolumesParams.volume_naming_type
 
 <a id="ansys.meshing.prime.ComputeVolumesParams.volume_naming_type"></a>

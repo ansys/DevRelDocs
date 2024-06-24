@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-importfluentcaseparams-print-default"></a>
-
 # ansys.meshing.prime.ImportFluentCaseParams.print_default
 
 <a id="ansys.meshing.prime.ImportFluentCaseParams.print_default"></a>

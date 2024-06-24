@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-stitchtype-allall"></a>
-
 # ansys.meshing.prime.StitchType.ALLALL
 
 <a id="ansys.meshing.prime.StitchType.ALLALL"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-duplicatefacesfound"></a>
-
 # ansys.meshing.prime.ErrorCode.DUPLICATEFACESFOUND
 
 <a id="ansys.meshing.prime.ErrorCode.DUPLICATEFACESFOUND"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-advancedsurfersetup-none"></a>
-
 # ansys.meshing.prime.AdvancedSurferSetup.NONE
 
 <a id="ansys.meshing.prime.AdvancedSurferSetup.NONE"></a>

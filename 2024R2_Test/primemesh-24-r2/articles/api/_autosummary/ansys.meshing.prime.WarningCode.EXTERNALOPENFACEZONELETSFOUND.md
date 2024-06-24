@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-warningcode-externalopenfacezoneletsfound"></a>
-
 # ansys.meshing.prime.WarningCode.EXTERNALOPENFACEZONELETSFOUND
 
 <a id="ansys.meshing.prime.WarningCode.EXTERNALOPENFACEZONELETSFOUND"></a>

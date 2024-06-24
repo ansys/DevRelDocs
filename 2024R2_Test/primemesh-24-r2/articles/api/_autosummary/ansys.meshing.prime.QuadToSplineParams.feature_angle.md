@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-quadtosplineparams-feature-angle"></a>
-
 # ansys.meshing.prime.QuadToSplineParams.feature_angle
 
 <a id="ansys.meshing.prime.QuadToSplineParams.feature_angle"></a>

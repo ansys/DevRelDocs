@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-volumetricscaffolderparams-print-default"></a>
-
 # ansys.meshing.prime.VolumetricScaffolderParams.print_default
 
 <a id="ansys.meshing.prime.VolumetricScaffolderParams.print_default"></a>

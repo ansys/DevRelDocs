@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-scopedefinition-evaluation-type"></a>
-
 # ansys.meshing.prime.ScopeDefinition.evaluation_type
 
 <a id="ansys.meshing.prime.ScopeDefinition.evaluation_type"></a>

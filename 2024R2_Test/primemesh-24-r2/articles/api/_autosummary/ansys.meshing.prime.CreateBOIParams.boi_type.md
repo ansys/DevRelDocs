@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-createboiparams-boi-type"></a>
-
 # ansys.meshing.prime.CreateBOIParams.boi_type
 
 <a id="ansys.meshing.prime.CreateBOIParams.boi_type"></a>

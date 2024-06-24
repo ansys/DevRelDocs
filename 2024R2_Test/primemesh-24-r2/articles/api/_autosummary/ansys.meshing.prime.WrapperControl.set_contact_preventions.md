@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrappercontrol-set-contact-preventions"></a>
-
 # ansys.meshing.prime.WrapperControl.set_contact_preventions
 
 <a id="ansys.meshing.prime.WrapperControl.set_contact_preventions"></a>

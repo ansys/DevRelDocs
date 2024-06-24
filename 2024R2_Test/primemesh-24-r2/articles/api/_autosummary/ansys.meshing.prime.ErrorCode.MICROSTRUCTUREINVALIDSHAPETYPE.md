@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-microstructureinvalidshapetype"></a>
-
 # ansys.meshing.prime.ErrorCode.MICROSTRUCTUREINVALIDSHAPETYPE
 
 <a id="ansys.meshing.prime.ErrorCode.MICROSTRUCTUREINVALIDSHAPETYPE"></a>

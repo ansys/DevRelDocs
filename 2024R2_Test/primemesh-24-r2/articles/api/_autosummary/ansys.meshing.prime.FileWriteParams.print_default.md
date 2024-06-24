@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-filewriteparams-print-default"></a>
-
 # ansys.meshing.prime.FileWriteParams.print_default
 
 <a id="ansys.meshing.prime.FileWriteParams.print_default"></a>

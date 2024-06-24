@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-multizonesweepmeshparams-sweep-mesh-size"></a>
-
 # ansys.meshing.prime.MultiZoneSweepMeshParams.sweep_mesh_size
 
 <a id="ansys.meshing.prime.MultiZoneSweepMeshParams.sweep_mesh_size"></a>

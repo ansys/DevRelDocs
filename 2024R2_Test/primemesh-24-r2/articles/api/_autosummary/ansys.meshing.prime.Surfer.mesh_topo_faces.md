@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfer-mesh-topo-faces"></a>
-
 # ansys.meshing.prime.Surfer.mesh_topo_faces
 
 <a id="ansys.meshing.prime.Surfer.mesh_topo_faces"></a>

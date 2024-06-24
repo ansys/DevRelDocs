@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-cadreaderroute-spaceclaim"></a>
-
 # ansys.meshing.prime.CadReaderRoute.SPACECLAIM
 
 <a id="ansys.meshing.prime.CadReaderRoute.SPACECLAIM"></a>

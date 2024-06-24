@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-scopeentity-edgezonelets"></a>
-
 # ansys.meshing.prime.ScopeEntity.EDGEZONELETS
 
 <a id="ansys.meshing.prime.ScopeEntity.EDGEZONELETS"></a>

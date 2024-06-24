@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-advancedsurfersetup-wrapper"></a>
-
 # ansys.meshing.prime.AdvancedSurferSetup.WRAPPER
 
 <a id="ansys.meshing.prime.AdvancedSurferSetup.WRAPPER"></a>

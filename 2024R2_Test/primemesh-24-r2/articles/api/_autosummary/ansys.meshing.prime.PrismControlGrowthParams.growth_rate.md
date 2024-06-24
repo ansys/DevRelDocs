@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-prismcontrolgrowthparams-growth-rate"></a>
-
 # ansys.meshing.prime.PrismControlGrowthParams.growth_rate
 
 <a id="ansys.meshing.prime.PrismControlGrowthParams.growth_rate"></a>

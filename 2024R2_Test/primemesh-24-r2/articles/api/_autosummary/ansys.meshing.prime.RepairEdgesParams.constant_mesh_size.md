@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-repairedgesparams-constant-mesh-size"></a>
-
 # ansys.meshing.prime.RepairEdgesParams.constant_mesh_size
 
 <a id="ansys.meshing.prime.RepairEdgesParams.constant_mesh_size"></a>

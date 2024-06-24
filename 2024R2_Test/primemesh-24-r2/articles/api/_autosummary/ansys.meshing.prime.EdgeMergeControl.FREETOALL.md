@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-edgemergecontrol-freetoall"></a>
-
 # ansys.meshing.prime.EdgeMergeControl.FREETOALL
 
 <a id="ansys.meshing.prime.EdgeMergeControl.FREETOALL"></a>

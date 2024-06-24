@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-importcadparams-cad-update-parameters"></a>
-
 # ansys.meshing.prime.ImportCadParams.cad_update_parameters
 
 <a id="ansys.meshing.prime.ImportCadParams.cad_update_parameters"></a>

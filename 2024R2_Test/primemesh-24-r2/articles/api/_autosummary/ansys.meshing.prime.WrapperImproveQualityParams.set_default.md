@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapperimprovequalityparams-set-default"></a>
-
 # ansys.meshing.prime.WrapperImproveQualityParams.set_default
 
 <a id="ansys.meshing.prime.WrapperImproveQualityParams.set_default"></a>

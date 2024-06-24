@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-part-get-summary"></a>
-
 # ansys.meshing.prime.Part.get_summary
 
 <a id="ansys.meshing.prime.Part.get_summary"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-exportboundaryfittedsplineparams-id-offset"></a>
-
 # ansys.meshing.prime.ExportBoundaryFittedSplineParams.id_offset
 
 <a id="ansys.meshing.prime.ExportBoundaryFittedSplineParams.id_offset"></a>

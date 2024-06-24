@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-defeaturetopologyparams-fillet-spanning-angle"></a>
-
 # ansys.meshing.prime.DefeatureTopologyParams.fillet_spanning_angle
 
 <a id="ansys.meshing.prime.DefeatureTopologyParams.fillet_spanning_angle"></a>

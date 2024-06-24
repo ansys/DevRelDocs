@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-boisizingparams-max"></a>
-
 # ansys.meshing.prime.BoiSizingParams.max
 
 <a id="ansys.meshing.prime.BoiSizingParams.max"></a>

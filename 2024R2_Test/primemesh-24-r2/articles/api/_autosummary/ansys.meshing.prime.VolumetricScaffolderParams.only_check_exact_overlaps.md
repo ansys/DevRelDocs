@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-volumetricscaffolderparams-only-check-exact-overlaps"></a>
-
 # ansys.meshing.prime.VolumetricScaffolderParams.only_check_exact_overlaps
 
 <a id="ansys.meshing.prime.VolumetricScaffolderParams.only_check_exact_overlaps"></a>

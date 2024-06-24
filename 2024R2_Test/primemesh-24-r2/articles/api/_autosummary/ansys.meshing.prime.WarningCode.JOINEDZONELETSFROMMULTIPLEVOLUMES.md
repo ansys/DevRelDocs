@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-warningcode-joinedzoneletsfrommultiplevolumes"></a>
-
 # ansys.meshing.prime.WarningCode.JOINEDZONELETSFROMMULTIPLEVOLUMES
 
 <a id="ansys.meshing.prime.WarningCode.JOINEDZONELETSFROMMULTIPLEVOLUMES"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-autoquadmesher-negativeinputparameter"></a>
-
 # ansys.meshing.prime.ErrorCode.AUTOQUADMESHER_NEGATIVEINPUTPARAMETER
 
 <a id="ansys.meshing.prime.ErrorCode.AUTOQUADMESHER_NEGATIVEINPUTPARAMETER"></a>

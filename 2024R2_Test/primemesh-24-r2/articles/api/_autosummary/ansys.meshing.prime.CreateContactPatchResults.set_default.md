@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-createcontactpatchresults-set-default"></a>
-
 # ansys.meshing.prime.CreateContactPatchResults.set_default
 
 <a id="ansys.meshing.prime.CreateContactPatchResults.set_default"></a>

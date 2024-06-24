@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-sizefieldtypenotsupported"></a>
-
 # ansys.meshing.prime.ErrorCode.SIZEFIELDTYPENOTSUPPORTED
 
 <a id="ansys.meshing.prime.ErrorCode.SIZEFIELDTYPENOTSUPPORTED"></a>

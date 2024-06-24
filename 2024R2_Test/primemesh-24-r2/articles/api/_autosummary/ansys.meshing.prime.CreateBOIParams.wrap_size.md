@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-createboiparams-wrap-size"></a>
-
 # ansys.meshing.prime.CreateBOIParams.wrap_size
 
 <a id="ansys.meshing.prime.CreateBOIParams.wrap_size"></a>

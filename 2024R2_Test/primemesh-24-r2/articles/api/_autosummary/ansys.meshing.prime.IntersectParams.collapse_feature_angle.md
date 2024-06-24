@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-intersectparams-collapse-feature-angle"></a>
-
 # ansys.meshing.prime.IntersectParams.collapse_feature_angle
 
 <a id="ansys.meshing.prime.IntersectParams.collapse_feature_angle"></a>

@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="contactpatchaxis"></a>
-
 # ContactPatchAxis
 
 <a id="ansys.meshing.prime.ContactPatchAxis"></a>
@@ -14,8 +12,9 @@ Flow or wake direction for BOI creation.
 
 ### Attributes
 
-| [`ContactPatchAxis.X`](ansys.meshing.prime.ContactPatchAxis.X.md#ansys.meshing.prime.ContactPatchAxis.X)   | Flow or wake inflation in the X direction for BOI creation.   |
+| Name | Description |
 |------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`ContactPatchAxis.X`](ansys.meshing.prime.ContactPatchAxis.X.md#ansys.meshing.prime.ContactPatchAxis.X)   | Flow or wake inflation in the X direction for BOI creation.   |
 | [`ContactPatchAxis.Y`](ansys.meshing.prime.ContactPatchAxis.Y.md#ansys.meshing.prime.ContactPatchAxis.Y)   | Flow or wake inflation in the Y direction for BOI creation.   |
 | [`ContactPatchAxis.Z`](ansys.meshing.prime.ContactPatchAxis.Z.md#ansys.meshing.prime.ContactPatchAxis.Z)   | Flow or wake inflation in the Z direction for BOI creation.   |
 <!-- vale on -->

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-createcontactpatchparams-suggested-label-prefix"></a>
-
 # ansys.meshing.prime.CreateContactPatchParams.suggested_label_prefix
 
 <a id="ansys.meshing.prime.CreateContactPatchParams.suggested_label_prefix"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-facezoneletshavecellsconnected"></a>
-
 # ansys.meshing.prime.ErrorCode.FACEZONELETSHAVECELLSCONNECTED
 
 <a id="ansys.meshing.prime.ErrorCode.FACEZONELETSHAVECELLSCONNECTED"></a>

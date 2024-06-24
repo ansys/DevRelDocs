@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfacesearch-search-zonelets-by-invalid-normals"></a>
-
 # ansys.meshing.prime.SurfaceSearch.search_zonelets_by_invalid_normals
 
 <a id="ansys.meshing.prime.SurfaceSearch.search_zonelets_by_invalid_normals"></a>

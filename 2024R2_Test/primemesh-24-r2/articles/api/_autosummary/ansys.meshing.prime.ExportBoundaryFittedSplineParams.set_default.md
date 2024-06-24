@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-exportboundaryfittedsplineparams-set-default"></a>
-
 # ansys.meshing.prime.ExportBoundaryFittedSplineParams.set_default
 
 <a id="ansys.meshing.prime.ExportBoundaryFittedSplineParams.set_default"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-autonodemovefailed"></a>
-
 # ansys.meshing.prime.ErrorCode.AUTONODEMOVEFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.AUTONODEMOVEFAILED"></a>

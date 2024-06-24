@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-projectongeometryparams-project-on-facets-if-cadnot-found"></a>
-
 # ansys.meshing.prime.ProjectOnGeometryParams.project_on_facets_if_cadnot_found
 
 <a id="ansys.meshing.prime.ProjectOnGeometryParams.project_on_facets_if_cadnot_found"></a>

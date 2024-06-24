@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-model-parts"></a>
-
 # ansys.meshing.prime.Model.parts
 
 <a id="ansys.meshing.prime.Model.parts"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-warningcode-nocadgeometryfound"></a>
-
 # ansys.meshing.prime.WarningCode.NOCADGEOMETRYFOUND
 
 <a id="ansys.meshing.prime.WarningCode.NOCADGEOMETRYFOUND"></a>

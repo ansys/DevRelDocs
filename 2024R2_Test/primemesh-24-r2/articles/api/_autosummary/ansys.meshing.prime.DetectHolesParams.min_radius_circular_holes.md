@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-detectholesparams-min-radius-circular-holes"></a>
-
 # ansys.meshing.prime.DetectHolesParams.min_radius_circular_holes
 
 <a id="ansys.meshing.prime.DetectHolesParams.min_radius_circular_holes"></a>

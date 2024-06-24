@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-stretchfreeboundariesresults-error-code"></a>
-
 # ansys.meshing.prime.StretchFreeBoundariesResults.error_code
 
 <a id="ansys.meshing.prime.StretchFreeBoundariesResults.error_code"></a>

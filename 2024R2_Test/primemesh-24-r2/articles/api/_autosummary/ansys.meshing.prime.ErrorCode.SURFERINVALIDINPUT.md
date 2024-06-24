@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-surferinvalidinput"></a>
-
 # ansys.meshing.prime.ErrorCode.SURFERINVALIDINPUT
 
 <a id="ansys.meshing.prime.ErrorCode.SURFERINVALIDINPUT"></a>

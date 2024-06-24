@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-lucid-mesh-create-constant-size-control"></a>
-
 # ansys.meshing.prime.lucid.Mesh.create_constant_size_control
 
 <a id="ansys.meshing.prime.lucid.Mesh.create_constant_size_control"></a>

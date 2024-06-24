@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-recoverperiodicsurfacesfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.RECOVERPERIODICSURFACESFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.RECOVERPERIODICSURFACESFAILED"></a>

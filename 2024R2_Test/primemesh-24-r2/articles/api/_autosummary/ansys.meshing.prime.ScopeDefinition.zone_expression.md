@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-scopedefinition-zone-expression"></a>
-
 # ansys.meshing.prime.ScopeDefinition.zone_expression
 
 <a id="ansys.meshing.prime.ScopeDefinition.zone_expression"></a>

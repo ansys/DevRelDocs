@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-connect-join-face-zonelets"></a>
-
 # ansys.meshing.prime.Connect.join_face_zonelets
 
 <a id="ansys.meshing.prime.Connect.join_face_zonelets"></a>

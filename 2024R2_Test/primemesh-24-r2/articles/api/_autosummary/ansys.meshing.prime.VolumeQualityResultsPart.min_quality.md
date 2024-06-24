@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-volumequalityresultspart-min-quality"></a>
-
 # ansys.meshing.prime.VolumeQualityResultsPart.min_quality
 
 <a id="ansys.meshing.prime.VolumeQualityResultsPart.min_quality"></a>

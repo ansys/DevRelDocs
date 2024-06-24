@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-deletecontrolsfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.DELETECONTROLSFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.DELETECONTROLSFAILED"></a>

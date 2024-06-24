@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-joinparams-tolerance"></a>
-
 # ansys.meshing.prime.JoinParams.tolerance
 
 <a id="ansys.meshing.prime.JoinParams.tolerance"></a>

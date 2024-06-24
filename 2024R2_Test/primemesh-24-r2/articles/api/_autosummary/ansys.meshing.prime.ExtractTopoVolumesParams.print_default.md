@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-extracttopovolumesparams-print-default"></a>
-
 # ansys.meshing.prime.ExtractTopoVolumesParams.print_default
 
 <a id="ansys.meshing.prime.ExtractTopoVolumesParams.print_default"></a>

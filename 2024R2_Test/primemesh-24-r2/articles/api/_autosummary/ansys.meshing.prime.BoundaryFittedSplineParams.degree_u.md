@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-boundaryfittedsplineparams-degree-u"></a>
-
 # ansys.meshing.prime.BoundaryFittedSplineParams.degree_u
 
 <a id="ansys.meshing.prime.BoundaryFittedSplineParams.degree_u"></a>

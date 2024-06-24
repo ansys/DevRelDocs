@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-warningcode-duplicateinput"></a>
-
 # ansys.meshing.prime.WarningCode.DUPLICATEINPUT
 
 <a id="ansys.meshing.prime.WarningCode.DUPLICATEINPUT"></a>

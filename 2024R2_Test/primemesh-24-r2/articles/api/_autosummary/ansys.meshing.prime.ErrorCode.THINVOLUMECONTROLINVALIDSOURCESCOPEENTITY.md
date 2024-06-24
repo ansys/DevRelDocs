@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-thinvolumecontrolinvalidsourcescopeentity"></a>
-
 # ansys.meshing.prime.ErrorCode.THINVOLUMECONTROLINVALIDSOURCESCOPEENTITY
 
 <a id="ansys.meshing.prime.ErrorCode.THINVOLUMECONTROLINVALIDSOURCESCOPEENTITY"></a>

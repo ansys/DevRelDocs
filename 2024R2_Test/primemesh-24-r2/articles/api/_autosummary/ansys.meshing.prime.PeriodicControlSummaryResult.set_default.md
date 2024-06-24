@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-periodiccontrolsummaryresult-set-default"></a>
-
 # ansys.meshing.prime.PeriodicControlSummaryResult.set_default
 
 <a id="ansys.meshing.prime.PeriodicControlSummaryResult.set_default"></a>

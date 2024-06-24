@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfacediagnosticsummaryparams-compute-multi-edges"></a>
-
 # ansys.meshing.prime.SurfaceDiagnosticSummaryParams.compute_multi_edges
 
 <a id="ansys.meshing.prime.SurfaceDiagnosticSummaryParams.compute_multi_edges"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-iga-quadraticmeshinput"></a>
-
 # ansys.meshing.prime.ErrorCode.IGA_QUADRATICMESHINPUT
 
 <a id="ansys.meshing.prime.ErrorCode.IGA_QUADRATICMESHINPUT"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-copyzoneletsparams-copy-labels"></a>
-
 # ansys.meshing.prime.CopyZoneletsParams.copy_labels
 
 <a id="ansys.meshing.prime.CopyZoneletsParams.copy_labels"></a>

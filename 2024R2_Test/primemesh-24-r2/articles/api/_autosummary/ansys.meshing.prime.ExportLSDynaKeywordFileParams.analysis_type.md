@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-exportlsdynakeywordfileparams-analysis-type"></a>
-
 # ansys.meshing.prime.ExportLSDynaKeywordFileParams.analysis_type
 
 <a id="ansys.meshing.prime.ExportLSDynaKeywordFileParams.analysis_type"></a>

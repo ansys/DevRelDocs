@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-igaunstructuredsplinesurf-deviation-array"></a>
-
 # ansys.meshing.prime.IGAUnstructuredSplineSurf.deviation_array
 
 <a id="ansys.meshing.prime.IGAUnstructuredSplineSurf.deviation_array"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fuseparams-gap-tolerance"></a>
-
 # ansys.meshing.prime.FuseParams.gap_tolerance
 
 <a id="ansys.meshing.prime.FuseParams.gap_tolerance"></a>

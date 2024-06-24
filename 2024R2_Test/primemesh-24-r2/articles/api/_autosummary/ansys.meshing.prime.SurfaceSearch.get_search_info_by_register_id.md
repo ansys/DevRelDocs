@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfacesearch-get-search-info-by-register-id"></a>
-
 # ansys.meshing.prime.SurfaceSearch.get_search_info_by_register_id
 
 <a id="ansys.meshing.prime.SurfaceSearch.get_search_info_by_register_id"></a>

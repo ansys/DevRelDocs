@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-createintersectionedgeloopsparams-label-name"></a>
-
 # ansys.meshing.prime.CreateIntersectionEdgeLoopsParams.label_name
 
 <a id="ansys.meshing.prime.CreateIntersectionEdgeLoopsParams.label_name"></a>

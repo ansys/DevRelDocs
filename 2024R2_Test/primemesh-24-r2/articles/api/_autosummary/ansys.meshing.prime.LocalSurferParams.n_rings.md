@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-localsurferparams-n-rings"></a>
-
 # ansys.meshing.prime.LocalSurferParams.n_rings
 
 <a id="ansys.meshing.prime.LocalSurferParams.n_rings"></a>

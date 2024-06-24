@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fillholesatplaneparams-create-zone"></a>
-
 # ansys.meshing.prime.FillHolesAtPlaneParams.create_zone
 
 <a id="ansys.meshing.prime.FillHolesAtPlaneParams.create_zone"></a>

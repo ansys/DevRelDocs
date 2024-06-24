@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-partdoesnothavetopology"></a>
-
 # ansys.meshing.prime.ErrorCode.PARTDOESNOTHAVETOPOLOGY
 
 <a id="ansys.meshing.prime.ErrorCode.PARTDOESNOTHAVETOPOLOGY"></a>

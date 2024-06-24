@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-connect-merge-boundary-nodes"></a>
-
 # ansys.meshing.prime.Connect.merge_boundary_nodes
 
 <a id="ansys.meshing.prime.Connect.merge_boundary_nodes"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-warningcode-wrapper-smallersizeatfeaures"></a>
-
 # ansys.meshing.prime.WarningCode.WRAPPER_SMALLERSIZEATFEAURES
 
 <a id="ansys.meshing.prime.WarningCode.WRAPPER_SMALLERSIZEATFEAURES"></a>

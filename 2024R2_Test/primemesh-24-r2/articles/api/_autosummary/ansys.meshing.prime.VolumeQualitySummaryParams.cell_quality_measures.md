@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-volumequalitysummaryparams-cell-quality-measures"></a>
-
 # ansys.meshing.prime.VolumeQualitySummaryParams.cell_quality_measures
 
 <a id="ansys.meshing.prime.VolumeQualitySummaryParams.cell_quality_measures"></a>

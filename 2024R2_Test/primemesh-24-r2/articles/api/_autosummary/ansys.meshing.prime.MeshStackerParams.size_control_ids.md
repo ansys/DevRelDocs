@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-meshstackerparams-size-control-ids"></a>
-
 # ansys.meshing.prime.MeshStackerParams.size_control_ids
 
 <a id="ansys.meshing.prime.MeshStackerParams.size_control_ids"></a>

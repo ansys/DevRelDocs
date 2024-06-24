@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-mergeboundarynodesparams-tolerance"></a>
-
 # ansys.meshing.prime.MergeBoundaryNodesParams.tolerance
 
 <a id="ansys.meshing.prime.MergeBoundaryNodesParams.tolerance"></a>

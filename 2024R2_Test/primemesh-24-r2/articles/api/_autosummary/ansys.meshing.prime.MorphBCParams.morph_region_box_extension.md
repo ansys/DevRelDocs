@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-morphbcparams-morph-region-box-extension"></a>
-
 # ansys.meshing.prime.MorphBCParams.morph_region_box_extension
 
 <a id="ansys.meshing.prime.MorphBCParams.morph_region_box_extension"></a>

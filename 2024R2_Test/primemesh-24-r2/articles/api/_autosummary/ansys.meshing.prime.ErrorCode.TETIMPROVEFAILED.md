@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-tetimprovefailed"></a>
-
 # ansys.meshing.prime.ErrorCode.TETIMPROVEFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.TETIMPROVEFAILED"></a>

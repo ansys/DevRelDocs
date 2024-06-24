@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-volumenamingtype-byfacelabel"></a>
-
 # ansys.meshing.prime.VolumeNamingType.BYFACELABEL
 
 <a id="ansys.meshing.prime.VolumeNamingType.BYFACELABEL"></a>

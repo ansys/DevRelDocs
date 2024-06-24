@@ -1,7 +1,3 @@
-<a id="ref-index-logging"></a>
-
-<a id="logging"></a>
-
 # Logging
 
 A logger can be attached to a session to handle streamed output from PyPrimeMesh.

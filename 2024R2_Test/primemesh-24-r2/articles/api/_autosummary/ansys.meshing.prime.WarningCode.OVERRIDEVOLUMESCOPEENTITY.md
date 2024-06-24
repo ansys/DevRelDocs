@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-warningcode-overridevolumescopeentity"></a>
-
 # ansys.meshing.prime.WarningCode.OVERRIDEVOLUMESCOPEENTITY
 
 <a id="ansys.meshing.prime.WarningCode.OVERRIDEVOLUMESCOPEENTITY"></a>

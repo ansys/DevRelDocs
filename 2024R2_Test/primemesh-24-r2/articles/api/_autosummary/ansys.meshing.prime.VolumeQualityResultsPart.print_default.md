@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-volumequalityresultspart-print-default"></a>
-
 # ansys.meshing.prime.VolumeQualityResultsPart.print_default
 
 <a id="ansys.meshing.prime.VolumeQualityResultsPart.print_default"></a>

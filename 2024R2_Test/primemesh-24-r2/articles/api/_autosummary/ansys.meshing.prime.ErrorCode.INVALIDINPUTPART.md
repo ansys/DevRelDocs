@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-invalidinputpart"></a>
-
 # ansys.meshing.prime.ErrorCode.INVALIDINPUTPART
 
 <a id="ansys.meshing.prime.ErrorCode.INVALIDINPUTPART"></a>

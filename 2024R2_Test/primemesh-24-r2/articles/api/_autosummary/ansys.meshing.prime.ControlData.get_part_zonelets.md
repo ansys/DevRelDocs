@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-controldata-get-part-zonelets"></a>
-
 # ansys.meshing.prime.ControlData.get_part_zonelets
 
 <a id="ansys.meshing.prime.ControlData.get_part_zonelets"></a>

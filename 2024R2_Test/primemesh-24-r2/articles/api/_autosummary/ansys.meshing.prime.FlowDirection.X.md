@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-flowdirection-x"></a>
-
 # ansys.meshing.prime.FlowDirection.X
 
 <a id="ansys.meshing.prime.FlowDirection.X"></a>

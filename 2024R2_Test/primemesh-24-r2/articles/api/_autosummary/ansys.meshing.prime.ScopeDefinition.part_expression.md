@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-scopedefinition-part-expression"></a>
-
 # ansys.meshing.prime.ScopeDefinition.part_expression
 
 <a id="ansys.meshing.prime.ScopeDefinition.part_expression"></a>

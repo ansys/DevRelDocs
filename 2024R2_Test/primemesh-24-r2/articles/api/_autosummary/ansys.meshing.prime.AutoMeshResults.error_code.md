@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-automeshresults-error-code"></a>
-
 # ansys.meshing.prime.AutoMeshResults.error_code
 
 <a id="ansys.meshing.prime.AutoMeshResults.error_code"></a>

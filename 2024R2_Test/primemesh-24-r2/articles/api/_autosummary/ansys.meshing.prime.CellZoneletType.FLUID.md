@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-cellzonelettype-fluid"></a>
-
 # ansys.meshing.prime.CellZoneletType.FLUID
 
 <a id="ansys.meshing.prime.CellZoneletType.FLUID"></a>

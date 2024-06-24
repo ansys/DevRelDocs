@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-examples-download-turbine-blade-cdb"></a>
-
 # ansys.meshing.prime.examples.download_turbine_blade_cdb
 
 <a id="ansys.meshing.prime.examples.download_turbine_blade_cdb"></a>

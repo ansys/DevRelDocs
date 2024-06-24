@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-sizefieldfilereadresults-size-field-ids"></a>
-
 # ansys.meshing.prime.SizeFieldFileReadResults.size_field_ids
 
 <a id="ansys.meshing.prime.SizeFieldFileReadResults.size_field_ids"></a>

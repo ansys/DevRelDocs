@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfacediagnosticsummaryresults-n-duplicate-faces"></a>
-
 # ansys.meshing.prime.SurfaceDiagnosticSummaryResults.n_duplicate_faces
 
 <a id="ansys.meshing.prime.SurfaceDiagnosticSummaryResults.n_duplicate_faces"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-scaffolderparams-remove-holes-critical-radius"></a>
-
 # ansys.meshing.prime.ScaffolderParams.remove_holes_critical_radius
 
 <a id="ansys.meshing.prime.ScaffolderParams.remove_holes_critical_radius"></a>

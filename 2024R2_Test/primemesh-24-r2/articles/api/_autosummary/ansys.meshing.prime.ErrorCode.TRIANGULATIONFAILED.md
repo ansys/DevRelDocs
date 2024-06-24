@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-triangulationfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.TRIANGULATIONFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.TRIANGULATIONFAILED"></a>

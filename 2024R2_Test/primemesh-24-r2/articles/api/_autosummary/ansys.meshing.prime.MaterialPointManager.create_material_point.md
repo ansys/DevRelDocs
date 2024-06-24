@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-materialpointmanager-create-material-point"></a>
-
 # ansys.meshing.prime.MaterialPointManager.create_material_point
 
 <a id="ansys.meshing.prime.MaterialPointManager.create_material_point"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-partialdefeatureparams-set-default"></a>
-
 # ansys.meshing.prime.PartialDefeatureParams.set_default
 
 <a id="ansys.meshing.prime.PartialDefeatureParams.set_default"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-multizoneedgebiasingparams-face-scope"></a>
-
 # ansys.meshing.prime.MultiZoneEdgeBiasingParams.face_scope
 
 <a id="ansys.meshing.prime.MultiZoneEdgeBiasingParams.face_scope"></a>

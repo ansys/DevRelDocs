@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-wrappercontrol-livematerialpointdoesntexist"></a>
-
 # ansys.meshing.prime.ErrorCode.WRAPPERCONTROL_LIVEMATERIALPOINTDOESNTEXIST
 
 <a id="ansys.meshing.prime.ErrorCode.WRAPPERCONTROL_LIVEMATERIALPOINTDOESNTEXIST"></a>

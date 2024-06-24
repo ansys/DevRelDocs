@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapparams-set-default"></a>
-
 # ansys.meshing.prime.WrapParams.set_default
 
 <a id="ansys.meshing.prime.WrapParams.set_default"></a>

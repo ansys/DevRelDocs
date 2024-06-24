@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-importcadparams-refacet"></a>
-
 # ansys.meshing.prime.ImportCadParams.refacet
 
 <a id="ansys.meshing.prime.ImportCadParams.refacet"></a>

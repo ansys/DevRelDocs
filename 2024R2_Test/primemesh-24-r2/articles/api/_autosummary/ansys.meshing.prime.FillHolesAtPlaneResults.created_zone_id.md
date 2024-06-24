@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-fillholesatplaneresults-created-zone-id"></a>
-
 # ansys.meshing.prime.FillHolesAtPlaneResults.created_zone_id
 
 <a id="ansys.meshing.prime.FillHolesAtPlaneResults.created_zone_id"></a>

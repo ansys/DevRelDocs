@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-hexcoretransitionlayertype-deletelarge"></a>
-
 # ansys.meshing.prime.HexCoreTransitionLayerType.DELETELARGE
 
 <a id="ansys.meshing.prime.HexCoreTransitionLayerType.DELETELARGE"></a>

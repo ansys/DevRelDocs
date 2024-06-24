@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapperimprovequalityparams-target-skewness"></a>
-
 # ansys.meshing.prime.WrapperImproveQualityParams.target_skewness
 
 <a id="ansys.meshing.prime.WrapperImproveQualityParams.target_skewness"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapper-connect"></a>
-
 # ansys.meshing.prime.Wrapper.connect
 
 <a id="ansys.meshing.prime.Wrapper.connect"></a>

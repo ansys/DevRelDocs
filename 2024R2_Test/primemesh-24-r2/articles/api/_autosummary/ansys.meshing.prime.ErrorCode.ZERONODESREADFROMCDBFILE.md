@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-zeronodesreadfromcdbfile"></a>
-
 # ansys.meshing.prime.ErrorCode.ZERONODESREADFROMCDBFILE
 
 <a id="ansys.meshing.prime.ErrorCode.ZERONODESREADFROMCDBFILE"></a>

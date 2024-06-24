@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-refineatcontactsparams-refine-max-size"></a>
-
 # ansys.meshing.prime.RefineAtContactsParams.refine_max_size
 
 <a id="ansys.meshing.prime.RefineAtContactsParams.refine_max_size"></a>

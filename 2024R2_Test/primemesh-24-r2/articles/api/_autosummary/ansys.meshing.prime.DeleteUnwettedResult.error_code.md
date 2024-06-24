@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-deleteunwettedresult-error-code"></a>
-
 # ansys.meshing.prime.DeleteUnwettedResult.error_code
 
 <a id="ansys.meshing.prime.DeleteUnwettedResult.error_code"></a>

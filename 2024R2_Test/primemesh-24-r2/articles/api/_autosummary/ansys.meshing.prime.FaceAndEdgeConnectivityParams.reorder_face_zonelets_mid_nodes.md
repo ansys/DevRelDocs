@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-faceandedgeconnectivityparams-reorder-face-zonelets-mid-nodes"></a>
-
 # ansys.meshing.prime.FaceAndEdgeConnectivityParams.reorder_face_zonelets_mid_nodes
 
 <a id="ansys.meshing.prime.FaceAndEdgeConnectivityParams.reorder_face_zonelets_mid_nodes"></a>

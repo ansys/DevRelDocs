@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-scopeentity-volume"></a>
-
 # ansys.meshing.prime.ScopeEntity.VOLUME
 
 <a id="ansys.meshing.prime.ScopeEntity.VOLUME"></a>

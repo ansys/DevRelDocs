@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-prismcontroloffsettype-lastratio"></a>
-
 # ansys.meshing.prime.PrismControlOffsetType.LASTRATIO
 
 <a id="ansys.meshing.prime.PrismControlOffsetType.LASTRATIO"></a>

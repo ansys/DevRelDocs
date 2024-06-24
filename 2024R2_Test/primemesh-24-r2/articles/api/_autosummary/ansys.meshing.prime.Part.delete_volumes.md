@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-part-delete-volumes"></a>
-
 # ansys.meshing.prime.Part.delete_volumes
 
 <a id="ansys.meshing.prime.Part.delete_volumes"></a>

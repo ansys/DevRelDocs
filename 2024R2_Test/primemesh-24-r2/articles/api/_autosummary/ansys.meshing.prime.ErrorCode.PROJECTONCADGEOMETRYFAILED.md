@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-projectoncadgeometryfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.PROJECTONCADGEOMETRYFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.PROJECTONCADGEOMETRYFAILED"></a>

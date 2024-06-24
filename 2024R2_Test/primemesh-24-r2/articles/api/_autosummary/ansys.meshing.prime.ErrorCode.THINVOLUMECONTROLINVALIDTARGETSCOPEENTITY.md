@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-thinvolumecontrolinvalidtargetscopeentity"></a>
-
 # ansys.meshing.prime.ErrorCode.THINVOLUMECONTROLINVALIDTARGETSCOPEENTITY
 
 <a id="ansys.meshing.prime.ErrorCode.THINVOLUMECONTROLINVALIDTARGETSCOPEENTITY"></a>

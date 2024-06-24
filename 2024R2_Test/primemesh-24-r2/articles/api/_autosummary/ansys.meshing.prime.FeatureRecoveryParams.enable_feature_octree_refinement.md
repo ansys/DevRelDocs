@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-featurerecoveryparams-enable-feature-octree-refinement"></a>
-
 # ansys.meshing.prime.FeatureRecoveryParams.enable_feature_octree_refinement
 
 <a id="ansys.meshing.prime.FeatureRecoveryParams.enable_feature_octree_refinement"></a>

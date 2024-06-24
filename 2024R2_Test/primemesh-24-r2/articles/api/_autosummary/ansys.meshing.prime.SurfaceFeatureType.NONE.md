@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfacefeaturetype-none"></a>
-
 # ansys.meshing.prime.SurfaceFeatureType.NONE
 
 <a id="ansys.meshing.prime.SurfaceFeatureType.NONE"></a>

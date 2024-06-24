@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-warningcode-writingcontactpairsskipped"></a>
-
 # ansys.meshing.prime.WarningCode.WRITINGCONTACTPAIRSSKIPPED
 
 <a id="ansys.meshing.prime.WarningCode.WRITINGCONTACTPAIRSSKIPPED"></a>

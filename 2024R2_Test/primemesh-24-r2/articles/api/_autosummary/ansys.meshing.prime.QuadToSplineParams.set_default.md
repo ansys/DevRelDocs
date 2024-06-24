@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-quadtosplineparams-set-default"></a>
-
 # ansys.meshing.prime.QuadToSplineParams.set_default
 
 <a id="ansys.meshing.prime.QuadToSplineParams.set_default"></a>

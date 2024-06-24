@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-recoverperiodicsurfacesinvalidscope"></a>
-
 # ansys.meshing.prime.ErrorCode.RECOVERPERIODICSURFACESINVALIDSCOPE
 
 <a id="ansys.meshing.prime.ErrorCode.RECOVERPERIODICSURFACESINVALIDSCOPE"></a>

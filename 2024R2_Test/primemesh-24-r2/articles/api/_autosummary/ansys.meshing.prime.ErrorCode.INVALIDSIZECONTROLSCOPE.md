@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-invalidsizecontrolscope"></a>
-
 # ansys.meshing.prime.ErrorCode.INVALIDSIZECONTROLSCOPE
 
 <a id="ansys.meshing.prime.ErrorCode.INVALIDSIZECONTROLSCOPE"></a>

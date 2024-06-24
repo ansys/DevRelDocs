@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-igaunstructuredsplinesurf-bad-spline-points-indices"></a>
-
 # ansys.meshing.prime.IGAUnstructuredSplineSurf.bad_spline_points_indices
 
 <a id="ansys.meshing.prime.IGAUnstructuredSplineSurf.bad_spline_points_indices"></a>

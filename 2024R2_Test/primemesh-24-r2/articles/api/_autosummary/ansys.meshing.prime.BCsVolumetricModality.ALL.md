@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-bcsvolumetricmodality-all"></a>
-
 # ansys.meshing.prime.BCsVolumetricModality.ALL
 
 <a id="ansys.meshing.prime.BCsVolumetricModality.ALL"></a>

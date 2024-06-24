@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-cdbsimulationtype-implicit"></a>
-
 # ansys.meshing.prime.CdbSimulationType.IMPLICIT
 
 <a id="ansys.meshing.prime.CdbSimulationType.IMPLICIT"></a>

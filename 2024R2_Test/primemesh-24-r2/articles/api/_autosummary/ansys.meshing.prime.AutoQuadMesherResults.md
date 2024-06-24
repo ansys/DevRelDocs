@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="autoquadmesherresults"></a>
-
 # AutoQuadMesherResults
 
 <a id="ansys.meshing.prime.AutoQuadMesherResults"></a>
@@ -42,14 +40,16 @@ Results of auto quad mesher.
 
 ### Methods
 
-| [`AutoQuadMesherResults.print_default`](ansys.meshing.prime.AutoQuadMesherResults.print_default.md#ansys.meshing.prime.AutoQuadMesherResults.print_default)()   | Print the default values of `AutoQuadMesherResults` object.   |
+| Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`AutoQuadMesherResults.print_default`](ansys.meshing.prime.AutoQuadMesherResults.print_default.md#ansys.meshing.prime.AutoQuadMesherResults.print_default)()   | Print the default values of `AutoQuadMesherResults` object.   |
 | [`AutoQuadMesherResults.set_default`](ansys.meshing.prime.AutoQuadMesherResults.set_default.md#ansys.meshing.prime.AutoQuadMesherResults.set_default)([...])    | Set the default values of the `AutoQuadMesherResults` object. |
 
 ### Attributes
 
-| [`AutoQuadMesherResults.error_code`](ansys.meshing.prime.AutoQuadMesherResults.error_code.md#ansys.meshing.prime.AutoQuadMesherResults.error_code)                               | Error code if AutoQuadMesher operation is unsuccessful.           |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| [`AutoQuadMesherResults.error_code`](ansys.meshing.prime.AutoQuadMesherResults.error_code.md#ansys.meshing.prime.AutoQuadMesherResults.error_code)                               | Error code if AutoQuadMesher operation is unsuccessful.           |
 | [`AutoQuadMesherResults.failed_topo_face_ids`](ansys.meshing.prime.AutoQuadMesherResults.failed_topo_face_ids.md#ansys.meshing.prime.AutoQuadMesherResults.failed_topo_face_ids) | Ids of the failed topofaces during topology check.                |
 | [`AutoQuadMesherResults.warning_codes`](ansys.meshing.prime.AutoQuadMesherResults.warning_codes.md#ansys.meshing.prime.AutoQuadMesherResults.warning_codes)                      | Warning code if AutoQuadMesher operation is partially successful. |
 <!-- vale on -->

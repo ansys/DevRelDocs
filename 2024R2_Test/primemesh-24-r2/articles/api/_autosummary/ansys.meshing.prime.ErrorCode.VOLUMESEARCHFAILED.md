@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-volumesearchfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.VOLUMESEARCHFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.VOLUMESEARCHFAILED"></a>

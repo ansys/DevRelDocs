@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="surfaceutilities"></a>
-
 # SurfaceUtilities
 
 <a id="ansys.meshing.prime.SurfaceUtilities"></a>
@@ -20,8 +18,9 @@ For example, copy zonelets, resolve surface intersections.
 
 ### Methods
 
-| [`SurfaceUtilities.add_thickness`](ansys.meshing.prime.SurfaceUtilities.add_thickness.md#ansys.meshing.prime.SurfaceUtilities.add_thickness)(zonelets, params)                                                                        | Add thicknesss to input face zonelets.                                                                         |
+| Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
+| [`SurfaceUtilities.add_thickness`](ansys.meshing.prime.SurfaceUtilities.add_thickness.md#ansys.meshing.prime.SurfaceUtilities.add_thickness)(zonelets, params)                                                                        | Add thicknesss to input face zonelets.                                                                         |
 | [`SurfaceUtilities.copy_face_zonelets`](ansys.meshing.prime.SurfaceUtilities.copy_face_zonelets.md#ansys.meshing.prime.SurfaceUtilities.copy_face_zonelets)(...)                                                                      | Copy face zonelets.                                                                                            |
 | [`SurfaceUtilities.create_boi`](ansys.meshing.prime.SurfaceUtilities.create_boi.md#ansys.meshing.prime.SurfaceUtilities.create_boi)(...)                                                                                              | Create BOI to input face zonelets.                                                                             |
 | [`SurfaceUtilities.create_cap_on_face_zonelets`](ansys.meshing.prime.SurfaceUtilities.create_cap_on_face_zonelets.md#ansys.meshing.prime.SurfaceUtilities.create_cap_on_face_zonelets)(...)                                           | Create caps on the given face zonelets.                                                                        |

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfacemeshsizescaling-size-range-min"></a>
-
 # ansys.meshing.prime.SurfaceMeshSizeScaling.size_range_min
 
 <a id="ansys.meshing.prime.SurfaceMeshSizeScaling.size_range_min"></a>

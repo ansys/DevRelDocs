@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-detectandtreatcircularfacesparams-merge-edge-allow-self-close"></a>
-
 # ansys.meshing.prime.DetectAndTreatCircularFacesParams.merge_edge_allow_self_close
 
 <a id="ansys.meshing.prime.DetectAndTreatCircularFacesParams.merge_edge_allow_self_close"></a>

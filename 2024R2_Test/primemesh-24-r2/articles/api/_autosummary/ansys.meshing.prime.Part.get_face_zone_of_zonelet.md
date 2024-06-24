@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-part-get-face-zone-of-zonelet"></a>
-
 # ansys.meshing.prime.Part.get_face_zone_of_zonelet
 
 <a id="ansys.meshing.prime.Part.get_face_zone_of_zonelet"></a>

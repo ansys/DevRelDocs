@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-warningcode-novolumescomputed"></a>
-
 # ansys.meshing.prime.WarningCode.NOVOLUMESCOMPUTED
 
 <a id="ansys.meshing.prime.WarningCode.NOVOLUMESCOMPUTED"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surfacediagnosticsummaryresults-n-free-edges"></a>
-
 # ansys.meshing.prime.SurfaceDiagnosticSummaryResults.n_free_edges
 
 <a id="ansys.meshing.prime.SurfaceDiagnosticSummaryResults.n_free_edges"></a>

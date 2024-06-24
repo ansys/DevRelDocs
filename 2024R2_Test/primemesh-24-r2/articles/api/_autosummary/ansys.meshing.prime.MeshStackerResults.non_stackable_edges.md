@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-meshstackerresults-non-stackable-edges"></a>
-
 # ansys.meshing.prime.MeshStackerResults.non_stackable_edges
 
 <a id="ansys.meshing.prime.MeshStackerResults.non_stackable_edges"></a>

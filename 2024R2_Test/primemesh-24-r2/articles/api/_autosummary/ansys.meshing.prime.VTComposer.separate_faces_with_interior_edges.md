@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-vtcomposer-separate-faces-with-interior-edges"></a>
-
 # ansys.meshing.prime.VTComposer.separate_faces_with_interior_edges
 
 <a id="ansys.meshing.prime.VTComposer.separate_faces_with_interior_edges"></a>

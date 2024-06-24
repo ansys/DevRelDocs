@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-writecdbfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.WRITECDBFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.WRITECDBFAILED"></a>

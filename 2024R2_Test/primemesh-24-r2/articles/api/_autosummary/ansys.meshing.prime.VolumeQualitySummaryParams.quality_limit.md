@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-volumequalitysummaryparams-quality-limit"></a>
-
 # ansys.meshing.prime.VolumeQualitySummaryParams.quality_limit
 
 <a id="ansys.meshing.prime.VolumeQualitySummaryParams.quality_limit"></a>

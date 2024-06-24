@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-joinparams-match-angle"></a>
-
 # ansys.meshing.prime.JoinParams.match_angle
 
 <a id="ansys.meshing.prime.JoinParams.match_angle"></a>

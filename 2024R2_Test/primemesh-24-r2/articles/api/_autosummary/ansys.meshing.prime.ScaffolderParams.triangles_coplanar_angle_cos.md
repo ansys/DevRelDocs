@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-scaffolderparams-triangles-coplanar-angle-cos"></a>
-
 # ansys.meshing.prime.ScaffolderParams.triangles_coplanar_angle_cos
 
 <a id="ansys.meshing.prime.ScaffolderParams.triangles_coplanar_angle_cos"></a>

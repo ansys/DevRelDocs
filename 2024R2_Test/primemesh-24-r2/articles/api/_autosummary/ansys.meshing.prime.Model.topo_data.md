@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-model-topo-data"></a>
-
 # ansys.meshing.prime.Model.topo_data
 
 <a id="ansys.meshing.prime.Model.topo_data"></a>

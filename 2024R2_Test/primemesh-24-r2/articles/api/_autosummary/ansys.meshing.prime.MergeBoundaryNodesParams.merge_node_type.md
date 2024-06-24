@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-mergeboundarynodesparams-merge-node-type"></a>
-
 # ansys.meshing.prime.MergeBoundaryNodesParams.merge_node_type
 
 <a id="ansys.meshing.prime.MergeBoundaryNodesParams.merge_node_type"></a>

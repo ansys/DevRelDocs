@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-hexcoreparams-print-default"></a>
-
 # ansys.meshing.prime.HexCoreParams.print_default
 
 <a id="ansys.meshing.prime.HexCoreParams.print_default"></a>

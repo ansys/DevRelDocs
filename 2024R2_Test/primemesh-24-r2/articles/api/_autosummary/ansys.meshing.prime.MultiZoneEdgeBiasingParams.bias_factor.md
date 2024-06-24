@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-multizoneedgebiasingparams-bias-factor"></a>
-
 # ansys.meshing.prime.MultiZoneEdgeBiasingParams.bias_factor
 
 <a id="ansys.meshing.prime.MultiZoneEdgeBiasingParams.bias_factor"></a>

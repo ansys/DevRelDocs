@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-intersectparams-remesh"></a>
-
 # ansys.meshing.prime.IntersectParams.remesh
 
 <a id="ansys.meshing.prime.IntersectParams.remesh"></a>

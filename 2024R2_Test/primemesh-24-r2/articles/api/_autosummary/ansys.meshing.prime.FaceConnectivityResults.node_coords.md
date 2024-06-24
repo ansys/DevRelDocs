@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-faceconnectivityresults-node-coords"></a>
-
 # ansys.meshing.prime.FaceConnectivityResults.node_coords
 
 <a id="ansys.meshing.prime.FaceConnectivityResults.node_coords"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-faceandedgeconnectivityresults-part-ids"></a>
-
 # ansys.meshing.prime.FaceAndEdgeConnectivityResults.part_ids
 
 <a id="ansys.meshing.prime.FaceAndEdgeConnectivityResults.part_ids"></a>

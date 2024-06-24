@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-joinparams-remesh"></a>
-
 # ansys.meshing.prime.JoinParams.remesh
 
 <a id="ansys.meshing.prime.JoinParams.remesh"></a>

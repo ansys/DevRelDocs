@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-checkmeshresults-has-left-handed-faces"></a>
-
 # ansys.meshing.prime.CheckMeshResults.has_left_handed_faces
 
 <a id="ansys.meshing.prime.CheckMeshResults.has_left_handed_faces"></a>

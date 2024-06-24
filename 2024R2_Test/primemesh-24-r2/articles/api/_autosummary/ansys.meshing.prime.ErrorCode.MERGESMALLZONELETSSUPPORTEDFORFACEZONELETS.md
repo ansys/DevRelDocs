@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-mergesmallzoneletssupportedforfacezonelets"></a>
-
 # ansys.meshing.prime.ErrorCode.MERGESMALLZONELETSSUPPORTEDFORFACEZONELETS
 
 <a id="ansys.meshing.prime.ErrorCode.MERGESMALLZONELETSSUPPORTEDFORFACEZONELETS"></a>

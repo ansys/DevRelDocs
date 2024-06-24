@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-repairtopologyparams-edge-connect-type"></a>
-
 # ansys.meshing.prime.RepairTopologyParams.edge_connect_type
 
 <a id="ansys.meshing.prime.RepairTopologyParams.edge_connect_type"></a>

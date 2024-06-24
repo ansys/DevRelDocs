@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-searchbyqualityresults-max-quality"></a>
-
 # ansys.meshing.prime.SearchByQualityResults.max_quality
 
 <a id="ansys.meshing.prime.SearchByQualityResults.max_quality"></a>

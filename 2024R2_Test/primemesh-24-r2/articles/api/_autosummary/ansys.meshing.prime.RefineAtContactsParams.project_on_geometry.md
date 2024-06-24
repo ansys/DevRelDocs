@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-refineatcontactsparams-project-on-geometry"></a>
-
 # ansys.meshing.prime.RefineAtContactsParams.project_on_geometry
 
 <a id="ansys.meshing.prime.RefineAtContactsParams.project_on_geometry"></a>

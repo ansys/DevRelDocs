@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-splinefeaturecapturetype-byangle"></a>
-
 # ansys.meshing.prime.SplineFeatureCaptureType.BYANGLE
 
 <a id="ansys.meshing.prime.SplineFeatureCaptureType.BYANGLE"></a>

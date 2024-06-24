@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-part-add-zonelets-to-zone"></a>
-
 # ansys.meshing.prime.Part.add_zonelets_to_zone
 
 <a id="ansys.meshing.prime.Part.add_zonelets_to_zone"></a>

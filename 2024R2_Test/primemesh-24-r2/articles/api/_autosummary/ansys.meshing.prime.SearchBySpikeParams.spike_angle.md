@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-searchbyspikeparams-spike-angle"></a>
-
 # ansys.meshing.prime.SearchBySpikeParams.spike_angle
 
 <a id="ansys.meshing.prime.SearchBySpikeParams.spike_angle"></a>

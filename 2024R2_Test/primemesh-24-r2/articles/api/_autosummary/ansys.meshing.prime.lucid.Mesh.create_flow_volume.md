@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-lucid-mesh-create-flow-volume"></a>
-
 # ansys.meshing.prime.lucid.Mesh.create_flow_volume
 
 <a id="ansys.meshing.prime.lucid.Mesh.create_flow_volume"></a>

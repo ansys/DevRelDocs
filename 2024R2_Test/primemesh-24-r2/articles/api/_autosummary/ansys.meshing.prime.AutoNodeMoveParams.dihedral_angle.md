@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-autonodemoveparams-dihedral-angle"></a>
-
 # ansys.meshing.prime.AutoNodeMoveParams.dihedral_angle
 
 <a id="ansys.meshing.prime.AutoNodeMoveParams.dihedral_angle"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-thinvolumemeshparams-n-layers"></a>
-
 # ansys.meshing.prime.ThinVolumeMeshParams.n_layers
 
 <a id="ansys.meshing.prime.ThinVolumeMeshParams.n_layers"></a>

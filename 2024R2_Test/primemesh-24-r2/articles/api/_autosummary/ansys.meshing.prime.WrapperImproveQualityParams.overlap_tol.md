@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-wrapperimprovequalityparams-overlap-tol"></a>
-
 # ansys.meshing.prime.WrapperImproveQualityParams.overlap_tol
 
 <a id="ansys.meshing.prime.WrapperImproveQualityParams.overlap_tol"></a>

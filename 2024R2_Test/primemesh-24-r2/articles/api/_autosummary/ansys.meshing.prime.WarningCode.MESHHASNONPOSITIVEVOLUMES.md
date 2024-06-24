@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-warningcode-meshhasnonpositivevolumes"></a>
-
 # ansys.meshing.prime.WarningCode.MESHHASNONPOSITIVEVOLUMES
 
 <a id="ansys.meshing.prime.WarningCode.MESHHASNONPOSITIVEVOLUMES"></a>

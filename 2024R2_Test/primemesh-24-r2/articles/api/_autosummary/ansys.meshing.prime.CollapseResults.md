@@ -1,7 +1,5 @@
 <!-- vale off -->
 
-<a id="collapseresults"></a>
-
 # CollapseResults
 
 <a id="ansys.meshing.prime.CollapseResults"></a>
@@ -36,14 +34,16 @@ Results associated with collapse face elements.
 
 ### Methods
 
-| [`CollapseResults.print_default`](ansys.meshing.prime.CollapseResults.print_default.md#ansys.meshing.prime.CollapseResults.print_default)()            | Print the default values of `CollapseResults` object.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| [`CollapseResults.print_default`](ansys.meshing.prime.CollapseResults.print_default.md#ansys.meshing.prime.CollapseResults.print_default)()            | Print the default values of `CollapseResults` object.   |
 | [`CollapseResults.set_default`](ansys.meshing.prime.CollapseResults.set_default.md#ansys.meshing.prime.CollapseResults.set_default)([error_code, ...]) | Set the default values of the `CollapseResults` object. |
 
 ### Attributes
 
-| [`CollapseResults.error_code`](ansys.meshing.prime.CollapseResults.error_code.md#ansys.meshing.prime.CollapseResults.error_code)    | Error code associated with the failure of operation.   |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
+| [`CollapseResults.error_code`](ansys.meshing.prime.CollapseResults.error_code.md#ansys.meshing.prime.CollapseResults.error_code)    | Error code associated with the failure of operation.   |
 | [`CollapseResults.n_collapsed`](ansys.meshing.prime.CollapseResults.n_collapsed.md#ansys.meshing.prime.CollapseResults.n_collapsed) | Number of face elements collapsed.                     |
 | [`CollapseResults.n_splits`](ansys.meshing.prime.CollapseResults.n_splits.md#ansys.meshing.prime.CollapseResults.n_splits)          | Number of face elements split.                         |
 <!-- vale on -->

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-facezoneletsfeaturesnotuptodate"></a>
-
 # ansys.meshing.prime.ErrorCode.FACEZONELETSFEATURESNOTUPTODATE
 
 <a id="ansys.meshing.prime.ErrorCode.FACEZONELETSFEATURESNOTUPTODATE"></a>

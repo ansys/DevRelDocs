@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-surferparams-check-non-manifolds"></a>
-
 # ansys.meshing.prime.SurferParams.check_non_manifolds
 
 <a id="ansys.meshing.prime.SurferParams.check_non_manifolds"></a>

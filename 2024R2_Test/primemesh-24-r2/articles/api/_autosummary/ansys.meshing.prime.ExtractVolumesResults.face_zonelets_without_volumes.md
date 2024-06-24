@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-extractvolumesresults-face-zonelets-without-volumes"></a>
-
 # ansys.meshing.prime.ExtractVolumesResults.face_zonelets_without_volumes
 
 <a id="ansys.meshing.prime.ExtractVolumesResults.face_zonelets_without_volumes"></a>

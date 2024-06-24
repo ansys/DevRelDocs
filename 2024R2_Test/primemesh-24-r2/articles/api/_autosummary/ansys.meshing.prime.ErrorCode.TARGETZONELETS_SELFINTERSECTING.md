@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-targetzonelets-selfintersecting"></a>
-
 # ansys.meshing.prime.ErrorCode.TARGETZONELETS_SELFINTERSECTING
 
 <a id="ansys.meshing.prime.ErrorCode.TARGETZONELETS_SELFINTERSECTING"></a>

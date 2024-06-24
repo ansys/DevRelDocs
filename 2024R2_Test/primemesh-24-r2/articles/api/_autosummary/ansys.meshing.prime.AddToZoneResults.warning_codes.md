@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-addtozoneresults-warning-codes"></a>
-
 # ansys.meshing.prime.AddToZoneResults.warning_codes
 
 <a id="ansys.meshing.prime.AddToZoneResults.warning_codes"></a>

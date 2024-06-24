@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-detectandtreatholesparams-fragmented-edge-tolerance"></a>
-
 # ansys.meshing.prime.DetectAndTreatHolesParams.fragmented_edge_tolerance
 
 <a id="ansys.meshing.prime.DetectAndTreatHolesParams.fragmented_edge_tolerance"></a>

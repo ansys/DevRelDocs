@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-quadtosplineparams-use-projection-scope"></a>
-
 # ansys.meshing.prime.QuadToSplineParams.use_projection_scope
 
 <a id="ansys.meshing.prime.QuadToSplineParams.use_projection_scope"></a>

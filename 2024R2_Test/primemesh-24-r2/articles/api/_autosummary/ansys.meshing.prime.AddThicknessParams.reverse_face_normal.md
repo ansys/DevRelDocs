@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-addthicknessparams-reverse-face-normal"></a>
-
 # ansys.meshing.prime.AddThicknessParams.reverse_face_normal
 
 <a id="ansys.meshing.prime.AddThicknessParams.reverse_face_normal"></a>

@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-sizecontrol-set-hard-sizing-params"></a>
-
 # ansys.meshing.prime.SizeControl.set_hard_sizing_params
 
 <a id="ansys.meshing.prime.SizeControl.set_hard_sizing_params"></a>

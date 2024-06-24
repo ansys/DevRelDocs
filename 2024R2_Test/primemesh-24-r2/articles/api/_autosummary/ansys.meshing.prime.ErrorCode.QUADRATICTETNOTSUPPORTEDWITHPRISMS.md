@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-quadratictetnotsupportedwithprisms"></a>
-
 # ansys.meshing.prime.ErrorCode.QUADRATICTETNOTSUPPORTEDWITHPRISMS
 
 <a id="ansys.meshing.prime.ErrorCode.QUADRATICTETNOTSUPPORTEDWITHPRISMS"></a>

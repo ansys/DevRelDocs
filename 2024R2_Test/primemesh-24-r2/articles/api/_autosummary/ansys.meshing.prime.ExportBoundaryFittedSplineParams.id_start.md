@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-exportboundaryfittedsplineparams-id-start"></a>
-
 # ansys.meshing.prime.ExportBoundaryFittedSplineParams.id_start
 
 <a id="ansys.meshing.prime.ExportBoundaryFittedSplineParams.id_start"></a>

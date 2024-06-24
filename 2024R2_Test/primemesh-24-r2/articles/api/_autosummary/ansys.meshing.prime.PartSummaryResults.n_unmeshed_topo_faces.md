@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-partsummaryresults-n-unmeshed-topo-faces"></a>
-
 # ansys.meshing.prime.PartSummaryResults.n_unmeshed_topo_faces
 
 <a id="ansys.meshing.prime.PartSummaryResults.n_unmeshed_topo_faces"></a>

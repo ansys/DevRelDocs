@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-readkeywordfilefailed"></a>
-
 # ansys.meshing.prime.ErrorCode.READKEYWORDFILEFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.READKEYWORDFILEFAILED"></a>

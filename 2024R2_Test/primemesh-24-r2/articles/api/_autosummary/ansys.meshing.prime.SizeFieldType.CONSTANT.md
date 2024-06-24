@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-sizefieldtype-constant"></a>
-
 # ansys.meshing.prime.SizeFieldType.CONSTANT
 
 <a id="ansys.meshing.prime.SizeFieldType.CONSTANT"></a>

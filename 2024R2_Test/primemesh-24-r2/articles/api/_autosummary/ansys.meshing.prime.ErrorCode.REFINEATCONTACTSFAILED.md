@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-refineatcontactsfailed"></a>
-
 # ansys.meshing.prime.ErrorCode.REFINEATCONTACTSFAILED
 
 <a id="ansys.meshing.prime.ErrorCode.REFINEATCONTACTSFAILED"></a>

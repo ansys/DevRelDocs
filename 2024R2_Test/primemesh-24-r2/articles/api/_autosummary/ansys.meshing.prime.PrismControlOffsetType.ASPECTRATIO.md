@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-prismcontroloffsettype-aspectratio"></a>
-
 # ansys.meshing.prime.PrismControlOffsetType.ASPECTRATIO
 
 <a id="ansys.meshing.prime.PrismControlOffsetType.ASPECTRATIO"></a>
