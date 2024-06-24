@@ -24,7 +24,6 @@ public static void Example(double lengthA, double lengthB) {
 	// same as CompareLengths(lengthA, 0) < 0
 	bool lengthIsNegative = Accuracy.LengthIsNegative(lengthA);
 }
-
 ```
 
 Corresponding methods are provided for angles: CompareAngles, EqualAngles, AngleIsZero, AngleIsPositive, and AngleIsNegative.

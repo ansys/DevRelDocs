@@ -39,7 +39,6 @@ Here is an example manifest file:
     typename=”Sample.AddIn”
     host="NewAppDomain" />
 </AddIns>
-
 ```
 
 The Addins element encloses a list of add-ins. A single manifest file can describe more than one add-in, although commonly it describes just one add-in.
