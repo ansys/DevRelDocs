@@ -109,7 +109,7 @@ Refresh an acph5 db (Workbench mode only).
       renumbering_mapping_paths is a list of file paths.
   - input_parameters: A dict of (name, value) pairs of WB input parameters.
   - initialize: Specifies whether the acph5 database needs to be initialized (i.e. the file does not yet exist).
-  - unit_system_type: Defines the unit system of the main/downstream ACP file. (TODO: Do we need this?)
+  - unit_system_type: Defines the unit system of the main/downstream ACP file.
   - upgrade_from: Defines the path of a legacy (.acp) ACP DB that has to be upgrade to the new format (load composite definitions and save as ACPH5).
 
 <a id="compolyx.DB.reload"></a>
