@@ -18,7 +18,7 @@ Add-ins can add a new tab to the ribbon.
 
 Below is the XML code you can use to create the ribbon tab.
 
-``` {#codeblock_zzb_32g_2vb}
+```
 <customUI 
 	  xmlns="http://schemas.spaceclaim.com/customui" 
 	  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
@@ -63,7 +63,7 @@ In the example above, "geometry," "material properties," etc. are groups that co
 
 Buttons are the controls that can be used to execute a function \(like the activation of a tool\). When defining the buttons in the customUI XML, you need to define its identifier \(display name\), command, and the size of the button. The size of the button should be defined as "large" for standard buttons requiring a row or "small" for mini buttons that require less space. Below is the schema file that contains examples.
 
-``` {#codeblock_ktb_kfg_2vb}
+```
 <?xml version="1.0" encoding="utf-8"?> 
 <customUI 
   xmlns="http://schemas.spaceclaim.com/customui" 
@@ -93,7 +93,7 @@ Additionally, custom buttons can be added to the file menu \(at the top left, un
 
 To add custom buttons to the file menu, encapsulate the tool buttons with <menu\> <menu/\>.
 
-``` {#codeblock_tky_qfg_2vb}
+```
 <ribbon> 
     <menu> 
       <button id="DiscoverySampleAddIn.Button1Tool" position="save" command=" DiscoverySampleAddIn.Button1Tool"/> 
