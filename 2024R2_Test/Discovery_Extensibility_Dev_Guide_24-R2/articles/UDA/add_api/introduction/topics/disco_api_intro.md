@@ -6,7 +6,7 @@ This document is intended to provide an overview of the Discovery API and its fu
 
 ## Programming language
 
-Although the Discovery API can be called from any .NET programming language \(for example: C#, F#, C++/CLI, Visual Basic .NET, IronPython\), all examples in this document are in C#.
+Although the Discovery API can be called from any .NET programming language \(for example: C\#, F\#, C++/CLI, Visual Basic .NET, IronPython\), all examples in this document are in C\#.
 
 ## Conventions
 

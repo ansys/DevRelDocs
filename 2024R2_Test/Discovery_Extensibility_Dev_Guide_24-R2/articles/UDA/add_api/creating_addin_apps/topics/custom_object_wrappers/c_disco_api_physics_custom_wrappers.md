@@ -13,7 +13,7 @@ Additionally, while *DiscoveryCustomWrapper* objects has only a value field on t
 
 In the Discovery UI paradigm, the *TreeField* is used as a short cut for an entry from the HUD that displays the tool options associated with the object in the tree. The *TreeField* is visible even though the tool is not selected, so custom objects can be modified regardless of whether their tool is active. When an add-in uses the *TreeField,* it is its responsibility to keep its value in sync with the HUD properties.
 
-```
+``` {#codeblock_r2j_nkk_ntb}
 protected override void OnEnable(bool enable)
         {
             if (enable)
@@ -25,7 +25,7 @@ protected override void OnEnable(bool enable)
 
 The add-in can register a listener to the *DocumentChanged* event in order to be notified of changes in the quick field. The *DocumentChanged* event can be filtered for changes in the custom object and the appropriate action can be taken to sync the event payload to the corresponding property.
 
-```
+``` {#codeblock_rbg_3lk_ntb}
 private void TreeField_Updated(object sender, DocumentChangedEventArgs e)
         {
             foreach (var changedObj in e.ChangedObjects)
@@ -46,7 +46,7 @@ private void TreeField_Updated(object sender, DocumentChangedEventArgs e)
 
 When the HUD property associated with *TreeField* is changed, it is the add-in responsibility to set the *TreeField* property to the updated value.
 
-```
+``` {#codeblock_w2j_klk_ntb}
 customBarObject.TreeFieldQuantity = customBarObject.RatioQuantity;
 ```
 

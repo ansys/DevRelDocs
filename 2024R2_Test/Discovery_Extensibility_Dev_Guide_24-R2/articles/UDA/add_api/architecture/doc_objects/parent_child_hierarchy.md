@@ -34,6 +34,7 @@ Public static void Example(DesignBody desBody) {
 		Debug.Assert(desFace.GetAncestor<DesignFace>() == desFace);
 	}
 }
+
 ```
 
 The parent chain continues up the hierarchy until the *root* object is reached. This is the topmost parent, which itself has no parent \(its parent is null\). Examples of root objects are: Part, DrawingSheet, and Layer.

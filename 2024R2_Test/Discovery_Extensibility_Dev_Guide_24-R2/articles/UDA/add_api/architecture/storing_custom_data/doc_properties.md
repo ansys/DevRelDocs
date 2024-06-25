@@ -15,6 +15,7 @@ public static void Example(Document doc) {
 	if (doc.CustomProperties.TryGetValue("BananaWorks.ApplicationVersion", out property))
 		Debug.Assert((double) property.Value == 14);
 }
+
 ```
 
 Note that a document can contain more than one part, so if you want to store data for a part, this is best done by storing a custom attribute on the part master \(see next topic\).

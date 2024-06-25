@@ -1,6 +1,6 @@
 # Sample projects
 
-The Sample Add-in project \(C#\) contains programming examples of how to use various areas of functionality in the API.
+The Sample Add-in project \(C\#\) contains programming examples of how to use various areas of functionality in the API.
 
 
 | Sample Project | Version | Language | Link |

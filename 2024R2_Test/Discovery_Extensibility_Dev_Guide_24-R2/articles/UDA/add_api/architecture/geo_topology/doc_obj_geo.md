@@ -19,6 +19,7 @@ public static void Example() {
 	// closest point on line segment should be (0.01, 0, 0)
 	Debug.Assert(eval.Point == Point.Create(0.01, 0, 0));
 }
+
 ```
 
 The document is modified when you create doc objects. For example, you might create a design curve from a trimmed curve.
