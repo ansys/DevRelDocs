@@ -4,7 +4,7 @@ Discovery uses trees to represent objects for geometry and physics. Add-ins can 
 
 Within an add-in a custom tree is defined by implementing the *ITreeHierarchy*interface. The class that implements *ITreeHierarchy*interface must be marked with the attribute
 
-``` {#codeblock_v3r_24k_ntb}
+```
 [Export(typeof(ITreeHierarchy))] 
 ```
 
