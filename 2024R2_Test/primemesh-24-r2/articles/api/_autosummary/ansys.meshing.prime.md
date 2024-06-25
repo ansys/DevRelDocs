@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # ansys.meshing.prime
 
 | Name | Description |

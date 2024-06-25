@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # CadRefacetingParams
 
 <a id="ansys.meshing.prime.CadRefacetingParams"></a>

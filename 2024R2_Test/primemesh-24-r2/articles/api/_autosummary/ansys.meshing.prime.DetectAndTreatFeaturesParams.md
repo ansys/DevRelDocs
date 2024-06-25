@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # DetectAndTreatFeaturesParams
 
 <a id="ansys.meshing.prime.DetectAndTreatFeaturesParams"></a>

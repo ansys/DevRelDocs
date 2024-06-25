@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # FlowDirection
 
 <a id="ansys.meshing.prime.FlowDirection"></a>

@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # JoinParams
 
 <a id="ansys.meshing.prime.JoinParams"></a>

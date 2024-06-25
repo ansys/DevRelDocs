@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # CurvatureSizingParams
 
 <a id="ansys.meshing.prime.CurvatureSizingParams"></a>

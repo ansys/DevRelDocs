@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # ScaffolderMergeResults
 
 <a id="ansys.meshing.prime.ScaffolderMergeResults"></a>

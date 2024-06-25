@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # FuseResults
 
 <a id="ansys.meshing.prime.FuseResults"></a>

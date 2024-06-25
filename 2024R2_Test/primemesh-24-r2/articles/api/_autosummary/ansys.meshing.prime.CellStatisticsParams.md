@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # CellStatisticsParams
 
 <a id="ansys.meshing.prime.CellStatisticsParams"></a>

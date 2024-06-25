@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # CellZoneletType
 
 <a id="ansys.meshing.prime.CellZoneletType"></a>

@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # Part
 
 <a id="ansys.meshing.prime.Part"></a>

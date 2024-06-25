@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # SplineRefinementType
 
 <a id="ansys.meshing.prime.SplineRefinementType"></a>

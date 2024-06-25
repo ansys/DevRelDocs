@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # MeshStackerResults
 
 <a id="ansys.meshing.prime.MeshStackerResults"></a>

@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # DeleteInteriorNodesParams
 
 <a id="ansys.meshing.prime.DeleteInteriorNodesParams"></a>

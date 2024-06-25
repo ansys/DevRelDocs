@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # LSDynaAnalysisType
 
 <a id="ansys.meshing.prime.LSDynaAnalysisType"></a>

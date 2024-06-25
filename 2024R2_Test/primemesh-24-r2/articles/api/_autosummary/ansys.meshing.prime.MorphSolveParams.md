@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # MorphSolveParams
 
 <a id="ansys.meshing.prime.MorphSolveParams"></a>

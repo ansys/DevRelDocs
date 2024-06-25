@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # MergeVolumesParams
 
 <a id="ansys.meshing.prime.MergeVolumesParams"></a>

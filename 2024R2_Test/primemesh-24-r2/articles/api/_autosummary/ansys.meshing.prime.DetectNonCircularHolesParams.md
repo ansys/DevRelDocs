@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # DetectNonCircularHolesParams
 
 <a id="ansys.meshing.prime.DetectNonCircularHolesParams"></a>

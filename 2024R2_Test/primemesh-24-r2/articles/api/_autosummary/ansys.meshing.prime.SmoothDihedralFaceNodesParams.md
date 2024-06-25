@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # SmoothDihedralFaceNodesParams
 
 <a id="ansys.meshing.prime.SmoothDihedralFaceNodesParams"></a>

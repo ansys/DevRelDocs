@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # CadFaceter
 
 <a id="ansys.meshing.prime.CadFaceter"></a>

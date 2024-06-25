@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # SetLeakPreventionsResults
 
 <a id="ansys.meshing.prime.SetLeakPreventionsResults"></a>

@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # PrismControlOffsetType
 
 <a id="ansys.meshing.prime.PrismControlOffsetType"></a>

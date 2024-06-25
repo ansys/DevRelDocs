@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # SubtractVolumesParams
 
 <a id="ansys.meshing.prime.SubtractVolumesParams"></a>

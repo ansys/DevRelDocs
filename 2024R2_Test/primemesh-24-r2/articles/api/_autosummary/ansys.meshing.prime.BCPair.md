@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # BCPair
 
 <a id="ansys.meshing.prime.BCPair"></a>

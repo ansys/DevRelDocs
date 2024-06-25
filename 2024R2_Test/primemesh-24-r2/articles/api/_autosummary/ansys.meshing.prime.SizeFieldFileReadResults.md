@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # SizeFieldFileReadResults
 
 <a id="ansys.meshing.prime.SizeFieldFileReadResults"></a>

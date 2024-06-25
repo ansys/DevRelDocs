@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # FixInvalidNormalNodeResults
 
 <a id="ansys.meshing.prime.FixInvalidNormalNodeResults"></a>

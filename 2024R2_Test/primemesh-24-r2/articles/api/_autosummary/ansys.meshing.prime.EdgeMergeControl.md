@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # EdgeMergeControl
 
 <a id="ansys.meshing.prime.EdgeMergeControl"></a>

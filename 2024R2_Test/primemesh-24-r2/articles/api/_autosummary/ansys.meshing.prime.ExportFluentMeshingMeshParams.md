@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # ExportFluentMeshingMeshParams
 
 <a id="ansys.meshing.prime.ExportFluentMeshingMeshParams"></a>

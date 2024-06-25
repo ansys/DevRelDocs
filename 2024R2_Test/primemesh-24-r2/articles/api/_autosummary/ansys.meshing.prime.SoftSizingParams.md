@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # SoftSizingParams
 
 <a id="ansys.meshing.prime.SoftSizingParams"></a>

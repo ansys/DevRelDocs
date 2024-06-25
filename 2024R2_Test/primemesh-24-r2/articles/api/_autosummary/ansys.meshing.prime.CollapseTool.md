@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # CollapseTool
 
 <a id="ansys.meshing.prime.CollapseTool"></a>

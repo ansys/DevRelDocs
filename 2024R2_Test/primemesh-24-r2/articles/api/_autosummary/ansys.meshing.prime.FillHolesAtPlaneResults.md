@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # FillHolesAtPlaneResults
 
 <a id="ansys.meshing.prime.FillHolesAtPlaneResults"></a>

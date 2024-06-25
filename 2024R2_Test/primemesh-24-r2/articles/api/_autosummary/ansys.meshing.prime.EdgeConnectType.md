@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # EdgeConnectType
 
 <a id="ansys.meshing.prime.EdgeConnectType"></a>

@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # DetectAndTreatHolesParams
 
 <a id="ansys.meshing.prime.DetectAndTreatHolesParams"></a>

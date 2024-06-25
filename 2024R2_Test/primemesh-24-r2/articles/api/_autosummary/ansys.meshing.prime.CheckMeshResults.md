@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # CheckMeshResults
 
 <a id="ansys.meshing.prime.CheckMeshResults"></a>

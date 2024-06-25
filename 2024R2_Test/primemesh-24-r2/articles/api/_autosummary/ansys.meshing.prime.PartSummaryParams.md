@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # PartSummaryParams
 
 <a id="ansys.meshing.prime.PartSummaryParams"></a>

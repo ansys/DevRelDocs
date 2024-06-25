@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # DeadRegion
 
 <a id="ansys.meshing.prime.DeadRegion"></a>

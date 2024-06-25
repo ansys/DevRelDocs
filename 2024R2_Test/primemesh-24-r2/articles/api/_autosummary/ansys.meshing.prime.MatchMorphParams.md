@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # MatchMorphParams
 
 <a id="ansys.meshing.prime.MatchMorphParams"></a>

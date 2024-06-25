@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # ImportAbaqusResults
 
 <a id="ansys.meshing.prime.ImportAbaqusResults"></a>

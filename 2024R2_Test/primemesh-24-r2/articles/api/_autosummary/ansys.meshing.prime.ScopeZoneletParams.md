@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # ScopeZoneletParams
 
 <a id="ansys.meshing.prime.ScopeZoneletParams"></a>

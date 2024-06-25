@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # ExportBoundaryFittedSplineParams
 
 <a id="ansys.meshing.prime.ExportBoundaryFittedSplineParams"></a>

@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # MatchPairTargetType
 
 <a id="ansys.meshing.prime.MatchPairTargetType"></a>

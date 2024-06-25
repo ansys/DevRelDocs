@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # AdvancedSurferSetup
 
 <a id="ansys.meshing.prime.AdvancedSurferSetup"></a>

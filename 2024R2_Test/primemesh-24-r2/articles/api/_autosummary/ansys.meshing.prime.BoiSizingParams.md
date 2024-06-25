@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # BoiSizingParams
 
 <a id="ansys.meshing.prime.BoiSizingParams"></a>

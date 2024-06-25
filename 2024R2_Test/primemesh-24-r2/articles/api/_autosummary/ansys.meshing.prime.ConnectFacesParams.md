@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # ConnectFacesParams
 
 <a id="ansys.meshing.prime.ConnectFacesParams"></a>

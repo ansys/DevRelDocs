@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # MergePartsResults
 
 <a id="ansys.meshing.prime.MergePartsResults"></a>

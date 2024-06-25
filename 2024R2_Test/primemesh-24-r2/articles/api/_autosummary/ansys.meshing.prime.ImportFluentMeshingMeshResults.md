@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # ImportFluentMeshingMeshResults
 
 <a id="ansys.meshing.prime.ImportFluentMeshingMeshResults"></a>

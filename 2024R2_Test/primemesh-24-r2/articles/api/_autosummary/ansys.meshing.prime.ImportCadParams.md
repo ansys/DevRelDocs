@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # ImportCadParams
 
 <a id="ansys.meshing.prime.ImportCadParams"></a>

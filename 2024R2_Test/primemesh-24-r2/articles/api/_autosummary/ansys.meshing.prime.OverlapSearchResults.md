@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # OverlapSearchResults
 
 <a id="ansys.meshing.prime.OverlapSearchResults"></a>

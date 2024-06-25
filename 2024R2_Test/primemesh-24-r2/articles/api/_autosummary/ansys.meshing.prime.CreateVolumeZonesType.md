@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # CreateVolumeZonesType
 
 <a id="ansys.meshing.prime.CreateVolumeZonesType"></a>

@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # BOIType
 
 <a id="ansys.meshing.prime.BOIType"></a>

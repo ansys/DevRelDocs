@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # AutoMeshResults
 
 <a id="ansys.meshing.prime.AutoMeshResults"></a>

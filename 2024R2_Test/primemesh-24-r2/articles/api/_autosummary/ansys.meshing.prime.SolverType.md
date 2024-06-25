@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # SolverType
 
 <a id="ansys.meshing.prime.SolverType"></a>

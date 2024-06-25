@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # ExtractFeatureResults
 
 <a id="ansys.meshing.prime.ExtractFeatureResults"></a>

@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # AddThicknessResults
 
 <a id="ansys.meshing.prime.AddThicknessResults"></a>

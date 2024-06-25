@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # FileWriteParams
 
 <a id="ansys.meshing.prime.FileWriteParams"></a>

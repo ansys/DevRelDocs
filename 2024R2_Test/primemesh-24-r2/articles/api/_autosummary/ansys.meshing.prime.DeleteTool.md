@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # DeleteTool
 
 <a id="ansys.meshing.prime.DeleteTool"></a>

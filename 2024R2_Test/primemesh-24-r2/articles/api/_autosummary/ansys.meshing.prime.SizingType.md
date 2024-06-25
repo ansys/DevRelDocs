@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # SizingType
 
 <a id="ansys.meshing.prime.SizingType"></a>

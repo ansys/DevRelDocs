@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # DownloadManager
 
 <a id="ansys.meshing.prime.examples.DownloadManager"></a>

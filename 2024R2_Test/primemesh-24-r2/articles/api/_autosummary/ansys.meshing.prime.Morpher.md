@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # Morpher
 
 <a id="ansys.meshing.prime.Morpher"></a>

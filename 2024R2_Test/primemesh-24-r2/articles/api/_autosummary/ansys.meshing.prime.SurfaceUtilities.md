@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # SurfaceUtilities
 
 <a id="ansys.meshing.prime.SurfaceUtilities"></a>

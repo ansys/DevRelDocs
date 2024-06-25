@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # PeriodicControl
 
 <a id="ansys.meshing.prime.PeriodicControl"></a>

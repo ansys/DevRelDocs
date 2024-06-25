@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # AutoQuadMesher
 
 <a id="ansys.meshing.prime.AutoQuadMesher"></a>

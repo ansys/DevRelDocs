@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # ExportSTLParams
 
 <a id="ansys.meshing.prime.ExportSTLParams"></a>

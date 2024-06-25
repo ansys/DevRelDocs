@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # CheckFaceDeviationResults
 
 <a id="ansys.meshing.prime.CheckFaceDeviationResults"></a>

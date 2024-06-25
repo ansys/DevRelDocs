@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # AutoNodeMoveParams
 
 <a id="ansys.meshing.prime.AutoNodeMoveParams"></a>

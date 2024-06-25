@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # PrismControlGrowthParams
 
 <a id="ansys.meshing.prime.PrismControlGrowthParams"></a>
