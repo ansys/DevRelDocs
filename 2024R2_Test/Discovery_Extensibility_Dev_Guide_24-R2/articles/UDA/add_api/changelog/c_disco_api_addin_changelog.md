@@ -1,8 +1,8 @@
-# Release notes
+# Changelog
 
-Available with this release: **Release notes V24.2**.
+Available with this release: **Changelog version 2024 R2**.
 
--   **[V24.2](./V24-r2.md)**  
+-   **[Version 2024 R2](./V24-r2.md)**  
 
 
 

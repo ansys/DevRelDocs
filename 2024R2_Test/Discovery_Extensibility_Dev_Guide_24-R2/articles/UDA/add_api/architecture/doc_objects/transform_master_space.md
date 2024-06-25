@@ -14,6 +14,7 @@ Public static void Example(Icomponent comp, Frame placement) {
 	// apply master placement frame to master component
 	master.Placement = Matrix.CreateMapping(masterPlacement);
 }
+
 ```
 
 

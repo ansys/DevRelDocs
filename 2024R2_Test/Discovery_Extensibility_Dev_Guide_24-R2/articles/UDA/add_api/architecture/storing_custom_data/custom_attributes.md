@@ -12,6 +12,7 @@ public static void Example(DesignBody desBody) {
 	if (desBody.TryGetTextAttribute("BananaWorks.SkinCondition", out skinType))
 		Debug.Assert(skinType == "Ripe");
 }
+
 ```
 
 Multiple values can be stored as multiple attributes with distinct names, or they can be formatted into a single text string using `String.Format` or an XML serializer.

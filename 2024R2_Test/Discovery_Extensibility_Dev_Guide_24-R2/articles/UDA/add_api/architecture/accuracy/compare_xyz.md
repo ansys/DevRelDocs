@@ -14,6 +14,7 @@ public static void Example(Plane plane, Point point) {
 	// ContainsPoint is more efficient, but gives the same result
 	Debug.Assert(planeContainsPoint == plane.ContainsPoint(point));
 }
+
 ```
 
 

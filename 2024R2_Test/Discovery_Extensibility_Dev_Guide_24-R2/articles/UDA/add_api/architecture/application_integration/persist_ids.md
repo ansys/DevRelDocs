@@ -25,6 +25,7 @@ public static void Example(IDesignFace desFace) {
 	Moniker<IDesignFace> desFaceMonikerB = Moniker<IDesignFace>.FromString(monikerText);
 	Debug.Assert(desFaceMonikerB.Resolve(doc) == desFace);
 }
+
 ```
 
 To resolve a moniker, a document must be provided as the context. Discovery allows more than one version of the same scdoc file to be loaded at the same time, so the same moniker could potentially be resolved in more than one document.

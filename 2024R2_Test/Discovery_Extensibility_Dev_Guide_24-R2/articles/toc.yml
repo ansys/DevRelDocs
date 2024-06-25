@@ -1,6 +1,6 @@
 - name: Introduction
   href: UDA/add_api/introduction/topics/disco_api_intro.md
-- name: Creating add-in applications
+- name: Creating Add-in applications
   href: UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md
   items:
   - name: Getting started

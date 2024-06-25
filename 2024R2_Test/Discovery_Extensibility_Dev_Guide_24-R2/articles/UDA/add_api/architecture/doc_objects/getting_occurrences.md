@@ -28,6 +28,7 @@ Public static void Example() {
 	// select the newly created component
 	window.SingleSelection = newComp;
 }
+
 ```
 
 

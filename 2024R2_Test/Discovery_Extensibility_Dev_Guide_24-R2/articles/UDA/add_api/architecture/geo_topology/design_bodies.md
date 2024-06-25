@@ -39,6 +39,7 @@ public static void Example(IDesignFace desFace) {
 			IDesignEdge desEdge = desEdgeMaster.GetOccurrence(desFace);
 		}
 }
+
 ```
 
 However, the general interfaces do provide some convenient connectivity traversals at the doc object level:
@@ -55,6 +56,7 @@ public static void Example(IDesignFace desFace) {
 		Debug.Assert(desEdge.Faces.Contains(desFace));
 	}
 }
+
 ```
 
 
