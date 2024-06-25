@@ -1,6 +1,6 @@
 - name: Introduction
   href: UDA/add_api/introduction/topics/disco_api_intro.md
-- name: Creating Add-in applications
+- name: Creating add-in applications
   href: UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md
   items:
   - name: Getting started
@@ -127,7 +127,7 @@
 - name: Changelog
   href: UDA/add_api/changelog/c_disco_api_addin_changelog.md
   items:
-  - name: V24.2
+  - name: Version 2024 R2
     href: UDA/add_api/changelog/V24-r2.md
 # -  name: Copyright and trademark information
   # href: shared/c_legal_frontmatter.md

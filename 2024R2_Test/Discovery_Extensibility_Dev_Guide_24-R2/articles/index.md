@@ -1,4 +1,4 @@
-# Discovery Extensibility and Add-ins developer guide
+# Discovery extensibility and add-ins developer guide
 
 -   [Introduction](UDA/add_api/introduction/topics/disco_api_intro.md)
 -   [Creating Add-in Applications](UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md)
