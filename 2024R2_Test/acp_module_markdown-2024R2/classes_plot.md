@@ -1218,17 +1218,17 @@ Text data is returned independent of update status of plot, but only if results 
 
 **Examples:**
 
-> Get text data for current ply-wise plot with visible scope set to element set “All_Elements” and with ply1 and ply2 selected:
+Get text data for current ply-wise plot with visible scope set to element set “All_Elements” and with ply1 and ply2 selected:
 
-> ```default
-> >>> text = my_plot.get_text(visible=db.active_model.element_sets['All_Elements'], selected=[ply1, ply2]).
-> ```
+```default
+>>> text = my_plot.get_text(visible=db.active_model.element_sets['All_Elements'], selected=[ply1, ply2]).
+```
 
-> Get textdata for current element-wise plot with visible scope equal to all objects visible in current scene:
+Get textdata for current element-wise plot with visible scope equal to all objects visible in current scene:
 
-> ```default
-> >>> text = my_plot.get_text(visible=db.active_model.active_scene.active_set.entities)
-> ```
+```default
+>>> text = my_plot.get_text(visible=db.active_model.active_scene.active_set.entities)
+```
 
 <a id="compolyx.plot_data.FailureData.serialize"></a>
 
