@@ -1,6 +1,6 @@
-# Introduction #2 (Chris edit #2)
+# Introduction C#3 D# (Chris edit #3)
 
-(Chris edit #2) Ansys Prime Mesh Python client library 2024 R2 is a modified version of the open source project PyPrimeMesh 0.6.0. Prime Mesh Python client library 2024 R2 is distributed with Ansys 2024 R2. 
+(Chris edit #3) Ansys Prime Mesh Python client library 2024 R2 is a modified version of the open source project PyPrimeMesh 0.6.0. Prime Mesh Python client library 2024 R2 is distributed with Ansys 2024 R2. 
 
 PyPrimeMesh is part of the [PyAnsys](https://docs.pyansys.com) effort to facilitate the use of Ansys technologies directlyfrom Python. PyPrimeMesh consists of various Python modules that help you to acquire geometry and prepare surface and volume meshes for multiple solvers. Its primary package is `ansys-meshing-prime`.
 
