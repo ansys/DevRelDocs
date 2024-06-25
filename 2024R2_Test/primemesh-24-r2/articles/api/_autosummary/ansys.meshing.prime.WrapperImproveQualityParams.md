@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # WrapperImproveQualityParams
 
 <a id="ansys.meshing.prime.WrapperImproveQualityParams"></a>

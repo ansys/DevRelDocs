@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # SearchBySelfIntersectionParams
 
 <a id="ansys.meshing.prime.SearchBySelfIntersectionParams"></a>

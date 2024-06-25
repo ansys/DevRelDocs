@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # OverlapPairs
 
 <a id="ansys.meshing.prime.OverlapPairs"></a>

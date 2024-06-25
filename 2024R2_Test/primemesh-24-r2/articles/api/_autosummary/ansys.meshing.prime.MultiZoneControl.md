@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # MultiZoneControl
 
 <a id="ansys.meshing.prime.MultiZoneControl"></a>

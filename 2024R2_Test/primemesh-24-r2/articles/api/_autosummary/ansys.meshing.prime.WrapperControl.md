@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # WrapperControl
 
 <a id="ansys.meshing.prime.WrapperControl"></a>

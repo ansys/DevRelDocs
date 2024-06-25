@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # IGASpline
 
 <a id="ansys.meshing.prime.IGASpline"></a>

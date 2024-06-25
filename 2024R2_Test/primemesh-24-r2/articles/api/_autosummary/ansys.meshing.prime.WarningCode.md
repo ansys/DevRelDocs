@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # WarningCode
 
 <a id="ansys.meshing.prime.WarningCode"></a>

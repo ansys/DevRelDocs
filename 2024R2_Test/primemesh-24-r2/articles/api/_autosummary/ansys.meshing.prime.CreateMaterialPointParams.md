@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # CreateMaterialPointParams
 
 <a id="ansys.meshing.prime.CreateMaterialPointParams"></a>

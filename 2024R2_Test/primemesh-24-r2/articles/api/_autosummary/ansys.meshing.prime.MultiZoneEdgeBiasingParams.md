@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # MultiZoneEdgeBiasingParams
 
 <a id="ansys.meshing.prime.MultiZoneEdgeBiasingParams"></a>

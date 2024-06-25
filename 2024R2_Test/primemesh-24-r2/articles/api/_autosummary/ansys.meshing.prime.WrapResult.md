@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # WrapResult
 
 <a id="ansys.meshing.prime.WrapResult"></a>

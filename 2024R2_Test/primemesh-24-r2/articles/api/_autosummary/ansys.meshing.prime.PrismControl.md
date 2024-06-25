@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # PrismControl
 
 <a id="ansys.meshing.prime.PrismControl"></a>

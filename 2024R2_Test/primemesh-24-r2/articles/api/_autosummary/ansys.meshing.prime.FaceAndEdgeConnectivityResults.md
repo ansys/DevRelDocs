@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # FaceAndEdgeConnectivityResults
 
 <a id="ansys.meshing.prime.FaceAndEdgeConnectivityResults"></a>

@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # ScopeEvaluationType
 
 <a id="ansys.meshing.prime.ScopeEvaluationType"></a>

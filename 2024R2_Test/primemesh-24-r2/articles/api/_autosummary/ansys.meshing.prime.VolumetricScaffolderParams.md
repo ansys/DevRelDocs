@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # VolumetricScaffolderParams
 
 <a id="ansys.meshing.prime.VolumetricScaffolderParams"></a>

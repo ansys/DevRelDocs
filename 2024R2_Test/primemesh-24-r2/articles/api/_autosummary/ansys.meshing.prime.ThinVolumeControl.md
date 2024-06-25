@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # ThinVolumeControl
 
 <a id="ansys.meshing.prime.ThinVolumeControl"></a>

@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # WrapperImproveResult
 
 <a id="ansys.meshing.prime.WrapperImproveResult"></a>

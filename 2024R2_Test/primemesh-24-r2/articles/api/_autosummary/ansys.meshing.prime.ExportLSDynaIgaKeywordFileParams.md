@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # ExportLSDynaIgaKeywordFileParams
 
 <a id="ansys.meshing.prime.ExportLSDynaIgaKeywordFileParams"></a>

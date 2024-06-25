@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # MaterialPointManager
 
 <a id="ansys.meshing.prime.MaterialPointManager"></a>

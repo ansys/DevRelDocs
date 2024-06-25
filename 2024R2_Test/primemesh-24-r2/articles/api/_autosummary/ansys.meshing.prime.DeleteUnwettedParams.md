@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # DeleteUnwettedParams
 
 <a id="ansys.meshing.prime.DeleteUnwettedParams"></a>

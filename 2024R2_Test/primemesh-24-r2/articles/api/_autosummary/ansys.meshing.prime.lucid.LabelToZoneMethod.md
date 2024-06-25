@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # LabelToZoneMethod
 
 <a id="ansys.meshing.prime.lucid.LabelToZoneMethod"></a>

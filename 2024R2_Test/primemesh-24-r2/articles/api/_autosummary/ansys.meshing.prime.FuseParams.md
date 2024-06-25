@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # FuseParams
 
 <a id="ansys.meshing.prime.FuseParams"></a>

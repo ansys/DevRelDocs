@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # ThinVolumeMeshParams
 
 <a id="ansys.meshing.prime.ThinVolumeMeshParams"></a>

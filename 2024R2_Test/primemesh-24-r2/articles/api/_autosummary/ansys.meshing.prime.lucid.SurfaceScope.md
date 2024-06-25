@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # SurfaceScope
 
 <a id="ansys.meshing.prime.lucid.SurfaceScope"></a>

@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # JoinSeparateMethod
 
 <a id="ansys.meshing.prime.JoinSeparateMethod"></a>

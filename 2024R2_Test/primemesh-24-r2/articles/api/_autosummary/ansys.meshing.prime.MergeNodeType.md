@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # MergeNodeType
 
 <a id="ansys.meshing.prime.MergeNodeType"></a>

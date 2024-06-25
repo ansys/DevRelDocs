@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # WriteSizeFieldParams
 
 <a id="ansys.meshing.prime.WriteSizeFieldParams"></a>

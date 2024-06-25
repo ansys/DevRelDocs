@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # AddLabelResults
 
 <a id="ansys.meshing.prime.AddLabelResults"></a>

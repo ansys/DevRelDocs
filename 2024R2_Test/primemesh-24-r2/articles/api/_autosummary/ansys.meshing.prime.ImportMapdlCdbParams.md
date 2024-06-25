@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # ImportMapdlCdbParams
 
 <a id="ansys.meshing.prime.ImportMapdlCdbParams"></a>

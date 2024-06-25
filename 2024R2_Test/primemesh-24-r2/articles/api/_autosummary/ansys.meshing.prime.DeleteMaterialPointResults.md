@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # DeleteMaterialPointResults
 
 <a id="ansys.meshing.prime.DeleteMaterialPointResults"></a>

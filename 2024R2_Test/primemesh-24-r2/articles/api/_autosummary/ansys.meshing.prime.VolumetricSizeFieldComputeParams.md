@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # VolumetricSizeFieldComputeParams
 
 <a id="ansys.meshing.prime.VolumetricSizeFieldComputeParams"></a>

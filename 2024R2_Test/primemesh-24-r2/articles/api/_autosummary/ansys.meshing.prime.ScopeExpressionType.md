@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # ScopeExpressionType
 
 <a id="ansys.meshing.prime.ScopeExpressionType"></a>

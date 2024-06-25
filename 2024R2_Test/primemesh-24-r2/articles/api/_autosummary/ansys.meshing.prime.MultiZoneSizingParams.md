@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # MultiZoneSizingParams
 
 <a id="ansys.meshing.prime.MultiZoneSizingParams"></a>

@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # ControlData
 
 <a id="ansys.meshing.prime.ControlData"></a>

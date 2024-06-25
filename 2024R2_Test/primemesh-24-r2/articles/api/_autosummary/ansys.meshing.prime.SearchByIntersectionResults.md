@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # SearchByIntersectionResults
 
 <a id="ansys.meshing.prime.SearchByIntersectionResults"></a>

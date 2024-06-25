@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # DeleteVolumesResults
 
 <a id="ansys.meshing.prime.DeleteVolumesResults"></a>

@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # LengthUnit
 
 <a id="ansys.meshing.prime.LengthUnit"></a>

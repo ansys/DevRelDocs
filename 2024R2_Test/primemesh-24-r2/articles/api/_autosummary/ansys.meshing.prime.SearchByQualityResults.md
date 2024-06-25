@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # SearchByQualityResults
 
 <a id="ansys.meshing.prime.SearchByQualityResults"></a>

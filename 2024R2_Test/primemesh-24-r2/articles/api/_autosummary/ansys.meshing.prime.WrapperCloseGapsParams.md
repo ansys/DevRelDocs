@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # WrapperCloseGapsParams
 
 <a id="ansys.meshing.prime.WrapperCloseGapsParams"></a>

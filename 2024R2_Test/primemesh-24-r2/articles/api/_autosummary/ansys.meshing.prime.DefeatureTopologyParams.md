@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # DefeatureTopologyParams
 
 <a id="ansys.meshing.prime.DefeatureTopologyParams"></a>

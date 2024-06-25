@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # ResolveIntersectionsParams
 
 <a id="ansys.meshing.prime.ResolveIntersectionsParams"></a>

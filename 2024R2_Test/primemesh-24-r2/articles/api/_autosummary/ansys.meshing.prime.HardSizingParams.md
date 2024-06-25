@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # HardSizingParams
 
 <a id="ansys.meshing.prime.HardSizingParams"></a>

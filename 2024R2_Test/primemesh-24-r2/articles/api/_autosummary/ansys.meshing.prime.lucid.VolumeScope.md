@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # VolumeScope
 
 <a id="ansys.meshing.prime.lucid.VolumeScope"></a>

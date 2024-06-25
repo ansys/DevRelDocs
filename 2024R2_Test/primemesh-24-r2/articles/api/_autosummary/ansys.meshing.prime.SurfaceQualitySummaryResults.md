@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # SurfaceQualitySummaryResults
 
 <a id="ansys.meshing.prime.SurfaceQualitySummaryResults"></a>

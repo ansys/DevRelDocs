@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # PartCreationType
 
 <a id="ansys.meshing.prime.PartCreationType"></a>

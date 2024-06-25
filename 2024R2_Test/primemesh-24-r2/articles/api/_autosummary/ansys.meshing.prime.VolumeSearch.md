@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # VolumeSearch
 
 <a id="ansys.meshing.prime.VolumeSearch"></a>

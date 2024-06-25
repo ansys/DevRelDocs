@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # CreateContactPatchResults
 
 <a id="ansys.meshing.prime.CreateContactPatchResults"></a>

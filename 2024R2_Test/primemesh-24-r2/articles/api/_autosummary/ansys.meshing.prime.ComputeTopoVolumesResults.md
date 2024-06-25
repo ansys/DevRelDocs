@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # ComputeTopoVolumesResults
 
 <a id="ansys.meshing.prime.ComputeTopoVolumesResults"></a>

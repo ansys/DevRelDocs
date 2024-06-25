@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # PeriodicControlSummaryResult
 
 <a id="ansys.meshing.prime.PeriodicControlSummaryResult"></a>

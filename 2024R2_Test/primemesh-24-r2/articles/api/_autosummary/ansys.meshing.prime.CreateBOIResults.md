@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # CreateBOIResults
 
 <a id="ansys.meshing.prime.CreateBOIResults"></a>

@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # SetContactPreventionsResults
 
 <a id="ansys.meshing.prime.SetContactPreventionsResults"></a>

@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # WrapperPatchFlowRegionsParams
 
 <a id="ansys.meshing.prime.WrapperPatchFlowRegionsParams"></a>

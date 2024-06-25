@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # HexCoreParams
 
 <a id="ansys.meshing.prime.HexCoreParams"></a>

@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # MatchMorphResults
 
 <a id="ansys.meshing.prime.MatchMorphResults"></a>

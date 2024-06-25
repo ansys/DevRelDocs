@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # Model
 
 <a id="ansys.meshing.prime.Model"></a>

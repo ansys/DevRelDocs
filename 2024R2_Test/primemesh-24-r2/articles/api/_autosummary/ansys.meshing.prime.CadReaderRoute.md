@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # CadReaderRoute
 
 <a id="ansys.meshing.prime.CadReaderRoute"></a>

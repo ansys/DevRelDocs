@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # DeleteFringesAndOverlapsResults
 
 <a id="ansys.meshing.prime.DeleteFringesAndOverlapsResults"></a>

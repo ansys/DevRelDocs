@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # CheckMeshParams
 
 <a id="ansys.meshing.prime.CheckMeshParams"></a>

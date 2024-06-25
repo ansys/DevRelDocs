@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # MergeBoundaryNodesResults
 
 <a id="ansys.meshing.prime.MergeBoundaryNodesResults"></a>

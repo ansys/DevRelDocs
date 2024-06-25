@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # Wrapper
 
 <a id="ansys.meshing.prime.Wrapper"></a>

@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # SFPeriodicParams
 
 <a id="ansys.meshing.prime.SFPeriodicParams"></a>

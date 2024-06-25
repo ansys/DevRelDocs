@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # MergePartsParams
 
 <a id="ansys.meshing.prime.MergePartsParams"></a>

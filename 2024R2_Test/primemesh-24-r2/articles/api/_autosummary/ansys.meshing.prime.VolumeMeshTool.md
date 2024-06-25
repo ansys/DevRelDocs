@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # VolumeMeshTool
 
 <a id="ansys.meshing.prime.VolumeMeshTool"></a>

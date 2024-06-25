@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # PrismStairStep
 
 <a id="ansys.meshing.prime.PrismStairStep"></a>

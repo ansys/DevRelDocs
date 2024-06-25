@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # DetectCircularHolesParams
 
 <a id="ansys.meshing.prime.DetectCircularHolesParams"></a>

@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # VTComposer
 
 <a id="ansys.meshing.prime.VTComposer"></a>

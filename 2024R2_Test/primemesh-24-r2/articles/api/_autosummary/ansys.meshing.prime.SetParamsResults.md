@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # SetParamsResults
 
 <a id="ansys.meshing.prime.SetParamsResults"></a>

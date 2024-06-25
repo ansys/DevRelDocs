@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # GlobalSizingParams
 
 <a id="ansys.meshing.prime.GlobalSizingParams"></a>

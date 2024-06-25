@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # TopoData
 
 <a id="ansys.meshing.prime.TopoData"></a>

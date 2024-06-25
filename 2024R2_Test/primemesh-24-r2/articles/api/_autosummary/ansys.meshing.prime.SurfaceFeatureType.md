@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # SurfaceFeatureType
 
 <a id="ansys.meshing.prime.SurfaceFeatureType"></a>

@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # MorphBCParams
 
 <a id="ansys.meshing.prime.MorphBCParams"></a>

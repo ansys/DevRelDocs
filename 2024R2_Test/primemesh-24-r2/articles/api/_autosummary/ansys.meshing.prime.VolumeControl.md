@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # VolumeControl
 
 <a id="ansys.meshing.prime.VolumeControl"></a>

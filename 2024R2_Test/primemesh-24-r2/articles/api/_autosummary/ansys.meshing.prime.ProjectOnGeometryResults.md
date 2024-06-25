@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # ProjectOnGeometryResults
 
 <a id="ansys.meshing.prime.ProjectOnGeometryResults"></a>

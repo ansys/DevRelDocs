@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # SearchInfoByRegisterIdResults
 
 <a id="ansys.meshing.prime.SearchInfoByRegisterIdResults"></a>

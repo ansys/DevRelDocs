@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # ExtractTopoVolumesResults
 
 <a id="ansys.meshing.prime.ExtractTopoVolumesResults"></a>

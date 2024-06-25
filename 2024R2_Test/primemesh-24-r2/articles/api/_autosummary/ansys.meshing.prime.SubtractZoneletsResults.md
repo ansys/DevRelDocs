@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # SubtractZoneletsResults
 
 <a id="ansys.meshing.prime.SubtractZoneletsResults"></a>

@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # TransformResults
 
 <a id="ansys.meshing.prime.TransformResults"></a>
