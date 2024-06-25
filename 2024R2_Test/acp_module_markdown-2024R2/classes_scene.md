@@ -68,7 +68,7 @@ Logo type: default or black.
 
 #### *property* mode
 
-Current ACP mode, ACP (Pre) or ACP (Post) - UNSUPPORTED.
+Current ACP mode, Pre or Post.
 
 <a id="compolyx.Scene.projection"></a>
 
