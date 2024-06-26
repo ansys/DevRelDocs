@@ -1,4 +1,4 @@
-# Introduction to Motion Standalone Preprocessor C#&nbsp Library
+# Introduction to Motion Standalone Preprocessor C#&nbsp; Library
 
 The Ansys Motion Standalone Preprocessor C# Library provides a class library for users who want to automate modeling in Ansys Motion Standalone Preprocessor.
 
