@@ -1,4 +1,4 @@
-# Creating a C\# add-in
+# Creating a C%23 add-in
 
 The steps below describe how to create a Discovery C\# add-in.
 
