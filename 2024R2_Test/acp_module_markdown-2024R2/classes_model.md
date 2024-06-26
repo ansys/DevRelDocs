@@ -627,7 +627,7 @@ Create new Sampling Point.
   - rosette: Rosette used for the evaluation of the reference direction.
   - offset_is_middle: Specifies the offset of the reference plane used for the CLT analyses.
   - consider_coupling_effect: Specifies whether the laminate properties are evaluated considering the coupling effect (B matrix) or not.
-  - solution_set: Specifies the solution and the set of the element-wise post-processing. Note, this must be given as a tuple.
+  - solution_set: Specifies the solution and the set of the element-wise postprocessing. Note, this must be given as a tuple.
 * **Returns:**
   The created Sampling Point.
 
@@ -863,14 +863,14 @@ Exports all ACP composite defintions.
 
 Export layup to Composite CAE HDF5 file.
 
-> * **Parameters:**
->   - path: Save path of the h5 file.
->   - remove_midside_nodes: Whether midside nodes should be exported or not.
->   - layup_representation_3d: Whether to compute the 3D lay-up representation of the model. See note.
->   - offset_type: Specifies the ply surface to export. Can be ``bottom_offset``, ``middle_offset``, or ``top_offset``.
->   - element_sets: A list of Element Sets and/or Oriented Selection Sets. Only plies defined over the selected elements will be exported. If empty list or None, all elements will be considered.
->   - modeling_plies: A list of Modeling Plies and/or Modeling Groups. If empty list or None, all modeling plies will be exported
->   - ascii_encoding: If True, set the HDF5 data type for strings to H5T_CSET_ASCII. Note that the string contents will be UTF-8 encoded regardless of this setting, which means the content will only be well-defined ASCII if the ACP object names do not contain unicode characters outside the ASCII range. This option is added for compatibility with readers which may not support the H5T_CSET_UTF8 data type.
+* **Parameters:**
+  - path: Save path of the h5 file.
+  - remove_midside_nodes: Whether midside nodes should be exported or not.
+  - layup_representation_3d: Whether to compute the 3D lay-up representation of the model. See note.
+  - offset_type: Specifies the ply surface to export. Can be ``bottom_offset``, ``middle_offset``, or ``top_offset``.
+  - element_sets: A list of Element Sets and/or Oriented Selection Sets. Only plies defined over the selected elements will be exported. If empty list or None, all elements will be considered.
+  - modeling_plies: A list of Modeling Plies and/or Modeling Groups. If empty list or None, all modeling plies will be exported
+  - ascii_encoding: If True, set the HDF5 data type for strings to H5T_CSET_ASCII. Note that the string contents will be UTF-8 encoded regardless of this setting, which means the content will only be well-defined ASCII if the ACP object names do not contain unicode characters outside the ASCII range. This option is added for compatibility with readers which may not support the H5T_CSET_UTF8 data type.
 
 Note about layup_representation_3d: the 3D lay-up representation contains the offset ply surfaces where
 the bottom offset of each ply is exported. The computation can take a while depending on the model size
@@ -884,8 +884,8 @@ This can be resolved by exporting sub-parts (element sets).
 Save composite definitions to HDF5 file.
 Function is mainly used to exchange composite definitions with ANSYS Workbench.
 
-> * **Parameters:**
->   - path: Save path of the h5 file
+* **Parameters:**
+  - path: Save path of the h5 file
 
 <a id="compolyx.Model.export_ply_geometries"></a>
 
@@ -1282,8 +1282,8 @@ Save ACP model to .acph5 file.
 
 Save actual analysis model to disc.
 
-> * **Parameters:**
->   - path Save path of the cdb file.
+* **Parameters:**
+  - path: Save path of the cdb file.
 
 <a id="compolyx.Model.save_apdl_commands"></a>
 
@@ -1291,8 +1291,8 @@ Save actual analysis model to disc.
 
 Save APDL commands for composite definitions of actual model.
 
-> * **Parameters:**
->   - path Save path of the cdb file.
+* **Parameters:**
+  - path: Save path of the cdb file.
 
 <a id="compolyx.Model.save_h5"></a>
 
@@ -1654,11 +1654,15 @@ Serialize to Python string.
 
 Sets dir2 orthogonal to dir1 as y- and x-axis.
 
+- **Warning:** This function is deprecated and will be removed in Release 2025 R1.
+
 <a id="compolyx.Rosette.set_Xz"></a>
 
 #### set_Xz()
 
 Sets dir2 orthogonal to dir1 as z- and x-axis.
+
+- **Warning:** This function is deprecated and will be removed in Release 2025 R1.
 
 <a id="compolyx.Rosette.set_Yz"></a>
 
@@ -1666,11 +1670,15 @@ Sets dir2 orthogonal to dir1 as z- and x-axis.
 
 Sets dir2 orthogonal to dir1 as z- and y-axis.
 
+- **Warning:** This function is deprecated and will be removed in Release 2025 R1.
+
 <a id="compolyx.Rosette.set_xY"></a>
 
 #### set_xY()
 
 Sets dir1 orthogonal to dir2 as x- and y-axis.
+
+- **Warning:** This function is deprecated and will be removed in Release 2025 R1.
 
 <a id="compolyx.Rosette.set_xZ"></a>
 
@@ -1678,11 +1686,15 @@ Sets dir1 orthogonal to dir2 as x- and y-axis.
 
 Sets dir1 orthogonal to dir2 as x- and z-axis.
 
+- **Warning:** This function is deprecated and will be removed in Release 2025 R1.
+
 <a id="compolyx.Rosette.set_yZ"></a>
 
 #### set_yZ()
 
 Sets dir1 orthogonal to dir2 as y- and z-axis.
+
+- **Warning:** This function is deprecated and will be removed in Release 2025 R1.
 
 <a id="lookuptable"></a>
 
@@ -1871,7 +1883,7 @@ Removes duplicate supporting points from the table.
 :return: Number of removed points.
 
 * **Example:**
-  >> db.models[‘plate’].lookup_tables[‘LookUpTable3D_scalar’].remove_duplicate_points()
+  db.models[‘plate’].lookup_tables[‘LookUpTable3D_scalar’].remove_duplicate_points()
 
 <a id="compolyx.LookUpTable3D.search_radius"></a>
 
@@ -2437,7 +2449,7 @@ Add Selection Rule to Boolean Selection rule.
   - operation_type: Boolean operation type (intersect, add, remove).
 
 * **Example:**
->>> boolean_rule.add_rule(rule=model.selection_rules[‘ParallelRule.1’],template_rule=True, rule_values=(-20.0, 50.0), operation_type=’intersect’).
+  boolean_rule.add_rule(rule=model.selection_rules[‘ParallelRule.1’],template_rule=True, rule_values=(-20.0, 50.0), operation_type=’intersect’).
 
 <a id="compolyx.BooleanSelectionRule.selection_rules"></a>
 
@@ -4417,7 +4429,7 @@ Class to represent an imported modeling ply.
 
 #### *property* active_in_post_mode
 
-Whether ply is active in ACP (Post) - UNSUPPORTED.
+Whether ply is active in ACP (Post).
 
 <a id="compolyx.ImportedAnalysisPly.angle"></a>
 
@@ -4721,30 +4733,26 @@ Status boolean. Set to true if the underlying data has been changed. Write only 
 
 #### compute_equivalent_beam_properties(check_status=True)
 
-> Compute the equivalent beam properties of the section cut.
+Compute the equivalent beam properties of the section cut.
 
-> The section is exported to MAPDL and solved based on G.L.Ghiringhelli’s paper
-> ‘LINEAR, STRAIGHT AND UNTWISTED ANISOTROPIC BEAM SECTION PROPERTIES
-> FROM SOLID FINITE ELEMENTS’. For more details, see ACP documentation.
+The section is exported to MAPDL and solved based on G.L.Ghiringhelli’s paper
+‘LINEAR, STRAIGHT AND UNTWISTED ANISOTROPIC BEAM SECTION PROPERTIES
+FROM SOLID FINITE ELEMENTS’. For more details, see ACP documentation.
 
-> * **Parameters:**
->   - check_status: Set to true to throw an exception if the computation failed. Otherwise, use SectionalAnalysisOutputs.status to check if the computation failed.
+* **Parameters:**
+  - check_status: Set to true to throw an exception if the computation failed. Otherwise, use SectionalAnalysisOutputs.status to check if the computation failed.
 
-> Returns SectionalAnalysisOutputs. The equivalent beam properties are stored under properties.
+Returns SectionalAnalysisOutputs. The equivalent beam properties are stored under properties.
 
-> Usage:
-> >>> result = section_cut.compute_equivalent_beam_properties(check_status=False)
-> >>> if result.status == “completed”:
-> >>>     print(result.properties)
-> >>> else:
-> >>>     print(f”MAPDL output:
-
-{result.mapdl_out_file}”)
+* **Usage:**
 ```pycon
-  >>>     print(f"Result file:
-  ```
-
-{result.sectional_result_file}”)
+  >>> result = section_cut.compute_equivalent_beam_properties(check_status=False)
+  >>> if result.status == “completed”:
+  >>>     print(result.properties)
+  >>> else:
+  >>>     print(f”MAPDL output:\n{result.mapdl_out_file}”)
+  >>>     print(f"Result file:\n{result.sectional_result_file}”)
+```
 
 <a id="compolyx.SectionCut.core_scale_factor"></a>
 
@@ -4832,7 +4840,9 @@ Transforms global coordinates into the local coordinate system of the section cu
   - global_coords: The global coordinates (x, y, z) to be transformed.
 
 * **Example:**
-  >> section_cut.from_global_to_local((2.3, 1.2, 4.3)).
+  ```pycon
+  >>> section_cut.from_global_to_local((2.3, 1.2, 4.3)).
+  ``` 
 
 <a id="compolyx.SectionCut.from_local_to_global"></a>
 
