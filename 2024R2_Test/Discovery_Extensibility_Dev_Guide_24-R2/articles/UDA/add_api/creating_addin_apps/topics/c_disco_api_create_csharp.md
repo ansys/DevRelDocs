@@ -1,10 +1,10 @@
-# Creating a C%23 add-in
+# Creating a C#&nbsp; add-in
 
 The steps below describe how to create a Discovery C\# add-in.
 
 ## Creating the add-In Visual Studio project
 
-1.  In Microsoft Visual Studio, create a new C\# Class Library project.
+1.  In Microsoft Visual Studio, create a new F Class Library project.
 
 2.  Add a reference to the API assemblies. Use the Add Reference command in Visual Studio, go to the Browse tab, and locate the API assemblies.
 
