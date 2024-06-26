@@ -1,11 +1,11 @@
 - name: Introduction
-  href: s01s02.md
-- name: IronPython References
+  href: intro.md
+- name: IronPython references
   href: iron-python-references.md
-- name: The Rigid Dynamics Object Model
-  href: s01s02s02.md
-- name: Rigid Dynamics Command Objects Library
-  href: s01s02s03.md
+- name: The Rigid Dynamics object model
+  href: rbd-object-model.md
+- name: Rigid Dynamics command objects library
+  href: rbd-command-library.md
   items:
   - name: Actuator
     href: actuator.md
@@ -31,7 +31,7 @@
     href: driver.md
   - name: Enviroment
     href: environment.md
-  - name: Flexible Body
+  - name: FlexibleBody
     href: flexiblebody.md
   - name: GILTable
     href: giltable.md
@@ -63,27 +63,27 @@
     href: usertable.md
   - name: Variable
     href: variable.md
-- name: Command Use Examples
-  href: s01s02s04.md
+- name: Command use examples
+  href: command-use.md
   items:
-  - name: Constraint Equation
+  - name: Constraint equation
     href: constraint-equation.md
-  - name: Joint Condition - Initial Velocity
+  - name: Joint condition - initial velocity
     href: jc-initial-velocity.md
-  - name: Joint Condition - Control Using Linear Feedback
+  - name: Joint condition - control using linear feedback
     href: jc-linear-feedback.md
-  - name: Non-linear Spring Damper
+  - name: Non-linear spring damper
     href: non-linear-spring.md
-  - name: Spherical Stop
+  - name: Spherical stop
     href: spherical-stop.md
-  - name: Export of Joint Forces
+  - name: Export of joint forces
     href: export-joint-forces.md
-  - name: Breakable Joint
+  - name: Breakable joint
     href: breakable-joint.md
-- name: Debugging RBD Commands with Visual Studio
-  href: s01s02s05.md
-- name: Using RBD Commands with Excel
-  href: s01s02s06.md
-- name: Using RBD Commands from the IronPython Console
-  href: s01s02s07.md
+- name: Debugging RBD commands with Visual Studio
+  href: debugging-vs.md
+- name: Using RBD commands with Excel
+  href: using-commands-excel.md
+- name: Using RBD commands from the IronPython console
+  href: using-commands-console.md
 

@@ -1,4 +1,4 @@
-# Using RBD Commands with Excel
+# Using RBD commands with Excel
 
 It is possible to call Microsoft Office Excel from an RBD command to read and
 write data to and from Excel. If Excel is available, RBD will automatically

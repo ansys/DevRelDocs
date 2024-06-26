@@ -1,6 +1,6 @@
-# Using RBD Commands from the IronPython Console
+# Using RBD commands from the IronPython console
 
-It is possible to use any rigid body dynamics commands you would use during a
+It is possible to use any RBD commands you would use during a
 simulation from the IronPython console, outside of the simulation environment.
 The following command snippets and instructions provide a demonstration of
 this capability:
@@ -8,7 +8,7 @@ this capability:
 You can access the IronPython console by clicking the File > Scripting > Open
 Command Window menu item.
 
-The following code snippets load the RBD Command module into IronPython:
+The following code snippets load the RBD command module into IronPython:
 
     import clr
     import os

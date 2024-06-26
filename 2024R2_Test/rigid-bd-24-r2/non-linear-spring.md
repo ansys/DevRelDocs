@@ -1,4 +1,4 @@
-# Non-linear Spring Damper
+# Non-linear spring damper
 
 This example shows how the behavior of a spring can be altered to introduce a
 non-linear force-displacement relationship. The complete list of commands is
@@ -10,7 +10,7 @@ shown below. A description of these commands follows.
 
     Spring=CS_Actuator.Find(_sid)
 
-  1. Create an array of real values and fill it with the pairs of values (elongation, force):
+  2. Create an array of real values and fill it with the pairs of values (elongation, force):
 
     Spring_table=System.Array.CreateInstance(float,7,2)
 
@@ -40,7 +40,7 @@ shown below. A description of these commands follows.
 
 In this command, `7` represents the number of rows and `2` for the number of
 columns. The first column gives elongation and the second, the corresponding
-force value. This command generates a PointsTable  assigned to the spring, as
+force value. This command generates a [PointsTable](pointstable.md)  assigned to the spring, as
 shown below.
 
 ![points table plot](./images/gds_cmdref_ex_damper_plot.jpg)
@@ -51,6 +51,6 @@ on a given spring, as shown below.
 
 ![spring and damper combination](./images/gds_cmdref_ex_damper_win2.jpg)
 
-  1. Introduce a table is to define a non-linear force velocity relation:
+  3. Introduce a table to define a non-linear force velocity relation:
   
     Damper=spring.GetDamper()
