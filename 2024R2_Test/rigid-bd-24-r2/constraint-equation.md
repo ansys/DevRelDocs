@@ -23,26 +23,34 @@ commands is shown below. A description of these commands follows.
 
 ![defining relationship](./images/gds_cmdref_ex_constraint3.jpg)
 
-  1. A relation object is created and specified as a relation between velocities:
+1. A relation object is created and specified as a relation between velocities:
 
-    rel=CS_Relation()
-    rel.MotionType=CS_Relation.E_MotionType.E_Velocity
+```
+rel=CS_Relation()
+rel.MotionType=CS_Relation.E_MotionType.E_Velocity
+```
 
-  2. The constant coefficients that appear in the relation are created. The first constant term is created by:
+2. The constant coefficients that appear in the relation are created. The first constant term is created by:
 
-    var1=CS_ConstantVariable()
-    var1.SetConstantValues(System.Array[float]([1.]))
+```
+var1=CS_ConstantVariable()
+var1.SetConstantValues(System.Array[float]([1.]))
+```
 
-  3. The second coefficient and constant right hand side are created by: 
+3. The second coefficient and constant right hand side are created by: 
 
-    var2=CS_ConstantVariable()
-    var2.SetConstantValues(System.Array[float]([-2.]))
-    varrhs=CS_ConstantVariable()
-    varrhs.SetConstantValues(System.Array[float]([0.]))
+```
+var2=CS_ConstantVariable()
+var2.SetConstantValues(System.Array[float]([-2.]))
+varrhs=CS_ConstantVariable()
+varrhs.SetConstantValues(System.Array[float]([0.]))
+```
 
-  4. The first term of relation (1) X ω_1 is added to the relation object:
+4. The first term of relation (1) X ω_1 is added to the relation object:
 
-    rel.AddTerm(j1id,0,var1)
+```
+rel.AddTerm(j1id,0,var1)
+```
 
 The first argument is the joint object. The second argument defines the DOF
 (degrees of freedom) of the joint that are involved in the relation. Here, `0`
@@ -51,10 +59,14 @@ rotation.
 
   5. The second term and right hand side are introduced in the same manner:
 
+```
     rel.AddTerm(j2id,0,var2)
     rel.SetVariable (varrhs)
+```
 
   6. The relation is added to the list of relations:
 
+```
     Env=CS_Environment.GetDefault()
     Env.Relations.Add(rel)
+```
