@@ -1,7 +1,7 @@
 # Measure
 
 Most useful measures are pre-existing in the Rigid Dynamics model, and can be
-accessed using other object "get" functions. Additional measures can be
+accessed using other object get functions. Additional measures can be
 created before solving for use in custom post-processing or as input values
 for joint conditions. For example, measures can be created to express
 conditions. In this case, the measure must be added to the system to be

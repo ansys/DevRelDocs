@@ -1,7 +1,7 @@
 # Export of joint forces
 
 In this example joint forces are extracted in the local coordinate system,
-rotated into the global coordinate system, and written into an ASCII File
+rotated into the global coordinate system, and written into an ASCII File.
 
 First, the joint is retrieved by inserting the following command on the
 corresponding joint in the tree:
@@ -17,31 +17,31 @@ explanation of these commands follows.
   
     TopRevoluteRotation = TopRevolute.GetRotation()
 
-  1. Extract transient values for this measure:
+  2. Extract transient values for this measure:
   
     TopRevoluteRotationValues=TopRevoluteRotation.FillValuesThroughTime()
 
-  1. Get angle derivatives by extracting the time derivatives of the measure:
+  3. Get angle derivatives by extracting the time derivatives of the measure:
   
     TopRevoluteRotationDerivatives=TopRevoluteRotation.FillDerivativesThroughTime()
 
-  1. Count the number of components of this array:
+  4. Count the number of components of this array:
   
     nbValues = TopRevoluteRotationValues.GetLength(0)
 
-  1. Open the ASCII output file:
+  5. Open the ASCII output file:
   
     fich=open(r"TopRevoluteRotation.csv",'w')
     fich.write('Time,Rotation,Velocity\n')
 
-  1. Loop over all time values, and write values:
+  6. Loop over all time values, and write values:
   
     for i in range(0,nbValues):
      fich.write('{0:4.3f},{1:11.4e},{2:11.4e}\n'.format(TopRevoluteRotationValues[i,0],
      TopRevoluteRotationValues[i,1],TopRevoluteRotationDerivatives[i,1])) 
     fich.close() 
 
-  1. Check if joint is « revert » or not:
+  7. Check if joint is « revert » or not:
 
     IsRevert = TopRevolute.IsRevert 
     if IsRevert: 
@@ -49,7 +49,7 @@ explanation of these commands follows.
     else: 
      fact = 1.0 
 
-  1. Extract Force Measure and write them into the file:
+  8. Extract force measurements and write them to the file:
   
     TopRevoluteForce = TopRevolute.GetForce() 
     TRF=TopRevoluteForce.FillValuesThroughTime() 
@@ -62,7 +62,7 @@ explanation of these commands follows.
     
     fich.close() 
 
-  1. Get the joint reference coordinate system, and rotate the forces from the global coordinate system to the joint coordinate system:
+  9. Get the joint reference coordinate system, and rotate the forces from the global coordinate system to the joint coordinate system:
   
     if IsRevert:
      TopRevolute.MobileCoordinateSystem.RotateArrayThroughTimeToLocal(TRF)

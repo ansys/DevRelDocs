@@ -1,12 +1,12 @@
-# Rigid Dynamics Command Objects Library
+# Rigid Dynamics command objects library
 
 The following Rigid Dynamics command objects are available:
 
 [Actuator](actuator.md)  
 [Basis](basis.md)  
 [Body](body.md)  
-[Body Coordinate System](bodycoordinatesystem.md)  
-[Body Load](bodyload.md)  
+[BodyCoordinateSystem](bodycoordinatesystem.md)  
+[BodyLoad](bodyload.md)  
 [CMSBody](cmsbody.md)  
 [Condition](condition.md)  
 [Contact](contact.md)  
@@ -14,7 +14,7 @@ The following Rigid Dynamics command objects are available:
 [ContactOptions](contactoptions.md)  
 [Driver](driver.md)  
 [Environment](environment.md)  
-[Flexible Body](flexiblebody.md)  
+[FlexibleBody](flexiblebody.md)  
 [GILTable](giltable.md)  
 [Joint](joint.md)  
 [JointDOFLoad](jointdofload.md)  

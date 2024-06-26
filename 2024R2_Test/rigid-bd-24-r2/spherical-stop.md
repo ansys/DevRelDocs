@@ -1,4 +1,4 @@
-# Spherical Stop
+# Spherical stop
 
 This example describes the implementation of a spherical stop. A spherical
 stop is a joint that has 3 rotations (joints include spherical, slot, bushing,

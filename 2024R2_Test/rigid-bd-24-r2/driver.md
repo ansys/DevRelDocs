@@ -1,7 +1,7 @@
 # Driver
 
 A driver is a position, velocity or acceleration, or translational or
-rotational joint condition. Drivers derive from the Actuator class.
+rotational joint condition. Drivers derive from the [Actuator](actuator.md) class.
 
 Corresponding ID table: `CS_Actuator`
 

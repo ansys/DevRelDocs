@@ -1,7 +1,7 @@
-# Joint Condition: Control Using Linear Feedback
+# Joint condition: control using linear feedback
 
 In this example, an existing load is modified to apply a torque proportional
-to the joint velocity. Two Methods are discussed:
+to the joint velocity. Two methods are discussed:
 
 ### Method 1
 

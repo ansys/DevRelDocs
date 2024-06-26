@@ -1,4 +1,4 @@
-# The Rigid Dynamics Object Model
+# The Rigid Dynamics object model
 
 In the Rigid Dynamics object-based approach, the Environment is the top level
 object that allows access to all other underlying objects. The environment is
