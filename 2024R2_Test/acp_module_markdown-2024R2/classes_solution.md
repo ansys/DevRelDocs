@@ -53,7 +53,7 @@ Resets the failure criteria results for each layered element.
 
 #### *property* enabled
 
-Defines whether this object is currently enabled. Mainly defined through the current application mode, ACP (Pre) or ACP (Post) - UNSUPPORTED.
+Defines whether this object is currently enabled. Mainly defined through the current application mode, ACP (Pre) or (Post).
 
 <a id="compolyx.Solution.export_results_to_csv"></a>
 
@@ -138,7 +138,7 @@ Container with PostProcessing Plots.
 Query results from the solution.
 
 * **Parameters:**
-  - definition: The postproc definition defines what results are evaluated. Can be given as
+  - definition: The postprocessing definition defines what results are evaluated. Can be given as
     CombinedFailureCriteria object or as string such as
     ‘strains’, ‘stresses’, ‘laminate_forces’, ‘deformations’, ‘temperatures’, or ‘progressive_damage’.
   - options: Dict with the additional options used to fully configure the definition.
@@ -241,7 +241,7 @@ True if the stresses and strains are to be computed by felyx. If the stresses an
 
 #### *property* use_solid_results
 
-Allows to visualize the post-processing results of layered solid models on the ‘Layered Solid Reference Surface’.
+Allows to visualize the postprocessing results of layered solid models on the ‘Layered Solid Reference Surface’.
 
 <a id="envelopesolution"></a>
 
@@ -271,7 +271,7 @@ Clear Solution Sets of Envelope Solution.
 
 #### *property* enabled
 
-Whether this object is currently enabled or not. Mainly defined through the current application mode, ACP (Pre) or ACP (Post) - UNSUPPORTED.
+Whether this object is currently enabled or not. Mainly defined through the current application mode, ACP (Pre) or (Post).
 
 <a id="compolyx.EnvelopeSolution.remove_solution_set"></a>
 
