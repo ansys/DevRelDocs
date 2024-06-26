@@ -100,19 +100,19 @@ Container with PostProcessing Plots.
 Query results from the solution.
 
 * **Parameters:**
-  - definition : The postproc definition defines what results are evaluated. Can be given as
+  - definition: The postproc definition defines what results are evaluated. Can be given as
     CombinedFailureCriteria object or as string such as
     ‘strains’, ‘stresses’, ‘laminate_forces’, ‘deformations’, ‘temperatures’ or ‘progressive_damage’.
-  - options : Dict with the additional options used to fully configure the definition.
+  - options: Dict with the additional options used to fully configure the definition.
     - stresses: options={“eval_ins”:True} to enable the interlaminar normal stress evaluation for shells.
-  - position : Position where data is queried:
+  - position: Position where data is queried:
     - nodal, centroid, element_nodal, integration_point or element_results.
-  - selection : The selection set determines the selected nodes and elements.
+  - selection: The selection set determines the selected nodes and elements.
     Can be given as string ‘sel0’ - ‘sel5’ or ‘all’,
     or can be given as ObjectSelection object such as model.selection or scene.active_set.
-  - entity :  Entity for which results are evaluated.
+  - entity:  Entity for which results are evaluated.
     Currently supported: Analysis ply or analysis ply vertex.
-  - entities : If a list of entities is given, the query will also compute and return a list of results, with one array for each entity.
+  - entities: If a list of entities is given, the query will also compute and return a list of results, with one array for each entity.
   - spot: Used to identify bot, mid or top when querying layered shells.
   - component: Components to query. Valid components for
     - DEFORMATION
@@ -134,10 +134,10 @@ Query results from the solution.
       - status (damage status), ft, fc (fiber tensile/compressive) ->(nx1).
       - mt, mc (matrix tensile/compressive), s (shear) ->(nx1).
       - sed (energy dissipated per unit volume), sedv (energy per unit volume due to viscous damping) ->(nx1).
-  - rosette : If a rosette is given, the results are evaluated with respect to this coordinate system (not recommended for non-linear results).
-  - simulate : Whether the query is only simulated to test if it will return data.
+  - rosette: If a rosette is given, the results are evaluated with respect to this coordinate system (not recommended for non-linear results).
+  - simulate: Whether the query is only simulated to test if it will return data.
     If this flag is set the query(…) function will only return 0 or 1.
-  - solution_set : Identifier of the queried solution. -1 identifies the last available Set.
+  - solution_set: Identifier of the queried solution. -1 identifies the last available Set.
 * **Usage:**
   ```pycon
   >>> solution.query(definition='laminate_forces',position='centroid',selection='sel0',component='all',rosette=model.rosetttes['Rosette.1'],solution_set=-1)
