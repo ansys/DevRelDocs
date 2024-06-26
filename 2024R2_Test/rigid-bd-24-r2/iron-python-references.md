@@ -1,4 +1,4 @@
-# IronPython References
+# IronPython references
 
 Rigid Dynamics uses an object-based approach, so it is useful to have
 experience with object oriented programming and the Python language when
