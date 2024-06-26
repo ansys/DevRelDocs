@@ -28,19 +28,19 @@ commands is shown below. A description of these commands follows.
     rel=CS_Relation()
     rel.MotionType=CS_Relation.E_MotionType.E_Velocity
 
-  1. The constant coefficients that appear in the relation are created. The first constant term is created by:
+  2. The constant coefficients that appear in the relation are created. The first constant term is created by:
 
     var1=CS_ConstantVariable()
     var1.SetConstantValues(System.Array[float]([1.]))
 
-  1. The second coefficient and constant right hand side are created by: 
+  3. The second coefficient and constant right hand side are created by: 
 
     var2=CS_ConstantVariable()
     var2.SetConstantValues(System.Array[float]([-2.]))
     varrhs=CS_ConstantVariable()
     varrhs.SetConstantValues(System.Array[float]([0.]))
 
-  1. The first term of relation (1) X ω_1 is added to the relation object:
+  4. The first term of relation (1) X ω_1 is added to the relation object:
 
     rel.AddTerm(j1id,0,var1)
 
@@ -54,7 +54,7 @@ rotation.
     rel.AddTerm(j2id,0,var2)
     rel.SetVariable (varrhs)
 
-  1. The relation is added to the list of relations:
+  2. The relation is added to the list of relations:
 
     Env=CS_Environment.GetDefault()
     Env.Relations.Add(rel)
