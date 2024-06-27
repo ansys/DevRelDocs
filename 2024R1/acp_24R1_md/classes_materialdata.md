@@ -11,11 +11,11 @@ MaterialData manages all composite material data.
 Copy a list of material data source, keeps track of all dependencies.
 
 * **Parameters:**
-  - source : A list of source of copy.
-  - on_duplicate_name : Action to take if source.name is already contained in self.fabrics.
-    - keep_both : Create a new instance with the same name (different id).
-    - overwrite : Replace first instance with equal name in self with source.
-    - keep_existing : Ignore copy action, returns first existing instance in self with equal name.
+  - source: A list of source of copy.
+  - on_duplicate_name: Action to take if source.name is already contained in self.fabrics.
+    - keep_both: Create a new instance with the same name (different ID).
+    - overwrite: Replace first instance with equal name in self with source.
+    - keep_existing: Ignore copy action, returns first existing instance in self with equal name.
 
 #### copy_fabric(source, on_duplicate_name='keep_both', memo=None)
 
@@ -23,11 +23,11 @@ Copy a fabric
 
 * **Parameters:**
   - source: Source object to copy.
-  - on_duplicate_name : Action to take if source.name is already contained in self.fabrics.
-    - keep_both : Create a new instance with the same name (different id).
-    - overwrite : Replace first instance with equal name in self with source.
-    - keep_existing : Ignore copy action, returns first existing instance in self with equal name.
-  - memo : A dict to collect copied items (for internal dependency tracking when copying stackups or sub-laminates).
+  - on_duplicate_name: Action to take if source.name is already contained in self.fabrics.
+    - keep_both: Create a new instance with the same name (different ID).
+    - overwrite: Replace first instance with equal name in self with source.
+    - keep_existing: Ignore copy action, returns first existing instance in self with equal name.
+  - memo: A dict to collect copied items (for internal dependency tracking when copying stackups or sub-laminates).
 * **Returns:**
   New Instance of Fabric.
 
@@ -37,11 +37,11 @@ Copy a material
 
 * **Parameters:**
   - source: Source object to copy.
-  - on_duplicate_name : Action to take if source.name is already contained in self.materials.
-    - keep_both : Create a new instance with the same name (different id).
-    - overwrite : Replace first instance with equal name in self with source.
-    - keep_existing : Ignore copy action, returns first existing instance in self with equal name.
-  - memo : A dict to collect copied items (for internal dependency tracking when copying stackups or sub-laminates).
+  - on_duplicate_name: Action to take if source.name is already contained in self.materials.
+    - keep_both: Create a new instance with the same name (different ID).
+    - overwrite: Replace first instance with equal name in self with source.
+    - keep_existing: Ignore copy action, returns first existing instance in self with equal name.
+  - memo: A dict to collect copied items (for internal dependency tracking when copying stackups or sub-laminates).
 * **Returns:**
   New instance of material.
 
@@ -51,11 +51,11 @@ Copy a stackup.
 
 * **Parameters:**
   - source: Source object to copy.
-  - on_duplicate_name : Action to take if source.name is already contained in self.stackups.
-    - keep_both : Create a new instance with the same name (different id).
-    - overwrite : Replace first instance with equal name in self with source.
-    - keep_existing : Ignore copy action, returns first existing instance in self with equal name.
-  - memo : A dict to collect copied items.
+  - on_duplicate_name: Action to take if source.name is already contained in self.stackups.
+    - keep_both: Create a new instance with the same name (different ID).
+    - overwrite: Replace first instance with equal name in self with source.
+    - keep_existing: Ignore copy action, returns first existing instance in self with equal name.
+  - memo: A dict to collect copied items.
 * **Returns:**
   New Instance of Fabric.
 
@@ -65,11 +65,11 @@ Copy a sub lamiante.
 
 * **Parameters:**
   - source: Source object to copy.
-  - on_duplicate_name : Action to take if source.name is already contained in self.sub_laminates.
-    - keep_both : Create a new instance with the same name (different id).
-    - overwrite : Replace first instance with equal name in self with source.
-    - keep_existing : Ignore copy action, returns first existing instance in self with equal name.
-  - memo : A dict to collect copied items.
+  - on_duplicate_name: Action to take if source.name is already contained in self.sub_laminates.
+    - keep_both: Create a new instance with the same name (different ID).
+    - overwrite: Replace first instance with equal name in self with source.
+    - keep_existing: Ignore copy action, returns first existing instance in self with equal name.
+  - memo: A dict to collect copied items.
 * **Returns:**
   New Instance of sub laminate.
 
@@ -159,7 +159,7 @@ Export materials to ANSYS Engineering Data MatML format.
 
 * **Parameters:**
   - path: Path to file to write.
-  - unit_system : Convert all quantities into this unit system. The units
+  - unit_system: Convert all quantities into this unit system. The units
     will be stored in the file written. The default is the unit system of the model.
 
 #### *property* fabrics
@@ -172,7 +172,7 @@ Find materials with the given properties or property ranges.
 
 * **Parameters:**
   - properties: Arbitrary material properties which must be matched.
-    : Note that a single property value can be given as string,
+ Note that a single property value can be given as string,
       number or min-max range.
 * **Returns:**
   A list with materials which match the given properties. If nothing
@@ -192,7 +192,7 @@ Engineering Data.
 
 * **Parameters:**
   - path: File to read from.
-  - material_apdl_path : Specify the APDL file containing the
+  - material_apdl_path: Specify the APDL file containing the
     ANSYS Engineering Data material definitions.
 
 #### *property* material_apdl_path
@@ -457,8 +457,8 @@ Returns the properties of the classical laminate theory:
 * **Parameters:**
   - query: result type.
 * **Options:**
-  - laminate_properties: Young’s, flexural and shear moduli of the laminate.
-  - polar_properties: E1, E2  and G12 depending on the laminate orientation.
+  - laminate_properties: Young’s, flexural, and shear moduli of the laminate.
+  - polar_properties: E1, E2,  and G12 depending on the laminate orientation.
 * **Example:**
   ```pycon
   >>> fab.clt_query(query='polar_properties')
@@ -471,9 +471,9 @@ Generates 2D-plots with the results of interest.
 * **Parameters:**
   - query: query arguments.
 * **Options:**
-  - layup:[‘pp’] Production plies.
-  - polar_properties:[‘E1’,’E2’,’G12’] polar plot of laminate stiffess.
-  - text_plot:[‘materials’, ‘angles’, ‘thicknesses’].
+  - layup: [‘pp’] Production plies.
+  - polar_properties: [‘E1’,’E2’,’G12’] Polar plot of laminate stiffess.
+  - text_plot: [‘materials’, ‘angles’, ‘thicknesses’].
 * **Examples:**
   ```pycon
   >>> query={'polar_properties':['E1', 'G12'], layup:['pp'], text_plot:['materials', 'angles', 'thicknesses']}
@@ -575,8 +575,8 @@ Returns the properties of the classical laminate theory.
   - query: Query parameters.
 * **Options:**
   - layup: Return the layup.
-  - laminate_properties: Young’s, flexural and shear moduli of the laminate.
-  - polar_properties: E1, E2  and G12 depending on the laminate orientation.
+  - laminate_properties: Young’s, flexural, and shear moduli of the laminate.
+  - polar_properties: E1, E2,  and G12 depending on the laminate orientation.
   - stiffness_matrix: Returns the laminate stiffness matrix (ABD).
   - compliance_matrix: Returns the lamiante compliance matrix (inverse of ABD).
 * **Example:**
@@ -593,8 +593,8 @@ Generates 2D-plots with the results of interest.
   - core_scale_factor: Scale core thickness by this value.
 * **Options:**
   - layup:[‘pp’, ‘ap’] Production Ply and Analysis Plies.
-  - polar_properties:[‘E1’,’E2’,’G12’] polar plot of laminate stiffesses.
-  - text_plot:[‘materials’,’angles’,’thicknesses’] property to show as label in the layup plot.
+  - polar_properties:,[‘E1’,’E2’,’G12’] Polar plot of laminate stiffesses.
+  - text_plot: [‘materials’,’angles’,’thicknesses’] Property to show as label in the layup plot.
 * **Examples:**
   ```pycon
   >>> query={'polar_properties':['E1', 'G12'], layup:['pp'], text_plot:['materials']}
@@ -713,8 +713,8 @@ Returns the properties of the classical laminate theory.
   - query: result type.
 * **Options:**
   - layup: Return the layup of the laminate.
-  - laminate_properties: Young’s, flexural and shear moduli of the laminate.
-  - polar_properties: E1, E2  and G12 depending on the laminate orientation.
+  - laminate_properties: Young’s, flexural, and shear moduli of the laminate.
+  - polar_properties: E1, E2,  and G12 depending on the laminate orientation.
   - stiffness_matrix: Returns the laminate stiffness matrix (ABD).
   - compliance_matrix: Returns the lamiante compliance matrix (inverse of ABD).
 * **Example:**
@@ -730,9 +730,9 @@ Generates 2D-plots with the results of interest.
   - query: Query parameters.
   - core_scale_factor: Scale core thickness by this value.
 * **Options:**
-  - layup:[‘mp’, ‘pp’, ‘ap’] Modeling Ply, Production Plies and Analysis Plies.
-  - polar_properties:[‘E1’,’E2’,’G12’] polar plot of laminate stiffesses.
-  - text_plot:[‘materials’,’thicknesses’,’angles’] text plot shown in the layup plot.
+  - layup: [‘mp’, ‘pp’, ‘ap’] Modeling Ply, Production Plies, and Analysis Plies.
+  - polar_properties: [‘E1’,’E2’,’G12’] Polar plot of laminate stiffesses.
+  - text_plot: [‘materials’,’thicknesses’,’angles’] text plot shown in the layup plot.
 * **Example:**
   ```pycon
   >>> query={'polar_properties':['E1', 'G12'], layup:['pp'], text_plot:['materials']}
