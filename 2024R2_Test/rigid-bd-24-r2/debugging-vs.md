@@ -5,10 +5,10 @@ you to execute commands line-by-line and review variable values.
 
 1. To begin, insert the following lines before the command snippet you wish to debug. Note that if there are several command snippets, they are executed in the order they appear in the Mechanical tree.
   
-```
-from System import Diagnostics
-Diagnostics.Debug.Assert(0)
-```
+    ```
+    from System import Diagnostics
+    Diagnostics.Debug.Assert(0)
+    ```
 
 2. Begin the solve. When the solution begins, the following warning dialog appears. Do not close this dialog. The dialog will pause the solver and allow you to attach the Visual Studio debugger and set breakpoints.
 
