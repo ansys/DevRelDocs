@@ -31,9 +31,9 @@ breakable joint:
     driver.SetConstantValues(System.Array[float]([0.,0.]))
     ```
 
-Next, make the driver only active if the force in the joint is less than a
-maximum threshold of 3N. To do that, create a [Condition](condition.md) based on the joint
-force measure norm.
+    Next, make the driver only active if the force in the joint is less than a
+    maximum threshold of 3N. To do that, create a [Condition](condition.md) based on the joint
+    force measure norm.
 
 5. Retrieve the force on the joint:
 
