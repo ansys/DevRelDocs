@@ -52,10 +52,10 @@ commands is shown below. A description of these commands follows.
     rel.AddTerm(j1id,0,var1)
     ```
 
-The first argument is the joint object. The second argument defines the DOF
-(degrees of freedom) of the joint that are involved in the relation. Here, `0`
-represents the rotation, which is the joint's first and only DOF is the
-rotation.
+    The first argument is the joint object. The second argument defines the DOF
+    (degrees of freedom) of the joint that are involved in the relation. Here, `0`
+    represents the rotation, which is the joint's first and only DOF is the
+    rotation.
 
 5. The second term and right hand side are introduced in the same manner:
 

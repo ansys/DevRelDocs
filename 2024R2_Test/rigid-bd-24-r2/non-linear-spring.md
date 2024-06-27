@@ -39,18 +39,18 @@ shown below. A description of these commands follows.
     spring.SetTable(stiffness)
     ```
 
-In this command, `7` represents the number of rows and `2` for the number of
-columns. The first column gives elongation and the second, the corresponding
-force value. This command generates a [PointsTable](pointstable.md)  assigned to the spring, as
-shown below.
+    In this command, `7` represents the number of rows and `2` for the number of
+    columns. The first column gives elongation and the second, the corresponding
+    force value. This command generates a [PointsTable](pointstable.md)  assigned to the spring, as
+    shown below.
 
-![points table plot](./images/gds_cmdref_ex_damper_plot.jpg)
+    ![points table plot](./images/gds_cmdref_ex_damper_plot.jpg)
 
-Each spring object in the Mechanical GUI is actually a combination of a spring
-and a damper. The `GetDamper` method enables you to retrieve the damper object
-on a given spring, as shown below.
+    Each spring object in the Mechanical GUI is actually a combination of a spring
+    and a damper. The `GetDamper` method enables you to retrieve the damper object
+    on a given spring, as shown below.
 
-![spring and damper combination](./images/gds_cmdref_ex_damper_win2.jpg)
+    ![spring and damper combination](./images/gds_cmdref_ex_damper_win2.jpg)
 
 3. Introduce a table to define a non-linear force velocity relation:
   
