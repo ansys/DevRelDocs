@@ -1,0 +1,16 @@
+<!-- vale off -->
+
+<a id="nastranoptionline"></a>
+
+# `NastranOptionLine`
+
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.NASTRAN.NastranOptionLine"></a>
+
+#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.NASTRAN.NastranOptionLine
+
+Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
+
+Option line.
+
+<!-- !! processed by numpydoc !! -->
+<!-- vale on -->

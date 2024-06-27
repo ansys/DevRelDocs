@@ -1,0 +1,35 @@
+<!-- vale off -->
+
+<a id="module-ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ThermalResults"></a>
+
+<a id="thermalresults"></a>
+
+# `ThermalResults`
+
+<a id="summary"></a>
+
+## Summary
+
+### Classes
+
+| Name | Description |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|
+| [`DirectionalHeatFlux`](DirectionalHeatFlux.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ThermalResults.DirectionalHeatFlux)                      | Defines a DirectionalHeatFlux.        |
+| [`ThermalResult`](ThermalResult.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ThermalResults.ThermalResult)                                        | Defines a ThermalResult.              |
+| [`DirectionalThermalHeatFlux`](DirectionalThermalHeatFlux.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ThermalResults.DirectionalThermalHeatFlux) | Defines a DirectionalThermalHeatFlux. |
+| [`FluidFlowRate`](FluidFlowRate.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ThermalResults.FluidFlowRate)                                        | Defines a FluidFlowRate.              |
+| [`FluidHeatConductionRate`](FluidHeatConductionRate.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ThermalResults.FluidHeatConductionRate)          | Defines a FluidHeatConductionRate.    |
+| [`FluidHeatTransportRate`](FluidHeatTransportRate.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ThermalResults.FluidHeatTransportRate)             | Defines a FluidHeatTransportRate.     |
+| [`TemperatureResult`](TemperatureResult.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ThermalResults.TemperatureResult)                            | Defines a TemperatureResult.          |
+| [`ThermalError`](ThermalError.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ThermalResults.ThermalError)                                           | Defines a ThermalError.               |
+| [`TotalHeatFlux`](TotalHeatFlux.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ThermalResults.TotalHeatFlux)                                        | Defines a TotalHeatFlux.              |
+| [`VectorHeatFlux`](VectorHeatFlux.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ThermalResults.VectorHeatFlux)                                     | Defines a VectorHeatFlux.             |
+
+<a id="description"></a>
+
+## Description
+
+ThermalResults subpackage.
+
+<!-- !! processed by numpydoc !! -->
+<!-- vale on -->
