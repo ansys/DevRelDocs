@@ -1,6 +1,12 @@
+<!-- vale off -->
+
+<a id="api-reference"></a>
+
 # API reference
 
-This section describes  endpoints, their capabilities, and how
-to interact with them programmatically.
+This documentation lists all supported APIs used in Ansys Mechanical. It provides brief
+descriptions of the objects, methods, and properties for all namespaces.
 
-* [🖿 ansys.mechanical.stubs](ansys/mechanical/stubs/index.md)
+* [<span class="nf nf-md-package"></span>Mechanical 2024 R1](ansys/mechanical/stubs/v241/index.md)
+
+<!-- vale on -->
