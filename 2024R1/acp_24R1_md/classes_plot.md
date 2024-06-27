@@ -37,7 +37,7 @@ Create a Angle Plot object.
   - id: ID for the plot.
   - scope_entire_model: If true, then the scope of this plot is the entire model. If not, then set to false and use the data_scope to specify a sub scope.
   - data_scope: Object(s) defining the scope for which data is computed and returned.
-    : Applicable are: Element Set, Oriented Selection Set, Modeling Ply, Sampling Point.
+    - Applicable are: Element Set, Oriented Selection Set, Modeling Ply, Sampling Point.
   - show_on_solids: True or False (default). Whether to show the results on the shell or solid model (if present).
   - show_on_section_cuts: Whether to show the results on the surface section cuts as well. Default is True.
   - show_ply_offsets: True or False (default). Whether to display ply-wise visualizations with ply offsets or not.
@@ -578,7 +578,7 @@ Labels are returned independent of update status of plot, but only if results fo
   ```
   <br/>
   Get element labels for current plot with visible scope equal to all objects visible in current scene::
-  : ```pycon
+  ```pycon
     >>> eis = my_plot.get_element_labels(visible=db.active_model.active_scene.active_set.entities)
     ```
 

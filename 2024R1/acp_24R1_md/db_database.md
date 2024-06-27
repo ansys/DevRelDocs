@@ -44,7 +44,7 @@ Create a model from file.
   - format: File format string. Choose one of ‘abaqus:inp’,’ansys:cdb’, ‘ansys:dat’, ‘nastran:bdf’, ‘ansys:h5’.
   - ignored_entities: Entities to ignore. Can be a subset of the following list: [‘mesh’, ‘element_sets’, ‘materials’, ‘coordinate_systems’, ‘shell_sections’].
   - convert_section_data: Whether to import and convert the shell section data into ACP composite definitions. Default is false.
-  - unit_system_type : Set the unit system of the model to this type. Ignored if a unit system was already defined in the data file.
+  - unit_system_type: Set the unit system of the model to this type. Ignored if a unit system was already defined in the data file.
   - reference_surface_input_unit_system_type : Set the unit system of the reference surface if the unit system cannot be read from the input.
 
 #### *property* material_data
@@ -78,8 +78,7 @@ Refresh an acph5 db (Workbench mode only).
 
 * **Parameters:**
   - path: file path to acph5 file.
-  - external_sources: nested dict provided by ACP WB Add-in containing all the
-    : external sources info (the file path, whether the source was modified, its ID etc.).
+  - external_sources: nested dict provided by ACP WB Add-in containing all the external sources info (the file path, whether the source was modified, its ID etc.).
       The keys of the dict are: [‘model’, ‘materials’, ‘cad_geometries’, ‘imported_solid_models’, ‘pre_db’, ‘solutions’].
       Values for ‘model’ and ‘materials’ are dicts with the following fields [‘path’, ‘external_id’, ‘modified’].
       Values for ‘cad_geometries’, ‘imported_solid_models’ and ‘pre_db’ are list
@@ -87,8 +86,7 @@ Refresh an acph5 db (Workbench mode only).
       Values for ‘solutions’ are dicts with fields  [‘name’, ‘path’, ‘external_id’, ‘modified’, ‘renumbering_mapping_paths’] where
       renumbering_mapping_paths is a list of file paths.
   - input_parameters: a dict of (name, value) pairs of WB input parameters.
-  - initialize: specifies whether the acph5 database needs to be initialized (i.e. the file does not
-    : yet exist).
+  - initialize: specifies whether the acph5 database needs to be initialized (i.e. the file does not yet exist).
   - unit_system_type: Defines the unit system of the main / downstream ACP file. (TODO: Do we need this?).
   - upgrade_from: Defines the path of a legacy (.acp) ACP DB that has to be upgrade to the new format (load composite definitions and save as ACPH5).
 
