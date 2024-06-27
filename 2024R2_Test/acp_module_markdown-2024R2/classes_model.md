@@ -1067,11 +1067,11 @@ the element labels in the legacy and ACP model match. The import is only perform
   - materials_mask_prefix: Defines the prefix that is added to the Matierla ID while importing materials via ExternalModel.
   - materials_mask_suffix: Defines the suffix that is added to the Matierla ID while importing materials via ExternalModel.
 * **Materials mapping:**
-  Only relevant when the import happens within WB.
-  The materials mask pre- and suffix parameters allow to automatically map WB material and legacy material ids.
-  For instance the pre- and suffix MAT and \` (Setup, File1)\` allows to map MAT1 (Setup, File1) with legacy material 1.
+  Only relevant when the import happens within Workbench.
+  The materials mask prefix and suffix parameters enable automatic mapping of Workbench and legacy material IDs.
+  For instance the prefix and suffix, MAT1 and \`(Setup, File1)\`, enable mapping MAT1 (Setup, File1) with legacy material 1.
   The mapping is case independent.
-  Pass empty mapping masks when no mapping is needed
+  Pass empty mapping masks when no mapping is needed.
 * **Example:**
   ```pycon
   >>> db.active_model.import_section_data_from_legacy_model(path=r'D:  mp\class40_analysis_model.cdb', format='ansys:cdb')
