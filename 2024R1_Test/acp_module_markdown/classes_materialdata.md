@@ -1,6 +1,6 @@
 # Material Classes
 
-## [`MaterialData`](#compolyx.MaterialData)
+## `MaterialData`
 
 ### *class* compolyx.MaterialData(graph, parent=None)
 

@@ -1,0 +1,92 @@
+# BaseResultType
+
+<a id="BaseResultType"></a>
+
+### *class* BaseResultType
+
+Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
+
+> Specifies the BaseResultType.
+
+> <!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
+
+## Overview
+
+### Attributes
+
+| Name |
+| ------------------------------------------------------------------------------------------------------ |
+| [`CenterOfGravity`](#BaseResultType.CenterOfGravity) |
+| [`Mass`](#BaseResultType.Mass) |
+| [`MomentOfInertia`](#BaseResultType.MomentOfInertia) |
+| [`Rotation`](#BaseResultType.Rotation) |
+| [`Acceleration`](../../../ACT/Automation/Mechanical/BoundaryConditions/Acceleration.md#Acceleration) |
+| [`Displacement`](../../../ACT/Automation/Mechanical/BoundaryConditions/Displacement.md#Displacement) |
+| [`Frequency`](#BaseResultType.Frequency) |
+| [`ReactionForce`](#BaseResultType.ReactionForce) |
+| [`ReactionMoment`](#BaseResultType.ReactionMoment) |
+| [`Frequencies`](#BaseResultType.Frequencies) |
+| [`Velocity`](../../../ACT/Automation/Mechanical/BoundaryConditions/Velocity.md#Velocity) |
+| [`Volume`](../../../ACT/Automation/Mechanical/Results/Volume.md#Volume) |
+
+<a id="import-detail"></a>
+
+## Import detail
+
+```python
+from ansys.mechanical.stubs.Ansys.Mechanical.DataModel.Enums import BaseResultType
+```
+
+<a id="attribute-detail"></a>
+
+## Attribute detail
+
+<a id="BaseResultType.CenterOfGravity"></a>
+
+### BaseResultType.CenterOfGravity *= 3*
+
+<a id="BaseResultType.Mass"></a>
+
+### BaseResultType.Mass *= 5*
+
+<a id="BaseResultType.MomentOfInertia"></a>
+
+### BaseResultType.MomentOfInertia *= 4*
+
+<a id="BaseResultType.Rotation"></a>
+
+### BaseResultType.Rotation *= 7*
+
+<a id="BaseResultType.Acceleration"></a>
+
+### BaseResultType.Acceleration *= 12*
+
+<a id="BaseResultType.Displacement"></a>
+
+### BaseResultType.Displacement *= 0*
+
+<a id="BaseResultType.Frequency"></a>
+
+### BaseResultType.Frequency *= 9*
+
+<a id="BaseResultType.ReactionForce"></a>
+
+### BaseResultType.ReactionForce *= 2*
+
+<a id="BaseResultType.ReactionMoment"></a>
+
+### BaseResultType.ReactionMoment *= 8*
+
+<a id="BaseResultType.Frequencies"></a>
+
+### BaseResultType.Frequencies *= 10*
+
+<a id="BaseResultType.Velocity"></a>
+
+### BaseResultType.Velocity *= 11*
+
+<a id="BaseResultType.Volume"></a>
+
+### BaseResultType.Volume *= 6*
