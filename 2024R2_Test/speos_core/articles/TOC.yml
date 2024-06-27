@@ -1,0 +1,13 @@
+- name: Introduction
+  href: client-speos-core-api-home.md
+- name: Speos Core methods
+  href: speoscore_methods\speoscore_methods.md
+  items:
+  - name: OpenFile
+    href: speoscore_methods\methods_openfile.md
+  - name: RunSimulation
+    href: speoscore_methods\methods_runsimulation.md
+  - name: ShowWindow
+    href: speoscore_methods\methods_showwindow.md
+  - name: Speos Core command lines
+    href: speoscore_methods\methods_command_lines.md

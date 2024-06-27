@@ -1,0 +1,63 @@
+# Class DrawInfoTwoPoint
+
+Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
+Assembly: VM.CAD.Builders.dll  
+
+Base class for the two-point progile geometry
+
+```csharp
+public abstract class DrawInfoTwoPoint : DrawInfo
+```
+
+#### Inheritance
+
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+[DrawInfo](VM.CAD.Builders.DrawInfo.md) ← 
+[DrawInfoTwoPoint](VM.CAD.Builders.DrawInfoTwoPoint.md)
+
+#### Derived
+
+[DrawInfoArc](VM.CAD.Builders.DrawInfoArc.md), 
+[DrawInfoLine](VM.CAD.Builders.DrawInfoLine.md)
+
+#### Extension Methods
+
+[LinkPropertyItemCache.GetLinkProperties\(object, LinkPropertyType\)](VM.Models.Pre.Cache.LinkPropertyItemCache.md\#VM\_Models\_Pre\_Cache\_LinkPropertyItemCache\_GetLinkProperties\_System\_Object\_VM\_Models\_Pre\_LinkPropertyType\_), 
+[LinkPropertyItemCache.GetLinkPropertiesAndValues\(object, LinkPropertyType\)](VM.Models.Pre.Cache.LinkPropertyItemCache.md\#VM\_Models\_Pre\_Cache\_LinkPropertyItemCache\_GetLinkPropertiesAndValues\_System\_Object\_VM\_Models\_Pre\_LinkPropertyType\_), 
+[LinkPropertyItemCache.GetLinkedObjects<T\>\(object, LinkPropertyType\)](VM.Models.Pre.Cache.LinkPropertyItemCache.md\#VM\_Models\_Pre\_Cache\_LinkPropertyItemCache\_GetLinkedObjects\_\_1\_System\_Object\_VM\_Models\_Pre\_LinkPropertyType\_)
+
+## Constructors
+
+### DrawInfoTwoPoint\(\)
+
+```csharp
+protected DrawInfoTwoPoint()
+```
+
+## Properties
+
+### Point1
+
+First point
+
+```csharp
+public Vector Point1 { get; set; }
+```
+
+#### Property Value
+
+ Vector
+
+### Point2
+
+Second point
+
+```csharp
+public Vector Point2 { get; set; }
+```
+
+#### Property Value
+
+ Vector
+
+
