@@ -3536,7 +3536,7 @@ specified as a target, the modeling plies retain their original global ply numbe
 * **Parameters:**
   - source: List of plies to insert at new position.
   - target: Position to insert plies. Can be modeling group or sequence entity.
-  - option: Where to insert. For SequenceEntity targets, valid options: after\`(default), \`before, and end. For ModelingGroup targets, valid option iskeep.
+  - option: Where to insert. For SequenceEntity targets, valid options: after\`(default), \`before, and end. For ModelingGroup targets, valid option is keep.
       - after: Paste right after the target (default).
       - before: Paste right before the target.
       - end: Paste at the end of the ModelingGroup containing target.
@@ -4603,24 +4603,24 @@ Whether to consider coupling effects (B-Matrix) for the calculation of the lamin
 Generates 2D plots with the results of interest.
 
 * **Parameters:**
-  - query: Query parameter.
+  - query: Query parameter. Determines which results are shown in the plot (see below).
   - offset_is_middle: Whether to offset the reference surface to the mid-plane of the laminate. This has an influence on the laminate stiffness calculations.
   - consider_coupling_effect: Whether to consider the coupling effect or not (B-Matrix). It is only of relevance for the laminate engineering constants.
 * **Options:**
-  - layup: List containing Modeling Plies (default), Production Plies, and/or Analysis Plies.
-    - [‘mp’, ‘pp’, ‘ap’]
-  - polar_properties: List containing polar plot of laminate stiffesses.
-    - [‘E1’,’E2’,’G12’]
-  - strains: List containing strain definition name and component.
-    - [‘e1’, ‘e2’, ‘e3’, ‘e12’, ‘e13’, ‘e23’, ‘eI’, ‘eII’, ‘eIII’]
-  - stresses: List containing stress definition name and component.
-    - [‘s1’, ‘s2’, ‘s3’, ‘s12’, ‘s13’, ‘s23’, ‘sI’, ‘sII’, ‘sIII’]
+  - layup: List specifying which of Modeling Plies (default), Production Plies, and/or Analysis Plies are shown.
+    - Possible values: ```[‘mp’, ‘pp’, ‘ap’]```
+  - polar_properties: List specifying which properties are shown in the polar plot of laminate stiffnesses.
+    - Possible values: ```[‘E1’,’E2’,’G12’]```
+  - strains: List specifying which strain components are shown.
+    - Possible values: ```[‘e1’, ‘e2’, ‘e3’, ‘e12’, ‘e13’, ‘e23’, ‘eI’, ‘eII’, ‘eIII’]```
+  - stresses: List specifying which stress components are shown.
+    - Possible values: ```[‘s1’, ‘s2’, ‘s3’, ‘s12’, ‘s13’, ‘s23’, ‘sI’, ‘sII’, ‘sIII’]```
   - failures: List containing name of FC and value.
-    - [‘FailureCriteria.1_irf’, ‘FailureCriteria.1_rf’, ‘FailureCriteria.1_mos’, ‘FailureCriteria.1_fm’]
-  - text_labels: [‘material’, ‘angle’, ‘thickness’].
-* **Usage:**
+    - Example values: ```[‘FailureCriteria.1_irf’, ‘FailureCriteria.1_rf’, ‘FailureCriteria.1_mos’, ‘FailureCriteria.1_fm’]```
+  - text_labels: Specifies additional data which can be shown.
+    - Possible values: ```[‘material’, ‘angle’, ‘thickness’]```
   ```pycon
-  >>> se.create_plot(query={layup:['mp'], failure:['FailureCriteria.1_irf']}
+  >>> se.create_plot(query={'layup' : ['mp'], 'failure' : ['FailureCriteria.1_irf']}
   >>> se.graph_plot.x_values
   >>> se.graph_plot.layer_thicknesses
   ```
