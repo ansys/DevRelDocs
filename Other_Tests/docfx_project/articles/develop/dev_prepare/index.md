@@ -1,7 +1,3 @@
-<a id="dev-prepare"></a>
-
-<a id="prepare"></a>
-
 # Prepare
 
 > ##### Summary

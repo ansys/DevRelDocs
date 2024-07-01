@@ -1,7 +1,3 @@
-<a id="examples-tutorials-geom-manipulation"></a>
-
-<a id="geometry-manipulation"></a>
-
 # Geometry manipulation
 
 <!-- Definitions of interpreted text roles (classes) for S5/HTML data. -->

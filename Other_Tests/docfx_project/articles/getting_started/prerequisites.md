@@ -1,7 +1,3 @@
-<a id="saf-getting-started-prerequisites"></a>
-
-<a id="prerequisites"></a>
-
 # Prerequisites
 
 > ##### Summary

@@ -1,7 +1,3 @@
-<a id="development-index"></a>
-
-<a id="development"></a>
-
 # Development
 
 Welcome to the third phase of the solution development lifecycle. Here, you’ll need to address the steps shown below.

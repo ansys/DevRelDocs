@@ -1,7 +1,3 @@
-<a id="saf-ex-process-logs"></a>
-
-<a id="process-logs"></a>
-
 # Process logs
 
 <a id="saf-ex-process-logs-summary"></a>

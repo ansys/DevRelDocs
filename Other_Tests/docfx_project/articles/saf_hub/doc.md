@@ -1,7 +1,3 @@
-<a id="saf-hub-doc"></a>
-
-<a id="saf-documentation"></a>
-
 # SAF documentation
 
 > ##### Summary

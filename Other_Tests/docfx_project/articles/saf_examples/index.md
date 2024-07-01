@@ -1,7 +1,3 @@
-<a id="saf-examples-index"></a>
-
-<a id="examples"></a>
-
 # Examples
 
 > ##### Summary

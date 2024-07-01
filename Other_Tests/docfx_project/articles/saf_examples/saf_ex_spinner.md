@@ -1,7 +1,3 @@
-<a id="saf-ex-spinner"></a>
-
-<a id="spinner"></a>
-
 # Spinner
 
 <a id="saf-ex-spinner-summary"></a>

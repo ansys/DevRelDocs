@@ -1,7 +1,3 @@
-<a id="getting-started-index"></a>
-
-<a id="getting-started"></a>
-
 # Getting started
 
 > ##### Summary

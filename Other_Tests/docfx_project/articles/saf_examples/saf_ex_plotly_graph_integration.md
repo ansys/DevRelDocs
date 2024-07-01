@@ -1,7 +1,3 @@
-<a id="saf-ex-plotly-graph-integration"></a>
-
-<a id="plotly-graph-integration"></a>
-
 # Plotly graph integration
 
 <a id="saf-ex-plotly-graph-int-summary"></a>

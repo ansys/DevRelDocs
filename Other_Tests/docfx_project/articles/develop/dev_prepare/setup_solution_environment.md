@@ -1,7 +1,3 @@
-<a id="setup-dev-environment"></a>
-
-<a id="set-up-the-solution-environment"></a>
-
 # Set up the solution environment
 
 > ##### Summary

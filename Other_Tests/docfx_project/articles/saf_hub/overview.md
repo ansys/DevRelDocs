@@ -1,7 +1,3 @@
-<a id="saf-hub-intro"></a>
-
-<a id="saf-overview"></a>
-
 # SAF overview
 
 <a id="what-is-saf"></a>

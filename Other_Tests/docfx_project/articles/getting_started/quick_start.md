@@ -1,7 +1,3 @@
-<a id="saf-getting-started-quick-start"></a>
-
-<a id="quick-start-guide"></a>
-
 # Quick-start guide
 
 > ##### Summary

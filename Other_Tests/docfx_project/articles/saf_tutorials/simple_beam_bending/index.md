@@ -1,7 +1,3 @@
-<a id="simple-beam-bending-tutorial-index"></a>
-
-<a id="simple-beam-bending"></a>
-
 # Simple beam bending
 
 Setup for the development environment

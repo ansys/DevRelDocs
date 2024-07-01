@@ -1,7 +1,3 @@
-<a id="saf-ex-file-upload"></a>
-
-<a id="file-upload"></a>
-
 # File upload
 
 > ##### Summary

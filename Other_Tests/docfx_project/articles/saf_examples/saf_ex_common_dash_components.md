@@ -1,7 +1,3 @@
-<a id="saf-ex-common-dash-components"></a>
-
-<a id="common-dash-components"></a>
-
 # Common Dash components
 
 <!-- Internal note:  The other two sections for Ansys Solutions Dash components and Ansys viewers have been removed, as these are not available to external users. -->

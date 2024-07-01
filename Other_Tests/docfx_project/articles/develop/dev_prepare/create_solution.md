@@ -1,7 +1,3 @@
-<a id="create-solution"></a>
-
-<a id="generate-a-solution"></a>
-
 # Generate a solution
 
 > ##### Summary

@@ -1,7 +1,3 @@
-<a id="dev-logic"></a>
-
-<a id="create-the-business-logic"></a>
-
 # Create the business logic
 
 > ##### Summary

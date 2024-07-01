@@ -1,7 +1,3 @@
-<a id="prerequisites-index"></a>
-
-<a id="prerequisites"></a>
-
 # Prerequisites
 
 Navigate through each tab and make sure your development environment satisfies all the requirements.

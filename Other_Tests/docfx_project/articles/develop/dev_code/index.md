@@ -1,7 +1,3 @@
-<a id="dev-code"></a>
-
-<a id="code"></a>
-
 # Code
 
 > ##### Summary

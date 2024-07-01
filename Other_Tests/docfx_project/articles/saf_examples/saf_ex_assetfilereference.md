@@ -1,7 +1,3 @@
-<a id="saf-ex-assetfilereference"></a>
-
-<a id="asset-file-reference"></a>
-
 # Asset file reference
 
 > ##### Summary

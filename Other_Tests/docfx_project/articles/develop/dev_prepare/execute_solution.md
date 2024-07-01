@@ -1,7 +1,3 @@
-<a id="execute-solution"></a>
-
-<a id="execute-the-solution"></a>
-
 # Execute the solution
 
 > ##### Summary
