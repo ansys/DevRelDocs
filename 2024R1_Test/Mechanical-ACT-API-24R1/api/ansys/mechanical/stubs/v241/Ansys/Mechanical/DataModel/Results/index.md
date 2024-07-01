@@ -1,0 +1,27 @@
+<!-- vale off -->
+
+<a id="module-ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Results"></a>
+
+<a id="results"></a>
+
+# `Results`
+
+<a id="summary"></a>
+
+## Summary
+
+### Classes
+
+| Name | Description |
+|--------------------------------------------------------------------------------------------------------------------------|---------------------------------------------|
+| [`ResultDataTable`](ResultDataTable.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Results.ResultDataTable)   | Specifies the Result Table.                 |
+| [`ResultVariable`](ResultVariable.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Results.ResultVariable)      | Specifies column data for the Result Table. |
+
+<a id="description"></a>
+
+## Description
+
+Results subpackage.
+
+<!-- !! processed by numpydoc !! -->
+<!-- vale on -->

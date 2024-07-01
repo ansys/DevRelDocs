@@ -1,0 +1,40 @@
+<!-- vale off -->
+
+<a id="remotepointupdateoptions"></a>
+
+# `RemotePointUpdateOptions`
+
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RemotePointUpdateOptions"></a>
+
+#### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RemotePointUpdateOptions
+
+Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
+
+Specifies the RemotePointUpdateOptions.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
+
+## Overview
+
+### Attributes
+
+| Name |
+| -------------------------------------------------------- |
+| [`Regenerate`](#RemotePointUpdateOptions.Regenerate) |
+| [`Reuse`](#RemotePointUpdateOptions.Reuse) |
+
+<a id="attribute-detail"></a>
+
+## Attribute detail
+
+<a id="RemotePointUpdateOptions.Regenerate"></a>
+
+### RemotePointUpdateOptions.Regenerate *= 0*
+
+<a id="RemotePointUpdateOptions.Reuse"></a>
+
+### RemotePointUpdateOptions.Reuse *= 1*
+
+<!-- vale on -->
