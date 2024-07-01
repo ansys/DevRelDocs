@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="connectionoptions"></a>
-
 # `ConnectionOptions`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ConnectionOptions"></a>
@@ -42,4 +38,4 @@ Specifies the ConnectionOptions.
 
 ### ConnectionOptions.FreeToFree *= 3*
 
-<!-- vale on -->
+

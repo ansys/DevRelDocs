@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="nonlinearadaptivitycontrolsremeshinggradienttype"></a>
-
 # `NonlinearAdaptivityControlsRemeshingGradientType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityControlsRemeshingGradientType"></a>
@@ -47,4 +43,4 @@ Specifies the NonlinearAdaptivityControlsRemeshingGradientType.
 
 ### NonlinearAdaptivityControlsRemeshingGradientType.PracticalShapeGradient *= 3*
 
-<!-- vale on -->
+

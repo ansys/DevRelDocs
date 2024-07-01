@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="columnardataimportdefinition"></a>
-
 # `ColumnarDataImportDefinition`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.ExternalData.ColumnarDataImportDefinition"></a>
@@ -71,4 +67,4 @@ Gets or sets the variable type of the column.
 ### *property* ColumnarDataImportDefinition.UserFieldVariable *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

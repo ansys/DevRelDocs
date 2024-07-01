@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="solutionstatustype"></a>
-
 # `SolutionStatusType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolutionStatusType"></a>
@@ -67,4 +63,4 @@ Specifies the SolutionStatusType.
 
 ### SolutionStatusType.SolveRequiredPartialResultsAvailable *= 4*
 
-<!-- vale on -->
+

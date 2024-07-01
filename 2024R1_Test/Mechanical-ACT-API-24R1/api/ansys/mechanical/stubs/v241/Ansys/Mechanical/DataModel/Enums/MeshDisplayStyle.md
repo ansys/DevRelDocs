@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="meshdisplaystyle"></a>
-
 # `MeshDisplayStyle`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshDisplayStyle"></a>
@@ -147,4 +143,4 @@ Specifies the MeshDisplayStyle.
 
 ### MeshDisplayStyle.WarpingFactor *= 4*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="topooptimizationoutputlog"></a>
-
 # `TopoOptimizationOutputLog`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TopoOptimizationOutputLog"></a>
@@ -47,4 +43,4 @@ Specifies the TopoOptimizationOutputLog.
 
 ### TopoOptimizationOutputLog.ProgramControlled *= 0*
 
-<!-- vale on -->
+

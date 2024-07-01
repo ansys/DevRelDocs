@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="mapdlimportedsurfaceloaddata"></a>
-
 # `MAPDLImportedSurfaceLoadData`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.SolverData.MAPDLImportedSurfaceLoadData"></a>
@@ -53,4 +49,4 @@ Gets the load types present in the row.
 Gets the SurfaceEffectElementTypeId for the requested load type present in the row
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

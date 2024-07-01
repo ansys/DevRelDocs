@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.FractureToolResults"></a>
-
 <a id="fracturetoolresults"></a>
 
 # `FractureToolResults`
@@ -30,4 +26,4 @@
 FractureToolResults subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

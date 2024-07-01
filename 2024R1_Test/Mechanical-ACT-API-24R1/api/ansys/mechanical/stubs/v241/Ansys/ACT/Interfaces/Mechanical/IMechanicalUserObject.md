@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="imechanicaluserobject"></a>
-
 # `IMechanicalUserObject`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Interfaces.Mechanical.IMechanicalUserObject"></a>
@@ -35,4 +31,4 @@ Defines a Mechanical user object.
 Gets the associated analysis.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

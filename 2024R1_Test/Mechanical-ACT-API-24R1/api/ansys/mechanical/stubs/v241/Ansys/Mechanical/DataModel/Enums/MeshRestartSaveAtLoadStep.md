@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="meshrestartsaveatloadstep"></a>
-
 # `MeshRestartSaveAtLoadStep`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshRestartSaveAtLoadStep"></a>
@@ -42,4 +38,4 @@ Specifies the MeshRestartSaveAtLoadStep.
 
 ### MeshRestartSaveAtLoadStep.None_ *= 0*
 
-<!-- vale on -->
+

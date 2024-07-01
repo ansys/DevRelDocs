@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="harmonicmultisteptype"></a>
-
 # `HarmonicMultiStepType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.HarmonicMultiStepType"></a>
@@ -37,4 +33,4 @@ Specifies the HarmonicMultiStepType.
 
 ### HarmonicMultiStepType.RPM *= 0*
 
-<!-- vale on -->
+

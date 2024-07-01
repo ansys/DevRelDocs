@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="externalloadapplicationtype"></a>
-
 # `ExternalLoadApplicationType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExternalLoadApplicationType"></a>
@@ -37,4 +33,4 @@ Specifies the ExternalLoadApplicationType.
 
 ### ExternalLoadApplicationType.InitialCondition *= 2*
 
-<!-- vale on -->
+

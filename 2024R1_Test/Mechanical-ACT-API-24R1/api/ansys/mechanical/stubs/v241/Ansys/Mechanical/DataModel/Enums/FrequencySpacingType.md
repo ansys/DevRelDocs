@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="frequencyspacingtype"></a>
-
 # `FrequencySpacingType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FrequencySpacingType"></a>
@@ -72,4 +68,4 @@ Specifies the FrequencySpacingType.
 
 ### FrequencySpacingType.OrderBased *= 8*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="gasketresulttype"></a>
-
 # `GasketResultType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GasketResultType"></a>
@@ -37,4 +33,4 @@ Specifies the GasketResultType.
 
 ### GasketResultType.ShearGasket *= 1*
 
-<!-- vale on -->
+

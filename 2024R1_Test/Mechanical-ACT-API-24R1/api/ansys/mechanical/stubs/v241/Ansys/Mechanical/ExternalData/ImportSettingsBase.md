@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="importsettingsbase"></a>
-
 # `ImportSettingsBase`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.ExternalData.ImportSettingsBase"></a>
@@ -35,4 +31,4 @@ A base class for Table import settings.
 Gets the existing corresponding format.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

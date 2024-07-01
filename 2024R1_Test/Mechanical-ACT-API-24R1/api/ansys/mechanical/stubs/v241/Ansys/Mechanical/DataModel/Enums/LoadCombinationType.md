@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="loadcombinationtype"></a>
-
 # `LoadCombinationType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadCombinationType"></a>
@@ -37,4 +33,4 @@ Specifies the Load Combination type.
 
 ### LoadCombinationType.SRSS *= 1*
 
-<!-- vale on -->
+

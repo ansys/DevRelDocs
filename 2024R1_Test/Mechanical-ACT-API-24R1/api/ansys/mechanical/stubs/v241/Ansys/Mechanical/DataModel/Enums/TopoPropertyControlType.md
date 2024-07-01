@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="topopropertycontroltype"></a>
-
 # `TopoPropertyControlType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TopoPropertyControlType"></a>
@@ -37,4 +33,4 @@ Specifies the TopoPropertyControlType.
 
 ### TopoPropertyControlType.ProgramControlled *= 0*
 
-<!-- vale on -->
+

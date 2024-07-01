@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="mechanicalgraphicswrapper"></a>
-
 # `MechanicalGraphicsWrapper`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Common.Graphics.MechanicalGraphicsWrapper"></a>
@@ -207,4 +203,4 @@ Create a point from world coordinates.
 Create a 3D vector from world coordinates.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

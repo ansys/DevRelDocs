@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="amsupporttype"></a>
-
 # `AMSupportType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMSupportType"></a>
@@ -37,4 +33,4 @@ Specifies the AMSupportType.
 
 ### AMSupportType.Block *= 1*
 
-<!-- vale on -->
+

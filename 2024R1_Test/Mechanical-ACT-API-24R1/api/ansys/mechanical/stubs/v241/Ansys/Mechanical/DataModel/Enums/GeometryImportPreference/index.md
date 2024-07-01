@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryImportPreference"></a>
-
 <a id="geometryimportpreference"></a>
 
 # `GeometryImportPreference`
@@ -30,4 +26,4 @@
 GeometryImportPreference subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

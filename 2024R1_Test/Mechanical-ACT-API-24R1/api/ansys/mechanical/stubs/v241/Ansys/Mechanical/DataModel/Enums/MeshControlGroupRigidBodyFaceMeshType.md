@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="meshcontrolgrouprigidbodyfacemeshtype"></a>
-
 # `MeshControlGroupRigidBodyFaceMeshType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshControlGroupRigidBodyFaceMeshType"></a>
@@ -37,4 +33,4 @@ Specifies the MeshControlGroupRigidBodyFaceMeshType.
 
 ### MeshControlGroupRigidBodyFaceMeshType.QuadAndTri *= 0*
 
-<!-- vale on -->
+

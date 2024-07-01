@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.Mechanical.Interfaces"></a>
-
 <a id="interfaces"></a>
 
 # `Interfaces`
@@ -28,4 +24,4 @@
 Interfaces subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

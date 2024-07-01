@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="queuesettings"></a>
-
 # `QueueSettings`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Application.SolveProcessSettings.QueueSettings"></a>
@@ -53,4 +49,4 @@ The job name of the queue settings.
 The license of the queue settings.  The setter will throw an exception if the given license is not valid.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

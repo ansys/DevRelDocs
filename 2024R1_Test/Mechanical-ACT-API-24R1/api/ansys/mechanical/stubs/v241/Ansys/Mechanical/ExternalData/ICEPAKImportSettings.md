@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="icepakimportsettings"></a>
-
 # `ICEPAKImportSettings`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.ExternalData.ICEPAKImportSettings"></a>
@@ -61,4 +57,4 @@ The supporting file description. This is optional.
 Gets the existing corresponding format.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

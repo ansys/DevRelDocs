@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.Mechanical.Application"></a>
-
 <a id="application"></a>
 
 # `Application`
@@ -27,4 +23,4 @@
 Application subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

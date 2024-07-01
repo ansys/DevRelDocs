@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="compositecriteriondefinition"></a>
-
 # `CompositeCriterionDefinition`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CompositeCriterionDefinition"></a>
@@ -105,4 +101,4 @@ Removes the CompositeCriterionTerm at a specified index in the definition.
 Returns IndexOutOfRangeException for invalid index.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

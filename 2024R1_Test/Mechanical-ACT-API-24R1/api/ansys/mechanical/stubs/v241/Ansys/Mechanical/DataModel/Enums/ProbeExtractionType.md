@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="probeextractiontype"></a>
-
 # `ProbeExtractionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ProbeExtractionType"></a>
@@ -62,4 +58,4 @@ Specifies the ProbeExtractionType.
 
 ### ProbeExtractionType.ContactElements *= 5*
 
-<!-- vale on -->
+

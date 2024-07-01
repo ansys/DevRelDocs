@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="legendsettings"></a>
-
 # `LegendSettings`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.Tools.LegendSettings"></a>
@@ -215,4 +211,4 @@ Resets all colors to default values.
 Resets all legend customizations into default values.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

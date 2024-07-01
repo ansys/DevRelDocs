@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="contactsearchingtype"></a>
-
 # `ContactSearchingType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactSearchingType"></a>
@@ -52,4 +48,4 @@ Specifies the ContactSearchingType.
 
 ### ContactSearchingType.Anywhere *= 2*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ThermalResults"></a>
-
 <a id="thermalresults"></a>
 
 # `ThermalResults`
@@ -32,4 +28,4 @@
 ThermalResults subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

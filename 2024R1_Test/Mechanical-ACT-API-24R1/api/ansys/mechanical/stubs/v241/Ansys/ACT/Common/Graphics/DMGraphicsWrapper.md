@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="dmgraphicswrapper"></a>
-
 # `DMGraphicsWrapper`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Common.Graphics.DMGraphicsWrapper"></a>
@@ -108,4 +104,4 @@ Create a 3D vector from world coordinates.
 Exports the current Graphics screen to a file.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

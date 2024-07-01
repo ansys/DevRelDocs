@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="automaticnodemovementmethod"></a>
-
 # `AutomaticNodeMovementMethod`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AutomaticNodeMovementMethod"></a>
@@ -52,4 +48,4 @@ To select the method of AutoNodeMove under PCTet.
 
 ### AutomaticNodeMovementMethod.ProgramControlled *= 1*
 
-<!-- vale on -->
+

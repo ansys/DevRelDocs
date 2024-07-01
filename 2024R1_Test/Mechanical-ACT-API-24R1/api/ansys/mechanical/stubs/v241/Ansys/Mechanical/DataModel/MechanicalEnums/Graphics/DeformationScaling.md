@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="deformationscaling"></a>
-
 # `DeformationScaling`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.Graphics.DeformationScaling"></a>
@@ -37,4 +33,4 @@ Specifies the DeformationScaling.
 
 ### DeformationScaling.Auto *= 1*
 
-<!-- vale on -->
+

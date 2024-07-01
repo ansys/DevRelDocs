@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="importedbodytemperature"></a>
-
 # `ImportedBodyTemperature`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ImportedLoads.ImportedBodyTemperature"></a>
@@ -731,4 +727,4 @@ Gets the parameter corresponding to the given property.
 Removes the parameter from the parameter set corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

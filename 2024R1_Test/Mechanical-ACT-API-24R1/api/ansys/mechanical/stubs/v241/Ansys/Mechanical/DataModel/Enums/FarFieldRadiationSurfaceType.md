@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="farfieldradiationsurfacetype"></a>
-
 # `FarFieldRadiationSurfaceType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FarFieldRadiationSurfaceType"></a>
@@ -42,4 +38,4 @@ Specifies the FarFieldRadiationSurfaceType.
 
 ### FarFieldRadiationSurfaceType.ProgramControlled *= 0*
 
-<!-- vale on -->
+

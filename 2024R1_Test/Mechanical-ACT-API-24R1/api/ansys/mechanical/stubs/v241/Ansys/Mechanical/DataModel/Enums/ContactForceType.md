@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="contactforcetype"></a>
-
 # `ContactForceType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactForceType"></a>
@@ -42,4 +38,4 @@ Specifies the ContactForceType.
 
 ### ContactForceType.Total *= 0*
 
-<!-- vale on -->
+

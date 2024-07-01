@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.Common"></a>
-
 <a id="common"></a>
 
 # `Common`
@@ -23,4 +19,4 @@
 Common subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

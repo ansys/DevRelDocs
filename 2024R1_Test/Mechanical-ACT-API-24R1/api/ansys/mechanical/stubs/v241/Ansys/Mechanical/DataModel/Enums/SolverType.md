@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="solvertype"></a>
-
 # `SolverType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolverType"></a>
@@ -67,4 +63,4 @@ Specifies the SolverType.
 
 ### SolverType.Unsymmetric *= 3*
 
-<!-- vale on -->
+

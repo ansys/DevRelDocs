@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="topoconstrainttype"></a>
-
 # `TopoConstraintType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TopoConstraintType"></a>
@@ -37,4 +33,4 @@ Specifies the TopoConstraintType.
 
 ### TopoConstraintType.ResponseConstrain *= 0*
 
-<!-- vale on -->
+

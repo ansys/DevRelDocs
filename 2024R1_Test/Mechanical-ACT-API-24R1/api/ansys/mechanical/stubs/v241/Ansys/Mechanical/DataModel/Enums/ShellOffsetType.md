@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="shelloffsettype"></a>
-
 # `ShellOffsetType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShellOffsetType"></a>
@@ -47,4 +43,4 @@ Specifies the ShellOffsetType.
 
 ### ShellOffsetType.UserDefined *= 3*
 
-<!-- vale on -->
+

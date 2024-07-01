@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="loaddefineby"></a>
-
 # `LoadDefineBy`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadDefineBy"></a>
@@ -82,4 +78,4 @@ Specifies the LoadDefineBy.
 
 ### LoadDefineBy.UnknownDefined
 
-<!-- vale on -->
+

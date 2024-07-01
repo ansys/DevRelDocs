@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="tree"></a>
-
 # `Tree`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Tree"></a>
@@ -224,4 +220,4 @@ Activate method.
 Checks if the tree is currently sorted alphabetically.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="contourview"></a>
-
 # `ContourView`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.Graphics.ContourView"></a>
@@ -47,4 +43,4 @@ Specifies the ContourView.
 
 ### ContourView.SolidFill *= 3*
 
-<!-- vale on -->
+

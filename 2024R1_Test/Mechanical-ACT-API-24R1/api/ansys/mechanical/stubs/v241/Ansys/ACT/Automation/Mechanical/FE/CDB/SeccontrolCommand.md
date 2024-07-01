@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="seccontrolcommand"></a>
-
 # `SeccontrolCommand`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.SeccontrolCommand"></a>
@@ -53,4 +49,4 @@ Gets the command name.
 Gets the command index.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

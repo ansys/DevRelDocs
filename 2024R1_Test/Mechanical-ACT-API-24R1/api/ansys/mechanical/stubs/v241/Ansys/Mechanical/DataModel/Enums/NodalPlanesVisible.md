@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="nodalplanesvisible"></a>
-
 # `NodalPlanesVisible`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NodalPlanesVisible"></a>
@@ -37,4 +33,4 @@ Specifies the NodalPlanesVisible.
 
 ### NodalPlanesVisible.Range *= 1*
 
-<!-- vale on -->
+

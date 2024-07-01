@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="abaquskeyworddataline"></a>
-
 # `AbaqusKeywordDataLine`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.ABAQUS.AbaqusKeywordDataLine"></a>
@@ -35,4 +31,4 @@ Represents a keyword data line.
 Gets the data line values.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

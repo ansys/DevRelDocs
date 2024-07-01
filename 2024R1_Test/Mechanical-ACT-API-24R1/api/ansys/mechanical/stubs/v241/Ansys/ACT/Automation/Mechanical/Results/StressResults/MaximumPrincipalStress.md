@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="maximumprincipalstress"></a>
-
 # `MaximumPrincipalStress`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.StressResults.MaximumPrincipalStress"></a>
@@ -1111,4 +1107,4 @@ Gets the parameter corresponding to the given property.
 Removes the parameter from the parameter set corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

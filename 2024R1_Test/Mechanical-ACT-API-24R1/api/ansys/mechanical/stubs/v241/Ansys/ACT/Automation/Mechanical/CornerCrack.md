@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="cornercrack"></a>
-
 # `CornerCrack`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CornerCrack"></a>
@@ -533,4 +529,4 @@ Gets the parameter corresponding to the given property.
 Removes the parameter from the parameter set corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

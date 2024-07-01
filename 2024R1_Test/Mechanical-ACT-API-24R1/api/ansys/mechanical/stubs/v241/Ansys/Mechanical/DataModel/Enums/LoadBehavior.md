@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="loadbehavior"></a>
-
 # `LoadBehavior`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadBehavior"></a>
@@ -47,4 +43,4 @@ Specifies the LoadBehavior.
 
 ### LoadBehavior.Rigid *= 0*
 
-<!-- vale on -->
+

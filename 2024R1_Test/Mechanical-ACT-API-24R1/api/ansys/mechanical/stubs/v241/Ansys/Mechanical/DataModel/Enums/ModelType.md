@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="modeltype"></a>
-
 # `ModelType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ModelType"></a>
@@ -47,4 +43,4 @@ Specifies the ModelType.
 
 ### ModelType.Type_VibratingStructuralPanel *= 3*
 
-<!-- vale on -->
+

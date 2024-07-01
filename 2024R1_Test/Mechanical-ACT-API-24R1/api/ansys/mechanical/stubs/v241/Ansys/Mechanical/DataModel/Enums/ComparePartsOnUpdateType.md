@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="comparepartsonupdatetype"></a>
-
 # `ComparePartsOnUpdateType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ComparePartsOnUpdateType"></a>
@@ -42,4 +38,4 @@ Specifies the ComparePartsOnUpdateType.
 
 ### ComparePartsOnUpdateType.NonAssociatively *= 2*
 
-<!-- vale on -->
+

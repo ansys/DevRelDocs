@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="gpuaccelerationdevicestype"></a>
-
 # `GPUAccelerationDevicesType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GPUAccelerationDevicesType"></a>
@@ -42,4 +38,4 @@ Specifies the GPUAccelerationDevicesType.
 
 ### GPUAccelerationDevicesType.AMD *= 2*
 
-<!-- vale on -->
+

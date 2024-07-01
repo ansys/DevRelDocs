@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="amcooldowntimetype"></a>
-
 # `AMCooldownTimeType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMCooldownTimeType"></a>
@@ -37,4 +33,4 @@ Specifies the AMCooldownTimeType.
 
 ### AMCooldownTimeType.UserSpecified *= 1*
 
-<!-- vale on -->
+

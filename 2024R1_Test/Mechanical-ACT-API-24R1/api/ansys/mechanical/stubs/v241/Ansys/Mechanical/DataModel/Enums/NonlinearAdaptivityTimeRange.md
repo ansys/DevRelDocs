@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="nonlinearadaptivitytimerange"></a>
-
 # `NonlinearAdaptivityTimeRange`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityTimeRange"></a>
@@ -37,4 +33,4 @@ Specifies the NonlinearAdaptivityTimeRange.
 
 ### NonlinearAdaptivityTimeRange.Manual *= 1*
 
-<!-- vale on -->
+

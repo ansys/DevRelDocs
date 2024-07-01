@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="datatypeoptions"></a>
-
 # `DataTypeOptions`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataTypeOptions"></a>
@@ -42,4 +38,4 @@ Specifies the DataTypeOptions.
 
 ### DataTypeOptions.MomentOnly *= 2*
 
-<!-- vale on -->
+

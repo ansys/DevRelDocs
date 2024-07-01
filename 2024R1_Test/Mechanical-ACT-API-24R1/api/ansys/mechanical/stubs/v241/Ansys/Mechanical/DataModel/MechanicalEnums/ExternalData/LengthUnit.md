@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="lengthunit"></a>
-
 # `LengthUnit`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.LengthUnit"></a>
@@ -57,4 +53,4 @@ Specifies how to interpret the variable data source.
 
 ### LengthUnit.micrometer *= 5*
 
-<!-- vale on -->
+

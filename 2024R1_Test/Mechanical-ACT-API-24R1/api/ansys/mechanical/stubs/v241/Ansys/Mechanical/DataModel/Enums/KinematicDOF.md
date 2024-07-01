@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="kinematicdof"></a>
-
 # `KinematicDOF`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.KinematicDOF"></a>
@@ -57,4 +53,4 @@ Specifies the KinematicDOF.
 
 ### KinematicDOF.ZDisplacement *= 3*
 
-<!-- vale on -->
+

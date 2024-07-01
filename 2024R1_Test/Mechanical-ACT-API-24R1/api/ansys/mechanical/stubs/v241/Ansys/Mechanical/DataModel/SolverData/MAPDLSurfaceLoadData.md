@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="mapdlsurfaceloaddata"></a>
-
 # `MAPDLSurfaceLoadData`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.SolverData.MAPDLSurfaceLoadData"></a>
@@ -35,4 +31,4 @@ MAPDLSurfaceLoadData class.
 Gets the Surface Effect Element Type Id used by the load.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

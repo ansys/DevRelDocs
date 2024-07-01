@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="minimumormaximum"></a>
-
 # `MinimumOrMaximum`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum"></a>
@@ -37,4 +33,4 @@ Specifies the MinimumOrMaximum.
 
 ### MinimumOrMaximum.Minimum *= 0*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="noncyclicloadingtype"></a>
-
 # `NonCyclicLoadingType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NonCyclicLoadingType"></a>
@@ -42,4 +38,4 @@ Specifies the NonCyclicLoadingType.
 
 ### NonCyclicLoadingType.No *= 0*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="importsettings"></a>
-
 # `ImportSettings`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Materials.ImportSettings"></a>
@@ -36,4 +32,4 @@ All materials will be imported if this list of the names of
 specific materials to be imported is not specified.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="variabletype"></a>
-
 # `VariableType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableType"></a>
@@ -72,4 +68,4 @@ An enumeration of the different variable types supported by the tabular data
 
 ### VariableType.ZCoordinate *= 12*
 
-<!-- vale on -->
+

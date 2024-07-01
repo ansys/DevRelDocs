@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="polyflowexportunit"></a>
-
 # `PolyflowExportUnit`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PolyflowExportUnit"></a>
@@ -62,4 +58,4 @@ Specifies the Polyflow Export Unit Type.
 
 ### PolyflowExportUnit.Feet *= 6*
 
-<!-- vale on -->
+

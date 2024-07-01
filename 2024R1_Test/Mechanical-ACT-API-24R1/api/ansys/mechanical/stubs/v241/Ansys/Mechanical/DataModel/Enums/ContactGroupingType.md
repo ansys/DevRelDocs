@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="contactgroupingtype"></a>
-
 # `ContactGroupingType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactGroupingType"></a>
@@ -47,4 +43,4 @@ Specifies the ContactGroupingType.
 
 ### ContactGroupingType.None_ *= 0*
 
-<!-- vale on -->
+

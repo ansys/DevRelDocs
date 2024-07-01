@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="pmloptions"></a>
-
 # `PMLOptions`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PMLOptions"></a>
@@ -37,4 +33,4 @@ Specifies the PMLOptions.
 
 ### PMLOptions.PML3D *= 0*
 
-<!-- vale on -->
+

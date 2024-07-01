@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB"></a>
-
 <a id="cdb"></a>
 
 # `CDB`
@@ -71,4 +67,4 @@
 CDB subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

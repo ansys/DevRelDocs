@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="restartretainfilestype"></a>
-
 # `RestartRetainFilesType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RestartRetainFilesType"></a>
@@ -37,4 +33,4 @@ Specifies the RestartRetainFilesType.
 
 ### RestartRetainFilesType.Yes *= 0*
 
-<!-- vale on -->
+

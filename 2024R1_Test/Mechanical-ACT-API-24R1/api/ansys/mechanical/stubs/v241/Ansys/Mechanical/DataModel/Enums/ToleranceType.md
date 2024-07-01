@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="tolerancetype"></a>
-
 # `ToleranceType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ToleranceType"></a>
@@ -37,4 +33,4 @@ Specifies the ToleranceType.
 
 ### ToleranceType.ProgramControlled *= 0*
 
-<!-- vale on -->
+

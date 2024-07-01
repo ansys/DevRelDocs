@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.Mechanical.Selection"></a>
-
 <a id="selection"></a>
 
 # `Selection`
@@ -25,4 +21,4 @@
 Selection subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

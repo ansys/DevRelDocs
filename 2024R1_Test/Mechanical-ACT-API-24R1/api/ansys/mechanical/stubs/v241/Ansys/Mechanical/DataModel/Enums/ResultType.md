@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="resulttype"></a>
-
 # `ResultType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultType"></a>
@@ -1572,4 +1568,4 @@ Specifies the ResultType.
 
 ### ResultType.ZDirectionalVelocityRS *= 169*
 
-<!-- vale on -->
+

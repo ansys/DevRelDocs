@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="convergencecontroltype"></a>
-
 # `ConvergenceControlType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ConvergenceControlType"></a>
@@ -37,4 +33,4 @@ Specifies the ConvergenceControlType.
 
 ### ConvergenceControlType.ProgramControlled *= 0*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="solvermemorysettings"></a>
-
 # `SolverMemorySettings`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolverMemorySettings"></a>
@@ -53,4 +49,4 @@ Workspace size.
 Database size.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Application.SolveProcessSettings"></a>
-
 <a id="solveprocesssettings"></a>
 
 # `SolveProcessSettings`
@@ -39,4 +35,4 @@
 SolveProcessSettings subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

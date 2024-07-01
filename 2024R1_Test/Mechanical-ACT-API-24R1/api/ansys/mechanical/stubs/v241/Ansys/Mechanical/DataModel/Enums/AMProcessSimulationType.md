@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="amprocesssimulationtype"></a>
-
 # `AMProcessSimulationType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMProcessSimulationType"></a>
@@ -42,4 +38,4 @@ Specifies the AMProcessSimulationType.
 
 ### AMProcessSimulationType.Yes *= 1*
 
-<!-- vale on -->
+

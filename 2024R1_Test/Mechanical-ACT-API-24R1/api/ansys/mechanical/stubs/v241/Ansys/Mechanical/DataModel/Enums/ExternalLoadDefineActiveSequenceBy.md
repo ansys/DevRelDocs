@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="externalloaddefineactivesequenceby"></a>
-
 # `ExternalLoadDefineActiveSequenceBy`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExternalLoadDefineActiveSequenceBy"></a>
@@ -42,4 +38,4 @@ Specifies the ExternalLoadDefineActiveSequenceBy.
 
 ### ExternalLoadDefineActiveSequenceBy.Value *= 2*
 
-<!-- vale on -->
+

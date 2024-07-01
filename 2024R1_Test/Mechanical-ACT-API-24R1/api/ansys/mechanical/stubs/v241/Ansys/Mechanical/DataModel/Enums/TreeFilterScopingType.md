@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="treefilterscopingtype"></a>
-
 # `TreeFilterScopingType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TreeFilterScopingType"></a>
@@ -37,4 +33,4 @@ Specifies the TreeFilterScopingType.
 
 ### TreeFilterScopingType.Partial *= 1*
 
-<!-- vale on -->
+

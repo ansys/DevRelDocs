@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="generalmiscellaneousoptiontype"></a>
-
 # `GeneralMiscellaneousOptionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeneralMiscellaneousOptionType"></a>
@@ -47,4 +43,4 @@ Specifies the GeneralMiscellaneousOptionType.
 
 ### GeneralMiscellaneousOptionType.StructuralBodies *= 2*
 
-<!-- vale on -->
+

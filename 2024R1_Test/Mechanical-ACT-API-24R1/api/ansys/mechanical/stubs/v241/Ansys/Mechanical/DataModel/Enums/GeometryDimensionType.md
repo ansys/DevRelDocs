@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="geometrydimensiontype"></a>
-
 # `GeometryDimensionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDimensionType"></a>
@@ -37,4 +33,4 @@ Specifies the GeometryDimensionType.
 
 ### GeometryDimensionType.Surface *= 1*
 
-<!-- vale on -->
+

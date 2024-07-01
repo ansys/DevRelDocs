@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="optimizationsolvertype"></a>
-
 # `OptimizationSolverType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.OptimizationSolverType"></a>
@@ -42,4 +38,4 @@ Specifies the OptimizationSolverType.
 
 ### OptimizationSolverType.SequentialConvexProgramming *= 8*
 
-<!-- vale on -->
+

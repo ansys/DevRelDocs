@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="tetintegrationtype"></a>
-
 # `TetIntegrationType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TetIntegrationType"></a>
@@ -42,4 +38,4 @@ Specifies the TetIntegrationType.
 
 ### TetIntegrationType.ConstantPressure *= 1*
 
-<!-- vale on -->
+

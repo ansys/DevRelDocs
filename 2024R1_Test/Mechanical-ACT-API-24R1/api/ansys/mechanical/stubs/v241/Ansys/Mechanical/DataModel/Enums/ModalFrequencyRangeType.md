@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="modalfrequencyrangetype"></a>
-
 # `ModalFrequencyRangeType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ModalFrequencyRangeType"></a>
@@ -37,4 +33,4 @@ Specifies the ModalFrequencyRangeType.
 
 ### ModalFrequencyRangeType.ProgramControlled *= 0*
 
-<!-- vale on -->
+

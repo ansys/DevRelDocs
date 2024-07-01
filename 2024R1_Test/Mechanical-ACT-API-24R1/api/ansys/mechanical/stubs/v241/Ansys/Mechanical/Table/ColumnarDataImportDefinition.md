@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="columnardataimportdefinition"></a>
-
 # `ColumnarDataImportDefinition`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Table.ColumnarDataImportDefinition"></a>
@@ -73,4 +69,4 @@ Gets or sets the variable type of the column.
 Gets or sets the variable classification of the column.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

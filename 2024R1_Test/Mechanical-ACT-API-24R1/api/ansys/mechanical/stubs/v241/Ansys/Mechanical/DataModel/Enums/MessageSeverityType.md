@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="messageseveritytype"></a>
-
 # `MessageSeverityType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MessageSeverityType"></a>
@@ -42,4 +38,4 @@ Specifies the Message Severity Type.
 
 ### MessageSeverityType.Info *= 2*
 
-<!-- vale on -->
+

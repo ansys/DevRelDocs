@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="plane"></a>
-
 # `Plane`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.ConstructionLines.Plane"></a>
@@ -116,4 +112,4 @@ Check to see if there is a valid entity that this instance represents.
 Checks to see if another plane is equivalent to this one.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="progress"></a>
-
 # `Progress`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Application.Progress"></a>
@@ -35,4 +31,4 @@ Defines a Progress.
 Set the current progress state
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

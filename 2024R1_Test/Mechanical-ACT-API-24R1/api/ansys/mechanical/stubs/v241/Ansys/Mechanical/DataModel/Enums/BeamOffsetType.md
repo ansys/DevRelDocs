@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="beamoffsettype"></a>
-
 # `BeamOffsetType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BeamOffsetType"></a>
@@ -47,4 +43,4 @@ Specifies the BeamOffsetType.
 
 ### BeamOffsetType.UserDefined *= 3*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="contactsplittype"></a>
-
 # `ContactSplitType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactSplitType"></a>
@@ -42,4 +38,4 @@ Specifies the ContactSplitType.
 
 ### ContactSplitType.ProgramControlled *= 0*
 
-<!-- vale on -->
+

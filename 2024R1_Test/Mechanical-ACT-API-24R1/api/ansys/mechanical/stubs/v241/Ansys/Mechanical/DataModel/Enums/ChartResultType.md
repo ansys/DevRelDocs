@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="chartresulttype"></a>
-
 # `ChartResultType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartResultType"></a>
@@ -112,4 +108,4 @@ Specifies the Chart Result Type.
 
 ### ChartResultType.MaxGeometricSlidingDistance *= 16*
 
-<!-- vale on -->
+

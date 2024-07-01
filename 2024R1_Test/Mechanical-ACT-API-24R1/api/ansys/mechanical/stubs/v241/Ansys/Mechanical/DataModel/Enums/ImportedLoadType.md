@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="importedloadtype"></a>
-
 # `ImportedLoadType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ImportedLoadType"></a>
@@ -147,4 +143,4 @@ Specifies the ImportedLoadType.
 
 ### ImportedLoadType.YarnAngle *= 10*
 
-<!-- vale on -->
+

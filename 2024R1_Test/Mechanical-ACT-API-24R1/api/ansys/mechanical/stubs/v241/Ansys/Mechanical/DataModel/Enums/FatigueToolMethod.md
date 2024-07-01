@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="fatiguetoolmethod"></a>
-
 # `FatigueToolMethod`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FatigueToolMethod"></a>
@@ -42,4 +38,4 @@ Specifies the FatigueToolMethod.
 
 ### FatigueToolMethod.Wirsching *= 2*
 
-<!-- vale on -->
+

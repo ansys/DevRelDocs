@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="spatialreductiontype"></a>
-
 # `SpatialReductionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SpatialReductionType"></a>
@@ -47,4 +43,4 @@ Specifies the SpatialReductionType.
 
 ### SpatialReductionType.Sum *= 4*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="ecadimportsettings"></a>
-
 # `ECADImportSettings`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.ExternalData.ECADImportSettings"></a>
@@ -43,4 +39,4 @@ selecting this option enables you to import trace data belonging to the dummy ne
 Gets the existing corresponding format.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

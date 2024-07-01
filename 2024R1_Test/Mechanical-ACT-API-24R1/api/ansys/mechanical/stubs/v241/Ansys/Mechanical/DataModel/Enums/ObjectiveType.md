@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="objectivetype"></a>
-
 # `ObjectiveType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ObjectiveType"></a>
@@ -72,4 +68,4 @@ Specifies the Objective Type.
 
 ### ObjectiveType.MinimizeThermalCompliance *= 8*
 
-<!-- vale on -->
+

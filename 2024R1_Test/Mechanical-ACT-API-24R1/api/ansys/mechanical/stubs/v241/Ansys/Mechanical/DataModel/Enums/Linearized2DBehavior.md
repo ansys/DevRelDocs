@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="linearized2dbehavior"></a>
-
 # `Linearized2DBehavior`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.Linearized2DBehavior"></a>
@@ -42,4 +38,4 @@ Specifies the Linearized2DBehavior.
 
 ### Linearized2DBehavior.Planar *= 0*
 
-<!-- vale on -->
+

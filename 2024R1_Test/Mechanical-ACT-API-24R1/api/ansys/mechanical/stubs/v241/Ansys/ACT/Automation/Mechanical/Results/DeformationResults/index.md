@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.DeformationResults"></a>
-
 <a id="deformationresults"></a>
 
 # `DeformationResults`
@@ -34,4 +30,4 @@
 DeformationResults subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

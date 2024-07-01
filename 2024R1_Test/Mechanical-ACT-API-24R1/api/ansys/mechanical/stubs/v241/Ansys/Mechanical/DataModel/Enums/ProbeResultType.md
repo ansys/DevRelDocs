@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="proberesulttype"></a>
-
 # `ProbeResultType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ProbeResultType"></a>
@@ -267,4 +263,4 @@ Specifies the ProbeResultType.
 
 ### ProbeResultType.VolumeProbe *= 51*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="contactdetection"></a>
-
 # `ContactDetection`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactDetection"></a>
@@ -37,4 +33,4 @@ Specifies the ContactDetection.
 
 ### ContactDetection.Trajectory *= 0*
 
-<!-- vale on -->
+

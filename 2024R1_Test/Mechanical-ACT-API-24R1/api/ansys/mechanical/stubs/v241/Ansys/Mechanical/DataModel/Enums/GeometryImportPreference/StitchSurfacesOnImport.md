@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="stitchsurfacesonimport"></a>
-
 # `StitchSurfacesOnImport`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.StitchSurfacesOnImport"></a>
@@ -42,4 +38,4 @@ Used to specify if and how to join surfaces when imported.
 
 ### StitchSurfacesOnImport.User *= 2*
 
-<!-- vale on -->
+

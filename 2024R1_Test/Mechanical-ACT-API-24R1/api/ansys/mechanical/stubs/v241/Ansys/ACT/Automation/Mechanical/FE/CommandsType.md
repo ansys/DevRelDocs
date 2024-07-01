@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="commandstype"></a>
-
 # `CommandsType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CommandsType"></a>
@@ -42,4 +38,4 @@ Commands type.
 
 ### CommandsType.All *= 3*
 
-<!-- vale on -->
+

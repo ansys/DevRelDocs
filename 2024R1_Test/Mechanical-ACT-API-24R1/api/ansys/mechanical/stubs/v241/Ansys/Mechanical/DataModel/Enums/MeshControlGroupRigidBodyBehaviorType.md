@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="meshcontrolgrouprigidbodybehaviortype"></a>
-
 # `MeshControlGroupRigidBodyBehaviorType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshControlGroupRigidBodyBehaviorType"></a>
@@ -37,4 +33,4 @@ Specifies the MeshControlGroupRigidBodyBehaviorType.
 
 ### MeshControlGroupRigidBodyBehaviorType.DimensionallyReduced *= 0*
 
-<!-- vale on -->
+

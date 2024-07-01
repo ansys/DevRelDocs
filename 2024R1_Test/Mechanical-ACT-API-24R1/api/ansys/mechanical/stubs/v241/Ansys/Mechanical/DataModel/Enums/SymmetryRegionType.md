@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="symmetryregiontype"></a>
-
 # `SymmetryRegionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SymmetryRegionType"></a>
@@ -42,4 +38,4 @@ Specifies the SymmetryRegionType.
 
 ### SymmetryRegionType.LinearPeriodic *= 6*
 
-<!-- vale on -->
+

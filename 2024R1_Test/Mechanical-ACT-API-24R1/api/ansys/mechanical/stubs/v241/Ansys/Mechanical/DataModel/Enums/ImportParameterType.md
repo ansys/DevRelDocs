@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="importparametertype"></a>
-
 # `ImportParameterType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ImportParameterType"></a>
@@ -42,4 +38,4 @@ Specifies the MethodType.
 
 ### ImportParameterType.All *= 3*
 
-<!-- vale on -->
+

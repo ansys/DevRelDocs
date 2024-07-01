@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="solutioncombinationdefinition"></a>
-
 # `SolutionCombinationDefinition`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.SolutionCombinationDefinition"></a>
@@ -251,4 +247,4 @@ Import Load Combination Definition data from Comma Separated Value (CSV) files
 Export Load Combination Definition data to Comma Separated Value (CSV) files
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

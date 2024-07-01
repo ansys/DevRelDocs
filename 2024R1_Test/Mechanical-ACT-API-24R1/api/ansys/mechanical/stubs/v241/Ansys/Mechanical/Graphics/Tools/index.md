@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.Tools"></a>
-
 <a id="tools"></a>
 
 # `Tools`
@@ -24,4 +20,4 @@
 Tools subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

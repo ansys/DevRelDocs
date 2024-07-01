@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="transformationtype"></a>
-
 # `TransformationType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TransformationType"></a>
@@ -47,4 +43,4 @@ Specifies the TransformationType.
 
 ### TransformationType.Rotation *= 2*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Adapters"></a>
-
 <a id="adapters"></a>
 
 # `Adapters`
@@ -43,4 +39,4 @@
 Adapters subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

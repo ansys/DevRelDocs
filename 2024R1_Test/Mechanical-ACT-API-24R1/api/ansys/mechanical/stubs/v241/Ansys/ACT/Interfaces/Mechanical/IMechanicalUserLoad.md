@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="imechanicaluserload"></a>
-
 # `IMechanicalUserLoad`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Interfaces.Mechanical.IMechanicalUserLoad"></a>
@@ -13,4 +9,4 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 Defines a Mechanical user load.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="seqselectionmode"></a>
-
 # `SeqSelectionMode`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SeqSelectionMode"></a>
@@ -47,4 +43,4 @@ Specifies the SeqSelectionMode.
 
 ### SeqSelectionMode.Unknown *= 0*
 
-<!-- vale on -->
+

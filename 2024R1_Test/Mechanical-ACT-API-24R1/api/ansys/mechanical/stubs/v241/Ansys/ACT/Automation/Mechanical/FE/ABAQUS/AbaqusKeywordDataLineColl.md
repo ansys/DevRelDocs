@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="abaquskeyworddatalinecoll"></a>
-
 # `AbaqusKeywordDataLineColl`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.ABAQUS.AbaqusKeywordDataLineColl"></a>
@@ -35,4 +31,4 @@ Collection of keyword data lines.
 Gets the list of data lines.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="transientapplicationtype"></a>
-
 # `TransientApplicationType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TransientApplicationType"></a>
@@ -57,4 +53,4 @@ Specifies the TransientApplicationType.
 
 ### TransientApplicationType.UserDefined *= 5*
 
-<!-- vale on -->
+

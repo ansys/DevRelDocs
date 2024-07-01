@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="condensedpartkeepfilesfor"></a>
-
 # `CondensedPartKeepFilesFor`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CondensedPartKeepFilesFor"></a>
@@ -42,4 +38,4 @@ Specifies the CondensedPartKeepFilesFor.
 
 ### CondensedPartKeepFilesFor.OnDemandExpansion *= 1*
 
-<!-- vale on -->
+

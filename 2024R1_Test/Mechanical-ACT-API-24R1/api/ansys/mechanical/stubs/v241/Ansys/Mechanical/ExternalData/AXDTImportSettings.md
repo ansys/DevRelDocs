@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="axdtimportsettings"></a>
-
 # `AXDTImportSettings`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.ExternalData.AXDTImportSettings"></a>
@@ -42,4 +38,4 @@ The dimension of the AXDT file.
 Gets the existing corresponding format.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

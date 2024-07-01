@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="constructionlinehelper"></a>
-
 # `ConstructionLineHelper`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.ConstructionLines.ConstructionLineHelper"></a>
@@ -98,4 +94,4 @@ Collect all the edges and edge vertices, then export them as global points to an
 Import global points and connecting edges from an XML file.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

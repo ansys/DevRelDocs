@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="algorithmtype"></a>
-
 # `AlgorithmType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AlgorithmType"></a>
@@ -42,4 +38,4 @@ Specifies the AlgorithmType.
 
 ### AlgorithmType.SCPIP *= 2*
 
-<!-- vale on -->
+

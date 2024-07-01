@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="contactboltthreadhand"></a>
-
 # `ContactBoltThreadHand`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactBoltThreadHand"></a>
@@ -37,4 +33,4 @@ Specifies the ContactBoltThreadHand.
 
 ### ContactBoltThreadHand.RightHand *= 0*
 
-<!-- vale on -->
+

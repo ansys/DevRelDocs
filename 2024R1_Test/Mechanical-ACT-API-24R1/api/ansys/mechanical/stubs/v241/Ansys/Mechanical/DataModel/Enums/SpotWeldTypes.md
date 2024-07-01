@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="spotweldtypes"></a>
-
 # `SpotWeldTypes`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SpotWeldTypes"></a>
@@ -37,4 +33,4 @@ Specifies the SpotWeldTypes.
 
 ### SpotWeldTypes.Independent *= 1*
 
-<!-- vale on -->
+

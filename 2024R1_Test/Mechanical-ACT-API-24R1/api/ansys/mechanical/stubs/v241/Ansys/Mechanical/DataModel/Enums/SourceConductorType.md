@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="sourceconductortype"></a>
-
 # `SourceConductorType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SourceConductorType"></a>
@@ -37,4 +33,4 @@ Specifies the SourceConductorType.
 
 ### SourceConductorType.Stranded *= 1*
 
-<!-- vale on -->
+

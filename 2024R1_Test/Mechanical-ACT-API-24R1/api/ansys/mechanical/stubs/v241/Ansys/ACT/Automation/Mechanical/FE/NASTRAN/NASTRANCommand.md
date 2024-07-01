@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="nastrancommand"></a>
-
 # `NASTRANCommand`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.NASTRAN.NASTRANCommand"></a>
@@ -44,4 +40,4 @@ Gets the command name.
 Gets the command index.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="bfcommand"></a>
-
 # `BFCommand`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.BFCommand"></a>
@@ -80,4 +76,4 @@ Gets the command name.
 Gets the command index.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

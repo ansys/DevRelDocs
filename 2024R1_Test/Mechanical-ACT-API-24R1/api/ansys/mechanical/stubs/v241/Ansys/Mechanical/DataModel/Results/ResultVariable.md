@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="resultvariable"></a>
-
 # `ResultVariable`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Results.ResultVariable"></a>
@@ -44,4 +40,4 @@ Item property.
 Count property.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

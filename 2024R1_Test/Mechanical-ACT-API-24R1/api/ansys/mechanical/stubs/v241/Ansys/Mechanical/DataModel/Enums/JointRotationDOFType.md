@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="jointrotationdoftype"></a>
-
 # `JointRotationDOFType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.JointRotationDOFType"></a>
@@ -52,4 +48,4 @@ Specifies the JointRotationDOFType.
 
 ### JointRotationDOFType.FreeZ *= 3*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="interfacedelamination"></a>
-
 # `InterfaceDelamination`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.InterfaceDelamination"></a>
@@ -434,4 +430,4 @@ Gets the parameter corresponding to the given property.
 Removes the parameter from the parameter set corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

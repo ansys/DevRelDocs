@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="frequencyrangetype"></a>
-
 # `FrequencyRangeType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FrequencyRangeType"></a>
@@ -37,4 +33,4 @@ Specifies the Selected Frequency Range Type.
 
 ### FrequencyRangeType.Manual *= 1*
 
-<!-- vale on -->
+

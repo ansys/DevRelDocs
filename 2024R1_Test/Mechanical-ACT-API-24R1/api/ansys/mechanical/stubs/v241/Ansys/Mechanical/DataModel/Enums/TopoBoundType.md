@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="topoboundtype"></a>
-
 # `TopoBoundType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TopoBoundType"></a>
@@ -37,4 +33,4 @@ Specifies the TopoBoundType.
 
 ### TopoBoundType.UpperBound *= 1*
 
-<!-- vale on -->
+

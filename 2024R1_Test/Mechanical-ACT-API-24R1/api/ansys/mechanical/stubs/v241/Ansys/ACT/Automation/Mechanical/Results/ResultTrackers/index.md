@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ResultTrackers"></a>
-
 <a id="resulttrackers"></a>
 
 # `ResultTrackers`
@@ -96,4 +92,4 @@
 ResultTrackers subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

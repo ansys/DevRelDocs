@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="outcometype"></a>
-
 # `OutcomeType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.OutcomeType"></a>
@@ -67,4 +63,4 @@ This enum is referenced in the “Outcome” tree node and reflects the type of 
 
 ### OutcomeType.VolumeZoneScope *= 15*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="springbehavior"></a>
-
 # `SpringBehavior`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SpringBehavior"></a>
@@ -47,4 +43,4 @@ Specifies the SpringBehavior.
 
 ### SpringBehavior.NonLinearTensionOnly *= 2*
 
-<!-- vale on -->
+

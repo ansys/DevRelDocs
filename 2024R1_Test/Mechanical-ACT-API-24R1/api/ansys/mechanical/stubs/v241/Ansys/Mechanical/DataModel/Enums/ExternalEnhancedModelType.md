@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="externalenhancedmodeltype"></a>
-
 # `ExternalEnhancedModelType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExternalEnhancedModelType"></a>
@@ -32,4 +28,4 @@ Specifies the ExternalEnhancedModelType.
 
 ### ExternalEnhancedModelType.ImportedPlies *= 0*
 
-<!-- vale on -->
+

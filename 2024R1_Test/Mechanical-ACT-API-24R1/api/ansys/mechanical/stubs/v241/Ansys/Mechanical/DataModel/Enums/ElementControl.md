@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="elementcontrol"></a>
-
 # `ElementControl`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ElementControl"></a>
@@ -37,4 +33,4 @@ Specifies the ElementControl.
 
 ### ElementControl.ProgramControlled *= 0*
 
-<!-- vale on -->
+

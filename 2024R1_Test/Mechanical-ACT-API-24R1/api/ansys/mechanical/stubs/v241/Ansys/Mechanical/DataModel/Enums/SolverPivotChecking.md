@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="solverpivotchecking"></a>
-
 # `SolverPivotChecking`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolverPivotChecking"></a>
@@ -47,4 +43,4 @@ Specifies the SolverPivotChecking.
 
 ### SolverPivotChecking.Warning *= 1*
 
-<!-- vale on -->
+

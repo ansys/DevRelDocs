@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="resultaveragingtype"></a>
-
 # `ResultAveragingType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultAveragingType"></a>
@@ -62,4 +58,4 @@ Specifies the ResultAveragingType.
 
 ### ResultAveragingType.ElementalMean *= 6*
 
-<!-- vale on -->
+

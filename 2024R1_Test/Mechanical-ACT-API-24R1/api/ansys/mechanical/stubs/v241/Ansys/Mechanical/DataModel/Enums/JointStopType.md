@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="jointstoptype"></a>
-
 # `JointStopType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.JointStopType"></a>
@@ -42,4 +38,4 @@ Specifies the JointStopType.
 
 ### JointStopType.Stop *= 1*
 
-<!-- vale on -->
+

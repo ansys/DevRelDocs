@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="commandelement"></a>
-
 # `CommandElement`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandElement"></a>
@@ -107,4 +103,4 @@ Gets the number of nodes.
 Gets the nodes.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

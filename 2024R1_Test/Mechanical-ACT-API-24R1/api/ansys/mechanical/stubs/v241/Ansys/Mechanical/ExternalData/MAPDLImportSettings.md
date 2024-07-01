@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="mapdlimportsettings"></a>
-
 # `MAPDLImportSettings`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.ExternalData.MAPDLImportSettings"></a>
@@ -51,4 +47,4 @@ The length unit of the MAPDL CDB file.
 Gets the existing corresponding format.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

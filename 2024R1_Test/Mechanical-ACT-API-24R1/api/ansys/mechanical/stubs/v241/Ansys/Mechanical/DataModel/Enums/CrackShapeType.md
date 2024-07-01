@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="crackshapetype"></a>
-
 # `CrackShapeType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrackShapeType"></a>
@@ -67,4 +63,4 @@ Specifies the CrackShapeType.
 
 ### CrackShapeType.Through *= 7*
 
-<!-- vale on -->
+

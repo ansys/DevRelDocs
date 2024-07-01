@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="hyperbolicprojectiontype"></a>
-
 # `HyperbolicProjectionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.HyperbolicProjectionType"></a>
@@ -42,4 +38,4 @@ Specifies the HyperbolicProjectionType.
 
 ### HyperbolicProjectionType.Yes *= 1*
 
-<!-- vale on -->
+

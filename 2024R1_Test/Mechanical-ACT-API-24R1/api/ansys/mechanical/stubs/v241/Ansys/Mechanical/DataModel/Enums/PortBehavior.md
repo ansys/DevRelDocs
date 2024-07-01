@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="portbehavior"></a>
-
 # `PortBehavior`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PortBehavior"></a>
@@ -37,4 +33,4 @@ Specifies the PortBehavior.
 
 ### PortBehavior.Vibro *= 0*
 
-<!-- vale on -->
+

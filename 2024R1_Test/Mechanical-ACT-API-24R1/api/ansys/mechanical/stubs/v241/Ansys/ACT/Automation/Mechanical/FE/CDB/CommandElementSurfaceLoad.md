@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="commandelementsurfaceload"></a>
-
 # `CommandElementSurfaceLoad`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandElementSurfaceLoad"></a>
@@ -71,4 +67,4 @@ Gets the keys.
 Gets the values.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

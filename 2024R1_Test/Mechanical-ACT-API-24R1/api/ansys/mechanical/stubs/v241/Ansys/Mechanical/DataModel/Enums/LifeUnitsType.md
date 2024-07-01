@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="lifeunitstype"></a>
-
 # `LifeUnitsType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LifeUnitsType"></a>
@@ -67,4 +63,4 @@ Specifies the Life Units Type.
 
 ### LifeUnitsType.UserDefined *= 7*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="remotepointdofselectiontype"></a>
-
 # `RemotePointDOFSelectionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RemotePointDOFSelectionType"></a>
@@ -37,4 +33,4 @@ Specifies the RemotePointDOFSelectionType.
 
 ### RemotePointDOFSelectionType.ProgramControlled *= 0*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="harmonicvariationaltechnology"></a>
-
 # `HarmonicVariationalTechnology`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.HarmonicVariationalTechnology"></a>
@@ -42,4 +38,4 @@ Specifies the HarmonicVariationalTechnology.
 
 ### HarmonicVariationalTechnology.Yes *= 2*
 
-<!-- vale on -->
+

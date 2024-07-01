@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="extrudeby"></a>
-
 # `ExtrudeBy`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExtrudeBy"></a>
@@ -42,4 +38,4 @@ To specify the method of extrusion. The available options are Use Coordinate Sys
 
 ### ExtrudeBy.FaceNormalReversed *= 2*
 
-<!-- vale on -->
+

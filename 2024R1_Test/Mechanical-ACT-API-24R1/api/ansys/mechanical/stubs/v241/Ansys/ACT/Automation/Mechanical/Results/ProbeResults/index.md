@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ProbeResults"></a>
-
 <a id="proberesults"></a>
 
 # `ProbeResults`
@@ -63,4 +59,4 @@
 ProbeResults subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

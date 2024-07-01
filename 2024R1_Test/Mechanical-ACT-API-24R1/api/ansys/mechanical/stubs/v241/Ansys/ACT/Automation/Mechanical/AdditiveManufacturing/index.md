@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AdditiveManufacturing"></a>
-
 <a id="additivemanufacturing"></a>
 
 # `AdditiveManufacturing`
@@ -43,4 +39,4 @@
 AdditiveManufacturing subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="storemodalresult"></a>
-
 # `StoreModalResult`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StoreModalResult"></a>
@@ -42,4 +38,4 @@ Specifies the StoreModalResult.
 
 ### StoreModalResult.ProgramControlled *= 0*
 
-<!-- vale on -->
+

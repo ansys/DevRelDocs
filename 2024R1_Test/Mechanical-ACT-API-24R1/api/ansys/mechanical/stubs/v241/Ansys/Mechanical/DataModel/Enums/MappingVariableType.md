@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="mappingvariabletype"></a>
-
 # `MappingVariableType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MappingVariableType"></a>
@@ -120,4 +116,4 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### MappingVariableType.MappingTransferElementOrientation *= 18*
 
-<!-- vale on -->
+

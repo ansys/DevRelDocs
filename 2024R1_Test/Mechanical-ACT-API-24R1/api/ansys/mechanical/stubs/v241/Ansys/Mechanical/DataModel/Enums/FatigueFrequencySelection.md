@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="fatiguefrequencyselection"></a>
-
 # `FatigueFrequencySelection`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FatigueFrequencySelection"></a>
@@ -42,4 +38,4 @@ Specifies the EnclosureType.
 
 ### FatigueFrequencySelection.SineSweep *= 2*
 
-<!-- vale on -->
+

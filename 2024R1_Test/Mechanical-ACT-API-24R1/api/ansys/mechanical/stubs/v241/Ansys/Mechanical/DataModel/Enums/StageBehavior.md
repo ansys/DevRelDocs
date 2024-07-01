@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="stagebehavior"></a>
-
 # `StageBehavior`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StageBehavior"></a>
@@ -37,4 +33,4 @@ Specifies the StageBehavior.
 
 ### StageBehavior.Normal *= 0*
 
-<!-- vale on -->
+

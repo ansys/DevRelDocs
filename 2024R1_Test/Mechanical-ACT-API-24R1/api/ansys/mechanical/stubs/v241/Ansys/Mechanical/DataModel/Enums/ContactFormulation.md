@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="contactformulation"></a>
-
 # `ContactFormulation`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactFormulation"></a>
@@ -62,4 +58,4 @@ Specifies the ContactFormulation.
 
 ### ContactFormulation.PurePenalty *= 1*
 
-<!-- vale on -->
+

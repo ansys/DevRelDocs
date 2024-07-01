@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="acousticimpedanceboundary"></a>
-
 # `AcousticImpedanceBoundary`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.AcousticImpedanceBoundary"></a>
@@ -335,4 +331,4 @@ Gets the parameter corresponding to the given property.
 Removes the parameter from the parameter set corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

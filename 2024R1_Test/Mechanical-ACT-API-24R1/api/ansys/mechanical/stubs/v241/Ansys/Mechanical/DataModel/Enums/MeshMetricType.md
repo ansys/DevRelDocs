@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="meshmetrictype"></a>
-
 # `MeshMetricType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshMetricType"></a>
@@ -142,4 +138,4 @@ Specifies the MeshMetricType.
 
 ### MeshMetricType.WarpingFactor *= 4*
 
-<!-- vale on -->
+

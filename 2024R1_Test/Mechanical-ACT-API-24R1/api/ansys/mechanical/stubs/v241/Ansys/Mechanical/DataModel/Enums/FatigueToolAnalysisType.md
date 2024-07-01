@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="fatiguetoolanalysistype"></a>
-
 # `FatigueToolAnalysisType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FatigueToolAnalysisType"></a>
@@ -37,4 +33,4 @@ Specifies the FatigueToolAnalysisType.
 
 ### FatigueToolAnalysisType.StressLife *= 0*
 
-<!-- vale on -->
+

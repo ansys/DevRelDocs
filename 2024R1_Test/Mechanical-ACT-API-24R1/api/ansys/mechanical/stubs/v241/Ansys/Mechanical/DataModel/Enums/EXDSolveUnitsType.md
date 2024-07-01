@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="exdsolveunitstype"></a>
-
 # `EXDSolveUnitsType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EXDSolveUnitsType"></a>
@@ -45,4 +41,4 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### EXDSolveUnitsType.mmmgms *= 3*
 
-<!-- vale on -->
+

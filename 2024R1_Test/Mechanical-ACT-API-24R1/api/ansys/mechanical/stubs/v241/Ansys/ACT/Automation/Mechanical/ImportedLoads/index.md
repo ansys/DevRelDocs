@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ImportedLoads"></a>
-
 <a id="importedloads"></a>
 
 # `ImportedLoads`
@@ -46,4 +42,4 @@
 ImportedLoads subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

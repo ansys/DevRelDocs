@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="mechanicalcamerawrapper"></a>
-
 # `MechanicalCameraWrapper`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Common.Graphics.MechanicalCameraWrapper"></a>
@@ -134,4 +130,4 @@ Zooms in or out on the model.
 Shifts the camera position horizontally or vertically based on x and y quantities.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="condensedpartinterface"></a>
-
 # `CondensedPartInterface`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CondensedPartInterface"></a>
@@ -62,4 +58,4 @@ Gets or Sets NamedSelection
 AllSelection property.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

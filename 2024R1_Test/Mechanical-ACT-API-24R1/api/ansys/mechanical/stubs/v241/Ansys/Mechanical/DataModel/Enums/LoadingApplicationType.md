@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="loadingapplicationtype"></a>
-
 # `LoadingApplicationType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadingApplicationType"></a>
@@ -37,4 +33,4 @@ Specifies the LoadingApplicationType.
 
 ### LoadingApplicationType.Table *= 1*
 
-<!-- vale on -->
+

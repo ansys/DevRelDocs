@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="nastranexportoptions"></a>
-
 # `NastranExportOptions`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NastranExportOptions"></a>
@@ -116,4 +112,4 @@ Time.
 Ground check.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

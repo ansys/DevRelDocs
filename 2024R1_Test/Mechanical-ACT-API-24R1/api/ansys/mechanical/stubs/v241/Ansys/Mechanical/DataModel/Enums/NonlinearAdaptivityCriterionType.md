@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="nonlinearadaptivitycriteriontype"></a>
-
 # `NonlinearAdaptivityCriterionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityCriterionType"></a>
@@ -52,4 +48,4 @@ Specifies the NonlinearAdaptivityCriterionType.
 
 ### NonlinearAdaptivityCriterionType.Undefined *= 0*
 
-<!-- vale on -->
+

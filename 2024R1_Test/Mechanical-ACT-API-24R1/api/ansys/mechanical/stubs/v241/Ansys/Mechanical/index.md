@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.Mechanical"></a>
-
 <a id="mechanical"></a>
 
 # `Mechanical`
@@ -32,4 +28,4 @@
 Mechanical submodule.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

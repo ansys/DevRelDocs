@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.SolverData"></a>
-
 <a id="solverdata"></a>
 
 # `SolverData`
@@ -38,4 +34,4 @@
 SolverData subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

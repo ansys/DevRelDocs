@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="cyclicharmonicindex"></a>
-
 # `CyclicHarmonicIndex`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CyclicHarmonicIndex"></a>
@@ -37,4 +33,4 @@ Specifies the CyclicHarmonicIndex.
 
 ### CyclicHarmonicIndex.ProgramControlled *= 0*
 
-<!-- vale on -->
+

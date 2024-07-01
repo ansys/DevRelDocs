@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="phasetype"></a>
-
 # `PhaseType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PhaseType"></a>
@@ -42,4 +38,4 @@ Specifies the Prototype Phase Type.
 
 ### PhaseType.Solid *= 2*
 
-<!-- vale on -->
+

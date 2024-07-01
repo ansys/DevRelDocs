@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="legendcolorschemetype"></a>
-
 # `LegendColorSchemeType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LegendColorSchemeType"></a>
@@ -47,4 +43,4 @@ Specifies the Legend Color Scheme type.
 
 ### LegendColorSchemeType.ReverseGrayScale *= 4*
 
-<!-- vale on -->
+

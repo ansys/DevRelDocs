@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="resultanimationrangetype"></a>
-
 # `ResultAnimationRangeType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultAnimationRangeType"></a>
@@ -37,4 +33,4 @@ Specifies the Result Animation Range Type
 
 ### ResultAnimationRangeType.Distributed *= 1*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="externalloaddisplaycomponenttype"></a>
-
 # `ExternalLoadDisplayComponentType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExternalLoadDisplayComponentType"></a>
@@ -87,4 +83,4 @@ Specifies the ExternalLoadDisplayComponentType.
 
 ### ExternalLoadDisplayComponentType.ZZComponent *= 13*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="growelbowelementsby"></a>
-
 # `GrowElbowElementsBy`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GrowElbowElementsBy"></a>
@@ -47,4 +43,4 @@ Specifies the GrowElbowElementsBy.
 
 ### GrowElbowElementsBy.No *= 0*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="condensedpartfileformat"></a>
-
 # `CondensedPartFileFormat`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CondensedPartFileFormat"></a>
@@ -42,4 +38,4 @@ Specifies the CondensedPartFileFormat.
 
 ### CondensedPartFileFormat.GenerationPassOutput_SUB *= 1*
 
-<!-- vale on -->
+

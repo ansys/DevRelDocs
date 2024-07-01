@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="bodytreatment"></a>
-
 # `BodyTreatment`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BodyTreatment"></a>
@@ -37,4 +33,4 @@ Specifies the BodyTreatment.
 
 ### BodyTreatment.None_ *= 0*
 
-<!-- vale on -->
+

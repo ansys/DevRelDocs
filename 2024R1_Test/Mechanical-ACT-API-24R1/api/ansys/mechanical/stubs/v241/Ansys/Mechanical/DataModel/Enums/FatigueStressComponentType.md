@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="fatiguestresscomponenttype"></a>
-
 # `FatigueStressComponentType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FatigueStressComponentType"></a>
@@ -82,4 +78,4 @@ Specifies the Fatigue Stress Component Type.
 
 ### FatigueStressComponentType.FatigueToolAbsMaxPrincipal *= 10*
 
-<!-- vale on -->
+

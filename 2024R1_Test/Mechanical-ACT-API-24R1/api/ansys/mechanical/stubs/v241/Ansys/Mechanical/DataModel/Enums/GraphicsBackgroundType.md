@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="graphicsbackgroundtype"></a>
-
 # `GraphicsBackgroundType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsBackgroundType"></a>
@@ -37,4 +33,4 @@ Specifies the Graphics Image Background Type.
 
 ### GraphicsBackgroundType.White *= 1*
 
-<!-- vale on -->
+

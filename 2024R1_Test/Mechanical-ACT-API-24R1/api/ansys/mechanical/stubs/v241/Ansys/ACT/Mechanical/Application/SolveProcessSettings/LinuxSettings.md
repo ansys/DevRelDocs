@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="linuxsettings"></a>
-
 # `LinuxSettings`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Application.SolveProcessSettings.LinuxSettings"></a>
@@ -53,4 +49,4 @@ The user name.
 The working folder.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="randomsamplingtype"></a>
-
 # `RandomSamplingType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RandomSamplingType"></a>
@@ -42,4 +38,4 @@ Specifies the RandomSamplingType.
 
 ### RandomSamplingType.Single *= 2*
 
-<!-- vale on -->
+

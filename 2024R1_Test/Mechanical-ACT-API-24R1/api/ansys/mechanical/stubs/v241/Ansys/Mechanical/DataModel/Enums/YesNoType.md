@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="yesnotype"></a>
-
 # `YesNoType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.YesNoType"></a>
@@ -37,4 +33,4 @@ Specifies the YesNoType.
 
 ### YesNoType.Yes *= 1*
 
-<!-- vale on -->
+

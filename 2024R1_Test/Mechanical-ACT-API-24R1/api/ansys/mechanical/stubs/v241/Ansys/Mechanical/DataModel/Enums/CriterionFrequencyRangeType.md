@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="criterionfrequencyrangetype"></a>
-
 # `CriterionFrequencyRangeType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CriterionFrequencyRangeType"></a>
@@ -37,4 +33,4 @@ Specifies the CriterionFrequencyRangeType.
 
 ### CriterionFrequencyRangeType.UseParent *= 0*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="doubleproperty"></a>
-
 # `DoubleProperty`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.AdditionalProperties.DoubleProperty"></a>
@@ -98,4 +94,4 @@ Get the string representation of the value.
 Returns whether a property is readonly.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.ACT.Automation"></a>
-
 <a id="automation"></a>
 
 # `Automation`
@@ -23,4 +19,4 @@
 Automation submodule.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

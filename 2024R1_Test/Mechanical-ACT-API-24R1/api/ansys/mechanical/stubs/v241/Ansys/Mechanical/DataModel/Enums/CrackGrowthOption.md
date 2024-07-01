@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="crackgrowthoption"></a>
-
 # `CrackGrowthOption`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrackGrowthOption"></a>
@@ -37,4 +33,4 @@ Specifies the CrackGrowthOption.
 
 ### CrackGrowthOption.Static *= 1*
 
-<!-- vale on -->
+

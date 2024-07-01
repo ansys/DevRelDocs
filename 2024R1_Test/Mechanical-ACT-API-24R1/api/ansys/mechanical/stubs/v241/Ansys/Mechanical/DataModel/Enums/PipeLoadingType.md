@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="pipeloadingtype"></a>
-
 # `PipeLoadingType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PipeLoadingType"></a>
@@ -37,4 +33,4 @@ Specifies the PipeLoadingType.
 
 ### PipeLoadingType.Internal *= 1*
 
-<!-- vale on -->
+

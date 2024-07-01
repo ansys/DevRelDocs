@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="virtualcellgroupautomaticbehaviortype"></a>
-
 # `VirtualCellGroupAutomaticBehaviorType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.VirtualCellGroupAutomaticBehaviorType"></a>
@@ -52,4 +48,4 @@ Specifies the VirtualCellGroupAutomaticBehaviorType.
 
 ### VirtualCellGroupAutomaticBehaviorType.Custom *= 4*
 
-<!-- vale on -->
+

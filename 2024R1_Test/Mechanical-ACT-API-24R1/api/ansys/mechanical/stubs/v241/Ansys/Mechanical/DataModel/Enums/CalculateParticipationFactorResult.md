@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="calculateparticipationfactorresult"></a>
-
 # `CalculateParticipationFactorResult`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CalculateParticipationFactorResult"></a>
@@ -42,4 +38,4 @@ Specifies the CalculateParticipationFactorResult.
 
 ### CalculateParticipationFactorResult.Yes *= 1*
 
-<!-- vale on -->
+

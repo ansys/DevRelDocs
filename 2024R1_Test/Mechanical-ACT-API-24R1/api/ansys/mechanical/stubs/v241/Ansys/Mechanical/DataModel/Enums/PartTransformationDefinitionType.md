@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="parttransformationdefinitiontype"></a>
-
 # `PartTransformationDefinitionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PartTransformationDefinitionType"></a>
@@ -37,4 +33,4 @@ Specifies the PartTransformationDefinitionType.
 
 ### PartTransformationDefinitionType.RotationAndTranslation *= 1*
 
-<!-- vale on -->
+

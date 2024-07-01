@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="exdsaveresultsontype"></a>
-
 # `EXDSaveResultsOnType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EXDSaveResultsOnType"></a>
@@ -40,4 +36,4 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### EXDSaveResultsOnType.EquallySpaced *= 2*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="momentsatsummationpointtype"></a>
-
 # `MomentsAtSummationPointType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType"></a>
@@ -37,4 +33,4 @@ Specifies the Moments at summation point type.
 
 ### MomentsAtSummationPointType.Centroid *= 1*
 
-<!-- vale on -->
+

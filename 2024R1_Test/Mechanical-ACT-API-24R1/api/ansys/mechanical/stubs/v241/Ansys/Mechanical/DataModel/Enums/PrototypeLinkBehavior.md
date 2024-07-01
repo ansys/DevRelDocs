@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="prototypelinkbehavior"></a>
-
 # `PrototypeLinkBehavior`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PrototypeLinkBehavior"></a>
@@ -42,4 +38,4 @@ Specifies the PrototypeLinkBehavior.
 
 ### PrototypeLinkBehavior.TensionCompression *= 0*
 
-<!-- vale on -->
+

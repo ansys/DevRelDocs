@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="chartxaxis"></a>
-
 # `ChartXAxis`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ChartXAxis"></a>
@@ -44,4 +40,4 @@ Gets or sets the object being used to control the X Axis. Setting to None return
 Gets or sets the component index for the chart.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

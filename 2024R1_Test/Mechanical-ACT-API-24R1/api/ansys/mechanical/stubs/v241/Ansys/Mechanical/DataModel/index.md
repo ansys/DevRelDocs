@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel"></a>
-
 <a id="datamodel"></a>
 
 # `DataModel`
@@ -29,4 +25,4 @@
 DataModel submodule.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

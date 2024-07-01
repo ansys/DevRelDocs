@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="rsboundaryconditionselectiontype"></a>
-
 # `RSBoundaryConditionSelectionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RSBoundaryConditionSelectionType"></a>
@@ -37,4 +33,4 @@ Specifies the RSBoundaryConditionSelectionType.
 
 ### RSBoundaryConditionSelectionType.AllSupports *= 1*
 
-<!-- vale on -->
+

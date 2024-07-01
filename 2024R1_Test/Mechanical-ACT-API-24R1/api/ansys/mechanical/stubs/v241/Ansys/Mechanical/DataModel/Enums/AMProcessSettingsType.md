@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="amprocesssettingstype"></a>
-
 # `AMProcessSettingsType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMProcessSettingsType"></a>
@@ -42,4 +38,4 @@ Specifies the AMProcessSettingsType.
 
 ### AMProcessSettingsType.SpecifiedTemperature *= 1*
 
-<!-- vale on -->
+

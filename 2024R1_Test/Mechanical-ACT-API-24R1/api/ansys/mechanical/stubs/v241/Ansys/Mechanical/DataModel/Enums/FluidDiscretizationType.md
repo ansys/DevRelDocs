@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="fluiddiscretizationtype"></a>
-
 # `FluidDiscretizationType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FluidDiscretizationType"></a>
@@ -42,4 +38,4 @@ Specifies the Fluid Discretization Type.
 
 ### FluidDiscretizationType.FluidUpwindExponential *= 2*
 
-<!-- vale on -->
+

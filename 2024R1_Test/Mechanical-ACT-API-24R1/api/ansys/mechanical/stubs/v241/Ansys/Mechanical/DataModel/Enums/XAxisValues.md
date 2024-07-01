@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="xaxisvalues"></a>
-
 # `XAxisValues`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.XAxisValues"></a>
@@ -37,4 +33,4 @@ Specifies the XAxisValues.
 
 ### XAxisValues.Time *= 0*
 
-<!-- vale on -->
+

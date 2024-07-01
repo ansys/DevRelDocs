@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="abaquskeywordargumentcoll"></a>
-
 # `AbaqusKeywordArgumentColl`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.ABAQUS.AbaqusKeywordArgumentColl"></a>
@@ -35,4 +31,4 @@ Collection of keyword arguments.
 Gets the list of arguments.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

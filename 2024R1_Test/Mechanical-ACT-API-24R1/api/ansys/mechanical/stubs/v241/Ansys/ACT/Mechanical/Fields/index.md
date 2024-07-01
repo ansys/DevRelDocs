@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields"></a>
-
 <a id="fields"></a>
 
 # `Fields`
@@ -36,4 +32,4 @@
 Fields subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

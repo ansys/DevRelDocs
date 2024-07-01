@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="featuresuppressmethod"></a>
-
 # `FeatureSuppressMethod`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FeatureSuppressMethod"></a>
@@ -42,4 +38,4 @@ To select the method of FeatureSuppress.
 
 ### FeatureSuppressMethod.ParentFaces *= 2*
 
-<!-- vale on -->
+

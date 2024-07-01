@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="chartreporttype"></a>
-
 # `ChartReportType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartReportType"></a>
@@ -47,4 +43,4 @@ Specifies the ChartReportType.
 
 ### ChartReportType.TabularDataOnly *= 1*
 
-<!-- vale on -->
+

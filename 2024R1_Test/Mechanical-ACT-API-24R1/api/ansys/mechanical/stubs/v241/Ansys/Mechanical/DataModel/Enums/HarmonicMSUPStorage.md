@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="harmonicmsupstorage"></a>
-
 # `HarmonicMSUPStorage`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.HarmonicMSUPStorage"></a>
@@ -37,4 +33,4 @@ Specifies the HarmonicMSUPStorage.
 
 ### HarmonicMSUPStorage.SelectedFrequencies *= 1*
 
-<!-- vale on -->
+
