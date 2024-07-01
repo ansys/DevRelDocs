@@ -1,7 +1,3 @@
-<a id="saf-hub-index"></a>
-
-<a id="saf-hub"></a>
-
 # SAF hub
 
 > ##### Summary

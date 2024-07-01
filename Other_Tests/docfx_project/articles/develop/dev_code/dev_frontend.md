@@ -1,7 +1,3 @@
-<a id="dev-frontend"></a>
-
-<a id="develop-the-frontend"></a>
-
 # Develop the frontend
 
 <!-- Definitions of interpreted text roles (classes) for S5/HTML data. -->

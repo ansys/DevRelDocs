@@ -1,7 +1,3 @@
-<a id="saf-faq"></a>
-
-<a id="id1"></a>
-
 # SAF FAQ
 
 This is a list of frequently asked questions about **SAF**. Feel free to suggest new entries.

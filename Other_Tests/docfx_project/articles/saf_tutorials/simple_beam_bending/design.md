@@ -1,7 +1,3 @@
-<a id="design-index"></a>
-
-<a id="design"></a>
-
 # Design
 
 Design is the first phase of the solution development lifecycle. Here, you’ll cover the steps below.

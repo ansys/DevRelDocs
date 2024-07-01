@@ -1,7 +1,3 @@
-<a id="setup-index"></a>
-
-<a id="setup"></a>
-
 # Setup
 
 Setup is the second phase of the solution development lifecycle. Here, you’ll need to address two key steps:

@@ -1,7 +1,3 @@
-<a id="sa-dev-community"></a>
-
-<a id="what-is-the-ansys-developer-portal"></a>
-
 # What is the Ansys Developer portal?
 
 The [Ansys Developer portal](https://developer.ansys.com/) is the digital home of the *Ansys Developer Experience*. As the central hub of collaboration and education for all developers interested in working with Ansys products and technologies, it is open to all users.

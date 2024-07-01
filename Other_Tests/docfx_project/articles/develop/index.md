@@ -1,7 +1,3 @@
-<a id="develop-index"></a>
-
-<a id="develop"></a>
-
 # Develop
 
 > ##### Summary

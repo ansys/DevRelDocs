@@ -1,7 +1,3 @@
-<a id="e2e-tutorials-index"></a>
-
-<a id="tutorials"></a>
-
 # Tutorials
 
 > ##### Summary

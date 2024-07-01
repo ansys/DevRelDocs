@@ -1,7 +1,3 @@
-<a id="saf-ex-long-running-transaction-streaming"></a>
-
-<a id="long-running-transaction-streaming-uploads"></a>
-
 # Long-running transaction streaming uploads
 
 <a id="saf-ex-long-running-trans-summary"></a>

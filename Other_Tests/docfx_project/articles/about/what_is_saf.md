@@ -1,7 +1,3 @@
-<a id="getting-started-about-saf"></a>
-
-<a id="what-is-the-solution-applications-framework"></a>
-
 # What is the Solution Applications Framework?
 
 The **Ansys Solution Applications Framework (SAF)** is a low-code inner-source, Python-based framework designed for the development and deployment of custom Ansys-driven solution applications.

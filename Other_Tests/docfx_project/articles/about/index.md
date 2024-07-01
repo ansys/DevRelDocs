@@ -1,7 +1,3 @@
-<a id="saf-about-index"></a>
-
-<a id="solutions-overview"></a>
-
 # Solutions overview
 
 > ##### Summary

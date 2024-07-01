@@ -1,7 +1,3 @@
-<a id="dev-protect"></a>
-
-<a id="protect"></a>
-
 # Protect
 
 > ##### Summary

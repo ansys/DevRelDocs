@@ -1,7 +1,3 @@
-<a id="home-page-index"></a>
-
-<a id="ansys-solution-developer-s-guide"></a>
-
 # Ansys® solution developer’s guide
 
 Welcome to the *Ansys®  solution developer’s guide*—your central source of information about **solution applications** and how to create them using the Ansys **Solution Applications Framework (SAF)**.

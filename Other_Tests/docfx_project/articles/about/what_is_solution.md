@@ -1,7 +1,3 @@
-<a id="getting-started-about-solutions"></a>
-
-<a id="what-is-a-solution-application"></a>
-
 # What is a solution application?
 
 Each Ansys flagship product is a simulation tool designed to accurately model physics phenomena in a given domain, such as mechanics, heat transfer, or fluids.

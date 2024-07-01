@@ -1,7 +1,3 @@
-<a id="problem-index"></a>
-
-<a id="problem"></a>
-
 # Problem
 
 A solution application is designed to answer to a given engineering problem. In this tutorial, we want to solve a classical problem in mechanical engineering:
