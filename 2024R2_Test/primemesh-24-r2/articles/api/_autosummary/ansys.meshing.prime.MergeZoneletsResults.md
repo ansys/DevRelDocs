@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # MergeZoneletsResults
 
 <a id="ansys.meshing.prime.MergeZoneletsResults"></a>

@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # ScaffolderParams
 
 <a id="ansys.meshing.prime.ScaffolderParams"></a>

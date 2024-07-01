@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # SizeControl
 
 <a id="ansys.meshing.prime.SizeControl"></a>

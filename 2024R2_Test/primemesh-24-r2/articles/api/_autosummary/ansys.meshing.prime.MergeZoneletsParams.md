@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # MergeZoneletsParams
 
 <a id="ansys.meshing.prime.MergeZoneletsParams"></a>

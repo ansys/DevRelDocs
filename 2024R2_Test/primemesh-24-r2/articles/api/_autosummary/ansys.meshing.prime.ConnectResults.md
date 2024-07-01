@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # ConnectResults
 
 <a id="ansys.meshing.prime.ConnectResults"></a>

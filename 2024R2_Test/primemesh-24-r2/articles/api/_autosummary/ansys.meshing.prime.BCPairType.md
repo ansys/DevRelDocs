@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # BCPairType
 
 <a id="ansys.meshing.prime.BCPairType"></a>

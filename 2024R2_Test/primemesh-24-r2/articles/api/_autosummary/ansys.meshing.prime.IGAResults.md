@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # IGAResults
 
 <a id="ansys.meshing.prime.IGAResults"></a>

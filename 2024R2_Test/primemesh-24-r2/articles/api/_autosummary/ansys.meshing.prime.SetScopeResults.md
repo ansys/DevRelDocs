@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # SetScopeResults
 
 <a id="ansys.meshing.prime.SetScopeResults"></a>

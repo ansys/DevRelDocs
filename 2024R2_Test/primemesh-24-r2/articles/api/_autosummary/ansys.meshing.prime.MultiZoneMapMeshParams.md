@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # MultiZoneMapMeshParams
 
 <a id="ansys.meshing.prime.MultiZoneMapMeshParams"></a>

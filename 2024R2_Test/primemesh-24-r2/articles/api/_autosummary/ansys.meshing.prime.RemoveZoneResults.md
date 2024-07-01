@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # RemoveZoneResults
 
 <a id="ansys.meshing.prime.RemoveZoneResults"></a>

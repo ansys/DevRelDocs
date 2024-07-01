@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # CadRefacetingMaxEdgeSizeLimit
 
 <a id="ansys.meshing.prime.CadRefacetingMaxEdgeSizeLimit"></a>

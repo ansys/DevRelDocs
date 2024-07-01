@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # MeshInfo
 
 <a id="ansys.meshing.prime.MeshInfo"></a>

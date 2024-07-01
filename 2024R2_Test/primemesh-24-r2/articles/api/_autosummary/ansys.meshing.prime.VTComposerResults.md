@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # VTComposerResults
 
 <a id="ansys.meshing.prime.VTComposerResults"></a>

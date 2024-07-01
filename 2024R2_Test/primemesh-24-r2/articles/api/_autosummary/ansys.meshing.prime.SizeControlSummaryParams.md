@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # SizeControlSummaryParams
 
 <a id="ansys.meshing.prime.SizeControlSummaryParams"></a>

@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # MultiZoneSweepMeshParams
 
 <a id="ansys.meshing.prime.MultiZoneSweepMeshParams"></a>

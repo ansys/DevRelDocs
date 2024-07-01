@@ -62,7 +62,7 @@ You can access Prime Mesh Python client through VS code and work on it as follow
 8. In Windows OS, click Enter Interpreter Path and click Find to select runPrime.bat as 
    interpreter from the latest package installed location. 
 
-    ![windowspath](./../images/windowspath.png)
+    ![windowspath](../images/windowspath.png)
 
    Example: C:\Program Files\ANSYS Inc\v242\meshing\Prime\runPrime.bat 
 
@@ -111,5 +111,5 @@ You can access Prime Mesh Python client through VS code and work on it as follow
     import ansys.meshing.prime as prime
     with prime.launch_prime() as client:
         model = client.model
-    print (prime._version_)
+    print (prime.__version__)
 ```

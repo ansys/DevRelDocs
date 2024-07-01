@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # CreateBOIParams
 
 <a id="ansys.meshing.prime.CreateBOIParams"></a>

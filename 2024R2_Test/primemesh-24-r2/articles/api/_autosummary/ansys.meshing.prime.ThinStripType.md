@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # ThinStripType
 
 <a id="ansys.meshing.prime.ThinStripType"></a>

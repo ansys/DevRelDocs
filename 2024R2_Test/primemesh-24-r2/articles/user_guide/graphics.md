@@ -12,7 +12,7 @@ This code shows how to display the model using the `Graphics` class:
 >>> display()
 ```
 
-Using the [`ScopeDefinition`](./../api/_autosummary/ansys.meshing.prime.ScopeDefinition.md#ansys.meshing.prime.ScopeDefinition) class allows
+Using the [`ScopeDefinition`](../api/_autosummary/ansys.meshing.prime.ScopeDefinition.md#ansys.meshing.prime.ScopeDefinition) class allows
 you to limit the display to particular regions of the model:
 
 ```pycon

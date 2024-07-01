@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # RefineAtContactsResults
 
 <a id="ansys.meshing.prime.RefineAtContactsResults"></a>

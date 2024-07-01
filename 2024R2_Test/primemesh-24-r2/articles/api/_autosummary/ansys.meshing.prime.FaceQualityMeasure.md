@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # FaceQualityMeasure
 
 <a id="ansys.meshing.prime.FaceQualityMeasure"></a>

@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # ScopeEntity
 
 <a id="ansys.meshing.prime.ScopeEntity"></a>

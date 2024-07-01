@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # HexCoreTransitionLayerType
 
 <a id="ansys.meshing.prime.HexCoreTransitionLayerType"></a>

@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # SearchByFoldsResults
 
 <a id="ansys.meshing.prime.SearchByFoldsResults"></a>

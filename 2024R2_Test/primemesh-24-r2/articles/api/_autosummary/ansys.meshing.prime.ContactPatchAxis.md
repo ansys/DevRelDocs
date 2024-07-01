@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # ContactPatchAxis
 
 <a id="ansys.meshing.prime.ContactPatchAxis"></a>

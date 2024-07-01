@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # TopoUtilities
 
 <a id="ansys.meshing.prime.TopoUtilities"></a>

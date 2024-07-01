@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # VolumeSweeper
 
 <a id="ansys.meshing.prime.VolumeSweeper"></a>

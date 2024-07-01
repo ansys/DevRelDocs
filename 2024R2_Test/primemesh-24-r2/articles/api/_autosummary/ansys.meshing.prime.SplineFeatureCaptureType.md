@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # SplineFeatureCaptureType
 
 <a id="ansys.meshing.prime.SplineFeatureCaptureType"></a>

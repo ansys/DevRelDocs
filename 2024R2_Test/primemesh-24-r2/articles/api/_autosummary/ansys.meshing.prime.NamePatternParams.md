@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # NamePatternParams
 
 <a id="ansys.meshing.prime.NamePatternParams"></a>

@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # ScaffolderSplitResults
 
 <a id="ansys.meshing.prime.ScaffolderSplitResults"></a>

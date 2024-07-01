@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # RefineSplineParams
 
 <a id="ansys.meshing.prime.RefineSplineParams"></a>

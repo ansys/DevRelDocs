@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # Mesh
 
 <a id="ansys.meshing.prime.lucid.Mesh"></a>

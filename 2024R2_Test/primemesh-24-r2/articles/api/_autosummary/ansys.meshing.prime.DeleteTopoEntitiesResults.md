@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # DeleteTopoEntitiesResults
 
 <a id="ansys.meshing.prime.DeleteTopoEntitiesResults"></a>

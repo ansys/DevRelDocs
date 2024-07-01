@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # ExportLSDynaResults
 
 <a id="ansys.meshing.prime.ExportLSDynaResults"></a>

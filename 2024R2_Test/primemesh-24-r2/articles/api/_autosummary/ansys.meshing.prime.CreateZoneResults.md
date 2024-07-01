@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # CreateZoneResults
 
 <a id="ansys.meshing.prime.CreateZoneResults"></a>

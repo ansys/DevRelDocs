@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # ComputeVolumesResults
 
 <a id="ansys.meshing.prime.ComputeVolumesResults"></a>

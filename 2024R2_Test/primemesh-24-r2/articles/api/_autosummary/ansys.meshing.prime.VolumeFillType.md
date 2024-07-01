@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # VolumeFillType
 
 <a id="ansys.meshing.prime.VolumeFillType"></a>

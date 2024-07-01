@@ -2,12 +2,12 @@
 
 *This is a beta feature. API behavior and implementation may change in future.*
 
-The [`MultiZoneControl`](./../api/_autosummary/ansys.meshing.prime.MultiZoneControl.md#ansys.meshing.prime.MultiZoneControl) class provides automatic geometry decomposition into mapped (sweepable) regions and free regions.
+The [`MultiZoneControl`](../api/_autosummary/ansys.meshing.prime.MultiZoneControl.md#ansys.meshing.prime.MultiZoneControl) class provides automatic geometry decomposition into mapped (sweepable) regions and free regions.
 Mapped (sweepable) regions are filled with hexahedral elements and free regions are filled with non-hexahedral elements.
 When you perform MultiZone Method meshing, all regions are meshed with a pure hexahedral mesh if possible.
 
 The `AutoMesh` class lets you to automatically create the hex mesh on the scoped bodies using MultiZone meshing algorithms.
-[`AutoMesh.mesh()`](./../api/_autosummary/ansys.meshing.prime.AutoMesh.mesh.md#ansys.meshing.prime.AutoMesh.mesh) function lets you  perform MultiZone meshing with the given MultiZone control.
+[`AutoMesh.mesh()`](../api/_autosummary/ansys.meshing.prime.AutoMesh.mesh.md#ansys.meshing.prime.AutoMesh.mesh) function lets you  perform MultiZone meshing with the given MultiZone control.
 
 The following example shows to apply a MultiZone control on a body:
 

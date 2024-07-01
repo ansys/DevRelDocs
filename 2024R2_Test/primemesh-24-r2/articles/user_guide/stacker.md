@@ -1,6 +1,6 @@
 # Volume sweeping
 
-The [`VolumeSweeper`](./../api/_autosummary/ansys.meshing.prime.VolumeSweeper.md#ansys.meshing.prime.VolumeSweeper) class creates a volume mesh on 2.5D models, stacking faces
+The [`VolumeSweeper`](../api/_autosummary/ansys.meshing.prime.VolumeSweeper.md#ansys.meshing.prime.VolumeSweeper) class creates a volume mesh on 2.5D models, stacking faces
 or edge zonelets one above the other in layers. This volume sweeping technology stacks each of the input topovolumes individually.
 
 #### NOTE
@@ -42,7 +42,7 @@ Define stacking parameters:
 #### NOTE
 Default global max size is used for stacking parameters if you are not providing the max size.
 
-Default [`lateral_defeature_tolerance`](./../api/_autosummary/ansys.meshing.prime.MeshStackerParams.lateral_defeature_tolerance.md#ansys.meshing.prime.MeshStackerParams.lateral_defeature_tolerance) and [`stacking_defeature_tolerance`](./../api/_autosummary/ansys.meshing.prime.MeshStackerParams.stacking_defeature_tolerance.md#ansys.meshing.prime.MeshStackerParams.stacking_defeature_tolerance) are set to (global min size/4).
+Default [`lateral_defeature_tolerance`](../api/_autosummary/ansys.meshing.prime.MeshStackerParams.lateral_defeature_tolerance.md#ansys.meshing.prime.MeshStackerParams.lateral_defeature_tolerance) and [`stacking_defeature_tolerance`](../api/_autosummary/ansys.meshing.prime.MeshStackerParams.stacking_defeature_tolerance.md#ansys.meshing.prime.MeshStackerParams.stacking_defeature_tolerance) are set to (global min size/4).
 
 ```python
 sweeper = prime.VolumeSweeper(model)

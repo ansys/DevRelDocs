@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # FileWriteResults
 
 <a id="ansys.meshing.prime.FileWriteResults"></a>

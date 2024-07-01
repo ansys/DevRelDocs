@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # VolumeQualitySummaryParams
 
 <a id="ansys.meshing.prime.VolumeQualitySummaryParams"></a>

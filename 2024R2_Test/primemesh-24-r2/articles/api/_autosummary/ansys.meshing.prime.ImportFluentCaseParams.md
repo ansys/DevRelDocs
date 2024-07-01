@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # ImportFluentCaseParams
 
 <a id="ansys.meshing.prime.ImportFluentCaseParams"></a>

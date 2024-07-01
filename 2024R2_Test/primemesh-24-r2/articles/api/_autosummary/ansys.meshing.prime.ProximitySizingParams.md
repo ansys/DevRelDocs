@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # ProximitySizingParams
 
 <a id="ansys.meshing.prime.ProximitySizingParams"></a>

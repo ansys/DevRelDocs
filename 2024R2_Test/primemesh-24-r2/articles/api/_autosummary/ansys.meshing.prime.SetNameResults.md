@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # SetNameResults
 
 <a id="ansys.meshing.prime.SetNameResults"></a>

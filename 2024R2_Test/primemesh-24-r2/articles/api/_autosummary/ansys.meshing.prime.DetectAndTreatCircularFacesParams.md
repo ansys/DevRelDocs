@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # DetectAndTreatCircularFacesParams
 
 <a id="ansys.meshing.prime.DetectAndTreatCircularFacesParams"></a>

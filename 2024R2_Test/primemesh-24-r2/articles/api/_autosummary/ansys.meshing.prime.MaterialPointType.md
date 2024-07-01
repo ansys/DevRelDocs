@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # MaterialPointType
 
 <a id="ansys.meshing.prime.MaterialPointType"></a>

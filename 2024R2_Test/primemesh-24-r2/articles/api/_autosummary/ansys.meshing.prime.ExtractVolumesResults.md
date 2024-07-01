@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # ExtractVolumesResults
 
 <a id="ansys.meshing.prime.ExtractVolumesResults"></a>

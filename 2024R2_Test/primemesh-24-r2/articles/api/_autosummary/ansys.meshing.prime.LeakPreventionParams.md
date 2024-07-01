@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # LeakPreventionParams
 
 <a id="ansys.meshing.prime.LeakPreventionParams"></a>

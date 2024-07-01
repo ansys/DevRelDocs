@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # CollapseResults
 
 <a id="ansys.meshing.prime.CollapseResults"></a>

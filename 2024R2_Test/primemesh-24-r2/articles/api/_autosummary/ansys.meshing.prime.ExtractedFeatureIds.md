@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # ExtractedFeatureIds
 
 <a id="ansys.meshing.prime.ExtractedFeatureIds"></a>

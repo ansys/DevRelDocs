@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # SizeFieldType
 
 <a id="ansys.meshing.prime.SizeFieldType"></a>

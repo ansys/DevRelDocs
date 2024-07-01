@@ -6,23 +6,23 @@
 
 Connect operations help you to create a watertight, fully connected surface mesh for successful volume mesh generation.
 Connect operations conformally connect multiple watertight volumes providing shared zonelets (and therefore connected
-volume mesh) between them. The [`Connect`](./../api/_autosummary/ansys.meshing.prime.Connect.md#ansys.meshing.prime.Connect) class allows you to connect the face zonelets
+volume mesh) between them. The [`Connect`](../api/_autosummary/ansys.meshing.prime.Connect.md#ansys.meshing.prime.Connect) class allows you to connect the face zonelets
 in a part, volume, or model using various connect algorithms.
 
 There are three major operations for zonelet connections:
 
-- The [`Connect.intersect_face_zonelets()`](./../api/_autosummary/ansys.meshing.prime.Connect.intersect_face_zonelets.md#ansys.meshing.prime.Connect.intersect_face_zonelets) function allows you
+- The [`Connect.intersect_face_zonelets()`](../api/_autosummary/ansys.meshing.prime.Connect.intersect_face_zonelets.md#ansys.meshing.prime.Connect.intersect_face_zonelets) function allows you
   to intersect the face zonelets of the part along the intersecting faces.
 
-- The [`Connect.stitch_face_zonelets()`](./../api/_autosummary/ansys.meshing.prime.Connect.stitch_face_zonelets.md#ansys.meshing.prime.Connect.stitch_face_zonelets) function allows you to
+- The [`Connect.stitch_face_zonelets()`](../api/_autosummary/ansys.meshing.prime.Connect.stitch_face_zonelets.md#ansys.meshing.prime.Connect.stitch_face_zonelets) function allows you to
   stitch a set of face zonelets to another set of face zonelets along the boundary of zonelets.
 
-- The [`Connect.join_face_zonelets()`](./../api/_autosummary/ansys.meshing.prime.Connect.join_face_zonelets.md#ansys.meshing.prime.Connect.join_face_zonelets) function allows you to join
+- The [`Connect.join_face_zonelets()`](../api/_autosummary/ansys.meshing.prime.Connect.join_face_zonelets.md#ansys.meshing.prime.Connect.join_face_zonelets) function allows you to join
   a set of face zonelets to another set of face zonelets along the overlapping faces.
 
-- The [`Connect.fuse_face_zonelets()`](./../api/_autosummary/ansys.meshing.prime.Connect.fuse_face_zonelets.md#ansys.meshing.prime.Connect.fuse_face_zonelets) function allows you to
+- The [`Connect.fuse_face_zonelets()`](../api/_autosummary/ansys.meshing.prime.Connect.fuse_face_zonelets.md#ansys.meshing.prime.Connect.fuse_face_zonelets) function allows you to
   perform fuse operation between overlapping face zonelets within a single part.
-- The [`Connect.merge_boundary_nodes()`](./../api/_autosummary/ansys.meshing.prime.Connect.merge_boundary_nodes.md#ansys.meshing.prime.Connect.merge_boundary_nodes) function allows you
+- The [`Connect.merge_boundary_nodes()`](../api/_autosummary/ansys.meshing.prime.Connect.merge_boundary_nodes.md#ansys.meshing.prime.Connect.merge_boundary_nodes) function allows you
   to merge boundary nodes of source face zonelets with boundary nodes of target face zonelets with the given parameters.
 
 #### NOTE
@@ -162,7 +162,7 @@ When separate is True, the fused region is separated.
 
 ## Topology-based connection
 
-The [`Scaffolder`](./../api/_autosummary/ansys.meshing.prime.Scaffolder.md#ansys.meshing.prime.Scaffolder) class allows you to provide connection
+The [`Scaffolder`](../api/_autosummary/ansys.meshing.prime.Scaffolder.md#ansys.meshing.prime.Scaffolder) class allows you to provide connection
 using faceted geometry and topology. This class also handles the gaps and mismatches in the geometry.
 
 Topology-based connection creates shared topoedges between neighboring topofaces. Hence, you can

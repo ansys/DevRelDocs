@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # SearchBySpikeParams
 
 <a id="ansys.meshing.prime.SearchBySpikeParams"></a>

@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # CreateCapParams
 
 <a id="ansys.meshing.prime.CreateCapParams"></a>

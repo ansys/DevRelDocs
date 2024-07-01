@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # CdbSimulationType
 
 <a id="ansys.meshing.prime.CdbSimulationType"></a>

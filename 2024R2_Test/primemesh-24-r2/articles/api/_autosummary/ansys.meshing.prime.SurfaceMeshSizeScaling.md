@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # SurfaceMeshSizeScaling
 
 <a id="ansys.meshing.prime.SurfaceMeshSizeScaling"></a>

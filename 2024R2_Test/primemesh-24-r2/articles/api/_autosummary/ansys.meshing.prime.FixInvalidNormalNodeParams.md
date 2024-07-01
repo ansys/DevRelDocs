@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # FixInvalidNormalNodeParams
 
 <a id="ansys.meshing.prime.FixInvalidNormalNodeParams"></a>

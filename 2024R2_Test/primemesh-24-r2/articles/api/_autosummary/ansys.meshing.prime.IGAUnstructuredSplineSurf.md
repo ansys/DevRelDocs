@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # IGAUnstructuredSplineSurf
 
 <a id="ansys.meshing.prime.IGAUnstructuredSplineSurf"></a>

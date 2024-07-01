@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # HexCoreCellElementType
 
 <a id="ansys.meshing.prime.HexCoreCellElementType"></a>

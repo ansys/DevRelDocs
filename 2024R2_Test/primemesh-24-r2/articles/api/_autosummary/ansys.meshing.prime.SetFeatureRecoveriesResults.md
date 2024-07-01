@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # SetFeatureRecoveriesResults
 
 <a id="ansys.meshing.prime.SetFeatureRecoveriesResults"></a>

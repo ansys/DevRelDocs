@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # SurfaceSearch
 
 <a id="ansys.meshing.prime.SurfaceSearch"></a>

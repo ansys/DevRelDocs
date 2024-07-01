@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # MeshStackerParams
 
 <a id="ansys.meshing.prime.MeshStackerParams"></a>

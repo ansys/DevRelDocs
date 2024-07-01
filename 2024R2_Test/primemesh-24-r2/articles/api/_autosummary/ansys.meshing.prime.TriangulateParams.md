@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # TriangulateParams
 
 <a id="ansys.meshing.prime.TriangulateParams"></a>

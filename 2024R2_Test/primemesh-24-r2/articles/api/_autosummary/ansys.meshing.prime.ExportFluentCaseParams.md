@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # ExportFluentCaseParams
 
 <a id="ansys.meshing.prime.ExportFluentCaseParams"></a>
