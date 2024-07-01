@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="annotationpreferences"></a>
-
 # `AnnotationPreferences`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnnotationPreferences"></a>
@@ -197,4 +193,4 @@ Sets the begin, end and increment values to display node numbering.
 Sets the begin, end and increment values to display element numbering.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

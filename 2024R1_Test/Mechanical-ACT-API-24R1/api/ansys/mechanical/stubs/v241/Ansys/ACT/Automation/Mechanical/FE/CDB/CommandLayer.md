@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="commandlayer"></a>
-
 # `CommandLayer`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandLayer"></a>
@@ -62,4 +58,4 @@ Gets the layer orientation angle.
 Gets the number of integration points in the layer.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

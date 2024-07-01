@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="resultpreference"></a>
-
 # `ResultPreference`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.ResultPreference"></a>
@@ -116,4 +112,4 @@ Displays the result minimum value annotation label.
 Displays the result maximum value annotation label.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

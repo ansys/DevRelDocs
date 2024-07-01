@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="mapdlspringdata"></a>
-
 # `MAPDLSpringData`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.SolverData.MAPDLSpringData"></a>
@@ -44,4 +40,4 @@ Gets the Element number for the object.
 Gets the Real Constant Id number for the object.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

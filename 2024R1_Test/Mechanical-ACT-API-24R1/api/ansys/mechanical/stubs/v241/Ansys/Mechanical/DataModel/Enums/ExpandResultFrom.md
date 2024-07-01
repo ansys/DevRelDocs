@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="expandresultfrom"></a>
-
 # `ExpandResultFrom`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExpandResultFrom"></a>
@@ -47,4 +43,4 @@ Specifies the ExpandResultFrom.
 
 ### ExpandResultFrom.TransientSolution *= 3*
 
-<!-- vale on -->
+

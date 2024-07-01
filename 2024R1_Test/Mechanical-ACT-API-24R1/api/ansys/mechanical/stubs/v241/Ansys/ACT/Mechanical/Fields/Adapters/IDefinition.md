@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="idefinition"></a>
-
 # `IDefinition`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Adapters.IDefinition"></a>
@@ -35,4 +31,4 @@ IDefinition interface.
 Creates an adapter for a given load object from Mechanical.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

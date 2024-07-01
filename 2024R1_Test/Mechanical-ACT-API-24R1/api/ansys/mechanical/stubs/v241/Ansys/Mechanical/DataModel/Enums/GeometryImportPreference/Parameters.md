@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="parameters"></a>
-
 # `Parameters`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.Parameters"></a>
@@ -42,4 +38,4 @@ Defines how parameters in the CAD source are processed.
 
 ### Parameters.All *= 3*
 
-<!-- vale on -->
+

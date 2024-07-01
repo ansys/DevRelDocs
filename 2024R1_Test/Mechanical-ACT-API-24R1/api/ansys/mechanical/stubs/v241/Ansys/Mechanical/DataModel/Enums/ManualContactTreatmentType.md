@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="manualcontacttreatmenttype"></a>
-
 # `ManualContactTreatmentType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ManualContactTreatmentType"></a>
@@ -37,4 +33,4 @@ Specifies the ManualContactTreatmentType.
 
 ### ManualContactTreatmentType.Pairwise *= 1*
 
-<!-- vale on -->
+

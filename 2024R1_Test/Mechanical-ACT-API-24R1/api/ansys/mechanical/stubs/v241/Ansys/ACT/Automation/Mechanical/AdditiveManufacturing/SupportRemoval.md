@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="supportremoval"></a>
-
 # `SupportRemoval`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.SupportRemoval"></a>
@@ -13,4 +9,4 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 SupportRemoval class.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

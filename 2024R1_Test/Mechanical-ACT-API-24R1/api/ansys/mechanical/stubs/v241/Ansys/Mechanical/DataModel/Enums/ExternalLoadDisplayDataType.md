@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="externalloaddisplaydatatype"></a>
-
 # `ExternalLoadDisplayDataType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExternalLoadDisplayDataType"></a>
@@ -107,4 +103,4 @@ Specifies the ExternalLoadDisplayDataType.
 
 ### ExternalLoadDisplayDataType.Velocity *= 13*
 
-<!-- vale on -->
+

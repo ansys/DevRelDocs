@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="importsettingsfactory"></a>
-
 # `ImportSettingsFactory`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Table.ImportSettingsFactory"></a>
@@ -33,4 +29,4 @@ ImportSettingsFactory interface.
 ### *classmethod* ImportSettingsFactory.GetSettingsForFormat(format: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.ImportFormat](../DataModel/MechanicalEnums/Table/ImportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.Table.ImportFormat))
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

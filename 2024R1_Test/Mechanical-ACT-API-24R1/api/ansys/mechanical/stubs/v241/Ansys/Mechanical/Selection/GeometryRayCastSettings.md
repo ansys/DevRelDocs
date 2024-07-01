@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="geometryraycastsettings"></a>
-
 # `GeometryRayCastSettings`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Selection.GeometryRayCastSettings"></a>
@@ -95,4 +91,4 @@ Optional; specifies maximum axial distance from BoundVector origin.
 Defaults to maximum needed length.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="scatteringoutputtype"></a>
-
 # `ScatteringOutputType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ScatteringOutputType"></a>
@@ -37,4 +33,4 @@ Specifies the ScatteringOutputType.
 
 ### ScatteringOutputType.Total *= 0*
 
-<!-- vale on -->
+

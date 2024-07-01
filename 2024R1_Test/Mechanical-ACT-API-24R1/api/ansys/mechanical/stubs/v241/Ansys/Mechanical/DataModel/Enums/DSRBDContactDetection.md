@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="dsrbdcontactdetection"></a>
-
 # `DSRBDContactDetection`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DSRBDContactDetection"></a>
@@ -42,4 +38,4 @@ Specifies the DSRBDContactDetection.
 
 ### DSRBDContactDetection.kCDProgramControlled *= 0*
 
-<!-- vale on -->
+

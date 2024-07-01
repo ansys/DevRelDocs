@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="rigidresponseeffecttype"></a>
-
 # `RigidResponseEffectType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RigidResponseEffectType"></a>
@@ -37,4 +33,4 @@ Specifies the RigidResponseEffectType.
 
 ### RigidResponseEffectType.Lindely *= 2*
 
-<!-- vale on -->
+

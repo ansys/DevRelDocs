@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="themename"></a>
-
 # `ThemeName`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.UI.Enums.ThemeName"></a>
@@ -42,4 +38,4 @@ Represents the different themes that can be set in Mechanical.
 
 ### ThemeName.Classic *= 2*
 
-<!-- vale on -->
+

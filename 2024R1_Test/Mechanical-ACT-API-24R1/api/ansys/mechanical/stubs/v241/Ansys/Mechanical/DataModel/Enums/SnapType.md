@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="snaptype"></a>
-
 # `SnapType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SnapType"></a>
@@ -37,4 +33,4 @@ Specifies the SnapType.
 
 ### SnapType.ElementSizeFactor *= 1*
 
-<!-- vale on -->
+

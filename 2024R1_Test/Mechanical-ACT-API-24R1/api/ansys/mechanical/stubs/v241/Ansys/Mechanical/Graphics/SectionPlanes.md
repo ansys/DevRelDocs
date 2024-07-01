@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="sectionplanes"></a>
-
 # `SectionPlanes`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.SectionPlanes"></a>
@@ -98,4 +94,4 @@ Removes the requested SectionPlane from the collection.
 Removes the SectionPlane at the given index.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="remotepointupdateoptions"></a>
-
 # `RemotePointUpdateOptions`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RemotePointUpdateOptions"></a>
@@ -37,4 +33,4 @@ Specifies the RemotePointUpdateOptions.
 
 ### RemotePointUpdateOptions.Reuse *= 1*
 
-<!-- vale on -->
+

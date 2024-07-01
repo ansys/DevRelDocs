@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="bodytype"></a>
-
 # `BodyType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BodyType"></a>
@@ -42,4 +38,4 @@ Specifies the BodyType.
 
 ### BodyType.Line *= 17*
 
-<!-- vale on -->
+

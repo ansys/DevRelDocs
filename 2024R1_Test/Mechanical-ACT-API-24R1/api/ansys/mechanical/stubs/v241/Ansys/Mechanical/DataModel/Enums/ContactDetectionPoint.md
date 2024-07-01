@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="contactdetectionpoint"></a>
-
 # `ContactDetectionPoint`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactDetectionPoint"></a>
@@ -62,4 +58,4 @@ Specifies the ContactDetectionPoint.
 
 ### ContactDetectionPoint.NodalDualShapeFunctionProjection *= 5*
 
-<!-- vale on -->
+

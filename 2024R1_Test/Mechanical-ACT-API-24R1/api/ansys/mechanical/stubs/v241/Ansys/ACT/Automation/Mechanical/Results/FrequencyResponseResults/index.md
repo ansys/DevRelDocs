@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.FrequencyResponseResults"></a>
-
 <a id="frequencyresponseresults"></a>
 
 # `FrequencyResponseResults`
@@ -46,4 +42,4 @@
 FrequencyResponseResults subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

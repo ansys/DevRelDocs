@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241"></a>
-
 <a id="mechanical-2024-r1-api-reference"></a>
 
 # Mechanical 2024 R1 API Reference
@@ -23,4 +19,4 @@
 Ansys Mechanical v241 subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

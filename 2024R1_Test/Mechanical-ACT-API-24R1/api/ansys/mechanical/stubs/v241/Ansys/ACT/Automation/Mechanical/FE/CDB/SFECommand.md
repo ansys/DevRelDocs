@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="sfecommand"></a>
-
 # `SFECommand`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.SFECommand"></a>
@@ -89,4 +85,4 @@ Gets the command name.
 Gets the command index.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

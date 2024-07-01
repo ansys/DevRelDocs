@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="identifiertype"></a>
-
 # `IdentifierType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.Materials.IdentifierType"></a>
@@ -52,4 +48,4 @@ needs changed (search by Name).  Either way a material cannot be added which wou
 
 ### IdentifierType.UUID *= 2*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="topoconstraintstresstype"></a>
-
 # `TopoConstraintStressType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TopoConstraintStressType"></a>
@@ -42,4 +38,4 @@ Specifies the TopoConstraintStressType.
 
 ### TopoConstraintStressType.VonMisesStress *= 0*
 
-<!-- vale on -->
+

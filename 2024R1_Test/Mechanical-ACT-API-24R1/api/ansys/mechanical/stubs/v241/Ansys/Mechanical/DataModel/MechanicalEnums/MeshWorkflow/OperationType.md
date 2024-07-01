@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="operationtype"></a>
-
 # `OperationType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.OperationType"></a>
@@ -92,4 +88,4 @@ This enum is referenced in the “Step” tree node and reflects the type of ope
 
 ### OperationType.ExportMesh *= 5*
 
-<!-- vale on -->
+

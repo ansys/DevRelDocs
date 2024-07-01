@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="linearizedsubtype"></a>
-
 # `LinearizedSubtype`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LinearizedSubtype"></a>
@@ -57,4 +53,4 @@ Specifies the LinearizedSubtype.
 
 ### LinearizedSubtype.Total *= 5*
 
-<!-- vale on -->
+

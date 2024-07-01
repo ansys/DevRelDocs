@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="jointbushingworksheet"></a>
-
 # `JointBushingWorksheet`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.JointBushingWorksheet"></a>
@@ -242,4 +238,4 @@ Sets the Coefficient for the stiffness per ThetaUnitY at the indicated row index
 Sets the Coefficient for the stiffness per ThetaUnitZ at the indicated row index.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

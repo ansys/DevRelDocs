@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="prestressmode"></a>
-
 # `PreStressMode`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PreStressMode"></a>
@@ -37,4 +33,4 @@ Specifies the PreStressMode.
 
 ### PreStressMode.MaterialState *= 0*
 
-<!-- vale on -->
+

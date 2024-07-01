@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="elementcontrolsnormalstiffnesstype"></a>
-
 # `ElementControlsNormalStiffnessType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ElementControlsNormalStiffnessType"></a>
@@ -42,4 +38,4 @@ Specifies the ElementControlsNormalStiffnessType.
 
 ### ElementControlsNormalStiffnessType.FromContactRegion *= 0*
 
-<!-- vale on -->
+

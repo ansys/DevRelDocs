@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ElectricResults"></a>
-
 <a id="electricresults"></a>
 
 # `ElectricResults`
@@ -33,4 +29,4 @@
 ElectricResults subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

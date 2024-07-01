@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="stabilizationmethod"></a>
-
 # `StabilizationMethod`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StabilizationMethod"></a>
@@ -37,4 +33,4 @@ Specifies the StabilizationMethod.
 
 ### StabilizationMethod.Energy *= 0*
 
-<!-- vale on -->
+

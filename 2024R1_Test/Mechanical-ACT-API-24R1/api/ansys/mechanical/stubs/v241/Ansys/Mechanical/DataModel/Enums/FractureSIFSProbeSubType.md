@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="fracturesifsprobesubtype"></a>
-
 # `FractureSIFSProbeSubType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FractureSIFSProbeSubType"></a>
@@ -42,4 +38,4 @@ Specifies the FractureSIFSProbeSubType.
 
 ### FractureSIFSProbeSubType.K3 *= 45*
 
-<!-- vale on -->
+

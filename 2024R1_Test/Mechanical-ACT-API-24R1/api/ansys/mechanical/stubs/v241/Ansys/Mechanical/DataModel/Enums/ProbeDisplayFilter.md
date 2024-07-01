@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="probedisplayfilter"></a>
-
 # `ProbeDisplayFilter`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter"></a>
@@ -267,4 +263,4 @@ Specifies the ProbeDisplayFilter.
 
 ### ProbeDisplayFilter.ZAxis *= 5*
 
-<!-- vale on -->
+

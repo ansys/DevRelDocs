@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="controltype"></a>
-
 # `ControlType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ControlType"></a>
@@ -137,4 +133,4 @@ To select the mesh workflow control type.
 
 ### ControlType.MeshExport *= 5*
 
-<!-- vale on -->
+

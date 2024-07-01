@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="artificiallymatchedlayers"></a>
-
 # `ArtificiallyMatchedLayers`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ArtificiallyMatchedLayers"></a>
@@ -42,4 +38,4 @@ Specifies the ArtificiallyMatchedLayers.
 
 ### ArtificiallyMatchedLayers.PML *= 1*
 
-<!-- vale on -->
+

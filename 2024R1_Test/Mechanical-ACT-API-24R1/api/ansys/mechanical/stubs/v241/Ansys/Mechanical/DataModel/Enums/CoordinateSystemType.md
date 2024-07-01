@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="coordinatesystemtype"></a>
-
 # `CoordinateSystemType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CoordinateSystemType"></a>
@@ -42,4 +38,4 @@ Specifies the CoordinateSystemType.
 
 ### CoordinateSystemType.Spherical *= 2*
 
-<!-- vale on -->
+

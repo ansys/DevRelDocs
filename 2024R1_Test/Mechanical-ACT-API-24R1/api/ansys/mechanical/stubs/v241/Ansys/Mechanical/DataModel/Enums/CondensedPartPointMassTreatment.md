@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="condensedpartpointmasstreatment"></a>
-
 # `CondensedPartPointMassTreatment`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CondensedPartPointMassTreatment"></a>
@@ -37,4 +33,4 @@ Specifies the CondensedPartPointMassTreatment.
 
 ### CondensedPartPointMassTreatment.OnInterface *= 1*
 
-<!-- vale on -->
+

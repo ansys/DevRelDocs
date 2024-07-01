@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.StressToolResults"></a>
-
 <a id="stresstoolresults"></a>
 
 # `StressToolResults`
@@ -27,4 +23,4 @@
 StressToolResults subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="brickintegrationscheme"></a>
-
 # `BrickIntegrationScheme`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BrickIntegrationScheme"></a>
@@ -37,4 +33,4 @@ Specifies the BrickIntegrationScheme.
 
 ### BrickIntegrationScheme.Reduced *= 1*
 
-<!-- vale on -->
+

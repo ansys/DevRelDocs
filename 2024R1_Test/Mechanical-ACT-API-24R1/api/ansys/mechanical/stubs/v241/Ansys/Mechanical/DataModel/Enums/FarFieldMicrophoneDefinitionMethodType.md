@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="farfieldmicrophonedefinitionmethodtype"></a>
-
 # `FarFieldMicrophoneDefinitionMethodType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FarFieldMicrophoneDefinitionMethodType"></a>
@@ -37,4 +33,4 @@ Specifies the FarFieldMicrophoneDefinitionMethodType.
 
 ### FarFieldMicrophoneDefinitionMethodType.Worksheet *= 1*
 
-<!-- vale on -->
+

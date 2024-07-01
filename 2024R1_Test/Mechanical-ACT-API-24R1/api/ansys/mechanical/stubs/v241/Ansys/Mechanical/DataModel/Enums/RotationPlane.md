@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="rotationplane"></a>
-
 # `RotationPlane`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RotationPlane"></a>
@@ -47,4 +43,4 @@ Specifies the RotationPlane.
 
 ### RotationPlane.YZ *= 2*
 
-<!-- vale on -->
+

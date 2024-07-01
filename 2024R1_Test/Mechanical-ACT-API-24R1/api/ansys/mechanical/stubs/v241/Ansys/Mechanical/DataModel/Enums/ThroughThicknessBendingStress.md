@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="throughthicknessbendingstress"></a>
-
 # `ThroughThicknessBendingStress`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ThroughThicknessBendingStress"></a>
@@ -42,4 +38,4 @@ Specifies the ThroughThicknessBendingStress.
 
 ### ThroughThicknessBendingStress.IncludeUsingYDirFormula *= 2*
 
-<!-- vale on -->
+

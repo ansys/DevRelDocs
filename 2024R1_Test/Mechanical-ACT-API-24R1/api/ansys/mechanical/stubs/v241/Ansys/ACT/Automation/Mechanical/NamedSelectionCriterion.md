@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="namedselectioncriterion"></a>
-
 # `NamedSelectionCriterion`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NamedSelectionCriterion"></a>
@@ -107,4 +103,4 @@ UpperBound property.
 CoordinateSystem property.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

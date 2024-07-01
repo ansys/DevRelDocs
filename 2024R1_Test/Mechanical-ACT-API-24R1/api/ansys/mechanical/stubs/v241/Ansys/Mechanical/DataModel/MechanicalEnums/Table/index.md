@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.Table"></a>
-
 <a id="table"></a>
 
 # `Table`
@@ -26,4 +22,4 @@
 Table subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

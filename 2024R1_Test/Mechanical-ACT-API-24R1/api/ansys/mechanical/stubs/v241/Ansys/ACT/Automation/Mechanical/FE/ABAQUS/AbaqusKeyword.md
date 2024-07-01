@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="abaquskeyword"></a>
-
 # `AbaqusKeyword`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.ABAQUS.AbaqusKeyword"></a>
@@ -62,4 +58,4 @@ Gets the command name.
 Gets the command index.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

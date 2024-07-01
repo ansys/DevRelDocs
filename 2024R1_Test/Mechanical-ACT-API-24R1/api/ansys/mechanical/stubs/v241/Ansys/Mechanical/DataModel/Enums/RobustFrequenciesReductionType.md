@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="robustfrequenciesreductiontype"></a>
-
 # `RobustFrequenciesReductionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RobustFrequenciesReductionType"></a>
@@ -42,4 +38,4 @@ Specifies the RobustFrequenciesReductionType.
 
 ### RobustFrequenciesReductionType.SmoothMin *= 1*
 
-<!-- vale on -->
+

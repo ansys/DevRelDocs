@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="methodtype"></a>
-
 # `MethodType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MethodType"></a>
@@ -92,4 +88,4 @@ Specifies the MethodType.
 
 ### MethodType.Stacker *= 15*
 
-<!-- vale on -->
+

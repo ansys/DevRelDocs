@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="hourglassdampingtype"></a>
-
 # `HourglassDampingType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.HourglassDampingType"></a>
@@ -37,4 +33,4 @@ Specifies the HourglassDampingType.
 
 ### HourglassDampingType.FlanaganBelytschko *= 1*
 
-<!-- vale on -->
+

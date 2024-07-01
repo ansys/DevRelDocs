@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="shellinertiaupdate"></a>
-
 # `ShellInertiaUpdate`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShellInertiaUpdate"></a>
@@ -37,4 +33,4 @@ Specifies the ShellInertiaUpdate.
 
 ### ShellInertiaUpdate.Rotate *= 1*
 
-<!-- vale on -->
+

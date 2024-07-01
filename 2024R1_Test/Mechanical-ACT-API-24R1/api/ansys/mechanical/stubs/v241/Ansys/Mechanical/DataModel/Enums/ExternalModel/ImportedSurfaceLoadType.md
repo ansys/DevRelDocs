@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="importedsurfaceloadtype"></a>
-
 # `ImportedSurfaceLoadType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExternalModel.ImportedSurfaceLoadType"></a>
@@ -42,4 +38,4 @@ Specifies the ImportedSurfaceLoadType.
 
 ### ImportedSurfaceLoadType.Convection *= 23*
 
-<!-- vale on -->
+

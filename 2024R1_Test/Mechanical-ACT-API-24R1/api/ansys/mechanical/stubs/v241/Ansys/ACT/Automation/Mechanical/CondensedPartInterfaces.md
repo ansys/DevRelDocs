@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="condensedpartinterfaces"></a>
-
 # `CondensedPartInterfaces`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CondensedPartInterfaces"></a>
@@ -71,4 +67,4 @@ Add new condensed part interface
 Remove condensed part interface at the given index
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

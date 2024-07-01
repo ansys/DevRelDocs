@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="beamtoolstressresulttype"></a>
-
 # `BeamToolStressResultType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BeamToolStressResultType"></a>
@@ -52,4 +48,4 @@ Specifies the BeamToolStressResultType.
 
 ### BeamToolStressResultType.MaximumCombinedStress *= 4*
 
-<!-- vale on -->
+

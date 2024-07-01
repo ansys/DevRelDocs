@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="checkpointdefinitiontype"></a>
-
 # `CheckpointDefinitionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.CheckpointDefinitionType"></a>
@@ -37,4 +33,4 @@ To select the MeshWorkflow Process Entity Type.
 
 ### CheckpointDefinitionType.Enabled *= 2*
 
-<!-- vale on -->
+

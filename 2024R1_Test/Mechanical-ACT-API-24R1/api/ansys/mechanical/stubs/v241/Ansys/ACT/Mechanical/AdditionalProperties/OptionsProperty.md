@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="optionsproperty"></a>
-
 # `OptionsProperty`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.AdditionalProperties.OptionsProperty"></a>
@@ -100,4 +96,4 @@ Get the string representation of the value.
 Returns whether a property is readonly.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

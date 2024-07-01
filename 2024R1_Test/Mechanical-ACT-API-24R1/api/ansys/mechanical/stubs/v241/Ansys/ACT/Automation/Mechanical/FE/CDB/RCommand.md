@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="rcommand"></a>
-
 # `RCommand`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.RCommand"></a>
@@ -71,4 +67,4 @@ Gets the command name.
 Gets the command index.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

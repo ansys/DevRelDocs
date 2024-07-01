@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="totalordirectional"></a>
-
 # `TotalOrDirectional`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional"></a>
@@ -37,4 +33,4 @@ Specifies the TotalOrDirectional.
 
 ### TotalOrDirectional.Total *= 0*
 
-<!-- vale on -->
+

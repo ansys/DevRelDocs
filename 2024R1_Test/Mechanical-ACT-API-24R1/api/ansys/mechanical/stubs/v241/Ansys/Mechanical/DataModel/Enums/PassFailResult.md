@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="passfailresult"></a>
-
 # `PassFailResult`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PassFailResult"></a>
@@ -52,4 +48,4 @@ Specifies the PassFailResult.
 
 ### PassFailResult.Unknown *= 4*
 
-<!-- vale on -->
+

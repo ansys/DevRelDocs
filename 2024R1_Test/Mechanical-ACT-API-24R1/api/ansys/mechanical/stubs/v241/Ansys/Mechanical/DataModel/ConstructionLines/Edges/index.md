@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.ConstructionLines.Edges"></a>
-
 <a id="edges"></a>
 
 # `Edges`
@@ -29,4 +25,4 @@
 Edges subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

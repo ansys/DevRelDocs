@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.FatigueToolResults"></a>
-
 <a id="fatiguetoolresults"></a>
 
 # `FatigueToolResults`
@@ -32,4 +28,4 @@
 FatigueToolResults subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

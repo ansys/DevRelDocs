@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="dscampbellyaxisdatatype"></a>
-
 # `DSCampbellYAxisDataType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DSCampbellYAxisDataType"></a>
@@ -47,4 +43,4 @@ Specifies the DSCampbellYAxisDataType.
 
 ### DSCampbellYAxisDataType.Stability *= 1*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="filtertype"></a>
-
 # `FilterType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FilterType"></a>
@@ -42,4 +38,4 @@ Specifies the FilterType.
 
 ### FilterType.SAE *= 2*
 
-<!-- vale on -->
+

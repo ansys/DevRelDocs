@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="manumembersizecontrolledtype"></a>
-
 # `ManuMemberSizeControlledType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ManuMemberSizeControlledType"></a>
@@ -42,4 +38,4 @@ Specifies the ManuMemberSizeControlledType.
 
 ### ManuMemberSizeControlledType.ProgramControlled *= 0*
 
-<!-- vale on -->
+

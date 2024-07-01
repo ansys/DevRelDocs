@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ContactToolResults"></a>
-
 <a id="contacttoolresults"></a>
 
 # `ContactToolResults`
@@ -31,4 +27,4 @@
 ContactToolResults subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

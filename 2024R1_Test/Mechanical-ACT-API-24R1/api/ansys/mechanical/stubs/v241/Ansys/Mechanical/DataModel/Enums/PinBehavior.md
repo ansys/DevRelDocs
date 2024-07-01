@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="pinbehavior"></a>
-
 # `PinBehavior`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PinBehavior"></a>
@@ -47,4 +43,4 @@ Specifies the PinBehavior.
 
 ### PinBehavior.PinVelocity *= 1*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="solveprocesssettings"></a>
-
 # `SolveProcessSettings`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolveProcessSettings"></a>
@@ -161,4 +157,4 @@ The number of processes the solver will use.
 Whether results need to be automatically downloaded for DCS job after completion.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

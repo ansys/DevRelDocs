@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="pfactorresulttype"></a>
-
 # `PFactorResultType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PFactorResultType"></a>
@@ -47,4 +43,4 @@ Specifies the PFactorResultType.
 
 ### PFactorResultType.PFactorAll *= 3*
 
-<!-- vale on -->
+

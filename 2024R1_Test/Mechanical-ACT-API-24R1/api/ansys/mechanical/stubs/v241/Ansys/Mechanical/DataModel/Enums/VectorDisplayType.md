@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="vectordisplaytype"></a>
-
 # `VectorDisplayType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.VectorDisplayType"></a>
@@ -42,4 +38,4 @@ Specifies the VectorDisplayType.
 
 ### VectorDisplayType.Sphere *= 2*
 
-<!-- vale on -->
+

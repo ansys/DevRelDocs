@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="solutioncombinationworksheettype"></a>
-
 # `SolutionCombinationWorksheetType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolutionCombinationWorksheetType"></a>
@@ -37,4 +33,4 @@ Specifies the SolutionCombinationWorksheetType.
 
 ### SolutionCombinationWorksheetType.OldWorksheet *= 0*
 
-<!-- vale on -->
+

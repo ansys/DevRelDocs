@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="externaldatafilecollection"></a>
-
 # `ExternalDataFileCollection`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.ExternalData.ExternalDataFileCollection"></a>
@@ -112,4 +108,4 @@ CopyTo method.
 
 ### ExternalDataFileCollection.RemoveAt(index: System.Int32)
 
-<!-- vale on -->
+

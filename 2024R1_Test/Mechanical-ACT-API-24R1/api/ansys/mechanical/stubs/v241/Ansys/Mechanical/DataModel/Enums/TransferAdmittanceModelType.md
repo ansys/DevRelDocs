@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="transferadmittancemodeltype"></a>
-
 # `TransferAdmittanceModelType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TransferAdmittanceModelType"></a>
@@ -42,4 +38,4 @@ Specifies the TransferAdmittanceModelType.
 
 ### TransferAdmittanceModelType.SquareGridStructure *= 1*
 
-<!-- vale on -->
+

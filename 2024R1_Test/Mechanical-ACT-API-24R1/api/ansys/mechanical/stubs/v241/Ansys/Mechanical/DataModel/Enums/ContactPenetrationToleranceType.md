@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="contactpenetrationtolerancetype"></a>
-
 # `ContactPenetrationToleranceType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactPenetrationToleranceType"></a>
@@ -42,4 +38,4 @@ Specifies the ContactPenetrationToleranceType.
 
 ### ContactPenetrationToleranceType.Value *= 1*
 
-<!-- vale on -->
+

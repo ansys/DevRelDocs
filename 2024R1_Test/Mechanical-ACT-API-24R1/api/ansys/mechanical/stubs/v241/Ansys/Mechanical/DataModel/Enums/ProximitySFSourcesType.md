@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="proximitysfsourcestype"></a>
-
 # `ProximitySFSourcesType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ProximitySFSourcesType"></a>
@@ -42,4 +38,4 @@ Specifies the ProximitySFSourcesType.
 
 ### ProximitySFSourcesType.Edges *= 2*
 
-<!-- vale on -->
+

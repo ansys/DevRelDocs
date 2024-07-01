@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="cylindricalfacesoption"></a>
-
 # `CylindricalFacesOption`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CylindricalFacesOption"></a>
@@ -42,4 +38,4 @@ Specifies the CylindricalFacesOption.
 
 ### CylindricalFacesOption.Only *= 2*
 
-<!-- vale on -->
+

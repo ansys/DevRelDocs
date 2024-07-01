@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="ilinuxsettings"></a>
-
 # `ILinuxSettings`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Application.SolveProcessSettings.ILinuxSettings"></a>
@@ -53,4 +49,4 @@ Gets or sets the user name field for the manual linux settings.
 Gets or sets the working folder field for the manual linxus settings.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

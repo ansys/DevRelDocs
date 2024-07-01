@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="commandrepository"></a>
-
 # `CommandRepository`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CommandRepository"></a>
@@ -71,4 +67,4 @@ Gets the name of commands of a type specified by params eCommandsType and index 
 Gets the command names of a type specified by params eCommandsType and index in the repository.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

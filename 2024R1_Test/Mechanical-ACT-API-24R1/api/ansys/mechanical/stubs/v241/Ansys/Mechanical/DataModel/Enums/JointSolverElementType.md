@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="jointsolverelementtype"></a>
-
 # `JointSolverElementType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.JointSolverElementType"></a>
@@ -42,4 +38,4 @@ Specifies the JointSolverElementType.
 
 ### JointSolverElementType.ProgramControlled *= 0*
 
-<!-- vale on -->
+

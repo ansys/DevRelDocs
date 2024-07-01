@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="meshnodetype"></a>
-
 # `MeshNodeType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshNodeType"></a>
@@ -37,4 +33,4 @@ Specifies the MeshNodeType.
 
 ### MeshNodeType.Midside *= 262144*
 
-<!-- vale on -->
+

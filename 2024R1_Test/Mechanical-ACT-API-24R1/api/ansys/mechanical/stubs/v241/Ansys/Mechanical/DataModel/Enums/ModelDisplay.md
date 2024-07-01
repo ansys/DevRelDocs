@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="modeldisplay"></a>
-
 # `ModelDisplay`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ModelDisplay"></a>
@@ -42,4 +38,4 @@ Specifies the Model display options.
 
 ### ModelDisplay.ShadedExteriorAndEdges *= 3*
 
-<!-- vale on -->
+

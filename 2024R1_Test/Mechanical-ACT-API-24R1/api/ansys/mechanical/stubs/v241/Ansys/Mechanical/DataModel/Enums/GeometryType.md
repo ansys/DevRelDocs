@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="geometrytype"></a>
-
 # `GeometryType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryType"></a>
@@ -62,4 +58,4 @@ Specifies the GeometryType.
 
 ### GeometryType.Unknown *= 6*
 
-<!-- vale on -->
+

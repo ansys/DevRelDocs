@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.BoltToolResults"></a>
-
 <a id="bolttoolresults"></a>
 
 # `BoltToolResults`
@@ -26,4 +22,4 @@
 BoltToolResults subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

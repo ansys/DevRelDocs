@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="stackermethodmeshtype"></a>
-
 # `StackerMethodMeshType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StackerMethodMeshType"></a>
@@ -39,4 +35,4 @@ Derive from this class to define new enumerations.
 
 ### StackerMethodMeshType.AllTri *= 0*
 
-<!-- vale on -->
+

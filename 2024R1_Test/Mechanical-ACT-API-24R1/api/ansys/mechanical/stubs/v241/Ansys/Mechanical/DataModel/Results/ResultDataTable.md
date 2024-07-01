@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="resultdatatable"></a>
-
 # `ResultDataTable`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Results.ResultDataTable"></a>
@@ -80,4 +76,4 @@ Count property.
 ContainsKey method.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

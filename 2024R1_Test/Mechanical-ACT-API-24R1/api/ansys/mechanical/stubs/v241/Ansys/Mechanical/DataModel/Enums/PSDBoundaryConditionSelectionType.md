@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="psdboundaryconditionselectiontype"></a>
-
 # `PSDBoundaryConditionSelectionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PSDBoundaryConditionSelectionType"></a>
@@ -52,4 +48,4 @@ Specifies the PSDBoundaryConditionSelectionType.
 
 ### PSDBoundaryConditionSelectionType.AllSupports *= 4*
 
-<!-- vale on -->
+

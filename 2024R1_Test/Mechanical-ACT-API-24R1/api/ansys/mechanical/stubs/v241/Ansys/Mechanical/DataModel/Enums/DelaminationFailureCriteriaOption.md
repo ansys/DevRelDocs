@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="delaminationfailurecriteriaoption"></a>
-
 # `DelaminationFailureCriteriaOption`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DelaminationFailureCriteriaOption"></a>
@@ -47,4 +43,4 @@ Specifies the DelaminationFailureCriteriaOption.
 
 ### DelaminationFailureCriteriaOption.StressIntensityFactor *= 3*
 
-<!-- vale on -->
+

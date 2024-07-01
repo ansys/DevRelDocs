@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="pulloutdirectiontype"></a>
-
 # `PullOutDirectionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PullOutDirectionType"></a>
@@ -42,4 +38,4 @@ Specifies the PullOutDirectionType.
 
 ### PullOutDirectionType.AlongAxis *= 0*
 
-<!-- vale on -->
+

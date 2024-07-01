@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="thermalpointmassbehavior"></a>
-
 # `ThermalPointMassBehavior`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ThermalPointMassBehavior"></a>
@@ -47,4 +43,4 @@ Specifies the Behavior for ThermalPointMass.
 
 ### ThermalPointMassBehavior.Coupled *= 3*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.BeamToolResults"></a>
-
 <a id="beamtoolresults"></a>
 
 # `BeamToolResults`
@@ -29,4 +25,4 @@
 BeamToolResults subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="automaticormanual"></a>
-
 # `AutomaticOrManual`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AutomaticOrManual"></a>
@@ -37,4 +33,4 @@ Specifies the AutomaticOrManual.
 
 ### AutomaticOrManual.Manual *= 0*
 
-<!-- vale on -->
+

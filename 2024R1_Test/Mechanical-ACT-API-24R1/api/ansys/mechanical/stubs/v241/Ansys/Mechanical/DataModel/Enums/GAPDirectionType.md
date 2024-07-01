@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="gapdirectiontype"></a>
-
 # `GAPDirectionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GAPDirectionType"></a>
@@ -42,4 +38,4 @@ Specifies the GAPDirectionType.
 
 ### GAPDirectionType.Z *= 3*
 
-<!-- vale on -->
+

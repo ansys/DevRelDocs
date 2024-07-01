@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="datatransfertype"></a>
-
 # `DataTransferType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.DataTransferType"></a>
@@ -42,4 +38,4 @@ This enum is referenced in the “Output” tree node and defines how the genera
 
 ### DataTransferType.ProgramControlled *= 0*
 
-<!-- vale on -->
+

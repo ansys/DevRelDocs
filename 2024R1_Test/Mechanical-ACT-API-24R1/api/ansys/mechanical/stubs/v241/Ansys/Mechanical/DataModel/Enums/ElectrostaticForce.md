@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="electrostaticforce"></a>
-
 # `ElectrostaticForce`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ElectrostaticForce"></a>
@@ -47,4 +43,4 @@ Specifies the ElectrostaticForce.
 
 ### ElectrostaticForce.Off *= 0*
 
-<!-- vale on -->
+

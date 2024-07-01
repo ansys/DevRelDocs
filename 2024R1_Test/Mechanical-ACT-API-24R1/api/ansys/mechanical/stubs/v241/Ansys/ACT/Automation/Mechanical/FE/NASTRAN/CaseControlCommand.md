@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="casecontrolcommand"></a>
-
 # `CaseControlCommand`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.NASTRAN.CaseControlCommand"></a>
@@ -53,4 +49,4 @@ Gets the command name.
 Gets the command index.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

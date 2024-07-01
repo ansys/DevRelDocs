@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="exdsaverestartsontype"></a>
-
 # `EXDSaveRestartsOnType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EXDSaveRestartsOnType"></a>
@@ -40,4 +36,4 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### EXDSaveRestartsOnType.EquallySpaced *= 2*
 
-<!-- vale on -->
+

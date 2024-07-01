@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="linelinecontactdetectiontype"></a>
-
 # `LineLineContactDetectionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LineLineContactDetectionType"></a>
@@ -47,4 +43,4 @@ Specifies the LineLineContactDetectionType.
 
 ### LineLineContactDetectionType.InternalPipe *= 3*
 
-<!-- vale on -->
+

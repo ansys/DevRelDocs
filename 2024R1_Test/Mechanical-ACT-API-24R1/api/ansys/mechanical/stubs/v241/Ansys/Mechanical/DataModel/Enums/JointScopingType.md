@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="jointscopingtype"></a>
-
 # `JointScopingType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.JointScopingType"></a>
@@ -37,4 +33,4 @@ Specifies the JointScopingType.
 
 ### JointScopingType.BodyToGround *= 1*
 
-<!-- vale on -->
+

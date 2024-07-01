@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="surfacemeshtype"></a>
-
 # `SurfaceMeshType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.SurfaceMeshType"></a>
@@ -37,4 +33,4 @@ This enum is referenced in the “Control” tree node and reflects the type of 
 
 ### SurfaceMeshType.Triangles *= 1*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="nodemergetolerancemethod"></a>
-
 # `NodeMergeToleranceMethod`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NodeMergeToleranceMethod"></a>
@@ -42,4 +38,4 @@ To select the method of AutoNodeMove under PCTet.
 
 ### NodeMergeToleranceMethod.ProgramControlled *= 0*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="comparepartstolerancetype"></a>
-
 # `ComparePartsToleranceType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ComparePartsToleranceType"></a>
@@ -42,4 +38,4 @@ Specifies the ComparePartsTolerance Type.
 
 ### ComparePartsToleranceType.Tight *= 2*
 
-<!-- vale on -->
+

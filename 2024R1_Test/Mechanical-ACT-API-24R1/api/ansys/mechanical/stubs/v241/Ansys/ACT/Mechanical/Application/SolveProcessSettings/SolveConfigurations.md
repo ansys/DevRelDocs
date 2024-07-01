@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="solveconfigurations"></a>
-
 # `SolveConfigurations`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolveConfigurations"></a>
@@ -62,4 +58,4 @@ Adds the given SolveConfiguration object to the collection.
 Removes the given SolveConfiguration from the collection.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

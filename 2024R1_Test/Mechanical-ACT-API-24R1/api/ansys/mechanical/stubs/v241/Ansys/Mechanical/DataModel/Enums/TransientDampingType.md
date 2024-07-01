@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="transientdampingtype"></a>
-
 # `TransientDampingType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TransientDampingType"></a>
@@ -37,4 +33,4 @@ Specifies the TransientDampingType.
 
 ### TransientDampingType.NumericalDampingProgramControlled *= 0*
 
-<!-- vale on -->
+

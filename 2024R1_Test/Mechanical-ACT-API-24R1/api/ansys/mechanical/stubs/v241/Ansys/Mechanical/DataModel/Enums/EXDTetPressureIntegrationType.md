@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="exdtetpressureintegrationtype"></a>
-
 # `EXDTetPressureIntegrationType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EXDTetPressureIntegrationType"></a>
@@ -40,4 +36,4 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### EXDTetPressureIntegrationType.NBS *= 2*
 
-<!-- vale on -->
+

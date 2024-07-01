@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="graphicsviewportsexportborderstyle"></a>
-
 # `GraphicsViewportsExportBorderStyle`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsViewportsExportBorderStyle"></a>
@@ -43,4 +39,4 @@ Border style enum values can be combined via bitwise-or ( | ).
 
 ### GraphicsViewportsExportBorderStyle.Exterior *= 2*
 
-<!-- vale on -->
+

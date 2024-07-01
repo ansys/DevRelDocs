@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="restartsaveatloadstep"></a>
-
 # `RestartSaveAtLoadStep`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RestartSaveAtLoadStep"></a>
@@ -47,4 +43,4 @@ Specifies the RestartSaveAtLoadStep.
 
 ### RestartSaveAtLoadStep.Specify *= 3*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="referenceframetype"></a>
-
 # `ReferenceFrameType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ReferenceFrameType"></a>
@@ -52,4 +48,4 @@ Specifies the ReferenceFrameType.
 
 ### ReferenceFrameType.SALEFill *= 5*
 
-<!-- vale on -->
+

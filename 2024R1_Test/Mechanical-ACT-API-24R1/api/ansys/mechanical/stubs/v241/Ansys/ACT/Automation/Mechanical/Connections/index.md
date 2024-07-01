@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections"></a>
-
 <a id="connections"></a>
 
 # `Connections`
@@ -35,4 +31,4 @@
 Connections subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

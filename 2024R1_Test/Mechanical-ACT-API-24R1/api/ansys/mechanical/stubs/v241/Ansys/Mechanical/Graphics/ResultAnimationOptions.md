@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="resultanimationoptions"></a>
-
 # `ResultAnimationOptions`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.ResultAnimationOptions"></a>
@@ -89,4 +85,4 @@ Gets or Sets the Number of Cycles for Time Decay.
 Gets or Sets if the Displacement Traces are Enabled/Disabled
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

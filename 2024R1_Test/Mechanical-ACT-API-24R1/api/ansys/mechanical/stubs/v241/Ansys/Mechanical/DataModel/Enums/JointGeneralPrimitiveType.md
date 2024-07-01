@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="jointgeneralprimitivetype"></a>
-
 # `JointGeneralPrimitiveType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.JointGeneralPrimitiveType"></a>
@@ -52,4 +48,4 @@ Specifies the JointGeneralPrimitiveType.
 
 ### JointGeneralPrimitiveType.Parallel *= 1*
 
-<!-- vale on -->
+

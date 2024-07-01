@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="excitationtype"></a>
-
 # `ExcitationType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExcitationType"></a>
@@ -37,4 +33,4 @@ Specifies the ExcitationType.
 
 ### ExcitationType.Velocity *= 1*
 
-<!-- vale on -->
+

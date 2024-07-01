@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="futureintenttype"></a>
-
 # `FutureIntentType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FutureIntentType"></a>
@@ -92,4 +88,4 @@ Specifies the FutureIntentType.
 
 ### FutureIntentType.RestartFiles *= 5*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="harmonicmethod"></a>
-
 # `HarmonicMethod`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.HarmonicMethod"></a>
@@ -52,4 +48,4 @@ Specifies the HarmonicMethod.
 
 ### HarmonicMethod.VariationalTechnology *= 2*
 
-<!-- vale on -->
+

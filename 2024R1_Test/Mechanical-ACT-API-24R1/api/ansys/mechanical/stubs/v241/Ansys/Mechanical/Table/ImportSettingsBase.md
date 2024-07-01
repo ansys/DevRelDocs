@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="importsettingsbase"></a>
-
 # `ImportSettingsBase`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Table.ImportSettingsBase"></a>
@@ -45,4 +41,4 @@ Gets or sets the type of URI provided for Table import.
 Default:
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

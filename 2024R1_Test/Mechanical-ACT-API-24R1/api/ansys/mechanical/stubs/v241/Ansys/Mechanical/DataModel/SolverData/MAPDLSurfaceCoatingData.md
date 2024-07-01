@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="mapdlsurfacecoatingdata"></a>
-
 # `MAPDLSurfaceCoatingData`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.SolverData.MAPDLSurfaceCoatingData"></a>
@@ -35,4 +31,4 @@ MAPDLSurfaceCoatingData class.
 Gets the Material Id number for the surface coating.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

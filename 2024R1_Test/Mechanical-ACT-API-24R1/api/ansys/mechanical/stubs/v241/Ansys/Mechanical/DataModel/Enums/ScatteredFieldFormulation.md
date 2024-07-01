@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="scatteredfieldformulation"></a>
-
 # `ScatteredFieldFormulation`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ScatteredFieldFormulation"></a>
@@ -42,4 +38,4 @@ Specifies the ScatteredFieldFormulation.
 
 ### ScatteredFieldFormulation.ProgramControlled *= 0*
 
-<!-- vale on -->
+

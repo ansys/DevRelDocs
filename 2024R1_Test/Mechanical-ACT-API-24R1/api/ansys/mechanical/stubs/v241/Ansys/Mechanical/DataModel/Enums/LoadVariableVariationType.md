@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="loadvariablevariationtype"></a>
-
 # `LoadVariableVariationType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType"></a>
@@ -882,4 +878,4 @@ Specifies the LoadVariableVariationType.
 
 ### LoadVariableVariationType.ZValue *= 14*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="treefilterobjectstate"></a>
-
 # `TreeFilterObjectState`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TreeFilterObjectState"></a>
@@ -67,4 +63,4 @@ Specifies the TreeFilterObjectState.
 
 ### TreeFilterObjectState.Failed *= 8*
 
-<!-- vale on -->
+

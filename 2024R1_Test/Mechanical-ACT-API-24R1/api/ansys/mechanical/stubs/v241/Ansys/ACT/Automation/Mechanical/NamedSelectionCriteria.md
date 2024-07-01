@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="namedselectioncriteria"></a>
-
 # `NamedSelectionCriteria`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NamedSelectionCriteria"></a>
@@ -116,4 +112,4 @@ Removes the given criterion from the collection if it exists in the collection. 
 Removes the criterion at the given index.  Throws an exception if the given index is not valid.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="selectiontype"></a>
-
 # `SelectionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SelectionType"></a>
@@ -67,4 +63,4 @@ Specifies the selection type.
 
 ### SelectionType.MeshElementFace *= 9*
 
-<!-- vale on -->
+

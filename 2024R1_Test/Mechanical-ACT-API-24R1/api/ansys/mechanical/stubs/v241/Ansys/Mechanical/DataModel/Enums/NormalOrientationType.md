@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="normalorientationtype"></a>
-
 # `NormalOrientationType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NormalOrientationType"></a>
@@ -72,4 +68,4 @@ Specifies the NormalOrientationType.
 
 ### NormalOrientationType.ZAxis *= 2*
 
-<!-- vale on -->
+

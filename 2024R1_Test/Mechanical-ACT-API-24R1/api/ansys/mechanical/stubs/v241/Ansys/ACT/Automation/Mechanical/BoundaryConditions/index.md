@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions"></a>
-
 <a id="boundaryconditions"></a>
 
 # `BoundaryConditions`
@@ -123,4 +119,4 @@
 BoundaryConditions subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

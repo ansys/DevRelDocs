@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="sequenceselectiontype"></a>
-
 # `SequenceSelectionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SequenceSelectionType"></a>
@@ -77,4 +73,4 @@ Specifies the SequenceSelectionType.
 
 ### SequenceSelectionType.PSDPfact *= 9*
 
-<!-- vale on -->
+

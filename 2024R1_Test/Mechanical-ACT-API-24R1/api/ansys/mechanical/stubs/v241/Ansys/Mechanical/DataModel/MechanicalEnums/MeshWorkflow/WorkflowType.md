@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="workflowtype"></a>
-
 # `WorkflowType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.WorkflowType"></a>
@@ -42,4 +38,4 @@ This enum is referenced in the “Steps” tree node and reflects the type of wo
 
 ### WorkflowType.FEMAcousticsInternal *= 5*
 
-<!-- vale on -->
+

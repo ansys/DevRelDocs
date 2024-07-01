@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="reactionforcecriteriatype"></a>
-
 # `ReactionForceCriteriaType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ReactionForceCriteriaType"></a>
@@ -37,4 +33,4 @@ Specifies the ReactionForceCriteriaType.
 
 ### ReactionForceCriteriaType.Sum *= 0*
 
-<!-- vale on -->
+

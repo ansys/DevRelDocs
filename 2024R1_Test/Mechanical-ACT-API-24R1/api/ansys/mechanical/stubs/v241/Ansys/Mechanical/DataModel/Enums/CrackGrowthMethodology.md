@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="crackgrowthmethodology"></a>
-
 # `CrackGrowthMethodology`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrackGrowthMethodology"></a>
@@ -37,4 +33,4 @@ Specifies the CrackGrowthMethodology.
 
 ### CrackGrowthMethodology.LifeCyclePrediction *= 1*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="shearmomenttype"></a>
-
 # `ShearMomentType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShearMomentType"></a>
@@ -42,4 +38,4 @@ Specifies the ShearMomentType.
 
 ### ShearMomentType.TotalSM *= 0*
 
-<!-- vale on -->
+

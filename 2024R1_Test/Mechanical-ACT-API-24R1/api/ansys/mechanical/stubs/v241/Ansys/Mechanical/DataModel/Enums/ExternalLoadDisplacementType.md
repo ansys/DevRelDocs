@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="externalloaddisplacementtype"></a>
-
 # `ExternalLoadDisplacementType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExternalLoadDisplacementType"></a>
@@ -37,4 +33,4 @@ Specifies the ExternalLoadDisplacementType.
 
 ### ExternalLoadDisplacementType.InitialFoamReferenceGeometry *= 1*
 
-<!-- vale on -->
+

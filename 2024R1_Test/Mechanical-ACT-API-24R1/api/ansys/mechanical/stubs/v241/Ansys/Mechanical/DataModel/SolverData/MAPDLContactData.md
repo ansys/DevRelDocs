@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="mapdlcontactdata"></a>
-
 # `MAPDLContactData`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.SolverData.MAPDLContactData"></a>
@@ -44,4 +40,4 @@ Gets the Source Id of the Contact region.
 Gets the Target Id of the Contact region.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

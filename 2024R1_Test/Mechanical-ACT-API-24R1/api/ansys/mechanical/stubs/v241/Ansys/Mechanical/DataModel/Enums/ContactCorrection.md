@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="contactcorrection"></a>
-
 # `ContactCorrection`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactCorrection"></a>
@@ -42,4 +38,4 @@ Specifies the ContactCorrection.
 
 ### ContactCorrection.Smoothing *= 1*
 
-<!-- vale on -->
+

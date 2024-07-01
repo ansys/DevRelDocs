@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="mappinginterpolationtype"></a>
-
 # `MappingInterpolationType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MappingInterpolationType"></a>
@@ -35,4 +31,4 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### MappingInterpolationType.Conservative *= 1*
 
-<!-- vale on -->
+

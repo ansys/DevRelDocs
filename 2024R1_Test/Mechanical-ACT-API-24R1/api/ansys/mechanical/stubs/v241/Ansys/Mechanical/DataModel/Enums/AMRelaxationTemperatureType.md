@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="amrelaxationtemperaturetype"></a>
-
 # `AMRelaxationTemperatureType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMRelaxationTemperatureType"></a>
@@ -37,4 +33,4 @@ Specifies the AMRelaxationTemperatureType.
 
 ### AMRelaxationTemperatureType.UserSpecified *= 1*
 
-<!-- vale on -->
+

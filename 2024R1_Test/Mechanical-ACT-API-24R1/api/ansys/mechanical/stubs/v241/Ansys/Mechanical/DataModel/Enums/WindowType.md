@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="windowtype"></a>
-
 # `WindowType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.WindowType"></a>
@@ -67,4 +63,4 @@ Specifies the WindowType.
 
 ### WindowType.Welch *= 6*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="aggressiveremeshingtype"></a>
-
 # `AggressiveRemeshingType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AggressiveRemeshingType"></a>
@@ -37,4 +33,4 @@ Specifies the AggressiveRemeshingType.
 
 ### AggressiveRemeshingType.On *= 1*
 
-<!-- vale on -->
+

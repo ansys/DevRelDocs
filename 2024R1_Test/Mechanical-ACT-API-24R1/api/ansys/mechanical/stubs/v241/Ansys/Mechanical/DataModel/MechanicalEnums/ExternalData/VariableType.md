@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="variabletype"></a>
-
 # `VariableType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.VariableType"></a>
@@ -132,4 +128,4 @@ An enumeration of the different variable types supported by the tabular data
 
 ### VariableType.UserField *= 20*
 
-<!-- vale on -->
+

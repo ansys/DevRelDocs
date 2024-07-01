@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="delimitedimportsettings"></a>
-
 # `DelimitedImportSettings`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.ExternalData.DelimitedImportSettings"></a>
@@ -120,4 +116,4 @@ Removes the import definition at the specified index.
 ### DelimitedImportSettings.UseColumn(index: System.Int32, variableType: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.VariableType](../DataModel/MechanicalEnums/ExternalData/VariableType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.VariableType), unit: System.String, name: System.String)
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

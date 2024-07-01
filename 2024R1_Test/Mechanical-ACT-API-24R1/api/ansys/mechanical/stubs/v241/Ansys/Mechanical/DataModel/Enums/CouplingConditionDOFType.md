@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="couplingconditiondoftype"></a>
-
 # `CouplingConditionDOFType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CouplingConditionDOFType"></a>
@@ -72,4 +68,4 @@ Specifies the CouplingConditionDOFType.
 
 ### CouplingConditionDOFType.Voltage *= 7*
 
-<!-- vale on -->
+

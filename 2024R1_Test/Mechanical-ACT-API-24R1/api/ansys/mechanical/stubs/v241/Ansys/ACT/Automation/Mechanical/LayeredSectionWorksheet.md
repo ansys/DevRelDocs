@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="layeredsectionworksheet"></a>
-
 # `LayeredSectionWorksheet`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.LayeredSectionWorksheet"></a>
@@ -147,4 +143,4 @@ Gets the material for the LayeredSection at the row index specifiied.
 LayeredSectionWorksheet indices are zero based and ordered in the Z direction.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

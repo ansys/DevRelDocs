@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="materialpolarizationdirection"></a>
-
 # `MaterialPolarizationDirection`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MaterialPolarizationDirection"></a>
@@ -37,4 +33,4 @@ Specifies the MaterialPolarizationDirection.
 
 ### MaterialPolarizationDirection.PositiveXDirection *= 0*
 
-<!-- vale on -->
+

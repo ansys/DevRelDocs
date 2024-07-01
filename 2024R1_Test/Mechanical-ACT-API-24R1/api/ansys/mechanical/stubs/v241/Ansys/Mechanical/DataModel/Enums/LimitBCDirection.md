@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="limitbcdirection"></a>
-
 # `LimitBCDirection`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LimitBCDirection"></a>
@@ -47,4 +43,4 @@ Specifies the LimitBCDirection.
 
 ### LimitBCDirection.Z *= 2*
 
-<!-- vale on -->
+

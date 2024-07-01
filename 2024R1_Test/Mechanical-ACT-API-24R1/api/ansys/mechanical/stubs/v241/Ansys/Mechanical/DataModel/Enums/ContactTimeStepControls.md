@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="contacttimestepcontrols"></a>
-
 # `ContactTimeStepControls`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactTimeStepControls"></a>
@@ -47,4 +43,4 @@ Specifies the ContactTimeStepControls.
 
 ### ContactTimeStepControls.UseImpactConstraints *= 3*
 
-<!-- vale on -->
+

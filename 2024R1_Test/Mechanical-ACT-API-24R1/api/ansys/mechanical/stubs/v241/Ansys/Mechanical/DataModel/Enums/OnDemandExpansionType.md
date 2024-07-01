@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="ondemandexpansiontype"></a>
-
 # `OnDemandExpansionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.OnDemandExpansionType"></a>
@@ -42,4 +38,4 @@ Specifies the OnDemandExpansionType.
 
 ### OnDemandExpansionType.Yes *= 1*
 
-<!-- vale on -->
+

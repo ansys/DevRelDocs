@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="radiosityviewfactortype"></a>
-
 # `RadiosityViewFactorType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RadiosityViewFactorType"></a>
@@ -37,4 +33,4 @@ Specifies the RadiosityViewFactorType.
 
 ### RadiosityViewFactorType.RadiosityFF2DNonHidden *= 1*
 
-<!-- vale on -->
+

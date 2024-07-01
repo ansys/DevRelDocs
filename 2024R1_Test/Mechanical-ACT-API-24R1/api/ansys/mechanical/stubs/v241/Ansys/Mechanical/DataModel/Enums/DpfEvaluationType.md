@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="dpfevaluationtype"></a>
-
 # `DpfEvaluationType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType"></a>
@@ -52,4 +48,4 @@ Specifies the DpfEvaluationType.
 
 ### DpfEvaluationType.ResultFiles *= 2*
 
-<!-- vale on -->
+

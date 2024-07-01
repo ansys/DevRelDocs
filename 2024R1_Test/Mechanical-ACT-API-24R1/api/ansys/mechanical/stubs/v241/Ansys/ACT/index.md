@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.ACT"></a>
-
 <a id="act"></a>
 
 # `ACT`
@@ -26,4 +22,4 @@
 ACT submodule.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.LinearizedStressResults"></a>
-
 <a id="linearizedstressresults"></a>
 
 # `LinearizedStressResults`
@@ -31,4 +27,4 @@
 LinearizedStressResults subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

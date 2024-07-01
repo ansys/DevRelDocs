@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="visibilitytype"></a>
-
 # `VisibilityType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.VisibilityType"></a>
@@ -42,4 +38,4 @@ Specifies the Tree Graphic Filter type.
 
 ### VisibilityType.Invisible *= 2*
 
-<!-- vale on -->
+

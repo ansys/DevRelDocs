@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="boundvector"></a>
-
 # `BoundVector`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Math.BoundVector"></a>
@@ -45,4 +41,4 @@ The location at the start of the BoundVector.
 The direction of the BoundVector.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

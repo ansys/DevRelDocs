@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="virtualcellgroupmethodtype"></a>
-
 # `VirtualCellGroupMethodType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.VirtualCellGroupMethodType"></a>
@@ -42,4 +38,4 @@ Specifies the VirtualCellGroupMethodType.
 
 ### VirtualCellGroupMethodType.UserDefined *= 2*
 
-<!-- vale on -->
+

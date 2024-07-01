@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="convectiontableselection"></a>
-
 # `ConvectionTableSelection`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ConvectionTableSelection"></a>
@@ -37,4 +33,4 @@ Specifies the ConvectionTableSelection.
 
 ### ConvectionTableSelection.FilmCoefficient *= 0*
 
-<!-- vale on -->
+

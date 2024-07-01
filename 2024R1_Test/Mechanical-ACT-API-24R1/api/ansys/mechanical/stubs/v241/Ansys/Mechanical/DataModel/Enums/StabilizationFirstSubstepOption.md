@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="stabilizationfirstsubstepoption"></a>
-
 # `StabilizationFirstSubstepOption`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StabilizationFirstSubstepOption"></a>
@@ -42,4 +38,4 @@ Specifies the StabilizationFirstSubstepOption.
 
 ### StabilizationFirstSubstepOption.Yes *= 2*
 
-<!-- vale on -->
+

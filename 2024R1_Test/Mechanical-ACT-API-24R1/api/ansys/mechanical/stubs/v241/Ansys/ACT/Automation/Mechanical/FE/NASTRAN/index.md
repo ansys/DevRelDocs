@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.NASTRAN"></a>
-
 <a id="nastran"></a>
 
 # `NASTRAN`
@@ -28,4 +24,4 @@
 NASTRAN subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

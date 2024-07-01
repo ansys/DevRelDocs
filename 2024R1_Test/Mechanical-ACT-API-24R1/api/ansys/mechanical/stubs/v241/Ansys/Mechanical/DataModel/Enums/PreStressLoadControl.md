@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="prestressloadcontrol"></a>
-
 # `PreStressLoadControl`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PreStressLoadControl"></a>
@@ -52,4 +48,4 @@ Specifies the PreStressLoadControl.
 
 ### PreStressLoadControl.KeepDisplacementConstraints *= 2*
 
-<!-- vale on -->
+

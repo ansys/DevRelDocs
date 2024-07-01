@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="fieldadaptermanager"></a>
-
 # `FieldAdapterManager`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Adapters.FieldAdapterManager"></a>
@@ -64,4 +60,4 @@ Register the instance object that defines a type of field adapter.
 Removes the instance object that defines a type of field adapter from this manager.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="responseconstraintdefineby"></a>
-
 # `ResponseConstraintDefineBy`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResponseConstraintDefineBy"></a>
@@ -47,4 +43,4 @@ Specifies the ResponseConstraintDefineBy.
 
 ### ResponseConstraintDefineBy.Range *= 1*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="ecadfidelity"></a>
-
 # `ECADFidelity`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ECADFidelity"></a>
@@ -65,4 +61,4 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### ECADFidelity.MCADBlock *= 1*
 
-<!-- vale on -->
+

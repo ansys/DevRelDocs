@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Utilities"></a>
-
 <a id="utilities"></a>
 
 # `Utilities`
@@ -31,4 +27,4 @@
 Utilities subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

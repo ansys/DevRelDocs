@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="nonlinearformulationtype"></a>
-
 # `NonLinearFormulationType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NonLinearFormulationType"></a>
@@ -42,4 +38,4 @@ Specifies the NonLinearFormulationType.
 
 ### NonLinearFormulationType.Quasi *= 2*
 
-<!-- vale on -->
+

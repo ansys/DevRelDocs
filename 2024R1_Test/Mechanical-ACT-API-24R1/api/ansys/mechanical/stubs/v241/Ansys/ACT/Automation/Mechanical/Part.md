@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="part"></a>
-
 # `Part`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Part"></a>
@@ -560,4 +556,4 @@ If multiple properties have the same API Name, only the first property with that
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

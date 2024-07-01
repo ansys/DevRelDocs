@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="ireadonlydataseries"></a>
-
 # `IReadOnlyDataSeries`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Interfaces.IReadOnlyDataSeries"></a>
@@ -90,4 +86,4 @@ or “kg m^2 s^-3”.
 Explicitly get the values of the data series.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

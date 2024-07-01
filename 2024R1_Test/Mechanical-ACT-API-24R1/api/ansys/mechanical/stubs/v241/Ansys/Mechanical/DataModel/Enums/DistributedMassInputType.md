@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="distributedmassinputtype"></a>
-
 # `DistributedMassInputType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DistributedMassInputType"></a>
@@ -37,4 +33,4 @@ Specifies the DistributedMassInputType.
 
 ### DistributedMassInputType.TotalMass *= 0*
 
-<!-- vale on -->
+

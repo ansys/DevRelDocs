@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="stressstraintype"></a>
-
 # `StressStrainType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StressStrainType"></a>
@@ -77,4 +73,4 @@ Specifies the StressStrainType.
 
 ### StressStrainType.Thermal *= 8*
 
-<!-- vale on -->
+

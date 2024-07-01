@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="loadvariationsuboption"></a>
-
 # `LoadVariationSubOption`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadVariationSubOption"></a>
@@ -52,4 +48,4 @@ Specifies the LoadVariationSubOption.
 
 ### LoadVariationSubOption.SurfaceTemperature *= 3*
 
-<!-- vale on -->
+

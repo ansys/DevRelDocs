@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="thermalstraintype"></a>
-
 # `ThermalStrainType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ThermalStrainType"></a>
@@ -42,4 +38,4 @@ Specifies the ThermalStrainType.
 
 ### ThermalStrainType.Weak *= 2*
 
-<!-- vale on -->
+

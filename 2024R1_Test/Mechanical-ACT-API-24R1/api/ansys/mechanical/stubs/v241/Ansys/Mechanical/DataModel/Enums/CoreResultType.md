@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="coreresulttype"></a>
-
 # `CoreResultType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CoreResultType"></a>
@@ -47,4 +43,4 @@ Specifies the CoreResultType.
 
 ### CoreResultType.Velocity *= 39*
 
-<!-- vale on -->
+

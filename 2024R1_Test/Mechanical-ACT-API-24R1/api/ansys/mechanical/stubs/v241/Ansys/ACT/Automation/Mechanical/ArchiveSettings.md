@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="archivesettings"></a>
-
 # `ArchiveSettings`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ArchiveSettings"></a>
@@ -44,4 +40,4 @@ A boolean which configures the option to include result/solution files in the ar
 A boolean which configures the option to include files inside the UserFiles folder in the archive file
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

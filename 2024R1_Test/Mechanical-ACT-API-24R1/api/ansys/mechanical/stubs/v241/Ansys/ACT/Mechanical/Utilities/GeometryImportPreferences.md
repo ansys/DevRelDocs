@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="geometryimportpreferences"></a>
-
 # `GeometryImportPreferences`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Utilities.GeometryImportPreferences"></a>
@@ -261,4 +257,4 @@ The others are relative settings compared to “normal” facet quality.
 Typically, better facet quality requires more memory and may take additional time to import/update.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="initialconditionstype"></a>
-
 # `InitialConditionsType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.InitialConditionsType"></a>
@@ -62,4 +58,4 @@ Specifies the InitialConditionsType.
 
 ### InitialConditionsType.Velocity *= 2*
 
-<!-- vale on -->
+

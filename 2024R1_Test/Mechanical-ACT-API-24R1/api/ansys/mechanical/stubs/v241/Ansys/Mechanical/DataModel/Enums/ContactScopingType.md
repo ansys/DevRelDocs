@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="contactscopingtype"></a>
-
 # `ContactScopingType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactScopingType"></a>
@@ -37,4 +33,4 @@ Specifies the ContactScopingType.
 
 ### ContactScopingType.ContactTargetUnderlying *= 2*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="spectrumtype"></a>
-
 # `SpectrumType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SpectrumType"></a>
@@ -42,4 +38,4 @@ Specifies the SpectrumType.
 
 ### SpectrumType.SinglePoint *= 1*
 
-<!-- vale on -->
+

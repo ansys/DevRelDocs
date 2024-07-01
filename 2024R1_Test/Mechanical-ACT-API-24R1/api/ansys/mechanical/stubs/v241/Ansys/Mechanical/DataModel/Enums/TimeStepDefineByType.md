@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="timestepdefinebytype"></a>
-
 # `TimeStepDefineByType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TimeStepDefineByType"></a>
@@ -37,4 +33,4 @@ Specifies the TimeStepDefineByType.
 
 ### TimeStepDefineByType.Time *= 1*
 
-<!-- vale on -->
+

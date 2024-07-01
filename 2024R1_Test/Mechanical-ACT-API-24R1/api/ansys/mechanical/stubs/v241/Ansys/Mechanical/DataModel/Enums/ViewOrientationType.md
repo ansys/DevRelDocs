@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="vieworientationtype"></a>
-
 # `ViewOrientationType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ViewOrientationType"></a>
@@ -62,4 +58,4 @@ Specifies the View Orientation type.
 
 ### ViewOrientationType.Iso *= 6*
 
-<!-- vale on -->
+

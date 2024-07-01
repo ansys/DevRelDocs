@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="modelviewmanager"></a>
-
 # `ModelViewManager`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Common.Graphics.ModelViewManager"></a>
@@ -170,4 +166,4 @@ Set the active of viewport.
 Active a viewport.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

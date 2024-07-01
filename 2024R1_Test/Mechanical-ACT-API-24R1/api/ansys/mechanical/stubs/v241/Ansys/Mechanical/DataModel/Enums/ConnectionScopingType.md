@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="connectionscopingtype"></a>
-
 # `ConnectionScopingType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ConnectionScopingType"></a>
@@ -37,4 +33,4 @@ Specifies the ConnectionScopingType.
 
 ### ConnectionScopingType.BodyToGround *= 1*
 
-<!-- vale on -->
+

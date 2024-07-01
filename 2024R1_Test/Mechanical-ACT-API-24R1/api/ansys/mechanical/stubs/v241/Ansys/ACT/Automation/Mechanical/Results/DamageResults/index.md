@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.DamageResults"></a>
-
 <a id="damageresults"></a>
 
 # `DamageResults`
@@ -37,4 +33,4 @@
 DamageResults subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="crackselectionmodetype"></a>
-
 # `CrackSelectionModeType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrackSelectionModeType"></a>
@@ -37,4 +33,4 @@ Specifies the CrackSelectionModeType.
 
 ### CrackSelectionModeType.SingleCrack *= 0*
 
-<!-- vale on -->
+

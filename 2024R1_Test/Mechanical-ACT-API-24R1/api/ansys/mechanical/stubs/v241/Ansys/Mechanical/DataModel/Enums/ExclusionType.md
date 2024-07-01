@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="exclusiontype"></a>
-
 # `ExclusionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExclusionType"></a>
@@ -37,4 +33,4 @@ Specifies the ExclusionType.
 
 ### ExclusionType.Orthotropic *= 1*
 
-<!-- vale on -->
+

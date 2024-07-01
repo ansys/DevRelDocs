@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="crackgrowthincrementtype"></a>
-
 # `CrackGrowthIncrementType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrackGrowthIncrementType"></a>
@@ -37,4 +33,4 @@ Specifies the CrackGrowthIncrementType.
 
 ### CrackGrowthIncrementType.ProgramControlled *= 1*
 
-<!-- vale on -->
+
