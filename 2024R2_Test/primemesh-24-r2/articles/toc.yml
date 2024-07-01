@@ -27,7 +27,7 @@
     href: user_guide/stacker.md  
   - name: Match morphing
     href: user_guide/matchmorph.md
-  - name: sizing
+  - name: Sizing
     href: user_guide/sizing.md
   - name: Connections
     href: user_guide/connections.md  
@@ -4620,6 +4620,8 @@
     href: api/_autosummary/ansys.meshing.prime.lucid.VolumeScope.md
   - name: ansys.meshing.prime.lucid.VolumeScope.get_scope_definition
     href: api/_autosummary/ansys.meshing.prime.lucid.VolumeScope.get_scope_definition.md
+- name: Changelog
+  href: changelog.md
 
 
 

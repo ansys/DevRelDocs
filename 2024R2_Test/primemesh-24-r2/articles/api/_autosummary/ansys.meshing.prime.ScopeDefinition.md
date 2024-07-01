@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # ScopeDefinition
 
 <a id="ansys.meshing.prime.ScopeDefinition"></a>

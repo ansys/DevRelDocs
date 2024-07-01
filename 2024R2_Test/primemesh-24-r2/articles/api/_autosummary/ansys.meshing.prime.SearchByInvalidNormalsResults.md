@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # SearchByInvalidNormalsResults
 
 <a id="ansys.meshing.prime.SearchByInvalidNormalsResults"></a>

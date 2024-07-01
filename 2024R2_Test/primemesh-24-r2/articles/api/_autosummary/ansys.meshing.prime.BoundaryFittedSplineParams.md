@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # BoundaryFittedSplineParams
 
 <a id="ansys.meshing.prime.BoundaryFittedSplineParams"></a>

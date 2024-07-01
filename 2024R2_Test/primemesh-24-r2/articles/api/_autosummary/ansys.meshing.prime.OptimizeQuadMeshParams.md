@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # OptimizeQuadMeshParams
 
 <a id="ansys.meshing.prime.OptimizeQuadMeshParams"></a>

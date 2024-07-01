@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # ExtractTopoVolumesParams
 
 <a id="ansys.meshing.prime.ExtractTopoVolumesParams"></a>

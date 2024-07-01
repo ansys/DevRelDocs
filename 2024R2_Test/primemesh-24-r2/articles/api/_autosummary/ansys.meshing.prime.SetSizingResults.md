@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # SetSizingResults
 
 <a id="ansys.meshing.prime.SetSizingResults"></a>

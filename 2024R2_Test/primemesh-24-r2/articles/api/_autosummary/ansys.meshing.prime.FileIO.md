@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # FileIO
 
 <a id="ansys.meshing.prime.FileIO"></a>

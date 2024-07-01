@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # FileReadParams
 
 <a id="ansys.meshing.prime.FileReadParams"></a>

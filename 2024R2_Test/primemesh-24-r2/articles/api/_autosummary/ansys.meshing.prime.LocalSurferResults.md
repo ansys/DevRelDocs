@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # LocalSurferResults
 
 <a id="ansys.meshing.prime.LocalSurferResults"></a>

@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # IntersectionMask
 
 <a id="ansys.meshing.prime.IntersectionMask"></a>

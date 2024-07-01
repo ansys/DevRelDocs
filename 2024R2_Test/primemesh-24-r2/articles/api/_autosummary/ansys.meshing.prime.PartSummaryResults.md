@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # PartSummaryResults
 
 <a id="ansys.meshing.prime.PartSummaryResults"></a>

@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # SurferResults
 
 <a id="ansys.meshing.prime.SurferResults"></a>

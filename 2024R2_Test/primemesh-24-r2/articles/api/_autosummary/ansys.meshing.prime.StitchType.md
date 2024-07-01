@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # StitchType
 
 <a id="ansys.meshing.prime.StitchType"></a>

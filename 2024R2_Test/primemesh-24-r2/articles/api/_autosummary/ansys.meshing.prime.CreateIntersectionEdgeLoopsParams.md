@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # CreateIntersectionEdgeLoopsParams
 
 <a id="ansys.meshing.prime.CreateIntersectionEdgeLoopsParams"></a>

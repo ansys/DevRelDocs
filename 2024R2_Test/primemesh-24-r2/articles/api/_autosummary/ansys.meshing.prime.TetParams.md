@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # TetParams
 
 <a id="ansys.meshing.prime.TetParams"></a>

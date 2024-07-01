@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # ContactPreventionParams
 
 <a id="ansys.meshing.prime.ContactPreventionParams"></a>

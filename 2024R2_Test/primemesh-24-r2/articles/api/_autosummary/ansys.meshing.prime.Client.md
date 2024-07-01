@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # Client
 
 <a id="ansys.meshing.prime.Client"></a>

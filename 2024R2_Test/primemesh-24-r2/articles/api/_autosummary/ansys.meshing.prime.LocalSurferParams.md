@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # LocalSurferParams
 
 <a id="ansys.meshing.prime.LocalSurferParams"></a>

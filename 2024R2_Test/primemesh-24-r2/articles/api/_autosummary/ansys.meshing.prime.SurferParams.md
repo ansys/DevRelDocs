@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # SurferParams
 
 <a id="ansys.meshing.prime.SurferParams"></a>

@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # ControlPointSelection
 
 <a id="ansys.meshing.prime.ControlPointSelection"></a>

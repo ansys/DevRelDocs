@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # BoundingBox
 
 <a id="ansys.meshing.prime.BoundingBox"></a>

@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # DeleteMeshParams
 
 <a id="ansys.meshing.prime.DeleteMeshParams"></a>

@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # StretchFreeBoundariesResults
 
 <a id="ansys.meshing.prime.StretchFreeBoundariesResults"></a>

@@ -3,7 +3,7 @@
 Geometries migrated from various CAD packages often contain gaps and overlaps between the surfaces due to algorithm and tolerance differences of the CAD packages.
 Surface wrapping provides the ability to create reliable meshes for such geometries without extensive manual clean up and reduces the time required for preprocessing.
 
-The [`Wrapper`](./../api/_autosummary/ansys.meshing.prime.Wrapper.md#ansys.meshing.prime.Wrapper) class allows you to extract a closed watertight surface used to create a volume mesh from geometry where the inputs:
+The [`Wrapper`](../api/_autosummary/ansys.meshing.prime.Wrapper.md#ansys.meshing.prime.Wrapper) class allows you to extract a closed watertight surface used to create a volume mesh from geometry where the inputs:
 
 - Are not connected with overlaps
 - Have holes, leaks, or gaps
@@ -173,11 +173,11 @@ wrapper.improve_quality(
 
 *This is a beta feature. API behavior and implementation might change in the future.*
 
-The [`Patch Flow Region`](./../api/_autosummary/ansys.meshing.prime.Wrapper.patch_flow_regions.md#ansys.meshing.prime.Wrapper.patch_flow_regions) class creates
+The [`Patch Flow Region`](../api/_autosummary/ansys.meshing.prime.Wrapper.patch_flow_regions.md#ansys.meshing.prime.Wrapper.patch_flow_regions) class creates
 patching face zonelets for holes below a specified size
 that exist between regions defined by live and dead material points. You can define
 multiple dead regions but only one live region can be defined.
-The [`WrapperPatchFlowRegionsParams`](./../api/_autosummary/ansys.meshing.prime.WrapperPatchFlowRegionsParams.md#ansys.meshing.prime.WrapperPatchFlowRegionsParams) class allows you to specify the base size and dead regions to create the patched surface.
+The [`WrapperPatchFlowRegionsParams`](../api/_autosummary/ansys.meshing.prime.WrapperPatchFlowRegionsParams.md#ansys.meshing.prime.WrapperPatchFlowRegionsParams) class allows you to specify the base size and dead regions to create the patched surface.
 When you do not provide the base size, the global minimum size value is used.
 The patched surface is created towards the dead material point region.
 When you create a patched surface, the mesh created is non-conformal.

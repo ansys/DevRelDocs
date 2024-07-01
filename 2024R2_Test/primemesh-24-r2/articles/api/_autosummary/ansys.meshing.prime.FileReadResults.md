@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # FileReadResults
 
 <a id="ansys.meshing.prime.FileReadResults"></a>

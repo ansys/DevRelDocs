@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # TriangulateResults
 
 <a id="ansys.meshing.prime.TriangulateResults"></a>

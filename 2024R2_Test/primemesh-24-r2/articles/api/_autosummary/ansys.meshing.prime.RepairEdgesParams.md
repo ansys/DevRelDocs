@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # RepairEdgesParams
 
 <a id="ansys.meshing.prime.RepairEdgesParams"></a>

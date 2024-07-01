@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # SearchByThinStripParams
 
 <a id="ansys.meshing.prime.SearchByThinStripParams"></a>

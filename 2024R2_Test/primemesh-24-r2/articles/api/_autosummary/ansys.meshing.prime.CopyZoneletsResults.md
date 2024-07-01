@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # CopyZoneletsResults
 
 <a id="ansys.meshing.prime.CopyZoneletsResults"></a>

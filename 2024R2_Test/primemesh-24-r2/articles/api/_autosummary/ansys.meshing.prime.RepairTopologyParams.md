@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # RepairTopologyParams
 
 <a id="ansys.meshing.prime.RepairTopologyParams"></a>

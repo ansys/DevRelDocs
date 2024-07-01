@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # RemoveLabelResults
 
 <a id="ansys.meshing.prime.RemoveLabelResults"></a>

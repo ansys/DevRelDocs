@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # WrapParams
 
 <a id="ansys.meshing.prime.WrapParams"></a>

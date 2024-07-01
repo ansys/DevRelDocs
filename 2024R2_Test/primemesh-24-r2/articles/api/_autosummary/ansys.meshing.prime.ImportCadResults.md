@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # ImportCadResults
 
 <a id="ansys.meshing.prime.ImportCadResults"></a>

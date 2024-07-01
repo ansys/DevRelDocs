@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # WrapperCloseGapsResult
 
 <a id="ansys.meshing.prime.WrapperCloseGapsResult"></a>

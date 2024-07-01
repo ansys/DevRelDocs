@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # CellQualityMeasure
 
 <a id="ansys.meshing.prime.CellQualityMeasure"></a>

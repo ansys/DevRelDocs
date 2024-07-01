@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # DeleteUnwettedResult
 
 <a id="ansys.meshing.prime.DeleteUnwettedResult"></a>

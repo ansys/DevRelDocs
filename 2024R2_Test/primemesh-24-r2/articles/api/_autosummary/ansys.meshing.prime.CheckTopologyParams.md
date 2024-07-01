@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # CheckTopologyParams
 
 <a id="ansys.meshing.prime.CheckTopologyParams"></a>

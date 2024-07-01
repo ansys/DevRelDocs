@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # PartialDefeatureParams
 
 <a id="ansys.meshing.prime.PartialDefeatureParams"></a>

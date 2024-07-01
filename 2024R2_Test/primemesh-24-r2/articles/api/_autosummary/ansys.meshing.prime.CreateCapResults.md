@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # CreateCapResults
 
 <a id="ansys.meshing.prime.CreateCapResults"></a>

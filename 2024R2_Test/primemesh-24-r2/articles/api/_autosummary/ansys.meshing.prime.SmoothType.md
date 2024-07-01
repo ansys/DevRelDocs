@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # SmoothType
 
 <a id="ansys.meshing.prime.SmoothType"></a>

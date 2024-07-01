@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # PartZonelets
 
 <a id="ansys.meshing.prime.PartZonelets"></a>

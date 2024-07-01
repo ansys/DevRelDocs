@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # MeshedSizingParams
 
 <a id="ansys.meshing.prime.MeshedSizingParams"></a>

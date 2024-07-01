@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # MatchPair
 
 <a id="ansys.meshing.prime.MatchPair"></a>

@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # AutoQuadMesherResults
 
 <a id="ansys.meshing.prime.AutoQuadMesherResults"></a>

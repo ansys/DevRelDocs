@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # BCsVolumetricModality
 
 <a id="ansys.meshing.prime.BCsVolumetricModality"></a>

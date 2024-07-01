@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # QuadToSplineParams
 
 <a id="ansys.meshing.prime.QuadToSplineParams"></a>

@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # AutoMeshParams
 
 <a id="ansys.meshing.prime.AutoMeshParams"></a>

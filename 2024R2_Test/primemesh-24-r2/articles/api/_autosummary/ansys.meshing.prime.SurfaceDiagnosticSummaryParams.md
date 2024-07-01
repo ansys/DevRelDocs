@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # SurfaceDiagnosticSummaryParams
 
 <a id="ansys.meshing.prime.SurfaceDiagnosticSummaryParams"></a>

@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # ReadSizeFieldParams
 
 <a id="ansys.meshing.prime.ReadSizeFieldParams"></a>

@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # ImportFluentMeshingMeshParams
 
 <a id="ansys.meshing.prime.ImportFluentMeshingMeshParams"></a>

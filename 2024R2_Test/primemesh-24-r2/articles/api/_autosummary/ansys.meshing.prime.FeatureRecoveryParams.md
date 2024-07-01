@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # FeatureRecoveryParams
 
 <a id="ansys.meshing.prime.FeatureRecoveryParams"></a>

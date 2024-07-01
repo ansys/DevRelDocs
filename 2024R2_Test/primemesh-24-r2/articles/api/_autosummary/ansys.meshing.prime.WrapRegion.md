@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # WrapRegion
 
 <a id="ansys.meshing.prime.WrapRegion"></a>

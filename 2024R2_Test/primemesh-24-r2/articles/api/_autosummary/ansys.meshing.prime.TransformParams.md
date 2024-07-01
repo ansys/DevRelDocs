@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # TransformParams
 
 <a id="ansys.meshing.prime.TransformParams"></a>

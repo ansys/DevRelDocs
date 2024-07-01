@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # ErrorCode
 
 <a id="ansys.meshing.prime.ErrorCode"></a>

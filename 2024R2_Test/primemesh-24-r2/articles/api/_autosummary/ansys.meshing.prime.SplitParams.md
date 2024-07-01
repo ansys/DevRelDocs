@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # SplitParams
 
 <a id="ansys.meshing.prime.SplitParams"></a>

@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # ZoneType
 
 <a id="ansys.meshing.prime.ZoneType"></a>

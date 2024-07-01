@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # PrismParams
 
 <a id="ansys.meshing.prime.PrismParams"></a>

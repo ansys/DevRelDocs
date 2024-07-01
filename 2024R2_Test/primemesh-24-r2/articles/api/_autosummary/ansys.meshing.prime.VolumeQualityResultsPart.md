@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # VolumeQualityResultsPart
 
 <a id="ansys.meshing.prime.VolumeQualityResultsPart"></a>

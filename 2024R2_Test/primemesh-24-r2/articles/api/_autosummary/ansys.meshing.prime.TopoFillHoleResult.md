@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # TopoFillHoleResult
 
 <a id="ansys.meshing.prime.TopoFillHoleResult"></a>

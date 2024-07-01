@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # ExportMapdlCdbResults
 
 <a id="ansys.meshing.prime.ExportMapdlCdbResults"></a>

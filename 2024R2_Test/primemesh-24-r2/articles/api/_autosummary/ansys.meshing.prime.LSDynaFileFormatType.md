@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # LSDynaFileFormatType
 
 <a id="ansys.meshing.prime.LSDynaFileFormatType"></a>

@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # TopoSearchField
 
 <a id="ansys.meshing.prime.TopoSearchField"></a>

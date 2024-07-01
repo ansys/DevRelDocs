@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # StitchParams
 
 <a id="ansys.meshing.prime.StitchParams"></a>
