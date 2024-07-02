@@ -1,5 +1,3 @@
-<a id="analysissettings"></a>
-
 # `AnalysisSettings`
 
 <a id="summary"></a>

@@ -1,5 +1,3 @@
-<a id="importedloads"></a>
-
 # `ImportedLoads`
 
 <a id="summary"></a>

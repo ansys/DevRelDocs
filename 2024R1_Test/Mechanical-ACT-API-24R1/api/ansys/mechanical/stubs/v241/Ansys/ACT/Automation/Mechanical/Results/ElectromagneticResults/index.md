@@ -1,5 +1,3 @@
-<a id="electromagneticresults"></a>
-
 # `ElectromagneticResults`
 
 <a id="summary"></a>

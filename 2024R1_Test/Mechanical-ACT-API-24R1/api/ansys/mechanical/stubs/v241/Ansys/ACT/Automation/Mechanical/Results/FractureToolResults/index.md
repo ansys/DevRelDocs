@@ -1,5 +1,3 @@
-<a id="fracturetoolresults"></a>
-
 # `FractureToolResults`
 
 <a id="summary"></a>

@@ -1,5 +1,3 @@
-<a id="additivemanufacturing"></a>
-
 # `AdditiveManufacturing`
 
 <a id="summary"></a>

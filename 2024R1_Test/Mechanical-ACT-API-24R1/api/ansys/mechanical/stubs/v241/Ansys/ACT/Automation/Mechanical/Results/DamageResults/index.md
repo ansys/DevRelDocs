@@ -1,5 +1,3 @@
-<a id="damageresults"></a>
-
 # `DamageResults`
 
 <a id="summary"></a>

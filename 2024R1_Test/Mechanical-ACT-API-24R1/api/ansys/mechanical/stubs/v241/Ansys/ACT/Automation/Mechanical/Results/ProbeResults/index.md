@@ -1,5 +1,3 @@
-<a id="proberesults"></a>
-
 # `ProbeResults`
 
 <a id="summary"></a>

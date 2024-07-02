@@ -1,5 +1,3 @@
-<a id="compositefailureresults"></a>
-
 # `CompositeFailureResults`
 
 <a id="summary"></a>

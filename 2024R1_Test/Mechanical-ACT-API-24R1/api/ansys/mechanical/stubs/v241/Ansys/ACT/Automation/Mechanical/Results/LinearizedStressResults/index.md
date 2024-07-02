@@ -1,5 +1,3 @@
-<a id="linearizedstressresults"></a>
-
 # `LinearizedStressResults`
 
 <a id="summary"></a>

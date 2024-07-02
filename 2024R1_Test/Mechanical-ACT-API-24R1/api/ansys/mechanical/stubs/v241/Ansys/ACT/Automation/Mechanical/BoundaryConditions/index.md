@@ -1,5 +1,3 @@
-<a id="boundaryconditions"></a>
-
 # `BoundaryConditions`
 
 <a id="summary"></a>

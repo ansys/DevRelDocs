@@ -1,5 +1,3 @@
-<a id="gasketresults"></a>
-
 # `GasketResults`
 
 <a id="summary"></a>

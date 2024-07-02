@@ -1,5 +1,3 @@
-<a id="fatiguetoolresults"></a>
-
 # `FatigueToolResults`
 
 <a id="summary"></a>

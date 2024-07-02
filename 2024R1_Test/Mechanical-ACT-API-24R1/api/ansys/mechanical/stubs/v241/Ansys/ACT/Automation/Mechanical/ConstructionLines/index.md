@@ -1,5 +1,3 @@
-<a id="constructionlines"></a>
-
 # `ConstructionLines`
 
 <a id="summary"></a>

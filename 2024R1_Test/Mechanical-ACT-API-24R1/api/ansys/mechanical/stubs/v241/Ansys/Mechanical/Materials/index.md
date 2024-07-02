@@ -1,5 +1,3 @@
-<a id="materials"></a>
-
 # `Materials`
 
 <a id="summary"></a>
