@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="fatiguesensitivitytype"></a>
-
 # `FatigueSensitivityType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FatigueSensitivityType"></a>
@@ -42,4 +38,4 @@ Specifies the RadiationType.
 
 ### FatigueSensitivityType.Damage *= 62*
 
-<!-- vale on -->
+

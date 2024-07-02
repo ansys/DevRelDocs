@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="dataimportstatus"></a>
-
 # `DataImportStatus`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataImportStatus"></a>
@@ -52,4 +48,4 @@ Specifies the DataImportStatus.
 
 ### DataImportStatus.Uptodate *= 3*
 
-<!-- vale on -->
+

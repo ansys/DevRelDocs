@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="enclosuretype"></a>
-
 # `EnclosureType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EnclosureType"></a>
@@ -37,4 +33,4 @@ Specifies the EnclosureType.
 
 ### EnclosureType.Perfect *= 1*
 
-<!-- vale on -->
+

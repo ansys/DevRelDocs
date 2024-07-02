@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="amstlsource"></a>
-
 # `AMStlSource`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMStlSource"></a>
@@ -37,4 +33,4 @@ Specifies the AMStlSource.
 
 ### AMStlSource.File *= 0*
 
-<!-- vale on -->
+

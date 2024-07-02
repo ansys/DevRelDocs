@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="geometrydefinebytype"></a>
-
 # `GeometryDefineByType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType"></a>
@@ -162,4 +158,4 @@ Specifies the GeometryDefineByType.
 
 ### GeometryDefineByType.MinimumValues *= 3*
 
-<!-- vale on -->
+

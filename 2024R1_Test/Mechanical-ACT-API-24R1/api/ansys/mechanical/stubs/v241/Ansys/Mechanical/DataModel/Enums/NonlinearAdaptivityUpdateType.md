@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="nonlinearadaptivityupdatetype"></a>
-
 # `NonlinearAdaptivityUpdateType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityUpdateType"></a>
@@ -37,4 +33,4 @@ Specifies the NonlinearAdaptivityUpdateType.
 
 ### NonlinearAdaptivityUpdateType.EquallySpacedPoints *= 2*
 
-<!-- vale on -->
+

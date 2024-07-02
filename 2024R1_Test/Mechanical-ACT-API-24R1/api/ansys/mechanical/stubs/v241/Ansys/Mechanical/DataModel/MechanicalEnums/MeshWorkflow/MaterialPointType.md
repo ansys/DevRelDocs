@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="materialpointtype"></a>
-
 # `MaterialPointType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.MaterialPointType"></a>
@@ -37,4 +33,4 @@ To select the MeshWorkflow Surface Scope Modality Type.
 
 ### MaterialPointType.Include *= 1*
 
-<!-- vale on -->
+

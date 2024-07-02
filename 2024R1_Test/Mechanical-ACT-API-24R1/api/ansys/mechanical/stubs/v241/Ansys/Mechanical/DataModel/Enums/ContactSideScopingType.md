@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="contactsidescopingtype"></a>
-
 # `ContactSideScopingType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactSideScopingType"></a>
@@ -52,4 +48,4 @@ Specifies the ContactSideScopingType.
 
 ### ContactSideScopingType.ContactTargetUnderlying *= 2*
 
-<!-- vale on -->
+

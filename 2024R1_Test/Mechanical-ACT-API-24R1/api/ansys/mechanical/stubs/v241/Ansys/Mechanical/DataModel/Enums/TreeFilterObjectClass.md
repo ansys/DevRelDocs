@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="treefilterobjectclass"></a>
-
 # `TreeFilterObjectClass`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TreeFilterObjectClass"></a>
@@ -52,4 +48,4 @@ Specifies the TreeFilterObjectClass.
 
 ### TreeFilterObjectClass.Commands *= 4*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.ABAQUS"></a>
-
 <a id="abaqus"></a>
 
 # `ABAQUS`
@@ -28,4 +24,4 @@
 ABAQUS subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

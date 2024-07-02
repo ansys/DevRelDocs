@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="fieldadapter"></a>
-
 # `FieldAdapter`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Adapters.FieldAdapter"></a>
@@ -53,4 +49,4 @@ Gets the wrapped object from Mechanical.
 Changes the definition type for a field of the wrapped object from Mechanical.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="equationsolvertype"></a>
-
 # `EquationSolverType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EquationSolverType"></a>
@@ -67,4 +63,4 @@ Specifies the EquationSolverType.
 
 ### EquationSolverType.Supplied *= 5*
 
-<!-- vale on -->
+

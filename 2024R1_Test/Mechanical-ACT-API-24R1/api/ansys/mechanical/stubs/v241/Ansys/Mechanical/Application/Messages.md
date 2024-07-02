@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="messages"></a>
-
 # `Messages`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Application.Messages"></a>
@@ -89,4 +85,4 @@ Check if a message is in the current list of messages.
 Shows errors with current project.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

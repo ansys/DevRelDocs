@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="meshcontrolworksheet"></a>
-
 # `MeshControlWorksheet`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshControlWorksheet"></a>
@@ -152,4 +148,4 @@ Generate Mesh At Row
 Delete All Rows
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

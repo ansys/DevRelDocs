@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="reflectioncoefficientstype"></a>
-
 # `ReflectionCoefficientsType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ReflectionCoefficientsType"></a>
@@ -37,4 +33,4 @@ Specifies the ReflectionCoefficientsType.
 
 ### ReflectionCoefficientsType.ProgramControlled *= 0*
 
-<!-- vale on -->
+

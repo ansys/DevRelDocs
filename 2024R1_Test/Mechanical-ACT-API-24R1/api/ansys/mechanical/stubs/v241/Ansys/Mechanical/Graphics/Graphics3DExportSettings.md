@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="graphics3dexportsettings"></a>
-
 # `Graphics3DExportSettings`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.Graphics3DExportSettings"></a>
@@ -35,4 +31,4 @@ Graphics3DExportSettings class.
 Specifies the background color.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

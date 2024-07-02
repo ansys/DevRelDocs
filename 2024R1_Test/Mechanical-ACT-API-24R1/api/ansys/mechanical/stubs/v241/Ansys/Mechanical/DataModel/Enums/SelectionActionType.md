@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="selectionactiontype"></a>
-
 # `SelectionActionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SelectionActionType"></a>
@@ -57,4 +53,4 @@ Specifies the selction action type.
 
 ### SelectionActionType.Diagnostics *= 6*
 
-<!-- vale on -->
+

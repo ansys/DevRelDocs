@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="analysistype"></a>
-
 # `AnalysisType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AnalysisType"></a>
@@ -87,4 +83,4 @@ Specifies the AnalysisType.
 
 ### AnalysisType.Transient *= 2*
 
-<!-- vale on -->
+

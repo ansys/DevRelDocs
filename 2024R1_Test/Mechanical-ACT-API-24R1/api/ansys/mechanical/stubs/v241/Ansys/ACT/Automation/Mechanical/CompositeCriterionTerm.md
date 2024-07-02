@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="compositecriterionterm"></a>
-
 # `CompositeCriterionTerm`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CompositeCriterionTerm"></a>
@@ -45,4 +41,4 @@ Returns None if no PrimaryCriterion Object is assigned to CompositeCriterionTerm
 Returns coefficient of PrimaryCriterion in the CompositeCriterionTerm.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

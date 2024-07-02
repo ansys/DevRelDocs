@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="modeselectionmethod"></a>
-
 # `ModeSelectionMethod`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ModeSelectionMethod"></a>
@@ -37,4 +33,4 @@ Specifies the ModeSelectionMethod.
 
 ### ModeSelectionMethod.None_ *= 0*
 
-<!-- vale on -->
+

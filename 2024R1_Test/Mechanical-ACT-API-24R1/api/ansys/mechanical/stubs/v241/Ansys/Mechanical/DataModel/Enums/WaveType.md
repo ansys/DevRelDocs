@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="wavetype"></a>
-
 # `WaveType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.WaveType"></a>
@@ -67,4 +63,4 @@ Specifies the WaveType.
 
 ### WaveType.RectangularDuct *= 5*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="graphics3dexportformat"></a>
-
 # `Graphics3DExportFormat`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.Graphics3DExportFormat"></a>
@@ -42,4 +38,4 @@ Specifies the 3D Format.
 
 ### Graphics3DExportFormat.ASCIISTL *= 2*
 
-<!-- vale on -->
+

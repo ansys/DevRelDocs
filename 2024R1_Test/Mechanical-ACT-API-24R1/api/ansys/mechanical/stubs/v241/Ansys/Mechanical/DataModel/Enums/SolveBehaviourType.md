@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="solvebehaviourtype"></a>
-
 # `SolveBehaviourType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolveBehaviourType"></a>
@@ -37,4 +33,4 @@ Specifies the SolveBehaviourType.
 
 ### SolveBehaviourType.Individual *= 1*
 
-<!-- vale on -->
+

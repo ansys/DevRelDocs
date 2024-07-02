@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="optimizationtype"></a>
-
 # `OptimizationType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.OptimizationType"></a>
@@ -57,4 +53,4 @@ Specifies the OptimizationType.
 
 ### OptimizationType.TopologyDensity *= 1*
 
-<!-- vale on -->
+

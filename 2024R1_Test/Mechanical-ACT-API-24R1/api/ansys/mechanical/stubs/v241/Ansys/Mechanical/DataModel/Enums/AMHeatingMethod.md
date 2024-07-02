@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="amheatingmethod"></a>
-
 # `AMHeatingMethod`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMHeatingMethod"></a>
@@ -37,4 +33,4 @@ Specifies the AMHeatingMethod.
 
 ### AMHeatingMethod.Power *= 2*
 
-<!-- vale on -->
+

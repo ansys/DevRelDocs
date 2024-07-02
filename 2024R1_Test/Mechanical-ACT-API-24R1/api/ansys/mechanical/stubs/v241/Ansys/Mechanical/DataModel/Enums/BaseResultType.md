@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="baseresulttype"></a>
-
 # `BaseResultType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BaseResultType"></a>
@@ -87,4 +83,4 @@ Specifies the BaseResultType.
 
 ### BaseResultType.Volume *= 6*
 
-<!-- vale on -->
+

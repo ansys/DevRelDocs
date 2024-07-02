@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="remotepointformulation"></a>
-
 # `RemotePointFormulation`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RemotePointFormulation"></a>
@@ -37,4 +33,4 @@ Specifies the RemotePointFormulation.
 
 ### RemotePointFormulation.MPC *= 0*
 
-<!-- vale on -->
+

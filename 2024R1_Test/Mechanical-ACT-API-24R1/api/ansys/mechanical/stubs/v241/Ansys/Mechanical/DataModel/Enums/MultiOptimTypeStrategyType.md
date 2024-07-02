@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="multioptimtypestrategytype"></a>
-
 # `MultiOptimTypeStrategyType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MultiOptimTypeStrategyType"></a>
@@ -42,4 +38,4 @@ Specifies the MultiOptimTypeStrategyType.
 
 ### MultiOptimTypeStrategyType.ProgramControlled *= 0*
 
-<!-- vale on -->
+

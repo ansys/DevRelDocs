@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="unitshelper"></a>
-
 # `UnitsHelper`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.UnitsHelper"></a>
@@ -47,4 +43,4 @@ These quantity names represent valid quantity names that can be used when defini
 Mechanical ACT extensions.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

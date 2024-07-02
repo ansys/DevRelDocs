@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="weightingtype"></a>
-
 # `WeightingType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.WeightingType"></a>
@@ -80,4 +76,4 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### WeightingType.Quaternion *= 10*
 
-<!-- vale on -->
+

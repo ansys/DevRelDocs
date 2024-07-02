@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="exderosionongeomstraintype"></a>
-
 # `EXDErosionOnGeomStrainType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EXDErosionOnGeomStrainType"></a>
@@ -35,4 +31,4 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### EXDErosionOnGeomStrainType.Yes *= 1*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="batchconnectionsworksheet"></a>
-
 # `BatchConnectionsWorksheet`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BatchConnectionsWorksheet"></a>
@@ -188,4 +184,4 @@ Generate Mesh At Row
 Delete All Rows
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

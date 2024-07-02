@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="elementcontrolsstatus"></a>
-
 # `ElementControlsStatus`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ElementControlsStatus"></a>
@@ -37,4 +33,4 @@ Specifies the ElementControlsStatus.
 
 ### ElementControlsStatus.Dead *= 1*
 
-<!-- vale on -->
+

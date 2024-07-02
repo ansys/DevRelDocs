@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="lowreducedfrequencymodeltype"></a>
-
 # `LowReducedFrequencyModelType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LowReducedFrequencyModelType"></a>
@@ -42,4 +38,4 @@ Specifies the LowReducedFrequencyModelType.
 
 ### LowReducedFrequencyModelType.ThinLayer *= 0*
 
-<!-- vale on -->
+

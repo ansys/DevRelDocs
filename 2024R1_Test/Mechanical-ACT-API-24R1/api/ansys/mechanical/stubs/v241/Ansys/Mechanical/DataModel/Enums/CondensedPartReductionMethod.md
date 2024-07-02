@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="condensedpartreductionmethod"></a>
-
 # `CondensedPartReductionMethod`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CondensedPartReductionMethod"></a>
@@ -37,4 +33,4 @@ Specifies the CondensedPartReductionMethod.
 
 ### CondensedPartReductionMethod.Guyan *= 1*
 
-<!-- vale on -->
+

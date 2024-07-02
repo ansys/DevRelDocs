@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="facetype"></a>
-
 # `FaceType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FaceType"></a>
@@ -62,4 +58,4 @@ Specifies the FaceType.
 
 ### FaceType.Faceted *= 9*
 
-<!-- vale on -->
+

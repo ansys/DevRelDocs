@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="meshmethodalgorithm"></a>
-
 # `MeshMethodAlgorithm`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshMethodAlgorithm"></a>
@@ -47,4 +43,4 @@ Specifies the MeshMethodAlgorithm.
 
 ### MeshMethodAlgorithm.AutomaticSweep *= 4*
 
-<!-- vale on -->
+

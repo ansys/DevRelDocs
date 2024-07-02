@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="boltloaddefineby"></a>
-
 # `BoltLoadDefineBy`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BoltLoadDefineBy"></a>
@@ -52,4 +48,4 @@ Specifies the BoltLoadDefineBy.
 
 ### BoltLoadDefineBy.Load *= 0*
 
-<!-- vale on -->
+

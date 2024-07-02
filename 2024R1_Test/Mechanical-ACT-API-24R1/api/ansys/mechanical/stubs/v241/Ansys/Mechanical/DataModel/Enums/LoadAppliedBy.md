@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="loadappliedby"></a>
-
 # `LoadAppliedBy`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadAppliedBy"></a>
@@ -37,4 +33,4 @@ Specifies the LoadAppliedBy.
 
 ### LoadAppliedBy.SurfaceEffect *= 0*
 
-<!-- vale on -->
+

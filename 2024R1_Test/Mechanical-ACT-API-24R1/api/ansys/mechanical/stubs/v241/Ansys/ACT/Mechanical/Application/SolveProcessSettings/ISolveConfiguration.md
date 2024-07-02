@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="isolveconfiguration"></a>
-
 # `ISolveConfiguration`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Application.SolveProcessSettings.ISolveConfiguration"></a>
@@ -80,4 +76,4 @@ Gets the SolveProcessSettings for the current object.
 Sets ‘this’ to be the default configuration to solve with.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

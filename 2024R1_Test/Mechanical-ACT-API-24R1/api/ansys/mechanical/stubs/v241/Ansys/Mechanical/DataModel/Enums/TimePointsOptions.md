@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="timepointsoptions"></a>
-
 # `TimePointsOptions`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TimePointsOptions"></a>
@@ -47,4 +43,4 @@ Specifies the TimePointsOptions.
 
 ### TimePointsOptions.SpecifiedRecurrenceRate *= 3*
 
-<!-- vale on -->
+

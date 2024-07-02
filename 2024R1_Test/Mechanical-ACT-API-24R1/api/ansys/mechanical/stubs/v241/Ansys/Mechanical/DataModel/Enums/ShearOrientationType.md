@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="shearorientationtype"></a>
-
 # `ShearOrientationType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShearOrientationType"></a>
@@ -42,4 +38,4 @@ Specifies the ShearOrientationType.
 
 ### ShearOrientationType.YZPlane *= 1*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="condensedpartexpansionstate"></a>
-
 # `CondensedPartExpansionState`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CondensedPartExpansionState"></a>
@@ -44,4 +40,4 @@ Gets or sets the Stress Property
 Gets or sets the Displacement Property
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

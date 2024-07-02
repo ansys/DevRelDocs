@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="contacttrimtype"></a>
-
 # `ContactTrimType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactTrimType"></a>
@@ -47,4 +43,4 @@ Specifies the ContactTrimType.
 
 ### ContactTrimType.ProgramControlled *= 0*
 
-<!-- vale on -->
+

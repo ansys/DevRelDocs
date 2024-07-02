@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="nonlinearadaptivityoptiontype"></a>
-
 # `NonlinearAdaptivityOptionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityOptionType"></a>
@@ -47,4 +43,4 @@ Specifies the NonlinearAdaptivityOptionType.
 
 ### NonlinearAdaptivityOptionType.SkewnessAndJacobianRatio *= 4*
 
-<!-- vale on -->
+

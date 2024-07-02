@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="scopedefinedbytype"></a>
-
 # `ScopeDefinedByType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ScopeDefinedByType"></a>
@@ -37,4 +33,4 @@ This enum is referenced in the “Control” tree node and reflects how a scope 
 
 ### ScopeDefinedByType.Value *= 0*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="imechanicaltheme"></a>
-
 # `IMechanicalTheme`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.UI.Interfaces.IMechanicalTheme"></a>
@@ -62,4 +58,4 @@ Palette object, which provides an entry point to get Mechnical UI’s theme colo
 Palette object, which provides an entry point to get Mechnical UI’s theme colors represented as integers formatted as BGR
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

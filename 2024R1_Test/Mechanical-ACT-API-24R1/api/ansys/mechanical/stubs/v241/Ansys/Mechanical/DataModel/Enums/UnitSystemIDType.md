@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="unitsystemidtype"></a>
-
 # `UnitSystemIDType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.UnitSystemIDType"></a>
@@ -57,4 +53,4 @@ Specifies the Unit System ID Type.
 
 ### UnitSystemIDType.UnitsUMKS *= 7*
 
-<!-- vale on -->
+

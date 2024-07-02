@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="rlblockcommand"></a>
-
 # `RLBlockCommand`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.RLBlockCommand"></a>
@@ -53,4 +49,4 @@ Gets the command name.
 Gets the command index.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

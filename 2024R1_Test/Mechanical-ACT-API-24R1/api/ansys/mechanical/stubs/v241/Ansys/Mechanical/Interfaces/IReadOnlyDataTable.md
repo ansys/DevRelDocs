@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="ireadonlydatatable"></a>
-
 # `IReadOnlyDataTable`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Interfaces.IReadOnlyDataTable"></a>
@@ -99,4 +95,4 @@ Gets the maximum number of data points (rows) among all columns in the table
 Returns an enumerable to iterate over the values in a row.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

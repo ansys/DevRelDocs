@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.ACT.Common.Graphics"></a>
-
 <a id="graphics"></a>
 
 # `Graphics`
@@ -27,4 +23,4 @@
 Graphics subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

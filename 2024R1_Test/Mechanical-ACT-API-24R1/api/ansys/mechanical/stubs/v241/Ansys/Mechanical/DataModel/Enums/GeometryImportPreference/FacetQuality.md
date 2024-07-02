@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="facetquality"></a>
-
 # `FacetQuality`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.FacetQuality"></a>
@@ -57,4 +53,4 @@ Used to specify the quality of the facet for the import.
 
 ### FacetQuality.Source *= 6*
 
-<!-- vale on -->
+

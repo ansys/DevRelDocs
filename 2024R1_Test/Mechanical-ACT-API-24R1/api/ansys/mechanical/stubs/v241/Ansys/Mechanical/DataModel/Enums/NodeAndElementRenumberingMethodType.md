@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="nodeandelementrenumberingmethodtype"></a>
-
 # `NodeAndElementRenumberingMethodType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NodeAndElementRenumberingMethodType"></a>
@@ -37,4 +33,4 @@ To select the method of Node And Element Renumbering under the Model Import Obje
 
 ### NodeAndElementRenumberingMethodType.Offset *= 1*
 
-<!-- vale on -->
+

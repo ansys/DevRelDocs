@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="ammachinelearningmodel"></a>
-
 # `AMMachineLearningModel`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMMachineLearningModel"></a>
@@ -72,4 +68,4 @@ Specifies the AMMachineLearningModel.
 
 ### AMMachineLearningModel.Undefined *= 0*
 
-<!-- vale on -->
+

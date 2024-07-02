@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="sourcetimedefinitiontype"></a>
-
 # `SourceTimeDefinitionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SourceTimeDefinitionType"></a>
@@ -37,4 +33,4 @@ Specifies the SourceTimeDefinitionType.
 
 ### SourceTimeDefinitionType.SourceTimeDefinition_Range *= 1*
 
-<!-- vale on -->
+

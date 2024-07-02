@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="graphicsanimationexportformat"></a>
-
 # `GraphicsAnimationExportFormat`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat"></a>
@@ -47,4 +43,4 @@ Specifies the Animation Export File Format.
 
 ### GraphicsAnimationExportFormat.GIF *= 3*
 
-<!-- vale on -->
+

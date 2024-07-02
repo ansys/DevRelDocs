@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="shellmbptype"></a>
-
 # `ShellMBPType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShellMBPType"></a>
@@ -47,4 +43,4 @@ Specifies the ShellMBPType.
 
 ### ShellMBPType.TopPeakStress *= 3*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="mapdllayeredsectiondata"></a>
-
 # `MAPDLLayeredSectionData`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.SolverData.MAPDLLayeredSectionData"></a>
@@ -35,4 +31,4 @@ MAPDLLayeredSectionData class.
 Gets the section Id for the layered section.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

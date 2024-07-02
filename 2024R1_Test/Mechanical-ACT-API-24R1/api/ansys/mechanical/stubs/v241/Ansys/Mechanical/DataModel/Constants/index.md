@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Constants"></a>
-
 <a id="constants"></a>
 
 # `Constants`
@@ -23,4 +19,4 @@
 Constants subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

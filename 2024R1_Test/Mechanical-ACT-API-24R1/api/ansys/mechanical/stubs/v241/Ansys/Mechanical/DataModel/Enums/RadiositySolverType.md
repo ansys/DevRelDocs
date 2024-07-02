@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="radiositysolvertype"></a>
-
 # `RadiositySolverType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RadiositySolverType"></a>
@@ -47,4 +43,4 @@ Specifies the RadiositySolverType.
 
 ### RadiositySolverType.IterativeGaussSeidel *= 3*
 
-<!-- vale on -->
+

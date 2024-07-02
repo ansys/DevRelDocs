@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="eigensolvertype"></a>
-
 # `EigenSolverType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EigenSolverType"></a>
@@ -72,4 +68,4 @@ Specifies the EigenSolverType.
 
 ### EigenSolverType.Unsymmetric *= 3*
 
-<!-- vale on -->
+

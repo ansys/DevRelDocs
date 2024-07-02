@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="feconnectiondisplay"></a>
-
 # `FEConnectionDisplay`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FEConnectionDisplay"></a>
@@ -57,4 +53,4 @@ Specifies the FEConnectionDisplay.
 
 ### FEConnectionDisplay.WeakSprings *= 3*
 
-<!-- vale on -->
+

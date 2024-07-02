@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="nodemoveinformationtype"></a>
-
 # `NodeMoveInformationType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NodeMoveInformationType"></a>
@@ -32,4 +28,4 @@ Specifies the NodeMoveInformationType.
 
 ### NodeMoveInformationType.F4KeytoMoveAnywhere *= 1*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="variable"></a>
-
 # `Variable`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Variable"></a>
@@ -170,4 +166,4 @@ Changes a value at a given position in the tabular definition of the variable.
 Changes a value at a given position in the tabular definition of the variable.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="variabledefinitiontype"></a>
-
 # `VariableDefinitionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.VariableDefinitionType"></a>
@@ -42,4 +38,4 @@ Defines the various ways to define the values of a variable.
 
 ### VariableDefinitionType.Formula *= 2*
 
-<!-- vale on -->
+

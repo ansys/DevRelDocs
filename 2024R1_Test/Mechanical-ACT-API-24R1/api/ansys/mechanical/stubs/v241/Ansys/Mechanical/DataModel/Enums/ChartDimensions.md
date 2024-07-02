@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="chartdimensions"></a>
-
 # `ChartDimensions`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartDimensions"></a>
@@ -37,4 +33,4 @@ Specifies the Chart Viewing Style.
 
 ### ChartDimensions.TwoDimensional *= 1*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="solutionoutputtype"></a>
-
 # `SolutionOutputType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolutionOutputType"></a>
@@ -227,4 +223,4 @@ Specifies the SolutionOutputType.
 
 ### SolutionOutputType.OptimizationOutput *= 29*
 
-<!-- vale on -->
+

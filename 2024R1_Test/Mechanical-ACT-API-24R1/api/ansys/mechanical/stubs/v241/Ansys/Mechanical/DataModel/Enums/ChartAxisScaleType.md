@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="chartaxisscaletype"></a>
-
 # `ChartAxisScaleType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType"></a>
@@ -47,4 +43,4 @@ Specifies the Chart Axis Scale Type.
 
 ### ChartAxisScaleType.LogLog *= 3*
 
-<!-- vale on -->
+

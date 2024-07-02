@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="exporttopologyfileoption"></a>
-
 # `ExportTopologyFileOption`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExportTopologyFileOption"></a>
@@ -47,4 +43,4 @@ Specifies the ExportTopologyFileOption.
 
 ### ExportTopologyFileOption.Model *= 3*
 
-<!-- vale on -->
+

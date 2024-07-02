@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="trianglereduction"></a>
-
 # `TriangleReduction`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TriangleReduction"></a>
@@ -44,4 +40,4 @@ Derive from this class to define new enumerations.
 
 ### TriangleReduction.None_ *= 0*
 
-<!-- vale on -->
+

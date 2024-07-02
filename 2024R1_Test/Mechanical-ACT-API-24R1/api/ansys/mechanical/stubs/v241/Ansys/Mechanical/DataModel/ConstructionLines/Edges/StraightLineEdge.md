@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="straightlineedge"></a>
-
 # `StraightLineEdge`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.ConstructionLines.Edges.StraightLineEdge"></a>
@@ -71,4 +67,4 @@ Get the ID of the represented entity.
 Check to see if there is a valid entity that this instance represents.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

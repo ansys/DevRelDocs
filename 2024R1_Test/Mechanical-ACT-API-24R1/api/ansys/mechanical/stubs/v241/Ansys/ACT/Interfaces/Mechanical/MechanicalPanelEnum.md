@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="mechanicalpanelenum"></a>
-
 # `MechanicalPanelEnum`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Interfaces.Mechanical.MechanicalPanelEnum"></a>
@@ -62,4 +58,4 @@ Specifies the panel type.
 
 ### MechanicalPanelEnum.Wizard *= 6*
 
-<!-- vale on -->
+

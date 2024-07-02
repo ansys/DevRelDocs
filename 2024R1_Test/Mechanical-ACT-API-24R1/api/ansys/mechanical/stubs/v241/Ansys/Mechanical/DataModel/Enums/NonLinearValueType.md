@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="nonlinearvaluetype"></a>
-
 # `NonLinearValueType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NonLinearValueType"></a>
@@ -37,4 +33,4 @@ Specifies the NonLinearValueType.
 
 ### NonLinearValueType.UserInput *= 1*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="damageresulttype"></a>
-
 # `DamageResultType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DamageResultType"></a>
@@ -97,4 +93,4 @@ Specifies the DamageResultType.
 
 ### DamageResultType.EnergyDissipatedPerUnitVolume *= 287*
 
-<!-- vale on -->
+

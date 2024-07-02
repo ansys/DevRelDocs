@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="crackmeshmethod"></a>
-
 # `CrackMeshMethod`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrackMeshMethod"></a>
@@ -37,4 +33,4 @@ Specifies the CrackMeshMethod.
 
 ### CrackMeshMethod.Tetrahedrons *= 2*
 
-<!-- vale on -->
+

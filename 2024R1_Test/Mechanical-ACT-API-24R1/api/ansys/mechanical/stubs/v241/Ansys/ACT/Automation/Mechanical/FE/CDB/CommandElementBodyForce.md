@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="commandelementbodyforce"></a>
-
 # `CommandElementBodyForce`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandElementBodyForce"></a>
@@ -62,4 +58,4 @@ Gets the starting locations.
 Gets the values.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

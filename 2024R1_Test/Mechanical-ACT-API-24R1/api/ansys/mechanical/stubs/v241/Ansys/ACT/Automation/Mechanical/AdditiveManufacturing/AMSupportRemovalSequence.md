@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="amsupportremovalsequence"></a>
-
 # `AMSupportRemovalSequence`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.AMSupportRemovalSequence"></a>
@@ -146,4 +142,4 @@ Usage:
 > index1 = removalSequence.Contains(Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.BaseRemoval());
 > index2 = removalSequence.Contains(Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.SupportRemoval(supportObj));
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

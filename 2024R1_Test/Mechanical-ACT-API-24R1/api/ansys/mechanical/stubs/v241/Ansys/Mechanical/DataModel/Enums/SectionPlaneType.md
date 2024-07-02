@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="sectionplanetype"></a>
-
 # `SectionPlaneType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SectionPlaneType"></a>
@@ -42,4 +38,4 @@ Specifies the Section Plane type.
 
 ### SectionPlaneType.PlaneOnly *= 0*
 
-<!-- vale on -->
+

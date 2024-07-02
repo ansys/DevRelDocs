@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="reinforcingstressstate"></a>
-
 # `ReinforcingStressState`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ReinforcingStressState"></a>
@@ -42,4 +38,4 @@ Specifies the ReinforcingStressState.
 
 ### ReinforcingStressState.PlaneStressWithTransverseShear *= 1*
 
-<!-- vale on -->
+

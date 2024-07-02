@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="amprocesssteptype"></a>
-
 # `AMProcessStepType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMProcessStepType"></a>
@@ -62,4 +58,4 @@ Specifies the AMProcessStepType.
 
 ### AMProcessStepType.BaseUnboltStep *= 6*
 
-<!-- vale on -->
+

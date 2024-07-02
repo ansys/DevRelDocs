@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="diagonalorconsistent"></a>
-
 # `DiagonalOrConsistent`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DiagonalOrConsistent"></a>
@@ -42,4 +38,4 @@ Specifies the DiagonalOrConsistent.
 
 ### DiagonalOrConsistent.ProgramControlled *= 0*
 
-<!-- vale on -->
+

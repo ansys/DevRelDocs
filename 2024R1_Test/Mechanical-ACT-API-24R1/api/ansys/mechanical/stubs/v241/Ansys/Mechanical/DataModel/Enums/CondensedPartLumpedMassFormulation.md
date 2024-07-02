@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="condensedpartlumpedmassformulation"></a>
-
 # `CondensedPartLumpedMassFormulation`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CondensedPartLumpedMassFormulation"></a>
@@ -42,4 +38,4 @@ Specifies the CondensedPartLumpedMassFormulation.
 
 ### CondensedPartLumpedMassFormulation.ProgramControlled *= 0*
 
-<!-- vale on -->
+

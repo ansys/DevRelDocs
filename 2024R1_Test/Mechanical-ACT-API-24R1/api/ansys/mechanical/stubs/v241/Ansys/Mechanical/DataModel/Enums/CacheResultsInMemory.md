@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="cacheresultsinmemory"></a>
-
 # `CacheResultsInMemory`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CacheResultsInMemory"></a>
@@ -42,4 +38,4 @@ Specifies the CacheResultsInMemory.
 
 ### CacheResultsInMemory.Never *= 0*
 
-<!-- vale on -->
+

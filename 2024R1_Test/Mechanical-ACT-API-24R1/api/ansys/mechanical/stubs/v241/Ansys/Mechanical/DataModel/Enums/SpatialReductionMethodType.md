@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="spatialreductionmethodtype"></a>
-
 # `SpatialReductionMethodType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SpatialReductionMethodType"></a>
@@ -37,4 +33,4 @@ Specifies the SpatialReductionMethodType.
 
 ### SpatialReductionMethodType.Discrete *= 0*
 
-<!-- vale on -->
+

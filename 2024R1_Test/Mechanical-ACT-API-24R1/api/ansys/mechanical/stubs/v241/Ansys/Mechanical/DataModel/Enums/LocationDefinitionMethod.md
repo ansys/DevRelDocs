@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="locationdefinitionmethod"></a>
-
 # `LocationDefinitionMethod`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod"></a>
@@ -97,4 +93,4 @@ Specifies the LocationDefinitionMethod.
 
 ### LocationDefinitionMethod.WeakSprings
 
-<!-- vale on -->
+

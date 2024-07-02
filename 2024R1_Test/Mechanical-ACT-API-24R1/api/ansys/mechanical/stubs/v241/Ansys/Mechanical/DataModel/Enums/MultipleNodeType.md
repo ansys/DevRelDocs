@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="multiplenodetype"></a>
-
 # `MultipleNodeType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MultipleNodeType"></a>
@@ -42,4 +38,4 @@ Specifies the MultipleNodeType.
 
 ### MultipleNodeType.Minimum *= 0*
 
-<!-- vale on -->
+

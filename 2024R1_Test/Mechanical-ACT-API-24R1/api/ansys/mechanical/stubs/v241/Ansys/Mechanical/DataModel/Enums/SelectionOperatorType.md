@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="selectionoperatortype"></a>
-
 # `SelectionOperatorType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SelectionOperatorType"></a>
@@ -92,4 +88,4 @@ Specifies the selection operator type.
 
 ### SelectionOperatorType.Contains *= 13*
 
-<!-- vale on -->
+

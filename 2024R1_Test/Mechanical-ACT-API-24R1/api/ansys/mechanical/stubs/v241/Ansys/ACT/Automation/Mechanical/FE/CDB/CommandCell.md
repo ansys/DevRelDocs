@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="commandcell"></a>
-
 # `CommandCell`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandCell"></a>
@@ -44,4 +40,4 @@ Gets the material number.
 Gets the nodes.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

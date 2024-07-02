@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="cameraaxistype"></a>
-
 # `CameraAxisType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CameraAxisType"></a>
@@ -57,4 +53,4 @@ Specifies the Axis type.
 
 ### CameraAxisType.GlobalZ *= 5*
 
-<!-- vale on -->
+

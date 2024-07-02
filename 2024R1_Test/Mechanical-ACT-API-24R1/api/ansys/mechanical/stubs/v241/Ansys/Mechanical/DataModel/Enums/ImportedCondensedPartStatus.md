@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="importedcondensedpartstatus"></a>
-
 # `ImportedCondensedPartStatus`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ImportedCondensedPartStatus"></a>
@@ -47,4 +43,4 @@ Specifies the ImportedCondensedPartStatus.
 
 ### ImportedCondensedPartStatus.ImportSuccessful *= 2*
 
-<!-- vale on -->
+

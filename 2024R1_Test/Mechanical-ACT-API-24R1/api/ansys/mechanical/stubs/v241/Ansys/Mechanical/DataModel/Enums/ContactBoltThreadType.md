@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="contactboltthreadtype"></a>
-
 # `ContactBoltThreadType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactBoltThreadType"></a>
@@ -42,4 +38,4 @@ Specifies the ContactBoltThreadType.
 
 ### ContactBoltThreadType.TripleThread *= 2*
 
-<!-- vale on -->
+

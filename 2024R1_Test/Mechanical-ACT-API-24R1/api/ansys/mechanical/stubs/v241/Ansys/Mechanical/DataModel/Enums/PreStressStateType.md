@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="prestressstatetype"></a>
-
 # `PreStressStateType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PreStressStateType"></a>
@@ -42,4 +38,4 @@ Specifies the PreStressStateType.
 
 ### PreStressStateType.Time *= 3*
 
-<!-- vale on -->
+

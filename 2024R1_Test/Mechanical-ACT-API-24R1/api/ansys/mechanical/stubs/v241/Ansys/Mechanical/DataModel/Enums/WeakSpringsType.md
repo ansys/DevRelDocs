@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="weakspringstype"></a>
-
 # `WeakSpringsType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.WeakSpringsType"></a>
@@ -42,4 +38,4 @@ Specifies the WeakSpringsType.
 
 ### WeakSpringsType.ProgramControlled *= 0*
 
-<!-- vale on -->
+

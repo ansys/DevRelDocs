@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="browserqt"></a>
-
 # `BrowserQt`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Common.BrowserQt"></a>
@@ -440,4 +436,4 @@ BeginInvoke method.
 EndInvoke method.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

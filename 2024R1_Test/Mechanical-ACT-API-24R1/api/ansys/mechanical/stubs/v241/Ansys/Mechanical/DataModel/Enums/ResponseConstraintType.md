@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="responseconstrainttype"></a>
-
 # `ResponseConstraintType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResponseConstraintType"></a>
@@ -87,4 +83,4 @@ Specifies the ResponseConstraintType.
 
 ### ResponseConstraintType.GlobalVonMisesStressConstraint *= 3*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="colors"></a>
-
 # `Colors`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Constants.Colors"></a>
@@ -103,4 +99,4 @@ Gray property.
 White property.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="fixedorfree"></a>
-
 # `FixedOrFree`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FixedOrFree"></a>
@@ -42,4 +38,4 @@ Specifies the FixedOrFree.
 
 ### FixedOrFree.MixedConstraints *= 2*
 
-<!-- vale on -->
+

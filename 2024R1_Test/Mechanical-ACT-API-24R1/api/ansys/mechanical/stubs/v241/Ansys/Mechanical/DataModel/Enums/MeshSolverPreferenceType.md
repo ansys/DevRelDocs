@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="meshsolverpreferencetype"></a>
-
 # `MeshSolverPreferenceType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshSolverPreferenceType"></a>
@@ -52,4 +48,4 @@ Specifies the Mesh Solver Preference Type.
 
 ### MeshSolverPreferenceType.Polyflow *= 4*
 
-<!-- vale on -->
+

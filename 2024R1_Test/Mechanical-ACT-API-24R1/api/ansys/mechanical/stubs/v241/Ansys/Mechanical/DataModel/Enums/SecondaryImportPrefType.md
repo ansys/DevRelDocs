@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="secondaryimportpreftype"></a>
-
 # `SecondaryImportPrefType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SecondaryImportPrefType"></a>
@@ -57,4 +53,4 @@ Specifies the SecondaryImportPrefType.
 
 ### SecondaryImportPrefType.SurfaceAndLine *= 5*
 
-<!-- vale on -->
+

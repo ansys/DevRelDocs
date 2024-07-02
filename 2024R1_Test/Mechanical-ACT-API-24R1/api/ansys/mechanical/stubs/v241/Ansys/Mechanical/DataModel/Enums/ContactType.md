@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="contacttype"></a>
-
 # `ContactType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactType"></a>
@@ -87,4 +83,4 @@ Specifies the ContactType.
 
 ### ContactType.SpotWeld *= 6*
 
-<!-- vale on -->
+

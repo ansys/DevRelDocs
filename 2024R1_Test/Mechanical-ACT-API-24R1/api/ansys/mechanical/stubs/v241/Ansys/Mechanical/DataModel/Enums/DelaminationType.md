@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="delaminationtype"></a>
-
 # `DelaminationType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DelaminationType"></a>
@@ -42,4 +38,4 @@ Specifies the DelaminationType.
 
 ### DelaminationType.InterfaceDelamination *= 1*
 
-<!-- vale on -->
+

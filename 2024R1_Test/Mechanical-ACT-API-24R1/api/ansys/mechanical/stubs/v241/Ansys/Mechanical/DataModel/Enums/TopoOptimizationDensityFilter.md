@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="topooptimizationdensityfilter"></a>
-
 # `TopoOptimizationDensityFilter`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TopoOptimizationDensityFilter"></a>
@@ -42,4 +38,4 @@ Specifies the TopoOptimizationDensityFilter.
 
 ### TopoOptimizationDensityFilter.ProgramControlled *= 0*
 
-<!-- vale on -->
+

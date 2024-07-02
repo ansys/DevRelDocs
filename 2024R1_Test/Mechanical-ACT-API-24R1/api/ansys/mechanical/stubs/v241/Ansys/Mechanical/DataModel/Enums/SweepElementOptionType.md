@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="sweepelementoptiontype"></a>
-
 # `SweepElementOptionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SweepElementOptionType"></a>
@@ -37,4 +33,4 @@ Specifies the SweepElementOptionType.
 
 ### SweepElementOptionType.Solid *= 1*
 
-<!-- vale on -->
+

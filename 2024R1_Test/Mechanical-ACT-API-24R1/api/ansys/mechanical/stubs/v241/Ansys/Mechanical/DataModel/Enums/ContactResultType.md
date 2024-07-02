@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="contactresulttype"></a>
-
 # `ContactResultType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactResultType"></a>
@@ -62,4 +58,4 @@ Specifies the ContactResultType.
 
 ### ContactResultType.FluidPressure *= 265*
 
-<!-- vale on -->
+

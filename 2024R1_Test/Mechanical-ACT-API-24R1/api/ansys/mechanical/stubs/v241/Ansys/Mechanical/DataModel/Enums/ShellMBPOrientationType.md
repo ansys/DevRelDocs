@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="shellmbporientationtype"></a>
-
 # `ShellMBPOrientationType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShellMBPOrientationType"></a>
@@ -47,4 +43,4 @@ Specifies the ShellMBPOrientationType.
 
 ### ShellMBPOrientationType.LocalElementDirection12 *= 2*
 
-<!-- vale on -->
+

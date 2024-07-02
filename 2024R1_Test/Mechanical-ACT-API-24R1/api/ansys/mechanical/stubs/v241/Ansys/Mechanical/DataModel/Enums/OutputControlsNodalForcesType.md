@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="outputcontrolsnodalforcestype"></a>
-
 # `OutputControlsNodalForcesType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.OutputControlsNodalForcesType"></a>
@@ -42,4 +38,4 @@ Specifies the OutputControlsNodalForcesType.
 
 ### OutputControlsNodalForcesType.Yes *= 1*
 
-<!-- vale on -->
+

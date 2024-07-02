@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="commandnode"></a>
-
 # `CommandNode`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandNode"></a>
@@ -53,4 +49,4 @@ Gets the coordinates.
 Gets the rotation angles.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

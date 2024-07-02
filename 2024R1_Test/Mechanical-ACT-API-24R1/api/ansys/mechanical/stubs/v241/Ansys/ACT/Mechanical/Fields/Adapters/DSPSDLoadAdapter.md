@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="dspsdloadadapter"></a>
-
 # `DSPSDLoadAdapter`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Adapters.DSPSDLoadAdapter"></a>
@@ -53,4 +49,4 @@ Gets the wrapped object from Mechanical.
 ChangeFieldDefinitionType method.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

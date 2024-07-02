@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Utilities.TabularData"></a>
-
 <a id="tabulardata"></a>
 
 # `TabularData`
@@ -17,4 +13,4 @@
 TabularData subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

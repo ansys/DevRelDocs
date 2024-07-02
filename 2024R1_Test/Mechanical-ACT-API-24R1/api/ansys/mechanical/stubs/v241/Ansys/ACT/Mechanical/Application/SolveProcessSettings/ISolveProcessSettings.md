@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="isolveprocesssettings"></a>
-
 # `ISolveProcessSettings`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Application.SolveProcessSettings.ISolveProcessSettings"></a>
@@ -170,4 +166,4 @@ Gets or sets the “Number of processes” field.
 Gets or sets the “DCS Auto Download Results” field.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

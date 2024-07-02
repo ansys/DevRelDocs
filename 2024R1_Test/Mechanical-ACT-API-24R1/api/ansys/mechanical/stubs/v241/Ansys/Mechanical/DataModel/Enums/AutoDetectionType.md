@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="autodetectiontype"></a>
-
 # `AutoDetectionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AutoDetectionType"></a>
@@ -37,4 +33,4 @@ Specifies the AutoDetectionType.
 
 ### AutoDetectionType.Joint *= 2*
 
-<!-- vale on -->
+

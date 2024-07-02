@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="springsstiffnesstype"></a>
-
 # `SpringsStiffnessType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SpringsStiffnessType"></a>
@@ -42,4 +38,4 @@ Specifies the SpringsStiffnessType.
 
 ### SpringsStiffnessType.ProgramControlled *= 0*
 
-<!-- vale on -->
+

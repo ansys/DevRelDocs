@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="edgetype"></a>
-
 # `EdgeType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EdgeType"></a>
@@ -47,4 +43,4 @@ Specifies the EdgeType.
 
 ### EdgeType.Faceted *= 8*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="dynamicrelaxationbehaviortype"></a>
-
 # `DynamicRelaxationBehaviorType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DynamicRelaxationBehaviorType"></a>
@@ -42,4 +38,4 @@ Specifies the DynamicRelaxationBehaviorType.
 
 ### DynamicRelaxationBehaviorType.NormalPhaseOnly *= 0*
 
-<!-- vale on -->
+

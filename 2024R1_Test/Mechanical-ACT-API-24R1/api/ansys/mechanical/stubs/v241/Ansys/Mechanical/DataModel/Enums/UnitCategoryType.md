@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="unitcategorytype"></a>
-
 # `UnitCategoryType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.UnitCategoryType"></a>
@@ -622,4 +618,4 @@ Specifies the WB Unit Category Type.
 
 ### UnitCategoryType.ThermalCompliance *= 116*
 
-<!-- vale on -->
+

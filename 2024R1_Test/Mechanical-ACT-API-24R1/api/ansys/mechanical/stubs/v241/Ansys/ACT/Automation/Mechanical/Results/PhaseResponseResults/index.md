@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.PhaseResponseResults"></a>
-
 <a id="phaseresponseresults"></a>
 
 # `PhaseResponseResults`
@@ -27,4 +23,4 @@
 PhaseResponseResults subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

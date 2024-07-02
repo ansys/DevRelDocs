@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="expressionproperty"></a>
-
 # `ExpressionProperty`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.AdditionalProperties.ExpressionProperty"></a>
@@ -89,4 +85,4 @@ Get the string representation of the value.
 Returns whether a property is readonly.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

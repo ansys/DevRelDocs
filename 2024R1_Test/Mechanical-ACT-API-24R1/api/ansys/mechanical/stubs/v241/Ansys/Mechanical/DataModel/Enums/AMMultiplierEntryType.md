@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="ammultiplierentrytype"></a>
-
 # `AMMultiplierEntryType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMMultiplierEntryType"></a>
@@ -37,4 +33,4 @@ Specifies the AMSupportSubtype.
 
 ### AMMultiplierEntryType.All *= 1*
 
-<!-- vale on -->
+

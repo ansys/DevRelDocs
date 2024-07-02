@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="field"></a>
-
 # `Field`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field"></a>
@@ -53,4 +49,4 @@ Gets the output variable of this component.
 Gets the name of this component.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="corioliseffecttype"></a>
-
 # `CoriolisEffectType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CoriolisEffectType"></a>
@@ -42,4 +38,4 @@ Specifies the CoriolisEffectType.
 
 ### CoriolisEffectType.OnStationaryReferenceFrame *= 1*
 
-<!-- vale on -->
+

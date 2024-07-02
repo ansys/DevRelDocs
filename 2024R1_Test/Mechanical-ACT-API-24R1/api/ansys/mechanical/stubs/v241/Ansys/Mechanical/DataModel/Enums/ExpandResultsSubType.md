@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="expandresultssubtype"></a>
-
 # `ExpandResultsSubType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExpandResultsSubType"></a>
@@ -42,4 +38,4 @@ Specifies the ExpandResultsSubType.
 
 ### ExpandResultsSubType.TransientSolution *= 3*
 
-<!-- vale on -->
+

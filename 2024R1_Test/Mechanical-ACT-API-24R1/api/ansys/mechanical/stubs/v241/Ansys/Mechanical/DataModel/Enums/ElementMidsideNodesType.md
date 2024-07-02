@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="elementmidsidenodestype"></a>
-
 # `ElementMidsideNodesType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ElementMidsideNodesType"></a>
@@ -42,4 +38,4 @@ Specifies the ElementMidsideNodesType.
 
 ### ElementMidsideNodesType.Kept *= 2*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="fatigueloadtype"></a>
-
 # `FatigueLoadType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FatigueLoadType"></a>
@@ -52,4 +48,4 @@ Specifies the FatigueLoadType.
 
 ### FatigueLoadType.ZeroBased *= 0*
 
-<!-- vale on -->
+

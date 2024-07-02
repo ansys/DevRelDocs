@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="physicstype"></a>
-
 # `PhysicsType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PhysicsType"></a>
@@ -82,4 +78,4 @@ Specifies the PhysicsType.
 
 ### PhysicsType.MechanicalElectricCharge *= 129*
 
-<!-- vale on -->
+

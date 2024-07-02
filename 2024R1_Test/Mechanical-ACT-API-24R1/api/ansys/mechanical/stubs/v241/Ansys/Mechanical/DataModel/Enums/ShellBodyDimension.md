@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="shellbodydimension"></a>
-
 # `ShellBodyDimension`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShellBodyDimension"></a>
@@ -37,4 +33,4 @@ Specifies the ShellBodyDimension.
 
 ### ShellBodyDimension.Three_D *= 3*
 
-<!-- vale on -->
+

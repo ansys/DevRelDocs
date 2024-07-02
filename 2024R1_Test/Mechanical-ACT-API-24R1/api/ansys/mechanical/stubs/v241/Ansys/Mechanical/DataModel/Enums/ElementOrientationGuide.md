@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="elementorientationguide"></a>
-
 # `ElementOrientationGuide`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ElementOrientationGuide"></a>
@@ -37,4 +33,4 @@ Specifies the ElementOrientationGuide.
 
 ### ElementOrientationGuide.SurfaceEdgeGuide *= 1*
 
-<!-- vale on -->
+

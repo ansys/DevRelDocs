@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="symmetryboundarydoforientation"></a>
-
 # `SymmetryBoundaryDOFOrientation`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SymmetryBoundaryDOFOrientation"></a>
@@ -37,4 +33,4 @@ Specifies the SymmetryBoundaryDOFOrientation.
 
 ### SymmetryBoundaryDOFOrientation.ChosenBySolver *= 1*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="pinnature"></a>
-
 # `PinNature`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PinNature"></a>
@@ -37,4 +33,4 @@ FMI standards
 
 ### PinNature.OutputQuantities *= 1*
 
-<!-- vale on -->
+

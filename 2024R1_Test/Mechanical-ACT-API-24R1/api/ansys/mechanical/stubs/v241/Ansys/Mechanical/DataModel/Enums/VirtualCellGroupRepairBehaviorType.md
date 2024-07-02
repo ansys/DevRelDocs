@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="virtualcellgrouprepairbehaviortype"></a>
-
 # `VirtualCellGroupRepairBehaviorType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.VirtualCellGroupRepairBehaviorType"></a>
@@ -47,4 +43,4 @@ Specifies the VirtualCellGroupRepairBehaviorType.
 
 ### VirtualCellGroupRepairBehaviorType.SmallFaces *= 3*
 
-<!-- vale on -->
+

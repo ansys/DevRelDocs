@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="isolvermemorysettings"></a>
-
 # `ISolverMemorySettings`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Application.SolveProcessSettings.ISolverMemorySettings"></a>
@@ -53,4 +49,4 @@ Gets or sets the workspace memory amount (megabytes).
 Gets or sets the database memory amount (MB).
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

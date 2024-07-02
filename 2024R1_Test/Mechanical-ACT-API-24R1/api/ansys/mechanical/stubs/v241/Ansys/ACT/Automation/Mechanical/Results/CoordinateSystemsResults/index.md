@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.CoordinateSystemsResults"></a>
-
 <a id="coordinatesystemsresults"></a>
 
 # `CoordinateSystemsResults`
@@ -31,4 +27,4 @@
 CoordinateSystemsResults subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

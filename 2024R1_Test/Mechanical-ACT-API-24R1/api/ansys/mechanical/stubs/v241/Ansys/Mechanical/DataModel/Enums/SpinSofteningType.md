@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="spinsofteningtype"></a>
-
 # `SpinSofteningType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SpinSofteningType"></a>
@@ -42,4 +38,4 @@ Specifies the SpinSofteningType.
 
 ### SpinSofteningType.ProgramControlled *= 2*
 
-<!-- vale on -->
+

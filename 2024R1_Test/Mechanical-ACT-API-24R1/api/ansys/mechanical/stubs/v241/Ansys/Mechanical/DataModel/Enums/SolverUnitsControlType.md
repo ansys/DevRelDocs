@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="solverunitscontroltype"></a>
-
 # `SolverUnitsControlType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolverUnitsControlType"></a>
@@ -37,4 +33,4 @@ Specifies the SolverUnitsControlType.
 
 ### SolverUnitsControlType.Manual *= 1*
 
-<!-- vale on -->
+

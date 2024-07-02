@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="point"></a>
-
 # `Point`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.Point"></a>
@@ -103,4 +99,4 @@ Object.Equals(object o) override
 Object.GetHashCode() override
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

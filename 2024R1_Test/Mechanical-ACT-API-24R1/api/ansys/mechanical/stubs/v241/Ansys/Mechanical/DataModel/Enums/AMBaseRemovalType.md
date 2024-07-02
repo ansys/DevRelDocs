@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="ambaseremovaltype"></a>
-
 # `AMBaseRemovalType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMBaseRemovalType"></a>
@@ -37,4 +33,4 @@ Specifies the AMBaseRemovalType.
 
 ### AMBaseRemovalType.Instantaneous *= 0*
 
-<!-- vale on -->
+

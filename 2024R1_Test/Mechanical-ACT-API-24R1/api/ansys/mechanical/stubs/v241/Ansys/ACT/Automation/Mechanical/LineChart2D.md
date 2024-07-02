@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="linechart2d"></a>
-
 # `LineChart2D`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.LineChart2D"></a>
@@ -216,4 +212,4 @@ Gets the parameter corresponding to the given property.
 Removes the parameter from the parameter set corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

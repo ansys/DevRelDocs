@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="graphicscapturetype"></a>
-
 # `GraphicsCaptureType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsCaptureType"></a>
@@ -37,4 +33,4 @@ Specifies the Graphics Image Capture Type.
 
 ### GraphicsCaptureType.ImageOnly *= 1*
 
-<!-- vale on -->
+

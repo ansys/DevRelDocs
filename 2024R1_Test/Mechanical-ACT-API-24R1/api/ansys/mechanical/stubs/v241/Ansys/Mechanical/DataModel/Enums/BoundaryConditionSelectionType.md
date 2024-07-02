@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="boundaryconditionselectiontype"></a>
-
 # `BoundaryConditionSelectionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BoundaryConditionSelectionType"></a>
@@ -37,4 +33,4 @@ Specifies the BoundaryConditionSelection.
 
 ### BoundaryConditionSelectionType.AllFixedSupports *= 1*
 
-<!-- vale on -->
+

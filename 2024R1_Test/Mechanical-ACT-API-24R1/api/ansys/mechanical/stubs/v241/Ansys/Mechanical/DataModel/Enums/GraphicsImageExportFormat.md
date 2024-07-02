@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="graphicsimageexportformat"></a>
-
 # `GraphicsImageExportFormat`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsImageExportFormat"></a>
@@ -52,4 +48,4 @@ Specifies the 2D Image Format.
 
 ### GraphicsImageExportFormat.EPS *= 4*
 
-<!-- vale on -->
+

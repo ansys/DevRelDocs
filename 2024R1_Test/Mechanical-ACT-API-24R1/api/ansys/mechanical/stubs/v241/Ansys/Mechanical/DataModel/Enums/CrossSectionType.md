@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="crosssectiontype"></a>
-
 # `CrossSectionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrossSectionType"></a>
@@ -97,4 +93,4 @@ Specifies the CrossSectionType.
 
 ### CrossSectionType.ZBeam *= 6*
 
-<!-- vale on -->
+

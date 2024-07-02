@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="chartmodaltype"></a>
-
 # `ChartModalType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartModalType"></a>
@@ -37,4 +33,4 @@ Specifies the ChartModalType.
 
 ### ChartModalType.RootLocus *= 2*
 
-<!-- vale on -->
+

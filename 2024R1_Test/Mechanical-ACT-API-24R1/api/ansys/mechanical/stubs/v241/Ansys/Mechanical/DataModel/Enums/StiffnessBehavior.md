@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="stiffnessbehavior"></a>
-
 # `StiffnessBehavior`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StiffnessBehavior"></a>
@@ -67,4 +63,4 @@ Specifies the StiffnessBehavior.
 
 ### StiffnessBehavior.SuperElement *= 4*
 
-<!-- vale on -->
+

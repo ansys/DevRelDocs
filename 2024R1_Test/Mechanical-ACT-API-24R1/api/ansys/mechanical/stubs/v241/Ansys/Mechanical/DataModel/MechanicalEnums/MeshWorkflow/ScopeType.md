@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="scopetype"></a>
-
 # `ScopeType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ScopeType"></a>
@@ -42,4 +38,4 @@ To select the MeshWorkflow Process Entity Type.
 
 ### ScopeType.Zone *= 3*
 
-<!-- vale on -->
+

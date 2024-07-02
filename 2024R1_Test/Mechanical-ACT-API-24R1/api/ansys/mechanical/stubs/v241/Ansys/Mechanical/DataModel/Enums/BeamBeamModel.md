@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="beambeammodel"></a>
-
 # `BeamBeamModel`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BeamBeamModel"></a>
@@ -42,4 +38,4 @@ Specifies the BeamBeamModel.
 
 ### BeamBeamModel.OnlyCrossingBeams *= 3*
 
-<!-- vale on -->
+

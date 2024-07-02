@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="convergencetype"></a>
-
 # `ConvergenceType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ConvergenceType"></a>
@@ -52,4 +48,4 @@ Specifies the ConvergenceType.
 
 ### ConvergenceType.Torque *= 3*
 
-<!-- vale on -->
+

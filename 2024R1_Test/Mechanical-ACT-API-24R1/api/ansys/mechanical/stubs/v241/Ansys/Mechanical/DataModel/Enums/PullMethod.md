@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="pullmethod"></a>
-
 # `PullMethod`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PullMethod"></a>
@@ -47,4 +43,4 @@ To select the method of Pull. There are three methods. They are Extrude, Revolve
 
 ### PullMethod.SurfaceCoating *= 2*
 
-<!-- vale on -->
+

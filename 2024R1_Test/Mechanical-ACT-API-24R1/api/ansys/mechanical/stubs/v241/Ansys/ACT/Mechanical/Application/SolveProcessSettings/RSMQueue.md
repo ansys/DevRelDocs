@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="rsmqueue"></a>
-
 # `RSMQueue`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Application.SolveProcessSettings.RSMQueue"></a>
@@ -62,4 +58,4 @@ The HPC Queue of the RSM Queue.
 The HPC type of the RSM Queue
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

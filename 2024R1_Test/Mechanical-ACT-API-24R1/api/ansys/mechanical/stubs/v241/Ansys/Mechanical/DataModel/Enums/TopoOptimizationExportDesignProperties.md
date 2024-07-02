@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="topooptimizationexportdesignproperties"></a>
-
 # `TopoOptimizationExportDesignProperties`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TopoOptimizationExportDesignProperties"></a>
@@ -47,4 +43,4 @@ Specifies the TopoOptimizationExportDesignProperties.
 
 ### TopoOptimizationExportDesignProperties.OnFinalDesign *= 1*
 
-<!-- vale on -->
+

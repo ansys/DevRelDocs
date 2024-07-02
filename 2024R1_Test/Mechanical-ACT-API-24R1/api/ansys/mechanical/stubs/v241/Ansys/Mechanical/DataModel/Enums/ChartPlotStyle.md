@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="chartplotstyle"></a>
-
 # `ChartPlotStyle`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartPlotStyle"></a>
@@ -42,4 +38,4 @@ Specifies the ChartPlotStyle.
 
 ### ChartPlotStyle.Points *= 1*
 
-<!-- vale on -->
+

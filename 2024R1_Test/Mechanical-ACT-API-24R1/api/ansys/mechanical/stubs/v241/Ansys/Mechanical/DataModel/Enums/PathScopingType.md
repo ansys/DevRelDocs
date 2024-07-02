@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="pathscopingtype"></a>
-
 # `PathScopingType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PathScopingType"></a>
@@ -47,4 +43,4 @@ Specifies the PathScopingType.
 
 ### PathScopingType.Ray *= 2*
 
-<!-- vale on -->
+

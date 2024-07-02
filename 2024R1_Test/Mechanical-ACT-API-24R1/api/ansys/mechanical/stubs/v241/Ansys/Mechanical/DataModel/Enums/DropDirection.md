@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="dropdirection"></a>
-
 # `DropDirection`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DropDirection"></a>
@@ -57,4 +53,4 @@ Specifies the DropDirection.
 
 ### DropDirection.PositiveZ *= 4*
 
-<!-- vale on -->
+

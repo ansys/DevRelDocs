@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="amprocesstype"></a>
-
 # `AMProcessType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMProcessType"></a>
@@ -37,4 +33,4 @@ Specifies the AMProcessType.
 
 ### AMProcessType.PowderBedFusion *= 1*
 
-<!-- vale on -->
+

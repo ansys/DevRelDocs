@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="selectionworksheet"></a>
-
 # `SelectionWorksheet`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.SelectionWorksheet"></a>
@@ -339,4 +335,4 @@ Gets the worksheet UpperBound property at index.
 Gets the worksheet Value property at index.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

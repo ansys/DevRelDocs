@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="sizingtype"></a>
-
 # `SizingType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SizingType"></a>
@@ -47,4 +43,4 @@ Specifies the SizingType.
 
 ### SizingType.BodyOfInfluence *= 3*
 
-<!-- vale on -->
+

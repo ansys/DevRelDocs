@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="linepressureresultbasedontype"></a>
-
 # `LinePressureResultBasedOnType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LinePressureResultBasedOnType"></a>
@@ -37,4 +33,4 @@ Specifies the LinePressureResultBasedOnType.
 
 ### LinePressureResultBasedOnType.NormalGasketPressure *= 0*
 
-<!-- vale on -->
+

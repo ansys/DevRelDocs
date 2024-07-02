@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="initializationmodifiertype"></a>
-
 # `InitializationModifierType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.InitializationModifierType"></a>
@@ -37,4 +33,4 @@ Specifies the InitializationModifierType.
 
 ### InitializationModifierType.None_ *= 0*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="iamprocessstep"></a>
-
 # `IAMProcessStep`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.IAMProcessStep"></a>
@@ -35,4 +31,4 @@ IAMProcessStep interface.
 ProcessStepType property.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

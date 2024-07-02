@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="meshrestartcontrolstype"></a>
-
 # `MeshRestartControlsType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshRestartControlsType"></a>
@@ -37,4 +33,4 @@ Specifies the MeshRestartControlsType.
 
 ### MeshRestartControlsType.ProgramControlled *= 0*
 
-<!-- vale on -->
+

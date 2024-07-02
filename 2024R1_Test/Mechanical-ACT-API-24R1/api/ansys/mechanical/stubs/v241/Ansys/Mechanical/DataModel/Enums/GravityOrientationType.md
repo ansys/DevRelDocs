@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="gravityorientationtype"></a>
-
 # `GravityOrientationType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GravityOrientationType"></a>
@@ -57,4 +53,4 @@ Specifies the GravityOrientationType.
 
 ### GravityOrientationType.PositiveZAxis *= 4*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="imechanicalselectioninfo"></a>
-
 # `IMechanicalSelectionInfo`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Interfaces.Mechanical.IMechanicalSelectionInfo"></a>
@@ -44,4 +40,4 @@ Gets the list of selected geometry entities.
 Gets the list indices needed to define the face of an element.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

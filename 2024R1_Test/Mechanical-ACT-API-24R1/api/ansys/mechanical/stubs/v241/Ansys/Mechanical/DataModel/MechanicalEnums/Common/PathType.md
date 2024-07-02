@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="pathtype"></a>
-
 # `PathType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.Common.PathType"></a>
@@ -37,4 +33,4 @@ This enum specifies how a path should be interpreted.
 
 ### PathType.RelativeToProject *= 2*
 
-<!-- vale on -->
+

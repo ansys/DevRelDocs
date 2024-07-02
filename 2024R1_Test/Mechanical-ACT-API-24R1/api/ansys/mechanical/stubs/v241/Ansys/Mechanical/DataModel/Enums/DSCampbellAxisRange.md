@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="dscampbellaxisrange"></a>
-
 # `DSCampbellAxisRange`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DSCampbellAxisRange"></a>
@@ -37,4 +33,4 @@ Specifies the DSCampbellAxisRange.
 
 ### DSCampbellAxisRange.ProgramControlled *= 0*
 
-<!-- vale on -->
+

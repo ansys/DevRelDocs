@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="mapdlbodydata"></a>
-
 # `MAPDLBodyData`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.SolverData.MAPDLBodyData"></a>
@@ -53,4 +49,4 @@ Gets the Material Ids for the body.
 Gets the Real Constant Id for the body.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

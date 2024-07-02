@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="contactinitialeffect"></a>
-
 # `ContactInitialEffect`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactInitialEffect"></a>
@@ -62,4 +58,4 @@ Specifies the ContactInitialEffect.
 
 ### ContactInitialEffect.OffsetOnlyRampedEffects *= 6*
 
-<!-- vale on -->
+

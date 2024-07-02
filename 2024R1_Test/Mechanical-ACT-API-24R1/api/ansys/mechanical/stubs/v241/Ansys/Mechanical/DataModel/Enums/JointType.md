@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="jointtype"></a>
-
 # `JointType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.JointType"></a>
@@ -112,4 +108,4 @@ Specifies the JointType.
 
 ### JointType.Universal *= 5*
 
-<!-- vale on -->
+

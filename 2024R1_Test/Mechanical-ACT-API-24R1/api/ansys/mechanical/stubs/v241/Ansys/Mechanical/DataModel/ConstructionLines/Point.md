@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="point"></a>
-
 # `Point`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.ConstructionLines.Point"></a>
@@ -89,4 +85,4 @@ Check to see if there is a valid entity that this instance represents.
 Checks to see if another point is equivalent to this one.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

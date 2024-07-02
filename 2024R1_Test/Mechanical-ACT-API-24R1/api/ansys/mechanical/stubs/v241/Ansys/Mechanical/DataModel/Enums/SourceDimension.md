@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="sourcedimension"></a>
-
 # `SourceDimension`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SourceDimension"></a>
@@ -37,4 +33,4 @@ Specifies the SourceDimension.
 
 ### SourceDimension.SourceDimension3D *= 3*
 
-<!-- vale on -->
+

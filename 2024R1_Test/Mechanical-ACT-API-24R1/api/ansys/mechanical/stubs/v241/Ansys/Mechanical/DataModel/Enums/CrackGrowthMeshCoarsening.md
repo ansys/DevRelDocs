@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="crackgrowthmeshcoarsening"></a>
-
 # `CrackGrowthMeshCoarsening`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrackGrowthMeshCoarsening"></a>
@@ -42,4 +38,4 @@ Specifies the CrackGrowthMeshCoarsening.
 
 ### CrackGrowthMeshCoarsening.Moderate *= 1*
 
-<!-- vale on -->
+

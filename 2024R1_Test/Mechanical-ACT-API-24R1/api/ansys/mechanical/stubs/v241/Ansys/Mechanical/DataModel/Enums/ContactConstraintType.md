@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="contactconstrainttype"></a>
-
 # `ContactConstraintType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactConstraintType"></a>
@@ -57,4 +53,4 @@ Specifies the ContactConstraintType.
 
 ### ContactConstraintType.ProjectedUncoupleUtoROT *= 2*
 
-<!-- vale on -->
+

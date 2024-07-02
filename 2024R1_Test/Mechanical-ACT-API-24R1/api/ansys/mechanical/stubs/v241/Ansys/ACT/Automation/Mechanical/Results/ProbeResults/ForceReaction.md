@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="forcereaction"></a>
-
 # `ForceReaction`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ProbeResults.ForceReaction"></a>
@@ -794,4 +790,4 @@ Gets the parameter corresponding to the given property.
 Removes the parameter from the parameter set corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

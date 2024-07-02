@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="boundaryconditionforrotation"></a>
-
 # `BoundaryConditionForRotation`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BoundaryConditionForRotation"></a>
@@ -42,4 +38,4 @@ Specifies the BoundaryConditionForRotation.
 
 ### BoundaryConditionForRotation.Rotation *= 2*
 
-<!-- vale on -->
+

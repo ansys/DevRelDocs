@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="krigingpolynomtype"></a>
-
 # `KrigingPolynomType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.KrigingPolynomType"></a>
@@ -52,4 +48,4 @@ Represents the various types of Polynomial which combines with Kriging model.
 
 ### KrigingPolynomType.PolyCrossQuad *= 4*
 
-<!-- vale on -->
+

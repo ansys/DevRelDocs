@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="cracksourcetype"></a>
-
 # `CrackSourceType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrackSourceType"></a>
@@ -37,4 +33,4 @@ Specifies the CrackSourceType.
 
 ### CrackSourceType.Crack *= 1*
 
-<!-- vale on -->
+

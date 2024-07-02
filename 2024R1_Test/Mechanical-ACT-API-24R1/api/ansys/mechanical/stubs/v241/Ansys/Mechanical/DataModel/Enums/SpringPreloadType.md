@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="springpreloadtype"></a>
-
 # `SpringPreloadType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SpringPreloadType"></a>
@@ -52,4 +48,4 @@ Specifies the SpringPreloadType.
 
 ### SpringPreloadType.Torque *= 2*
 
-<!-- vale on -->
+

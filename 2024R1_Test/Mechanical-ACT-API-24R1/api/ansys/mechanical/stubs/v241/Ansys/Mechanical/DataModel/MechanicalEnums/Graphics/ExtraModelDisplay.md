@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="extramodeldisplay"></a>
-
 # `ExtraModelDisplay`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.Graphics.ExtraModelDisplay"></a>
@@ -47,4 +43,4 @@ Specifies the ExtraModelDisplay.
 
 ### ExtraModelDisplay.ShowElements *= 3*
 
-<!-- vale on -->
+

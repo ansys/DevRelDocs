@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="amsupportstltype"></a>
-
 # `AMSupportSTLType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMSupportSTLType"></a>
@@ -37,4 +33,4 @@ Specifies the AMSupportSTLType.
 
 ### AMSupportSTLType.Volumeless *= 0*
 
-<!-- vale on -->
+

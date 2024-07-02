@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="restartsaveatsubstep"></a>
-
 # `RestartSaveAtSubstep`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RestartSaveAtSubstep"></a>
@@ -47,4 +43,4 @@ Specifies the RestartSaveAtSubstep.
 
 ### RestartSaveAtSubstep.SaveAtSubstepSpecified *= 3*
 
-<!-- vale on -->
+

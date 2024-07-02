@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="stiffnessmethodtype"></a>
-
 # `StiffnessMethodType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StiffnessMethodType"></a>
@@ -42,4 +38,4 @@ Specifies the StiffnessMethodType.
 
 ### StiffnessMethodType.ProgramControlled *= 1*
 
-<!-- vale on -->
+

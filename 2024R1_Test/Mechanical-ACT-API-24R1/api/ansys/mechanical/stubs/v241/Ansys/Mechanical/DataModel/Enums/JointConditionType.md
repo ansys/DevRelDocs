@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="jointconditiontype"></a>
-
 # `JointConditionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.JointConditionType"></a>
@@ -67,4 +63,4 @@ Specifies the Joint Condition Type.
 
 ### JointConditionType.Moment *= 106*
 
-<!-- vale on -->
+

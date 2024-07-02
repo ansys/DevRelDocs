@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="contactsummarytype"></a>
-
 # `ContactSummaryType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactSummaryType"></a>
@@ -42,4 +38,4 @@ Specifies the ContactSummaryType.
 
 ### ContactSummaryType.SolverOutput *= 2*
 
-<!-- vale on -->
+

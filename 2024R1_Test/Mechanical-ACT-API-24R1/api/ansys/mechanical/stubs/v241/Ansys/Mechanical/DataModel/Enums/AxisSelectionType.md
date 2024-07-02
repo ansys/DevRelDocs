@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="axisselectiontype"></a>
-
 # `AxisSelectionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AxisSelectionType"></a>
@@ -47,4 +43,4 @@ Specifies the AxisSelectionType.
 
 ### AxisSelectionType.ZAxis *= 3*
 
-<!-- vale on -->
+

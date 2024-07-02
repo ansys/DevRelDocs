@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="radiationtype"></a>
-
 # `RadiationType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RadiationType"></a>
@@ -37,4 +33,4 @@ Specifies the RadiationType.
 
 ### RadiationType.SurfaceToSurface *= 1*
 
-<!-- vale on -->
+

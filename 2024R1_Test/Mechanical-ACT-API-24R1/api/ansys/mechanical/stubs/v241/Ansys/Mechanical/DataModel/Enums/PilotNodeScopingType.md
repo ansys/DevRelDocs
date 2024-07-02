@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="pilotnodescopingtype"></a>
-
 # `PilotNodeScopingType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PilotNodeScopingType"></a>
@@ -37,4 +33,4 @@ Specifies the PilotNodeScopingType.
 
 ### PilotNodeScopingType.CoordinateSystem *= 0*
 
-<!-- vale on -->
+

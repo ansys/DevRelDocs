@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="commandkeyopt"></a>
-
 # `CommandKeyOpt`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandKeyOpt"></a>
@@ -44,4 +40,4 @@ Gets the key option number.
 Gets the value.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

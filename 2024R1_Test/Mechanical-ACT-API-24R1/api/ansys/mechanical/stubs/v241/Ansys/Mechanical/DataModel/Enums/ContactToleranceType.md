@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="contacttolerancetype"></a>
-
 # `ContactToleranceType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactToleranceType"></a>
@@ -42,4 +38,4 @@ Specifies the ContactToleranceType.
 
 ### ContactToleranceType.Value *= 1*
 
-<!-- vale on -->
+

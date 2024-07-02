@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="elementorder"></a>
-
 # `ElementOrder`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ElementOrder"></a>
@@ -42,4 +38,4 @@ Specifies the ElementOrder.
 
 ### ElementOrder.ProgramControlled *= 0*
 
-<!-- vale on -->
+

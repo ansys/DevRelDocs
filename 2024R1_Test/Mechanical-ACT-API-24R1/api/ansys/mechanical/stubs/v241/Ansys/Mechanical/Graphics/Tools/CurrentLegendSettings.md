@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="currentlegendsettings"></a>
-
 # `CurrentLegendSettings`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.Tools.CurrentLegendSettings"></a>
@@ -215,4 +211,4 @@ Resets all legend customizations into default values.
 Makes a copy of the CurrentLegendSettings object.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

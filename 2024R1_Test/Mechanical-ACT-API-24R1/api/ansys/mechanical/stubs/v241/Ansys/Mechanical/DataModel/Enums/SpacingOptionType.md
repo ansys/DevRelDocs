@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="spacingoptiontype"></a>
-
 # `SpacingOptionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SpacingOptionType"></a>
@@ -37,4 +33,4 @@ Specifies the SpacingOptionType.
 
 ### SpacingOptionType.UserControlled *= 1*
 
-<!-- vale on -->
+

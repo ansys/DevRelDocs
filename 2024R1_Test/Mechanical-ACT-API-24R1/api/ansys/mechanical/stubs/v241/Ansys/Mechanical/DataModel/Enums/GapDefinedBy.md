@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="gapdefinedby"></a>
-
 # `GapDefinedBy`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GapDefinedBy"></a>
@@ -37,4 +33,4 @@ Specifies the GapDefinedBy.
 
 ### GapDefinedBy.CADParameters *= 1*
 
-<!-- vale on -->
+

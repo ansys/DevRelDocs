@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="contactelasticsliptolerancetype"></a>
-
 # `ContactElasticSlipToleranceType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactElasticSlipToleranceType"></a>
@@ -42,4 +38,4 @@ Specifies the ContactElasticSlipToleranceType.
 
 ### ContactElasticSlipToleranceType.Value *= 1*
 
-<!-- vale on -->
+

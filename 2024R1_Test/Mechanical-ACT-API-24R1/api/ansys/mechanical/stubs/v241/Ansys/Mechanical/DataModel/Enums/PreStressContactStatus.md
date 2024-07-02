@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="prestresscontactstatus"></a>
-
 # `PreStressContactStatus`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PreStressContactStatus"></a>
@@ -42,4 +38,4 @@ Specifies the PreStressContactStatus.
 
 ### PreStressContactStatus.UseTrueStatus *= 1*
 
-<!-- vale on -->
+

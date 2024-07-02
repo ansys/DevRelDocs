@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="bodyinteractionformulation"></a>
-
 # `BodyInteractionFormulation`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BodyInteractionFormulation"></a>
@@ -37,4 +33,4 @@ Specifies the BodyInteractionFormulation.
 
 ### BodyInteractionFormulation.PENALTY *= 1*
 
-<!-- vale on -->
+

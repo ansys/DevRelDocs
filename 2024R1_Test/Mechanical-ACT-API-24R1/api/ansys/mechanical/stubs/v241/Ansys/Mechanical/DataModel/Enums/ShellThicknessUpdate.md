@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="shellthicknessupdate"></a>
-
 # `ShellThicknessUpdate`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShellThicknessUpdate"></a>
@@ -37,4 +33,4 @@ Specifies the ShellThicknessUpdate.
 
 ### ShellThicknessUpdate.Nodal *= 0*
 
-<!-- vale on -->
+

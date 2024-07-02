@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="selectionhelper"></a>
-
 # `SelectionHelper`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Selection.SelectionHelper"></a>
@@ -48,4 +44,4 @@ Finds geometry entities intersecting input BoundVector and returns them in list 
 These are returned in the order they are hit, each item containing the entity and BoundVector normal to point hit.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

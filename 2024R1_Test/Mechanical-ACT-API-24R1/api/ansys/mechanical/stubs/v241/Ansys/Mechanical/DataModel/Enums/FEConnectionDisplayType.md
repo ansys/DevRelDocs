@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="feconnectiondisplaytype"></a>
-
 # `FEConnectionDisplayType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FEConnectionDisplayType"></a>
@@ -42,4 +38,4 @@ Specifies the FEConnectionDisplayType.
 
 ### FEConnectionDisplayType.Points *= 1*
 
-<!-- vale on -->
+

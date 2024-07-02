@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="solveconfiguration"></a>
-
 # `SolveConfiguration`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolveConfiguration"></a>
@@ -80,4 +76,4 @@ Returns the solve process settings of this solve configuration.
 Sets this solve configuration as the default.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

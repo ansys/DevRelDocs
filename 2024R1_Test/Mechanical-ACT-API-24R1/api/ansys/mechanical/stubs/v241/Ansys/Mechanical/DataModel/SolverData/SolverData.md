@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="solverdata"></a>
-
 # `SolverData`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.SolverData.SolverData"></a>
@@ -35,4 +31,4 @@ SolverData class.
 Gets the object data.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

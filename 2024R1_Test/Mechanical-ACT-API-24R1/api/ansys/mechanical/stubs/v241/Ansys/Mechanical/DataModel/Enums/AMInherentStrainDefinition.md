@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="aminherentstraindefinition"></a>
-
 # `AMInherentStrainDefinition`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMInherentStrainDefinition"></a>
@@ -47,4 +43,4 @@ Specifies the AMInherentStrainDefinition.
 
 ### AMInherentStrainDefinition.ThermalStrain *= 3*
 
-<!-- vale on -->
+

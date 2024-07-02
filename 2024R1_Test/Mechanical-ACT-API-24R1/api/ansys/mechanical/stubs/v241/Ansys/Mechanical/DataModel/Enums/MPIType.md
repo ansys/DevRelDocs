@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="mpitype"></a>
-
 # `MPIType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MPIType"></a>
@@ -42,4 +38,4 @@ Specifies the MPIType.
 
 ### MPIType.PCMPI *= 0*
 
-<!-- vale on -->
+

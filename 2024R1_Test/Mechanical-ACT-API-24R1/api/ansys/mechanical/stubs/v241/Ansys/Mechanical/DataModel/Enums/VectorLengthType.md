@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="vectorlengthtype"></a>
-
 # `VectorLengthType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.VectorLengthType"></a>
@@ -37,4 +33,4 @@ Specifies the VectorLengthType.
 
 ### VectorLengthType.Uniform *= 1*
 
-<!-- vale on -->
+

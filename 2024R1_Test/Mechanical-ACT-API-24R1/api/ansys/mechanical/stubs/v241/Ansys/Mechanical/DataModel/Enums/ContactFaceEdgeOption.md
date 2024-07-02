@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="contactfaceedgeoption"></a>
-
 # `ContactFaceEdgeOption`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactFaceEdgeOption"></a>
@@ -52,4 +48,4 @@ Specifies the ContactFaceEdgeOption.
 
 ### ContactFaceEdgeOption.Yes *= 1*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="dampingdefineby"></a>
-
 # `DampingDefineBy`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DampingDefineBy"></a>
@@ -37,4 +33,4 @@ Specifies the DampingDefineBy.
 
 ### DampingDefineBy.DampingRatio *= 0*
 
-<!-- vale on -->
+

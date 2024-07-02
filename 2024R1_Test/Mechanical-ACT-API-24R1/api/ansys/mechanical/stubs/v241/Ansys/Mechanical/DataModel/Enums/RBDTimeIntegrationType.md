@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="rbdtimeintegrationtype"></a>
-
 # `RBDTimeIntegrationType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RBDTimeIntegrationType"></a>
@@ -90,4 +86,4 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### RBDTimeIntegrationType.NonSmoothGeneralizedAlpha *= 12*
 
-<!-- vale on -->
+

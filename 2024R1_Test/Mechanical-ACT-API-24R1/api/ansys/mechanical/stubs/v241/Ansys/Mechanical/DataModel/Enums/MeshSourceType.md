@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="meshsourcetype"></a>
-
 # `MeshSourceType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshSourceType"></a>
@@ -42,4 +38,4 @@ Specifies the MeshSourceType.
 
 ### MeshSourceType.ResultFile *= 2*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="springresulttype"></a>
-
 # `SpringResultType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SpringResultType"></a>
@@ -47,4 +43,4 @@ Specifies the SpringResultType.
 
 ### SpringResultType.Velocity *= 291*
 
-<!-- vale on -->
+

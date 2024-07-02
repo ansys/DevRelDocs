@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="matrixcompressivedamagevariable"></a>
-
 # `MatrixCompressiveDamageVariable`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.DamageResults.MatrixCompressiveDamageVariable"></a>
@@ -814,4 +810,4 @@ Gets the parameter corresponding to the given property.
 Removes the parameter from the parameter set corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

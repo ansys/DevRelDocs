@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="virtualcellclasstype"></a>
-
 # `VirtualCellClassType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.VirtualCellClassType"></a>
@@ -37,4 +33,4 @@ Specifies the VirtualCellClassType.
 
 ### VirtualCellClassType.VirtualEdge *= 1*
 
-<!-- vale on -->
+

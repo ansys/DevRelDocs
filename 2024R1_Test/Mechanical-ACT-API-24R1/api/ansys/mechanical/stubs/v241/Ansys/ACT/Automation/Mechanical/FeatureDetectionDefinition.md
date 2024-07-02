@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="featuredetectiondefinition"></a>
-
 # `FeatureDetectionDefinition`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FeatureDetectionDefinition"></a>
@@ -260,4 +256,4 @@ Import Feature Detection Definition data from Comma Separated Value (CSV) files
 Export Feature Detection Definition data to Comma Separated Value (CSV) files
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

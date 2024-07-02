@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="importedobject"></a>
-
 # `ImportedObject`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ImportedObject"></a>
@@ -80,4 +76,4 @@ Set the data for a give property name
 This method gives the complete list of property names that are supported.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

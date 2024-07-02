@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="pythoncodetargetcallback"></a>
-
 # `PythonCodeTargetCallback`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PythonCodeTargetCallback"></a>
@@ -82,4 +78,4 @@ Specifies the PythonCodeTargetCallback.
 
 ### PythonCodeTargetCallback.Unknown *= 0*
 
-<!-- vale on -->
+

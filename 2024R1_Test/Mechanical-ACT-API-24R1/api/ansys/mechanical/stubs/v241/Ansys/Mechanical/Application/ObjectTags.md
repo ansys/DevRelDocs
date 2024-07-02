@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="objecttags"></a>
-
 # `ObjectTags`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Application.ObjectTags"></a>
@@ -134,4 +130,4 @@ Clears the collection, removing all objects from the tags in the collection.
 Returns whether or not the collection contains the given tag.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

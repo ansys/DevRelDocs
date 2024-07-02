@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="geometryview"></a>
-
 # `GeometryView`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.Graphics.GeometryView"></a>
@@ -47,4 +43,4 @@ Specifies the GeometryView.
 
 ### GeometryView.SlicePlane *= 3*
 
-<!-- vale on -->
+

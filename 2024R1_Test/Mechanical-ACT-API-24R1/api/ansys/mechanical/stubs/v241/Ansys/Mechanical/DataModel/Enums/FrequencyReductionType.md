@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="frequencyreductiontype"></a>
-
 # `FrequencyReductionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FrequencyReductionType"></a>
@@ -32,4 +28,4 @@ Specifies the FrequencyReductionType.
 
 ### FrequencyReductionType.Average *= 0*
 
-<!-- vale on -->
+

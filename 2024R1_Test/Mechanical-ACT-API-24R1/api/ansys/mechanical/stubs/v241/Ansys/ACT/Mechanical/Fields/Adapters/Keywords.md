@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="keywords"></a>
-
 # `Keywords`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Adapters.Keywords"></a>
@@ -35,4 +31,4 @@ Keywords class.
 Get method.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="jointfrictiontype"></a>
-
 # `JointFrictionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.JointFrictionType"></a>
@@ -42,4 +38,4 @@ Specifies the JointFrictionType.
 
 ### JointFrictionType.FrictionWithTransitions *= 1*
 
-<!-- vale on -->
+

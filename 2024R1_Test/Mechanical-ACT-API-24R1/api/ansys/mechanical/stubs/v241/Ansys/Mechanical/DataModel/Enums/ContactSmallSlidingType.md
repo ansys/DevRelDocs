@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="contactsmallslidingtype"></a>
-
 # `ContactSmallSlidingType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactSmallSlidingType"></a>
@@ -47,4 +43,4 @@ Specifies the ContactSmallSlidingType.
 
 ### ContactSmallSlidingType.ProgramControlled *= 0*
 
-<!-- vale on -->
+
