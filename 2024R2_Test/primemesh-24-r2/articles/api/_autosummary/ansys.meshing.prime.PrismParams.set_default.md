@@ -1,6 +1,6 @@
 # ansys.meshing.prime.PrismParams.set_default
 
-<a id="ansys.meshing.prime.PrismParams.set_default"></a>
+
 
 #### *static* PrismParams.set_default(stair_step=None, no_imprint_zonelets=None)
 

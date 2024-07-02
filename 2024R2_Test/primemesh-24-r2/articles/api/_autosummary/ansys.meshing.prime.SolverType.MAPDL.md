@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SolverType.MAPDL
 
-<a id="ansys.meshing.prime.SolverType.MAPDL"></a>
+
 
 #### SolverType.MAPDL *= 2*
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ControlData.create_size_control
 
-<a id="ansys.meshing.prime.ControlData.create_size_control"></a>
+
 
 #### ControlData.create_size_control(sizing_type)
 

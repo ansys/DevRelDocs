@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # LengthUnit
 
-<a id="ansys.meshing.prime.LengthUnit"></a>
+
 
 ### *class* ansys.meshing.prime.LengthUnit(value)
 
@@ -21,4 +19,4 @@ Length units
 | [`LengthUnit.NM`](ansys.meshing.prime.LengthUnit.NM.md#ansys.meshing.prime.LengthUnit.NM) | Denotes length unit is nanometers.  |
 | [`LengthUnit.IN`](ansys.meshing.prime.LengthUnit.IN.md#ansys.meshing.prime.LengthUnit.IN) | Denotes length unit is inches.      |
 | [`LengthUnit.FT`](ansys.meshing.prime.LengthUnit.FT.md#ansys.meshing.prime.LengthUnit.FT) | Denotes length unit is feet.        |
-<!-- vale on -->
+

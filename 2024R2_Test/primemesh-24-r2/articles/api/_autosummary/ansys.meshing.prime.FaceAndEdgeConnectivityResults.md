@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # FaceAndEdgeConnectivityResults
 
-<a id="ansys.meshing.prime.FaceAndEdgeConnectivityResults"></a>
+
 
 ### *class* ansys.meshing.prime.FaceAndEdgeConnectivityResults(model=None, error_code=None, part_ids=None, face_connectivity_result_per_part=None, edge_connectivity_result_per_part=None, json_data=None, \*\*kwargs)
 
@@ -50,4 +48,4 @@ Result of the face and edge connectivity information.
 | [`FaceAndEdgeConnectivityResults.error_code`](ansys.meshing.prime.FaceAndEdgeConnectivityResults.error_code.md#ansys.meshing.prime.FaceAndEdgeConnectivityResults.error_code)                                                                        | Error code associated with the get face and edge connectivity operation. |
 | [`FaceAndEdgeConnectivityResults.face_connectivity_result_per_part`](ansys.meshing.prime.FaceAndEdgeConnectivityResults.face_connectivity_result_per_part.md#ansys.meshing.prime.FaceAndEdgeConnectivityResults.face_connectivity_result_per_part)   | Face connectivity result per part.                                       |
 | [`FaceAndEdgeConnectivityResults.part_ids`](ansys.meshing.prime.FaceAndEdgeConnectivityResults.part_ids.md#ansys.meshing.prime.FaceAndEdgeConnectivityResults.part_ids)                                                                              | Part ids for which face and edge connectivity data is available.         |
-<!-- vale on -->
+

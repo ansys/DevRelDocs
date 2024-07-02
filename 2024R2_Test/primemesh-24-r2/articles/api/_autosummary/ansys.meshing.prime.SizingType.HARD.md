@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SizingType.HARD
 
-<a id="ansys.meshing.prime.SizingType.HARD"></a>
+
 
 #### SizingType.HARD *= 2*
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Model.get_part
 
-<a id="ansys.meshing.prime.Model.get_part"></a>
+
 
 #### Model.get_part(id)
 

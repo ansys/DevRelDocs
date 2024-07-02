@@ -1,6 +1,6 @@
 # ansys.meshing.prime.PrismControlOffsetType.ASPECTRATIO
 
-<a id="ansys.meshing.prime.PrismControlOffsetType.ASPECTRATIO"></a>
+
 
 #### PrismControlOffsetType.ASPECTRATIO *= 1*
 

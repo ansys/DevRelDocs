@@ -1,6 +1,6 @@
 # ansys.meshing.prime.FixInvalidNormalNodeParams.nugget_size
 
-<a id="ansys.meshing.prime.FixInvalidNormalNodeParams.nugget_size"></a>
+
 
 #### *property* FixInvalidNormalNodeParams.nugget_size *: [float](https://docs.python.org/3.11/library/functions.html#float)*
 

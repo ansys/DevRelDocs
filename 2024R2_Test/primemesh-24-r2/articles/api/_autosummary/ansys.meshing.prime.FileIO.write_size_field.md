@@ -1,6 +1,6 @@
 # ansys.meshing.prime.FileIO.write_size_field
 
-<a id="ansys.meshing.prime.FileIO.write_size_field"></a>
+
 
 #### FileIO.write_size_field(file_name, params)
 

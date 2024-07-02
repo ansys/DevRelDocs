@@ -1,6 +1,6 @@
 # ansys.meshing.prime.HardSizingParams.growth_rate
 
-<a id="ansys.meshing.prime.HardSizingParams.growth_rate"></a>
+
 
 #### *property* HardSizingParams.growth_rate *: [float](https://docs.python.org/3.11/library/functions.html#float)*
 

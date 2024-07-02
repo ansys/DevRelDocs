@@ -1,6 +1,6 @@
 # ansys.meshing.prime.CopyZoneletsParams.set_default
 
-<a id="ansys.meshing.prime.CopyZoneletsParams.set_default"></a>
+
 
 #### *static* CopyZoneletsParams.set_default(copy_labels=None, copy_zones=None)
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.launch_prime
 
-<a id="ansys.meshing.prime.launch_prime"></a>
+
 
 ### ansys.meshing.prime.launch_prime(prime_root=None, ip='127.0.0.1', port=50055, timeout=20.0, n_procs=None, version=None, \*\*kwargs)
 

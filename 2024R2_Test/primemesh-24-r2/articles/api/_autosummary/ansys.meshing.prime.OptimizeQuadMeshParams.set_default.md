@@ -1,6 +1,6 @@
 # ansys.meshing.prime.OptimizeQuadMeshParams.set_default
 
-<a id="ansys.meshing.prime.OptimizeQuadMeshParams.set_default"></a>
+
 
 #### *static* OptimizeQuadMeshParams.set_default(suppress_topo_edge_and_mesh_cleanup=None, edge_mesh_constant_size=None, surface_mesh_constant_size=None, generate_quads=None, project_on_geometry=None, delete_interior_nodes_params=None)
 

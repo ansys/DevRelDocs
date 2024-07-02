@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ZoneType.FACE
 
-<a id="ansys.meshing.prime.ZoneType.FACE"></a>
+
 
 #### ZoneType.FACE *= 2*
 

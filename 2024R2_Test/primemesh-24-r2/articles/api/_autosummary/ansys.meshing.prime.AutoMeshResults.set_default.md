@@ -1,6 +1,6 @@
 # ansys.meshing.prime.AutoMeshResults.set_default
 
-<a id="ansys.meshing.prime.AutoMeshResults.set_default"></a>
+
 
 #### *static* AutoMeshResults.set_default(error_code=None, warning_codes=None, error_locations=None)
 

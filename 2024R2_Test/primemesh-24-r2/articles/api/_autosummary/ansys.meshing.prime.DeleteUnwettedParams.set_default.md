@@ -1,6 +1,6 @@
 # ansys.meshing.prime.DeleteUnwettedParams.set_default
 
-<a id="ansys.meshing.prime.DeleteUnwettedParams.set_default"></a>
+
 
 #### *static* DeleteUnwettedParams.set_default()
 

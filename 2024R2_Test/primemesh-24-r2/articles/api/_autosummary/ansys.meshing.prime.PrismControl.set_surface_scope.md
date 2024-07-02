@@ -1,6 +1,6 @@
 # ansys.meshing.prime.PrismControl.set_surface_scope
 
-<a id="ansys.meshing.prime.PrismControl.set_surface_scope"></a>
+
 
 #### PrismControl.set_surface_scope(entities)
 

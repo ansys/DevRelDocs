@@ -1,6 +1,6 @@
 # ansys.meshing.prime.PartialDefeatureParams.edge_sharp_corner_angle
 
-<a id="ansys.meshing.prime.PartialDefeatureParams.edge_sharp_corner_angle"></a>
+
 
 #### *property* PartialDefeatureParams.edge_sharp_corner_angle *: [float](https://docs.python.org/3.11/library/functions.html#float)*
 

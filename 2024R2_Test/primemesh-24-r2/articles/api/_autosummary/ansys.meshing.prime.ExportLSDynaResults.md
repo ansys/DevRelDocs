@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # ExportLSDynaResults
 
-<a id="ansys.meshing.prime.ExportLSDynaResults"></a>
+
 
 ### *class* ansys.meshing.prime.ExportLSDynaResults(model=None, summary_log=None, error_code=None, warning_codes=None, json_data=None, \*\*kwargs)
 
@@ -52,4 +50,4 @@ Results associated with the LS-DYNA export.
 | [`ExportLSDynaResults.error_code`](ansys.meshing.prime.ExportLSDynaResults.error_code.md#ansys.meshing.prime.ExportLSDynaResults.error_code)          | Error code associated with failure of operation.     |
 | [`ExportLSDynaResults.summary_log`](ansys.meshing.prime.ExportLSDynaResults.summary_log.md#ansys.meshing.prime.ExportLSDynaResults.summary_log)       | Summary log for the import operation in json format. |
 | [`ExportLSDynaResults.warning_codes`](ansys.meshing.prime.ExportLSDynaResults.warning_codes.md#ansys.meshing.prime.ExportLSDynaResults.warning_codes) | Warning codes associated with the operation.         |
-<!-- vale on -->
+

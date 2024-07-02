@@ -1,6 +1,6 @@
 # ansys.meshing.prime.FileIO.write_pmdat
 
-<a id="ansys.meshing.prime.FileIO.write_pmdat"></a>
+
 
 #### FileIO.write_pmdat(file_name, file_write_params)
 

@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # ErrorCode
 
-<a id="ansys.meshing.prime.ErrorCode"></a>
+
 
 ### *class* ansys.meshing.prime.ErrorCode(value)
 
@@ -334,4 +332,4 @@ Error codes associated with the failure of PyPrimeMesh operation.
 | [`ErrorCode.ZEROELEMENTSREADFROMCDBFILE`](ansys.meshing.prime.ErrorCode.ZEROELEMENTSREADFROMCDBFILE.md#ansys.meshing.prime.ErrorCode.ZEROELEMENTSREADFROMCDBFILE)                                                                            | No elements read from CDB file.                                                      |
 | [`ErrorCode.ZERONODESREADFROMCDBFILE`](ansys.meshing.prime.ErrorCode.ZERONODESREADFROMCDBFILE.md#ansys.meshing.prime.ErrorCode.ZERONODESREADFROMCDBFILE)                                                                                     | No nodes read from CDB file.                                                         |
 | [`ErrorCode.ZEROELEMENTSFORCDBEXPORT`](ansys.meshing.prime.ErrorCode.ZEROELEMENTSFORCDBEXPORT.md#ansys.meshing.prime.ErrorCode.ZEROELEMENTSFORCDBEXPORT)                                                                                     | No elements found for cdb export.                                                    |
-<!-- vale on -->
+

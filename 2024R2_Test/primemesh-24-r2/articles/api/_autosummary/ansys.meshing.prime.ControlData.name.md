@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ControlData.name
 
-<a id="ansys.meshing.prime.ControlData.name"></a>
+
 
 #### *property* ControlData.name
 

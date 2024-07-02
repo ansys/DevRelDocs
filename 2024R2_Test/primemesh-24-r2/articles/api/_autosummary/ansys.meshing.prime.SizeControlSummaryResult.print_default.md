@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SizeControlSummaryResult.print_default
 
-<a id="ansys.meshing.prime.SizeControlSummaryResult.print_default"></a>
+
 
 #### *static* SizeControlSummaryResult.print_default()
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SetScopeResults.print_default
 
-<a id="ansys.meshing.prime.SetScopeResults.print_default"></a>
+
 
 #### *static* SetScopeResults.print_default()
 

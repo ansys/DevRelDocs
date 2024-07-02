@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # FixInvalidNormalNodeParams
 
-<a id="ansys.meshing.prime.FixInvalidNormalNodeParams"></a>
+
 
 ### *class* ansys.meshing.prime.FixInvalidNormalNodeParams(model=None, nugget_size=None, nugget_mesh_size=None, label=None, json_data=None, \*\*kwargs)
 
@@ -46,4 +44,4 @@ Parameters to fix invalid average face normal at nodes by creating a nugget.
 | [`FixInvalidNormalNodeParams.label`](ansys.meshing.prime.FixInvalidNormalNodeParams.label.md#ansys.meshing.prime.FixInvalidNormalNodeParams.label)                                  | Label to set on new face zonelets created.                                    |
 | [`FixInvalidNormalNodeParams.nugget_mesh_size`](ansys.meshing.prime.FixInvalidNormalNodeParams.nugget_mesh_size.md#ansys.meshing.prime.FixInvalidNormalNodeParams.nugget_mesh_size) | Relative size used as max size to mesh nugget created at invalid normal node. |
 | [`FixInvalidNormalNodeParams.nugget_size`](ansys.meshing.prime.FixInvalidNormalNodeParams.nugget_size.md#ansys.meshing.prime.FixInvalidNormalNodeParams.nugget_size)                | Relative size used to create nugget at invalid normal node.                   |
-<!-- vale on -->
+

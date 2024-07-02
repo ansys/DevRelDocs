@@ -1,6 +1,6 @@
 # ansys.meshing.prime.examples.download_toy_car_fmd
 
-<a id="ansys.meshing.prime.examples.download_toy_car_fmd"></a>
+
 
 ### ansys.meshing.prime.examples.download_toy_car_fmd(destination=None, force=False)
 

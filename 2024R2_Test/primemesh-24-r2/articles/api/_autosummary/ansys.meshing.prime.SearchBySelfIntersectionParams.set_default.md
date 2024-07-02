@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SearchBySelfIntersectionParams.set_default
 
-<a id="ansys.meshing.prime.SearchBySelfIntersectionParams.set_default"></a>
+
 
 #### *static* SearchBySelfIntersectionParams.set_default()
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.lucid.Mesh.delete_topology
 
-<a id="ansys.meshing.prime.lucid.Mesh.delete_topology"></a>
+
 
 #### Mesh.delete_topology(part_expression='\*', delete_edges=True)
 

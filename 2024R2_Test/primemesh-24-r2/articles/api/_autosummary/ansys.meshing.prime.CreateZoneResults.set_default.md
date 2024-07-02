@@ -1,6 +1,6 @@
 # ansys.meshing.prime.CreateZoneResults.set_default
 
-<a id="ansys.meshing.prime.CreateZoneResults.set_default"></a>
+
 
 #### *static* CreateZoneResults.set_default(error_code=None, zone_id=None, assigned_name=None)
 

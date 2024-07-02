@@ -1,6 +1,6 @@
 # ansys.meshing.prime.FuseParams.check_orientation
 
-<a id="ansys.meshing.prime.FuseParams.check_orientation"></a>
+
 
 #### *property* FuseParams.check_orientation *: [bool](https://docs.python.org/3.11/library/functions.html#bool)*
 

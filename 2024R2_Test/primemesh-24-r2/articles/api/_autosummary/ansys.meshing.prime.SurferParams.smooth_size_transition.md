@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SurferParams.smooth_size_transition
 
-<a id="ansys.meshing.prime.SurferParams.smooth_size_transition"></a>
+
 
 #### *property* SurferParams.smooth_size_transition *: [bool](https://docs.python.org/3.11/library/functions.html#bool)*
 

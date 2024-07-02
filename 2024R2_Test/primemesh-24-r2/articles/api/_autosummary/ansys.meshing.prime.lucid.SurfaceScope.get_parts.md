@@ -1,6 +1,6 @@
 # ansys.meshing.prime.lucid.SurfaceScope.get_parts
 
-<a id="ansys.meshing.prime.lucid.SurfaceScope.get_parts"></a>
+
 
 #### SurfaceScope.get_parts(model)
 

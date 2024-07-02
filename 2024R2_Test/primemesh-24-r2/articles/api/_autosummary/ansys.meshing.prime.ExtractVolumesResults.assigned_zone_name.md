@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ExtractVolumesResults.assigned_zone_name
 
-<a id="ansys.meshing.prime.ExtractVolumesResults.assigned_zone_name"></a>
+
 
 #### *property* ExtractVolumesResults.assigned_zone_name *: [str](https://docs.python.org/3.11/library/stdtypes.html#str)*
 

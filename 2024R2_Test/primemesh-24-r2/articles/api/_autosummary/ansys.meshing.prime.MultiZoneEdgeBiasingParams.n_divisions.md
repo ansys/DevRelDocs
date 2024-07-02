@@ -1,6 +1,6 @@
 # ansys.meshing.prime.MultiZoneEdgeBiasingParams.n_divisions
 
-<a id="ansys.meshing.prime.MultiZoneEdgeBiasingParams.n_divisions"></a>
+
 
 #### *property* MultiZoneEdgeBiasingParams.n_divisions *: [int](https://docs.python.org/3.11/library/functions.html#int)*
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.examples.download_toy_car_dsco
 
-<a id="ansys.meshing.prime.examples.download_toy_car_dsco"></a>
+
 
 ### ansys.meshing.prime.examples.download_toy_car_dsco(destination=None, force=False)
 

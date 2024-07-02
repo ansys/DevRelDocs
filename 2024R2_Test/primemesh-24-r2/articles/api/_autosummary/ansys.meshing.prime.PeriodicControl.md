@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # PeriodicControl
 
-<a id="ansys.meshing.prime.PeriodicControl"></a>
+
 
 ### *class* ansys.meshing.prime.PeriodicControl(model, id, object_id, name)
 
@@ -42,4 +40,4 @@ A periodic control is specified by the scope (source surfaces) and the transform
 |----------------------------------------------------------------------------------------------------------------|----------------------------------|
 | [`PeriodicControl.id`](ansys.meshing.prime.PeriodicControl.id.md#ansys.meshing.prime.PeriodicControl.id)       | Get the id of PeriodicControl.   |
 | [`PeriodicControl.name`](ansys.meshing.prime.PeriodicControl.name.md#ansys.meshing.prime.PeriodicControl.name) | Get the name of PeriodicControl. |
-<!-- vale on -->
+

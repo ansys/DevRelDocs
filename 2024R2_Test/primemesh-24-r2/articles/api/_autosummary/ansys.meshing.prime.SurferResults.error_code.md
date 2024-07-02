@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SurferResults.error_code
 
-<a id="ansys.meshing.prime.SurferResults.error_code"></a>
+
 
 #### *property* SurferResults.error_code *: [ErrorCode](ansys.meshing.prime.ErrorCode.md#ansys.meshing.prime.ErrorCode)*
 

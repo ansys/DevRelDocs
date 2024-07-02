@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # FileReadParams
 
-<a id="ansys.meshing.prime.FileReadParams"></a>
+
 
 ### *class* ansys.meshing.prime.FileReadParams(model=None, append=None, json_data=None, \*\*kwargs)
 
@@ -38,4 +36,4 @@ Parameters to read file.
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
 | [`FileReadParams.append`](ansys.meshing.prime.FileReadParams.append.md#ansys.meshing.prime.FileReadParams.append)   | Option to append imported mesh to existing mesh instead of resetting model to imported mesh.   |
-<!-- vale on -->
+

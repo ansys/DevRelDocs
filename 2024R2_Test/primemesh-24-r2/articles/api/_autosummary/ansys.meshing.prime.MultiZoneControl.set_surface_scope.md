@@ -1,6 +1,6 @@
 # ansys.meshing.prime.MultiZoneControl.set_surface_scope
 
-<a id="ansys.meshing.prime.MultiZoneControl.set_surface_scope"></a>
+
 
 #### MultiZoneControl.set_surface_scope(scope_info)
 

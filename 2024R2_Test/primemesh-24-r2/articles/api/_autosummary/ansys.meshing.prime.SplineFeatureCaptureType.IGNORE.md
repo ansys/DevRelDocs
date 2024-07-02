@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SplineFeatureCaptureType.IGNORE
 
-<a id="ansys.meshing.prime.SplineFeatureCaptureType.IGNORE"></a>
+
 
 #### SplineFeatureCaptureType.IGNORE *= 0*
 

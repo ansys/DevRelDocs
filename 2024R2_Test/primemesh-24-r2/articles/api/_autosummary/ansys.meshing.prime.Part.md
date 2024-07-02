@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # Part
 
-<a id="ansys.meshing.prime.Part"></a>
+
 
 ### *class* ansys.meshing.prime.Part(model, id, object_id, name)
 
@@ -102,4 +100,4 @@ The mesh generated on topoentities will be projected on geometry representation.
 | [`Part.name`](ansys.meshing.prime.Part.name.md#ansys.meshing.prime.Part.name)                   | Get the name of Part.                                                                 |
 | [`Part.print_id`](ansys.meshing.prime.Part.print_id.md#ansys.meshing.prime.Part.print_id)       | Whether IDs of TopoEntities or zonelets are set to print along with the part summary. |
 | [`Part.print_mesh`](ansys.meshing.prime.Part.print_mesh.md#ansys.meshing.prime.Part.print_mesh) | Whether the mesh summary is set to print along with the part summary.                 |
-<!-- vale on -->
+

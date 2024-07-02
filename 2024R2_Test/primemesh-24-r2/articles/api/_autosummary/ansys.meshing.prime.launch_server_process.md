@@ -1,6 +1,6 @@
 # ansys.meshing.prime.launch_server_process
 
-<a id="ansys.meshing.prime.launch_server_process"></a>
+
 
 ### ansys.meshing.prime.launch_server_process(prime_root=None, ip='127.0.0.1', port=50055, n_procs=None, \*\*kw)
 

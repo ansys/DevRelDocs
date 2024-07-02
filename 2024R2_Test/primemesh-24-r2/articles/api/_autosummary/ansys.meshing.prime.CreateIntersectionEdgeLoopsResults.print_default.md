@@ -1,6 +1,6 @@
 # ansys.meshing.prime.CreateIntersectionEdgeLoopsResults.print_default
 
-<a id="ansys.meshing.prime.CreateIntersectionEdgeLoopsResults.print_default"></a>
+
 
 #### *static* CreateIntersectionEdgeLoopsResults.print_default()
 

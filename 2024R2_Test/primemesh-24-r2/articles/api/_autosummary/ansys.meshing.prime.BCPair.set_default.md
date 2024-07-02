@@ -1,6 +1,6 @@
 # ansys.meshing.prime.BCPair.set_default
 
-<a id="ansys.meshing.prime.BCPair.set_default"></a>
+
 
 #### *static* BCPair.set_default(source_zonelet=None, target_zonelet=None, type=None)
 

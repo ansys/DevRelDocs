@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Wrapper.close_gaps
 
-<a id="ansys.meshing.prime.Wrapper.close_gaps"></a>
+
 
 #### Wrapper.close_gaps(scope, params)
 

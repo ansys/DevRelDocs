@@ -1,6 +1,6 @@
 # ansys.meshing.prime.AutoNodeMoveParams.restrict_boundary_nodes_along_surface
 
-<a id="ansys.meshing.prime.AutoNodeMoveParams.restrict_boundary_nodes_along_surface"></a>
+
 
 #### *property* AutoNodeMoveParams.restrict_boundary_nodes_along_surface *: [bool](https://docs.python.org/3.11/library/functions.html#bool)*
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.IGAResults.print_default
 
-<a id="ansys.meshing.prime.IGAResults.print_default"></a>
+
 
 #### *static* IGAResults.print_default()
 

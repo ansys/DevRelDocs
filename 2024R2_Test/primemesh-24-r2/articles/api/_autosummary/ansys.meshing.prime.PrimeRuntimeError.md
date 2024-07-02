@@ -1,6 +1,6 @@
 # ansys.meshing.prime.PrimeRuntimeError
 
-<a id="ansys.meshing.prime.PrimeRuntimeError"></a>
+
 
 ### *exception* ansys.meshing.prime.PrimeRuntimeError(message, error_code=None, error_locations=None)
 

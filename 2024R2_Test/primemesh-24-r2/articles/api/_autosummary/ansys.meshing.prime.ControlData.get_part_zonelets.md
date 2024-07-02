@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ControlData.get_part_zonelets
 
-<a id="ansys.meshing.prime.ControlData.get_part_zonelets"></a>
+
 
 #### ControlData.get_part_zonelets(scope)
 

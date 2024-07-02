@@ -1,6 +1,6 @@
 # ansys.meshing.prime.lucid.SurfaceScope.get_face_zonelets
 
-<a id="ansys.meshing.prime.lucid.SurfaceScope.get_face_zonelets"></a>
+
 
 #### SurfaceScope.get_face_zonelets(model, part_id)
 

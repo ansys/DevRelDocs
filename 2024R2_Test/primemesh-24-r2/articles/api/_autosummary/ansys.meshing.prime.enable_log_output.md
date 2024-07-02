@@ -1,6 +1,6 @@
 # ansys.meshing.prime.enable_log_output
 
-<a id="ansys.meshing.prime.enable_log_output"></a>
+
 
 ### ansys.meshing.prime.enable_log_output(stream=None)
 

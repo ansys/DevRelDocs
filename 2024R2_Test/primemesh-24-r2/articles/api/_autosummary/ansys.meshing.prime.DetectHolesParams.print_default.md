@@ -1,6 +1,6 @@
 # ansys.meshing.prime.DetectHolesParams.print_default
 
-<a id="ansys.meshing.prime.DetectHolesParams.print_default"></a>
+
 
 #### *static* DetectHolesParams.print_default()
 

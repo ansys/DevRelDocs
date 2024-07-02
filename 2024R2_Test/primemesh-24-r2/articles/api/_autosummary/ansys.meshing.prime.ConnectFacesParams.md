@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # ConnectFacesParams
 
-<a id="ansys.meshing.prime.ConnectFacesParams"></a>
+
 
 ### *class* ansys.meshing.prime.ConnectFacesParams(model=None, constant_mesh_size=None, absolute_tolerance=None, json_data=None, \*\*kwargs)
 
@@ -46,4 +44,4 @@ Parameters for connect faces operation.
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`ConnectFacesParams.absolute_tolerance`](ansys.meshing.prime.ConnectFacesParams.absolute_tolerance.md#ansys.meshing.prime.ConnectFacesParams.absolute_tolerance)   | Absolute distance tolerance between edges or faces for connect faces operation.   |
 | [`ConnectFacesParams.constant_mesh_size`](ansys.meshing.prime.ConnectFacesParams.constant_mesh_size.md#ansys.meshing.prime.ConnectFacesParams.constant_mesh_size)   | Constant size used for surface meshing.                                           |
-<!-- vale on -->
+

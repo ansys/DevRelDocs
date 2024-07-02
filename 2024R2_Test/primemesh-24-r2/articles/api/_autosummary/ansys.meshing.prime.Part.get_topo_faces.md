@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Part.get_topo_faces
 
-<a id="ansys.meshing.prime.Part.get_topo_faces"></a>
+
 
 #### Part.get_topo_faces()
 

@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # SplitParams
 
-<a id="ansys.meshing.prime.SplitParams"></a>
+
 
 ### *class* ansys.meshing.prime.SplitParams(model=None, split_ratio=None, json_data=None, \*\*kwargs)
 
@@ -38,4 +36,4 @@ Parameters to split face elements at longest edge.
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`SplitParams.split_ratio`](ansys.meshing.prime.SplitParams.split_ratio.md#ansys.meshing.prime.SplitParams.split_ratio)   | Minimum ratio of split edge length to original edge length.   |
-<!-- vale on -->
+

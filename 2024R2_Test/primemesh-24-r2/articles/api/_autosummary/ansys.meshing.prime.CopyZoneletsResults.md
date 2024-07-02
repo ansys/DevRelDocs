@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # CopyZoneletsResults
 
-<a id="ansys.meshing.prime.CopyZoneletsResults"></a>
+
 
 ### *class* ansys.meshing.prime.CopyZoneletsResults(model=None, error_code=None, copied_zonelets=None, copied_face_zonelets=None, json_data=None, \*\*kwargs)
 
@@ -46,4 +44,4 @@ Result structure associated with copying zonelets.
 | [`CopyZoneletsResults.copied_face_zonelets`](ansys.meshing.prime.CopyZoneletsResults.copied_face_zonelets.md#ansys.meshing.prime.CopyZoneletsResults.copied_face_zonelets)   | Ids of the copied bounding faces of cell zonelets.   |
 | [`CopyZoneletsResults.copied_zonelets`](ansys.meshing.prime.CopyZoneletsResults.copied_zonelets.md#ansys.meshing.prime.CopyZoneletsResults.copied_zonelets)                  | Ids of the copied zonelets.                          |
 | [`CopyZoneletsResults.error_code`](ansys.meshing.prime.CopyZoneletsResults.error_code.md#ansys.meshing.prime.CopyZoneletsResults.error_code)                                 | Error code associated with failure of operation.     |
-<!-- vale on -->
+

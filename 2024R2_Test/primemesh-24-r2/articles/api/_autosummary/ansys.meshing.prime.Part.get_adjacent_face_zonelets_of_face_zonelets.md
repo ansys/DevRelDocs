@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Part.get_adjacent_face_zonelets_of_face_zonelets
 
-<a id="ansys.meshing.prime.Part.get_adjacent_face_zonelets_of_face_zonelets"></a>
+
 
 #### Part.get_adjacent_face_zonelets_of_face_zonelets(face_zonelets)
 

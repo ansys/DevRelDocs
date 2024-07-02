@@ -1,6 +1,6 @@
 # ansys.meshing.prime.QuadToSplineParams.use_projection_scope
 
-<a id="ansys.meshing.prime.QuadToSplineParams.use_projection_scope"></a>
+
 
 #### *property* QuadToSplineParams.use_projection_scope *: [bool](https://docs.python.org/3.11/library/functions.html#bool)*
 

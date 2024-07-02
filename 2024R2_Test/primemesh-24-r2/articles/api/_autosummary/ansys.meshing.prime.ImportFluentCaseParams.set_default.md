@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ImportFluentCaseParams.set_default
 
-<a id="ansys.meshing.prime.ImportFluentCaseParams.set_default"></a>
+
 
 #### *static* ImportFluentCaseParams.set_default(append=None)
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ScaffolderParams.size_field_type
 
-<a id="ansys.meshing.prime.ScaffolderParams.size_field_type"></a>
+
 
 #### *property* ScaffolderParams.size_field_type *: [int](https://docs.python.org/3.11/library/functions.html#int)*
 

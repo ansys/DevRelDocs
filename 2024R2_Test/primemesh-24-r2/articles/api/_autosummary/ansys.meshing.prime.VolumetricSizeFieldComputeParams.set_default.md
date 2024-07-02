@@ -1,6 +1,6 @@
 # ansys.meshing.prime.VolumetricSizeFieldComputeParams.set_default
 
-<a id="ansys.meshing.prime.VolumetricSizeFieldComputeParams.set_default"></a>
+
 
 #### *static* VolumetricSizeFieldComputeParams.set_default(enable_multi_threading=None, enable_periodicity=None, periodic_params=None)
 

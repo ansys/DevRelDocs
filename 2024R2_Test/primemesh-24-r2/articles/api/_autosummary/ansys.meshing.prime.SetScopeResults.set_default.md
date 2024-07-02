@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SetScopeResults.set_default
 
-<a id="ansys.meshing.prime.SetScopeResults.set_default"></a>
+
 
 #### *static* SetScopeResults.set_default(error_code=None, warning_code=None)
 

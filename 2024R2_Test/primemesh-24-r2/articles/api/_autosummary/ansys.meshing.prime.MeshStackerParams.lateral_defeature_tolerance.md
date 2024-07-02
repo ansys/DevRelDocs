@@ -1,6 +1,6 @@
 # ansys.meshing.prime.MeshStackerParams.lateral_defeature_tolerance
 
-<a id="ansys.meshing.prime.MeshStackerParams.lateral_defeature_tolerance"></a>
+
 
 #### *property* MeshStackerParams.lateral_defeature_tolerance *: [float](https://docs.python.org/3.11/library/functions.html#float)*
 

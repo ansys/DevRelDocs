@@ -1,6 +1,6 @@
 # ansys.meshing.prime.CellZoneletType.SOLID
 
-<a id="ansys.meshing.prime.CellZoneletType.SOLID"></a>
+
 
 #### CellZoneletType.SOLID *= 17*
 

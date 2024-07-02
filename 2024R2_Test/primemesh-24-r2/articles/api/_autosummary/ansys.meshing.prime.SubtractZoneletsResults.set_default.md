@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SubtractZoneletsResults.set_default
 
-<a id="ansys.meshing.prime.SubtractZoneletsResults.set_default"></a>
+
 
 #### *static* SubtractZoneletsResults.set_default(processing_time=None, error_code=None)
 

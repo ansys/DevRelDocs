@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # DeleteTopoEntitiesResults
 
-<a id="ansys.meshing.prime.DeleteTopoEntitiesResults"></a>
+
 
 ### *class* ansys.meshing.prime.DeleteTopoEntitiesResults(model=None, error_code=None, json_data=None, \*\*kwargs)
 
@@ -38,4 +36,4 @@ Results associated with delete topoentities.
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------|
 | [`DeleteTopoEntitiesResults.error_code`](ansys.meshing.prime.DeleteTopoEntitiesResults.error_code.md#ansys.meshing.prime.DeleteTopoEntitiesResults.error_code)   | Error code associated with delete topoentities.   |
-<!-- vale on -->
+

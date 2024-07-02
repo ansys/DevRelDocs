@@ -1,6 +1,6 @@
 # ansys.meshing.prime.VolumeQualitySummaryParams.set_default
 
-<a id="ansys.meshing.prime.VolumeQualitySummaryParams.set_default"></a>
+
 
 #### *static* VolumeQualitySummaryParams.set_default(cell_quality_measures=None, scope=None, quality_limit=None)
 

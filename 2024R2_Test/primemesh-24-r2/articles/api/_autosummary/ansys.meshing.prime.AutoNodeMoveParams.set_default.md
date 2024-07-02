@@ -1,6 +1,6 @@
 # ansys.meshing.prime.AutoNodeMoveParams.set_default
 
-<a id="ansys.meshing.prime.AutoNodeMoveParams.set_default"></a>
+
 
 #### *static* AutoNodeMoveParams.set_default(quality_measure=None, target_quality=None, dihedral_angle=None, n_iterations_per_node=None, restrict_boundary_nodes_along_surface=None, n_attempts=None)
 

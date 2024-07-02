@@ -1,6 +1,6 @@
 # ansys.meshing.prime.WrapResult.print_default
 
-<a id="ansys.meshing.prime.WrapResult.print_default"></a>
+
 
 #### *static* WrapResult.print_default()
 

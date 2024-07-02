@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SurfaceFeatureType.ZONEBOUNDARY
 
-<a id="ansys.meshing.prime.SurfaceFeatureType.ZONEBOUNDARY"></a>
+
 
 #### SurfaceFeatureType.ZONEBOUNDARY *= 1*
 

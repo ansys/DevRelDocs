@@ -1,6 +1,6 @@
 # ansys.meshing.prime.WrapperCloseGapsParams.create_new_part
 
-<a id="ansys.meshing.prime.WrapperCloseGapsParams.create_new_part"></a>
+
 
 #### *property* WrapperCloseGapsParams.create_new_part *: [bool](https://docs.python.org/3.11/library/functions.html#bool)*
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.IntersectionMask.FACEFACEANDEDGEEDGE
 
-<a id="ansys.meshing.prime.IntersectionMask.FACEFACEANDEDGEEDGE"></a>
+
 
 #### IntersectionMask.FACEFACEANDEDGEEDGE *= 3*
 

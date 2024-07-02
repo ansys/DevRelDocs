@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ContactPreventionParams.set_default
 
-<a id="ansys.meshing.prime.ContactPreventionParams.set_default"></a>
+
 
 #### *static* ContactPreventionParams.set_default(source_scope=None, target_scope=None, size=None)
 

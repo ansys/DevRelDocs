@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SubtractZoneletsParams.set_default
 
-<a id="ansys.meshing.prime.SubtractZoneletsParams.set_default"></a>
+
 
 #### *static* SubtractZoneletsParams.set_default(retain_cutter=None, extract_edges=None, trace_edges=None)
 

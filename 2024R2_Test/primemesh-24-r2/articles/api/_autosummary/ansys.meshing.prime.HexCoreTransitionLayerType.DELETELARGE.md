@@ -1,6 +1,6 @@
 # ansys.meshing.prime.HexCoreTransitionLayerType.DELETELARGE
 
-<a id="ansys.meshing.prime.HexCoreTransitionLayerType.DELETELARGE"></a>
+
 
 #### HexCoreTransitionLayerType.DELETELARGE *= 2*
 

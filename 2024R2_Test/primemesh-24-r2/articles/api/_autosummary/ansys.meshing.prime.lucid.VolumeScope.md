@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # VolumeScope
 
-<a id="ansys.meshing.prime.lucid.VolumeScope"></a>
+
 
 ### *class* ansys.meshing.prime.lucid.VolumeScope(part_expression='\*', entity_expression='\*', scope_evaluation_type=ScopeEvaluationType.ZONES)
 
@@ -18,4 +16,4 @@ a scope for operation on volumes.
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
 | [`VolumeScope.get_scope_definition`](ansys.meshing.prime.lucid.VolumeScope.get_scope_definition.md#ansys.meshing.prime.lucid.VolumeScope.get_scope_definition)(model)   | Get the scope definition of the scope.   |
-<!-- vale on -->
+

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.MorphBCParams.set_default
 
-<a id="ansys.meshing.prime.MorphBCParams.set_default"></a>
+
 
 #### *static* MorphBCParams.set_default(morph_region_method=None, morphable_layers=None, morph_region_box_extension=None)
 

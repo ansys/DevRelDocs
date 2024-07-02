@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ConnectFacesParams.set_default
 
-<a id="ansys.meshing.prime.ConnectFacesParams.set_default"></a>
+
 
 #### *static* ConnectFacesParams.set_default(constant_mesh_size=None, absolute_tolerance=None)
 

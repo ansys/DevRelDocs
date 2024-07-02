@@ -1,6 +1,6 @@
 # ansys.meshing.prime.CopyZoneletsParams.copy_labels
 
-<a id="ansys.meshing.prime.CopyZoneletsParams.copy_labels"></a>
+
 
 #### *property* CopyZoneletsParams.copy_labels *: [bool](https://docs.python.org/3.11/library/functions.html#bool)*
 

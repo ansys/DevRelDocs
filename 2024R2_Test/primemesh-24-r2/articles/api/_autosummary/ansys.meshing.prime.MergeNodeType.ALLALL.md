@@ -1,6 +1,6 @@
 # ansys.meshing.prime.MergeNodeType.ALLALL
 
-<a id="ansys.meshing.prime.MergeNodeType.ALLALL"></a>
+
 
 #### MergeNodeType.ALLALL *= 0*
 

@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # ansys.meshing.prime
 
 | Name | Description |
@@ -347,4 +345,4 @@
 |-------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
 | [`PrimeRuntimeError`](ansys.meshing.prime.PrimeRuntimeError.md#ansys.meshing.prime.PrimeRuntimeError)(message[, error_code, ...])   | Provides runtime errors for PyPrimeMesh.      |
 | [`PrimeRuntimeWarning`](ansys.meshing.prime.PrimeRuntimeWarning.md#ansys.meshing.prime.PrimeRuntimeWarning)(message)                | Provides the runtime warning for PyPrimeMesh. |
-<!-- vale on -->
+

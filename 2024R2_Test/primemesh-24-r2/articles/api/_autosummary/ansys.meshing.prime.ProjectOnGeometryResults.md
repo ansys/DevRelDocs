@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # ProjectOnGeometryResults
 
-<a id="ansys.meshing.prime.ProjectOnGeometryResults"></a>
+
 
 ### *class* ansys.meshing.prime.ProjectOnGeometryResults(model=None, success=None, error_code=None, warning_codes=None, json_data=None, \*\*kwargs)
 
@@ -52,4 +50,4 @@ Results associated with projection of topofaces nodes on its geometry.
 | [`ProjectOnGeometryResults.error_code`](ansys.meshing.prime.ProjectOnGeometryResults.error_code.md#ansys.meshing.prime.ProjectOnGeometryResults.error_code)          | Error code associated with failure of operation.   |
 | [`ProjectOnGeometryResults.success`](ansys.meshing.prime.ProjectOnGeometryResults.success.md#ansys.meshing.prime.ProjectOnGeometryResults.success)                   | Defines the operation was successful or not.       |
 | [`ProjectOnGeometryResults.warning_codes`](ansys.meshing.prime.ProjectOnGeometryResults.warning_codes.md#ansys.meshing.prime.ProjectOnGeometryResults.warning_codes) | Warning code associated with operation.            |
-<!-- vale on -->
+

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ProximitySizingParams.set_default
 
-<a id="ansys.meshing.prime.ProximitySizingParams.set_default"></a>
+
 
 #### *static* ProximitySizingParams.set_default(min=None, max=None, growth_rate=None, elements_per_gap=None, ignore_self_proximity=None, ignore_orientation=None)
 

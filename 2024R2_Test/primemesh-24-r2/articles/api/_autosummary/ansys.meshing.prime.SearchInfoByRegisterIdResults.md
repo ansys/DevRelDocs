@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # SearchInfoByRegisterIdResults
 
-<a id="ansys.meshing.prime.SearchInfoByRegisterIdResults"></a>
+
 
 ### *class* ansys.meshing.prime.SearchInfoByRegisterIdResults(model=None, error_code=None, n_found=None, locations_found=None, face_zonelets_found=None, json_data=None, \*\*kwargs)
 
@@ -50,4 +48,4 @@ Result structure containing information on registered face elements.
 | [`SearchInfoByRegisterIdResults.face_zonelets_found`](ansys.meshing.prime.SearchInfoByRegisterIdResults.face_zonelets_found.md#ansys.meshing.prime.SearchInfoByRegisterIdResults.face_zonelets_found) | Ids of the face zonelets containing atleast one registered face element.      |
 | [`SearchInfoByRegisterIdResults.locations_found`](ansys.meshing.prime.SearchInfoByRegisterIdResults.locations_found.md#ansys.meshing.prime.SearchInfoByRegisterIdResults.locations_found)             | Locations of each cluster of registered face elements.                        |
 | [`SearchInfoByRegisterIdResults.n_found`](ansys.meshing.prime.SearchInfoByRegisterIdResults.n_found.md#ansys.meshing.prime.SearchInfoByRegisterIdResults.n_found)                                     | Number of registered face elements.                                           |
-<!-- vale on -->
+

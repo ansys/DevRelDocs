@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # ExtractTopoVolumesParams
 
-<a id="ansys.meshing.prime.ExtractTopoVolumesParams"></a>
+
 
 ### *class* ansys.meshing.prime.ExtractTopoVolumesParams(model=None, zone_name=None, json_data=None, \*\*kwargs)
 
@@ -38,4 +36,4 @@ Parameters to extract flow topovolumes.
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
 | [`ExtractTopoVolumesParams.zone_name`](ansys.meshing.prime.ExtractTopoVolumesParams.zone_name.md#ansys.meshing.prime.ExtractTopoVolumesParams.zone_name)   | Specifies zone name to associate extracted flow topovolumes.   |
-<!-- vale on -->
+

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.MultiZoneSweepMeshParams.source_and_target_scope
 
-<a id="ansys.meshing.prime.MultiZoneSweepMeshParams.source_and_target_scope"></a>
+
 
 #### *property* MultiZoneSweepMeshParams.source_and_target_scope *: [ScopeDefinition](ansys.meshing.prime.ScopeDefinition.md#ansys.meshing.prime.ScopeDefinition)*
 

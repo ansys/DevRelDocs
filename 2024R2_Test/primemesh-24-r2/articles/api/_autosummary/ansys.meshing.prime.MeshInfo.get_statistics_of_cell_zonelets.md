@@ -1,6 +1,6 @@
 # ansys.meshing.prime.MeshInfo.get_statistics_of_cell_zonelets
 
-<a id="ansys.meshing.prime.MeshInfo.get_statistics_of_cell_zonelets"></a>
+
 
 #### MeshInfo.get_statistics_of_cell_zonelets(cell_zonelets, params)
 

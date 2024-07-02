@@ -1,6 +1,6 @@
 # ansys.meshing.prime.WrapperCloseGapsParams.set_default
 
-<a id="ansys.meshing.prime.WrapperCloseGapsParams.set_default"></a>
+
 
 #### *static* WrapperCloseGapsParams.set_default(target=None, gap_size=None, material_point_name=None, suggested_part_name=None, number_of_threads=None, create_new_part=None, resolution_factor=None)
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Model.parts
 
-<a id="ansys.meshing.prime.Model.parts"></a>
+
 
 #### *property* Model.parts *: [List](https://docs.python.org/3.11/library/typing.html#typing.List)[[Part](ansys.meshing.prime.Part.md#ansys.meshing.prime.Part)]*
 

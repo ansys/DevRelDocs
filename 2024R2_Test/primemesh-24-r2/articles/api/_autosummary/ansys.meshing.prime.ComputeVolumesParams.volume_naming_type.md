@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ComputeVolumesParams.volume_naming_type
 
-<a id="ansys.meshing.prime.ComputeVolumesParams.volume_naming_type"></a>
+
 
 #### *property* ComputeVolumesParams.volume_naming_type *: [VolumeNamingType](ansys.meshing.prime.VolumeNamingType.md#ansys.meshing.prime.VolumeNamingType)*
 

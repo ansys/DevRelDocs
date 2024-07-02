@@ -1,6 +1,6 @@
 # ansys.meshing.prime.WrapperImproveQualityParams.print_default
 
-<a id="ansys.meshing.prime.WrapperImproveQualityParams.print_default"></a>
+
 
 #### *static* WrapperImproveQualityParams.print_default()
 

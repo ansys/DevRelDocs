@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # CurvatureSizingParams
 
-<a id="ansys.meshing.prime.CurvatureSizingParams"></a>
+
 
 ### *class* ansys.meshing.prime.CurvatureSizingParams(model=None, min=None, max=None, growth_rate=None, normal_angle=None, use_cad_curvature=None, json_data=None, \*\*kwargs)
 
@@ -58,4 +56,4 @@ Hence, a 90 degree arc will be divided into approximately 18 segments.
 | [`CurvatureSizingParams.min`](ansys.meshing.prime.CurvatureSizingParams.min.md#ansys.meshing.prime.CurvatureSizingParams.min)                                           | Minimum size used for computing edge and face size using curavture size control.     |
 | [`CurvatureSizingParams.normal_angle`](ansys.meshing.prime.CurvatureSizingParams.normal_angle.md#ansys.meshing.prime.CurvatureSizingParams.normal_angle)                | Maximum allowable angle at which one element edge may span.                          |
 | [`CurvatureSizingParams.use_cad_curvature`](ansys.meshing.prime.CurvatureSizingParams.use_cad_curvature.md#ansys.meshing.prime.CurvatureSizingParams.use_cad_curvature) | Option to enable use of CAD curvature for computing edge and face size.              |
-<!-- vale on -->
+

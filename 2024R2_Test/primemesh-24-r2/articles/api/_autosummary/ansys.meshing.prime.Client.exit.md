@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Client.exit
 
-<a id="ansys.meshing.prime.Client.exit"></a>
+
 
 #### Client.exit()
 

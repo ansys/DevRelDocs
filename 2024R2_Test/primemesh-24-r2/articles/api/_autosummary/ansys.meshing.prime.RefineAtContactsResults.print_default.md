@@ -1,6 +1,6 @@
 # ansys.meshing.prime.RefineAtContactsResults.print_default
 
-<a id="ansys.meshing.prime.RefineAtContactsResults.print_default"></a>
+
 
 #### *static* RefineAtContactsResults.print_default()
 

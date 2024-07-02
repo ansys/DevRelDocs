@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Part.get_cell_zonelets
 
-<a id="ansys.meshing.prime.Part.get_cell_zonelets"></a>
+
 
 #### Part.get_cell_zonelets()
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Model.delete_zone
 
-<a id="ansys.meshing.prime.Model.delete_zone"></a>
+
 
 #### Model.delete_zone(zone_id)
 

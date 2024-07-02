@@ -1,6 +1,6 @@
 # ansys.meshing.prime.MergeBoundaryNodesParams.print_default
 
-<a id="ansys.meshing.prime.MergeBoundaryNodesParams.print_default"></a>
+
 
 #### *static* MergeBoundaryNodesParams.print_default()
 

@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # AddLabelResults
 
-<a id="ansys.meshing.prime.AddLabelResults"></a>
+
 
 ### *class* ansys.meshing.prime.AddLabelResults(model=None, error_code=None, json_data=None, \*\*kwargs)
 
@@ -38,4 +36,4 @@ Results associated with the add label operation.
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|
 | [`AddLabelResults.error_code`](ansys.meshing.prime.AddLabelResults.error_code.md#ansys.meshing.prime.AddLabelResults.error_code)   | Error code associated with the add label operation.   |
-<!-- vale on -->
+

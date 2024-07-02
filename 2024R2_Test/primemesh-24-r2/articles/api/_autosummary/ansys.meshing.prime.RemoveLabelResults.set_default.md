@@ -1,6 +1,6 @@
 # ansys.meshing.prime.RemoveLabelResults.set_default
 
-<a id="ansys.meshing.prime.RemoveLabelResults.set_default"></a>
+
 
 #### *static* RemoveLabelResults.set_default(error_code=None)
 

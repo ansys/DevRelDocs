@@ -1,6 +1,6 @@
 # ansys.meshing.prime.DetectNonCircularHolesParams.set_default
 
-<a id="ansys.meshing.prime.DetectNonCircularHolesParams.set_default"></a>
+
 
 #### *static* DetectNonCircularHolesParams.set_default(allow_curved_topo_faces=None, max_hole_length=None, min_hole_length=None, merge_edge_allow_self_close=None)
 

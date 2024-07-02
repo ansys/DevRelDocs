@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SearchBySpikeResults.print_default
 
-<a id="ansys.meshing.prime.SearchBySpikeResults.print_default"></a>
+
 
 #### *static* SearchBySpikeResults.print_default()
 

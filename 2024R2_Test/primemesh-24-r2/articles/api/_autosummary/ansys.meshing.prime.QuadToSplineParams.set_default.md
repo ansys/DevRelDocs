@@ -1,6 +1,6 @@
 # ansys.meshing.prime.QuadToSplineParams.set_default
 
-<a id="ansys.meshing.prime.QuadToSplineParams.set_default"></a>
+
 
 #### *static* QuadToSplineParams.set_default(feature_capture_type=None, feature_angle=None, corner_angle=None, shell_thickness=None, solid_shell=None, separate_by_zone=None, zone_name_shell_thickness_pairs=None, project_on_geometry=None, use_projection_scope=None, projection_scope=None)
 

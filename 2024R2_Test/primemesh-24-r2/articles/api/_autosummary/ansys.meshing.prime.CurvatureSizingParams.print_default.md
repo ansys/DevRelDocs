@@ -1,6 +1,6 @@
 # ansys.meshing.prime.CurvatureSizingParams.print_default
 
-<a id="ansys.meshing.prime.CurvatureSizingParams.print_default"></a>
+
 
 #### *static* CurvatureSizingParams.print_default()
 

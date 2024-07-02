@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # QuadToSplineParams
 
-<a id="ansys.meshing.prime.QuadToSplineParams"></a>
+
 
 ### *class* ansys.meshing.prime.QuadToSplineParams(model=None, feature_capture_type=None, feature_angle=None, corner_angle=None, shell_thickness=None, solid_shell=None, separate_by_zone=None, zone_name_shell_thickness_pairs=None, project_on_geometry=None, use_projection_scope=None, projection_scope=None, json_data=None, \*\*kwargs)
 
@@ -92,4 +90,4 @@ Parameters to control conversion of quadrilateral mesh to spline.
 | [`QuadToSplineParams.solid_shell`](ansys.meshing.prime.QuadToSplineParams.solid_shell.md#ansys.meshing.prime.QuadToSplineParams.solid_shell)                                                             | Solid shell option.                           |
 | [`QuadToSplineParams.use_projection_scope`](ansys.meshing.prime.QuadToSplineParams.use_projection_scope.md#ansys.meshing.prime.QuadToSplineParams.use_projection_scope)                                  | Option to use projection scope.               |
 | [`QuadToSplineParams.zone_name_shell_thickness_pairs`](ansys.meshing.prime.QuadToSplineParams.zone_name_shell_thickness_pairs.md#ansys.meshing.prime.QuadToSplineParams.zone_name_shell_thickness_pairs) | Zone name and thickness pair list.            |
-<!-- vale on -->
+

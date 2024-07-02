@@ -1,6 +1,6 @@
 # ansys.meshing.prime.FaceConnectivityResults.set_default
 
-<a id="ansys.meshing.prime.FaceConnectivityResults.set_default"></a>
+
 
 #### *static* FaceConnectivityResults.set_default(error_code=None, face_zonelet_ids=None, topo_face_ids=None, mesh_face_ids=None, face_zone_ids=None, face_zone_names=None, num_nodes_per_face_zonelet=None, node_coords=None, num_face_list_per_face_zonelet=None, face_list=None)
 

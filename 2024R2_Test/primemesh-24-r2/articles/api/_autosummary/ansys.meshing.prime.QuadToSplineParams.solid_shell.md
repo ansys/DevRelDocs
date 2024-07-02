@@ -1,6 +1,6 @@
 # ansys.meshing.prime.QuadToSplineParams.solid_shell
 
-<a id="ansys.meshing.prime.QuadToSplineParams.solid_shell"></a>
+
 
 #### *property* QuadToSplineParams.solid_shell *: [bool](https://docs.python.org/3.11/library/functions.html#bool)*
 

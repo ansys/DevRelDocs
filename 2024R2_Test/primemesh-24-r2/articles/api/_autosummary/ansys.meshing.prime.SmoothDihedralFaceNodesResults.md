@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # SmoothDihedralFaceNodesResults
 
-<a id="ansys.meshing.prime.SmoothDihedralFaceNodesResults"></a>
+
 
 ### *class* ansys.meshing.prime.SmoothDihedralFaceNodesResults(model=None, n_nodes_smoothed=None, error_code=None, json_data=None, \*\*kwargs)
 
@@ -42,4 +40,4 @@ Results structure associated with smooth dihedral face nodes.
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|
 | [`SmoothDihedralFaceNodesResults.error_code`](ansys.meshing.prime.SmoothDihedralFaceNodesResults.error_code.md#ansys.meshing.prime.SmoothDihedralFaceNodesResults.error_code)                   | Error Code associated with creating offset surface.   |
 | [`SmoothDihedralFaceNodesResults.n_nodes_smoothed`](ansys.meshing.prime.SmoothDihedralFaceNodesResults.n_nodes_smoothed.md#ansys.meshing.prime.SmoothDihedralFaceNodesResults.n_nodes_smoothed) | Number of dihedral face nodes smoothed.               |
-<!-- vale on -->
+

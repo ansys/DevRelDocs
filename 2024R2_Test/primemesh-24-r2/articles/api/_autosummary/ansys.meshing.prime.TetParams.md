@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # TetParams
 
-<a id="ansys.meshing.prime.TetParams"></a>
+
 
 ### *class* ansys.meshing.prime.TetParams(model=None, quadratic=None, json_data=None, \*\*kwargs)
 
@@ -38,4 +36,4 @@ Parameters to control tetrahedral mesh generation.
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
 | [`TetParams.quadratic`](ansys.meshing.prime.TetParams.quadratic.md#ansys.meshing.prime.TetParams.quadratic)   | Option to generate quadratic tetrahedral mesh.   |
-<!-- vale on -->
+

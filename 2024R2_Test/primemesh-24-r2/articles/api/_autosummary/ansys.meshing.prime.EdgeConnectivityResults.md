@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # EdgeConnectivityResults
 
-<a id="ansys.meshing.prime.EdgeConnectivityResults"></a>
+
 
 ### *class* ansys.meshing.prime.EdgeConnectivityResults(model=None, error_code=None, edge_zonelet_ids=None, topo_edge_ids=None, mesh_edge_ids=None, topo_edge_types=None, num_nodes_per_edge_zonelet=None, node_coords=None, num_edge_list_per_edge_zonelet=None, edge_list=None, num_edges_per_edge_zonelet=None, json_data=None, \*\*kwargs)
 
@@ -74,4 +72,4 @@ Result of the edge connectivity information.
 | [`EdgeConnectivityResults.num_nodes_per_edge_zonelet`](ansys.meshing.prime.EdgeConnectivityResults.num_nodes_per_edge_zonelet.md#ansys.meshing.prime.EdgeConnectivityResults.num_nodes_per_edge_zonelet)             | Number of nodes per edge zonelet.                                           |
 | [`EdgeConnectivityResults.topo_edge_ids`](ansys.meshing.prime.EdgeConnectivityResults.topo_edge_ids.md#ansys.meshing.prime.EdgeConnectivityResults.topo_edge_ids)                                                    | TopoEdge ids corresponding to each edge zonelet id for topology based mesh. |
 | [`EdgeConnectivityResults.topo_edge_types`](ansys.meshing.prime.EdgeConnectivityResults.topo_edge_types.md#ansys.meshing.prime.EdgeConnectivityResults.topo_edge_types)                                              | TopoEdge type corresponding to each topoedge.                               |
-<!-- vale on -->
+

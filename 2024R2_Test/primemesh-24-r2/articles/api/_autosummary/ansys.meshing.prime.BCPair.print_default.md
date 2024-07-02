@@ -1,6 +1,6 @@
 # ansys.meshing.prime.BCPair.print_default
 
-<a id="ansys.meshing.prime.BCPair.print_default"></a>
+
 
 #### *static* BCPair.print_default()
 

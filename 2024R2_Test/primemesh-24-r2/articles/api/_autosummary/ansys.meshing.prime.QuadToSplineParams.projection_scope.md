@@ -1,6 +1,6 @@
 # ansys.meshing.prime.QuadToSplineParams.projection_scope
 
-<a id="ansys.meshing.prime.QuadToSplineParams.projection_scope"></a>
+
 
 #### *property* QuadToSplineParams.projection_scope *: [ScopeDefinition](ansys.meshing.prime.ScopeDefinition.md#ansys.meshing.prime.ScopeDefinition)*
 

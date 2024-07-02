@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ImportMapdlCdbResults.set_default
 
-<a id="ansys.meshing.prime.ImportMapdlCdbResults.set_default"></a>
+
 
 #### *static* ImportMapdlCdbResults.set_default(error_code=None)
 

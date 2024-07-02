@@ -1,6 +1,6 @@
 # ansys.meshing.prime.CheckTopologyParams.set_default
 
-<a id="ansys.meshing.prime.CheckTopologyParams.set_default"></a>
+
 
 #### *static* CheckTopologyParams.set_default(topo_search_field_mask=None)
 

@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # ExportBoundaryFittedSplineParams
 
-<a id="ansys.meshing.prime.ExportBoundaryFittedSplineParams"></a>
+
 
 ### *class* ansys.meshing.prime.ExportBoundaryFittedSplineParams(model=None, id_offset=None, id_start=None, json_data=None, \*\*kwargs)
 
@@ -42,4 +40,4 @@ Parameters for exporting boundary fitted splines.
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
 | [`ExportBoundaryFittedSplineParams.id_offset`](ansys.meshing.prime.ExportBoundaryFittedSplineParams.id_offset.md#ansys.meshing.prime.ExportBoundaryFittedSplineParams.id_offset)   | Offset value for IGA entity ids between parts.   |
 | [`ExportBoundaryFittedSplineParams.id_start`](ansys.meshing.prime.ExportBoundaryFittedSplineParams.id_start.md#ansys.meshing.prime.ExportBoundaryFittedSplineParams.id_start)      | Start ids for IGA entities.                      |
-<!-- vale on -->
+

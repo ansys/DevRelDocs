@@ -1,6 +1,6 @@
 # ansys.meshing.prime.PrismControl.set_volume_scope
 
-<a id="ansys.meshing.prime.PrismControl.set_volume_scope"></a>
+
 
 #### PrismControl.set_volume_scope(entities)
 

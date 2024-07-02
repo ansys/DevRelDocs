@@ -1,6 +1,6 @@
 # ansys.meshing.prime.examples.download_test_examples
 
-<a id="ansys.meshing.prime.examples.download_test_examples"></a>
+
 
 ### ansys.meshing.prime.examples.download_test_examples(destination=None, force=False)
 

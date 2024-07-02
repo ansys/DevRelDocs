@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # WriteSizeFieldParams
 
-<a id="ansys.meshing.prime.WriteSizeFieldParams"></a>
+
 
 ### *class* ansys.meshing.prime.WriteSizeFieldParams(model=None, write_only_active_size_fields=None, json_data=None, \*\*kwargs)
 
@@ -38,4 +36,4 @@ Parameters used to write size field file.
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
 | [`WriteSizeFieldParams.write_only_active_size_fields`](ansys.meshing.prime.WriteSizeFieldParams.write_only_active_size_fields.md#ansys.meshing.prime.WriteSizeFieldParams.write_only_active_size_fields)   | Option to write only active size fields into the file.   |
-<!-- vale on -->
+

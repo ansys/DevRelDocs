@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SearchBySpikeResults.set_default
 
-<a id="ansys.meshing.prime.SearchBySpikeResults.set_default"></a>
+
 
 #### *static* SearchBySpikeResults.set_default(n_found=None, error_code=None)
 

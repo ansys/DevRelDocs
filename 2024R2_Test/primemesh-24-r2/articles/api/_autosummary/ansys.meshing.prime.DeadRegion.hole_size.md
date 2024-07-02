@@ -1,6 +1,6 @@
 # ansys.meshing.prime.DeadRegion.hole_size
 
-<a id="ansys.meshing.prime.DeadRegion.hole_size"></a>
+
 
 #### *property* DeadRegion.hole_size *: [float](https://docs.python.org/3.11/library/functions.html#float)*
 

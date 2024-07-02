@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ScopeEntity.EDGEZONELETS
 
-<a id="ansys.meshing.prime.ScopeEntity.EDGEZONELETS"></a>
+
 
 #### ScopeEntity.EDGEZONELETS *= 2*
 

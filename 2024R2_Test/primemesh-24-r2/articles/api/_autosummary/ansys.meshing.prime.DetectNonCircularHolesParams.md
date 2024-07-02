@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # DetectNonCircularHolesParams
 
-<a id="ansys.meshing.prime.DetectNonCircularHolesParams"></a>
+
 
 ### *class* ansys.meshing.prime.DetectNonCircularHolesParams(model=None, allow_curved_topo_faces=None, max_hole_length=None, min_hole_length=None, merge_edge_allow_self_close=None, json_data=None, \*\*kwargs)
 
@@ -58,4 +56,4 @@ Parameters for detect non circular holes operation.
 | [`DetectNonCircularHolesParams.max_hole_length`](ansys.meshing.prime.DetectNonCircularHolesParams.max_hole_length.md#ansys.meshing.prime.DetectNonCircularHolesParams.max_hole_length)                                     | Maximum length of holes.                    |
 | [`DetectNonCircularHolesParams.merge_edge_allow_self_close`](ansys.meshing.prime.DetectNonCircularHolesParams.merge_edge_allow_self_close.md#ansys.meshing.prime.DetectNonCircularHolesParams.merge_edge_allow_self_close) | Option for merging self-closing edge loops. |
 | [`DetectNonCircularHolesParams.min_hole_length`](ansys.meshing.prime.DetectNonCircularHolesParams.min_hole_length.md#ansys.meshing.prime.DetectNonCircularHolesParams.min_hole_length)                                     | Minimum length of holes.                    |
-<!-- vale on -->
+

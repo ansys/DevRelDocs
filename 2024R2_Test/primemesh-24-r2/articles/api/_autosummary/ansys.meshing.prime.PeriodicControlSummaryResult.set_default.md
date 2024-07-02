@@ -1,6 +1,6 @@
 # ansys.meshing.prime.PeriodicControlSummaryResult.set_default
 
-<a id="ansys.meshing.prime.PeriodicControlSummaryResult.set_default"></a>
+
 
 #### *static* PeriodicControlSummaryResult.set_default(message=None)
 

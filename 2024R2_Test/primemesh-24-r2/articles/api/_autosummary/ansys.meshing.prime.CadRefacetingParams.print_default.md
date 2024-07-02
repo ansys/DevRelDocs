@@ -1,6 +1,6 @@
 # ansys.meshing.prime.CadRefacetingParams.print_default
 
-<a id="ansys.meshing.prime.CadRefacetingParams.print_default"></a>
+
 
 #### *static* CadRefacetingParams.print_default()
 

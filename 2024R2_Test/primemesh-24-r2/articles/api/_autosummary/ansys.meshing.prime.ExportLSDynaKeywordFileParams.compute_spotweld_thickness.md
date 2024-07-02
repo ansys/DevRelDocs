@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ExportLSDynaKeywordFileParams.compute_spotweld_thickness
 
-<a id="ansys.meshing.prime.ExportLSDynaKeywordFileParams.compute_spotweld_thickness"></a>
+
 
 #### *property* ExportLSDynaKeywordFileParams.compute_spotweld_thickness *: [bool](https://docs.python.org/3.11/library/functions.html#bool)*
 

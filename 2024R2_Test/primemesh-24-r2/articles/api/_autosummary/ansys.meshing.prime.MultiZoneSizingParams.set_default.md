@@ -1,6 +1,6 @@
 # ansys.meshing.prime.MultiZoneSizingParams.set_default
 
-<a id="ansys.meshing.prime.MultiZoneSizingParams.set_default"></a>
+
 
 #### *static* MultiZoneSizingParams.set_default(max_size=None, min_size=None, growth_rate=None, use_volumetric_size_field=None)
 

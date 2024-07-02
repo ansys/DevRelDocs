@@ -1,6 +1,6 @@
 # ansys.meshing.prime.DetectHolesParams.min_hole_length
 
-<a id="ansys.meshing.prime.DetectHolesParams.min_hole_length"></a>
+
 
 #### *property* DetectHolesParams.min_hole_length *: [float](https://docs.python.org/3.11/library/functions.html#float)*
 

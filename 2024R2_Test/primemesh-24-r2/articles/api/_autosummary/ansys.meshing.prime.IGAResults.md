@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # IGAResults
 
-<a id="ansys.meshing.prime.IGAResults"></a>
+
 
 ### *class* ansys.meshing.prime.IGAResults(model=None, error_code=None, warning_code=None, spline_ids=None, json_data=None, \*\*kwargs)
 
@@ -46,4 +44,4 @@ Results of IGA operations.
 | [`IGAResults.error_code`](ansys.meshing.prime.IGAResults.error_code.md#ansys.meshing.prime.IGAResults.error_code)       | Error code if IGA operation is unsuccessful.           |
 | [`IGAResults.spline_ids`](ansys.meshing.prime.IGAResults.spline_ids.md#ansys.meshing.prime.IGAResults.spline_ids)       | Ids of the created spline.                             |
 | [`IGAResults.warning_code`](ansys.meshing.prime.IGAResults.warning_code.md#ansys.meshing.prime.IGAResults.warning_code) | Warning code if IGA operation is partially successful. |
-<!-- vale on -->
+

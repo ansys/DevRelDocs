@@ -1,6 +1,6 @@
 # ansys.meshing.prime.CadRefacetingParams.set_default
 
-<a id="ansys.meshing.prime.CadRefacetingParams.set_default"></a>
+
 
 #### *static* CadRefacetingParams.set_default(cad_faceter=None, faceting_resolution=None, custom_surface_deviation_tolerance=None, custom_normal_angle_tolerance=None, max_edge_size_limit=None, max_edge_size=None)
 

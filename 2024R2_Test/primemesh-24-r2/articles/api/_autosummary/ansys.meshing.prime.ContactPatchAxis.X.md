@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ContactPatchAxis.X
 
-<a id="ansys.meshing.prime.ContactPatchAxis.X"></a>
+
 
 #### ContactPatchAxis.X *= 1*
 

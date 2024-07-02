@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # RefineAtContactsParams
 
-<a id="ansys.meshing.prime.RefineAtContactsParams"></a>
+
 
 ### *class* ansys.meshing.prime.RefineAtContactsParams(model=None, contact_tolerance=None, relative_tolerance=None, refine_max_size=None, project_on_geometry=None, json_data=None, \*\*kwargs)
 
@@ -50,4 +48,4 @@ Parameters to refine face elements in contact.
 | [`RefineAtContactsParams.project_on_geometry`](ansys.meshing.prime.RefineAtContactsParams.project_on_geometry.md#ansys.meshing.prime.RefineAtContactsParams.project_on_geometry) | Project on geometry on remesh.                                   |
 | [`RefineAtContactsParams.refine_max_size`](ansys.meshing.prime.RefineAtContactsParams.refine_max_size.md#ansys.meshing.prime.RefineAtContactsParams.refine_max_size)             | Maximum size used to refine contact face elements.               |
 | [`RefineAtContactsParams.relative_tolerance`](ansys.meshing.prime.RefineAtContactsParams.relative_tolerance.md#ansys.meshing.prime.RefineAtContactsParams.relative_tolerance)    | Option to specify the contact tolerance is relative or absolute. |
-<!-- vale on -->
+

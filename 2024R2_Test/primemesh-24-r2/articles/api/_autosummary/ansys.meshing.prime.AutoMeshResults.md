@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # AutoMeshResults
 
-<a id="ansys.meshing.prime.AutoMeshResults"></a>
+
 
 ### *class* ansys.meshing.prime.AutoMeshResults(model=None, error_code=None, warning_codes=None, error_locations=None, json_data=None, \*\*kwargs)
 
@@ -46,4 +44,4 @@ Results of volume meshing.
 | [`AutoMeshResults.error_code`](ansys.meshing.prime.AutoMeshResults.error_code.md#ansys.meshing.prime.AutoMeshResults.error_code)                | Provides error message when automesh fails.              |
 | [`AutoMeshResults.error_locations`](ansys.meshing.prime.AutoMeshResults.error_locations.md#ansys.meshing.prime.AutoMeshResults.error_locations) | Error location coordinates returned when automesh fails. |
 | [`AutoMeshResults.warning_codes`](ansys.meshing.prime.AutoMeshResults.warning_codes.md#ansys.meshing.prime.AutoMeshResults.warning_codes)       | Warning codes associated with the operation.             |
-<!-- vale on -->
+

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.TopoData.delete_mesh_on_topo_faces
 
-<a id="ansys.meshing.prime.TopoData.delete_mesh_on_topo_faces"></a>
+
 
 #### TopoData.delete_mesh_on_topo_faces(topo_faces, params)
 

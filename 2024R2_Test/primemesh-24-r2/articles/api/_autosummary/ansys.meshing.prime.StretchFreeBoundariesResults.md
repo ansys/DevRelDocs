@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # StretchFreeBoundariesResults
 
-<a id="ansys.meshing.prime.StretchFreeBoundariesResults"></a>
+
 
 ### *class* ansys.meshing.prime.StretchFreeBoundariesResults(model=None, error_code=None, json_data=None, \*\*kwargs)
 
@@ -38,4 +36,4 @@ Results associated with stretch free boundaries operation.
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
 | [`StretchFreeBoundariesResults.error_code`](ansys.meshing.prime.StretchFreeBoundariesResults.error_code.md#ansys.meshing.prime.StretchFreeBoundariesResults.error_code)   | Error code associated with failure of operation.   |
-<!-- vale on -->
+

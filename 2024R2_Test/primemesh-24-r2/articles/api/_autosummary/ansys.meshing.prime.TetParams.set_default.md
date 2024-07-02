@@ -1,6 +1,6 @@
 # ansys.meshing.prime.TetParams.set_default
 
-<a id="ansys.meshing.prime.TetParams.set_default"></a>
+
 
 #### *static* TetParams.set_default(quadratic=None)
 

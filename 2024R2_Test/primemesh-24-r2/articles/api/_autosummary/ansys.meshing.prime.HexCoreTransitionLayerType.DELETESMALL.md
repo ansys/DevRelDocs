@@ -1,6 +1,6 @@
 # ansys.meshing.prime.HexCoreTransitionLayerType.DELETESMALL
 
-<a id="ansys.meshing.prime.HexCoreTransitionLayerType.DELETESMALL"></a>
+
 
 #### HexCoreTransitionLayerType.DELETESMALL *= 1*
 

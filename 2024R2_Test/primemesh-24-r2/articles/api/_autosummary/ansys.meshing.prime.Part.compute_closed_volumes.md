@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Part.compute_closed_volumes
 
-<a id="ansys.meshing.prime.Part.compute_closed_volumes"></a>
+
 
 #### Part.compute_closed_volumes(params)
 

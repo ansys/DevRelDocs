@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Model.delete_parts
 
-<a id="ansys.meshing.prime.Model.delete_parts"></a>
+
 
 #### Model.delete_parts(part_ids)
 

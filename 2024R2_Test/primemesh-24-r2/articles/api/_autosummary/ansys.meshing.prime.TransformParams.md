@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # TransformParams
 
-<a id="ansys.meshing.prime.TransformParams"></a>
+
 
 ### *class* ansys.meshing.prime.TransformParams(model=None, transformation_matrix=None, json_data=None, \*\*kwargs)
 
@@ -38,4 +36,4 @@ Parameters to transform given entities.
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|
 | [`TransformParams.transformation_matrix`](ansys.meshing.prime.TransformParams.transformation_matrix.md#ansys.meshing.prime.TransformParams.transformation_matrix)   | Transformation matrix(4x4) to be used to transform.   |
-<!-- vale on -->
+

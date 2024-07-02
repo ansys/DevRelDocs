@@ -1,6 +1,6 @@
 # ansys.meshing.prime.IntersectParams.collapse_target_skewness
 
-<a id="ansys.meshing.prime.IntersectParams.collapse_target_skewness"></a>
+
 
 #### *property* IntersectParams.collapse_target_skewness *: [float](https://docs.python.org/3.11/library/functions.html#float)*
 

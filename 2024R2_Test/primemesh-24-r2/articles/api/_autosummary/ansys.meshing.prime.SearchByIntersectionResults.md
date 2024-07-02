@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # SearchByIntersectionResults
 
-<a id="ansys.meshing.prime.SearchByIntersectionResults"></a>
+
 
 ### *class* ansys.meshing.prime.SearchByIntersectionResults(model=None, n_found=None, error_code=None, json_data=None, \*\*kwargs)
 
@@ -42,4 +40,4 @@ Results associated with search by face element intersection (face elements inter
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
 | [`SearchByIntersectionResults.error_code`](ansys.meshing.prime.SearchByIntersectionResults.error_code.md#ansys.meshing.prime.SearchByIntersectionResults.error_code)   | Error code associated with search intersection operation.                                      |
 | [`SearchByIntersectionResults.n_found`](ansys.meshing.prime.SearchByIntersectionResults.n_found.md#ansys.meshing.prime.SearchByIntersectionResults.n_found)            | Number of face elements identified by intersection(face elements interfering with each other). |
-<!-- vale on -->
+

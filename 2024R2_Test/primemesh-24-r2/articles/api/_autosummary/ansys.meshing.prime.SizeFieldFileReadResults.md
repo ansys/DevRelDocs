@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # SizeFieldFileReadResults
 
-<a id="ansys.meshing.prime.SizeFieldFileReadResults"></a>
+
 
 ### *class* ansys.meshing.prime.SizeFieldFileReadResults(model=None, error_code=None, size_field_ids=None, json_data=None, \*\*kwargs)
 
@@ -42,4 +40,4 @@ Results of size field file read operation.
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
 | [`SizeFieldFileReadResults.error_code`](ansys.meshing.prime.SizeFieldFileReadResults.error_code.md#ansys.meshing.prime.SizeFieldFileReadResults.error_code)             | Error code if size field file read operation was unsuccessful.   |
 | [`SizeFieldFileReadResults.size_field_ids`](ansys.meshing.prime.SizeFieldFileReadResults.size_field_ids.md#ansys.meshing.prime.SizeFieldFileReadResults.size_field_ids) | Ids of size fields read by read size field operation.            |
-<!-- vale on -->
+

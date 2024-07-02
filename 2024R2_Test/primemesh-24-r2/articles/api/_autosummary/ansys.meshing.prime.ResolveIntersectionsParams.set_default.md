@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ResolveIntersectionsParams.set_default
 
-<a id="ansys.meshing.prime.ResolveIntersectionsParams.set_default"></a>
+
 
 #### *static* ResolveIntersectionsParams.set_default(number_of_threads=None)
 

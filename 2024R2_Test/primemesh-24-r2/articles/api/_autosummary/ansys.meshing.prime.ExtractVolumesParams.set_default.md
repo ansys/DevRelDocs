@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ExtractVolumesParams.set_default
 
-<a id="ansys.meshing.prime.ExtractVolumesParams.set_default"></a>
+
 
 #### *static* ExtractVolumesParams.set_default(create_zone=None, suggested_zone_name=None)
 

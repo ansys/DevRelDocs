@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ScaffolderMergeResults.set_default
 
-<a id="ansys.meshing.prime.ScaffolderMergeResults.set_default"></a>
+
 
 #### *static* ScaffolderMergeResults.set_default(n_merged=None, error_code=None)
 

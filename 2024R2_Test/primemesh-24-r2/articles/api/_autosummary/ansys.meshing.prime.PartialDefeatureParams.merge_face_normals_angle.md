@@ -1,6 +1,6 @@
 # ansys.meshing.prime.PartialDefeatureParams.merge_face_normals_angle
 
-<a id="ansys.meshing.prime.PartialDefeatureParams.merge_face_normals_angle"></a>
+
 
 #### *property* PartialDefeatureParams.merge_face_normals_angle *: [float](https://docs.python.org/3.11/library/functions.html#float)*
 

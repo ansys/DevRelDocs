@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # CadRefacetingParams
 
-<a id="ansys.meshing.prime.CadRefacetingParams"></a>
+
 
 ### *class* ansys.meshing.prime.CadRefacetingParams(model=None, cad_faceter=None, faceting_resolution=None, custom_surface_deviation_tolerance=None, custom_normal_angle_tolerance=None, max_edge_size_limit=None, max_edge_size=None, json_data=None, \*\*kwargs)
 
@@ -58,4 +56,4 @@ Parameters to refacet CAD during import.
 | [`CadRefacetingParams.faceting_resolution`](ansys.meshing.prime.CadRefacetingParams.faceting_resolution.md#ansys.meshing.prime.CadRefacetingParams.faceting_resolution)                                              | Set the faceting resolution.                                         |
 | [`CadRefacetingParams.max_edge_size`](ansys.meshing.prime.CadRefacetingParams.max_edge_size.md#ansys.meshing.prime.CadRefacetingParams.max_edge_size)                                                                | Set maximum edge size of the facets.                                 |
 | [`CadRefacetingParams.max_edge_size_limit`](ansys.meshing.prime.CadRefacetingParams.max_edge_size_limit.md#ansys.meshing.prime.CadRefacetingParams.max_edge_size_limit)                                              | Specify maximum edge size limit for faceting.                        |
-<!-- vale on -->
+

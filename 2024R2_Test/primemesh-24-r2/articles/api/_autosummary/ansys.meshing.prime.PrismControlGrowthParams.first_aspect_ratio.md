@@ -1,6 +1,6 @@
 # ansys.meshing.prime.PrismControlGrowthParams.first_aspect_ratio
 
-<a id="ansys.meshing.prime.PrismControlGrowthParams.first_aspect_ratio"></a>
+
 
 #### *property* PrismControlGrowthParams.first_aspect_ratio *: [float](https://docs.python.org/3.11/library/functions.html#float)*
 

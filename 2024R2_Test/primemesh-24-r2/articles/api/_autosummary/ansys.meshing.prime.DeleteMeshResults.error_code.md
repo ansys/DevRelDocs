@@ -1,6 +1,6 @@
 # ansys.meshing.prime.DeleteMeshResults.error_code
 
-<a id="ansys.meshing.prime.DeleteMeshResults.error_code"></a>
+
 
 #### *property* DeleteMeshResults.error_code *: [ErrorCode](ansys.meshing.prime.ErrorCode.md#ansys.meshing.prime.ErrorCode)*
 

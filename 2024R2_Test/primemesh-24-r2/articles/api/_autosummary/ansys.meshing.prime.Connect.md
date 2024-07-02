@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # Connect
 
-<a id="ansys.meshing.prime.Connect"></a>
+
 
 ### *class* ansys.meshing.prime.Connect(model)
 
@@ -30,4 +28,4 @@ Connect operations support only computational mesh, which is mesh with reasonabl
 | [`Connect.merge_boundary_nodes`](ansys.meshing.prime.Connect.merge_boundary_nodes.md#ansys.meshing.prime.Connect.merge_boundary_nodes)(part_id, ...)          | Merges boundary nodes of source face zonelets with boundary nodes of target face zonelets according to the provided parameters. |
 | [`Connect.stitch_face_zonelets`](ansys.meshing.prime.Connect.stitch_face_zonelets.md#ansys.meshing.prime.Connect.stitch_face_zonelets)(part_id, ...)          | Stitches a set of face zonelets with another set of face zones.                                                                 |
 | [`Connect.subtract_volumes`](ansys.meshing.prime.Connect.subtract_volumes.md#ansys.meshing.prime.Connect.subtract_volumes)(part_id, ...)                      | Subtract cutter volumes from target volumes.                                                                                    |
-<!-- vale on -->
+

@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # WrapParams
 
-<a id="ansys.meshing.prime.WrapParams"></a>
+
 
 ### *class* ansys.meshing.prime.WrapParams(model=None, sizing_method=None, base_size=None, size_control_ids=None, size_field_ids=None, wrap_region=None, number_of_threads=None, imprint_relative_range=None, imprint_iterations=None, json_data=None, \*\*kwargs)
 
@@ -66,4 +64,4 @@ WrapParams defines parameters for wrapping.
 | [`WrapParams.size_field_ids`](ansys.meshing.prime.WrapParams.size_field_ids.md#ansys.meshing.prime.WrapParams.size_field_ids)                         | Used to define size field based octree refinement.       |
 | [`WrapParams.sizing_method`](ansys.meshing.prime.WrapParams.sizing_method.md#ansys.meshing.prime.WrapParams.sizing_method)                            | Used to define sizing method for wrapping.               |
 | [`WrapParams.wrap_region`](ansys.meshing.prime.WrapParams.wrap_region.md#ansys.meshing.prime.WrapParams.wrap_region)                                  | Indicates source type to extract wrapper region.         |
-<!-- vale on -->
+

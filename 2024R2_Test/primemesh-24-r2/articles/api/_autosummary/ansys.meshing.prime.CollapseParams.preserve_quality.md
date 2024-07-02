@@ -1,6 +1,6 @@
 # ansys.meshing.prime.CollapseParams.preserve_quality
 
-<a id="ansys.meshing.prime.CollapseParams.preserve_quality"></a>
+
 
 #### *property* CollapseParams.preserve_quality *: [bool](https://docs.python.org/3.11/library/functions.html#bool)*
 

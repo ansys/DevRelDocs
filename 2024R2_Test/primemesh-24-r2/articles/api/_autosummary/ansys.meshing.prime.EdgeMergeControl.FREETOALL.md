@@ -1,6 +1,6 @@
 # ansys.meshing.prime.EdgeMergeControl.FREETOALL
 
-<a id="ansys.meshing.prime.EdgeMergeControl.FREETOALL"></a>
+
 
 #### EdgeMergeControl.FREETOALL *= 2*
 

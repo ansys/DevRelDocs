@@ -1,6 +1,6 @@
 # ansys.meshing.prime.RefineAtContactsParams.contact_tolerance
 
-<a id="ansys.meshing.prime.RefineAtContactsParams.contact_tolerance"></a>
+
 
 #### *property* RefineAtContactsParams.contact_tolerance *: [float](https://docs.python.org/3.11/library/functions.html#float)*
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.CollapseParams.set_default
 
-<a id="ansys.meshing.prime.CollapseParams.set_default"></a>
+
 
 #### *static* CollapseParams.set_default(feature_type=None, collapse_ratio=None, preserve_quality=None, target_skewness=None)
 

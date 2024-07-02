@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SetNameResults.print_default
 
-<a id="ansys.meshing.prime.SetNameResults.print_default"></a>
+
 
 #### *static* SetNameResults.print_default()
 

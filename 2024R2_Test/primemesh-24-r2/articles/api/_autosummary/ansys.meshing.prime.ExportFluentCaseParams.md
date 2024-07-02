@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # ExportFluentCaseParams
 
-<a id="ansys.meshing.prime.ExportFluentCaseParams"></a>
+
 
 ### *class* ansys.meshing.prime.ExportFluentCaseParams(model=None, cff_format=None, json_data=None, \*\*kwargs)
 
@@ -38,4 +36,4 @@ Parameters to export fluent case file.
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
 | [`ExportFluentCaseParams.cff_format`](ansys.meshing.prime.ExportFluentCaseParams.cff_format.md#ansys.meshing.prime.ExportFluentCaseParams.cff_format)   | Option to specify whether to export Fluent case file in CFF format (.cas.h5) or legacy format (.cas, .cas.gz).   |
-<!-- vale on -->
+

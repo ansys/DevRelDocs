@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Connect.intersect_face_zonelets
 
-<a id="ansys.meshing.prime.Connect.intersect_face_zonelets"></a>
+
 
 #### Connect.intersect_face_zonelets(part_id, face_zonelet_ids, with_face_zonelet_ids, params)
 

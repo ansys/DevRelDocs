@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Part.get_volumes
 
-<a id="ansys.meshing.prime.Part.get_volumes"></a>
+
 
 #### Part.get_volumes()
 

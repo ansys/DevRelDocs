@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SubtractVolumesParams.set_default
 
-<a id="ansys.meshing.prime.SubtractVolumesParams.set_default"></a>
+
 
 #### *static* SubtractVolumesParams.set_default(ignore_face_zonelets=None, check_cutters=None, keep_cutters=None)
 

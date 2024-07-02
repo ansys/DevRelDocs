@@ -1,6 +1,6 @@
 # ansys.meshing.prime.PartCreationType.ASSEMBLY
 
-<a id="ansys.meshing.prime.PartCreationType.ASSEMBLY"></a>
+
 
 #### PartCreationType.ASSEMBLY *= 1*
 

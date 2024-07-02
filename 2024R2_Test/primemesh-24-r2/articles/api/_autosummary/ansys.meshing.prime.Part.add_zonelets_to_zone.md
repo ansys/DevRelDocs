@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Part.add_zonelets_to_zone
 
-<a id="ansys.meshing.prime.Part.add_zonelets_to_zone"></a>
+
 
 #### Part.add_zonelets_to_zone(zone_id, zonelets)
 

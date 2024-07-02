@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # ImportCadResults
 
-<a id="ansys.meshing.prime.ImportCadResults"></a>
+
 
 ### *class* ansys.meshing.prime.ImportCadResults(model=None, error_code=None, cad_parameters=None, json_data=None, \*\*kwargs)
 
@@ -42,4 +40,4 @@ Results associated with the CAD import.
 |---------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
 | [`ImportCadResults.cad_parameters`](ansys.meshing.prime.ImportCadResults.cad_parameters.md#ansys.meshing.prime.ImportCadResults.cad_parameters)   | Returns the parameters associated with CAD.      |
 | [`ImportCadResults.error_code`](ansys.meshing.prime.ImportCadResults.error_code.md#ansys.meshing.prime.ImportCadResults.error_code)               | Error code associated with failure of operation. |
-<!-- vale on -->
+

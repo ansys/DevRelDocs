@@ -1,6 +1,6 @@
 # ansys.meshing.prime.JoinParams.print_default
 
-<a id="ansys.meshing.prime.JoinParams.print_default"></a>
+
 
 #### *static* JoinParams.print_default()
 

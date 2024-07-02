@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # JoinParams
 
-<a id="ansys.meshing.prime.JoinParams"></a>
+
 
 ### *class* ansys.meshing.prime.JoinParams(model=None, tolerance=None, use_absolute_tolerance=None, remesh=None, match_angle=None, overlap_zone_name=None, json_data=None, \*\*kwargs)
 
@@ -54,4 +52,4 @@ Parameters used for join.
 | [`JoinParams.remesh`](ansys.meshing.prime.JoinParams.remesh.md#ansys.meshing.prime.JoinParams.remesh)                                                 | Remesh at overlap surface boundary.                                       |
 | [`JoinParams.tolerance`](ansys.meshing.prime.JoinParams.tolerance.md#ansys.meshing.prime.JoinParams.tolerance)                                        | Overlap tolerance between overlapping zonelets.                           |
 | [`JoinParams.use_absolute_tolerance`](ansys.meshing.prime.JoinParams.use_absolute_tolerance.md#ansys.meshing.prime.JoinParams.use_absolute_tolerance) | Tolerance provided is absolute value.                                     |
-<!-- vale on -->
+

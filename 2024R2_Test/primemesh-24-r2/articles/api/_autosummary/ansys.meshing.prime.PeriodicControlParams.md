@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # PeriodicControlParams
 
-<a id="ansys.meshing.prime.PeriodicControlParams"></a>
+
 
 ### *class* ansys.meshing.prime.PeriodicControlParams(model=None, center=None, axis=None, angle=None, json_data=None, \*\*kwargs)
 
@@ -46,4 +44,4 @@ PeriodicControlParams contains the parameters for periodic surface recovery.  Pa
 | [`PeriodicControlParams.angle`](ansys.meshing.prime.PeriodicControlParams.angle.md#ansys.meshing.prime.PeriodicControlParams.angle)    | Angle in degrees.        |
 | [`PeriodicControlParams.axis`](ansys.meshing.prime.PeriodicControlParams.axis.md#ansys.meshing.prime.PeriodicControlParams.axis)       | Axis vector coordinates. |
 | [`PeriodicControlParams.center`](ansys.meshing.prime.PeriodicControlParams.center.md#ansys.meshing.prime.PeriodicControlParams.center) | Center coordinates.      |
-<!-- vale on -->
+

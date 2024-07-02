@@ -1,6 +1,6 @@
 # ansys.meshing.prime.FileReadResults.set_default
 
-<a id="ansys.meshing.prime.FileReadResults.set_default"></a>
+
 
 #### *static* FileReadResults.set_default(error_code=None)
 

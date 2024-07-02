@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # SurfaceMeshSizeScaling
 
-<a id="ansys.meshing.prime.SurfaceMeshSizeScaling"></a>
+
 
 ### *class* ansys.meshing.prime.SurfaceMeshSizeScaling(model=None, factor=None, size_range_min=None, size_range_max=None, json_data=None, \*\*kwargs)
 
@@ -46,4 +44,4 @@ Settings related to scaling of surface mesh size for hexcore refinement.
 | [`SurfaceMeshSizeScaling.factor`](ansys.meshing.prime.SurfaceMeshSizeScaling.factor.md#ansys.meshing.prime.SurfaceMeshSizeScaling.factor)                         | Value by which size should be multiplied when the size falls within a certain range.   |
 | [`SurfaceMeshSizeScaling.size_range_max`](ansys.meshing.prime.SurfaceMeshSizeScaling.size_range_max.md#ansys.meshing.prime.SurfaceMeshSizeScaling.size_range_max) | Maximum size required to apply scaling.                                                |
 | [`SurfaceMeshSizeScaling.size_range_min`](ansys.meshing.prime.SurfaceMeshSizeScaling.size_range_min.md#ansys.meshing.prime.SurfaceMeshSizeScaling.size_range_min) | Minimum size required to apply scaling.                                                |
-<!-- vale on -->
+

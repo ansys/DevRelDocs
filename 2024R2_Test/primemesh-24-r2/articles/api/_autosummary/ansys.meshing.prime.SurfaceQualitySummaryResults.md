@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # SurfaceQualitySummaryResults
 
-<a id="ansys.meshing.prime.SurfaceQualitySummaryResults"></a>
+
 
 ### *class* ansys.meshing.prime.SurfaceQualitySummaryResults(model=None, error_code=None, quality_results=None, summary=None, json_data=None, \*\*kwargs)
 
@@ -46,4 +44,4 @@ Results of surface quality summary.
 | [`SurfaceQualitySummaryResults.error_code`](ansys.meshing.prime.SurfaceQualitySummaryResults.error_code.md#ansys.meshing.prime.SurfaceQualitySummaryResults.error_code)                | Error code associated with the surface quality summary.                           |
 | [`SurfaceQualitySummaryResults.quality_results`](ansys.meshing.prime.SurfaceQualitySummaryResults.quality_results.md#ansys.meshing.prime.SurfaceQualitySummaryResults.quality_results) | Contains surface quality result per face quality measure specified in parameters. |
 | [`SurfaceQualitySummaryResults.summary`](ansys.meshing.prime.SurfaceQualitySummaryResults.summary.md#ansys.meshing.prime.SurfaceQualitySummaryResults.summary)                         | Surface quality summary text.                                                     |
-<!-- vale on -->
+

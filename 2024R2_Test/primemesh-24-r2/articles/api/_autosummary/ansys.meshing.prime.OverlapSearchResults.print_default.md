@@ -1,6 +1,6 @@
 # ansys.meshing.prime.OverlapSearchResults.print_default
 
-<a id="ansys.meshing.prime.OverlapSearchResults.print_default"></a>
+
 
 #### *static* OverlapSearchResults.print_default()
 

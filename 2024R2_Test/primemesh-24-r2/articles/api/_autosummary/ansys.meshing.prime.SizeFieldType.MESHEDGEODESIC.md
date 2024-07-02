@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SizeFieldType.MESHEDGEODESIC
 
-<a id="ansys.meshing.prime.SizeFieldType.MESHEDGEODESIC"></a>
+
 
 #### SizeFieldType.MESHEDGEODESIC *= 7*
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.JoinSeparateMethod.KEEPBOTH
 
-<a id="ansys.meshing.prime.JoinSeparateMethod.KEEPBOTH"></a>
+
 
 #### JoinSeparateMethod.KEEPBOTH *= 2*
 

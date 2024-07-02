@@ -1,6 +1,6 @@
 # ansys.meshing.prime.FuseParams.angle
 
-<a id="ansys.meshing.prime.FuseParams.angle"></a>
+
 
 #### *property* FuseParams.angle *: [float](https://docs.python.org/3.11/library/functions.html#float)*
 

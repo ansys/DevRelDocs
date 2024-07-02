@@ -1,6 +1,6 @@
 # ansys.meshing.prime.CreateMaterialPointResults.print_default
 
-<a id="ansys.meshing.prime.CreateMaterialPointResults.print_default"></a>
+
 
 #### *static* CreateMaterialPointResults.print_default()
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.examples.download_toy_car_pmdat
 
-<a id="ansys.meshing.prime.examples.download_toy_car_pmdat"></a>
+
 
 ### ansys.meshing.prime.examples.download_toy_car_pmdat(destination=None, force=False)
 

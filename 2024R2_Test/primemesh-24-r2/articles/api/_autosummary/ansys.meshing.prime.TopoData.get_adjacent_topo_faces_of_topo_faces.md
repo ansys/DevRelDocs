@@ -1,6 +1,6 @@
 # ansys.meshing.prime.TopoData.get_adjacent_topo_faces_of_topo_faces
 
-<a id="ansys.meshing.prime.TopoData.get_adjacent_topo_faces_of_topo_faces"></a>
+
 
 #### TopoData.get_adjacent_topo_faces_of_topo_faces(topo_faces)
 

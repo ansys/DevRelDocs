@@ -1,6 +1,6 @@
 # ansys.meshing.prime.MultiZoneControl.name
 
-<a id="ansys.meshing.prime.MultiZoneControl.name"></a>
+
 
 #### *property* MultiZoneControl.name
 

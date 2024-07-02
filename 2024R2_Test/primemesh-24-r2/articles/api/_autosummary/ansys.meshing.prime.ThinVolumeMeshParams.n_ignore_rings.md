@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ThinVolumeMeshParams.n_ignore_rings
 
-<a id="ansys.meshing.prime.ThinVolumeMeshParams.n_ignore_rings"></a>
+
 
 #### *property* ThinVolumeMeshParams.n_ignore_rings *: [int](https://docs.python.org/3.11/library/functions.html#int)*
 

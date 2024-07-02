@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Model.set_suggested_zone_name
 
-<a id="ansys.meshing.prime.Model.set_suggested_zone_name"></a>
+
 
 #### Model.set_suggested_zone_name(id, name)
 

@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # IGASpline
 
-<a id="ansys.meshing.prime.IGASpline"></a>
+
 
 ### *class* ansys.meshing.prime.IGASpline(model=None, id=None, json_data=None, \*\*kwargs)
 
@@ -38,4 +36,4 @@ Information of the spline.
 | Name | Description |
 |------------------------------------------------------------------------------------------|----------------------------|
 | [`IGASpline.id`](ansys.meshing.prime.IGASpline.id.md#ansys.meshing.prime.IGASpline.id)   | Unique id of the spline.   |
-<!-- vale on -->
+

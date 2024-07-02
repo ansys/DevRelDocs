@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # BoiSizingParams
 
-<a id="ansys.meshing.prime.BoiSizingParams"></a>
+
 
 ### *class* ansys.meshing.prime.BoiSizingParams(model=None, max=None, growth_rate=None, json_data=None, \*\*kwargs)
 
@@ -45,4 +43,4 @@ The minimum size will be determined based on the influence of other size control
 |---------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
 | [`BoiSizingParams.growth_rate`](ansys.meshing.prime.BoiSizingParams.growth_rate.md#ansys.meshing.prime.BoiSizingParams.growth_rate)   | Growth rate used for transitioning from one element size to neighbor element size.   |
 | [`BoiSizingParams.max`](ansys.meshing.prime.BoiSizingParams.max.md#ansys.meshing.prime.BoiSizingParams.max)                           | Maximum size used for computing edge and face size using boi size control.           |
-<!-- vale on -->
+

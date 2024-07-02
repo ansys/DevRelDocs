@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # ImportMapdlCdbResults
 
-<a id="ansys.meshing.prime.ImportMapdlCdbResults"></a>
+
 
 ### *class* ansys.meshing.prime.ImportMapdlCdbResults(model=None, error_code=None, json_data=None, \*\*kwargs)
 
@@ -38,4 +36,4 @@ Results associated with the MAPDL CDB import.
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
 | [`ImportMapdlCdbResults.error_code`](ansys.meshing.prime.ImportMapdlCdbResults.error_code.md#ansys.meshing.prime.ImportMapdlCdbResults.error_code)   | Error code associated with failure of operation.   |
-<!-- vale on -->
+

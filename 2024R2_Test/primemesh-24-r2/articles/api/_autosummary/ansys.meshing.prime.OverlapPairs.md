@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # OverlapPairs
 
-<a id="ansys.meshing.prime.OverlapPairs"></a>
+
 
 ### *class* ansys.meshing.prime.OverlapPairs(model=None, zone_id0=None, zone_id1=None, json_data=None, \*\*kwargs)
 
@@ -42,4 +40,4 @@ Provides ids of a pair of overlapping face zonelets.
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------|
 | [`OverlapPairs.zone_id0`](ansys.meshing.prime.OverlapPairs.zone_id0.md#ansys.meshing.prime.OverlapPairs.zone_id0)   | Id of one overlapping face zonelet.   |
 | [`OverlapPairs.zone_id1`](ansys.meshing.prime.OverlapPairs.zone_id1.md#ansys.meshing.prime.OverlapPairs.zone_id1)   | Id of other overlapping face zonelet. |
-<!-- vale on -->
+

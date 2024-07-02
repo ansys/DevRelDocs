@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Part.get_topo_faces_of_zone_name_pattern
 
-<a id="ansys.meshing.prime.Part.get_topo_faces_of_zone_name_pattern"></a>
+
 
 #### Part.get_topo_faces_of_zone_name_pattern(zone_name_pattern, name_pattern_params)
 

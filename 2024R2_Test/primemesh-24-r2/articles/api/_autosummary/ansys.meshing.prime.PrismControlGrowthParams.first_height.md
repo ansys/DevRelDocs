@@ -1,6 +1,6 @@
 # ansys.meshing.prime.PrismControlGrowthParams.first_height
 
-<a id="ansys.meshing.prime.PrismControlGrowthParams.first_height"></a>
+
 
 #### *property* PrismControlGrowthParams.first_height *: [float](https://docs.python.org/3.11/library/functions.html#float)*
 

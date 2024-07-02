@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ExportLSDynaResults.set_default
 
-<a id="ansys.meshing.prime.ExportLSDynaResults.set_default"></a>
+
 
 #### *static* ExportLSDynaResults.set_default(summary_log=None, error_code=None, warning_codes=None)
 

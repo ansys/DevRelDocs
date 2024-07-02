@@ -1,6 +1,6 @@
 # ansys.meshing.prime.lucid.Mesh.connect_faces
 
-<a id="ansys.meshing.prime.lucid.Mesh.connect_faces"></a>
+
 
 #### Mesh.connect_faces(part_expression='\*', face_labels='\*', target_face_labels='\*', tolerance=0.05)
 

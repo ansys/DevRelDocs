@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # FuseParams
 
-<a id="ansys.meshing.prime.FuseParams"></a>
+
 
 ### *class* ansys.meshing.prime.FuseParams(model=None, use_absolute_tolerance=None, gap_tolerance=None, side_tolerance=None, check_interior=None, fuse_option=None, check_orientation=None, dump_mesh=None, local_remesh=None, n_layers=None, separate=None, angle=None, fuse_edges_only=None, json_data=None, \*\*kwargs)
 
@@ -106,4 +104,4 @@ Parameters for fuse operation.
 | [`FuseParams.separate`](ansys.meshing.prime.FuseParams.separate.md#ansys.meshing.prime.FuseParams.separate)                                           | Separate region to be fused.                                                                |
 | [`FuseParams.side_tolerance`](ansys.meshing.prime.FuseParams.side_tolerance.md#ansys.meshing.prime.FuseParams.side_tolerance)                         | Side tolerance for fusing to the side edges.                                                |
 | [`FuseParams.use_absolute_tolerance`](ansys.meshing.prime.FuseParams.use_absolute_tolerance.md#ansys.meshing.prime.FuseParams.use_absolute_tolerance) | When true, gap tolerance and side tolerance provided are absolute values.                   |
-<!-- vale on -->
+

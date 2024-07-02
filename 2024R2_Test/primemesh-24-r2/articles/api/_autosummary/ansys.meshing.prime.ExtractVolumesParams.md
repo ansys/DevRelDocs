@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # ExtractVolumesParams
 
-<a id="ansys.meshing.prime.ExtractVolumesParams"></a>
+
 
 ### *class* ansys.meshing.prime.ExtractVolumesParams(model=None, create_zone=None, suggested_zone_name=None, json_data=None, \*\*kwargs)
 
@@ -42,4 +40,4 @@ Parameters to extract flow volumes.
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
 | [`ExtractVolumesParams.create_zone`](ansys.meshing.prime.ExtractVolumesParams.create_zone.md#ansys.meshing.prime.ExtractVolumesParams.create_zone)                         | Option to create zone for flow volumes extracted.   |
 | [`ExtractVolumesParams.suggested_zone_name`](ansys.meshing.prime.ExtractVolumesParams.suggested_zone_name.md#ansys.meshing.prime.ExtractVolumesParams.suggested_zone_name) | Name suggested for the created zone.                |
-<!-- vale on -->
+

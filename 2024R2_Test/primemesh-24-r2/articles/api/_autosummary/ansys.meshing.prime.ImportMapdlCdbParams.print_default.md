@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ImportMapdlCdbParams.print_default
 
-<a id="ansys.meshing.prime.ImportMapdlCdbParams.print_default"></a>
+
 
 #### *static* ImportMapdlCdbParams.print_default()
 

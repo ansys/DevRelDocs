@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SplitParams.print_default
 
-<a id="ansys.meshing.prime.SplitParams.print_default"></a>
+
 
 #### *static* SplitParams.print_default()
 

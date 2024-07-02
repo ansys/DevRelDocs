@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ScopeExpressionType.NAMEPATTERN
 
-<a id="ansys.meshing.prime.ScopeExpressionType.NAMEPATTERN"></a>
+
 
 #### ScopeExpressionType.NAMEPATTERN *= 2*
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.DetectNonCircularHolesParams.allow_curved_topo_faces
 
-<a id="ansys.meshing.prime.DetectNonCircularHolesParams.allow_curved_topo_faces"></a>
+
 
 #### *property* DetectNonCircularHolesParams.allow_curved_topo_faces *: [bool](https://docs.python.org/3.11/library/functions.html#bool)*
 

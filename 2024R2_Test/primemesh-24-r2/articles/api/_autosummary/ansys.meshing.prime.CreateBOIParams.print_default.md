@@ -1,6 +1,6 @@
 # ansys.meshing.prime.CreateBOIParams.print_default
 
-<a id="ansys.meshing.prime.CreateBOIParams.print_default"></a>
+
 
 #### *static* CreateBOIParams.print_default()
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.examples.download_pipe_tee_dsco
 
-<a id="ansys.meshing.prime.examples.download_pipe_tee_dsco"></a>
+
 
 ### ansys.meshing.prime.examples.download_pipe_tee_dsco(destination=None, force=False)
 

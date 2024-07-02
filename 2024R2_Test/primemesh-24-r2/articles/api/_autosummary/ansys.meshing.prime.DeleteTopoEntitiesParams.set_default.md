@@ -1,6 +1,6 @@
 # ansys.meshing.prime.DeleteTopoEntitiesParams.set_default
 
-<a id="ansys.meshing.prime.DeleteTopoEntitiesParams.set_default"></a>
+
 
 #### *static* DeleteTopoEntitiesParams.set_default(delete_geom_zonelets=None, delete_mesh_zonelets=None)
 

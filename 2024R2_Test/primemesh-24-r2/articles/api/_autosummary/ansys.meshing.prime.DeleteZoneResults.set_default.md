@@ -1,6 +1,6 @@
 # ansys.meshing.prime.DeleteZoneResults.set_default
 
-<a id="ansys.meshing.prime.DeleteZoneResults.set_default"></a>
+
 
 #### *static* DeleteZoneResults.set_default(error_code=None)
 

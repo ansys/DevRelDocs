@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SurfaceUtilities.triangulate_face_zonelets
 
-<a id="ansys.meshing.prime.SurfaceUtilities.triangulate_face_zonelets"></a>
+
 
 #### SurfaceUtilities.triangulate_face_zonelets(face_zonelet_ids, params)
 

@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # CellQualityMeasure
 
-<a id="ansys.meshing.prime.CellQualityMeasure"></a>
+
 
 ### *class* ansys.meshing.prime.CellQualityMeasure(value)
 
@@ -20,4 +18,4 @@ The type of cell quality measures to check cell quality metrics.
 | [`CellQualityMeasure.INVERSEORTHOGONAL`](ansys.meshing.prime.CellQualityMeasure.INVERSEORTHOGONAL.md#ansys.meshing.prime.CellQualityMeasure.INVERSEORTHOGONAL)          | The inverse orthogonal metric ranges between 0 (best) and 1 (worst).          |
 | [`CellQualityMeasure.INVERSEORTHOGONAL_V2`](ansys.meshing.prime.CellQualityMeasure.INVERSEORTHOGONAL_V2.md#ansys.meshing.prime.CellQualityMeasure.INVERSEORTHOGONAL_V2) | The advanced inverse orthogonal metric ranges between 0 (best) and 1 (worst). |
 | [`CellQualityMeasure.ELEMENTQUALITY`](ansys.meshing.prime.CellQualityMeasure.ELEMENTQUALITY.md#ansys.meshing.prime.CellQualityMeasure.ELEMENTQUALITY)                   | The Element Quality metric ranges between 0 (worst) and 1 (best).             |
-<!-- vale on -->
+

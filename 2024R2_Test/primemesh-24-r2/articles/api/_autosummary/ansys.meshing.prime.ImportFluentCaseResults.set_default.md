@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ImportFluentCaseResults.set_default
 
-<a id="ansys.meshing.prime.ImportFluentCaseResults.set_default"></a>
+
 
 #### *static* ImportFluentCaseResults.set_default(error_code=None)
 

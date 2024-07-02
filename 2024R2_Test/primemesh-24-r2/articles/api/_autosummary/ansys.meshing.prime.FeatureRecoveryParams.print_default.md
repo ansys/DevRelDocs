@@ -1,6 +1,6 @@
 # ansys.meshing.prime.FeatureRecoveryParams.print_default
 
-<a id="ansys.meshing.prime.FeatureRecoveryParams.print_default"></a>
+
 
 #### *static* FeatureRecoveryParams.print_default()
 

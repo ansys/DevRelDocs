@@ -1,6 +1,6 @@
 # ansys.meshing.prime.MaterialPointType.LIVE
 
-<a id="ansys.meshing.prime.MaterialPointType.LIVE"></a>
+
 
 #### MaterialPointType.LIVE *= 1*
 

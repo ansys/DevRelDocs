@@ -1,6 +1,6 @@
 # ansys.meshing.prime.TransformParams.set_default
 
-<a id="ansys.meshing.prime.TransformParams.set_default"></a>
+
 
 #### *static* TransformParams.set_default(transformation_matrix=None)
 

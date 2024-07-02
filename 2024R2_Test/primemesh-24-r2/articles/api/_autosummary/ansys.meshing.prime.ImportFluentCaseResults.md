@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # ImportFluentCaseResults
 
-<a id="ansys.meshing.prime.ImportFluentCaseResults"></a>
+
 
 ### *class* ansys.meshing.prime.ImportFluentCaseResults(model=None, error_code=None, json_data=None, \*\*kwargs)
 
@@ -38,4 +36,4 @@ Results associated with fluent case import.
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
 | [`ImportFluentCaseResults.error_code`](ansys.meshing.prime.ImportFluentCaseResults.error_code.md#ansys.meshing.prime.ImportFluentCaseResults.error_code)   | Error code associated with failure of operation.   |
-<!-- vale on -->
+

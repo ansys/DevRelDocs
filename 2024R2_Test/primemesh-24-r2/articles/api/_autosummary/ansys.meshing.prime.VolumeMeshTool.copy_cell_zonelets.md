@@ -1,6 +1,6 @@
 # ansys.meshing.prime.VolumeMeshTool.copy_cell_zonelets
 
-<a id="ansys.meshing.prime.VolumeMeshTool.copy_cell_zonelets"></a>
+
 
 #### VolumeMeshTool.copy_cell_zonelets(cell_zonelets, target_part_id, params)
 

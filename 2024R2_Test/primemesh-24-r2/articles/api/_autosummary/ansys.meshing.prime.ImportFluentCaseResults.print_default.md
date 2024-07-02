@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ImportFluentCaseResults.print_default
 
-<a id="ansys.meshing.prime.ImportFluentCaseResults.print_default"></a>
+
 
 #### *static* ImportFluentCaseResults.print_default()
 

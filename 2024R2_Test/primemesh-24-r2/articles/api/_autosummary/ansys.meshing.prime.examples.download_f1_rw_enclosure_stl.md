@@ -1,6 +1,6 @@
 # ansys.meshing.prime.examples.download_f1_rw_enclosure_stl
 
-<a id="ansys.meshing.prime.examples.download_f1_rw_enclosure_stl"></a>
+
 
 ### ansys.meshing.prime.examples.download_f1_rw_enclosure_stl(destination=None, force=False)
 

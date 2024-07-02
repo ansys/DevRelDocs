@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Part.extract_volumes
 
-<a id="ansys.meshing.prime.Part.extract_volumes"></a>
+
 
 #### Part.extract_volumes(face_zonelets, params)
 

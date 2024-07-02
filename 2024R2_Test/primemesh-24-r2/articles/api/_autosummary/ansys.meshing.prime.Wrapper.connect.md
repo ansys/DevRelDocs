@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Wrapper.connect
 
-<a id="ansys.meshing.prime.Wrapper.connect"></a>
+
 
 #### Wrapper.connect(wrapper_part, target_labels, source_parts, source_labels)
 

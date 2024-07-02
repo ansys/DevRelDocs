@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SizeControl.get_summary
 
-<a id="ansys.meshing.prime.SizeControl.get_summary"></a>
+
 
 #### SizeControl.get_summary(params)
 

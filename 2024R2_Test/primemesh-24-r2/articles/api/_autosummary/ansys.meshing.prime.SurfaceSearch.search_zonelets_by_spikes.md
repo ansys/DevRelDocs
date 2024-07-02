@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SurfaceSearch.search_zonelets_by_spikes
 
-<a id="ansys.meshing.prime.SurfaceSearch.search_zonelets_by_spikes"></a>
+
 
 #### SurfaceSearch.search_zonelets_by_spikes(part_id, face_zonelets, register_id, params)
 

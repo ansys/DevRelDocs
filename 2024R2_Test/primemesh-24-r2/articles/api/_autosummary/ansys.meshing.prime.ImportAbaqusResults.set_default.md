@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ImportAbaqusResults.set_default
 
-<a id="ansys.meshing.prime.ImportAbaqusResults.set_default"></a>
+
 
 #### *static* ImportAbaqusResults.set_default(summary_log=None, error_code=None, warning_codes=None)
 

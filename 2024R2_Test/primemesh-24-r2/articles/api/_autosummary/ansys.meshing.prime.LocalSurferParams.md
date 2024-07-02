@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # LocalSurferParams
 
-<a id="ansys.meshing.prime.LocalSurferParams"></a>
+
 
 ### *class* ansys.meshing.prime.LocalSurferParams(model=None, min_angle=None, max_angle=None, size_field_type=None, min_size=None, max_size=None, growth_rate=None, constant_size=None, smooth_boundary=None, n_rings=None, json_data=None, \*\*kwargs)
 
@@ -70,4 +68,4 @@ Parameters to perform local surface remeshing.
 | [`LocalSurferParams.n_rings`](ansys.meshing.prime.LocalSurferParams.n_rings.md#ansys.meshing.prime.LocalSurferParams.n_rings)                         | Number of rings to extend the registered face selection for remeshing.        |
 | [`LocalSurferParams.size_field_type`](ansys.meshing.prime.LocalSurferParams.size_field_type.md#ansys.meshing.prime.LocalSurferParams.size_field_type) | Size field type used to generate surface mesh.                                |
 | [`LocalSurferParams.smooth_boundary`](ansys.meshing.prime.LocalSurferParams.smooth_boundary.md#ansys.meshing.prime.LocalSurferParams.smooth_boundary) | Option to extend local selection to get smooth boundary of selected elements. |
-<!-- vale on -->
+

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.examples.DownloadManager.add_file
 
-<a id="ansys.meshing.prime.examples.DownloadManager.add_file"></a>
+
 
 #### DownloadManager.add_file(file_path)
 

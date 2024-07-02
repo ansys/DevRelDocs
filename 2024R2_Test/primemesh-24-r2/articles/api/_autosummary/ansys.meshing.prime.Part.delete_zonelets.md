@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Part.delete_zonelets
 
-<a id="ansys.meshing.prime.Part.delete_zonelets"></a>
+
 
 #### Part.delete_zonelets(zonelets)
 

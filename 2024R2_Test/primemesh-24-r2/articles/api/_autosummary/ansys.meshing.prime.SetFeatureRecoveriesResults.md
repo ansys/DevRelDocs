@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # SetFeatureRecoveriesResults
 
-<a id="ansys.meshing.prime.SetFeatureRecoveriesResults"></a>
+
 
 ### *class* ansys.meshing.prime.SetFeatureRecoveriesResults(model=None, ids=None, error_code=None, json_data=None, \*\*kwargs)
 
@@ -42,4 +40,4 @@ Results associated with set feature recoveries.
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
 | [`SetFeatureRecoveriesResults.error_code`](ansys.meshing.prime.SetFeatureRecoveriesResults.error_code.md#ansys.meshing.prime.SetFeatureRecoveriesResults.error_code)   | Error code associated with the set feature recoveries.   |
 | [`SetFeatureRecoveriesResults.ids`](ansys.meshing.prime.SetFeatureRecoveriesResults.ids.md#ansys.meshing.prime.SetFeatureRecoveriesResults.ids)                        | Ids of added feature recovery controls.                  |
-<!-- vale on -->
+

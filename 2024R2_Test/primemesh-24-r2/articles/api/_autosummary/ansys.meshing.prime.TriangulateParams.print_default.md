@@ -1,6 +1,6 @@
 # ansys.meshing.prime.TriangulateParams.print_default
 
-<a id="ansys.meshing.prime.TriangulateParams.print_default"></a>
+
 
 #### *static* TriangulateParams.print_default()
 

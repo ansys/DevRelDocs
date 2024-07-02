@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # WrapperImproveResult
 
-<a id="ansys.meshing.prime.WrapperImproveResult"></a>
+
 
 ### *class* ansys.meshing.prime.WrapperImproveResult(model=None, error_code=None, n_skew_found=None, remaining_skew_faces=None, n_face_intersections_found=None, unresolved_face_intersections=None, json_data=None, \*\*kwargs)
 
@@ -54,4 +52,4 @@ Results structure associated to improve quality.
 | [`WrapperImproveResult.n_skew_found`](ansys.meshing.prime.WrapperImproveResult.n_skew_found.md#ansys.meshing.prime.WrapperImproveResult.n_skew_found)                                                    | Number of skewed faces found.                     |
 | [`WrapperImproveResult.remaining_skew_faces`](ansys.meshing.prime.WrapperImproveResult.remaining_skew_faces.md#ansys.meshing.prime.WrapperImproveResult.remaining_skew_faces)                            | Number of remaining skew faces.                   |
 | [`WrapperImproveResult.unresolved_face_intersections`](ansys.meshing.prime.WrapperImproveResult.unresolved_face_intersections.md#ansys.meshing.prime.WrapperImproveResult.unresolved_face_intersections) | Number of remaining self intersections.           |
-<!-- vale on -->
+

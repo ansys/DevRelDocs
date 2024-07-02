@@ -1,6 +1,6 @@
 # ansys.meshing.prime.MaterialPointManager.name
 
-<a id="ansys.meshing.prime.MaterialPointManager.name"></a>
+
 
 #### *property* MaterialPointManager.name
 

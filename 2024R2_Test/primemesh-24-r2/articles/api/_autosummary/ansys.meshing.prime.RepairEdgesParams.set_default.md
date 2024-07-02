@@ -1,6 +1,6 @@
 # ansys.meshing.prime.RepairEdgesParams.set_default
 
-<a id="ansys.meshing.prime.RepairEdgesParams.set_default"></a>
+
 
 #### *static* RepairEdgesParams.set_default(constant_mesh_size=None, absolute_tolerance=None)
 

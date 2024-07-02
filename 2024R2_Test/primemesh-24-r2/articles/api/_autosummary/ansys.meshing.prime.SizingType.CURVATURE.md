@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SizingType.CURVATURE
 
-<a id="ansys.meshing.prime.SizingType.CURVATURE"></a>
+
 
 #### SizingType.CURVATURE *= 0*
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.MultiZoneSweepMeshParams.set_default
 
-<a id="ansys.meshing.prime.MultiZoneSweepMeshParams.set_default"></a>
+
 
 #### *static* MultiZoneSweepMeshParams.set_default(source_and_target_scope=None, sweep_mesh_size=None, n_divisions=None, thin_sweep=None)
 

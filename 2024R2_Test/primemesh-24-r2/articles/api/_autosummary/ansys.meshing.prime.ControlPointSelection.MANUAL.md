@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ControlPointSelection.MANUAL
 
-<a id="ansys.meshing.prime.ControlPointSelection.MANUAL"></a>
+
 
 #### ControlPointSelection.MANUAL *= 0*
 

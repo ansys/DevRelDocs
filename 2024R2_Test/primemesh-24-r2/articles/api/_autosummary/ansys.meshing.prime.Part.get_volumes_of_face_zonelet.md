@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Part.get_volumes_of_face_zonelet
 
-<a id="ansys.meshing.prime.Part.get_volumes_of_face_zonelet"></a>
+
 
 #### Part.get_volumes_of_face_zonelet(face_zonelet)
 

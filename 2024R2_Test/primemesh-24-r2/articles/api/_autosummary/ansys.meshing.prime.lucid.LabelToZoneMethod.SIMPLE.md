@@ -1,6 +1,6 @@
 # ansys.meshing.prime.lucid.LabelToZoneMethod.SIMPLE
 
-<a id="ansys.meshing.prime.lucid.LabelToZoneMethod.SIMPLE"></a>
+
 
 #### LabelToZoneMethod.SIMPLE *= 0*
 

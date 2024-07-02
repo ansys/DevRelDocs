@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # CreateIntersectionEdgeLoopsResults
 
-<a id="ansys.meshing.prime.CreateIntersectionEdgeLoopsResults"></a>
+
 
 ### *class* ansys.meshing.prime.CreateIntersectionEdgeLoopsResults(model=None, processing_time=None, error_code=None, extracted_ids=None, json_data=None, \*\*kwargs)
 
@@ -46,4 +44,4 @@ Results for the edge loops created by intersection of two groups of face zonelet
 | [`CreateIntersectionEdgeLoopsResults.error_code`](ansys.meshing.prime.CreateIntersectionEdgeLoopsResults.error_code.md#ansys.meshing.prime.CreateIntersectionEdgeLoopsResults.error_code)                | Error code returned by edge extraction function.                  |
 | [`CreateIntersectionEdgeLoopsResults.extracted_ids`](ansys.meshing.prime.CreateIntersectionEdgeLoopsResults.extracted_ids.md#ansys.meshing.prime.CreateIntersectionEdgeLoopsResults.extracted_ids)       | List of ExtractedFeatureIds that contains ids of extracted edges. |
 | [`CreateIntersectionEdgeLoopsResults.processing_time`](ansys.meshing.prime.CreateIntersectionEdgeLoopsResults.processing_time.md#ansys.meshing.prime.CreateIntersectionEdgeLoopsResults.processing_time) | Time taken to extract edges formed by intersecting faces.         |
-<!-- vale on -->
+

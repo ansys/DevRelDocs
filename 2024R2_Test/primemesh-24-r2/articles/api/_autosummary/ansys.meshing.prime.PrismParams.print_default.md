@@ -1,6 +1,6 @@
 # ansys.meshing.prime.PrismParams.print_default
 
-<a id="ansys.meshing.prime.PrismParams.print_default"></a>
+
 
 #### *static* PrismParams.print_default()
 

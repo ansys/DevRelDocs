@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ScaffolderParams.edge_merge_control
 
-<a id="ansys.meshing.prime.ScaffolderParams.edge_merge_control"></a>
+
 
 #### *property* ScaffolderParams.edge_merge_control *: [int](https://docs.python.org/3.11/library/functions.html#int)*
 

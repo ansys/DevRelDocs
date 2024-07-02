@@ -1,6 +1,6 @@
 # ansys.meshing.prime.DetectAndTreatFeaturesParams.set_default
 
-<a id="ansys.meshing.prime.DetectAndTreatFeaturesParams.set_default"></a>
+
 
 #### *static* DetectAndTreatFeaturesParams.set_default(detect_and_treat_holes=None, detect_and_treat_circular_faces=None, treat_holes_params=None, treat_circular_faces_params=None)
 

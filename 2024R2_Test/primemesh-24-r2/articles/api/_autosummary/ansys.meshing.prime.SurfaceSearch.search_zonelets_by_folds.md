@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SurfaceSearch.search_zonelets_by_folds
 
-<a id="ansys.meshing.prime.SurfaceSearch.search_zonelets_by_folds"></a>
+
 
 #### SurfaceSearch.search_zonelets_by_folds(part_id, face_zonelets, register_id, params)
 

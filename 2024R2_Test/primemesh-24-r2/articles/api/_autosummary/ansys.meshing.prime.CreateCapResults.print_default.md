@@ -1,6 +1,6 @@
 # ansys.meshing.prime.CreateCapResults.print_default
 
-<a id="ansys.meshing.prime.CreateCapResults.print_default"></a>
+
 
 #### *static* CreateCapResults.print_default()
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.WrapperPatchFlowRegionsParams.set_default
 
-<a id="ansys.meshing.prime.WrapperPatchFlowRegionsParams.set_default"></a>
+
 
 #### *static* WrapperPatchFlowRegionsParams.set_default(base_size=None, suggested_part_name=None, number_of_threads=None, dead_regions=None)
 

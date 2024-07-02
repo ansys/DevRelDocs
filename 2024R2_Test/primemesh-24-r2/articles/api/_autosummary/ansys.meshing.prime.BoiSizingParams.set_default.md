@@ -1,6 +1,6 @@
 # ansys.meshing.prime.BoiSizingParams.set_default
 
-<a id="ansys.meshing.prime.BoiSizingParams.set_default"></a>
+
 
 #### *static* BoiSizingParams.set_default(max=None, growth_rate=None)
 

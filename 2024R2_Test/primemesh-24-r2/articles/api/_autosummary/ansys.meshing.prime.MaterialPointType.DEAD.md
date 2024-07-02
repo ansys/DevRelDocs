@@ -1,6 +1,6 @@
 # ansys.meshing.prime.MaterialPointType.DEAD
 
-<a id="ansys.meshing.prime.MaterialPointType.DEAD"></a>
+
 
 #### MaterialPointType.DEAD *= 0*
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.examples.download_pipe_tee_pmdat
 
-<a id="ansys.meshing.prime.examples.download_pipe_tee_pmdat"></a>
+
 
 ### ansys.meshing.prime.examples.download_pipe_tee_pmdat(destination=None, force=False)
 

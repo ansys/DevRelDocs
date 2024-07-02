@@ -1,6 +1,6 @@
 # ansys.meshing.prime.DetectAndTreatFeaturesParams.print_default
 
-<a id="ansys.meshing.prime.DetectAndTreatFeaturesParams.print_default"></a>
+
 
 #### *static* DetectAndTreatFeaturesParams.print_default()
 

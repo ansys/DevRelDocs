@@ -1,6 +1,6 @@
 # ansys.meshing.prime.FillHolesAtPlaneParams.suggested_zone_name
 
-<a id="ansys.meshing.prime.FillHolesAtPlaneParams.suggested_zone_name"></a>
+
 
 #### *property* FillHolesAtPlaneParams.suggested_zone_name *: [str](https://docs.python.org/3.11/library/stdtypes.html#str)*
 

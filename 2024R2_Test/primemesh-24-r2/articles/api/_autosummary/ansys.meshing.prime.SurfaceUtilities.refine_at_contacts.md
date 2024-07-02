@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SurfaceUtilities.refine_at_contacts
 
-<a id="ansys.meshing.prime.SurfaceUtilities.refine_at_contacts"></a>
+
 
 #### SurfaceUtilities.refine_at_contacts(part_ids, params)
 

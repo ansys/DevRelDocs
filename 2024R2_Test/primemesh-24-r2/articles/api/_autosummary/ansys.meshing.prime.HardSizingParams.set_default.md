@@ -1,6 +1,6 @@
 # ansys.meshing.prime.HardSizingParams.set_default
 
-<a id="ansys.meshing.prime.HardSizingParams.set_default"></a>
+
 
 #### *static* HardSizingParams.set_default(min=None, growth_rate=None)
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.VolumetricScaffolderParams.set_default
 
-<a id="ansys.meshing.prime.VolumetricScaffolderParams.set_default"></a>
+
 
 #### *static* VolumetricScaffolderParams.set_default(absolute_dist_tol=None, only_check_exact_overlaps=None)
 

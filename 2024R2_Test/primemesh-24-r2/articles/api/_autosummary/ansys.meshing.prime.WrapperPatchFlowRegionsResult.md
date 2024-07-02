@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # WrapperPatchFlowRegionsResult
 
-<a id="ansys.meshing.prime.WrapperPatchFlowRegionsResult"></a>
+
 
 ### *class* ansys.meshing.prime.WrapperPatchFlowRegionsResult(model=None, warning_codes=None, error_code=None, id=None, name=None, json_data=None, \*\*kwargs)
 
@@ -58,4 +56,4 @@ Result structure associated with patch holes operation.
 | [`WrapperPatchFlowRegionsResult.id`](ansys.meshing.prime.WrapperPatchFlowRegionsResult.id.md#ansys.meshing.prime.WrapperPatchFlowRegionsResult.id)                                  | Id of part created with hole patches.                    |
 | [`WrapperPatchFlowRegionsResult.name`](ansys.meshing.prime.WrapperPatchFlowRegionsResult.name.md#ansys.meshing.prime.WrapperPatchFlowRegionsResult.name)                            | Name of part created with hole patches.                  |
 | [`WrapperPatchFlowRegionsResult.warning_codes`](ansys.meshing.prime.WrapperPatchFlowRegionsResult.warning_codes.md#ansys.meshing.prime.WrapperPatchFlowRegionsResult.warning_codes) | Warning codes associated with the patch holes operation. |
-<!-- vale on -->
+

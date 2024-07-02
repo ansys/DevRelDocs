@@ -1,6 +1,6 @@
 # ansys.meshing.prime.FuseResults.set_default
 
-<a id="ansys.meshing.prime.FuseResults.set_default"></a>
+
 
 #### *static* FuseResults.set_default(fused_pairs=None, fused_area=None, error_code=None, warning_codes=None, intersecting_locations=None)
 

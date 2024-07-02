@@ -1,6 +1,6 @@
 # ansys.meshing.prime.OverlapSearchResults.set_default
 
-<a id="ansys.meshing.prime.OverlapSearchResults.set_default"></a>
+
 
 #### *static* OverlapSearchResults.set_default(n_pairs=None, overlap_pairs=None, error_code=None)
 

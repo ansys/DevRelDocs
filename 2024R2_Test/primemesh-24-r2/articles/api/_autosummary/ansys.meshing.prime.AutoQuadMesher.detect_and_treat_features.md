@@ -1,6 +1,6 @@
 # ansys.meshing.prime.AutoQuadMesher.detect_and_treat_features
 
-<a id="ansys.meshing.prime.AutoQuadMesher.detect_and_treat_features"></a>
+
 
 #### AutoQuadMesher.detect_and_treat_features(part_id, topo_face_ids, params)
 

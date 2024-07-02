@@ -1,6 +1,6 @@
 # ansys.meshing.prime.FixInvalidNormalNodeResults.set_default
 
-<a id="ansys.meshing.prime.FixInvalidNormalNodeResults.set_default"></a>
+
 
 #### *static* FixInvalidNormalNodeResults.set_default(error_code=None)
 

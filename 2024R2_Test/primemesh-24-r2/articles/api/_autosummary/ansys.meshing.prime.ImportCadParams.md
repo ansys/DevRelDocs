@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # ImportCadParams
 
-<a id="ansys.meshing.prime.ImportCadParams"></a>
+
 
 ### *class* ansys.meshing.prime.ImportCadParams(model=None, append=None, ansys_release=None, cad_reader_route=None, part_creation_type=None, geometry_transfer=None, length_unit=None, refacet=None, cad_refaceting_params=None, stitch_tolerance=None, cad_update_parameters=None, validate_shared_topology=None, json_data=None, \*\*kwargs)
 
@@ -78,4 +76,4 @@ Parameters to control CAD import settings.
 | [`ImportCadParams.refacet`](ansys.meshing.prime.ImportCadParams.refacet.md#ansys.meshing.prime.ImportCadParams.refacet)                                                    | Refine or coarsen the CAD faceting based on refaceting parameters when true.             |
 | [`ImportCadParams.stitch_tolerance`](ansys.meshing.prime.ImportCadParams.stitch_tolerance.md#ansys.meshing.prime.ImportCadParams.stitch_tolerance)                         | Stitch facets based on tolerance.                                                        |
 | [`ImportCadParams.validate_shared_topology`](ansys.meshing.prime.ImportCadParams.validate_shared_topology.md#ansys.meshing.prime.ImportCadParams.validate_shared_topology) | Specify whether to validate the shared topology information.                             |
-<!-- vale on -->
+

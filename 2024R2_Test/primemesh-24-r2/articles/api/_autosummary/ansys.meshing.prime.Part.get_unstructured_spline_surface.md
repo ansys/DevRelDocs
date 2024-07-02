@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Part.get_unstructured_spline_surface
 
-<a id="ansys.meshing.prime.Part.get_unstructured_spline_surface"></a>
+
 
 #### Part.get_unstructured_spline_surface()
 

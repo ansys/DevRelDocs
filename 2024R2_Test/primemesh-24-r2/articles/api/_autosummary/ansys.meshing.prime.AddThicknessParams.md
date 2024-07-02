@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # AddThicknessParams
 
-<a id="ansys.meshing.prime.AddThicknessParams"></a>
+
 
 ### *class* ansys.meshing.prime.AddThicknessParams(model=None, thickness=None, reverse_face_normal=None, suggested_part_name=None, fix_intersections=None, json_data=None, \*\*kwargs)
 
@@ -50,4 +48,4 @@ Parameters to add thickness for a given plane.
 | [`AddThicknessParams.reverse_face_normal`](ansys.meshing.prime.AddThicknessParams.reverse_face_normal.md#ansys.meshing.prime.AddThicknessParams.reverse_face_normal) | To assign the direction of inflation.              |
 | [`AddThicknessParams.suggested_part_name`](ansys.meshing.prime.AddThicknessParams.suggested_part_name.md#ansys.meshing.prime.AddThicknessParams.suggested_part_name) | Suggested part name for created patching surfaces. |
 | [`AddThicknessParams.thickness`](ansys.meshing.prime.AddThicknessParams.thickness.md#ansys.meshing.prime.AddThicknessParams.thickness)                               | To assign the offset distance of inflation.        |
-<!-- vale on -->
+

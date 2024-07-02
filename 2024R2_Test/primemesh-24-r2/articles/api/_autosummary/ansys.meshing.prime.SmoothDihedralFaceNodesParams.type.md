@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SmoothDihedralFaceNodesParams.type
 
-<a id="ansys.meshing.prime.SmoothDihedralFaceNodesParams.type"></a>
+
 
 #### *property* SmoothDihedralFaceNodesParams.type *: [SmoothType](ansys.meshing.prime.SmoothType.md#ansys.meshing.prime.SmoothType)*
 

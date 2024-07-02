@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ConnectResults.set_default
 
-<a id="ansys.meshing.prime.ConnectResults.set_default"></a>
+
 
 #### *static* ConnectResults.set_default(error_code=None, warning_codes=None)
 

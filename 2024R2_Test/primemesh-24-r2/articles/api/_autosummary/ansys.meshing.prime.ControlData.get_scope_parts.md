@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ControlData.get_scope_parts
 
-<a id="ansys.meshing.prime.ControlData.get_scope_parts"></a>
+
 
 #### ControlData.get_scope_parts(scope)
 

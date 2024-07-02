@@ -1,6 +1,6 @@
 # ansys.meshing.prime.AutoMeshResults.print_default
 
-<a id="ansys.meshing.prime.AutoMeshResults.print_default"></a>
+
 
 #### *static* AutoMeshResults.print_default()
 

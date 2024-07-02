@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # DeleteZoneResults
 
-<a id="ansys.meshing.prime.DeleteZoneResults"></a>
+
 
 ### *class* ansys.meshing.prime.DeleteZoneResults(model=None, error_code=None, json_data=None, \*\*kwargs)
 
@@ -38,4 +36,4 @@ Results associated with the delete zone.
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
 | [`DeleteZoneResults.error_code`](ansys.meshing.prime.DeleteZoneResults.error_code.md#ansys.meshing.prime.DeleteZoneResults.error_code)   | Error code associated with the delete zone operation.   |
-<!-- vale on -->
+

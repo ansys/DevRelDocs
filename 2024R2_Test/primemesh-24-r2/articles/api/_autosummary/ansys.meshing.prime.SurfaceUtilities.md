@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # SurfaceUtilities
 
-<a id="ansys.meshing.prime.SurfaceUtilities"></a>
+
 
 ### *class* ansys.meshing.prime.SurfaceUtilities(model)
 
@@ -35,4 +33,4 @@ For example, copy zonelets, resolve surface intersections.
 | [`SurfaceUtilities.smooth_dihedral_face_nodes`](ansys.meshing.prime.SurfaceUtilities.smooth_dihedral_face_nodes.md#ansys.meshing.prime.SurfaceUtilities.smooth_dihedral_face_nodes)(...)                                              | Perform a smoothing operation to eliminate sharp corners at locations where the input face zonelets intersect. |
 | [`SurfaceUtilities.stretch_free_boundaries`](ansys.meshing.prime.SurfaceUtilities.stretch_free_boundaries.md#ansys.meshing.prime.SurfaceUtilities.stretch_free_boundaries)(...)                                                       | Stretch free boundaries of each zonelet.                                                                       |
 | [`SurfaceUtilities.triangulate_face_zonelets`](ansys.meshing.prime.SurfaceUtilities.triangulate_face_zonelets.md#ansys.meshing.prime.SurfaceUtilities.triangulate_face_zonelets)(...)                                                 | Split faces in zonelets to get triangular faces.                                                               |
-<!-- vale on -->
+

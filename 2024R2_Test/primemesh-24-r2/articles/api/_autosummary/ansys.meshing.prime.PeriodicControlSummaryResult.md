@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # PeriodicControlSummaryResult
 
-<a id="ansys.meshing.prime.PeriodicControlSummaryResult"></a>
+
 
 ### *class* ansys.meshing.prime.PeriodicControlSummaryResult(model=None, message=None, json_data=None, \*\*kwargs)
 
@@ -38,4 +36,4 @@ Results of Periodic control summary.
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------|
 | [`PeriodicControlSummaryResult.message`](ansys.meshing.prime.PeriodicControlSummaryResult.message.md#ansys.meshing.prime.PeriodicControlSummaryResult.message)   | String with the periodic control summary.   |
-<!-- vale on -->
+

@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # CheckFaceDeviationParams
 
-<a id="ansys.meshing.prime.CheckFaceDeviationParams"></a>
+
 
 ### *class* ansys.meshing.prime.CheckFaceDeviationParams(model=None, distance=None, json_data=None, \*\*kwargs)
 
@@ -38,4 +36,4 @@ Parameters used for check face deviation operations.
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
 | [`CheckFaceDeviationParams.distance`](ansys.meshing.prime.CheckFaceDeviationParams.distance.md#ansys.meshing.prime.CheckFaceDeviationParams.distance)   | Distance above which deviated entities are collected.   |
-<!-- vale on -->
+

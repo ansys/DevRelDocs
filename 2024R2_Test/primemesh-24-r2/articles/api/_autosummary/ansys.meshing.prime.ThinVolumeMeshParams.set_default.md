@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ThinVolumeMeshParams.set_default
 
-<a id="ansys.meshing.prime.ThinVolumeMeshParams.set_default"></a>
+
 
 #### *static* ThinVolumeMeshParams.set_default(n_layers=None, imprint_sides=None, n_ignore_rings=None)
 

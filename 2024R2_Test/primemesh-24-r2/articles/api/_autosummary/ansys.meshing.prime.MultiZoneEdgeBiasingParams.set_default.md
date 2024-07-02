@@ -1,6 +1,6 @@
 # ansys.meshing.prime.MultiZoneEdgeBiasingParams.set_default
 
-<a id="ansys.meshing.prime.MultiZoneEdgeBiasingParams.set_default"></a>
+
 
 #### *static* MultiZoneEdgeBiasingParams.set_default(face_scope=None, edge_scope=None, bias_factor=None, n_divisions=None)
 

@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # CellStatisticsResults
 
-<a id="ansys.meshing.prime.CellStatisticsResults"></a>
+
 
 ### *class* ansys.meshing.prime.CellStatisticsResults(model=None, volume=None, error_code=None, json_data=None, \*\*kwargs)
 
@@ -42,4 +40,4 @@ Results of cell statistics information.
 |------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
 | [`CellStatisticsResults.error_code`](ansys.meshing.prime.CellStatisticsResults.error_code.md#ansys.meshing.prime.CellStatisticsResults.error_code)   | Error code associated with the cell statistics function.         |
 | [`CellStatisticsResults.volume`](ansys.meshing.prime.CellStatisticsResults.volume.md#ansys.meshing.prime.CellStatisticsResults.volume)               | Cumulative volume of all the cell elements of selected entities. |
-<!-- vale on -->
+

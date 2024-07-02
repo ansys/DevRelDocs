@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SearchByThinStripResults.set_default
 
-<a id="ansys.meshing.prime.SearchByThinStripResults.set_default"></a>
+
 
 #### *static* SearchByThinStripResults.set_default(n_found=None, error_code=None)
 

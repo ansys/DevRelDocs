@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # ComputeVolumesResults
 
-<a id="ansys.meshing.prime.ComputeVolumesResults"></a>
+
 
 ### *class* ansys.meshing.prime.ComputeVolumesResults(model=None, error_code=None, error_locations=None, volumes=None, material_point_volumes=None, external_open_face_zonelets=None, warning_codes=None, json_data=None, \*\*kwargs)
 
@@ -58,4 +56,4 @@ Results associated with compute volumes.
 | [`ComputeVolumesResults.material_point_volumes`](ansys.meshing.prime.ComputeVolumesResults.material_point_volumes.md#ansys.meshing.prime.ComputeVolumesResults.material_point_volumes)                | Ids of computed volumes enclosing material points.                                |
 | [`ComputeVolumesResults.volumes`](ansys.meshing.prime.ComputeVolumesResults.volumes.md#ansys.meshing.prime.ComputeVolumesResults.volumes)                                                             | Ids of computed volumes.                                                          |
 | [`ComputeVolumesResults.warning_codes`](ansys.meshing.prime.ComputeVolumesResults.warning_codes.md#ansys.meshing.prime.ComputeVolumesResults.warning_codes)                                           | Warning codes associated with the compute volumes.                                |
-<!-- vale on -->
+

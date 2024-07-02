@@ -1,6 +1,6 @@
 # ansys.meshing.prime.MultiZoneEdgeBiasingParams.edge_scope
 
-<a id="ansys.meshing.prime.MultiZoneEdgeBiasingParams.edge_scope"></a>
+
 
 #### *property* MultiZoneEdgeBiasingParams.edge_scope *: [ScopeDefinition](ansys.meshing.prime.ScopeDefinition.md#ansys.meshing.prime.ScopeDefinition)*
 

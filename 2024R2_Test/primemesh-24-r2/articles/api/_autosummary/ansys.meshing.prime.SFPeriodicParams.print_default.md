@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SFPeriodicParams.print_default
 
-<a id="ansys.meshing.prime.SFPeriodicParams.print_default"></a>
+
 
 #### *static* SFPeriodicParams.print_default()
 

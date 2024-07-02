@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # MeshStackerResults
 
-<a id="ansys.meshing.prime.MeshStackerResults"></a>
+
 
 ### *class* ansys.meshing.prime.MeshStackerResults(model=None, error_code=None, error_codes_per_topo_volume=None, non_stackable_faces=None, non_stackable_edges=None, small_features=None, base_face_ids=None, size_control_ids=None, json_data=None, \*\*kwargs)
 
@@ -62,4 +60,4 @@ Results associated with the mesh stacker operations.
 | [`MeshStackerResults.non_stackable_faces`](ansys.meshing.prime.MeshStackerResults.non_stackable_faces.md#ansys.meshing.prime.MeshStackerResults.non_stackable_faces)                         | List of non-stackable faces.                                       |
 | [`MeshStackerResults.size_control_ids`](ansys.meshing.prime.MeshStackerResults.size_control_ids.md#ansys.meshing.prime.MeshStackerResults.size_control_ids)                                  | List of ids of newly created size controls.                        |
 | [`MeshStackerResults.small_features`](ansys.meshing.prime.MeshStackerResults.small_features.md#ansys.meshing.prime.MeshStackerResults.small_features)                                        | List of features edges smaller than input tolerance.               |
-<!-- vale on -->
+

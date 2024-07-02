@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # ImportFluentCaseParams
 
-<a id="ansys.meshing.prime.ImportFluentCaseParams"></a>
+
 
 ### *class* ansys.meshing.prime.ImportFluentCaseParams(model=None, append=None, json_data=None, \*\*kwargs)
 
@@ -38,4 +36,4 @@ Parameters to import fluent case file.
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
 | [`ImportFluentCaseParams.append`](ansys.meshing.prime.ImportFluentCaseParams.append.md#ansys.meshing.prime.ImportFluentCaseParams.append)   | Option to append imported case instead of resetting model to imported case.   |
-<!-- vale on -->
+

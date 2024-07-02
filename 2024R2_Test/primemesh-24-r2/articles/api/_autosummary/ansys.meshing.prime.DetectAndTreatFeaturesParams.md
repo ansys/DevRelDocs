@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # DetectAndTreatFeaturesParams
 
-<a id="ansys.meshing.prime.DetectAndTreatFeaturesParams"></a>
+
 
 ### *class* ansys.meshing.prime.DetectAndTreatFeaturesParams(model=None, detect_and_treat_holes=None, detect_and_treat_circular_faces=None, treat_holes_params=None, treat_circular_faces_params=None, json_data=None, \*\*kwargs)
 
@@ -58,4 +56,4 @@ Parameters for detect and treat features operations.
 | [`DetectAndTreatFeaturesParams.detect_and_treat_holes`](ansys.meshing.prime.DetectAndTreatFeaturesParams.detect_and_treat_holes.md#ansys.meshing.prime.DetectAndTreatFeaturesParams.detect_and_treat_holes)                              | Option to detect and treat holes.                         |
 | [`DetectAndTreatFeaturesParams.treat_circular_faces_params`](ansys.meshing.prime.DetectAndTreatFeaturesParams.treat_circular_faces_params.md#ansys.meshing.prime.DetectAndTreatFeaturesParams.treat_circular_faces_params)               | Parameters for detect and treat circular faces operation. |
 | [`DetectAndTreatFeaturesParams.treat_holes_params`](ansys.meshing.prime.DetectAndTreatFeaturesParams.treat_holes_params.md#ansys.meshing.prime.DetectAndTreatFeaturesParams.treat_holes_params)                                          | Parameters for detect and treat holes operation.          |
-<!-- vale on -->
+

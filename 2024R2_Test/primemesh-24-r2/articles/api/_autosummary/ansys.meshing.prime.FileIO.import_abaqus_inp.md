@@ -1,6 +1,6 @@
 # ansys.meshing.prime.FileIO.import_abaqus_inp
 
-<a id="ansys.meshing.prime.FileIO.import_abaqus_inp"></a>
+
 
 #### FileIO.import_abaqus_inp(file_name, params)
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.DeleteResults.set_default
 
-<a id="ansys.meshing.prime.DeleteResults.set_default"></a>
+
 
 #### *static* DeleteResults.set_default(error_code=None)
 

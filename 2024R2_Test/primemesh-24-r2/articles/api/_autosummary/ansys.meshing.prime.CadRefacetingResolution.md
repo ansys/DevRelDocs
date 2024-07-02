@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # CadRefacetingResolution
 
-<a id="ansys.meshing.prime.CadRefacetingResolution"></a>
+
 
 ### *class* ansys.meshing.prime.CadRefacetingResolution(value)
 
@@ -18,4 +16,4 @@ Levels of CAD faceting refinement.
 | [`CadRefacetingResolution.MEDIUM`](ansys.meshing.prime.CadRefacetingResolution.MEDIUM.md#ansys.meshing.prime.CadRefacetingResolution.MEDIUM)   | Denotes medium resolution of CAD faceting.   |
 | [`CadRefacetingResolution.FINE`](ansys.meshing.prime.CadRefacetingResolution.FINE.md#ansys.meshing.prime.CadRefacetingResolution.FINE)         | Denotes fine resolution of CAD faceting.     |
 | [`CadRefacetingResolution.CUSTOM`](ansys.meshing.prime.CadRefacetingResolution.CUSTOM.md#ansys.meshing.prime.CadRefacetingResolution.CUSTOM)   | Denotes custom resolution of CAD faceting.   |
-<!-- vale on -->
+

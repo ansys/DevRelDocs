@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SFPeriodicParams.set_default
 
-<a id="ansys.meshing.prime.SFPeriodicParams.set_default"></a>
+
 
 #### *static* SFPeriodicParams.set_default(axis=None, angle=None, center=None)
 

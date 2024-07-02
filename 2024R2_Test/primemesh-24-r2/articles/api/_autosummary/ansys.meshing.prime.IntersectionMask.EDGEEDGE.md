@@ -1,6 +1,6 @@
 # ansys.meshing.prime.IntersectionMask.EDGEEDGE
 
-<a id="ansys.meshing.prime.IntersectionMask.EDGEEDGE"></a>
+
 
 #### IntersectionMask.EDGEEDGE *= 1*
 

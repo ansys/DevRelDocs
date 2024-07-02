@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Part.get_labels
 
-<a id="ansys.meshing.prime.Part.get_labels"></a>
+
 
 #### Part.get_labels()
 

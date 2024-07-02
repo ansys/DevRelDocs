@@ -1,6 +1,6 @@
 # ansys.meshing.prime.CellStatisticsParams.set_default
 
-<a id="ansys.meshing.prime.CellStatisticsParams.set_default"></a>
+
 
 #### *static* CellStatisticsParams.set_default(get_volume=None)
 

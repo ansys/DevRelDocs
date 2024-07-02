@@ -1,6 +1,6 @@
 # ansys.meshing.prime.PartSummaryParams.set_default
 
-<a id="ansys.meshing.prime.PartSummaryParams.set_default"></a>
+
 
 #### *static* PartSummaryParams.set_default(print_id=None, print_mesh=None)
 

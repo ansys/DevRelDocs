@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ErrorCode.SURFERINVALIDINPUT
 
-<a id="ansys.meshing.prime.ErrorCode.SURFERINVALIDINPUT"></a>
+
 
 #### ErrorCode.SURFERINVALIDINPUT *= 7*
 

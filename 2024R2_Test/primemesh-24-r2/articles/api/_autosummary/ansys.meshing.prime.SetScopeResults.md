@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # SetScopeResults
 
-<a id="ansys.meshing.prime.SetScopeResults"></a>
+
 
 ### *class* ansys.meshing.prime.SetScopeResults(model=None, error_code=None, warning_code=None, json_data=None, \*\*kwargs)
 
@@ -42,4 +40,4 @@ Results associated with the set scope operation.
 |----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------|
 | [`SetScopeResults.error_code`](ansys.meshing.prime.SetScopeResults.error_code.md#ansys.meshing.prime.SetScopeResults.error_code)       | Error code associated with the set scope.   |
 | [`SetScopeResults.warning_code`](ansys.meshing.prime.SetScopeResults.warning_code.md#ansys.meshing.prime.SetScopeResults.warning_code) | Warning code associated with the set scope. |
-<!-- vale on -->
+

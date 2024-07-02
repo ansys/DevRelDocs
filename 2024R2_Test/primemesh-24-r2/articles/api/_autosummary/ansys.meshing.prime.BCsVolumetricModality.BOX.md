@@ -1,6 +1,6 @@
 # ansys.meshing.prime.BCsVolumetricModality.BOX
 
-<a id="ansys.meshing.prime.BCsVolumetricModality.BOX"></a>
+
 
 #### BCsVolumetricModality.BOX *= 1*
 

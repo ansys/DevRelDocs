@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ErrorCode.SURFERAUTOSIZEMUSTBEVOLUMETRIC
 
-<a id="ansys.meshing.prime.ErrorCode.SURFERAUTOSIZEMUSTBEVOLUMETRIC"></a>
+
 
 #### ErrorCode.SURFERAUTOSIZEMUSTBEVOLUMETRIC *= 12*
 

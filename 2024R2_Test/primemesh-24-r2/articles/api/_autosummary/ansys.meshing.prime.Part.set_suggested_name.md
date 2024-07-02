@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Part.set_suggested_name
 
-<a id="ansys.meshing.prime.Part.set_suggested_name"></a>
+
 
 #### Part.set_suggested_name(name)
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.BoundaryFittedSplineParams.set_default
 
-<a id="ansys.meshing.prime.BoundaryFittedSplineParams.set_default"></a>
+
 
 #### *static* BoundaryFittedSplineParams.set_default(degree_u=None, degree_v=None, degree_w=None, refinement_fraction_u=None, refinement_fraction_v=None, refinement_fraction_w=None, control_points_count_u=None, control_points_count_v=None, control_points_count_w=None, n_refine=None, control_point_selection_type=None)
 

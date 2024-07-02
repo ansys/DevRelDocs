@@ -1,6 +1,6 @@
 # ansys.meshing.prime.lucid.Mesh.create_zones_from_labels
 
-<a id="ansys.meshing.prime.lucid.Mesh.create_zones_from_labels"></a>
+
 
 #### Mesh.create_zones_from_labels(label_expression=None, conversion_method=LabelToZoneMethod.SIMPLE)
 

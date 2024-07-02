@@ -1,6 +1,6 @@
 # ansys.meshing.prime.CadReaderRoute.DISCOVERY
 
-<a id="ansys.meshing.prime.CadReaderRoute.DISCOVERY"></a>
+
 
 #### CadReaderRoute.DISCOVERY *= 4*
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ConnectFacesParams.absolute_tolerance
 
-<a id="ansys.meshing.prime.ConnectFacesParams.absolute_tolerance"></a>
+
 
 #### *property* ConnectFacesParams.absolute_tolerance *: [float](https://docs.python.org/3.11/library/functions.html#float)*
 

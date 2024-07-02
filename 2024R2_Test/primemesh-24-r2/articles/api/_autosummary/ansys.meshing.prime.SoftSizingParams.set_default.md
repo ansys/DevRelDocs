@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SoftSizingParams.set_default
 
-<a id="ansys.meshing.prime.SoftSizingParams.set_default"></a>
+
 
 #### *static* SoftSizingParams.set_default(max=None, growth_rate=None)
 

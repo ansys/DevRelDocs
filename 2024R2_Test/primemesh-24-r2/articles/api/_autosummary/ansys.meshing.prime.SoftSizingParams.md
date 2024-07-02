@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # SoftSizingParams
 
-<a id="ansys.meshing.prime.SoftSizingParams"></a>
+
 
 ### *class* ansys.meshing.prime.SoftSizingParams(model=None, max=None, growth_rate=None, json_data=None, \*\*kwargs)
 
@@ -46,4 +44,4 @@ else a uniform size will be maintained.
 |------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
 | [`SoftSizingParams.growth_rate`](ansys.meshing.prime.SoftSizingParams.growth_rate.md#ansys.meshing.prime.SoftSizingParams.growth_rate)   | Growth rate used for transitioning from one element size to neighbor element size.   |
 | [`SoftSizingParams.max`](ansys.meshing.prime.SoftSizingParams.max.md#ansys.meshing.prime.SoftSizingParams.max)                           | Maximum size used for computing edge and face size using soft size control.          |
-<!-- vale on -->
+

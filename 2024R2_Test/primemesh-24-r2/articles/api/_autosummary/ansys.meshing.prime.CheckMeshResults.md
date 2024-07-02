@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # CheckMeshResults
 
-<a id="ansys.meshing.prime.CheckMeshResults"></a>
+
 
 ### *class* ansys.meshing.prime.CheckMeshResults(model=None, has_non_positive_volumes=None, has_non_positive_areas=None, has_invalid_shape=None, has_left_handed_faces=None, error_code=None, warning_codes=None, json_data=None, \*\*kwargs)
 
@@ -58,4 +56,4 @@ Result associated with the check mesh operation.
 | [`CheckMeshResults.has_non_positive_areas`](ansys.meshing.prime.CheckMeshResults.has_non_positive_areas.md#ansys.meshing.prime.CheckMeshResults.has_non_positive_areas)       | Indicates whether mesh has non positive areas.          |
 | [`CheckMeshResults.has_non_positive_volumes`](ansys.meshing.prime.CheckMeshResults.has_non_positive_volumes.md#ansys.meshing.prime.CheckMeshResults.has_non_positive_volumes) | Indicates whether mesh has non positive volumes.        |
 | [`CheckMeshResults.warning_codes`](ansys.meshing.prime.CheckMeshResults.warning_codes.md#ansys.meshing.prime.CheckMeshResults.warning_codes)                                  | Warning codes associated with the check grid operation. |
-<!-- vale on -->
+

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.VTComposerResults.set_default
 
-<a id="ansys.meshing.prime.VTComposerResults.set_default"></a>
+
 
 #### *static* VTComposerResults.set_default(error_code=None)
 

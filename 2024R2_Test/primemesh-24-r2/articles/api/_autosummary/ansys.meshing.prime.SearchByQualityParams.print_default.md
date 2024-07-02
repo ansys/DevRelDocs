@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SearchByQualityParams.print_default
 
-<a id="ansys.meshing.prime.SearchByQualityParams.print_default"></a>
+
 
 #### *static* SearchByQualityParams.print_default()
 

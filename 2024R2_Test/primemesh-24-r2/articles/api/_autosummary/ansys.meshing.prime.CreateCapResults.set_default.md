@@ -1,6 +1,6 @@
 # ansys.meshing.prime.CreateCapResults.set_default
 
-<a id="ansys.meshing.prime.CreateCapResults.set_default"></a>
+
 
 #### *static* CreateCapResults.set_default(error_code=None, created_face_zonelets=None)
 

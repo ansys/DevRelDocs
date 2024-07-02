@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # WrapperImproveQualityParams
 
-<a id="ansys.meshing.prime.WrapperImproveQualityParams"></a>
+
 
 ### *class* ansys.meshing.prime.WrapperImproveQualityParams(model=None, target_skewness=None, island_count=None, island_tol=None, overlap_count=None, overlap_tol=None, resolve_spikes=None, resolve_intersections=None, inflate_dihedral_face_nodes=None, resolve_invalid_node_normals=None, aggressively=None, sharp_angle=None, geom_zonelets=None, number_of_threads=None, json_data=None, \*\*kwargs)
 
@@ -86,4 +84,4 @@ WrapperImproveQualityParams defines parameters to improve wrapper part.
 | [`WrapperImproveQualityParams.resolve_spikes`](ansys.meshing.prime.WrapperImproveQualityParams.resolve_spikes.md#ansys.meshing.prime.WrapperImproveQualityParams.resolve_spikes)                                           | Control to perform removing spikes or not.                                  |
 | [`WrapperImproveQualityParams.sharp_angle`](ansys.meshing.prime.WrapperImproveQualityParams.sharp_angle.md#ansys.meshing.prime.WrapperImproveQualityParams.sharp_angle)                                                    | Maximum off feature sharp node angle.                                       |
 | [`WrapperImproveQualityParams.target_skewness`](ansys.meshing.prime.WrapperImproveQualityParams.target_skewness.md#ansys.meshing.prime.WrapperImproveQualityParams.target_skewness)                                        | Target skewness.                                                            |
-<!-- vale on -->
+

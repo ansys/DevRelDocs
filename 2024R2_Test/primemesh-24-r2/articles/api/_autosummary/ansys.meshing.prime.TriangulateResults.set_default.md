@@ -1,6 +1,6 @@
 # ansys.meshing.prime.TriangulateResults.set_default
 
-<a id="ansys.meshing.prime.TriangulateResults.set_default"></a>
+
 
 #### *static* TriangulateResults.set_default(error_code=None, n_faces_triangulated=None)
 

@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # SizeControl
 
-<a id="ansys.meshing.prime.SizeControl"></a>
+
 
 ### *class* ansys.meshing.prime.SizeControl(model, id, object_id, name, local=False)
 
@@ -57,4 +55,4 @@ surface or within the volume.
 |----------------------------------------------------------------------------------------------------|-------------------------------|
 | [`SizeControl.id`](ansys.meshing.prime.SizeControl.id.md#ansys.meshing.prime.SizeControl.id)       | Get the id of SizeControl.    |
 | [`SizeControl.name`](ansys.meshing.prime.SizeControl.name.md#ansys.meshing.prime.SizeControl.name) | Get the name of size control. |
-<!-- vale on -->
+

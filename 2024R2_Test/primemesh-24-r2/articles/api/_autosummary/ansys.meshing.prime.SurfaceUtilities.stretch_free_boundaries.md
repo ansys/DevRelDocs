@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SurfaceUtilities.stretch_free_boundaries
 
-<a id="ansys.meshing.prime.SurfaceUtilities.stretch_free_boundaries"></a>
+
 
 #### SurfaceUtilities.stretch_free_boundaries(face_zonelet_ids, params)
 

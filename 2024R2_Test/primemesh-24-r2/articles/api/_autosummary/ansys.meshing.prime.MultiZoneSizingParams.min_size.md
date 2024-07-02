@@ -1,6 +1,6 @@
 # ansys.meshing.prime.MultiZoneSizingParams.min_size
 
-<a id="ansys.meshing.prime.MultiZoneSizingParams.min_size"></a>
+
 
 #### *property* MultiZoneSizingParams.min_size *: [float](https://docs.python.org/3.11/library/functions.html#float)*
 

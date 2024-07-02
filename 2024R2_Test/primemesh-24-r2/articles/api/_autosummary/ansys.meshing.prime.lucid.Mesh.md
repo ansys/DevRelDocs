@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # Mesh
 
-<a id="ansys.meshing.prime.lucid.Mesh"></a>
+
 
 ### *class* ansys.meshing.prime.lucid.Mesh(model)
 
@@ -39,4 +37,4 @@ The `Mesh` class provides these functionalities:
 | [`Mesh.volume_mesh`](ansys.meshing.prime.lucid.Mesh.volume_mesh.md#ansys.meshing.prime.lucid.Mesh.volume_mesh)([volume_fill_type, ...])                                           | Generate a volume mesh on the model.                                       |
 | [`Mesh.wrap`](ansys.meshing.prime.lucid.Mesh.wrap.md#ansys.meshing.prime.lucid.Mesh.wrap)([min_size, max_size, growth_rate, ...])                                                 | Wrap and remesh the input.                                                 |
 | [`Mesh.write`](ansys.meshing.prime.lucid.Mesh.write.md#ansys.meshing.prime.lucid.Mesh.write)(file_name)                                                                           | Write or export files of different formats based on file extensions.       |
-<!-- vale on -->
+

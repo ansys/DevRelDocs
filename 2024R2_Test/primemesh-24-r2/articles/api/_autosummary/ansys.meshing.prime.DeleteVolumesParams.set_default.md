@@ -1,6 +1,6 @@
 # ansys.meshing.prime.DeleteVolumesParams.set_default
 
-<a id="ansys.meshing.prime.DeleteVolumesParams.set_default"></a>
+
 
 #### *static* DeleteVolumesParams.set_default(delete_small_volumes=None, volume_limit=None)
 

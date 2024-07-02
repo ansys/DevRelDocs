@@ -1,6 +1,6 @@
 # ansys.meshing.prime.WrapperControl.get_geometry_scope
 
-<a id="ansys.meshing.prime.WrapperControl.get_geometry_scope"></a>
+
 
 #### WrapperControl.get_geometry_scope()
 

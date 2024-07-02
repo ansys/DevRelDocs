@@ -1,6 +1,6 @@
 # ansys.meshing.prime.AutoQuadMesher.repair_topology
 
-<a id="ansys.meshing.prime.AutoQuadMesher.repair_topology"></a>
+
 
 #### AutoQuadMesher.repair_topology(part_id, topo_face_ids, params)
 

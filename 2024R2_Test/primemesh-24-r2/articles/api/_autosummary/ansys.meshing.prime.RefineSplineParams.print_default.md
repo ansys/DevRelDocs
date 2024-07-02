@@ -1,6 +1,6 @@
 # ansys.meshing.prime.RefineSplineParams.print_default
 
-<a id="ansys.meshing.prime.RefineSplineParams.print_default"></a>
+
 
 #### *static* RefineSplineParams.print_default()
 

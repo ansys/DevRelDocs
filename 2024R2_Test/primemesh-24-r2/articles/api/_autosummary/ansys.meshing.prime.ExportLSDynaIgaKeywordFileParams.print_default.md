@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ExportLSDynaIgaKeywordFileParams.print_default
 
-<a id="ansys.meshing.prime.ExportLSDynaIgaKeywordFileParams.print_default"></a>
+
 
 #### *static* ExportLSDynaIgaKeywordFileParams.print_default()
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.PrismControlOffsetType.UNIFORM
 
-<a id="ansys.meshing.prime.PrismControlOffsetType.UNIFORM"></a>
+
 
 #### PrismControlOffsetType.UNIFORM *= 0*
 

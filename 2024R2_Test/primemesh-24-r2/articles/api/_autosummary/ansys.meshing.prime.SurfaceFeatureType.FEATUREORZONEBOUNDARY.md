@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SurfaceFeatureType.FEATUREORZONEBOUNDARY
 
-<a id="ansys.meshing.prime.SurfaceFeatureType.FEATUREORZONEBOUNDARY"></a>
+
 
 #### SurfaceFeatureType.FEATUREORZONEBOUNDARY *= 3*
 

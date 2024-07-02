@@ -1,6 +1,6 @@
 # ansys.meshing.prime.PartialDefeatureParams.print_default
 
-<a id="ansys.meshing.prime.PartialDefeatureParams.print_default"></a>
+
 
 #### *static* PartialDefeatureParams.print_default()
 

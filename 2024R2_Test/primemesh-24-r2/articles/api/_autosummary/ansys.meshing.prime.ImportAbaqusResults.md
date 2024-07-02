@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # ImportAbaqusResults
 
-<a id="ansys.meshing.prime.ImportAbaqusResults"></a>
+
 
 ### *class* ansys.meshing.prime.ImportAbaqusResults(model=None, summary_log=None, error_code=None, warning_codes=None, json_data=None, \*\*kwargs)
 
@@ -50,4 +48,4 @@ Results of Abaqus import operation.
 | [`ImportAbaqusResults.error_code`](ansys.meshing.prime.ImportAbaqusResults.error_code.md#ansys.meshing.prime.ImportAbaqusResults.error_code)          | Error code associated with failure of operation.       |
 | [`ImportAbaqusResults.summary_log`](ansys.meshing.prime.ImportAbaqusResults.summary_log.md#ansys.meshing.prime.ImportAbaqusResults.summary_log)       | Summary log for the import operation in json format.   |
 | [`ImportAbaqusResults.warning_codes`](ansys.meshing.prime.ImportAbaqusResults.warning_codes.md#ansys.meshing.prime.ImportAbaqusResults.warning_codes) | Warning codes associated with Abaqus import operation. |
-<!-- vale on -->
+

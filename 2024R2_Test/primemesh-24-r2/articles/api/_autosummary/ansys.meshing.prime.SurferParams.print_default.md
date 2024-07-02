@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SurferParams.print_default
 
-<a id="ansys.meshing.prime.SurferParams.print_default"></a>
+
 
 #### *static* SurferParams.print_default()
 

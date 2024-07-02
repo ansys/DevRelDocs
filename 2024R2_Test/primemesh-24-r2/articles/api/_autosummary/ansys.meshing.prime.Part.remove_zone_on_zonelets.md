@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Part.remove_zone_on_zonelets
 
-<a id="ansys.meshing.prime.Part.remove_zone_on_zonelets"></a>
+
 
 #### Part.remove_zone_on_zonelets(zonelets)
 

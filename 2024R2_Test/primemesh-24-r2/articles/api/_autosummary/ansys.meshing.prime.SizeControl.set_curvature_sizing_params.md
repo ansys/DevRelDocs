@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SizeControl.set_curvature_sizing_params
 
-<a id="ansys.meshing.prime.SizeControl.set_curvature_sizing_params"></a>
+
 
 #### SizeControl.set_curvature_sizing_params(params)
 

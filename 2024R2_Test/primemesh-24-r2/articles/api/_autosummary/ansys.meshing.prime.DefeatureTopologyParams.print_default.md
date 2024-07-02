@@ -1,6 +1,6 @@
 # ansys.meshing.prime.DefeatureTopologyParams.print_default
 
-<a id="ansys.meshing.prime.DefeatureTopologyParams.print_default"></a>
+
 
 #### *static* DefeatureTopologyParams.print_default()
 

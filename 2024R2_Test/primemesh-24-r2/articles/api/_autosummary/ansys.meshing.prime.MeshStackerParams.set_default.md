@@ -1,6 +1,6 @@
 # ansys.meshing.prime.MeshStackerParams.set_default
 
-<a id="ansys.meshing.prime.MeshStackerParams.set_default"></a>
+
 
 #### *static* MeshStackerParams.set_default(origin=None, direction=None, lateral_defeature_tolerance=None, stacking_defeature_tolerance=None, max_offset_size=None, size_control_ids=None, delete_base=None)
 

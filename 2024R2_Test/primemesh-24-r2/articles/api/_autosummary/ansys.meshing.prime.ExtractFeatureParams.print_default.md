@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ExtractFeatureParams.print_default
 
-<a id="ansys.meshing.prime.ExtractFeatureParams.print_default"></a>
+
 
 #### *static* ExtractFeatureParams.print_default()
 

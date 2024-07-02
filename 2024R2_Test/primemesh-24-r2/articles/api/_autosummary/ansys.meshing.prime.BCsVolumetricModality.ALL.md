@@ -1,6 +1,6 @@
 # ansys.meshing.prime.BCsVolumetricModality.ALL
 
-<a id="ansys.meshing.prime.BCsVolumetricModality.ALL"></a>
+
 
 #### BCsVolumetricModality.ALL *= 2*
 

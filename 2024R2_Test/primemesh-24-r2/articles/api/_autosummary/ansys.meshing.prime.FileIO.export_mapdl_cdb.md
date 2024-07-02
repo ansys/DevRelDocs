@@ -1,6 +1,6 @@
 # ansys.meshing.prime.FileIO.export_mapdl_cdb
 
-<a id="ansys.meshing.prime.FileIO.export_mapdl_cdb"></a>
+
 
 #### FileIO.export_mapdl_cdb(file_name, params)
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ScaffolderResults.set_default
 
-<a id="ansys.meshing.prime.ScaffolderResults.set_default"></a>
+
 
 #### *static* ScaffolderResults.set_default(n_incomplete_topo_faces=None, error_code=None)
 

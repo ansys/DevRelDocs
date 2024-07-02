@@ -1,6 +1,6 @@
 # ansys.meshing.prime.RefineSplineParams.set_default
 
-<a id="ansys.meshing.prime.RefineSplineParams.set_default"></a>
+
 
 #### *static* RefineSplineParams.set_default(refine_flag_u=None, refine_flag_v=None, refine_flag_w=None, spline_refinement_type=None)
 

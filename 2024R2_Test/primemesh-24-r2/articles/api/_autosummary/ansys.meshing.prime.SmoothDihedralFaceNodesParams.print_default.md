@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SmoothDihedralFaceNodesParams.print_default
 
-<a id="ansys.meshing.prime.SmoothDihedralFaceNodesParams.print_default"></a>
+
 
 #### *static* SmoothDihedralFaceNodesParams.print_default()
 

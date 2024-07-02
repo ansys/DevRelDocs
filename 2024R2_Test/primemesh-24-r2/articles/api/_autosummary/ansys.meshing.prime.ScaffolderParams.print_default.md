@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ScaffolderParams.print_default
 
-<a id="ansys.meshing.prime.ScaffolderParams.print_default"></a>
+
 
 #### *static* ScaffolderParams.print_default()
 

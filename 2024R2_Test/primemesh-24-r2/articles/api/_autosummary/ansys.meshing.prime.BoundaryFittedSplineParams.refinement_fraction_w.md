@@ -1,6 +1,6 @@
 # ansys.meshing.prime.BoundaryFittedSplineParams.refinement_fraction_w
 
-<a id="ansys.meshing.prime.BoundaryFittedSplineParams.refinement_fraction_w"></a>
+
 
 #### *property* BoundaryFittedSplineParams.refinement_fraction_w *: [float](https://docs.python.org/3.11/library/functions.html#float)*
 

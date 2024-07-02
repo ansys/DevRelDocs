@@ -1,6 +1,6 @@
 # ansys.meshing.prime.QuadToSplineParams.separate_by_zone
 
-<a id="ansys.meshing.prime.QuadToSplineParams.separate_by_zone"></a>
+
 
 #### *property* QuadToSplineParams.separate_by_zone *: [bool](https://docs.python.org/3.11/library/functions.html#bool)*
 

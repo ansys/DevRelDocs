@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ThinVolumeControl.set_source_scope
 
-<a id="ansys.meshing.prime.ThinVolumeControl.set_source_scope"></a>
+
 
 #### ThinVolumeControl.set_source_scope(entities)
 

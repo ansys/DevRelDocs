@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Model.topo_data
 
-<a id="ansys.meshing.prime.Model.topo_data"></a>
+
 
 #### *property* Model.topo_data *: [TopoData](ansys.meshing.prime.TopoData.md#ansys.meshing.prime.TopoData)*
 

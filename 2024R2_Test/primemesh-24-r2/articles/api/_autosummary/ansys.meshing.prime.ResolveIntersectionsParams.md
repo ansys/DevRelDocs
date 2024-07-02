@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # ResolveIntersectionsParams
 
-<a id="ansys.meshing.prime.ResolveIntersectionsParams"></a>
+
 
 ### *class* ansys.meshing.prime.ResolveIntersectionsParams(model=None, number_of_threads=None, json_data=None, \*\*kwargs)
 
@@ -38,4 +36,4 @@ ResolveIntersectionsParams define parameters for resolve intersections.
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`ResolveIntersectionsParams.number_of_threads`](ansys.meshing.prime.ResolveIntersectionsParams.number_of_threads.md#ansys.meshing.prime.ResolveIntersectionsParams.number_of_threads)   | Number of threads for resolve intersections multithreaded operation.   |
-<!-- vale on -->
+

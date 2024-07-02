@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SearchByIntersectionResults.print_default
 
-<a id="ansys.meshing.prime.SearchByIntersectionResults.print_default"></a>
+
 
 #### *static* SearchByIntersectionResults.print_default()
 

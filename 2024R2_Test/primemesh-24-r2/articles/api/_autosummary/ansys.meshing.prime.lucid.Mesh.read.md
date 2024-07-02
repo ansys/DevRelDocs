@@ -1,6 +1,6 @@
 # ansys.meshing.prime.lucid.Mesh.read
 
-<a id="ansys.meshing.prime.lucid.Mesh.read"></a>
+
 
 #### Mesh.read(file_name, append=False, cad_reader_route=None)
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.lucid.Mesh.wrap
 
-<a id="ansys.meshing.prime.lucid.Mesh.wrap"></a>
+
 
 #### Mesh.wrap(min_size=None, max_size=None, growth_rate=1.2, elements_per_gap=None, normal_angle=18.0, input_parts='\*', input_labels='\*', keep_inputs=False, region_extract=WrapRegion.EXTERNAL, material_point=None, extract_features=True, create_intersection_loops=False, use_existing_features=False, enable_feature_octree_refinement=True, feature_angle=40.0, contact_prevention_size=None, number_of_threads=None, remesh_postwrap=True, recompute_remesh_sizes=False, use_existing_size_fields=False, size_fields=None, wrap_size_controls=None, remesh_size_controls=None, feature_recovery_params=None, contact_prevention_params=None, leak_prevention_params=None)
 

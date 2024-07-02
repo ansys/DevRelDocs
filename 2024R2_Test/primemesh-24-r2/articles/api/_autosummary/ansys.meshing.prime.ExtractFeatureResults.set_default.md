@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ExtractFeatureResults.set_default
 
-<a id="ansys.meshing.prime.ExtractFeatureResults.set_default"></a>
+
 
 #### *static* ExtractFeatureResults.set_default(processing_time=None, error_code=None, new_edge_zonelets=None)
 

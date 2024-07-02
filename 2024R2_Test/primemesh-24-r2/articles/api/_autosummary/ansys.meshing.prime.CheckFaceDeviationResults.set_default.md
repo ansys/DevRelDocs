@@ -1,6 +1,6 @@
 # ansys.meshing.prime.CheckFaceDeviationResults.set_default
 
-<a id="ansys.meshing.prime.CheckFaceDeviationResults.set_default"></a>
+
 
 #### *static* CheckFaceDeviationResults.set_default(n_deviated=None, maximum_deviation=None)
 

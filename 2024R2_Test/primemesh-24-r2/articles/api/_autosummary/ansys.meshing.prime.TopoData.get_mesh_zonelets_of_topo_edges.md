@@ -1,6 +1,6 @@
 # ansys.meshing.prime.TopoData.get_mesh_zonelets_of_topo_edges
 
-<a id="ansys.meshing.prime.TopoData.get_mesh_zonelets_of_topo_edges"></a>
+
 
 #### TopoData.get_mesh_zonelets_of_topo_edges(topo_edges)
 

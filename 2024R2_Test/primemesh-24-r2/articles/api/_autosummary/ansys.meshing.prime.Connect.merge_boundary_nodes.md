@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Connect.merge_boundary_nodes
 
-<a id="ansys.meshing.prime.Connect.merge_boundary_nodes"></a>
+
 
 #### Connect.merge_boundary_nodes(part_id, face_zonelet_ids, with_face_zonelet_ids, params)
 

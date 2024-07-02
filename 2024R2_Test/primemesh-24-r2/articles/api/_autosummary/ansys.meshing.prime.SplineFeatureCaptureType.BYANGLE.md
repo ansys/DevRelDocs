@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SplineFeatureCaptureType.BYANGLE
 
-<a id="ansys.meshing.prime.SplineFeatureCaptureType.BYANGLE"></a>
+
 
 #### SplineFeatureCaptureType.BYANGLE *= 1*
 

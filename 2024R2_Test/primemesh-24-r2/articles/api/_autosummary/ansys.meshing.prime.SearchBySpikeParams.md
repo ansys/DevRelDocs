@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # SearchBySpikeParams
 
-<a id="ansys.meshing.prime.SearchBySpikeParams"></a>
+
 
 ### *class* ansys.meshing.prime.SearchBySpikeParams(model=None, spike_angle=None, json_data=None, \*\*kwargs)
 
@@ -38,4 +36,4 @@ Parameters to control spike detection.
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
 | [`SearchBySpikeParams.spike_angle`](ansys.meshing.prime.SearchBySpikeParams.spike_angle.md#ansys.meshing.prime.SearchBySpikeParams.spike_angle)   | Threshold angle for spike detection.   |
-<!-- vale on -->
+

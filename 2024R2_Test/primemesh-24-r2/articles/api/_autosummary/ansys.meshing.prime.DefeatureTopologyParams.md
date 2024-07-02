@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # DefeatureTopologyParams
 
-<a id="ansys.meshing.prime.DefeatureTopologyParams"></a>
+
 
 ### *class* ansys.meshing.prime.DefeatureTopologyParams(model=None, partial_defeature=None, delete_interior_nodes=None, allow_curved_topo_faces=None, fillet_spanning_angle=None, aggressive_edge_merge=None, thin_stripes_tolerance=None, partial_defeature_params=None, delete_interior_nodes_params=None, json_data=None, \*\*kwargs)
 
@@ -82,4 +80,4 @@ Parameters for defeature topology operations.
 | [`DefeatureTopologyParams.partial_defeature`](ansys.meshing.prime.DefeatureTopologyParams.partial_defeature.md#ansys.meshing.prime.DefeatureTopologyParams.partial_defeature)                                  | Option to partial defeature.                                                           |
 | [`DefeatureTopologyParams.partial_defeature_params`](ansys.meshing.prime.DefeatureTopologyParams.partial_defeature_params.md#ansys.meshing.prime.DefeatureTopologyParams.partial_defeature_params)             | Parameters for partial defeature operation.                                            |
 | [`DefeatureTopologyParams.thin_stripes_tolerance`](ansys.meshing.prime.DefeatureTopologyParams.thin_stripes_tolerance.md#ansys.meshing.prime.DefeatureTopologyParams.thin_stripes_tolerance)                   | Topoface width tolerance to detect thin faces below the provided value.                |
-<!-- vale on -->
+

@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # ImportMapdlCdbParams
 
-<a id="ansys.meshing.prime.ImportMapdlCdbParams"></a>
+
 
 ### *class* ansys.meshing.prime.ImportMapdlCdbParams(model=None, drop_mid_nodes=None, append=None, json_data=None, \*\*kwargs)
 
@@ -42,4 +40,4 @@ Parameters to control MAPDL CDB import settings.
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
 | [`ImportMapdlCdbParams.append`](ansys.meshing.prime.ImportMapdlCdbParams.append.md#ansys.meshing.prime.ImportMapdlCdbParams.append)                         | Option to append imported cdb into existing model.                        |
 | [`ImportMapdlCdbParams.drop_mid_nodes`](ansys.meshing.prime.ImportMapdlCdbParams.drop_mid_nodes.md#ansys.meshing.prime.ImportMapdlCdbParams.drop_mid_nodes) | Option to import quadratic mesh elements as linear by skipping mid nodes. |
-<!-- vale on -->
+

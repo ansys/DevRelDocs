@@ -1,6 +1,6 @@
 # ansys.meshing.prime.FeatureExtraction.create_intersection_edge_loops
 
-<a id="ansys.meshing.prime.FeatureExtraction.create_intersection_edge_loops"></a>
+
 
 #### FeatureExtraction.create_intersection_edge_loops(part_face_zonelets, intersecting_part_face_zonelets, params)
 

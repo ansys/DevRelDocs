@@ -1,6 +1,6 @@
 # ansys.meshing.prime.WrapParams.set_default
 
-<a id="ansys.meshing.prime.WrapParams.set_default"></a>
+
 
 #### *static* WrapParams.set_default(sizing_method=None, base_size=None, size_control_ids=None, size_field_ids=None, wrap_region=None, number_of_threads=None, imprint_relative_range=None, imprint_iterations=None)
 

@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # TopoSearchField
 
-<a id="ansys.meshing.prime.TopoSearchField"></a>
+
 
 ### *class* ansys.meshing.prime.TopoSearchField(value)
 
@@ -22,4 +20,4 @@ Toposearch diagnostic field.
 | [`TopoSearchField.INVALIDBOUNDARYTOPOFACES`](ansys.meshing.prime.TopoSearchField.INVALIDBOUNDARYTOPOFACES.md#ansys.meshing.prime.TopoSearchField.INVALIDBOUNDARYTOPOFACES)    | Diagnoses topofaces with incorrect bounding edge orientation. |
 | [`TopoSearchField.SMALLTOPOEDGES`](ansys.meshing.prime.TopoSearchField.SMALLTOPOEDGES.md#ansys.meshing.prime.TopoSearchField.SMALLTOPOEDGES)                                  | Diagnoses topofaces with small topoedges.                     |
 | [`TopoSearchField.NUMBEROFFIELDS`](ansys.meshing.prime.TopoSearchField.NUMBEROFFIELDS.md#ansys.meshing.prime.TopoSearchField.NUMBEROFFIELDS)                                  | Diagnoses all topofaces.                                      |
-<!-- vale on -->
+

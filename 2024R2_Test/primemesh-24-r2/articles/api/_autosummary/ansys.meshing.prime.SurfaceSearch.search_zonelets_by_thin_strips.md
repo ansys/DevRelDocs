@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SurfaceSearch.search_zonelets_by_thin_strips
 
-<a id="ansys.meshing.prime.SurfaceSearch.search_zonelets_by_thin_strips"></a>
+
 
 #### SurfaceSearch.search_zonelets_by_thin_strips(part_id, face_zonelets, register_id, params)
 

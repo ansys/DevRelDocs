@@ -1,6 +1,6 @@
 # ansys.meshing.prime.MergeBoundaryNodesResults.set_default
 
-<a id="ansys.meshing.prime.MergeBoundaryNodesResults.set_default"></a>
+
 
 #### *static* MergeBoundaryNodesResults.set_default(error_code=None)
 

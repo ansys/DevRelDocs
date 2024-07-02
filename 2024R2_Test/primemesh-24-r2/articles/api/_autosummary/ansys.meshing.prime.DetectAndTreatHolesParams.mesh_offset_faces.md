@@ -1,6 +1,6 @@
 # ansys.meshing.prime.DetectAndTreatHolesParams.mesh_offset_faces
 
-<a id="ansys.meshing.prime.DetectAndTreatHolesParams.mesh_offset_faces"></a>
+
 
 #### *property* DetectAndTreatHolesParams.mesh_offset_faces *: [bool](https://docs.python.org/3.11/library/functions.html#bool)*
 

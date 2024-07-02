@@ -1,6 +1,6 @@
 # ansys.meshing.prime.RefineAtContactsResults.size_field_id
 
-<a id="ansys.meshing.prime.RefineAtContactsResults.size_field_id"></a>
+
 
 #### *property* RefineAtContactsResults.size_field_id *: [int](https://docs.python.org/3.11/library/functions.html#int)*
 

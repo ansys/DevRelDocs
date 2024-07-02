@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # MaterialPointManager
 
-<a id="ansys.meshing.prime.MaterialPointManager"></a>
+
 
 ### *class* ansys.meshing.prime.MaterialPointManager(model, id, object_id, name)
 
@@ -36,4 +34,4 @@ Provides functions for material point creation, deletion and queries.
 |-------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|
 | [`MaterialPointManager.id`](ansys.meshing.prime.MaterialPointManager.id.md#ansys.meshing.prime.MaterialPointManager.id)       | Get the id of MaterialPointManager.   |
 | [`MaterialPointManager.name`](ansys.meshing.prime.MaterialPointManager.name.md#ansys.meshing.prime.MaterialPointManager.name) | Get the name of MaterialPointManager. |
-<!-- vale on -->
+

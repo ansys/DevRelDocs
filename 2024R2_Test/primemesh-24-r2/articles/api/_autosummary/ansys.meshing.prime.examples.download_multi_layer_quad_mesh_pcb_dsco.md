@@ -1,6 +1,6 @@
 # ansys.meshing.prime.examples.download_multi_layer_quad_mesh_pcb_dsco
 
-<a id="ansys.meshing.prime.examples.download_multi_layer_quad_mesh_pcb_dsco"></a>
+
 
 ### ansys.meshing.prime.examples.download_multi_layer_quad_mesh_pcb_dsco(destination=None, force=False)
 

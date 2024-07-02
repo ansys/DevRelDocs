@@ -1,6 +1,6 @@
 # ansys.meshing.prime.CollapseTool.split_and_collapse_on_zonelets
 
-<a id="ansys.meshing.prime.CollapseTool.split_and_collapse_on_zonelets"></a>
+
 
 #### CollapseTool.split_and_collapse_on_zonelets(part_id, face_zonelets, register_id, split_params, collapse_params)
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Model.merge_parts
 
-<a id="ansys.meshing.prime.Model.merge_parts"></a>
+
 
 #### Model.merge_parts(part_ids, params)
 

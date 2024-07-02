@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ImportCadParams.print_default
 
-<a id="ansys.meshing.prime.ImportCadParams.print_default"></a>
+
 
 #### *static* ImportCadParams.print_default()
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ExportFluentCaseParams.set_default
 
-<a id="ansys.meshing.prime.ExportFluentCaseParams.set_default"></a>
+
 
 #### *static* ExportFluentCaseParams.set_default(cff_format=None)
 

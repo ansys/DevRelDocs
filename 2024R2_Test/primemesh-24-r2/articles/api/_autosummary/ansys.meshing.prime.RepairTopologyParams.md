@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # RepairTopologyParams
 
-<a id="ansys.meshing.prime.RepairTopologyParams"></a>
+
 
 ### *class* ansys.meshing.prime.RepairTopologyParams(model=None, connect_faces=None, repair_edges=None, split_topo_edges_at_apex_point=None, fillet_max_radius=None, smallest_edge_length=None, merge_edge_allow_self_close=None, suppress_shared_edges_when_merging=None, edge_connect_type=None, connect_faces_params=None, repair_edges_params=None, json_data=None, \*\*kwargs)
 
@@ -94,4 +92,4 @@ Parameters for repair topology operations.
 | [`RepairTopologyParams.smallest_edge_length`](ansys.meshing.prime.RepairTopologyParams.smallest_edge_length.md#ansys.meshing.prime.RepairTopologyParams.smallest_edge_length)                                           | Length of smallest edge for which split is applied. |
 | [`RepairTopologyParams.split_topo_edges_at_apex_point`](ansys.meshing.prime.RepairTopologyParams.split_topo_edges_at_apex_point.md#ansys.meshing.prime.RepairTopologyParams.split_topo_edges_at_apex_point)             | Option to split edges at apex point.                |
 | [`RepairTopologyParams.suppress_shared_edges_when_merging`](ansys.meshing.prime.RepairTopologyParams.suppress_shared_edges_when_merging.md#ansys.meshing.prime.RepairTopologyParams.suppress_shared_edges_when_merging) | Option for suppressing shared edges when merging.   |
-<!-- vale on -->
+

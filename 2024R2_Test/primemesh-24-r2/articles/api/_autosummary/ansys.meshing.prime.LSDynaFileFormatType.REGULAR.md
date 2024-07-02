@@ -1,6 +1,6 @@
 # ansys.meshing.prime.LSDynaFileFormatType.REGULAR
 
-<a id="ansys.meshing.prime.LSDynaFileFormatType.REGULAR"></a>
+
 
 #### LSDynaFileFormatType.REGULAR *= 0*
 

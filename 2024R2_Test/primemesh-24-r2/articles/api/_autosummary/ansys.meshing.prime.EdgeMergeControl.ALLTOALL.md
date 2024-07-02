@@ -1,6 +1,6 @@
 # ansys.meshing.prime.EdgeMergeControl.ALLTOALL
 
-<a id="ansys.meshing.prime.EdgeMergeControl.ALLTOALL"></a>
+
 
 #### EdgeMergeControl.ALLTOALL *= 1*
 

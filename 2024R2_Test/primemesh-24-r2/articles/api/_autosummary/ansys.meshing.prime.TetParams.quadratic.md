@@ -1,6 +1,6 @@
 # ansys.meshing.prime.TetParams.quadratic
 
-<a id="ansys.meshing.prime.TetParams.quadratic"></a>
+
 
 #### *property* TetParams.quadratic *: [bool](https://docs.python.org/3.11/library/functions.html#bool)*
 

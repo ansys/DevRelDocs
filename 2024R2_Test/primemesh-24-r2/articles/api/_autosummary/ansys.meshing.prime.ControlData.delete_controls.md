@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ControlData.delete_controls
 
-<a id="ansys.meshing.prime.ControlData.delete_controls"></a>
+
 
 #### ControlData.delete_controls(control_ids)
 

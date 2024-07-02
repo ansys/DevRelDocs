@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # WrapperCloseGapsParams
 
-<a id="ansys.meshing.prime.WrapperCloseGapsParams"></a>
+
 
 ### *class* ansys.meshing.prime.WrapperCloseGapsParams(model=None, target=None, gap_size=None, material_point_name=None, suggested_part_name=None, number_of_threads=None, create_new_part=None, resolution_factor=None, json_data=None, \*\*kwargs)
 
@@ -62,4 +60,4 @@ WrapperCloseGapsParams to define parameters for close gaps operation.
 | [`WrapperCloseGapsParams.resolution_factor`](ansys.meshing.prime.WrapperCloseGapsParams.resolution_factor.md#ansys.meshing.prime.WrapperCloseGapsParams.resolution_factor)       | Factor to resolve the smallest gap for the given gap size.            |
 | [`WrapperCloseGapsParams.suggested_part_name`](ansys.meshing.prime.WrapperCloseGapsParams.suggested_part_name.md#ansys.meshing.prime.WrapperCloseGapsParams.suggested_part_name) | Suggested part name for created patching surfaces.                    |
 | [`WrapperCloseGapsParams.target`](ansys.meshing.prime.WrapperCloseGapsParams.target.md#ansys.meshing.prime.WrapperCloseGapsParams.target)                                        | Scope of target face zonelets to patch gaps between scope and target. |
-<!-- vale on -->
+

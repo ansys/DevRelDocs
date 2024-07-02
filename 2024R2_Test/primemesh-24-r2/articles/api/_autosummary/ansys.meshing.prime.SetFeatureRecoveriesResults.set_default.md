@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SetFeatureRecoveriesResults.set_default
 
-<a id="ansys.meshing.prime.SetFeatureRecoveriesResults.set_default"></a>
+
 
 #### *static* SetFeatureRecoveriesResults.set_default(ids=None, error_code=None)
 

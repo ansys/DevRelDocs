@@ -1,6 +1,6 @@
 # ansys.meshing.prime.FileIO.read_pmdat
 
-<a id="ansys.meshing.prime.FileIO.read_pmdat"></a>
+
 
 #### FileIO.read_pmdat(file_name, file_read_params)
 

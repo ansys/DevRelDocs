@@ -1,6 +1,6 @@
 # ansys.meshing.prime.MultiZoneSizingParams.print_default
 
-<a id="ansys.meshing.prime.MultiZoneSizingParams.print_default"></a>
+
 
 #### *static* MultiZoneSizingParams.print_default()
 

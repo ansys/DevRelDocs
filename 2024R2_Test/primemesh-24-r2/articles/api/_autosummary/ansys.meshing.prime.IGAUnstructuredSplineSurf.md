@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # IGAUnstructuredSplineSurf
 
-<a id="ansys.meshing.prime.IGAUnstructuredSplineSurf"></a>
+
 
 ### *class* ansys.meshing.prime.IGAUnstructuredSplineSurf(model=None, id=None, spline_refinement_level=None, control_points=None, spline_points=None, bad_spline_points_indices=None, deviation_array=None, invalid_jacobian_elements_count=None, average_mesh_size=None, elements_count=None, shell_thickness=None, json_data=None, \*\*kwargs)
 
@@ -74,4 +72,4 @@ Information of unstructured spline surface.
 | [`IGAUnstructuredSplineSurf.shell_thickness`](ansys.meshing.prime.IGAUnstructuredSplineSurf.shell_thickness.md#ansys.meshing.prime.IGAUnstructuredSplineSurf.shell_thickness)                                                 | Thickness of shell.                                                       |
 | [`IGAUnstructuredSplineSurf.spline_points`](ansys.meshing.prime.IGAUnstructuredSplineSurf.spline_points.md#ansys.meshing.prime.IGAUnstructuredSplineSurf.spline_points)                                                       | Coordinates of the spline points.                                         |
 | [`IGAUnstructuredSplineSurf.spline_refinement_level`](ansys.meshing.prime.IGAUnstructuredSplineSurf.spline_refinement_level.md#ansys.meshing.prime.IGAUnstructuredSplineSurf.spline_refinement_level)                         | Refinement level for rendering of spline points.                          |
-<!-- vale on -->
+

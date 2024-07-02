@@ -1,6 +1,6 @@
 # ansys.meshing.prime.CurvatureSizingParams.set_default
 
-<a id="ansys.meshing.prime.CurvatureSizingParams.set_default"></a>
+
 
 #### *static* CurvatureSizingParams.set_default(min=None, max=None, growth_rate=None, normal_angle=None, use_cad_curvature=None)
 

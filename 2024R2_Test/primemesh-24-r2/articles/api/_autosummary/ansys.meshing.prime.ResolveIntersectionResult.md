@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # ResolveIntersectionResult
 
-<a id="ansys.meshing.prime.ResolveIntersectionResult"></a>
+
 
 ### *class* ansys.meshing.prime.ResolveIntersectionResult(model=None, error_code=None, json_data=None, \*\*kwargs)
 
@@ -38,4 +36,4 @@ Result structure associated with resolve intersections operation.
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
 | [`ResolveIntersectionResult.error_code`](ansys.meshing.prime.ResolveIntersectionResult.error_code.md#ansys.meshing.prime.ResolveIntersectionResult.error_code)   | Errror code associated with a resolve intersections operation.   |
-<!-- vale on -->
+

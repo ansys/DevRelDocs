@@ -1,6 +1,6 @@
 # ansys.meshing.prime.DeleteUnwettedResult.set_default
 
-<a id="ansys.meshing.prime.DeleteUnwettedResult.set_default"></a>
+
 
 #### *static* DeleteUnwettedResult.set_default(error_code=None)
 

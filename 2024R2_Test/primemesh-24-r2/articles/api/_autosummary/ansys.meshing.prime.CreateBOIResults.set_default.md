@@ -1,6 +1,6 @@
 # ansys.meshing.prime.CreateBOIResults.set_default
 
-<a id="ansys.meshing.prime.CreateBOIResults.set_default"></a>
+
 
 #### *static* CreateBOIResults.set_default(error_code=None, part_id=None)
 

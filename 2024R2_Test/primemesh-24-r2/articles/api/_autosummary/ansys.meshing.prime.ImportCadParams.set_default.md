@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ImportCadParams.set_default
 
-<a id="ansys.meshing.prime.ImportCadParams.set_default"></a>
+
 
 #### *static* ImportCadParams.set_default(append=None, ansys_release=None, cad_reader_route=None, part_creation_type=None, geometry_transfer=None, length_unit=None, refacet=None, cad_refaceting_params=None, stitch_tolerance=None, cad_update_parameters=None, validate_shared_topology=None)
 

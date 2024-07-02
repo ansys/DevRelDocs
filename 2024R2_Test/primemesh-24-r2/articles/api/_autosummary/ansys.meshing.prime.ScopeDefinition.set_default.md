@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ScopeDefinition.set_default
 
-<a id="ansys.meshing.prime.ScopeDefinition.set_default"></a>
+
 
 #### *static* ScopeDefinition.set_default(entity_type=None, evaluation_type=None, part_expression=None, label_expression=None, zone_expression=None)
 

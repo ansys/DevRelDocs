@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # FaceConnectivityResults
 
-<a id="ansys.meshing.prime.FaceConnectivityResults"></a>
+
 
 ### *class* ansys.meshing.prime.FaceConnectivityResults(model=None, error_code=None, face_zonelet_ids=None, topo_face_ids=None, mesh_face_ids=None, face_zone_ids=None, face_zone_names=None, num_nodes_per_face_zonelet=None, node_coords=None, num_face_list_per_face_zonelet=None, face_list=None, json_data=None, \*\*kwargs)
 
@@ -74,4 +72,4 @@ Result of the face connectivity information.
 | [`FaceConnectivityResults.num_face_list_per_face_zonelet`](ansys.meshing.prime.FaceConnectivityResults.num_face_list_per_face_zonelet.md#ansys.meshing.prime.FaceConnectivityResults.num_face_list_per_face_zonelet) | Number of face list per face zonelet.                                       |
 | [`FaceConnectivityResults.num_nodes_per_face_zonelet`](ansys.meshing.prime.FaceConnectivityResults.num_nodes_per_face_zonelet.md#ansys.meshing.prime.FaceConnectivityResults.num_nodes_per_face_zonelet)             | Number of nodes per face zonelet.                                           |
 | [`FaceConnectivityResults.topo_face_ids`](ansys.meshing.prime.FaceConnectivityResults.topo_face_ids.md#ansys.meshing.prime.FaceConnectivityResults.topo_face_ids)                                                    | TopoFace ids corresponding to each face zonelet id for topology based mesh. |
-<!-- vale on -->
+

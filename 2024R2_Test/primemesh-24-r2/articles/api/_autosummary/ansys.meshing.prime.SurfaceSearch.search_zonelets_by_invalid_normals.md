@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SurfaceSearch.search_zonelets_by_invalid_normals
 
-<a id="ansys.meshing.prime.SurfaceSearch.search_zonelets_by_invalid_normals"></a>
+
 
 #### SurfaceSearch.search_zonelets_by_invalid_normals(part_id, face_zonelets, register_id)
 

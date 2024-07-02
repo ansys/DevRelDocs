@@ -1,6 +1,6 @@
 # ansys.meshing.prime.WrapperControl.get_live_material_points
 
-<a id="ansys.meshing.prime.WrapperControl.get_live_material_points"></a>
+
 
 #### WrapperControl.get_live_material_points()
 

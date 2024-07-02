@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # ReadSizeFieldParams
 
-<a id="ansys.meshing.prime.ReadSizeFieldParams"></a>
+
 
 ### *class* ansys.meshing.prime.ReadSizeFieldParams(model=None, append=None, json_data=None, \*\*kwargs)
 
@@ -38,4 +36,4 @@ Parameters used to read size field file.
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
 | [`ReadSizeFieldParams.append`](ansys.meshing.prime.ReadSizeFieldParams.append.md#ansys.meshing.prime.ReadSizeFieldParams.append)   | Option to append the size fields from file.   |
-<!-- vale on -->
+

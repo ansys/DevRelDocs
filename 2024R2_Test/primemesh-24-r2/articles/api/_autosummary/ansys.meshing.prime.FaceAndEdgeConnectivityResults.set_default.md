@@ -1,6 +1,6 @@
 # ansys.meshing.prime.FaceAndEdgeConnectivityResults.set_default
 
-<a id="ansys.meshing.prime.FaceAndEdgeConnectivityResults.set_default"></a>
+
 
 #### *static* FaceAndEdgeConnectivityResults.set_default(error_code=None, part_ids=None, face_connectivity_result_per_part=None, edge_connectivity_result_per_part=None)
 

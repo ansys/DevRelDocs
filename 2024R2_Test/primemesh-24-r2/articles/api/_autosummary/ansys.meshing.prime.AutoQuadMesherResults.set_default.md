@@ -1,6 +1,6 @@
 # ansys.meshing.prime.AutoQuadMesherResults.set_default
 
-<a id="ansys.meshing.prime.AutoQuadMesherResults.set_default"></a>
+
 
 #### *static* AutoQuadMesherResults.set_default(error_code=None, warning_codes=None, failed_topo_face_ids=None)
 

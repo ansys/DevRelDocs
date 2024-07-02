@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ScaffolderParams.remove_holes_critical_radius
 
-<a id="ansys.meshing.prime.ScaffolderParams.remove_holes_critical_radius"></a>
+
 
 #### *property* ScaffolderParams.remove_holes_critical_radius *: [float](https://docs.python.org/3.11/library/functions.html#float)*
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.DeleteUnwettedResult.print_default
 
-<a id="ansys.meshing.prime.DeleteUnwettedResult.print_default"></a>
+
 
 #### *static* DeleteUnwettedResult.print_default()
 

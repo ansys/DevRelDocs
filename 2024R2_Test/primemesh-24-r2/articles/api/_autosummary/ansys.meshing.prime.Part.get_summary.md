@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Part.get_summary
 
-<a id="ansys.meshing.prime.Part.get_summary"></a>
+
 
 #### Part.get_summary(params)
 

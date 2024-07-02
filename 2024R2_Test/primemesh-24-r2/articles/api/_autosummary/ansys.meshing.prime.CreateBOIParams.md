@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # CreateBOIParams
 
-<a id="ansys.meshing.prime.CreateBOIParams"></a>
+
 
 ### *class* ansys.meshing.prime.CreateBOIParams(model=None, boi_type=None, perform_initial_wrap=None, wrap_size=None, flow_dir=None, side_scale=None, wake_scale=None, wake_levels=None, suggested_part_name=None, suggested_label_prefix=None, number_of_threads=None, json_data=None, \*\*kwargs)
 
@@ -74,4 +72,4 @@ Parameters used for BOI surface creation in the given axis.
 | [`CreateBOIParams.wake_levels`](ansys.meshing.prime.CreateBOIParams.wake_levels.md#ansys.meshing.prime.CreateBOIParams.wake_levels)                                  | BOI levels.                                                                                        |
 | [`CreateBOIParams.wake_scale`](ansys.meshing.prime.CreateBOIParams.wake_scale.md#ansys.meshing.prime.CreateBOIParams.wake_scale)                                     | BOI flow direction scaling factor.                                                                 |
 | [`CreateBOIParams.wrap_size`](ansys.meshing.prime.CreateBOIParams.wrap_size.md#ansys.meshing.prime.CreateBOIParams.wrap_size)                                        | Set wrap size greater than the largest gap size in the input when performing_initial_wrap is true. |
-<!-- vale on -->
+

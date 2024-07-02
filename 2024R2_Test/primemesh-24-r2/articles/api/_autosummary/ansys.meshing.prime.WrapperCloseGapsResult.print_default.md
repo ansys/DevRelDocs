@@ -1,6 +1,6 @@
 # ansys.meshing.prime.WrapperCloseGapsResult.print_default
 
-<a id="ansys.meshing.prime.WrapperCloseGapsResult.print_default"></a>
+
 
 #### *static* WrapperCloseGapsResult.print_default()
 

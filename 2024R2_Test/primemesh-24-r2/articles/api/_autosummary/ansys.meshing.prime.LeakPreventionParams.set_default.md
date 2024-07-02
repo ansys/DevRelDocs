@@ -1,6 +1,6 @@
 # ansys.meshing.prime.LeakPreventionParams.set_default
 
-<a id="ansys.meshing.prime.LeakPreventionParams.set_default"></a>
+
 
 #### *static* LeakPreventionParams.set_default(material_points=None, scope=None, max_hole_size=None, n_expansion_layers=None)
 

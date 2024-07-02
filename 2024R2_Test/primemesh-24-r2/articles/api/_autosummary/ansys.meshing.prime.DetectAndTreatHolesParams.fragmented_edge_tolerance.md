@@ -1,6 +1,6 @@
 # ansys.meshing.prime.DetectAndTreatHolesParams.fragmented_edge_tolerance
 
-<a id="ansys.meshing.prime.DetectAndTreatHolesParams.fragmented_edge_tolerance"></a>
+
 
 #### *property* DetectAndTreatHolesParams.fragmented_edge_tolerance *: [float](https://docs.python.org/3.11/library/functions.html#float)*
 

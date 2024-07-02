@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # ExportLSDynaKeywordFileParams
 
-<a id="ansys.meshing.prime.ExportLSDynaKeywordFileParams"></a>
+
 
 ### *class* ansys.meshing.prime.ExportLSDynaKeywordFileParams(model=None, material_properties=None, database_keywords=None, output_format=None, analysis_type=None, compute_spotweld_thickness=None, json_data=None, \*\*kwargs)
 
@@ -64,4 +62,4 @@ Parameters to control LS-DYNA keyword file export settings.
 | [`ExportLSDynaKeywordFileParams.database_keywords`](ansys.meshing.prime.ExportLSDynaKeywordFileParams.database_keywords.md#ansys.meshing.prime.ExportLSDynaKeywordFileParams.database_keywords)                            | Database keywords in LS-DYNA format to be added to the file.                  |
 | [`ExportLSDynaKeywordFileParams.material_properties`](ansys.meshing.prime.ExportLSDynaKeywordFileParams.material_properties.md#ansys.meshing.prime.ExportLSDynaKeywordFileParams.material_properties)                      | Materials in LS-DYNA format to be added to the file.                          |
 | [`ExportLSDynaKeywordFileParams.output_format`](ansys.meshing.prime.ExportLSDynaKeywordFileParams.output_format.md#ansys.meshing.prime.ExportLSDynaKeywordFileParams.output_format)                                        | Output file format used to write LS-DYNA file.                                |
-<!-- vale on -->
+

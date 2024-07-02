@@ -1,6 +1,6 @@
 # ansys.meshing.prime.MultiZoneMapMeshParams.set_default
 
-<a id="ansys.meshing.prime.MultiZoneMapMeshParams.set_default"></a>
+
 
 #### *static* MultiZoneMapMeshParams.set_default(scope=None)
 

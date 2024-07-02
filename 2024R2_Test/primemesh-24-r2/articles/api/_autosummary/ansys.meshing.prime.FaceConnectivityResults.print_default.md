@@ -1,6 +1,6 @@
 # ansys.meshing.prime.FaceConnectivityResults.print_default
 
-<a id="ansys.meshing.prime.FaceConnectivityResults.print_default"></a>
+
 
 #### *static* FaceConnectivityResults.print_default()
 

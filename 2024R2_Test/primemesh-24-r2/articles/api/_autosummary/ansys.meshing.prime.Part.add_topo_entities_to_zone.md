@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Part.add_topo_entities_to_zone
 
-<a id="ansys.meshing.prime.Part.add_topo_entities_to_zone"></a>
+
 
 #### Part.add_topo_entities_to_zone(zone_id, topo_entities)
 

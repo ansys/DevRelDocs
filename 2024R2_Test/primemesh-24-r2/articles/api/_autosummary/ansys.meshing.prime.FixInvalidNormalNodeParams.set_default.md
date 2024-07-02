@@ -1,6 +1,6 @@
 # ansys.meshing.prime.FixInvalidNormalNodeParams.set_default
 
-<a id="ansys.meshing.prime.FixInvalidNormalNodeParams.set_default"></a>
+
 
 #### *static* FixInvalidNormalNodeParams.set_default(nugget_size=None, nugget_mesh_size=None, label=None)
 

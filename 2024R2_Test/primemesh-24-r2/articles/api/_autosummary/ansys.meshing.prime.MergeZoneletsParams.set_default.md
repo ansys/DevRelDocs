@@ -1,6 +1,6 @@
 # ansys.meshing.prime.MergeZoneletsParams.set_default
 
-<a id="ansys.meshing.prime.MergeZoneletsParams.set_default"></a>
+
 
 #### *static* MergeZoneletsParams.set_default(merge_small_zonelets_with_neighbors=None, element_count_limit=None)
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.PeriodicControlParams.set_default
 
-<a id="ansys.meshing.prime.PeriodicControlParams.set_default"></a>
+
 
 #### *static* PeriodicControlParams.set_default(center=None, axis=None, angle=None)
 

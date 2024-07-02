@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # Client
 
-<a id="ansys.meshing.prime.Client"></a>
+
 
 ### *class* ansys.meshing.prime.Client(\*, server_process=None, ip='127.0.0.1', port=50055, timeout=20.0, credentials=None, \*\*kwargs)
 
@@ -41,4 +39,4 @@ Provides the `Client` class for PyPrimeMesh.
 | Name | Description |
 |------------------------------------------------------------------------------------------|-----------------------------------------|
 | [`Client.model`](ansys.meshing.prime.Client.model.md#ansys.meshing.prime.Client.model)   | Get model associated with the client.   |
-<!-- vale on -->
+

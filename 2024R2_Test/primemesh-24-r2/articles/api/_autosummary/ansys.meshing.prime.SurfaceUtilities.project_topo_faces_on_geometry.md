@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SurfaceUtilities.project_topo_faces_on_geometry
 
-<a id="ansys.meshing.prime.SurfaceUtilities.project_topo_faces_on_geometry"></a>
+
 
 #### SurfaceUtilities.project_topo_faces_on_geometry(topo_faces, params)
 

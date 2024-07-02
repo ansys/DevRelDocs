@@ -1,6 +1,6 @@
 # ansys.meshing.prime.DeleteUnwettedResult.error_code
 
-<a id="ansys.meshing.prime.DeleteUnwettedResult.error_code"></a>
+
 
 #### *property* DeleteUnwettedResult.error_code *: [ErrorCode](ansys.meshing.prime.ErrorCode.md#ansys.meshing.prime.ErrorCode)*
 

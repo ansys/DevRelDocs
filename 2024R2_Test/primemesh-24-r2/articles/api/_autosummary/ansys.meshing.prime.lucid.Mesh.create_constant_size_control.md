@@ -1,6 +1,6 @@
 # ansys.meshing.prime.lucid.Mesh.create_constant_size_control
 
-<a id="ansys.meshing.prime.lucid.Mesh.create_constant_size_control"></a>
+
 
 #### Mesh.create_constant_size_control(control_name='size_control', size=1.0, scope=<ansys.meshing.prime.lucid.scope.SurfaceScope object>)
 

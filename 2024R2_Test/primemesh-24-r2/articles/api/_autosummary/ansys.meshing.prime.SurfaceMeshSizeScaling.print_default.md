@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SurfaceMeshSizeScaling.print_default
 
-<a id="ansys.meshing.prime.SurfaceMeshSizeScaling.print_default"></a>
+
 
 #### *static* SurfaceMeshSizeScaling.print_default()
 

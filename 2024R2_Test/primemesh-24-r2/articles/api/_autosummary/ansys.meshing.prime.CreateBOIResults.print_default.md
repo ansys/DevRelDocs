@@ -1,6 +1,6 @@
 # ansys.meshing.prime.CreateBOIResults.print_default
 
-<a id="ansys.meshing.prime.CreateBOIResults.print_default"></a>
+
 
 #### *static* CreateBOIResults.print_default()
 

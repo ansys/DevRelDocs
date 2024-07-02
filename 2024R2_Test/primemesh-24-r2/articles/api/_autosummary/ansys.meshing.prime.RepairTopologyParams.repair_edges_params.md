@@ -1,6 +1,6 @@
 # ansys.meshing.prime.RepairTopologyParams.repair_edges_params
 
-<a id="ansys.meshing.prime.RepairTopologyParams.repair_edges_params"></a>
+
 
 #### *property* RepairTopologyParams.repair_edges_params *: [RepairEdgesParams](ansys.meshing.prime.RepairEdgesParams.md#ansys.meshing.prime.RepairEdgesParams)*
 

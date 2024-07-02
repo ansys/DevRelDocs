@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SurfaceUtilities.create_contact_patch
 
-<a id="ansys.meshing.prime.SurfaceUtilities.create_contact_patch"></a>
+
 
 #### SurfaceUtilities.create_contact_patch(source_zonelets, target_zonelets, params)
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.PrismControlOffsetType.LASTRATIO
 
-<a id="ansys.meshing.prime.PrismControlOffsetType.LASTRATIO"></a>
+
 
 #### PrismControlOffsetType.LASTRATIO *= 2*
 

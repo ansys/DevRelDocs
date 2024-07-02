@@ -1,6 +1,6 @@
 # ansys.meshing.prime.LSDynaFileFormatType.I10
 
-<a id="ansys.meshing.prime.LSDynaFileFormatType.I10"></a>
+
 
 #### LSDynaFileFormatType.I10 *= 1*
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SurferResults.set_default
 
-<a id="ansys.meshing.prime.SurferResults.set_default"></a>
+
 
 #### *static* SurferResults.set_default(error_code=None, topofaces_not_projected_on_geometry=None)
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.CreateContactPatchResults.print_default
 
-<a id="ansys.meshing.prime.CreateContactPatchResults.print_default"></a>
+
 
 #### *static* CreateContactPatchResults.print_default()
 

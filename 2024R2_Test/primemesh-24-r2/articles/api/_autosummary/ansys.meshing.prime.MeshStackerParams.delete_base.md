@@ -1,6 +1,6 @@
 # ansys.meshing.prime.MeshStackerParams.delete_base
 
-<a id="ansys.meshing.prime.MeshStackerParams.delete_base"></a>
+
 
 #### *property* MeshStackerParams.delete_base *: [bool](https://docs.python.org/3.11/library/functions.html#bool)*
 

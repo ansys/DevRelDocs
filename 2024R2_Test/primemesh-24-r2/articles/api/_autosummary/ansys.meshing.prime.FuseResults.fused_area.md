@@ -1,6 +1,6 @@
 # ansys.meshing.prime.FuseResults.fused_area
 
-<a id="ansys.meshing.prime.FuseResults.fused_area"></a>
+
 
 #### *property* FuseResults.fused_area *: [float](https://docs.python.org/3.11/library/functions.html#float)*
 

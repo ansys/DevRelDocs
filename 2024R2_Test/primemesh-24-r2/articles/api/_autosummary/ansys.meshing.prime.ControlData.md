@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # ControlData
 
-<a id="ansys.meshing.prime.ControlData"></a>
+
 
 ### *class* ansys.meshing.prime.ControlData(model, id, object_id, name)
 
@@ -63,4 +61,4 @@ and wrapper controls.
 | [`ControlData.thin_volume_controls`](ansys.meshing.prime.ControlData.thin_volume_controls.md#ansys.meshing.prime.ControlData.thin_volume_controls) | Get the thin volume controls. |
 | [`ControlData.volume_controls`](ansys.meshing.prime.ControlData.volume_controls.md#ansys.meshing.prime.ControlData.volume_controls)                | Get the volume controls.      |
 | [`ControlData.wrapper_controls`](ansys.meshing.prime.ControlData.wrapper_controls.md#ansys.meshing.prime.ControlData.wrapper_controls)             | Get the wrapper controls.     |
-<!-- vale on -->
+

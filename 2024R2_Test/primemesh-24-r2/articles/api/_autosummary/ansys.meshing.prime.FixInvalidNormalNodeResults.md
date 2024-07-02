@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # FixInvalidNormalNodeResults
 
-<a id="ansys.meshing.prime.FixInvalidNormalNodeResults"></a>
+
 
 ### *class* ansys.meshing.prime.FixInvalidNormalNodeResults(model=None, error_code=None, json_data=None, \*\*kwargs)
 
@@ -38,4 +36,4 @@ Results associated with fix invalid average face normal at nodes.
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
 | [`FixInvalidNormalNodeResults.error_code`](ansys.meshing.prime.FixInvalidNormalNodeResults.error_code.md#ansys.meshing.prime.FixInvalidNormalNodeResults.error_code)   | Error code associated with failure of operation.   |
-<!-- vale on -->
+

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ComputeVolumesParams.set_default
 
-<a id="ansys.meshing.prime.ComputeVolumesParams.set_default"></a>
+
 
 #### *static* ComputeVolumesParams.set_default(volume_naming_type=None, create_zones_type=None, priority_ordered_names=None, material_point_names=None)
 

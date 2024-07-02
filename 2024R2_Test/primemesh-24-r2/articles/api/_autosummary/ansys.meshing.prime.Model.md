@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # Model
 
-<a id="ansys.meshing.prime.Model"></a>
+
 
 ### *class* ansys.meshing.prime.Model(comm, id, object_id, name)
 
@@ -62,4 +60,4 @@ Model allows you to query TopoData, ControlData, Parts, SizeFields and more.
 | [`Model.parts`](ansys.meshing.prime.Model.parts.md#ansys.meshing.prime.Model.parts)                                           | Get the list of parts for the model.                           |
 | [`Model.python_logger`](ansys.meshing.prime.Model.python_logger.md#ansys.meshing.prime.Model.python_logger)                   | Get python standard logger from PyPrimeMesh's logger instance. |
 | [`Model.topo_data`](ansys.meshing.prime.Model.topo_data.md#ansys.meshing.prime.Model.topo_data)                               | Get the TopoData for the model.                                |
-<!-- vale on -->
+

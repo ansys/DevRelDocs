@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SurfaceQualitySummaryParams.set_default
 
-<a id="ansys.meshing.prime.SurfaceQualitySummaryParams.set_default"></a>
+
 
 #### *static* SurfaceQualitySummaryParams.set_default(face_quality_measures=None, scope=None, quality_limit=None)
 

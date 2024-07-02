@@ -1,6 +1,6 @@
 # ansys.meshing.prime.DetectHolesParams.set_default
 
-<a id="ansys.meshing.prime.DetectHolesParams.set_default"></a>
+
 
 #### *static* DetectHolesParams.set_default(max_radius_circular_holes=None, min_radius_circular_holes=None, max_hole_length=None, min_hole_length=None, allow_curved_topo_faces=None)
 

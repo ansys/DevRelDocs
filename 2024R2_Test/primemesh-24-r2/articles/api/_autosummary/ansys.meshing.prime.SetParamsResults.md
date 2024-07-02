@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # SetParamsResults
 
-<a id="ansys.meshing.prime.SetParamsResults"></a>
+
 
 ### *class* ansys.meshing.prime.SetParamsResults(model=None, error_code=None, warning_code=None, json_data=None, \*\*kwargs)
 
@@ -42,4 +40,4 @@ Results associated with the set parameters operation.
 |-------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
 | [`SetParamsResults.error_code`](ansys.meshing.prime.SetParamsResults.error_code.md#ansys.meshing.prime.SetParamsResults.error_code)       | Error code associated with the set parameters operation.   |
 | [`SetParamsResults.warning_code`](ansys.meshing.prime.SetParamsResults.warning_code.md#ansys.meshing.prime.SetParamsResults.warning_code) | Warning code associated with the set parameters operation. |
-<!-- vale on -->
+

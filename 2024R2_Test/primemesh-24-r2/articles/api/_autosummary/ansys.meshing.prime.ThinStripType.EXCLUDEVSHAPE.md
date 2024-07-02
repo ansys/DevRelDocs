@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ThinStripType.EXCLUDEVSHAPE
 
-<a id="ansys.meshing.prime.ThinStripType.EXCLUDEVSHAPE"></a>
+
 
 #### ThinStripType.EXCLUDEVSHAPE *= 1*
 

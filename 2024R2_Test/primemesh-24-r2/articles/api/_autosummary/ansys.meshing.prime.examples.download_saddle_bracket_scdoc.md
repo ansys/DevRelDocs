@@ -1,6 +1,6 @@
 # ansys.meshing.prime.examples.download_saddle_bracket_scdoc
 
-<a id="ansys.meshing.prime.examples.download_saddle_bracket_scdoc"></a>
+
 
 ### ansys.meshing.prime.examples.download_saddle_bracket_scdoc(destination=None, force=False)
 

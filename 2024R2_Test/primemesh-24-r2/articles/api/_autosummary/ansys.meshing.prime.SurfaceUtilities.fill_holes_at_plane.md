@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SurfaceUtilities.fill_holes_at_plane
 
-<a id="ansys.meshing.prime.SurfaceUtilities.fill_holes_at_plane"></a>
+
 
 #### SurfaceUtilities.fill_holes_at_plane(part_id, face_zonelets, plane_points, params)
 

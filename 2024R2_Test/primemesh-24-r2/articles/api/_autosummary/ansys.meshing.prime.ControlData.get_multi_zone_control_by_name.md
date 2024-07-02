@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ControlData.get_multi_zone_control_by_name
 
-<a id="ansys.meshing.prime.ControlData.get_multi_zone_control_by_name"></a>
+
 
 #### ControlData.get_multi_zone_control_by_name(name)
 

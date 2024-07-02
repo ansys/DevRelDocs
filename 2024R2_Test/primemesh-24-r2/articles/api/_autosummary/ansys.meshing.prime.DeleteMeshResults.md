@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # DeleteMeshResults
 
-<a id="ansys.meshing.prime.DeleteMeshResults"></a>
+
 
 ### *class* ansys.meshing.prime.DeleteMeshResults(model=None, error_code=None, json_data=None, \*\*kwargs)
 
@@ -40,4 +38,4 @@ Results structure associated with delete mesh on topofaces.
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
 | [`DeleteMeshResults.error_code`](ansys.meshing.prime.DeleteMeshResults.error_code.md#ansys.meshing.prime.DeleteMeshResults.error_code)   | Error code associated with the failure of operation.   |
-<!-- vale on -->
+

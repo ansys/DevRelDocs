@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SurfaceSearch.check_face_deviation
 
-<a id="ansys.meshing.prime.SurfaceSearch.check_face_deviation"></a>
+
 
 #### SurfaceSearch.check_face_deviation(source_face_zonelets, target_face_zonelets, params)
 

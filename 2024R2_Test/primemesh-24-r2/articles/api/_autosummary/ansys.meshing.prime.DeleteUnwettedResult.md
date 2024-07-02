@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # DeleteUnwettedResult
 
-<a id="ansys.meshing.prime.DeleteUnwettedResult"></a>
+
 
 ### *class* ansys.meshing.prime.DeleteUnwettedResult(model=None, error_code=None, json_data=None, \*\*kwargs)
 
@@ -38,4 +36,4 @@ Results structure associated with delete unwetted surfaces operation.
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
 | [`DeleteUnwettedResult.error_code`](ansys.meshing.prime.DeleteUnwettedResult.error_code.md#ansys.meshing.prime.DeleteUnwettedResult.error_code)   | Error code associated with delete unwetted surfaces operation.   |
-<!-- vale on -->
+

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ErrorCode.SPHEREATINVALIDNORMALNODESFAILED
 
-<a id="ansys.meshing.prime.ErrorCode.SPHEREATINVALIDNORMALNODESFAILED"></a>
+
 
 #### ErrorCode.SPHEREATINVALIDNORMALNODESFAILED *= 350*
 

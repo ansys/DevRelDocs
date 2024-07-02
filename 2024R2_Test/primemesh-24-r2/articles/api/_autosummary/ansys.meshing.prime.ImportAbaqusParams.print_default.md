@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ImportAbaqusParams.print_default
 
-<a id="ansys.meshing.prime.ImportAbaqusParams.print_default"></a>
+
 
 #### *static* ImportAbaqusParams.print_default()
 

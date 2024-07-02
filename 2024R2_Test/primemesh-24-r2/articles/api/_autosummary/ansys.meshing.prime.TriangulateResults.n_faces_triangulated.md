@@ -1,6 +1,6 @@
 # ansys.meshing.prime.TriangulateResults.n_faces_triangulated
 
-<a id="ansys.meshing.prime.TriangulateResults.n_faces_triangulated"></a>
+
 
 #### *property* TriangulateResults.n_faces_triangulated *: [int](https://docs.python.org/3.11/library/functions.html#int)*
 

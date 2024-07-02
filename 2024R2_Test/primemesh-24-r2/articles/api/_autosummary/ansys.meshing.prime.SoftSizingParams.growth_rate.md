@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SoftSizingParams.growth_rate
 
-<a id="ansys.meshing.prime.SoftSizingParams.growth_rate"></a>
+
 
 #### *property* SoftSizingParams.growth_rate *: [float](https://docs.python.org/3.11/library/functions.html#float)*
 

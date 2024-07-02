@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SurfaceDiagnosticSummaryResults.set_default
 
-<a id="ansys.meshing.prime.SurfaceDiagnosticSummaryResults.set_default"></a>
+
 
 #### *static* SurfaceDiagnosticSummaryResults.set_default(error_code=None, n_self_intersections=None, n_free_edges=None, n_multi_edges=None, n_duplicate_faces=None)
 

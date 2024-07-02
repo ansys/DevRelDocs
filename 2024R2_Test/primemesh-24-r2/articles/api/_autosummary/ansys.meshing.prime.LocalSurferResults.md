@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # LocalSurferResults
 
-<a id="ansys.meshing.prime.LocalSurferResults"></a>
+
 
 ### *class* ansys.meshing.prime.LocalSurferResults(model=None, error_code=None, warning_codes=None, json_data=None, \*\*kwargs)
 
@@ -42,4 +40,4 @@ Results associated with the local surface mesh.
 |----------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
 | [`LocalSurferResults.error_code`](ansys.meshing.prime.LocalSurferResults.error_code.md#ansys.meshing.prime.LocalSurferResults.error_code)          | Error code associated with the failure of operation.   |
 | [`LocalSurferResults.warning_codes`](ansys.meshing.prime.LocalSurferResults.warning_codes.md#ansys.meshing.prime.LocalSurferResults.warning_codes) | Warning codes associated with the operation.           |
-<!-- vale on -->
+
