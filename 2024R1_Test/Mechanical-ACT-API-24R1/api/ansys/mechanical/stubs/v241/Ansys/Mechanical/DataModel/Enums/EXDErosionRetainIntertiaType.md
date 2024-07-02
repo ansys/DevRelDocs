@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="exderosionretainintertiatype"></a>
-
 # `EXDErosionRetainIntertiaType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EXDErosionRetainIntertiaType"></a>
@@ -35,4 +31,4 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### EXDErosionRetainIntertiaType.Yes *= 1*
 
-<!-- vale on -->
+

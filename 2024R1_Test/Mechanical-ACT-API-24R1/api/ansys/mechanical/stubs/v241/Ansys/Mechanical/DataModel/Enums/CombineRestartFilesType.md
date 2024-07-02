@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="combinerestartfilestype"></a>
-
 # `CombineRestartFilesType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CombineRestartFilesType"></a>
@@ -42,4 +38,4 @@ Specifies the CombineRestartFilesType.
 
 ### CombineRestartFilesType.Yes *= 1*
 
-<!-- vale on -->
+

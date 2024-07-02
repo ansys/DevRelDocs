@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="format"></a>
-
 # `Format`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.Format"></a>
@@ -32,4 +28,4 @@ Specifies how to interpret the geometry file.
 
 ### Format.Automatic *= 0*
 
-<!-- vale on -->
+

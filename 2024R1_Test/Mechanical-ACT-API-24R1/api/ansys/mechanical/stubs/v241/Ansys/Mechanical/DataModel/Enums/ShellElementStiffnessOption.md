@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="shellelementstiffnessoption"></a>
-
 # `ShellElementStiffnessOption`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShellElementStiffnessOption"></a>
@@ -42,4 +38,4 @@ Specifies the ShellElementStiffnessOption.
 
 ### ShellElementStiffnessOption.StressEvaluationOnly *= 2*
 
-<!-- vale on -->
+

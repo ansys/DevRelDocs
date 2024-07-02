@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="chartscale"></a>
-
 # `ChartScale`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartScale"></a>
@@ -47,4 +43,4 @@ Specifies the ChartScale.
 
 ### ChartScale.SemiLogY *= 2*
 
-<!-- vale on -->
+

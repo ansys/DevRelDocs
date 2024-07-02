@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="abaquskeywordargument"></a>
-
 # `AbaqusKeywordArgument`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.ABAQUS.AbaqusKeywordArgument"></a>
@@ -44,4 +40,4 @@ Gets the Key.
 Gets the Value.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="modelimportunitsystemtype"></a>
-
 # `ModelImportUnitSystemType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ModelImportUnitSystemType"></a>
@@ -92,4 +88,4 @@ To select the Unit System Type for the Model Import File being imported.
 
 ### ModelImportUnitSystemType.UnitSystemSI *= 0*
 
-<!-- vale on -->
+

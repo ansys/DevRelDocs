@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="springtype"></a>
-
 # `SpringType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SpringType"></a>
@@ -37,4 +33,4 @@ Specifies the SpringType.
 
 ### SpringType.Torsional *= 1*
 
-<!-- vale on -->
+

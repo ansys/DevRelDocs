@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="ivariable"></a>
-
 # `IVariable`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Interfaces.IVariable"></a>
@@ -44,4 +40,4 @@ The unit of the variable.  For example, this could be “mm”.
 The quantity name of the variable.  For example, this could be “Length”.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

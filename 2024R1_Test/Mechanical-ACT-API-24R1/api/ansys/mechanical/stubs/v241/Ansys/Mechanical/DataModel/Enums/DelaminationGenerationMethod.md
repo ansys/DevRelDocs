@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="delaminationgenerationmethod"></a>
-
 # `DelaminationGenerationMethod`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DelaminationGenerationMethod"></a>
@@ -47,4 +43,4 @@ Specifies the DelaminationGenerationMethod.
 
 ### DelaminationGenerationMethod.SurfaceSplitting *= 3*
 
-<!-- vale on -->
+

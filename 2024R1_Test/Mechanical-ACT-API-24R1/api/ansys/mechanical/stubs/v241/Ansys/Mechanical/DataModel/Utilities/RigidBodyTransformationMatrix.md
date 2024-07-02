@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="rigidbodytransformationmatrix"></a>
-
 # `RigidBodyTransformationMatrix`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Utilities.RigidBodyTransformationMatrix"></a>
@@ -194,4 +190,4 @@ Element 15: the transformation scale, which must be ‘1.0’ for rigid body
 transformations.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

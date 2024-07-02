@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="prototypedisplaystyletype"></a>
-
 # `PrototypeDisplayStyleType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PrototypeDisplayStyleType"></a>
@@ -67,4 +63,4 @@ Specifies the PrototypeDisplayStyleType.
 
 ### PrototypeDisplayStyleType.VisibleThickness *= 6*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="fatiguetoolresultsinputtype"></a>
-
 # `FatigueToolResultsInputType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FatigueToolResultsInputType"></a>
@@ -37,4 +33,4 @@ Specifies the FatigueToolResultsInputType.
 
 ### FatigueToolResultsInputType.Strain *= 1*
 
-<!-- vale on -->
+

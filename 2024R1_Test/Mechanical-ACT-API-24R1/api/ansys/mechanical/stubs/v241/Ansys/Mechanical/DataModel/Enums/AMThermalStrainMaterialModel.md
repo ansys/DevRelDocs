@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="amthermalstrainmaterialmodel"></a>
-
 # `AMThermalStrainMaterialModel`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMThermalStrainMaterialModel"></a>
@@ -72,4 +68,4 @@ Specifies the AMThermalStrainMaterialModel.
 
 ### AMThermalStrainMaterialModel.Undefined *= 0*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="analysistype"></a>
-
 # `AnalysisType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.AnalysisType"></a>
@@ -37,4 +33,4 @@ Specifies the type of analysis to target during import.
 
 ### AnalysisType.Type2D *= 1*
 
-<!-- vale on -->
+

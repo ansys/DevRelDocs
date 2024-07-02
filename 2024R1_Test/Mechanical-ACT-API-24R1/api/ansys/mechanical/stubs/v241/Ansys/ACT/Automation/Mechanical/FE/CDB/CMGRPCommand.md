@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="cmgrpcommand"></a>
-
 # `CMGRPCommand`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CMGRPCommand"></a>
@@ -62,4 +58,4 @@ Gets the command name.
 Gets the command index.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

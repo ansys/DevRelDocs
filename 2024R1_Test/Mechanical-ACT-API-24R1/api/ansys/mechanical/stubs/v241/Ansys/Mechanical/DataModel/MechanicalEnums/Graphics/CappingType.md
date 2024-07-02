@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="cappingtype"></a>
-
 # `CappingType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.Graphics.CappingType"></a>
@@ -42,4 +38,4 @@ Specifies the CappingType.
 
 ### CappingType.Bottom *= 1*
 
-<!-- vale on -->
+

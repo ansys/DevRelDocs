@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="contactbehavior"></a>
-
 # `ContactBehavior`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactBehavior"></a>
@@ -47,4 +43,4 @@ Specifies the ContactBehavior.
 
 ### ContactBehavior.Symmetric *= 1*
 
-<!-- vale on -->
+

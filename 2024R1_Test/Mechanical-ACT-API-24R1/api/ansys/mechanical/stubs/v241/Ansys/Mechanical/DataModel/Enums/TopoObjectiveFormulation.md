@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="topoobjectiveformulation"></a>
-
 # `TopoObjectiveFormulation`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TopoObjectiveFormulation"></a>
@@ -62,4 +58,4 @@ Specifies the TopoObjectiveFormulation.
 
 ### TopoObjectiveFormulation.VonMisesStress *= 6*
 
-<!-- vale on -->
+

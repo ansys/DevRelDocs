@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="periodicitydirectiontype"></a>
-
 # `PeriodicityDirectionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PeriodicityDirectionType"></a>
@@ -42,4 +38,4 @@ Specifies the PeriodicityDirectionType.
 
 ### PeriodicityDirectionType.ZAxis *= 2*
 
-<!-- vale on -->
+

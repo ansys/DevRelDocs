@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="droptestdefineby"></a>
-
 # `DropTestDefineBy`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DropTestDefineBy"></a>
@@ -37,4 +33,4 @@ Specifies the DropTestDefineBy.
 
 ### DropTestDefineBy.ImpactVelocity *= 1*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="beamsolutiontype"></a>
-
 # `BeamSolutionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BeamSolutionType"></a>
@@ -37,4 +33,4 @@ Specifies the BeamSolutionType.
 
 ### BeamSolutionType.Truss *= 1*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="hexintegrationtype"></a>
-
 # `HexIntegrationType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.HexIntegrationType"></a>
@@ -37,4 +33,4 @@ Specifies the HexIntegrationType.
 
 ### HexIntegrationType.Exact *= 0*
 
-<!-- vale on -->
+

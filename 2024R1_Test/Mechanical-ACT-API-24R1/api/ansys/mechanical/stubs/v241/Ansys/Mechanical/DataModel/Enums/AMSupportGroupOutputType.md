@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="amsupportgroupoutputtype"></a>
-
 # `AMSupportGroupOutputType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMSupportGroupOutputType"></a>
@@ -37,4 +33,4 @@ Specifies the AMSupportGroupOutputType.
 
 ### AMSupportGroupOutputType.AMSupport *= 1*
 
-<!-- vale on -->
+

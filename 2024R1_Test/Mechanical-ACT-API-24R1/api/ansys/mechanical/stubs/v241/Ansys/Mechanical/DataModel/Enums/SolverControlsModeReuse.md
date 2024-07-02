@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="solvercontrolsmodereuse"></a>
-
 # `SolverControlsModeReuse`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolverControlsModeReuse"></a>
@@ -42,4 +38,4 @@ Specifies the SolverControlsModeReuse.
 
 ### SolverControlsModeReuse.Yes *= 1*
 
-<!-- vale on -->
+

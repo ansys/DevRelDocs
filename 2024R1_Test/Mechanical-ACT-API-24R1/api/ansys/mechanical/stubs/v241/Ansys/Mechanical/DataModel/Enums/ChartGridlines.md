@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="chartgridlines"></a>
-
 # `ChartGridlines`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartGridlines"></a>
@@ -47,4 +43,4 @@ Specifies the ChartGridlines.
 
 ### ChartGridlines.YAxis *= 2*
 
-<!-- vale on -->
+

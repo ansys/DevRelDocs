@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="column"></a>
-
 # `Column`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Column"></a>
@@ -215,4 +211,4 @@ VariableType property.
 Contains the business logic for changing the variable type.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

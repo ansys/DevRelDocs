@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="periodicregiontype"></a>
-
 # `PeriodicRegionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PeriodicRegionType"></a>
@@ -37,4 +33,4 @@ Specifies the PeriodicRegionType.
 
 ### PeriodicRegionType.OddPeriodic *= 4*
 
-<!-- vale on -->
+

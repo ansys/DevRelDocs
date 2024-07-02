@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="initialtemperaturetype"></a>
-
 # `InitialTemperatureType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.InitialTemperatureType"></a>
@@ -37,4 +33,4 @@ Specifies the InitialTemperatureType.
 
 ### InitialTemperatureType.Uniform *= 0*
 
-<!-- vale on -->
+

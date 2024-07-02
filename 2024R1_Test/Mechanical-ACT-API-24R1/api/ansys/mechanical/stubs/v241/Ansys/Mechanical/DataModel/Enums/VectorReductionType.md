@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="vectorreductiontype"></a>
-
 # `VectorReductionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.VectorReductionType"></a>
@@ -87,4 +83,4 @@ Specifies the VectorReductionType.
 
 ### VectorReductionType.ZZ *= 13*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="contactpinballtype"></a>
-
 # `ContactPinballType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactPinballType"></a>
@@ -47,4 +43,4 @@ Specifies the ContactPinballType.
 
 ### ContactPinballType.ProgramControlled *= 0*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="condensedpartexpansiontype"></a>
-
 # `CondensedPartExpansionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CondensedPartExpansionType"></a>
@@ -42,4 +38,4 @@ Specifies the CondensedPartExpansionType.
 
 ### CondensedPartExpansionType.ProgramControlled *= 0*
 
-<!-- vale on -->
+

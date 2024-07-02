@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="objectiveworksheet"></a>
-
 # `ObjectiveWorksheet`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ObjectiveWorksheet"></a>
@@ -296,4 +292,4 @@ Gets the worksheet Environment property at index.
 Sets the worksheet Environment property at index.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="feconnectionlinethicknesstype"></a>
-
 # `FEConnectionLineThicknessType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FEConnectionLineThicknessType"></a>
@@ -42,4 +38,4 @@ Specifies the FEConnectionLineThicknessType.
 
 ### FEConnectionLineThicknessType.Triple *= 2*
 
-<!-- vale on -->
+

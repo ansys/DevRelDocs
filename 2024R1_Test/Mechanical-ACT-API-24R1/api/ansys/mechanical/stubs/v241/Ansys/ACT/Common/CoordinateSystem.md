@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="coordinatesystem"></a>
-
 # `CoordinateSystem`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Common.CoordinateSystem"></a>
@@ -98,4 +94,4 @@ Gets or sets the Y axis of the coordinate system.
 Gets or sets the Z axis of the coordinate system.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

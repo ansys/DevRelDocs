@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="delaminationmethod"></a>
-
 # `DelaminationMethod`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DelaminationMethod"></a>
@@ -42,4 +38,4 @@ Specifies the DelaminationMethod.
 
 ### DelaminationMethod.VCCT *= 1*
 
-<!-- vale on -->
+

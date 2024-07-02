@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="symmetrynormaltype"></a>
-
 # `SymmetryNormalType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SymmetryNormalType"></a>
@@ -42,4 +38,4 @@ Specifies the SymmetryNormalType.
 
 ### SymmetryNormalType.ZAxis *= 2*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="fluidbehavior"></a>
-
 # `FluidBehavior`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FluidBehavior"></a>
@@ -37,4 +33,4 @@ Specifies the FluidBehavior.
 
 ### FluidBehavior.Incompressible *= 1*
 
-<!-- vale on -->
+

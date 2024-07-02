@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="commandreal"></a>
-
 # `CommandReal`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandReal"></a>
@@ -44,4 +40,4 @@ Gets the real constant set number.
 Gets the values.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

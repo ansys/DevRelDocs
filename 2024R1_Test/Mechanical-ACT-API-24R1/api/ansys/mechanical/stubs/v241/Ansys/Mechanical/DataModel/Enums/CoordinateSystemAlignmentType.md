@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="coordinatesystemalignmenttype"></a>
-
 # `CoordinateSystemAlignmentType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CoordinateSystemAlignmentType"></a>
@@ -67,4 +63,4 @@ Specifies the CoordinateSystemAlignmentType.
 
 ### CoordinateSystemAlignmentType.HitPoint *= 7*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="stopcriterion"></a>
-
 # `StopCriterion`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StopCriterion"></a>
@@ -52,4 +48,4 @@ Specifies the StopCriterion.
 
 ### StopCriterion.None_ *= 0*
 
-<!-- vale on -->
+

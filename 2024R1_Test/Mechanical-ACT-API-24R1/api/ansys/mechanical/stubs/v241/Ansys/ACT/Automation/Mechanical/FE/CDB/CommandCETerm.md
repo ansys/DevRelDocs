@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="commandceterm"></a>
-
 # `CommandCETerm`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandCETerm"></a>
@@ -53,4 +49,4 @@ Gets the degree of freedom.
 Gets the coefficient.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

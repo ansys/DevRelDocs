@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="nodeselection"></a>
-
 # `NodeSelection`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NodeSelection"></a>
@@ -37,4 +33,4 @@ Specifies the NodeSelection.
 
 ### NodeSelection.VisibleNodes
 
-<!-- vale on -->
+

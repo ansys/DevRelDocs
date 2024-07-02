@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="coordinatesystemaxistype"></a>
-
 # `CoordinateSystemAxisType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType"></a>
@@ -62,4 +58,4 @@ Specifies the CoordinateSystemAxisType.
 
 ### CoordinateSystemAxisType.PositiveZAxis *= 3*
 
-<!-- vale on -->
+

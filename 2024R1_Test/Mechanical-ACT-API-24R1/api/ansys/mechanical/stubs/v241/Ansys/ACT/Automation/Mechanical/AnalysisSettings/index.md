@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AnalysisSettings"></a>
-
 <a id="analysissettings"></a>
 
 # `AnalysisSettings`
@@ -27,4 +23,4 @@
 AnalysisSettings subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="convergencetolerancetype"></a>
-
 # `ConvergenceToleranceType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType"></a>
@@ -42,4 +38,4 @@ Specifies the ConvergenceToleranceType.
 
 ### ConvergenceToleranceType.ProgramControlled *= 0*
 
-<!-- vale on -->
+

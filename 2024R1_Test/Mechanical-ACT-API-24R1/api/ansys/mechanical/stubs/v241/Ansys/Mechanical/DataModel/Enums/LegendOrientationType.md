@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="legendorientationtype"></a>
-
 # `LegendOrientationType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LegendOrientationType"></a>
@@ -37,4 +33,4 @@ Specifies the Legend Orientation.
 
 ### LegendOrientationType.Horizontal *= 2*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="mapdlamsupportdata"></a>
-
 # `MAPDLAMSupportData`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.SolverData.MAPDLAMSupportData"></a>
@@ -44,4 +40,4 @@ Gets the Real Constant Id for the AM Support.
 Gets the Material Ids for the AM Support.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

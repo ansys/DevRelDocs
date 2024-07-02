@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="tbptdata"></a>
-
 # `TBPTData`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.TBPTData"></a>
@@ -53,4 +49,4 @@ Gets the number of values.
 Gets the TBPT values.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

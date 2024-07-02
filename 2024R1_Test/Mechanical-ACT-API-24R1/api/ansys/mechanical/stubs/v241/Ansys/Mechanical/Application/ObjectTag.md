@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="objecttag"></a>
-
 # `ObjectTag`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Application.ObjectTag"></a>
@@ -80,4 +76,4 @@ Remove an object from this tag.
 Clear all objects from this tag.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

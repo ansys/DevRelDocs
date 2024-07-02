@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="condensedpartinterfacemethod"></a>
-
 # `CondensedPartInterfaceMethod`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CondensedPartInterfaceMethod"></a>
@@ -42,4 +38,4 @@ Specifies the CondensedPartInterfaceMethod.
 
 ### CondensedPartInterfaceMethod.ResidualFlexibleFree *= 2*
 
-<!-- vale on -->
+

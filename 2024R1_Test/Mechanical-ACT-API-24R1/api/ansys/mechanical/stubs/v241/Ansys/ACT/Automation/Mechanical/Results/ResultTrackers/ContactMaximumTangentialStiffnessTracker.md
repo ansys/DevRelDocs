@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="contactmaximumtangentialstiffnesstracker"></a>
-
 # `ContactMaximumTangentialStiffnessTracker`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ResultTrackers.ContactMaximumTangentialStiffnessTracker"></a>
@@ -668,4 +664,4 @@ Gets the parameter corresponding to the given property.
 Removes the parameter from the parameter set corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

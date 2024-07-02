@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="radiusofreferencespheredefineby"></a>
-
 # `RadiusOfReferenceSphereDefineBy`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RadiusOfReferenceSphereDefineBy"></a>
@@ -37,4 +33,4 @@ Specifies the RadiusOfReferenceSphereDefineBy.
 
 ### RadiusOfReferenceSphereDefineBy.UserDefined *= 0*
 
-<!-- vale on -->
+

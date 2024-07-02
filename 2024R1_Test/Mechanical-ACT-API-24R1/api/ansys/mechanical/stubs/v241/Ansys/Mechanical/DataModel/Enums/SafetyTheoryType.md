@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="safetytheorytype"></a>
-
 # `SafetyTheoryType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SafetyTheoryType"></a>
@@ -47,4 +43,4 @@ Specifies the Stress Safety Theory Type.
 
 ### SafetyTheoryType.MohrCoulombStress *= 3*
 
-<!-- vale on -->
+

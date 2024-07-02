@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="safetylimittype"></a>
-
 # `SafetyLimitType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SafetyLimitType"></a>
@@ -42,4 +38,4 @@ Specifies the SafetyLimitType.
 
 ### SafetyLimitType.YieldPerMaterial *= 1*
 
-<!-- vale on -->
+

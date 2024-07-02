@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="acousticsfarfieldresultworksheet"></a>
-
 # `AcousticsFarFieldResultWorksheet`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AcousticsFarFieldResultWorksheet"></a>
@@ -152,4 +148,4 @@ Sets the worksheet CoordinateSystemSelection property at index.
 Gets the worksheet CoordinateSystemSelection property at index.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

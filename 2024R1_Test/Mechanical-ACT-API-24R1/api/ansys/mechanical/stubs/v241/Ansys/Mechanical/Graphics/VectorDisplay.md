@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="vectordisplay"></a>
-
 # `VectorDisplay`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.VectorDisplay"></a>
@@ -98,4 +94,4 @@ Displays the Y axis vector of the triad/tensor.
 Displays the Z axis vector of the triad/tensor.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

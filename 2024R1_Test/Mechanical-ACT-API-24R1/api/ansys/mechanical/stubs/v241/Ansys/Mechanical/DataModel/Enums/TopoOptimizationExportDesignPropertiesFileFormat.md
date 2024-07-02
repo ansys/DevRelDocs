@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="topooptimizationexportdesignpropertiesfileformat"></a>
-
 # `TopoOptimizationExportDesignPropertiesFileFormat`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TopoOptimizationExportDesignPropertiesFileFormat"></a>
@@ -37,4 +33,4 @@ Specifies the TopoOptimizationExportDesignPropertiesFileFormat.
 
 ### TopoOptimizationExportDesignPropertiesFileFormat.vtk *= 0*
 
-<!-- vale on -->
+

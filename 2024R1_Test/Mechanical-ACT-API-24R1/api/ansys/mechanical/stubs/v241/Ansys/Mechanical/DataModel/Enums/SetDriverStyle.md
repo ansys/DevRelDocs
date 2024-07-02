@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="setdriverstyle"></a>
-
 # `SetDriverStyle`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SetDriverStyle"></a>
@@ -87,4 +83,4 @@ Specifies the SetDriverStyle.
 
 ### SetDriverStyle.TimeOfMinimum *= 13*
 
-<!-- vale on -->
+

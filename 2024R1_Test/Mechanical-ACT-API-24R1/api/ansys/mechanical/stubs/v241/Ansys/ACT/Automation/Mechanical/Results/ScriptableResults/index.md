@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ScriptableResults"></a>
-
 <a id="scriptableresults"></a>
 
 # `ScriptableResults`
@@ -24,4 +20,4 @@
 ScriptableResults subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

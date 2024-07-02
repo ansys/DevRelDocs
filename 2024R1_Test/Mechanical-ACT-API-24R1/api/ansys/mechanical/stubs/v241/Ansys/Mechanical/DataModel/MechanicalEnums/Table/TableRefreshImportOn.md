@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="tablerefreshimporton"></a>
-
 # `TableRefreshImportOn`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.Table.TableRefreshImportOn"></a>
@@ -37,4 +33,4 @@ Allows control on when an import should be refreshed.
 
 ### TableRefreshImportOn.None_ *= 0*
 
-<!-- vale on -->
+

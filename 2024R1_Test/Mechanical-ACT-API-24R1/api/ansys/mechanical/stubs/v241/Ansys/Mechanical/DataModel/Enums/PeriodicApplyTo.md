@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="periodicapplyto"></a>
-
 # `PeriodicApplyTo`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PeriodicApplyTo"></a>
@@ -42,4 +38,4 @@ Specifies the PeriodicApplyTo.
 
 ### PeriodicApplyTo.Voltage *= 2*
 
-<!-- vale on -->
+

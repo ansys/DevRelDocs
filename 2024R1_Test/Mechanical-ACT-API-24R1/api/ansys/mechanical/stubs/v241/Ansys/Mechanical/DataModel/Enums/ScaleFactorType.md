@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="scalefactortype"></a>
-
 # `ScaleFactorType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ScaleFactorType"></a>
@@ -47,4 +43,4 @@ Specifies the ScaleFactorType.
 
 ### ScaleFactorType.UserDefined *= 3*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="condensedpartphysics"></a>
-
 # `CondensedPartPhysics`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CondensedPartPhysics"></a>
@@ -37,4 +33,4 @@ Specifies the CondensedPartPhysics.
 
 ### CondensedPartPhysics.Thermal *= 1*
 
-<!-- vale on -->
+

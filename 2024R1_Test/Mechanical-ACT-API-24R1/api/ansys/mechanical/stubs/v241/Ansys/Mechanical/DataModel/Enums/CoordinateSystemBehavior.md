@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="coordinatesystembehavior"></a>
-
 # `CoordinateSystemBehavior`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CoordinateSystemBehavior"></a>
@@ -37,4 +33,4 @@ Specifies the CoordinateSystemBehavior.
 
 ### CoordinateSystemBehavior.ProgramControlled *= 0*
 
-<!-- vale on -->
+

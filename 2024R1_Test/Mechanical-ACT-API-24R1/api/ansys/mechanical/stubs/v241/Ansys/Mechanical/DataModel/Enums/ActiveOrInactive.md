@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="activeorinactive"></a>
-
 # `ActiveOrInactive`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ActiveOrInactive"></a>
@@ -37,4 +33,4 @@ Specifies the ActiveOrInactive.
 
 ### ActiveOrInactive.Inactive *= 1*
 
-<!-- vale on -->
+

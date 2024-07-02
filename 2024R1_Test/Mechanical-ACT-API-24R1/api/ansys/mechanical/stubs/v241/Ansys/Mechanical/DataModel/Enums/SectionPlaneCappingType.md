@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="sectionplanecappingtype"></a>
-
 # `SectionPlaneCappingType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SectionPlaneCappingType"></a>
@@ -42,4 +38,4 @@ Specifies the Section Plane Capping Style
 
 ### SectionPlaneCappingType.ShowByBodyColor *= 3*
 
-<!-- vale on -->
+

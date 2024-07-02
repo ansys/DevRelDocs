@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="loadgroupingtype"></a>
-
 # `LoadGroupingType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadGroupingType"></a>
@@ -37,4 +33,4 @@ Specifies the LoadGroupingType.
 
 ### LoadGroupingType.No *= 0*
 
-<!-- vale on -->
+

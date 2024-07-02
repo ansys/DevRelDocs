@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="fatigueanalysistype"></a>
-
 # `FatigueAnalysisType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FatigueAnalysisType"></a>
@@ -52,4 +48,4 @@ Specifies the Fatigue Analysis Type.
 
 ### FatigueAnalysisType.FatigueToolSNMeanStressCurves *= 4*
 
-<!-- vale on -->
+

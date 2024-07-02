@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="fractureaffectedzone"></a>
-
 # `FractureAffectedZone`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FractureAffectedZone"></a>
@@ -37,4 +33,4 @@ Specifies the FractureAffectedZone.
 
 ### FractureAffectedZone.Manual *= 2*
 
-<!-- vale on -->
+

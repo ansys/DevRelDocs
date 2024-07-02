@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="selectioncriteriontype"></a>
-
 # `SelectionCriterionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SelectionCriterionType"></a>
@@ -392,4 +388,4 @@ Specifies the selection criterion type.
 
 ### SelectionCriterionType.SeamWeldAngle *= 73*
 
-<!-- vale on -->
+

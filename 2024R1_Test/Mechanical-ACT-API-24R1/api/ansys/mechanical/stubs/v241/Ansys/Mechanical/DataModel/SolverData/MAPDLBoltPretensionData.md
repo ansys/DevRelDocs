@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="mapdlboltpretensiondata"></a>
-
 # `MAPDLBoltPretensionData`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.SolverData.MAPDLBoltPretensionData"></a>
@@ -44,4 +40,4 @@ Gets the Pretension Node Ids for the bolt pretension.
 Gets the Real Constant Ids for the bolt pretension.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

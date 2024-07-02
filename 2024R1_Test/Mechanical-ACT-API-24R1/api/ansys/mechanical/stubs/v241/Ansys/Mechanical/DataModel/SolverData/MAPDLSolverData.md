@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="mapdlsolverdata"></a>
-
 # `MAPDLSolverData`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.SolverData.MAPDLSolverData"></a>
@@ -89,4 +85,4 @@ Returns a list of Element IDs that belong to a given Material ID
 Returns a list of Node IDs that belong to a given Material ID
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

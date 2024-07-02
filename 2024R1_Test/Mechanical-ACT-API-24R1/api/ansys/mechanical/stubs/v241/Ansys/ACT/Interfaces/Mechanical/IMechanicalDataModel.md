@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="imechanicaldatamodel"></a>
-
 # `IMechanicalDataModel`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Interfaces.Mechanical.IMechanicalDataModel"></a>
@@ -80,4 +76,4 @@ Returns the current unit from a quantity name.
 Gets the user object based on the application id.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

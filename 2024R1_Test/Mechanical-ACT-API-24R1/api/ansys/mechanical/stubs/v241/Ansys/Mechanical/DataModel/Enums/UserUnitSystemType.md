@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="userunitsystemtype"></a>
-
 # `UserUnitSystemType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.UserUnitSystemType"></a>
@@ -82,4 +78,4 @@ Specifies the UserUnitSystemType.
 
 ### UserUnitSystemType.StandardKNMS *= 15*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="modescombinationtype"></a>
-
 # `ModesCombinationType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ModesCombinationType"></a>
@@ -47,4 +43,4 @@ Specifies the ModesCombinationType.
 
 ### ModesCombinationType.SRSS *= 1*
 
-<!-- vale on -->
+

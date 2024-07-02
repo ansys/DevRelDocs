@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="remoteapplicationtype"></a>
-
 # `RemoteApplicationType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RemoteApplicationType"></a>
@@ -37,4 +33,4 @@ Specifies the RemoteApplicationType.
 
 ### RemoteApplicationType.RemoteAttachment *= 2*
 
-<!-- vale on -->
+

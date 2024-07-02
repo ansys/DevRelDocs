@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="initialclearancetype"></a>
-
 # `InitialClearanceType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.InitialClearanceType"></a>
@@ -42,4 +38,4 @@ Specifies the InitialClearanceType.
 
 ### InitialClearanceType.Value *= 1*
 
-<!-- vale on -->
+

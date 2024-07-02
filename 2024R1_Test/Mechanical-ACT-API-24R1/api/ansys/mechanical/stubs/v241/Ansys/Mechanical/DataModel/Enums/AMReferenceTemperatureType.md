@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="amreferencetemperaturetype"></a>
-
 # `AMReferenceTemperatureType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMReferenceTemperatureType"></a>
@@ -37,4 +33,4 @@ Specifies the AMReferenceTemperatureType.
 
 ### AMReferenceTemperatureType.UserSpecified *= 1*
 
-<!-- vale on -->
+

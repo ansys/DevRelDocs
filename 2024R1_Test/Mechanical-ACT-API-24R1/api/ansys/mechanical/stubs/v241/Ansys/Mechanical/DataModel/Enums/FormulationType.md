@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="formulationtype"></a>
-
 # `FormulationType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FormulationType"></a>
@@ -42,4 +38,4 @@ Specifies the FormulationType.
 
 ### FormulationType.ProgramControlled *= 0*
 
-<!-- vale on -->
+

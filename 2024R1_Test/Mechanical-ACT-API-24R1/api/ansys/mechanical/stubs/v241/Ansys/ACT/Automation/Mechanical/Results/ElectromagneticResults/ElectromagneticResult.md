@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="electromagneticresult"></a>
-
 # `ElectromagneticResult`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ElectromagneticResults.ElectromagneticResult"></a>
@@ -796,4 +792,4 @@ Gets the parameter corresponding to the given property.
 Removes the parameter from the parameter set corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

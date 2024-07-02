@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="idatatable"></a>
-
 # `IDataTable`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Interfaces.IDataTable"></a>
@@ -186,4 +182,4 @@ Try to insert the values at the specified row index.
 Try to remove the specified row.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

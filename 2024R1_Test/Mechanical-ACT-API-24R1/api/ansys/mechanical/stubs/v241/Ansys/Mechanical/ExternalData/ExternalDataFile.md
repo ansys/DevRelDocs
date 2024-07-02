@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="externaldatafile"></a>
-
 # `ExternalDataFile`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.ExternalData.ExternalDataFile"></a>
@@ -67,4 +63,4 @@ Gets or sets the optional description of the external data file.
 ### *property* ExternalDataFile.ImportSettings *: [Ansys.Mechanical.ExternalData.ImportSettingsBase](ImportSettingsBase.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.ExternalData.ImportSettingsBase) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

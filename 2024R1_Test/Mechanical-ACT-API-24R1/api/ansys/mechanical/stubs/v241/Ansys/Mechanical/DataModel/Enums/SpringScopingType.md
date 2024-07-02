@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="springscopingtype"></a>
-
 # `SpringScopingType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SpringScopingType"></a>
@@ -37,4 +33,4 @@ Specifies the SpringScopingType.
 
 ### SpringScopingType.BodyToGround *= 1*
 
-<!-- vale on -->
+

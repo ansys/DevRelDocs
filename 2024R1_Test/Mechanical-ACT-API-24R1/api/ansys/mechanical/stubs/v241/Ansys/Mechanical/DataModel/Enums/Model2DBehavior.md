@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="model2dbehavior"></a>
-
 # `Model2DBehavior`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.Model2DBehavior"></a>
@@ -62,4 +58,4 @@ Specifies the Model2DBehavior.
 
 ### Model2DBehavior.PlaneStress *= 0*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.Mechanical.ExternalData"></a>
-
 <a id="externaldata"></a>
 
 # `ExternalData`
@@ -39,4 +35,4 @@
 ExternalData subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

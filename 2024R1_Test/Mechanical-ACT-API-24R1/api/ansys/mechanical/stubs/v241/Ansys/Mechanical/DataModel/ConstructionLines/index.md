@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.ConstructionLines"></a>
-
 <a id="constructionlines"></a>
 
 # `ConstructionLines`
@@ -38,4 +34,4 @@
 ConstructionLines subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

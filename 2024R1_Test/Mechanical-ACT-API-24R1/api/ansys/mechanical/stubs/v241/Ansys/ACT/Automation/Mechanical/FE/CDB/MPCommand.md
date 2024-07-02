@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="mpcommand"></a>
-
 # `MPCommand`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.MPCommand"></a>
@@ -107,4 +103,4 @@ Gets the command name.
 Gets the command index.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

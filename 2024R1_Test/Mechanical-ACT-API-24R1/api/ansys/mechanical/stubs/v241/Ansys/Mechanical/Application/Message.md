@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="message"></a>
-
 # `Message`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Application.Message"></a>
@@ -89,4 +85,4 @@ The list of objects related to the message.
 The severity of the message.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

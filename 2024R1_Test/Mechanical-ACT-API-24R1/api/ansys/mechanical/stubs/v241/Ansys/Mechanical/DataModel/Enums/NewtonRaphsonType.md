@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="newtonraphsontype"></a>
-
 # `NewtonRaphsonType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NewtonRaphsonType"></a>
@@ -47,4 +43,4 @@ Specifies the NewtonRaphsonType.
 
 ### NewtonRaphsonType.Unsymmetric *= 4*
 
-<!-- vale on -->
+

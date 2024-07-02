@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="imechanicaluserinterface"></a>
-
 # `IMechanicalUserInterface`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.UI.Interfaces.IMechanicalUserInterface"></a>
@@ -35,4 +31,4 @@ IMechanicalUserInterface interface.
 Information about the current theme being in Mechanical.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

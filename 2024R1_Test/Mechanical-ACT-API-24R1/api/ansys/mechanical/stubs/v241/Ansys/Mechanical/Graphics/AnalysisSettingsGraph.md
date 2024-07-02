@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="analysissettingsgraph"></a>
-
 # `AnalysisSettingsGraph`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnalysisSettingsGraph"></a>
@@ -35,4 +31,4 @@ AnalysisSettingsGraph class.
 BoundaryConditionVisibility property.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

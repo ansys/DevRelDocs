@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="pulloutconstraintsubtype"></a>
-
 # `PullOutConstraintSubtype`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PullOutConstraintSubtype"></a>
@@ -42,4 +38,4 @@ Specifies the PullOutConstraintSubtype.
 
 ### PullOutConstraintSubtype.Stamping *= 1*
 
-<!-- vale on -->
+

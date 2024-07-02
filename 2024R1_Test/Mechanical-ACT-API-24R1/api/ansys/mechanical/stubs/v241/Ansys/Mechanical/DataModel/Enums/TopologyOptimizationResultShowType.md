@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="topologyoptimizationresultshowtype"></a>
-
 # `TopologyOptimizationResultShowType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TopologyOptimizationResultShowType"></a>
@@ -42,4 +38,4 @@ Specifies the Topology Optimization Result Show Type.
 
 ### TopologyOptimizationResultShowType.RemovedRegion *= 2*
 
-<!-- vale on -->
+

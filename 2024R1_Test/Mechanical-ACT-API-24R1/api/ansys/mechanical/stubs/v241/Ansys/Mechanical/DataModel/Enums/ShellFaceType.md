@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="shellfacetype"></a>
-
 # `ShellFaceType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShellFaceType"></a>
@@ -62,4 +58,4 @@ Specifies the ShellFaceType.
 
 ### ShellFaceType.Top *= 0*
 
-<!-- vale on -->
+

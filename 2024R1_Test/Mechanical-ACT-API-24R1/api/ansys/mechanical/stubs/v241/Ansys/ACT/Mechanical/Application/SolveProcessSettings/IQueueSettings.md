@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="iqueuesettings"></a>
-
 # `IQueueSettings`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Application.SolveProcessSettings.IQueueSettings"></a>
@@ -89,4 +85,4 @@ DCSUsername property.
 DCSPassword property.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

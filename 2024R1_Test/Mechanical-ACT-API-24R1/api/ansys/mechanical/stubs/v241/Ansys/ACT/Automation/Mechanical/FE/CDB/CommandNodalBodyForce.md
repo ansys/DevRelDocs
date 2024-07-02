@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="commandnodalbodyforce"></a>
-
 # `CommandNodalBodyForce`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandNodalBodyForce"></a>
@@ -53,4 +49,4 @@ Gets the number of values.
 Gets the values.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

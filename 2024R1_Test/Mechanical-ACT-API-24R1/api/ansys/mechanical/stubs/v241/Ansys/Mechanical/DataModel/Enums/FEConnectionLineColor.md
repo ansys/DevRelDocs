@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="feconnectionlinecolor"></a>
-
 # `FEConnectionLineColor`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FEConnectionLineColor"></a>
@@ -42,4 +38,4 @@ Specifies the FEConnectionLineColor.
 
 ### FEConnectionLineColor.Manual *= 1*
 
-<!-- vale on -->
+

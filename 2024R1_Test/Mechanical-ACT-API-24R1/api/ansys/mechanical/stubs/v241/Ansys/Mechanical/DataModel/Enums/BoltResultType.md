@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="boltresulttype"></a>
-
 # `BoltResultType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BoltResultType"></a>
@@ -37,4 +33,4 @@ Specifies the BoltResultType.
 
 ### BoltResultType.WorkingLoad *= 1*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="animationexportsettings"></a>
-
 # `AnimationExportSettings`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings"></a>
@@ -44,4 +40,4 @@ Specifies the video width.
 Specifies the video height.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

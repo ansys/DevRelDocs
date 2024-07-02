@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="stabilizationtype"></a>
-
 # `StabilizationType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StabilizationType"></a>
@@ -47,4 +43,4 @@ Specifies the StabilizationType.
 
 ### StabilizationType.Reduce *= 2*
 
-<!-- vale on -->
+

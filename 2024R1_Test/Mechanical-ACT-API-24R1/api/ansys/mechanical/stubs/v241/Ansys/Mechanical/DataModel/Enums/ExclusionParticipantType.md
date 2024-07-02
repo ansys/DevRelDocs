@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="exclusionparticipanttype"></a>
-
 # `ExclusionParticipantType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExclusionParticipantType"></a>
@@ -37,4 +33,4 @@ Specifies the ExclusionParticipantType.
 
 ### ExclusionParticipantType.IncludeExclusion *= 0*
 
-<!-- vale on -->
+

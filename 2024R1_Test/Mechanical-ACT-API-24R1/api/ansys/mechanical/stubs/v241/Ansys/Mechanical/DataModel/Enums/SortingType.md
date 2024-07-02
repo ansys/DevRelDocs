@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="sortingtype"></a>
-
 # `SortingType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SortingType"></a>
@@ -32,4 +28,4 @@ Specifies the Sorting type.
 
 ### SortingType.Alphabetical *= 0*
 
-<!-- vale on -->
+

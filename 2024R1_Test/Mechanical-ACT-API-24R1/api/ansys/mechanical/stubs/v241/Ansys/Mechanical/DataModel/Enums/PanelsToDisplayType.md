@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="panelstodisplaytype"></a>
-
 # `PanelsToDisplayType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PanelsToDisplayType"></a>
@@ -47,4 +43,4 @@ Specifies the PanelsToDisplayType.
 
 ### PanelsToDisplayType.Top5 *= 0*
 
-<!-- vale on -->
+

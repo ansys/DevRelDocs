@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="solutioncombinationdriverstyle"></a>
-
 # `SolutionCombinationDriverStyle`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle"></a>
@@ -52,4 +48,4 @@ Specifies the SolutionCombinationDriverStyle.
 
 ### SolutionCombinationDriverStyle.MinimumOverCombinations *= 3*
 
-<!-- vale on -->
+

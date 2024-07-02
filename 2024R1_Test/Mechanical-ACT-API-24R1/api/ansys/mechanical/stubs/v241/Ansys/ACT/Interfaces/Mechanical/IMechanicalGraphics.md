@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="imechanicalgraphics"></a>
-
 # `IMechanicalGraphics`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Interfaces.Mechanical.IMechanicalGraphics"></a>
@@ -44,4 +40,4 @@ An instance of the ModelViewManager.
 An instance of the SectionPlanes.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="datamodelobjectcategory"></a>
-
 # `DataModelObjectCategory`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory"></a>
@@ -3697,4 +3693,4 @@ Specifies the category of the
 
 ### DataModelObjectCategory.CylindricalCrack *= 766*
 
-<!-- vale on -->
+

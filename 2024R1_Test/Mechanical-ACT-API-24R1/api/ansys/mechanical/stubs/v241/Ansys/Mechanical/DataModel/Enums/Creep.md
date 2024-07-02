@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="creep"></a>
-
 # `Creep`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.Creep"></a>
@@ -37,4 +33,4 @@ Specifies the Creep.
 
 ### Creep.On *= 1*
 
-<!-- vale on -->
+

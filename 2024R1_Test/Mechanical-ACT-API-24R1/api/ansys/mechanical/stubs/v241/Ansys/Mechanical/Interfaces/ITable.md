@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="itable"></a>
-
 # `ITable`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Interfaces.ITable"></a>
@@ -45,4 +41,4 @@ The portion of the table corresponding to independent variables.
 The portion of the table corresponding to dependent variables.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

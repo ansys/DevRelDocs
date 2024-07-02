@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="commandcoll"></a>
-
 # `CommandColl`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CommandColl"></a>
@@ -44,4 +40,4 @@ Gets the count of commands.
 Item property.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

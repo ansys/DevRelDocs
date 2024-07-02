@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="applycancelproperty"></a>
-
 # `ApplyCancelProperty`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.AdditionalProperties.ApplyCancelProperty"></a>
@@ -89,4 +85,4 @@ Get the string representation of the value.
 Returns whether a property is readonly.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

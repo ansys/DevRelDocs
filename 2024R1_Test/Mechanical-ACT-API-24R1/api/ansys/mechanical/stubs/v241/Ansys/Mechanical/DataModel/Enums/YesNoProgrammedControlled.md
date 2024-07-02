@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="yesnoprogrammedcontrolled"></a>
-
 # `YesNoProgrammedControlled`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.YesNoProgrammedControlled"></a>
@@ -42,4 +38,4 @@ Specifies the YesNoProgrammedControlled.
 
 ### YesNoProgrammedControlled.Yes *= 1*
 
-<!-- vale on -->
+

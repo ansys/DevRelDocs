@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="elementmorphingtype"></a>
-
 # `ElementMorphingType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ElementMorphingType"></a>
@@ -42,4 +38,4 @@ Specifies the ElementMorphingType.
 
 ### ElementMorphingType.ProgramControlled *= 0*
 
-<!-- vale on -->
+

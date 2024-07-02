@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="mapdlcoordinatesystemdata"></a>
-
 # `MAPDLCoordinateSystemData`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.SolverData.MAPDLCoordinateSystemData"></a>
@@ -35,4 +31,4 @@ MAPDLCoordinateSystemData class.
 Gets the System Id for the coordinate system.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

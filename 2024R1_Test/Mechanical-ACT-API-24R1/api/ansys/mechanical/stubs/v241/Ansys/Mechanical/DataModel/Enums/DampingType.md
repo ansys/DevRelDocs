@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="dampingtype"></a>
-
 # `DampingType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DampingType"></a>
@@ -37,4 +33,4 @@ Specifies the DampingType.
 
 ### DampingType.DirectInput *= 0*
 
-<!-- vale on -->
+

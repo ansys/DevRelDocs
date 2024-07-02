@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="electrictype"></a>
-
 # `ElectricType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ElectricType"></a>
@@ -42,4 +38,4 @@ Specifies the Electric Physics Type.
 
 ### ElectricType.No *= 0*
 
-<!-- vale on -->
+

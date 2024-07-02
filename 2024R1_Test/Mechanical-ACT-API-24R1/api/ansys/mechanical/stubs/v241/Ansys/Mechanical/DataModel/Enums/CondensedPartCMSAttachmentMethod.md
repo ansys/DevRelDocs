@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="condensedpartcmsattachmentmethod"></a>
-
 # `CondensedPartCMSAttachmentMethod`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CondensedPartCMSAttachmentMethod"></a>
@@ -42,4 +38,4 @@ Specifies the CondensedPartCMSAttachmentMethod.
 
 ### CondensedPartCMSAttachmentMethod.ProgramControlled *= 0*
 
-<!-- vale on -->
+

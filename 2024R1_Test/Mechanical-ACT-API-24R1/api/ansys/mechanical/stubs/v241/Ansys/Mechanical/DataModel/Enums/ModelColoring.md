@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="modelcoloring"></a>
-
 # `ModelColoring`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ModelColoring"></a>
@@ -82,4 +78,4 @@ Specifies the Model display coloring.
 
 ### ModelColoring.ByBodyType *= 10*
 
-<!-- vale on -->
+

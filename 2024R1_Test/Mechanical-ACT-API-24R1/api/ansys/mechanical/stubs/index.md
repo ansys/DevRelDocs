@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs"></a>
-
 <a id="the-ansys-mechanical-stubs-library"></a>
 
 # The `ansys.mechanical.stubs` library
@@ -33,4 +29,4 @@
 Patch version for the ansys-mechanical-stubs package.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

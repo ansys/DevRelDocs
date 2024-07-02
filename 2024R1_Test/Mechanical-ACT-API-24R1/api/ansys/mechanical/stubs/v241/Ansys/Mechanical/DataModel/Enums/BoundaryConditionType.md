@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="boundaryconditiontype"></a>
-
 # `BoundaryConditionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BoundaryConditionType"></a>
@@ -47,4 +43,4 @@ Specifies the BoundaryConditionType.
 
 ### BoundaryConditionType.None_ *= 0*
 
-<!-- vale on -->
+

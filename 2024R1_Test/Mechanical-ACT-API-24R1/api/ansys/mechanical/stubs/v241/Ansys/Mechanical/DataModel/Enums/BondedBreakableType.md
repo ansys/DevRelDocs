@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="bondedbreakabletype"></a>
-
 # `BondedBreakableType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BondedBreakableType"></a>
@@ -42,4 +38,4 @@ Specifies the BondedBreakableType.
 
 ### BondedBreakableType.StressCriteria *= 2*
 
-<!-- vale on -->
+

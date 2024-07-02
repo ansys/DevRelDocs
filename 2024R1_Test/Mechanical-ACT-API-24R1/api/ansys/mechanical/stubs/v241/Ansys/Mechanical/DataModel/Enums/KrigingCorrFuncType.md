@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="krigingcorrfunctype"></a>
-
 # `KrigingCorrFuncType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.KrigingCorrFuncType"></a>
@@ -65,4 +61,4 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### KrigingCorrFuncType.CorrFuncThinPlateSpine *= 7*
 
-<!-- vale on -->
+

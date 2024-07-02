@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="meshphysicspreferencetype"></a>
-
 # `MeshPhysicsPreferenceType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshPhysicsPreferenceType"></a>
@@ -62,4 +58,4 @@ Specifies the Mesh Physics Preference Type.
 
 ### MeshPhysicsPreferenceType.Hydrodynamics *= 6*
 
-<!-- vale on -->
+

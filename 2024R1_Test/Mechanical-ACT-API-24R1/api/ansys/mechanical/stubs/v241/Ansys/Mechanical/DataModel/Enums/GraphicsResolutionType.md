@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="graphicsresolutiontype"></a>
-
 # `GraphicsResolutionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsResolutionType"></a>
@@ -42,4 +38,4 @@ Specifies the Graphics Image Resolution Type.
 
 ### GraphicsResolutionType.HighResolution *= 2*
 
-<!-- vale on -->
+

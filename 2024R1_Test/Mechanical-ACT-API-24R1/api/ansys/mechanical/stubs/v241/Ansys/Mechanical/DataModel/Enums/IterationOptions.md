@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="iterationoptions"></a>
-
 # `IterationOptions`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.IterationOptions"></a>
@@ -47,4 +43,4 @@ Specifies the IterationOptions.
 
 ### IterationOptions.SpecifiedRecurrenceRate *= 3*
 
-<!-- vale on -->
+

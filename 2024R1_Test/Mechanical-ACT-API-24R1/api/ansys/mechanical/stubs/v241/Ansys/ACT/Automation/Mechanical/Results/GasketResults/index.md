@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.GasketResults"></a>
-
 <a id="gasketresults"></a>
 
 # `GasketResults`
@@ -27,4 +23,4 @@
 GasketResults subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

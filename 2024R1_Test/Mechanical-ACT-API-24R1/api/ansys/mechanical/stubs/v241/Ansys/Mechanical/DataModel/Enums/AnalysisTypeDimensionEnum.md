@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="analysistypedimensionenum"></a>
-
 # `AnalysisTypeDimensionEnum`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AnalysisTypeDimensionEnum"></a>
@@ -37,4 +33,4 @@ To select the analysis type dimension for the Model Import Object.
 
 ### AnalysisTypeDimensionEnum.ThreeD *= 2*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="loadvariationtype"></a>
-
 # `LoadVariationType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadVariationType"></a>
@@ -52,4 +48,4 @@ Specifies the LoadVariationType.
 
 ### LoadVariationType.CFXResults *= 4*
 
-<!-- vale on -->
+

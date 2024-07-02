@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="slidingcontacttype"></a>
-
 # `SlidingContactType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SlidingContactType"></a>
@@ -37,4 +33,4 @@ Specifies the SlidingContactType.
 
 ### SlidingContactType.DiscreteSurface *= 0*
 
-<!-- vale on -->
+

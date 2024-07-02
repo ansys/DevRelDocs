@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.StrainResults"></a>
-
 <a id="strainresults"></a>
 
 # `StrainResults`
@@ -42,4 +38,4 @@
 StrainResults subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

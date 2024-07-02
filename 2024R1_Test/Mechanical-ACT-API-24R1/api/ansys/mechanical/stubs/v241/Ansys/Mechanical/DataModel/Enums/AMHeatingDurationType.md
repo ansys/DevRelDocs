@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="amheatingdurationtype"></a>
-
 # `AMHeatingDurationType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMHeatingDurationType"></a>
@@ -37,4 +33,4 @@ Specifies the AMHeatingDurationType.
 
 ### AMHeatingDurationType.ScanTime *= 2*
 
-<!-- vale on -->
+

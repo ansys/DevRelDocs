@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.ACT.Common"></a>
-
 <a id="common"></a>
 
 # `Common`
@@ -31,4 +27,4 @@
 Common subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

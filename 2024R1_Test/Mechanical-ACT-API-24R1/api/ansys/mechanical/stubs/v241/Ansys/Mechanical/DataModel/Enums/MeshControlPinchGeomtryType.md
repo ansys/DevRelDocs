@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="meshcontrolpinchgeomtrytype"></a>
-
 # `MeshControlPinchGeomtryType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshControlPinchGeomtryType"></a>
@@ -47,4 +43,4 @@ Specifies the MeshControlPinchGeomtryType.
 
 ### MeshControlPinchGeomtryType.SetPinchSlave *= 2*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="campbelldiagramrotationalvelocityselectiontype"></a>
-
 # `CampbellDiagramRotationalVelocitySelectionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CampbellDiagramRotationalVelocitySelectionType"></a>
@@ -32,4 +28,4 @@ Specifies the Campbell Diagram Rotational Velocity Selection Type.
 
 ### CampbellDiagramRotationalVelocitySelectionType.None_ *= 0*
 
-<!-- vale on -->
+

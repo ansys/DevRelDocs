@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="constantdampingtype"></a>
-
 # `ConstantDampingType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ConstantDampingType"></a>
@@ -37,4 +33,4 @@ Specifies the ConstantDampingType.
 
 ### ConstantDampingType.ProgramControlled *= 0*
 
-<!-- vale on -->
+

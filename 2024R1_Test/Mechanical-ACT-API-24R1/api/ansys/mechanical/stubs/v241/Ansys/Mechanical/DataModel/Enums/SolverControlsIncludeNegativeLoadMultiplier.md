@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="solvercontrolsincludenegativeloadmultiplier"></a>
-
 # `SolverControlsIncludeNegativeLoadMultiplier`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolverControlsIncludeNegativeLoadMultiplier"></a>
@@ -42,4 +38,4 @@ Specifies the SolverControlsIncludeNegativeLoadMultiplier.
 
 ### SolverControlsIncludeNegativeLoadMultiplier.Yes *= 1*
 
-<!-- vale on -->
+

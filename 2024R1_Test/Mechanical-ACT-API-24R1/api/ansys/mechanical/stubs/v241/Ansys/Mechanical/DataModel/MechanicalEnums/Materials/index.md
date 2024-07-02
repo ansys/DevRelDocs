@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.Materials"></a>
-
 <a id="materials"></a>
 
 # `Materials`
@@ -25,4 +21,4 @@
 Materials subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

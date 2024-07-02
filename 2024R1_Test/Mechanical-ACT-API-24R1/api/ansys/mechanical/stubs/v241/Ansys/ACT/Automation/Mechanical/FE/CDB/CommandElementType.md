@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="commandelementtype"></a>
-
 # `CommandElementType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandElementType"></a>
@@ -53,4 +49,4 @@ Gets the element name.
 Gets the key options.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

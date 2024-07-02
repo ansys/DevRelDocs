@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="graphcontrolsxaxis"></a>
-
 # `GraphControlsXAxis`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis"></a>
@@ -52,4 +48,4 @@ Specifies the GraphControlsXAxis.
 
 ### GraphControlsXAxis.Time *= 0*
 
-<!-- vale on -->
+

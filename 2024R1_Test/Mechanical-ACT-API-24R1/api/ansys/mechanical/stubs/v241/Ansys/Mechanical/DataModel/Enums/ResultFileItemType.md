@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="resultfileitemtype"></a>
-
 # `ResultFileItemType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultFileItemType"></a>
@@ -57,4 +53,4 @@ Specifies the ResultFileItemType.
 
 ### ResultFileItemType.NodeIDs *= 5*
 
-<!-- vale on -->
+

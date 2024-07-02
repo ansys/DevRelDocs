@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="wbunitsystemtype"></a>
-
 # `WBUnitSystemType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.WBUnitSystemType"></a>
@@ -112,4 +108,4 @@ Specifies the WBUnitSystemType.
 
 ### WBUnitSystemType.StandardUMKS *= 9*
 
-<!-- vale on -->
+

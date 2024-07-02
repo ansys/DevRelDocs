@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.AdditionalProperties"></a>
-
 <a id="additionalproperties"></a>
 
 # `AdditionalProperties`
@@ -32,4 +28,4 @@
 AdditionalProperties subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

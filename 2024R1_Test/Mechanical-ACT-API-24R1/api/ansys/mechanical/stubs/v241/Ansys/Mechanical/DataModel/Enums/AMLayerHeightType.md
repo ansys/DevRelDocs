@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="amlayerheighttype"></a>
-
 # `AMLayerHeightType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMLayerHeightType"></a>
@@ -37,4 +33,4 @@ Specifies the AMLayerHeightType.
 
 ### AMLayerHeightType.Manual *= 1*
 
-<!-- vale on -->
+

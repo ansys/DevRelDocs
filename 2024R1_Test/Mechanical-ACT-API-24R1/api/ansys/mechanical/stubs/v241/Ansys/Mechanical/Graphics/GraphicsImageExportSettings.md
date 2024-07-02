@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="graphicsimageexportsettings"></a>
-
 # `GraphicsImageExportSettings`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.GraphicsImageExportSettings"></a>
@@ -98,4 +94,4 @@ Specifies the image width. Defaults to 0. If width AND height are zero, this use
 Specifies the image height. Defaults to 0. If width AND height are zero, this uses the current dimensions. If only one of the two are nonzero, the current dimension’s ratio is used along with the nonzero of the two properties to determine the computed value of the zero property.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

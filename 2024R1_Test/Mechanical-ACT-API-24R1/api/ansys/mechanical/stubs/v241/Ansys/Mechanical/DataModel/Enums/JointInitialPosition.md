@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="jointinitialposition"></a>
-
 # `JointInitialPosition`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.JointInitialPosition"></a>
@@ -37,4 +33,4 @@ Specifies the JointInitialPosition.
 
 ### JointInitialPosition.Unchanged *= 0*
 
-<!-- vale on -->
+

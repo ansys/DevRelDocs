@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="variableclassification"></a>
-
 # `VariableClassification`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableClassification"></a>
@@ -53,4 +49,4 @@ variables/columns. It directly correlates to the IDL-defined enum
 
 ### VariableClassification.Real_k *= 203*
 
-<!-- vale on -->
+

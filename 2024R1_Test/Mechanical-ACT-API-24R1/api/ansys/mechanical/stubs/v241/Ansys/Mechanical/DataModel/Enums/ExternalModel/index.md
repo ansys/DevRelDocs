@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExternalModel"></a>
-
 <a id="externalmodel"></a>
 
 # `ExternalModel`
@@ -23,4 +19,4 @@
 ExternalModel subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

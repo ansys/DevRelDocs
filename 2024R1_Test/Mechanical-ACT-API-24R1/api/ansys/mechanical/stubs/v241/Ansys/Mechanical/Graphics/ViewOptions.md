@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="viewoptions"></a>
-
 # `ViewOptions`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.ViewOptions"></a>
@@ -251,4 +247,4 @@ Display Graph overlay in the current viewport.
 Rescale size of annotation following a zoom in or zoom out of the model.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

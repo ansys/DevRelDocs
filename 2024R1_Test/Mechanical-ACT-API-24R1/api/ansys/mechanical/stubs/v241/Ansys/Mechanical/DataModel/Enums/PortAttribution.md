@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="portattribution"></a>
-
 # `PortAttribution`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PortAttribution"></a>
@@ -37,4 +33,4 @@ Specifies the PortAttribution.
 
 ### PortAttribution.Outlet *= 1*
 
-<!-- vale on -->
+

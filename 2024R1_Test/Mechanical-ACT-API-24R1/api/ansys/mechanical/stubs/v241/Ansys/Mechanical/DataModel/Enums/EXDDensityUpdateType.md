@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="exddensityupdatetype"></a>
-
 # `EXDDensityUpdateType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EXDDensityUpdateType"></a>
@@ -40,4 +36,4 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### EXDDensityUpdateType.Total *= 2*
 
-<!-- vale on -->
+

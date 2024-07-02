@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="commandeditortarget"></a>
-
 # `CommandEditorTarget`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CommandEditorTarget"></a>
@@ -57,4 +53,4 @@ Specifies the CommandEditorTarget.
 
 ### CommandEditorTarget.UNKNOWN *= 0*
 
-<!-- vale on -->
+

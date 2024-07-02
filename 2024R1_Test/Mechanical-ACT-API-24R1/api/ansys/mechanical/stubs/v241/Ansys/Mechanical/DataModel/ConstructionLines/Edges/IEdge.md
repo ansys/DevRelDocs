@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="iedge"></a>
-
 # `IEdge`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.ConstructionLines.Edges.IEdge"></a>
@@ -35,4 +31,4 @@ Interface for edges created by ConstructionLine.
 Get the length of this edge.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

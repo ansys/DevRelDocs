@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="globallegendsettings"></a>
-
 # `GlobalLegendSettings`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.GlobalLegendSettings"></a>
@@ -62,4 +58,4 @@ Whether the Min and Max value are shown.
 Whether the Deformation Scaling is shown.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

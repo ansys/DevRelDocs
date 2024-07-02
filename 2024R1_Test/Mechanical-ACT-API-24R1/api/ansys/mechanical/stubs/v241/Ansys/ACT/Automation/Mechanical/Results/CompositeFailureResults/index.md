@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.CompositeFailureResults"></a>
-
 <a id="compositefailureresults"></a>
 
 # `CompositeFailureResults`
@@ -26,4 +22,4 @@
 CompositeFailureResults subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

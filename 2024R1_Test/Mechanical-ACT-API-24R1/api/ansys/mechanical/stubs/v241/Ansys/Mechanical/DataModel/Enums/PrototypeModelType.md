@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="prototypemodeltype"></a>
-
 # `PrototypeModelType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PrototypeModelType"></a>
@@ -67,4 +63,4 @@ Specifies the PrototypeModelType.
 
 ### PrototypeModelType.Shell *= 6*
 
-<!-- vale on -->
+

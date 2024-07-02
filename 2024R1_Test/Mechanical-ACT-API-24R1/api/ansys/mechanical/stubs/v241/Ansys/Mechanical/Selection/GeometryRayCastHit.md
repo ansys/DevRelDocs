@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="geometryraycasthit"></a>
-
 # `GeometryRayCastHit`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Selection.GeometryRayCastHit"></a>
@@ -44,4 +40,4 @@ BoundVector with location and normal direction on geometry entity to ray cast
 Geometry entity hit by ray cast
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="comparepartsonupdate"></a>
-
 # `ComparePartsOnUpdate`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.ComparePartsOnUpdate"></a>
@@ -42,4 +38,4 @@ Specifies how to enable mesh preservation on parts during update.
 
 ### ComparePartsOnUpdate.NonAssociatively *= 2*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="exdbeamsolutiontype"></a>
-
 # `EXDBeamSolutionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EXDBeamSolutionType"></a>
@@ -35,4 +31,4 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### EXDBeamSolutionType.Bending *= 1*
 
-<!-- vale on -->
+

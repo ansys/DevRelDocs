@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="surfacecoatingstiffnessbehavior"></a>
-
 # `SurfaceCoatingStiffnessBehavior`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SurfaceCoatingStiffnessBehavior"></a>
@@ -42,4 +38,4 @@ Specifies the SurfaceCoatingStiffnessBehavior.
 
 ### SurfaceCoatingStiffnessBehavior.StressEvaluationOnly *= 2*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="resultrelativitytype"></a>
-
 # `ResultRelativityType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultRelativityType"></a>
@@ -37,4 +33,4 @@ Specifies the ResultRelativityType.
 
 ### ResultRelativityType.Relative *= 1*
 
-<!-- vale on -->
+

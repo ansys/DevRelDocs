@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="nladcontrolprojecttogeometry"></a>
-
 # `NLADControlProjectToGeometry`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NLADControlProjectToGeometry"></a>
@@ -37,4 +33,4 @@ Specifies the NLADControlProjectToGeometry.
 
 ### NLADControlProjectToGeometry.Yes *= 1*
 
-<!-- vale on -->
+

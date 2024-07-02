@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="sectionplane"></a>
-
 # `SectionPlane`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.SectionPlane"></a>
@@ -89,4 +85,4 @@ Gets or Sets the SectionPlane Type of the Section Plane
 Indicates whether the current SectionPlane properties are equal to the properties of another SectionPlane object.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

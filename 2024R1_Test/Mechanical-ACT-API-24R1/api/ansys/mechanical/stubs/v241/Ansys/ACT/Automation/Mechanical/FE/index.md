@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="module-ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE"></a>
-
 <a id="fe"></a>
 
 # `FE`
@@ -40,4 +36,4 @@
 FE subpackage.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="restarttype"></a>
-
 # `RestartType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RestartType"></a>
@@ -42,4 +38,4 @@ Specifies the RestartType.
 
 ### RestartType.ProgramControlled *= 0*
 
-<!-- vale on -->
+

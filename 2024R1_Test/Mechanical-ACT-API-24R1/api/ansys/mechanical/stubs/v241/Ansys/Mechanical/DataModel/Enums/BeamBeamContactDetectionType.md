@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="beambeamcontactdetectiontype"></a>
-
 # `BeamBeamContactDetectionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BeamBeamContactDetectionType"></a>
@@ -47,4 +43,4 @@ Specifies the BeamBeamContactDetectionType.
 
 ### BeamBeamContactDetectionType.InternalPipe *= 3*
 
-<!-- vale on -->
+

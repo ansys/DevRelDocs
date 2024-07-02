@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="applicationtype"></a>
-
 # `ApplicationType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ApplicationType"></a>
@@ -37,4 +33,4 @@ Specifies the Application type.
 
 ### ApplicationType.MAPDL *= 1*
 
-<!-- vale on -->
+

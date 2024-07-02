@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="waterfalldisplayselectionmode"></a>
-
 # `WaterfallDisplaySelectionMode`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.WaterfallDisplaySelectionMode"></a>
@@ -42,4 +38,4 @@ Specifies the Selection Mode Type.
 
 ### WaterfallDisplaySelectionMode.NotApplicable *= 2*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="automatictimestepping"></a>
-
 # `AutomaticTimeStepping`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AutomaticTimeStepping"></a>
@@ -42,4 +38,4 @@ Specifies the AutomaticTimeStepping.
 
 ### AutomaticTimeStepping.ProgramControlled *= 0*
 
-<!-- vale on -->
+

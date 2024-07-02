@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="importformat"></a>
-
 # `ImportFormat`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.Table.ImportFormat"></a>
@@ -37,4 +33,4 @@ Specifies how to interpret the variable data source.
 
 ### ImportFormat.FixedWidth *= 2*
 
-<!-- vale on -->
+

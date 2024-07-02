@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="fittingmethodtype"></a>
-
 # `FittingMethodType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FittingMethodType"></a>
@@ -37,4 +33,4 @@ Specifies the FittingMethodType.
 
 ### FittingMethodType.FastFourierTransform *= 1*
 
-<!-- vale on -->
+

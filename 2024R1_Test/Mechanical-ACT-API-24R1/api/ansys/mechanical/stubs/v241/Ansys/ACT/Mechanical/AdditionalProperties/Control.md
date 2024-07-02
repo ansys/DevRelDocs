@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="control"></a>
-
 # `Control`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.AdditionalProperties.Control"></a>
@@ -47,4 +43,4 @@ The control type for an additional property.
 
 ### Control.Options *= 2097152*
 
-<!-- vale on -->
+

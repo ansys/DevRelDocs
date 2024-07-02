@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="boundaryconditionalongfiber"></a>
-
 # `BoundaryConditionAlongFiber`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BoundaryConditionAlongFiber"></a>
@@ -42,4 +38,4 @@ Specifies the BoundaryConditionAlongFiber.
 
 ### BoundaryConditionAlongFiber.Free *= 0*
 
-<!-- vale on -->
+

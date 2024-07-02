@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="linesearchtype"></a>
-
 # `LineSearchType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LineSearchType"></a>
@@ -42,4 +38,4 @@ Specifies the LineSearchType.
 
 ### LineSearchType.ProgramControlled *= 0*
 
-<!-- vale on -->
+

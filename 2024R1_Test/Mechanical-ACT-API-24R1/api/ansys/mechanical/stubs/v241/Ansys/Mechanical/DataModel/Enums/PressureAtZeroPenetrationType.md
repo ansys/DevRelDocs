@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="pressureatzeropenetrationtype"></a>
-
 # `PressureAtZeroPenetrationType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PressureAtZeroPenetrationType"></a>
@@ -42,4 +38,4 @@ Specifies the PressureAtZeroPenetrationType.
 
 ### PressureAtZeroPenetrationType.Value *= 1*
 
-<!-- vale on -->
+

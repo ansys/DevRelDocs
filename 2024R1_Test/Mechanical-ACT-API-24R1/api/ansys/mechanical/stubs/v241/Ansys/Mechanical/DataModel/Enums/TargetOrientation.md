@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="targetorientation"></a>
-
 # `TargetOrientation`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TargetOrientation"></a>
@@ -47,4 +43,4 @@ Specifies the TargetOrientation.
 
 ### TargetOrientation.ProgramControlled *= 0*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="meanstresstheorytype"></a>
-
 # `MeanStressTheoryType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeanStressTheoryType"></a>
@@ -77,4 +73,4 @@ Specifies the EnclosureType.
 
 ### MeanStressTheoryType.ASMEElliptical *= 15*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="meshelementshape"></a>
-
 # `MeshElementShape`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshElementShape"></a>
@@ -97,4 +93,4 @@ Defines the Mesh Element Types
 
 ### MeshElementShape.Beam4 *= 31*
 
-<!-- vale on -->
+

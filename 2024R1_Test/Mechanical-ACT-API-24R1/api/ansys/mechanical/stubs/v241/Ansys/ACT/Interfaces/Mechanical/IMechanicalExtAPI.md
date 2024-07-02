@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="imechanicalextapi"></a>
-
 # `IMechanicalExtAPI`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Interfaces.Mechanical.IMechanicalExtAPI"></a>
@@ -46,4 +42,4 @@ R
 Locks the license used by the PRE/POST application.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="imodelviewmanager"></a>
-
 # `IModelViewManager`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Interfaces.Graphics.IModelViewManager"></a>
@@ -150,4 +146,4 @@ Rename the model view specified by viewIndex to newLabel.
 Rename the model view specified  to newLabel.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

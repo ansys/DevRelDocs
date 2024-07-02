@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="spatialradiationtype"></a>
-
 # `SpatialRadiationType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SpatialRadiationType"></a>
@@ -37,4 +33,4 @@ Specifies the SpatialRadiationType.
 
 ### SpatialRadiationType.Partial *= 1*
 
-<!-- vale on -->
+

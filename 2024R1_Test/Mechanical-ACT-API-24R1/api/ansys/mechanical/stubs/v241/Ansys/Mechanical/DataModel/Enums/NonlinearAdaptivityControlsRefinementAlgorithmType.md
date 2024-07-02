@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="nonlinearadaptivitycontrolsrefinementalgorithmtype"></a>
-
 # `NonlinearAdaptivityControlsRefinementAlgorithmType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityControlsRefinementAlgorithmType"></a>
@@ -37,4 +33,4 @@ Specifies the NonlinearAdaptivityControlsRefinementAlgorithmType.
 
 ### NonlinearAdaptivityControlsRefinementAlgorithmType.MeshSplitting *= 1*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="jointformulation"></a>
-
 # `JointFormulation`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.JointFormulation"></a>
@@ -37,4 +33,4 @@ Specifies the JointFormulation.
 
 ### JointFormulation.MPC *= 0*
 
-<!-- vale on -->
+

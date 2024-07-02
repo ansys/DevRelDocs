@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="latticetype"></a>
-
 # `LatticeType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LatticeType"></a>
@@ -72,4 +68,4 @@ Specifies the LatticeType.
 
 ### LatticeType.Sphere *= 2*
 
-<!-- vale on -->
+

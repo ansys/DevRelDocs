@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="beamendreleasebehavior"></a>
-
 # `BeamEndReleaseBehavior`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BeamEndReleaseBehavior"></a>
@@ -37,4 +33,4 @@ Specifies the BeamEndReleaseBehavior.
 
 ### BeamEndReleaseBehavior.Joint *= 1*
 
-<!-- vale on -->
+

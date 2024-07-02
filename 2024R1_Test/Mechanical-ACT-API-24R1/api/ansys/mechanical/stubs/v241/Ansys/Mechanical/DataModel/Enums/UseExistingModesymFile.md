@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="useexistingmodesymfile"></a>
-
 # `UseExistingModesymFile`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.UseExistingModesymFile"></a>
@@ -42,4 +38,4 @@ Specifies the UseExistingModesymFile.
 
 ### UseExistingModesymFile.Yes *= 1*
 
-<!-- vale on -->
+

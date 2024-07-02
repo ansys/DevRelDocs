@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="stepvarying"></a>
-
 # `StepVarying`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StepVarying"></a>
@@ -37,4 +33,4 @@ Specifies the StepVarying.
 
 ### StepVarying.Yes *= 1*
 
-<!-- vale on -->
+

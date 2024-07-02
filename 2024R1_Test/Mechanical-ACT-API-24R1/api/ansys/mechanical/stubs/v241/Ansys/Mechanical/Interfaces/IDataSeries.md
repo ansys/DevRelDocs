@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="idataseries"></a>
-
 # `IDataSeries`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Interfaces.IDataSeries"></a>
@@ -68,4 +64,4 @@ Gets or sets a string representation of the data series units, e.g., “m”,
 Explicitly gets or sets the values of the data series.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

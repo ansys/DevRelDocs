@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="simpletransform"></a>
-
 # `SimpleTransform`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Common.SimpleTransform"></a>
@@ -84,4 +80,4 @@ The X-axis orientation of the transformation with respect to the global/world
 coordinate system.
 
 <!-- !! processed by numpydoc !! -->
-<!-- vale on -->
+

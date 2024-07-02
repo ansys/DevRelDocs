@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="topoenvironmenttype"></a>
-
 # `TopoEnvironmentType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TopoEnvironmentType"></a>
@@ -42,4 +38,4 @@ Specifies the Topology Environment Type.
 
 ### TopoEnvironmentType.AllModal *= 2*
 
-<!-- vale on -->
+

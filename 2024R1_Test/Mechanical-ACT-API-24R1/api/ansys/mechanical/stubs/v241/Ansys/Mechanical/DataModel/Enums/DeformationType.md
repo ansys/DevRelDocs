@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="deformationtype"></a>
-
 # `DeformationType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DeformationType"></a>
@@ -37,4 +33,4 @@ Specifies the DeformationType.
 
 ### DeformationType.Total *= 0*
 
-<!-- vale on -->
+

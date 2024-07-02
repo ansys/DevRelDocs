@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="timehistorydisplaytype"></a>
-
 # `TimeHistoryDisplayType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType"></a>
@@ -57,4 +53,4 @@ Specifies the Time History Display Type.
 
 ### TimeHistoryDisplayType.Bode *= 5*
 
-<!-- vale on -->
+

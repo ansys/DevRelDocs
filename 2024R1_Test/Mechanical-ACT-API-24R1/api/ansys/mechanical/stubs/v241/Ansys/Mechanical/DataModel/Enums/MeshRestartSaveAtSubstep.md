@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="meshrestartsaveatsubstep"></a>
-
 # `MeshRestartSaveAtSubstep`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshRestartSaveAtSubstep"></a>
@@ -42,4 +38,4 @@ Specifies the MeshRestartSaveAtSubstep.
 
 ### MeshRestartSaveAtSubstep.SaveAtSubstepSpecified *= 3*
 
-<!-- vale on -->
+

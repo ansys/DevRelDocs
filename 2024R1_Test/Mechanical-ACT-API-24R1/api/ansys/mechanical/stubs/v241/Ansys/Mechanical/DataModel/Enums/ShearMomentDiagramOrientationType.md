@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="shearmomentdiagramorientationtype"></a>
-
 # `ShearMomentDiagramOrientationType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShearMomentDiagramOrientationType"></a>
@@ -42,4 +38,4 @@ Specifies the ShearMomentDiagramOrientationType.
 
 ### ShearMomentDiagramOrientationType.ShearForce *= 0*
 
-<!-- vale on -->
+

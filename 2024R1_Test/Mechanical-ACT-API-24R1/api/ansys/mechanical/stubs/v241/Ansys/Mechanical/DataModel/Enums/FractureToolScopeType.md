@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="fracturetoolscopetype"></a>
-
 # `FractureToolScopeType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FractureToolScopeType"></a>
@@ -37,4 +33,4 @@ Specifies the FractureToolScopeType.
 
 ### FractureToolScopeType.ResultFileItem *= 0*
 
-<!-- vale on -->
+

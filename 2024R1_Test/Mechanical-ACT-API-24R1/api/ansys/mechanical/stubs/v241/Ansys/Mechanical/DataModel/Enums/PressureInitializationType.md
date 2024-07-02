@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="pressureinitializationtype"></a>
-
 # `PressureInitializationType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PressureInitializationType"></a>
@@ -37,4 +33,4 @@ Specifies the PressureInitializationType.
 
 ### PressureInitializationType.FromStressTrace *= 1*
 
-<!-- vale on -->
+

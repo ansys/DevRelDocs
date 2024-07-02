@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="connectioncreationmethod"></a>
-
 # `ConnectionCreationMethod`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ConnectionCreationMethod"></a>
@@ -37,4 +33,4 @@ Specifies the ConnectionCreationMethod.
 
 ### ConnectionCreationMethod.Manual *= 1*
 
-<!-- vale on -->
+

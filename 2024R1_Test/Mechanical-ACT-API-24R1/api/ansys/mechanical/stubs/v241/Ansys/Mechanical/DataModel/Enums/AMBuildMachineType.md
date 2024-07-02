@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="ambuildmachinetype"></a>
-
 # `AMBuildMachineType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMBuildMachineType"></a>
@@ -67,4 +63,4 @@ Specifies the AMBuildMachineType.
 
 ### AMBuildMachineType.Undefined *= 0*
 
-<!-- vale on -->
+

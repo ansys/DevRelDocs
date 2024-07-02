@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="resultfilecompressiontype"></a>
-
 # `ResultFileCompressionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultFileCompressionType"></a>
@@ -42,4 +38,4 @@ Specifies the ResultFileCompressionType.
 
 ### ResultFileCompressionType.Sparse *= 1*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="targetcorrection"></a>
-
 # `TargetCorrection`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TargetCorrection"></a>
@@ -37,4 +33,4 @@ Specifies the TargetCorrection.
 
 ### TargetCorrection.Smoothing *= 1*
 
-<!-- vale on -->
+

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="comparepartstolerance"></a>
-
 # `ComparePartsTolerance`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.ComparePartsTolerance"></a>
@@ -44,4 +40,4 @@ Specifies the tolerance to use when comparing parts. This provides comparison ro
 
 ### ComparePartsTolerance.Loose *= 0*
 
-<!-- vale on -->
+

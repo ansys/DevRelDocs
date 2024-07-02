@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="existingmaterialoperation"></a>
-
 # `ExistingMaterialOperation`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.Materials.ExistingMaterialOperation"></a>
@@ -38,4 +34,4 @@ a material which already exists in Mechanical.
 
 ### ExistingMaterialOperation.Replace *= 2*
 
-<!-- vale on -->
+

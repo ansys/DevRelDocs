@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="forcecomponentselectiontype"></a>
-
 # `ForceComponentSelectionType`
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ForceComponentSelectionType"></a>
@@ -47,4 +43,4 @@ Specifies the ForceComponentType.
 
 ### ForceComponentSelectionType.All *= 4*
 
-<!-- vale on -->
+
