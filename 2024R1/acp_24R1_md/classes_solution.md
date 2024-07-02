@@ -29,7 +29,7 @@ Clear all result data.
 
 #### clear_element_results()
 
-Resets the post-processing results for each layered element.
+Resets the postprocessing results for each layered element.
 
 #### clear_failure_criteria_results()
 
@@ -44,8 +44,8 @@ Whether this object is currently enabled or not. Mainly defined through the curr
 Exports the shell results of the selected entities to a csv file.
 
 * **Parameters:**
-  - definitions: Selected definition - CombinedFailure Criteria object or as string ‘deformations’, ‘strains’ or ‘stresses’.
-  - entities: Defines the selection for the export. Can be a list of ElementSets, AnalysisPlies or SolidModels.
+  - definitions: Selected definition - CombinedFailure Criteria object or as string ‘deformations’, ‘strains’, or ‘stresses’.
+  - entities: Defines the selection for the export. Can be a list of ElementSets, AnalysisPlies, or SolidModels.
   - file_path: File name.
   - solution_set: Solution Set for which data is requested.
   - solids: Boolean whether to take the results of the solid elements or not. Default is False (results of shells).
@@ -65,7 +65,7 @@ Id of corresponding Solution in external solution (ComponentID).
 
 #### *property* format
 
-File format string. Choose one of ‘abaqus:inp’,’ansys:cdb’ or ‘nastran:f06’.
+File format string. Choose one of ‘abaqus:inp’,’ansys:cdb’, or ‘nastran:f06’.
 
 #### *property* has_element_temperatures
 
@@ -100,17 +100,17 @@ Container with PostProcessing Plots.
 Query results from the solution.
 
 * **Parameters:**
-  - definition: The postproc definition defines what results are evaluated. Can be given as
+  - definition: The postprocess definition defines what results are evaluated. Can be given as
     CombinedFailureCriteria object or as string such as
-    ‘strains’, ‘stresses’, ‘laminate_forces’, ‘deformations’, ‘temperatures’ or ‘progressive_damage’.
+    ‘strains’, ‘stresses’, ‘laminate_forces’, ‘deformations’, ‘temperatures’, or ‘progressive_damage’.
   - options: Dict with the additional options used to fully configure the definition.
-    - stresses: options={“eval_ins”:True} to enable the interlaminar normal stress evaluation for shells.
+    - stresses: options = {“eval_ins”:True} to enable the interlaminar normal stress evaluation for shells.
   - position: Position where data is queried:
-    - nodal, centroid, element_nodal, integration_point or element_results.
+    - nodal, centroid, element_nodal, integration_point, or element_results.
   - selection: The selection set determines the selected nodes and elements.
     Can be given as string ‘sel0’ - ‘sel5’ or ‘all’,
     or can be given as ObjectSelection object such as model.selection or scene.active_set.
-  - entity:  Entity for which results are evaluated.
+  - entity: Entity for which results are evaluated.
     Currently supported: Analysis ply or analysis ply vertex.
   - entities: If a list of entities is given, the query will also compute and return a list of results, with one array for each entity.
   - spot: Used to identify bot, mid or top when querying layered shells.
@@ -179,11 +179,11 @@ The time or frequency associated with the active set.
 
 #### *property* use_felyx_to_compute_pp_results
 
-True if the stresses and strains are to be computed by felyx. If the stresses and strains are read from rst file, nothing is computed.
+True if the stresses and strains are to be computed by felyx. If the stresses and strains are read from .rst file, nothing is computed.
 
 #### *property* use_solid_results
 
-Allows to visualize the post-processing results of layered solid models on the ‘Layered Solid Reference Surface’.
+Allows to visualize the postprocessing results of layered solid models on the ‘Layered Solid Reference Surface’.
 
 ## [`EnvelopeSolution`](#compolyx.EnvelopeSolution)
 

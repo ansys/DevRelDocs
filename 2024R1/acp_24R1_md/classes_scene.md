@@ -70,7 +70,7 @@ Serialize to Python string.
 
 #### *property* show_element_type
 
-Highlight “shell” or “solid” elements, or use “automatic” to select solid elements if the object belongs to a solid model.Note: Only analysis plies have solid elements. Shell elements are highlighted for modeling and production plies.
+Highlight ``shell`` or ``solid`` elements, or use ``automatic`` to select solid elements if the object belongs to a solid model. Note: Only analysis plies have solid elements. Shell elements are highlighted for modeling and production plies.
 
 #### *property* show_global_coordinate_system
 
@@ -99,10 +99,10 @@ Scene title.
 #### update_direction_display_data(entities)
 
 Function syncronizes the following direction plots with the added/removed entities given:
-- “orientations”.
-- “ref_directions”.
-- “fiber_directions”.
-- “draped_fiber_directions”.
+- ``orientations``.
+- ``ref_directions``.
+- ``fiber_directions``.
+- ``draped_fiber_directions``.
 
 #### *property* uptodate
 
