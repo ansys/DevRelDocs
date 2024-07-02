@@ -1,5 +1,3 @@
-<a id="meshworkflow"></a>
-
 # `MeshWorkflow`
 
 <a id="summary"></a>

@@ -1,5 +1,3 @@
-<a id="act"></a>
-
 # `ACT`
 
 <a id="summary"></a>

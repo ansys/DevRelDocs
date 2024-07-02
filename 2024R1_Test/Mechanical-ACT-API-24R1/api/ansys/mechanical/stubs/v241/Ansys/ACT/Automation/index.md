@@ -1,5 +1,3 @@
-<a id="automation"></a>
-
 # `Automation`
 
 <a id="summary"></a>

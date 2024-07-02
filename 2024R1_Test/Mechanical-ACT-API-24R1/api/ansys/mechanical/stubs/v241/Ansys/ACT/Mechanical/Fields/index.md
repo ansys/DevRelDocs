@@ -1,5 +1,3 @@
-<a id="fields"></a>
-
 # `Fields`
 
 <a id="summary"></a>

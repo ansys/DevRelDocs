@@ -1,5 +1,3 @@
-<a id="externalmodel"></a>
-
 # `ExternalModel`
 
 <a id="summary"></a>

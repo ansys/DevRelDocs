@@ -1,5 +1,3 @@
-<a id="edges"></a>
-
 # `Edges`
 
 <a id="summary"></a>

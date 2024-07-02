@@ -1,5 +1,3 @@
-<a id="graphics"></a>
-
 # `Graphics`
 
 <a id="summary"></a>

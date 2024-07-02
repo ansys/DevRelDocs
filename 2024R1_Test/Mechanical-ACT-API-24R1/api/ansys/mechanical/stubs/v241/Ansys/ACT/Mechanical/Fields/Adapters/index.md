@@ -1,5 +1,3 @@
-<a id="adapters"></a>
-
 # `Adapters`
 
 <a id="summary"></a>
