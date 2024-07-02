@@ -1,6 +1,6 @@
 # ansys.meshing.prime.HexCoreParams.print_default
 
-<a id="ansys.meshing.prime.HexCoreParams.print_default"></a>
+
 
 #### *static* HexCoreParams.print_default()
 

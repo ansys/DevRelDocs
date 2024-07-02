@@ -1,6 +1,6 @@
 # ansys.meshing.prime.FileIO.read_size_field
 
-<a id="ansys.meshing.prime.FileIO.read_size_field"></a>
+
 
 #### FileIO.read_size_field(file_name, params)
 

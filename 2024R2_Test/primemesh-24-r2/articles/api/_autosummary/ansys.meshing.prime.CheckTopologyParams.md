@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # CheckTopologyParams
 
-<a id="ansys.meshing.prime.CheckTopologyParams"></a>
+
 
 ### *class* ansys.meshing.prime.CheckTopologyParams(model=None, topo_search_field_mask=None, json_data=None, \*\*kwargs)
 
@@ -40,4 +38,4 @@ Parameters for check topology operations.
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
 | [`CheckTopologyParams.topo_search_field_mask`](ansys.meshing.prime.CheckTopologyParams.topo_search_field_mask.md#ansys.meshing.prime.CheckTopologyParams.topo_search_field_mask)   | Toposearch field option for topology check.   |
-<!-- vale on -->
+

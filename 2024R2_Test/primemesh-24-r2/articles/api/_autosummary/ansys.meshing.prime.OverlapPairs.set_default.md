@@ -1,6 +1,6 @@
 # ansys.meshing.prime.OverlapPairs.set_default
 
-<a id="ansys.meshing.prime.OverlapPairs.set_default"></a>
+
 
 #### *static* OverlapPairs.set_default(zone_id0=None, zone_id1=None)
 

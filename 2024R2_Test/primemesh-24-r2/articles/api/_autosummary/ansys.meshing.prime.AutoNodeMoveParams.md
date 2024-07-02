@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # AutoNodeMoveParams
 
-<a id="ansys.meshing.prime.AutoNodeMoveParams"></a>
+
 
 ### *class* ansys.meshing.prime.AutoNodeMoveParams(model=None, quality_measure=None, target_quality=None, dihedral_angle=None, n_iterations_per_node=None, restrict_boundary_nodes_along_surface=None, n_attempts=None, json_data=None, \*\*kwargs)
 
@@ -58,4 +56,4 @@ Parameters used to improve volume mesh by auto node move.
 | [`AutoNodeMoveParams.quality_measure`](ansys.meshing.prime.AutoNodeMoveParams.quality_measure.md#ansys.meshing.prime.AutoNodeMoveParams.quality_measure)                                                                   | Specify cell quality measure to be used for volume mesh improvement.                                                       |
 | [`AutoNodeMoveParams.restrict_boundary_nodes_along_surface`](ansys.meshing.prime.AutoNodeMoveParams.restrict_boundary_nodes_along_surface.md#ansys.meshing.prime.AutoNodeMoveParams.restrict_boundary_nodes_along_surface) | Option to restrict the movement of the boundary node to the plane containing the boundary faces sharing the boundary node. |
 | [`AutoNodeMoveParams.target_quality`](ansys.meshing.prime.AutoNodeMoveParams.target_quality.md#ansys.meshing.prime.AutoNodeMoveParams.target_quality)                                                                      | Specify target quality used for the mesh improvement based on specified quality measure.                                   |
-<!-- vale on -->
+

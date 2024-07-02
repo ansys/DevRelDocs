@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SurfaceSearch.get_surface_quality_summary
 
-<a id="ansys.meshing.prime.SurfaceSearch.get_surface_quality_summary"></a>
+
 
 #### SurfaceSearch.get_surface_quality_summary(params)
 

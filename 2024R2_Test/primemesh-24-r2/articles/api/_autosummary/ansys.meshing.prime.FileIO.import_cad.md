@@ -1,6 +1,6 @@
 # ansys.meshing.prime.FileIO.import_cad
 
-<a id="ansys.meshing.prime.FileIO.import_cad"></a>
+
 
 #### FileIO.import_cad(file_name, params)
 

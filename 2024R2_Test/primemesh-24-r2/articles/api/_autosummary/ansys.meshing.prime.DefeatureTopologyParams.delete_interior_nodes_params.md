@@ -1,6 +1,6 @@
 # ansys.meshing.prime.DefeatureTopologyParams.delete_interior_nodes_params
 
-<a id="ansys.meshing.prime.DefeatureTopologyParams.delete_interior_nodes_params"></a>
+
 
 #### *property* DefeatureTopologyParams.delete_interior_nodes_params *: [DeleteInteriorNodesParams](ansys.meshing.prime.DeleteInteriorNodesParams.md#ansys.meshing.prime.DeleteInteriorNodesParams)*
 

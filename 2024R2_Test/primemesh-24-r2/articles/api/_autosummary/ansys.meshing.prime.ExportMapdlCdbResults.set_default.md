@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ExportMapdlCdbResults.set_default
 
-<a id="ansys.meshing.prime.ExportMapdlCdbResults.set_default"></a>
+
 
 #### *static* ExportMapdlCdbResults.set_default(summary_log=None, error_code=None, warning_codes=None)
 

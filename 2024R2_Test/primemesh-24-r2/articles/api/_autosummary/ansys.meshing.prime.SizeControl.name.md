@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SizeControl.name
 
-<a id="ansys.meshing.prime.SizeControl.name"></a>
+
 
 #### *property* SizeControl.name
 

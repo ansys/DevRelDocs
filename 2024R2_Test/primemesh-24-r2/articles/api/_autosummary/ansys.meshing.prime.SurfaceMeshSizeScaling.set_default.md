@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SurfaceMeshSizeScaling.set_default
 
-<a id="ansys.meshing.prime.SurfaceMeshSizeScaling.set_default"></a>
+
 
 #### *static* SurfaceMeshSizeScaling.set_default(factor=None, size_range_min=None, size_range_max=None)
 

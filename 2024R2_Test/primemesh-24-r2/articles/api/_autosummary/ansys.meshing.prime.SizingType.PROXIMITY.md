@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SizingType.PROXIMITY
 
-<a id="ansys.meshing.prime.SizingType.PROXIMITY"></a>
+
 
 #### SizingType.PROXIMITY *= 1*
 

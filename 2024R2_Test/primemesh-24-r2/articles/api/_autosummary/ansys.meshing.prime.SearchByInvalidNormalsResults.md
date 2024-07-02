@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # SearchByInvalidNormalsResults
 
-<a id="ansys.meshing.prime.SearchByInvalidNormalsResults"></a>
+
 
 ### *class* ansys.meshing.prime.SearchByInvalidNormalsResults(model=None, n_found=None, error_code=None, json_data=None, \*\*kwargs)
 
@@ -42,4 +40,4 @@ Results structure associated with search invalid normals operation.
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
 | [`SearchByInvalidNormalsResults.error_code`](ansys.meshing.prime.SearchByInvalidNormalsResults.error_code.md#ansys.meshing.prime.SearchByInvalidNormalsResults.error_code)   | Error code associated with search invalid normals operation.   |
 | [`SearchByInvalidNormalsResults.n_found`](ansys.meshing.prime.SearchByInvalidNormalsResults.n_found.md#ansys.meshing.prime.SearchByInvalidNormalsResults.n_found)            | Number of invalid normals identified.                          |
-<!-- vale on -->
+

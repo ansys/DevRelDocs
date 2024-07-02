@@ -1,6 +1,6 @@
 # ansys.meshing.prime.MergePartsParams.set_default
 
-<a id="ansys.meshing.prime.MergePartsParams.set_default"></a>
+
 
 #### *static* MergePartsParams.set_default(merged_part_suggested_name=None)
 

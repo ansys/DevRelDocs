@@ -1,6 +1,6 @@
 # ansys.meshing.prime.PrismStairStep.set_default
 
-<a id="ansys.meshing.prime.PrismStairStep.set_default"></a>
+
 
 #### *static* PrismStairStep.set_default(check_proximity=None, gap_factor_scale=None)
 

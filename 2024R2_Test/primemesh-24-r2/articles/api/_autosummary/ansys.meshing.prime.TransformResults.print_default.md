@@ -1,6 +1,6 @@
 # ansys.meshing.prime.TransformResults.print_default
 
-<a id="ansys.meshing.prime.TransformResults.print_default"></a>
+
 
 #### *static* TransformResults.print_default()
 

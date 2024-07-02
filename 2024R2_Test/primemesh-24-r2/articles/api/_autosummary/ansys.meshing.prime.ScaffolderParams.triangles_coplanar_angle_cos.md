@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ScaffolderParams.triangles_coplanar_angle_cos
 
-<a id="ansys.meshing.prime.ScaffolderParams.triangles_coplanar_angle_cos"></a>
+
 
 #### *property* ScaffolderParams.triangles_coplanar_angle_cos *: [float](https://docs.python.org/3.11/library/functions.html#float)*
 

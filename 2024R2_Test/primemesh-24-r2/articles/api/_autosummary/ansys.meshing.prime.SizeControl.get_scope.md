@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SizeControl.get_scope
 
-<a id="ansys.meshing.prime.SizeControl.get_scope"></a>
+
 
 #### SizeControl.get_scope()
 

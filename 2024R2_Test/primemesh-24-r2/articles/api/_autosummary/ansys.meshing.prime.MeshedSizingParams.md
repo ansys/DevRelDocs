@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # MeshedSizingParams
 
-<a id="ansys.meshing.prime.MeshedSizingParams"></a>
+
 
 ### *class* ansys.meshing.prime.MeshedSizingParams(model=None, growth_rate=None, json_data=None, \*\*kwargs)
 
@@ -38,4 +36,4 @@ Size field computed using meshed size control enables you to set the size based 
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
 | [`MeshedSizingParams.growth_rate`](ansys.meshing.prime.MeshedSizingParams.growth_rate.md#ansys.meshing.prime.MeshedSizingParams.growth_rate)   | Growth rate used for transitioning from one element size to neighbor element size.   |
-<!-- vale on -->
+

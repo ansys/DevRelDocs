@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # SearchByFoldsResults
 
-<a id="ansys.meshing.prime.SearchByFoldsResults"></a>
+
 
 ### *class* ansys.meshing.prime.SearchByFoldsResults(model=None, n_found=None, error_code=None, json_data=None, \*\*kwargs)
 
@@ -42,4 +40,4 @@ Results structure associated with search folds operation.
 |---------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
 | [`SearchByFoldsResults.error_code`](ansys.meshing.prime.SearchByFoldsResults.error_code.md#ansys.meshing.prime.SearchByFoldsResults.error_code)   | Error code associated with search folds operation.   |
 | [`SearchByFoldsResults.n_found`](ansys.meshing.prime.SearchByFoldsResults.n_found.md#ansys.meshing.prime.SearchByFoldsResults.n_found)            | Number of folds identified.                          |
-<!-- vale on -->
+

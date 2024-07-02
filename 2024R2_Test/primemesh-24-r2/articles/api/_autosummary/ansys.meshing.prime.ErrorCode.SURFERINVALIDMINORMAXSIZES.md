@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ErrorCode.SURFERINVALIDMINORMAXSIZES
 
-<a id="ansys.meshing.prime.ErrorCode.SURFERINVALIDMINORMAXSIZES"></a>
+
 
 #### ErrorCode.SURFERINVALIDMINORMAXSIZES *= 41*
 

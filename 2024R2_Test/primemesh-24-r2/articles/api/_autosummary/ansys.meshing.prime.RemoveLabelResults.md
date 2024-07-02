@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # RemoveLabelResults
 
-<a id="ansys.meshing.prime.RemoveLabelResults"></a>
+
 
 ### *class* ansys.meshing.prime.RemoveLabelResults(model=None, error_code=None, json_data=None, \*\*kwargs)
 
@@ -38,4 +36,4 @@ Results associated with the remove label operation.
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
 | [`RemoveLabelResults.error_code`](ansys.meshing.prime.RemoveLabelResults.error_code.md#ansys.meshing.prime.RemoveLabelResults.error_code)   | Error code associated with the remove label operation.   |
-<!-- vale on -->
+

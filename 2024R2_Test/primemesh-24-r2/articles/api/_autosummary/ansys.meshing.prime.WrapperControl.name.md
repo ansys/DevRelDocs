@@ -1,6 +1,6 @@
 # ansys.meshing.prime.WrapperControl.name
 
-<a id="ansys.meshing.prime.WrapperControl.name"></a>
+
 
 #### *property* WrapperControl.name
 

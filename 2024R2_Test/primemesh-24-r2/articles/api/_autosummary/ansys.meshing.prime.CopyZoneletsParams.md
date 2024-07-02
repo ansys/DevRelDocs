@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # CopyZoneletsParams
 
-<a id="ansys.meshing.prime.CopyZoneletsParams"></a>
+
 
 ### *class* ansys.meshing.prime.CopyZoneletsParams(model=None, copy_labels=None, copy_zones=None, json_data=None, \*\*kwargs)
 
@@ -44,4 +42,4 @@ Parameters to copy zonelets.
 |------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
 | [`CopyZoneletsParams.copy_labels`](ansys.meshing.prime.CopyZoneletsParams.copy_labels.md#ansys.meshing.prime.CopyZoneletsParams.copy_labels)   | Option to copy labels of input zonelets to the corresponding copied zonelets.   |
 | [`CopyZoneletsParams.copy_zones`](ansys.meshing.prime.CopyZoneletsParams.copy_zones.md#ansys.meshing.prime.CopyZoneletsParams.copy_zones)      | Option to copy zones of input zonelets to corresponding copied zonelets.        |
-<!-- vale on -->
+

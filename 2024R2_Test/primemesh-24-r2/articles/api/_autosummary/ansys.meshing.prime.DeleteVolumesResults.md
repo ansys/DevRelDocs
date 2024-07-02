@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # DeleteVolumesResults
 
-<a id="ansys.meshing.prime.DeleteVolumesResults"></a>
+
 
 ### *class* ansys.meshing.prime.DeleteVolumesResults(model=None, deleted_volumes=None, error_code=None, json_data=None, \*\*kwargs)
 
@@ -42,4 +40,4 @@ Results associated with delete volumes operation.
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
 | [`DeleteVolumesResults.deleted_volumes`](ansys.meshing.prime.DeleteVolumesResults.deleted_volumes.md#ansys.meshing.prime.DeleteVolumesResults.deleted_volumes)   | Ids of deleted volumes.                                   |
 | [`DeleteVolumesResults.error_code`](ansys.meshing.prime.DeleteVolumesResults.error_code.md#ansys.meshing.prime.DeleteVolumesResults.error_code)                  | Error code associated with the volume deletion operation. |
-<!-- vale on -->
+

@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # ThinVolumeControl
 
-<a id="ansys.meshing.prime.ThinVolumeControl"></a>
+
 
 ### *class* ansys.meshing.prime.ThinVolumeControl(model, id, object_id, name)
 
@@ -40,4 +38,4 @@ ThinVolumeControl allows you to control generation of prisms in the thin space b
 |----------------------------------------------------------------------------------------------------------------------|------------------------------------|
 | [`ThinVolumeControl.id`](ansys.meshing.prime.ThinVolumeControl.id.md#ansys.meshing.prime.ThinVolumeControl.id)       | Get the id of ThinVolumeControl.   |
 | [`ThinVolumeControl.name`](ansys.meshing.prime.ThinVolumeControl.name.md#ansys.meshing.prime.ThinVolumeControl.name) | Get the name of ThinVolumeControl. |
-<!-- vale on -->
+

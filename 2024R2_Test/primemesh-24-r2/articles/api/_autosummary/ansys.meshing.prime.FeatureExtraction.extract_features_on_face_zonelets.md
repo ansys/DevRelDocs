@@ -1,6 +1,6 @@
 # ansys.meshing.prime.FeatureExtraction.extract_features_on_face_zonelets
 
-<a id="ansys.meshing.prime.FeatureExtraction.extract_features_on_face_zonelets"></a>
+
 
 #### FeatureExtraction.extract_features_on_face_zonelets(part_id, face_zonelets, params)
 

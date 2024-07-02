@@ -1,6 +1,6 @@
 # ansys.meshing.prime.lucid.Mesh.write
 
-<a id="ansys.meshing.prime.lucid.Mesh.write"></a>
+
 
 #### Mesh.write(file_name)
 

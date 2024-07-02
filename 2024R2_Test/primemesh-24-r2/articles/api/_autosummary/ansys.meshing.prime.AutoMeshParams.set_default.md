@@ -1,6 +1,6 @@
 # ansys.meshing.prime.AutoMeshParams.set_default
 
-<a id="ansys.meshing.prime.AutoMeshParams.set_default"></a>
+
 
 #### *static* AutoMeshParams.set_default(size_field_type=None, max_size=None, prism_control_ids=None, thin_volume_control_ids=None, multi_zone_control_ids=None, volume_fill_type=None, prism=None, tet=None, hexcore=None, volume_control_ids=None, periodic_control_ids=None)
 

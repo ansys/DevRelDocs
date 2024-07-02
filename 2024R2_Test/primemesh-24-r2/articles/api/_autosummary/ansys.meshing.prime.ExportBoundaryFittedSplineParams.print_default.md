@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ExportBoundaryFittedSplineParams.print_default
 
-<a id="ansys.meshing.prime.ExportBoundaryFittedSplineParams.print_default"></a>
+
 
 #### *static* ExportBoundaryFittedSplineParams.print_default()
 

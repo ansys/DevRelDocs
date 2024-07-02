@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # SurfaceSearch
 
-<a id="ansys.meshing.prime.SurfaceSearch"></a>
+
 
 ### *class* ansys.meshing.prime.SurfaceSearch(model)
 
@@ -30,4 +28,4 @@ SurfaceSearch performs surface mesh quality check based on different face qualit
 | [`SurfaceSearch.search_zonelets_by_self_intersections`](ansys.meshing.prime.SurfaceSearch.search_zonelets_by_self_intersections.md#ansys.meshing.prime.SurfaceSearch.search_zonelets_by_self_intersections)(...) | Search face zonelets to identify face elements intersecting with each other.                              |
 | [`SurfaceSearch.search_zonelets_by_spikes`](ansys.meshing.prime.SurfaceSearch.search_zonelets_by_spikes.md#ansys.meshing.prime.SurfaceSearch.search_zonelets_by_spikes)(...)                                     | Search face zonelets to identify spikes.                                                                  |
 | [`SurfaceSearch.search_zonelets_by_thin_strips`](ansys.meshing.prime.SurfaceSearch.search_zonelets_by_thin_strips.md#ansys.meshing.prime.SurfaceSearch.search_zonelets_by_thin_strips)(...)                      | Search face zonelets to identify face element of thin strips(single layer of triangles between features). |
-<!-- vale on -->
+

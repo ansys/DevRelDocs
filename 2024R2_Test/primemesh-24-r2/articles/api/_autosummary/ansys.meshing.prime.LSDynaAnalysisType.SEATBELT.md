@@ -1,6 +1,6 @@
 # ansys.meshing.prime.LSDynaAnalysisType.SEATBELT
 
-<a id="ansys.meshing.prime.LSDynaAnalysisType.SEATBELT"></a>
+
 
 #### LSDynaAnalysisType.SEATBELT *= 1*
 

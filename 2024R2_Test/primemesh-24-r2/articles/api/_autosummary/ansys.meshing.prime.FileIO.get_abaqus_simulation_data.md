@@ -1,6 +1,6 @@
 # ansys.meshing.prime.FileIO.get_abaqus_simulation_data
 
-<a id="ansys.meshing.prime.FileIO.get_abaqus_simulation_data"></a>
+
 
 #### FileIO.get_abaqus_simulation_data(partId)
 

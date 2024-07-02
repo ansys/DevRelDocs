@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ControlData.create_multi_zone_control
 
-<a id="ansys.meshing.prime.ControlData.create_multi_zone_control"></a>
+
 
 #### ControlData.create_multi_zone_control()
 

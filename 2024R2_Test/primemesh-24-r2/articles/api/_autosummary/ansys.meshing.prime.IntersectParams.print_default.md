@@ -1,6 +1,6 @@
 # ansys.meshing.prime.IntersectParams.print_default
 
-<a id="ansys.meshing.prime.IntersectParams.print_default"></a>
+
 
 #### *static* IntersectParams.print_default()
 

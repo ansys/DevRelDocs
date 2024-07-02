@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ScaffolderMergeResults.print_default
 
-<a id="ansys.meshing.prime.ScaffolderMergeResults.print_default"></a>
+
 
 #### *static* ScaffolderMergeResults.print_default()
 

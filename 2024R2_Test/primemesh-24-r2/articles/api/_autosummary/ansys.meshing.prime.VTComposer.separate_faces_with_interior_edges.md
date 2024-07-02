@@ -1,6 +1,6 @@
 # ansys.meshing.prime.VTComposer.separate_faces_with_interior_edges
 
-<a id="ansys.meshing.prime.VTComposer.separate_faces_with_interior_edges"></a>
+
 
 #### VTComposer.separate_faces_with_interior_edges(topo_faces, params)
 

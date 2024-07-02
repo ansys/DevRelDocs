@@ -1,6 +1,6 @@
 # ansys.meshing.prime.DefeatureTopologyParams.thin_stripes_tolerance
 
-<a id="ansys.meshing.prime.DefeatureTopologyParams.thin_stripes_tolerance"></a>
+
 
 #### *property* DefeatureTopologyParams.thin_stripes_tolerance *: [float](https://docs.python.org/3.11/library/functions.html#float)*
 

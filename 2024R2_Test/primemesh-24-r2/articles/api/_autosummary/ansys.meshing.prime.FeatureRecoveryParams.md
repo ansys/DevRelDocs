@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # FeatureRecoveryParams
 
-<a id="ansys.meshing.prime.FeatureRecoveryParams"></a>
+
 
 ### *class* ansys.meshing.prime.FeatureRecoveryParams(model=None, scope=None, enable_feature_octree_refinement=None, size_at_features=None, json_data=None, \*\*kwargs)
 
@@ -46,4 +44,4 @@ FeatureRecoveryParams defines feature recovery control parameters for wrapper.
 | [`FeatureRecoveryParams.enable_feature_octree_refinement`](ansys.meshing.prime.FeatureRecoveryParams.enable_feature_octree_refinement.md#ansys.meshing.prime.FeatureRecoveryParams.enable_feature_octree_refinement)   | Checks whether to perform octree refinement at feature edges.   |
 | [`FeatureRecoveryParams.scope`](ansys.meshing.prime.FeatureRecoveryParams.scope.md#ansys.meshing.prime.FeatureRecoveryParams.scope)                                                                                    | Scope used for feature recovery control.                        |
 | [`FeatureRecoveryParams.size_at_features`](ansys.meshing.prime.FeatureRecoveryParams.size_at_features.md#ansys.meshing.prime.FeatureRecoveryParams.size_at_features)                                                   | Refinement size at features.                                    |
-<!-- vale on -->
+

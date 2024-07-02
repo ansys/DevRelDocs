@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SurfaceQualityResult.print_default
 
-<a id="ansys.meshing.prime.SurfaceQualityResult.print_default"></a>
+
 
 #### *static* SurfaceQualityResult.print_default()
 

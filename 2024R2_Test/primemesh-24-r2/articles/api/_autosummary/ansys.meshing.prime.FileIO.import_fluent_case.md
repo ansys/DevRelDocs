@@ -1,6 +1,6 @@
 # ansys.meshing.prime.FileIO.import_fluent_case
 
-<a id="ansys.meshing.prime.FileIO.import_fluent_case"></a>
+
 
 #### FileIO.import_fluent_case(file_name, import_fluent_case_params)
 

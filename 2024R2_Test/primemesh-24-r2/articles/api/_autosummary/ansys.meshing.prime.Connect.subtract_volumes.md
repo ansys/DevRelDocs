@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Connect.subtract_volumes
 
-<a id="ansys.meshing.prime.Connect.subtract_volumes"></a>
+
 
 #### Connect.subtract_volumes(part_id, target_volumes, cutter_volumes, params)
 

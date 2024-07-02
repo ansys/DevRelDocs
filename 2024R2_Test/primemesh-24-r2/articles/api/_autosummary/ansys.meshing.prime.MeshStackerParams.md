@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # MeshStackerParams
 
-<a id="ansys.meshing.prime.MeshStackerParams"></a>
+
 
 ### *class* ansys.meshing.prime.MeshStackerParams(model=None, origin=None, direction=None, lateral_defeature_tolerance=None, stacking_defeature_tolerance=None, max_offset_size=None, size_control_ids=None, delete_base=None, json_data=None, \*\*kwargs)
 
@@ -62,4 +60,4 @@ Input parameters associated with the mesh stacker operations.
 | [`MeshStackerParams.origin`](ansys.meshing.prime.MeshStackerParams.origin.md#ansys.meshing.prime.MeshStackerParams.origin)                                                                   | Origin coordinate list of stacker.                   |
 | [`MeshStackerParams.size_control_ids`](ansys.meshing.prime.MeshStackerParams.size_control_ids.md#ansys.meshing.prime.MeshStackerParams.size_control_ids)                                     | List of size control ids to be respected by stacker. |
 | [`MeshStackerParams.stacking_defeature_tolerance`](ansys.meshing.prime.MeshStackerParams.stacking_defeature_tolerance.md#ansys.meshing.prime.MeshStackerParams.stacking_defeature_tolerance) | Absolute stacking distance tolerance for stacker.    |
-<!-- vale on -->
+

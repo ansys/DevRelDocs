@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # FaceAndEdgeConnectivityParams
 
-<a id="ansys.meshing.prime.FaceAndEdgeConnectivityParams"></a>
+
 
 ### *class* ansys.meshing.prime.FaceAndEdgeConnectivityParams(model=None, reorder_face_zonelets_mid_nodes=None, reorder_edge_zonelets_mid_nodes=None, json_data=None, \*\*kwargs)
 
@@ -42,4 +40,4 @@ Parameters to get face and edge connectivity information.
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
 | [`FaceAndEdgeConnectivityParams.reorder_edge_zonelets_mid_nodes`](ansys.meshing.prime.FaceAndEdgeConnectivityParams.reorder_edge_zonelets_mid_nodes.md#ansys.meshing.prime.FaceAndEdgeConnectivityParams.reorder_edge_zonelets_mid_nodes)   | Option to reorder mid nodes for quadratic edges.   |
 | [`FaceAndEdgeConnectivityParams.reorder_face_zonelets_mid_nodes`](ansys.meshing.prime.FaceAndEdgeConnectivityParams.reorder_face_zonelets_mid_nodes.md#ansys.meshing.prime.FaceAndEdgeConnectivityParams.reorder_face_zonelets_mid_nodes)   | Option to reorder mid nodes for quadratic faces.   |
-<!-- vale on -->
+

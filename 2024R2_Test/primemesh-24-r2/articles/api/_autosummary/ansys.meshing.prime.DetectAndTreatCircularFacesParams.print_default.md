@@ -1,6 +1,6 @@
 # ansys.meshing.prime.DetectAndTreatCircularFacesParams.print_default
 
-<a id="ansys.meshing.prime.DetectAndTreatCircularFacesParams.print_default"></a>
+
 
 #### *static* DetectAndTreatCircularFacesParams.print_default()
 

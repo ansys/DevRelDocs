@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # CreateBOIResults
 
-<a id="ansys.meshing.prime.CreateBOIResults"></a>
+
 
 ### *class* ansys.meshing.prime.CreateBOIResults(model=None, error_code=None, part_id=None, json_data=None, \*\*kwargs)
 
@@ -42,4 +40,4 @@ Result structure associated with BOI creation of zonelets.
 |---------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
 | [`CreateBOIResults.error_code`](ansys.meshing.prime.CreateBOIResults.error_code.md#ansys.meshing.prime.CreateBOIResults.error_code)   | Error code associated with failure of operation.   |
 | [`CreateBOIResults.part_id`](ansys.meshing.prime.CreateBOIResults.part_id.md#ansys.meshing.prime.CreateBOIResults.part_id)            | The BOI part id.                                   |
-<!-- vale on -->
+

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.PeriodicControl.get_summary
 
-<a id="ansys.meshing.prime.PeriodicControl.get_summary"></a>
+
 
 #### PeriodicControl.get_summary(params)
 

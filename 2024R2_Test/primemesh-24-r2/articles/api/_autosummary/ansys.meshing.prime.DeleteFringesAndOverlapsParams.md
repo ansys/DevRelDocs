@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # DeleteFringesAndOverlapsParams
 
-<a id="ansys.meshing.prime.DeleteFringesAndOverlapsParams"></a>
+
 
 ### *class* ansys.meshing.prime.DeleteFringesAndOverlapsParams(model=None, fringe_element_count=None, overlap_element_count=None, delete_fringes=None, delete_overlaps=None, json_data=None, \*\*kwargs)
 
@@ -50,4 +48,4 @@ Parameters to delete fringes and overlapping faces.
 | [`DeleteFringesAndOverlapsParams.delete_overlaps`](ansys.meshing.prime.DeleteFringesAndOverlapsParams.delete_overlaps.md#ansys.meshing.prime.DeleteFringesAndOverlapsParams.delete_overlaps)                   | Option to delete overlaps.                                                      |
 | [`DeleteFringesAndOverlapsParams.fringe_element_count`](ansys.meshing.prime.DeleteFringesAndOverlapsParams.fringe_element_count.md#ansys.meshing.prime.DeleteFringesAndOverlapsParams.fringe_element_count)    | Maximum count of free face elements identified as fringe to be deleted.         |
 | [`DeleteFringesAndOverlapsParams.overlap_element_count`](ansys.meshing.prime.DeleteFringesAndOverlapsParams.overlap_element_count.md#ansys.meshing.prime.DeleteFringesAndOverlapsParams.overlap_element_count) | Maximum count of overlapping face elements identified as overlap to be deleted. |
-<!-- vale on -->
+

@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # SurferParams
 
-<a id="ansys.meshing.prime.SurferParams"></a>
+
 
 ### *class* ansys.meshing.prime.SurferParams(model=None, max_angle=None, size_field_type=None, min_size=None, max_size=None, growth_rate=None, constant_size=None, generate_quads=None, check_non_manifolds=None, avoid_corner_triangles=None, smooth_size_transition=None, advanced_surfer_setup=None, project_on_geometry=None, enable_multi_threading=None, json_data=None, \*\*kwargs)
 
@@ -86,4 +84,4 @@ Parameters used to generate surface mesh.
 | [`SurferParams.project_on_geometry`](ansys.meshing.prime.SurferParams.project_on_geometry.md#ansys.meshing.prime.SurferParams.project_on_geometry)          | Option to project on CAD geometry when meshing.                                          |
 | [`SurferParams.size_field_type`](ansys.meshing.prime.SurferParams.size_field_type.md#ansys.meshing.prime.SurferParams.size_field_type)                      | Size field type used to generate surface mesh.                                           |
 | [`SurferParams.smooth_size_transition`](ansys.meshing.prime.SurferParams.smooth_size_transition.md#ansys.meshing.prime.SurferParams.smooth_size_transition) | Option to generate mesh with smooth size transition from neighbors of selected surfaces. |
-<!-- vale on -->
+

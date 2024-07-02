@@ -1,6 +1,6 @@
 # ansys.meshing.prime.WarningCode.WRAPPER_SMALLERCONTACTPREVENTIONSIZE
 
-<a id="ansys.meshing.prime.WarningCode.WRAPPER_SMALLERCONTACTPREVENTIONSIZE"></a>
+
 
 #### WarningCode.WRAPPER_SMALLERCONTACTPREVENTIONSIZE *= 6004*
 

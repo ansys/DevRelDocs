@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ImportCadParams.ansys_release
 
-<a id="ansys.meshing.prime.ImportCadParams.ansys_release"></a>
+
 
 #### *property* ImportCadParams.ansys_release *: [str](https://docs.python.org/3.11/library/stdtypes.html#str)*
 

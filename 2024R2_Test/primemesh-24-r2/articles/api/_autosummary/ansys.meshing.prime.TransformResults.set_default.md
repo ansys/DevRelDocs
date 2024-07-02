@@ -1,6 +1,6 @@
 # ansys.meshing.prime.TransformResults.set_default
 
-<a id="ansys.meshing.prime.TransformResults.set_default"></a>
+
 
 #### *static* TransformResults.set_default(error_code=None)
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ExportLSDynaKeywordFileParams.set_default
 
-<a id="ansys.meshing.prime.ExportLSDynaKeywordFileParams.set_default"></a>
+
 
 #### *static* ExportLSDynaKeywordFileParams.set_default(material_properties=None, database_keywords=None, output_format=None, analysis_type=None, compute_spotweld_thickness=None)
 

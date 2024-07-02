@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # ScaffolderSplitResults
 
-<a id="ansys.meshing.prime.ScaffolderSplitResults"></a>
+
 
 ### *class* ansys.meshing.prime.ScaffolderSplitResults(model=None, new_faces=None, error_code=None, json_data=None, \*\*kwargs)
 
@@ -42,4 +40,4 @@ Result structure associated to split topofaces operation.
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
 | [`ScaffolderSplitResults.error_code`](ansys.meshing.prime.ScaffolderSplitResults.error_code.md#ansys.meshing.prime.ScaffolderSplitResults.error_code)   | Error code associated with split topofaces operation.   |
 | [`ScaffolderSplitResults.new_faces`](ansys.meshing.prime.ScaffolderSplitResults.new_faces.md#ansys.meshing.prime.ScaffolderSplitResults.new_faces)      | Topofaces created after split operation.                |
-<!-- vale on -->
+

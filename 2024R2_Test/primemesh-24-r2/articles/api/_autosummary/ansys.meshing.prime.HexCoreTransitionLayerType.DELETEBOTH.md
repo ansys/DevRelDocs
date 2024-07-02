@@ -1,6 +1,6 @@
 # ansys.meshing.prime.HexCoreTransitionLayerType.DELETEBOTH
 
-<a id="ansys.meshing.prime.HexCoreTransitionLayerType.DELETEBOTH"></a>
+
 
 #### HexCoreTransitionLayerType.DELETEBOTH *= 3*
 

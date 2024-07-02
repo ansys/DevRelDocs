@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # WrapResult
 
-<a id="ansys.meshing.prime.WrapResult"></a>
+
 
 ### *class* ansys.meshing.prime.WrapResult(model=None, warning_codes=None, error_code=None, id=None, name=None, json_data=None, \*\*kwargs)
 
@@ -50,4 +48,4 @@ Result structure associated to Wrap operation.
 | [`WrapResult.id`](ansys.meshing.prime.WrapResult.id.md#ansys.meshing.prime.WrapResult.id)                                  | Id of the wrapper part created.                   |
 | [`WrapResult.name`](ansys.meshing.prime.WrapResult.name.md#ansys.meshing.prime.WrapResult.name)                            | Name of wrapper part created.                     |
 | [`WrapResult.warning_codes`](ansys.meshing.prime.WrapResult.warning_codes.md#ansys.meshing.prime.WrapResult.warning_codes) | Warning codes associated with the wrap operation. |
-<!-- vale on -->
+

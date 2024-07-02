@@ -1,6 +1,6 @@
 # ansys.meshing.prime.QuadToSpline.convert_quad_to_spline
 
-<a id="ansys.meshing.prime.QuadToSpline.convert_quad_to_spline"></a>
+
 
 #### QuadToSpline.convert_quad_to_spline(input_scope, quad_to_spline_params)
 

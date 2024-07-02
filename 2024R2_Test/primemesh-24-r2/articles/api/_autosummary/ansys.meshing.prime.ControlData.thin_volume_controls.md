@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ControlData.thin_volume_controls
 
-<a id="ansys.meshing.prime.ControlData.thin_volume_controls"></a>
+
 
 #### *property* ControlData.thin_volume_controls *: [List](https://docs.python.org/3.11/library/typing.html#typing.List)[[ThinVolumeControl](ansys.meshing.prime.ThinVolumeControl.md#ansys.meshing.prime.ThinVolumeControl)]*
 

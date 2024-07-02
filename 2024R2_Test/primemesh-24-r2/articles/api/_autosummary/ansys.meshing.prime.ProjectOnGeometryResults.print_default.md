@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ProjectOnGeometryResults.print_default
 
-<a id="ansys.meshing.prime.ProjectOnGeometryResults.print_default"></a>
+
 
 #### *static* ProjectOnGeometryResults.print_default()
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.DeadRegion.set_default
 
-<a id="ansys.meshing.prime.DeadRegion.set_default"></a>
+
 
 #### *static* DeadRegion.set_default(face_zonelet_ids=None, dead_material_points=None, hole_size=None)
 

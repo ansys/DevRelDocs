@@ -1,6 +1,6 @@
 # ansys.meshing.prime.PartSummaryResults.set_default
 
-<a id="ansys.meshing.prime.PartSummaryResults.set_default"></a>
+
 
 #### *static* PartSummaryResults.set_default(message=None, n_topo_edges=None, n_topo_faces=None, n_topo_volumes=None, n_edge_zonelets=None, n_face_zonelets=None, n_cell_zonelets=None, n_edge_zones=None, n_face_zones=None, n_volume_zones=None, n_labels=None, n_nodes=None, n_faces=None, n_cells=None, n_tri_faces=None, n_poly_faces=None, n_quad_faces=None, n_tet_cells=None, n_pyra_cells=None, n_prism_cells=None, n_poly_cells=None, n_hex_cells=None, n_unmeshed_topo_faces=None)
 

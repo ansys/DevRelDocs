@@ -1,6 +1,6 @@
 # ansys.meshing.prime.StitchParams.print_default
 
-<a id="ansys.meshing.prime.StitchParams.print_default"></a>
+
 
 #### *static* StitchParams.print_default()
 

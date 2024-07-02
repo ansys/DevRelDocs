@@ -1,6 +1,6 @@
 # ansys.meshing.prime.DetectAndTreatCircularFacesParams.set_default
 
-<a id="ansys.meshing.prime.DetectAndTreatCircularFacesParams.set_default"></a>
+
 
 #### *static* DetectAndTreatCircularFacesParams.set_default(edge_mesh_constant_size=None, surface_mesh_constant_size=None, merge_edge_allow_self_close=None, merge_face_normals_angle=None)
 

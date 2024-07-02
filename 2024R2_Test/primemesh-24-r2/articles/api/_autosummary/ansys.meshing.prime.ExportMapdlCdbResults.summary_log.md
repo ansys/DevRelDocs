@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ExportMapdlCdbResults.summary_log
 
-<a id="ansys.meshing.prime.ExportMapdlCdbResults.summary_log"></a>
+
 
 #### *property* ExportMapdlCdbResults.summary_log *: [str](https://docs.python.org/3.11/library/stdtypes.html#str)*
 

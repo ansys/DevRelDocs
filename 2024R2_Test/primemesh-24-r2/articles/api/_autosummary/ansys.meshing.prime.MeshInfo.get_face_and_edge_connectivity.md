@@ -1,6 +1,6 @@
 # ansys.meshing.prime.MeshInfo.get_face_and_edge_connectivity
 
-<a id="ansys.meshing.prime.MeshInfo.get_face_and_edge_connectivity"></a>
+
 
 #### MeshInfo.get_face_and_edge_connectivity(part_ids, params)
 

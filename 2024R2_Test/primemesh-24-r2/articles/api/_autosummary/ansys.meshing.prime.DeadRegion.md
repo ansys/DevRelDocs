@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # DeadRegion
 
-<a id="ansys.meshing.prime.DeadRegion"></a>
+
 
 ### *class* ansys.meshing.prime.DeadRegion(model=None, face_zonelet_ids=None, dead_material_points=None, hole_size=None, json_data=None, \*\*kwargs)
 
@@ -52,4 +50,4 @@ DeadRegion defines a dead region for patch flow regions operation.
 | [`DeadRegion.dead_material_points`](ansys.meshing.prime.DeadRegion.dead_material_points.md#ansys.meshing.prime.DeadRegion.dead_material_points)   | Material points to identify dead region.   |
 | [`DeadRegion.face_zonelet_ids`](ansys.meshing.prime.DeadRegion.face_zonelet_ids.md#ansys.meshing.prime.DeadRegion.face_zonelet_ids)               | Face zonelets enclosing dead region.       |
 | [`DeadRegion.hole_size`](ansys.meshing.prime.DeadRegion.hole_size.md#ansys.meshing.prime.DeadRegion.hole_size)                                    | Maximum hole size used for patching.       |
-<!-- vale on -->
+

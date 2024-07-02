@@ -1,6 +1,6 @@
 # ansys.meshing.prime.CollapseParams.print_default
 
-<a id="ansys.meshing.prime.CollapseParams.print_default"></a>
+
 
 #### *static* CollapseParams.print_default()
 

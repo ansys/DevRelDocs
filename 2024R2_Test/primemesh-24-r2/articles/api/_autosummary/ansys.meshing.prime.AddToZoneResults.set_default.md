@@ -1,6 +1,6 @@
 # ansys.meshing.prime.AddToZoneResults.set_default
 
-<a id="ansys.meshing.prime.AddToZoneResults.set_default"></a>
+
 
 #### *static* AddToZoneResults.set_default(error_code=None, warning_codes=None)
 

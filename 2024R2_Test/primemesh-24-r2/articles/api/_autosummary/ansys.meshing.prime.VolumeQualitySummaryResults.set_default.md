@@ -1,6 +1,6 @@
 # ansys.meshing.prime.VolumeQualitySummaryResults.set_default
 
-<a id="ansys.meshing.prime.VolumeQualitySummaryResults.set_default"></a>
+
 
 #### *static* VolumeQualitySummaryResults.set_default(error_code=None, quality_results_part=None, message=None)
 

@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # TopoFillHoleResult
 
-<a id="ansys.meshing.prime.TopoFillHoleResult"></a>
+
 
 ### *class* ansys.meshing.prime.TopoFillHoleResult(model=None, new_topo_faces_created=None, error_code=None, json_data=None, \*\*kwargs)
 
@@ -42,4 +40,4 @@ Results associated with fill holes in topology operations.
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------|
 | [`TopoFillHoleResult.error_code`](ansys.meshing.prime.TopoFillHoleResult.error_code.md#ansys.meshing.prime.TopoFillHoleResult.error_code)                                     | Error code associated with a wrap operation.   |
 | [`TopoFillHoleResult.new_topo_faces_created`](ansys.meshing.prime.TopoFillHoleResult.new_topo_faces_created.md#ansys.meshing.prime.TopoFillHoleResult.new_topo_faces_created) | Ids of new topofaces created.                  |
-<!-- vale on -->
+

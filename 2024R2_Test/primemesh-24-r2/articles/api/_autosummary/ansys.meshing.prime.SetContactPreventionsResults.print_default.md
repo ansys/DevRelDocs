@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SetContactPreventionsResults.print_default
 
-<a id="ansys.meshing.prime.SetContactPreventionsResults.print_default"></a>
+
 
 #### *static* SetContactPreventionsResults.print_default()
 

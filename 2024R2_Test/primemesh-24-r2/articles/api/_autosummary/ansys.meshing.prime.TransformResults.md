@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # TransformResults
 
-<a id="ansys.meshing.prime.TransformResults"></a>
+
 
 ### *class* ansys.meshing.prime.TransformResults(model=None, error_code=None, json_data=None, \*\*kwargs)
 
@@ -38,4 +36,4 @@ Results associated with the transformation.
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
 | [`TransformResults.error_code`](ansys.meshing.prime.TransformResults.error_code.md#ansys.meshing.prime.TransformResults.error_code)   | Error code associated with the failure of operation.   |
-<!-- vale on -->
+

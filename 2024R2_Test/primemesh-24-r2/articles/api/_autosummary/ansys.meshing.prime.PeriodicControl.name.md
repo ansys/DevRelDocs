@@ -1,6 +1,6 @@
 # ansys.meshing.prime.PeriodicControl.name
 
-<a id="ansys.meshing.prime.PeriodicControl.name"></a>
+
 
 #### *property* PeriodicControl.name
 

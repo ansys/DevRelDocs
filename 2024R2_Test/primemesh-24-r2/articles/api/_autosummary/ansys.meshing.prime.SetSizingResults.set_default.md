@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SetSizingResults.set_default
 
-<a id="ansys.meshing.prime.SetSizingResults.set_default"></a>
+
 
 #### *static* SetSizingResults.set_default(warning_codes=None, error_code=None)
 

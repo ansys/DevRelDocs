@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Surfer.remesh_face_zonelets_locally
 
-<a id="ansys.meshing.prime.Surfer.remesh_face_zonelets_locally"></a>
+
 
 #### Surfer.remesh_face_zonelets_locally(part_id, face_zonelets, register_id, local_surfer_params)
 

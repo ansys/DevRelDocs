@@ -1,6 +1,6 @@
 # ansys.meshing.prime.FileIO.export_boundary_fitted_spline_kfile
 
-<a id="ansys.meshing.prime.FileIO.export_boundary_fitted_spline_kfile"></a>
+
 
 #### FileIO.export_boundary_fitted_spline_kfile(file_name, export_params)
 

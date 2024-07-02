@@ -1,6 +1,6 @@
 # ansys.meshing.prime.WrapperCloseGapsParams.target
 
-<a id="ansys.meshing.prime.WrapperCloseGapsParams.target"></a>
+
 
 #### *property* WrapperCloseGapsParams.target *: [ScopeDefinition](ansys.meshing.prime.ScopeDefinition.md#ansys.meshing.prime.ScopeDefinition)*
 

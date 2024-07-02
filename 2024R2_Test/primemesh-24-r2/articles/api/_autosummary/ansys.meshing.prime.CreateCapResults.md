@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # CreateCapResults
 
-<a id="ansys.meshing.prime.CreateCapResults"></a>
+
 
 ### *class* ansys.meshing.prime.CreateCapResults(model=None, error_code=None, created_face_zonelets=None, json_data=None, \*\*kwargs)
 
@@ -42,4 +40,4 @@ Results associated with create cap on face zonelets.
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
 | [`CreateCapResults.created_face_zonelets`](ansys.meshing.prime.CreateCapResults.created_face_zonelets.md#ansys.meshing.prime.CreateCapResults.created_face_zonelets)   | Ids of cap face zonelets created.                    |
 | [`CreateCapResults.error_code`](ansys.meshing.prime.CreateCapResults.error_code.md#ansys.meshing.prime.CreateCapResults.error_code)                                    | Error code associated with the failure of operation. |
-<!-- vale on -->
+

@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # SearchByFoldsParams
 
-<a id="ansys.meshing.prime.SearchByFoldsParams"></a>
+
 
 ### *class* ansys.meshing.prime.SearchByFoldsParams(model=None, critical_angle=None, json_data=None, \*\*kwargs)
 
@@ -38,4 +36,4 @@ Parameters to control fold detection.
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|
 | [`SearchByFoldsParams.critical_angle`](ansys.meshing.prime.SearchByFoldsParams.critical_angle.md#ansys.meshing.prime.SearchByFoldsParams.critical_angle)   | Threshold angle for fold detection.   |
-<!-- vale on -->
+

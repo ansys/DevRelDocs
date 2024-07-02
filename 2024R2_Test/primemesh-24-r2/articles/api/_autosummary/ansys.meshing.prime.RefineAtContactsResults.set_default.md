@@ -1,6 +1,6 @@
 # ansys.meshing.prime.RefineAtContactsResults.set_default
 
-<a id="ansys.meshing.prime.RefineAtContactsResults.set_default"></a>
+
 
 #### *static* RefineAtContactsResults.set_default(n_refined=None, size_field_id=None, error_code=None)
 

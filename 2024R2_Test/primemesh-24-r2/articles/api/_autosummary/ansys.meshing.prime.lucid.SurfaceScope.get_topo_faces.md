@@ -1,6 +1,6 @@
 # ansys.meshing.prime.lucid.SurfaceScope.get_topo_faces
 
-<a id="ansys.meshing.prime.lucid.SurfaceScope.get_topo_faces"></a>
+
 
 #### SurfaceScope.get_topo_faces(model, part_id)
 

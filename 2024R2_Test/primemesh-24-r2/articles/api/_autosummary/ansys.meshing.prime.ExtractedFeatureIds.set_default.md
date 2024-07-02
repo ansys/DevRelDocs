@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ExtractedFeatureIds.set_default
 
-<a id="ansys.meshing.prime.ExtractedFeatureIds.set_default"></a>
+
 
 #### *static* ExtractedFeatureIds.set_default(part_id=None, new_edge_zonelets=None)
 

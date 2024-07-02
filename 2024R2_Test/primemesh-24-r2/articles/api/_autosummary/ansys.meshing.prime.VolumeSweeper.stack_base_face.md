@@ -1,6 +1,6 @@
 # ansys.meshing.prime.VolumeSweeper.stack_base_face
 
-<a id="ansys.meshing.prime.VolumeSweeper.stack_base_face"></a>
+
 
 #### VolumeSweeper.stack_base_face(part_id, base_face_ids, topo_volume_ids, params)
 

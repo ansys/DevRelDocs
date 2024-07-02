@@ -1,6 +1,6 @@
 # ansys.meshing.prime.IGASpline.print_default
 
-<a id="ansys.meshing.prime.IGASpline.print_default"></a>
+
 
 #### *static* IGASpline.print_default()
 

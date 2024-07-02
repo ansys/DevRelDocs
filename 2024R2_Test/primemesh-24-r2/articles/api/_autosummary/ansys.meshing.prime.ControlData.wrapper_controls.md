@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ControlData.wrapper_controls
 
-<a id="ansys.meshing.prime.ControlData.wrapper_controls"></a>
+
 
 #### *property* ControlData.wrapper_controls *: [List](https://docs.python.org/3.11/library/typing.html#typing.List)[[WrapperControl](ansys.meshing.prime.WrapperControl.md#ansys.meshing.prime.WrapperControl)]*
 

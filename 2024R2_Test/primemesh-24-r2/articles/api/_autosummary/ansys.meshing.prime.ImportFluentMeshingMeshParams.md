@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # ImportFluentMeshingMeshParams
 
-<a id="ansys.meshing.prime.ImportFluentMeshingMeshParams"></a>
+
 
 ### *class* ansys.meshing.prime.ImportFluentMeshingMeshParams(model=None, append=None, enable_multi_threading=None, json_data=None, \*\*kwargs)
 
@@ -42,4 +40,4 @@ Parameters used to import fluent meshing mesh.
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
 | [`ImportFluentMeshingMeshParams.append`](ansys.meshing.prime.ImportFluentMeshingMeshParams.append.md#ansys.meshing.prime.ImportFluentMeshingMeshParams.append)                                                 | Option to append imported mesh to existing mesh instead of resetting model to imported mesh.   |
 | [`ImportFluentMeshingMeshParams.enable_multi_threading`](ansys.meshing.prime.ImportFluentMeshingMeshParams.enable_multi_threading.md#ansys.meshing.prime.ImportFluentMeshingMeshParams.enable_multi_threading) | Option to import multiple files in parallel using multithreading.                              |
-<!-- vale on -->
+

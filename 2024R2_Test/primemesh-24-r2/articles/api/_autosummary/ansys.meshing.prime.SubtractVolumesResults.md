@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # SubtractVolumesResults
 
-<a id="ansys.meshing.prime.SubtractVolumesResults"></a>
+
 
 ### *class* ansys.meshing.prime.SubtractVolumesResults(model=None, error_code=None, warning_codes=None, json_data=None, \*\*kwargs)
 
@@ -44,4 +42,4 @@ Results of the volume subtract operation.
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
 | [`SubtractVolumesResults.error_code`](ansys.meshing.prime.SubtractVolumesResults.error_code.md#ansys.meshing.prime.SubtractVolumesResults.error_code)          | Error code associated with the volume subtract operation.    |
 | [`SubtractVolumesResults.warning_codes`](ansys.meshing.prime.SubtractVolumesResults.warning_codes.md#ansys.meshing.prime.SubtractVolumesResults.warning_codes) | Warning codes associated with the volume subtract operation. |
-<!-- vale on -->
+

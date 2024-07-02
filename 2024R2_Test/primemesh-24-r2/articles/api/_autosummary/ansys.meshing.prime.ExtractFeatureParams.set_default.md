@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ExtractFeatureParams.set_default
 
-<a id="ansys.meshing.prime.ExtractFeatureParams.set_default"></a>
+
 
 #### *static* ExtractFeatureParams.set_default(replace=None, feature_angle=None, separate_features=None, separation_angle=None, disconnect_with_faces=None, label_name=None, number_of_threads=None)
 

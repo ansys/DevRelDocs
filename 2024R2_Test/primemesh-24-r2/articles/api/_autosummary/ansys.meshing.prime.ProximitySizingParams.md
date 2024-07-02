@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # ProximitySizingParams
 
-<a id="ansys.meshing.prime.ProximitySizingParams"></a>
+
 
 ### *class* ansys.meshing.prime.ProximitySizingParams(model=None, min=None, max=None, growth_rate=None, elements_per_gap=None, ignore_self_proximity=None, ignore_orientation=None, json_data=None, \*\*kwargs)
 
@@ -58,4 +56,4 @@ Size field using proximity size control computes edge and face sizes in gaps usi
 | [`ProximitySizingParams.ignore_self_proximity`](ansys.meshing.prime.ProximitySizingParams.ignore_self_proximity.md#ansys.meshing.prime.ProximitySizingParams.ignore_self_proximity) | Ignore proximity within zonelets.                                                                                 |
 | [`ProximitySizingParams.max`](ansys.meshing.prime.ProximitySizingParams.max.md#ansys.meshing.prime.ProximitySizingParams.max)                                                       | Maximum size used for computing edge and face size using proximity size control.                                  |
 | [`ProximitySizingParams.min`](ansys.meshing.prime.ProximitySizingParams.min.md#ansys.meshing.prime.ProximitySizingParams.min)                                                       | Minimum size used for computing edge and face size using proximity size control.                                  |
-<!-- vale on -->
+

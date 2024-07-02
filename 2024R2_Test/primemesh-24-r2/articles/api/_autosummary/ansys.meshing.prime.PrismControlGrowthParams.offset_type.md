@@ -1,6 +1,6 @@
 # ansys.meshing.prime.PrismControlGrowthParams.offset_type
 
-<a id="ansys.meshing.prime.PrismControlGrowthParams.offset_type"></a>
+
 
 #### *property* PrismControlGrowthParams.offset_type *: [PrismControlOffsetType](ansys.meshing.prime.PrismControlOffsetType.md#ansys.meshing.prime.PrismControlOffsetType)*
 

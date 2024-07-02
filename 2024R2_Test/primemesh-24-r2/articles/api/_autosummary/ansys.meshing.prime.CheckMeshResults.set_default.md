@@ -1,6 +1,6 @@
 # ansys.meshing.prime.CheckMeshResults.set_default
 
-<a id="ansys.meshing.prime.CheckMeshResults.set_default"></a>
+
 
 #### *static* CheckMeshResults.set_default(has_non_positive_volumes=None, has_non_positive_areas=None, has_invalid_shape=None, has_left_handed_faces=None, error_code=None, warning_codes=None)
 

@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # ContactPreventionParams
 
-<a id="ansys.meshing.prime.ContactPreventionParams"></a>
+
 
 ### *class* ansys.meshing.prime.ContactPreventionParams(model=None, source_scope=None, target_scope=None, size=None, json_data=None, \*\*kwargs)
 
@@ -46,4 +44,4 @@ ContactPreventionParams defines contact prevention control parameters for wrappe
 | [`ContactPreventionParams.size`](ansys.meshing.prime.ContactPreventionParams.size.md#ansys.meshing.prime.ContactPreventionParams.size)                         | Minimum gap size (gap/4) to resolve contact between source and target.   |
 | [`ContactPreventionParams.source_scope`](ansys.meshing.prime.ContactPreventionParams.source_scope.md#ansys.meshing.prime.ContactPreventionParams.source_scope) | Source scope used for contact prevention control.                        |
 | [`ContactPreventionParams.target_scope`](ansys.meshing.prime.ContactPreventionParams.target_scope.md#ansys.meshing.prime.ContactPreventionParams.target_scope) | Target scope used for contact prevention control.                        |
-<!-- vale on -->
+

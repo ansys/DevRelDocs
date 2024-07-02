@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ProximitySizingParams.growth_rate
 
-<a id="ansys.meshing.prime.ProximitySizingParams.growth_rate"></a>
+
 
 #### *property* ProximitySizingParams.growth_rate *: [float](https://docs.python.org/3.11/library/functions.html#float)*
 

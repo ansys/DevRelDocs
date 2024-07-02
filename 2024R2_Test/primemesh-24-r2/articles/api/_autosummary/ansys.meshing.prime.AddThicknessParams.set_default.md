@@ -1,6 +1,6 @@
 # ansys.meshing.prime.AddThicknessParams.set_default
 
-<a id="ansys.meshing.prime.AddThicknessParams.set_default"></a>
+
 
 #### *static* AddThicknessParams.set_default(thickness=None, reverse_face_normal=None, suggested_part_name=None, fix_intersections=None)
 

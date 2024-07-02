@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # DeleteVolumesParams
 
-<a id="ansys.meshing.prime.DeleteVolumesParams"></a>
+
 
 ### *class* ansys.meshing.prime.DeleteVolumesParams(model=None, delete_small_volumes=None, volume_limit=None, json_data=None, \*\*kwargs)
 
@@ -42,4 +40,4 @@ Parameters to delete volumes.
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
 | [`DeleteVolumesParams.delete_small_volumes`](ansys.meshing.prime.DeleteVolumesParams.delete_small_volumes.md#ansys.meshing.prime.DeleteVolumesParams.delete_small_volumes)   | Option to delete only volumes smaller than provided volume limit.   |
 | [`DeleteVolumesParams.volume_limit`](ansys.meshing.prime.DeleteVolumesParams.volume_limit.md#ansys.meshing.prime.DeleteVolumesParams.volume_limit)                           | Maximum volume limit to identify smaller volumes to be deleted.     |
-<!-- vale on -->
+

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SurfaceQualitySummaryResults.set_default
 
-<a id="ansys.meshing.prime.SurfaceQualitySummaryResults.set_default"></a>
+
 
 #### *static* SurfaceQualitySummaryResults.set_default(error_code=None, quality_results=None, summary=None)
 

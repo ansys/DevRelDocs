@@ -1,6 +1,6 @@
 # ansys.meshing.prime.MeshStackerParams.stacking_defeature_tolerance
 
-<a id="ansys.meshing.prime.MeshStackerParams.stacking_defeature_tolerance"></a>
+
 
 #### *property* MeshStackerParams.stacking_defeature_tolerance *: [float](https://docs.python.org/3.11/library/functions.html#float)*
 

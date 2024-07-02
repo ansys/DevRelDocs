@@ -1,6 +1,6 @@
 # ansys.meshing.prime.examples.download_turbine_blade_cdb
 
-<a id="ansys.meshing.prime.examples.download_turbine_blade_cdb"></a>
+
 
 ### ansys.meshing.prime.examples.download_turbine_blade_cdb(destination=None, force=False)
 

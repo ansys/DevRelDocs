@@ -1,6 +1,6 @@
 # ansys.meshing.prime.VolumeNamingType.BYFACEZONE
 
-<a id="ansys.meshing.prime.VolumeNamingType.BYFACEZONE"></a>
+
 
 #### VolumeNamingType.BYFACEZONE *= 2*
 

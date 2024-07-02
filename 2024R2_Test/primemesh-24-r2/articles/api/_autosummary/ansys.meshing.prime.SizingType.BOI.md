@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SizingType.BOI
 
-<a id="ansys.meshing.prime.SizingType.BOI"></a>
+
 
 #### SizingType.BOI *= 5*
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ExportLSDynaKeywordFileParams.analysis_type
 
-<a id="ansys.meshing.prime.ExportLSDynaKeywordFileParams.analysis_type"></a>
+
 
 #### *property* ExportLSDynaKeywordFileParams.analysis_type *: [LSDynaAnalysisType](ansys.meshing.prime.LSDynaAnalysisType.md#ansys.meshing.prime.LSDynaAnalysisType)*
 

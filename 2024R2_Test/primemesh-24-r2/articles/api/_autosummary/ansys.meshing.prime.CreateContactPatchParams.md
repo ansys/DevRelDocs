@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # CreateContactPatchParams
 
-<a id="ansys.meshing.prime.CreateContactPatchParams"></a>
+
 
 ### *class* ansys.meshing.prime.CreateContactPatchParams(model=None, contact_patch_axis=None, offset_distance=None, grouping_tolerance=None, suggested_part_name=None, suggested_label_prefix=None, json_data=None, \*\*kwargs)
 
@@ -54,4 +52,4 @@ Parameters used for contact patch creation in the given axis.
 | [`CreateContactPatchParams.offset_distance`](ansys.meshing.prime.CreateContactPatchParams.offset_distance.md#ansys.meshing.prime.CreateContactPatchParams.offset_distance)                      | Source offset distance value.                                         |
 | [`CreateContactPatchParams.suggested_label_prefix`](ansys.meshing.prime.CreateContactPatchParams.suggested_label_prefix.md#ansys.meshing.prime.CreateContactPatchParams.suggested_label_prefix) | Suggested label name for created contact patch surfaces.              |
 | [`CreateContactPatchParams.suggested_part_name`](ansys.meshing.prime.CreateContactPatchParams.suggested_part_name.md#ansys.meshing.prime.CreateContactPatchParams.suggested_part_name)          | Suggested part name for created contact patch surfaces.               |
-<!-- vale on -->
+

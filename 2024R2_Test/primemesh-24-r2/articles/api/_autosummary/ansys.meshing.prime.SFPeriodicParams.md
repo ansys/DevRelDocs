@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # SFPeriodicParams
 
-<a id="ansys.meshing.prime.SFPeriodicParams"></a>
+
 
 ### *class* ansys.meshing.prime.SFPeriodicParams(model=None, axis=None, angle=None, center=None, json_data=None, \*\*kwargs)
 
@@ -46,4 +44,4 @@ Parameters for setting periodic size fields.
 | [`SFPeriodicParams.angle`](ansys.meshing.prime.SFPeriodicParams.angle.md#ansys.meshing.prime.SFPeriodicParams.angle)    | Angle in degrees.        |
 | [`SFPeriodicParams.axis`](ansys.meshing.prime.SFPeriodicParams.axis.md#ansys.meshing.prime.SFPeriodicParams.axis)       | Axis vector coordinates. |
 | [`SFPeriodicParams.center`](ansys.meshing.prime.SFPeriodicParams.center.md#ansys.meshing.prime.SFPeriodicParams.center) | Center coordinates.      |
-<!-- vale on -->
+

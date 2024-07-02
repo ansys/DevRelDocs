@@ -1,6 +1,6 @@
 # ansys.meshing.prime.CreateContactPatchResults.set_default
 
-<a id="ansys.meshing.prime.CreateContactPatchResults.set_default"></a>
+
 
 #### *static* CreateContactPatchResults.set_default(error_code=None, part_id=None)
 

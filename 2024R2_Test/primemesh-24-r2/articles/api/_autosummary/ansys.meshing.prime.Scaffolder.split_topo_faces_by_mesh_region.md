@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Scaffolder.split_topo_faces_by_mesh_region
 
-<a id="ansys.meshing.prime.Scaffolder.split_topo_faces_by_mesh_region"></a>
+
 
 #### Scaffolder.split_topo_faces_by_mesh_region(topo_faces)
 

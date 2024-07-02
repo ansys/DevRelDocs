@@ -1,6 +1,6 @@
 # ansys.meshing.prime.DetectAndTreatFeaturesParams.detect_and_treat_holes
 
-<a id="ansys.meshing.prime.DetectAndTreatFeaturesParams.detect_and_treat_holes"></a>
+
 
 #### *property* DetectAndTreatFeaturesParams.detect_and_treat_holes *: [bool](https://docs.python.org/3.11/library/functions.html#bool)*
 

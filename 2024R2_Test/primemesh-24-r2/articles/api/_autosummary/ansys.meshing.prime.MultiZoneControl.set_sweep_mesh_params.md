@@ -1,6 +1,6 @@
 # ansys.meshing.prime.MultiZoneControl.set_sweep_mesh_params
 
-<a id="ansys.meshing.prime.MultiZoneControl.set_sweep_mesh_params"></a>
+
 
 #### MultiZoneControl.set_sweep_mesh_params(scope_info)
 

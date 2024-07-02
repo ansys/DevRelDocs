@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # MultiZoneControl
 
-<a id="ansys.meshing.prime.MultiZoneControl"></a>
+
 
 ### *class* ansys.meshing.prime.MultiZoneControl(model, id, object_id, name)
 
@@ -43,4 +41,4 @@ Different type of mesh can be generated using MultiZoneControl. For example, swe
 |-------------------------------------------------------------------------------------------------------------------|-----------------------------------|
 | [`MultiZoneControl.id`](ansys.meshing.prime.MultiZoneControl.id.md#ansys.meshing.prime.MultiZoneControl.id)       | Get the id of MultiZoneControl.   |
 | [`MultiZoneControl.name`](ansys.meshing.prime.MultiZoneControl.name.md#ansys.meshing.prime.MultiZoneControl.name) | Get the name of MultiZoneControl. |
-<!-- vale on -->
+

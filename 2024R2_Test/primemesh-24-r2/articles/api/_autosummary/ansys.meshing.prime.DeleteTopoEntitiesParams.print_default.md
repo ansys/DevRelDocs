@@ -1,6 +1,6 @@
 # ansys.meshing.prime.DeleteTopoEntitiesParams.print_default
 
-<a id="ansys.meshing.prime.DeleteTopoEntitiesParams.print_default"></a>
+
 
 #### *static* DeleteTopoEntitiesParams.print_default()
 

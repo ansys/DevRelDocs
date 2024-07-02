@@ -1,6 +1,6 @@
 # ansys.meshing.prime.FaceAndEdgeConnectivityParams.set_default
 
-<a id="ansys.meshing.prime.FaceAndEdgeConnectivityParams.set_default"></a>
+
 
 #### *static* FaceAndEdgeConnectivityParams.set_default(reorder_face_zonelets_mid_nodes=None, reorder_edge_zonelets_mid_nodes=None)
 

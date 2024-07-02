@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # SetNameResults
 
-<a id="ansys.meshing.prime.SetNameResults"></a>
+
 
 ### *class* ansys.meshing.prime.SetNameResults(model=None, warning_code=None, assigned_name=None, error_code=None, json_data=None, \*\*kwargs)
 
@@ -46,4 +44,4 @@ Results associated with the set name.
 | [`SetNameResults.assigned_name`](ansys.meshing.prime.SetNameResults.assigned_name.md#ansys.meshing.prime.SetNameResults.assigned_name)   | Assigned name of given entity.                             |
 | [`SetNameResults.error_code`](ansys.meshing.prime.SetNameResults.error_code.md#ansys.meshing.prime.SetNameResults.error_code)            | Error code associated with the failure of operation.       |
 | [`SetNameResults.warning_code`](ansys.meshing.prime.SetNameResults.warning_code.md#ansys.meshing.prime.SetNameResults.warning_code)      | Warning code associated with the set name of given entity. |
-<!-- vale on -->
+

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ErrorCode.TARGETZONELETS_SELFINTERSECTING
 
-<a id="ansys.meshing.prime.ErrorCode.TARGETZONELETS_SELFINTERSECTING"></a>
+
 
 #### ErrorCode.TARGETZONELETS_SELFINTERSECTING *= 10002*
 

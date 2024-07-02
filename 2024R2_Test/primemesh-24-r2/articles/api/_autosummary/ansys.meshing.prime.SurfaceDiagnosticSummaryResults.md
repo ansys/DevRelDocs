@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # SurfaceDiagnosticSummaryResults
 
-<a id="ansys.meshing.prime.SurfaceDiagnosticSummaryResults"></a>
+
 
 ### *class* ansys.meshing.prime.SurfaceDiagnosticSummaryResults(model=None, error_code=None, n_self_intersections=None, n_free_edges=None, n_multi_edges=None, n_duplicate_faces=None, json_data=None, \*\*kwargs)
 
@@ -54,4 +52,4 @@ Results of surface diagnostic summary.
 | [`SurfaceDiagnosticSummaryResults.n_free_edges`](ansys.meshing.prime.SurfaceDiagnosticSummaryResults.n_free_edges.md#ansys.meshing.prime.SurfaceDiagnosticSummaryResults.n_free_edges)                         | Number of free face edges identified.                        |
 | [`SurfaceDiagnosticSummaryResults.n_multi_edges`](ansys.meshing.prime.SurfaceDiagnosticSummaryResults.n_multi_edges.md#ansys.meshing.prime.SurfaceDiagnosticSummaryResults.n_multi_edges)                      | Number of multi face edges identified.                       |
 | [`SurfaceDiagnosticSummaryResults.n_self_intersections`](ansys.meshing.prime.SurfaceDiagnosticSummaryResults.n_self_intersections.md#ansys.meshing.prime.SurfaceDiagnosticSummaryResults.n_self_intersections) | Number of self intersecting faces identified.                |
-<!-- vale on -->
+

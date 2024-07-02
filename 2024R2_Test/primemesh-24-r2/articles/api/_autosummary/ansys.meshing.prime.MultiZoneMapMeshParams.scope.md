@@ -1,6 +1,6 @@
 # ansys.meshing.prime.MultiZoneMapMeshParams.scope
 
-<a id="ansys.meshing.prime.MultiZoneMapMeshParams.scope"></a>
+
 
 #### *property* MultiZoneMapMeshParams.scope *: [ScopeDefinition](ansys.meshing.prime.ScopeDefinition.md#ansys.meshing.prime.ScopeDefinition)*
 

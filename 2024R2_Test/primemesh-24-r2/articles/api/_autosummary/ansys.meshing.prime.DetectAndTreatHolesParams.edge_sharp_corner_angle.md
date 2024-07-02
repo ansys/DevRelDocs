@@ -1,6 +1,6 @@
 # ansys.meshing.prime.DetectAndTreatHolesParams.edge_sharp_corner_angle
 
-<a id="ansys.meshing.prime.DetectAndTreatHolesParams.edge_sharp_corner_angle"></a>
+
 
 #### *property* DetectAndTreatHolesParams.edge_sharp_corner_angle *: [float](https://docs.python.org/3.11/library/functions.html#float)*
 

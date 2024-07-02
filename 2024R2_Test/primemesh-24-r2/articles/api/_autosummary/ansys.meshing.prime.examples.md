@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # ansys.meshing.prime.examples
 
 | Name | Description |
@@ -45,4 +43,4 @@
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|
 | [`DownloadManager`](ansys.meshing.prime.examples.DownloadManager.md#ansys.meshing.prime.examples.DownloadManager)(\*args, \*\*kwargs)   | Manages downloads of example files.   |
-<!-- vale on -->
+

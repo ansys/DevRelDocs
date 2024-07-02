@@ -1,6 +1,6 @@
 # ansys.meshing.prime.MaterialPointManager.create_material_point
 
-<a id="ansys.meshing.prime.MaterialPointManager.create_material_point"></a>
+
 
 #### MaterialPointManager.create_material_point(suggested_name, coords, params)
 

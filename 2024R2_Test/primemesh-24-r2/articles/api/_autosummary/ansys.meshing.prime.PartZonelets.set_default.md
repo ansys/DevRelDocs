@@ -1,6 +1,6 @@
 # ansys.meshing.prime.PartZonelets.set_default
 
-<a id="ansys.meshing.prime.PartZonelets.set_default"></a>
+
 
 #### *static* PartZonelets.set_default(part_id=None, face_zonelets=None)
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.TopoData.get_adjacent_topo_edges_of_topo_edges
 
-<a id="ansys.meshing.prime.TopoData.get_adjacent_topo_edges_of_topo_edges"></a>
+
 
 #### TopoData.get_adjacent_topo_edges_of_topo_edges(topo_edges)
 

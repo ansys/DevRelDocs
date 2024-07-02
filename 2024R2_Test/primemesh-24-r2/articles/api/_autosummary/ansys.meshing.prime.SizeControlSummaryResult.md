@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # SizeControlSummaryResult
 
-<a id="ansys.meshing.prime.SizeControlSummaryResult"></a>
+
 
 ### *class* ansys.meshing.prime.SizeControlSummaryResult(model=None, message=None, json_data=None, \*\*kwargs)
 
@@ -38,4 +36,4 @@ Results of size control summary.
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------|
 | [`SizeControlSummaryResult.message`](ansys.meshing.prime.SizeControlSummaryResult.message.md#ansys.meshing.prime.SizeControlSummaryResult.message)   | Size control summary text.   |
-<!-- vale on -->
+

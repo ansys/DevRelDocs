@@ -1,6 +1,6 @@
 # ansys.meshing.prime.PartCreationType.PART
 
-<a id="ansys.meshing.prime.PartCreationType.PART"></a>
+
 
 #### PartCreationType.PART *= 2*
 

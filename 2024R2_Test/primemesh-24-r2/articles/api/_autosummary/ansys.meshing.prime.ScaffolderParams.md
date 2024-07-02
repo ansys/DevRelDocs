@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # ScaffolderParams
 
-<a id="ansys.meshing.prime.ScaffolderParams"></a>
+
 
 ### *class* ansys.meshing.prime.ScaffolderParams(model=None, absolute_dist_tol=None, size_field_type=None, intersection_control_mask=None, edge_merge_control=None, constant_mesh_size=None, remove_holes_critical_radius=None, remove_slivers_abs_dist_tol_ratio=None, triangles_coplanar_angle_cos=None, json_data=None, \*\*kwargs)
 
@@ -76,4 +74,4 @@ Parameters to control scaffold operation.
 | [`ScaffolderParams.remove_slivers_abs_dist_tol_ratio`](ansys.meshing.prime.ScaffolderParams.remove_slivers_abs_dist_tol_ratio.md#ansys.meshing.prime.ScaffolderParams.remove_slivers_abs_dist_tol_ratio) | Defines the maximum aspect ratio to remove sliver faces.              |
 | [`ScaffolderParams.size_field_type`](ansys.meshing.prime.ScaffolderParams.size_field_type.md#ansys.meshing.prime.ScaffolderParams.size_field_type)                                                       | Specifies the type of size field used for scaffolding.                |
 | [`ScaffolderParams.triangles_coplanar_angle_cos`](ansys.meshing.prime.ScaffolderParams.triangles_coplanar_angle_cos.md#ansys.meshing.prime.ScaffolderParams.triangles_coplanar_angle_cos)                | Lower bound for cos angle to consider coplanar faces for scaffolding. |
-<!-- vale on -->
+

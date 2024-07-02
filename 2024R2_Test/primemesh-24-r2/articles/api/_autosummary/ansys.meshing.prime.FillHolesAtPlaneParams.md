@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # FillHolesAtPlaneParams
 
-<a id="ansys.meshing.prime.FillHolesAtPlaneParams"></a>
+
 
 ### *class* ansys.meshing.prime.FillHolesAtPlaneParams(model=None, create_zone=None, suggested_zone_name=None, json_data=None, \*\*kwargs)
 
@@ -42,4 +40,4 @@ Parameters to fill holes at given plane.
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`FillHolesAtPlaneParams.create_zone`](ansys.meshing.prime.FillHolesAtPlaneParams.create_zone.md#ansys.meshing.prime.FillHolesAtPlaneParams.create_zone)                         | Option to create a face zone for the zonelets created to fill holes.   |
 | [`FillHolesAtPlaneParams.suggested_zone_name`](ansys.meshing.prime.FillHolesAtPlaneParams.suggested_zone_name.md#ansys.meshing.prime.FillHolesAtPlaneParams.suggested_zone_name) | Suggested name to be set on merged part.                               |
-<!-- vale on -->
+

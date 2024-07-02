@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # WarningCode
 
-<a id="ansys.meshing.prime.WarningCode"></a>
+
 
 ### *class* ansys.meshing.prime.WarningCode(value)
 
@@ -63,4 +61,4 @@ Warning codes associated with the PyPrimeMesh operation.
 | [`WarningCode.WRITINGCONTACTPAIRSSKIPPED`](ansys.meshing.prime.WarningCode.WRITINGCONTACTPAIRSSKIPPED.md#ansys.meshing.prime.WarningCode.WRITINGCONTACTPAIRSSKIPPED)                                                                               | Writing of contact pairs skipped.                                                                             |
 | [`WarningCode.WRITINGTIESSKIPPED`](ansys.meshing.prime.WarningCode.WRITINGTIESSKIPPED.md#ansys.meshing.prime.WarningCode.WRITINGTIESSKIPPED)                                                                                                       | Writing of ties skipped.                                                                                      |
 | [`WarningCode.MULTIZONEMESHER_SURFACESCOPEVOLUMESCOPEINCONSISTENCY`](ansys.meshing.prime.WarningCode.MULTIZONEMESHER_SURFACESCOPEVOLUMESCOPEINCONSISTENCY.md#ansys.meshing.prime.WarningCode.MULTIZONEMESHER_SURFACESCOPEVOLUMESCOPEINCONSISTENCY) | MultiZone warning codes                                                                                       |
-<!-- vale on -->
+

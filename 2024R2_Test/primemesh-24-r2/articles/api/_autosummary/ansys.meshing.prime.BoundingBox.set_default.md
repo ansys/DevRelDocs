@@ -1,6 +1,6 @@
 # ansys.meshing.prime.BoundingBox.set_default
 
-<a id="ansys.meshing.prime.BoundingBox.set_default"></a>
+
 
 #### *static* BoundingBox.set_default(xmin=None, ymin=None, zmin=None, xmax=None, ymax=None, zmax=None)
 

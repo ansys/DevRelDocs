@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # DetectAndTreatHolesParams
 
-<a id="ansys.meshing.prime.DetectAndTreatHolesParams"></a>
+
 
 ### *class* ansys.meshing.prime.DetectAndTreatHolesParams(model=None, detect_and_defeature_edges_near_holes=None, detect_circular_holes=None, detect_non_circular_holes=None, offset_holes=None, mesh_offset_faces=None, detect_holes_params=None, detect_circular_holes_params=None, detect_non_circular_holes_params=None, hole_proximity_tolerance=None, merge_face_normals_angle=None, edge_sharp_corner_angle=None, fragmented_edge_tolerance=None, offset_distance=None, edge_mesh_constant_size=None, surface_mesh_constant_size=None, json_data=None, \*\*kwargs)
 
@@ -124,4 +122,4 @@ Parameters for detect and treat holes operation.
 | [`DetectAndTreatHolesParams.offset_distance`](ansys.meshing.prime.DetectAndTreatHolesParams.offset_distance.md#ansys.meshing.prime.DetectAndTreatHolesParams.offset_distance)                                                                     | Offset distance for creating offset edge.                                        |
 | [`DetectAndTreatHolesParams.offset_holes`](ansys.meshing.prime.DetectAndTreatHolesParams.offset_holes.md#ansys.meshing.prime.DetectAndTreatHolesParams.offset_holes)                                                                              | Option to offset holes.                                                          |
 | [`DetectAndTreatHolesParams.surface_mesh_constant_size`](ansys.meshing.prime.DetectAndTreatHolesParams.surface_mesh_constant_size.md#ansys.meshing.prime.DetectAndTreatHolesParams.surface_mesh_constant_size)                                    | Constant size used for surface meshing.                                          |
-<!-- vale on -->
+

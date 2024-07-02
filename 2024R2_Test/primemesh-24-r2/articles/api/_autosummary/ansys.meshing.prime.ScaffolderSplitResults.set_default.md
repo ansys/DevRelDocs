@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ScaffolderSplitResults.set_default
 
-<a id="ansys.meshing.prime.ScaffolderSplitResults.set_default"></a>
+
 
 #### *static* ScaffolderSplitResults.set_default(new_faces=None, error_code=None)
 

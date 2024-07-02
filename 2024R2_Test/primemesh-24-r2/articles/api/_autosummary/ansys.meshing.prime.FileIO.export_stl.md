@@ -1,6 +1,6 @@
 # ansys.meshing.prime.FileIO.export_stl
 
-<a id="ansys.meshing.prime.FileIO.export_stl"></a>
+
 
 #### FileIO.export_stl(file_name, params)
 

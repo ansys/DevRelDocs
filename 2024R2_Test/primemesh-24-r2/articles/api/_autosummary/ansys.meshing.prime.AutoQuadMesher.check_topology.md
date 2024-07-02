@@ -1,6 +1,6 @@
 # ansys.meshing.prime.AutoQuadMesher.check_topology
 
-<a id="ansys.meshing.prime.AutoQuadMesher.check_topology"></a>
+
 
 #### AutoQuadMesher.check_topology(part_id, topo_face_ids, params)
 

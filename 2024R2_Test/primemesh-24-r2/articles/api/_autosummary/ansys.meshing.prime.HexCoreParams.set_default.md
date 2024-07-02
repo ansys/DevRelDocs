@@ -1,6 +1,6 @@
 # ansys.meshing.prime.HexCoreParams.set_default
 
-<a id="ansys.meshing.prime.HexCoreParams.set_default"></a>
+
 
 #### *static* HexCoreParams.set_default(transition_size_field_type=None, buffer_layers=None, rel_peel_layer_offset=None, transition_layer_type=None, cell_element_type=None, surface_mesh_size_scaling=None, enable_region_based_hexcore=None)
 

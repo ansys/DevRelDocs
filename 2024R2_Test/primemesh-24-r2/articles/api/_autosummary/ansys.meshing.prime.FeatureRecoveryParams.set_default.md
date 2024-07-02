@@ -1,6 +1,6 @@
 # ansys.meshing.prime.FeatureRecoveryParams.set_default
 
-<a id="ansys.meshing.prime.FeatureRecoveryParams.set_default"></a>
+
 
 #### *static* FeatureRecoveryParams.set_default(scope=None, enable_feature_octree_refinement=None, size_at_features=None)
 

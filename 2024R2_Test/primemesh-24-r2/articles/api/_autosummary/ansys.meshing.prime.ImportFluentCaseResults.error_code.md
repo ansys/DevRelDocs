@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ImportFluentCaseResults.error_code
 
-<a id="ansys.meshing.prime.ImportFluentCaseResults.error_code"></a>
+
 
 #### *property* ImportFluentCaseResults.error_code *: [ErrorCode](ansys.meshing.prime.ErrorCode.md#ansys.meshing.prime.ErrorCode)*
 

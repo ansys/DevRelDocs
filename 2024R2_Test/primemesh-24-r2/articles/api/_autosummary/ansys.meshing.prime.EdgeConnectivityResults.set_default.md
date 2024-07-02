@@ -1,6 +1,6 @@
 # ansys.meshing.prime.EdgeConnectivityResults.set_default
 
-<a id="ansys.meshing.prime.EdgeConnectivityResults.set_default"></a>
+
 
 #### *static* EdgeConnectivityResults.set_default(error_code=None, edge_zonelet_ids=None, topo_edge_ids=None, mesh_edge_ids=None, topo_edge_types=None, num_nodes_per_edge_zonelet=None, node_coords=None, num_edge_list_per_edge_zonelet=None, edge_list=None, num_edges_per_edge_zonelet=None)
 

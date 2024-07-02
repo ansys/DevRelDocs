@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ControlData.create_volume_control
 
-<a id="ansys.meshing.prime.ControlData.create_volume_control"></a>
+
 
 #### ControlData.create_volume_control()
 

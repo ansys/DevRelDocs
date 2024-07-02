@@ -1,6 +1,6 @@
 # ansys.meshing.prime.IntersectParams.set_default
 
-<a id="ansys.meshing.prime.IntersectParams.set_default"></a>
+
 
 #### *static* IntersectParams.set_default(tolerance=None, use_absolute_tolerance=None, remesh=None, collapse_feature_angle=None, collapse_target_skewness=None)
 

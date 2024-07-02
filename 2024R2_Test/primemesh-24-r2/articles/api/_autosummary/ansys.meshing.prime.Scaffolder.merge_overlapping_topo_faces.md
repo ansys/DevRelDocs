@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Scaffolder.merge_overlapping_topo_faces
 
-<a id="ansys.meshing.prime.Scaffolder.merge_overlapping_topo_faces"></a>
+
 
 #### Scaffolder.merge_overlapping_topo_faces(topo_faces, params)
 

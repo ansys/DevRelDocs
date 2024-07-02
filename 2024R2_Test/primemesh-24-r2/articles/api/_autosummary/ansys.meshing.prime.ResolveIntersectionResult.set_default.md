@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ResolveIntersectionResult.set_default
 
-<a id="ansys.meshing.prime.ResolveIntersectionResult.set_default"></a>
+
 
 #### *static* ResolveIntersectionResult.set_default(error_code=None)
 

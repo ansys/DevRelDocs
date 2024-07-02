@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # FuseResults
 
-<a id="ansys.meshing.prime.FuseResults"></a>
+
 
 ### *class* ansys.meshing.prime.FuseResults(model=None, fused_pairs=None, fused_area=None, error_code=None, warning_codes=None, intersecting_locations=None, json_data=None, \*\*kwargs)
 
@@ -64,4 +62,4 @@ Results associated with the fuse operations.
 | [`FuseResults.fused_pairs`](ansys.meshing.prime.FuseResults.fused_pairs.md#ansys.meshing.prime.FuseResults.fused_pairs)                                  | Number of face region pairs that were fused.                                       |
 | [`FuseResults.intersecting_locations`](ansys.meshing.prime.FuseResults.intersecting_locations.md#ansys.meshing.prime.FuseResults.intersecting_locations) | Locations where the fuse operation did not remove self-intersections in the input. |
 | [`FuseResults.warning_codes`](ansys.meshing.prime.FuseResults.warning_codes.md#ansys.meshing.prime.FuseResults.warning_codes)                            | Warning codes associated with the fuse operation.                                  |
-<!-- vale on -->
+

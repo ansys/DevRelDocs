@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ConnectResults.print_default
 
-<a id="ansys.meshing.prime.ConnectResults.print_default"></a>
+
 
 #### *static* ConnectResults.print_default()
 

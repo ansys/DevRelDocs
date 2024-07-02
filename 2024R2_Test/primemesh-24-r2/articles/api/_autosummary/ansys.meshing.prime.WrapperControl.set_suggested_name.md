@@ -1,6 +1,6 @@
 # ansys.meshing.prime.WrapperControl.set_suggested_name
 
-<a id="ansys.meshing.prime.WrapperControl.set_suggested_name"></a>
+
 
 #### WrapperControl.set_suggested_name(name)
 

@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # DeleteMeshParams
 
-<a id="ansys.meshing.prime.DeleteMeshParams"></a>
+
 
 ### *class* ansys.meshing.prime.DeleteMeshParams(model=None, delete_mesh_on_connected_topo_edges=None, json_data=None, \*\*kwargs)
 
@@ -40,4 +38,4 @@ Parameters to delete mesh on topoentities.
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
 | [`DeleteMeshParams.delete_mesh_on_connected_topo_edges`](ansys.meshing.prime.DeleteMeshParams.delete_mesh_on_connected_topo_edges.md#ansys.meshing.prime.DeleteMeshParams.delete_mesh_on_connected_topo_edges)   | Option to delete mesh on topoedges connected only to provided topoentities.   |
-<!-- vale on -->
+

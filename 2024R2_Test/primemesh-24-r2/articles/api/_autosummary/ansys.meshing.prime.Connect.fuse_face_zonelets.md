@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Connect.fuse_face_zonelets
 
-<a id="ansys.meshing.prime.Connect.fuse_face_zonelets"></a>
+
 
 #### Connect.fuse_face_zonelets(part_id, source_face_zonelet_ids, target_face_zonelet_ids, params)
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.lucid.SurfaceScope.get_scope_definition
 
-<a id="ansys.meshing.prime.lucid.SurfaceScope.get_scope_definition"></a>
+
 
 #### SurfaceScope.get_scope_definition(model)
 

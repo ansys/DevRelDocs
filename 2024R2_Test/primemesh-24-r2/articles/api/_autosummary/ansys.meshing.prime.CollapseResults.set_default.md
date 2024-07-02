@@ -1,6 +1,6 @@
 # ansys.meshing.prime.CollapseResults.set_default
 
-<a id="ansys.meshing.prime.CollapseResults.set_default"></a>
+
 
 #### *static* CollapseResults.set_default(error_code=None, n_collapsed=None, n_splits=None)
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Model.get_active_volumetric_size_fields
 
-<a id="ansys.meshing.prime.Model.get_active_volumetric_size_fields"></a>
+
 
 #### Model.get_active_volumetric_size_fields()
 

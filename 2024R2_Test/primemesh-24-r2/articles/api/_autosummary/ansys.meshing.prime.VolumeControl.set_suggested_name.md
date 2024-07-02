@@ -1,6 +1,6 @@
 # ansys.meshing.prime.VolumeControl.set_suggested_name
 
-<a id="ansys.meshing.prime.VolumeControl.set_suggested_name"></a>
+
 
 #### VolumeControl.set_suggested_name(name)
 

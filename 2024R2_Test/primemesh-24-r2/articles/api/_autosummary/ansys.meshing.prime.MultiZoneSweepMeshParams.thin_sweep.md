@@ -1,6 +1,6 @@
 # ansys.meshing.prime.MultiZoneSweepMeshParams.thin_sweep
 
-<a id="ansys.meshing.prime.MultiZoneSweepMeshParams.thin_sweep"></a>
+
 
 #### *property* MultiZoneSweepMeshParams.thin_sweep *: [bool](https://docs.python.org/3.11/library/functions.html#bool)*
 

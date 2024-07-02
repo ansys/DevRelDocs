@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SetNameResults.warning_code
 
-<a id="ansys.meshing.prime.SetNameResults.warning_code"></a>
+
 
 #### *property* SetNameResults.warning_code *: [WarningCode](ansys.meshing.prime.WarningCode.md#ansys.meshing.prime.WarningCode)*
 

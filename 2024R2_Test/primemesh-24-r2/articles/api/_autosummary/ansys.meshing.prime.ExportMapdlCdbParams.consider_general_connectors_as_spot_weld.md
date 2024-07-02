@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ExportMapdlCdbParams.consider_general_connectors_as_spot_weld
 
-<a id="ansys.meshing.prime.ExportMapdlCdbParams.consider_general_connectors_as_spot_weld"></a>
+
 
 #### *property* ExportMapdlCdbParams.consider_general_connectors_as_spot_weld *: [bool](https://docs.python.org/3.11/library/functions.html#bool)*
 

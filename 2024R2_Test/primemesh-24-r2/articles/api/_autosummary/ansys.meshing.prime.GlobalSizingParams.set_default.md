@@ -1,6 +1,6 @@
 # ansys.meshing.prime.GlobalSizingParams.set_default
 
-<a id="ansys.meshing.prime.GlobalSizingParams.set_default"></a>
+
 
 #### *static* GlobalSizingParams.set_default(min=None, max=None, growth_rate=None)
 

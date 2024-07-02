@@ -1,6 +1,6 @@
 # ansys.meshing.prime.LocalSurferParams.set_default
 
-<a id="ansys.meshing.prime.LocalSurferParams.set_default"></a>
+
 
 #### *static* LocalSurferParams.set_default(min_angle=None, max_angle=None, size_field_type=None, min_size=None, max_size=None, growth_rate=None, constant_size=None, smooth_boundary=None, n_rings=None)
 

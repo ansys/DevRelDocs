@@ -1,6 +1,6 @@
 # ansys.meshing.prime.FaceQualityMeasure.ASPECTRATIO
 
-<a id="ansys.meshing.prime.FaceQualityMeasure.ASPECTRATIO"></a>
+
 
 #### FaceQualityMeasure.ASPECTRATIO *= 5*
 

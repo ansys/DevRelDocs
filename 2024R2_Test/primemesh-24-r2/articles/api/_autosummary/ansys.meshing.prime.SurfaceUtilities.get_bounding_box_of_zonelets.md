@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SurfaceUtilities.get_bounding_box_of_zonelets
 
-<a id="ansys.meshing.prime.SurfaceUtilities.get_bounding_box_of_zonelets"></a>
+
 
 #### SurfaceUtilities.get_bounding_box_of_zonelets(zonelets)
 

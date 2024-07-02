@@ -1,6 +1,6 @@
 # ansys.meshing.prime.CellQualityMeasure.ELEMENTQUALITY
 
-<a id="ansys.meshing.prime.CellQualityMeasure.ELEMENTQUALITY"></a>
+
 
 #### CellQualityMeasure.ELEMENTQUALITY *= 50*
 

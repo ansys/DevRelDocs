@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # OverlapSearchResults
 
-<a id="ansys.meshing.prime.OverlapSearchResults"></a>
+
 
 ### *class* ansys.meshing.prime.OverlapSearchResults(model=None, n_pairs=None, overlap_pairs=None, error_code=None, json_data=None, \*\*kwargs)
 
@@ -46,4 +44,4 @@ Provides ids of a pair of overlapping face zonelets.
 | [`OverlapSearchResults.error_code`](ansys.meshing.prime.OverlapSearchResults.error_code.md#ansys.meshing.prime.OverlapSearchResults.error_code)          | Error Code associated with failure of operation.         |
 | [`OverlapSearchResults.n_pairs`](ansys.meshing.prime.OverlapSearchResults.n_pairs.md#ansys.meshing.prime.OverlapSearchResults.n_pairs)                   | Number of pairs.                                         |
 | [`OverlapSearchResults.overlap_pairs`](ansys.meshing.prime.OverlapSearchResults.overlap_pairs.md#ansys.meshing.prime.OverlapSearchResults.overlap_pairs) | Ids corresponding to pairs of overlapping face zonelets. |
-<!-- vale on -->
+

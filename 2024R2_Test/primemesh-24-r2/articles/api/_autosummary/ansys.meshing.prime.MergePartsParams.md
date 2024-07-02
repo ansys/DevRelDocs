@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # MergePartsParams
 
-<a id="ansys.meshing.prime.MergePartsParams"></a>
+
 
 ### *class* ansys.meshing.prime.MergePartsParams(model=None, merged_part_suggested_name=None, json_data=None, \*\*kwargs)
 
@@ -38,4 +36,4 @@ Parameters to merge parts.
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
 | [`MergePartsParams.merged_part_suggested_name`](ansys.meshing.prime.MergePartsParams.merged_part_suggested_name.md#ansys.meshing.prime.MergePartsParams.merged_part_suggested_name)   | Suggested name to be set on merged part.   |
-<!-- vale on -->
+

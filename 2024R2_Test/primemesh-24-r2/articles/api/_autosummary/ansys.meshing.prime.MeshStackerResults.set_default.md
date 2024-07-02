@@ -1,6 +1,6 @@
 # ansys.meshing.prime.MeshStackerResults.set_default
 
-<a id="ansys.meshing.prime.MeshStackerResults.set_default"></a>
+
 
 #### *static* MeshStackerResults.set_default(error_code=None, error_codes_per_topo_volume=None, non_stackable_faces=None, non_stackable_edges=None, small_features=None, base_face_ids=None, size_control_ids=None)
 

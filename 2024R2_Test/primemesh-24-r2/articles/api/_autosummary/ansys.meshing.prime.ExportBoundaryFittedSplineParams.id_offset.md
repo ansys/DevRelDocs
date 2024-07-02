@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ExportBoundaryFittedSplineParams.id_offset
 
-<a id="ansys.meshing.prime.ExportBoundaryFittedSplineParams.id_offset"></a>
+
 
 #### *property* ExportBoundaryFittedSplineParams.id_offset *: [int](https://docs.python.org/3.11/library/functions.html#int)*
 

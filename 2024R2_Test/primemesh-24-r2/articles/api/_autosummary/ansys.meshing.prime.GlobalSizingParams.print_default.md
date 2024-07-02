@@ -1,6 +1,6 @@
 # ansys.meshing.prime.GlobalSizingParams.print_default
 
-<a id="ansys.meshing.prime.GlobalSizingParams.print_default"></a>
+
 
 #### *static* GlobalSizingParams.print_default()
 

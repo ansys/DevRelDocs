@@ -1,6 +1,6 @@
 # ansys.meshing.prime.DeleteFringesAndOverlapsResults.set_default
 
-<a id="ansys.meshing.prime.DeleteFringesAndOverlapsResults.set_default"></a>
+
 
 #### *static* DeleteFringesAndOverlapsResults.set_default(error_code=None, n_deleted=None)
 

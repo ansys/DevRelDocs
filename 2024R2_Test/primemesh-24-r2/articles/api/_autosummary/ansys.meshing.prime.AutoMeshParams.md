@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # AutoMeshParams
 
-<a id="ansys.meshing.prime.AutoMeshParams"></a>
+
 
 ### *class* ansys.meshing.prime.AutoMeshParams(model=None, size_field_type=None, max_size=None, prism_control_ids=None, thin_volume_control_ids=None, multi_zone_control_ids=None, volume_fill_type=None, prism=None, tet=None, hexcore=None, volume_control_ids=None, periodic_control_ids=None, json_data=None, \*\*kwargs)
 
@@ -78,4 +76,4 @@ Parameters for volume meshing.
 | [`AutoMeshParams.thin_volume_control_ids`](ansys.meshing.prime.AutoMeshParams.thin_volume_control_ids.md#ansys.meshing.prime.AutoMeshParams.thin_volume_control_ids) | Set thin volume control ids.                        |
 | [`AutoMeshParams.volume_control_ids`](ansys.meshing.prime.AutoMeshParams.volume_control_ids.md#ansys.meshing.prime.AutoMeshParams.volume_control_ids)                | Ids of the volume controls.                         |
 | [`AutoMeshParams.volume_fill_type`](ansys.meshing.prime.AutoMeshParams.volume_fill_type.md#ansys.meshing.prime.AutoMeshParams.volume_fill_type)                      | Option to fill volume.                              |
-<!-- vale on -->
+

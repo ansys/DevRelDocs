@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SurferParams.set_default
 
-<a id="ansys.meshing.prime.SurferParams.set_default"></a>
+
 
 #### *static* SurferParams.set_default(max_angle=None, size_field_type=None, min_size=None, max_size=None, growth_rate=None, constant_size=None, generate_quads=None, check_non_manifolds=None, avoid_corner_triangles=None, smooth_size_transition=None, advanced_surfer_setup=None, project_on_geometry=None, enable_multi_threading=None)
 

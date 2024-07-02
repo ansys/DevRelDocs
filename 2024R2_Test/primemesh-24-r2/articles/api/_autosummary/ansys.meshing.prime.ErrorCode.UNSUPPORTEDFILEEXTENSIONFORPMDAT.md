@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ErrorCode.UNSUPPORTEDFILEEXTENSIONFORPMDAT
 
-<a id="ansys.meshing.prime.ErrorCode.UNSUPPORTEDFILEEXTENSIONFORPMDAT"></a>
+
 
 #### ErrorCode.UNSUPPORTEDFILEEXTENSIONFORPMDAT *= 9001*
 

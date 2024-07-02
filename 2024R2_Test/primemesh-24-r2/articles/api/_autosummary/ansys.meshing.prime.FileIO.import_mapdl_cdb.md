@@ -1,6 +1,6 @@
 # ansys.meshing.prime.FileIO.import_mapdl_cdb
 
-<a id="ansys.meshing.prime.FileIO.import_mapdl_cdb"></a>
+
 
 #### FileIO.import_mapdl_cdb(file_name, params)
 

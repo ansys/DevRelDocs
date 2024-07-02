@@ -1,6 +1,6 @@
 # ansys.meshing.prime.CadRefacetingResolution.COARSE
 
-<a id="ansys.meshing.prime.CadRefacetingResolution.COARSE"></a>
+
 
 #### CadRefacetingResolution.COARSE *= 0*
 

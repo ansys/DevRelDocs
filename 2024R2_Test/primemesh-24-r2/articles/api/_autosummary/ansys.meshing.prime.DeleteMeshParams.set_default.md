@@ -1,6 +1,6 @@
 # ansys.meshing.prime.DeleteMeshParams.set_default
 
-<a id="ansys.meshing.prime.DeleteMeshParams.set_default"></a>
+
 
 #### *static* DeleteMeshParams.set_default(delete_mesh_on_connected_topo_edges=None)
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.VolumeSweeper.create_base_face
 
-<a id="ansys.meshing.prime.VolumeSweeper.create_base_face"></a>
+
 
 #### VolumeSweeper.create_base_face(part_id, topo_volume_ids, params)
 

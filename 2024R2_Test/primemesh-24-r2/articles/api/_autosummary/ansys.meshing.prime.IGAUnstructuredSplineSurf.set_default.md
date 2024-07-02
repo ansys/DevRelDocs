@@ -1,6 +1,6 @@
 # ansys.meshing.prime.IGAUnstructuredSplineSurf.set_default
 
-<a id="ansys.meshing.prime.IGAUnstructuredSplineSurf.set_default"></a>
+
 
 #### *static* IGAUnstructuredSplineSurf.set_default(id=None, spline_refinement_level=None, control_points=None, spline_points=None, bad_spline_points_indices=None, deviation_array=None, invalid_jacobian_elements_count=None, average_mesh_size=None, elements_count=None, shell_thickness=None)
 

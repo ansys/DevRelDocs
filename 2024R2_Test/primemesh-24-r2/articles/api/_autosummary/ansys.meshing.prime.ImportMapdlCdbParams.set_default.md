@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ImportMapdlCdbParams.set_default
 
-<a id="ansys.meshing.prime.ImportMapdlCdbParams.set_default"></a>
+
 
 #### *static* ImportMapdlCdbParams.set_default(drop_mid_nodes=None, append=None)
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ErrorCode.NOTSUPPORTEDFORNONTRIFACEZONE
 
-<a id="ansys.meshing.prime.ErrorCode.NOTSUPPORTEDFORNONTRIFACEZONE"></a>
+
 
 #### ErrorCode.NOTSUPPORTEDFORNONTRIFACEZONE *= 1202*
 

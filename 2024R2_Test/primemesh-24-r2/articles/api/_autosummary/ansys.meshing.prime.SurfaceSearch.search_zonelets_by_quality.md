@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SurfaceSearch.search_zonelets_by_quality
 
-<a id="ansys.meshing.prime.SurfaceSearch.search_zonelets_by_quality"></a>
+
 
 #### SurfaceSearch.search_zonelets_by_quality(part_id, face_zonelets, register_id, params)
 

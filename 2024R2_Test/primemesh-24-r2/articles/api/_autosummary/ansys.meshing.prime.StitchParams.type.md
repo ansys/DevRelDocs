@@ -1,6 +1,6 @@
 # ansys.meshing.prime.StitchParams.type
 
-<a id="ansys.meshing.prime.StitchParams.type"></a>
+
 
 #### *property* StitchParams.type *: [StitchType](ansys.meshing.prime.StitchType.md#ansys.meshing.prime.StitchType)*
 

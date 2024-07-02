@@ -1,6 +1,6 @@
 # ansys.meshing.prime.MergePartsResults.set_default
 
-<a id="ansys.meshing.prime.MergePartsResults.set_default"></a>
+
 
 #### *static* MergePartsResults.set_default(error_code=None, merged_part_assigned_name=None, merged_part_id=None)
 

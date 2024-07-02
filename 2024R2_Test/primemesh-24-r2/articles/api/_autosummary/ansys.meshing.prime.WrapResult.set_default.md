@@ -1,6 +1,6 @@
 # ansys.meshing.prime.WrapResult.set_default
 
-<a id="ansys.meshing.prime.WrapResult.set_default"></a>
+
 
 #### *static* WrapResult.set_default(warning_codes=None, error_code=None, id=None, name=None)
 

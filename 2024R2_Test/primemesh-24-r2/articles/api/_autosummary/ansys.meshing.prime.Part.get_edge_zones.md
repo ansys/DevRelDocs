@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Part.get_edge_zones
 
-<a id="ansys.meshing.prime.Part.get_edge_zones"></a>
+
 
 #### Part.get_edge_zones()
 

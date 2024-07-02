@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # ExtractFeatureParams
 
-<a id="ansys.meshing.prime.ExtractFeatureParams"></a>
+
 
 ### *class* ansys.meshing.prime.ExtractFeatureParams(model=None, replace=None, feature_angle=None, separate_features=None, separation_angle=None, disconnect_with_faces=None, label_name=None, number_of_threads=None, json_data=None, \*\*kwargs)
 
@@ -62,4 +60,4 @@ Parameter to control feature edge extraction.
 | [`ExtractFeatureParams.replace`](ansys.meshing.prime.ExtractFeatureParams.replace.md#ansys.meshing.prime.ExtractFeatureParams.replace)                                             | Option to replace existing edge zonelets with new extracted edge zonelets. |
 | [`ExtractFeatureParams.separate_features`](ansys.meshing.prime.ExtractFeatureParams.separate_features.md#ansys.meshing.prime.ExtractFeatureParams.separate_features)               | Option to separate extracted features.                                     |
 | [`ExtractFeatureParams.separation_angle`](ansys.meshing.prime.ExtractFeatureParams.separation_angle.md#ansys.meshing.prime.ExtractFeatureParams.separation_angle)                  | Angle used to separate extracted features.                                 |
-<!-- vale on -->
+

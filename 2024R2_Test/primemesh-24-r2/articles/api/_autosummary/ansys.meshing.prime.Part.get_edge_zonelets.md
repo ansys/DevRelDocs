@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Part.get_edge_zonelets
 
-<a id="ansys.meshing.prime.Part.get_edge_zonelets"></a>
+
 
 #### Part.get_edge_zonelets()
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Scaffolder.scaffold_topo_faces_and_beams
 
-<a id="ansys.meshing.prime.Scaffolder.scaffold_topo_faces_and_beams"></a>
+
 
 #### Scaffolder.scaffold_topo_faces_and_beams(topo_faces, topo_beams, params)
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ScaffolderSplitResults.print_default
 
-<a id="ansys.meshing.prime.ScaffolderSplitResults.print_default"></a>
+
 
 #### *static* ScaffolderSplitResults.print_default()
 

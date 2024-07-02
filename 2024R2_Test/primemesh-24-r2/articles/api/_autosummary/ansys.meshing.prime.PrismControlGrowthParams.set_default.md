@@ -1,6 +1,6 @@
 # ansys.meshing.prime.PrismControlGrowthParams.set_default
 
-<a id="ansys.meshing.prime.PrismControlGrowthParams.set_default"></a>
+
 
 #### *static* PrismControlGrowthParams.set_default(offset_type=None, n_layers=None, growth_rate=None, first_height=None, first_aspect_ratio=None, last_aspect_ratio=None, min_aspect_ratio=None)
 

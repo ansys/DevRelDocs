@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ExportMapdlCdbParams.set_default
 
-<a id="ansys.meshing.prime.ExportMapdlCdbParams.set_default"></a>
+
 
 #### *static* ExportMapdlCdbParams.set_default(config_settings=None, pre_solution_settings=None, material_properties=None, boundary_conditions=None, analysis_settings=None, write_cells=None, enable_face_based_labels=None, write_by_zones=None, consider_general_connectors_as_spot_weld=None, simulation_type=None, analysis_settings_file_name=None)
 

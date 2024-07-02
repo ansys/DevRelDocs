@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # ExtractedFeatureIds
 
-<a id="ansys.meshing.prime.ExtractedFeatureIds"></a>
+
 
 ### *class* ansys.meshing.prime.ExtractedFeatureIds(model=None, part_id=None, new_edge_zonelets=None, json_data=None, \*\*kwargs)
 
@@ -42,4 +40,4 @@ Contains ids of the features extracted.
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
 | [`ExtractedFeatureIds.new_edge_zonelets`](ansys.meshing.prime.ExtractedFeatureIds.new_edge_zonelets.md#ansys.meshing.prime.ExtractedFeatureIds.new_edge_zonelets)   | Ids of new edge zonelets extracted.                    |
 | [`ExtractedFeatureIds.part_id`](ansys.meshing.prime.ExtractedFeatureIds.part_id.md#ansys.meshing.prime.ExtractedFeatureIds.part_id)                                 | Id of the part from which edge zonelets are extracted. |
-<!-- vale on -->
+

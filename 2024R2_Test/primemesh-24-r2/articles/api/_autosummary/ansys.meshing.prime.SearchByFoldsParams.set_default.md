@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SearchByFoldsParams.set_default
 
-<a id="ansys.meshing.prime.SearchByFoldsParams.set_default"></a>
+
 
 #### *static* SearchByFoldsParams.set_default(critical_angle=None)
 

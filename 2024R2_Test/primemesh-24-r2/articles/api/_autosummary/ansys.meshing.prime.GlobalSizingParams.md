@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # GlobalSizingParams
 
-<a id="ansys.meshing.prime.GlobalSizingParams"></a>
+
 
 ### *class* ansys.meshing.prime.GlobalSizingParams(model=None, min=None, max=None, growth_rate=None, json_data=None, \*\*kwargs)
 
@@ -46,4 +44,4 @@ Global sizing parameters.
 | [`GlobalSizingParams.growth_rate`](ansys.meshing.prime.GlobalSizingParams.growth_rate.md#ansys.meshing.prime.GlobalSizingParams.growth_rate)   | Growth rate of global sizing parameters.   |
 | [`GlobalSizingParams.max`](ansys.meshing.prime.GlobalSizingParams.max.md#ansys.meshing.prime.GlobalSizingParams.max)                           | Maximum value of global sizing parameters. |
 | [`GlobalSizingParams.min`](ansys.meshing.prime.GlobalSizingParams.min.md#ansys.meshing.prime.GlobalSizingParams.min)                           | Minimum value of global sizing parameters. |
-<!-- vale on -->
+

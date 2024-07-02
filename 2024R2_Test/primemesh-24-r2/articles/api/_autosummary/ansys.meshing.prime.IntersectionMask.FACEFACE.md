@@ -1,6 +1,6 @@
 # ansys.meshing.prime.IntersectionMask.FACEFACE
 
-<a id="ansys.meshing.prime.IntersectionMask.FACEFACE"></a>
+
 
 #### IntersectionMask.FACEFACE *= 2*
 

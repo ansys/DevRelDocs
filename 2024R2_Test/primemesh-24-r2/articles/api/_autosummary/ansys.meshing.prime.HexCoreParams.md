@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # HexCoreParams
 
-<a id="ansys.meshing.prime.HexCoreParams"></a>
+
 
 ### *class* ansys.meshing.prime.HexCoreParams(model=None, transition_size_field_type=None, buffer_layers=None, rel_peel_layer_offset=None, transition_layer_type=None, cell_element_type=None, surface_mesh_size_scaling=None, enable_region_based_hexcore=None, json_data=None, \*\*kwargs)
 
@@ -62,4 +60,4 @@ Parameters to control hexahedral mesh generation.
 | [`HexCoreParams.surface_mesh_size_scaling`](ansys.meshing.prime.HexCoreParams.surface_mesh_size_scaling.md#ansys.meshing.prime.HexCoreParams.surface_mesh_size_scaling)       | Setting for scaling surface mesh size for hexcore refinement.                            |
 | [`HexCoreParams.transition_layer_type`](ansys.meshing.prime.HexCoreParams.transition_layer_type.md#ansys.meshing.prime.HexCoreParams.transition_layer_type)                   | Handle size transition of hex cells.                                                     |
 | [`HexCoreParams.transition_size_field_type`](ansys.meshing.prime.HexCoreParams.transition_size_field_type.md#ansys.meshing.prime.HexCoreParams.transition_size_field_type)    | Size field type to be used for transition volume (volume between hexcore and boundary).  |
-<!-- vale on -->
+

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Part.get_topo_edges
 
-<a id="ansys.meshing.prime.Part.get_topo_edges"></a>
+
 
 #### Part.get_topo_edges()
 

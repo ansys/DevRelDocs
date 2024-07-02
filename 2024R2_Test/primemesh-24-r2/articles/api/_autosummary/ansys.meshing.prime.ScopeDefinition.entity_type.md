@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ScopeDefinition.entity_type
 
-<a id="ansys.meshing.prime.ScopeDefinition.entity_type"></a>
+
 
 #### *property* ScopeDefinition.entity_type *: [ScopeEntity](ansys.meshing.prime.ScopeEntity.md#ansys.meshing.prime.ScopeEntity)*
 

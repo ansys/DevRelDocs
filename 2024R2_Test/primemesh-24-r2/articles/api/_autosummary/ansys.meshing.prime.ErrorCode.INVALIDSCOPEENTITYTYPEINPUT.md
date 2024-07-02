@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ErrorCode.INVALIDSCOPEENTITYTYPEINPUT
 
-<a id="ansys.meshing.prime.ErrorCode.INVALIDSCOPEENTITYTYPEINPUT"></a>
+
 
 #### ErrorCode.INVALIDSCOPEENTITYTYPEINPUT *= 1505*
 

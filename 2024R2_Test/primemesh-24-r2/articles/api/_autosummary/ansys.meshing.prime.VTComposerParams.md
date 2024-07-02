@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # VTComposerParams
 
-<a id="ansys.meshing.prime.VTComposerParams"></a>
+
 
 ### *class* ansys.meshing.prime.VTComposerParams(model=None, thin_stripes_tol=None, json_data=None, \*\*kwargs)
 
@@ -38,4 +36,4 @@ Parameters to control VTComposer operations.
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|
 | [`VTComposerParams.thin_stripes_tol`](ansys.meshing.prime.VTComposerParams.thin_stripes_tol.md#ansys.meshing.prime.VTComposerParams.thin_stripes_tol)   | **This is a beta parameter**.   |
-<!-- vale on -->
+

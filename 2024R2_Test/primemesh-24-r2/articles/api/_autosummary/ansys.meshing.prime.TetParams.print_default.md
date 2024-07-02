@@ -1,6 +1,6 @@
 # ansys.meshing.prime.TetParams.print_default
 
-<a id="ansys.meshing.prime.TetParams.print_default"></a>
+
 
 #### *static* TetParams.print_default()
 

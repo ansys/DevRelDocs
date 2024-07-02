@@ -1,6 +1,6 @@
 # ansys.meshing.prime.examples.download_elbow_scdoc
 
-<a id="ansys.meshing.prime.examples.download_elbow_scdoc"></a>
+
 
 ### ansys.meshing.prime.examples.download_elbow_scdoc(destination=None, force=False)
 

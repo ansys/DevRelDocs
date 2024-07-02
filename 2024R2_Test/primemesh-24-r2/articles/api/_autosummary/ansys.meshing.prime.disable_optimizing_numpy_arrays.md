@@ -1,6 +1,6 @@
 # ansys.meshing.prime.disable_optimizing_numpy_arrays
 
-<a id="ansys.meshing.prime.disable_optimizing_numpy_arrays"></a>
+
 
 ### ansys.meshing.prime.disable_optimizing_numpy_arrays()
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SizeControl.set_suggested_name
 
-<a id="ansys.meshing.prime.SizeControl.set_suggested_name"></a>
+
 
 #### SizeControl.set_suggested_name(name)
 

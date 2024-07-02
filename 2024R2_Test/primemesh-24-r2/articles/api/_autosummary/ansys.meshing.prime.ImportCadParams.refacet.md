@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ImportCadParams.refacet
 
-<a id="ansys.meshing.prime.ImportCadParams.refacet"></a>
+
 
 #### *property* ImportCadParams.refacet *: [bool](https://docs.python.org/3.11/library/functions.html#bool)*
 

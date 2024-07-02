@@ -1,6 +1,6 @@
 # ansys.meshing.prime.DetectCircularHolesParams.set_default
 
-<a id="ansys.meshing.prime.DetectCircularHolesParams.set_default"></a>
+
 
 #### *static* DetectCircularHolesParams.set_default(allow_curved_topo_faces=None, max_radius_circular_holes=None, min_radius_circular_holes=None, merge_edge_allow_self_close=None)
 

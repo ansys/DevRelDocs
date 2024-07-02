@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # StitchParams
 
-<a id="ansys.meshing.prime.StitchParams"></a>
+
 
 ### *class* ansys.meshing.prime.StitchParams(model=None, tolerance=None, use_absolute_tolerance=None, remesh=None, enable_multi_threading=None, type=None, json_data=None, \*\*kwargs)
 
@@ -54,4 +52,4 @@ Parameters used for stitch operation.
 | [`StitchParams.tolerance`](ansys.meshing.prime.StitchParams.tolerance.md#ansys.meshing.prime.StitchParams.tolerance)                                          | Distance tolerance for stitching boundaries.                              |
 | [`StitchParams.type`](ansys.meshing.prime.StitchParams.type.md#ansys.meshing.prime.StitchParams.type)                                                         | Stitch type depending on nature of surface boundary edges to be stitched. |
 | [`StitchParams.use_absolute_tolerance`](ansys.meshing.prime.StitchParams.use_absolute_tolerance.md#ansys.meshing.prime.StitchParams.use_absolute_tolerance)   | True if tolerance provided is absolute value.                             |
-<!-- vale on -->
+

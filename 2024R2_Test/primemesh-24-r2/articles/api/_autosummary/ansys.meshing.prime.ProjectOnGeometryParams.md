@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # ProjectOnGeometryParams
 
-<a id="ansys.meshing.prime.ProjectOnGeometryParams"></a>
+
 
 ### *class* ansys.meshing.prime.ProjectOnGeometryParams(model=None, project_only_mid_nodes=None, project_on_facets_if_cadnot_found=None, json_data=None, \*\*kwargs)
 
@@ -46,4 +44,4 @@ Parameters used to project topoface nodes on associated geometry.
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
 | [`ProjectOnGeometryParams.project_on_facets_if_cadnot_found`](ansys.meshing.prime.ProjectOnGeometryParams.project_on_facets_if_cadnot_found.md#ansys.meshing.prime.ProjectOnGeometryParams.project_on_facets_if_cadnot_found)   | Option to project on facet if geometry is not found.   |
 | [`ProjectOnGeometryParams.project_only_mid_nodes`](ansys.meshing.prime.ProjectOnGeometryParams.project_only_mid_nodes.md#ansys.meshing.prime.ProjectOnGeometryParams.project_only_mid_nodes)                                    | Option to project only the mid nodes.                  |
-<!-- vale on -->
+

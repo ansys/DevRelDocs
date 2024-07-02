@@ -1,6 +1,6 @@
 # ansys.meshing.prime.PrismControlGrowthParams.print_default
 
-<a id="ansys.meshing.prime.PrismControlGrowthParams.print_default"></a>
+
 
 #### *static* PrismControlGrowthParams.print_default()
 

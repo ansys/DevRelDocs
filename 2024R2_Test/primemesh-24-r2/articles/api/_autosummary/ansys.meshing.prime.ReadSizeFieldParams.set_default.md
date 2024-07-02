@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ReadSizeFieldParams.set_default
 
-<a id="ansys.meshing.prime.ReadSizeFieldParams.set_default"></a>
+
 
 #### *static* ReadSizeFieldParams.set_default(append=None)
 

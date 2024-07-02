@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ExportLSDynaResults.print_default
 
-<a id="ansys.meshing.prime.ExportLSDynaResults.print_default"></a>
+
 
 #### *static* ExportLSDynaResults.print_default()
 

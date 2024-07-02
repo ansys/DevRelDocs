@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SurfaceUtilities.delete_unwetted_surfaces
 
-<a id="ansys.meshing.prime.SurfaceUtilities.delete_unwetted_surfaces"></a>
+
 
 #### SurfaceUtilities.delete_unwetted_surfaces(face_zonelet_ids, live_material_point_names, params)
 

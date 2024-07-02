@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # CheckMeshParams
 
-<a id="ansys.meshing.prime.CheckMeshParams"></a>
+
 
 ### *class* ansys.meshing.prime.CheckMeshParams(model=None, json_data=None, \*\*kwargs)
 
@@ -29,4 +27,4 @@ Parameters used to check mesh.
 |-----------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
 | [`CheckMeshParams.print_default`](ansys.meshing.prime.CheckMeshParams.print_default.md#ansys.meshing.prime.CheckMeshParams.print_default)()   | Print the default values of `CheckMeshParams` object.   |
 | [`CheckMeshParams.set_default`](ansys.meshing.prime.CheckMeshParams.set_default.md#ansys.meshing.prime.CheckMeshParams.set_default)()         | Set the default values of the `CheckMeshParams` object. |
-<!-- vale on -->
+

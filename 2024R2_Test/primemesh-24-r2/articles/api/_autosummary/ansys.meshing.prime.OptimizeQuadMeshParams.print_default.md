@@ -1,6 +1,6 @@
 # ansys.meshing.prime.OptimizeQuadMeshParams.print_default
 
-<a id="ansys.meshing.prime.OptimizeQuadMeshParams.print_default"></a>
+
 
 #### *static* OptimizeQuadMeshParams.print_default()
 

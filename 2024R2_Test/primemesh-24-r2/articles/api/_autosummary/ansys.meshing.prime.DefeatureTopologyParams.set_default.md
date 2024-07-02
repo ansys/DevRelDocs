@@ -1,6 +1,6 @@
 # ansys.meshing.prime.DefeatureTopologyParams.set_default
 
-<a id="ansys.meshing.prime.DefeatureTopologyParams.set_default"></a>
+
 
 #### *static* DefeatureTopologyParams.set_default(partial_defeature=None, delete_interior_nodes=None, allow_curved_topo_faces=None, fillet_spanning_angle=None, aggressive_edge_merge=None, thin_stripes_tolerance=None, partial_defeature_params=None, delete_interior_nodes_params=None)
 

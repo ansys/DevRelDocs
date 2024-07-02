@@ -1,6 +1,6 @@
 # ansys.meshing.prime.PartialDefeatureParams.set_default
 
-<a id="ansys.meshing.prime.PartialDefeatureParams.set_default"></a>
+
 
 #### *static* PartialDefeatureParams.set_default(edge_sharp_corner_angle=None, merge_face_normals_angle=None, merge_edge_allow_self_close=None)
 

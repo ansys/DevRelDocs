@@ -1,6 +1,6 @@
 # ansys.meshing.prime.PeriodicControl.set_suggested_name
 
-<a id="ansys.meshing.prime.PeriodicControl.set_suggested_name"></a>
+
 
 #### PeriodicControl.set_suggested_name(name)
 

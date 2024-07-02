@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # FileReadResults
 
-<a id="ansys.meshing.prime.FileReadResults"></a>
+
 
 ### *class* ansys.meshing.prime.FileReadResults(model=None, error_code=None, json_data=None, \*\*kwargs)
 
@@ -38,4 +36,4 @@ Results of file read operation.
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|
 | [`FileReadResults.error_code`](ansys.meshing.prime.FileReadResults.error_code.md#ansys.meshing.prime.FileReadResults.error_code)   | Error code if file read operation was unsuccessful.   |
-<!-- vale on -->
+

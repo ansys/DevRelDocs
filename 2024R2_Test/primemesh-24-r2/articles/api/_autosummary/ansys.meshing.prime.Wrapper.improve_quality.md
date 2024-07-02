@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Wrapper.improve_quality
 
-<a id="ansys.meshing.prime.Wrapper.improve_quality"></a>
+
 
 #### Wrapper.improve_quality(part_id, params)
 

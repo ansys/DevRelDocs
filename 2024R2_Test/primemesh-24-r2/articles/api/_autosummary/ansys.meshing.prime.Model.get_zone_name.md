@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Model.get_zone_name
 
-<a id="ansys.meshing.prime.Model.get_zone_name"></a>
+
 
 #### Model.get_zone_name(id)
 

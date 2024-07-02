@@ -1,6 +1,6 @@
 # ansys.meshing.prime.lucid.Mesh.surface_mesh_with_size_controls
 
-<a id="ansys.meshing.prime.lucid.Mesh.surface_mesh_with_size_controls"></a>
+
 
 #### Mesh.surface_mesh_with_size_controls(size_control_names='\*', generate_quads=False, scope=<ansys.meshing.prime.lucid.scope.SurfaceScope object>)
 

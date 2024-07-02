@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ExportSTLParams.set_default
 
-<a id="ansys.meshing.prime.ExportSTLParams.set_default"></a>
+
 
 #### *static* ExportSTLParams.set_default(part_ids=None)
 

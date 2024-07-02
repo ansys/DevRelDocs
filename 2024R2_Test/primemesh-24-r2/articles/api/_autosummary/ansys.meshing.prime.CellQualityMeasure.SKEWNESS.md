@@ -1,6 +1,6 @@
 # ansys.meshing.prime.CellQualityMeasure.SKEWNESS
 
-<a id="ansys.meshing.prime.CellQualityMeasure.SKEWNESS"></a>
+
 
 #### CellQualityMeasure.SKEWNESS *= 0*
 

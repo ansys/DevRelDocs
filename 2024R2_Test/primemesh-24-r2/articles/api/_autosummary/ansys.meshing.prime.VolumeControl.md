@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # VolumeControl
 
-<a id="ansys.meshing.prime.VolumeControl"></a>
+
 
 ### *class* ansys.meshing.prime.VolumeControl(model, id, object_id, name, local=False)
 
@@ -39,4 +37,4 @@ Defines the scope and type of volume mesh to generate.
 |----------------------------------------------------------------------------------------------------------|-------------------------------------|
 | [`VolumeControl.id`](ansys.meshing.prime.VolumeControl.id.md#ansys.meshing.prime.VolumeControl.id)       | Get the id of VolumeControl.        |
 | [`VolumeControl.name`](ansys.meshing.prime.VolumeControl.name.md#ansys.meshing.prime.VolumeControl.name) | Get the name of the volume control. |
-<!-- vale on -->
+

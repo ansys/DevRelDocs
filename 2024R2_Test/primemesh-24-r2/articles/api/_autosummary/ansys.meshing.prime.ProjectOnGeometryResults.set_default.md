@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ProjectOnGeometryResults.set_default
 
-<a id="ansys.meshing.prime.ProjectOnGeometryResults.set_default"></a>
+
 
 #### *static* ProjectOnGeometryResults.set_default(success=None, error_code=None, warning_codes=None)
 

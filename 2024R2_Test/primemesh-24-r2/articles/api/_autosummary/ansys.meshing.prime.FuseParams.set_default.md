@@ -1,6 +1,6 @@
 # ansys.meshing.prime.FuseParams.set_default
 
-<a id="ansys.meshing.prime.FuseParams.set_default"></a>
+
 
 #### *static* FuseParams.set_default(use_absolute_tolerance=None, gap_tolerance=None, side_tolerance=None, check_interior=None, fuse_option=None, check_orientation=None, dump_mesh=None, local_remesh=None, n_layers=None, separate=None, angle=None, fuse_edges_only=None)
 

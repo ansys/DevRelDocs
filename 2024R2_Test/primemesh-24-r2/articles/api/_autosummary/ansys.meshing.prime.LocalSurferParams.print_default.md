@@ -1,6 +1,6 @@
 # ansys.meshing.prime.LocalSurferParams.print_default
 
-<a id="ansys.meshing.prime.LocalSurferParams.print_default"></a>
+
 
 #### *static* LocalSurferParams.print_default()
 

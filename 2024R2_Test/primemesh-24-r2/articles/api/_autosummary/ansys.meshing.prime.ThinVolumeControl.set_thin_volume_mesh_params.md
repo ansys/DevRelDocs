@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ThinVolumeControl.set_thin_volume_mesh_params
 
-<a id="ansys.meshing.prime.ThinVolumeControl.set_thin_volume_mesh_params"></a>
+
 
 #### ThinVolumeControl.set_thin_volume_mesh_params(thin_volume_mesh_params)
 

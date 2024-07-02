@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SurfaceDiagnosticSummaryParams.print_default
 
-<a id="ansys.meshing.prime.SurfaceDiagnosticSummaryParams.print_default"></a>
+
 
 #### *static* SurfaceDiagnosticSummaryParams.print_default()
 

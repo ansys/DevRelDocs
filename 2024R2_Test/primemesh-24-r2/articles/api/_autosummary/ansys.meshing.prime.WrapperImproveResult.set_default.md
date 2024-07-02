@@ -1,6 +1,6 @@
 # ansys.meshing.prime.WrapperImproveResult.set_default
 
-<a id="ansys.meshing.prime.WrapperImproveResult.set_default"></a>
+
 
 #### *static* WrapperImproveResult.set_default(error_code=None, n_skew_found=None, remaining_skew_faces=None, n_face_intersections_found=None, unresolved_face_intersections=None)
 

@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # ExportSTLParams
 
-<a id="ansys.meshing.prime.ExportSTLParams"></a>
+
 
 ### *class* ansys.meshing.prime.ExportSTLParams(model=None, part_ids=None, json_data=None, \*\*kwargs)
 
@@ -38,4 +36,4 @@ Parameters to export STL file.
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------|---------------------------|
 | [`ExportSTLParams.part_ids`](ansys.meshing.prime.ExportSTLParams.part_ids.md#ansys.meshing.prime.ExportSTLParams.part_ids)   | Ids of parts to export.   |
-<!-- vale on -->
+

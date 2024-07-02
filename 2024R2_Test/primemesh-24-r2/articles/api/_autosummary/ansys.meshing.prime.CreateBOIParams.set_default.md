@@ -1,6 +1,6 @@
 # ansys.meshing.prime.CreateBOIParams.set_default
 
-<a id="ansys.meshing.prime.CreateBOIParams.set_default"></a>
+
 
 #### *static* CreateBOIParams.set_default(boi_type=None, perform_initial_wrap=None, wrap_size=None, flow_dir=None, side_scale=None, wake_scale=None, wake_levels=None, suggested_part_name=None, suggested_label_prefix=None, number_of_threads=None)
 

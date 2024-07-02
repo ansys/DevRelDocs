@@ -1,6 +1,6 @@
 # ansys.meshing.prime.lucid.Mesh.compute_volumes
 
-<a id="ansys.meshing.prime.lucid.Mesh.compute_volumes"></a>
+
 
 #### Mesh.compute_volumes(part_expression='\*', create_zones_per_volume=True)
 

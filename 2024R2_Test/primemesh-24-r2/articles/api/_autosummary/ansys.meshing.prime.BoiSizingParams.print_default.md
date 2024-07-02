@@ -1,6 +1,6 @@
 # ansys.meshing.prime.BoiSizingParams.print_default
 
-<a id="ansys.meshing.prime.BoiSizingParams.print_default"></a>
+
 
 #### *static* BoiSizingParams.print_default()
 

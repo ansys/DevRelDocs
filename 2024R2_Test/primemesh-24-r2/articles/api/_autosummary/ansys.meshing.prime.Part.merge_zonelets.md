@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Part.merge_zonelets
 
-<a id="ansys.meshing.prime.Part.merge_zonelets"></a>
+
 
 #### Part.merge_zonelets(zonelets, params)
 

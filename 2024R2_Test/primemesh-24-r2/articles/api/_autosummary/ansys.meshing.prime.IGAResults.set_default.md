@@ -1,6 +1,6 @@
 # ansys.meshing.prime.IGAResults.set_default
 
-<a id="ansys.meshing.prime.IGAResults.set_default"></a>
+
 
 #### *static* IGAResults.set_default(error_code=None, warning_code=None, spline_ids=None)
 

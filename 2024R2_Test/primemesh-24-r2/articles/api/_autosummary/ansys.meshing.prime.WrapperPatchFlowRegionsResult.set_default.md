@@ -1,6 +1,6 @@
 # ansys.meshing.prime.WrapperPatchFlowRegionsResult.set_default
 
-<a id="ansys.meshing.prime.WrapperPatchFlowRegionsResult.set_default"></a>
+
 
 #### *static* WrapperPatchFlowRegionsResult.set_default(warning_codes=None, error_code=None, id=None, name=None)
 

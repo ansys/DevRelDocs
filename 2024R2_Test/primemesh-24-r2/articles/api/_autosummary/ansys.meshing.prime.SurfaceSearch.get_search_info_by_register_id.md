@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SurfaceSearch.get_search_info_by_register_id
 
-<a id="ansys.meshing.prime.SurfaceSearch.get_search_info_by_register_id"></a>
+
 
 #### SurfaceSearch.get_search_info_by_register_id(face_zonelets, register_id, params)
 

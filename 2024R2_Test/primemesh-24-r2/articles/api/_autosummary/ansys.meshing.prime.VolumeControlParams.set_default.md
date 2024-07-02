@@ -1,6 +1,6 @@
 # ansys.meshing.prime.VolumeControlParams.set_default
 
-<a id="ansys.meshing.prime.VolumeControlParams.set_default"></a>
+
 
 #### *static* VolumeControlParams.set_default(cell_zonelet_type=None, skip_hexcore=None)
 

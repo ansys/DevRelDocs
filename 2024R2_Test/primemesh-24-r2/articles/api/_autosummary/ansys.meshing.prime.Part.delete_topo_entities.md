@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Part.delete_topo_entities
 
-<a id="ansys.meshing.prime.Part.delete_topo_entities"></a>
+
 
 #### Part.delete_topo_entities(params)
 

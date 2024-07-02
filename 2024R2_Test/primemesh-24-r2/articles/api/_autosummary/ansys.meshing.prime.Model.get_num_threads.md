@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Model.get_num_threads
 
-<a id="ansys.meshing.prime.Model.get_num_threads"></a>
+
 
 #### Model.get_num_threads()
 

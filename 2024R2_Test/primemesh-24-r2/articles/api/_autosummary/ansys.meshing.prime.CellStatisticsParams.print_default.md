@@ -1,6 +1,6 @@
 # ansys.meshing.prime.CellStatisticsParams.print_default
 
-<a id="ansys.meshing.prime.CellStatisticsParams.print_default"></a>
+
 
 #### *static* CellStatisticsParams.print_default()
 

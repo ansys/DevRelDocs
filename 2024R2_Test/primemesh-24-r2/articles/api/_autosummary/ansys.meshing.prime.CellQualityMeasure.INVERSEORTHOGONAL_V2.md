@@ -1,6 +1,6 @@
 # ansys.meshing.prime.CellQualityMeasure.INVERSEORTHOGONAL_V2
 
-<a id="ansys.meshing.prime.CellQualityMeasure.INVERSEORTHOGONAL_V2"></a>
+
 
 #### CellQualityMeasure.INVERSEORTHOGONAL_V2 *= 25*
 

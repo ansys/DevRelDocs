@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ProximitySizingParams.elements_per_gap
 
-<a id="ansys.meshing.prime.ProximitySizingParams.elements_per_gap"></a>
+
 
 #### *property* ProximitySizingParams.elements_per_gap *: [float](https://docs.python.org/3.11/library/functions.html#float)*
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.TopoFillHoleParams.set_default
 
-<a id="ansys.meshing.prime.TopoFillHoleParams.set_default"></a>
+
 
 #### *static* TopoFillHoleParams.set_default(edges_to_exclude=None, suppress_boundary_after_hole_fill=None, fill_annular_hole=None)
 

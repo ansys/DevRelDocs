@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Part.remove_labels_from_topo_entities
 
-<a id="ansys.meshing.prime.Part.remove_labels_from_topo_entities"></a>
+
 
 #### Part.remove_labels_from_topo_entities(labels, topo_entities)
 

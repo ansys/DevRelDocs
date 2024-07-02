@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # DetectCircularHolesParams
 
-<a id="ansys.meshing.prime.DetectCircularHolesParams"></a>
+
 
 ### *class* ansys.meshing.prime.DetectCircularHolesParams(model=None, allow_curved_topo_faces=None, max_radius_circular_holes=None, min_radius_circular_holes=None, merge_edge_allow_self_close=None, json_data=None, \*\*kwargs)
 
@@ -58,4 +56,4 @@ Parameters for detect circular holes operation.
 | [`DetectCircularHolesParams.max_radius_circular_holes`](ansys.meshing.prime.DetectCircularHolesParams.max_radius_circular_holes.md#ansys.meshing.prime.DetectCircularHolesParams.max_radius_circular_holes)       | Maximum radius of circular holes.           |
 | [`DetectCircularHolesParams.merge_edge_allow_self_close`](ansys.meshing.prime.DetectCircularHolesParams.merge_edge_allow_self_close.md#ansys.meshing.prime.DetectCircularHolesParams.merge_edge_allow_self_close) | Option for merging self-closing edge loops. |
 | [`DetectCircularHolesParams.min_radius_circular_holes`](ansys.meshing.prime.DetectCircularHolesParams.min_radius_circular_holes.md#ansys.meshing.prime.DetectCircularHolesParams.min_radius_circular_holes)       | Minimum radius of circular holes.           |
-<!-- vale on -->
+

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.DeleteZoneResults.print_default
 
-<a id="ansys.meshing.prime.DeleteZoneResults.print_default"></a>
+
 
 #### *static* DeleteZoneResults.print_default()
 

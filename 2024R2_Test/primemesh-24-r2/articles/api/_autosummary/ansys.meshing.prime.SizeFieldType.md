@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # SizeFieldType
 
-<a id="ansys.meshing.prime.SizeFieldType"></a>
+
 
 ### *class* ansys.meshing.prime.SizeFieldType(value)
 
@@ -19,4 +17,4 @@ The type of sizing field to be used to fetch element size at given location.
 | [`SizeFieldType.GEODESIC`](ansys.meshing.prime.SizeFieldType.GEODESIC.md#ansys.meshing.prime.SizeFieldType.GEODESIC)                   | Uses geodesic size field.                                                        |
 | [`SizeFieldType.CONSTANT`](ansys.meshing.prime.SizeFieldType.CONSTANT.md#ansys.meshing.prime.SizeFieldType.CONSTANT)                   | Uses constant size at all locations of sizing field.                             |
 | [`SizeFieldType.MESHEDGEODESIC`](ansys.meshing.prime.SizeFieldType.MESHEDGEODESIC.md#ansys.meshing.prime.SizeFieldType.MESHEDGEODESIC) | Computes size field using existing surface mesh sizes and diffuses geodesically. |
-<!-- vale on -->
+

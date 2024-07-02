@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Model.control_data
 
-<a id="ansys.meshing.prime.Model.control_data"></a>
+
 
 #### *property* Model.control_data *: [ControlData](ansys.meshing.prime.ControlData.md#ansys.meshing.prime.ControlData)*
 

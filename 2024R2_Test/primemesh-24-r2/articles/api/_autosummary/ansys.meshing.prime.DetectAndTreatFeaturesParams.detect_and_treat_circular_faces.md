@@ -1,6 +1,6 @@
 # ansys.meshing.prime.DetectAndTreatFeaturesParams.detect_and_treat_circular_faces
 
-<a id="ansys.meshing.prime.DetectAndTreatFeaturesParams.detect_and_treat_circular_faces"></a>
+
 
 #### *property* DetectAndTreatFeaturesParams.detect_and_treat_circular_faces *: [bool](https://docs.python.org/3.11/library/functions.html#bool)*
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.MultiZoneControl.set_multi_zone_sizing_params
 
-<a id="ansys.meshing.prime.MultiZoneControl.set_multi_zone_sizing_params"></a>
+
 
 #### MultiZoneControl.set_multi_zone_sizing_params(params)
 

@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # PrismControl
 
-<a id="ansys.meshing.prime.PrismControl"></a>
+
 
 ### *class* ansys.meshing.prime.PrismControl(model, id, object_id, name)
 
@@ -41,4 +39,4 @@ PrismControl allows you to control generation of prisms. Controls include settin
 |-------------------------------------------------------------------------------------------------------|-------------------------------|
 | [`PrismControl.id`](ansys.meshing.prime.PrismControl.id.md#ansys.meshing.prime.PrismControl.id)       | Get the id of PrismControl.   |
 | [`PrismControl.name`](ansys.meshing.prime.PrismControl.name.md#ansys.meshing.prime.PrismControl.name) | Get the name of PrismControl. |
-<!-- vale on -->
+

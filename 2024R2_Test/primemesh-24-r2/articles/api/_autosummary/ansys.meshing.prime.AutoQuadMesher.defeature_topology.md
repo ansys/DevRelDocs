@@ -1,6 +1,6 @@
 # ansys.meshing.prime.AutoQuadMesher.defeature_topology
 
-<a id="ansys.meshing.prime.AutoQuadMesher.defeature_topology"></a>
+
 
 #### AutoQuadMesher.defeature_topology(part_id, topo_face_ids, params)
 

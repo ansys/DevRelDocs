@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SubtractZoneletsResults.print_default
 
-<a id="ansys.meshing.prime.SubtractZoneletsResults.print_default"></a>
+
 
 #### *static* SubtractZoneletsResults.print_default()
 

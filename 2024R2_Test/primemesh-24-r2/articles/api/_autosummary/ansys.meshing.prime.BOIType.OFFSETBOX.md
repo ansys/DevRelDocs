@@ -1,6 +1,6 @@
 # ansys.meshing.prime.BOIType.OFFSETBOX
 
-<a id="ansys.meshing.prime.BOIType.OFFSETBOX"></a>
+
 
 #### BOIType.OFFSETBOX *= 1*
 

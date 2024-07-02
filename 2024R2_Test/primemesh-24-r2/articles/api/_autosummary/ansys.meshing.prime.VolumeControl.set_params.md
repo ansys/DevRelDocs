@@ -1,6 +1,6 @@
 # ansys.meshing.prime.VolumeControl.set_params
 
-<a id="ansys.meshing.prime.VolumeControl.set_params"></a>
+
 
 #### VolumeControl.set_params(volume_control_params)
 

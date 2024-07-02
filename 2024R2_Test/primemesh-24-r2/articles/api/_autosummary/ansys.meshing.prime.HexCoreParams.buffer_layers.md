@@ -1,6 +1,6 @@
 # ansys.meshing.prime.HexCoreParams.buffer_layers
 
-<a id="ansys.meshing.prime.HexCoreParams.buffer_layers"></a>
+
 
 #### *property* HexCoreParams.buffer_layers *: [int](https://docs.python.org/3.11/library/functions.html#int)*
 

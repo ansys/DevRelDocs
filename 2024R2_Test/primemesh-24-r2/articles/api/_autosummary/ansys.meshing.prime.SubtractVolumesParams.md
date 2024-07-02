@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # SubtractVolumesParams
 
-<a id="ansys.meshing.prime.SubtractVolumesParams"></a>
+
 
 ### *class* ansys.meshing.prime.SubtractVolumesParams(model=None, ignore_face_zonelets=None, check_cutters=None, keep_cutters=None, json_data=None, \*\*kwargs)
 
@@ -48,4 +46,4 @@ Parameters to control the volume subtract operation.
 | [`SubtractVolumesParams.check_cutters`](ansys.meshing.prime.SubtractVolumesParams.check_cutters.md#ansys.meshing.prime.SubtractVolumesParams.check_cutters)                      | Option to manage intersecting cutter volumes.                                                           |
 | [`SubtractVolumesParams.ignore_face_zonelets`](ansys.meshing.prime.SubtractVolumesParams.ignore_face_zonelets.md#ansys.meshing.prime.SubtractVolumesParams.ignore_face_zonelets) | Face zonelet ids that subtract volumes should not remove (for example, periodic or fluid cap zonelets). |
 | [`SubtractVolumesParams.keep_cutters`](ansys.meshing.prime.SubtractVolumesParams.keep_cutters.md#ansys.meshing.prime.SubtractVolumesParams.keep_cutters)                         | Option to retain cutter volumes.                                                                        |
-<!-- vale on -->
+

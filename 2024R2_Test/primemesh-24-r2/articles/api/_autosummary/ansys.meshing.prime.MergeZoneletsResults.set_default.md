@@ -1,6 +1,6 @@
 # ansys.meshing.prime.MergeZoneletsResults.set_default
 
-<a id="ansys.meshing.prime.MergeZoneletsResults.set_default"></a>
+
 
 #### *static* MergeZoneletsResults.set_default(merged_zonelets=None, error_code=None)
 

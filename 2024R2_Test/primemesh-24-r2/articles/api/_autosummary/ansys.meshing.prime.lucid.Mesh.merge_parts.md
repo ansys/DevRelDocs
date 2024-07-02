@@ -1,6 +1,6 @@
 # ansys.meshing.prime.lucid.Mesh.merge_parts
 
-<a id="ansys.meshing.prime.lucid.Mesh.merge_parts"></a>
+
 
 #### Mesh.merge_parts(parts_expression='\*', new_name='merged_part')
 

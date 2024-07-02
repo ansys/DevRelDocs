@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ScopeEntity.FACEANDEDGEZONELETS
 
-<a id="ansys.meshing.prime.ScopeEntity.FACEANDEDGEZONELETS"></a>
+
 
 #### ScopeEntity.FACEANDEDGEZONELETS *= 3*
 

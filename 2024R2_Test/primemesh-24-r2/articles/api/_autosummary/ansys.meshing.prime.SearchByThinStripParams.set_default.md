@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SearchByThinStripParams.set_default
 
-<a id="ansys.meshing.prime.SearchByThinStripParams.set_default"></a>
+
 
 #### *static* SearchByThinStripParams.set_default(strip_height_limit=None, quality_limit=None, face_quality_measure=None, feature_type=None, feature_angle=None)
 

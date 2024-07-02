@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SurfaceMeshSizeScaling.factor
 
-<a id="ansys.meshing.prime.SurfaceMeshSizeScaling.factor"></a>
+
 
 #### *property* SurfaceMeshSizeScaling.factor *: [float](https://docs.python.org/3.11/library/functions.html#float)*
 

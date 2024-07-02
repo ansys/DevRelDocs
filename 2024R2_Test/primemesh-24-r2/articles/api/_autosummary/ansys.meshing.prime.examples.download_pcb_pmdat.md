@@ -1,6 +1,6 @@
 # ansys.meshing.prime.examples.download_pcb_pmdat
 
-<a id="ansys.meshing.prime.examples.download_pcb_pmdat"></a>
+
 
 ### ansys.meshing.prime.examples.download_pcb_pmdat(destination=None, force=False)
 

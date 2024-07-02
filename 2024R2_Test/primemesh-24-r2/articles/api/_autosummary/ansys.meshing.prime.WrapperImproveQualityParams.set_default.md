@@ -1,6 +1,6 @@
 # ansys.meshing.prime.WrapperImproveQualityParams.set_default
 
-<a id="ansys.meshing.prime.WrapperImproveQualityParams.set_default"></a>
+
 
 #### *static* WrapperImproveQualityParams.set_default(target_skewness=None, island_count=None, island_tol=None, overlap_count=None, overlap_tol=None, resolve_spikes=None, resolve_intersections=None, inflate_dihedral_face_nodes=None, resolve_invalid_node_normals=None, aggressively=None, sharp_angle=None, geom_zonelets=None, number_of_threads=None)
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Model.set_num_threads
 
-<a id="ansys.meshing.prime.Model.set_num_threads"></a>
+
 
 #### Model.set_num_threads(num)
 

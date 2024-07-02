@@ -1,6 +1,6 @@
 # ansys.meshing.prime.VolumeNamingType.BYFACENORMALS
 
-<a id="ansys.meshing.prime.VolumeNamingType.BYFACENORMALS"></a>
+
 
 #### VolumeNamingType.BYFACENORMALS *= 4*
 

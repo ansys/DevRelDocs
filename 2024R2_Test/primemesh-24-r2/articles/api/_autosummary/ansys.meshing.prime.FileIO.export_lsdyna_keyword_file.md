@@ -1,6 +1,6 @@
 # ansys.meshing.prime.FileIO.export_lsdyna_keyword_file
 
-<a id="ansys.meshing.prime.FileIO.export_lsdyna_keyword_file"></a>
+
 
 #### FileIO.export_lsdyna_keyword_file(file_name, params)
 

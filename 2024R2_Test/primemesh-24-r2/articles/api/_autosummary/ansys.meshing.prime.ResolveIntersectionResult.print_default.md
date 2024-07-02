@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ResolveIntersectionResult.print_default
 
-<a id="ansys.meshing.prime.ResolveIntersectionResult.print_default"></a>
+
 
 #### *static* ResolveIntersectionResult.print_default()
 

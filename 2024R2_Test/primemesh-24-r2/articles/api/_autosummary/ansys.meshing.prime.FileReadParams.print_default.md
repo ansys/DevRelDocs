@@ -1,6 +1,6 @@
 # ansys.meshing.prime.FileReadParams.print_default
 
-<a id="ansys.meshing.prime.FileReadParams.print_default"></a>
+
 
 #### *static* FileReadParams.print_default()
 

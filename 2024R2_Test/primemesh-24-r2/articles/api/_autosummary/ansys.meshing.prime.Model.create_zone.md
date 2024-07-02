@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Model.create_zone
 
-<a id="ansys.meshing.prime.Model.create_zone"></a>
+
 
 #### Model.create_zone(suggested_name, type)
 

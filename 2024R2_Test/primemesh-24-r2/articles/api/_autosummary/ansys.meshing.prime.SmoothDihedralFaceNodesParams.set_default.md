@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SmoothDihedralFaceNodesParams.set_default
 
-<a id="ansys.meshing.prime.SmoothDihedralFaceNodesParams.set_default"></a>
+
 
 #### *static* SmoothDihedralFaceNodesParams.set_default(min_dihedral_angle=None, tolerance=None, type=None)
 

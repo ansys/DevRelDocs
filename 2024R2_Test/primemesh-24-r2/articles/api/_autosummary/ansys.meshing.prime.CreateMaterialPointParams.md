@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # CreateMaterialPointParams
 
-<a id="ansys.meshing.prime.CreateMaterialPointParams"></a>
+
 
 ### *class* ansys.meshing.prime.CreateMaterialPointParams(model=None, type=None, json_data=None, \*\*kwargs)
 
@@ -38,4 +36,4 @@ Defines parameters to create material point.
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|
 | [`CreateMaterialPointParams.type`](ansys.meshing.prime.CreateMaterialPointParams.type.md#ansys.meshing.prime.CreateMaterialPointParams.type)   | Defines the type of material point.   |
-<!-- vale on -->
+

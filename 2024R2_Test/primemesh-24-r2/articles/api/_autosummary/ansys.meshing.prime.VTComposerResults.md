@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # VTComposerResults
 
-<a id="ansys.meshing.prime.VTComposerResults"></a>
+
 
 ### *class* ansys.meshing.prime.VTComposerResults(model=None, error_code=None, json_data=None, \*\*kwargs)
 
@@ -38,4 +36,4 @@ Result struct associated to VTComposer operations.
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|
 | [`VTComposerResults.error_code`](ansys.meshing.prime.VTComposerResults.error_code.md#ansys.meshing.prime.VTComposerResults.error_code)   | **This is a beta parameter**.   |
-<!-- vale on -->
+

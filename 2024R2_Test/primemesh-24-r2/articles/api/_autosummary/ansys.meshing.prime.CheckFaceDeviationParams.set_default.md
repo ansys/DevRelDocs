@@ -1,6 +1,6 @@
 # ansys.meshing.prime.CheckFaceDeviationParams.set_default
 
-<a id="ansys.meshing.prime.CheckFaceDeviationParams.set_default"></a>
+
 
 #### *static* CheckFaceDeviationParams.set_default(distance=None)
 

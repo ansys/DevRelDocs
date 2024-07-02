@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SetNameResults.set_default
 
-<a id="ansys.meshing.prime.SetNameResults.set_default"></a>
+
 
 #### *static* SetNameResults.set_default(warning_code=None, assigned_name=None, error_code=None)
 

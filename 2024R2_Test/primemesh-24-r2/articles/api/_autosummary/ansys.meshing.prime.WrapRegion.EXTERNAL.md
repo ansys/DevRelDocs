@@ -1,6 +1,6 @@
 # ansys.meshing.prime.WrapRegion.EXTERNAL
 
-<a id="ansys.meshing.prime.WrapRegion.EXTERNAL"></a>
+
 
 #### WrapRegion.EXTERNAL *= 1*
 

@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # PartSummaryParams
 
-<a id="ansys.meshing.prime.PartSummaryParams"></a>
+
 
 ### *class* ansys.meshing.prime.PartSummaryParams(model=None, print_id=None, print_mesh=None, json_data=None, \*\*kwargs)
 
@@ -42,4 +40,4 @@ Parameters to control part summary results.
 |----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
 | [`PartSummaryParams.print_id`](ansys.meshing.prime.PartSummaryParams.print_id.md#ansys.meshing.prime.PartSummaryParams.print_id)       | Boolean to control print ids.              |
 | [`PartSummaryParams.print_mesh`](ansys.meshing.prime.PartSummaryParams.print_mesh.md#ansys.meshing.prime.PartSummaryParams.print_mesh) | Boolean to control print mesh information. |
-<!-- vale on -->
+

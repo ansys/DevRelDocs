@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Part.merge_volumes
 
-<a id="ansys.meshing.prime.Part.merge_volumes"></a>
+
 
 #### Part.merge_volumes(volumes, params)
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SplineFeatureCaptureType.BYEDGES
 
-<a id="ansys.meshing.prime.SplineFeatureCaptureType.BYEDGES"></a>
+
 
 #### SplineFeatureCaptureType.BYEDGES *= 2*
 

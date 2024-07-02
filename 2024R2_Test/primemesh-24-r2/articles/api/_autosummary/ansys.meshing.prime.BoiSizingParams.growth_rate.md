@@ -1,6 +1,6 @@
 # ansys.meshing.prime.BoiSizingParams.growth_rate
 
-<a id="ansys.meshing.prime.BoiSizingParams.growth_rate"></a>
+
 
 #### *property* BoiSizingParams.growth_rate *: [float](https://docs.python.org/3.11/library/functions.html#float)*
 

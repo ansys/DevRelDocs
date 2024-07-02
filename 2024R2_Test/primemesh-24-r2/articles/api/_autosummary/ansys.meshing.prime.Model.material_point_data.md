@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Model.material_point_data
 
-<a id="ansys.meshing.prime.Model.material_point_data"></a>
+
 
 #### *property* Model.material_point_data *: [MaterialPointManager](ansys.meshing.prime.MaterialPointManager.md#ansys.meshing.prime.MaterialPointManager)*
 

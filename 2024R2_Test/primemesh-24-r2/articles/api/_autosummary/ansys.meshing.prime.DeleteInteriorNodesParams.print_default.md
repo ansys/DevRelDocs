@@ -1,6 +1,6 @@
 # ansys.meshing.prime.DeleteInteriorNodesParams.print_default
 
-<a id="ansys.meshing.prime.DeleteInteriorNodesParams.print_default"></a>
+
 
 #### *static* DeleteInteriorNodesParams.print_default()
 

@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # AddToZoneResults
 
-<a id="ansys.meshing.prime.AddToZoneResults"></a>
+
 
 ### *class* ansys.meshing.prime.AddToZoneResults(model=None, error_code=None, warning_codes=None, json_data=None, \*\*kwargs)
 
@@ -42,4 +40,4 @@ Results associated with the add to zone operation.
 |----------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
 | [`AddToZoneResults.error_code`](ansys.meshing.prime.AddToZoneResults.error_code.md#ansys.meshing.prime.AddToZoneResults.error_code)          | Error code associated with the failure of operation.     |
 | [`AddToZoneResults.warning_codes`](ansys.meshing.prime.AddToZoneResults.warning_codes.md#ansys.meshing.prime.AddToZoneResults.warning_codes) | Warning codes associated with the add to zone operation. |
-<!-- vale on -->
+

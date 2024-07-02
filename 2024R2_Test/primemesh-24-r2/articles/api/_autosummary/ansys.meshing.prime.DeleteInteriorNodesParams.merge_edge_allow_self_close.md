@@ -1,6 +1,6 @@
 # ansys.meshing.prime.DeleteInteriorNodesParams.merge_edge_allow_self_close
 
-<a id="ansys.meshing.prime.DeleteInteriorNodesParams.merge_edge_allow_self_close"></a>
+
 
 #### *property* DeleteInteriorNodesParams.merge_edge_allow_self_close *: [bool](https://docs.python.org/3.11/library/functions.html#bool)*
 

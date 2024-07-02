@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # FileIO
 
-<a id="ansys.meshing.prime.FileIO"></a>
+
 
 ### *class* ansys.meshing.prime.FileIO(model)
 
@@ -36,4 +34,4 @@ Handles reading or writing files from the disk.
 | [`FileIO.read_size_field`](ansys.meshing.prime.FileIO.read_size_field.md#ansys.meshing.prime.FileIO.read_size_field)(file_name, params)                                                 | Read a PyPrimeMesh size field (PSF and PSF.GZ) file from disk.       |
 | [`FileIO.write_pmdat`](ansys.meshing.prime.FileIO.write_pmdat.md#ansys.meshing.prime.FileIO.write_pmdat)(file_name, file_write_params)                                                  | Write a PyPrimeMesh data (PMDAT) file.                               |
 | [`FileIO.write_size_field`](ansys.meshing.prime.FileIO.write_size_field.md#ansys.meshing.prime.FileIO.write_size_field)(file_name, params)                                              | Write a PyPrimeMesh size field (PSF) file to a file on disk.         |
-<!-- vale on -->
+

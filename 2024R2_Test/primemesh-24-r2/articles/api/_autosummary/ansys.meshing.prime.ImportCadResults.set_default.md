@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ImportCadResults.set_default
 
-<a id="ansys.meshing.prime.ImportCadResults.set_default"></a>
+
 
 #### *static* ImportCadResults.set_default(error_code=None, cad_parameters=None)
 

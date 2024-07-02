@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SearchBySpikeParams.set_default
 
-<a id="ansys.meshing.prime.SearchBySpikeParams.set_default"></a>
+
 
 #### *static* SearchBySpikeParams.set_default(spike_angle=None)
 

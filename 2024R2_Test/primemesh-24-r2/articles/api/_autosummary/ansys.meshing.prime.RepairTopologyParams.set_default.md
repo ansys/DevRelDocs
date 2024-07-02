@@ -1,6 +1,6 @@
 # ansys.meshing.prime.RepairTopologyParams.set_default
 
-<a id="ansys.meshing.prime.RepairTopologyParams.set_default"></a>
+
 
 #### *static* RepairTopologyParams.set_default(connect_faces=None, repair_edges=None, split_topo_edges_at_apex_point=None, fillet_max_radius=None, smallest_edge_length=None, merge_edge_allow_self_close=None, suppress_shared_edges_when_merging=None, edge_connect_type=None, connect_faces_params=None, repair_edges_params=None)
 

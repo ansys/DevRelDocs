@@ -1,6 +1,6 @@
 # ansys.meshing.prime.MergeVolumesParams.set_default
 
-<a id="ansys.meshing.prime.MergeVolumesParams.set_default"></a>
+
 
 #### *static* MergeVolumesParams.set_default(merge_to_neighbor_volume=None, neighbor_volumes=None)
 

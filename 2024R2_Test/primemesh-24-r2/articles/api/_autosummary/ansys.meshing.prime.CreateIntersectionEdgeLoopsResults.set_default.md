@@ -1,6 +1,6 @@
 # ansys.meshing.prime.CreateIntersectionEdgeLoopsResults.set_default
 
-<a id="ansys.meshing.prime.CreateIntersectionEdgeLoopsResults.set_default"></a>
+
 
 #### *static* CreateIntersectionEdgeLoopsResults.set_default(processing_time=None, error_code=None, extracted_ids=None)
 

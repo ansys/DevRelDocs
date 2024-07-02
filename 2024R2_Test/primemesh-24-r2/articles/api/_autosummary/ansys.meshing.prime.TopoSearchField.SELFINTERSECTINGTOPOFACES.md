@@ -1,6 +1,6 @@
 # ansys.meshing.prime.TopoSearchField.SELFINTERSECTINGTOPOFACES
 
-<a id="ansys.meshing.prime.TopoSearchField.SELFINTERSECTINGTOPOFACES"></a>
+
 
 #### TopoSearchField.SELFINTERSECTINGTOPOFACES *= 2*
 

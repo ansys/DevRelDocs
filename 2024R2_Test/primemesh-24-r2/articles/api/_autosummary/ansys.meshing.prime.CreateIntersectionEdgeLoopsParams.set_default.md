@@ -1,6 +1,6 @@
 # ansys.meshing.prime.CreateIntersectionEdgeLoopsParams.set_default
 
-<a id="ansys.meshing.prime.CreateIntersectionEdgeLoopsParams.set_default"></a>
+
 
 #### *static* CreateIntersectionEdgeLoopsParams.set_default(label_name=None)
 

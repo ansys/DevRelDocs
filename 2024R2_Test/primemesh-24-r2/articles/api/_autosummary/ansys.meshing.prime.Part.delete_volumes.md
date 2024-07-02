@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Part.delete_volumes
 
-<a id="ansys.meshing.prime.Part.delete_volumes"></a>
+
 
 #### Part.delete_volumes(volumes, params)
 

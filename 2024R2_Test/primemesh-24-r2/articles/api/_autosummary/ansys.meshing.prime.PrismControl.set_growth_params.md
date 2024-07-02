@@ -1,6 +1,6 @@
 # ansys.meshing.prime.PrismControl.set_growth_params
 
-<a id="ansys.meshing.prime.PrismControl.set_growth_params"></a>
+
 
 #### PrismControl.set_growth_params(prism_control_growth_params)
 

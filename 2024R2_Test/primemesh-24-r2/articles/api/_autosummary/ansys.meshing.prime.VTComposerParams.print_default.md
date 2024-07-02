@@ -1,6 +1,6 @@
 # ansys.meshing.prime.VTComposerParams.print_default
 
-<a id="ansys.meshing.prime.VTComposerParams.print_default"></a>
+
 
 #### *static* VTComposerParams.print_default()
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.examples.DownloadManager.download_file
 
-<a id="ansys.meshing.prime.examples.DownloadManager.download_file"></a>
+
 
 #### DownloadManager.download_file(filename, \*directory, destination=None, force=False)
 

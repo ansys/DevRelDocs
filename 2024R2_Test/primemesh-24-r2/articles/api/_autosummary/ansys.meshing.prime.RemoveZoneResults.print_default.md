@@ -1,6 +1,6 @@
 # ansys.meshing.prime.RemoveZoneResults.print_default
 
-<a id="ansys.meshing.prime.RemoveZoneResults.print_default"></a>
+
 
 #### *static* RemoveZoneResults.print_default()
 

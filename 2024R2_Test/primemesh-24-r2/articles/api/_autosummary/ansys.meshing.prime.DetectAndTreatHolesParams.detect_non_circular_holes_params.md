@@ -1,6 +1,6 @@
 # ansys.meshing.prime.DetectAndTreatHolesParams.detect_non_circular_holes_params
 
-<a id="ansys.meshing.prime.DetectAndTreatHolesParams.detect_non_circular_holes_params"></a>
+
 
 #### *property* DetectAndTreatHolesParams.detect_non_circular_holes_params *: [DetectNonCircularHolesParams](ansys.meshing.prime.DetectNonCircularHolesParams.md#ansys.meshing.prime.DetectNonCircularHolesParams)*
 

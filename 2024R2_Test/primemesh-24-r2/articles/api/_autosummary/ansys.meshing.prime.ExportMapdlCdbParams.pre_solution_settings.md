@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ExportMapdlCdbParams.pre_solution_settings
 
-<a id="ansys.meshing.prime.ExportMapdlCdbParams.pre_solution_settings"></a>
+
 
 #### *property* ExportMapdlCdbParams.pre_solution_settings *: [str](https://docs.python.org/3.11/library/stdtypes.html#str)*
 

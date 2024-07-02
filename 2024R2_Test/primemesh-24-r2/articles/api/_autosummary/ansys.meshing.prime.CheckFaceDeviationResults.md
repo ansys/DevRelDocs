@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # CheckFaceDeviationResults
 
-<a id="ansys.meshing.prime.CheckFaceDeviationResults"></a>
+
 
 ### *class* ansys.meshing.prime.CheckFaceDeviationResults(model=None, n_deviated=None, maximum_deviation=None, json_data=None, \*\*kwargs)
 
@@ -42,4 +40,4 @@ Result structure associated with the check face deviation operations.
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|
 | [`CheckFaceDeviationResults.maximum_deviation`](ansys.meshing.prime.CheckFaceDeviationResults.maximum_deviation.md#ansys.meshing.prime.CheckFaceDeviationResults.maximum_deviation)   | Maximum deviation found.        |
 | [`CheckFaceDeviationResults.n_deviated`](ansys.meshing.prime.CheckFaceDeviationResults.n_deviated.md#ansys.meshing.prime.CheckFaceDeviationResults.n_deviated)                        | Number of faces with deviation. |
-<!-- vale on -->
+

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SmoothDihedralFaceNodesResults.set_default
 
-<a id="ansys.meshing.prime.SmoothDihedralFaceNodesResults.set_default"></a>
+
 
 #### *static* SmoothDihedralFaceNodesResults.set_default(n_nodes_smoothed=None, error_code=None)
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ControlData.periodic_controls
 
-<a id="ansys.meshing.prime.ControlData.periodic_controls"></a>
+
 
 #### *property* ControlData.periodic_controls *: [List](https://docs.python.org/3.11/library/typing.html#typing.List)[PeriodicControl]*
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ConnectFacesParams.print_default
 
-<a id="ansys.meshing.prime.ConnectFacesParams.print_default"></a>
+
 
 #### *static* ConnectFacesParams.print_default()
 

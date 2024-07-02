@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # ScopeDefinition
 
-<a id="ansys.meshing.prime.ScopeDefinition"></a>
+
 
 ### *class* ansys.meshing.prime.ScopeDefinition(model=None, entity_type=None, evaluation_type=None, part_expression=None, label_expression=None, zone_expression=None, json_data=None, \*\*kwargs)
 
@@ -54,4 +52,4 @@ ScopeDefinition to scope entities based on entity and evaluation type.
 | [`ScopeDefinition.label_expression`](ansys.meshing.prime.ScopeDefinition.label_expression.md#ansys.meshing.prime.ScopeDefinition.label_expression) | Label expression to scope entities when evaluation type is set to labels. |
 | [`ScopeDefinition.part_expression`](ansys.meshing.prime.ScopeDefinition.part_expression.md#ansys.meshing.prime.ScopeDefinition.part_expression)    | Part expression to scope parts while evaluating scope.                    |
 | [`ScopeDefinition.zone_expression`](ansys.meshing.prime.ScopeDefinition.zone_expression.md#ansys.meshing.prime.ScopeDefinition.zone_expression)    | Zone expression to scope entities when evaluation type is set to zones.   |
-<!-- vale on -->
+

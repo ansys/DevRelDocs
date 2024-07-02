@@ -1,6 +1,6 @@
 # ansys.meshing.prime.DetectAndTreatHolesParams.set_default
 
-<a id="ansys.meshing.prime.DetectAndTreatHolesParams.set_default"></a>
+
 
 #### *static* DetectAndTreatHolesParams.set_default(detect_and_defeature_edges_near_holes=None, detect_circular_holes=None, detect_non_circular_holes=None, offset_holes=None, mesh_offset_faces=None, detect_holes_params=None, detect_circular_holes_params=None, detect_non_circular_holes_params=None, hole_proximity_tolerance=None, merge_face_normals_angle=None, edge_sharp_corner_angle=None, fragmented_edge_tolerance=None, offset_distance=None, edge_mesh_constant_size=None, surface_mesh_constant_size=None)
 

@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # CreateIntersectionEdgeLoopsParams
 
-<a id="ansys.meshing.prime.CreateIntersectionEdgeLoopsParams"></a>
+
 
 ### *class* ansys.meshing.prime.CreateIntersectionEdgeLoopsParams(model=None, label_name=None, json_data=None, \*\*kwargs)
 
@@ -38,4 +36,4 @@ Parameters used to calculate edge loops created by intersection of two groups of
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
 | [`CreateIntersectionEdgeLoopsParams.label_name`](ansys.meshing.prime.CreateIntersectionEdgeLoopsParams.label_name.md#ansys.meshing.prime.CreateIntersectionEdgeLoopsParams.label_name)   | Label name to be assigned to extracted features.   |
-<!-- vale on -->
+

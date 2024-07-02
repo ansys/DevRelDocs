@@ -1,6 +1,6 @@
 # ansys.meshing.prime.WrapperCloseGapsResult.set_default
 
-<a id="ansys.meshing.prime.WrapperCloseGapsResult.set_default"></a>
+
 
 #### *static* WrapperCloseGapsResult.set_default(error_code=None, part_id=None)
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SearchByQualityResults.set_default
 
-<a id="ansys.meshing.prime.SearchByQualityResults.set_default"></a>
+
 
 #### *static* SearchByQualityResults.set_default(n_found=None, error_code=None, max_quality=None, min_quality=None)
 

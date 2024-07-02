@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # PartSummaryResults
 
-<a id="ansys.meshing.prime.PartSummaryResults"></a>
+
 
 ### *class* ansys.meshing.prime.PartSummaryResults(model=None, message=None, n_topo_edges=None, n_topo_faces=None, n_topo_volumes=None, n_edge_zonelets=None, n_face_zonelets=None, n_cell_zonelets=None, n_edge_zones=None, n_face_zones=None, n_volume_zones=None, n_labels=None, n_nodes=None, n_faces=None, n_cells=None, n_tri_faces=None, n_poly_faces=None, n_quad_faces=None, n_tet_cells=None, n_pyra_cells=None, n_prism_cells=None, n_poly_cells=None, n_hex_cells=None, n_unmeshed_topo_faces=None, json_data=None, \*\*kwargs)
 
@@ -126,4 +124,4 @@ Results of part summary.
 | [`PartSummaryResults.n_tri_faces`](ansys.meshing.prime.PartSummaryResults.n_tri_faces.md#ansys.meshing.prime.PartSummaryResults.n_tri_faces)                               | Number of triangular faces.    |
 | [`PartSummaryResults.n_unmeshed_topo_faces`](ansys.meshing.prime.PartSummaryResults.n_unmeshed_topo_faces.md#ansys.meshing.prime.PartSummaryResults.n_unmeshed_topo_faces) | Number of unmeshed topofaces.  |
 | [`PartSummaryResults.n_volume_zones`](ansys.meshing.prime.PartSummaryResults.n_volume_zones.md#ansys.meshing.prime.PartSummaryResults.n_volume_zones)                      | Number of volume zones.        |
-<!-- vale on -->
+

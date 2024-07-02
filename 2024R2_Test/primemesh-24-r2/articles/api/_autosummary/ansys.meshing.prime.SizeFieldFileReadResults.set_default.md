@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SizeFieldFileReadResults.set_default
 
-<a id="ansys.meshing.prime.SizeFieldFileReadResults.set_default"></a>
+
 
 #### *static* SizeFieldFileReadResults.set_default(error_code=None, size_field_ids=None)
 

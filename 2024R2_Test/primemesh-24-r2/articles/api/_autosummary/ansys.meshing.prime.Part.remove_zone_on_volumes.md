@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Part.remove_zone_on_volumes
 
-<a id="ansys.meshing.prime.Part.remove_zone_on_volumes"></a>
+
 
 #### Part.remove_zone_on_volumes(volumes)
 

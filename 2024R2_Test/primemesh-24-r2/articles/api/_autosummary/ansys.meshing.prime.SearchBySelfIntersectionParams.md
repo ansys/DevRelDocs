@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # SearchBySelfIntersectionParams
 
-<a id="ansys.meshing.prime.SearchBySelfIntersectionParams"></a>
+
 
 ### *class* ansys.meshing.prime.SearchBySelfIntersectionParams(model=None, json_data=None, \*\*kwargs)
 
@@ -29,4 +27,4 @@ Parameters to search by face element intersection.
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`SearchBySelfIntersectionParams.print_default`](ansys.meshing.prime.SearchBySelfIntersectionParams.print_default.md#ansys.meshing.prime.SearchBySelfIntersectionParams.print_default)()   | Print the default values of `SearchBySelfIntersectionParams` object.   |
 | [`SearchBySelfIntersectionParams.set_default`](ansys.meshing.prime.SearchBySelfIntersectionParams.set_default.md#ansys.meshing.prime.SearchBySelfIntersectionParams.set_default)()         | Set the default values of the `SearchBySelfIntersectionParams` object. |
-<!-- vale on -->
+

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.BCPairType.EDGE
 
-<a id="ansys.meshing.prime.BCPairType.EDGE"></a>
+
 
 #### BCPairType.EDGE *= 2*
 

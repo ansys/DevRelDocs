@@ -1,6 +1,6 @@
 # ansys.meshing.prime.CopyZoneletsResults.print_default
 
-<a id="ansys.meshing.prime.CopyZoneletsResults.print_default"></a>
+
 
 #### *static* CopyZoneletsResults.print_default()
 

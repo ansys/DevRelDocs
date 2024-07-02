@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # AutoMesh
 
-<a id="ansys.meshing.prime.AutoMesh"></a>
+
 
 ### *class* ansys.meshing.prime.AutoMesh(model)
 
@@ -22,4 +20,4 @@ For example, with prisms.
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
 | [`AutoMesh.mesh`](ansys.meshing.prime.AutoMesh.mesh.md#ansys.meshing.prime.AutoMesh.mesh)(part_id, automesh_params)   | Performs volume meshing on the part with the given meshing parameters.   |
-<!-- vale on -->
+

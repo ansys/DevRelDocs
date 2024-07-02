@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ZoneType.EDGE
 
-<a id="ansys.meshing.prime.ZoneType.EDGE"></a>
+
 
 #### ZoneType.EDGE *= 1*
 

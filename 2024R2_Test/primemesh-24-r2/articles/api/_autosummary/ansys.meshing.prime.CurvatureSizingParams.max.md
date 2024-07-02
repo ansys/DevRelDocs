@@ -1,6 +1,6 @@
 # ansys.meshing.prime.CurvatureSizingParams.max
 
-<a id="ansys.meshing.prime.CurvatureSizingParams.max"></a>
+
 
 #### *property* CurvatureSizingParams.max *: [float](https://docs.python.org/3.11/library/functions.html#float)*
 

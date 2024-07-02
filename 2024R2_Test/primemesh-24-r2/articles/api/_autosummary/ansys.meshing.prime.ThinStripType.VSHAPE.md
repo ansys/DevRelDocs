@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ThinStripType.VSHAPE
 
-<a id="ansys.meshing.prime.ThinStripType.VSHAPE"></a>
+
 
 #### ThinStripType.VSHAPE *= 2*
 

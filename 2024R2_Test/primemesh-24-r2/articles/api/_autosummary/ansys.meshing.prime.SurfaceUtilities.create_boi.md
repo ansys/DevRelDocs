@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SurfaceUtilities.create_boi
 
-<a id="ansys.meshing.prime.SurfaceUtilities.create_boi"></a>
+
 
 #### SurfaceUtilities.create_boi(face_zonelet_ids, params)
 

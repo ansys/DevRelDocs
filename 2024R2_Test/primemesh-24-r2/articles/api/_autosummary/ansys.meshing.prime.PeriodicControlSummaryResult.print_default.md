@@ -1,6 +1,6 @@
 # ansys.meshing.prime.PeriodicControlSummaryResult.print_default
 
-<a id="ansys.meshing.prime.PeriodicControlSummaryResult.print_default"></a>
+
 
 #### *static* PeriodicControlSummaryResult.print_default()
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SurfaceUtilities.smooth_dihedral_face_nodes
 
-<a id="ansys.meshing.prime.SurfaceUtilities.smooth_dihedral_face_nodes"></a>
+
 
 #### SurfaceUtilities.smooth_dihedral_face_nodes(zonelets, params)
 

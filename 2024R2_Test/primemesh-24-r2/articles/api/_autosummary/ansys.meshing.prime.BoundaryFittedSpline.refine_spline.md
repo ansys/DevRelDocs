@@ -1,6 +1,6 @@
 # ansys.meshing.prime.BoundaryFittedSpline.refine_spline
 
-<a id="ansys.meshing.prime.BoundaryFittedSpline.refine_spline"></a>
+
 
 #### BoundaryFittedSpline.refine_spline(part_id, spline_ids, refine_spline_params)
 

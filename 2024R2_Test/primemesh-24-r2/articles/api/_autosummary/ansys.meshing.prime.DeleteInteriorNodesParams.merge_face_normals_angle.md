@@ -1,6 +1,6 @@
 # ansys.meshing.prime.DeleteInteriorNodesParams.merge_face_normals_angle
 
-<a id="ansys.meshing.prime.DeleteInteriorNodesParams.merge_face_normals_angle"></a>
+
 
 #### *property* DeleteInteriorNodesParams.merge_face_normals_angle *: [float](https://docs.python.org/3.11/library/functions.html#float)*
 

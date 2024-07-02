@@ -1,6 +1,6 @@
 # ansys.meshing.prime.FaceQualityMeasure.ELEMENTQUALITY
 
-<a id="ansys.meshing.prime.FaceQualityMeasure.ELEMENTQUALITY"></a>
+
 
 #### FaceQualityMeasure.ELEMENTQUALITY *= 50*
 

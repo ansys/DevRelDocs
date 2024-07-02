@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SearchByFoldsResults.print_default
 
-<a id="ansys.meshing.prime.SearchByFoldsResults.print_default"></a>
+
 
 #### *static* SearchByFoldsResults.print_default()
 

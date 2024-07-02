@@ -1,6 +1,6 @@
 # ansys.meshing.prime.CadReaderRoute.SPACECLAIM
 
-<a id="ansys.meshing.prime.CadReaderRoute.SPACECLAIM"></a>
+
 
 #### CadReaderRoute.SPACECLAIM *= 3*
 

@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # RepairEdgesParams
 
-<a id="ansys.meshing.prime.RepairEdgesParams"></a>
+
 
 ### *class* ansys.meshing.prime.RepairEdgesParams(model=None, constant_mesh_size=None, absolute_tolerance=None, json_data=None, \*\*kwargs)
 
@@ -46,4 +44,4 @@ Parameters for repair edges operation.
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
 | [`RepairEdgesParams.absolute_tolerance`](ansys.meshing.prime.RepairEdgesParams.absolute_tolerance.md#ansys.meshing.prime.RepairEdgesParams.absolute_tolerance)   | Absolute distance tolerance between nodes or edges for repair edges operation.   |
 | [`RepairEdgesParams.constant_mesh_size`](ansys.meshing.prime.RepairEdgesParams.constant_mesh_size.md#ansys.meshing.prime.RepairEdgesParams.constant_mesh_size)   | Constant size used for surface meshing.                                          |
-<!-- vale on -->
+

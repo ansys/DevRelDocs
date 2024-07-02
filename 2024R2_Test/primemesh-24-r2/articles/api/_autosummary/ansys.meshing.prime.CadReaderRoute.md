@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # CadReaderRoute
 
-<a id="ansys.meshing.prime.CadReaderRoute"></a>
+
 
 ### *class* ansys.meshing.prime.CadReaderRoute(value)
 
@@ -19,4 +17,4 @@ CAD Reader routes.
 | [`CadReaderRoute.WORKBENCH`](ansys.meshing.prime.CadReaderRoute.WORKBENCH.md#ansys.meshing.prime.CadReaderRoute.WORKBENCH)                           | Denotes WorkBench as CAD reader route.         |
 | [`CadReaderRoute.SPACECLAIM`](ansys.meshing.prime.CadReaderRoute.SPACECLAIM.md#ansys.meshing.prime.CadReaderRoute.SPACECLAIM)                        | Denotes SpaceClaim as CAD reader route.        |
 | [`CadReaderRoute.DISCOVERY`](ansys.meshing.prime.CadReaderRoute.DISCOVERY.md#ansys.meshing.prime.CadReaderRoute.DISCOVERY)                           | Denotes Discovery as CAD reader route.         |
-<!-- vale on -->
+

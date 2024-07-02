@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SearchByInvalidNormalsResults.print_default
 
-<a id="ansys.meshing.prime.SearchByInvalidNormalsResults.print_default"></a>
+
 
 #### *static* SearchByInvalidNormalsResults.print_default()
 

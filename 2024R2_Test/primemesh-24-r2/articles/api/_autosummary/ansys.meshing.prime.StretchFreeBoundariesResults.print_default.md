@@ -1,6 +1,6 @@
 # ansys.meshing.prime.StretchFreeBoundariesResults.print_default
 
-<a id="ansys.meshing.prime.StretchFreeBoundariesResults.print_default"></a>
+
 
 #### *static* StretchFreeBoundariesResults.print_default()
 

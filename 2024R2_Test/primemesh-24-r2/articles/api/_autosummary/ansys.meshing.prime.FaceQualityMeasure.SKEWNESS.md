@@ -1,6 +1,6 @@
 # ansys.meshing.prime.FaceQualityMeasure.SKEWNESS
 
-<a id="ansys.meshing.prime.FaceQualityMeasure.SKEWNESS"></a>
+
 
 #### FaceQualityMeasure.SKEWNESS *= 0*
 

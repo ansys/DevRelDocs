@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # HardSizingParams
 
-<a id="ansys.meshing.prime.HardSizingParams"></a>
+
 
 ### *class* ansys.meshing.prime.HardSizingParams(model=None, min=None, growth_rate=None, json_data=None, \*\*kwargs)
 
@@ -44,4 +42,4 @@ The hard sizing will override any other specified size.
 |------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
 | [`HardSizingParams.growth_rate`](ansys.meshing.prime.HardSizingParams.growth_rate.md#ansys.meshing.prime.HardSizingParams.growth_rate)   | Growth rate used for transitioning from one element size to neighbor element size.   |
 | [`HardSizingParams.min`](ansys.meshing.prime.HardSizingParams.min.md#ansys.meshing.prime.HardSizingParams.min)                           | Minimum size used for computing edge and face size using hard size control.          |
-<!-- vale on -->
+

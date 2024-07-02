@@ -1,6 +1,6 @@
 # ansys.meshing.prime.CreateZoneResults.print_default
 
-<a id="ansys.meshing.prime.CreateZoneResults.print_default"></a>
+
 
 #### *static* CreateZoneResults.print_default()
 

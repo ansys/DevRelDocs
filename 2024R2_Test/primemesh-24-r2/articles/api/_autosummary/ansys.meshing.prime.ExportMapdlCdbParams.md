@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # ExportMapdlCdbParams
 
-<a id="ansys.meshing.prime.ExportMapdlCdbParams"></a>
+
 
 ### *class* ansys.meshing.prime.ExportMapdlCdbParams(model=None, config_settings=None, pre_solution_settings=None, material_properties=None, boundary_conditions=None, analysis_settings=None, write_cells=None, enable_face_based_labels=None, write_by_zones=None, consider_general_connectors_as_spot_weld=None, simulation_type=None, analysis_settings_file_name=None, json_data=None, \*\*kwargs)
 
@@ -100,4 +98,4 @@ Parameters to control MAPDL CDB export settings.
 | [`ExportMapdlCdbParams.simulation_type`](ansys.meshing.prime.ExportMapdlCdbParams.simulation_type.md#ansys.meshing.prime.ExportMapdlCdbParams.simulation_type)                                                                            | Simulation type for the file.                                                             |
 | [`ExportMapdlCdbParams.write_by_zones`](ansys.meshing.prime.ExportMapdlCdbParams.write_by_zones.md#ansys.meshing.prime.ExportMapdlCdbParams.write_by_zones)                                                                               | Option to write zones in the file.                                                        |
 | [`ExportMapdlCdbParams.write_cells`](ansys.meshing.prime.ExportMapdlCdbParams.write_cells.md#ansys.meshing.prime.ExportMapdlCdbParams.write_cells)                                                                                        | Option to write out cells as part of the file.                                            |
-<!-- vale on -->
+

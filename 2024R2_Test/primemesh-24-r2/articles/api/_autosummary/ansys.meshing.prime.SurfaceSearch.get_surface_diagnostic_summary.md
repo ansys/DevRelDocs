@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SurfaceSearch.get_surface_diagnostic_summary
 
-<a id="ansys.meshing.prime.SurfaceSearch.get_surface_diagnostic_summary"></a>
+
 
 #### SurfaceSearch.get_surface_diagnostic_summary(params)
 

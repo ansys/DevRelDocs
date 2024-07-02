@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Surfer.mesh_topo_faces
 
-<a id="ansys.meshing.prime.Surfer.mesh_topo_faces"></a>
+
 
 #### Surfer.mesh_topo_faces(part_id, topo_faces, params)
 

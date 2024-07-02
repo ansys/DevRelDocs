@@ -1,6 +1,6 @@
 # ansys.meshing.prime.VolumeControlParams.cell_zonelet_type
 
-<a id="ansys.meshing.prime.VolumeControlParams.cell_zonelet_type"></a>
+
 
 #### *property* VolumeControlParams.cell_zonelet_type *: [CellZoneletType](ansys.meshing.prime.CellZoneletType.md#ansys.meshing.prime.CellZoneletType)*
 

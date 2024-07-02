@@ -1,6 +1,6 @@
 # ansys.meshing.prime.CellZoneletType.DEAD
 
-<a id="ansys.meshing.prime.CellZoneletType.DEAD"></a>
+
 
 #### CellZoneletType.DEAD *= 0*
 

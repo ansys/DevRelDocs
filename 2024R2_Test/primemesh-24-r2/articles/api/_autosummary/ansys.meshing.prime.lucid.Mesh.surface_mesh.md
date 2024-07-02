@@ -1,6 +1,6 @@
 # ansys.meshing.prime.lucid.Mesh.surface_mesh
 
-<a id="ansys.meshing.prime.lucid.Mesh.surface_mesh"></a>
+
 
 #### Mesh.surface_mesh(min_size=None, max_size=None, generate_quads=False, scope=<ansys.meshing.prime.lucid.scope.SurfaceScope object>)
 

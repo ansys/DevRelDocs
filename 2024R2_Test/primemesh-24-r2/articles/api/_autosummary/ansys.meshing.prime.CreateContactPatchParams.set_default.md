@@ -1,6 +1,6 @@
 # ansys.meshing.prime.CreateContactPatchParams.set_default
 
-<a id="ansys.meshing.prime.CreateContactPatchParams.set_default"></a>
+
 
 #### *static* CreateContactPatchParams.set_default(contact_patch_axis=None, offset_distance=None, grouping_tolerance=None, suggested_part_name=None, suggested_label_prefix=None)
 

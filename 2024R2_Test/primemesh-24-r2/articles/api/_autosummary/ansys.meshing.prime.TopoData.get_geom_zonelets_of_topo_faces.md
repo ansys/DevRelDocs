@@ -1,6 +1,6 @@
 # ansys.meshing.prime.TopoData.get_geom_zonelets_of_topo_faces
 
-<a id="ansys.meshing.prime.TopoData.get_geom_zonelets_of_topo_faces"></a>
+
 
 #### TopoData.get_geom_zonelets_of_topo_faces(topo_faces)
 

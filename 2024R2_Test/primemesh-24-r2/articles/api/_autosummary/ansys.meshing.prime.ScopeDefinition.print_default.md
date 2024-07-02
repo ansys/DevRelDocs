@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ScopeDefinition.print_default
 
-<a id="ansys.meshing.prime.ScopeDefinition.print_default"></a>
+
 
 #### *static* ScopeDefinition.print_default()
 

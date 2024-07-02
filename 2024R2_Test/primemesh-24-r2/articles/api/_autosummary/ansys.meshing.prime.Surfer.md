@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # Surfer
 
-<a id="ansys.meshing.prime.Surfer"></a>
+
 
 ### *class* ansys.meshing.prime.Surfer(model)
 
@@ -28,4 +26,4 @@ For example, constant size or volumetric size surface meshing.
 | [`Surfer.mesh_topo_faces`](ansys.meshing.prime.Surfer.mesh_topo_faces.md#ansys.meshing.prime.Surfer.mesh_topo_faces)(part_id, topo_faces, ...)                                          | Perform meshing on TopoFaces with given parameters.                         |
 | [`Surfer.remesh_face_zonelets`](ansys.meshing.prime.Surfer.remesh_face_zonelets.md#ansys.meshing.prime.Surfer.remesh_face_zonelets)(part_id, ...)                                       | Perform meshing on face zonelets with given parameters.                     |
 | [`Surfer.remesh_face_zonelets_locally`](ansys.meshing.prime.Surfer.remesh_face_zonelets_locally.md#ansys.meshing.prime.Surfer.remesh_face_zonelets_locally)(part_id, ...)               | Remesh face zonelets locally at the registered faces with given parameters. |
-<!-- vale on -->
+

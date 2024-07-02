@@ -1,6 +1,6 @@
 # ansys.meshing.prime.examples.download_elbow_fmd
 
-<a id="ansys.meshing.prime.examples.download_elbow_fmd"></a>
+
 
 ### ansys.meshing.prime.examples.download_elbow_fmd(destination=None, force=False)
 

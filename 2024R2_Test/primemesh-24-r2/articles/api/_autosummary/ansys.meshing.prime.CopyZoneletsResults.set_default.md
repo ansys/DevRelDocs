@@ -1,6 +1,6 @@
 # ansys.meshing.prime.CopyZoneletsResults.set_default
 
-<a id="ansys.meshing.prime.CopyZoneletsResults.set_default"></a>
+
 
 #### *static* CopyZoneletsResults.set_default(error_code=None, copied_zonelets=None, copied_face_zonelets=None)
 

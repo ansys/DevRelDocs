@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ThinStripType.ALL
 
-<a id="ansys.meshing.prime.ThinStripType.ALL"></a>
+
 
 #### ThinStripType.ALL *= 0*
 

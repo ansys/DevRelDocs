@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # PartZonelets
 
-<a id="ansys.meshing.prime.PartZonelets"></a>
+
 
 ### *class* ansys.meshing.prime.PartZonelets(model=None, part_id=None, face_zonelets=None, json_data=None, \*\*kwargs)
 
@@ -42,4 +40,4 @@ A structure containing some or all face zonelet ids available in a part.
 |------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------|
 | [`PartZonelets.face_zonelets`](ansys.meshing.prime.PartZonelets.face_zonelets.md#ansys.meshing.prime.PartZonelets.face_zonelets)   | List of face zonelet ids available in the part.   |
 | [`PartZonelets.part_id`](ansys.meshing.prime.PartZonelets.part_id.md#ansys.meshing.prime.PartZonelets.part_id)                     | Id of part.                                       |
-<!-- vale on -->
+

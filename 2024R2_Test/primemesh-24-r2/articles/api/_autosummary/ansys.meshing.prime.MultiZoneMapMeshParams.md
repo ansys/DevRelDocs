@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # MultiZoneMapMeshParams
 
-<a id="ansys.meshing.prime.MultiZoneMapMeshParams"></a>
+
 
 ### *class* ansys.meshing.prime.MultiZoneMapMeshParams(model=None, scope=None, json_data=None, \*\*kwargs)
 
@@ -40,4 +38,4 @@ Define controlling parameters for the map mesh using MultiZone.
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|
 | [`MultiZoneMapMeshParams.scope`](ansys.meshing.prime.MultiZoneMapMeshParams.scope.md#ansys.meshing.prime.MultiZoneMapMeshParams.scope)   | Scope used for MultiZone map mesh control.   |
-<!-- vale on -->
+

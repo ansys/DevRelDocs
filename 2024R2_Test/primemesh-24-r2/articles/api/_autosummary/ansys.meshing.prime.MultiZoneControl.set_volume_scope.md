@@ -1,6 +1,6 @@
 # ansys.meshing.prime.MultiZoneControl.set_volume_scope
 
-<a id="ansys.meshing.prime.MultiZoneControl.set_volume_scope"></a>
+
 
 #### MultiZoneControl.set_volume_scope(scope_info)
 

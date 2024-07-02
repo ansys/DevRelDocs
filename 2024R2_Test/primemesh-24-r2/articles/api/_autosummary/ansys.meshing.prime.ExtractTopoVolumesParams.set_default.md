@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ExtractTopoVolumesParams.set_default
 
-<a id="ansys.meshing.prime.ExtractTopoVolumesParams.set_default"></a>
+
 
 #### *static* ExtractTopoVolumesParams.set_default(zone_name=None)
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.DetectAndTreatHolesParams.surface_mesh_constant_size
 
-<a id="ansys.meshing.prime.DetectAndTreatHolesParams.surface_mesh_constant_size"></a>
+
 
 #### *property* DetectAndTreatHolesParams.surface_mesh_constant_size *: [float](https://docs.python.org/3.11/library/functions.html#float)*
 

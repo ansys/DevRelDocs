@@ -1,6 +1,6 @@
 # ansys.meshing.prime.AutoQuadMesher.optimize_quad_mesh
 
-<a id="ansys.meshing.prime.AutoQuadMesher.optimize_quad_mesh"></a>
+
 
 #### AutoQuadMesher.optimize_quad_mesh(part_id, topo_face_ids, params)
 

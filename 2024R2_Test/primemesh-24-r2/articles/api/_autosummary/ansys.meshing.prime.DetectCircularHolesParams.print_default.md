@@ -1,6 +1,6 @@
 # ansys.meshing.prime.DetectCircularHolesParams.print_default
 
-<a id="ansys.meshing.prime.DetectCircularHolesParams.print_default"></a>
+
 
 #### *static* DetectCircularHolesParams.print_default()
 

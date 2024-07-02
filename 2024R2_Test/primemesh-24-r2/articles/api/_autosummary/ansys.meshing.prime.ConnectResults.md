@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # ConnectResults
 
-<a id="ansys.meshing.prime.ConnectResults"></a>
+
 
 ### *class* ansys.meshing.prime.ConnectResults(model=None, error_code=None, warning_codes=None, json_data=None, \*\*kwargs)
 
@@ -42,4 +40,4 @@ Results associated with the connection operations.
 |----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
 | [`ConnectResults.error_code`](ansys.meshing.prime.ConnectResults.error_code.md#ansys.meshing.prime.ConnectResults.error_code)          | Error Code associated with failure of operation.   |
 | [`ConnectResults.warning_codes`](ansys.meshing.prime.ConnectResults.warning_codes.md#ansys.meshing.prime.ConnectResults.warning_codes) | Warning codes associated with the operation.       |
-<!-- vale on -->
+

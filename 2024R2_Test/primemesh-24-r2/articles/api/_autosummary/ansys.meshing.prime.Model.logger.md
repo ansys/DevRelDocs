@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Model.logger
 
-<a id="ansys.meshing.prime.Model.logger"></a>
+
 
 #### *property* Model.logger *: PrimeLogger*
 

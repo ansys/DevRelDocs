@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # VolumetricScaffolderParams
 
-<a id="ansys.meshing.prime.VolumetricScaffolderParams"></a>
+
 
 ### *class* ansys.meshing.prime.VolumetricScaffolderParams(model=None, absolute_dist_tol=None, only_check_exact_overlaps=None, json_data=None, \*\*kwargs)
 
@@ -42,4 +40,4 @@ Parameters to control delete shadowed topofaces operation.
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
 | [`VolumetricScaffolderParams.absolute_dist_tol`](ansys.meshing.prime.VolumetricScaffolderParams.absolute_dist_tol.md#ansys.meshing.prime.VolumetricScaffolderParams.absolute_dist_tol)                         | Specify distance tolerance between overlapping faces.   |
 | [`VolumetricScaffolderParams.only_check_exact_overlaps`](ansys.meshing.prime.VolumetricScaffolderParams.only_check_exact_overlaps.md#ansys.meshing.prime.VolumetricScaffolderParams.only_check_exact_overlaps) | Check only for fully overlapping topofaces when true.   |
-<!-- vale on -->
+

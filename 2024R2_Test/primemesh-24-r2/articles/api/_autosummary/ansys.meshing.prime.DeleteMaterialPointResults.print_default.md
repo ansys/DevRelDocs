@@ -1,6 +1,6 @@
 # ansys.meshing.prime.DeleteMaterialPointResults.print_default
 
-<a id="ansys.meshing.prime.DeleteMaterialPointResults.print_default"></a>
+
 
 #### *static* DeleteMaterialPointResults.print_default()
 

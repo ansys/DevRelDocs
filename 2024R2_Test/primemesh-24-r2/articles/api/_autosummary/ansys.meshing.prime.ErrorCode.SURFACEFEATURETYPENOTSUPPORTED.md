@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ErrorCode.SURFACEFEATURETYPENOTSUPPORTED
 
-<a id="ansys.meshing.prime.ErrorCode.SURFACEFEATURETYPENOTSUPPORTED"></a>
+
 
 #### ErrorCode.SURFACEFEATURETYPENOTSUPPORTED *= 2807*
 

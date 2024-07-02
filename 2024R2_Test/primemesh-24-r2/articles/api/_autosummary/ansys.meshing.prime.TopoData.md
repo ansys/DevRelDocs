@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # TopoData
 
-<a id="ansys.meshing.prime.TopoData"></a>
+
 
 ### *class* ansys.meshing.prime.TopoData(model, id, object_id, name)
 
@@ -42,4 +40,4 @@ Topodata has all information about connectivity of nodes, edges, elements and mo
 |-------------------------------------------------------------------------------------------|---------------------------|
 | [`TopoData.id`](ansys.meshing.prime.TopoData.id.md#ansys.meshing.prime.TopoData.id)       | Get the id of TopoData.   |
 | [`TopoData.name`](ansys.meshing.prime.TopoData.name.md#ansys.meshing.prime.TopoData.name) | Get the name of TopoData. |
-<!-- vale on -->
+

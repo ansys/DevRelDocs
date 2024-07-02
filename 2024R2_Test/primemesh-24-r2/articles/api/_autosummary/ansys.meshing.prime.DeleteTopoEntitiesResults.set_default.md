@@ -1,6 +1,6 @@
 # ansys.meshing.prime.DeleteTopoEntitiesResults.set_default
 
-<a id="ansys.meshing.prime.DeleteTopoEntitiesResults.set_default"></a>
+
 
 #### *static* DeleteTopoEntitiesResults.set_default(error_code=None)
 

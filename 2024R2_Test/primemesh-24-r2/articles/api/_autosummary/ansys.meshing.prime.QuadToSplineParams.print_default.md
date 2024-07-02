@@ -1,6 +1,6 @@
 # ansys.meshing.prime.QuadToSplineParams.print_default
 
-<a id="ansys.meshing.prime.QuadToSplineParams.print_default"></a>
+
 
 #### *static* QuadToSplineParams.print_default()
 

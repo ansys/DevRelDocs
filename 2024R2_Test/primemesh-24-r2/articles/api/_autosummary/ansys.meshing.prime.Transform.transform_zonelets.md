@@ -1,6 +1,6 @@
 # ansys.meshing.prime.Transform.transform_zonelets
 
-<a id="ansys.meshing.prime.Transform.transform_zonelets"></a>
+
 
 #### Transform.transform_zonelets(part_id, zonelets, params)
 

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SurfaceDiagnosticSummaryParams.set_default
 
-<a id="ansys.meshing.prime.SurfaceDiagnosticSummaryParams.set_default"></a>
+
 
 #### *static* SurfaceDiagnosticSummaryParams.set_default(scope=None, compute_self_intersections=None, compute_free_edges=None, compute_multi_edges=None, compute_duplicate_faces=None)
 

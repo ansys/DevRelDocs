@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # CellStatisticsParams
 
-<a id="ansys.meshing.prime.CellStatisticsParams"></a>
+
 
 ### *class* ansys.meshing.prime.CellStatisticsParams(model=None, get_volume=None, json_data=None, \*\*kwargs)
 
@@ -38,4 +36,4 @@ Parameters used to calculate cell statistics.
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
 | [`CellStatisticsParams.get_volume`](ansys.meshing.prime.CellStatisticsParams.get_volume.md#ansys.meshing.prime.CellStatisticsParams.get_volume)   | Provides option to compute and get cumulative cell volume.   |
-<!-- vale on -->
+

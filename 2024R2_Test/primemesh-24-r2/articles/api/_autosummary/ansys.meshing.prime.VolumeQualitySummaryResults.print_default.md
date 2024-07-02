@@ -1,6 +1,6 @@
 # ansys.meshing.prime.VolumeQualitySummaryResults.print_default
 
-<a id="ansys.meshing.prime.VolumeQualitySummaryResults.print_default"></a>
+
 
 #### *static* VolumeQualitySummaryResults.print_default()
 

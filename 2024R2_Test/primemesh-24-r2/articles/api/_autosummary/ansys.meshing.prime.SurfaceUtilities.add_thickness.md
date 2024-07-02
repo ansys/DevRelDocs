@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SurfaceUtilities.add_thickness
 
-<a id="ansys.meshing.prime.SurfaceUtilities.add_thickness"></a>
+
 
 #### SurfaceUtilities.add_thickness(zonelets, params)
 

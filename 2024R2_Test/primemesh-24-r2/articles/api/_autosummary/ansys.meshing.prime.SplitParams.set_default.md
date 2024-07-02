@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SplitParams.set_default
 
-<a id="ansys.meshing.prime.SplitParams.set_default"></a>
+
 
 #### *static* SplitParams.set_default(split_ratio=None)
 

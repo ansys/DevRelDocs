@@ -1,6 +1,6 @@
 # ansys.meshing.prime.DeleteInteriorNodesParams.set_default
 
-<a id="ansys.meshing.prime.DeleteInteriorNodesParams.set_default"></a>
+
 
 #### *static* DeleteInteriorNodesParams.set_default(merge_face_normals_angle=None, merge_edge_allow_self_close=None, edge_sharp_corner_angle=None)
 

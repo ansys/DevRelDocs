@@ -1,6 +1,6 @@
 # ansys.meshing.prime.lucid.VolumeScope.get_scope_definition
 
-<a id="ansys.meshing.prime.lucid.VolumeScope.get_scope_definition"></a>
+
 
 #### VolumeScope.get_scope_definition(model)
 

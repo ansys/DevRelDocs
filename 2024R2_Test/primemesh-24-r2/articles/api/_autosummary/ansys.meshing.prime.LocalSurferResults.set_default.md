@@ -1,6 +1,6 @@
 # ansys.meshing.prime.LocalSurferResults.set_default
 
-<a id="ansys.meshing.prime.LocalSurferResults.set_default"></a>
+
 
 #### *static* LocalSurferResults.set_default(error_code=None, warning_codes=None)
 

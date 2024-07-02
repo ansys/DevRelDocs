@@ -1,6 +1,6 @@
 # ansys.meshing.prime.VolumeQualityResultsPart.set_default
 
-<a id="ansys.meshing.prime.VolumeQualityResultsPart.set_default"></a>
+
 
 #### *static* VolumeQualityResultsPart.set_default(cell_quality_measure=None, measure_name=None, part_id=None, quality_limit=None, n_found=None, max_quality=None, min_quality=None)
 

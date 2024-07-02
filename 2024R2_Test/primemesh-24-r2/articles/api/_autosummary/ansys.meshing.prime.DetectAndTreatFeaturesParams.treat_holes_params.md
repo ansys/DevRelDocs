@@ -1,6 +1,6 @@
 # ansys.meshing.prime.DetectAndTreatFeaturesParams.treat_holes_params
 
-<a id="ansys.meshing.prime.DetectAndTreatFeaturesParams.treat_holes_params"></a>
+
 
 #### *property* DetectAndTreatFeaturesParams.treat_holes_params *: [DetectAndTreatHolesParams](ansys.meshing.prime.DetectAndTreatHolesParams.md#ansys.meshing.prime.DetectAndTreatHolesParams)*
 

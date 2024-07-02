@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SurfaceUtilities.copy_face_zonelets
 
-<a id="ansys.meshing.prime.SurfaceUtilities.copy_face_zonelets"></a>
+
 
 #### SurfaceUtilities.copy_face_zonelets(face_zonelets, target_part_id, params)
 

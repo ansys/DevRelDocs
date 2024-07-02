@@ -1,6 +1,6 @@
 # ansys.meshing.prime.PrismControl.get_surface_scope
 
-<a id="ansys.meshing.prime.PrismControl.get_surface_scope"></a>
+
 
 #### PrismControl.get_surface_scope()
 

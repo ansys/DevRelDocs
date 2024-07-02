@@ -1,6 +1,6 @@
 # ansys.meshing.prime.SurfaceUtilities.resolve_intersections
 
-<a id="ansys.meshing.prime.SurfaceUtilities.resolve_intersections"></a>
+
 
 #### SurfaceUtilities.resolve_intersections(face_zonelet_ids, params)
 

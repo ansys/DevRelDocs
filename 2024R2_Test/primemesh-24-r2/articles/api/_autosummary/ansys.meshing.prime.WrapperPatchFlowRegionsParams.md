@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # WrapperPatchFlowRegionsParams
 
-<a id="ansys.meshing.prime.WrapperPatchFlowRegionsParams"></a>
+
 
 ### *class* ansys.meshing.prime.WrapperPatchFlowRegionsParams(model=None, base_size=None, suggested_part_name=None, number_of_threads=None, dead_regions=None, json_data=None, \*\*kwargs)
 
@@ -58,4 +56,4 @@ WrapperPatchFlowRegionsParams to define parameters for patch flow regions operat
 | [`WrapperPatchFlowRegionsParams.dead_regions`](ansys.meshing.prime.WrapperPatchFlowRegionsParams.dead_regions.md#ansys.meshing.prime.WrapperPatchFlowRegionsParams.dead_regions)                      | List of dead regions.                              |
 | [`WrapperPatchFlowRegionsParams.number_of_threads`](ansys.meshing.prime.WrapperPatchFlowRegionsParams.number_of_threads.md#ansys.meshing.prime.WrapperPatchFlowRegionsParams.number_of_threads)       | Number of threads for multithreading.              |
 | [`WrapperPatchFlowRegionsParams.suggested_part_name`](ansys.meshing.prime.WrapperPatchFlowRegionsParams.suggested_part_name.md#ansys.meshing.prime.WrapperPatchFlowRegionsParams.suggested_part_name) | Suggested part name for created patching surfaces. |
-<!-- vale on -->
+

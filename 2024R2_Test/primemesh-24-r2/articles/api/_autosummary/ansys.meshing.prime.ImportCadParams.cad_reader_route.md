@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ImportCadParams.cad_reader_route
 
-<a id="ansys.meshing.prime.ImportCadParams.cad_reader_route"></a>
+
 
 #### *property* ImportCadParams.cad_reader_route *: [CadReaderRoute](ansys.meshing.prime.CadReaderRoute.md#ansys.meshing.prime.CadReaderRoute)*
 

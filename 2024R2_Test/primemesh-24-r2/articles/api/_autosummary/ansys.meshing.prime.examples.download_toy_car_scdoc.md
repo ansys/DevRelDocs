@@ -1,6 +1,6 @@
 # ansys.meshing.prime.examples.download_toy_car_scdoc
 
-<a id="ansys.meshing.prime.examples.download_toy_car_scdoc"></a>
+
 
 ### ansys.meshing.prime.examples.download_toy_car_scdoc(destination=None, force=False)
 

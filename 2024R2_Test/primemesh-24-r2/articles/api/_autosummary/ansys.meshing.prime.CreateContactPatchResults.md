@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # CreateContactPatchResults
 
-<a id="ansys.meshing.prime.CreateContactPatchResults"></a>
+
 
 ### *class* ansys.meshing.prime.CreateContactPatchResults(model=None, error_code=None, part_id=None, json_data=None, \*\*kwargs)
 
@@ -42,4 +40,4 @@ Result structure associated with created contact patch zonelets.
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
 | [`CreateContactPatchResults.error_code`](ansys.meshing.prime.CreateContactPatchResults.error_code.md#ansys.meshing.prime.CreateContactPatchResults.error_code)   | Error code associated with the contact patch creation operation.   |
 | [`CreateContactPatchResults.part_id`](ansys.meshing.prime.CreateContactPatchResults.part_id.md#ansys.meshing.prime.CreateContactPatchResults.part_id)            | Contact patch part id.                                             |
-<!-- vale on -->
+

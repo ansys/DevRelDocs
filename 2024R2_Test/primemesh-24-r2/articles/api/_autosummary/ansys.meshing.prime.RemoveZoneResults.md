@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # RemoveZoneResults
 
-<a id="ansys.meshing.prime.RemoveZoneResults"></a>
+
 
 ### *class* ansys.meshing.prime.RemoveZoneResults(model=None, error_code=None, warning_codes=None, json_data=None, \*\*kwargs)
 
@@ -42,4 +40,4 @@ Results associated with the remove zone operation.
 |-------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
 | [`RemoveZoneResults.error_code`](ansys.meshing.prime.RemoveZoneResults.error_code.md#ansys.meshing.prime.RemoveZoneResults.error_code)          | Error code associated with the failure of operation.     |
 | [`RemoveZoneResults.warning_codes`](ansys.meshing.prime.RemoveZoneResults.warning_codes.md#ansys.meshing.prime.RemoveZoneResults.warning_codes) | Warning codes associated with the remove zone operation. |
-<!-- vale on -->
+

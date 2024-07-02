@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # WrapperControl
 
-<a id="ansys.meshing.prime.WrapperControl"></a>
+
 
 ### *class* ansys.meshing.prime.WrapperControl(model, id, object_id, name)
 
@@ -44,4 +42,4 @@ Wrapper Control to describe all parameters and controls used for wrapping..
 |-------------------------------------------------------------------------------------------------------------|--------------------------------------|
 | [`WrapperControl.id`](ansys.meshing.prime.WrapperControl.id.md#ansys.meshing.prime.WrapperControl.id)       | Get the id of WrapperControl.        |
 | [`WrapperControl.name`](ansys.meshing.prime.WrapperControl.name.md#ansys.meshing.prime.WrapperControl.name) | Get the name of the wrapper control. |
-<!-- vale on -->
+

@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ScaffolderParams.set_default
 
-<a id="ansys.meshing.prime.ScaffolderParams.set_default"></a>
+
 
 #### *static* ScaffolderParams.set_default(absolute_dist_tol=None, size_field_type=None, intersection_control_mask=None, edge_merge_control=None, constant_mesh_size=None, remove_holes_critical_radius=None, remove_slivers_abs_dist_tol_ratio=None, triangles_coplanar_angle_cos=None)
 

@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # MergeBoundaryNodesResults
 
-<a id="ansys.meshing.prime.MergeBoundaryNodesResults"></a>
+
 
 ### *class* ansys.meshing.prime.MergeBoundaryNodesResults(model=None, error_code=None, json_data=None, \*\*kwargs)
 
@@ -38,4 +36,4 @@ Results associated with the merge nodes operation.
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
 | [`MergeBoundaryNodesResults.error_code`](ansys.meshing.prime.MergeBoundaryNodesResults.error_code.md#ansys.meshing.prime.MergeBoundaryNodesResults.error_code)   | Error Code associated with failure of merge nodes operation.   |
-<!-- vale on -->
+

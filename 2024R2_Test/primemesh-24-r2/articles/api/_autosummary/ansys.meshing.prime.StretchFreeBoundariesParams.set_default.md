@@ -1,6 +1,6 @@
 # ansys.meshing.prime.StretchFreeBoundariesParams.set_default
 
-<a id="ansys.meshing.prime.StretchFreeBoundariesParams.set_default"></a>
+
 
 #### *static* StretchFreeBoundariesParams.set_default()
 

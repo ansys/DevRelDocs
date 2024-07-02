@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ExportMapdlCdbParams.material_properties
 
-<a id="ansys.meshing.prime.ExportMapdlCdbParams.material_properties"></a>
+
 
 #### *property* ExportMapdlCdbParams.material_properties *: [str](https://docs.python.org/3.11/library/stdtypes.html#str)*
 

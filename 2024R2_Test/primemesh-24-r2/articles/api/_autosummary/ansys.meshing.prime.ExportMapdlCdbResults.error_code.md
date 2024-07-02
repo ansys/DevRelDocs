@@ -1,6 +1,6 @@
 # ansys.meshing.prime.ExportMapdlCdbResults.error_code
 
-<a id="ansys.meshing.prime.ExportMapdlCdbResults.error_code"></a>
+
 
 #### *property* ExportMapdlCdbResults.error_code *: [ErrorCode](ansys.meshing.prime.ErrorCode.md#ansys.meshing.prime.ErrorCode)*
 

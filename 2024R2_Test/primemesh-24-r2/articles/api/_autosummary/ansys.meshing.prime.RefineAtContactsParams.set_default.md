@@ -1,6 +1,6 @@
 # ansys.meshing.prime.RefineAtContactsParams.set_default
 
-<a id="ansys.meshing.prime.RefineAtContactsParams.set_default"></a>
+
 
 #### *static* RefineAtContactsParams.set_default(contact_tolerance=None, relative_tolerance=None, refine_max_size=None, project_on_geometry=None)
 

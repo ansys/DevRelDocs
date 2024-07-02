@@ -1,8 +1,6 @@
-<!-- vale off -->
-
 # BoundaryFittedSpline
 
-<a id="ansys.meshing.prime.BoundaryFittedSpline"></a>
+
 
 ### *class* ansys.meshing.prime.BoundaryFittedSpline(model)
 
@@ -22,4 +20,4 @@ BoundaryFittedSpline allows you to perform H and P refinement.
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
 | [`BoundaryFittedSpline.create_boundary_fitted_spline`](ansys.meshing.prime.BoundaryFittedSpline.create_boundary_fitted_spline.md#ansys.meshing.prime.BoundaryFittedSpline.create_boundary_fitted_spline)(...)   | Create boundary fitted spline for structured hex-mesh.   |
 | [`BoundaryFittedSpline.refine_spline`](ansys.meshing.prime.BoundaryFittedSpline.refine_spline.md#ansys.meshing.prime.BoundaryFittedSpline.refine_spline)(part_id, ...)                                          | Refine boundary fitted splines.                          |
-<!-- vale on -->
+
