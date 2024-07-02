@@ -1,5 +1,3 @@
-<a id="acousticresults"></a>
-
 # `AcousticResults`
 
 <a id="summary"></a>

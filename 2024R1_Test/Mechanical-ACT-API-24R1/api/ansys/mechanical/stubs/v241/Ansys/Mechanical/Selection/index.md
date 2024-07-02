@@ -1,5 +1,3 @@
-<a id="selection"></a>
-
 # `Selection`
 
 <a id="summary"></a>

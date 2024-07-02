@@ -1,5 +1,3 @@
-<a id="beamtoolresults"></a>
-
 # `BeamToolResults`
 
 <a id="summary"></a>

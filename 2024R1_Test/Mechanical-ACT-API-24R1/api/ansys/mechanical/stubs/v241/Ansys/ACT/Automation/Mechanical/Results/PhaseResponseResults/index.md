@@ -1,5 +1,3 @@
-<a id="phaseresponseresults"></a>
-
 # `PhaseResponseResults`
 
 <a id="summary"></a>

@@ -1,5 +1,3 @@
-<a id="abaqus"></a>
-
 # `ABAQUS`
 
 <a id="summary"></a>

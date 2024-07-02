@@ -1,5 +1,3 @@
-<a id="strainresults"></a>
-
 # `StrainResults`
 
 <a id="summary"></a>

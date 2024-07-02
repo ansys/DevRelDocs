@@ -1,5 +1,3 @@
-<a id="ui"></a>
-
 # `UI`
 
 <a id="summary"></a>

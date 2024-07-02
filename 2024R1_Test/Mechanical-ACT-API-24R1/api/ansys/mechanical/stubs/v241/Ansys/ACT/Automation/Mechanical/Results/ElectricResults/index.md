@@ -1,5 +1,3 @@
-<a id="electricresults"></a>
-
 # `ElectricResults`
 
 <a id="summary"></a>

@@ -1,5 +1,3 @@
-<a id="connections"></a>
-
 # `Connections`
 
 <a id="summary"></a>

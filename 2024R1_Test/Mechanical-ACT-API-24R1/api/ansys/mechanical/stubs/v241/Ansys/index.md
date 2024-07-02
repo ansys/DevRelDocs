@@ -1,5 +1,3 @@
-<a id="ansys"></a>
-
 # `Ansys`
 
 <a id="summary"></a>

@@ -1,5 +1,3 @@
-<a id="the-ansys-mechanical-stubs-library"></a>
-
 # The `ansys.mechanical.stubs` library
 
 <a id="summary"></a>

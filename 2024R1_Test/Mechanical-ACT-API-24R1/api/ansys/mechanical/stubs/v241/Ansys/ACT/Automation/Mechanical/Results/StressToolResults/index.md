@@ -1,5 +1,3 @@
-<a id="stresstoolresults"></a>
-
 # `StressToolResults`
 
 <a id="summary"></a>

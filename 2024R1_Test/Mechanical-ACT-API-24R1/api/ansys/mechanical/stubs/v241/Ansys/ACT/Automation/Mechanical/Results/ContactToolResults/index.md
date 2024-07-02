@@ -1,5 +1,3 @@
-<a id="contacttoolresults"></a>
-
 # `ContactToolResults`
 
 <a id="summary"></a>

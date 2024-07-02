@@ -1,5 +1,3 @@
-<a id="mechanical-2024-r1-api-reference"></a>
-
 # Mechanical 2024 R1 API Reference
 
 <a id="summary"></a>

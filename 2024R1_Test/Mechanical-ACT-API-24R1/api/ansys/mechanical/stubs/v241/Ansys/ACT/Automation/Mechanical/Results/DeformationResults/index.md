@@ -1,5 +1,3 @@
-<a id="deformationresults"></a>
-
 # `DeformationResults`
 
 <a id="summary"></a>
