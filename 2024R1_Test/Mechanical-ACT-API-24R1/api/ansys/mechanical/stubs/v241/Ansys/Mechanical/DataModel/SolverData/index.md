@@ -1,5 +1,3 @@
-<a id="solverdata"></a>
-
 # `SolverData`
 
 <a id="summary"></a>

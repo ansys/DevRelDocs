@@ -1,5 +1,3 @@
-<a id="tools"></a>
-
 # `Tools`
 
 <a id="summary"></a>

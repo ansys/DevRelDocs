@@ -1,5 +1,3 @@
-<a id="constants"></a>
-
 # `Constants`
 
 <a id="summary"></a>

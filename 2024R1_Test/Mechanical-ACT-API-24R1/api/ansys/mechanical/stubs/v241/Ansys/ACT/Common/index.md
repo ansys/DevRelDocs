@@ -1,5 +1,3 @@
-<a id="common"></a>
-
 # `Common`
 
 <a id="summary"></a>

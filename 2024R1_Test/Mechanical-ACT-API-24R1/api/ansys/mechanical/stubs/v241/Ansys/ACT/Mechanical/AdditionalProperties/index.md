@@ -1,5 +1,3 @@
-<a id="additionalproperties"></a>
-
 # `AdditionalProperties`
 
 <a id="summary"></a>

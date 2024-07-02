@@ -1,5 +1,3 @@
-<a id="tabulardata"></a>
-
 # `TabularData`
 
 <a id="summary"></a>
