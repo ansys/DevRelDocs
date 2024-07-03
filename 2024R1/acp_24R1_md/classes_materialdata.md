@@ -19,7 +19,7 @@ Copy a list of material data source, keeps track of all dependencies.
 
 #### copy_fabric(source, on_duplicate_name='keep_both', memo=None)
 
-Copy a fabric
+Copy a fabric.
 
 * **Parameters:**
   - source: Source object to copy.
@@ -33,7 +33,7 @@ Copy a fabric
 
 #### copy_material(source, on_duplicate_name='keep_both', memo=None)
 
-Copy a material
+Copy a material.
 
 * **Parameters:**
   - source: Source object to copy.
@@ -82,7 +82,7 @@ Create a new fabric.
   - material: Material of the Fabric.
   - thickness: Thickness of the Fabric.
   - area_price: Area Price of the Fabric.
-  - ignore_for_postprocessing: Flag if this material is post-processed.
+  - ignore_for_postprocessing: Flag if this material is postprocessed.
   - drop_off_material_handling: Type defining how drop-off material is used in drop-off areas of the fabric.
   - cut_off_material_handling: Type defining how cut-off material is used in cut-off areas of the fabric.
   - drop_off_material: Material to use for ‘Custom’ drop-off material handling.
@@ -301,7 +301,7 @@ Material is generated from an external source and cannot be changed.
 
 #### *property* ply_type
 
-Ply type. Allowed string values: regular, woven, orthotropic_homogeneous_core, isotropic_homogeneous_core, honeycomb_core, isotropic, adhesive, undefined.
+Ply type. Allowed string values: regular, woven, orthotropic_homogeneous_core, isotropic_homogeneous_core, honeycomb_core, isotropic, adhesive, and undefined.
 
 #### *property* property_names
 
@@ -317,7 +317,7 @@ Serialize to Python string.
 
 Python PropertySet class.
 
-This class wraps GIL-functionality and adds Python-UI utilities to all material PropertySets (Engineering Constants, Stress Limits, …).
+This class wraps GIL-functionality and adds Python-UI utilities to all material PropertySets (Engineering Constants, Stress Limits, etc.).
 
 * **Examples:**
   ```pycon
@@ -455,7 +455,7 @@ mode.
 Returns the properties of the classical laminate theory:
 
 * **Parameters:**
-  - query: result type.
+  - query: Result type.
 * **Options:**
   - laminate_properties: Young’s, flexural, and shear moduli of the laminate.
   - polar_properties: E1, E2,  and G12 depending on the laminate orientation.
@@ -469,7 +469,7 @@ Returns the properties of the classical laminate theory:
 Generates 2D-plots with the results of interest.
 
 * **Parameters:**
-  - query: query arguments.
+  - query: Query arguments.
 * **Options:**
   - layup: [‘pp’] Production plies.
   - polar_properties: [‘E1’,’E2’,’G12’] Polar plot of laminate stiffess.
@@ -509,7 +509,7 @@ Graph Plot object used to configure 2D plots.
 
 #### *property* ignore_for_postprocessing
 
-Flag if this material is NOT post-processed.
+Flag if this material is NOT postprocessed.
 
 #### is_constant()
 
@@ -710,7 +710,7 @@ Clear all fabrics.
 Returns the properties of the classical laminate theory.
 
 * **Parameters:**
-  - query: result type.
+  - query: Result type.
 * **Options:**
   - layup: Return the layup of the laminate.
   - laminate_properties: Young’s, flexural, and shear moduli of the laminate.
@@ -732,7 +732,7 @@ Generates 2D-plots with the results of interest.
 * **Options:**
   - layup: [‘mp’, ‘pp’, ‘ap’] Modeling Ply, Production Plies, and Analysis Plies.
   - polar_properties: [‘E1’,’E2’,’G12’] Polar plot of laminate stiffesses.
-  - text_plot: [‘materials’,’thicknesses’,’angles’] text plot shown in the layup plot.
+  - text_plot: [‘materials’,’thicknesses’,’angles’] Text plot shown in the layup plot.
 * **Example:**
   ```pycon
   >>> query={'polar_properties':['E1', 'G12'], layup:['pp'], text_plot:['materials']}
@@ -776,7 +776,7 @@ Serialize to Python string.
 
 #### *property* symmetry
 
-Symmetry of the Sub Laminate can be ‘No Symmetry’, ‘Even Symmetry’ or ‘Odd Symmetry’.
+Symmetry of the Sub Laminate can be ‘No Symmetry’, ‘Even Symmetry’, or ‘Odd Symmetry’.
 
 #### *property* thickness
 

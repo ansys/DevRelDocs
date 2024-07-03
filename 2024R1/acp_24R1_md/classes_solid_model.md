@@ -68,7 +68,7 @@ Create a new extrusion guide.
   - name: The name of the extrusion guide.
   - edge_set: An edge set where this guide applies.
   - id: The ID of the extrusion guide.
-  - cad_geometry: A cad geometry object.
+  - cad_geometry: A CAD geometry object.
   - direction: Extrusion direction.
   - radius: Distance up to which node translations due to the guide will be propagated through the mesh.
     - 0.0: Only the nodes extruded from edge_set will be shifted onto the guide.
@@ -108,7 +108,7 @@ Boolean whether to disable the drop-off elements on top surface.
 
 #### *property* drop_off_type
 
-Drop-off type. Allowed string values: [‘inside_ply’, ‘outside_ply’].
+Drop-off type. Valid string values: [‘inside_ply’, ‘outside_ply’].
 
 #### *property* element_sets
 
@@ -120,7 +120,7 @@ Whether this object is currently enabled or not. Solid Models are are enabled in
 
 #### *property* ex_type
 
-Extrusion type. Allowed string values: [‘monolithic’, ‘analysis_ply_wise’, ‘production_ply_wise’, ‘modeling_ply_wise’, ‘sandwich_wise’, ‘specify_thickness’, ‘material_wise’, ‘user_defined’].
+Extrusion type. Valid string values: [‘monolithic’, ‘analysis_ply_wise’, ‘production_ply_wise’, ‘modeling_ply_wise’, ‘sandwich_wise’, ‘specify_thickness’, ‘material_wise’, ‘user_defined’].
 
 #### *property* extrusion_guides
 
@@ -136,7 +136,7 @@ Maximum thickness of solid elements.
 
 #### *property* offset_type
 
-Offset type. Allowed string values: [‘shell_normal’, ‘surface_normal’].
+Offset type. Valid string values: [‘shell_normal’, ‘surface_normal’].
 
 #### *property* ply_group_pointers
 
@@ -179,7 +179,7 @@ Associated CADGeometry.
 
 #### *property* depth
 
-intensity for the propagation of mesh corrections, depth=1 leads to a linear decay from the guide to the radius, depth<1 leads to more local corrections.
+intensity for the propagation of mesh corrections, depth = 1 leads to a linear decay from the guide to the radius, depth < 1 leads to more local corrections.
 
 #### *property* direction
 
@@ -191,7 +191,7 @@ Associated EdgeSet.
 
 #### *property* enabled
 
-Whether this object is currently enabled or not. It’s derived from the parent solid model.
+Whether this object is currently enabled or not. It is derived from the parent solid model.
 
 #### *property* radius
 
@@ -221,11 +221,11 @@ List of affected shell elements
 
 #### *property* enabled
 
-Whether this object is currently enabled or not. It’s derived from the parent solid model.
+Whether this object is currently enabled or not. It is derived from the parent solid model.
 
 #### *property* orientation
 
-Orientation. Allowed string values: [‘top’, ‘bottom’, ‘undefined’].
+Orientation. Valid string values: [‘top’, ‘bottom’, ‘undefined’].
 
 ## [`CutOffGeometry`](#compolyx.CutOffGeometry)
 
@@ -243,11 +243,11 @@ Associated CADGeometry.
 
 #### *property* enabled
 
-Whether this object is currently enabled or not. It’s derived from the parent solid model.
+Whether this object is currently enabled or not. It is derived from the parent solid model.
 
 #### *property* orientation
 
-Orientation. Allowed string values: [‘up’, ‘down’].
+Orientation. Valid string values: [‘up’, ‘down’].
 
 #### *property* rel_merge_tolerance
 
@@ -266,7 +266,7 @@ List of solid elements which are linked to this element set.
 
 #### *property* locked
 
-Returns true if the object is locked (nor editable, neither deletable).
+Returns true if the object is locked (meaning is not editable nor deletable).
 
 #### serialize()
 
@@ -326,7 +326,7 @@ Create a new lay-up mapping object
 * **Returns:**
   The created Layup Mapping Object.
 * **Note:**
-  - Base solid elements are the solid elements of a Lay-up Mapping object of type reinforcing which are intersected with the
+  Base solid elements are the solid elements of a Lay-up Mapping object of type reinforcing which are intersected with the
     reinforcing surfaces.
 
 #### create_solid_element_set(name, id='', locked=False)
@@ -339,7 +339,7 @@ Whether this object is currently enabled or not. Solid Models are are enabled in
 
 #### *property* ext_id
 
-Id of corresponding Mechanical Model within WB arhcive (ComponentID).
+ID of corresponding Mechanical Model within WB arhcive (ComponentID).
 
 #### *property* external_file_path
 
@@ -356,7 +356,7 @@ Boolean whether Lay-up Mapping Objects of type reinforcing are present.
 #### import_initial_mesh()
 
 Import the solid mesh without updating the lay-up mapping.
-Nothing is done if the mesh was already loaded
+Nothing is done if the mesh was already loaded.
 
 #### *property* layup_mapping_objects
 
@@ -364,14 +364,14 @@ Objects which define the scoping and details of each mapping step.
 
 #### mapping_statistics()
 
-Returns the statistics of the layup mapping (number of elements, volumes, mass etc.).
+Returns the statistics of the layup mapping (number of elements, volumes, mass, etc.).
 
 #### refresh_external_source(enforce=False)
 
 Reloads the mesh from the external source.
 
 * **Parameters:**
-  - enforce: enforce the reloading of external data for locked object in the new acph5 serialization format. This option should be used with care!
+  - enforce: Enforce the reloading of external data for locked object in the new acph5 serialization format. This option should be used with care!
 
 #### serialize()
 
@@ -379,7 +379,7 @@ Returns the Python serialization string.
 
 #### *property* unit_system
 
-Unit system type of the imported mesh. Allowed string values are undefined, si, mks, umks, cgs, mpa, bft, bin.
+Unit system type of the imported mesh. Valid string values: undefined, si, mks, umks, cgs, mpa, bft, and bin.
 
 #### update_mapping_statistics()
 
@@ -406,11 +406,11 @@ Analysis Plies of the Mapping Object.
 
 #### *property* base_element_material_handling
 
-Whether the base-element material is removed or kept. Allowed string values: [‘retain’, ‘remove’].
+Whether the base-element material is removed or kept. Valid string values: [‘retain’, ‘remove’].
 
 #### *property* base_element_rosette_selection_method_type
 
-Selection method of the coordinate systems for the base elements. Allowed string values: [‘minimum_distance’, ‘minimum_distance_superposed’].
+Selection method of the coordinate systems for the base elements. Valid string values: [‘minimum_distance’, ‘minimum_distance_superposed’].
 
 #### *property* base_element_rosettes
 
@@ -430,7 +430,7 @@ Element Set(s) of the solid model.
 
 #### *property* element_technology
 
-Defines the element technology. Allowed string values: [‘layered_element’, ‘reinforcing’].
+Defines the element technology. Valid string values: [‘layered_element’, ‘reinforcing’].
 
 #### *property* enabled
 
@@ -446,19 +446,19 @@ Filler material if layered elements are used.
 
 #### *property* minimum_void_material_thickness
 
-Minimum thickness of the void layer!
+Minimum thickness of the void layer.
 
 #### *property* reinforcing_behavior
 
-Whether the reinforcing carries load and/or tension. Allowed string values: [‘tension_and_compression’, ‘tension_only’, ‘compression_only’].
+Whether the reinforcing carries load and/or tension. Valid string values: [‘tension_and_compression’, ‘tension_only’, ‘compression_only’].
 
 #### *property* reinforcing_stress_state
 
-Defines which FE elements are used. Allowed string values: [‘uniaxial_stress_state’, ‘plane_stress_state’, ‘plane_stress_state_with_transverse_shear_stiffness’, ‘plane_stress_state_with_transverse_shear_and_bending_stiffness’].
+Defines which FE elements are used. Valid string values: [‘uniaxial_stress_state’, ‘plane_stress_state’, ‘plane_stress_state_with_transverse_shear_stiffness’, ‘plane_stress_state_with_transverse_shear_and_bending_stiffness’].
 
 #### *property* rosette_selection_method_type
 
-Selection method of the coordinate systems for the filler/lost elements. Allowed string values: [‘minimum_distance’, ‘minimum_distance_superposed’].
+Selection method of the coordinate systems for the filler/lost elements. Valid string values: [‘minimum_distance’, ‘minimum_distance_superposed’].
 
 #### *property* rosettes
 

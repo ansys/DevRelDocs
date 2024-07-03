@@ -18,9 +18,11 @@ Serialize to Python string.
 
 ### *class* compolyx.MaxStressCriterion(s1=1, s2=1, s3=0, s12=1, s13=0, s23=0, wf_s1=1.0, wf_s2=1.0, wf_s3=1.0, wf_s12=1.0, wf_s13=1.0, wf_s23=1.0)
 
-Max stress failure criterion configuration:
+Max stress failure criterion configuration.
+
 Properties are s1, s2, s3, s12, s13, s23, wf_s1, wf_s2, wf_s3, wf_s12, wf_s13, wf_s23.
-e.g. MaxStressCriterion(s1=1, s2=1, s3=0, s12=1, s13=0, s23=0, wf_s1=1, wf_s2=1, wf_s3=1, wf_s12=1, wf_s13=1, wf_s23=1).
+
+For instance, MaxStressCriterion(s1=1, s2=1, s3=0, s12=1, s13=0, s23=0, wf_s1=1, wf_s2=1, wf_s3=1, wf_s12=1, wf_s13=1, wf_s23=1).
 
 #### *property* s1
 
@@ -272,7 +274,7 @@ Puck failure criterion configuration.
 
 #### *property* M
 
-Degradation factor (Default=0.5).
+Degradation factor (Default = 0.5).
 
 #### *property* cfps
 
@@ -288,23 +290,23 @@ Use global Puck constants instead of material specific values.
 
 #### *property* interface_weakening_factor
 
-Interface weakening factor (Default=0.8).
+Interface weakening factor (Default = 0.8).
 
 #### *property* p21_neg
 
-Inclination of the failure curve for negative normal matrix stresses (Default=0.275).
+Inclination of the failure curve for negative normal matrix stresses (Default = 0.275).
 
 #### *property* p21_pos
 
-Inclination of the failure curve for positive normal matrix stresses (Default=0.325).
+Inclination of the failure curve for positive normal matrix stresses (Default = 0.325).
 
 #### *property* p22_neg
 
-Inclination of the failure curve for negative normal matrix stresses (Default=0.225).
+Inclination of the failure curve for negative normal matrix stresses (Default = 0.225).
 
 #### *property* p22_pos
 
-Inclination of the failure curve for positive normal matrix stresses (Default=0.225).
+Inclination of the failure curve for positive normal matrix stresses (Default = 0.225).
 
 #### *property* pd
 
@@ -328,7 +330,7 @@ Specifies whether to compute matrix shear failure.
 
 #### *property* s
 
-Degradation factor (Default=0.5).
+Degradation factor (Default = 0.5).
 
 #### serialize()
 
@@ -362,11 +364,11 @@ Configuration of wrinkling failure criterion for sandwich structures.
 
 #### *property* q_homogeneous
 
-Wrinkling coefficient for sandwiches with homogeneous core. Default=0.5.
+Wrinkling coefficient for sandwiches with homogeneous core. Default = 0.5.
 
 #### *property* q_honeycomb
 
-Wrinkling coefficient for sandwiches with honeycomb core. Default=0.33.
+Wrinkling coefficient for sandwiches with honeycomb core. Default = 0.33.
 
 #### serialize()
 
@@ -452,11 +454,11 @@ Puck failure criterion configuration.
 
 #### *property* b21
 
-In-plane shear related friction parameter (between 0.1 and 0.6, default=0.2).
+In-plane shear related friction parameter (between 0.1 and 0.6, default = 0.2).
 
 #### *property* b32
 
-Out-of-plane shear related friction parameter (between 1.0 and 1.6, default=1.38).
+Out-of-plane shear related friction parameter (between 1.0 and 1.6, default = 1.38).
 
 #### *property* cfc
 
@@ -483,11 +485,11 @@ Dimension of the cuntze failure criterion (2 or 3).
 
 #### *property* fracture_plane_angle
 
-Angle between the out-of-plane axis and fracture plane in degree (> 45), default=53.
+Angle between the out-of-plane axis and fracture plane in degree (> 45), default = 53.
 
 #### *property* m
 
-Mode interaction coefficient (between [2.0,4.0], default=2.6).
+Mode interaction coefficient (between [2.0,4.0], default = 2.6).
 
 #### serialize()
 

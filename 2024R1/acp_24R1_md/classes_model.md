@@ -37,7 +37,7 @@ Load a nodal solution from file(s) and add it to the model.
   - load_factor: Optional load factor within substep of non-linear solution where the nodal solution should be taken from. Only valid for ‘nastran:f06’ format. (False,0) if not given in the F06 file.
   - set: Result set for ANSYS RST files, None is last result set.
   - read_stresses_strains: Reads strain and stress results from the RST file (necessary to post-process non-linear solutions).
-  - ‘use_felyx_to_compute_pp_results’: Use ACP to compute strain and stress data.
+  - use_felyx_to_compute_pp_results: Use ACP to compute strain and stress data.
   - use_solid_results: Maps solid element solution onto ‘Layered Solid Reference Surface’.
   - recompute_iss_of_solids: For solids the interlaminar shear stresses are recalculated considering the laminate stacking.
   - renumbering_mapping_paths: List of paths of the assembly renumbering files used to map the results of composite assemblies.
@@ -67,7 +67,7 @@ angle = sign(angle) \* 90° otherwise.
 with const = reference_radius \* sin(nominal_angle).
 
 Each layer is a dict with the following properties:
-: * fabric: Fabric of the layer (Stackups and Sublaminates are not supported).
+  * fabric: Fabric of the layer (Stackups and Sublaminates are not supported).
   * angle: Nominal angle at Reference Radius with respect to the axis of symmetry (in degree).
   * selection_rule_limits: A dictionary with the entries “upper” and “lower”
     that define the extent of the plies in axial direction.
@@ -108,12 +108,10 @@ The functions generates the following objects:
       - add_mirrored_ply: If True an addtional layer with the same properties but
         a negative angle is generated. This implies that the resulting thickness is
         twice the original thickness of the layer.
-  - number_of_digits_angle, optional, default: 3: Lookup tables for the angles are
-: shared between different layers with similar angles.
+  - number_of_digits_angle, optional: Lookup tables for the angles are shared between different layers with similar angles. Default is 3.
       Angles which are equal until number_of_digits_angle after the
       decimal point share the same lookup table.
-  - max_angle_with_thickness_correction: The thickness for layers where abs(angle) >
-: max_angle_with_thickness_correction is not
+  - max_angle_with_thickness_correction: The thickness for layers where abs(angle) > max_angle_with_thickness_correction is not
       corrected. These layers always have the nominal
       layer thickness.
 * **Usage:**
@@ -281,7 +279,7 @@ Create Combined Failure Criteria.
   - set: Set of Failure Criteria to be assigned.
   - id: Id to be assigned (optional).
 * **Returns:**
-  - Created Combined Failure Criteria.
+  Created Combined Failure Criteria.
 
 #### create_cutoff_selection_rule(name, id=None, cutoff_rule_type='geometry', offset=0.0, angle=0.0, origin=(0.0, 0.0, 0.0), direction=(1.0, 0.0, 0.0), distance_type='along_direction', ply_cutoff_type='production_ply_cutoff', ply_tapering=False, cutoff_geometry=None, edge_set=None, offset_method='laminate_stack', offset_type='out_of_plane')
 
@@ -326,11 +324,11 @@ Create new Edge Set.
 
 * **Parameters:**
   - name: Name of the Edge Set.
-  - edge_set_type: ‘By Nodes’, ‘By Reference’, ‘Imported’ (only for imported Edge Sets).
+  - edge_set_type: ‘By Nodes’, ‘By Reference’, or ‘Imported’ (only for imported Edge Sets).
   - origin: Origin.
   - limit_angle:The Edge Set is cropped if the angle between two element edges exceeds this limit. Use -1 to disable it. 
-  - element_set: element set.
-  - node_labels: list of nodes defining the edge set (only if edge_set_type=’By Nodes’).
+  - element_set: Element set.
+  - node_labels: List of nodes defining the edge set (only if edge_set_type = ``By Nodes``).
 * **Returns:**
   The created Edge Set.
 
@@ -345,7 +343,7 @@ Create new element set.
   - x: X-range to select.
   - y: Y-range to select.
   - z: Z-range to select.
-  - op: Select operation. Can be all, new (default), add, remove, intersect, inverse or none.
+  - op: Select operation. Valid options: all, new (default), add, remove, intersect, inverse, or none.
   - middle_offset: Boolean to enforce that the laminate mid-plane is moved onto the reference surface.
 * **Returns:**
   The created Element Set.
@@ -358,7 +356,7 @@ Create Envelope Solution.
 
 * **Parameters:**
   - name: Name for the Envelope Solution.
-  - solution_sets: list of Solution Sets that are combined.
+  - solution_sets: List of Solution Sets that are combined.
 * **Returns:**
   The new envelope solution object.
 
@@ -382,16 +380,16 @@ Create new Geometrical Selection Rule.
 
 * **Parameters:**
   - name: Name of the Rule.
-  - geometrical_rule_type: Define whether the rule extent is defined by a geometry of element sets. The value can be ‘geometry’ or ‘element_sets’. Default is ‘geometry.
+  - geometrical_rule_type: Define whether the rule extent is defined by a geometry of element sets. The value can be ``geometry`` (default) or ``element_sets``.
   - use_defaults: Whether to use the offset value of the CAD geometry.
   - in_plane_capture_tolerance: In-plane extend (extend) if CAD geometry is a surface.
   - neg_capture_tolerance: Offset in the negative direction if CAD geometry is a surface.
   - pos_capture_tolerance: Offset in the positive direction if CAD geometry is a surface.
   - include_rule_type: Whether the selection is inside or outside the CAD geometry.
-  - geometry: CAD geometry used to determine the selection (only relevant for geometrical_rule_type=``geometry``)
+  - geometry: CAD geometry used to determine the selection (only relevant for geometrical_rule_type = ``geometry``)
   - use_projection_normal: Boolean wheter to use the projection normal or not.
   - projection_normal: Normal direction used to map elements on outlines / curves.
-  - element_sets: Preselection of elements in the form of an element set where the rule is applied on (only relevant for geometrical_rule_type=``element_sets``).
+  - element_sets: Preselection of elements in the form of an element set where the rule is applied on (only relevant for geometrical_rule_type = ``element_sets``).
 * **Returns:**
   The created rule.
 
@@ -449,7 +447,7 @@ Create a new 3D Look-Up Table object.
   - id: ID.
   - tabular_data: Data points and values of the look-up table.
   - algorithm_type: Specify which algorithm type is used for the interpolation.
-  - use_default_search_radius: Force the program to use the default search radius. Used for the algorithm weighted_nearest_neighbor”.
+  - use_default_search_radius: Force the program to use the default search radius. Used for the algorithm ``weighted_nearest_neighbor``.
   - search_radius: Set a custom search radius. Used if use_default_search_radius is false. Used for the algorithm weighted_nearest_neighbor.
   - dimensions: List of the dimensions of the columns (e.g. length for coordinates).
 * **Returns:**
@@ -509,7 +507,7 @@ Create a published parameter.
   - source_object: Name of the object the parameter is linked to.
   - source_property: Property of the linked object the parameter controls.
   - user_script: Script to be executed for determining the parameter value. Only used when category==”expression_output”.
-  - category: Controls the behavior of the parameter. Can be one of input, unbound_input, output, expression_output.
+  - category: Controls the behavior of the parameter. Can be one of input, unbound_input, output, or expression_output.
   - acp_type: Type of the parameter, as used within ACP.
   - description: String description of the parameter.
   - lower_limit: The lower limit for numeric values.
@@ -517,7 +515,7 @@ Create a published parameter.
   - cyclic: Whether a float value is cyclic or not.
   - float_list: A list of possible values for a float.
   - string_list: A list of possible values. List of objects if the property type is object, else list of strings.
-  - unbound_value: The value of the parameter, if category==”unbound_input”. In this case, the parameter is not linked to an existing object.
+  - unbound_value: The value of the parameter, if category = ”unbound_input”. In this case, the parameter is not linked to an existing object.
 * **Returns:**
   The created PublishedParameter.
 
@@ -583,15 +581,15 @@ Creates a script object, which allows executing custom Python code.
   - active: If False, the script will not be executed.
   - uptodate: Whether the script currently needs to be executed.
   - update_mode: Defines which changes cause the script to become
-      out-of-date. Can be either ‘manual’ (run only when manually
-      triggered), ‘on_triggers’ (run when a parameter or the script
-      itself changes) or ‘always’ (run with every update).
+      out-of-date. Can be either ``manual`` (run only when manually
+      triggered), ``on_triggers`` (run when a parameter or the script
+      itself changes), or ``always`` (run with every update).
 * **Returns:**
   The created Script object.
 
 #### create_section_cut(name, id=None, origin=(0.0, 0.0, 0.0), normal=(0.0, 0.0, 1.0), in_plane_reference_direction1=(1.0, 0.0, 0.0), scale_factor=1.0, core_scale_factor=1.0, intersection_type='normal_to_surface', section_cut_type='modeling_ply_wise', extrusion_type='wire_frame', use_default_tolerance=True, tolerance=0.0, use_default_lut_settings=True, search_radius=0.0, number_of_interpolation_points=1, scope_entire_model=True, scope_element_sets=(), locked=False)
 
-Creates a new section cut
+Creates a new section cut.
 
 * **Parameters:**
   - name: The name of the section cut.
@@ -611,9 +609,8 @@ Creates a new section cut
   - number_of_interpolation_points: Number of points of the interpolation algorithm.
   - scope_entire_model: Whether to scope the section cut to the entire model, or only selected element sets.
   - scope_element_sets: Element sets to which the section cut is scoped, if scope_entire_model=False.
-
-  * **Return:**
-    The new section cut object.
+* **Return:**
+  The new section cut object.
 
 #### create_sensor(name, id=None, sensor_type='SENSOR_BY_AREA', entities=None, locked=False)
 
@@ -637,16 +634,16 @@ Create a new Solid Model.
   - element_sets: A list of Element Sets.
   - ex_type:
     Extrusion method. Possible values are:
-    - monolithic (1 element through the thickness),
-    - analysis_ply_wise (1 element per layer),
-    - modeling_ply_wise (1 element for each modeling ply),
-    - production_ply_wise (1 element for each production ply)
-    - specify_thickness (1 element per layer, layers thicker than max_thickness are split to several solids of at most max_thickness)
+    - monolithic (1 element through the thickness).
+    - analysis_ply_wise (1 element per layer).
+    - modeling_ply_wise (1 element for each modeling ply).
+    - production_ply_wise (1 element for each production ply).
+    - specify_thickness (1 element per layer, layers thicker than max_thickness are split to several solids of at most max_thickness).
     - user_defined (groups plies by global ply numbers to groups).
     - material_wise (groups subsequent plies with equal material).
   - drop_off_type: Inside ply (one element inside the ply boundary), outside ply (one element outside the ply boundary).
   - offset_type: Shell normal (offset to the shell normal), surface normal (update normal direction by normal of layered solids), distortion controlled (surface normal with local corrections).
-  - max_thickness: Maximum thickness for one solid, splits the layer into more solids, if a single layer is thicker than this value (only for ex_type=\`specify thickness\`).
+  - max_thickness: Maximum thickness for one solid, splits the layer into more solids, if a single layer is thicker than this value (only for ex_type = ``specify thickness``).
   - ply_group_pointers: Step used to make user-defined ply groups.
   - element_set: (deprecated, use element_sets instead) A single element set.
   - use_default_element_index: Consecutive element numbering if set to true.
@@ -768,7 +765,7 @@ Export layup to Composite CAE HDF5 file.
    - path: Save path of the h5 file.
    - remove_midside_nodes: Whether midside nodes should be exported or not.
    - layup_representation_3d: Whether to compute the 3D lay-up representation of the model. See note.
-   - offset_type: Specifies the ply surface to export. Can be bottom_offset, middle_offset or top_offset.
+   - offset_type: Specifies the ply surface to export. Valid options: bottom_offset, middle_offset, or top_offset.
    - element_sets: A list of Element Sets and/or Oriented Selection Sets. Only plies defined over the selected elements will be exported. If empty list or None, all elements will be considered.
    - modeling_plies: A list of Modeling Plies and/or Modeling Groups. If empty list or None, all modeling plies will be exported.
 
@@ -787,19 +784,19 @@ Function is mainly used to exchange composite definitions with ANSYS Workbench.
 
 #### export_ply_geometries(filename, plies=[], boundary=True, surface=True, offset_type='middle_offset', direction_arrows=False, first_direction=True, second_direction=False, arrow_length=1.0, arrow_type='no_arrow')
 
-Exports the surface, boundary and/or fiber directions of modeling, production and analysis ply to igs or step file.
+Exports the surface, boundary, and/or fiber directions of modeling, production and analysis ply to .igs or .step file.
 
 * **Parameters:**
-  - filename: File path (allowed extensions are iges, igs, step, stp and stl).
+  - filename: File path (allowed extensions are .iges, .igs, .step, .stp and .stl).
   - plies: List of plies (allowed are modeling, production and analysis plies).
   - boundary: Boolean whether to export the boundary. Default is True.
   - surface: Boolean whether to export the ply surface. Default is True.
-  - offset_type: Offset type (can be ‘no_offset’, ‘middle_offset’, ‘top_offset’ or ‘bottom_offset’). Default is ‘middle_offset’
+  - offset_type: Offset type. Valid options are ``no_offset``, ``middle_offset`` (default), ``top_offset``, and ``bottom_offset``.
   - direction_arrows: Boolean whether to export the direction arrows. Default is False.
   - first_direction: Boolean whether to export the first (main) material direction. Default is True.
   - second_direction: Boolean whether to export the second material direction. Default is False.
   - arrow_length: Length of the arrows. Default is 1.
-  - arrow_type: Defines the arrow type (can be ‘standard_arrow’, ‘no_arrow’, ‘half_arrow’). Default is ‘no_arrow’.
+  - arrow_type: Defines the arrow type. Valid options: ``standard_arrow``, ``no_arrow`` (default), and ``half_arrow``.
 
 Note: Directions and boundaries are not supported by the STL format.
 
@@ -826,7 +823,7 @@ Find materials with the given properties or property ranges.
 * **Returns:**
   A list with materials which match the given properties. If nothing matches an empty list is returned.
 
-Examples:
+* **Examples:**
 
 ```pycon
 >>> materials = model.find_materials(E1=100000.0, nu12=0.3)
@@ -836,7 +833,7 @@ Examples:
 
 #### *property* format
 
-File format string. Choose one of ‘ansys:h5’, ‘ansys:cdb’, ‘ansys:dat’ or ‘layup’.
+File format string. Choose one of ‘ansys:h5’, ‘ansys:cdb’, ‘ansys:dat’, or ‘layup’.
 
 #### *property* geometry
 
@@ -847,15 +844,17 @@ Geometry node.
 Returns the element label of the closest element with respect to the given point.
 
 * **Parameters:**
-  -point: Tuple of the global coordinates.
+  - point: Tuple of the global coordinates.
 
 #### get_layup(path, format=None, objects=None, mode='update_entities')
 
 Load layup from excel or csv file.
 
 * **Parameters:**
-  - mode: can be: update_properties_only: Definitions are updated with properties given update_entities: Definitions are update, additional plies are generated and deleted
-      recreate: Existing layup is deleted generated from scratch.
+  - mode: Valid options:
+    - update_properties_only: Definitions are updated with properties given. 
+    - update_entities: Definitions are updated. Additional plies are generated and deleted.
+    - recreate: Existing layup is deleted and then generated from scratch.
 
 #### get_layup_from_csv_file(path, objects=None, mode='update_entities', modeling_group=None)
 
@@ -864,9 +863,10 @@ Function that reads the layup data from a csv file and adds the data to the grap
 * **Parameters:**
   - objects: List of objects to be synced.
   - path: The path to the file.
-  - mode: can be: update_properties_only: Definitions are updated with properties given.
-  - update_entities: Definitions are update, additional plies are generated and deleted.
-  - recreate: Existing layup is deleted generated from scratch.
+  - mode: Valid options:
+    - update_properties_only: Definitions are updated with properties given.
+    - update_entities: Definitions are updated. Additional plies are generated and deleted.
+    - recreate: Existing layup is deleted and then generated from scratch.
   - modeling_group: Key of the mpg_collection dict = the ID of the mpg. Only plies of this modeling_group will be imported from the file if none is specified all mpgs are read.
 
 #### get_layup_from_excel_file(path, objects=None, mode='update_entities')
@@ -876,9 +876,10 @@ Load layup from Excel File.
 * **Parameters:**
   - path: Path to file to load.
   - objects: Objects to be loaded and overwritten.
-  - mode: can be: update_properties_only: Definitions are updated with properties given.
-  - update_entities: Definitions are update, additional plies are generated and deleted.
-  - recreate: Existing layup is deleted generated from scratch.
+  - mode: Valid options: 
+    - update_properties_only: Definitions are updated with properties given.
+    - update_entities: Definitions are updated. Additional plies are generated and deleted.
+    - recreate: Existing layup is deleted and then generated from scratch.
 
 #### import_composite_cae_h5(path, mode='append', projection='shell', tol_thickness=None, tol_in_plane=None, tol_angle=None, small_hole_threshold=None, tol_min_angle=None, recompute_ref_directions=False, element_sets=None, offset='bottom_offset', coord_transform_inputs=None)
 
@@ -901,7 +902,7 @@ Import a composite layup definition from a HDF5 file.
   - element_sets: A list of Element Sets.
   - offset: Offset for imported plies. Defines if imported mesh is interpreted as bottom, middle or top ply surface. Valid modes are ‘bottom_offset’, ‘middle_offset’, ‘top_offset’.
   - coord_transform_inputs: Coordinate transform for the imported data. Dict with the following properties:
-    - “translation_x”, “translation_y”, “translation_z”,
+    - “translation_x”, “translation_y”, “translation_z”.
     - “rotation_angle_deg_x”, “rotation_angle_deg_y”, “rotation_angle_deg_z”.
 
     The data transformed in the following order: Rotation X, Rotation Y, Rotation Z, Translation.
@@ -928,14 +929,14 @@ The mapping is based on the element labels and therefore it is a requirement tha
 the element labels in the legacy and ACP model match. The import is only performed if the file and ACP Model units are consistent.
 
 * **Parameters:**
-  - path: file path. Supported file extensions are CDB, DAT and INP.
-  - format: file format. Supported are ‘ansys:cdb’ and ‘ansys:dat’.
+  - path: File path. Supported file extensions are .cdb, .dat, and .inp.
+  - format: File format. Supported are ‘ansys:cdb’ and ‘ansys:dat’.
   - materials_mask_prefix: Defines the prefix that is added to the Matierla ID while importing materials via ExternalModel.
   - materials_mask_suffix: Defines the suffix that is added to the Matierla ID while importing materials via ExternalModel.
 * **Materials mapping:**
-  Only relevant when the import happens within WB.
-  The materials mask pre- and suffix parameters allow to automatically map WB material and legacy material ids.
-  For instance the pre- and suffix MAT and `` (Setup, File1)`` allows to map MAT1 (Setup, File1) with legacy material 1.
+  Only relevant when the import happens within Workbench.
+  The materials mask prefix and suffix parameters eable automatic mapping of Workbench and legacy material IDs.
+  For instance the prefix and suffix, MAT1 and ``(Setup, File1)`` enable mapping MAT1 (Setup, File1) with legacy material 1.
   The mapping is case independent.
   Pass empty mapping masks when no mapping is needed.
 * **Example:**
@@ -945,7 +946,7 @@ the element labels in the legacy and ACP model match. The import is only perform
 
 #### *property* layup_plots
 
-Plots
+Plots.
 
 #### *property* lookup_tables
 
@@ -977,9 +978,9 @@ Query arbitrary data from the mesh of the model.
     - area, volume, mass, price.
     - cog (centre of gravity).
     - offset (offset in the thickness direction).
-  - component: Defines the component. Needed for name=’angles’ or ‘thickness’.
-    - angles: design_angle, shear, draped_fiber_angle, draped_transverse_angle. design_angle is the default.
-    - thickness: thickness, relative_thickness_correction. thickness is the default.
+  - component: Defines the component. Needed for name = ``angles`` or ``thickness``.
+    - angles: design_angle (default), shear, draped_fiber_angle, ordraped_transverse_angle.
+    - thickness: thickness (default) or relative_thickness_correction.
   - position: Position where data is queried:
     - nodal.
     - centroid.
@@ -989,9 +990,8 @@ Query arbitrary data from the mesh of the model.
     or can be given as ObjectSelection object such as
     - model.selection.
     - scene.active_set.
-  - entity: Specialized queries require the specification of an additional associated entity,
-    e.g. an oriented element set is needed to compute orientations.
-    Entity can be given as NamedGraphObjects or vertex descriptor.
+  - entity: Specialized queries require the specification of an additional associated entity. For example, an oriented element set is needed to compute orientations.
+    An entity can be given as NamedGraphObjects or vertex descriptor.
   - entities: If a list of entities is given, the query will also compute and return a list of results, with one array for each entity.
   - simulate: Whether the query is only simulated to test if it will return data.
     If this flag is set the mesh_query(…) function will only return 0 or 1.
@@ -1018,14 +1018,14 @@ Path to the reference surface input file. Read only.
 
 #### plot_dependencies(path=None, parent=None, levels=3)
 
-Generates a graph with all dependencies. The output is a dot, png and pdf file.
+Generates a graph with all dependencies. The output is a .dot file.
 
 * **Parameters:**
-  - path: file path without file extension.
-  - parent: Parent object
+  - path: File path without file extension.
+  - parent: Parent object.
   - levels: Depth levels to look for children.
 * **Output:**
-  A dot file which can be opend with Graphviz.
+  A .dot file which can be opend with Graphviz.
 * **Usage:**
   ```pycon
   >>> model.plot_dependencies(r'C:\\tmp\hull_dependencies', model.element_sets['HULL'], 3)
@@ -1061,11 +1061,11 @@ Section computation relative thickness tolerance.
 
 #### reload_mesh(path=None, format=None)
 
-Reloads the mesh (nodes, elements and named selections).
+Reloads the mesh (nodes, elements, and named selections).
 Ignored imported entities are the materials and rosettes.
 
-Parameters:
-: - path: New mesh path. Default is the current model path.
+* **Parameters:**
+  - path: New mesh path. Default is the current model path.
   - format: New format. Default is the current format.
 
 #### reorder_modeling_groups(source=[], target=None, option='after')
@@ -1073,9 +1073,9 @@ Parameters:
 Reorders the modeling groups by placing source before or after the target.
 
 * **Parameters:**
-  - source: list of modeling groups to insert at the new position.
-  - target: a modeling group which defines the position to insert the source.
-  - option: whether to insert the source before or after the target.
+  - source: List of modeling groups to insert at the new position.
+  - target: A modeling group which defines the position to insert the source.
+  - option: Whether to insert the source before or after the target.
 * **Usage:**
   ```pycon
   >>> model.reorder_modeling_groups(source=[modelmodeling_groups['DECK']], target=modelmodeling_groups['HULL'], option='before')
@@ -1101,15 +1101,15 @@ Save ACP model to .acph5 file.
 
 Save actual analysis model to disc.
 
- * **parameters:**
-   - path Save path of the cdb file.
+ * **Parameters:**
+   - path: Save path of the cdb file.
 
 #### save_apdl_commands(path)
 
 Save APDL commands for composite definitions of actual model.
 
- * **parameters:**
-   - path Save path of the cdb file.
+ * **Parameters:**
+   - path: Save path of the cdb file.
 
 #### save_h5(path, cache_data=False)
 
@@ -1121,7 +1121,7 @@ Function that saves the layup data to a csv file.
 
 * **Parameters:**
   - path: The path to the file.
-  - format: Format can be csv and excel (on windows only).
+  - format: Format can be csv and excel (on Windows only).
   - objects: Optional parameter if left the entire layup is written to the file, else only the layup defined within modeling_groups.
 
 #### save_layup_to_csv_file(path, objects=None)
@@ -1154,17 +1154,17 @@ Section Cuts.
 
 #### select_elements(selection='sel0', op='new', labels=None, indices=None, attached_to=None, x=None, y=None, z=None, element_type='all')
 
-Selects element within active model. (Marks the given selection as SELECTED).
+Selects element within active model and marks the given selection as SELECTED.
 
 * **Parameters:**
   - selection: The selection to update.
     Can be given as string ‘sel0’ - ‘sel5’ or ‘all’ or can be given as ObjectSelection object such as
     - model.selection.
     - scene.active_set.
-  - op: Select operation. Can be all, new (default), add, remove, intersect, inverse or none.
+  - op: Select operation. Valid options: all, new (default), add, remove, intersect, inverse, or none.
   - labels: List with element labels to select.
   - indices: List with element indices to select.
-  - attached_to: Elements attached to entities / vertices in this list will be selected.
+  - attached_to: Elements attached to entities/vertices in this list will be selected.
   - x: X-range to select.
   - y: Y-range to select.
   - z: Z-range to select.
@@ -1239,7 +1239,7 @@ Solver instance.
 #### *property* unit_system
 
 Create a unit system and assign it to the model.
-Unit system types are: si,mks,cgs,umks,mpa,bft,bin,undefined.
+Unit system types are: si, mks, cgs, umks, mpa, bft, bin, undefined.
 
 #### update(objects='all', relations_only=False)
 
@@ -1294,13 +1294,13 @@ Edge Set for Rosette.
 #### get_global_coordinates(coordinates)
 
 Evaluates the global coordinates of a point given in local rosette coordinates:
-CYLINDRICAL,  RADIAL and SPHERICAL coord sys type: Give phi and theta in RAD.
+CYLINDRICAL, RADIAL, and SPHERICAL. Coordinate system type: Give phi and theta in RAD.
 
 * **Parameters:**
   - (x, y, z): 
-  - x = x for PARALLEL, r for CYLINDRICAL, RADIAL and SPHERICAL.
-  - y = y for PARALLEL, phi for CYLINDRICAL, RADIAL and SPHERICAL.
-  - z = z for PARALLEL, CYLINDRICAL, RADIAL and theta for SPHERICAL.
+  - x = x for PARALLEL, r for CYLINDRICAL, RADIAL, and SPHERICAL.
+  - y = y for PARALLEL, phi for CYLINDRICAL, RADIAL, and SPHERICAL.
+  - z = z for PARALLEL, CYLINDRICAL, RADIAL, and theta for SPHERICAL.
 * **Usage:**
   ```pycon
   >>> rosette.get_global_coordinates((1.,2.,3.))
@@ -1309,13 +1309,13 @@ CYLINDRICAL,  RADIAL and SPHERICAL coord sys type: Give phi and theta in RAD.
 #### get_global_vector_components(vector)
 
 gets global vector components from local rosette vector components.
-CYLINDRICAL,  RADIAL and SPHERICAL coord sys type: Give phi and theta in RAD.
+CYLINDRICAL, RADIAL, and SPHERICAL coordinate system type: Give phi and theta in RAD.
 
 * **Parameters:**
   - (x, y, z): 
-  - x = x for PARALLEL, r for CYLINDRICAL, RADIAL and SPHERICAL.
-  - y = y for PARALLEL, phi for CYLINDRICAL, RADIAL and SPHERICAL
-  - z = z for PARALLEL, CYLINDRICAL, RADIAL and theta for SPHERICAL.
+  - x = x for PARALLEL, r for CYLINDRICAL, RADIAL, and SPHERICAL.
+  - y = y for PARALLEL, phi for CYLINDRICAL, RADIAL, and SPHERICAL
+  - z = z for PARALLEL, CYLINDRICAL, RADIAL, and theta for SPHERICAL.
 * **Usage:**
   ```pycon
   >>> rosette.get_global_vector_components((1.,2.,3.))
@@ -1330,10 +1330,11 @@ Evaluates the local rosette coordinates of a point given in global coordinates.
 
 * **returns:**
 -  (x, y, z):
-- x = x for PARALLEL, r for CYLINDRICAL, RADIAL and SPHERICAL.
-- y = y for PARALLEL, phi for CYLINDRICAL, RADIAL and SPHERICAL.
-- z = z for PARALLEL, CYLINDRICAL, RADIAL and theta for SPHERICAL.
-  CYLINDRICAL,  RADIAL and SPHERICAL coord sys type:  phi and theta in RAD.
+- x = x for PARALLEL, r for CYLINDRICAL, RADIAL, and SPHERICAL.
+- y = y for PARALLEL, phi for CYLINDRICAL, RADIAL, and SPHERICAL.
+- z = z for PARALLEL, CYLINDRICAL, RADIAL, and theta for SPHERICAL.
+  
+  CYLINDRICAL, RADIAL, and SPHERICAL coordinate system type: phi and theta in RAD.
 
 * **Usage:**
   ```pycon
@@ -1349,10 +1350,11 @@ Returns local rosette vector components from global vector components.
 
 * **returns:** 
 - (x, y, z):
-- x = x for PARALLEL, r for CYLINDRICAL, RADIAL and SPHERICAL.
-- y = y for PARALLEL, phi for CYLINDRICAL, RADIAL and SPHERICAL.
-- z = z for PARALLEL, CYLINDRICAL, RADIAL and theta for SPHERICAL.
-  CYLINDRICAL,  RADIAL and SPHERICAL coord sys type:  phi and theta in RAD.
+- x = x for PARALLEL, r for CYLINDRICAL, RADIAL, and SPHERICAL.
+- y = y for PARALLEL, phi for CYLINDRICAL, RADIAL, and SPHERICAL.
+- z = z for PARALLEL, CYLINDRICAL, RADIAL ,and theta for SPHERICAL.
+ 
+   CYLINDRICAL, RADIAL and SPHERICAL coordinate system type: phi and theta in RAD.
 
 * **Usage:**
   ```pycon
@@ -1373,7 +1375,7 @@ Origin of the Rosette.
 
 #### *property* rosette_type
 
-Rosette Types can be: parallel,radial,cylindrical,spherical,edge_wise.
+Rosette Types. Valid options: parallel, radial, cylindrical, spherical, or edge_wise.
 
 #### serialize()
 
@@ -1413,7 +1415,7 @@ Bases: `NamedGraphFuncObject`
 
 Look-Up Table Class.
 
-associates scalar or vector values to points.
+Associates scalar or vector values to points.
 
 Example:
 
@@ -1431,19 +1433,19 @@ LookUpTable active.
 
 #### clear()
 
-clear table data (rows and columns).
+Clear table data (rows and columns).
 
 #### clear_rows()
 
-clear table rows (keep columns).
+Clear table rows (keep columns).
 
 #### *property* column_types
 
-a list of column types (‘scalar’, or ‘direction’).
+A list of column types (``scalar`` or ``direction``).
 
 #### *property* columns
 
-Dictionary with all columns
+Dictionary with all columns.
 
 #### create_column(name, type=None, values=None, dimension='dimensionless')
 
@@ -1451,7 +1453,7 @@ Create a new column.
 
 * **Parameters:**
   - name: Name of column.
-  - type: A string (‘scalar’, ‘direction’) specifying the column type (the values will be initialized to NaN).
+  - type: A string (``scalar``, ``direction``) specifying the column type (the values will be initialized to NaN).
   - values: A numpy array with values (the type is determined from its shape).
 
 #### *property* empty
@@ -1460,12 +1462,12 @@ True if table is empty.
 
 #### load_from_csv_file(path)
 
-Load the table from csv file in path.
+Load the table from .csv file in path.
 
-Load LookUpTable from CSV file.
+Load LookUpTable from .csv file.
 
 * **Parameters:**
-  - path: path to output file.
+  - path: Path to output file.
 
 #### *property* num_cols
 
@@ -1477,14 +1479,14 @@ Number of columns.
 
 #### save_to_csv_file(path)
 
-Save LookUpTable to CSV file.
+Save LookUpTable to .csv file.
 
 * **Parameters:**
-  - path: path to output file.
+  - path: Path to output file.
 
 #### *property* tabular_data
 
-a tuple containing a list of column labels and a 2d array with floats for all cells. This is a flattened view of all columns.
+A tuple containing a list of column labels and a 2d array with floats for all cells. This is a flattened view of all columns.
 
 ### [`LookUpTable1D`](#compolyx.LookUpTable1D)
 
@@ -1496,7 +1498,7 @@ A LookUpTable to associate arbitrary data to a one-dimensional field of Location
 
 #### column_factory
 
-alias of `LookUpTable1DColumn`
+Alias of `LookUpTable1DColumn`
 
 #### *property* direction
 
@@ -1520,11 +1522,11 @@ A LookUpTable to associate arbitrary data to a three-dimensional field of locati
 
 #### *property* algorithm_type
 
-Algorithm types can be: nearest_neighbor,linear_multivariate,weighted_nearest_neighbor.
+Algorithm types. Valid options: nearest_neighbor, linear_multivariate, and weighted_nearest_neighbor.
 
 #### column_factory
 
-alias of `LookUpTable3DColumn`
+Alias of `LookUpTable3DColumn`
 
 #### *property* num_min_neighbors
 
@@ -1539,7 +1541,9 @@ Removes duplicate supporting points from the table.
  Number of removed points.
 
 * **Example:**
-  >> db.models[‘plate’].lookup_tables[‘LookUpTable3D_scalar’].remove_duplicate_points()
+```pycon
+  >>> db.models[‘plate’].lookup_tables[‘LookUpTable3D_scalar’].remove_duplicate_points()
+```
 
 #### *property* search_radius
 
@@ -1547,7 +1551,7 @@ Search Radius used for the interpolation with weighted nearest neighbor.
 
 #### *property* tabular_data
 
-a tuple containing a list of column labels and a 2d array with floats for all cells. This is a flattened view of all columns.
+A tuple containing a list of column labels and a 2D array with floats for all cells. This is a flattened view of all columns.
 
 #### *property* use_default_search_radius
 
@@ -1557,7 +1561,7 @@ True if the search radius is estimated automatically.
 
 ### *class* compolyx.LookUpTableColumn(name, parent)
 
-an object to hold a column in a table.
+An object to hold a column in a table.
 
 #### *property* enabled
 
@@ -1565,15 +1569,15 @@ Whether this object is currently enabled or not. Mainly defined through the curr
 
 #### *property* status
 
-column status (‘UPTODATE’,’NOTUPTODATE’, or ‘LOCKED’).
+Column status (‘UPTODATE’,’NOTUPTODATE’, or ‘LOCKED’).
 
 #### *property* type
 
-column type (scalar or direction).
+Column type (scalar or direction).
 
 #### *property* values
 
-numpy array containing the column values.
+Numpy array containing the column values.
 
 ## [`ElementSelectionRule`](#compolyx.ElementSelectionRule) classes
 
@@ -1824,7 +1828,7 @@ Edge Set for cutoff_rule_type = ``taper`` or ``variable_taper``.
 
 #### *property* offset
 
-Cut-Off offset
+Cut-Off offset.
 
 #### *property* offset_method
 
@@ -1836,11 +1840,11 @@ Take offset from edge set perpendicular to element reference surface (out_of_pla
 
 #### *property* origin
 
-Origin of the offset and angle interpolation for ‘variable_taper’ cutoff rules.
+Origin of the offset and angle interpolation for ``variable_taper`` cutoff rules.
 
 #### *property* ply_cutoff_type
 
-Cutoff Types can be: production_ply_cutoff,analysis_ply_cutoff.
+Cutoff Types. Valid options: production_ply_cutoff or analysis_ply_cutoff.
 
 #### *property* ply_tapering
 
@@ -1868,7 +1872,7 @@ Element Sets for the Geometrical Selection Rule.
 
 #### *property* geometrical_rule_type
 
-Geometrical rule type, valid values geometry,element_sets.
+Geometrical rule type. Valid values: geometry and element_sets.
 
 #### *property* geometry
 
@@ -1920,7 +1924,7 @@ Add Selection Rule to Boolean Selection rule.
   - rule_values: Parameters of the template rule (For instance upper and lower limit of a ParallelSelectionRule).
   - operation_type: Boolean operation type (intersect, add, remove).
 
-Example:
+* **Example:**
 >>> boolean_rule.add_rule(rule=model.selection_rules[‘ParallelRule.1’],template_rule=True, rule_values=(-20.0, 50.0), operation_type=’intersect’).
 
 #### *property* selection_rules
@@ -2030,8 +2034,8 @@ Middle offset flag.
 General method to modify the elements in an element set.
 
 * **Parameters:**
-  - op: Selection method: new, add, remove, intersect or inverse.
-  - element_labels: List of element ids.
+  - op: Selection method: new, add, remove, intersect. or inverse.
+  - element_labels: List of element IDs.
   - element_sets: List of element sets.
   - x: Min and max of x location.
   - y: Min and max of y location.
@@ -2060,10 +2064,10 @@ Serialize to Python string.
 
 #### write_boundaries(filename, format=None)
 
-Write boundaries in iges/step format
-:Parameters:
-- filename: output file.
-- format: ‘iges’, ‘step’, None (automatic format recognition).
+Write boundaries in .iges/.step format.
+* **Parameters**
+  - filename: Output file.
+  - format: ‘iges’, ‘step’, or None (automatic format recognition).
 
 ### [`EdgeSet`](#compolyx.EdgeSet)
 
@@ -2081,11 +2085,11 @@ The edge set mesh plot.
 
 #### *property* edge_set_type
 
-Edge Set Types can be: “By Reference”, “By Nodes”.
+Edge Set Type. Valid options: “By Reference” or “By Nodes”.
 
 #### get_nodes()
 
-Return python list with nodes as objects.
+Return Python list with nodes as objects.
 
 #### *property* is_closed
 
@@ -2105,7 +2109,7 @@ The edge set mesh.
 
 #### *property* node_labels
 
-Node labels defining the NodeSet (only if type=’By Nodes’).
+Node labels defining the NodeSet (only if type = ``By Nodes``).
 
 #### *property* nodes
 
@@ -2171,14 +2175,14 @@ The file path where the CAD geometry is loaded from.
 
 #### *property* precision
 
-Precision of geometrical operations (intersection points, thickness sampling, …).
+Precision of geometrical operations (intersection points, thickness sampling, etc.).
 
 #### refresh_external_source(enforce=False)
 
 Reload the geometry from the external source.
 
 * **Parameters:**
-  - enforce: enforce the reloading of external data for locked object in the new acph5 serialization format. This option should be used with care!
+  - enforce: Enforce the reloading of external data for locked object in the new acph5 serialization format. This option should be used with care!
 
 #### *property* root_shapes
 
@@ -2220,7 +2224,7 @@ Whether to use default precision value or not.
 
 #### *property* visible_sub_shapes
 
-Ids of CAD sub shapes to be displayed, stored per-scene id.
+IDs of CAD sub shapes to be displayed, stored per-scene ID.
 
 #### *property* visualization_mesh
 
@@ -2295,27 +2299,27 @@ Dictionary of all cad references.
 
 #### clear_cad_references()
 
-Clear all linked references (VirtualGeometry becomes empty)
+Clear all linked references (VirtualGeometry becomes empty).
 
 #### create_cad_reference(name='VirtualGeometry.1', id=None, path=None, size=None, cog=None, dimension=None, bounding_box_min=None, bounding_box_max=None)
 
-Creates a new Cad Reference and links it with the Virtual Geometry
+Creates a new Cad Reference and links it with the Virtual Geometry.
 
 * **Parameters:**
   - name: Name of the object.
   - id: ID of the object.
-  - path: Geometry path of the linked cad component.
-  - size: Size of the linked cad component. Size can be the volume, area or length depending on the type of the linked cad component.
-  - cog: Center of gravity of the linked cad component.
-  - dimension: The shape type of the cad component. CADCompound, CADSolid, CADShell or CADFace.
+  - path: Geometry path of the linked CAD component.
+  - size: Size of the linked CAD component. Size can be the volume, area, or length depending on the type of the linked CAD component.
+  - cog: Center of gravity of the linked CAD component.
+  - dimension: The shape type of the CAD component. CADCompound, CADSolid, CADShell or CADFace.
   - bounding_box_min: Minimum point of the bounding box.
   - bounding_box_max: Maximum point of the bounding box.
 * **Return:**
-  - the new cad reference object.
+  - the new CAD reference object.
 
 #### *property* dimension
 
-Highest dimension of all cad references. 3=solid, 2=surface, 1=curve.
+Highest dimension of all CAD references. 3 = solid, 2 = surface, 1 = curve.
 
 #### remove(shape)
 
@@ -2379,7 +2383,7 @@ Link path of the CADReference
 
 #### *property* size
 
-Size of the linked cad shape.
+Size of the linked CAD shape.
 
 #### *property* status
 
@@ -2509,7 +2513,7 @@ Rosettes of the Oriented Selection Set.
 
 #### save_flat_wrap(filename)
 
-Write the flatwrap to DXF, IGES or STEP file.
+Write the flatwrap to .dxf, .iges or .step file.
 
 * **Parameters:**
   - filename: Path to the file to be writen.
@@ -2520,7 +2524,7 @@ Selection Rules of the Oriented Selection Set.
 
 #### serialize()
 
-Serialize to Python string
+Serialize to Python string.
 
 #### *property* use_default_draping_mesh_size
 
@@ -2528,10 +2532,10 @@ Whether to use a default size for the draping mesh.
 
 #### write_boundaries(filename, format=None)
 
-Write boundaries in iges/step format
-:Parameters:
-- filename: Output file.
-- format: ‘iges’, ‘step’, None (automatic format recognition).
+Write boundaries in .iges/.step format.
+* **Parameters**
+  - filename: Output file.
+  - format: ‘iges’, ‘step’, or None (automatic format recognition).
 
 ## [`ModelingGroup`](#compolyx.ModelingGroup)
 
@@ -2679,19 +2683,19 @@ Create modeling ply.
 
 #### export_ply_geometries(filename, ply_level='production_ply', boundary=True, surface=True, offset_type='middle_offset', direction_arrows=False, first_direction=True, second_direction=False, arrow_length=1.0, arrow_type='no_arrow')
 
-Exports the surface, boundary and/or fiber directions of modeling, production and analysis ply to igs or step file.
+Exports the surface, boundary, and/or fiber directions of modeling, production and analysis ply to igs or step file.
 
 * **Parameters:**
-  - filename: File path (allowed extensions are iges, igs, step and stp).
+  - filename: File path (allowed extensions are .iges, .igs, .step, and .stp).
   - ply_level: Defines which plies are exported: modeling_ply_wise, production_ply_wise or analysis_ply_wise. Default is production_ply_wise.
   - boundary: Boolean whether to export the boundary. Default is True.
   - surface: Boolean whether to export the ply surface. Default is True.
-  - offset_type: Offset type (can be no_offset, middle_offset, top_offset or bottom_offset). Default is middle_offset.
+  - offset_type: Offset type. Valid options: no_offset, middle_offset (default), top_offset, or bottom_offset.
   - direction_arrows: Boolean whether to export the direction arrows. Default is False.
   - first_direction: Boolean whether to export the first (main) material direction. Default is True.
   - second_direction: Boolean whether to export the second material direction. Default is False.
   - arrow_length: Length of the arrows. Default is 1.
-  - arrow_type: Defines the arrow type (can be standard_arrow, no_arrow, half_arrow). Default is no_arrow.
+  - arrow_type: Defines the arrow type. Valid options: standard_arrow, no_arrow (default), half_arrow.
 
 #### *property* plies
 
@@ -2705,18 +2709,18 @@ specified as a target, the modeling plies retain their original global ply numbe
 * **Parameters:**
   - source: list of plies to insert at new position.
   - target: position to insert plies. Can be modeling group or sequence entity.
-  - option: where to insert: after``(default), ``before, or end (for SequenceEntity targets) keep (for ModelingGroup targets)
-      - after: paste right after the target.
-      - before: paste right before the target.
-      - end: paste at the end of the ModelingGroup containing target.
-      - keep: keep the previous global_ply_nr (only works for move, and when target is a ModelingGroup).
+  - option: where to insert: after (default), before, or end (for SequenceEntity targets), keep (for ModelingGroup targets).
+      - after: Paste right after the target.
+      - before: Paste right before the target.
+      - end: Paste at the end of the ModelingGroup containing target.
+      - keep: Keep the previous global_ply_nr (only works for move, and when target is a ModelingGroup).
 
 #### serialize(butt_joints=False)
 
 Serialize to Python string.
 
 * **Parameters:**
-  - butt_joints: specify whether butt-joints are serialized or everything else (Modeling Group, Modeling Plies and Interface Layers).
+  - butt_joints: specify whether butt-joints are serialized or everything else (Modeling Group, Modeling Plies, and Interface Layers).
 
 ### [`ModelingPly`](#compolyx.ModelingPly)
 
@@ -2926,7 +2930,7 @@ LookUpTable Column with tabular thicknesses or None.
 
 #### *property* thickness_field_type
 
-The type of the Thickness field ‘absolute’ or ‘relative’.
+The type of the Thickness field: ``absolute``’`` or ``‘``relative``’``.
 
 #### *property* use_default_draping_mesh_size
 
@@ -2938,12 +2942,12 @@ Weight of the Modeling Ply.
 
 #### write_boundaries(filename, format=None, offset_type='no_offset', with_direction_arrows=False, arrow_length=None, arrow_type='standard_arrow')
 
-Write boundaries in iges/step format.
+Write boundaries in .iges/.step format.
 
 * **Parameters:**
   - filename: Output file.
-  - format: ‘iges’, ‘step’, None (automatic format recognition).
-  - offset_type: ‘no_offset’ (default), ‘bottom_offset’, ‘middle_offset’, ‘top_offset’.
+  - format: ‘iges’, ‘step’, or None (automatic format recognition).
+  - offset_type: ‘no_offset’ (default), ‘bottom_offset’, ‘middle_offset’, or ‘top_offset’.
   - with_direction_arrows: The element directions should be written to.
   - arrow_length: Length of the direction arrows (default is average element edge size).
   - arrow_type: Type to be used as arrows (‘standard_arrow’(default), ‘no_arrow’, ‘half_arrow’).
@@ -3000,7 +3004,7 @@ Writes out Modeling Ply to Draping Interface File.
 
 #### save_flat_wrap(filename)
 
-Write the flatwrap to DXF, IGES or STEP file.
+Write the flatwrap to .dxf, I.iges or .step file.
 
 * **Parameters:**
   - filename: Path to the file to be writen.
@@ -3019,15 +3023,15 @@ Weight of the production ply.
 
 #### write_boundaries(filename, format=None, offset_type='no_offset', with_direction_arrows=False, arrow_length=None, arrow_type='standard_arrow')
 
-Write boundaries in iges/step format.
+Write boundaries in .iges/.step format.
 
 * **Parameters:**
   - filename: Output file.
-  - format: ‘iges’, ‘step’, None (automatic format recognition).
-  - offset_type: ‘no_offset’ (default), ‘bottom_offset’, ‘middle_offset’, ‘top_offset’.
+  - format: ‘iges’, ‘step’, or None (automatic format recognition).
+  - offset_type: ‘no_offset’ (default), ‘bottom_offset’, ‘middle_offset’, or ‘top_offset’.
   - with_direction_arrows: The element directions should be written to.
   - arrow_length: length of the direction arrows (default is average element edge size).
-  - arrow_type: Type to be used as arrows (‘standard_arrow’(default), ‘no_arrow’, ‘half_arrow’).
+  - arrow_type: Type to be used as arrows (‘standard_arrow’(default), ‘no_arrow’, or ‘half_arrow’).
 
 ### [`AnalysisPly`](#compolyx.AnalysisPly)
 
@@ -3049,7 +3053,7 @@ Ply Angle of the Analysis Ply.
 
 #### direction_arrows(arrow_length=None, arrow_type='standard_arrow', offset_type='no_offset')
 
-Direction arrows of the ply
+Direction arrows of the ply.
 
 * **Parameters:**
   - arrow_length: Length of the arrow.
@@ -3085,19 +3089,19 @@ Thickness of the Analysis Ply.
 
 #### update()
 
-Update the Analysis Ply
+Update the Analysis Ply.
 
 #### write_boundaries(filename, format=None, offset_type='no_offset', with_direction_arrows=False, arrow_length=None, arrow_type='standard_arrow')
 
-Write boundaries in iges/step format.
+Write boundaries in .iges/.step format.
 
 * **Parameters:**
   - filename: Output file.
-  - format: ‘iges’, ‘step’, None (automatic format recognition).
-  - offset_type: ‘no_offset’ (default), ‘bottom_offset’, ‘middle_offset’, ‘top_offset’.
+  - format: ‘iges’, ‘step’, or None (automatic format recognition).
+  - offset_type: ‘no_offset’ (default), ‘bottom_offset’, ‘middle_offset’, or ‘top_offset’.
   - with_direction_arrows: The element directions should be written to.
   - arrow_length: Length of the direction arrows (default is average element edge size).
-  - arrow_type: Type to be used as arrows (‘standard_arrow’(default), ‘no_arrow’, ‘half_arrow’).
+  - arrow_type: Type to be used as arrows (‘standard_arrow’(default), ‘no_arrow’, or ‘half_arrow’).
 
 ### [`InterfaceLayer`](#compolyx.InterfaceLayer)
 
@@ -3198,7 +3202,7 @@ Create modeling ply.
   - ply_material: Ply Material (Fabric).
   - ply_angle: Angle of the Ply Material.
   - mesh_import_type: The source of the imported mesh (‘from_h5_composite_cae’ or ‘from_geometry’).
-  - mesh_geometry: if mesh_import_type is from_geometry, then this geometry defines the surface of the ply.
+  - mesh_geometry: If mesh_import_type is from_geometry, then this geometry defines the surface of the ply.
   - rosette_selection_method: Method to calculate element orientation (‘minimum_angle’, ‘maximum_angle’, ‘minimum_distance’,
       ‘minimum_angle_superposed’, ‘minimum_distance_superposed’,
       ‘maximum_angle_superposed’, ‘ansys_classic’, or
@@ -3295,7 +3299,7 @@ LookUpTable Column with tabular thicknesses or None.
 
 #### *property* thickness_field_type
 
-The type of the Thickness field ‘absolute’ or ‘relative’.
+The type of the Thickness field, ``absolute`` or ``relative``.
 
 ### [`ImportedProductionPly`](#compolyx.ImportedProductionPly)
 
@@ -3431,20 +3435,20 @@ mode.
 Returns the properties of the classical laminate theory:
 
 * **Parameters:**
-  - query: query parameter (see below).
+  - query: Query parameter (see below).
   - offset_is_middle: Whether to offset the reference surface to the mid-plane of the laminate. This has an influence on the laminate stiffness calculations.
-  - consider_coupling_effect: Whether to consider the coupling effect or not (B-Matrix). It’s only of relevance for the laminate engineering constants.
+  - consider_coupling_effect: Whether to consider the coupling effect or not (B-Matrix). It is only of relevance for the laminate engineering constants.
 * **Options:**
-  - layup: Returns the layup of the laminate (Modeling, Production and Analysis Plies). Default.
-  - laminate_properties: Young’s, flexural and shear moduli of the laminate.
+  - layup: Returns the layup of the laminate (Modeling, Production, and Analysis Plies). Default.
+  - laminate_properties: Young’s, flexural, and shear moduli of the laminate.
   - polar_properties: E1, E2  and G12 depending on the laminate orientation.
   - text_labels: Returns a list with the material names, angles and thicknesses.
   - stiffness_matrix: Returns the laminate stiffness matrix (ABD).
   - compliance_matrix: Returns the lamiante compliance matrix (inverse of ABD).
-  - laminate_forces: Returns a dict with the laminate forces Nx, Ny, Nxy, Mx, My, Mxy, Qx and Qy. Offset is middle is always true for this evaluation.
+  - laminate_forces: Returns a dict with the laminate forces Nx, Ny, Nxy, Mx, My, Mxy, Qx, and Qy. Offset is middle is always true for this evaluation.
 
-Usage:
-: ```pycon
+* **Usage:**
+ ```pycon
   >>> se.clt_query(query='polar_properties')
   ```
 
@@ -3454,21 +3458,21 @@ Whether to consider coupling effects (B-Matrix) for the calculation of the lamin
 
 #### create_plot(query={'layup': ['mp'], 'polar_properties': ['E1', 'G12']}, offset_is_middle=True, consider_coupling_effect=True)
 
-Generates 2D-plots with the results of interest
+Generates 2D plots with the results of interest.
 
 * **Parameters:**
-  - query: query parameter.
+  - query: Query parameter.
   - offset_is_middle: Whether to offset the reference surface to the mid-plane of the laminate. This has an influence on the laminate stiffness calculations.
-  - consider_coupling_effect: Whether to consider the coupling effect or not (B-Matrix). It’s only of relevance for the laminate engineering constants.
+  - consider_coupling_effect: Whether to consider the coupling effect or not (B-Matrix). It is only of relevance for the laminate engineering constants.
 * **Options:**
-  - layup:[‘mp’, ‘pp’, ‘ap’] Modeling Plies, Production Plies and Analysis Plies.
-  - polar_properties:[‘E1’,’E2’,’G12’] polar plot of laminate stiffesses.
+  - layup:[‘mp’, ‘pp’, ‘ap’] Modeling Plies, Production Plies, and Analysis Plies.
+  - polar_properties:[‘E1’,’E2’,’G12’] Polar plot of laminate stiffesses.
   - strains: List containing Strain definition name and component.
    - [‘e1’, ‘e2’, ‘e3’, ‘e12’, ‘e13’, ‘e23’, ‘eI’, ‘eII’, ‘eIII’].
   - stresses: List containing Stress definition name and component.
    - [‘s1’, ‘s2’, ‘s3’, ‘s12’, ‘s13’, ‘s23’, ‘sI’, ‘sII’, ‘sIII’].
   - failures:[‘FailureCriteria.1_irf’, ‘FailureCriteria.1_rf’, ‘FailureCriteria.1_mos’, ‘FailureCriteria.1_fm’] - Name of FC and value.
-  - text_labels:[‘material’, ‘angle’, ‘thickness’].
+  - text_labels: [‘material’, ‘angle’, ‘thickness’].
 * **Usage:**
   ```pycon
   >>> se.create_plot query={layup:['mp'], failure:['FailureCriteria.1_irf']}
@@ -3576,11 +3580,11 @@ Whether this object is currently enabled or not. SectionCuts are always enabled.
 
 #### export_surface_section_cut(path, format='becas:in', export_strength_limits=True)
 
-Exports the suface section cut to BECAS or ANSYS MAPDL
+Exports the suface section cut to BECAS or ANSYS MAPDL.
 
 * **Paramters:**
   - path: File path or directory depending on the export format.
-  - format: Export format. Implemented are ‘becas:in’ and ‘ansys:cdb’. ‘becas:in’ is the default.
+  - format: Export format. Implemented are ‘becas:in’ (default) and ‘ansys:cdb’.
   - export_strength_limits: Boolean whether to export the strength limits for BECAS. True by default.
 * **Usage:**
   ```pycon
@@ -3593,7 +3597,7 @@ Exports the suface section cut to BECAS or ANSYS MAPDL
 
 #### *property* extrusion_type
 
-Section Cut Types can be: wire_frame,surface_normal,surface_sweep_based.
+Section Cut Types. Valid options: wire_frame, urface_normal, and surface_sweep_based.
 
 #### *property* geometric_measures
 
@@ -3609,7 +3613,7 @@ Reference direction for cross-sectional measures.
 
 #### *property* intersection_type
 
-Intersection Types can be: normal_to_surface,in_plane.
+Intersection Types. Valid options: normal_to_surface or in_plane.
 
 #### *property* locked
 
@@ -3657,7 +3661,7 @@ User-defined search radius.
 
 #### *property* section_cut_type
 
-Section Cut Types can be: modeling_ply_wise,production_ply_wise,analysis_ply_wise.
+Section Cut Types. Valid options: modeling_ply_wise, production_ply_wise, and analysis_ply_wise.
 
 #### *property* surface_display_data
 
@@ -3747,7 +3751,7 @@ Remove entity from sensor.
 
 #### *property* sensor_type
 
-Sensor type. Allowed string values: sensor_by_area, sensor_by_plies, sensor_by_material and sensor_by_solid_model.
+Sensor type. Valid string values: sensor_by_area, sensor_by_plies, sensor_by_materialm and sensor_by_solid_model.
 
 #### *property* weight
 
@@ -3780,8 +3784,8 @@ Add a chapter to the Ply book.
 Generate the complete plybook.
 
 * **Parameters:**
-  - filename: output filename.
-  - format: pdf, html, odt, txt.
+  - filename: Output filename.
+  - format: .pdf, .html, .odt, or .txt.
 
 #### *property* reST_chapter
 
@@ -3825,15 +3829,15 @@ Class to represent parameters which are linked to the ANSYS workbench.
 
 #### *property* acp_type
 
-ACP parameter type. Can be one of: ‘int’, ‘float’, ‘float_list’, ‘bool’, ‘string’ or None.
+ACP parameter type. Valid options: ‘int’, ‘float’, ‘float_list’, ‘bool’, ‘string’, or None.
 
 #### *property* ansys_type
 
-ANSYS parameter type where ACP parameter is mapped to. Can be one of: ‘int’, ‘double’, ‘boolean’, or None.
+ANSYS parameter type where ACP parameter is mapped to. Valid options: ‘int’, ‘double’, ‘boolean’, or None.
 
 #### *property* category
 
-Should be one of: input, unbound_input, output or expression_output.
+Valid options: input, unbound_input, output, or expression_output.
 
 #### *property* cyclic
 
@@ -3885,7 +3889,7 @@ The actual parameter value.
 
 #### *property* wb_value
 
-The parameter value as it is represented in the ANSYS workbench.
+The parameter value as it is represented in the ANSYS Workbench.
 
 ## [`Script`](#compolyx.Script)
 
@@ -3911,15 +3915,15 @@ Source code of the user-defined script.
 
 #### *property* status
 
-String status indicating if the object is up-to-date.
+String status indicating if the object is up to date.
 
 #### *property* status_changed
 
-Specifies if the object has changed, for the purposes of notifying workbench.
+Specifies if the object has changed, for the purposes of notifying Workbench.
 
 #### *property* update_mode
 
-Defines which changes cause the script to become out-of-date. Can be either ‘manual’ (run only when manually triggered), ‘on_triggers’ (run when a parameter or the script itself changes), or ‘always’ (run with every update).
+Defines which changes cause the script to become out-of-date. Can be either ``manual`` (run only when manually triggered), ``on_triggers`` (run when a parameter or the script itself changes), or ``always`` (run with every update).
 
 #### *property* uptodate
 
