@@ -81,7 +81,7 @@ Deviating from the grid may be necessary for clarity and context. Sometimes the 
 
 ![Shape, polygon Description automatically generated](media/cc6f0519be993f730b0d16a12c2d0325.png)
 
-Figure 31: Example of Deviating from the Grid to Improve an Icon
+Figure 31: Example of Deviating from the Grid to Improve an icon
 
 #### Themes and Icon Colors
 
