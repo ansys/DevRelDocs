@@ -46,31 +46,31 @@ When possible, tools should support both paradigms to give users freedom to work
 
 ### Immediate Action
 
-#### Description
+**Description**
 
 An action is applied immediately to a selected object without any user interaction or options needing to be set.
 
-#### When to Use
+**When to Use**
 
 - hen the user selects one object and applies a command. 
   - Selecting more than one object is permitted, but other workflows may be more appropriate in that case. 
 - Used for very simple and straightforward operations. 
 
-#### Selection
+**Selection**
 
 - Object-action 
 - No modifiers 
 
-#### Preview
+**Preview**
 
 Not required
 
-#### Steps
+**Steps**
 
 1. Select an object in graphics or tree.
 2. Activate the tool.
 
-#### Examples
+**Examples**
 
 - Fill
 - Plane
@@ -78,26 +78,26 @@ Not required
 
 ### Interactive
 
-#### Description 
+**Description** 
 
 The user clicks and drags an object to make a change, and the geometry is constantly updated as the user interacts with the object.
 
-#### When to Use
+**When to Use**
 
 When the user can drag an object to make a change.
 
-#### Selection
+**Selection**
 
 - Object-action 
 - Action-object 
   - Filter to only allow selection of objects relevant to the active tool. 
 - Use modifiers (tool guide or Alt+select) for secondary object selection.
 
-#### Preview
+**Preview**
 
 Real-time preview is required.
 
-#### Steps
+**Steps**
 
 1. Activate the tool.
 2. Select one or more objects as the primary selection.
@@ -107,7 +107,7 @@ Real-time preview is required.
    - Changes are seen in real-time preview.
 5. Complete when the user finishes dragging and releases the mouse button.
 
-#### Examples
+**Examples**
 
 - Pull
 - Move
@@ -115,7 +115,7 @@ Real-time preview is required.
 
 ### Auto Complete
 
-#### Description
+**Description**
 
 The user does not need to click a “complete” button (i.e., a check mark button). Undo must be supported so that the user can easily recover if they change their mind or make a mistake.  
 
@@ -124,7 +124,7 @@ There are two types of Auto Complete workflows:
 - Selection-based: Tool completes when all required selections have been made.
 - Value-based: Tool completes when the user has entered a valid value.
 
-#### When to Use
+**When to Use**
 
 - When the change does not require dragging. 
 - It can be determined that the operation should be applied based on the user’s selection. 
@@ -133,24 +133,24 @@ There are two types of Auto Complete workflows:
   - Additional inputs are given reasonable defaults. 
   - Allows for quickly creating multiple similar objects by simply selecting locations.
 
-#### Selection
+**Selection**
 
 - Object-action
 - Action-object
   - Filter to only allow selection of objects relevant to the active tool.
 
-#### Preview
+**Preview**
 
 Use preview when appropriate to display object properties, such as direction for vector objects.
 
-#### Steps: Selection-Based
+**Steps**: Selection-Based
 
 1. Activate the tool.
 2. Select options in the Options panel, if relevant.
 3. Select the objects required to perform the operation.
 4. The change is automatically applied as soon as the correct objects are selected.
 
-#### Steps: Value-Based
+**Steps**: Value-Based
 
 1. Activate the tool in the ribbon or halo.
 2. Select an object to create.
@@ -159,35 +159,35 @@ Use preview when appropriate to display object properties, such as direction for
 5. Type in a value.
 6. Press Enter or click in empty space to create the object.
 
-#### Examples
+**Examples**
 
 Selection-based Mirror Combine Value-based Force (Structural) Flow (Fluid Flow)
 
 ### Manual Complete
 
-#### Description
+**Description**
 
 The user decides when to complete the operation by clicking a “complete” button (i.e., a check mark button). Some tools only need to be manually completed the first time an object is created. Once the object is created, subsequent changes to the object properties are automatically saved/committed.
 
-#### When to Use
+**When to Use**
 
 - When an indeterminate number of selections are needed. 
 - When the command does not require dragging. 
 - When there are inputs with preview and the user needs to confirm the inputs.
 
-#### Selection
+**Selection**
 
 - Object-action 
 - Action-object 
   - Filter to only allow selection of objects relevant to the active tool. 
 - Use modifiers (tool guide or Alt+select) for secondary object selection.
 
-#### Preview
+**Preview**
 
 Use preview when appropriate for user inputs. 
 - For example, preview pattern members based on number and spacing inputs.
 
-#### Steps
+**Steps**
 
 1. Activate the tool. 
 2. Select objects to perform the action on. 
@@ -199,14 +199,14 @@ Use preview when appropriate for user inputs.
 7. Click the “complete” button (or tool guide). 
    - Affected areas of the model are highlighted temporarily to show the change whenever possible.
 
-#### Examples
+**Examples**
 
 - Midsurface
 - Linear Pattern
 
 ### Find and Fix
 
-#### Description
+**Description**
 
 Automatically searches for and gathers all objects based on one or more criteria (e.g., a tolerance value). The search is run immediately on invocation and the results are shown to the user.  
 
@@ -216,22 +216,22 @@ The user then chooses to:
 - Fix selected areas.
 - Ignore selected areas.
 
-#### When to Use
+**When to Use**
 
 - Use to detect and repair problems.
 - Use in any situation where the goal is to find objects and perform an action on them.
 
-#### Selection
+**Selection**
 
 - Action-object
   - Filter to only allow selection of objects relevant to the active tool.
 - Box-selection available for fixing/ignoring areas.
 
-#### Preview
+**Preview**
 
 Red orbs are placed on detected areas too small to simply highlight in red.
 
-#### Steps
+**Steps**
   
 1. Activate the tool. 
 2. Detected “problem” areas are highlighted with red orbs. 
@@ -239,7 +239,7 @@ Red orbs are placed on detected areas too small to simply highlight in red.
 4. Apply a “fix” as the user selects detected problem area(s). 
 5. (Optional) User clicks “complete” button to fix all areas.
 
-#### Examples
+**Examples**
 
 - Split
 - Edges
@@ -248,7 +248,7 @@ Red orbs are placed on detected areas too small to simply highlight in red.
 
 ### Review
 
-#### Description
+**Description**
 
 Allows users to review information graphically in the model context and manage relationships that can be references for object creation.
 
@@ -260,22 +260,22 @@ For example, face-to-face contacts may be used as locations for objects such as:
 
 Eliminates the need for relying on a long list that makes users go back and forth between the list and the model.
 
-#### When to Use
+**When to Use**
 
 - When there are, or could be, many similar objects that reference geometric entities in the model.
 - When the user has a need to review and perform actions on similar objects.
 
-#### Selection
+**Selection**
 
 - Action-object 
   - Filter to only allow selection of objects relevant to the active tool.
 
-#### Preview
+**Preview**
 
 - Highlighting should be used to graphically describe the model references. 
 - Transparency and object dimming should be used to reduce clutter and focus the user on only references related to selected objects. 
 
-#### Steps
+**Steps**
 
 1. Activate the tool. 
 2. Detected areas of attention are highlighted visually. 
@@ -286,17 +286,17 @@ Eliminates the need for relying on a long list that makes users go back and fort
    - Use tool guides to select primary and secondary bodies/faces.
    - Only areas pertaining to the selected bodies/faces are highlighted.
 
-#### Examples
+**Examples**
 
 Contact Review
 
 ### Tools With Sub-Tools
 
-#### Description
+**Description**
 
 This is not so much a workflow as it is an organizational arrangement. There is no difference (at the command level) between a ribbon group of tools and a HUD tool group: Tools with Sub-Tools just provides a convenient consolidation of tools that have similar workflows and inputs and/or options.
 
-#### When to Use
+**When to Use**
 
 When several ribbon tools have similar
 
@@ -304,24 +304,24 @@ When several ribbon tools have similar
 - Workflow 
 - Inputs and/or options
 
-#### Selection
+**Selection**
 
 - Action-object 
   - Filter to only allow selection of objects relevant to the active tool. 
 - Object-action 
 - Use modifiers (tool guide or Alt+select) for secondary object selection.
 
-#### Preview
+**Preview**
 
 Use preview as appropriate to show model changes or object creation.
 
-#### Steps
+**Steps**
 
 1. Activate the higher-level tool. 
 2. A default sub-tool is automatically activated. 
 3. Complete the tool operation once the user provides a set of required inputs such as location reference, value input, etc.
 
-#### Examples
+**Examples**
 
 - Structural 
 - Fluid Flow 
@@ -329,25 +329,25 @@ Use preview as appropriate to show model changes or object creation.
 
 ### Wizard
 
-#### Description
+**Description**
 
 A single tool walks users through a sequence of steps to complete a task. Often this involves simpler versions of more complex tools that make assumptions about tool inputs or about characteristics of the tool’s inputs/outputs. 
 
-#### When to Use
+**When to Use**
 
 - When you want to offer users a streamlined workflow for a task that involves several steps. 
   - Assumptions and default values streamline the task.
 
-#### Selection
+**Selection**
 
 - Action-object to start the wizard. 
 - Each step should filter selection to only objects relevant to the current step.
 
-#### Preview
+**Preview**
 
 As needed per step to show model changes or object creation. 
 
-#### Steps
+**Steps**
 
 1. Activate the wizard. 
 2. The first step tool guide is activated. 
@@ -355,7 +355,7 @@ As needed per step to show model changes or object creation.
 4. Auto advance to the next step tool guide when required selection(s) are made. 
 5. When all steps have been completed, the wizard auto-completes.
 
-#### Examples
+**Examples**
 
 - Internal Flow 
 - External Flow 
@@ -363,29 +363,29 @@ As needed per step to show model changes or object creation.
 
 ### Modify Properties
 
-#### Description
+**Description**
 
 Upon selecting an object, the select tool displays the object’s properties for modification. 
 
-#### When to Use
+**When to Use**
 
 - When users need to modify properties of objects such as 
   - Blocks in a diagram 
   - Objects in a geometry model  
 
-#### Selection
+**Selection**
 
  Object-action
 
-#### Preview
+**Preview**
 
 As needed based on the property.
 
-#### Steps 
+**Steps** 
 
 Select an object. The Select tool HUD displays the object’s properties. Use tool guides and options to modify the object (e.g., edit its inputs or change its material).
 
-#### Examples 
+**Examples** 
 
 Modify properties by selecting one of the following objects:
 
