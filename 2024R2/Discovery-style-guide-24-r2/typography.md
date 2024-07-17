@@ -6,11 +6,11 @@
 
 The following three typefaces are used in Discovery:
 
-| **Typeface**                                      | **Usage**                                                                                       | **Reason**                                                                                                                                                          | **Example**                                                                                                           |
-|---------------------------------------------------|-------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| Source Sans 3 (latest version of Source Sans Pro) | Everything except scripting user inputs, code consoles, and overlay help                        | As a sans-serif typeface, it sets the tone for modernity and clean design. It is in line with Ansys branding guidelines and is an excellent digital interface type. | ![image](media/af9066759acd8bd349300a30014128f7.png)                                                                       |
-| Source Code Pro                                   | Scripting user input panels and consoles (except auto-suggest prompts, which use Source Sans 3) | This is an open-source monospaced typeface that has tried and tested symbol and glyph coverage for programming languages.                                           | ![A black text on a white background Description automatically generated](media/76ecd05ae70ddd5ae2a3d139e6a9492c.png) |
-| Comic Neue                                        | Overlay help                                                                                    | It is intentionally distinct to stand out from UI text in the background. The tone of this typeface is friendly and credible.                                       | ![image](media/8afd5d381d49a73c7747f475cba6194d.png)                                                                       |
+| **Typeface**      | **Usage**      | **Reason**          | **Example**    |
+|----------|-----------|-----------------|-------------|
+| Source Sans 3 (latest version of Source Sans Pro) | Everything except scripting user inputs, code consoles, and overlay help   | As a sans-serif typeface, it sets the tone for modernity and clean design. It is in line with Ansys branding guidelines and is an excellent digital interface type. | ![image](media/af9066759acd8bd349300a30014128f7.png)   |
+| Source Code Pro   | Scripting user input panels and consoles (except auto-suggest prompts, which use Source Sans 3) | This is an open-source monospaced typeface that has tried and tested symbol and glyph coverage for programming languages.  | ![A black text on a white background Description automatically generated](media/76ecd05ae70ddd5ae2a3d139e6a9492c.png) |
+| Comic Neue | Overlay help   | It is intentionally distinct to stand out from UI text in the background. The tone of this typeface is friendly and credible. | ![image](media/8afd5d381d49a73c7747f475cba6194d.png)    |
 
 Avoid using multiple typefaces within the same UI element, such as a panel. One exception is where user inputs appear in Source Code Pro, while related labels and headers are in Source Sans 3.
 
@@ -85,9 +85,9 @@ Figure 24: Font Specifications in the Overlay Help
 
 Capitalization styles can be used to aid in emphasis and clarity, but they can also slow comprehension if misapplied. There are three systems of capitalization commonly used for interface design:
 
--   Title-style capitalization
--   Sentence-style capitalization
--   All caps
+- Title-style capitalization
+- Sentence-style capitalization
+- All caps
 
 Small caps is a font treatment rather than a capitalization style. See [Small Caps](#small-caps) for details.
 
@@ -97,8 +97,8 @@ When using title-style capitalization, the first letter of each word is capitali
 
 Title-style capitalization should be used for text that
 
--   Represents a name, title, or group heading (e.g., page titles, tabs, icon labels, form labels)
--   Labels a control that performs an action (e.g., context menus, drop-down menus, buttons)
+- Represents a name, title, or group heading (e.g., page titles, tabs, icon labels, form labels)
+- Labels a control that performs an action (e.g., context menus, drop-down menus, buttons)
 
 ![Graphical user interface, application Description automatically generated](media/725993b2638194397e37d2646459b84a.png)
 
@@ -144,9 +144,9 @@ When a user enters text, do not apply capitalization transformations. Honor the 
 
 By default, object names are title case (e.g., Fixed Support 1, Max Displacement 3), but if the user changes the name, the capitalization for it will be whatever the user specifies (e.g., My distributed Force), regardless of where the name appears.
 
-|                                                                                                                                                                                          |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![Graphical user interface, application Description automatically generated](media/d2c6c709dc399e2a0fda4042b7b3e367.png)  Figure 28: Capitalization of Tree Object with User-Edited Name |
+![Graphical user interface, application Description automatically generated](media/d2c6c709dc399e2a0fda4042b7b3e367.png)  
+
+Figure 28: Capitalization of Tree Object with User-Edited Name |
 
 ### Capitalization Based on Outside Sources
 
@@ -164,17 +164,17 @@ Labels should not end with a colon (:). Omitting the colon helps to reduce clutt
 
 The placement of labels for input fields depends on the context. The overall goal is to balance the competing goals of easy scanning, effective space usage, and internationalization.
 
-| ![image](media/f7434b94b3492b93348826b4356b340b.png)                                                   | For small input fields, such as in the HUD, labels are placed in front of the fields to make it easier to scan and identify the field of interest.  On the left side of the HUD bracket, the labels are left-justified, while on the right side they are right-justified. This keeps the HUD more compact, and less likely to get in the way of what the user is viewing.                                                                                                                                                                                                                                                                  |
-|---------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Input fields | Labels |
+|---|---|
+| ![image](media/f7434b94b3492b93348826b4356b340b.png)           | For small input fields, such as in the HUD, labels are placed in front of the fields to make it easier to scan and identify the field of interest.  On the left side of the HUD bracket, the labels are left-justified, while on the right side they are right-justified. This keeps the HUD more compact, and less likely to get in the way of what the user is viewing.
 | ![image](media/af6d2833fb40dfe0405afe7851c625ea.png)   ![image](media/5f8edc9a5ef72144018abe6bd9ba6cde.png) | For multi-line input fields, labels should be placed above the fields for better sizing and layout management of the form or panel.  In a form or panel, such as the HUD options, the labels and the corresponding fields should both be left-justified. Exceptions may be made if the labels in a group are of very different lengths, to avoid having any label in the group too far from its field.  In forms where the user must fill in all fields, the labels are placed above the fields because there is no need to scan them. In this case, the internationalization guideline of placing labels above the fields takes priority. |
 
 ## Wrapping for Long Labels
 
 For groups of buttons (e.g., in a ribbon), wrap long labels to optimize space usage for the set of buttons.
 
+|Group of buttons | Labels |
+|---|---|
 | ![Graphical user interface, application Description automatically generated](media/f20586879fefb4503fe6b74cf13b39ca.png) | The labels of the first two buttons here wrap to two lines because a single line would lead to extra blank horizontal space (if the other buttons shifted to the right) or cause the labels to touch other content (if the other buttons did not shift). |
-|--------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ![A picture containing diagram Description automatically generated](media/83cc1d6f1c29e52380a3d6c535f487d8.png)          | Split Edges does not wrap because that would use too much vertical space, given that there are only two buttons stacked to the right of it, and there is adequate horizontal space between Split Edges and the adjacent buttons.                         |
 
-**  
-**
