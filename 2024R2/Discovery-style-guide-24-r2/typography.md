@@ -175,6 +175,6 @@ For groups of buttons (e.g., in a ribbon), wrap long labels to optimize space us
 
 |Group of buttons | Labels |
 |---|---|
-| ![Graphical user interface, application Description automatically generated](media/f20586879fefb4503fe6b74cf13b39ca.png) | The labels of the first two buttons here wrap to two lines because a single line would lead to extra blank horizontal space (if the other buttons shifted to the right) or cause the labels to touch other content (if the other buttons did not shift). |
-| ![A picture containing diagram Description automatically generated](media/83cc1d6f1c29e52380a3d6c535f487d8.png)          | Split Edges does not wrap because that would use too much vertical space, given that there are only two buttons stacked to the right of it, and there is adequate horizontal space between Split Edges and the adjacent buttons.                         |
+| ![Graphical user interface](media/f20586879fefb4503fe6b74cf13b39ca.png) | The labels of the first two buttons here wrap to two lines because a single line would lead to extra blank horizontal space (if the other buttons shifted to the right) or cause the labels to touch other content (if the other buttons did not shift). |
+| ![A picture containing diagram Description automatically generated](media/83cc1d6f1c29e52380a3d6c535f487d8.png)  | Split Edges does not wrap because that would use too much vertical space, given that there are only two buttons stacked to the right of it, and there is adequate horizontal space between Split Edges and the adjacent buttons.     |
 
