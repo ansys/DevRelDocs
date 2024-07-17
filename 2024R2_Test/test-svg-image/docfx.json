@@ -1,0 +1,13 @@
+{
+  "build": {
+    "globalMetadata": {
+      "title": "Test image svg 7-04",
+      "summary": "",
+      "version": "2024 R2",
+      "product": "ACP",
+      "programming language": "Python",
+      "product collection": "Structures",
+      "physics": "Composites"
+    }
+  }
+}

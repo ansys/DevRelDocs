@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # AddLabelResults
 
 ### *class* ansys.meshing.prime.AddLabelResults(model=None, error_code=None, json_data=None, \*\*kwargs)
