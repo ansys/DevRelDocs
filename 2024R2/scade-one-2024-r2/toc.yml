@@ -1,5 +1,6 @@
-- name: Libraries
+- name: Introduction
   href: libraries/libraries.md
+- name: Libraries
   items:
   - name: Bitfield
     href: libraries/bitfield/bitfield.md
