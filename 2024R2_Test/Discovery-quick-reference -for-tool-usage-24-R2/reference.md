@@ -212,53 +212,83 @@ Automatically searches for and gathers all objects based on one or more criteria
 
 The user then chooses to:
 
-- Fix all areas found. 
-- Fix selected areas. 
+- Fix all areas found.
+- Fix selected areas.
 - Ignore selected areas.
 
 #### When to Use
 
-- Use to detect and repair problems. 
+- Use to detect and repair problems.
 - Use in any situation where the goal is to find objects and perform an action on them.
 
 #### Selection
 
-- Action-object 
-  - Filter to only allow selection of objects relevant to the active tool. 
+- Action-object
+  - Filter to only allow selection of objects relevant to the active tool.
 - Box-selection available for fixing/ignoring areas.
 
 #### Preview
 
-| Red orbs are placed on detected areas too small to simply highlight in red.
+Red orbs are placed on detected areas too small to simply highlight in red.
+
 #### Steps
   
-| Activate the tool. Detected “problem” areas are highlighted with red orbs. (Optional) User selects areas to ignore. Apply a “fix” as the user selects detected problem area(s). (Optional) User clicks “complete” button to fix all areas.                   |
+1. Activate the tool. 
+2. Detected “problem” areas are highlighted with red orbs. 
+3. (Optional) User selects areas to ignore. 
+4. Apply a “fix” as the user selects detected problem area(s). 
+5. (Optional) User clicks “complete” button to fix all areas.
+
 #### Examples
-                           
-| Split Edges Extra Edges Small Faces                  
+
+- Split
+- Edges
+- Extra Edges
+- Small Faces
 
 ### Review
 
 #### Description
-                      
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Allows users to review information graphically in the model context and manage relationships that can be references for object creation.  For example, face-to-face contacts may be used as locations for objects such as: Bonded Contacts Hinges Welds  Eliminates the need for relying on a long list that makes users go back and forth between the list and the model.                             
+
+Allows users to review information graphically in the model context and manage relationships that can be references for object creation.
+
+For example, face-to-face contacts may be used as locations for objects such as: 
+
+- Bonded Contacts
+- Hinges
+- Welds 
+
+Eliminates the need for relying on a long list that makes users go back and forth between the list and the model.
 
 #### When to Use
-                      
-| When there are, or could be, many similar objects that reference geometric entities in the model. When the user has a need to review and perform actions on similar objects.                           
+
+- When there are, or could be, many similar objects that reference geometric entities in the model.
+- When the user has a need to review and perform actions on similar objects.
+
 #### Selection
-                        
-| Action-object Filter to only allow selection of objects relevant to the active tool.                           
+
+- Action-object 
+  - Filter to only allow selection of objects relevant to the active tool.
+
 #### Preview
-                          
-| Highlighting should be used to graphically describe the model references. Transparency and object dimming should be used to reduce clutter and focus the user on only references related to selected objects.                      
+
+- Highlighting should be used to graphically describe the model references. 
+- Transparency and object dimming should be used to reduce clutter and focus the user on only references related to selected objects. 
+
 #### Steps
-                            
-| Activate the tool. Detected areas of attention are highlighted visually. Select one or more objects to indicate areas where the review will focus. Click on buttons provided to perform actions on the specified areas. Optionally adjust the settings in the Options panel to assist with further workflow optimization or access advanced settings. If needed, reduce the scope of detection. Use tool guides to select primary and secondary bodies/faces. Only areas pertaining to the selected bodies/faces are highlighted.  |
+
+1. Activate the tool. 
+2. Detected areas of attention are highlighted visually. 
+3. Select one or more objects to indicate areas where the review will focus. 
+4. Click on buttons provided to perform actions on the specified areas. 
+5. Optionally adjust the settings in the Options panel to assist with further workflow optimization or access advanced settings. 
+6. If needed, reduce the scope of detection. 
+   - Use tool guides to select primary and secondary bodies/faces.
+   - Only areas pertaining to the selected bodies/faces are highlighted.
+
 #### Examples
-                         
-| Contact Review       
+
+Contact Review
 
 ### Tools With Sub-Tools
 
@@ -268,11 +298,18 @@ This is not so much a workflow as it is an organizational arrangement. There is 
 
 #### When to Use
 
-When several ribbon tools have similar Purpose (e.g., structural boundary conditions) Workflow Inputs and/or options
+When several ribbon tools have similar
+
+- Purpose (e.g., structural boundary conditions) 
+- Workflow 
+- Inputs and/or options
 
 #### Selection
 
-Action-object Filter to only allow selection of objects relevant to the active tool. Object-action Use modifiers (tool guide or Alt+select) for secondary object selection.
+- Action-object 
+  - Filter to only allow selection of objects relevant to the active tool. 
+- Object-action 
+- Use modifiers (tool guide or Alt+select) for secondary object selection.
 
 #### Preview
 
@@ -280,11 +317,15 @@ Use preview as appropriate to show model changes or object creation.
 
 #### Steps
 
-Activate the higher-level tool. A default sub-tool is automatically activated. Complete the tool operation once the user provides a set of required inputs such as location reference, value input, etc.
+1. Activate the higher-level tool. 
+2. A default sub-tool is automatically activated. 
+3. Complete the tool operation once the user provides a set of required inputs such as location reference, value input, etc.
 
 #### Examples
 
-Structural Fluid Flow Solid Thermal
+- Structural 
+- Fluid Flow 
+- Solid Thermal
 
 ### Wizard
 
@@ -294,11 +335,13 @@ A single tool walks users through a sequence of steps to complete a task. Often 
 
 #### When to Use
 
-When you want to offer users a streamlined workflow for a task that involves several steps. Assumptions and default values streamline the task.
+- When you want to offer users a streamlined workflow for a task that involves several steps. 
+  - Assumptions and default values streamline the task.
 
 #### Selection
 
-Action-object to start the wizard. Each step should filter selection to only objects relevant to the current step.
+- Action-object to start the wizard. 
+- Each step should filter selection to only objects relevant to the current step.
 
 #### Preview
 
@@ -306,11 +349,16 @@ As needed per step to show model changes or object creation.
 
 #### Steps
 
-Activate the wizard. The first step tool guide is activated. Make selections for the first step. Auto advance to the next step tool guide when required selection(s) are made. When all steps have been completed, the wizard auto-completes.
+1. Activate the wizard. 
+2. The first step tool guide is activated. 
+3. Make selections for the first step. 
+4. Auto advance to the next step tool guide when required selection(s) are made. 
+5. When all steps have been completed, the wizard auto-completes.
 
 #### Examples
 
-Internal Flow External Flow 
+- Internal Flow 
+- External Flow 
 
 
 ### Modify Properties
@@ -321,7 +369,9 @@ Upon selecting an object, the select tool displays the object’s properties for
 
 #### When to Use
 
-When users need to modify properties of objects such as Blocks in a diagram Objects in a geometry model  
+- When users need to modify properties of objects such as 
+  - Blocks in a diagram 
+  - Objects in a geometry model  
 
 #### Selection
 
@@ -337,4 +387,8 @@ Select an object. The Select tool HUD displays the object’s properties. Use to
 
 #### Examples 
 
-Modify properties by selecting one of the following objects: Plane Midsurface Offset face (e.g., face of a shelled body) 
+Modify properties by selecting one of the following objects:
+
+- Plane
+- Midsurface
+- Offset face (e.g., face of a shelled body)

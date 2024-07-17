@@ -61,7 +61,7 @@ To keep icons consistent, clear, flexible, and easily scalable, follow these rul
 
 Icons have a semi-flat look, which means that while lighting and shadows make them appear somewhat 3D, they do not follow the rules of rendering like a real physical object. So, multiple elements in these icons do not cast shadows upon each other. The styling of these icons is inspired from [marker rendering](https://www.youtube.com/watch?v=MCIBxTDJIp0&t=1s) and painting techniques.
 
-![](media/e0c90abc198943d5098f0f8fabb15132.png)
+![image](media/e0c90abc198943d5098f0f8fabb15132.png)
 
 Figure 30: Examples Showing Effect of Semi-Flat Styling on Multiple Elements
 
@@ -125,17 +125,17 @@ If the icon will be used in the UI only in one specific size, the design should 
 
 Taking the example of a 12px icon, we can see that the one on the right has sharper details.
 
-![](media/e939535659a00131f5d0df583dbdd01f.png)
+![image](media/e939535659a00131f5d0df583dbdd01f.png)
 
 Figure 37: Icons without Pixel Pushing (Left) and with Pixel Pushing (Right)
 
 Looking at these icons closely, notice that the elements are different. The icon on the right renders more crisply in smaller sizes because the colors are not partially allotted to a pixel (which leads to blur and fuzziness).
 
-![](media/4234c1b17de7ceffd2513f82448b4609.png)
+![image](media/4234c1b17de7ceffd2513f82448b4609.png)
 
 Figure 38: Zoomed-In View of Icons Shown Above
 
-![](media/9f20b3422dfcfdac1a83b6a759cf2221.png)
+![image](media/9f20b3422dfcfdac1a83b6a759cf2221.png)
 
 Figure 39: Pixel Grid Overlaid on Icons
 
@@ -151,27 +151,27 @@ Examples:
 
 Symbols can be placed on a scale that ranges from completely abstract to the exact representation of the idea itself. Examples are shown below.
 
-![](media/6022f39e6ab76ffdb5a9e61202fd91ad.png)
+![image](media/6022f39e6ab76ffdb5a9e61202fd91ad.png)
 
 Figure 40: Custom Abstract Symbols
 
-![](media/161eefb6faf0609a48cb91f260272bb1.png)
+![image](media/161eefb6faf0609a48cb91f260272bb1.png)
 
 Figure 41: Universally Understood Abstract Symbols
 
-![](media/df7096d5a46b4c997f04129c8e22fd17.png)![](media/0bc80168340a7f8e35f86747fdd30b11.png)![Logo Description automatically generated](media/77c13f0b6d37c230d6878a8c90d79d74.png)
+![image](media/df7096d5a46b4c997f04129c8e22fd17.png)![image](media/0bc80168340a7f8e35f86747fdd30b11.png)![Logo Description automatically generated](media/77c13f0b6d37c230d6878a8c90d79d74.png)
 
 Figure 42: Brand Logos
 
-![](media/b2a3551fe2fa2a55e31ba727460fc076.png)
+![image](media/b2a3551fe2fa2a55e31ba727460fc076.png)
 
 Figure 43: Representational Symbols of Objects
 
-![](media/cf9bb71088c0b35345af0cf006a6032b.png)![](media/47f9712752405acfb0b5df3997051601.png)
+![image](media/cf9bb71088c0b35345af0cf006a6032b.png)![image](media/47f9712752405acfb0b5df3997051601.png)
 
 Figure 44: Combining Symbols to Generate Meaning
 
-![](media/e62bb3aeae6d3876a07789f14a4da670.png)
+![image](media/e62bb3aeae6d3876a07789f14a4da670.png)
 
 Figure 45: Representations of Objects
 

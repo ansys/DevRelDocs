@@ -1,0 +1,13 @@
+{
+  "build": {
+    "globalMetadata": {
+      "title": "Discovery quick reference for tool usage 2024 R2",
+      "summary": "",
+      "version": "2024 R2",
+      "product": "Discovery",
+      "programming language": "C#",
+      "product collection": "3D Design",
+      "physics": "3D Design"
+    }
+  }
+}
