@@ -1,4 +1,4 @@
-# Introductions
+# Introduction
 
 Scade One provides a set of libraries that can be used for model design for simulation and debug of models.
 
@@ -20,4 +20,3 @@ Type and operations on complex numbers.
 Common trigonometric functions and their inverse.
 -   **[Sources](../libraries/sources/sources.md)**  
 The Sources library provides a set of flow generators, mostly numeric, for usage in test harnesses.
-
