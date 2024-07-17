@@ -1,0 +1,11 @@
+# ansys.meshing.prime.FuseParams.angle
+
+
+
+#### *property* FuseParams.angle *: [float](https://docs.python.org/3.11/library/functions.html#float)*
+
+Faces zonelets with angle less than the provided value are considered for fuse operation.
+
+**This is a beta parameter**. **The behavior and name may change in the future**.
+
+<!-- !! processed by numpydoc !! -->
