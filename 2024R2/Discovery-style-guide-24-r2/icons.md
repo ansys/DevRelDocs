@@ -1,6 +1,4 @@
-
-
-# **Icons**
+# Icons
 
 Icons are a powerful visual communication medium in the UI: using graphical elements, they convey the meaning of a button and its function; and the active and changed status of the application. Icons also contribute to conservation of screen real estate, making sure that every pixel counts. They also help users visually process concepts faster by making them recognize them, rather than recall.
 

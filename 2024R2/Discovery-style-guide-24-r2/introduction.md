@@ -1,4 +1,4 @@
-# **Introduction**
+# Introduction
 
 This document provides guidelines for:
 
