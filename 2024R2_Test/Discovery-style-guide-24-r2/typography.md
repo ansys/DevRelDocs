@@ -8,9 +8,9 @@ The following three typefaces are used in Discovery:
 
 | **Typeface**                                      | **Usage**                                                                                       | **Reason**                                                                                                                                                          | **Example**                                                                                                           |
 |---------------------------------------------------|-------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| Source Sans 3 (latest version of Source Sans Pro) | Everything except scripting user inputs, code consoles, and overlay help                        | As a sans-serif typeface, it sets the tone for modernity and clean design. It is in line with Ansys branding guidelines and is an excellent digital interface type. | ![](media/af9066759acd8bd349300a30014128f7.png)                                                                       |
+| Source Sans 3 (latest version of Source Sans Pro) | Everything except scripting user inputs, code consoles, and overlay help                        | As a sans-serif typeface, it sets the tone for modernity and clean design. It is in line with Ansys branding guidelines and is an excellent digital interface type. | ![image](media/af9066759acd8bd349300a30014128f7.png)                                                                       |
 | Source Code Pro                                   | Scripting user input panels and consoles (except auto-suggest prompts, which use Source Sans 3) | This is an open-source monospaced typeface that has tried and tested symbol and glyph coverage for programming languages.                                           | ![A black text on a white background Description automatically generated](media/76ecd05ae70ddd5ae2a3d139e6a9492c.png) |
-| Comic Neue                                        | Overlay help                                                                                    | It is intentionally distinct to stand out from UI text in the background. The tone of this typeface is friendly and credible.                                       | ![](media/8afd5d381d49a73c7747f475cba6194d.png)                                                                       |
+| Comic Neue                                        | Overlay help                                                                                    | It is intentionally distinct to stand out from UI text in the background. The tone of this typeface is friendly and credible.                                       | ![image](media/8afd5d381d49a73c7747f475cba6194d.png)                                                                       |
 
 Avoid using multiple typefaces within the same UI element, such as a panel. One exception is where user inputs appear in Source Code Pro, while related labels and headers are in Source Sans 3.
 
@@ -63,7 +63,7 @@ For font colors in the main UI, see [Font Colors](#font-colors).
 
 For special panels using larger text (e.g., welcome screen), increment each size to the next level while maintaining the hierarchy of fonts within the panel. It is advised that the size of text in special panels does not deviate too much from the sizes set for the application.
 
-![](media/dd963a88b0f73247911bb93cf57491b5.png)
+![image](media/dd963a88b0f73247911bb93cf57491b5.png)
 
 Figure 23: Font Specifications in the Main UI
 
@@ -77,7 +77,7 @@ For font colors in help, see [Font Colors](#font-colors).
 | **Title**    | Comic Neue | 24 px  (1.5 rem)  | Bold       | Main heading |
 | **Subtitle** | Comic Neue | 14 px  (0.87 rem) | Bold       | Sub-heading  |
 
-![](media/ef6491c138ffe79edf283ce6b90eb076.png)
+![image](media/ef6491c138ffe79edf283ce6b90eb076.png)
 
 Figure 24: Font Specifications in the Overlay Help
 
@@ -116,7 +116,7 @@ Sentence-style capitalization is used for
     -   Since there are often many of these shown together, and some are meant to be read as a sentence, using sentence-style capitalization ensures consistency within the group.
     -   Examples: drop-down list labels, options in Settings panel, inputs in HUD or HUD options panel, options in panels that open from the ribbon.
 
-![](media/3f7a8b7a6774b7b5447e5a44a91f3ad2.png)
+![image](media/3f7a8b7a6774b7b5447e5a44a91f3ad2.png)
 
 Figure 26: Examples of Sentence-Style Capitalization
 
@@ -164,9 +164,9 @@ Labels should not end with a colon (:). Omitting the colon helps to reduce clutt
 
 The placement of labels for input fields depends on the context. The overall goal is to balance the competing goals of easy scanning, effective space usage, and internationalization.
 
-| ![](media/f7434b94b3492b93348826b4356b340b.png)                                                   | For small input fields, such as in the HUD, labels are placed in front of the fields to make it easier to scan and identify the field of interest.  On the left side of the HUD bracket, the labels are left-justified, while on the right side they are right-justified. This keeps the HUD more compact, and less likely to get in the way of what the user is viewing.                                                                                                                                                                                                                                                                  |
+| ![image](media/f7434b94b3492b93348826b4356b340b.png)                                                   | For small input fields, such as in the HUD, labels are placed in front of the fields to make it easier to scan and identify the field of interest.  On the left side of the HUD bracket, the labels are left-justified, while on the right side they are right-justified. This keeps the HUD more compact, and less likely to get in the way of what the user is viewing.                                                                                                                                                                                                                                                                  |
 |---------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![](media/af6d2833fb40dfe0405afe7851c625ea.png)   ![](media/5f8edc9a5ef72144018abe6bd9ba6cde.png) | For multi-line input fields, labels should be placed above the fields for better sizing and layout management of the form or panel.  In a form or panel, such as the HUD options, the labels and the corresponding fields should both be left-justified. Exceptions may be made if the labels in a group are of very different lengths, to avoid having any label in the group too far from its field.  In forms where the user must fill in all fields, the labels are placed above the fields because there is no need to scan them. In this case, the internationalization guideline of placing labels above the fields takes priority. |
+| ![image](media/af6d2833fb40dfe0405afe7851c625ea.png)   ![image](media/5f8edc9a5ef72144018abe6bd9ba6cde.png) | For multi-line input fields, labels should be placed above the fields for better sizing and layout management of the form or panel.  In a form or panel, such as the HUD options, the labels and the corresponding fields should both be left-justified. Exceptions may be made if the labels in a group are of very different lengths, to avoid having any label in the group too far from its field.  In forms where the user must fill in all fields, the labels are placed above the fields because there is no need to scan them. In this case, the internationalization guideline of placing labels above the fields takes priority. |
 
 ## Wrapping for Long Labels
 
