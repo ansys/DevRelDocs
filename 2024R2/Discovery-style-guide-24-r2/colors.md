@@ -1,4 +1,4 @@
-# **Colors**
+# Colors
 
 ## Color Palettes and Their Usage
 

@@ -1,4 +1,4 @@
-# **Typography**
+# Typography
 
 ## Typefaces and Fonts
 
