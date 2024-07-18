@@ -21,7 +21,7 @@ Discovery will search for manifest files in all of the following areas:
 
 **Notes:**
 
-1.  Putting the manifest file in the ProgramData\\Discovery\\Addins directory is the approach to follow when an Add-in should only be visible for a single user.
+1.  Putting the manifest file in the ProgramData\\Discovery\\Addins directory is the approach to follow when an add-in should only be visible for a single user.
 2.  Putting the manifest file in the Addins folder inside the Discovery installation folder typically requires Administrative privileges and should be done for add-ins that are installed as part of Discovery.
 3.  Creating a string value in the add-ins registry is the recommended approach when a third party add-in is installed. This way, Discovery and the add-in do not need to know where each other is installed.
 

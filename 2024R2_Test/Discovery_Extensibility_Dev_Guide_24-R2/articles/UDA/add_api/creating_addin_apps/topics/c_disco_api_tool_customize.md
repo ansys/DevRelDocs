@@ -21,6 +21,8 @@ class CustomTool : Tool
 }
 ```
 
+This XML defines the layout and structure of the options panel for a custom tool.
+
 ```
 <?xml version="1.0" encoding="utf-8"?> 
 <customUI xmlns="http://schemas.spaceclaim.com/customui"> 
