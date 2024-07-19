@@ -8,7 +8,7 @@ The figure shows the output flow for a ramp with the following inputs:
 -   amplitude: 1
 -   offset: 0
 
-![](../images/n__ramp_00.svg)
+![](../images/n__ramp_00.png)
 
 ## Interface
 

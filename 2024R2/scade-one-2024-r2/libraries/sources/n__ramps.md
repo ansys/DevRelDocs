@@ -8,7 +8,7 @@ The figure shows the output flow for a sequence of 3 ramps with the following in
 -   amplitudes: \[1.8, -1.4, 1.0\]
 -   offsets: \[-0.8, 1.0, -0.4\]
 
-![](../images/n__ramps_00.svg)
+![](../images/n__ramps_00.png)
 
 ## Interface
 

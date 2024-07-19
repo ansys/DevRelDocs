@@ -4,7 +4,7 @@ Returns true while the input property has never been true.
 
 The following figure shows the output prop for the input p:
 
-![Never](../images/check__never_00.svg)
+![Never](../images/check__never_00.png)
 
 ## Interface
 
