@@ -8,7 +8,7 @@ The figure shows the output flow for a step with the following inputs:
 -   amplitude: 1
 -   offset: 0
 
-![](../images/n__step_00.svg)
+![](../images/n__step_00.png)
 
 ## Interface
 

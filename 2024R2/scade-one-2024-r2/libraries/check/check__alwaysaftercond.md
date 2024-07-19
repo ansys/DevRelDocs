@@ -4,7 +4,7 @@ Returns true while the input property has never been false after a condition bec
 
 The following figure shows the output prop for the inputs p and c:
 
-![Always](../images/check__alwaysaftercond_00.svg)
+![Always](../images/check__alwaysaftercond_00.png)
 
 ## Interface
 
