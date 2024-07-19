@@ -9,7 +9,7 @@ The figure shows the output flow for a sine with the following inputs:
 -   amplitude: 1
 -   offset: 0
 
-![](../images/n__sine_00.svg)
+![](../images/n__sine_00.png)
 
 ## Interface
 

@@ -4,7 +4,7 @@ Returns false if p has not been true within the next n cycles once c becomes tru
 
 The following figure shows the output prop for the input p, c and 3 cycles:
 
-![Between N Cycles](../images/check__betweenn_00.svg)
+![Between N Cycles](../images/check__betweenn_00.png)
 
 ## Interface
 

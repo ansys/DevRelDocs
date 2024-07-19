@@ -4,7 +4,7 @@ Returns true if the input property is true at least once before the condition is
 
 The following figure shows the output prop for the inputs p and c:
 
-![Before Condition](../images/check__beforecond_00.svg)
+![Before Condition](../images/check__beforecond_00.png)
 
 ## Interface
 

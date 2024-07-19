@@ -8,7 +8,7 @@ The figure shows the output flow for a sawtooth waveform with the following inpu
 -   amplitude: 1
 -   offset: 0
 
-![](../images/n__sawtooth_00.svg)
+![](../images/n__sawtooth_00.png)
 
 ## Interface
 

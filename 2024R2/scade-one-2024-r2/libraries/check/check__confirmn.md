@@ -4,7 +4,7 @@ Returns true if the input property has been true for a given number of cycles.
 
 The following figure shows the output prop for the input p and 3 cycles:
 
-![Confirm N Cycles](../images/check__confirmn_00.svg)
+![Confirm N Cycles](../images/check__confirmn_00.png)
 
 ## Interface
 
