@@ -9,7 +9,7 @@ The figure shows the output flow for a PWM with the following inputs:
 -   amplitude: 1
 -   offset: 0
 
-![](../images/n__pwm_00.svg)
+![](../images/n__pwm_00.png)
 
 ## Interface
 

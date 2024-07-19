@@ -4,7 +4,7 @@ Returns true if the input property is always false after the first given number 
 
 The following figure shows the output prop for the input p and 3 cycles:
 
-![At Most N Cycles](../images/check__atmostn_00.svg)
+![At Most N Cycles](../images/check__atmostn_00.png)
 
 ## Interface
 

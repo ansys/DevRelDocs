@@ -8,7 +8,7 @@ The figure shows the output flow for a square waveform with the following inputs
 -   amplitude: 2
 -   offset: -1
 
-![](../images/n__square_00.svg)
+![](../images/n__square_00.png)
 
 ## Interface
 

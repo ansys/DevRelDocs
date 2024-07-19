@@ -8,7 +8,7 @@ The figure shows the output flow for a sequence of 3 ramps with the following in
 -   ts \(timesample\): 0.2
 -   values: \[-0.8, 1, -0.4, 0.6\]
 
-![](../images/t__sequence_00.svg)
+![](../images/t__sequence_00.png)
 
 ## Interface
 

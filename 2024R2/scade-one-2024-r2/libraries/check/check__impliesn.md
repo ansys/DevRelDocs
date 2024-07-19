@@ -4,7 +4,7 @@ Returns the value of q during n cycles starting when p is true, otherwise true.
 
 The following figure shows the output prop for the input p, q and 3 cycles:
 
-![Implies N Cycles](../images/check__impliesn_00.svg)
+![Implies N Cycles](../images/check__impliesn_00.png)
 
 ## Interface
 
