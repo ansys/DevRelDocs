@@ -41,7 +41,7 @@ The Sample Add-in project \(C\#\) contains programming examples of how to use va
 
 ## Add-ins frequently asked questions
 
-1.  **What can I do when my add-in project can’t build because it’s missing references or packages? Add-ins require several Discovery DLL libraries:**
+1.  **What can I do when my Add-in project can’t build because it’s missing references or packages? Add-ins require several Discovery DLL libraries:**
 
     `Discovery.API.2X`
 
@@ -49,9 +49,9 @@ The Sample Add-in project \(C\#\) contains programming examples of how to use va
 
     `SpaceClaim.API.2X.Internal`
 
-2.  **What can I do when my add-in project is built, but I can’t see it in Discovery?**
+2.  **What can I do when my Add-in project is built, but I can’t see it in Discovery?**
 
-    Either the add-in is not completely built, or it is just not visible on Discovery.
+    Either the Add-in is not completely built, or it is just not visible on Discovery.
 
     Check Discovery Settings \> Add-in and determine if the add-in is present. If it’s found, go to the Ribbon section in the advanced part.
 
