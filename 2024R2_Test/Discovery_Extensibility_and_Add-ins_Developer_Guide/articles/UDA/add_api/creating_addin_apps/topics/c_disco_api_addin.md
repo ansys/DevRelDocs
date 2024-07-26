@@ -4,7 +4,7 @@ The Discovery Application Programming Interface \(API\) Developer Guide contains
 
 This document contains information on the following:
 
--   The basic infrastructure for add-in customization.
+-   The basic infrastructure for Add-in customization.
 -   How to add custom elements to the User Interface.
 -   An overview of the geometry architecture.
 
