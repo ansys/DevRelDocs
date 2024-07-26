@@ -4,7 +4,7 @@ Returns true if the input property is true at least once before the first given 
 
 The following figure shows the output prop for the input p and 3 cycles:
 
-![Before N Cycles](../images/check__beforen_00.png)
+![Before N Cycles](../images/check__beforen_00.svg)
 
 ## Interface
 

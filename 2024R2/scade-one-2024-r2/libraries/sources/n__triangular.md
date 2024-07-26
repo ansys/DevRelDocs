@@ -8,7 +8,7 @@ The figure shows the output flow for a triangular waveform with the following in
 -   amplitude: 2
 -   offset: -1
 
-![](../images/n__triangular_00.png)
+![](../images/n__triangular_00.svg)
 
 ## Interface
 

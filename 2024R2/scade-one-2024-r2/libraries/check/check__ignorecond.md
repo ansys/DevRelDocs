@@ -4,7 +4,7 @@ Returns the input property as soon as the input condition turns to true, otherwi
 
 The following figure shows the output prop for the inputs p and c:
 
-![Ignore Until Condition](../images/check__ignorecond_00.png)
+![Ignore Until Condition](../images/check__ignorecond_00.svg)
 
 ## Interface
 

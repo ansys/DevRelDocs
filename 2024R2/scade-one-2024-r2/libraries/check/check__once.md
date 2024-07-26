@@ -4,7 +4,7 @@ Returns true once the input property has been true.
 
 The following figure shows the output prop for the input p:
 
-![Once](../images/check__once_00.png)
+![Once](../images/check__once_00.svg)
 
 ## Interface
 
