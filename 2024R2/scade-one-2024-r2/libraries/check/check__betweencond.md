@@ -4,7 +4,7 @@ Returns false if p has not been true after the start condition is true and befor
 
 The following figure shows the output prop for the inputs p, s and e:
 
-![Between Conditions](../images/check__betweencond_00.png)
+![Between Conditions](../images/check__betweencond_00.svg)
 
 ## Interface
 

@@ -4,7 +4,7 @@ Returns true if the input property is always false after the first occurrence of
 
 The following figure shows the output prop for the inputs p and c:
 
-![At Most Until Condition](../images/check__atmostcond_00.png)
+![At Most Until Condition](../images/check__atmostcond_00.svg)
 
 ## Interface
 

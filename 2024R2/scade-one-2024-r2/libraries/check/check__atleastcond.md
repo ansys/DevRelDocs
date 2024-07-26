@@ -4,7 +4,7 @@ Returns true if the input property has always been true before the first occurre
 
 The following figure shows the output prop for the inputs p and c:
 
-![At Least Until Condition](../images/check__atleastcond_00.png)
+![At Least Until Condition](../images/check__atleastcond_00.svg)
 
 ## Interface
 

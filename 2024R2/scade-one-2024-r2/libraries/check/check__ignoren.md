@@ -4,7 +4,7 @@ Returns the input property after a given number of cycles, otherwise true.
 
 The following figure shows the output prop for the input p and 3 cycles:
 
-![Ignore Until N Cycles](../images/check__ignoren_00.png)
+![Ignore Until N Cycles](../images/check__ignoren_00.svg)
 
 ## Interface
 

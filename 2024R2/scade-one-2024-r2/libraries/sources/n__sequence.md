@@ -7,7 +7,7 @@ The figure shows the output flow for a sequence of 3 ramps with the following in
 -   cycles: \[5, 15, 5\]
 -   values: \[-0.8, 1, -0.4, 0.6\]
 
-![](../images/n__sequence_00.png)
+![](../images/n__sequence_00.svg)
 
 ## Interface
 

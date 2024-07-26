@@ -4,7 +4,7 @@ Returns true after a given number of cycles.
 
 The following figure shows the output prop for 3 cycles.
 
-![Cycles](../images/check__cycles_00.png)
+![Cycles](../images/check__cycles_00.svg)
 
 ## Interface
 

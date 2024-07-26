@@ -4,7 +4,7 @@ Returns true while the input property has never been false after a given number 
 
 The following figure shows the output prop for the input p and 3 cycles:
 
-![Always After N Cycles](../images/check__alwaysaftern_00.png)
+![Always After N Cycles](../images/check__alwaysaftern_00.svg)
 
 ## Interface
 

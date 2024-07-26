@@ -4,7 +4,7 @@ Returns true if the input property has been true for the first given number of c
 
 The following figure shows the output prop for the input p and 3 cycles:
 
-![At Least N Cycles](../images/check__atleastn_00.png)
+![At Least N Cycles](../images/check__atleastn_00.svg)
 
 ## Interface
 
