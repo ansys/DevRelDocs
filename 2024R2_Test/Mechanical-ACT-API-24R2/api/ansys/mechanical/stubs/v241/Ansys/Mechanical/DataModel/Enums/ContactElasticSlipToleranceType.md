@@ -1,0 +1,41 @@
+# `ContactElasticSlipToleranceType`
+
+
+
+#### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactElasticSlipToleranceType
+
+Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
+
+Specifies the ContactElasticSlipToleranceType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
+
+## Overview
+
+### Attributes
+
+| Name |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [`Factor`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactElasticSlipToleranceType.md#ContactElasticSlipToleranceType.Factor) |
+| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactElasticSlipToleranceType.md#ContactElasticSlipToleranceType.ProgramControlled) |
+| [`Value`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactElasticSlipToleranceType.md#ContactElasticSlipToleranceType.Value) |
+
+<a id="attribute-detail"></a>
+
+## Attribute detail
+
+<a id="ContactElasticSlipToleranceType.Factor"></a>
+
+### ContactElasticSlipToleranceType.Factor *= 2*
+
+<a id="ContactElasticSlipToleranceType.ProgramControlled"></a>
+
+### ContactElasticSlipToleranceType.ProgramControlled *= 0*
+
+<a id="ContactElasticSlipToleranceType.Value"></a>
+
+### ContactElasticSlipToleranceType.Value *= 1*
+
+
