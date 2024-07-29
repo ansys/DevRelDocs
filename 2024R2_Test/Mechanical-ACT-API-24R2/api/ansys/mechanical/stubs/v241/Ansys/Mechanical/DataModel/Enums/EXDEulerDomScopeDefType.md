@@ -1,0 +1,34 @@
+# `EXDEulerDomScopeDefType`
+
+
+
+#### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EXDEulerDomScopeDefType
+
+Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
+
+## Overview
+
+### Attributes
+
+| Name |
+| ------------------------------------------------------------------------------------------------------------------------------------------ |
+| [`eAllBodies`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EXDEulerDomScopeDefType.md#EXDEulerDomScopeDefType.eAllBodies) |
+| [`eEulerianOnly`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EXDEulerDomScopeDefType.md#EXDEulerDomScopeDefType.eEulerianOnly) |
+
+<a id="attribute-detail"></a>
+
+## Attribute detail
+
+<a id="EXDEulerDomScopeDefType.eAllBodies"></a>
+
+### EXDEulerDomScopeDefType.eAllBodies *= 0*
+
+<a id="EXDEulerDomScopeDefType.eEulerianOnly"></a>
+
+### EXDEulerDomScopeDefType.eEulerianOnly *= 1*
+
+

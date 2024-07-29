@@ -1,0 +1,46 @@
+# `StabilizationType`
+
+
+
+#### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StabilizationType
+
+Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
+
+Specifies the StabilizationType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
+
+## Overview
+
+### Attributes
+
+| Name |
+| -------------------------------------------------------------------------------------------------------------------------------------- |
+| [`Constant`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/StabilizationType.md#StabilizationType.Constant) |
+| [`Off`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/StabilizationType.md#StabilizationType.Off) |
+| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/StabilizationType.md#StabilizationType.ProgramControlled) |
+| [`Reduce`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/StabilizationType.md#StabilizationType.Reduce) |
+
+<a id="attribute-detail"></a>
+
+## Attribute detail
+
+<a id="StabilizationType.Constant"></a>
+
+### StabilizationType.Constant *= 1*
+
+<a id="StabilizationType.Off"></a>
+
+### StabilizationType.Off *= 0*
+
+<a id="StabilizationType.ProgramControlled"></a>
+
+### StabilizationType.ProgramControlled *= 3*
+
+<a id="StabilizationType.Reduce"></a>
+
+### StabilizationType.Reduce *= 2*
+
+

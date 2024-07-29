@@ -1,0 +1,36 @@
+# `AggressiveRemeshingType`
+
+
+
+#### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AggressiveRemeshingType
+
+Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
+
+Specifies the AggressiveRemeshingType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
+
+## Overview
+
+### Attributes
+
+| Name |
+| ------------------------------------------------------------------------------------------------------------------------ |
+| [`Off`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AggressiveRemeshingType.md#AggressiveRemeshingType.Off) |
+| [`On`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AggressiveRemeshingType.md#AggressiveRemeshingType.On) |
+
+<a id="attribute-detail"></a>
+
+## Attribute detail
+
+<a id="AggressiveRemeshingType.Off"></a>
+
+### AggressiveRemeshingType.Off *= 0*
+
+<a id="AggressiveRemeshingType.On"></a>
+
+### AggressiveRemeshingType.On *= 1*
+
+

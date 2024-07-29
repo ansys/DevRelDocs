@@ -1,0 +1,41 @@
+# `DelaminationType`
+
+
+
+#### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DelaminationType
+
+Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
+
+Specifies the DelaminationType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
+
+## Overview
+
+### Attributes
+
+| Name |
+| -------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`ContactDebonding`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DelaminationType.md#DelaminationType.ContactDebonding) |
+| [`CrackGrowth`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DelaminationType.md#DelaminationType.CrackGrowth) |
+| [`InterfaceDelamination`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DelaminationType.md#DelaminationType.InterfaceDelamination) |
+
+<a id="attribute-detail"></a>
+
+## Attribute detail
+
+<a id="DelaminationType.ContactDebonding"></a>
+
+### DelaminationType.ContactDebonding *= 2*
+
+<a id="DelaminationType.CrackGrowth"></a>
+
+### DelaminationType.CrackGrowth *= 3*
+
+<a id="DelaminationType.InterfaceDelamination"></a>
+
+### DelaminationType.InterfaceDelamination *= 1*
+
+

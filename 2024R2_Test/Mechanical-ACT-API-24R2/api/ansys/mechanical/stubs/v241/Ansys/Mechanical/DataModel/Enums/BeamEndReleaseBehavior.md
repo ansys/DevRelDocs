@@ -1,0 +1,36 @@
+# `BeamEndReleaseBehavior`
+
+
+
+#### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BeamEndReleaseBehavior
+
+Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
+
+Specifies the BeamEndReleaseBehavior.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
+
+## Overview
+
+### Attributes
+
+| Name |
+| ------------------------------------------------------------------------------------------------------------------------------ |
+| [`Coupled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/BeamEndReleaseBehavior.md#BeamEndReleaseBehavior.Coupled) |
+| [`Joint`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/BeamEndReleaseBehavior.md#BeamEndReleaseBehavior.Joint) |
+
+<a id="attribute-detail"></a>
+
+## Attribute detail
+
+<a id="BeamEndReleaseBehavior.Coupled"></a>
+
+### BeamEndReleaseBehavior.Coupled *= 0*
+
+<a id="BeamEndReleaseBehavior.Joint"></a>
+
+### BeamEndReleaseBehavior.Joint *= 1*
+
+
