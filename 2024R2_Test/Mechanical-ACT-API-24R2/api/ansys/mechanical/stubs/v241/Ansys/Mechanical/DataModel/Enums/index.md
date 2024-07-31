@@ -1,5 +1,3 @@
-
-
 # `Enums`
 
 <a id="summary"></a>

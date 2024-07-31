@@ -1,5 +1,3 @@
-
-
 # `Edges`
 
 <a id="summary"></a>

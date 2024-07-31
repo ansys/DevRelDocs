@@ -1,5 +1,3 @@
-
-
 # `AdditiveManufacturing`
 
 <a id="summary"></a>

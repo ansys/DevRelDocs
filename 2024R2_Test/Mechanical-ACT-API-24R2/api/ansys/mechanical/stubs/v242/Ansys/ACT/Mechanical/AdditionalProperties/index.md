@@ -1,5 +1,3 @@
-
-
 # `AdditionalProperties`
 
 <a id="summary"></a>

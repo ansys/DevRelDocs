@@ -1,5 +1,3 @@
-
-
 # `Interfaces`
 
 <a id="summary"></a>

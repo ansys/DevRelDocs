@@ -1,5 +1,3 @@
-
-
 # `Utilities`
 
 <a id="summary"></a>

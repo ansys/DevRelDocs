@@ -30,11 +30,11 @@ Defines a Analysis.
 | [`AddOptimizationRegion`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddOptimizationRegion)                                                   | Creates a new OptimizationRegion                                                                                       |
 | [`AddAcousticTemperature`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddAcousticTemperature)                                                 | Creates a new child ThermalCondition.                                                                                  |
 | [`AddSourceConductor`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddSourceConductor)                                                         | Creates a new child SourceConductor.                                                                                   |
-| [`WriteSystemCouplingFiles`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.WriteSystemCouplingFiles)                                             | Writes the system coupling files. Usage WriteSystemCouplingFiles(‚ÄúC:Desktoptempscp1.scp‚Äù);                             |
+| [`WriteSystemCouplingFiles`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.WriteSystemCouplingFiles)                                             | Writes the system coupling files. Usage WriteSystemCouplingFiles(ìC:Desktoptempscp1.scpî);                             |
 | [`CreateAutomaticFarFieldRadiationSurfaces`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.CreateAutomaticFarFieldRadiationSurfaces)             | Run the CreateAutomaticEquivalentSourceSurfaces action.                                                                |
 | [`CreateAutomaticFSI`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.CreateAutomaticFSI)                                                         | Run the CreateAutomaticFSI action.                                                                                     |
 | [`CreateAutomaticFSIandFarFieldRadiationSurfaces`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.CreateAutomaticFSIandFarFieldRadiationSurfaces) | Run the CreateAutomaticFSIandEquivalentSourceSurfaces action.                                                          |
-| [`SelectBodiesWithoutPhysicsRegion`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.SelectBodiesWithoutPhysicsRegion)                             | Run the SelectBodiesWithoutPhysicsRegion action to select the bodies that don‚Äôt belong to a Physics Region.            |
+| [`SelectBodiesWithoutPhysicsRegion`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.SelectBodiesWithoutPhysicsRegion)                             | Run the SelectBodiesWithoutPhysicsRegion action to select the bodies that donít belong to a Physics Region.            |
 | [`SelectBodiesWithMultiplePhysicsRegion`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.SelectBodiesWithMultiplePhysicsRegion)                   | Run the SelectBodiesWithMultiplePhysicsRegion action to select the bodies that belong to more than one Physics Region. |
 | [`AddImportedLoadMAPDLResultsFile`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddImportedLoadMAPDLResultsFile)                               | Creates a new Import Load for MAPDL Results File.                                                                      |
 | [`AddImportedLoadFluidsResultsFile`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddImportedLoadFluidsResultsFile)                             | Creates a new Import Load for Fluids Results File.                                                                     |
@@ -203,7 +203,7 @@ Defines a Analysis.
 | [`Thermal`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.Thermal)                                 | Gets the Thermal.                                             |
 | [`AnalysisSettings`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AnalysisSettings)               | Gets the AnalysisSettings.                                    |
 | [`Solution`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.Solution)                               | Gets the Solution.                                            |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.DataModelObjectCategory) | Gets the current DataModelObject‚Äôs category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.DataModelObjectCategory) | Gets the current DataModelObjectís category.                  |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.Children)                               | Gets the list of children.                                    |
 | [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.Figures)                                 | Gets the list of associated figures.                          |
@@ -349,7 +349,7 @@ Gets the Solution.
 
 ### *property* Analysis.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject‚Äôs category.
+Gets the current DataModelObjectís category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -522,7 +522,7 @@ Creates a new child SourceConductor.
 
 ### Analysis.WriteSystemCouplingFiles(filename: System.String)
 
-Writes the system coupling files. Usage WriteSystemCouplingFiles(‚ÄúC:Desktoptempscp1.scp‚Äù);
+Writes the system coupling files. Usage WriteSystemCouplingFiles(ìC:Desktoptempscp1.scpî);
 
 <!-- !! processed by numpydoc !! -->
 
@@ -554,7 +554,7 @@ Run the CreateAutomaticFSIandEquivalentSourceSurfaces action.
 
 ### Analysis.SelectBodiesWithoutPhysicsRegion()
 
-Run the SelectBodiesWithoutPhysicsRegion action to select the bodies that don‚Äôt belong to a Physics Region.
+Run the SelectBodiesWithoutPhysicsRegion action to select the bodies that donít belong to a Physics Region.
 
 <!-- !! processed by numpydoc !! -->
 

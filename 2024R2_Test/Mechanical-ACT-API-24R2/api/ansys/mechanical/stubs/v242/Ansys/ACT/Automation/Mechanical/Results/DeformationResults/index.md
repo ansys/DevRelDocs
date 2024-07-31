@@ -1,5 +1,3 @@
-
-
 # `DeformationResults`
 
 <a id="summary"></a>

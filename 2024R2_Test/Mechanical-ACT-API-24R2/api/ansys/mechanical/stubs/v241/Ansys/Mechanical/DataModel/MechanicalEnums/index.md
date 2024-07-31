@@ -1,5 +1,3 @@
-
-
 # `MechanicalEnums`
 
 <a id="summary"></a>

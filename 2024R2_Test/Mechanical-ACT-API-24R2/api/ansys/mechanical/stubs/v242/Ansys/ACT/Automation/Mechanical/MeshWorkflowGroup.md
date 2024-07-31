@@ -18,9 +18,9 @@ Defines a MeshWorkflowGroup.
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [`GenerateWorkflows`](#MeshWorkflowGroup.GenerateWorkflows)                                           | Generates all mesh workflows, i.e. executes the ‚ÄúInput‚Äù, the ‚ÄúSteps‚Äù, and the ‚ÄúOutput‚Äù as needed.                                                                                                                                                                                                                      |
+| [`GenerateWorkflows`](#MeshWorkflowGroup.GenerateWorkflows)                                           | Generates all mesh workflows, i.e. executes the ìInputî, the ìStepsî, and the ìOutputî as needed.                                                                                                                                                                                                                      |
 | [`ClearGeneratedData`](#MeshWorkflowGroup.ClearGeneratedData)                                         | Resets all mesh workflows completely, i.e. also the geometry scoping transferred into each mesh workflow will be reset and all inactive geometry parts/bodies will become active again. Steps, controls, and outcomes will be reset to their initial state while any user-defined property settings will remain as-is. |
-| [`AddMeshWorkflow`](#MeshWorkflowGroup.AddMeshWorkflow)                                               | Adds a new workflow to the ‚ÄúMeshWorkflowGroup‚Äù object.                                                                                                                                                                                                                                                                 |
+| [`AddMeshWorkflow`](#MeshWorkflowGroup.AddMeshWorkflow)                                               | Adds a new workflow to the ìMeshWorkflowGroupî object.                                                                                                                                                                                                                                                                 |
 | [`GetSolidSurfaceMeshQualityWarningLimit`](#MeshWorkflowGroup.GetSolidSurfaceMeshQualityWarningLimit) | Get Mesh Quality Warning Limit                                                                                                                                                                                                                                                                                         |
 | [`Delete`](#MeshWorkflowGroup.Delete)                                                                 | Run the Delete action.                                                                                                                                                                                                                                                                                                 |
 | [`GetChildren`](#id1)                                                                                 | Gets the list of children, filtered by type.                                                                                                                                                                                                                                                                           |
@@ -45,7 +45,7 @@ Defines a MeshWorkflowGroup.
 |-------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                | Gets the internal object. For advanced usage only.            |
 | [`ActiveWorkflow`](#MeshWorkflowGroup.ActiveWorkflow)                   | Gets the ActiveWorkflow.                                      |
-| [`DataModelObjectCategory`](#MeshWorkflowGroup.DataModelObjectCategory) | Gets the current DataModelObject‚Äôs category.                  |
+| [`DataModelObjectCategory`](#MeshWorkflowGroup.DataModelObjectCategory) | Gets the current DataModelObjectís category.                  |
 | [`Children`](#MeshWorkflowGroup.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#MeshWorkflowGroup.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#MeshWorkflowGroup.Figures)                                 | Gets the list of associated figures.                          |
@@ -78,7 +78,7 @@ Gets the ActiveWorkflow.
 
 ### *property* MeshWorkflowGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject‚Äôs category.
+Gets the current DataModelObjectís category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -146,7 +146,7 @@ Gets the list of properties that are visible for this object.
 
 ### MeshWorkflowGroup.GenerateWorkflows()
 
-Generates all mesh workflows, i.e. executes the ‚ÄúInput‚Äù, the ‚ÄúSteps‚Äù, and the ‚ÄúOutput‚Äù as needed.
+Generates all mesh workflows, i.e. executes the ìInputî, the ìStepsî, and the ìOutputî as needed.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -162,7 +162,7 @@ Resets all mesh workflows completely, i.e. also the geometry scoping transferred
 
 ### MeshWorkflowGroup.AddMeshWorkflow(type: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.WorkflowType](../../../../../v241/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/WorkflowType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.WorkflowType))
 
-Adds a new workflow to the ‚ÄúMeshWorkflowGroup‚Äù object.
+Adds a new workflow to the ìMeshWorkflowGroupî object.
 
 <!-- !! processed by numpydoc !! -->
 

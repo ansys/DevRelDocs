@@ -1,5 +1,3 @@
-
-
 # `Tools`
 
 <a id="summary"></a>

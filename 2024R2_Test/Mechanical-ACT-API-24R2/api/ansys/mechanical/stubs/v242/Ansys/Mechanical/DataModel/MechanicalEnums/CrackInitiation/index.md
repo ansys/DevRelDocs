@@ -1,5 +1,3 @@
-
-
 # `CrackInitiation`
 
 <a id="summary"></a>

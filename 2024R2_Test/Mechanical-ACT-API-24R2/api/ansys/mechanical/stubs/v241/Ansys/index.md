@@ -1,5 +1,3 @@
-
-
 # `Ansys`
 
 <a id="summary"></a>

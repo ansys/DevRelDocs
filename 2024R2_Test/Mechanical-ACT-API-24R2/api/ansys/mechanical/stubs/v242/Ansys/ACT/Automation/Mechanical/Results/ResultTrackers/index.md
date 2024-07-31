@@ -1,5 +1,3 @@
-
-
 # `ResultTrackers`
 
 <a id="summary"></a>

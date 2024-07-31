@@ -1,5 +1,3 @@
-
-
 # `ScriptableResults`
 
 <a id="summary"></a>

@@ -1,5 +1,3 @@
-
-
 # `MeshControls`
 
 <a id="summary"></a>

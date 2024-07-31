@@ -253,7 +253,7 @@ If StitchType is User, specifies the tolerance to use for stitching detection.
 Specifies what facet quality should be used for the import.
 The default value is Source meaning that the facets as represented in the CAD
 system or use a Normal option for those that do not have display.
-The others are relative settings compared to ‚Äúnormal‚Äù facet quality.
+The others are relative settings compared to ìnormalî facet quality.
 Typically, better facet quality requires more memory and may take additional time to import/update.
 
 <!-- !! processed by numpydoc !! -->

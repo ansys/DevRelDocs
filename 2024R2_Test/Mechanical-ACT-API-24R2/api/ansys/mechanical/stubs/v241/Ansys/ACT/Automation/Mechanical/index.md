@@ -1,5 +1,3 @@
-
-
 # `Mechanical`
 
 <a id="summary"></a>

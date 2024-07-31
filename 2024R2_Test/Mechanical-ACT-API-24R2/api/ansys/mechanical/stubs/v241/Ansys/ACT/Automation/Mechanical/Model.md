@@ -122,7 +122,7 @@ Defines a Model.
 | [`TableGroup`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Model.md#Model.TableGroup)                           | Gets the TableGroup.                                                                                                                                                                                                                                                                                          |
 | [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Model.md#id0)                                    | Gets the internal object. For advanced usage only.                                                                                                                                                                                                                                                            |
 | [`Ambient`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Model.md#Model.Ambient)                                 | Gets or sets the Ambient Lighting factor.                                                                                                                                                                                                                                                                     |
-| [`Color`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Model.md#Model.Color)                                     | Gets or sets the Lighting Color. Can also be set using Hex color codes; three byte hexadecimal numbers (consisting of six digits) preceded by ‚Äò0x‚Äô, where each byte (or pair of characters in the Hex code) represents the intensity of red, green and blue in the color respectively. For example, 0xFFFFFF. |
+| [`Color`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Model.md#Model.Color)                                     | Gets or sets the Lighting Color. Can also be set using Hex color codes; three byte hexadecimal numbers (consisting of six digits) preceded by ë0xí, where each byte (or pair of characters in the Hex code) represents the intensity of red, green and blue in the color respectively. For example, 0xFFFFFF. |
 | [`Diffuse`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Model.md#Model.Diffuse)                                 | Gets or sets the Diffuse Lighting factor.                                                                                                                                                                                                                                                                     |
 | [`Control`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Model.md#Model.Control)                                 | Gets the Control.                                                                                                                                                                                                                                                                                             |
 | [`Specular`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Model.md#Model.Specular)                               | Gets or sets the Specular Lighting factor.                                                                                                                                                                                                                                                                    |
@@ -147,7 +147,7 @@ Defines a Model.
 | [`Symmetry`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Model.md#Model.Symmetry)                               | Gets the Symmetry.                                                                                                                                                                                                                                                                                            |
 | [`VirtualTopology`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Model.md#Model.VirtualTopology)                 | Gets the VirtualTopology.                                                                                                                                                                                                                                                                                     |
 | [`Analyses`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Model.md#Model.Analyses)                               | Gets the Analyses.                                                                                                                                                                                                                                                                                            |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Model.md#Model.DataModelObjectCategory) | Gets the current DataModelObject‚Äôs category.                                                                                                                                                                                                                                                                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Model.md#Model.DataModelObjectCategory) | Gets the current DataModelObjectís category.                                                                                                                                                                                                                                                                  |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Model.md#Model.Children)                               | Gets the list of children.                                                                                                                                                                                                                                                                                    |
 | [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Model.md#Model.Comments)                               | Gets the list of associated comments.                                                                                                                                                                                                                                                                         |
 | [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Model.md#Model.Figures)                                 | Gets the list of associated figures.                                                                                                                                                                                                                                                                          |
@@ -220,7 +220,7 @@ Gets or sets the Ambient Lighting factor.
 
 ### *property* Model.Color *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the Lighting Color. Can also be set using Hex color codes; three byte hexadecimal numbers (consisting of six digits) preceded by ‚Äò0x‚Äô, where each byte (or pair of characters in the Hex code) represents the intensity of red, green and blue in the color respectively. For example, 0xFFFFFF.
+Gets or sets the Lighting Color. Can also be set using Hex color codes; three byte hexadecimal numbers (consisting of six digits) preceded by ë0xí, where each byte (or pair of characters in the Hex code) represents the intensity of red, green and blue in the color respectively. For example, 0xFFFFFF.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -420,7 +420,7 @@ Gets the Analyses.
 
 ### *property* Model.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject‚Äôs category.
+Gets the current DataModelObjectís category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -494,7 +494,7 @@ Valid input arguments include:
 
 > 1. double
 > 2. Quantity
-> 3. A string representation of double or Quantity, i.e., ‚Äú1.0‚Äù or ‚Äú1.0 [cm]‚Äù
+> 3. A string representation of double or Quantity, i.e., ì1.0î or ì1.0 [cm]î
 <!-- !! processed by numpydoc !! -->
 
 <a id="Model.CreateCylindricalNut"></a>
@@ -507,7 +507,7 @@ Valid input arguments include:
 
 > 1. double
 > 2. Quantity
-> 3. A string representation of double or Quantity, i.e., ‚Äú1.0‚Äù or ‚Äú1.0 [cm]‚Äù
+> 3. A string representation of double or Quantity, i.e., ì1.0î or ì1.0 [cm]î
 <!-- !! processed by numpydoc !! -->
 
 <a id="Model.CreateHexBolt"></a>
@@ -520,7 +520,7 @@ Valid input arguments include:
 
 > 1. double
 > 2. Quantity
-> 3. A string representation of double or Quantity, i.e., ‚Äú1.0‚Äù or ‚Äú1.0 [cm]‚Äù
+> 3. A string representation of double or Quantity, i.e., ì1.0î or ì1.0 [cm]î
 <!-- !! processed by numpydoc !! -->
 
 <a id="Model.CreateHexNut"></a>
@@ -533,7 +533,7 @@ Valid input arguments include:
 
 > 1. double
 > 2. Quantity
-> 3. A string representation of double or Quantity, i.e., ‚Äú1.0‚Äù or ‚Äú1.0 [cm]‚Äù
+> 3. A string representation of double or Quantity, i.e., ì1.0î or ì1.0 [cm]î
 <!-- !! processed by numpydoc !! -->
 
 <a id="Model.CreatePartInstance"></a>
@@ -559,7 +559,7 @@ Get the transformation matrix of the provided part.
 ### Model.SetTransformationOnPart(part: Ansys.ACT.Interfaces.Geometry.IGeoPart, transformationMatrix: [Ansys.Mechanical.DataModel.Utilities.RigidBodyTransformationMatrix](../../../Mechanical/DataModel/Utilities/RigidBodyTransformationMatrix.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Utilities.RigidBodyTransformationMatrix))
 
 Transform a part with given transformation. Only rigid body transformation is
-supported, i.e., no scaling will be performed. The validity of ‚ÄútransformationMatrix‚Äù
+supported, i.e., no scaling will be performed. The validity of ìtransformationMatrixî
 will be checked against the constraints of rigid body transforms; an error will be
 emitted if the matrix is ill-formed.
 

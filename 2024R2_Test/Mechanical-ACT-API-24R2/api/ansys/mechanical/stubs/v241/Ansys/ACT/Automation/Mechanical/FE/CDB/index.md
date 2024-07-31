@@ -1,5 +1,3 @@
-
-
 # `CDB`
 
 <a id="summary"></a>

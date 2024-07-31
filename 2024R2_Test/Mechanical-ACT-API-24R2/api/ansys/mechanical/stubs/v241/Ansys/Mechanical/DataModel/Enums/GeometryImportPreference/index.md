@@ -1,5 +1,3 @@
-
-
 # `GeometryImportPreference`
 
 <a id="summary"></a>

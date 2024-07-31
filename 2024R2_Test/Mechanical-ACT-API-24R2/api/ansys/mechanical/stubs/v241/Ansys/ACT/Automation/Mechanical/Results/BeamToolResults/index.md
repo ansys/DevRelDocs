@@ -1,5 +1,3 @@
-
-
 # `BeamToolResults`
 
 <a id="summary"></a>

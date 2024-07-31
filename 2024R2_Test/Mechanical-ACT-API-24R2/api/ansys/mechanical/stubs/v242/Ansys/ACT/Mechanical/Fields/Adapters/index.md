@@ -1,5 +1,3 @@
-
-
 # `Adapters`
 
 <a id="summary"></a>

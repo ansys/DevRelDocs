@@ -1,5 +1,3 @@
-
-
 # `Math`
 
 <a id="summary"></a>

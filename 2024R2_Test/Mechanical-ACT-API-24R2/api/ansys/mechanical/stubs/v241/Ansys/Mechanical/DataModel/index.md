@@ -1,5 +1,3 @@
-
-
 # `DataModel`
 
 <a id="summary"></a>

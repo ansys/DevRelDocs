@@ -1,5 +1,3 @@
-
-
 # `CondensedParts`
 
 <a id="summary"></a>

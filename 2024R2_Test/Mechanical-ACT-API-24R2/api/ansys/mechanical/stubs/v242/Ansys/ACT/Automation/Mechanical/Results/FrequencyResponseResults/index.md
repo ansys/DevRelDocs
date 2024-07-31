@@ -1,5 +1,3 @@
-
-
 # `FrequencyResponseResults`
 
 <a id="summary"></a>

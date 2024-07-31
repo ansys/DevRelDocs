@@ -1,5 +1,3 @@
-
-
 # `Automation`
 
 <a id="summary"></a>

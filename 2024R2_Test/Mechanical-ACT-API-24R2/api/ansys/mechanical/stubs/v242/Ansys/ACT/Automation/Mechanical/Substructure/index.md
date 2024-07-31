@@ -1,5 +1,3 @@
-
-
 # `Substructure`
 
 <a id="summary"></a>

@@ -1,5 +1,3 @@
-
-
 # `ThermalResults`
 
 <a id="summary"></a>

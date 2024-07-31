@@ -1,5 +1,3 @@
-
-
 # `BoltToolResults`
 
 <a id="summary"></a>

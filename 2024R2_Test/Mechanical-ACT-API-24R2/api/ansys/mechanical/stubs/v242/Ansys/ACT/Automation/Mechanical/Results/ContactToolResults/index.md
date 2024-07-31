@@ -1,5 +1,3 @@
-
-
 # `ContactToolResults`
 
 <a id="summary"></a>
