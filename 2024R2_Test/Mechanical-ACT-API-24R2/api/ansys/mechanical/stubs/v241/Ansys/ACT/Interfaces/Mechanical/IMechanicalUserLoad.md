@@ -1,0 +1,12 @@
+# `IMechanicalUserLoad`
+
+
+
+#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Interfaces.Mechanical.IMechanicalUserLoad
+
+Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
+
+Defines a Mechanical user load.
+
+<!-- !! processed by numpydoc !! -->
+

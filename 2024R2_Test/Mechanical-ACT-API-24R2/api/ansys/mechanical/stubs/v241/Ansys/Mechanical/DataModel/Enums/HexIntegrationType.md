@@ -1,0 +1,36 @@
+# `HexIntegrationType`
+
+
+
+#### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.HexIntegrationType
+
+Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
+
+Specifies the HexIntegrationType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
+
+## Overview
+
+### Attributes
+
+| Name |
+| ---------------------------------------------------------------------------------------------------------------------------- |
+| [`OnePtGauss`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/HexIntegrationType.md#HexIntegrationType.OnePtGauss) |
+| [`Exact`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/HexIntegrationType.md#HexIntegrationType.Exact) |
+
+<a id="attribute-detail"></a>
+
+## Attribute detail
+
+<a id="HexIntegrationType.OnePtGauss"></a>
+
+### HexIntegrationType.OnePtGauss *= 1*
+
+<a id="HexIntegrationType.Exact"></a>
+
+### HexIntegrationType.Exact *= 0*
+
+

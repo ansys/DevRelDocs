@@ -1,0 +1,41 @@
+# `RestartType`
+
+
+
+#### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RestartType
+
+Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
+
+Specifies the RestartType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
+
+## Overview
+
+### Attributes
+
+| Name |
+| -------------------------------------------------------------------------------------------------------------------------- |
+| [`Manual`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RestartType.md#RestartType.Manual) |
+| [`Off`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RestartType.md#RestartType.Off) |
+| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RestartType.md#RestartType.ProgramControlled) |
+
+<a id="attribute-detail"></a>
+
+## Attribute detail
+
+<a id="RestartType.Manual"></a>
+
+### RestartType.Manual *= 1*
+
+<a id="RestartType.Off"></a>
+
+### RestartType.Off *= 2*
+
+<a id="RestartType.ProgramControlled"></a>
+
+### RestartType.ProgramControlled *= 0*
+
+

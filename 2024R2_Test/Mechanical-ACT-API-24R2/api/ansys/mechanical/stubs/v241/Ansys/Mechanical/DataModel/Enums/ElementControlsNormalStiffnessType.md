@@ -1,0 +1,41 @@
+# `ElementControlsNormalStiffnessType`
+
+
+
+#### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ElementControlsNormalStiffnessType
+
+Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
+
+Specifies the ElementControlsNormalStiffnessType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
+
+## Overview
+
+### Attributes
+
+| Name |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [`AbsoluteValue`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ElementControlsNormalStiffnessType.md#ElementControlsNormalStiffnessType.AbsoluteValue) |
+| [`Factor`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ElementControlsNormalStiffnessType.md#ElementControlsNormalStiffnessType.Factor) |
+| [`FromContactRegion`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ElementControlsNormalStiffnessType.md#ElementControlsNormalStiffnessType.FromContactRegion) |
+
+<a id="attribute-detail"></a>
+
+## Attribute detail
+
+<a id="ElementControlsNormalStiffnessType.AbsoluteValue"></a>
+
+### ElementControlsNormalStiffnessType.AbsoluteValue *= 2*
+
+<a id="ElementControlsNormalStiffnessType.Factor"></a>
+
+### ElementControlsNormalStiffnessType.Factor *= 1*
+
+<a id="ElementControlsNormalStiffnessType.FromContactRegion"></a>
+
+### ElementControlsNormalStiffnessType.FromContactRegion *= 0*
+
+
