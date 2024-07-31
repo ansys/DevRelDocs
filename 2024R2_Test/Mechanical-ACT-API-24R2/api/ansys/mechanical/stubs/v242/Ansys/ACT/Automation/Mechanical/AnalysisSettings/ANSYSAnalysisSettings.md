@@ -205,7 +205,7 @@ Defines a ANSYSAnalysisSettings.
 | [`SpinSoftening`](#ANSYSAnalysisSettings.SpinSoftening)                                                       | Gets or sets the SpinSoftening.                                                                                                  |
 | [`UserDefinedFrequencySteps`](#ANSYSAnalysisSettings.UserDefinedFrequencySteps)                               | Gets or sets the UserDefinedFrequencySteps.                                                                                      |
 | [`OutputSelection`](#ANSYSAnalysisSettings.OutputSelection)                                                   | Gets or sets the Output Selection property in the Output Controls group of Analysis Settings.                                    |
-| [`NamedSelection`](#ANSYSAnalysisSettings.NamedSelection)                                                     | Gets or sets the objects of type NamedSelection to ‚Äì Named Selection property in the Output Controls group of Analysis Settings. |
+| [`NamedSelection`](#ANSYSAnalysisSettings.NamedSelection)                                                     | Gets or sets the objects of type NamedSelection to ñ Named Selection property in the Output Controls group of Analysis Settings. |
 | [`InternalObject`](#id0)                                                                                      | Gets the internal object. For advanced usage only.                                                                               |
 | [`MassCoefficient`](#ANSYSAnalysisSettings.MassCoefficient)                                                   | Gets or sets the MassCoefficient.                                                                                                |
 | [`StiffnessCoefficient`](#ANSYSAnalysisSettings.StiffnessCoefficient)                                         | Gets or sets the StiffnessCoefficient.                                                                                           |
@@ -462,7 +462,7 @@ Defines a ANSYSAnalysisSettings.
 | [`ElectricOnly`](#ANSYSAnalysisSettings.ElectricOnly)                                                         | Gets or sets the ElectricOnly.                                                                                                   |
 | [`StructuralOnly`](#ANSYSAnalysisSettings.StructuralOnly)                                                     | Gets or sets the StructuralOnly.                                                                                                 |
 | [`ThermalOnly`](#ANSYSAnalysisSettings.ThermalOnly)                                                           | Gets or sets the ThermalOnly.                                                                                                    |
-| [`DataModelObjectCategory`](#ANSYSAnalysisSettings.DataModelObjectCategory)                                   | Gets the current DataModelObject‚Äôs category.                                                                                     |
+| [`DataModelObjectCategory`](#ANSYSAnalysisSettings.DataModelObjectCategory)                                   | Gets the current DataModelObjectís category.                                                                                     |
 | [`Graph`](#ANSYSAnalysisSettings.Graph)                                                                       | Graph property.                                                                                                                  |
 | [`ScratchSolverFilesDirectory`](#ANSYSAnalysisSettings.ScratchSolverFilesDirectory)                           | Gets the ScratchSolverFilesDirectory.                                                                                            |
 | [`SolverFilesDirectory`](#ANSYSAnalysisSettings.SolverFilesDirectory)                                         | Gets the SolverFilesDirectory.                                                                                                   |
@@ -618,9 +618,9 @@ Gets or sets the Output Selection property in the Output Controls group of Analy
 
 ### *property* ANSYSAnalysisSettings.NamedSelection *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.NamedSelection](../../../../../../v241/Ansys/ACT/Automation/Mechanical/NamedSelection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NamedSelection)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the objects of type NamedSelection to ‚Äì Named Selection property in the Output Controls group of Analysis Settings.
+Gets or sets the objects of type NamedSelection to ñ Named Selection property in the Output Controls group of Analysis Settings.
 If the OutputSelection != OutputSelection.NamedSelection,
-1. NamedSelection cannot be set. An exception will be thrown saying ‚ÄúCannot modify ANSYSAnalysisSettings.NamedSelection if ANSYSAnalysisSettings.OutputSelection is not set to ‚ÄúOutputSelection.NamedSelection‚Äù.‚Äù
+1. NamedSelection cannot be set. An exception will be thrown saying ìCannot modify ANSYSAnalysisSettings.NamedSelection if ANSYSAnalysisSettings.OutputSelection is not set to ìOutputSelection.NamedSelectionî.î
 2. Getting the NamedSelection value will return an empty list.
 
 <!-- !! processed by numpydoc !! -->
@@ -2677,7 +2677,7 @@ Gets or sets the ThermalOnly.
 
 ### *property* ANSYSAnalysisSettings.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject‚Äôs category.
+Gets the current DataModelObjectís category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -2826,7 +2826,7 @@ Gets the Force Convergence Tolerance as a percentage at a given solution step.
 ### ANSYSAnalysisSettings.SetForceConvergenceTolerance(stepNumber: System.UInt32, value: System.Double)
 
 Sets the Force Convergence Tolerance as a percentage for a given solution step.
-For example if the user input is 5% then the ‚Äúvalue‚Äù argument should be set to 5.
+For example if the user input is 5% then the ìvalueî argument should be set to 5.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -2891,7 +2891,7 @@ Gets the Moment Convergence Tolerance as a percentage at a given solution step.
 ### ANSYSAnalysisSettings.SetMomentConvergenceTolerance(stepNumber: System.UInt32, value: System.Double)
 
 Sets the Moment Convergence Tolerance as a percentage for a given solution step.
-For example if the user input is 5% then the ‚Äúvalue‚Äù argument should be set to 5.
+For example if the user input is 5% then the ìvalueî argument should be set to 5.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -2956,7 +2956,7 @@ Gets the Displacement Convergence Tolerance as a percentage at a given solution 
 ### ANSYSAnalysisSettings.SetDisplacementConvergenceTolerance(stepNumber: System.UInt32, value: System.Double)
 
 Sets the Displacement Convergence Tolerance as a percentage for a given solution step.
-For example if the user input is 5% then the ‚Äúvalue‚Äù argument should be set to 5.
+For example if the user input is 5% then the ìvalueî argument should be set to 5.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -3021,7 +3021,7 @@ Gets the Rotation Convergence Tolerance as a percentage at a given solution step
 ### ANSYSAnalysisSettings.SetRotationConvergenceTolerance(stepNumber: System.UInt32, value: System.Double)
 
 Sets the Rotation Convergence Tolerance as a percentage for a given solution step.
-For example if the user input is 5% then the ‚Äúvalue‚Äù argument should be set to 5.
+For example if the user input is 5% then the ìvalueî argument should be set to 5.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -3070,7 +3070,7 @@ Sets the Temperature Convergence Tolerance type for a given solution step.
 ### ANSYSAnalysisSettings.SetTemperatureConvergenceTolerance(stepNumber: System.UInt32, value: System.Double)
 
 Sets the Temperature Convergence Tolerance as a percentage for a given solution step.
-For example if the user input is 5% then the ‚Äúvalue‚Äù argument should be set to 5.
+For example if the user input is 5% then the ìvalueî argument should be set to 5.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -3111,7 +3111,7 @@ Sets the Heat Convergence Tolerance type for a given solution step.
 ### ANSYSAnalysisSettings.SetHeatConvergenceTolerance(stepNumber: System.UInt32, value: System.Double)
 
 Sets the Heat Convergence Tolerance as a percentage for a given solution step.
-For example if the user input is 5% then the ‚Äúvalue‚Äù argument should be set to 5.
+For example if the user input is 5% then the ìvalueî argument should be set to 5.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -3144,7 +3144,7 @@ Sets the Voltage Convergence Tolerance type for a given solution step.
 ### ANSYSAnalysisSettings.SetVoltageConvergenceTolerance(stepNumber: System.UInt32, value: System.Double)
 
 Sets the Voltage Convergence Tolerance as a percentage for a given solution step.
-For example if the user input is 5% then the ‚Äúvalue‚Äù argument should be set to 5.
+For example if the user input is 5% then the ìvalueî argument should be set to 5.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -3177,7 +3177,7 @@ Sets the Charge Convergence Tolerance type for a given solution step.
 ### ANSYSAnalysisSettings.SetChargeConvergenceTolerance(stepNumber: System.UInt32, value: System.Double)
 
 Sets the Charge Convergence Tolerance as a percentage for a given solution step.
-For example if the user input is 5% then the ‚Äúvalue‚Äù argument should be set to 5.
+For example if the user input is 5% then the ìvalueî argument should be set to 5.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -3210,7 +3210,7 @@ Sets the Energy Convergence Tolerance type for a given solution step.
 ### ANSYSAnalysisSettings.SetEnergyConvergenceTolerance(stepNumber: System.UInt32, value: System.Double)
 
 Sets the Energy Convergence Tolerance as a percentage for a given solution step.
-For example if the user input is 5% then the ‚Äúvalue‚Äù argument should be set to 5.
+For example if the user input is 5% then the ìvalueî argument should be set to 5.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -3243,7 +3243,7 @@ Sets the Current Convergence Tolerance type for a given solution step.
 ### ANSYSAnalysisSettings.SetCurrentConvergenceTolerance(stepNumber: System.UInt32, value: System.Double)
 
 Sets the Current Convergence Tolerance as a percentage for a given solution step.
-For example if the user input is 5% then the ‚Äúvalue‚Äù argument should be set to 5.
+For example if the user input is 5% then the ìvalueî argument should be set to 5.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -3276,7 +3276,7 @@ Sets the EmagAMPS Convergence Tolerance type for a given solution step.
 ### ANSYSAnalysisSettings.SetEmagAMPSConvergenceTolerance(stepNumber: System.UInt32, value: System.Double)
 
 Sets the EmagAMPS Convergence Tolerance as a percentage for a given solution step.
-For example if the user input is 5% then the ‚Äúvalue‚Äù argument should be set to 5.
+For example if the user input is 5% then the ìvalueî argument should be set to 5.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -3309,7 +3309,7 @@ Sets the EmagCSG Convergence Tolerance type for a given solution step.
 ### ANSYSAnalysisSettings.SetEmagCSGConvergenceTolerance(stepNumber: System.UInt32, value: System.Double)
 
 Sets the EmagCSG Convergence Tolerance as a percentage for a given solution step.
-For example if the user input is 5% then the ‚Äúvalue‚Äù argument should be set to 5.
+For example if the user input is 5% then the ìvalueî argument should be set to 5.
 
 <!-- !! processed by numpydoc !! -->
 

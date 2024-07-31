@@ -19,8 +19,8 @@ Object that wraps IDSEngineeringModelGeometryOperationAuto.
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [`Delete`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStep.md#MeshWorkflowStep.Delete)                                   | Run the Delete action.                                                                                                                                                                                            |
-| [`AddControl`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStep.md#MeshWorkflowStep.AddControl)                           | Adds a MeshWorkflowControl node as child node of the ‚ÄúStep‚Äù tree node. This control node can be created under any step node. This node is created to set properties that are required for executing an operation. |
-| [`AddOutcome`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStep.md#MeshWorkflowStep.AddOutcome)                           | Adds a MeshWorkflowOutcome node as child node of the ‚ÄúStep‚Äù tree node. This outcome node can be created under any step node. This node is created to see the results after executing an operation.                |
+| [`AddControl`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStep.md#MeshWorkflowStep.AddControl)                           | Adds a MeshWorkflowControl node as child node of the ìStepî tree node. This control node can be created under any step node. This node is created to set properties that are required for executing an operation. |
+| [`AddOutcome`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStep.md#MeshWorkflowStep.AddOutcome)                           | Adds a MeshWorkflowOutcome node as child node of the ìStepî tree node. This outcome node can be created under any step node. This node is created to see the results after executing an operation.                |
 | [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStep.md#id1)                                                  | Gets the list of children, filtered by type.                                                                                                                                                                      |
 | [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStep.md#id1)                                                  | Gets the list of children, filtered by type.                                                                                                                                                                      |
 | [`AddFigure`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStep.md#MeshWorkflowStep.AddFigure)                             | Creates a new child Figure.                                                                                                                                                                                       |
@@ -42,7 +42,7 @@ Object that wraps IDSEngineeringModelGeometryOperationAuto.
 |-----------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`OperationType`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStep.md#MeshWorkflowStep.OperationType)                     | Returns the type of the operation. .                          |
 | [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStep.md#id0)                                               | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStep.md#MeshWorkflowStep.DataModelObjectCategory) | Gets the current DataModelObject‚Äôs category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStep.md#MeshWorkflowStep.DataModelObjectCategory) | Gets the current DataModelObjectís category.                  |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStep.md#MeshWorkflowStep.Children)                               | Gets the list of children.                                    |
 | [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStep.md#MeshWorkflowStep.Figures)                                 | Gets the list of associated figures.                          |
 | [`Images`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStep.md#MeshWorkflowStep.Images)                                   | Gets the list of associated images.                           |
@@ -74,7 +74,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* MeshWorkflowStep.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject‚Äôs category.
+Gets the current DataModelObjectís category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -142,7 +142,7 @@ Run the Delete action.
 
 ### MeshWorkflowStep.AddControl(type: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ControlType](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ControlType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ControlType))
 
-Adds a MeshWorkflowControl node as child node of the ‚ÄúStep‚Äù tree node. This control node can be created under any step node. This node is created to set properties that are required for executing an operation.
+Adds a MeshWorkflowControl node as child node of the ìStepî tree node. This control node can be created under any step node. This node is created to set properties that are required for executing an operation.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -150,7 +150,7 @@ Adds a MeshWorkflowControl node as child node of the ‚ÄúStep‚Äù tree node. This 
 
 ### MeshWorkflowStep.AddOutcome(type: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.OutcomeType](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/OutcomeType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.OutcomeType))
 
-Adds a MeshWorkflowOutcome node as child node of the ‚ÄúStep‚Äù tree node. This outcome node can be created under any step node. This node is created to see the results after executing an operation.
+Adds a MeshWorkflowOutcome node as child node of the ìStepî tree node. This outcome node can be created under any step node. This node is created to see the results after executing an operation.
 
 <!-- !! processed by numpydoc !! -->
 

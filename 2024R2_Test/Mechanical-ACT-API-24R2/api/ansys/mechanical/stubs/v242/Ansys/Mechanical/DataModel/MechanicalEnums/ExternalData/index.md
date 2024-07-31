@@ -1,5 +1,3 @@
-
-
 # `ExternalData`
 
 <a id="summary"></a>

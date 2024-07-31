@@ -1,5 +1,3 @@
-
-
 # `FluidPenetrationPressure`
 
 <a id="summary"></a>

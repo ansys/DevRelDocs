@@ -22,8 +22,8 @@ IReadOnlyDataSeries interface.
 | [`Count`](../../../../v242/Ansys/Mechanical/Interfaces/IReadOnlyDataSeries.md#IReadOnlyDataSeries.Count)               | Gets the number of data points.                                                        |
 | [`DataType`](../../../../v242/Ansys/Mechanical/Interfaces/IReadOnlyDataSeries.md#IReadOnlyDataSeries.DataType)         | Gets the type stored by the data series.                                               |
 | [`Name`](../../../../v242/Ansys/Mechanical/Interfaces/IReadOnlyDataSeries.md#IReadOnlyDataSeries.Name)                 | Gets the name of the data series.                                                      |
-| [`QuantityName`](../../../../v242/Ansys/Mechanical/Interfaces/IReadOnlyDataSeries.md#IReadOnlyDataSeries.QuantityName) | Gets the quantity name of the data series, e.g., â€œLengthâ€, â€œPressureâ€, or â€œHeat Fluxâ€. |
-| [`Unit`](../../../../v242/Ansys/Mechanical/Interfaces/IReadOnlyDataSeries.md#IReadOnlyDataSeries.Unit)                 | Gets the string representation of the data series units, e.g., â€œmâ€, â€œkg m^-1 s^-2â€,    |
+| [`QuantityName`](../../../../v242/Ansys/Mechanical/Interfaces/IReadOnlyDataSeries.md#IReadOnlyDataSeries.QuantityName) | Gets the quantity name of the data series, e.g., “Length”, “Pressure”, or “Heat Flux”. |
+| [`Unit`](../../../../v242/Ansys/Mechanical/Interfaces/IReadOnlyDataSeries.md#IReadOnlyDataSeries.Unit)                 | Gets the string representation of the data series units, e.g., “m”, “kg m^-1 s^-2”,    |
 | [`Values`](../../../../v242/Ansys/Mechanical/Interfaces/IReadOnlyDataSeries.md#IReadOnlyDataSeries.Values)             | Explicitly get the values of the data series.                                          |
 
 <a id="property-detail"></a>
@@ -66,7 +66,7 @@ Gets the name of the data series.
 
 ### *property* IReadOnlyDataSeries.QuantityName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the quantity name of the data series, e.g., â€œLengthâ€, â€œPressureâ€, or â€œHeat Fluxâ€.
+Gets the quantity name of the data series, e.g., “Length”, “Pressure”, or “Heat Flux”.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -74,8 +74,8 @@ Gets the quantity name of the data series, e.g., â€œLengthâ€, â€œPressureâ€, o
 
 ### *property* IReadOnlyDataSeries.Unit *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the string representation of the data series units, e.g., â€œmâ€, â€œkg m^-1 s^-2â€,
-or â€œkg m^2 s^-3â€.
+Gets the string representation of the data series units, e.g., “m”, “kg m^-1 s^-2”,
+or “kg m^2 s^-3”.
 
 <!-- !! processed by numpydoc !! -->
 

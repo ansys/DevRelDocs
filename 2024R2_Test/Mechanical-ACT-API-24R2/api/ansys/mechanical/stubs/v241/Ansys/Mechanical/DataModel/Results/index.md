@@ -1,5 +1,3 @@
-
-
 # `Results`
 
 <a id="summary"></a>

@@ -1,5 +1,3 @@
-
-
 # `SolveProcessSettings`
 
 <a id="summary"></a>

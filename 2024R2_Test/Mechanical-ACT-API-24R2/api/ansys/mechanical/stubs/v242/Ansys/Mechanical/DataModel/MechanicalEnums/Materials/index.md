@@ -1,5 +1,3 @@
-
-
 # `Materials`
 
 <a id="summary"></a>

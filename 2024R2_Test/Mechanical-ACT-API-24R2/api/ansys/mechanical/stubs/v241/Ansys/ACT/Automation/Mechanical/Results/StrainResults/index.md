@@ -1,5 +1,3 @@
-
-
 # `StrainResults`
 
 <a id="summary"></a>

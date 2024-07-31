@@ -1,5 +1,3 @@
-
-
 # `NASTRAN`
 
 <a id="summary"></a>

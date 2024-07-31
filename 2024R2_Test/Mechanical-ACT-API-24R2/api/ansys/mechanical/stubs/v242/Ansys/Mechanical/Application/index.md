@@ -1,5 +1,3 @@
-
-
 # `Application`
 
 <a id="summary"></a>

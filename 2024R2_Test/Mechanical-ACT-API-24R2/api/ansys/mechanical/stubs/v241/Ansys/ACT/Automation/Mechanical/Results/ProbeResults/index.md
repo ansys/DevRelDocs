@@ -1,5 +1,3 @@
-
-
 # `ProbeResults`
 
 <a id="summary"></a>

@@ -53,9 +53,9 @@ Object that wraps IDSEngineeringModelControl.
 | [`MeshFlowControl`](#MeshWorkflowControl.MeshFlowControl)                                 | This property gives control over the flow of mesh during surface mesh generation. The supported modes are None, and Global Cartesian.                                                                                                     |
 | [`TriangleCountReductionMode`](#MeshWorkflowControl.TriangleCountReductionMode)           | This property gives control over the mode/degree of triangle count reduction during surface mesh generation. The supported modes are None, Conservative and Aggressive.                                                                   |
 | [`VolumeMeshType`](#MeshWorkflowControl.VolumeMeshType)                                   | Type of Volume elements such as Tetrahedrons and Hex.                                                                                                                                                                                     |
-| [`CenterPosition`](#MeshWorkflowControl.CenterPosition)                                   | It is defined by ‚ÄúCentered‚Äù, ‚ÄúMinimal‚Äù, and ‚ÄúUser Defined‚Äù.                                                                                                                                                                               |
+| [`CenterPosition`](#MeshWorkflowControl.CenterPosition)                                   | It is defined by ìCenteredî, ìMinimalî, and ìUser Definedî.                                                                                                                                                                               |
 | [`RegionType`](#MeshWorkflowControl.RegionType)                                           | It is defined by Material Point or External.                                                                                                                                                                                              |
-| [`MaterialPointType`](#MeshWorkflowControl.MaterialPointType)                             | It defines the type of material point, it can be ‚ÄúInclude‚Äù or ‚ÄúExclude‚Äù.                                                                                                                                                                  |
+| [`MaterialPointType`](#MeshWorkflowControl.MaterialPointType)                             | It defines the type of material point, it can be ìIncludeî or ìExcludeî.                                                                                                                                                                  |
 | [`XCoordinate`](#MeshWorkflowControl.XCoordinate)                                         | It defines the X Coordinate.                                                                                                                                                                                                              |
 | [`ZCoordinate`](#MeshWorkflowControl.ZCoordinate)                                         | It defines the Z Coordinate.                                                                                                                                                                                                              |
 | [`YCoordinate`](#MeshWorkflowControl.YCoordinate)                                         | It defines the Y Coordinate.                                                                                                                                                                                                              |
@@ -74,7 +74,7 @@ Object that wraps IDSEngineeringModelControl.
 | [`NumberOfLayers`](#MeshWorkflowControl.NumberOfLayers)                                   | Number of layers of mesh elements.                                                                                                                                                                                                        |
 | [`FaceZoneName`](#MeshWorkflowControl.FaceZoneName)                                       | This property is used to define the name of the default face zone name generated during execution of step.                                                                                                                                |
 | [`Filename`](#MeshWorkflowControl.Filename)                                               | Assign full path to the filename would like to Import/Export.                                                                                                                                                                             |
-| [`Filenames`](#MeshWorkflowControl.Filenames)                                             | Assign paths with ‚Äò|‚Äô seperator to this property to read multiple files, pass without seperator if single file.                                                                                                                           |
+| [`Filenames`](#MeshWorkflowControl.Filenames)                                             | Assign paths with ë|í seperator to this property to read multiple files, pass without seperator if single file.                                                                                                                           |
 | [`NumberOfAttempts`](#MeshWorkflowControl.NumberOfAttempts)                               | Number of attempts for mesh convergence.                                                                                                                                                                                                  |
 | [`LabelName`](#MeshWorkflowControl.LabelName)                                             | This property is used to rename the default label name generated during execution of step.                                                                                                                                                |
 | [`PartName`](#MeshWorkflowControl.PartName)                                               | This property allows user to rename the default part name generated during wrap operation.                                                                                                                                                |
@@ -110,7 +110,7 @@ Object that wraps IDSEngineeringModelControl.
 | [`ReverseSurfaceOrientation`](#MeshWorkflowControl.ReverseSurfaceOrientation)             | Reverse Surface Orientation. The default value is false.                                                                                                                                                                                  |
 | [`WrapByParts`](#MeshWorkflowControl.WrapByParts)                                         | Gets or sets whether to wrap each part separately. The default value is false.                                                                                                                                                            |
 | [`CoordinateSystem`](#MeshWorkflowControl.CoordinateSystem)                               | Gets or sets the Coordinate System object used to define the material point location.                                                                                                                                                     |
-| [`DataModelObjectCategory`](#MeshWorkflowControl.DataModelObjectCategory)                 | Gets the current DataModelObject‚Äôs category.                                                                                                                                                                                              |
+| [`DataModelObjectCategory`](#MeshWorkflowControl.DataModelObjectCategory)                 | Gets the current DataModelObjectís category.                                                                                                                                                                                              |
 | [`Children`](#MeshWorkflowControl.Children)                                               | Gets the list of children.                                                                                                                                                                                                                |
 | [`Figures`](#MeshWorkflowControl.Figures)                                                 | Gets the list of associated figures.                                                                                                                                                                                                      |
 | [`Images`](#MeshWorkflowControl.Images)                                                   | Gets the list of associated images.                                                                                                                                                                                                       |
@@ -246,7 +246,7 @@ Type of Volume elements such as Tetrahedrons and Hex.
 
 ### *property* MeshWorkflowControl.CenterPosition *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.SphereCenterDefinitionType](../../../../../v241/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/SphereCenterDefinitionType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.SphereCenterDefinitionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-It is defined by ‚ÄúCentered‚Äù, ‚ÄúMinimal‚Äù, and ‚ÄúUser Defined‚Äù.
+It is defined by ìCenteredî, ìMinimalî, and ìUser Definedî.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -262,7 +262,7 @@ It is defined by Material Point or External.
 
 ### *property* MeshWorkflowControl.MaterialPointType *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.MaterialPointType](../../../../../v241/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/MaterialPointType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.MaterialPointType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-It defines the type of material point, it can be ‚ÄúInclude‚Äù or ‚ÄúExclude‚Äù.
+It defines the type of material point, it can be ìIncludeî or ìExcludeî.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -414,7 +414,7 @@ Assign full path to the filename would like to Import/Export.
 
 ### *property* MeshWorkflowControl.Filenames *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Assign paths with ‚Äò|‚Äô seperator to this property to read multiple files, pass without seperator if single file.
+Assign paths with ë|í seperator to this property to read multiple files, pass without seperator if single file.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -702,7 +702,7 @@ Gets or sets the Coordinate System object used to define the material point loca
 
 ### *property* MeshWorkflowControl.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject‚Äôs category.
+Gets the current DataModelObjectís category.
 
 <!-- !! processed by numpydoc !! -->
 

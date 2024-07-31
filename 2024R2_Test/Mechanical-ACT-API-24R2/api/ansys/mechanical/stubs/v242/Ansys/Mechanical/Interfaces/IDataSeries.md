@@ -20,8 +20,8 @@ IDataSeries interface.
 |---------------------------------------------|------------------------------------------------------------------------------------------------|
 | [`DataType`](#IDataSeries.DataType)         |                                                                                                |
 | [`Name`](#IDataSeries.Name)                 | Gets or sets the name of the data series.                                                      |
-| [`QuantityName`](#IDataSeries.QuantityName) | Gets or sets the quantity name of the data series, e.g., â€œLengthâ€, â€œPressureâ€, or â€œHeat Fluxâ€. |
-| [`Unit`](#IDataSeries.Unit)                 | Gets or sets a string representation of the data series units, e.g., â€œmâ€,                      |
+| [`QuantityName`](#IDataSeries.QuantityName) | Gets or sets the quantity name of the data series, e.g., “Length”, “Pressure”, or “Heat Flux”. |
+| [`Unit`](#IDataSeries.Unit)                 | Gets or sets a string representation of the data series units, e.g., “m”,                      |
 | [`Values`](#IDataSeries.Values)             | Explicitly gets or sets the values of the data series.                                         |
 
 <a id="property-detail"></a>
@@ -44,7 +44,7 @@ Gets or sets the name of the data series.
 
 ### *property* IDataSeries.QuantityName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the quantity name of the data series, e.g., â€œLengthâ€, â€œPressureâ€, or â€œHeat Fluxâ€.
+Gets or sets the quantity name of the data series, e.g., “Length”, “Pressure”, or “Heat Flux”.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -52,8 +52,8 @@ Gets or sets the quantity name of the data series, e.g., â€œLengthâ€, â€œPressu
 
 ### *property* IDataSeries.Unit *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets a string representation of the data series units, e.g., â€œmâ€,
-â€œkg m^-1 s^-2â€, or â€œkg m^2 s^-3â€.
+Gets or sets a string representation of the data series units, e.g., “m”,
+“kg m^-1 s^-2”, or “kg m^2 s^-3”.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -1,5 +1,3 @@
-
-
 # `CompositeFailure`
 
 <a id="summary"></a>

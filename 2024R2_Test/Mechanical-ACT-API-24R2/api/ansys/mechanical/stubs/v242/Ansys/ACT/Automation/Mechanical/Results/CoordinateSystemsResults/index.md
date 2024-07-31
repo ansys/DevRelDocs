@@ -1,5 +1,3 @@
-
-
 # `CoordinateSystemsResults`
 
 <a id="summary"></a>

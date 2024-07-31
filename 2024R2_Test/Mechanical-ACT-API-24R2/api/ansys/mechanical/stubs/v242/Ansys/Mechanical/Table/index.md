@@ -1,5 +1,3 @@
-
-
 # `Table`
 
 <a id="summary"></a>

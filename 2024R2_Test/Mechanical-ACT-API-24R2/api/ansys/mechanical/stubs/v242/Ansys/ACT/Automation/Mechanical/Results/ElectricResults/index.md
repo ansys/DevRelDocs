@@ -1,5 +1,3 @@
-
-
 # `ElectricResults`
 
 <a id="summary"></a>

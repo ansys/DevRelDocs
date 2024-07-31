@@ -1,5 +1,3 @@
-
-
 # `ElectromagneticResults`
 
 <a id="summary"></a>

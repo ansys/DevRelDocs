@@ -1,5 +1,3 @@
-
-
 # `ExternalModel`
 
 <a id="summary"></a>

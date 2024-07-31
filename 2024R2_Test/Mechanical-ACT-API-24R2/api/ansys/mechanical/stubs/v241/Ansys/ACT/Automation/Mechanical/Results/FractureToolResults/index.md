@@ -1,5 +1,3 @@
-
-
 # `FractureToolResults`
 
 <a id="summary"></a>

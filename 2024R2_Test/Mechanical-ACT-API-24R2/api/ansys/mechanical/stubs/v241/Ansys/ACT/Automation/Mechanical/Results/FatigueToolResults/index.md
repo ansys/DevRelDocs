@@ -1,5 +1,3 @@
-
-
 # `FatigueToolResults`
 
 <a id="summary"></a>

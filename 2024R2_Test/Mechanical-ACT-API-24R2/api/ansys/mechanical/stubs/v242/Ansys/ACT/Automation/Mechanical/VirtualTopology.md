@@ -50,8 +50,8 @@ Defines a VirtualTopology.
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------|----------------------------------------------------------------|
-| [`AutomaticBehavior`](#VirtualTopology.AutomaticBehavior)                                 | Gets or sets the Behavior when Method is set to ‚ÄúAutomatic‚Äù.   |
-| [`RepairBehavior`](#VirtualTopology.RepairBehavior)                                       | Gets or sets the Behavior when Method is set to ‚ÄúRepair‚Äù.      |
+| [`AutomaticBehavior`](#VirtualTopology.AutomaticBehavior)                                 | Gets or sets the Behavior when Method is set to ìAutomaticî.   |
+| [`RepairBehavior`](#VirtualTopology.RepairBehavior)                                       | Gets or sets the Behavior when Method is set to ìRepairî.      |
 | [`InternalObject`](#id0)                                                                  | Gets the internal object. For advanced usage only.             |
 | [`AspectRatio`](#VirtualTopology.AspectRatio)                                             | Gets or sets the AspectRatio.                                  |
 | [`SharedBoundaryRatio`](#VirtualTopology.SharedBoundaryRatio)                             | Gets or sets the SharedBoundaryRatio.                          |
@@ -76,7 +76,7 @@ Defines a VirtualTopology.
 | [`Method`](#VirtualTopology.Method)                                                       | Gets or sets the Method.                                       |
 | [`GenerateOnUpdate`](#VirtualTopology.GenerateOnUpdate)                                   | Gets or sets the GenerateOnUpdate.                             |
 | [`SimplifyFaces`](#VirtualTopology.SimplifyFaces)                                         | Gets or sets the SimplifyFaces.                                |
-| [`DataModelObjectCategory`](#VirtualTopology.DataModelObjectCategory)                     | Gets the current DataModelObject‚Äôs category.                   |
+| [`DataModelObjectCategory`](#VirtualTopology.DataModelObjectCategory)                     | Gets the current DataModelObjectís category.                   |
 | [`Children`](#VirtualTopology.Children)                                                   | Gets the list of children.                                     |
 | [`Comments`](#VirtualTopology.Comments)                                                   | Gets the list of associated comments.                          |
 | [`Figures`](#VirtualTopology.Figures)                                                     | Gets the list of associated figures.                           |
@@ -93,7 +93,7 @@ Defines a VirtualTopology.
 
 ### *property* VirtualTopology.AutomaticBehavior *: [Ansys.Mechanical.DataModel.Enums.VirtualCellGroupAutomaticBehaviorType](../../../../../v241/Ansys/Mechanical/DataModel/Enums/VirtualCellGroupAutomaticBehaviorType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.VirtualCellGroupAutomaticBehaviorType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the Behavior when Method is set to ‚ÄúAutomatic‚Äù.
+Gets or sets the Behavior when Method is set to ìAutomaticî.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -101,7 +101,7 @@ Gets or sets the Behavior when Method is set to ‚ÄúAutomatic‚Äù.
 
 ### *property* VirtualTopology.RepairBehavior *: [Ansys.Mechanical.DataModel.Enums.VirtualCellGroupRepairBehaviorType](../../../../../v241/Ansys/Mechanical/DataModel/Enums/VirtualCellGroupRepairBehaviorType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.VirtualCellGroupRepairBehaviorType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the Behavior when Method is set to ‚ÄúRepair‚Äù.
+Gets or sets the Behavior when Method is set to ìRepairî.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -301,7 +301,7 @@ Gets or sets the SimplifyFaces.
 
 ### *property* VirtualTopology.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject‚Äôs category.
+Gets the current DataModelObjectís category.
 
 <!-- !! processed by numpydoc !! -->
 
