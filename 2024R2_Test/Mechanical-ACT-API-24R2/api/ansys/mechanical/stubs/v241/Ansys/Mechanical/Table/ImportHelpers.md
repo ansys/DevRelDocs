@@ -1,0 +1,12 @@
+# `ImportHelpers`
+
+
+
+#### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.Table.ImportHelpers
+
+Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
+
+ImportHelpers interface.
+
+<!-- !! processed by numpydoc !! -->
+

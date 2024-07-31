@@ -1,0 +1,59 @@
+# `EXDPreferenceType`
+
+
+
+#### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EXDPreferenceType
+
+Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
+
+## Overview
+
+### Attributes
+
+| Name |
+| ---------------------------------------------------------------------------------------------------------------------------------------- |
+| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EXDPreferenceType.md#EXDPreferenceType.ProgramControlled) |
+| [`LowVelocity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EXDPreferenceType.md#EXDPreferenceType.LowVelocity) |
+| [`HighVelocity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EXDPreferenceType.md#EXDPreferenceType.HighVelocity) |
+| [`Efficiency`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EXDPreferenceType.md#EXDPreferenceType.Efficiency) |
+| [`QuasiStatic`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EXDPreferenceType.md#EXDPreferenceType.QuasiStatic) |
+| [`DropTest`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EXDPreferenceType.md#EXDPreferenceType.DropTest) |
+| [`Custom`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EXDPreferenceType.md#EXDPreferenceType.Custom) |
+
+<a id="attribute-detail"></a>
+
+## Attribute detail
+
+<a id="EXDPreferenceType.ProgramControlled"></a>
+
+### EXDPreferenceType.ProgramControlled *= 0*
+
+<a id="EXDPreferenceType.LowVelocity"></a>
+
+### EXDPreferenceType.LowVelocity *= 1*
+
+<a id="EXDPreferenceType.HighVelocity"></a>
+
+### EXDPreferenceType.HighVelocity *= 2*
+
+<a id="EXDPreferenceType.Efficiency"></a>
+
+### EXDPreferenceType.Efficiency *= 3*
+
+<a id="EXDPreferenceType.QuasiStatic"></a>
+
+### EXDPreferenceType.QuasiStatic *= 4*
+
+<a id="EXDPreferenceType.DropTest"></a>
+
+### EXDPreferenceType.DropTest *= 5*
+
+<a id="EXDPreferenceType.Custom"></a>
+
+### EXDPreferenceType.Custom *= 6*
+
+

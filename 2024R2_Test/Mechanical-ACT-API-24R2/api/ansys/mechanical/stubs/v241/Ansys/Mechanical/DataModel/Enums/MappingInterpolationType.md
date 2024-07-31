@@ -1,0 +1,34 @@
+# `MappingInterpolationType`
+
+
+
+#### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MappingInterpolationType
+
+Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
+
+## Overview
+
+### Attributes
+
+| Name |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [`ProfilePreserving`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MappingInterpolationType.md#MappingInterpolationType.ProfilePreserving) |
+| [`Conservative`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MappingInterpolationType.md#MappingInterpolationType.Conservative) |
+
+<a id="attribute-detail"></a>
+
+## Attribute detail
+
+<a id="MappingInterpolationType.ProfilePreserving"></a>
+
+### MappingInterpolationType.ProfilePreserving *= 0*
+
+<a id="MappingInterpolationType.Conservative"></a>
+
+### MappingInterpolationType.Conservative *= 1*
+
+

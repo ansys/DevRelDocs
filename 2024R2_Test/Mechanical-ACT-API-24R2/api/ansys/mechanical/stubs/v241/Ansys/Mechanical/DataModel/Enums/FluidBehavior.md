@@ -1,0 +1,36 @@
+# `FluidBehavior`
+
+
+
+#### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FluidBehavior
+
+Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
+
+Specifies the FluidBehavior.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
+
+## Overview
+
+### Attributes
+
+| Name |
+| ------------------------------------------------------------------------------------------------------------------------ |
+| [`Compressible`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FluidBehavior.md#FluidBehavior.Compressible) |
+| [`Incompressible`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FluidBehavior.md#FluidBehavior.Incompressible) |
+
+<a id="attribute-detail"></a>
+
+## Attribute detail
+
+<a id="FluidBehavior.Compressible"></a>
+
+### FluidBehavior.Compressible *= 0*
+
+<a id="FluidBehavior.Incompressible"></a>
+
+### FluidBehavior.Incompressible *= 1*
+
+
