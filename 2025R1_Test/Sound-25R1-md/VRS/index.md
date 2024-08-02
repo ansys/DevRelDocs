@@ -11,3 +11,4 @@ This API document describes the communication process and the messages that can 
 - [Messages Format](VRS_communication_messages.md)
 - [Messages List](VRS_communication_messages_list.md)
 - [State of the Sound Generator](VRS_communication_state.md)
+  
