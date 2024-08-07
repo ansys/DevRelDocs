@@ -47,7 +47,7 @@ Defines a NodeMove.
 | [`NumberOfMoves`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NodeMove.md#NodeMove.NumberOfMoves)                     | Gets the NumberOfMoves.                                       |
 | [`NumberOfNodes`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NodeMove.md#NodeMove.NumberOfNodes)                     | Gets the NumberOfNodes.                                       |
 | [`Information`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NodeMove.md#NodeMove.Information)                         | Gets the Information.                                         |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NodeMove.md#NodeMove.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NodeMove.md#NodeMove.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NodeMove.md#NodeMove.Children)                               | Gets the list of children.                                    |
 | [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NodeMove.md#NodeMove.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NodeMove.md#NodeMove.Figures)                                 | Gets the list of associated figures.                          |
@@ -97,7 +97,7 @@ Gets the Information.
 
 ### *property* NodeMove.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

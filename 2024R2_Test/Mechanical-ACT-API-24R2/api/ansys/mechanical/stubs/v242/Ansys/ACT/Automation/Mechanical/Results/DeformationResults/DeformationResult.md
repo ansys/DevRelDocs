@@ -74,7 +74,7 @@ Defines a DeformationResult.
 | [`AccelerationInG`](#DeformationResult.AccelerationInG)                                     | Gets or sets the AccelerationInG.                                      |
 | [`Amplitude`](#DeformationResult.Amplitude)                                                 | Gets or sets the Amplitude.                                            |
 | [`AllowPhaseSweep`](#DeformationResult.AllowPhaseSweep)                                     | Gets or sets the AllowPhaseSweep.                                      |
-| [`DataModelObjectCategory`](#DeformationResult.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](#DeformationResult.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
 | [`PlotData`](#DeformationResult.PlotData)                                                   | Gets the result table.                                                 |
 | [`Location`](#DeformationResult.Location)                                                   | Gets or sets the Location.                                             |
 | [`TimeForMinimumOfMinimumValues`](#DeformationResult.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
@@ -330,7 +330,7 @@ Gets or sets the AllowPhaseSweep.
 
 ### *property* DeformationResult.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

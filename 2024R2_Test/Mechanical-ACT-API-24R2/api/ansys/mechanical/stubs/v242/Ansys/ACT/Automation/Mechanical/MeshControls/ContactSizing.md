@@ -46,7 +46,7 @@ Defines a ContactSizing.
 | [`Type`](#ContactSizing.Type)                                       | Gets or sets the Type.                                        |
 | [`ElementSize`](#ContactSizing.ElementSize)                         | Gets or sets the ElementSize.                                 |
 | [`ContactRegion`](#ContactSizing.ContactRegion)                     | Gets or sets the ContactRegion.                               |
-| [`DataModelObjectCategory`](#ContactSizing.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#ContactSizing.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`ScopingMethod`](#ContactSizing.ScopingMethod)                     | Gets or sets the ScopingMethod.                               |
 | [`Suppressed`](#ContactSizing.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`Children`](#ContactSizing.Children)                               | Gets the list of children.                                    |
@@ -105,7 +105,7 @@ Gets or sets the ContactRegion.
 
 ### *property* ContactSizing.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

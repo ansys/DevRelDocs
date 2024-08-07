@@ -43,7 +43,7 @@ Defines a AnalysisSettings.
 | [`InternalObject`](#id0)                                                       | Gets the internal object. For advanced usage only.            |
 | [`ScratchSolverFilesDirectory`](#AnalysisSettings.ScratchSolverFilesDirectory) | Gets the ScratchSolverFilesDirectory.                         |
 | [`SolverFilesDirectory`](#AnalysisSettings.SolverFilesDirectory)               | Gets the SolverFilesDirectory.                                |
-| [`DataModelObjectCategory`](#AnalysisSettings.DataModelObjectCategory)         | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#AnalysisSettings.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#AnalysisSettings.Children)                                       | Gets the list of children.                                    |
 | [`Comments`](#AnalysisSettings.Comments)                                       | Gets the list of associated comments.                         |
 | [`Figures`](#AnalysisSettings.Figures)                                         | Gets the list of associated figures.                          |
@@ -92,7 +92,7 @@ Gets the SolverFilesDirectory.
 
 ### *property* AnalysisSettings.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

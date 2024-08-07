@@ -51,7 +51,7 @@ Defines a ContactMatchGroup.
 | Name | Description |
 |-----------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](#ContactMatchGroup.DataModelObjectCategory)                 | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#ContactMatchGroup.DataModelObjectCategory)                 | Gets the current DataModelObjectâ€™s category.                  |
 | [`ConnectionType`](#ContactMatchGroup.ConnectionType)                                   | Gets or sets the ConnectionType.                              |
 | [`ActiveConnections`](#ContactMatchGroup.ActiveConnections)                             | Gets the ActiveConnections.                                   |
 | [`Connections`](#ContactMatchGroup.Connections)                                         | Gets the Connections.                                         |
@@ -102,7 +102,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* ContactMatchGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

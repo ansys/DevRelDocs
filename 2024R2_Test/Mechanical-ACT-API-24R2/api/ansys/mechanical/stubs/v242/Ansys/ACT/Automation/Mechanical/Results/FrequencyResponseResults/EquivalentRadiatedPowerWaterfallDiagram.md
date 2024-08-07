@@ -54,7 +54,7 @@ Defines a EquivalentRadiatedPowerWaterfallDiagram.
 | [`PanelsToDisplay`](#EquivalentRadiatedPowerWaterfallDiagram.PanelsToDisplay)                                     | Gets or sets the PanelsToDisplay.                                      |
 | [`DisplayPanel`](#EquivalentRadiatedPowerWaterfallDiagram.DisplayPanel)                                           | Gets or sets the DisplayPanel.                                         |
 | [`PanelContribution`](#EquivalentRadiatedPowerWaterfallDiagram.PanelContribution)                                 | Gets or sets the PanelContribution.                                    |
-| [`DataModelObjectCategory`](#EquivalentRadiatedPowerWaterfallDiagram.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](#EquivalentRadiatedPowerWaterfallDiagram.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
 | [`PlotData`](#EquivalentRadiatedPowerWaterfallDiagram.PlotData)                                                   | Gets the result table.                                                 |
 | [`Location`](#EquivalentRadiatedPowerWaterfallDiagram.Location)                                                   | Gets or sets the Location.                                             |
 | [`TimeForMinimumOfMinimumValues`](#EquivalentRadiatedPowerWaterfallDiagram.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
@@ -150,7 +150,7 @@ Gets or sets the PanelContribution.
 
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

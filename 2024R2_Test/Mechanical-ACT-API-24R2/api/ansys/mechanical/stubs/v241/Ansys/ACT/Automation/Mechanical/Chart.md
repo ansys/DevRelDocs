@@ -49,7 +49,7 @@ Defines a Chart.
 | [`PlotStyle`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Chart.md#Chart.PlotStyle)                             | Gets or sets the PlotStyle.                                   |
 | [`Content`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Chart.md#Chart.Content)                                 | Gets or sets the Content.                                     |
 | [`Scale`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Chart.md#Chart.Scale)                                     | Gets or sets the Scale.                                       |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Chart.md#Chart.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Chart.md#Chart.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Chart.md#Chart.Children)                               | Gets the list of children.                                    |
 | [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Chart.md#Chart.Comments)                               | Gets the list of associated comments.                         |
 | [`Images`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Chart.md#Chart.Images)                                   | Gets the list of associated images.                           |
@@ -153,7 +153,7 @@ Gets or sets the Scale.
 
 ### *property* Chart.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -45,7 +45,7 @@ Defines a Smoothing.
 | [`MoveLimit`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/Smoothing.md#Smoothing.MoveLimit)                             | Gets or sets the MoveLimit.                                   |
 | [`FileName`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/Smoothing.md#Smoothing.FileName)                               | Gets the FileName.                                            |
 | [`ExportModel`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/Smoothing.md#Smoothing.ExportModel)                         | Gets or sets the ExportModel.                                 |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/Smoothing.md#Smoothing.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/Smoothing.md#Smoothing.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Statistics`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/Smoothing.md#Smoothing.Statistics)                           | Gets the Statistics.                                          |
 | [`LengthUnits`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/Smoothing.md#Smoothing.LengthUnits)                         | Gets or sets the LengthUnits.                                 |
 | [`ShowAlways`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/Smoothing.md#Smoothing.ShowAlways)                           | Gets or sets the ShowAlways.                                  |
@@ -99,7 +99,7 @@ Gets or sets the ExportModel.
 
 ### *property* Smoothing.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -69,7 +69,7 @@ Defines a Sizing.
 | [`SphereCenter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/Sizing.md#Sizing.SphereCenter)                       | Gets or sets the SphereCenter.                                |
 | [`Location`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/Sizing.md#Sizing.Location)                               | Gets or sets the Location.                                    |
 | [`ReverseBias`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/Sizing.md#Sizing.ReverseBias)                         | Gets or sets the ReverseBias.                                 |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/Sizing.md#Sizing.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/Sizing.md#Sizing.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`ScopingMethod`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/Sizing.md#Sizing.ScopingMethod)                     | Gets or sets the ScopingMethod.                               |
 | [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/Sizing.md#Sizing.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/Sizing.md#Sizing.Children)                               | Gets the list of children.                                    |
@@ -312,7 +312,7 @@ Gets or sets the ReverseBias.
 
 ### *property* Sizing.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

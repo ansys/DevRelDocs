@@ -52,7 +52,7 @@ Defines a HatCrossSection.
 | [`Width2`](../../../../../v242/Ansys/ACT/Automation/Mechanical/HatCrossSection.md#HatCrossSection.Width2)                                   | Gets or sets the Width2.                                      |
 | [`Width3`](../../../../../v242/Ansys/ACT/Automation/Mechanical/HatCrossSection.md#HatCrossSection.Width3)                                   | Gets or sets the Width3.                                      |
 | [`Width4`](../../../../../v242/Ansys/ACT/Automation/Mechanical/HatCrossSection.md#HatCrossSection.Width4)                                   | Gets or sets the Width4.                                      |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/HatCrossSection.md#HatCrossSection.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/HatCrossSection.md#HatCrossSection.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/HatCrossSection.md#HatCrossSection.Children)                               | Gets the list of children.                                    |
 | [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/HatCrossSection.md#HatCrossSection.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/HatCrossSection.md#HatCrossSection.Figures)                                 | Gets the list of associated figures.                          |
@@ -174,7 +174,7 @@ Gets or sets the Width4.
 
 ### *property* HatCrossSection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

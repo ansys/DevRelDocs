@@ -51,7 +51,7 @@ Defines a CurrentDensity.
 | Name | Description |
 |------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                 | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](#CurrentDensity.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](#CurrentDensity.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
 | [`ElectromagneticResultType`](#CurrentDensity.ElectromagneticResultType)                 | Gets or sets the ElectromagneticResultType.                            |
 | [`AverageAcrossBodies`](#CurrentDensity.AverageAcrossBodies)                             | Gets or sets the AverageAcrossBodies.                                  |
 | [`PlotData`](#CurrentDensity.PlotData)                                                   | Gets the result table.                                                 |
@@ -125,7 +125,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* CurrentDensity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -91,7 +91,7 @@ Defines a CoordinateSystem.
 | [`SecondaryAxisDefineBy`](#CoordinateSystem.SecondaryAxisDefineBy)                               | Gets or sets the SecondaryAxisDefineBy.                               |
 | [`GloballyAvailable`](#CoordinateSystem.GloballyAvailable)                                       | Gets or sets the GloballyAvailable.                                   |
 | [`Suppressed`](#CoordinateSystem.Suppressed)                                                     | Gets or sets the Suppressed.                                          |
-| [`DataModelObjectCategory`](#CoordinateSystem.DataModelObjectCategory)                           | Gets the current DataModelObject’s category.                          |
+| [`DataModelObjectCategory`](#CoordinateSystem.DataModelObjectCategory)                           | Gets the current DataModelObjectâ€™s category.                          |
 | [`Children`](#CoordinateSystem.Children)                                                         | Gets the list of children.                                            |
 | [`Comments`](#CoordinateSystem.Comments)                                                         | Gets the list of associated comments.                                 |
 | [`Figures`](#CoordinateSystem.Figures)                                                           | Gets the list of associated figures.                                  |
@@ -317,7 +317,7 @@ Gets or sets the Suppressed.
 
 ### *property* CoordinateSystem.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

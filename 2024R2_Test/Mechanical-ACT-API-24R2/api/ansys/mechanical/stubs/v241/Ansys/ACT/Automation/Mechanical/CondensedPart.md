@@ -61,7 +61,7 @@ Defines a CondensedPart.
 | [`SolverType`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CondensedPart.md#CondensedPart.SolverType)                           | Gets or sets the SolverType.                                  |
 | [`StoreBasisResults`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CondensedPart.md#CondensedPart.StoreBasisResults)             | Gets or sets the StoreBasisResults.                           |
 | [`RangeSearch`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CondensedPart.md#CondensedPart.RangeSearch)                         | Gets or sets the RangeSearch.                                 |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CondensedPart.md#CondensedPart.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CondensedPart.md#CondensedPart.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`NumberInterfaceEntries`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CondensedPart.md#CondensedPart.NumberInterfaceEntries)   | Gets the NumberInterfaceEntries.                              |
 | [`NumberMasterNodes`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CondensedPart.md#CondensedPart.NumberMasterNodes)             | Gets the NumberMasterNodes.                                   |
 | [`SolutionName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CondensedPart.md#CondensedPart.SolutionName)                       | Gets or sets the SolutionName.                                |
@@ -226,7 +226,7 @@ Gets or sets the RangeSearch.
 
 ### *property* CondensedPart.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

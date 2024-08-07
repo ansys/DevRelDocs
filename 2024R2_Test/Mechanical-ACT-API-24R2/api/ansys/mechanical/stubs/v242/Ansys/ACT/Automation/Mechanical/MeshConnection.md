@@ -48,7 +48,7 @@ Defines a MeshConnection.
 | [`ThicknessScaleFactor`](#MeshConnection.ThicknessScaleFactor)       | Gets or sets the ThicknessScaleFactor.                        |
 | [`ToleranceValue`](#MeshConnection.ToleranceValue)                   | Gets or sets the ToleranceValue.                              |
 | [`ContactRegion`](#MeshConnection.ContactRegion)                     | Gets or sets the ContactRegion.                               |
-| [`DataModelObjectCategory`](#MeshConnection.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#MeshConnection.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`ScopingMethod`](#MeshConnection.ScopingMethod)                     | ScopingMethod property.                                       |
 | [`ToleranceSlider`](#MeshConnection.ToleranceSlider)                 | Gets or sets the ToleranceSlider.                             |
 | [`MasterBodies`](#MeshConnection.MasterBodies)                       | Gets the MasterBodies.                                        |
@@ -117,7 +117,7 @@ Gets or sets the ContactRegion.
 
 ### *property* MeshConnection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

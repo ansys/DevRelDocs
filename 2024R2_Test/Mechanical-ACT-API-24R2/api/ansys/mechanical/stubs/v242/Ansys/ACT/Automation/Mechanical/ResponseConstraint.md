@@ -40,7 +40,7 @@ Defines a ResponseConstraint.
 | [`EnvironmentSelection`](#ResponseConstraint.EnvironmentSelection)       | Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum.   |
 | [`InternalObject`](#id0)                                                 | Gets the internal object. For advanced usage only.                                         |
 | [`Suppressed`](#ResponseConstraint.Suppressed)                           | Gets or sets the Suppressed.                                                               |
-| [`DataModelObjectCategory`](#ResponseConstraint.DataModelObjectCategory) | Gets the current DataModelObject’s category.                                               |
+| [`DataModelObjectCategory`](#ResponseConstraint.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                                               |
 | [`Children`](#ResponseConstraint.Children)                               | Gets the list of children.                                                                 |
 | [`InternalObject`](#id0)                                                 | Gets the internal object. For advanced usage only.                                         |
 | [`Properties`](#ResponseConstraint.Properties)                           | Gets the list of properties for this object.                                               |
@@ -78,7 +78,7 @@ Gets or sets the Suppressed.
 
 ### *property* ResponseConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

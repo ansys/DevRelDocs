@@ -46,7 +46,7 @@ Defines a SurfaceCoating.
 | [`Suppressed`](#SurfaceCoating.Suppressed)                                           | Gets or sets the Suppressed.                                  |
 | [`CoordinateSystem`](#SurfaceCoating.CoordinateSystem)                               | Gets or sets the CoordinateSystem.                            |
 | [`Location`](#SurfaceCoating.Location)                                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#SurfaceCoating.DataModelObjectCategory)                 | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#SurfaceCoating.DataModelObjectCategory)                 | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#SurfaceCoating.Children)                                               | Gets the list of children.                                    |
 | [`Comments`](#SurfaceCoating.Comments)                                               | Gets the list of associated comments.                         |
 | [`Figures`](#SurfaceCoating.Figures)                                                 | Gets the list of associated figures.                          |
@@ -120,7 +120,7 @@ Gets or sets the Location.
 
 ### *property* SurfaceCoating.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

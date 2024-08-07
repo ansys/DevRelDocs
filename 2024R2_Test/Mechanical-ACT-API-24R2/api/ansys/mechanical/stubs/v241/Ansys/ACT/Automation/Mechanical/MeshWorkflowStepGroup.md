@@ -19,9 +19,9 @@ Object that wraps IDSEngineeringModelWorkflow.
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [`AddStep`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#MeshWorkflowStepGroup.AddStep)                                                         | Add another operation to the sequence of steps to be executed for the mesh workflow.                                                                                                                                                                                                                                              |
-| [`DeleteAllStepsAndClearGeneratedData`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#MeshWorkflowStepGroup.DeleteAllStepsAndClearGeneratedData) | Deletes all steps and reset workflow type to undefined and also resets all inactive geometry parts/bodies to active again, clears the output data, and resets the state of the child objects (ìInputî, ìStepsî, ìOutputî) to the initial state. However, any user-defined settings such as the ìInputî node scoping are retained. |
-| [`ExecuteAllSteps`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#MeshWorkflowStepGroup.ExecuteAllSteps)                                         | Executes all steps defined under the ìStepGroupî object (which is the ìStepsî node in the UI).                                                                                                                                                                                                                                    |
-| [`ExecuteNextStep`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#MeshWorkflowStepGroup.ExecuteNextStep)                                         | Executes the next step, i.e. the next operation which is ready to be executed under the parent ìStepGroupî object.                                                                                                                                                                                                                |
+| [`DeleteAllStepsAndClearGeneratedData`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#MeshWorkflowStepGroup.DeleteAllStepsAndClearGeneratedData) | Deletes all steps and reset workflow type to undefined and also resets all inactive geometry parts/bodies to active again, clears the output data, and resets the state of the child objects (‚ÄúInput‚Äù, ‚ÄúSteps‚Äù, ‚ÄúOutput‚Äù) to the initial state. However, any user-defined settings such as the ‚ÄúInput‚Äù node scoping are retained. |
+| [`ExecuteAllSteps`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#MeshWorkflowStepGroup.ExecuteAllSteps)                                         | Executes all steps defined under the ‚ÄúStepGroup‚Äù object (which is the ‚ÄúSteps‚Äù node in the UI).                                                                                                                                                                                                                                    |
+| [`ExecuteNextStep`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#MeshWorkflowStepGroup.ExecuteNextStep)                                         | Executes the next step, i.e. the next operation which is ready to be executed under the parent ‚ÄúStepGroup‚Äù object.                                                                                                                                                                                                                |
 | [`ExecuteUpToStep`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#MeshWorkflowStepGroup.ExecuteUpToStep)                                         | Executes any not yet ready steps up to and including the specified step.                                                                                                                                                                                                                                                          |
 | [`RevertToStep`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#MeshWorkflowStepGroup.RevertToStep)                                               | Revert to the specified step; if no checkpoint is available, then an exception will be raised.                                                                                                                                                                                                                                    |
 | [`Delete`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#MeshWorkflowStepGroup.Delete)                                                           | Run the Delete action.                                                                                                                                                                                                                                                                                                            |
@@ -46,7 +46,7 @@ Object that wraps IDSEngineeringModelWorkflow.
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
 | [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#id0)                                                    | Gets the internal object. For advanced usage only.                                     |
 | [`NumberOfCores`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#MeshWorkflowStepGroup.NumberOfCores)                     | Defines how many CPU cores to be used in an operation (if supported by the operation). |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#MeshWorkflowStepGroup.DataModelObjectCategory) | Gets the current DataModelObjectís category.                                           |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#MeshWorkflowStepGroup.DataModelObjectCategory) | Gets the current DataModelObject‚Äôs category.                                           |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#MeshWorkflowStepGroup.Children)                               | Gets the list of children.                                                             |
 | [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#MeshWorkflowStepGroup.Figures)                                 | Gets the list of associated figures.                                                   |
 | [`Images`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#MeshWorkflowStepGroup.Images)                                   | Gets the list of associated images.                                                    |
@@ -78,7 +78,7 @@ Defines how many CPU cores to be used in an operation (if supported by the opera
 
 ### *property* MeshWorkflowStepGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectís category.
+Gets the current DataModelObject‚Äôs category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -146,7 +146,7 @@ Add another operation to the sequence of steps to be executed for the mesh workf
 
 ### MeshWorkflowStepGroup.DeleteAllStepsAndClearGeneratedData()
 
-Deletes all steps and reset workflow type to undefined and also resets all inactive geometry parts/bodies to active again, clears the output data, and resets the state of the child objects (ìInputî, ìStepsî, ìOutputî) to the initial state. However, any user-defined settings such as the ìInputî node scoping are retained.
+Deletes all steps and reset workflow type to undefined and also resets all inactive geometry parts/bodies to active again, clears the output data, and resets the state of the child objects (‚ÄúInput‚Äù, ‚ÄúSteps‚Äù, ‚ÄúOutput‚Äù) to the initial state. However, any user-defined settings such as the ‚ÄúInput‚Äù node scoping are retained.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -154,7 +154,7 @@ Deletes all steps and reset workflow type to undefined and also resets all inact
 
 ### MeshWorkflowStepGroup.ExecuteAllSteps()
 
-Executes all steps defined under the ìStepGroupî object (which is the ìStepsî node in the UI).
+Executes all steps defined under the ‚ÄúStepGroup‚Äù object (which is the ‚ÄúSteps‚Äù node in the UI).
 
 <!-- !! processed by numpydoc !! -->
 
@@ -162,7 +162,7 @@ Executes all steps defined under the ìStepGroupî object (which is the ìStepsî no
 
 ### MeshWorkflowStepGroup.ExecuteNextStep()
 
-Executes the next step, i.e. the next operation which is ready to be executed under the parent ìStepGroupî object.
+Executes the next step, i.e. the next operation which is ready to be executed under the parent ‚ÄúStepGroup‚Äù object.
 
 <!-- !! processed by numpydoc !! -->
 

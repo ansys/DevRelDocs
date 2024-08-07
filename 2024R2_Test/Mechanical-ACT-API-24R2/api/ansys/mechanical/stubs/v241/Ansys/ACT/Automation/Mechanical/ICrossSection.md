@@ -49,7 +49,7 @@ Defines a ICrossSection.
 | [`Width1`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ICrossSection.md#ICrossSection.Width1)                                   | Gets or sets the Width1.                                      |
 | [`Width2`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ICrossSection.md#ICrossSection.Width2)                                   | Gets or sets the Width2.                                      |
 | [`Width3`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ICrossSection.md#ICrossSection.Width3)                                   | Gets or sets the Width3.                                      |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ICrossSection.md#ICrossSection.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ICrossSection.md#ICrossSection.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ICrossSection.md#ICrossSection.Children)                               | Gets the list of children.                                    |
 | [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ICrossSection.md#ICrossSection.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ICrossSection.md#ICrossSection.Figures)                                 | Gets the list of associated figures.                          |
@@ -147,7 +147,7 @@ Gets or sets the Width3.
 
 ### *property* ICrossSection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

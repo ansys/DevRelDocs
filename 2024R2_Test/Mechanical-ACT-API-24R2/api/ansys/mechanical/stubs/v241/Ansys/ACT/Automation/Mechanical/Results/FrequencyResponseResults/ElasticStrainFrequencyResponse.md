@@ -43,7 +43,7 @@ Defines a ElasticStrainFrequencyResponse.
 | Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
 | [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/ElasticStrainFrequencyResponse.md#id0)                                                                     | Gets the internal object. For advanced usage only.                                               |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/ElasticStrainFrequencyResponse.md#ElasticStrainFrequencyResponse.DataModelObjectCategory)         | Gets the current DataModelObject’s category.                                                     |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/ElasticStrainFrequencyResponse.md#ElasticStrainFrequencyResponse.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                                                     |
 | [`CoordinateSystem`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/ElasticStrainFrequencyResponse.md#ElasticStrainFrequencyResponse.CoordinateSystem)                       | Gets or sets the CoordinateSystem. Accepts/Returns None if it is the Solution Coordinate System. |
 | [`RemotePointSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/ElasticStrainFrequencyResponse.md#ElasticStrainFrequencyResponse.RemotePointSelection)               | Gets or sets the RemotePointSelection.                                                           |
 | [`IsSolved`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/ElasticStrainFrequencyResponse.md#ElasticStrainFrequencyResponse.IsSolved)                                       | Gets the IsSolved.                                                                               |
@@ -109,7 +109,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* ElasticStrainFrequencyResponse.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

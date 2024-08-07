@@ -101,7 +101,7 @@ Defines a UserDefinedResult.
 | [`CalculateTimeHistory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/UserDefinedResult.md#UserDefinedResult.CalculateTimeHistory)           | Gets or sets the CalculateTimeHistory.                                 |
 | [`AverageAcrossBodies`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/UserDefinedResult.md#UserDefinedResult.AverageAcrossBodies)             | Gets or sets the AverageAcrossBodies.                                  |
 | [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/UserDefinedResult.md#UserDefinedResult.Suppressed)                               | Gets or sets the Suppressed.                                           |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/UserDefinedResult.md#UserDefinedResult.DataModelObjectCategory)     | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/UserDefinedResult.md#UserDefinedResult.DataModelObjectCategory)     | Gets the current DataModelObjectâ€™s category.                           |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/UserDefinedResult.md#UserDefinedResult.Children)                                   | Gets the list of children.                                             |
 | [`Comments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/UserDefinedResult.md#UserDefinedResult.Comments)                                   | Gets the list of associated comments.                                  |
 | [`Figures`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/UserDefinedResult.md#UserDefinedResult.Figures)                                     | Gets the list of associated figures.                                   |
@@ -544,7 +544,7 @@ Gets or sets the Suppressed.
 
 ### *property* UserDefinedResult.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

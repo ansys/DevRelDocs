@@ -66,7 +66,7 @@ Defines a ModelImport.
 | [`ProcessModelData`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ModelImport.md#ModelImport.ProcessModelData)                               | Gets or sets the ProcessModelData.                            |
 | [`ProcessNodalComponents`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ModelImport.md#ModelImport.ProcessNodalComponents)                   | Gets or sets the ProcessNodalComponents.                      |
 | [`ProcessValidBlockedCDBFile`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ModelImport.md#ModelImport.ProcessValidBlockedCDBFile)           | Gets or sets the ProcessValidBlockedCDBFile.                  |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ModelImport.md#ModelImport.DataModelObjectCategory)                 | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ModelImport.md#ModelImport.DataModelObjectCategory)                 | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ModelImport.md#ModelImport.Children)                                               | Gets the list of children.                                    |
 | [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ModelImport.md#ModelImport.Comments)                                               | Gets the list of associated comments.                         |
 | [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ModelImport.md#ModelImport.Figures)                                                 | Gets the list of associated figures.                          |
@@ -307,7 +307,7 @@ Gets or sets the ProcessValidBlockedCDBFile.
 
 ### *property* ModelImport.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

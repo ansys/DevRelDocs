@@ -42,7 +42,7 @@ Defines a AcousticRigidWall.
 |-------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                | Gets the internal object. For advanced usage only.            |
 | [`Location`](#AcousticRigidWall.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#AcousticRigidWall.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#AcousticRigidWall.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Suppressed`](#AcousticRigidWall.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#AcousticRigidWall.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
 | [`Children`](#AcousticRigidWall.Children)                               | Gets the list of children.                                    |
@@ -78,7 +78,7 @@ Gets or sets the Location.
 
 ### *property* AcousticRigidWall.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

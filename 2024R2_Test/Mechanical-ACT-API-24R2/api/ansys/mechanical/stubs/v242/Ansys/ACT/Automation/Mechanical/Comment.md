@@ -39,7 +39,7 @@ Defines a Comment.
 | [`Text`](#Comment.Text)                                       | Gets the Text.                                                |
 | [`InternalObject`](#id0)                                      | Gets the internal object. For advanced usage only.            |
 | [`Author`](#Comment.Author)                                   | Gets or sets the Author.                                      |
-| [`DataModelObjectCategory`](#Comment.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#Comment.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#Comment.Children)                               | Gets the list of children.                                    |
 | [`InternalObject`](#id0)                                      | Gets the internal object. For advanced usage only.            |
 | [`Properties`](#Comment.Properties)                           | Gets the list of properties for this object.                  |
@@ -77,7 +77,7 @@ Gets or sets the Author.
 
 ### *property* Comment.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

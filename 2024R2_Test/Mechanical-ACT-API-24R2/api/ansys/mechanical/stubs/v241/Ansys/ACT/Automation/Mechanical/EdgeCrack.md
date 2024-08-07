@@ -70,7 +70,7 @@ Defines a EdgeCrack.
 | [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EdgeCrack.md#EdgeCrack.Suppressed)                                 | Gets or sets the Suppressed.                                  |
 | [`CoordinateSystem`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EdgeCrack.md#EdgeCrack.CoordinateSystem)                     | Gets or sets the CoordinateSystem.                            |
 | [`Location`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EdgeCrack.md#EdgeCrack.Location)                                     | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EdgeCrack.md#EdgeCrack.DataModelObjectCategory)       | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EdgeCrack.md#EdgeCrack.DataModelObjectCategory)       | Gets the current DataModelObjectâ€™s category.                  |
 | [`CrackID`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EdgeCrack.md#EdgeCrack.CrackID)                                       | Gets the CrackID.                                             |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EdgeCrack.md#EdgeCrack.Children)                                     | Gets the list of children.                                    |
 | [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EdgeCrack.md#EdgeCrack.Comments)                                     | Gets the list of associated comments.                         |
@@ -329,7 +329,7 @@ Gets or sets the Location.
 
 ### *property* EdgeCrack.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

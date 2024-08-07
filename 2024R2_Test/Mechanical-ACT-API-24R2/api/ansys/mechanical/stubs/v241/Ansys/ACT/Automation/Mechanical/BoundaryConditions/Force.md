@@ -77,7 +77,7 @@ Defines a Force.
 | [`DivideLoadByNodes`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/Force.md#Force.DivideLoadByNodes)                 | Gets or sets the DivideLoadByNodes.                           |
 | [`CoordinateSystem`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/Force.md#Force.CoordinateSystem)                   | Gets or sets the CoordinateSystem.                            |
 | [`Location`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/Force.md#Force.Location)                                   | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/Force.md#Force.DataModelObjectCategory)     | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/Force.md#Force.DataModelObjectCategory)     | Gets the current DataModelObjectâ€™s category.                  |
 | [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/Force.md#Force.Suppressed)                               | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/Force.md#Force.SharedRefBody)                         | Gets or sets the SharedRefBody.                               |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/Force.md#Force.Children)                                   | Gets the list of children.                                    |
@@ -361,7 +361,7 @@ Gets or sets the Location.
 
 ### *property* Force.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

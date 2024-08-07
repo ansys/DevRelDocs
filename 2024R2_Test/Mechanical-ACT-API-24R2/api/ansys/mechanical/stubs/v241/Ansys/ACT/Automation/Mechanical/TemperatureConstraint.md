@@ -41,7 +41,7 @@ Defines a TemperatureConstraint.
 | [`TemperatureAbsMax`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TemperatureConstraint.md#TemperatureConstraint.TemperatureAbsMax)             | Gets or sets the TemperatureAbsMax.                                                      |
 | [`ScopingMethod`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TemperatureConstraint.md#TemperatureConstraint.ScopingMethod)                     | Gets or sets the ScopingMethod.                                                          |
 | [`Location`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TemperatureConstraint.md#TemperatureConstraint.Location)                               | Gets or sets the Location.                                                               |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TemperatureConstraint.md#TemperatureConstraint.DataModelObjectCategory) | Gets the current DataModelObject’s category.                                             |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TemperatureConstraint.md#TemperatureConstraint.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                                             |
 | [`EnvironmentSelection`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TemperatureConstraint.md#TemperatureConstraint.EnvironmentSelection)       | Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum. |
 | [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TemperatureConstraint.md#TemperatureConstraint.Suppressed)                           | Gets or sets the Suppressed.                                                             |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TemperatureConstraint.md#TemperatureConstraint.Children)                               | Gets the list of children.                                                               |
@@ -89,7 +89,7 @@ Gets or sets the Location.
 
 ### *property* TemperatureConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

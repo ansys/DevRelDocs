@@ -44,7 +44,7 @@ Defines a VelocityFrequencyResponse.
 |-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                | Gets the internal object. For advanced usage only.                                               |
 | [`ContactRegion`](#VelocityFrequencyResponse.ContactRegion)                             | Gets or sets the ContactRegion.                                                                  |
-| [`DataModelObjectCategory`](#VelocityFrequencyResponse.DataModelObjectCategory)         | Gets the current DataModelObject’s category.                                                     |
+| [`DataModelObjectCategory`](#VelocityFrequencyResponse.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                                                     |
 | [`CoordinateSystem`](#VelocityFrequencyResponse.CoordinateSystem)                       | Gets or sets the CoordinateSystem. Accepts/Returns None if it is the Solution Coordinate System. |
 | [`RemotePointSelection`](#VelocityFrequencyResponse.RemotePointSelection)               | Gets or sets the RemotePointSelection.                                                           |
 | [`IsSolved`](#VelocityFrequencyResponse.IsSolved)                                       | Gets the IsSolved.                                                                               |
@@ -118,7 +118,7 @@ Gets or sets the ContactRegion.
 
 ### *property* VelocityFrequencyResponse.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

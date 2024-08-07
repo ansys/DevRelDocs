@@ -48,7 +48,7 @@ Defines a FeatureSuppress.
 | [`SourceNamedSelection`](#FeatureSuppress.SourceNamedSelection)       | Gets or sets the SourceNamedSelection.                                          |
 | [`SourceLocation`](#FeatureSuppress.SourceLocation)                   | To specify the face selections for the method: Defeature Faces or Parent Faces. |
 | [`Location`](#FeatureSuppress.Location)                               | Gets or sets the Location.                                                      |
-| [`DataModelObjectCategory`](#FeatureSuppress.DataModelObjectCategory) | Gets the current DataModelObject’s category.                                    |
+| [`DataModelObjectCategory`](#FeatureSuppress.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                                    |
 | [`ScopingMethod`](#FeatureSuppress.ScopingMethod)                     | Gets or sets the ScopingMethod.                                                 |
 | [`Suppressed`](#FeatureSuppress.Suppressed)                           | Gets or sets the Suppressed.                                                    |
 | [`Children`](#FeatureSuppress.Children)                               | Gets the list of children.                                                      |
@@ -123,7 +123,7 @@ Gets or sets the Location.
 
 ### *property* FeatureSuppress.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

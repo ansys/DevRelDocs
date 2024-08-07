@@ -43,7 +43,7 @@ Defines a MassFlowRate.
 | [`InternalObject`](#id0)                                           | Gets the internal object. For advanced usage only.            |
 | [`Magnitude`](#MassFlowRate.Magnitude)                             | Gets the Magnitude.                                           |
 | [`Location`](#MassFlowRate.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#MassFlowRate.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#MassFlowRate.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Suppressed`](#MassFlowRate.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#MassFlowRate.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
 | [`Children`](#MassFlowRate.Children)                               | Gets the list of children.                                    |
@@ -87,7 +87,7 @@ Gets or sets the Location.
 
 ### *property* MassFlowRate.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -74,7 +74,7 @@ Defines a Beam.
 | [`MobileLocation`](#Beam.MobileLocation)                       | Gets or sets the MobileLocation.                              |
 | [`ReferenceLocationPoint`](#Beam.ReferenceLocationPoint)       | Gets or sets the ReferenceLocationPoint.                      |
 | [`ReferenceLocation`](#Beam.ReferenceLocation)                 | Gets or sets the ReferenceLocation.                           |
-| [`DataModelObjectCategory`](#Beam.DataModelObjectCategory)     | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#Beam.DataModelObjectCategory)     | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#Beam.Children)                                   | Gets the list of children.                                    |
 | [`Comments`](#Beam.Comments)                                   | Gets the list of associated comments.                         |
 | [`Figures`](#Beam.Figures)                                     | Gets the list of associated figures.                          |
@@ -340,7 +340,7 @@ Gets or sets the ReferenceLocation.
 
 ### *property* Beam.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

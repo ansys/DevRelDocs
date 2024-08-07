@@ -51,7 +51,7 @@ Defines a MatrixCompressiveFailureCriterion.
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/DamageResults/MatrixCompressiveFailureCriterion.md#id0)                                                                                    | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/DamageResults/MatrixCompressiveFailureCriterion.md#MatrixCompressiveFailureCriterion.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/DamageResults/MatrixCompressiveFailureCriterion.md#MatrixCompressiveFailureCriterion.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
 | [`Mode`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/DamageResults/MatrixCompressiveFailureCriterion.md#MatrixCompressiveFailureCriterion.Mode)                                                           | Gets or sets the Mode.                                                 |
 | [`Ply`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/DamageResults/MatrixCompressiveFailureCriterion.md#MatrixCompressiveFailureCriterion.Ply)                                                             | Gets or sets the Ply selection.                                        |
 | [`Plies`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/DamageResults/MatrixCompressiveFailureCriterion.md#MatrixCompressiveFailureCriterion.Plies)                                                         | Plies property.                                                        |
@@ -126,7 +126,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* MatrixCompressiveFailureCriterion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

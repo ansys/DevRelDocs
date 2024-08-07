@@ -40,7 +40,7 @@ ExclusionRegion class.
 |---------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                              | InternalObject property.                                      |
 | [`Suppressed`](#ExclusionRegion.Suppressed)                                           | Gets or sets the Suppressed.                                  |
-| [`DataModelObjectCategory`](#ExclusionRegion.DataModelObjectCategory)                 | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#ExclusionRegion.DataModelObjectCategory)                 | Gets the current DataModelObjectâ€™s category.                  |
 | [`ExclusionRegionLocation`](#ExclusionRegion.ExclusionRegionLocation)                 | Gets or sets the ExclusionRegionLocation.                     |
 | [`ExclusionScopingMethod`](#ExclusionRegion.ExclusionScopingMethod)                   | Gets or sets the ExclusionScopingMethod.                      |
 | [`Children`](#ExclusionRegion.Children)                                               | Gets the list of children.                                    |
@@ -74,7 +74,7 @@ Gets or sets the Suppressed.
 
 ### *property* ExclusionRegion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

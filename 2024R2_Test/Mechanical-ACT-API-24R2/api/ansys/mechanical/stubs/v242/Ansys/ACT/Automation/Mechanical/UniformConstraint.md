@@ -42,7 +42,7 @@ Defines a UniformConstraint.
 | [`ScopingMethod`](#UniformConstraint.ScopingMethod)                     | Gets or sets the ScopingMethod.                               |
 | [`CoordinateSystem`](#UniformConstraint.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
 | [`Location`](#UniformConstraint.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#UniformConstraint.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#UniformConstraint.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Suppressed`](#UniformConstraint.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`Selection`](#UniformConstraint.Selection)                             | Gets or sets the Selection.                                   |
 | [`Children`](#UniformConstraint.Children)                               | Gets the list of children.                                    |
@@ -98,7 +98,7 @@ Gets or sets the Location.
 
 ### *property* UniformConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

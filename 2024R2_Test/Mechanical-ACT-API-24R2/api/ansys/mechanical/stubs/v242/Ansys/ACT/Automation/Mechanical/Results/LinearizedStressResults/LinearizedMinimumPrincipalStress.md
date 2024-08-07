@@ -51,7 +51,7 @@ Defines a LinearizedMinimumPrincipalStress.
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                                   | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](#LinearizedMinimumPrincipalStress.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](#LinearizedMinimumPrincipalStress.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
 | [`ZeroThroughThicknessBendingStress`](#LinearizedMinimumPrincipalStress.ZeroThroughThicknessBendingStress) | Gets or sets the ZeroThroughThicknessBendingStress.                    |
 | [`LoadMultiplier`](#LinearizedMinimumPrincipalStress.LoadMultiplier)                                       | Gets the LoadMultiplier.                                               |
 | [`AverageRadiusOfCurvature`](#LinearizedMinimumPrincipalStress.AverageRadiusOfCurvature)                   | Gets or sets the AverageRadiusOfCurvature.                             |
@@ -147,7 +147,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* LinearizedMinimumPrincipalStress.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

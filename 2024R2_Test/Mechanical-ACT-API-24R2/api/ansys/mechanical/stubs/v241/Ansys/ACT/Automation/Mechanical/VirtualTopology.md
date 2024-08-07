@@ -50,8 +50,8 @@ Defines a VirtualTopology.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
-| [`AutomaticBehavior`](../../../../../v242/Ansys/ACT/Automation/Mechanical/VirtualTopology.md#VirtualTopology.AutomaticBehavior)                                 | Gets or sets the Behavior when Method is set to ìAutomaticî.   |
-| [`RepairBehavior`](../../../../../v242/Ansys/ACT/Automation/Mechanical/VirtualTopology.md#VirtualTopology.RepairBehavior)                                       | Gets or sets the Behavior when Method is set to ìRepairî.      |
+| [`AutomaticBehavior`](../../../../../v242/Ansys/ACT/Automation/Mechanical/VirtualTopology.md#VirtualTopology.AutomaticBehavior)                                 | Gets or sets the Behavior when Method is set to ‚ÄúAutomatic‚Äù.   |
+| [`RepairBehavior`](../../../../../v242/Ansys/ACT/Automation/Mechanical/VirtualTopology.md#VirtualTopology.RepairBehavior)                                       | Gets or sets the Behavior when Method is set to ‚ÄúRepair‚Äù.      |
 | [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/VirtualTopology.md#id0)                                                                  | Gets the internal object. For advanced usage only.             |
 | [`AspectRatio`](../../../../../v242/Ansys/ACT/Automation/Mechanical/VirtualTopology.md#VirtualTopology.AspectRatio)                                             | Gets or sets the AspectRatio.                                  |
 | [`SharedBoundaryRatio`](../../../../../v242/Ansys/ACT/Automation/Mechanical/VirtualTopology.md#VirtualTopology.SharedBoundaryRatio)                             | Gets or sets the SharedBoundaryRatio.                          |
@@ -76,7 +76,7 @@ Defines a VirtualTopology.
 | [`Method`](../../../../../v242/Ansys/ACT/Automation/Mechanical/VirtualTopology.md#VirtualTopology.Method)                                                       | Gets or sets the Method.                                       |
 | [`GenerateOnUpdate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/VirtualTopology.md#VirtualTopology.GenerateOnUpdate)                                   | Gets or sets the GenerateOnUpdate.                             |
 | [`SimplifyFaces`](../../../../../v242/Ansys/ACT/Automation/Mechanical/VirtualTopology.md#VirtualTopology.SimplifyFaces)                                         | Gets or sets the SimplifyFaces.                                |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/VirtualTopology.md#VirtualTopology.DataModelObjectCategory)                     | Gets the current DataModelObjectís category.                   |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/VirtualTopology.md#VirtualTopology.DataModelObjectCategory)                     | Gets the current DataModelObject‚Äôs category.                   |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/VirtualTopology.md#VirtualTopology.Children)                                                   | Gets the list of children.                                     |
 | [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/VirtualTopology.md#VirtualTopology.Comments)                                                   | Gets the list of associated comments.                          |
 | [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/VirtualTopology.md#VirtualTopology.Figures)                                                     | Gets the list of associated figures.                           |
@@ -93,7 +93,7 @@ Defines a VirtualTopology.
 
 ### *property* VirtualTopology.AutomaticBehavior *: [Ansys.Mechanical.DataModel.Enums.VirtualCellGroupAutomaticBehaviorType](../../../Mechanical/DataModel/Enums/VirtualCellGroupAutomaticBehaviorType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.VirtualCellGroupAutomaticBehaviorType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the Behavior when Method is set to ìAutomaticî.
+Gets or sets the Behavior when Method is set to ‚ÄúAutomatic‚Äù.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -101,7 +101,7 @@ Gets or sets the Behavior when Method is set to ìAutomaticî.
 
 ### *property* VirtualTopology.RepairBehavior *: [Ansys.Mechanical.DataModel.Enums.VirtualCellGroupRepairBehaviorType](../../../Mechanical/DataModel/Enums/VirtualCellGroupRepairBehaviorType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.VirtualCellGroupRepairBehaviorType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the Behavior when Method is set to ìRepairî.
+Gets or sets the Behavior when Method is set to ‚ÄúRepair‚Äù.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -301,7 +301,7 @@ Gets or sets the SimplifyFaces.
 
 ### *property* VirtualTopology.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectís category.
+Gets the current DataModelObject‚Äôs category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -46,7 +46,7 @@ Defines a FixedRotation.
 | [`RotationZ`](#FixedRotation.RotationZ)                             | Gets or sets the RotationZ.                                   |
 | [`CoordinateSystem`](#FixedRotation.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
 | [`Location`](#FixedRotation.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#FixedRotation.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#FixedRotation.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Suppressed`](#FixedRotation.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#FixedRotation.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
 | [`Children`](#FixedRotation.Children)                               | Gets the list of children.                                    |
@@ -114,7 +114,7 @@ Gets or sets the Location.
 
 ### *property* FixedRotation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -53,7 +53,7 @@ Defines a TotalShearMomentDiagram.
 | [`InternalObject`](#id0)                                                                          | Gets the internal object. For advanced usage only.                     |
 | [`GraphicsDisplay`](#TotalShearMomentDiagram.GraphicsDisplay)                                     | Gets or sets the GraphicsDisplay.                                      |
 | [`ShearMomentType`](#TotalShearMomentDiagram.ShearMomentType)                                     | Gets or sets the ShearMomentType.                                      |
-| [`DataModelObjectCategory`](#TotalShearMomentDiagram.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](#TotalShearMomentDiagram.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
 | [`BeamResultType`](#TotalShearMomentDiagram.BeamResultType)                                       | Gets or sets the BeamResultType.                                       |
 | [`PlotData`](#TotalShearMomentDiagram.PlotData)                                                   | Gets the result table.                                                 |
 | [`Location`](#TotalShearMomentDiagram.Location)                                                   | Gets or sets the Location.                                             |
@@ -142,7 +142,7 @@ Gets or sets the ShearMomentType.
 
 ### *property* TotalShearMomentDiagram.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -60,7 +60,7 @@ Defines a ImportedCondensedPart.
 | [`ImportFileFormat`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedCondensedPart.md#ImportedCondensedPart.ImportFileFormat)               | Gets or sets the ImportFileFormat.                            |
 | [`ImportStatus`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedCondensedPart.md#ImportedCondensedPart.ImportStatus)                       | Gets the ImportStatus.                                        |
 | [`CoordinateSystem`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedCondensedPart.md#ImportedCondensedPart.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedCondensedPart.md#ImportedCondensedPart.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedCondensedPart.md#ImportedCondensedPart.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`NumberInterfaceEntries`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedCondensedPart.md#ImportedCondensedPart.NumberInterfaceEntries)   | Gets the NumberInterfaceEntries.                              |
 | [`NumberMasterNodes`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedCondensedPart.md#ImportedCondensedPart.NumberMasterNodes)             | Gets the NumberMasterNodes.                                   |
 | [`SolutionName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedCondensedPart.md#ImportedCondensedPart.SolutionName)                       | Gets or sets the SolutionName.                                |
@@ -153,7 +153,7 @@ Gets or sets the CoordinateSystem.
 
 ### *property* ImportedCondensedPart.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

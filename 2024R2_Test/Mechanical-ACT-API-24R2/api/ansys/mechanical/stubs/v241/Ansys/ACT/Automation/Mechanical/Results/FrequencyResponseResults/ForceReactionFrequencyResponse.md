@@ -47,7 +47,7 @@ Defines a ForceReactionFrequencyResponse.
 | [`Beam`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/ForceReactionFrequencyResponse.md#ForceReactionFrequencyResponse.Beam)                                               | Gets or sets the Beam.                                                                           |
 | [`ContactRegion`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/ForceReactionFrequencyResponse.md#ForceReactionFrequencyResponse.ContactRegion)                             | Gets or sets the ContactRegion.                                                                  |
 | [`RemotePoint`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/ForceReactionFrequencyResponse.md#ForceReactionFrequencyResponse.RemotePoint)                                 | Gets or sets the RemotePoint.                                                                    |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/ForceReactionFrequencyResponse.md#ForceReactionFrequencyResponse.DataModelObjectCategory)         | Gets the current DataModelObject’s category.                                                     |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/ForceReactionFrequencyResponse.md#ForceReactionFrequencyResponse.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                                                     |
 | [`CoordinateSystem`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/ForceReactionFrequencyResponse.md#ForceReactionFrequencyResponse.CoordinateSystem)                       | Gets or sets the CoordinateSystem. Accepts/Returns None if it is the Solution Coordinate System. |
 | [`RemotePointSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/ForceReactionFrequencyResponse.md#ForceReactionFrequencyResponse.RemotePointSelection)               | Gets or sets the RemotePointSelection.                                                           |
 | [`IsSolved`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/ForceReactionFrequencyResponse.md#ForceReactionFrequencyResponse.IsSolved)                                       | Gets the IsSolved.                                                                               |
@@ -145,7 +145,7 @@ Gets or sets the RemotePoint.
 
 ### *property* ForceReactionFrequencyResponse.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

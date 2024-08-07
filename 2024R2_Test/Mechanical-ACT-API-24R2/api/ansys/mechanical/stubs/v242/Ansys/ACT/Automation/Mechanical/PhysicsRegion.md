@@ -68,7 +68,7 @@ Defines a PhysicsRegion.
 | [`Thermal`](#PhysicsRegion.Thermal)                                                                     | Gets or sets the Thermal.                                     |
 | [`PMLElementCoordinateSystem`](#PhysicsRegion.PMLElementCoordinateSystem)                               | Gets or sets the PMLElementCoordinateSystem.                  |
 | [`Location`](#PhysicsRegion.Location)                                                                   | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#PhysicsRegion.DataModelObjectCategory)                                     | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#PhysicsRegion.DataModelObjectCategory)                                     | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#PhysicsRegion.Children)                                                                   | Gets the list of children.                                    |
 | [`Comments`](#PhysicsRegion.Comments)                                                                   | Gets the list of associated comments.                         |
 | [`Figures`](#PhysicsRegion.Figures)                                                                     | Gets the list of associated figures.                          |
@@ -301,7 +301,7 @@ Gets or sets the Location.
 
 ### *property* PhysicsRegion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

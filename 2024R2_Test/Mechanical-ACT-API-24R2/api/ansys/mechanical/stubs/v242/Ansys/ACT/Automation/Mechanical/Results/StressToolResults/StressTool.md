@@ -52,7 +52,7 @@ Defines a StressTool.
 | [`Theory`](#StressTool.Theory)                                   | Gets or sets the Theory.                                      |
 | [`StressLimitType`](#StressTool.StressLimitType)                 | Gets or sets the StressLimitType.                             |
 | [`TensileLimitType`](#StressTool.TensileLimitType)               | Gets or sets the TensileLimitType.                            |
-| [`DataModelObjectCategory`](#StressTool.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#StressTool.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#StressTool.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#StressTool.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#StressTool.Figures)                                 | Gets the list of associated figures.                          |
@@ -141,7 +141,7 @@ Gets or sets the TensileLimitType.
 
 ### *property* StressTool.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

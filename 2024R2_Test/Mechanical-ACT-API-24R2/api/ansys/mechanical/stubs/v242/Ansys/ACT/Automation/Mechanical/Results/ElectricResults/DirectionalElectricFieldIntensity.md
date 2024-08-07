@@ -52,7 +52,7 @@ Defines a DirectionalElectricFieldIntensity.
 |-------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                                    | Gets the internal object. For advanced usage only.                     |
 | [`NormalOrientation`](#DirectionalElectricFieldIntensity.NormalOrientation)                                 | Gets or sets the NormalOrientation.                                    |
-| [`DataModelObjectCategory`](#DirectionalElectricFieldIntensity.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](#DirectionalElectricFieldIntensity.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
 | [`ReportedFrequency`](#DirectionalElectricFieldIntensity.ReportedFrequency)                                 | Gets the ReportedFrequency.                                            |
 | [`SweepingPhase`](#DirectionalElectricFieldIntensity.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
 | [`PhaseIncrement`](#DirectionalElectricFieldIntensity.PhaseIncrement)                                       | Gets or sets the PhaseIncrement.                                       |
@@ -139,7 +139,7 @@ Gets or sets the NormalOrientation.
 
 ### *property* DirectionalElectricFieldIntensity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

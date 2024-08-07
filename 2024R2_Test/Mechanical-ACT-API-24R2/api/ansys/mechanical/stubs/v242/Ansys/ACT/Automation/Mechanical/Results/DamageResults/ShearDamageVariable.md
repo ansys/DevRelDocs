@@ -51,7 +51,7 @@ Defines a ShearDamageVariable.
 | Name | Description |
 |-----------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                      | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](#ShearDamageVariable.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](#ShearDamageVariable.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
 | [`Mode`](#ShearDamageVariable.Mode)                                                           | Gets or sets the Mode.                                                 |
 | [`Ply`](#ShearDamageVariable.Ply)                                                             | Gets or sets the Ply selection.                                        |
 | [`Plies`](#ShearDamageVariable.Plies)                                                         | Plies property.                                                        |
@@ -127,7 +127,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* ShearDamageVariable.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

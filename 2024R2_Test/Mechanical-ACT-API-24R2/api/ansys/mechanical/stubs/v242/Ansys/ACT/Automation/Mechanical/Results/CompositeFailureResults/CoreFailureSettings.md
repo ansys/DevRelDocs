@@ -36,7 +36,7 @@ Defines the configuration for the Core failure criterion for sandwich structures
 ### *property* CoreFailureSettings.WeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the weighting factor for the core failure criterion. The corresponding failure label
-: is ‘cf’.
+: is â€˜cfâ€™.
 
 <!-- !! processed by numpydoc !! -->
 

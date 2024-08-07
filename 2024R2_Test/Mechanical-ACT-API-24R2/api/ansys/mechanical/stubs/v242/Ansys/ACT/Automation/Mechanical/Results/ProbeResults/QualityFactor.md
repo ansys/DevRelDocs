@@ -54,12 +54,12 @@ Defines a QualityFactor.
 | [`Frequency`](#QualityFactor.Frequency)                                   | Gets or sets the Frequency.                                                                                                                                                |
 | [`SweepingPhase`](#QualityFactor.SweepingPhase)                           | Gets or sets the SweepingPhase.                                                                                                                                            |
 | [`By`](#QualityFactor.By)                                                 | Gets or sets the By.                                                                                                                                                       |
-| [`DataModelObjectCategory`](#QualityFactor.DataModelObjectCategory)       | Gets the current DataModelObject’s category.                                                                                                                               |
+| [`DataModelObjectCategory`](#QualityFactor.DataModelObjectCategory)       | Gets the current DataModelObjectâ€™s category.                                                                                                                               |
 | [`Summation`](#QualityFactor.Summation)                                   | Gets or sets the Summation.                                                                                                                                                |
 | [`LocationMethod`](#QualityFactor.LocationMethod)                         | Gets or sets the LocationMethod.                                                                                                                                           |
 | [`GeometryLocation`](#QualityFactor.GeometryLocation)                     | Gets or sets the GeometryLocation.                                                                                                                                         |
 | [`CoordinateSystemSelection`](#QualityFactor.CoordinateSystemSelection)   | Gets or sets the CoordinateSystemSelection.                                                                                                                                |
-| [`BoundaryConditionSelection`](#QualityFactor.BoundaryConditionSelection) | Gets or sets the BoundaryConditionSelection. In order to select the option ‘WeakSprings’, please use the property ‘LocationMethod = LocationDefinitionMethod.WeakSprings’. |
+| [`BoundaryConditionSelection`](#QualityFactor.BoundaryConditionSelection) | Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSpringsâ€™, please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSpringsâ€™. |
 | [`ContactRegionSelection`](#QualityFactor.ContactRegionSelection)         | Gets or sets the ContactRegionSelection.                                                                                                                                   |
 | [`RemotePointSelection`](#QualityFactor.RemotePointSelection)             | Gets or sets the RemotePointSelection.                                                                                                                                     |
 | [`BeamSelection`](#QualityFactor.BeamSelection)                           | Gets or sets the BeamSelection.                                                                                                                                            |
@@ -179,7 +179,7 @@ Gets or sets the By.
 
 ### *property* QualityFactor.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -219,7 +219,7 @@ Gets or sets the CoordinateSystemSelection.
 
 ### *property* QualityFactor.BoundaryConditionSelection *: Ansys.ACT.Automation.Mechanical.DataModelObject | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the BoundaryConditionSelection. In order to select the option ‘WeakSprings’, please use the property ‘LocationMethod = LocationDefinitionMethod.WeakSprings’.
+Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSpringsâ€™, please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSpringsâ€™.
 
 <!-- !! processed by numpydoc !! -->
 

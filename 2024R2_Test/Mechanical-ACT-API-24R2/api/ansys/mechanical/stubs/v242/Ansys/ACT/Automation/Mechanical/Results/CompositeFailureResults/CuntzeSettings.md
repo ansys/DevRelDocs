@@ -25,15 +25,15 @@ Defines the configuration for the Cuntze failure criterion for reinforced materi
 | Name | Description |
 |------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
 | [`FailureDimension`](#CuntzeSettings.FailureDimension)                                               | Gets or sets whether the failure criterion is evaluated only in-plane (2D),                            |
-| [`EvaluateFiberTensionFailure`](#CuntzeSettings.EvaluateFiberTensionFailure)                         | Gets or sets whether fiber tension failure is evaluated. The corresponding failure label is ‘cft’      |
+| [`EvaluateFiberTensionFailure`](#CuntzeSettings.EvaluateFiberTensionFailure)                         | Gets or sets whether fiber tension failure is evaluated. The corresponding failure label is â€˜cftâ€™      |
 | [`FiberTensionFailureWeightingFactor`](#CuntzeSettings.FiberTensionFailureWeightingFactor)           | Gets or sets the weighting factor for the fiber tension failure (cft) evaluation.                      |
-| [`EvaluateFiberCompressionFailure`](#CuntzeSettings.EvaluateFiberCompressionFailure)                 | Gets or sets whether fiber compression failure is evaluated. The corresponding failure label is ‘cfc’  |
+| [`EvaluateFiberCompressionFailure`](#CuntzeSettings.EvaluateFiberCompressionFailure)                 | Gets or sets whether fiber compression failure is evaluated. The corresponding failure label is â€˜cfcâ€™  |
 | [`FiberCompressionFailureWeightingFactor`](#CuntzeSettings.FiberCompressionFailureWeightingFactor)   | Gets or sets the weighting factor for the fiber compression failure (cfc) evaluation.                  |
-| [`EvaluateMatrixTensionFailure`](#CuntzeSettings.EvaluateMatrixTensionFailure)                       | Gets or sets whether matrix tension failure is evaluated. The corresponding failure label is ‘cmA’     |
+| [`EvaluateMatrixTensionFailure`](#CuntzeSettings.EvaluateMatrixTensionFailure)                       | Gets or sets whether matrix tension failure is evaluated. The corresponding failure label is â€˜cmAâ€™     |
 | [`MatrixTensionFailureWeightingFactor`](#CuntzeSettings.MatrixTensionFailureWeightingFactor)         | Gets or sets the weighting factor for the matrix tension failure (cmA) evaluation.                     |
-| [`EvaluateMatrixCompressionFailure`](#CuntzeSettings.EvaluateMatrixCompressionFailure)               | Gets or sets whether matrix compression failure is evaluated. The corresponding failure label is ‘cmB’ |
+| [`EvaluateMatrixCompressionFailure`](#CuntzeSettings.EvaluateMatrixCompressionFailure)               | Gets or sets whether matrix compression failure is evaluated. The corresponding failure label is â€˜cmBâ€™ |
 | [`MatrixCompressionFailureWeightingFactor`](#CuntzeSettings.MatrixCompressionFailureWeightingFactor) | Gets or sets the weighting factor for the matrix compression failure (cmB) evaluation.                 |
-| [`EvaluateMatrixWedgeShapeFailure`](#CuntzeSettings.EvaluateMatrixWedgeShapeFailure)                 | Gets or sets whether matrix wedge shape failure is evaluated. The corresponding failure label is ‘cmC’ |
+| [`EvaluateMatrixWedgeShapeFailure`](#CuntzeSettings.EvaluateMatrixWedgeShapeFailure)                 | Gets or sets whether matrix wedge shape failure is evaluated. The corresponding failure label is â€˜cmCâ€™ |
 | [`MatrixWedgeShapeFailureWeightingFactor`](#CuntzeSettings.MatrixWedgeShapeFailureWeightingFactor)   | Gets or sets the weighting factor for the matrix wedge shape failure (cmC) evaluation.                 |
 | [`ModeInteractionCoefficient`](#CuntzeSettings.ModeInteractionCoefficient)                           | Gets or sets the mode interaction coefficient.                                                         |
 | [`InPlaneShearFrictionCoefficient`](#CuntzeSettings.InPlaneShearFrictionCoefficient)                 | Gets or sets the in-plane shear friction coefficient b21.                                              |
@@ -57,7 +57,7 @@ Gets or sets whether the failure criterion is evaluated only in-plane (2D),
 
 ### *property* CuntzeSettings.EvaluateFiberTensionFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets whether fiber tension failure is evaluated. The corresponding failure label is ‘cft’
+Gets or sets whether fiber tension failure is evaluated. The corresponding failure label is â€˜cftâ€™
 
 <!-- !! processed by numpydoc !! -->
 
@@ -73,7 +73,7 @@ Gets or sets the weighting factor for the fiber tension failure (cft) evaluation
 
 ### *property* CuntzeSettings.EvaluateFiberCompressionFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets whether fiber compression failure is evaluated. The corresponding failure label is ‘cfc’
+Gets or sets whether fiber compression failure is evaluated. The corresponding failure label is â€˜cfcâ€™
 
 <!-- !! processed by numpydoc !! -->
 
@@ -89,7 +89,7 @@ Gets or sets the weighting factor for the fiber compression failure (cfc) evalua
 
 ### *property* CuntzeSettings.EvaluateMatrixTensionFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets whether matrix tension failure is evaluated. The corresponding failure label is ‘cmA’
+Gets or sets whether matrix tension failure is evaluated. The corresponding failure label is â€˜cmAâ€™
 
 <!-- !! processed by numpydoc !! -->
 
@@ -105,7 +105,7 @@ Gets or sets the weighting factor for the matrix tension failure (cmA) evaluatio
 
 ### *property* CuntzeSettings.EvaluateMatrixCompressionFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets whether matrix compression failure is evaluated. The corresponding failure label is ‘cmB’
+Gets or sets whether matrix compression failure is evaluated. The corresponding failure label is â€˜cmBâ€™
 
 <!-- !! processed by numpydoc !! -->
 
@@ -121,7 +121,7 @@ Gets or sets the weighting factor for the matrix compression failure (cmB) evalu
 
 ### *property* CuntzeSettings.EvaluateMatrixWedgeShapeFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets whether matrix wedge shape failure is evaluated. The corresponding failure label is ‘cmC’
+Gets or sets whether matrix wedge shape failure is evaluated. The corresponding failure label is â€˜cmCâ€™
 
 <!-- !! processed by numpydoc !! -->
 

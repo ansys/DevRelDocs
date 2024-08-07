@@ -41,7 +41,7 @@ Defines a GenericDelamination.
 | Name | Description |
 |---------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                  | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](#GenericDelamination.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#GenericDelamination.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#GenericDelamination.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#GenericDelamination.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#GenericDelamination.Figures)                                 | Gets the list of associated figures.                          |
@@ -67,7 +67,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* GenericDelamination.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

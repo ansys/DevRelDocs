@@ -53,7 +53,7 @@ Defines a CompositeFailureCriteria.
 | [`ShearCrimping`](#CompositeFailureCriteria.ShearCrimping)                     | Gets the configuration of the Shear Crimping sandwich failure criterion                                  |
 | [`VonMises`](#CompositeFailureCriteria.VonMises)                               | Gets the configuration of the Von Mises failure criterion for isotropic materials.                       |
 | [`InternalObject`](#id0)                                                       | Gets the internal object. For advanced usage only.                                                       |
-| [`DataModelObjectCategory`](#CompositeFailureCriteria.DataModelObjectCategory) | Gets the current DataModelObject’s category.                                                             |
+| [`DataModelObjectCategory`](#CompositeFailureCriteria.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                                                             |
 | [`Children`](#CompositeFailureCriteria.Children)                               | Gets the list of children.                                                                               |
 | [`Comments`](#CompositeFailureCriteria.Comments)                               | Gets the list of associated comments.                                                                    |
 | [`Figures`](#CompositeFailureCriteria.Figures)                                 | Gets the list of associated figures.                                                                     |
@@ -182,7 +182,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* CompositeFailureCriteria.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

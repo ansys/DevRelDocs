@@ -43,7 +43,7 @@ Defines a SpringElasticForceTracker.
 | Name | Description |
 |-----------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](#SpringElasticForceTracker.DataModelObjectCategory)         | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#SpringElasticForceTracker.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                  |
 | [`IsSolved`](#SpringElasticForceTracker.IsSolved)                                       | Gets the IsSolved.                                            |
 | [`ChartDimensions`](#SpringElasticForceTracker.ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
 | [`BoundaryCondition`](#SpringElasticForceTracker.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
@@ -108,7 +108,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* SpringElasticForceTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

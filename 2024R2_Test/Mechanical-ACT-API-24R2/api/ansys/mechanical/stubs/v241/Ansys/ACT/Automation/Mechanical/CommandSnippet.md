@@ -44,7 +44,7 @@ Defines a CommandSnippet.
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Input`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CommandSnippet.md#CommandSnippet.Input)                                     | Gets or sets the Text.                                        |
-| [`OutputParameters`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CommandSnippet.md#CommandSnippet.OutputParameters)               | Gets a list of the command snippet’s output parameters.       |
+| [`OutputParameters`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CommandSnippet.md#CommandSnippet.OutputParameters)               | Gets a list of the command snippetâ€™s output parameters.       |
 | [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CommandSnippet.md#id0)                                             | Gets the internal object. For advanced usage only.            |
 | [`InputArgument1`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CommandSnippet.md#CommandSnippet.InputArgument1)                   | Gets or sets the InputArgument1.                              |
 | [`InputArgument2`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CommandSnippet.md#CommandSnippet.InputArgument2)                   | Gets or sets the InputArgument2.                              |
@@ -64,7 +64,7 @@ Defines a CommandSnippet.
 | [`IssueSolveCommand`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CommandSnippet.md#CommandSnippet.IssueSolveCommand)             | Gets or sets the IssueSolveCommand.                           |
 | [`InvalidateSolution`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CommandSnippet.md#CommandSnippet.InvalidateSolution)           | Gets or sets the InvalidateSolution.                          |
 | [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CommandSnippet.md#CommandSnippet.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CommandSnippet.md#CommandSnippet.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CommandSnippet.md#CommandSnippet.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CommandSnippet.md#CommandSnippet.Children)                               | Gets the list of children.                                    |
 | [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CommandSnippet.md#CommandSnippet.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CommandSnippet.md#CommandSnippet.Figures)                                 | Gets the list of associated figures.                          |
@@ -90,7 +90,7 @@ Gets or sets the Text.
 
 ### *property* CommandSnippet.OutputParameters *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.CommandOutputParameter] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets a list of the command snippet’s output parameters.
+Gets a list of the command snippetâ€™s output parameters.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -250,7 +250,7 @@ Gets or sets the Suppressed.
 
 ### *property* CommandSnippet.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

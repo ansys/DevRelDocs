@@ -39,7 +39,7 @@ Defines a Inductance.
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ElectromagneticResults/Inductance.md#id0)                                         | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ElectromagneticResults/Inductance.md#Inductance.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ElectromagneticResults/Inductance.md#Inductance.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Multiplier`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ElectromagneticResults/Inductance.md#Inductance.Multiplier)                           | Gets or sets the Multiplier.                                  |
 | [`Children`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ElectromagneticResults/Inductance.md#Inductance.Children)                               | Gets the list of children.                                    |
 | [`Comments`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ElectromagneticResults/Inductance.md#Inductance.Comments)                               | Gets the list of associated comments.                         |
@@ -64,7 +64,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* Inductance.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

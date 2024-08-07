@@ -45,7 +45,7 @@ Defines a AcousticTemperature.
 | Name | Description |
 |-----------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                          | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](#AcousticTemperature.DataModelObjectCategory)         | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#AcousticTemperature.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                  |
 | [`Magnitude`](#AcousticTemperature.Magnitude)                                     | Gets or sets the Magnitude.                                   |
 | [`NumberOfSegments`](#AcousticTemperature.NumberOfSegments)                       | Gets or sets the NumberOfSegments.                            |
 | [`LoadVectorNumber`](#AcousticTemperature.LoadVectorNumber)                       | Gets or sets the LoadVectorNumber.                            |
@@ -85,7 +85,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* AcousticTemperature.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -44,7 +44,7 @@ Defines a GeometryFidelity.
 | [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/GeometryFidelity.md#id0)                                               | Gets the internal object. For advanced usage only.            |
 | [`NamedSelection`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/GeometryFidelity.md#GeometryFidelity.NamedSelection)                   | Gets or sets the NamedSelection.                              |
 | [`Location`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/GeometryFidelity.md#GeometryFidelity.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/GeometryFidelity.md#GeometryFidelity.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/GeometryFidelity.md#GeometryFidelity.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`ScopingMethod`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/GeometryFidelity.md#GeometryFidelity.ScopingMethod)                     | Gets or sets the ScopingMethod.                               |
 | [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/GeometryFidelity.md#GeometryFidelity.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/GeometryFidelity.md#GeometryFidelity.Children)                               | Gets the list of children.                                    |
@@ -87,7 +87,7 @@ Gets or sets the Location.
 
 ### *property* GeometryFidelity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -54,7 +54,7 @@ Defines a NormalElasticStrain.
 | [`ScaleFactorValue`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StrainResults/NormalElasticStrain.md#NormalElasticStrain.ScaleFactorValue)                                   | Gets or sets the ScaleFactorValue.                                     |
 | [`NormalOrientation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StrainResults/NormalElasticStrain.md#NormalElasticStrain.NormalOrientation)                                 | Gets or sets the NormalOrientation.                                    |
 | [`ScaleFactor`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StrainResults/NormalElasticStrain.md#NormalElasticStrain.ScaleFactor)                                             | Gets or sets the ScaleFactor.                                          |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StrainResults/NormalElasticStrain.md#NormalElasticStrain.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StrainResults/NormalElasticStrain.md#NormalElasticStrain.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
 | [`Mode`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StrainResults/NormalElasticStrain.md#NormalElasticStrain.Mode)                                                           | Gets or sets the Mode.                                                 |
 | [`Ply`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StrainResults/NormalElasticStrain.md#NormalElasticStrain.Ply)                                                             | Gets or sets the Ply selection.                                        |
 | [`Plies`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StrainResults/NormalElasticStrain.md#NormalElasticStrain.Plies)                                                         | Plies property.                                                        |
@@ -166,7 +166,7 @@ Gets or sets the ScaleFactor.
 
 ### *property* NormalElasticStrain.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

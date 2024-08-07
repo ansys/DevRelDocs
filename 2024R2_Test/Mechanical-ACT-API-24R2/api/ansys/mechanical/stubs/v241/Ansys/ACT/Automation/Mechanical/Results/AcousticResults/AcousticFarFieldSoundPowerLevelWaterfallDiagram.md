@@ -53,7 +53,7 @@ Defines a AcousticFarFieldSoundPowerLevelWaterfallDiagram.
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticFarFieldSoundPowerLevelWaterfallDiagram.md#id0)                                                                                                    | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticFarFieldSoundPowerLevelWaterfallDiagram.md#AcousticFarFieldSoundPowerLevelWaterfallDiagram.DataModelObjectCategory)                       | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticFarFieldSoundPowerLevelWaterfallDiagram.md#AcousticFarFieldSoundPowerLevelWaterfallDiagram.DataModelObjectCategory)                       | Gets the current DataModelObjectâ€™s category.                           |
 | [`FarFieldMicrophoneDefinitionMethod`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticFarFieldSoundPowerLevelWaterfallDiagram.md#AcousticFarFieldSoundPowerLevelWaterfallDiagram.FarFieldMicrophoneDefinitionMethod) | Gets or sets the FarFieldMicrophoneDefinitionMethod.                   |
 | [`Worksheet`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticFarFieldSoundPowerLevelWaterfallDiagram.md#AcousticFarFieldSoundPowerLevelWaterfallDiagram.Worksheet)                                                   | Get the ObjectiveWorksheet action.                                     |
 | [`ReportedFrequency`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticFarFieldSoundPowerLevelWaterfallDiagram.md#AcousticFarFieldSoundPowerLevelWaterfallDiagram.ReportedFrequency)                                   | Gets the ReportedFrequency.                                            |
@@ -154,7 +154,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* AcousticFarFieldSoundPowerLevelWaterfallDiagram.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

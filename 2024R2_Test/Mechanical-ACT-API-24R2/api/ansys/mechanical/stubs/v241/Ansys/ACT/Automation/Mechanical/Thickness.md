@@ -51,7 +51,7 @@ Defines a Thickness.
 | [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Thickness.md#Thickness.Suppressed)                                   | Gets or sets the Suppressed.                                  |
 | [`XYZFunctionCoordinateSystem`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Thickness.md#Thickness.XYZFunctionCoordinateSystem) | Gets or sets the XYZFunctionCoordinateSystem.                 |
 | [`Location`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Thickness.md#Thickness.Location)                                       | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Thickness.md#Thickness.DataModelObjectCategory)         | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Thickness.md#Thickness.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Thickness.md#Thickness.Children)                                       | Gets the list of children.                                    |
 | [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Thickness.md#Thickness.Comments)                                       | Gets the list of associated comments.                         |
 | [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Thickness.md#Thickness.Figures)                                         | Gets the list of associated figures.                          |
@@ -165,7 +165,7 @@ Gets or sets the Location.
 
 ### *property* Thickness.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

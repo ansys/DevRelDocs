@@ -42,7 +42,7 @@ Defines a PythonCode.
 | [`ScriptExecutionScope`](#PythonCode.ScriptExecutionScope)       | The scope identifier in which the code execution will take place.                     |
 | [`AllowRecursion`](#PythonCode.AllowRecursion)                   | Gets or Sets whether the PythonCode allows recursion.                                 |
 | [`Connected`](#PythonCode.Connected)                             | Gets whether the callbacks are currently connected.                                   |
-| [`DataModelObjectCategory`](#PythonCode.DataModelObjectCategory) | Gets the current DataModelObject’s category.                                          |
+| [`DataModelObjectCategory`](#PythonCode.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                                          |
 | [`InternalObject`](#id0)                                         | Gets the internal object. For advanced usage only.                                    |
 | [`Properties`](#PythonCode.Properties)                           | Gets the list of properties for this object.                                          |
 | [`VisibleProperties`](#PythonCode.VisibleProperties)             | Gets the list of properties that are visible for this object.                         |
@@ -103,7 +103,7 @@ Gets whether the callbacks are currently connected.
 
 ### *property* PythonCode.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

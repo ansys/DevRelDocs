@@ -46,7 +46,7 @@ Defines a NodalRotation.
 | [`RotationZ`](#NodalRotation.RotationZ)                             | Gets or sets the RotationZ.                                   |
 | [`CoordinateSystem`](#NodalRotation.CoordinateSystem)               | Gets the CoordinateSystem.                                    |
 | [`Location`](#NodalRotation.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#NodalRotation.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#NodalRotation.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Suppressed`](#NodalRotation.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#NodalRotation.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
 | [`Children`](#NodalRotation.Children)                               | Gets the list of children.                                    |
@@ -114,7 +114,7 @@ Gets or sets the Location.
 
 ### *property* NodalRotation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

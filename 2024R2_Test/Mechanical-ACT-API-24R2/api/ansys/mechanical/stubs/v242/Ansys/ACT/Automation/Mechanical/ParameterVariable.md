@@ -39,7 +39,7 @@ Defines a ParameterVariable.
 | Name | Description |
 |-------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](#ParameterVariable.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#ParameterVariable.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#ParameterVariable.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#ParameterVariable.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#ParameterVariable.Figures)                                 | Gets the list of associated figures.                          |
@@ -64,7 +64,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* ParameterVariable.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

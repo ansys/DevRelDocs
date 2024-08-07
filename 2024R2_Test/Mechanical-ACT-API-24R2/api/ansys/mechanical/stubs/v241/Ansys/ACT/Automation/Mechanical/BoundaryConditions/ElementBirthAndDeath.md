@@ -43,7 +43,7 @@ Defines a ElementBirthAndDeath.
 | [`CurrentStep`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ElementBirthAndDeath.md#ElementBirthAndDeath.CurrentStep)                         | Gets or sets the CurrentStep.                                 |
 | [`Status`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ElementBirthAndDeath.md#ElementBirthAndDeath.Status)                                   | Gets or sets the Status.                                      |
 | [`Location`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ElementBirthAndDeath.md#ElementBirthAndDeath.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ElementBirthAndDeath.md#ElementBirthAndDeath.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ElementBirthAndDeath.md#ElementBirthAndDeath.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ElementBirthAndDeath.md#ElementBirthAndDeath.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ElementBirthAndDeath.md#ElementBirthAndDeath.Children)                               | Gets the list of children.                                    |
 | [`Comments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ElementBirthAndDeath.md#ElementBirthAndDeath.Comments)                               | Gets the list of associated comments.                         |
@@ -93,7 +93,7 @@ Gets or sets the Location.
 
 ### *property* ElementBirthAndDeath.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

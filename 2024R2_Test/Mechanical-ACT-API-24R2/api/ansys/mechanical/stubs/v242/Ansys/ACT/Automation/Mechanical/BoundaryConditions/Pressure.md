@@ -78,7 +78,7 @@ Defines a Pressure.
 | [`CrackGrowth`](#Pressure.CrackGrowth)                                 | Gets or Sets the SMART CrackGrowthSelection.                  |
 | [`XYZFunctionCoordinateSystem`](#Pressure.XYZFunctionCoordinateSystem) | Gets or sets the XYZFunctionCoordinateSystem.                 |
 | [`Location`](#Pressure.Location)                                       | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#Pressure.DataModelObjectCategory)         | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#Pressure.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                  |
 | [`Suppressed`](#Pressure.Suppressed)                                   | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#Pressure.SharedRefBody)                             | Gets or sets the SharedRefBody.                               |
 | [`Children`](#Pressure.Children)                                       | Gets the list of children.                                    |
@@ -370,7 +370,7 @@ Gets or sets the Location.
 
 ### *property* Pressure.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

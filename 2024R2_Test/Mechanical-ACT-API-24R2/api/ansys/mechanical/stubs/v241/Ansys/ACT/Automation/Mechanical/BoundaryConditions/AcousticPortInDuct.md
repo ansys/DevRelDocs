@@ -57,7 +57,7 @@ Defines a AcousticPortInDuct.
 | [`PortSelection`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticPortInDuct.md#AcousticPortInDuct.PortSelection)                                                               | Gets or sets the PortSelection.                                |
 | [`CoordinateSystem`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticPortInDuct.md#AcousticPortInDuct.CoordinateSystem)                                                         | Gets or sets the CoordinateSystem.                             |
 | [`Location`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticPortInDuct.md#AcousticPortInDuct.Location)                                                                         | Gets or sets the Location.                                     |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticPortInDuct.md#AcousticPortInDuct.DataModelObjectCategory)                                           | Gets the current DataModelObject’s category.                   |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticPortInDuct.md#AcousticPortInDuct.DataModelObjectCategory)                                           | Gets the current DataModelObjectâ€™s category.                   |
 | [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticPortInDuct.md#AcousticPortInDuct.Suppressed)                                                                     | Gets or sets the Suppressed.                                   |
 | [`SharedRefBody`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticPortInDuct.md#AcousticPortInDuct.SharedRefBody)                                                               | Gets or sets the SharedRefBody.                                |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticPortInDuct.md#AcousticPortInDuct.Children)                                                                         | Gets the list of children.                                     |
@@ -213,7 +213,7 @@ Gets or sets the Location.
 
 ### *property* AcousticPortInDuct.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

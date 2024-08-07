@@ -55,7 +55,7 @@ Defines a Washer.
 | [`InternalObject`](#id0)                                                         | Gets the internal object. For advanced usage only.            |
 | [`NamedSelection`](#Washer.NamedSelection)                                       | Gets or sets the NamedSelection.                              |
 | [`Location`](#Washer.Location)                                                   | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#Washer.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#Washer.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                  |
 | [`ScopingMethod`](#Washer.ScopingMethod)                                         | Gets or sets the ScopingMethod.                               |
 | [`Suppressed`](#Washer.Suppressed)                                               | Gets or sets the Suppressed.                                  |
 | [`Children`](#Washer.Children)                                                   | Gets the list of children.                                    |
@@ -186,7 +186,7 @@ Gets or sets the Location.
 
 ### *property* Washer.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

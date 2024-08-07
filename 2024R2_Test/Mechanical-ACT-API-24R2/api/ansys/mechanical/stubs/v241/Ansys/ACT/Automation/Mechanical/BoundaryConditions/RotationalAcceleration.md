@@ -51,7 +51,7 @@ Defines a RotationalAcceleration.
 | [`DefineBy`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/RotationalAcceleration.md#RotationalAcceleration.DefineBy)                               | Gets or sets the DefineBy.                                    |
 | [`IndependentVariable`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/RotationalAcceleration.md#RotationalAcceleration.IndependentVariable)         | Gets or sets the IndependentVariable.                         |
 | [`CoordinateSystem`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/RotationalAcceleration.md#RotationalAcceleration.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/RotationalAcceleration.md#RotationalAcceleration.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/RotationalAcceleration.md#RotationalAcceleration.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Axis`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/RotationalAcceleration.md#RotationalAcceleration.Axis)                                       | Gets or sets the Axis.                                        |
 | [`NumberOfSegments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/RotationalAcceleration.md#RotationalAcceleration.NumberOfSegments)               | Gets or sets the NumberOfSegments.                            |
 | [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/RotationalAcceleration.md#RotationalAcceleration.Suppressed)                           | Gets or sets the Suppressed.                                  |
@@ -168,7 +168,7 @@ Gets or sets the CoordinateSystem.
 
 ### *property* RotationalAcceleration.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

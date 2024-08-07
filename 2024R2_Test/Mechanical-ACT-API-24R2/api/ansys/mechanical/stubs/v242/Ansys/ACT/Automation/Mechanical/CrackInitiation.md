@@ -60,7 +60,7 @@ Defines a CrackInitiation.
 | [`NamedSelection`](#CrackInitiation.NamedSelection)                   | Gets or sets the NamedSelection.                              |
 | [`CoordinateSystem`](#CrackInitiation.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
 | [`Location`](#CrackInitiation.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#CrackInitiation.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#CrackInitiation.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`CrackID`](#CrackInitiation.CrackID)                                 | Gets the CrackID.                                             |
 | [`Children`](#CrackInitiation.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#CrackInitiation.Comments)                               | Gets the list of associated comments.                         |
@@ -239,7 +239,7 @@ Gets or sets the Location.
 
 ### *property* CrackInitiation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -53,7 +53,7 @@ Defines a ShellTopPeakStress.
 | [`NormalOrientation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StressResults/ShellTopPeakStress.md#id0)                                                                  | Gets or sets the NormalOrientation.                                    |
 | [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StressResults/ShellTopPeakStress.md#id1)                                                                     | Gets the internal object. For advanced usage only.                     |
 | [`ShellMBPType`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StressResults/ShellTopPeakStress.md#ShellTopPeakStress.ShellMBPType)                                           | Gets the ShellMBPType.                                                 |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StressResults/ShellTopPeakStress.md#ShellTopPeakStress.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StressResults/ShellTopPeakStress.md#ShellTopPeakStress.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
 | [`Mode`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StressResults/ShellTopPeakStress.md#ShellTopPeakStress.Mode)                                                           | Gets or sets the Mode.                                                 |
 | [`Ply`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StressResults/ShellTopPeakStress.md#ShellTopPeakStress.Ply)                                                             | Gets or sets the Ply selection.                                        |
 | [`Plies`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StressResults/ShellTopPeakStress.md#ShellTopPeakStress.Plies)                                                         | Plies property.                                                        |
@@ -177,7 +177,7 @@ Gets the ShellMBPType.
 
 ### *property* ShellTopPeakStress.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

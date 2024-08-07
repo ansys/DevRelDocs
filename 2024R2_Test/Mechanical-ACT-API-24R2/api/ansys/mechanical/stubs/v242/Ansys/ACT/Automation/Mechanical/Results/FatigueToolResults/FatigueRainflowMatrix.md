@@ -48,7 +48,7 @@ Defines a FatigueRainflowMatrix.
 | [`MinimumRange`](#FatigueRainflowMatrix.MinimumRange)                               | Gets the MinimumRange.                                        |
 | [`MinimumMean`](#FatigueRainflowMatrix.MinimumMean)                                 | Gets the MinimumMean.                                         |
 | [`OutputUnit`](#FatigueRainflowMatrix.OutputUnit)                                   | Gets or sets the OutputUnit.                                  |
-| [`DataModelObjectCategory`](#FatigueRainflowMatrix.DataModelObjectCategory)         | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#FatigueRainflowMatrix.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                  |
 | [`IsSolved`](#FatigueRainflowMatrix.IsSolved)                                       | Gets the IsSolved.                                            |
 | [`ChartDimensions`](#FatigueRainflowMatrix.ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
 | [`BoundaryCondition`](#FatigueRainflowMatrix.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
@@ -153,7 +153,7 @@ Gets or sets the OutputUnit.
 
 ### *property* FatigueRainflowMatrix.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

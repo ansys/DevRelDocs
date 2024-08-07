@@ -39,7 +39,7 @@ Defines a ComplianceConstraint.
 |----------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                   | Gets the internal object. For advanced usage only.                                       |
 | [`ComplianceLimit`](#ComplianceConstraint.ComplianceLimit)                 | Gets or sets the ComplianceLimit.                                                        |
-| [`DataModelObjectCategory`](#ComplianceConstraint.DataModelObjectCategory) | Gets the current DataModelObject’s category.                                             |
+| [`DataModelObjectCategory`](#ComplianceConstraint.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                                             |
 | [`EnvironmentSelection`](#ComplianceConstraint.EnvironmentSelection)       | Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum. |
 | [`Suppressed`](#ComplianceConstraint.Suppressed)                           | Gets or sets the Suppressed.                                                             |
 | [`Children`](#ComplianceConstraint.Children)                               | Gets the list of children.                                                               |
@@ -71,7 +71,7 @@ Gets or sets the ComplianceLimit.
 
 ### *property* ComplianceConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -23,7 +23,7 @@ Defines a ImportedBodyTemperature.
 | [`ExportToTextFile`](#ImportedBodyTemperature.ExportToTextFile)               | Run the ExportToTextFile action.                                                        |
 | [`Import`](#ImportedBodyTemperature.Import)                                   | Import.                                                                                 |
 | [`ImportLoad`](#ImportedBodyTemperature.ImportLoad)                           | Run the ImportLoad action.                                                              |
-| [`ReloadConfiguration`](#ImportedBodyTemperature.ReloadConfiguration)         | Reload the Imported Load’s setup from its associated configuration file (if available). |
+| [`ReloadConfiguration`](#ImportedBodyTemperature.ReloadConfiguration)         | Reload the Imported Loadâ€™s setup from its associated configuration file (if available). |
 | [`AddMappingValidation`](#ImportedBodyTemperature.AddMappingValidation)       | Creates a new MappingValidation                                                         |
 | [`ClearGeneratedData`](#ImportedBodyTemperature.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                      |
 | [`Delete`](#ImportedBodyTemperature.Delete)                                   | Run the Delete action.                                                                  |
@@ -51,7 +51,7 @@ Defines a ImportedBodyTemperature.
 | [`InternalObject`](#id0)                                                                                | Gets the internal object. For advanced usage only.                                                      |
 | [`LoadVectorNumber`](#ImportedBodyTemperature.LoadVectorNumber)                                         | Gets or sets the LoadVectorNumber.                                                                      |
 | [`LoadVectorAssignment`](#ImportedBodyTemperature.LoadVectorAssignment)                                 | Gets or sets the LoadVectorAssignment.                                                                  |
-| [`DataModelObjectCategory`](#ImportedBodyTemperature.DataModelObjectCategory)                           | Gets the current DataModelObject’s category.                                                            |
+| [`DataModelObjectCategory`](#ImportedBodyTemperature.DataModelObjectCategory)                           | Gets the current DataModelObjectâ€™s category.                                                            |
 | [`Weighting`](#ImportedBodyTemperature.Weighting)                                                       | Weighting property.                                                                                     |
 | [`MappingControl`](#ImportedBodyTemperature.MappingControl)                                             | MappingControl property.                                                                                |
 | [`DisplaySourcePoints`](#ImportedBodyTemperature.DisplaySourcePoints)                                   | DisplaySourcePoints property.                                                                           |
@@ -142,7 +142,7 @@ Gets or sets the LoadVectorAssignment.
 
 ### *property* ImportedBodyTemperature.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -586,7 +586,7 @@ Run the ImportLoad action.
 
 ### ImportedBodyTemperature.ReloadConfiguration()
 
-Reload the Imported Load’s setup from its associated configuration file (if available).
+Reload the Imported Loadâ€™s setup from its associated configuration file (if available).
 
 <!-- !! processed by numpydoc !! -->
 

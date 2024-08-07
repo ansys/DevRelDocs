@@ -20,7 +20,7 @@ or  (different name same UUID)
 material1   DEA8407F-4029-4919-94F0-5BDC6FBF203A
 material2   DEA8407F-4029-4919-94F0-5BDC6FBF203A
 
-The reason to use this is if the name of the material changed for a ìrefreshî (search by UUID) or if the UUID
+The reason to use this is if the name of the material changed for a ‚Äúrefresh‚Äù (search by UUID) or if the UUID
 needs changed (search by Name).  Either way a material cannot be added which would violate the above rules.
 
 <!-- !! processed by numpydoc !! -->

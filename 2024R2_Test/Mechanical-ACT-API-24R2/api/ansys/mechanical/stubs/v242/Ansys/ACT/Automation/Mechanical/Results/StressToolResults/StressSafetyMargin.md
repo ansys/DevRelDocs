@@ -51,7 +51,7 @@ Defines a StressSafetyMargin.
 | Name | Description |
 |----------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                     | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](#StressSafetyMargin.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](#StressSafetyMargin.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
 | [`AverageAcrossBodies`](#StressSafetyMargin.AverageAcrossBodies)                             | Gets or sets the AverageAcrossBodies.                                  |
 | [`PlotData`](#StressSafetyMargin.PlotData)                                                   | Gets the result table.                                                 |
 | [`Location`](#StressSafetyMargin.Location)                                                   | Gets or sets the Location.                                             |
@@ -124,7 +124,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* StressSafetyMargin.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

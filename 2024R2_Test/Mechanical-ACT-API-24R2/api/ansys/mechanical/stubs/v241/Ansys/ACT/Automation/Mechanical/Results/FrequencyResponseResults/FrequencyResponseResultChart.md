@@ -45,7 +45,7 @@ Defines a FrequencyResponseResultChart.
 | [`CoordinateSystem`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/FrequencyResponseResultChart.md#FrequencyResponseResultChart.CoordinateSystem)                       | Gets or sets the CoordinateSystem. Accepts/Returns None if it is the Solution Coordinate System.   |
 | [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/FrequencyResponseResultChart.md#id0)                                                                   | Gets the internal object. For advanced usage only.                                                 |
 | [`RemotePointSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/FrequencyResponseResultChart.md#FrequencyResponseResultChart.RemotePointSelection)               | Gets or sets the RemotePointSelection.                                                             |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/FrequencyResponseResultChart.md#FrequencyResponseResultChart.DataModelObjectCategory)         | Gets the current DataModelObject’s category.                                                       |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/FrequencyResponseResultChart.md#FrequencyResponseResultChart.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                                                       |
 | [`IsSolved`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/FrequencyResponseResultChart.md#FrequencyResponseResultChart.IsSolved)                                       | Gets the IsSolved.                                                                                 |
 | [`ChartDimensions`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/FrequencyResponseResultChart.md#FrequencyResponseResultChart.ChartDimensions)                         | Gets or sets the Chart Dimensions                                                                  |
 | [`BoundaryCondition`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/FrequencyResponseResultChart.md#FrequencyResponseResultChart.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                                                                |
@@ -125,7 +125,7 @@ Gets or sets the RemotePointSelection.
 
 ### *property* FrequencyResponseResultChart.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

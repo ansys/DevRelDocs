@@ -42,10 +42,10 @@ with rigid body transformations and getting a RigidBodyTransformationMatrix obje
 | [`T_x`](#RigidBodyTransformationMatrix.T_x)     | Element 3: the x component of the translation.                               |
 | [`T_y`](#RigidBodyTransformationMatrix.T_y)     | Element 7: the y component of the translation.                               |
 | [`T_z`](#RigidBodyTransformationMatrix.T_z)     | Element 11: the z component of the translation.                              |
-| [`tau_x`](#RigidBodyTransformationMatrix.tau_x) | Element 12: the x component of the shear, which must be ‘0.0’ for rigid body |
-| [`tau_y`](#RigidBodyTransformationMatrix.tau_y) | Element 13: the y component of the shear, which must be ‘0.0’ for rigid body |
-| [`tau_z`](#RigidBodyTransformationMatrix.tau_z) | Element 14: the z component of the shear, which must be ‘0.0’ for rigid body |
-| [`S`](#RigidBodyTransformationMatrix.S)         | Element 15: the transformation scale, which must be ‘1.0’ for rigid body     |
+| [`tau_x`](#RigidBodyTransformationMatrix.tau_x) | Element 12: the x component of the shear, which must be â€˜0.0â€™ for rigid body |
+| [`tau_y`](#RigidBodyTransformationMatrix.tau_y) | Element 13: the y component of the shear, which must be â€˜0.0â€™ for rigid body |
+| [`tau_z`](#RigidBodyTransformationMatrix.tau_z) | Element 14: the z component of the shear, which must be â€˜0.0â€™ for rigid body |
+| [`S`](#RigidBodyTransformationMatrix.S)         | Element 15: the transformation scale, which must be â€˜1.0â€™ for rigid body     |
 
 <a id="property-detail"></a>
 
@@ -159,7 +159,7 @@ Element 11: the z component of the translation.
 
 ### *property* RigidBodyTransformationMatrix.tau_x *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Element 12: the x component of the shear, which must be ‘0.0’ for rigid body
+Element 12: the x component of the shear, which must be â€˜0.0â€™ for rigid body
 transformations.
 
 <!-- !! processed by numpydoc !! -->
@@ -168,7 +168,7 @@ transformations.
 
 ### *property* RigidBodyTransformationMatrix.tau_y *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Element 13: the y component of the shear, which must be ‘0.0’ for rigid body
+Element 13: the y component of the shear, which must be â€˜0.0â€™ for rigid body
 transformations.
 
 <!-- !! processed by numpydoc !! -->
@@ -177,7 +177,7 @@ transformations.
 
 ### *property* RigidBodyTransformationMatrix.tau_z *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Element 14: the z component of the shear, which must be ‘0.0’ for rigid body
+Element 14: the z component of the shear, which must be â€˜0.0â€™ for rigid body
 transformations.
 
 <!-- !! processed by numpydoc !! -->
@@ -186,7 +186,7 @@ transformations.
 
 ### *property* RigidBodyTransformationMatrix.S *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Element 15: the transformation scale, which must be ‘1.0’ for rigid body
+Element 15: the transformation scale, which must be â€˜1.0â€™ for rigid body
 transformations.
 
 <!-- !! processed by numpydoc !! -->

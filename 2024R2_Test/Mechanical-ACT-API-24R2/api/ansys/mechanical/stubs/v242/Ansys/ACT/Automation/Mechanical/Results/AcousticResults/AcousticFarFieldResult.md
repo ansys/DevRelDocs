@@ -83,7 +83,7 @@ Defines a AcousticFarFieldResult.
 | [`YAxisExtrusionAngle`](#AcousticFarFieldResult.YAxisExtrusionAngle)                                 | Gets or sets the YAxisExtrusionAngle.                                  |
 | [`ModelType`](#AcousticFarFieldResult.ModelType)                                                     | Gets or sets the ModelType.                                            |
 | [`SpatialRadiationAngle`](#AcousticFarFieldResult.SpatialRadiationAngle)                             | Gets or sets the SpatialRadiationAngle.                                |
-| [`DataModelObjectCategory`](#AcousticFarFieldResult.DataModelObjectCategory)                         | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](#AcousticFarFieldResult.DataModelObjectCategory)                         | Gets the current DataModelObjectâ€™s category.                           |
 | [`PlotData`](#AcousticFarFieldResult.PlotData)                                                       | Gets the result table.                                                 |
 | [`Location`](#AcousticFarFieldResult.Location)                                                       | Gets or sets the Location.                                             |
 | [`TimeForMinimumOfMinimumValues`](#AcousticFarFieldResult.TimeForMinimumOfMinimumValues)             | Get the Time for the minimum of minimum values.                        |
@@ -395,7 +395,7 @@ Gets or sets the SpatialRadiationAngle.
 
 ### *property* AcousticFarFieldResult.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -43,7 +43,7 @@ Defines a AcousticPressure.
 | [`InternalObject`](#id0)                                               | Gets the internal object. For advanced usage only.            |
 | [`Magnitude`](#AcousticPressure.Magnitude)                             | Gets or sets the Magnitude.                                   |
 | [`Location`](#AcousticPressure.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#AcousticPressure.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#AcousticPressure.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Suppressed`](#AcousticPressure.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#AcousticPressure.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
 | [`Children`](#AcousticPressure.Children)                               | Gets the list of children.                                    |
@@ -87,7 +87,7 @@ Gets or sets the Location.
 
 ### *property* AcousticPressure.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

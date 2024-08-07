@@ -51,7 +51,7 @@ Defines a RSLoad.
 | [`MissingMassEffect`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/RSLoad.md#RSLoad.MissingMassEffect)                       | Gets or sets the MissingMassEffect.                           |
 | [`RigidResponseEffect`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/RSLoad.md#RSLoad.RigidResponseEffect)                   | Gets or sets the RigidResponseEffect.                         |
 | [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/RSLoad.md#RSLoad.Suppressed)                                     | Gets or sets the Suppressed.                                  |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/RSLoad.md#RSLoad.DataModelObjectCategory)           | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/RSLoad.md#RSLoad.DataModelObjectCategory)           | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/RSLoad.md#RSLoad.Children)                                         | Gets the list of children.                                    |
 | [`Comments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/RSLoad.md#RSLoad.Comments)                                         | Gets the list of associated comments.                         |
 | [`Figures`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/RSLoad.md#RSLoad.Figures)                                           | Gets the list of associated figures.                          |
@@ -164,7 +164,7 @@ Gets or sets the Suppressed.
 
 ### *property* RSLoad.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

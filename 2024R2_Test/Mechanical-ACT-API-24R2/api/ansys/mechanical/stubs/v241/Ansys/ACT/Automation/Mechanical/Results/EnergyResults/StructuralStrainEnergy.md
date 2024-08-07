@@ -52,7 +52,7 @@ Defines a StructuralStrainEnergy.
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/EnergyResults/StructuralStrainEnergy.md#id0)                                                                         | Gets the internal object. For advanced usage only.                     |
 | [`Total`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/EnergyResults/StructuralStrainEnergy.md#StructuralStrainEnergy.Total)                                                         | Gets the Total.                                                        |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/EnergyResults/StructuralStrainEnergy.md#StructuralStrainEnergy.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/EnergyResults/StructuralStrainEnergy.md#StructuralStrainEnergy.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
 | [`PlotData`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/EnergyResults/StructuralStrainEnergy.md#StructuralStrainEnergy.PlotData)                                                   | Gets the result table.                                                 |
 | [`Location`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/EnergyResults/StructuralStrainEnergy.md#StructuralStrainEnergy.Location)                                                   | Gets or sets the Location.                                             |
 | [`TimeForMinimumOfMinimumValues`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/EnergyResults/StructuralStrainEnergy.md#StructuralStrainEnergy.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
@@ -131,7 +131,7 @@ Gets the Total.
 
 ### *property* StructuralStrainEnergy.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

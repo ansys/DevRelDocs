@@ -62,7 +62,7 @@ Defines a NamedSelection.
 | [`Visible`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NamedSelection.md#NamedSelection.Visible)                                                     | Gets or sets the Visible.                                               |
 | [`UsedByMeshWorksheet`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NamedSelection.md#NamedSelection.UsedByMeshWorksheet)                             | Gets the UsedByMeshWorksheet.                                           |
 | [`CreatedForCrack`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NamedSelection.md#NamedSelection.CreatedForCrack)                                     | Gets the CreatedForCrack.                                               |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NamedSelection.md#NamedSelection.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                            |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NamedSelection.md#NamedSelection.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                            |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NamedSelection.md#NamedSelection.Children)                                                   | Gets the list of children.                                              |
 | [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NamedSelection.md#NamedSelection.Comments)                                                   | Gets the list of associated comments.                                   |
 | [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NamedSelection.md#NamedSelection.Figures)                                                     | Gets the list of associated figures.                                    |
@@ -232,7 +232,7 @@ Gets the CreatedForCrack.
 
 ### *property* NamedSelection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

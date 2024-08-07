@@ -50,7 +50,7 @@ Defines a ImportedBodyTemperature.
 | [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedBodyTemperature.md#id0)                                                                                | Gets the internal object. For advanced usage only.                                                      |
 | [`LoadVectorNumber`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedBodyTemperature.md#ImportedBodyTemperature.LoadVectorNumber)                                         | Gets or sets the LoadVectorNumber.                                                                      |
 | [`LoadVectorAssignment`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedBodyTemperature.md#ImportedBodyTemperature.LoadVectorAssignment)                                 | Gets or sets the LoadVectorAssignment.                                                                  |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedBodyTemperature.md#ImportedBodyTemperature.DataModelObjectCategory)                           | Gets the current DataModelObject’s category.                                                            |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedBodyTemperature.md#ImportedBodyTemperature.DataModelObjectCategory)                           | Gets the current DataModelObjectâ€™s category.                                                            |
 | [`Weighting`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedBodyTemperature.md#ImportedBodyTemperature.Weighting)                                                       | Weighting property.                                                                                     |
 | [`MappingControl`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedBodyTemperature.md#ImportedBodyTemperature.MappingControl)                                             | MappingControl property.                                                                                |
 | [`DisplaySourcePoints`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedBodyTemperature.md#ImportedBodyTemperature.DisplaySourcePoints)                                   | DisplaySourcePoints property.                                                                           |
@@ -141,7 +141,7 @@ Gets or sets the LoadVectorAssignment.
 
 ### *property* ImportedBodyTemperature.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

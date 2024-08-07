@@ -49,7 +49,7 @@ Defines a SubstructureGenerationCondensedPart.
 | [`LumpedMassFormulation`](#SubstructureGenerationCondensedPart.LumpedMassFormulation)     | Gets or sets the LumpedMassFormulation.                       |
 | [`PointMassTreatment`](#SubstructureGenerationCondensedPart.PointMassTreatment)           | Gets or sets the PointMassTreatment.                          |
 | [`ReductionMethod`](#SubstructureGenerationCondensedPart.ReductionMethod)                 | Gets or sets the ReductionMethod.                             |
-| [`DataModelObjectCategory`](#SubstructureGenerationCondensedPart.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#SubstructureGenerationCondensedPart.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`NumberInterfaceEntries`](#SubstructureGenerationCondensedPart.NumberInterfaceEntries)   | Gets the NumberInterfaceEntries.                              |
 | [`NumberMasterNodes`](#SubstructureGenerationCondensedPart.NumberMasterNodes)             | Gets the NumberMasterNodes.                                   |
 | [`SolutionName`](#SubstructureGenerationCondensedPart.SolutionName)                       | Gets or sets the SolutionName.                                |
@@ -142,7 +142,7 @@ Gets or sets the ReductionMethod.
 
 ### *property* SubstructureGenerationCondensedPart.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 
