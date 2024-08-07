@@ -43,7 +43,7 @@ Defines a GenericBoundaryCondition.
 | [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GenericBoundaryCondition.md#id0)                                                       | Gets the internal object. For advanced usage only.            |
 | [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GenericBoundaryCondition.md#GenericBoundaryCondition.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GenericBoundaryCondition.md#GenericBoundaryCondition.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GenericBoundaryCondition.md#GenericBoundaryCondition.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GenericBoundaryCondition.md#GenericBoundaryCondition.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GenericBoundaryCondition.md#GenericBoundaryCondition.Children)                               | Gets the list of children.                                    |
 | [`Comments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GenericBoundaryCondition.md#GenericBoundaryCondition.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GenericBoundaryCondition.md#GenericBoundaryCondition.Figures)                                 | Gets the list of associated figures.                          |
@@ -85,7 +85,7 @@ Gets or sets the SharedRefBody.
 
 ### *property* GenericBoundaryCondition.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -47,7 +47,7 @@ Defines a Current.
 | [`Magnitude`](#Current.Magnitude)                             | Gets the Magnitude.                                           |
 | [`PhaseAngle`](#Current.PhaseAngle)                           | Gets or sets the PhaseAngle.                                  |
 | [`Location`](#Current.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#Current.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#Current.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Suppressed`](#Current.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#Current.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
 | [`Children`](#Current.Children)                               | Gets the list of children.                                    |
@@ -107,7 +107,7 @@ Gets or sets the Location.
 
 ### *property* Current.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

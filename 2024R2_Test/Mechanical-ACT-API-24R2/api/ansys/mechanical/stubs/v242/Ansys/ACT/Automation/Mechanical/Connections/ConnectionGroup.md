@@ -76,7 +76,7 @@ Defines a ConnectionGroup.
 | [`FaceFace`](#ConnectionGroup.FaceFace)                                               | Gets or sets the FaceFace.                                    |
 | [`UseRange`](#ConnectionGroup.UseRange)                                               | Gets or sets the UseRange.                                    |
 | [`Location`](#ConnectionGroup.Location)                                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#ConnectionGroup.DataModelObjectCategory)                 | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#ConnectionGroup.DataModelObjectCategory)                 | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#ConnectionGroup.Children)                                               | Gets the list of children.                                    |
 | [`Comments`](#ConnectionGroup.Comments)                                               | Gets the list of associated comments.                         |
 | [`Figures`](#ConnectionGroup.Figures)                                                 | Gets the list of associated figures.                          |
@@ -302,7 +302,7 @@ Gets or sets the Location.
 
 ### *property* ConnectionGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

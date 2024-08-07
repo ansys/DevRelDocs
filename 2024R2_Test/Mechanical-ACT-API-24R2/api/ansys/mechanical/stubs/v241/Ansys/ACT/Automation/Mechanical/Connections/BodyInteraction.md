@@ -56,7 +56,7 @@ Defines a BodyInteraction.
 | [`ContactType`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/BodyInteraction.md#BodyInteraction.ContactType)                         | Gets or sets the ContactType.                                 |
 | [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/BodyInteraction.md#BodyInteraction.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`Location`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/BodyInteraction.md#BodyInteraction.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/BodyInteraction.md#BodyInteraction.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/BodyInteraction.md#BodyInteraction.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/BodyInteraction.md#BodyInteraction.Children)                               | Gets the list of children.                                    |
 | [`Comments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/BodyInteraction.md#BodyInteraction.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/BodyInteraction.md#BodyInteraction.Figures)                                 | Gets the list of associated figures.                          |
@@ -209,7 +209,7 @@ Gets or sets the Location.
 
 ### *property* BodyInteraction.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

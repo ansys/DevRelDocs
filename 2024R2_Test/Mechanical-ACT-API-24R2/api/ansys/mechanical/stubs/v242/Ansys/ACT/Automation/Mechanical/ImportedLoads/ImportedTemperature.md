@@ -23,7 +23,7 @@ Defines a ImportedTemperature.
 | [`ExportToTextFile`](#ImportedTemperature.ExportToTextFile)               | Run the ExportToTextFile action.                                                        |
 | [`Import`](#ImportedTemperature.Import)                                   | Import.                                                                                 |
 | [`ImportLoad`](#ImportedTemperature.ImportLoad)                           | Run the ImportLoad action.                                                              |
-| [`ReloadConfiguration`](#ImportedTemperature.ReloadConfiguration)         | Reload the Imported Load’s setup from its associated configuration file (if available). |
+| [`ReloadConfiguration`](#ImportedTemperature.ReloadConfiguration)         | Reload the Imported Loadâ€™s setup from its associated configuration file (if available). |
 | [`AddMappingValidation`](#ImportedTemperature.AddMappingValidation)       | Creates a new MappingValidation                                                         |
 | [`ClearGeneratedData`](#ImportedTemperature.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                      |
 | [`Delete`](#ImportedTemperature.Delete)                                   | Run the Delete action.                                                                  |
@@ -48,7 +48,7 @@ Defines a ImportedTemperature.
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                            | Gets the internal object. For advanced usage only.                                                      |
-| [`DataModelObjectCategory`](#ImportedTemperature.DataModelObjectCategory)                           | Gets the current DataModelObject’s category.                                                            |
+| [`DataModelObjectCategory`](#ImportedTemperature.DataModelObjectCategory)                           | Gets the current DataModelObjectâ€™s category.                                                            |
 | [`Weighting`](#ImportedTemperature.Weighting)                                                       | Weighting property.                                                                                     |
 | [`MappingControl`](#ImportedTemperature.MappingControl)                                             | MappingControl property.                                                                                |
 | [`DisplaySourcePoints`](#ImportedTemperature.DisplaySourcePoints)                                   | DisplaySourcePoints property.                                                                           |
@@ -115,7 +115,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* ImportedTemperature.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -559,7 +559,7 @@ Run the ImportLoad action.
 
 ### ImportedTemperature.ReloadConfiguration()
 
-Reload the Imported Load’s setup from its associated configuration file (if available).
+Reload the Imported Loadâ€™s setup from its associated configuration file (if available).
 
 <!-- !! processed by numpydoc !! -->
 

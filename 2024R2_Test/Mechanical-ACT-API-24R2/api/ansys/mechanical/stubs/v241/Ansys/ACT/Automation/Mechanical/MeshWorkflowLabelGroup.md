@@ -39,7 +39,7 @@ Object that wraps IDSEngineeringModelLabelGroupAuto.
 | Name | Description |
 |------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                     | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](#MeshWorkflowLabelGroup.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#MeshWorkflowLabelGroup.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#MeshWorkflowLabelGroup.Children)                               | Gets the list of children.                                    |
 | [`Figures`](#MeshWorkflowLabelGroup.Figures)                                 | Gets the list of associated figures.                          |
 | [`Images`](#MeshWorkflowLabelGroup.Images)                                   | Gets the list of associated images.                           |
@@ -63,7 +63,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* MeshWorkflowLabelGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

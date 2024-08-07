@@ -23,7 +23,7 @@ Defines a ImportedVelocity.
 | [`ExportToTextFile`](#ImportedVelocity.ExportToTextFile)               | Run the ExportToTextFile action.                                                        |
 | [`Import`](#ImportedVelocity.Import)                                   | Import.                                                                                 |
 | [`ImportLoad`](#ImportedVelocity.ImportLoad)                           | Run the ImportLoad action.                                                              |
-| [`ReloadConfiguration`](#ImportedVelocity.ReloadConfiguration)         | Reload the Imported Load’s setup from its associated configuration file (if available). |
+| [`ReloadConfiguration`](#ImportedVelocity.ReloadConfiguration)         | Reload the Imported Loadâ€™s setup from its associated configuration file (if available). |
 | [`AddMappingValidation`](#ImportedVelocity.AddMappingValidation)       | Creates a new MappingValidation                                                         |
 | [`ClearGeneratedData`](#ImportedVelocity.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                      |
 | [`Delete`](#ImportedVelocity.Delete)                                   | Run the Delete action.                                                                  |
@@ -54,7 +54,7 @@ Defines a ImportedVelocity.
 | [`MinimumTimeRange`](#ImportedVelocity.MinimumTimeRange)                                         | Gets or sets the MinimumTimeRange.                                                                      |
 | [`SourceTimeDefinitionType`](#ImportedVelocity.SourceTimeDefinitionType)                         | Gets or sets the SourceTimeDefinitionType.                                                              |
 | [`WindowType`](#ImportedVelocity.WindowType)                                                     | Gets or sets the WindowType.                                                                            |
-| [`DataModelObjectCategory`](#ImportedVelocity.DataModelObjectCategory)                           | Gets the current DataModelObject’s category.                                                            |
+| [`DataModelObjectCategory`](#ImportedVelocity.DataModelObjectCategory)                           | Gets the current DataModelObjectâ€™s category.                                                            |
 | [`Weighting`](#ImportedVelocity.Weighting)                                                       | Weighting property.                                                                                     |
 | [`MappingControl`](#ImportedVelocity.MappingControl)                                             | MappingControl property.                                                                                |
 | [`DisplaySourcePoints`](#ImportedVelocity.DisplaySourcePoints)                                   | DisplaySourcePoints property.                                                                           |
@@ -169,7 +169,7 @@ Gets or sets the WindowType.
 
 ### *property* ImportedVelocity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -613,7 +613,7 @@ Run the ImportLoad action.
 
 ### ImportedVelocity.ReloadConfiguration()
 
-Reload the Imported Load’s setup from its associated configuration file (if available).
+Reload the Imported Loadâ€™s setup from its associated configuration file (if available).
 
 <!-- !! processed by numpydoc !! -->
 

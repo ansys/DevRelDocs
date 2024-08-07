@@ -60,7 +60,7 @@ Defines a Convection.
 | [`XYZFunctionCoordinateSystem`](#Convection.XYZFunctionCoordinateSystem) | Gets or sets the XYZFunctionCoordinateSystem.                 |
 | [`FluidFlowSelection`](#Convection.FluidFlowSelection)                   | Gets or sets the FluidFlowSelection.                          |
 | [`Location`](#Convection.Location)                                       | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#Convection.DataModelObjectCategory)         | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#Convection.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                  |
 | [`FluidFlowEdge`](#Convection.FluidFlowEdge)                             | Gets or sets the FluidFlowEdge.                               |
 | [`Suppressed`](#Convection.Suppressed)                                   | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#Convection.SharedRefBody)                             | Gets or sets the SharedRefBody.                               |
@@ -209,7 +209,7 @@ Gets or sets the Location.
 
 ### *property* Convection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

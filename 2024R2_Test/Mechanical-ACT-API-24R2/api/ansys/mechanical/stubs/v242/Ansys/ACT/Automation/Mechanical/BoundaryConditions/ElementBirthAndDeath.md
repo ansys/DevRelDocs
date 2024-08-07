@@ -43,7 +43,7 @@ Defines a ElementBirthAndDeath.
 | [`CurrentStep`](#ElementBirthAndDeath.CurrentStep)                         | Gets or sets the CurrentStep.                                 |
 | [`Status`](#ElementBirthAndDeath.Status)                                   | Gets or sets the Status.                                      |
 | [`Location`](#ElementBirthAndDeath.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#ElementBirthAndDeath.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#ElementBirthAndDeath.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Suppressed`](#ElementBirthAndDeath.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`Children`](#ElementBirthAndDeath.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#ElementBirthAndDeath.Comments)                               | Gets the list of associated comments.                         |
@@ -93,7 +93,7 @@ Gets or sets the Location.
 
 ### *property* ElementBirthAndDeath.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

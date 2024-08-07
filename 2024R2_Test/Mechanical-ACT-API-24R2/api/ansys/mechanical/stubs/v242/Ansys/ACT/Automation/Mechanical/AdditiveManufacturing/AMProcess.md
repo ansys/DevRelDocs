@@ -62,7 +62,7 @@ Defines a AMProcess.
 | [`MeshUsingVoxelization`](#AMProcess.MeshUsingVoxelization)     | Gets or sets the MeshUsingVoxelization.                                    |
 | [`BaseGeometry`](#AMProcess.BaseGeometry)                       | Gets or sets the BaseGeometry.                                             |
 | [`PartGeometry`](#AMProcess.PartGeometry)                       | Gets or sets the PartGeometry.                                             |
-| [`DataModelObjectCategory`](#AMProcess.DataModelObjectCategory) | Gets the current DataModelObject’s category.                               |
+| [`DataModelObjectCategory`](#AMProcess.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                               |
 | [`Children`](#AMProcess.Children)                               | Gets the list of children.                                                 |
 | [`Comments`](#AMProcess.Comments)                               | Gets the list of associated comments.                                      |
 | [`Figures`](#AMProcess.Figures)                                 | Gets the list of associated figures.                                       |
@@ -167,7 +167,7 @@ Gets or sets the PartGeometry.
 
 ### *property* AMProcess.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -23,7 +23,7 @@ Defines a ImportedDisplacement.
 | [`ExportToTextFile`](#ImportedDisplacement.ExportToTextFile)               | Run the ExportToTextFile action.                                                        |
 | [`Import`](#ImportedDisplacement.Import)                                   | Import.                                                                                 |
 | [`ImportLoad`](#ImportedDisplacement.ImportLoad)                           | Run the ImportLoad action.                                                              |
-| [`ReloadConfiguration`](#ImportedDisplacement.ReloadConfiguration)         | Reload the Imported Load’s setup from its associated configuration file (if available). |
+| [`ReloadConfiguration`](#ImportedDisplacement.ReloadConfiguration)         | Reload the Imported Loadâ€™s setup from its associated configuration file (if available). |
 | [`AddMappingValidation`](#ImportedDisplacement.AddMappingValidation)       | Creates a new MappingValidation                                                         |
 | [`ClearGeneratedData`](#ImportedDisplacement.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                      |
 | [`Delete`](#ImportedDisplacement.Delete)                                   | Run the Delete action.                                                                  |
@@ -50,7 +50,7 @@ Defines a ImportedDisplacement.
 | [`ApplyToInitialMesh`](#ImportedDisplacement.ApplyToInitialMesh)                                     | Gets or sets the ApplyToInitialMesh.                                                                    |
 | [`InternalObject`](#id0)                                                                             | Gets the internal object. For advanced usage only.                                                      |
 | [`DisplacementType`](#ImportedDisplacement.DisplacementType)                                         | Gets or sets the DisplacementType.                                                                      |
-| [`DataModelObjectCategory`](#ImportedDisplacement.DataModelObjectCategory)                           | Gets the current DataModelObject’s category.                                                            |
+| [`DataModelObjectCategory`](#ImportedDisplacement.DataModelObjectCategory)                           | Gets the current DataModelObjectâ€™s category.                                                            |
 | [`Weighting`](#ImportedDisplacement.Weighting)                                                       | Weighting property.                                                                                     |
 | [`MappingControl`](#ImportedDisplacement.MappingControl)                                             | MappingControl property.                                                                                |
 | [`DisplaySourcePoints`](#ImportedDisplacement.DisplaySourcePoints)                                   | DisplaySourcePoints property.                                                                           |
@@ -133,7 +133,7 @@ Gets or sets the DisplacementType.
 
 ### *property* ImportedDisplacement.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -577,7 +577,7 @@ Run the ImportLoad action.
 
 ### ImportedDisplacement.ReloadConfiguration()
 
-Reload the Imported Load’s setup from its associated configuration file (if available).
+Reload the Imported Loadâ€™s setup from its associated configuration file (if available).
 
 <!-- !! processed by numpydoc !! -->
 

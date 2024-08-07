@@ -51,7 +51,7 @@ Defines a MaximumPrincipalStress.
 | Name | Description |
 |--------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                         | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](#MaximumPrincipalStress.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](#MaximumPrincipalStress.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
 | [`Mode`](#MaximumPrincipalStress.Mode)                                                           | Gets or sets the Mode.                                                 |
 | [`Ply`](#MaximumPrincipalStress.Ply)                                                             | Gets or sets the Ply selection.                                        |
 | [`Plies`](#MaximumPrincipalStress.Plies)                                                         | Plies property.                                                        |
@@ -160,7 +160,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* MaximumPrincipalStress.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

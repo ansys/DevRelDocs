@@ -52,7 +52,7 @@ Defines a DirectionalVelocityPSD.
 |--------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                         | Gets the internal object. For advanced usage only.                     |
 | [`NormalOrientation`](#DirectionalVelocityPSD.NormalOrientation)                                 | Gets or sets the NormalOrientation.                                    |
-| [`DataModelObjectCategory`](#DirectionalVelocityPSD.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](#DirectionalVelocityPSD.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
 | [`Mode`](#DirectionalVelocityPSD.Mode)                                                           | Gets or sets the Mode.                                                 |
 | [`ReportedFrequency`](#DirectionalVelocityPSD.ReportedFrequency)                                 | Gets the ReportedFrequency.                                            |
 | [`DampedFrequency`](#DirectionalVelocityPSD.DampedFrequency)                                     | Gets the DampedFrequency.                                              |
@@ -155,7 +155,7 @@ Gets or sets the NormalOrientation.
 
 ### *property* DirectionalVelocityPSD.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

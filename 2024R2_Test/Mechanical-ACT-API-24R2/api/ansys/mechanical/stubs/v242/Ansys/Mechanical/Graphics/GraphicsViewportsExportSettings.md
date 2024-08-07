@@ -25,8 +25,8 @@ Settings object to control Graphics.ExportViewports behavior.
 | [`Capture`](#GraphicsViewportsExportSettings.Capture)                               | Specifies what to include in the capture. Defaults to ImageAndLegend.                                                                                                                                                                                                                   |
 | [`Background`](#GraphicsViewportsExportSettings.Background)                         | Specifies the background color. Defaults to GraphicsAppearanceSetting.                                                                                                                                                                                                                  |
 | [`FontMagnification`](#GraphicsViewportsExportSettings.FontMagnification)           | Specifies the font magnification factor. Defaults to 1.0.                                                                                                                                                                                                                               |
-| [`Width`](#GraphicsViewportsExportSettings.Width)                                   | Specifies the image width. Defaults to 0. If width AND height are zero, this uses the current dimensions. If only one of the two are nonzero, the current dimension’s ratio is used along with the nonzero of the two properties to determine the computed value of the zero property.  |
-| [`Height`](#GraphicsViewportsExportSettings.Height)                                 | Specifies the image height. Defaults to 0. If width AND height are zero, this uses the current dimensions. If only one of the two are nonzero, the current dimension’s ratio is used along with the nonzero of the two properties to determine the computed value of the zero property. |
+| [`Width`](#GraphicsViewportsExportSettings.Width)                                   | Specifies the image width. Defaults to 0. If width AND height are zero, this uses the current dimensions. If only one of the two are nonzero, the current dimensionâ€™s ratio is used along with the nonzero of the two properties to determine the computed value of the zero property.  |
+| [`Height`](#GraphicsViewportsExportSettings.Height)                                 | Specifies the image height. Defaults to 0. If width AND height are zero, this uses the current dimensions. If only one of the two are nonzero, the current dimensionâ€™s ratio is used along with the nonzero of the two properties to determine the computed value of the zero property. |
 
 <a id="property-detail"></a>
 
@@ -94,7 +94,7 @@ Specifies the font magnification factor. Defaults to 1.0.
 
 ### *property* GraphicsViewportsExportSettings.Width *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Specifies the image width. Defaults to 0. If width AND height are zero, this uses the current dimensions. If only one of the two are nonzero, the current dimension’s ratio is used along with the nonzero of the two properties to determine the computed value of the zero property.
+Specifies the image width. Defaults to 0. If width AND height are zero, this uses the current dimensions. If only one of the two are nonzero, the current dimensionâ€™s ratio is used along with the nonzero of the two properties to determine the computed value of the zero property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -102,7 +102,7 @@ Specifies the image width. Defaults to 0. If width AND height are zero, this use
 
 ### *property* GraphicsViewportsExportSettings.Height *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Specifies the image height. Defaults to 0. If width AND height are zero, this uses the current dimensions. If only one of the two are nonzero, the current dimension’s ratio is used along with the nonzero of the two properties to determine the computed value of the zero property.
+Specifies the image height. Defaults to 0. If width AND height are zero, this uses the current dimensions. If only one of the two are nonzero, the current dimensionâ€™s ratio is used along with the nonzero of the two properties to determine the computed value of the zero property.
 
 <!-- !! processed by numpydoc !! -->
 

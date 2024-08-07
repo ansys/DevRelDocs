@@ -21,7 +21,7 @@ Defines a ImportedForce.
 | [`ExportToTextFile`](#ImportedForce.ExportToTextFile)               | Run the ExportToTextFile action.                                                        |
 | [`Import`](#ImportedForce.Import)                                   | Import.                                                                                 |
 | [`ImportLoad`](#ImportedForce.ImportLoad)                           | Run the ImportLoad action.                                                              |
-| [`ReloadConfiguration`](#ImportedForce.ReloadConfiguration)         | Reload the Imported Load’s setup from its associated configuration file (if available). |
+| [`ReloadConfiguration`](#ImportedForce.ReloadConfiguration)         | Reload the Imported Loadâ€™s setup from its associated configuration file (if available). |
 | [`GetActivateAtLoadStep`](#ImportedForce.GetActivateAtLoadStep)     | GetActivateAtLoadStep method.                                                           |
 | [`SetActivateAtLoadStep`](#ImportedForce.SetActivateAtLoadStep)     | SetActivateAtLoadStep method.                                                           |
 | [`AddMappingValidation`](#ImportedForce.AddMappingValidation)       | Creates a new MappingValidation                                                         |
@@ -48,7 +48,7 @@ Defines a ImportedForce.
 | Name | Description |
 |-----------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                      | Gets the internal object. For advanced usage only.                                                      |
-| [`DataModelObjectCategory`](#ImportedForce.DataModelObjectCategory)                           | Gets the current DataModelObject’s category.                                                            |
+| [`DataModelObjectCategory`](#ImportedForce.DataModelObjectCategory)                           | Gets the current DataModelObjectâ€™s category.                                                            |
 | [`Weighting`](#ImportedForce.Weighting)                                                       | Weighting property.                                                                                     |
 | [`MappingControl`](#ImportedForce.MappingControl)                                             | MappingControl property.                                                                                |
 | [`DisplaySourcePoints`](#ImportedForce.DisplaySourcePoints)                                   | DisplaySourcePoints property.                                                                           |
@@ -115,7 +115,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* ImportedForce.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -543,7 +543,7 @@ Run the ImportLoad action.
 
 ### ImportedForce.ReloadConfiguration()
 
-Reload the Imported Load’s setup from its associated configuration file (if available).
+Reload the Imported Loadâ€™s setup from its associated configuration file (if available).
 
 <!-- !! processed by numpydoc !! -->
 

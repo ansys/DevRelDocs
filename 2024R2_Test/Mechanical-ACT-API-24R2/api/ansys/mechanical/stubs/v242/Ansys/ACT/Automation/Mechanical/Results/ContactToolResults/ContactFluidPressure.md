@@ -51,7 +51,7 @@ Defines a ContactFluidPressure.
 | Name | Description |
 |------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                       | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](#ContactFluidPressure.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](#ContactFluidPressure.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
 | [`ContactResultType`](#ContactFluidPressure.ContactResultType)                                 | Gets or sets the ContactResultType.                                    |
 | [`PlotData`](#ContactFluidPressure.PlotData)                                                   | Gets the result table.                                                 |
 | [`Location`](#ContactFluidPressure.Location)                                                   | Gets or sets the Location.                                             |
@@ -124,7 +124,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* ContactFluidPressure.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

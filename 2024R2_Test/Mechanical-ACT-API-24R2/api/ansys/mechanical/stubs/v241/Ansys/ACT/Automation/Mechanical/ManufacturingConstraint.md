@@ -40,7 +40,7 @@ Defines a ManufacturingConstraint.
 | [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ManufacturingConstraint.md#id0)                                                      | Gets the internal object. For advanced usage only.            |
 | [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ManufacturingConstraint.md#ManufacturingConstraint.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`Selection`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ManufacturingConstraint.md#ManufacturingConstraint.Selection)                             | Gets or sets the Selection.                                   |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ManufacturingConstraint.md#ManufacturingConstraint.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ManufacturingConstraint.md#ManufacturingConstraint.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ManufacturingConstraint.md#ManufacturingConstraint.Children)                               | Gets the list of children.                                    |
 | [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ManufacturingConstraint.md#id0)                                                      | Gets the internal object. For advanced usage only.            |
 | [`Properties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ManufacturingConstraint.md#ManufacturingConstraint.Properties)                           | Gets the list of properties for this object.                  |
@@ -78,7 +78,7 @@ Gets or sets the Selection.
 
 ### *property* ManufacturingConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

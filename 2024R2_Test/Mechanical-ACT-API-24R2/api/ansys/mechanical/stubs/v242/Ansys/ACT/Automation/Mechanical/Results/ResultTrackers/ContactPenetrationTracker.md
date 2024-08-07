@@ -45,7 +45,7 @@ Defines a ContactPenetrationTracker.
 | [`InternalObject`](#id0)                                                                | Gets the internal object. For advanced usage only.            |
 | [`ContactSide`](#ContactPenetrationTracker.ContactSide)                                 | Gets or sets the ContactSide.                                 |
 | [`ContactRegion`](#ContactPenetrationTracker.ContactRegion)                             | Gets or sets the ContactRegion.                               |
-| [`DataModelObjectCategory`](#ContactPenetrationTracker.DataModelObjectCategory)         | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#ContactPenetrationTracker.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                  |
 | [`IsSolved`](#ContactPenetrationTracker.IsSolved)                                       | Gets the IsSolved.                                            |
 | [`ChartDimensions`](#ContactPenetrationTracker.ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
 | [`BoundaryCondition`](#ContactPenetrationTracker.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
@@ -126,7 +126,7 @@ Gets or sets the ContactRegion.
 
 ### *property* ContactPenetrationTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

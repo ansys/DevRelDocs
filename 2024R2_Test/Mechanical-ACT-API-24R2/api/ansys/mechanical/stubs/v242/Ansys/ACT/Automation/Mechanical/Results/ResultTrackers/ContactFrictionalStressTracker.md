@@ -45,7 +45,7 @@ Defines a ContactFrictionalStressTracker.
 | [`InternalObject`](#id0)                                                                     | Gets the internal object. For advanced usage only.            |
 | [`ContactSide`](#ContactFrictionalStressTracker.ContactSide)                                 | Gets or sets the ContactSide.                                 |
 | [`ContactRegion`](#ContactFrictionalStressTracker.ContactRegion)                             | Gets or sets the ContactRegion.                               |
-| [`DataModelObjectCategory`](#ContactFrictionalStressTracker.DataModelObjectCategory)         | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#ContactFrictionalStressTracker.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                  |
 | [`IsSolved`](#ContactFrictionalStressTracker.IsSolved)                                       | Gets the IsSolved.                                            |
 | [`ChartDimensions`](#ContactFrictionalStressTracker.ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
 | [`BoundaryCondition`](#ContactFrictionalStressTracker.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
@@ -126,7 +126,7 @@ Gets or sets the ContactRegion.
 
 ### *property* ContactFrictionalStressTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

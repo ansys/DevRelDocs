@@ -40,7 +40,7 @@ Defines a ImportedElementOrientations.
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedElementOrientations.md#id0)                                                          | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedElementOrientations.md#ImportedElementOrientations.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedElementOrientations.md#ImportedElementOrientations.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Count`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedElementOrientations.md#ImportedElementOrientations.Count)                                     | Gets the NumberOfRows.                                        |
 | [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedElementOrientations.md#ImportedElementOrientations.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedElementOrientations.md#ImportedElementOrientations.Children)                               | Gets the list of children.                                    |
@@ -68,7 +68,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* ImportedElementOrientations.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

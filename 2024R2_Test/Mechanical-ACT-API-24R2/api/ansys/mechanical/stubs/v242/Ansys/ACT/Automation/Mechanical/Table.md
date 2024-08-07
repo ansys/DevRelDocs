@@ -48,8 +48,8 @@ Defines a Table.
 | [`PathType`](#Table.PathType)                               | Gets or sets the PathType.                                                             |
 | [`RefreshImportOn`](#Table.RefreshImportOn)                 | Gets or sets the RefreshImportOn.                                                      |
 | [`SendToSolver`](#Table.SendToSolver)                       | Get whether the Table will be explicitly written to the APDL input file.               |
-| [`SpatialCoordinateSystem`](#Table.SpatialCoordinateSystem) | Gets or sets the coordinate system applied to the Table’s spatial independent columns. |
-| [`DataModelObjectCategory`](#Table.DataModelObjectCategory) | Gets the current DataModelObject’s category.                                           |
+| [`SpatialCoordinateSystem`](#Table.SpatialCoordinateSystem) | Gets or sets the coordinate system applied to the Tableâ€™s spatial independent columns. |
+| [`DataModelObjectCategory`](#Table.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                                           |
 | [`Children`](#Table.Children)                               | Gets the list of children.                                                             |
 | [`Comments`](#Table.Comments)                               | Gets the list of associated comments.                                                  |
 | [`Figures`](#Table.Figures)                                 | Gets the list of associated figures.                                                   |
@@ -114,7 +114,7 @@ Get whether the Table will be explicitly written to the APDL input file.
 
 ### *property* Table.SpatialCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the coordinate system applied to the Table’s spatial independent columns.
+Gets or sets the coordinate system applied to the Tableâ€™s spatial independent columns.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -122,7 +122,7 @@ Gets or sets the coordinate system applied to the Table’s spatial independent 
 
 ### *property* Table.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

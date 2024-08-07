@@ -44,7 +44,7 @@ Defines a ImpedanceFrequencyResponse.
 |------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                 | Gets the internal object. For advanced usage only.                                               |
 | [`LocationMethod`](#ImpedanceFrequencyResponse.LocationMethod)                           | Gets or sets the LocationMethod.                                                                 |
-| [`DataModelObjectCategory`](#ImpedanceFrequencyResponse.DataModelObjectCategory)         | Gets the current DataModelObject’s category.                                                     |
+| [`DataModelObjectCategory`](#ImpedanceFrequencyResponse.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                                                     |
 | [`CoordinateSystem`](#ImpedanceFrequencyResponse.CoordinateSystem)                       | Gets or sets the CoordinateSystem. Accepts/Returns None if it is the Solution Coordinate System. |
 | [`RemotePointSelection`](#ImpedanceFrequencyResponse.RemotePointSelection)               | Gets or sets the RemotePointSelection.                                                           |
 | [`IsSolved`](#ImpedanceFrequencyResponse.IsSolved)                                       | Gets the IsSolved.                                                                               |
@@ -118,7 +118,7 @@ Gets or sets the LocationMethod.
 
 ### *property* ImpedanceFrequencyResponse.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

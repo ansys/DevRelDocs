@@ -45,7 +45,7 @@ Defines a CylindricalSupport.
 | [`Radial`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/CylindricalSupport.md#CylindricalSupport.Radial)                                   | Gets or sets the Radial.                                      |
 | [`Tangential`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/CylindricalSupport.md#CylindricalSupport.Tangential)                           | Gets or sets the Tangential.                                  |
 | [`Location`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/CylindricalSupport.md#CylindricalSupport.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/CylindricalSupport.md#CylindricalSupport.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/CylindricalSupport.md#CylindricalSupport.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/CylindricalSupport.md#CylindricalSupport.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/CylindricalSupport.md#CylindricalSupport.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/CylindricalSupport.md#CylindricalSupport.Children)                               | Gets the list of children.                                    |
@@ -105,7 +105,7 @@ Gets or sets the Location.
 
 ### *property* CylindricalSupport.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

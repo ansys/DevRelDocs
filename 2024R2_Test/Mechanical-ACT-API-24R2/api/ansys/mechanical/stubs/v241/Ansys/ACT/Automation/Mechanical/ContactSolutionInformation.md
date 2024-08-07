@@ -40,7 +40,7 @@ Defines a ContactSolutionInformation.
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ContactSolutionInformation.md#id0)                                                         | Gets the internal object. For advanced usage only.            |
 | [`UpdateInterval`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ContactSolutionInformation.md#ContactSolutionInformation.UpdateInterval)                   | Gets or sets the UpdateInterval.                              |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ContactSolutionInformation.md#ContactSolutionInformation.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ContactSolutionInformation.md#ContactSolutionInformation.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ContactSolutionInformation.md#ContactSolutionInformation.Children)                               | Gets the list of children.                                    |
 | [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ContactSolutionInformation.md#ContactSolutionInformation.Comments)                               | Gets the list of associated comments.                         |
 | [`Images`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ContactSolutionInformation.md#ContactSolutionInformation.Images)                                   | Gets the list of associated images.                           |
@@ -72,7 +72,7 @@ Gets or sets the UpdateInterval.
 
 ### *property* ContactSolutionInformation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

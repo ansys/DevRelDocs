@@ -40,7 +40,7 @@ Defines a ImportedPlies.
 | Name | Description |
 |---------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                            | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](#ImportedPlies.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#ImportedPlies.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`LayerToDisplay`](#ImportedPlies.LayerToDisplay)                   | Gets or sets the LayerToDisplay.                              |
 | [`MaximumNumberOfLayers`](#ImportedPlies.MaximumNumberOfLayers)     | Gets the MaximumNumberOfLayers.                               |
 | [`Type`](#ImportedPlies.Type)                                       | Gets the Type.                                                |
@@ -71,7 +71,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* ImportedPlies.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

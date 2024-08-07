@@ -43,7 +43,7 @@ Defines a VirtualCell.
 | [`ProjectToUnderlyingGeometry`](#VirtualCell.ProjectToUnderlyingGeometry) | Gets or sets the ProjectToUnderlyingGeometry.                 |
 | [`VTClass`](#VirtualCell.VTClass)                                         | Gets the VTClass.                                             |
 | [`Geometry`](#VirtualCell.Geometry)                                       | Gets the Geometry.                                            |
-| [`DataModelObjectCategory`](#VirtualCell.DataModelObjectCategory)         | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#VirtualCell.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#VirtualCell.Children)                                       | Gets the list of children.                                    |
 | [`Comments`](#VirtualCell.Comments)                                       | Gets the list of associated comments.                         |
 | [`Figures`](#VirtualCell.Figures)                                         | Gets the list of associated figures.                          |
@@ -92,7 +92,7 @@ Gets the Geometry.
 
 ### *property* VirtualCell.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

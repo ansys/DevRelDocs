@@ -51,7 +51,7 @@ Defines a EquivalentCreepStrain.
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StrainResults/EquivalentCreepStrain.md#id0)                                                                        | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StrainResults/EquivalentCreepStrain.md#EquivalentCreepStrain.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StrainResults/EquivalentCreepStrain.md#EquivalentCreepStrain.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
 | [`Mode`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StrainResults/EquivalentCreepStrain.md#EquivalentCreepStrain.Mode)                                                           | Gets or sets the Mode.                                                 |
 | [`Ply`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StrainResults/EquivalentCreepStrain.md#EquivalentCreepStrain.Ply)                                                             | Gets or sets the Ply selection.                                        |
 | [`Plies`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StrainResults/EquivalentCreepStrain.md#EquivalentCreepStrain.Plies)                                                         | Plies property.                                                        |
@@ -139,7 +139,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* EquivalentCreepStrain.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

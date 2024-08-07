@@ -62,12 +62,12 @@ Defines a MomentReaction.
 | [`By`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/MomentReaction.md#MomentReaction.By)                                                 | Gets or sets the By.                                                                                                                                                       |
 | [`Beam`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/MomentReaction.md#MomentReaction.Beam)                                             | Gets or sets the Beam.                                                                                                                                                     |
 | [`RemotePoints`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/MomentReaction.md#MomentReaction.RemotePoints)                             | Gets or sets the RemotePoints.                                                                                                                                             |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/MomentReaction.md#MomentReaction.DataModelObjectCategory)       | Gets the current DataModelObject’s category.                                                                                                                               |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/MomentReaction.md#MomentReaction.DataModelObjectCategory)       | Gets the current DataModelObjectâ€™s category.                                                                                                                               |
 | [`Summation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/MomentReaction.md#MomentReaction.Summation)                                   | Gets or sets the Summation.                                                                                                                                                |
 | [`LocationMethod`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/MomentReaction.md#MomentReaction.LocationMethod)                         | Gets or sets the LocationMethod.                                                                                                                                           |
 | [`GeometryLocation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/MomentReaction.md#MomentReaction.GeometryLocation)                     | Gets or sets the GeometryLocation.                                                                                                                                         |
 | [`CoordinateSystemSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/MomentReaction.md#MomentReaction.CoordinateSystemSelection)   | Gets or sets the CoordinateSystemSelection.                                                                                                                                |
-| [`BoundaryConditionSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/MomentReaction.md#MomentReaction.BoundaryConditionSelection) | Gets or sets the BoundaryConditionSelection. In order to select the option ‘WeakSprings’, please use the property ‘LocationMethod = LocationDefinitionMethod.WeakSprings’. |
+| [`BoundaryConditionSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/MomentReaction.md#MomentReaction.BoundaryConditionSelection) | Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSpringsâ€™, please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSpringsâ€™. |
 | [`ContactRegionSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/MomentReaction.md#MomentReaction.ContactRegionSelection)         | Gets or sets the ContactRegionSelection.                                                                                                                                   |
 | [`RemotePointSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/MomentReaction.md#MomentReaction.RemotePointSelection)             | Gets or sets the RemotePointSelection.                                                                                                                                     |
 | [`BeamSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/MomentReaction.md#MomentReaction.BeamSelection)                           | Gets or sets the BeamSelection.                                                                                                                                            |
@@ -251,7 +251,7 @@ Gets or sets the RemotePoints.
 
 ### *property* MomentReaction.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -291,7 +291,7 @@ Gets or sets the CoordinateSystemSelection.
 
 ### *property* MomentReaction.BoundaryConditionSelection *: Ansys.ACT.Automation.Mechanical.DataModelObject | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the BoundaryConditionSelection. In order to select the option ‘WeakSprings’, please use the property ‘LocationMethod = LocationDefinitionMethod.WeakSprings’.
+Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSpringsâ€™, please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSpringsâ€™.
 
 <!-- !! processed by numpydoc !! -->
 

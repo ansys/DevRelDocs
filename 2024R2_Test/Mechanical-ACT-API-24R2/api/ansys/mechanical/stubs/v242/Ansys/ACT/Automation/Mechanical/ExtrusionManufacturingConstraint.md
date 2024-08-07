@@ -42,7 +42,7 @@ Defines a ExtrusionManufacturingConstraint.
 | [`ScopingMethod`](#ExtrusionManufacturingConstraint.ScopingMethod)                     | Gets or sets the ScopingMethod.                               |
 | [`CoordinateSystem`](#ExtrusionManufacturingConstraint.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
 | [`Location`](#ExtrusionManufacturingConstraint.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#ExtrusionManufacturingConstraint.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#ExtrusionManufacturingConstraint.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Suppressed`](#ExtrusionManufacturingConstraint.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`Selection`](#ExtrusionManufacturingConstraint.Selection)                             | Gets or sets the Selection.                                   |
 | [`Children`](#ExtrusionManufacturingConstraint.Children)                               | Gets the list of children.                                    |
@@ -98,7 +98,7 @@ Gets or sets the Location.
 
 ### *property* ExtrusionManufacturingConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

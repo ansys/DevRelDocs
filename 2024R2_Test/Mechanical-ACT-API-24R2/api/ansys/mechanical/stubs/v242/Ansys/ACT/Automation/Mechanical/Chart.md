@@ -49,7 +49,7 @@ Defines a Chart.
 | [`PlotStyle`](#Chart.PlotStyle)                             | Gets or sets the PlotStyle.                                   |
 | [`Content`](#Chart.Content)                                 | Gets or sets the Content.                                     |
 | [`Scale`](#Chart.Scale)                                     | Gets or sets the Scale.                                       |
-| [`DataModelObjectCategory`](#Chart.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#Chart.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#Chart.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#Chart.Comments)                               | Gets the list of associated comments.                         |
 | [`Images`](#Chart.Images)                                   | Gets the list of associated images.                           |
@@ -153,7 +153,7 @@ Gets or sets the Scale.
 
 ### *property* Chart.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

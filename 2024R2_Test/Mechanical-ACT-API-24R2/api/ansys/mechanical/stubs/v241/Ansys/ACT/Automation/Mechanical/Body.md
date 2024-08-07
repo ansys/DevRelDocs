@@ -48,8 +48,8 @@ Defines a Body.
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
 | [`Hidden`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Body.md#Body.Hidden)                                               | Hide or show the body.                                                                         |
-| [`ConfigurationId`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Body.md#Body.ConfigurationId)                             | Gets the related Result Mesh’s ConfigurationId.                                                |
-| [`ResultMeshId`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Body.md#Body.ResultMeshId)                                   | Gets the related Result Mesh’s ObjectId.                                                       |
+| [`ConfigurationId`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Body.md#Body.ConfigurationId)                             | Gets the related Result Meshâ€™s ConfigurationId.                                                |
+| [`ResultMeshId`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Body.md#Body.ResultMeshId)                                   | Gets the related Result Meshâ€™s ObjectId.                                                       |
 | [`ReferenceTemperature`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Body.md#Body.ReferenceTemperature)                   | Gets or sets the ReferenceTemperature.                                                         |
 | [`ThicknessMode`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Body.md#Body.ThicknessMode)                                 | Gets the ThicknessMode.                                                                        |
 | [`Dimension`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Body.md#Body.Dimension)                                         | Gets or sets the Dimension.                                                                    |
@@ -124,7 +124,7 @@ Defines a Body.
 | [`BeamSection`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Body.md#Body.BeamSection)                                     | Gets the BeamSection.                                                                          |
 | [`CoordinateSystem`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Body.md#Body.CoordinateSystem)                           | Gets or sets the CoordinateSystem.                                                             |
 | [`CrossSectionSelection`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Body.md#Body.CrossSectionSelection)                 | Gets or sets the CrossSectionSelection.                                                        |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Body.md#Body.DataModelObjectCategory)             | Gets the current DataModelObject’s category.                                                   |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Body.md#Body.DataModelObjectCategory)             | Gets the current DataModelObjectâ€™s category.                                                   |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Body.md#Body.Children)                                           | Gets the list of children.                                                                     |
 | [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Body.md#Body.Comments)                                           | Gets the list of associated comments.                                                          |
 | [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Body.md#Body.Figures)                                             | Gets the list of associated figures.                                                           |
@@ -150,7 +150,7 @@ Hide or show the body.
 
 ### *property* Body.ConfigurationId *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the related Result Mesh’s ConfigurationId.
+Gets the related Result Meshâ€™s ConfigurationId.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -158,7 +158,7 @@ Gets the related Result Mesh’s ConfigurationId.
 
 ### *property* Body.ResultMeshId *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the related Result Mesh’s ObjectId.
+Gets the related Result Meshâ€™s ObjectId.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -759,7 +759,7 @@ Gets or sets the CrossSectionSelection.
 
 ### *property* Body.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

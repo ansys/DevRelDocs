@@ -31,7 +31,7 @@ Exposes the main entry point of all ATC APIs.
 
 R
 : Unlocks the license used by the PRE/POST application. This is required if you want to manually launch the Ansys solver.
-  You must relock the license after its use. If you don’t relock the license, the PRE/POST application will be in read-only mode.
+  You must relock the license after its use. If you donâ€™t relock the license, the PRE/POST application will be in read-only mode.
 
 <!-- !! processed by numpydoc !! -->
 

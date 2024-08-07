@@ -52,7 +52,7 @@ Defines a MaximumShearElasticStrain.
 |-----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                            | Gets the internal object. For advanced usage only.                     |
 | [`ShearOrientation`](#MaximumShearElasticStrain.ShearOrientation)                                   | Gets or sets the ShearOrientation.                                     |
-| [`DataModelObjectCategory`](#MaximumShearElasticStrain.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](#MaximumShearElasticStrain.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
 | [`Mode`](#MaximumShearElasticStrain.Mode)                                                           | Gets or sets the Mode.                                                 |
 | [`Ply`](#MaximumShearElasticStrain.Ply)                                                             | Gets or sets the Ply selection.                                        |
 | [`Plies`](#MaximumShearElasticStrain.Plies)                                                         | Plies property.                                                        |
@@ -149,7 +149,7 @@ Gets or sets the ShearOrientation.
 
 ### *property* MaximumShearElasticStrain.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

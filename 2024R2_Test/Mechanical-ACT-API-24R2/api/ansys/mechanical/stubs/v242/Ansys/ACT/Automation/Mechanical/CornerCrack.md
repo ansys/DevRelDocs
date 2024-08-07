@@ -68,7 +68,7 @@ Defines a CornerCrack.
 | [`Suppressed`](#CornerCrack.Suppressed)                                 | Gets or sets the Suppressed.                                  |
 | [`CoordinateSystem`](#CornerCrack.CoordinateSystem)                     | Gets or sets the CoordinateSystem.                            |
 | [`Location`](#CornerCrack.Location)                                     | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#CornerCrack.DataModelObjectCategory)       | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#CornerCrack.DataModelObjectCategory)       | Gets the current DataModelObjectâ€™s category.                  |
 | [`CrackID`](#CornerCrack.CrackID)                                       | Gets the CrackID.                                             |
 | [`Children`](#CornerCrack.Children)                                     | Gets the list of children.                                    |
 | [`Comments`](#CornerCrack.Comments)                                     | Gets the list of associated comments.                         |
@@ -311,7 +311,7 @@ Gets or sets the Location.
 
 ### *property* CornerCrack.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

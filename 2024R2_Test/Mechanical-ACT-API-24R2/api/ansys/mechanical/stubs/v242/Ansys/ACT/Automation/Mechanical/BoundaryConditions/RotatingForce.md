@@ -67,7 +67,7 @@ Defines a RotatingForce.
 | [`RemotePointSelection`](#RotatingForce.RemotePointSelection)                 | Gets or sets the RemotePointSelection.                        |
 | [`HitPointRemotePointSelection`](#RotatingForce.HitPointRemotePointSelection) | Gets or sets the HitPointRemotePointSelection.                |
 | [`Location`](#RotatingForce.Location)                                         | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#RotatingForce.DataModelObjectCategory)           | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#RotatingForce.DataModelObjectCategory)           | Gets the current DataModelObjectâ€™s category.                  |
 | [`Suppressed`](#RotatingForce.Suppressed)                                     | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#RotatingForce.SharedRefBody)                               | Gets or sets the SharedRefBody.                               |
 | [`Children`](#RotatingForce.Children)                                         | Gets the list of children.                                    |
@@ -303,7 +303,7 @@ Gets or sets the Location.
 
 ### *property* RotatingForce.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

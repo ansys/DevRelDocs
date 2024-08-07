@@ -42,7 +42,7 @@ Defines a AcousticRigidWall.
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticRigidWall.md#id0)                                                | Gets the internal object. For advanced usage only.            |
 | [`Location`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticRigidWall.md#AcousticRigidWall.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticRigidWall.md#AcousticRigidWall.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticRigidWall.md#AcousticRigidWall.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticRigidWall.md#AcousticRigidWall.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticRigidWall.md#AcousticRigidWall.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticRigidWall.md#AcousticRigidWall.Children)                               | Gets the list of children.                                    |
@@ -78,7 +78,7 @@ Gets or sets the Location.
 
 ### *property* AcousticRigidWall.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

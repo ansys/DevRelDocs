@@ -45,8 +45,8 @@ Defines a Part.
 |------------------------------------------------------------|---------------------------------------------------------------|
 | [`MaterialName`](#Part.MaterialName)                       | Gets or sets the MaterialName.                                |
 | [`Hidden`](#Part.Hidden)                                   | Hide or show the body.                                        |
-| [`ConfigurationId`](#Part.ConfigurationId)                 | Gets the related Result Mesh’s ConfigurationId.               |
-| [`ResultMeshId`](#Part.ResultMeshId)                       | Gets the related Result Mesh’s ObjectId.                      |
+| [`ConfigurationId`](#Part.ConfigurationId)                 | Gets the related Result Meshâ€™s ConfigurationId.               |
+| [`ResultMeshId`](#Part.ResultMeshId)                       | Gets the related Result Meshâ€™s ObjectId.                      |
 | [`Assignment`](#Part.Assignment)                           | Gets or sets the Assignment.                                  |
 | [`InternalObject`](#id0)                                   | Gets the internal object. For advanced usage only.            |
 | [`Elements`](#Part.Elements)                               | Gets the Elements.                                            |
@@ -72,7 +72,7 @@ Defines a Part.
 | [`Visible`](#Part.Visible)                                 | Gets or sets the Visible.                                     |
 | [`Suppressed`](#Part.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`CoordinateSystem`](#Part.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
-| [`DataModelObjectCategory`](#Part.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#Part.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#Part.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#Part.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#Part.Figures)                                 | Gets the list of associated figures.                          |
@@ -106,7 +106,7 @@ Hide or show the body.
 
 ### *property* Part.ConfigurationId *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the related Result Mesh’s ConfigurationId.
+Gets the related Result Meshâ€™s ConfigurationId.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -114,7 +114,7 @@ Gets the related Result Mesh’s ConfigurationId.
 
 ### *property* Part.ResultMeshId *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the related Result Mesh’s ObjectId.
+Gets the related Result Meshâ€™s ObjectId.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -322,7 +322,7 @@ Gets or sets the CoordinateSystem.
 
 ### *property* Part.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -49,7 +49,7 @@ Defines a UserDefinedCrossSection.
 | [`SHz`](#UserDefinedCrossSection.SHz)                                         | Gets or sets the SHz.                                         |
 | [`J`](#UserDefinedCrossSection.J)                                             | Gets or sets the J.                                           |
 | [`Iw`](#UserDefinedCrossSection.Iw)                                           | Gets or sets the Iw.                                          |
-| [`DataModelObjectCategory`](#UserDefinedCrossSection.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#UserDefinedCrossSection.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#UserDefinedCrossSection.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#UserDefinedCrossSection.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#UserDefinedCrossSection.Figures)                                 | Gets the list of associated figures.                          |
@@ -147,7 +147,7 @@ Gets or sets the Iw.
 
 ### *property* UserDefinedCrossSection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

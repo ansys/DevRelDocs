@@ -57,7 +57,7 @@ A class for fluid penetration pressure object in Mechanical. This load object is
 | [`IndependentVariable`](#FluidPenetrationPressure.IndependentVariable)                     | Gets or set the IndependentVariable.                                                                                |
 | [`UpdatePressureType`](#FluidPenetrationPressure.UpdatePressureType)                       | Gets or sets the UpdatePressureType which determines when to update fluid pressure, each iteration or each substep. |
 | [`XYZFunctionCoordinateSystem`](#FluidPenetrationPressure.XYZFunctionCoordinateSystem)     | Gets or sets the XYZFunctionCoordinateSystem.                                                                       |
-| [`DataModelObjectCategory`](#FluidPenetrationPressure.DataModelObjectCategory)             | Gets the current DataModelObject’s category.                                                                        |
+| [`DataModelObjectCategory`](#FluidPenetrationPressure.DataModelObjectCategory)             | Gets the current DataModelObjectâ€™s category.                                                                        |
 | [`Suppressed`](#FluidPenetrationPressure.Suppressed)                                       | Gets or sets the Suppressed.                                                                                        |
 | [`SharedRefBody`](#FluidPenetrationPressure.SharedRefBody)                                 | Gets or sets the SharedRefBody.                                                                                     |
 | [`Children`](#FluidPenetrationPressure.Children)                                           | Gets the list of children.                                                                                          |
@@ -189,7 +189,7 @@ Gets or sets the XYZFunctionCoordinateSystem.
 
 ### *property* FluidPenetrationPressure.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

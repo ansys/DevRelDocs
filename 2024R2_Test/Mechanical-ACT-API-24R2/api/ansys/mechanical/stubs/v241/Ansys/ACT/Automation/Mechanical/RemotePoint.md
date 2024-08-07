@@ -66,7 +66,7 @@ Defines a RemotePoint.
 | [`Point`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.Point)                                     | Gets or sets the Point.                                       |
 | [`CoordinateSystem`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
 | [`Location`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.Children)                               | Gets the list of children.                                    |
 | [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.Comments)                               | Gets the list of associated comments.                         |
 | [`ReadOnly`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
@@ -290,7 +290,7 @@ Gets or sets the Location.
 
 ### *property* RemotePoint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

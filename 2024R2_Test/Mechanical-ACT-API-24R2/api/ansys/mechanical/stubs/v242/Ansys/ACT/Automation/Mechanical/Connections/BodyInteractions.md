@@ -54,7 +54,7 @@ Defines a BodyInteractions.
 | [`BodySelfContact`](#BodyInteractions.BodySelfContact)                   | Gets or sets the BodySelfContact.                             |
 | [`ElementSelfContact`](#BodyInteractions.ElementSelfContact)             | Gets or sets the ElementSelfContact.                          |
 | [`EdgeOnEdgeContact`](#BodyInteractions.EdgeOnEdgeContact)               | Gets or sets the EdgeOnEdgeContact.                           |
-| [`DataModelObjectCategory`](#BodyInteractions.DataModelObjectCategory)   | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#BodyInteractions.DataModelObjectCategory)   | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#BodyInteractions.Children)                                 | Gets the list of children.                                    |
 | [`Comments`](#BodyInteractions.Comments)                                 | Gets the list of associated comments.                         |
 | [`Figures`](#BodyInteractions.Figures)                                   | Gets the list of associated figures.                          |
@@ -183,7 +183,7 @@ Gets or sets the EdgeOnEdgeContact.
 
 ### *property* BodyInteractions.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

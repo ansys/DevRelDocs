@@ -49,7 +49,7 @@ Defines a ResultMesh.
 | [`Nodes`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ResultMesh.md#ResultMesh.Nodes)                                     | Gets the Nodes.                                               |
 | [`SourceFile`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ResultMesh.md#ResultMesh.SourceFile)                           | Gets the SourceFile.                                          |
 | [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ResultMesh.md#ResultMesh.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ResultMesh.md#ResultMesh.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ResultMesh.md#ResultMesh.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ResultMesh.md#ResultMesh.Children)                               | Gets the list of children.                                    |
 | [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ResultMesh.md#ResultMesh.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ResultMesh.md#ResultMesh.Figures)                                 | Gets the list of associated figures.                          |
@@ -122,7 +122,7 @@ Gets or sets the Suppressed.
 
 ### *property* ResultMesh.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

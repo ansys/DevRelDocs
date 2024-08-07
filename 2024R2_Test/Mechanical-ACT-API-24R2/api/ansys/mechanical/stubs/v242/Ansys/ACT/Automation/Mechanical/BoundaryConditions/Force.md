@@ -77,7 +77,7 @@ Defines a Force.
 | [`DivideLoadByNodes`](#Force.DivideLoadByNodes)                 | Gets or sets the DivideLoadByNodes.                           |
 | [`CoordinateSystem`](#Force.CoordinateSystem)                   | Gets or sets the CoordinateSystem.                            |
 | [`Location`](#Force.Location)                                   | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#Force.DataModelObjectCategory)     | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#Force.DataModelObjectCategory)     | Gets the current DataModelObjectâ€™s category.                  |
 | [`Suppressed`](#Force.Suppressed)                               | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#Force.SharedRefBody)                         | Gets or sets the SharedRefBody.                               |
 | [`Children`](#Force.Children)                                   | Gets the list of children.                                    |
@@ -361,7 +361,7 @@ Gets or sets the Location.
 
 ### *property* Force.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

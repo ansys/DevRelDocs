@@ -57,7 +57,7 @@ ThermalCondition class.
 | [`IndependentVariable`](#ThermalCondition.IndependentVariable)                 | Gets or sets the IndependentVariable.                         |
 | [`XYZFunctionCoordinateSystem`](#ThermalCondition.XYZFunctionCoordinateSystem) | Gets or sets the XYZFunctionCoordinateSystem.                 |
 | [`Location`](#ThermalCondition.Location)                                       | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#ThermalCondition.DataModelObjectCategory)         | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#ThermalCondition.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                  |
 | [`Suppressed`](#ThermalCondition.Suppressed)                                   | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#ThermalCondition.SharedRefBody)                             | Gets or sets the SharedRefBody.                               |
 | [`Children`](#ThermalCondition.Children)                                       | Gets the list of children.                                    |
@@ -181,7 +181,7 @@ Gets or sets the Location.
 
 ### *property* ThermalCondition.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

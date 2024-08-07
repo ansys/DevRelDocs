@@ -54,7 +54,7 @@ Defines a MeshConnectionGroup.
 | Name | Description |
 |-------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                  | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](#MeshConnectionGroup.DataModelObjectCategory)                 | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#MeshConnectionGroup.DataModelObjectCategory)                 | Gets the current DataModelObjectâ€™s category.                  |
 | [`ConnectionType`](#MeshConnectionGroup.ConnectionType)                                   | Gets or sets the ConnectionType.                              |
 | [`ActiveConnections`](#MeshConnectionGroup.ActiveConnections)                             | Gets the ActiveConnections.                                   |
 | [`Connections`](#MeshConnectionGroup.Connections)                                         | Gets the Connections.                                         |
@@ -105,7 +105,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* MeshConnectionGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

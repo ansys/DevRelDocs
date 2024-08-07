@@ -47,7 +47,7 @@ Defines a ImportedHeatFlux.
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
 | [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedHeatFlux.md#id0)                                                                         | Gets the internal object. For advanced usage only.                                                      |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedHeatFlux.md#ImportedHeatFlux.DataModelObjectCategory)                           | Gets the current DataModelObject’s category.                                                            |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedHeatFlux.md#ImportedHeatFlux.DataModelObjectCategory)                           | Gets the current DataModelObjectâ€™s category.                                                            |
 | [`Weighting`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedHeatFlux.md#ImportedHeatFlux.Weighting)                                                       | Weighting property.                                                                                     |
 | [`MappingControl`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedHeatFlux.md#ImportedHeatFlux.MappingControl)                                             | MappingControl property.                                                                                |
 | [`DisplaySourcePoints`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedHeatFlux.md#ImportedHeatFlux.DisplaySourcePoints)                                   | DisplaySourcePoints property.                                                                           |
@@ -114,7 +114,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* ImportedHeatFlux.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

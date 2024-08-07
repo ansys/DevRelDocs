@@ -42,7 +42,7 @@ Defines a PeriodicRegion.
 |----------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                             | Gets the internal object. For advanced usage only.            |
 | [`Type`](#PeriodicRegion.Type)                                       | Gets or sets the Type.                                        |
-| [`DataModelObjectCategory`](#PeriodicRegion.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#PeriodicRegion.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`ScopeMode`](#PeriodicRegion.ScopeMode)                             | Gets the ScopeMode.                                           |
 | [`Suppressed`](#PeriodicRegion.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`CoordinateSystem`](#PeriodicRegion.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
@@ -82,7 +82,7 @@ Gets or sets the Type.
 
 ### *property* PeriodicRegion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

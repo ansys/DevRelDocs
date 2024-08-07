@@ -41,7 +41,7 @@ Defines a NaturalFrequencyConstraint.
 | [`ModeNumber`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NaturalFrequencyConstraint.md#NaturalFrequencyConstraint.ModeNumber)                           | Gets or sets the ModeNumber.                                                             |
 | [`MaximumFrequency`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NaturalFrequencyConstraint.md#NaturalFrequencyConstraint.MaximumFrequency)               | Gets or sets the MaximumFrequency.                                                       |
 | [`MinimumFrequency`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NaturalFrequencyConstraint.md#NaturalFrequencyConstraint.MinimumFrequency)               | Gets or sets the MinimumFrequency.                                                       |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NaturalFrequencyConstraint.md#NaturalFrequencyConstraint.DataModelObjectCategory) | Gets the current DataModelObject’s category.                                             |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NaturalFrequencyConstraint.md#NaturalFrequencyConstraint.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                                             |
 | [`EnvironmentSelection`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NaturalFrequencyConstraint.md#NaturalFrequencyConstraint.EnvironmentSelection)       | Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum. |
 | [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NaturalFrequencyConstraint.md#NaturalFrequencyConstraint.Suppressed)                           | Gets or sets the Suppressed.                                                             |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NaturalFrequencyConstraint.md#NaturalFrequencyConstraint.Children)                               | Gets the list of children.                                                               |
@@ -89,7 +89,7 @@ Gets or sets the MinimumFrequency.
 
 ### *property* NaturalFrequencyConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

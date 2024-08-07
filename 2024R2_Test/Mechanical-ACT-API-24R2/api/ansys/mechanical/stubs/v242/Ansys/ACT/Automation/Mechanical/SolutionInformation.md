@@ -146,7 +146,7 @@ Defines a SolutionInformation.
 | [`ShowMomentResiduals`](#SolutionInformation.ShowMomentResiduals)             | Gets or sets the ShowMomentResiduals.                          |
 | [`DisplayFilterDuringSolve`](#SolutionInformation.DisplayFilterDuringSolve)   | Gets or sets the DisplayFilterDuringSolve.                     |
 | [`ResponseConstraint`](#SolutionInformation.ResponseConstraint)               | Gets or sets the ResponseConstraint.                           |
-| [`DataModelObjectCategory`](#SolutionInformation.DataModelObjectCategory)     | Gets the current DataModelObject’s category.                   |
+| [`DataModelObjectCategory`](#SolutionInformation.DataModelObjectCategory)     | Gets the current DataModelObjectâ€™s category.                   |
 | [`Children`](#SolutionInformation.Children)                                   | Gets the list of children.                                     |
 | [`Comments`](#SolutionInformation.Comments)                                   | Gets the list of associated comments.                          |
 | [`Figures`](#SolutionInformation.Figures)                                     | Gets the list of associated figures.                           |
@@ -355,7 +355,7 @@ Gets or sets the ResponseConstraint.
 
 ### *property* SolutionInformation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

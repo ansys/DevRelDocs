@@ -44,7 +44,7 @@ Defines a FluidSolidInterface.
 | [`InterfaceNumber`](#FluidSolidInterface.InterfaceNumber)                 | Gets or sets the InterfaceNumber.                             |
 | [`ExportResults`](#FluidSolidInterface.ExportResults)                     | Gets or sets the ExportResults.                               |
 | [`Location`](#FluidSolidInterface.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#FluidSolidInterface.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#FluidSolidInterface.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Suppressed`](#FluidSolidInterface.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#FluidSolidInterface.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
 | [`Children`](#FluidSolidInterface.Children)                               | Gets the list of children.                                    |
@@ -96,7 +96,7 @@ Gets or sets the Location.
 
 ### *property* FluidSolidInterface.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

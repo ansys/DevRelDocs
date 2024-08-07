@@ -65,7 +65,7 @@ Defines a RemoteDisplacement.
 | [`DynamicRelaxationBehavior`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/RemoteDisplacement.md#RemoteDisplacement.DynamicRelaxationBehavior)             | Gets or sets the DynamicRelaxationBehavior.                   |
 | [`ReverseDirectionForInverseSteps`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/RemoteDisplacement.md#RemoteDisplacement.ReverseDirectionForInverseSteps) | Gets or sets the ReverseDirectionForInverseSteps.             |
 | [`CoordinateSystem`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/RemoteDisplacement.md#RemoteDisplacement.CoordinateSystem)                               | Gets or sets the CoordinateSystem.                            |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/RemoteDisplacement.md#RemoteDisplacement.DataModelObjectCategory)                 | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/RemoteDisplacement.md#RemoteDisplacement.DataModelObjectCategory)                 | Gets the current DataModelObjectâ€™s category.                  |
 | [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/RemoteDisplacement.md#RemoteDisplacement.Suppressed)                                           | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/RemoteDisplacement.md#RemoteDisplacement.SharedRefBody)                                     | Gets or sets the SharedRefBody.                               |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/RemoteDisplacement.md#RemoteDisplacement.Children)                                               | Gets the list of children.                                    |
@@ -245,7 +245,7 @@ Gets or sets the CoordinateSystem.
 
 ### *property* RemoteDisplacement.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -47,7 +47,7 @@ Defines a GeneratedAMSupport.
 | [`InternalObject`](#id0)                                                               | Gets the internal object. For advanced usage only.            |
 | [`Mode`](#GeneratedAMSupport.Mode)                                                     | Gets or sets the Mode.                                        |
 | [`Location`](#GeneratedAMSupport.Location)                                             | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#GeneratedAMSupport.DataModelObjectCategory)               | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#GeneratedAMSupport.DataModelObjectCategory)               | Gets the current DataModelObjectâ€™s category.                  |
 | [`ThermalConductivityMultipleInX`](#GeneratedAMSupport.ThermalConductivityMultipleInX) | Gets or sets the ThermalConductivityMultipleInX.              |
 | [`ThermalConductivityMultipleInY`](#GeneratedAMSupport.ThermalConductivityMultipleInY) | Gets or sets the ThermalConductivityMultipleInY.              |
 | [`ThermalConductivityMultipleInZ`](#GeneratedAMSupport.ThermalConductivityMultipleInZ) | Gets or sets the ThermalConductivityMultipleInZ.              |
@@ -104,7 +104,7 @@ Gets or sets the Location.
 
 ### *property* GeneratedAMSupport.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

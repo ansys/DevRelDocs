@@ -51,7 +51,7 @@ Defines a AcousticSoundPressureLevel.
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticSoundPressureLevel.md#id0)                                                                             | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticSoundPressureLevel.md#AcousticSoundPressureLevel.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticSoundPressureLevel.md#AcousticSoundPressureLevel.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
 | [`Mode`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticSoundPressureLevel.md#AcousticSoundPressureLevel.Mode)                                                           | Gets or sets the Mode.                                                 |
 | [`ReportedFrequency`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticSoundPressureLevel.md#AcousticSoundPressureLevel.ReportedFrequency)                                 | Gets the ReportedFrequency.                                            |
 | [`DampedFrequency`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticSoundPressureLevel.md#AcousticSoundPressureLevel.DampedFrequency)                                     | Gets the DampedFrequency.                                              |
@@ -131,7 +131,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* AcousticSoundPressureLevel.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

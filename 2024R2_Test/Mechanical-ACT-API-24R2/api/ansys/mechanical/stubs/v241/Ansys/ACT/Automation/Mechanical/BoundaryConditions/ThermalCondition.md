@@ -58,7 +58,7 @@ Defines a ThermalCondition.
 | [`XYZFunctionCoordinateSystem`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ThermalCondition.md#ThermalCondition.XYZFunctionCoordinateSystem) | Gets or sets the XYZFunctionCoordinateSystem.                 |
 | [`TableAssignment`](#ThermalCondition.TableAssignment)                                                                                                                      | Gets or sets the TableAssignment.                             |
 | [`Location`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ThermalCondition.md#ThermalCondition.Location)                                       | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ThermalCondition.md#ThermalCondition.DataModelObjectCategory)         | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ThermalCondition.md#ThermalCondition.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                  |
 | [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ThermalCondition.md#ThermalCondition.Suppressed)                                   | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ThermalCondition.md#ThermalCondition.SharedRefBody)                             | Gets or sets the SharedRefBody.                               |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ThermalCondition.md#ThermalCondition.Children)                                       | Gets the list of children.                                    |
@@ -190,7 +190,7 @@ Gets or sets the Location.
 
 ### *property* ThermalCondition.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

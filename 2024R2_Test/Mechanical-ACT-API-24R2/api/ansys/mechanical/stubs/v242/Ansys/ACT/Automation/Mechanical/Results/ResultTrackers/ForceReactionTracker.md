@@ -49,7 +49,7 @@ Defines a ForceReactionTracker.
 | [`ForceComponentMethod`](#ForceReactionTracker.ForceComponentMethod)               | Gets or sets the ForceComponentMethod.                        |
 | [`LocationMethod`](#ForceReactionTracker.LocationMethod)                           | Gets or sets the LocationMethod.                              |
 | [`LocationCoordinateSystem`](#ForceReactionTracker.LocationCoordinateSystem)       | Gets or sets the LocationCoordinateSystem.                    |
-| [`DataModelObjectCategory`](#ForceReactionTracker.DataModelObjectCategory)         | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#ForceReactionTracker.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                  |
 | [`IsSolved`](#ForceReactionTracker.IsSolved)                                       | Gets the IsSolved.                                            |
 | [`ChartDimensions`](#ForceReactionTracker.ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
 | [`BoundaryCondition`](#ForceReactionTracker.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
@@ -162,7 +162,7 @@ Gets or sets the LocationCoordinateSystem.
 
 ### *property* ForceReactionTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

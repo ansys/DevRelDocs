@@ -50,12 +50,12 @@ Defines a CurrentDensityProbe.
 | [`XAxisCurrentDensity`](#CurrentDensityProbe.XAxisCurrentDensity)               | Gets the XAxisCurrentDensity.                                                                                                                                              |
 | [`YAxisCurrentDensity`](#CurrentDensityProbe.YAxisCurrentDensity)               | Gets the YAxisCurrentDensity.                                                                                                                                              |
 | [`ZAxisCurrentDensity`](#CurrentDensityProbe.ZAxisCurrentDensity)               | Gets the ZAxisCurrentDensity.                                                                                                                                              |
-| [`DataModelObjectCategory`](#CurrentDensityProbe.DataModelObjectCategory)       | Gets the current DataModelObject’s category.                                                                                                                               |
+| [`DataModelObjectCategory`](#CurrentDensityProbe.DataModelObjectCategory)       | Gets the current DataModelObjectâ€™s category.                                                                                                                               |
 | [`Summation`](#CurrentDensityProbe.Summation)                                   | Gets or sets the Summation.                                                                                                                                                |
 | [`LocationMethod`](#CurrentDensityProbe.LocationMethod)                         | Gets or sets the LocationMethod.                                                                                                                                           |
 | [`GeometryLocation`](#CurrentDensityProbe.GeometryLocation)                     | Gets or sets the GeometryLocation.                                                                                                                                         |
 | [`CoordinateSystemSelection`](#CurrentDensityProbe.CoordinateSystemSelection)   | Gets or sets the CoordinateSystemSelection.                                                                                                                                |
-| [`BoundaryConditionSelection`](#CurrentDensityProbe.BoundaryConditionSelection) | Gets or sets the BoundaryConditionSelection. In order to select the option ‘WeakSprings’, please use the property ‘LocationMethod = LocationDefinitionMethod.WeakSprings’. |
+| [`BoundaryConditionSelection`](#CurrentDensityProbe.BoundaryConditionSelection) | Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSpringsâ€™, please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSpringsâ€™. |
 | [`ContactRegionSelection`](#CurrentDensityProbe.ContactRegionSelection)         | Gets or sets the ContactRegionSelection.                                                                                                                                   |
 | [`RemotePointSelection`](#CurrentDensityProbe.RemotePointSelection)             | Gets or sets the RemotePointSelection.                                                                                                                                     |
 | [`BeamSelection`](#CurrentDensityProbe.BeamSelection)                           | Gets or sets the BeamSelection.                                                                                                                                            |
@@ -143,7 +143,7 @@ Gets the ZAxisCurrentDensity.
 
 ### *property* CurrentDensityProbe.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -183,7 +183,7 @@ Gets or sets the CoordinateSystemSelection.
 
 ### *property* CurrentDensityProbe.BoundaryConditionSelection *: Ansys.ACT.Automation.Mechanical.DataModelObject | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the BoundaryConditionSelection. In order to select the option ‘WeakSprings’, please use the property ‘LocationMethod = LocationDefinitionMethod.WeakSprings’.
+Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSpringsâ€™, please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSpringsâ€™.
 
 <!-- !! processed by numpydoc !! -->
 

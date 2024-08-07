@@ -48,8 +48,8 @@ Defines a Body.
 | Name | Description |
 |------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
 | [`Hidden`](#Body.Hidden)                                               | Hide or show the body.                                                                         |
-| [`ConfigurationId`](#Body.ConfigurationId)                             | Gets the related Result Mesh’s ConfigurationId.                                                |
-| [`ResultMeshId`](#Body.ResultMeshId)                                   | Gets the related Result Mesh’s ObjectId.                                                       |
+| [`ConfigurationId`](#Body.ConfigurationId)                             | Gets the related Result Meshâ€™s ConfigurationId.                                                |
+| [`ResultMeshId`](#Body.ResultMeshId)                                   | Gets the related Result Meshâ€™s ObjectId.                                                       |
 | [`ReferenceTemperature`](#Body.ReferenceTemperature)                   | Gets or sets the ReferenceTemperature.                                                         |
 | [`ThicknessMode`](#Body.ThicknessMode)                                 | Gets the ThicknessMode.                                                                        |
 | [`Dimension`](#Body.Dimension)                                         | Gets or sets the Dimension.                                                                    |
@@ -124,7 +124,7 @@ Defines a Body.
 | [`BeamSection`](#Body.BeamSection)                                     | Gets the BeamSection.                                                                          |
 | [`CoordinateSystem`](#Body.CoordinateSystem)                           | Gets or sets the CoordinateSystem.                                                             |
 | [`CrossSectionSelection`](#Body.CrossSectionSelection)                 | Gets or sets the CrossSectionSelection.                                                        |
-| [`DataModelObjectCategory`](#Body.DataModelObjectCategory)             | Gets the current DataModelObject’s category.                                                   |
+| [`DataModelObjectCategory`](#Body.DataModelObjectCategory)             | Gets the current DataModelObjectâ€™s category.                                                   |
 | [`Children`](#Body.Children)                                           | Gets the list of children.                                                                     |
 | [`Comments`](#Body.Comments)                                           | Gets the list of associated comments.                                                          |
 | [`Figures`](#Body.Figures)                                             | Gets the list of associated figures.                                                           |
@@ -150,7 +150,7 @@ Hide or show the body.
 
 ### *property* Body.ConfigurationId *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the related Result Mesh’s ConfigurationId.
+Gets the related Result Meshâ€™s ConfigurationId.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -158,7 +158,7 @@ Gets the related Result Mesh’s ConfigurationId.
 
 ### *property* Body.ResultMeshId *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the related Result Mesh’s ObjectId.
+Gets the related Result Meshâ€™s ObjectId.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -759,7 +759,7 @@ Gets or sets the CrossSectionSelection.
 
 ### *property* Body.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

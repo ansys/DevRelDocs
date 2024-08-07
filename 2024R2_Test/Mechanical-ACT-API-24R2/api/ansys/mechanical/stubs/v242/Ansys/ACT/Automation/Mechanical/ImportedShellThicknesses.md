@@ -40,7 +40,7 @@ Defines a ImportedShellThicknesses.
 | Name | Description |
 |--------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                       | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](#ImportedShellThicknesses.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#ImportedShellThicknesses.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Count`](#ImportedShellThicknesses.Count)                                     | Gets the NumberOfRows.                                        |
 | [`Suppressed`](#ImportedShellThicknesses.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`Children`](#ImportedShellThicknesses.Children)                               | Gets the list of children.                                    |
@@ -68,7 +68,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* ImportedShellThicknesses.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

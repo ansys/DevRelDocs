@@ -45,7 +45,7 @@ Defines a ContactPossibleOverconstraintTracker.
 | [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPossibleOverconstraintTracker.md#id0)                                                                           | Gets the internal object. For advanced usage only.            |
 | [`ContactSide`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPossibleOverconstraintTracker.md#ContactPossibleOverconstraintTracker.ContactSide)                                 | Gets or sets the ContactSide.                                 |
 | [`ContactRegion`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPossibleOverconstraintTracker.md#ContactPossibleOverconstraintTracker.ContactRegion)                             | Gets or sets the ContactRegion.                               |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPossibleOverconstraintTracker.md#ContactPossibleOverconstraintTracker.DataModelObjectCategory)         | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPossibleOverconstraintTracker.md#ContactPossibleOverconstraintTracker.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                  |
 | [`IsSolved`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPossibleOverconstraintTracker.md#ContactPossibleOverconstraintTracker.IsSolved)                                       | Gets the IsSolved.                                            |
 | [`ChartDimensions`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPossibleOverconstraintTracker.md#ContactPossibleOverconstraintTracker.ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
 | [`BoundaryCondition`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPossibleOverconstraintTracker.md#ContactPossibleOverconstraintTracker.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
@@ -126,7 +126,7 @@ Gets or sets the ContactRegion.
 
 ### *property* ContactPossibleOverconstraintTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

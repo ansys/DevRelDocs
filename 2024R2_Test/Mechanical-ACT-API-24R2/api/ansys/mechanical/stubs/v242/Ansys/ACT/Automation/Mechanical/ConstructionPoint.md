@@ -44,7 +44,7 @@ Defines a ConstructionPoint.
 | [`LocationX`](#ConstructionPoint.LocationX)                             | Gets or sets the LocationX.                                   |
 | [`LocationY`](#ConstructionPoint.LocationY)                             | Gets or sets the LocationY.                                   |
 | [`LocationZ`](#ConstructionPoint.LocationZ)                             | Gets or sets the LocationZ.                                   |
-| [`DataModelObjectCategory`](#ConstructionPoint.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#ConstructionPoint.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#ConstructionPoint.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#ConstructionPoint.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#ConstructionPoint.Figures)                                 | Gets the list of associated figures.                          |
@@ -99,7 +99,7 @@ Gets or sets the LocationZ.
 
 ### *property* ConstructionPoint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

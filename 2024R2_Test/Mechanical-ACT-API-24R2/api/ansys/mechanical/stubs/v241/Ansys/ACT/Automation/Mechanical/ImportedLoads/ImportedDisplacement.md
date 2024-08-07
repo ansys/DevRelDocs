@@ -49,7 +49,7 @@ Defines a ImportedDisplacement.
 | [`ApplyToInitialMesh`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedDisplacement.md#ImportedDisplacement.ApplyToInitialMesh)                                     | Gets or sets the ApplyToInitialMesh.                                                                    |
 | [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedDisplacement.md#id0)                                                                             | Gets the internal object. For advanced usage only.                                                      |
 | [`DisplacementType`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedDisplacement.md#ImportedDisplacement.DisplacementType)                                         | Gets or sets the DisplacementType.                                                                      |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedDisplacement.md#ImportedDisplacement.DataModelObjectCategory)                           | Gets the current DataModelObject’s category.                                                            |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedDisplacement.md#ImportedDisplacement.DataModelObjectCategory)                           | Gets the current DataModelObjectâ€™s category.                                                            |
 | [`Weighting`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedDisplacement.md#ImportedDisplacement.Weighting)                                                       | Weighting property.                                                                                     |
 | [`MappingControl`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedDisplacement.md#ImportedDisplacement.MappingControl)                                             | MappingControl property.                                                                                |
 | [`DisplaySourcePoints`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedDisplacement.md#ImportedDisplacement.DisplaySourcePoints)                                   | DisplaySourcePoints property.                                                                           |
@@ -132,7 +132,7 @@ Gets or sets the DisplacementType.
 
 ### *property* ImportedDisplacement.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

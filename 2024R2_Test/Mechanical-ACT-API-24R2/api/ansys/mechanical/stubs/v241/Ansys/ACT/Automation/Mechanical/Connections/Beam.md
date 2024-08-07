@@ -74,7 +74,7 @@ Defines a Beam.
 | [`MobileLocation`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/Beam.md#Beam.MobileLocation)                       | Gets or sets the MobileLocation.                              |
 | [`ReferenceLocationPoint`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/Beam.md#Beam.ReferenceLocationPoint)       | Gets or sets the ReferenceLocationPoint.                      |
 | [`ReferenceLocation`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/Beam.md#Beam.ReferenceLocation)                 | Gets or sets the ReferenceLocation.                           |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/Beam.md#Beam.DataModelObjectCategory)     | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/Beam.md#Beam.DataModelObjectCategory)     | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/Beam.md#Beam.Children)                                   | Gets the list of children.                                    |
 | [`Comments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/Beam.md#Beam.Comments)                                   | Gets the list of associated comments.                         |
 | [`Figures`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/Beam.md#Beam.Figures)                                     | Gets the list of associated figures.                          |
@@ -340,7 +340,7 @@ Gets or sets the ReferenceLocation.
 
 ### *property* Beam.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

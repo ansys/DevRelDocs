@@ -64,7 +64,7 @@ Pull method enables you to extrude or revolve element faces, topofaces or scoped
 | [`UseFeatureAngle`](#MeshExtrude.UseFeatureAngle)                   | To split side faces by speficied feature angle.                                                                                                                             |
 | [`CoordinateSystem`](#MeshExtrude.CoordinateSystem)                 | To generate elements in the specified coordinate system. The Coordinate System allows to select the Global Coordinate System by default.                                    |
 | [`UpToTarget`](#MeshExtrude.UpToTarget)                             | The target can be faces from solids or sheet bodies and multiple faces with sharing topoedge in Extrude UpTo.                                                               |
-| [`DataModelObjectCategory`](#MeshExtrude.DataModelObjectCategory)   | Gets the current DataModelObject’s category.                                                                                                                                |
+| [`DataModelObjectCategory`](#MeshExtrude.DataModelObjectCategory)   | Gets the current DataModelObjectâ€™s category.                                                                                                                                |
 | [`Children`](#MeshExtrude.Children)                                 | Gets the list of children.                                                                                                                                                  |
 | [`Comments`](#MeshExtrude.Comments)                                 | Gets the list of associated comments.                                                                                                                                       |
 | [`Figures`](#MeshExtrude.Figures)                                   | Gets the list of associated figures.                                                                                                                                        |
@@ -265,7 +265,7 @@ The target can be faces from solids or sheet bodies and multiple faces with shar
 
 ### *property* MeshExtrude.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

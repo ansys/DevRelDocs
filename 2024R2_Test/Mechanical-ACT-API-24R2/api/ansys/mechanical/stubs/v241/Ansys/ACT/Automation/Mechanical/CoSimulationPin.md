@@ -43,7 +43,7 @@ Defines a CoSimulationPin.
 | [`PinNature`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoSimulationPin.md#CoSimulationPin.PinNature)                             | Gets or sets the Pin Nature.                                  |
 | [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoSimulationPin.md#id0)                                              | Gets the internal object. For advanced usage only.            |
 | [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoSimulationPin.md#CoSimulationPin.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoSimulationPin.md#CoSimulationPin.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoSimulationPin.md#CoSimulationPin.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoSimulationPin.md#CoSimulationPin.Children)                               | Gets the list of children.                                    |
 | [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoSimulationPin.md#id0)                                              | Gets the internal object. For advanced usage only.            |
 | [`Properties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoSimulationPin.md#CoSimulationPin.Properties)                           | Gets the list of properties for this object.                  |
@@ -113,7 +113,7 @@ Gets or sets the Suppressed.
 
 ### *property* CoSimulationPin.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -59,7 +59,7 @@ Defines a SpotWeldConnection.
 | [`ShellThicknessEffect`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/SpotWeldConnection.md#SpotWeldConnection.ShellThicknessEffect)       | Gets or sets the ShellThicknessEffect.                        |
 | [`SourceGeometry`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/SpotWeldConnection.md#SpotWeldConnection.SourceGeometry)                   | Gets or sets the SourceGeometry.                              |
 | [`TargetGeometry`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/SpotWeldConnection.md#SpotWeldConnection.TargetGeometry)                   | Gets or sets the TargetGeometry.                              |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/SpotWeldConnection.md#SpotWeldConnection.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/SpotWeldConnection.md#SpotWeldConnection.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/SpotWeldConnection.md#SpotWeldConnection.Children)                               | Gets the list of children.                                    |
 | [`Comments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/SpotWeldConnection.md#SpotWeldConnection.Comments)                               | Gets the list of associated comments.                         |
 | [`Images`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/SpotWeldConnection.md#SpotWeldConnection.Images)                                   | Gets the list of associated images.                           |
@@ -196,7 +196,7 @@ Gets or sets the TargetGeometry.
 
 ### *property* SpotWeldConnection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

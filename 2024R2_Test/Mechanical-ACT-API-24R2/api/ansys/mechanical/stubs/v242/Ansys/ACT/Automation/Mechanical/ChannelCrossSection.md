@@ -49,7 +49,7 @@ Defines a ChannelCrossSection.
 | [`Width1`](#ChannelCrossSection.Width1)                                   | Gets or sets the Width1.                                      |
 | [`Width2`](#ChannelCrossSection.Width2)                                   | Gets or sets the Width2.                                      |
 | [`Width3`](#ChannelCrossSection.Width3)                                   | Gets or sets the Width3.                                      |
-| [`DataModelObjectCategory`](#ChannelCrossSection.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#ChannelCrossSection.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#ChannelCrossSection.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#ChannelCrossSection.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#ChannelCrossSection.Figures)                                 | Gets the list of associated figures.                          |
@@ -147,7 +147,7 @@ Gets or sets the Width3.
 
 ### *property* ChannelCrossSection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -48,7 +48,7 @@ Defines a FatigueSensitivity.
 | [`Sensitivity`](#FatigueSensitivity.Sensitivity)                         | Gets or sets the Sensitivity.                                 |
 | [`Suppressed`](#FatigueSensitivity.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`Location`](#FatigueSensitivity.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#FatigueSensitivity.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#FatigueSensitivity.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#FatigueSensitivity.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#FatigueSensitivity.Comments)                               | Gets the list of associated comments.                         |
 | [`Images`](#FatigueSensitivity.Images)                                   | Gets the list of associated images.                           |
@@ -136,7 +136,7 @@ Gets or sets the Location.
 
 ### *property* FatigueSensitivity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

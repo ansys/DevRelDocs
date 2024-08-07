@@ -52,7 +52,7 @@ Defines a ShearGasketTotalClosure.
 |---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                          | Gets the internal object. For advanced usage only.                     |
 | [`ShearOrientation`](#ShearGasketTotalClosure.ShearOrientation)                                   | Gets or sets the ShearOrientation.                                     |
-| [`DataModelObjectCategory`](#ShearGasketTotalClosure.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](#ShearGasketTotalClosure.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
 | [`GasketResultType`](#ShearGasketTotalClosure.GasketResultType)                                   | Gets or sets the GasketResultType.                                     |
 | [`PlotData`](#ShearGasketTotalClosure.PlotData)                                                   | Gets the result table.                                                 |
 | [`Location`](#ShearGasketTotalClosure.Location)                                                   | Gets or sets the Location.                                             |
@@ -133,7 +133,7 @@ Gets or sets the ShearOrientation.
 
 ### *property* ShearGasketTotalClosure.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

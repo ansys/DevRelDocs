@@ -44,7 +44,7 @@ Defines a VelocityPhaseResponse.
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/PhaseResponseResults/VelocityPhaseResponse.md#id0)                                                            | Gets the internal object. For advanced usage only.            |
 | [`ContactRegion`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/PhaseResponseResults/VelocityPhaseResponse.md#VelocityPhaseResponse.ContactRegion)                             | Gets or sets the ContactRegion.                               |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/PhaseResponseResults/VelocityPhaseResponse.md#VelocityPhaseResponse.DataModelObjectCategory)         | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/PhaseResponseResults/VelocityPhaseResponse.md#VelocityPhaseResponse.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                  |
 | [`IsSolved`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/PhaseResponseResults/VelocityPhaseResponse.md#VelocityPhaseResponse.IsSolved)                                       | Gets the IsSolved.                                            |
 | [`ChartDimensions`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/PhaseResponseResults/VelocityPhaseResponse.md#VelocityPhaseResponse.ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
 | [`BoundaryCondition`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/PhaseResponseResults/VelocityPhaseResponse.md#VelocityPhaseResponse.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
@@ -117,7 +117,7 @@ Gets or sets the ContactRegion.
 
 ### *property* VelocityPhaseResponse.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

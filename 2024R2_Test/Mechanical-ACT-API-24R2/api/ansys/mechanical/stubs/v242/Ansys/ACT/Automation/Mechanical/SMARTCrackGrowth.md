@@ -64,7 +64,7 @@ Defines a SMARTCrackGrowth.
 | [`StopCriterion`](#SMARTCrackGrowth.StopCriterion)                               | Gets or sets the StopCriterion.                               |
 | [`Suppressed`](#SMARTCrackGrowth.Suppressed)                                     | Gets or sets the Suppressed.                                  |
 | [`InitialCrack`](#SMARTCrackGrowth.InitialCrack)                                 | Gets or sets the InitialCrack.                                |
-| [`DataModelObjectCategory`](#SMARTCrackGrowth.DataModelObjectCategory)           | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#SMARTCrackGrowth.DataModelObjectCategory)           | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#SMARTCrackGrowth.Children)                                         | Gets the list of children.                                    |
 | [`Comments`](#SMARTCrackGrowth.Comments)                                         | Gets the list of associated comments.                         |
 | [`Figures`](#SMARTCrackGrowth.Figures)                                           | Gets the list of associated figures.                          |
@@ -274,7 +274,7 @@ Gets or sets the InitialCrack.
 
 ### *property* SMARTCrackGrowth.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

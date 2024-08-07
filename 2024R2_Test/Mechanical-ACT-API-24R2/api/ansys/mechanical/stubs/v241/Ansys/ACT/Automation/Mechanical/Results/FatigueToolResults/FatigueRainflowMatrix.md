@@ -48,7 +48,7 @@ Defines a FatigueRainflowMatrix.
 | [`MinimumRange`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueRainflowMatrix.md#FatigueRainflowMatrix.MinimumRange)                               | Gets the MinimumRange.                                        |
 | [`MinimumMean`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueRainflowMatrix.md#FatigueRainflowMatrix.MinimumMean)                                 | Gets the MinimumMean.                                         |
 | [`OutputUnit`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueRainflowMatrix.md#FatigueRainflowMatrix.OutputUnit)                                   | Gets or sets the OutputUnit.                                  |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueRainflowMatrix.md#FatigueRainflowMatrix.DataModelObjectCategory)         | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueRainflowMatrix.md#FatigueRainflowMatrix.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                  |
 | [`IsSolved`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueRainflowMatrix.md#FatigueRainflowMatrix.IsSolved)                                       | Gets the IsSolved.                                            |
 | [`ChartDimensions`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueRainflowMatrix.md#FatigueRainflowMatrix.ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
 | [`BoundaryCondition`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueRainflowMatrix.md#FatigueRainflowMatrix.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
@@ -153,7 +153,7 @@ Gets or sets the OutputUnit.
 
 ### *property* FatigueRainflowMatrix.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

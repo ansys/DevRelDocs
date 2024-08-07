@@ -46,7 +46,7 @@ Defines a ExternalEnhancedModel.
 | [`NonlinearEffects`](#ExternalEnhancedModel.NonlinearEffects)               | Gets or sets the NonlinearEffects.                            |
 | [`Suppressed`](#ExternalEnhancedModel.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`ThermalStrainEffects`](#ExternalEnhancedModel.ThermalStrainEffects)       | Gets or sets the ThermalStrainEffects.                        |
-| [`DataModelObjectCategory`](#ExternalEnhancedModel.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#ExternalEnhancedModel.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#ExternalEnhancedModel.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#ExternalEnhancedModel.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#ExternalEnhancedModel.Figures)                                 | Gets the list of associated figures.                          |
@@ -119,7 +119,7 @@ Gets or sets the ThermalStrainEffects.
 
 ### *property* ExternalEnhancedModel.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

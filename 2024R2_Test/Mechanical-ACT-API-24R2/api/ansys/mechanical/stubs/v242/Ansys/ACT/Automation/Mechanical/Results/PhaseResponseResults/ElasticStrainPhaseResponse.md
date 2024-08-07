@@ -44,7 +44,7 @@ Defines a ElasticStrainPhaseResponse.
 |------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                 | Gets the internal object. For advanced usage only.            |
 | [`ContactRegion`](#ElasticStrainPhaseResponse.ContactRegion)                             | Gets or sets the ContactRegion.                               |
-| [`DataModelObjectCategory`](#ElasticStrainPhaseResponse.DataModelObjectCategory)         | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#ElasticStrainPhaseResponse.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                  |
 | [`IsSolved`](#ElasticStrainPhaseResponse.IsSolved)                                       | Gets the IsSolved.                                            |
 | [`ChartDimensions`](#ElasticStrainPhaseResponse.ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
 | [`BoundaryCondition`](#ElasticStrainPhaseResponse.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
@@ -117,7 +117,7 @@ Gets or sets the ContactRegion.
 
 ### *property* ElasticStrainPhaseResponse.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

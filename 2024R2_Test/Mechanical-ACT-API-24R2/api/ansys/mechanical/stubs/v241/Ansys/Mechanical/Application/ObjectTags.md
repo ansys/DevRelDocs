@@ -6,7 +6,7 @@
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
-Defines the collection of Mechanical’s tags.
+Defines the collection of Mechanicalâ€™s tags.
 
 <!-- !! processed by numpydoc !! -->
 

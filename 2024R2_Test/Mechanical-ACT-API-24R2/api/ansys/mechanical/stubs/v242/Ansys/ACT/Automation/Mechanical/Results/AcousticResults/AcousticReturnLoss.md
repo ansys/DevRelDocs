@@ -55,7 +55,7 @@ Defines a AcousticReturnLoss.
 | [`MaximumFrequency`](#AcousticReturnLoss.MaximumFrequency)                                   | Gets or sets the MaximumFrequency.                                     |
 | [`MinimumFrequency`](#AcousticReturnLoss.MinimumFrequency)                                   | Gets or sets the MinimumFrequency.                                     |
 | [`FrequencyRange`](#AcousticReturnLoss.FrequencyRange)                                       | Gets or sets the FrequencyRange.                                       |
-| [`DataModelObjectCategory`](#AcousticReturnLoss.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](#AcousticReturnLoss.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
 | [`Mode`](#AcousticReturnLoss.Mode)                                                           | Gets or sets the Mode.                                                 |
 | [`ReportedFrequency`](#AcousticReturnLoss.ReportedFrequency)                                 | Gets the ReportedFrequency.                                            |
 | [`DampedFrequency`](#AcousticReturnLoss.DampedFrequency)                                     | Gets the DampedFrequency.                                              |
@@ -168,7 +168,7 @@ Gets or sets the FrequencyRange.
 
 ### *property* AcousticReturnLoss.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

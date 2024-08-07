@@ -51,7 +51,7 @@ Defines a LayeredSection.
 | [`Suppressed`](#LayeredSection.Suppressed)                                     | Gets or sets the Suppressed.                                  |
 | [`ThermalStrainEffects`](#LayeredSection.ThermalStrainEffects)                 | Gets or sets the ThermalStrainEffects.                        |
 | [`Location`](#LayeredSection.Location)                                         | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#LayeredSection.DataModelObjectCategory)           | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#LayeredSection.DataModelObjectCategory)           | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#LayeredSection.Children)                                         | Gets the list of children.                                    |
 | [`Comments`](#LayeredSection.Comments)                                         | Gets the list of associated comments.                         |
 | [`Figures`](#LayeredSection.Figures)                                           | Gets the list of associated figures.                          |
@@ -165,7 +165,7 @@ Gets or sets the Location.
 
 ### *property* LayeredSection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

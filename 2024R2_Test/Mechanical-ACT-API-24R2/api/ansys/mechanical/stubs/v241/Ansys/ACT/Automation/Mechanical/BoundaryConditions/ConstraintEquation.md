@@ -41,7 +41,7 @@ Defines a ConstraintEquation.
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ConstraintEquation.md#id0)                                                 | Gets the internal object. For advanced usage only.            |
 | [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ConstraintEquation.md#ConstraintEquation.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ConstraintEquation.md#ConstraintEquation.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ConstraintEquation.md#ConstraintEquation.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ConstraintEquation.md#ConstraintEquation.Children)                               | Gets the list of children.                                    |
 | [`Comments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ConstraintEquation.md#ConstraintEquation.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ConstraintEquation.md#ConstraintEquation.Figures)                                 | Gets the list of associated figures.                          |
@@ -73,7 +73,7 @@ Gets or sets the Suppressed.
 
 ### *property* ConstraintEquation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

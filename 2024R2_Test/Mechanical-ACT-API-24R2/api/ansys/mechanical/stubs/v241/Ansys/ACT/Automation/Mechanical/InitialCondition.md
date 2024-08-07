@@ -84,7 +84,7 @@ Defines a InitialCondition.
 | [`CoordinateSystem`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InitialCondition.md#InitialCondition.CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
 | [`PreStressEnvironmentTransientMSUPModal`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InitialCondition.md#InitialCondition.PreStressEnvironmentTransientMSUPModal) | Gets the PreStressEnvironmentTransientMSUPModal.              |
 | [`Location`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InitialCondition.md#InitialCondition.Location)                                                             | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InitialCondition.md#InitialCondition.DataModelObjectCategory)                               | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InitialCondition.md#InitialCondition.DataModelObjectCategory)                               | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InitialCondition.md#InitialCondition.Children)                                                             | Gets the list of children.                                    |
 | [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InitialCondition.md#InitialCondition.Comments)                                                             | Gets the list of associated comments.                         |
 | [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InitialCondition.md#InitialCondition.Figures)                                                               | Gets the list of associated figures.                          |
@@ -453,7 +453,7 @@ Gets or sets the Location.
 
 ### *property* InitialCondition.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

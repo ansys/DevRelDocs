@@ -6,7 +6,7 @@
 
 Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
-This enum is referenced in the “Outcome” tree node and reflects the type of outcome being configured. Based on the type of an outcome different rules are applied which define the applicable list of outcome data to be used.
+This enum is referenced in the â€œOutcomeâ€ tree node and reflects the type of outcome being configured. Based on the type of an outcome different rules are applied which define the applicable list of outcome data to be used.
 
 <!-- !! processed by numpydoc !! -->
 

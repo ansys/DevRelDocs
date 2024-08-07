@@ -43,7 +43,7 @@ Defines a PredefinedAMSupport.
 | [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/PredefinedAMSupport.md#id0)                                                                | Gets the internal object. For advanced usage only.            |
 | [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/PredefinedAMSupport.md#PredefinedAMSupport.Suppressed)                                         | Gets or sets the Suppressed.                                  |
 | [`Location`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/PredefinedAMSupport.md#PredefinedAMSupport.Location)                                             | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/PredefinedAMSupport.md#PredefinedAMSupport.DataModelObjectCategory)               | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/PredefinedAMSupport.md#PredefinedAMSupport.DataModelObjectCategory)               | Gets the current DataModelObjectâ€™s category.                  |
 | [`ThermalConductivityMultipleInX`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/PredefinedAMSupport.md#PredefinedAMSupport.ThermalConductivityMultipleInX) | Gets or sets the ThermalConductivityMultipleInX.              |
 | [`ThermalConductivityMultipleInY`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/PredefinedAMSupport.md#PredefinedAMSupport.ThermalConductivityMultipleInY) | Gets or sets the ThermalConductivityMultipleInY.              |
 | [`ThermalConductivityMultipleInZ`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/PredefinedAMSupport.md#PredefinedAMSupport.ThermalConductivityMultipleInZ) | Gets or sets the ThermalConductivityMultipleInZ.              |
@@ -100,7 +100,7 @@ Gets or sets the Location.
 
 ### *property* PredefinedAMSupport.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

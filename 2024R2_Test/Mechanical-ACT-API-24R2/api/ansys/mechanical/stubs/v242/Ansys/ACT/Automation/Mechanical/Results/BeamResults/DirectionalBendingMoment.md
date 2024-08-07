@@ -52,7 +52,7 @@ Defines a DirectionalBendingMoment.
 |----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                           | Gets the internal object. For advanced usage only.                     |
 | [`NormalOrientation`](#DirectionalBendingMoment.NormalOrientation)                                 | Gets or sets the NormalOrientation.                                    |
-| [`DataModelObjectCategory`](#DirectionalBendingMoment.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](#DirectionalBendingMoment.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
 | [`BeamResultType`](#DirectionalBendingMoment.BeamResultType)                                       | Gets or sets the BeamResultType.                                       |
 | [`PlotData`](#DirectionalBendingMoment.PlotData)                                                   | Gets the result table.                                                 |
 | [`Location`](#DirectionalBendingMoment.Location)                                                   | Gets or sets the Location.                                             |
@@ -133,7 +133,7 @@ Gets or sets the NormalOrientation.
 
 ### *property* DirectionalBendingMoment.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

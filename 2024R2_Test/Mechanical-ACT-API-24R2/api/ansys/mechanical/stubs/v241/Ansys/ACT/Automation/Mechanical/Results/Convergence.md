@@ -44,7 +44,7 @@ Defines a Convergence.
 | [`AllowableChange`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/Convergence.md#Convergence.AllowableChange)                 | Gets or sets the AllowableChange.                             |
 | [`Type`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/Convergence.md#Convergence.Type)                                       | Gets or sets the Type.                                        |
 | [`IsConverged`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/Convergence.md#Convergence.IsConverged)                         | Gets the IsConverged.                                         |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/Convergence.md#Convergence.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/Convergence.md#Convergence.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/Convergence.md#Convergence.Children)                               | Gets the list of children.                                    |
 | [`Comments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/Convergence.md#Convergence.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/Convergence.md#Convergence.Figures)                                 | Gets the list of associated figures.                          |
@@ -101,7 +101,7 @@ Gets the IsConverged.
 
 ### *property* Convergence.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

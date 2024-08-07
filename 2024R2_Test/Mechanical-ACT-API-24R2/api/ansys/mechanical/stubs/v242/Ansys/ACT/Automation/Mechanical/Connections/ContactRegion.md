@@ -148,7 +148,7 @@ Defines a ContactRegion.
 | [`TargetStartingPoint`](#ContactRegion.TargetStartingPoint)                             | Gets or sets the TargetStartingPoint.                         |
 | [`SharedSourceReverseNormalLocation`](#ContactRegion.SharedSourceReverseNormalLocation) | Gets or sets the SharedSourceReverseNormalLocation.           |
 | [`SharedTargetReverseNormalLocation`](#ContactRegion.SharedTargetReverseNormalLocation) | Gets or sets the SharedTargetReverseNormalLocation.           |
-| [`DataModelObjectCategory`](#ContactRegion.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#ContactRegion.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#ContactRegion.Children)                                                   | Gets the list of children.                                    |
 | [`Comments`](#ContactRegion.Comments)                                                   | Gets the list of associated comments.                         |
 | [`Figures`](#ContactRegion.Figures)                                                     | Gets the list of associated figures.                          |
@@ -942,7 +942,7 @@ Gets or sets the SharedTargetReverseNormalLocation.
 
 ### *property* ContactRegion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

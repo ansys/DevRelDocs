@@ -43,7 +43,7 @@ Defines a RotationBoundaryCondition.
 | [`InternalObject`](#id0)                                                        | Gets the internal object. For advanced usage only.            |
 | [`NumberOfSegments`](#RotationBoundaryCondition.NumberOfSegments)               | Gets or sets the NumberOfSegments.                            |
 | [`Suppressed`](#RotationBoundaryCondition.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`DataModelObjectCategory`](#RotationBoundaryCondition.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#RotationBoundaryCondition.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#RotationBoundaryCondition.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#RotationBoundaryCondition.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#RotationBoundaryCondition.Figures)                                 | Gets the list of associated figures.                          |
@@ -93,7 +93,7 @@ Gets or sets the Suppressed.
 
 ### *property* RotationBoundaryCondition.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

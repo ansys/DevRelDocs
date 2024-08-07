@@ -44,7 +44,7 @@ Defines a GeometryFidelity.
 | [`InternalObject`](#id0)                                               | Gets the internal object. For advanced usage only.            |
 | [`NamedSelection`](#GeometryFidelity.NamedSelection)                   | Gets or sets the NamedSelection.                              |
 | [`Location`](#GeometryFidelity.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#GeometryFidelity.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#GeometryFidelity.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`ScopingMethod`](#GeometryFidelity.ScopingMethod)                     | Gets or sets the ScopingMethod.                               |
 | [`Suppressed`](#GeometryFidelity.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`Children`](#GeometryFidelity.Children)                               | Gets the list of children.                                    |
@@ -87,7 +87,7 @@ Gets or sets the Location.
 
 ### *property* GeometryFidelity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -49,7 +49,7 @@ Defines a TemperatureTracker.
 | [`ScopingMethod`](#TemperatureTracker.ScopingMethod)                             | Gets or sets the ScopingMethod.                               |
 | [`LocationMethod`](#TemperatureTracker.LocationMethod)                           | Gets or sets the LocationMethod.                              |
 | [`LocationCoordinateSystem`](#TemperatureTracker.LocationCoordinateSystem)       | Gets or sets the LocationCoordinateSystem.                    |
-| [`DataModelObjectCategory`](#TemperatureTracker.DataModelObjectCategory)         | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#TemperatureTracker.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                  |
 | [`IsSolved`](#TemperatureTracker.IsSolved)                                       | Gets the IsSolved.                                            |
 | [`ChartDimensions`](#TemperatureTracker.ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
 | [`BoundaryCondition`](#TemperatureTracker.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
@@ -162,7 +162,7 @@ Gets or sets the LocationCoordinateSystem.
 
 ### *property* TemperatureTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

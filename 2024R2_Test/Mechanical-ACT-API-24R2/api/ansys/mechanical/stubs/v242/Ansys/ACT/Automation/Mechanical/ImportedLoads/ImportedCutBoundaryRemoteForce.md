@@ -23,7 +23,7 @@ Defines a ImportedCutBoundaryRemoteForce.
 | [`ExportToTextFile`](#ImportedCutBoundaryRemoteForce.ExportToTextFile)               | Run the ExportToTextFile action.                                                        |
 | [`Import`](#ImportedCutBoundaryRemoteForce.Import)                                   | Import.                                                                                 |
 | [`ImportLoad`](#ImportedCutBoundaryRemoteForce.ImportLoad)                           | Run the ImportLoad action.                                                              |
-| [`ReloadConfiguration`](#ImportedCutBoundaryRemoteForce.ReloadConfiguration)         | Reload the Imported Load’s setup from its associated configuration file (if available). |
+| [`ReloadConfiguration`](#ImportedCutBoundaryRemoteForce.ReloadConfiguration)         | Reload the Imported Loadâ€™s setup from its associated configuration file (if available). |
 | [`AddMappingValidation`](#ImportedCutBoundaryRemoteForce.AddMappingValidation)       | Creates a new MappingValidation                                                         |
 | [`ClearGeneratedData`](#ImportedCutBoundaryRemoteForce.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                      |
 | [`Delete`](#ImportedCutBoundaryRemoteForce.Delete)                                   | Run the Delete action.                                                                  |
@@ -48,7 +48,7 @@ Defines a ImportedCutBoundaryRemoteForce.
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                                       | Gets the internal object. For advanced usage only.                                                      |
-| [`DataModelObjectCategory`](#ImportedCutBoundaryRemoteForce.DataModelObjectCategory)                           | Gets the current DataModelObject’s category.                                                            |
+| [`DataModelObjectCategory`](#ImportedCutBoundaryRemoteForce.DataModelObjectCategory)                           | Gets the current DataModelObjectâ€™s category.                                                            |
 | [`Weighting`](#ImportedCutBoundaryRemoteForce.Weighting)                                                       | Weighting property.                                                                                     |
 | [`MappingControl`](#ImportedCutBoundaryRemoteForce.MappingControl)                                             | MappingControl property.                                                                                |
 | [`DisplaySourcePoints`](#ImportedCutBoundaryRemoteForce.DisplaySourcePoints)                                   | DisplaySourcePoints property.                                                                           |
@@ -115,7 +115,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* ImportedCutBoundaryRemoteForce.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -559,7 +559,7 @@ Run the ImportLoad action.
 
 ### ImportedCutBoundaryRemoteForce.ReloadConfiguration()
 
-Reload the Imported Load’s setup from its associated configuration file (if available).
+Reload the Imported Loadâ€™s setup from its associated configuration file (if available).
 
 <!-- !! processed by numpydoc !! -->
 

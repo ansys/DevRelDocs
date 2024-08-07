@@ -45,7 +45,7 @@ Defines a CylindricalSupport.
 | [`Radial`](#CylindricalSupport.Radial)                                   | Gets or sets the Radial.                                      |
 | [`Tangential`](#CylindricalSupport.Tangential)                           | Gets or sets the Tangential.                                  |
 | [`Location`](#CylindricalSupport.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#CylindricalSupport.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#CylindricalSupport.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Suppressed`](#CylindricalSupport.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#CylindricalSupport.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
 | [`Children`](#CylindricalSupport.Children)                               | Gets the list of children.                                    |
@@ -105,7 +105,7 @@ Gets or sets the Location.
 
 ### *property* CylindricalSupport.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

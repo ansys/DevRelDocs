@@ -51,7 +51,7 @@ Defines a AcousticFrequencyBandAWeightedSPL.
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                                    | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](#AcousticFrequencyBandAWeightedSPL.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](#AcousticFrequencyBandAWeightedSPL.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
 | [`Mode`](#AcousticFrequencyBandAWeightedSPL.Mode)                                                           | Gets or sets the Mode.                                                 |
 | [`ReportedFrequency`](#AcousticFrequencyBandAWeightedSPL.ReportedFrequency)                                 | Gets the ReportedFrequency.                                            |
 | [`DampedFrequency`](#AcousticFrequencyBandAWeightedSPL.DampedFrequency)                                     | Gets the DampedFrequency.                                              |
@@ -132,7 +132,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* AcousticFrequencyBandAWeightedSPL.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

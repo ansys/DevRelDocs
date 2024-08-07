@@ -61,7 +61,7 @@ Defines a TopologyOptimizationResult.
 | [`ExclusionsParticipation`](#TopologyOptimizationResult.ExclusionsParticipation) | Gets or sets the ExclusionsParticipation.                     |
 | [`Suppressed`](#TopologyOptimizationResult.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`Selection`](#TopologyOptimizationResult.Selection)                             | Gets or sets the Selection.                                   |
-| [`DataModelObjectCategory`](#TopologyOptimizationResult.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#TopologyOptimizationResult.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#TopologyOptimizationResult.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#TopologyOptimizationResult.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#TopologyOptimizationResult.Figures)                                 | Gets the list of associated figures.                          |
@@ -222,7 +222,7 @@ Gets or sets the Selection.
 
 ### *property* TopologyOptimizationResult.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

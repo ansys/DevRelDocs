@@ -6,7 +6,7 @@
 
 Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
-This enum is referenced in the “Step” tree node and reflects the type of operation being configured. Based on the type of an operation different rules are applied which define the applicable list of controls and outcomes which can be added.
+This enum is referenced in the â€œStepâ€ tree node and reflects the type of operation being configured. Based on the type of an operation different rules are applied which define the applicable list of controls and outcomes which can be added.
 
 <!-- !! processed by numpydoc !! -->
 

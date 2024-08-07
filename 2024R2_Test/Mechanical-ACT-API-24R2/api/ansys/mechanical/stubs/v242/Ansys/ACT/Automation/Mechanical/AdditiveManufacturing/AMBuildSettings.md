@@ -89,7 +89,7 @@ Defines a AMBuildSettings.
 | [`ScanPatternDefinition`](#AMBuildSettings.ScanPatternDefinition)                             | Gets or sets the ScanPatternDefinition.                                                        |
 | [`ThermalStrainMethod`](#AMBuildSettings.ThermalStrainMethod)                                 | Gets or sets the ThermalStrainMethod.                                                          |
 | [`InherentStrain`](#AMBuildSettings.InherentStrain)                                           | Gets or sets the InherentStrain.                                                               |
-| [`DataModelObjectCategory`](#AMBuildSettings.DataModelObjectCategory)                         | Gets the current DataModelObject’s category.                                                   |
+| [`DataModelObjectCategory`](#AMBuildSettings.DataModelObjectCategory)                         | Gets the current DataModelObjectâ€™s category.                                                   |
 | [`Children`](#AMBuildSettings.Children)                                                       | Gets the list of children.                                                                     |
 | [`Comments`](#AMBuildSettings.Comments)                                                       | Gets the list of associated comments.                                                          |
 | [`Figures`](#AMBuildSettings.Figures)                                                         | Gets the list of associated figures.                                                           |
@@ -482,7 +482,7 @@ Gets or sets the InherentStrain.
 
 ### *property* AMBuildSettings.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

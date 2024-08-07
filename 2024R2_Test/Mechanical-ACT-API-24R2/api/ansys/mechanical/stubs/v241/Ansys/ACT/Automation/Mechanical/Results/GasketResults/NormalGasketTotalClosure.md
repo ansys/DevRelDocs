@@ -51,7 +51,7 @@ Defines a NormalGasketTotalClosure.
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/GasketResults/NormalGasketTotalClosure.md#id0)                                                                           | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/GasketResults/NormalGasketTotalClosure.md#NormalGasketTotalClosure.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/GasketResults/NormalGasketTotalClosure.md#NormalGasketTotalClosure.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
 | [`GasketResultType`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/GasketResults/NormalGasketTotalClosure.md#NormalGasketTotalClosure.GasketResultType)                                   | Gets or sets the GasketResultType.                                     |
 | [`PlotData`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/GasketResults/NormalGasketTotalClosure.md#NormalGasketTotalClosure.PlotData)                                                   | Gets the result table.                                                 |
 | [`Location`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/GasketResults/NormalGasketTotalClosure.md#NormalGasketTotalClosure.Location)                                                   | Gets or sets the Location.                                             |
@@ -123,7 +123,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* NormalGasketTotalClosure.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

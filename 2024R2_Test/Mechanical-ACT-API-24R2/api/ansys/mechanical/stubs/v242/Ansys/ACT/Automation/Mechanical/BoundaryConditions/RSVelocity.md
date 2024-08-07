@@ -41,7 +41,7 @@ Defines a RSVelocity.
 |----------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                   | Gets the internal object. For advanced usage only.            |
 | [`LoadData`](#RSVelocity.LoadData)                                         | Gets or sets the LoadData.                                    |
-| [`DataModelObjectCategory`](#RSVelocity.DataModelObjectCategory)           | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#RSVelocity.DataModelObjectCategory)           | Gets the current DataModelObjectâ€™s category.                  |
 | [`BoundaryCondition`](#RSVelocity.BoundaryCondition)                       | Gets or sets the BoundaryCondition.                           |
 | [`ScaleFactor`](#RSVelocity.ScaleFactor)                                   | Gets or sets the ScaleFactor.                                 |
 | [`MissingMassEffectZPA`](#RSVelocity.MissingMassEffectZPA)                 | Gets or sets the MissingMassEffectZPA.                        |
@@ -85,7 +85,7 @@ Gets or sets the LoadData.
 
 ### *property* RSVelocity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -64,7 +64,7 @@ Defines a AcousticIncidentWaveSource.
 | [`WaveType`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticIncidentWaveSource.md#AcousticIncidentWaveSource.WaveType)                                         | Gets or sets the WaveType.                                    |
 | [`CalculateIncidentPower`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticIncidentWaveSource.md#AcousticIncidentWaveSource.CalculateIncidentPower)             | Gets or sets the CalculateIncidentPower.                      |
 | [`PortSelection`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticIncidentWaveSource.md#AcousticIncidentWaveSource.PortSelection)                               | Gets or sets the PortSelection.                               |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticIncidentWaveSource.md#AcousticIncidentWaveSource.DataModelObjectCategory)           | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticIncidentWaveSource.md#AcousticIncidentWaveSource.DataModelObjectCategory)           | Gets the current DataModelObjectâ€™s category.                  |
 | [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticIncidentWaveSource.md#AcousticIncidentWaveSource.Suppressed)                                     | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticIncidentWaveSource.md#AcousticIncidentWaveSource.SharedRefBody)                               | Gets or sets the SharedRefBody.                               |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticIncidentWaveSource.md#AcousticIncidentWaveSource.Children)                                         | Gets the list of children.                                    |
@@ -276,7 +276,7 @@ Gets or sets the PortSelection.
 
 ### *property* AcousticIncidentWaveSource.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 
