@@ -53,7 +53,7 @@ Defines a AcousticFarFieldSPLMicWaterfallDiagram.
 | Name | Description |
 |--------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                                           | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](#AcousticFarFieldSPLMicWaterfallDiagram.DataModelObjectCategory)                       | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](#AcousticFarFieldSPLMicWaterfallDiagram.DataModelObjectCategory)                       | Gets the current DataModelObject's category.                           |
 | [`FarFieldMicrophoneDefinitionMethod`](#AcousticFarFieldSPLMicWaterfallDiagram.FarFieldMicrophoneDefinitionMethod) | Gets or sets the FarFieldMicrophoneDefinitionMethod.                   |
 | [`Worksheet`](#AcousticFarFieldSPLMicWaterfallDiagram.Worksheet)                                                   | Get the ObjectiveWorksheet action.                                     |
 | [`ReportedFrequency`](#AcousticFarFieldSPLMicWaterfallDiagram.ReportedFrequency)                                   | Gets the ReportedFrequency.                                            |
@@ -155,7 +155,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* AcousticFarFieldSPLMicWaterfallDiagram.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

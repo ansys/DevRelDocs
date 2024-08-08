@@ -41,7 +41,7 @@ Defines a PSDGAcceleration.
 |------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                               | Gets the internal object. For advanced usage only.            |
 | [`LoadData`](#PSDGAcceleration.LoadData)                               | Gets or sets the LoadData.                                    |
-| [`DataModelObjectCategory`](#PSDGAcceleration.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#PSDGAcceleration.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`BoundaryCondition`](#PSDGAcceleration.BoundaryCondition)             | Gets or sets the BoundaryCondition.                           |
 | [`Direction`](#PSDGAcceleration.Direction)                             | Gets or sets the Direction.                                   |
 | [`Suppressed`](#PSDGAcceleration.Suppressed)                           | Gets or sets the Suppressed.                                  |
@@ -77,7 +77,7 @@ Gets or sets the LoadData.
 
 ### *property* PSDGAcceleration.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

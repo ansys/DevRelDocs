@@ -52,7 +52,7 @@ Defines a DirectionalCurrentDensity.
 |-----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                            | Gets the internal object. For advanced usage only.                     |
 | [`NormalOrientation`](#DirectionalCurrentDensity.NormalOrientation)                                 | Gets or sets the NormalOrientation.                                    |
-| [`DataModelObjectCategory`](#DirectionalCurrentDensity.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](#DirectionalCurrentDensity.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`ReportedFrequency`](#DirectionalCurrentDensity.ReportedFrequency)                                 | Gets the ReportedFrequency.                                            |
 | [`SweepingPhase`](#DirectionalCurrentDensity.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
 | [`PhaseIncrement`](#DirectionalCurrentDensity.PhaseIncrement)                                       | Gets or sets the PhaseIncrement.                                       |
@@ -139,7 +139,7 @@ Gets or sets the NormalOrientation.
 
 ### *property* DirectionalCurrentDensity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

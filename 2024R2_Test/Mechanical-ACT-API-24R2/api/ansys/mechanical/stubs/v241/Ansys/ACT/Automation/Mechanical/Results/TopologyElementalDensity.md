@@ -45,7 +45,7 @@ Defines a TopologyElementalDensity.
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/TopologyElementalDensity.md#id0)                                                       | Gets the internal object. For advanced usage only.            |
 | [`RetainedThreshold`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/TopologyElementalDensity.md#TopologyElementalDensity.RetainedThreshold)             | Gets or sets the RetainedThreshold.                           |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/TopologyElementalDensity.md#TopologyElementalDensity.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/TopologyElementalDensity.md#TopologyElementalDensity.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Location`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/TopologyElementalDensity.md#TopologyElementalDensity.Location)                               | Gets or sets the Location.                                    |
 | [`IterationNumber`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/TopologyElementalDensity.md#TopologyElementalDensity.IterationNumber)                 | Gets the IterationNumber.                                     |
 | [`IterationStep`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/TopologyElementalDensity.md#TopologyElementalDensity.IterationStep)                     | Gets or sets the IterationStep.                               |
@@ -95,7 +95,7 @@ Gets or sets the RetainedThreshold.
 
 ### *property* TopologyElementalDensity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

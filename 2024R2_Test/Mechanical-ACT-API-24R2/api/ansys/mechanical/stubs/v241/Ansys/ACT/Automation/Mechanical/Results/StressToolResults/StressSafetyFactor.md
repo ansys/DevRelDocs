@@ -51,7 +51,7 @@ Defines a StressSafetyFactor.
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StressToolResults/StressSafetyFactor.md#id0)                                                                     | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StressToolResults/StressSafetyFactor.md#StressSafetyFactor.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StressToolResults/StressSafetyFactor.md#StressSafetyFactor.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`AverageAcrossBodies`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StressToolResults/StressSafetyFactor.md#StressSafetyFactor.AverageAcrossBodies)                             | Gets or sets the AverageAcrossBodies.                                  |
 | [`PlotData`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StressToolResults/StressSafetyFactor.md#StressSafetyFactor.PlotData)                                                   | Gets the result table.                                                 |
 | [`Location`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StressToolResults/StressSafetyFactor.md#StressSafetyFactor.Location)                                                   | Gets or sets the Location.                                             |
@@ -123,7 +123,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* StressSafetyFactor.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

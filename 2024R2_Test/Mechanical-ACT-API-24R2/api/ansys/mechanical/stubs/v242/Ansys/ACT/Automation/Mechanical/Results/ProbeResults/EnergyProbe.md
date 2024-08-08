@@ -83,12 +83,12 @@ Defines a EnergyProbe.
 | [`StrainEnergy`](#EnergyProbe.StrainEnergy)                                         | Gets the StrainEnergy.                                                                                                                                                     |
 | [`TotalEnergy`](#EnergyProbe.TotalEnergy)                                           | Gets the TotalEnergy.                                                                                                                                                      |
 | [`By`](#EnergyProbe.By)                                                             | Gets or sets the By.                                                                                                                                                       |
-| [`DataModelObjectCategory`](#EnergyProbe.DataModelObjectCategory)                   | Gets the current DataModelObjectâ€™s category.                                                                                                                               |
+| [`DataModelObjectCategory`](#EnergyProbe.DataModelObjectCategory)                   | Gets the current DataModelObject's category.                                                                                                                               |
 | [`Summation`](#EnergyProbe.Summation)                                               | Gets or sets the Summation.                                                                                                                                                |
 | [`LocationMethod`](#EnergyProbe.LocationMethod)                                     | Gets or sets the LocationMethod.                                                                                                                                           |
 | [`GeometryLocation`](#EnergyProbe.GeometryLocation)                                 | Gets or sets the GeometryLocation.                                                                                                                                         |
 | [`CoordinateSystemSelection`](#EnergyProbe.CoordinateSystemSelection)               | Gets or sets the CoordinateSystemSelection.                                                                                                                                |
-| [`BoundaryConditionSelection`](#EnergyProbe.BoundaryConditionSelection)             | Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSpringsâ€™, please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSpringsâ€™. |
+| [`BoundaryConditionSelection`](#EnergyProbe.BoundaryConditionSelection)             | Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSprings', please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSprings'. |
 | [`ContactRegionSelection`](#EnergyProbe.ContactRegionSelection)                     | Gets or sets the ContactRegionSelection.                                                                                                                                   |
 | [`RemotePointSelection`](#EnergyProbe.RemotePointSelection)                         | Gets or sets the RemotePointSelection.                                                                                                                                     |
 | [`BeamSelection`](#EnergyProbe.BeamSelection)                                       | Gets or sets the BeamSelection.                                                                                                                                            |
@@ -440,7 +440,7 @@ Gets or sets the By.
 
 ### *property* EnergyProbe.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -480,7 +480,7 @@ Gets or sets the CoordinateSystemSelection.
 
 ### *property* EnergyProbe.BoundaryConditionSelection *: Ansys.ACT.Automation.Mechanical.DataModelObject | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSpringsâ€™, please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSpringsâ€™.
+Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSprings', please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSprings'.
 
 <!-- !! processed by numpydoc !! -->
 

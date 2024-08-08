@@ -30,7 +30,7 @@ ViewOptions class.
 | [`ShowShellThickness`](../../../../v242/Ansys/Mechanical/Graphics/ViewOptions.md#ViewOptions.ShowShellThickness)                 | Displays the thickness of shells.                                                       |
 | [`ShowBeamThickness`](../../../../v242/Ansys/Mechanical/Graphics/ViewOptions.md#ViewOptions.ShowBeamThickness)                   | Displays the thickness of beams.                                                        |
 | [`ShowSPHExpansion`](../../../../v242/Ansys/Mechanical/Graphics/ViewOptions.md#ViewOptions.ShowSPHExpansion)                     | Displays the expansion for SPH elements.                                                |
-| [`ShowMesh`](../../../../v242/Ansys/Mechanical/Graphics/ViewOptions.md#ViewOptions.ShowMesh)                                     | Display the modelâ€™s mesh.                                                               |
+| [`ShowMesh`](../../../../v242/Ansys/Mechanical/Graphics/ViewOptions.md#ViewOptions.ShowMesh)                                     | Display the model's mesh.                                                               |
 | [`ShowRandomColors`](../../../../v242/Ansys/Mechanical/Graphics/ViewOptions.md#ViewOptions.ShowRandomColors)                     | Sets random colors for each object of the application.                                  |
 | [`ShowVertices`](../../../../v242/Ansys/Mechanical/Graphics/ViewOptions.md#ViewOptions.ShowVertices)                             | Display all the vertices of the model.                                                  |
 | [`ShowClusteredVertices`](../../../../v242/Ansys/Mechanical/Graphics/ViewOptions.md#ViewOptions.ShowClusteredVertices)           | Displays all closely clustered vertices of the model.                                   |
@@ -104,7 +104,7 @@ Displays the expansion for SPH elements.
 
 ### *property* ViewOptions.ShowMesh *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Display the modelâ€™s mesh.
+Display the model's mesh.
 
 <!-- !! processed by numpydoc !! -->
 

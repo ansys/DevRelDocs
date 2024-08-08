@@ -62,7 +62,7 @@ Defines a AMProcess.
 | [`MeshUsingVoxelization`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/AMProcess.md#AMProcess.MeshUsingVoxelization)     | Gets or sets the MeshUsingVoxelization.                                    |
 | [`BaseGeometry`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/AMProcess.md#AMProcess.BaseGeometry)                       | Gets or sets the BaseGeometry.                                             |
 | [`PartGeometry`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/AMProcess.md#AMProcess.PartGeometry)                       | Gets or sets the PartGeometry.                                             |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/AMProcess.md#AMProcess.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                               |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/AMProcess.md#AMProcess.DataModelObjectCategory) | Gets the current DataModelObject's category.                               |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/AMProcess.md#AMProcess.Children)                               | Gets the list of children.                                                 |
 | [`Comments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/AMProcess.md#AMProcess.Comments)                               | Gets the list of associated comments.                                      |
 | [`Figures`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/AMProcess.md#AMProcess.Figures)                                 | Gets the list of associated figures.                                       |
@@ -167,7 +167,7 @@ Gets or sets the PartGeometry.
 
 ### *property* AMProcess.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

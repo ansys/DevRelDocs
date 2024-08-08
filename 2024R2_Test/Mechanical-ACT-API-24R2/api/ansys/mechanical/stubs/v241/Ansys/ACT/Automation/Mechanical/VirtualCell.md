@@ -43,7 +43,7 @@ Defines a VirtualCell.
 | [`ProjectToUnderlyingGeometry`](../../../../../v242/Ansys/ACT/Automation/Mechanical/VirtualCell.md#VirtualCell.ProjectToUnderlyingGeometry) | Gets or sets the ProjectToUnderlyingGeometry.                 |
 | [`VTClass`](../../../../../v242/Ansys/ACT/Automation/Mechanical/VirtualCell.md#VirtualCell.VTClass)                                         | Gets the VTClass.                                             |
 | [`Geometry`](../../../../../v242/Ansys/ACT/Automation/Mechanical/VirtualCell.md#VirtualCell.Geometry)                                       | Gets the Geometry.                                            |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/VirtualCell.md#VirtualCell.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/VirtualCell.md#VirtualCell.DataModelObjectCategory)         | Gets the current DataModelObject's category.                  |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/VirtualCell.md#VirtualCell.Children)                                       | Gets the list of children.                                    |
 | [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/VirtualCell.md#VirtualCell.Comments)                                       | Gets the list of associated comments.                         |
 | [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/VirtualCell.md#VirtualCell.Figures)                                         | Gets the list of associated figures.                          |
@@ -92,7 +92,7 @@ Gets the Geometry.
 
 ### *property* VirtualCell.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

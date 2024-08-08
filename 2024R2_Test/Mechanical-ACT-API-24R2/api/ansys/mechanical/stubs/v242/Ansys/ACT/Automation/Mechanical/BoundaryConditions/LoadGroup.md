@@ -63,7 +63,7 @@ Defines a LoadGroup.
 | [`UseInternalRemotePoints`](#LoadGroup.UseInternalRemotePoints)             | Gets or sets the UseInternalRemotePoints.                                                                                                        |
 | [`Suppressed`](#LoadGroup.Suppressed)                                       | Gets or sets the Suppressed.                                                                                                                     |
 | [`Location`](#LoadGroup.Location)                                           | Gets or sets the Location.                                                                                                                       |
-| [`DataModelObjectCategory`](#LoadGroup.DataModelObjectCategory)             | Gets the current DataModelObjectâ€™s category.                                                                                                     |
+| [`DataModelObjectCategory`](#LoadGroup.DataModelObjectCategory)             | Gets the current DataModelObject's category.                                                                                                     |
 | [`Children`](#LoadGroup.Children)                                           | Gets the list of children.                                                                                                                       |
 | [`Comments`](#LoadGroup.Comments)                                           | Gets the list of associated comments.                                                                                                            |
 | [`Figures`](#LoadGroup.Figures)                                             | Gets the list of associated figures.                                                                                                             |
@@ -248,7 +248,7 @@ Gets or sets the Location.
 
 ### *property* LoadGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

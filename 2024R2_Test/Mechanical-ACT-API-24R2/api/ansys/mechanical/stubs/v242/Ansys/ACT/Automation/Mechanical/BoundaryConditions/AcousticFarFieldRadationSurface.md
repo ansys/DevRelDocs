@@ -43,7 +43,7 @@ Defines a AcousticFarFieldRadationSurface.
 | [`InternalObject`](#id0)                                                                      | Gets the internal object. For advanced usage only.            |
 | [`EquivalentSurfaceLocation`](#AcousticFarFieldRadationSurface.EquivalentSurfaceLocation)     | Gets or sets the EquivalentSurfaceLocation.                   |
 | [`InsideSurfaceBodiesLocation`](#AcousticFarFieldRadationSurface.InsideSurfaceBodiesLocation) | Gets or sets the InsideSurfaceBodiesLocation.                 |
-| [`DataModelObjectCategory`](#AcousticFarFieldRadationSurface.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#AcousticFarFieldRadationSurface.DataModelObjectCategory)         | Gets the current DataModelObject's category.                  |
 | [`Suppressed`](#AcousticFarFieldRadationSurface.Suppressed)                                   | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#AcousticFarFieldRadationSurface.SharedRefBody)                             | Gets or sets the SharedRefBody.                               |
 | [`Children`](#AcousticFarFieldRadationSurface.Children)                                       | Gets the list of children.                                    |
@@ -87,7 +87,7 @@ Gets or sets the InsideSurfaceBodiesLocation.
 
 ### *property* AcousticFarFieldRadationSurface.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

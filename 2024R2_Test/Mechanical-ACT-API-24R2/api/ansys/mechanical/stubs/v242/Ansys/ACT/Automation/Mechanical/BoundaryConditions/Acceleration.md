@@ -61,7 +61,7 @@ Defines a Acceleration.
 | [`BaseExcitation`](#Acceleration.BaseExcitation)                   | Gets or sets the BaseExcitation.                              |
 | [`Suppressed`](#Acceleration.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`CoordinateSystem`](#Acceleration.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
-| [`DataModelObjectCategory`](#Acceleration.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#Acceleration.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](#Acceleration.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#Acceleration.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#Acceleration.Figures)                                 | Gets the list of associated figures.                          |
@@ -255,7 +255,7 @@ Gets or sets the CoordinateSystem.
 
 ### *property* Acceleration.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

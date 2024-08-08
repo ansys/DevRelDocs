@@ -6,7 +6,7 @@
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
-The applicationâ€™s collection of solve configurations.
+The application's collection of solve configurations.
 
 <!-- !! processed by numpydoc !! -->
 

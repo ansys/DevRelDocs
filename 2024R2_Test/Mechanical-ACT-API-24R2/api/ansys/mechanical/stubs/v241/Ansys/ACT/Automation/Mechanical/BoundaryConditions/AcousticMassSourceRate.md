@@ -43,7 +43,7 @@ Defines a AcousticMassSourceRate.
 | [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticMassSourceRate.md#id0)                                                     | Gets the internal object. For advanced usage only.            |
 | [`Magnitude`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticMassSourceRate.md#AcousticMassSourceRate.Magnitude)                             | Gets or sets the Magnitude.                                   |
 | [`Location`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticMassSourceRate.md#AcousticMassSourceRate.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticMassSourceRate.md#AcousticMassSourceRate.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticMassSourceRate.md#AcousticMassSourceRate.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticMassSourceRate.md#AcousticMassSourceRate.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticMassSourceRate.md#AcousticMassSourceRate.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticMassSourceRate.md#AcousticMassSourceRate.Children)                               | Gets the list of children.                                    |
@@ -87,7 +87,7 @@ Gets or sets the Location.
 
 ### *property* AcousticMassSourceRate.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

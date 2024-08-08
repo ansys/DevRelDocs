@@ -55,7 +55,7 @@ Defines a AcousticAbsorptionCoefficient.
 | [`MaximumFrequency`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticAbsorptionCoefficient.md#AcousticAbsorptionCoefficient.MaximumFrequency)                                   | Gets or sets the MaximumFrequency.                                     |
 | [`MinimumFrequency`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticAbsorptionCoefficient.md#AcousticAbsorptionCoefficient.MinimumFrequency)                                   | Gets or sets the MinimumFrequency.                                     |
 | [`FrequencyRange`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticAbsorptionCoefficient.md#AcousticAbsorptionCoefficient.FrequencyRange)                                       | Gets or sets the FrequencyRange.                                       |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticAbsorptionCoefficient.md#AcousticAbsorptionCoefficient.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticAbsorptionCoefficient.md#AcousticAbsorptionCoefficient.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`Mode`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticAbsorptionCoefficient.md#AcousticAbsorptionCoefficient.Mode)                                                           | Gets or sets the Mode.                                                 |
 | [`ReportedFrequency`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticAbsorptionCoefficient.md#AcousticAbsorptionCoefficient.ReportedFrequency)                                 | Gets the ReportedFrequency.                                            |
 | [`DampedFrequency`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticAbsorptionCoefficient.md#AcousticAbsorptionCoefficient.DampedFrequency)                                     | Gets the DampedFrequency.                                              |
@@ -167,7 +167,7 @@ Gets or sets the FrequencyRange.
 
 ### *property* AcousticAbsorptionCoefficient.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

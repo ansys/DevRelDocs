@@ -75,7 +75,7 @@ Defines a Displacement.
 | [`CoordinateSystem`](#Displacement.CoordinateSystem)                               | Gets or sets the CoordinateSystem.                            |
 | [`XYZFunctionCoordinateSystem`](#Displacement.XYZFunctionCoordinateSystem)         | Gets or sets the XYZFunctionCoordinateSystem.                 |
 | [`Location`](#Displacement.Location)                                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#Displacement.DataModelObjectCategory)                 | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#Displacement.DataModelObjectCategory)                 | Gets the current DataModelObject's category.                  |
 | [`Suppressed`](#Displacement.Suppressed)                                           | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#Displacement.SharedRefBody)                                     | Gets or sets the SharedRefBody.                               |
 | [`Children`](#Displacement.Children)                                               | Gets the list of children.                                    |
@@ -343,7 +343,7 @@ Gets or sets the Location.
 
 ### *property* Displacement.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

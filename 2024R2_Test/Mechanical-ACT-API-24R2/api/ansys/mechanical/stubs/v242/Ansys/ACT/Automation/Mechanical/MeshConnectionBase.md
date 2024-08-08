@@ -54,7 +54,7 @@ Defines a MeshConnectionBase.
 | [`Suppressed`](#MeshConnectionBase.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`MasterLocation`](#MeshConnectionBase.MasterLocation)                   | Gets or sets the MasterLocation.                              |
 | [`SlaveLocation`](#MeshConnectionBase.SlaveLocation)                     | Gets or sets the SlaveLocation.                               |
-| [`DataModelObjectCategory`](#MeshConnectionBase.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#MeshConnectionBase.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](#MeshConnectionBase.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#MeshConnectionBase.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#MeshConnectionBase.Figures)                                 | Gets the list of associated figures.                          |
@@ -175,7 +175,7 @@ Gets or sets the SlaveLocation.
 
 ### *property* MeshConnectionBase.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

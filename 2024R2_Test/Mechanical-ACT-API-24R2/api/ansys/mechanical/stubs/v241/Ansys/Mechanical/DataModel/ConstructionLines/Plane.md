@@ -26,10 +26,10 @@ A 2D sketching planes in a ConstructionLine instance.
 |------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Type`](../../../../../v242/Ansys/Mechanical/DataModel/ConstructionLines/Plane.md#Plane.Type)                                     | Type property.                                                         |
 | [`Definition`](../../../../../v242/Ansys/Mechanical/DataModel/ConstructionLines/Plane.md#Plane.Definition)                         | Definition property.                                                   |
-| [`Origin`](../../../../../v242/Ansys/Mechanical/DataModel/ConstructionLines/Plane.md#Plane.Origin)                                 | The global location of this planeâ€™s origin.                            |
-| [`PrimaryAxisDirection`](../../../../../v242/Ansys/Mechanical/DataModel/ConstructionLines/Plane.md#Plane.PrimaryAxisDirection)     | The orientation of the planeâ€™s primary (X) axis orientation.           |
-| [`SecondaryAxisDirection`](../../../../../v242/Ansys/Mechanical/DataModel/ConstructionLines/Plane.md#Plane.SecondaryAxisDirection) | The orientation of the planeâ€™s secondary (Y) axis orientation.         |
-| [`Normal`](../../../../../v242/Ansys/Mechanical/DataModel/ConstructionLines/Plane.md#Plane.Normal)                                 | The planeâ€™s normal vector (Z axis orientation) orientation.            |
+| [`Origin`](../../../../../v242/Ansys/Mechanical/DataModel/ConstructionLines/Plane.md#Plane.Origin)                                 | The global location of this plane's origin.                            |
+| [`PrimaryAxisDirection`](../../../../../v242/Ansys/Mechanical/DataModel/ConstructionLines/Plane.md#Plane.PrimaryAxisDirection)     | The orientation of the plane's primary (X) axis orientation.           |
+| [`SecondaryAxisDirection`](../../../../../v242/Ansys/Mechanical/DataModel/ConstructionLines/Plane.md#Plane.SecondaryAxisDirection) | The orientation of the plane's secondary (Y) axis orientation.         |
+| [`Normal`](../../../../../v242/Ansys/Mechanical/DataModel/ConstructionLines/Plane.md#Plane.Normal)                                 | The plane's normal vector (Z axis orientation) orientation.            |
 | [`ObjectId`](../../../../../v242/Ansys/Mechanical/DataModel/ConstructionLines/Plane.md#Plane.ObjectId)                             | Get the ID of the represented entity.                                  |
 | [`IsRepresentation`](../../../../../v242/Ansys/Mechanical/DataModel/ConstructionLines/Plane.md#Plane.IsRepresentation)             | Check to see if there is a valid entity that this instance represents. |
 
@@ -57,7 +57,7 @@ Definition property.
 
 ### *property* Plane.Origin *: Ansys.ACT.Core.Math.Point3D | [None](https://docs.python.org/3/library/constants.html#None)*
 
-The global location of this planeâ€™s origin.
+The global location of this plane's origin.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -65,7 +65,7 @@ The global location of this planeâ€™s origin.
 
 ### *property* Plane.PrimaryAxisDirection *: Ansys.ACT.Core.Math.Vector3D | [None](https://docs.python.org/3/library/constants.html#None)*
 
-The orientation of the planeâ€™s primary (X) axis orientation.
+The orientation of the plane's primary (X) axis orientation.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -73,7 +73,7 @@ The orientation of the planeâ€™s primary (X) axis orientation.
 
 ### *property* Plane.SecondaryAxisDirection *: Ansys.ACT.Core.Math.Vector3D | [None](https://docs.python.org/3/library/constants.html#None)*
 
-The orientation of the planeâ€™s secondary (Y) axis orientation.
+The orientation of the plane's secondary (Y) axis orientation.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -81,7 +81,7 @@ The orientation of the planeâ€™s secondary (Y) axis orientation.
 
 ### *property* Plane.Normal *: Ansys.ACT.Core.Math.Vector3D | [None](https://docs.python.org/3/library/constants.html#None)*
 
-The planeâ€™s normal vector (Z axis orientation) orientation.
+The plane's normal vector (Z axis orientation) orientation.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -45,7 +45,7 @@ Defines a ResponsePSDTool.
 | [`ClusteringFrequencyPoints`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ResponsePSDTool.md#ResponsePSDTool.ClusteringFrequencyPoints)             | Gets or sets the ClusteringFrequencyPoints.                   |
 | [`IncludeAllExcitationFrequencies`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ResponsePSDTool.md#ResponsePSDTool.IncludeAllExcitationFrequencies) | Gets or sets the IncludeAllExcitationFrequencies.             |
 | [`IncludeUserDefinedFrequencies`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ResponsePSDTool.md#ResponsePSDTool.IncludeUserDefinedFrequencies)     | Gets or sets the IncludeUserDefinedFrequencies.               |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ResponsePSDTool.md#ResponsePSDTool.DataModelObjectCategory)                 | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ResponsePSDTool.md#ResponsePSDTool.DataModelObjectCategory)                 | Gets the current DataModelObject's category.                  |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ResponsePSDTool.md#ResponsePSDTool.Children)                                               | Gets the list of children.                                    |
 | [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ResponsePSDTool.md#ResponsePSDTool.Comments)                                               | Gets the list of associated comments.                         |
 | [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ResponsePSDTool.md#ResponsePSDTool.Figures)                                                 | Gets the list of associated figures.                          |
@@ -94,7 +94,7 @@ Gets or sets the IncludeUserDefinedFrequencies.
 
 ### *property* ResponsePSDTool.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

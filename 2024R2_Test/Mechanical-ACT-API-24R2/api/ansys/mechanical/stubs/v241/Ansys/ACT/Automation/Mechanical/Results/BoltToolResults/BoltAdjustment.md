@@ -52,7 +52,7 @@ Defines a BoltAdjustment.
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BoltToolResults/BoltAdjustment.md#id0)                                                                 | Gets the internal object. For advanced usage only.                     |
 | [`BoltResultType`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BoltToolResults/BoltAdjustment.md#BoltAdjustment.BoltResultType)                                       | Gets or sets the BoltResultType.                                       |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BoltToolResults/BoltAdjustment.md#BoltAdjustment.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BoltToolResults/BoltAdjustment.md#BoltAdjustment.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`PlotData`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BoltToolResults/BoltAdjustment.md#BoltAdjustment.PlotData)                                                   | Gets the result table.                                                 |
 | [`Location`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BoltToolResults/BoltAdjustment.md#BoltAdjustment.Location)                                                   | Gets or sets the Location.                                             |
 | [`TimeForMinimumOfMinimumValues`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BoltToolResults/BoltAdjustment.md#BoltAdjustment.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
@@ -131,7 +131,7 @@ Gets or sets the BoltResultType.
 
 ### *property* BoltAdjustment.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

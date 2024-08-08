@@ -47,7 +47,7 @@ Defines a STL.
 | [`TranslateZ`](#STL.TranslateZ)                           | Gets or sets the TranslateZ.                                  |
 | [`InternalObject`](#id0)                                  | Gets the internal object. For advanced usage only.            |
 | [`FileName`](#STL.FileName)                               | Gets or sets the FileName.                                    |
-| [`DataModelObjectCategory`](#STL.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#STL.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Statistics`](#STL.Statistics)                           | Gets the Statistics.                                          |
 | [`LengthUnits`](#STL.LengthUnits)                         | Gets or sets the LengthUnits.                                 |
 | [`ShowAlways`](#STL.ShowAlways)                           | Gets or sets the ShowAlways.                                  |
@@ -117,7 +117,7 @@ Gets or sets the FileName.
 
 ### *property* STL.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

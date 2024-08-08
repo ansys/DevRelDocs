@@ -58,7 +58,7 @@ Defines a FractureToolResult.
 | [`ActiveContourEnd`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureToolResult.md#FractureToolResult.ActiveContourEnd)                                   | Gets or sets the ActiveContourEnd.                                     |
 | [`ActiveContourStart`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureToolResult.md#FractureToolResult.ActiveContourStart)                               | Gets or sets the ActiveContourStart.                                   |
 | [`SolverID`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureToolResult.md#FractureToolResult.SolverID)                                                   | Gets or sets the SolverID.                                             |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureToolResult.md#FractureToolResult.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureToolResult.md#FractureToolResult.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`PlotData`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureToolResult.md#FractureToolResult.PlotData)                                                   | Gets the result table.                                                 |
 | [`Location`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureToolResult.md#FractureToolResult.Location)                                                   | Gets or sets the Location.                                             |
 | [`TimeForMinimumOfMinimumValues`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureToolResult.md#FractureToolResult.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
@@ -185,7 +185,7 @@ Gets or sets the SolverID.
 
 ### *property* FractureToolResult.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

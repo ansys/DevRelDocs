@@ -49,7 +49,7 @@ Defines a HollowRectangularCrossSection.
 | [`Thick4`](#HollowRectangularCrossSection.Thick4)                                   | Gets or sets the Thick4.                                      |
 | [`Width1`](#HollowRectangularCrossSection.Width1)                                   | Gets or sets the Width1.                                      |
 | [`Width2`](#HollowRectangularCrossSection.Width2)                                   | Gets or sets the Width2.                                      |
-| [`DataModelObjectCategory`](#HollowRectangularCrossSection.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#HollowRectangularCrossSection.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](#HollowRectangularCrossSection.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#HollowRectangularCrossSection.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#HollowRectangularCrossSection.Figures)                                 | Gets the list of associated figures.                          |
@@ -147,7 +147,7 @@ Gets or sets the Width2.
 
 ### *property* HollowRectangularCrossSection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

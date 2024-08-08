@@ -152,7 +152,7 @@ Defines a Mesh.
 | [`ElementSize`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/Mesh.md#Mesh.ElementSize)                                               | Gets or sets the ElementSize.                                    |
 | [`RigidBodyFaceMeshType`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/Mesh.md#Mesh.RigidBodyFaceMeshType)                           | Gets or sets the RigidBodyFaceMeshType.                          |
 | [`RigidBodyBehavior`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/Mesh.md#Mesh.RigidBodyBehavior)                                   | Gets or sets the BoundaryCondition.                              |
-| [`CurrentConfiguration`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/Mesh.md#Mesh.CurrentConfiguration)                             | Gets the Assembly Meshâ€™s current configuration Id.               |
+| [`CurrentConfiguration`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/Mesh.md#Mesh.CurrentConfiguration)                             | Gets the Assembly Mesh's current configuration Id.               |
 | [`MinimizeNumTriangles`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/Mesh.md#Mesh.MinimizeNumTriangles)                             | Gets or sets the TriangleReduction option for Batch Connections. |
 | [`NumberOfShellMeshQualityMetrics`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/Mesh.md#Mesh.NumberOfShellMeshQualityMetrics)       | Gets the number of Mesh Quality Metrics                          |
 | [`GlobalUseCustomTargetLimit`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/Mesh.md#Mesh.GlobalUseCustomTargetLimit)                 | Gets or sets the GlobalUseCustomTargetLimit.                     |
@@ -264,7 +264,7 @@ Defines a Mesh.
 | [`QuadMesh`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/Mesh.md#Mesh.QuadMesh)                                                     | Gets or sets the QuadMesh.                                       |
 | [`MeshBasedConnection`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/Mesh.md#Mesh.MeshBasedConnection)                               | Gets or sets the MeshBasedConnection.                            |
 | [`NamedSelection`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/Mesh.md#Mesh.NamedSelection)                                         | Gets or sets the NamedSelection.                                 |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/Mesh.md#Mesh.DataModelObjectCategory)                       | Gets the current DataModelObjectâ€™s category.                     |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/Mesh.md#Mesh.DataModelObjectCategory)                       | Gets the current DataModelObject's category.                     |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/Mesh.md#Mesh.Children)                                                     | Gets the list of children.                                       |
 | [`Comments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/Mesh.md#Mesh.Comments)                                                     | Gets the list of associated comments.                            |
 | [`Figures`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/Mesh.md#Mesh.Figures)                                                       | Gets the list of associated figures.                             |
@@ -313,7 +313,7 @@ Gets or sets the BoundaryCondition.
 
 ### *property* Mesh.CurrentConfiguration *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the Assembly Meshâ€™s current configuration Id.
+Gets the Assembly Mesh's current configuration Id.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -1209,7 +1209,7 @@ Gets or sets the NamedSelection.
 
 ### *property* Mesh.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

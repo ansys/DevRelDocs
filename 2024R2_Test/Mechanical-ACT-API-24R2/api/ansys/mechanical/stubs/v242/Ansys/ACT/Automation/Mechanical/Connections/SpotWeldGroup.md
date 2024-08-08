@@ -57,7 +57,7 @@ Defines a SpotWeldGroup.
 | [`WeldType`](#SpotWeldGroup.WeldType)                               | Gets or sets the WeldType.                                    |
 | [`StiffnessBehavior`](#SpotWeldGroup.StiffnessBehavior)             | Gets or sets the StiffnessBehavior.                           |
 | [`ShellThicknessEffect`](#SpotWeldGroup.ShellThicknessEffect)       | Gets or sets the ShellThicknessEffect.                        |
-| [`DataModelObjectCategory`](#SpotWeldGroup.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#SpotWeldGroup.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](#SpotWeldGroup.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#SpotWeldGroup.Comments)                               | Gets the list of associated comments.                         |
 | [`Images`](#SpotWeldGroup.Images)                                   | Gets the list of associated images.                           |
@@ -210,7 +210,7 @@ Gets or sets the ShellThicknessEffect.
 
 ### *property* SpotWeldGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

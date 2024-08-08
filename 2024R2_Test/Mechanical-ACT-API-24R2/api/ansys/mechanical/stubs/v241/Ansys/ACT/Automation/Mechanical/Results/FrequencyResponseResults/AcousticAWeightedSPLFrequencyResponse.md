@@ -43,7 +43,7 @@ Defines a AcousticAWeightedSPLFrequencyResponse.
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/AcousticAWeightedSPLFrequencyResponse.md#id0)                                                                            | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/AcousticAWeightedSPLFrequencyResponse.md#AcousticAWeightedSPLFrequencyResponse.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/AcousticAWeightedSPLFrequencyResponse.md#AcousticAWeightedSPLFrequencyResponse.DataModelObjectCategory)         | Gets the current DataModelObject's category.                  |
 | [`IsSolved`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/AcousticAWeightedSPLFrequencyResponse.md#AcousticAWeightedSPLFrequencyResponse.IsSolved)                                       | Gets the IsSolved.                                            |
 | [`ChartDimensions`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/AcousticAWeightedSPLFrequencyResponse.md#AcousticAWeightedSPLFrequencyResponse.ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
 | [`BoundaryCondition`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/AcousticAWeightedSPLFrequencyResponse.md#AcousticAWeightedSPLFrequencyResponse.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
@@ -108,7 +108,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* AcousticAWeightedSPLFrequencyResponse.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

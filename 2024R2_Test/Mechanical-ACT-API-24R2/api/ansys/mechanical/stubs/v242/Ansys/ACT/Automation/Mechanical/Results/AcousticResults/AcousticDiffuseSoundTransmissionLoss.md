@@ -54,7 +54,7 @@ Defines a AcousticDiffuseSoundTransmissionLoss.
 | [`MaximumFrequency`](#AcousticDiffuseSoundTransmissionLoss.MaximumFrequency)                                   | Gets or sets the MaximumFrequency.                                     |
 | [`MinimumFrequency`](#AcousticDiffuseSoundTransmissionLoss.MinimumFrequency)                                   | Gets or sets the MinimumFrequency.                                     |
 | [`FrequencyRange`](#AcousticDiffuseSoundTransmissionLoss.FrequencyRange)                                       | Gets or sets the FrequencyRange.                                       |
-| [`DataModelObjectCategory`](#AcousticDiffuseSoundTransmissionLoss.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](#AcousticDiffuseSoundTransmissionLoss.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`Mode`](#AcousticDiffuseSoundTransmissionLoss.Mode)                                                           | Gets or sets the Mode.                                                 |
 | [`ReportedFrequency`](#AcousticDiffuseSoundTransmissionLoss.ReportedFrequency)                                 | Gets the ReportedFrequency.                                            |
 | [`DampedFrequency`](#AcousticDiffuseSoundTransmissionLoss.DampedFrequency)                                     | Gets the DampedFrequency.                                              |
@@ -159,7 +159,7 @@ Gets or sets the FrequencyRange.
 
 ### *property* AcousticDiffuseSoundTransmissionLoss.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

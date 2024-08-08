@@ -43,7 +43,7 @@ Defines a BoltPretension.
 
 | Name | Description |
 |------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| [`DefineBy`](#BoltPretension.DefineBy)                                 | Gets a value indicating how the bolt pretension is defined at the analysisâ€™ current step.   |
+| [`DefineBy`](#BoltPretension.DefineBy)                                 | Gets a value indicating how the bolt pretension is defined at the analysis' current step.   |
 | [`InternalObject`](#id0)                                               | Gets the internal object. For advanced usage only.                                          |
 | [`Increment`](#BoltPretension.Increment)                               | Gets the Increment.                                                                         |
 | [`Preadjustment`](#BoltPretension.Preadjustment)                       | Gets the Preadjustment.                                                                     |
@@ -55,7 +55,7 @@ Defines a BoltPretension.
 | [`Suppressed`](#BoltPretension.Suppressed)                             | Gets or sets the Suppressed.                                                                |
 | [`CoordinateSystem`](#BoltPretension.CoordinateSystem)                 | Gets or sets the CoordinateSystem.                                                          |
 | [`Location`](#BoltPretension.Location)                                 | Gets or sets the Location.                                                                  |
-| [`DataModelObjectCategory`](#BoltPretension.DataModelObjectCategory)   | Gets the current DataModelObjectâ€™s category.                                                |
+| [`DataModelObjectCategory`](#BoltPretension.DataModelObjectCategory)   | Gets the current DataModelObject's category.                                                |
 | [`Children`](#BoltPretension.Children)                                 | Gets the list of children.                                                                  |
 | [`Comments`](#BoltPretension.Comments)                                 | Gets the list of associated comments.                                                       |
 | [`Figures`](#BoltPretension.Figures)                                   | Gets the list of associated figures.                                                        |
@@ -73,7 +73,7 @@ Defines a BoltPretension.
 
 ### *property* BoltPretension.DefineBy *: [Ansys.Mechanical.DataModel.Enums.BoltLoadDefineBy](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/BoltLoadDefineBy.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BoltLoadDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets a value indicating how the bolt pretension is defined at the analysisâ€™ current step.
+Gets a value indicating how the bolt pretension is defined at the analysis' current step.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -169,7 +169,7 @@ Gets or sets the Location.
 
 ### *property* BoltPretension.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -48,7 +48,7 @@ Defines a Voltage.
 | [`Magnitude`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/Voltage.md#Voltage.Magnitude)                             | Gets the Magnitude.                                           |
 | [`PhaseAngle`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/Voltage.md#Voltage.PhaseAngle)                           | Gets or sets the PhaseAngle.                                  |
 | [`VoltageCoupling`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/Voltage.md#Voltage.VoltageCoupling)                 | Gets or sets the VoltageCoupling.                             |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/Voltage.md#Voltage.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/Voltage.md#Voltage.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/Voltage.md#Voltage.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/Voltage.md#Voltage.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/Voltage.md#Voltage.Children)                               | Gets the list of children.                                    |
@@ -116,7 +116,7 @@ Gets or sets the VoltageCoupling.
 
 ### *property* Voltage.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -58,7 +58,7 @@ Defines a PointMass.
 | [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PointMass.md#PointMass.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`CoordinateSystem`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PointMass.md#PointMass.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
 | [`NodalCoordinateSystem`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PointMass.md#PointMass.NodalCoordinateSystem)     | Gets the NodalCoordinateSystem.                               |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PointMass.md#PointMass.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PointMass.md#PointMass.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`RemotePoint`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PointMass.md#PointMass.RemotePoint)                         | Gets the remote point associated to the point mass.           |
 | [`IsDistributedMass`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PointMass.md#PointMass.IsDistributedMass)             | Gets the IsDistributedMass.                                   |
 | [`Location`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PointMass.md#PointMass.Location)                               | Gets or sets the Geometry.                                    |
@@ -215,7 +215,7 @@ Gets the NodalCoordinateSystem.
 
 ### *property* PointMass.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

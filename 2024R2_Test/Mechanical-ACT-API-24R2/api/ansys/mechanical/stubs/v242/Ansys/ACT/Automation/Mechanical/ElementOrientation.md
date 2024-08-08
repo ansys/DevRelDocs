@@ -49,7 +49,7 @@ Defines a ElementOrientation.
 | [`BodyLocation`](#ElementOrientation.BodyLocation)                           | Gets or sets the BodyLocation.                                |
 | [`EdgeLocation`](#ElementOrientation.EdgeLocation)                           | Gets or sets the EdgeLocation.                                |
 | [`SurfaceLocation`](#ElementOrientation.SurfaceLocation)                     | Gets or sets the SurfaceLocation.                             |
-| [`DataModelObjectCategory`](#ElementOrientation.DataModelObjectCategory)     | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#ElementOrientation.DataModelObjectCategory)     | Gets the current DataModelObject's category.                  |
 | [`Children`](#ElementOrientation.Children)                                   | Gets the list of children.                                    |
 | [`Comments`](#ElementOrientation.Comments)                                   | Gets the list of associated comments.                         |
 | [`Figures`](#ElementOrientation.Figures)                                     | Gets the list of associated figures.                          |
@@ -139,7 +139,7 @@ Gets or sets the SurfaceLocation.
 
 ### *property* ElementOrientation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -84,7 +84,7 @@ Defines a ImportedLoadGroup.
 | [`DeleteMappedDataFilesAfterImport`](#ImportedLoadGroup.DeleteMappedDataFilesAfterImport) | Gets or sets the DeleteMappedDataFilesAfterImport.                     |
 | [`Suppressed`](#ImportedLoadGroup.Suppressed)                                             | Gets or sets the Suppressed.                                           |
 | [`TransferTemperaturesDuringSolve`](#ImportedLoadGroup.TransferTemperaturesDuringSolve)   | Gets or sets the TransferTemperaturesDuringSolve.                      |
-| [`DataModelObjectCategory`](#ImportedLoadGroup.DataModelObjectCategory)                   | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](#ImportedLoadGroup.DataModelObjectCategory)                   | Gets the current DataModelObject's category.                           |
 | [`Children`](#ImportedLoadGroup.Children)                                                 | Gets the list of children.                                             |
 | [`Comments`](#ImportedLoadGroup.Comments)                                                 | Gets the list of associated comments.                                  |
 | [`Figures`](#ImportedLoadGroup.Figures)                                                   | Gets the list of associated figures.                                   |
@@ -189,7 +189,7 @@ Gets or sets the TransferTemperaturesDuringSolve.
 
 ### *property* ImportedLoadGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

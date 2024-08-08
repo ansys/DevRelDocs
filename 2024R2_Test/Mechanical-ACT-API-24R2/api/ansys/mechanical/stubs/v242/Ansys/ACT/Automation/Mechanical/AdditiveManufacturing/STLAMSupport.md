@@ -59,7 +59,7 @@ Defines a STLAMSupport.
 | [`STLSupportType`](#STLAMSupport.STLSupportType)                                 | Gets or sets the STLSupportType.                              |
 | [`STL`](#STLAMSupport.STL)                                                       | Gets or sets the STL.                                         |
 | [`GeometrySelection`](#STLAMSupport.GeometrySelection)                           | Gets or sets the GeometrySelection.                           |
-| [`DataModelObjectCategory`](#STLAMSupport.DataModelObjectCategory)               | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#STLAMSupport.DataModelObjectCategory)               | Gets the current DataModelObject's category.                  |
 | [`ThermalConductivityMultipleInX`](#STLAMSupport.ThermalConductivityMultipleInX) | Gets or sets the ThermalConductivityMultipleInX.              |
 | [`ThermalConductivityMultipleInY`](#STLAMSupport.ThermalConductivityMultipleInY) | Gets or sets the ThermalConductivityMultipleInY.              |
 | [`ThermalConductivityMultipleInZ`](#STLAMSupport.ThermalConductivityMultipleInZ) | Gets or sets the ThermalConductivityMultipleInZ.              |
@@ -188,7 +188,7 @@ Gets or sets the GeometrySelection.
 
 ### *property* STLAMSupport.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

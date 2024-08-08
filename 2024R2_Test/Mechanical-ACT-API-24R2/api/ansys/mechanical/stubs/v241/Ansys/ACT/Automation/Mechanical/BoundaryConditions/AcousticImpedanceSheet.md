@@ -44,7 +44,7 @@ Defines a AcousticImpedanceSheet.
 | [`Reactance`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticImpedanceSheet.md#AcousticImpedanceSheet.Reactance)                             | Gets or sets the Reactance.                                   |
 | [`Resistance`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticImpedanceSheet.md#AcousticImpedanceSheet.Resistance)                           | Gets or sets the Resistance.                                  |
 | [`Location`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticImpedanceSheet.md#AcousticImpedanceSheet.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticImpedanceSheet.md#AcousticImpedanceSheet.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticImpedanceSheet.md#AcousticImpedanceSheet.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticImpedanceSheet.md#AcousticImpedanceSheet.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticImpedanceSheet.md#AcousticImpedanceSheet.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticImpedanceSheet.md#AcousticImpedanceSheet.Children)                               | Gets the list of children.                                    |
@@ -96,7 +96,7 @@ Gets or sets the Location.
 
 ### *property* AcousticImpedanceSheet.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

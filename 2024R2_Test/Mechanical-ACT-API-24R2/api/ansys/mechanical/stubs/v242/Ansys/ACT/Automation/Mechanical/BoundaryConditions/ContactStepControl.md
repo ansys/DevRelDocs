@@ -46,7 +46,7 @@ Defines a ContactStepControl.
 | [`Status`](#ContactStepControl.Status)                                   | Gets or sets the Status.                                      |
 | [`NormalStiffness`](#ContactStepControl.NormalStiffness)                 | Gets or sets the NormalStiffness.                             |
 | [`ContactSelection`](#ContactStepControl.ContactSelection)               | Gets or sets the ContactSelection.                            |
-| [`DataModelObjectCategory`](#ContactStepControl.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#ContactStepControl.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Suppressed`](#ContactStepControl.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`Children`](#ContactStepControl.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#ContactStepControl.Comments)                               | Gets the list of associated comments.                         |
@@ -120,7 +120,7 @@ Gets or sets the ContactSelection.
 
 ### *property* ContactStepControl.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

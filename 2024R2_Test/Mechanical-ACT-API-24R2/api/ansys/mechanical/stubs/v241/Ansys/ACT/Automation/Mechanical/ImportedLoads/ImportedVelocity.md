@@ -53,7 +53,7 @@ Defines a ImportedVelocity.
 | [`MinimumTimeRange`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedVelocity.md#ImportedVelocity.MinimumTimeRange)                                         | Gets or sets the MinimumTimeRange.                                                                      |
 | [`SourceTimeDefinitionType`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedVelocity.md#ImportedVelocity.SourceTimeDefinitionType)                         | Gets or sets the SourceTimeDefinitionType.                                                              |
 | [`WindowType`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedVelocity.md#ImportedVelocity.WindowType)                                                     | Gets or sets the WindowType.                                                                            |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedVelocity.md#ImportedVelocity.DataModelObjectCategory)                           | Gets the current DataModelObjectâ€™s category.                                                            |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedVelocity.md#ImportedVelocity.DataModelObjectCategory)                           | Gets the current DataModelObject's category.                                                            |
 | [`Weighting`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedVelocity.md#ImportedVelocity.Weighting)                                                       | Weighting property.                                                                                     |
 | [`MappingControl`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedVelocity.md#ImportedVelocity.MappingControl)                                             | MappingControl property.                                                                                |
 | [`DisplaySourcePoints`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedVelocity.md#ImportedVelocity.DisplaySourcePoints)                                   | DisplaySourcePoints property.                                                                           |
@@ -168,7 +168,7 @@ Gets or sets the WindowType.
 
 ### *property* ImportedVelocity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

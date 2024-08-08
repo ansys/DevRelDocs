@@ -21,7 +21,7 @@ Defines a ImportedPressure.
 | [`ExportToTextFile`](#ImportedPressure.ExportToTextFile)               | Run the ExportToTextFile action.                                                        |
 | [`Import`](#ImportedPressure.Import)                                   | Import.                                                                                 |
 | [`ImportLoad`](#ImportedPressure.ImportLoad)                           | Run the ImportLoad action.                                                              |
-| [`ReloadConfiguration`](#ImportedPressure.ReloadConfiguration)         | Reload the Imported Loadâ€™s setup from its associated configuration file (if available). |
+| [`ReloadConfiguration`](#ImportedPressure.ReloadConfiguration)         | Reload the Imported Load's setup from its associated configuration file (if available). |
 | [`GetActivateAtLoadStep`](#ImportedPressure.GetActivateAtLoadStep)     | GetActivateAtLoadStep method.                                                           |
 | [`SetActivateAtLoadStep`](#ImportedPressure.SetActivateAtLoadStep)     | SetActivateAtLoadStep method.                                                           |
 | [`AddMappingValidation`](#ImportedPressure.AddMappingValidation)       | Creates a new MappingValidation                                                         |
@@ -52,7 +52,7 @@ Defines a ImportedPressure.
 | [`LoadVectorNumberImaginary`](#ImportedPressure.LoadVectorNumberImaginary)                       | Gets or sets the LoadVectorNumberImaginary.                                                             |
 | [`AppliedBy`](#ImportedPressure.AppliedBy)                                                       | Gets or sets the AppliedBy.                                                                             |
 | [`LoadVectorAssignment`](#ImportedPressure.LoadVectorAssignment)                                 | Gets or sets the LoadVectorAssignment.                                                                  |
-| [`DataModelObjectCategory`](#ImportedPressure.DataModelObjectCategory)                           | Gets the current DataModelObjectâ€™s category.                                                            |
+| [`DataModelObjectCategory`](#ImportedPressure.DataModelObjectCategory)                           | Gets the current DataModelObject's category.                                                            |
 | [`Weighting`](#ImportedPressure.Weighting)                                                       | Weighting property.                                                                                     |
 | [`MappingControl`](#ImportedPressure.MappingControl)                                             | MappingControl property.                                                                                |
 | [`DisplaySourcePoints`](#ImportedPressure.DisplaySourcePoints)                                   | DisplaySourcePoints property.                                                                           |
@@ -151,7 +151,7 @@ Gets or sets the LoadVectorAssignment.
 
 ### *property* ImportedPressure.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -579,7 +579,7 @@ Run the ImportLoad action.
 
 ### ImportedPressure.ReloadConfiguration()
 
-Reload the Imported Loadâ€™s setup from its associated configuration file (if available).
+Reload the Imported Load's setup from its associated configuration file (if available).
 
 <!-- !! processed by numpydoc !! -->
 

@@ -42,7 +42,7 @@ Defines a AcousticThermoViscousBLIBoundary.
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticThermoViscousBLIBoundary.md#id0)                                                               | Gets the internal object. For advanced usage only.            |
 | [`Location`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticThermoViscousBLIBoundary.md#AcousticThermoViscousBLIBoundary.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticThermoViscousBLIBoundary.md#AcousticThermoViscousBLIBoundary.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticThermoViscousBLIBoundary.md#AcousticThermoViscousBLIBoundary.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticThermoViscousBLIBoundary.md#AcousticThermoViscousBLIBoundary.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticThermoViscousBLIBoundary.md#AcousticThermoViscousBLIBoundary.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticThermoViscousBLIBoundary.md#AcousticThermoViscousBLIBoundary.Children)                               | Gets the list of children.                                    |
@@ -78,7 +78,7 @@ Gets or sets the Location.
 
 ### *property* AcousticThermoViscousBLIBoundary.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

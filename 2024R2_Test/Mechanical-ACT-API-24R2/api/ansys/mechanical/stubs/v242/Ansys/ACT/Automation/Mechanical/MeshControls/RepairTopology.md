@@ -83,7 +83,7 @@ Defines a RepairTopology.
 | [`ShortEdgeGeometrySelection`](#RepairTopology.ShortEdgeGeometrySelection)                         | Gets or sets the ShortEdgeGeometrySelection.                  |
 | [`SuppressEdgesGeometrySelection`](#RepairTopology.SuppressEdgesGeometrySelection)                 | Gets or sets the SuppressEdgesGeometrySelection.              |
 | [`ThinFaceGeometrySelection`](#RepairTopology.ThinFaceGeometrySelection)                           | Gets or sets the ThinFaceGeometrySelection.                   |
-| [`DataModelObjectCategory`](#RepairTopology.DataModelObjectCategory)                               | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#RepairTopology.DataModelObjectCategory)                               | Gets the current DataModelObject's category.                  |
 | [`ScopingMethod`](#RepairTopology.ScopingMethod)                                                   | Gets or sets the ScopingMethod.                               |
 | [`Suppressed`](#RepairTopology.Suppressed)                                                         | Gets or sets the Suppressed.                                  |
 | [`Children`](#RepairTopology.Children)                                                             | Gets the list of children.                                    |
@@ -438,7 +438,7 @@ Gets or sets the ThinFaceGeometrySelection.
 
 ### *property* RepairTopology.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

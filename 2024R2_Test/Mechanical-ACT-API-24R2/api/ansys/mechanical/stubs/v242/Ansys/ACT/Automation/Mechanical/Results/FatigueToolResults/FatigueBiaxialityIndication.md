@@ -51,7 +51,7 @@ Defines a FatigueBiaxialityIndication.
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                              | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](#FatigueBiaxialityIndication.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](#FatigueBiaxialityIndication.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`Method`](#FatigueBiaxialityIndication.Method)                                                       | Gets the Method.                                                       |
 | [`DesignLife`](#FatigueBiaxialityIndication.DesignLife)                                               | Gets or sets the DesignLife.                                           |
 | [`AverageAcrossBodies`](#FatigueBiaxialityIndication.AverageAcrossBodies)                             | Gets or sets the AverageAcrossBodies.                                  |
@@ -126,7 +126,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* FatigueBiaxialityIndication.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

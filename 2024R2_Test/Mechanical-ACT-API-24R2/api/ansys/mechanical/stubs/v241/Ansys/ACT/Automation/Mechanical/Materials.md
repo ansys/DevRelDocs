@@ -47,7 +47,7 @@ Defines a Materials.
 | [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Materials.md#id0)                                        | Gets the internal object. For advanced usage only.            |
 | [`MaterialAssignments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Materials.md#Materials.MaterialAssignments)         | Gets the MaterialAssignments.                                 |
 | [`MaterialCount`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Materials.md#Materials.MaterialCount)                     | Gets the MaterialCount.                                       |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Materials.md#Materials.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Materials.md#Materials.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Materials.md#Materials.Children)                               | Gets the list of children.                                    |
 | [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Materials.md#Materials.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Materials.md#Materials.Figures)                                 | Gets the list of associated figures.                          |
@@ -89,7 +89,7 @@ Gets the MaterialCount.
 
 ### *property* Materials.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

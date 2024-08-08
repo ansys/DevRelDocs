@@ -21,7 +21,7 @@ Defines a ImportedHeatFlux.
 | [`ExportToTextFile`](#ImportedHeatFlux.ExportToTextFile)               | Run the ExportToTextFile action.                                                        |
 | [`Import`](#ImportedHeatFlux.Import)                                   | Import.                                                                                 |
 | [`ImportLoad`](#ImportedHeatFlux.ImportLoad)                           | Run the ImportLoad action.                                                              |
-| [`ReloadConfiguration`](#ImportedHeatFlux.ReloadConfiguration)         | Reload the Imported Loadâ€™s setup from its associated configuration file (if available). |
+| [`ReloadConfiguration`](#ImportedHeatFlux.ReloadConfiguration)         | Reload the Imported Load's setup from its associated configuration file (if available). |
 | [`GetActivateAtLoadStep`](#ImportedHeatFlux.GetActivateAtLoadStep)     | GetActivateAtLoadStep method.                                                           |
 | [`SetActivateAtLoadStep`](#ImportedHeatFlux.SetActivateAtLoadStep)     | SetActivateAtLoadStep method.                                                           |
 | [`AddMappingValidation`](#ImportedHeatFlux.AddMappingValidation)       | Creates a new MappingValidation                                                         |
@@ -48,7 +48,7 @@ Defines a ImportedHeatFlux.
 | Name | Description |
 |--------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                         | Gets the internal object. For advanced usage only.                                                      |
-| [`DataModelObjectCategory`](#ImportedHeatFlux.DataModelObjectCategory)                           | Gets the current DataModelObjectâ€™s category.                                                            |
+| [`DataModelObjectCategory`](#ImportedHeatFlux.DataModelObjectCategory)                           | Gets the current DataModelObject's category.                                                            |
 | [`Weighting`](#ImportedHeatFlux.Weighting)                                                       | Weighting property.                                                                                     |
 | [`MappingControl`](#ImportedHeatFlux.MappingControl)                                             | MappingControl property.                                                                                |
 | [`DisplaySourcePoints`](#ImportedHeatFlux.DisplaySourcePoints)                                   | DisplaySourcePoints property.                                                                           |
@@ -115,7 +115,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* ImportedHeatFlux.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -543,7 +543,7 @@ Run the ImportLoad action.
 
 ### ImportedHeatFlux.ReloadConfiguration()
 
-Reload the Imported Loadâ€™s setup from its associated configuration file (if available).
+Reload the Imported Load's setup from its associated configuration file (if available).
 
 <!-- !! processed by numpydoc !! -->
 

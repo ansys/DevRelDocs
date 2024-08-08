@@ -61,7 +61,7 @@ Defines a TopologyOptimizationResult.
 | [`ExclusionsParticipation`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/TopologyOptimizationResult.md#TopologyOptimizationResult.ExclusionsParticipation) | Gets or sets the ExclusionsParticipation.                     |
 | [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/TopologyOptimizationResult.md#TopologyOptimizationResult.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`Selection`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/TopologyOptimizationResult.md#TopologyOptimizationResult.Selection)                             | Gets or sets the Selection.                                   |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/TopologyOptimizationResult.md#TopologyOptimizationResult.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/TopologyOptimizationResult.md#TopologyOptimizationResult.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/TopologyOptimizationResult.md#TopologyOptimizationResult.Children)                               | Gets the list of children.                                    |
 | [`Comments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/TopologyOptimizationResult.md#TopologyOptimizationResult.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/TopologyOptimizationResult.md#TopologyOptimizationResult.Figures)                                 | Gets the list of associated figures.                          |
@@ -222,7 +222,7 @@ Gets or sets the Selection.
 
 ### *property* TopologyOptimizationResult.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

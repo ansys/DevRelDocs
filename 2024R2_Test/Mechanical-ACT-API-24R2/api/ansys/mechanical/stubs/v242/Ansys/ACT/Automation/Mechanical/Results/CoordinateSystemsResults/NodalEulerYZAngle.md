@@ -51,7 +51,7 @@ Defines a NodalEulerYZAngle.
 | Name | Description |
 |---------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                    | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](#NodalEulerYZAngle.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](#NodalEulerYZAngle.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`Mode`](#NodalEulerYZAngle.Mode)                                                           | Gets or sets the Mode.                                                 |
 | [`Ply`](#NodalEulerYZAngle.Ply)                                                             | Gets or sets the Ply selection.                                        |
 | [`LoadMultiplier`](#NodalEulerYZAngle.LoadMultiplier)                                       | Gets the LoadMultiplier.                                               |
@@ -134,7 +134,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* NodalEulerYZAngle.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

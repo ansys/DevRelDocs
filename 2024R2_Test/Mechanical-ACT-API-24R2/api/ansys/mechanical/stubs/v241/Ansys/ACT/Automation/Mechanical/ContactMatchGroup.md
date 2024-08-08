@@ -51,7 +51,7 @@ Defines a ContactMatchGroup.
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ContactMatchGroup.md#id0)                                                                | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ContactMatchGroup.md#ContactMatchGroup.DataModelObjectCategory)                 | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ContactMatchGroup.md#ContactMatchGroup.DataModelObjectCategory)                 | Gets the current DataModelObject's category.                  |
 | [`ConnectionType`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ContactMatchGroup.md#ContactMatchGroup.ConnectionType)                                   | Gets or sets the ConnectionType.                              |
 | [`ActiveConnections`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ContactMatchGroup.md#ContactMatchGroup.ActiveConnections)                             | Gets the ActiveConnections.                                   |
 | [`Connections`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ContactMatchGroup.md#ContactMatchGroup.Connections)                                         | Gets the Connections.                                         |
@@ -102,7 +102,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* ContactMatchGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

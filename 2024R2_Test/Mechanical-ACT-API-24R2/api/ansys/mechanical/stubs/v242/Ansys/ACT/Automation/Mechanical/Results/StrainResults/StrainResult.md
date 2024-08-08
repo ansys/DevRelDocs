@@ -68,7 +68,7 @@ Defines a StrainResult.
 | [`SubScopeBy`](#StrainResult.SubScopeBy)                                               | Gets or sets the SubScopeBy.                                           |
 | [`Amplitude`](#StrainResult.Amplitude)                                                 | Gets or sets the Amplitude.                                            |
 | [`AverageAcrossBodies`](#StrainResult.AverageAcrossBodies)                             | Gets or sets the AverageAcrossBodies.                                  |
-| [`DataModelObjectCategory`](#StrainResult.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](#StrainResult.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`PlotData`](#StrainResult.PlotData)                                                   | Gets the result table.                                                 |
 | [`Location`](#StrainResult.Location)                                                   | Gets or sets the Location.                                             |
 | [`TimeForMinimumOfMinimumValues`](#StrainResult.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
@@ -276,7 +276,7 @@ Gets or sets the AverageAcrossBodies.
 
 ### *property* StrainResult.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

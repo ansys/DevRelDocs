@@ -46,7 +46,7 @@ Defines a MeshNumbering.
 | [`NodeOffset`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshNumbering.md#MeshNumbering.NodeOffset)                           | Gets or sets the NodeOffset.                                  |
 | [`CompressNodeNumbers`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshNumbering.md#MeshNumbering.CompressNodeNumbers)         | Gets or sets the CompressNodeNumbers.                         |
 | [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshNumbering.md#MeshNumbering.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshNumbering.md#MeshNumbering.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshNumbering.md#MeshNumbering.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshNumbering.md#MeshNumbering.Children)                               | Gets the list of children.                                    |
 | [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshNumbering.md#MeshNumbering.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshNumbering.md#MeshNumbering.Figures)                                 | Gets the list of associated figures.                          |
@@ -103,7 +103,7 @@ Gets or sets the Suppressed.
 
 ### *property* MeshNumbering.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

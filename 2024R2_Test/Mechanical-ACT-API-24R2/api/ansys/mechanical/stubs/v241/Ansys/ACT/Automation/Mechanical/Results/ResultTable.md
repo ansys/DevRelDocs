@@ -40,7 +40,7 @@ Defines a ResultTable.
 |------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTable.md#id0)                                          | Gets the internal object. For advanced usage only.            |
 | [`Multiplier`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTable.md#ResultTable.Multiplier)                           | Gets or sets the Multiplier.                                  |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTable.md#ResultTable.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTable.md#ResultTable.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTable.md#ResultTable.Children)                               | Gets the list of children.                                    |
 | [`Comments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTable.md#ResultTable.Comments)                               | Gets the list of associated comments.                         |
 | [`Images`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTable.md#ResultTable.Images)                                   | Gets the list of associated images.                           |
@@ -72,7 +72,7 @@ Gets or sets the Multiplier.
 
 ### *property* ResultTable.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

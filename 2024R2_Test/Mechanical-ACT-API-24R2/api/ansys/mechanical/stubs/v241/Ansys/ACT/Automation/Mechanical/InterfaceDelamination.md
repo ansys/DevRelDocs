@@ -58,7 +58,7 @@ Defines a InterfaceDelamination.
 | [`MatchControl`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.MatchControl)                       | Gets or sets the MatchControl.                                |
 | [`SourceLocation`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.SourceLocation)                   | Gets or sets the SourceLocation.                              |
 | [`TargetLocation`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.TargetLocation)                   | Gets or sets the TargetLocation.                              |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.Children)                               | Gets the list of children.                                    |
 | [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.Figures)                                 | Gets the list of associated figures.                          |
@@ -220,7 +220,7 @@ Gets or sets the TargetLocation.
 
 ### *property* InterfaceDelamination.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

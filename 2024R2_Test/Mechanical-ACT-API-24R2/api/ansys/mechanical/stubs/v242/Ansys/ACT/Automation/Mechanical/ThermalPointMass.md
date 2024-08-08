@@ -48,7 +48,7 @@ Defines a ThermalPointMass.
 | [`AppliedBy`](#ThermalPointMass.AppliedBy)                             | Gets or sets the AppliedBy.                                   |
 | [`Suppressed`](#ThermalPointMass.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`CoordinateSystem`](#ThermalPointMass.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
-| [`DataModelObjectCategory`](#ThermalPointMass.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#ThermalPointMass.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`RemotePoint`](#ThermalPointMass.RemotePoint)                         | Gets the remote point associated to the point mass.           |
 | [`IsDistributedMass`](#ThermalPointMass.IsDistributedMass)             | Gets the IsDistributedMass.                                   |
 | [`Location`](#ThermalPointMass.Location)                               | Gets or sets the Geometry.                                    |
@@ -125,7 +125,7 @@ Gets or sets the CoordinateSystem.
 
 ### *property* ThermalPointMass.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

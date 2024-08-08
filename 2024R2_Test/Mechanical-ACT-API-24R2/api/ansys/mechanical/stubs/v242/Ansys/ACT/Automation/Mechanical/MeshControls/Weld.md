@@ -197,7 +197,7 @@ Defines a Weld.
 | [`WeldEdgesNamedSelection`](#Weld.WeldEdgesNamedSelection)                   | Gets or sets the WeldEdgesNamedSelection.                          |
 | [`BottomEntitiesNamedSelection`](#Weld.BottomEntitiesNamedSelection)         | Gets or sets the BottomEntitiesNamedSelection.                     |
 | [`TopEntitiesNamedSelection`](#Weld.TopEntitiesNamedSelection)               | Gets or sets the TopEntitiesNamedSelection.                        |
-| [`DataModelObjectCategory`](#Weld.DataModelObjectCategory)                   | Gets the current DataModelObjectâ€™s category.                       |
+| [`DataModelObjectCategory`](#Weld.DataModelObjectCategory)                   | Gets the current DataModelObject's category.                       |
 | [`ScopingMethod`](#Weld.ScopingMethod)                                       | Gets or sets the ScopingMethod.                                    |
 | [`Suppressed`](#Weld.Suppressed)                                             | Gets or sets the Suppressed.                                       |
 | [`Children`](#Weld.Children)                                                 | Gets the list of children.                                         |
@@ -752,7 +752,7 @@ Gets or sets the TopEntitiesNamedSelection.
 
 ### *property* Weld.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

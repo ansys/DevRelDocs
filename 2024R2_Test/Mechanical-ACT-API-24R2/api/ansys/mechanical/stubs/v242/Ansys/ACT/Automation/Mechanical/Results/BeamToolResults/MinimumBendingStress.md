@@ -51,7 +51,7 @@ Defines a MinimumBendingStress.
 | Name | Description |
 |------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                       | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](#MinimumBendingStress.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](#MinimumBendingStress.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`BeamToolStressResultType`](#MinimumBendingStress.BeamToolStressResultType)                   | Gets or sets the BeamToolStressResultType.                             |
 | [`PlotData`](#MinimumBendingStress.PlotData)                                                   | Gets the result table.                                                 |
 | [`Location`](#MinimumBendingStress.Location)                                                   | Gets or sets the Location.                                             |
@@ -124,7 +124,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* MinimumBendingStress.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

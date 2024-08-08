@@ -49,7 +49,7 @@ Defines a ResultProbe.
 | [`LocationMethod`](#ResultProbe.LocationMethod)                         | Gets or sets the LocationMethod.                                                                                                                                           |
 | [`GeometryLocation`](#ResultProbe.GeometryLocation)                     | Gets or sets the GeometryLocation.                                                                                                                                         |
 | [`CoordinateSystemSelection`](#ResultProbe.CoordinateSystemSelection)   | Gets or sets the CoordinateSystemSelection.                                                                                                                                |
-| [`BoundaryConditionSelection`](#ResultProbe.BoundaryConditionSelection) | Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSpringsâ€™, please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSpringsâ€™. |
+| [`BoundaryConditionSelection`](#ResultProbe.BoundaryConditionSelection) | Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSprings', please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSprings'. |
 | [`ContactRegionSelection`](#ResultProbe.ContactRegionSelection)         | Gets or sets the ContactRegionSelection.                                                                                                                                   |
 | [`RemotePointSelection`](#ResultProbe.RemotePointSelection)             | Gets or sets the RemotePointSelection.                                                                                                                                     |
 | [`BeamSelection`](#ResultProbe.BeamSelection)                           | Gets or sets the BeamSelection.                                                                                                                                            |
@@ -82,7 +82,7 @@ Defines a ResultProbe.
 | [`Type`](#ResultProbe.Type)                                             | Gets the Type.                                                                                                                                                             |
 | [`DpfEvaluation`](#ResultProbe.DpfEvaluation)                           | Gets or sets the DpfEvaluation.                                                                                                                                            |
 | [`Suppressed`](#ResultProbe.Suppressed)                                 | Gets or sets the Suppressed.                                                                                                                                               |
-| [`DataModelObjectCategory`](#ResultProbe.DataModelObjectCategory)       | Gets the current DataModelObjectâ€™s category.                                                                                                                               |
+| [`DataModelObjectCategory`](#ResultProbe.DataModelObjectCategory)       | Gets the current DataModelObject's category.                                                                                                                               |
 | [`Children`](#ResultProbe.Children)                                     | Gets the list of children.                                                                                                                                                 |
 | [`Comments`](#ResultProbe.Comments)                                     | Gets the list of associated comments.                                                                                                                                      |
 | [`Figures`](#ResultProbe.Figures)                                       | Gets the list of associated figures.                                                                                                                                       |
@@ -131,7 +131,7 @@ Gets or sets the CoordinateSystemSelection.
 
 ### *property* ResultProbe.BoundaryConditionSelection *: Ansys.ACT.Automation.Mechanical.DataModelObject | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSpringsâ€™, please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSpringsâ€™.
+Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSprings', please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSprings'.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -395,7 +395,7 @@ Gets or sets the Suppressed.
 
 ### *property* ResultProbe.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -41,7 +41,7 @@ Defines a PythonCodeEventBased.
 | [`TargetCallback`](#PythonCodeEventBased.TargetCallback)                   | Gets or sets the TargetCallback.                                                      |
 | [`InvalidateSolution`](#PythonCodeEventBased.InvalidateSolution)           | Gets or sets the InvalidateSolution.                                                  |
 | [`Suppressed`](#PythonCodeEventBased.Suppressed)                           | Gets or sets the Suppressed.                                                          |
-| [`DataModelObjectCategory`](#PythonCodeEventBased.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                                          |
+| [`DataModelObjectCategory`](#PythonCodeEventBased.DataModelObjectCategory) | Gets the current DataModelObject's category.                                          |
 | [`Text`](#PythonCodeEventBased.Text)                                       | Gets or sets the text in the script tab for the Python Code object.                   |
 | [`PropertyProvider`](#PythonCodeEventBased.PropertyProvider)               | Gets or sets the propperty provider instance associated with this python code object. |
 | [`InternalObject`](#id1)                                                   | Gets the internal object. For advanced usage only.                                    |
@@ -100,7 +100,7 @@ Gets or sets the Suppressed.
 
 ### *property* PythonCodeEventBased.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

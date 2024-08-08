@@ -52,7 +52,7 @@ Defines a DirectionalDeformation.
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/DeformationResults/DirectionalDeformation.md#id0)                                                                         | Gets the internal object. For advanced usage only.                     |
 | [`NormalOrientation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/DeformationResults/DirectionalDeformation.md#DirectionalDeformation.NormalOrientation)                                 | Gets or sets the NormalOrientation.                                    |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/DeformationResults/DirectionalDeformation.md#DirectionalDeformation.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/DeformationResults/DirectionalDeformation.md#DirectionalDeformation.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`Mode`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/DeformationResults/DirectionalDeformation.md#DirectionalDeformation.Mode)                                                           | Gets or sets the Mode.                                                 |
 | [`ReportedFrequency`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/DeformationResults/DirectionalDeformation.md#DirectionalDeformation.ReportedFrequency)                                 | Gets the ReportedFrequency.                                            |
 | [`DampedFrequency`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/DeformationResults/DirectionalDeformation.md#DirectionalDeformation.DampedFrequency)                                     | Gets the DampedFrequency.                                              |
@@ -154,7 +154,7 @@ Gets or sets the NormalOrientation.
 
 ### *property* DirectionalDeformation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

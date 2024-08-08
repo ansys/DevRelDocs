@@ -156,7 +156,7 @@ Defines a Mesh.
 | [`ElementSize`](#Mesh.ElementSize)                                               | Gets or sets the ElementSize.                                    |
 | [`RigidBodyFaceMeshType`](#Mesh.RigidBodyFaceMeshType)                           | Gets or sets the RigidBodyFaceMeshType.                          |
 | [`RigidBodyBehavior`](#Mesh.RigidBodyBehavior)                                   | Gets or sets the BoundaryCondition.                              |
-| [`CurrentConfiguration`](#Mesh.CurrentConfiguration)                             | Gets the Assembly Meshâ€™s current configuration Id.               |
+| [`CurrentConfiguration`](#Mesh.CurrentConfiguration)                             | Gets the Assembly Mesh's current configuration Id.               |
 | [`MinimizeNumTriangles`](#Mesh.MinimizeNumTriangles)                             | Gets or sets the TriangleReduction option for Batch Connections. |
 | [`NumberOfShellMeshQualityMetrics`](#Mesh.NumberOfShellMeshQualityMetrics)       | Gets the number of Mesh Quality Metrics                          |
 | [`GlobalUseCustomTargetLimit`](#Mesh.GlobalUseCustomTargetLimit)                 | Gets or sets the GlobalUseCustomTargetLimit.                     |
@@ -270,7 +270,7 @@ Defines a Mesh.
 | [`QuadMesh`](#Mesh.QuadMesh)                                                     | Gets or sets the QuadMesh.                                       |
 | [`MeshBasedConnection`](#Mesh.MeshBasedConnection)                               | Gets or sets the MeshBasedConnection.                            |
 | [`NamedSelection`](#Mesh.NamedSelection)                                         | Gets or sets the NamedSelection.                                 |
-| [`DataModelObjectCategory`](#Mesh.DataModelObjectCategory)                       | Gets the current DataModelObjectâ€™s category.                     |
+| [`DataModelObjectCategory`](#Mesh.DataModelObjectCategory)                       | Gets the current DataModelObject's category.                     |
 | [`Children`](#Mesh.Children)                                                     | Gets the list of children.                                       |
 | [`Comments`](#Mesh.Comments)                                                     | Gets the list of associated comments.                            |
 | [`Figures`](#Mesh.Figures)                                                       | Gets the list of associated figures.                             |
@@ -319,7 +319,7 @@ Gets or sets the BoundaryCondition.
 
 ### *property* Mesh.CurrentConfiguration *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the Assembly Meshâ€™s current configuration Id.
+Gets the Assembly Mesh's current configuration Id.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -1231,7 +1231,7 @@ Gets or sets the NamedSelection.
 
 ### *property* Mesh.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

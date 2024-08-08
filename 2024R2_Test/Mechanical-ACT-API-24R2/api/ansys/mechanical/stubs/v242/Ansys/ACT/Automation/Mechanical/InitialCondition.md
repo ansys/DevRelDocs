@@ -84,7 +84,7 @@ Defines a InitialCondition.
 | [`CoordinateSystem`](#InitialCondition.CoordinateSystem)                                             | Gets or sets the CoordinateSystem.                            |
 | [`PreStressEnvironmentTransientMSUPModal`](#InitialCondition.PreStressEnvironmentTransientMSUPModal) | Gets the PreStressEnvironmentTransientMSUPModal.              |
 | [`Location`](#InitialCondition.Location)                                                             | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#InitialCondition.DataModelObjectCategory)                               | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#InitialCondition.DataModelObjectCategory)                               | Gets the current DataModelObject's category.                  |
 | [`Children`](#InitialCondition.Children)                                                             | Gets the list of children.                                    |
 | [`Comments`](#InitialCondition.Comments)                                                             | Gets the list of associated comments.                         |
 | [`Figures`](#InitialCondition.Figures)                                                               | Gets the list of associated figures.                          |
@@ -453,7 +453,7 @@ Gets or sets the Location.
 
 ### *property* InitialCondition.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

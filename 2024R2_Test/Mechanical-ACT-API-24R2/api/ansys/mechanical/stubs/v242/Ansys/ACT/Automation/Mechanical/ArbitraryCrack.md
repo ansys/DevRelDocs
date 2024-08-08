@@ -61,7 +61,7 @@ Defines a ArbitraryCrack.
 | [`CoordinateSystem`](#ArbitraryCrack.CoordinateSystem)                 | Gets or sets the CoordinateSystem.                            |
 | [`CrackSurfaceLocation`](#ArbitraryCrack.CrackSurfaceLocation)         | Gets or sets the CrackSurfaceLocation.                        |
 | [`Location`](#ArbitraryCrack.Location)                                 | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#ArbitraryCrack.DataModelObjectCategory)   | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#ArbitraryCrack.DataModelObjectCategory)   | Gets the current DataModelObject's category.                  |
 | [`CrackID`](#ArbitraryCrack.CrackID)                                   | Gets the CrackID.                                             |
 | [`Children`](#ArbitraryCrack.Children)                                 | Gets the list of children.                                    |
 | [`Comments`](#ArbitraryCrack.Comments)                                 | Gets the list of associated comments.                         |
@@ -248,7 +248,7 @@ Gets or sets the Location.
 
 ### *property* ArbitraryCrack.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

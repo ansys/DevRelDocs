@@ -52,7 +52,7 @@ Defines a DirectionalAcceleration.
 |---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                          | Gets the internal object. For advanced usage only.                     |
 | [`NormalOrientation`](#DirectionalAcceleration.NormalOrientation)                                 | Gets or sets the NormalOrientation.                                    |
-| [`DataModelObjectCategory`](#DirectionalAcceleration.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](#DirectionalAcceleration.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`Mode`](#DirectionalAcceleration.Mode)                                                           | Gets or sets the Mode.                                                 |
 | [`ReportedFrequency`](#DirectionalAcceleration.ReportedFrequency)                                 | Gets the ReportedFrequency.                                            |
 | [`DampedFrequency`](#DirectionalAcceleration.DampedFrequency)                                     | Gets the DampedFrequency.                                              |
@@ -155,7 +155,7 @@ Gets or sets the NormalOrientation.
 
 ### *property* DirectionalAcceleration.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

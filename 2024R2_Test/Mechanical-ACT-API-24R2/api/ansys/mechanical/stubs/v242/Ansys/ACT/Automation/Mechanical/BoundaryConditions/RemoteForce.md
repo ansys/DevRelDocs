@@ -79,7 +79,7 @@ Defines a RemoteForce.
 | [`FollowerLoad`](#RemoteForce.FollowerLoad)                       | Gets or sets the FollowerLoad.                                |
 | [`CoordinateSystem`](#RemoteForce.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
 | [`Location`](#RemoteForce.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#RemoteForce.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#RemoteForce.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Suppressed`](#RemoteForce.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#RemoteForce.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
 | [`Children`](#RemoteForce.Children)                               | Gets the list of children.                                    |
@@ -371,7 +371,7 @@ Gets or sets the Location.
 
 ### *property* RemoteForce.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

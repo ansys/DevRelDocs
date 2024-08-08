@@ -68,7 +68,7 @@ Defines a EllipticalCrack.
 | [`Suppressed`](#EllipticalCrack.Suppressed)                                 | Gets or sets the Suppressed.                                  |
 | [`CoordinateSystem`](#EllipticalCrack.CoordinateSystem)                     | Gets or sets the CoordinateSystem.                            |
 | [`Location`](#EllipticalCrack.Location)                                     | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#EllipticalCrack.DataModelObjectCategory)       | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#EllipticalCrack.DataModelObjectCategory)       | Gets the current DataModelObject's category.                  |
 | [`CrackID`](#EllipticalCrack.CrackID)                                       | Gets the CrackID.                                             |
 | [`Children`](#EllipticalCrack.Children)                                     | Gets the list of children.                                    |
 | [`Comments`](#EllipticalCrack.Comments)                                     | Gets the list of associated comments.                         |
@@ -311,7 +311,7 @@ Gets or sets the Location.
 
 ### *property* EllipticalCrack.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

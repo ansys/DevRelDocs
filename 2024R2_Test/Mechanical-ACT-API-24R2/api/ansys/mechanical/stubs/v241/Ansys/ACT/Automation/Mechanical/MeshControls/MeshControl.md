@@ -44,7 +44,7 @@ Defines a MeshControl.
 | [`ScopingMethod`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/MeshControl.md#MeshControl.ScopingMethod)                     | Gets or sets the ScopingMethod.                               |
 | [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/MeshControl.md#id0)                                          | Gets the internal object. For advanced usage only.            |
 | [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/MeshControl.md#MeshControl.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/MeshControl.md#MeshControl.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/MeshControl.md#MeshControl.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/MeshControl.md#MeshControl.Children)                               | Gets the list of children.                                    |
 | [`Comments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/MeshControl.md#MeshControl.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/MeshControl.md#MeshControl.Figures)                                 | Gets the list of associated figures.                          |
@@ -85,7 +85,7 @@ Gets or sets the Suppressed.
 
 ### *property* MeshControl.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

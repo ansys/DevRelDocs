@@ -49,7 +49,7 @@ Defines a FatigueDamageMatrix.
 | [`MinimumRange`](#FatigueDamageMatrix.MinimumRange)                               | Gets the MinimumRange.                                        |
 | [`MinimumMean`](#FatigueDamageMatrix.MinimumMean)                                 | Gets the MinimumMean.                                         |
 | [`OutputUnit`](#FatigueDamageMatrix.OutputUnit)                                   | Gets or sets the OutputUnit.                                  |
-| [`DataModelObjectCategory`](#FatigueDamageMatrix.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#FatigueDamageMatrix.DataModelObjectCategory)         | Gets the current DataModelObject's category.                  |
 | [`IsSolved`](#FatigueDamageMatrix.IsSolved)                                       | Gets the IsSolved.                                            |
 | [`ChartDimensions`](#FatigueDamageMatrix.ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
 | [`BoundaryCondition`](#FatigueDamageMatrix.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
@@ -162,7 +162,7 @@ Gets or sets the OutputUnit.
 
 ### *property* FatigueDamageMatrix.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

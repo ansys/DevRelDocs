@@ -43,7 +43,7 @@ Defines a ElasticSupport.
 | [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ElasticSupport.md#id0)                                             | Gets the internal object. For advanced usage only.            |
 | [`FoundationStiffness`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ElasticSupport.md#ElasticSupport.FoundationStiffness)         | Gets or sets the FoundationStiffness.                         |
 | [`Location`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ElasticSupport.md#ElasticSupport.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ElasticSupport.md#ElasticSupport.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ElasticSupport.md#ElasticSupport.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ElasticSupport.md#ElasticSupport.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ElasticSupport.md#ElasticSupport.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ElasticSupport.md#ElasticSupport.Children)                               | Gets the list of children.                                    |
@@ -87,7 +87,7 @@ Gets or sets the Location.
 
 ### *property* ElasticSupport.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

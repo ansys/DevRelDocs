@@ -48,7 +48,7 @@ Defines a SymmetryRegion.
 | [`Behavior`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SymmetryRegion.md#SymmetryRegion.Behavior)                               | Gets or sets the Behavior.                                    |
 | [`SymmetryNormal`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SymmetryRegion.md#SymmetryRegion.SymmetryNormal)                   | Gets or sets the SymmetryNormal.                              |
 | [`Type`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SymmetryRegion.md#SymmetryRegion.Type)                                       | Gets or sets the Type.                                        |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SymmetryRegion.md#SymmetryRegion.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SymmetryRegion.md#SymmetryRegion.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`ScopeMode`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SymmetryRegion.md#SymmetryRegion.ScopeMode)                             | Gets the ScopeMode.                                           |
 | [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SymmetryRegion.md#SymmetryRegion.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`CoordinateSystem`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SymmetryRegion.md#SymmetryRegion.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
@@ -135,7 +135,7 @@ Gets or sets the Type.
 
 ### *property* SymmetryRegion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

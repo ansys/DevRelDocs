@@ -53,7 +53,7 @@ Defines a BearingLoad.
 | [`DefineBy`](#BearingLoad.DefineBy)                               | Gets or sets the DefineBy.                                    |
 | [`CoordinateSystem`](#BearingLoad.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
 | [`Location`](#BearingLoad.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#BearingLoad.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#BearingLoad.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Suppressed`](#BearingLoad.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#BearingLoad.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
 | [`Children`](#BearingLoad.Children)                               | Gets the list of children.                                    |
@@ -145,7 +145,7 @@ Gets or sets the Location.
 
 ### *property* BearingLoad.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

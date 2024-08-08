@@ -45,7 +45,7 @@ Defines a ImpedanceBoundary.
 | [`ReferencePressure`](#ImpedanceBoundary.ReferencePressure)             | Gets or sets the ReferencePressure.                           |
 | [`ReferenceVelocity`](#ImpedanceBoundary.ReferenceVelocity)             | Gets or sets the ReferenceVelocity.                           |
 | [`Location`](#ImpedanceBoundary.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#ImpedanceBoundary.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#ImpedanceBoundary.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Suppressed`](#ImpedanceBoundary.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#ImpedanceBoundary.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
 | [`Children`](#ImpedanceBoundary.Children)                               | Gets the list of children.                                    |
@@ -105,7 +105,7 @@ Gets or sets the Location.
 
 ### *property* ImpedanceBoundary.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

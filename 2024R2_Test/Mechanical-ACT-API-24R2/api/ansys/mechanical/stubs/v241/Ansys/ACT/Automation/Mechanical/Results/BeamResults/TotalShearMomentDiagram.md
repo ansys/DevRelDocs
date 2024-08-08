@@ -53,7 +53,7 @@ Defines a TotalShearMomentDiagram.
 | [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamResults/TotalShearMomentDiagram.md#id0)                                                                          | Gets the internal object. For advanced usage only.                     |
 | [`GraphicsDisplay`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamResults/TotalShearMomentDiagram.md#TotalShearMomentDiagram.GraphicsDisplay)                                     | Gets or sets the GraphicsDisplay.                                      |
 | [`ShearMomentType`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamResults/TotalShearMomentDiagram.md#TotalShearMomentDiagram.ShearMomentType)                                     | Gets or sets the ShearMomentType.                                      |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamResults/TotalShearMomentDiagram.md#TotalShearMomentDiagram.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamResults/TotalShearMomentDiagram.md#TotalShearMomentDiagram.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`BeamResultType`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamResults/TotalShearMomentDiagram.md#TotalShearMomentDiagram.BeamResultType)                                       | Gets or sets the BeamResultType.                                       |
 | [`PlotData`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamResults/TotalShearMomentDiagram.md#TotalShearMomentDiagram.PlotData)                                                   | Gets the result table.                                                 |
 | [`Location`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamResults/TotalShearMomentDiagram.md#TotalShearMomentDiagram.Location)                                                   | Gets or sets the Location.                                             |
@@ -141,7 +141,7 @@ Gets or sets the ShearMomentType.
 
 ### *property* TotalShearMomentDiagram.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

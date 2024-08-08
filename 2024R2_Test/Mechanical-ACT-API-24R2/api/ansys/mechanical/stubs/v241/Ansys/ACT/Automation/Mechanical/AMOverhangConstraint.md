@@ -42,7 +42,7 @@ Defines a AMOverhangConstraint.
 | [`ScopingMethod`](../../../../../v242/Ansys/ACT/Automation/Mechanical/AMOverhangConstraint.md#AMOverhangConstraint.ScopingMethod)                     | Gets or sets the ScopingMethod.                               |
 | [`BuildDirection`](../../../../../v242/Ansys/ACT/Automation/Mechanical/AMOverhangConstraint.md#AMOverhangConstraint.BuildDirection)                   | Gets or sets the BuildDirection.                              |
 | [`CoordinateSystem`](../../../../../v242/Ansys/ACT/Automation/Mechanical/AMOverhangConstraint.md#AMOverhangConstraint.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/AMOverhangConstraint.md#AMOverhangConstraint.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/AMOverhangConstraint.md#AMOverhangConstraint.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/AMOverhangConstraint.md#AMOverhangConstraint.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`Selection`](../../../../../v242/Ansys/ACT/Automation/Mechanical/AMOverhangConstraint.md#AMOverhangConstraint.Selection)                             | Gets or sets the Selection.                                   |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/AMOverhangConstraint.md#AMOverhangConstraint.Children)                               | Gets the list of children.                                    |
@@ -98,7 +98,7 @@ Gets or sets the CoordinateSystem.
 
 ### *property* AMOverhangConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

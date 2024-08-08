@@ -42,7 +42,7 @@ Defines a UniformConstraint.
 | [`ScopingMethod`](../../../../../v242/Ansys/ACT/Automation/Mechanical/UniformConstraint.md#UniformConstraint.ScopingMethod)                     | Gets or sets the ScopingMethod.                               |
 | [`CoordinateSystem`](../../../../../v242/Ansys/ACT/Automation/Mechanical/UniformConstraint.md#UniformConstraint.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
 | [`Location`](../../../../../v242/Ansys/ACT/Automation/Mechanical/UniformConstraint.md#UniformConstraint.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/UniformConstraint.md#UniformConstraint.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/UniformConstraint.md#UniformConstraint.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/UniformConstraint.md#UniformConstraint.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`Selection`](../../../../../v242/Ansys/ACT/Automation/Mechanical/UniformConstraint.md#UniformConstraint.Selection)                             | Gets or sets the Selection.                                   |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/UniformConstraint.md#UniformConstraint.Children)                               | Gets the list of children.                                    |
@@ -98,7 +98,7 @@ Gets or sets the Location.
 
 ### *property* UniformConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

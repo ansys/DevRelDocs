@@ -49,7 +49,7 @@ Defines a FractureCrackExtensionProbe.
 | [`ResultProbeValue`](#FractureCrackExtensionProbe.ResultProbeValue)                     | Gets the ResultProbeValue.                                                                                                                                                 |
 | [`MaximumValueOverTime`](#FractureCrackExtensionProbe.MaximumValueOverTime)             | Gets the MaximumValueOverTime.                                                                                                                                             |
 | [`MinimumValueOverTime`](#FractureCrackExtensionProbe.MinimumValueOverTime)             | Gets the MinimumValueOverTime.                                                                                                                                             |
-| [`DataModelObjectCategory`](#FractureCrackExtensionProbe.DataModelObjectCategory)       | Gets the current DataModelObjectâ€™s category.                                                                                                                               |
+| [`DataModelObjectCategory`](#FractureCrackExtensionProbe.DataModelObjectCategory)       | Gets the current DataModelObject's category.                                                                                                                               |
 | [`ActiveContour`](#FractureCrackExtensionProbe.ActiveContour)                           | Gets or sets the ActiveContour.                                                                                                                                            |
 | [`CrackLengthPercentage`](#FractureCrackExtensionProbe.CrackLengthPercentage)           | Gets or sets the CrackLengthPercentage.                                                                                                                                    |
 | [`SolverID`](#FractureCrackExtensionProbe.SolverID)                                     | Gets or sets the SolverID.                                                                                                                                                 |
@@ -57,7 +57,7 @@ Defines a FractureCrackExtensionProbe.
 | [`LocationMethod`](#FractureCrackExtensionProbe.LocationMethod)                         | Gets or sets the LocationMethod.                                                                                                                                           |
 | [`GeometryLocation`](#FractureCrackExtensionProbe.GeometryLocation)                     | Gets or sets the GeometryLocation.                                                                                                                                         |
 | [`CoordinateSystemSelection`](#FractureCrackExtensionProbe.CoordinateSystemSelection)   | Gets or sets the CoordinateSystemSelection.                                                                                                                                |
-| [`BoundaryConditionSelection`](#FractureCrackExtensionProbe.BoundaryConditionSelection) | Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSpringsâ€™, please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSpringsâ€™. |
+| [`BoundaryConditionSelection`](#FractureCrackExtensionProbe.BoundaryConditionSelection) | Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSprings', please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSprings'. |
 | [`ContactRegionSelection`](#FractureCrackExtensionProbe.ContactRegionSelection)         | Gets or sets the ContactRegionSelection.                                                                                                                                   |
 | [`RemotePointSelection`](#FractureCrackExtensionProbe.RemotePointSelection)             | Gets or sets the RemotePointSelection.                                                                                                                                     |
 | [`BeamSelection`](#FractureCrackExtensionProbe.BeamSelection)                           | Gets or sets the BeamSelection.                                                                                                                                            |
@@ -137,7 +137,7 @@ Gets the MinimumValueOverTime.
 
 ### *property* FractureCrackExtensionProbe.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -201,7 +201,7 @@ Gets or sets the CoordinateSystemSelection.
 
 ### *property* FractureCrackExtensionProbe.BoundaryConditionSelection *: Ansys.ACT.Automation.Mechanical.DataModelObject | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSpringsâ€™, please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSpringsâ€™.
+Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSprings', please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSprings'.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -52,7 +52,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Points`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ConstructionLines/ConstructionLine.md#ConstructionLine.Points)                                   | Returns all points in this Construction Line, both those that have been created        |
 | [`Planes`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ConstructionLines/ConstructionLine.md#ConstructionLine.Planes)                                   | Creates for the user an Plane representation of each plane in this Construction Line.  |
 | [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ConstructionLines/ConstructionLine.md#id0)                                               | Gets the internal object. For advanced usage only.                                     |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ConstructionLines/ConstructionLine.md#ConstructionLine.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                                           |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ConstructionLines/ConstructionLine.md#ConstructionLine.DataModelObjectCategory) | Gets the current DataModelObject's category.                                           |
 | [`Comments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ConstructionLines/ConstructionLine.md#ConstructionLine.Comments)                               | Gets the list of associated comments.                                                  |
 | [`Figures`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ConstructionLines/ConstructionLine.md#ConstructionLine.Figures)                                 | Gets the list of associated figures.                                                   |
 | [`Images`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ConstructionLines/ConstructionLine.md#ConstructionLine.Images)                                   | Gets the list of associated images.                                                    |
@@ -102,7 +102,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* ConstructionLine.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

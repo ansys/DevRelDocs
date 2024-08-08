@@ -44,7 +44,7 @@ Defines a GenericPointMass.
 | [`IsDistributedMass`](../../../../../v242/Ansys/ACT/Automation/Mechanical/GenericPointMass.md#GenericPointMass.IsDistributedMass)             | Gets the IsDistributedMass.                                   |
 | [`Location`](../../../../../v242/Ansys/ACT/Automation/Mechanical/GenericPointMass.md#GenericPointMass.Location)                               | Gets or sets the Geometry.                                    |
 | [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/GenericPointMass.md#id0)                                               | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/GenericPointMass.md#GenericPointMass.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/GenericPointMass.md#GenericPointMass.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/GenericPointMass.md#GenericPointMass.Children)                               | Gets the list of children.                                    |
 | [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/GenericPointMass.md#GenericPointMass.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/GenericPointMass.md#GenericPointMass.Figures)                                 | Gets the list of associated figures.                          |
@@ -94,7 +94,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* GenericPointMass.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

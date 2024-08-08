@@ -41,7 +41,7 @@ Defines a PythonCode.
 | [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PythonCode.md#id0)                                         | Gets the internal object. For advanced usage only.                                    |
 | [`ScriptExecutionScope`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PythonCode.md#PythonCode.ScriptExecutionScope)       | The scope identifier in which the code execution will take place.                     |
 | [`Connected`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PythonCode.md#PythonCode.Connected)                             | Gets whether the callbacks are currently connected.                                   |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PythonCode.md#PythonCode.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                                          |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PythonCode.md#PythonCode.DataModelObjectCategory) | Gets the current DataModelObject's category.                                          |
 | [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PythonCode.md#id0)                                         | Gets the internal object. For advanced usage only.                                    |
 | [`Properties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PythonCode.md#PythonCode.Properties)                           | Gets the list of properties for this object.                                          |
 | [`VisibleProperties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PythonCode.md#PythonCode.VisibleProperties)             | Gets the list of properties that are visible for this object.                         |
@@ -94,7 +94,7 @@ Gets whether the callbacks are currently connected.
 
 ### *property* PythonCode.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

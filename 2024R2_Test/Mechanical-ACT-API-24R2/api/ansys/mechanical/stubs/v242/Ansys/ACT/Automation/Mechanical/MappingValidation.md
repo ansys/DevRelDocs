@@ -56,7 +56,7 @@ Defines a MappingValidation.
 | [`DisplayDataType`](#MappingValidation.DisplayDataType)                 | Gets or sets the DisplayDataType.                                                          |
 | [`ShellFace`](#MappingValidation.ShellFace)                             | Controls whether the displayed shell face lies on the bottom, middle, or top of the shell. |
 | [`ComplexComponent`](#MappingValidation.ComplexComponent)               | Gets or sets the ComplexComponent.                                                         |
-| [`DataModelObjectCategory`](#MappingValidation.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                                               |
+| [`DataModelObjectCategory`](#MappingValidation.DataModelObjectCategory) | Gets the current DataModelObject's category.                                               |
 | [`Children`](#MappingValidation.Children)                               | Gets the list of children.                                                                 |
 | [`Comments`](#MappingValidation.Comments)                               | Gets the list of associated comments.                                                      |
 | [`Figures`](#MappingValidation.Figures)                                 | Gets the list of associated figures.                                                       |
@@ -209,7 +209,7 @@ Gets or sets the ComplexComponent.
 
 ### *property* MappingValidation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

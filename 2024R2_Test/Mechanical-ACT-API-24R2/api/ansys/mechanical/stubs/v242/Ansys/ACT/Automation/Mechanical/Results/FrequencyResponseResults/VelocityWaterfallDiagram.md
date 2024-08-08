@@ -63,7 +63,7 @@ Defines a VelocityWaterfallDiagram.
 | [`STFTWindowType`](#VelocityWaterfallDiagram.STFTWindowType)                                       | Gets or sets the STFTWindowType.                                       |
 | [`DisplayPanel`](#VelocityWaterfallDiagram.DisplayPanel)                                           | Gets or sets the DisplayPanel.                                         |
 | [`PanelContribution`](#VelocityWaterfallDiagram.PanelContribution)                                 | Gets or sets the PanelContribution.                                    |
-| [`DataModelObjectCategory`](#VelocityWaterfallDiagram.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](#VelocityWaterfallDiagram.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`PlotData`](#VelocityWaterfallDiagram.PlotData)                                                   | Gets the result table.                                                 |
 | [`Location`](#VelocityWaterfallDiagram.Location)                                                   | Gets or sets the Location.                                             |
 | [`TimeForMinimumOfMinimumValues`](#VelocityWaterfallDiagram.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
@@ -231,7 +231,7 @@ Gets or sets the PanelContribution.
 
 ### *property* VelocityWaterfallDiagram.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

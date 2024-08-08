@@ -56,7 +56,7 @@ Defines a AcousticTransmissionLoss.
 | [`MaximumFrequency`](#AcousticTransmissionLoss.MaximumFrequency)                                   | Gets or sets the MaximumFrequency.                                     |
 | [`MinimumFrequency`](#AcousticTransmissionLoss.MinimumFrequency)                                   | Gets or sets the MinimumFrequency.                                     |
 | [`FrequencyRange`](#AcousticTransmissionLoss.FrequencyRange)                                       | Gets or sets the FrequencyRange.                                       |
-| [`DataModelObjectCategory`](#AcousticTransmissionLoss.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](#AcousticTransmissionLoss.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`Mode`](#AcousticTransmissionLoss.Mode)                                                           | Gets or sets the Mode.                                                 |
 | [`ReportedFrequency`](#AcousticTransmissionLoss.ReportedFrequency)                                 | Gets the ReportedFrequency.                                            |
 | [`DampedFrequency`](#AcousticTransmissionLoss.DampedFrequency)                                     | Gets the DampedFrequency.                                              |
@@ -177,7 +177,7 @@ Gets or sets the FrequencyRange.
 
 ### *property* AcousticTransmissionLoss.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

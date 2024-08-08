@@ -43,7 +43,7 @@ Defines a PatternRepetitionConstraint.
 | [`ScopingMethod`](#PatternRepetitionConstraint.ScopingMethod)                     | Gets or sets the ScopingMethod.                               |
 | [`CoordinateSystem`](#PatternRepetitionConstraint.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
 | [`Location`](#PatternRepetitionConstraint.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#PatternRepetitionConstraint.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#PatternRepetitionConstraint.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Suppressed`](#PatternRepetitionConstraint.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`Selection`](#PatternRepetitionConstraint.Selection)                             | Gets or sets the Selection.                                   |
 | [`Children`](#PatternRepetitionConstraint.Children)                               | Gets the list of children.                                    |
@@ -107,7 +107,7 @@ Gets or sets the Location.
 
 ### *property* PatternRepetitionConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

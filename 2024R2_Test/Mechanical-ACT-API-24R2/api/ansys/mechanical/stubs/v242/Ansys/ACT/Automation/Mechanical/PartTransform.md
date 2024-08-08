@@ -54,7 +54,7 @@ Defines a PartTransform.
 | [`SourceCoordinateSystem`](#PartTransform.SourceCoordinateSystem)   | Gets or sets the SourceCoordinateSystem.                      |
 | [`TargetCoordinateSystem`](#PartTransform.TargetCoordinateSystem)   | Gets or sets the TargetCoordinateSystem.                      |
 | [`Location`](#PartTransform.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#PartTransform.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#PartTransform.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](#PartTransform.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#PartTransform.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#PartTransform.Figures)                                 | Gets the list of associated figures.                          |
@@ -183,7 +183,7 @@ Gets or sets the Location.
 
 ### *property* PartTransform.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

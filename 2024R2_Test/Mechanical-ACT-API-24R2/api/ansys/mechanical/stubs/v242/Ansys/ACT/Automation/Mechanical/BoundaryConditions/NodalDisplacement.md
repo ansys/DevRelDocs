@@ -59,7 +59,7 @@ Defines a NodalDisplacement.
 | [`CoordinateSystem`](#NodalDisplacement.CoordinateSystem)                               | Gets the CoordinateSystem.                                    |
 | [`XYZFunctionCoordinateSystem`](#NodalDisplacement.XYZFunctionCoordinateSystem)         | Gets or sets the XYZFunctionCoordinateSystem.                 |
 | [`Location`](#NodalDisplacement.Location)                                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#NodalDisplacement.DataModelObjectCategory)                 | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#NodalDisplacement.DataModelObjectCategory)                 | Gets the current DataModelObject's category.                  |
 | [`Suppressed`](#NodalDisplacement.Suppressed)                                           | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#NodalDisplacement.SharedRefBody)                                     | Gets or sets the SharedRefBody.                               |
 | [`Children`](#NodalDisplacement.Children)                                               | Gets the list of children.                                    |
@@ -199,7 +199,7 @@ Gets or sets the Location.
 
 ### *property* NodalDisplacement.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -47,7 +47,7 @@ Defines a GeneratedAMSupport.
 | [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/GeneratedAMSupport.md#id0)                                                               | Gets the internal object. For advanced usage only.            |
 | [`Mode`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/GeneratedAMSupport.md#GeneratedAMSupport.Mode)                                                     | Gets or sets the Mode.                                        |
 | [`Location`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/GeneratedAMSupport.md#GeneratedAMSupport.Location)                                             | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/GeneratedAMSupport.md#GeneratedAMSupport.DataModelObjectCategory)               | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/GeneratedAMSupport.md#GeneratedAMSupport.DataModelObjectCategory)               | Gets the current DataModelObject's category.                  |
 | [`ThermalConductivityMultipleInX`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/GeneratedAMSupport.md#GeneratedAMSupport.ThermalConductivityMultipleInX) | Gets or sets the ThermalConductivityMultipleInX.              |
 | [`ThermalConductivityMultipleInY`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/GeneratedAMSupport.md#GeneratedAMSupport.ThermalConductivityMultipleInY) | Gets or sets the ThermalConductivityMultipleInY.              |
 | [`ThermalConductivityMultipleInZ`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/GeneratedAMSupport.md#GeneratedAMSupport.ThermalConductivityMultipleInZ) | Gets or sets the ThermalConductivityMultipleInZ.              |
@@ -104,7 +104,7 @@ Gets or sets the Location.
 
 ### *property* GeneratedAMSupport.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -44,7 +44,7 @@ Defines a ContactEnergyTracker.
 |------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                           | Gets the internal object. For advanced usage only.            |
 | [`ContactRegion`](#ContactEnergyTracker.ContactRegion)                             | Gets or sets the ContactRegion.                               |
-| [`DataModelObjectCategory`](#ContactEnergyTracker.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#ContactEnergyTracker.DataModelObjectCategory)         | Gets the current DataModelObject's category.                  |
 | [`IsSolved`](#ContactEnergyTracker.IsSolved)                                       | Gets the IsSolved.                                            |
 | [`ChartDimensions`](#ContactEnergyTracker.ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
 | [`BoundaryCondition`](#ContactEnergyTracker.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
@@ -117,7 +117,7 @@ Gets or sets the ContactRegion.
 
 ### *property* ContactEnergyTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

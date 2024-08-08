@@ -54,7 +54,7 @@ Defines a ShearElasticStrain.
 | [`ScaleFactorValue`](#ShearElasticStrain.ScaleFactorValue)                                   | Gets or sets the ScaleFactorValue.                                     |
 | [`ScaleFactor`](#ShearElasticStrain.ScaleFactor)                                             | Gets or sets the ScaleFactor.                                          |
 | [`ShearOrientation`](#ShearElasticStrain.ShearOrientation)                                   | Gets or sets the ShearOrientation.                                     |
-| [`DataModelObjectCategory`](#ShearElasticStrain.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](#ShearElasticStrain.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`Mode`](#ShearElasticStrain.Mode)                                                           | Gets or sets the Mode.                                                 |
 | [`Ply`](#ShearElasticStrain.Ply)                                                             | Gets or sets the Ply selection.                                        |
 | [`Plies`](#ShearElasticStrain.Plies)                                                         | Plies property.                                                        |
@@ -167,7 +167,7 @@ Gets or sets the ShearOrientation.
 
 ### *property* ShearElasticStrain.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -51,7 +51,7 @@ Defines a Connect.
 | [`PerformIntersections`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/Connect.md#Connect.PerformIntersections)       | Gets or sets the PerformIntersections.                        |
 | [`NamedSelection`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/Connect.md#Connect.NamedSelection)                   | Gets or sets the NamedSelection.                              |
 | [`Location`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/Connect.md#Connect.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/Connect.md#Connect.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/Connect.md#Connect.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`ScopingMethod`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/Connect.md#Connect.ScopingMethod)                     | Gets or sets the ScopingMethod.                               |
 | [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/Connect.md#Connect.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/Connect.md#Connect.Children)                               | Gets the list of children.                                    |
@@ -150,7 +150,7 @@ Gets or sets the Location.
 
 ### *property* Connect.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

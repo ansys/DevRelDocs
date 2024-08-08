@@ -49,7 +49,7 @@ Defines a Solid.
 | [`Z1`](#Solid.Z1)                                           | Gets or sets the Z1.                                          |
 | [`Z2`](#Solid.Z2)                                           | Gets or sets the Z2.                                          |
 | [`CoordinateSystem`](#Solid.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
-| [`DataModelObjectCategory`](#Solid.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#Solid.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](#Solid.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#Solid.Comments)                               | Gets the list of associated comments.                         |
 | [`ReadOnly`](#Solid.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
@@ -137,7 +137,7 @@ Gets or sets the CoordinateSystem.
 
 ### *property* Solid.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

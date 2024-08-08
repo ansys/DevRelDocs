@@ -61,7 +61,7 @@ Defines a Path.
 | [`StartCoordinateSystem`](#Path.StartCoordinateSystem)         | Gets or sets the StartCoordinateSystem.                       |
 | [`Location`](#Path.Location)                                   | Gets or sets the Location.                                    |
 | [`OffsetEdgeLocation`](#Path.OffsetEdgeLocation)               | Gets or sets the OffsetEdgeLocation.                          |
-| [`DataModelObjectCategory`](#Path.DataModelObjectCategory)     | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#Path.DataModelObjectCategory)     | Gets the current DataModelObject's category.                  |
 | [`Children`](#Path.Children)                                   | Gets the list of children.                                    |
 | [`Comments`](#Path.Comments)                                   | Gets the list of associated comments.                         |
 | [`Figures`](#Path.Figures)                                     | Gets the list of associated figures.                          |
@@ -238,7 +238,7 @@ Gets or sets the OffsetEdgeLocation.
 
 ### *property* Path.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

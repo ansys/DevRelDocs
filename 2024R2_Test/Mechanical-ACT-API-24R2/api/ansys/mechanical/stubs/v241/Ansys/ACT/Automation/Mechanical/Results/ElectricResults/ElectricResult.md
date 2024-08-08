@@ -58,7 +58,7 @@ Defines a ElectricResult.
 | [`ElectricResultType`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ElectricResults/ElectricResult.md#ElectricResult.ElectricResultType)                               | Gets or sets the ElectricResultType.                                   |
 | [`Amplitude`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ElectricResults/ElectricResult.md#ElectricResult.Amplitude)                                                 | Gets or sets the Amplitude.                                            |
 | [`AverageAcrossBodies`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ElectricResults/ElectricResult.md#ElectricResult.AverageAcrossBodies)                             | Gets or sets the AverageAcrossBodies.                                  |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ElectricResults/ElectricResult.md#ElectricResult.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ElectricResults/ElectricResult.md#ElectricResult.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`PlotData`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ElectricResults/ElectricResult.md#ElectricResult.PlotData)                                                   | Gets the result table.                                                 |
 | [`Location`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ElectricResults/ElectricResult.md#ElectricResult.Location)                                                   | Gets or sets the Location.                                             |
 | [`TimeForMinimumOfMinimumValues`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ElectricResults/ElectricResult.md#ElectricResult.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
@@ -185,7 +185,7 @@ Gets or sets the AverageAcrossBodies.
 
 ### *property* ElectricResult.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

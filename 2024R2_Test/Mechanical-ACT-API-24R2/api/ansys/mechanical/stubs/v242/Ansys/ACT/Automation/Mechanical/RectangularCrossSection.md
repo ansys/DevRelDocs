@@ -45,7 +45,7 @@ Defines a RectangularCrossSection.
 | [`IZZ`](#RectangularCrossSection.IZZ)                                         | Gets the IZZ.                                                 |
 | [`Height`](#RectangularCrossSection.Height)                                   | Gets or sets the Height.                                      |
 | [`Width`](#RectangularCrossSection.Width)                                     | Gets or sets the Width.                                       |
-| [`DataModelObjectCategory`](#RectangularCrossSection.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#RectangularCrossSection.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](#RectangularCrossSection.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#RectangularCrossSection.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#RectangularCrossSection.Figures)                                 | Gets the list of associated figures.                          |
@@ -111,7 +111,7 @@ Gets or sets the Width.
 
 ### *property* RectangularCrossSection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

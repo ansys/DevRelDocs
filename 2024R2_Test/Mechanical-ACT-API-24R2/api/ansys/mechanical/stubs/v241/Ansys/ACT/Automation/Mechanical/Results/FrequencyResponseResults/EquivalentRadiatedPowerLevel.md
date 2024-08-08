@@ -57,7 +57,7 @@ Defines a EquivalentRadiatedPowerLevel.
 | [`MaximumFrequency`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/EquivalentRadiatedPowerLevel.md#EquivalentRadiatedPowerLevel.MaximumFrequency)                                   | Gets or sets the MaximumFrequency.                                     |
 | [`MinimumFrequency`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/EquivalentRadiatedPowerLevel.md#EquivalentRadiatedPowerLevel.MinimumFrequency)                                   | Gets or sets the MinimumFrequency.                                     |
 | [`FrequencyRange`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/EquivalentRadiatedPowerLevel.md#EquivalentRadiatedPowerLevel.FrequencyRange)                                       | Gets or sets the FrequencyRange.                                       |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/EquivalentRadiatedPowerLevel.md#EquivalentRadiatedPowerLevel.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/EquivalentRadiatedPowerLevel.md#EquivalentRadiatedPowerLevel.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`PlotData`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/EquivalentRadiatedPowerLevel.md#EquivalentRadiatedPowerLevel.PlotData)                                                   | Gets the result table.                                                 |
 | [`Location`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/EquivalentRadiatedPowerLevel.md#EquivalentRadiatedPowerLevel.Location)                                                   | Gets or sets the Location.                                             |
 | [`TimeForMinimumOfMinimumValues`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/EquivalentRadiatedPowerLevel.md#EquivalentRadiatedPowerLevel.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
@@ -160,7 +160,7 @@ Gets or sets the FrequencyRange.
 
 ### *property* EquivalentRadiatedPowerLevel.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

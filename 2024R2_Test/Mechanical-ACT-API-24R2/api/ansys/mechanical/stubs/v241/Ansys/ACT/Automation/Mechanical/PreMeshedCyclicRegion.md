@@ -44,7 +44,7 @@ Defines a PreMeshedCyclicRegion.
 | [`RelativeDistanceTolerance`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PreMeshedCyclicRegion.md#PreMeshedCyclicRegion.RelativeDistanceTolerance) | Gets or sets the RelativeDistanceTolerance.                   |
 | [`NumberOfSectors`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PreMeshedCyclicRegion.md#PreMeshedCyclicRegion.NumberOfSectors)                     | Gets or sets the NumberOfSectors.                             |
 | [`BoundaryDOFOrientation`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PreMeshedCyclicRegion.md#PreMeshedCyclicRegion.BoundaryDOFOrientation)       | Gets or sets the BoundaryDOFOrientation.                      |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PreMeshedCyclicRegion.md#PreMeshedCyclicRegion.DataModelObjectCategory)     | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PreMeshedCyclicRegion.md#PreMeshedCyclicRegion.DataModelObjectCategory)     | Gets the current DataModelObject's category.                  |
 | [`ScopeMode`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PreMeshedCyclicRegion.md#PreMeshedCyclicRegion.ScopeMode)                                 | Gets the ScopeMode.                                           |
 | [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PreMeshedCyclicRegion.md#PreMeshedCyclicRegion.Suppressed)                               | Gets or sets the Suppressed.                                  |
 | [`CoordinateSystem`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PreMeshedCyclicRegion.md#PreMeshedCyclicRegion.CoordinateSystem)                   | Gets or sets the CoordinateSystem.                            |
@@ -100,7 +100,7 @@ Gets or sets the BoundaryDOFOrientation.
 
 ### *property* PreMeshedCyclicRegion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

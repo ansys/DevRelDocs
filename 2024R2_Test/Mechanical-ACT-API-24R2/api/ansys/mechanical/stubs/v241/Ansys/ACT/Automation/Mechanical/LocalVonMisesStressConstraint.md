@@ -41,7 +41,7 @@ Defines a LocalVonMisesStressConstraint.
 | [`Maximum`](../../../../../v242/Ansys/ACT/Automation/Mechanical/LocalVonMisesStressConstraint.md#LocalVonMisesStressConstraint.Maximum)                                 | Gets or sets the Maximum.                                                                |
 | [`ScopingMethod`](../../../../../v242/Ansys/ACT/Automation/Mechanical/LocalVonMisesStressConstraint.md#LocalVonMisesStressConstraint.ScopingMethod)                     | Gets or sets the ScopingMethod.                                                          |
 | [`Location`](../../../../../v242/Ansys/ACT/Automation/Mechanical/LocalVonMisesStressConstraint.md#LocalVonMisesStressConstraint.Location)                               | Gets or sets the Location.                                                               |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/LocalVonMisesStressConstraint.md#LocalVonMisesStressConstraint.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                                             |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/LocalVonMisesStressConstraint.md#LocalVonMisesStressConstraint.DataModelObjectCategory) | Gets the current DataModelObject's category.                                             |
 | [`EnvironmentSelection`](../../../../../v242/Ansys/ACT/Automation/Mechanical/LocalVonMisesStressConstraint.md#LocalVonMisesStressConstraint.EnvironmentSelection)       | Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum. |
 | [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/LocalVonMisesStressConstraint.md#LocalVonMisesStressConstraint.Suppressed)                           | Gets or sets the Suppressed.                                                             |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/LocalVonMisesStressConstraint.md#LocalVonMisesStressConstraint.Children)                               | Gets the list of children.                                                               |
@@ -89,7 +89,7 @@ Gets or sets the Location.
 
 ### *property* LocalVonMisesStressConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

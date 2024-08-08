@@ -101,7 +101,7 @@ Defines a UserDefinedResult.
 | [`CalculateTimeHistory`](#UserDefinedResult.CalculateTimeHistory)           | Gets or sets the CalculateTimeHistory.                                 |
 | [`AverageAcrossBodies`](#UserDefinedResult.AverageAcrossBodies)             | Gets or sets the AverageAcrossBodies.                                  |
 | [`Suppressed`](#UserDefinedResult.Suppressed)                               | Gets or sets the Suppressed.                                           |
-| [`DataModelObjectCategory`](#UserDefinedResult.DataModelObjectCategory)     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](#UserDefinedResult.DataModelObjectCategory)     | Gets the current DataModelObject's category.                           |
 | [`Children`](#UserDefinedResult.Children)                                   | Gets the list of children.                                             |
 | [`Comments`](#UserDefinedResult.Comments)                                   | Gets the list of associated comments.                                  |
 | [`Figures`](#UserDefinedResult.Figures)                                     | Gets the list of associated figures.                                   |
@@ -544,7 +544,7 @@ Gets or sets the Suppressed.
 
 ### *property* UserDefinedResult.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

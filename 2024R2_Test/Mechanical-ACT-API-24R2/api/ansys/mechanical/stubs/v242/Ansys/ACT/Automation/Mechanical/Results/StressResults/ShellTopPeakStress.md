@@ -53,7 +53,7 @@ Defines a ShellTopPeakStress.
 | [`NormalOrientation`](#id0)                                                                  | Gets or sets the NormalOrientation.                                    |
 | [`InternalObject`](#id1)                                                                     | Gets the internal object. For advanced usage only.                     |
 | [`ShellMBPType`](#ShellTopPeakStress.ShellMBPType)                                           | Gets the ShellMBPType.                                                 |
-| [`DataModelObjectCategory`](#ShellTopPeakStress.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](#ShellTopPeakStress.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`Mode`](#ShellTopPeakStress.Mode)                                                           | Gets or sets the Mode.                                                 |
 | [`Ply`](#ShellTopPeakStress.Ply)                                                             | Gets or sets the Ply selection.                                        |
 | [`Plies`](#ShellTopPeakStress.Plies)                                                         | Plies property.                                                        |
@@ -178,7 +178,7 @@ Gets the ShellMBPType.
 
 ### *property* ShellTopPeakStress.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

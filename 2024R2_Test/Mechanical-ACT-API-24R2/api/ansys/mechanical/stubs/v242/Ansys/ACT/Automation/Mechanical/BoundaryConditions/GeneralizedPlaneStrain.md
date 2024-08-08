@@ -50,7 +50,7 @@ Defines a GeneralizedPlaneStrain.
 | [`BoundaryConditionForRotationAboutY`](#GeneralizedPlaneStrain.BoundaryConditionForRotationAboutY) | Gets or sets the BoundaryConditionForRotationAboutY.          |
 | [`Suppressed`](#GeneralizedPlaneStrain.Suppressed)                                                 | Gets or sets the Suppressed.                                  |
 | [`CoordinateSystem`](#GeneralizedPlaneStrain.CoordinateSystem)                                     | Gets or sets the CoordinateSystem.                            |
-| [`DataModelObjectCategory`](#GeneralizedPlaneStrain.DataModelObjectCategory)                       | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#GeneralizedPlaneStrain.DataModelObjectCategory)                       | Gets the current DataModelObject's category.                  |
 | [`Children`](#GeneralizedPlaneStrain.Children)                                                     | Gets the list of children.                                    |
 | [`Comments`](#GeneralizedPlaneStrain.Comments)                                                     | Gets the list of associated comments.                         |
 | [`Figures`](#GeneralizedPlaneStrain.Figures)                                                       | Gets the list of associated figures.                          |
@@ -155,7 +155,7 @@ Gets or sets the CoordinateSystem.
 
 ### *property* GeneralizedPlaneStrain.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

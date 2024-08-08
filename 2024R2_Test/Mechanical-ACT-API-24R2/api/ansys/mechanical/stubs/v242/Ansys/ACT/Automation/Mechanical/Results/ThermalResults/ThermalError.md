@@ -51,7 +51,7 @@ Defines a ThermalError.
 | Name | Description |
 |----------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                               | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](#ThermalError.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](#ThermalError.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`Layer`](#ThermalError.Layer)                                                         | Gets or sets the Layer.                                                |
 | [`ThermalResultType`](#ThermalError.ThermalResultType)                                 | Gets or sets the ThermalResultType.                                    |
 | [`NormalOrientation`](#ThermalError.NormalOrientation)                                 | Gets or sets the NormalOrientation.                                    |
@@ -128,7 +128,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* ThermalError.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -51,7 +51,7 @@ Defines a FluidFlowRate.
 | Name | Description |
 |-----------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](#FluidFlowRate.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](#FluidFlowRate.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`Layer`](#FluidFlowRate.Layer)                                                         | Gets or sets the Layer.                                                |
 | [`ThermalResultType`](#FluidFlowRate.ThermalResultType)                                 | Gets or sets the ThermalResultType.                                    |
 | [`NormalOrientation`](#FluidFlowRate.NormalOrientation)                                 | Gets or sets the NormalOrientation.                                    |
@@ -128,7 +128,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* FluidFlowRate.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

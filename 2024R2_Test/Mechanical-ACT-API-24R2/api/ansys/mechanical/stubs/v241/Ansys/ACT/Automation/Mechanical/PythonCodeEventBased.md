@@ -40,7 +40,7 @@ Defines a PythonCodeEventBased.
 | [`SolverTarget`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PythonCodeEventBased.md#PythonCodeEventBased.SolverTarget)                       | Gets the SolverTarget.                                                                |
 | [`TargetCallback`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PythonCodeEventBased.md#PythonCodeEventBased.TargetCallback)                   | Gets or sets the TargetCallback.                                                      |
 | [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PythonCodeEventBased.md#PythonCodeEventBased.Suppressed)                           | Gets or sets the Suppressed.                                                          |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PythonCodeEventBased.md#PythonCodeEventBased.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                                          |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PythonCodeEventBased.md#PythonCodeEventBased.DataModelObjectCategory) | Gets the current DataModelObject's category.                                          |
 | [`Text`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PythonCodeEventBased.md#PythonCodeEventBased.Text)                                       | Gets or sets the text in the script tab for the Python Code object.                   |
 | [`PropertyProvider`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PythonCodeEventBased.md#PythonCodeEventBased.PropertyProvider)               | Gets or sets the propperty provider instance associated with this python code object. |
 | [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PythonCodeEventBased.md#id1)                                                   | Gets the internal object. For advanced usage only.                                    |
@@ -90,7 +90,7 @@ Gets or sets the Suppressed.
 
 ### *property* PythonCodeEventBased.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

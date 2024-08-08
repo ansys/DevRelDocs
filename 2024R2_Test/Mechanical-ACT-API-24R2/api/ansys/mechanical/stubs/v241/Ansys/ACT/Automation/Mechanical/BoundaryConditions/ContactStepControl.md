@@ -46,7 +46,7 @@ Defines a ContactStepControl.
 | [`Status`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ContactStepControl.md#ContactStepControl.Status)                                   | Gets or sets the Status.                                      |
 | [`NormalStiffness`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ContactStepControl.md#ContactStepControl.NormalStiffness)                 | Gets or sets the NormalStiffness.                             |
 | [`ContactSelection`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ContactStepControl.md#ContactStepControl.ContactSelection)               | Gets or sets the ContactSelection.                            |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ContactStepControl.md#ContactStepControl.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ContactStepControl.md#ContactStepControl.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ContactStepControl.md#ContactStepControl.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ContactStepControl.md#ContactStepControl.Children)                               | Gets the list of children.                                    |
 | [`Comments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ContactStepControl.md#ContactStepControl.Comments)                               | Gets the list of associated comments.                         |
@@ -120,7 +120,7 @@ Gets or sets the ContactSelection.
 
 ### *property* ContactStepControl.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

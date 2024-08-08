@@ -52,7 +52,7 @@ Defines a DirectionalDeformation.
 |--------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                         | Gets the internal object. For advanced usage only.                     |
 | [`NormalOrientation`](#DirectionalDeformation.NormalOrientation)                                 | Gets or sets the NormalOrientation.                                    |
-| [`DataModelObjectCategory`](#DirectionalDeformation.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](#DirectionalDeformation.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`Mode`](#DirectionalDeformation.Mode)                                                           | Gets or sets the Mode.                                                 |
 | [`ReportedFrequency`](#DirectionalDeformation.ReportedFrequency)                                 | Gets the ReportedFrequency.                                            |
 | [`DampedFrequency`](#DirectionalDeformation.DampedFrequency)                                     | Gets the DampedFrequency.                                              |
@@ -155,7 +155,7 @@ Gets or sets the NormalOrientation.
 
 ### *property* DirectionalDeformation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

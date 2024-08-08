@@ -41,7 +41,7 @@ Defines a NaturalFrequencyConstraint.
 | [`ModeNumber`](#NaturalFrequencyConstraint.ModeNumber)                           | Gets or sets the ModeNumber.                                                             |
 | [`MaximumFrequency`](#NaturalFrequencyConstraint.MaximumFrequency)               | Gets or sets the MaximumFrequency.                                                       |
 | [`MinimumFrequency`](#NaturalFrequencyConstraint.MinimumFrequency)               | Gets or sets the MinimumFrequency.                                                       |
-| [`DataModelObjectCategory`](#NaturalFrequencyConstraint.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                                             |
+| [`DataModelObjectCategory`](#NaturalFrequencyConstraint.DataModelObjectCategory) | Gets the current DataModelObject's category.                                             |
 | [`EnvironmentSelection`](#NaturalFrequencyConstraint.EnvironmentSelection)       | Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum. |
 | [`Suppressed`](#NaturalFrequencyConstraint.Suppressed)                           | Gets or sets the Suppressed.                                                             |
 | [`Children`](#NaturalFrequencyConstraint.Children)                               | Gets the list of children.                                                               |
@@ -89,7 +89,7 @@ Gets or sets the MinimumFrequency.
 
 ### *property* NaturalFrequencyConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

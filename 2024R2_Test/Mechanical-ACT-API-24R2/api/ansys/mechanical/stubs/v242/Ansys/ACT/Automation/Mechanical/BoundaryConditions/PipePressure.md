@@ -55,7 +55,7 @@ Defines a PipePressure.
 | [`IndependentVariable`](#PipePressure.IndependentVariable)                 | Gets or sets the IndependentVariable.                         |
 | [`XYZFunctionCoordinateSystem`](#PipePressure.XYZFunctionCoordinateSystem) | Gets or sets the XYZFunctionCoordinateSystem.                 |
 | [`Location`](#PipePressure.Location)                                       | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#PipePressure.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#PipePressure.DataModelObjectCategory)         | Gets the current DataModelObject's category.                  |
 | [`Suppressed`](#PipePressure.Suppressed)                                   | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#PipePressure.SharedRefBody)                             | Gets or sets the SharedRefBody.                               |
 | [`Children`](#PipePressure.Children)                                       | Gets the list of children.                                    |
@@ -163,7 +163,7 @@ Gets or sets the Location.
 
 ### *property* PipePressure.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

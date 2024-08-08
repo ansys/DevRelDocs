@@ -76,7 +76,7 @@ Defines a Moment.
 | [`NonCyclicLoadingType`](#Moment.NonCyclicLoadingType)       | Gets or sets the NonCyclicLoadingType.                        |
 | [`IndependentVariable`](#Moment.IndependentVariable)         | Gets or sets the IndependentVariable.                         |
 | [`CoordinateSystem`](#Moment.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
-| [`DataModelObjectCategory`](#Moment.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#Moment.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Suppressed`](#Moment.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#Moment.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
 | [`Children`](#Moment.Children)                               | Gets the list of children.                                    |
@@ -344,7 +344,7 @@ Gets or sets the CoordinateSystem.
 
 ### *property* Moment.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

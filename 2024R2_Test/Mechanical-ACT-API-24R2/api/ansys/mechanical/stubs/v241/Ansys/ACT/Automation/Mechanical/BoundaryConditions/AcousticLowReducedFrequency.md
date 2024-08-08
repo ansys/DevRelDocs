@@ -47,7 +47,7 @@ Defines a AcousticLowReducedFrequency.
 | [`WidthOfRectangle`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticLowReducedFrequency.md#AcousticLowReducedFrequency.WidthOfRectangle)                 | Gets or sets the WidthOfRectangle.                            |
 | [`LowReducedFrequencyModel`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticLowReducedFrequency.md#AcousticLowReducedFrequency.LowReducedFrequencyModel) | Gets or sets the LowReducedFrequencyModel.                    |
 | [`Location`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticLowReducedFrequency.md#AcousticLowReducedFrequency.Location)                                 | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticLowReducedFrequency.md#AcousticLowReducedFrequency.DataModelObjectCategory)   | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticLowReducedFrequency.md#AcousticLowReducedFrequency.DataModelObjectCategory)   | Gets the current DataModelObject's category.                  |
 | [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticLowReducedFrequency.md#AcousticLowReducedFrequency.Suppressed)                             | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticLowReducedFrequency.md#AcousticLowReducedFrequency.SharedRefBody)                       | Gets or sets the SharedRefBody.                               |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticLowReducedFrequency.md#AcousticLowReducedFrequency.Children)                                 | Gets the list of children.                                    |
@@ -123,7 +123,7 @@ Gets or sets the Location.
 
 ### *property* AcousticLowReducedFrequency.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

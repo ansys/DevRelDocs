@@ -48,7 +48,7 @@ Defines a FatigueHysteresis.
 | [`MaximumStress`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueHysteresis.md#FatigueHysteresis.MaximumStress)                             | Gets the  MaximumStress.                                      |
 | [`MinimumStrain`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueHysteresis.md#FatigueHysteresis.MinimumStrain)                             | Gets the  MinimumStrain.                                      |
 | [`MinimumStress`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueHysteresis.md#FatigueHysteresis.MinimumStress)                             | Gets the  MinimumStress.                                      |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueHysteresis.md#FatigueHysteresis.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueHysteresis.md#FatigueHysteresis.DataModelObjectCategory)         | Gets the current DataModelObject's category.                  |
 | [`IsSolved`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueHysteresis.md#FatigueHysteresis.IsSolved)                                       | Gets the IsSolved.                                            |
 | [`ChartDimensions`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueHysteresis.md#FatigueHysteresis.ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
 | [`BoundaryCondition`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueHysteresis.md#FatigueHysteresis.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
@@ -153,7 +153,7 @@ Gets the  MinimumStress.
 
 ### *property* FatigueHysteresis.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

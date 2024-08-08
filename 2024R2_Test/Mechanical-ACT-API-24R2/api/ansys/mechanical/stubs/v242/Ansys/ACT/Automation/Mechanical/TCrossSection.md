@@ -47,7 +47,7 @@ Defines a TCrossSection.
 | [`Thick2`](#TCrossSection.Thick2)                                   | Gets or sets the Thick2.                                      |
 | [`Width1`](#TCrossSection.Width1)                                   | Gets or sets the Width1.                                      |
 | [`Width2`](#TCrossSection.Width2)                                   | Gets or sets the Width2.                                      |
-| [`DataModelObjectCategory`](#TCrossSection.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#TCrossSection.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](#TCrossSection.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#TCrossSection.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#TCrossSection.Figures)                                 | Gets the list of associated figures.                          |
@@ -129,7 +129,7 @@ Gets or sets the Width2.
 
 ### *property* TCrossSection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

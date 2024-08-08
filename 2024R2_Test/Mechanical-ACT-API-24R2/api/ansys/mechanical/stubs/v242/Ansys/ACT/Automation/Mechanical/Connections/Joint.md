@@ -119,7 +119,7 @@ Defines a Joint.
 | [`MobileLocation`](#Joint.MobileLocation)                       | Gets or sets the MobileLocation.                                          |
 | [`CurveOrientationSurface`](#Joint.CurveOrientationSurface)     | Gets or sets the CurveOrientationSurface.                                 |
 | [`ReferenceLocation`](#Joint.ReferenceLocation)                 | Gets or sets the ReferenceLocation.                                       |
-| [`DataModelObjectCategory`](#Joint.DataModelObjectCategory)     | Gets the current DataModelObjectâ€™s category.                              |
+| [`DataModelObjectCategory`](#Joint.DataModelObjectCategory)     | Gets the current DataModelObject's category.                              |
 | [`Children`](#Joint.Children)                                   | Gets the list of children.                                                |
 | [`Comments`](#Joint.Comments)                                   | Gets the list of associated comments.                                     |
 | [`Figures`](#Joint.Figures)                                     | Gets the list of associated figures.                                      |
@@ -737,7 +737,7 @@ Gets or sets the ReferenceLocation.
 
 ### *property* Joint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

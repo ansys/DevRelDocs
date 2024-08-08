@@ -52,7 +52,7 @@ Defines a MagneticDirectionalForces.
 |-----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                            | Gets the internal object. For advanced usage only.                     |
 | [`NormalOrientation`](#MagneticDirectionalForces.NormalOrientation)                                 | Gets or sets the NormalOrientation.                                    |
-| [`DataModelObjectCategory`](#MagneticDirectionalForces.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](#MagneticDirectionalForces.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`ElectromagneticResultType`](#MagneticDirectionalForces.ElectromagneticResultType)                 | Gets or sets the ElectromagneticResultType.                            |
 | [`AverageAcrossBodies`](#MagneticDirectionalForces.AverageAcrossBodies)                             | Gets or sets the AverageAcrossBodies.                                  |
 | [`PlotData`](#MagneticDirectionalForces.PlotData)                                                   | Gets the result table.                                                 |
@@ -134,7 +134,7 @@ Gets or sets the NormalOrientation.
 
 ### *property* MagneticDirectionalForces.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

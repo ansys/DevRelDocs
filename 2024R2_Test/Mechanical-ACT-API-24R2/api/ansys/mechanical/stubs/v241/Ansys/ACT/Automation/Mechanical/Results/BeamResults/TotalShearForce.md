@@ -52,7 +52,7 @@ Defines a TotalShearForce.
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`NormalOrientation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamResults/TotalShearForce.md#TotalShearForce.NormalOrientation)                                 | Gets or sets the NormalOrientation.                                    |
 | [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamResults/TotalShearForce.md#id0)                                                                  | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamResults/TotalShearForce.md#TotalShearForce.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamResults/TotalShearForce.md#TotalShearForce.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`BeamResultType`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamResults/TotalShearForce.md#TotalShearForce.BeamResultType)                                       | Gets or sets the BeamResultType.                                       |
 | [`PlotData`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamResults/TotalShearForce.md#TotalShearForce.PlotData)                                                   | Gets the result table.                                                 |
 | [`Location`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamResults/TotalShearForce.md#TotalShearForce.Location)                                                   | Gets or sets the Location.                                             |
@@ -132,7 +132,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* TotalShearForce.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

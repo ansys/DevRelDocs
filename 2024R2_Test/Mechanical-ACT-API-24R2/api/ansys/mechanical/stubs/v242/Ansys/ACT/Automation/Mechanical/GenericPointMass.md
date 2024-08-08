@@ -44,7 +44,7 @@ Defines a GenericPointMass.
 | [`IsDistributedMass`](#GenericPointMass.IsDistributedMass)             | Gets the IsDistributedMass.                                   |
 | [`Location`](#GenericPointMass.Location)                               | Gets or sets the Geometry.                                    |
 | [`InternalObject`](#id0)                                               | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](#GenericPointMass.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#GenericPointMass.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](#GenericPointMass.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#GenericPointMass.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#GenericPointMass.Figures)                                 | Gets the list of associated figures.                          |
@@ -94,7 +94,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* GenericPointMass.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

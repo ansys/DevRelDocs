@@ -44,7 +44,7 @@ Defines a PerfectlyInsulated.
 | [`Magnitude`](#PerfectlyInsulated.Magnitude)                             | Gets the Magnitude.                                           |
 | [`DefineAs`](#PerfectlyInsulated.DefineAs)                               | Gets or sets the DefineAs.                                    |
 | [`Location`](#PerfectlyInsulated.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#PerfectlyInsulated.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#PerfectlyInsulated.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Suppressed`](#PerfectlyInsulated.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#PerfectlyInsulated.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
 | [`Children`](#PerfectlyInsulated.Children)                               | Gets the list of children.                                    |
@@ -96,7 +96,7 @@ Gets or sets the Location.
 
 ### *property* PerfectlyInsulated.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

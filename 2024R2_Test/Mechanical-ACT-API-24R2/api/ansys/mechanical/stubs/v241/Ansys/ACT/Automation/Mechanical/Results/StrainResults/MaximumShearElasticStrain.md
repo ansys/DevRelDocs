@@ -52,7 +52,7 @@ Defines a MaximumShearElasticStrain.
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StrainResults/MaximumShearElasticStrain.md#id0)                                                                            | Gets the internal object. For advanced usage only.                     |
 | [`ShearOrientation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StrainResults/MaximumShearElasticStrain.md#MaximumShearElasticStrain.ShearOrientation)                                   | Gets or sets the ShearOrientation.                                     |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StrainResults/MaximumShearElasticStrain.md#MaximumShearElasticStrain.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StrainResults/MaximumShearElasticStrain.md#MaximumShearElasticStrain.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`Mode`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StrainResults/MaximumShearElasticStrain.md#MaximumShearElasticStrain.Mode)                                                           | Gets or sets the Mode.                                                 |
 | [`Ply`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StrainResults/MaximumShearElasticStrain.md#MaximumShearElasticStrain.Ply)                                                             | Gets or sets the Ply selection.                                        |
 | [`Plies`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StrainResults/MaximumShearElasticStrain.md#MaximumShearElasticStrain.Plies)                                                         | Plies property.                                                        |
@@ -148,7 +148,7 @@ Gets or sets the ShearOrientation.
 
 ### *property* MaximumShearElasticStrain.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

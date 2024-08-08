@@ -44,7 +44,7 @@ Defines a CenterOfGravityConstraint.
 | [`ScopingMethod`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CenterOfGravityConstraint.md#CenterOfGravityConstraint.ScopingMethod)                     | Gets or sets the ScopingMethod.                                                          |
 | [`Selection`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CenterOfGravityConstraint.md#CenterOfGravityConstraint.Selection)                             | Gets or sets the Selection.                                                              |
 | [`Location`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CenterOfGravityConstraint.md#CenterOfGravityConstraint.Location)                               | Gets or sets the Location.                                                               |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CenterOfGravityConstraint.md#CenterOfGravityConstraint.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                                             |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CenterOfGravityConstraint.md#CenterOfGravityConstraint.DataModelObjectCategory) | Gets the current DataModelObject's category.                                             |
 | [`EnvironmentSelection`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CenterOfGravityConstraint.md#CenterOfGravityConstraint.EnvironmentSelection)       | Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum. |
 | [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CenterOfGravityConstraint.md#CenterOfGravityConstraint.Suppressed)                           | Gets or sets the Suppressed.                                                             |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CenterOfGravityConstraint.md#CenterOfGravityConstraint.Children)                               | Gets the list of children.                                                               |
@@ -116,7 +116,7 @@ Gets or sets the Location.
 
 ### *property* CenterOfGravityConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

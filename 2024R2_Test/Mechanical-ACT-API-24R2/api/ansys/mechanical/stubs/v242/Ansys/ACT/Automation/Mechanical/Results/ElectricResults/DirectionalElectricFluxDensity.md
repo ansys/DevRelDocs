@@ -52,7 +52,7 @@ Defines a DirectionalElectricFluxDensity.
 |----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                                 | Gets the internal object. For advanced usage only.                     |
 | [`NormalOrientation`](#DirectionalElectricFluxDensity.NormalOrientation)                                 | Gets or sets the NormalOrientation.                                    |
-| [`DataModelObjectCategory`](#DirectionalElectricFluxDensity.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](#DirectionalElectricFluxDensity.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`ReportedFrequency`](#DirectionalElectricFluxDensity.ReportedFrequency)                                 | Gets the ReportedFrequency.                                            |
 | [`SweepingPhase`](#DirectionalElectricFluxDensity.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
 | [`PhaseIncrement`](#DirectionalElectricFluxDensity.PhaseIncrement)                                       | Gets or sets the PhaseIncrement.                                       |
@@ -139,7 +139,7 @@ Gets or sets the NormalOrientation.
 
 ### *property* DirectionalElectricFluxDensity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

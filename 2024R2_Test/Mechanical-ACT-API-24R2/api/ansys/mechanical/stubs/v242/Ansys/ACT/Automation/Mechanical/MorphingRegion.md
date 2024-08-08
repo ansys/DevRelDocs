@@ -51,7 +51,7 @@ Defines a MorphingRegion.
 | [`FixedLocation`](#MorphingRegion.FixedLocation)                     | Gets or sets the FixedLocation.                               |
 | [`MovingLocation`](#MorphingRegion.MovingLocation)                   | Gets or sets the MovingLocation.                              |
 | [`RegionLocation`](#MorphingRegion.RegionLocation)                   | Gets or sets the RegionLocation.                              |
-| [`DataModelObjectCategory`](#MorphingRegion.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#MorphingRegion.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](#MorphingRegion.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#MorphingRegion.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#MorphingRegion.Figures)                                 | Gets the list of associated figures.                          |
@@ -164,7 +164,7 @@ Gets or sets the RegionLocation.
 
 ### *property* MorphingRegion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -49,7 +49,7 @@ Defines a ConstructionGeometry.
 |----------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                   | Gets the internal object. For advanced usage only.            |
 | [`ShowMesh`](#ConstructionGeometry.ShowMesh)                               | Gets or sets the ShowMesh.                                    |
-| [`DataModelObjectCategory`](#ConstructionGeometry.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#ConstructionGeometry.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](#ConstructionGeometry.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#ConstructionGeometry.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#ConstructionGeometry.Figures)                                 | Gets the list of associated figures.                          |
@@ -82,7 +82,7 @@ Gets or sets the ShowMesh.
 
 ### *property* ConstructionGeometry.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -56,7 +56,7 @@ Defines a Inflation.
 | [`BoundaryNamedSelection`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/Inflation.md#Inflation.BoundaryNamedSelection)   | Gets or sets the BoundaryNamedSelection.                      |
 | [`NamedSelection`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/Inflation.md#Inflation.NamedSelection)                   | Gets or sets the NamedSelection.                              |
 | [`Location`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/Inflation.md#Inflation.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/Inflation.md#Inflation.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/Inflation.md#Inflation.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`ScopingMethod`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/Inflation.md#Inflation.ScopingMethod)                     | Gets or sets the ScopingMethod.                               |
 | [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/Inflation.md#Inflation.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/Inflation.md#Inflation.Children)                               | Gets the list of children.                                    |
@@ -195,7 +195,7 @@ Gets or sets the Location.
 
 ### *property* Inflation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

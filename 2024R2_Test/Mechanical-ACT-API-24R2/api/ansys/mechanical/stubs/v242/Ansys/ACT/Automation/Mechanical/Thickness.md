@@ -51,7 +51,7 @@ Defines a Thickness.
 | [`Suppressed`](#Thickness.Suppressed)                                   | Gets or sets the Suppressed.                                  |
 | [`XYZFunctionCoordinateSystem`](#Thickness.XYZFunctionCoordinateSystem) | Gets or sets the XYZFunctionCoordinateSystem.                 |
 | [`Location`](#Thickness.Location)                                       | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#Thickness.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#Thickness.DataModelObjectCategory)         | Gets the current DataModelObject's category.                  |
 | [`Children`](#Thickness.Children)                                       | Gets the list of children.                                    |
 | [`Comments`](#Thickness.Comments)                                       | Gets the list of associated comments.                         |
 | [`Figures`](#Thickness.Figures)                                         | Gets the list of associated figures.                          |
@@ -165,7 +165,7 @@ Gets or sets the Location.
 
 ### *property* Thickness.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

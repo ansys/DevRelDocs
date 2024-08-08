@@ -51,7 +51,7 @@ MaterialCombination class.
 | [`Materials`](#MaterialCombination.Materials)                             | Dictionary of Material to Fraction in Combination.            |
 | [`InternalObject`](#id1)                                                  | Gets the internal object. For advanced usage only.            |
 | [`AssignedBodies`](#MaterialCombination.AssignedBodies)                   | Gets the AssignedBodies.                                      |
-| [`DataModelObjectCategory`](#MaterialCombination.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#MaterialCombination.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](#MaterialCombination.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#MaterialCombination.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#MaterialCombination.Figures)                                 | Gets the list of associated figures.                          |
@@ -108,7 +108,7 @@ Gets the AssignedBodies.
 
 ### *property* MaterialCombination.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

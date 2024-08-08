@@ -57,7 +57,7 @@ Defines a AMSupport.
 | [`Volume`](#AMSupport.Volume)                                                 | Gets or sets the Volume.                                      |
 | [`MultiplierEntry`](#AMSupport.MultiplierEntry)                               | Gets or sets the MultiplierEntry.                             |
 | [`SupportType`](#AMSupport.SupportType)                                       | Gets or sets the SupportType.                                 |
-| [`DataModelObjectCategory`](#AMSupport.DataModelObjectCategory)               | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#AMSupport.DataModelObjectCategory)               | Gets the current DataModelObject's category.                  |
 | [`Children`](#AMSupport.Children)                                             | Gets the list of children.                                    |
 | [`Comments`](#AMSupport.Comments)                                             | Gets the list of associated comments.                         |
 | [`Figures`](#AMSupport.Figures)                                               | Gets the list of associated figures.                          |
@@ -210,7 +210,7 @@ Gets or sets the SupportType.
 
 ### *property* AMSupport.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

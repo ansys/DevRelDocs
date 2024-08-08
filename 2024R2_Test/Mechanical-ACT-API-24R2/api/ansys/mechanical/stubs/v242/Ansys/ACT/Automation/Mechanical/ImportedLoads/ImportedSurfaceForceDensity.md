@@ -23,7 +23,7 @@ Defines a ImportedSurfaceForceDensity.
 | [`ExportToTextFile`](#ImportedSurfaceForceDensity.ExportToTextFile)               | Run the ExportToTextFile action.                                                        |
 | [`Import`](#ImportedSurfaceForceDensity.Import)                                   | Import.                                                                                 |
 | [`ImportLoad`](#ImportedSurfaceForceDensity.ImportLoad)                           | Run the ImportLoad action.                                                              |
-| [`ReloadConfiguration`](#ImportedSurfaceForceDensity.ReloadConfiguration)         | Reload the Imported Loadâ€™s setup from its associated configuration file (if available). |
+| [`ReloadConfiguration`](#ImportedSurfaceForceDensity.ReloadConfiguration)         | Reload the Imported Load's setup from its associated configuration file (if available). |
 | [`AddMappingValidation`](#ImportedSurfaceForceDensity.AddMappingValidation)       | Creates a new MappingValidation                                                         |
 | [`ClearGeneratedData`](#ImportedSurfaceForceDensity.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                      |
 | [`Delete`](#ImportedSurfaceForceDensity.Delete)                                   | Run the Delete action.                                                                  |
@@ -48,7 +48,7 @@ Defines a ImportedSurfaceForceDensity.
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                                    | Gets the internal object. For advanced usage only.                                                      |
-| [`DataModelObjectCategory`](#ImportedSurfaceForceDensity.DataModelObjectCategory)                           | Gets the current DataModelObjectâ€™s category.                                                            |
+| [`DataModelObjectCategory`](#ImportedSurfaceForceDensity.DataModelObjectCategory)                           | Gets the current DataModelObject's category.                                                            |
 | [`Weighting`](#ImportedSurfaceForceDensity.Weighting)                                                       | Weighting property.                                                                                     |
 | [`MappingControl`](#ImportedSurfaceForceDensity.MappingControl)                                             | MappingControl property.                                                                                |
 | [`DisplaySourcePoints`](#ImportedSurfaceForceDensity.DisplaySourcePoints)                                   | DisplaySourcePoints property.                                                                           |
@@ -115,7 +115,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* ImportedSurfaceForceDensity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -559,7 +559,7 @@ Run the ImportLoad action.
 
 ### ImportedSurfaceForceDensity.ReloadConfiguration()
 
-Reload the Imported Loadâ€™s setup from its associated configuration file (if available).
+Reload the Imported Load's setup from its associated configuration file (if available).
 
 <!-- !! processed by numpydoc !! -->
 

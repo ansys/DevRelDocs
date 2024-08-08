@@ -41,7 +41,7 @@ Defines a GlobalVonMisesStressConstraint.
 | [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/GlobalVonMisesStressConstraint.md#id0)                                                             | Gets the internal object. For advanced usage only.                                       |
 | [`ScopingMethod`](../../../../../v242/Ansys/ACT/Automation/Mechanical/GlobalVonMisesStressConstraint.md#GlobalVonMisesStressConstraint.ScopingMethod)                     | Gets or sets the ScopingMethod.                                                          |
 | [`StressType`](../../../../../v242/Ansys/ACT/Automation/Mechanical/GlobalVonMisesStressConstraint.md#GlobalVonMisesStressConstraint.StressType)                           | Gets or sets the StressType.                                                             |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/GlobalVonMisesStressConstraint.md#GlobalVonMisesStressConstraint.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                                             |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/GlobalVonMisesStressConstraint.md#GlobalVonMisesStressConstraint.DataModelObjectCategory) | Gets the current DataModelObject's category.                                             |
 | [`EnvironmentSelection`](../../../../../v242/Ansys/ACT/Automation/Mechanical/GlobalVonMisesStressConstraint.md#GlobalVonMisesStressConstraint.EnvironmentSelection)       | Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum. |
 | [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/GlobalVonMisesStressConstraint.md#GlobalVonMisesStressConstraint.Suppressed)                           | Gets or sets the Suppressed.                                                             |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/GlobalVonMisesStressConstraint.md#GlobalVonMisesStressConstraint.Children)                               | Gets the list of children.                                                               |
@@ -89,7 +89,7 @@ Gets or sets the StressType.
 
 ### *property* GlobalVonMisesStressConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -56,7 +56,7 @@ Defines a ThermalResult.
 | [`NormalOrientation`](#ThermalResult.NormalOrientation)                                 | Gets or sets the NormalOrientation.                                    |
 | [`Position`](#ThermalResult.Position)                                                   | Gets or sets the Position.                                             |
 | [`AverageAcrossBodies`](#ThermalResult.AverageAcrossBodies)                             | Gets or sets the AverageAcrossBodies.                                  |
-| [`DataModelObjectCategory`](#ThermalResult.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](#ThermalResult.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`PlotData`](#ThermalResult.PlotData)                                                   | Gets the result table.                                                 |
 | [`Location`](#ThermalResult.Location)                                                   | Gets or sets the Location.                                             |
 | [`TimeForMinimumOfMinimumValues`](#ThermalResult.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
@@ -168,7 +168,7 @@ Gets or sets the AverageAcrossBodies.
 
 ### *property* ThermalResult.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

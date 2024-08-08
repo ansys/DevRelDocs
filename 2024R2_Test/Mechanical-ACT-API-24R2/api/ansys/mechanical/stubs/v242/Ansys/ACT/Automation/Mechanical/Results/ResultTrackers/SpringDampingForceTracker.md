@@ -43,7 +43,7 @@ Defines a SpringDampingForceTracker.
 | Name | Description |
 |-----------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](#SpringDampingForceTracker.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#SpringDampingForceTracker.DataModelObjectCategory)         | Gets the current DataModelObject's category.                  |
 | [`IsSolved`](#SpringDampingForceTracker.IsSolved)                                       | Gets the IsSolved.                                            |
 | [`ChartDimensions`](#SpringDampingForceTracker.ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
 | [`BoundaryCondition`](#SpringDampingForceTracker.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
@@ -108,7 +108,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* SpringDampingForceTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

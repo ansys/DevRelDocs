@@ -39,7 +39,7 @@ Defines a Image.
 | Name | Description |
 |-------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                    | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](#Image.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#Image.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](#Image.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#Image.Comments)                               | Gets the list of associated comments.                         |
 | [`Images`](#Image.Images)                                   | Gets the list of associated images.                           |
@@ -63,7 +63,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* Image.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

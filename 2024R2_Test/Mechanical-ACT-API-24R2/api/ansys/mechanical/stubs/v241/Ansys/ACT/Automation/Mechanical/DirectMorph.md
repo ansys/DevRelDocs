@@ -43,7 +43,7 @@ Defines a DirectMorph.
 | [`ScaleFactor`](../../../../../v242/Ansys/ACT/Automation/Mechanical/DirectMorph.md#DirectMorph.ScaleFactor)                         | Gets or sets the ScaleFactor.                                 |
 | [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/DirectMorph.md#DirectMorph.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`Location`](../../../../../v242/Ansys/ACT/Automation/Mechanical/DirectMorph.md#DirectMorph.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/DirectMorph.md#DirectMorph.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/DirectMorph.md#DirectMorph.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/DirectMorph.md#DirectMorph.Children)                               | Gets the list of children.                                    |
 | [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/DirectMorph.md#id0)                                          | Gets the internal object. For advanced usage only.            |
 | [`Properties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/DirectMorph.md#DirectMorph.Properties)                           | Gets the list of properties for this object.                  |
@@ -97,7 +97,7 @@ Gets or sets the Location.
 
 ### *property* DirectMorph.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

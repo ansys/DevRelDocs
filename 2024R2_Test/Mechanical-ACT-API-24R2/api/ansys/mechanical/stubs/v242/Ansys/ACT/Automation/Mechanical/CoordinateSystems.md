@@ -41,7 +41,7 @@ Defines a CoordinateSystems.
 | Name | Description |
 |-------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](#CoordinateSystems.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#CoordinateSystems.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](#CoordinateSystems.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#CoordinateSystems.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#CoordinateSystems.Figures)                                 | Gets the list of associated figures.                          |
@@ -66,7 +66,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* CoordinateSystems.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

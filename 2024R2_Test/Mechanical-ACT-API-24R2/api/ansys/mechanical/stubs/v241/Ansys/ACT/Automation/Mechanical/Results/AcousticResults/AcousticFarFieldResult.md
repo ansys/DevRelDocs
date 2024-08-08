@@ -83,7 +83,7 @@ Defines a AcousticFarFieldResult.
 | [`YAxisExtrusionAngle`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticFarFieldResult.md#AcousticFarFieldResult.YAxisExtrusionAngle)                                 | Gets or sets the YAxisExtrusionAngle.                                  |
 | [`ModelType`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticFarFieldResult.md#AcousticFarFieldResult.ModelType)                                                     | Gets or sets the ModelType.                                            |
 | [`SpatialRadiationAngle`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticFarFieldResult.md#AcousticFarFieldResult.SpatialRadiationAngle)                             | Gets or sets the SpatialRadiationAngle.                                |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticFarFieldResult.md#AcousticFarFieldResult.DataModelObjectCategory)                         | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticFarFieldResult.md#AcousticFarFieldResult.DataModelObjectCategory)                         | Gets the current DataModelObject's category.                           |
 | [`PlotData`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticFarFieldResult.md#AcousticFarFieldResult.PlotData)                                                       | Gets the result table.                                                 |
 | [`Location`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticFarFieldResult.md#AcousticFarFieldResult.Location)                                                       | Gets or sets the Location.                                             |
 | [`TimeForMinimumOfMinimumValues`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticFarFieldResult.md#AcousticFarFieldResult.TimeForMinimumOfMinimumValues)             | Get the Time for the minimum of minimum values.                        |
@@ -394,7 +394,7 @@ Gets or sets the SpatialRadiationAngle.
 
 ### *property* AcousticFarFieldResult.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

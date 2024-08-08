@@ -51,7 +51,7 @@ Defines a RotationalVelocity.
 | [`DefineBy`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/RotationalVelocity.md#RotationalVelocity.DefineBy)                               | Gets or sets the DefineBy.                                    |
 | [`IndependentVariable`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/RotationalVelocity.md#RotationalVelocity.IndependentVariable)         | Gets or sets the IndependentVariable.                         |
 | [`CoordinateSystem`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/RotationalVelocity.md#RotationalVelocity.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/RotationalVelocity.md#RotationalVelocity.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/RotationalVelocity.md#RotationalVelocity.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Axis`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/RotationalVelocity.md#RotationalVelocity.Axis)                                       | Gets or sets the Axis.                                        |
 | [`NumberOfSegments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/RotationalVelocity.md#RotationalVelocity.NumberOfSegments)               | Gets or sets the NumberOfSegments.                            |
 | [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/RotationalVelocity.md#RotationalVelocity.Suppressed)                           | Gets or sets the Suppressed.                                  |
@@ -168,7 +168,7 @@ Gets or sets the CoordinateSystem.
 
 ### *property* RotationalVelocity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

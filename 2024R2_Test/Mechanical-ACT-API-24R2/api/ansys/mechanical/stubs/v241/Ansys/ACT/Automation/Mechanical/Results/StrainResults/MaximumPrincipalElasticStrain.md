@@ -53,7 +53,7 @@ Defines a MaximumPrincipalElasticStrain.
 | [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StrainResults/MaximumPrincipalElasticStrain.md#id0)                                                                                | Gets the internal object. For advanced usage only.                     |
 | [`Layer`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StrainResults/MaximumPrincipalElasticStrain.md#MaximumPrincipalElasticStrain.Layer)                                                         | Gets or sets the Layer.                                                |
 | [`NormalOrientation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StrainResults/MaximumPrincipalElasticStrain.md#MaximumPrincipalElasticStrain.NormalOrientation)                                 | Gets or sets the NormalOrientation.                                    |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StrainResults/MaximumPrincipalElasticStrain.md#MaximumPrincipalElasticStrain.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StrainResults/MaximumPrincipalElasticStrain.md#MaximumPrincipalElasticStrain.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`Mode`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StrainResults/MaximumPrincipalElasticStrain.md#MaximumPrincipalElasticStrain.Mode)                                                           | Gets or sets the Mode.                                                 |
 | [`Ply`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StrainResults/MaximumPrincipalElasticStrain.md#MaximumPrincipalElasticStrain.Ply)                                                             | Gets or sets the Ply selection.                                        |
 | [`Plies`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StrainResults/MaximumPrincipalElasticStrain.md#MaximumPrincipalElasticStrain.Plies)                                                         | Plies property.                                                        |
@@ -157,7 +157,7 @@ Gets or sets the NormalOrientation.
 
 ### *property* MaximumPrincipalElasticStrain.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -45,7 +45,7 @@ Defines a AcousticImpedanceBoundary.
 | [`Resistance`](#AcousticImpedanceBoundary.Resistance)                           | Gets or sets the Resistance.                                  |
 | [`Frequency`](#AcousticImpedanceBoundary.Frequency)                             | Gets or sets the Frequency.                                   |
 | [`Location`](#AcousticImpedanceBoundary.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#AcousticImpedanceBoundary.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#AcousticImpedanceBoundary.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Suppressed`](#AcousticImpedanceBoundary.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#AcousticImpedanceBoundary.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
 | [`Children`](#AcousticImpedanceBoundary.Children)                               | Gets the list of children.                                    |
@@ -105,7 +105,7 @@ Gets or sets the Location.
 
 ### *property* AcousticImpedanceBoundary.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

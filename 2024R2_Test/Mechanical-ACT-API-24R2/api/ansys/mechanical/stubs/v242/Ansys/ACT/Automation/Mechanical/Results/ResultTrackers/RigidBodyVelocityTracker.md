@@ -43,7 +43,7 @@ Defines a RigidBodyVelocityTracker.
 | Name | Description |
 |----------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                               | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](#RigidBodyVelocityTracker.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#RigidBodyVelocityTracker.DataModelObjectCategory)         | Gets the current DataModelObject's category.                  |
 | [`IsSolved`](#RigidBodyVelocityTracker.IsSolved)                                       | Gets the IsSolved.                                            |
 | [`ChartDimensions`](#RigidBodyVelocityTracker.ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
 | [`BoundaryCondition`](#RigidBodyVelocityTracker.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
@@ -108,7 +108,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* RigidBodyVelocityTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

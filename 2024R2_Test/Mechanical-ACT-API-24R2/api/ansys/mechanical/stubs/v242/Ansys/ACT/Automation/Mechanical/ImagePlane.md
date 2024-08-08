@@ -22,7 +22,7 @@ Defines a ImagePlane.
 | [`GetChildren`](#id1)                                            | Gets the list of children, filtered by type.                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | [`GetChildren`](#id1)                                            | Gets the list of children, filtered by type.                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | [`AddComment`](#ImagePlane.AddComment)                           | Creates a new child Comment.                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| [`Import`](#ImagePlane.Import)                                   | Sets the image which is rendered to this plane, specified by filePath.  Upon success, ImageFilePath will return filePath.  Upon failure, ImageFilePath will remain unchanged.  Supported file formats include PNG, JPEG, BMP, and GIF.  If this is the first time an image has been set to this image plane and if Width and Height were never modified, the image plane will be automatically sized based on the modelâ€™s bounding box, respecting the imageâ€™s aspect ratio. |
+| [`Import`](#ImagePlane.Import)                                   | Sets the image which is rendered to this plane, specified by filePath.  Upon success, ImageFilePath will return filePath.  Upon failure, ImageFilePath will remain unchanged.  Supported file formats include PNG, JPEG, BMP, and GIF.  If this is the first time an image has been set to this image plane and if Width and Height were never modified, the image plane will be automatically sized based on the model's bounding box, respecting the image's aspect ratio. |
 | [`Activate`](#ImagePlane.Activate)                               | Activate the current object.                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | [`CopyTo`](#ImagePlane.CopyTo)                                   | Copies all visible properties from this object to another.                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | [`Duplicate`](#ImagePlane.Duplicate)                             | Creates a copy of the current DataModelObject.                                                                                                                                                                                                                                                                                                                                                                                                                               |
@@ -39,15 +39,15 @@ Defines a ImagePlane.
 | Name | Description |
 |------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                         | Gets the internal object. For advanced usage only.                                                                                                              |
-| [`DataModelObjectCategory`](#ImagePlane.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                                                                                                                    |
+| [`DataModelObjectCategory`](#ImagePlane.DataModelObjectCategory) | Gets the current DataModelObject's category.                                                                                                                    |
 | [`Children`](#ImagePlane.Children)                               | Gets the list of children.                                                                                                                                      |
 | [`Comments`](#ImagePlane.Comments)                               | Gets the list of associated comments.                                                                                                                           |
 | [`Images`](#ImagePlane.Images)                                   | Gets the list of associated images.                                                                                                                             |
 | [`ImageFilePath`](#ImagePlane.ImageFilePath)                     | Gets the file path for the rendered image.                                                                                                                      |
-| [`CoordinateSystem`](#ImagePlane.CoordinateSystem)               | Gets or sets the coordinate system object used for defining the planeâ€™s location and orientation.  This property is restricted to cartesian coordinate systems. |
-| [`CoordinateSystemVisible`](#ImagePlane.CoordinateSystemVisible) | Gets or sets whether the annotation for the imageâ€™s coordinate system is rendered.                                                                              |
-| [`PixelWidth`](#ImagePlane.PixelWidth)                           | Gets the pixel width of the planeâ€™s image.                                                                                                                      |
-| [`PixelHeight`](#ImagePlane.PixelHeight)                         | Gets the pixel height of the planeâ€™s image.                                                                                                                     |
+| [`CoordinateSystem`](#ImagePlane.CoordinateSystem)               | Gets or sets the coordinate system object used for defining the plane's location and orientation.  This property is restricted to cartesian coordinate systems. |
+| [`CoordinateSystemVisible`](#ImagePlane.CoordinateSystemVisible) | Gets or sets whether the annotation for the image's coordinate system is rendered.                                                                              |
+| [`PixelWidth`](#ImagePlane.PixelWidth)                           | Gets the pixel width of the plane's image.                                                                                                                      |
+| [`PixelHeight`](#ImagePlane.PixelHeight)                         | Gets the pixel height of the plane's image.                                                                                                                     |
 | [`Width`](#ImagePlane.Width)                                     | Gets or sets the physical width of the image plane.                                                                                                             |
 | [`Height`](#ImagePlane.Height)                                   | Gets or sets the physical height of the image plane.                                                                                                            |
 | [`FlipHorizontally`](#ImagePlane.FlipHorizontally)               | Gets or sets whether the rendered image on the plane should be flipped horizontally.                                                                            |
@@ -74,7 +74,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* ImagePlane.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -114,7 +114,7 @@ Gets the file path for the rendered image.
 
 ### *property* ImagePlane.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the coordinate system object used for defining the planeâ€™s location and orientation.  This property is restricted to cartesian coordinate systems.
+Gets or sets the coordinate system object used for defining the plane's location and orientation.  This property is restricted to cartesian coordinate systems.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -122,7 +122,7 @@ Gets or sets the coordinate system object used for defining the planeâ€™s l
 
 ### *property* ImagePlane.CoordinateSystemVisible *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets whether the annotation for the imageâ€™s coordinate system is rendered.
+Gets or sets whether the annotation for the image's coordinate system is rendered.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -130,7 +130,7 @@ Gets or sets whether the annotation for the imageâ€™s coordinate system is 
 
 ### *property* ImagePlane.PixelWidth *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the pixel width of the planeâ€™s image.
+Gets the pixel width of the plane's image.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -138,7 +138,7 @@ Gets the pixel width of the planeâ€™s image.
 
 ### *property* ImagePlane.PixelHeight *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the pixel height of the planeâ€™s image.
+Gets the pixel height of the plane's image.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -254,7 +254,7 @@ Creates a new child Comment.
 
 ### ImagePlane.Import(filePath: System.String)
 
-Sets the image which is rendered to this plane, specified by filePath.  Upon success, ImageFilePath will return filePath.  Upon failure, ImageFilePath will remain unchanged.  Supported file formats include PNG, JPEG, BMP, and GIF.  If this is the first time an image has been set to this image plane and if Width and Height were never modified, the image plane will be automatically sized based on the modelâ€™s bounding box, respecting the imageâ€™s aspect ratio.
+Sets the image which is rendered to this plane, specified by filePath.  Upon success, ImageFilePath will return filePath.  Upon failure, ImageFilePath will remain unchanged.  Supported file formats include PNG, JPEG, BMP, and GIF.  If this is the first time an image has been set to this image plane and if Width and Height were never modified, the image plane will be automatically sized based on the model's bounding box, respecting the image's aspect ratio.
 
 <!-- !! processed by numpydoc !! -->
 

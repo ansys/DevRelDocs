@@ -52,7 +52,7 @@ Defines a ShearGasketPressure.
 |-----------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                      | Gets the internal object. For advanced usage only.                     |
 | [`ShearOrientation`](#ShearGasketPressure.ShearOrientation)                                   | Gets or sets the ShearOrientation.                                     |
-| [`DataModelObjectCategory`](#ShearGasketPressure.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](#ShearGasketPressure.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`GasketResultType`](#ShearGasketPressure.GasketResultType)                                   | Gets or sets the GasketResultType.                                     |
 | [`PlotData`](#ShearGasketPressure.PlotData)                                                   | Gets the result table.                                                 |
 | [`Location`](#ShearGasketPressure.Location)                                                   | Gets or sets the Location.                                             |
@@ -133,7 +133,7 @@ Gets or sets the ShearOrientation.
 
 ### *property* ShearGasketPressure.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

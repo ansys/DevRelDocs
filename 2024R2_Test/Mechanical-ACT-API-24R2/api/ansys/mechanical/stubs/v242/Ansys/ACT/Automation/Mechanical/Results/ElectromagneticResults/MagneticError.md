@@ -51,7 +51,7 @@ Defines a MagneticError.
 | Name | Description |
 |-----------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](#MagneticError.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](#MagneticError.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`ElectromagneticResultType`](#MagneticError.ElectromagneticResultType)                 | Gets or sets the ElectromagneticResultType.                            |
 | [`AverageAcrossBodies`](#MagneticError.AverageAcrossBodies)                             | Gets or sets the AverageAcrossBodies.                                  |
 | [`PlotData`](#MagneticError.PlotData)                                                   | Gets the result table.                                                 |
@@ -125,7 +125,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* MagneticError.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

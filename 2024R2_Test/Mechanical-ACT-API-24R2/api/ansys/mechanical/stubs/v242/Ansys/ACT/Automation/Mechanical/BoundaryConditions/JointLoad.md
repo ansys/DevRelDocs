@@ -53,7 +53,7 @@ Defines a JointLoad.
 | [`JointConditionType`](#JointLoad.JointConditionType)           | Gets or sets the JointConditionType.                          |
 | [`Suppressed`](#JointLoad.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`Joint`](#JointLoad.Joint)                                     | Gets or sets the Joint.                                       |
-| [`DataModelObjectCategory`](#JointLoad.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#JointLoad.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](#JointLoad.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#JointLoad.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#JointLoad.Figures)                                 | Gets the list of associated figures.                          |
@@ -150,7 +150,7 @@ Gets or sets the Joint.
 
 ### *property* JointLoad.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

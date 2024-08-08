@@ -51,7 +51,7 @@ Defines a LimitBoundary.
 | [`LimitBCMinZ`](#LimitBoundary.LimitBCMinZ)                         | Gets or sets the LimitBCMinZ.                                 |
 | [`LimitBCDirection`](#LimitBoundary.LimitBCDirection)               | Gets or sets the LimitBCDirection.                            |
 | [`Location`](#LimitBoundary.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#LimitBoundary.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#LimitBoundary.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Suppressed`](#LimitBoundary.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#LimitBoundary.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
 | [`Children`](#LimitBoundary.Children)                               | Gets the list of children.                                    |
@@ -159,7 +159,7 @@ Gets or sets the Location.
 
 ### *property* LimitBoundary.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -51,7 +51,7 @@ Defines a DirectionalShearForce.
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamResults/DirectionalShearForce.md#id0)                                                                        | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamResults/DirectionalShearForce.md#DirectionalShearForce.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamResults/DirectionalShearForce.md#DirectionalShearForce.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`BeamResultType`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamResults/DirectionalShearForce.md#DirectionalShearForce.BeamResultType)                                       | Gets or sets the BeamResultType.                                       |
 | [`PlotData`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamResults/DirectionalShearForce.md#DirectionalShearForce.PlotData)                                                   | Gets the result table.                                                 |
 | [`Location`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamResults/DirectionalShearForce.md#DirectionalShearForce.Location)                                                   | Gets or sets the Location.                                             |
@@ -123,7 +123,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* DirectionalShearForce.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

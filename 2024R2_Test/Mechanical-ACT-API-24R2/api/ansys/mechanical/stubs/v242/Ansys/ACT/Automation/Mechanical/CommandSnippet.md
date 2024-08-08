@@ -44,7 +44,7 @@ Defines a CommandSnippet.
 | Name | Description |
 |----------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Input`](#CommandSnippet.Input)                                     | Gets or sets the Text.                                        |
-| [`OutputParameters`](#CommandSnippet.OutputParameters)               | Gets a list of the command snippetâ€™s output parameters.       |
+| [`OutputParameters`](#CommandSnippet.OutputParameters)               | Gets a list of the command snippet's output parameters.       |
 | [`InternalObject`](#id0)                                             | Gets the internal object. For advanced usage only.            |
 | [`InputArgument1`](#CommandSnippet.InputArgument1)                   | Gets or sets the InputArgument1.                              |
 | [`InputArgument2`](#CommandSnippet.InputArgument2)                   | Gets or sets the InputArgument2.                              |
@@ -64,7 +64,7 @@ Defines a CommandSnippet.
 | [`IssueSolveCommand`](#CommandSnippet.IssueSolveCommand)             | Gets or sets the IssueSolveCommand.                           |
 | [`InvalidateSolution`](#CommandSnippet.InvalidateSolution)           | Gets or sets the InvalidateSolution.                          |
 | [`Suppressed`](#CommandSnippet.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`DataModelObjectCategory`](#CommandSnippet.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#CommandSnippet.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](#CommandSnippet.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#CommandSnippet.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#CommandSnippet.Figures)                                 | Gets the list of associated figures.                          |
@@ -90,7 +90,7 @@ Gets or sets the Text.
 
 ### *property* CommandSnippet.OutputParameters *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.CommandOutputParameter] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets a list of the command snippetâ€™s output parameters.
+Gets a list of the command snippet's output parameters.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -250,7 +250,7 @@ Gets or sets the Suppressed.
 
 ### *property* CommandSnippet.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 
