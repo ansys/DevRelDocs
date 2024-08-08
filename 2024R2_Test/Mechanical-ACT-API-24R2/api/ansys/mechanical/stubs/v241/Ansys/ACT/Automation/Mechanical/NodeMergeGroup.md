@@ -53,7 +53,7 @@ Defines a NodeMergeGroup.
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NodeMergeGroup.md#id0)                                                             | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NodeMergeGroup.md#NodeMergeGroup.DataModelObjectCategory)                 | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NodeMergeGroup.md#NodeMergeGroup.DataModelObjectCategory)                 | Gets the current DataModelObjectâ€™s category.                  |
 | [`ConnectionType`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NodeMergeGroup.md#NodeMergeGroup.ConnectionType)                                   | Gets or sets the ConnectionType.                              |
 | [`ActiveConnections`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NodeMergeGroup.md#NodeMergeGroup.ActiveConnections)                             | Gets the ActiveConnections.                                   |
 | [`Connections`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NodeMergeGroup.md#NodeMergeGroup.Connections)                                         | Gets the Connections.                                         |
@@ -104,7 +104,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* NodeMergeGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

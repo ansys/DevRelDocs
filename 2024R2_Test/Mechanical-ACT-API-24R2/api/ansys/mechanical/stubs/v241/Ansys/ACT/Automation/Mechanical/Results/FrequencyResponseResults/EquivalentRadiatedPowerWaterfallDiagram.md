@@ -54,7 +54,7 @@ Defines a EquivalentRadiatedPowerWaterfallDiagram.
 | [`PanelsToDisplay`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/EquivalentRadiatedPowerWaterfallDiagram.md#EquivalentRadiatedPowerWaterfallDiagram.PanelsToDisplay)                                     | Gets or sets the PanelsToDisplay.                                      |
 | [`DisplayPanel`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/EquivalentRadiatedPowerWaterfallDiagram.md#EquivalentRadiatedPowerWaterfallDiagram.DisplayPanel)                                           | Gets or sets the DisplayPanel.                                         |
 | [`PanelContribution`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/EquivalentRadiatedPowerWaterfallDiagram.md#EquivalentRadiatedPowerWaterfallDiagram.PanelContribution)                                 | Gets or sets the PanelContribution.                                    |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/EquivalentRadiatedPowerWaterfallDiagram.md#EquivalentRadiatedPowerWaterfallDiagram.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/EquivalentRadiatedPowerWaterfallDiagram.md#EquivalentRadiatedPowerWaterfallDiagram.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
 | [`PlotData`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/EquivalentRadiatedPowerWaterfallDiagram.md#EquivalentRadiatedPowerWaterfallDiagram.PlotData)                                                   | Gets the result table.                                                 |
 | [`Location`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/EquivalentRadiatedPowerWaterfallDiagram.md#EquivalentRadiatedPowerWaterfallDiagram.Location)                                                   | Gets or sets the Location.                                             |
 | [`TimeForMinimumOfMinimumValues`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/EquivalentRadiatedPowerWaterfallDiagram.md#EquivalentRadiatedPowerWaterfallDiagram.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
@@ -149,7 +149,7 @@ Gets or sets the PanelContribution.
 
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

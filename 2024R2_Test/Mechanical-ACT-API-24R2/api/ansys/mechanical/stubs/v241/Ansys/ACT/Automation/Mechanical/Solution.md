@@ -406,7 +406,7 @@ Defines a Solution.
 | [`ResultFileUnitSystem`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Solution.md#Solution.ResultFileUnitSystem)                   | Gets the ResultFileUnitSystem.                                                           |
 | [`CalculateBeamSectionResults`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Solution.md#Solution.CalculateBeamSectionResults)     | Gets or sets the CalculateBeamSectionResults.                                            |
 | [`TopologyResult`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Solution.md#Solution.TopologyResult)                               | Gets or sets the TopologyResult.                                                         |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Solution.md#Solution.DataModelObjectCategory)             | Gets the current DataModelObject’s category.                                             |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Solution.md#Solution.DataModelObjectCategory)             | Gets the current DataModelObjectâ€™s category.                                             |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Solution.md#Solution.Children)                                           | Gets the list of children.                                                               |
 | [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Solution.md#Solution.Comments)                                           | Gets the list of associated comments.                                                    |
 | [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Solution.md#Solution.Figures)                                             | Gets the list of associated figures.                                                     |
@@ -967,7 +967,7 @@ Gets or sets the TopologyResult.
 
 ### *property* Solution.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

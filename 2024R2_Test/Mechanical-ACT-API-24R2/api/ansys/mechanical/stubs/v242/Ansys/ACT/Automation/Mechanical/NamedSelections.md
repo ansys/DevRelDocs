@@ -49,7 +49,7 @@ Defines a NamedSelections.
 | [`GenerateOnRemesh`](#NamedSelections.GenerateOnRemesh)               | Gets or sets the GenerateOnRemesh.                            |
 | [`RandomColors`](#NamedSelections.RandomColors)                       | Gets the RandomColors.                                        |
 | [`ShowAnnotations`](#NamedSelections.ShowAnnotations)                 | Gets or sets the ShowAnnotations.                             |
-| [`DataModelObjectCategory`](#NamedSelections.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#NamedSelections.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#NamedSelections.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#NamedSelections.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#NamedSelections.Figures)                                 | Gets the list of associated figures.                          |
@@ -106,7 +106,7 @@ Gets or sets the ShowAnnotations.
 
 ### *property* NamedSelections.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

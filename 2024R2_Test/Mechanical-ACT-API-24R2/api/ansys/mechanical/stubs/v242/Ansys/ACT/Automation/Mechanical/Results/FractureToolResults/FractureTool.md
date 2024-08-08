@@ -68,7 +68,7 @@ Defines a FractureTool.
 | [`ScopingMethod`](#FractureTool.ScopingMethod)                       | Gets or sets the ScopingMethod.                               |
 | [`Suppressed`](#FractureTool.Suppressed)                             | Gets or sets the Suppressed.                                  |
 | [`CrackSelection`](#FractureTool.CrackSelection)                     | Gets or sets the CrackSelection.                              |
-| [`DataModelObjectCategory`](#FractureTool.DataModelObjectCategory)   | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#FractureTool.DataModelObjectCategory)   | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#FractureTool.Children)                                 | Gets the list of children.                                    |
 | [`Comments`](#FractureTool.Comments)                                 | Gets the list of associated comments.                         |
 | [`Figures`](#FractureTool.Figures)                                   | Gets the list of associated figures.                          |
@@ -141,7 +141,7 @@ Gets or sets the CrackSelection.
 
 ### *property* FractureTool.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

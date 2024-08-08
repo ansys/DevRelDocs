@@ -42,7 +42,7 @@ Defines a NodalOrientation.
 | [`InternalObject`](#id0)                                               | Gets the internal object. For advanced usage only.            |
 | [`Suppressed`](#NodalOrientation.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`CoordinateSystem`](#NodalOrientation.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
-| [`DataModelObjectCategory`](#NodalOrientation.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#NodalOrientation.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#NodalOrientation.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#NodalOrientation.Comments)                               | Gets the list of associated comments.                         |
 | [`Images`](#NodalOrientation.Images)                                   | Gets the list of associated images.                           |
@@ -90,7 +90,7 @@ Gets or sets the CoordinateSystem.
 
 ### *property* NodalOrientation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

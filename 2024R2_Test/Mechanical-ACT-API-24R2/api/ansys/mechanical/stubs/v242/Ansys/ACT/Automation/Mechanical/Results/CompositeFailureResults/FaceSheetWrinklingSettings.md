@@ -37,7 +37,7 @@ Defines the configuration for the Face Sheet Wrinkling failure criterion for san
 ### *property* FaceSheetWrinklingSettings.WeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the weighting factor for the face sheet wrinkling criterion. The corresponding failure
-: label is ‘wt’ for wrinkling at the top face, ‘wb’ at the bottom face.
+: label is â€˜wtâ€™ for wrinkling at the top face, â€˜wbâ€™ at the bottom face.
 
 <!-- !! processed by numpydoc !! -->
 

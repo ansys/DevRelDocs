@@ -18,9 +18,9 @@ Defines a MeshWorkflowGroup.
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [`GenerateWorkflows`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowGroup.md#MeshWorkflowGroup.GenerateWorkflows)             | Generates all mesh workflows, i.e. executes the ìInputî, the ìStepsî, and the ìOutputî as needed.                                                                                                                                                                                                                      |
+| [`GenerateWorkflows`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowGroup.md#MeshWorkflowGroup.GenerateWorkflows)             | Generates all mesh workflows, i.e. executes the ‚ÄúInput‚Äù, the ‚ÄúSteps‚Äù, and the ‚ÄúOutput‚Äù as needed.                                                                                                                                                                                                                      |
 | [`ClearGeneratedData`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowGroup.md#MeshWorkflowGroup.ClearGeneratedData)           | Resets all mesh workflows completely, i.e. also the geometry scoping transferred into each mesh workflow will be reset and all inactive geometry parts/bodies will become active again. Steps, controls, and outcomes will be reset to their initial state while any user-defined property settings will remain as-is. |
-| [`AddMeshWorkflow`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowGroup.md#MeshWorkflowGroup.AddMeshWorkflow)                 | Adds a new workflow to the ìMeshWorkflowGroupî object.                                                                                                                                                                                                                                                                 |
+| [`AddMeshWorkflow`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowGroup.md#MeshWorkflowGroup.AddMeshWorkflow)                 | Adds a new workflow to the ‚ÄúMeshWorkflowGroup‚Äù object.                                                                                                                                                                                                                                                                 |
 | [`Delete`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowGroup.md#MeshWorkflowGroup.Delete)                                   | Run the Delete action.                                                                                                                                                                                                                                                                                                 |
 | [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowGroup.md#id1)                                                   | Gets the list of children, filtered by type.                                                                                                                                                                                                                                                                           |
 | [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowGroup.md#id1)                                                   | Gets the list of children, filtered by type.                                                                                                                                                                                                                                                                           |
@@ -44,7 +44,7 @@ Defines a MeshWorkflowGroup.
 |-------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowGroup.md#id0)                                                | Gets the internal object. For advanced usage only.            |
 | [`ActiveWorkflow`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowGroup.md#MeshWorkflowGroup.ActiveWorkflow)                   | Gets the ActiveWorkflow.                                      |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowGroup.md#MeshWorkflowGroup.DataModelObjectCategory) | Gets the current DataModelObjectís category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowGroup.md#MeshWorkflowGroup.DataModelObjectCategory) | Gets the current DataModelObject‚Äôs category.                  |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowGroup.md#MeshWorkflowGroup.Children)                               | Gets the list of children.                                    |
 | [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowGroup.md#MeshWorkflowGroup.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowGroup.md#MeshWorkflowGroup.Figures)                                 | Gets the list of associated figures.                          |
@@ -77,7 +77,7 @@ Gets the ActiveWorkflow.
 
 ### *property* MeshWorkflowGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectís category.
+Gets the current DataModelObject‚Äôs category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -145,7 +145,7 @@ Gets the list of properties that are visible for this object.
 
 ### MeshWorkflowGroup.GenerateWorkflows()
 
-Generates all mesh workflows, i.e. executes the ìInputî, the ìStepsî, and the ìOutputî as needed.
+Generates all mesh workflows, i.e. executes the ‚ÄúInput‚Äù, the ‚ÄúSteps‚Äù, and the ‚ÄúOutput‚Äù as needed.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -161,7 +161,7 @@ Resets all mesh workflows completely, i.e. also the geometry scoping transferred
 
 ### MeshWorkflowGroup.AddMeshWorkflow(type: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.WorkflowType](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/WorkflowType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.WorkflowType))
 
-Adds a new workflow to the ìMeshWorkflowGroupî object.
+Adds a new workflow to the ‚ÄúMeshWorkflowGroup‚Äù object.
 
 <!-- !! processed by numpydoc !! -->
 

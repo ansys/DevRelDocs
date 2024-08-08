@@ -51,7 +51,7 @@ Defines a VectorPrincipalStress.
 | Name | Description |
 |-------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                        | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](#VectorPrincipalStress.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](#VectorPrincipalStress.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
 | [`Mode`](#VectorPrincipalStress.Mode)                                                           | Gets or sets the Mode.                                                 |
 | [`Ply`](#VectorPrincipalStress.Ply)                                                             | Gets or sets the Ply selection.                                        |
 | [`Plies`](#VectorPrincipalStress.Plies)                                                         | Plies property.                                                        |
@@ -160,7 +160,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* VectorPrincipalStress.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

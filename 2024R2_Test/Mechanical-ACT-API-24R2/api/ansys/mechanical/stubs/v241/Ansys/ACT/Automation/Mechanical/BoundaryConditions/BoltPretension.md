@@ -43,7 +43,7 @@ Defines a BoltPretension.
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| [`DefineBy`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/BoltPretension.md#BoltPretension.DefineBy)                                 | Gets a value indicating how the bolt pretension is defined at the analysis’ current step.   |
+| [`DefineBy`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/BoltPretension.md#BoltPretension.DefineBy)                                 | Gets a value indicating how the bolt pretension is defined at the analysisâ€™ current step.   |
 | [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/BoltPretension.md#id0)                                               | Gets the internal object. For advanced usage only.                                          |
 | [`Increment`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/BoltPretension.md#BoltPretension.Increment)                               | Gets the Increment.                                                                         |
 | [`Preadjustment`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/BoltPretension.md#BoltPretension.Preadjustment)                       | Gets the Preadjustment.                                                                     |
@@ -55,7 +55,7 @@ Defines a BoltPretension.
 | [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/BoltPretension.md#BoltPretension.Suppressed)                             | Gets or sets the Suppressed.                                                                |
 | [`CoordinateSystem`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/BoltPretension.md#BoltPretension.CoordinateSystem)                 | Gets or sets the CoordinateSystem.                                                          |
 | [`Location`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/BoltPretension.md#BoltPretension.Location)                                 | Gets or sets the Location.                                                                  |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/BoltPretension.md#BoltPretension.DataModelObjectCategory)   | Gets the current DataModelObject’s category.                                                |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/BoltPretension.md#BoltPretension.DataModelObjectCategory)   | Gets the current DataModelObjectâ€™s category.                                                |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/BoltPretension.md#BoltPretension.Children)                                 | Gets the list of children.                                                                  |
 | [`Comments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/BoltPretension.md#BoltPretension.Comments)                                 | Gets the list of associated comments.                                                       |
 | [`Figures`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/BoltPretension.md#BoltPretension.Figures)                                   | Gets the list of associated figures.                                                        |
@@ -73,7 +73,7 @@ Defines a BoltPretension.
 
 ### *property* BoltPretension.DefineBy *: [Ansys.Mechanical.DataModel.Enums.BoltLoadDefineBy](../../../../Mechanical/DataModel/Enums/BoltLoadDefineBy.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BoltLoadDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets a value indicating how the bolt pretension is defined at the analysis’ current step.
+Gets a value indicating how the bolt pretension is defined at the analysisâ€™ current step.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -169,7 +169,7 @@ Gets or sets the Location.
 
 ### *property* BoltPretension.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

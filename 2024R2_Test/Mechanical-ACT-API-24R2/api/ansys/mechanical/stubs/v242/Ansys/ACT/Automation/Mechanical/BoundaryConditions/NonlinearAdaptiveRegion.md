@@ -67,7 +67,7 @@ Defines a NonlinearAdaptiveRegion.
 | [`Suppressed`](#NonlinearAdaptiveRegion.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`CoordinateSystem`](#NonlinearAdaptiveRegion.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
 | [`Location`](#NonlinearAdaptiveRegion.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#NonlinearAdaptiveRegion.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#NonlinearAdaptiveRegion.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#NonlinearAdaptiveRegion.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#NonlinearAdaptiveRegion.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#NonlinearAdaptiveRegion.Figures)                                 | Gets the list of associated figures.                          |
@@ -308,7 +308,7 @@ Gets or sets the Location.
 
 ### *property* NonlinearAdaptiveRegion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

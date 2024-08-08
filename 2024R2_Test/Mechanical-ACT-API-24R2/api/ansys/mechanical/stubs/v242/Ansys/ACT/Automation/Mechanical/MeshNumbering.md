@@ -46,7 +46,7 @@ Defines a MeshNumbering.
 | [`NodeOffset`](#MeshNumbering.NodeOffset)                           | Gets or sets the NodeOffset.                                  |
 | [`CompressNodeNumbers`](#MeshNumbering.CompressNodeNumbers)         | Gets or sets the CompressNodeNumbers.                         |
 | [`Suppressed`](#MeshNumbering.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`DataModelObjectCategory`](#MeshNumbering.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#MeshNumbering.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#MeshNumbering.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#MeshNumbering.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#MeshNumbering.Figures)                                 | Gets the list of associated figures.                          |
@@ -103,7 +103,7 @@ Gets or sets the Suppressed.
 
 ### *property* MeshNumbering.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

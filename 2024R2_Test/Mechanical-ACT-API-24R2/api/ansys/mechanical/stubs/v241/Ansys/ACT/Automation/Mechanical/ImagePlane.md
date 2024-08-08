@@ -22,7 +22,7 @@ Defines a ImagePlane.
 | [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImagePlane.md#id1)                                            | Gets the list of children, filtered by type.                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImagePlane.md#id1)                                            | Gets the list of children, filtered by type.                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | [`AddComment`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImagePlane.md#ImagePlane.AddComment)                           | Creates a new child Comment.                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| [`Import`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImagePlane.md#ImagePlane.Import)                                   | Sets the image which is rendered to this plane, specified by filePath.  Upon success, ImageFilePath will return filePath.  Upon failure, ImageFilePath will remain unchanged.  Supported file formats include PNG, JPEG, BMP, and GIF.  If this is the first time an image has been set to this image plane and if Width and Height were never modified, the image plane will be automatically sized based on the model’s bounding box, respecting the image’s aspect ratio. |
+| [`Import`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImagePlane.md#ImagePlane.Import)                                   | Sets the image which is rendered to this plane, specified by filePath.  Upon success, ImageFilePath will return filePath.  Upon failure, ImageFilePath will remain unchanged.  Supported file formats include PNG, JPEG, BMP, and GIF.  If this is the first time an image has been set to this image plane and if Width and Height were never modified, the image plane will be automatically sized based on the modelâ€™s bounding box, respecting the imageâ€™s aspect ratio. |
 | [`Activate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImagePlane.md#ImagePlane.Activate)                               | Activate the current object.                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | [`CopyTo`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImagePlane.md#ImagePlane.CopyTo)                                   | Copies all visible properties from this object to another.                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | [`Duplicate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImagePlane.md#ImagePlane.Duplicate)                             | Creates a copy of the current DataModelObject.                                                                                                                                                                                                                                                                                                                                                                                                                               |
@@ -39,15 +39,15 @@ Defines a ImagePlane.
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImagePlane.md#id0)                                         | Gets the internal object. For advanced usage only.                                                                                                              |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImagePlane.md#ImagePlane.DataModelObjectCategory) | Gets the current DataModelObject’s category.                                                                                                                    |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImagePlane.md#ImagePlane.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                                                                                                                    |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImagePlane.md#ImagePlane.Children)                               | Gets the list of children.                                                                                                                                      |
 | [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImagePlane.md#ImagePlane.Comments)                               | Gets the list of associated comments.                                                                                                                           |
 | [`Images`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImagePlane.md#ImagePlane.Images)                                   | Gets the list of associated images.                                                                                                                             |
 | [`ImageFilePath`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImagePlane.md#ImagePlane.ImageFilePath)                     | Gets the file path for the rendered image.                                                                                                                      |
-| [`CoordinateSystem`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImagePlane.md#ImagePlane.CoordinateSystem)               | Gets or sets the coordinate system object used for defining the plane’s location and orientation.  This property is restricted to cartesian coordinate systems. |
-| [`CoordinateSystemVisible`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImagePlane.md#ImagePlane.CoordinateSystemVisible) | Gets or sets whether the annotation for the image’s coordinate system is rendered.                                                                              |
-| [`PixelWidth`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImagePlane.md#ImagePlane.PixelWidth)                           | Gets the pixel width of the plane’s image.                                                                                                                      |
-| [`PixelHeight`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImagePlane.md#ImagePlane.PixelHeight)                         | Gets the pixel height of the plane’s image.                                                                                                                     |
+| [`CoordinateSystem`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImagePlane.md#ImagePlane.CoordinateSystem)               | Gets or sets the coordinate system object used for defining the planeâ€™s location and orientation.  This property is restricted to cartesian coordinate systems. |
+| [`CoordinateSystemVisible`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImagePlane.md#ImagePlane.CoordinateSystemVisible) | Gets or sets whether the annotation for the imageâ€™s coordinate system is rendered.                                                                              |
+| [`PixelWidth`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImagePlane.md#ImagePlane.PixelWidth)                           | Gets the pixel width of the planeâ€™s image.                                                                                                                      |
+| [`PixelHeight`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImagePlane.md#ImagePlane.PixelHeight)                         | Gets the pixel height of the planeâ€™s image.                                                                                                                     |
 | [`Width`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImagePlane.md#ImagePlane.Width)                                     | Gets or sets the physical width of the image plane.                                                                                                             |
 | [`Height`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImagePlane.md#ImagePlane.Height)                                   | Gets or sets the physical height of the image plane.                                                                                                            |
 | [`FlipHorizontally`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImagePlane.md#ImagePlane.FlipHorizontally)               | Gets or sets whether the rendered image on the plane should be flipped horizontally.                                                                            |
@@ -74,7 +74,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* ImagePlane.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -114,7 +114,7 @@ Gets the file path for the rendered image.
 
 ### *property* ImagePlane.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the coordinate system object used for defining the plane’s location and orientation.  This property is restricted to cartesian coordinate systems.
+Gets or sets the coordinate system object used for defining the planeâ€™s location and orientation.  This property is restricted to cartesian coordinate systems.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -122,7 +122,7 @@ Gets or sets the coordinate system object used for defining the plane’s locati
 
 ### *property* ImagePlane.CoordinateSystemVisible *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets whether the annotation for the image’s coordinate system is rendered.
+Gets or sets whether the annotation for the imageâ€™s coordinate system is rendered.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -130,7 +130,7 @@ Gets or sets whether the annotation for the image’s coordinate system is rende
 
 ### *property* ImagePlane.PixelWidth *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the pixel width of the plane’s image.
+Gets the pixel width of the planeâ€™s image.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -138,7 +138,7 @@ Gets the pixel width of the plane’s image.
 
 ### *property* ImagePlane.PixelHeight *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the pixel height of the plane’s image.
+Gets the pixel height of the planeâ€™s image.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -254,7 +254,7 @@ Creates a new child Comment.
 
 ### ImagePlane.Import(filePath: System.String)
 
-Sets the image which is rendered to this plane, specified by filePath.  Upon success, ImageFilePath will return filePath.  Upon failure, ImageFilePath will remain unchanged.  Supported file formats include PNG, JPEG, BMP, and GIF.  If this is the first time an image has been set to this image plane and if Width and Height were never modified, the image plane will be automatically sized based on the model’s bounding box, respecting the image’s aspect ratio.
+Sets the image which is rendered to this plane, specified by filePath.  Upon success, ImageFilePath will return filePath.  Upon failure, ImageFilePath will remain unchanged.  Supported file formats include PNG, JPEG, BMP, and GIF.  If this is the first time an image has been set to this image plane and if Width and Height were never modified, the image plane will be automatically sized based on the modelâ€™s bounding box, respecting the imageâ€™s aspect ratio.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -52,7 +52,7 @@ Defines a ShearGasketPressure.
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/GasketResults/ShearGasketPressure.md#id0)                                                                      | Gets the internal object. For advanced usage only.                     |
 | [`ShearOrientation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/GasketResults/ShearGasketPressure.md#ShearGasketPressure.ShearOrientation)                                   | Gets or sets the ShearOrientation.                                     |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/GasketResults/ShearGasketPressure.md#ShearGasketPressure.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/GasketResults/ShearGasketPressure.md#ShearGasketPressure.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
 | [`GasketResultType`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/GasketResults/ShearGasketPressure.md#ShearGasketPressure.GasketResultType)                                   | Gets or sets the GasketResultType.                                     |
 | [`PlotData`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/GasketResults/ShearGasketPressure.md#ShearGasketPressure.PlotData)                                                   | Gets the result table.                                                 |
 | [`Location`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/GasketResults/ShearGasketPressure.md#ShearGasketPressure.Location)                                                   | Gets or sets the Location.                                             |
@@ -132,7 +132,7 @@ Gets or sets the ShearOrientation.
 
 ### *property* ShearGasketPressure.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

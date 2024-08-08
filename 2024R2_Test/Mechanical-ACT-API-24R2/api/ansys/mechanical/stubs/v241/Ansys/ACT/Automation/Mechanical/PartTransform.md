@@ -54,7 +54,7 @@ Defines a PartTransform.
 | [`SourceCoordinateSystem`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PartTransform.md#PartTransform.SourceCoordinateSystem)   | Gets or sets the SourceCoordinateSystem.                      |
 | [`TargetCoordinateSystem`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PartTransform.md#PartTransform.TargetCoordinateSystem)   | Gets or sets the TargetCoordinateSystem.                      |
 | [`Location`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PartTransform.md#PartTransform.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PartTransform.md#PartTransform.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PartTransform.md#PartTransform.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PartTransform.md#PartTransform.Children)                               | Gets the list of children.                                    |
 | [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PartTransform.md#PartTransform.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PartTransform.md#PartTransform.Figures)                                 | Gets the list of associated figures.                          |
@@ -183,7 +183,7 @@ Gets or sets the Location.
 
 ### *property* PartTransform.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

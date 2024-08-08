@@ -99,7 +99,7 @@ Swaps two steps in the Removal sequence by name.
 Returns true if successful and false if unsuccessful
 Usage:
 
-> removalSequence.Swap(“Base”, “Generated Support 1”)
+> removalSequence.Swap(â€œBaseâ€, â€œGenerated Support 1â€)
 <!-- !! processed by numpydoc !! -->
 
 <a id="AMSupportRemovalSequence.IndexOf"></a>

@@ -51,7 +51,7 @@ Defines a TotalElectricFieldIntensity.
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                              | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](#TotalElectricFieldIntensity.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](#TotalElectricFieldIntensity.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
 | [`ReportedFrequency`](#TotalElectricFieldIntensity.ReportedFrequency)                                 | Gets the ReportedFrequency.                                            |
 | [`SweepingPhase`](#TotalElectricFieldIntensity.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
 | [`PhaseIncrement`](#TotalElectricFieldIntensity.PhaseIncrement)                                       | Gets or sets the PhaseIncrement.                                       |
@@ -130,7 +130,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* TotalElectricFieldIntensity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

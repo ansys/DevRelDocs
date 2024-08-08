@@ -52,7 +52,7 @@ Defines a DirectionalThermalStrain.
 |----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                           | Gets the internal object. For advanced usage only.                     |
 | [`NormalOrientation`](#DirectionalThermalStrain.NormalOrientation)                                 | Gets or sets the NormalOrientation.                                    |
-| [`DataModelObjectCategory`](#DirectionalThermalStrain.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](#DirectionalThermalStrain.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
 | [`Mode`](#DirectionalThermalStrain.Mode)                                                           | Gets or sets the Mode.                                                 |
 | [`Ply`](#DirectionalThermalStrain.Ply)                                                             | Gets or sets the Ply selection.                                        |
 | [`Plies`](#DirectionalThermalStrain.Plies)                                                         | Plies property.                                                        |
@@ -149,7 +149,7 @@ Gets or sets the NormalOrientation.
 
 ### *property* DirectionalThermalStrain.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -51,7 +51,7 @@ Defines a CondensedPart.
 | [`MinimumFrequency`](#CondensedPart.MinimumFrequency)               | Gets or sets the MinimumFrequency.                                                                          |
 | [`AttachmentMethod`](#CondensedPart.AttachmentMethod)               | Gets or sets the AttachmentMethod.                                                                          |
 | [`FutureExpansion`](#CondensedPart.FutureExpansion)                 | Gets or sets the FutureExpansion.                                                                           |
-| [`FutureIntent`](#CondensedPart.FutureIntent)                       | ìFutureIntentî property defines the type of solver supported to perform a use pass with the condensed part. |
+| [`FutureIntent`](#CondensedPart.FutureIntent)                       | ‚ÄúFutureIntent‚Äù property defines the type of solver supported to perform a use pass with the condensed part. |
 | [`GenerateDampingMatrix`](#CondensedPart.GenerateDampingMatrix)     | Gets or sets the GenerateDampingMatrix.                                                                     |
 | [`InterfaceMethod`](#CondensedPart.InterfaceMethod)                 | Gets or sets the InterfaceMethod.                                                                           |
 | [`KeepFilesFor`](#CondensedPart.KeepFilesFor)                       | Gets or sets the KeepFilesFor.                                                                              |
@@ -61,7 +61,7 @@ Defines a CondensedPart.
 | [`SolverType`](#CondensedPart.SolverType)                           | Gets or sets the SolverType.                                                                                |
 | [`StoreBasisResults`](#CondensedPart.StoreBasisResults)             | Gets or sets the StoreBasisResults.                                                                         |
 | [`RangeSearch`](#CondensedPart.RangeSearch)                         | Gets or sets the RangeSearch.                                                                               |
-| [`DataModelObjectCategory`](#CondensedPart.DataModelObjectCategory) | Gets the current DataModelObjectís category.                                                                |
+| [`DataModelObjectCategory`](#CondensedPart.DataModelObjectCategory) | Gets the current DataModelObject‚Äôs category.                                                                |
 | [`NumberInterfaceEntries`](#CondensedPart.NumberInterfaceEntries)   | Gets the NumberInterfaceEntries.                                                                            |
 | [`NumberMasterNodes`](#CondensedPart.NumberMasterNodes)             | Gets the NumberMasterNodes.                                                                                 |
 | [`SolutionName`](#CondensedPart.SolutionName)                       | Gets or sets the SolutionName.                                                                              |
@@ -146,7 +146,7 @@ Gets or sets the FutureExpansion.
 
 ### *property* CondensedPart.FutureIntent *: [Ansys.Mechanical.DataModel.Enums.FutureIntentType](../../../../../v241/Ansys/Mechanical/DataModel/Enums/FutureIntentType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FutureIntentType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-ìFutureIntentî property defines the type of solver supported to perform a use pass with the condensed part.
+‚ÄúFutureIntent‚Äù property defines the type of solver supported to perform a use pass with the condensed part.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -226,7 +226,7 @@ Gets or sets the RangeSearch.
 
 ### *property* CondensedPart.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectís category.
+Gets the current DataModelObject‚Äôs category.
 
 <!-- !! processed by numpydoc !! -->
 

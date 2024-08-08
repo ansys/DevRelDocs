@@ -7,7 +7,7 @@
 Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 This enum defines the dimension values for configuring failure criteria.
-: In particular, the Tsai – Wu, Tsai – Hill, Hoffman, Hashin and Cuntze criteria
+: In particular, the Tsai â€“ Wu, Tsai â€“ Hill, Hoffman, Hashin and Cuntze criteria
   can be configured in this way.
 
 <!-- !! processed by numpydoc !! -->

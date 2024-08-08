@@ -52,7 +52,7 @@ Defines a DirectionalMagneticFluxDensity.
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ElectromagneticResults/DirectionalMagneticFluxDensity.md#id0)                                                                                 | Gets the internal object. For advanced usage only.                     |
 | [`NormalOrientation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ElectromagneticResults/DirectionalMagneticFluxDensity.md#DirectionalMagneticFluxDensity.NormalOrientation)                                 | Gets or sets the NormalOrientation.                                    |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ElectromagneticResults/DirectionalMagneticFluxDensity.md#DirectionalMagneticFluxDensity.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ElectromagneticResults/DirectionalMagneticFluxDensity.md#DirectionalMagneticFluxDensity.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
 | [`ElectromagneticResultType`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ElectromagneticResults/DirectionalMagneticFluxDensity.md#DirectionalMagneticFluxDensity.ElectromagneticResultType)                 | Gets or sets the ElectromagneticResultType.                            |
 | [`AverageAcrossBodies`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ElectromagneticResults/DirectionalMagneticFluxDensity.md#DirectionalMagneticFluxDensity.AverageAcrossBodies)                             | Gets or sets the AverageAcrossBodies.                                  |
 | [`PlotData`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ElectromagneticResults/DirectionalMagneticFluxDensity.md#DirectionalMagneticFluxDensity.PlotData)                                                   | Gets the result table.                                                 |
@@ -133,7 +133,7 @@ Gets or sets the NormalOrientation.
 
 ### *property* DirectionalMagneticFluxDensity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

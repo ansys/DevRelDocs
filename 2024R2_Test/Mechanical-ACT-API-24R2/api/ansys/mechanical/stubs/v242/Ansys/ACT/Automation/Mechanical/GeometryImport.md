@@ -44,7 +44,7 @@ Defines a GeometryImport.
 |----------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Parts`](#GeometryImport.Parts)                                     | List of parts created by the most recent import operation.    |
 | [`InternalObject`](#id0)                                             | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](#GeometryImport.DataModelObjectCategory) | Gets the current DataModelObjectís category.                  |
+| [`DataModelObjectCategory`](#GeometryImport.DataModelObjectCategory) | Gets the current DataModelObject‚Äôs category.                  |
 | [`Children`](#GeometryImport.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#GeometryImport.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#GeometryImport.Figures)                                 | Gets the list of associated figures.                          |
@@ -77,7 +77,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* GeometryImport.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectís category.
+Gets the current DataModelObject‚Äôs category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -146,7 +146,7 @@ Gets the list of properties that are visible for this object.
 ### GeometryImport.GetGeometryURI()
 
 Gets the Geometry URI for the most recent import. The Universal Resource Identifier,
-which on disk would be ì[file://](file://)Öî
+which on disk would be ‚Äú[file://](file://)‚Ä¶‚Äù
 
 <!-- !! processed by numpydoc !! -->
 

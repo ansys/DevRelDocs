@@ -23,7 +23,7 @@ Defines a ImportedTrace.
 | [`ExportToTextFile`](#ImportedTrace.ExportToTextFile)               | Run the ExportToTextFile action.                                                        |
 | [`Import`](#ImportedTrace.Import)                                   | Import.                                                                                 |
 | [`ImportLoad`](#ImportedTrace.ImportLoad)                           | Run the ImportLoad action.                                                              |
-| [`ReloadConfiguration`](#ImportedTrace.ReloadConfiguration)         | Reload the Imported Load’s setup from its associated configuration file (if available). |
+| [`ReloadConfiguration`](#ImportedTrace.ReloadConfiguration)         | Reload the Imported Loadâ€™s setup from its associated configuration file (if available). |
 | [`AddMappingValidation`](#ImportedTrace.AddMappingValidation)       | Creates a new MappingValidation                                                         |
 | [`ClearGeneratedData`](#ImportedTrace.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                      |
 | [`Delete`](#ImportedTrace.Delete)                                   | Run the Delete action.                                                                  |
@@ -50,7 +50,7 @@ Defines a ImportedTrace.
 | [`Vias`](#ImportedTrace.Vias)                                                                 | Vias property.                                                                                          |
 | [`Layers`](#ImportedTrace.Layers)                                                             | Layers property.                                                                                        |
 | [`InternalObject`](#id0)                                                                      | Gets the internal object. For advanced usage only.                                                      |
-| [`DataModelObjectCategory`](#ImportedTrace.DataModelObjectCategory)                           | Gets the current DataModelObject’s category.                                                            |
+| [`DataModelObjectCategory`](#ImportedTrace.DataModelObjectCategory)                           | Gets the current DataModelObjectâ€™s category.                                                            |
 | [`Weighting`](#ImportedTrace.Weighting)                                                       | Weighting property.                                                                                     |
 | [`MappingControl`](#ImportedTrace.MappingControl)                                             | MappingControl property.                                                                                |
 | [`DisplaySourcePoints`](#ImportedTrace.DisplaySourcePoints)                                   | DisplaySourcePoints property.                                                                           |
@@ -133,7 +133,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* ImportedTrace.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -577,7 +577,7 @@ Run the ImportLoad action.
 
 ### ImportedTrace.ReloadConfiguration()
 
-Reload the Imported Load’s setup from its associated configuration file (if available).
+Reload the Imported Loadâ€™s setup from its associated configuration file (if available).
 
 <!-- !! processed by numpydoc !! -->
 

@@ -18,7 +18,7 @@ ISolveConfiguration interface.
 
 | Name | Description |
 |-------------------------------------------------------|--------------------------------------------------------------|
-| [`SetAsDefault`](#ISolveConfiguration.SetAsDefault)   | Sets ‘this’ to be the default configuration to solve with.   |
+| [`SetAsDefault`](#ISolveConfiguration.SetAsDefault)   | Sets â€˜thisâ€™ to be the default configuration to solve with.   |
 
 ### Properties
 
@@ -73,7 +73,7 @@ Gets the SolveProcessSettings for the current object.
 
 ### ISolveConfiguration.SetAsDefault()
 
-Sets ‘this’ to be the default configuration to solve with.
+Sets â€˜thisâ€™ to be the default configuration to solve with.
 
 <!-- !! processed by numpydoc !! -->
 

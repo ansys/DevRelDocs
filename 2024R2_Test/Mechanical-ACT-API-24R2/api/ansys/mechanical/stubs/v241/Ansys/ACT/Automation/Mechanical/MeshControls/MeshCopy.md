@@ -50,7 +50,7 @@ Defines a MeshCopy.
 | [`TargetAnchorsNamedSelection`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/MeshCopy.md#MeshCopy.TargetAnchorsNamedSelection) | Gets or sets the TargetAnchorsNamedSelection.                 |
 | [`SourceAnchors`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/MeshCopy.md#MeshCopy.SourceAnchors)                             | Gets or sets the SourceAnchors.                               |
 | [`TargetAnchors`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/MeshCopy.md#MeshCopy.TargetAnchors)                             | Gets or sets the TargetAnchors.                               |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/MeshCopy.md#MeshCopy.DataModelObjectCategory)         | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/MeshCopy.md#MeshCopy.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                  |
 | [`ScopingMethod`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/MeshCopy.md#MeshCopy.ScopingMethod)                             | Gets or sets the ScopingMethod.                               |
 | [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/MeshCopy.md#MeshCopy.Suppressed)                                   | Gets or sets the Suppressed.                                  |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/MeshCopy.md#MeshCopy.Children)                                       | Gets the list of children.                                    |
@@ -141,7 +141,7 @@ Gets or sets the TargetAnchors.
 
 ### *property* MeshCopy.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -52,7 +52,7 @@ Defines a DirectionalElectricFluxDensity.
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ElectricResults/DirectionalElectricFluxDensity.md#id0)                                                                                 | Gets the internal object. For advanced usage only.                     |
 | [`NormalOrientation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ElectricResults/DirectionalElectricFluxDensity.md#DirectionalElectricFluxDensity.NormalOrientation)                                 | Gets or sets the NormalOrientation.                                    |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ElectricResults/DirectionalElectricFluxDensity.md#DirectionalElectricFluxDensity.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ElectricResults/DirectionalElectricFluxDensity.md#DirectionalElectricFluxDensity.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
 | [`ReportedFrequency`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ElectricResults/DirectionalElectricFluxDensity.md#DirectionalElectricFluxDensity.ReportedFrequency)                                 | Gets the ReportedFrequency.                                            |
 | [`SweepingPhase`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ElectricResults/DirectionalElectricFluxDensity.md#DirectionalElectricFluxDensity.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
 | [`PhaseIncrement`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ElectricResults/DirectionalElectricFluxDensity.md#DirectionalElectricFluxDensity.PhaseIncrement)                                       | Gets or sets the PhaseIncrement.                                       |
@@ -138,7 +138,7 @@ Gets or sets the NormalOrientation.
 
 ### *property* DirectionalElectricFluxDensity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

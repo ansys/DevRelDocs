@@ -52,7 +52,7 @@ Defines a ContactToolResult.
 |---------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                    | Gets the internal object. For advanced usage only.                     |
 | [`ContactResultType`](#ContactToolResult.ContactResultType)                                 | Gets or sets the ContactResultType.                                    |
-| [`DataModelObjectCategory`](#ContactToolResult.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](#ContactToolResult.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
 | [`PlotData`](#ContactToolResult.PlotData)                                                   | Gets the result table.                                                 |
 | [`Location`](#ContactToolResult.Location)                                                   | Gets or sets the Location.                                             |
 | [`TimeForMinimumOfMinimumValues`](#ContactToolResult.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
@@ -132,7 +132,7 @@ Gets or sets the ContactResultType.
 
 ### *property* ContactToolResult.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

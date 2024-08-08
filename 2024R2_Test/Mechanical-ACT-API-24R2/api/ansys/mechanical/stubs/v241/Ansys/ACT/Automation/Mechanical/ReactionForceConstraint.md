@@ -46,7 +46,7 @@ Defines a ReactionForceConstraint.
 | [`AxisSelection`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ReactionForceConstraint.md#ReactionForceConstraint.AxisSelection)                     | Gets or sets the AxisSelection.                                                          |
 | [`ReactionForceCriteria`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ReactionForceConstraint.md#ReactionForceConstraint.ReactionForceCriteria)     | Gets or sets the ReactionForceCriteria.                                                  |
 | [`Location`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ReactionForceConstraint.md#ReactionForceConstraint.Location)                               | Gets or sets the Location.                                                               |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ReactionForceConstraint.md#ReactionForceConstraint.DataModelObjectCategory) | Gets the current DataModelObject’s category.                                             |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ReactionForceConstraint.md#ReactionForceConstraint.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                                             |
 | [`EnvironmentSelection`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ReactionForceConstraint.md#ReactionForceConstraint.EnvironmentSelection)       | Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum. |
 | [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ReactionForceConstraint.md#ReactionForceConstraint.Suppressed)                           | Gets or sets the Suppressed.                                                             |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ReactionForceConstraint.md#ReactionForceConstraint.Children)                               | Gets the list of children.                                                               |
@@ -134,7 +134,7 @@ Gets or sets the Location.
 
 ### *property* ReactionForceConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

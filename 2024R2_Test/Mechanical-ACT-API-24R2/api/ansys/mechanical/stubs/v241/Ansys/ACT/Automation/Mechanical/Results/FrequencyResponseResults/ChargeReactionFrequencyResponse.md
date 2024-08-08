@@ -44,7 +44,7 @@ Defines a ChargeReactionFrequencyResponse.
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
 | [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/ChargeReactionFrequencyResponse.md#id0)                                                                      | Gets the internal object. For advanced usage only.                                               |
 | [`LocationMethod`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/ChargeReactionFrequencyResponse.md#ChargeReactionFrequencyResponse.LocationMethod)                           | Gets or sets the LocationMethod.                                                                 |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/ChargeReactionFrequencyResponse.md#ChargeReactionFrequencyResponse.DataModelObjectCategory)         | Gets the current DataModelObject’s category.                                                     |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/ChargeReactionFrequencyResponse.md#ChargeReactionFrequencyResponse.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                                                     |
 | [`CoordinateSystem`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/ChargeReactionFrequencyResponse.md#ChargeReactionFrequencyResponse.CoordinateSystem)                       | Gets or sets the CoordinateSystem. Accepts/Returns None if it is the Solution Coordinate System. |
 | [`RemotePointSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/ChargeReactionFrequencyResponse.md#ChargeReactionFrequencyResponse.RemotePointSelection)               | Gets or sets the RemotePointSelection.                                                           |
 | [`IsSolved`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FrequencyResponseResults/ChargeReactionFrequencyResponse.md#ChargeReactionFrequencyResponse.IsSolved)                                       | Gets the IsSolved.                                                                               |
@@ -118,7 +118,7 @@ Gets or sets the LocationMethod.
 
 ### *property* ChargeReactionFrequencyResponse.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

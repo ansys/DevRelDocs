@@ -75,7 +75,7 @@ Defines a LinearizedStressResult.
 | [`StressStrainType`](#LinearizedStressResult.StressStrainType)                                     | Gets or sets the StressStrainType.                                     |
 | [`ThroughThicknessBendingStress`](#LinearizedStressResult.ThroughThicknessBendingStress)           | Gets or sets the ThroughThicknessBendingStress.                        |
 | [`Amplitude`](#LinearizedStressResult.Amplitude)                                                   | Gets or sets the Amplitude.                                            |
-| [`DataModelObjectCategory`](#LinearizedStressResult.DataModelObjectCategory)                       | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](#LinearizedStressResult.DataModelObjectCategory)                       | Gets the current DataModelObjectâ€™s category.                           |
 | [`PlotData`](#LinearizedStressResult.PlotData)                                                     | Gets the result table.                                                 |
 | [`Location`](#LinearizedStressResult.Location)                                                     | Gets or sets the Location.                                             |
 | [`TimeForMinimumOfMinimumValues`](#LinearizedStressResult.TimeForMinimumOfMinimumValues)           | Get the Time for the minimum of minimum values.                        |
@@ -339,7 +339,7 @@ Gets or sets the Amplitude.
 
 ### *property* LinearizedStressResult.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

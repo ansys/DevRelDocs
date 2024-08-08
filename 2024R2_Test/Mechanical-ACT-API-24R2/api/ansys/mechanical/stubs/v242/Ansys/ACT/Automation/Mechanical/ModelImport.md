@@ -69,7 +69,7 @@ Defines a ModelImport.
 | [`ProcessModelData`](#ModelImport.ProcessModelData)                               | Gets or sets the ProcessModelData.                            |
 | [`ProcessNodalComponents`](#ModelImport.ProcessNodalComponents)                   | Gets or sets the ProcessNodalComponents.                      |
 | [`ProcessValidBlockedCDBFile`](#ModelImport.ProcessValidBlockedCDBFile)           | Gets or sets the ProcessValidBlockedCDBFile.                  |
-| [`DataModelObjectCategory`](#ModelImport.DataModelObjectCategory)                 | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#ModelImport.DataModelObjectCategory)                 | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#ModelImport.Children)                                               | Gets the list of children.                                    |
 | [`Comments`](#ModelImport.Comments)                                               | Gets the list of associated comments.                         |
 | [`Figures`](#ModelImport.Figures)                                                 | Gets the list of associated figures.                          |
@@ -334,7 +334,7 @@ Gets or sets the ProcessValidBlockedCDBFile.
 
 ### *property* ModelImport.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

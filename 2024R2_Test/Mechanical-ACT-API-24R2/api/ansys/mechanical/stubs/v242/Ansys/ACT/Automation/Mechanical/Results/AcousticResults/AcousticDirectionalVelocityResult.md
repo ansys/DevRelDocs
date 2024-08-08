@@ -52,7 +52,7 @@ Defines a AcousticDirectionalVelocityResult.
 |-------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                                    | Gets the internal object. For advanced usage only.                     |
 | [`NormalOrientation`](#AcousticDirectionalVelocityResult.NormalOrientation)                                 | Gets or sets the NormalOrientation.                                    |
-| [`DataModelObjectCategory`](#AcousticDirectionalVelocityResult.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](#AcousticDirectionalVelocityResult.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
 | [`Mode`](#AcousticDirectionalVelocityResult.Mode)                                                           | Gets or sets the Mode.                                                 |
 | [`ReportedFrequency`](#AcousticDirectionalVelocityResult.ReportedFrequency)                                 | Gets the ReportedFrequency.                                            |
 | [`DampedFrequency`](#AcousticDirectionalVelocityResult.DampedFrequency)                                     | Gets the DampedFrequency.                                              |
@@ -141,7 +141,7 @@ Gets or sets the NormalOrientation.
 
 ### *property* AcousticDirectionalVelocityResult.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -114,7 +114,7 @@ Defines a Geometry.
 | [`Attributes`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Geometry.md#Geometry.Attributes)                                         | Gets the Attributes.                                          |
 | [`NamedSelections`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Geometry.md#Geometry.NamedSelections)                               | Gets the NamedSelections.                                     |
 | [`UseInstances`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Geometry.md#Geometry.UseInstances)                                     | Gets the UseInstances.                                        |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Geometry.md#Geometry.DataModelObjectCategory)               | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Geometry.md#Geometry.DataModelObjectCategory)               | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Geometry.md#Geometry.Children)                                             | Gets the list of children.                                    |
 | [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Geometry.md#Geometry.Comments)                                             | Gets the list of associated comments.                         |
 | [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Geometry.md#Geometry.Figures)                                               | Gets the list of associated figures.                          |
@@ -595,7 +595,7 @@ Gets the UseInstances.
 
 ### *property* Geometry.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

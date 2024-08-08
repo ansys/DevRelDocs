@@ -43,7 +43,7 @@ Defines a PredefinedAMSupport.
 | [`InternalObject`](#id0)                                                                | Gets the internal object. For advanced usage only.            |
 | [`Suppressed`](#PredefinedAMSupport.Suppressed)                                         | Gets or sets the Suppressed.                                  |
 | [`Location`](#PredefinedAMSupport.Location)                                             | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#PredefinedAMSupport.DataModelObjectCategory)               | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#PredefinedAMSupport.DataModelObjectCategory)               | Gets the current DataModelObjectâ€™s category.                  |
 | [`ThermalConductivityMultipleInX`](#PredefinedAMSupport.ThermalConductivityMultipleInX) | Gets or sets the ThermalConductivityMultipleInX.              |
 | [`ThermalConductivityMultipleInY`](#PredefinedAMSupport.ThermalConductivityMultipleInY) | Gets or sets the ThermalConductivityMultipleInY.              |
 | [`ThermalConductivityMultipleInZ`](#PredefinedAMSupport.ThermalConductivityMultipleInZ) | Gets or sets the ThermalConductivityMultipleInZ.              |
@@ -100,7 +100,7 @@ Gets or sets the Location.
 
 ### *property* PredefinedAMSupport.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

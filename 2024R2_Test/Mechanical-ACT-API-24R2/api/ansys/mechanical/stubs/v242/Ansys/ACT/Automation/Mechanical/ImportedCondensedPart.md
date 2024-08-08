@@ -57,12 +57,12 @@ Defines a ImportedCondensedPart.
 | [`CondensedPartFileName`](#ImportedCondensedPart.CondensedPartFileName)     | Gets or sets the CondensedPartFileName.                                                                              |
 | [`NodeOffset`](#ImportedCondensedPart.NodeOffset)                           | Gets or sets the NodeOffset.                                                                                         |
 | [`CondensedPartUnitSystem`](#ImportedCondensedPart.CondensedPartUnitSystem) | Gets or sets the CondensedPartUnitSystem.                                                                            |
-| [`ExpansionStatus`](#ImportedCondensedPart.ExpansionStatus)                 | ìExpansionStatusî property defines if results can be expanded of the imported condensed part or not.                 |
-| [`FutureIntent`](#ImportedCondensedPart.FutureIntent)                       | ìFutureIntentî property defines the type of solver supported to perform a use pass with the imported condensed part. |
+| [`ExpansionStatus`](#ImportedCondensedPart.ExpansionStatus)                 | ‚ÄúExpansionStatus‚Äù property defines if results can be expanded of the imported condensed part or not.                 |
+| [`FutureIntent`](#ImportedCondensedPart.FutureIntent)                       | ‚ÄúFutureIntent‚Äù property defines the type of solver supported to perform a use pass with the imported condensed part. |
 | [`ImportFileFormat`](#ImportedCondensedPart.ImportFileFormat)               | Gets or sets the ImportFileFormat.                                                                                   |
 | [`ImportStatus`](#ImportedCondensedPart.ImportStatus)                       | Gets the ImportStatus.                                                                                               |
 | [`CoordinateSystem`](#ImportedCondensedPart.CoordinateSystem)               | Gets or sets the CoordinateSystem.                                                                                   |
-| [`DataModelObjectCategory`](#ImportedCondensedPart.DataModelObjectCategory) | Gets the current DataModelObjectís category.                                                                         |
+| [`DataModelObjectCategory`](#ImportedCondensedPart.DataModelObjectCategory) | Gets the current DataModelObject‚Äôs category.                                                                         |
 | [`NumberInterfaceEntries`](#ImportedCondensedPart.NumberInterfaceEntries)   | Gets the NumberInterfaceEntries.                                                                                     |
 | [`NumberMasterNodes`](#ImportedCondensedPart.NumberMasterNodes)             | Gets the NumberMasterNodes.                                                                                          |
 | [`SolutionName`](#ImportedCondensedPart.SolutionName)                       | Gets or sets the SolutionName.                                                                                       |
@@ -131,7 +131,7 @@ Gets or sets the CondensedPartUnitSystem.
 
 ### *property* ImportedCondensedPart.ExpansionStatus *: [Ansys.Mechanical.DataModel.Enums.ExpansionStatus](../../../Mechanical/DataModel/Enums/ExpansionStatus.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ExpansionStatus) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-ìExpansionStatusî property defines if results can be expanded of the imported condensed part or not.
+‚ÄúExpansionStatus‚Äù property defines if results can be expanded of the imported condensed part or not.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -139,7 +139,7 @@ Gets or sets the CondensedPartUnitSystem.
 
 ### *property* ImportedCondensedPart.FutureIntent *: [Ansys.Mechanical.DataModel.Enums.FutureIntentType](../../../../../v241/Ansys/Mechanical/DataModel/Enums/FutureIntentType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FutureIntentType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-ìFutureIntentî property defines the type of solver supported to perform a use pass with the imported condensed part.
+‚ÄúFutureIntent‚Äù property defines the type of solver supported to perform a use pass with the imported condensed part.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -171,7 +171,7 @@ Gets or sets the CoordinateSystem.
 
 ### *property* ImportedCondensedPart.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectís category.
+Gets the current DataModelObject‚Äôs category.
 
 <!-- !! processed by numpydoc !! -->
 

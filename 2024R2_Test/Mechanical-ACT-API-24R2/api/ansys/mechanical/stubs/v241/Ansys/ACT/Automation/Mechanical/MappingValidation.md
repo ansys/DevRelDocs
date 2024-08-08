@@ -56,7 +56,7 @@ Defines a MappingValidation.
 | [`DisplayDataType`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MappingValidation.md#MappingValidation.DisplayDataType)                 | Gets or sets the DisplayDataType.                                                          |
 | [`ShellFace`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MappingValidation.md#MappingValidation.ShellFace)                             | Controls whether the displayed shell face lies on the bottom, middle, or top of the shell. |
 | [`ComplexComponent`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MappingValidation.md#MappingValidation.ComplexComponent)               | Gets or sets the ComplexComponent.                                                         |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MappingValidation.md#MappingValidation.DataModelObjectCategory) | Gets the current DataModelObject’s category.                                               |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MappingValidation.md#MappingValidation.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                                               |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MappingValidation.md#MappingValidation.Children)                               | Gets the list of children.                                                                 |
 | [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MappingValidation.md#MappingValidation.Comments)                               | Gets the list of associated comments.                                                      |
 | [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MappingValidation.md#MappingValidation.Figures)                                 | Gets the list of associated figures.                                                       |
@@ -209,7 +209,7 @@ Gets or sets the ComplexComponent.
 
 ### *property* MappingValidation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -65,7 +65,7 @@ Defines a PrimaryCriterion.
 | [`BoundaryCondition`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PrimaryCriterion.md#PrimaryCriterion.BoundaryCondition)                   | Gets or sets the BoundaryCondition.                           |
 | [`RemotePoint`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PrimaryCriterion.md#PrimaryCriterion.RemotePoint)                               | Gets or sets the RemotePoint.                                 |
 | [`Location`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PrimaryCriterion.md#PrimaryCriterion.Location)                                     | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PrimaryCriterion.md#PrimaryCriterion.DataModelObjectCategory)       | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PrimaryCriterion.md#PrimaryCriterion.DataModelObjectCategory)       | Gets the current DataModelObjectâ€™s category.                  |
 | [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PrimaryCriterion.md#PrimaryCriterion.Suppressed)                                 | Gets or sets the Suppressed.                                  |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PrimaryCriterion.md#PrimaryCriterion.Children)                                     | Gets the list of children.                                    |
 | [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PrimaryCriterion.md#PrimaryCriterion.Comments)                                     | Gets the list of associated comments.                         |
@@ -268,7 +268,7 @@ Gets or sets the Location.
 
 ### *property* PrimaryCriterion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

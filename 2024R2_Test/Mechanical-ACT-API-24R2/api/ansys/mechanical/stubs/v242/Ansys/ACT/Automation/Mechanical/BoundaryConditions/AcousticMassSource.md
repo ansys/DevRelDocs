@@ -44,7 +44,7 @@ Defines a AcousticMassSource.
 | [`Magnitude`](#AcousticMassSource.Magnitude)                             | Gets or sets the Magnitude.                                   |
 | [`PhaseAngle`](#AcousticMassSource.PhaseAngle)                           | Gets or sets the PhaseAngle.                                  |
 | [`Location`](#AcousticMassSource.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#AcousticMassSource.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#AcousticMassSource.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Suppressed`](#AcousticMassSource.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#AcousticMassSource.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
 | [`Children`](#AcousticMassSource.Children)                               | Gets the list of children.                                    |
@@ -96,7 +96,7 @@ Gets or sets the Location.
 
 ### *property* AcousticMassSource.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

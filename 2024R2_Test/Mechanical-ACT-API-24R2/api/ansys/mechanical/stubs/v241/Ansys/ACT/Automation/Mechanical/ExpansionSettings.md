@@ -54,7 +54,7 @@ Defines a ExpansionSettings.
 | [`ExpandAfterUsePassFailure`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ExpansionSettings.md#ExpansionSettings.ExpandAfterUsePassFailure)   | Gets or sets the ExpandAfterUsePassFailure.                   |
 | [`GeneralMiscellaneous`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ExpansionSettings.md#ExpansionSettings.GeneralMiscellaneous)             | Gets or sets the GeneralMiscellaneous.                        |
 | [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ExpansionSettings.md#ExpansionSettings.Suppressed)                                 | Gets or sets the Suppressed.                                  |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ExpansionSettings.md#ExpansionSettings.DataModelObjectCategory)       | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ExpansionSettings.md#ExpansionSettings.DataModelObjectCategory)       | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ExpansionSettings.md#ExpansionSettings.Children)                                     | Gets the list of children.                                    |
 | [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ExpansionSettings.md#ExpansionSettings.Comments)                                     | Gets the list of associated comments.                         |
 | [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ExpansionSettings.md#ExpansionSettings.Figures)                                       | Gets the list of associated figures.                          |
@@ -143,7 +143,7 @@ Gets or sets the Suppressed.
 
 ### *property* ExpansionSettings.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

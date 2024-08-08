@@ -19,12 +19,12 @@ Object that wraps IDSEngineeringModelWorkflow.
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [`AddStep`](#MeshWorkflowStepGroup.AddStep)                                                         | Add another operation to the sequence of steps to be executed for the mesh workflow.                                                                                                                                                                                                                                              |
-| [`DeleteAllStepsAndClearGeneratedData`](#MeshWorkflowStepGroup.DeleteAllStepsAndClearGeneratedData) | Deletes all steps and reset workflow type to undefined and also resets all inactive geometry parts/bodies to active again, clears the output data, and resets the state of the child objects (ìInputî, ìStepsî, ìOutputî) to the initial state. However, any user-defined settings such as the ìInputî node scoping are retained. |
+| [`DeleteAllStepsAndClearGeneratedData`](#MeshWorkflowStepGroup.DeleteAllStepsAndClearGeneratedData) | Deletes all steps and reset workflow type to undefined and also resets all inactive geometry parts/bodies to active again, clears the output data, and resets the state of the child objects (‚ÄúInput‚Äù, ‚ÄúSteps‚Äù, ‚ÄúOutput‚Äù) to the initial state. However, any user-defined settings such as the ‚ÄúInput‚Äù node scoping are retained. |
 | [`AddSettings`](#MeshWorkflowStepGroup.AddSettings)                                                 | Add the settings of the input SettingsType to the Steps node.                                                                                                                                                                                                                                                                     |
 | [`PropagateSettings`](#MeshWorkflowStepGroup.PropagateSettings)                                     | Propagate the settings of the input SettingsType to the attributes of the Step nodes. The meshing attributes of the Step nodes will then be automatically defined based on the physical parameters of the settings. Otherwise, the meshing attributes need to be manually specified.                                              |
 | [`DeleteSettings`](#MeshWorkflowStepGroup.DeleteSettings)                                           | Delete the settings of the input SettingsType from the Steps node. All the Settings specific entries are removed automatically to the Steps details.                                                                                                                                                                              |
-| [`ExecuteAllSteps`](#MeshWorkflowStepGroup.ExecuteAllSteps)                                         | Executes all steps defined under the ìStepGroupî object (which is the ìStepsî node in the UI).                                                                                                                                                                                                                                    |
-| [`ExecuteNextStep`](#MeshWorkflowStepGroup.ExecuteNextStep)                                         | Executes the next step, i.e. the next operation which is ready to be executed under the parent ìStepGroupî object.                                                                                                                                                                                                                |
+| [`ExecuteAllSteps`](#MeshWorkflowStepGroup.ExecuteAllSteps)                                         | Executes all steps defined under the ‚ÄúStepGroup‚Äù object (which is the ‚ÄúSteps‚Äù node in the UI).                                                                                                                                                                                                                                    |
+| [`ExecuteNextStep`](#MeshWorkflowStepGroup.ExecuteNextStep)                                         | Executes the next step, i.e. the next operation which is ready to be executed under the parent ‚ÄúStepGroup‚Äù object.                                                                                                                                                                                                                |
 | [`ExecuteUpToStep`](#MeshWorkflowStepGroup.ExecuteUpToStep)                                         | Executes any not yet ready steps up to and including the specified step.                                                                                                                                                                                                                                                          |
 | [`RevertToStep`](#MeshWorkflowStepGroup.RevertToStep)                                               | Revert to the specified step; if no checkpoint is available, then an exception will be raised.                                                                                                                                                                                                                                    |
 | [`Delete`](#MeshWorkflowStepGroup.Delete)                                                           | Run the Delete action.                                                                                                                                                                                                                                                                                                            |
@@ -55,7 +55,7 @@ Object that wraps IDSEngineeringModelWorkflow.
 | [`SpeedOfSound`](#MeshWorkflowStepGroup.SpeedOfSound)                       | Defines the speed of sound in the acoustic scenario.                                                                                           |
 | [`MeshSize`](#MeshWorkflowStepGroup.MeshSize)                               | Defines the mesh size of the acoustic scenario based on the wave velocity and the frequency.                                                   |
 | [`QuadraticElements`](#MeshWorkflowStepGroup.QuadraticElements)             | Defines if the quadratic elements are used for the mesh generation.                                                                            |
-| [`DataModelObjectCategory`](#MeshWorkflowStepGroup.DataModelObjectCategory) | Gets the current DataModelObjectís category.                                                                                                   |
+| [`DataModelObjectCategory`](#MeshWorkflowStepGroup.DataModelObjectCategory) | Gets the current DataModelObject‚Äôs category.                                                                                                   |
 | [`Children`](#MeshWorkflowStepGroup.Children)                               | Gets the list of children.                                                                                                                     |
 | [`Figures`](#MeshWorkflowStepGroup.Figures)                                 | Gets the list of associated figures.                                                                                                           |
 | [`Images`](#MeshWorkflowStepGroup.Images)                                   | Gets the list of associated images.                                                                                                            |
@@ -135,7 +135,7 @@ Defines if the quadratic elements are used for the mesh generation.
 
 ### *property* MeshWorkflowStepGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectís category.
+Gets the current DataModelObject‚Äôs category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -203,7 +203,7 @@ Add another operation to the sequence of steps to be executed for the mesh workf
 
 ### MeshWorkflowStepGroup.DeleteAllStepsAndClearGeneratedData()
 
-Deletes all steps and reset workflow type to undefined and also resets all inactive geometry parts/bodies to active again, clears the output data, and resets the state of the child objects (ìInputî, ìStepsî, ìOutputî) to the initial state. However, any user-defined settings such as the ìInputî node scoping are retained.
+Deletes all steps and reset workflow type to undefined and also resets all inactive geometry parts/bodies to active again, clears the output data, and resets the state of the child objects (‚ÄúInput‚Äù, ‚ÄúSteps‚Äù, ‚ÄúOutput‚Äù) to the initial state. However, any user-defined settings such as the ‚ÄúInput‚Äù node scoping are retained.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -235,7 +235,7 @@ Delete the settings of the input SettingsType from the Steps node. All the Setti
 
 ### MeshWorkflowStepGroup.ExecuteAllSteps()
 
-Executes all steps defined under the ìStepGroupî object (which is the ìStepsî node in the UI).
+Executes all steps defined under the ‚ÄúStepGroup‚Äù object (which is the ‚ÄúSteps‚Äù node in the UI).
 
 <!-- !! processed by numpydoc !! -->
 
@@ -243,7 +243,7 @@ Executes all steps defined under the ìStepGroupî object (which is the ìStepsî no
 
 ### MeshWorkflowStepGroup.ExecuteNextStep()
 
-Executes the next step, i.e. the next operation which is ready to be executed under the parent ìStepGroupî object.
+Executes the next step, i.e. the next operation which is ready to be executed under the parent ‚ÄúStepGroup‚Äù object.
 
 <!-- !! processed by numpydoc !! -->
 

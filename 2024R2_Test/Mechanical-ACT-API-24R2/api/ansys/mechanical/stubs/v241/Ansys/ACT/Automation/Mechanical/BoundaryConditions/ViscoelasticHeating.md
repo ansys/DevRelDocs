@@ -40,7 +40,7 @@ Defines a ViscoelasticHeating.
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ViscoelasticHeating.md#id0)                                                    | Gets the internal object. For advanced usage only.            |
 | [`ViscoelasticLossFraction`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ViscoelasticHeating.md#ViscoelasticHeating.ViscoelasticLossFraction) | Gets or sets the ViscoelasticLossFraction.                    |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ViscoelasticHeating.md#ViscoelasticHeating.DataModelObjectCategory)   | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ViscoelasticHeating.md#ViscoelasticHeating.DataModelObjectCategory)   | Gets the current DataModelObjectâ€™s category.                  |
 | [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ViscoelasticHeating.md#ViscoelasticHeating.Suppressed)                             | Gets or sets the Suppressed.                                  |
 | [`Location`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ViscoelasticHeating.md#ViscoelasticHeating.Location)                                 | Gets or sets the Location.                                    |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ViscoelasticHeating.md#ViscoelasticHeating.Children)                                 | Gets the list of children.                                    |
@@ -74,7 +74,7 @@ Gets or sets the ViscoelasticLossFraction.
 
 ### *property* ViscoelasticHeating.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

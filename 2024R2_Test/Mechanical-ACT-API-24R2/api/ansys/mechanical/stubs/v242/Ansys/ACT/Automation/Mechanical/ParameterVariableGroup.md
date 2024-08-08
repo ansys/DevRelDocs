@@ -40,7 +40,7 @@ Defines a ParameterVariableGroup.
 | Name | Description |
 |------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                     | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](#ParameterVariableGroup.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#ParameterVariableGroup.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#ParameterVariableGroup.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#ParameterVariableGroup.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#ParameterVariableGroup.Figures)                                 | Gets the list of associated figures.                          |
@@ -65,7 +65,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* ParameterVariableGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

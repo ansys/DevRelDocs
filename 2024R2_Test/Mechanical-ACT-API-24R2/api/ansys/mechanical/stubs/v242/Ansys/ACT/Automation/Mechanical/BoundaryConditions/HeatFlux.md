@@ -51,7 +51,7 @@ Defines a HeatFlux.
 | [`IndependentVariable`](#HeatFlux.IndependentVariable)                 | Gets or sets the IndependentVariable.                         |
 | [`XYZFunctionCoordinateSystem`](#HeatFlux.XYZFunctionCoordinateSystem) | Gets or sets the XYZFunctionCoordinateSystem.                 |
 | [`Location`](#HeatFlux.Location)                                       | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#HeatFlux.DataModelObjectCategory)         | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#HeatFlux.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                  |
 | [`Suppressed`](#HeatFlux.Suppressed)                                   | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#HeatFlux.SharedRefBody)                             | Gets or sets the SharedRefBody.                               |
 | [`Children`](#HeatFlux.Children)                                       | Gets the list of children.                                    |
@@ -127,7 +127,7 @@ Gets or sets the Location.
 
 ### *property* HeatFlux.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

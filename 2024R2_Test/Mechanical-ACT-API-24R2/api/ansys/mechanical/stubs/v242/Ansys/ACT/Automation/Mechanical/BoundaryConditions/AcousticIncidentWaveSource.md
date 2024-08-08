@@ -64,7 +64,7 @@ Defines a AcousticIncidentWaveSource.
 | [`WaveType`](#AcousticIncidentWaveSource.WaveType)                                         | Gets or sets the WaveType.                                    |
 | [`CalculateIncidentPower`](#AcousticIncidentWaveSource.CalculateIncidentPower)             | Gets or sets the CalculateIncidentPower.                      |
 | [`PortSelection`](#AcousticIncidentWaveSource.PortSelection)                               | Gets or sets the PortSelection.                               |
-| [`DataModelObjectCategory`](#AcousticIncidentWaveSource.DataModelObjectCategory)           | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#AcousticIncidentWaveSource.DataModelObjectCategory)           | Gets the current DataModelObjectâ€™s category.                  |
 | [`Suppressed`](#AcousticIncidentWaveSource.Suppressed)                                     | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#AcousticIncidentWaveSource.SharedRefBody)                               | Gets or sets the SharedRefBody.                               |
 | [`Children`](#AcousticIncidentWaveSource.Children)                                         | Gets the list of children.                                    |
@@ -276,7 +276,7 @@ Gets or sets the PortSelection.
 
 ### *property* AcousticIncidentWaveSource.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

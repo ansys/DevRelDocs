@@ -51,7 +51,7 @@ Defines a TotalAcceleration.
 | Name | Description |
 |---------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                    | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](#TotalAcceleration.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](#TotalAcceleration.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
 | [`Mode`](#TotalAcceleration.Mode)                                                           | Gets or sets the Mode.                                                 |
 | [`ReportedFrequency`](#TotalAcceleration.ReportedFrequency)                                 | Gets the ReportedFrequency.                                            |
 | [`DampedFrequency`](#TotalAcceleration.DampedFrequency)                                     | Gets the DampedFrequency.                                              |
@@ -146,7 +146,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* TotalAcceleration.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

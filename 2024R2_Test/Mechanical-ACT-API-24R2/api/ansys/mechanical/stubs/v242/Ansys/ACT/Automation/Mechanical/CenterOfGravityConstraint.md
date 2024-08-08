@@ -44,7 +44,7 @@ Defines a CenterOfGravityConstraint.
 | [`ScopingMethod`](#CenterOfGravityConstraint.ScopingMethod)                     | Gets or sets the ScopingMethod.                                                          |
 | [`Selection`](#CenterOfGravityConstraint.Selection)                             | Gets or sets the Selection.                                                              |
 | [`Location`](#CenterOfGravityConstraint.Location)                               | Gets or sets the Location.                                                               |
-| [`DataModelObjectCategory`](#CenterOfGravityConstraint.DataModelObjectCategory) | Gets the current DataModelObject’s category.                                             |
+| [`DataModelObjectCategory`](#CenterOfGravityConstraint.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                                             |
 | [`EnvironmentSelection`](#CenterOfGravityConstraint.EnvironmentSelection)       | Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum. |
 | [`Suppressed`](#CenterOfGravityConstraint.Suppressed)                           | Gets or sets the Suppressed.                                                             |
 | [`Children`](#CenterOfGravityConstraint.Children)                               | Gets the list of children.                                                               |
@@ -116,7 +116,7 @@ Gets or sets the Location.
 
 ### *property* CenterOfGravityConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

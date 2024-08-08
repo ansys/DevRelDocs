@@ -40,7 +40,7 @@ Object that wraps IDSEngineeringModelGeometryDomainAuto.
 |-------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Location`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowInput.md#MeshWorkflowInput.Location)                               | Gets or sets the Location.                                    |
 | [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowInput.md#id0)                                                | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowInput.md#MeshWorkflowInput.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowInput.md#MeshWorkflowInput.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowInput.md#MeshWorkflowInput.Children)                               | Gets the list of children.                                    |
 | [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowInput.md#MeshWorkflowInput.Figures)                                 | Gets the list of associated figures.                          |
 | [`Images`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowInput.md#MeshWorkflowInput.Images)                                   | Gets the list of associated images.                           |
@@ -72,7 +72,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* MeshWorkflowInput.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 
