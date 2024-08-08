@@ -32,9 +32,9 @@ The interface has the properties below that a custom tree can define and modify.
 
 The *Custom tree* definition is flexible in terms of its hierarchy and how objects are represented with respect to each other. The drag and drop feature also enables changing the hierarchy during the session. As noted in the previous section, the specification of a *TreeParent* for a custom objects overrides the group definition.
 
-![](../../../../images/custom_tree_1.png "Custom objects are organized in linear form.")
+![](../../../../images/custom_tree_1.png)
 
-![](../../../../images/custom_tree_2.png "Object 1 is nested into object 3.")
+![](../../../../images/custom_tree_2.png)
 
 By using the *StageIdentifer* property add-ins can control the visibility of the custom tree based upon the current stage. The *Custom Tree*will only show in the stages specified in the *StageIdentifers* list and won’t be displayed in the other stages. In the figures below, the tree is shown in the *CustomStage* that the add-in defined, but it is not shown in the *Refine* stage.
 
