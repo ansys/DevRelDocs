@@ -59,7 +59,7 @@ Defines a STLAMSupport.
 | [`STLSupportType`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/STLAMSupport.md#STLAMSupport.STLSupportType)                                 | Gets or sets the STLSupportType.                              |
 | [`STL`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/STLAMSupport.md#STLAMSupport.STL)                                                       | Gets or sets the STL.                                         |
 | [`GeometrySelection`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/STLAMSupport.md#STLAMSupport.GeometrySelection)                           | Gets or sets the GeometrySelection.                           |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/STLAMSupport.md#STLAMSupport.DataModelObjectCategory)               | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/STLAMSupport.md#STLAMSupport.DataModelObjectCategory)               | Gets the current DataModelObjectâ€™s category.                  |
 | [`ThermalConductivityMultipleInX`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/STLAMSupport.md#STLAMSupport.ThermalConductivityMultipleInX) | Gets or sets the ThermalConductivityMultipleInX.              |
 | [`ThermalConductivityMultipleInY`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/STLAMSupport.md#STLAMSupport.ThermalConductivityMultipleInY) | Gets or sets the ThermalConductivityMultipleInY.              |
 | [`ThermalConductivityMultipleInZ`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/STLAMSupport.md#STLAMSupport.ThermalConductivityMultipleInZ) | Gets or sets the ThermalConductivityMultipleInZ.              |
@@ -188,7 +188,7 @@ Gets or sets the GeometrySelection.
 
 ### *property* STLAMSupport.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

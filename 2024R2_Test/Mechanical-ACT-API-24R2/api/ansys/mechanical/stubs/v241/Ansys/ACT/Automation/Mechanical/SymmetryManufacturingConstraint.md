@@ -42,7 +42,7 @@ Defines a SymmetryManufacturingConstraint.
 | [`ScopingMethod`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SymmetryManufacturingConstraint.md#SymmetryManufacturingConstraint.ScopingMethod)                     | Gets or sets the ScopingMethod.                               |
 | [`CoordinateSystem`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SymmetryManufacturingConstraint.md#SymmetryManufacturingConstraint.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
 | [`Location`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SymmetryManufacturingConstraint.md#SymmetryManufacturingConstraint.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SymmetryManufacturingConstraint.md#SymmetryManufacturingConstraint.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SymmetryManufacturingConstraint.md#SymmetryManufacturingConstraint.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SymmetryManufacturingConstraint.md#SymmetryManufacturingConstraint.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`Selection`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SymmetryManufacturingConstraint.md#SymmetryManufacturingConstraint.Selection)                             | Gets or sets the Selection.                                   |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SymmetryManufacturingConstraint.md#SymmetryManufacturingConstraint.Children)                               | Gets the list of children.                                    |
@@ -98,7 +98,7 @@ Gets or sets the Location.
 
 ### *property* SymmetryManufacturingConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

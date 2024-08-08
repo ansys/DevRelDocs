@@ -58,7 +58,7 @@ Defines a PointMass.
 | [`Suppressed`](#PointMass.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`CoordinateSystem`](#PointMass.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
 | [`NodalCoordinateSystem`](#PointMass.NodalCoordinateSystem)     | Gets the NodalCoordinateSystem.                               |
-| [`DataModelObjectCategory`](#PointMass.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#PointMass.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`RemotePoint`](#PointMass.RemotePoint)                         | Gets the remote point associated to the point mass.           |
 | [`IsDistributedMass`](#PointMass.IsDistributedMass)             | Gets the IsDistributedMass.                                   |
 | [`Location`](#PointMass.Location)                               | Gets or sets the Geometry.                                    |
@@ -215,7 +215,7 @@ Gets the NodalCoordinateSystem.
 
 ### *property* PointMass.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

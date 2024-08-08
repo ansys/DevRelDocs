@@ -41,7 +41,7 @@ Defines a Criterion.
 |-----------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                        | Gets the internal object. For advanced usage only.            |
 | [`Suppressed`](#Criterion.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`DataModelObjectCategory`](#Criterion.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#Criterion.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#Criterion.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#Criterion.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#Criterion.Figures)                                 | Gets the list of associated figures.                          |
@@ -75,7 +75,7 @@ Gets or sets the Suppressed.
 
 ### *property* Criterion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

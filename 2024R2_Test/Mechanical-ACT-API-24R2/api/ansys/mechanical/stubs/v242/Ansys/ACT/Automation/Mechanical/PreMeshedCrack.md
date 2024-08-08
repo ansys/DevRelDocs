@@ -51,7 +51,7 @@ Defines a PreMeshedCrack.
 | [`CoordinateSystem`](#PreMeshedCrack.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
 | [`BottomFaceNodes`](#PreMeshedCrack.BottomFaceNodes)                 | Gets or sets the BottomFaceNodes.                             |
 | [`TopFaceNodes`](#PreMeshedCrack.TopFaceNodes)                       | Gets or sets the TopFaceNodes.                                |
-| [`DataModelObjectCategory`](#PreMeshedCrack.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#PreMeshedCrack.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`CrackID`](#PreMeshedCrack.CrackID)                                 | Gets the CrackID.                                             |
 | [`Children`](#PreMeshedCrack.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#PreMeshedCrack.Comments)                               | Gets the list of associated comments.                         |
@@ -158,7 +158,7 @@ Gets or sets the TopFaceNodes.
 
 ### *property* PreMeshedCrack.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

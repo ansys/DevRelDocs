@@ -83,7 +83,7 @@ RBDAnalysisSettings class.
 | [`InternalObject`](#id0)                                                                                                    | Gets the internal object. For advanced usage only.                     |
 | [`ScratchSolverFilesDirectory`](#RBDAnalysisSettings.ScratchSolverFilesDirectory)                                           | Gets the ScratchSolverFilesDirectory.                                  |
 | [`SolverFilesDirectory`](#RBDAnalysisSettings.SolverFilesDirectory)                                                         | Gets the SolverFilesDirectory.                                         |
-| [`DataModelObjectCategory`](#RBDAnalysisSettings.DataModelObjectCategory)                                                   | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](#RBDAnalysisSettings.DataModelObjectCategory)                                                   | Gets the current DataModelObjectâ€™s category.                           |
 | [`Children`](#RBDAnalysisSettings.Children)                                                                                 | Gets the list of children.                                             |
 | [`Comments`](#RBDAnalysisSettings.Comments)                                                                                 | Gets the list of associated comments.                                  |
 | [`Figures`](#RBDAnalysisSettings.Figures)                                                                                   | Gets the list of associated figures.                                   |
@@ -307,7 +307,7 @@ Gets the SolverFilesDirectory.
 
 ### *property* RBDAnalysisSettings.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

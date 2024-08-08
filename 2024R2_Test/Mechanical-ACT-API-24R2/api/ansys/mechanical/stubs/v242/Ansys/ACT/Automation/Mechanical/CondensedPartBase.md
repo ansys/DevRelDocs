@@ -54,7 +54,7 @@ Defines a CondensedPartBase.
 | [`SolverUnits`](#CondensedPartBase.SolverUnits)                         | Gets or sets the SolverUnits.                                 |
 | [`Suppressed`](#CondensedPartBase.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`GeometrySelection`](#CondensedPartBase.GeometrySelection)             | Gets or sets the GeometrySelection.                           |
-| [`DataModelObjectCategory`](#CondensedPartBase.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#CondensedPartBase.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#CondensedPartBase.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#CondensedPartBase.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#CondensedPartBase.Figures)                                 | Gets the list of associated figures.                          |
@@ -175,7 +175,7 @@ Gets or sets the GeometrySelection.
 
 ### *property* CondensedPartBase.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -45,7 +45,7 @@ Defines a ContactMaximumDampingPressureTracker.
 | [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactMaximumDampingPressureTracker.md#id0)                                                                           | Gets the internal object. For advanced usage only.            |
 | [`ContactSide`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactMaximumDampingPressureTracker.md#ContactMaximumDampingPressureTracker.ContactSide)                                 | Gets or sets the ContactSide.                                 |
 | [`ContactRegion`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactMaximumDampingPressureTracker.md#ContactMaximumDampingPressureTracker.ContactRegion)                             | Gets or sets the ContactRegion.                               |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactMaximumDampingPressureTracker.md#ContactMaximumDampingPressureTracker.DataModelObjectCategory)         | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactMaximumDampingPressureTracker.md#ContactMaximumDampingPressureTracker.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                  |
 | [`IsSolved`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactMaximumDampingPressureTracker.md#ContactMaximumDampingPressureTracker.IsSolved)                                       | Gets the IsSolved.                                            |
 | [`ChartDimensions`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactMaximumDampingPressureTracker.md#ContactMaximumDampingPressureTracker.ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
 | [`BoundaryCondition`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactMaximumDampingPressureTracker.md#ContactMaximumDampingPressureTracker.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
@@ -126,7 +126,7 @@ Gets or sets the ContactRegion.
 
 ### *property* ContactMaximumDampingPressureTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

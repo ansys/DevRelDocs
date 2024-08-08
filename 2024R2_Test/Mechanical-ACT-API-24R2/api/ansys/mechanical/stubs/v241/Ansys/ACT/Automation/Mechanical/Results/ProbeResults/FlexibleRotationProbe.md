@@ -55,12 +55,12 @@ Defines a FlexibleRotationProbe.
 | [`XAxisRotation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FlexibleRotationProbe.md#FlexibleRotationProbe.XAxisRotation)                           | Gets the XAxisRotation.                                                                                                                                                    |
 | [`YAxisRotation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FlexibleRotationProbe.md#FlexibleRotationProbe.YAxisRotation)                           | Gets the YAxisRotation.                                                                                                                                                    |
 | [`ZAxisRotation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FlexibleRotationProbe.md#FlexibleRotationProbe.ZAxisRotation)                           | Gets the ZAxisRotation.                                                                                                                                                    |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FlexibleRotationProbe.md#FlexibleRotationProbe.DataModelObjectCategory)       | Gets the current DataModelObject’s category.                                                                                                                               |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FlexibleRotationProbe.md#FlexibleRotationProbe.DataModelObjectCategory)       | Gets the current DataModelObjectâ€™s category.                                                                                                                               |
 | [`Summation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FlexibleRotationProbe.md#FlexibleRotationProbe.Summation)                                   | Gets or sets the Summation.                                                                                                                                                |
 | [`LocationMethod`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FlexibleRotationProbe.md#FlexibleRotationProbe.LocationMethod)                         | Gets or sets the LocationMethod.                                                                                                                                           |
 | [`GeometryLocation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FlexibleRotationProbe.md#FlexibleRotationProbe.GeometryLocation)                     | Gets or sets the GeometryLocation.                                                                                                                                         |
 | [`CoordinateSystemSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FlexibleRotationProbe.md#FlexibleRotationProbe.CoordinateSystemSelection)   | Gets or sets the CoordinateSystemSelection.                                                                                                                                |
-| [`BoundaryConditionSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FlexibleRotationProbe.md#FlexibleRotationProbe.BoundaryConditionSelection) | Gets or sets the BoundaryConditionSelection. In order to select the option ‘WeakSprings’, please use the property ‘LocationMethod = LocationDefinitionMethod.WeakSprings’. |
+| [`BoundaryConditionSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FlexibleRotationProbe.md#FlexibleRotationProbe.BoundaryConditionSelection) | Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSpringsâ€™, please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSpringsâ€™. |
 | [`ContactRegionSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FlexibleRotationProbe.md#FlexibleRotationProbe.ContactRegionSelection)         | Gets or sets the ContactRegionSelection.                                                                                                                                   |
 | [`RemotePointSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FlexibleRotationProbe.md#FlexibleRotationProbe.RemotePointSelection)             | Gets or sets the RemotePointSelection.                                                                                                                                     |
 | [`BeamSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FlexibleRotationProbe.md#FlexibleRotationProbe.BeamSelection)                           | Gets or sets the BeamSelection.                                                                                                                                            |
@@ -188,7 +188,7 @@ Gets the ZAxisRotation.
 
 ### *property* FlexibleRotationProbe.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -228,7 +228,7 @@ Gets or sets the CoordinateSystemSelection.
 
 ### *property* FlexibleRotationProbe.BoundaryConditionSelection *: Ansys.ACT.Automation.Mechanical.DataModelObject | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the BoundaryConditionSelection. In order to select the option ‘WeakSprings’, please use the property ‘LocationMethod = LocationDefinitionMethod.WeakSprings’.
+Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSpringsâ€™, please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSpringsâ€™.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -46,7 +46,7 @@ Defines a FeatureDetection.
 | [`ScopingMethod`](../../../../../v242/Ansys/ACT/Automation/Mechanical/FeatureDetection.md#FeatureDetection.ScopingMethod)                     | Gets or sets the ScopingMethod.                               |
 | [`NamedSelection`](../../../../../v242/Ansys/ACT/Automation/Mechanical/FeatureDetection.md#FeatureDetection.NamedSelection)                   | Gets or sets the NamedSelection.                              |
 | [`Location`](../../../../../v242/Ansys/ACT/Automation/Mechanical/FeatureDetection.md#FeatureDetection.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/FeatureDetection.md#FeatureDetection.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/FeatureDetection.md#FeatureDetection.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/FeatureDetection.md#FeatureDetection.Children)                               | Gets the list of children.                                    |
 | [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/FeatureDetection.md#FeatureDetection.Comments)                               | Gets the list of associated comments.                         |
 | [`Images`](../../../../../v242/Ansys/ACT/Automation/Mechanical/FeatureDetection.md#FeatureDetection.Images)                                   | Gets the list of associated images.                           |
@@ -103,7 +103,7 @@ Gets or sets the Location.
 
 ### *property* FeatureDetection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -37,7 +37,7 @@ Defines the configuration for the Face Sheet Crimping failure criterion for sand
 ### *property* ShearCrimpingSettings.WeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the weighting factor for shear crimping failure.
-: The corresponding failure label is ‘sc’.
+: The corresponding failure label is â€˜scâ€™.
 
 <!-- !! processed by numpydoc !! -->
 

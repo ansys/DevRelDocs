@@ -41,7 +41,7 @@ Defines a DynamicComplianceConstraint.
 | [`ComplianceLimit`](../../../../../v242/Ansys/ACT/Automation/Mechanical/DynamicComplianceConstraint.md#DynamicComplianceConstraint.ComplianceLimit)                 | Gets or sets the ComplianceLimit.                                                        |
 | [`MaximumValue`](../../../../../v242/Ansys/ACT/Automation/Mechanical/DynamicComplianceConstraint.md#DynamicComplianceConstraint.MaximumValue)                       | Gets or sets the MaximumValue.                                                           |
 | [`MinimumValue`](../../../../../v242/Ansys/ACT/Automation/Mechanical/DynamicComplianceConstraint.md#DynamicComplianceConstraint.MinimumValue)                       | Gets or sets the MinimumValue.                                                           |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/DynamicComplianceConstraint.md#DynamicComplianceConstraint.DataModelObjectCategory) | Gets the current DataModelObject’s category.                                             |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/DynamicComplianceConstraint.md#DynamicComplianceConstraint.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                                             |
 | [`EnvironmentSelection`](../../../../../v242/Ansys/ACT/Automation/Mechanical/DynamicComplianceConstraint.md#DynamicComplianceConstraint.EnvironmentSelection)       | Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum. |
 | [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/DynamicComplianceConstraint.md#DynamicComplianceConstraint.Suppressed)                           | Gets or sets the Suppressed.                                                             |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/DynamicComplianceConstraint.md#DynamicComplianceConstraint.Children)                               | Gets the list of children.                                                               |
@@ -89,7 +89,7 @@ Gets or sets the MinimumValue.
 
 ### *property* DynamicComplianceConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

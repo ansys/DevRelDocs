@@ -52,7 +52,7 @@ Defines a LSDYNAGeneralTracker.
 | [`ACTLoad`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/LSDYNAGeneralTracker.md#LSDYNAGeneralTracker.ACTLoad)                                         | Gets or sets the ACT Load.                                    |
 | [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/LSDYNAGeneralTracker.md#id0)                                                           | Gets the internal object. For advanced usage only.            |
 | [`ContactSide`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/LSDYNAGeneralTracker.md#LSDYNAGeneralTracker.ContactSide)                                 | Gets or sets the ContactSide.                                 |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/LSDYNAGeneralTracker.md#LSDYNAGeneralTracker.DataModelObjectCategory)         | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/LSDYNAGeneralTracker.md#LSDYNAGeneralTracker.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                  |
 | [`IsSolved`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/LSDYNAGeneralTracker.md#LSDYNAGeneralTracker.IsSolved)                                       | Gets the IsSolved.                                            |
 | [`ChartDimensions`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/LSDYNAGeneralTracker.md#LSDYNAGeneralTracker.ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
 | [`BoundaryCondition`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/LSDYNAGeneralTracker.md#LSDYNAGeneralTracker.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
@@ -173,7 +173,7 @@ Gets or sets the ContactSide.
 
 ### *property* LSDYNAGeneralTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

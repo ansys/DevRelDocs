@@ -54,7 +54,7 @@ Defines a FaceMeshing.
 | [`SpecifiedCorners`](#FaceMeshing.SpecifiedCorners)                   | Gets or sets the SpecifiedCorners.                             |
 | [`SpecifiedEnds`](#FaceMeshing.SpecifiedEnds)                         | Gets or sets the SpecifiedEnds.                                |
 | [`SpecifiedSides`](#FaceMeshing.SpecifiedSides)                       | Gets or sets the SpecifiedSides.                               |
-| [`DataModelObjectCategory`](#FaceMeshing.DataModelObjectCategory)     | Gets the current DataModelObject’s category.                   |
+| [`DataModelObjectCategory`](#FaceMeshing.DataModelObjectCategory)     | Gets the current DataModelObjectâ€™s category.                   |
 | [`ScopingMethod`](#FaceMeshing.ScopingMethod)                         | Gets or sets the ScopingMethod.                                |
 | [`Suppressed`](#FaceMeshing.Suppressed)                               | Gets or sets the Suppressed.                                   |
 | [`Children`](#FaceMeshing.Children)                                   | Gets the list of children.                                     |
@@ -177,7 +177,7 @@ Gets or sets the SpecifiedSides.
 
 ### *property* FaceMeshing.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

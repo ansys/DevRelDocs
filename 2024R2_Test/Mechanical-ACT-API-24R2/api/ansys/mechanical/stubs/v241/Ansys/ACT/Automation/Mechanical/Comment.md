@@ -39,7 +39,7 @@ Defines a Comment.
 | [`Text`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Comment.md#Comment.Text)                                       | Gets the Text.                                                |
 | [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Comment.md#id0)                                      | Gets the internal object. For advanced usage only.            |
 | [`Author`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Comment.md#Comment.Author)                                   | Gets or sets the Author.                                      |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Comment.md#Comment.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Comment.md#Comment.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Comment.md#Comment.Children)                               | Gets the list of children.                                    |
 | [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Comment.md#id0)                                      | Gets the internal object. For advanced usage only.            |
 | [`Properties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Comment.md#Comment.Properties)                           | Gets the list of properties for this object.                  |
@@ -77,7 +77,7 @@ Gets or sets the Author.
 
 ### *property* Comment.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

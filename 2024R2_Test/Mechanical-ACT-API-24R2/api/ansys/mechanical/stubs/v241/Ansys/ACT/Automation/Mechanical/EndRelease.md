@@ -52,7 +52,7 @@ Defines a EndRelease.
 | [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EndRelease.md#EndRelease.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`EdgeLocation`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EndRelease.md#EndRelease.EdgeLocation)                       | Gets or sets the EdgeLocation.                                |
 | [`VertexLocation`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EndRelease.md#EndRelease.VertexLocation)                   | Gets or sets the VertexLocation.                              |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EndRelease.md#EndRelease.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EndRelease.md#EndRelease.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EndRelease.md#EndRelease.Children)                               | Gets the list of children.                                    |
 | [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EndRelease.md#EndRelease.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EndRelease.md#EndRelease.Figures)                                 | Gets the list of associated figures.                          |
@@ -173,7 +173,7 @@ Gets or sets the VertexLocation.
 
 ### *property* EndRelease.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

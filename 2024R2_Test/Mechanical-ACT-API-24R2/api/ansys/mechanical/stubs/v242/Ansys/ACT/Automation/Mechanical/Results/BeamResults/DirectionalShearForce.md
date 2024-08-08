@@ -51,7 +51,7 @@ Defines a DirectionalShearForce.
 | Name | Description |
 |-------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                        | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](#DirectionalShearForce.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](#DirectionalShearForce.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
 | [`BeamResultType`](#DirectionalShearForce.BeamResultType)                                       | Gets or sets the BeamResultType.                                       |
 | [`PlotData`](#DirectionalShearForce.PlotData)                                                   | Gets the result table.                                                 |
 | [`Location`](#DirectionalShearForce.Location)                                                   | Gets or sets the Location.                                             |
@@ -124,7 +124,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* DirectionalShearForce.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -47,7 +47,7 @@ Defines a NodeMove.
 | [`NumberOfMoves`](#NodeMove.NumberOfMoves)                     | Gets the NumberOfMoves.                                       |
 | [`NumberOfNodes`](#NodeMove.NumberOfNodes)                     | Gets the NumberOfNodes.                                       |
 | [`Information`](#NodeMove.Information)                         | Gets the Information.                                         |
-| [`DataModelObjectCategory`](#NodeMove.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#NodeMove.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#NodeMove.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#NodeMove.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#NodeMove.Figures)                                 | Gets the list of associated figures.                          |
@@ -97,7 +97,7 @@ Gets the Information.
 
 ### *property* NodeMove.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

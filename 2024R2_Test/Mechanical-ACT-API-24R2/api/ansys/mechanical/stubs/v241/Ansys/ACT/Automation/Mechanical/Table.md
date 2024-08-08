@@ -48,8 +48,8 @@ Defines a Table.
 | [`APDLName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Table.md#Table.APDLName)                               | Gets or sets the name of the Table when explicitly written to the APDL input file.     |
 | [`PathType`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Table.md#Table.PathType)                               | Gets or sets the PathType.                                                             |
 | [`SendToSolver`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Table.md#Table.SendToSolver)                       | Get whether the Table will be explicitly written to the APDL input file.               |
-| [`SpatialCoordinateSystem`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Table.md#Table.SpatialCoordinateSystem) | Gets or sets the coordinate system applied to the Table’s spatial independent columns. |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Table.md#Table.DataModelObjectCategory) | Gets the current DataModelObject’s category.                                           |
+| [`SpatialCoordinateSystem`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Table.md#Table.SpatialCoordinateSystem) | Gets or sets the coordinate system applied to the Tableâ€™s spatial independent columns. |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Table.md#Table.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                                           |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Table.md#Table.Children)                               | Gets the list of children.                                                             |
 | [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Table.md#Table.Comments)                               | Gets the list of associated comments.                                                  |
 | [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Table.md#Table.Figures)                                 | Gets the list of associated figures.                                                   |
@@ -114,7 +114,7 @@ Get whether the Table will be explicitly written to the APDL input file.
 
 ### *property* Table.SpatialCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the coordinate system applied to the Table’s spatial independent columns.
+Gets or sets the coordinate system applied to the Tableâ€™s spatial independent columns.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -122,7 +122,7 @@ Gets or sets the coordinate system applied to the Table’s spatial independent 
 
 ### *property* Table.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

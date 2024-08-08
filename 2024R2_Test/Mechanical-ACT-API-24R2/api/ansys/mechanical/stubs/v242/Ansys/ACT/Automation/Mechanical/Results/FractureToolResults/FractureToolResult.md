@@ -58,7 +58,7 @@ Defines a FractureToolResult.
 | [`ActiveContourEnd`](#FractureToolResult.ActiveContourEnd)                                   | Gets or sets the ActiveContourEnd.                                     |
 | [`ActiveContourStart`](#FractureToolResult.ActiveContourStart)                               | Gets or sets the ActiveContourStart.                                   |
 | [`SolverID`](#FractureToolResult.SolverID)                                                   | Gets or sets the SolverID.                                             |
-| [`DataModelObjectCategory`](#FractureToolResult.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](#FractureToolResult.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
 | [`PlotData`](#FractureToolResult.PlotData)                                                   | Gets the result table.                                                 |
 | [`Location`](#FractureToolResult.Location)                                                   | Gets or sets the Location.                                             |
 | [`TimeForMinimumOfMinimumValues`](#FractureToolResult.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
@@ -186,7 +186,7 @@ Gets or sets the SolverID.
 
 ### *property* FractureToolResult.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

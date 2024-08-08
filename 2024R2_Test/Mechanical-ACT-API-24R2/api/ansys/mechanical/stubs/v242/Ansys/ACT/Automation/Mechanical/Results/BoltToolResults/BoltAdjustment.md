@@ -52,7 +52,7 @@ Defines a BoltAdjustment.
 |------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                 | Gets the internal object. For advanced usage only.                     |
 | [`BoltResultType`](#BoltAdjustment.BoltResultType)                                       | Gets or sets the BoltResultType.                                       |
-| [`DataModelObjectCategory`](#BoltAdjustment.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](#BoltAdjustment.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
 | [`PlotData`](#BoltAdjustment.PlotData)                                                   | Gets the result table.                                                 |
 | [`Location`](#BoltAdjustment.Location)                                                   | Gets or sets the Location.                                             |
 | [`TimeForMinimumOfMinimumValues`](#BoltAdjustment.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
@@ -132,7 +132,7 @@ Gets or sets the BoltResultType.
 
 ### *property* BoltAdjustment.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

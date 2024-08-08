@@ -42,7 +42,7 @@ Defines a Objective.
 | [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Objective.md#id0)                                        | Gets the internal object. For advanced usage only.            |
 | [`NormalizedSum`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Objective.md#Objective.NormalizedSum)                     | Gets or sets the NormalizedSum.                               |
 | [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Objective.md#Objective.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Objective.md#Objective.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Objective.md#Objective.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Objective.md#Objective.Children)                               | Gets the list of children.                                    |
 | [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Objective.md#Objective.Comments)                               | Gets the list of associated comments.                         |
 | [`Images`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Objective.md#Objective.Images)                                   | Gets the list of associated images.                           |
@@ -90,7 +90,7 @@ Gets or sets the Suppressed.
 
 ### *property* Objective.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

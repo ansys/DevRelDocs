@@ -49,7 +49,7 @@ Defines a SubstructureGenerationCondensedPart.
 | [`LumpedMassFormulation`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SubstructureGenerationCondensedPart.md#SubstructureGenerationCondensedPart.LumpedMassFormulation)     | Gets or sets the LumpedMassFormulation.                       |
 | [`PointMassTreatment`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SubstructureGenerationCondensedPart.md#SubstructureGenerationCondensedPart.PointMassTreatment)           | Gets or sets the PointMassTreatment.                          |
 | [`ReductionMethod`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SubstructureGenerationCondensedPart.md#SubstructureGenerationCondensedPart.ReductionMethod)                 | Gets or sets the ReductionMethod.                             |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SubstructureGenerationCondensedPart.md#SubstructureGenerationCondensedPart.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SubstructureGenerationCondensedPart.md#SubstructureGenerationCondensedPart.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`NumberInterfaceEntries`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SubstructureGenerationCondensedPart.md#SubstructureGenerationCondensedPart.NumberInterfaceEntries)   | Gets the NumberInterfaceEntries.                              |
 | [`NumberMasterNodes`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SubstructureGenerationCondensedPart.md#SubstructureGenerationCondensedPart.NumberMasterNodes)             | Gets the NumberMasterNodes.                                   |
 | [`SolutionName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SubstructureGenerationCondensedPart.md#SubstructureGenerationCondensedPart.SolutionName)                       | Gets or sets the SolutionName.                                |
@@ -142,7 +142,7 @@ Gets or sets the ReductionMethod.
 
 ### *property* SubstructureGenerationCondensedPart.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

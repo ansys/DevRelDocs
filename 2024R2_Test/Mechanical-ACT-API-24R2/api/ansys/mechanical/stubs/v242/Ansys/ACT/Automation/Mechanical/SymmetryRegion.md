@@ -48,7 +48,7 @@ Defines a SymmetryRegion.
 | [`Behavior`](#SymmetryRegion.Behavior)                               | Gets or sets the Behavior.                                    |
 | [`SymmetryNormal`](#SymmetryRegion.SymmetryNormal)                   | Gets or sets the SymmetryNormal.                              |
 | [`Type`](#SymmetryRegion.Type)                                       | Gets or sets the Type.                                        |
-| [`DataModelObjectCategory`](#SymmetryRegion.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#SymmetryRegion.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`ScopeMode`](#SymmetryRegion.ScopeMode)                             | Gets the ScopeMode.                                           |
 | [`Suppressed`](#SymmetryRegion.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`CoordinateSystem`](#SymmetryRegion.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
@@ -135,7 +135,7 @@ Gets or sets the Type.
 
 ### *property* SymmetryRegion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

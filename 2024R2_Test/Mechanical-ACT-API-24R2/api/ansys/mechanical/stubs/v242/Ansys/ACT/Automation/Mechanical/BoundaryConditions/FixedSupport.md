@@ -42,7 +42,7 @@ Defines a FixedSupport.
 |--------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                           | Gets the internal object. For advanced usage only.            |
 | [`Location`](#FixedSupport.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#FixedSupport.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#FixedSupport.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Suppressed`](#FixedSupport.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#FixedSupport.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
 | [`Children`](#FixedSupport.Children)                               | Gets the list of children.                                    |
@@ -78,7 +78,7 @@ Gets or sets the Location.
 
 ### *property* FixedSupport.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -52,7 +52,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 | [`Points`](#ConstructionLine.Points)                                   | Returns all points in this Construction Line, both those that have been created        |
 | [`Planes`](#ConstructionLine.Planes)                                   | Creates for the user an Plane representation of each plane in this Construction Line.  |
 | [`InternalObject`](#id0)                                               | Gets the internal object. For advanced usage only.                                     |
-| [`DataModelObjectCategory`](#ConstructionLine.DataModelObjectCategory) | Gets the current DataModelObject’s category.                                           |
+| [`DataModelObjectCategory`](#ConstructionLine.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                                           |
 | [`Comments`](#ConstructionLine.Comments)                               | Gets the list of associated comments.                                                  |
 | [`Figures`](#ConstructionLine.Figures)                                 | Gets the list of associated figures.                                                   |
 | [`Images`](#ConstructionLine.Images)                                   | Gets the list of associated images.                                                    |
@@ -102,7 +102,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* ConstructionLine.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

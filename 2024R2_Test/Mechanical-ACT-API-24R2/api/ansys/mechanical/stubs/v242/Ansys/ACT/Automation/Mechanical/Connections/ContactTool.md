@@ -45,7 +45,7 @@ Defines a ContactTool.
 | [`ScopingMethod`](#ContactTool.ScopingMethod)                     | Gets or sets the ScopingMethod.                               |
 | [`Location`](#ContactTool.Location)                               | Gets or sets the Location.                                    |
 | [`InternalObject`](#id0)                                          | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](#ContactTool.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#ContactTool.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#ContactTool.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#ContactTool.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#ContactTool.Figures)                                 | Gets the list of associated figures.                          |
@@ -86,7 +86,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* ContactTool.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

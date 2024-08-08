@@ -42,7 +42,7 @@ Defines a CriterionConstraint.
 | [`LowerBound`](#CriterionConstraint.LowerBound)                           | Gets or sets the LowerBound.                                                             |
 | [`UpperBound`](#CriterionConstraint.UpperBound)                           | Gets or sets the UpperBound.                                                             |
 | [`Criterion`](#CriterionConstraint.Criterion)                             | Gets or sets the Criterion.                                                              |
-| [`DataModelObjectCategory`](#CriterionConstraint.DataModelObjectCategory) | Gets the current DataModelObject’s category.                                             |
+| [`DataModelObjectCategory`](#CriterionConstraint.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                                             |
 | [`EnvironmentSelection`](#CriterionConstraint.EnvironmentSelection)       | Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum. |
 | [`Suppressed`](#CriterionConstraint.Suppressed)                           | Gets or sets the Suppressed.                                                             |
 | [`Children`](#CriterionConstraint.Children)                               | Gets the list of children.                                                               |
@@ -98,7 +98,7 @@ Gets or sets the Criterion.
 
 ### *property* CriterionConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

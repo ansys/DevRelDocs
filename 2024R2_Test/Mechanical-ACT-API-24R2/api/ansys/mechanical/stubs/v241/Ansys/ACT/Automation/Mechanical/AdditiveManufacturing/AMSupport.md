@@ -57,7 +57,7 @@ Defines a AMSupport.
 | [`Volume`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/AMSupport.md#AMSupport.Volume)                                                 | Gets or sets the Volume.                                      |
 | [`MultiplierEntry`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/AMSupport.md#AMSupport.MultiplierEntry)                               | Gets or sets the MultiplierEntry.                             |
 | [`SupportType`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/AMSupport.md#AMSupport.SupportType)                                       | Gets or sets the SupportType.                                 |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/AMSupport.md#AMSupport.DataModelObjectCategory)               | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/AMSupport.md#AMSupport.DataModelObjectCategory)               | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/AMSupport.md#AMSupport.Children)                                             | Gets the list of children.                                    |
 | [`Comments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/AMSupport.md#AMSupport.Comments)                                             | Gets the list of associated comments.                         |
 | [`Figures`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/AMSupport.md#AMSupport.Figures)                                               | Gets the list of associated figures.                          |
@@ -210,7 +210,7 @@ Gets or sets the SupportType.
 
 ### *property* AMSupport.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

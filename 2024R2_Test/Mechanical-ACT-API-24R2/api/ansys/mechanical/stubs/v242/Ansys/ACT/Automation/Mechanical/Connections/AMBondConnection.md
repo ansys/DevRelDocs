@@ -50,7 +50,7 @@ Defines a AMBondConnection.
 | [`TargetBodies`](#AMBondConnection.TargetBodies)                       | Gets the TargetBodies.                                        |
 | [`ContactType`](#AMBondConnection.ContactType)                         | Gets or sets the ContactType.                                 |
 | [`Suppressed`](#AMBondConnection.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`DataModelObjectCategory`](#AMBondConnection.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#AMBondConnection.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#AMBondConnection.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#AMBondConnection.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#AMBondConnection.Figures)                                 | Gets the list of associated figures.                          |
@@ -124,7 +124,7 @@ Gets or sets the Suppressed.
 
 ### *property* AMBondConnection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

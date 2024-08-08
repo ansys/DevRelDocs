@@ -38,7 +38,7 @@ Defines a LineChart2D.
 | [`MultiScopedCurveId`](../../../../../v242/Ansys/ACT/Automation/Mechanical/LineChart2D.md#LineChart2D.MultiScopedCurveId)           | Gets or sets the OutlineSelection.                            |
 | [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/LineChart2D.md#id0)                                          | Gets the internal object. For advanced usage only.            |
 | [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/LineChart2D.md#LineChart2D.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/LineChart2D.md#LineChart2D.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/LineChart2D.md#LineChart2D.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/LineChart2D.md#LineChart2D.Children)                               | Gets the list of children.                                    |
 | [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/LineChart2D.md#id0)                                          | Gets the internal object. For advanced usage only.            |
 | [`Properties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/LineChart2D.md#LineChart2D.Properties)                           | Gets the list of properties for this object.                  |
@@ -76,7 +76,7 @@ Gets or sets the Suppressed.
 
 ### *property* LineChart2D.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

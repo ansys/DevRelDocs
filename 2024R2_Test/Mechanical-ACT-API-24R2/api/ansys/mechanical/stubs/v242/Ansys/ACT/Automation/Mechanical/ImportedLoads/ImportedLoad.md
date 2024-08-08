@@ -21,7 +21,7 @@ Defines a ImportedLoad.
 | [`ExportToTextFile`](#ImportedLoad.ExportToTextFile)               | Run the ExportToTextFile action.                                                        |
 | [`Import`](#ImportedLoad.Import)                                   | Import.                                                                                 |
 | [`ImportLoad`](#ImportedLoad.ImportLoad)                           | Run the ImportLoad action.                                                              |
-| [`ReloadConfiguration`](#ImportedLoad.ReloadConfiguration)         | Reload the Imported Load’s setup from its associated configuration file (if available). |
+| [`ReloadConfiguration`](#ImportedLoad.ReloadConfiguration)         | Reload the Imported Loadâ€™s setup from its associated configuration file (if available). |
 | [`GetActivateAtLoadStep`](#ImportedLoad.GetActivateAtLoadStep)     | GetActivateAtLoadStep method.                                                           |
 | [`SetActivateAtLoadStep`](#ImportedLoad.SetActivateAtLoadStep)     | SetActivateAtLoadStep method.                                                           |
 | [`AddMappingValidation`](#ImportedLoad.AddMappingValidation)       | Creates a new MappingValidation                                                         |
@@ -90,7 +90,7 @@ Defines a ImportedLoad.
 | [`Suppressed`](#ImportedLoad.Suppressed)                                                     | Gets or sets the Suppressed.                                                                            |
 | [`SharedRefBody`](#ImportedLoad.SharedRefBody)                                               | Gets or sets the SharedRefBody.                                                                         |
 | [`Location`](#ImportedLoad.Location)                                                         | Gets or sets the Location.                                                                              |
-| [`DataModelObjectCategory`](#ImportedLoad.DataModelObjectCategory)                           | Gets the current DataModelObject’s category.                                                            |
+| [`DataModelObjectCategory`](#ImportedLoad.DataModelObjectCategory)                           | Gets the current DataModelObjectâ€™s category.                                                            |
 | [`Children`](#ImportedLoad.Children)                                                         | Gets the list of children.                                                                              |
 | [`Comments`](#ImportedLoad.Comments)                                                         | Gets the list of associated comments.                                                                   |
 | [`Figures`](#ImportedLoad.Figures)                                                           | Gets the list of associated figures.                                                                    |
@@ -451,7 +451,7 @@ Gets or sets the Location.
 
 ### *property* ImportedLoad.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -543,7 +543,7 @@ Run the ImportLoad action.
 
 ### ImportedLoad.ReloadConfiguration()
 
-Reload the Imported Load’s setup from its associated configuration file (if available).
+Reload the Imported Loadâ€™s setup from its associated configuration file (if available).
 
 <!-- !! processed by numpydoc !! -->
 

@@ -53,7 +53,7 @@ Defines a DirectionalElectrostaticForce.
 | [`InternalObject`](#id0)                                                                                | Gets the internal object. For advanced usage only.                     |
 | [`Total`](#DirectionalElectrostaticForce.Total)                                                         | Gets the Total.                                                        |
 | [`NormalOrientation`](#DirectionalElectrostaticForce.NormalOrientation)                                 | Gets or sets the NormalOrientation.                                    |
-| [`DataModelObjectCategory`](#DirectionalElectrostaticForce.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](#DirectionalElectrostaticForce.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
 | [`ReportedFrequency`](#DirectionalElectrostaticForce.ReportedFrequency)                                 | Gets the ReportedFrequency.                                            |
 | [`SweepingPhase`](#DirectionalElectrostaticForce.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
 | [`PhaseIncrement`](#DirectionalElectrostaticForce.PhaseIncrement)                                       | Gets or sets the PhaseIncrement.                                       |
@@ -148,7 +148,7 @@ Gets or sets the NormalOrientation.
 
 ### *property* DirectionalElectrostaticForce.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

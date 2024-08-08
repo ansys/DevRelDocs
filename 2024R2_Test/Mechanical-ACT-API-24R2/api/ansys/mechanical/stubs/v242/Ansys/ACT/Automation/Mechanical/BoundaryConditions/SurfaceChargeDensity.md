@@ -43,7 +43,7 @@ Defines a SurfaceChargeDensity.
 | [`InternalObject`](#id0)                                                   | Gets the internal object. For advanced usage only.            |
 | [`Magnitude`](#SurfaceChargeDensity.Magnitude)                             | Gets or sets the Magnitude.                                   |
 | [`Location`](#SurfaceChargeDensity.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#SurfaceChargeDensity.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#SurfaceChargeDensity.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Suppressed`](#SurfaceChargeDensity.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#SurfaceChargeDensity.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
 | [`Children`](#SurfaceChargeDensity.Children)                               | Gets the list of children.                                    |
@@ -87,7 +87,7 @@ Gets or sets the Location.
 
 ### *property* SurfaceChargeDensity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

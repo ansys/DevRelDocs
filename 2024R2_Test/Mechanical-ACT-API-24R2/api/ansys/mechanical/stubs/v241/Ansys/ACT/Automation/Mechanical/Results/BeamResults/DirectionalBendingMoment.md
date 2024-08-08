@@ -52,7 +52,7 @@ Defines a DirectionalBendingMoment.
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamResults/DirectionalBendingMoment.md#id0)                                                                           | Gets the internal object. For advanced usage only.                     |
 | [`NormalOrientation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamResults/DirectionalBendingMoment.md#DirectionalBendingMoment.NormalOrientation)                                 | Gets or sets the NormalOrientation.                                    |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamResults/DirectionalBendingMoment.md#DirectionalBendingMoment.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamResults/DirectionalBendingMoment.md#DirectionalBendingMoment.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
 | [`BeamResultType`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamResults/DirectionalBendingMoment.md#DirectionalBendingMoment.BeamResultType)                                       | Gets or sets the BeamResultType.                                       |
 | [`PlotData`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamResults/DirectionalBendingMoment.md#DirectionalBendingMoment.PlotData)                                                   | Gets the result table.                                                 |
 | [`Location`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamResults/DirectionalBendingMoment.md#DirectionalBendingMoment.Location)                                                   | Gets or sets the Location.                                             |
@@ -132,7 +132,7 @@ Gets or sets the NormalOrientation.
 
 ### *property* DirectionalBendingMoment.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

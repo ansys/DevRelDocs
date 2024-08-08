@@ -44,7 +44,7 @@ Defines a ElectricCharge.
 | [`InternalObject`](#id0)                                             | Gets the internal object. For advanced usage only.            |
 | [`Magnitude`](#ElectricCharge.Magnitude)                             | Gets or sets the Magnitude.                                   |
 | [`VoltageCoupling`](#ElectricCharge.VoltageCoupling)                 | Gets or sets the VoltageCoupling.                             |
-| [`DataModelObjectCategory`](#ElectricCharge.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#ElectricCharge.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Suppressed`](#ElectricCharge.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#ElectricCharge.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
 | [`Children`](#ElectricCharge.Children)                               | Gets the list of children.                                    |
@@ -96,7 +96,7 @@ Gets or sets the VoltageCoupling.
 
 ### *property* ElectricCharge.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

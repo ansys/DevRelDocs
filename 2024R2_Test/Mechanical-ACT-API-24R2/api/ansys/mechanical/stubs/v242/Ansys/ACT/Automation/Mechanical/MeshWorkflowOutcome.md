@@ -40,7 +40,7 @@ Object that wraps IDSEngineeringModelOutcome.
 |---------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`OutcomeType`](#MeshWorkflowOutcome.OutcomeType)                         | Returns the type of the control.                              |
 | [`InternalObject`](#id0)                                                  | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](#MeshWorkflowOutcome.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#MeshWorkflowOutcome.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#MeshWorkflowOutcome.Children)                               | Gets the list of children.                                    |
 | [`Figures`](#MeshWorkflowOutcome.Figures)                                 | Gets the list of associated figures.                          |
 | [`Images`](#MeshWorkflowOutcome.Images)                                   | Gets the list of associated images.                           |
@@ -72,7 +72,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* MeshWorkflowOutcome.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

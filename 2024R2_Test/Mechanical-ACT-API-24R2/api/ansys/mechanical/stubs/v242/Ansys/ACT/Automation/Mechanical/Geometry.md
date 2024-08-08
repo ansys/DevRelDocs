@@ -114,7 +114,7 @@ Defines a Geometry.
 | [`Attributes`](#Geometry.Attributes)                                         | Gets the Attributes.                                          |
 | [`NamedSelections`](#Geometry.NamedSelections)                               | Gets the NamedSelections.                                     |
 | [`UseInstances`](#Geometry.UseInstances)                                     | Gets the UseInstances.                                        |
-| [`DataModelObjectCategory`](#Geometry.DataModelObjectCategory)               | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#Geometry.DataModelObjectCategory)               | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#Geometry.Children)                                             | Gets the list of children.                                    |
 | [`Comments`](#Geometry.Comments)                                             | Gets the list of associated comments.                         |
 | [`Figures`](#Geometry.Figures)                                               | Gets the list of associated figures.                          |
@@ -595,7 +595,7 @@ Gets the UseInstances.
 
 ### *property* Geometry.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

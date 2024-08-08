@@ -82,12 +82,12 @@ Defines a StressProbe.
 | [`XZShearStress`](#StressProbe.XZShearStress)                                 | Gets the XZShearStress.                                                                                                                                                    |
 | [`YZShearStress`](#StressProbe.YZShearStress)                                 | Gets the YZShearStress.                                                                                                                                                    |
 | [`StressIntensity`](#StressProbe.StressIntensity)                             | Gets the StressIntensity.                                                                                                                                                  |
-| [`DataModelObjectCategory`](#StressProbe.DataModelObjectCategory)             | Gets the current DataModelObject’s category.                                                                                                                               |
+| [`DataModelObjectCategory`](#StressProbe.DataModelObjectCategory)             | Gets the current DataModelObjectâ€™s category.                                                                                                                               |
 | [`Summation`](#StressProbe.Summation)                                         | Gets or sets the Summation.                                                                                                                                                |
 | [`LocationMethod`](#StressProbe.LocationMethod)                               | Gets or sets the LocationMethod.                                                                                                                                           |
 | [`GeometryLocation`](#StressProbe.GeometryLocation)                           | Gets or sets the GeometryLocation.                                                                                                                                         |
 | [`CoordinateSystemSelection`](#StressProbe.CoordinateSystemSelection)         | Gets or sets the CoordinateSystemSelection.                                                                                                                                |
-| [`BoundaryConditionSelection`](#StressProbe.BoundaryConditionSelection)       | Gets or sets the BoundaryConditionSelection. In order to select the option ‘WeakSprings’, please use the property ‘LocationMethod = LocationDefinitionMethod.WeakSprings’. |
+| [`BoundaryConditionSelection`](#StressProbe.BoundaryConditionSelection)       | Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSpringsâ€™, please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSpringsâ€™. |
 | [`ContactRegionSelection`](#StressProbe.ContactRegionSelection)               | Gets or sets the ContactRegionSelection.                                                                                                                                   |
 | [`RemotePointSelection`](#StressProbe.RemotePointSelection)                   | Gets or sets the RemotePointSelection.                                                                                                                                     |
 | [`BeamSelection`](#StressProbe.BeamSelection)                                 | Gets or sets the BeamSelection.                                                                                                                                            |
@@ -431,7 +431,7 @@ Gets the StressIntensity.
 
 ### *property* StressProbe.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -471,7 +471,7 @@ Gets or sets the CoordinateSystemSelection.
 
 ### *property* StressProbe.BoundaryConditionSelection *: Ansys.ACT.Automation.Mechanical.DataModelObject | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the BoundaryConditionSelection. In order to select the option ‘WeakSprings’, please use the property ‘LocationMethod = LocationDefinitionMethod.WeakSprings’.
+Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSpringsâ€™, please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSpringsâ€™.
 
 <!-- !! processed by numpydoc !! -->
 

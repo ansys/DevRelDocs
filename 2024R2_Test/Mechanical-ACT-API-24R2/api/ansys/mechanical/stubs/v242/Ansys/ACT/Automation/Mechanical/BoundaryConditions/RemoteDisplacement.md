@@ -65,7 +65,7 @@ Defines a RemoteDisplacement.
 | [`DynamicRelaxationBehavior`](#RemoteDisplacement.DynamicRelaxationBehavior)             | Gets or sets the DynamicRelaxationBehavior.                   |
 | [`ReverseDirectionForInverseSteps`](#RemoteDisplacement.ReverseDirectionForInverseSteps) | Gets or sets the ReverseDirectionForInverseSteps.             |
 | [`CoordinateSystem`](#RemoteDisplacement.CoordinateSystem)                               | Gets or sets the CoordinateSystem.                            |
-| [`DataModelObjectCategory`](#RemoteDisplacement.DataModelObjectCategory)                 | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#RemoteDisplacement.DataModelObjectCategory)                 | Gets the current DataModelObjectâ€™s category.                  |
 | [`Suppressed`](#RemoteDisplacement.Suppressed)                                           | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#RemoteDisplacement.SharedRefBody)                                     | Gets or sets the SharedRefBody.                               |
 | [`Children`](#RemoteDisplacement.Children)                                               | Gets the list of children.                                    |
@@ -245,7 +245,7 @@ Gets or sets the CoordinateSystem.
 
 ### *property* RemoteDisplacement.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

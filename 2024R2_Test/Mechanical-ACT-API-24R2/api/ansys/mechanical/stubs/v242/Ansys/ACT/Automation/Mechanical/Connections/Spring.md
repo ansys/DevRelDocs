@@ -86,7 +86,7 @@ Defines a Spring.
 | [`MobileScopeLocation`](#Spring.MobileScopeLocation)                         | Gets or sets the MobileScopeLocation.                                     |
 | [`ReferenceLocation`](#Spring.ReferenceLocation)                             | Gets or sets the ReferenceLocation.                                       |
 | [`ReferenceScopeLocation`](#Spring.ReferenceScopeLocation)                   | Gets or sets the ReferenceScopeLocation.                                  |
-| [`DataModelObjectCategory`](#Spring.DataModelObjectCategory)                 | Gets the current DataModelObject’s category.                              |
+| [`DataModelObjectCategory`](#Spring.DataModelObjectCategory)                 | Gets the current DataModelObjectâ€™s category.                              |
 | [`Children`](#Spring.Children)                                               | Gets the list of children.                                                |
 | [`Comments`](#Spring.Comments)                                               | Gets the list of associated comments.                                     |
 | [`Figures`](#Spring.Figures)                                                 | Gets the list of associated figures.                                      |
@@ -448,7 +448,7 @@ Gets or sets the ReferenceScopeLocation.
 
 ### *property* Spring.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -22,8 +22,8 @@ IReadOnlyDataSeries interface.
 | [`Count`](#IReadOnlyDataSeries.Count)               | Gets the number of data points.                                                        |
 | [`DataType`](#IReadOnlyDataSeries.DataType)         | Gets the type stored by the data series.                                               |
 | [`Name`](#IReadOnlyDataSeries.Name)                 | Gets the name of the data series.                                                      |
-| [`QuantityName`](#IReadOnlyDataSeries.QuantityName) | Gets the quantity name of the data series, e.g., “Length”, “Pressure”, or “Heat Flux”. |
-| [`Unit`](#IReadOnlyDataSeries.Unit)                 | Gets the string representation of the data series units, e.g., “m”, “kg m^-1 s^-2”,    |
+| [`QuantityName`](#IReadOnlyDataSeries.QuantityName) | Gets the quantity name of the data series, e.g., â€œLengthâ€, â€œPressureâ€, or â€œHeat Fluxâ€. |
+| [`Unit`](#IReadOnlyDataSeries.Unit)                 | Gets the string representation of the data series units, e.g., â€œmâ€, â€œkg m^-1 s^-2â€,    |
 | [`Values`](#IReadOnlyDataSeries.Values)             | Explicitly get the values of the data series.                                          |
 
 <a id="property-detail"></a>
@@ -66,7 +66,7 @@ Gets the name of the data series.
 
 ### *property* IReadOnlyDataSeries.QuantityName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the quantity name of the data series, e.g., “Length”, “Pressure”, or “Heat Flux”.
+Gets the quantity name of the data series, e.g., â€œLengthâ€, â€œPressureâ€, or â€œHeat Fluxâ€.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -74,8 +74,8 @@ Gets the quantity name of the data series, e.g., “Length”, “Pressure”, or “Heat 
 
 ### *property* IReadOnlyDataSeries.Unit *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the string representation of the data series units, e.g., “m”, “kg m^-1 s^-2”,
-or “kg m^2 s^-3”.
+Gets the string representation of the data series units, e.g., â€œmâ€, â€œkg m^-1 s^-2â€,
+or â€œkg m^2 s^-3â€.
 
 <!-- !! processed by numpydoc !! -->
 

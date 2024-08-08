@@ -123,7 +123,7 @@ Defines a Model.
 | [`TableGroup`](#Model.TableGroup)                           | Gets the TableGroup.                                                                                                                                                                                                                                                                                          |
 | [`InternalObject`](#id0)                                    | Gets the internal object. For advanced usage only.                                                                                                                                                                                                                                                            |
 | [`Ambient`](#Model.Ambient)                                 | Gets or sets the Ambient Lighting factor.                                                                                                                                                                                                                                                                     |
-| [`Color`](#Model.Color)                                     | Gets or sets the Lighting Color. Can also be set using Hex color codes; three byte hexadecimal numbers (consisting of six digits) preceded by ë0xí, where each byte (or pair of characters in the Hex code) represents the intensity of red, green and blue in the color respectively. For example, 0xFFFFFF. |
+| [`Color`](#Model.Color)                                     | Gets or sets the Lighting Color. Can also be set using Hex color codes; three byte hexadecimal numbers (consisting of six digits) preceded by ‚Äò0x‚Äô, where each byte (or pair of characters in the Hex code) represents the intensity of red, green and blue in the color respectively. For example, 0xFFFFFF. |
 | [`Diffuse`](#Model.Diffuse)                                 | Gets or sets the Diffuse Lighting factor.                                                                                                                                                                                                                                                                     |
 | [`Control`](#Model.Control)                                 | Gets the Control.                                                                                                                                                                                                                                                                                             |
 | [`Specular`](#Model.Specular)                               | Gets or sets the Specular Lighting factor.                                                                                                                                                                                                                                                                    |
@@ -148,7 +148,7 @@ Defines a Model.
 | [`Symmetry`](#Model.Symmetry)                               | Gets the Symmetry.                                                                                                                                                                                                                                                                                            |
 | [`VirtualTopology`](#Model.VirtualTopology)                 | Gets the VirtualTopology.                                                                                                                                                                                                                                                                                     |
 | [`Analyses`](#Model.Analyses)                               | Gets the Analyses.                                                                                                                                                                                                                                                                                            |
-| [`DataModelObjectCategory`](#Model.DataModelObjectCategory) | Gets the current DataModelObjectís category.                                                                                                                                                                                                                                                                  |
+| [`DataModelObjectCategory`](#Model.DataModelObjectCategory) | Gets the current DataModelObject‚Äôs category.                                                                                                                                                                                                                                                                  |
 | [`Children`](#Model.Children)                               | Gets the list of children.                                                                                                                                                                                                                                                                                    |
 | [`Comments`](#Model.Comments)                               | Gets the list of associated comments.                                                                                                                                                                                                                                                                         |
 | [`Figures`](#Model.Figures)                                 | Gets the list of associated figures.                                                                                                                                                                                                                                                                          |
@@ -221,7 +221,7 @@ Gets or sets the Ambient Lighting factor.
 
 ### *property* Model.Color *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the Lighting Color. Can also be set using Hex color codes; three byte hexadecimal numbers (consisting of six digits) preceded by ë0xí, where each byte (or pair of characters in the Hex code) represents the intensity of red, green and blue in the color respectively. For example, 0xFFFFFF.
+Gets or sets the Lighting Color. Can also be set using Hex color codes; three byte hexadecimal numbers (consisting of six digits) preceded by ‚Äò0x‚Äô, where each byte (or pair of characters in the Hex code) represents the intensity of red, green and blue in the color respectively. For example, 0xFFFFFF.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -421,7 +421,7 @@ Gets the Analyses.
 
 ### *property* Model.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectís category.
+Gets the current DataModelObject‚Äôs category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -495,7 +495,7 @@ Valid input arguments include:
 
 > 1. double
 > 2. Quantity
-> 3. A string representation of double or Quantity, i.e., ì1.0î or ì1.0 [cm]î
+> 3. A string representation of double or Quantity, i.e., ‚Äú1.0‚Äù or ‚Äú1.0 [cm]‚Äù
 <!-- !! processed by numpydoc !! -->
 
 <a id="Model.CreateCylindricalNut"></a>
@@ -508,7 +508,7 @@ Valid input arguments include:
 
 > 1. double
 > 2. Quantity
-> 3. A string representation of double or Quantity, i.e., ì1.0î or ì1.0 [cm]î
+> 3. A string representation of double or Quantity, i.e., ‚Äú1.0‚Äù or ‚Äú1.0 [cm]‚Äù
 <!-- !! processed by numpydoc !! -->
 
 <a id="Model.CreateHexBolt"></a>
@@ -521,7 +521,7 @@ Valid input arguments include:
 
 > 1. double
 > 2. Quantity
-> 3. A string representation of double or Quantity, i.e., ì1.0î or ì1.0 [cm]î
+> 3. A string representation of double or Quantity, i.e., ‚Äú1.0‚Äù or ‚Äú1.0 [cm]‚Äù
 <!-- !! processed by numpydoc !! -->
 
 <a id="Model.CreateHexNut"></a>
@@ -534,7 +534,7 @@ Valid input arguments include:
 
 > 1. double
 > 2. Quantity
-> 3. A string representation of double or Quantity, i.e., ì1.0î or ì1.0 [cm]î
+> 3. A string representation of double or Quantity, i.e., ‚Äú1.0‚Äù or ‚Äú1.0 [cm]‚Äù
 <!-- !! processed by numpydoc !! -->
 
 <a id="Model.CreatePartInstance"></a>
@@ -560,7 +560,7 @@ Get the transformation matrix of the provided part.
 ### Model.SetTransformationOnPart(part: Ansys.ACT.Interfaces.Geometry.IGeoPart, transformationMatrix: [Ansys.Mechanical.DataModel.Utilities.RigidBodyTransformationMatrix](../../../../../v241/Ansys/Mechanical/DataModel/Utilities/RigidBodyTransformationMatrix.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Utilities.RigidBodyTransformationMatrix))
 
 Transform a part with given transformation. Only rigid body transformation is
-supported, i.e., no scaling will be performed. The validity of ìtransformationMatrixî
+supported, i.e., no scaling will be performed. The validity of ‚ÄútransformationMatrix‚Äù
 will be checked against the constraints of rigid body transforms; an error will be
 emitted if the matrix is ill-formed.
 

@@ -49,7 +49,7 @@ Defines a Stage.
 | [`Suppressed`](#Stage.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`CyclicRegion`](#Stage.CyclicRegion)                       | Gets or sets the CyclicRegion.                                |
 | [`Location`](#Stage.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#Stage.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#Stage.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#Stage.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#Stage.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#Stage.Figures)                                 | Gets the list of associated figures.                          |
@@ -115,7 +115,7 @@ Gets or sets the Location.
 
 ### *property* Stage.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

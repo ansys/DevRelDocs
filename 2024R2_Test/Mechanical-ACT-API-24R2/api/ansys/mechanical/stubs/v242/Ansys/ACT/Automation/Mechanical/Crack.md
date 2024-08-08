@@ -68,7 +68,7 @@ Defines a Crack.
 | [`CoordinateSystem`](#Crack.CoordinateSystem)                     | Gets or sets the CoordinateSystem.                            |
 | [`Location`](#Crack.Location)                                     | Gets the Location.                                            |
 | [`CrackID`](#Crack.CrackID)                                       | Gets the CrackID.                                             |
-| [`DataModelObjectCategory`](#Crack.DataModelObjectCategory)       | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#Crack.DataModelObjectCategory)       | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#Crack.Children)                                     | Gets the list of children.                                    |
 | [`Comments`](#Crack.Comments)                                     | Gets the list of associated comments.                         |
 | [`Figures`](#Crack.Figures)                                       | Gets the list of associated figures.                          |
@@ -310,7 +310,7 @@ Gets the CrackID.
 
 ### *property* Crack.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -43,7 +43,7 @@ Defines a AcousticSymmetryPlane.
 | [`InternalObject`](#id0)                                                    | Gets the internal object. For advanced usage only.            |
 | [`CoordinateSystem`](#AcousticSymmetryPlane.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
 | [`Location`](#AcousticSymmetryPlane.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#AcousticSymmetryPlane.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#AcousticSymmetryPlane.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Suppressed`](#AcousticSymmetryPlane.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#AcousticSymmetryPlane.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
 | [`Children`](#AcousticSymmetryPlane.Children)                               | Gets the list of children.                                    |
@@ -87,7 +87,7 @@ Gets or sets the Location.
 
 ### *property* AcousticSymmetryPlane.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

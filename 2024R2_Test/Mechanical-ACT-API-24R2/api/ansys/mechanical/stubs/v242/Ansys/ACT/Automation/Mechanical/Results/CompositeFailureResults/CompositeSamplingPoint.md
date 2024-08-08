@@ -41,7 +41,7 @@ Defines a CompositeSamplingPoint.
 |------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                     | Gets the internal object. For advanced usage only.            |
 | [`Location`](#CompositeSamplingPoint.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#CompositeSamplingPoint.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#CompositeSamplingPoint.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#CompositeSamplingPoint.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#CompositeSamplingPoint.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#CompositeSamplingPoint.Figures)                                 | Gets the list of associated figures.                          |
@@ -74,7 +74,7 @@ Gets or sets the Location.
 
 ### *property* CompositeSamplingPoint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

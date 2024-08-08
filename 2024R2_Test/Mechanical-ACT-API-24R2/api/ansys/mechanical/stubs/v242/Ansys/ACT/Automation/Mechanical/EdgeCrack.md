@@ -70,7 +70,7 @@ Defines a EdgeCrack.
 | [`Suppressed`](#EdgeCrack.Suppressed)                                 | Gets or sets the Suppressed.                                  |
 | [`CoordinateSystem`](#EdgeCrack.CoordinateSystem)                     | Gets or sets the CoordinateSystem.                            |
 | [`Location`](#EdgeCrack.Location)                                     | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#EdgeCrack.DataModelObjectCategory)       | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#EdgeCrack.DataModelObjectCategory)       | Gets the current DataModelObjectâ€™s category.                  |
 | [`CrackID`](#EdgeCrack.CrackID)                                       | Gets the CrackID.                                             |
 | [`Children`](#EdgeCrack.Children)                                     | Gets the list of children.                                    |
 | [`Comments`](#EdgeCrack.Comments)                                     | Gets the list of associated comments.                         |
@@ -329,7 +329,7 @@ Gets or sets the Location.
 
 ### *property* EdgeCrack.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

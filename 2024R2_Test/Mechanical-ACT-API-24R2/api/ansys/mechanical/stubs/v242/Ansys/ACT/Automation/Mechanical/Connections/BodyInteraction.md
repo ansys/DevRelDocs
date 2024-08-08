@@ -56,7 +56,7 @@ Defines a BodyInteraction.
 | [`ContactType`](#BodyInteraction.ContactType)                         | Gets or sets the ContactType.                                 |
 | [`Suppressed`](#BodyInteraction.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`Location`](#BodyInteraction.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#BodyInteraction.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#BodyInteraction.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#BodyInteraction.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#BodyInteraction.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#BodyInteraction.Figures)                                 | Gets the list of associated figures.                          |
@@ -209,7 +209,7 @@ Gets or sets the Location.
 
 ### *property* BodyInteraction.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

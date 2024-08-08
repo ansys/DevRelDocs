@@ -52,7 +52,7 @@ Defines a LSDYNAGeneralTracker.
 | [`ACTLoad`](#LSDYNAGeneralTracker.ACTLoad)                                         | Gets or sets the ACT Load.                                    |
 | [`InternalObject`](#id0)                                                           | Gets the internal object. For advanced usage only.            |
 | [`ContactSide`](#LSDYNAGeneralTracker.ContactSide)                                 | Gets or sets the ContactSide.                                 |
-| [`DataModelObjectCategory`](#LSDYNAGeneralTracker.DataModelObjectCategory)         | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#LSDYNAGeneralTracker.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                  |
 | [`IsSolved`](#LSDYNAGeneralTracker.IsSolved)                                       | Gets the IsSolved.                                            |
 | [`ChartDimensions`](#LSDYNAGeneralTracker.ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
 | [`BoundaryCondition`](#LSDYNAGeneralTracker.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
@@ -173,7 +173,7 @@ Gets or sets the ContactSide.
 
 ### *property* LSDYNAGeneralTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -52,7 +52,7 @@ Defines a HatCrossSection.
 | [`Width2`](#HatCrossSection.Width2)                                   | Gets or sets the Width2.                                      |
 | [`Width3`](#HatCrossSection.Width3)                                   | Gets or sets the Width3.                                      |
 | [`Width4`](#HatCrossSection.Width4)                                   | Gets or sets the Width4.                                      |
-| [`DataModelObjectCategory`](#HatCrossSection.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#HatCrossSection.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#HatCrossSection.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#HatCrossSection.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#HatCrossSection.Figures)                                 | Gets the list of associated figures.                          |
@@ -174,7 +174,7 @@ Gets or sets the Width4.
 
 ### *property* HatCrossSection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

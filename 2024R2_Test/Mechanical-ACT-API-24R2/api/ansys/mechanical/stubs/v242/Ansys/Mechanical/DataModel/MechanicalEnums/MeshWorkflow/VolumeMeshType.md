@@ -6,7 +6,7 @@
 
 Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
-This enum is referenced in the ‘Control’ tree node and reflects the type of volume mesh being configured.
+This enum is referenced in the â€˜Controlâ€™ tree node and reflects the type of volume mesh being configured.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -54,7 +54,7 @@ Defines a CondensedPartBase.
 | [`SolverUnits`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CondensedPartBase.md#CondensedPartBase.SolverUnits)                         | Gets or sets the SolverUnits.                                 |
 | [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CondensedPartBase.md#CondensedPartBase.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`GeometrySelection`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CondensedPartBase.md#CondensedPartBase.GeometrySelection)             | Gets or sets the GeometrySelection.                           |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CondensedPartBase.md#CondensedPartBase.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CondensedPartBase.md#CondensedPartBase.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CondensedPartBase.md#CondensedPartBase.Children)                               | Gets the list of children.                                    |
 | [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CondensedPartBase.md#CondensedPartBase.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CondensedPartBase.md#CondensedPartBase.Figures)                                 | Gets the list of associated figures.                          |
@@ -175,7 +175,7 @@ Gets or sets the GeometrySelection.
 
 ### *property* CondensedPartBase.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

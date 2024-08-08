@@ -46,7 +46,7 @@ Defines a InternalHeatGeneration.
 | [`NumberOfSegments`](#InternalHeatGeneration.NumberOfSegments)               | Gets or sets the NumberOfSegments.                            |
 | [`Magnitude`](#InternalHeatGeneration.Magnitude)                             | Gets the Magnitude.                                           |
 | [`Location`](#InternalHeatGeneration.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#InternalHeatGeneration.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#InternalHeatGeneration.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Suppressed`](#InternalHeatGeneration.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#InternalHeatGeneration.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
 | [`Children`](#InternalHeatGeneration.Children)                               | Gets the list of children.                                    |
@@ -98,7 +98,7 @@ Gets or sets the Location.
 
 ### *property* InternalHeatGeneration.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

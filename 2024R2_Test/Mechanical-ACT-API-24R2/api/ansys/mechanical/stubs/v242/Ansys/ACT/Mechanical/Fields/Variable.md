@@ -29,14 +29,14 @@ Represents an object that is either an input or an output for a
 | [`IsInput`](#Variable.IsInput)                           | Gets a value indicating whether this variable is an input for its container field. Otherwise, it is an output variable. |
 | [`IsOutput`](#Variable.IsOutput)                         | Gets a value indicating whether this variable is an output for its container field. Otherwise, it is an input variable. |
 | [`Index`](#Variable.Index)                               | Gets the index of this variable in its container field.                                                                 |
-| [`Name`](#Variable.Name)                                 | Gets the variable’s name.                                                                                               |
-| [`Range`](#Variable.Range)                               | Gets the domain of validity for variable’s value.                                                                       |
+| [`Name`](#Variable.Name)                                 | Gets the variableâ€™s name.                                                                                               |
+| [`Range`](#Variable.Range)                               | Gets the domain of validity for variableâ€™s value.                                                                       |
 | [`DefinitionType`](#Variable.DefinitionType)             | Gets a value that indicates how this variable is defined.                                                               |
 | [`DiscreteValueCount`](#Variable.DiscreteValueCount)     | Gets the number of discrete values of this variable.                                                                    |
 | [`DiscreteValues`](#Variable.DiscreteValues)             | Gets or sets the discrete values of this variable or                                                                    |
 | [`MinMaxDiscreteValues`](#Variable.MinMaxDiscreteValues) | Returns a Tuple containing the min and max values from the list of discrete values.                                     |
 | [`Formula`](#Variable.Formula)                           | Gets or sets the expression that is used to defined this variable, or                                                   |
-| [`Unit`](#Variable.Unit)                                 | Gets the symbol of the unit used to express this variable’s values.                                                     |
+| [`Unit`](#Variable.Unit)                                 | Gets the symbol of the unit used to express this variableâ€™s values.                                                     |
 | [`QuantityName`](#Variable.QuantityName)                 | Gets the name of the quantity represented by this variable.                                                             |
 
 <a id="property-detail"></a>
@@ -79,7 +79,7 @@ Gets the index of this variable in its container field.
 
 ### *property* Variable.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the variable’s name.
+Gets the variableâ€™s name.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -87,7 +87,7 @@ Gets the variable’s name.
 
 ### *property* Variable.Range *: Ansys.ACT.Mechanical.Fields.Range | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the domain of validity for variable’s value.
+Gets the domain of validity for variableâ€™s value.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -135,7 +135,7 @@ Gets or sets the expression that is used to defined this variable, or
 
 ### *property* Variable.Unit *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the symbol of the unit used to express this variable’s values.
+Gets the symbol of the unit used to express this variableâ€™s values.
 
 <!-- !! processed by numpydoc !! -->
 

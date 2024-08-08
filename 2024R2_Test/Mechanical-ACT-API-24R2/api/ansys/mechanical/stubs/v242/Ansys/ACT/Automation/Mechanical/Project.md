@@ -66,7 +66,7 @@ Defines a Project.
 | [`Subject`](#Project.Subject)                                     | Gets or sets the Subject.                                            |
 | [`SaveProjectAfterSolution`](#Project.SaveProjectAfterSolution)   | Gets or sets the SaveProjectAfterSolution.                           |
 | [`SaveProjectBeforeSolution`](#Project.SaveProjectBeforeSolution) | Gets or sets the SaveProjectBeforeSolution.                          |
-| [`DataModelObjectCategory`](#Project.DataModelObjectCategory)     | Gets the current DataModelObject’s category.                         |
+| [`DataModelObjectCategory`](#Project.DataModelObjectCategory)     | Gets the current DataModelObjectâ€™s category.                         |
 | [`Children`](#Project.Children)                                   | Gets the list of children.                                           |
 | [`Comments`](#Project.Comments)                                   | Gets the list of associated comments.                                |
 | [`Images`](#Project.Images)                                       | Gets the list of associated images.                                  |
@@ -234,7 +234,7 @@ Gets or sets the SaveProjectBeforeSolution.
 
 ### *property* Project.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

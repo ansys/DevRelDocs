@@ -52,7 +52,7 @@ Defines a MagneticTotalForces.
 |-----------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                      | Gets the internal object. For advanced usage only.                     |
 | [`Total`](#MagneticTotalForces.Total)                                                         | Gets the Total.                                                        |
-| [`DataModelObjectCategory`](#MagneticTotalForces.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](#MagneticTotalForces.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
 | [`ElectromagneticResultType`](#MagneticTotalForces.ElectromagneticResultType)                 | Gets or sets the ElectromagneticResultType.                            |
 | [`AverageAcrossBodies`](#MagneticTotalForces.AverageAcrossBodies)                             | Gets or sets the AverageAcrossBodies.                                  |
 | [`PlotData`](#MagneticTotalForces.PlotData)                                                   | Gets the result table.                                                 |
@@ -134,7 +134,7 @@ Gets the Total.
 
 ### *property* MagneticTotalForces.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

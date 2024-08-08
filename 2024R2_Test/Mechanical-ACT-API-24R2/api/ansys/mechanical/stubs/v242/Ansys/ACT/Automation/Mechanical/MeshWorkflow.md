@@ -19,12 +19,12 @@ Object that wraps IDSEngineeringModelWorkflowGroup.
 | Name | Description |
 |--------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [`Generate`](#MeshWorkflow.Generate)                                                             | Generates the desired data by executing the whole workflow, i.e., transferring the input data, executing all steps, and completing the workflow by transferring the output data back into Geometry and Mesh data.                                                                                          |
-| [`AddInput`](#MeshWorkflow.AddInput)                                                             | Adds an ìInputî node as child object under the ìMesh Workflowî and returns the new MeshWorkflowInput object if not existent, otherwise it returns the already available MeshWorkflowInput object.                                                                                                          |
-| [`AddOutput`](#MeshWorkflow.AddOutput)                                                           | Adds an ìOutputî node as child object under the ìMesh Workflowî and returns the new MeshWorkflowOutput object if not existent, otherwise it returns the already available MeshWorkflowOutput object.                                                                                                       |
-| [`ClearGeneratedData`](#MeshWorkflow.ClearGeneratedData)                                         | Clears all the generated data, i.e.,  It resets all inactive geometry parts/bodies to active again, clears the output data, and resets the state of the child objects (ìInputî, ìStepsî, ìOutputî) to the initial state. However, any user-defined settings such as the ìInputî node scoping are retained. |
-| [`ClearOutputData`](#MeshWorkflow.ClearOutputData)                                               | Clears only the ìOutputî data, i.e., the generated Geometry part(s) and the associated mesh.                                                                                                                                                                                                               |
+| [`AddInput`](#MeshWorkflow.AddInput)                                                             | Adds an ‚ÄúInput‚Äù node as child object under the ‚ÄúMesh Workflow‚Äù and returns the new MeshWorkflowInput object if not existent, otherwise it returns the already available MeshWorkflowInput object.                                                                                                          |
+| [`AddOutput`](#MeshWorkflow.AddOutput)                                                           | Adds an ‚ÄúOutput‚Äù node as child object under the ‚ÄúMesh Workflow‚Äù and returns the new MeshWorkflowOutput object if not existent, otherwise it returns the already available MeshWorkflowOutput object.                                                                                                       |
+| [`ClearGeneratedData`](#MeshWorkflow.ClearGeneratedData)                                         | Clears all the generated data, i.e.,  It resets all inactive geometry parts/bodies to active again, clears the output data, and resets the state of the child objects (‚ÄúInput‚Äù, ‚ÄúSteps‚Äù, ‚ÄúOutput‚Äù) to the initial state. However, any user-defined settings such as the ‚ÄúInput‚Äù node scoping are retained. |
+| [`ClearOutputData`](#MeshWorkflow.ClearOutputData)                                               | Clears only the ‚ÄúOutput‚Äù data, i.e., the generated Geometry part(s) and the associated mesh.                                                                                                                                                                                                               |
 | [`FinalizeWorkflow`](#MeshWorkflow.FinalizeWorkflow)                                             | Once all steps in a mesh workflow are completed successfully, the workflow can be completed which will transfer the generated data back into new Mechanical geometry part(s) together with the corresponding part mesh(es).                                                                                |
-| [`InitializeWorkflow`](#MeshWorkflow.InitializeWorkflow)                                         | Initializes the mesh workflow by transferring the scoped geometry parts/bodies from Mechanical into the PrimeMesh model and updates the ìInputî node state accordingly.                                                                                                                                    |
+| [`InitializeWorkflow`](#MeshWorkflow.InitializeWorkflow)                                         | Initializes the mesh workflow by transferring the scoped geometry parts/bodies from Mechanical into the PrimeMesh model and updates the ‚ÄúInput‚Äù node state accordingly.                                                                                                                                    |
 | [`ImportWorkflow`](#MeshWorkflow.ImportWorkflow)                                                 | Imports the steps from a template .emx file.                                                                                                                                                                                                                                                               |
 | [`ExportWorkflow`](#MeshWorkflow.ExportWorkflow)                                                 | Exports the steps as template into a .emx file.                                                                                                                                                                                                                                                            |
 | [`GetSolidSurfaceMeshQualityWarningLimit`](#MeshWorkflow.GetSolidSurfaceMeshQualityWarningLimit) | Get Mesh Quality Warning Limit                                                                                                                                                                                                                                                                             |
@@ -54,8 +54,8 @@ Object that wraps IDSEngineeringModelWorkflowGroup.
 | [`WorkflowType`](#MeshWorkflow.WorkflowType)                         | Returns the workflow type which is applicable to the Input, Steps, and Output.                                                        |
 | [`InternalObject`](#id0)                                             | Gets the internal object. For advanced usage only.                                                                                    |
 | [`ImportedWorkflowFilename`](#MeshWorkflow.ImportedWorkflowFilename) | The filename of the template.emx file that populated the workflow initially.                                                          |
-| [`UnitSystem`](#MeshWorkflow.UnitSystem)                             | Defines the ìunit systemî of a Prime Model, if not defined, the unit system is deduced from the geometry at input data transfer time. |
-| [`DataModelObjectCategory`](#MeshWorkflow.DataModelObjectCategory)   | Gets the current DataModelObjectís category.                                                                                          |
+| [`UnitSystem`](#MeshWorkflow.UnitSystem)                             | Defines the ‚Äúunit system‚Äù of a Prime Model, if not defined, the unit system is deduced from the geometry at input data transfer time. |
+| [`DataModelObjectCategory`](#MeshWorkflow.DataModelObjectCategory)   | Gets the current DataModelObject‚Äôs category.                                                                                          |
 | [`Children`](#MeshWorkflow.Children)                                 | Gets the list of children.                                                                                                            |
 | [`Figures`](#MeshWorkflow.Figures)                                   | Gets the list of associated figures.                                                                                                  |
 | [`Images`](#MeshWorkflow.Images)                                     | Gets the list of associated images.                                                                                                   |
@@ -95,7 +95,7 @@ The filename of the template.emx file that populated the workflow initially.
 
 ### *property* MeshWorkflow.UnitSystem *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](../../../../../v241/Ansys/Mechanical/DataModel/Enums/WBUnitSystemType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Defines the ìunit systemî of a Prime Model, if not defined, the unit system is deduced from the geometry at input data transfer time.
+Defines the ‚Äúunit system‚Äù of a Prime Model, if not defined, the unit system is deduced from the geometry at input data transfer time.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -103,7 +103,7 @@ Defines the ìunit systemî of a Prime Model, if not defined, the unit system is d
 
 ### *property* MeshWorkflow.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectís category.
+Gets the current DataModelObject‚Äôs category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -171,7 +171,7 @@ Generates the desired data by executing the whole workflow, i.e., transferring t
 
 ### MeshWorkflow.AddInput()
 
-Adds an ìInputî node as child object under the ìMesh Workflowî and returns the new MeshWorkflowInput object if not existent, otherwise it returns the already available MeshWorkflowInput object.
+Adds an ‚ÄúInput‚Äù node as child object under the ‚ÄúMesh Workflow‚Äù and returns the new MeshWorkflowInput object if not existent, otherwise it returns the already available MeshWorkflowInput object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -179,7 +179,7 @@ Adds an ìInputî node as child object under the ìMesh Workflowî and returns the n
 
 ### MeshWorkflow.AddOutput()
 
-Adds an ìOutputî node as child object under the ìMesh Workflowî and returns the new MeshWorkflowOutput object if not existent, otherwise it returns the already available MeshWorkflowOutput object.
+Adds an ‚ÄúOutput‚Äù node as child object under the ‚ÄúMesh Workflow‚Äù and returns the new MeshWorkflowOutput object if not existent, otherwise it returns the already available MeshWorkflowOutput object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -187,7 +187,7 @@ Adds an ìOutputî node as child object under the ìMesh Workflowî and returns the 
 
 ### MeshWorkflow.ClearGeneratedData()
 
-Clears all the generated data, i.e.,  It resets all inactive geometry parts/bodies to active again, clears the output data, and resets the state of the child objects (ìInputî, ìStepsî, ìOutputî) to the initial state. However, any user-defined settings such as the ìInputî node scoping are retained.
+Clears all the generated data, i.e.,  It resets all inactive geometry parts/bodies to active again, clears the output data, and resets the state of the child objects (‚ÄúInput‚Äù, ‚ÄúSteps‚Äù, ‚ÄúOutput‚Äù) to the initial state. However, any user-defined settings such as the ‚ÄúInput‚Äù node scoping are retained.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -195,7 +195,7 @@ Clears all the generated data, i.e.,  It resets all inactive geometry parts/bodi
 
 ### MeshWorkflow.ClearOutputData()
 
-Clears only the ìOutputî data, i.e., the generated Geometry part(s) and the associated mesh.
+Clears only the ‚ÄúOutput‚Äù data, i.e., the generated Geometry part(s) and the associated mesh.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -211,7 +211,7 @@ Once all steps in a mesh workflow are completed successfully, the workflow can b
 
 ### MeshWorkflow.InitializeWorkflow()
 
-Initializes the mesh workflow by transferring the scoped geometry parts/bodies from Mechanical into the PrimeMesh model and updates the ìInputî node state accordingly.
+Initializes the mesh workflow by transferring the scoped geometry parts/bodies from Mechanical into the PrimeMesh model and updates the ‚ÄúInput‚Äù node state accordingly.
 
 <!-- !! processed by numpydoc !! -->
 

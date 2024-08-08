@@ -44,7 +44,7 @@ Defines a CircularCrossSection.
 | [`IYY`](#CircularCrossSection.IYY)                                         | Gets the IYY.                                                 |
 | [`IZZ`](#CircularCrossSection.IZZ)                                         | Gets the IZZ.                                                 |
 | [`Radius`](#CircularCrossSection.Radius)                                   | Gets or sets the Radius.                                      |
-| [`DataModelObjectCategory`](#CircularCrossSection.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#CircularCrossSection.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#CircularCrossSection.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#CircularCrossSection.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#CircularCrossSection.Figures)                                 | Gets the list of associated figures.                          |
@@ -102,7 +102,7 @@ Gets or sets the Radius.
 
 ### *property* CircularCrossSection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

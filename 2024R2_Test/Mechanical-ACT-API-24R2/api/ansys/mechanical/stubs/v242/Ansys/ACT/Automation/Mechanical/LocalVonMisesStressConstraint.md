@@ -41,7 +41,7 @@ Defines a LocalVonMisesStressConstraint.
 | [`Maximum`](#LocalVonMisesStressConstraint.Maximum)                                 | Gets or sets the Maximum.                                                                |
 | [`ScopingMethod`](#LocalVonMisesStressConstraint.ScopingMethod)                     | Gets or sets the ScopingMethod.                                                          |
 | [`Location`](#LocalVonMisesStressConstraint.Location)                               | Gets or sets the Location.                                                               |
-| [`DataModelObjectCategory`](#LocalVonMisesStressConstraint.DataModelObjectCategory) | Gets the current DataModelObject’s category.                                             |
+| [`DataModelObjectCategory`](#LocalVonMisesStressConstraint.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                                             |
 | [`EnvironmentSelection`](#LocalVonMisesStressConstraint.EnvironmentSelection)       | Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum. |
 | [`Suppressed`](#LocalVonMisesStressConstraint.Suppressed)                           | Gets or sets the Suppressed.                                                             |
 | [`Children`](#LocalVonMisesStressConstraint.Children)                               | Gets the list of children.                                                               |
@@ -89,7 +89,7 @@ Gets or sets the Location.
 
 ### *property* LocalVonMisesStressConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

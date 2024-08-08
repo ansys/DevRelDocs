@@ -51,7 +51,7 @@ Defines a MatchControl.
 | [`LowCoordinateSystem`](#MatchControl.LowCoordinateSystem)         | Gets or sets the LowCoordinateSystem.                         |
 | [`HighGeometrySelection`](#MatchControl.HighGeometrySelection)     | Gets or sets the HighGeometrySelection.                       |
 | [`LowGeometrySelection`](#MatchControl.LowGeometrySelection)       | Gets or sets the LowGeometrySelection.                        |
-| [`DataModelObjectCategory`](#MatchControl.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#MatchControl.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`ScopingMethod`](#MatchControl.ScopingMethod)                     | Gets or sets the ScopingMethod.                               |
 | [`Suppressed`](#MatchControl.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`Children`](#MatchControl.Children)                               | Gets the list of children.                                    |
@@ -150,7 +150,7 @@ Gets or sets the LowGeometrySelection.
 
 ### *property* MatchControl.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

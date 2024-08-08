@@ -103,7 +103,7 @@ Defines a SolutionCombination.
 |---------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Definition`](#SolutionCombination.Definition)                           | Get the SolutionCombinationDefinition object.                 |
 | [`InternalObject`](#id0)                                                  | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](#SolutionCombination.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#SolutionCombination.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#SolutionCombination.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#SolutionCombination.Comments)                               | Gets the list of associated comments.                         |
 | [`Images`](#SolutionCombination.Images)                                   | Gets the list of associated images.                           |
@@ -136,7 +136,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* SolutionCombination.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

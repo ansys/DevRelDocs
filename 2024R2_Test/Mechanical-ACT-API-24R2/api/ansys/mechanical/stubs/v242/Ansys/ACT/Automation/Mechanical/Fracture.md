@@ -57,7 +57,7 @@ Defines a Fracture.
 |------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                     | Gets the internal object. For advanced usage only.            |
 | [`RemeshHexDominantToTetrahedral`](#Fracture.RemeshHexDominantToTetrahedral) | Gets or sets the RemeshHexDominantToTetrahedral.              |
-| [`DataModelObjectCategory`](#Fracture.DataModelObjectCategory)               | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#Fracture.DataModelObjectCategory)               | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#Fracture.Children)                                             | Gets the list of children.                                    |
 | [`Comments`](#Fracture.Comments)                                             | Gets the list of associated comments.                         |
 | [`Figures`](#Fracture.Figures)                                               | Gets the list of associated figures.                          |
@@ -90,7 +90,7 @@ Gets or sets the RemeshHexDominantToTetrahedral.
 
 ### *property* Fracture.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

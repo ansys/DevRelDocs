@@ -6,7 +6,7 @@
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
-Defines the collection of Mechanical’s messages.
+Defines the collection of Mechanicalâ€™s messages.
 
 <!-- !! processed by numpydoc !! -->
 

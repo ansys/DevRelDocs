@@ -48,7 +48,7 @@ Defines a CondensedGeometry.
 | [`InternalObject`](#id0)                                                | Gets the internal object. For advanced usage only.            |
 | [`SolverFilesDirectory`](#CondensedGeometry.SolverFilesDirectory)       | Gets the SolverFilesDirectory.                                |
 | [`TransparencyEnabled`](#CondensedGeometry.TransparencyEnabled)         | Gets or sets the TransparencyEnabled.                         |
-| [`DataModelObjectCategory`](#CondensedGeometry.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](#CondensedGeometry.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Children`](#CondensedGeometry.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#CondensedGeometry.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#CondensedGeometry.Figures)                                 | Gets the list of associated figures.                          |
@@ -89,7 +89,7 @@ Gets or sets the TransparencyEnabled.
 
 ### *property* CondensedGeometry.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

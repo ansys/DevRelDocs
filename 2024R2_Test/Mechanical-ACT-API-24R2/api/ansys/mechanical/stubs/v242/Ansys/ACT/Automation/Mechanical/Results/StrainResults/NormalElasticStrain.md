@@ -54,7 +54,7 @@ Defines a NormalElasticStrain.
 | [`ScaleFactorValue`](#NormalElasticStrain.ScaleFactorValue)                                   | Gets or sets the ScaleFactorValue.                                     |
 | [`NormalOrientation`](#NormalElasticStrain.NormalOrientation)                                 | Gets or sets the NormalOrientation.                                    |
 | [`ScaleFactor`](#NormalElasticStrain.ScaleFactor)                                             | Gets or sets the ScaleFactor.                                          |
-| [`DataModelObjectCategory`](#NormalElasticStrain.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DataModelObjectCategory`](#NormalElasticStrain.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
 | [`Mode`](#NormalElasticStrain.Mode)                                                           | Gets or sets the Mode.                                                 |
 | [`Ply`](#NormalElasticStrain.Ply)                                                             | Gets or sets the Ply selection.                                        |
 | [`Plies`](#NormalElasticStrain.Plies)                                                         | Plies property.                                                        |
@@ -167,7 +167,7 @@ Gets or sets the ScaleFactor.
 
 ### *property* NormalElasticStrain.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 

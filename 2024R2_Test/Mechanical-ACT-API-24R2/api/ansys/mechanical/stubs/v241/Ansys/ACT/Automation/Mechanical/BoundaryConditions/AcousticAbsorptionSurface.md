@@ -43,7 +43,7 @@ Defines a AcousticAbsorptionSurface.
 | [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticAbsorptionSurface.md#id0)                                                        | Gets the internal object. For advanced usage only.            |
 | [`AbsorptionCoefficient`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticAbsorptionSurface.md#AcousticAbsorptionSurface.AbsorptionCoefficient)     | Gets or sets the AbsorptionCoefficient.                       |
 | [`Location`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticAbsorptionSurface.md#AcousticAbsorptionSurface.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticAbsorptionSurface.md#AcousticAbsorptionSurface.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticAbsorptionSurface.md#AcousticAbsorptionSurface.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
 | [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticAbsorptionSurface.md#AcousticAbsorptionSurface.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticAbsorptionSurface.md#AcousticAbsorptionSurface.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticAbsorptionSurface.md#AcousticAbsorptionSurface.Children)                               | Gets the list of children.                                    |
@@ -87,7 +87,7 @@ Gets or sets the Location.
 
 ### *property* AcousticAbsorptionSurface.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the current DataModelObjectâ€™s category.
 
 <!-- !! processed by numpydoc !! -->
 
