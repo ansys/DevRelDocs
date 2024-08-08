@@ -69,7 +69,7 @@ Defines a CylindricalCrack.
 | [`Suppressed`](#CylindricalCrack.Suppressed)                                 | Gets or sets the Suppressed.                                  |
 | [`CoordinateSystem`](#CylindricalCrack.CoordinateSystem)                     | Gets or sets the CoordinateSystem.                            |
 | [`Location`](#CylindricalCrack.Location)                                     | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#CylindricalCrack.DataModelObjectCategory)       | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#CylindricalCrack.DataModelObjectCategory)       | Gets the current DataModelObject's category.                  |
 | [`CrackID`](#CylindricalCrack.CrackID)                                       | Gets the CrackID.                                             |
 | [`Children`](#CylindricalCrack.Children)                                     | Gets the list of children.                                    |
 | [`Comments`](#CylindricalCrack.Comments)                                     | Gets the list of associated comments.                         |
@@ -320,7 +320,7 @@ Gets or sets the Location.
 
 ### *property* CylindricalCrack.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

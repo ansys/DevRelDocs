@@ -41,7 +41,7 @@ Defines a TemperatureConstraint.
 | [`TemperatureAbsMax`](#TemperatureConstraint.TemperatureAbsMax)             | Gets or sets the TemperatureAbsMax.                                                      |
 | [`ScopingMethod`](#TemperatureConstraint.ScopingMethod)                     | Gets or sets the ScopingMethod.                                                          |
 | [`Location`](#TemperatureConstraint.Location)                               | Gets or sets the Location.                                                               |
-| [`DataModelObjectCategory`](#TemperatureConstraint.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                                             |
+| [`DataModelObjectCategory`](#TemperatureConstraint.DataModelObjectCategory) | Gets the current DataModelObject's category.                                             |
 | [`EnvironmentSelection`](#TemperatureConstraint.EnvironmentSelection)       | Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum. |
 | [`Suppressed`](#TemperatureConstraint.Suppressed)                           | Gets or sets the Suppressed.                                                             |
 | [`Children`](#TemperatureConstraint.Children)                               | Gets the list of children.                                                               |
@@ -89,7 +89,7 @@ Gets or sets the Location.
 
 ### *property* TemperatureConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

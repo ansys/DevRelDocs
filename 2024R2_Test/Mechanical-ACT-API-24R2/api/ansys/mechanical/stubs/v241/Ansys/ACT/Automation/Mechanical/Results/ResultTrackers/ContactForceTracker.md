@@ -45,7 +45,7 @@ Defines a ContactForceTracker.
 | [`ContactRegion`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactForceTracker.md#ContactForceTracker.ContactRegion)                             | Gets or sets the ContactRegion.                               |
 | [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactForceTracker.md#id0)                                                          | Gets the internal object. For advanced usage only.            |
 | [`ContactSide`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactForceTracker.md#ContactForceTracker.ContactSide)                                 | Gets or sets the ContactSide.                                 |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactForceTracker.md#ContactForceTracker.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactForceTracker.md#ContactForceTracker.DataModelObjectCategory)         | Gets the current DataModelObject's category.                  |
 | [`IsSolved`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactForceTracker.md#ContactForceTracker.IsSolved)                                       | Gets the IsSolved.                                            |
 | [`ChartDimensions`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactForceTracker.md#ContactForceTracker.ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
 | [`BoundaryCondition`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactForceTracker.md#ContactForceTracker.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
@@ -126,7 +126,7 @@ Gets or sets the ContactSide.
 
 ### *property* ContactForceTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

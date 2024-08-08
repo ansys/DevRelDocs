@@ -49,7 +49,7 @@ Defines a NamedSelections.
 | [`GenerateOnRemesh`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NamedSelections.md#NamedSelections.GenerateOnRemesh)               | Gets or sets the GenerateOnRemesh.                            |
 | [`RandomColors`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NamedSelections.md#NamedSelections.RandomColors)                       | Gets the RandomColors.                                        |
 | [`ShowAnnotations`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NamedSelections.md#NamedSelections.ShowAnnotations)                 | Gets or sets the ShowAnnotations.                             |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NamedSelections.md#NamedSelections.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NamedSelections.md#NamedSelections.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NamedSelections.md#NamedSelections.Children)                               | Gets the list of children.                                    |
 | [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NamedSelections.md#NamedSelections.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NamedSelections.md#NamedSelections.Figures)                                 | Gets the list of associated figures.                          |
@@ -106,7 +106,7 @@ Gets or sets the ShowAnnotations.
 
 ### *property* NamedSelections.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

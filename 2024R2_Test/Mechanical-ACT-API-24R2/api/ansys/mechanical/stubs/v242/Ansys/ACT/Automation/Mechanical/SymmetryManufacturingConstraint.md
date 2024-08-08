@@ -42,7 +42,7 @@ Defines a SymmetryManufacturingConstraint.
 | [`ScopingMethod`](#SymmetryManufacturingConstraint.ScopingMethod)                     | Gets or sets the ScopingMethod.                               |
 | [`CoordinateSystem`](#SymmetryManufacturingConstraint.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
 | [`Location`](#SymmetryManufacturingConstraint.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#SymmetryManufacturingConstraint.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#SymmetryManufacturingConstraint.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Suppressed`](#SymmetryManufacturingConstraint.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`Selection`](#SymmetryManufacturingConstraint.Selection)                             | Gets or sets the Selection.                                   |
 | [`Children`](#SymmetryManufacturingConstraint.Children)                               | Gets the list of children.                                    |
@@ -98,7 +98,7 @@ Gets or sets the Location.
 
 ### *property* SymmetryManufacturingConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

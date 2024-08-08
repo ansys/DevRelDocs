@@ -39,7 +39,7 @@ Defines a FluxLinkage.
 | Name | Description |
 |-------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                          | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](#FluxLinkage.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#FluxLinkage.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Multiplier`](#FluxLinkage.Multiplier)                           | Gets or sets the Multiplier.                                  |
 | [`Children`](#FluxLinkage.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#FluxLinkage.Comments)                               | Gets the list of associated comments.                         |
@@ -64,7 +64,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* FluxLinkage.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

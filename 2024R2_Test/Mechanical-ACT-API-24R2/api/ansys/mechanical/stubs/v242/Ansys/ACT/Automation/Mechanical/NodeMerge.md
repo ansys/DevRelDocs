@@ -50,7 +50,7 @@ Defines a NodeMerge.
 | [`Suppressed`](#NodeMerge.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`MasterLocation`](#NodeMerge.MasterLocation)                   | Gets or sets the MasterLocation.                              |
 | [`SlaveLocation`](#NodeMerge.SlaveLocation)                     | Gets or sets the SlaveLocation.                               |
-| [`DataModelObjectCategory`](#NodeMerge.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#NodeMerge.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](#NodeMerge.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#NodeMerge.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#NodeMerge.Figures)                                 | Gets the list of associated figures.                          |
@@ -139,7 +139,7 @@ Gets or sets the SlaveLocation.
 
 ### *property* NodeMerge.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

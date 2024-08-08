@@ -52,7 +52,7 @@ Defines a LinearizedMaximumShearStress.
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/LinearizedStressResults/LinearizedMaximumShearStress.md#id0)                                                                               | Gets the internal object. For advanced usage only.                     |
 | [`ShearOrientation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/LinearizedStressResults/LinearizedMaximumShearStress.md#LinearizedMaximumShearStress.ShearOrientation)                                   | Gets or sets the ShearOrientation.                                     |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/LinearizedStressResults/LinearizedMaximumShearStress.md#LinearizedMaximumShearStress.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/LinearizedStressResults/LinearizedMaximumShearStress.md#LinearizedMaximumShearStress.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`ZeroThroughThicknessBendingStress`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/LinearizedStressResults/LinearizedMaximumShearStress.md#LinearizedMaximumShearStress.ZeroThroughThicknessBendingStress) | Gets or sets the ZeroThroughThicknessBendingStress.                    |
 | [`LoadMultiplier`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/LinearizedStressResults/LinearizedMaximumShearStress.md#LinearizedMaximumShearStress.LoadMultiplier)                                       | Gets the LoadMultiplier.                                               |
 | [`AverageRadiusOfCurvature`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/LinearizedStressResults/LinearizedMaximumShearStress.md#LinearizedMaximumShearStress.AverageRadiusOfCurvature)                   | Gets or sets the AverageRadiusOfCurvature.                             |
@@ -155,7 +155,7 @@ Gets or sets the ShearOrientation.
 
 ### *property* LinearizedMaximumShearStress.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

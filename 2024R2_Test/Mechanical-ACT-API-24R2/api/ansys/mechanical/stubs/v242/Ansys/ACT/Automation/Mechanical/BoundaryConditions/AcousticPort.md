@@ -46,7 +46,7 @@ Defines a AcousticPort.
 | [`PortPosition`](#AcousticPort.PortPosition)                               | Gets or sets the PortPosition.                                |
 | [`PortSurfaceLocation`](#AcousticPort.PortSurfaceLocation)                 | Gets or sets the PortSurfaceLocation.                         |
 | [`InsideSurfaceBodiesLocation`](#AcousticPort.InsideSurfaceBodiesLocation) | Gets or sets the InsideSurfaceBodiesLocation.                 |
-| [`DataModelObjectCategory`](#AcousticPort.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#AcousticPort.DataModelObjectCategory)         | Gets the current DataModelObject's category.                  |
 | [`Suppressed`](#AcousticPort.Suppressed)                                   | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#AcousticPort.SharedRefBody)                             | Gets or sets the SharedRefBody.                               |
 | [`Children`](#AcousticPort.Children)                                       | Gets the list of children.                                    |
@@ -114,7 +114,7 @@ Gets or sets the InsideSurfaceBodiesLocation.
 
 ### *property* AcousticPort.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

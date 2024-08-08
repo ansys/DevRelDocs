@@ -51,7 +51,7 @@ Defines a TotalElectricFluxDensity.
 | Name | Description |
 |----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                           | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](#TotalElectricFluxDensity.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](#TotalElectricFluxDensity.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`ReportedFrequency`](#TotalElectricFluxDensity.ReportedFrequency)                                 | Gets the ReportedFrequency.                                            |
 | [`SweepingPhase`](#TotalElectricFluxDensity.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
 | [`PhaseIncrement`](#TotalElectricFluxDensity.PhaseIncrement)                                       | Gets or sets the PhaseIncrement.                                       |
@@ -130,7 +130,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* TotalElectricFluxDensity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

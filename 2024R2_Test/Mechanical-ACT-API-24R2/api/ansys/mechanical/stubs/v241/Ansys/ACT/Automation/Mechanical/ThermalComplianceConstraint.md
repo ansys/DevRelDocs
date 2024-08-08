@@ -39,7 +39,7 @@ Defines a ThermalComplianceConstraint.
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
 | [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ThermalComplianceConstraint.md#id0)                                                          | Gets the internal object. For advanced usage only.                                       |
 | [`ComplianceLimit`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ThermalComplianceConstraint.md#ThermalComplianceConstraint.ComplianceLimit)                 | Gets or sets the ComplianceLimit.                                                        |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ThermalComplianceConstraint.md#ThermalComplianceConstraint.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                                             |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ThermalComplianceConstraint.md#ThermalComplianceConstraint.DataModelObjectCategory) | Gets the current DataModelObject's category.                                             |
 | [`EnvironmentSelection`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ThermalComplianceConstraint.md#ThermalComplianceConstraint.EnvironmentSelection)       | Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum. |
 | [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ThermalComplianceConstraint.md#ThermalComplianceConstraint.Suppressed)                           | Gets or sets the Suppressed.                                                             |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ThermalComplianceConstraint.md#ThermalComplianceConstraint.Children)                               | Gets the list of children.                                                               |
@@ -71,7 +71,7 @@ Gets or sets the ComplianceLimit.
 
 ### *property* ThermalComplianceConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

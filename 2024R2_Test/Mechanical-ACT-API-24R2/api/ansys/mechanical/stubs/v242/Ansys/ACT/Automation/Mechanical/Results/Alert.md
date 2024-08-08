@@ -42,7 +42,7 @@ Defines a Alert.
 | [`Value`](#Alert.Value)                                     | Gets or sets the Value.                                       |
 | [`FailsIf`](#Alert.FailsIf)                                 | Gets or sets the FailsIf.                                     |
 | [`Status`](#Alert.Status)                                   | Gets the Status.                                              |
-| [`DataModelObjectCategory`](#Alert.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#Alert.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](#Alert.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#Alert.Comments)                               | Gets the list of associated comments.                         |
 | [`Images`](#Alert.Images)                                   | Gets the list of associated images.                           |
@@ -90,7 +90,7 @@ Gets the Status.
 
 ### *property* Alert.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

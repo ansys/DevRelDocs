@@ -52,7 +52,7 @@ Defines a NormalStress.
 |----------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                               | Gets the internal object. For advanced usage only.                     |
 | [`ScaleFactorValue`](#NormalStress.ScaleFactorValue)                                   | Gets or sets the ScaleFactorValue.                                     |
-| [`DataModelObjectCategory`](#NormalStress.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](#NormalStress.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`Mode`](#NormalStress.Mode)                                                           | Gets or sets the Mode.                                                 |
 | [`Ply`](#NormalStress.Ply)                                                             | Gets or sets the Ply selection.                                        |
 | [`Plies`](#NormalStress.Plies)                                                         | Plies property.                                                        |
@@ -169,7 +169,7 @@ Gets or sets the ScaleFactorValue.
 
 ### *property* NormalStress.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -62,7 +62,7 @@ Defines a NamedSelection.
 | [`Visible`](#NamedSelection.Visible)                                                     | Gets or sets the Visible.                                               |
 | [`UsedByMeshWorksheet`](#NamedSelection.UsedByMeshWorksheet)                             | Gets the UsedByMeshWorksheet.                                           |
 | [`CreatedForCrack`](#NamedSelection.CreatedForCrack)                                     | Gets the CreatedForCrack.                                               |
-| [`DataModelObjectCategory`](#NamedSelection.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                            |
+| [`DataModelObjectCategory`](#NamedSelection.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                            |
 | [`Children`](#NamedSelection.Children)                                                   | Gets the list of children.                                              |
 | [`Comments`](#NamedSelection.Comments)                                                   | Gets the list of associated comments.                                   |
 | [`Figures`](#NamedSelection.Figures)                                                     | Gets the list of associated figures.                                    |
@@ -232,7 +232,7 @@ Gets the CreatedForCrack.
 
 ### *property* NamedSelection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

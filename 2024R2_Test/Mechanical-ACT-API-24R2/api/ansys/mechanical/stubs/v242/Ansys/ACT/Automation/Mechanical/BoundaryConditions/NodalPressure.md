@@ -56,7 +56,7 @@ Defines a NodalPressure.
 | [`IndependentVariable`](#NodalPressure.IndependentVariable)                 | Gets or sets the IndependentVariable.                         |
 | [`XYZFunctionCoordinateSystem`](#NodalPressure.XYZFunctionCoordinateSystem) | Gets or sets the XYZFunctionCoordinateSystem.                 |
 | [`Location`](#NodalPressure.Location)                                       | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#NodalPressure.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#NodalPressure.DataModelObjectCategory)         | Gets the current DataModelObject's category.                  |
 | [`Suppressed`](#NodalPressure.Suppressed)                                   | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#NodalPressure.SharedRefBody)                             | Gets or sets the SharedRefBody.                               |
 | [`Children`](#NodalPressure.Children)                                       | Gets the list of children.                                    |
@@ -172,7 +172,7 @@ Gets or sets the Location.
 
 ### *property* NodalPressure.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

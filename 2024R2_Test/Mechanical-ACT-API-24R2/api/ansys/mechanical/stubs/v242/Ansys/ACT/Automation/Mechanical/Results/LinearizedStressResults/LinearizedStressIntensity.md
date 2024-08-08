@@ -51,7 +51,7 @@ Defines a LinearizedStressIntensity.
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                            | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](#LinearizedStressIntensity.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](#LinearizedStressIntensity.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`ZeroThroughThicknessBendingStress`](#LinearizedStressIntensity.ZeroThroughThicknessBendingStress) | Gets or sets the ZeroThroughThicknessBendingStress.                    |
 | [`LoadMultiplier`](#LinearizedStressIntensity.LoadMultiplier)                                       | Gets the LoadMultiplier.                                               |
 | [`AverageRadiusOfCurvature`](#LinearizedStressIntensity.AverageRadiusOfCurvature)                   | Gets or sets the AverageRadiusOfCurvature.                             |
@@ -147,7 +147,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* LinearizedStressIntensity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -50,7 +50,7 @@ Defines a AMSupportGroup.
 | [`OutputType`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/AMSupportGroup.md#AMSupportGroup.OutputType)                           | Gets or sets the OutputType.                                  |
 | [`GenerateOnRemesh`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/AMSupportGroup.md#AMSupportGroup.GenerateOnRemesh)               | Gets or sets the GenerateOnRemesh.                            |
 | [`Location`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/AMSupportGroup.md#AMSupportGroup.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/AMSupportGroup.md#AMSupportGroup.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/AMSupportGroup.md#AMSupportGroup.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/AMSupportGroup.md#AMSupportGroup.Children)                               | Gets the list of children.                                    |
 | [`Comments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/AMSupportGroup.md#AMSupportGroup.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/AMSupportGroup.md#AMSupportGroup.Figures)                                 | Gets the list of associated figures.                          |
@@ -115,7 +115,7 @@ Gets or sets the Location.
 
 ### *property* AMSupportGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

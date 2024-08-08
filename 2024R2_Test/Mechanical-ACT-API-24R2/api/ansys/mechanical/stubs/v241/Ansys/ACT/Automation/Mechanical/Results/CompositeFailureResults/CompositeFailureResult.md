@@ -51,7 +51,7 @@ CompositeFailureResult class.
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Ply`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/CompositeFailureResults/CompositeFailureResult.md#CompositeFailureResult.Ply)                                                             | Gets or sets the Ply selection.                                        |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/CompositeFailureResults/CompositeFailureResult.md#CompositeFailureResult.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/CompositeFailureResults/CompositeFailureResult.md#CompositeFailureResult.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`PlotData`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/CompositeFailureResults/CompositeFailureResult.md#CompositeFailureResult.PlotData)                                                   | Gets the result table.                                                 |
 | [`Location`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/CompositeFailureResults/CompositeFailureResult.md#CompositeFailureResult.Location)                                                   | Gets or sets the Location.                                             |
 | [`TimeForMinimumOfMinimumValues`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/CompositeFailureResults/CompositeFailureResult.md#CompositeFailureResult.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
@@ -123,7 +123,7 @@ Gets or sets the Ply selection.
 
 ### *property* CompositeFailureResult.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

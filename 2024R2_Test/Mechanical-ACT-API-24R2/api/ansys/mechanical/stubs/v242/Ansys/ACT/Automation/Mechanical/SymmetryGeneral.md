@@ -47,7 +47,7 @@ Defines a SymmetryGeneral.
 | [`Location`](#SymmetryGeneral.Location)                               | Gets or sets the Location.                                    |
 | [`HighBoundaryLocation`](#SymmetryGeneral.HighBoundaryLocation)       | Gets or sets the HighBoundaryLocation.                        |
 | [`LowBoundaryLocation`](#SymmetryGeneral.LowBoundaryLocation)         | Gets or sets the LowBoundaryLocation.                         |
-| [`DataModelObjectCategory`](#SymmetryGeneral.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#SymmetryGeneral.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](#SymmetryGeneral.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#SymmetryGeneral.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#SymmetryGeneral.Figures)                                 | Gets the list of associated figures.                          |
@@ -121,7 +121,7 @@ Gets or sets the LowBoundaryLocation.
 
 ### *property* SymmetryGeneral.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

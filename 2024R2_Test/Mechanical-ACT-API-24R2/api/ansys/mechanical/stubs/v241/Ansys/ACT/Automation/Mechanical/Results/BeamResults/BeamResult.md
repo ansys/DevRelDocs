@@ -52,7 +52,7 @@ Defines a BeamResult.
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamResults/BeamResult.md#id0)                                                             | Gets the internal object. For advanced usage only.                     |
 | [`BeamResultType`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamResults/BeamResult.md#BeamResult.BeamResultType)                                       | Gets or sets the BeamResultType.                                       |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamResults/BeamResult.md#BeamResult.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamResults/BeamResult.md#BeamResult.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`PlotData`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamResults/BeamResult.md#BeamResult.PlotData)                                                   | Gets the result table.                                                 |
 | [`Location`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamResults/BeamResult.md#BeamResult.Location)                                                   | Gets or sets the Location.                                             |
 | [`TimeForMinimumOfMinimumValues`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamResults/BeamResult.md#BeamResult.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
@@ -131,7 +131,7 @@ Gets or sets the BeamResultType.
 
 ### *property* BeamResult.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

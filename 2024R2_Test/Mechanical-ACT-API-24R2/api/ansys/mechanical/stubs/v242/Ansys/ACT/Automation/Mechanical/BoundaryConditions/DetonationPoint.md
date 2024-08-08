@@ -47,7 +47,7 @@ Defines a DetonationPoint.
 | [`YCoordinate`](#DetonationPoint.YCoordinate)                         | Gets or sets the YCoordinate.                                 |
 | [`ZCoordinate`](#DetonationPoint.ZCoordinate)                         | Gets or sets the ZCoordinate.                                 |
 | [`BurnInstantaneously`](#DetonationPoint.BurnInstantaneously)         | Gets or sets the BurnInstantaneously.                         |
-| [`DataModelObjectCategory`](#DetonationPoint.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#DetonationPoint.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Suppressed`](#DetonationPoint.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#DetonationPoint.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
 | [`Children`](#DetonationPoint.Children)                               | Gets the list of children.                                    |
@@ -123,7 +123,7 @@ Gets or sets the BurnInstantaneously.
 
 ### *property* DetonationPoint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

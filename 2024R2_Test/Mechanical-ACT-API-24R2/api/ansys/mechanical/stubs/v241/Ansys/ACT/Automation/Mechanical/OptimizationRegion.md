@@ -59,7 +59,7 @@ Defines a OptimizationRegion.
 | [`OptimizationType`](../../../../../v242/Ansys/ACT/Automation/Mechanical/OptimizationRegion.md#OptimizationRegion.OptimizationType)                                           | Gets or sets the OptimizationType.                            |
 | [`ShapeMoveLimitControl`](../../../../../v242/Ansys/ACT/Automation/Mechanical/OptimizationRegion.md#OptimizationRegion.ShapeMoveLimitControl)                                 | Gets or sets the ShapeMoveLimitControl.                       |
 | [`DesignRegionLocation`](../../../../../v242/Ansys/ACT/Automation/Mechanical/OptimizationRegion.md#OptimizationRegion.DesignRegionLocation)                                   | Gets or sets the DesignRegionLocation.                        |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/OptimizationRegion.md#OptimizationRegion.DataModelObjectCategory)                             | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/OptimizationRegion.md#OptimizationRegion.DataModelObjectCategory)                             | Gets the current DataModelObject's category.                  |
 | [`ExclusionRegionLocation`](../../../../../v242/Ansys/ACT/Automation/Mechanical/OptimizationRegion.md#OptimizationRegion.ExclusionRegionLocation)                             | Gets or sets the ExclusionRegionLocation.                     |
 | [`ExclusionScopingMethod`](../../../../../v242/Ansys/ACT/Automation/Mechanical/OptimizationRegion.md#OptimizationRegion.ExclusionScopingMethod)                               | Gets or sets the ExclusionScopingMethod.                      |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/OptimizationRegion.md#OptimizationRegion.Children)                                                           | Gets the list of children.                                    |
@@ -243,7 +243,7 @@ Gets or sets the DesignRegionLocation.
 
 ### *property* OptimizationRegion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

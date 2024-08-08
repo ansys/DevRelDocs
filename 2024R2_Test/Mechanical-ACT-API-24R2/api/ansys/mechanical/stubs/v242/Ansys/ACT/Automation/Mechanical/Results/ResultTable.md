@@ -40,7 +40,7 @@ Defines a ResultTable.
 |-------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                          | Gets the internal object. For advanced usage only.            |
 | [`Multiplier`](#ResultTable.Multiplier)                           | Gets or sets the Multiplier.                                  |
-| [`DataModelObjectCategory`](#ResultTable.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#ResultTable.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](#ResultTable.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#ResultTable.Comments)                               | Gets the list of associated comments.                         |
 | [`Images`](#ResultTable.Images)                                   | Gets the list of associated images.                           |
@@ -72,7 +72,7 @@ Gets or sets the Multiplier.
 
 ### *property* ResultTable.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

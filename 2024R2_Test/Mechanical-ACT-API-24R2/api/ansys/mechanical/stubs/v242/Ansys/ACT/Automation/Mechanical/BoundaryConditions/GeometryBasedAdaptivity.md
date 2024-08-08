@@ -40,7 +40,7 @@ Defines a GeometryBasedAdaptivity.
 | Name | Description |
 |-------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                      | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](#GeometryBasedAdaptivity.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#GeometryBasedAdaptivity.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`TimeRange`](#GeometryBasedAdaptivity.TimeRange)                             | Gets or sets the TimeRange.                                   |
 | [`CheckAtValue`](#GeometryBasedAdaptivity.CheckAtValue)                       | Gets or sets the CheckAtValue.                                |
 | [`HexDomTimeRange`](#GeometryBasedAdaptivity.HexDomTimeRange)                 | Gets or sets the HexDomTimeRange.                             |
@@ -92,7 +92,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* GeometryBasedAdaptivity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

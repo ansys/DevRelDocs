@@ -51,7 +51,7 @@ Defines a ImportedPressure.
 | [`LoadVectorNumberImaginary`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedPressure.md#ImportedPressure.LoadVectorNumberImaginary)                       | Gets or sets the LoadVectorNumberImaginary.                                                             |
 | [`AppliedBy`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedPressure.md#ImportedPressure.AppliedBy)                                                       | Gets or sets the AppliedBy.                                                                             |
 | [`LoadVectorAssignment`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedPressure.md#ImportedPressure.LoadVectorAssignment)                                 | Gets or sets the LoadVectorAssignment.                                                                  |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedPressure.md#ImportedPressure.DataModelObjectCategory)                           | Gets the current DataModelObjectâ€™s category.                                                            |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedPressure.md#ImportedPressure.DataModelObjectCategory)                           | Gets the current DataModelObject's category.                                                            |
 | [`Weighting`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedPressure.md#ImportedPressure.Weighting)                                                       | Weighting property.                                                                                     |
 | [`MappingControl`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedPressure.md#ImportedPressure.MappingControl)                                             | MappingControl property.                                                                                |
 | [`DisplaySourcePoints`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedPressure.md#ImportedPressure.DisplaySourcePoints)                                   | DisplaySourcePoints property.                                                                           |
@@ -150,7 +150,7 @@ Gets or sets the LoadVectorAssignment.
 
 ### *property* ImportedPressure.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

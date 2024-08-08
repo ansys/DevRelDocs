@@ -57,7 +57,7 @@ Defines a AcousticDiffuseSoundField.
 | [`PressureExcitation`](#AcousticDiffuseSoundField.PressureExcitation)                                 | Gets the PressureExcitation.                                  |
 | [`CoordinateSystem`](#AcousticDiffuseSoundField.CoordinateSystem)                                     | Gets or sets the CoordinateSystem.                            |
 | [`Location`](#AcousticDiffuseSoundField.Location)                                                     | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#AcousticDiffuseSoundField.DataModelObjectCategory)                       | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#AcousticDiffuseSoundField.DataModelObjectCategory)                       | Gets the current DataModelObject's category.                  |
 | [`Suppressed`](#AcousticDiffuseSoundField.Suppressed)                                                 | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#AcousticDiffuseSoundField.SharedRefBody)                                           | Gets or sets the SharedRefBody.                               |
 | [`Children`](#AcousticDiffuseSoundField.Children)                                                     | Gets the list of children.                                    |
@@ -213,7 +213,7 @@ Gets or sets the Location.
 
 ### *property* AcousticDiffuseSoundField.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

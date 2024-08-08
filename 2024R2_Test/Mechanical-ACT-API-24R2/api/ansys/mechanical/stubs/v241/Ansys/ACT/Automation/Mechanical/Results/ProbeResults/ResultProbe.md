@@ -49,7 +49,7 @@ Defines a ResultProbe.
 | [`LocationMethod`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.LocationMethod)                         | Gets or sets the LocationMethod.                                                                                                                                           |
 | [`GeometryLocation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.GeometryLocation)                     | Gets or sets the GeometryLocation.                                                                                                                                         |
 | [`CoordinateSystemSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.CoordinateSystemSelection)   | Gets or sets the CoordinateSystemSelection.                                                                                                                                |
-| [`BoundaryConditionSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.BoundaryConditionSelection) | Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSpringsâ€™, please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSpringsâ€™. |
+| [`BoundaryConditionSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.BoundaryConditionSelection) | Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSprings', please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSprings'. |
 | [`ContactRegionSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.ContactRegionSelection)         | Gets or sets the ContactRegionSelection.                                                                                                                                   |
 | [`RemotePointSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.RemotePointSelection)             | Gets or sets the RemotePointSelection.                                                                                                                                     |
 | [`BeamSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.BeamSelection)                           | Gets or sets the BeamSelection.                                                                                                                                            |
@@ -82,7 +82,7 @@ Defines a ResultProbe.
 | [`Type`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.Type)                                             | Gets the Type.                                                                                                                                                             |
 | [`DpfEvaluation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.DpfEvaluation)                           | Gets or sets the DpfEvaluation.                                                                                                                                            |
 | [`Suppressed`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.Suppressed)                                 | Gets or sets the Suppressed.                                                                                                                                               |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.DataModelObjectCategory)       | Gets the current DataModelObjectâ€™s category.                                                                                                                               |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.DataModelObjectCategory)       | Gets the current DataModelObject's category.                                                                                                                               |
 | [`Children`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.Children)                                     | Gets the list of children.                                                                                                                                                 |
 | [`Comments`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.Comments)                                     | Gets the list of associated comments.                                                                                                                                      |
 | [`Figures`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.Figures)                                       | Gets the list of associated figures.                                                                                                                                       |
@@ -131,7 +131,7 @@ Gets or sets the CoordinateSystemSelection.
 
 ### *property* ResultProbe.BoundaryConditionSelection *: Ansys.ACT.Automation.Mechanical.DataModelObject | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSpringsâ€™, please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSpringsâ€™.
+Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSprings', please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSprings'.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -395,7 +395,7 @@ Gets or sets the Suppressed.
 
 ### *property* ResultProbe.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

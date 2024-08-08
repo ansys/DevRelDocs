@@ -21,7 +21,7 @@ Defines a ImportedElementOrientation.
 | [`ExportToTextFile`](#ImportedElementOrientation.ExportToTextFile)               | Run the ExportToTextFile action.                                                        |
 | [`Import`](#ImportedElementOrientation.Import)                                   | Import.                                                                                 |
 | [`ImportLoad`](#ImportedElementOrientation.ImportLoad)                           | Run the ImportLoad action.                                                              |
-| [`ReloadConfiguration`](#ImportedElementOrientation.ReloadConfiguration)         | Reload the Imported Loadâ€™s setup from its associated configuration file (if available). |
+| [`ReloadConfiguration`](#ImportedElementOrientation.ReloadConfiguration)         | Reload the Imported Load's setup from its associated configuration file (if available). |
 | [`GetActivateAtLoadStep`](#ImportedElementOrientation.GetActivateAtLoadStep)     | GetActivateAtLoadStep method.                                                           |
 | [`SetActivateAtLoadStep`](#ImportedElementOrientation.SetActivateAtLoadStep)     | SetActivateAtLoadStep method.                                                           |
 | [`AddMappingValidation`](#ImportedElementOrientation.AddMappingValidation)       | Creates a new MappingValidation                                                         |
@@ -48,7 +48,7 @@ Defines a ImportedElementOrientation.
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                                   | Gets the internal object. For advanced usage only.                                                      |
-| [`DataModelObjectCategory`](#ImportedElementOrientation.DataModelObjectCategory)                           | Gets the current DataModelObjectâ€™s category.                                                            |
+| [`DataModelObjectCategory`](#ImportedElementOrientation.DataModelObjectCategory)                           | Gets the current DataModelObject's category.                                                            |
 | [`Weighting`](#ImportedElementOrientation.Weighting)                                                       | Weighting property.                                                                                     |
 | [`MappingControl`](#ImportedElementOrientation.MappingControl)                                             | MappingControl property.                                                                                |
 | [`DisplaySourcePoints`](#ImportedElementOrientation.DisplaySourcePoints)                                   | DisplaySourcePoints property.                                                                           |
@@ -115,7 +115,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* ImportedElementOrientation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -543,7 +543,7 @@ Run the ImportLoad action.
 
 ### ImportedElementOrientation.ReloadConfiguration()
 
-Reload the Imported Loadâ€™s setup from its associated configuration file (if available).
+Reload the Imported Load's setup from its associated configuration file (if available).
 
 <!-- !! processed by numpydoc !! -->
 

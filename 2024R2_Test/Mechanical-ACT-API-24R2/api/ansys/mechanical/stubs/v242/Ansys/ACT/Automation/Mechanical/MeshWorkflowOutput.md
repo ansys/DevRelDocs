@@ -40,7 +40,7 @@ Object that wraps IDSEngineeringModelMeshDomainAuto.
 |--------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
 | [`DataTransferType`](#MeshWorkflowOutput.DataTransferType)               | Defines how the PrimeMesh model data should be transferred back into Geometry part(s) and associated mesh(es).   |
 | [`InternalObject`](#id0)                                                 | Gets the internal object. For advanced usage only.                                                               |
-| [`DataModelObjectCategory`](#MeshWorkflowOutput.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                                                                     |
+| [`DataModelObjectCategory`](#MeshWorkflowOutput.DataModelObjectCategory) | Gets the current DataModelObject's category.                                                                     |
 | [`Children`](#MeshWorkflowOutput.Children)                               | Gets the list of children.                                                                                       |
 | [`Figures`](#MeshWorkflowOutput.Figures)                                 | Gets the list of associated figures.                                                                             |
 | [`Images`](#MeshWorkflowOutput.Images)                                   | Gets the list of associated images.                                                                              |
@@ -72,7 +72,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* MeshWorkflowOutput.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

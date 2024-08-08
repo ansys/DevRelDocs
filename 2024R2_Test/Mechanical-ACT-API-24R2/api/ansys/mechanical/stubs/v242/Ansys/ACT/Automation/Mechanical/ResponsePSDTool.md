@@ -45,7 +45,7 @@ Defines a ResponsePSDTool.
 | [`ClusteringFrequencyPoints`](#ResponsePSDTool.ClusteringFrequencyPoints)             | Gets or sets the ClusteringFrequencyPoints.                   |
 | [`IncludeAllExcitationFrequencies`](#ResponsePSDTool.IncludeAllExcitationFrequencies) | Gets or sets the IncludeAllExcitationFrequencies.             |
 | [`IncludeUserDefinedFrequencies`](#ResponsePSDTool.IncludeUserDefinedFrequencies)     | Gets or sets the IncludeUserDefinedFrequencies.               |
-| [`DataModelObjectCategory`](#ResponsePSDTool.DataModelObjectCategory)                 | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#ResponsePSDTool.DataModelObjectCategory)                 | Gets the current DataModelObject's category.                  |
 | [`Children`](#ResponsePSDTool.Children)                                               | Gets the list of children.                                    |
 | [`Comments`](#ResponsePSDTool.Comments)                                               | Gets the list of associated comments.                         |
 | [`Figures`](#ResponsePSDTool.Figures)                                                 | Gets the list of associated figures.                          |
@@ -94,7 +94,7 @@ Gets or sets the IncludeUserDefinedFrequencies.
 
 ### *property* ResponsePSDTool.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -49,7 +49,7 @@ Defines a ForceReactionTracker.
 | [`ForceComponentMethod`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ForceReactionTracker.md#ForceReactionTracker.ForceComponentMethod)               | Gets or sets the ForceComponentMethod.                        |
 | [`LocationMethod`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ForceReactionTracker.md#ForceReactionTracker.LocationMethod)                           | Gets or sets the LocationMethod.                              |
 | [`LocationCoordinateSystem`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ForceReactionTracker.md#ForceReactionTracker.LocationCoordinateSystem)       | Gets or sets the LocationCoordinateSystem.                    |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ForceReactionTracker.md#ForceReactionTracker.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ForceReactionTracker.md#ForceReactionTracker.DataModelObjectCategory)         | Gets the current DataModelObject's category.                  |
 | [`IsSolved`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ForceReactionTracker.md#ForceReactionTracker.IsSolved)                                       | Gets the IsSolved.                                            |
 | [`ChartDimensions`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ForceReactionTracker.md#ForceReactionTracker.ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
 | [`BoundaryCondition`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ForceReactionTracker.md#ForceReactionTracker.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
@@ -162,7 +162,7 @@ Gets or sets the LocationCoordinateSystem.
 
 ### *property* ForceReactionTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

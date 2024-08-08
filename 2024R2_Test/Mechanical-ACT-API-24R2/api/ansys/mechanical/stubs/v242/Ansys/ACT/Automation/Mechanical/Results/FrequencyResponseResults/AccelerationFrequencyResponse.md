@@ -43,7 +43,7 @@ Defines a AccelerationFrequencyResponse.
 | Name | Description |
 |---------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                    | Gets the internal object. For advanced usage only.                                               |
-| [`DataModelObjectCategory`](#AccelerationFrequencyResponse.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                                                     |
+| [`DataModelObjectCategory`](#AccelerationFrequencyResponse.DataModelObjectCategory)         | Gets the current DataModelObject's category.                                                     |
 | [`CoordinateSystem`](#AccelerationFrequencyResponse.CoordinateSystem)                       | Gets or sets the CoordinateSystem. Accepts/Returns None if it is the Solution Coordinate System. |
 | [`RemotePointSelection`](#AccelerationFrequencyResponse.RemotePointSelection)               | Gets or sets the RemotePointSelection.                                                           |
 | [`IsSolved`](#AccelerationFrequencyResponse.IsSolved)                                       | Gets the IsSolved.                                                                               |
@@ -109,7 +109,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* AccelerationFrequencyResponse.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

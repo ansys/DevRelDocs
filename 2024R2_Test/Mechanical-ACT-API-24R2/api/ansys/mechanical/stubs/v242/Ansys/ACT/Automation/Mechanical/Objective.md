@@ -42,7 +42,7 @@ Defines a Objective.
 | [`InternalObject`](#id0)                                        | Gets the internal object. For advanced usage only.            |
 | [`NormalizedSum`](#Objective.NormalizedSum)                     | Gets or sets the NormalizedSum.                               |
 | [`Suppressed`](#Objective.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`DataModelObjectCategory`](#Objective.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#Objective.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](#Objective.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#Objective.Comments)                               | Gets the list of associated comments.                         |
 | [`Images`](#Objective.Images)                                   | Gets the list of associated images.                           |
@@ -90,7 +90,7 @@ Gets or sets the Suppressed.
 
 ### *property* Objective.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

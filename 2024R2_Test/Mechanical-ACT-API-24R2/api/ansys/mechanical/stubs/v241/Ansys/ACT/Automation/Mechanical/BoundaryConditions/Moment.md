@@ -76,7 +76,7 @@ Defines a Moment.
 | [`NonCyclicLoadingType`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/Moment.md#Moment.NonCyclicLoadingType)       | Gets or sets the NonCyclicLoadingType.                        |
 | [`IndependentVariable`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/Moment.md#Moment.IndependentVariable)         | Gets or sets the IndependentVariable.                         |
 | [`CoordinateSystem`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/Moment.md#Moment.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/Moment.md#Moment.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/Moment.md#Moment.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/Moment.md#Moment.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/Moment.md#Moment.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/Moment.md#Moment.Children)                               | Gets the list of children.                                    |
@@ -344,7 +344,7 @@ Gets or sets the CoordinateSystem.
 
 ### *property* Moment.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

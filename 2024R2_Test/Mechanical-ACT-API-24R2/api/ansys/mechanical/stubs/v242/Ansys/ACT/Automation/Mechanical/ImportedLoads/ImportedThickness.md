@@ -21,7 +21,7 @@ Defines a ImportedThickness.
 | [`ExportToTextFile`](#ImportedThickness.ExportToTextFile)               | Run the ExportToTextFile action.                                                        |
 | [`Import`](#ImportedThickness.Import)                                   | Import.                                                                                 |
 | [`ImportLoad`](#ImportedThickness.ImportLoad)                           | Run the ImportLoad action.                                                              |
-| [`ReloadConfiguration`](#ImportedThickness.ReloadConfiguration)         | Reload the Imported Loadâ€™s setup from its associated configuration file (if available). |
+| [`ReloadConfiguration`](#ImportedThickness.ReloadConfiguration)         | Reload the Imported Load's setup from its associated configuration file (if available). |
 | [`GetActivateAtLoadStep`](#ImportedThickness.GetActivateAtLoadStep)     | GetActivateAtLoadStep method.                                                           |
 | [`SetActivateAtLoadStep`](#ImportedThickness.SetActivateAtLoadStep)     | SetActivateAtLoadStep method.                                                           |
 | [`AddMappingValidation`](#ImportedThickness.AddMappingValidation)       | Creates a new MappingValidation                                                         |
@@ -48,7 +48,7 @@ Defines a ImportedThickness.
 | Name | Description |
 |---------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                          | Gets the internal object. For advanced usage only.                                                      |
-| [`DataModelObjectCategory`](#ImportedThickness.DataModelObjectCategory)                           | Gets the current DataModelObjectâ€™s category.                                                            |
+| [`DataModelObjectCategory`](#ImportedThickness.DataModelObjectCategory)                           | Gets the current DataModelObject's category.                                                            |
 | [`Weighting`](#ImportedThickness.Weighting)                                                       | Weighting property.                                                                                     |
 | [`MappingControl`](#ImportedThickness.MappingControl)                                             | MappingControl property.                                                                                |
 | [`DisplaySourcePoints`](#ImportedThickness.DisplaySourcePoints)                                   | DisplaySourcePoints property.                                                                           |
@@ -115,7 +115,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* ImportedThickness.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -543,7 +543,7 @@ Run the ImportLoad action.
 
 ### ImportedThickness.ReloadConfiguration()
 
-Reload the Imported Loadâ€™s setup from its associated configuration file (if available).
+Reload the Imported Load's setup from its associated configuration file (if available).
 
 <!-- !! processed by numpydoc !! -->
 

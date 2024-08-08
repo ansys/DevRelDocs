@@ -54,12 +54,12 @@ Defines a JouleHeatProbe.
 | [`MinimumJouleHeat`](#JouleHeatProbe.MinimumJouleHeat)                     | Gets the MinimumJouleHeat.                                                                                                                                                 |
 | [`SweepingPhase`](#JouleHeatProbe.SweepingPhase)                           | Gets or sets the SweepingPhase.                                                                                                                                            |
 | [`By`](#JouleHeatProbe.By)                                                 | Gets or sets the By.                                                                                                                                                       |
-| [`DataModelObjectCategory`](#JouleHeatProbe.DataModelObjectCategory)       | Gets the current DataModelObjectâ€™s category.                                                                                                                               |
+| [`DataModelObjectCategory`](#JouleHeatProbe.DataModelObjectCategory)       | Gets the current DataModelObject's category.                                                                                                                               |
 | [`Summation`](#JouleHeatProbe.Summation)                                   | Gets or sets the Summation.                                                                                                                                                |
 | [`LocationMethod`](#JouleHeatProbe.LocationMethod)                         | Gets or sets the LocationMethod.                                                                                                                                           |
 | [`GeometryLocation`](#JouleHeatProbe.GeometryLocation)                     | Gets or sets the GeometryLocation.                                                                                                                                         |
 | [`CoordinateSystemSelection`](#JouleHeatProbe.CoordinateSystemSelection)   | Gets or sets the CoordinateSystemSelection.                                                                                                                                |
-| [`BoundaryConditionSelection`](#JouleHeatProbe.BoundaryConditionSelection) | Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSpringsâ€™, please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSpringsâ€™. |
+| [`BoundaryConditionSelection`](#JouleHeatProbe.BoundaryConditionSelection) | Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSprings', please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSprings'. |
 | [`ContactRegionSelection`](#JouleHeatProbe.ContactRegionSelection)         | Gets or sets the ContactRegionSelection.                                                                                                                                   |
 | [`RemotePointSelection`](#JouleHeatProbe.RemotePointSelection)             | Gets or sets the RemotePointSelection.                                                                                                                                     |
 | [`BeamSelection`](#JouleHeatProbe.BeamSelection)                           | Gets or sets the BeamSelection.                                                                                                                                            |
@@ -179,7 +179,7 @@ Gets or sets the By.
 
 ### *property* JouleHeatProbe.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -219,7 +219,7 @@ Gets or sets the CoordinateSystemSelection.
 
 ### *property* JouleHeatProbe.BoundaryConditionSelection *: Ansys.ACT.Automation.Mechanical.DataModelObject | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSpringsâ€™, please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSpringsâ€™.
+Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSprings', please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSprings'.
 
 <!-- !! processed by numpydoc !! -->
 

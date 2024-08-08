@@ -39,7 +39,7 @@ Defines a Figure.
 |--------------------------------------------------------------|---------------------------------------------------------------|
 | [`Text`](#Figure.Text)                                       | Gets or sets the Text.                                        |
 | [`InternalObject`](#id0)                                     | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](#Figure.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#Figure.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](#Figure.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#Figure.Comments)                               | Gets the list of associated comments.                         |
 | [`InternalObject`](#id0)                                     | Gets the internal object. For advanced usage only.            |
@@ -70,7 +70,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* Figure.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

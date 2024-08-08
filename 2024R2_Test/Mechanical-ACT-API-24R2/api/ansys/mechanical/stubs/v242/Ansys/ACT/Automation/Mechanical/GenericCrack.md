@@ -42,7 +42,7 @@ Defines a GenericCrack.
 |--------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                           | Gets the internal object. For advanced usage only.            |
 | [`CrackID`](#GenericCrack.CrackID)                                 | Gets the CrackID.                                             |
-| [`DataModelObjectCategory`](#GenericCrack.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#GenericCrack.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](#GenericCrack.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#GenericCrack.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#GenericCrack.Figures)                                 | Gets the list of associated figures.                          |
@@ -76,7 +76,7 @@ Gets the CrackID.
 
 ### *property* GenericCrack.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

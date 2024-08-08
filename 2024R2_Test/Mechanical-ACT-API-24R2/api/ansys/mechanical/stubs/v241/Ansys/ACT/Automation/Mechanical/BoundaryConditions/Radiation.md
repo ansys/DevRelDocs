@@ -54,7 +54,7 @@ Defines a Radiation.
 | [`Correlation`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/Radiation.md#Radiation.Correlation)                         | Gets or sets the Correlation.                                 |
 | [`ShellFace`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/Radiation.md#Radiation.ShellFace)                             | Gets or sets the ShellFace.                                   |
 | [`Location`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/Radiation.md#Radiation.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/Radiation.md#Radiation.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/Radiation.md#Radiation.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/Radiation.md#Radiation.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/Radiation.md#Radiation.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/Radiation.md#Radiation.Children)                               | Gets the list of children.                                    |
@@ -154,7 +154,7 @@ Gets or sets the Location.
 
 ### *property* Radiation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

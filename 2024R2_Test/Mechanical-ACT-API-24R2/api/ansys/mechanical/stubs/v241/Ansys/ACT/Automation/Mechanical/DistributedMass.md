@@ -46,7 +46,7 @@ Defines a DistributedMass.
 | [`TotalMass`](../../../../../v242/Ansys/ACT/Automation/Mechanical/DistributedMass.md#DistributedMass.TotalMass)                             | Gets or sets the TotalMass.                                   |
 | [`MassType`](../../../../../v242/Ansys/ACT/Automation/Mechanical/DistributedMass.md#DistributedMass.MassType)                               | Gets or sets the MassType.                                    |
 | [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/DistributedMass.md#DistributedMass.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/DistributedMass.md#DistributedMass.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/DistributedMass.md#DistributedMass.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`RemotePoint`](../../../../../v242/Ansys/ACT/Automation/Mechanical/DistributedMass.md#DistributedMass.RemotePoint)                         | Gets the remote point associated to the point mass.           |
 | [`IsDistributedMass`](../../../../../v242/Ansys/ACT/Automation/Mechanical/DistributedMass.md#DistributedMass.IsDistributedMass)             | Gets the IsDistributedMass.                                   |
 | [`Location`](../../../../../v242/Ansys/ACT/Automation/Mechanical/DistributedMass.md#DistributedMass.Location)                               | Gets or sets the Geometry.                                    |
@@ -115,7 +115,7 @@ Gets or sets the Suppressed.
 
 ### *property* DistributedMass.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

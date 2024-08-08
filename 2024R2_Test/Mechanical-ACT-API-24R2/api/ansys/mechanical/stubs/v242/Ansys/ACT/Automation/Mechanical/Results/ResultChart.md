@@ -84,7 +84,7 @@ Defines a ResultChart.
 | [`CoordinateSystem`](#ResultChart.CoordinateSystem)                       | Gets or sets the CoordinateSystem.                            |
 | [`Spring`](#ResultChart.Spring)                                           | Gets or sets the Spring.                                      |
 | [`Location`](#ResultChart.Location)                                       | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#ResultChart.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#ResultChart.DataModelObjectCategory)         | Gets the current DataModelObject's category.                  |
 | [`Children`](#ResultChart.Children)                                       | Gets the list of children.                                    |
 | [`Comments`](#ResultChart.Comments)                                       | Gets the list of associated comments.                         |
 | [`Images`](#ResultChart.Images)                                           | Gets the list of associated images.                           |
@@ -436,7 +436,7 @@ Gets or sets the Location.
 
 ### *property* ResultChart.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -46,7 +46,7 @@ Defines a FeatureDetection.
 | [`ScopingMethod`](#FeatureDetection.ScopingMethod)                     | Gets or sets the ScopingMethod.                               |
 | [`NamedSelection`](#FeatureDetection.NamedSelection)                   | Gets or sets the NamedSelection.                              |
 | [`Location`](#FeatureDetection.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#FeatureDetection.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#FeatureDetection.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](#FeatureDetection.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#FeatureDetection.Comments)                               | Gets the list of associated comments.                         |
 | [`Images`](#FeatureDetection.Images)                                   | Gets the list of associated images.                           |
@@ -103,7 +103,7 @@ Gets or sets the Location.
 
 ### *property* FeatureDetection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -42,7 +42,7 @@ Defines a ContactMatch.
 | Name | Description |
 |--------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                           | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](#ContactMatch.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#ContactMatch.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`ScopingMethod`](#ContactMatch.ScopingMethod)                     | ScopingMethod property.                                       |
 | [`ToleranceSlider`](#ContactMatch.ToleranceSlider)                 | Gets or sets the ToleranceSlider.                             |
 | [`MasterBodies`](#ContactMatch.MasterBodies)                       | Gets the MasterBodies.                                        |
@@ -79,7 +79,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* ContactMatch.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -43,7 +43,7 @@ Defines a CoSimulationPin.
 | [`PinNature`](#CoSimulationPin.PinNature)                             | Gets or sets the Pin Nature.                                  |
 | [`InternalObject`](#id0)                                              | Gets the internal object. For advanced usage only.            |
 | [`Suppressed`](#CoSimulationPin.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`DataModelObjectCategory`](#CoSimulationPin.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#CoSimulationPin.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](#CoSimulationPin.Children)                               | Gets the list of children.                                    |
 | [`InternalObject`](#id0)                                              | Gets the internal object. For advanced usage only.            |
 | [`Properties`](#CoSimulationPin.Properties)                           | Gets the list of properties for this object.                  |
@@ -113,7 +113,7 @@ Gets or sets the Suppressed.
 
 ### *property* CoSimulationPin.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -44,7 +44,7 @@ Defines a ConstructionPoint.
 | [`LocationX`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ConstructionPoint.md#ConstructionPoint.LocationX)                             | Gets or sets the LocationX.                                   |
 | [`LocationY`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ConstructionPoint.md#ConstructionPoint.LocationY)                             | Gets or sets the LocationY.                                   |
 | [`LocationZ`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ConstructionPoint.md#ConstructionPoint.LocationZ)                             | Gets or sets the LocationZ.                                   |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ConstructionPoint.md#ConstructionPoint.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ConstructionPoint.md#ConstructionPoint.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ConstructionPoint.md#ConstructionPoint.Children)                               | Gets the list of children.                                    |
 | [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ConstructionPoint.md#ConstructionPoint.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ConstructionPoint.md#ConstructionPoint.Figures)                                 | Gets the list of associated figures.                          |
@@ -99,7 +99,7 @@ Gets or sets the LocationZ.
 
 ### *property* ConstructionPoint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -23,7 +23,7 @@ Defines a ImportedCutBoundaryRemoteConstraint.
 | [`ExportToTextFile`](#ImportedCutBoundaryRemoteConstraint.ExportToTextFile)               | Run the ExportToTextFile action.                                                        |
 | [`Import`](#ImportedCutBoundaryRemoteConstraint.Import)                                   | Import.                                                                                 |
 | [`ImportLoad`](#ImportedCutBoundaryRemoteConstraint.ImportLoad)                           | Run the ImportLoad action.                                                              |
-| [`ReloadConfiguration`](#ImportedCutBoundaryRemoteConstraint.ReloadConfiguration)         | Reload the Imported Loadâ€™s setup from its associated configuration file (if available). |
+| [`ReloadConfiguration`](#ImportedCutBoundaryRemoteConstraint.ReloadConfiguration)         | Reload the Imported Load's setup from its associated configuration file (if available). |
 | [`AddMappingValidation`](#ImportedCutBoundaryRemoteConstraint.AddMappingValidation)       | Creates a new MappingValidation                                                         |
 | [`ClearGeneratedData`](#ImportedCutBoundaryRemoteConstraint.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                      |
 | [`Delete`](#ImportedCutBoundaryRemoteConstraint.Delete)                                   | Run the Delete action.                                                                  |
@@ -48,7 +48,7 @@ Defines a ImportedCutBoundaryRemoteConstraint.
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                                            | Gets the internal object. For advanced usage only.                                                      |
-| [`DataModelObjectCategory`](#ImportedCutBoundaryRemoteConstraint.DataModelObjectCategory)                           | Gets the current DataModelObjectâ€™s category.                                                            |
+| [`DataModelObjectCategory`](#ImportedCutBoundaryRemoteConstraint.DataModelObjectCategory)                           | Gets the current DataModelObject's category.                                                            |
 | [`Weighting`](#ImportedCutBoundaryRemoteConstraint.Weighting)                                                       | Weighting property.                                                                                     |
 | [`MappingControl`](#ImportedCutBoundaryRemoteConstraint.MappingControl)                                             | MappingControl property.                                                                                |
 | [`DisplaySourcePoints`](#ImportedCutBoundaryRemoteConstraint.DisplaySourcePoints)                                   | DisplaySourcePoints property.                                                                           |
@@ -115,7 +115,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* ImportedCutBoundaryRemoteConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -559,7 +559,7 @@ Run the ImportLoad action.
 
 ### ImportedCutBoundaryRemoteConstraint.ReloadConfiguration()
 
-Reload the Imported Loadâ€™s setup from its associated configuration file (if available).
+Reload the Imported Load's setup from its associated configuration file (if available).
 
 <!-- !! processed by numpydoc !! -->
 

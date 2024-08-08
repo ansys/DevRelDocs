@@ -45,7 +45,7 @@ Defines a Refinement.
 | [`NumberOfRefinements`](#Refinement.NumberOfRefinements)         | Gets or sets the NumberOfRefinements.                         |
 | [`NamedSelection`](#Refinement.NamedSelection)                   | Gets or sets the NamedSelection.                              |
 | [`Location`](#Refinement.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#Refinement.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#Refinement.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`ScopingMethod`](#Refinement.ScopingMethod)                     | Gets or sets the ScopingMethod.                               |
 | [`Suppressed`](#Refinement.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`Children`](#Refinement.Children)                               | Gets the list of children.                                    |
@@ -96,7 +96,7 @@ Gets or sets the Location.
 
 ### *property* Refinement.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

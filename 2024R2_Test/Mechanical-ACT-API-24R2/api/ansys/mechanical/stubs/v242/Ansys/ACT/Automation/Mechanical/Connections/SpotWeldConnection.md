@@ -59,7 +59,7 @@ Defines a SpotWeldConnection.
 | [`ShellThicknessEffect`](#SpotWeldConnection.ShellThicknessEffect)       | Gets or sets the ShellThicknessEffect.                        |
 | [`SourceGeometry`](#SpotWeldConnection.SourceGeometry)                   | Gets or sets the SourceGeometry.                              |
 | [`TargetGeometry`](#SpotWeldConnection.TargetGeometry)                   | Gets or sets the TargetGeometry.                              |
-| [`DataModelObjectCategory`](#SpotWeldConnection.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#SpotWeldConnection.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](#SpotWeldConnection.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#SpotWeldConnection.Comments)                               | Gets the list of associated comments.                         |
 | [`Images`](#SpotWeldConnection.Images)                                   | Gets the list of associated images.                           |
@@ -196,7 +196,7 @@ Gets or sets the TargetGeometry.
 
 ### *property* SpotWeldConnection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

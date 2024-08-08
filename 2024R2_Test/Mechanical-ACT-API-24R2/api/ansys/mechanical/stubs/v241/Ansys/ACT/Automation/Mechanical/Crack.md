@@ -68,7 +68,7 @@ Defines a Crack.
 | [`CoordinateSystem`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Crack.md#Crack.CoordinateSystem)                     | Gets or sets the CoordinateSystem.                            |
 | [`Location`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Crack.md#Crack.Location)                                     | Gets the Location.                                            |
 | [`CrackID`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Crack.md#Crack.CrackID)                                       | Gets the CrackID.                                             |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Crack.md#Crack.DataModelObjectCategory)       | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Crack.md#Crack.DataModelObjectCategory)       | Gets the current DataModelObject's category.                  |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Crack.md#Crack.Children)                                     | Gets the list of children.                                    |
 | [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Crack.md#Crack.Comments)                                     | Gets the list of associated comments.                         |
 | [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Crack.md#Crack.Figures)                                       | Gets the list of associated figures.                          |
@@ -310,7 +310,7 @@ Gets the CrackID.
 
 ### *property* Crack.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -65,7 +65,7 @@ Defines a PrimaryCriterion.
 | [`BoundaryCondition`](#PrimaryCriterion.BoundaryCondition)                   | Gets or sets the BoundaryCondition.                           |
 | [`RemotePoint`](#PrimaryCriterion.RemotePoint)                               | Gets or sets the RemotePoint.                                 |
 | [`Location`](#PrimaryCriterion.Location)                                     | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#PrimaryCriterion.DataModelObjectCategory)       | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#PrimaryCriterion.DataModelObjectCategory)       | Gets the current DataModelObject's category.                  |
 | [`Suppressed`](#PrimaryCriterion.Suppressed)                                 | Gets or sets the Suppressed.                                  |
 | [`Children`](#PrimaryCriterion.Children)                                     | Gets the list of children.                                    |
 | [`Comments`](#PrimaryCriterion.Comments)                                     | Gets the list of associated comments.                         |
@@ -268,7 +268,7 @@ Gets or sets the Location.
 
 ### *property* PrimaryCriterion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

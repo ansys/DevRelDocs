@@ -41,7 +41,7 @@ Defines a CyclicRegion.
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CyclicRegion.md#id0)                                           | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CyclicRegion.md#CyclicRegion.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CyclicRegion.md#CyclicRegion.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`ScopeMode`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CyclicRegion.md#CyclicRegion.ScopeMode)                             | Gets the ScopeMode.                                           |
 | [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CyclicRegion.md#CyclicRegion.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`CoordinateSystem`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CyclicRegion.md#CyclicRegion.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
@@ -73,7 +73,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* CyclicRegion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

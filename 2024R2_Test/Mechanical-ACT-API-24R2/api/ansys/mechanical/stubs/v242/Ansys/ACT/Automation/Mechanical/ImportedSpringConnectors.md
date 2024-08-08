@@ -40,7 +40,7 @@ Defines a ImportedSpringConnectors.
 | Name | Description |
 |--------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                       | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](#ImportedSpringConnectors.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#ImportedSpringConnectors.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Count`](#ImportedSpringConnectors.Count)                                     | Gets the NumberOfRows.                                        |
 | [`Suppressed`](#ImportedSpringConnectors.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`Children`](#ImportedSpringConnectors.Children)                               | Gets the list of children.                                    |
@@ -68,7 +68,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* ImportedSpringConnectors.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

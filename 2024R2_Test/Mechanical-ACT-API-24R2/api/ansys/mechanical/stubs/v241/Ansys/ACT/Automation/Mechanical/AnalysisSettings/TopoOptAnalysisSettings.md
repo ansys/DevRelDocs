@@ -64,7 +64,7 @@ Defines a TopoOptAnalysisSettings.
 | [`DeleteUnneededFiles`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AnalysisSettings/TopoOptAnalysisSettings.md#TopoOptAnalysisSettings.DeleteUnneededFiles)                           | Gets or sets the DeleteUnneededFiles.                         |
 | [`ExportKnockdownFilePath`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AnalysisSettings/TopoOptAnalysisSettings.md#TopoOptAnalysisSettings.ExportKnockdownFilePath)                   | Gets or sets the ExportKnockdownFilePath.                     |
 | [`SaveMAPDLDB`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AnalysisSettings/TopoOptAnalysisSettings.md#TopoOptAnalysisSettings.SaveMAPDLDB)                                           | Gets or sets the SaveMAPDLDB.                                 |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AnalysisSettings/TopoOptAnalysisSettings.md#TopoOptAnalysisSettings.DataModelObjectCategory)                   | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AnalysisSettings/TopoOptAnalysisSettings.md#TopoOptAnalysisSettings.DataModelObjectCategory)                   | Gets the current DataModelObject's category.                  |
 | [`Graph`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AnalysisSettings/TopoOptAnalysisSettings.md#TopoOptAnalysisSettings.Graph)                                                       | Graph property.                                               |
 | [`ScratchSolverFilesDirectory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AnalysisSettings/TopoOptAnalysisSettings.md#TopoOptAnalysisSettings.ScratchSolverFilesDirectory)           | Gets the ScratchSolverFilesDirectory.                         |
 | [`SolverFilesDirectory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AnalysisSettings/TopoOptAnalysisSettings.md#TopoOptAnalysisSettings.SolverFilesDirectory)                         | Gets the SolverFilesDirectory.                                |
@@ -284,7 +284,7 @@ Gets or sets the SaveMAPDLDB.
 
 ### *property* TopoOptAnalysisSettings.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

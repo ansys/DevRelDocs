@@ -18,7 +18,7 @@
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
-| [`SolveConfigurations`](SolveConfigurations.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolveConfigurations)    | The applicationâ€™s collection of solve configurations.                                    |
+| [`SolveConfigurations`](SolveConfigurations.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolveConfigurations)    | The application's collection of solve configurations.                                    |
 | [`LinuxSettings`](LinuxSettings.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Application.SolveProcessSettings.LinuxSettings)                      | The class representing the linux settings portion of the solve process settings.         |
 | [`QueueSettings`](QueueSettings.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Application.SolveProcessSettings.QueueSettings)                      | The class representing queue settings.                                                   |
 | [`RSMQueue`](RSMQueue.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Application.SolveProcessSettings.RSMQueue)                                     | The class representing an RSM Queue.                                                     |

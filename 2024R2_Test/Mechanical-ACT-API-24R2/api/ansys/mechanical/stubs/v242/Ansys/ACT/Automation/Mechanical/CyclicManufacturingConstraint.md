@@ -43,7 +43,7 @@ Defines a CyclicManufacturingConstraint.
 | [`ScopingMethod`](#CyclicManufacturingConstraint.ScopingMethod)                     | Gets or sets the ScopingMethod.                               |
 | [`CoordinateSystem`](#CyclicManufacturingConstraint.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
 | [`Location`](#CyclicManufacturingConstraint.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#CyclicManufacturingConstraint.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#CyclicManufacturingConstraint.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Suppressed`](#CyclicManufacturingConstraint.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`Selection`](#CyclicManufacturingConstraint.Selection)                             | Gets or sets the Selection.                                   |
 | [`Children`](#CyclicManufacturingConstraint.Children)                               | Gets the list of children.                                    |
@@ -107,7 +107,7 @@ Gets or sets the Location.
 
 ### *property* CyclicManufacturingConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -47,7 +47,7 @@ Defines a NumberingControl.
 | [`NodeNumber`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NumberingControl.md#NumberingControl.NodeNumber)                           | Gets or sets the NodeNumber.                                  |
 | [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NumberingControl.md#NumberingControl.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`Location`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NumberingControl.md#NumberingControl.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NumberingControl.md#NumberingControl.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NumberingControl.md#NumberingControl.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NumberingControl.md#NumberingControl.Children)                               | Gets the list of children.                                    |
 | [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NumberingControl.md#NumberingControl.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NumberingControl.md#NumberingControl.Figures)                                 | Gets the list of associated figures.                          |
@@ -128,7 +128,7 @@ Gets or sets the Location.
 
 ### *property* NumberingControl.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -41,7 +41,7 @@ Defines a CondensedPartInfoTool.
 | [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CondensedPartInfoTool.md#id0)                                                    | Gets the internal object. For advanced usage only.            |
 | [`Text`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CondensedPartInfoTool.md#CondensedPartInfoTool.Text)                                       | Gets the Text.                                                |
 | [`UpdateInterval`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CondensedPartInfoTool.md#CondensedPartInfoTool.UpdateInterval)                   | Gets or sets the UpdateInterval.                              |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CondensedPartInfoTool.md#CondensedPartInfoTool.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CondensedPartInfoTool.md#CondensedPartInfoTool.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CondensedPartInfoTool.md#CondensedPartInfoTool.Children)                               | Gets the list of children.                                    |
 | [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CondensedPartInfoTool.md#CondensedPartInfoTool.Comments)                               | Gets the list of associated comments.                         |
 | [`Images`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CondensedPartInfoTool.md#CondensedPartInfoTool.Images)                                   | Gets the list of associated images.                           |
@@ -81,7 +81,7 @@ Gets or sets the UpdateInterval.
 
 ### *property* CondensedPartInfoTool.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

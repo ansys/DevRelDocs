@@ -45,7 +45,7 @@ Defines a ContactFluidPressureTracker.
 | [`InternalObject`](#id0)                                                                  | Gets the internal object. For advanced usage only.            |
 | [`ContactSide`](#ContactFluidPressureTracker.ContactSide)                                 | Gets or sets the ContactSide.                                 |
 | [`ContactRegion`](#ContactFluidPressureTracker.ContactRegion)                             | Gets or sets the ContactRegion.                               |
-| [`DataModelObjectCategory`](#ContactFluidPressureTracker.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#ContactFluidPressureTracker.DataModelObjectCategory)         | Gets the current DataModelObject's category.                  |
 | [`IsSolved`](#ContactFluidPressureTracker.IsSolved)                                       | Gets the IsSolved.                                            |
 | [`ChartDimensions`](#ContactFluidPressureTracker.ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
 | [`BoundaryCondition`](#ContactFluidPressureTracker.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
@@ -126,7 +126,7 @@ Gets or sets the ContactRegion.
 
 ### *property* ContactFluidPressureTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

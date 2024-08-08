@@ -40,7 +40,7 @@ Defines a ImportedContacts.
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedContacts.md#id0)                                               | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedContacts.md#ImportedContacts.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedContacts.md#ImportedContacts.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Count`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedContacts.md#ImportedContacts.Count)                                     | Gets the NumberOfRows.                                        |
 | [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedContacts.md#ImportedContacts.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedContacts.md#ImportedContacts.Children)                               | Gets the list of children.                                    |
@@ -68,7 +68,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* ImportedContacts.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

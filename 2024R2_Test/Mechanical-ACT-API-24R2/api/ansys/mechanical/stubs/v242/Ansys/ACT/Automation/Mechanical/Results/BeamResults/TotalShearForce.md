@@ -52,7 +52,7 @@ Defines a TotalShearForce.
 |-------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`NormalOrientation`](#TotalShearForce.NormalOrientation)                                 | Gets or sets the NormalOrientation.                                    |
 | [`InternalObject`](#id0)                                                                  | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](#TotalShearForce.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](#TotalShearForce.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`BeamResultType`](#TotalShearForce.BeamResultType)                                       | Gets or sets the BeamResultType.                                       |
 | [`PlotData`](#TotalShearForce.PlotData)                                                   | Gets the result table.                                                 |
 | [`Location`](#TotalShearForce.Location)                                                   | Gets or sets the Location.                                             |
@@ -133,7 +133,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* TotalShearForce.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

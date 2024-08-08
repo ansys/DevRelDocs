@@ -76,7 +76,7 @@ Defines a ConnectionGroup.
 | [`FaceFace`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ConnectionGroup.md#ConnectionGroup.FaceFace)                                               | Gets or sets the FaceFace.                                    |
 | [`UseRange`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ConnectionGroup.md#ConnectionGroup.UseRange)                                               | Gets or sets the UseRange.                                    |
 | [`Location`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ConnectionGroup.md#ConnectionGroup.Location)                                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ConnectionGroup.md#ConnectionGroup.DataModelObjectCategory)                 | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ConnectionGroup.md#ConnectionGroup.DataModelObjectCategory)                 | Gets the current DataModelObject's category.                  |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ConnectionGroup.md#ConnectionGroup.Children)                                               | Gets the list of children.                                    |
 | [`Comments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ConnectionGroup.md#ConnectionGroup.Comments)                                               | Gets the list of associated comments.                         |
 | [`Figures`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ConnectionGroup.md#ConnectionGroup.Figures)                                                 | Gets the list of associated figures.                          |
@@ -302,7 +302,7 @@ Gets or sets the Location.
 
 ### *property* ConnectionGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

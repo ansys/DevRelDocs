@@ -83,7 +83,7 @@ RBDAnalysisSettings class.
 | [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AnalysisSettings/RBDAnalysisSettings.md#id0)                                                                                                    | Gets the internal object. For advanced usage only.                     |
 | [`ScratchSolverFilesDirectory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AnalysisSettings/RBDAnalysisSettings.md#RBDAnalysisSettings.ScratchSolverFilesDirectory)                                           | Gets the ScratchSolverFilesDirectory.                                  |
 | [`SolverFilesDirectory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AnalysisSettings/RBDAnalysisSettings.md#RBDAnalysisSettings.SolverFilesDirectory)                                                         | Gets the SolverFilesDirectory.                                         |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AnalysisSettings/RBDAnalysisSettings.md#RBDAnalysisSettings.DataModelObjectCategory)                                                   | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AnalysisSettings/RBDAnalysisSettings.md#RBDAnalysisSettings.DataModelObjectCategory)                                                   | Gets the current DataModelObject's category.                           |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AnalysisSettings/RBDAnalysisSettings.md#RBDAnalysisSettings.Children)                                                                                 | Gets the list of children.                                             |
 | [`Comments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AnalysisSettings/RBDAnalysisSettings.md#RBDAnalysisSettings.Comments)                                                                                 | Gets the list of associated comments.                                  |
 | [`Figures`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AnalysisSettings/RBDAnalysisSettings.md#RBDAnalysisSettings.Figures)                                                                                   | Gets the list of associated figures.                                   |
@@ -307,7 +307,7 @@ Gets the SolverFilesDirectory.
 
 ### *property* RBDAnalysisSettings.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

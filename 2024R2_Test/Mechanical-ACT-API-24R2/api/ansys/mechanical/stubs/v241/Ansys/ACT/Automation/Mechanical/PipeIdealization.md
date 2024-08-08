@@ -41,7 +41,7 @@ Defines a PipeIdealization.
 | [`Extend`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PipeIdealization.md#PipeIdealization.Extend)                                   | Gets or sets the Extend.                                      |
 | [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PipeIdealization.md#PipeIdealization.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`GeometrySelection`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PipeIdealization.md#PipeIdealization.GeometrySelection)             | Gets or sets the GeometrySelection.                           |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PipeIdealization.md#PipeIdealization.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PipeIdealization.md#PipeIdealization.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PipeIdealization.md#PipeIdealization.Children)                               | Gets the list of children.                                    |
 | [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PipeIdealization.md#id0)                                               | Gets the internal object. For advanced usage only.            |
 | [`Properties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PipeIdealization.md#PipeIdealization.Properties)                           | Gets the list of properties for this object.                  |
@@ -95,7 +95,7 @@ Gets or sets the GeometrySelection.
 
 ### *property* PipeIdealization.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

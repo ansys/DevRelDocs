@@ -50,7 +50,7 @@ Defines a AMSupportGroup.
 | [`OutputType`](#AMSupportGroup.OutputType)                           | Gets or sets the OutputType.                                  |
 | [`GenerateOnRemesh`](#AMSupportGroup.GenerateOnRemesh)               | Gets or sets the GenerateOnRemesh.                            |
 | [`Location`](#AMSupportGroup.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#AMSupportGroup.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#AMSupportGroup.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](#AMSupportGroup.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#AMSupportGroup.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#AMSupportGroup.Figures)                                 | Gets the list of associated figures.                          |
@@ -115,7 +115,7 @@ Gets or sets the Location.
 
 ### *property* AMSupportGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

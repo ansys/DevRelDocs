@@ -72,7 +72,7 @@ Defines a RingCrack.
 | [`Suppressed`](#RingCrack.Suppressed)                                 | Gets or sets the Suppressed.                                  |
 | [`CoordinateSystem`](#RingCrack.CoordinateSystem)                     | Gets or sets the CoordinateSystem.                            |
 | [`Location`](#RingCrack.Location)                                     | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#RingCrack.DataModelObjectCategory)       | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#RingCrack.DataModelObjectCategory)       | Gets the current DataModelObject's category.                  |
 | [`CrackID`](#RingCrack.CrackID)                                       | Gets the CrackID.                                             |
 | [`Children`](#RingCrack.Children)                                     | Gets the list of children.                                    |
 | [`Comments`](#RingCrack.Comments)                                     | Gets the list of associated comments.                         |
@@ -347,7 +347,7 @@ Gets or sets the Location.
 
 ### *property* RingCrack.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

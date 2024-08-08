@@ -44,7 +44,7 @@ Defines a AcousticMassSource.
 | [`Magnitude`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticMassSource.md#AcousticMassSource.Magnitude)                             | Gets or sets the Magnitude.                                   |
 | [`PhaseAngle`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticMassSource.md#AcousticMassSource.PhaseAngle)                           | Gets or sets the PhaseAngle.                                  |
 | [`Location`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticMassSource.md#AcousticMassSource.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticMassSource.md#AcousticMassSource.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticMassSource.md#AcousticMassSource.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticMassSource.md#AcousticMassSource.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticMassSource.md#AcousticMassSource.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticMassSource.md#AcousticMassSource.Children)                               | Gets the list of children.                                    |
@@ -96,7 +96,7 @@ Gets or sets the Location.
 
 ### *property* AcousticMassSource.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

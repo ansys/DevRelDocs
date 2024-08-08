@@ -53,7 +53,7 @@ Defines a DirectionalElectrostaticForce.
 | [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ElectricResults/DirectionalElectrostaticForce.md#id0)                                                                                | Gets the internal object. For advanced usage only.                     |
 | [`Total`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ElectricResults/DirectionalElectrostaticForce.md#DirectionalElectrostaticForce.Total)                                                         | Gets the Total.                                                        |
 | [`NormalOrientation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ElectricResults/DirectionalElectrostaticForce.md#DirectionalElectrostaticForce.NormalOrientation)                                 | Gets or sets the NormalOrientation.                                    |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ElectricResults/DirectionalElectrostaticForce.md#DirectionalElectrostaticForce.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ElectricResults/DirectionalElectrostaticForce.md#DirectionalElectrostaticForce.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`ReportedFrequency`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ElectricResults/DirectionalElectrostaticForce.md#DirectionalElectrostaticForce.ReportedFrequency)                                 | Gets the ReportedFrequency.                                            |
 | [`SweepingPhase`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ElectricResults/DirectionalElectrostaticForce.md#DirectionalElectrostaticForce.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
 | [`PhaseIncrement`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ElectricResults/DirectionalElectrostaticForce.md#DirectionalElectrostaticForce.PhaseIncrement)                                       | Gets or sets the PhaseIncrement.                                       |
@@ -147,7 +147,7 @@ Gets or sets the NormalOrientation.
 
 ### *property* DirectionalElectrostaticForce.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

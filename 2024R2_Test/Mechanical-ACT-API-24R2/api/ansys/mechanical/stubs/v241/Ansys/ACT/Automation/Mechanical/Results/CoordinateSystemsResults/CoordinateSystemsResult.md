@@ -62,7 +62,7 @@ Defines a CoordinateSystemsResult.
 | [`Position`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/CoordinateSystemsResults/CoordinateSystemsResult.md#CoordinateSystemsResult.Position)                                                   | Gets or sets the Position.                                             |
 | [`SubScopeBy`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/CoordinateSystemsResults/CoordinateSystemsResult.md#CoordinateSystemsResult.SubScopeBy)                                               | Gets or sets the SubScopeBy.                                           |
 | [`Amplitude`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/CoordinateSystemsResults/CoordinateSystemsResult.md#CoordinateSystemsResult.Amplitude)                                                 | Gets or sets the Amplitude.                                            |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/CoordinateSystemsResults/CoordinateSystemsResult.md#CoordinateSystemsResult.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/CoordinateSystemsResults/CoordinateSystemsResult.md#CoordinateSystemsResult.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`PlotData`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/CoordinateSystemsResults/CoordinateSystemsResult.md#CoordinateSystemsResult.PlotData)                                                   | Gets the result table.                                                 |
 | [`Location`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/CoordinateSystemsResults/CoordinateSystemsResult.md#CoordinateSystemsResult.Location)                                                   | Gets or sets the Location.                                             |
 | [`TimeForMinimumOfMinimumValues`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/CoordinateSystemsResults/CoordinateSystemsResult.md#CoordinateSystemsResult.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
@@ -221,7 +221,7 @@ Gets or sets the Amplitude.
 
 ### *property* CoordinateSystemsResult.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -51,7 +51,7 @@ Defines a MiddlePrincipalStress.
 | Name | Description |
 |-------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                        | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](#MiddlePrincipalStress.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](#MiddlePrincipalStress.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`Mode`](#MiddlePrincipalStress.Mode)                                                           | Gets or sets the Mode.                                                 |
 | [`Ply`](#MiddlePrincipalStress.Ply)                                                             | Gets or sets the Ply selection.                                        |
 | [`Plies`](#MiddlePrincipalStress.Plies)                                                         | Plies property.                                                        |
@@ -160,7 +160,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* MiddlePrincipalStress.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

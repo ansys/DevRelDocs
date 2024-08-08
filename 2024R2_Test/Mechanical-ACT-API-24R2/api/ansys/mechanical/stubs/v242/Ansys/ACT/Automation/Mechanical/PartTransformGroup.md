@@ -45,7 +45,7 @@ Defines a PartTransformGroup.
 | [`RegenerateContacts`](#PartTransformGroup.RegenerateContacts)           | Gets or sets the RegenerateContacts.                          |
 | [`Suppressed`](#PartTransformGroup.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`TransformMesh`](#PartTransformGroup.TransformMesh)                     | Gets or sets the TransformMesh.                               |
-| [`DataModelObjectCategory`](#PartTransformGroup.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#PartTransformGroup.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](#PartTransformGroup.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#PartTransformGroup.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#PartTransformGroup.Figures)                                 | Gets the list of associated figures.                          |
@@ -94,7 +94,7 @@ Gets or sets the TransformMesh.
 
 ### *property* PartTransformGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

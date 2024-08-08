@@ -25,9 +25,9 @@ Defines the configuration for the Hashin failure criterion for reinforced materi
 | Name | Description |
 |--------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
 | [`FailureDimension`](#HashinSettings.FailureDimension)                         | Gets or sets whether the failure criterion is evaluated only in-plane (2D),               |
-| [`EvaluateFiberFailure`](#HashinSettings.EvaluateFiberFailure)                 | Gets or sets whether fiber failure is evaluated. The corresponding failure label is â€˜hfâ€™  |
+| [`EvaluateFiberFailure`](#HashinSettings.EvaluateFiberFailure)                 | Gets or sets whether fiber failure is evaluated. The corresponding failure label is â€˜hf'  |
 | [`FiberFailureWeightingFactor`](#HashinSettings.FiberFailureWeightingFactor)   | Gets or sets the weighting factor for the fiber failure evaluation.                       |
-| [`EvaluateMatrixFailure`](#HashinSettings.EvaluateMatrixFailure)               | Gets or sets whether matrix failure is evaluated. The corresponding failure label is â€˜hmâ€™ |
+| [`EvaluateMatrixFailure`](#HashinSettings.EvaluateMatrixFailure)               | Gets or sets whether matrix failure is evaluated. The corresponding failure label is â€˜hm' |
 | [`MatrixFailureWeightingFactor`](#HashinSettings.MatrixFailureWeightingFactor) | Gets or sets the weighting factor for the matrix failure evaluation.                      |
 | [`EvaluateDelamination`](#HashinSettings.EvaluateDelamination)                 | Gets or sets whether delamination is evaluated. Only applies when three-dimensional       |
 | [`DelaminationWeightingFactor`](#HashinSettings.DelaminationWeightingFactor)   | Gets or sets the weighting factor for the delamination evaluation.                        |
@@ -49,7 +49,7 @@ Gets or sets whether the failure criterion is evaluated only in-plane (2D),
 
 ### *property* HashinSettings.EvaluateFiberFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets whether fiber failure is evaluated. The corresponding failure label is â€˜hfâ€™
+Gets or sets whether fiber failure is evaluated. The corresponding failure label is â€˜hf'
 
 <!-- !! processed by numpydoc !! -->
 
@@ -65,7 +65,7 @@ Gets or sets the weighting factor for the fiber failure evaluation.
 
 ### *property* HashinSettings.EvaluateMatrixFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets whether matrix failure is evaluated. The corresponding failure label is â€˜hmâ€™
+Gets or sets whether matrix failure is evaluated. The corresponding failure label is â€˜hm'
 
 <!-- !! processed by numpydoc !! -->
 
@@ -82,7 +82,7 @@ Gets or sets the weighting factor for the matrix failure evaluation.
 ### *property* HashinSettings.EvaluateDelamination *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether delamination is evaluated. Only applies when three-dimensional
-: evaluation is selected. The corresponding failure label is â€˜hdâ€™
+: evaluation is selected. The corresponding failure label is â€˜hd'
 
 <!-- !! processed by numpydoc !! -->
 

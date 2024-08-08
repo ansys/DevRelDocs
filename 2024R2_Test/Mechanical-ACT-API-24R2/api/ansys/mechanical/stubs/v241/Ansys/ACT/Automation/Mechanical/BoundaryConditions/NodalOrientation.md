@@ -42,7 +42,7 @@ Defines a NodalOrientation.
 | [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/NodalOrientation.md#id0)                                               | Gets the internal object. For advanced usage only.            |
 | [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/NodalOrientation.md#NodalOrientation.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`CoordinateSystem`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/NodalOrientation.md#NodalOrientation.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/NodalOrientation.md#NodalOrientation.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/NodalOrientation.md#NodalOrientation.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/NodalOrientation.md#NodalOrientation.Children)                               | Gets the list of children.                                    |
 | [`Comments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/NodalOrientation.md#NodalOrientation.Comments)                               | Gets the list of associated comments.                         |
 | [`Images`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/NodalOrientation.md#NodalOrientation.Images)                                   | Gets the list of associated images.                           |
@@ -90,7 +90,7 @@ Gets or sets the CoordinateSystem.
 
 ### *property* NodalOrientation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

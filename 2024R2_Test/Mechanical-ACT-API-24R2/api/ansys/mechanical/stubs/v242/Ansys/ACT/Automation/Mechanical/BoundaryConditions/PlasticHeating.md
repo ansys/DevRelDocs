@@ -40,7 +40,7 @@ Defines a PlasticHeating.
 |----------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                             | Gets the internal object. For advanced usage only.            |
 | [`PlasticWorkFraction`](#PlasticHeating.PlasticWorkFraction)         | Gets or sets the PlasticWorkFraction.                         |
-| [`DataModelObjectCategory`](#PlasticHeating.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#PlasticHeating.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Suppressed`](#PlasticHeating.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`Location`](#PlasticHeating.Location)                               | Gets or sets the Location.                                    |
 | [`Children`](#PlasticHeating.Children)                               | Gets the list of children.                                    |
@@ -74,7 +74,7 @@ Gets or sets the PlasticWorkFraction.
 
 ### *property* PlasticHeating.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

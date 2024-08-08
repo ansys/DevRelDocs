@@ -51,7 +51,7 @@ Defines a RSLoad.
 | [`MissingMassEffect`](#RSLoad.MissingMassEffect)                       | Gets or sets the MissingMassEffect.                           |
 | [`RigidResponseEffect`](#RSLoad.RigidResponseEffect)                   | Gets or sets the RigidResponseEffect.                         |
 | [`Suppressed`](#RSLoad.Suppressed)                                     | Gets or sets the Suppressed.                                  |
-| [`DataModelObjectCategory`](#RSLoad.DataModelObjectCategory)           | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#RSLoad.DataModelObjectCategory)           | Gets the current DataModelObject's category.                  |
 | [`Children`](#RSLoad.Children)                                         | Gets the list of children.                                    |
 | [`Comments`](#RSLoad.Comments)                                         | Gets the list of associated comments.                         |
 | [`Figures`](#RSLoad.Figures)                                           | Gets the list of associated figures.                          |
@@ -164,7 +164,7 @@ Gets or sets the Suppressed.
 
 ### *property* RSLoad.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -46,7 +46,7 @@ Defines the configuration for the Maximum Stress failure criterion for reinforce
 ### *property* MaximumStressSettings.EvaluateMaterialOneDirectionFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether the failure criterion is evaluated in the material 1 direction.
-: The corresponding failure label is â€˜s1â€™.
+: The corresponding failure label is â€˜s1'.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -63,7 +63,7 @@ Gets or sets the weighting factor for the failure criterion in the material 1 di
 ### *property* MaximumStressSettings.EvaluateMaterialTwoDirectionFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether the failure criterion is evaluated in the material 2 direction.
-: The corresponding failure label is â€˜s2â€™.
+: The corresponding failure label is â€˜s2'.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -80,7 +80,7 @@ Gets or sets the weighting factor for the failure criterion in the material 2 di
 ### *property* MaximumStressSettings.EvaluateMaterialThreeDirectionFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether the failure criterion is evaluated in the out-of-plane direction.
-: The corresponding failure label is â€˜s3â€™.
+: The corresponding failure label is â€˜s3'.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -97,7 +97,7 @@ Gets or sets the weighting factor for the failure criterion in the out-of-plane 
 ### *property* MaximumStressSettings.EvaluateShearOneTwoFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether failure is evaluated for the in-plane shear s12.
-: The corresponding failure label is â€˜s12â€™.
+: The corresponding failure label is â€˜s12'.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -114,7 +114,7 @@ Gets or sets the weighting factor for failure due to in-plane shear s12.
 ### *property* MaximumStressSettings.EvaluateShearOneThreeFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether failure is evaluated for the out-of-plane shear s13.
-: The corresponding failure label is â€˜s13â€™.
+: The corresponding failure label is â€˜s13'.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -131,7 +131,7 @@ Gets or sets the weighting factor for failure due to out-of-plane shear s13.
 ### *property* MaximumStressSettings.EvaluateShearTwoThreeFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether failure is evaluated for the out-of-plane shear s23.
-: The corresponding failure label is â€˜s23â€™.
+: The corresponding failure label is â€˜s23'.
 
 <!-- !! processed by numpydoc !! -->
 

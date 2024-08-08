@@ -51,7 +51,7 @@ Defines a ShapeFinder.
 | Name | Description |
 |---------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                              | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](#ShapeFinder.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](#ShapeFinder.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`PlotData`](#ShapeFinder.PlotData)                                                   | Gets the result table.                                                 |
 | [`Location`](#ShapeFinder.Location)                                                   | Gets or sets the Location.                                             |
 | [`TimeForMinimumOfMinimumValues`](#ShapeFinder.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
@@ -123,7 +123,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* ShapeFinder.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

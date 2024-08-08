@@ -21,7 +21,7 @@ Defines a ImportedYarnAngle.
 | [`ExportToTextFile`](#ImportedYarnAngle.ExportToTextFile)               | Run the ExportToTextFile action.                                                        |
 | [`Import`](#ImportedYarnAngle.Import)                                   | Import.                                                                                 |
 | [`ImportLoad`](#ImportedYarnAngle.ImportLoad)                           | Run the ImportLoad action.                                                              |
-| [`ReloadConfiguration`](#ImportedYarnAngle.ReloadConfiguration)         | Reload the Imported Loadâ€™s setup from its associated configuration file (if available). |
+| [`ReloadConfiguration`](#ImportedYarnAngle.ReloadConfiguration)         | Reload the Imported Load's setup from its associated configuration file (if available). |
 | [`GetActivateAtLoadStep`](#ImportedYarnAngle.GetActivateAtLoadStep)     | GetActivateAtLoadStep method.                                                           |
 | [`SetActivateAtLoadStep`](#ImportedYarnAngle.SetActivateAtLoadStep)     | SetActivateAtLoadStep method.                                                           |
 | [`AddMappingValidation`](#ImportedYarnAngle.AddMappingValidation)       | Creates a new MappingValidation                                                         |
@@ -48,7 +48,7 @@ Defines a ImportedYarnAngle.
 | Name | Description |
 |---------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                          | Gets the internal object. For advanced usage only.                                                      |
-| [`DataModelObjectCategory`](#ImportedYarnAngle.DataModelObjectCategory)                           | Gets the current DataModelObjectâ€™s category.                                                            |
+| [`DataModelObjectCategory`](#ImportedYarnAngle.DataModelObjectCategory)                           | Gets the current DataModelObject's category.                                                            |
 | [`Weighting`](#ImportedYarnAngle.Weighting)                                                       | Weighting property.                                                                                     |
 | [`MappingControl`](#ImportedYarnAngle.MappingControl)                                             | MappingControl property.                                                                                |
 | [`DisplaySourcePoints`](#ImportedYarnAngle.DisplaySourcePoints)                                   | DisplaySourcePoints property.                                                                           |
@@ -115,7 +115,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* ImportedYarnAngle.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -543,7 +543,7 @@ Run the ImportLoad action.
 
 ### ImportedYarnAngle.ReloadConfiguration()
 
-Reload the Imported Loadâ€™s setup from its associated configuration file (if available).
+Reload the Imported Load's setup from its associated configuration file (if available).
 
 <!-- !! processed by numpydoc !! -->
 

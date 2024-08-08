@@ -45,7 +45,7 @@ Defines a Relevance.
 | [`PartRelavance`](#Relevance.PartRelavance)                     | Gets the PartRelavance.                                       |
 | [`NamedSelection`](#Relevance.NamedSelection)                   | Gets or sets the NamedSelection.                              |
 | [`Location`](#Relevance.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#Relevance.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#Relevance.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`ScopingMethod`](#Relevance.ScopingMethod)                     | Gets or sets the ScopingMethod.                               |
 | [`Suppressed`](#Relevance.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`Children`](#Relevance.Children)                               | Gets the list of children.                                    |
@@ -96,7 +96,7 @@ Gets or sets the Location.
 
 ### *property* Relevance.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

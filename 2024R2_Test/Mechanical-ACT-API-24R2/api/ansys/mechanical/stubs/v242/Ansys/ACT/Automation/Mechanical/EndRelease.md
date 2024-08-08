@@ -52,7 +52,7 @@ Defines a EndRelease.
 | [`Suppressed`](#EndRelease.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`EdgeLocation`](#EndRelease.EdgeLocation)                       | Gets or sets the EdgeLocation.                                |
 | [`VertexLocation`](#EndRelease.VertexLocation)                   | Gets or sets the VertexLocation.                              |
-| [`DataModelObjectCategory`](#EndRelease.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#EndRelease.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](#EndRelease.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#EndRelease.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#EndRelease.Figures)                                 | Gets the list of associated figures.                          |
@@ -173,7 +173,7 @@ Gets or sets the VertexLocation.
 
 ### *property* EndRelease.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

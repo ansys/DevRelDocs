@@ -66,7 +66,7 @@ Defines a RemotePoint.
 | [`Point`](#RemotePoint.Point)                                     | Gets or sets the Point.                                       |
 | [`CoordinateSystem`](#RemotePoint.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
 | [`Location`](#RemotePoint.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#RemotePoint.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#RemotePoint.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](#RemotePoint.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#RemotePoint.Comments)                               | Gets the list of associated comments.                         |
 | [`ReadOnly`](#RemotePoint.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
@@ -290,7 +290,7 @@ Gets or sets the Location.
 
 ### *property* RemotePoint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

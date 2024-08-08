@@ -62,7 +62,7 @@ Defines a Connections.
 | [`GenerateAutomaticConnectionOnRefresh`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/Connections.md#Connections.GenerateAutomaticConnectionOnRefresh) | Gets or sets the GenerateAutomaticConnectionOnRefresh.        |
 | [`FixedJoints`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/Connections.md#Connections.FixedJoints)                                                   | Gets or sets the FixedJoints.                                 |
 | [`TransparencyEnabled`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/Connections.md#Connections.TransparencyEnabled)                                   | Gets or sets the TransparencyEnabled.                         |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/Connections.md#Connections.DataModelObjectCategory)                           | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/Connections.md#Connections.DataModelObjectCategory)                           | Gets the current DataModelObject's category.                  |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/Connections.md#Connections.Children)                                                         | Gets the list of children.                                    |
 | [`Comments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/Connections.md#Connections.Comments)                                                         | Gets the list of associated comments.                         |
 | [`Figures`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/Connections.md#Connections.Figures)                                                           | Gets the list of associated figures.                          |
@@ -119,7 +119,7 @@ Gets or sets the TransparencyEnabled.
 
 ### *property* Connections.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

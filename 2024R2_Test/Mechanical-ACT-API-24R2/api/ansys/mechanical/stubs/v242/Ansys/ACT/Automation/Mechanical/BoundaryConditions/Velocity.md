@@ -53,7 +53,7 @@ Defines a Velocity.
 | [`DynamicRelaxationBehavior`](#Velocity.DynamicRelaxationBehavior) | Gets or sets the DynamicRelaxationBehavior.                   |
 | [`CoordinateSystem`](#Velocity.CoordinateSystem)                   | Gets or sets the CoordinateSystem.                            |
 | [`Location`](#Velocity.Location)                                   | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#Velocity.DataModelObjectCategory)     | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#Velocity.DataModelObjectCategory)     | Gets the current DataModelObject's category.                  |
 | [`Suppressed`](#Velocity.Suppressed)                               | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#Velocity.SharedRefBody)                         | Gets or sets the SharedRefBody.                               |
 | [`Children`](#Velocity.Children)                                   | Gets the list of children.                                    |
@@ -145,7 +145,7 @@ Gets or sets the Location.
 
 ### *property* Velocity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -26,13 +26,13 @@ Defines the configuration for the Puck failure criterion for reinforced material
 |----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
 | [`Formulation`](#PuckSettings.Formulation)                                                         | Gets or sets whether the simplified, 2D, or 3D Puck formulation is used.                                |
 | [`ConsiderInterFiberParallelStresses`](#PuckSettings.ConsiderInterFiberParallelStresses)           | Gets or sets whether inter-fiber failure will include the influence of the fiber parallel stresses.     |
-| [`EvaluateFiberFailure`](#PuckSettings.EvaluateFiberFailure)                                       | Gets or sets whether fiber failure (pf) is evaluated. The corresponding failure label is â€˜pfâ€™.          |
+| [`EvaluateFiberFailure`](#PuckSettings.EvaluateFiberFailure)                                       | Gets or sets whether fiber failure (pf) is evaluated. The corresponding failure label is â€˜pf'.          |
 | [`FiberFailureWeightingFactor`](#PuckSettings.FiberFailureWeightingFactor)                         | Gets or sets the weighting factor for the fiber failure evaluation.                                     |
-| [`EvaluateMatrixTensionFailure`](#PuckSettings.EvaluateMatrixTensionFailure)                       | Gets or sets whether matrix tension failure is evaluated. The corresponding failure label is â€˜pmAâ€™.     |
+| [`EvaluateMatrixTensionFailure`](#PuckSettings.EvaluateMatrixTensionFailure)                       | Gets or sets whether matrix tension failure is evaluated. The corresponding failure label is â€˜pmA'.     |
 | [`MatrixTensionFailureWeightingFactor`](#PuckSettings.MatrixTensionFailureWeightingFactor)         | Gets or sets the weighting factor for the matrix tension (pmA) failure evaluation.                      |
-| [`EvaluateMatrixCompressionFailure`](#PuckSettings.EvaluateMatrixCompressionFailure)               | Gets or sets whether matrix compression failure is evaluated. The corresponding failure label is â€˜pmBâ€™. |
+| [`EvaluateMatrixCompressionFailure`](#PuckSettings.EvaluateMatrixCompressionFailure)               | Gets or sets whether matrix compression failure is evaluated. The corresponding failure label is â€˜pmB'. |
 | [`MatrixCompressionFailureWeightingFactor`](#PuckSettings.MatrixCompressionFailureWeightingFactor) | Gets or sets the weighting factor for the matrix compression (pmB) failure evaluation.                  |
-| [`EvaluateMatrixShearFailure`](#PuckSettings.EvaluateMatrixShearFailure)                           | Gets or sets whether matrix shear failure is evaluated. The corresponding failure label is â€˜pmCâ€™.       |
+| [`EvaluateMatrixShearFailure`](#PuckSettings.EvaluateMatrixShearFailure)                           | Gets or sets whether matrix shear failure is evaluated. The corresponding failure label is â€˜pmC'.       |
 | [`MatrixShearFailureWeightingFactor`](#PuckSettings.MatrixShearFailureWeightingFactor)             | Gets or sets the weighting factor for the matrix shear (pmC) failure evaluation.                        |
 | [`EvaluateDelamination`](#PuckSettings.EvaluateDelamination)                                       | Gets or sets whether delamination is evaluated. Only applies when three-dimensional                     |
 | [`DelaminationWeightingFactor`](#PuckSettings.DelaminationWeightingFactor)                         | Gets or sets the weighting factor for the delamination (pd) evaluation.                                 |
@@ -69,7 +69,7 @@ Gets or sets whether inter-fiber failure will include the influence of the fiber
 
 ### *property* PuckSettings.EvaluateFiberFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets whether fiber failure (pf) is evaluated. The corresponding failure label is â€˜pfâ€™.
+Gets or sets whether fiber failure (pf) is evaluated. The corresponding failure label is â€˜pf'.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -85,7 +85,7 @@ Gets or sets the weighting factor for the fiber failure evaluation.
 
 ### *property* PuckSettings.EvaluateMatrixTensionFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets whether matrix tension failure is evaluated. The corresponding failure label is â€˜pmAâ€™.
+Gets or sets whether matrix tension failure is evaluated. The corresponding failure label is â€˜pmA'.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -101,7 +101,7 @@ Gets or sets the weighting factor for the matrix tension (pmA) failure evaluatio
 
 ### *property* PuckSettings.EvaluateMatrixCompressionFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets whether matrix compression failure is evaluated. The corresponding failure label is â€˜pmBâ€™.
+Gets or sets whether matrix compression failure is evaluated. The corresponding failure label is â€˜pmB'.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -117,7 +117,7 @@ Gets or sets the weighting factor for the matrix compression (pmB) failure evalu
 
 ### *property* PuckSettings.EvaluateMatrixShearFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets whether matrix shear failure is evaluated. The corresponding failure label is â€˜pmCâ€™.
+Gets or sets whether matrix shear failure is evaluated. The corresponding failure label is â€˜pmC'.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -134,7 +134,7 @@ Gets or sets the weighting factor for the matrix shear (pmC) failure evaluation.
 ### *property* PuckSettings.EvaluateDelamination *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether delamination is evaluated. Only applies when three-dimensional
-: evaluation is selected. The corresponding failure label is â€˜pdâ€™.
+: evaluation is selected. The corresponding failure label is â€˜pd'.
 
 <!-- !! processed by numpydoc !! -->
 

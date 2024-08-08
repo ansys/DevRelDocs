@@ -38,7 +38,7 @@ Defines a LineChart2D.
 | [`MultiScopedCurveId`](#LineChart2D.MultiScopedCurveId)           | Gets or sets the OutlineSelection.                            |
 | [`InternalObject`](#id0)                                          | Gets the internal object. For advanced usage only.            |
 | [`Suppressed`](#LineChart2D.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`DataModelObjectCategory`](#LineChart2D.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#LineChart2D.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](#LineChart2D.Children)                               | Gets the list of children.                                    |
 | [`InternalObject`](#id0)                                          | Gets the internal object. For advanced usage only.            |
 | [`Properties`](#LineChart2D.Properties)                           | Gets the list of properties for this object.                  |
@@ -76,7 +76,7 @@ Gets or sets the Suppressed.
 
 ### *property* LineChart2D.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

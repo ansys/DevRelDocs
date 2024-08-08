@@ -40,7 +40,7 @@ Defines a ImportedConstraintEquations.
 | Name | Description |
 |-----------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                          | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](#ImportedConstraintEquations.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#ImportedConstraintEquations.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Count`](#ImportedConstraintEquations.Count)                                     | Gets the NumberOfRows.                                        |
 | [`Suppressed`](#ImportedConstraintEquations.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`Children`](#ImportedConstraintEquations.Children)                               | Gets the list of children.                                    |
@@ -68,7 +68,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* ImportedConstraintEquations.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

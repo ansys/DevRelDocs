@@ -54,7 +54,7 @@ Defines a ShearElasticStrain.
 | [`ScaleFactorValue`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StrainResults/ShearElasticStrain.md#ShearElasticStrain.ScaleFactorValue)                                   | Gets or sets the ScaleFactorValue.                                     |
 | [`ScaleFactor`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StrainResults/ShearElasticStrain.md#ShearElasticStrain.ScaleFactor)                                             | Gets or sets the ScaleFactor.                                          |
 | [`ShearOrientation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StrainResults/ShearElasticStrain.md#ShearElasticStrain.ShearOrientation)                                   | Gets or sets the ShearOrientation.                                     |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StrainResults/ShearElasticStrain.md#ShearElasticStrain.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StrainResults/ShearElasticStrain.md#ShearElasticStrain.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`Mode`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StrainResults/ShearElasticStrain.md#ShearElasticStrain.Mode)                                                           | Gets or sets the Mode.                                                 |
 | [`Ply`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StrainResults/ShearElasticStrain.md#ShearElasticStrain.Ply)                                                             | Gets or sets the Ply selection.                                        |
 | [`Plies`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StrainResults/ShearElasticStrain.md#ShearElasticStrain.Plies)                                                         | Plies property.                                                        |
@@ -166,7 +166,7 @@ Gets or sets the ShearOrientation.
 
 ### *property* ShearElasticStrain.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

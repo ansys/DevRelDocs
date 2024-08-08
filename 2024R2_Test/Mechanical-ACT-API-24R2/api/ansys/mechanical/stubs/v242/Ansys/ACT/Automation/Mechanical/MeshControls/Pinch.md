@@ -46,7 +46,7 @@ Defines a Pinch.
 | [`Tolerance`](#Pinch.Tolerance)                             | Gets or sets the Tolerance.                                   |
 | [`MasterGeometry`](#Pinch.MasterGeometry)                   | Gets or sets the MasterGeometry.                              |
 | [`SlaveGeometry`](#Pinch.SlaveGeometry)                     | Gets or sets the SlaveGeometry.                               |
-| [`DataModelObjectCategory`](#Pinch.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#Pinch.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`ScopingMethod`](#Pinch.ScopingMethod)                     | Gets or sets the ScopingMethod.                               |
 | [`Suppressed`](#Pinch.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`Children`](#Pinch.Children)                               | Gets the list of children.                                    |
@@ -105,7 +105,7 @@ Gets or sets the SlaveGeometry.
 
 ### *property* Pinch.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -52,7 +52,7 @@ Defines a PipeTemperature.
 | [`IndependentVariable`](#PipeTemperature.IndependentVariable)                 | Gets or sets the IndependentVariable.                         |
 | [`XYZFunctionCoordinateSystem`](#PipeTemperature.XYZFunctionCoordinateSystem) | Gets or sets the XYZFunctionCoordinateSystem.                 |
 | [`Location`](#PipeTemperature.Location)                                       | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#PipeTemperature.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#PipeTemperature.DataModelObjectCategory)         | Gets the current DataModelObject's category.                  |
 | [`Suppressed`](#PipeTemperature.Suppressed)                                   | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#PipeTemperature.SharedRefBody)                             | Gets or sets the SharedRefBody.                               |
 | [`Children`](#PipeTemperature.Children)                                       | Gets the list of children.                                    |
@@ -152,7 +152,7 @@ Gets or sets the Location.
 
 ### *property* PipeTemperature.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -50,7 +50,7 @@ Defines a PythonResult.
 | [`DisplayTime`](#PythonResult.DisplayTime)                         | Gets or sets the DisplayTime.                                                         |
 | [`By`](#PythonResult.By)                                           | Gets or sets the By.                                                                  |
 | [`Location`](#PythonResult.Location)                               | Gets or sets the Location.                                                            |
-| [`DataModelObjectCategory`](#PythonResult.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                                          |
+| [`DataModelObjectCategory`](#PythonResult.DataModelObjectCategory) | Gets the current DataModelObject's category.                                          |
 | [`Children`](#PythonResult.Children)                               | Gets the list of children.                                                            |
 | [`Comments`](#PythonResult.Comments)                               | Gets the list of associated comments.                                                 |
 | [`Figures`](#PythonResult.Figures)                                 | Gets the list of associated figures.                                                  |
@@ -113,7 +113,7 @@ Gets or sets the Location.
 
 ### *property* PythonResult.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

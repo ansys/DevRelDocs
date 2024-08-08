@@ -46,12 +46,12 @@ Defines a AngularVelocityProbe.
 | Name | Description |
 |----------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                         | Gets the internal object. For advanced usage only.                                                                                                                         |
-| [`DataModelObjectCategory`](#AngularVelocityProbe.DataModelObjectCategory)       | Gets the current DataModelObjectâ€™s category.                                                                                                                               |
+| [`DataModelObjectCategory`](#AngularVelocityProbe.DataModelObjectCategory)       | Gets the current DataModelObject's category.                                                                                                                               |
 | [`Summation`](#AngularVelocityProbe.Summation)                                   | Gets or sets the Summation.                                                                                                                                                |
 | [`LocationMethod`](#AngularVelocityProbe.LocationMethod)                         | Gets or sets the LocationMethod.                                                                                                                                           |
 | [`GeometryLocation`](#AngularVelocityProbe.GeometryLocation)                     | Gets or sets the GeometryLocation.                                                                                                                                         |
 | [`CoordinateSystemSelection`](#AngularVelocityProbe.CoordinateSystemSelection)   | Gets or sets the CoordinateSystemSelection.                                                                                                                                |
-| [`BoundaryConditionSelection`](#AngularVelocityProbe.BoundaryConditionSelection) | Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSpringsâ€™, please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSpringsâ€™. |
+| [`BoundaryConditionSelection`](#AngularVelocityProbe.BoundaryConditionSelection) | Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSprings', please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSprings'. |
 | [`ContactRegionSelection`](#AngularVelocityProbe.ContactRegionSelection)         | Gets or sets the ContactRegionSelection.                                                                                                                                   |
 | [`RemotePointSelection`](#AngularVelocityProbe.RemotePointSelection)             | Gets or sets the RemotePointSelection.                                                                                                                                     |
 | [`BeamSelection`](#AngularVelocityProbe.BeamSelection)                           | Gets or sets the BeamSelection.                                                                                                                                            |
@@ -107,7 +107,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* AngularVelocityProbe.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -147,7 +147,7 @@ Gets or sets the CoordinateSystemSelection.
 
 ### *property* AngularVelocityProbe.BoundaryConditionSelection *: Ansys.ACT.Automation.Mechanical.DataModelObject | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSpringsâ€™, please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSpringsâ€™.
+Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSprings', please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSprings'.
 
 <!-- !! processed by numpydoc !! -->
 

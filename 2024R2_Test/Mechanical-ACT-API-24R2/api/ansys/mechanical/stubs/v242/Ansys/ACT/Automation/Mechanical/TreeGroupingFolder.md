@@ -39,7 +39,7 @@ Defines a TreeGroupingFolder.
 | [`Suppressed`](#TreeGroupingFolder.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`InternalObject`](#id0)                                                 | Gets the internal object. For advanced usage only.            |
 | [`ChildrenInGroup`](#TreeGroupingFolder.ChildrenInGroup)                 | Gets the ChildrenInGroup.                                     |
-| [`DataModelObjectCategory`](#TreeGroupingFolder.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#TreeGroupingFolder.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](#TreeGroupingFolder.Children)                               | Gets the list of children.                                    |
 | [`ReadOnly`](#TreeGroupingFolder.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
 | [`InternalObject`](#id0)                                                 | Gets the internal object. For advanced usage only.            |
@@ -78,7 +78,7 @@ Gets the ChildrenInGroup.
 
 ### *property* TreeGroupingFolder.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

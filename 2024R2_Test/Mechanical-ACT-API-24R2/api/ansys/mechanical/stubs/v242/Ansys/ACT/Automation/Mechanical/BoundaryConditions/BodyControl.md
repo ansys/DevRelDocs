@@ -56,7 +56,7 @@ Defines a BodyControl.
 | [`ShellThicknessUpdate`](#BodyControl.ShellThicknessUpdate)                 | Gets or sets the ShellThicknessUpdate.                        |
 | [`TetIntegrationType`](#BodyControl.TetIntegrationType)                     | Gets or sets the TetIntegrationType.                          |
 | [`Location`](#BodyControl.Location)                                         | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#BodyControl.DataModelObjectCategory)           | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#BodyControl.DataModelObjectCategory)           | Gets the current DataModelObject's category.                  |
 | [`Suppressed`](#BodyControl.Suppressed)                                     | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#BodyControl.SharedRefBody)                               | Gets or sets the SharedRefBody.                               |
 | [`Children`](#BodyControl.Children)                                         | Gets the list of children.                                    |
@@ -204,7 +204,7 @@ Gets or sets the Location.
 
 ### *property* BodyControl.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

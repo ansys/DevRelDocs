@@ -52,12 +52,12 @@ Defines a TemperatureProbe.
 | [`MaximumTemperature`](#TemperatureProbe.MaximumTemperature)                 | Gets the MaximumTemperature.                                                                                                                                               |
 | [`MinimumTemperature`](#TemperatureProbe.MinimumTemperature)                 | Gets the MinimumTemperature.                                                                                                                                               |
 | [`Temperature`](#TemperatureProbe.Temperature)                               | Gets the Temperature.                                                                                                                                                      |
-| [`DataModelObjectCategory`](#TemperatureProbe.DataModelObjectCategory)       | Gets the current DataModelObjectâ€™s category.                                                                                                                               |
+| [`DataModelObjectCategory`](#TemperatureProbe.DataModelObjectCategory)       | Gets the current DataModelObject's category.                                                                                                                               |
 | [`Summation`](#TemperatureProbe.Summation)                                   | Gets or sets the Summation.                                                                                                                                                |
 | [`LocationMethod`](#TemperatureProbe.LocationMethod)                         | Gets or sets the LocationMethod.                                                                                                                                           |
 | [`GeometryLocation`](#TemperatureProbe.GeometryLocation)                     | Gets or sets the GeometryLocation.                                                                                                                                         |
 | [`CoordinateSystemSelection`](#TemperatureProbe.CoordinateSystemSelection)   | Gets or sets the CoordinateSystemSelection.                                                                                                                                |
-| [`BoundaryConditionSelection`](#TemperatureProbe.BoundaryConditionSelection) | Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSpringsâ€™, please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSpringsâ€™. |
+| [`BoundaryConditionSelection`](#TemperatureProbe.BoundaryConditionSelection) | Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSprings', please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSprings'. |
 | [`ContactRegionSelection`](#TemperatureProbe.ContactRegionSelection)         | Gets or sets the ContactRegionSelection.                                                                                                                                   |
 | [`RemotePointSelection`](#TemperatureProbe.RemotePointSelection)             | Gets or sets the RemotePointSelection.                                                                                                                                     |
 | [`BeamSelection`](#TemperatureProbe.BeamSelection)                           | Gets or sets the BeamSelection.                                                                                                                                            |
@@ -161,7 +161,7 @@ Gets the Temperature.
 
 ### *property* TemperatureProbe.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -201,7 +201,7 @@ Gets or sets the CoordinateSystemSelection.
 
 ### *property* TemperatureProbe.BoundaryConditionSelection *: Ansys.ACT.Automation.Mechanical.DataModelObject | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSpringsâ€™, please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSpringsâ€™.
+Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSprings', please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSprings'.
 
 <!-- !! processed by numpydoc !! -->
 

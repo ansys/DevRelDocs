@@ -49,7 +49,7 @@ Defines a MomentOfInertiaConstraint.
 | [`CoordinateSystem`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MomentOfInertiaConstraint.md#MomentOfInertiaConstraint.CoordinateSystem)               | Gets or sets the CoordinateSystem.                                                       |
 | [`Selection`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MomentOfInertiaConstraint.md#MomentOfInertiaConstraint.Selection)                             | Gets or sets the Selection.                                                              |
 | [`Location`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MomentOfInertiaConstraint.md#MomentOfInertiaConstraint.Location)                               | Gets or sets the Location.                                                               |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MomentOfInertiaConstraint.md#MomentOfInertiaConstraint.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                                             |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MomentOfInertiaConstraint.md#MomentOfInertiaConstraint.DataModelObjectCategory) | Gets the current DataModelObject's category.                                             |
 | [`EnvironmentSelection`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MomentOfInertiaConstraint.md#MomentOfInertiaConstraint.EnvironmentSelection)       | Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum. |
 | [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MomentOfInertiaConstraint.md#MomentOfInertiaConstraint.Suppressed)                           | Gets or sets the Suppressed.                                                             |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MomentOfInertiaConstraint.md#MomentOfInertiaConstraint.Children)                               | Gets the list of children.                                                               |
@@ -161,7 +161,7 @@ Gets or sets the Location.
 
 ### *property* MomentOfInertiaConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

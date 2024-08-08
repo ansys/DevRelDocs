@@ -57,7 +57,7 @@ Defines a MeshEdit.
 | [`GenerateAutomaticMeshConnectionsOnRefresh`](#MeshEdit.GenerateAutomaticMeshConnectionsOnRefresh) | Gets or sets the GenerateAutomaticMeshConnectionsOnRefresh.           |
 | [`AssociateToPullGeometry`](#MeshEdit.AssociateToPullGeometry)                                     | To Migrate Boundary Conditions from profile to resulting Pull bodies. |
 | [`TransparencyEnabled`](#MeshEdit.TransparencyEnabled)                                             | Gets or sets the TransparencyEnabled.                                 |
-| [`DataModelObjectCategory`](#MeshEdit.DataModelObjectCategory)                                     | Gets the current DataModelObjectâ€™s category.                          |
+| [`DataModelObjectCategory`](#MeshEdit.DataModelObjectCategory)                                     | Gets the current DataModelObject's category.                          |
 | [`Children`](#MeshEdit.Children)                                                                   | Gets the list of children.                                            |
 | [`Comments`](#MeshEdit.Comments)                                                                   | Gets the list of associated comments.                                 |
 | [`Figures`](#MeshEdit.Figures)                                                                     | Gets the list of associated figures.                                  |
@@ -106,7 +106,7 @@ Gets or sets the TransparencyEnabled.
 
 ### *property* MeshEdit.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

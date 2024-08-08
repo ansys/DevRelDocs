@@ -30,7 +30,7 @@ ViewOptions class.
 | [`ShowShellThickness`](#ViewOptions.ShowShellThickness)                 | Displays the thickness of shells.                                                       |
 | [`ShowBeamThickness`](#ViewOptions.ShowBeamThickness)                   | Displays the thickness of beams.                                                        |
 | [`ShowSPHExpansion`](#ViewOptions.ShowSPHExpansion)                     | Displays the expansion for SPH elements.                                                |
-| [`ShowMesh`](#ViewOptions.ShowMesh)                                     | Display the modelâ€™s mesh.                                                               |
+| [`ShowMesh`](#ViewOptions.ShowMesh)                                     | Display the model's mesh.                                                               |
 | [`ShowRandomColors`](#ViewOptions.ShowRandomColors)                     | Sets random colors for each object of the application.                                  |
 | [`ShowVertices`](#ViewOptions.ShowVertices)                             | Display all the vertices of the model.                                                  |
 | [`ShowClusteredVertices`](#ViewOptions.ShowClusteredVertices)           | Displays all closely clustered vertices of the model.                                   |
@@ -104,7 +104,7 @@ Displays the expansion for SPH elements.
 
 ### *property* ViewOptions.ShowMesh *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Display the modelâ€™s mesh.
+Display the model's mesh.
 
 <!-- !! processed by numpydoc !! -->
 

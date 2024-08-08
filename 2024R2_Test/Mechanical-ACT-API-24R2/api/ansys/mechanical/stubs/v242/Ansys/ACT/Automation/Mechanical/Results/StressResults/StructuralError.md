@@ -51,7 +51,7 @@ Defines a StructuralError.
 | Name | Description |
 |-------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                  | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](#StructuralError.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](#StructuralError.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`Mode`](#StructuralError.Mode)                                                           | Gets or sets the Mode.                                                 |
 | [`Ply`](#StructuralError.Ply)                                                             | Gets or sets the Ply selection.                                        |
 | [`Plies`](#StructuralError.Plies)                                                         | Plies property.                                                        |
@@ -160,7 +160,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* StructuralError.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

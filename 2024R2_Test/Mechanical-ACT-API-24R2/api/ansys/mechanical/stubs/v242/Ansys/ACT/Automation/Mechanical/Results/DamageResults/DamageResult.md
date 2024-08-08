@@ -55,7 +55,7 @@ Defines a DamageResult.
 | [`Plies`](#DamageResult.Plies)                                                         | Plies property.                                                        |
 | [`InternalObject`](#id0)                                                               | Gets the internal object. For advanced usage only.                     |
 | [`DamageResultType`](#DamageResult.DamageResultType)                                   | Gets the DamageResultType.                                             |
-| [`DataModelObjectCategory`](#DamageResult.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](#DamageResult.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`PlotData`](#DamageResult.PlotData)                                                   | Gets the result table.                                                 |
 | [`Location`](#DamageResult.Location)                                                   | Gets or sets the Location.                                             |
 | [`TimeForMinimumOfMinimumValues`](#DamageResult.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
@@ -159,7 +159,7 @@ Gets the DamageResultType.
 
 ### *property* DamageResult.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -146,7 +146,7 @@ Defines a SolutionInformation.
 | [`ShowMomentResiduals`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionInformation.md#SolutionInformation.ShowMomentResiduals)             | Gets or sets the ShowMomentResiduals.                          |
 | [`DisplayFilterDuringSolve`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionInformation.md#SolutionInformation.DisplayFilterDuringSolve)   | Gets or sets the DisplayFilterDuringSolve.                     |
 | [`ResponseConstraint`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionInformation.md#SolutionInformation.ResponseConstraint)               | Gets or sets the ResponseConstraint.                           |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionInformation.md#SolutionInformation.DataModelObjectCategory)     | Gets the current DataModelObjectâ€™s category.                   |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionInformation.md#SolutionInformation.DataModelObjectCategory)     | Gets the current DataModelObject's category.                   |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionInformation.md#SolutionInformation.Children)                                   | Gets the list of children.                                     |
 | [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionInformation.md#SolutionInformation.Comments)                                   | Gets the list of associated comments.                          |
 | [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionInformation.md#SolutionInformation.Figures)                                     | Gets the list of associated figures.                           |
@@ -355,7 +355,7 @@ Gets or sets the ResponseConstraint.
 
 ### *property* SolutionInformation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

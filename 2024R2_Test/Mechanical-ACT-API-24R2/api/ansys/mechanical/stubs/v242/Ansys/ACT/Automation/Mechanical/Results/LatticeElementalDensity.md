@@ -44,7 +44,7 @@ Defines a LatticeElementalDensity.
 | Name | Description |
 |-------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                      | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](#LatticeElementalDensity.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#LatticeElementalDensity.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Location`](#LatticeElementalDensity.Location)                               | Gets or sets the Location.                                    |
 | [`IterationNumber`](#LatticeElementalDensity.IterationNumber)                 | Gets the IterationNumber.                                     |
 | [`IterationStep`](#LatticeElementalDensity.IterationStep)                     | Gets or sets the IterationStep.                               |
@@ -86,7 +86,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* LatticeElementalDensity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

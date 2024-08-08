@@ -54,12 +54,12 @@ Defines a QualityFactor.
 | [`Frequency`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/QualityFactor.md#QualityFactor.Frequency)                                   | Gets or sets the Frequency.                                                                                                                                                |
 | [`SweepingPhase`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/QualityFactor.md#QualityFactor.SweepingPhase)                           | Gets or sets the SweepingPhase.                                                                                                                                            |
 | [`By`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/QualityFactor.md#QualityFactor.By)                                                 | Gets or sets the By.                                                                                                                                                       |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/QualityFactor.md#QualityFactor.DataModelObjectCategory)       | Gets the current DataModelObjectâ€™s category.                                                                                                                               |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/QualityFactor.md#QualityFactor.DataModelObjectCategory)       | Gets the current DataModelObject's category.                                                                                                                               |
 | [`Summation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/QualityFactor.md#QualityFactor.Summation)                                   | Gets or sets the Summation.                                                                                                                                                |
 | [`LocationMethod`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/QualityFactor.md#QualityFactor.LocationMethod)                         | Gets or sets the LocationMethod.                                                                                                                                           |
 | [`GeometryLocation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/QualityFactor.md#QualityFactor.GeometryLocation)                     | Gets or sets the GeometryLocation.                                                                                                                                         |
 | [`CoordinateSystemSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/QualityFactor.md#QualityFactor.CoordinateSystemSelection)   | Gets or sets the CoordinateSystemSelection.                                                                                                                                |
-| [`BoundaryConditionSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/QualityFactor.md#QualityFactor.BoundaryConditionSelection) | Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSpringsâ€™, please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSpringsâ€™. |
+| [`BoundaryConditionSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/QualityFactor.md#QualityFactor.BoundaryConditionSelection) | Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSprings', please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSprings'. |
 | [`ContactRegionSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/QualityFactor.md#QualityFactor.ContactRegionSelection)         | Gets or sets the ContactRegionSelection.                                                                                                                                   |
 | [`RemotePointSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/QualityFactor.md#QualityFactor.RemotePointSelection)             | Gets or sets the RemotePointSelection.                                                                                                                                     |
 | [`BeamSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/QualityFactor.md#QualityFactor.BeamSelection)                           | Gets or sets the BeamSelection.                                                                                                                                            |
@@ -179,7 +179,7 @@ Gets or sets the By.
 
 ### *property* QualityFactor.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -219,7 +219,7 @@ Gets or sets the CoordinateSystemSelection.
 
 ### *property* QualityFactor.BoundaryConditionSelection *: Ansys.ACT.Automation.Mechanical.DataModelObject | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSpringsâ€™, please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSpringsâ€™.
+Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSprings', please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSprings'.
 
 <!-- !! processed by numpydoc !! -->
 

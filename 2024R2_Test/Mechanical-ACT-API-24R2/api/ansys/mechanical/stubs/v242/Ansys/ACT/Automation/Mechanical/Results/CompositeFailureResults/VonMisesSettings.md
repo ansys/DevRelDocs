@@ -24,9 +24,9 @@ Defines the configuration for the Von Mises failure criterion for isotropic mate
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
-| [`EvaluateStrainFailure`](#VonMisesSettings.EvaluateStrainFailure)                           | Gets or sets whether strain failure is evaluated. The corresponding failure label is â€˜vMeâ€™.   |
+| [`EvaluateStrainFailure`](#VonMisesSettings.EvaluateStrainFailure)                           | Gets or sets whether strain failure is evaluated. The corresponding failure label is â€˜vMe'.   |
 | [`StrainFailureWeightingFactor`](#VonMisesSettings.StrainFailureWeightingFactor)             | Gets or sets the weighting factor for the strain failure (vMe) evaluation.                    |
-| [`EvaluateStressFailure`](#VonMisesSettings.EvaluateStressFailure)                           | Gets or sets whether stress failure is evaluated. The corresponding failure label is â€˜vMsâ€™    |
+| [`EvaluateStressFailure`](#VonMisesSettings.EvaluateStressFailure)                           | Gets or sets whether stress failure is evaluated. The corresponding failure label is â€˜vMs'    |
 | [`StressFailureWeightingFactor`](#VonMisesSettings.StressFailureWeightingFactor)             | Gets or sets the weighting factor for the stress failure (vMs) evaluation.                    |
 | [`ConsiderInterlaminarNormalStresses`](#VonMisesSettings.ConsiderInterlaminarNormalStresses) | Gets or sets whether interlaminar normal stresses are evaluated.                              |
 
@@ -38,7 +38,7 @@ Defines the configuration for the Von Mises failure criterion for isotropic mate
 
 ### *property* VonMisesSettings.EvaluateStrainFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets whether strain failure is evaluated. The corresponding failure label is â€˜vMeâ€™.
+Gets or sets whether strain failure is evaluated. The corresponding failure label is â€˜vMe'.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -54,7 +54,7 @@ Gets or sets the weighting factor for the strain failure (vMe) evaluation.
 
 ### *property* VonMisesSettings.EvaluateStressFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets whether stress failure is evaluated. The corresponding failure label is â€˜vMsâ€™
+Gets or sets whether stress failure is evaluated. The corresponding failure label is â€˜vMs'
 
 <!-- !! processed by numpydoc !! -->
 

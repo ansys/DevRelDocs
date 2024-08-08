@@ -52,7 +52,7 @@ Defines a StressTool.
 | [`Theory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StressToolResults/StressTool.md#StressTool.Theory)                                   | Gets or sets the Theory.                                      |
 | [`StressLimitType`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StressToolResults/StressTool.md#StressTool.StressLimitType)                 | Gets or sets the StressLimitType.                             |
 | [`TensileLimitType`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StressToolResults/StressTool.md#StressTool.TensileLimitType)               | Gets or sets the TensileLimitType.                            |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StressToolResults/StressTool.md#StressTool.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StressToolResults/StressTool.md#StressTool.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StressToolResults/StressTool.md#StressTool.Children)                               | Gets the list of children.                                    |
 | [`Comments`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StressToolResults/StressTool.md#StressTool.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/StressToolResults/StressTool.md#StressTool.Figures)                                 | Gets the list of associated figures.                          |
@@ -141,7 +141,7 @@ Gets or sets the TensileLimitType.
 
 ### *property* StressTool.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

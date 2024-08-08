@@ -50,12 +50,12 @@ Defines a RadiationProbe.
 | [`IncidentRadiation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.IncidentRadiation)                   | Gets the IncidentRadiation.                                                                                                                                                |
 | [`NetRadiation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.NetRadiation)                             | Gets the NetRadiation.                                                                                                                                                     |
 | [`ReflectedRadiation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.ReflectedRadiation)                 | Gets the ReflectedRadiation.                                                                                                                                               |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.DataModelObjectCategory)       | Gets the current DataModelObjectâ€™s category.                                                                                                                               |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.DataModelObjectCategory)       | Gets the current DataModelObject's category.                                                                                                                               |
 | [`Summation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.Summation)                                   | Gets or sets the Summation.                                                                                                                                                |
 | [`LocationMethod`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.LocationMethod)                         | Gets or sets the LocationMethod.                                                                                                                                           |
 | [`GeometryLocation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.GeometryLocation)                     | Gets or sets the GeometryLocation.                                                                                                                                         |
 | [`CoordinateSystemSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.CoordinateSystemSelection)   | Gets or sets the CoordinateSystemSelection.                                                                                                                                |
-| [`BoundaryConditionSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.BoundaryConditionSelection) | Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSpringsâ€™, please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSpringsâ€™. |
+| [`BoundaryConditionSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.BoundaryConditionSelection) | Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSprings', please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSprings'. |
 | [`ContactRegionSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.ContactRegionSelection)         | Gets or sets the ContactRegionSelection.                                                                                                                                   |
 | [`RemotePointSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.RemotePointSelection)             | Gets or sets the RemotePointSelection.                                                                                                                                     |
 | [`BeamSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.BeamSelection)                           | Gets or sets the BeamSelection.                                                                                                                                            |
@@ -143,7 +143,7 @@ Gets the ReflectedRadiation.
 
 ### *property* RadiationProbe.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -183,7 +183,7 @@ Gets or sets the CoordinateSystemSelection.
 
 ### *property* RadiationProbe.BoundaryConditionSelection *: Ansys.ACT.Automation.Mechanical.DataModelObject | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSpringsâ€™, please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSpringsâ€™.
+Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSprings', please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSprings'.
 
 <!-- !! processed by numpydoc !! -->
 

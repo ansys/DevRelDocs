@@ -41,7 +41,7 @@ Defines a CondensedPartInfoTool.
 | [`InternalObject`](#id0)                                                    | Gets the internal object. For advanced usage only.            |
 | [`Text`](#CondensedPartInfoTool.Text)                                       | Gets the Text.                                                |
 | [`UpdateInterval`](#CondensedPartInfoTool.UpdateInterval)                   | Gets or sets the UpdateInterval.                              |
-| [`DataModelObjectCategory`](#CondensedPartInfoTool.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#CondensedPartInfoTool.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](#CondensedPartInfoTool.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#CondensedPartInfoTool.Comments)                               | Gets the list of associated comments.                         |
 | [`Images`](#CondensedPartInfoTool.Images)                                   | Gets the list of associated images.                           |
@@ -81,7 +81,7 @@ Gets or sets the UpdateInterval.
 
 ### *property* CondensedPartInfoTool.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

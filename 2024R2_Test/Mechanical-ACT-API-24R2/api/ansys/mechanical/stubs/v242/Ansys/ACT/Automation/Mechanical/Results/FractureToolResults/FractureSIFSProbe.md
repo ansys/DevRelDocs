@@ -50,7 +50,7 @@ Defines a FractureSIFSProbe.
 | [`MaximumValueOverTime`](#FractureSIFSProbe.MaximumValueOverTime)             | Gets the MaximumValueOverTime.                                                                                                                                             |
 | [`MinimumValueOverTime`](#FractureSIFSProbe.MinimumValueOverTime)             | Gets the MinimumValueOverTime.                                                                                                                                             |
 | [`FractureProbeSubType`](#FractureSIFSProbe.FractureProbeSubType)             | Gets or sets the FractureProbeSubType.                                                                                                                                     |
-| [`DataModelObjectCategory`](#FractureSIFSProbe.DataModelObjectCategory)       | Gets the current DataModelObjectâ€™s category.                                                                                                                               |
+| [`DataModelObjectCategory`](#FractureSIFSProbe.DataModelObjectCategory)       | Gets the current DataModelObject's category.                                                                                                                               |
 | [`ActiveContour`](#FractureSIFSProbe.ActiveContour)                           | Gets or sets the ActiveContour.                                                                                                                                            |
 | [`CrackLengthPercentage`](#FractureSIFSProbe.CrackLengthPercentage)           | Gets or sets the CrackLengthPercentage.                                                                                                                                    |
 | [`SolverID`](#FractureSIFSProbe.SolverID)                                     | Gets or sets the SolverID.                                                                                                                                                 |
@@ -58,7 +58,7 @@ Defines a FractureSIFSProbe.
 | [`LocationMethod`](#FractureSIFSProbe.LocationMethod)                         | Gets or sets the LocationMethod.                                                                                                                                           |
 | [`GeometryLocation`](#FractureSIFSProbe.GeometryLocation)                     | Gets or sets the GeometryLocation.                                                                                                                                         |
 | [`CoordinateSystemSelection`](#FractureSIFSProbe.CoordinateSystemSelection)   | Gets or sets the CoordinateSystemSelection.                                                                                                                                |
-| [`BoundaryConditionSelection`](#FractureSIFSProbe.BoundaryConditionSelection) | Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSpringsâ€™, please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSpringsâ€™. |
+| [`BoundaryConditionSelection`](#FractureSIFSProbe.BoundaryConditionSelection) | Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSprings', please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSprings'. |
 | [`ContactRegionSelection`](#FractureSIFSProbe.ContactRegionSelection)         | Gets or sets the ContactRegionSelection.                                                                                                                                   |
 | [`RemotePointSelection`](#FractureSIFSProbe.RemotePointSelection)             | Gets or sets the RemotePointSelection.                                                                                                                                     |
 | [`BeamSelection`](#FractureSIFSProbe.BeamSelection)                           | Gets or sets the BeamSelection.                                                                                                                                            |
@@ -146,7 +146,7 @@ Gets or sets the FractureProbeSubType.
 
 ### *property* FractureSIFSProbe.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -210,7 +210,7 @@ Gets or sets the CoordinateSystemSelection.
 
 ### *property* FractureSIFSProbe.BoundaryConditionSelection *: Ansys.ACT.Automation.Mechanical.DataModelObject | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSpringsâ€™, please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSpringsâ€™.
+Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSprings', please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSprings'.
 
 <!-- !! processed by numpydoc !! -->
 

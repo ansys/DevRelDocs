@@ -61,12 +61,12 @@ Defines a HeatFluxProbe.
 | [`MinimumXAxisHeatFlux`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/HeatFluxProbe.md#HeatFluxProbe.MinimumXAxisHeatFlux)             | Gets the MinimumXAxisHeatFlux.                                                                                                                                             |
 | [`MinimumYAxisHeatFlux`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/HeatFluxProbe.md#HeatFluxProbe.MinimumYAxisHeatFlux)             | Gets the MinimumYAxisHeatFlux.                                                                                                                                             |
 | [`MinimumZAxisHeatFlux`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/HeatFluxProbe.md#HeatFluxProbe.MinimumZAxisHeatFlux)             | Gets the MinimumZAxisHeatFlux.                                                                                                                                             |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/HeatFluxProbe.md#HeatFluxProbe.DataModelObjectCategory)       | Gets the current DataModelObjectâ€™s category.                                                                                                                               |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/HeatFluxProbe.md#HeatFluxProbe.DataModelObjectCategory)       | Gets the current DataModelObject's category.                                                                                                                               |
 | [`Summation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/HeatFluxProbe.md#HeatFluxProbe.Summation)                                   | Gets or sets the Summation.                                                                                                                                                |
 | [`LocationMethod`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/HeatFluxProbe.md#HeatFluxProbe.LocationMethod)                         | Gets or sets the LocationMethod.                                                                                                                                           |
 | [`GeometryLocation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/HeatFluxProbe.md#HeatFluxProbe.GeometryLocation)                     | Gets or sets the GeometryLocation.                                                                                                                                         |
 | [`CoordinateSystemSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/HeatFluxProbe.md#HeatFluxProbe.CoordinateSystemSelection)   | Gets or sets the CoordinateSystemSelection.                                                                                                                                |
-| [`BoundaryConditionSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/HeatFluxProbe.md#HeatFluxProbe.BoundaryConditionSelection) | Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSpringsâ€™, please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSpringsâ€™. |
+| [`BoundaryConditionSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/HeatFluxProbe.md#HeatFluxProbe.BoundaryConditionSelection) | Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSprings', please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSprings'. |
 | [`ContactRegionSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/HeatFluxProbe.md#HeatFluxProbe.ContactRegionSelection)         | Gets or sets the ContactRegionSelection.                                                                                                                                   |
 | [`RemotePointSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/HeatFluxProbe.md#HeatFluxProbe.RemotePointSelection)             | Gets or sets the RemotePointSelection.                                                                                                                                     |
 | [`BeamSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/HeatFluxProbe.md#HeatFluxProbe.BeamSelection)                           | Gets or sets the BeamSelection.                                                                                                                                            |
@@ -242,7 +242,7 @@ Gets the MinimumZAxisHeatFlux.
 
 ### *property* HeatFluxProbe.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -282,7 +282,7 @@ Gets or sets the CoordinateSystemSelection.
 
 ### *property* HeatFluxProbe.BoundaryConditionSelection *: Ansys.ACT.Automation.Mechanical.DataModelObject | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSpringsâ€™, please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSpringsâ€™.
+Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSprings', please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSprings'.
 
 <!-- !! processed by numpydoc !! -->
 

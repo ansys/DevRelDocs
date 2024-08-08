@@ -50,7 +50,7 @@ Defines a ImportedConvection.
 | [`DisplayConnectionLines`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedConvection.md#ImportedConvection.DisplayConnectionLines)                             | Gets or sets the DisplayConnectionLines.                                                                |
 | [`FluidFlow`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedConvection.md#ImportedConvection.FluidFlow)                                                       | Gets or sets the FluidFlow.                                                                             |
 | [`FluidFlowLocation`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedConvection.md#ImportedConvection.FluidFlowLocation)                                       | Gets or sets the FluidFlowLocation.                                                                     |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedConvection.md#ImportedConvection.DataModelObjectCategory)                           | Gets the current DataModelObjectâ€™s category.                                                            |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedConvection.md#ImportedConvection.DataModelObjectCategory)                           | Gets the current DataModelObject's category.                                                            |
 | [`Weighting`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedConvection.md#ImportedConvection.Weighting)                                                       | Weighting property.                                                                                     |
 | [`MappingControl`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedConvection.md#ImportedConvection.MappingControl)                                             | MappingControl property.                                                                                |
 | [`DisplaySourcePoints`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedConvection.md#ImportedConvection.DisplaySourcePoints)                                   | DisplaySourcePoints property.                                                                           |
@@ -141,7 +141,7 @@ Gets or sets the FluidFlowLocation.
 
 ### *property* ImportedConvection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

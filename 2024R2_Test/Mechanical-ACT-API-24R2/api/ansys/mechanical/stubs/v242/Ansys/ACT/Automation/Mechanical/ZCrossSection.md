@@ -49,7 +49,7 @@ Defines a ZCrossSection.
 | [`Width1`](#ZCrossSection.Width1)                                   | Gets or sets the Width1.                                      |
 | [`Width2`](#ZCrossSection.Width2)                                   | Gets or sets the Width2.                                      |
 | [`Width3`](#ZCrossSection.Width3)                                   | Gets or sets the Width3.                                      |
-| [`DataModelObjectCategory`](#ZCrossSection.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#ZCrossSection.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](#ZCrossSection.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#ZCrossSection.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#ZCrossSection.Figures)                                 | Gets the list of associated figures.                          |
@@ -147,7 +147,7 @@ Gets or sets the Width3.
 
 ### *property* ZCrossSection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

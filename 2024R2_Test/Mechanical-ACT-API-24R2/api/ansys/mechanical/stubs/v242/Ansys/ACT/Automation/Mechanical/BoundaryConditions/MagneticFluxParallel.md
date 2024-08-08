@@ -42,7 +42,7 @@ Defines a MagneticFluxParallel.
 |----------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                   | Gets the internal object. For advanced usage only.            |
 | [`Location`](#MagneticFluxParallel.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#MagneticFluxParallel.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#MagneticFluxParallel.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Suppressed`](#MagneticFluxParallel.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#MagneticFluxParallel.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
 | [`Children`](#MagneticFluxParallel.Children)                               | Gets the list of children.                                    |
@@ -78,7 +78,7 @@ Gets or sets the Location.
 
 ### *property* MagneticFluxParallel.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

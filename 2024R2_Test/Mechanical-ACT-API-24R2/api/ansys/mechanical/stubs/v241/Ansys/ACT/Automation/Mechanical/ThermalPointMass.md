@@ -48,7 +48,7 @@ Defines a ThermalPointMass.
 | [`AppliedBy`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ThermalPointMass.md#ThermalPointMass.AppliedBy)                             | Gets or sets the AppliedBy.                                   |
 | [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ThermalPointMass.md#ThermalPointMass.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`CoordinateSystem`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ThermalPointMass.md#ThermalPointMass.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ThermalPointMass.md#ThermalPointMass.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ThermalPointMass.md#ThermalPointMass.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`RemotePoint`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ThermalPointMass.md#ThermalPointMass.RemotePoint)                         | Gets the remote point associated to the point mass.           |
 | [`IsDistributedMass`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ThermalPointMass.md#ThermalPointMass.IsDistributedMass)             | Gets the IsDistributedMass.                                   |
 | [`Location`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ThermalPointMass.md#ThermalPointMass.Location)                               | Gets or sets the Geometry.                                    |
@@ -125,7 +125,7 @@ Gets or sets the CoordinateSystem.
 
 ### *property* ThermalPointMass.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

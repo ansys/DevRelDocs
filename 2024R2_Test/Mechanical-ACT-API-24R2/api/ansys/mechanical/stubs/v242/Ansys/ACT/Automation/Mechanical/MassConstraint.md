@@ -47,7 +47,7 @@ Defines a MassConstraint.
 | [`ScopingMethod`](#MassConstraint.ScopingMethod)                     | Gets or sets the ScopingMethod.                                                          |
 | [`Selection`](#MassConstraint.Selection)                             | Gets or sets the Selection.                                                              |
 | [`Location`](#MassConstraint.Location)                               | Gets or sets the Location.                                                               |
-| [`DataModelObjectCategory`](#MassConstraint.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                                             |
+| [`DataModelObjectCategory`](#MassConstraint.DataModelObjectCategory) | Gets the current DataModelObject's category.                                             |
 | [`EnvironmentSelection`](#MassConstraint.EnvironmentSelection)       | Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum. |
 | [`Suppressed`](#MassConstraint.Suppressed)                           | Gets or sets the Suppressed.                                                             |
 | [`Children`](#MassConstraint.Children)                               | Gets the list of children.                                                               |
@@ -143,7 +143,7 @@ Gets or sets the Location.
 
 ### *property* MassConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

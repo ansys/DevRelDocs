@@ -41,7 +41,7 @@ Defines a PSDDisplacement.
 |-----------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                              | Gets the internal object. For advanced usage only.            |
 | [`LoadData`](#PSDDisplacement.LoadData)                               | Gets or sets the LoadData.                                    |
-| [`DataModelObjectCategory`](#PSDDisplacement.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#PSDDisplacement.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`BoundaryCondition`](#PSDDisplacement.BoundaryCondition)             | Gets or sets the BoundaryCondition.                           |
 | [`Direction`](#PSDDisplacement.Direction)                             | Gets or sets the Direction.                                   |
 | [`Suppressed`](#PSDDisplacement.Suppressed)                           | Gets or sets the Suppressed.                                  |
@@ -77,7 +77,7 @@ Gets or sets the LoadData.
 
 ### *property* PSDDisplacement.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

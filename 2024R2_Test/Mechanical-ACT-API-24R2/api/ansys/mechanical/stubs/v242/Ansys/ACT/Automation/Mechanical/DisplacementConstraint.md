@@ -43,7 +43,7 @@ Defines a DisplacementConstraint.
 | [`ZComponentMax`](#DisplacementConstraint.ZComponentMax)                     | Gets or sets the ZComponentMax.                                                          |
 | [`ScopingMethod`](#DisplacementConstraint.ScopingMethod)                     | Gets or sets the ScopingMethod.                                                          |
 | [`Location`](#DisplacementConstraint.Location)                               | Gets or sets the Location.                                                               |
-| [`DataModelObjectCategory`](#DisplacementConstraint.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                                             |
+| [`DataModelObjectCategory`](#DisplacementConstraint.DataModelObjectCategory) | Gets the current DataModelObject's category.                                             |
 | [`EnvironmentSelection`](#DisplacementConstraint.EnvironmentSelection)       | Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum. |
 | [`Suppressed`](#DisplacementConstraint.Suppressed)                           | Gets or sets the Suppressed.                                                             |
 | [`Children`](#DisplacementConstraint.Children)                               | Gets the list of children.                                                               |
@@ -107,7 +107,7 @@ Gets or sets the Location.
 
 ### *property* DisplacementConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

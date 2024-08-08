@@ -47,7 +47,7 @@ Defines a ContactDebonding.
 | [`Suppressed`](#ContactDebonding.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`ContactRegion`](#ContactDebonding.ContactRegion)                     | Gets or sets the ContactRegion.                               |
 | [`InitialCrack`](#ContactDebonding.InitialCrack)                       | Gets or sets the InitialCrack.                                |
-| [`DataModelObjectCategory`](#ContactDebonding.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#ContactDebonding.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`InternalObject`](#id0)                                               | Gets the internal object. For advanced usage only.            |
 | [`Properties`](#ContactDebonding.Properties)                           | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#ContactDebonding.VisibleProperties)             | Gets the list of properties that are visible for this object. |
@@ -156,7 +156,7 @@ Gets or sets the InitialCrack.
 
 ### *property* ContactDebonding.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

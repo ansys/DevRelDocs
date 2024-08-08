@@ -51,7 +51,7 @@ Defines a DirectionalThermalHeatFlux.
 | Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ThermalResults/DirectionalThermalHeatFlux.md#id0)                                                                             | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ThermalResults/DirectionalThermalHeatFlux.md#DirectionalThermalHeatFlux.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ThermalResults/DirectionalThermalHeatFlux.md#DirectionalThermalHeatFlux.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`Layer`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ThermalResults/DirectionalThermalHeatFlux.md#DirectionalThermalHeatFlux.Layer)                                                         | Gets or sets the Layer.                                                |
 | [`ThermalResultType`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ThermalResults/DirectionalThermalHeatFlux.md#DirectionalThermalHeatFlux.ThermalResultType)                                 | Gets or sets the ThermalResultType.                                    |
 | [`NormalOrientation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ThermalResults/DirectionalThermalHeatFlux.md#DirectionalThermalHeatFlux.NormalOrientation)                                 | Gets or sets the NormalOrientation.                                    |
@@ -127,7 +127,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* DirectionalThermalHeatFlux.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

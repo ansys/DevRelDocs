@@ -52,7 +52,7 @@ Defines a DirectionalHeatFlux.
 |-----------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Ply`](#DirectionalHeatFlux.Ply)                                                             | Gets or sets the Ply selection.                                        |
 | [`InternalObject`](#id0)                                                                      | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](#DirectionalHeatFlux.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](#DirectionalHeatFlux.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`Layer`](#DirectionalHeatFlux.Layer)                                                         | Gets or sets the Layer.                                                |
 | [`ThermalResultType`](#DirectionalHeatFlux.ThermalResultType)                                 | Gets or sets the ThermalResultType.                                    |
 | [`NormalOrientation`](#DirectionalHeatFlux.NormalOrientation)                                 | Gets or sets the NormalOrientation.                                    |
@@ -137,7 +137,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* DirectionalHeatFlux.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

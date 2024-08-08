@@ -148,7 +148,7 @@ Defines a ContactRegion.
 | [`TargetStartingPoint`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.TargetStartingPoint)                             | Gets or sets the TargetStartingPoint.                         |
 | [`SharedSourceReverseNormalLocation`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.SharedSourceReverseNormalLocation) | Gets or sets the SharedSourceReverseNormalLocation.           |
 | [`SharedTargetReverseNormalLocation`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.SharedTargetReverseNormalLocation) | Gets or sets the SharedTargetReverseNormalLocation.           |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                  |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.Children)                                                   | Gets the list of children.                                    |
 | [`Comments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.Comments)                                                   | Gets the list of associated comments.                         |
 | [`Figures`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.Figures)                                                     | Gets the list of associated figures.                          |
@@ -942,7 +942,7 @@ Gets or sets the SharedTargetReverseNormalLocation.
 
 ### *property* ContactRegion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

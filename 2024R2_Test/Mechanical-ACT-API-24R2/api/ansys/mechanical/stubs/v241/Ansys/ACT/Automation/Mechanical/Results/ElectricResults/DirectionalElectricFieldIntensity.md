@@ -52,7 +52,7 @@ Defines a DirectionalElectricFieldIntensity.
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ElectricResults/DirectionalElectricFieldIntensity.md#id0)                                                                                    | Gets the internal object. For advanced usage only.                     |
 | [`NormalOrientation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ElectricResults/DirectionalElectricFieldIntensity.md#DirectionalElectricFieldIntensity.NormalOrientation)                                 | Gets or sets the NormalOrientation.                                    |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ElectricResults/DirectionalElectricFieldIntensity.md#DirectionalElectricFieldIntensity.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ElectricResults/DirectionalElectricFieldIntensity.md#DirectionalElectricFieldIntensity.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`ReportedFrequency`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ElectricResults/DirectionalElectricFieldIntensity.md#DirectionalElectricFieldIntensity.ReportedFrequency)                                 | Gets the ReportedFrequency.                                            |
 | [`SweepingPhase`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ElectricResults/DirectionalElectricFieldIntensity.md#DirectionalElectricFieldIntensity.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
 | [`PhaseIncrement`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ElectricResults/DirectionalElectricFieldIntensity.md#DirectionalElectricFieldIntensity.PhaseIncrement)                                       | Gets or sets the PhaseIncrement.                                       |
@@ -138,7 +138,7 @@ Gets or sets the NormalOrientation.
 
 ### *property* DirectionalElectricFieldIntensity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

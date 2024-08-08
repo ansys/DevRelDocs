@@ -70,7 +70,7 @@ Defines a FatigueTool.
 | [`AnalysisType`](../../../../../v242/Ansys/ACT/Automation/Mechanical/FatigueTool.md#FatigueTool.AnalysisType)                         | Gets or sets the AnalysisType.                                |
 | [`UnitsName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/FatigueTool.md#FatigueTool.UnitsName)                               | Gets or sets the UnitsName.                                   |
 | [`UseQuickRainflowCounting`](../../../../../v242/Ansys/ACT/Automation/Mechanical/FatigueTool.md#FatigueTool.UseQuickRainflowCounting) | Gets or sets the UseQuickRainflowCounting.                    |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/FatigueTool.md#FatigueTool.DataModelObjectCategory)   | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/FatigueTool.md#FatigueTool.DataModelObjectCategory)   | Gets the current DataModelObject's category.                  |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/FatigueTool.md#FatigueTool.Children)                                 | Gets the list of children.                                    |
 | [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/FatigueTool.md#FatigueTool.Comments)                                 | Gets the list of associated comments.                         |
 | [`Images`](../../../../../v242/Ansys/ACT/Automation/Mechanical/FatigueTool.md#FatigueTool.Images)                                     | Gets the list of associated images.                           |
@@ -262,7 +262,7 @@ Gets or sets the UseQuickRainflowCounting.
 
 ### *property* FatigueTool.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

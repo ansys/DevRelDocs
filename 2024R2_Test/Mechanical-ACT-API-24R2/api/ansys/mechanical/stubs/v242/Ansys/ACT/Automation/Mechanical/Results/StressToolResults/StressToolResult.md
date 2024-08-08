@@ -52,7 +52,7 @@ Defines a StressToolResult.
 |--------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                   | Gets the internal object. For advanced usage only.                     |
 | [`AverageAcrossBodies`](#StressToolResult.AverageAcrossBodies)                             | Gets or sets the AverageAcrossBodies.                                  |
-| [`DataModelObjectCategory`](#StressToolResult.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](#StressToolResult.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`PlotData`](#StressToolResult.PlotData)                                                   | Gets the result table.                                                 |
 | [`Location`](#StressToolResult.Location)                                                   | Gets or sets the Location.                                             |
 | [`TimeForMinimumOfMinimumValues`](#StressToolResult.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
@@ -132,7 +132,7 @@ Gets or sets the AverageAcrossBodies.
 
 ### *property* StressToolResult.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

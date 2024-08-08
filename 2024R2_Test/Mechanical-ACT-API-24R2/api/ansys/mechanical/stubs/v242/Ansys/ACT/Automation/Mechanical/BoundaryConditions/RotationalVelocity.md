@@ -51,7 +51,7 @@ Defines a RotationalVelocity.
 | [`DefineBy`](#RotationalVelocity.DefineBy)                               | Gets or sets the DefineBy.                                    |
 | [`IndependentVariable`](#RotationalVelocity.IndependentVariable)         | Gets or sets the IndependentVariable.                         |
 | [`CoordinateSystem`](#RotationalVelocity.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
-| [`DataModelObjectCategory`](#RotationalVelocity.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#RotationalVelocity.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Axis`](#RotationalVelocity.Axis)                                       | Gets or sets the Axis.                                        |
 | [`NumberOfSegments`](#RotationalVelocity.NumberOfSegments)               | Gets or sets the NumberOfSegments.                            |
 | [`Suppressed`](#RotationalVelocity.Suppressed)                           | Gets or sets the Suppressed.                                  |
@@ -168,7 +168,7 @@ Gets or sets the CoordinateSystem.
 
 ### *property* RotationalVelocity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -48,7 +48,7 @@ Defines a DirectionalAccelerationTracker.
 | [`LocationZCoordinate`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/DirectionalAccelerationTracker.md#DirectionalAccelerationTracker.LocationZCoordinate)                 | Gets or sets the LocationZCoordinate.                         |
 | [`LocationMethod`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/DirectionalAccelerationTracker.md#DirectionalAccelerationTracker.LocationMethod)                           | Gets or sets the LocationMethod.                              |
 | [`LocationCoordinateSystem`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/DirectionalAccelerationTracker.md#DirectionalAccelerationTracker.LocationCoordinateSystem)       | Gets or sets the LocationCoordinateSystem.                    |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/DirectionalAccelerationTracker.md#DirectionalAccelerationTracker.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/DirectionalAccelerationTracker.md#DirectionalAccelerationTracker.DataModelObjectCategory)         | Gets the current DataModelObject's category.                  |
 | [`IsSolved`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/DirectionalAccelerationTracker.md#DirectionalAccelerationTracker.IsSolved)                                       | Gets the IsSolved.                                            |
 | [`ChartDimensions`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/DirectionalAccelerationTracker.md#DirectionalAccelerationTracker.ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
 | [`BoundaryCondition`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/DirectionalAccelerationTracker.md#DirectionalAccelerationTracker.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
@@ -153,7 +153,7 @@ Gets or sets the LocationCoordinateSystem.
 
 ### *property* DirectionalAccelerationTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

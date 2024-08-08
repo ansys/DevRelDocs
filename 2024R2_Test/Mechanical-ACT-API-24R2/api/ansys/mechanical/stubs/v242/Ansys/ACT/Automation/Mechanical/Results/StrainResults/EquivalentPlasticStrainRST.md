@@ -51,7 +51,7 @@ Defines a EquivalentPlasticStrainRST.
 | Name | Description |
 |------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                             | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](#EquivalentPlasticStrainRST.DataModelObjectCategory)                     | Gets the current DataModelObjectâ€™s category.                           |
+| [`DataModelObjectCategory`](#EquivalentPlasticStrainRST.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
 | [`Mode`](#EquivalentPlasticStrainRST.Mode)                                                           | Gets or sets the Mode.                                                 |
 | [`Ply`](#EquivalentPlasticStrainRST.Ply)                                                             | Gets or sets the Ply selection.                                        |
 | [`Plies`](#EquivalentPlasticStrainRST.Plies)                                                         | Plies property.                                                        |
@@ -140,7 +140,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* EquivalentPlasticStrainRST.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

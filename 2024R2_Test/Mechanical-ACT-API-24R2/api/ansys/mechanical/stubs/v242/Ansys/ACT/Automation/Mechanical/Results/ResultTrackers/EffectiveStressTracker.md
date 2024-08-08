@@ -48,7 +48,7 @@ Defines a EffectiveStressTracker.
 | [`LocationZCoordinate`](#EffectiveStressTracker.LocationZCoordinate)                 | Gets or sets the LocationZCoordinate.                         |
 | [`LocationMethod`](#EffectiveStressTracker.LocationMethod)                           | Gets or sets the LocationMethod.                              |
 | [`LocationCoordinateSystem`](#EffectiveStressTracker.LocationCoordinateSystem)       | Gets or sets the LocationCoordinateSystem.                    |
-| [`DataModelObjectCategory`](#EffectiveStressTracker.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#EffectiveStressTracker.DataModelObjectCategory)         | Gets the current DataModelObject's category.                  |
 | [`IsSolved`](#EffectiveStressTracker.IsSolved)                                       | Gets the IsSolved.                                            |
 | [`ChartDimensions`](#EffectiveStressTracker.ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
 | [`BoundaryCondition`](#EffectiveStressTracker.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
@@ -153,7 +153,7 @@ Gets or sets the LocationCoordinateSystem.
 
 ### *property* EffectiveStressTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

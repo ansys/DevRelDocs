@@ -70,7 +70,7 @@ Defines a ThroughCrack.
 | [`Suppressed`](#ThroughCrack.Suppressed)                                 | Gets or sets the Suppressed.                                  |
 | [`CoordinateSystem`](#ThroughCrack.CoordinateSystem)                     | Gets or sets the CoordinateSystem.                            |
 | [`Location`](#ThroughCrack.Location)                                     | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#ThroughCrack.DataModelObjectCategory)       | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#ThroughCrack.DataModelObjectCategory)       | Gets the current DataModelObject's category.                  |
 | [`CrackID`](#ThroughCrack.CrackID)                                       | Gets the CrackID.                                             |
 | [`Children`](#ThroughCrack.Children)                                     | Gets the list of children.                                    |
 | [`Comments`](#ThroughCrack.Comments)                                     | Gets the list of associated comments.                         |
@@ -329,7 +329,7 @@ Gets or sets the Location.
 
 ### *property* ThroughCrack.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

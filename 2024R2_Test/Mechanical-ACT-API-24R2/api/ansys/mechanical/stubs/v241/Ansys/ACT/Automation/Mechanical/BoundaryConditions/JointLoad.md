@@ -53,7 +53,7 @@ Defines a JointLoad.
 | [`JointConditionType`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/JointLoad.md#JointLoad.JointConditionType)           | Gets or sets the JointConditionType.                          |
 | [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/JointLoad.md#JointLoad.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`Joint`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/JointLoad.md#JointLoad.Joint)                                     | Gets or sets the Joint.                                       |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/JointLoad.md#JointLoad.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/JointLoad.md#JointLoad.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/JointLoad.md#JointLoad.Children)                               | Gets the list of children.                                    |
 | [`Comments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/JointLoad.md#JointLoad.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/JointLoad.md#JointLoad.Figures)                                 | Gets the list of associated figures.                          |
@@ -150,7 +150,7 @@ Gets or sets the Joint.
 
 ### *property* JointLoad.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

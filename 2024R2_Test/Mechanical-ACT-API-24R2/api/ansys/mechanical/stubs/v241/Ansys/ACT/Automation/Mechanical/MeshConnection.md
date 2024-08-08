@@ -48,7 +48,7 @@ Defines a MeshConnection.
 | [`ThicknessScaleFactor`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshConnection.md#MeshConnection.ThicknessScaleFactor)       | Gets or sets the ThicknessScaleFactor.                        |
 | [`ToleranceValue`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshConnection.md#MeshConnection.ToleranceValue)                   | Gets or sets the ToleranceValue.                              |
 | [`ContactRegion`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshConnection.md#MeshConnection.ContactRegion)                     | Gets or sets the ContactRegion.                               |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshConnection.md#MeshConnection.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshConnection.md#MeshConnection.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`ScopingMethod`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshConnection.md#MeshConnection.ScopingMethod)                     | ScopingMethod property.                                       |
 | [`ToleranceSlider`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshConnection.md#MeshConnection.ToleranceSlider)                 | Gets or sets the ToleranceSlider.                             |
 | [`MasterBodies`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshConnection.md#MeshConnection.MasterBodies)                       | Gets the MasterBodies.                                        |
@@ -117,7 +117,7 @@ Gets or sets the ContactRegion.
 
 ### *property* MeshConnection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

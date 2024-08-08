@@ -49,7 +49,7 @@ Defines a HollowRectangularCrossSection.
 | [`Thick4`](../../../../../v242/Ansys/ACT/Automation/Mechanical/HollowRectangularCrossSection.md#HollowRectangularCrossSection.Thick4)                                   | Gets or sets the Thick4.                                      |
 | [`Width1`](../../../../../v242/Ansys/ACT/Automation/Mechanical/HollowRectangularCrossSection.md#HollowRectangularCrossSection.Width1)                                   | Gets or sets the Width1.                                      |
 | [`Width2`](../../../../../v242/Ansys/ACT/Automation/Mechanical/HollowRectangularCrossSection.md#HollowRectangularCrossSection.Width2)                                   | Gets or sets the Width2.                                      |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/HollowRectangularCrossSection.md#HollowRectangularCrossSection.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/HollowRectangularCrossSection.md#HollowRectangularCrossSection.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/HollowRectangularCrossSection.md#HollowRectangularCrossSection.Children)                               | Gets the list of children.                                    |
 | [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/HollowRectangularCrossSection.md#HollowRectangularCrossSection.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/HollowRectangularCrossSection.md#HollowRectangularCrossSection.Figures)                                 | Gets the list of associated figures.                          |
@@ -147,7 +147,7 @@ Gets or sets the Width2.
 
 ### *property* HollowRectangularCrossSection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

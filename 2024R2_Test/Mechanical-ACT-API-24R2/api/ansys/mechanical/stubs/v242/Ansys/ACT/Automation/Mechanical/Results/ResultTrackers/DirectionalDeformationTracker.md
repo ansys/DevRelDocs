@@ -48,7 +48,7 @@ Defines a DirectionalDeformationTracker.
 | [`LocationZCoordinate`](#DirectionalDeformationTracker.LocationZCoordinate)                 | Gets or sets the LocationZCoordinate.                         |
 | [`LocationMethod`](#DirectionalDeformationTracker.LocationMethod)                           | Gets or sets the LocationMethod.                              |
 | [`LocationCoordinateSystem`](#DirectionalDeformationTracker.LocationCoordinateSystem)       | Gets or sets the LocationCoordinateSystem.                    |
-| [`DataModelObjectCategory`](#DirectionalDeformationTracker.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#DirectionalDeformationTracker.DataModelObjectCategory)         | Gets the current DataModelObject's category.                  |
 | [`IsSolved`](#DirectionalDeformationTracker.IsSolved)                                       | Gets the IsSolved.                                            |
 | [`ChartDimensions`](#DirectionalDeformationTracker.ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
 | [`BoundaryCondition`](#DirectionalDeformationTracker.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
@@ -153,7 +153,7 @@ Gets or sets the LocationCoordinateSystem.
 
 ### *property* DirectionalDeformationTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -18,7 +18,7 @@ ISolveConfiguration interface.
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
-| [`SetAsDefault`](../../../../../../v242/Ansys/ACT/Mechanical/Application/SolveProcessSettings/ISolveConfiguration.md#ISolveConfiguration.SetAsDefault)   | Sets â€˜thisâ€™ to be the default configuration to solve with.   |
+| [`SetAsDefault`](../../../../../../v242/Ansys/ACT/Mechanical/Application/SolveProcessSettings/ISolveConfiguration.md#ISolveConfiguration.SetAsDefault)   | Sets â€˜this' to be the default configuration to solve with.   |
 
 ### Properties
 
@@ -73,7 +73,7 @@ Gets the SolveProcessSettings for the current object.
 
 ### ISolveConfiguration.SetAsDefault()
 
-Sets â€˜thisâ€™ to be the default configuration to solve with.
+Sets â€˜this' to be the default configuration to solve with.
 
 <!-- !! processed by numpydoc !! -->
 

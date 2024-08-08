@@ -72,7 +72,7 @@ Defines a FatigueTool.
 | [`AnalysisType`](#FatigueTool.AnalysisType)                         | Gets or sets the AnalysisType.                                |
 | [`UnitsName`](#FatigueTool.UnitsName)                               | Gets or sets the UnitsName.                                   |
 | [`UseQuickRainflowCounting`](#FatigueTool.UseQuickRainflowCounting) | Gets or sets the UseQuickRainflowCounting.                    |
-| [`DataModelObjectCategory`](#FatigueTool.DataModelObjectCategory)   | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#FatigueTool.DataModelObjectCategory)   | Gets the current DataModelObject's category.                  |
 | [`Children`](#FatigueTool.Children)                                 | Gets the list of children.                                    |
 | [`Comments`](#FatigueTool.Comments)                                 | Gets the list of associated comments.                         |
 | [`Images`](#FatigueTool.Images)                                     | Gets the list of associated images.                           |
@@ -264,7 +264,7 @@ Gets or sets the UseQuickRainflowCounting.
 
 ### *property* FatigueTool.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

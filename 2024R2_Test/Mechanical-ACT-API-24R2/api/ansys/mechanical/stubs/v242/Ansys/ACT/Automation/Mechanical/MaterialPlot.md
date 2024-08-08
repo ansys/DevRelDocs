@@ -43,7 +43,7 @@ Defines a MaterialPlot.
 | [`MaterialProperty`](#MaterialPlot.MaterialProperty)                   | Gets or sets the MaterialProperty.                            |
 | [`Suppressed`](#MaterialPlot.Suppressed)                               | Gets or sets the Suppressed.                                  |
 | [`Location`](#MaterialPlot.Location)                                   | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#MaterialPlot.DataModelObjectCategory)     | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#MaterialPlot.DataModelObjectCategory)     | Gets the current DataModelObject's category.                  |
 | [`Children`](#MaterialPlot.Children)                                   | Gets the list of children.                                    |
 | [`InternalObject`](#id0)                                               | Gets the internal object. For advanced usage only.            |
 | [`Properties`](#MaterialPlot.Properties)                               | Gets the list of properties for this object.                  |
@@ -97,7 +97,7 @@ Gets or sets the Location.
 
 ### *property* MaterialPlot.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -23,7 +23,7 @@ Defines a ImportedBodyForceDensity.
 | [`ExportToTextFile`](#ImportedBodyForceDensity.ExportToTextFile)               | Run the ExportToTextFile action.                                                        |
 | [`Import`](#ImportedBodyForceDensity.Import)                                   | Import.                                                                                 |
 | [`ImportLoad`](#ImportedBodyForceDensity.ImportLoad)                           | Run the ImportLoad action.                                                              |
-| [`ReloadConfiguration`](#ImportedBodyForceDensity.ReloadConfiguration)         | Reload the Imported Loadâ€™s setup from its associated configuration file (if available). |
+| [`ReloadConfiguration`](#ImportedBodyForceDensity.ReloadConfiguration)         | Reload the Imported Load's setup from its associated configuration file (if available). |
 | [`AddMappingValidation`](#ImportedBodyForceDensity.AddMappingValidation)       | Creates a new MappingValidation                                                         |
 | [`ClearGeneratedData`](#ImportedBodyForceDensity.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                      |
 | [`Delete`](#ImportedBodyForceDensity.Delete)                                   | Run the Delete action.                                                                  |
@@ -48,7 +48,7 @@ Defines a ImportedBodyForceDensity.
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                                 | Gets the internal object. For advanced usage only.                                                      |
-| [`DataModelObjectCategory`](#ImportedBodyForceDensity.DataModelObjectCategory)                           | Gets the current DataModelObjectâ€™s category.                                                            |
+| [`DataModelObjectCategory`](#ImportedBodyForceDensity.DataModelObjectCategory)                           | Gets the current DataModelObject's category.                                                            |
 | [`Weighting`](#ImportedBodyForceDensity.Weighting)                                                       | Weighting property.                                                                                     |
 | [`MappingControl`](#ImportedBodyForceDensity.MappingControl)                                             | MappingControl property.                                                                                |
 | [`DisplaySourcePoints`](#ImportedBodyForceDensity.DisplaySourcePoints)                                   | DisplaySourcePoints property.                                                                           |
@@ -115,7 +115,7 @@ Gets the internal object. For advanced usage only.
 
 ### *property* ImportedBodyForceDensity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -559,7 +559,7 @@ Run the ImportLoad action.
 
 ### ImportedBodyForceDensity.ReloadConfiguration()
 
-Reload the Imported Loadâ€™s setup from its associated configuration file (if available).
+Reload the Imported Load's setup from its associated configuration file (if available).
 
 <!-- !! processed by numpydoc !! -->
 

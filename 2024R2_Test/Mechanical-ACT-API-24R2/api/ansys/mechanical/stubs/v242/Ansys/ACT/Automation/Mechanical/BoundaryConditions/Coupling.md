@@ -43,7 +43,7 @@ Defines a Coupling.
 | [`DOFSelection`](#Coupling.DOFSelection)                       | Gets or sets the DOFSelection.                                |
 | [`Suppressed`](#Coupling.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`Location`](#Coupling.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#Coupling.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#Coupling.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](#Coupling.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#Coupling.Comments)                               | Gets the list of associated comments.                         |
 | [`Images`](#Coupling.Images)                                   | Gets the list of associated images.                           |
@@ -99,7 +99,7 @@ Gets or sets the Location.
 
 ### *property* Coupling.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -23,7 +23,7 @@ Defines a ImportedConvection.
 | [`ExportToTextFile`](#ImportedConvection.ExportToTextFile)               | Run the ExportToTextFile action.                                                        |
 | [`Import`](#ImportedConvection.Import)                                   | Import.                                                                                 |
 | [`ImportLoad`](#ImportedConvection.ImportLoad)                           | Run the ImportLoad action.                                                              |
-| [`ReloadConfiguration`](#ImportedConvection.ReloadConfiguration)         | Reload the Imported Loadâ€™s setup from its associated configuration file (if available). |
+| [`ReloadConfiguration`](#ImportedConvection.ReloadConfiguration)         | Reload the Imported Load's setup from its associated configuration file (if available). |
 | [`AddMappingValidation`](#ImportedConvection.AddMappingValidation)       | Creates a new MappingValidation                                                         |
 | [`ClearGeneratedData`](#ImportedConvection.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                      |
 | [`Delete`](#ImportedConvection.Delete)                                   | Run the Delete action.                                                                  |
@@ -51,7 +51,7 @@ Defines a ImportedConvection.
 | [`DisplayConnectionLines`](#ImportedConvection.DisplayConnectionLines)                             | Gets or sets the DisplayConnectionLines.                                                                |
 | [`FluidFlow`](#ImportedConvection.FluidFlow)                                                       | Gets or sets the FluidFlow.                                                                             |
 | [`FluidFlowLocation`](#ImportedConvection.FluidFlowLocation)                                       | Gets or sets the FluidFlowLocation.                                                                     |
-| [`DataModelObjectCategory`](#ImportedConvection.DataModelObjectCategory)                           | Gets the current DataModelObjectâ€™s category.                                                            |
+| [`DataModelObjectCategory`](#ImportedConvection.DataModelObjectCategory)                           | Gets the current DataModelObject's category.                                                            |
 | [`Weighting`](#ImportedConvection.Weighting)                                                       | Weighting property.                                                                                     |
 | [`MappingControl`](#ImportedConvection.MappingControl)                                             | MappingControl property.                                                                                |
 | [`DisplaySourcePoints`](#ImportedConvection.DisplaySourcePoints)                                   | DisplaySourcePoints property.                                                                           |
@@ -142,7 +142,7 @@ Gets or sets the FluidFlowLocation.
 
 ### *property* ImportedConvection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -586,7 +586,7 @@ Run the ImportLoad action.
 
 ### ImportedConvection.ReloadConfiguration()
 
-Reload the Imported Loadâ€™s setup from its associated configuration file (if available).
+Reload the Imported Load's setup from its associated configuration file (if available).
 
 <!-- !! processed by numpydoc !! -->
 

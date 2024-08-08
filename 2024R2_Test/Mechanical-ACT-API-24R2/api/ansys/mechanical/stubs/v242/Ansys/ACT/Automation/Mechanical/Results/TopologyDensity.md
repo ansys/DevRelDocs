@@ -47,7 +47,7 @@ Defines a TopologyDensity.
 |-----------------------------------------------------------------------|---------------------------------------------------------------|
 | [`InternalObject`](#id0)                                              | Gets the internal object. For advanced usage only.            |
 | [`RetainedThreshold`](#TopologyDensity.RetainedThreshold)             | Gets or sets the RetainedThreshold.                           |
-| [`DataModelObjectCategory`](#TopologyDensity.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#TopologyDensity.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Location`](#TopologyDensity.Location)                               | Gets or sets the Location.                                    |
 | [`IterationNumber`](#TopologyDensity.IterationNumber)                 | Gets the IterationNumber.                                     |
 | [`IterationStep`](#TopologyDensity.IterationStep)                     | Gets or sets the IterationStep.                               |
@@ -97,7 +97,7 @@ Gets or sets the RetainedThreshold.
 
 ### *property* TopologyDensity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

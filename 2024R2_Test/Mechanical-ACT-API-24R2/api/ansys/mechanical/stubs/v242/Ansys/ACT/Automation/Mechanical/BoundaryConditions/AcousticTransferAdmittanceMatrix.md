@@ -62,7 +62,7 @@ Defines a AcousticTransferAdmittanceMatrix.
 | [`TransferAdmittanceModel`](#AcousticTransferAdmittanceMatrix.TransferAdmittanceModel)       | Gets or sets the TransferAdmittanceModel.                     |
 | [`Port1`](#AcousticTransferAdmittanceMatrix.Port1)                                           | Gets or sets the Port1.                                       |
 | [`Port2`](#AcousticTransferAdmittanceMatrix.Port2)                                           | Gets or sets the Port2.                                       |
-| [`DataModelObjectCategory`](#AcousticTransferAdmittanceMatrix.DataModelObjectCategory)       | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#AcousticTransferAdmittanceMatrix.DataModelObjectCategory)       | Gets the current DataModelObject's category.                  |
 | [`Suppressed`](#AcousticTransferAdmittanceMatrix.Suppressed)                                 | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#AcousticTransferAdmittanceMatrix.SharedRefBody)                           | Gets or sets the SharedRefBody.                               |
 | [`Children`](#AcousticTransferAdmittanceMatrix.Children)                                     | Gets the list of children.                                    |
@@ -258,7 +258,7 @@ Gets or sets the Port2.
 
 ### *property* AcousticTransferAdmittanceMatrix.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

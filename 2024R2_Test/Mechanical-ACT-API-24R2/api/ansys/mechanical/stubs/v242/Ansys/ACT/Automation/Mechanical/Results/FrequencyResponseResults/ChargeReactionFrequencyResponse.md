@@ -44,7 +44,7 @@ Defines a ChargeReactionFrequencyResponse.
 |-----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
 | [`InternalObject`](#id0)                                                                      | Gets the internal object. For advanced usage only.                                               |
 | [`LocationMethod`](#ChargeReactionFrequencyResponse.LocationMethod)                           | Gets or sets the LocationMethod.                                                                 |
-| [`DataModelObjectCategory`](#ChargeReactionFrequencyResponse.DataModelObjectCategory)         | Gets the current DataModelObjectâ€™s category.                                                     |
+| [`DataModelObjectCategory`](#ChargeReactionFrequencyResponse.DataModelObjectCategory)         | Gets the current DataModelObject's category.                                                     |
 | [`CoordinateSystem`](#ChargeReactionFrequencyResponse.CoordinateSystem)                       | Gets or sets the CoordinateSystem. Accepts/Returns None if it is the Solution Coordinate System. |
 | [`RemotePointSelection`](#ChargeReactionFrequencyResponse.RemotePointSelection)               | Gets or sets the RemotePointSelection.                                                           |
 | [`IsSolved`](#ChargeReactionFrequencyResponse.IsSolved)                                       | Gets the IsSolved.                                                                               |
@@ -118,7 +118,7 @@ Gets or sets the LocationMethod.
 
 ### *property* ChargeReactionFrequencyResponse.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

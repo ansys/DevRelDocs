@@ -89,7 +89,7 @@ Defines a AMBuildSettings.
 | [`ScanPatternDefinition`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/AMBuildSettings.md#AMBuildSettings.ScanPatternDefinition)                             | Gets or sets the ScanPatternDefinition.                                                        |
 | [`ThermalStrainMethod`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/AMBuildSettings.md#AMBuildSettings.ThermalStrainMethod)                                 | Gets or sets the ThermalStrainMethod.                                                          |
 | [`InherentStrain`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/AMBuildSettings.md#AMBuildSettings.InherentStrain)                                           | Gets or sets the InherentStrain.                                                               |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/AMBuildSettings.md#AMBuildSettings.DataModelObjectCategory)                         | Gets the current DataModelObjectâ€™s category.                                                   |
+| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/AMBuildSettings.md#AMBuildSettings.DataModelObjectCategory)                         | Gets the current DataModelObject's category.                                                   |
 | [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/AMBuildSettings.md#AMBuildSettings.Children)                                                       | Gets the list of children.                                                                     |
 | [`Comments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/AMBuildSettings.md#AMBuildSettings.Comments)                                                       | Gets the list of associated comments.                                                          |
 | [`Figures`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/AMBuildSettings.md#AMBuildSettings.Figures)                                                         | Gets the list of associated figures.                                                           |
@@ -482,7 +482,7 @@ Gets or sets the InherentStrain.
 
 ### *property* AMBuildSettings.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

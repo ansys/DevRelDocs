@@ -45,7 +45,7 @@ Defines a GeometryFileContainer.
 | [`LengthUnits`](#GeometryFileContainer.LengthUnits)                         | Gets or sets the LengthUnits.                                 |
 | [`ShowAlways`](#GeometryFileContainer.ShowAlways)                           | Gets or sets the ShowAlways.                                  |
 | [`Suppressed`](#GeometryFileContainer.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`DataModelObjectCategory`](#GeometryFileContainer.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#GeometryFileContainer.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](#GeometryFileContainer.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#GeometryFileContainer.Comments)                               | Gets the list of associated comments.                         |
 | [`Figures`](#GeometryFileContainer.Figures)                                 | Gets the list of associated figures.                          |
@@ -103,7 +103,7 @@ Gets or sets the Suppressed.
 
 ### *property* GeometryFileContainer.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 

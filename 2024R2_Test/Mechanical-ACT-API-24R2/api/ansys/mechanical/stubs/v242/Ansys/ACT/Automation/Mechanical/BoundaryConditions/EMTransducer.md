@@ -55,7 +55,7 @@ Defines a EMTransducer.
 | [`IndependentVariable`](#EMTransducer.IndependentVariable)         | Gets or sets the IndependentVariable.                         |
 | [`CoordinateSystem`](#EMTransducer.CoordinateSystem)               | Gets the CoordinateSystem.                                    |
 | [`Location`](#EMTransducer.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#EMTransducer.DataModelObjectCategory) | Gets the current DataModelObjectâ€™s category.                  |
+| [`DataModelObjectCategory`](#EMTransducer.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Suppressed`](#EMTransducer.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#EMTransducer.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
 | [`Children`](#EMTransducer.Children)                               | Gets the list of children.                                    |
@@ -163,7 +163,7 @@ Gets or sets the Location.
 
 ### *property* EMTransducer.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObjectâ€™s category.
+Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 
