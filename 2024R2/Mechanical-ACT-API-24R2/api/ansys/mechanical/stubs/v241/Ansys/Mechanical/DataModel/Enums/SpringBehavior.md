@@ -1,0 +1,46 @@
+# `SpringBehavior`
+
+
+
+#### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SpringBehavior
+
+Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
+
+Specifies the SpringBehavior.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
+
+## Overview
+
+### Attributes
+
+| Name |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`Linear`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SpringBehavior.md#SpringBehavior.Linear) |
+| [`NonLinear`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SpringBehavior.md#SpringBehavior.NonLinear) |
+| [`NonLinearCompressionOnly`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SpringBehavior.md#SpringBehavior.NonLinearCompressionOnly) |
+| [`NonLinearTensionOnly`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SpringBehavior.md#SpringBehavior.NonLinearTensionOnly) |
+
+<a id="attribute-detail"></a>
+
+## Attribute detail
+
+<a id="SpringBehavior.Linear"></a>
+
+### SpringBehavior.Linear *= 0*
+
+<a id="SpringBehavior.NonLinear"></a>
+
+### SpringBehavior.NonLinear *= 3*
+
+<a id="SpringBehavior.NonLinearCompressionOnly"></a>
+
+### SpringBehavior.NonLinearCompressionOnly *= 1*
+
+<a id="SpringBehavior.NonLinearTensionOnly"></a>
+
+### SpringBehavior.NonLinearTensionOnly *= 2*
+
+

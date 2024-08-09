@@ -1,0 +1,36 @@
+# `ShellThicknessUpdate`
+
+
+
+#### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShellThicknessUpdate
+
+Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
+
+Specifies the ShellThicknessUpdate.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
+
+## Overview
+
+### Attributes
+
+| Name |
+| ------------------------------------------------------------------------------------------------------------------------------ |
+| [`Elemental`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ShellThicknessUpdate.md#ShellThicknessUpdate.Elemental) |
+| [`Nodal`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ShellThicknessUpdate.md#ShellThicknessUpdate.Nodal) |
+
+<a id="attribute-detail"></a>
+
+## Attribute detail
+
+<a id="ShellThicknessUpdate.Elemental"></a>
+
+### ShellThicknessUpdate.Elemental *= 1*
+
+<a id="ShellThicknessUpdate.Nodal"></a>
+
+### ShellThicknessUpdate.Nodal *= 0*
+
+

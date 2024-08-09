@@ -1,0 +1,46 @@
+# `TopoOptimizationExportDesignProperties`
+
+
+
+#### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TopoOptimizationExportDesignProperties
+
+Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
+
+Specifies the TopoOptimizationExportDesignProperties.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
+
+## Overview
+
+### Attributes
+
+| Name |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [`AllAcceptedIterations`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TopoOptimizationExportDesignProperties.md#TopoOptimizationExportDesignProperties.AllAcceptedIterations) |
+| [`LastAcceptedIteration`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TopoOptimizationExportDesignProperties.md#TopoOptimizationExportDesignProperties.LastAcceptedIteration) |
+| [`No`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TopoOptimizationExportDesignProperties.md#TopoOptimizationExportDesignProperties.No) |
+| [`OnFinalDesign`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TopoOptimizationExportDesignProperties.md#TopoOptimizationExportDesignProperties.OnFinalDesign) |
+
+<a id="attribute-detail"></a>
+
+## Attribute detail
+
+<a id="TopoOptimizationExportDesignProperties.AllAcceptedIterations"></a>
+
+### TopoOptimizationExportDesignProperties.AllAcceptedIterations *= 2*
+
+<a id="TopoOptimizationExportDesignProperties.LastAcceptedIteration"></a>
+
+### TopoOptimizationExportDesignProperties.LastAcceptedIteration *= 3*
+
+<a id="TopoOptimizationExportDesignProperties.No"></a>
+
+### TopoOptimizationExportDesignProperties.No *= 0*
+
+<a id="TopoOptimizationExportDesignProperties.OnFinalDesign"></a>
+
+### TopoOptimizationExportDesignProperties.OnFinalDesign *= 1*
+
+
