@@ -1,0 +1,36 @@
+# `ResultRelativityType`
+
+
+
+#### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultRelativityType
+
+Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
+
+Specifies the ResultRelativityType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
+
+## Overview
+
+### Attributes
+
+| Name |
+| ---------------------------------------------------------------------------------------------------------------------------- |
+| [`Absolute`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultRelativityType.md#ResultRelativityType.Absolute) |
+| [`Relative`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultRelativityType.md#ResultRelativityType.Relative) |
+
+<a id="attribute-detail"></a>
+
+## Attribute detail
+
+<a id="ResultRelativityType.Absolute"></a>
+
+### ResultRelativityType.Absolute *= 0*
+
+<a id="ResultRelativityType.Relative"></a>
+
+### ResultRelativityType.Relative *= 1*
+
+

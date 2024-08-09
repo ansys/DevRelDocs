@@ -1,0 +1,36 @@
+# `ExcitationType`
+
+
+
+#### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExcitationType
+
+Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
+
+Specifies the ExcitationType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="overview"></a>
+
+## Overview
+
+### Attributes
+
+| Name |
+| ---------------------------------------------------------------------------------------------------------------- |
+| [`Pressure`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExcitationType.md#ExcitationType.Pressure) |
+| [`Velocity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExcitationType.md#ExcitationType.Velocity) |
+
+<a id="attribute-detail"></a>
+
+## Attribute detail
+
+<a id="ExcitationType.Pressure"></a>
+
+### ExcitationType.Pressure *= 0*
+
+<a id="ExcitationType.Velocity"></a>
+
+### ExcitationType.Velocity *= 1*
+
+
