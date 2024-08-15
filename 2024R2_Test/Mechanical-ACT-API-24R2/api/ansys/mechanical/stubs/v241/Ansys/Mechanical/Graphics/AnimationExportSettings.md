@@ -17,23 +17,19 @@ AnimationExportSettings class.
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------|------------------------------|
-| [`Width`](../../../../v242/Ansys/Mechanical/Graphics/AnimationExportSettings.md#AnimationExportSettings.Width)   | Specifies the video width.   |
-| [`Height`](../../../../v242/Ansys/Mechanical/Graphics/AnimationExportSettings.md#AnimationExportSettings.Height) | Specifies the video height.  |
+|-----------|------------------------------|
+| `Width`   | Specifies the video width.   |
+| `Height`  | Specifies the video height.  |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="AnimationExportSettings.Width"></a>
 
 ### *property* AnimationExportSettings.Width *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Specifies the video width.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="AnimationExportSettings.Height"></a>
 
 ### *property* AnimationExportSettings.Height *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 

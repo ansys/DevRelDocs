@@ -17,15 +17,13 @@ A base class for Table import settings.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------|---------------------------------------------------------|
-| [`Format`](#ImportSettingsBase.Format)     | Gets the existing corresponding format.                 |
-| [`PathType`](#ImportSettingsBase.PathType) | Gets or sets the type of URI provided for Table import. |
+|------------|---------------------------------------------------------|
+| `Format`   | Gets the existing corresponding format.                 |
+| `PathType` | Gets or sets the type of URI provided for Table import. |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="ImportSettingsBase.Format"></a>
 
 ### *property* ImportSettingsBase.Format *: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.ImportFormat](../../../../v241/Ansys/Mechanical/DataModel/MechanicalEnums/Table/ImportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.Table.ImportFormat) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -33,12 +31,10 @@ Gets the existing corresponding format.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ImportSettingsBase.PathType"></a>
-
 ### *property* ImportSettingsBase.PathType *: [Ansys.Mechanical.DataModel.MechanicalEnums.Common.PathType](../../../../v241/Ansys/Mechanical/DataModel/MechanicalEnums/Common/PathType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.Common.PathType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the type of URI provided for Table import.
-Default:
+Default: F:Ansys.Mechanical.DataModel.MechanicalEnums.Common.PathType.Absolute
 
 <!-- !! processed by numpydoc !! -->
 

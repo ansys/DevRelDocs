@@ -17,62 +17,60 @@ Defines a InterfaceDelamination.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`AddCommandSnippet`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
-| [`Delete`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#id1)                                                       | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#id1)                                                       | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.AddComment)                           | Creates a new child Comment.                                                      |
-| [`AddFigure`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.AddFigure)                             | Creates a new child Figure.                                                       |
-| [`AddImage`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.Activate)                               | Activate the current object.                                                      |
-| [`CopyTo`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.CopyTo)                                   | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.PropertyByName)                   | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+|---------------------------|-----------------------------------------------------------------------------------|
+| `AddCommandSnippet`       | Creates a new CommandSnippet                                                      |
+| `Delete`                  | Run the Delete action.                                                            |
+| `GetChildren`             | Gets the list of children, filtered by type.                                      |
+| `GetChildren`             | Gets the list of children, filtered by type.                                      |
+| `AddComment`              | Creates a new child Comment.                                                      |
+| `AddFigure`               | Creates a new child Figure.                                                       |
+| `AddImage`                | Creates a new child Image.                                                        |
+| `Activate`                | Activate the current object.                                                      |
+| `CopyTo`                  | Copies all visible properties from this object to another.                        |
+| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
+| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
+| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
+| `PropertyByName`          | Get a property by its unique name.                                                |
+| `PropertyByAPIName`       | Get a property by its API name.                                                   |
+| `CreateParameter`         | Creates a new parameter for a Property.                                           |
+| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
+| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`AutomaticTimeStepping`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.AutomaticTimeStepping)     | Gets or sets the AutomaticTimeStepping.                       |
-| [`FailureCriteriaOption`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.FailureCriteriaOption)     | Gets or sets the FailureCriteriaOption.                       |
-| [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#id0)                                                    | Gets the internal object. For advanced usage only.            |
-| [`Material`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.Material)                               | Gets or sets the Material.                                    |
-| [`DistanceTolerance`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.DistanceTolerance)             | Gets or sets the DistanceTolerance.                           |
-| [`CriticalRate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.CriticalRate)                       | Gets or sets the CriticalRate.                                |
-| [`InitialTimeStep`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.InitialTimeStep)                 | Gets or sets the InitialTimeStep.                             |
-| [`MaximumTimeStep`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.MaximumTimeStep)                 | Gets or sets the MaximumTimeStep.                             |
-| [`MinimumTimeStep`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.MinimumTimeStep)                 | Gets or sets the MinimumTimeStep.                             |
-| [`Method`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.Method)                                   | Gets or sets the Method.                                      |
-| [`Type`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.Type)                                       | Gets the Type.                                                |
-| [`GenerationMethod`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.GenerationMethod)               | Gets or sets the GenerationMethod.                            |
-| [`ToleranceType`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.ToleranceType)                     | Gets or sets the ToleranceType.                               |
-| [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`InitialCrack`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.InitialCrack)                       | Gets or sets the InitialCrack.                                |
-| [`MatchControl`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.MatchControl)                       | Gets or sets the MatchControl.                                |
-| [`SourceLocation`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.SourceLocation)                   | Gets or sets the SourceLocation.                              |
-| [`TargetLocation`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.TargetLocation)                   | Gets or sets the TargetLocation.                              |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
-| [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.Children)                               | Gets the list of children.                                    |
-| [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.Comments)                               | Gets the list of associated comments.                         |
-| [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.Figures)                                 | Gets the list of associated figures.                          |
-| [`Images`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.Images)                                   | Gets the list of associated images.                           |
-| [`ReadOnly`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
-| [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#id0)                                                    | Gets the internal object. For advanced usage only.            |
-| [`Properties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.Properties)                           | Gets the list of properties for this object.                  |
-| [`VisibleProperties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/InterfaceDelamination.md#InterfaceDelamination.VisibleProperties)             | Gets the list of properties that are visible for this object. |
+|---------------------------|---------------------------------------------------------------|
+| `AutomaticTimeStepping`   | Gets or sets the AutomaticTimeStepping.                       |
+| `FailureCriteriaOption`   | Gets or sets the FailureCriteriaOption.                       |
+| `InternalObject`          | Gets the internal object. For advanced usage only.            |
+| `Material`                | Gets or sets the Material.                                    |
+| `DistanceTolerance`       | Gets or sets the DistanceTolerance.                           |
+| `CriticalRate`            | Gets or sets the CriticalRate.                                |
+| `InitialTimeStep`         | Gets or sets the InitialTimeStep.                             |
+| `MaximumTimeStep`         | Gets or sets the MaximumTimeStep.                             |
+| `MinimumTimeStep`         | Gets or sets the MinimumTimeStep.                             |
+| `Method`                  | Gets or sets the Method.                                      |
+| `Type`                    | Gets the Type.                                                |
+| `GenerationMethod`        | Gets or sets the GenerationMethod.                            |
+| `ToleranceType`           | Gets or sets the ToleranceType.                               |
+| `Suppressed`              | Gets or sets the Suppressed.                                  |
+| `InitialCrack`            | Gets or sets the InitialCrack.                                |
+| `MatchControl`            | Gets or sets the MatchControl.                                |
+| `SourceLocation`          | Gets or sets the SourceLocation.                              |
+| `TargetLocation`          | Gets or sets the TargetLocation.                              |
+| `DataModelObjectCategory` | Gets the current DataModelObject's category.                  |
+| `Children`                | Gets the list of children.                                    |
+| `Comments`                | Gets the list of associated comments.                         |
+| `Figures`                 | Gets the list of associated figures.                          |
+| `Images`                  | Gets the list of associated images.                           |
+| `ReadOnly`                | Gets or sets the ReadOnly.                                    |
+| `InternalObject`          | Gets the internal object. For advanced usage only.            |
+| `Properties`              | Gets the list of properties for this object.                  |
+| `VisibleProperties`       | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="InterfaceDelamination.AutomaticTimeStepping"></a>
 
 ### *property* InterfaceDelamination.AutomaticTimeStepping *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](../../../Mechanical/DataModel/Enums/AutomaticOrManual.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -80,15 +78,11 @@ Gets or sets the AutomaticTimeStepping.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="InterfaceDelamination.FailureCriteriaOption"></a>
-
 ### *property* InterfaceDelamination.FailureCriteriaOption *: [Ansys.Mechanical.DataModel.Enums.DelaminationFailureCriteriaOption](../../../Mechanical/DataModel/Enums/DelaminationFailureCriteriaOption.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DelaminationFailureCriteriaOption) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FailureCriteriaOption.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="InterfaceDelamination.InternalObject"></a>
 
 ### *property* InterfaceDelamination.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSDelaminationAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -96,15 +90,11 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="InterfaceDelamination.Material"></a>
-
 ### *property* InterfaceDelamination.Material *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Material.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="InterfaceDelamination.DistanceTolerance"></a>
 
 ### *property* InterfaceDelamination.DistanceTolerance *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -112,15 +102,11 @@ Gets or sets the DistanceTolerance.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="InterfaceDelamination.CriticalRate"></a>
-
 ### *property* InterfaceDelamination.CriticalRate *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CriticalRate.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="InterfaceDelamination.InitialTimeStep"></a>
 
 ### *property* InterfaceDelamination.InitialTimeStep *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -128,15 +114,11 @@ Gets or sets the InitialTimeStep.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="InterfaceDelamination.MaximumTimeStep"></a>
-
 ### *property* InterfaceDelamination.MaximumTimeStep *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MaximumTimeStep.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="InterfaceDelamination.MinimumTimeStep"></a>
 
 ### *property* InterfaceDelamination.MinimumTimeStep *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -144,15 +126,11 @@ Gets or sets the MinimumTimeStep.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="InterfaceDelamination.Method"></a>
-
 ### *property* InterfaceDelamination.Method *: [Ansys.Mechanical.DataModel.Enums.DelaminationMethod](../../../Mechanical/DataModel/Enums/DelaminationMethod.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DelaminationMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Method.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="InterfaceDelamination.Type"></a>
 
 ### *property* InterfaceDelamination.Type *: [Ansys.Mechanical.DataModel.Enums.DelaminationType](../../../Mechanical/DataModel/Enums/DelaminationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DelaminationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -160,15 +138,11 @@ Gets the Type.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="InterfaceDelamination.GenerationMethod"></a>
-
 ### *property* InterfaceDelamination.GenerationMethod *: [Ansys.Mechanical.DataModel.Enums.DelaminationGenerationMethod](../../../Mechanical/DataModel/Enums/DelaminationGenerationMethod.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DelaminationGenerationMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GenerationMethod.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="InterfaceDelamination.ToleranceType"></a>
 
 ### *property* InterfaceDelamination.ToleranceType *: [Ansys.Mechanical.DataModel.Enums.ToleranceType](../../../Mechanical/DataModel/Enums/ToleranceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -176,15 +150,11 @@ Gets or sets the ToleranceType.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="InterfaceDelamination.Suppressed"></a>
-
 ### *property* InterfaceDelamination.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="InterfaceDelamination.InitialCrack"></a>
 
 ### *property* InterfaceDelamination.InitialCrack *: [Ansys.ACT.Automation.Mechanical.GenericCrack](GenericCrack.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.GenericCrack) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -192,15 +162,11 @@ Gets or sets the InitialCrack.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="InterfaceDelamination.MatchControl"></a>
-
 ### *property* InterfaceDelamination.MatchControl *: [Ansys.ACT.Automation.Mechanical.MeshControls.MatchControl](MeshControls/MatchControl.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshControls.MatchControl) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MatchControl.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="InterfaceDelamination.SourceLocation"></a>
 
 ### *property* InterfaceDelamination.SourceLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -208,15 +174,11 @@ Gets or sets the SourceLocation.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="InterfaceDelamination.TargetLocation"></a>
-
 ### *property* InterfaceDelamination.TargetLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TargetLocation.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="InterfaceDelamination.DataModelObjectCategory"></a>
 
 ### *property* InterfaceDelamination.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -224,15 +186,11 @@ Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="InterfaceDelamination.Children"></a>
-
 ### *property* InterfaceDelamination.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="InterfaceDelamination.Comments"></a>
 
 ### *property* InterfaceDelamination.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -240,15 +198,11 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="InterfaceDelamination.Figures"></a>
-
 ### *property* InterfaceDelamination.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="InterfaceDelamination.Images"></a>
 
 ### *property* InterfaceDelamination.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -256,15 +210,11 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="InterfaceDelamination.ReadOnly"></a>
-
 ### *property* InterfaceDelamination.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="id0"></a>
 
 ### *property* InterfaceDelamination.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -272,15 +222,11 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="InterfaceDelamination.Properties"></a>
-
 ### *property* InterfaceDelamination.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="InterfaceDelamination.VisibleProperties"></a>
 
 ### *property* InterfaceDelamination.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -292,15 +238,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="InterfaceDelamination.AddCommandSnippet"></a>
-
 ### InterfaceDelamination.AddCommandSnippet()
 
 Creates a new CommandSnippet
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="InterfaceDelamination.Delete"></a>
 
 ### InterfaceDelamination.Delete()
 
@@ -308,15 +250,11 @@ Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="InterfaceDelamination.GetChildren"></a>
-
 ### InterfaceDelamination.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
 
 ### InterfaceDelamination.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
@@ -324,15 +262,11 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="InterfaceDelamination.AddComment"></a>
-
 ### InterfaceDelamination.AddComment()
 
 Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="InterfaceDelamination.AddFigure"></a>
 
 ### InterfaceDelamination.AddFigure()
 
@@ -340,17 +274,15 @@ Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="InterfaceDelamination.AddImage"></a>
-
 ### InterfaceDelamination.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
+```
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="InterfaceDelamination.Activate"></a>
 
 ### InterfaceDelamination.Activate()
 
@@ -358,15 +290,11 @@ Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="InterfaceDelamination.CopyTo"></a>
-
 ### InterfaceDelamination.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
 Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="InterfaceDelamination.Duplicate"></a>
 
 ### InterfaceDelamination.Duplicate()
 
@@ -374,15 +302,11 @@ Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="InterfaceDelamination.GroupAllSimilarChildren"></a>
-
 ### InterfaceDelamination.GroupAllSimilarChildren()
 
 Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="InterfaceDelamination.GroupSimilarObjects"></a>
 
 ### InterfaceDelamination.GroupSimilarObjects()
 
@@ -390,24 +314,20 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="InterfaceDelamination.PropertyByName"></a>
-
 ### InterfaceDelamination.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="InterfaceDelamination.PropertyByAPIName"></a>
-
 ### InterfaceDelamination.PropertyByAPIName(name: System.String)
 
+```text
 Get a property by its API name.
 If multiple properties have the same API Name, only the first property with that name will be returned.
+```
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="InterfaceDelamination.CreateParameter"></a>
 
 ### InterfaceDelamination.CreateParameter(propName: System.String)
 
@@ -415,15 +335,11 @@ Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="InterfaceDelamination.GetParameter"></a>
-
 ### InterfaceDelamination.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="InterfaceDelamination.RemoveParameter"></a>
 
 ### InterfaceDelamination.RemoveParameter(propName: System.String)
 

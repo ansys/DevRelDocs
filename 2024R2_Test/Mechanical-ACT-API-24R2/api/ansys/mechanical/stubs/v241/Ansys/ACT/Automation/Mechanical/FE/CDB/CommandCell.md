@@ -17,23 +17,19 @@ Represents cell data associated to a beam SECBLOCK command.
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------|-----------------------------|
-| [`MatId`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CommandCell.md#CommandCell.MatId)   | Gets the material number.   |
-| [`Nodes`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CommandCell.md#CommandCell.Nodes)   | Gets the nodes.             |
+|-----------|-----------------------------|
+| `MatId`   | Gets the material number.   |
+| `Nodes`   | Gets the nodes.             |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="CommandCell.MatId"></a>
 
 ### *property* CommandCell.MatId *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the material number.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="CommandCell.Nodes"></a>
 
 ### *property* CommandCell.Nodes *: System.Collections.Generic.IReadOnlyList[System.UInt32] | [None](https://docs.python.org/3/library/constants.html#None)*
 

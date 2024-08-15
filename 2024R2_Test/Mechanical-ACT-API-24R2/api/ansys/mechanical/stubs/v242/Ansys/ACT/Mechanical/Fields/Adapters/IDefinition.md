@@ -17,14 +17,12 @@ IDefinition interface.
 ### Methods
 
 | Name | Description |
-|---------------------------------|---------------------------------------------------------------|
-| [`Adapt`](#IDefinition.Adapt)   | Creates an adapter for a given load object from Mechanical.   |
+|-----------|---------------------------------------------------------------|
+| `Adapt`   | Creates an adapter for a given load object from Mechanical.   |
 
 <a id="method-detail"></a>
 
 ## Method detail
-
-<a id="IDefinition.Adapt"></a>
 
 ### IDefinition.Adapt(load: Ansys.Common.Interop.DSObjects.IDSBCInformation)
 

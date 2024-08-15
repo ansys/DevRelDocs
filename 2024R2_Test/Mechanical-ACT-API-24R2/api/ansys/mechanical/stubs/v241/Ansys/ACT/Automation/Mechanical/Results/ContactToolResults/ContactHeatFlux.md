@@ -17,101 +17,99 @@ Defines a ContactHeatFlux.
 ### Methods
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`ClearGeneratedData`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
-| [`EvaluateAllResults`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
-| [`FetchRemoteResults`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
-| [`ExportToTextFile`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
-| [`ExportAnimation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
-| [`DuplicateWithoutResults`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
-| [`CreateResultsAtAllSets`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.CreateResultsAtAllSets)   | Creates results at all sets for results under a solution.                         |
-| [`PromoteToNamedSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
-| [`CreateParameter`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.CreateParameter)                 | CreateParameter method.                                                           |
-| [`AddAlert`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.AddAlert)                               | Creates a new Alert                                                               |
-| [`AddConvergence`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.AddConvergence)                   | Creates a new Convergence                                                         |
-| [`RenameBasedOnDefinition`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
-| [`Delete`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#id1)                                                 | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#id1)                                                 | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.AddComment)                           | Creates a new child Comment.                                                      |
-| [`AddFigure`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.AddFigure)                             | Creates a new child Figure.                                                       |
-| [`AddImage`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.Activate)                               | Activate the current object.                                                      |
-| [`CopyTo`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.CopyTo)                                   | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.PropertyByName)                   | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`GetParameter`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+|---------------------------|-----------------------------------------------------------------------------------|
+| `ClearGeneratedData`      | Run the ClearGeneratedData action.                                                |
+| `EvaluateAllResults`      | Run the EvaluateAllResults action.                                                |
+| `FetchRemoteResults`      | Run the FetchRemoteResult action.                                                 |
+| `ExportToTextFile`        | Run the ExportToTextFile action.                                                  |
+| `ExportAnimation`         | Run the ExportAnimation action.                                                   |
+| `DuplicateWithoutResults` | Run the DuplicateWithoutResults action.                                           |
+| `CreateResultsAtAllSets`  | Creates results at all sets for results under a solution.                         |
+| `PromoteToNamedSelection` | Run the PromoteToNamedSelection action.                                           |
+| `CreateParameter`         | CreateParameter method.                                                           |
+| `AddAlert`                | Creates a new Alert                                                               |
+| `AddConvergence`          | Creates a new Convergence                                                         |
+| `RenameBasedOnDefinition` | Run the RenameBasedOnDefinition action.                                           |
+| `Delete`                  | Run the Delete action.                                                            |
+| `GetChildren`             | Gets the list of children, filtered by type.                                      |
+| `GetChildren`             | Gets the list of children, filtered by type.                                      |
+| `AddComment`              | Creates a new child Comment.                                                      |
+| `AddFigure`               | Creates a new child Figure.                                                       |
+| `AddImage`                | Creates a new child Image.                                                        |
+| `Activate`                | Activate the current object.                                                      |
+| `CopyTo`                  | Copies all visible properties from this object to another.                        |
+| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
+| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
+| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
+| `PropertyByName`          | Get a property by its unique name.                                                |
+| `PropertyByAPIName`       | Get a property by its API name.                                                   |
+| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
+| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
-| [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#id0)                                                                  | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
-| [`ContactResultType`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.ContactResultType)                                 | Gets or sets the ContactResultType.                                    |
-| [`PlotData`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.PlotData)                                                   | Gets the result table.                                                 |
-| [`Location`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.Location)                                                   | Gets or sets the Location.                                             |
-| [`TimeForMinimumOfMinimumValues`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
-| [`TimeForMinimumOfMaximumValues`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
-| [`LoadStepForMinimumOfMinimumValues`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.LoadStepForMinimumOfMinimumValues) | Get the Load Step for the minimum of minimum values.                   |
-| [`LoadStepForMinimumOfMaximumValues`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.LoadStepForMinimumOfMaximumValues) | Get the Load Step for the minimum of maximum values.                   |
-| [`TimeForMaximumOfMinimumValues`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
-| [`TimeForMaximumOfMaximumValues`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
-| [`LoadStepForMaximumOfMinimumValues`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.LoadStepForMaximumOfMinimumValues) | Get the Load Step for the maximum of minimum values.                   |
-| [`LoadStepForMaximumOfMaximumValues`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.LoadStepForMaximumOfMaximumValues) | Get the Load Step for the maximum of maximum values.                   |
-| [`IsSolved`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.IsSolved)                                                   | Gets the IsSolved.                                                     |
-| [`CoordinateSystem`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.CoordinateSystem)                                   | Gets or sets the Coordinate System.                                    |
-| [`ScopingMethod`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.ScopingMethod)                                         | Gets or sets the ScopingMethod.                                        |
-| [`SetNumber`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.SetNumber)                                                 | Gets or sets the Set Number.                                           |
-| [`CombinationNumber`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.CombinationNumber)                                 | Gets or sets the Combination Number for a Solution Combination result. |
-| [`SolutionCombinationDriver`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.SolutionCombinationDriver)                 | Gets or sets the SolutionCombinationDriver.                            |
-| [`Path`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.Path)                                                           | Path property.                                                         |
-| [`Surface`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.Surface)                                                     | Surface property.                                                      |
-| [`NamedSelections`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.NamedSelections)                                     | Gets or sets the NamedSelections.                                      |
-| [`WaterfallPanelShowTextOnMosaic`](#ContactHeatFlux.WaterfallPanelShowTextOnMosaic)                                                                                                              | Gets or sets the Waterfall Panel Mosaic Text Property.                 |
-| [`CrackFrontNumber`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.CrackFrontNumber)                                   | Gets or sets the CrackFrontNumber.                                     |
-| [`GlobalIDs`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.GlobalIDs)                                                 | Gets or sets the GlobalIDs.                                            |
-| [`Identifier`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.Identifier)                                               | Gets or sets the Identifier.                                           |
-| [`IterationNumber`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.IterationNumber)                                     | Gets the IterationNumber.                                              |
-| [`LoadStep`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.LoadStep)                                                   | Gets the LoadStep.                                                     |
-| [`MaximumOccursOn`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.MaximumOccursOn)                                     | Gets the MaximumOccursOn.                                              |
-| [`MinimumOccursOn`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.MinimumOccursOn)                                     | Gets the MinimumOccursOn.                                              |
-| [`LoadStepNumber`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.LoadStepNumber)                                       | Gets or sets the LoadStepNumber.                                       |
-| [`SolverComponentIDs`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.SolverComponentIDs)                               | Gets or sets the SolverComponentIDs.                                   |
-| [`Substep`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.Substep)                                                     | Gets the Substep.                                                      |
-| [`Average`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.Average)                                                     | Gets the Average.                                                      |
-| [`Maximum`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.Maximum)                                                     | Gets the Maximum.                                                      |
-| [`MaximumOfMaximumOverTime`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.MaximumOfMaximumOverTime)                   | Gets the MaximumOfMaximumOverTime.                                     |
-| [`MaximumOfMinimumOverTime`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.MaximumOfMinimumOverTime)                   | Gets the MaximumOfMinimumOverTime.                                     |
-| [`Minimum`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.Minimum)                                                     | Gets the Minimum.                                                      |
-| [`MinimumOfMaximumOverTime`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.MinimumOfMaximumOverTime)                   | Gets the MinimumOfMaximumOverTime.                                     |
-| [`MinimumOfMinimumOverTime`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.MinimumOfMinimumOverTime)                   | Gets the MinimumOfMinimumOverTime.                                     |
-| [`Time`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.Time)                                                           | Gets the Time.                                                         |
-| [`DisplayTime`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.DisplayTime)                                             | Gets or sets the DisplayTime.                                          |
-| [`GraphControlsXAxis`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.GraphControlsXAxis)                               | Gets or sets the GraphControlsXAxis.                                   |
-| [`DisplayOption`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.DisplayOption)                                         | Gets or sets the DisplayOption.                                        |
-| [`DpfEvaluation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.DpfEvaluation)                                         | Gets or sets the DpfEvaluation.                                        |
-| [`By`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.By)                                                               | Gets or sets the By.                                                   |
-| [`ItemType`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.ItemType)                                                   | Gets or sets the ItemType.                                             |
-| [`CalculateTimeHistory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.CalculateTimeHistory)                           | Gets or sets the CalculateTimeHistory.                                 |
-| [`Suppressed`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.Suppressed)                                               | Gets or sets the Suppressed.                                           |
-| [`Children`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.Children)                                                   | Gets the list of children.                                             |
-| [`Comments`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.Comments)                                                   | Gets the list of associated comments.                                  |
-| [`Figures`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.Figures)                                                     | Gets the list of associated figures.                                   |
-| [`Images`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.Images)                                                       | Gets the list of associated images.                                    |
-| [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#id0)                                                                  | Gets the internal object. For advanced usage only.                     |
-| [`Properties`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.Properties)                                               | Gets the list of properties for this object.                           |
-| [`VisibleProperties`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ContactToolResults/ContactHeatFlux.md#ContactHeatFlux.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
+|-------------------------------------|------------------------------------------------------------------------|
+| `InternalObject`                    | Gets the internal object. For advanced usage only.                     |
+| `DataModelObjectCategory`           | Gets the current DataModelObject's category.                           |
+| `ContactResultType`                 | Gets or sets the ContactResultType.                                    |
+| `PlotData`                          | Gets the result table.                                                 |
+| `Location`                          | Gets or sets the Location.                                             |
+| `TimeForMinimumOfMinimumValues`     | Get the Time for the minimum of minimum values.                        |
+| `TimeForMinimumOfMaximumValues`     | Get the Time for the minimum of maximum values.                        |
+| `LoadStepForMinimumOfMinimumValues` | Get the Load Step for the minimum of minimum values.                   |
+| `LoadStepForMinimumOfMaximumValues` | Get the Load Step for the minimum of maximum values.                   |
+| `TimeForMaximumOfMinimumValues`     | Get the Time for the maximum of minimum values.                        |
+| `TimeForMaximumOfMaximumValues`     | Get the Time for the maximum of maximum values.                        |
+| `LoadStepForMaximumOfMinimumValues` | Get the Load Step for the maximum of minimum values.                   |
+| `LoadStepForMaximumOfMaximumValues` | Get the Load Step for the maximum of maximum values.                   |
+| `IsSolved`                          | Gets the IsSolved.                                                     |
+| `CoordinateSystem`                  | Gets or sets the Coordinate System.                                    |
+| `ScopingMethod`                     | Gets or sets the ScopingMethod.                                        |
+| `SetNumber`                         | Gets or sets the Set Number.                                           |
+| `CombinationNumber`                 | Gets or sets the Combination Number for a Solution Combination result. |
+| `SolutionCombinationDriver`         | Gets or sets the SolutionCombinationDriver.                            |
+| `Path`                              | Path property.                                                         |
+| `Surface`                           | Surface property.                                                      |
+| `NamedSelections`                   | Gets or sets the NamedSelections.                                      |
+| `WaterfallPanelShowTextOnMosaic`    | Gets or sets the Waterfall Panel Mosaic Text Property.                 |
+| `CrackFrontNumber`                  | Gets or sets the CrackFrontNumber.                                     |
+| `GlobalIDs`                         | Gets or sets the GlobalIDs.                                            |
+| `Identifier`                        | Gets or sets the Identifier.                                           |
+| `IterationNumber`                   | Gets the IterationNumber.                                              |
+| `LoadStep`                          | Gets the LoadStep.                                                     |
+| `MaximumOccursOn`                   | Gets the MaximumOccursOn.                                              |
+| `MinimumOccursOn`                   | Gets the MinimumOccursOn.                                              |
+| `LoadStepNumber`                    | Gets or sets the LoadStepNumber.                                       |
+| `SolverComponentIDs`                | Gets or sets the SolverComponentIDs.                                   |
+| `Substep`                           | Gets the Substep.                                                      |
+| `Average`                           | Gets the Average.                                                      |
+| `Maximum`                           | Gets the Maximum.                                                      |
+| `MaximumOfMaximumOverTime`          | Gets the MaximumOfMaximumOverTime.                                     |
+| `MaximumOfMinimumOverTime`          | Gets the MaximumOfMinimumOverTime.                                     |
+| `Minimum`                           | Gets the Minimum.                                                      |
+| `MinimumOfMaximumOverTime`          | Gets the MinimumOfMaximumOverTime.                                     |
+| `MinimumOfMinimumOverTime`          | Gets the MinimumOfMinimumOverTime.                                     |
+| `Time`                              | Gets the Time.                                                         |
+| `DisplayTime`                       | Gets or sets the DisplayTime.                                          |
+| `GraphControlsXAxis`                | Gets or sets the GraphControlsXAxis.                                   |
+| `DisplayOption`                     | Gets or sets the DisplayOption.                                        |
+| `DpfEvaluation`                     | Gets or sets the DpfEvaluation.                                        |
+| `By`                                | Gets or sets the By.                                                   |
+| `ItemType`                          | Gets or sets the ItemType.                                             |
+| `CalculateTimeHistory`              | Gets or sets the CalculateTimeHistory.                                 |
+| `Suppressed`                        | Gets or sets the Suppressed.                                           |
+| `Children`                          | Gets the list of children.                                             |
+| `Comments`                          | Gets the list of associated comments.                                  |
+| `Figures`                           | Gets the list of associated figures.                                   |
+| `Images`                            | Gets the list of associated images.                                    |
+| `InternalObject`                    | Gets the internal object. For advanced usage only.                     |
+| `Properties`                        | Gets the list of properties for this object.                           |
+| `VisibleProperties`                 | Gets the list of properties that are visible for this object.          |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="ContactHeatFlux.InternalObject"></a>
 
 ### *property* ContactHeatFlux.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -119,15 +117,11 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactHeatFlux.DataModelObjectCategory"></a>
-
 ### *property* ContactHeatFlux.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ContactHeatFlux.ContactResultType"></a>
 
 ### *property* ContactHeatFlux.ContactResultType *: [Ansys.Mechanical.DataModel.Enums.ContactResultType](../../../../../Mechanical/DataModel/Enums/ContactResultType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -135,15 +129,11 @@ Gets or sets the ContactResultType.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactHeatFlux.PlotData"></a>
-
 ### *property* ContactHeatFlux.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the result table.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ContactHeatFlux.Location"></a>
 
 ### *property* ContactHeatFlux.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -151,15 +141,11 @@ Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactHeatFlux.TimeForMinimumOfMinimumValues"></a>
-
 ### *property* ContactHeatFlux.TimeForMinimumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Time for the minimum of minimum values.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ContactHeatFlux.TimeForMinimumOfMaximumValues"></a>
 
 ### *property* ContactHeatFlux.TimeForMinimumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -167,15 +153,11 @@ Get the Time for the minimum of maximum values.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactHeatFlux.LoadStepForMinimumOfMinimumValues"></a>
-
 ### *property* ContactHeatFlux.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ContactHeatFlux.LoadStepForMinimumOfMaximumValues"></a>
 
 ### *property* ContactHeatFlux.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -183,15 +165,11 @@ Get the Load Step for the minimum of maximum values.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactHeatFlux.TimeForMaximumOfMinimumValues"></a>
-
 ### *property* ContactHeatFlux.TimeForMaximumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Time for the maximum of minimum values.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ContactHeatFlux.TimeForMaximumOfMaximumValues"></a>
 
 ### *property* ContactHeatFlux.TimeForMaximumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -199,15 +177,11 @@ Get the Time for the maximum of maximum values.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactHeatFlux.LoadStepForMaximumOfMinimumValues"></a>
-
 ### *property* ContactHeatFlux.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ContactHeatFlux.LoadStepForMaximumOfMaximumValues"></a>
 
 ### *property* ContactHeatFlux.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -215,15 +189,11 @@ Get the Load Step for the maximum of maximum values.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactHeatFlux.IsSolved"></a>
-
 ### *property* ContactHeatFlux.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ContactHeatFlux.CoordinateSystem"></a>
 
 ### *property* ContactHeatFlux.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -233,15 +203,11 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactHeatFlux.ScopingMethod"></a>
-
 ### *property* ContactHeatFlux.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ContactHeatFlux.SetNumber"></a>
 
 ### *property* ContactHeatFlux.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -249,15 +215,11 @@ Gets or sets the Set Number.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactHeatFlux.CombinationNumber"></a>
-
 ### *property* ContactHeatFlux.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ContactHeatFlux.SolutionCombinationDriver"></a>
 
 ### *property* ContactHeatFlux.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -265,15 +227,11 @@ Gets or sets the SolutionCombinationDriver.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactHeatFlux.Path"></a>
-
 ### *property* ContactHeatFlux.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../Path.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Path property.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ContactHeatFlux.Surface"></a>
 
 ### *property* ContactHeatFlux.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -281,15 +239,11 @@ Surface property.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactHeatFlux.NamedSelections"></a>
-
 ### *property* ContactHeatFlux.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ContactHeatFlux.WaterfallPanelShowTextOnMosaic"></a>
 
 ### *property* ContactHeatFlux.WaterfallPanelShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -297,15 +251,11 @@ Gets or sets the Waterfall Panel Mosaic Text Property.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactHeatFlux.CrackFrontNumber"></a>
-
 ### *property* ContactHeatFlux.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ContactHeatFlux.GlobalIDs"></a>
 
 ### *property* ContactHeatFlux.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -313,15 +263,11 @@ Gets or sets the GlobalIDs.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactHeatFlux.Identifier"></a>
-
 ### *property* ContactHeatFlux.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ContactHeatFlux.IterationNumber"></a>
 
 ### *property* ContactHeatFlux.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -329,15 +275,11 @@ Gets the IterationNumber.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactHeatFlux.LoadStep"></a>
-
 ### *property* ContactHeatFlux.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ContactHeatFlux.MaximumOccursOn"></a>
 
 ### *property* ContactHeatFlux.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -345,15 +287,11 @@ Gets the MaximumOccursOn.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactHeatFlux.MinimumOccursOn"></a>
-
 ### *property* ContactHeatFlux.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ContactHeatFlux.LoadStepNumber"></a>
 
 ### *property* ContactHeatFlux.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -361,15 +299,11 @@ Gets or sets the LoadStepNumber.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactHeatFlux.SolverComponentIDs"></a>
-
 ### *property* ContactHeatFlux.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ContactHeatFlux.Substep"></a>
 
 ### *property* ContactHeatFlux.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -377,15 +311,11 @@ Gets the Substep.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactHeatFlux.Average"></a>
-
 ### *property* ContactHeatFlux.Average *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Average.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ContactHeatFlux.Maximum"></a>
 
 ### *property* ContactHeatFlux.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -393,15 +323,11 @@ Gets the Maximum.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactHeatFlux.MaximumOfMaximumOverTime"></a>
-
 ### *property* ContactHeatFlux.MaximumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOfMaximumOverTime.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ContactHeatFlux.MaximumOfMinimumOverTime"></a>
 
 ### *property* ContactHeatFlux.MaximumOfMinimumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -409,15 +335,11 @@ Gets the MaximumOfMinimumOverTime.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactHeatFlux.Minimum"></a>
-
 ### *property* ContactHeatFlux.Minimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Minimum.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ContactHeatFlux.MinimumOfMaximumOverTime"></a>
 
 ### *property* ContactHeatFlux.MinimumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -425,15 +347,11 @@ Gets the MinimumOfMaximumOverTime.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactHeatFlux.MinimumOfMinimumOverTime"></a>
-
 ### *property* ContactHeatFlux.MinimumOfMinimumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOfMinimumOverTime.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ContactHeatFlux.Time"></a>
 
 ### *property* ContactHeatFlux.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -441,15 +359,11 @@ Gets the Time.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactHeatFlux.DisplayTime"></a>
-
 ### *property* ContactHeatFlux.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DisplayTime.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ContactHeatFlux.GraphControlsXAxis"></a>
 
 ### *property* ContactHeatFlux.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -457,15 +371,11 @@ Gets or sets the GraphControlsXAxis.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactHeatFlux.DisplayOption"></a>
-
 ### *property* ContactHeatFlux.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DisplayOption.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ContactHeatFlux.DpfEvaluation"></a>
 
 ### *property* ContactHeatFlux.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -473,15 +383,11 @@ Gets or sets the DpfEvaluation.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactHeatFlux.By"></a>
-
 ### *property* ContactHeatFlux.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the By.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ContactHeatFlux.ItemType"></a>
 
 ### *property* ContactHeatFlux.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -489,15 +395,11 @@ Gets or sets the ItemType.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactHeatFlux.CalculateTimeHistory"></a>
-
 ### *property* ContactHeatFlux.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ContactHeatFlux.Suppressed"></a>
 
 ### *property* ContactHeatFlux.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -505,15 +407,11 @@ Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactHeatFlux.Children"></a>
-
 ### *property* ContactHeatFlux.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ContactHeatFlux.Comments"></a>
 
 ### *property* ContactHeatFlux.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -521,15 +419,11 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactHeatFlux.Figures"></a>
-
 ### *property* ContactHeatFlux.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ContactHeatFlux.Images"></a>
 
 ### *property* ContactHeatFlux.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -537,23 +431,17 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
-
 ### *property* ContactHeatFlux.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactHeatFlux.Properties"></a>
-
 ### *property* ContactHeatFlux.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ContactHeatFlux.VisibleProperties"></a>
 
 ### *property* ContactHeatFlux.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -565,15 +453,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="ContactHeatFlux.ClearGeneratedData"></a>
-
 ### ContactHeatFlux.ClearGeneratedData()
 
 Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ContactHeatFlux.EvaluateAllResults"></a>
 
 ### ContactHeatFlux.EvaluateAllResults()
 
@@ -581,15 +465,11 @@ Run the EvaluateAllResults action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactHeatFlux.FetchRemoteResults"></a>
-
 ### ContactHeatFlux.FetchRemoteResults()
 
 Run the FetchRemoteResult action.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ContactHeatFlux.ExportToTextFile"></a>
 
 ### ContactHeatFlux.ExportToTextFile(filePath: System.String)
 
@@ -597,15 +477,11 @@ Run the ExportToTextFile action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactHeatFlux.ExportAnimation"></a>
-
 ### ContactHeatFlux.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ContactHeatFlux.DuplicateWithoutResults"></a>
 
 ### ContactHeatFlux.DuplicateWithoutResults()
 
@@ -613,15 +489,11 @@ Run the DuplicateWithoutResults action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactHeatFlux.CreateResultsAtAllSets"></a>
-
 ### ContactHeatFlux.CreateResultsAtAllSets()
 
 Creates results at all sets for results under a solution.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ContactHeatFlux.PromoteToNamedSelection"></a>
 
 ### ContactHeatFlux.PromoteToNamedSelection()
 
@@ -629,15 +501,11 @@ Run the PromoteToNamedSelection action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactHeatFlux.CreateParameter"></a>
-
 ### ContactHeatFlux.CreateParameter(propName: System.String)
 
 CreateParameter method.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ContactHeatFlux.AddAlert"></a>
 
 ### ContactHeatFlux.AddAlert()
 
@@ -645,15 +513,11 @@ Creates a new Alert
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactHeatFlux.AddConvergence"></a>
-
 ### ContactHeatFlux.AddConvergence()
 
 Creates a new Convergence
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ContactHeatFlux.RenameBasedOnDefinition"></a>
 
 ### ContactHeatFlux.RenameBasedOnDefinition()
 
@@ -661,15 +525,11 @@ Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactHeatFlux.Delete"></a>
-
 ### ContactHeatFlux.Delete()
 
 Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ContactHeatFlux.GetChildren"></a>
 
 ### ContactHeatFlux.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
@@ -677,15 +537,11 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id1"></a>
-
 ### ContactHeatFlux.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ContactHeatFlux.AddComment"></a>
 
 ### ContactHeatFlux.AddComment()
 
@@ -693,25 +549,21 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactHeatFlux.AddFigure"></a>
-
 ### ContactHeatFlux.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactHeatFlux.AddImage"></a>
-
 ### ContactHeatFlux.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
+```
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ContactHeatFlux.Activate"></a>
 
 ### ContactHeatFlux.Activate()
 
@@ -719,15 +571,11 @@ Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactHeatFlux.CopyTo"></a>
-
 ### ContactHeatFlux.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
 Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ContactHeatFlux.Duplicate"></a>
 
 ### ContactHeatFlux.Duplicate()
 
@@ -735,15 +583,11 @@ Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactHeatFlux.GroupAllSimilarChildren"></a>
-
 ### ContactHeatFlux.GroupAllSimilarChildren()
 
 Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ContactHeatFlux.GroupSimilarObjects"></a>
 
 ### ContactHeatFlux.GroupSimilarObjects()
 
@@ -751,32 +595,26 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactHeatFlux.PropertyByName"></a>
-
 ### ContactHeatFlux.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactHeatFlux.PropertyByAPIName"></a>
-
 ### ContactHeatFlux.PropertyByAPIName(name: System.String)
 
+```text
 Get a property by its API name.
 If multiple properties have the same API Name, only the first property with that name will be returned.
+```
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ContactHeatFlux.GetParameter"></a>
 
 ### ContactHeatFlux.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ContactHeatFlux.RemoveParameter"></a>
 
 ### ContactHeatFlux.RemoveParameter(propName: System.String)
 

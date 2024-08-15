@@ -6,7 +6,7 @@
 
 Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
-Specifies the category of the
+Specifies the category of the F:Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory.DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
 

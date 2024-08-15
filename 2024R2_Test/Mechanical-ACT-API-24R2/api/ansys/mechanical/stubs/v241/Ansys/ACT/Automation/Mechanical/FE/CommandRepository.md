@@ -17,18 +17,16 @@ Command repository.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
-| [`GetCommandsByName`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CommandRepository.md#CommandRepository.GetCommandsByName)       | Gets the commands by name.                                                                         |
-| [`GetCommandByIndex`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CommandRepository.md#CommandRepository.GetCommandByIndex)       | Gets the commands by index.                                                                        |
-| [`GetCommandNamesCount`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CommandRepository.md#CommandRepository.GetCommandNamesCount) | Gets the number of commands of a type specified by param=eCommandsType in the repository.          |
-| [`GetCommandName`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CommandRepository.md#CommandRepository.GetCommandName)             | Gets the name of commands of a type specified by params eCommandsType and index in the repository. |
-| [`GetCommandNames`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CommandRepository.md#CommandRepository.GetCommandNames)           | Gets the command names of a type specified by params eCommandsType and index in the repository.    |
+|------------------------|----------------------------------------------------------------------------------------------------|
+| `GetCommandsByName`    | Gets the commands by name.                                                                         |
+| `GetCommandByIndex`    | Gets the commands by index.                                                                        |
+| `GetCommandNamesCount` | Gets the number of commands of a type specified by param=eCommandsType in the repository.          |
+| `GetCommandName`       | Gets the name of commands of a type specified by params eCommandsType and index in the repository. |
+| `GetCommandNames`      | Gets the command names of a type specified by params eCommandsType and index in the repository.    |
 
 <a id="method-detail"></a>
 
 ## Method detail
-
-<a id="CommandRepository.GetCommandsByName"></a>
 
 ### CommandRepository.GetCommandsByName(name: System.String)
 
@@ -36,15 +34,11 @@ Gets the commands by name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="CommandRepository.GetCommandByIndex"></a>
-
 ### CommandRepository.GetCommandByIndex(index: System.Int32)
 
 Gets the commands by index.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="CommandRepository.GetCommandNamesCount"></a>
 
 ### CommandRepository.GetCommandNamesCount(eCommandsType: [Ansys.ACT.Automation.Mechanical.FE.CommandsType](CommandsType.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CommandsType))
 
@@ -52,15 +46,11 @@ Gets the number of commands of a type specified by param=eCommandsType in the re
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="CommandRepository.GetCommandName"></a>
-
 ### CommandRepository.GetCommandName(eCommandsType: [Ansys.ACT.Automation.Mechanical.FE.CommandsType](CommandsType.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CommandsType), index: System.Int32)
 
 Gets the name of commands of a type specified by params eCommandsType and index in the repository.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="CommandRepository.GetCommandNames"></a>
 
 ### CommandRepository.GetCommandNames(eCommandsType: [Ansys.ACT.Automation.Mechanical.FE.CommandsType](CommandsType.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CommandsType))
 

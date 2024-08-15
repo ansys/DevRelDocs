@@ -17,19 +17,17 @@ Represents a MPDATA command.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------|-----------------------------|
-| [`Mat`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/MPDataCommand.md#MPDataCommand.Mat)       | Gets the material number.   |
-| [`Lab`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/MPDataCommand.md#MPDataCommand.Lab)       | Gets the label.             |
-| [`Temps`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/MPDataCommand.md#MPDataCommand.Temps)   | Gets the temperatures.      |
-| [`Values`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/MPDataCommand.md#MPDataCommand.Values) | Gets the values.            |
-| [`Name`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/MPDataCommand.md#MPDataCommand.Name)     | Gets the command name.      |
-| [`Index`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/MPDataCommand.md#MPDataCommand.Index)   | Gets the command index.     |
+|----------|-----------------------------|
+| `Mat`    | Gets the material number.   |
+| `Lab`    | Gets the label.             |
+| `Temps`  | Gets the temperatures.      |
+| `Values` | Gets the values.            |
+| `Name`   | Gets the command name.      |
+| `Index`  | Gets the command index.     |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="MPDataCommand.Mat"></a>
 
 ### *property* MPDataCommand.Mat *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -37,15 +35,11 @@ Gets the material number.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="MPDataCommand.Lab"></a>
-
 ### *property* MPDataCommand.Lab *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the label.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="MPDataCommand.Temps"></a>
 
 ### *property* MPDataCommand.Temps *: System.Collections.Generic.IReadOnlyList[System.Double] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -53,23 +47,17 @@ Gets the temperatures.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="MPDataCommand.Values"></a>
-
 ### *property* MPDataCommand.Values *: System.Collections.Generic.IReadOnlyList[System.Double] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the values.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="MPDataCommand.Name"></a>
-
 ### *property* MPDataCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command name.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="MPDataCommand.Index"></a>
 
 ### *property* MPDataCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 

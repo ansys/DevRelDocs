@@ -17,14 +17,12 @@ MAPDLLayeredSectionData class.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------|------------------------------------------------|
-| [`SectionId`](#MAPDLLayeredSectionData.SectionId)   | Gets the section Id for the layered section.   |
+|---------------|------------------------------------------------|
+| `SectionId`   | Gets the section Id for the layered section.   |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="MAPDLLayeredSectionData.SectionId"></a>
 
 ### *property* MAPDLLayeredSectionData.SectionId *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 

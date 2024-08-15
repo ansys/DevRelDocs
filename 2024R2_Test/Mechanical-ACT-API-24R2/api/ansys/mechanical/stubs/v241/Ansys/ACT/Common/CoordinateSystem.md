@@ -17,21 +17,19 @@ CoordinateSystem class
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
-| [`CoordinateSystemType`](../../../../v242/Ansys/ACT/Common/CoordinateSystem.md#CoordinateSystem.CoordinateSystemType)   | Gets or sets the coordinate system type.                     |
-| [`Name`](../../../../v242/Ansys/ACT/Common/CoordinateSystem.md#CoordinateSystem.Name)                                   | Gets or sets the name of the coordinate system.              |
-| [`Id`](../../../../v242/Ansys/ACT/Common/CoordinateSystem.md#CoordinateSystem.Id)                                       | Gets or sets the ID of the coordinate system.                |
-| [`Origin`](../../../../v242/Ansys/ACT/Common/CoordinateSystem.md#CoordinateSystem.Origin)                               | Gets or sets the origin of the coordinate system.            |
-| [`Matrix`](../../../../v242/Ansys/ACT/Common/CoordinateSystem.md#CoordinateSystem.Matrix)                               | Gets or sets the matrix definition of the coordinate system. |
-| [`XAxis`](../../../../v242/Ansys/ACT/Common/CoordinateSystem.md#CoordinateSystem.XAxis)                                 | Gets or sets the X axis of the coordinate system.            |
-| [`YAxis`](../../../../v242/Ansys/ACT/Common/CoordinateSystem.md#CoordinateSystem.YAxis)                                 | Gets or sets the Y axis of the coordinate system.            |
-| [`ZAxis`](../../../../v242/Ansys/ACT/Common/CoordinateSystem.md#CoordinateSystem.ZAxis)                                 | Gets or sets the Z axis of the coordinate system.            |
+|--------------------------|--------------------------------------------------------------|
+| `CoordinateSystemType`   | Gets or sets the coordinate system type.                     |
+| `Name`                   | Gets or sets the name of the coordinate system.              |
+| `Id`                     | Gets or sets the ID of the coordinate system.                |
+| `Origin`                 | Gets or sets the origin of the coordinate system.            |
+| `Matrix`                 | Gets or sets the matrix definition of the coordinate system. |
+| `XAxis`                  | Gets or sets the X axis of the coordinate system.            |
+| `YAxis`                  | Gets or sets the Y axis of the coordinate system.            |
+| `ZAxis`                  | Gets or sets the Z axis of the coordinate system.            |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="CoordinateSystem.CoordinateSystemType"></a>
 
 ### *property* CoordinateSystem.CoordinateSystemType *: Ansys.ACT.Interfaces.Analysis.CoordinateSystemTypeEnum | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -39,15 +37,11 @@ Gets or sets the coordinate system type.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="CoordinateSystem.Name"></a>
-
 ### *property* CoordinateSystem.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the name of the coordinate system.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="CoordinateSystem.Id"></a>
 
 ### *property* CoordinateSystem.Id *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -55,15 +49,11 @@ Gets or sets the ID of the coordinate system.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="CoordinateSystem.Origin"></a>
-
 ### *property* CoordinateSystem.Origin *: System.Collections.Generic.IEnumerable[System.Double] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the origin of the coordinate system.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="CoordinateSystem.Matrix"></a>
 
 ### *property* CoordinateSystem.Matrix *: System.Collections.Generic.IEnumerable[System.Double] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -71,23 +61,17 @@ Gets or sets the matrix definition of the coordinate system.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="CoordinateSystem.XAxis"></a>
-
 ### *property* CoordinateSystem.XAxis *: System.Collections.Generic.IEnumerable[System.Double] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the X axis of the coordinate system.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="CoordinateSystem.YAxis"></a>
-
 ### *property* CoordinateSystem.YAxis *: System.Collections.Generic.IEnumerable[System.Double] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Y axis of the coordinate system.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="CoordinateSystem.ZAxis"></a>
 
 ### *property* CoordinateSystem.ZAxis *: System.Collections.Generic.IEnumerable[System.Double] | [None](https://docs.python.org/3/library/constants.html#None)*
 

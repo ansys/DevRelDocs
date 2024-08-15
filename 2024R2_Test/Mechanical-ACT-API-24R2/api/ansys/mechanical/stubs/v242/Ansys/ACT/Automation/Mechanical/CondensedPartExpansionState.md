@@ -17,23 +17,19 @@ CondensedPartExpansionState class.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------|----------------------------------------|
-| [`Stress`](#CondensedPartExpansionState.Stress)             | Gets or sets the Stress Property       |
-| [`Displacement`](#CondensedPartExpansionState.Displacement) | Gets or sets the Displacement Property |
+|----------------|----------------------------------------|
+| `Stress`       | Gets or sets the Stress Property       |
+| `Displacement` | Gets or sets the Displacement Property |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="CondensedPartExpansionState.Stress"></a>
 
 ### *property* CondensedPartExpansionState.Stress *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Stress Property
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="CondensedPartExpansionState.Displacement"></a>
 
 ### *property* CondensedPartExpansionState.Displacement *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 

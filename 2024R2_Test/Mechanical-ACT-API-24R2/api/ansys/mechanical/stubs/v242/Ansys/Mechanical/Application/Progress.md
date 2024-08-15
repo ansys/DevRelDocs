@@ -17,14 +17,12 @@ Defines a Progress.
 ### Methods
 
 | Name | Description |
-|------------------------------------------|----------------------------------|
-| [`SetProgress`](#Progress.SetProgress)   | Set the current progress state   |
+|-----------------|----------------------------------|
+| `SetProgress`   | Set the current progress state   |
 
 <a id="method-detail"></a>
 
 ## Method detail
-
-<a id="Progress.SetProgress"></a>
 
 ### Progress.SetProgress(uiProgress: System.UInt32, uiMessage: System.String, uiSubProgress: System.UInt32, uiSubMessage: System.String)
 

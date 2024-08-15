@@ -17,20 +17,18 @@ Color constants, in BGR bitfield layout.
 ### Properties
 
 | Name | Description |
-|----------------------------|------------------|
-| [`Blue`](#Colors.Blue)     | Blue property.   |
-| [`Cyan`](#Colors.Cyan)     | Cyan property.   |
-| [`Green`](#Colors.Green)   | Green property.  |
-| [`Yellow`](#Colors.Yellow) | Yellow property. |
-| [`Red`](#Colors.Red)       | Red property.    |
-| [`Gray`](#Colors.Gray)     | Gray property.   |
-| [`White`](#Colors.White)   | White property.  |
+|----------|------------------|
+| `Blue`   | Blue property.   |
+| `Cyan`   | Cyan property.   |
+| `Green`  | Green property.  |
+| `Yellow` | Yellow property. |
+| `Red`    | Red property.    |
+| `Gray`   | Gray property.   |
+| `White`  | White property.  |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="Colors.Blue"></a>
 
 ### *property* Colors.Blue *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -40,8 +38,6 @@ Blue property.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="Colors.Cyan"></a>
-
 ### *property* Colors.Cyan *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 * **Classmethod:**
@@ -49,8 +45,6 @@ Blue property.
 Cyan property.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="Colors.Green"></a>
 
 ### *property* Colors.Green *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -60,8 +54,6 @@ Green property.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="Colors.Yellow"></a>
-
 ### *property* Colors.Yellow *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 * **Classmethod:**
@@ -69,8 +61,6 @@ Green property.
 Yellow property.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="Colors.Red"></a>
 
 ### *property* Colors.Red *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -80,8 +70,6 @@ Red property.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="Colors.Gray"></a>
-
 ### *property* Colors.Gray *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 * **Classmethod:**
@@ -89,8 +77,6 @@ Red property.
 Gray property.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="Colors.White"></a>
 
 ### *property* Colors.White *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 

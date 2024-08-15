@@ -18,18 +18,16 @@ columnar format should be processed.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| [`Index`](../../../../v242/Ansys/Mechanical/Table/ColumnarDataImportDefinition.md#ColumnarDataImportDefinition.Index)                                   | Gets or sets the specified data source column index from which this variable will be   |
-| [`Name`](../../../../v242/Ansys/Mechanical/Table/ColumnarDataImportDefinition.md#ColumnarDataImportDefinition.Name)                                     | Gets or sets an identifier for the data source column.                                 |
-| [`Unit`](../../../../v242/Ansys/Mechanical/Table/ColumnarDataImportDefinition.md#ColumnarDataImportDefinition.Unit)                                     | Gets or sets the unit of the column.                                                   |
-| [`VariableType`](../../../../v242/Ansys/Mechanical/Table/ColumnarDataImportDefinition.md#ColumnarDataImportDefinition.VariableType)                     | Gets or sets the variable type of the column.                                          |
-| [`VariableClassification`](../../../../v242/Ansys/Mechanical/Table/ColumnarDataImportDefinition.md#ColumnarDataImportDefinition.VariableClassification) | Gets or sets the variable classification of the column.                                |
+|--------------------------|----------------------------------------------------------------------------------------|
+| `Index`                  | Gets or sets the specified data source column index from which this variable will be   |
+| `Name`                   | Gets or sets an identifier for the data source column.                                 |
+| `Unit`                   | Gets or sets the unit of the column.                                                   |
+| `VariableType`           | Gets or sets the variable type of the column.                                          |
+| `VariableClassification` | Gets or sets the variable classification of the column.                                |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="ColumnarDataImportDefinition.Index"></a>
 
 ### *property* ColumnarDataImportDefinition.Index *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -38,15 +36,11 @@ imported.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ColumnarDataImportDefinition.Name"></a>
-
 ### *property* ColumnarDataImportDefinition.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets an identifier for the data source column.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ColumnarDataImportDefinition.Unit"></a>
 
 ### *property* ColumnarDataImportDefinition.Unit *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -54,15 +48,11 @@ Gets or sets the unit of the column.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ColumnarDataImportDefinition.VariableType"></a>
-
 ### *property* ColumnarDataImportDefinition.VariableType *: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableType](../DataModel/MechanicalEnums/Table/VariableType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the variable type of the column.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ColumnarDataImportDefinition.VariableClassification"></a>
 
 ### *property* ColumnarDataImportDefinition.VariableClassification *: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableClassification](../DataModel/MechanicalEnums/Table/VariableClassification.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableClassification) | [None](https://docs.python.org/3/library/constants.html#None)*
 

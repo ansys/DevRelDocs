@@ -17,101 +17,99 @@ Defines a EnergyResult.
 ### Methods
 
 | Name | Description |
-|--------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`ClearGeneratedData`](#EnergyResult.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
-| [`EvaluateAllResults`](#EnergyResult.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
-| [`FetchRemoteResults`](#EnergyResult.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
-| [`ExportToTextFile`](#EnergyResult.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
-| [`ExportAnimation`](#EnergyResult.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
-| [`DuplicateWithoutResults`](#EnergyResult.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
-| [`CreateResultsAtAllSets`](#EnergyResult.CreateResultsAtAllSets)   | Creates results at all sets for results under a solution.                         |
-| [`PromoteToNamedSelection`](#EnergyResult.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
-| [`CreateParameter`](#EnergyResult.CreateParameter)                 | CreateParameter method.                                                           |
-| [`AddAlert`](#EnergyResult.AddAlert)                               | Creates a new Alert                                                               |
-| [`AddConvergence`](#EnergyResult.AddConvergence)                   | Creates a new Convergence                                                         |
-| [`RenameBasedOnDefinition`](#EnergyResult.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
-| [`Delete`](#EnergyResult.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](#id1)                                              | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](#id1)                                              | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](#EnergyResult.AddComment)                           | Creates a new child Comment.                                                      |
-| [`AddFigure`](#EnergyResult.AddFigure)                             | Creates a new child Figure.                                                       |
-| [`AddImage`](#EnergyResult.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](#EnergyResult.Activate)                               | Activate the current object.                                                      |
-| [`CopyTo`](#EnergyResult.CopyTo)                                   | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](#EnergyResult.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](#EnergyResult.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](#EnergyResult.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](#EnergyResult.PropertyByName)                   | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](#EnergyResult.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`GetParameter`](#EnergyResult.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](#EnergyResult.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+|---------------------------|-----------------------------------------------------------------------------------|
+| `ClearGeneratedData`      | Run the ClearGeneratedData action.                                                |
+| `EvaluateAllResults`      | Run the EvaluateAllResults action.                                                |
+| `FetchRemoteResults`      | Run the FetchRemoteResult action.                                                 |
+| `ExportToTextFile`        | Run the ExportToTextFile action.                                                  |
+| `ExportAnimation`         | Run the ExportAnimation action.                                                   |
+| `DuplicateWithoutResults` | Run the DuplicateWithoutResults action.                                           |
+| `CreateResultsAtAllSets`  | Creates results at all sets for results under a solution.                         |
+| `PromoteToNamedSelection` | Run the PromoteToNamedSelection action.                                           |
+| `CreateParameter`         | CreateParameter method.                                                           |
+| `AddAlert`                | Creates a new Alert                                                               |
+| `AddConvergence`          | Creates a new Convergence                                                         |
+| `RenameBasedOnDefinition` | Run the RenameBasedOnDefinition action.                                           |
+| `Delete`                  | Run the Delete action.                                                            |
+| `GetChildren`             | Gets the list of children, filtered by type.                                      |
+| `GetChildren`             | Gets the list of children, filtered by type.                                      |
+| `AddComment`              | Creates a new child Comment.                                                      |
+| `AddFigure`               | Creates a new child Figure.                                                       |
+| `AddImage`                | Creates a new child Image.                                                        |
+| `Activate`                | Activate the current object.                                                      |
+| `CopyTo`                  | Copies all visible properties from this object to another.                        |
+| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
+| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
+| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
+| `PropertyByName`          | Get a property by its unique name.                                                |
+| `PropertyByAPIName`       | Get a property by its API name.                                                   |
+| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
+| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------|------------------------------------------------------------------------|
-| [`InternalObject`](#id0)                                                               | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](#EnergyResult.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
-| [`PlotData`](#EnergyResult.PlotData)                                                   | Gets the result table.                                                 |
-| [`Location`](#EnergyResult.Location)                                                   | Gets or sets the Location.                                             |
-| [`TimeForMinimumOfMinimumValues`](#EnergyResult.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
-| [`TimeForMinimumOfMaximumValues`](#EnergyResult.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
-| [`LoadStepForMinimumOfMinimumValues`](#EnergyResult.LoadStepForMinimumOfMinimumValues) | Get the Load Step for the minimum of minimum values.                   |
-| [`LoadStepForMinimumOfMaximumValues`](#EnergyResult.LoadStepForMinimumOfMaximumValues) | Get the Load Step for the minimum of maximum values.                   |
-| [`TimeForMaximumOfMinimumValues`](#EnergyResult.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
-| [`TimeForMaximumOfMaximumValues`](#EnergyResult.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
-| [`LoadStepForMaximumOfMinimumValues`](#EnergyResult.LoadStepForMaximumOfMinimumValues) | Get the Load Step for the maximum of minimum values.                   |
-| [`LoadStepForMaximumOfMaximumValues`](#EnergyResult.LoadStepForMaximumOfMaximumValues) | Get the Load Step for the maximum of maximum values.                   |
-| [`IsSolved`](#EnergyResult.IsSolved)                                                   | Gets the IsSolved.                                                     |
-| [`CoordinateSystem`](#EnergyResult.CoordinateSystem)                                   | Gets or sets the Coordinate System.                                    |
-| [`ScopingMethod`](#EnergyResult.ScopingMethod)                                         | Gets or sets the ScopingMethod.                                        |
-| [`SetNumber`](#EnergyResult.SetNumber)                                                 | Gets or sets the Set Number.                                           |
-| [`CombinationNumber`](#EnergyResult.CombinationNumber)                                 | Gets or sets the Combination Number for a Solution Combination result. |
-| [`SolutionCombinationDriver`](#EnergyResult.SolutionCombinationDriver)                 | Gets or sets the SolutionCombinationDriver.                            |
-| [`Path`](#EnergyResult.Path)                                                           | Path property.                                                         |
-| [`Surface`](#EnergyResult.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#EnergyResult.SurfaceCoating)                                       | SurfaceCoating property.                                               |
-| [`NamedSelections`](#EnergyResult.NamedSelections)                                     | Gets or sets the NamedSelections.                                      |
-| [`WaterfallShowTextOnMosaic`](#EnergyResult.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
-| [`CrackFrontNumber`](#EnergyResult.CrackFrontNumber)                                   | Gets or sets the CrackFrontNumber.                                     |
-| [`GlobalIDs`](#EnergyResult.GlobalIDs)                                                 | Gets or sets the GlobalIDs.                                            |
-| [`Identifier`](#EnergyResult.Identifier)                                               | Gets or sets the Identifier.                                           |
-| [`IterationNumber`](#EnergyResult.IterationNumber)                                     | Gets the IterationNumber.                                              |
-| [`LoadStep`](#EnergyResult.LoadStep)                                                   | Gets the LoadStep.                                                     |
-| [`MaximumOccursOn`](#EnergyResult.MaximumOccursOn)                                     | Gets the MaximumOccursOn.                                              |
-| [`MinimumOccursOn`](#EnergyResult.MinimumOccursOn)                                     | Gets the MinimumOccursOn.                                              |
-| [`LoadStepNumber`](#EnergyResult.LoadStepNumber)                                       | Gets or sets the LoadStepNumber.                                       |
-| [`SolverComponentIDs`](#EnergyResult.SolverComponentIDs)                               | Gets or sets the SolverComponentIDs.                                   |
-| [`Substep`](#EnergyResult.Substep)                                                     | Gets the Substep.                                                      |
-| [`Average`](#EnergyResult.Average)                                                     | Gets the Average.                                                      |
-| [`Maximum`](#EnergyResult.Maximum)                                                     | Gets the Maximum.                                                      |
-| [`MaximumOfMaximumOverTime`](#EnergyResult.MaximumOfMaximumOverTime)                   | Gets the MaximumOfMaximumOverTime.                                     |
-| [`MaximumOfMinimumOverTime`](#EnergyResult.MaximumOfMinimumOverTime)                   | Gets the MaximumOfMinimumOverTime.                                     |
-| [`Minimum`](#EnergyResult.Minimum)                                                     | Gets the Minimum.                                                      |
-| [`MinimumOfMaximumOverTime`](#EnergyResult.MinimumOfMaximumOverTime)                   | Gets the MinimumOfMaximumOverTime.                                     |
-| [`MinimumOfMinimumOverTime`](#EnergyResult.MinimumOfMinimumOverTime)                   | Gets the MinimumOfMinimumOverTime.                                     |
-| [`Time`](#EnergyResult.Time)                                                           | Gets the Time.                                                         |
-| [`DisplayTime`](#EnergyResult.DisplayTime)                                             | Gets or sets the DisplayTime.                                          |
-| [`GraphControlsXAxis`](#EnergyResult.GraphControlsXAxis)                               | Gets or sets the GraphControlsXAxis.                                   |
-| [`DisplayOption`](#EnergyResult.DisplayOption)                                         | Gets or sets the DisplayOption.                                        |
-| [`DpfEvaluation`](#EnergyResult.DpfEvaluation)                                         | Gets or sets the DpfEvaluation.                                        |
-| [`By`](#EnergyResult.By)                                                               | Gets or sets the By.                                                   |
-| [`ItemType`](#EnergyResult.ItemType)                                                   | Gets or sets the ItemType.                                             |
-| [`CalculateTimeHistory`](#EnergyResult.CalculateTimeHistory)                           | Gets or sets the CalculateTimeHistory.                                 |
-| [`Suppressed`](#EnergyResult.Suppressed)                                               | Gets or sets the Suppressed.                                           |
-| [`Children`](#EnergyResult.Children)                                                   | Gets the list of children.                                             |
-| [`Comments`](#EnergyResult.Comments)                                                   | Gets the list of associated comments.                                  |
-| [`Figures`](#EnergyResult.Figures)                                                     | Gets the list of associated figures.                                   |
-| [`Images`](#EnergyResult.Images)                                                       | Gets the list of associated images.                                    |
-| [`InternalObject`](#id0)                                                               | Gets the internal object. For advanced usage only.                     |
-| [`Properties`](#EnergyResult.Properties)                                               | Gets the list of properties for this object.                           |
-| [`VisibleProperties`](#EnergyResult.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
+|-------------------------------------|------------------------------------------------------------------------|
+| `InternalObject`                    | Gets the internal object. For advanced usage only.                     |
+| `DataModelObjectCategory`           | Gets the current DataModelObject's category.                           |
+| `PlotData`                          | Gets the result table.                                                 |
+| `Location`                          | Gets or sets the Location.                                             |
+| `TimeForMinimumOfMinimumValues`     | Get the Time for the minimum of minimum values.                        |
+| `TimeForMinimumOfMaximumValues`     | Get the Time for the minimum of maximum values.                        |
+| `LoadStepForMinimumOfMinimumValues` | Get the Load Step for the minimum of minimum values.                   |
+| `LoadStepForMinimumOfMaximumValues` | Get the Load Step for the minimum of maximum values.                   |
+| `TimeForMaximumOfMinimumValues`     | Get the Time for the maximum of minimum values.                        |
+| `TimeForMaximumOfMaximumValues`     | Get the Time for the maximum of maximum values.                        |
+| `LoadStepForMaximumOfMinimumValues` | Get the Load Step for the maximum of minimum values.                   |
+| `LoadStepForMaximumOfMaximumValues` | Get the Load Step for the maximum of maximum values.                   |
+| `IsSolved`                          | Gets the IsSolved.                                                     |
+| `CoordinateSystem`                  | Gets or sets the Coordinate System.                                    |
+| `ScopingMethod`                     | Gets or sets the ScopingMethod.                                        |
+| `SetNumber`                         | Gets or sets the Set Number.                                           |
+| `CombinationNumber`                 | Gets or sets the Combination Number for a Solution Combination result. |
+| `SolutionCombinationDriver`         | Gets or sets the SolutionCombinationDriver.                            |
+| `Path`                              | Path property.                                                         |
+| `Surface`                           | Surface property.                                                      |
+| `SurfaceCoating`                    | SurfaceCoating property.                                               |
+| `NamedSelections`                   | Gets or sets the NamedSelections.                                      |
+| `WaterfallShowTextOnMosaic`         | Gets or sets the Waterfall Mosaic Text Property.                       |
+| `CrackFrontNumber`                  | Gets or sets the CrackFrontNumber.                                     |
+| `GlobalIDs`                         | Gets or sets the GlobalIDs.                                            |
+| `Identifier`                        | Gets or sets the Identifier.                                           |
+| `IterationNumber`                   | Gets the IterationNumber.                                              |
+| `LoadStep`                          | Gets the LoadStep.                                                     |
+| `MaximumOccursOn`                   | Gets the MaximumOccursOn.                                              |
+| `MinimumOccursOn`                   | Gets the MinimumOccursOn.                                              |
+| `LoadStepNumber`                    | Gets or sets the LoadStepNumber.                                       |
+| `SolverComponentIDs`                | Gets or sets the SolverComponentIDs.                                   |
+| `Substep`                           | Gets the Substep.                                                      |
+| `Average`                           | Gets the Average.                                                      |
+| `Maximum`                           | Gets the Maximum.                                                      |
+| `MaximumOfMaximumOverTime`          | Gets the MaximumOfMaximumOverTime.                                     |
+| `MaximumOfMinimumOverTime`          | Gets the MaximumOfMinimumOverTime.                                     |
+| `Minimum`                           | Gets the Minimum.                                                      |
+| `MinimumOfMaximumOverTime`          | Gets the MinimumOfMaximumOverTime.                                     |
+| `MinimumOfMinimumOverTime`          | Gets the MinimumOfMinimumOverTime.                                     |
+| `Time`                              | Gets the Time.                                                         |
+| `DisplayTime`                       | Gets or sets the DisplayTime.                                          |
+| `GraphControlsXAxis`                | Gets or sets the GraphControlsXAxis.                                   |
+| `DisplayOption`                     | Gets or sets the DisplayOption.                                        |
+| `DpfEvaluation`                     | Gets or sets the DpfEvaluation.                                        |
+| `By`                                | Gets or sets the By.                                                   |
+| `ItemType`                          | Gets or sets the ItemType.                                             |
+| `CalculateTimeHistory`              | Gets or sets the CalculateTimeHistory.                                 |
+| `Suppressed`                        | Gets or sets the Suppressed.                                           |
+| `Children`                          | Gets the list of children.                                             |
+| `Comments`                          | Gets the list of associated comments.                                  |
+| `Figures`                           | Gets the list of associated figures.                                   |
+| `Images`                            | Gets the list of associated images.                                    |
+| `InternalObject`                    | Gets the internal object. For advanced usage only.                     |
+| `Properties`                        | Gets the list of properties for this object.                           |
+| `VisibleProperties`                 | Gets the list of properties that are visible for this object.          |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="EnergyResult.InternalObject"></a>
 
 ### *property* EnergyResult.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -119,15 +117,11 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EnergyResult.DataModelObjectCategory"></a>
-
 ### *property* EnergyResult.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EnergyResult.PlotData"></a>
 
 ### *property* EnergyResult.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../../../v241/Ansys/Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -135,15 +129,11 @@ Gets the result table.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EnergyResult.Location"></a>
-
 ### *property* EnergyResult.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EnergyResult.TimeForMinimumOfMinimumValues"></a>
 
 ### *property* EnergyResult.TimeForMinimumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -151,15 +141,11 @@ Get the Time for the minimum of minimum values.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EnergyResult.TimeForMinimumOfMaximumValues"></a>
-
 ### *property* EnergyResult.TimeForMinimumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Time for the minimum of maximum values.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EnergyResult.LoadStepForMinimumOfMinimumValues"></a>
 
 ### *property* EnergyResult.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -167,15 +153,11 @@ Get the Load Step for the minimum of minimum values.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EnergyResult.LoadStepForMinimumOfMaximumValues"></a>
-
 ### *property* EnergyResult.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EnergyResult.TimeForMaximumOfMinimumValues"></a>
 
 ### *property* EnergyResult.TimeForMaximumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -183,15 +165,11 @@ Get the Time for the maximum of minimum values.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EnergyResult.TimeForMaximumOfMaximumValues"></a>
-
 ### *property* EnergyResult.TimeForMaximumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Time for the maximum of maximum values.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EnergyResult.LoadStepForMaximumOfMinimumValues"></a>
 
 ### *property* EnergyResult.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -199,23 +177,17 @@ Get the Load Step for the maximum of minimum values.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EnergyResult.LoadStepForMaximumOfMaximumValues"></a>
-
 ### *property* EnergyResult.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EnergyResult.IsSolved"></a>
-
 ### *property* EnergyResult.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EnergyResult.CoordinateSystem"></a>
 
 ### *property* EnergyResult.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -225,15 +197,11 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EnergyResult.ScopingMethod"></a>
-
 ### *property* EnergyResult.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EnergyResult.SetNumber"></a>
 
 ### *property* EnergyResult.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -241,15 +209,11 @@ Gets or sets the Set Number.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EnergyResult.CombinationNumber"></a>
-
 ### *property* EnergyResult.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EnergyResult.SolutionCombinationDriver"></a>
 
 ### *property* EnergyResult.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -257,15 +221,11 @@ Gets or sets the SolutionCombinationDriver.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EnergyResult.Path"></a>
-
 ### *property* EnergyResult.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Path.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Path property.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EnergyResult.Surface"></a>
 
 ### *property* EnergyResult.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Surface.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -273,15 +233,11 @@ Surface property.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EnergyResult.SurfaceCoating"></a>
-
 ### *property* EnergyResult.SurfaceCoating *: [Ansys.ACT.Automation.Mechanical.SurfaceCoating](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/SurfaceCoating.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.SurfaceCoating) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 SurfaceCoating property.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EnergyResult.NamedSelections"></a>
 
 ### *property* EnergyResult.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -289,15 +245,11 @@ Gets or sets the NamedSelections.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EnergyResult.WaterfallShowTextOnMosaic"></a>
-
 ### *property* EnergyResult.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EnergyResult.CrackFrontNumber"></a>
 
 ### *property* EnergyResult.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -305,15 +257,11 @@ Gets or sets the CrackFrontNumber.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EnergyResult.GlobalIDs"></a>
-
 ### *property* EnergyResult.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EnergyResult.Identifier"></a>
 
 ### *property* EnergyResult.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -321,15 +269,11 @@ Gets or sets the Identifier.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EnergyResult.IterationNumber"></a>
-
 ### *property* EnergyResult.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EnergyResult.LoadStep"></a>
 
 ### *property* EnergyResult.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -337,15 +281,11 @@ Gets the LoadStep.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EnergyResult.MaximumOccursOn"></a>
-
 ### *property* EnergyResult.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EnergyResult.MinimumOccursOn"></a>
 
 ### *property* EnergyResult.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -353,15 +293,11 @@ Gets the MinimumOccursOn.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EnergyResult.LoadStepNumber"></a>
-
 ### *property* EnergyResult.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EnergyResult.SolverComponentIDs"></a>
 
 ### *property* EnergyResult.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -369,15 +305,11 @@ Gets or sets the SolverComponentIDs.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EnergyResult.Substep"></a>
-
 ### *property* EnergyResult.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EnergyResult.Average"></a>
 
 ### *property* EnergyResult.Average *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -385,15 +317,11 @@ Gets the Average.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EnergyResult.Maximum"></a>
-
 ### *property* EnergyResult.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Maximum.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EnergyResult.MaximumOfMaximumOverTime"></a>
 
 ### *property* EnergyResult.MaximumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -401,15 +329,11 @@ Gets the MaximumOfMaximumOverTime.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EnergyResult.MaximumOfMinimumOverTime"></a>
-
 ### *property* EnergyResult.MaximumOfMinimumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOfMinimumOverTime.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EnergyResult.Minimum"></a>
 
 ### *property* EnergyResult.Minimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -417,15 +341,11 @@ Gets the Minimum.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EnergyResult.MinimumOfMaximumOverTime"></a>
-
 ### *property* EnergyResult.MinimumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOfMaximumOverTime.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EnergyResult.MinimumOfMinimumOverTime"></a>
 
 ### *property* EnergyResult.MinimumOfMinimumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -433,15 +353,11 @@ Gets the MinimumOfMinimumOverTime.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EnergyResult.Time"></a>
-
 ### *property* EnergyResult.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Time.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EnergyResult.DisplayTime"></a>
 
 ### *property* EnergyResult.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -449,15 +365,11 @@ Gets or sets the DisplayTime.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EnergyResult.GraphControlsXAxis"></a>
-
 ### *property* EnergyResult.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GraphControlsXAxis.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EnergyResult.DisplayOption"></a>
 
 ### *property* EnergyResult.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -465,15 +377,11 @@ Gets or sets the DisplayOption.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EnergyResult.DpfEvaluation"></a>
-
 ### *property* EnergyResult.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DpfEvaluation.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EnergyResult.By"></a>
 
 ### *property* EnergyResult.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -481,15 +389,11 @@ Gets or sets the By.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EnergyResult.ItemType"></a>
-
 ### *property* EnergyResult.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ItemType.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EnergyResult.CalculateTimeHistory"></a>
 
 ### *property* EnergyResult.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -497,15 +401,11 @@ Gets or sets the CalculateTimeHistory.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EnergyResult.Suppressed"></a>
-
 ### *property* EnergyResult.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EnergyResult.Children"></a>
 
 ### *property* EnergyResult.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -513,15 +413,11 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EnergyResult.Comments"></a>
-
 ### *property* EnergyResult.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EnergyResult.Figures"></a>
 
 ### *property* EnergyResult.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -529,15 +425,11 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EnergyResult.Images"></a>
-
 ### *property* EnergyResult.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="id0"></a>
 
 ### *property* EnergyResult.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -545,15 +437,11 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EnergyResult.Properties"></a>
-
 ### *property* EnergyResult.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EnergyResult.VisibleProperties"></a>
 
 ### *property* EnergyResult.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -565,15 +453,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="EnergyResult.ClearGeneratedData"></a>
-
 ### EnergyResult.ClearGeneratedData()
 
 Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EnergyResult.EvaluateAllResults"></a>
 
 ### EnergyResult.EvaluateAllResults()
 
@@ -581,15 +465,11 @@ Run the EvaluateAllResults action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EnergyResult.FetchRemoteResults"></a>
-
 ### EnergyResult.FetchRemoteResults()
 
 Run the FetchRemoteResult action.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EnergyResult.ExportToTextFile"></a>
 
 ### EnergyResult.ExportToTextFile(filePath: System.String)
 
@@ -597,15 +477,11 @@ Run the ExportToTextFile action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EnergyResult.ExportAnimation"></a>
-
 ### EnergyResult.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v241/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EnergyResult.DuplicateWithoutResults"></a>
 
 ### EnergyResult.DuplicateWithoutResults()
 
@@ -613,15 +489,11 @@ Run the DuplicateWithoutResults action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EnergyResult.CreateResultsAtAllSets"></a>
-
 ### EnergyResult.CreateResultsAtAllSets()
 
 Creates results at all sets for results under a solution.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EnergyResult.PromoteToNamedSelection"></a>
 
 ### EnergyResult.PromoteToNamedSelection()
 
@@ -629,15 +501,11 @@ Run the PromoteToNamedSelection action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EnergyResult.CreateParameter"></a>
-
 ### EnergyResult.CreateParameter(propName: System.String)
 
 CreateParameter method.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EnergyResult.AddAlert"></a>
 
 ### EnergyResult.AddAlert()
 
@@ -645,15 +513,11 @@ Creates a new Alert
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EnergyResult.AddConvergence"></a>
-
 ### EnergyResult.AddConvergence()
 
 Creates a new Convergence
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EnergyResult.RenameBasedOnDefinition"></a>
 
 ### EnergyResult.RenameBasedOnDefinition()
 
@@ -661,15 +525,11 @@ Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EnergyResult.Delete"></a>
-
 ### EnergyResult.Delete()
 
 Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EnergyResult.GetChildren"></a>
 
 ### EnergyResult.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
@@ -677,15 +537,11 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id1"></a>
-
 ### EnergyResult.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EnergyResult.AddComment"></a>
 
 ### EnergyResult.AddComment()
 
@@ -693,25 +549,21 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EnergyResult.AddFigure"></a>
-
 ### EnergyResult.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EnergyResult.AddImage"></a>
-
 ### EnergyResult.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
+```
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EnergyResult.Activate"></a>
 
 ### EnergyResult.Activate()
 
@@ -719,15 +571,11 @@ Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EnergyResult.CopyTo"></a>
-
 ### EnergyResult.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
 Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EnergyResult.Duplicate"></a>
 
 ### EnergyResult.Duplicate()
 
@@ -735,15 +583,11 @@ Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EnergyResult.GroupAllSimilarChildren"></a>
-
 ### EnergyResult.GroupAllSimilarChildren()
 
 Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EnergyResult.GroupSimilarObjects"></a>
 
 ### EnergyResult.GroupSimilarObjects()
 
@@ -751,32 +595,26 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EnergyResult.PropertyByName"></a>
-
 ### EnergyResult.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EnergyResult.PropertyByAPIName"></a>
-
 ### EnergyResult.PropertyByAPIName(name: System.String)
 
+```text
 Get a property by its API name.
 If multiple properties have the same API Name, only the first property with that name will be returned.
+```
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EnergyResult.GetParameter"></a>
 
 ### EnergyResult.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EnergyResult.RemoveParameter"></a>
 
 ### EnergyResult.RemoveParameter(propName: System.String)
 

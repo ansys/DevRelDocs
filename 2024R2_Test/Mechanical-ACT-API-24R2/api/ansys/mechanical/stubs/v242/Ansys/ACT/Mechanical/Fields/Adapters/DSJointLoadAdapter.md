@@ -17,20 +17,18 @@ Adapter dedicated to IDSJointConditionAuto objects.
 ### Methods
 
 | Name | Description |
-|--------------------------------------------------------------------------------|-------------------------------------|
-| [`ChangeFieldDefinitionType`](#DSJointLoadAdapter.ChangeFieldDefinitionType)   | ChangeFieldDefinitionType method.   |
+|-------------------------------|-------------------------------------|
+| `ChangeFieldDefinitionType`   | ChangeFieldDefinitionType method.   |
 
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------|--------------------------------------------|
-| [`FieldProvider`](#DSJointLoadAdapter.FieldProvider)   | Gets the wrapped object from Mechanical.   |
+|-------------------|--------------------------------------------|
+| `FieldProvider`   | Gets the wrapped object from Mechanical.   |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="DSJointLoadAdapter.FieldProvider"></a>
 
 ### *property* DSJointLoadAdapter.FieldProvider *: Ansys.Common.Interop.DSObjects.IDSBCInformation | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -41,8 +39,6 @@ Gets the wrapped object from Mechanical.
 <a id="method-detail"></a>
 
 ## Method detail
-
-<a id="DSJointLoadAdapter.ChangeFieldDefinitionType"></a>
 
 ### DSJointLoadAdapter.ChangeFieldDefinitionType(componentType: Ansys.Common.Interop.CAERepObjects.AnsBCLVType, newType: Ansys.Common.Interop.AnsMaterial.kEDDataType)
 

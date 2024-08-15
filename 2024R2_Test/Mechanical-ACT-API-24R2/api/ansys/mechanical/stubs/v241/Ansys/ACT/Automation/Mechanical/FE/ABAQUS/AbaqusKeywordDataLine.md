@@ -17,14 +17,12 @@ Represents a keyword data line.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------|------------------------------|
-| [`Items`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/ABAQUS/AbaqusKeywordDataLine.md#AbaqusKeywordDataLine.Items)   | Gets the data line values.   |
+|-----------|------------------------------|
+| `Items`   | Gets the data line values.   |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="AbaqusKeywordDataLine.Items"></a>
 
 ### *property* AbaqusKeywordDataLine.Items *: System.Collections.Generic.IReadOnlyList[System.String] | [None](https://docs.python.org/3/library/constants.html#None)*
 

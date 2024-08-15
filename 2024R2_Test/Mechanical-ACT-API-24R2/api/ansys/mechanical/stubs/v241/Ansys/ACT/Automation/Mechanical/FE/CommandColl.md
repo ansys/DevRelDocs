@@ -17,23 +17,19 @@ Collection of commands.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------|-------------------------------|
-| [`Count`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CommandColl.md#CommandColl.Count)   | Gets the count of commands.   |
-| [`Item`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CommandColl.md#CommandColl.Item)     | Item property.                |
+|-----------|-------------------------------|
+| `Count`   | Gets the count of commands.   |
+| `Item`    | Item property.                |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="CommandColl.Count"></a>
 
 ### *property* CommandColl.Count *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the count of commands.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="CommandColl.Item"></a>
 
 ### *property* CommandColl.Item *: Ansys.Common.Interop.FECommandsModel.ICommand | [None](https://docs.python.org/3/library/constants.html#None)*
 

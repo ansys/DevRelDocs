@@ -17,89 +17,87 @@ Defines a RadiationProbe.
 ### Methods
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`ExportAnimation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
-| [`ClearGeneratedData`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
-| [`DuplicateWithoutResults`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
-| [`EvaluateAllResults`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
-| [`SnapToMeshNodes`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.SnapToMeshNodes)                 | Snap the coordinates of probe result to the mesh nodes.                           |
-| [`RenameBasedOnDefinition`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
-| [`Delete`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#id1)                                                | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#id1)                                                | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.AddComment)                           | Creates a new child Comment.                                                      |
-| [`AddFigure`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.AddFigure)                             | Creates a new child Figure.                                                       |
-| [`AddImage`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.Activate)                               | Activate the current object.                                                      |
-| [`CopyTo`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.CopyTo)                                   | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.PropertyByName)                   | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+|---------------------------|-----------------------------------------------------------------------------------|
+| `ExportAnimation`         | Run the ExportAnimation action.                                                   |
+| `ClearGeneratedData`      | Run the ClearGeneratedData action.                                                |
+| `DuplicateWithoutResults` | Run the DuplicateWithoutResults action.                                           |
+| `EvaluateAllResults`      | Run the EvaluateAllResults action.                                                |
+| `SnapToMeshNodes`         | Snap the coordinates of probe result to the mesh nodes.                           |
+| `RenameBasedOnDefinition` | Run the RenameBasedOnDefinition action.                                           |
+| `Delete`                  | Run the Delete action.                                                            |
+| `GetChildren`             | Gets the list of children, filtered by type.                                      |
+| `GetChildren`             | Gets the list of children, filtered by type.                                      |
+| `AddComment`              | Creates a new child Comment.                                                      |
+| `AddFigure`               | Creates a new child Figure.                                                       |
+| `AddImage`                | Creates a new child Image.                                                        |
+| `Activate`                | Activate the current object.                                                      |
+| `CopyTo`                  | Copies all visible properties from this object to another.                        |
+| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
+| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
+| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
+| `PropertyByName`          | Get a property by its unique name.                                                |
+| `PropertyByAPIName`       | Get a property by its API name.                                                   |
+| `CreateParameter`         | Creates a new parameter for a Property.                                           |
+| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
+| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#id0)                                                   | Gets the internal object. For advanced usage only.                                                                                                                         |
-| [`EmittedRadiation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.EmittedRadiation)                     | Gets the EmittedRadiation.                                                                                                                                                 |
-| [`IncidentRadiation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.IncidentRadiation)                   | Gets the IncidentRadiation.                                                                                                                                                |
-| [`NetRadiation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.NetRadiation)                             | Gets the NetRadiation.                                                                                                                                                     |
-| [`ReflectedRadiation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.ReflectedRadiation)                 | Gets the ReflectedRadiation.                                                                                                                                               |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.DataModelObjectCategory)       | Gets the current DataModelObject's category.                                                                                                                               |
-| [`Summation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.Summation)                                   | Gets or sets the Summation.                                                                                                                                                |
-| [`LocationMethod`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.LocationMethod)                         | Gets or sets the LocationMethod.                                                                                                                                           |
-| [`GeometryLocation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.GeometryLocation)                     | Gets or sets the GeometryLocation.                                                                                                                                         |
-| [`CoordinateSystemSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.CoordinateSystemSelection)   | Gets or sets the CoordinateSystemSelection.                                                                                                                                |
-| [`BoundaryConditionSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.BoundaryConditionSelection) | Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSprings', please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSprings'. |
-| [`ContactRegionSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.ContactRegionSelection)         | Gets or sets the ContactRegionSelection.                                                                                                                                   |
-| [`RemotePointSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.RemotePointSelection)             | Gets or sets the RemotePointSelection.                                                                                                                                     |
-| [`BeamSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.BeamSelection)                           | Gets or sets the BeamSelection.                                                                                                                                            |
-| [`MeshConnectionSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.MeshConnectionSelection)       | Gets or sets the MeshConnectionSelection.                                                                                                                                  |
-| [`SurfaceSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.SurfaceSelection)                     | Gets or sets the MeshConnectionSelection.                                                                                                                                  |
-| [`SpringSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.SpringSelection)                       | Gets or sets the SpringSelection.                                                                                                                                          |
-| [`IsSolved`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.IsSolved)                                     | Gets the IsSolved.                                                                                                                                                         |
-| [`Orientation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.Orientation)                               | Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordinate System.                                                                                |
-| [`IterationNumber`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.IterationNumber)                       | Gets the IterationNumber.                                                                                                                                                  |
-| [`LoadStep`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.LoadStep)                                     | Gets the LoadStep.                                                                                                                                                         |
-| [`LoadStepNumber`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.LoadStepNumber)                         | Gets or sets the LoadStepNumber.                                                                                                                                           |
-| [`Substep`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.Substep)                                       | Gets the Substep.                                                                                                                                                          |
-| [`DisplayTime`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.DisplayTime)                               | Gets or sets the DisplayTime.                                                                                                                                              |
-| [`MaximumTotal`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.MaximumTotal)                             | Gets the MaximumTotal.                                                                                                                                                     |
-| [`MaximumXAxis`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.MaximumXAxis)                             | Gets the MaximumXAxis.                                                                                                                                                     |
-| [`MaximumYAxis`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.MaximumYAxis)                             | Gets the MaximumYAxis.                                                                                                                                                     |
-| [`MaximumZAxis`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.MaximumZAxis)                             | Gets the MaximumZAxis.                                                                                                                                                     |
-| [`MinimumTotal`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.MinimumTotal)                             | Gets the MinimumTotal.                                                                                                                                                     |
-| [`MinimumXAxis`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.MinimumXAxis)                             | Gets the MinimumXAxis.                                                                                                                                                     |
-| [`MinimumYAxis`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.MinimumYAxis)                             | Gets the MinimumYAxis.                                                                                                                                                     |
-| [`MinimumZAxis`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.MinimumZAxis)                             | Gets the MinimumZAxis.                                                                                                                                                     |
-| [`Time`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.Time)                                             | Gets the Time.                                                                                                                                                             |
-| [`Total`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.Total)                                           | Gets the Total.                                                                                                                                                            |
-| [`XAxis`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.XAxis)                                           | Gets the XAxis.                                                                                                                                                            |
-| [`YAxis`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.YAxis)                                           | Gets the YAxis.                                                                                                                                                            |
-| [`ZAxis`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.ZAxis)                                           | Gets the ZAxis.                                                                                                                                                            |
-| [`ResultSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.ResultSelection)                       | Gets or sets the ResultSelection.                                                                                                                                          |
-| [`SpatialResolution`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.SpatialResolution)                   | Gets or sets the SpatialResolution.                                                                                                                                        |
-| [`Type`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.Type)                                             | Gets the Type.                                                                                                                                                             |
-| [`DpfEvaluation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.DpfEvaluation)                           | Gets or sets the DpfEvaluation.                                                                                                                                            |
-| [`Suppressed`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.Suppressed)                                 | Gets or sets the Suppressed.                                                                                                                                               |
-| [`Children`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.Children)                                     | Gets the list of children.                                                                                                                                                 |
-| [`Comments`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.Comments)                                     | Gets the list of associated comments.                                                                                                                                      |
-| [`Figures`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.Figures)                                       | Gets the list of associated figures.                                                                                                                                       |
-| [`Images`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.Images)                                         | Gets the list of associated images.                                                                                                                                        |
-| [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#id0)                                                   | Gets the internal object. For advanced usage only.                                                                                                                         |
-| [`Properties`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.Properties)                                 | Gets the list of properties for this object.                                                                                                                               |
-| [`VisibleProperties`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/RadiationProbe.md#RadiationProbe.VisibleProperties)                   | Gets the list of properties that are visible for this object.                                                                                                              |
+|------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `InternalObject`             | Gets the internal object. For advanced usage only.                                                                                                                         |
+| `EmittedRadiation`           | Gets the EmittedRadiation.                                                                                                                                                 |
+| `IncidentRadiation`          | Gets the IncidentRadiation.                                                                                                                                                |
+| `NetRadiation`               | Gets the NetRadiation.                                                                                                                                                     |
+| `ReflectedRadiation`         | Gets the ReflectedRadiation.                                                                                                                                               |
+| `DataModelObjectCategory`    | Gets the current DataModelObject's category.                                                                                                                               |
+| `Summation`                  | Gets or sets the Summation.                                                                                                                                                |
+| `LocationMethod`             | Gets or sets the LocationMethod.                                                                                                                                           |
+| `GeometryLocation`           | Gets or sets the GeometryLocation.                                                                                                                                         |
+| `CoordinateSystemSelection`  | Gets or sets the CoordinateSystemSelection.                                                                                                                                |
+| `BoundaryConditionSelection` | Gets or sets the BoundaryConditionSelection. In order to select the option 'WeakSprings', please use the property 'LocationMethod = LocationDefinitionMethod.WeakSprings'. |
+| `ContactRegionSelection`     | Gets or sets the ContactRegionSelection.                                                                                                                                   |
+| `RemotePointSelection`       | Gets or sets the RemotePointSelection.                                                                                                                                     |
+| `BeamSelection`              | Gets or sets the BeamSelection.                                                                                                                                            |
+| `MeshConnectionSelection`    | Gets or sets the MeshConnectionSelection.                                                                                                                                  |
+| `SurfaceSelection`           | Gets or sets the MeshConnectionSelection.                                                                                                                                  |
+| `SpringSelection`            | Gets or sets the SpringSelection.                                                                                                                                          |
+| `IsSolved`                   | Gets the IsSolved.                                                                                                                                                         |
+| `Orientation`                | Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordinate System.                                                                                |
+| `IterationNumber`            | Gets the IterationNumber.                                                                                                                                                  |
+| `LoadStep`                   | Gets the LoadStep.                                                                                                                                                         |
+| `LoadStepNumber`             | Gets or sets the LoadStepNumber.                                                                                                                                           |
+| `Substep`                    | Gets the Substep.                                                                                                                                                          |
+| `DisplayTime`                | Gets or sets the DisplayTime.                                                                                                                                              |
+| `MaximumTotal`               | Gets the MaximumTotal.                                                                                                                                                     |
+| `MaximumXAxis`               | Gets the MaximumXAxis.                                                                                                                                                     |
+| `MaximumYAxis`               | Gets the MaximumYAxis.                                                                                                                                                     |
+| `MaximumZAxis`               | Gets the MaximumZAxis.                                                                                                                                                     |
+| `MinimumTotal`               | Gets the MinimumTotal.                                                                                                                                                     |
+| `MinimumXAxis`               | Gets the MinimumXAxis.                                                                                                                                                     |
+| `MinimumYAxis`               | Gets the MinimumYAxis.                                                                                                                                                     |
+| `MinimumZAxis`               | Gets the MinimumZAxis.                                                                                                                                                     |
+| `Time`                       | Gets the Time.                                                                                                                                                             |
+| `Total`                      | Gets the Total.                                                                                                                                                            |
+| `XAxis`                      | Gets the XAxis.                                                                                                                                                            |
+| `YAxis`                      | Gets the YAxis.                                                                                                                                                            |
+| `ZAxis`                      | Gets the ZAxis.                                                                                                                                                            |
+| `ResultSelection`            | Gets or sets the ResultSelection.                                                                                                                                          |
+| `SpatialResolution`          | Gets or sets the SpatialResolution.                                                                                                                                        |
+| `Type`                       | Gets the Type.                                                                                                                                                             |
+| `DpfEvaluation`              | Gets or sets the DpfEvaluation.                                                                                                                                            |
+| `Suppressed`                 | Gets or sets the Suppressed.                                                                                                                                               |
+| `Children`                   | Gets the list of children.                                                                                                                                                 |
+| `Comments`                   | Gets the list of associated comments.                                                                                                                                      |
+| `Figures`                    | Gets the list of associated figures.                                                                                                                                       |
+| `Images`                     | Gets the list of associated images.                                                                                                                                        |
+| `InternalObject`             | Gets the internal object. For advanced usage only.                                                                                                                         |
+| `Properties`                 | Gets the list of properties for this object.                                                                                                                               |
+| `VisibleProperties`          | Gets the list of properties that are visible for this object.                                                                                                              |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="RadiationProbe.InternalObject"></a>
 
 ### *property* RadiationProbe.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSProbeResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -107,15 +105,11 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="RadiationProbe.EmittedRadiation"></a>
-
 ### *property* RadiationProbe.EmittedRadiation *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the EmittedRadiation.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="RadiationProbe.IncidentRadiation"></a>
 
 ### *property* RadiationProbe.IncidentRadiation *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -123,15 +117,11 @@ Gets the IncidentRadiation.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="RadiationProbe.NetRadiation"></a>
-
 ### *property* RadiationProbe.NetRadiation *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the NetRadiation.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="RadiationProbe.ReflectedRadiation"></a>
 
 ### *property* RadiationProbe.ReflectedRadiation *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -139,15 +129,11 @@ Gets the ReflectedRadiation.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="RadiationProbe.DataModelObjectCategory"></a>
-
 ### *property* RadiationProbe.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="RadiationProbe.Summation"></a>
 
 ### *property* RadiationProbe.Summation *: [Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType](../../../../../Mechanical/DataModel/Enums/MomentsAtSummationPointType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -155,15 +141,11 @@ Gets or sets the Summation.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="RadiationProbe.LocationMethod"></a>
-
 ### *property* RadiationProbe.LocationMethod *: [Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod](../../../../../Mechanical/DataModel/Enums/LocationDefinitionMethod.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LocationMethod.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="RadiationProbe.GeometryLocation"></a>
 
 ### *property* RadiationProbe.GeometryLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -171,23 +153,17 @@ Gets or sets the GeometryLocation.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="RadiationProbe.CoordinateSystemSelection"></a>
-
 ### *property* RadiationProbe.CoordinateSystemSelection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystemSelection.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="RadiationProbe.BoundaryConditionSelection"></a>
-
 ### *property* RadiationProbe.BoundaryConditionSelection *: Ansys.ACT.Automation.Mechanical.DataModelObject | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSprings', please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSprings'.
+Gets or sets the BoundaryConditionSelection. In order to select the option 'WeakSprings', please use the property 'LocationMethod = LocationDefinitionMethod.WeakSprings'.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="RadiationProbe.ContactRegionSelection"></a>
 
 ### *property* RadiationProbe.ContactRegionSelection *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../Connections/ContactRegion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -195,15 +171,11 @@ Gets or sets the ContactRegionSelection.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="RadiationProbe.RemotePointSelection"></a>
-
 ### *property* RadiationProbe.RemotePointSelection *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../../RemotePoint.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RemotePointSelection.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="RadiationProbe.BeamSelection"></a>
 
 ### *property* RadiationProbe.BeamSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Beam](../../Connections/Beam.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Beam) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -211,15 +183,11 @@ Gets or sets the BeamSelection.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="RadiationProbe.MeshConnectionSelection"></a>
-
 ### *property* RadiationProbe.MeshConnectionSelection *: [Ansys.ACT.Automation.Mechanical.MeshConnection](../../MeshConnection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshConnection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MeshConnectionSelection.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="RadiationProbe.SurfaceSelection"></a>
 
 ### *property* RadiationProbe.SurfaceSelection *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -227,15 +195,11 @@ Gets or sets the MeshConnectionSelection.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="RadiationProbe.SpringSelection"></a>
-
 ### *property* RadiationProbe.SpringSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../Connections/Spring.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SpringSelection.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="RadiationProbe.IsSolved"></a>
 
 ### *property* RadiationProbe.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -243,15 +207,11 @@ Gets the IsSolved.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="RadiationProbe.Orientation"></a>
-
 ### *property* RadiationProbe.Orientation *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordinate System.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="RadiationProbe.IterationNumber"></a>
 
 ### *property* RadiationProbe.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -259,15 +219,11 @@ Gets the IterationNumber.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="RadiationProbe.LoadStep"></a>
-
 ### *property* RadiationProbe.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="RadiationProbe.LoadStepNumber"></a>
 
 ### *property* RadiationProbe.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -275,15 +231,11 @@ Gets or sets the LoadStepNumber.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="RadiationProbe.Substep"></a>
-
 ### *property* RadiationProbe.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="RadiationProbe.DisplayTime"></a>
 
 ### *property* RadiationProbe.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -291,15 +243,11 @@ Gets or sets the DisplayTime.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="RadiationProbe.MaximumTotal"></a>
-
 ### *property* RadiationProbe.MaximumTotal *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumTotal.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="RadiationProbe.MaximumXAxis"></a>
 
 ### *property* RadiationProbe.MaximumXAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -307,15 +255,11 @@ Gets the MaximumXAxis.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="RadiationProbe.MaximumYAxis"></a>
-
 ### *property* RadiationProbe.MaximumYAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumYAxis.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="RadiationProbe.MaximumZAxis"></a>
 
 ### *property* RadiationProbe.MaximumZAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -323,15 +267,11 @@ Gets the MaximumZAxis.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="RadiationProbe.MinimumTotal"></a>
-
 ### *property* RadiationProbe.MinimumTotal *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumTotal.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="RadiationProbe.MinimumXAxis"></a>
 
 ### *property* RadiationProbe.MinimumXAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -339,15 +279,11 @@ Gets the MinimumXAxis.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="RadiationProbe.MinimumYAxis"></a>
-
 ### *property* RadiationProbe.MinimumYAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumYAxis.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="RadiationProbe.MinimumZAxis"></a>
 
 ### *property* RadiationProbe.MinimumZAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -355,15 +291,11 @@ Gets the MinimumZAxis.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="RadiationProbe.Time"></a>
-
 ### *property* RadiationProbe.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Time.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="RadiationProbe.Total"></a>
 
 ### *property* RadiationProbe.Total *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -371,15 +303,11 @@ Gets the Total.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="RadiationProbe.XAxis"></a>
-
 ### *property* RadiationProbe.XAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the XAxis.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="RadiationProbe.YAxis"></a>
 
 ### *property* RadiationProbe.YAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -387,15 +315,11 @@ Gets the YAxis.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="RadiationProbe.ZAxis"></a>
-
 ### *property* RadiationProbe.ZAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ZAxis.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="RadiationProbe.ResultSelection"></a>
 
 ### *property* RadiationProbe.ResultSelection *: [Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter](../../../../../Mechanical/DataModel/Enums/ProbeDisplayFilter.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -403,15 +327,11 @@ Gets or sets the ResultSelection.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="RadiationProbe.SpatialResolution"></a>
-
 ### *property* RadiationProbe.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum](../../../../../Mechanical/DataModel/Enums/MinimumOrMaximum.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SpatialResolution.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="RadiationProbe.Type"></a>
 
 ### *property* RadiationProbe.Type *: [Ansys.Mechanical.DataModel.Enums.ProbeResultType](../../../../../Mechanical/DataModel/Enums/ProbeResultType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ProbeResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -419,15 +339,11 @@ Gets the Type.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="RadiationProbe.DpfEvaluation"></a>
-
 ### *property* RadiationProbe.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DpfEvaluation.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="RadiationProbe.Suppressed"></a>
 
 ### *property* RadiationProbe.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -435,15 +351,11 @@ Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="RadiationProbe.Children"></a>
-
 ### *property* RadiationProbe.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="RadiationProbe.Comments"></a>
 
 ### *property* RadiationProbe.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -451,15 +363,11 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="RadiationProbe.Figures"></a>
-
 ### *property* RadiationProbe.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="RadiationProbe.Images"></a>
 
 ### *property* RadiationProbe.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -467,23 +375,17 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
-
 ### *property* RadiationProbe.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="RadiationProbe.Properties"></a>
-
 ### *property* RadiationProbe.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="RadiationProbe.VisibleProperties"></a>
 
 ### *property* RadiationProbe.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -495,15 +397,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="RadiationProbe.ExportAnimation"></a>
-
 ### RadiationProbe.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="RadiationProbe.ClearGeneratedData"></a>
 
 ### RadiationProbe.ClearGeneratedData()
 
@@ -511,15 +409,11 @@ Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="RadiationProbe.DuplicateWithoutResults"></a>
-
 ### RadiationProbe.DuplicateWithoutResults()
 
 Run the DuplicateWithoutResults action.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="RadiationProbe.EvaluateAllResults"></a>
 
 ### RadiationProbe.EvaluateAllResults()
 
@@ -527,15 +421,11 @@ Run the EvaluateAllResults action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="RadiationProbe.SnapToMeshNodes"></a>
-
 ### RadiationProbe.SnapToMeshNodes()
 
 Snap the coordinates of probe result to the mesh nodes.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="RadiationProbe.RenameBasedOnDefinition"></a>
 
 ### RadiationProbe.RenameBasedOnDefinition()
 
@@ -543,15 +433,11 @@ Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="RadiationProbe.Delete"></a>
-
 ### RadiationProbe.Delete()
 
 Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="RadiationProbe.GetChildren"></a>
 
 ### RadiationProbe.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
@@ -559,15 +445,11 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id1"></a>
-
 ### RadiationProbe.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="RadiationProbe.AddComment"></a>
 
 ### RadiationProbe.AddComment()
 
@@ -575,25 +457,21 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="RadiationProbe.AddFigure"></a>
-
 ### RadiationProbe.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="RadiationProbe.AddImage"></a>
-
 ### RadiationProbe.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
+```
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="RadiationProbe.Activate"></a>
 
 ### RadiationProbe.Activate()
 
@@ -601,15 +479,11 @@ Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="RadiationProbe.CopyTo"></a>
-
 ### RadiationProbe.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
 Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="RadiationProbe.Duplicate"></a>
 
 ### RadiationProbe.Duplicate()
 
@@ -617,15 +491,11 @@ Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="RadiationProbe.GroupAllSimilarChildren"></a>
-
 ### RadiationProbe.GroupAllSimilarChildren()
 
 Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="RadiationProbe.GroupSimilarObjects"></a>
 
 ### RadiationProbe.GroupSimilarObjects()
 
@@ -633,24 +503,20 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="RadiationProbe.PropertyByName"></a>
-
 ### RadiationProbe.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="RadiationProbe.PropertyByAPIName"></a>
-
 ### RadiationProbe.PropertyByAPIName(name: System.String)
 
+```text
 Get a property by its API name.
 If multiple properties have the same API Name, only the first property with that name will be returned.
+```
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="RadiationProbe.CreateParameter"></a>
 
 ### RadiationProbe.CreateParameter(propName: System.String)
 
@@ -658,15 +524,11 @@ Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="RadiationProbe.GetParameter"></a>
-
 ### RadiationProbe.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="RadiationProbe.RemoveParameter"></a>
 
 ### RadiationProbe.RemoveParameter(propName: System.String)
 

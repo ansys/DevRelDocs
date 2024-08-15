@@ -17,23 +17,19 @@ Represent a real constant set associated to a RLBLOCK command.
 ### Properties
 
 | Name | Description |
-|---------------------------------|--------------------------------------|
-| [`Id`](#CommandReal.Id)         | Gets the real constant set number.   |
-| [`Values`](#CommandReal.Values) | Gets the values.                     |
+|----------|--------------------------------------|
+| `Id`     | Gets the real constant set number.   |
+| `Values` | Gets the values.                     |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="CommandReal.Id"></a>
 
 ### *property* CommandReal.Id *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the real constant set number.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="CommandReal.Values"></a>
 
 ### *property* CommandReal.Values *: System.Collections.Generic.IReadOnlyList[System.Double] | [None](https://docs.python.org/3/library/constants.html#None)*
 

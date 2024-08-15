@@ -17,14 +17,12 @@ Graphics3DExportSettings class.
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|
-| [`Background`](../../../../v242/Ansys/Mechanical/Graphics/Graphics3DExportSettings.md#Graphics3DExportSettings.Background)   | Specifies the background color.   |
+|----------------|-----------------------------------|
+| `Background`   | Specifies the background color.   |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="Graphics3DExportSettings.Background"></a>
 
 ### *property* Graphics3DExportSettings.Background *: [Ansys.Mechanical.DataModel.Enums.GraphicsBackgroundType](../DataModel/Enums/GraphicsBackgroundType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsBackgroundType) | [None](https://docs.python.org/3/library/constants.html#None)*
 

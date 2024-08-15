@@ -16,9 +16,9 @@ ImportSettingsFactory interface.
 
 ### Constructors
 
-| Name |
-| ------------------------------------------------------------------------- |
-| [`GetSettingsForFormat`](#ImportSettingsFactory.GetSettingsForFormat) |
+| Name | Description |
+|-------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`GetSettingsForFormat`](#ImportSettingsFactory.GetSettingsForFormat)   | M:Ansys.Mechanical.Table.ImportSettingsFactory.GetSettingsForFormat(Ansys.Mechanical.DataModel.MechanicalEnums.Table.ImportFormat) constructs and returns the correct settings class   |
 
 <a id="method-detail"></a>
 
@@ -27,6 +27,13 @@ ImportSettingsFactory interface.
 <a id="ImportSettingsFactory.GetSettingsForFormat"></a>
 
 ### *classmethod* ImportSettingsFactory.GetSettingsForFormat(format: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.ImportFormat](../../../../v241/Ansys/Mechanical/DataModel/MechanicalEnums/Table/ImportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.Table.ImportFormat))
+
+* **No-index:**
+
+```text
+M:Ansys.Mechanical.Table.ImportSettingsFactory.GetSettingsForFormat(Ansys.Mechanical.DataModel.MechanicalEnums.Table.ImportFormat) constructs and returns the correct settings class
+instance based on the specified format.
+```
 
 <!-- !! processed by numpydoc !! -->
 

@@ -17,16 +17,14 @@ Represents a term associated to a CE command.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------|-----------------------------|
-| [`Node`](#CommandCETerm.Node)               | Gets the node number.       |
-| [`Dof`](#CommandCETerm.Dof)                 | Gets the degree of freedom. |
-| [`Coefficient`](#CommandCETerm.Coefficient) | Gets the coefficient.       |
+|---------------|-----------------------------|
+| `Node`        | Gets the node number.       |
+| `Dof`         | Gets the degree of freedom. |
+| `Coefficient` | Gets the coefficient.       |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="CommandCETerm.Node"></a>
 
 ### *property* CommandCETerm.Node *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -34,15 +32,11 @@ Gets the node number.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="CommandCETerm.Dof"></a>
-
 ### *property* CommandCETerm.Dof *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the degree of freedom.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="CommandCETerm.Coefficient"></a>
 
 ### *property* CommandCETerm.Coefficient *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 

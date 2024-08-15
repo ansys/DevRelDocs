@@ -17,30 +17,26 @@ Defines the configuration for the Core failure criterion for sandwich structures
 ### Methods
 
 | Name | Description |
-|-----------------------------------------|------------------------------------------------|
-| [`Reset`](#CoreFailureSettings.Reset)   | Resets the settings to their default values.   |
+|-----------|------------------------------------------------|
+| `Reset`   | Resets the settings to their default values.   |
 
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| [`WeightingFactor`](#CoreFailureSettings.WeightingFactor)                                       | Gets or sets the weighting factor for the core failure criterion. The corresponding failure label   |
-| [`ConsiderInterlaminarNormalStresses`](#CoreFailureSettings.ConsiderInterlaminarNormalStresses) | Gets or sets whether interlaminar normal stresses are included in the core failure evaluation.      |
+|--------------------------------------|-----------------------------------------------------------------------------------------------------|
+| `WeightingFactor`                    | Gets or sets the weighting factor for the core failure criterion. The corresponding failure label   |
+| `ConsiderInterlaminarNormalStresses` | Gets or sets whether interlaminar normal stresses are included in the core failure evaluation.      |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-<a id="CoreFailureSettings.WeightingFactor"></a>
-
 ### *property* CoreFailureSettings.WeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the weighting factor for the core failure criterion. The corresponding failure label
-: is â€˜cf'.
+: is 'cf'.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="CoreFailureSettings.ConsiderInterlaminarNormalStresses"></a>
 
 ### *property* CoreFailureSettings.ConsiderInterlaminarNormalStresses *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -51,8 +47,6 @@ Gets or sets whether interlaminar normal stresses are included in the core failu
 <a id="method-detail"></a>
 
 ## Method detail
-
-<a id="CoreFailureSettings.Reset"></a>
 
 ### CoreFailureSettings.Reset()
 

@@ -17,23 +17,19 @@ MAPDLContactData class.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------|---------------------------------------------|
-| [`SourceId`](#MAPDLContactData.SourceId)   | Gets the Source Id of the Contact region.   |
-| [`TargetId`](#MAPDLContactData.TargetId)   | Gets the Target Id of the Contact region.   |
+|--------------|---------------------------------------------|
+| `SourceId`   | Gets the Source Id of the Contact region.   |
+| `TargetId`   | Gets the Target Id of the Contact region.   |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="MAPDLContactData.SourceId"></a>
 
 ### *property* MAPDLContactData.SourceId *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Source Id of the Contact region.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="MAPDLContactData.TargetId"></a>
 
 ### *property* MAPDLContactData.TargetId *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 

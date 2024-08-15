@@ -35,6 +35,8 @@ Helper to perform queries and modifications against a ConstructionLine instance.
 
 ### *classmethod* ConstructionLineHelper.GetEdgeVerticesById(constructionLine: [Ansys.ACT.Automation.Mechanical.ConstructionLines.ConstructionLine](../../../ACT/Automation/Mechanical/ConstructionLines/ConstructionLine.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ConstructionLines.ConstructionLine), edgeVertexIdCollection: System.Collections.Generic.IEnumerable[System.Int32])
 
+* **No-index:**
+
 GetEdgeVerticesById method.
 
 <!-- !! processed by numpydoc !! -->
@@ -42,6 +44,8 @@ GetEdgeVerticesById method.
 <a id="ConstructionLineHelper.GetEdgesById"></a>
 
 ### *classmethod* ConstructionLineHelper.GetEdgesById(constructionLine: [Ansys.ACT.Automation.Mechanical.ConstructionLines.ConstructionLine](../../../ACT/Automation/Mechanical/ConstructionLines/ConstructionLine.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ConstructionLines.ConstructionLine), edgeIdCollection: System.Collections.Generic.IEnumerable[System.Int32])
+
+* **No-index:**
 
 GetEdgesById method.
 
@@ -51,6 +55,8 @@ GetEdgesById method.
 
 ### *classmethod* ConstructionLineHelper.GetPlanesById(constructionLine: [Ansys.ACT.Automation.Mechanical.ConstructionLines.ConstructionLine](../../../ACT/Automation/Mechanical/ConstructionLines/ConstructionLine.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ConstructionLines.ConstructionLine), planeIdCollection: System.Collections.Generic.IEnumerable[System.Int32])
 
+* **No-index:**
+
 GetPlanesById method.
 
 <!-- !! processed by numpydoc !! -->
@@ -58,6 +64,8 @@ GetPlanesById method.
 <a id="ConstructionLineHelper.GetEdgesUsingPoint"></a>
 
 ### *classmethod* ConstructionLineHelper.GetEdgesUsingPoint(point: [Ansys.Mechanical.DataModel.ConstructionLines.Point](Point.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.ConstructionLines.Point))
+
+* **No-index:**
 
 Get a list of IEdge that use the given Point.
 
@@ -67,6 +75,8 @@ Get a list of IEdge that use the given Point.
 
 ### *classmethod* ConstructionLineHelper.GetContainedEdges(plane: [Ansys.Mechanical.DataModel.ConstructionLines.Plane](Plane.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.ConstructionLines.Plane))
 
+* **No-index:**
+
 Get all the edges that have both start and end edge vertices in the given plane.
 
 <!-- !! processed by numpydoc !! -->
@@ -74,6 +84,8 @@ Get all the edges that have both start and end edge vertices in the given plane.
 <a id="ConstructionLineHelper.GetRelatedEdges"></a>
 
 ### *classmethod* ConstructionLineHelper.GetRelatedEdges(plane: [Ansys.Mechanical.DataModel.ConstructionLines.Plane](Plane.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.ConstructionLines.Plane))
+
+* **No-index:**
 
 Get all the edges that have only edge vertex in the given plane.
 
@@ -83,6 +95,8 @@ Get all the edges that have only edge vertex in the given plane.
 
 ### *classmethod* ConstructionLineHelper.ExportToXML(constructionLine: [Ansys.ACT.Automation.Mechanical.ConstructionLines.ConstructionLine](../../../ACT/Automation/Mechanical/ConstructionLines/ConstructionLine.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ConstructionLines.ConstructionLine), xmlFilePath: System.String)
 
+* **No-index:**
+
 Collect all the edges and edge vertices, then export them as global points to an XML file.
 
 <!-- !! processed by numpydoc !! -->
@@ -90,6 +104,8 @@ Collect all the edges and edge vertices, then export them as global points to an
 <a id="ConstructionLineHelper.ClearExistingDataAndImportFromXML"></a>
 
 ### *classmethod* ConstructionLineHelper.ClearExistingDataAndImportFromXML(constructionLine: [Ansys.ACT.Automation.Mechanical.ConstructionLines.ConstructionLine](../../../ACT/Automation/Mechanical/ConstructionLines/ConstructionLine.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ConstructionLines.ConstructionLine), xmlFilePath: System.String)
+
+* **No-index:**
 
 Import global points and connecting edges from an XML file.
 

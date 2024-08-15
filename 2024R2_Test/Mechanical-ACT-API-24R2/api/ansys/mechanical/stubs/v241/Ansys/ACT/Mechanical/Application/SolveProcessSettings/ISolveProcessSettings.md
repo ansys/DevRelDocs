@@ -17,69 +17,57 @@ ISolveProcessSettings interface.
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
-| [`DistributeSolution`](../../../../../../v242/Ansys/ACT/Mechanical/Application/SolveProcessSettings/ISolveProcessSettings.md#ISolveProcessSettings.DistributeSolution)                         | Gets or sets the boolean ‚ÄúDistribute Solution (if possible)‚Äù field.   |
-| [`MaxNumberOfCores`](../../../../../../v242/Ansys/ACT/Mechanical/Application/SolveProcessSettings/ISolveProcessSettings.md#ISolveProcessSettings.MaxNumberOfCores)                             | Gets or sets the ‚ÄúMaximum number of utilized cores‚Äù field.            |
-| [`NumberOfGPUDevices`](../../../../../../v242/Ansys/ACT/Mechanical/Application/SolveProcessSettings/ISolveProcessSettings.md#ISolveProcessSettings.NumberOfGPUDevices)                         | Gets or sets the ‚ÄúNumber of utilized GPU devices‚Äù field.              |
-| [`AdditionalCommandLineArguments`](../../../../../../v242/Ansys/ACT/Mechanical/Application/SolveProcessSettings/ISolveProcessSettings.md#ISolveProcessSettings.AdditionalCommandLineArguments) | Gets or sets the ‚ÄúAdditional Command Line Arguments‚Äù field.           |
-| [`CustomExecutablePath`](../../../../../../v242/Ansys/ACT/Mechanical/Application/SolveProcessSettings/ISolveProcessSettings.md#ISolveProcessSettings.CustomExecutablePath)                     | Gets or sets the ‚ÄúCustom Executable Name (with path)‚Äù field.          |
-| [`UserString`](../../../../../../v242/Ansys/ACT/Mechanical/Application/SolveProcessSettings/ISolveProcessSettings.md#ISolveProcessSettings.UserString)                                         | Gets or sets the User String field.                                   |
-| [`LicenseQueuing`](../../../../../../v242/Ansys/ACT/Mechanical/Application/SolveProcessSettings/ISolveProcessSettings.md#ISolveProcessSettings.LicenseQueuing)                                 | Gets or sets the ‚ÄúLicense Queuing: Wait for Available License‚Äù field. |
-| [`UseSharedLicense`](../../../../../../v242/Ansys/ACT/Mechanical/Application/SolveProcessSettings/ISolveProcessSettings.md#ISolveProcessSettings.UseSharedLicense)                             | Gets or sets the ‚ÄúUse Shared License, if possible‚Äù field.             |
-| [`SolveInSynchronousMode`](../../../../../../v242/Ansys/ACT/Mechanical/Application/SolveProcessSettings/ISolveProcessSettings.md#ISolveProcessSettings.SolveInSynchronousMode)                 | Gets or sets the ‚ÄúSolve in synchronous mode‚Äù field.                   |
-| [`ManualSolverMemorySettings`](../../../../../../v242/Ansys/ACT/Mechanical/Application/SolveProcessSettings/ISolveProcessSettings.md#ISolveProcessSettings.ManualSolverMemorySettings)         | Gets the SolverMemorySettings object for the configuration.           |
-| [`ManualLinuxSettings`](../../../../../../v242/Ansys/ACT/Mechanical/Application/SolveProcessSettings/ISolveProcessSettings.md#ISolveProcessSettings.ManualLinuxSettings)                       | Gets the LinuxSettings object for the configuration.                  |
-| [`GPUAccelerationDevice`](../../../../../../v242/Ansys/ACT/Mechanical/Application/SolveProcessSettings/ISolveProcessSettings.md#ISolveProcessSettings.GPUAccelerationDevice)                   | Gets or sets the ‚ÄúGPU Acceleration Device‚Äù field.                     |
-| [`HybridParallel`](../../../../../../v242/Ansys/ACT/Mechanical/Application/SolveProcessSettings/ISolveProcessSettings.md#ISolveProcessSettings.HybridParallel)                                 | Gets or sets the boolean ‚ÄúHybrid Parallel (Mechanical APDL)‚Äù field.   |
-| [`ThreadsPerProcess`](../../../../../../v242/Ansys/ACT/Mechanical/Application/SolveProcessSettings/ISolveProcessSettings.md#ISolveProcessSettings.ThreadsPerProcess)                           | Gets or sets the ‚ÄúThreads per process‚Äù field.                         |
-| [`NumberOfProcesses`](../../../../../../v242/Ansys/ACT/Mechanical/Application/SolveProcessSettings/ISolveProcessSettings.md#ISolveProcessSettings.NumberOfProcesses)                           | Gets or sets the ‚ÄúNumber of processes‚Äù field.                         |
-| [`DCSAutoDownloadResults`](../../../../../../v242/Ansys/ACT/Mechanical/Application/SolveProcessSettings/ISolveProcessSettings.md#ISolveProcessSettings.DCSAutoDownloadResults)                 | Gets or sets the ‚ÄúDCS Auto Download Results‚Äù field.                   |
+|----------------------------------|-----------------------------------------------------------------------|
+| `DistributeSolution`             | Gets or sets the boolean ìDistribute Solution (if possible)î field.   |
+| `MaxNumberOfCores`               | Gets or sets the ìMaximum number of utilized coresî field.            |
+| `NumberOfGPUDevices`             | Gets or sets the ìNumber of utilized GPU devicesî field.              |
+| `AdditionalCommandLineArguments` | Gets or sets the ìAdditional Command Line Argumentsî field.           |
+| `CustomExecutablePath`           | Gets or sets the ìCustom Executable Name (with path)î field.          |
+| `UserString`                     | Gets or sets the User String field.                                   |
+| `LicenseQueuing`                 | Gets or sets the ìLicense Queuing: Wait for Available Licenseî field. |
+| `UseSharedLicense`               | Gets or sets the ìUse Shared License, if possibleî field.             |
+| `SolveInSynchronousMode`         | Gets or sets the ìSolve in synchronous modeî field.                   |
+| `ManualSolverMemorySettings`     | Gets the SolverMemorySettings object for the configuration.           |
+| `ManualLinuxSettings`            | Gets the LinuxSettings object for the configuration.                  |
+| `GPUAccelerationDevice`          | Gets or sets the ìGPU Acceleration Deviceî field.                     |
+| `HybridParallel`                 | Gets or sets the boolean ìHybrid Parallel (Mechanical APDL)î field.   |
+| `ThreadsPerProcess`              | Gets or sets the ìThreads per processî field.                         |
+| `NumberOfProcesses`              | Gets or sets the ìNumber of processesî field.                         |
+| `DCSAutoDownloadResults`         | Gets or sets the ìDCS Auto Download Resultsî field.                   |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-<a id="ISolveProcessSettings.DistributeSolution"></a>
-
 ### *property* ISolveProcessSettings.DistributeSolution *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the boolean ‚ÄúDistribute Solution (if possible)‚Äù field.
+Gets or sets the boolean ìDistribute Solution (if possible)î field.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ISolveProcessSettings.MaxNumberOfCores"></a>
 
 ### *property* ISolveProcessSettings.MaxNumberOfCores *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the ‚ÄúMaximum number of utilized cores‚Äù field.
+Gets or sets the ìMaximum number of utilized coresî field.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ISolveProcessSettings.NumberOfGPUDevices"></a>
 
 ### *property* ISolveProcessSettings.NumberOfGPUDevices *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the ‚ÄúNumber of utilized GPU devices‚Äù field.
+Gets or sets the ìNumber of utilized GPU devicesî field.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ISolveProcessSettings.AdditionalCommandLineArguments"></a>
 
 ### *property* ISolveProcessSettings.AdditionalCommandLineArguments *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the ‚ÄúAdditional Command Line Arguments‚Äù field.
+Gets or sets the ìAdditional Command Line Argumentsî field.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ISolveProcessSettings.CustomExecutablePath"></a>
 
 ### *property* ISolveProcessSettings.CustomExecutablePath *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the ‚ÄúCustom Executable Name (with path)‚Äù field.
+Gets or sets the ìCustom Executable Name (with path)î field.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ISolveProcessSettings.UserString"></a>
 
 ### *property* ISolveProcessSettings.UserString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -87,31 +75,23 @@ Gets or sets the User String field.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ISolveProcessSettings.LicenseQueuing"></a>
-
 ### *property* ISolveProcessSettings.LicenseQueuing *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the ‚ÄúLicense Queuing: Wait for Available License‚Äù field.
+Gets or sets the ìLicense Queuing: Wait for Available Licenseî field.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ISolveProcessSettings.UseSharedLicense"></a>
 
 ### *property* ISolveProcessSettings.UseSharedLicense *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the ‚ÄúUse Shared License, if possible‚Äù field.
+Gets or sets the ìUse Shared License, if possibleî field.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ISolveProcessSettings.SolveInSynchronousMode"></a>
 
 ### *property* ISolveProcessSettings.SolveInSynchronousMode *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the ‚ÄúSolve in synchronous mode‚Äù field.
+Gets or sets the ìSolve in synchronous modeî field.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ISolveProcessSettings.ManualSolverMemorySettings"></a>
 
 ### *property* ISolveProcessSettings.ManualSolverMemorySettings *: [Ansys.ACT.Mechanical.Application.SolveProcessSettings.ISolverMemorySettings](ISolverMemorySettings.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Application.SolveProcessSettings.ISolverMemorySettings) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -119,51 +99,39 @@ Gets the SolverMemorySettings object for the configuration.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ISolveProcessSettings.ManualLinuxSettings"></a>
-
 ### *property* ISolveProcessSettings.ManualLinuxSettings *: [Ansys.ACT.Mechanical.Application.SolveProcessSettings.ILinuxSettings](ILinuxSettings.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Application.SolveProcessSettings.ILinuxSettings) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LinuxSettings object for the configuration.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ISolveProcessSettings.GPUAccelerationDevice"></a>
-
 ### *property* ISolveProcessSettings.GPUAccelerationDevice *: [Ansys.Mechanical.DataModel.Enums.GPUAccelerationDevicesType](../../../../Mechanical/DataModel/Enums/GPUAccelerationDevicesType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GPUAccelerationDevicesType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the ‚ÄúGPU Acceleration Device‚Äù field.
+Gets or sets the ìGPU Acceleration Deviceî field.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ISolveProcessSettings.HybridParallel"></a>
 
 ### *property* ISolveProcessSettings.HybridParallel *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the boolean ‚ÄúHybrid Parallel (Mechanical APDL)‚Äù field.
+Gets or sets the boolean ìHybrid Parallel (Mechanical APDL)î field.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ISolveProcessSettings.ThreadsPerProcess"></a>
 
 ### *property* ISolveProcessSettings.ThreadsPerProcess *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the ‚ÄúThreads per process‚Äù field.
+Gets or sets the ìThreads per processî field.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ISolveProcessSettings.NumberOfProcesses"></a>
 
 ### *property* ISolveProcessSettings.NumberOfProcesses *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the ‚ÄúNumber of processes‚Äù field.
+Gets or sets the ìNumber of processesî field.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ISolveProcessSettings.DCSAutoDownloadResults"></a>
-
 ### *property* ISolveProcessSettings.DCSAutoDownloadResults *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the ‚ÄúDCS Auto Download Results‚Äù field.
+Gets or sets the ìDCS Auto Download Resultsî field.
 
 <!-- !! processed by numpydoc !! -->
 

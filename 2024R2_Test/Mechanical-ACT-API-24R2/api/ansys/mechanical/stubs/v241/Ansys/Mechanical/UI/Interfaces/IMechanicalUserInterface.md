@@ -17,14 +17,12 @@ IMechanicalUserInterface interface.
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
-| [`Theme`](../../../../../v242/Ansys/Mechanical/UI/Interfaces/IMechanicalUserInterface.md#IMechanicalUserInterface.Theme)   | Information about the current theme being in Mechanical.   |
+|-----------|------------------------------------------------------------|
+| `Theme`   | Information about the current theme being in Mechanical.   |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="IMechanicalUserInterface.Theme"></a>
 
 ### *property* IMechanicalUserInterface.Theme *: [Ansys.Mechanical.UI.Interfaces.IMechanicalTheme](IMechanicalTheme.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.UI.Interfaces.IMechanicalTheme) | [None](https://docs.python.org/3/library/constants.html#None)*
 

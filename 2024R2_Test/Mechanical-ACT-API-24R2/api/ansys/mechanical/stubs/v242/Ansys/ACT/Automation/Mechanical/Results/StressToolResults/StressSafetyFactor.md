@@ -17,102 +17,100 @@ Defines a StressSafetyFactor.
 ### Methods
 
 | Name | Description |
-|--------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`ClearGeneratedData`](#StressSafetyFactor.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
-| [`EvaluateAllResults`](#StressSafetyFactor.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
-| [`FetchRemoteResults`](#StressSafetyFactor.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
-| [`ExportToTextFile`](#StressSafetyFactor.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
-| [`ExportAnimation`](#StressSafetyFactor.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
-| [`DuplicateWithoutResults`](#StressSafetyFactor.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
-| [`CreateResultsAtAllSets`](#StressSafetyFactor.CreateResultsAtAllSets)   | Creates results at all sets for results under a solution.                         |
-| [`PromoteToNamedSelection`](#StressSafetyFactor.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
-| [`CreateParameter`](#StressSafetyFactor.CreateParameter)                 | CreateParameter method.                                                           |
-| [`AddAlert`](#StressSafetyFactor.AddAlert)                               | Creates a new Alert                                                               |
-| [`AddConvergence`](#StressSafetyFactor.AddConvergence)                   | Creates a new Convergence                                                         |
-| [`RenameBasedOnDefinition`](#StressSafetyFactor.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
-| [`Delete`](#StressSafetyFactor.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](#id1)                                                    | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](#id1)                                                    | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](#StressSafetyFactor.AddComment)                           | Creates a new child Comment.                                                      |
-| [`AddFigure`](#StressSafetyFactor.AddFigure)                             | Creates a new child Figure.                                                       |
-| [`AddImage`](#StressSafetyFactor.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](#StressSafetyFactor.Activate)                               | Activate the current object.                                                      |
-| [`CopyTo`](#StressSafetyFactor.CopyTo)                                   | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](#StressSafetyFactor.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](#StressSafetyFactor.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](#StressSafetyFactor.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](#StressSafetyFactor.PropertyByName)                   | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](#StressSafetyFactor.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`GetParameter`](#StressSafetyFactor.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](#StressSafetyFactor.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+|---------------------------|-----------------------------------------------------------------------------------|
+| `ClearGeneratedData`      | Run the ClearGeneratedData action.                                                |
+| `EvaluateAllResults`      | Run the EvaluateAllResults action.                                                |
+| `FetchRemoteResults`      | Run the FetchRemoteResult action.                                                 |
+| `ExportToTextFile`        | Run the ExportToTextFile action.                                                  |
+| `ExportAnimation`         | Run the ExportAnimation action.                                                   |
+| `DuplicateWithoutResults` | Run the DuplicateWithoutResults action.                                           |
+| `CreateResultsAtAllSets`  | Creates results at all sets for results under a solution.                         |
+| `PromoteToNamedSelection` | Run the PromoteToNamedSelection action.                                           |
+| `CreateParameter`         | CreateParameter method.                                                           |
+| `AddAlert`                | Creates a new Alert                                                               |
+| `AddConvergence`          | Creates a new Convergence                                                         |
+| `RenameBasedOnDefinition` | Run the RenameBasedOnDefinition action.                                           |
+| `Delete`                  | Run the Delete action.                                                            |
+| `GetChildren`             | Gets the list of children, filtered by type.                                      |
+| `GetChildren`             | Gets the list of children, filtered by type.                                      |
+| `AddComment`              | Creates a new child Comment.                                                      |
+| `AddFigure`               | Creates a new child Figure.                                                       |
+| `AddImage`                | Creates a new child Image.                                                        |
+| `Activate`                | Activate the current object.                                                      |
+| `CopyTo`                  | Copies all visible properties from this object to another.                        |
+| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
+| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
+| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
+| `PropertyByName`          | Get a property by its unique name.                                                |
+| `PropertyByAPIName`       | Get a property by its API name.                                                   |
+| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
+| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
-| [`InternalObject`](#id0)                                                                     | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](#StressSafetyFactor.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
-| [`AverageAcrossBodies`](#StressSafetyFactor.AverageAcrossBodies)                             | Gets or sets the AverageAcrossBodies.                                  |
-| [`PlotData`](#StressSafetyFactor.PlotData)                                                   | Gets the result table.                                                 |
-| [`Location`](#StressSafetyFactor.Location)                                                   | Gets or sets the Location.                                             |
-| [`TimeForMinimumOfMinimumValues`](#StressSafetyFactor.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
-| [`TimeForMinimumOfMaximumValues`](#StressSafetyFactor.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
-| [`LoadStepForMinimumOfMinimumValues`](#StressSafetyFactor.LoadStepForMinimumOfMinimumValues) | Get the Load Step for the minimum of minimum values.                   |
-| [`LoadStepForMinimumOfMaximumValues`](#StressSafetyFactor.LoadStepForMinimumOfMaximumValues) | Get the Load Step for the minimum of maximum values.                   |
-| [`TimeForMaximumOfMinimumValues`](#StressSafetyFactor.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
-| [`TimeForMaximumOfMaximumValues`](#StressSafetyFactor.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
-| [`LoadStepForMaximumOfMinimumValues`](#StressSafetyFactor.LoadStepForMaximumOfMinimumValues) | Get the Load Step for the maximum of minimum values.                   |
-| [`LoadStepForMaximumOfMaximumValues`](#StressSafetyFactor.LoadStepForMaximumOfMaximumValues) | Get the Load Step for the maximum of maximum values.                   |
-| [`IsSolved`](#StressSafetyFactor.IsSolved)                                                   | Gets the IsSolved.                                                     |
-| [`CoordinateSystem`](#StressSafetyFactor.CoordinateSystem)                                   | Gets or sets the Coordinate System.                                    |
-| [`ScopingMethod`](#StressSafetyFactor.ScopingMethod)                                         | Gets or sets the ScopingMethod.                                        |
-| [`SetNumber`](#StressSafetyFactor.SetNumber)                                                 | Gets or sets the Set Number.                                           |
-| [`CombinationNumber`](#StressSafetyFactor.CombinationNumber)                                 | Gets or sets the Combination Number for a Solution Combination result. |
-| [`SolutionCombinationDriver`](#StressSafetyFactor.SolutionCombinationDriver)                 | Gets or sets the SolutionCombinationDriver.                            |
-| [`Path`](#StressSafetyFactor.Path)                                                           | Path property.                                                         |
-| [`Surface`](#StressSafetyFactor.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#StressSafetyFactor.SurfaceCoating)                                       | SurfaceCoating property.                                               |
-| [`NamedSelections`](#StressSafetyFactor.NamedSelections)                                     | Gets or sets the NamedSelections.                                      |
-| [`WaterfallShowTextOnMosaic`](#StressSafetyFactor.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
-| [`CrackFrontNumber`](#StressSafetyFactor.CrackFrontNumber)                                   | Gets or sets the CrackFrontNumber.                                     |
-| [`GlobalIDs`](#StressSafetyFactor.GlobalIDs)                                                 | Gets or sets the GlobalIDs.                                            |
-| [`Identifier`](#StressSafetyFactor.Identifier)                                               | Gets or sets the Identifier.                                           |
-| [`IterationNumber`](#StressSafetyFactor.IterationNumber)                                     | Gets the IterationNumber.                                              |
-| [`LoadStep`](#StressSafetyFactor.LoadStep)                                                   | Gets the LoadStep.                                                     |
-| [`MaximumOccursOn`](#StressSafetyFactor.MaximumOccursOn)                                     | Gets the MaximumOccursOn.                                              |
-| [`MinimumOccursOn`](#StressSafetyFactor.MinimumOccursOn)                                     | Gets the MinimumOccursOn.                                              |
-| [`LoadStepNumber`](#StressSafetyFactor.LoadStepNumber)                                       | Gets or sets the LoadStepNumber.                                       |
-| [`SolverComponentIDs`](#StressSafetyFactor.SolverComponentIDs)                               | Gets or sets the SolverComponentIDs.                                   |
-| [`Substep`](#StressSafetyFactor.Substep)                                                     | Gets the Substep.                                                      |
-| [`Average`](#StressSafetyFactor.Average)                                                     | Gets the Average.                                                      |
-| [`Maximum`](#StressSafetyFactor.Maximum)                                                     | Gets the Maximum.                                                      |
-| [`MaximumOfMaximumOverTime`](#StressSafetyFactor.MaximumOfMaximumOverTime)                   | Gets the MaximumOfMaximumOverTime.                                     |
-| [`MaximumOfMinimumOverTime`](#StressSafetyFactor.MaximumOfMinimumOverTime)                   | Gets the MaximumOfMinimumOverTime.                                     |
-| [`Minimum`](#StressSafetyFactor.Minimum)                                                     | Gets the Minimum.                                                      |
-| [`MinimumOfMaximumOverTime`](#StressSafetyFactor.MinimumOfMaximumOverTime)                   | Gets the MinimumOfMaximumOverTime.                                     |
-| [`MinimumOfMinimumOverTime`](#StressSafetyFactor.MinimumOfMinimumOverTime)                   | Gets the MinimumOfMinimumOverTime.                                     |
-| [`Time`](#StressSafetyFactor.Time)                                                           | Gets the Time.                                                         |
-| [`DisplayTime`](#StressSafetyFactor.DisplayTime)                                             | Gets or sets the DisplayTime.                                          |
-| [`GraphControlsXAxis`](#StressSafetyFactor.GraphControlsXAxis)                               | Gets or sets the GraphControlsXAxis.                                   |
-| [`DisplayOption`](#StressSafetyFactor.DisplayOption)                                         | Gets or sets the DisplayOption.                                        |
-| [`DpfEvaluation`](#StressSafetyFactor.DpfEvaluation)                                         | Gets or sets the DpfEvaluation.                                        |
-| [`By`](#StressSafetyFactor.By)                                                               | Gets or sets the By.                                                   |
-| [`ItemType`](#StressSafetyFactor.ItemType)                                                   | Gets or sets the ItemType.                                             |
-| [`CalculateTimeHistory`](#StressSafetyFactor.CalculateTimeHistory)                           | Gets or sets the CalculateTimeHistory.                                 |
-| [`Suppressed`](#StressSafetyFactor.Suppressed)                                               | Gets or sets the Suppressed.                                           |
-| [`Children`](#StressSafetyFactor.Children)                                                   | Gets the list of children.                                             |
-| [`Comments`](#StressSafetyFactor.Comments)                                                   | Gets the list of associated comments.                                  |
-| [`Figures`](#StressSafetyFactor.Figures)                                                     | Gets the list of associated figures.                                   |
-| [`Images`](#StressSafetyFactor.Images)                                                       | Gets the list of associated images.                                    |
-| [`InternalObject`](#id0)                                                                     | Gets the internal object. For advanced usage only.                     |
-| [`Properties`](#StressSafetyFactor.Properties)                                               | Gets the list of properties for this object.                           |
-| [`VisibleProperties`](#StressSafetyFactor.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
+|-------------------------------------|------------------------------------------------------------------------|
+| `InternalObject`                    | Gets the internal object. For advanced usage only.                     |
+| `DataModelObjectCategory`           | Gets the current DataModelObject's category.                           |
+| `AverageAcrossBodies`               | Gets or sets the AverageAcrossBodies.                                  |
+| `PlotData`                          | Gets the result table.                                                 |
+| `Location`                          | Gets or sets the Location.                                             |
+| `TimeForMinimumOfMinimumValues`     | Get the Time for the minimum of minimum values.                        |
+| `TimeForMinimumOfMaximumValues`     | Get the Time for the minimum of maximum values.                        |
+| `LoadStepForMinimumOfMinimumValues` | Get the Load Step for the minimum of minimum values.                   |
+| `LoadStepForMinimumOfMaximumValues` | Get the Load Step for the minimum of maximum values.                   |
+| `TimeForMaximumOfMinimumValues`     | Get the Time for the maximum of minimum values.                        |
+| `TimeForMaximumOfMaximumValues`     | Get the Time for the maximum of maximum values.                        |
+| `LoadStepForMaximumOfMinimumValues` | Get the Load Step for the maximum of minimum values.                   |
+| `LoadStepForMaximumOfMaximumValues` | Get the Load Step for the maximum of maximum values.                   |
+| `IsSolved`                          | Gets the IsSolved.                                                     |
+| `CoordinateSystem`                  | Gets or sets the Coordinate System.                                    |
+| `ScopingMethod`                     | Gets or sets the ScopingMethod.                                        |
+| `SetNumber`                         | Gets or sets the Set Number.                                           |
+| `CombinationNumber`                 | Gets or sets the Combination Number for a Solution Combination result. |
+| `SolutionCombinationDriver`         | Gets or sets the SolutionCombinationDriver.                            |
+| `Path`                              | Path property.                                                         |
+| `Surface`                           | Surface property.                                                      |
+| `SurfaceCoating`                    | SurfaceCoating property.                                               |
+| `NamedSelections`                   | Gets or sets the NamedSelections.                                      |
+| `WaterfallShowTextOnMosaic`         | Gets or sets the Waterfall Mosaic Text Property.                       |
+| `CrackFrontNumber`                  | Gets or sets the CrackFrontNumber.                                     |
+| `GlobalIDs`                         | Gets or sets the GlobalIDs.                                            |
+| `Identifier`                        | Gets or sets the Identifier.                                           |
+| `IterationNumber`                   | Gets the IterationNumber.                                              |
+| `LoadStep`                          | Gets the LoadStep.                                                     |
+| `MaximumOccursOn`                   | Gets the MaximumOccursOn.                                              |
+| `MinimumOccursOn`                   | Gets the MinimumOccursOn.                                              |
+| `LoadStepNumber`                    | Gets or sets the LoadStepNumber.                                       |
+| `SolverComponentIDs`                | Gets or sets the SolverComponentIDs.                                   |
+| `Substep`                           | Gets the Substep.                                                      |
+| `Average`                           | Gets the Average.                                                      |
+| `Maximum`                           | Gets the Maximum.                                                      |
+| `MaximumOfMaximumOverTime`          | Gets the MaximumOfMaximumOverTime.                                     |
+| `MaximumOfMinimumOverTime`          | Gets the MaximumOfMinimumOverTime.                                     |
+| `Minimum`                           | Gets the Minimum.                                                      |
+| `MinimumOfMaximumOverTime`          | Gets the MinimumOfMaximumOverTime.                                     |
+| `MinimumOfMinimumOverTime`          | Gets the MinimumOfMinimumOverTime.                                     |
+| `Time`                              | Gets the Time.                                                         |
+| `DisplayTime`                       | Gets or sets the DisplayTime.                                          |
+| `GraphControlsXAxis`                | Gets or sets the GraphControlsXAxis.                                   |
+| `DisplayOption`                     | Gets or sets the DisplayOption.                                        |
+| `DpfEvaluation`                     | Gets or sets the DpfEvaluation.                                        |
+| `By`                                | Gets or sets the By.                                                   |
+| `ItemType`                          | Gets or sets the ItemType.                                             |
+| `CalculateTimeHistory`              | Gets or sets the CalculateTimeHistory.                                 |
+| `Suppressed`                        | Gets or sets the Suppressed.                                           |
+| `Children`                          | Gets the list of children.                                             |
+| `Comments`                          | Gets the list of associated comments.                                  |
+| `Figures`                           | Gets the list of associated figures.                                   |
+| `Images`                            | Gets the list of associated images.                                    |
+| `InternalObject`                    | Gets the internal object. For advanced usage only.                     |
+| `Properties`                        | Gets the list of properties for this object.                           |
+| `VisibleProperties`                 | Gets the list of properties that are visible for this object.          |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="StressSafetyFactor.InternalObject"></a>
 
 ### *property* StressSafetyFactor.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -120,15 +118,11 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StressSafetyFactor.DataModelObjectCategory"></a>
-
 ### *property* StressSafetyFactor.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="StressSafetyFactor.AverageAcrossBodies"></a>
 
 ### *property* StressSafetyFactor.AverageAcrossBodies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -136,15 +130,11 @@ Gets or sets the AverageAcrossBodies.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StressSafetyFactor.PlotData"></a>
-
 ### *property* StressSafetyFactor.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../../../v241/Ansys/Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the result table.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="StressSafetyFactor.Location"></a>
 
 ### *property* StressSafetyFactor.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -152,15 +142,11 @@ Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StressSafetyFactor.TimeForMinimumOfMinimumValues"></a>
-
 ### *property* StressSafetyFactor.TimeForMinimumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Time for the minimum of minimum values.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="StressSafetyFactor.TimeForMinimumOfMaximumValues"></a>
 
 ### *property* StressSafetyFactor.TimeForMinimumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -168,15 +154,11 @@ Get the Time for the minimum of maximum values.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StressSafetyFactor.LoadStepForMinimumOfMinimumValues"></a>
-
 ### *property* StressSafetyFactor.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="StressSafetyFactor.LoadStepForMinimumOfMaximumValues"></a>
 
 ### *property* StressSafetyFactor.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -184,15 +166,11 @@ Get the Load Step for the minimum of maximum values.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StressSafetyFactor.TimeForMaximumOfMinimumValues"></a>
-
 ### *property* StressSafetyFactor.TimeForMaximumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Time for the maximum of minimum values.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="StressSafetyFactor.TimeForMaximumOfMaximumValues"></a>
 
 ### *property* StressSafetyFactor.TimeForMaximumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -200,15 +178,11 @@ Get the Time for the maximum of maximum values.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StressSafetyFactor.LoadStepForMaximumOfMinimumValues"></a>
-
 ### *property* StressSafetyFactor.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="StressSafetyFactor.LoadStepForMaximumOfMaximumValues"></a>
 
 ### *property* StressSafetyFactor.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -216,15 +190,11 @@ Get the Load Step for the maximum of maximum values.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StressSafetyFactor.IsSolved"></a>
-
 ### *property* StressSafetyFactor.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="StressSafetyFactor.CoordinateSystem"></a>
 
 ### *property* StressSafetyFactor.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -234,15 +204,11 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StressSafetyFactor.ScopingMethod"></a>
-
 ### *property* StressSafetyFactor.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="StressSafetyFactor.SetNumber"></a>
 
 ### *property* StressSafetyFactor.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -250,15 +216,11 @@ Gets or sets the Set Number.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StressSafetyFactor.CombinationNumber"></a>
-
 ### *property* StressSafetyFactor.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="StressSafetyFactor.SolutionCombinationDriver"></a>
 
 ### *property* StressSafetyFactor.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -266,15 +228,11 @@ Gets or sets the SolutionCombinationDriver.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StressSafetyFactor.Path"></a>
-
 ### *property* StressSafetyFactor.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Path.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Path property.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="StressSafetyFactor.Surface"></a>
 
 ### *property* StressSafetyFactor.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Surface.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -282,15 +240,11 @@ Surface property.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StressSafetyFactor.SurfaceCoating"></a>
-
 ### *property* StressSafetyFactor.SurfaceCoating *: [Ansys.ACT.Automation.Mechanical.SurfaceCoating](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/SurfaceCoating.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.SurfaceCoating) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 SurfaceCoating property.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="StressSafetyFactor.NamedSelections"></a>
 
 ### *property* StressSafetyFactor.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -298,15 +252,11 @@ Gets or sets the NamedSelections.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StressSafetyFactor.WaterfallShowTextOnMosaic"></a>
-
 ### *property* StressSafetyFactor.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="StressSafetyFactor.CrackFrontNumber"></a>
 
 ### *property* StressSafetyFactor.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -314,15 +264,11 @@ Gets or sets the CrackFrontNumber.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StressSafetyFactor.GlobalIDs"></a>
-
 ### *property* StressSafetyFactor.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="StressSafetyFactor.Identifier"></a>
 
 ### *property* StressSafetyFactor.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -330,15 +276,11 @@ Gets or sets the Identifier.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StressSafetyFactor.IterationNumber"></a>
-
 ### *property* StressSafetyFactor.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="StressSafetyFactor.LoadStep"></a>
 
 ### *property* StressSafetyFactor.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -346,15 +288,11 @@ Gets the LoadStep.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StressSafetyFactor.MaximumOccursOn"></a>
-
 ### *property* StressSafetyFactor.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="StressSafetyFactor.MinimumOccursOn"></a>
 
 ### *property* StressSafetyFactor.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -362,15 +300,11 @@ Gets the MinimumOccursOn.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StressSafetyFactor.LoadStepNumber"></a>
-
 ### *property* StressSafetyFactor.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="StressSafetyFactor.SolverComponentIDs"></a>
 
 ### *property* StressSafetyFactor.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -378,15 +312,11 @@ Gets or sets the SolverComponentIDs.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StressSafetyFactor.Substep"></a>
-
 ### *property* StressSafetyFactor.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="StressSafetyFactor.Average"></a>
 
 ### *property* StressSafetyFactor.Average *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -394,15 +324,11 @@ Gets the Average.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StressSafetyFactor.Maximum"></a>
-
 ### *property* StressSafetyFactor.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Maximum.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="StressSafetyFactor.MaximumOfMaximumOverTime"></a>
 
 ### *property* StressSafetyFactor.MaximumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -410,15 +336,11 @@ Gets the MaximumOfMaximumOverTime.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StressSafetyFactor.MaximumOfMinimumOverTime"></a>
-
 ### *property* StressSafetyFactor.MaximumOfMinimumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOfMinimumOverTime.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="StressSafetyFactor.Minimum"></a>
 
 ### *property* StressSafetyFactor.Minimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -426,15 +348,11 @@ Gets the Minimum.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StressSafetyFactor.MinimumOfMaximumOverTime"></a>
-
 ### *property* StressSafetyFactor.MinimumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOfMaximumOverTime.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="StressSafetyFactor.MinimumOfMinimumOverTime"></a>
 
 ### *property* StressSafetyFactor.MinimumOfMinimumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -442,15 +360,11 @@ Gets the MinimumOfMinimumOverTime.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StressSafetyFactor.Time"></a>
-
 ### *property* StressSafetyFactor.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Time.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="StressSafetyFactor.DisplayTime"></a>
 
 ### *property* StressSafetyFactor.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -458,15 +372,11 @@ Gets or sets the DisplayTime.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StressSafetyFactor.GraphControlsXAxis"></a>
-
 ### *property* StressSafetyFactor.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GraphControlsXAxis.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="StressSafetyFactor.DisplayOption"></a>
 
 ### *property* StressSafetyFactor.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -474,15 +384,11 @@ Gets or sets the DisplayOption.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StressSafetyFactor.DpfEvaluation"></a>
-
 ### *property* StressSafetyFactor.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DpfEvaluation.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="StressSafetyFactor.By"></a>
 
 ### *property* StressSafetyFactor.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -490,15 +396,11 @@ Gets or sets the By.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StressSafetyFactor.ItemType"></a>
-
 ### *property* StressSafetyFactor.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ItemType.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="StressSafetyFactor.CalculateTimeHistory"></a>
 
 ### *property* StressSafetyFactor.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -506,15 +408,11 @@ Gets or sets the CalculateTimeHistory.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StressSafetyFactor.Suppressed"></a>
-
 ### *property* StressSafetyFactor.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="StressSafetyFactor.Children"></a>
 
 ### *property* StressSafetyFactor.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -522,15 +420,11 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StressSafetyFactor.Comments"></a>
-
 ### *property* StressSafetyFactor.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="StressSafetyFactor.Figures"></a>
 
 ### *property* StressSafetyFactor.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -538,15 +432,11 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StressSafetyFactor.Images"></a>
-
 ### *property* StressSafetyFactor.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="id0"></a>
 
 ### *property* StressSafetyFactor.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -554,15 +444,11 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StressSafetyFactor.Properties"></a>
-
 ### *property* StressSafetyFactor.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="StressSafetyFactor.VisibleProperties"></a>
 
 ### *property* StressSafetyFactor.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -574,15 +460,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="StressSafetyFactor.ClearGeneratedData"></a>
-
 ### StressSafetyFactor.ClearGeneratedData()
 
 Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="StressSafetyFactor.EvaluateAllResults"></a>
 
 ### StressSafetyFactor.EvaluateAllResults()
 
@@ -590,15 +472,11 @@ Run the EvaluateAllResults action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StressSafetyFactor.FetchRemoteResults"></a>
-
 ### StressSafetyFactor.FetchRemoteResults()
 
 Run the FetchRemoteResult action.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="StressSafetyFactor.ExportToTextFile"></a>
 
 ### StressSafetyFactor.ExportToTextFile(filePath: System.String)
 
@@ -606,15 +484,11 @@ Run the ExportToTextFile action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StressSafetyFactor.ExportAnimation"></a>
-
 ### StressSafetyFactor.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v241/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="StressSafetyFactor.DuplicateWithoutResults"></a>
 
 ### StressSafetyFactor.DuplicateWithoutResults()
 
@@ -622,15 +496,11 @@ Run the DuplicateWithoutResults action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StressSafetyFactor.CreateResultsAtAllSets"></a>
-
 ### StressSafetyFactor.CreateResultsAtAllSets()
 
 Creates results at all sets for results under a solution.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="StressSafetyFactor.PromoteToNamedSelection"></a>
 
 ### StressSafetyFactor.PromoteToNamedSelection()
 
@@ -638,15 +508,11 @@ Run the PromoteToNamedSelection action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StressSafetyFactor.CreateParameter"></a>
-
 ### StressSafetyFactor.CreateParameter(propName: System.String)
 
 CreateParameter method.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="StressSafetyFactor.AddAlert"></a>
 
 ### StressSafetyFactor.AddAlert()
 
@@ -654,15 +520,11 @@ Creates a new Alert
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StressSafetyFactor.AddConvergence"></a>
-
 ### StressSafetyFactor.AddConvergence()
 
 Creates a new Convergence
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="StressSafetyFactor.RenameBasedOnDefinition"></a>
 
 ### StressSafetyFactor.RenameBasedOnDefinition()
 
@@ -670,15 +532,11 @@ Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StressSafetyFactor.Delete"></a>
-
 ### StressSafetyFactor.Delete()
 
 Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="StressSafetyFactor.GetChildren"></a>
 
 ### StressSafetyFactor.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
@@ -686,15 +544,11 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id1"></a>
-
 ### StressSafetyFactor.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="StressSafetyFactor.AddComment"></a>
 
 ### StressSafetyFactor.AddComment()
 
@@ -702,25 +556,21 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StressSafetyFactor.AddFigure"></a>
-
 ### StressSafetyFactor.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StressSafetyFactor.AddImage"></a>
-
 ### StressSafetyFactor.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
+```
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="StressSafetyFactor.Activate"></a>
 
 ### StressSafetyFactor.Activate()
 
@@ -728,15 +578,11 @@ Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StressSafetyFactor.CopyTo"></a>
-
 ### StressSafetyFactor.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
 Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="StressSafetyFactor.Duplicate"></a>
 
 ### StressSafetyFactor.Duplicate()
 
@@ -744,15 +590,11 @@ Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StressSafetyFactor.GroupAllSimilarChildren"></a>
-
 ### StressSafetyFactor.GroupAllSimilarChildren()
 
 Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="StressSafetyFactor.GroupSimilarObjects"></a>
 
 ### StressSafetyFactor.GroupSimilarObjects()
 
@@ -760,32 +602,26 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StressSafetyFactor.PropertyByName"></a>
-
 ### StressSafetyFactor.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StressSafetyFactor.PropertyByAPIName"></a>
-
 ### StressSafetyFactor.PropertyByAPIName(name: System.String)
 
+```text
 Get a property by its API name.
 If multiple properties have the same API Name, only the first property with that name will be returned.
+```
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="StressSafetyFactor.GetParameter"></a>
 
 ### StressSafetyFactor.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="StressSafetyFactor.RemoveParameter"></a>
 
 ### StressSafetyFactor.RemoveParameter(propName: System.String)
 

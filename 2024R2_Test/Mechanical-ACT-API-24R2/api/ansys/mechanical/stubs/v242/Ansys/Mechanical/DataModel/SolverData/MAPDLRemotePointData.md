@@ -17,14 +17,12 @@ MAPDLRemotePointData class.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------|-------------------------------------------------------|
-| [`NodeId`](#MAPDLRemotePointData.NodeId)   | Gets the Pilot Node Id number for the remote point.   |
+|------------|-------------------------------------------------------|
+| `NodeId`   | Gets the Pilot Node Id number for the remote point.   |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="MAPDLRemotePointData.NodeId"></a>
 
 ### *property* MAPDLRemotePointData.NodeId *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
