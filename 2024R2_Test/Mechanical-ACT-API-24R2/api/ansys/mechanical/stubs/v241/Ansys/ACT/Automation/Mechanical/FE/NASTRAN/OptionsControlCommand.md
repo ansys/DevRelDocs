@@ -17,17 +17,15 @@ Options control command.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|
-| [`Arguments`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/NASTRAN/OptionsControlCommand.md#OptionsControlCommand.Arguments)     | Gets the arguments.     |
-| [`OptionLines`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/NASTRAN/OptionsControlCommand.md#OptionsControlCommand.OptionLines) | Gets the option lines.  |
-| [`Name`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/NASTRAN/OptionsControlCommand.md#OptionsControlCommand.Name)               | Gets the command name.  |
-| [`Index`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/NASTRAN/OptionsControlCommand.md#OptionsControlCommand.Index)             | Gets the command index. |
+|---------------|-------------------------|
+| `Arguments`   | Gets the arguments.     |
+| `OptionLines` | Gets the option lines.  |
+| `Name`        | Gets the command name.  |
+| `Index`       | Gets the command index. |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="OptionsControlCommand.Arguments"></a>
 
 ### *property* OptionsControlCommand.Arguments *: System.Collections.Generic.IReadOnlyList[System.Object] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -35,23 +33,17 @@ Gets the arguments.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="OptionsControlCommand.OptionLines"></a>
-
 ### *property* OptionsControlCommand.OptionLines *: System.Collections.Generic.IReadOnlyList[System.Object] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the option lines.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="OptionsControlCommand.Name"></a>
-
 ### *property* OptionsControlCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command name.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="OptionsControlCommand.Index"></a>
 
 ### *property* OptionsControlCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 

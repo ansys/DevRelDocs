@@ -17,14 +17,12 @@ ExportSettings class.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| [`ForExpansion`](../Substructure/ExportSettings.md#ExportSettings.ForExpansion)   | Specifies whether to prepare the export for expansion. That allows for postprocessing results on physical nodes of an imported condensed part.   |
+|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+| `ForExpansion`   | Specifies whether to prepare the export for expansion. That allows for postprocessing results on physical nodes of an imported condensed part.   |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="ExportSettings.ForExpansion"></a>
 
 ### *property* ExportSettings.ForExpansion *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 

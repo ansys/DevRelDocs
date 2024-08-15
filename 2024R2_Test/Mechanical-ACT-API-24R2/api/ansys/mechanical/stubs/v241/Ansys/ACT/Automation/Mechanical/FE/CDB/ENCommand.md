@@ -17,17 +17,15 @@ Represents an EN command.
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------|--------------------------------------|
-| [`Type`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/ENCommand.md#ENCommand.Type)     | Gets the type (attribute or node).   |
-| [`Values`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/ENCommand.md#ENCommand.Values) | Gets the values.                     |
-| [`Name`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/ENCommand.md#ENCommand.Name)     | Gets the command name.               |
-| [`Index`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/ENCommand.md#ENCommand.Index)   | Gets the command index.              |
+|----------|--------------------------------------|
+| `Type`   | Gets the type (attribute or node).   |
+| `Values` | Gets the values.                     |
+| `Name`   | Gets the command name.               |
+| `Index`  | Gets the command index.              |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="ENCommand.Type"></a>
 
 ### *property* ENCommand.Type *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -35,23 +33,17 @@ Gets the type (attribute or node).
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ENCommand.Values"></a>
-
 ### *property* ENCommand.Values *: System.Collections.Generic.IReadOnlyList[System.Int32] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the values.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ENCommand.Name"></a>
-
 ### *property* ENCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command name.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ENCommand.Index"></a>
 
 ### *property* ENCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 

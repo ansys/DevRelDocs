@@ -17,23 +17,19 @@ GeometryRayCastHit, contains geoEntity and vector normal
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
-| [`HitVector`](../../../../v242/Ansys/Mechanical/Selection/GeometryRayCastHit.md#GeometryRayCastHit.HitVector)   | BoundVector with location and normal direction on geometry entity to ray cast   |
-| [`Entity`](../../../../v242/Ansys/Mechanical/Selection/GeometryRayCastHit.md#GeometryRayCastHit.Entity)         | Geometry entity hit by ray cast                                                 |
+|---------------|---------------------------------------------------------------------------------|
+| `HitVector`   | BoundVector with location and normal direction on geometry entity to ray cast   |
+| `Entity`      | Geometry entity hit by ray cast                                                 |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="GeometryRayCastHit.HitVector"></a>
 
 ### *property* GeometryRayCastHit.HitVector *: [Ansys.Mechanical.Math.BoundVector](../Math/BoundVector.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Math.BoundVector) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 BoundVector with location and normal direction on geometry entity to ray cast
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="GeometryRayCastHit.Entity"></a>
 
 ### *property* GeometryRayCastHit.Entity *: Ansys.ACT.Interfaces.Geometry.IGeoEntity | [None](https://docs.python.org/3/library/constants.html#None)*
 

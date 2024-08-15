@@ -30,6 +30,8 @@ LoadHelper class.
 
 ### *classmethod* LoadHelper.SwitchToTabular(BC: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](../../../../../v241/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GenericBoundaryCondition.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition))
 
+* **No-index:**
+
 SwitchToTabular method.
 
 <!-- !! processed by numpydoc !! -->
@@ -38,6 +40,8 @@ SwitchToTabular method.
 
 ### *classmethod* LoadHelper.SwitchFilmCoefficientToTabular(BC: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.Convection](../../../../../v241/Ansys/ACT/Automation/Mechanical/BoundaryConditions/Convection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.Convection))
 
+* **No-index:**
+
 SwitchFilmCoefficientToTabular method.
 
 <!-- !! processed by numpydoc !! -->
@@ -45,6 +49,8 @@ SwitchFilmCoefficientToTabular method.
 <a id="LoadHelper.SwitchAmbientTemperatureToTabular"></a>
 
 ### *classmethod* LoadHelper.SwitchAmbientTemperatureToTabular(BC: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.Convection](../../../../../v241/Ansys/ACT/Automation/Mechanical/BoundaryConditions/Convection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.Convection))
+
+* **No-index:**
 
 SwitchAmbientTemperatureToTabular method.
 

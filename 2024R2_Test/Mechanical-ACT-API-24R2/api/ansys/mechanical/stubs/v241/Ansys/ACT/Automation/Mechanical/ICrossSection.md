@@ -17,53 +17,51 @@ Defines a ICrossSection.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`Delete`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ICrossSection.md#ICrossSection.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ICrossSection.md#id1)                                               | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ICrossSection.md#id1)                                               | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ICrossSection.md#ICrossSection.AddComment)                           | Creates a new child Comment.                                                      |
-| [`AddFigure`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ICrossSection.md#ICrossSection.AddFigure)                             | Creates a new child Figure.                                                       |
-| [`AddImage`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ICrossSection.md#ICrossSection.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ICrossSection.md#ICrossSection.Activate)                               | Activate the current object.                                                      |
-| [`CopyTo`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ICrossSection.md#ICrossSection.CopyTo)                                   | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ICrossSection.md#ICrossSection.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ICrossSection.md#ICrossSection.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ICrossSection.md#ICrossSection.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ICrossSection.md#ICrossSection.PropertyByName)                   | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ICrossSection.md#ICrossSection.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ICrossSection.md#ICrossSection.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ICrossSection.md#ICrossSection.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ICrossSection.md#ICrossSection.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+|---------------------------|-----------------------------------------------------------------------------------|
+| `Delete`                  | Run the Delete action.                                                            |
+| `GetChildren`             | Gets the list of children, filtered by type.                                      |
+| `GetChildren`             | Gets the list of children, filtered by type.                                      |
+| `AddComment`              | Creates a new child Comment.                                                      |
+| `AddFigure`               | Creates a new child Figure.                                                       |
+| `AddImage`                | Creates a new child Image.                                                        |
+| `Activate`                | Activate the current object.                                                      |
+| `CopyTo`                  | Copies all visible properties from this object to another.                        |
+| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
+| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
+| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
+| `PropertyByName`          | Get a property by its unique name.                                                |
+| `PropertyByAPIName`       | Get a property by its API name.                                                   |
+| `CreateParameter`         | Creates a new parameter for a Property.                                           |
+| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
+| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ICrossSection.md#id0)                                            | Gets the internal object. For advanced usage only.            |
-| [`Area`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ICrossSection.md#ICrossSection.Area)                                       | Gets the Area.                                                |
-| [`IYY`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ICrossSection.md#ICrossSection.IYY)                                         | Gets the IYY.                                                 |
-| [`IZZ`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ICrossSection.md#ICrossSection.IZZ)                                         | Gets the IZZ.                                                 |
-| [`Thick1`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ICrossSection.md#ICrossSection.Thick1)                                   | Gets or sets the Thick1.                                      |
-| [`Thick2`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ICrossSection.md#ICrossSection.Thick2)                                   | Gets or sets the Thick2.                                      |
-| [`Thick3`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ICrossSection.md#ICrossSection.Thick3)                                   | Gets or sets the Thick3.                                      |
-| [`Width1`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ICrossSection.md#ICrossSection.Width1)                                   | Gets or sets the Width1.                                      |
-| [`Width2`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ICrossSection.md#ICrossSection.Width2)                                   | Gets or sets the Width2.                                      |
-| [`Width3`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ICrossSection.md#ICrossSection.Width3)                                   | Gets or sets the Width3.                                      |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ICrossSection.md#ICrossSection.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
-| [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ICrossSection.md#ICrossSection.Children)                               | Gets the list of children.                                    |
-| [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ICrossSection.md#ICrossSection.Comments)                               | Gets the list of associated comments.                         |
-| [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ICrossSection.md#ICrossSection.Figures)                                 | Gets the list of associated figures.                          |
-| [`Images`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ICrossSection.md#ICrossSection.Images)                                   | Gets the list of associated images.                           |
-| [`ReadOnly`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ICrossSection.md#ICrossSection.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
-| [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ICrossSection.md#id0)                                            | Gets the internal object. For advanced usage only.            |
-| [`Properties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ICrossSection.md#ICrossSection.Properties)                           | Gets the list of properties for this object.                  |
-| [`VisibleProperties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ICrossSection.md#ICrossSection.VisibleProperties)             | Gets the list of properties that are visible for this object. |
+|---------------------------|---------------------------------------------------------------|
+| `InternalObject`          | Gets the internal object. For advanced usage only.            |
+| `Area`                    | Gets the Area.                                                |
+| `IYY`                     | Gets the IYY.                                                 |
+| `IZZ`                     | Gets the IZZ.                                                 |
+| `Thick1`                  | Gets or sets the Thick1.                                      |
+| `Thick2`                  | Gets or sets the Thick2.                                      |
+| `Thick3`                  | Gets or sets the Thick3.                                      |
+| `Width1`                  | Gets or sets the Width1.                                      |
+| `Width2`                  | Gets or sets the Width2.                                      |
+| `Width3`                  | Gets or sets the Width3.                                      |
+| `DataModelObjectCategory` | Gets the current DataModelObject's category.                  |
+| `Children`                | Gets the list of children.                                    |
+| `Comments`                | Gets the list of associated comments.                         |
+| `Figures`                 | Gets the list of associated figures.                          |
+| `Images`                  | Gets the list of associated images.                           |
+| `ReadOnly`                | Gets or sets the ReadOnly.                                    |
+| `InternalObject`          | Gets the internal object. For advanced usage only.            |
+| `Properties`              | Gets the list of properties for this object.                  |
+| `VisibleProperties`       | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="ICrossSection.InternalObject"></a>
 
 ### *property* ICrossSection.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSCrossSectionAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -71,15 +69,11 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ICrossSection.Area"></a>
-
 ### *property* ICrossSection.Area *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Area.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ICrossSection.IYY"></a>
 
 ### *property* ICrossSection.IYY *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -87,15 +81,11 @@ Gets the IYY.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ICrossSection.IZZ"></a>
-
 ### *property* ICrossSection.IZZ *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IZZ.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ICrossSection.Thick1"></a>
 
 ### *property* ICrossSection.Thick1 *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -103,15 +93,11 @@ Gets or sets the Thick1.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ICrossSection.Thick2"></a>
-
 ### *property* ICrossSection.Thick2 *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Thick2.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ICrossSection.Thick3"></a>
 
 ### *property* ICrossSection.Thick3 *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -119,15 +105,11 @@ Gets or sets the Thick3.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ICrossSection.Width1"></a>
-
 ### *property* ICrossSection.Width1 *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Width1.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ICrossSection.Width2"></a>
 
 ### *property* ICrossSection.Width2 *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -135,15 +117,11 @@ Gets or sets the Width2.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ICrossSection.Width3"></a>
-
 ### *property* ICrossSection.Width3 *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Width3.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ICrossSection.DataModelObjectCategory"></a>
 
 ### *property* ICrossSection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -151,15 +129,11 @@ Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ICrossSection.Children"></a>
-
 ### *property* ICrossSection.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ICrossSection.Comments"></a>
 
 ### *property* ICrossSection.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -167,15 +141,11 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ICrossSection.Figures"></a>
-
 ### *property* ICrossSection.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ICrossSection.Images"></a>
 
 ### *property* ICrossSection.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -183,15 +153,11 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ICrossSection.ReadOnly"></a>
-
 ### *property* ICrossSection.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="id0"></a>
 
 ### *property* ICrossSection.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -199,15 +165,11 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ICrossSection.Properties"></a>
-
 ### *property* ICrossSection.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ICrossSection.VisibleProperties"></a>
 
 ### *property* ICrossSection.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -219,15 +181,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="ICrossSection.Delete"></a>
-
 ### ICrossSection.Delete()
 
 Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ICrossSection.GetChildren"></a>
 
 ### ICrossSection.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
@@ -235,15 +193,11 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id1"></a>
-
 ### ICrossSection.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ICrossSection.AddComment"></a>
 
 ### ICrossSection.AddComment()
 
@@ -251,25 +205,21 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ICrossSection.AddFigure"></a>
-
 ### ICrossSection.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ICrossSection.AddImage"></a>
-
 ### ICrossSection.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
+```
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ICrossSection.Activate"></a>
 
 ### ICrossSection.Activate()
 
@@ -277,15 +227,11 @@ Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ICrossSection.CopyTo"></a>
-
 ### ICrossSection.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
 Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ICrossSection.Duplicate"></a>
 
 ### ICrossSection.Duplicate()
 
@@ -293,15 +239,11 @@ Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ICrossSection.GroupAllSimilarChildren"></a>
-
 ### ICrossSection.GroupAllSimilarChildren()
 
 Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ICrossSection.GroupSimilarObjects"></a>
 
 ### ICrossSection.GroupSimilarObjects()
 
@@ -309,24 +251,20 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ICrossSection.PropertyByName"></a>
-
 ### ICrossSection.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ICrossSection.PropertyByAPIName"></a>
-
 ### ICrossSection.PropertyByAPIName(name: System.String)
 
+```text
 Get a property by its API name.
 If multiple properties have the same API Name, only the first property with that name will be returned.
+```
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ICrossSection.CreateParameter"></a>
 
 ### ICrossSection.CreateParameter(propName: System.String)
 
@@ -334,15 +272,11 @@ Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ICrossSection.GetParameter"></a>
-
 ### ICrossSection.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ICrossSection.RemoveParameter"></a>
 
 ### ICrossSection.RemoveParameter(propName: System.String)
 

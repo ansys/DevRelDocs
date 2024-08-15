@@ -17,38 +17,36 @@ Defines a LineChart2D.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/LineChart2D.md#id1)                                             | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/LineChart2D.md#id1)                                             | Gets the list of children, filtered by type.                                      |
-| [`Activate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/LineChart2D.md#LineChart2D.Activate)                               | Activate the current object.                                                      |
-| [`CopyTo`](../../../../../v242/Ansys/ACT/Automation/Mechanical/LineChart2D.md#LineChart2D.CopyTo)                                   | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/LineChart2D.md#LineChart2D.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/LineChart2D.md#LineChart2D.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](../../../../../v242/Ansys/ACT/Automation/Mechanical/LineChart2D.md#LineChart2D.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/LineChart2D.md#LineChart2D.PropertyByName)                   | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/LineChart2D.md#LineChart2D.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/LineChart2D.md#LineChart2D.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/LineChart2D.md#LineChart2D.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/LineChart2D.md#LineChart2D.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+|---------------------------|-----------------------------------------------------------------------------------|
+| `GetChildren`             | Gets the list of children, filtered by type.                                      |
+| `GetChildren`             | Gets the list of children, filtered by type.                                      |
+| `Activate`                | Activate the current object.                                                      |
+| `CopyTo`                  | Copies all visible properties from this object to another.                        |
+| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
+| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
+| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
+| `PropertyByName`          | Get a property by its unique name.                                                |
+| `PropertyByAPIName`       | Get a property by its API name.                                                   |
+| `CreateParameter`         | Creates a new parameter for a Property.                                           |
+| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
+| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`MultiScopedCurveId`](../../../../../v242/Ansys/ACT/Automation/Mechanical/LineChart2D.md#LineChart2D.MultiScopedCurveId)           | Gets or sets the OutlineSelection.                            |
-| [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/LineChart2D.md#id0)                                          | Gets the internal object. For advanced usage only.            |
-| [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/LineChart2D.md#LineChart2D.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/LineChart2D.md#LineChart2D.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
-| [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/LineChart2D.md#LineChart2D.Children)                               | Gets the list of children.                                    |
-| [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/LineChart2D.md#id0)                                          | Gets the internal object. For advanced usage only.            |
-| [`Properties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/LineChart2D.md#LineChart2D.Properties)                           | Gets the list of properties for this object.                  |
-| [`VisibleProperties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/LineChart2D.md#LineChart2D.VisibleProperties)             | Gets the list of properties that are visible for this object. |
+|---------------------------|---------------------------------------------------------------|
+| `MultiScopedCurveId`      | Gets or sets the OutlineSelection.                            |
+| `InternalObject`          | Gets the internal object. For advanced usage only.            |
+| `Suppressed`              | Gets or sets the Suppressed.                                  |
+| `DataModelObjectCategory` | Gets the current DataModelObject's category.                  |
+| `Children`                | Gets the list of children.                                    |
+| `InternalObject`          | Gets the internal object. For advanced usage only.            |
+| `Properties`              | Gets the list of properties for this object.                  |
+| `VisibleProperties`       | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="LineChart2D.MultiScopedCurveId"></a>
 
 ### *property* LineChart2D.MultiScopedCurveId *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -56,15 +54,11 @@ Gets or sets the OutlineSelection.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="LineChart2D.InternalObject"></a>
-
 ### *property* LineChart2D.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSBasicResultChartAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="LineChart2D.Suppressed"></a>
 
 ### *property* LineChart2D.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -72,15 +66,11 @@ Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="LineChart2D.DataModelObjectCategory"></a>
-
 ### *property* LineChart2D.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="LineChart2D.Children"></a>
 
 ### *property* LineChart2D.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -88,23 +78,17 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
-
 ### *property* LineChart2D.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="LineChart2D.Properties"></a>
-
 ### *property* LineChart2D.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="LineChart2D.VisibleProperties"></a>
 
 ### *property* LineChart2D.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -116,15 +100,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="LineChart2D.GetChildren"></a>
-
 ### LineChart2D.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
 
 ### LineChart2D.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
@@ -132,15 +112,11 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="LineChart2D.Activate"></a>
-
 ### LineChart2D.Activate()
 
 Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="LineChart2D.CopyTo"></a>
 
 ### LineChart2D.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -148,15 +124,11 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="LineChart2D.Duplicate"></a>
-
 ### LineChart2D.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="LineChart2D.GroupAllSimilarChildren"></a>
 
 ### LineChart2D.GroupAllSimilarChildren()
 
@@ -164,15 +136,11 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="LineChart2D.GroupSimilarObjects"></a>
-
 ### LineChart2D.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="LineChart2D.PropertyByName"></a>
 
 ### LineChart2D.PropertyByName(name: System.String)
 
@@ -180,16 +148,14 @@ Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="LineChart2D.PropertyByAPIName"></a>
-
 ### LineChart2D.PropertyByAPIName(name: System.String)
 
+```text
 Get a property by its API name.
 If multiple properties have the same API Name, only the first property with that name will be returned.
+```
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="LineChart2D.CreateParameter"></a>
 
 ### LineChart2D.CreateParameter(propName: System.String)
 
@@ -197,15 +163,11 @@ Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="LineChart2D.GetParameter"></a>
-
 ### LineChart2D.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="LineChart2D.RemoveParameter"></a>
 
 ### LineChart2D.RemoveParameter(propName: System.String)
 

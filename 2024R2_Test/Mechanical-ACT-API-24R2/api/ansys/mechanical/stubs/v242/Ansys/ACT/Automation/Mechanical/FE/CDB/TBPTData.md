@@ -17,16 +17,14 @@ Represents data for the TBPT command.
 ### Properties
 
 | Name | Description |
-|--------------------------------------|----------------------------|
-| [`Temp`](#TBPTData.Temp)             | Gets the temperature.      |
-| [`TBPTCount`](#TBPTData.TBPTCount)   | Gets the number of values. |
-| [`TBPTValues`](#TBPTData.TBPTValues) | Gets the TBPT values.      |
+|--------------|----------------------------|
+| `Temp`       | Gets the temperature.      |
+| `TBPTCount`  | Gets the number of values. |
+| `TBPTValues` | Gets the TBPT values.      |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="TBPTData.Temp"></a>
 
 ### *property* TBPTData.Temp *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -34,15 +32,11 @@ Gets the temperature.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="TBPTData.TBPTCount"></a>
-
 ### *property* TBPTData.TBPTCount *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the number of values.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="TBPTData.TBPTValues"></a>
 
 ### *property* TBPTData.TBPTValues *: System.Collections.Generic.IReadOnlyList[[Ansys.ACT.Automation.Mechanical.FE.CDB.TBPTValues](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/FE/CDB/TBPTValues.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.TBPTValues)] | [None](https://docs.python.org/3/library/constants.html#None)*
 

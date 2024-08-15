@@ -17,18 +17,16 @@ Represents an ET command.
 ### Properties
 
 | Name | Description |
-|---------------------------------|----------------------------|
-| [`Id`](#ETCommand.Id)           | Gets the element number.   |
-| [`Ename`](#ETCommand.Ename)     | Gets the element name.     |
-| [`Keyopts`](#ETCommand.Keyopts) | Gets the key options.      |
-| [`Name`](#ETCommand.Name)       | Gets the command name.     |
-| [`Index`](#ETCommand.Index)     | Gets the command index.    |
+|-----------|----------------------------|
+| `Id`      | Gets the element number.   |
+| `Ename`   | Gets the element name.     |
+| `Keyopts` | Gets the key options.      |
+| `Name`    | Gets the command name.     |
+| `Index`   | Gets the command index.    |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="ETCommand.Id"></a>
 
 ### *property* ETCommand.Id *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -36,15 +34,11 @@ Gets the element number.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ETCommand.Ename"></a>
-
 ### *property* ETCommand.Ename *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the element name.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ETCommand.Keyopts"></a>
 
 ### *property* ETCommand.Keyopts *: System.Collections.Generic.IReadOnlyList[[Ansys.ACT.Automation.Mechanical.FE.CDB.CommandKeyOpt](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/FE/CDB/CommandKeyOpt.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandKeyOpt)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -52,15 +46,11 @@ Gets the key options.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ETCommand.Name"></a>
-
 ### *property* ETCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command name.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ETCommand.Index"></a>
 
 ### *property* ETCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 

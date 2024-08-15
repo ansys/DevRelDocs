@@ -17,14 +17,12 @@ MAPDLSurfaceLoadData class.
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------|-------------------------------------------------------------|
-| [`SurfaceEffectElementTypeId`](#MAPDLSurfaceLoadData.SurfaceEffectElementTypeId)   | Gets the Surface Effect Element Type Id used by the load.   |
+|--------------------------------|-------------------------------------------------------------|
+| `SurfaceEffectElementTypeId`   | Gets the Surface Effect Element Type Id used by the load.   |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="MAPDLSurfaceLoadData.SurfaceEffectElementTypeId"></a>
 
 ### *property* MAPDLSurfaceLoadData.SurfaceEffectElementTypeId *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 

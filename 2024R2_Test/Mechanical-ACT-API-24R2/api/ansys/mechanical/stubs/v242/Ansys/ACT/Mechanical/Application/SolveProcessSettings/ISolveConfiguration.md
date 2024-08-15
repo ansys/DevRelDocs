@@ -17,23 +17,21 @@ ISolveConfiguration interface.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------|--------------------------------------------------------------|
-| [`SetAsDefault`](#ISolveConfiguration.SetAsDefault)   | Sets â€˜this' to be the default configuration to solve with.   |
+|------------------|--------------------------------------------------------------|
+| `SetAsDefault`   | Sets 'this' to be the default configuration to solve with.   |
 
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------|---------------------------------------------------------------------------|
-| [`Name`](#ISolveConfiguration.Name)                                 | Gets or sets the name of the SolveConfiguraiton Object                    |
-| [`Default`](#ISolveConfiguration.Default)                           | Gets whether or not this SolveConfiguration is the default configuration. |
-| [`Settings`](#ISolveConfiguration.Settings)                         | Gets the QueueSettings object for the configuration.                      |
-| [`SolveProcessSettings`](#ISolveConfiguration.SolveProcessSettings) | Gets the SolveProcessSettings for the current object.                     |
+|------------------------|---------------------------------------------------------------------------|
+| `Name`                 | Gets or sets the name of the SolveConfiguraiton Object                    |
+| `Default`              | Gets whether or not this SolveConfiguration is the default configuration. |
+| `Settings`             | Gets the QueueSettings object for the configuration.                      |
+| `SolveProcessSettings` | Gets the SolveProcessSettings for the current object.                     |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="ISolveConfiguration.Name"></a>
 
 ### *property* ISolveConfiguration.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -41,23 +39,17 @@ Gets or sets the name of the SolveConfiguraiton Object
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ISolveConfiguration.Default"></a>
-
 ### *property* ISolveConfiguration.Default *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets whether or not this SolveConfiguration is the default configuration.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ISolveConfiguration.Settings"></a>
-
 ### *property* ISolveConfiguration.Settings *: [Ansys.ACT.Mechanical.Application.SolveProcessSettings.IQueueSettings](../../../../../../v241/Ansys/ACT/Mechanical/Application/SolveProcessSettings/IQueueSettings.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Application.SolveProcessSettings.IQueueSettings) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the QueueSettings object for the configuration.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ISolveConfiguration.SolveProcessSettings"></a>
 
 ### *property* ISolveConfiguration.SolveProcessSettings *: [Ansys.ACT.Mechanical.Application.SolveProcessSettings.ISolveProcessSettings](../../../../../../v241/Ansys/ACT/Mechanical/Application/SolveProcessSettings/ISolveProcessSettings.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Application.SolveProcessSettings.ISolveProcessSettings) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -69,11 +61,9 @@ Gets the SolveProcessSettings for the current object.
 
 ## Method detail
 
-<a id="ISolveConfiguration.SetAsDefault"></a>
-
 ### ISolveConfiguration.SetAsDefault()
 
-Sets â€˜this' to be the default configuration to solve with.
+Sets 'this' to be the default configuration to solve with.
 
 <!-- !! processed by numpydoc !! -->
 

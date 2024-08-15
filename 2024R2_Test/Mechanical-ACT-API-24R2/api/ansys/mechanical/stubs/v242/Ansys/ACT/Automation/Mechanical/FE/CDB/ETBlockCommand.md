@@ -17,17 +17,15 @@ Represents a ETBLOCK command.
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------|--------------------------------|
-| [`ElementTypeCount`](#ETBlockCommand.ElementTypeCount)   | Gets the element type count.   |
-| [`ElementTypes`](#ETBlockCommand.ElementTypes)           | Gets the element types.        |
-| [`Name`](#ETBlockCommand.Name)                           | Gets the command name.         |
-| [`Index`](#ETBlockCommand.Index)                         | Gets the command index.        |
+|----------------------|--------------------------------|
+| `ElementTypeCount`   | Gets the element type count.   |
+| `ElementTypes`       | Gets the element types.        |
+| `Name`               | Gets the command name.         |
+| `Index`              | Gets the command index.        |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="ETBlockCommand.ElementTypeCount"></a>
 
 ### *property* ETBlockCommand.ElementTypeCount *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -35,23 +33,17 @@ Gets the element type count.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ETBlockCommand.ElementTypes"></a>
-
 ### *property* ETBlockCommand.ElementTypes *: System.Collections.Generic.IReadOnlyList[[Ansys.ACT.Automation.Mechanical.FE.CDB.CommandElementType](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/FE/CDB/CommandElementType.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandElementType)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the element types.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ETBlockCommand.Name"></a>
-
 ### *property* ETBlockCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command name.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ETBlockCommand.Index"></a>
 
 ### *property* ETBlockCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 

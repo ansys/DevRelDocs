@@ -17,104 +17,102 @@ Defines a EquivalentRadiatedPowerWaterfallDiagram.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`ClearGeneratedData`](#EquivalentRadiatedPowerWaterfallDiagram.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
-| [`EvaluateAllResults`](#EquivalentRadiatedPowerWaterfallDiagram.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
-| [`FetchRemoteResults`](#EquivalentRadiatedPowerWaterfallDiagram.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
-| [`ExportToTextFile`](#EquivalentRadiatedPowerWaterfallDiagram.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
-| [`ExportAnimation`](#EquivalentRadiatedPowerWaterfallDiagram.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
-| [`DuplicateWithoutResults`](#EquivalentRadiatedPowerWaterfallDiagram.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
-| [`CreateResultsAtAllSets`](#EquivalentRadiatedPowerWaterfallDiagram.CreateResultsAtAllSets)   | Creates results at all sets for results under a solution.                         |
-| [`PromoteToNamedSelection`](#EquivalentRadiatedPowerWaterfallDiagram.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
-| [`CreateParameter`](#EquivalentRadiatedPowerWaterfallDiagram.CreateParameter)                 | CreateParameter method.                                                           |
-| [`AddAlert`](#EquivalentRadiatedPowerWaterfallDiagram.AddAlert)                               | Creates a new Alert                                                               |
-| [`AddConvergence`](#EquivalentRadiatedPowerWaterfallDiagram.AddConvergence)                   | Creates a new Convergence                                                         |
-| [`RenameBasedOnDefinition`](#EquivalentRadiatedPowerWaterfallDiagram.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
-| [`Delete`](#EquivalentRadiatedPowerWaterfallDiagram.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](#id1)                                                                         | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](#id1)                                                                         | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](#EquivalentRadiatedPowerWaterfallDiagram.AddComment)                           | Creates a new child Comment.                                                      |
-| [`AddFigure`](#EquivalentRadiatedPowerWaterfallDiagram.AddFigure)                             | Creates a new child Figure.                                                       |
-| [`AddImage`](#EquivalentRadiatedPowerWaterfallDiagram.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](#EquivalentRadiatedPowerWaterfallDiagram.Activate)                               | Activate the current object.                                                      |
-| [`CopyTo`](#EquivalentRadiatedPowerWaterfallDiagram.CopyTo)                                   | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](#EquivalentRadiatedPowerWaterfallDiagram.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](#EquivalentRadiatedPowerWaterfallDiagram.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](#EquivalentRadiatedPowerWaterfallDiagram.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](#EquivalentRadiatedPowerWaterfallDiagram.PropertyByName)                   | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](#EquivalentRadiatedPowerWaterfallDiagram.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`GetParameter`](#EquivalentRadiatedPowerWaterfallDiagram.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](#EquivalentRadiatedPowerWaterfallDiagram.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+|---------------------------|-----------------------------------------------------------------------------------|
+| `ClearGeneratedData`      | Run the ClearGeneratedData action.                                                |
+| `EvaluateAllResults`      | Run the EvaluateAllResults action.                                                |
+| `FetchRemoteResults`      | Run the FetchRemoteResult action.                                                 |
+| `ExportToTextFile`        | Run the ExportToTextFile action.                                                  |
+| `ExportAnimation`         | Run the ExportAnimation action.                                                   |
+| `DuplicateWithoutResults` | Run the DuplicateWithoutResults action.                                           |
+| `CreateResultsAtAllSets`  | Creates results at all sets for results under a solution.                         |
+| `PromoteToNamedSelection` | Run the PromoteToNamedSelection action.                                           |
+| `CreateParameter`         | CreateParameter method.                                                           |
+| `AddAlert`                | Creates a new Alert                                                               |
+| `AddConvergence`          | Creates a new Convergence                                                         |
+| `RenameBasedOnDefinition` | Run the RenameBasedOnDefinition action.                                           |
+| `Delete`                  | Run the Delete action.                                                            |
+| `GetChildren`             | Gets the list of children, filtered by type.                                      |
+| `GetChildren`             | Gets the list of children, filtered by type.                                      |
+| `AddComment`              | Creates a new child Comment.                                                      |
+| `AddFigure`               | Creates a new child Figure.                                                       |
+| `AddImage`                | Creates a new child Image.                                                        |
+| `Activate`                | Activate the current object.                                                      |
+| `CopyTo`                  | Copies all visible properties from this object to another.                        |
+| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
+| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
+| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
+| `PropertyByName`          | Get a property by its unique name.                                                |
+| `PropertyByAPIName`       | Get a property by its API name.                                                   |
+| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
+| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
-| [`InternalObject`](#id0)                                                                                          | Gets the internal object. For advanced usage only.                     |
-| [`PanelsToDisplay`](#EquivalentRadiatedPowerWaterfallDiagram.PanelsToDisplay)                                     | Gets or sets the PanelsToDisplay.                                      |
-| [`DisplayPanel`](#EquivalentRadiatedPowerWaterfallDiagram.DisplayPanel)                                           | Gets or sets the DisplayPanel.                                         |
-| [`PanelContribution`](#EquivalentRadiatedPowerWaterfallDiagram.PanelContribution)                                 | Gets or sets the PanelContribution.                                    |
-| [`DataModelObjectCategory`](#EquivalentRadiatedPowerWaterfallDiagram.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
-| [`PlotData`](#EquivalentRadiatedPowerWaterfallDiagram.PlotData)                                                   | Gets the result table.                                                 |
-| [`Location`](#EquivalentRadiatedPowerWaterfallDiagram.Location)                                                   | Gets or sets the Location.                                             |
-| [`TimeForMinimumOfMinimumValues`](#EquivalentRadiatedPowerWaterfallDiagram.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
-| [`TimeForMinimumOfMaximumValues`](#EquivalentRadiatedPowerWaterfallDiagram.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
-| [`LoadStepForMinimumOfMinimumValues`](#EquivalentRadiatedPowerWaterfallDiagram.LoadStepForMinimumOfMinimumValues) | Get the Load Step for the minimum of minimum values.                   |
-| [`LoadStepForMinimumOfMaximumValues`](#EquivalentRadiatedPowerWaterfallDiagram.LoadStepForMinimumOfMaximumValues) | Get the Load Step for the minimum of maximum values.                   |
-| [`TimeForMaximumOfMinimumValues`](#EquivalentRadiatedPowerWaterfallDiagram.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
-| [`TimeForMaximumOfMaximumValues`](#EquivalentRadiatedPowerWaterfallDiagram.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
-| [`LoadStepForMaximumOfMinimumValues`](#EquivalentRadiatedPowerWaterfallDiagram.LoadStepForMaximumOfMinimumValues) | Get the Load Step for the maximum of minimum values.                   |
-| [`LoadStepForMaximumOfMaximumValues`](#EquivalentRadiatedPowerWaterfallDiagram.LoadStepForMaximumOfMaximumValues) | Get the Load Step for the maximum of maximum values.                   |
-| [`IsSolved`](#EquivalentRadiatedPowerWaterfallDiagram.IsSolved)                                                   | Gets the IsSolved.                                                     |
-| [`CoordinateSystem`](#EquivalentRadiatedPowerWaterfallDiagram.CoordinateSystem)                                   | Gets or sets the Coordinate System.                                    |
-| [`ScopingMethod`](#EquivalentRadiatedPowerWaterfallDiagram.ScopingMethod)                                         | Gets or sets the ScopingMethod.                                        |
-| [`SetNumber`](#EquivalentRadiatedPowerWaterfallDiagram.SetNumber)                                                 | Gets or sets the Set Number.                                           |
-| [`CombinationNumber`](#EquivalentRadiatedPowerWaterfallDiagram.CombinationNumber)                                 | Gets or sets the Combination Number for a Solution Combination result. |
-| [`SolutionCombinationDriver`](#EquivalentRadiatedPowerWaterfallDiagram.SolutionCombinationDriver)                 | Gets or sets the SolutionCombinationDriver.                            |
-| [`Path`](#EquivalentRadiatedPowerWaterfallDiagram.Path)                                                           | Path property.                                                         |
-| [`Surface`](#EquivalentRadiatedPowerWaterfallDiagram.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#EquivalentRadiatedPowerWaterfallDiagram.SurfaceCoating)                                       | SurfaceCoating property.                                               |
-| [`NamedSelections`](#EquivalentRadiatedPowerWaterfallDiagram.NamedSelections)                                     | Gets or sets the NamedSelections.                                      |
-| [`WaterfallShowTextOnMosaic`](#EquivalentRadiatedPowerWaterfallDiagram.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
-| [`CrackFrontNumber`](#EquivalentRadiatedPowerWaterfallDiagram.CrackFrontNumber)                                   | Gets or sets the CrackFrontNumber.                                     |
-| [`GlobalIDs`](#EquivalentRadiatedPowerWaterfallDiagram.GlobalIDs)                                                 | Gets or sets the GlobalIDs.                                            |
-| [`Identifier`](#EquivalentRadiatedPowerWaterfallDiagram.Identifier)                                               | Gets or sets the Identifier.                                           |
-| [`IterationNumber`](#EquivalentRadiatedPowerWaterfallDiagram.IterationNumber)                                     | Gets the IterationNumber.                                              |
-| [`LoadStep`](#EquivalentRadiatedPowerWaterfallDiagram.LoadStep)                                                   | Gets the LoadStep.                                                     |
-| [`MaximumOccursOn`](#EquivalentRadiatedPowerWaterfallDiagram.MaximumOccursOn)                                     | Gets the MaximumOccursOn.                                              |
-| [`MinimumOccursOn`](#EquivalentRadiatedPowerWaterfallDiagram.MinimumOccursOn)                                     | Gets the MinimumOccursOn.                                              |
-| [`LoadStepNumber`](#EquivalentRadiatedPowerWaterfallDiagram.LoadStepNumber)                                       | Gets or sets the LoadStepNumber.                                       |
-| [`SolverComponentIDs`](#EquivalentRadiatedPowerWaterfallDiagram.SolverComponentIDs)                               | Gets or sets the SolverComponentIDs.                                   |
-| [`Substep`](#EquivalentRadiatedPowerWaterfallDiagram.Substep)                                                     | Gets the Substep.                                                      |
-| [`Average`](#EquivalentRadiatedPowerWaterfallDiagram.Average)                                                     | Gets the Average.                                                      |
-| [`Maximum`](#EquivalentRadiatedPowerWaterfallDiagram.Maximum)                                                     | Gets the Maximum.                                                      |
-| [`MaximumOfMaximumOverTime`](#EquivalentRadiatedPowerWaterfallDiagram.MaximumOfMaximumOverTime)                   | Gets the MaximumOfMaximumOverTime.                                     |
-| [`MaximumOfMinimumOverTime`](#EquivalentRadiatedPowerWaterfallDiagram.MaximumOfMinimumOverTime)                   | Gets the MaximumOfMinimumOverTime.                                     |
-| [`Minimum`](#EquivalentRadiatedPowerWaterfallDiagram.Minimum)                                                     | Gets the Minimum.                                                      |
-| [`MinimumOfMaximumOverTime`](#EquivalentRadiatedPowerWaterfallDiagram.MinimumOfMaximumOverTime)                   | Gets the MinimumOfMaximumOverTime.                                     |
-| [`MinimumOfMinimumOverTime`](#EquivalentRadiatedPowerWaterfallDiagram.MinimumOfMinimumOverTime)                   | Gets the MinimumOfMinimumOverTime.                                     |
-| [`Time`](#EquivalentRadiatedPowerWaterfallDiagram.Time)                                                           | Gets the Time.                                                         |
-| [`DisplayTime`](#EquivalentRadiatedPowerWaterfallDiagram.DisplayTime)                                             | Gets or sets the DisplayTime.                                          |
-| [`GraphControlsXAxis`](#EquivalentRadiatedPowerWaterfallDiagram.GraphControlsXAxis)                               | Gets or sets the GraphControlsXAxis.                                   |
-| [`DisplayOption`](#EquivalentRadiatedPowerWaterfallDiagram.DisplayOption)                                         | Gets or sets the DisplayOption.                                        |
-| [`DpfEvaluation`](#EquivalentRadiatedPowerWaterfallDiagram.DpfEvaluation)                                         | Gets or sets the DpfEvaluation.                                        |
-| [`By`](#EquivalentRadiatedPowerWaterfallDiagram.By)                                                               | Gets or sets the By.                                                   |
-| [`ItemType`](#EquivalentRadiatedPowerWaterfallDiagram.ItemType)                                                   | Gets or sets the ItemType.                                             |
-| [`CalculateTimeHistory`](#EquivalentRadiatedPowerWaterfallDiagram.CalculateTimeHistory)                           | Gets or sets the CalculateTimeHistory.                                 |
-| [`Suppressed`](#EquivalentRadiatedPowerWaterfallDiagram.Suppressed)                                               | Gets or sets the Suppressed.                                           |
-| [`Children`](#EquivalentRadiatedPowerWaterfallDiagram.Children)                                                   | Gets the list of children.                                             |
-| [`Comments`](#EquivalentRadiatedPowerWaterfallDiagram.Comments)                                                   | Gets the list of associated comments.                                  |
-| [`Figures`](#EquivalentRadiatedPowerWaterfallDiagram.Figures)                                                     | Gets the list of associated figures.                                   |
-| [`Images`](#EquivalentRadiatedPowerWaterfallDiagram.Images)                                                       | Gets the list of associated images.                                    |
-| [`InternalObject`](#id0)                                                                                          | Gets the internal object. For advanced usage only.                     |
-| [`Properties`](#EquivalentRadiatedPowerWaterfallDiagram.Properties)                                               | Gets the list of properties for this object.                           |
-| [`VisibleProperties`](#EquivalentRadiatedPowerWaterfallDiagram.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
+|-------------------------------------|------------------------------------------------------------------------|
+| `InternalObject`                    | Gets the internal object. For advanced usage only.                     |
+| `PanelsToDisplay`                   | Gets or sets the PanelsToDisplay.                                      |
+| `DisplayPanel`                      | Gets or sets the DisplayPanel.                                         |
+| `PanelContribution`                 | Gets or sets the PanelContribution.                                    |
+| `DataModelObjectCategory`           | Gets the current DataModelObject's category.                           |
+| `PlotData`                          | Gets the result table.                                                 |
+| `Location`                          | Gets or sets the Location.                                             |
+| `TimeForMinimumOfMinimumValues`     | Get the Time for the minimum of minimum values.                        |
+| `TimeForMinimumOfMaximumValues`     | Get the Time for the minimum of maximum values.                        |
+| `LoadStepForMinimumOfMinimumValues` | Get the Load Step for the minimum of minimum values.                   |
+| `LoadStepForMinimumOfMaximumValues` | Get the Load Step for the minimum of maximum values.                   |
+| `TimeForMaximumOfMinimumValues`     | Get the Time for the maximum of minimum values.                        |
+| `TimeForMaximumOfMaximumValues`     | Get the Time for the maximum of maximum values.                        |
+| `LoadStepForMaximumOfMinimumValues` | Get the Load Step for the maximum of minimum values.                   |
+| `LoadStepForMaximumOfMaximumValues` | Get the Load Step for the maximum of maximum values.                   |
+| `IsSolved`                          | Gets the IsSolved.                                                     |
+| `CoordinateSystem`                  | Gets or sets the Coordinate System.                                    |
+| `ScopingMethod`                     | Gets or sets the ScopingMethod.                                        |
+| `SetNumber`                         | Gets or sets the Set Number.                                           |
+| `CombinationNumber`                 | Gets or sets the Combination Number for a Solution Combination result. |
+| `SolutionCombinationDriver`         | Gets or sets the SolutionCombinationDriver.                            |
+| `Path`                              | Path property.                                                         |
+| `Surface`                           | Surface property.                                                      |
+| `SurfaceCoating`                    | SurfaceCoating property.                                               |
+| `NamedSelections`                   | Gets or sets the NamedSelections.                                      |
+| `WaterfallShowTextOnMosaic`         | Gets or sets the Waterfall Mosaic Text Property.                       |
+| `CrackFrontNumber`                  | Gets or sets the CrackFrontNumber.                                     |
+| `GlobalIDs`                         | Gets or sets the GlobalIDs.                                            |
+| `Identifier`                        | Gets or sets the Identifier.                                           |
+| `IterationNumber`                   | Gets the IterationNumber.                                              |
+| `LoadStep`                          | Gets the LoadStep.                                                     |
+| `MaximumOccursOn`                   | Gets the MaximumOccursOn.                                              |
+| `MinimumOccursOn`                   | Gets the MinimumOccursOn.                                              |
+| `LoadStepNumber`                    | Gets or sets the LoadStepNumber.                                       |
+| `SolverComponentIDs`                | Gets or sets the SolverComponentIDs.                                   |
+| `Substep`                           | Gets the Substep.                                                      |
+| `Average`                           | Gets the Average.                                                      |
+| `Maximum`                           | Gets the Maximum.                                                      |
+| `MaximumOfMaximumOverTime`          | Gets the MaximumOfMaximumOverTime.                                     |
+| `MaximumOfMinimumOverTime`          | Gets the MaximumOfMinimumOverTime.                                     |
+| `Minimum`                           | Gets the Minimum.                                                      |
+| `MinimumOfMaximumOverTime`          | Gets the MinimumOfMaximumOverTime.                                     |
+| `MinimumOfMinimumOverTime`          | Gets the MinimumOfMinimumOverTime.                                     |
+| `Time`                              | Gets the Time.                                                         |
+| `DisplayTime`                       | Gets or sets the DisplayTime.                                          |
+| `GraphControlsXAxis`                | Gets or sets the GraphControlsXAxis.                                   |
+| `DisplayOption`                     | Gets or sets the DisplayOption.                                        |
+| `DpfEvaluation`                     | Gets or sets the DpfEvaluation.                                        |
+| `By`                                | Gets or sets the By.                                                   |
+| `ItemType`                          | Gets or sets the ItemType.                                             |
+| `CalculateTimeHistory`              | Gets or sets the CalculateTimeHistory.                                 |
+| `Suppressed`                        | Gets or sets the Suppressed.                                           |
+| `Children`                          | Gets the list of children.                                             |
+| `Comments`                          | Gets the list of associated comments.                                  |
+| `Figures`                           | Gets the list of associated figures.                                   |
+| `Images`                            | Gets the list of associated images.                                    |
+| `InternalObject`                    | Gets the internal object. For advanced usage only.                     |
+| `Properties`                        | Gets the list of properties for this object.                           |
+| `VisibleProperties`                 | Gets the list of properties that are visible for this object.          |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="EquivalentRadiatedPowerWaterfallDiagram.InternalObject"></a>
 
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -122,15 +120,11 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EquivalentRadiatedPowerWaterfallDiagram.PanelsToDisplay"></a>
-
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.PanelsToDisplay *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PanelsToDisplay.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EquivalentRadiatedPowerWaterfallDiagram.DisplayPanel"></a>
 
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.DisplayPanel *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -138,15 +132,11 @@ Gets or sets the DisplayPanel.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EquivalentRadiatedPowerWaterfallDiagram.PanelContribution"></a>
-
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.PanelContribution *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PanelContribution.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EquivalentRadiatedPowerWaterfallDiagram.DataModelObjectCategory"></a>
 
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -154,15 +144,11 @@ Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EquivalentRadiatedPowerWaterfallDiagram.PlotData"></a>
-
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../../../v241/Ansys/Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the result table.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EquivalentRadiatedPowerWaterfallDiagram.Location"></a>
 
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -170,15 +156,11 @@ Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EquivalentRadiatedPowerWaterfallDiagram.TimeForMinimumOfMinimumValues"></a>
-
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.TimeForMinimumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Time for the minimum of minimum values.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EquivalentRadiatedPowerWaterfallDiagram.TimeForMinimumOfMaximumValues"></a>
 
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.TimeForMinimumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -186,15 +168,11 @@ Get the Time for the minimum of maximum values.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EquivalentRadiatedPowerWaterfallDiagram.LoadStepForMinimumOfMinimumValues"></a>
-
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EquivalentRadiatedPowerWaterfallDiagram.LoadStepForMinimumOfMaximumValues"></a>
 
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -202,15 +180,11 @@ Get the Load Step for the minimum of maximum values.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EquivalentRadiatedPowerWaterfallDiagram.TimeForMaximumOfMinimumValues"></a>
-
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.TimeForMaximumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Time for the maximum of minimum values.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EquivalentRadiatedPowerWaterfallDiagram.TimeForMaximumOfMaximumValues"></a>
 
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.TimeForMaximumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -218,15 +192,11 @@ Get the Time for the maximum of maximum values.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EquivalentRadiatedPowerWaterfallDiagram.LoadStepForMaximumOfMinimumValues"></a>
-
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EquivalentRadiatedPowerWaterfallDiagram.LoadStepForMaximumOfMaximumValues"></a>
 
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -234,15 +204,11 @@ Get the Load Step for the maximum of maximum values.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EquivalentRadiatedPowerWaterfallDiagram.IsSolved"></a>
-
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EquivalentRadiatedPowerWaterfallDiagram.CoordinateSystem"></a>
 
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -252,15 +218,11 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EquivalentRadiatedPowerWaterfallDiagram.ScopingMethod"></a>
-
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EquivalentRadiatedPowerWaterfallDiagram.SetNumber"></a>
 
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -268,15 +230,11 @@ Gets or sets the Set Number.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EquivalentRadiatedPowerWaterfallDiagram.CombinationNumber"></a>
-
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EquivalentRadiatedPowerWaterfallDiagram.SolutionCombinationDriver"></a>
 
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -284,15 +242,11 @@ Gets or sets the SolutionCombinationDriver.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EquivalentRadiatedPowerWaterfallDiagram.Path"></a>
-
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Path.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Path property.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EquivalentRadiatedPowerWaterfallDiagram.Surface"></a>
 
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Surface.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -300,15 +254,11 @@ Surface property.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EquivalentRadiatedPowerWaterfallDiagram.SurfaceCoating"></a>
-
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.SurfaceCoating *: [Ansys.ACT.Automation.Mechanical.SurfaceCoating](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/SurfaceCoating.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.SurfaceCoating) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 SurfaceCoating property.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EquivalentRadiatedPowerWaterfallDiagram.NamedSelections"></a>
 
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -316,15 +266,11 @@ Gets or sets the NamedSelections.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EquivalentRadiatedPowerWaterfallDiagram.WaterfallShowTextOnMosaic"></a>
-
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EquivalentRadiatedPowerWaterfallDiagram.CrackFrontNumber"></a>
 
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -332,15 +278,11 @@ Gets or sets the CrackFrontNumber.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EquivalentRadiatedPowerWaterfallDiagram.GlobalIDs"></a>
-
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EquivalentRadiatedPowerWaterfallDiagram.Identifier"></a>
 
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -348,15 +290,11 @@ Gets or sets the Identifier.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EquivalentRadiatedPowerWaterfallDiagram.IterationNumber"></a>
-
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EquivalentRadiatedPowerWaterfallDiagram.LoadStep"></a>
 
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -364,15 +302,11 @@ Gets the LoadStep.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EquivalentRadiatedPowerWaterfallDiagram.MaximumOccursOn"></a>
-
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EquivalentRadiatedPowerWaterfallDiagram.MinimumOccursOn"></a>
 
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -380,15 +314,11 @@ Gets the MinimumOccursOn.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EquivalentRadiatedPowerWaterfallDiagram.LoadStepNumber"></a>
-
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EquivalentRadiatedPowerWaterfallDiagram.SolverComponentIDs"></a>
 
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -396,15 +326,11 @@ Gets or sets the SolverComponentIDs.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EquivalentRadiatedPowerWaterfallDiagram.Substep"></a>
-
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EquivalentRadiatedPowerWaterfallDiagram.Average"></a>
 
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.Average *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -412,15 +338,11 @@ Gets the Average.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EquivalentRadiatedPowerWaterfallDiagram.Maximum"></a>
-
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Maximum.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EquivalentRadiatedPowerWaterfallDiagram.MaximumOfMaximumOverTime"></a>
 
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.MaximumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -428,15 +350,11 @@ Gets the MaximumOfMaximumOverTime.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EquivalentRadiatedPowerWaterfallDiagram.MaximumOfMinimumOverTime"></a>
-
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.MaximumOfMinimumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOfMinimumOverTime.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EquivalentRadiatedPowerWaterfallDiagram.Minimum"></a>
 
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.Minimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -444,15 +362,11 @@ Gets the Minimum.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EquivalentRadiatedPowerWaterfallDiagram.MinimumOfMaximumOverTime"></a>
-
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.MinimumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOfMaximumOverTime.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EquivalentRadiatedPowerWaterfallDiagram.MinimumOfMinimumOverTime"></a>
 
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.MinimumOfMinimumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -460,15 +374,11 @@ Gets the MinimumOfMinimumOverTime.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EquivalentRadiatedPowerWaterfallDiagram.Time"></a>
-
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Time.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EquivalentRadiatedPowerWaterfallDiagram.DisplayTime"></a>
 
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -476,15 +386,11 @@ Gets or sets the DisplayTime.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EquivalentRadiatedPowerWaterfallDiagram.GraphControlsXAxis"></a>
-
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GraphControlsXAxis.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EquivalentRadiatedPowerWaterfallDiagram.DisplayOption"></a>
 
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -492,15 +398,11 @@ Gets or sets the DisplayOption.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EquivalentRadiatedPowerWaterfallDiagram.DpfEvaluation"></a>
-
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DpfEvaluation.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EquivalentRadiatedPowerWaterfallDiagram.By"></a>
 
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -508,15 +410,11 @@ Gets or sets the By.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EquivalentRadiatedPowerWaterfallDiagram.ItemType"></a>
-
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ItemType.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EquivalentRadiatedPowerWaterfallDiagram.CalculateTimeHistory"></a>
 
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -524,15 +422,11 @@ Gets or sets the CalculateTimeHistory.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EquivalentRadiatedPowerWaterfallDiagram.Suppressed"></a>
-
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EquivalentRadiatedPowerWaterfallDiagram.Children"></a>
 
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -540,15 +434,11 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EquivalentRadiatedPowerWaterfallDiagram.Comments"></a>
-
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EquivalentRadiatedPowerWaterfallDiagram.Figures"></a>
 
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -556,15 +446,11 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EquivalentRadiatedPowerWaterfallDiagram.Images"></a>
-
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="id0"></a>
 
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -572,15 +458,11 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EquivalentRadiatedPowerWaterfallDiagram.Properties"></a>
-
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EquivalentRadiatedPowerWaterfallDiagram.VisibleProperties"></a>
 
 ### *property* EquivalentRadiatedPowerWaterfallDiagram.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -592,15 +474,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="EquivalentRadiatedPowerWaterfallDiagram.ClearGeneratedData"></a>
-
 ### EquivalentRadiatedPowerWaterfallDiagram.ClearGeneratedData()
 
 Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EquivalentRadiatedPowerWaterfallDiagram.EvaluateAllResults"></a>
 
 ### EquivalentRadiatedPowerWaterfallDiagram.EvaluateAllResults()
 
@@ -608,15 +486,11 @@ Run the EvaluateAllResults action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EquivalentRadiatedPowerWaterfallDiagram.FetchRemoteResults"></a>
-
 ### EquivalentRadiatedPowerWaterfallDiagram.FetchRemoteResults()
 
 Run the FetchRemoteResult action.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EquivalentRadiatedPowerWaterfallDiagram.ExportToTextFile"></a>
 
 ### EquivalentRadiatedPowerWaterfallDiagram.ExportToTextFile(filePath: System.String)
 
@@ -624,15 +498,11 @@ Run the ExportToTextFile action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EquivalentRadiatedPowerWaterfallDiagram.ExportAnimation"></a>
-
 ### EquivalentRadiatedPowerWaterfallDiagram.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v241/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EquivalentRadiatedPowerWaterfallDiagram.DuplicateWithoutResults"></a>
 
 ### EquivalentRadiatedPowerWaterfallDiagram.DuplicateWithoutResults()
 
@@ -640,15 +510,11 @@ Run the DuplicateWithoutResults action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EquivalentRadiatedPowerWaterfallDiagram.CreateResultsAtAllSets"></a>
-
 ### EquivalentRadiatedPowerWaterfallDiagram.CreateResultsAtAllSets()
 
 Creates results at all sets for results under a solution.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EquivalentRadiatedPowerWaterfallDiagram.PromoteToNamedSelection"></a>
 
 ### EquivalentRadiatedPowerWaterfallDiagram.PromoteToNamedSelection()
 
@@ -656,15 +522,11 @@ Run the PromoteToNamedSelection action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EquivalentRadiatedPowerWaterfallDiagram.CreateParameter"></a>
-
 ### EquivalentRadiatedPowerWaterfallDiagram.CreateParameter(propName: System.String)
 
 CreateParameter method.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EquivalentRadiatedPowerWaterfallDiagram.AddAlert"></a>
 
 ### EquivalentRadiatedPowerWaterfallDiagram.AddAlert()
 
@@ -672,15 +534,11 @@ Creates a new Alert
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EquivalentRadiatedPowerWaterfallDiagram.AddConvergence"></a>
-
 ### EquivalentRadiatedPowerWaterfallDiagram.AddConvergence()
 
 Creates a new Convergence
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EquivalentRadiatedPowerWaterfallDiagram.RenameBasedOnDefinition"></a>
 
 ### EquivalentRadiatedPowerWaterfallDiagram.RenameBasedOnDefinition()
 
@@ -688,15 +546,11 @@ Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EquivalentRadiatedPowerWaterfallDiagram.Delete"></a>
-
 ### EquivalentRadiatedPowerWaterfallDiagram.Delete()
 
 Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EquivalentRadiatedPowerWaterfallDiagram.GetChildren"></a>
 
 ### EquivalentRadiatedPowerWaterfallDiagram.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
@@ -704,15 +558,11 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id1"></a>
-
 ### EquivalentRadiatedPowerWaterfallDiagram.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EquivalentRadiatedPowerWaterfallDiagram.AddComment"></a>
 
 ### EquivalentRadiatedPowerWaterfallDiagram.AddComment()
 
@@ -720,25 +570,21 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EquivalentRadiatedPowerWaterfallDiagram.AddFigure"></a>
-
 ### EquivalentRadiatedPowerWaterfallDiagram.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EquivalentRadiatedPowerWaterfallDiagram.AddImage"></a>
-
 ### EquivalentRadiatedPowerWaterfallDiagram.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
+```
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EquivalentRadiatedPowerWaterfallDiagram.Activate"></a>
 
 ### EquivalentRadiatedPowerWaterfallDiagram.Activate()
 
@@ -746,15 +592,11 @@ Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EquivalentRadiatedPowerWaterfallDiagram.CopyTo"></a>
-
 ### EquivalentRadiatedPowerWaterfallDiagram.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
 Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EquivalentRadiatedPowerWaterfallDiagram.Duplicate"></a>
 
 ### EquivalentRadiatedPowerWaterfallDiagram.Duplicate()
 
@@ -762,15 +604,11 @@ Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EquivalentRadiatedPowerWaterfallDiagram.GroupAllSimilarChildren"></a>
-
 ### EquivalentRadiatedPowerWaterfallDiagram.GroupAllSimilarChildren()
 
 Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EquivalentRadiatedPowerWaterfallDiagram.GroupSimilarObjects"></a>
 
 ### EquivalentRadiatedPowerWaterfallDiagram.GroupSimilarObjects()
 
@@ -778,32 +616,26 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EquivalentRadiatedPowerWaterfallDiagram.PropertyByName"></a>
-
 ### EquivalentRadiatedPowerWaterfallDiagram.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EquivalentRadiatedPowerWaterfallDiagram.PropertyByAPIName"></a>
-
 ### EquivalentRadiatedPowerWaterfallDiagram.PropertyByAPIName(name: System.String)
 
+```text
 Get a property by its API name.
 If multiple properties have the same API Name, only the first property with that name will be returned.
+```
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EquivalentRadiatedPowerWaterfallDiagram.GetParameter"></a>
 
 ### EquivalentRadiatedPowerWaterfallDiagram.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="EquivalentRadiatedPowerWaterfallDiagram.RemoveParameter"></a>
 
 ### EquivalentRadiatedPowerWaterfallDiagram.RemoveParameter(propName: System.String)
 

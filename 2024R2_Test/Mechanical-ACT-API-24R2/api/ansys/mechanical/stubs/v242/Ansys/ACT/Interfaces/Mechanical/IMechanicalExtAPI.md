@@ -17,25 +17,23 @@ Exposes the main entry point of all ATC APIs.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------|-----------------------------------------------------|
-| [`UnlockPrePostLicense`](#IMechanicalExtAPI.UnlockPrePostLicense)   | R                                                   |
-| [`LockPrePostLicense`](#IMechanicalExtAPI.LockPrePostLicense)       | Locks the license used by the PRE/POST application. |
+|--------------------------|-----------------------------------------------------|
+| `UnlockPrePostLicense`   | R                                                   |
+| `LockPrePostLicense`     | Locks the license used by the PRE/POST application. |
 
 <a id="method-detail"></a>
 
 ## Method detail
 
-<a id="IMechanicalExtAPI.UnlockPrePostLicense"></a>
-
 ### IMechanicalExtAPI.UnlockPrePostLicense()
 
+```text
 R
-: Unlocks the license used by the PRE/POST application. This is required if you want to manually launch the Ansys solver.
-  You must relock the license after its use. If you don't relock the license, the PRE/POST application will be in read-only mode.
+    Unlocks the license used by the PRE/POST application. This is required if you want to manually launch the Ansys solver.
+    You must relock the license after its use. If you don't relock the license, the PRE/POST application will be in read-only mode.
+```
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="IMechanicalExtAPI.LockPrePostLicense"></a>
 
 ### IMechanicalExtAPI.LockPrePostLicense()
 

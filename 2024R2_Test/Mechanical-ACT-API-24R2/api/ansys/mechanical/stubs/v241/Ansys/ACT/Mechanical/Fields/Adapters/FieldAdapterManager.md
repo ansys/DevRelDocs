@@ -24,14 +24,12 @@ Static class that operates like a factory to create field adapters from Mechanic
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
-| [`AdapterDefinitions`](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Adapters/FieldAdapterManager.md#FieldAdapterManager.AdapterDefinitions)   | Gets the collection of adapters in this manager.   |
+|------------------------|----------------------------------------------------|
+| `AdapterDefinitions`   | Gets the collection of adapters in this manager.   |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="FieldAdapterManager.AdapterDefinitions"></a>
 
 ### *property* FieldAdapterManager.AdapterDefinitions *: System.Collections.Generic.IList[Ansys.ACT.Mechanical.Fields.Adapters.FieldAdapter.IDefinition] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -49,6 +47,8 @@ Gets the collection of adapters in this manager.
 
 ### *classmethod* FieldAdapterManager.RegisterNewAdapter(definition: Ansys.ACT.Mechanical.Fields.Adapters.FieldAdapter.IDefinition)
 
+* **No-index:**
+
 Register the instance object that defines a type of field adapter.
 
 <!-- !! processed by numpydoc !! -->
@@ -56,6 +56,8 @@ Register the instance object that defines a type of field adapter.
 <a id="FieldAdapterManager.UnregisterAdapter"></a>
 
 ### *classmethod* FieldAdapterManager.UnregisterAdapter(index: System.Int32)
+
+* **No-index:**
 
 Removes the instance object that defines a type of field adapter from this manager.
 

@@ -17,23 +17,19 @@ Represents a keyword argument (with Key and Value).
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------|-----------------|
-| [`Key`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/ABAQUS/AbaqusKeywordArgument.md#AbaqusKeywordArgument.Key)     | Gets the Key.   |
-| [`Value`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/ABAQUS/AbaqusKeywordArgument.md#AbaqusKeywordArgument.Value) | Gets the Value. |
+|---------|-----------------|
+| `Key`   | Gets the Key.   |
+| `Value` | Gets the Value. |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="AbaqusKeywordArgument.Key"></a>
 
 ### *property* AbaqusKeywordArgument.Key *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Key.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="AbaqusKeywordArgument.Value"></a>
 
 ### *property* AbaqusKeywordArgument.Value *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 

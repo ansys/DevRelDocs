@@ -17,18 +17,16 @@ A basic definition of the external data file.
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------|------------------------------------------------------------------|
-| [`FilePath`](#ExternalDataFile.FilePath)             | Gets or sets the file path of the external data file.            |
-| [`Identifier`](#ExternalDataFile.Identifier)         | Gets or sets the identifier of the external data file.           |
-| [`Description`](#ExternalDataFile.Description)       | Gets or sets the optional description of the external data file. |
-| [`IsMainFile`](#ExternalDataFile.IsMainFile)         |                                                                  |
-| [`ImportSettings`](#ExternalDataFile.ImportSettings) |                                                                  |
+|------------------|------------------------------------------------------------------|
+| `FilePath`       | Gets or sets the file path of the external data file.            |
+| `Identifier`     | Gets or sets the identifier of the external data file.           |
+| `Description`    | Gets or sets the optional description of the external data file. |
+| `IsMainFile`     |                                                                  |
+| `ImportSettings` |                                                                  |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="ExternalDataFile.FilePath"></a>
 
 ### *property* ExternalDataFile.FilePath *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -36,15 +34,11 @@ Gets or sets the file path of the external data file.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ExternalDataFile.Identifier"></a>
-
 ### *property* ExternalDataFile.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the identifier of the external data file.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ExternalDataFile.Description"></a>
 
 ### *property* ExternalDataFile.Description *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -52,13 +46,9 @@ Gets or sets the optional description of the external data file.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ExternalDataFile.IsMainFile"></a>
-
 ### *property* ExternalDataFile.IsMainFile *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ExternalDataFile.ImportSettings"></a>
 
 ### *property* ExternalDataFile.ImportSettings *: [Ansys.Mechanical.ExternalData.ImportSettingsBase](../../../../v241/Ansys/Mechanical/ExternalData/ImportSettingsBase.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.ExternalData.ImportSettingsBase) | [None](https://docs.python.org/3/library/constants.html#None)*
 

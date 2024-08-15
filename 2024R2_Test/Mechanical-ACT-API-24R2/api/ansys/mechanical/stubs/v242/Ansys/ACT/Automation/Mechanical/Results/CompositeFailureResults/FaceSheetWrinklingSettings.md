@@ -17,39 +17,33 @@ Defines the configuration for the Face Sheet Wrinkling failure criterion for san
 ### Methods
 
 | Name | Description |
-|------------------------------------------------|------------------------------------------------|
-| [`Reset`](#FaceSheetWrinklingSettings.Reset)   | Resets the settings to their default values.   |
+|-----------|------------------------------------------------|
+| `Reset`   | Resets the settings to their default values.   |
 
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| [`WeightingFactor`](#FaceSheetWrinklingSettings.WeightingFactor)                       | Gets or sets the weighting factor for the face sheet wrinkling criterion. The corresponding failure   |
-| [`HomogeneousCoreCoefficient`](#FaceSheetWrinklingSettings.HomogeneousCoreCoefficient) | Gets or sets the wrinkling coefficient of homogeneous core materials.                                 |
-| [`HoneycombCoreCoefficient`](#FaceSheetWrinklingSettings.HoneycombCoreCoefficient)     | Gets or sets the wrinkling coefficient of honeycomb core materials.                                   |
+|------------------------------|-------------------------------------------------------------------------------------------------------|
+| `WeightingFactor`            | Gets or sets the weighting factor for the face sheet wrinkling criterion. The corresponding failure   |
+| `HomogeneousCoreCoefficient` | Gets or sets the wrinkling coefficient of homogeneous core materials.                                 |
+| `HoneycombCoreCoefficient`   | Gets or sets the wrinkling coefficient of honeycomb core materials.                                   |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-<a id="FaceSheetWrinklingSettings.WeightingFactor"></a>
-
 ### *property* FaceSheetWrinklingSettings.WeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the weighting factor for the face sheet wrinkling criterion. The corresponding failure
-: label is â€˜wt' for wrinkling at the top face, â€˜wb' at the bottom face.
+: label is 'wt' for wrinkling at the top face, 'wb' at the bottom face.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="FaceSheetWrinklingSettings.HomogeneousCoreCoefficient"></a>
 
 ### *property* FaceSheetWrinklingSettings.HomogeneousCoreCoefficient *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the wrinkling coefficient of homogeneous core materials.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="FaceSheetWrinklingSettings.HoneycombCoreCoefficient"></a>
 
 ### *property* FaceSheetWrinklingSettings.HoneycombCoreCoefficient *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -60,8 +54,6 @@ Gets or sets the wrinkling coefficient of honeycomb core materials.
 <a id="method-detail"></a>
 
 ## Method detail
-
-<a id="FaceSheetWrinklingSettings.Reset"></a>
 
 ### FaceSheetWrinklingSettings.Reset()
 

@@ -17,20 +17,18 @@ GeometryRayCastSettings class.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
-| [`HitFaces`](../../../../v242/Ansys/Mechanical/Selection/GeometryRayCastSettings.md#GeometryRayCastSettings.HitFaces)       | Specifies whether ray casting should hit faces.                     |
-| [`HitEdges`](../../../../v242/Ansys/Mechanical/Selection/GeometryRayCastSettings.md#GeometryRayCastSettings.HitEdges)       | Specifies whether ray casting should hit edges.                     |
-| [`HitVertices`](../../../../v242/Ansys/Mechanical/Selection/GeometryRayCastSettings.md#GeometryRayCastSettings.HitVertices) | Specifies whether ray casting should hit vertices.                  |
-| [`HitBodies`](../../../../v242/Ansys/Mechanical/Selection/GeometryRayCastSettings.md#GeometryRayCastSettings.HitBodies)     | Specifies whether ray casting should hit bodies.                    |
-| [`MaxHits`](../../../../v242/Ansys/Mechanical/Selection/GeometryRayCastSettings.md#GeometryRayCastSettings.MaxHits)         | Specifies maximum number of ray casting hits.                       |
-| [`CastRadius`](../../../../v242/Ansys/Mechanical/Selection/GeometryRayCastSettings.md#GeometryRayCastSettings.CastRadius)   | Optional; specifies maximum radial distance from BoundVector.       |
-| [`CastLength`](../../../../v242/Ansys/Mechanical/Selection/GeometryRayCastSettings.md#GeometryRayCastSettings.CastLength)   | Optional; specifies maximum axial distance from BoundVector origin. |
+|---------------|---------------------------------------------------------------------|
+| `HitFaces`    | Specifies whether ray casting should hit faces.                     |
+| `HitEdges`    | Specifies whether ray casting should hit edges.                     |
+| `HitVertices` | Specifies whether ray casting should hit vertices.                  |
+| `HitBodies`   | Specifies whether ray casting should hit bodies.                    |
+| `MaxHits`     | Specifies maximum number of ray casting hits.                       |
+| `CastRadius`  | Optional; specifies maximum radial distance from BoundVector.       |
+| `CastLength`  | Optional; specifies maximum axial distance from BoundVector origin. |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="GeometryRayCastSettings.HitFaces"></a>
 
 ### *property* GeometryRayCastSettings.HitFaces *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -39,16 +37,12 @@ Defaults to true.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="GeometryRayCastSettings.HitEdges"></a>
-
 ### *property* GeometryRayCastSettings.HitEdges *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Specifies whether ray casting should hit edges.
 Defaults to false.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="GeometryRayCastSettings.HitVertices"></a>
 
 ### *property* GeometryRayCastSettings.HitVertices *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -57,16 +51,12 @@ Defaults to false.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="GeometryRayCastSettings.HitBodies"></a>
-
 ### *property* GeometryRayCastSettings.HitBodies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Specifies whether ray casting should hit bodies.
 Defaults to false.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="GeometryRayCastSettings.MaxHits"></a>
 
 ### *property* GeometryRayCastSettings.MaxHits *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -75,15 +65,11 @@ Defaults to 1000.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="GeometryRayCastSettings.CastRadius"></a>
-
 ### *property* GeometryRayCastSettings.CastRadius *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Optional; specifies maximum radial distance from BoundVector.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="GeometryRayCastSettings.CastLength"></a>
 
 ### *property* GeometryRayCastSettings.CastLength *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 

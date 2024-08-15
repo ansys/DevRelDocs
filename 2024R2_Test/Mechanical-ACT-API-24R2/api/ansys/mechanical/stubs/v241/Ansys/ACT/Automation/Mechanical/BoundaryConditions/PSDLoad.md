@@ -17,46 +17,44 @@ Defines a PSDLoad.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`Delete`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/PSDLoad.md#PSDLoad.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/PSDLoad.md#id1)                                         | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/PSDLoad.md#id1)                                         | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/PSDLoad.md#PSDLoad.AddComment)                           | Creates a new child Comment.                                                      |
-| [`AddFigure`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/PSDLoad.md#PSDLoad.AddFigure)                             | Creates a new child Figure.                                                       |
-| [`AddImage`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/PSDLoad.md#PSDLoad.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/PSDLoad.md#PSDLoad.Activate)                               | Activate the current object.                                                      |
-| [`CopyTo`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/PSDLoad.md#PSDLoad.CopyTo)                                   | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/PSDLoad.md#PSDLoad.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/PSDLoad.md#PSDLoad.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/PSDLoad.md#PSDLoad.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/PSDLoad.md#PSDLoad.PropertyByName)                   | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/PSDLoad.md#PSDLoad.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/PSDLoad.md#PSDLoad.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/PSDLoad.md#PSDLoad.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/PSDLoad.md#PSDLoad.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+|---------------------------|-----------------------------------------------------------------------------------|
+| `Delete`                  | Run the Delete action.                                                            |
+| `GetChildren`             | Gets the list of children, filtered by type.                                      |
+| `GetChildren`             | Gets the list of children, filtered by type.                                      |
+| `AddComment`              | Creates a new child Comment.                                                      |
+| `AddFigure`               | Creates a new child Figure.                                                       |
+| `AddImage`                | Creates a new child Image.                                                        |
+| `Activate`                | Activate the current object.                                                      |
+| `CopyTo`                  | Copies all visible properties from this object to another.                        |
+| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
+| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
+| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
+| `PropertyByName`          | Get a property by its unique name.                                                |
+| `PropertyByAPIName`       | Get a property by its API name.                                                   |
+| `CreateParameter`         | Creates a new parameter for a Property.                                           |
+| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
+| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`BoundaryCondition`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/PSDLoad.md#PSDLoad.BoundaryCondition)             | Gets or sets the BoundaryCondition.                           |
-| [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/PSDLoad.md#id0)                                      | Gets the internal object. For advanced usage only.            |
-| [`Direction`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/PSDLoad.md#PSDLoad.Direction)                             | Gets or sets the Direction.                                   |
-| [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/PSDLoad.md#PSDLoad.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/PSDLoad.md#PSDLoad.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
-| [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/PSDLoad.md#PSDLoad.Children)                               | Gets the list of children.                                    |
-| [`Comments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/PSDLoad.md#PSDLoad.Comments)                               | Gets the list of associated comments.                         |
-| [`Figures`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/PSDLoad.md#PSDLoad.Figures)                                 | Gets the list of associated figures.                          |
-| [`Images`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/PSDLoad.md#PSDLoad.Images)                                   | Gets the list of associated images.                           |
-| [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/PSDLoad.md#id0)                                      | Gets the internal object. For advanced usage only.            |
-| [`Properties`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/PSDLoad.md#PSDLoad.Properties)                           | Gets the list of properties for this object.                  |
-| [`VisibleProperties`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/PSDLoad.md#PSDLoad.VisibleProperties)             | Gets the list of properties that are visible for this object. |
+|---------------------------|---------------------------------------------------------------|
+| `BoundaryCondition`       | Gets or sets the BoundaryCondition.                           |
+| `InternalObject`          | Gets the internal object. For advanced usage only.            |
+| `Direction`               | Gets or sets the Direction.                                   |
+| `Suppressed`              | Gets or sets the Suppressed.                                  |
+| `DataModelObjectCategory` | Gets the current DataModelObject's category.                  |
+| `Children`                | Gets the list of children.                                    |
+| `Comments`                | Gets the list of associated comments.                         |
+| `Figures`                 | Gets the list of associated figures.                          |
+| `Images`                  | Gets the list of associated images.                           |
+| `InternalObject`          | Gets the internal object. For advanced usage only.            |
+| `Properties`              | Gets the list of properties for this object.                  |
+| `VisibleProperties`       | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="PSDLoad.BoundaryCondition"></a>
 
 ### *property* PSDLoad.BoundaryCondition *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -64,15 +62,11 @@ Gets or sets the BoundaryCondition.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="PSDLoad.InternalObject"></a>
-
 ### *property* PSDLoad.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSPSDLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="PSDLoad.Direction"></a>
 
 ### *property* PSDLoad.Direction *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -80,15 +74,11 @@ Gets or sets the Direction.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="PSDLoad.Suppressed"></a>
-
 ### *property* PSDLoad.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="PSDLoad.DataModelObjectCategory"></a>
 
 ### *property* PSDLoad.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -96,15 +86,11 @@ Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="PSDLoad.Children"></a>
-
 ### *property* PSDLoad.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="PSDLoad.Comments"></a>
 
 ### *property* PSDLoad.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -112,15 +98,11 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="PSDLoad.Figures"></a>
-
 ### *property* PSDLoad.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="PSDLoad.Images"></a>
 
 ### *property* PSDLoad.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -128,23 +110,17 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
-
 ### *property* PSDLoad.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="PSDLoad.Properties"></a>
-
 ### *property* PSDLoad.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="PSDLoad.VisibleProperties"></a>
 
 ### *property* PSDLoad.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -156,15 +132,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="PSDLoad.Delete"></a>
-
 ### PSDLoad.Delete()
 
 Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="PSDLoad.GetChildren"></a>
 
 ### PSDLoad.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
 
@@ -172,15 +144,11 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id1"></a>
-
 ### PSDLoad.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="PSDLoad.AddComment"></a>
 
 ### PSDLoad.AddComment()
 
@@ -188,25 +156,21 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="PSDLoad.AddFigure"></a>
-
 ### PSDLoad.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="PSDLoad.AddImage"></a>
-
 ### PSDLoad.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
+```
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="PSDLoad.Activate"></a>
 
 ### PSDLoad.Activate()
 
@@ -214,15 +178,11 @@ Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="PSDLoad.CopyTo"></a>
-
 ### PSDLoad.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
 Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="PSDLoad.Duplicate"></a>
 
 ### PSDLoad.Duplicate()
 
@@ -230,15 +190,11 @@ Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="PSDLoad.GroupAllSimilarChildren"></a>
-
 ### PSDLoad.GroupAllSimilarChildren()
 
 Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="PSDLoad.GroupSimilarObjects"></a>
 
 ### PSDLoad.GroupSimilarObjects()
 
@@ -246,24 +202,20 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="PSDLoad.PropertyByName"></a>
-
 ### PSDLoad.PropertyByName(name: System.String)
 
 Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="PSDLoad.PropertyByAPIName"></a>
-
 ### PSDLoad.PropertyByAPIName(name: System.String)
 
+```text
 Get a property by its API name.
 If multiple properties have the same API Name, only the first property with that name will be returned.
+```
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="PSDLoad.CreateParameter"></a>
 
 ### PSDLoad.CreateParameter(propName: System.String)
 
@@ -271,15 +223,11 @@ Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="PSDLoad.GetParameter"></a>
-
 ### PSDLoad.GetParameter(propName: System.String)
 
 Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="PSDLoad.RemoveParameter"></a>
 
 ### PSDLoad.RemoveParameter(propName: System.String)
 

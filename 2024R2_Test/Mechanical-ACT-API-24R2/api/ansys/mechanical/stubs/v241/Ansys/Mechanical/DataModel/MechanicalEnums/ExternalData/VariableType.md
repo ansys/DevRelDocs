@@ -7,6 +7,7 @@
 Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 An enumeration of the different variable types supported by the tabular data
+T:Ansys.Mechanical.Interfaces.IDataSeries implementation “Ansys.ACT.Automation.Mechanical.Table.Column”.
 
 <!-- !! processed by numpydoc !! -->
 

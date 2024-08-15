@@ -28,6 +28,8 @@ Keywords class.
 
 ### *classmethod* Keywords.Get(type: Ansys.Common.Interop.AnsMaterial.kEDDataType)
 
+* **No-index:**
+
 Get method.
 
 <!-- !! processed by numpydoc !! -->

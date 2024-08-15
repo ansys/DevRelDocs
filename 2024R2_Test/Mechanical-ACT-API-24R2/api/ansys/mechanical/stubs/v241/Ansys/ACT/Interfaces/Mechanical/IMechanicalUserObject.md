@@ -17,14 +17,12 @@ Defines a Mechanical user object.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------|---------------------------------|
-| [`Analysis`](../../../../../v242/Ansys/ACT/Interfaces/Mechanical/IMechanicalUserObject.md#IMechanicalUserObject.Analysis)   | Gets the associated analysis.   |
+|--------------|---------------------------------|
+| `Analysis`   | Gets the associated analysis.   |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="IMechanicalUserObject.Analysis"></a>
 
 ### *property* IMechanicalUserObject.Analysis *: Ansys.ACT.Interfaces.Analysis.IAnalysis | [None](https://docs.python.org/3/library/constants.html#None)*
 

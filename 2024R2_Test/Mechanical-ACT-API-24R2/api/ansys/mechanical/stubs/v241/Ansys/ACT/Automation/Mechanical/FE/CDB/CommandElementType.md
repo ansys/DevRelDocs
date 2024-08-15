@@ -17,16 +17,14 @@ Represents an element type associated to an ETBLOCK command.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------|----------------------------|
-| [`Id`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CommandElementType.md#CommandElementType.Id)           | Gets the element number.   |
-| [`Ename`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CommandElementType.md#CommandElementType.Ename)     | Gets the element name.     |
-| [`Keyopts`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CommandElementType.md#CommandElementType.Keyopts) | Gets the key options.      |
+|-----------|----------------------------|
+| `Id`      | Gets the element number.   |
+| `Ename`   | Gets the element name.     |
+| `Keyopts` | Gets the key options.      |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="CommandElementType.Id"></a>
 
 ### *property* CommandElementType.Id *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -34,15 +32,11 @@ Gets the element number.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="CommandElementType.Ename"></a>
-
 ### *property* CommandElementType.Ename *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the element name.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="CommandElementType.Keyopts"></a>
 
 ### *property* CommandElementType.Keyopts *: System.Collections.Generic.IReadOnlyList[[Ansys.ACT.Automation.Mechanical.FE.CDB.CommandKeyOpt](CommandKeyOpt.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandKeyOpt)] | [None](https://docs.python.org/3/library/constants.html#None)*
 

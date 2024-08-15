@@ -17,14 +17,12 @@ A base class for Table import settings.
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------|-------------------------------------------|
-| [`Format`](../Table/ImportSettingsBase.md#ImportSettingsBase.Format)   | Gets the existing corresponding format.   |
+|------------|-------------------------------------------|
+| `Format`   | Gets the existing corresponding format.   |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="ImportSettingsBase.Format"></a>
 
 ### *property* ImportSettingsBase.Format *: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat](../../../../v241/Ansys/Mechanical/DataModel/MechanicalEnums/ExternalData/ImportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat) | [None](https://docs.python.org/3/library/constants.html#None)*
 

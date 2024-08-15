@@ -17,17 +17,15 @@ Represents a shell SECBLOCK command.
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------|-------------------------|
-| [`Type`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/ShellSecBlockCommand.md#ShellSecBlockCommand.Type)     | Get the section type.   |
-| [`Layers`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/ShellSecBlockCommand.md#ShellSecBlockCommand.Layers) | Gets the layers.        |
-| [`Name`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/ShellSecBlockCommand.md#ShellSecBlockCommand.Name)     | Gets the command name.  |
-| [`Index`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/ShellSecBlockCommand.md#ShellSecBlockCommand.Index)   | Gets the command index. |
+|----------|-------------------------|
+| `Type`   | Get the section type.   |
+| `Layers` | Gets the layers.        |
+| `Name`   | Gets the command name.  |
+| `Index`  | Gets the command index. |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="ShellSecBlockCommand.Type"></a>
 
 ### *property* ShellSecBlockCommand.Type *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -35,23 +33,17 @@ Get the section type.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ShellSecBlockCommand.Layers"></a>
-
 ### *property* ShellSecBlockCommand.Layers *: System.Collections.Generic.IReadOnlyList[[Ansys.ACT.Automation.Mechanical.FE.CDB.CommandLayer](CommandLayer.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandLayer)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the layers.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ShellSecBlockCommand.Name"></a>
-
 ### *property* ShellSecBlockCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command name.
 
 <!-- !! processed by numpydoc !! -->
-
-<a id="ShellSecBlockCommand.Index"></a>
 
 ### *property* ShellSecBlockCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 

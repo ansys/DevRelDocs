@@ -29,8 +29,12 @@ Defines set of methods that can be used to find mechanical unit information
 
 ### *classmethod* UnitsHelper.ConvertMechanicalUnitToCoreUnit(mechanicalUnit: System.String, unitCategory: System.String)
 
+* **No-index:**
+
+```text
 Takes input mechanical unit string and category string
 And returns framework unit string which can be used for conversion
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -38,9 +42,13 @@ And returns framework unit string which can be used for conversion
 
 ### *classmethod* UnitsHelper.GetValidQuantityNamesAndUnits()
 
+* **No-index:**
+
+```text
 Retrieve a dictionary of quantity names to unit strings.
 These quantity names represent valid quantity names that can be used when defining quantities in
 Mechanical ACT extensions.
+```
 
 <!-- !! processed by numpydoc !! -->
 
