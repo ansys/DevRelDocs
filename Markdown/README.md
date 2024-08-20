@@ -1,6 +1,6 @@
 # MarkDown metadata and table of contents
 
-We generally follow the guidelines and rules laid out for [docfx](https://dotnet.github.io/docfx/index.html) by Microsoft, with certain restrictions. In particular, we only support GitHub-flavored MarkDown, and none of the docfx extensions to MarkDown.
+We generally follow the guidelines and rules laid out for [docfx](https://dotnet.github.io/docfx/index.html) by Microsoft, with certain restrictions. In particular, we only support GitHub-flavored MarkDown and mathematical symbols and equations in LaTex and MathML format, but none of the other docfx extensions to MarkDown. Note that all files must be encoded as [UTF-8](https://en.wikipedia.org/wiki/UTF-8), not any earlier, non-standard encoding formats, such as windows1252 or other related formats.
 
 ## Table of Contents
 
