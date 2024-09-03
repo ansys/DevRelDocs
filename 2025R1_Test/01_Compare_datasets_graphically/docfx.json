@@ -1,0 +1,13 @@
+{
+    "build": {
+      "globalMetadata": {
+        "title": "Granta MI example test",
+        "summary": "",
+        "version": "2025 R1",
+        "product": "Granta MI",
+        "programming language": "Python",
+        "product collection": "Materials",
+        "physics": "Materials Data"
+      }
+    }
+ }
