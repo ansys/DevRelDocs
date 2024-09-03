@@ -1,7 +1,7 @@
 {
   "build": {
     "globalMetadata": {
-      "title": "Mechanical API documentation",
+      "title": "Mechanical scripting interface",
       "summary": "",
       "version": "2024 R2",
       "product": "Mechanical",
