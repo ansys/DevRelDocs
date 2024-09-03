@@ -77,14 +77,14 @@ Usage:
 
 Swaps two steps in the Removal sequence.
 Returns true if successful and false if unsuccessful
-Usage:
+Usage:  
 C#
 
 > removalSequence.Swap(
 > : new Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.BaseRemoval(),
 >   new Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.SupportRemoval(supportObj));
 
-Python
+Python  
 : removalSequence.Swap(
   : Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.BaseRemoval(),
     Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.SupportRemoval(supportObj))
@@ -97,7 +97,7 @@ Python
 
 Swaps two steps in the Removal sequence by name.
 Returns true if successful and false if unsuccessful
-Usage:
+Usage:  
 
 > removalSequence.Swap(“Base”, “Generated Support 1”)
 <!-- !! processed by numpydoc !! -->
@@ -108,13 +108,13 @@ Usage:
 
 Returns index of removal object
 Returns -1 if removal object not found
-Usage:
+Usage:  
 C#
 
 > index1 = removalSequence.IndexOf(new Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.BaseRemoval());
 > index2 = removalSequence.IndexOf(new Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.SupportRemoval(supportObj));
 
-Python
+Python  
 : index1 = removalSequence.IndexOf(Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.BaseRemoval());
   index2 = removalSequence.IndexOf(Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.SupportRemoval(supportObj));
 
