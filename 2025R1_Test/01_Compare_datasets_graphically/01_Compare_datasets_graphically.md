@@ -76,23 +76,8 @@ build_df = pd.DataFrame(build_data).dropna().set_index('Build ID').sort_index()
 build_df.head()
 ```
 
+&nbsp;
 
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -127,9 +112,6 @@ build_df.head()
     </tr>
   </tbody>
 </table>
-</div>
-
-
 
 Create a second DataFrame, `tensile_df`, that contains the tensile test results. Again, set the index to be the *Build ID* attribute value
 and sort by both this index and the *Specimen ID*.
@@ -148,11 +130,9 @@ tensile_df.head()
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
-
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
     .dataframe thead th {
         text-align: right;
     }
@@ -234,11 +214,9 @@ df.head()
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
-
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
     .dataframe thead th {
         text-align: right;
     }
@@ -329,11 +307,9 @@ df_processed.head()
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
-
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
     .dataframe thead th {
         text-align: right;
     }
@@ -560,11 +536,9 @@ df_L_or_LT.head()
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
-
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
     .dataframe thead th {
         text-align: right;
     }
