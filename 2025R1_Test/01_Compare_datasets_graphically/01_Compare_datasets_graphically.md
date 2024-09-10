@@ -10,7 +10,7 @@ Connect to MI and specify a database.
 ```python
 from GRANTA_MIScriptingToolkit import granta as mpy
 
-mi = mpy.connect("http://my.server.name/mi_servicelayer", autologon=True)
+mi = mpy.connect("http://localhost/mi_servicelayer", autologon=True)
 training_db = mi.get_db('MI Training')
 training_db.set_unit_system('Metric')
 ```
@@ -78,6 +78,7 @@ build_df.head()
 
 &nbsp;
 
+
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -113,6 +114,9 @@ build_df.head()
   </tbody>
 </table>
 
+
+
+
 Create a second DataFrame, `tensile_df`, that contains the tensile test results. Again, set the index to be the *Build ID* attribute value
 and sort by both this index and the *Specimen ID*.
 
@@ -122,21 +126,10 @@ tensile_df = pd.DataFrame(tensile_data).set_index('Build ID').sort_values(by=["B
 tensile_df.head()
 ```
 
+&nbsp;
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -192,7 +185,7 @@ tensile_df.head()
     </tr>
   </tbody>
 </table>
-</div>
+
 
 
 
@@ -206,21 +199,10 @@ df = build_df.join(tensile_df)
 df.head()
 ```
 
+&nbsp;
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -283,7 +265,7 @@ df.head()
     </tr>
   </tbody>
 </table>
-</div>
+
 
 
 
@@ -299,21 +281,10 @@ df_processed['Specimen ID'] = df['Specimen ID']
 df_processed.head()
 ```
 
+&nbsp;
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -376,7 +347,7 @@ df_processed.head()
     </tr>
   </tbody>
 </table>
-</div>
+
 
 
 
@@ -392,11 +363,13 @@ units
 
 
 
+Previous cell output:
 
-    {'Travel Speed': 'm/s',
-     '0.2% Offset Yield Stress': 'MPa',
-     'Ultimate Tensile Strength': 'MPa'}
-
+```output
+{'Travel Speed': 'm/s',
+ '0.2% Offset Yield Stress': 'MPa',
+ 'Ultimate Tensile Strength': 'MPa'}
+```
 
 
 ## Plot the data
@@ -508,13 +481,15 @@ df_processed['Specimen Orientation'].value_counts()
 
 
 
+Previous cell output:
 
-    Specimen Orientation
-    L     34
-    LT    32
-    AT     7
-    Name: count, dtype: int64
-
+```output
+Specimen Orientation
+L     34
+LT    32
+AT     7
+Name: count, dtype: int64
+```
 
 
 There are only 7 values for 'AT', which is less than 10% of the overall dataset. 
@@ -528,21 +503,9 @@ df_L_or_LT = df_processed[rows_to_keep]
 df_L_or_LT.head()
 ```
 
+&nbsp;
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -605,7 +568,7 @@ df_L_or_LT.head()
     </tr>
   </tbody>
 </table>
-</div>
+
 
 
 
@@ -618,12 +581,14 @@ df_L_or_LT['Specimen Orientation'].value_counts()
 
 
 
+Previous cell output:
 
-    Specimen Orientation
-    L     34
-    LT    32
-    Name: count, dtype: int64
-
+```output
+Specimen Orientation
+L     34
+LT    32
+Name: count, dtype: int64
+```
 
 
 Specify `split=True` in the `sns.violinplot` constructor to show the two distributions side-by-side. The dependence

@@ -785,3 +785,6 @@ Thickness of the Sub Laminate.
 #### update_plot()
 
 Updates the data of the 2D plot.
+
+| 
+
