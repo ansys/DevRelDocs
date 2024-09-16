@@ -52,7 +52,7 @@ An action is applied immediately to a selected object without any user interacti
 
 **When to Use**
 
-- hen the user selects one object and applies a command. 
+- When the user selects one object and applies a command. 
   - Selecting more than one object is permitted, but other workflows may be more appropriate in that case. 
 - Used for very simple and straightforward operations. 
 

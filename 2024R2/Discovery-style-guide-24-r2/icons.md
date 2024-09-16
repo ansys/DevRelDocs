@@ -2,9 +2,9 @@
 
 Icons are a powerful visual communication medium in the UI: using graphical elements, they convey the meaning of a button and its function; and the active and changed status of the application. Icons also contribute to conservation of screen real estate, making sure that every pixel counts. They also help users visually process concepts faster by making them recognize them, rather than recall.
 
-[Icon Guideline Cheat Sheet](#_Cheat_Sheet)
+[Icon guideline cheat sheet](#cheat-sheet)
 
-## For Designers: Creating Icons
+## For Designers: Creating icons
 
 We approach icon design by understanding why the user will look for an icon in the application, what it should represent, where it will display in the interface, and how it will render in different themes. Through our icons, we aim for consistency, legibility, and clarity.
 
@@ -21,7 +21,7 @@ While the following rules and guidelines cater to most icons, thoughtful excepti
 
 To keep icons consistent, clear, flexible, and easily scalable, follow these rules, guidelines, and tips.
 
-### Rules, Guidelines, and Tips
+### Rules, guidelines, and tips
 
 #### Rules
 
@@ -43,7 +43,7 @@ To keep icons consistent, clear, flexible, and easily scalable, follow these rul
 
 -   Always design icons by keeping in mind the context of use, including whether it is important for an icon’s colors to be the same across themes (see [Themes and Icon Colors](#themes-and-icon-colors)).
 -   Use the minimum number of colors needed to get the meaning across.
--   Constrain yourself to the smallest [size](#_Sizes) the icon will show up in the UI. It is always easy to scale up rather than down.
+-   Constrain yourself to the smallest [size](#sizes) the icon will show up in the UI. It is always easy to scale up rather than down.
 -   Be mindful of negative space and overlap.
 -   Use a [design grid](#using-a-grid) for consistent sizing.
 -   Use [glow](#adding-glow) to enhance visibility against dark backgrounds.
@@ -53,9 +53,9 @@ To keep icons consistent, clear, flexible, and easily scalable, follow these rul
 -   Try out the icons with exact/intended colors over samples of UI at the original button size using [pixel previewing](#pixel-pushing) in your design tool (e.g., the Pixel Preview feature in Adobe Illustrator).
 -   Save different versions and iterations of the icon as changes occur.
 
-### Additional Information
+### Additional information
 
-#### Semi-Flat Styling
+#### Semi-flat styling
 
 Icons have a semi-flat look, which means that while lighting and shadows make them appear somewhat 3D, they do not follow the rules of rendering like a real physical object. So, multiple elements in these icons do not cast shadows upon each other. The styling of these icons is inspired from [marker rendering](https://www.youtube.com/watch?v=MCIBxTDJIp0&t=1s) and painting techniques.
 
@@ -71,7 +71,7 @@ General sizes: **8px, 16px, 24px, 28px, 32px, 48px, 64px, 96px**
 
 Cursor sizes: **12px, 24px, 32px**
 
-#### Using a Grid
+#### Using a grid
 
 We use a grid (provided in the separate file named Grid for icon design.svg) for balance and visibility. But this is only to be used as a starting reference, and not as a strict outline for placing shapes within the square artboard.
 
@@ -81,9 +81,9 @@ Deviating from the grid may be necessary for clarity and context. Sometimes the 
 
 Figure 31: Example of Deviating from the Grid to Improve an Icon
 
-#### Themes and Icon Colors
+#### Themes and icon colors
 
-Theme-specific icons have some, or all, shapes that use different colors based on theme. (See [Theme-Dependent Coloring](#theme-dependent-coloring) for details.) There are six theme-dependent colors (refer to the [cheat sheet](#cheat-sheet) for more information) to be used.
+Theme-specific icons have some, or all, shapes that use different colors based on theme. (See [Theme-dependent coloring](./colors.md#theme-dependent-coloring) for details.) There are six theme-dependent colors (refer to the [cheat sheet](#cheat-sheet) for more information) to be used.
 
 ![Shape, icon, rectangle Description automatically generated](media/e168d6163cee39e9e11d0d2ea60a8d73.png)
 
@@ -95,7 +95,7 @@ Static icons have shapes that must not change color based on theme. These icons 
 
 Figure 33: Same Static Icon Shown in Dark Theme (Left) and Light Theme (Right)
 
-#### Adding Glow
+#### Adding glow
 
 Icons, particularly of small size, might have outlines with decreased visibility against dark backgrounds.
 
@@ -113,7 +113,7 @@ Figure 35: Dark Background: Icon with Glow Has a Visible Outline
 
 Figure 36: Light Background: Glow is Not Noticeable
 
-#### Pixel Pushing
+#### Pixel pushing
 
 Contents of some icons might not render correctly at a small size. This is usually caused by the individual pixels of the icon shapes not aligning to the display’s pixel grid.
 
@@ -137,7 +137,7 @@ Figure 38: Zoomed-In View of Icons Shown Above
 
 Figure 39: Pixel Grid Overlaid on Icons
 
-#### Using Symbology
+#### Using symbology
 
 To make specific actions intuitive, use a standard set of symbols and graphic elements across icons. These symbols should convey functional or domain-specific engineering simulation concepts, and they are typically held constant within and across icon category groupings.
 
@@ -173,16 +173,16 @@ Figure 44: Combining Symbols to Generate Meaning
 
 Figure 45: Representations of Objects
 
-## Cheat Sheet
+## Cheat sheet
 
 ![Graphical user interface, application Description automatically generated](media/7929594f76c86c7d74118623a2fbc6ce.jpeg)
 
 Figure 46: Cheat Sheet for Icon Design
 
-# Revision History
+## Revision history
 
-| **​Version**  | **​Date**     | **​Description of Changes**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **​Version**  | **​Date**     | **​Description of changes**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |--------------|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ​23R2         | ​July 2023    | ​Initial version                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| ​24R1         | ​January 2024 | Updated Figures 1-7 and Excel spreadsheet to reflect changes to color palettes in [Color Palettes and Their Usage](#_Color_Palettes_and) Moved and updated information about [Font Colors](#font-colors) Updated the typefaces used by Discovery in [Typefaces](#typefaces) Clarified usage of small caps font treatment in [Small Caps](#small-caps), and added guidance for other [Font Treatments](#font-treatments) Updated information about [Main UI Fonts](#main-ui-fonts) and [Help Overlay Fonts](#help-overlay-fonts) Reorganized [Capitalization](#capitalization) section, and updated to reflect changes to small caps usage  |
-| 24R2         | July 2024    | New row added in [Color Palettes and Their Usage](#_Color_Palettes_and) New section added for [3D Data Visualization Colors](#3d-data-visualization-colors)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| ​24R1         | ​January 2024 | Updated Figures 1-7 and Excel spreadsheet to reflect changes to color palettes in [Color palettes and their usage](./colors.md#color-palettes-and-their-usage) Moved and updated information about [Font colors](#font-colors) Updated the typefaces used by Discovery in [Typefaces](#typefaces) Clarified usage of small caps font treatment in [Small caps](#small-caps), and added guidance for other [Font treatments](#font-treatments) Updated information about [Main UI fonts](#main-ui-fonts) and [Help overlay fonts](#help-overlay-fonts) Reorganized [Capitalization](#capitalization) section, and updated to reflect changes to small caps usage  |
+| 24R2         | July 2024    | New row added in [Color palettes and their usage](./colors.md#color-palettes-and-their-usage) New section added for [3D data visualization colors](#3d-data-visualization-colors)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
