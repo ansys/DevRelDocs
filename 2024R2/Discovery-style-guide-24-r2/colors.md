@@ -1,15 +1,15 @@
 # Colors
 
-## Color Palettes and Their Usage
+## Color palettes and their usage
 
-Details for all color palettes (including Hex and RGB info) are included in a separate Excel file (Ansys Design Language Color Palettes). Guidelines for using the palettes are as follows:
+Details for all color palettes (including Hex and RGB info) are included in a separate Excel file ([Ansys Design Language Color Palettes]([href="https://github.com/ansys/DevRelPublic/raw/main/Downloads/Discovery/2024R2/Ansys%20Design%20Language%20Color%20Palettes%20-%20Discovery.xlsx])). Guidelines for using the palettes are as follows:
 
-| **Application**                                                                                    | **Palette Usage**                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Application**                                                                                    | **Palette usage**                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | UI elements such as buttons panel backgrounds indicators of status and state  NOT icons or cursors | Main UI Control Colors per Theme All UI Control Colors  The “Main UI Control Colors per Theme” palette includes the main colors that are used in each theme and how they are used (see also Figures 1-4 below).  If you need more colors, choose from the “All UI Control Colors” palette. For guidance on colors with specific meanings, see the semantic colors in Figure 5 below.                                                                                   |
 | Icons and cursors                                                                                  | Theme-Dependent Icon Colors Additional Colors  Use the “Theme-Dependent Icon Colors” palette for icon colors that should change with the theme, as described in [Theme-Dependent Coloring](#theme-dependent-coloring) If you need more colors, choose them from the “Additional Colors” palette.                                                                                                                                                                       |
 | Predefined colors the user can assign                                                              | User-Assignable Colors Additional Colors  Use the “User-Assignable Colors” palette as the predefined colors in the color picker that appears in a product when a user has the option to choose a color explicitly (e.g., for a chart line). See [Assignable Colors](#_Assignable_Colors) for details.  There is a vivid palette and a muted palette.  If you need to include more colors for the user to choose from, use colors from the “Additional Colors” palette. |
-| Colormaps and legends for data visualization                                                       | 3D Data Visualization Colors    Default: Turbo  Alternate: Cool-warm                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Colormaps and legends for data visualization                                                       | 3D Data Visualization Colors Default: Turbo,  Alternate: Cool-warm                                                                                                                                                                                                                                                                                                                                                                                                   |
 
 ![](media/6aa7893d6f921ba3ebc73abe54fbb2cd.png)
 
@@ -39,23 +39,23 @@ Figure 6: Example of Color Usage in a Product UI (Dark Theme)
 
 Figure 7: Example of Color Usage in a Product UI (Light Theme)
 
-## Font Colors
+## Font colors
 
--   For the main UI font colors, see Figures 1 and 3 in [Color Palettes and Their Usage](#_Color_Palettes_1).
+-   For the main UI font colors, see Figures 1 and 3 in [Color palettes and their usage](#color-palettes-and-their-usage).
 -   For console/scripting text, use the corresponding colors in the dark and light themes of Microsoft Visual Studio.
--   For overlay help text, see Figures 1 and 5 in [Color Palettes and Their Usage](#color-palettes-and-their-usage).
+-   For overlay help text, see Figures 1 and 5 in [Color palettes and their usage](#color-palettes-and-their-usage).
 
-## Icon and Cursor Colors
+## Icon and cursor colors
 
-### Icon Colors
+### Icon colors
 
-Some of the colors used for icons are constant across themes, while others [change between themes](#theme-dependent-coloring) to better match the altered palette. Certain colors used in the icons have assigned meanings, which are discussed in detail in the [Icons section](#themes-and-icon-colors). See [Color Palettes and Their Usage](#_Color_Palettes_1) for details about which colors are to be used in icons.
+Some of the colors used for icons are constant across themes, while others [change between themes](#theme-dependent-coloring) to better match the altered palette. Certain colors used in the icons have assigned meanings, which are discussed in detail in the [Icons section](#themes-and-icon-colors). See [Color palettes and their usage](#color-palettes-and-their-usage) for details about which colors are to be used in icons.
 
 ![](media/2207d4cba54a3aa3cf51261e68c6654d.png)
 
-Figure 8:Shades of Green and White as Examples of Icon Colors.
+Figure 8: Shades of Green and White as Examples of Icon Colors.
 
-### Cursor Colors
+### Cursor colors
 
 The cursor must always be visible, no matter the color of the UI element below it. Unlike stationary icons, cursors move about the screen and are designed to maintain good contrast against any possible background.
 
@@ -67,7 +67,7 @@ Cursors can also have a thin outline of a static color that maintains the cursor
 
 Figure 9: Cursor Outline Ensures Visibility on Different Backgrounds
 
-### Theme-Dependent Coloring
+### Theme-dependent coloring
 
 An icon may need to use different colors based on the selected theme. To ensure that the icons are rendered appropriately in all themes, the designer must create a separate version of the icon for each theme. Based on the active theme, the appropriate version of the icon is used.
 
@@ -83,9 +83,9 @@ The theme-dependent colors for icons are shown below.
 
 Figure 11: Theme-Dependent Colors for Icons
 
-## Status Colors
+## Status colors
 
-These are colors that have been assigned meanings corresponding to the type of information being conveyed in a message or other UI element. As specified in the Main UI Control Colors per Theme palette described in [Color Palettes and Their Usage](#_Color_Palettes_1):
+These are colors that have been assigned meanings corresponding to the type of information being conveyed in a message or other UI element. As specified in the Main UI Control Colors per Theme palette described in [Color palettes and their usage](#color-palettes-and-their-usage):
 
 -   blue for information
 -   green for good
@@ -98,17 +98,17 @@ Note that these colors reinforce a message, but they should not be the only cue 
 
 Figure 12: Red for Errors, Yellow for Warnings, Blue for Information
 
-## Background Colors
+## Background colors
 
-Background colors vary by theme (see [Color Palettes and Their Usage](#_Color_Palettes_1)), and they may include transparency or gradient effects. They cover most of the UI and strongly influence the rest of the palette, as other elements must adjust to maintain proper contrast against the theme’s base colors.
+Background colors vary by theme (see [Color palettes and their usage](#color-palettes-and-their-usage)), and they may include transparency or gradient effects. They cover most of the UI and strongly influence the rest of the palette, as other elements must adjust to maintain proper contrast against the theme’s base colors.
 
 ![](media/a295e07d070b846ac715fc30dee0b8ff.png)
 
 Figure 13: Background Colors are Theme-Dependent
 
-## Assignable Colors
+## Assignable colors
 
-In most products, there are situations where the user can choose colors as part of their workflow. Examples include the colors of chart lines representing different data series and the colors of the bodies of a 3D geometric model. There are two color palettes offered for these situations: the user can choose from a vivid color palette or a muted color palette. See [Color Palettes and Their Usage](#_Color_Palettes_1) for details.
+In most products, there are situations where the user can choose colors as part of their workflow. Examples include the colors of chart lines representing different data series and the colors of the bodies of a 3D geometric model. There are two color palettes offered for these situations: the user can choose from a vivid color palette or a muted color palette. See [Color palettes and their usage](#color-palettes-and-their-usage) for details.
 
 *![Chart, line chart Description automatically generated](media/5136fb65515bcab1baa1a912dc7af2fe.png)*
 
@@ -124,7 +124,7 @@ Figure 15: Body Colors Assigned by the User
 
 Figure 16: Body Colors Based on Assigned Materials
 
-## 3D Data Visualization Colors
+## 3D data visualization colors
 
 Colormaps are used to graphically represent numerical data, such as simulation results displayed using streamlines, contours, or vectors. Alternate colormap options are provided for users with different preferences and needs. These colormaps can be visualized as continuous or discrete rendering (see images below).
 
@@ -150,7 +150,7 @@ Alternate colormap: Cool-warm
 
 *Cool-warm colormap: discrete rendering example*
 
-## Lighting and Gradients
+## Lighting and gradients
 
 The shading of 3D icons and other 3D elements in the UI (including a 3D model, if relevant) are dictated by an imaginary light source placed at the top left. This position is based on the [historical convention](https://www.frontiersin.org/articles/10.3389/fpsyg.2018.00454/full) followed in Western art and [studies](https://pubmed.ncbi.nlm.nih.gov/15729910/) in human perception.
 
@@ -164,7 +164,7 @@ Figure 17: Effect of Light Source on Highlights and Shadows
 
 Figure 18: Consistent Highlight and Shadows Across a Group of Icons
 
-In a 3D model-based application, slight gradient background coloring should be used for the scene in order to provide the necessary depth for an immersive experience. In other types of applications, a flat background color that contrasts well with the foreground UI elements should be used. (See [Color Palettes and Their Usage](#_Color_Palettes_1) for gradient and flat background colors.)
+In a 3D model-based application, slight gradient background coloring should be used for the scene in order to provide the necessary depth for an immersive experience. In other types of applications, a flat background color that contrasts well with the foreground UI elements should be used. (See [Color palettes and their usage](#color-palettes-and-their-usage) for gradient and flat background colors.)
 
 ![A picture containing text, electronics Description automatically generated](media/f1c477790250560acd6cb5603e05ffa9.png)
 
