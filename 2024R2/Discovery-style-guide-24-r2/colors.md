@@ -2,7 +2,7 @@
 
 ## Color palettes and their usage
 
-Details for all color palettes (including Hex and RGB info) are included in a separate Excel file ([Ansys Design Language Color Palettes]([href="https://github.com/ansys/DevRelPublic/raw/main/Downloads/Discovery/2024R2/Ansys%20Design%20Language%20Color%20Palettes%20-%20Discovery.xlsx])). Guidelines for using the palettes are as follows:
+Details for all color palettes (including Hex and RGB info) are included in a separate Excel file ([Ansys Design Language Color Palettes](https://github.com/ansys/DevRelPublic/raw/main/Downloads/Discovery/2024R2/Ansys%20Design%20Language%20Color%20Palettes%20-%20Discovery.xlsx)). Guidelines for using the palettes are as follows:
 
 | **Application**                                                                                    | **Palette usage**                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -13,37 +13,29 @@ Details for all color palettes (including Hex and RGB info) are included in a se
 
 ![](media/6aa7893d6f921ba3ebc73abe54fbb2cd.png)
 
-Figure 1: Main Colors Used in the Dark Theme
-
-![](media/67fac04e713c938d2a8b99f1948f789a.png)
-
-Figure 2: Main Color Gradients Used in the Dark Theme
+<center>Figure 1: Main Colors Used in the Dark Theme</center>
 
 ![](media/f39f861bc210d3f49b70f4112c94ab01.png)
 
-Figure 3: Main Colors Used in the Light Theme
-
-![](media/f39f861bc210d3f49b70f4112c94ab01.png)
-
-Figure 4: Main Color Gradients Used in the Light Theme
+<center>Figure 2: Main Colors Used in the Light Theme</center>
 
 ![](media/bab162d004dcbfa748e2b2dab56708eb.png)
 
-Figure 5: Semantic Colors Used in All Themes
+<center>Figure 3: Semantic Colors Used in All Themes</center>
 
 ![](media/de7c121e5610da7df57d11f9933d1ee1.png)
 
-Figure 6: Example of Color Usage in a Product UI (Dark Theme)
+<center>Figure 4: Example of Color Usage in a Product UI (Dark Theme)</center>
 
 ![](media/ecc796e2c7281a7eb54f737058d5aea8.png)
 
-Figure 7: Example of Color Usage in a Product UI (Light Theme)
+<center>Figure 5: Example of Color Usage in a Product UI (Light Theme)</center>
 
 ## Font colors
 
--   For the main UI font colors, see Figures 1 and 3 in [Color palettes and their usage](#color-palettes-and-their-usage).
+-   For the main UI font colors, see Figures 1 and 2 in [Color palettes and their usage](#color-palettes-and-their-usage).
 -   For console/scripting text, use the corresponding colors in the dark and light themes of Microsoft Visual Studio.
--   For overlay help text, see Figures 1 and 5 in [Color palettes and their usage](#color-palettes-and-their-usage).
+-   For overlay help text, see Figures 1 and 4 in [Color palettes and their usage](#color-palettes-and-their-usage).
 
 ## Icon and cursor colors
 
@@ -53,7 +45,7 @@ Some of the colors used for icons are constant across themes, while others [chan
 
 ![](media/2207d4cba54a3aa3cf51261e68c6654d.png)
 
-Figure 8: Shades of Green and White as Examples of Icon Colors.
+<center>Figure 6: Shades of Green and White as Examples of Icon Colors.</center>
 
 ### Cursor colors
 
@@ -65,7 +57,7 @@ Cursors can also have a thin outline of a static color that maintains the cursor
 
 ![Shape Description automatically generated](media/a825507d518f8a74b8946943909cc41a.png)
 
-Figure 9: Cursor Outline Ensures Visibility on Different Backgrounds
+<center>Figure 7: Cursor Outline Ensures Visibility on Different Backgrounds</center>
 
 ### Theme-dependent coloring
 
@@ -75,13 +67,13 @@ The following example shows how the light and dark versions of an icon would loo
 
 ![A picture containing application Description automatically generated](media/c862306d16b686dc308e84b077b4ae26.jpeg)
 
-Figure 10: Example of Theme-Dependent Coloring in an Icon
+<center>Figure 8: Example of Theme-Dependent Coloring in an Icon</center>
 
 The theme-dependent colors for icons are shown below.
 
 ![Graphical user interface, application Description automatically generated](media/9a75965ecd610c57cd32669e94be8628.jpeg)
 
-Figure 11: Theme-Dependent Colors for Icons
+<center>Figure 9: Theme-Dependent Colors for Icons</center>
 
 ## Status colors
 
@@ -96,7 +88,7 @@ Note that these colors reinforce a message, but they should not be the only cue 
 
 ![Icon Description automatically generated](media/014f07a3587f599480b221185fb73bf0.png)
 
-Figure 12: Red for Errors, Yellow for Warnings, Blue for Information
+<center>Figure 10: Red for Errors, Yellow for Warnings, Blue for Information</center>
 
 ## Background colors
 
@@ -104,7 +96,7 @@ Background colors vary by theme (see [Color palettes and their usage](#color-pal
 
 ![](media/a295e07d070b846ac715fc30dee0b8ff.png)
 
-Figure 13: Background Colors are Theme-Dependent
+<center>Figure 11: Background Colors are Theme-Dependent</center>
 
 ## Assignable colors
 
@@ -112,17 +104,17 @@ In most products, there are situations where the user can choose colors as part 
 
 *![Chart, line chart Description automatically generated](media/5136fb65515bcab1baa1a912dc7af2fe.png)*
 
-Figure 14: Chart Lines with Colors Assigned by the User
+<center>Figure 12: Chart Lines with Colors Assigned by the User</center>
 
 Note that 3D geometry models also have colors assigned to their bodies based on their defined materials; the user can choose whether to view the material-based colors or the user-specified colors. In either case, colors on the 3D model change to indicate what the user has selected, as indicated in the Graphical Selection row of Figure 5.
 
 ![](media/94f43b36a7f00ed6718bc7d12ab65cb4.png)
 
-Figure 15: Body Colors Assigned by the User
+<center>Figure 13: Body Colors Assigned by the User</center>
 
 ![](media/2ec880c77f6ee1a2d7513b5e62a76921.png)
 
-Figure 16: Body Colors Based on Assigned Materials
+<center>Figure 14: Body Colors Based on Assigned Materials</center>
 
 ## 3D data visualization colors
 
@@ -132,23 +124,23 @@ Default colormap: Turbo
 Alternate colormap: Cool-warm
 
 ![A screenshot of a color chart Description automatically generated](media/39f5a04a07792db9bf8aa52aec5278d7.png)  
-*Default and alternate colormaps (see the Color Palettes Excel File for RGB values)*
+<center>Figure 15: Default and alternate colormaps (see the Color Palettes Excel File for RGB values)</center>
 
 ![A computer generated image of a mechanical engine Description automatically generated](media/4b4f0ce0983159ce1a484c6647432700.png)
 
-*Turbo colormap: continuous rendering example*
+<center>Figure 16: Turbo colormap: continuous rendering example</center>
 
 ![A computer screen shot of a machine Description automatically generated](media/a8078e01b621f9d735aa7d46b931e45e.png)
 
-*Cool-warm colormap: continuous rendering example*
+<center>Figure 17: Cool-warm colormap: continuous rendering example</center>
 
 ![A computer generated image of a machine Description automatically generated](media/3d3d02ff83f3f0827340abb5dce28eee.png)
 
-*Turbo colormap: discrete rendering example*
+<center>Figure 18: Turbo colormap: discrete rendering example</center>
 
 ![A computer screen shot of a machine Description automatically generated](media/7b6504754bc8a6cf7d1c03381b0c4800.png)
 
-*Cool-warm colormap: discrete rendering example*
+<center>Figure 19: Cool-warm colormap: discrete rendering example</center>
 
 ## Lighting and gradients
 
@@ -158,15 +150,15 @@ The highlights are cast on the top and left-side features of the icons and shado
 
 *![A picture containing icon Description automatically generated](media/74b6b0199c3813675c0ffb6dc1f505b8.png)*
 
-Figure 17: Effect of Light Source on Highlights and Shadows
+<center>Figure 20: Effect of Light Source on Highlights and Shadows</center>
 
 *![A picture containing graphical user interface Description automatically generated](media/d110fbd34d81e58cc87561615f30f123.png)*
 
-Figure 18: Consistent Highlight and Shadows Across a Group of Icons
+<center>Figure 21: Consistent Highlight and Shadows Across a Group of Icons</center>
 
 In a 3D model-based application, slight gradient background coloring should be used for the scene in order to provide the necessary depth for an immersive experience. In other types of applications, a flat background color that contrasts well with the foreground UI elements should be used. (See [Color palettes and their usage](#color-palettes-and-their-usage) for gradient and flat background colors.)
 
 ![A picture containing text, electronics Description automatically generated](media/f1c477790250560acd6cb5603e05ffa9.png)
 
-Figure 19: Gradient Background for 3D Model-Based Application
+<center>Figure 22: Gradient Background for 3D Model-Based Application</center>
 
