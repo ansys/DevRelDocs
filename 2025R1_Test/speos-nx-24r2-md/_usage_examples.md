@@ -1,0 +1,20 @@
+<a id="_usage_examples"></a>
+# Usage examples
+
+
+
+## Creating a feature Source
+
+
+
+
+
+
+preformatted {"type":"element","name":"preformatted","attributes":{},"children":[{"type":"text","text":"\n  "},{"type":"element","name":"computeroutput","attributes":{},"children":[{"type":"text","text":"\n    import os \n    import sys\n\n    # NXOpen Python\n    import NXOpen\n\n    ########################################################\n    # Loading NX and SNX\n    ########################################################\n\n    # Add path for to import SNX\n    sys.path.append(os.environ[\"SPEOS_NX_DIR\"] + \"\\\\application\") \n    import SpeosNX \n\n    # Set load option\n    MyNXSession = NXOpen.Session.GetSession()\n    MyNXSession.Parts.LoadOptions.PartLoadOption = NXOpen.LoadOptions.LoadOption.FullyLoad\n    MyNXSession.Parts.LoadOptions.ComponentsToLoad = NXOpen.LoadOptions.LoadComponents.LastSet\n\n    # Open .prt file\n    basePart1, partLoadStatus1 = MyNXSession.Parts.OpenActiveDisplay(\"./assembly1.prt\", NXOpen.DisplayPartOption.AllowAdditional)\n    partLoadStatus1.Dispose()\n\n    # Switch to NX Modeling\n    MyNXSession.ApplicationSwitchImmediate(\"UG_APP_GATEWAY\")\n\n    # Switch to Speos\n    MyNXSession.ApplicationSwitchImmediate(\"SPEOS_MAIN_APP\")\n\n    # Load SNX\n    Session = SpeosNX.Session.GetSession()\n    PartCollection = Session.Parts\n    Work = PartCollection.Work\n    FeatureCollection = Work.Features\n    PartCollection.Load()\n\n\n    ########################################################\n    # Get NX features and set file path\n    ########################################################\n\n    # Retrieve axis system tags\n    workPart = MyNXSession.Parts.Work\n    origin = workPart.Features.FindObject(\"POINT(1)\").FindObject(\"POINT 1\")\n    xAxis = workPart.Datums.FindObject(\"DATUM_AXIS(2)\")\n    yAxis = workPart.Datums.FindObject(\"DATUM_AXIS(3)\")\n\n    # Retrieve guide\n    guide = workPart.ComponentAssembly.RootComponent.FindObject(\"COMPONENT Guide 1\")\n    bodyguide = guide.FindObject(\"PROTO#.Bodies|EXTRUDE(3)\")\n\n    # input path folder\n    inputPath = os.environ[\"UGII_TMP_DIR\"] + os.sep + \"Speos input files\" + os.sep\n\n\n    ########################################################\n    # Creating SNX Feature\n    ########################################################\n\n    # Creates the builder\n    SurfaceSource = FeatureCollection.CreateSourceSurfaceBuilder(None)\n\n    # Feature name,\n    SurfaceSource.Name = \"Some source\"\n\n    # General\n    SurfaceSource.FluxUnitType = 1\n    SurfaceSource.Flux = 1.777\n    SurfaceSource.SpectrumType = 1\n    SurfaceSource.Temperature = 3333.3\n\n    # Emissive Faces\n    SurfaceSource.ExitanceType = 1\n    SurfaceSource.ExitanceDistributionFile = inputPath + \"Exitance2.xmp\"\n    SurfaceSource.ExitanceOriginPoint = origin.Tag\n    SurfaceSource.ExitanceXDirection = xAxis.Tag\n    SurfaceSource.ExitanceYDirection = yAxis.Tag\n    SurfaceSource.ExitanceYDirectionReverse = True\n\n    # Intensity\n    SurfaceSource.EnumIntensityType = 1\n    SurfaceSource.IntensityTotalAngle = 180\n\n    # Geometries\n    SurfaceSource.AssociatedGeometries = [bodyguide.Tag]\n\n    # Properties\n    SurfaceSource.NumberOfRays = 10000\n    SurfaceSource.RayLength = 100\n\n    # Create the feature\n    SurfaceSource.Commit()\n\n    # Save and quit\n    MyNXSession.Parts.SaveAll()\n    MyNXSession.Parts.CloseAll(NXOpen.BasePart.CloseModified.CloseModified, None)\n  "}]},{"type":"text","text":"\n "}]}
+
+[Python]: https://img.shields.io/badge/language-Python-blue (Python)
+[protected]: https://img.shields.io/badge/-protected-yellow (protected)
+[private]: https://img.shields.io/badge/-private-red (private)
+[static]: https://img.shields.io/badge/-static-lightgrey (static)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
