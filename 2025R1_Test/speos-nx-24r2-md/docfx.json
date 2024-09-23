@@ -1,0 +1,13 @@
+{
+    "build": {
+      "globalMetadata": {
+        "title": "Speos NX API",
+        "summary": "seaborg test melanie",
+        "version": "2024 R1",
+        "product": "Ansys Speos",
+        "programming language": "Python",
+        "product collection": "Optics",
+        "physics": "Optics"
+      }
+    }
+ }
