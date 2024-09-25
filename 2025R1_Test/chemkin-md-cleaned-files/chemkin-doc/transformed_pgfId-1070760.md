@@ -1,0 +1,33 @@
+# MCREWR
+
+    
+    
+    MCREWR    MCREWR    MCREWR    MCREWR    MCREWR    MCREWR    MCREWR    
+              **********************************************
+                        **************************
+                                  ******
+    
+    SUBROUTINE MCREWR (LINKMC, LOUT, IMCWRK, RMCWRK, IFLAG)
+    This subroutine writes a new the transport linkfile from
+    the data stored in the integer and real work arrays,
+    IMCWRK(*) and RMCWRK(*).
+    
+    INPUT
+    LINKMC    - Integer scalar, transport linkfile output unit number.
+    LOUT      - Integer scalar, formatted output file unit number.
+    
+    OUTPUT
+    IMCWRK(*) - Integer workspace array; dimension at least LENIMC.
+    RMCWRK(*) - Real    workspace array; dimension at least LENRMC.
+
+[ « 9.13. MCPRAM](pgfId-1070721api.md)
+
+ [9.15. MCSAVE » ](pgfId-1070780.md)
+
+Contains proprietary and confidential information of ANSYS, Inc. and its
+subsidiaries and affiliates.
+
+Release 2025 R1 - (C) ANSYS, Inc. All rights reserved.
+
+Draft Published: 2024-07-05T13:14:42-04:00
+
