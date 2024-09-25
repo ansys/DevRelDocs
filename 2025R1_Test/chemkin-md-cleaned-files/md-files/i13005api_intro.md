@@ -64,5 +64,4 @@ i13005api_list_surf_kin.md
 
 Release 2025 R1 - (C) ANSYS, Inc. All rights reserved.
 
-Draft Published: 2024-07-05T13:22:48-04:00
 chemkin_api.mdchemkin_api.md../../index.aspi43132.md

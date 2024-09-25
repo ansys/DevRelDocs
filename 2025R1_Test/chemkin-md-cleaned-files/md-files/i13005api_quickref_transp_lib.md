@@ -9,14 +9,7 @@ purpose of the subroutine is briefly described.
 Contains proprietary and confidential information of ANSYS, Inc. and its
 subsidiaries and affiliates.
 
-* * *
-
-| [PrevpgfId-1072442.mdmd) | / [Contents](chemkin_api.md) / [Home](../../index.asp) | [Next](pgfId-1062650.md) |
-| ------------------------ | --------------------------------------------------------- | ------------------------ |
-
-* * *
 
 Release 2025 R1 - (C) ANSYS, Inc. All rights reserved.
 
-Draft Published: 2024-07-05T13:22:50-04:00
 

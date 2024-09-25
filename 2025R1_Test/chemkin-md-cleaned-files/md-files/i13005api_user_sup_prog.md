@@ -21,14 +21,7 @@ administrator for assistance in setting up a local install.
 Contains proprietary and confidential information of ANSYS, Inc. and its
 subsidiaries and affiliates.
 
-* * *
-
-| [PrevpgfId-1021250.mdmd) | / [Contents](chemkin_api.md) / [Home](../../index.asp) | [Next](pgfId-1071662.md) |
-| ------------------------ | --------------------------------------------------------- | ------------------------ |
-
-* * *
 
 Release 2025 R1 - (C) ANSYS, Inc. All rights reserved.
 
-Draft Published: 2024-07-05T13:22:48-04:00
 
