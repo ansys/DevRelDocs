@@ -8,14 +8,7 @@ described.
 Contains proprietary and confidential information of ANSYS, Inc. and its
 subsidiaries and affiliates.
 
-* * *
-
-| [PrevpgfId-1068172.mdmd) | / [Contents](chemkin_api.md) / [Home](../../index.asp) | [Next](pgfId-1071760.md) |
-| ------------------------ | --------------------------------------------------------- | ------------------------ |
-
-* * *
 
 Release 2025 R1 - (C) ANSYS, Inc. All rights reserved.
 
-Draft Published: 2024-07-05T13:22:50-04:00
 

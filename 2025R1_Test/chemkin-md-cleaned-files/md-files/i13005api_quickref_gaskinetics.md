@@ -11,14 +11,8 @@ Alphabetical Listing of the Gas-phase Kinetics Subroutine Library") .i13005api_l
 Contains proprietary and confidential information of ANSYS, Inc. and its
 subsidiaries and affiliates.
 
-* * *
 
-| [Prev](pgfId-1126691.md) | / [Contents](chemkin_api.md) / [Home](../index.asp?Tab=1) | [Next](pgfId-1066782.md) |
-| ------------------------ | --------------------------------------------------------- | ------------------------ |
-pgfId-1126691.mdchemkin_api.md../../index.asppgfId-1066782.md
-* * *
 
 Release 2025 R1 - (C) ANSYS, Inc. All rights reserved.
 
-Draft Published: 2024-07-05T13:22:50-04:00
 

@@ -9,14 +9,7 @@ stated.
 Contains proprietary and confidential information of ANSYS, Inc. and its
 subsidiaries and affiliates.
 
-* * *
-
-| [PrevpgfId-1095995.mdmd) | / [Contents](chemkin_api.md) / [Home](../../index.asp) | [Next](pgfId-1107884.md) |
-| ------------------------ | --------------------------------------------------------- | ------------------------ |
-
-* * *
 
 Release 2025 R1 - (C) ANSYS, Inc. All rights reserved.
 
-Draft Published: 2024-07-05T13:22:52-04:00
 
