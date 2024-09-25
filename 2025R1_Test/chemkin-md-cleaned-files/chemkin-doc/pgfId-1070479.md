@@ -1,0 +1,41 @@
+# MCCCEX
+
+    
+    
+    MCCCEX    MCCCEX    MCCCEX    MCCCEX    MCCCEX    MCCCEX    MCCCEX    
+              **********************************************
+                        **************************
+                                  ******
+    
+    SUBROUTINE MCCCEX (K, RMCWRK, COFCON)
+    Gets or puts values of the fitting coefficients for the
+    polynomial fits to species conductivity.
+    
+    INPUT
+    K         - Integer scalar, species index.
+                K > 0 gets coefficients from RMCWRK
+                K < 0 puts coefficients into RMCWRK
+    RMCWRK(*) - Real workspace array; dimension at least LENRMC.
+    
+    If K < 1:
+    COFCON    - Real vector of polynomial coefficients for
+                the species' conductivity; dimension at least NO,
+                usually 4.
+    
+    OUTPUT
+    If K > 1:
+    COFCON    - Real vector of polynomial coefficients for
+                the species' conductivity; dimension at least NO,
+                usually 4.
+
+[ « 9.4. MCAVIS](pgfId-1070456.md)
+
+ [9.6. MCCDEX » ](pgfId-1070507.md)
+
+Contains proprietary and confidential information of ANSYS, Inc. and its
+subsidiaries and affiliates.
+
+Release 2025 R1 - (C) ANSYS, Inc. All rights reserved.
+
+Draft Published: 2024-07-05T13:14:42-04:00
+
