@@ -20,8 +20,6 @@ is described, the FORTRAN interface is shown with the additional subroutine or
 function appendix or additional arguments required by the C++ interface
 enclosed in { }. For example:
 
-    
-    
     SUBROUTINE CKCOMP{_C} ({N,NARRAY, } IST, IRAY, II, I)
     
     has FORTRAN interface                           and C++ interface

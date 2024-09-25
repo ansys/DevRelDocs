@@ -1,7 +1,5 @@
 # MCPRAM
 
-    
-    
     MCPRAM    MCPRAM    MCPRAM    MCPRAM    MCPRAM    MCPRAM    MCPRAM    
               **********************************************
                         **************************
