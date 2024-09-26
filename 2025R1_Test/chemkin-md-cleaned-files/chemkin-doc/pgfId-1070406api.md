@@ -1,11 +1,6 @@
 # MCADIF
 
 ```
-MCADIF    MCADIF    MCADIF    MCADIF    MCADIF    MCADIF    MCADIF    
-          **********************************************
-                    **************************
-                              ******
-
 SUBROUTINE MCADIF (P, T, X, RMCWRK, D)
 Returns mixture-averaged diffusion coefficients given pressure,
 temperature, and species mole fractions.

@@ -1,26 +1,25 @@
 import os
 import re
 
-def transform_file(input_file, output_file):
-    with open(input_file, 'r') as f:
-        content = f.read()
+def replace_pattern(directory):
+    # Define the pattern to be replaced
+    pattern = r'(#+ \w+)\n\n\n\n\1.*?\n\s*\*+\n\s*\*+\n\s*\*+\n'
 
-    start_marker = 'MCADIF    MCADIF    MCADIF    MCADIF    MCADIF    MCADIF    MCADIF'
-    end_marker = 'cgs units, cm**2/s'
-
-    pattern = f'({start_marker}.*?{end_marker})'
-    transformed_content = re.sub(pattern, r'```\n\1\n```', content, flags=re.DOTALL)
-
-    with open(output_file, 'w') as f:
-        f.write(transformed_content)
-
-def process_directory(directory):
+    # Walk through all directories and files in the given directory
     for root, dirs, files in os.walk(directory):
         for file in files:
+            # Check if the file is a markdown file
             if file.endswith('.md'):
-                input_file = os.path.join(root, file)
-                output_file = os.path.join(root, 'transformed_' + file)
-                transform_file(input_file, output_file)
+                file_path = os.path.join(root, file)
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    content = f.read()
 
-# Use the function to process a directory
-process_directory('your_directory')
+                # Replace the pattern if it matches
+                if re.search(pattern, content, re.DOTALL):
+                    content = re.sub(pattern, r'\1\n\n', content, flags=re.DOTALL)
+
+                with open(file_path, 'w', encoding='utf-8') as f:
+                    f.write(content)
+
+# Call the function with the directory path
+replace_pattern(r'..\chemkin-doc-test')
