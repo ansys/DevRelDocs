@@ -1,11 +1,6 @@
 # MCPRAM
 
 ```
-MCPRAM    MCPRAM    MCPRAM    MCPRAM    MCPRAM    MCPRAM    MCPRAM    
-         **********************************************
-                  **************************
-                              ******
-
 SUBROUTINE MCPRAM (IMCWRK, RMCWRK, EPS, SIG, DIP, POL, ZROT, NLIN)
 Returns the arrays of molecular parameters as read from the
 transport database.

@@ -1,10 +1,5 @@
 # CKHBMS
 
-    CKHBMS    CKHBMS    CKHBMS    CKHBMS    CKHBMS    CKHBMS    CKHBMS    
-              **********************************************
-                        **************************
-                                  ******
-    
     SUBROUTINE CKHBMS (T, Y, ICKWRK, RCKWRK, HBMS)
     Returns the mean enthalpy of the mixture in mass units.
     
